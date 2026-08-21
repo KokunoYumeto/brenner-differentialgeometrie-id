@@ -1,0 +1,19 @@
+id,source_de,target_id,status,note
+O011-TERM-0001,Differentialgeometrie,geometri diferensial,admitted,Course field
+O011-TERM-0002,Mannigfaltigkeit,manifold,admitted,Use manifold rather than varietas
+O011-TERM-0003,differenzierbare Mannigfaltigkeit,manifold diferensiabel,admitted,Smoothness degree follows source
+O011-TERM-0004,glatte Mannigfaltigkeit,manifold mulus,admitted,Reserve for smooth
+O011-TERM-0005,Hyperfläche,hipermuka,admitted,Codimension-one submanifold
+O011-TERM-0006,Tangentialraum,ruang tangen,admitted,
+O011-TERM-0007,Kotangentialraum,ruang kotangen,admitted,
+O011-TERM-0008,Faser,serat,admitted,Preimage fiber
+O011-TERM-0009,Differentialform,bentuk diferensial,admitted,
+O011-TERM-0010,äußere Ableitung,turunan eksterior,admitted,
+O011-TERM-0011,Zusammenhang,koneksi,admitted,Geometric connection; distinguish connectedness
+O011-TERM-0012,Levi-Civita-Zusammenhang,koneksi Levi-Civita,admitted,
+O011-TERM-0013,geodätische Kurve,kurva geodesik,admitted,
+O011-TERM-0014,Schnittkrümmung,kelengkungan seksional,admitted,
+O011-TERM-0015,Satz von Stokes,teorema Stokes,admitted,
+O011-TERM-0016,Partition der Eins,partisi satuan,admitted,
+O011-TERM-0017,Weingartenabbildung,pemetaan Weingarten,admitted,
+O011-TERM-0018,Normalenfeld,medan normal,admitted,

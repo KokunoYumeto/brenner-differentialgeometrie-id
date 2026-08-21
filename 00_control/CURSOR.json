@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "role_id": "O011",
+  "course_id": "D50",
+  "lane": "smooth-manifolds-differential-geometry-id",
+  "status": "unit_01_verified_unit_02_next",
+  "authority": {
+    "course_pageid": 142521,
+    "course_revid": 889544,
+    "recursive_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+    "revision_set_sha256": "4810e9c13e352db58d7ceb5495c1cf86cb991d2193eaf6a344a48799e7ab0f71"
+  },
+  "last_verified": {
+    "unit_id": "o011-brenner-u01",
+    "lecture": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 1",
+    "worksheet": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 1",
+    "pdf_path": "output/pdf/geometri-diferensial-manifold-mulus-unit-01-id.pdf",
+    "pdf_bytes": 2678755,
+    "pdf_sha256": "eb7e78affacf8a559d0f52a1c44921633d2fa74a070faa64af58efc32d34a568"
+  },
+  "current": {
+    "unit_id": "o011-brenner-u02",
+    "lecture": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 2",
+    "worksheet": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 2"
+  },
+  "standing_push_authorization": true,
+  "publication_gate_passed": true,
+  "publication_allowed": true,
+  "publication": {
+    "repository": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id",
+    "release_tag": "v0.1.0-unit-01",
+    "status": "pending_transaction"
+  },
+  "upstream_contact_allowed": false
+}

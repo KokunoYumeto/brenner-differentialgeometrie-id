@@ -1,0 +1,2459 @@
+\usepackage{german}
+
+\usepackage[latin1]{inputenc}
+
+%\usepackage[utf8]{inputenc}
+
+\usepackage{ifthen}
+
+%\usepackage{fancyhdr}
+
+%Aus Grundvorspann
+
+%Packages
+
+\usepackage{amscd}
+
+\usepackage{amssymb}
+
+\usepackage{epsfig} %Graphik
+
+\usepackage{verbatim,moreverb} %
+
+\usepackage{enumitem}
+
+\usepackage{eurosym}
+
+\usepackage{epigraph}
+
+\setcounter{MaxMatrixCols}{20}
+
+%Mathematische Einzelbefehle
+
+%[[Projekt:Semantische Vorlagen/Mathematischer Modus/Latex]]
+
+\newcommand{\mathdisp}[2]{\[ #1 \, #2 \]}
+
+\newcommand{\mathdisplayteile}[3]{\[ #1 \] \[ #2 \, #3 \]}
+
+\newcommand{\mathind}[3]{$ #1$, $#2 $#3}
+
+\newcommand{\mathbed}[8]{$ #1 ${\ifthenelse{\equal{#2}{}}{, }{ #2 }}$ #3 ${\ifthenelse{\equal{#5}{}}{}{{\ifthenelse{\equal{#4}{}}{, }{ #4 }}}$ #5 $}{\ifthenelse{\equal{#7}{}}{}{{\ifthenelse{\equal{#6}{}}{, }{ #6 }}}$ #7 $}#8}
+
+\newcommand{\mathbeddisp}[8]{\[ #1 {\ifthenelse{\equal{#2}{}}{,\, }{ \text{ #2 } }} #3 {\ifthenelse{\equal{#5}{}}{}{{\ifthenelse{\equal{#4}{}}{,\, }{ \text{ #4 } }}} #5 }{\ifthenelse{\equal{#7}{}}{}{{\ifthenelse{\equal{#6}{}}{,\, }{ \text{ #6 } }}} #7 }#8 \]}
+
+\newcommand{\mathbedtermdisp}[8]{\[ #1\] #2 $ #3 $#4 $ #5 $#6$ #7 $#8}
+
+\newcommand{\mathkon}[4]{$ #1 $ #2 $ #3 $#4}
+
+\newcommand{\mathkor}[5]{{\ifthenelse{\equal{#1}{}}{}{#1 }}$ #2 $ #3 $ #4 $#5}
+
+\newcommand{\mathkork}[5]{{\ifthenelse{\equal{#1}{}}{}{#1 }}$ #2 $ #3 $ #4 $#5}
+
+\newcommand{\mathlist}[5]{$ #1 $\ifthenelse{\equal{#2}{}}{,}{ #2} $ #3 $\ifthenelse{\equal{#4}{}}{,}{ #4} $ #5 $}
+
+\newcommand{\mathlistdisp}[5]{\[  #1  \ifthenelse{\equal{#2}{}}{,}{ \text{ #2 }}  #3  \ifthenelse{\equal{#4}{}}{,}{\text{ #4 } }  #5 \] }
+
+\newcommand{\alignier}[2]{\begin{align*} #1 \, #2 \end{align*}}
+
+\newcommand{\mathlistvierdisp}[7]{\[ #1,\, #3, \, #5 \text{ #6 } #7  \]}
+
+%[[Projekt:Semantische Vorlagen/Mathematische Vergleichsvorlagen/Latex]]
+
+\newcommand{\mavergleichskette}[4]{$ #1 #2 #3#4$}
+
+\newcommand{\mavergleichskettedisp}[4]{\[  #1 #2 #3 #4 \]}
+
+\newcommand{\mavergleichskettedisplang}[4]{\[  #1 #2 #3 #4 \]}
+
+\newcommand{\mavergleichskettealign}[4]{ \begin{eqnarray*}  #1 #2 #3 #4 \end{eqnarray*}  }
+
+\newcommand{\vergleichskette}[9]{ #1 \, #2 \, #3 \ifthenelse
+{\equal {#4}{ }} {} {\, #4 \, #5 }  \ifthenelse {\equal {#6}{ } }{}
+{\, #6 \, #7 } \ifthenelse {\equal {#8}{ }}{} {\, #8 \, #9 }  }
+
+\newcommand{\vergleichskettelang}[9]{ #1 \, #2 \, #3 \ifthenelse
+{\equal {#4}{ }} {} {\, #4 \, #5 }  \ifthenelse {\equal {#6}{ } }{}
+{\, #6 \, #7 } \ifthenelse {\equal {#8}{ }}{} {\, #8 \, #9 }  }
+
+\newcommand{\vergleichskettefortsetzung}[8]{ \, #1 \, #2 \ifthenelse
+{\equal {#3}{ }} {} {\, #3 \, #4 }  \ifthenelse {\equal {#5}{ } }{}
+{\, #5 \, #6 } \ifthenelse {\equal {#7}{ }}{} {\, #7 \, #8 } }
+
+\newcommand{\vergleichskettealign}[9]{ #1 & #2 & #3 \ifthenelse
+{\equal {#4}{ }} {} {\cr & #4 & #5 }  \ifthenelse {\equal {#6}{ }
+}{} {\cr & #6 & #7 } \ifthenelse {\equal {#8}{ }}{} {\cr & #8 & #9 }
+}
+
+\newcommand{\vergleichskettefortsetzungalign}[8]{ \cr & #1 & #2 \ifthenelse
+{\equal {#3}{ }} {} {\cr & #3 & #4 }  \ifthenelse {\equal {#5}{ }
+}{} {\cr & #5 & #6 } \ifthenelse {\equal {#7}{ }}{} {\cr & #7 & #8 }
+}
+
+\newcommand{\mavergleichskettealigndrucklinks}[4]{ \begin{eqnarray*}  #1 #2 #3 #4 \end{eqnarray*}  }
+
+\newcommand{\vergleichskettealigndrucklinks}[9]{  &  & #1 \cr & #2 & #3 \ifthenelse
+{\equal {#4}{ }} {} {\cr & #4 & #5 }  \ifthenelse {\equal {#6}{ }
+}{} {\cr & #6 & #7 } \ifthenelse {\equal {#8}{ }}{} {\cr & #8 & #9 }
+}
+
+\newcommand{\mavergleichskettealignhandlinks}[4]{ \begin{eqnarray*}  #1 #2 #3 #4 \end{eqnarray*}  }
+
+\newcommand{\vergleichskettealignhandlinks}[9]{ #1 & #2 & #3 \ifthenelse
+{\equal {#4}{ }} {} {\cr & #4 & #5 }  \ifthenelse {\equal {#6}{ }
+}{} {\cr & #6 & #7 } \ifthenelse {\equal {#8}{ }}{} {\cr & #8 & #9 }
+}
+
+\newcommand{\mavergleichskettedisphandlinks}[4]{ \[ #1 #2 #3 #4 \] }
+
+\newcommand{\vergleichskettedisphandlinks}[9]{  #1 \, #2 \, #3 \ifthenelse
+{\equal {#4}{ }} {} {\, #4 \, #5 }  \ifthenelse {\equal {#6}{ } }{}
+{\, #6 \, #7 } \ifthenelse {\equal {#8}{ }}{} {\, #8 \, #9 }  }
+
+\newcommand{\zeilemitteil}[2]{ \ifthenelse {\equal {#2} {} } {#1} { #1 \cr & & #2}   }
+
+\newcommand{\mavergleichskettek}[4]{$ #1 #2 #3#4$}
+
+\newcommand{\vergleichskettek}[9]{ #1 \, #2 \, #3 \ifthenelse
+{\equal {#4}{ }} {} {\, #4 \, #5 }  \ifthenelse {\equal {#6}{ } }{}
+{\, #6 \, #7 } \ifthenelse {\equal {#8}{ }}{} {\, #8 \, #9 }  }
+
+\newcommand{\vergleichskettefortsetzungk}[8]{ \, #1 \, #2 \ifthenelse
+{\equal {#3}{ }} {} {\, #3 \, #4 }  \ifthenelse {\equal {#5}{ } }{}
+{\, #5 \, #6 } \ifthenelse {\equal {#7}{ }}{} {\, #7 \, #8 } }
+
+%[[Projekt:Semantische Vorlagen/Mathematische Strukturvorlagen/Latex]]
+
+\newcommand{\N}   {{\mathbb N}}
+\newcommand{\Z}   {{\mathbb Z}}
+\newcommand{\Q}   {{\mathbb Q}}
+\newcommand{\R}   {{\mathbb R}}
+\newcommand{\C}   {{\mathbb C}}
+\newcommand{\Complex}  {{\mathbb C}}
+
+\newcommand{\defeq}{:=}
+
+\newcommand{\defeqr}{=:}
+
+\newcommand{\maabb}[4]{${\ifthenelse {\equal {#1}{} } {} {#1 \colon }}\,  #2 \rightarrow #3 #4 $}
+
+\newcommand{\maabbele}[6]{$ {\ifthenelse {\equal {#1}{} } {} {#1 \colon }}\,   #2 \rightarrow  #3 , \, #4 \mapsto #5 #6 $}
+
+\newcommand{\maabbdisp}[4]{\[ {\ifthenelse {\equal {#1}{} } {} {#1 \colon }}\,  #2 \longrightarrow #3 #4 \]}
+
+\newcommand{\maabbeledisp}[6]{\[ {\ifthenelse {\equal {#1}{} } {} {#1 \colon }}\,   #2 \longrightarrow  #3 , \, #4 \longmapsto #5 #6 \]}
+
+%Variante bei ifequal-Problem
+
+\newcommand{\maabbnamedisp}[4]{\[ #1 \colon \, #2 \longrightarrow #3 #4 \]}
+
+\newcommand{\maabbeledispvar}[6]{\[ {\ifthenelse {\equal {#1}{} } {} {#1 \colon }}\,   #2 \longrightarrow  #3 , \, #4 \longmapsto #5 #6  \]}
+
+\newcommand{\maabbelementzeiledisplay}[6]{\[ {\ifthenelse {\equal {#1}{} } {} {#1 \colon }}\, #2 \longrightarrow #3 , \]  	\[ #4 \longmapsto #5 #6 \]}
+
+\newcommand{\maabbelementdoppelzeiledisplay}[6]{\[ {\ifthenelse {\equal {#1}{} } {} {#1 \colon }}\, #2 \longrightarrow #3 , \] \[ #4 \longmapsto \] \[  #5 #6 \]}
+
+\newcommand{ \arccot  } {\operatorname{arccot } }
+
+\newcommand{\betrag}[1]{\left| #1 \right|}
+
+\newcommand{\strukturgarbe}{ {\mathcal O} }
+
+\newcommand{\schnittring}[1]{\Gamma (#1 , {\mathcal O})}
+
+\newcommand{\tensor}{\otimes}
+
+%[[Projekt:Semantische Vorlagen/Textgestaltung/Latex]]
+
+\newcommand{\einrueckung}[1]{\par \hspace{1cm}#1 \par}
+
+\newcommand{\zusatz}[2]{(#1)#2}
+
+\newcommand{\zusatzklammer}[3]{(#1#2)#3}
+
+\newcommand{\zusatzgs}[3]{\-- #1 \-- #3}
+
+\newcommand{\zusatzfussnote}[3]{#3\footnote{#1#2}}
+
+%Feinabstimmung
+
+\newcommand{\latexdruckeinskurz}{\!}
+
+\newcommand{\latexdruckzweikurz}{\! \!}
+
+\newcommand{\latexdruckdreikurz}{\! \! \!}
+
+%[[Projekt:Semantische Vorlagen/Satzumgebungen/Latex]]
+
+\newtheorem{fakt}{fakt}[section] %so wird abschnittsweise %durchnummeriert. Bei [] wird % einfach nummeriert.
+
+\newtheorem{Fakt}{fakt}[Fakt]
+
+\newtheorem{Proposition}[fakt]{Proposition}
+
+\newtheorem{Korollar}[fakt]{Korollar}
+
+\newtheorem{Lemma}[fakt]{Lemma}
+
+\newtheorem{Satz}[fakt]{Satz}
+
+\newtheorem{Theorem}[fakt]{Theorem}
+
+\theoremstyle{definition}
+
+\newtheorem{Axiom}[fakt]{Axiom}
+
+\newtheorem{aufgabe}[fakt]{Aufgabe}
+
+\newtheorem{Aufgabe}[fakt]{Aufgabe}
+
+\newtheorem{klausuraufgabe}{Aufgabe}
+
+\newtheorem{Klausuraufgabe}{Aufgabe}
+
+\newtheorem{beispiel}[fakt]{Beispiel}
+
+\newtheorem{Beispiel}[fakt]{Beispiel}
+
+\newtheorem{Konstruktion}[fakt]{Konstruktion}
+
+\newtheorem{konstruktion}[fakt]{Konstruktion}
+
+\newtheorem{Verfahren}[fakt]{Verfahren}
+
+\newtheorem{verfahren}[fakt]{Verfahren}
+
+\newtheorem{bemerkung}[fakt]{Bemerkung}
+
+\newtheorem{Bemerkung}[fakt]{Bemerkung}
+
+\newtheorem{definition}[fakt]{Definition}
+
+\newtheorem{Definition}[fakt]{Definition}
+
+\newtheorem{notation}[fakt]{Notation}
+
+\newtheorem{Notation}[fakt]{Notation}
+
+\newtheorem{Frage}[fakt]{Frage}
+
+\newtheorem{frage}[fakt]{Frage}
+
+\newtheorem{problem}[fakt]{Problem}
+
+\newtheorem{Problem}[fakt]{Problem}
+
+\newtheorem{situation}[fakt]{Situation}
+
+\newtheorem{Situation}[fakt]{Situation}
+
+%Einlesegestaltung
+
+%[[Projekt:Semantische Vorlagen/Umgebungsdesign/Latex]]
+
+%Aufgabengestaltung
+
+\newcommand{\inputaufgabe}[4]{\aufgabevorskip \begin{aufgabe} \punkte {#1} \aufgabepunktskip #2 #3 #4\end{aufgabe} \aufgabenachskip}
+
+\newcommand{\inputaufgabegibtloesung}[4]{\aufgabevorskip \begin{aufgabe}\hspace{-1.8 mm}* \punkte {#1} \aufgabepunktskip #2 #3 #4\end{aufgabe} \aufgabenachskip}
+
+\newcommand{\inputaufgabepunktenummervonhand}[3]{\aufgabevorskip {\bf Aufgabe #1} (#2 Punkte) \aufgabepunktskip #3  \aufgabenachskip}
+
+\newcommand{\inputaufgabeloesung}[2]{ \begin{aufgabe} #1 \end{aufgabe} \aufgabenachskip
+
+\bigskip
+
+Lösung
+
+\bigskip #2
+
+}
+
+\newcommand{\inputaufgabeklausurloesung}[3]{\par \newpage \begin{aufgabe} {\ifthenelse {\equal {#1}{}}{} {\ifthenelse {\equal {#1}{1}} {(1 Punkt)} {(#1 Punkte)}}} \par \bigskip #2 \end{aufgabe} \underline{L\"osung:} \par \bigskip #3 }
+
+\newcommand{\inputaufgabeloesungvar}[2]{\aufgabevorskip Aufgabe: #1 \aufgabenachskip
+Lösung: #2}
+
+\newcommand{\inputaufgabepunkteloesung}[3]{\aufgabevorskip \begin{aufgabe} {\ifthenelse {\equal {#1}{}}{} {\ifthenelse {\equal {#1}{1}} {(1 Punkt)} {(#1 Punkte)}}}  \aufgabepunktskip #2 \end{aufgabe} \aufgabenachskip \loesung #3}
+
+\newcommand{\loesung}[1]{\underline{Lösung:} #1}
+
+\newcommand{\punkte}[1]{\ifthenelse {\equal {#1}{}}{} {\ifthenelse {\equal {#1}{1}} {(1 Punkt)} {(#1 Punkte)}}}
+
+\newcommand{\inputexercise}[4]{\aufgabevorskip \begin{exercise} \points {#1} \aufgabepunktskip #2 #3 #4\end{exercise} \aufgabenachskip}
+
+\newcommand{\points}[1]{\ifthenelse {\equal {#1}{}}{} {\ifthenelse {\equal {#1}{1}} {(1 point)} {(#1 points)}}}
+
+%Beispielgestaltung
+
+\newcommand{\inputbeispiel}[2]
+{\beispielvorskip
+\begin{beispiel}
+\beispielbenennung{#1}
+\beispielbenennungnachskip #2
+\end{beispiel}
+\beispielnachskip}
+
+\newcommand{\beispielbenennung}[1]{ \ifthenelse {\equal {#1}{} \OR \equal {#1}{   }  }{}{(#1)}     }
+
+%Bemerkunggestaltung
+
+\newcommand{\inputbemerkung}[2]
+{\bemerkungvorskip
+\begin{bemerkung}
+\bemerkungbenennung{#1}
+\bemerkungbenennungnachskip #2
+\end{bemerkung}
+\bemerkungnachskip}
+
+\newcommand{\bemerkungbenennung}[1]{  \ifthenelse {\equal {#1}{} \OR \equal {#1}{   }  }{}{(#1)}}
+
+\newcommand{\inputverfahren}[2]
+{\bemerkungvorskip
+\begin{verfahren}
+\bemerkungbenennung{#1}
+\bemerkungbenennungnachskip #2
+\end{verfahren}
+\bemerkungnachskip}
+
+\newcommand{\inputkonstruktion}[2]
+{\bemerkungvorskip
+\begin{konstruktion}
+\bemerkungbenennung{#1}
+\bemerkungbenennungnachskip #2
+\end{konstruktion}
+\bemerkungnachskip}
+
+\newcommand{\inputfrage}[2]
+{\bemerkungvorskip
+\begin{frage}
+\problembenennung{#1}
+\bemerkungbenennungnachskip #2
+\end{frage}
+\bemerkungnachskip}
+
+\newcommand{\fragebenennung}[1]{  \ifthenelse {\equal {#1}{} \OR \equal {#1}{   }  }{}{(#1)}}
+
+\newcommand{\inputproblem}[2]
+{\bemerkungvorskip
+\begin{problem}
+\problembenennung{#1}
+\bemerkungbenennungnachskip #2
+\end{problem}
+\bemerkungnachskip}
+
+\newcommand{\problembenennung}[1]{  \ifthenelse {\equal {#1}{} \OR \equal {#1}{   }  }{}{(#1)}}
+
+%Situationsgestaltung
+
+\newcommand{\inputsituation}[2]
+{\begin{situation}
+\situationbenennung{#1} #2
+\end{situation}
+}
+
+\newcommand{\situationbenennung}[1]{\ifthenelse {\equal {#1}{} \OR \equal {#1}{  }  }{}{(#1)}}
+
+%Definitiongestaltung
+
+\newcommand{\inputdefinition}[2]
+{\definitionvorskip
+\begin{definition}
+\definitionbenennung{#1}
+\definitionbenennungnachskip #2
+\end{definition}
+\definitionnachskip}
+
+\newcommand{\inputaxiom}[2]
+{\definitionvorskip
+\begin{Axiom}
+\definitionbenennung{#1}
+\definitionbenennungnachskip #2
+\end{Axiom}
+\definitionnachskip}
+
+\newcommand{\definitionbenennung}[1]{\ifthenelse {\equal {#1}{} \OR \equal {#1}{  }  }{}{(#1)}}
+
+\newcommand{\inputnotation}[2]
+{\definitionvorskip \begin{notation} \definitionbenennung{#1} \definitionbenennungnachskip #2 \end{notation} \definitionnachskip}
+
+%Fakt- und Beweisgestaltung
+
+\renewcommand{\proofname}{\hspace{0cm}{\it Beweis}}
+
+\newcommand{\beweis}[1]{\begin{proof} #1 \end{proof}}
+
+\newcommand{\inputfakt}[4]
+{\faktvorskip
+\begin{#2}
+
+%\label{#1}   (Absetzen, sonst  kann das folgende dahinter rutschen)
+
+\faktbenennung{#3}
+\faktbenennungnachskip #4
+\end{#2}
+\faktnachskip
+}
+
+\newcommand{\inputfaktbeweis}[5]
+{\faktvorskip
+\begin{#2}
+
+%\label{#1}   (Absetzen, sonst  kann das folgende dahinter rutschen)
+
+\faktbenennung{#3}
+\faktbenennungnachskip #4
+\end{#2}
+\faktnachskip
+\beweis{#5}}
+
+\newcommand{\inputfaktbeweisnichtvorgefuehrt}[5]{\inputfaktbeweis {#1} {#2} {#3} {#4} {Dieser Beweis wurde in der Vorlesung nicht vorgef\"uhrt.} }
+
+\newcommand{\inputfaktbeweistrivial}[4]{\inputfaktbeweis {#1} {#2} {#3} {#4} {Das ist trivial.} }
+
+\newcommand{\inputfaktuebergangbeweis}[6]
+{\faktvorskip
+\begin{#2}
+
+%\label{#1} (Absetzen, sonst kann das
+% folgende dahinter rutschen)
+
+\faktbenennung{#3}
+\faktbenennungnachskip #4
+\end{#2}
+\faktnachskip #5 \faktnachskip
+\beweis{#6}}
+
+\newcommand{\inputbeweis}[1]{\beweis{#1} }
+
+\newcommand{\faktbenennung}[1]{\ifthenelse {\equal {#1}{} \OR \equal {#1}{  }  }{}{(#1)}}
+
+%Gestaltung der Faktstruktur
+
+\newcommand{\faktsituation}[1]{\faktsituationskip #1}
+
+\newcommand{\faktvoraussetzung}[1]{\faktvoraussetzungskip #1}
+
+\newcommand{\faktvoraussetzungleer}[1]{ \hspace{-0,15cm} }
+
+\newcommand{\faktvoraussetzungpos}[1]{\faktvoraussetzungskip #1}
+
+\newcommand{\faktuebergang}[1]{\faktuebergangskip #1}
+
+\newcommand{\faktuebergangleer}[1]{\faktuebergangskip \hspace{-0,15cm} }
+
+\newcommand{\faktfolgerung}[1]{\faktfolgerungskip #1}
+
+\newcommand{\faktzusatz}[1]{\faktzusatzskip #1}
+
+%[[Projekt:Semantische Vorlagen/Beweisgestaltung/Latex]]
+
+\newcommand{\teilbeweis}[5]{#1#2#3#4#5}
+
+\newcommand{\fallunterscheidung}[5]{#1 #2\ifthenelse {\equal {#3}{}} {} { #3}\ifthenelse {\equal {#4}{}} {} { #4}\ifthenelse {\equal {#5}{}} {} { #5}}
+
+\newcommand{\fallunterscheidungzwei}[2]{#1 #2}
+
+\newcommand{\fallunterscheidungdrei}[3]{#1 #2 #3 }
+
+\newcommand{\fallunterscheidungvier}[4]{#1 #2 #3 #4 }
+
+\newcommand{\fallunterscheidungfuenf}[5]{#1 #2 #3 #4 #5 }
+
+%[[Projekt:Semantische Vorlagen/Stichwortumsetzung/Latex]]
+
+\newcommand{\betonung}[2]{\emph{#1}#2}
+
+\newcommand{\stichwort}[2]{\emph{#1}#2}
+
+\newcommand{\stichwortpraemath}[3]{$#1$-\emph{#2}#3}
+
+\newcommand{\definitionswort}[2]{\emph{#1}#2}
+
+\newcommand{\definitionswortpraemath}[3]{$#1$-\emph{#2}#3}
+
+\newcommand{\definitionswortteil}[2]{\emph{#1}#2}
+
+\newcommand{\definitionswortenp}[2]{\emph{#1}#2}
+
+\newcommand{\definitionsverweis}[3]{#1#3}
+
+\newcommand{\definitionsverweisanfuehrung}[3]{\anfuehrung {#1} {#3} }
+
+%Anführungszeichen
+
+\newcommand{\anfuehrung}[2]{"`{#1}"'#2}
+
+\newcommand{\anfuehrungenglisch}[2]{``{#1}''#2}
+
+%[[Projekt:Semantische Auflistungsvorlagen/Latex]]
+
+%Aufzählungen
+
+\newcommand{\aufzaehlungeins}[1]{\begin{enumerate} \item  #1 \end{enumerate}}
+
+\newcommand{\aufzaehlungzwei}[2]{\begin{enumerate} \item  #1 \item  #2 \end{enumerate}}
+
+\newcommand{\aufzaehlungdrei}[3]{\begin{enumerate} \item  #1 \item  #2 \item  #3  \end{enumerate}}
+
+\newcommand{\aufzaehlungvier}[4]{\begin{enumerate} \item  #1 \item  #2 \item  #3 \item  #4 \end{enumerate}}
+
+\newcommand{\aufzaehlungfuenf}[5]{\begin{enumerate} \item  #1 \item  #2 \item  #3 \item  #4 \item  #5  \end{enumerate}}
+
+\newcommand{\aufzaehlungsechs}[6]{\begin{enumerate} \item  #1 \item  #2 \item  #3 \item  #4 \item  #5 \item  #6 \end{enumerate}}
+
+\newcommand{\aufzaehlungsieben}[7]{\begin{enumerate} \item  #1 \item  #2 \item  #3 \item  #4 \item  #5 \item #6 \item  #7 \end{enumerate}}
+
+\newcommand{\aufzaehlungacht}[8]{\begin{enumerate} \item  #1 \item  #2 \item  #3 \item  #4 \item  #5 \item #6 \item  #7 \item #8 \end{enumerate}}
+
+\newcommand{\aufzaehlungneun}[9]{\begin{enumerate} \item  #1 \item  #2 \item  #3 \item  #4 \item  #5 \item #6 \item  #7  \item  #8  \item  #9 \end{enumerate}}
+
+\newcommand{\itemfuenf}[5]{\item  #1 \item  #2 \item  #3 \item  #4 \item  #5}
+
+\newcommand{\itemsechs}[6]{\item  #1 \item  #2 \item  #3 \item  #4 \item  #5 \item  #6}
+
+\newcommand{\itemsieben}[7]{\item  #1 \item  #2 \item  #3 \item  #4 \item  #5 \item  #6 \item #7}
+
+\newcommand{\aufzaehlungeinsabc}[1]{\begin{enumerate}[label=(\alph*)]  #1 \end{enumerate}}
+
+\newcommand{\aufzaehlungzweiabc}[2]{\begin{enumerate}[label=(\alph*)] \item  #1 \item  #2 \end{enumerate}}
+
+\newcommand{\aufzaehlungdreiabc}[3]{\begin{enumerate}[label=(\alph*)] \item  #1 \item  #2 \item  #3  \end{enumerate}}
+
+\newcommand{\aufzaehlungvierabc}[4]{\begin{enumerate}[label=(\alph*)] \item  #1 \item  #2 \item  #3 \item  #4 \end{enumerate}}
+
+\newcommand{\aufzaehlungfuenfabc}[5]{\begin{enumerate}[label=(\alph*)] \item  #1 \item  #2 \item  #3 \item  #4 \item  #5  \end{enumerate}}
+
+\newcommand{\aufzaehlungsechsabc}[6]{\begin{enumerate}[label=(\alph*)] \item  #1 \item  #2 \item  #3 \item  #4 \item  #5 \item  #6 \end{enumerate}}
+
+\newcommand{\aufzaehlungsiebenabc}[7]{\begin{enumerate}[label=(\alph*)] \item  #1 \item  #2 \item  #3 \item  #4 \item  #5 \item #6 \item  #7 \end{enumerate}}
+
+\newcommand{\aufzaehlungachtabc}[8]{\begin{enumerate}[label=(\alph*)] \item  #1 \item  #2 \item  #3 \item  #4 \item  #5 \item #6 \item  #7 \item #8 \end{enumerate}}
+
+\newcommand{\aufzaehlungneunabc}[9]{\begin{enumerate}[label=(\alph*)] \item  #1 \item  #2 \item  #3 \item  #4 \item  #5 \item #6 \item  #7  \item  #8  \item  #9 \end{enumerate}}
+
+\newcommand{\aufzaehlungzweireihe}[2]{\begin{enumerate} #1 #2 \end{enumerate}}
+
+\newcommand{\aufzaehlungdreibeweis}[3]{(1) #1 \par (2) #2 \par (3) #3 }
+
+\newcommand{\aufzaehlungvierbeweis}[4]{(1) #1 \par (2) #2 \par (3) #3  \par (4) #4}
+
+\newcommand{\aufzaehlungfuenfbeweis}[5]{(1) #1 \par (2) #2 \par (3) #3  \par (4) #4  \par (5) #5  }
+
+%Auflistungen
+
+\newcommand{\listitem}{\par \listskip \listdot}
+
+\newcommand{\auflistungzwei}[2]{\par \listskip \listdot  #1 \par \listskip \listdot  #2 \par \listskip}
+
+\newcommand{\auflistungdrei}[3]{\par \listskip \listdot  #1 \par \listskip \listdot  #2\par \listskip \listdot  #3\par\listskip }
+
+\newcommand{\auflistungvier}[4]{\par \listskip \listdot  #1 \par \listskip \listdot  #2\par \listskip \listdot  #3\par \listskip \listdot  #4  \par \listskip }
+
+\newcommand{\auflistungfuenf}[5]{\par \listskip \listdot  #1 \par \listskip \listdot  #2\par \listskip \listdot  #3\par \listskip \listdot  #4  \par \listskip  \listdot  #5 \par \listskip   }
+
+\newcommand{\auflistungsechs}[6]{\par \listskip \listdot  #1 \par \listskip \listdot  #2\par \listskip \listdot  #3\par \listskip \listdot  #4  \par \listskip  \listdot  #5 \par \listskip \listdot  #6 \par \listskip}
+
+\newcommand{\auflistungsieben}[7]{\par \listskip \listdot  #1 \par \listskip \listdot  #2\par \listskip \listdot  #3\par \listskip \listdot  #4  \par \listskip  \listdot  #5 \par \listskip \listdot  #6 \par \listskip \listdot  #7 \par \listskip }
+
+\newcommand{\auflistungacht}[8]{\par \listskip \listdot  #1 \par \listskip \listdot  #2\par \listskip \listdot  #3\par \listskip \listdot  #4  \par \listskip  \listdot  #5 \par \listskip \listdot  #6 \par \listskip \listdot  #7 \par \listskip \listdot  #8  \par \listskip}
+
+\newcommand{\auflistungneun}[9]{\par \listskip \listdot  #1 \par \listskip \listdot  #2\par \listskip \listdot  #3\par \listskip \listdot  #4  \par \listskip  \listdot  #5 \par \listskip \listdot  #6 \par \listskip \listdot  #7 \par \listskip \listdot  #8  \par \listskip  \listdot  #9 \par \listskip  }
+
+\newcommand{\listitemfuenf}[5]{\listitem  #1 \listitem  #2 \listitem  #3 \listitem  #4 \listitem  #5}
+
+\newcommand{\auflistungzweireihe}[2]{ #1 #2 }
+
+%Gestaltung der Auflistungen
+
+\newcommand{\listdot}{$\bullet \,$}
+
+%Bildgestaltung
+
+\newcommand{\inputbild}[1]{\includegraphics[scale]{#1}}
+
+%Tabellengestaltung
+
+%[[Projekt:Semantische Vorlagen/Zeilenkonfiguration/Latex]]
+
+\newcommand{\zeileundzwei}[2]{#1 & #2}
+
+\newcommand{\zeileunddrei}[3]{#1 & #2 & #3}
+
+\newcommand{\zeileundvier}[4]{#1 & #2 & #3 & #4}
+
+\newcommand{\zeileundfuenf}[5]{#1 & #2 & #3 & #4 & #5}
+
+\newcommand{\zeileundsechs}[6]{#1 & #2 & #3 & #4 & #5 & #6}
+
+\newcommand{\zeileundsieben}[7]{#1 & #2 & #3 & #4 & #5 & #6 & #7}
+
+\newcommand{\zeileundacht}[8]{#1 & #2 & #3 & #4 & #5 & #6 & #7 & #8}
+
+\newcommand{\zeileundneun}[9]{#1 & #2 & #3 & #4 & #5 & #6 & #7 & #8 & #9}
+
+\newcommand{\mazeileundzwei}[2]{$#1$ & $#2$}
+
+\newcommand{\mazeileunddrei}[3]{$#1$ & $ #2$ & $#3$}
+
+\newcommand{\mazeileundvier}[4]{$#1$ & $#2$ & $#3$ & $#4$}
+
+\newcommand{\mazeileundfuenf}[5]{$#1$ & $#2$ & $#3$ & $#4$ & $#5$}
+
+\newcommand{\mazeileundsechs}[6]{$#1$ & $#2$ & $#3$ & $#4$ & $#5$ & $#6$}
+
+\newcommand{\mazeileundsieben}[7]{$#1$ & $#2$ & $#3$ & $#4$ & $#5$ & $#6$ & $#7$}
+
+\newcommand{\mazeileundacht}[8]{$#1$ & $#2$ & $#3$ & $#4$ & $#5$ & $#6$ & $#7$ & $#8$}
+
+\newcommand{\mazeileundneun}[9]{$#1$ & $#2$ & $#3$ & $#4$ & $#5$ & $#6$ & $#7$ & $#8$ & $#9$}
+
+%besser als Listen?
+%Liste mit und (&) bzw. Bruch.
+
+\newcommand {\listesechsmaund}[6]{$#1$ & $#2$& $#3$ & $#4$ & $#5$ & $#6$}
+
+\newcommand {\listesiebenmaund}[7]{$#1$ & $#2$& $#3$ & $#4$ & $#5$ & $#6$ & $#7$}
+
+\newcommand{\listezweiund}[2]{#1}
+
+\newcommand{\listedreiund}[3]{#1}
+
+\newcommand{\listesiebenund}[7]{#1}
+
+\newcommand{\listesechsbruch}[6]{#1 \\ \hline #2 \\ \hline #3 \\ \hline #4 \\ \hline #5 \\ \hline #6}
+
+\newcommand{\leitzeileunddrei}[3]{#1}
+
+\newcommand{\madoppelzeileunddrei}[6]{$#1$&$#2$&$#3$\\ \hline $#4$&$#5$&$#6$}
+
+%[[Projekt:Semantische Vorlagen/Tabellen/Latex]]
+
+\newcommand{\tabelleviervier}[4]{\par \bigskip \begin{tabular}{|c|c|c|c|} \hline #1 \\ \hline #2 \\ \hline #3 \\ \hline #4 \\ \hline \end{tabular}}
+
+\newcommand{\tabellefuenfvier}[5]{\par \bigskip \begin{tabular}{|c|c|c|c|c|} \hline #1 \\ \hline #2 \\ \hline #3 \\ \hline #4 \\ \hline #5  \\ \hline \end{tabular}}
+
+%Mit math. Einträgen - ohne Leitzeile
+
+\newcommand{\matabellezweivier}[5]{\begin{center} \begin{tabular}{|c|c|} \hline #2 \\ \hline #3 \\ \hline #4 \\ \hline #5  \\ \hline \end{tabular} \end{center} }
+
+\newcommand{\matabellezweifuenf}[6]{\begin{center} \begin{tabular}{|c|c|} \hline     #2 \\ \hline #3 \\ \hline #4 \\ \hline #5 \\ \hline #6  \\ \hline \end{tabular} \end{center} }
+
+\newcommand{\matabellezweisechs}[7]{\begin{center} \begin{tabular}{|c|c|} \hline     #2 \\ \hline #3 \\ \hline #4 \\ \hline #5 \\ \hline #6 \\ \hline #7   \\ \hline \end{tabular} \end{center} }
+
+\newcommand{\matabellezweisieben}[8]{\begin{center} \begin{tabular}{|c|c|} \hline     #2 \\ \hline #3 \\ \hline #4 \\ \hline #5 \\ \hline #6 \\ \hline #7 \\ \hline #8  \\ \hline \end{tabular} \end{center} }
+
+%Mit math. Einträgen - Mit Leitzeile
+
+\newcommand{\matabellesiebenzwoelf}[3]{\begin{center} \begin{tabular}{|c||c|c|c|c|c|c|c|}  \hline  #1   \\ \hline \hline #2 \\ \hline #3 \\ \hline \end{tabular} \end{center} }
+
+\newcommand{\matabellezwoelfzwoelf}[3]{\begin{center} \begin{tabular}{|c||c|c|c|c|c|c|c|c|c|c|c|c|}  \hline  #1   \\ \hline \hline #2 \\ \hline #3 \\ \hline \end{tabular} \end{center} }
+
+\newcommand{\matabelledreineun}[5]{\begin{center} \begin{tabular}{|c|c|c|}\hline  #1 \\ \hline  #2 \\ \hline #3 \\ \hline   #4 \\ \hline  #5 \\ \hline \end{tabular} \end{center} }
+
+\newcommand{\matabelledreizehn}[6]{\begin{center} \begin{tabular}{|c|c|c|}\hline  #1 \\ \hline  #2 \\ \hline #3 \\ \hline   #4 \\ \hline  #5 \\ \hline  #6 \\ \hline \end{tabular} \end{center} }
+
+\newcommand{\matabelledreielf}[6]{\begin{center} \begin{tabular}{|c|c|c|}\hline  #1 \\ \hline  #2 \\ \hline #3 \\ \hline   #4 \\ \hline  #5 \\ \hline  #6 \\ \hline \end{tabular} \end{center} }
+
+%[[Projekt:Semantische Vorlagen/Klausur/Punktetabellen/Latex]]
+
+\newcommand{\punktetabellezehn}
+{\vspace{3ex} \begin{center} \renewcommand{\arraystretch}{1.5} \tabcolsep=0.78ex \begin{tabular}{@{}|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline Aufgabe & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & $\sum$
+\\ \hline m\"ogliche Pkt. & \aeins & \azwei & \adrei & \avier & \afuenf & \asechs   & \asieben & \aacht  & \aneun & \azehn & \aelf
+\\ \hline erhaltene Pkt.  & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}& \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & & \\ \hline \end{tabular} \end{center} \vspace{2ex} }
+
+\newcommand{\punktetabelleelf}
+{\vspace{3ex} \begin{center} \renewcommand{\arraystretch}{1.5} \tabcolsep=0.78ex \begin{tabular}{@{}|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline Aufgabe & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & $\sum$
+\\ \hline m\"ogliche Pkt. & \aeins & \azwei & \adrei & \avier & \afuenf & \asechs   & \asieben & \aacht  & \aneun & \azehn & \aelf & \azwoelf
+\\ \hline erhaltene Pkt.  & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}& \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & & \\ \hline \end{tabular} \end{center} \vspace{2ex} }
+
+\newcommand{\punktetabellezwoelf}
+{\vspace{3ex} \begin{center} \renewcommand{\arraystretch}{1.5} \tabcolsep=0.78ex \begin{tabular}{@{}|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline Aufgabe & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12    & $\sum$
+\\ \hline m\"ogliche Pkt. & \aeins & \azwei & \adrei & \avier & \afuenf & \asechs   & \asieben & \aacht  & \aneun & \azehn & \aelf & \azwoelf & \adreizehn
+\\ \hline erhaltene Pkt.  & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}& \phantom{11} & \phantom{11} & \phantom{11}
+& \phantom{11} & \phantom{11} & \phantom{11} & & \\ \hline \end{tabular} \end{center} \vspace{2ex} }
+
+\newcommand{\punktetabelledreizehn}
+{\vspace{3ex} \begin{center} \renewcommand{\arraystretch}{1.5} \tabcolsep=0.78ex \begin{tabular}{@{}|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline Aufgabe & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13   & $\sum$
+\\ \hline m\"ogliche Pkt. & \aeins & \azwei & \adrei & \avier & \afuenf & \asechs   & \asieben & \aacht  & \aneun & \azehn & \aelf & \azwoelf & \adreizehn & \avierzehn
+\\ \hline erhaltene Pkt.  & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}& \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}
+& \phantom{11} & \phantom{11} & \phantom{11} & & \\ \hline \end{tabular} \end{center} \vspace{2ex} }
+
+\newcommand{\punktetabellevierzehn}
+{\vspace{3ex} \begin{center} \renewcommand{\arraystretch}{1.5} \tabcolsep=0.78ex \begin{tabular}{@{}|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline Aufgabe & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14  & $\sum$
+\\ \hline m\"ogliche Pkt. & \aeins & \azwei & \adrei & \avier & \afuenf & \asechs   & \asieben & \aacht  & \aneun & \azehn & \aelf & \azwoelf & \adreizehn & \avierzehn & \afuenfzehn
+\\ \hline erhaltene Pkt. & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}& \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}
+& \phantom{11} & \phantom{11} & \phantom{11} & & \\ \hline \end{tabular} \end{center} \vspace{2ex} }
+
+\newcommand{\punktetabellefuenfzehn}
+{\vspace{3ex} \begin{center} \renewcommand{\arraystretch}{1.5} \tabcolsep=0.78ex \begin{tabular}{@{}|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline Aufgabe & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & $\sum$
+\\ \hline m\"ogliche Pkt. & \aeins & \azwei & \adrei & \avier & \afuenf & \asechs   & \asieben & \aacht  & \aneun & \azehn & \aelf & \azwoelf & \adreizehn & \avierzehn & \afuenfzehn
+& \asechzehn
+\\ \hline erhaltene Pkt. & \phantom{11} & \phantom{11} & \phantom{11}
+& \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}& \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}
+& \phantom{11} & \phantom{11} & \phantom{11} & & \\ \hline \end{tabular} \end{center} \vspace{2ex} }
+
+\newcommand{\punktetabellesechzehn}
+{\vspace{3ex} \begin{center} \renewcommand{\arraystretch}{1.5} \tabcolsep=0.78ex \begin{tabular}{@{}|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline Aufgabe & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & $\sum$
+\\ \hline m\"ogliche Pkt. & \aeins & \azwei & \adrei & \avier & \afuenf & \asechs   & \asieben & \aacht  & \aneun & \azehn & \aelf & \azwoelf & \adreizehn & \avierzehn & \afuenfzehn
+& \asechzehn   & \asiebzehn
+\\ \hline erhaltene Pkt. & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}
+& \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}& \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}
+& \phantom{11} & \phantom{11} & \phantom{11} & & \\ \hline \end{tabular} \end{center} \vspace{2ex} }
+
+\newcommand{\punktetabellesiebzehn}
+{\vspace{3ex} \begin{center} \renewcommand{\arraystretch}{1.5} \tabcolsep=0.78ex \begin{tabular}{@{}|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline Aufgabe & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & $\sum$
+\\ \hline m\"ogliche Pkt. & \aeins & \azwei & \adrei & \avier & \afuenf & \asechs   & \asieben & \aacht  & \aneun & \azehn & \aelf & \azwoelf & \adreizehn & \avierzehn & \afuenfzehn
+& \asechzehn   & \asiebzehn & \aachtzehn
+\\ \hline erhaltene Pkt. & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}
+& \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}& \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}
+& \phantom{11} & \phantom{11} & \phantom{11} & & \\ \hline \end{tabular} \end{center} \vspace{2ex} }
+
+\newcommand{\punktetabelleachtzehn}
+{\vspace{3ex} \begin{center} \renewcommand{\arraystretch}{1.5} \tabcolsep=0.78ex \begin{tabular}{@{}|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline Aufgabe & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & $\sum$
+\\ \hline m\"ogliche Pkt. & \aeins & \azwei & \adrei & \avier & \afuenf & \asechs   & \asieben & \aacht  & \aneun & \azehn & \aelf & \azwoelf & \adreizehn & \avierzehn & \afuenfzehn
+& \asechzehn   & \asiebzehn & \aachtzehn & \aneunzehn
+\\ \hline erhaltene Pkt. & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}
+& \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}& \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}
+& \phantom{11} & \phantom{11} & \phantom{11} & & \\ \hline \end{tabular} \end{center} \vspace{2ex} }
+
+\newcommand{\punktetabelleneunzehn}
+{\vspace{3ex} \begin{center} \renewcommand{\arraystretch}{1.5} \tabcolsep=0.78ex \begin{tabular}{@{}|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline Aufgabe & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & $\sum$
+\\ \hline m\"ogliche Pkt. & \aeins & \azwei & \adrei & \avier & \afuenf & \asechs   & \asieben & \aacht  & \aneun & \azehn & \aelf & \azwoelf & \adreizehn & \avierzehn & \afuenfzehn
+& \asechzehn   & \asiebzehn & \aachtzehn & \aneunzehn  & \azwanzig
+\\ \hline erhaltene Pkt. & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}
+& \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}& \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}
+& \phantom{11} & \phantom{11} & \phantom{11} & & \\ \hline \end{tabular} \end{center} \vspace{2ex} }
+
+\newcommand{\punktetabellezwanzig}
+{\vspace{3ex} \begin{center} \renewcommand{\arraystretch}{1.5} \tabcolsep=0.78ex \begin{tabular}{@{}|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline Aufgabe & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20 & $\sum$
+\\ \hline m\"ogliche Pkt. & \aeins & \azwei & \adrei & \avier & \afuenf & \asechs   & \asieben & \aacht  & \aneun & \azehn & \aelf & \azwoelf & \adreizehn & \avierzehn & \afuenfzehn
+& \asechzehn   & \asiebzehn & \aachtzehn & \aneunzehn  & \azwanzig & \aeinundzwanzig
+\\ \hline erhaltene Pkt. & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}
+& \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}& \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}
+& \phantom{11} & \phantom{11} & \phantom{11} & & \\ \hline \end{tabular} \end{center} \vspace{2ex} }
+
+\newcommand{\punktetabelleeinundzwanzig}
+{\vspace{3ex} \begin{center} \renewcommand{\arraystretch}{1.5} \tabcolsep=0.78ex \begin{tabular}{@{}|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline Aufgabe & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20 & 21 & $\sum$
+\\ \hline m\"ogliche Pkt. & \aeins & \azwei & \adrei & \avier & \afuenf & \asechs   & \asieben & \aacht  & \aneun & \azehn & \aelf & \azwoelf & \adreizehn & \avierzehn & \afuenfzehn
+& \asechzehn   & \asiebzehn & \aachtzehn & \aneunzehn  & \azwanzig & \aeinundzwanzig  & \azweiundzwanzig
+\\ \hline erhaltene Pkt. & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}
+& \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}& \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}
+& \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & & \\ \hline \end{tabular} \end{center} \vspace{2ex} }
+
+\newcommand{\punktetabellezweiundzwanzig}
+{\vspace{3ex} \begin{center} \renewcommand{\arraystretch}{1.5} \tabcolsep=0.78ex \begin{tabular}{@{}|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline Aufgabe & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & 16 & 17 & 18 & 19 & 20 & 21 & 22 & $\sum$
+\\ \hline  Punkte & \aeins & \azwei & \adrei & \avier & \afuenf & \asechs   & \asieben & \aacht  & \aneun & \azehn & \aelf & \azwoelf & \adreizehn & \avierzehn & \afuenfzehn
+& \asechzehn   & \asiebzehn & \aachtzehn & \aneunzehn  & \azwanzig & \aeinundzwanzig  & \azweiundzwanzig  & \adreiundzwanzig
+\\ \hline Erhalten & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}
+& \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11}& \phantom{11} & \phantom{11} & \phantom{11}  & \phantom{11} & \phantom{11}
+& \phantom{11} & \phantom{11} & \phantom{11} & \phantom{11} & & \\ \hline \end{tabular} \end{center} \vspace{2ex} }
+
+%[[Projekt:Semantische Vorlagen/Wahrheitstabellen/Latex]]
+
+\newcommand{\wahrheitstabelleeins}[4]{
+\begin{center}
+\begin{tabular}{|c|c|}
+\multicolumn{2}{l}{\textbf{#1}}\\
+\hline
+$p$ & $#2$\\ \hline
+w  &	#3 \\ \hline
+f  &	#4\\ \hline
+\end{tabular}
+\end{center} }
+
+\newcommand{\wahrheitstabelleeinszwei}[7]{
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\multicolumn{3}{l}{\textbf{#1}}\\
+\hline
+$p$ & $#2$ & $#5$ \\ \hline
+w  &	#3 &  #4 \\ \hline
+f  &	#6 &  #7 \\ \hline
+\end{tabular}
+\end{center} }
+
+\newcommand{\wahrheitstabelleeinsdrei}[4]{ \begin{center} \begin{tabular}{|c|c|c|c|} \multicolumn{4}{l}{\textbf{#1}} \\  \hline #2  \\  \hline #3  \\  \hline  #4  \\  \hline
+\end{tabular} \end{center} }
+
+%Wahrheitstabellen mit zwei Variablen p und q
+
+\newcommand{\wahrheitstabellezweieins}[6]{ \begin{center} \begin{tabular}{|c|c|c|} \multicolumn{3}{l}{\textbf{#1}} \\  \hline  #2  \\  \hline  #3  \\  \hline  #4  \\  \hline  #5  \\  \hline  #6  \\  \hline \end{tabular} \end{center} }
+
+\newcommand{\wahrheitstabellezweizwei}[6]{ \begin{center} \begin{tabular}{|c|c|c|c|} \multicolumn{4}{l}{\textbf{#1}} \\  \hline #2  \\  \hline #3  \\  \hline #4  \\  \hline #5  \\  \hline #6  \\  \hline\end{tabular} \end{center} }
+
+\newcommand{\wahrheitstabellezweidrei}[6]{ \begin{center} \begin{tabular}{|c|c|c|c|c|} \multicolumn{5}{l}{\textbf{#1}} \\  \hline #2  \\  \hline #3  \\  \hline #4  \\  \hline #5  \\  \hline #6  \\  \hline \end{tabular} \end{center} }
+
+\newcommand{\wahrheitstabellezweivier}[6]{ \begin{center} \begin{tabular}{|c|c|c|c|c|c|} \multicolumn{6}{l}{\textbf{#1}} \\  \hline #2  \\  \hline #3  \\  \hline #4  \\  \hline  #5  \\  \hline  #6  \\  \hline \end{tabular} \end{center} }
+
+\newcommand{\wahrheitstabellezweifuenf}[6]{ \begin{center} \begin{tabular}{|c|c|c|c|c|c|c|} \multicolumn{7}{l}{\textbf{#1}} \\  \hline #2  \\  \hline #3  \\  \hline #4  \\  \hline #5  \\  \hline #6  \\  \hline
+\end{tabular} \end{center} }
+
+%Wahrheitstabellen mit drei Variablen p,q,r
+
+\newcommand{\wahrheitstabelledreieins}[6]{ \begin{center} \begin{tabular}{|c|c|c|c||} \multicolumn{4}{l}{\textbf{#1}} \\  \hline #2  \\  \hline #3  \\  \hline #4  \\  \hline #5  \\  \hline #6 \\  \hline
+\end{tabular} \end{center} }
+
+%[[Projekt:Semantische Vorlagen/Wertetabellen/Latex]]
+
+%Wertetabellen
+
+\newcommand{\wertetabellevorskip}{\par \bigskip}
+
+\newcommand{\wertetabellenachskip}{\par \bigskip}
+
+\newcommand{\wertetabelleeinsausteilzeilen}[4]{\wertetabellevorskip \begin{tabular}{|c|c|} \hline #1 & #2  \\ \hline  #3 & #4  \\ \hline \end{tabular} \wertetabellenachskip }
+
+\newcommand{\wertetabellezweiausteilzeilen}[4]{\wertetabellevorskip \begin{tabular}{|c|c|c|} \hline #1 & #2  \\ \hline  #3 & #4  \\ \hline \end{tabular} \wertetabellenachskip }
+
+\newcommand{\wertetabelledreiausteilzeilen}[4]{\wertetabellevorskip \begin{tabular}{|c|c|c|c|} \hline #1 & #2  \\ \hline  #3 & #4  \\ \hline \end{tabular} \wertetabellenachskip }
+
+\newcommand{\wertetabellevierausteilzeilen}[4]{\wertetabellevorskip \begin{tabular}{|c|c|c|c|c|} \hline #1 & #2  \\ \hline  #3 & #4  \\ \hline \end{tabular} \wertetabellenachskip }
+
+\newcommand{\wertetabellefuenfausteilzeilen}[4]{\wertetabellevorskip \begin{tabular}{|c|c|c|c|c|c|} \hline #1 & #2  \\ \hline  #3 & #4  \\ \hline \end{tabular} \wertetabellenachskip }
+
+\newcommand{\wertetabellesechsausteilzeilen}[6]{\wertetabellevorskip \begin{tabular}{|c|c|c|c|c|c|c|} \hline #1 & #2 & #3 \\ \hline  #4 & #5 & #6 \\ \hline \end{tabular} \wertetabellenachskip }
+
+\newcommand{\wertetabellesiebenausteilzeilen}[6]{\wertetabellevorskip \begin{tabular}{|c|c|c|c|c|c|c|c|} \hline #1 & #2 & #3 \\ \hline  #4 & #5 & #6 \\ \hline \end{tabular} \wertetabellenachskip }
+
+\newcommand{\wertetabelleachtausteilzeilen}[6]{\wertetabellevorskip \begin{tabular}{|c|c|c|c|c|c|c|c|c|} \hline #1 & #2 & #3 \\ \hline  #4 & #5 & #6 \\ \hline \end{tabular} \wertetabellenachskip }
+
+\newcommand{\wertetabelleneunausteilzeilen}[6]{\wertetabellevorskip \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|} \hline #1 & #2 & #3 \\ \hline  #4 & #5 & #6 \\ \hline \end{tabular} \wertetabellenachskip }
+
+\newcommand{\wertetabellezehnausteilzeilen}[6]{\wertetabellevorskip \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|} \hline #1 & #2 & #3 \\ \hline  #4 & #5 & #6 \\ \hline \end{tabular} \wertetabellenachskip }
+
+\newcommand{\wertetabelleelfausteilzeilen}[8]{\wertetabellevorskip \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|} \hline #1 & #2 & #3 & #4 \\ \hline #5 & #6 & #7 & #8 \\ \hline \end{tabular} \wertetabellenachskip }
+
+%[[Projekt:Semantische Vorlagen/Verknüpfungstabellen/Latex]]
+
+%Verknüpfungstabellen
+
+\newcommand{\verknuepfungstabelleeins}[2]{\begin{center}
+\begin{tabular}{|c||c|}
+\hline #1 \\  \hline \hline #2 \\
+\hline
+\end{tabular}
+\end{center} }
+
+\newcommand{\verknuepfungstabellezwei}[3]{\begin{center}
+\begin{tabular}{|c||c|c|}
+\hline #1 \\  \hline \hline #2 \\ \hline #3 \\
+\hline
+\end{tabular}
+\end{center} }
+
+\newcommand{\verknuepfungstabelledrei}[4]{\begin{center}
+\begin{tabular}{|c||c|c|c|}
+\hline #1 \\  \hline \hline #2 \\ \hline #3 \\ \hline #4 \\
+\hline
+\end{tabular}
+\end{center} }
+
+\newcommand{\verknuepfungstabellevier}[5]{\begin{center}
+\begin{tabular}{|c||c|c|c|c|}
+\hline #1 \\  \hline \hline #2 \\ \hline #3 \\ \hline #4 \\  \hline  #5 \\
+\hline
+\end{tabular}
+\end{center} }
+
+\newcommand{\verknuepfungstabellefuenf}[6]{\begin{center}
+\begin{tabular}{|c||c|c|c|c|c|}
+\hline #1 \\  \hline \hline #2 \\ \hline #3 \\ \hline #4 \\  \hline  #5 \\ \hline  #6 \\
+\hline
+\end{tabular}
+\end{center} }
+
+\newcommand{\verknuepfungstabellesechs}[7]{\begin{center}
+\begin{tabular}{|c||c|c|c|c|c|c|}
+\hline #1 \\  \hline \hline #2 \\ \hline #3 \\ \hline #4 \\  \hline  #5 \\ \hline  #6 \\  \hline #7 \\
+\hline
+\end{tabular}
+\end{center} }
+
+\newcommand{\verknuepfungstabellesieben}[8]{\begin{center}
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|}
+\hline #1 \\  \hline \hline #2 \\ \hline #3 \\ \hline #4 \\  \hline  #5 \\ \hline  #6 \\  \hline #7 \\  \hline  #8 \\
+\hline
+\end{tabular}
+\end{center} }
+
+\newcommand{\verknuepfungstabelleacht}[9]{\begin{center}
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|}
+\hline #1 \\  \hline \hline #2 \\ \hline #3 \\ \hline #4 \\  \hline  #5 \\ \hline  #6 \\  \hline #7 \\  \hline  #8 \\ \hline  #9 \\
+\hline
+\end{tabular}
+\end{center} }
+
+%[[Projekt:Semantische Vorlagen/Initialisierung für Daten/Latex]]
+
+\newcommand{\aeins}{    }
+
+\newcommand{\azwei}{     }
+
+\newcommand{\adrei}{    }
+
+\newcommand{\avier}{    }
+
+\newcommand{\afuenf}{    }
+
+\newcommand{\asechs}{    }
+
+\newcommand{\asieben}{    }
+
+\newcommand{\aacht}{    }
+
+\newcommand{\aneun}{    }
+
+\newcommand{\azehn}{    }
+
+\newcommand{\aelf}{    }
+
+\newcommand{\azwoelf}{    }
+
+\newcommand{\adreizehn}{     }
+
+\newcommand{\avierzehn}{    }
+
+\newcommand{\afuenfzehn}{    }
+
+\newcommand{\asechzehn}{    }
+
+\newcommand{\asiebzehn}{    }
+
+\newcommand{\aachtzehn}{    }
+
+\newcommand{\aneunzehn}{    }
+
+\newcommand{\azwanzig}{    }
+
+\newcommand{\aeinundzwanzig}{    }
+
+\newcommand{\azweiundzwanzig}{    }
+
+\newcommand{\adreiundzwanzig}{    }
+
+\newcommand{\avierundzwanzig}{    }
+
+\newcommand{\afuenfundzwanzig}{    }
+
+\newcommand{\asechsundzwanzig}{    }
+
+\newcommand{\asiebenundzwanzig}{    }
+
+\newcommand{\aachtundzwanzig}{    }
+
+\newcommand{\aneunundzwanzig}{    }
+
+\newcommand{\leitzeilenull}{}
+
+\newcommand{\leitzeileeins}{}
+
+\newcommand{\leitzeilezwei}{}
+
+\newcommand{\leitzeiledrei}{}
+
+\newcommand{\leitzeilevier}{}
+
+\newcommand{\leitzeilefuenf}{}
+
+\newcommand{\leitzeilesechs}{}
+
+\newcommand{\leitzeilesieben}{}
+
+\newcommand{\leitzeileacht}{}
+
+\newcommand{\leitzeileneun}{}
+
+\newcommand{\leitzeilezehn}{}
+
+\newcommand{\leitzeileelf}{}
+
+\newcommand{\leitzeilezwoelf}{}
+
+\newcommand{\leitspaltenull}{}
+
+\newcommand{\leitspalteeins}{}
+
+\newcommand{\leitspaltezwei}{}
+
+\newcommand{\leitspaltedrei}{}
+
+\newcommand{\leitspaltevier}{}
+
+\newcommand{\leitspaltefuenf}{}
+
+\newcommand{\leitspaltesechs}{}
+
+\newcommand{\leitspaltesieben}{}
+
+\newcommand{\leitspalteacht}{}
+
+\newcommand{\leitspalteneun}{}
+
+\newcommand{\leitspaltezehn}{}
+
+\newcommand{\leitspalteelf}{}
+
+\newcommand{\leitspaltezwoelf}{}
+
+\newcommand{\leitspaltedreizehn}{}
+
+\newcommand{\leitspaltevierzehn}{}
+
+\newcommand{\leitspaltefuenfzehn}{}
+
+\newcommand{\leitspaltesechzehn}{}
+
+\newcommand{\leitspaltesiebzehn}{}
+
+\newcommand{\leitspalteachtzehn}{}
+
+\newcommand{\leitspalteneunzehn}{}
+
+\newcommand{\leitspaltezwanzig}{}
+
+\newcommand{\aeinsxeins}{}
+
+\newcommand{\aeinsxzwei}{}
+
+\newcommand{\aeinsxdrei}{}
+
+\newcommand{\aeinsxvier}{}
+
+\newcommand{\aeinsxfuenf}{}
+
+\newcommand{\aeinsxsechs}{}
+
+\newcommand{\aeinsxsieben}{}
+
+\newcommand{\aeinsxacht}{}
+
+\newcommand{\aeinsxneun}{}
+
+\newcommand{\aeinsxzehn}{}
+
+\newcommand{\aeinsxelf}{}
+
+\newcommand{\aeinsxzwoelf}{}
+
+\newcommand{\azweixeins}{}
+
+\newcommand{\azweixzwei}{}
+
+\newcommand{\azweixdrei}{}
+
+\newcommand{\azweixvier}{}
+
+\newcommand{\azweixfuenf}{}
+
+\newcommand{\azweixsechs}{}
+
+\newcommand{\azweixsieben}{}
+
+\newcommand{\azweixacht}{}
+
+\newcommand{\azweixneun}{}
+
+\newcommand{\azweixzehn}{}
+
+\newcommand{\azweixelf}{}
+
+\newcommand{\azweixzwoelf}{}
+
+\newcommand{\adreixeins}{}
+
+\newcommand{\adreixzwei}{}
+
+\newcommand{\adreixdrei}{}
+
+\newcommand{\adreixvier}{}
+
+\newcommand{\adreixfuenf}{}
+
+\newcommand{\adreixsechs}{}
+
+\newcommand{\adreixsieben}{}
+
+\newcommand{\adreixacht}{}
+
+\newcommand{\adreixneun}{}
+
+\newcommand{\adreixzehn}{}
+
+\newcommand{\adreixelf}{}
+
+\newcommand{\adreixzwoelf}{}
+
+\newcommand{\avierxeins}{}
+
+\newcommand{\avierxzwei}{}
+
+\newcommand{\avierxdrei}{}
+
+\newcommand{\avierxvier}{}
+
+\newcommand{\avierxfuenf}{}
+
+\newcommand{\avierxsechs}{}
+
+\newcommand{\avierxsieben}{}
+
+\newcommand{\avierxacht}{}
+
+\newcommand{\avierxneun}{}
+
+\newcommand{\avierxzehn}{}
+
+\newcommand{\avierxelf}{}
+
+\newcommand{\avierxzwoelf}{}
+
+\newcommand{\afuenfxeins}{}
+
+\newcommand{\afuenfxzwei}{}
+
+\newcommand{\afuenfxdrei}{}
+
+\newcommand{\afuenfxvier}{}
+
+\newcommand{\afuenfxfuenf}{}
+
+\newcommand{\afuenfxsechs}{}
+
+\newcommand{\afuenfxsieben}{}
+
+\newcommand{\afuenfxacht}{}
+
+\newcommand{\afuenfxneun}{}
+
+\newcommand{\afuenfxzehn}{}
+
+\newcommand{\afuenfxelf}{}
+
+\newcommand{\afuenfxzwoelf}{}
+
+\newcommand{\asechsxeins}{}
+
+\newcommand{\asechsxzwei}{}
+
+\newcommand{\asechsxdrei}{}
+
+\newcommand{\asechsxvier}{}
+
+\newcommand{\asechsxfuenf}{}
+
+\newcommand{\asechsxsechs}{}
+
+\newcommand{\asechsxsieben}{}
+
+\newcommand{\asechsxacht}{}
+
+\newcommand{\asechsxneun}{}
+
+\newcommand{\asechsxzehn}{}
+
+\newcommand{\asechsxelf}{}
+
+\newcommand{\asechsxzwoelf}{}
+
+\newcommand{\asiebenxeins}{}
+
+\newcommand{\asiebenxzwei}{}
+
+\newcommand{\asiebenxdrei}{}
+
+\newcommand{\asiebenxvier}{}
+
+\newcommand{\asiebenxfuenf}{}
+
+\newcommand{\asiebenxsechs}{}
+
+\newcommand{\asiebenxsieben}{}
+
+\newcommand{\asiebenxacht}{}
+
+\newcommand{\asiebenxneun}{}
+
+\newcommand{\asiebenxzehn}{}
+
+\newcommand{\asiebenxelf}{}
+
+\newcommand{\asiebenxzwoelf}{}
+
+\newcommand{\aachtxeins}{}
+
+\newcommand{\aachtxzwei}{}
+
+\newcommand{\aachtxdrei}{}
+
+\newcommand{\aachtxvier}{}
+
+\newcommand{\aachtxfuenf}{}
+
+\newcommand{\aachtxsechs}{}
+
+\newcommand{\aachtxsieben}{}
+
+\newcommand{\aachtxacht}{}
+
+\newcommand{\aachtxneun}{}
+
+\newcommand{\aachtxzehn}{}
+
+\newcommand{\aachtxelf}{}
+
+\newcommand{\aachtxzwoelf}{}
+
+\newcommand{\aneunxeins}{}
+
+\newcommand{\aneunxzwei}{}
+
+\newcommand{\aneunxdrei}{}
+
+\newcommand{\aneunxvier}{}
+
+\newcommand{\aneunxfuenf}{}
+
+\newcommand{\aneunxsechs}{}
+
+\newcommand{\aneunxsieben}{}
+
+\newcommand{\aneunxacht}{}
+
+\newcommand{\aneunxneun}{}
+
+\newcommand{\aneunxzehn}{}
+
+\newcommand{\aneunxelf}{}
+
+\newcommand{\aneunxzwoelf}{}
+
+\newcommand{\azehnxeins}{}
+
+\newcommand{\azehnxzwei}{}
+
+\newcommand{\azehnxdrei}{}
+
+\newcommand{\azehnxvier}{}
+
+\newcommand{\azehnxfuenf}{}
+
+\newcommand{\azehnxsechs}{}
+
+\newcommand{\azehnxsieben}{}
+
+\newcommand{\azehnxacht}{}
+
+\newcommand{\azehnxneun}{}
+
+\newcommand{\azehnxzehn}{}
+
+\newcommand{\azehnxelf}{}
+
+\newcommand{\azehnxzwoelf}{}
+
+\newcommand{\aelfxeins}{}
+
+\newcommand{\aelfxzwei}{}
+
+\newcommand{\aelfxdrei}{}
+
+\newcommand{\aelfxvier}{}
+
+\newcommand{\aelfxfuenf}{}
+
+\newcommand{\aelfxsechs}{}
+
+\newcommand{\aelfxsieben}{}
+
+\newcommand{\aelfxacht}{}
+
+\newcommand{\aelfxneun}{}
+
+\newcommand{\aelfxzehn}{}
+
+\newcommand{\aelfxelf}{}
+
+\newcommand{\aelfxzwoelf}{}
+
+\newcommand{\azwoelfxeins}{}
+
+\newcommand{\azwoelfxzwei}{}
+
+\newcommand{\azwoelfxdrei}{}
+
+\newcommand{\azwoelfxvier}{}
+
+\newcommand{\azwoelfxfuenf}{}
+
+\newcommand{\azwoelfxsechs}{}
+
+\newcommand{\azwoelfxsieben}{}
+
+\newcommand{\azwoelfxacht}{}
+
+\newcommand{\azwoelfxneun}{}
+
+\newcommand{\azwoelfxzehn}{}
+
+\newcommand{\azwoelfxelf}{}
+
+\newcommand{\azwoelfxzwoelf}{}
+
+\newcommand{\adreizehnxeins}{}
+
+\newcommand{\adreizehnxzwei}{}
+
+\newcommand{\adreizehnxdrei}{}
+
+\newcommand{\adreizehnxvier}{}
+
+\newcommand{\adreizehnxfuenf}{}
+
+\newcommand{\adreizehnxsechs}{}
+
+\newcommand{\adreizehnxsieben}{}
+
+\newcommand{\adreizehnxacht}{}
+
+\newcommand{\adreizehnxneun}{}
+
+\newcommand{\adreizehnxzehn}{}
+
+\newcommand{\adreizehnxelf}{}
+
+\newcommand{\adreizehnxzwoelf}{}
+
+\newcommand{\avierzehnxeins}{}
+
+\newcommand{\avierzehnxzwei}{}
+
+\newcommand{\avierzehnxdrei}{}
+
+\newcommand{\avierzehnxvier}{}
+
+\newcommand{\avierzehnxfuenf}{}
+
+\newcommand{\avierzehnxsechs}{}
+
+\newcommand{\avierzehnxsieben}{}
+
+\newcommand{\avierzehnxacht}{}
+
+\newcommand{\avierzehnxneun}{}
+
+\newcommand{\avierzehnxzehn}{}
+
+\newcommand{\avierzehnxelf}{}
+
+\newcommand{\avierzehnxzwoelf}{}
+
+\newcommand{\afuenfzehnxeins}{}
+
+\newcommand{\afuenfzehnxzwei}{}
+
+\newcommand{\afuenfzehnxdrei}{}
+
+\newcommand{\afuenfzehnxvier}{}
+
+\newcommand{\afuenfzehnxfuenf}{}
+
+\newcommand{\afuenfzehnxsechs}{}
+
+\newcommand{\afuenfzehnxsieben}{}
+
+\newcommand{\afuenfzehnxacht}{}
+
+\newcommand{\afuenfzehnxneun}{}
+
+\newcommand{\afuenfzehnxzehn}{}
+
+\newcommand{\afuenfzehnxelf}{}
+
+\newcommand{\afuenfzehnxzwoelf}{}
+
+\newcommand{\asechzehnxeins}{}
+
+\newcommand{\asechzehnxzwei}{}
+
+\newcommand{\asechzehnxdrei}{}
+
+\newcommand{\asechzehnxvier}{}
+
+\newcommand{\asechzehnxfuenf}{}
+
+\newcommand{\asechzehnxsechs}{}
+
+\newcommand{\asechzehnxsieben}{}
+
+\newcommand{\asechzehnxacht}{}
+
+\newcommand{\asechzehnxneun}{}
+
+\newcommand{\asechzehnxzehn}{}
+
+\newcommand{\asechzehnxelf}{}
+
+\newcommand{\asechzehnxzwoelf}{}
+
+\newcommand{\asiebzehnxeins}{}
+
+\newcommand{\asiebzehnxzwei}{}
+
+\newcommand{\asiebzehnxdrei}{}
+
+\newcommand{\asiebzehnxvier}{}
+
+\newcommand{\asiebzehnxfuenf}{}
+
+\newcommand{\asiebzehnxsechs}{}
+
+\newcommand{\asiebzehnxsieben}{}
+
+\newcommand{\asiebzehnxacht}{}
+
+\newcommand{\asiebzehnxneun}{}
+
+\newcommand{\asiebzehnxzehn}{}
+
+\newcommand{\asiebzehnxelf}{}
+
+\newcommand{\asiebzehnxzwoelf}{}
+
+\newcommand{\aachtzehnxeins}{}
+
+\newcommand{\aachtzehnxzwei}{}
+
+\newcommand{\aachtzehnxdrei}{}
+
+\newcommand{\aachtzehnxvier}{}
+
+\newcommand{\aachtzehnxfuenf}{}
+
+\newcommand{\aachtzehnxsechs}{}
+
+\newcommand{\aachtzehnxsieben}{}
+
+\newcommand{\aachtzehnxacht}{}
+
+\newcommand{\aachtzehnxneun}{}
+
+\newcommand{\aachtzehnxzehn}{}
+
+\newcommand{\aachtzehnxelf}{}
+
+\newcommand{\aachtzehnxzwoelf}{}
+
+%[[Projekt:Semantische Vorlagen/Tabellen mit benannten Parametern/Latex]]
+
+%Tabellen mit zwei Zeilen
+
+\newcommand{\tabelleleitzweixzwei}{
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|}
+
+\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei   \\
+
+\hline \hline  \leitspalteeins  &  $ \aeinsxeins $  &  $ \aeinsxzwei $ \\
+
+\hline  \leitspaltezwei  &  $ \azweixeins $  &  $ \azweixzwei $   \\
+
+\hline
+
+\end{tabular}
+
+\end{center} }
+
+%Tabellen mit drei Zeilen
+
+\newcommand{\tabelleleitdreixdrei}{
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c||}
+
+\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei  &  \leitzeiledrei        \\
+
+\hline \hline  \leitspalteeins  &  $ \aeinsxeins $  &  $ \aeinsxzwei $  &  $ \aeinsxdrei $      \\
+
+\hline  \leitspaltezwei  &  $ \azweixeins $  &  $ \azweixzwei $  &  $ \azweixdrei $       \\
+
+\hline  \leitspaltedrei  &  $ \adreixeins $  &  $ \adreixzwei $  &  $ \adreixdrei $       \\
+
+\hline
+
+\end{tabular}
+
+\end{center} }
+
+\newcommand{\tabelleleitdreixvier}{
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|c||}
+
+\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei  &  \leitzeiledrei  &  \leitzeilevier      \\
+
+\hline \hline  \leitspalteeins  &  $ \aeinsxeins $  &  $ \aeinsxzwei $  &  $ \aeinsxdrei $  &  $ \aeinsxvier $   \\
+
+\hline  \leitspaltezwei  &  $ \azweixeins $  &  $ \azweixzwei $  &  $ \azweixdrei $  &  $ \azweixvier $     \\
+
+\hline  \leitspaltedrei  &  $ \adreixeins $  &  $ \adreixzwei $  &  $ \adreixdrei $  &  $ \adreixvier $     \\
+
+\hline
+
+\end{tabular}
+
+\end{center} }
+
+\newcommand{\tabelleleitdreixsechs}{
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|c|c|c|}
+
+\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei  &  \leitzeiledrei  &  \leitzeilevier  &  \leitzeilefuenf   &  \leitzeilesechs    \\
+
+\hline \hline  \leitspalteeins  &  $ \aeinsxeins $  &  $ \aeinsxzwei $  &  $ \aeinsxdrei $  &  $ \aeinsxvier $  &  $ \aeinsxfuenf $  &  $ \aeinsxsechs $  \\
+
+\hline  \leitspaltezwei  &  $ \azweixeins $  &  $ \azweixzwei $  &  $ \azweixdrei $  &  $ \azweixvier $  &  $ \azweixfuenf $   &  $ \azweixsechs $  \\
+
+\hline  \leitspaltedrei  &  $ \adreixeins $  &  $ \adreixzwei $  &  $ \adreixdrei $  &  $ \adreixvier $  &  $ \adreixfuenf $   &  $ \adreixsechs $   \\
+
+\hline
+
+\end{tabular}
+
+\end{center} }
+
+\newcommand{\tabelleleitdreixelf}{
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|c|c|c|}
+
+\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei  &  \leitzeiledrei  &  \leitzeilevier  &  \leitzeilefuenf   &  \leitzeilesechs  &  \leitzeilesieben  &  \leitzeileacht  &  \leitzeileneun  &  \leitzeilezehn &  \leitzeileelf    \\
+
+\hline \hline  \leitspalteeins  &  $ \aeinsxeins $  &  $ \aeinsxzwei $  &  $ \aeinsxdrei $  &  $ \aeinsxvier $  &  $ \aeinsxfuenf $  &  $ \aeinsxsechs $  &  $ \aeinsxsieben $  &  $ \aeinsxacht $  &  $ \aeinsxneun $ &  $ \aeinsxzehn $  &  $ \aeinsxelf $  \\
+
+\hline  \leitspaltezwei  &  $ \azweixeins $  &  $ \azweixzwei $  &  $ \azweixdrei $  &  $ \azweixvier $  &  $ \azweixfuenf $   &  $ \azweixsechs $  &  $ \azweixsieben $  &  $ \azweixacht $  &  $ \azweixneun $  &  $ \azweixzehn $ &  $ \azweixelf $     \\
+
+\hline  \leitspaltedrei  &  $ \adreixeins $  &  $ \adreixzwei $  &  $ \adreixdrei $  &  $ \adreixvier $  &  $ \adreixfuenf $   &  $ \adreixsechs $  &  $ \adreixsieben $  &  $ \adreixacht $  &  $ \adreixneun $  &  $ \adreixzehn $     &  $ \adreixelf $   \\
+
+\hline
+
+\end{tabular}
+
+\end{center} }
+
+%Tabellen mit vier Zeilen
+
+\newcommand{\tabelleleitvierxzwei}{
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|}
+
+\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei   \\
+
+\hline \hline  \leitspalteeins  &  $ \aeinsxeins $  &  $ \aeinsxzwei $    \\
+
+\hline  \leitspaltezwei  &  $ \azweixeins $  &  $ \azweixzwei $    \\
+
+\hline  \leitspaltedrei  &  $ \adreixeins $  &  $ \adreixzwei $    \\
+
+\hline  \leitspaltevier  &  $ \avierxeins $  &  $ \avierxzwei $    \\
+
+\hline
+
+\end{tabular}
+
+\end{center} }
+
+\newcommand{\tabelleleitvierxdrei}{
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|}
+
+\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei  &  \leitzeiledrei     \\
+
+\hline \hline  \leitspalteeins  &  $ \aeinsxeins $  &  $ \aeinsxzwei $  &  $ \aeinsxdrei $     \\
+
+\hline  \leitspaltezwei  &  $ \azweixeins $  &  $ \azweixzwei $  &  $ \azweixdrei $      \\
+
+\hline  \leitspaltedrei  &  $ \adreixeins $  &  $ \adreixzwei $  &  $ \adreixdrei $    \\
+
+\hline  \leitspaltevier  &  $ \avierxeins $  &  $ \avierxzwei $  &  $ \avierxdrei $    \\
+
+\hline
+
+\end{tabular}
+
+\end{center} }
+
+\newcommand{\tabelleleitvierxvier}{
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|c|}
+
+\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei  &  \leitzeiledrei  &  \leitzeilevier    \\
+
+\hline \hline  \leitspalteeins  &  $ \aeinsxeins $  &  $ \aeinsxzwei $  &  $ \aeinsxdrei $  &  $ \aeinsxvier $   \\
+
+\hline  \leitspaltezwei  &  $ \azweixeins $  &  $ \azweixzwei $  &  $ \azweixdrei $  &  $ \azweixvier $     \\
+
+\hline  \leitspaltedrei  &  $ \adreixeins $  &  $ \adreixzwei $  &  $ \adreixdrei $  &  $ \adreixvier $   \\
+
+\hline  \leitspaltevier  &  $ \avierxeins $  &  $ \avierxzwei $  &  $ \avierxdrei $  &  $ \avierxvier $   \\
+
+\hline
+
+\end{tabular}
+
+\end{center} }
+
+\newcommand{\tabelleleittextvierxzwei}{
+
+	\begin{center}
+
+		\begin{tabular}{|c||c|c|}
+
+			\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei   \\
+
+			\hline \hline  \leitspalteeins  &   \aeinsxeins   &   \aeinsxzwei    \\
+
+			\hline  \leitspaltezwei  &  \azweixeins   &   \azweixzwei     \\
+
+			\hline  \leitspaltedrei  &  \adreixeins   &   \adreixzwei     \\
+
+			\hline  \leitspaltevier  &  \avierxeins   &   \avierxzwei     \\
+
+			\hline
+
+		\end{tabular}
+
+	\end{center} }
+
+\newcommand{\tabelleleitvierxacht}{
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|}
+
+\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei  &  \leitzeiledrei  &  \leitzeilevier  &  \leitzeilefuenf  &  \leitzeilesechs  &  \leitzeilesieben  &  \leitzeileacht  \\
+
+\hline \hline  \leitspalteeins  &  $ \aeinsxeins $  &  $ \aeinsxzwei $  &  $ \aeinsxdrei $  &  $ \aeinsxvier $  &  $ \aeinsxfuenf $  &  $ \aeinsxsechs $  &  $ \aeinsxsieben $  &  $ \aeinsxacht $  \\
+
+\hline  \leitspaltezwei  &  $ \azweixeins $  &  $ \azweixzwei $  &  $ \azweixdrei $  &  $ \azweixvier $   &  $ \azweixfuenf $  &  $ \azweixsechs $  &  $ \azweixsieben $  &  $ \azweixacht $   \\
+
+\hline  \leitspaltedrei  &  $ \adreixeins $  &  $ \adreixzwei $  &  $ \adreixdrei $  &  $ \adreixvier $ &  $ \adreixfuenf $  &  $ \adreixsechs $  &  $ \adreixsieben $  &  $ \adreixacht $   \\
+
+\hline  \leitspaltevier  &  $ \avierxeins $  &  $ \avierxzwei $  &  $ \avierxdrei $  &  $ \avierxvier $  &  $ \avierxfuenf $  &  $ \avierxsechs $  &  $ \avierxsieben $  &  $ \avierxacht $  \\
+
+\hline
+
+\end{tabular}
+
+\end{center} }
+
+%Tabellen mit fünf Zeilen
+
+\newcommand{\tabelleleitfuenfxfuenf}{
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|c|c|}
+
+\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei  &  \leitzeiledrei  &  \leitzeilevier  &  \leitzeilefuenf   \\
+
+\hline \hline  \leitspalteeins  &  $ \aeinsxeins $  &  $ \aeinsxzwei $  &  $ \aeinsxdrei $  &  $ \aeinsxvier $  &  $ \aeinsxfuenf $   \\
+
+\hline  \leitspaltezwei  &  $ \azweixeins $  &  $ \azweixzwei $  &  $ \azweixdrei $  &  $ \azweixvier $  &  $ \azweixfuenf $     \\
+
+\hline  \leitspaltedrei  &  $ \adreixeins $  &  $ \adreixzwei $  &  $ \adreixdrei $  &  $ \adreixvier $  &  $ \adreixfuenf $      \\
+
+\hline  \leitspaltevier  &  $ \avierxeins $  &  $ \avierxzwei $  &  $ \avierxdrei $  &  $ \avierxvier $  &  $ \avierxfuenf $     \\
+
+\hline  \leitspaltefuenf  &  $ \afuenfxeins $  &  $ \afuenfxzwei $  &  $ \afuenfxdrei $  &  $ \afuenfxvier $  &  $ \afuenfxfuenf $    \\
+
+\hline
+
+\end{tabular}
+
+\end{center} }
+
+%Tabellen mit sechs Zeilen
+
+\newcommand{\tabelleleitsechsxdrei}{
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|}
+
+\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei  &  \leitzeiledrei    \\
+
+\hline \hline  \leitspalteeins  &  $ \aeinsxeins $  &  $ \aeinsxzwei $  &  $ \aeinsxdrei $    \\
+
+\hline  \leitspaltezwei  &  $ \azweixeins $  &  $ \azweixzwei $  &  $ \azweixdrei $      \\
+
+\hline  \leitspaltedrei  &  $ \adreixeins $  &  $ \adreixzwei $  &  $ \adreixdrei $     \\
+
+\hline  \leitspaltevier  &  $ \avierxeins $  &  $ \avierxzwei $  &  $ \avierxdrei $      \\
+
+\hline  \leitspaltefuenf  &  $ \afuenfxeins $  &  $ \afuenfxzwei $  &  $ \afuenfxdrei $     \\
+
+\hline  \leitspaltesechs  &  $ \asechsxeins $  &  $ \asechsxzwei $  &  $ \asechsxdrei $      \\
+
+\hline
+
+\end{tabular}
+
+\end{center} }
+
+\newcommand{\tabelleleitsechsxfuenf}{
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|c|c|}
+
+\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei  &  \leitzeiledrei  &  \leitzeilevier  &  \leitzeilefuenf   \\
+
+\hline \hline  \leitspalteeins  &  $ \aeinsxeins $  &  $ \aeinsxzwei $  &  $ \aeinsxdrei $  &  $ \aeinsxvier $  &  $ \aeinsxfuenf $   \\
+
+\hline  \leitspaltezwei  &  $ \azweixeins $  &  $ \azweixzwei $  &  $ \azweixdrei $  &  $ \azweixvier $  &  $ \azweixfuenf $     \\
+
+\hline  \leitspaltedrei  &  $ \adreixeins $  &  $ \adreixzwei $  &  $ \adreixdrei $  &  $ \adreixvier $  &  $ \adreixfuenf $      \\
+
+\hline  \leitspaltevier  &  $ \avierxeins $  &  $ \avierxzwei $  &  $ \avierxdrei $  &  $ \avierxvier $  &  $ \avierxfuenf $     \\
+
+\hline  \leitspaltefuenf  &  $ \afuenfxeins $  &  $ \afuenfxzwei $  &  $ \afuenfxdrei $  &  $ \afuenfxvier $  &  $ \afuenfxfuenf $    \\
+
+\hline  \leitspaltesechs  &  $ \asechsxeins $  &  $ \asechsxzwei $  &  $ \asechsxdrei $  &  $ \asechsxvier $  &  $ \asechsxfuenf $    \\
+
+\hline
+
+\end{tabular}
+
+\end{center} }
+
+\newcommand{\tabelleleitsechsxsechs}{
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|c|c|c|}
+
+\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei  &  \leitzeiledrei  &  \leitzeilevier  &  \leitzeilefuenf  &  \leitzeilesechs   \\
+
+\hline \hline  \leitspalteeins  &  $ \aeinsxeins $  &  $ \aeinsxzwei $  &  $ \aeinsxdrei $  &  $ \aeinsxvier $  &  $ \aeinsxfuenf $  &  $ \aeinsxsechs $ \\
+
+\hline  \leitspaltezwei  &  $ \azweixeins $  &  $ \azweixzwei $  &  $ \azweixdrei $  &  $ \azweixvier $  &  $ \azweixfuenf $  &  $ \azweixsechs $   \\
+
+\hline  \leitspaltedrei  &  $ \adreixeins $  &  $ \adreixzwei $  &  $ \adreixdrei $  &  $ \adreixvier $  &  $ \adreixfuenf $   &  $ \adreixsechs $   \\
+
+\hline  \leitspaltevier  &  $ \avierxeins $  &  $ \avierxzwei $  &  $ \avierxdrei $  &  $ \avierxvier $  &  $ \avierxfuenf $   &  $ \avierxsechs $  \\
+
+\hline  \leitspaltefuenf  &  $ \afuenfxeins $  &  $ \afuenfxzwei $  &  $ \afuenfxdrei $  &  $ \afuenfxvier $  &  $ \afuenfxfuenf $ &  $ \afuenfxsechs $   \\
+
+\hline  \leitspaltesechs  &  $ \asechsxeins $  &  $ \asechsxzwei $  &  $ \asechsxdrei $  &  $ \asechsxvier $  &  $ \asechsxfuenf $  &  $ \asechsxsechs $  \\
+
+\hline
+
+\end{tabular}
+
+\end{center} }
+
+%Tabellen mit sieben Zeilen
+
+\newcommand{\tabelleleitsiebenxsieben}{
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|c|c|c|c|}
+
+\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei  &  \leitzeiledrei  &  \leitzeilevier  &  \leitzeilefuenf  &  \leitzeilesechs &  \leitzeilesieben  \\
+
+\hline \hline  \leitspalteeins  &  $ \aeinsxeins $  &  $ \aeinsxzwei $  &  $ \aeinsxdrei $  &  $ \aeinsxvier $  &  $ \aeinsxfuenf $  &  $ \aeinsxsechs $ &  $ \aeinsxsieben $ \\
+
+\hline  \leitspaltezwei  &  $ \azweixeins $  &  $ \azweixzwei $  &  $ \azweixdrei $  &  $ \azweixvier $  &  $ \azweixfuenf $  &  $ \azweixsechs $  &  $ \azweixsieben $ \\
+
+\hline  \leitspaltedrei  &  $ \adreixeins $  &  $ \adreixzwei $  &  $ \adreixdrei $  &  $ \adreixvier $  &  $ \adreixfuenf $   &  $ \adreixsechs $ &  $ \adreixsieben $  \\
+
+\hline  \leitspaltevier  &  $ \avierxeins $  &  $ \avierxzwei $  &  $ \avierxdrei $  &  $ \avierxvier $  &  $ \avierxfuenf $   &  $ \avierxsechs $ &  $ \avierxsieben $ \\
+
+\hline  \leitspaltefuenf  &  $ \afuenfxeins $  &  $ \afuenfxzwei $  &  $ \afuenfxdrei $  &  $ \afuenfxvier $  &  $ \afuenfxfuenf $ &  $ \afuenfxsechs $ &  $ \afuenfxsieben $  \\
+
+\hline  \leitspaltesechs  &  $ \asechsxeins $  &  $ \asechsxzwei $  &  $ \asechsxdrei $  &  $ \asechsxvier $  &  $ \asechsxfuenf $  &  $ \asechsxsechs $ &  $ \asechsxsieben $ \\
+
+\hline  \leitspaltesieben  &  $ \asiebenxeins $  &  $ \asiebenxzwei $  &  $ \asiebenxdrei $  &  $ \asiebenxvier $  &  $ \asiebenxfuenf $  &  $ \asiebenxsechs $ &  $ \asiebenxsieben $ \\
+
+\hline
+
+\end{tabular}
+
+\end{center} }
+
+%Tabellen mit acht Zeilen
+
+\newcommand{\tabelleleitachtxdrei}{
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|}
+
+\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei  &  \leitzeiledrei     \\
+
+\hline \hline  \leitspalteeins  &  $ \aeinsxeins $  &  $ \aeinsxzwei $  &  $ \aeinsxdrei $    \\
+
+\hline  \leitspaltezwei  &  $ \azweixeins $  &  $ \azweixzwei $  &  $ \azweixdrei $     \\
+
+\hline  \leitspaltedrei  &  $ \adreixeins $  &  $ \adreixzwei $  &  $ \adreixdrei $    \\
+
+\hline  \leitspaltevier  &  $ \avierxeins $  &  $ \avierxzwei $  &  $ \avierxdrei $      \\
+
+\hline  \leitspaltefuenf  &  $ \afuenfxeins $  &  $ \afuenfxzwei $  &  $ \afuenfxdrei $     \\
+
+\hline  \leitspaltesechs  &  $ \asechsxeins $  &  $ \asechsxzwei $  &  $ \asechsxdrei $      \\
+
+\hline  \leitspaltesieben  &  $ \asiebenxeins $  &  $ \asiebenxzwei $  &  $ \asiebenxdrei $     \\
+
+\hline  \leitspalteacht  &  $ \aachtxeins $  &  $ \aachtxzwei $  &  $ \aachtxdrei $      \\
+
+\hline
+
+\end{tabular}
+
+\end{center} }
+
+%Tabellen mit zehn Zeilen
+
+\newcommand{\tabelleleitzehnxdrei}{
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|}
+
+\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei  &  \leitzeiledrei     \\
+
+\hline \hline  \leitspalteeins  &  $ \aeinsxeins $  &  $ \aeinsxzwei $  &  $ \aeinsxdrei $    \\
+
+\hline  \leitspaltezwei  &  $ \azweixeins $  &  $ \azweixzwei $  &  $ \azweixdrei $     \\
+
+\hline  \leitspaltedrei  &  $ \adreixeins $  &  $ \adreixzwei $  &  $ \adreixdrei $    \\
+
+\hline  \leitspaltevier  &  $ \avierxeins $  &  $ \avierxzwei $  &  $ \avierxdrei $      \\
+
+\hline  \leitspaltefuenf  &  $ \afuenfxeins $  &  $ \afuenfxzwei $  &  $ \afuenfxdrei $     \\
+
+\hline  \leitspaltesechs  &  $ \asechsxeins $  &  $ \asechsxzwei $  &  $ \asechsxdrei $      \\
+
+\hline  \leitspaltesieben  &  $ \asiebenxeins $  &  $ \asiebenxzwei $  &  $ \asiebenxdrei $     \\
+
+\hline  \leitspalteacht  &  $ \aachtxeins $  &  $ \aachtxzwei $  &  $ \aachtxdrei $      \\
+
+\hline  \leitspalteneun  &  $ \aneunxeins $  &  $ \aneunxzwei $  &  $ \aneunxdrei $      \\
+
+\hline  \leitspaltezehn  &  $ \azehnxeins $  &  $ \azehnxzwei $  &  $ \azehnxdrei $      \\
+
+\hline
+
+\end{tabular}
+
+\end{center} }
+
+%Tabellen mit elf Zeilen
+
+\newcommand{\tabelleleitelfxvier}{
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|c|}
+
+\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei  &  \leitzeiledrei  &  \leitzeilevier  \\
+
+\hline \hline  \leitspalteeins  &  $ \aeinsxeins $  &  $ \aeinsxzwei $  &  $ \aeinsxdrei $  &  $ \aeinsxvier $  \\
+
+\hline  \leitspaltezwei  &  $ \azweixeins $  &  $ \azweixzwei $  &  $ \azweixdrei $  &  $ \azweixvier $   \\
+
+\hline  \leitspaltedrei  &  $ \adreixeins $  &  $ \adreixzwei $  &  $ \adreixdrei $  &  $ \adreixvier $   \\
+
+\hline  \leitspaltevier  &  $ \avierxeins $  &  $ \avierxzwei $  &  $ \avierxdrei $  &  $ \avierxvier $   \\
+
+\hline  \leitspaltefuenf  &  $ \afuenfxeins $  &  $ \afuenfxzwei $  &  $ \afuenfxdrei $  &  $ \afuenfxvier $   \\
+
+\hline  \leitspaltesechs  &  $ \asechsxeins $  &  $ \asechsxzwei $  &  $ \asechsxdrei $  &  $ \asechsxvier $   \\
+
+\hline  \leitspaltesieben  &  $ \asiebenxeins $  &  $ \asiebenxzwei $  &  $ \asiebenxdrei $  &  $ \asiebenxvier $    \\
+
+\hline  \leitspalteacht  &  $ \aachtxeins $  &  $ \aachtxzwei $  &  $ \aachtxdrei $  &  $ \aachtxvier $   \\
+
+\hline  \leitspalteneun  &  $ \aneunxeins $  &  $ \aneunxzwei $  &  $ \aneunxdrei $  &  $ \aneunxvier $   \\
+
+\hline  \leitspaltezehn  &  $ \azehnxeins $  &  $ \azehnxzwei $  &  $ \azehnxdrei $  &  $ \azehnxvier $   \\
+
+\hline  \leitspalteelf  &  $ \aelfxeins $  &  $ \aelfxzwei $  &  $ \aelfxdrei $  &  $ \aelfxvier $   \\
+
+\hline
+
+\end{tabular}
+
+\end{center} }
+
+%Tabellen mit zwölf Zeilen
+
+\newcommand{\tabelleleitzwoelfxsieben}{
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|c|c|c|}
+
+\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei  &  \leitzeiledrei  &  \leitzeilevier &  \leitzeilefuenf  &  \leitzeilesechs &  \leitzeilesieben \\
+
+\hline \hline  \leitspalteeins  &  $ \aeinsxeins $  &  $ \aeinsxzwei $  &  $ \aeinsxdrei $  &  $ \aeinsxvier $  &  $ \aeinsxfuenf $  &  $ \aeinsxsechs $  &  $ \aeinsxsieben $  \\
+
+\hline  \leitspaltezwei  &  $ \azweixeins $  &  $ \azweixzwei $  &  $ \azweixdrei $  &  $ \azweixvier $  &  $ \azweixfuenf $  &  $ \azweixsechs $  &  $ \azweixsieben $   \\
+
+\hline  \leitspaltedrei  &  $ \adreixeins $  &  $ \adreixzwei $  &  $ \adreixdrei $  &  $ \adreixvier $  &  $ \adreixfuenf $  &  $ \adreixsechs $  &  $ \adreixsieben $   \\
+
+\hline  \leitspaltevier  &  $ \avierxeins $  &  $ \avierxzwei $  &  $ \avierxdrei $  &  $ \avierxvier $   &  $ \avierxfuenf $  &  $ \avierxsechs $  &  $ \avierxsieben $  \\
+
+\hline  \leitspaltefuenf  &  $ \afuenfxeins $  &  $ \afuenfxzwei $  &  $ \afuenfxdrei $  &  $ \afuenfxvier $ &  $ \afuenfxfuenf $  &  $ \afuenfxsechs $  &  $ \afuenfxsieben $  \\
+
+\hline  \leitspaltesechs  &  $ \asechsxeins $  &  $ \asechsxzwei $  &  $ \asechsxdrei $  &  $ \asechsxvier $  &  $ \asechsxfuenf $  &  $ \asechsxsechs $  &  $ \asechsxsieben $  \\
+
+\hline  \leitspaltesieben  &  $ \asiebenxeins $  &  $ \asiebenxzwei $  &  $ \asiebenxdrei $  &  $ \asiebenxvier $  &  $ \asiebenxfuenf $  &  $ \asiebenxsechs $  &  $ \asiebenxsieben $   \\
+
+\hline  \leitspalteacht  &  $ \aachtxeins $  &  $ \aachtxzwei $  &  $ \aachtxdrei $  &  $ \aachtxvier $  &  $ \aachtxfuenf $  &  $ \aachtxsechs $  &  $ \aachtxsieben $ \\
+
+\hline  \leitspalteneun  &  $ \aneunxeins $  &  $ \aneunxzwei $  &  $ \aneunxdrei $  &  $ \aneunxvier $  &  $ \aneunxfuenf $  &  $ \aneunxsechs $  &  $ \aneunxsieben $  \\
+
+\hline  \leitspaltezehn  &  $ \azehnxeins $  &  $ \azehnxzwei $  &  $ \azehnxdrei $  &  $ \azehnxvier $ &  $ \azehnxfuenf $  &  $ \azehnxsechs $  &  $ \azehnxsieben $   \\
+
+\hline  \leitspalteelf  &  $ \aelfxeins $  &  $ \aelfxzwei $  &  $ \aelfxdrei $  &  $ \aelfxvier $  &  $ \aelfxfuenf $  &  $ \aelfxsechs $  &  $ \aelfxsieben $  \\
+
+\hline  \leitspaltezwoelf  &  $ \azwoelfxeins $  &  $ \azwoelfxzwei $  &  $ \azwoelfxdrei $  &  $ \zwoelfxvier $  &  $ \azwoelfxfuenf $  &  $ \azwoelfxsechs $  &  $ \zwoelfxsieben $ \\
+
+\hline
+
+\end{tabular}
+
+\end{center} }
+
+%Tabellen mit sechzehn Zeilen
+
+\newcommand{\tabelleleitsechzehnxzwei}{
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|}
+
+\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei   \\
+
+\hline \hline  \leitspalteeins  &  $ \aeinsxeins $  &  $ \aeinsxzwei $ \\
+
+\hline  \leitspaltezwei  &  $ \azweixeins $  &  $ \azweixzwei $  \\
+
+\hline  \leitspaltedrei  &  $ \adreixeins $  &  $ \adreixzwei $  \\
+
+\hline  \leitspaltevier  &  $ \avierxeins $  &  $ \avierxzwei $  \\
+
+\hline  \leitspaltefuenf  &  $ \afuenfxeins $  &  $ \afuenfxzwei $  \\
+
+\hline  \leitspaltesechs  &  $ \asechsxeins $  &  $ \asechsxzwei $  \\
+
+\hline  \leitspaltesieben  &  $ \asiebenxeins $  &  $ \asiebenxzwei $  \\
+
+\hline  \leitspalteacht  &  $ \aachtxeins $  &  $ \aachtxzwei $  \\
+
+\hline  \leitspalteneun  &  $ \aneunxeins $  &  $ \aneunxzwei $   \\
+
+\hline  \leitspaltezehn  &  $ \azehnxeins $  &  $ \azehnxzwei $  \\
+
+\hline  \leitspalteelf  &  $ \aelfxeins $  &  $ \aelfxzwei $   \\
+
+\hline  \leitspaltezwoelf  &  $ \azwoelfxeins $  &  $ \azwoelfxzwei $   \\
+
+\hline  \leitspaltedreizehn  &  $ \adreizehnxeins $  &  $ \adreizehnxzwei $   \\
+
+\hline  \leitspaltevierzehn  &  $ \avierzehnxeins $  &  $ \avierzehnxzwei $  \\
+
+\hline  \leitspaltefuenfzehn  &  $ \afuenfzehnxeins $  &  $ \afuenfzehnxzwei $   \\
+
+\hline  \leitspaltesechzehn  &  $ \asechzehnxeins $  &  $ \asechzehnxzwei $   \\
+
+\hline
+
+\end{tabular}
+
+\end{center} }
+
+\newcommand{\tabelleleitsechzehnxsechs}{
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|c|c|c|}
+
+\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei  &  \leitzeiledrei  &  \leitzeilevier  &  \leitzeilefuenf  &  \leitzeilesechs  \\
+
+\hline \hline  \leitspalteeins  &  $ \aeinsxeins $  &  $ \aeinsxzwei $  &  $ \aeinsxdrei $  &  $ \aeinsxvier $  &  $ \aeinsxfuenf $  &  $ \aeinsxsechs $  \\
+
+\hline  \leitspaltezwei  &  $ \azweixeins $  &  $ \azweixzwei $  &  $ \azweixdrei $  &  $ \azweixvier $  &  $ \azweixfuenf $  &  $ \azweixsechs $  \\
+
+\hline  \leitspaltedrei  &  $ \adreixeins $  &  $ \adreixzwei $  &  $ \adreixdrei $  &  $ \adreixvier $  &  $ \adreixfuenf $  &  $ \adreixsechs $  \\
+
+\hline  \leitspaltevier  &  $ \avierxeins $  &  $ \avierxzwei $  &  $ \avierxdrei $  &  $ \avierxvier $  &  $ \avierxfuenf $  &  $ \avierxsechs $  \\
+
+\hline  \leitspaltefuenf  &  $ \afuenfxeins $  &  $ \afuenfxzwei $  &  $ \afuenfxdrei $  &  $ \afuenfxvier $  &  $ \afuenfxfuenf $  &  $ \afuenfxsechs $  \\
+
+\hline  \leitspaltesechs  &  $ \asechsxeins $  &  $ \asechsxzwei $  &  $ \asechsxdrei $  &  $ \asechsxvier $  &  $ \asechsxfuenf $  &  $ \asechsxsechs $  \\
+
+\hline  \leitspaltesieben  &  $ \asiebenxeins $  &  $ \asiebenxzwei $  &  $ \asiebenxdrei $  &  $ \asiebenxvier $  &  $ \asiebenxfuenf $  &  $ \asiebenxsechs $  \\
+
+\hline  \leitspalteacht  &  $ \aachtxeins $  &  $ \aachtxzwei $  &  $ \aachtxdrei $  &  $ \aachtxvier $  &  $ \aachtxfuenf $  &  $ \aachtxsechs $  \\
+
+\hline  \leitspalteneun  &  $ \aneunxeins $  &  $ \aneunxzwei $  &  $ \aneunxdrei $  &  $ \aneunxvier $  &  $ \aneunxfuenf $  &  $ \aneunxsechs $  \\
+
+\hline  \leitspaltezehn  &  $ \azehnxeins $  &  $ \azehnxzwei $  &  $ \azehnxdrei $  &  $ \azehnxvier $  &  $ \azehnxfuenf $  &  $ \azehnxsechs $  \\
+
+\hline  \leitspalteelf  &  $ \aelfxeins $  &  $ \aelfxzwei $  &  $ \aelfxdrei $  &  $ \aelfxvier $  &  $ \aelfxfuenf $  &  $ \aelfxsechs $  \\
+
+\hline  \leitspaltezwoelf  &  $ \azwoelfxeins $  &  $ \azwoelfxzwei $  &  $ \azwoelfxdrei $  &  $ \azwoelfxvier $  &  $ \azwoelfxfuenf $  &  $ \azwoelfxsechs $  \\
+
+\hline  \leitspaltedreizehn  &  $ \adreizehnxeins $  &  $ \adreizehnxzwei $  &  $ \adreizehnxdrei $  &  $ \adreizehnxvier $  &  $ \adreizehnxfuenf $  &  $ \adreizehnxsechs $  \\
+
+\hline  \leitspaltevierzehn  &  $ \avierzehnxeins $  &  $ \avierzehnxzwei $  &  $ \avierzehnxdrei $  &  $ \avierzehnxvier $  &  $ \avierzehnxfuenf $  &  $ \avierzehnxsechs $  \\
+
+\hline  \leitspaltefuenfzehn  &  $ \afuenfzehnxeins $  &  $ \afuenfzehnxzwei $  &  $ \afuenfzehnxdrei $  &  $ \afuenfzehnxvier $  &  $ \afuenfzehnxfuenf $  &  $ \afuenfzehnxsechs $  \\
+
+\hline  \leitspaltesechzehn  &  $ \asechzehnxeins $  &  $ \asechzehnxzwei $  &  $ \asechzehnxdrei $  &  $ \asechzehnxvier $  &  $ \asechzehnxfuenf $  &  $ \asechzehnxsechs $  \\
+
+\hline
+
+\end{tabular}
+
+\end{center} }
+
+%Tabellen mit achtzehn Zeilen
+
+\newcommand{\tabelleleitachtzehnxneun}{
+
+\begin{center}
+
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|c|}
+
+\hline  \leitzeilenull  &  \leitzeileeins  &  \leitzeilezwei  &  \leitzeiledrei  &  \leitzeilevier  &  \leitzeilefuenf  &  \leitzeilesechs &  \leitzeilesieben  &  \leitzeileacht  &  \leitzeileneun \\
+
+\hline \hline  \leitspalteeins  &  $ \aeinsxeins $  &  $ \aeinsxzwei $  &  $ \aeinsxdrei $  &  $ \aeinsxvier $  &  $ \aeinsxfuenf $  &  $ \aeinsxsechs $ &  $ \aeinsxsieben $  &  $ \aeinsxacht $  &  $ \aeinsxneun $  \\
+
+\hline  \leitspaltezwei  &  $ \azweixeins $  &  $ \azweixzwei $  &  $ \azweixdrei $  &  $ \azweixvier $  &  $ \azweixfuenf $  &  $ \azweixsechs $ &  $ \azweixsieben $  &  $ \azweixacht $  &  $ \azweixneun $  \\
+
+\hline  \leitspaltedrei  &  $ \adreixeins $  &  $ \adreixzwei $  &  $ \adreixdrei $  &  $ \adreixvier $  &  $ \adreixfuenf $  &  $ \adreixsechs $ &  $ \adreixsieben $  &  $ \adreixacht $  &  $ \adreixneun $  \\
+
+\hline  \leitspaltevier  &  $ \avierxeins $  &  $ \avierxzwei $  &  $ \avierxdrei $  &  $ \avierxvier $  &  $ \avierxfuenf $  &  $ \avierxsechs $  &  $ \avierxsieben $  &  $ \avierxacht $  &  $ \avierxneun $ \\
+
+\hline  \leitspaltefuenf  &  $ \afuenfxeins $  &  $ \afuenfxzwei $  &  $ \afuenfxdrei $  &  $ \afuenfxvier $  &  $ \afuenfxfuenf $  &  $ \afuenfxsechs $ &  $ \afuenfxsieben $  &  $ \afuenfxacht $  &  $ \afuenfxneun $  \\
+
+\hline  \leitspaltesechs  &  $ \asechsxeins $  &  $ \asechsxzwei $  &  $ \asechsxdrei $  &  $ \asechsxvier $  &  $ \asechsxfuenf $  &  $ \asechsxsechs $ &  $ \asechsxsieben $  &  $ \asechsxacht $  &  $ \asechsxneun $  \\
+
+\hline  \leitspaltesieben  &  $ \asiebenxeins $  &  $ \asiebenxzwei $  &  $ \asiebenxdrei $  &  $ \asiebenxvier $  &  $ \asiebenxfuenf $  &  $ \asiebenxsechs $ &  $ \asiebenxsieben $  &  $ \asiebenxacht $  &  $ \asiebenxneun $  \\
+
+\hline  \leitspalteacht  &  $ \aachtxeins $  &  $ \aachtxzwei $  &  $ \aachtxdrei $  &  $ \aachtxvier $  &  $ \aachtxfuenf $  &  $ \aachtxsechs $ &  $ \aachtxsieben $  &  $ \aachtxacht $  &  $ \aachtxneun $  \\
+
+\hline  \leitspalteneun  &  $ \aneunxeins $  &  $ \aneunxzwei $  &  $ \aneunxdrei $  &  $ \aneunxvier $  &  $ \aneunxfuenf $  &  $ \aneunxsechs $ &  $ \aneunxsieben $  &  $ \aneunxacht $  &  $ \aneunxneun $  \\
+
+\hline  \leitspaltezehn  &  $ \azehnxeins $  &  $ \azehnxzwei $  &  $ \azehnxdrei $  &  $ \azehnxvier $  &  $ \azehnxfuenf $  &  $ \azehnxsechs $ &  $ \azehnxsieben $  &  $ \azehnxacht $  &  $ \azehnxneun $  \\
+
+\hline  \leitspalteelf  &  $ \aelfxeins $  &  $ \aelfxzwei $  &  $ \aelfxdrei $  &  $ \aelfxvier $  &  $ \aelfxfuenf $  &  $ \aelfxsechs $ &  $ \aelfxsieben $  &  $ \aelfxacht $  &  $ \aelfxneun $  \\
+
+\hline  \leitspaltezwoelf  &  $ \azwoelfxeins $  &  $ \azwoelfxzwei $  &  $ \azwoelfxdrei $  &  $ \azwoelfxvier $  &  $ \azwoelfxfuenf $  &  $ \azwoelfxsechs $ &  $ \azwoelfxsieben $  &  $ \azwoelfxacht $  &  $ \azwoelfxneun $  \\
+
+\hline  \leitspaltedreizehn  &  $ \adreizehnxeins $  &  $ \adreizehnxzwei $  &  $ \adreizehnxdrei $  &  $ \adreizehnxvier $  &  $ \adreizehnxfuenf $  &  $ \adreizehnxsechs $ &  $ \adreizehnxsieben $  &  $ \adreizehnxacht $  &  $ \adreizehnxneun $  \\
+
+\hline  \leitspaltevierzehn  &  $ \avierzehnxeins $  &  $ \avierzehnxzwei $  &  $ \avierzehnxdrei $  &  $ \avierzehnxvier $  &  $ \avierzehnxfuenf $  &  $ \avierzehnxsechs $  &  $ \avierzehnxsieben $  &  $ \avierzehnxacht $  &  $ \avierzehnxneun $ \\
+
+\hline  \leitspaltefuenfzehn  &  $ \afuenfzehnxeins $  &  $ \afuenfzehnxzwei $  &  $ \afuenfzehnxdrei $  &  $ \afuenfzehnxvier $  &  $ \afuenfzehnxfuenf $  &  $ \afuenfzehnxsechs $ &  $ \afuenfzehnxsieben $  &  $ \afuenfzehnxacht $  &  $ \afuenfzehnxneun $  \\
+
+\hline  \leitspaltesechzehn  &  $ \asechzehnxeins $  &  $ \asechzehnxzwei $  &  $ \asechzehnxdrei $  &  $ \asechzehnxvier $  &  $ \asechzehnxfuenf $  &  $ \asechzehnxsechs $ &  $ \asechzehnxsieben $  &  $ \asechzehnxacht $  &  $ \asechzehnxneun $  \\
+
+\hline  \leitspaltesiebzehn  &  $ \asiebzehnxeins $  &  $ \asiebzehnxzwei $  &  $ \asiebzehnxdrei $  &  $ \asiebzehnxvier $  &  $ \asiebzehnxfuenf $  &  $ \asiebzehnxsechs $ &  $ \asiebzehnxsieben $  &  $ \asiebzehnxacht $  &  $ \asiebzehnxneun $  \\
+
+\hline  \leitspalteachtzehn  &  $ \aachtzehnxeins $  &  $ \aachtzehnxzwei $  &  $ \aachtzehnxdrei $  &  $ \aachtzehnxvier $  &  $ \aachtzehnxfuenf $  &  $ \aachtzehnxsechs $ &  $ \aachtzehnxsieben $  &  $ \aachtzehnxacht $  &  $ \aachtzehnxneun $  \\
+
+\hline
+
+\end{tabular}
+
+\end{center} }
+
+\newcommand{\bruchhilfealign}{\cr & & }
+
+\newcommand{\bruchhilfedisp}{\]  \[ }
+
+\newcommand{\bruchhilfe}{ \- }
+
+%[[Projekt:Semantische Vorlagen/Notlösungen/Latex]]
+
+%
+%Bei verschachtelten ifthen-Befehlen
+%kann es Probleme geben, daher
+%
+
+\newcommand{\faktuebergangpos}[1]{ \faktuebergangskip  {\hspace{-0,55cm} } {#1} }
+
+%Ende des Grundvorspannes
+
+%Globale Strukturierungen
+
+\newcommand{\seitenueberschrift}[1]{\seitenueberschriftvorskip
+\begin{center} \large{ #1} \end{center} \seitenueberschriftnachskip}
+
+\newcommand{\zwischenueberschrift}[1]{\section*{#1} }
+
+\newcommand{\zwischenueberschriftaufgaben}[1]{ \zwischenueberschriftvorskip \begin{center} {\bf #1} \end{center} \zwischenueberschriftnachskip}
+
+\newcommand{\unterueberschrift}[1]{ \unterueberschriftvorskip \hspace{0.5cm} {\em #1}  \unterueberschriftnachskip}
+
+\renewcommand{\definitionbenennung}[1]{}
+
+%Grund:Bei Definitionen im Normaltext
+%nicht nötig, da Begriff früh kommt
+
+\renewcommand{\beispielbenennung}[1]{}
+
+\renewcommand{\bemerkungbenennung}[1]{}
+
+%Umbrüche bei großer Schrift (entfällt)
+
+%[[Projekt:Semantische Vorlagen/Mathematischer Modus/Umbrüche/Latex]]
+
+\newcommand{\mathdisplaybruch}{}
+
+\newcommand{\mathdisplaybruchinklammer}{}
+
+\newcommand{\mathl}[2]{$#1$#2}
+
+\newcommand{\mathlk}[2]{$#1$#2}
+
+%Nicht durch semantische Vorlage produzierte Befehle
+
+\newcommand{\mathdisplaybruchbruch}{ \]  \[ }
+
+%Gestaltung der vertikalen und horizontalen Abstände
+
+%[[Projekt:Semantische Vorlagen/Latex/Vorlesungsskript/Skips]]
+
+%Abstände bei Überschriften
+
+\newcommand{\seitenueberschriftvorskip}{\par \bigskip \bigskip \bigskip }
+
+\newcommand{\seitenueberschriftnachskip}{\par \bigskip}
+
+\newcommand{\zwischenueberschriftvorskip}{\par \bigskip}
+
+\newcommand{\zwischenueberschriftnachskip}{\par \smallskip}
+
+\newcommand{\unterueberschriftvorskip}{\par \bigskip}
+
+\newcommand{\unterueberschriftnachskip}{\par \smallskip}
+
+%Aufzählungen und Listen
+
+\newcommand{\listskip}{\smallskip}
+
+%Abstände bei mathematischen Strukturen
+
+\newcommand{\aufgabevorskip}{\bigskip}
+
+\newcommand{\aufgabepunktskip}{\par}
+
+\newcommand{\aufgabenachskip}{}
+
+\newcommand{\aufgabeloesungskip}{\par \bigskip}
+
+\newcommand{\beispielvorskip}{}
+
+\newcommand{\beispielnachskip}{}
+
+\newcommand{\beispielbenennungnachskip}{}
+
+\newcommand{\bemerkungvorskip}{}
+
+\newcommand{\bemerkungnachskip}{}
+
+\newcommand{\bemerkungbenennungnachskip}{}
+
+\newcommand{\definitionvorskip}{}
+
+\newcommand{\definitionnachskip}{}
+
+\newcommand{\definitionbenennungnachskip}{}
+
+\newcommand{\faktvorskip}{}
+
+\newcommand{\faktnachskip}{}
+
+\newcommand{\faktbenennungvorskip}{}
+
+\newcommand{\faktbenennungnachskip}{}
+
+\newcommand{\faktsituationskip}{}
+
+\newcommand{\faktvoraussetzungskip}{}
+
+\newcommand{\faktuebergangskip}{}
+
+\newcommand{\faktfolgerungskip}{}
+
+\newcommand{\faktzusatzskip}{}
+
+%Sonstiges
+
+\newcommand{\deckblattabstand}{\vspace{2cm}}
+
+\newcommand{\gesamtskriptnewpage}{ }
+
+\newcommand{\einzeltextnewpage}{ }
+
+%[[Projekt:Semantische Vorlagen/Latex/Vorlesungsskript/Horizontale Abstände]]
+
+\newcommand{\leerzeichen}{ }
+
+%Seitengestaltung
+
+%[[Projekt:Semantische Vorlagen/Latex/Vorlesungsskript/Seitengestaltung]]
+
+%Einzelne Abstände
+
+\setlength{\oddsidemargin}{1.5cm}
+\setlength{\evensidemargin}{1.5cm}
+
+\setlength{\textwidth}{13.7cm}
+\setlength{\textheight}{22cm}
+
+\setlength{\topmargin}{1cm}
+\setlength{\footskip}{1cm}
+
+\setlength{\parindent}{0cm}
+
+\setlength{\parskip}{1ex}
+
+%Bildgestaltung
+
+%[[Projekt:Semantische Vorlagen/Latex/Vorlesungsskript/Bildgestaltung]]
+
+\newcommand{\bild}[1]{\vspace{4mm} #1}
+
+\newcommand{\bildtext}[1]{\begin{center} {\small #1 } \end{center} }
+
+%Lokale Einstellungen
+
+%\input{Lokalername}
+
+\newcommand{\bildeinlesung}[1]{../../../brenner/bilderundgraphiken/#1}
+
+\renewcommand{\bildeinlesung}[2]{../../Marianne/bilderundgraphiken/#1.#2}
+
+\newcommand{\bildeinlesungpng}[2]{    ../../Marianne/bilderundgraphiken/#1.png}
+
+\newcommand{\bildeinlesungPNG}[2]{    ../../Marianne/bilderundgraphiken/#1.png}
+
+\newcommand{\bildeinlesungjpg}[2]{    ../../Marianne/bilderundgraphiken/#1.jpg}
+
+\newcommand{\bildeinlesungJPG}[2]{    ../../Marianne/bilderundgraphiken/#1.jpg}
+
+\newcommand{\bildeinlesungjpeg}[2]{    ../../Marianne/bilderundgraphiken/#1.png}
+
+\newcommand{\bildeinlesungsvg}[2]{    ../../Marianne/bilderundgraphiken/#1.png}
+
+\newcommand{\bildeinlesunggif}[2]{    ../../Marianne/bilderundgraphiken/#1.png}
+
+\newcommand{\bildeinlesungGIF}[2]{    ../../Marianne/bilderundgraphiken/#1.png}
+
+\newcommand{\bildeinlesungxcf}[2]{    ../../Marianne/bilderundgraphiken/#1.png}
+
+%Klausurgestaltung
+
+%[[Projekt:Semantische Vorlagen/Klausurgestaltung/Latex]]
+
+\newcommand{\fachbereich}{Fachbereich}
+
+\newcommand{\dozent}{Dozent}
+
+\newcommand{\klausurdatum}{Datum}
+
+\newcommand{\klausurgebiet}{Mathematik}
+
+\newcommand{\klausurtyp}{Klausur}
+
+\newcommand{\klausurmodus}{Dauer: Zehn Minuten Einlesezeit und zwei volle Stunden Bearbeitungszeit. Es sind keine Hilfsmittel erlaubt. Alle Antworten sind zu begr\"unden.
+
+Es gibt insgesamt 64 Punkte. Es gilt die Sockelregelung, d.h. die Bewertung pro Aufgabe(nteil) beginnt in der Regel bei der halben Punktzahl. Zum Bestehen braucht man $16$ Punkte, ab $32$ Punkten gibt es eine Eins.
+
+Tragen Sie auf dem Deckblatt und jedem weiteren Blatt Ihren Namen und Ihre
+Matrikelnummer leserlich ein. Viel Erfolg!}
+
+\newcommand{\klausurname}{
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{@{}p{3.2cm}p{10cm}}
+Name, Vorname: &
+..................................................................................\\
+Matrikelnummer: &
+..................................................................................\\
+\end{tabular}
+}
+
+\newcommand{\klausurvorspann}[5]{\textbf{\fachbereich}\hfill \textbf{\klausurdatum}
+\\
+\textbf{\dozent} \hfill
+\vspace{4ex}
+
+\begin{center}
+{\bfseries{\large \klausurgebiet \vspace{2ex}
+
+\klausurtyp} }
+\end{center}
+
+\vspace{2ex}
+
+\klausurmodus
+
+\vspace{2ex}
+
+\klausurname
+}
+
+\newcommand{\klausurnote}{\begin{tabular}{@{}p{3.2cm}p{10cm}} Note: & \end{tabular} }
+
+\newcommand{\klausurtaeuschungwarnung}{ \vspace{2ex}{Mir ist bewu\ss t, dass bei einem schweren T\"auschungsversuch s\"amtliche Pr\"u\-fungsvorleis\-tungen in diesem Kurs verfallen. Ein schwerer T\"auschungsversuch liegt insbesondere beim Einsatz von Literatur und von elektronischen Hilfsmitteln vor. \vspace{1ex} } }
+
+\newcommand{\klausureinverstaendnis}{
+\vspace{2ex}
+Ich erkl\"are mich durch meine Unterschrift einverstanden, dass mein Klausurergebnis mit meiner Matrikelnummer im Internet bekanntgegeben wird.
+\vspace{1ex}
+
+\begin{tabular}{@{}p{3.2cm}p{10cm}}
+Unterschrift: &
+.....................................................................................
+\end{tabular}
+}
+
+%Variante für Testklausur
+
+\newcommand{\testklausurvorspann}[5]{\textbf{\fachbereich}\hfill \textbf{\klausurdatum} \\ \textbf{\dozent} \hfill \vspace{4ex}
+
+\begin{center} {\bfseries{\large \klausurgebiet \vspace{2ex}
+
+\klausurtyp} } \end{center}
+
+\vspace{2ex}
+
+\testklausurmodus
+
+\vspace{3ex}
+
+\klausurname }
+
+\newcommand{\testklausurmodus}{Dauer: Zehn Minuten Einlesezeit und zwei volle Stunden Bearbeitungszeit.
+
+Es sind keine Hilfsmittel erlaubt.
+
+Alle Antworten sind zu begr\"unden.
+
+Es gibt insgesamt 64 Punkte. Es gilt die Sockelregelung, d.h. die Bewertung pro Aufgabe(nteil) beginnt in der Regel bei der halben Punktzahl.
+
+Zur Orientierung: Zum Bestehen braucht man $16$ Punkte, ab $32$ Punkten gibt es eine Eins.
+
+Tragen Sie auf dem Deckblatt und jedem weiteren Blatt Ihren Namen und Ihre Matrikelnummer leserlich ein.
+
+Viel Erfolg!}
+
+%\renewcommand{\inputaufgabegibtloesung}[4]{\aufgabevorskip \begin{aufgabe} \punkte {#1} \aufgabepunktskip #2 #3 #4\end{aufgabe} \aufgabenachskip}
+
+\newcommand{\klausurmitloesungenvorspann}[5]{\textbf{\fachbereich}\hfill \textbf{\klausurdatum} \\ \textbf{\dozent} \hfill \vspace{4ex}
+
+\begin{center} {\bfseries{\large \klausurgebiet \vspace{2ex}
+
+\klausurtyp \hspace{0mm} mit L\"osungen} } \end{center}
+
+}
+
+%Lizenzierung und Bildverzeichnis
+
+%[[Projekt:Semantische Vorlagen/Latex/Vorlesungsskript/Lizenzierung]]
+
+\newcommand{\Lizenztext}{Lizenzerkl\"arung: Diese Seite wurde von Holger Brenner alias Bocardodarapti auf der deutschsprachigen Wikiversity erstellt und unter die Lizenz CC-by-sa 3.0 gestellt.}
+
+\newcommand{\Abbildungslizenzierung}{ Erl\"auterung: Die in diesem Text verwendeten Bilder stammen aus Commons (also von http://commons.wikimedia.org) und haben eine Lizenz, die die Verwendung hier erlaubt. Die Bilder werden mit ihren Dateinamen auf Commons angef\"uhrt zusammen mit ihrem Autor bzw. Hochlader und der Lizenz. }
+
+%Konfiguration des Bildverzeichnisses
+
+\newcommand{\bildlizenz}[6]{
+\ifthenelse {\equal{#2}{}}
+{\addcontentsline{lof}{figure}{Quelle = #1, Autor = Benutzer #3 auf #4, Lizenz = #5 \bildlizenzskip  }}
+{ \ifthenelse {\equal{#3}{}}
+{ \addcontentsline{lof}{figure}{ Quelle = #1, Autor = #2, Lizenz = #5 \bildlizenzskip }}
+{ \addcontentsline{lof}{figure}{ Quelle = #1, Autor = #2 (hochgeladen von Benutzer #3 auf #4), Lizenz = #5 \bildlizenzskip }} } }
+
+\newcommand{\bildlizenzskip}{ }
+
+%Englische Variante
+
+\newcommand{\ignoriereeng}[1]{}
+
+\ignoriereeng{
+
+%[[Projekt:Semantische Vorlagen/Latex/Englische Zusätze]]
+
+\newtheorem{corollary}[fakt]{Corollary}
+
+\newtheorem{Corollary}[fakt]{Corollary}
+
+\theoremstyle{definition}
+
+\newtheorem{example}[fakt]{Example}
+
+\newtheorem{remark}[fakt]{Remark}
+
+\newcommand{\inputremark}[2] {\bemerkungvorskip \begin{remark} \bemerkungbenennung{#1} \bemerkungbenennungnachskip #2 \end{remark} \bemerkungnachskip}
+
+\newcommand{\inputexample}[2] {\beispielvorskip \begin{example} \beispielbenennung{#1} \beispielbenennungnachskip #2 \end{example} \beispielnachskip}
+
+\newcommand{\inputfaktproof}[5] {\faktvorskip \begin{#2}
+
+%\label{#1} (Absetzen, sonst kann das folgende dahinter rutschen)
+
+\faktbenennung{#3} \faktbenennungnachskip #4 \end{#2} \faktnachskip \beweis{#5}}
+
+\renewcommand{\proofname}{\hspace{-0.64cm}{\it Proof}}
+
+}
+
+%Variante für Artikel
+
+\newcommand{\ignoriereart}[1]{}
+
+\ignoriereart{
+\newcommand{\titelueberschrift}[1]{\title[#1] { #1} \maketitle }
+
+\renewcommand{\seitenueberschrift}[1]{ \section {#1} }
+
+\renewcommand{\zwischenueberschrift}[1]{ \subsection {#1} }
+}
+
+[[Kategorie: Latex-Vorspann|Skript]]

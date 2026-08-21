@@ -1,0 +1,19 @@
+{
+  "authority": "German Wikiversity MediaWiki API",
+  "api_url": "https://de.wikiversity.org/w/api.php?action=query&prop=revisions&revids=1111802&rvprop=ids%7Ctimestamp%7Csha1%7Ccontent&rvslots=main&format=json&formatversion=2",
+  "pageid": 131353,
+  "namespace": 0,
+  "title": "Tangentialraum/R/Faser/Kurvenrealisierung/Aufgabe/Lösung",
+  "revid": 1111802,
+  "parentid": 1096717,
+  "timestamp": "2026-08-15T16:41:12Z",
+  "mediawiki_sha1": "09f1f40080836e9c7f41b5851209d9dff07ad8cb",
+  "content_model": "wikitext",
+  "content_format": "text/x-wiki",
+  "source_characters": 2629,
+  "source_utf8_bytes": 2638,
+  "source_utf8_sha1": "09f1f40080836e9c7f41b5851209d9dff07ad8cb",
+  "source_utf8_sha256": "b07aac01b6f803481fab9b5331e19480fb9bf0058597159b6152c65c7bc955ce",
+  "exact_utf8_base64_witness": "worksheet01_exercise01_solution_revid1111802.utf8.b64",
+  "readable_normalized_witness": "worksheet01_exercise01_solution_revid1111802.wiki"
+}

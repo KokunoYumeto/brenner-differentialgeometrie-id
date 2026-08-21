@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-unit01-pdf-build-v1",
+  "engine": "MiKTeX-pdfTeX 4.27 (MiKTeX 26.5)",
+  "command": "pdflatex -interaction=nonstopmode -halt-on-error -file-line-error -recorder unit-01.tex (three passes per clean cycle; two cycles)",
+  "deterministic_clean_cycles": true,
+  "cycles": [
+    {
+      "cycle": 1,
+      "pdf": "tmp/pdfs/unit01-build/cycle-1.pdf",
+      "bytes": 2678755,
+      "sha256": "eb7e78affacf8a559d0f52a1c44921633d2fa74a070faa64af58efc32d34a568",
+      "logs": [
+        {
+          "path": "tmp/pdfs/unit01-build/cycle-1-pass-1.console.txt",
+          "bytes": 10079,
+          "sha256": "7e40075082efc2227cf1eeac6c4e9ab25dd9aab01b67981b8a797450202869ec"
+        },
+        {
+          "path": "tmp/pdfs/unit01-build/cycle-1-pass-2.console.txt",
+          "bytes": 10055,
+          "sha256": "46e721e922547b6f0507e1b22503d5087404b065083ba1c8ed363aeafd41ba73"
+        },
+        {
+          "path": "tmp/pdfs/unit01-build/cycle-1-pass-3.console.txt",
+          "bytes": 10055,
+          "sha256": "46e721e922547b6f0507e1b22503d5087404b065083ba1c8ed363aeafd41ba73"
+        }
+      ]
+    },
+    {
+      "cycle": 2,
+      "pdf": "tmp/pdfs/unit01-build/cycle-2.pdf",
+      "bytes": 2678755,
+      "sha256": "eb7e78affacf8a559d0f52a1c44921633d2fa74a070faa64af58efc32d34a568",
+      "logs": [
+        {
+          "path": "tmp/pdfs/unit01-build/cycle-2-pass-1.console.txt",
+          "bytes": 10079,
+          "sha256": "7e40075082efc2227cf1eeac6c4e9ab25dd9aab01b67981b8a797450202869ec"
+        },
+        {
+          "path": "tmp/pdfs/unit01-build/cycle-2-pass-2.console.txt",
+          "bytes": 10055,
+          "sha256": "46e721e922547b6f0507e1b22503d5087404b065083ba1c8ed363aeafd41ba73"
+        },
+        {
+          "path": "tmp/pdfs/unit01-build/cycle-2-pass-3.console.txt",
+          "bytes": 10055,
+          "sha256": "46e721e922547b6f0507e1b22503d5087404b065083ba1c8ed363aeafd41ba73"
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "path": "build/unit-01.tex",
+      "bytes": 2155,
+      "sha256": "62a2b0c720018129f5ec739b9d3f55be8b7165f660126b665a413c92e186633d"
+    },
+    {
+      "path": "build/brenner-compat.tex",
+      "bytes": 85710,
+      "sha256": "cf1298911792b046f695cb4ac159d7c5f18739b73fb9dc2c885dd26b4942a3a3"
+    },
+    {
+      "path": "build/generated/lecture01.id.build.tex",
+      "bytes": 28576,
+      "sha256": "b6431ed5df863f9a3180610d20989b097c8cf7f234d6d1c999ef0ab1b554e444"
+    },
+    {
+      "path": "build/generated/worksheet01.id.build.tex",
+      "bytes": 13443,
+      "sha256": "8a9d9b2335e6eb8a5118d10d28693eee6b29ddf91721408fbee076fa1bec7934"
+    },
+    {
+      "path": "build/generated/worksheet01_exercise01_solution.id.build.tex",
+      "bytes": 2551,
+      "sha256": "6dcde3cb7e101013465d2b8f30fb37031099239dad1f91edf21e91825adba0f8"
+    },
+    {
+      "path": "build/generated/unit01-media-attribution.tex",
+      "bytes": 1543,
+      "sha256": "f4ed7ddbdfa815c6be6ce67e187a6424318e0a05e7fec4bc0cd28976b1ed0152"
+    },
+    {
+      "path": "qa/unit-01_media.json",
+      "bytes": 7935,
+      "sha256": "70f66bc93286e1b5cdffb50aa372498d337d853c6454cfe45723d54f35fc5089"
+    }
+  ],
+  "output": {
+    "path": "output/pdf/geometri-diferensial-manifold-mulus-unit-01-id.pdf",
+    "bytes": 2678755,
+    "sha256": "eb7e78affacf8a559d0f52a1c44921633d2fa74a070faa64af58efc32d34a568"
+  }
+}

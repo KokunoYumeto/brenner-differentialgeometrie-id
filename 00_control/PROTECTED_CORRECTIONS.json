@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-01/lecture01.id.tex",
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0002+O011-ADV-0009",
+      "surface": "profile:commands",
+      "source_sha256": "c2987606a6dc256c433d580af74387469d93c4a89680d8a8a04a5d4771964f6c",
+      "target_sha256": "483d9b0281c40afce15f4a9b2fd0d5e26fd794d564690f2ccdbf331fc57cb2b4"
+    },
+    {
+      "correction_id": "O011-CORR-0002+O011-ADV-0009",
+      "surface": "profile:brace_profile",
+      "source_sha256": "5b1c5163d4e72f27372d638f6b2d609c419b944420090668c2e804d3e7cf2dd2",
+      "target_sha256": "ab7ce05d3760093797f18761b90bf82e13790d03f9a3b7dba32908b7c1eccdac"
+    },
+    {
+      "correction_id": "O011-CORR-0002",
+      "surface": "inline_math",
+      "index": 113,
+      "source_sha256": "18cc723d2597213596a82282176d7c033055526340e686f4c6649eb0fa614f4d",
+      "target_sha256": "5ece604950de13136d3261085fad9d3995590373522bbc7f3f9e21b22bbd17c2"
+    },
+    {
+      "correction_id": "O011-CORR-0002",
+      "surface": "protected:maabbdisp",
+      "index": 7,
+      "source_sha256": "f910c30100dac0770ece69c397e2315c1d1e35ef926788ffdb8de0eff446bc11",
+      "target_sha256": "fa52a509ed7ba5885cc8b0004b86cab3c3449d21ce3652d1c1d15d7cf90ab2f6"
+    },
+    {
+      "correction_id": "O011-CORR-0002",
+      "surface": "protected:maabbeledisp",
+      "index": 3,
+      "source_sha256": "da8bf2edeeedc406d49f0eb3fd2e1fc593ea4b2037ff06b575c218a5db0686ff",
+      "target_sha256": "a0ec24bf26e7210a4c77d05b8e1739bfb074e114d4ebcdbaa5df05167a367bbe"
+    }
+  ]
+}

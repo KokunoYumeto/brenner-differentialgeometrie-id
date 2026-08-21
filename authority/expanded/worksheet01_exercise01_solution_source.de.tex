@@ -1,0 +1,204 @@
+% Authority: German Wikiversity pageid 131353, revid 1111802, 2026-08-15T16:41:12Z.
+% Exact UTF-8 witness SHA-256: b07aac01b6f803481fab9b5331e19480fb9bf0058597159b6152c65c7bc955ce.
+
+\zwischenueberschrift{Lösung zu Aufgabe 1}
+
+Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PZ
+}
+{ = }{ \operatorname{kern} \left((D\varphi)_P\right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Nach dem
+\definitionsverweis {Satz über implizite Abbildungen}{}{}
+gibt es eine offene Menge
+
+\mathbed {P \in W} {}
+ {W \subseteq G} {}
+ {} {} {} {,}
+eine offene Menge
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^{n-m}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und eine stetig differenzierbare Abbildung
+\maabbdisp {\psi} { V } { W } {}
+derart, dass
+
+\mavergleichskette
+{\vergleichskette
+{ \psi(V)
+}
+{ \subseteq }{ Z \cap W
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist und $\psi$ eine
+\definitionsverweis {Bijektion}{}{}
+\maabbdisp {\psi} { V } { Z \cap W } {}
+induziert. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+der Punkt mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \psi(Q)
+}
+{ =} { P
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Die Abbildung $\psi$ ist in jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\definitionsverweis {regulär}{}{}
+und für das
+\definitionsverweis {totale Differential}{}{}
+von $\psi$ gilt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (D\varphi)_P \circ (D\psi)_Q
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \operatorname{bild} \left((D\psi)_Q\right)
+}
+{ =} { \operatorname{kern} \left((D\varphi)_P\right)
+}
+{ =} { T_PZ
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Wegen der Regularität von $\psi$ in $Q$ ist
+\maabbdisp {(D\psi)_Q} { \R^{n-m} } { \R^n } {}
+injektiv und
+\maabbdisp {(D\psi)_Q} { \R^{n-m} } { T_PZ } {}
+bijektiv. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ u
+}
+{ \in }{ \R^{n-m}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+das Urbild von $v$ und sei
+\maabbeledisp {\theta} { ]-\epsilon,\epsilon[ } { \R^{n-m} } {t} {Q+tu} {,}
+wobei $\epsilon$ hinreichend klein gewählt sei, dass das Bild ganz in $V$ liegt. Dann besitzt
+\maabbdisp {\gamma=\psi\circ\theta} { ]-\epsilon,\epsilon[ } { \R^n } {}
+die Eigenschaft
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma(0)
+}
+{ =} { \psi(\theta(0))
+}
+{ =} { \psi(Q)
+}
+{ =} { P
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma'(0)
+}
+{ =} { (D\psi)_Q(\theta'(0))
+}
+{ =} { (D\psi)_Q(u)
+}
+{ =} { v
+}
+{ } {
+}
+}
+{}{}{.}

@@ -1,0 +1,1558 @@
+\setcounter{section}{1}
+
+  \zwischenueberschrift{Hipermuka}
+
+Misalkan
+\maabbdisp {h} {\R^n } { \R
+} {}
+adalah sebuah
+\definitionsverweis {fungsi terdiferensialkan}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah serat di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Himpunan-himpunan bagian ini dipelajari khususnya dalam konteks teorema fungsi implisit. Jika
+\definitionsverweis {diferensial total}{}{}
+\maabbdisp {\left(D h \right)_{ P}} {\R^n } { \R
+} {}
+surjektif untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+---dengan kata lain, jika $P$ selalu merupakan
+\definitionsverweis {titik reguler}{}{}
+dari pemetaan itu---maka $Y$, dalam suatu lingkungan terbuka dari $P$, homeomorfik dengan suatu himpunan terbuka di $\R^{n-1}$. Selain itu, dalam konteks ini kita telah memperkenalkan
+\definitionsverweis {ruang tangen pada serat}{}{}
+sebagai kernel diferensial total. Ruang ini merupakan subruang vektor berdimensi $(n-1 )$ dari $\R^n$, tetapi biasanya dibayangkan melekat pada titik $P$, yakni sebagai ruang afin-linear. Di titik $P$, ruang tangen ini menyinggung $Y$. Kita menyebut $Y$ sebuah \stichwort {hipermuka} {,} karena ruang tangennya berdimensi satu lebih rendah daripada ruang sekitarnya. Untuk
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ = }{ 3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+memang diperoleh sebuah permukaan. Jika kita menggunakan hasil kali dalam standar pada $\R^n$, ruang tangen pada serat juga dapat dipandang sebagai ruang semua vektor yang tegak lurus terhadap
+\definitionsverweis {gradien}{}{}
+
+\mathl{\operatorname{Grad} \,  h  (  P )}{}.
+
+\inputbeispiel{}
+{
+
+Misalkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h(x,y,z)
+}
+{ =} { x^2+y^2+z^2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan kita tinjau serat $Y$ dari $h$ di atas $1$, yaitu permukaan bola berjari-jari $1$ dengan pusat di titik asal. Diferensial totalnya adalah
+\mathl{\left(  2x  , \,   2y  , \,   2z                 \right)}{,} sehingga di setiap titik permukaan bola setidaknya satu komponennya tidak sama dengan $0$; oleh karena itu, $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik pada $Y$. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ \left(  a   , \,   b  , \,  c                 \right)
+}
+{ \in }{ Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Ruang tangen di $P$ diberikan oleh syarat linear
+
+\mavergleichskettedisp
+{\vergleichskette
+{ ax+by+cz
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan merupakan himpunan semua vektor yang ortogonal terhadap gradien
+\mathl{\begin{pmatrix}  2a \\ 2b\\  2c   \end{pmatrix}}{}.
+
+}
+
+\inputbeispiel{}
+{
+
+$\,$
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {3d-function-6} {svg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { 3d-function-6.svg } {} {MartinThoma} {Commons} {CC BY 3.0} {}
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah sebuah
+\definitionsverweis {himpunan terbuka}{}{}
+dan misalkan
+\maabbdisp {f} { V } { \R
+} {}
+adalah sebuah
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{}.
+\definitionsverweis {Grafik}{}{}
+dari $f$ adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ =} { \left\{ (x_1  , \ldots , x_{n-1},f( x_1  , \ldots , x_{n-1}))  \mid   x_1  , \ldots , x_{n-1} \in V         \right\}
+}
+{ \subseteq} { V \times \R
+}
+{ \subseteq} { \R^n
+}
+{ } {
+}
+}
+{}{}{,}
+yang juga dapat dipandang sebagai himpunan nol
+\zusatzklammer {serat di atas $0$} {} {}
+dari
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h(x_1  , \ldots , x_n)
+}
+{ \defeq} { x_n- f( x_1 , \ldots , x_{n-1})
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Turunan parsial dari $h$ adalah
+
+\mathdisp {- { \frac{   \partial   f   }{  \partial   x_1   } } , \ldots , - { \frac{   \partial   f   }{  \partial   x_{n-1}   } } ,1} { . }
+
+Khususnya, $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik pada $Y$.
+\definitionsverweis {Ruang tangen}{}{}
+pada $Y$ di sebuah titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+tegak lurus terhadap
+\mathl{\begin{pmatrix}  - { \frac{   \partial   f   }{  \partial   x_1   } } ( P)  \\ \vdots \\  -  { \frac{   \partial   f   }{  \partial   x_{n-1}   } } ( P)\\ 1   \end{pmatrix}}{.} Setiap garis dasar diparameterkan
+\mathl{\begin{pmatrix}  x_1  \\ \vdots \\ x_{n-1}   \end{pmatrix} + t  \begin{pmatrix} v_1  \\\vdots\\ v_{n-1}   \end{pmatrix}}{} menjadi kurva yang diparameterkan
+\maabbeledisp {} { I } { Y
+} { t } { \begin{pmatrix}  x_1+tv_1  \\ \vdots \\  x_{n-1} +tv_{n-1}\\f \begin{pmatrix}  x_1+tv_1  \\ \vdots \\  x_{n-1} +tv_{n-1}   \end{pmatrix}   \end{pmatrix}
+} {}
+pada $Y$, yang turunannya menghasilkan sebuah vektor tangen. Jika lintasan untuk
+
+\mavergleichskettedisp
+{\vergleichskette
+{ v
+}
+{ =} { e_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dilambangkan dengan $\gamma_i$, maka
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma'_i(t)
+}
+{ =} { \begin{pmatrix} \vdots \\ 1 \\ \vdots\\ { \frac{   \partial   f   }{  \partial   x_i   } }   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma^{\prime \prime}_i(t)
+}
+{ =} { \begin{pmatrix} \vdots \\ { \frac{   \partial    }{  \partial   x_i   } } { \frac{   \partial   f   }{  \partial   x_i   } }    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+menurut
+Teorema 49.1 (Analisis (Osnabrück 2021--2023)).
+
+}
+
+  \zwischenueberschrift{Analisis dan Geometri}
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+adalah sebuah
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik pada $Y$. Kita membahas beberapa objek atau konstruksi yang memang ada di ruang linear sekitar $\R^n$, tetapi berhubungan sedemikian erat dengan hipermuka $Y$ sehingga kita ingin memahami dan mempelajarinya semata-mata sebagai objek pada $Y$. Untuk sementara, objek-objek ini memerlukan ruang sekitar karena definisinya mengacu pada analisis berdimensi lebih tinggi, yang saat ini baru tersedia untuk ruang vektor
+\zusatzklammer {linear} {} {}.
+Salah satu tujuan penting kita adalah mengembangkan konsep-konsep ini hanya pada objek geometris
+\zusatzklammer {nonlinear} {} {}
+$Y$. Kita akan menyinggung kurva pada hipermuka, ekstremum dengan kendala, dan persamaan diferensial untuk medan vektor tangensial.
+
+\inputbemerkung
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+adalah sebuah
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik pada $Y$. Misalkan
+\maabbdisp {\gamma} { I } { \R^n
+} {}
+adalah sebuah
+\definitionsverweis {kurva terdiferensialkan}{}{,}
+yang seluruhnya terletak di $Y$, dengan $I$ suatu interval terbuka. Maka, pada setiap saat
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {turunan}{}{}
+$\gamma'(t)$ berada di ruang tangen pada $Y$ di titik $\gamma(t)$. Hal ini didasarkan pada sifat konstan dari
+
+\mavergleichskette
+{\vergleichskette
+{ h \circ \gamma
+}
+{ = }{ c
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang, melalui aturan rantai, memberikan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(Dh \circ \gamma\right)_{t}
+}
+{ =} { \left(Dh  \right)_{ \gamma(t) }  \circ \left(D \gamma  \right)_{ t }
+}
+{ =} { \left(Dh  \right)_{ \gamma(t) } ( \gamma'( t) )
+}
+{ =} { 0
+}
+{ } {
+}
+}
+{}{}{,}
+dan karenanya
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'( t)
+}
+{ \in }{ \ker  \left(Dh \right)_{ \gamma(t) }
+}
+{ = }{ T_{\gamma(t) }Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Selain itu, dari
+Soal 1.1
+diperoleh bahwa setiap vektor tangen di $P$ pada $Y$ dapat direalisasikan oleh suatu kurva terdiferensialkan pada $Y$. Jadi, ruang tangen dapat dijelaskan secara bermakna hanya dengan kurva-kurva terdiferensialkan pada $Y$, meskipun keterdiferensialan kurva tersebut masih mengandaikan ruang sekitar.
+
+}
+
+\inputbemerkung
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+adalah sebuah
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik pada $Y$. Kita merangkum kembali teorema tentang ekstremum lokal dengan kendala dalam situasi ini; bandingkan
+Akibat 54.3 (Analisis (Osnabrück 2021--2023))
+\zusatzklammer {dengan notasi yang berbeda} {} {.}
+Selain fungsi $h$, yang menentukan $Y$ dan dengan demikian menentukan kendala, terdapat pula suatu lingkungan terbuka $U$ dari $Y$ beserta sebuah fungsi bernilai real $f$ yang didefinisikan di sana. Yang dicari adalah ekstremum lokal $f$, tetapi bukan pada seluruh $U$---yang biasanya diselidiki dengan gradien dan matriks Hesse---melainkan hanya pada $Y$. Misalnya, kita mungkin ingin mencari suhu maksimum pada permukaan suatu benda sambil mengabaikan bahwa bagian dalamnya lebih panas. Teorema tersebut menyatakan bahwa jika $f$ terdiferensialkan secara kontinu dan memiliki ekstremum lokal di suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+di bawah kendala $Y$, maka gradien
+\mathl{\operatorname{Grad} \,  f  (  P  )}{} merupakan kelipatan dari gradien
+\mathl{\operatorname{Grad} \,  h  (  P  )}{}. Kriteria keterdiferensialan ini mengacu pada ruang sekitar: baik karena keterdiferensialan itu sendiri didefinisikan dengan mengacu pada ruang sekitar, maupun karena kedua gradien yang dibandingkan menjulur ke dalam ruang sekitar tersebut.
+
+}
+
+
+
+\inputfaktbeweis
+{Gewöhnliches Differentialgleichungssystem/Hyperfläche/Lösung/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+adalah sebuah
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik pada $Y$.
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ U
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{}
+dan misalkan $F$ adalah sebuah
+\definitionsverweis {medan vektor}{}{}
+terdiferensialkan pada $U$}
+\faktvoraussetzung {dengan sifat bahwa untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+vektor $F(P)$ berada dalam
+\definitionsverweis {ruang tangen pada serat}{}{}
+di $P$ pada $Y$\zusatzfussnote {Medan vektor seperti ini disebut medan vektor tangensial} {.} {.}}
+\faktfolgerung {Maka solusi $v(t)$ dari
+\definitionsverweis {masalah nilai awal}{}{}
+untuk $F$ dengan syarat awal
+
+\mavergleichskette
+{\vergleichskette
+{ v(t_0)
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+seluruhnya terletak di $Y$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Kita bekerja dengan struktur Euklides pada $\R^n$ dan dengan
+\definitionsverweis {gradien}{}{}
+$\operatorname{Grad} \,  h$ dari $h$. Berdasarkan asumsi, pada $Y$ gradien ini tidak pernah sama dengan $0$, dan karena kekontinuan, sifat tersebut juga berlaku pada suatu lingkungan terbuka dari $Y$. Dengan memperkecil $U$ jika perlu, kita dapat menganggap bahwa gradien itu tidak memiliki titik nol di seluruh $U$. Pada $U$, kita tinjau medan vektor baru $G$ yang didefinisikan oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ G(P)
+}
+{ =} { F(P)-  { \frac{   \left\langle  F(P) ,
+\operatorname{Grad} \,  h  (  P )    \right\rangle   }{  \Vert {
+\operatorname{Grad} \,  h  (  P ) } \Vert^2   } }
+\operatorname{Grad} \,  h  (  P )
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Untuk
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku
+
+\mavergleichskette
+{\vergleichskette
+{ G(P)
+}
+{ = }{ F(P)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+karena pada $Y$ gradien $h$ tegak lurus terhadap medan vektor tersebut. Selain itu, $G$
+\zusatzklammer {berbeda dengan $F$} {} {}
+memiliki sifat bahwa untuk semua titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+vektor $G(P)$ tegak lurus terhadap gradien, sebab
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left\langle  G(P) ,
+\operatorname{Grad} \,  h  (  P )   \right\rangle
+}
+{ =} { \left\langle  F(P)- { \frac{   \left\langle  F(P) ,
+\operatorname{Grad} \,  h  (  P )    \right\rangle  }{  \Vert {
+\operatorname{Grad} \,  h  (  P ) } \Vert^2  } }
+\operatorname{Grad} \,  h  (  P )  ,
+\operatorname{Grad} \,  h  (  P )   \right\rangle
+}
+{ =} { \left\langle  F(P) ,
+\operatorname{Grad} \,  h  (  P )   \right\rangle - \left\langle  F(P) ,
+\operatorname{Grad} \,  h  (  P )   \right\rangle
+}
+{ =} { 0
+}
+{ } {
+}
+}
+{}
+{}{.}
+Sekarang misalkan
+\maabbdisp {v} { I} { \R^n
+} {}
+adalah, menurut
+Teorema 56.2 (Analisis (Osnabrück 2021--2023))
+\zusatzfussnote {Catatan edisi: Dengan asumsi yang dinyatakan, fungsi h hanya berkelas C¹ sehingga gradiennya sekadar kontinu; hal ini belum membuktikan bahwa medan G lokal Lipschitz sebagaimana diperlukan untuk kesimpulan keunikan Picard--Lindelöf. Langkah ini memerlukan regularitas tambahan atau pembuktian lokal melalui koordinat manifold.} {} {}
+,
+solusi tunggal dari masalah nilai awal untuk $G$ dengan syarat awal
+\mavergleichskette
+{\vergleichskette
+{ v(t_0)
+}
+{ = }{ P
+}
+{ \in }{ Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Maka
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \left(Dh \circ v \right)_{t}
+}
+{ =} { \left(Dh  \right)_{v(t)} \circ  \left(D v \right)_{t}
+}
+{ =} { \left(Dh  \right)_{v(t)}  \left(  v'(t)  \right)
+}
+{ =} { \left(Dh  \right)_{v(t)}  \left(  G(v(t))  \right)
+}
+{ =} { \left\langle
+\operatorname{Grad} \,  h  ( v(t) )  ,  G(v(t))    \right\rangle
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { 0
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+Oleh karena itu, $h$ konstan pada citra $v( I)$, dan karena
+
+\mavergleichskette
+{\vergleichskette
+{ h(v(t_0))
+}
+{ = }{ c
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+maka
+
+\mavergleichskette
+{\vergleichskette
+{ h(v(t))
+}
+{ = }{ c
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+untuk semua
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+sehingga
+
+\mavergleichskette
+{\vergleichskette
+{ v(t)
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+untuk semua
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+
+Dengan regularitas tambahan, cara lain untuk membuktikan pernyataan ini adalah dengan memindahkan medan vektor $F$ melalui suatu difeomorfisme lokal antara
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ V
+}
+{ \subseteq }{ Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ V'
+}
+{ \subseteq }{ \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ke $\R^{n-1}$, memastikan bahwa medan dalam koordinat bersifat lokal Lipschitz, membuktikan keberadaan solusi di sana, memindahkan kembali solusi itu ke $Y$, lalu merekatkan solusi-solusi parsial tersebut. Tanpa regularitas tersebut, argumen alternatif ini belum lengkap.
+
+Lingkungan terbuka $U$ dari $Y$ diperlukan agar kita dapat berbicara tentang medan vektor terdiferensialkan, meskipun pada akhirnya hanya medan vektor pada $Y$ yang relevan.
+
+  \zwischenueberschrift{Percepatan}
+
+\inputbemerkung
+{}
+{
+
+Kita tinjau kurva
+\maabbeledisp {v} {\R} { \R^2
+} { t } { \begin{pmatrix}  \cos  t  \\ \sin  t    \end{pmatrix}
+} {,}
+yang seluruhnya bergerak pada lingkaran satuan. Dengan demikian, turunannya
+
+\mavergleichskette
+{\vergleichskette
+{ v'(t)
+}
+{ = }{ \begin{pmatrix}  - \sin  t  \\ \cos  t    \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+selalu tangensial terhadap lingkaran satuan
+\zusatzklammer {hal ini juga mengikuti dari
+Catatan 1.1.3} {} {.}
+Normanya selalu sama dengan $1$, sehingga lingkaran satuan ditempuh secara seragam dengan besar kecepatan konstan. Namun, arah kecepatannya berubah secara kontinu, dan turunan keduanya adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ v^{\prime \prime}(t)
+}
+{ =} { \begin{pmatrix}  - \cos  t  \\ - \sin  t    \end{pmatrix}
+}
+{ =} { - \begin{pmatrix}  \cos  t  \\ \sin  t    \end{pmatrix}
+}
+{ =} { - v(t)
+}
+{ } {
+}
+}
+{}{}{.}
+Percepatannya adalah negatif dari vektor posisi dan tegak lurus terhadap vektor kecepatan. Jika ruang tangen dari bidang sekitar di sebuah titik $P$ pada lingkaran---yakni $\R^2$ yang dipandang berpusat di $P$---diuraikan menjadi arah yang tangensial terhadap lingkaran
+\zusatzklammer {ruang tangen pada serat} {} {}
+dan arah yang tegak lurus terhadapnya
+\zusatzklammer {ruang normal} {} {}
+\zusatzklammer {dalam arti penguraian suatu ruang vektor sebagai
+\definitionsverweis {jumlah langsung}{}{}
+dari subruang-subruang vektor} {} {,}
+maka seluruh percepatan berlangsung di ruang normal; proyeksi ortogonalnya pada ruang tangen selalu $0$. Dalam pengertian ini, percepatan tidak relevan bagi gerak pada lingkaran satuan.
+
+Sekarang kita tinjau secara lebih umum sebuah kurva
+\maabbeledisp {w} {\R} { \R^2
+} { t } { \begin{pmatrix}  \cos  f(t)  \\ \sin f(t)    \end{pmatrix}
+} {,}
+dengan $f$ suatu fungsi real yang terdiferensialkan dua kali. Seperti sebelumnya, kurva ini bergerak pada lingkaran satuan, dan turunannya adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ w'(t)
+}
+{ =} { f'(t) \begin{pmatrix}  - \sin  f(t)  \\ \cos f(t)    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+sehingga, seperti sebelumnya, kurva ini selalu tangensial terhadap lingkaran satuan, sedangkan norma kecepatannya sekarang sama dengan $\betrag { f'(t) }$. Turunan keduanya adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ w^{\prime \prime} (t)
+}
+{ =} { f^{\prime \prime} (t) \begin{pmatrix}  - \sin  f(t)  \\ \cos f(t)    \end{pmatrix} - \left(  f'(t)  \right)^2 \begin{pmatrix}  \cos  f(t)  \\ \sin f(t)    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+yang secara langsung memperlihatkan penguraian ke dalam komponen tangensial dan komponen yang ortogonal terhadapnya. Suku pertama, yang memuat turunan kedua fungsi, adalah komponen tangensial. Komponen normalnya adalah
+\mathl{- \left(  f'(t)  \right)^2 \begin{pmatrix}  \cos  f(t)  \\ \sin f(t)    \end{pmatrix}}{,} sedangkan percepatan tangensial muncul ketika turunan kedua $f$ tidak sama dengan nol.
+
+}
+
+Untuk sebuah hipermuka
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan sebuah titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kita selalu dapat menguraikan ruang sekitar $\R^n$, yang dipandang sebagai ruang tangen dari $\R^n$ di $P$, secara ortogonal sebagai
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \R^n
+}
+{ =} { T_PY \oplus N_PY
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dengan $N_PY$ sebuah garis yang terdiri atas semua titik yang ortogonal terhadap $T_PY$ dan disebut \stichwort {garis normal} {}. Garis normal terdiri atas semua kelipatan gradien
+\mathl{\operatorname{Grad} \,  h  (  P )}{} di $P$, jika $h$ menyatakan suatu fungsi yang mendeskripsikan $Y$. Sebuah \stichwort {vektor normal} {} adalah elemen garis normal bernorma $1$. Ada dua vektor normal demikian, dan yang satu merupakan negatif dari yang lain. Melalui
+\definitionsverweis {proyeksi ortogonal}{}{}
+sepanjang $N_PY$, yakni pemetaan
+\maabbdisp {\pi_P} {\R^n } { T_PY
+} {}
+kita dapat memetakan setiap vektor di $\R^n$ ke sebuah vektor di ruang tangen.
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+adalah sebuah
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik pada $Y$. Misalkan
+\maabbdisp {\gamma} {I} {Y
+} {}
+merupakan
+\zusatzklammer {sebagai pemetaan ke $\R^n$} {} {}
+sebuah \definitionsverweis {kurva yang terdiferensialkan dua kali secara kontinu}{}{.}
+Maka pemetaan
+\maabbeledisp {} {I} { TY
+} {t} { \pi_{\gamma(t)}( \gamma^{\prime \prime} (t))
+} {,}
+dengan $\pi_{\gamma(t)}$ menyatakan proyeksi ortogonal
+\maabbdisp {} {\R^n } { T_{\gamma(t)}Y
+} {}
+disebut
+\definitionswort {turunan tangensial kedua}{}
+\zusatzklammer {atau
+\definitionswort {percepatan tangensial}{}} {} {}
+dari $\gamma$.
+
+}
+
+Gagasan tentang turunan kedua yang tangensial terhadap hipermuka dikembangkan lebih lanjut dalam konteks yang disebut koneksi.
+
+  \zwischenueberschrift{Kurva Geodesik}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+adalah sebuah
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik pada $Y$. Sebuah
+\zusatzklammer {sebagai pemetaan ke $\R^n$} {} {}
+\definitionsverweis {kurva yang terdiferensialkan dua kali secara kontinu}{}{}
+\maabbdisp {\gamma} {I} {Y
+} {}
+disebut
+\definitionswort {geodesik}{}
+\zusatzklammer {atau
+\definitionswort {kurva geodesik}{}
+pada $Y$} {} {,}
+jika
+\definitionsverweis {percepatan tangensial}{}{}
+kurva itu sama dengan $0$ di mana-mana.
+
+}
+
+Sebuah kurva yang terdiferensialkan dua kali merupakan geodesik tepat ketika turunan keduanya selalu ortogonal terhadap ruang tangen. Gagasan fisika yang mendasarinya adalah gerak sebuah partikel yang bergerak pada $Y$ tanpa percepatan. Secara umum memang terdapat gaya-gaya kendala, seperti gravitasi atau tarikan magnetis, yang memaksa geraknya tetap pada $Y$ dan pada gilirannya memerlukan percepatan di ruang sekitar; namun pada $Y$ sendiri tidak ada percepatan. Jadi, kurva geodesik menggambarkan gerak alami tanpa percepatan pada sebuah hipermuka terdiferensialkan.
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Great circle passing through two points} {svg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Great circle passing through two points.svg } {} {HaEr48} {Commons} {CC BY-SA 4.0} {}
+
+\inputdefinition
+{}
+{
+
+Irisan sebuah
+\definitionsverweis {permukaan bola}{}{}
+\mathl{S}{} dengan suatu bidang yang melalui pusat bola disebut sebuah \definitionswort {lingkaran besar}{} pada $S$.
+
+}
+
+Pada bola Bumi, khatulistiwa dan lingkaran-lingkaran bujur merupakan lingkaran besar; lingkaran-lingkaran lintang pada umumnya bukan.
+
+\inputbeispiel{}
+{
+
+Kita berada pada bola satuan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ =} { \left\{ (x,y,z)  \mid   x^2+y^2+z^2 = 1         \right\}
+}
+{ \subseteq} { \R^3
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Di
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat sebuah partikel yang menerima impuls gerak dalam arah tangensial tertentu yang dinyatakan oleh
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Partikel itu terus bergerak dalam arah ini
+\zusatzklammer {tanpa diperlambat dan tanpa dipercepat} {} {}
+namun harus selalu tetap berada pada bola
+\zusatzklammer {karena gravitasi Bumi atau karena permukaan yang kukuh} {} {.}
+Misalkan titik tersebut diberikan oleh
+\mathl{\begin{pmatrix}  x_1  \\ y_1 \\ z_1   \end{pmatrix}}{} dan vektor tangen tegak lurus yang menyatakan impuls sesaat diberikan oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}  x_3  \\ y_3 \\ z_3   \end{pmatrix}
+}
+{ =} { a \begin{pmatrix}  x_2  \\ y_2 \\ z_2   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dengan $\begin{pmatrix}  x_2  \\ y_2 \\ z_2   \end{pmatrix}$ suatu vektor bernorma $1$ yang tegak lurus terhadap vektor posisi. Gerak tersebut berada pada bidang yang ditentukan oleh kedua vektor ini sekaligus pada bola. Salah satu parametrisasi geraknya adalah
+\maabbeledisp {\gamma} {\R} { \R^3
+} { t } { \cos \left( at \right) \begin{pmatrix}  x_1  \\ y_1 \\ z_1   \end{pmatrix} + \sin  \left( at \right) \begin{pmatrix}  x_2  \\ y_2 \\ z_2   \end{pmatrix}
+} {.}
+Berlaku
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(0)
+}
+{ = }{ \begin{pmatrix}  x_1  \\ y_1 \\ z_1   \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'(t)
+}
+{ = }{ -a \sin  \left( at \right) \begin{pmatrix}  x_1  \\ y_1 \\ z_1   \end{pmatrix} +a \cos \left( at \right) \begin{pmatrix}  x_2  \\ y_2 \\ z_2   \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+sehingga
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'(0)
+}
+{ = }{ a \begin{pmatrix}  x_2  \\ y_2 \\ z_2   \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+
+\inputbeispiel{}
+{
+
+Kita tinjau selimut silinder
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Z
+}
+{ =} { \left\{  \begin{pmatrix}  x  \\ y \\ z   \end{pmatrix} \in \R^3  \mid   x^2+y^2 = 1         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Secara geometris, kita memperoleh gerakan-gerakan berikut pada silinder, yang percepatannya selalu ortogonal terhadap ruang tangen. Ruang tangen di titik
+\mathl{\begin{pmatrix}  x  \\ y \\ z   \end{pmatrix}}{} diberikan oleh
+\mathl{\R  \begin{pmatrix}  y  \\ -x\\  0   \end{pmatrix} + \R \begin{pmatrix}  0  \\ 0\\  1   \end{pmatrix}}{}, dan vektor $- \begin{pmatrix}  x  \\ y \\  0   \end{pmatrix}$ tegak lurus terhadapnya. Untuk gerak-gerak berikut, penskalaan parameter waktunya dapat diubah secara afin.
+\aufzaehlungdrei{Gerak pada sebuah garis di selimut silinder yang sejajar dengan sumbu silinder:
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma(t)
+}
+{ =} { \begin{pmatrix}  x_0  \\ y_0 \\ t   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ x_0^2 +y_0^2
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Turunan pertamanya adalah $\begin{pmatrix}  0 \\ 0\\  1   \end{pmatrix}$ dan turunan keduanya adalah $0$.
+}{Gerak melingkar yang diberikan oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \delta(t)
+}
+{ =} { \begin{pmatrix}  \cos  t  \\ \sin  t \\ c   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Turunan pertamanya adalah $\begin{pmatrix}  - \sin  t  \\ \cos  t \\  0   \end{pmatrix}$ dan turunan keduanya adalah $- \begin{pmatrix}  \cos  t  \\ \sin  t \\  0   \end{pmatrix}$.
+}{
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg {2019-07-Helix} {jpg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz {  2019-07-Helix.jpg } {} {Ag2gaeh} {Commons} {CC BY-SA 4.0} {}
+
+Sebuah kurva ulir
+\zusatzklammer {heliks} {} {}
+yang diberikan oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \epsilon(t)
+}
+{ =} { \begin{pmatrix}  \cos  t  \\ \sin  t \\  e t   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Turunan pertamanya adalah $\begin{pmatrix}  - \sin  t  \\ \cos  t \\ e   \end{pmatrix}$ dan turunan keduanya adalah $- \begin{pmatrix}  \cos  t  \\ \sin  t \\  0   \end{pmatrix}$.
+}
+
+}

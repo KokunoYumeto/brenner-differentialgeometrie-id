@@ -1,0 +1,1563 @@
+\setcounter{section}{1}
+
+  \zwischenueberschrift{Hyperflächen}
+
+Es sei
+\maabbdisp {h} {\R^n } { \R
+} {}
+eine
+\definitionsverweis {differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Faser zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Diese Teilmengen werden insbesondere im Kontext des Satzes über implizite Abbildungen studiert. Wenn das
+\definitionsverweis {totale Differential}{}{}
+\maabbdisp {\left(D h \right)_{ P}} {\R^n } { \R
+} {}
+für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+surjektiv ist, wenn also stets $P$ ein
+\definitionsverweis {regulärer Punkt}{}{}
+der Abbildung ist, so ist $Y$ in einer offenen Umgebung von $P$ homöomorph zu einer offenen Menge im $\R^{n-1}$. Ferner haben wir in diesem Kontext den
+\definitionsverweis {Tangentialraum an die Faser}{}{}
+als den Kern des totalen Differentials eingeführt. Dieser ist ein $(n-1 )$-dimensionaler Untervektorraum des $\R^n$, man stellt sich ihn aber typischerweise als an den Punkt $P$  anliegend vor, also als einen affin-linearen Raum. Dieser Tangentialraum schmiegt sich im Punkt $P$ an $Y$ an. Wir nennen $Y$ eine \stichwort {Hyperfläche} {,} da ihr Tangentialraum eine Dimension weniger als der umgebende Raum besitzt. Bei
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ = }{ 3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+liegt in der Tat eine Fläche vor. Wenn man mit dem Standardskalarprodukt des $\R^n$ arbeitet, kann man den Tangentialraum an die Faser auch als den Raum aller Vektoren auffassen, die senkrecht zum
+\definitionsverweis {Gradienten}{}{}
+
+\mathl{\operatorname{Grad} \,  h  (  P )}{} stehen.
+
+\inputbeispiel{}
+{
+
+Es sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h(x,y,z)
+}
+{ =} { x^2+y^2+z^2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und wir betrachten die Faser $Y$ zu $h$ über $1$, also die Kugeloberfläche zum Radius $1$ mit dem Ursprung als Mittelpunkt. Das totale Differential ist
+\mathl{\left(  2x  , \,   2y  , \,   2z                 \right)}{,} in einem jeden Punkt der Kugeloberfläche ist also zumindest ein Eintrag ungleich $0$ und daher ist $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{.}
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ \left(  a   , \,   b  , \,  c                 \right)
+}
+{ \in }{ Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Der Tangentialraum in $P$ ist durch die lineare Bedingung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ ax+by+cz
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gegeben, das ist die Menge aller Vektoren, die orthogonal zum Gradienten
+\mathl{\begin{pmatrix}  2a \\ 2b\\  2c   \end{pmatrix}}{} stehen.
+
+}
+
+\inputbeispiel{}
+{
+
+$\,$
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {3d-function-6} {svg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { 3d-function-6.svg } {} {MartinThoma} {Commons} {CC-by-sa 3.0} {}
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {offene Menge}{}{}
+und sei
+\maabbdisp {f} { V } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare}{}{}
+Funktion. Der
+\definitionsverweis {Graph}{}{}
+von $f$ ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ =} { \left\{ (x_1  , \ldots , x_{n-1},f( x_1  , \ldots , x_{n-1}))  \mid   x_1  , \ldots , x_{n-1} \in V         \right\}
+}
+{ \subseteq} { V \times \R
+}
+{ \subseteq} { \R^n
+}
+{ } {
+}
+}
+{}{}{,}
+die man auch als Nullstellengebilde
+\zusatzklammer {Faser über $0$} {} {}
+von
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h(x_1  , \ldots , x_n)
+}
+{ \defeq} { x_n- f( x_1 , \ldots , x_{n-1})
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auffassen kann. Die partiellen Ableitungen von $h$ sind
+
+\mathdisp {- { \frac{   \partial   f   }{  \partial   x_1   } } , \ldots , - { \frac{   \partial   f   }{  \partial   x_{n-1}   } } ,1} { . }
+
+Insbesondere ist $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{.}
+Der
+\definitionsverweis {Tangentialraum}{}{}
+an $Y$ in einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+steht senkrecht auf
+\mathl{\begin{pmatrix}  - { \frac{   \partial   f   }{  \partial   x_1   } } ( P)  \\ \vdots \\  -  { \frac{   \partial   f   }{  \partial   x_{n-1}   } } ( P)\\ 1   \end{pmatrix}}{.} Jede parametrisierte Grundgerade
+\mathl{\begin{pmatrix}  x_1  \\ \vdots \\  x_{n-1}   \end{pmatrix} + t  \begin{pmatrix} v_1  \\\vdots\\ v_{n-1}   \end{pmatrix}}{} wird zur parametrisierten Kurve
+\maabbeledisp {} { I } { Y
+} { t } { \begin{pmatrix}  x_1+tv_1  \\ \vdots \\  x_{n-1} +tv_{n-1}\\f \begin{pmatrix}  x_1+tv_1  \\ \vdots \\  x_{n-1} +tv_{n-1}   \end{pmatrix}   \end{pmatrix}
+} {}
+auf $Y$, deren Ableitung einen Tangentialvektor ergibt. Wenn man den Weg zu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ v
+}
+{ =} { e_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit $\gamma_i$ bezeichnet, so ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma'_i(t)
+}
+{ =} { \begin{pmatrix} \vdots \\ 1 \\ \vdots\\ { \frac{   \partial   f   }{  \partial   x_i   } }   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma^{\prime \prime}_i(t)
+}
+{ =} { \begin{pmatrix} \vdots \\ { \frac{   \partial    }{  \partial   x_i   } } { \frac{   \partial   f   }{  \partial   x_i   } }    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+nach
+[[Mehrere Variablen/k fach stetig differenzierbar/Längs einer Geraden/Fakt|Satz 49.1 (Analysis (Osnabrück 2021-2023))]].
+
+}
+
+  \zwischenueberschrift{Analysis und Geometrie}
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Wir besprechen einige Objekte bzw. Konstruktionen, die zwar im umgebenden linearen Raum $\R^n$ existieren, die aber mit der Hyperfläche $Y$ in einer derart intensiven Beziehung stehen, dass man sie ausschließlich als Objekte auf $Y$ erfassen und studieren möchte. Vorläufig benötigen sie den umgebenden Raum, da ihre Definitionen Bezug auf höherdimensionale Analysis nehmen, die im Moment nur für einen
+\zusatzklammer {linearen} {} {} Vektorraum zur Verfügung steht. Es wird ein wichtiges Ziel sein, diese Konzepte allein auf dem
+\zusatzklammer {nichtlinearen} {} {}
+geometrischen Objekt $Y$ zu entwickeln. Wir erwähnen Kurven auf Hyperflächen, Extrema mit Nebenbedingungen, Differentialgleichungen zu tangentialen Vektorfeldern.
+
+\inputbemerkung
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei
+\maabbdisp {\gamma} { I } { \R^n
+} {}
+eine
+\definitionsverweis {differenzierbare Kurve}{}{,}
+die ganz in $Y$ verläuft, wobei $I$ ein offenes Intervall ist. Dann gehört zu jedem Zeitpunkt
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Ableitung}{}{}
+$\gamma'(t)$ zum Tangentialraum an $Y$ im Punkt $\gamma(t)$. Dies beruht auf der Konstanz
+
+\mavergleichskette
+{\vergleichskette
+{ h \circ \gamma
+}
+{ = }{ c
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+woraus mit der Kettenregel
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(Dh \circ \gamma\right)_{t}
+}
+{ =} { \left(Dh  \right)_{ \gamma(t) }  \circ \left(D \gamma  \right)_{ t }
+}
+{ =} { \left(Dh  \right)_{ \gamma(t) } ( \gamma'( t) )
+}
+{ =} { 0
+}
+{ } {
+}
+}
+{}{}{,}
+also
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'( t)
+}
+{ \in }{ \operatorname{kern}  \left(Dh \right)_{ \gamma(t) }
+}
+{ = }{ T_{\gamma(t) }Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+folgt. Mit
+[[Tangentialraum/R/Faser/Kurvenrealisierung/Aufgabe|Aufgabe 1.1]]
+ergibt sich ferner, dass jeder Tangentialvektor in $P$ an $Y$ sich durch eine differenzierbare Kurve auf $Y$ realisieren lässt. Der Tangentialraum lässt sich also durch differenzierbare Kurven allein auf $Y$ sinnvoll beschreiben, wobei die Differenzierbarkeit der Kurven den umgebenden Raum  voraussetzt.
+
+}
+
+\inputbemerkung
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Wir rekapitulieren den Satz über lokale Extrema mit Nebenbedingungen in dieser Situation, vergleiche
+[[Extrema/Nebenbedingung/Hyperfläche/Fakt|Korollar 54.3 (Analysis (Osnabrück 2021-2023))]]
+\zusatzklammer {mit anderer Notation} {} {.}
+Dabei gibt es neben der Funktion $h$, die $Y$ und damit die Nebenbedingung festlegt, eine weitere in einer offenen Umgebung $U$ von $Y$ definierte reellwertige Funktion $f$, und man interessiert sich für lokale Extrema von $f$, allerdings nicht auf ganz $U$, was man mit dem Gradienten und der Hesse-Matrix untersucht, sondern nur auf $Y$. Man möchte beispielsweise die maximale Temperatur auf der Oberfläche eines Körpers finden und dabei ignorieren, dass er im Innern wärmer ist. Der angeführte Satz besagt jedenfalls, dass, wenn $f$ stetig differenzierbar ist und ein lokales Extremum in einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+unter der Nebenbedingung $Y$ besitzt, dann der Gradient
+\mathl{\operatorname{Grad} \,  f  (  P  )}{} ein Vielfaches des Gradienten
+\mathl{\operatorname{Grad} \,  h  (  P  )}{} ist. Dieses Differenzierbarkeitskriterium nimmt Bezug auf den umgebenden Raum, und zwar sowohl in dem Sinn, dass die Differenzierbarkeit Bezug auf den umgebenden Raum nimmt, als auch in dem Sinn, dass die zu vergleichenden Gradienten in den umgebenden Raum hineinragen.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Gewöhnliches Differentialgleichungssystem/Hyperfläche/Lösung/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei.
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ U
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+und sei $F$ ein differenzierbares
+\definitionsverweis {Vektorfeld}{}{}
+auf $U$}
+\faktvoraussetzung {mit der Eigenschaft, dass für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+der Vektor $F(P)$ zum
+\definitionsverweis {Tangentialraum an die Faser}{}{}
+in $P$ an $Y$ gehört\zusatzfussnote {Solche Vektorfelder nennt man tangentiale Vektorfelder} {.} {.}}
+\faktfolgerung {Dann verläuft die Lösung $v(t)$ zum
+\definitionsverweis {Anfangswertproblem}{}{}
+zu $F$ mit der Anfangsbedingung
+
+\mavergleichskette
+{\vergleichskette
+{ v(t_0)
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ganz in $Y$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Wir arbeiten mit der euklidischen Struktur auf dem $\R^n$ und mit dem
+\definitionsverweis {Gradienten}{}{}
+$\operatorname{Grad} \,  h$ zu $h$. Dieser ist nach Voraussetzung auf $Y$ nirgendwo gleich $0$ und dies überträgt sich wegen der Stetigkeit auf eine offene Umgebung von $Y$. Indem wir $U$ eventuell verkleinern, können wir annehmen, dass der Gradient auf ganz $U$ nullstellenfrei ist. Wir betrachten auf $U$  das neue Vektorfeld $G$, das durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ G(P)
+}
+{ =} { F(P)-  { \frac{   \left\langle  F(P) ,
+\operatorname{Grad} \,  h  (  P )    \right\rangle   }{  \Vert {
+\operatorname{Grad} \,  h  (  P ) } \Vert^2   } }
+\operatorname{Grad} \,  h  (  P )
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gegeben ist. Für
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskette
+{\vergleichskette
+{ G(P)
+}
+{ = }{ F(P)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+da ja auf $Y$ der Gradient zu $h$ senkrecht auf dem Vektorfeld steht. Ferner besitzt $G$
+\zusatzklammer {im Unterschied zu $F$} {} {}
+die Eigenschaft, dass für alle Punkte
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+der Vektor $G(P)$ senkrecht zum Gradienten steht, es ist ja
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left\langle  G(P) ,
+\operatorname{Grad} \,  h  (  P )   \right\rangle
+}
+{ =} { \left\langle  F(P)- { \frac{   \left\langle  F(P) ,
+\operatorname{Grad} \,  h  (  P )    \right\rangle  }{  \Vert {
+\operatorname{Grad} \,  h  (  P ) } \Vert^2  } }
+\operatorname{Grad} \,  h  (  P )  ,
+\operatorname{Grad} \,  h  (  P )   \right\rangle
+}
+{ =} { \left\langle  F(P) ,
+\operatorname{Grad} \,  h  (  P )   \right\rangle - \left\langle  F(P) ,
+\operatorname{Grad} \,  h  (  P )   \right\rangle
+}
+{ =} { 0
+}
+{ } {
+}
+}
+{}
+{}{.}
+Es sei nun
+\maabbdisp {v} { I} { \R^n
+} {}
+die nach
+[[Picard Lindelöf/Lokal Lipschitz/Lokale Existenz und Eindeutigkeit/Fakt|Satz 56.2 (Analysis (Osnabrück 2021-2023))]]
+eindeutige Lösung zum Anfangswertproblem zu $G$ mit der Anfangsbedingung
+
+\mavergleichskette
+{\vergleichskette
+{ v(t_0)
+}
+{ = }{ P
+}
+{ \in }{ Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \left(Dh \circ v \right)_{t}
+}
+{ =} { \left(Dh  \right)_{v(t)} \circ  \left(D v \right)_{t}
+}
+{ =} { \left(Dh  \right)_{v(t)}  \left(  v'(t)  \right)
+}
+{ =} { \left(Dh  \right)_{v(t)}  \left(  G(v(t))  \right)
+}
+{ =} { \left\langle
+\operatorname{Grad} \,  h  ( v(t) )  ,  G(v(t))    \right\rangle
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { 0
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+Daher ist $h$ auf dem Bild $v( I)$ konstant und wegen
+
+\mavergleichskette
+{\vergleichskette
+{ h(v(t_0))
+}
+{ = }{ c
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskette
+{\vergleichskette
+{ h(v(t))
+}
+{ = }{ c
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+also
+
+\mavergleichskette
+{\vergleichskette
+{ v(t)
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+
+Einen anderen Beweis für diese Aussage erhält man, wenn man das Vektorfeld $F$ über einen Homöomorphismus zwischen
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ V
+}
+{ \subseteq }{ Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ V'
+}
+{ \subseteq }{ \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nach $\R^{n-1}$ transportiert, dort die Existenz der Lösung nachweist und die Lösung nach $Y$  wieder zurück transportiert und diese stückweisen Lösungen zusammenklebt.
+
+Die offene Umgebung $U$ von $Y$ wird benötigt, um von einem differenzierbaren Vektorfeld zu sprechen, wobei aber letztlich nur das Vektorfeld auf $Y$ relevant ist.
+
+  \zwischenueberschrift{Beschleunigung}
+
+\inputbemerkung
+{}
+{
+
+Wir betrachten die Kurve
+\maabbeledisp {v} {\R} { \R^2
+} { t } { \begin{pmatrix}  \cos  t  \\ \sin  t    \end{pmatrix}
+} {,}
+die sich vollständig auf dem Einheitskreis bewegt. Entsprechend sind die Ableitungen
+
+\mavergleichskette
+{\vergleichskette
+{ v'(t)
+}
+{ = }{ \begin{pmatrix}  - \sin  t  \\ \cos  t    \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+stets tangential zum Einheitskreis
+\zusatzklammer {was auch aus
+[[Reguläre Hyperfläche/Kurven/Tangentiale Realisierung/Motivation/Bemerkung|Bemerkung 1.3]]
+folgt} {} {.}
+Die Norm davon ist konstant gleich $1$, der Einheitskreis wird gleichförmig mit konstantem Betrag der Geschwindigkeit durchlaufen. Allerdings ändert sich die Geschwindigkeitsrichtung kontinuierlich und die zweite Ableitung ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ v^{\prime \prime}(t)
+}
+{ =} { \begin{pmatrix}  - \cos  t  \\ - \sin  t    \end{pmatrix}
+}
+{ =} { - \begin{pmatrix}  \cos  t  \\ \sin  t    \end{pmatrix}
+}
+{ =} { - v(t)
+}
+{ } {
+}
+}
+{}{}{.}
+Die Beschleunigung ist das Negative des Ortsvektors und steht senkrecht auf dem Geschwindigkeitsvektor. Wenn man den Tangentialraum der umgebenden Ebene in einem Punkt $P$ des Kreises, also der $\R^2$ aufgefasst mit $P$ als Ursprung, zerlegt in die zum Kreis tangentiale Richtung
+\zusatzklammer {Tangentialraum an die Faser} {} {}
+und in die dazu senkrechte Richtung
+\zusatzklammer {Normalraum} {} {}
+\zusatzklammer {im Sinne einer Zerlegung eines Vektorraumes als
+\definitionsverweis {direkte Summe}{}{}
+von Untervektorräumen} {} {,}
+so spielt sich die Beschleunigung allein im Normalraum ab, die senkrechte Projektion auf den Tangentialraum ist stets $0$. In diesem Sinn ist die Beschleunigung irrelevant für die Bewegung auf dem Einheitskreis.
+
+Wir betrachten nun allgemeiner eine Kurve
+\maabbeledisp {w} {\R} { \R^2
+} { t } { \begin{pmatrix}  \cos  f(t)  \\ \sin f(t)    \end{pmatrix}
+} {,}
+wobei $f$ eine zweifach differenzierbare reelle Funktion ist. Diese Kurve bewegt sich wie zuvor auf dem Einheitskreis, die Ableitung ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ w'(t)
+}
+{ =} { f'(t) \begin{pmatrix}  - \sin  f(t)  \\ \cos f(t)    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+sie ist also wie zuvor stets tangential zum Einheitskreis, wobei die Geschwindigkeitsnorm jetzt gleich $\betrag { f'(t) }$ ist. Die zweite Ableitung ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ w^{\prime \prime} (t)
+}
+{ =} { f^{\prime \prime} (t) \begin{pmatrix}  - \sin  f(t)  \\ \cos f(t)    \end{pmatrix} - \left(  f'(t)  \right)^2 \begin{pmatrix}  \cos  f(t)  \\ \sin f(t)    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei hier direkt die Zerlegung in die tangentiale und die dazu orthogonale Komponente steht. Die tangentiale Komponente ist
+\mathl{- \left(  f'(t)  \right)^2 \begin{pmatrix}  \cos  f(t)  \\ \sin f(t)    \end{pmatrix}}{,} bei $f$ nicht konstant gibt es also auch Beschleunigung in tangentialer Richtung.
+
+}
+
+Bei einer Hyperfläche
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kann man stets den umgebenden Raum $\R^n$, aufgefasst als Tangentialraum von $\R^n$  in $P$, orthogonal zerlegen als
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \R^n
+}
+{ =} { T_PY \oplus N_PY
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei $N_PY$ eine Gerade ist, die aus allen  zu $T_PY$ orthogonalen Punkten besteht und die \stichwort {Normalengerade} {} heißt. Die Normalengerade besteht aus allen Vielfachen des Gradienten
+\mathl{\operatorname{Grad} \,  h  (  P )}{} zu $P$, wenn $h$ eine beschreibende Funktion für $Y$ bezeichnet. Ein \stichwort {Normalenvektor} {} ist ein Element der Normalegeraden mit Norm $1$, wovon es zwei gibt, die zueinander negativ sind. Durch die
+\definitionsverweis {orthogonale Projektion}{}{}
+längs $N_PY$, also die Abbildung
+\maabbdisp {\pi_P} {\R^n } { T_PY
+} {}
+kann man jedem Vektor im $\R^n$ einen Vektor im Tangentialraum zuordnen.
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei
+\maabbdisp {\gamma} {I} {Y
+} {}
+eine
+\zusatzklammer {als Abbildung nach $\R^n$} {} {}
+zweimal
+\definitionsverweis {stetig differenzierbare Kurve}{}{.}
+Dann nennt man die Abbildung
+\maabbeledisp {} {I} { TY
+} {t} { \pi_P( \gamma^{\prime \prime} (t))
+} {,}
+wobei $\pi_P$ die orthogonale Projektion
+\maabbdisp {} {\R^n } { T_PY
+} {}
+bezeichnet, die
+\definitionswort {zweite tangentiale Ableitung}{}
+\zusatzklammer {oder die
+\definitionswort {tangentiale Beschleunigung}{}} {} {}
+von $\gamma$.
+
+}
+
+Die Idee von einer zweiten Ableitung, die tangential zur Hyperfläche ist, wird allgemein im Kontext von den sogenannten Zusammenhängen weiterentwickelt.
+
+  \zwischenueberschrift{Geodätische Kurven}
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Eine
+\zusatzklammer {als Abbildung nach $\R^n$} {} {}
+zweimal
+\definitionsverweis {stetig differenzierbare Kurve}{}{}
+\maabbdisp {\gamma} {I} {Y
+} {}
+heißt
+\definitionswort {Geodätische}{}
+\zusatzklammer {oder
+\definitionswort {geodätische Kurve}{}
+auf $Y$} {} {,}
+wenn ihre
+\definitionsverweis {tangentiale Beschleunigung}{}{}
+überall gleich $0$ ist.
+
+}
+
+Eine zweifach differenzierbare Kurve ist genau dann eine Geodätische, wenn ihre zweite Ableitung stets orthogonal zum Tangentialraum ist. Die zugrunde liegende physikalische Idee ist die Bewegung eines Teilchens, das sich beschleunigungsfrei auf $Y$ bewegt. Es gibt zwar im Allgemeinen Zwangsbedingungen, die die Bewegung auf $Y$ erzwingen wie Gravitation oder magnetische Anziehung, die wiederum eine Beschleunigung im umgebenden Raum erfordern, auf $Y$ selbst gibt es aber keine Beschleunigung. Eine geodätische Kurve beschreibt also die natürliche unbeschleunigte Bewegung auf einer differenzierbaren Hyperfläche.
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Great circle passing through two points} {svg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Great circle passing through two points.svg } {} {HaEr48} {Commons} {CC-by-sa 4.0} {}
+
+\inputdefinition
+{}
+{
+
+Der Durchschnitt einer
+\definitionsverweis {Kugeloberfläche}{}{}
+\mathl{S}{} mit einer durch den Kugelmittelpunkt verlaufenden Ebene heißt ein \definitionswort {Großkreis}{} auf $S$.
+
+}
+
+Auf der Erdkugel sind der Äquator und die Längenkreise Großkreise, die Breitenkreise im Allgemeinen nicht.
+
+\inputbeispiel{}
+{
+
+Wir befinden uns auf der Einheitskugel
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ =} { \left\{ (x,y,z)  \mid   x^2+y^2+z^2 = 1         \right\}
+}
+{ \subseteq} { \R^3
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+In
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+befindet sich ein Teilchen, das einen Bewegungsimpuls in eine bestimmte tangentiale Richtung
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+erhält. Es bewegt sich also in diese Richtung
+\zusatzklammer {ungebremst und unbeschleunigt} {} {}
+weiter, wobei es allerdings immer auf der Kugel bleiben muss
+\zusatzklammer {wegen der Erdanziehung bzw. wegen dem festen Boden} {} {.}
+Der Punkt sei durch
+\mathl{\begin{pmatrix}  x_1  \\ y_1 \\ z_1   \end{pmatrix}}{} gegeben und der dazu senkrechte Tangentialvektor, der den momentanen Impuls beschreibt, durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}  x_3  \\ y_3 \\ z_3   \end{pmatrix}
+}
+{ =} { a \begin{pmatrix}  x_2  \\ y_2 \\ z_2   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei $\begin{pmatrix}  x_2  \\ y_2 \\ z_2   \end{pmatrix}$ ein zum Ortsvektor senkrechter Vektor mit Norm $1$ sei. Die Bewegung findet auf der durch diese beiden Vektoren bestimmten Ebene und auf der Sphäre statt. Eine parametrisierte Beschreibung ist
+\maabbeledisp {\gamma} {\R} { \R^3
+} { t } { \cos \left( at \right) \begin{pmatrix}  x_1  \\ y_1 \\ z_1   \end{pmatrix} + \sin  \left( at \right) \begin{pmatrix}  x_2  \\ y_2 \\ z_2   \end{pmatrix}
+} {.}
+Es ist
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(0)
+}
+{ = }{ \begin{pmatrix}  x_1  \\ y_1 \\ z_1   \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'(t)
+}
+{ = }{ -a \sin  \left( at \right) \begin{pmatrix}  x_1  \\ y_1 \\ z_1   \end{pmatrix} +a \cos \left( at \right) \begin{pmatrix}  x_2  \\ y_2 \\ z_2   \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+also
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'(0)
+}
+{ = }{ a \begin{pmatrix}  x_2  \\ y_2 \\ z_2   \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+
+\inputbeispiel{}
+{
+
+Wir betrachten den Zylindermantel
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Z
+}
+{ =} { \left\{  \begin{pmatrix}  x  \\ y \\ z   \end{pmatrix} \in \R^3  \mid   x^2+y^2 = 1         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Geometrisch ergeben sich die folgenden Bewegungen auf dem Zylinder, bei denen die Beschleunigung stets orthogonal zum Tangentialraum ist. Der Tangentialraum im Punkt
+\mathl{\begin{pmatrix}  x  \\ y \\ z   \end{pmatrix}}{} ist durch
+\mathl{\R  \begin{pmatrix}  y  \\ -x\\  0   \end{pmatrix} + \R \begin{pmatrix}  0  \\ 0\\  1   \end{pmatrix}}{} gegeben, dazu senkrecht ist $- \begin{pmatrix}  x  \\ y \\  0   \end{pmatrix}$. Bei den folgenden Bewegungen kann man die Skalierung affin-linear abändern.
+\aufzaehlungdrei{Bewegung auf einer Geraden auf dem Zylindermantel parallel zur inneren Achse:
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma(t)
+}
+{ =} { \begin{pmatrix}  x_0  \\ y_0 \\ t   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ x_0^2 +y_0^2
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Die erste Ableitung ist $\begin{pmatrix}  0 \\ 0\\  1   \end{pmatrix}$, die zweite Ableitung ist $0$.
+}{Eine Kreisbewegung, gegeben durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \delta(t)
+}
+{ =} { \begin{pmatrix}  \cos  t  \\ \sin  t \\ c   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Die erste Ableitung ist $\begin{pmatrix}  - \sin  t  \\ \cos  t \\  0   \end{pmatrix}$, die zweite Ableitung ist $- \begin{pmatrix}  \cos  t  \\ \sin  t \\  0   \end{pmatrix}$.
+}{
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg { 2019-07-Helix} {jpg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz {  2019-07-Helix.jpg } {} {Ag2gaeh} {Commons} {CC-by-sa 4.0} {}
+
+Eine Schraubenlinie
+\zusatzklammer {Helix} {} {}
+gegeben durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \epsilon(t)
+}
+{ =} { \begin{pmatrix}  \cos  t  \\ \sin  t \\  e t   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Die erste Ableitung ist $\begin{pmatrix}  - \sin  t  \\ \cos  t \\ e   \end{pmatrix}$, die zweite Ableitung ist $- \begin{pmatrix}  \cos  t  \\ \sin  t \\  0   \end{pmatrix}$.
+}
+
+}
+
+ [[Kategorie:Latexseite]]

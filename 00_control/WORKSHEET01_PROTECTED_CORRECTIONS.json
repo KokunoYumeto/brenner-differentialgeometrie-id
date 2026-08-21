@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-01/worksheet01.id.tex",
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0004",
+      "surface": "protected:vergleichskette",
+      "index": 38,
+      "source_sha256": "3865ce16d7b680df8c0e30534766ddbc41f54b7b051fddd0121fdbf24727a8ff",
+      "target_sha256": "dcdfb1038067ad8a2638eebc7e76572783bd53d0b6005c8701e15ada77435580"
+    }
+  ]
+}

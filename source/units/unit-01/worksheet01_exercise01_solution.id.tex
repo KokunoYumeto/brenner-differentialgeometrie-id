@@ -1,0 +1,205 @@
+% Authority: German Wikiversity pageid 131353, revid 1111802, 2026-08-15T16:41:12Z.
+% Exact UTF-8 witness SHA-256: b07aac01b6f803481fab9b5331e19480fb9bf0058597159b6152c65c7bc955ce.
+
+\zwischenueberschrift{Solusi untuk Soal 1}
+
+Berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PZ
+}
+{ = }{ \operatorname{kern} \left((D\varphi)_P\right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Menurut
+\definitionsverweis {teorema fungsi implisit}{}{,}
+terdapat himpunan terbuka
+
+\mathbed {P \in W} {}
+ {W \subseteq G} {}
+ {} {} {} {,}
+himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^{n-m}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dan pemetaan terdiferensialkan secara kontinu
+\maabbdisp {\psi} { V } { W } {}
+sedemikian sehingga
+
+\mavergleichskette
+{\vergleichskette
+{ \psi(V)
+}
+{ \subseteq }{ Z \cap W
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan $\psi$ menginduksi
+\definitionsverweis {bijeksi}{}{}
+\maabbdisp {\psi} { V } { Z \cap W } {}.
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+adalah titik yang memenuhi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \psi(Q)
+}
+{ =} { P
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Pemetaan $\psi$ di setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+bersifat
+\definitionsverweis {reguler}{}{}
+dan
+\definitionsverweis {diferensial total}{}{}
+dari $\psi$ memenuhi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (D\varphi)_P \circ (D\psi)_Q
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dengan demikian,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \operatorname{bild} \left((D\psi)_Q\right)
+}
+{ =} { \operatorname{kern} \left((D\varphi)_P\right)
+}
+{ =} { T_PZ
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Karena $\psi$ reguler di $Q$, pemetaan
+\maabbdisp {(D\psi)_Q} { \R^{n-m} } { \R^n } {}
+bersifat injektif, sedangkan pemetaan
+\maabbdisp {(D\psi)_Q} { \R^{n-m} } { T_PZ } {}
+bersifat bijektif. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ u
+}
+{ \in }{ \R^{n-m}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+adalah prapeta dari $v$, dan misalkan
+\maabbeledisp {\theta} { ]-\epsilon,\epsilon[ } { \R^{n-m} } {t} {Q+tu} {,}
+dengan $\epsilon$ dipilih cukup kecil agar seluruh citra terletak di dalam $V$. Maka
+\maabbdisp {\gamma=\psi\circ\theta} { ]-\epsilon,\epsilon[ } { \R^n } {}
+mempunyai sifat
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma(0)
+}
+{ =} { \psi(\theta(0))
+}
+{ =} { \psi(Q)
+}
+{ =} { P
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma'(0)
+}
+{ =} { (D\psi)_Q(\theta'(0))
+}
+{ =} { (D\psi)_Q(u)
+}
+{ =} { v
+}
+{ } {
+}
+}
+{}{}{.}

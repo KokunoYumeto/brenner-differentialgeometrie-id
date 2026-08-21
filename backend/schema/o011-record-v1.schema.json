@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:o011:modular-backend:record:v1",
+  "title": "O011 modular backend record",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "schema",
+    "schema_version",
+    "id",
+    "entity_type",
+    "status",
+    "timestamp",
+    "workflow",
+    "supersedes"
+  ],
+  "properties": {
+    "schema": {"const": "o011-modular-backend"},
+    "schema_version": {"const": 1},
+    "id": {"type": "string", "pattern": "^o011-[a-z0-9][a-z0-9._-]*$"},
+    "entity_type": {
+      "enum": [
+        "program", "course", "resource", "edition", "unit", "concept",
+        "segment", "term", "asset", "relation", "rights", "qa_event",
+        "artifact", "correction"
+      ]
+    },
+    "source_local_id": {"type": ["string", "null"]},
+    "parent_id": {"type": ["string", "null"]},
+    "order": {"type": ["integer", "null"], "minimum": 0},
+    "path": {"type": ["string", "null"]},
+    "resource_id": {"type": ["string", "null"]},
+    "edition_id": {"type": ["string", "null"]},
+    "source_locator": {"type": ["string", "null"]},
+    "source_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
+    "target_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
+    "evidence_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
+    "target_id": {"type": ["string", "null"], "pattern": "^o011-[a-z0-9][a-z0-9._-]*$"},
+    "artifact_id": {"type": ["string", "null"], "pattern": "^o011-[a-z0-9][a-z0-9._-]*$"},
+    "receipt_path": {"type": ["string", "null"]},
+    "result": {"type": ["string", "null"], "enum": [null, "pass", "fail", "admitted_limitation"]},
+    "artifact_kind": {"type": ["string", "null"]},
+    "media_type": {"type": ["string", "null"]},
+    "bytes": {"type": ["integer", "null"], "minimum": 0},
+    "component_rights_ids": {
+      "type": ["array", "null"],
+      "items": {"type": "string", "pattern": "^o011-[a-z0-9][a-z0-9._-]*$"},
+      "uniqueItems": true
+    },
+    "language": {"type": ["string", "null"]},
+    "locale": {"type": ["string", "null"]},
+    "translation_state": {
+      "type": ["string", "null"],
+      "enum": [
+        null, "source_frozen", "queued", "draft", "translated",
+        "structurally_verified", "mathematically_reviewed", "language_reviewed",
+        "built", "visually_checked", "published", "superseded", "blocked"
+      ]
+    },
+    "rights_component_id": {"type": ["string", "null"]},
+    "status": {"type": "string", "minLength": 1},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "workflow": {"type": "string", "minLength": 1},
+    "supersedes": {"type": ["string", "null"]}
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {"entity_type": {"const": "artifact"}},
+        "required": ["entity_type"]
+      },
+      "then": {
+        "required": ["path", "target_sha256", "artifact_kind", "media_type", "bytes"]
+      }
+    },
+    {
+      "if": {
+        "properties": {"entity_type": {"const": "qa_event"}},
+        "required": ["entity_type"]
+      },
+      "then": {
+        "required": ["target_id", "receipt_path", "evidence_sha256", "result"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es ist
+{{
+Relationskette
+|v
+| \in | T_PZ
+|| {{op:Kern| {{op:Totales Differential|\varphi|P}} |}} 
+||
+||
+|SZ=.
+}}
+Nach
+{{
+Faktlink
+|Präwort=dem|Satz über implizite Abbildungen|Faktseitenname=
+Satz über implizite Abbildungen/R/Fakt
+|Nr=
+|SZ=
+}}
+gibt es eine offene Menge
+{{
+mathbed|term=
+P \in W
+||bedterm1=
+W \subseteq G
+||bedterm2=
+|SZ=,
+}}
+eine offene Menge
+{{
+Relationskette
+| V
+| \subseteq | \R^{n-m}
+||
+||
+||
+||
+|SZ=
+}}
+und eine stetig differenzierbare Abbildung
+{{
+Abbildung/display
+|name= \psi
+| V | W
+||
+|SZ=
+}}
+derart, dass
+{{
+Relationskette
+| \psi(V)
+| \subseteq | Z \cap W
+||
+||
+||
+|SZ=
+}}
+ist und {{math|term= \psi |SZ=}} eine
+{{
+Definitionslink
+|Bijektion|
+|Kontext=|
+|SZ=
+}}
+{{
+Abbildung/display
+|name= \psi
+| V | Z \cap W
+||
+|SZ=
+}}
+induziert. Es sei
+{{
+Relationskette
+| Q
+| \in | V
+||
+||
+||
+|SZ=
+}}
+der Punkt mit
+{{
+Relationskette
+| \psi(Q)
+|| P
+||
+||
+||
+|SZ=.
+}}
+Die Abbildung {{math|term= \psi |SZ=}} ist in jedem Punkt
+{{
+Relationskette
+| Q
+| \in | V
+||
+||
+||
+|SZ=
+}}
+{{
+Definitionslink
+|regulär|
+|Kontext=Rang|
+|SZ=
+}}
+und für das 
+{{
+Definitionslink
+|totale Differential|
+|Kontext=|
+|SZ=
+}}
+von {{math|term= \psi |SZ=}} gilt 
+{{
+Relationskette/display
+| {{op:Totales Differential| \varphi | P }}  \circ {{op:Totales Differential| \psi | Q }}  
+|| 0
+||
+||
+||
+|SZ=,
+}}
+also
+{{
+Relationskette/display
+| {{op:Bild| {{op:Totales Differential| \psi| Q }} |}} 
+|| {{op:Kern| {{op:Totales Differential|\varphi | P }} |}} 
+|| T_P Z
+||
+||
+|SZ=.
+}}
+Wegen der Regularität von {{math|term= \psi |SZ=}} in {{math|term= Q |SZ=}} ist
+{{
+Abbildung/display
+|name= {{op:Totales Differential| \psi | Q }}
+| \R^{n-m}  | \R^n
+||
+|SZ=
+}}
+injektiv und
+{{
+Abbildung/display
+|name= {{op:Totales Differential| \psi | Q }}
+| \R^{n-m}  | T_PZ
+||
+|SZ=
+}}
+bijektiv. Es sei 
+{{
+Relationskette
+| u
+| \in | \R^{n-m}
+||
+||
+||
+|SZ=
+}}
+das Urbild von {{math|term=  v |SZ=}} und sei
+{{
+Abbildung/display
+|name= \theta
+| ]- \epsilon, \epsilon[ | \R^{n-m}
+| t | Q+tu
+|SZ=,
+}}
+wobei {{math|term= \epsilon|SZ=}} hinreichend klein gewählt sei, dass das Bild ganz in {{math|term= V |SZ=}} liegt. Dann besitzt
+{{
+Abbildung/display
+|name= \gamma {{=}} \psi \circ \theta
+| ]- \epsilon, \epsilon[  | \R^n
+||
+|SZ=
+}}
+die Eigenschaft
+{{
+Relationskette/display
+| \gamma(0)
+|| \psi( \theta (0))
+|| \psi(Q)
+|| P
+||
+|SZ=
+}}
+und
+{{
+Relationskette/display
+| \gamma' (0)
+|| {{op:Totales Differential| \psi|Q}} ( \theta' (0))
+|| {{op:Totales Differential| \psi|Q}} ( u)
+|| v
+||
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

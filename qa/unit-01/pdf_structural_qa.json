@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-unit01-pdf-structural-qa-v1",
+  "pdf": {
+    "path": "output/pdf/geometri-diferensial-manifold-mulus-unit-01-id.pdf",
+    "bytes": 2678755,
+    "sha256": "eb7e78affacf8a559d0f52a1c44921633d2fa74a070faa64af58efc32d34a568",
+    "pages": 25,
+    "page_size_points": [
+      595.276,
+      841.89
+    ],
+    "all_pages_same_size": true,
+    "all_rotations_zero": true,
+    "encrypted": false,
+    "catalog_language": "id-ID",
+    "tagged": false
+  },
+  "accessibility": {
+    "unique_fonts": 24,
+    "fonts_with_tounicode": 24,
+    "pages_with_extractable_text": 25,
+    "empty_text_pages": []
+  },
+  "links": {
+    "external_uri_count": 12,
+    "external_uris": [
+      "https://commons.wikimedia.org/wiki/File:3d-function-6.svg",
+      "https://commons.wikimedia.org/wiki/File:3d-function-6.svg",
+      "https://creativecommons.org/licenses/by/3.0",
+      "https://commons.wikimedia.org/wiki/File:Great_circle_passing_through_two_points.svg",
+      "https://commons.wikimedia.org/wiki/File:Great_circle_passing_through_two_points.svg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://commons.wikimedia.org/wiki/File:2019-07-Helix.jpg",
+      "https://commons.wikimedia.org/wiki/File:2019-07-Helix.jpg",
+      "https://creativecommons.org/licenses/by-sa/4.0",
+      "https://commons.wikimedia.org/wiki/File:Planned_flight_map_of_the_Oiseau_Blanc.svg",
+      "https://commons.wikimedia.org/wiki/File:Planned_flight_map_of_the_Oiseau_Blanc.svg",
+      "https://creativecommons.org/licenses/by-sa/3.0"
+    ],
+    "internal_link_count": 14,
+    "unsafe_actions": []
+  },
+  "active_content": {
+    "javascript": false,
+    "acroform": false,
+    "embedded_files": false
+  },
+  "required_attribution_text_present": true,
+  "forbidden_text_residues": [],
+  "limitations": [
+    "PDF has no structure tree/tagging; all fonts retain ToUnicode and the planned HTML reader is the primary structured accessibility surface."
+  ],
+  "blockers": [],
+  "passed": true
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-unit01-visual-qa-v1",
+  "timestamp": "2026-08-21T17:20:12Z",
+  "pdf": {
+    "path": "output/pdf/geometri-diferensial-manifold-mulus-unit-01-id.pdf",
+    "bytes": 2678755,
+    "sha256": "eb7e78affacf8a559d0f52a1c44921633d2fa74a070faa64af58efc32d34a568"
+  },
+  "render": {
+    "engine": "Poppler pdftoppm 24.04.0",
+    "command": "pdftoppm -png -r 120 output/pdf/geometri-diferensial-manifold-mulus-unit-01-id.pdf tmp/pdfs/unit01-final-render-v3-20260821/page",
+    "page_count": 25,
+    "page_dimensions_pixels": [993, 1404],
+    "temporary_render_directory": "tmp/pdfs/unit01-final-render-v3-20260821"
+  },
+  "inspection": {
+    "all_pages_inspected": true,
+    "title_and_front_matter": "pass",
+    "body_text_and_mathematics": "pass",
+    "figures_and_captions": "pass",
+    "worksheet_and_supplied_solution": "pass",
+    "list_of_figures": "pass",
+    "media_attribution_and_license_pages": "pass",
+    "clipping_or_overlap": "none",
+    "missing_or_corrupt_glyphs": "none",
+    "unexpected_blank_pages": "none"
+  },
+  "status": "pass"
+}

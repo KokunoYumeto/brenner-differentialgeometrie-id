@@ -1,0 +1,235 @@
+Brenner Differentialgeometrie authority/export receipt
+generated_utc: 2026-08-21T10:06:13Z
+canonical_course_url: https://de.wikiversity.org/wiki/Kurs:Differentialgeometrie_(Osnabr%C3%BCck_2023)
+canonical_course_pageid: 142521
+canonical_course_revid: 889544
+canonical_course_revision_timestamp: 2023-03-07T11:39:09Z
+canonical_course_api_sha1_hex: e274ea4f0ae092736a5df23dfd3bb744184a9f2d
+author/course_teacher: Holger Brenner
+authority_teaching_page: https://de.wikiversity.org/wiki/Benutzer:Holger_Brenner/Lehre
+authority_course_catalog: https://de.wikiversity.org/wiki/Mathematik/Kurse/H%C3%B6here_Analysis
+course_text_license: CC BY-SA 4.0 (individual Commons media have their own licenses; see CSV)
+license_url: https://creativecommons.org/licenses/by-sa/4.0/
+
+SPECIAL:EXPORT RECIPE
+endpoint: POST https://de.wikiversity.org/wiki/Special:Export
+content_type: application/x-www-form-urlencoded
+fields: pages=<newline-separated exact titles>; curonly=1; templates=1; wpDownload=1
+warning: this is a request-time current-revision recursive export, not an immutable archive endpoint; freeze authority is the resulting file SHA-256 plus embedded pageid/revid/timestamp/sha1 revision set.
+
+ROOT EXPORT FILE
+file: brenner_course_recursive_current.xml
+bytes: 3538709
+sha256: 6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14
+export_timestamp_utc: 2026-08-21T09:52:04Z
+recursive_pages: 2715 (NS0=2151, NS10=197, NS106=367)
+revision_set_sha256_sorted_title_pageid_revid_timestamp_sha1: 4810e9c13e352db58d7ceb5495c1cf86cb991d2193eaf6a344a48799e7ab0f71
+selected_root_title_count: 59
+selected_root_titles:
+  Kurs:Differentialgeometrie (Osnabrück 2023)
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 1
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 2
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 3
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 4
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 5
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 6
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 7
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 8
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 9
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 10
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 11
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 12
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 13
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 14
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 15
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 16
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 17
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 18
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 19
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 20
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 21
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 22
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 23
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 24
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 25
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 26
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 27
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 28
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 29
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 1
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 2
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 3
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 4
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 5
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 6
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 7
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 8
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 9
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 10
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 11
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 12
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 13
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 14
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 15
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 16
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 17
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 18
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 19
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 20
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 21
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 22
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 23
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 24
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 25
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 26
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 27
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 28
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 29
+
+LATEX/KONTROLLE EXPORT FILE
+file: brenner_latex_kontrolle_recursive_current.xml
+bytes: 3722387
+sha256: 4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c
+export_timestamp_utc: 2026-08-21T09:58:52Z
+recursive_pages: 2866 (NS0=2154, NS10=193, NS106=491, NS108=28)
+revision_set_sha256_sorted_title_pageid_revid_timestamp_sha1: e274c45e0496b3e842d7aa2a4f7c68005f7a6b58c6bcb3ce1c6763cdefb0da28
+selected_surface_title_count: 117 (116 lecture/worksheet latex+kontrolle surfaces plus the official preamble)
+selected_surface_titles:
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 1/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 2/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 3/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 4/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 5/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 6/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 7/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 8/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 9/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 10/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 11/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 12/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 13/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 14/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 15/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 16/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 17/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 18/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 19/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 20/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 21/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 22/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 23/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 24/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 25/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 26/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 27/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 28/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 29/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 1/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 2/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 3/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 4/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 5/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 6/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 7/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 8/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 9/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 10/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 11/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 12/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 13/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 14/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 15/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 16/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 17/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 18/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 19/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 20/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 21/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 22/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 23/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 24/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 25/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 26/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 27/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 28/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 29/latex
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 1/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 2/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 3/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 4/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 5/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 6/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 7/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 8/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 9/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 10/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 11/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 12/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 13/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 14/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 15/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 16/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 17/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 18/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 19/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 20/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 21/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 22/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 23/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 24/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 25/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 26/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 27/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 28/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 29/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 1/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 2/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 3/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 4/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 5/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 6/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 7/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 8/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 9/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 10/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 11/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 12/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 13/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 14/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 15/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 16/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 17/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 18/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 19/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 20/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 21/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 22/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 23/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 24/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 25/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 26/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 27/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 28/kontrolle
+  Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 29/kontrolle
+  Projekt:Semantische Vorlagen/Skriptvorspann in Latex
+
+EXPANDTEMPLATES RECIPE
+endpoint: GET https://de.wikiversity.org/w/api.php
+parameters: action=expandtemplates; format=json; formatversion=2; prop=wikitext|categories|modules|jsconfigvars; title=<exact .../latex surface title>; text={{Latex}}
+note: expanded output is body/custom-macro TeX and contains HTML <br /> and entities; it is not a standalone compilable LaTeX document.
+
+OFFICIAL PDF EXPORT WITNESS
+endpoint: POST https://de.wikiversity.org/wiki/Spezial:DownloadAsPdf
+fields: action=redirect-to-electron; page=<exact regular page title>
+note: valid tagged PDF export works, but visual QA found reader-blocking title/edit-URL overflow, navigation clutter, and a nearly blank last page; use only as a witness/fallback.
+
+94-LINK CLASSIFICATION
+query: action=query; prop=images; imlimit=max over the 59 selected root pages
+unique_file_links: 94
+commons_image_assets: 36
+per_unit_pdf_links: 58
+existing_per_unit_pdfs: 1 (Vorlesung4)
+missing_upload_placeholders: 57
+image_binary_total_bytes_from_api: 10809589
+license_distribution: Public domain=16; CC BY 2.5=1; CC BY 3.0=2; CC BY-SA 3.0=11; CC BY-SA 4.0=6
+media_warning: preserve per-component attribution/license; do not blanket-relicense Commons assets as course text.

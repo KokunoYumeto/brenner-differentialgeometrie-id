@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "input": "authority/exports/script_preamble_expand.json",
+  "input_bytes": 95899,
+  "input_sha256": "90062a8adc3f336e70d6586b5e64b0ab4d47c553b397c0e23b2724d13cc215fb",
+  "expanded_chars": 86958,
+  "output": "authority/expanded/script_preamble_source.de.tex",
+  "output_bytes": 85815,
+  "output_sha256": "9ad3bb6df10045132a38c5ab86dce8b7157aa851e803872959419a5c5c04d70c",
+  "transform": [
+    "normalize CRLF/CR to LF",
+    "replace br tags with LF",
+    "remove div/pre/nowiki wrapper tags",
+    "decode HTML entities",
+    "strip trailing horizontal whitespace",
+    "collapse runs of blank lines",
+    "require no residual HTML tag or U+FFFD"
+  ]
+}
