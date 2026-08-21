@@ -35,7 +35,7 @@ Petrunin–Zamora is optional visual supplementation only. Its curves-and-surfac
 - Final Unit 1 PDF: 2,678,755 bytes; SHA-256 `eb7e78affacf8a559d0f52a1c44921633d2fa74a070faa64af58efc32d34a568`; 25 A4 pages.
 - Unit 1 backend: 174 schema-valid records across all 14 entity classes, deterministically exported and bound to the final PDF and all seven current QA events.
 - Current cursor: `unit-02`, source pair `Vorlesung 2` / `Arbeitsblatt 2`.
-- Publication/push: Unit 1 has passed the bounded GitHub publication gate under the standing authorization; repository transaction is the current action.
+- Publication/push: Unit 1 is public in the dedicated repository `KokunoYumeto/brenner-differentialgeometrie-id`, content commit `e36f0b4274dbd1feae6cdf7708715d8a40f98b8b`, release tag `v0.1.0-unit-01`. Anonymous raw-file and release-asset readback reproduced the exact final PDF hash.
 - Upstream contact: prohibited during production and not used.
 
 Known accessibility limitation: the PDF is not structurally tagged. It does carry `/Lang=id-ID`, all 24 fonts have ToUnicode, and all 25 pages yield extractable text. Semantic HTML remains the planned primary structured accessibility surface.

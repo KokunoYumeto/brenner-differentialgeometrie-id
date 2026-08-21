@@ -29,7 +29,10 @@
   "publication": {
     "repository": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id",
     "release_tag": "v0.1.0-unit-01",
-    "status": "pending_transaction"
+    "release_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v0.1.0-unit-01",
+    "content_commit": "e36f0b4274dbd1feae6cdf7708715d8a40f98b8b",
+    "status": "published_and_publicly_verified",
+    "public_readback_timestamp": "2026-08-21T17:34:43Z"
   },
   "upstream_contact_allowed": false
 }

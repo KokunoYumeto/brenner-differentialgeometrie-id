@@ -7,6 +7,7 @@ Edisi independen Bahasa Indonesia dari kursus Holger Brenner, *Differentialgeome
 Unit 1—Kuliah 1, Lembar Kerja 1, dan satu solusi yang memang disediakan sumber—telah lulus pemeriksaan terjemahan, matematika, hak media, pembangunan ulang, visual, struktur PDF, privasi, dan reproduktibilitas. Edisi 29 unit belum selesai.
 
 - [PDF Unit 1](output/pdf/geometri-diferensial-manifold-mulus-unit-01-id.pdf) — 25 halaman A4, 2.678.755 byte, SHA-256 `eb7e78affacf8a559d0f52a1c44921633d2fa74a070faa64af58efc32d34a568`
+- [Rilis GitHub Unit 1](https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v0.1.0-unit-01) — aset PDF yang sama, dibaca ulang secara publik dan cocok byte demi byte
 - [Sumber terjemahan Unit 1](source/units/unit-01)
 - [Bukti QA Unit 1](qa/unit-01/UNIT_01_QA.md)
 - [Backend modular](backend/README.md) — 174 rekaman ber-ID stabil; lapisan tambahan, bukan syarat untuk membaca buku
