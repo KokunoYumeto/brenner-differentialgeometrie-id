@@ -63,3 +63,9 @@
 **Decision:** retain sole ownership of O011 in this task and continue with Brenner Unit 3. A 2026-08-22 narrow read of the exact coordinator registry, dispatch, and execution-log files still assigns O011 only to task `01a01f48-83f5-7862-80ca-35729193814e`.
 
 **Boundary:** O004's Petrunin geometry corpus, O012 algebraic topology, and O016 Brenner *Algebraische Kurven* remain separate lanes. The coordinator's status prose for O011 is an older Unit 1 snapshot, but its ownership row is unambiguous; no duplicate corpus or write-path owner was found.
+
+## D011 — Unit 2 public preservation
+
+**Decision:** preserve the verified cumulative Unit 2 boundary as GitHub release `v0.2.0-unit-02` in the existing edition lineage.
+
+**Evidence:** the release is public, not a draft or prerelease; its tag points to commit `2a1a0fa75462e70278a2b9d4aaaf759bfc5788ee`. Anonymous download returned one PDF asset of 3,152,320 bytes with SHA-256 `6312b4df706d0f08eeb9f37da0abda3428b5448dce54781d0f52eb9c8db5c385`, exactly matching the verified local artifact. Anonymous tag-raw readback reproduced `README.md`, `UNIT_02_QA.md`, and the 202-row staged-blob release manifest; its PDF and QA rows match the public bytes. See `qa/unit-02/PUBLICATION_RECEIPT.md`.

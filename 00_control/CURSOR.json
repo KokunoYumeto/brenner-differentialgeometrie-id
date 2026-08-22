@@ -34,8 +34,8 @@
     "release_tag": "v0.2.0-unit-02",
     "release_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v0.2.0-unit-02",
     "content_commit": "500b2ce2cbc4eef0f1c443a2e5a22ab36ee9313a",
-    "status": "publication_transaction_in_progress",
-    "public_readback_timestamp": null
+    "status": "published_and_publicly_verified",
+    "public_readback_timestamp": "2026-08-22T05:04:58Z"
   },
   "upstream_contact_allowed": false
 }
