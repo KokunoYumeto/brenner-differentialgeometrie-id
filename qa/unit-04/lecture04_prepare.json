@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-04/lecture04.id.tex",
+  "input_bytes": 28602,
+  "input_sha256": "60a7a2cbfc96a9a510bfff935f40722458c85031214eeaf8ccf4e8df2af2bc81",
+  "output": "build/generated/lecture04.id.build.tex",
+  "output_bytes": 27171,
+  "output_sha256": "c68e1dd0a0b5ac4b9fc8ba7da0b376c7e1a06484bba839142fea5f318172ab5e",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 6,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [
+    {
+      "layout_id": "O011-LAYOUT-U04-HYPERBOLOID-BASIS-ACTION",
+      "command_replacements": [
+        {
+          "source_command": "\\mavergleichskettedisphandlinks",
+          "target_command": "\\mavergleichskettealigndrucklinks"
+        },
+        {
+          "source_command": "\\vergleichskettedisphandlinks",
+          "target_command": "\\vergleichskettealigndrucklinks"
+        }
+      ]
+    },
+    {
+      "layout_id": "O011-LAYOUT-U04-HYPERBOLOID-EIGENVECTOR",
+      "command_replacements": [
+        {
+          "source_command": "\\mavergleichskettealignhandlinks",
+          "target_command": "\\mavergleichskettealigndrucklinks"
+        },
+        {
+          "source_command": "\\vergleichskettealignhandlinks",
+          "target_command": "\\vergleichskettealigndrucklinks"
+        }
+      ]
+    }
+  ],
+  "rendered_internal_links": [
+    {
+      "target": "Richtungsableitung/K/Lineare Realisierung/Differenzierbare Kurve/Fakt",
+      "label": "Lemma 43.4 (Analysis (Osnabrück 2021-2023))"
+    },
+    {
+      "target": "Differenzierbarkeit/R/Totale Differenzierbarkeit impliziert richtungsweise Differenzierbarkeit/Fakt",
+      "label": "Proposition 46.1 (Analysis (Osnabrück 2021-2023))"
+    },
+    {
+      "target": "Skalarprodukt von Abbildungen/Richtungsableitung/Aufgabe",
+      "label": "Soal 43.14 (Analysis (Osnabrück 2021-2023))"
+    },
+    {
+      "target": "Ebene differenzierbare Kurve/Faser/Krümmung/Fakt",
+      "label": "Lemma 3.11"
+    },
+    {
+      "target": "Einschaliges Hyperboloid/Tangentenebene/Normalenvektor/Beispiel",
+      "label": "Contoh 2.5"
+    },
+    {
+      "target": "Hyperfläche/Weingartenabbildung/Tangentialraum/Fakt",
+      "label": "Lemma 4.2"
+    },
+    {
+      "target": "Hyperfläche/Weingartenabbildung/Selbstadjungiert/Eigenwerte/Fakt",
+      "label": "Korolari 4.8"
+    },
+    {
+      "target": "Skalarprodukt von Abbildungen/Richtungsableitung/Aufgabe",
+      "label": "Soal 43.14 (Analysis (Osnabrück 2021-2023))"
+    },
+    {
+      "target": "Totale Differenzierbarkeit/R/Produktregel/Fakt",
+      "label": "Lemma 45.10 (Analysis (Osnabrück 2021-2023))"
+    },
+    {
+      "target": "Differenzierbarkeit/Satz von Schwarz/Fakt",
+      "label": "Teorema 44.10 (Analysis (Osnabrück 2021-2023))"
+    },
+    {
+      "target": "Hyperfläche/Weingartenabbildung/Selbstadjungiert/Fakt",
+      "label": "Teorema 4.7"
+    },
+    {
+      "target": "Vektorraum mit Skalarprodukt/Endomorphismus/Selbstadjungiert/Spektralsatz/Fakt",
+      "label": "Teorema 41.11 (Lineare Algebra (Osnabrück 2024-2025))"
+    },
+    {
+      "target": "Funktion/n-1 Variablen/Graph als Hyperfläche/Tangentialraum/Beispiel",
+      "label": "Contoh 1.2"
+    },
+    {
+      "target": "Funktion/n-1 Variablen/Graph als Hyperfläche/Tangentialraum/Beispiel",
+      "label": "Contoh 1.2"
+    },
+    {
+      "target": "Hyperfläche/Weingartenabbildung/Zweite Ableitung/Skalarprodukt/Fakt",
+      "label": "Lemma 4.6"
+    },
+    {
+      "target": "Hyperfläche/Weingartenabbildung/Selbstadjungiert/Fakt",
+      "label": "Teorema 4.7"
+    },
+    {
+      "target": "Bilinearform/Symmetrisch/Polarisationsformel/Fakt",
+      "label": "Lemma 38.10 (Lineare Algebra (Osnabrück 2024-2025))"
+    }
+  ]
+}

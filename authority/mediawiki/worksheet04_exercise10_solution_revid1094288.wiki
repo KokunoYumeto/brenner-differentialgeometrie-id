@@ -1,0 +1,65 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Das normierte Gradientenfeld ist
+{{
+Relationskette/align
+| N(x,y,z)
+|| {{op:Bruch| 1 | \sqrt{ 4x^2+4y^2+16 z^2} }} {{op:Spaltenvektor| 2x| 2y| 4z}} 
+|| {{op:Bruch| 1 | \sqrt{ x^2+y^2+4 z^2} }} {{op:Spaltenvektor| x | y | 2z}} 
+|| 
+|| 
+|SZ=.
+}}
+Wir arbeiten mit dem Einheitsnormalenfeld
+{{
+Relationskette/display
+| M(x,y,z) 
+|| {{op:Bruch| 1 | \sqrt{ 4+2 z^2} }} {{op:Spaltenvektor| x | y | 2z}} 
+|| 
+|| 
+|| 
+|SZ=,
+}}
+was auf {{math|term= Y |SZ=}} mit {{math|term= N |SZ=}} übereinstimmt. Das totale Differential von {{math|term= M |SZ=}} ist
+{{
+Math/display|term=
+ {{op:Matrix33| {{op:Bruch| 1 | \sqrt{4+2z^2} }} | 0| {{op:Bruch| -2 xz| {{makl| 4+2z^2 |}}^{3/2} }} | 0 | {{op:Bruch| 1 | \sqrt{4+2z^2} }}  | {{op:Bruch| -2 yz| {{makl| 4+2z^2 |}}^{3/2} }}  | 0  | 0 | {{op:Bruch| 8| {{makl| 4+2z^2 |}}^{3/2} }} }} 
+|SZ=.
+}}
+Im angegebenen Punkt {{math|term= P |SZ=}} ist der Gradient {{math|term= {{op:Spaltenvektor| 2 | 2| 4}}  |SZ=}} und die beiden Vektoren
+{{
+mathkor|term1=
+ {{op:Spaltenvektor| 1 | -1| 0}} 
+|und|term2=
+ {{op:Spaltenvektor| 2 | 0 | -1}} 
+|SZ=
+}}
+ist eine Basis des Tangetialraumes {{math|term= T_PY |SZ=.}} Das totale Differential zu {{math|term= M |SZ=}} ist in diesem Punkt gleich
+{{
+Math/display|term=
+ {{op:Matrix33| {{op:Bruch| 1 | \sqrt{6} }} | 0| {{op:Bruch| -1| 3 \sqrt{6} }} | 0 | {{op:Bruch| 1 | \sqrt{6} }}  | {{op:Bruch| -1 | 3 \sqrt{6} }}  | 0  | 0 | {{op:Bruch| 4 | 3 \sqrt{6} }}  }} 
+|SZ=.
+}}
+Angewendet auf den ersten Basisvektor {{math|term= {{op:Spaltenvektor| 1 | -1| 0}}  |SZ=}}  ergibt sich {{math|term= {{op:Spaltenvektor| {{op:Bruch| 1 | \sqrt{6} }} | - {{op:Bruch| 1 | \sqrt{6} }} | 0}}  |SZ=,}} dies ist also ein Eigenvektor zum Eigenwert {{math|term= {{op:Bruch| 1 | \sqrt{6} }} |SZ=.}} Angewendet auf den zweiten Basisvektor {{math|term= {{op:Spaltenvektor| 2 | 0 | -1}}  |SZ=}}  ergibt sich 
+{{
+Relationskette/display
+| {{op:Spaltenvektor| {{op:Bruch| 7| 3 \sqrt{6} }} | {{op:Bruch| 1| 3 \sqrt{6}}}  | - {{op:Bruch| 4 | 3 \sqrt{6} }} }} 
+|| - {{op:Bruch| 1| 3 \sqrt{6}}} {{op:Spaltenvektor| 1 | -1| 0}} +   {{op:Bruch| 4 | 3 \sqrt{6} }} {{op:Spaltenvektor| 2 | 0 | -1}} 
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Daher ist der andere Eigenwert gleich {{math|term= {{op:Bruch| 4 | 3 \sqrt{6} }}  |SZ=}} und eine beschreibende Diagonalmatrix ist
+{{
+Math/display|term=
+ {{op:Matrix22| {{op:Bruch| 1 | \sqrt{6} }} | 0| 0 | {{op:Bruch| 4 | 3 \sqrt{6} }} }} 
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

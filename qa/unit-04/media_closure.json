@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "scope": "O011 Brenner Unit 4 exact mathematical-media authority closure",
+  "unit": 4,
+  "authority_surfaces": [
+    {
+      "path": "authority/expanded/lecture04_source.de.tex",
+      "bytes": 26932,
+      "sha256": "610c85e2cb9838a2ce1deb488ceca6cb7d2ee2ab47f1e657d5df7488796f8402"
+    },
+    {
+      "path": "authority/expanded/worksheet04_source.de.tex",
+      "bytes": 11052,
+      "sha256": "81f8d9667581e0e6507dd1684b136c23f3352d1cabf2e8c4013daeb0a312cd00"
+    },
+    {
+      "path": "authority/expanded/worksheet04_exercise07_solution_source.de.tex",
+      "bytes": 2623,
+      "sha256": "a0df2279b1dbae5bff1a4e50385349080bd8734e20d1a6edec83e528045dc63e"
+    },
+    {
+      "path": "authority/expanded/worksheet04_exercise10_solution_source.de.tex",
+      "bytes": 2633,
+      "sha256": "76a2f5db7eb835b19b924418ae2c1b0cfbcd8cd2d5acc387f695f71cbb069a35"
+    }
+  ],
+  "displayed_media_occurrences": 0,
+  "unique_media_assets": 0,
+  "assets": [],
+  "all_includegraphics_occurrences_closed": true,
+  "all_bildlizenz_occurrences_closed": true,
+  "whole_course_rights_manifest": {
+    "path": "authority/brenner_media_rights_manifest.csv",
+    "bytes": 25588,
+    "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+  },
+  "official_unit_pdf_excluded_from_mathematical_media": {
+    "reason": "The separate Commons PDF is a local unredistributed numbering/order witness, not an image referenced by any Unit 4 mathematical source surface, not a production master, and not a release asset because its internal and Commons license-version signals remain unresolved.",
+    "receipt": {
+      "path": "qa/unit-04/OFFICIAL_PDF_WITNESS.json",
+      "bytes": 947,
+      "sha256": "87422827230c2ce2faac3f957999b56c72cc1ea1cc11094652c800a44efbf05b"
+    }
+  },
+  "status": "pass"
+}

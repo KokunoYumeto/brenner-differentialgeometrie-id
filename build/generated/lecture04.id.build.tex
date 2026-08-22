@@ -1,0 +1,1433 @@
+\setcounter{section}{4}
+
+  \zwischenueberschrift{Pemetaan Weingarten}
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah suatu
+\definitionsverweis {hipermuka terdiferensialkan}{}{.}
+Untuk suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kita mendefinisikan suatu pemetaan linear
+\maabbdisp {L_P} { T_PY } { T_PY
+} {}
+pada ruang tangen $Y$ di P. Misalkan $N$ adalah suatu medan normal satuan terdiferensialkan pada $Y$ yang didefinisikan pada suatu lingkungan terbuka di sekitar $Y$. Gagasan pokoknya adalah merepresentasikan suatu vektor tangen
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan suatu kurva terdiferensialkan
+\maabbdisp {\gamma} { I } { Y
+} {}
+sehingga
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma'(0)
+}
+{ =} { v
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Medan normal satuan itu kemudian mendefinisikan pemetaan
+\maabbdisp {N \circ \gamma} { I } { \R^n
+} {}
+sepanjang $I$. Perubahan infinitesimal medan normal satuan sepanjang $\gamma$ diukur oleh limit
+
+\mathdisp {\operatorname{lim}_{   t  \rightarrow  0   } \,  { \frac{   N(\gamma(t))-N(P)  }{  t  } }} {  }
+
+jika limit ini ada. Menurut
+Lemma 43.4 (Analysis (Osnabrück 2021-2023)),
+limit ini sama dengan turunan berarah $\left(  D_{ v }  N   \right) \left(   P   \right)$ dan, pada gilirannya, sama dengan
+\mathl{\left(  D N   \right)_{ P } \left(   v   \right)}{,} yaitu
+\definitionsverweis {diferensial total}{}{}
+yang dievaluasi pada vektor $v$. Akan ditunjukkan bahwa pemetaan
+\maabbeledisp {} { T_PY } { \R^n
+} {v } { \left(  D_{v}  N   \right) \left(   P   \right)
+} {,}
+ini mengambil nilai di $T_PY$.
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+pada setiap titik di $Y$. Misalkan $N$ adalah suatu
+\definitionsverweis {medan normal satuan}{}{}
+dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Pemetaan
+\maabbeledisp {L_P} {T_P Y} { T_PY
+} { v } { - \left(  D_{v}  N   \right) \left(   P  \right)
+} {,}
+disebut
+\definitionswort {pemetaan Weingarten}{}
+pada $T_PY$.
+
+}
+
+Perhatikan bahwa pemetaan Weingarten bergantung pada medan normal satuan, meskipun hal ini tidak selalu dinyatakan secara eksplisit. Jika $Y$ diberikan sebagai serat dari $h$, biasanya digunakan medan gradien ternormalisasi yang bersesuaian dengan $h$.
+
+
+\inputfaktbeweis
+{Hyperfläche/Weingartenabbildung/Tangentialraum/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+pada setiap titik di $Y$. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Maka
+\definitionsverweis {pemetaan Weingarten}{}{}
+$L_P$ adalah suatu endomorfisme linear dari
+\definitionsverweis {ruang tangen}{}{}
+$T_PY$.}
+Catatan edisi: sumber memakai huruf kecil p pada ruang tangen ini, padahal titik yang dikuantifikasi adalah P.
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Medan
+
+\mavergleichskette
+{\vergleichskette
+{ N(P)
+}
+{ = }{ { \frac{
+\operatorname{Grad} \,  h  (  P )  }{  \Vert {
+\operatorname{Grad} \,  h  (  P ) } \Vert  } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah suatu medan vektor yang terdiferensialkan secara kontinu pada suatu lingkungan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+tempat medan tersebut didefinisikan. Oleh karena itu, menurut
+Proposition 46.1 (Analysis (Osnabrück 2021-2023)),
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  D_{v}  N   \right) \left(   P  \right)
+}
+{ =} { \left(  D N   \right)_{ P } \left(  v  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+bersifat linear terhadap arah $v$. Dari syarat normal satuan diperoleh
+
+\mavergleichskette
+{\vergleichskette
+{ \left\langle  N(P)  ,  N(P)   \right\rangle
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan, dengan menggunakan
+Soal 43.14 (Analysis (Osnabrück 2021-2023)), diperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 0
+}
+{ =} { \left(  D_{v}  \left\langle  N  ,  N  \right\rangle   \right) \left(   P  \right)
+}
+{ =} { 2 \left\langle  N(P)  ,  \left(  D_{v}  N   \right) \left(   P  \right)   \right\rangle
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Jadi,
+\mathl{\left(  D_{v}  N   \right) \left(   P  \right)}{} tegak lurus terhadap $N(P)$ dan, untuk
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+vektor tersebut termasuk dalam ruang tangen $T_PY$.
+
+}
+
+Dengan demikian, pemetaan Weingarten $L_P$ adalah negatif dari pembatasan diferensial total medan normal satuan pada ruang tangen $T_PY$, dengan kodomain ruang tangen $T_PY$. Jika diferensial total dihitung melalui
+\definitionsverweis {matriks Jacobi}{}{}
+dari $-N$, kita harus menentukan cara matriks itu bekerja pada suatu basis ruang tangen untuk memperoleh representasi matriks dari pemetaan Weingarten.
+
+
+
+\inputfaktbeweis
+{Ebene Kurve/Weingartenabbildung/Krümmung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ C
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah serat di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+pada setiap titik di $C$, dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ C
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Maka
+\definitionsverweis {pemetaan Weingarten}{}{}
+di $P$ adalah perkalian dengan
+\definitionsverweis {kelengkungan}{}{}
+$\kappa(P)$ dari $C$ di $P$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Pernyataan ini merupakan perumusan ulang dari
+Lemma 3.11.
+
+}
+
+Pernyataan di atas tidak secara eksplisit merujuk pada orientasi; orientasi yang dimaksud harus turut diperhitungkan.
+
+\inputbeispiel{}
+{
+
+Misalkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h(x,y,z)
+}
+{ =} { x^2+y^2+z^2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan perhatikan serat $Y$ dari $h$ di atas $r^2$, yakni permukaan bola berjari-jari
+
+\mavergleichskette
+{\vergleichskette
+{ r
+}
+{ > }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+yang berpusat di titik asal. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ \left(  x_0   , \,   y_0  , \,  z_0                 \right)
+}
+{ \in }{ Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dengan suatu isometri, titik ini dapat dipetakan ke
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ = }{ \left(  r   , \,   0  , \,   0                 \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+tanpa mengubah
+\definitionsverweis {pemetaan Weingarten}{}{}.
+Suatu basis ruang tangennya ialah
+\mathkor {} {\begin{pmatrix}  0  \\ 1 \\  0   \end{pmatrix}} {dan} {\begin{pmatrix}  0  \\ 0\\  1   \end{pmatrix}} {.}
+Medan normal satuan $N$ yang mengarah ke dalam adalah
+\mathl{- { \frac{   1  }{  2r } } \begin{pmatrix}  2x \\ 2y\\  2z   \end{pmatrix}}{} dan karena itu, untuk
+
+\mavergleichskettedisp
+{\vergleichskette
+{ v
+}
+{ =} { \begin{pmatrix}  0  \\ b \\ c   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  D_{v}  N   \right) \left(   Q   \right)
+}
+{ =} { b { \frac{   \partial   N   }{  \partial   y  } } (Q) +  c { \frac{   \partial   N   }{  \partial  z  } }  (Q)
+}
+{ =} { -b { \frac{   1  }{  2r } } \begin{pmatrix}  0  \\ 2 \\  0   \end{pmatrix} - c { \frac{   1  }{  2r } } \begin{pmatrix}  0  \\ 0\\  2   \end{pmatrix}
+}
+{ =} { - { \frac{   1  }{ r } } \begin{pmatrix}  0  \\ b \\ c   \end{pmatrix}
+}
+{ } {
+}
+}
+{}{}{.}
+Jadi, pemetaan Weingarten adalah perkalian dengan kebalikan ${ \frac{   1  }{ r } }$ dari jari-jari.
+
+}
+
+\inputbeispiel{}
+{
+
+Kita melanjutkan
+Contoh 2.5.
+Matriks Jacobi dari medan normal satuan
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ N( \begin{pmatrix}  x  \\ y \\ z   \end{pmatrix} )
+}
+{ =} { \left(  x^2+y^2+z^2  \right)^{ - { \frac{   1  }{  2 } } } \begin{pmatrix}  x  \\ y \\  -z   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+adalah
+
+\mathdisp {\left(  x^2+y^2+z^2  \right)^{- { \frac{   3  }{  2 } } } \begin{pmatrix}  y^2+z^2  &   -xy &  -xz \\  -xy &  x^2+z^2 &  -yz \\ xz &  yz &  -x^2-y^2  \end{pmatrix}} { . }
+
+\definitionsverweis {Pemetaan Weingarten}{}{}
+adalah negatif dari pembatasan pemetaan ini pada ruang tangen permukaan tersebut; menurut
+Lemma 4.2,
+hasilnya kembali berada di ruang tangen. Kita mengasumsikan
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan menggunakan basis
+\mathkor {} {\begin{pmatrix}  y  \\ -x\\  0   \end{pmatrix}} {dan} {\begin{pmatrix}  z  \\ 0 \\  x   \end{pmatrix}} {}
+dari ruang tangen. Kita mempunyai
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \begin{pmatrix}  y^2+z^2  &   -xy &  -xz \\  -xy &  x^2+z^2 &  -yz \\ xz &  yz &  -x^2-y^2  \end{pmatrix} \begin{pmatrix}  y  \\ -x\\  0   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  y \left(  y^2+z^2  \right) +x^2y \\ -xy^2 -x \left(  x^2+z^2  \right) \\  0   \end{pmatrix}
+}
+{ =} { \left(  x^2+y^2+z^2  \right) \begin{pmatrix}  y  \\ -x\\  0   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{,}
+sehingga langsung diperoleh vektor eigen $\begin{pmatrix}  y  \\ -x\\  0   \end{pmatrix}$ dengan nilai eigen
+\mathl{- \left(  x^2+y^2+z^2  \right)^{ - { \frac{   1  }{  2 } } }}{}.
+Selain itu,
+
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \begin{pmatrix}  y^2+z^2  &   -xy &  -xz \\  -xy &  x^2+z^2 &  -yz \\ xz &  yz &  -x^2-y^2  \end{pmatrix} \begin{pmatrix}  z  \\ 0 \\  x   \end{pmatrix}
+}
+{ =} { \begin{pmatrix} z \left(  y^2+z^2  \right) -x^2z \\ -2xyz\\  xz^2-x \left(  x^2+y^2  \right)   \end{pmatrix}
+}
+{ =} { 2yz \begin{pmatrix}  y  \\ -x\\  0   \end{pmatrix} + \left(  z^2-x^2-y^2  \right) \begin{pmatrix}  z  \\ 0 \\  x   \end{pmatrix}
+}
+{ =} { 2yz \begin{pmatrix}  y  \\ -x\\  0   \end{pmatrix}- \begin{pmatrix}  z  \\ 0 \\  x   \end{pmatrix}
+}
+{ } {
+}
+}
+{}{}{.}
+
+Dengan demikian, terhadap basis ini, pemetaan Weingarten direpresentasikan oleh matriks
+
+\mathdisp {\begin{pmatrix}  - \left(  x^2+y^2+z^2  \right)^{ - { \frac{   1  }{  2 } } }   &   - 2yz \left(  x^2+y^2+z^2  \right)^{ - { \frac{   3  }{  2 } } }    \\  0  &  \left(  x^2+y^2+z^2  \right)^{ - { \frac{   3  }{  2 } } }   \end{pmatrix}} {  }
+
+Untuk memperoleh vektor eigen kedua dalam ruang tangen,
+\zusatzklammer {dengan memperhatikan
+Korolari 4.8} {} {}
+cara termudah ialah menentukan suatu vektor yang tegak lurus terhadap vektor eigen pertama dan vektor normal. Hasilnya adalah vektor
+\mathl{\begin{pmatrix}  xz \\ yz\\  x^2+y^2   \end{pmatrix}}{,} dan memang,
+\zusatzklammer {tanpa faktor skalar di depan} {} {}
+
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \begin{pmatrix}  y^2+z^2  &   -xy &  -xz \\  -xy &  x^2+z^2 &  -yz \\ xz &  yz &  -x^2-y^2  \end{pmatrix} \begin{pmatrix}  xz \\ yz\\  x^2+y^2   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  xz \left(  y^2+z^2  \right) -xy^2z -xz \left(  x^2+y^2  \right)  \\ - x^2yz +yz \left(  x^2+z^2  \right) -yz \left(  x^2+y^2  \right) \\  x^2z^2 +y^2z^2 - \left(  x^2+y^2  \right)^2   \end{pmatrix}
+}
+{ =} { \left(  - x^2-y^2+z^2  \right) \begin{pmatrix}  xz \\ yz\\  x^2+y^2   \end{pmatrix}
+}
+{ =} { - \begin{pmatrix}  xz \\ yz\\  x^2+y^2   \end{pmatrix}
+}
+{ } {
+}
+}
+{}
+{}{.}
+
+Jadi, nilai eigennya adalah
+\mathl{\left(  x^2+y^2+z^2  \right)^{- { \frac{   3  }{  2 } } }}{}
+\zusatzklammer {hal ini juga dapat langsung dibaca dari matriks segitiga yang merepresentasikannya} {} {.}
+
+}
+
+
+
+
+\inputfaktbeweis
+{Hyperfläche/Weingartenabbildung/Zweite Ableitung/Skalarprodukt/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+pada setiap titik di $Y$. Misalkan $N$ adalah suatu
+\definitionsverweis {medan normal satuan}{}{}
+dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Misalkan $\gamma$ adalah suatu realisasi yang terdiferensialkan dua kali pada $Y$ dari vektor tangen
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Maka
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  \gamma^{\prime \prime} (0)  ,  N(P)  \right\rangle
+}
+{ =} { \left\langle  L_P(v) , v  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Misalkan
+\maabbeledisp {\gamma} { I } { Y
+} { t } { \gamma(t)
+} {,}
+terdiferensialkan dua kali, dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(0)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'(0)
+}
+{ = }{ v
+}
+{ \in }{ T_PY
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Kita mempunyai
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  \gamma'(t)  ,  N(\gamma(t))   \right\rangle
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk semua
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sehingga, dengan
+Soal 43.14 (Analysis (Osnabrück 2021-2023)), diperoleh
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ 0
+}
+{ =} { \left\langle  \gamma'(t)  ,  N(\gamma(t))   \right\rangle' (0)
+}
+{ =} { \left\langle  \gamma^{\prime \prime}(0)  ,  N(\gamma(0))  \right\rangle + \left\langle  \gamma'(0)  ,  \left(  D_{ \gamma'(0) }  N   \right) \left(   \gamma(0)   \right)   \right\rangle
+}
+{ =} { \left\langle  \gamma^{\prime \prime}(0) , N(P)  \right\rangle - \left\langle  L_P(v)  ,  v   \right\rangle
+}
+{ } {
+}
+}
+{}
+{}{.}
+
+}
+
+Dalam pernyataan di atas tidak diperlukan penetapan tambahan mengenai orientasi, sebab medan normal satuan muncul pada kedua ruas, dan pada ruas kanan muncul melalui pemetaan Weingarten. Perhatikan pula bahwa $\gamma$ tidak harus memiliki kecepatan konstan. Dengan demikian, terdapat banyak realisasi dan percepatan $\gamma^{\prime \prime} (0)$ tidak ditentukan secara tunggal. Namun, nilai
+\mathl{\left\langle  \gamma^{\prime \prime}(0)  ,  N(P)  \right\rangle}{,} yang menggambarkan komponen normal percepatan, tidak berubah karena $\gamma$ bergerak pada hipermuka tersebut.
+Catatan edisi: sumber kehilangan argumen N(P) dalam hasil kali dalam pada kalimat sebelumnya; identitas yang baru saja dibuktikan menentukannya secara unik.
+
+
+
+\inputfaktbeweis
+{Hyperfläche/Weingartenabbildung/Selbstadjungiert/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah serat di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+pada setiap titik di $Y$.}
+\faktfolgerung {Maka
+\definitionsverweis {pemetaan Weingarten}{}{}
+$L_P$ pada setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bersifat
+\definitionsverweis {adjoin-diri (self-adjoint)}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Untuk vektor
+
+\mavergleichskette
+{\vergleichskette
+{ v,w
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kita harus menunjukkan bahwa
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  v  ,  L_P(w)  \right\rangle
+}
+{ =} { \left\langle L_P(v) ,  w  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+tersebut. Dengan
+
+\mavergleichskette
+{\vergleichskette
+{ N(P)
+}
+{ = }{ { \frac{
+\operatorname{Grad} \,  h  (  P )  }{  \Vert {
+\operatorname{Grad} \,  h  (  P ) } \Vert  } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+menurut
+Lemma 45.10 (Analysis (Osnabrück 2021-2023)), kita mempunyai
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left\langle  v  ,  L_P(w)  \right\rangle
+}
+{ =} { -\left\langle  v  ,  \left(  D_{w}  N   \right) \left(   P   \right)   \right\rangle
+}
+{ =} { -\left\langle  v  ,  \left(  D_{w}  { \frac{
+\operatorname{Grad} \,  h  }{  \Vert {
+\operatorname{Grad} \,  h } \Vert  } }   \right) \left(   P   \right)     \right\rangle
+}
+{ =} { -\left\langle  v  ,  \left(  D_{w}  { \frac{   1  }{  \Vert {
+\operatorname{Grad} \,  h } \Vert  } }   \right) \left(   P   \right) \cdot
+\operatorname{Grad} \,  h  (  P ) + { \frac{   1  }{  \Vert {
+\operatorname{Grad} \,  h  (  P ) } \Vert  } } \cdot  \left(  D_{w}
+\operatorname{Grad} \,  h   \right) \left(   P   \right)   \right\rangle
+}
+{ =} { - { \frac{   1  }{  \Vert {
+\operatorname{Grad} \,  h  (  P ) } \Vert  } } \left\langle  v  ,  \left(  D_{w}
+\operatorname{Grad} \,  h   \right) \left(   P   \right)    \right\rangle
+}
+}
+{}
+{}{,}
+karena suku pertama tegak lurus terhadap vektor tangen $v$. Dalam fungsi-fungsi koordinat,
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left(  D_{w}
+\operatorname{Grad} \,  h   \right) \left(   P   \right)
+}
+{ =} { \left(  D_{w}  \left(  { \frac{   \partial   h   }{  \partial   x_1   } }   , \,   \ldots  , \,   { \frac{   \partial   h   }{  \partial   x_n   } }                 \right)    \right) \left(   P   \right)
+}
+{ =} { \sum_{j = 1}^n  w_j  { \frac{   \partial    }{  \partial   x_j   } }  \left(  { \frac{   \partial   h   }{  \partial   x_1   } }   , \,   \ldots  , \,   { \frac{   \partial   h   }{  \partial   x_n   } }                 \right) (P)
+}
+{ =} { \left(  \sum_{j = 1}^n  w_j  { \frac{   \partial    }{  \partial   x_j   } }  { \frac{   \partial   h   }{  \partial   x_1   } } (P)   , \,   \ldots  , \,   \sum_{j = 1}^n  w_j  { \frac{   \partial    }{  \partial   x_j   } }  { \frac{   \partial   h   }{  \partial   x_n   } } (P)                 \right)
+}
+{ } {
+}
+}
+{}
+{}{.}
+Dengan demikian, ungkapan di atas sama dengan
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \left\langle  v  ,  L_P(w)  \right\rangle
+}
+{ =} { - { \frac{   1  }{  \Vert {
+\operatorname{Grad} \,  h  (  P ) } \Vert  } } \left\langle  v  ,  \left(  D_{w}
+\operatorname{Grad} \,  h   \right) \left(   P   \right)   \right\rangle
+}
+{ =} { -  { \frac{   1  }{  \Vert {
+\operatorname{Grad} \,  h  (  P ) } \Vert  } }  \sum_{i,j = 1}^n v_i  w_j  { \frac{   \partial    }{  \partial   x_j   } } { \frac{   \partial   h   }{  \partial   x_i   } }  (P)
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+Menurut
+Teorema 44.10 (Analysis (Osnabrück 2021-2023)),
+urutan turunan parsial dapat dipertukarkan, sehingga peran
+\mathkor {} {v} {dan} {w} {}
+juga dapat dipertukarkan.
+
+}
+
+
+
+\inputfaktbeweis
+{Hyperfläche/Weingartenabbildung/Selbstadjungiert/Eigenwerte/Fakt}
+{Korollar}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah serat di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+pada setiap titik di $Y$.}
+\faktfolgerung {Maka
+\definitionsverweis {pemetaan Weingarten}{}{}
+$L_P$ pada setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {dapat didiagonalkan}{}{}
+dengan
+\definitionsverweis {nilai-nilai eigen}{}{}
+real dan ruang-ruang eigen yang saling ortogonal.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Hal ini mengikuti dari
+Teorema 4.7
+dan
+Teorema 41.11 (Lineare Algebra (Osnabrück 2024-2025)).
+
+}
+
+
+
+\inputfaktbeweis
+{Differenzierbare Funktion/Graph/Hyperfläche/Weingartenabbildung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {himpunan terbuka}{}{}
+dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ V \times \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {grafik}{}{}
+dari suatu fungsi yang
+\definitionsverweis {dua kali terdiferensialkan secara kontinu}{}{}
+\maabbdisp {f} { V } {\R
+} {.}}
+\faktfolgerung {Maka
+\definitionsverweis {pemetaan Weingarten}{}{}
+$L_P$ pada suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ (x_1 , \ldots , x_{n-1}, f(x_1 , \ldots , x_{n-1}))
+}
+{ \in }{ Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {terhadap medan normal satuan yang mengarah ke atas} {} {}
+dapat direpresentasikan sebagai berikut. Tuliskan \mathl{g=\operatorname{Grad} f}{} sebagai vektor kolom dan
+\mathl{G=I_{n-1}+gg^{\mathsf T}}{,}
+yakni matriks metrik dalam basis grafik. Matriks pemetaan Weingarten dalam basis tersebut adalah
+\mathl{G^{-1}{ \frac{   1  }{  \sqrt{ 1+ \left(  { \frac{   \partial   f   }{  \partial   x_1   } }  \right)^2 + \cdots + \left(  { \frac{   \partial   f   }{  \partial   x_{n-1}   } }  \right)^2 }  } } \operatorname{Hess}_{   } \,  f}{}, dengan $\operatorname{Hess}_{   } \,  f$ menyatakan
+\definitionsverweis {matriks Hesse}{}{}
+dari $f$, apabila vektor-vektor dasar
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+diidentifikasi dengan vektor-vektor tangen dari $T_PY$ dalam pengertian
+Contoh 1.2.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Kita melanjutkan
+Contoh 1.2.
+Medan normal satuan yang mengarah ke atas diberikan oleh
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ N(x_1  , \ldots , x_{n-1}, f(x_1 , \ldots , x_{n-1}))
+}
+{ =} { { \frac{   1  }{  \sqrt{ 1+ \left(  { \frac{   \partial   f   }{  \partial   x_1   } }  \right)^2 + \cdots + \left(  { \frac{   \partial   f   }{  \partial   x_{n-1}   } }  \right)^2 }  } } \begin{pmatrix}  -{ \frac{   \partial   f   }{  \partial   x_{1}   } }  \\\vdots\\  -{ \frac{   \partial   f   }{  \partial   x_{n-1}   } }\\ 1   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+yang akan digunakan. Kita meninjau lintasan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma(t)
+}
+{ =} { \begin{pmatrix}  x_1+tv_1  \\ \vdots \\  x_{n-1} +tv_{n-1}\\f \begin{pmatrix}  x_1+tv_1  \\ \vdots \\  x_{n-1} +tv_{n-1}   \end{pmatrix}   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+pada grafik yang bersesuaian dengan vektor dasar $v$. Turunan keduanya adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma^{\prime \prime} (0)
+}
+{ =} { \begin{pmatrix}  0  \\ \vdots \\  0\\ \sum_{1 \leq i, j \leq n-1}  { \frac{   \partial    }{  \partial   x_i   } }  { \frac{   \partial   f   }{  \partial   x_j   } } v_iv_j   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Menurut
+Lemma 4.6,
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \left\langle  L_P( \gamma'(0) ) ,  \gamma'(0)  \right\rangle
+}
+{ =} { \left\langle  \gamma^{\prime \prime} (0) ,  N(x_1 , \ldots , x_{n-1}, f(x_1  , \ldots , x_{n-1}))   \right\rangle
+}
+{ =} { { \frac{   1  }{  \sqrt{ 1 + \left(  { \frac{   \partial   f   }{  \partial   x_1   } }  \right)^2 + \cdots + \left(  { \frac{   \partial   f  }{  \partial   x_{n-1}   } }  \right)^2 }  } } \left\langle  \begin{pmatrix}  0  \\\vdots\\  0\\ \sum_{ 1 \leq i, j \leq n-1 }  { \frac{   \partial    }{  \partial   x_i   } }  { \frac{   \partial   f   }{  \partial   x_j   } } v_iv_j   \end{pmatrix}  ,  \begin{pmatrix}  -{ \frac{   \partial   f   }{  \partial   x_{1}   } }  \\\vdots\\  -{ \frac{   \partial   f   }{  \partial   x_{n-1}   } }\\ 1   \end{pmatrix}   \right\rangle
+}
+{ =} { { \frac{   \sum_{ 1 \leq i, j \leq n-1 } { \frac{   \partial    }{  \partial   x_i   } }  { \frac{   \partial   f   }{  \partial   x_j   } } v_i v_j     }{  \sqrt{ 1+  \left(  { \frac{   \partial   f   }{  \partial   x_1   } }  \right)^2 + \cdots + \left(  { \frac{   \partial   f  }{  \partial   x_{n-1}   } }  \right)^2 }  } }
+}
+{ =} { { \frac{   1  }{  \sqrt{ 1+ \left(  { \frac{   \partial   f   }{  \partial   x_1   } }  \right)^2 + \cdots + \left(  { \frac{   \partial   f   }{  \partial   x_{n-1}   } }  \right)^2 }  } }  \left( v_1   , \,   \ldots  , \,   v_{n-1}                 \right)  \operatorname{Hess}_{   } \,  f  \begin{pmatrix} v_1  \\ \vdots \\  v_{n-1}   \end{pmatrix}
+}
+}
+{}{}{.}
+Artinya, menurut
+Teorema 4.7,
+\definitionsverweis {bentuk bilinear}{}{}
+simetris
+
+\mathl{\left\langle  L_P(-) ,  -  \right\rangle}{} pada ruang tangen $T_PY$ bersesuaian dengan bentuk bilinear yang diberikan oleh matriks Hesse yang diskalakan
+\zusatzklammer {oleh faktor di depan} {} {}
+pada $\R^{n-1}$, apabila vektor yang sama disubstitusikan pada kedua tempat.
+Menurut
+Lemma 38.10 (Lineare Algebra (Osnabrück 2024-2025)),
+kedua bentuk bilinear tersebut berimpit untuk sembarang pasangan argumen. Akan tetapi, ini menentukan bentuk fundamental kedua, bukan langsung matriks operator dalam basis grafik. Jika \mathl{A}{} adalah matriks $L_P$ dalam basis grafik dan \mathl{G=I_{n-1}+gg^{\mathsf T}}{} adalah matriks metriknya, maka matriks bentuk bilinear di atas adalah \mathl{GA}{.} Oleh karena itu,
+
+\mathdisp {GA={ \frac{   1  }{  \sqrt{1+\lVert g\rVert^2}  } }\operatorname{Hess}_{   }\, f} { , }
+
+sehingga
+
+\mathdisp {A=G^{-1}{ \frac{   1  }{  \sqrt{1+\lVert g\rVert^2}  } }\operatorname{Hess}_{   }\, f} { . }
+
+Catatan edisi: sumber menghilangkan faktor invers metrik G dan dengan demikian menyamakan matriks bentuk fundamental kedua dengan matriks pemetaan Weingarten. Rumus dan simpulan di atas memperbaiki pembedaan tersebut.
+
+}

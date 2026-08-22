@@ -1,0 +1,322 @@
+{
+  "exercise_count": 15,
+  "exercises": [
+    {
+      "exercise_index": 1,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Linearform/Hyperebene/Weingartenabbildung/Aufgabe/Lösung",
+      "task_title": "Linearform/Hyperebene/Weingartenabbildung/Aufgabe"
+    },
+    {
+      "exercise_index": 2,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Fläche/Standardkegel/Kreisbewegung/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Fläche/Standardkegel/Kreisbewegung/Aufgabe"
+    },
+    {
+      "exercise_index": 3,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Fläche/Standardzylinder/Kreisbewegung/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Fläche/Standardzylinder/Kreisbewegung/Aufgabe"
+    },
+    {
+      "exercise_index": 4,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Fläche/Standardzylinder/Weingartenabbildung/Nicht bijektiv/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Fläche/Standardzylinder/Weingartenabbildung/Nicht bijektiv/Aufgabe"
+    },
+    {
+      "exercise_index": 5,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Fläche/Gerade/Weingartenabbildung/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Fläche/Gerade/Weingartenabbildung/Aufgabe"
+    },
+    {
+      "exercise_index": 6,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Hyperfläche/Allgemeiner Zylinder/Weingartenabbildung/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Hyperfläche/Allgemeiner Zylinder/Weingartenabbildung/Aufgabe"
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 1909,
+        "path": "authority/mediawiki/worksheet04_exercise07_solution_revid1094221.utf8.b64",
+        "sha256": "17d018fe57d3a73e57a196e63f4740e4d7476cffc26cd22c61d3938bd1b4c5a9"
+      },
+      "exercise_index": 7,
+      "exists": true,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 2891,
+        "http_date": "Sat, 22 Aug 2026 07:16:02 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Eingebetteter Torus/Einheitsnormalenfeld/Weingartenabbildung/1/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 716,
+          "path": "authority/exports/worksheet04_exercise07_solution_latex_expand.json.request.json",
+          "sha256": "58c60686edcffe11107814915c59ca02947aa7fcc1061b3d8c4dd55100018556"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 3182,
+          "path": "authority/exports/worksheet04_exercise07_solution_latex_expand.json",
+          "sha256": "41da3a0bcb16b6f96098c0ebd02d9f31aa6d039e947cc3609f44f8dabdeadd99"
+        },
+        "retrieved_utc": "2026-08-22T07:16:02Z",
+        "sanitized_source": {
+          "bytes": 2623,
+          "path": "authority/expanded/worksheet04_exercise07_solution_source.de.tex",
+          "sha256": "a0df2279b1dbae5bff1a4e50385349080bd8734e20d1a6edec83e528045dc63e"
+        },
+        "sanitizer": {
+          "bytes": 3113,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+        },
+        "sanitizer_receipt": {
+          "bytes": 713,
+          "path": "qa/unit-04/worksheet04_exercise07_solution_sanitize.json",
+          "sha256": "c49272c577a51f6c77630a62e7aaabbf8ed2538a227a49a9835a334a4fde522f"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "f2c0b99e1b7ad9f62c3d728e378fcf224751acfb",
+      "metadata": {
+        "bytes": 1258,
+        "path": "authority/mediawiki/worksheet04_exercise07_solution_revid1094221.metadata.json",
+        "sha256": "e2e8842ae35d699bd45e4adcb609969612c8891822a3ebdbfa7b89169f2109c7"
+      },
+      "pageid": 152876,
+      "parentid": 1094183,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 1431,
+        "path": "authority/mediawiki/worksheet04_exercise07_solution_revid1094221.wiki",
+        "sha256": "3fc2472d610e07fe52f64025ac3ef977b2954922a7918ec86a99f1d9a37e7aac"
+      },
+      "revid": 1094221,
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Eingebetteter Torus/Einheitsnormalenfeld/Weingartenabbildung/1/Aufgabe/Lösung",
+      "source_utf8_bytes": 1430,
+      "source_utf8_sha256": "5b2fab7335a3f1cb176efd2fb4b870e99bc70e95f0a62c4a33e1aca735497f58",
+      "task_title": "Eingebetteter Torus/Einheitsnormalenfeld/Weingartenabbildung/1/Aufgabe",
+      "timestamp": "2026-06-14T15:19:49Z"
+    },
+    {
+      "exercise_index": 8,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Fläche/Graph/Z ist xy/Weingartenabbildung/Jeder Punkt/Diagonalmatrix/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Fläche/Graph/Z ist xy/Weingartenabbildung/Jeder Punkt/Diagonalmatrix/Aufgabe"
+    },
+    {
+      "exercise_index": 9,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Hyperfläche/Weingartenabbildung/Isometrie/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Hyperfläche/Weingartenabbildung/Isometrie/Aufgabe"
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 3357,
+        "path": "authority/mediawiki/worksheet04_exercise10_solution_revid1094288.utf8.b64",
+        "sha256": "fc450202c25790f7447c13b172394d7584df0eed3f37c1eb65c969d054f8a8fa"
+      },
+      "exercise_index": 10,
+      "exists": true,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 2837,
+        "http_date": "Sat, 22 Aug 2026 07:16:02 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Differenzierbare Fläche/Ellipsoidoberfläche/Weingartenabbildung/Diagonalmatrix/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 734,
+          "path": "authority/exports/worksheet04_exercise10_solution_latex_expand.json.request.json",
+          "sha256": "d28eb58b380c8125e8125ab7f8286ff28c507b21f11c6f8d98536af0821abc91"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 3136,
+          "path": "authority/exports/worksheet04_exercise10_solution_latex_expand.json",
+          "sha256": "5522dcf59cf3b5a462d600fae6f4303b69a3787cda941063350ea40ef67d27d2"
+        },
+        "retrieved_utc": "2026-08-22T07:16:02Z",
+        "sanitized_source": {
+          "bytes": 2633,
+          "path": "authority/expanded/worksheet04_exercise10_solution_source.de.tex",
+          "sha256": "76a2f5db7eb835b19b924418ae2c1b0cfbcd8cd2d5acc387f695f71cbb069a35"
+        },
+        "sanitizer": {
+          "bytes": 3113,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+        },
+        "sanitizer_receipt": {
+          "bytes": 713,
+          "path": "qa/unit-04/worksheet04_exercise10_solution_sanitize.json",
+          "sha256": "9313db2f6ccde3d55d3f01929532ff8c4fc21be8fc8e2027d766ed714fdacc2e"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "d91829738e4813be8227ec835a3fa461a0bb4abb",
+      "metadata": {
+        "bytes": 1276,
+        "path": "authority/mediawiki/worksheet04_exercise10_solution_revid1094288.metadata.json",
+        "sha256": "04999d015ab012f96442eb2cb22e237a5f6c7a5892aea0fc0d95174573c3f565"
+      },
+      "pageid": 151124,
+      "parentid": 1088924,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 2518,
+        "path": "authority/mediawiki/worksheet04_exercise10_solution_revid1094288.wiki",
+        "sha256": "b3a4c7eb78f75d173deb9d276cfeb16902288cc1a0046b7051dedf843da95d92"
+      },
+      "revid": 1094288,
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Differenzierbare Fläche/Ellipsoidoberfläche/Weingartenabbildung/Diagonalmatrix/Aufgabe/Lösung",
+      "source_utf8_bytes": 2517,
+      "source_utf8_sha256": "c5d96e0a943c71d80495bae6971c3e2ec1c0b65bd2d7b77e9d55037f92647fe8",
+      "task_title": "Differenzierbare Fläche/Ellipsoidoberfläche/Weingartenabbildung/Diagonalmatrix/Aufgabe",
+      "timestamp": "2026-06-14T15:33:29Z"
+    },
+    {
+      "exercise_index": 11,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Hyperfläche/Änderung der Orientierung/Eigenräume der Weingartenabbildung/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Hyperfläche/Änderung der Orientierung/Eigenräume der Weingartenabbildung/Aufgabe"
+    },
+    {
+      "exercise_index": 12,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 4,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Einschaliges Hyperboloid/Weingartenabbildung/x ist 0/Aufgabe/Lösung",
+      "task_title": "Einschaliges Hyperboloid/Weingartenabbildung/x ist 0/Aufgabe"
+    },
+    {
+      "exercise_index": 13,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 5,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Fläche/Ellipsoidoberfläche/Weingartenabbildung/Diagonalmatrix/2/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Fläche/Ellipsoidoberfläche/Weingartenabbildung/Diagonalmatrix/2/Aufgabe"
+    },
+    {
+      "exercise_index": 14,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 4,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Hyperfläche/Quadrik in 4 Variablen/Weingartenabbildung/Basis/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Hyperfläche/Quadrik in 4 Variablen/Weingartenabbildung/Basis/Aufgabe"
+    },
+    {
+      "exercise_index": 15,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 6,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Fläche/Graph/Z ist x^3y^5/Weingartenabbildung/Diagonalmatrix/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Fläche/Graph/Z ist x^3y^5/Weingartenabbildung/Diagonalmatrix/Aufgabe"
+    }
+  ],
+  "graded_exercise_count": 4,
+  "macro_api_agreement": true,
+  "missing_solution_count": 13,
+  "point_value_total": 19,
+  "practice_exercise_count": 11,
+  "query": {
+    "bytes": 6333,
+    "path": "authority/mediawiki/unit04_solution_pages_current.json",
+    "sha256": "a216a5929ef9df98432e995a79f5f42ddc91b599d867a1871ac1120b17e186e3"
+  },
+  "query_request_receipt": {
+    "bytes": 1887,
+    "path": "authority/mediawiki/unit04_solution_pages_current.json.request.json",
+    "sha256": "fc15e8766ed149bcd88ad2f1da31bf4a89190675419977d240b93421b1d3f805"
+  },
+  "query_retrieved_utc": "2026-08-22T07:16:01Z",
+  "schema_version": 1,
+  "supplied_solution_count": 2,
+  "supplied_solution_indices": [
+    7,
+    10
+  ],
+  "workflow": "o011-unit04-solution-freeze-v1",
+  "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 4"
+}

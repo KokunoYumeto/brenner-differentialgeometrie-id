@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-04/lecture04.id.tex",
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0043",
+      "surface": "profile:commands",
+      "source_sha256": "54dfa5c998344088e4925826cb00c6e36e737dd00572a4715136a51abc3865cd",
+      "target_sha256": "15f02ef4c37401b4699628430aaa927e5ad9aa678bdceb9783316a6d9cca28c7"
+    },
+    {
+      "correction_id": "O011-CORR-0041",
+      "surface": "inline_math",
+      "index": 19,
+      "source_sha256": "08faa3e158425bbe0637c06b8fcca3c0b9c75b11dfd97c4f9993b0118b9e15df",
+      "target_sha256": "1e2ae39ec63fa7d07e8870a8e96e52f9c22d52334b9502f8e638906493f22f2b"
+    },
+    {
+      "correction_id": "O011-CORR-0043",
+      "surface": "profile:protected:mathdisp",
+      "source_sha256": "3c7459a6f65f911671c475de73d8b6a7a89b1075ec929ce966f2dc0a2424cae0",
+      "target_sha256": "c9832503791f57d4c36385eb9689144b6829fb3b0d7580b99c61d39f155622a6"
+    },
+    {
+      "correction_id": "O011-CORR-0043",
+      "surface": "profile:brace_profile",
+      "source_sha256": "33a958f79a1a34d64d6bcc1c32381accbb38c736011a30d5d569288c7758574b",
+      "target_sha256": "67a24176d9c403b9ba1473465c1f3af0a5c97c147518b4c853898b4526da835f"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-CORR-0042",
+      "surface": "command:mathl",
+      "occurrence_index": 6,
+      "source_sha256": "2410d4cc966bb37e54690936f670cea83e83d11ce8c42a10825f9520c7ea6dd9",
+      "target_sha256": "b03811b2f7e8dabaf349021172d47ae6518beb84edd54c83e51d0f1a52dbd9be",
+      "source_latex": "\\mathl{\\left\\langle\\gamma^{\\prime\\prime},\\right\\rangle(0)}{,}",
+      "target_latex": "\\mathl{\\left\\langle\\gamma^{\\prime\\prime}(0),N(P)\\right\\rangle}{,}",
+      "verification_note": "The generic verifier does not treat mathl as a protected command; this exact normalized call binding is verified separately in the Unit 4 mathematical audit."
+    }
+  ]
+}

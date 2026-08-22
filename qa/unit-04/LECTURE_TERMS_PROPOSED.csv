@@ -1,0 +1,18 @@
+id,source_de,target_id,status,note
+O011-TERM-U04-L-0001,Richtungsableitung,turunan berarah,proposed,Directional derivative
+O011-TERM-U04-L-0002,normiertes Gradientenfeld,medan gradien ternormalisasi,proposed,Normalized gradient field used as a unit normal field
+O011-TERM-U04-L-0003,Tangentialvektor,vektor tangen,proposed,Exact Unit 4 source variant aligned with the admitted Tangentenvektor mapping
+O011-TERM-U04-L-0004,Endomorphismus,endomorfisme,proposed,Linear endomorphism of one tangent space
+O011-TERM-U04-L-0005,selbstadjungiert,self-adjoint,proposed,Reader-facing standard international term; keep distinct from merely symmetric matrices
+O011-TERM-U04-L-0006,Eigenvektor,vektor eigen,proposed,Eigenvector
+O011-TERM-U04-L-0007,Eigenwert,nilai eigen,proposed,Eigenvalue
+O011-TERM-U04-L-0008,Eigenraum,ruang eigen,proposed,Eigenspace
+O011-TERM-U04-L-0009,diagonalisierbar,dapat didiagonalkan,proposed,Diagonalizable linear map
+O011-TERM-U04-L-0010,Hesse-Matrix,matriks Hesse,proposed,Hessian matrix; continues the wording already used in Lecture 1
+O011-TERM-U04-L-0011,Bilinearform,bentuk bilinear,proposed,Bilinear form
+O011-TERM-U04-L-0012,Grundvektor,vektor dasar,proposed,Vector in the graph base domain under the stated coordinate identification
+O011-TERM-U04-L-0013,Jacobi-Matrix,matriks Jacobi,proposed,Hyphenated source variant aligned with the admitted Jacobimatrix mapping
+O011-TERM-U04-L-0014,Einheitsnormalenbedingung,syarat normal satuan,proposed,Unit-normal condition
+O011-TERM-U04-L-0015,Matrixdarstellung,representasi matriks,proposed,Matrix representation of a linear map
+O011-TERM-U04-L-0016,zweifach stetig differenzierbar,dua kali terdiferensialkan secara kontinu,proposed,Twice continuously differentiable
+O011-TERM-U04-L-0017,nach oben gerichtetes Einheitsnormalenfeld,medan normal satuan yang mengarah ke atas,proposed,Upward-pointing unit normal field

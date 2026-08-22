@@ -3,7 +3,7 @@
   "role_id": "O011",
   "course_id": "D50",
   "lane": "smooth-manifolds-differential-geometry-id",
-  "status": "unit_03_verified_unit_04_next",
+  "status": "unit_04_verified_unit_05_next",
   "authority": {
     "course_pageid": 142521,
     "course_revid": 889544,
@@ -11,20 +11,20 @@
     "revision_set_sha256": "4810e9c13e352db58d7ceb5495c1cf86cb991d2193eaf6a344a48799e7ab0f71"
   },
   "last_verified": {
-    "unit_id": "o011-brenner-u03",
-    "lecture": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 3",
-    "worksheet": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 3",
-    "pdf_path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-03-id.pdf",
-    "pdf_bytes": 3596282,
-    "pdf_sha256": "aee7f335c8d8110feb7b70448c70680a30700285131d5a1b4e4aeb2f2d04b46a",
-    "qa_path": "qa/unit-03/UNIT_03_QA.md",
-    "qa_sha256": "7781e297f7fb1688e271c8b7cc507d8efeac2d25b9ea8f84b046e3b68e3d9943",
-    "publication_status": "verified_for_v0.3.0-unit-03_publication_in_progress"
-  },
-  "current": {
     "unit_id": "o011-brenner-u04",
     "lecture": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 4",
-    "worksheet": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 4"
+    "worksheet": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 4",
+    "pdf_path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-04-id.pdf",
+    "pdf_bytes": 3666928,
+    "pdf_sha256": "04f84c2d7abdc721cb0ebafcd4e39c230a01faf60665f84d5e7124bf2574319b",
+    "qa_path": "qa/unit-04/UNIT_04_QA.md",
+    "qa_sha256": "81ae622d1d299a79e4ccaae150176ebc9eafe8b0f502be9852bcf729c21ae037",
+    "publication_status": "verified_pending_bounded_content_commit_and_push"
+  },
+  "current": {
+    "unit_id": "o011-brenner-u05",
+    "lecture": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 5",
+    "worksheet": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 5"
   },
   "standing_push_authorization": true,
   "publication_gate_passed": true,
@@ -36,6 +36,14 @@
     "content_commit": "500b2ce2cbc4eef0f1c443a2e5a22ab36ee9313a",
     "status": "published_and_publicly_verified",
     "public_readback_timestamp": "2026-08-22T05:04:58Z"
+  },
+  "pending_publication": {
+    "release_tag": "v0.4.0-unit-04",
+    "includes_pending_predecessor": "v0.3.0-unit-03",
+    "local_content_commit": null,
+    "attempt_timestamp": null,
+    "status": "verified_pending_bounded_content_commit_and_push",
+    "anonymous_public_readback_complete": false
   },
   "upstream_contact_allowed": false
 }

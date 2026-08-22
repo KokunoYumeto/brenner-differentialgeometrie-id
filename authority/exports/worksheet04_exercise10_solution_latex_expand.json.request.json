@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Sat, 22 Aug 2026 07:16:02 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Differenzierbare Fläche/Ellipsoidoberfläche/Weingartenabbildung/Diagonalmatrix/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 3136,
+  "response_path": "worksheet04_exercise10_solution_latex_expand.json",
+  "response_sha256": "5522dcf59cf3b5a462d600fae6f4303b69a3787cda941063350ea40ef67d27d2",
+  "retrieved_utc": "2026-08-22T07:16:02Z",
+  "schema_version": 1
+}

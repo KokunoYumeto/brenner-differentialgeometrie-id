@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Sat, 22 Aug 2026 07:16:02 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Linearform/Hyperebene/Weingartenabbildung/Aufgabe/Lösung|Differenzierbare Fläche/Standardkegel/Kreisbewegung/Aufgabe/Lösung|Differenzierbare Fläche/Standardzylinder/Kreisbewegung/Aufgabe/Lösung|Differenzierbare Fläche/Standardzylinder/Weingartenabbildung/Nicht bijektiv/Aufgabe/Lösung|Differenzierbare Fläche/Gerade/Weingartenabbildung/Aufgabe/Lösung|Differenzierbare Hyperfläche/Allgemeiner Zylinder/Weingartenabbildung/Aufgabe/Lösung|Eingebetteter Torus/Einheitsnormalenfeld/Weingartenabbildung/1/Aufgabe/Lösung|Differenzierbare Fläche/Graph/Z ist xy/Weingartenabbildung/Jeder Punkt/Diagonalmatrix/Aufgabe/Lösung|Differenzierbare Hyperfläche/Weingartenabbildung/Isometrie/Aufgabe/Lösung|Differenzierbare Fläche/Ellipsoidoberfläche/Weingartenabbildung/Diagonalmatrix/Aufgabe/Lösung|Differenzierbare Hyperfläche/Änderung der Orientierung/Eigenräume der Weingartenabbildung/Aufgabe/Lösung|Einschaliges Hyperboloid/Weingartenabbildung/x ist 0/Aufgabe/Lösung|Differenzierbare Fläche/Ellipsoidoberfläche/Weingartenabbildung/Diagonalmatrix/2/Aufgabe/Lösung|Differenzierbare Hyperfläche/Quadrik in 4 Variablen/Weingartenabbildung/Basis/Aufgabe/Lösung|Differenzierbare Fläche/Graph/Z ist x^3y^5/Weingartenabbildung/Diagonalmatrix/Aufgabe/Lösung"
+  },
+  "response_bytes": 6333,
+  "response_path": "unit04_solution_pages_current.json",
+  "response_sha256": "a216a5929ef9df98432e995a79f5f42ddc91b599d867a1871ac1120b17e186e3",
+  "retrieved_utc": "2026-08-22T07:16:01Z",
+  "schema_version": 1
+}

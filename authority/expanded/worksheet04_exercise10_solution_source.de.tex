@@ -1,0 +1,64 @@
+Das normierte Gradientenfeld ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ N(x,y,z)
+}
+{ =} { { \frac{   1  }{  \sqrt{ 4x^2+4y^2+16 z^2}  } } \begin{pmatrix}  2x \\ 2y\\  4z   \end{pmatrix}
+}
+{ =} { { \frac{   1  }{  \sqrt{ x^2+y^2+4 z^2}  } } \begin{pmatrix}  x  \\ y \\  2z   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+Wir arbeiten mit dem Einheitsnormalenfeld
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M(x,y,z)
+}
+{ =} { { \frac{   1  }{  \sqrt{ 4+2 z^2}  } } \begin{pmatrix}  x  \\ y \\  2z   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+was auf $Y$ mit $N$ übereinstimmt. Das totale Differential von $M$ ist
+
+\mathdisp {\begin{pmatrix}  { \frac{   1  }{  \sqrt{4+2z^2}  } }   &   0 &  { \frac{   -2 xz }{  \left(  4+2z^2  \right)^{3/2}  } }  \\  0  &  { \frac{   1  }{  \sqrt{4+2z^2}  } }   &  { \frac{   -2 yz }{  \left(  4+2z^2  \right)^{3/2}  } }   \\ 0   &  0  &  { \frac{   8 }{  \left(  4+2z^2  \right)^{3/2}  } }  \end{pmatrix}} { . }
+
+Im angegebenen Punkt $P$ ist der Gradient $\begin{pmatrix}  2  \\ 2\\  4   \end{pmatrix}$ und die beiden Vektoren
+\mathkor {} {\begin{pmatrix}  1  \\ -1\\  0   \end{pmatrix}} {und} {\begin{pmatrix}  2  \\ 0 \\  -1   \end{pmatrix}} {}
+ist eine Basis des Tangetialraumes $T_PY$. Das totale Differential zu $M$ ist in diesem Punkt gleich
+
+\mathdisp {\begin{pmatrix}  { \frac{   1  }{  \sqrt{6}  } }   &   0 &  { \frac{   -1 }{  3 \sqrt{6}  } }  \\  0  &  { \frac{   1  }{  \sqrt{6}  } }   &  { \frac{   -1  }{  3 \sqrt{6}  } }   \\ 0   &  0  &  { \frac{   4  }{  3 \sqrt{6}  } }   \end{pmatrix}} { . }
+
+Angewendet auf den ersten Basisvektor $\begin{pmatrix}  1  \\ -1\\  0   \end{pmatrix}$  ergibt sich $\begin{pmatrix}  { \frac{   1  }{  \sqrt{6}  } }  \\ - { \frac{   1  }{  \sqrt{6}  } } \\  0   \end{pmatrix}$, dies ist also ein Eigenvektor zum Eigenwert ${ \frac{   1  }{  \sqrt{6}  } }$. Angewendet auf den zweiten Basisvektor $\begin{pmatrix}  2  \\ 0 \\  -1   \end{pmatrix}$  ergibt sich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}  { \frac{   7 }{  3 \sqrt{6}  } }  \\ { \frac{   1 }{  3 \sqrt{6 } }}  \\  - { \frac{   4  }{  3 \sqrt{6}  } }   \end{pmatrix}
+}
+{ =} { - { \frac{   1 }{  3 \sqrt{6 } }} \begin{pmatrix}  1  \\ -1\\  0   \end{pmatrix} +   { \frac{   4  }{  3 \sqrt{6}  } } \begin{pmatrix}  2  \\ 0 \\  -1   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Daher ist der andere Eigenwert gleich ${ \frac{   4  }{  3 \sqrt{6}  } }$ und eine beschreibende Diagonalmatrix ist
+
+\mathdisp {\begin{pmatrix}  { \frac{   1  }{  \sqrt{6}  } }   &   0  \\  0  &  { \frac{   4  }{  3 \sqrt{6}  } }  \end{pmatrix}} { . }
+
+ [[Kategorie:Latexseite]]

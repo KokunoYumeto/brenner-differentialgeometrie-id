@@ -1,0 +1,1420 @@
+\setcounter{section}{4}
+
+  \zwischenueberschrift{Die Weingartenabbildung}
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {differenzierbare Hyperfläche}{}{.}
+Zu einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definiert man eine lineare Abbildung
+\maabbdisp {L_P} { T_PY } { T_PY
+} {}
+auf dem Tangentialraum zu $Y$. Es sei $N$ ein differenzierbares Einheitsnormalenfeld auf $Y$, das auf einer offenen Umgebung von $Y$ definiert sei. Die wesentliche Idee ist, einen Tangentialvektor
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+durch eine differenzierbare Kurve
+\maabbdisp {\gamma} { I } { Y
+} {}
+zu parametrisieren, dabei ist also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma'(0)
+}
+{ =} { v
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Das Einheitsnormalenfeld definiert dann die Abbildung
+\maabbdisp {N \circ \gamma} { I } { \R^n
+} {}
+längs $I$. Die infinitesimale Änderung des Einheitsnormalenfeldes längs $\gamma$ wird durch den Limes
+
+\mathdisp {\operatorname{lim}_{   t  \rightarrow  0   } \,  { \frac{   N(\gamma(t))-N(P)  }{  t  } }} {  }
+
+gemessen, falls dieser existiert. Nach
+[[Richtungsableitung/K/Lineare Realisierung/Differenzierbare Kurve/Fakt|Lemma 43.4 (Analysis (Osnabrück 2021-2023))]]
+ist dieser Limes gleich der Richtungsableitung $\left(  D_{ v }  N   \right) \left(   P   \right)$ und wiederum gleich
+\mathl{\left(  D N   \right)_{ P } \left(   v   \right)}{,} dem
+\definitionsverweis {totalen Differential}{}{}
+ausgewertet am Vektor $v$. Es wird sich herausstellen, dass diese Zuordnung
+\maabbeledisp {} { T_PY } { \R^n
+} {v } { \left(  D_{v}  N   \right) \left(   P   \right)
+} {,}
+in $T_PY$ landet.
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei $N$ ein
+\definitionsverweis {Einheitsnormalenfeld}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann nennt man
+\maabbeledisp {L_P} {T_P Y} { T_PY
+} { v } { - \left(  D_{v}  N   \right) \left(   P  \right)
+} {,}
+die
+\definitionswort {Weingartenabbildung}{}
+in $T_PY$.
+
+}
+
+Man beachte, dass die Weingartenabbildung vom Einheitsnormalenfeld abhängt, auch wenn dies nicht immer explizit gesagt wird. Wenn $Y$ als Faser zu $h$ gegeben ist, so nimmt man in der Regel das zugehörige normierte Gradientenfeld zu $h$.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Weingartenabbildung/Tangentialraum/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Dann ist die
+\definitionsverweis {Weingartenabbildung}{}{}
+$L_P$ ein linearer Endomorphismus des
+\definitionsverweis {Tangentialraumes}{}{}
+$T_pY$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Es ist
+
+\mavergleichskette
+{\vergleichskette
+{ N(P)
+}
+{ = }{ { \frac{
+\operatorname{Grad} \,  h  (  P )  }{  \Vert {
+\operatorname{Grad} \,  h  (  P ) } \Vert  } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein stetig differenzierbares Vektorfeld, das auf einer offenen Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definiert ist. Daher ist gemäß
+[[Differenzierbarkeit/R/Totale Differenzierbarkeit impliziert richtungsweise Differenzierbarkeit/Fakt|Proposition 46.1 (Analysis (Osnabrück 2021-2023))]]
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  D_{v}  N   \right) \left(   P  \right)
+}
+{ =} { \left(  D N   \right)_{ P } \left(  v  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+linear in der Richtung $v$. Wegen der Einheitsnormalenbedingung ist
+
+\mavergleichskette
+{\vergleichskette
+{ \left\langle  N(P)  ,  N(P)   \right\rangle
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und daher ist unter Verwendung von
+[[Skalarprodukt von Abbildungen/Richtungsableitung/Aufgabe|Aufgabe 43.14 (Analysis (Osnabrück 2021-2023))]]
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 0
+}
+{ =} { \left(  D_{v}  \left\langle  N  ,  N  \right\rangle   \right) \left(   P  \right)
+}
+{ =} { 2 \left\langle  N(P)  ,  \left(  D_{v}  N   \right) \left(   P  \right)   \right\rangle
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Daher steht
+\mathl{\left(  D_{v}  N   \right) \left(   P  \right)}{} senkrecht auf $N(P)$ und gehört bei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+zum Tangentialraum $T_PY$.
+
+}
+
+Die Weingartenabbildung $L_P$ ist also die negierte Einschränkung des totalen Differentials des Einheitsnormalenfeldes auf den Tangentialraum $T_PY$ in den Tangentialraum $T_PY$. Wenn man das totale Differential über die
+\definitionsverweis {Jacobi-Matrix}{}{}
+von $-N$ ausrechnet, so muss man deren Wirkungsweise auf einer Basis des Tangentialraumes bestimmen, um eine Matrixdarstellung der Weingartenabbildung zu erhalten.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Ebene Kurve/Weingartenabbildung/Krümmung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ C
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Faser zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $C$
+\definitionsverweis {regulär}{}{}
+sei und es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ C
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Dann ist die
+\definitionsverweis {Weingartenabbildung}{}{}
+in $P$ die Multiplikation mit der
+\definitionsverweis {Krümmung}{}{}
+$\kappa(P)$ von $C$ in $P$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Dies ist eine Umformulierung von
+[[Ebene differenzierbare Kurve/Faser/Krümmung/Fakt|Lemma 3.11]].
+
+}
+
+In der vorstehenden Aussage wurde nicht explizit auf die Orientierung Bezug genommen, dies muss man sich dazudenken.
+
+\inputbeispiel{}
+{
+
+Es sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h(x,y,z)
+}
+{ =} { x^2+y^2+z^2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und wir betrachten die Faser $Y$ zu $h$ über $r^2$, also die Kugeloberfläche zum Radius
+
+\mavergleichskette
+{\vergleichskette
+{ r
+}
+{ > }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit dem Ursprung als Mittelpunkt. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ \left(  x_0   , \,   y_0  , \,  z_0                 \right)
+}
+{ \in }{ Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Durch eine Isometrie kann man diesen Punkt nach
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ = }{ \left(  r   , \,   0  , \,   0                 \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+transformieren, was die
+\definitionsverweis {Weingartenabbildung}{}{}
+nicht ändert. Eine Basis des Tangentialraumes ist dann
+\mathkor {} {\begin{pmatrix}  0  \\ 1 \\  0   \end{pmatrix}} {und} {\begin{pmatrix}  0  \\ 0\\  1   \end{pmatrix}} {.}
+Das nach innen gerichtete Einheitsnormalenfeld $N$  ist
+\mathl{- { \frac{   1  }{  2r } } \begin{pmatrix}  2x \\ 2y\\  2z   \end{pmatrix}}{} und daher ist zu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ v
+}
+{ =} { \begin{pmatrix}  0  \\ b \\ c   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  D_{v}  N   \right) \left(   Q   \right)
+}
+{ =} { b { \frac{   \partial   N   }{  \partial   y  } } (Q) +  c { \frac{   \partial   N   }{  \partial  z  } }  (Q)
+}
+{ =} { -b { \frac{   1  }{  2r } } \begin{pmatrix}  0  \\ 2 \\  0   \end{pmatrix} - c { \frac{   1  }{  2r } } \begin{pmatrix}  0  \\ 0\\  2   \end{pmatrix}
+}
+{ =} { - { \frac{   1  }{ r } } \begin{pmatrix}  0  \\ b \\ c   \end{pmatrix}
+}
+{ } {
+}
+}
+{}{}{.}
+Daher ist die Weingartenabbildung Multiplikation mit dem Kehrwert ${ \frac{   1  }{ r } }$ des Radius.
+
+}
+
+\inputbeispiel{}
+{
+
+Wir knüpfen an
+[[Einschaliges Hyperboloid/Tangentenebene/Normalenvektor/Beispiel|Beispiel 2.5]]
+an. Die Jacobi-Matrix des Einheitsnormalenfeldes
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ N( \begin{pmatrix}  x  \\ y \\ z   \end{pmatrix} )
+}
+{ =} { \left(  x^2+y^2+z^2  \right)^{ - { \frac{   1  }{  2 } } } \begin{pmatrix}  x  \\ y \\  -z   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist
+
+\mathdisp {\left(  x^2+y^2+z^2  \right)^{- { \frac{   3  }{  2 } } } \begin{pmatrix}  y^2+z^2  &   -xy &  -xz \\  -xy &  x^2+z^2 &  -yz \\ xz &  yz &  -x^2-y^2  \end{pmatrix}} { . }
+
+Die
+\definitionsverweis {Weingartenabbildung}{}{}
+ist die negierte Einschränkung dieser Abbildung auf den Tangentialraum an die Fläche, wobei
+[[Hyperfläche/Weingartenabbildung/Tangentialraum/Fakt|Lemma 4.2]]
+sicherstellt, dass wir wieder im Tangentialraum landen. Wir setzen
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+voraus und arbeiten mit der Basis
+\mathkor {} {\begin{pmatrix}  y  \\ -x\\  0   \end{pmatrix}} {und} {\begin{pmatrix}  z  \\ 0 \\  x   \end{pmatrix}} {}
+des Tangentialraumes. Es ist
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \begin{pmatrix}  y^2+z^2  &   -xy &  -xz \\  -xy &  x^2+z^2 &  -yz \\ xz &  yz &  -x^2-y^2  \end{pmatrix} \begin{pmatrix}  y  \\ -x\\  0   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  y \left(  y^2+z^2  \right) +x^2y \\ -xy^2 -x \left(  x^2+z^2  \right) \\  0   \end{pmatrix}
+}
+{ =} { \left(  x^2+y^2+z^2  \right) \begin{pmatrix}  y  \\ -x\\  0   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{,}
+sodass wir unmittelbar den Eigenvektor $\begin{pmatrix}  y  \\ -x\\  0   \end{pmatrix}$ mit dem Eigenwert
+\mathl{- \left(  x^2+y^2+z^2  \right)^{ - { \frac{   1  }{  2 } } }}{} gefunden haben. Ferner ist
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \begin{pmatrix}  y^2+z^2  &   -xy &  -xz \\  -xy &  x^2+z^2 &  -yz \\ xz &  yz &  -x^2-y^2  \end{pmatrix} \begin{pmatrix}  z  \\ 0 \\  x   \end{pmatrix}
+}
+{ =} { \begin{pmatrix} z \left(  y^2+z^2  \right) -x^2z \\ -2xyz\\  xz^2-x \left(  x^2+y^2  \right)   \end{pmatrix}
+}
+{ =} { 2yz \begin{pmatrix}  y  \\ -x\\  0   \end{pmatrix} + \left(  z^2-x^2-y^2  \right) \begin{pmatrix}  z  \\ 0 \\  x   \end{pmatrix}
+}
+{ =} { 2yz \begin{pmatrix}  y  \\ -x\\  0   \end{pmatrix}- \begin{pmatrix}  z  \\ 0 \\  x   \end{pmatrix}
+}
+{ } {
+}
+}
+{}{}{.}
+Somit wird die Weingartenabbildung bezüglich dieser Basis durch die Matrix
+
+\mathdisp {\begin{pmatrix}  - \left(  x^2+y^2+z^2  \right)^{ - { \frac{   1  }{  2 } } }   &   - 2yz \left(  x^2+y^2+z^2  \right)^{ - { \frac{   3  }{  2 } } }    \\  0  &  \left(  x^2+y^2+z^2  \right)^{ - { \frac{   3  }{  2 } } }   \end{pmatrix}} {  }
+
+beschrieben. Einen zweiten Eigenvektor im Tangentialraum erhält man
+\zusatzklammer {in Hinblick auf
+[[Hyperfläche/Weingartenabbildung/Selbstadjungiert/Eigenwerte/Fakt|Korollar 4.8]]} {} {}
+am einfachsten, wenn man zum ersten Eigenvektor und zum Normalenvektor einen senkrechten Vektor bestimmt. Dies ergibt den Vektor
+\mathl{\begin{pmatrix}  xz \\ yz\\  x^2+y^2   \end{pmatrix}}{,} und in der Tat ist
+\zusatzklammer {ohne den skalaren Vorfaktor} {} {}
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \begin{pmatrix}  y^2+z^2  &   -xy &  -xz \\  -xy &  x^2+z^2 &  -yz \\ xz &  yz &  -x^2-y^2  \end{pmatrix} \begin{pmatrix}  xz \\ yz\\  x^2+y^2   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  xz \left(  y^2+z^2  \right) -xy^2z -xz \left(  x^2+y^2  \right)  \\ - x^2yz +yz \left(  x^2+z^2  \right) -yz \left(  x^2+y^2  \right) \\  x^2z^2 +y^2z^2 - \left(  x^2+y^2  \right)^2   \end{pmatrix}
+}
+{ =} { \left(  - x^2-y^2+z^2  \right) \begin{pmatrix}  xz \\ yz\\  x^2+y^2   \end{pmatrix}
+}
+{ =} { - \begin{pmatrix}  xz \\ yz\\  x^2+y^2   \end{pmatrix}
+}
+{ } {
+}
+}
+{}
+{}{.}
+Der Eigenwert ist also
+\mathl{\left(  x^2+y^2+z^2  \right)^{- { \frac{   3  }{  2 } } }}{}
+\zusatzklammer {dies ist auch schon aus der beschreibenden Dreiecksmatrix ablesbar} {} {.}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Weingartenabbildung/Zweite Ableitung/Skalarprodukt/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei $N$ ein
+\definitionsverweis {Einheitsnormalenfeld}{}{}
+und es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es sei $\gamma$ eine zweifach differenzierbare Realisierung auf $Y$ eines Tangentenvektors
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Dann ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  \gamma^{\prime \prime} (0)  ,  N(P)  \right\rangle
+}
+{ =} { \left\langle  L_P(v) , v  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Es sei
+\maabbeledisp {\gamma} { I } { Y
+} { t } { \gamma(t)
+} {,}
+zweifach differenzierbar mit
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(0)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'(0)
+}
+{ = }{ v
+}
+{ \in }{ T_PY
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  \gamma'(t)  ,  N(\gamma(t))   \right\rangle
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und daher ist mit
+[[Skalarprodukt von Abbildungen/Richtungsableitung/Aufgabe|Aufgabe 43.14 (Analysis (Osnabrück 2021-2023))]]
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ 0
+}
+{ =} { \left\langle  \gamma'(t)  ,  N(\gamma(t))   \right\rangle' (0)
+}
+{ =} { \left\langle  \gamma^{\prime \prime}(0)  ,  N(\gamma(0))  \right\rangle + \left\langle  \gamma'(0)  ,  \left(  D_{ \gamma'(0) }  N   \right) \left(   \gamma(0)   \right)   \right\rangle
+}
+{ =} { \left\langle  \gamma^{\prime \prime}(0) , N(P)  \right\rangle - \left\langle  L_P(v)  ,  v   \right\rangle
+}
+{ } {
+}
+}
+{}
+{}{.}
+
+}
+
+In der vorstehenden Aussage ist keine zusätzliche Festlegung über die Orientierung nötig, da auf beiden Seiten das Einheitsnormalenfeld, rechts via die Weingartenabbildung, eingeht. Man beachte ferner, dass $\gamma$ keine konstante Geschwindigkeit besitzen muss, es also viele Realisierungen gibt und die Beschleunigung $\gamma^{\prime \prime} (0)$ nicht festgelegt ist. Der Ausdruck
+\mathl{\left\langle  \gamma^{\prime \prime}  ,   \right\rangle(0)}{,} der die normale Komponente der Beschleunigung beschreibt, ändert sich aber nicht, da sich $\gamma$ auf der Hyperfläche bewegt.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Weingartenabbildung/Selbstadjungiert/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Faser zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei.}
+\faktfolgerung {Dann ist die
+\definitionsverweis {Weingartenabbildung}{}{}
+$L_P$ in jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {selbstadjungiert}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Für Vektoren
+
+\mavergleichskette
+{\vergleichskette
+{ v,w
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  v  ,  L_P(w)  \right\rangle
+}
+{ =} { \left\langle L_P(v) ,  w  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+zu zeigen. Mit
+
+\mavergleichskette
+{\vergleichskette
+{ N(P)
+}
+{ = }{ { \frac{
+\operatorname{Grad} \,  h  (  P )  }{  \Vert {
+\operatorname{Grad} \,  h  (  P ) } \Vert  } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist gemäß
+[[Totale Differenzierbarkeit/R/Produktregel/Fakt|Lemma 45.10 (Analysis (Osnabrück 2021-2023))]]
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left\langle  v  ,  L_P(w)  \right\rangle
+}
+{ =} { -\left\langle  v  ,  \left(  D_{w}  N   \right) \left(   P   \right)   \right\rangle
+}
+{ =} { -\left\langle  v  ,  \left(  D_{w}  { \frac{
+\operatorname{Grad} \,  h  }{  \Vert {
+\operatorname{Grad} \,  h } \Vert  } }   \right) \left(   P   \right)     \right\rangle
+}
+{ =} { -\left\langle  v  ,  \left(  D_{w}  { \frac{   1  }{  \Vert {
+\operatorname{Grad} \,  h } \Vert  } }   \right) \left(   P   \right) \cdot
+\operatorname{Grad} \,  h  (  P ) + { \frac{   1  }{  \Vert {
+\operatorname{Grad} \,  h  (  P ) } \Vert  } } \cdot  \left(  D_{w}
+\operatorname{Grad} \,  h   \right) \left(   P   \right)   \right\rangle
+}
+{ =} { - { \frac{   1  }{  \Vert {
+\operatorname{Grad} \,  h  (  P ) } \Vert  } } \left\langle  v  ,  \left(  D_{w}
+\operatorname{Grad} \,  h   \right) \left(   P   \right)    \right\rangle
+}
+}
+{}
+{}{,}
+da der erste Summand senkrecht auf dem Tangentialvektor $v$ steht. Mit Koordinatenfunktionen ist
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left(  D_{w}
+\operatorname{Grad} \,  h   \right) \left(   P   \right)
+}
+{ =} { \left(  D_{w}  \left(  { \frac{   \partial   h   }{  \partial   x_1   } }   , \,   \ldots  , \,   { \frac{   \partial   h   }{  \partial   x_n   } }                 \right)    \right) \left(   P   \right)
+}
+{ =} { \sum_{j = 1}^n  w_j  { \frac{   \partial    }{  \partial   x_j   } }  \left(  { \frac{   \partial   h   }{  \partial   x_1   } }   , \,   \ldots  , \,   { \frac{   \partial   h   }{  \partial   x_n   } }                 \right) (P)
+}
+{ =} { \left(  \sum_{j = 1}^n  w_j  { \frac{   \partial    }{  \partial   x_j   } }  { \frac{   \partial   h   }{  \partial   x_1   } } (P)   , \,   \ldots  , \,   \sum_{j = 1}^n  w_j  { \frac{   \partial    }{  \partial   x_j   } }  { \frac{   \partial   h   }{  \partial   x_n   } } (P)                 \right)
+}
+{ } {
+}
+}
+{}
+{}{.}
+Der obige Ausdruck ist somit gleich
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \left\langle  v  ,  L_P(w)  \right\rangle
+}
+{ =} { - { \frac{   1  }{  \Vert {
+\operatorname{Grad} \,  h  (  P ) } \Vert  } } \left\langle  v  ,  \left(  D_{w}
+\operatorname{Grad} \,  h   \right) \left(   P   \right)   \right\rangle
+}
+{ =} { -  { \frac{   1  }{  \Vert {
+\operatorname{Grad} \,  h  (  P ) } \Vert  } }  \sum_{i,j = 1}^n v_i  w_j  { \frac{   \partial    }{  \partial   x_j   } } { \frac{   \partial   h   }{  \partial   x_i   } }  (P)
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+Nach
+[[Differenzierbarkeit/Satz von Schwarz/Fakt|Satz 44.10 (Analysis (Osnabrück 2021-2023))]]
+kann man die Reihenfolge der partiellen Ableitungen vertauschen, sodass man auch die Rollen von
+\mathkor {} {v} {und} {w} {}
+vertauschen kann.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Weingartenabbildung/Selbstadjungiert/Eigenwerte/Fakt}
+{Korollar}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Faser zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei.}
+\faktfolgerung {Dann ist die
+\definitionsverweis {Weingartenabbildung}{}{}
+$L_P$ in jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {diagonalisierbar}{}{}
+mit reellen
+\definitionsverweis {Eigenwerten}{}{}
+und zueinander orthogonalen Eigenräumen.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Dies folgt aus
+[[Hyperfläche/Weingartenabbildung/Selbstadjungiert/Fakt|Satz 4.7]]
+und
+[[Vektorraum mit Skalarprodukt/Endomorphismus/Selbstadjungiert/Spektralsatz/Fakt|Satz 41.11 (Lineare Algebra (Osnabrück 2024-2025))]].
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Differenzierbare Funktion/Graph/Hyperfläche/Weingartenabbildung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {offene Menge}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ V \times \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+der
+\definitionsverweis {Graph}{}{}
+zu einer zweifach
+\definitionsverweis {stetig differenzierbaren}{}{}
+Funktion
+\maabbdisp {f} { V } {\R
+} {.}}
+\faktfolgerung {Dann ist die
+\definitionsverweis {Weingartenabbildung}{}{}
+$L_P$ in einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ (x_1 , \ldots , x_{n-1}, f(x_1 , \ldots , x_{n-1}))
+}
+{ \in }{ Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {zu dem nach oben gerichteten Einheitsnormalenfeld} {} {}
+durch
+\mathl{{ \frac{   1  }{  \sqrt{ 1+ \left(  { \frac{   \partial   f   }{  \partial   x_1   } }  \right)^2 + \cdots + \left(  { \frac{   \partial   f   }{  \partial   x_{n-1}   } }  \right)^2 }  } } \operatorname{Hess}_{   } \,  f}{} gegeben, wobei $\operatorname{Hess}_{   } \,  f$ die
+\definitionsverweis {Hesse-Matrix}{}{}
+zu $f$ bezeichnet und wenn man Grundvektoren
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit den Tangentialvektoren aus $T_PY$ im Sinne von
+[[Funktion/n-1 Variablen/Graph als Hyperfläche/Tangentialraum/Beispiel|Beispiel 1.2]]
+identifiziert.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Wir knüpfen an
+[[Funktion/n-1 Variablen/Graph als Hyperfläche/Tangentialraum/Beispiel|Beispiel 1.2]]
+an. Das nach oben gerichtete Einheitsnormalenfeld ist durch
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ N(x_1  , \ldots , x_{n-1}, f(x_1 , \ldots , x_{n-1}))
+}
+{ =} { { \frac{   1  }{  \sqrt{ 1+ \left(  { \frac{   \partial   f   }{  \partial   x_1   } }  \right)^2 + \cdots + \left(  { \frac{   \partial   f   }{  \partial   x_{n-1}   } }  \right)^2 }  } } \begin{pmatrix}  -{ \frac{   \partial   f   }{  \partial   x_{1}   } }  \\\vdots\\  -{ \frac{   \partial   f   }{  \partial   x_{n-1}   } }\\ 1   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gegeben. Wir betrachten den Weg
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma(t)
+}
+{ =} { \begin{pmatrix}  x_1+tv_1  \\ \vdots \\  x_{n-1} +tv_{n-1}\\f \begin{pmatrix}  x_1+tv_1  \\ \vdots \\  x_{n-1} +tv_{n-1}   \end{pmatrix}   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf dem Graphen zum Grundvektor $v$. Die zweite Ableitung davon ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma^{\prime \prime} (0)
+}
+{ =} { \begin{pmatrix}  0  \\ \vdots \\  0\\ \sum_{1 \leq i, j \leq n-1}  { \frac{   \partial    }{  \partial   x_i   } }  { \frac{   \partial   f   }{  \partial   x_j   } } v_iv_j   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Nach
+[[Hyperfläche/Weingartenabbildung/Zweite Ableitung/Skalarprodukt/Fakt|Lemma 4.6]]
+ist
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \left\langle  L_P( \gamma'(0) ) ,  \gamma'(0)  \right\rangle
+}
+{ =} { \left\langle  \gamma^{\prime \prime} (0) ,  N(x_1 , \ldots , x_{n-1}, f(x_1  , \ldots , x_{n-1}))   \right\rangle
+}
+{ =} { { \frac{   1  }{  \sqrt{ 1 + \left(  { \frac{   \partial   f   }{  \partial   x_1   } }  \right)^2 + \cdots + \left(  { \frac{   \partial   f  }{  \partial   x_{n-1}   } }  \right)^2 }  } } \left\langle  \begin{pmatrix}  0  \\\vdots\\  0\\ \sum_{ 1 \leq i, j \leq n-1 }  { \frac{   \partial    }{  \partial   x_i   } }  { \frac{   \partial   f   }{  \partial   x_j   } } v_iv_j   \end{pmatrix}  ,  \begin{pmatrix}  -{ \frac{   \partial   f   }{  \partial   x_{1}   } }  \\\vdots\\  -{ \frac{   \partial   f   }{  \partial   x_{n-1}   } }\\ 1   \end{pmatrix}   \right\rangle
+}
+{ =} { { \frac{   \sum_{ 1 \leq i, j \leq n-1 } { \frac{   \partial    }{  \partial   x_i   } }  { \frac{   \partial   f   }{  \partial   x_j   } } v_i v_j     }{  \sqrt{ 1+  \left(  { \frac{   \partial   f   }{  \partial   x_1   } }  \right)^2 + \cdots + \left(  { \frac{   \partial   f   }{  \partial   x_{n-1}   } }  \right)^2 }  } }
+}
+{ =} { { \frac{   1  }{  \sqrt{ 1+ \left(  { \frac{   \partial   f   }{  \partial   x_1   } }  \right)^2 + \cdots + \left(  { \frac{   \partial   f   }{  \partial   x_{n-1}   } }  \right)^2 }  } }  \left( v_1   , \,   \ldots  , \,   v_{n-1}                 \right)  \operatorname{Hess}_{   } \,  f  \begin{pmatrix} v_1  \\ \vdots \\  v_{n-1}   \end{pmatrix}
+}
+}
+{}{}{.}
+Das bedeutet, dass die nach
+[[Hyperfläche/Weingartenabbildung/Selbstadjungiert/Fakt|Satz 4.7]]
+symmetrische
+\definitionsverweis {Bilinearform}{}{}
+
+\mathl{\left\langle  L_P(-) ,  -  \right\rangle}{} im Tangentialraum $T_PY$ mit der durch die
+\zusatzklammer {durch den Vorfaktor} {} {}
+skalierte Hessematrix gegebenen Bilinearform auf $\R^{n-1}$ übereinstimmt, wenn vorne und hinten der gleiche Vektor eingesetzt wird. Nach
+[[Bilinearform/Symmetrisch/Polarisationsformel/Fakt|Lemma 38.10 (Lineare Algebra (Osnabrück 2024-2025))]]
+stimmen dann generell die Bilinearformen über ein. Dann stimmen auch die linearen Abbildungen $L_P$ und die durch die Hessematrix gegebene lineare Abbildung überein.
+
+}
+
+ [[Kategorie:Latexseite]]

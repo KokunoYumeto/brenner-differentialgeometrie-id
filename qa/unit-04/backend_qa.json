@@ -1,0 +1,154 @@
+{
+  "checkpoint_utc": "2026-08-22T15:01:06Z",
+  "checks": {
+    "absolute_paths_absent": true,
+    "artifacts_current": true,
+    "authority_root_and_latex_revisions_current": true,
+    "corr0042_occurrence6_binding_current": true,
+    "correction_ledger_manifests_targets_and_reader_evidence_current": true,
+    "csv_ids_and_row_count_match_jsonl": true,
+    "exactly_solutions_7_and_10": true,
+    "exercise_points_hints_and_solution_markers_exact": true,
+    "final_math_audit_current": true,
+    "manifest_counts_hashes_and_live_inputs_current": true,
+    "official_pdf_nonrelease_rights_disposition_preserved": true,
+    "private_and_credential_markers_absent": true,
+    "qa_receipts_current": true,
+    "references_resolved": true,
+    "relations_exact": true,
+    "schema_valid": true,
+    "source_numbering_preserved": true,
+    "unique_ids": true,
+    "unit123_csv_prefix_byte_identical": true,
+    "unit123_jsonl_prefix_byte_identical": true,
+    "zero_media_authority_build_and_rights_closure": true
+  },
+  "deterministic_repeat": {
+    "csv_byte_identical": true,
+    "fixed_checkpoint": "2026-08-22T15:01:06Z",
+    "jsonl_byte_identical": true,
+    "manifest_byte_identical": true,
+    "runs_compared": 2
+  },
+  "outputs": {
+    "manifest": {
+      "bytes": 14840,
+      "path": "backend/MANIFEST.json",
+      "sha256": "d33f6c72c4be0a73cd3c9d4205422682e36aacb9f8303b63b75d25a1fb5c5a11"
+    },
+    "records_csv": {
+      "bytes": 168680,
+      "path": "backend/records.csv",
+      "sha256": "34a472148f9f376dcc6da220af640c0b4b5f12586b722015789908226059b5ea"
+    },
+    "records_jsonl": {
+      "bytes": 482841,
+      "path": "backend/records.jsonl",
+      "sha256": "33a4f876f8225e40a006e97453f5530c05b21e327cfd1b7058303fa2421287f9"
+    }
+  },
+  "schema": {
+    "bytes": 3176,
+    "draft": "2020-12",
+    "path": "backend/schema/o011-record-v1.schema.json",
+    "rows_validated": 813,
+    "sha256": "64e477d301681cd8f55775bb5825082a3386c9ee83c7e8b305bcf61f1ebb8f0b"
+  },
+  "schema_version": 1,
+  "status": "pass",
+  "unit04": {
+    "all_hint_fields_blank": true,
+    "artifact_count": 6,
+    "asset_count": 0,
+    "authority_preflight": {
+      "bytes": 26771,
+      "path": "qa/unit-04/AUTHORITY_PREFLIGHT.json",
+      "sha256": "0a2f455c500cad070fe8d5970786189840fd90cbb856101c7cd177de0bdefa36"
+    },
+    "authority_verification": {
+      "bytes": 517,
+      "path": "qa/unit-04/AUTHORITY_PREFLIGHT_VERIFY.json",
+      "sha256": "3dbcb88246dff59e786257882e671072588bd50a4fd98bfb0ba7a2b374700893"
+    },
+    "concept_count": 5,
+    "correction_ids": [
+      "o011-corr-0038",
+      "o011-corr-0039",
+      "o011-corr-0040",
+      "o011-corr-0041",
+      "o011-corr-0042",
+      "o011-corr-0043",
+      "o011-corr-0044",
+      "o011-corr-0045"
+    ],
+    "cumulative_pdf": {
+      "bytes": 3666928,
+      "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-04-id.pdf",
+      "sha256": "04f84c2d7abdc721cb0ebafcd4e39c230a01faf60665f84d5e7124bf2574319b"
+    },
+    "entity_counts": {
+      "artifact": 6,
+      "asset": 0,
+      "concept": 5,
+      "correction": 8,
+      "course": 0,
+      "edition": 0,
+      "program": 0,
+      "qa_event": 19,
+      "relation": 144,
+      "resource": 0,
+      "rights": 1,
+      "segment": 1,
+      "term": 18,
+      "unit": 20
+    },
+    "final_math_audit": {
+      "bytes": 11563,
+      "path": "qa/unit-04/POST_REPAIR_MATH_AUDIT.md",
+      "sha256": "814052c6ae88232593ed9cb9d1980612c8fd2e027ead853c2babae3fe0bb1f4f"
+    },
+    "graded_exercise_count": 4,
+    "graded_point_total": 19,
+    "graded_point_values": [
+      4,
+      5,
+      4,
+      6
+    ],
+    "html_included": false,
+    "lecture_segment_count": 1,
+    "official_pdf_witness": {
+      "bytes": 210221,
+      "path": "authority/pdf/lecture04_commons_revid1003382720.pdf",
+      "redistribution_status": "withheld_pending_resolution_of_internal_cc-by-sa-3.0_and_commons_structured_metadata_cc-by-sa-4.0_signals",
+      "release_asset": false,
+      "sha256": "65ee310d19704bdbbb7f981f821901f96b166ceac416ad7cc063ae737894571d"
+    },
+    "practice_exercise_count": 11,
+    "qa_event_count": 19,
+    "record_count": 222,
+    "relation_count": 144,
+    "rights_count": 1,
+    "supplied_solution_indices": [
+      7,
+      10
+    ],
+    "term_count": 18,
+    "worksheet_exercise_count": 15,
+    "zero_media": true
+  },
+  "unit123_preservation": {
+    "byte_identical_prefixes": true,
+    "csv_bytes": 125961,
+    "csv_sha256": "bdd4648d7e104da5f96a20ff85850a8782379f02609c3f29ed88117401032941",
+    "jsonl_bytes": 350935,
+    "jsonl_sha256": "e2b1e159b1dff04273ddb0af82e85dc32adbb507f3936881f750867527d6800a",
+    "record_count": 591
+  },
+  "validator": {
+    "bytes": 39341,
+    "path": "scripts/verify_backend_v4.py",
+    "sha256": "019979e9956cf751b1b2a7cfb5ce50c147affcf16b35408b2d74bc494d0f7647"
+  },
+  "workflow": "o011-unit04-backend-qa-v1"
+}

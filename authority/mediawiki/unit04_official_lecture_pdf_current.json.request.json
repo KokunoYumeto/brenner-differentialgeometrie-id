@@ -1,0 +1,21 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://commons.wikimedia.org/w/api.php",
+  "http_date": "Sat, 22 Aug 2026 07:18:36 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "iiprop": "timestamp|user|url|size|sha1|mime|mediatype|extmetadata",
+    "prop": "info|revisions|imageinfo",
+    "rvprop": "ids|timestamp|user|userid|comment|sha1|content",
+    "rvslots": "main",
+    "titles": "File:Differentialgeometrie (Osnabrück 2023)Vorlesung4.pdf"
+  },
+  "response_bytes": 3779,
+  "response_path": "unit04_official_lecture_pdf_current.json",
+  "response_sha256": "a863839a800f891839bd6f627fad893641fabc79e502abbc3a0703be98a0d90d",
+  "retrieved_utc": "2026-08-22T07:18:36Z",
+  "schema_version": 1
+}

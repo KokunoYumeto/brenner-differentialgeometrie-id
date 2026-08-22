@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "scope": "Read-only structural and visual verification of Brenner Unit 4's sole official Commons PDF witness",
+  "inspected_utc": "2026-08-22T07:22:14Z",
+  "source": {
+    "path": "authority/pdf/lecture04_commons_revid1003382720.pdf",
+    "bytes": 210221,
+    "sha256": "65ee310d19704bdbbb7f981f821901f96b166ceac416ad7cc063ae737894571d"
+  },
+  "authority_receipt": {
+    "path": "qa/unit-04/OFFICIAL_PDF_WITNESS.json",
+    "bytes": 947,
+    "sha256": "87422827230c2ce2faac3f957999b56c72cc1ea1cc11094652c800a44efbf05b"
+  },
+  "pdfinfo": {
+    "creator": "TeX",
+    "producer": "pdfTeX-1.40.22",
+    "creation_date": "2023-04-20T20:56:32+02:00",
+    "pages": 9,
+    "page_size_points": [612, 792],
+    "page_size_label": "US Letter",
+    "rotation": 0,
+    "pdf_version": "1.5",
+    "tagged": false,
+    "encrypted": false,
+    "forms": false,
+    "javascript": false
+  },
+  "visual_inspection": {
+    "render_command": "pdftoppm -png -r 96 authority/pdf/lecture04_commons_revid1003382720.pdf tmp/pdfs/unit04-official-witness/page",
+    "pages_rendered": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "pages_inspected": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "mathematical_content_pages": [1, 2, 3, 4, 5, 6, 7],
+    "blank_pages": [8],
+    "rights_index_pages": [9],
+    "clipping_or_broken_glyphs_observed": false,
+    "layout_role": "Local unredistributed historical numbering/order witness only; its US Letter layout, blank page 8, and untagged structure are not production targets."
+  },
+  "rights_observations": {
+    "commons_current_file_license": "CC BY-SA 4.0",
+    "commons_current_artist": "User:Bocardodarapti",
+    "commons_current_file_user": "LavenderLina42",
+    "internal_page_9_creator_declaration": "Holger Brenner alias Bocardodarapti",
+    "internal_page_9_license_declaration": "CC-by-sa 3.0",
+    "handling": "Treat the two file-specific license-version signals as unresolved. Retain the PDF locally only for numbering/order evidence; do not redistribute it, publish it, use it as a release asset, or rely on it as editable authority or production master."
+  },
+  "release_asset": false,
+  "redistribution_status": "withheld_pending_resolution_of_internal_cc-by-sa-3.0_and_commons_structured_metadata_cc-by-sa-4.0_signals",
+  "status": "pass_with_documented_witness_limitations"
+}

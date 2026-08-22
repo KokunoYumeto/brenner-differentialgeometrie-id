@@ -1,0 +1,137 @@
+\textit{Catatan edisi: solusi sumber memuat rumus turunan yang rusak dan berhenti sebelum menghitung kedua turunan berarah. Perhitungan berikut memperbaiki dan melengkapinya.}
+
+\aufzaehlungdrei{Tuliskan
+
+\mathdisp {\rho=\sqrt{x^2+y^2}} { }
+
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ A(x,y,z)
+}
+{ =} { \begin{pmatrix} x-xR\rho^{-1} \\ y-yR\rho^{-1} \\ z \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dengan demikian,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h(x,y,z)
+}
+{ =} { x^2+y^2-2R\sqrt{x^2+y^2}+z^2+R^2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T
+}
+{ =} { h^{-1}(r^2)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Gradien $h$ adalah $2A$. Pada $T$ berlaku $\lVert A\rVert=r$, sehingga suatu
+\definitionsverweis {medan normal satuan}{}{}
+adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ N(x,y,z)
+}
+{ =} { \frac{1}{r}\begin{pmatrix} x-xR\rho^{-1} \\ y-yR\rho^{-1} \\ z \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Ambil
+
+\mathdisp {P=(R-r,0,0)} { . }
+
+Untuk menghitung turunan, kita dapat memakai perpanjangan gradien ternormalisasi $\widehat N=A/\lVert A\rVert$ pada suatu lingkungan $P$. Di titik ini,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ A(P)
+}
+{ =} { \begin{pmatrix}-r\\0\\0\end{pmatrix}
+}
+{ ,\quad }{ D_vA(P)
+}
+{ =} { \begin{pmatrix}0\\-\frac{r}{R-r}\\0\end{pmatrix}
+}
+{ } {
+}
+}
+{}{}{,}
+dan $\langle A(P),D_vA(P)\rangle=0$. Oleh karena itu,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D_vN(P)
+}
+{ =} { D_v\widehat N(P)
+}
+{ =} { \frac{1}{r}D_vA(P)
+}
+{ =} { \begin{pmatrix}0\\-\frac{1}{R-r}\\0\end{pmatrix}
+}
+}
+{}{}{.}
+}{Demikian pula,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D_wA(P)
+}
+{ =} { \begin{pmatrix}0\\0\\1\end{pmatrix}
+}
+{ ,\quad }{ \langle A(P),D_wA(P)\rangle
+}
+{ =} { 0
+}
+{ } {
+}
+}
+{}{}{.}
+Jadi,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D_wN(P)
+}
+{ =} { D_w\widehat N(P)
+}
+{ =} { \frac{1}{r}D_wA(P)
+}
+{ =} { \begin{pmatrix}0\\0\\\frac{1}{r}\end{pmatrix}
+}
+}
+{}{}{.}
+}

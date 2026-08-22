@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Sat, 22 Aug 2026 07:16:02 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Eingebetteter Torus/Einheitsnormalenfeld/Weingartenabbildung/1/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 3182,
+  "response_path": "worksheet04_exercise07_solution_latex_expand.json",
+  "response_sha256": "41da3a0bcb16b6f96098c0ebd02d9f31aa6d039e947cc3609f44f8dabdeadd99",
+  "retrieved_utc": "2026-08-22T07:16:02Z",
+  "schema_version": 1
+}

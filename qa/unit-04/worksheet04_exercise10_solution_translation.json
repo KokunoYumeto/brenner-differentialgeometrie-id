@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "source": "authority/expanded/worksheet04_exercise10_solution_source.de.tex",
+  "source_bytes": 2633,
+  "source_sha256": "76a2f5db7eb835b19b924418ae2c1b0cfbcd8cd2d5acc387f695f71cbb069a35",
+  "target": "source/units/unit-04/worksheet04_exercise10_solution.id.tex",
+  "target_bytes": 2661,
+  "target_sha256": "a5d22c14d32b03265e532b34636da4d656d838cefe268c92d1ac3ec1ebd27de4",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 91,
+    "environments": 30,
+    "inline_math": 12,
+    "display_math": 0,
+    "protected_calls": 5
+  },
+  "status": "pass",
+  "failures": [],
+  "declared_corrections": [
+    "O011-CORR-0040",
+    "O011-CORR-0040",
+    "O011-CORR-0040",
+    "O011-CORR-0040",
+    "O011-CORR-0040",
+    "O011-CORR-0040"
+  ],
+  "evidence_only_results": []
+}

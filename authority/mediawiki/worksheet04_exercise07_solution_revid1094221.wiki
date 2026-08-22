@@ -1,0 +1,30 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+{{
+Aufzählung3
+|{{:Eingebetteter Torus/Einheitsnormalenfeld/Aufgabe/Lösung|opt=Text}} 
+|Die zweite partielle Ableitung ist
+{{
+Relationskette/align/netzlinks
+| {{op:Partielle Ableitung|| y}}  N
+|| {{op:Bruch| 1 | \sqrt{ {{makl| -  xR {{makl| x^2+y^2 |}}^{- {{op:Bruch| 1 | 2}} } |}}^2 + {{makl| y   -  y R {{makl| x^2+y^2 |}}^{- {{op:Bruch| 1 | 2}} } |}}^2   +z^2   } }} {{op:Spaltenvektor|  xyR {{makl| x^2+y^2 |}}^{- {{op:Bruch| 3| 2}} }  | 1  - R {{makl| x^2+y^2 |}}^{- {{op:Bruch| 1 | 2}} } + y^2 R {{makl| x^2+y^2 |}}^{- {{op:Bruch| 3| 2}} } | 0 }} 
+||  + {{op:Bruch|  2   {{makl|   x   -  xR {{makl| x^2+y^2 |}}^{- {{op:Bruch| 1 | 2}} } |}} {{makl|  +  xyR {{makl| x^2+y^2 |}}^{- {{op:Bruch| 3| 2}} } |}} +  2   {{makl|  y   -  y R {{makl| x^2+y^2 |}}^{- {{op:Bruch| 1 | 2}} } |}} {{makl| 1 -  R {{makl| x^2+y^2 |}}^{- {{op:Bruch| 1 | 2}} }    +y^2  R {{makl| x^2+y^2  |}}^{ {{op:Bruch| 3| 2}}  }   |}}    |   {{makl|  {{makl|  x   -  xR {{makl| x^2+y^2 |}}^{- {{op:Bruch| 1 | 2}} } |}}^2 + {{makl| y   -  y R {{makl| x^2+y^2 |}}^{- {{op:Bruch| 1 | 2}} } |}}^2   +z^2     |}}^{3/2}     }} {{op:Spaltenvektor|  x   -  xR {{makl| x^2+y^2 |}}^{- {{op:Bruch| 1 | 2}} } | y   -  y R {{makl| x^2+y^2 |}}^{- {{op:Bruch| 1 | 2}} } |z}}      
+|| 
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Im angegeben Punkt ist dies
+|
+}}
+
+
+
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

@@ -1,0 +1,613 @@
+{
+  "authority": {
+    "course_recursive_export": {
+      "bytes": 3538709,
+      "path": "authority/mediawiki/brenner_course_recursive_current.xml",
+      "sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14"
+    },
+    "latex_surface_recursive_export": {
+      "bytes": 3722387,
+      "path": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+      "sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c"
+    },
+    "pages": {
+      "lecture_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture04_latex_surface_revid807138.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1199,
+          "path": "authority/mediawiki/lecture04_latex_surface_revid807138.metadata.json",
+          "sha256": "c71c06285767fe80553acd8c4087ced87caf05035e96a461139cdf4ea3080767"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142578,
+        "parentid": 799047,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/lecture04_latex_surface_revid807138.wiki",
+        "revid": 807138,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T10:02:30Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 4/latex"
+      },
+      "lecture_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "7027484546c674061105d225f6cda674d55c245d81b4aaffc73a9d23daf794d8",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture04_root_revid893683.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "m5bw869ocdnu96zkj86a49xd947srbm",
+        "metadata": {
+          "bytes": 1169,
+          "path": "authority/mediawiki/lecture04_root_revid893683.metadata.json",
+          "sha256": "a62b84608969a5b7dad994d8b239bccfb726ad3f6b3e571392b1d07aaa5af1eb"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142548,
+        "parentid": 889284,
+        "readable_normalized_bytes": 190,
+        "readable_normalized_sha256": "9537bf9fdf4b97805b4dd95392a7ab9c27fdea9ee3f9b9cb4d6bcdf02cd8d551",
+        "readable_normalized_witness": "authority/mediawiki/lecture04_root_revid893683.wiki",
+        "revid": 893683,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 189,
+        "source_utf8_sha1": "bd9b12caaf8ab238417b66a8291e01e5b6984052",
+        "source_utf8_sha256": "e49b24c8955878f3c94091d8c0cee3e3fc10646d7e5eebcca0fa23fd23128e26",
+        "timestamp": "2023-04-14T08:21:27Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 4"
+      },
+      "worksheet_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet04_latex_surface_revid807107.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1206,
+          "path": "authority/mediawiki/worksheet04_latex_surface_revid807107.metadata.json",
+          "sha256": "ba250ca455768fa6d4afde089736c5af6589d916d3f9ebbd0a138a085b180cfd"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142668,
+        "parentid": 799016,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/worksheet04_latex_surface_revid807107.wiki",
+        "revid": 807107,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T09:57:20Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 4/latex"
+      },
+      "worksheet_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "fed2da620802f3570fbf5109012002e8ba6656d9ea18225bb7c84366551a247b",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet04_root_revid1010985.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "d8r1ixhwrj3eok7ot4yn0c9epk2633j",
+        "metadata": {
+          "bytes": 1181,
+          "path": "authority/mediawiki/worksheet04_root_revid1010985.metadata.json",
+          "sha256": "74ab7dcd8f089a20a59bf7350c80a3b2a4896679e805f0cda82b22bc79190e1b"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142638,
+        "parentid": 907085,
+        "readable_normalized_bytes": 1904,
+        "readable_normalized_sha256": "03e242574b6235be494011021d8f208b0764492fa23c3ad83fe057d3b7c5ce98",
+        "readable_normalized_witness": "authority/mediawiki/worksheet04_root_revid1010985.wiki",
+        "revid": 1010985,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 1903,
+        "source_utf8_sha1": "715f2cce6a27f6e0acb9e021c507d0e404d5772f",
+        "source_utf8_sha256": "8eed8799905fd996d0f1f3a3da02decaa2ca6acca7d13a6b81767ca4ef080bd8",
+        "timestamp": "2025-07-25T06:39:21Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 4"
+      }
+    },
+    "root_revision_manifest": {
+      "bytes": 15237,
+      "path": "authority/brenner_selected_root_revisions.csv",
+      "sha256": "64cf91594907db45355e64fb512fb14092e15218c74847a8f60fe884a5284fc8"
+    },
+    "surface_revision_manifest": {
+      "bytes": 31799,
+      "path": "authority/brenner_selected_surface_revisions.csv",
+      "sha256": "9a3a6b7dc08cc022803dad24e959365d67810d4da87a8bc4385c601db9d4bd52"
+    }
+  },
+  "checks": {
+    "all_candidate_solution_titles_queried": true,
+    "all_displayed_images_have_license_macros": true,
+    "all_point_markers_resolved": true,
+    "all_supplied_solution_latex_snapshots_frozen": true,
+    "all_supplied_solution_revisions_frozen": true,
+    "exact_media_receipt_frozen": true,
+    "exercise_root_expansion_count_agreement": true,
+    "lecture_expansion_sanitized": true,
+    "revision_export_hashes_match": true,
+    "root_revision_bindings_unique": true,
+    "root_witnesses_match_mediawiki_sha1": true,
+    "solution_macro_api_agreement": true,
+    "surface_revision_bindings_unique": true,
+    "official_pdf_witness_frozen": true,
+    "official_pdf_release_asset_false": true,
+    "translation_started_by_workflow": false,
+    "unit_media_binary_and_rights_closure": true,
+    "worksheet_expansion_sanitized": true
+  },
+  "expansions": {
+    "lecture": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 30910,
+      "http_date": "Sat, 22 Aug 2026 07:15:10 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 4/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 673,
+        "path": "authority/exports/lecture04_latex_expand.json.request.json",
+        "sha256": "f19e60a5a2cafb91f787116747dd120ee2482cdcb3fe50120fec2df6fc548144"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 33018,
+        "path": "authority/exports/lecture04_latex_expand.json",
+        "sha256": "03cf5fee20d7a52a9e7bd820b30c23ebf0ebfa4bc3bf4f8b75160c5a4754a6fa"
+      },
+      "retrieved_utc": "2026-08-22T07:15:11Z",
+      "sanitized_source": {
+        "bytes": 26932,
+        "path": "authority/expanded/lecture04_source.de.tex",
+        "sha256": "610c85e2cb9838a2ce1deb488ceca6cb7d2ee2ab47f1e657d5df7488796f8402"
+      },
+      "sanitizer": {
+        "bytes": 3113,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+      },
+      "sanitizer_receipt": {
+        "bytes": 672,
+        "path": "qa/unit-04/lecture04_sanitize.json",
+        "sha256": "4f7fd817db9ed7393fe0a1e3b06d1489758033c5ef8641da5c8ef1df0535c960"
+      },
+      "valid_utf8": true
+    },
+    "worksheet": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 14268,
+      "http_date": "Sat, 22 Aug 2026 07:16:01 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 4/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 678,
+        "path": "authority/exports/worksheet04_latex_expand.json.request.json",
+        "sha256": "4039829e56e54c0d92197bdb380dd1df8052a175538a707d083ba23b4794df37"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 15342,
+        "path": "authority/exports/worksheet04_latex_expand.json",
+        "sha256": "f3718aaf6e79ed1a74202abceb76da4ebcbeea65bd291f02110136744be7134a"
+      },
+      "retrieved_utc": "2026-08-22T07:16:01Z",
+      "sanitized_source": {
+        "bytes": 11052,
+        "path": "authority/expanded/worksheet04_source.de.tex",
+        "sha256": "81f8d9667581e0e6507dd1684b136c23f3352d1cabf2e8c4013daeb0a312cd00"
+      },
+      "sanitizer": {
+        "bytes": 3113,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+      },
+      "sanitizer_receipt": {
+        "bytes": 676,
+        "path": "qa/unit-04/worksheet04_sanitize.json",
+        "sha256": "6a4d8ee9d6f40147159f5d393daeac7b694ddf10bc1699995ad15a915937493b"
+      },
+      "valid_utf8": true
+    }
+  },
+  "media": {
+    "all_displayed_images_have_license_macros": true,
+    "assets": [],
+    "current_commons_query": null,
+    "occurrence_count": 0,
+    "rights_manifest": {
+      "bytes": 25588,
+      "path": "authority/brenner_media_rights_manifest.csv",
+      "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+    },
+    "surface_occurrences": [],
+    "unique_asset_count": 0
+  },
+  "media_closure_receipt": {
+    "bytes": 1827,
+    "path": "qa/unit-04/media_closure.json",
+    "sha256": "acf2a10f7daab6d4d4b62e6a9735041d3b1e519b9139f93ee815324e4a9ee289"
+  },
+  "next_action": "Translate Lecture 4, Worksheet 4, and exactly the 2 supplied solutions in source order.",
+  "official_pdf_structural_visual_qa": {
+    "bytes": 2310,
+    "path": "qa/unit-04/OFFICIAL_PDF_STRUCTURAL_VISUAL_QA.json",
+    "sha256": "b5395fd883a60fc6bb99f4c2e1050131ad59a18475c3626163b1dfa87a0f5cc5"
+  },
+  "official_pdf_witness": {
+    "bytes": 947,
+    "path": "qa/unit-04/OFFICIAL_PDF_WITNESS.json",
+    "sha256": "87422827230c2ce2faac3f957999b56c72cc1ea1cc11094652c800a44efbf05b"
+  },
+  "schema_version": 1,
+  "scope": "Brenner Differentialgeometrie Unit 4 authority preflight; no translation",
+  "solutions": {
+    "exercise_count": 15,
+    "exercises": [
+      {
+        "exercise_index": 1,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Linearform/Hyperebene/Weingartenabbildung/Aufgabe/Lösung",
+        "task_title": "Linearform/Hyperebene/Weingartenabbildung/Aufgabe"
+      },
+      {
+        "exercise_index": 2,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Differenzierbare Fläche/Standardkegel/Kreisbewegung/Aufgabe/Lösung",
+        "task_title": "Differenzierbare Fläche/Standardkegel/Kreisbewegung/Aufgabe"
+      },
+      {
+        "exercise_index": 3,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Differenzierbare Fläche/Standardzylinder/Kreisbewegung/Aufgabe/Lösung",
+        "task_title": "Differenzierbare Fläche/Standardzylinder/Kreisbewegung/Aufgabe"
+      },
+      {
+        "exercise_index": 4,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Differenzierbare Fläche/Standardzylinder/Weingartenabbildung/Nicht bijektiv/Aufgabe/Lösung",
+        "task_title": "Differenzierbare Fläche/Standardzylinder/Weingartenabbildung/Nicht bijektiv/Aufgabe"
+      },
+      {
+        "exercise_index": 5,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Differenzierbare Fläche/Gerade/Weingartenabbildung/Aufgabe/Lösung",
+        "task_title": "Differenzierbare Fläche/Gerade/Weingartenabbildung/Aufgabe"
+      },
+      {
+        "exercise_index": 6,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Differenzierbare Hyperfläche/Allgemeiner Zylinder/Weingartenabbildung/Aufgabe/Lösung",
+        "task_title": "Differenzierbare Hyperfläche/Allgemeiner Zylinder/Weingartenabbildung/Aufgabe"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 1909,
+          "path": "authority/mediawiki/worksheet04_exercise07_solution_revid1094221.utf8.b64",
+          "sha256": "17d018fe57d3a73e57a196e63f4740e4d7476cffc26cd22c61d3938bd1b4c5a9"
+        },
+        "exercise_index": 7,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 2891,
+          "http_date": "Sat, 22 Aug 2026 07:16:02 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Eingebetteter Torus/Einheitsnormalenfeld/Weingartenabbildung/1/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 716,
+            "path": "authority/exports/worksheet04_exercise07_solution_latex_expand.json.request.json",
+            "sha256": "58c60686edcffe11107814915c59ca02947aa7fcc1061b3d8c4dd55100018556"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 3182,
+            "path": "authority/exports/worksheet04_exercise07_solution_latex_expand.json",
+            "sha256": "41da3a0bcb16b6f96098c0ebd02d9f31aa6d039e947cc3609f44f8dabdeadd99"
+          },
+          "retrieved_utc": "2026-08-22T07:16:02Z",
+          "sanitized_source": {
+            "bytes": 2623,
+            "path": "authority/expanded/worksheet04_exercise07_solution_source.de.tex",
+            "sha256": "a0df2279b1dbae5bff1a4e50385349080bd8734e20d1a6edec83e528045dc63e"
+          },
+          "sanitizer": {
+            "bytes": 3113,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-04/worksheet04_exercise07_solution_sanitize.json",
+            "sha256": "c49272c577a51f6c77630a62e7aaabbf8ed2538a227a49a9835a334a4fde522f"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "f2c0b99e1b7ad9f62c3d728e378fcf224751acfb",
+        "metadata": {
+          "bytes": 1258,
+          "path": "authority/mediawiki/worksheet04_exercise07_solution_revid1094221.metadata.json",
+          "sha256": "e2e8842ae35d699bd45e4adcb609969612c8891822a3ebdbfa7b89169f2109c7"
+        },
+        "pageid": 152876,
+        "parentid": 1094183,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 1431,
+          "path": "authority/mediawiki/worksheet04_exercise07_solution_revid1094221.wiki",
+          "sha256": "3fc2472d610e07fe52f64025ac3ef977b2954922a7918ec86a99f1d9a37e7aac"
+        },
+        "revid": 1094221,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Eingebetteter Torus/Einheitsnormalenfeld/Weingartenabbildung/1/Aufgabe/Lösung",
+        "source_utf8_bytes": 1430,
+        "source_utf8_sha256": "5b2fab7335a3f1cb176efd2fb4b870e99bc70e95f0a62c4a33e1aca735497f58",
+        "task_title": "Eingebetteter Torus/Einheitsnormalenfeld/Weingartenabbildung/1/Aufgabe",
+        "timestamp": "2026-06-14T15:19:49Z"
+      },
+      {
+        "exercise_index": 8,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Differenzierbare Fläche/Graph/Z ist xy/Weingartenabbildung/Jeder Punkt/Diagonalmatrix/Aufgabe/Lösung",
+        "task_title": "Differenzierbare Fläche/Graph/Z ist xy/Weingartenabbildung/Jeder Punkt/Diagonalmatrix/Aufgabe"
+      },
+      {
+        "exercise_index": 9,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Differenzierbare Hyperfläche/Weingartenabbildung/Isometrie/Aufgabe/Lösung",
+        "task_title": "Differenzierbare Hyperfläche/Weingartenabbildung/Isometrie/Aufgabe"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 3357,
+          "path": "authority/mediawiki/worksheet04_exercise10_solution_revid1094288.utf8.b64",
+          "sha256": "fc450202c25790f7447c13b172394d7584df0eed3f37c1eb65c969d054f8a8fa"
+        },
+        "exercise_index": 10,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 2837,
+          "http_date": "Sat, 22 Aug 2026 07:16:02 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Differenzierbare Fläche/Ellipsoidoberfläche/Weingartenabbildung/Diagonalmatrix/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 734,
+            "path": "authority/exports/worksheet04_exercise10_solution_latex_expand.json.request.json",
+            "sha256": "d28eb58b380c8125e8125ab7f8286ff28c507b21f11c6f8d98536af0821abc91"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 3136,
+            "path": "authority/exports/worksheet04_exercise10_solution_latex_expand.json",
+            "sha256": "5522dcf59cf3b5a462d600fae6f4303b69a3787cda941063350ea40ef67d27d2"
+          },
+          "retrieved_utc": "2026-08-22T07:16:02Z",
+          "sanitized_source": {
+            "bytes": 2633,
+            "path": "authority/expanded/worksheet04_exercise10_solution_source.de.tex",
+            "sha256": "76a2f5db7eb835b19b924418ae2c1b0cfbcd8cd2d5acc387f695f71cbb069a35"
+          },
+          "sanitizer": {
+            "bytes": 3113,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-04/worksheet04_exercise10_solution_sanitize.json",
+            "sha256": "9313db2f6ccde3d55d3f01929532ff8c4fc21be8fc8e2027d766ed714fdacc2e"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "d91829738e4813be8227ec835a3fa461a0bb4abb",
+        "metadata": {
+          "bytes": 1276,
+          "path": "authority/mediawiki/worksheet04_exercise10_solution_revid1094288.metadata.json",
+          "sha256": "04999d015ab012f96442eb2cb22e237a5f6c7a5892aea0fc0d95174573c3f565"
+        },
+        "pageid": 151124,
+        "parentid": 1088924,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 2518,
+          "path": "authority/mediawiki/worksheet04_exercise10_solution_revid1094288.wiki",
+          "sha256": "b3a4c7eb78f75d173deb9d276cfeb16902288cc1a0046b7051dedf843da95d92"
+        },
+        "revid": 1094288,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Differenzierbare Fläche/Ellipsoidoberfläche/Weingartenabbildung/Diagonalmatrix/Aufgabe/Lösung",
+        "source_utf8_bytes": 2517,
+        "source_utf8_sha256": "c5d96e0a943c71d80495bae6971c3e2ec1c0b65bd2d7b77e9d55037f92647fe8",
+        "task_title": "Differenzierbare Fläche/Ellipsoidoberfläche/Weingartenabbildung/Diagonalmatrix/Aufgabe",
+        "timestamp": "2026-06-14T15:33:29Z"
+      },
+      {
+        "exercise_index": 11,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Differenzierbare Hyperfläche/Änderung der Orientierung/Eigenräume der Weingartenabbildung/Aufgabe/Lösung",
+        "task_title": "Differenzierbare Hyperfläche/Änderung der Orientierung/Eigenräume der Weingartenabbildung/Aufgabe"
+      },
+      {
+        "exercise_index": 12,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Einschaliges Hyperboloid/Weingartenabbildung/x ist 0/Aufgabe/Lösung",
+        "task_title": "Einschaliges Hyperboloid/Weingartenabbildung/x ist 0/Aufgabe"
+      },
+      {
+        "exercise_index": 13,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 5,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Differenzierbare Fläche/Ellipsoidoberfläche/Weingartenabbildung/Diagonalmatrix/2/Aufgabe/Lösung",
+        "task_title": "Differenzierbare Fläche/Ellipsoidoberfläche/Weingartenabbildung/Diagonalmatrix/2/Aufgabe"
+      },
+      {
+        "exercise_index": 14,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Differenzierbare Hyperfläche/Quadrik in 4 Variablen/Weingartenabbildung/Basis/Aufgabe/Lösung",
+        "task_title": "Differenzierbare Hyperfläche/Quadrik in 4 Variablen/Weingartenabbildung/Basis/Aufgabe"
+      },
+      {
+        "exercise_index": 15,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 6,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Differenzierbare Fläche/Graph/Z ist x^3y^5/Weingartenabbildung/Diagonalmatrix/Aufgabe/Lösung",
+        "task_title": "Differenzierbare Fläche/Graph/Z ist x^3y^5/Weingartenabbildung/Diagonalmatrix/Aufgabe"
+      }
+    ],
+    "graded_exercise_count": 4,
+    "macro_api_agreement": true,
+    "missing_solution_count": 13,
+    "point_value_total": 19,
+    "practice_exercise_count": 11,
+    "query": {
+      "bytes": 6333,
+      "path": "authority/mediawiki/unit04_solution_pages_current.json",
+      "sha256": "a216a5929ef9df98432e995a79f5f42ddc91b599d867a1871ac1120b17e186e3"
+    },
+    "query_request_receipt": {
+      "bytes": 1887,
+      "path": "authority/mediawiki/unit04_solution_pages_current.json.request.json",
+      "sha256": "fc15e8766ed149bcd88ad2f1da31bf4a89190675419977d240b93421b1d3f805"
+    },
+    "query_retrieved_utc": "2026-08-22T07:16:01Z",
+    "schema_version": 1,
+    "supplied_solution_count": 2,
+    "supplied_solution_indices": [
+      7,
+      10
+    ],
+    "workflow": "o011-unit04-solution-freeze-v1",
+    "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 4"
+  },
+  "status": "pass",
+  "structure": {
+    "all_hint_fields_blank": true,
+    "lecture_section_count": 1,
+    "worksheet_exercise_count": 15,
+    "worksheet_graded_count": 4,
+    "worksheet_point_total": 19,
+    "worksheet_practice_count": 11,
+    "worksheet_section_count": 2,
+    "worksheet_solution_bearing_indices": [
+      7,
+      10
+    ]
+  },
+  "unit": 4,
+  "workflow": "o011-unit04-authority-preflight-v1"
+}

@@ -1,0 +1,23 @@
+{
+  "binary": {
+    "bytes": 210221,
+    "path": "authority/pdf/lecture04_commons_revid1003382720.pdf",
+    "sha256": "65ee310d19704bdbbb7f981f821901f96b166ceac416ad7cc063ae737894571d"
+  },
+  "commons_sha1": "610c2216778a3121aee356f992560cd55ed90690",
+  "file_timestamp": "2023-04-20T19:44:46Z",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "metadata": {
+    "bytes": 4253,
+    "path": "authority/mediawiki/lecture04_commons_revid1003382720.metadata.json",
+    "sha256": "d45e51649fbe530c3ad2115339ca84baae9f55f8ab139b8b7a1eeb1929ca43f8"
+  },
+  "page_revision": 1003382720,
+  "production_master": false,
+  "redistribution_status": "withheld_pending_resolution_of_internal_cc-by-sa-3.0_and_commons_structured_metadata_cc-by-sa-4.0_signals",
+  "release_asset": false,
+  "schema_version": 1,
+  "scope": "Brenner Unit 4 local unredistributed numbering/order PDF witness only",
+  "status": "pass"
+}

@@ -1,0 +1,94 @@
+{
+  "api_request_receipt": {
+    "bytes": 794,
+    "path": "authority/mediawiki/unit04_official_lecture_pdf_current.json.request.json",
+    "sha256": "17fe6c19982b640cc4339c1c0ff06374a5955500ef113652d3bf38fff85843d5"
+  },
+  "api_response": {
+    "bytes": 3779,
+    "path": "authority/mediawiki/unit04_official_lecture_pdf_current.json",
+    "sha256": "a863839a800f891839bd6f627fad893641fabc79e502abbc3a0703be98a0d90d"
+  },
+  "api_retrieved_utc": "2026-08-22T07:18:36Z",
+  "checks": {
+    "frozen_bytes_match": true,
+    "frozen_license_match": true,
+    "frozen_original_url_match": true,
+    "frozen_row_class": true,
+    "frozen_row_exists": true,
+    "frozen_row_exists_flag": true,
+    "frozen_row_status": true,
+    "frozen_sha1_match": true,
+    "media_type_is_office": true,
+    "mime_is_pdf": true
+  },
+  "commons_lastrevid": 1003382720,
+  "commons_pageid": 130922930,
+  "commons_touched": "2026-03-03T13:11:44Z",
+  "description_revision": {
+    "comment": "/* wbeditentity-update:0| */ automatically adding [[Commons:Structured data|structured data]] based on file information",
+    "exact_utf8_base64_witness": {
+      "bytes": 149,
+      "path": "authority/mediawiki/lecture04_commons_revid1003382720.utf8.b64",
+      "sha256": "0fedc649c2df2e2332820b8a602e4b998d6ee04ff4603d6e7f82a67c983bbf59"
+    },
+    "mediawiki_revision_sha1": "cf9881d1cbb7e81c3b585862aad528186f67fcaf",
+    "mediawiki_revision_sha1_scope": "revision aggregate; the current revision is a structured-data edit, so this is not asserted as the unchanged main-slot wikitext SHA-1",
+    "parentid": 767943958,
+    "readable_normalized_witness": {
+      "bytes": 110,
+      "path": "authority/mediawiki/lecture04_commons_revid1003382720.wiki",
+      "sha256": "888a4d9dcb086c1818372b3b685fa04ab6c2d1f78b3999070b9b6d5f21568dbe"
+    },
+    "revid": 1003382720,
+    "source_utf8_bytes": 109,
+    "source_utf8_sha1": "b6fd725032ec441bcb4f92ddc42f03a9791c7c40",
+    "source_utf8_sha256": "465fb794e81a9f0f19d9ce35eb3a43011b2a18fecfd5fc0b51b02ffccfcb4dc6",
+    "timestamp": "2025-02-27T21:51:56Z",
+    "user": "SchlurcherBot",
+    "userid": 771189
+  },
+  "file_revision": {
+    "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Bocardodarapti\" title=\"User:Bocardodarapti\">User:Bocardodarapti</a>",
+    "artist_text": "User:Bocardodarapti",
+    "attribution_required": true,
+    "binary": {
+      "bytes": 210221,
+      "path": "authority/pdf/lecture04_commons_revid1003382720.pdf",
+      "sha256": "65ee310d19704bdbbb7f981f821901f96b166ceac416ad7cc063ae737894571d"
+    },
+    "bytes": 210221,
+    "commons_sha1": "610c2216778a3121aee356f992560cd55ed90690",
+    "copyrighted": "True",
+    "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+    "credit_text": "Own work",
+    "description_url": "https://commons.wikimedia.org/wiki/File:Differentialgeometrie_(Osnabr%C3%BCck_2023)Vorlesung4.pdf",
+    "download_receipt": {
+      "bytes": 565,
+      "path": "authority/pdf/lecture04_commons_revid1003382720.pdf.download.json",
+      "sha256": "d6588107584e47075037bd3e85f82e59d56a79e0feffffd6c0f169cd10846617"
+    },
+    "height": 1650,
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "media_type": "OFFICE",
+    "mime": "application/pdf",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Differentialgeometrie_%28Osnabr%C3%BCck_2023%29Vorlesung4.pdf",
+    "sha256": "65ee310d19704bdbbb7f981f821901f96b166ceac416ad7cc063ae737894571d",
+    "timestamp": "2023-04-20T19:44:46Z",
+    "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+    "user": "LavenderLina42",
+    "width": 1275
+  },
+  "frozen_link_classification": {
+    "bytes": 27170,
+    "path": "authority/brenner_94_link_classification.csv",
+    "sha256": "039a5ec757bde1179de78d7b27c398d5fe06c622859630ffc0ea9e9f16d7919b"
+  },
+  "redistribution_status": "withheld_pending_resolution_of_internal_cc-by-sa-3.0_and_commons_structured_metadata_cc-by-sa-4.0_signals",
+  "release_asset": false,
+  "role": "local unredistributed Unit 4 numbering/order witness; never a production master",
+  "schema_version": 1,
+  "status": "pass",
+  "title": "File:Differentialgeometrie (Osnabrück 2023)Vorlesung4.pdf"
+}

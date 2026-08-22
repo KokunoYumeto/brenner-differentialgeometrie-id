@@ -17,6 +17,29 @@ IMAGE_LOADER_RE = re.compile(
     r"\s*([^{}]*?)\s*(\})"
 )
 
+LAYOUT_REFLOWS = {
+    "O011-LAYOUT-U04-HYPERBOLOID-BASIS-ACTION": [
+        (
+            r"\mavergleichskettedisphandlinks",
+            r"\mavergleichskettealigndrucklinks",
+        ),
+        (
+            r"\vergleichskettedisphandlinks",
+            r"\vergleichskettealigndrucklinks",
+        ),
+    ],
+    "O011-LAYOUT-U04-HYPERBOLOID-EIGENVECTOR": [
+        (
+            r"\mavergleichskettealignhandlinks",
+            r"\mavergleichskettealigndrucklinks",
+        ),
+        (
+            r"\vergleichskettealignhandlinks",
+            r"\vergleichskettealigndrucklinks",
+        ),
+    ],
+}
+
 
 def sha256(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
@@ -59,6 +82,32 @@ def main() -> None:
     text = text.replace(r"\operatorname{kern}", r"\ker")
     text = text.replace(r"\operatorname{bild}", r"\operatorname{im}")
 
+    layout_reflows: list[dict[str, str]] = []
+    for layout_id, replacements in LAYOUT_REFLOWS.items():
+        begin_marker = f"% {layout_id}-BEGIN"
+        end_marker = f"% {layout_id}-END"
+        begin_count = text.count(begin_marker)
+        end_count = text.count(end_marker)
+        if begin_count != end_count:
+            raise RuntimeError(f"unpaired layout marker: {layout_id}")
+        if begin_count > 1:
+            raise RuntimeError(f"layout marker occurs more than once: {layout_id}")
+        if begin_count == 1:
+            before, marked = text.split(begin_marker, 1)
+            segment, after = marked.split(end_marker, 1)
+            applied: list[dict[str, str]] = []
+            for old, new in replacements:
+                if segment.count(old) != 1:
+                    raise RuntimeError(
+                        f"layout reflow expected one {old} in {layout_id}"
+                    )
+                segment = segment.replace(old, new, 1)
+                applied.append({"source_command": old, "target_command": new})
+            text = before + segment + after
+            layout_reflows.append(
+                {"layout_id": layout_id, "command_replacements": applied}
+            )
+
     trimmed_media_arguments = 0
 
     def trim_media_argument(match: re.Match[str]) -> str:
@@ -86,6 +135,7 @@ def main() -> None:
         "removed_noedit_markers": noedit_count,
         "trimmed_media_arguments": trimmed_media_arguments,
         "localized_math_operators": operator_localizations,
+        "layout_reflows": layout_reflows,
         "rendered_internal_links": links,
     }
     args.receipt.parent.mkdir(parents=True, exist_ok=True)

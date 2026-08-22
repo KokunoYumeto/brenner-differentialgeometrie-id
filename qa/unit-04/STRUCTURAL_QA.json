@@ -1,0 +1,655 @@
+{
+  "accessibility": {
+    "fonts": {
+      "109:0": {
+        "base_font": "/ZCFLAG+LMRoman8-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "110:0": {
+        "base_font": "/QWXLJS+LMRoman6-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "112:0": {
+        "base_font": "/HOIYUC+LMRoman9-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "120:0": {
+        "base_font": "/HOIYUC+LMRoman9-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "15:0": {
+        "base_font": "/VLGABI+LMRoman12-Bold",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "16:0": {
+        "base_font": "/DKYRXO+LMRoman10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "323:0": {
+        "base_font": "/TGCXOT+LMRoman5-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "330:0": {
+        "base_font": "/RSBFRV+LMRoman7-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "332:0": {
+        "base_font": "/WRSMOM+LMMathItalic7-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "333:0": {
+        "base_font": "/DSSNNO+LMMathItalic5-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "43:0": {
+        "base_font": "/IRUBTY+LMRoman10-Bold",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "497:0": {
+        "base_font": "/RYEVFW+LMSans8-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "602:0": {
+        "base_font": "/NULUBO+LMMono10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "6:0": {
+        "base_font": "/WBJUUY+LMRoman17-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "74:0": {
+        "base_font": "/HXXRMI+LMMathItalic10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "75:0": {
+        "base_font": "/DKYRXO+LMRoman10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "76:0": {
+        "base_font": "/QDTWCG+MSBM10",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "77:0": {
+        "base_font": "/UDBUBE+LMMathItalic8-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "78:0": {
+        "base_font": "/HAHPOJ+LMMathSymbols10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "79:0": {
+        "base_font": "/UGBGKH+LMMathSymbols8-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "7:0": {
+        "base_font": "/DYCFBS+LMRoman12-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "80:0": {
+        "base_font": "/ZCFLAG+LMRoman8-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "81:0": {
+        "base_font": "/SPRHNV+LMRoman10-Italic",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "83:0": {
+        "base_font": "/MSTKBW+LMMathExtension10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "89:0": {
+        "base_font": "/EJMSFU+LMRomanSlant10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "8:0": {
+        "base_font": "/EAOLXX+LMRoman12-Italic",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "91:0": {
+        "base_font": "/QWXLJS+LMRoman6-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "92:0": {
+        "base_font": "/AITSOX+LMMathItalic6-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "93:0": {
+        "base_font": "/GKLUXI+LMMathSymbols6-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      }
+    },
+    "fonts_with_tounicode": 29,
+    "fonts_without_tounicode": [],
+    "pdfplumber_empty_text_pages": [],
+    "pdfplumber_page_count": 72,
+    "pdfplumber_page_text_characters": [
+      172,
+      689,
+      1041,
+      17,
+      1629,
+      972,
+      2040,
+      2591,
+      2053,
+      2364,
+      1515,
+      1488,
+      593,
+      895,
+      1319,
+      1319,
+      1489,
+      1774,
+      953,
+      19,
+      930,
+      1588,
+      1737,
+      1276,
+      1682,
+      1636,
+      1495,
+      460,
+      840,
+      1655,
+      1357,
+      1155,
+      1448,
+      1262,
+      827,
+      20,
+      1430,
+      1967,
+      1171,
+      1821,
+      896,
+      1697,
+      1491,
+      1546,
+      1013,
+      1103,
+      935,
+      1181,
+      776,
+      1047,
+      591,
+      312,
+      19,
+      1141,
+      2150,
+      1584,
+      1560,
+      1801,
+      1976,
+      1835,
+      272,
+      850,
+      1476,
+      1224,
+      1324,
+      901,
+      1179,
+      272,
+      1587,
+      1747,
+      518,
+      165
+    ],
+    "pdfplumber_pages_with_extractable_text": 72,
+    "pdfplumber_version": "0.11.9",
+    "pypdf_empty_text_pages": [],
+    "pypdf_page_text_characters": [
+      171,
+      689,
+      1041,
+      17,
+      1592,
+      863,
+      1962,
+      2509,
+      2005,
+      2297,
+      1474,
+      1464,
+      585,
+      850,
+      1258,
+      1262,
+      1486,
+      1709,
+      877,
+      19,
+      915,
+      1528,
+      1696,
+      1220,
+      1617,
+      1596,
+      1412,
+      458,
+      802,
+      1599,
+      1301,
+      1109,
+      1292,
+      943,
+      816,
+      20,
+      1385,
+      1927,
+      1170,
+      1592,
+      822,
+      1610,
+      1443,
+      1476,
+      891,
+      1061,
+      902,
+      1123,
+      744,
+      1055,
+      595,
+      296,
+      19,
+      1085,
+      2051,
+      1507,
+      1422,
+      1621,
+      1776,
+      1555,
+      270,
+      814,
+      1396,
+      1158,
+      1283,
+      876,
+      1142,
+      246,
+      1587,
+      1759,
+      518,
+      165
+    ],
+    "pypdf_pages_with_extractable_text": 72,
+    "pypdf_version": "6.10.0",
+    "unique_fonts": 29
+  },
+  "active_content": {
+    "acroform": false,
+    "annotation_subtype_counts": {
+      "/Link": 60
+    },
+    "attachment_markers": [],
+    "catalog_associated_files": false,
+    "collection": false,
+    "embedded_files_name_tree": false,
+    "form_fields": false,
+    "javascript_name_tree": false,
+    "unsafe_annotation_subtypes": []
+  },
+  "blockers": [],
+  "bookmarks": {
+    "catalog_outlines_present": true,
+    "count": 21,
+    "missing_required": [],
+    "out_of_range": [],
+    "parse_errors": [],
+    "records": [
+      {
+        "depth": 0,
+        "page": 4,
+        "title": "I Unit 1"
+      },
+      {
+        "depth": 1,
+        "page": 5,
+        "title": "Kuliah 1"
+      },
+      {
+        "depth": 1,
+        "page": 14,
+        "title": "Lembar Kerja 1"
+      },
+      {
+        "depth": 2,
+        "page": 19,
+        "title": "Solusi yang disediakan oleh sumber"
+      },
+      {
+        "depth": 0,
+        "page": 20,
+        "title": "II Unit 2"
+      },
+      {
+        "depth": 1,
+        "page": 21,
+        "title": "Kuliah 2"
+      },
+      {
+        "depth": 1,
+        "page": 29,
+        "title": "Lembar Kerja 2"
+      },
+      {
+        "depth": 2,
+        "page": 32,
+        "title": "Solusi yang disediakan oleh sumber"
+      },
+      {
+        "depth": 0,
+        "page": 36,
+        "title": "III Unit 3"
+      },
+      {
+        "depth": 1,
+        "page": 37,
+        "title": "Kuliah 3"
+      },
+      {
+        "depth": 1,
+        "page": 46,
+        "title": "Lembar Kerja 3"
+      },
+      {
+        "depth": 2,
+        "page": 50,
+        "title": "Solusi yang disediakan oleh sumber"
+      },
+      {
+        "depth": 0,
+        "page": 53,
+        "title": "IV Unit 4"
+      },
+      {
+        "depth": 1,
+        "page": 54,
+        "title": "Kuliah 4"
+      },
+      {
+        "depth": 1,
+        "page": 62,
+        "title": "Lembar Kerja 4"
+      },
+      {
+        "depth": 2,
+        "page": 66,
+        "title": "Solusi yang disediakan oleh sumber"
+      },
+      {
+        "depth": 1,
+        "page": 70,
+        "title": "Atribusi dan Hak Media"
+      },
+      {
+        "depth": 2,
+        "page": 70,
+        "title": "Unit 1"
+      },
+      {
+        "depth": 2,
+        "page": 70,
+        "title": "Unit 2"
+      },
+      {
+        "depth": 2,
+        "page": 70,
+        "title": "Unit 3"
+      },
+      {
+        "depth": 2,
+        "page": 71,
+        "title": "Unit 4"
+      }
+    ],
+    "required_patterns": {
+      "Unit 4 lecture bookmark": "^Kuliah 4$",
+      "Unit 4 part bookmark": "^Unit 4$",
+      "Unit 4 worksheet bookmark": "^Lembar Kerja 4$",
+      "media-rights bookmark": "^Atribusi dan Hak Media$"
+    },
+    "unresolved": []
+  },
+  "content_closure": {
+    "expected_unit4_solution_heading_counts": {
+      "10": 1,
+      "7": 1
+    },
+    "failed_unit3_media_surfaces": [],
+    "missing_media_attribution_text": [],
+    "missing_required_text": [],
+    "required_minimum_counts": {
+      "Unit 4 C1-to-C2 correction notes": {
+        "actual": 2,
+        "required": 2
+      },
+      "supplied-solutions heading": {
+        "actual": 8,
+        "required": 4
+      }
+    },
+    "unit3_media_surface_checks": {
+      "Euler spiral.svg": {
+        "creator": "AdiJapan",
+        "creator_near_filename": true,
+        "license": "CC BY-SA 3.0",
+        "license_near_filename": true,
+        "occurrences": 2,
+        "passed": true,
+        "source_label_near_filename": true
+      },
+      "Evolute-parab.svg": {
+        "creator": "Ag2gaeh",
+        "creator_near_filename": true,
+        "license": "CC BY-SA 4.0",
+        "license_near_filename": true,
+        "occurrences": 2,
+        "passed": true,
+        "source_label_near_filename": true
+      },
+      "Parabola circle.svg": {
+        "creator": "IkamusumeFan",
+        "creator_near_filename": true,
+        "license": "CC BY-SA 4.0",
+        "license_near_filename": true,
+        "occurrences": 2,
+        "passed": true,
+        "source_label_near_filename": true
+      }
+    },
+    "unit4_milestone_pages": {
+      "Unit 4 lecture": [
+        54
+      ],
+      "Unit 4 part": [
+        53
+      ],
+      "Unit 4 solution 10": [
+        67
+      ],
+      "Unit 4 solution 7": [
+        66
+      ],
+      "Unit 4 worksheet": [
+        3,
+        62
+      ],
+      "media-rights heading": [
+        3,
+        70
+      ]
+    },
+    "unit4_solution_heading_counts": {
+      "10": 1,
+      "7": 1
+    }
+  },
+  "determinism_signals": {
+    "actual_bytes_match": true,
+    "actual_pages_match": true,
+    "actual_sha256_match": true,
+    "expected_bytes": 3666928,
+    "expected_pages": 72,
+    "expected_sha256": "04f84c2d7abdc721cb0ebafcd4e39c230a01faf60665f84d5e7124bf2574319b",
+    "trailer_id_absent": true,
+    "volatile_metadata_absent": true
+  },
+  "execution_binding": {
+    "expected_bytes_argument": 3666928,
+    "expected_pages_argument": 72,
+    "expected_sha256_argument": "04f84c2d7abdc721cb0ebafcd4e39c230a01faf60665f84d5e7124bf2574319b",
+    "output_path": "qa/unit-04/STRUCTURAL_QA.json",
+    "pdf_argument": "output\\pdf\\geometri-diferensial-manifold-mulus-hingga-unit-04-id.pdf",
+    "pdf_path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-04-id.pdf",
+    "project_root": "."
+  },
+  "limitations": [
+    "PDF is untagged: it has no active structure tree with /MarkInfo /Marked true. All 29 discovered fonts have ToUnicode and all 72 pages remain text-extractable through both pypdf and pdfplumber; the semantic HTML reader remains the primary structured accessibility surface."
+  ],
+  "links": {
+    "catalog_open_action_type": "/GoTo",
+    "external_uri_count": 19,
+    "external_uri_counts": {
+      "https://commons.wikimedia.org/wiki/File:2019-07-Helix.jpg": 1,
+      "https://commons.wikimedia.org/wiki/File:3d-function-6.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Euler_spiral.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Evolute-parab.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Great_circle_passing_through_two_points.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Hyperboloid1.png": 2,
+      "https://commons.wikimedia.org/wiki/File:Integral_apl_rot_obsah1.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Parabola_circle.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Planned_flight_map_of_the_Oiseau_Blanc.svg": 1,
+      "https://creativecommons.org/licenses/by-sa/3.0": 2,
+      "https://creativecommons.org/licenses/by-sa/4.0": 6,
+      "https://creativecommons.org/licenses/by/3.0": 1
+    },
+    "internal_link_count": 42,
+    "missing_uri_counts": {},
+    "required_minimum_uri_counts": {
+      "https://commons.wikimedia.org/wiki/File:Euler_spiral.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Evolute-parab.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Parabola_circle.svg": 1,
+      "https://creativecommons.org/licenses/by-sa/3.0": 2,
+      "https://creativecommons.org/licenses/by-sa/4.0": 4,
+      "https://creativecommons.org/licenses/by/3.0": 1
+    },
+    "unit3_license_uri_counts": {
+      "Euler spiral.svg": 2,
+      "Evolute-parab.svg": 6,
+      "Parabola circle.svg": 6
+    },
+    "unit3_source_uri_counts": {
+      "Euler spiral.svg": 1,
+      "Evolute-parab.svg": 1,
+      "Parabola circle.svg": 1
+    },
+    "unsafe_actions": [],
+    "unsafe_uris": []
+  },
+  "passed": true,
+  "pdf": {
+    "all_crop_boxes_a4": true,
+    "all_media_boxes_a4": true,
+    "all_rotations_zero": true,
+    "bytes": 3666928,
+    "catalog_language": "id-ID",
+    "crop_box_points": [
+      595.276,
+      841.89
+    ],
+    "encrypted": false,
+    "has_structure_tree": false,
+    "mark_info_marked": false,
+    "media_box_points": [
+      595.276,
+      841.89
+    ],
+    "metadata": {
+      "/Author": "Holger Brenner, Terjemahan Bahasa Indonesia independen",
+      "/Creator": "LaTeX with hyperref",
+      "/Keywords": "",
+      "/Producer": "MiKTeX pdfTeX-1.40.29",
+      "/Subject": "",
+      "/Title": "Geometri Diferensial dan Manifold Mulus Pembaca kumulatif hingga Unit 4",
+      "/Trapped": "/False"
+    },
+    "metadata_mismatches": {},
+    "pages": 72,
+    "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-04-id.pdf",
+    "sha256": "04f84c2d7abdc721cb0ebafcd4e39c230a01faf60665f84d5e7124bf2574319b",
+    "tagged": false,
+    "trailer_id_present": false,
+    "volatile_metadata_keys": []
+  },
+  "privacy_and_residue": {
+    "decoded_stream_bytes_scanned": 50853411,
+    "decoded_stream_count": 136,
+    "extracted_text_hits": {},
+    "metadata_hits": {},
+    "raw_or_decompressed_object_hits": {},
+    "stream_scan_errors": []
+  },
+  "schema_version": 1,
+  "verdict": "PASS_WITH_DOCUMENTED_LIMITATION",
+  "workflow": "o011-through-unit04-pdf-structural-qa-v1"
+}

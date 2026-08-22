@@ -1,0 +1,96 @@
+\textit{Catatan edisi: solusi sumber menghitung diferensial medan normal tetapi tidak menerapkan tanda minus dalam definisi pemetaan Weingarten. Solusi itu juga menyebut vektor basis kedua sebagai vektor eigen meskipun hasil yang ditampilkannya masih memiliki komponen pada vektor basis pertama. Tanda dan basis eigen diperbaiki di bawah ini.}
+
+Medan gradien ternormalisasi adalah
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ N(x,y,z)
+}
+{ =} { { \frac{   1  }{  \sqrt{ 4x^2+4y^2+16 z^2}  } } \begin{pmatrix}  2x \\ 2y\\  4z   \end{pmatrix}
+}
+{ =} { { \frac{   1  }{  \sqrt{ x^2+y^2+4 z^2}  } } \begin{pmatrix}  x  \\ y \\  2z   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+Kita bekerja dengan medan normal satuan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M(x,y,z)
+}
+{ =} { { \frac{   1  }{  \sqrt{ 4+2 z^2}  } } \begin{pmatrix}  x  \\ y \\  2z   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+yang berimpit dengan $N$ pada $Y$. Diferensial total $M$ adalah
+
+\mathdisp {\begin{pmatrix}  { \frac{   1  }{  \sqrt{4+2z^2}  } }   &   0 &  { \frac{   -2 xz }{  \left(  4+2z^2  \right)^{3/2}  } }  \\  0  &  { \frac{   1  }{  \sqrt{4+2z^2}  } }   &  { \frac{   -2 yz }{  \left(  4+2z^2  \right)^{3/2}  } }   \\ 0   &  0  &  { \frac{   8 }{  \left(  4+2z^2  \right)^{3/2}  } }  \end{pmatrix}} { . }
+
+Di titik $P$ yang diberikan, gradiennya adalah $\begin{pmatrix}  2  \\ 2\\  4   \end{pmatrix}$. Kedua vektor
+
+\mavergleichskettedisp
+{\vergleichskette
+{ e_1
+}
+{ =} { \begin{pmatrix}1\\-1\\0\end{pmatrix}
+}
+{ ,\quad }{ e_2
+}
+{ =} { \begin{pmatrix}1\\1\\-1\end{pmatrix}
+}
+{ } {
+}
+}
+{}{}{}
+membentuk basis ortogonal ruang tangen $T_PY$. Diferensial total $M$ di titik tersebut adalah
+
+\mathdisp {\begin{pmatrix}  { \frac{   1  }{  \sqrt{6}  } }   &   0 &  { \frac{   -1 }{  3 \sqrt{6}  } }  \\  0  &  { \frac{   1  }{  \sqrt{6}  } }   &  { \frac{   -1  }{  3 \sqrt{6}  } }   \\ 0   &  0  &  { \frac{   4  }{  3 \sqrt{6}  } }   \end{pmatrix}} { . }
+
+Dengan menerapkannya pada kedua vektor basis, diperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (DM)_P(e_1)
+}
+{ =} { \frac{1}{\sqrt 6}e_1
+}
+{ ,\quad }{ (DM)_P(e_2)
+}
+{ =} { \frac{4}{3\sqrt 6}e_2
+}
+{ } {
+}
+}
+{}{}{.}
+Karena pemetaan Weingarten didefinisikan oleh $L_P=-(DM)_P|_{T_PY}$, maka
+
+\mavergleichskettedisp
+{\vergleichskette
+{ L_P(e_1)
+}
+{ =} { -\frac{1}{\sqrt 6}e_1
+}
+{ ,\quad }{ L_P(e_2)
+}
+{ =} { -\frac{4}{3\sqrt 6}e_2
+}
+{ } {
+}
+}
+{}{}{.}
+Jadi, terhadap basis eigen $(e_1,e_2)$, suatu matriks diagonal yang merepresentasikan $L_P$ adalah
+
+\mathdisp {\begin{pmatrix}  -{ \frac{   1  }{  \sqrt{6}  } }   &   0  \\  0  &  -{ \frac{   4  }{  3 \sqrt{6}  } }  \end{pmatrix}} { . }
+
+ [[Kategorie:Latexseite]]

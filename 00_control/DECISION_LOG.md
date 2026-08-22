@@ -85,3 +85,29 @@
 **Closure:** Unit 3 contains 21 exercises, exactly two source-supplied solutions (7 and 16), and three component-licensed media files. Corrections `O011-CORR-0028` through `O011-CORR-0037` are explicit. The additive backend contains 591 schema-valid records; the 357-record Unit 1–2 prefix remains byte-identical and Unit 3 adds 234 records. Terminal receipt: `qa/unit-03/UNIT_03_QA.md`, SHA-256 `7781e297f7fb1688e271c8b7cc507d8efeac2d25b9ea8f84b046e3b68e3d9943`.
 
 **Boundary:** this completes one edition-production unit, not the 29-unit edition and not the separate curriculum-selection decision. The verified tree is authorized for preservation as `v0.3.0-unit-03`; anonymous public-byte evidence follows in the publication receipt.
+
+## D014 — Unit 3 GitHub publication temporarily blocked
+
+**Decision:** retain exact local content commit `5fb8d2716f0f4b0a1596178f0ab69a5cb22bbd93` as the pending `v0.3.0-unit-03` boundary and continue contiguous Unit 4 production. Retry publication at the next substantial checkpoint; do not repeatedly hammer GitHub or falsely claim a public tag/release.
+
+**Evidence:** at 2026-08-22T07:13:00Z the push to the existing official edition repository returned HTTP 403 with GitHub's explicit response that the account is suspended. A bounded authenticated `/user` check using the separately supplied credentials returned the same 403 suspension response for the valid token and HTTP 401 `Bad credentials` for the second candidate. No credential value was emitted or retained. Unit 2 therefore remains the latest anonymously verified public boundary.
+
+**Boundary:** this is external publication friction, not a defect in the verified Unit 3 files and not a reason to stop translation. No alternate repository, duplicate release, or upstream contact is authorized or created.
+
+## D015 — Unit 4 live semantic order retained
+
+**Decision:** retain the exact frozen live Unit 4 order: self-adjointness Theorem 4.7, diagonalizability Corollary 4.8, then the graph-coordinate Lemma 4.9. Do not reorder the derivative to match the sole historical 2023 PDF witness.
+
+**Reason:** the revisioned semantic/transclusion graph is the admitted editable authority. In the live order, Corollary 4.8 depends only on Theorem 4.7, the graph lemma depends only on Lemma 4.6 and Theorem 4.7, and the earlier forward reference to Corollary 4.8 resolves correctly. The official PDF's alternative Lemma 4.8 / Corollary 4.9 order is useful historical evidence but is not the production master.
+
+**Boundary:** this decision preserves current topology only. The graph lemma's false operator formula is independently corrected under `O011-CORR-0043`; retaining the live order is not evidence that the live mathematics is error-free.
+
+## D016 — Unit 4 verified local boundary
+
+**Decision:** accept the cumulative Indonesian reader through Lecture 4 and Worksheet 4 as the fourth verified production boundary and advance the source cursor to Lecture 5 / Worksheet 5.
+
+**Evidence:** the exact 72-page centered A4 PDF is 3,666,928 bytes with SHA-256 `04f84c2d7abdc721cb0ebafcd4e39c230a01faf60665f84d5e7124bf2574319b`. All four Unit 4 translation surfaces pass manifest-aware topology checks; the independent post-repair mathematics audit has no remaining finding. Two clean three-pass build cycles are byte-identical and have no warning, error, layout-warning, missing-glyph, or undefined-reference match. All 72 pages pass visual inspection; the structural verifier passes A4, language, ToUnicode, extraction, bookmarks, links, active-content, and privacy checks. The PDF remains honestly disclosed as untagged.
+
+**Closure:** Unit 4 contains 15 exercises, exactly two source-supplied solutions (7 and 10), and zero media files. Corrections `O011-CORR-0038` through `O011-CORR-0045` are explicit. The historical official PDF witness remains local-only and excluded from release because its internal and Commons license signals disagree. The additive backend contains 813 schema-valid records; the 591-record Units 1-3 prefix remains byte-identical and Unit 4 adds 222 records. Terminal receipt: `qa/unit-04/UNIT_04_QA.md`, 7,843 bytes, SHA-256 `81ae622d1d299a79e4ccaae150176ebc9eafe8b0f502be9852bcf729c21ae037`.
+
+**Boundary:** this completes one edition-production unit, not the 29-unit edition and not the separate curriculum-selection decision. The verified tree is authorized for bounded GitHub preservation; public release is claimed only after successful push and anonymous byte readback.

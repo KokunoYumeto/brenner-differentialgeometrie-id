@@ -76,3 +76,21 @@ O011-TERM-0074,Hauptsatz der Infinitesimalrechnung,teorema dasar kalkulus,admitt
 O011-TERM-0075,Kettenregel,aturan rantai,admitted,
 O011-TERM-0076,Krümmungsverlauf,profil kelengkungan,admitted,Prescribed curvature as a function of the parameter
 O011-TERM-0077,tangentialer Vektor,vektor tangen,admitted,Exact source variant used in Worksheet 3; aligned with Tangentenvektor
+O011-TERM-0078,Richtungsableitung,turunan berarah,admitted,Directional derivative
+O011-TERM-0079,normiertes Gradientenfeld,medan gradien ternormalisasi,admitted,Normalized gradient field used as a unit normal field
+O011-TERM-0080,Endomorphismus,endomorfisme,admitted,Linear endomorphism of one tangent space
+O011-TERM-0081,selbstadjungiert,adjoin-diri,admitted,Retain self-adjoint parenthetically at first reader-facing occurrence
+O011-TERM-0082,Eigenvektor,vektor eigen,admitted,
+O011-TERM-0083,Eigenwert,nilai eigen,admitted,
+O011-TERM-0084,Eigenraum,ruang eigen,admitted,
+O011-TERM-0085,diagonalisierbar,dapat didiagonalkan,admitted,
+O011-TERM-0086,Hesse-Matrix,matriks Hesse,admitted,Hessian matrix
+O011-TERM-0087,Bilinearform,bentuk bilinear,admitted,
+O011-TERM-0088,Grundvektor,vektor dasar,admitted,Vector in the graph base domain
+O011-TERM-0089,Einheitsnormalenbedingung,syarat normal satuan,admitted,
+O011-TERM-0090,Matrixdarstellung,representasi matriks,admitted,
+O011-TERM-0091,zweifach stetig differenzierbar,dua kali terdiferensialkan secara kontinu,admitted,
+O011-TERM-0092,nach oben gerichtetes Einheitsnormalenfeld,medan normal satuan yang mengarah ke atas,admitted,
+O011-TERM-0093,erste Fundamentalform,bentuk fundamental pertama,admitted,Graph metric form
+O011-TERM-0094,zweite Fundamentalform,bentuk fundamental kedua,admitted,Distinguish from the shape-operator matrix
+O011-TERM-0095,Metrikmatrix,matriks metrik,admitted,Coordinate matrix of the first fundamental form

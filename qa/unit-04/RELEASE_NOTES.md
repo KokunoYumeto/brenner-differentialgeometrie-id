@@ -1,0 +1,11 @@
+# Unit 4 — Pemetaan Weingarten
+
+Rilis kumulatif Bahasa Indonesia ini mencakup Kuliah 1–4 dan Lembar Kerja 1–4 dari kursus Holger Brenner, *Differentialgeometrie (Osnabrück 2023)*. Pembaca memuat 74 soal dan seluruh sepuluh solusi yang benar-benar disediakan oleh sumber untuk keempat unit tersebut; tidak ada solusi yang diklaim untuk soal lain.
+
+Unit 4 memperkenalkan pemetaan Weingarten, adjoin-diri, nilai dan vektor eigen, serta rumus grafik. Edisi ini mengungkap dan memperbaiki delapan cacat sumber yang dapat ditentukan secara matematis: kurva rotasi pada kerucut, dua solusi sumber yang rusak atau tidak lengkap, simbol titik pada ruang tangen, argumen hasil kali dalam yang hilang, faktor invers metrik pada matriks operator grafik, dan dua hipotesis regularitas yang terlalu lemah. Semua perubahan terikat pada ledger koreksi dan diberi catatan edisi yang terlihat oleh pembaca.
+
+PDF terdiri atas 72 halaman A4 dengan bingkai teks terpusat dan margin horizontal 22 mm. Dua siklus pembangunan bersih menghasilkan berkas identik byte demi byte tanpa peringatan, galat, luapan, kekurangan isian, glyph hilang, atau rujukan tak terdefinisi. Pemeriksaan matematika independen, struktur, visual seluruh halaman, hak media, tautan, privasi, dan backend modular telah lulus. PDF memiliki metadata bahasa `id-ID`, pemetaan ToUnicode pada seluruh 29 font, dan teks yang dapat diekstrak pada setiap halaman; PDF belum memiliki penandaan struktur.
+
+SHA-256 PDF: `04f84c2d7abdc721cb0ebafcd4e39c230a01faf60665f84d5e7124bf2574319b`.
+
+Teks sumber dan adaptasi Bahasa Indonesia tersedia berdasarkan CC BY-SA 4.0. Setiap berkas media kumulatif mempertahankan status hak atau lisensinya sendiri sebagaimana tercatat dalam manifest dan halaman atribusi; Unit 4 sendiri tidak memakai berkas media. PDF historis Unit 4 yang ditemukan di Commons hanya dipakai sebagai saksi tata urut/render lokal dan tidak didistribusikan karena sinyal lisensinya tidak konsisten. Ini adalah adaptasi independen dan tidak menyiratkan dukungan dari Holger Brenner, Wikiversity, Wikimedia Commons, atau Wikimedia Foundation. Rilis Unit 4 adalah batas produksi edisi; rilis ini bukan keputusan untuk memasukkan sumber tersebut ke dalam kurikulum terpisah.

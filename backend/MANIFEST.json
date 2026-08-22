@@ -1,34 +1,34 @@
 {
   "entity_counts": {
-    "artifact": 14,
+    "artifact": 20,
     "asset": 9,
-    "concept": 18,
-    "correction": 46,
+    "concept": 23,
+    "correction": 54,
     "course": 1,
     "edition": 1,
     "program": 1,
-    "qa_event": 31,
-    "relation": 336,
+    "qa_event": 50,
+    "relation": 480,
     "resource": 1,
-    "rights": 10,
-    "segment": 9,
-    "term": 38,
-    "unit": 76
+    "rights": 11,
+    "segment": 10,
+    "term": 56,
+    "unit": 96
   },
-  "generator": "scripts/export_backend_v3.py",
-  "generator_sha256": "b5babf58c03ebdf2725287e9d4524d373017c82f58bb66a1b3578201280fff4d",
+  "generator": "scripts/export_backend_v4.py",
+  "generator_sha256": "77351c1f1afb03774774bc7a50b958fd51c6604db6be570312c992617495c57a",
   "inputs": {
     "adverse": {
-      "bytes": 12460,
+      "bytes": 15319,
       "path": "00_control/ADVERSE_LEDGER.csv",
-      "sha256": "c8568788a4cdaa54e54fcb1a1f5cf9a3dd19df78da3a2ec4dea4520e89272dcf"
+      "sha256": "c2d9b4bc6a5fd51e0f1b5ad5a314badff19f3bbfee04d6afc38f7005ebde47c5"
     },
     "media_rights": {
       "bytes": 25588,
       "path": "authority/brenner_media_rights_manifest.csv",
       "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
     },
-    "revisions": {
+    "root_revisions": {
       "bytes": 15237,
       "path": "authority/brenner_selected_root_revisions.csv",
       "sha256": "64cf91594907db45355e64fb512fb14092e15218c74847a8f60fe884a5284fc8"
@@ -38,211 +38,256 @@
       "path": "backend/schema/o011-record-v1.schema.json",
       "sha256": "64e477d301681cd8f55775bb5825082a3386c9ee83c7e8b305bcf61f1ebb8f0b"
     },
+    "surface_revisions": {
+      "bytes": 31799,
+      "path": "authority/brenner_selected_surface_revisions.csv",
+      "sha256": "9a3a6b7dc08cc022803dad24e959365d67810d4da87a8bc4385c601db9d4bd52"
+    },
     "terminology": {
-      "bytes": 5579,
+      "bytes": 7068,
       "path": "00_control/TERMINOLOGY.csv",
-      "sha256": "edd1e7c37adb90f7adf15468799cc133b97b50b68aef9efda4b136cd1608eca6"
+      "sha256": "442cacf41a625a27cb3ebc991d3ac7336d39b03179bc880d3d88f0c9f772ab1d"
     },
-    "u03_build_receipt": {
-      "bytes": 6406,
-      "path": "qa/unit-03/build.json",
-      "sha256": "f4ef7e3989f65d6b8c15112a4ab14ab1c10e5325a050d9985936073a566eb8b7"
+    "u04_authority": {
+      "bytes": 26771,
+      "path": "qa/unit-04/AUTHORITY_PREFLIGHT.json",
+      "sha256": "0a2f455c500cad070fe8d5970786189840fd90cbb856101c7cd177de0bdefa36"
     },
-    "u03_lecture_corrections": {
-      "bytes": 966,
-      "path": "00_control/LECTURE03_PROTECTED_CORRECTIONS.json",
-      "sha256": "8beff151d17c801044d88036cbc5a8b53045c0f154a5ffa8dbd5f3f90f86c2fa"
+    "u04_authority_anomalies": {
+      "bytes": 4615,
+      "path": "qa/unit-04/AUTHORITY_ANOMALIES.md",
+      "sha256": "dab36b02cc0f1ab9cf2177a1d615709851f2a869c35cc01e5f8e127ef36f7bd1"
     },
-    "u03_lecture_receipt": {
-      "bytes": 1043,
-      "path": "qa/unit-03/lecture_translation.json",
-      "sha256": "c94d1cd6c695593bb5e1f59a77718ee325ccdb256bafa3cf3984096dc9077d3d"
-    },
-    "u03_lecture_source": {
-      "bytes": 28482,
-      "path": "authority/expanded/lecture03_source.de.tex",
-      "sha256": "c6fa222d45a2abaaa121fabbf68a76ab478d9ede7dd14f370d8e58d40887c25a"
-    },
-    "u03_lecture_target": {
-      "bytes": 29657,
-      "path": "source/units/unit-03/lecture03.id.tex",
-      "sha256": "769ec3b7e72159509ede182469711ce4093027de27096d5d256b88a6e7f32c16"
-    },
-    "u03_math_audit": {
-      "bytes": 8652,
-      "path": "qa/unit-03/POST_REPAIR_MATH_AUDIT.md",
-      "sha256": "8c82fb8a7b4ec324f7284676bdffbbe9a5b323d15c3dfcf10977a287c9c56086"
-    },
-    "u03_media_euler": {
-      "bytes": 31848,
-      "path": "authority/media/Euler spiral.svg",
-      "sha256": "886d55edfa0fa21ac992ede928cfec4f816742a16b29709ea093113b29e410b9"
-    },
-    "u03_media_evolute": {
-      "bytes": 44890,
-      "path": "authority/media/Evolute-parab.svg",
-      "sha256": "851a909594c64be31477e391ea9b45e890305ea62e32e29a1d04bc66cf497db1"
-    },
-    "u03_media_parabola": {
-      "bytes": 19469,
-      "path": "authority/media/Parabola circle.svg",
-      "sha256": "186a981781924575a5e517d83d8ab5bfb829125d0a86edc664a41a589bcfca83"
-    },
-    "u03_media_receipt": {
-      "bytes": 5698,
-      "path": "qa/unit-03_media.json",
-      "sha256": "a6af5b76a899633f366a024edd59181186846a045821aa74d8e6a2b51ab74936"
-    },
-    "u03_reader_pdf": {
-      "bytes": 3596282,
-      "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-03-id.pdf",
-      "sha256": "aee7f335c8d8110feb7b70448c70680a30700285131d5a1b4e4aeb2f2d04b46a"
-    },
-    "u03_solution07_receipt": {
-      "bytes": 998,
-      "path": "qa/unit-03/worksheet03_exercise07_solution_translation.json",
-      "sha256": "b0a310d469e4a421cfb70942a0df922447946b900470aeab481ee999dd748694"
-    },
-    "u03_solution07_source": {
-      "bytes": 2514,
-      "path": "authority/expanded/worksheet03_exercise07_solution_source.de.tex",
-      "sha256": "7e3437274bf4f79b6a3fa719876b09fdbcee4e10523a215e9e6f4ecb566cdb85"
-    },
-    "u03_solution07_target": {
-      "bytes": 2895,
-      "path": "source/units/unit-03/worksheet03_exercise07_solution.id.tex",
-      "sha256": "e1ec57974437f39f778c9eadc26f3cd565cfe69e3f88980d644b2df93552bb36"
-    },
-    "u03_solution16_receipt": {
-      "bytes": 997,
-      "path": "qa/unit-03/worksheet03_exercise16_solution_translation.json",
-      "sha256": "1aa1c1feac878b9871bfc415e38015a0d929ebc7775b42cc1515fa3b568cfbad"
-    },
-    "u03_solution16_source": {
-      "bytes": 1882,
-      "path": "authority/expanded/worksheet03_exercise16_solution_source.de.tex",
-      "sha256": "ed49f1889840b8352f634ef01400301849f8303ec27a2a38b334b744ae5e5951"
-    },
-    "u03_solution16_target": {
-      "bytes": 2166,
-      "path": "source/units/unit-03/worksheet03_exercise16_solution.id.tex",
-      "sha256": "738506177ab79f47321e5e6e83b110bfae887161477abda8145dc7ff52c2ebf3"
-    },
-    "u03_structural_receipt": {
-      "bytes": 14420,
-      "path": "qa/unit-03/pdf_structural_qa.json",
-      "sha256": "f7b5661749f631e30b8c14e50590751dc4b343e1092b72e2f9b874f89b44cc9e"
-    },
-    "u03_visual_receipt": {
-      "bytes": 3921,
-      "path": "qa/unit-03/visual_qa.json",
-      "sha256": "669c9bc22dc4374515c7f68daf94a507dcc376428113f67046e884ea8be33010"
-    },
-    "u03_worksheet_corrections": {
-      "bytes": 1234,
-      "path": "00_control/WORKSHEET03_PROTECTED_CORRECTIONS.json",
-      "sha256": "3361dae52fbe51f020692973548eb6510f4bc6ae070a00048e8e479a96754111"
-    },
-    "u03_worksheet_receipt": {
-      "bytes": 1066,
-      "path": "qa/unit-03/worksheet03_translation.json",
-      "sha256": "bf1decadfc0aaa53428e46c3ec590514bf78466b24088e60c043cc9ba1d42765"
-    },
-    "u03_worksheet_source": {
-      "bytes": 9997,
-      "path": "authority/expanded/worksheet03_source.de.tex",
-      "sha256": "8dded699ee9337ebdc4cb76a9373fb8e2f6a5df94c6048c3deaaaeaccb88bac7"
-    },
-    "u03_worksheet_target": {
-      "bytes": 10129,
-      "path": "source/units/unit-03/worksheet03.id.tex",
-      "sha256": "89b05cf8280045703c64e8a0d3540883196f6569f2c9e24f630a6b00ee703474"
-    },
-    "unit03_authority": {
-      "bytes": 36951,
-      "path": "qa/unit-03/AUTHORITY_PREFLIGHT.json",
-      "sha256": "654045743462e239dd8b10a5f755b3e0400d39cebeaf0fe20b0330e3b68cdf8c"
-    },
-    "unit03_authority_verify": {
+    "u04_authority_verify": {
       "bytes": 517,
-      "path": "qa/unit-03/AUTHORITY_PREFLIGHT_VERIFY.json",
-      "sha256": "44c8f92ecedf011bd1c8d2b18263303b189649a9aefb611101a26ef44c900bf3"
+      "path": "qa/unit-04/AUTHORITY_PREFLIGHT_VERIFY.json",
+      "sha256": "3dbcb88246dff59e786257882e671072588bd50a4fd98bfb0ba7a2b374700893"
     },
-    "unit03_solution_closure": {
-      "bytes": 14659,
-      "path": "qa/unit-03/solution_closure.json",
-      "sha256": "83ffba8238ce60a2f065c45ab4242f7042dbef83b29b3f7bdf0cf4d1f6f8caed"
+    "u04_build_receipt": {
+      "bytes": 7520,
+      "path": "qa/unit-04/build.json",
+      "sha256": "f68276cf509a33e596397e4e41edd0eba0f0762c5671239f1af900d7bb85a8eb"
     },
-    "unit03_terms_proposed": {
-      "bytes": 1571,
-      "path": "qa/unit-03/WORKSHEET_TERMS_PROPOSED.csv",
-      "sha256": "28335407201fcfb2b2fb23d15a870aa59891dcde2b8cb91586ee6a2832cd8ec0"
+    "u04_current_revision": {
+      "bytes": 3063,
+      "path": "qa/unit-04/CURRENT_REVISION_CHECK.json",
+      "sha256": "357a36764e1f2b397b3130c482c85ddd592cf874cbb3db5028053d1e354066ab"
     },
-    "unit12_baseline_csv": {
-      "bytes": 79611,
+    "u04_final_math_audit": {
+      "bytes": 11563,
+      "path": "qa/unit-04/POST_REPAIR_MATH_AUDIT.md",
+      "sha256": "814052c6ae88232593ed9cb9d1980612c8fd2e027ead853c2babae3fe0bb1f4f"
+    },
+    "u04_lecture_corrections": {
+      "bytes": 1933,
+      "path": "00_control/LECTURE04_PROTECTED_CORRECTIONS.json",
+      "sha256": "bbbefb6776c283045ee061fb2113f26d33de6789a54c3afcc08726c270208e3c"
+    },
+    "u04_lecture_math_review": {
+      "bytes": 4485,
+      "path": "qa/unit-04/LECTURE_FINDINGS.md",
+      "sha256": "aa3b5295a7c0b4b113b74bf623c25f593e92c62ffa1b591b36bd1977a10a10b3"
+    },
+    "u04_lecture_receipt": {
+      "bytes": 1314,
+      "path": "qa/unit-04/lecture04_translation.json",
+      "sha256": "bac1e9f1577535848e1e7fc455f7a651952d8285050d56a45656e9dead6c78b2"
+    },
+    "u04_lecture_source": {
+      "bytes": 26932,
+      "path": "authority/expanded/lecture04_source.de.tex",
+      "sha256": "610c85e2cb9838a2ce1deb488ceca6cb7d2ee2ab47f1e657d5df7488796f8402"
+    },
+    "u04_lecture_target": {
+      "bytes": 28602,
+      "path": "source/units/unit-04/lecture04.id.tex",
+      "sha256": "60a7a2cbfc96a9a510bfff935f40722458c85031214eeaf8ccf4e8df2af2bc81"
+    },
+    "u04_media_attribution": {
+      "bytes": 209,
+      "path": "build/generated/unit04-media-attribution-cumulative.tex",
+      "sha256": "5da5c59309fedf0f4419399e079c29750ba2de7939c507d7df90069c952606c2"
+    },
+    "u04_media_closure": {
+      "bytes": 1827,
+      "path": "qa/unit-04/media_closure.json",
+      "sha256": "acf2a10f7daab6d4d4b62e6a9735041d3b1e519b9139f93ee815324e4a9ee289"
+    },
+    "u04_media_config": {
+      "bytes": 1582,
+      "path": "source/unit_media.json",
+      "sha256": "b0b7b0bc05ba9e38e3b4e4f91f10af23fcd45a08bb3455ee08c26d99a59f1a2b"
+    },
+    "u04_media_receipt": {
+      "bytes": 763,
+      "path": "qa/unit-04_media.json",
+      "sha256": "f5fdcd22e5e670b3c311542a6ae6440d2044499a0aa87b130711b4467a276689"
+    },
+    "u04_official_pdf": {
+      "bytes": 210221,
+      "path": "authority/pdf/lecture04_commons_revid1003382720.pdf",
+      "sha256": "65ee310d19704bdbbb7f981f821901f96b166ceac416ad7cc063ae737894571d"
+    },
+    "u04_official_pdf_qa": {
+      "bytes": 2310,
+      "path": "qa/unit-04/OFFICIAL_PDF_STRUCTURAL_VISUAL_QA.json",
+      "sha256": "b5395fd883a60fc6bb99f4c2e1050131ad59a18475c3626163b1dfa87a0f5cc5"
+    },
+    "u04_official_pdf_witness": {
+      "bytes": 947,
+      "path": "qa/unit-04/OFFICIAL_PDF_WITNESS.json",
+      "sha256": "87422827230c2ce2faac3f957999b56c72cc1ea1cc11094652c800a44efbf05b"
+    },
+    "u04_reader_pdf": {
+      "bytes": 3666928,
+      "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-04-id.pdf",
+      "sha256": "04f84c2d7abdc721cb0ebafcd4e39c230a01faf60665f84d5e7124bf2574319b"
+    },
+    "u04_solution07_corrections": {
+      "bytes": 1797,
+      "path": "00_control/SOLUTION04_07_PROTECTED_CORRECTIONS.json",
+      "sha256": "f28d495a184a658a404a3ac039b4d812cbd30bd169f1c23d2984360d734dd1f2"
+    },
+    "u04_solution07_receipt": {
+      "bytes": 1205,
+      "path": "qa/unit-04/worksheet04_exercise07_solution_translation.json",
+      "sha256": "add512ed7a75c29cc00e306d9f8fe3617b8b86d1443467bea1ec8ae7ecb02d2b"
+    },
+    "u04_solution07_source": {
+      "bytes": 2623,
+      "path": "authority/expanded/worksheet04_exercise07_solution_source.de.tex",
+      "sha256": "a0df2279b1dbae5bff1a4e50385349080bd8734e20d1a6edec83e528045dc63e"
+    },
+    "u04_solution07_target": {
+      "bytes": 1983,
+      "path": "source/units/unit-04/worksheet04_exercise07_solution.id.tex",
+      "sha256": "6003193ccef4456ffcbe42e67068202567ceafe4897363aa4833b266aaf855d5"
+    },
+    "u04_solution10_corrections": {
+      "bytes": 1797,
+      "path": "00_control/SOLUTION04_10_PROTECTED_CORRECTIONS.json",
+      "sha256": "43e7ed9e660b52376e7c8ad5df9562d545011e86544f55c09f3100318c12a778"
+    },
+    "u04_solution10_receipt": {
+      "bytes": 1206,
+      "path": "qa/unit-04/worksheet04_exercise10_solution_translation.json",
+      "sha256": "fd75703de97c3e53ea528a9bb862fce76645f6de31f2865cc54f99d0bf8d5297"
+    },
+    "u04_solution10_source": {
+      "bytes": 2633,
+      "path": "authority/expanded/worksheet04_exercise10_solution_source.de.tex",
+      "sha256": "76a2f5db7eb835b19b924418ae2c1b0cfbcd8cd2d5acc387f695f71cbb069a35"
+    },
+    "u04_solution10_target": {
+      "bytes": 2661,
+      "path": "source/units/unit-04/worksheet04_exercise10_solution.id.tex",
+      "sha256": "a5d22c14d32b03265e532b34636da4d656d838cefe268c92d1ac3ec1ebd27de4"
+    },
+    "u04_solution_closure": {
+      "bytes": 13097,
+      "path": "qa/unit-04/solution_closure.json",
+      "sha256": "cbb81ccdd6115044d52b4dc61013b61bc61a38ee5565cb81f58674555548d5f7"
+    },
+    "u04_structural_receipt": {
+      "bytes": 15506,
+      "path": "qa/unit-04/STRUCTURAL_QA.json",
+      "sha256": "ad26e5f7bd9f525376b77cba0880da31730369a516a656b8d17d2f72e1503896"
+    },
+    "u04_visual_receipt": {
+      "bytes": 2418,
+      "path": "qa/unit-04/VISUAL_QA.md",
+      "sha256": "261b98fe10e34a34fe66461a7a87072b9b666dd78ec9516702454c4eb9d6b90a"
+    },
+    "u04_worksheet_corrections": {
+      "bytes": 944,
+      "path": "00_control/WORKSHEET04_PROTECTED_CORRECTIONS.json",
+      "sha256": "248901c4028c096195502727eeb1dadb2dea562394ec2de8d90b5252e9de5131"
+    },
+    "u04_worksheet_math_review": {
+      "bytes": 3077,
+      "path": "qa/unit-04/WORKSHEET_FINDINGS.md",
+      "sha256": "c7fe968410c3653e8849b6b0d6b5ba13bb276af8e2cebd189713afb840c89a64"
+    },
+    "u04_worksheet_receipt": {
+      "bytes": 1104,
+      "path": "qa/unit-04/worksheet04_translation.json",
+      "sha256": "60e22fe368748abdad2b2153321723ba6f16479f1afd615697747f9b8912d0b3"
+    },
+    "u04_worksheet_source": {
+      "bytes": 11052,
+      "path": "authority/expanded/worksheet04_source.de.tex",
+      "sha256": "81f8d9667581e0e6507dd1684b136c23f3352d1cabf2e8c4013daeb0a312cd00"
+    },
+    "u04_worksheet_target": {
+      "bytes": 11797,
+      "path": "source/units/unit-04/worksheet04.id.tex",
+      "sha256": "f3721ced8fc5db02dd600ff81f02455ec724f34c7a085f4280d8f5c2d14873f8"
+    },
+    "unit123_baseline_csv": {
+      "bytes": 125961,
       "path": "backend/records.csv",
-      "sha256": "5880fa9dee8bc0a73ed0e903d931fad38978bc2c9ef65cc58b62b48a7f26b7ba"
+      "sha256": "bdd4648d7e104da5f96a20ff85850a8782379f02609c3f29ed88117401032941"
     },
-    "unit12_baseline_jsonl": {
-      "bytes": 215317,
+    "unit123_baseline_jsonl": {
+      "bytes": 350935,
       "path": "backend/records.jsonl",
-      "sha256": "a393d3ff6c8aed203e7d3690eb6391e22ea25436cd06e85aa40e1adc23adb122"
+      "sha256": "e2b1e159b1dff04273ddb0af82e85dc32adbb507f3936881f750867527d6800a"
     }
   },
   "outputs": {
     "records.csv": {
-      "bytes": 125961,
-      "sha256": "bdd4648d7e104da5f96a20ff85850a8782379f02609c3f29ed88117401032941"
+      "bytes": 168680,
+      "sha256": "34a472148f9f376dcc6da220af640c0b4b5f12586b722015789908226059b5ea"
     },
     "records.jsonl": {
-      "bytes": 350935,
-      "sha256": "e2b1e159b1dff04273ddb0af82e85dc32adbb507f3936881f750867527d6800a"
+      "bytes": 482841,
+      "sha256": "33a4f876f8225e40a006e97453f5530c05b21e327cfd1b7058303fa2421287f9"
     }
   },
-  "record_count": 591,
+  "record_count": 813,
   "safety_checks": {
     "absolute_machine_paths_absent": true,
     "common_credential_markers_absent": true,
     "html_included_only_if_present_and_verified": true,
-    "unit03_receipts_current": true,
-    "unit03_terms_admitted": true,
-    "unit12_csv_prefix_byte_identical": true,
-    "unit12_jsonl_prefix_byte_identical": true
+    "official_pdf_withheld_disposition_preserved": true,
+    "unit04_authority_and_receipts_current": true,
+    "unit04_correction_evidence_current": true,
+    "unit04_terms_admitted": true,
+    "unit04_zero_media_closed": true,
+    "unit123_csv_prefix_byte_identical": true,
+    "unit123_jsonl_prefix_byte_identical": true
   },
-  "schema_version": 3,
-  "timestamp": "2026-08-22T06:03:04Z",
-  "unit03_extension": {
+  "schema_version": 4,
+  "timestamp": "2026-08-22T15:01:06Z",
+  "unit04_extension": {
+    "all_hint_fields_blank": true,
     "artifact_ids": [
-      "o011-artifact-u03-l03-tex",
-      "o011-artifact-u03-w03-tex",
-      "o011-artifact-u03-w03-e007-solution-tex",
-      "o011-artifact-u03-w03-e016-solution-tex",
-      "o011-artifact-through-unit03-pdf"
+      "o011-artifact-through-unit04-pdf",
+      "o011-artifact-u04-l04-tex",
+      "o011-artifact-u04-official-pdf-witness",
+      "o011-artifact-u04-w04-e007-solution-tex",
+      "o011-artifact-u04-w04-e010-solution-tex",
+      "o011-artifact-u04-w04-tex"
     ],
-    "asset_ids": [
-      "o011-asset-file-parabola-circle-svg",
-      "o011-asset-file-euler-spiral-svg",
-      "o011-asset-file-evolute-parab-svg"
-    ],
-    "authority_receipt_sha256": "654045743462e239dd8b10a5f755b3e0400d39cebeaf0fe20b0330e3b68cdf8c",
+    "asset_ids": [],
+    "authority_receipt_sha256": "0a2f455c500cad070fe8d5970786189840fd90cbb856101c7cd177de0bdefa36",
+    "authority_verification_sha256": "3dbcb88246dff59e786257882e671072588bd50a4fd98bfb0ba7a2b374700893",
     "concept_ids": [
-      "o011-concept-arc-length-parametrization",
-      "o011-concept-planar-signed-curvature",
-      "o011-concept-curvature-circle",
-      "o011-concept-evolute",
-      "o011-concept-general-curve-curvature"
+      "o011-concept-weingarten-map",
+      "o011-concept-normal-acceleration",
+      "o011-concept-shape-operator-self-adjoint",
+      "o011-concept-shape-operator-diagonalization",
+      "o011-concept-graph-shape-operator"
     ],
     "correction_ids": [
-      "O011-CORR-0028",
-      "O011-CORR-0029",
-      "O011-CORR-0030",
-      "O011-CORR-0031",
-      "O011-CORR-0032",
-      "O011-CORR-0033",
-      "O011-CORR-0034",
-      "O011-CORR-0035",
-      "O011-CORR-0036",
-      "O011-CORR-0037"
+      "O011-CORR-0038",
+      "O011-CORR-0039",
+      "O011-CORR-0040",
+      "O011-CORR-0041",
+      "O011-CORR-0042",
+      "O011-CORR-0043",
+      "O011-CORR-0044",
+      "O011-CORR-0045"
     ],
     "cumulative_html": {
       "bytes": null,
@@ -251,110 +296,120 @@
       "sha256": null
     },
     "cumulative_pdf": {
-      "bytes": 3596282,
-      "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-03-id.pdf",
-      "sha256": "aee7f335c8d8110feb7b70448c70680a30700285131d5a1b4e4aeb2f2d04b46a"
+      "bytes": 3666928,
+      "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-04-id.pdf",
+      "sha256": "04f84c2d7abdc721cb0ebafcd4e39c230a01faf60665f84d5e7124bf2574319b"
     },
+    "current_revision_receipt_sha256": "357a36764e1f2b397b3130c482c85ddd592cf874cbb3db5028053d1e354066ab",
     "entity_counts": {
-      "artifact": 5,
-      "asset": 3,
+      "artifact": 6,
+      "asset": 0,
       "concept": 5,
-      "correction": 10,
+      "correction": 8,
       "course": 0,
       "edition": 0,
       "program": 0,
-      "qa_event": 11,
-      "relation": 149,
+      "qa_event": 19,
+      "relation": 144,
       "resource": 0,
-      "rights": 3,
-      "segment": 2,
-      "term": 20,
-      "unit": 26
+      "rights": 1,
+      "segment": 1,
+      "term": 18,
+      "unit": 20
     },
-    "exercise_count": 21,
-    "media_derivatives": [
-      {
-        "bytes": 59606,
-        "filename": "Parabola circle.svg",
-        "path": "build/generated/media/Parabola circle.png",
-        "sha256": "26ae5258f872f7b3aab41ddacc4fdc48a4760492ce7a98b203134e16e68f642a"
-      },
-      {
-        "bytes": 246540,
-        "filename": "Euler spiral.svg",
-        "path": "build/generated/media/Euler spiral.png",
-        "sha256": "caf9b6bb9c2ffa5dcb72fee7e9e4bd2890a34724abbc0ffc4ea296deb22261ea"
-      },
-      {
-        "bytes": 84021,
-        "filename": "Evolute-parab.svg",
-        "path": "build/generated/media/Evolute-parab.png",
-        "sha256": "fcaacfd7dd60400f7682a5bbc87986e9a8fd99088d291fd03eb51f35723f92b0"
-      }
+    "exercise_count": 15,
+    "graded_exercise_count": 4,
+    "graded_point_total": 19,
+    "graded_point_values": [
+      4,
+      5,
+      4,
+      6
     ],
+    "latex_revision_ids": {
+      "lecture": 807138,
+      "worksheet": 807107
+    },
+    "lecture_segment_count": 1,
+    "official_pdf_witness": {
+      "bytes": 210221,
+      "path": "authority/pdf/lecture04_commons_revid1003382720.pdf",
+      "redistribution_status": "withheld_pending_resolution_of_internal_cc-by-sa-3.0_and_commons_structured_metadata_cc-by-sa-4.0_signals",
+      "release_asset": false,
+      "sha256": "65ee310d19704bdbbb7f981f821901f96b166ceac416ad7cc063ae737894571d"
+    },
+    "practice_exercise_count": 11,
     "qa_event_ids": [
-      "o011-qa-through-unit03-pdf-reproducibility",
-      "o011-qa-through-unit03-pdf-structural",
-      "o011-qa-through-unit03-pdf-visual",
-      "o011-qa-unit03-authority-preflight",
-      "o011-qa-unit03-authority-verification",
-      "o011-qa-unit03-final-math-audit",
-      "o011-qa-unit03-lecture-translation",
-      "o011-qa-unit03-media-closure",
-      "o011-qa-unit03-solution07-translation",
-      "o011-qa-unit03-solution16-translation",
-      "o011-qa-unit03-worksheet-translation"
+      "o011-qa-through-unit04-pdf-reproducibility",
+      "o011-qa-through-unit04-pdf-structural",
+      "o011-qa-through-unit04-pdf-visual",
+      "o011-qa-unit04-authority-anomalies",
+      "o011-qa-unit04-authority-preflight",
+      "o011-qa-unit04-authority-verification",
+      "o011-qa-unit04-current-revision",
+      "o011-qa-unit04-final-math-audit",
+      "o011-qa-unit04-lecture-math-review",
+      "o011-qa-unit04-lecture-translation",
+      "o011-qa-unit04-media-authority-closure",
+      "o011-qa-unit04-media-build-closure",
+      "o011-qa-unit04-official-pdf-structural-visual",
+      "o011-qa-unit04-official-pdf-witness",
+      "o011-qa-unit04-solution-closure",
+      "o011-qa-unit04-solution07-translation",
+      "o011-qa-unit04-solution10-translation",
+      "o011-qa-unit04-worksheet-math-review",
+      "o011-qa-unit04-worksheet-translation"
     ],
-    "record_count": 234,
+    "record_count": 222,
     "rights_ids": [
-      "o011-rights-media-u03-01",
-      "o011-rights-media-u03-02",
-      "o011-rights-media-u03-03"
+      "o011-rights-u04-official-pdf-witness"
     ],
-    "segment_count": 2,
+    "root_revision_ids": {
+      "lecture": 893683,
+      "worksheet": 1010985
+    },
     "solution_indices": [
       7,
-      16
+      10
     ],
     "target_hashes": {
-      "lecture": "769ec3b7e72159509ede182469711ce4093027de27096d5d256b88a6e7f32c16",
-      "solution07": "e1ec57974437f39f778c9eadc26f3cd565cfe69e3f88980d644b2df93552bb36",
-      "solution16": "738506177ab79f47321e5e6e83b110bfae887161477abda8145dc7ff52c2ebf3",
-      "worksheet": "89b05cf8280045703c64e8a0d3540883196f6569f2c9e24f630a6b00ee703474"
+      "lecture": "60a7a2cbfc96a9a510bfff935f40722458c85031214eeaf8ccf4e8df2af2bc81",
+      "solution07": "6003193ccef4456ffcbe42e67068202567ceafe4897363aa4833b266aaf855d5",
+      "solution10": "a5d22c14d32b03265e532b34636da4d656d838cefe268c92d1ac3ec1ebd27de4",
+      "worksheet": "f3721ced8fc5db02dd600ff81f02455ec724f34c7a085f4280d8f5c2d14873f8"
     },
     "term_ids": [
-      "o011-term-0028",
-      "o011-term-0029",
-      "o011-term-0048",
-      "o011-term-0049",
-      "o011-term-0050",
-      "o011-term-0052",
-      "o011-term-0053",
-      "o011-term-0054",
-      "o011-term-0055",
-      "o011-term-0056",
-      "o011-term-0057",
-      "o011-term-0058",
-      "o011-term-0059",
-      "o011-term-0060",
-      "o011-term-0061",
-      "o011-term-0062",
-      "o011-term-0063",
-      "o011-term-0065",
-      "o011-term-0066",
-      "o011-term-0077"
+      "o011-term-0078",
+      "o011-term-0079",
+      "o011-term-0080",
+      "o011-term-0081",
+      "o011-term-0082",
+      "o011-term-0083",
+      "o011-term-0084",
+      "o011-term-0085",
+      "o011-term-0086",
+      "o011-term-0087",
+      "o011-term-0088",
+      "o011-term-0089",
+      "o011-term-0090",
+      "o011-term-0091",
+      "o011-term-0092",
+      "o011-term-0093",
+      "o011-term-0094",
+      "o011-term-0095"
     ],
-    "translation_state": "visually_checked"
+    "translation_state": "visually_checked",
+    "zero_media": true
   },
-  "unit12_baseline_preservation": {
+  "unit123_baseline_preservation": {
     "byte_identical_prefix": true,
-    "bytes": 215317,
+    "bytes": 350935,
     "csv_byte_identical_prefix": true,
-    "csv_bytes": 79611,
+    "csv_bytes": 125961,
     "csv_path": "backend/records.csv",
-    "csv_sha256": "5880fa9dee8bc0a73ed0e903d931fad38978bc2c9ef65cc58b62b48a7f26b7ba",
+    "csv_sha256": "bdd4648d7e104da5f96a20ff85850a8782379f02609c3f29ed88117401032941",
     "path": "backend/records.jsonl",
-    "record_count": 357,
-    "sha256": "a393d3ff6c8aed203e7d3690eb6391e22ea25436cd06e85aa40e1adc23adb122"
+    "record_count": 591,
+    "sha256": "e2b1e159b1dff04273ddb0af82e85dc32adbb507f3936881f750867527d6800a"
   }
 }
