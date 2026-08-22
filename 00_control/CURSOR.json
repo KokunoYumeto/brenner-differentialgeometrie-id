@@ -19,7 +19,7 @@
     "pdf_sha256": "6312b4df706d0f08eeb9f37da0abda3428b5448dce54781d0f52eb9c8db5c385",
     "qa_path": "qa/unit-02/UNIT_02_QA.md",
     "qa_sha256": "ef1d89de134f4f9bca59513e8bc3790c9121e6b92d0dae5e67aa0fc882803e4f",
-    "publication_status": "locally_verified_not_published_in_current_no_git_no_publication_turn"
+    "publication_status": "published_as_v0.2.0-unit-02"
   },
   "current": {
     "unit_id": "o011-brenner-u03",
@@ -31,11 +31,11 @@
   "publication_allowed": true,
   "publication": {
     "repository": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id",
-    "release_tag": "v0.1.0-unit-01",
-    "release_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v0.1.0-unit-01",
-    "content_commit": "e36f0b4274dbd1feae6cdf7708715d8a40f98b8b",
-    "status": "published_and_publicly_verified",
-    "public_readback_timestamp": "2026-08-21T17:34:43Z"
+    "release_tag": "v0.2.0-unit-02",
+    "release_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v0.2.0-unit-02",
+    "content_commit": "500b2ce2cbc4eef0f1c443a2e5a22ab36ee9313a",
+    "status": "publication_transaction_in_progress",
+    "public_readback_timestamp": null
   },
   "upstream_contact_allowed": false
 }

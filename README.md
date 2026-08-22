@@ -4,9 +4,10 @@ Edisi independen Bahasa Indonesia dari kursus Holger Brenner, *Differentialgeome
 
 ## Status dan unduhan
 
-Pembaca kumulatif hingga Unit 2—Kuliah 1–2, Lembar Kerja 1–2, dan keenam solusi yang memang disediakan sumber—telah lulus pemeriksaan terjemahan, matematika, hak media, pembangunan ulang, visual, struktur PDF, privasi, dan reproduktibilitas. Edisi 29 unit belum selesai. Unit 2 telah diverifikasi secara lokal; Unit 1 tetap merupakan rilis publik terbaru karena giliran kerja ini secara khusus tidak melakukan Git atau publikasi.
+Pembaca kumulatif hingga Unit 2—Kuliah 1–2, Lembar Kerja 1–2, dan keenam solusi yang memang disediakan sumber—telah lulus pemeriksaan terjemahan, matematika, hak media, pembangunan ulang, visual, struktur PDF, privasi, dan reproduktibilitas. Edisi 29 unit belum selesai.
 
 - [PDF kumulatif hingga Unit 2](output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-02-id.pdf) — 44 halaman A4, 3.152.320 byte, SHA-256 `6312b4df706d0f08eeb9f37da0abda3428b5448dce54781d0f52eb9c8db5c385`
+- [Rilis GitHub Unit 2](https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v0.2.0-unit-02) — pembaca kumulatif dan sumber terverifikasi hingga Unit 2
 - [PDF Unit 1](output/pdf/geometri-diferensial-manifold-mulus-unit-01-id.pdf) — 25 halaman A4, 2.678.755 byte, SHA-256 `eb7e78affacf8a559d0f52a1c44921633d2fa74a070faa64af58efc32d34a568`
 - [Rilis GitHub Unit 1](https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v0.1.0-unit-01) — aset PDF yang sama, dibaca ulang secara publik dan cocok byte demi byte
 - [Sumber terjemahan](source/units)

@@ -56,7 +56,7 @@
 
 **Closure:** Unit 2 contains 19 exercises, exactly five source-supplied solutions (1, 2, 7, 12, 13), and two public-domain media files. Corrections O011-CORR-0012 through O011-CORR-0027 are explicit. The additive backend contains 357 schema-valid records; Unit 1's frozen 174-record slice remains byte-identical and Unit 2 adds 183 records. Terminal receipt: `qa/unit-02/UNIT_02_QA.md`, SHA-256 `ef1d89de134f4f9bca59513e8bc3790c9121e6b92d0dae5e67aa0fc882803e4f`.
 
-**Publication boundary:** no Git operation or publication was performed because the current task instruction explicitly prohibited both in this turn. Unit 1 remains the latest public release; Unit 2 is locally verified and preserved in the live lane.
+**Publication boundary:** the verified Unit 2 source/backend/reader tree was pushed as bounded content commit `500b2ce2cbc4eef0f1c443a2e5a22ab36ee9313a` and prepared for release tag `v0.2.0-unit-02`. Anonymous public-byte verification is recorded separately in the publication receipt after the release transaction.
 
 ## D010 — Bounded overlap recheck
 
