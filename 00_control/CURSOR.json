@@ -10,6 +10,12 @@
     "recursive_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
     "revision_set_sha256": "4810e9c13e352db58d7ceb5495c1cf86cb991d2193eaf6a344a48799e7ab0f71"
   },
+  "selection_authority": {
+    "path": "C:/Users/Floris/Documents/interlanguage/outputs/01a01ec1-e685-70d0-b022-211396334723/curriculum_logbook/37_O011_SELECTION_AND_EXISTING_TASK_HANDOFF_20260822.md",
+    "bytes": 17535,
+    "sha256": "e6dab7bd6246af82991eb510af1c526fe06dbb641584335b933229b168d51c0a",
+    "architecture": "29_unit_brenner_core_plus_10_official_exams_plus_original_lie_and_de_rham_bridges"
+  },
   "last_verified": {
     "unit_id": "o011-brenner-u04",
     "lecture": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 4",
@@ -19,7 +25,7 @@
     "pdf_sha256": "04f84c2d7abdc721cb0ebafcd4e39c230a01faf60665f84d5e7124bf2574319b",
     "qa_path": "qa/unit-04/UNIT_04_QA.md",
     "qa_sha256": "81ae622d1d299a79e4ccaae150176ebc9eafe8b0f502be9852bcf729c21ae037",
-    "publication_status": "verified_pending_bounded_content_commit_and_push"
+    "publication_status": "local_content_commit_f04e233_push_blocked_by_github_account_suspension"
   },
   "current": {
     "unit_id": "o011-brenner-u05",
@@ -34,16 +40,30 @@
     "release_tag": "v0.2.0-unit-02",
     "release_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v0.2.0-unit-02",
     "content_commit": "500b2ce2cbc4eef0f1c443a2e5a22ab36ee9313a",
-    "status": "published_and_publicly_verified",
-    "public_readback_timestamp": "2026-08-22T05:04:58Z"
+    "status": "historically_published_and_verified_currently_unreachable_due_account_suspension",
+    "public_readback_timestamp": "2026-08-22T05:04:58Z",
+    "current_anonymous_check_timestamp": "2026-08-22T16:00:46Z",
+    "current_anonymous_check_status": "repository_and_release_api_http_404"
   },
   "pending_publication": {
     "release_tag": "v0.4.0-unit-04",
     "includes_pending_predecessor": "v0.3.0-unit-03",
-    "local_content_commit": null,
-    "attempt_timestamp": null,
-    "status": "verified_pending_bounded_content_commit_and_push",
+    "local_content_commit": "f04e23367a6b11dbe9cd375150f5333944061910",
+    "attempt_timestamp": "2026-08-22T16:00:31Z",
+    "status": "push_blocked_by_github_account_suspension_after_ordinary_and_credential_backed_retry",
     "anonymous_public_readback_complete": false
+  },
+  "terminal_components": {
+    "brenner_core_units_total": 29,
+    "official_exam_forms_total": 10,
+    "live_exam_problem_occurrences_to_revalidate": 123,
+    "live_exam_solution_links_to_revalidate": 117,
+    "live_missing_exam_solutions_to_revalidate": 6,
+    "original_bridge_exercises_total": 24,
+    "original_mastery_problems_total": 8,
+    "planned_original_solution_bearing_items_total": 38,
+    "semantic_html_required": true,
+    "centered_a4_pdf_required": true
   },
   "upstream_contact_allowed": false
 }

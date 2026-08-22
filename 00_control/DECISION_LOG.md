@@ -111,3 +111,21 @@
 **Closure:** Unit 4 contains 15 exercises, exactly two source-supplied solutions (7 and 10), and zero media files. Corrections `O011-CORR-0038` through `O011-CORR-0045` are explicit. The historical official PDF witness remains local-only and excluded from release because its internal and Commons license signals disagree. The additive backend contains 813 schema-valid records; the 591-record Units 1-3 prefix remains byte-identical and Unit 4 adds 222 records. Terminal receipt: `qa/unit-04/UNIT_04_QA.md`, 7,843 bytes, SHA-256 `81ae622d1d299a79e4ccaae150176ebc9eafe8b0f502be9852bcf729c21ae037`.
 
 **Boundary:** this completes one edition-production unit, not the 29-unit edition and not the separate curriculum-selection decision. The verified tree is authorized for bounded GitHub preservation; public release is claimed only after successful push and anonymous byte readback.
+
+## D017 — Unit 4 GitHub publication externally blocked
+
+**Decision:** retain exact local content commit `f04e23367a6b11dbe9cd375150f5333944061910` as the pending cumulative Unit 4 boundary and continue contiguous Unit 5 production. Retry once at the next substantial checkpoint; do not repeatedly push, create a duplicate repository, or claim absent Unit 3/4 tags or releases.
+
+**Evidence:** at 2026-08-22T16:00:31Z both the ordinary HTTPS push and one explicit retry with the first supplied credential returned HTTP 403 and GitHub's exact `Your account is suspended` response. The second supplied credential returned HTTP 401 `Bad credentials` at `/user` and was not used for another push. Anonymous repository and historical Unit 2 release API reads returned HTTP 404 at 2026-08-22T16:00:46Z; GitHub's official status endpoint reported `All Systems Operational` at 2026-08-22T16:00:56Z. Sanitized receipt: `qa/unit-04/PUBLICATION_BLOCK_RECEIPT.md`.
+
+**Boundary:** the block is external account state, not a defect in the verified edition. Unit 2 remains the latest historically published and byte-verified release, though the suspended account currently hides the entire repository lineage.
+
+## D018 — Root-selected complete O011 architecture
+
+**Decision:** retain the complete 29-lecture/29-worksheet Brenner course as the core and extend this same exclusive lane with (a) all ten separately frozen official example-exam forms, (b) one original CC BY-SA 4.0 Lie-group/Lie-algebra bridge, and (c) one original CC BY-SA 4.0 de Rham/differential-topology bridge. The finite original assessment closure is 38 solution-bearing items: 12 exercises per bridge, two four-problem mastery checks, and the currently estimated six missing-exam solutions.
+
+**Authority:** curriculum-root decision file `37_O011_SELECTION_AND_EXISTING_TASK_HANDOFF_20260822.md`, 17,535 bytes, SHA-256 `e6dab7bd6246af82991eb510af1c526fe06dbb641584335b933229b168d51c0a`. The linked live exam census of 123 actual occurrences, 117 solution links, and six gaps is selection evidence only; the exact recursive freeze must recompute it. Marcello Seri 1.9.4 is CC BY-NC-SA comparison evidence, not a translation or prose donor.
+
+**Reason:** this closes D50's Lie and de Rham gateways, self-study practice, and cumulative assessment without replacing the coherent admitted course, importing a heterogeneous second spine, or creating a ShareAlike license conflict.
+
+**Terminal boundary:** O011 is complete only after all 29 pairs, the frozen ten-exam bank, both original bridges, all recomputed missing-exam solutions and 32 bridge/mastery items, exact rights and occurrence mappings, centered semantic HTML and A4 PDF, deterministic backend, full final QA, correct-lineage publication, and anonymous public-byte verification.

@@ -2,6 +2,8 @@
 
 Edisi independen Bahasa Indonesia dari kursus Holger Brenner, *Differentialgeometrie (Osnabrück 2023)*. Cakupan sumber lengkapnya ialah 29 kuliah dan 29 lembar kerja. Sumber Wikiversity dibekukan pada tingkat revisi beserta graf transklusinya, bukan hanya halaman agregator.
 
+Arsitektur O011 yang dipilih juga mencakup sepuluh formulir ujian contoh resmi yang akan dibekukan terpisah, satu jembatan asli kelompok/aljabar Lie, dan satu jembatan asli kohomologi de Rham/topologi diferensial. Kedua jembatan dan solusi ujian yang tidak disediakan sumber akan ditulis secara independen di bawah CC BY-SA 4.0, dibedakan jelas dari materi sumber. Target terbatasnya ialah 38 butir asli bersolusi: 24 latihan jembatan, delapan soal penguasaan, dan enam solusi ujian yang masih harus dikonfirmasi ulang oleh pembekuan rekursif.
+
 ## Status dan unduhan
 
 Pembaca kumulatif hingga Unit 4—Kuliah 1–4, Lembar Kerja 1–4, dan seluruh sepuluh solusi yang memang disediakan sumber—telah lulus pemeriksaan terjemahan, matematika, hak media, pembangunan ulang, visual, struktur PDF, privasi, dan reproduktibilitas. Edisi 29 unit belum selesai.
@@ -19,6 +21,8 @@ Pembaca kumulatif hingga Unit 4—Kuliah 1–4, Lembar Kerja 1–4, dan seluruh 
 - [Backend modular](backend/README.md) — 813 rekaman ber-ID stabil untuk Unit 1–4; lapisan tambahan, bukan syarat untuk membaca buku
 
 PDF memiliki metadata bahasa `id-ID`, pemetaan ToUnicode pada seluruh font, dan teks yang dapat diekstrak pada semua halaman. PDF belum memiliki penandaan struktur; pembaca HTML semantik akan menjadi permukaan aksesibilitas terstruktur utama.
+
+Catatan ketersediaan: pada 22 Agustus 2026, pemilik repositori masih ditangguhkan oleh GitHub. Push biasa dan push dengan kredensial yang disediakan sama-sama ditolak dengan HTTP 403, sedangkan pembacaan anonim repositori dan rilis lama mengembalikan HTTP 404. GitHub Status pada saat yang sama menyatakan seluruh sistem operasional. Karena itu, tautan rilis historis di atas untuk sementara tidak dapat dibuka; tidak ada rilis Unit 3 atau Unit 4 yang diklaim sampai push dan pembacaan ulang publik benar-benar berhasil.
 
 ## Sumber, lisensi, dan independensi
 

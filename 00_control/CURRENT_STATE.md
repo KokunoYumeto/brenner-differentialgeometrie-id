@@ -21,6 +21,16 @@ Brenner is the strongest bounded candidate because it covers embedded geometry, 
 
 Petrunin–Zamora is optional visual supplementation only. Its curves-and-surfaces scope cannot replace the general-manifold spine. The lawful Dionne + Joyce + Petrunin–Zamora composite is much larger and more heterogeneous, retains a nonstandard Joyce adaptation-rights surface and component-media work, and still does not close advanced solved practice. It is not a cleaner edition design. No comparator is mixed silently into this edition.
 
+## Root-selected completion architecture
+
+The curriculum root formally selected O011 in `C:\Users\Floris\Documents\interlanguage\outputs\01a01ec1-e685-70d0-b022-211396334723\curriculum_logbook\37_O011_SELECTION_AND_EXISTING_TASK_HANDOFF_20260822.md`, 17,535 bytes, SHA-256 `e6dab7bd6246af82991eb510af1c526fe06dbb641584335b933229b168d51c0a`. This retains the verified Brenner spine and adds three finite terminal components within this same exclusive lane:
+
+- all ten official example-exam forms, separately frozen and occurrence-mapped; the live selection census is 123 actual problem occurrences, 117 rendered solution-link occurrences, and six missing-solution occurrences, but the recursive freeze must recompute and supersede those counts if needed;
+- an original CC BY-SA 4.0 Lie-group/Lie-algebra bridge with 12 hinted solved exercises and one four-problem mastery check;
+- an original CC BY-SA 4.0 de Rham/differential-topology bridge with the same 12-plus-four assessment structure.
+
+The six recomputed missing-exam solutions plus 32 bridge/mastery items make 38 planned original solution-bearing items. Marcello Seri 1.9.4 is a CC BY-NC-SA 4.0 comparison reference only and contributes no translated or incorporated prose. Completion now requires the 29-unit spine, exact exam closure, both bridges, centered semantic HTML and A4 PDF, the expanded stable-ID backend, final QA, publication in the correct lineage, and anonymous public-byte verification.
+
 ## Upstream limitations admitted, not concealed
 
 - The course pages are aggregators over live semantic pages; pinning 59 top pages is insufficient.
@@ -35,7 +45,7 @@ Petrunin–Zamora is optional visual supplementation only. Its curves-and-surfac
 - Final cumulative PDF through Unit 4: 3,666,928 bytes; SHA-256 `04f84c2d7abdc721cb0ebafcd4e39c230a01faf60665f84d5e7124bf2574319b`; 72 centered A4 pages with wrapper-owned 22 mm margins. Terminal QA receipt: `qa/unit-04/UNIT_04_QA.md`, 7,843 bytes, SHA-256 `81ae622d1d299a79e4ccaae150176ebc9eafe8b0f502be9852bcf729c21ae037`.
 - Cumulative backend: 813 schema-valid records. The 591-record Units 1–3 prefix remains byte-identical and Unit 4 adds 222 records. JSONL SHA-256 `33a4f876f8225e40a006e97453f5530c05b21e327cfd1b7058303fa2421287f9`; CSV SHA-256 `34a472148f9f376dcc6da220af640c0b4b5f12586b722015789908226059b5ea`; manifest SHA-256 `d33f6c72c4be0a73cd3c9d4205422682e36aacb9f8303b63b75d25a1fb5c5a11`.
 - Current cursor: `unit-05`, source pair `Vorlesung 5` / `Arbeitsblatt 5`.
-- Publication/push: Units 3 and 4 have passed their local publication gates. Unit 3 is preserved in local content commit `5fb8d2716f0f4b0a1596178f0ab69a5cb22bbd93`; the exact Unit 4 content commit is being prepared from the verified bounded tree. The 2026-08-22T07:13:00Z push attempt was rejected by GitHub with HTTP 403 and the explicit account-suspension response. No public Unit 3 or Unit 4 tag/release is claimed until a new bounded push and anonymous readback succeed. Unit 2 remains the latest publicly verified release; production advances to Unit 5 rather than stalling translation on external account state.
+- Publication/push: Units 3 and 4 have passed their local publication gates. Unit 3 is preserved in local content commit `5fb8d2716f0f4b0a1596178f0ab69a5cb22bbd93`; Unit 4 is preserved in content commit `f04e23367a6b11dbe9cd375150f5333944061910`. At 2026-08-22T16:00:31Z both the ordinary push and one credential-backed retry reached GitHub and returned HTTP 403 with the explicit account-suspension response. The second supplied credential returned HTTP 401 at `/user` and was not used for another push. Anonymous repository and historical Unit 2 release reads returned HTTP 404 while GitHub Status reported all systems operational. No public Unit 3 or Unit 4 tag/release is claimed. Unit 2 is the latest historically published and byte-verified boundary, but its repository is currently hidden by the suspension. Production advances to Unit 5 rather than stalling translation on external account state. Sanitized evidence: `qa/unit-04/PUBLICATION_BLOCK_RECEIPT.md`.
 - Upstream contact: prohibited during production and not used.
 
 Known accessibility limitation: the cumulative PDF is not structurally tagged. It does carry `/Lang=id-ID`, all 29 unique embedded fonts have ToUnicode, and all 72 pages yield extractable text through both pypdf and pdfplumber. Semantic HTML remains the planned primary structured accessibility surface.
