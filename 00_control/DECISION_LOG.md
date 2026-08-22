@@ -47,3 +47,19 @@
 **Comparison:** Petrunin–Zamora's 214-page book is excellent for curves and surfaces but cannot supply the abstract-manifold/forms/Stokes/connections half. The 919-page Dionne + Joyce + Petrunin–Zamora composite is broader in selected places but imposes three source and license surfaces, nonstandard downstream permission wording for Joyce, more component-rights and connective work, and still lacks a solved advanced practice sequence. Brenner is the most coherent buildable single-course edition design; its de Rham and possible Lie gaps are bounded and honest.
 
 **Self-study gap:** the frozen Brenner corpus has 576 unique exercises, 84 public solution pages, 492 exercises without a public solution, and no populated worksheet hint fields. This edition must preserve that census and may later add a separately provenanced mastery layer; it must never imply that the source supplies complete hints or solutions.
+
+## D009 — Unit 2 verified local boundary
+
+**Decision:** accept the cumulative Indonesian reader through Lecture 2 and Worksheet 2 as the second verified production boundary and advance the cursor to Lecture 3 / Worksheet 3.
+
+**Evidence:** the exact 44-page A4 PDF is 3,152,320 bytes with SHA-256 `6312b4df706d0f08eeb9f37da0abda3428b5448dce54781d0f52eb9c8db5c385`. All seven Unit 2 translation surfaces pass manifest-aware topology checks and the independent final mathematical audit has no remaining P1, P2, or P3 finding. Two clean three-pass build cycles are byte-identical. All 44 pages pass visual inspection; the structural verifier passes A4, language, ToUnicode, extraction, link, active-content, and privacy checks. The PDF remains honestly disclosed as untagged.
+
+**Closure:** Unit 2 contains 19 exercises, exactly five source-supplied solutions (1, 2, 7, 12, 13), and two public-domain media files. Corrections O011-CORR-0012 through O011-CORR-0027 are explicit. The additive backend contains 357 schema-valid records; Unit 1's frozen 174-record slice remains byte-identical and Unit 2 adds 183 records. Terminal receipt: `qa/unit-02/UNIT_02_QA.md`, SHA-256 `ef1d89de134f4f9bca59513e8bc3790c9121e6b92d0dae5e67aa0fc882803e4f`.
+
+**Publication boundary:** no Git operation or publication was performed because the current task instruction explicitly prohibited both in this turn. Unit 1 remains the latest public release; Unit 2 is locally verified and preserved in the live lane.
+
+## D010 — Bounded overlap recheck
+
+**Decision:** retain sole ownership of O011 in this task and continue with Brenner Unit 3. A 2026-08-22 narrow read of the exact coordinator registry, dispatch, and execution-log files still assigns O011 only to task `01a01f48-83f5-7862-80ca-35729193814e`.
+
+**Boundary:** O004's Petrunin geometry corpus, O012 algebraic topology, and O016 Brenner *Algebraische Kurven* remain separate lanes. The coordinator's status prose for O011 is an older Unit 1 snapshot, but its ownership row is unambiguous; no duplicate corpus or write-path owner was found.

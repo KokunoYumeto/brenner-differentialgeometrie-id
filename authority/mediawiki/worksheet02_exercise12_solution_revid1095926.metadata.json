@@ -1,0 +1,23 @@
+{
+  "authority": "German Wikiversity MediaWiki API",
+  "content_format": "text/x-wiki",
+  "content_model": "wikitext",
+  "exact_utf8_base64_sha256": "60504924967cf86ba0d702c28dfdabe9601a599b7ffba4395d9a3b189b86b9f2",
+  "exact_utf8_base64_witness": "worksheet02_exercise12_solution_revid1095926.utf8.b64",
+  "mediawiki_sha1": "c7039038dd076b610eac80b920127b8502dc6dad",
+  "namespace": 0,
+  "pageid": 152865,
+  "parentid": 1094306,
+  "query_response": "authority/mediawiki/unit02_solution_pages_current.json",
+  "query_response_sha256": "bf4d8f7b6aab85e1d30c599ea963dcc63f49e9dea548a014c6a78e3e62799627",
+  "readable_normalized_bytes": 3258,
+  "readable_normalized_sha256": "7d39dec738d8da499285438dbfaf6284138f570bba44ae2981476551c0658e64",
+  "readable_normalized_witness": "worksheet02_exercise12_solution_revid1095926.wiki",
+  "revid": 1095926,
+  "source_characters": 3252,
+  "source_utf8_bytes": 3257,
+  "source_utf8_sha1": "c7039038dd076b610eac80b920127b8502dc6dad",
+  "source_utf8_sha256": "78284fe9d10f41f0503cba0d3295c761d5d168d8de06505226909c7242d4993a",
+  "timestamp": "2026-06-15T07:27:34Z",
+  "title": "Ellipse/Gaußabbildung/Bijektiv/Umkehrabbildung/Aufgabe/Lösung"
+}

@@ -1,0 +1,23 @@
+{
+  "authority": "German Wikiversity MediaWiki API",
+  "content_format": "text/x-wiki",
+  "content_model": "wikitext",
+  "exact_utf8_base64_sha256": "11da56e1117212d28ff0b281f5695d78f802326a83f63cada6d94537c3b4da9c",
+  "exact_utf8_base64_witness": "worksheet02_exercise01_solution_revid1090802.utf8.b64",
+  "mediawiki_sha1": "b186a92ddf2deeee8de0a49f21e1acae5e9da1c6",
+  "namespace": 0,
+  "pageid": 139491,
+  "parentid": 987658,
+  "query_response": "authority/mediawiki/unit02_solution_pages_current.json",
+  "query_response_sha256": "bf4d8f7b6aab85e1d30c599ea963dcc63f49e9dea548a014c6a78e3e62799627",
+  "readable_normalized_bytes": 841,
+  "readable_normalized_sha256": "29d98bc1e5ef9090cb17c2ef66abbb87a3e74eb87e39d3d12a8c4034526768ff",
+  "readable_normalized_witness": "worksheet02_exercise01_solution_revid1090802.wiki",
+  "revid": 1090802,
+  "source_characters": 838,
+  "source_utf8_bytes": 840,
+  "source_utf8_sha1": "b186a92ddf2deeee8de0a49f21e1acae5e9da1c6",
+  "source_utf8_sha256": "f6787c5b9547ac189e011cb8b1f50ecad82247095e086138bd45e0a4f06647bb",
+  "timestamp": "2026-05-31T14:13:03Z",
+  "title": "Zwei differenzierbare Kurven/Skalarprodukt/Ableitung/Aufgabe/Lösung"
+}

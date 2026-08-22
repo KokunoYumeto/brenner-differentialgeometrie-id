@@ -1,0 +1,23 @@
+{
+  "authority": "German Wikiversity MediaWiki API",
+  "content_format": "text/x-wiki",
+  "content_model": "wikitext",
+  "exact_utf8_base64_sha256": "660dced68b370dc3c3b5ef3a9df0225178a4c8726d694f32c52cd2264269819b",
+  "exact_utf8_base64_witness": "worksheet02_exercise13_solution_revid1094182.utf8.b64",
+  "mediawiki_sha1": "fde8f63ad5da4cb7f0e6f0e1a788f2e3102a076e",
+  "namespace": 0,
+  "pageid": 152873,
+  "parentid": 1088818,
+  "query_response": "authority/mediawiki/unit02_solution_pages_current.json",
+  "query_response_sha256": "bf4d8f7b6aab85e1d30c599ea963dcc63f49e9dea548a014c6a78e3e62799627",
+  "readable_normalized_bytes": 1178,
+  "readable_normalized_sha256": "025dbf4dbba76f2f798058844c26dd1cab75894d8a214aec9b205c07e3b596e5",
+  "readable_normalized_witness": "worksheet02_exercise13_solution_revid1094182.wiki",
+  "revid": 1094182,
+  "source_characters": 1168,
+  "source_utf8_bytes": 1177,
+  "source_utf8_sha1": "fde8f63ad5da4cb7f0e6f0e1a788f2e3102a076e",
+  "source_utf8_sha256": "1050f074ecb58b7a8211d756b7fcd6fe4a0a4db6a024083c31ca3c5469e9fd50",
+  "timestamp": "2026-06-14T15:10:42Z",
+  "title": "Ellipse/Gaußabbildung/Bijektiv/Aufgabe/Lösung"
+}

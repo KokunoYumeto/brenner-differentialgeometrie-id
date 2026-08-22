@@ -1,0 +1,65 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+{{:Ellipse/Gaußabbildung/Bestimme/1/Aufgabe/Lösung|opt=Text}} Die Surjektivität der Abbildung folgt aus
+{{
+Faktlink
+|Faktseitenname=
+Hyperfläche/Glatt und kompakt/Gauß-Abbildung surjektiv/Fakt
+|Nr=
+|SZ=.
+}}
+Zum Nachweis der Injektivität betrachten wir die Bedingung
+{{
+Relationskette/display
+| {{op:Bruch| 1 | \sqrt{ \alpha^2 x^2 + \beta^2 y^2 } }} {{op:Spaltenvektor|  \alpha x |  \beta y |}}
+|| {{op:Bruch| 1 | \sqrt{ \alpha^2 z^2 + \beta^2 w^2 } }} {{op:Spaltenvektor|  \alpha z |  \beta w |}}
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Das bedeutet, dass
+{{
+mathkor|term1=
+ {{op:Spaltenvektor|  \alpha x |  \beta y |}}
+|und|term2=
+ {{op:Spaltenvektor|  \alpha z |  \beta w |}}
+|SZ=
+}}
+linear abhängig sind mit einem positiven Faktor {{math|term= c |SZ=}} und dass ihre Normierungen gleich sind. Dann ist aber
+{{
+Relationskette/display
+| {{op:Spaltenvektor|  \alpha x |  \beta y |}}
+|| {{op:Spaltenvektor|  \alpha z |  \beta w |}}
+|| 
+|| 
+|| 
+|SZ=
+}} 
+und daher
+{{
+Relationskette
+| x
+|| z
+|| 
+|| 
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette
+| y
+|| w
+|| 
+|| 
+|| 
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

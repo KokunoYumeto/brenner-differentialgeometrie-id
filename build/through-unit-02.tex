@@ -1,0 +1,87 @@
+\documentclass[11pt,a4paper,oneside]{book}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[indonesian]{babel}
+\usepackage{lmodern}
+\usepackage{amsmath,amsthm,amssymb,amscd}
+\usepackage{graphicx}
+\usepackage[a4paper,margin=24mm,headheight=15pt]{geometry}
+\usepackage{microtype}
+\usepackage[hidelinks,pdfusetitle]{hyperref}
+\usepackage{bookmark}
+\input{brenner-compat.tex}
+% The frozen source numbers facts and exercises by lecture/worksheet section.
+% Book chapters are reader scaffolding and must not enter source identifiers.
+\renewcommand{\thefakt}{\arabic{section}.\arabic{fakt}}
+
+\addto\captionsindonesian{%
+  \renewcommand{\contentsname}{Daftar Isi}%
+  \renewcommand{\figurename}{Gambar}%
+  \renewcommand{\listfigurename}{Daftar Gambar}%
+}
+\hypersetup{pdflang={id-ID},bookmarksopen=true}
+\emergencystretch=1em
+\ifdefined\pdfinfoomitdate\pdfinfoomitdate=1\fi
+\ifdefined\pdftrailerid\pdftrailerid{}\fi
+\ifdefined\pdfsuppressptexinfo\pdfsuppressptexinfo=15\fi
+
+\title{Geometri Diferensial dan Manifold Mulus\\\large Pembaca kumulatif hingga Unit 2}
+\author{Holger Brenner\\Terjemahan Bahasa Indonesia independen}
+\date{Sumber: \textit{Differentialgeometrie (Osnabrück 2023)}}
+
+\begin{document}
+\hypersetup{pageanchor=false}
+\maketitle
+\hypersetup{pageanchor=true}
+\frontmatter
+\chapter*{Tentang edisi ini}
+Pembaca kumulatif ini menerjemahkan Kuliah 1--2 dan Lembar Kerja 1--2 dari kursus Holger Brenner di Wikiversity berbahasa Jerman. Teks sumber digunakan berdasarkan CC BY-SA 4.0. Terjemahan ini merupakan karya independen dan bukan edisi resmi atau dukungan dari penulis maupun Wikiversity. Setiap gambar mengikuti status hak atau lisensi berkasnya sendiri, yang dicatat pada daftar gambar dan manifest media.
+
+Sumber permanen dan hash revisi dicatat dalam berkas kontrol edisi ini. Rumus, urutan, latihan, penanda solusi, dan atribusi media dipertahankan; ID mesin hanya merupakan lapisan tambahan. Bagian solusi hanya memuat solusi yang benar-benar disediakan oleh sumber.
+\tableofcontents
+
+\mainmatter
+\part{Unit 1}
+\chapter[Kuliah 1]{Kuliah 1: Analisis dan Geometri}
+\input{generated/lecture01.id.build.tex}
+
+\chapter{Lembar Kerja 1}
+\input{generated/worksheet01.id.build.tex}
+
+\section*{Solusi yang disediakan oleh sumber}
+\addcontentsline{toc}{section}{Solusi yang disediakan oleh sumber}
+\input{generated/worksheet01_exercise01_solution.id.build.tex}
+
+\part{Unit 2}
+\chapter[Kuliah 2]{Kuliah 2: Permukaan Putar, Medan Normal, dan Pemetaan Gauss}
+\input{generated/lecture02.id.build.tex}
+
+\chapter{Lembar Kerja 2}
+\input{generated/worksheet02.id.build.tex}
+
+\section*{Solusi yang disediakan oleh sumber}
+\addcontentsline{toc}{section}{Solusi yang disediakan oleh sumber}
+\subsection*{Solusi Soal 2.1}
+\input{generated/worksheet02_exercise01_solution.id.build.tex}
+\subsection*{Solusi Soal 2.2}
+\input{generated/worksheet02_exercise02_solution.id.build.tex}
+\subsection*{Solusi Soal 2.7}
+\begingroup\scriptsize
+\input{generated/worksheet02_exercise07_solution.id.build.tex}
+\endgroup
+\subsection*{Solusi Soal 2.12}
+\begingroup\small
+\input{generated/worksheet02_exercise12_solution.id.build.tex}
+\endgroup
+\subsection*{Solusi Soal 2.13}
+\input{generated/worksheet02_exercise13_solution.id.build.tex}
+
+\backmatter
+\listoffigures
+\chapter*{Atribusi dan Hak Media}
+\addcontentsline{toc}{chapter}{Atribusi dan Hak Media}
+\input{generated/unit01-media-attribution-cumulative.tex}
+\input{generated/unit02-media-attribution-cumulative.tex}
+\chapter*{Lisensi}
+\Lizenztext
+\end{document}

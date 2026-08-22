@@ -1,0 +1,35 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es sei
+{{
+Relationskette
+|u_1
+|| h'(t)
+||
+||
+||
+|SZ=,
+}}
+das wir zu einer Orthogonalbasis {{mathl|term= u_1,u_2 {{kommadots|}} u_n |SZ=}} von {{math|term= V |SZ=}} ergänzen. Es seien {{mathl|term= h_1 {{kommadots|}} h_n |SZ=}} die Koordinatenfunktionen von {{math|term= h |SZ=}} zu dieser Basis. Dann ist 
+{{
+Relationskette/align
+| {{op:Norm| h'(t)|}}'
+|| {{op:Norm| {{op:Spaltenvektor|h_1'(t)|\vdots|h_n'(t)}} |}}'
+|| \sqrt{  h_1'(t)^2 {{plusdots}} h_n'(t)^2 }'
+|| {{op:Bruch| h_1(t) h_1'(t) {{plusdots|}}  h_n(t) h_n'(t)| \sqrt{  h_1'(t)^2 {{plusdots}} h_n'(t)^2 } }} 
+|| {{op:Bruch| h_1(t) h_1'(t) {{plusdots|}}  h_n(t) h_n'(t)|  h_1'(t)^2 {{plusdots}} h_n'(t)^2 }}  \sqrt{  h_1'(t)^2 {{plusdots}} h_n'(t)^2 } 
+|| {{op:Bruch| {{op:Skalarprodukt|h'(t)|h^{\prime \prime} (t)}}  |{{op:Skalarprodukt|h'(t)|h'(t)}} }} {{op:Norm| h'(t)|}}
+||
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

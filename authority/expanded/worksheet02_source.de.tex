@@ -1,0 +1,833 @@
+\setcounter{section}{2}
+
+  \zwischenueberschrift{Übungsaufgaben}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es seien
+\maabbdisp {f,g} {\R} { \R^n
+} {}
+\definitionsverweis {differenzierbare Kurven}{}{.}
+Berechne die
+\definitionsverweis {Ableitung}{}{}
+der Funktion
+\maabbeledisp {} {\R} {\R
+} { t } { \left\langle f(t) , g(t)  \right\rangle
+} {.}
+Formuliere das Ergebnis mit dem Skalarprodukt.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es sei
+\maabb {h} { I } { V
+} {}
+eine zweimal differenzierbare Kurve in einem
+\definitionsverweis {euklidischen Vektorraum}{}{}
+$V$. Zeige, dass bei
+
+\mavergleichskette
+{\vergleichskette
+{h'(t)
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Gleichheit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Vert { h'(t)} \Vert'
+}
+{ =} { { \frac{   \left\langle h'(t) , h^{\prime \prime} (t)  \right\rangle  }{  \left\langle h'(t) , h'(t)  \right\rangle  } } \Vert { h'(t)} \Vert
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gilt.
+
+}
+{} {}
+
+Eine
+\definitionsverweis {differenzierbare Kurve}{}{}
+\maabbeledisp {f} { [a,b] } {\R^n
+} { t } {f(t) = \left( f_1(t)  , \,   \ldots  , \,  f_n(t)                 \right)
+} {,}
+heißt
+\definitionswort {bogenparametrisiert}{,}
+wenn
+
+\mavergleichskette
+{\vergleichskette
+{ f_1'(t)^2 + \cdots +  f_n'(t)^2
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle $t$ gilt.
+
+\inputaufgabe
+{}
+{
+
+Es sei
+\maabb {\gamma} { I } {\R^n
+} {}
+eine zweimal
+\definitionsverweis {stetig differenzierbare}{}{}
+\definitionsverweis {bogenparametrisierte}{}{}
+Kurve. Zeige, dass
+\mathkor {} {\gamma'(t)} {und} {\gamma^{\prime \prime}(t)} {}
+aufeinander senkrecht stehen.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Punkt und sei
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ = }{ {]{-1},1[}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Wir betrachten die Menge
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { \left\{ f:I \rightarrow \R^n   \mid  f \text{ differenzierbar} , \,  f(0) = P       \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Wir nennen zwei
+\definitionsverweis {Kurven}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ f,g
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\stichwort {tangential äquivalent} {,} wenn
+
+\mavergleichskettedisp
+{\vergleichskette
+{ f'(0)
+}
+{ =} { g'(0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist.
+
+a) Zeige, dass dies eine
+\definitionsverweis {Äquivalenzrelation}{}{}
+ist.
+
+b) Finde den einfachsten Vertreter für die
+\definitionsverweis {Äquivalenzklassen}{}{.}
+
+c) Man gebe für jede Klasse einen weiteren Vertreter an.
+
+d) Beschreibe die Menge der Äquivalenzklassen
+\zusatzklammer {also die
+\definitionsverweis {Quotientenmenge}{}{}} {} {.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Man gebe ein Beispiel für eine
+\zusatzklammer {überall reguläre} {} {}
+\definitionsverweis {differenzierbare Hyperfläche}{}{,}
+die nicht
+\definitionsverweis {zusammenhängend}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {offene Menge}{}{}
+und sei
+\maabbdisp {f} { V } {\R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare}{}{}
+Funktion, wir betrachten den
+\definitionsverweis {Graphen}{}{}
+$Y$ zu $f$ als differenzierbare Hyperfläche in $\R^n$ im Sinne von
+[[Funktion/n-1 Variablen/Graph als Hyperfläche/Tangentialraum/Beispiel|Beispiel 1.2]].
+Bestimme die
+\definitionsverweis {Einheitsnormalenfelder}{}{}
+in diesem Fall.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es seien
+\mathkor {} {r} {und} {R} {}
+positive reelle Zahlen mit
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ < }{ r
+}
+{ < }{ R
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Bestimme ein
+\definitionsverweis {Einheitsnormalenfeld}{}{}
+für den
+\zusatzklammer {eingebetteten} {} {}
+Torus
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T
+}
+{ =} { \left\{ (x,y,z) \in \R^3  \mid   \left(  \sqrt{x^2+y^2} -R  \right)^2 +z^2  = r^2         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+\maabbdisp {f} { I } {\R_+
+} {}
+eine
+\definitionsverweis {differenzierbare Funktion}{}{}
+und sei $Y$ die zugehörige Rotationsfläche zum Graphen von $f$ als differenzierbare Hyperfläche in $\R^n$ im Sinne von
+[[Rotationsfläche/Differenzierbare positive Kurve/Graph/Tangentialraum/Fakt|Lemma 2.1]].
+Bestimme die
+\definitionsverweis {Einheitsnormalenfelder}{}{}
+in diesem Fall.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Zeige, dass die
+\definitionsverweis {Gauß-Abbildung}{}{}
+auf einer Hyperebene konstant ist. Gilt davon auch die Umkehrung?
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Zeige, dass die
+\definitionsverweis {Gauß-Abbildung}{}{}
+auf einer Sphäre im $\R^n$ mit dem Ursprung als Mittelpunkt durch eine Streckung des $\R^n$ induziert wird.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {differenzierbare Hyperfläche}{}{}
+mit dem
+\definitionsverweis {Einheitsnormalenfeld}{}{}
+$N$ und dem entgegengesetzten Einheitsnormalenfeld $-N$. Zeige, dass sich die zugehörigen
+\definitionsverweis {Gauß-Abbildungen}{}{}
+um die
+\definitionsverweis {Antipodenabbildung}{}{}
+\maabbeledisp {} {S^{n-1}} {S^{n-1}
+} { P } { -P
+} {m}
+unterscheiden.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es seien
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha,\beta
+}
+{ \in }{ \R_+
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ =} { \left\{ (x,y)\in\R^2  \mid   \alpha x^2+\beta y^2 = 1        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+\aufzaehlungzwei {Bestimme die
+\definitionsverweis {Gauß-Abbildung}{}{}
+zu $Y$.
+} { Man gebe zur Gauß-Abbildung zu $Y$ explizit eine
+\definitionsverweis {Umkehrabbildung}{}{}
+an.
+}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es seien
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha,\beta
+}
+{ \in }{ \R_+
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ =} { \left\{ (x,y)\in\R^2  \mid   \alpha x^2+\beta y^2 = 1        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Zeige, dass die
+\definitionsverweis {Gauß-Abbildung}{}{}
+zu $Y$ bijektiv ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Man gebe ein Beispiel für eine
+\definitionsverweis {differenzierbare Hyperfläche}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+derart, dass die
+\definitionsverweis {Gauß-Abbildung}{}{}
+surjektiv ist und dass es Punkte auf $S^1$ gibt, die unendlich oft angenommen werden.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei
+\maabbdisp {L} {\R^n } { \R^n
+} {}
+eine
+\definitionsverweis {lineare Isometrie}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ W'
+}
+{ = }{ L^{-1}(W)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Z
+}
+{ =} { L^{-1}(Y)
+}
+{ =} { (h \circ L)^{-1}(c)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Zeige, dass sich die Konzepte geodätische Kurve, Normalenfeld, Einheitsnormalenfeld, Gauß-Abbildung auf $Y$ und auf $Z$ entsprechen
+\zusatzklammer {also mithilfe von $L$ ineinander überführt werden können} {} {.}
+
+}
+{} {}
+
+  \zwischenueberschrift{Aufgaben zum Abgeben}
+
+\inputaufgabe
+{3}
+{
+
+Bestimme das Bild unter der
+\definitionsverweis {Gauß-Abbildung}{}{}
+zur Standardparabel mit der nach oben gerichteten Orientierung.
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ = }{ \R^3 \setminus \{ (0,0,0) \}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Nullstellenmenge}{}{}
+zu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h(x,y,z)
+}
+{ =} { x^2+y^2-z^2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Bestimme das Bild von $Y$
+\zusatzklammer {mit der durch den Gradienten von $h$ gegebenen Orientierung} {} {}
+unter der
+\definitionsverweis {Gauß-Abbildung}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{5}
+{
+
+Es seien
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha,\beta, \gamma
+}
+{ \in }{ \R_+
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ =} { \left\{ (x,y,z) \in \R^3  \mid   \alpha x^2+ \beta y^2 + \gamma z^2 = 1        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Zeige, dass die
+\definitionsverweis {Gauß-Abbildung}{}{}
+zu $Y$ bijektiv ist.
+
+}
+{} {}
+
+\inputaufgabe
+{3}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei
+\maabbdisp {L} {\R^n } { \R^n
+} {}
+eine
+\definitionsverweis {lineare Isomorphie}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ W'
+}
+{ = }{ L^{-1}(W)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Z
+}
+{ =} { L^{-1}(Y)
+}
+{ =} { (h \circ L)^{-1}(c)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Zeige, dass sich die Konzepte geodätische Kurve, Normalenfeld, Einheitsnormalenfeld, Gauß-Abbildung auf $Y$ und auf $Z$ im Allgemeinen nicht entsprechen
+\zusatzklammer {im Gegensatz zu
+[[Isometrische Isomorphie/Differenzierbare Hyperfläche/Geodätische, Normalenfeld, Gauß-Abbildung/Aufgabe|Aufgabe 2.14]],
+wo eine Isometrie vorliegt} {} {.}
+
+}
+{} {}
+
+ [[Kategorie:Latexseite]]

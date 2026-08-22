@@ -1,15 +1,19 @@
 {
   "schema_version": 1,
   "scope": "O011 Brenner Unit 1 exact media closure and TeX print derivatives",
+  "unit_number": 1,
+  "heading_level": "section",
+  "media_config": "source/unit_media.json",
+  "media_config_sha256": "10b822483a85dc7761c7b049d64ce5586e3686de104765062206fff6f0902611",
   "manifest": "authority/brenner_media_rights_manifest.csv",
   "manifest_sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57",
   "image_engine": "Version: ImageMagick 7.1.2-22 Q16 x64 ccf56fb:20260512 https://imagemagick.org",
   "source_count": 4,
   "derivative_count": 3,
   "attribution_tex": {
-    "path": "build/generated/unit01-media-attribution.tex",
-    "bytes": 1543,
-    "sha256": "f4ed7ddbdfa815c6be6ce67e187a6424318e0a05e7fec4bc0cd28976b1ed0152"
+    "path": "build/generated/unit01-media-attribution-cumulative.tex",
+    "bytes": 1511,
+    "sha256": "a26349205b46fa16abe028256b91b3f6bdb719d51086fe28ae32823092565e45"
   },
   "media": [
     {
@@ -21,10 +25,12 @@
       "commons_description_url": "https://commons.wikimedia.org/wiki/File:3d-function-6.svg",
       "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/3d-function-6.svg",
       "license": "CC BY 3.0",
+      "rights_label_id": "CC BY 3.0",
       "license_url": "https://creativecommons.org/licenses/by/3.0",
       "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:MartinThoma\" title=\"User:MartinThoma\">MartinThoma</a>",
       "credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
       "attribution_required": "true",
+      "attribution_id": "MartinThoma (karya asli).",
       "derivative": {
         "path": "build/generated/media/3d-function-6.png",
         "bytes": 1396364,
@@ -59,10 +65,12 @@
       "commons_description_url": "https://commons.wikimedia.org/wiki/File:Great_circle_passing_through_two_points.svg",
       "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Great_circle_passing_through_two_points.svg",
       "license": "CC BY-SA 4.0",
+      "rights_label_id": "CC BY-SA 4.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:HaEr48\" title=\"User:HaEr48\">HaEr48</a>",
       "credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>, Diese Datei wurde von diesem Werk abgeleitet:  <a href=\"//commons.wikimedia.org/wiki/File:Polar_angle_to_spherical_side.svg\" title=\"File:Polar angle to spherical side.svg\">Polar angle to spherical side.svg</a>: <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Polar_angle_to_spherical_side.svg\" class=\"mw-file-description\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Polar_angle_to_spherical_side.svg/250px-Polar_angle_to_spherical_side.svg.png\" decoding=\"async\" width=\"150\" height=\"151\" class=\"mw-file-element\" srcset=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Polar_angle_to_spherical_side.svg/330px-Polar_angle_to_spherical_side.svg.png 2x\" data-file-width=\"1839\" data-file-height=\"1846\"></a></span> <i>von</i> <a href=\"//commons.wikimedia.org/w/index.php?title=User:Episcophagus&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Episcophagus (page does not exist)\">Episcophagus</a><br>",
       "attribution_required": "true",
+      "attribution_id": "HaEr48; karya turunan dari Polar angle to spherical side.svg oleh Episcophagus.",
       "derivative": {
         "path": "build/generated/media/Great circle passing through two points.png",
         "bytes": 246036,
@@ -97,10 +105,12 @@
       "commons_description_url": "https://commons.wikimedia.org/wiki/File:2019-07-Helix.jpg",
       "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/2019-07-Helix.jpg",
       "license": "CC BY-SA 4.0",
+      "rights_label_id": "CC BY-SA 4.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
       "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Ag2gaeh\" title=\"User:Ag2gaeh\">Ag2gaeh</a>",
       "credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
       "attribution_required": "true",
+      "attribution_id": "Ag2gaeh (karya asli).",
       "derivative": null
     },
     {
@@ -112,10 +122,12 @@
       "commons_description_url": "https://commons.wikimedia.org/wiki/File:Planned_flight_map_of_the_Oiseau_Blanc.svg",
       "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Planned_flight_map_of_the_Oiseau_Blanc.svg",
       "license": "CC BY-SA 3.0",
+      "rights_label_id": "CC BY-SA 3.0",
       "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
       "artist_html": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:BlankMap-World8.svg\" class=\"mw-redirect\" title=\"File:BlankMap-World8.svg\">BlankMap-World8.svg</a>: <a href=\"//commons.wikimedia.org/wiki/User:AMK1211\" title=\"User:AMK1211\">AMK1211</a></li>\n<li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:Pethrus\" title=\"User:Pethrus\">Pethrus</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:Pethrus\" title=\"User talk:Pethrus\"><span class=\"signature-talk\">talk</span></a>)</li></ul>",
       "credit_html": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:BlankMap-World8.svg\" class=\"mw-redirect\" title=\"File:BlankMap-World8.svg\">BlankMap-World8.svg</a></li></ul>",
       "attribution_required": "true",
+      "attribution_id": "Pethrus; karya turunan dari BlankMap-World8.svg oleh AMK1211.",
       "derivative": {
         "path": "build/generated/media/Planned flight map of the Oiseau Blanc.png",
         "bytes": 216870,

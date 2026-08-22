@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "source": "authority/expanded/lecture02_source.de.tex",
+  "source_bytes": 22206,
+  "source_sha256": "f488d809e7d9490c40099d90c2abed2cc8bea39f11923a8d525e6302f3be470a",
+  "target": "source/units/unit-02/lecture02.id.tex",
+  "target_bytes": 22694,
+  "target_sha256": "3dec5f7c1ec47b2ea965481f78db8334ab4046b001c53dd58bde0b9d0bb4cc49",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": false,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": false,
+    "display_math_equal_or_declared": false,
+    "protected_macro_calls_equal_or_declared": false,
+    "brace_profile_equal_or_declared": false,
+    "all_declared_deltas_consumed": true
+  },
+  "counts": {
+    "commands": 563,
+    "environments": 38,
+    "inline_math": 81,
+    "display_math": 0,
+    "protected_calls": 84
+  },
+  "status": "fail",
+  "failures": [
+    "commands",
+    "inline_math",
+    "display_math",
+    "protected:vergleichskette",
+    "protected:maabb",
+    "protected:mathdisp",
+    "brace_profile"
+  ],
+  "declared_corrections": []
+}

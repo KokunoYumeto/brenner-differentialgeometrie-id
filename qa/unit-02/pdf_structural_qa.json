@@ -1,0 +1,388 @@
+{
+  "accessibility": {
+    "fonts": {
+      "104:0": {
+        "base_font": "/HOIYUC+LMRoman9-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "15:0": {
+        "base_font": "/DVLZEN+LMRoman12-Bold",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "16:0": {
+        "base_font": "/HUPSRM+LMRoman10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "328:0": {
+        "base_font": "/TGCXOT+LMRoman5-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "331:0": {
+        "base_font": "/RSBFRV+LMRoman7-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "333:0": {
+        "base_font": "/WRSMOM+LMMathItalic7-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "338:0": {
+        "base_font": "/DSSNNO+LMMathItalic5-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "33:0": {
+        "base_font": "/IRUBTY+LMRoman10-Bold",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "375:0": {
+        "base_font": "/KXPBNS+LMMonoLt10-Bold",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "54:0": {
+        "base_font": "/HUNRSX+LMMathItalic10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "55:0": {
+        "base_font": "/HUPSRM+LMRoman10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "56:0": {
+        "base_font": "/QDTWCG+MSBM10",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "57:0": {
+        "base_font": "/AGPVZB+LMMathItalic8-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "58:0": {
+        "base_font": "/QHFPWO+LMMathSymbols10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "59:0": {
+        "base_font": "/AZHGNY+LMMathSymbols8-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "60:0": {
+        "base_font": "/KHUEVK+LMRoman8-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "61:0": {
+        "base_font": "/TNFRRV+LMRoman10-Italic",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "68:0": {
+        "base_font": "/ZXULMN+LMRomanSlant10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "69:0": {
+        "base_font": "/ICMTFZ+LMMathExtension10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "6:0": {
+        "base_font": "/WBJUUY+LMRoman17-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "75:0": {
+        "base_font": "/FPXUEH+LMRoman6-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "76:0": {
+        "base_font": "/ZRBUBL+LMMathItalic6-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "77:0": {
+        "base_font": "/ONAHZY+LMMathSymbols6-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "7:0": {
+        "base_font": "/DVAFOP+LMRoman12-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "8:0": {
+        "base_font": "/EAOLXX+LMRoman12-Italic",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "93:0": {
+        "base_font": "/KHUEVK+LMRoman8-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "94:0": {
+        "base_font": "/FPXUEH+LMRoman6-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "96:0": {
+        "base_font": "/HOIYUC+LMRoman9-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      }
+    },
+    "fonts_with_tounicode": 28,
+    "fonts_without_tounicode": [],
+    "pdfplumber_empty_text_pages": [],
+    "pdfplumber_page_count": 44,
+    "pdfplumber_page_text_characters": [
+      172,
+      681,
+      458,
+      17,
+      1334,
+      807,
+      940,
+      2294,
+      1891,
+      1505,
+      2008,
+      1574,
+      1353,
+      1088,
+      365,
+      136,
+      761,
+      1187,
+      1172,
+      1627,
+      1238,
+      1124,
+      637,
+      19,
+      346,
+      1708,
+      1305,
+      1527,
+      798,
+      1542,
+      1480,
+      1282,
+      836,
+      755,
+      1343,
+      1288,
+      955,
+      1202,
+      1263,
+      1069,
+      681,
+      823,
+      1464,
+      165
+    ],
+    "pdfplumber_pages_with_extractable_text": 44,
+    "pdfplumber_version": "0.11.9",
+    "pypdf_empty_text_pages": [],
+    "pypdf_page_text_characters": [
+      171,
+      689,
+      458,
+      17,
+      1306,
+      746,
+      851,
+      2244,
+      1803,
+      1453,
+      2002,
+      1501,
+      1350,
+      1059,
+      363,
+      132,
+      723,
+      1137,
+      1118,
+      1624,
+      1218,
+      1067,
+      587,
+      19,
+      340,
+      1641,
+      1295,
+      1465,
+      758,
+      1489,
+      1439,
+      1210,
+      811,
+      723,
+      1293,
+      1253,
+      918,
+      1133,
+      1049,
+      861,
+      668,
+      823,
+      1464,
+      165
+    ],
+    "pypdf_pages_with_extractable_text": 44,
+    "pypdf_version": "6.10.0",
+    "unique_fonts": 28
+  },
+  "active_content": {
+    "acroform": false,
+    "annotation_subtype_counts": {
+      "/Link": 40
+    },
+    "attachment_markers": [],
+    "catalog_associated_files": false,
+    "collection": false,
+    "embedded_files_name_tree": false,
+    "form_fields": false,
+    "javascript_name_tree": false,
+    "unsafe_annotation_subtypes": []
+  },
+  "blockers": [],
+  "content_closure": {
+    "missing_media_attribution_text": [],
+    "missing_page_requirements": [],
+    "missing_required_text": [],
+    "required_minimum_counts": {
+      "supplied-solutions heading": {
+        "actual": 4,
+        "required": 2
+      }
+    }
+  },
+  "determinism_signals": {
+    "actual_bytes_match": true,
+    "actual_sha256_match": true,
+    "expected_bytes": 3152320,
+    "expected_sha256": "6312b4df706d0f08eeb9f37da0abda3428b5448dce54781d0f52eb9c8db5c385",
+    "trailer_id_absent": true,
+    "volatile_metadata_absent": true
+  },
+  "limitations": [
+    "PDF is untagged: it has no active structure tree with /MarkInfo /Marked true. All 28 discovered fonts have ToUnicode and every page remains text-extractable; the planned HTML reader is the primary structured accessibility surface."
+  ],
+  "links": {
+    "catalog_open_action_type": "/GoTo",
+    "external_uri_count": 15,
+    "external_uri_counts": {
+      "https://commons.wikimedia.org/wiki/File:2019-07-Helix.jpg": 2,
+      "https://commons.wikimedia.org/wiki/File:3d-function-6.svg": 2,
+      "https://commons.wikimedia.org/wiki/File:Great_circle_passing_through_two_points.svg": 2,
+      "https://commons.wikimedia.org/wiki/File:Hyperboloid1.png": 2,
+      "https://commons.wikimedia.org/wiki/File:Integral_apl_rot_obsah1.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Planned_flight_map_of_the_Oiseau_Blanc.svg": 2,
+      "https://creativecommons.org/licenses/by-sa/3.0": 1,
+      "https://creativecommons.org/licenses/by-sa/4.0": 2,
+      "https://creativecommons.org/licenses/by/3.0": 1
+    },
+    "extra_uri_counts": {},
+    "internal_link_count": 26,
+    "missing_uri_counts": {},
+    "required_uri_counts": {
+      "https://commons.wikimedia.org/wiki/File:2019-07-Helix.jpg": 2,
+      "https://commons.wikimedia.org/wiki/File:3d-function-6.svg": 2,
+      "https://commons.wikimedia.org/wiki/File:Great_circle_passing_through_two_points.svg": 2,
+      "https://commons.wikimedia.org/wiki/File:Hyperboloid1.png": 2,
+      "https://commons.wikimedia.org/wiki/File:Integral_apl_rot_obsah1.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Planned_flight_map_of_the_Oiseau_Blanc.svg": 2,
+      "https://creativecommons.org/licenses/by-sa/3.0": 1,
+      "https://creativecommons.org/licenses/by-sa/4.0": 2,
+      "https://creativecommons.org/licenses/by/3.0": 1
+    },
+    "unsafe_actions": []
+  },
+  "passed": true,
+  "pdf": {
+    "all_crop_boxes_a4": true,
+    "all_media_boxes_a4": true,
+    "all_rotations_zero": true,
+    "bytes": 3152320,
+    "catalog_language": "id-ID",
+    "crop_box_points": [
+      595.276,
+      841.89
+    ],
+    "encrypted": false,
+    "has_structure_tree": false,
+    "mark_info_marked": false,
+    "media_box_points": [
+      595.276,
+      841.89
+    ],
+    "metadata": {
+      "/Author": "Holger Brenner, Terjemahan Bahasa Indonesia independen",
+      "/Creator": "LaTeX with hyperref",
+      "/Keywords": "",
+      "/Producer": "MiKTeX pdfTeX-1.40.29",
+      "/Subject": "",
+      "/Title": "Geometri Diferensial dan Manifold Mulus Pembaca kumulatif hingga Unit 2",
+      "/Trapped": "/False"
+    },
+    "metadata_mismatches": {},
+    "pages": 44,
+    "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-02-id.pdf",
+    "sha256": "6312b4df706d0f08eeb9f37da0abda3428b5448dce54781d0f52eb9c8db5c385",
+    "tagged": false,
+    "trailer_id_present": false,
+    "volatile_metadata_keys": []
+  },
+  "privacy_and_residue": {
+    "decoded_stream_bytes_scanned": 34978417,
+    "decoded_stream_count": 103,
+    "extracted_text_hits": {},
+    "metadata_hits": {},
+    "raw_or_decompressed_object_hits": {},
+    "stream_scan_errors": []
+  },
+  "schema_version": 1,
+  "verdict": "PASS_WITH_DOCUMENTED_LIMITATION",
+  "workflow": "o011-through-unit02-pdf-structural-qa-v1"
+}

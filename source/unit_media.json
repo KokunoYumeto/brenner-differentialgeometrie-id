@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "units": {
+    "1": {
+      "media": [
+        {
+          "filename": "3d-function-6.svg",
+          "attribution_id": "MartinThoma (karya asli)."
+        },
+        {
+          "filename": "Great circle passing through two points.svg",
+          "attribution_id": "HaEr48; karya turunan dari Polar angle to spherical side.svg oleh Episcophagus."
+        },
+        {
+          "filename": "2019-07-Helix.jpg",
+          "attribution_id": "Ag2gaeh (karya asli)."
+        },
+        {
+          "filename": "Planned flight map of the Oiseau Blanc.svg",
+          "attribution_id": "Pethrus; karya turunan dari BlankMap-World8.svg oleh AMK1211."
+        }
+      ]
+    },
+    "2": {
+      "media": [
+        {
+          "filename": "Integral apl rot obsah1.svg",
+          "attribution_id": "Pajs; dialihkan dari Wikipedia bahasa Ceko ke Wikimedia Commons.",
+          "rights_label_id": "domain publik"
+        },
+        {
+          "filename": "Hyperboloid1.png",
+          "attribution_id": "Lars H. Rohwedder (RokerHRO; karya asli).",
+          "rights_label_id": "domain publik"
+        }
+      ]
+    }
+  }
+}

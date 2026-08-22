@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify Unit-1 Commons sources and create deterministic TeX-safe derivatives."""
+"""Verify one unit's Commons sources and create deterministic TeX derivatives."""
 
 from __future__ import annotations
 
@@ -10,26 +10,6 @@ import json
 import shutil
 import subprocess
 from pathlib import Path
-
-
-UNIT_MEDIA = (
-    "3d-function-6.svg",
-    "Great circle passing through two points.svg",
-    "2019-07-Helix.jpg",
-    "Planned flight map of the Oiseau Blanc.svg",
-)
-
-ATTRIBUTION_ID = {
-    "3d-function-6.svg": "MartinThoma (karya asli).",
-    "Great circle passing through two points.svg": (
-        "HaEr48; karya turunan dari Polar angle to spherical side.svg "
-        "oleh Episcophagus."
-    ),
-    "2019-07-Helix.jpg": "Ag2gaeh (karya asli).",
-    "Planned flight map of the Oiseau Blanc.svg": (
-        "Pethrus; karya turunan dari BlankMap-World8.svg oleh AMK1211."
-    ),
-}
 
 
 def digest(path: Path, algorithm: str) -> str:
@@ -73,26 +53,61 @@ def tex_escape(value: str) -> str:
     return "".join(replacements.get(character, character) for character in value)
 
 
-def write_attribution_tex(rows: list[dict[str, object]], destination: Path) -> None:
+def write_attribution_tex(
+    rows: list[dict[str, object]],
+    destination: Path,
+    unit_number: int,
+    heading_level: str,
+) -> None:
+    count_word = {
+        1: "Satu",
+        2: "Dua",
+        3: "Tiga",
+        4: "Empat",
+        5: "Lima",
+        6: "Enam",
+    }.get(len(rows), str(len(rows)))
+    rights_sentence = (
+        "mengikuti lisensinya sendiri; tautan sumber dan lisensi dapat diklik."
+        if unit_number == 1
+        else (
+            "mengikuti status hak atau lisensinya sendiri; tautan sumber dapat "
+            "diklik dan tautan lisensi dicantumkan jika tersedia."
+        )
+    )
+    if heading_level == "chapter":
+        heading = r"\chapter*{Atribusi dan Hak Media}"
+        toc = r"\addcontentsline{toc}{chapter}{Atribusi dan Hak Media}"
+    else:
+        heading = rf"\section*{{Unit {unit_number}}}"
+        toc = rf"\addcontentsline{{toc}}{{section}}{{Unit {unit_number}}}"
     lines = [
-        r"\chapter*{Atribusi dan Hak Media}",
-        r"\addcontentsline{toc}{chapter}{Atribusi dan Hak Media}",
+        heading,
+        toc,
         (
-            "Empat berkas berikut digunakan dalam Unit 1. Setiap berkas tetap "
-            "mengikuti lisensinya sendiri; tautan sumber dan lisensi dapat diklik."
+            f"{count_word} berkas berikut digunakan dalam Unit {unit_number}. "
+            f"Setiap berkas tetap {rights_sentence}"
         ),
         r"\begin{description}",
     ]
     for row in rows:
         filename = str(row["filename"])
-        license_name = str(row["license"])
+        license_name = str(row["rights_label_id"])
+        source_link = (
+            rf"\href{{{row['commons_description_url']}}}"
+            r"{Halaman sumber di Wikimedia Commons}"
+        )
+        if row["license_url"]:
+            rights_text = (
+                rf"lisensi \href{{{row['license_url']}}}"
+                rf"{{{tex_escape(license_name)}}}"
+            )
+        else:
+            rights_text = rf"status hak: {tex_escape(license_name)}"
         lines.extend(
             [
-                rf"\item[\texttt{{{tex_escape(filename)}}}] {tex_escape(ATTRIBUTION_ID[filename])}",
-                (
-                    rf"\href{{{row['commons_description_url']}}}{{Halaman sumber di Wikimedia Commons}}; "
-                    rf"lisensi \href{{{row['license_url']}}}{{{tex_escape(license_name)}}}."
-                ),
+                rf"\item[\texttt{{{tex_escape(filename)}}}] {tex_escape(str(row['attribution_id']))}",
+                f"{source_link}; {rights_text}.",
             ]
         )
     lines.extend(
@@ -117,7 +132,23 @@ def main() -> None:
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument("--attribution-tex", type=Path, required=True)
     parser.add_argument("--receipt", type=Path, required=True)
+    parser.add_argument("--media-config", type=Path, required=True)
+    parser.add_argument("--unit-number", type=int, required=True)
+    parser.add_argument(
+        "--heading-level", choices=("chapter", "section"), default="chapter"
+    )
     args = parser.parse_args()
+
+    config = json.loads(args.media_config.read_text(encoding="utf-8"))
+    try:
+        unit_config = config["units"][str(args.unit_number)]
+        media_config = unit_config["media"]
+    except (KeyError, TypeError) as exc:
+        raise RuntimeError(
+            f"missing Unit {args.unit_number} media configuration"
+        ) from exc
+    if not isinstance(media_config, list) or not media_config:
+        raise RuntimeError("unit media configuration must be a nonempty list")
 
     with args.manifest.open(encoding="utf-8", newline="") as stream:
         by_title = {row["title"]: row for row in csv.DictReader(stream)}
@@ -129,7 +160,8 @@ def main() -> None:
     args.output_dir.mkdir(parents=True, exist_ok=True)
 
     rows: list[dict[str, object]] = []
-    for filename in UNIT_MEDIA:
+    for media_item in media_config:
+        filename = media_item["filename"]
         title = f"File:{filename}"
         if title not in by_title:
             raise RuntimeError(f"missing rights-manifest row: {title}")
@@ -207,19 +239,32 @@ def main() -> None:
                 "commons_description_url": metadata["description_url"],
                 "commons_original_url": metadata["original_url"],
                 "license": metadata["license"],
+                "rights_label_id": media_item.get(
+                    "rights_label_id", metadata["license"]
+                ),
                 "license_url": metadata["license_url"],
                 "artist_html": metadata["artist_html"],
                 "credit_html": metadata["credit_html"],
                 "attribution_required": metadata["attribution_required"],
+                "attribution_id": media_item["attribution_id"],
                 "derivative": derivative,
             }
         )
 
-    write_attribution_tex(rows, args.attribution_tex)
+    write_attribution_tex(
+        rows, args.attribution_tex, args.unit_number, args.heading_level
+    )
 
     receipt = {
         "schema_version": 1,
-        "scope": "O011 Brenner Unit 1 exact media closure and TeX print derivatives",
+        "scope": (
+            f"O011 Brenner Unit {args.unit_number} exact media closure "
+            "and TeX print derivatives"
+        ),
+        "unit_number": args.unit_number,
+        "heading_level": args.heading_level,
+        "media_config": relative_path(args.media_config, args.project_root),
+        "media_config_sha256": digest(args.media_config, "sha256"),
         "manifest": relative_path(args.manifest, args.project_root),
         "manifest_sha256": digest(args.manifest, "sha256"),
         "image_engine": version,

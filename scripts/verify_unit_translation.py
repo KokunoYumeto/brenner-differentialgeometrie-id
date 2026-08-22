@@ -27,6 +27,7 @@ PROTECTED_COMMANDS = (
     "maabbdisp",
     "maabbeledisp",
     "mathbed",
+    "mathdisp",
     "includegraphics",
     "bildeinlesung",
     "bildeinlesungpng",
@@ -199,6 +200,21 @@ def main() -> None:
         return True
 
     def sequence_equal(surface: str, source_values: list[str], target_values: list[str]) -> bool:
+        if source_values == target_values:
+            return True
+        source_profile_hash = profile_hash(source_values)
+        target_profile_hash = profile_hash(target_values)
+        profile_matches = [
+            allowed_index
+            for allowed_index, item in enumerate(allowed)
+            if allowed_index not in consumed
+            and item.get("surface") == f"profile:{surface}"
+            and item.get("source_sha256") == source_profile_hash
+            and item.get("target_sha256") == target_profile_hash
+        ]
+        if len(profile_matches) == 1:
+            consumed.add(profile_matches[0])
+            return True
         if len(source_values) != len(target_values):
             return False
         equal = True

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "scope": "O011 Brenner Unit 2 exact media closure and TeX print derivatives",
+  "unit_number": 2,
+  "heading_level": "section",
+  "media_config": "source/unit_media.json",
+  "media_config_sha256": "10b822483a85dc7761c7b049d64ce5586e3686de104765062206fff6f0902611",
+  "manifest": "authority/brenner_media_rights_manifest.csv",
+  "manifest_sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57",
+  "image_engine": "Version: ImageMagick 7.1.2-22 Q16 x64 ccf56fb:20260512 https://imagemagick.org",
+  "source_count": 2,
+  "derivative_count": 1,
+  "attribution_tex": {
+    "path": "build/generated/unit02-media-attribution-cumulative.tex",
+    "bytes": 869,
+    "sha256": "0dd53642ca7da940ff863b0a707cb98cbd3f2f03a7b8c9b533985b762fe32c31"
+  },
+  "media": [
+    {
+      "filename": "Integral apl rot obsah1.svg",
+      "canonical_path": "authority/media/Integral apl rot obsah1.svg",
+      "canonical_bytes": 8098,
+      "canonical_sha1": "6acbfaacc41c1fb9c8500bbd1aef86d7fd230208",
+      "canonical_sha256": "3dc950fd001c3a2e3ef095dcceac915f4701e990ecf513cf314eaef8a8f86dd1",
+      "commons_description_url": "https://commons.wikimedia.org/wiki/File:Integral_apl_rot_obsah1.svg",
+      "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Integral_apl_rot_obsah1.svg",
+      "license": "Public domain",
+      "rights_label_id": "domain publik",
+      "license_url": "",
+      "artist_html": "<a href=\"https://en.wikipedia.org/wiki/cs:User:Pajs\" class=\"extiw\" title=\"w:cs:User:Pajs\">Pajs</a> in der <a href=\"https://en.wikipedia.org/wiki/cs:\" class=\"extiw\" title=\"w:cs:\">Wikipedia auf Tschechisch</a>",
+      "credit_html": "<bdi lang=\"de\" dir=\"ltr\">Übertragen aus <span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//cs.wikipedia.org\" href=\"https://cs.wikipedia.org\">cs.wikipedia</a></span> nach Commons.</bdi>",
+      "attribution_required": "false",
+      "attribution_id": "Pajs; dialihkan dari Wikipedia bahasa Ceko ke Wikimedia Commons.",
+      "derivative": {
+        "path": "build/generated/media/Integral apl rot obsah1.png",
+        "bytes": 73268,
+        "sha256": "fe9343b5b2448fd1618edaede2e1a9d22d9388731298ee1cee8597dd854a7055",
+        "identify": "PNG 1365 1346 sRGB",
+        "command": [
+          "magick",
+          "-background",
+          "white",
+          "-density",
+          "300",
+          "authority/media/Integral apl rot obsah1.svg",
+          "-alpha",
+          "remove",
+          "-alpha",
+          "off",
+          "-resize",
+          "1800x1800>",
+          "-strip",
+          "-define",
+          "png:exclude-chunk=date,time",
+          "PNG24:build/generated/media/Integral apl rot obsah1.png"
+        ]
+      }
+    },
+    {
+      "filename": "Hyperboloid1.png",
+      "canonical_path": "authority/media/Hyperboloid1.png",
+      "canonical_bytes": 278393,
+      "canonical_sha1": "8dd605e11b3b6cb2597dbdfaaac4857e979ceaaa",
+      "canonical_sha256": "4c813998156ef1961fa557d3a7c356d737c47291d36159baa955f170e500979b",
+      "commons_description_url": "https://commons.wikimedia.org/wiki/File:Hyperboloid1.png",
+      "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Hyperboloid1.png",
+      "license": "Public domain",
+      "rights_label_id": "domain publik",
+      "license_url": "",
+      "artist_html": "Lars H. Rohwedder (<a href=\"//commons.wikimedia.org/wiki/User:RokerHRO\" title=\"User:RokerHRO\">User:RokerHRO</a>)",
+      "credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+      "attribution_required": "false",
+      "attribution_id": "Lars H. Rohwedder (RokerHRO; karya asli).",
+      "derivative": null
+    }
+  ]
+}

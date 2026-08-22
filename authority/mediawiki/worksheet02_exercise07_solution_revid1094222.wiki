@@ -1,0 +1,57 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es ist
+{{
+Relationskette/display
+| h(x,y,z)
+|| x^2+y^2 -2 \sqrt{x^2+y^2}R+z^2 + R^2
+|| 
+|| 
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette
+| T
+|| h^{-1} (r^2)
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Der Gradient von {{math|term= h |SZ=}} ist  
+{{
+Relationskette/display
+|  {{op:Gradient| h |}} 
+|| 2 {{op:Spaltenvektor|  x   -  xR {{makl| x^2+y^2 |}}^{- {{op:Bruch| 1 | 2}} } | y   -  y R {{makl| x^2+y^2 |}}^{- {{op:Bruch| 1 | 2}} } |z}} 
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Das
+{{
+Definitionslink
+|Prämath=
+|Einheitsnormalenfeld|
+|Kontext=|
+|SZ=
+}}
+ist daher
+{{
+Relationskette/display
+| N(x,y,z)
+|| {{op:Bruch| 1 | \sqrt{ {{makl|  x   -  xR {{makl| x^2+y^2 |}}^{- {{op:Bruch| 1 | 2}} } |}}^2 + {{makl| y   -  y R {{makl| x^2+y^2 |}}^{- {{op:Bruch| 1 | 2}} } |}}^2   +z^2   } }} {{op:Spaltenvektor|  x   -  xR {{makl| x^2+y^2 |}}^{- {{op:Bruch| 1 | 2}} } | y   -  y R {{makl| x^2+y^2 |}}^{- {{op:Bruch| 1 | 2}} } |z}} 
+|| 
+|| 
+|| 
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

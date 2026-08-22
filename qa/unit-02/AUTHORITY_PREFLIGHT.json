@@ -1,0 +1,425 @@
+{
+  "authority": {
+    "course_recursive_export": {
+      "bytes": 3538709,
+      "path": "authority/mediawiki/brenner_course_recursive_current.xml",
+      "sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14"
+    },
+    "latex_surface_recursive_export": {
+      "bytes": 3722387,
+      "path": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+      "sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c"
+    },
+    "root_revision_manifest": {
+      "bytes": 15237,
+      "path": "authority/brenner_selected_root_revisions.csv",
+      "sha256": "64cf91594907db45355e64fb512fb14092e15218c74847a8f60fe884a5284fc8"
+    },
+    "root_revisions": {
+      "lecture": {
+        "mediawiki_sha1_base36": "p58d9syrhxwk61sqiu43xxqt99rmgua",
+        "namespace": 106,
+        "pageid": 142546,
+        "revid": 893641,
+        "source_export_file": "brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "text_utf8_bytes": 709,
+        "timestamp_utc": "2023-04-13T16:07:37Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 2"
+      },
+      "worksheet": {
+        "mediawiki_sha1_base36": "rsw82cuta1d9miyozhkf0ds94jdwc5q",
+        "namespace": 106,
+        "pageid": 142636,
+        "revid": 907117,
+        "source_export_file": "brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "text_utf8_bytes": 2097,
+        "timestamp_utc": "2023-07-18T12:00:58Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 2"
+      }
+    },
+    "surface_revision_manifest": {
+      "bytes": 31799,
+      "path": "authority/brenner_selected_surface_revisions.csv",
+      "sha256": "9a3a6b7dc08cc022803dad24e959365d67810d4da87a8bc4385c601db9d4bd52"
+    },
+    "surface_revisions": {
+      "lecture_latex": {
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "namespace": 106,
+        "pageid": 142576,
+        "revid": 807125,
+        "source_export_file": "brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "text_utf8_bytes": 9,
+        "timestamp_utc": "2022-09-18T10:00:20Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 2/latex"
+      },
+      "worksheet_latex": {
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "namespace": 106,
+        "pageid": 142666,
+        "revid": 807094,
+        "source_export_file": "brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "text_utf8_bytes": 9,
+        "timestamp_utc": "2022-09-18T09:55:09Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 2/latex"
+      }
+    }
+  },
+  "checkpoint_utc": "2026-08-22T03:49:56Z",
+  "checks": {
+    "all_supplied_solution_latex_snapshots_frozen": true,
+    "all_supplied_solution_revisions_frozen": true,
+    "exercise_macro_count_is_19": true,
+    "lecture_expansion_sanitized": true,
+    "revision_export_hashes_match": true,
+    "root_revision_bindings_unique": true,
+    "solution_macro_api_agreement": true,
+    "surface_revision_bindings_unique": true,
+    "translation_started": false,
+    "unit_media_binary_and_rights_closure": true,
+    "worksheet_expansion_sanitized": true
+  },
+  "expansions": {
+    "lecture": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 26169,
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": 2,
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 2/latex"
+      },
+      "replacement_characters": false,
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 27945,
+        "path": "authority/exports/lecture02_latex_expand.json",
+        "sha256": "08a21182f04117a8839ccdea429b986a21aff4763b6a3fabcb2ab5faa3d0d21e"
+      },
+      "retrieved_utc_local_receipt": "2026-08-22T03:41:45Z",
+      "sanitized_source": {
+        "bytes": 22206,
+        "path": "authority/expanded/lecture02_source.de.tex",
+        "sha256": "f488d809e7d9490c40099d90c2abed2cc8bea39f11923a8d525e6302f3be470a"
+      },
+      "sanitizer": {
+        "bytes": 3113,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+      },
+      "sanitizer_receipt": {
+        "bytes": 672,
+        "path": "qa/unit-02/lecture02_sanitize.json",
+        "sha256": "cf5e8040c223c9f981548b795aff52c19116a6d5c2cd77dbc975c57e4ae702e7"
+      },
+      "valid_utf8": true
+    },
+    "worksheet": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 13036,
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": 2,
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 2/latex"
+      },
+      "replacement_characters": false,
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 14036,
+        "path": "authority/exports/worksheet02_latex_expand.json",
+        "sha256": "81f0f3d88687a255fbe828ff70f78c15aa7686520b39728598518bc03a724ed2"
+      },
+      "retrieved_utc_local_receipt": "2026-08-22T03:41:46Z",
+      "sanitized_source": {
+        "bytes": 10171,
+        "path": "authority/expanded/worksheet02_source.de.tex",
+        "sha256": "c645aacb16233d832b492315379b0251c33fa52db6b2e7ac24be4ecc9600d3ad"
+      },
+      "sanitizer": {
+        "bytes": 3113,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+      },
+      "sanitizer_receipt": {
+        "bytes": 676,
+        "path": "qa/unit-02/worksheet02_sanitize.json",
+        "sha256": "b6437a7d46a411f7dba7099caab707db4196bdc9034a59105068b844ef5cbace"
+      },
+      "valid_utf8": true
+    }
+  },
+  "media": {
+    "api_endpoint": "https://de.wikiversity.org/w/api.php",
+    "assets": [
+      {
+        "artist_html": "<a href=\"https://en.wikipedia.org/wiki/cs:User:Pajs\" class=\"extiw\" title=\"w:cs:User:Pajs\">Pajs</a> in der <a href=\"https://en.wikipedia.org/wiki/cs:\" class=\"extiw\" title=\"w:cs:\">Wikipedia auf Tschechisch</a>",
+        "attribution_required": false,
+        "binary": {
+          "bytes": 8098,
+          "path": "authority/media/Integral apl rot obsah1.svg",
+          "sha256": "3dc950fd001c3a2e3ef095dcceac915f4701e990ecf513cf314eaef8a8f86dd1"
+        },
+        "bytes": 8098,
+        "commons_sha1": "6acbfaacc41c1fb9c8500bbd1aef86d7fd230208",
+        "credit_html": "<bdi lang=\"de\" dir=\"ltr\">Übertragen aus <span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//cs.wikipedia.org\" href=\"https://cs.wikipedia.org\">cs.wikipedia</a></span> nach Commons.</bdi>",
+        "current_api_matches_frozen_manifest": true,
+        "description_url": "https://commons.wikimedia.org/wiki/File:Integral_apl_rot_obsah1.svg",
+        "filename": "Integral apl rot obsah1.svg",
+        "height": 431,
+        "license": "Public domain",
+        "license_url": null,
+        "mime": "image/svg+xml",
+        "order": 1,
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/Integral_apl_rot_obsah1.svg",
+        "rights_manifest_sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57",
+        "surface": "lecture02",
+        "width": 437
+      },
+      {
+        "artist_html": "Lars H. Rohwedder (<a href=\"//commons.wikimedia.org/wiki/User:RokerHRO\" title=\"User:RokerHRO\">User:RokerHRO</a>)",
+        "attribution_required": false,
+        "binary": {
+          "bytes": 278393,
+          "path": "authority/media/Hyperboloid1.png",
+          "sha256": "4c813998156ef1961fa557d3a7c356d737c47291d36159baa955f170e500979b"
+        },
+        "bytes": 278393,
+        "commons_sha1": "8dd605e11b3b6cb2597dbdfaaac4857e979ceaaa",
+        "credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+        "current_api_matches_frozen_manifest": true,
+        "description_url": "https://commons.wikimedia.org/wiki/File:Hyperboloid1.png",
+        "filename": "Hyperboloid1.png",
+        "height": 1301,
+        "license": "Public domain",
+        "license_url": null,
+        "mime": "image/png",
+        "order": 2,
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Hyperboloid1.png",
+        "rights_manifest_sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57",
+        "surface": "lecture02",
+        "width": 1350
+      }
+    ],
+    "current_imageinfo_query": {
+      "bytes": 4378,
+      "path": "authority/mediawiki/unit02_media_imageinfo_current.json",
+      "sha256": "b2f4880aab1fe16db93dc0dbfc262a60de43e124f9f15b4332cb251f0f3058c6"
+    },
+    "lecture_image_count": 2,
+    "query_parameters": {
+      "action": "query",
+      "format": "json",
+      "formatversion": 2,
+      "iiprop": "url|size|sha1|mime|extmetadata",
+      "prop": "imageinfo",
+      "titles": "File:Integral apl rot obsah1.svg|File:Hyperboloid1.png"
+    },
+    "query_retrieved_utc_local_receipt": "2026-08-22T03:43:39Z",
+    "rights_manifest": {
+      "bytes": 25588,
+      "path": "authority/brenner_media_rights_manifest.csv",
+      "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+    },
+    "solution_image_count": 0,
+    "worksheet_image_count": 0
+  },
+  "next_action": "Translate Lecture 2, Worksheet 2, and the five supplied solutions in source order; preserve the two public-domain images and stable exercise indices.",
+  "schema_version": 1,
+  "scope": "Brenner Differentialgeometrie Unit 2 authority preflight; no translation",
+  "solutions": {
+    "api_endpoint": "https://de.wikiversity.org/w/api.php",
+    "closure_manifest": {
+      "bytes": 12965,
+      "path": "qa/unit-02/solution_closure.json",
+      "sha256": "074d59463b5455c296b6a45eedeec82c34f592436c9172b4038d09d10355dcc6"
+    },
+    "current_api_query_required": true,
+    "exercise_count": 19,
+    "expanded_latex_recipe": {
+      "action": "expandtemplates",
+      "format": "json",
+      "formatversion": 2,
+      "prop": "wikitext|categories|modules|jsconfigvars",
+      "text": "{{Latex}}",
+      "title": "the exact supplied-solution title suffixed /latex"
+    },
+    "frozen_recursive_xml_solution_page_count": 0,
+    "frozen_recursive_xml_solution_titles": [],
+    "macro_api_agreement": true,
+    "missing_solution_count": 14,
+    "query": {
+      "bytes": 10819,
+      "path": "authority/mediawiki/unit02_solution_pages_current.json",
+      "sha256": "bf4d8f7b6aab85e1d30c599ea963dcc63f49e9dea548a014c6a78e3e62799627"
+    },
+    "query_parameters": {
+      "action": "query",
+      "format": "json",
+      "formatversion": 2,
+      "prop": "revisions",
+      "rvprop": "ids|timestamp|sha1|content",
+      "rvslots": "main",
+      "titles": "the 19 exact task titles from the frozen Worksheet 2 root, each suffixed /Lösung"
+    },
+    "query_retrieved_utc_local_receipt": "2026-08-22T03:43:26Z",
+    "supplied": [
+      {
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet02_exercise01_solution_revid1090802.utf8.b64",
+        "exercise_index": 1,
+        "exists": true,
+        "expanded_latex_response": "authority/exports/worksheet02_exercise01_solution_latex_expand.json",
+        "expanded_latex_response_bytes": 903,
+        "expanded_latex_response_sha256": "23d0c3fc186849a1154290b84f4dea5d2908d030155e0027cb8ebdd99e5f2a77",
+        "expanded_latex_source": "authority/expanded/worksheet02_exercise01_solution_source.de.tex",
+        "expanded_latex_source_bytes": 647,
+        "expanded_latex_source_sha256": "6dcc38f066a8350fdba67145857c168e1b6ca532c07af0a8f34ee2b954ad9432",
+        "macro": "inputaufgabegibtloesung",
+        "mediawiki_sha1": "b186a92ddf2deeee8de0a49f21e1acae5e9da1c6",
+        "metadata_path": "authority/mediawiki/worksheet02_exercise01_solution_revid1090802.metadata.json",
+        "metadata_sha256": "c9d53e9d3f62bef6683f33255d0561a98f9ef8b200a199edb0ec468a6fb24681",
+        "pageid": 139491,
+        "readable_normalized_witness": "authority/mediawiki/worksheet02_exercise01_solution_revid1090802.wiki",
+        "revid": 1090802,
+        "sanitize_receipt": "qa/unit-02/worksheet02_exercise01_solution_sanitize.json",
+        "sanitize_receipt_sha256": "1c802147ce68687acb928b6123244794a0b297f0e984b1f0bdc0108169b13787",
+        "solution_title": "Zwei differenzierbare Kurven/Skalarprodukt/Ableitung/Aufgabe/Lösung",
+        "source_utf8_bytes": 840,
+        "source_utf8_sha256": "f6787c5b9547ac189e011cb8b1f50ecad82247095e086138bd45e0a4f06647bb",
+        "task_title": "Zwei differenzierbare Kurven/Skalarprodukt/Ableitung/Aufgabe",
+        "timestamp": "2026-05-31T14:13:03Z"
+      },
+      {
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet02_exercise02_solution_revid1089268.utf8.b64",
+        "exercise_index": 2,
+        "exists": true,
+        "expanded_latex_response": "authority/exports/worksheet02_exercise02_solution_latex_expand.json",
+        "expanded_latex_response_bytes": 1342,
+        "expanded_latex_response_sha256": "cc6649a61e48b3423dc1b9dcdb2aa3abedade57deb01da338d3c7387c1d00204",
+        "expanded_latex_source": "authority/expanded/worksheet02_exercise02_solution_source.de.tex",
+        "expanded_latex_source_bytes": 999,
+        "expanded_latex_source_sha256": "a92e556f50d2216192fc61703eea4bae3d233ab632c8eedb19bd35dec2ed89b0",
+        "macro": "inputaufgabegibtloesung",
+        "mediawiki_sha1": "d684028bf2c688772acfeb0f37a42bd274ff6e70",
+        "metadata_path": "authority/mediawiki/worksheet02_exercise02_solution_revid1089268.metadata.json",
+        "metadata_sha256": "280c741c2b096236ef8ab0fbdf7f0bf363eb3d8d52f7d654d8426c69089e42a4",
+        "pageid": 120435,
+        "readable_normalized_witness": "authority/mediawiki/worksheet02_exercise02_solution_revid1089268.wiki",
+        "revid": 1089268,
+        "sanitize_receipt": "qa/unit-02/worksheet02_exercise02_solution_sanitize.json",
+        "sanitize_receipt_sha256": "1340f42d7aa82b8e022c78b7efd1bef98084fe9f2a8d0cb84daf92ef01a13a8e",
+        "solution_title": "Differenzierbare Kurve/Geschwindigkeitsnorm/Ableitung/Charakterisierung/Aufgabe/Lösung",
+        "source_utf8_bytes": 1028,
+        "source_utf8_sha256": "0bdd1cde6d1d0dc74757aa824634d10b6b4bf413efb4431538b7d9bac2b6f06c",
+        "task_title": "Differenzierbare Kurve/Geschwindigkeitsnorm/Ableitung/Charakterisierung/Aufgabe",
+        "timestamp": "2026-05-31T10:02:12Z"
+      },
+      {
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet02_exercise07_solution_revid1094222.utf8.b64",
+        "exercise_index": 7,
+        "exists": true,
+        "expanded_latex_response": "authority/exports/worksheet02_exercise07_solution_latex_expand.json",
+        "expanded_latex_response_bytes": 1548,
+        "expanded_latex_response_sha256": "69b6d2078dbeaafe499085a21ac9c49e0df38fc7530d6f956974d09fb0c983ca",
+        "expanded_latex_source": "authority/expanded/worksheet02_exercise07_solution_source.de.tex",
+        "expanded_latex_source_bytes": 1131,
+        "expanded_latex_source_sha256": "90d9007e6a313dcbc4614045f0831b826f7a9af82897e17a36fbce08088ef92b",
+        "macro": "inputaufgabegibtloesung",
+        "mediawiki_sha1": "763b0e249dc4092c784d70c9547217f198a3c370",
+        "metadata_path": "authority/mediawiki/worksheet02_exercise07_solution_revid1094222.metadata.json",
+        "metadata_sha256": "957796fc854aea026ea4d82acddad3ca8fef21d34e0e979ed6668ddd83d649ee",
+        "pageid": 152882,
+        "readable_normalized_witness": "authority/mediawiki/worksheet02_exercise07_solution_revid1094222.wiki",
+        "revid": 1094222,
+        "sanitize_receipt": "qa/unit-02/worksheet02_exercise07_solution_sanitize.json",
+        "sanitize_receipt_sha256": "817965edae47ceda54c31952c65bfd918488de79d2ff9ffe3700f47701f1fae0",
+        "solution_title": "Eingebetteter Torus/Einheitsnormalenfeld/Aufgabe/Lösung",
+        "source_utf8_bytes": 1023,
+        "source_utf8_sha256": "dbe0990deca042c24dda79891b6ccc66b57723be69023687cacd7ffa206f6988",
+        "task_title": "Eingebetteter Torus/Einheitsnormalenfeld/Aufgabe",
+        "timestamp": "2026-06-14T15:20:09Z"
+      },
+      {
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet02_exercise12_solution_revid1095926.utf8.b64",
+        "exercise_index": 12,
+        "exists": true,
+        "expanded_latex_response": "authority/exports/worksheet02_exercise12_solution_latex_expand.json",
+        "expanded_latex_response_bytes": 5358,
+        "expanded_latex_response_sha256": "28281d1f854692bd48fc631296a0f35b2cb3a32a3017d85c5174e7c8e207b9f3",
+        "expanded_latex_source": "authority/expanded/worksheet02_exercise12_solution_source.de.tex",
+        "expanded_latex_source_bytes": 4592,
+        "expanded_latex_source_sha256": "3191adb6fbfaf1be11c0e7a061468a4fd6fe9235cd0dea40771ec97bd10f970f",
+        "macro": "inputaufgabegibtloesung",
+        "mediawiki_sha1": "c7039038dd076b610eac80b920127b8502dc6dad",
+        "metadata_path": "authority/mediawiki/worksheet02_exercise12_solution_revid1095926.metadata.json",
+        "metadata_sha256": "c41a8b2bb1fdc83ece67d9803f21b659685786bb592cd021594fdae68dc1769f",
+        "pageid": 152865,
+        "readable_normalized_witness": "authority/mediawiki/worksheet02_exercise12_solution_revid1095926.wiki",
+        "revid": 1095926,
+        "sanitize_receipt": "qa/unit-02/worksheet02_exercise12_solution_sanitize.json",
+        "sanitize_receipt_sha256": "8b6daa1de5673a078866c624da8cb716e81a0d853bfb1ed6988e865244cb10ce",
+        "solution_title": "Ellipse/Gaußabbildung/Bijektiv/Umkehrabbildung/Aufgabe/Lösung",
+        "source_utf8_bytes": 3257,
+        "source_utf8_sha256": "78284fe9d10f41f0503cba0d3295c761d5d168d8de06505226909c7242d4993a",
+        "task_title": "Ellipse/Gaußabbildung/Bijektiv/Umkehrabbildung/Aufgabe",
+        "timestamp": "2026-06-15T07:27:34Z"
+      },
+      {
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet02_exercise13_solution_revid1094182.utf8.b64",
+        "exercise_index": 13,
+        "exists": true,
+        "expanded_latex_response": "authority/exports/worksheet02_exercise13_solution_latex_expand.json",
+        "expanded_latex_response_bytes": 2635,
+        "expanded_latex_response_sha256": "253464a57f7f95309cbc957f0311d564ef79a945d4bb103d9c159bc8bc1d4605",
+        "expanded_latex_source": "authority/expanded/worksheet02_exercise13_solution_source.de.tex",
+        "expanded_latex_source_bytes": 2060,
+        "expanded_latex_source_sha256": "6896eb6a4a6f4c25bcfaab674847dcd78bc079cfd6c58b3b8542c5c220d85e7b",
+        "macro": "inputaufgabegibtloesung",
+        "mediawiki_sha1": "fde8f63ad5da4cb7f0e6f0e1a788f2e3102a076e",
+        "metadata_path": "authority/mediawiki/worksheet02_exercise13_solution_revid1094182.metadata.json",
+        "metadata_sha256": "d6329d3daeb9089bc9223ee73c28f99159fb0ef8a9a9878d948c76a15c52aadf",
+        "pageid": 152873,
+        "readable_normalized_witness": "authority/mediawiki/worksheet02_exercise13_solution_revid1094182.wiki",
+        "revid": 1094182,
+        "sanitize_receipt": "qa/unit-02/worksheet02_exercise13_solution_sanitize.json",
+        "sanitize_receipt_sha256": "59ec7fd089fd11108358cde7a1d380017612645b3407b74a9bd04e0aec9d7eff",
+        "solution_title": "Ellipse/Gaußabbildung/Bijektiv/Aufgabe/Lösung",
+        "source_utf8_bytes": 1177,
+        "source_utf8_sha256": "1050f074ecb58b7a8211d756b7fcd6fe4a0a4db6a024083c31ca3c5469e9fd50",
+        "task_title": "Ellipse/Gaußabbildung/Bijektiv/Aufgabe",
+        "timestamp": "2026-06-14T15:10:42Z"
+      }
+    ],
+    "supplied_solution_count": 5,
+    "supplied_solution_indices": [
+      1,
+      2,
+      7,
+      12,
+      13
+    ]
+  },
+  "status": "pass",
+  "structure": {
+    "additional_solution_bearing_macros": [],
+    "lecture_section_count": 3,
+    "worksheet_exercise_count": 19,
+    "worksheet_solution_bearing_indices": [
+      1,
+      2,
+      7,
+      12,
+      13
+    ],
+    "worksheet_solution_bearing_macro_count": 5
+  },
+  "workflow": "o011-unit02-authority-preflight-v1"
+}

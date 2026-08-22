@@ -10,6 +10,9 @@
 \usepackage[hidelinks,pdfusetitle]{hyperref}
 \usepackage{bookmark}
 \input{brenner-compat.tex}
+% The frozen source numbers facts and exercises by lecture/worksheet section.
+% Book chapters are reader scaffolding and must not enter source identifiers.
+\renewcommand{\thefakt}{\arabic{section}.\arabic{fakt}}
 
 \addto\captionsindonesian{%
   \renewcommand{\contentsname}{Daftar Isi}%

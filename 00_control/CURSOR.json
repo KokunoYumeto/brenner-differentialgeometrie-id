@@ -3,7 +3,7 @@
   "role_id": "O011",
   "course_id": "D50",
   "lane": "smooth-manifolds-differential-geometry-id",
-  "status": "unit_01_verified_unit_02_next",
+  "status": "unit_02_verified_unit_03_next",
   "authority": {
     "course_pageid": 142521,
     "course_revid": 889544,
@@ -11,17 +11,20 @@
     "revision_set_sha256": "4810e9c13e352db58d7ceb5495c1cf86cb991d2193eaf6a344a48799e7ab0f71"
   },
   "last_verified": {
-    "unit_id": "o011-brenner-u01",
-    "lecture": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 1",
-    "worksheet": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 1",
-    "pdf_path": "output/pdf/geometri-diferensial-manifold-mulus-unit-01-id.pdf",
-    "pdf_bytes": 2678755,
-    "pdf_sha256": "eb7e78affacf8a559d0f52a1c44921633d2fa74a070faa64af58efc32d34a568"
-  },
-  "current": {
     "unit_id": "o011-brenner-u02",
     "lecture": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 2",
-    "worksheet": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 2"
+    "worksheet": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 2",
+    "pdf_path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-02-id.pdf",
+    "pdf_bytes": 3152320,
+    "pdf_sha256": "6312b4df706d0f08eeb9f37da0abda3428b5448dce54781d0f52eb9c8db5c385",
+    "qa_path": "qa/unit-02/UNIT_02_QA.md",
+    "qa_sha256": "ef1d89de134f4f9bca59513e8bc3790c9121e6b92d0dae5e67aa0fc882803e4f",
+    "publication_status": "locally_verified_not_published_in_current_no_git_no_publication_turn"
+  },
+  "current": {
+    "unit_id": "o011-brenner-u03",
+    "lecture": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 3",
+    "worksheet": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 3"
   },
   "standing_push_authorization": true,
   "publication_gate_passed": true,

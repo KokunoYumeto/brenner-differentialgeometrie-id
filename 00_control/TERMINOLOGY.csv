@@ -17,3 +17,32 @@ O011-TERM-0015,Satz von Stokes,teorema Stokes,admitted,
 O011-TERM-0016,Partition der Eins,partisi satuan,admitted,
 O011-TERM-0017,Weingartenabbildung,pemetaan Weingarten,admitted,
 O011-TERM-0018,Normalenfeld,medan normal,admitted,
+O011-TERM-0019,Rotationsfläche,permukaan putar,admitted,Surface of revolution
+O011-TERM-0020,Jacobimatrix,matriks Jacobi,admitted,
+O011-TERM-0021,Einheitsnormalenfeld,medan normal satuan,admitted,
+O011-TERM-0022,Einheitsnormalenvektor,vektor normal satuan,admitted,
+O011-TERM-0023,Orientierung,orientasi,admitted,
+O011-TERM-0024,Gauß-Abbildung,pemetaan Gauss,admitted,Use ASCII spelling in Indonesian prose
+O011-TERM-0025,einschaliges Hyperboloid,hiperboloid satu lembar,admitted,
+O011-TERM-0026,Antipodenabbildung / antipodale Abbildung,pemetaan antipodal,admitted,
+O011-TERM-0027,Hyperebene,hiperbidang,admitted,
+O011-TERM-0028,Bogenparametrisierung,parametrisasi panjang busur,admitted,
+O011-TERM-0029,bogenparametrisiert,berparametrisasi panjang busur,admitted,Adjectival form
+O011-TERM-0030,zusammenhängend,terhubung,admitted,Topological connectedness; distinguish geometric connection
+O011-TERM-0031,affin-linearer Unterraum,subruang afin-linear,admitted,Avoid subruang vektor afin
+O011-TERM-0032,gemeinfrei,domain publik,admitted,Reader-facing media rights label
+O011-TERM-0033,differenzierbare Kurve,kurva terdiferensialkan,admitted,
+O011-TERM-0034,Ableitung,turunan,admitted,
+O011-TERM-0035,euklidischer Vektorraum,ruang vektor Euklides,admitted,
+O011-TERM-0036,tangential äquivalent,ekuivalen secara tangensial,admitted,
+O011-TERM-0037,Äquivalenzrelation,relasi ekuivalensi,admitted,
+O011-TERM-0038,Äquivalenzklasse,kelas ekuivalensi,admitted,
+O011-TERM-0039,Quotientenmenge,himpunan hasil bagi,admitted,
+O011-TERM-0040,differenzierbare Hyperfläche,hipermuka terdiferensialkan,admitted,
+O011-TERM-0041,Graph,grafik,admitted,Graph of a function
+O011-TERM-0042,Umkehrabbildung / Umkehrfunktion,pemetaan invers,admitted,
+O011-TERM-0043,lineare Isometrie,isometri linear,admitted,
+O011-TERM-0044,lineare Isomorphie,isomorfisme linear,admitted,
+O011-TERM-0045,Nullstellenmenge,himpunan nol,admitted,
+O011-TERM-0046,Streckung,homoteti skalar,admitted,Use dilatasi only where a positive scale factor is intended
+O011-TERM-0047,Bild,citra,admitted,Image of a set under a map

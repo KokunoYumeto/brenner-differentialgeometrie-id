@@ -1,0 +1,105 @@
+\aufzaehlungzwei {Als
+\definitionsverweis {Einheitsnormalenfeld}{}{}
+können wir vom Gradienten der beschreibenden Funktion, also von
+
+\mavergleichskettedisp
+{\vergleichskette
+{ G(x,y)
+}
+{ =} { \begin{pmatrix}  2 \alpha x  \\ 2 \beta y    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ausgehen, durch Normalisierung erhalten wir
+
+\mavergleichskettedisp
+{\vergleichskette
+{ N(x,y)
+}
+{ =} {  { \frac{   1 }{  \sqrt{ \alpha^2 x^2 + \beta^2 y^2 }  } } \begin{pmatrix}   \alpha x  \\  \beta y    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Die Gauß-Abbildung ist also
+\maabbeledisp {\varphi} {Y = \left\{  \begin{pmatrix}  x  \\ y   \end{pmatrix}   \in \R^2  \mid   \alpha x^2+\beta y^2 = 1        \right\}  } { S^1
+} { \begin{pmatrix}  x  \\ y   \end{pmatrix} } { { \frac{   1 }{  \sqrt{ \alpha^2 x^2 + \beta^2 y^2 }  } } \begin{pmatrix}   \alpha x  \\  \beta y    \end{pmatrix}
+} {.}
+} {Wir behaupten, dass
+\maabbeledisp {\psi} {S^1} {Y
+} { \begin{pmatrix}  u  \\v   \end{pmatrix} } { { \frac{   1 }{  \sqrt{ { \frac{  u^2 }{ \alpha } }   + { \frac{  v^2 }{ \beta } } }  } }       \begin{pmatrix}   { \frac{   u  }{ \alpha } }   \\ { \frac{   v  }{ \beta } }    \end{pmatrix}
+} {,}
+eine Umkehrfunktion ist. Wegen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   1 }{   { \frac{  u^2 }{ \alpha } }   + { \frac{  v^2 }{ \beta } }  } } \left(  \alpha { \frac{  u^2 }{ \alpha^2 } } + \beta{ \frac{  v^2 }{ \beta^2 } }  \right)
+}
+{ =} { 1
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+liegt das Bild von $\psi$ in $Y$. Wegen
+
+\mavergleichskettealign
+{\vergleichskettealign
+{  \varphi \left(  \psi \begin{pmatrix}  u  \\v   \end{pmatrix}  \right)
+}
+{ =} { \varphi \left(  { \frac{   1 }{  \sqrt{ { \frac{  u^2 }{ \alpha } }   + { \frac{  v^2 }{ \beta } } }  } }       \begin{pmatrix}   { \frac{   u  }{ \alpha } }   \\ { \frac{   v  }{ \beta } }    \end{pmatrix}    \right)
+}
+{ =} { \varphi \begin{pmatrix}   { \frac{   1 }{  \alpha    \sqrt{ { \frac{  u^2 }{ \alpha } }   + { \frac{  v^2 }{ \beta } } }  } }   u    \\ { \frac{   1 }{ \beta  \sqrt{ { \frac{  u^2 }{ \alpha } }  + { \frac{  v^2 }{ \beta } } }  } }  v       \end{pmatrix}
+}
+{ =} { { \frac{   1 }{  \sqrt{  \alpha^2 { \frac{  u^2 }{  \alpha^2   \left(   { \frac{  u^2 }{ \alpha } }  +  { \frac{  v^2 }{ \beta } }   \right)  } }  + \beta^2 { \frac{  v^2 }{  \beta^2 \left(   { \frac{  u^2 }{ \alpha } }  +  { \frac{  v^2 }{ \beta } }   \right)  } }       }  } }  \begin{pmatrix}  { \frac{   1 }{  \sqrt{ { \frac{  u^2 }{ \alpha } }   + { \frac{  v^2 }{ \beta } } }  } }   u    \\   { \frac{   1 }{   \sqrt{ { \frac{  u^2 }{ \alpha } } + { \frac{  v^2 }{ \beta } } }  } } v    \end{pmatrix}
+}
+{ =} { { \frac{   1 }{  \sqrt{ { \frac{  u^2 }{  \left(   { \frac{  u^2 }{ \alpha } }  +  { \frac{  v^2 }{ \beta } }   \right)  } }   + { \frac{  v^2 }{  \left(   { \frac{  u^2 }{ \alpha } }  +  { \frac{  v^2 }{ \beta } }   \right)  } }       }  } }  \begin{pmatrix}   { \frac{   1 }{  \sqrt{ { \frac{  u^2 }{ \alpha } }   + { \frac{  v^2 }{ \beta } } }  } }   u    \\   { \frac{   1 }{   \sqrt{ { \frac{  u^2 }{ \alpha } }   + { \frac{  v^2 }{ \beta } } }  } } v    \end{pmatrix}
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { { \frac{    \sqrt{ { \frac{  u^2 }{ \alpha } }  +  { \frac{  v^2 }{ \beta } } } }{  \sqrt{    u^2+ v^2       }  } }  \begin{pmatrix}   { \frac{   1 }{  \sqrt{ { \frac{  u^2 }{ \alpha } }   + { \frac{  v^2 }{ \beta } } }  } }   u    \\   { \frac{   1 }{   \sqrt{ { \frac{  u^2 }{ \alpha } }   + { \frac{  v^2 }{ \beta } } }  } } v    \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  u  \\v   \end{pmatrix}
+}
+{ } {
+}
+{ } {}
+}
+{}{}
+und
+
+\mavergleichskettealign
+{\vergleichskettealign
+{  \psi \left(  \varphi \begin{pmatrix}  x  \\ y   \end{pmatrix}  \right)
+}
+{ =} { \psi \begin{pmatrix}  { \frac{    \alpha x }{  \sqrt{\alpha^2 x^2+ \beta^2 y^2 }  } }   \\ { \frac{   \beta y }{  \sqrt{\alpha^2 x^2+ \beta^2 y^2  } }}    \end{pmatrix}
+}
+{ =} { { \frac{   1 }{  \sqrt{ { \frac{   \alpha x^2 }{  \alpha^2x^2 + \beta^2y^2  } }  + { \frac{   \beta y^2 }{  \alpha^2x^2 + \beta^2y^2  } }  }  } }  \begin{pmatrix}  { \frac{    x }{  \sqrt{\alpha^2 x^2+ \beta^2 y^2 }  } }   \\ { \frac{   y }{  \sqrt{\alpha^2 x^2+ \beta^2 y^2  } }}    \end{pmatrix}
+}
+{ =} { { \frac{   \sqrt{\alpha^2 x^2+ \beta^2 y^2 } }{  \sqrt{    \alpha x^2 +  \beta y^2  }  } }  \begin{pmatrix}  { \frac{    x }{  \sqrt{\alpha^2 x^2+ \beta^2 y^2 }  } }   \\ { \frac{   y }{  \sqrt{\alpha^2 x^2+ \beta^2 y^2  } }}    \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  x  \\ y   \end{pmatrix}
+}
+}
+{}
+{}{}
+sind die Abbildungen invers zueinander.
+}
+
+ [[Kategorie:Latexseite]]

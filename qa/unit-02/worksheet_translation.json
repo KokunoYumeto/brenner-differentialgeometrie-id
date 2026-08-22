@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "source": "authority/expanded/worksheet02_source.de.tex",
+  "source_bytes": 10171,
+  "source_sha256": "c645aacb16233d832b492315379b0251c33fa52db6b2e7ac24be4ecc9600d3ad",
+  "target": "source/units/unit-02/worksheet02.id.tex",
+  "target_bytes": 10576,
+  "target_sha256": "677d9b244a2c30561f497e602e29081ca12f668d5a5ec3d116900c49a5bd5954",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true
+  },
+  "counts": {
+    "commands": 271,
+    "environments": 0,
+    "inline_math": 28,
+    "display_math": 0,
+    "protected_calls": 44
+  },
+  "status": "pass",
+  "failures": [],
+  "declared_corrections": [
+    "O011-CORR-0016+O011-CORR-0017+O011-CORR-0018+O011-CORR-0019+O011-CORR-0020",
+    "O011-CORR-0017+O011-CORR-0020",
+    "O011-CORR-0016+O011-CORR-0017",
+    "O011-CORR-0019"
+  ]
+}

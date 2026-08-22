@@ -1,0 +1,55 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+{{
+Aufzählung2
+|{{:Ellipse/Gaußabbildung/Bestimme/1/Aufgabe/Lösung|opt=Text}}
+|Wir behaupten, dass
+{{
+Abbildung/display
+|name= \psi
+|S^1|Y
+| {{op:Spaltenvektor| u |v}} | {{op:Bruch| 1| \sqrt{ {{op:Bruch|u^2|\alpha}}   + {{op:Bruch|v^2|\beta}} } }}       {{op:Spaltenvektor|  {{op:Bruch| u |\alpha}}  | {{op:Bruch| v |\beta}} }}
+|SZ=,
+}}
+eine Umkehrfunktion ist. Wegen
+{{
+Relationskette/display
+| {{op:Bruch| 1|  {{op:Bruch|u^2|\alpha}}   + {{op:Bruch|v^2|\beta}} }} {{makl| \alpha {{op:Bruch|u^2|\alpha^2}} + \beta{{op:Bruch|v^2|\beta^2}} |}}  
+|| 1
+|| 
+|| 
+|| 
+|SZ=
+}}
+liegt das Bild von {{math|term= \psi |SZ=}} in {{math|term= Y |SZ=.}} Wegen
+{{
+Relationskette/align
+|  \varphi {{makl| \psi {{op:Spaltenvektor| u |v}} |}}  
+|| \varphi {{makl| {{op:Bruch| 1| \sqrt{ {{op:Bruch|u^2|\alpha}}   + {{op:Bruch|v^2|\beta}} } }}       {{op:Spaltenvektor|  {{op:Bruch| u |\alpha}}  | {{op:Bruch| v |\beta}} }}   |}}  
+|| \varphi {{op:Spaltenvektor|  {{op:Bruch| 1| \alpha    \sqrt{ {{op:Bruch|u^2|\alpha}}   + {{op:Bruch|v^2|\beta}} } }}   u   | {{op:Bruch| 1|\beta  \sqrt{ {{op:Bruch|u^2|\alpha}}  + {{op:Bruch|v^2|\beta}} } }}  v    }}  
+|| {{op:Bruch| 1| \sqrt{  \alpha^2 {{op:Bruch|u^2| \alpha^2   {{makl|  {{op:Bruch|u^2|\alpha}}  +  {{op:Bruch|v^2|\beta}}  |}} }}  + \beta^2 {{op:Bruch|v^2| \beta^2 {{makl|  {{op:Bruch|u^2|\alpha}}  +  {{op:Bruch|v^2|\beta}}  |}} }}       } }}  {{op:Spaltenvektor| {{op:Bruch| 1| \sqrt{ {{op:Bruch|u^2|\alpha}}   + {{op:Bruch|v^2|\beta}} } }}   u   |   {{op:Bruch| 1|  \sqrt{ {{op:Bruch|u^2|\alpha}} + {{op:Bruch|v^2|\beta}} } }} v }} 
+|| {{op:Bruch| 1| \sqrt{ {{op:Bruch|u^2| {{makl|  {{op:Bruch|u^2|\alpha}}  +  {{op:Bruch|v^2|\beta}}  |}} }}   + {{op:Bruch|v^2| {{makl|  {{op:Bruch|u^2|\alpha}}  +  {{op:Bruch|v^2|\beta}}  |}} }}       } }}  {{op:Spaltenvektor|  {{op:Bruch| 1| \sqrt{ {{op:Bruch|u^2|\alpha}}   + {{op:Bruch|v^2|\beta}} } }}   u   |   {{op:Bruch| 1|  \sqrt{ {{op:Bruch|u^2|\alpha}}   + {{op:Bruch|v^2|\beta}} } }} v }} 
+|| {{op:Bruch|  \sqrt{ {{op:Bruch|u^2|\alpha}}  +  {{op:Bruch|v^2|\beta}} }| \sqrt{    u^2+ v^2       } }}  {{op:Spaltenvektor|  {{op:Bruch| 1| \sqrt{ {{op:Bruch|u^2|\alpha}}   + {{op:Bruch|v^2|\beta}} } }}   u   |   {{op:Bruch| 1|  \sqrt{ {{op:Bruch|u^2|\alpha}}   + {{op:Bruch|v^2|\beta}} } }} v }} 
+|| {{op:Spaltenvektor| u |v}}
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette/align
+|  \psi {{makl| \varphi {{op:Spaltenvektor| x | y}} |}}  
+|| \psi {{op:Spaltenvektor| {{op:Bruch|  \alpha x| \sqrt{\alpha^2 x^2+ \beta^2 y^2 } }}  | {{op:Bruch| \beta y| \sqrt{\alpha^2 x^2+ \beta^2 y^2 }}} }}
+|| {{op:Bruch| 1| \sqrt{ {{op:Bruch| \alpha x^2| \alpha^2x^2 + \beta^2y^2 }}  + {{op:Bruch| \beta y^2| \alpha^2x^2 + \beta^2y^2 }}  } }}  {{op:Spaltenvektor| {{op:Bruch|  x| \sqrt{\alpha^2 x^2+ \beta^2 y^2 } }}  | {{op:Bruch| y| \sqrt{\alpha^2 x^2+ \beta^2 y^2 }}} }}
+|| {{op:Bruch| \sqrt{\alpha^2 x^2+ \beta^2 y^2 }| \sqrt{    \alpha x^2 +  \beta y^2  } }}  {{op:Spaltenvektor| {{op:Bruch|  x| \sqrt{\alpha^2 x^2+ \beta^2 y^2 } }}  | {{op:Bruch| y| \sqrt{\alpha^2 x^2+ \beta^2 y^2 }}} }}
+|| {{op:Spaltenvektor| x | y}} 
+|SZ=
+}}
+sind die Abbildungen invers zueinander.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

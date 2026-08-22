@@ -37,6 +37,14 @@ Wikiversity text is reused through the current CC BY-SA 4.0 path, with source UR
 
 The exact Unit 1 media closure is local under `authority/media/`: four canonical files with their Wikimedia SHA-1, byte count, SHA-256, creator, license, and derivative hashes recorded in `qa/unit-01_media.json`. The four source licenses are CC BY 3.0, CC BY-SA 4.0 (two files), and CC BY-SA 3.0. No whole-course blanket media license is asserted.
 
+## Unit 2 exact closure
+
+The Unit 2 roots are Lecture 2 pageid/revision `142546 / 893641` and Worksheet 2 `142636 / 907117`; their `/latex` surfaces are `142576 / 807125` and `142666 / 807094`. Because those `/latex` pages contain only the `{{Latex}}` invocation, the frozen official `expandtemplates` responses and sanitized German TeX witnesses are also part of authority. The lecture witness is 22,206 bytes, SHA-256 `f488d809e7d9490c40099d90c2abed2cc8bea39f11923a8d525e6302f3be470a`; the worksheet witness is 10,171 bytes, SHA-256 `c645aacb16233d832b492315379b0251c33fa52db6b2e7ac24be4ecc9600d3ad`. Exact API identities, response hashes, and sanitation receipts are in `qa/unit-02/AUTHORITY_PREFLIGHT.json` and `.md`.
+
+Worksheet 2 contains 19 exercises and exactly five source-supplied solutions, for exercises 1, 2, 7, 12, and 13. Their expanded German TeX SHA-256 values are respectively `6dcc38f066a8350fdba67145857c168e1b6ca532c07af0a8f34ee2b954ad9432`, `a92e556f50d2216192fc61703eea4bae3d233ab632c8eedb19bd35dec2ed89b0`, `90d9007e6a313dcbc4614045f0831b826f7a9af82897e17a36fbce08088ef92b`, `3191adb6fbfaf1be11c0e7a061468a4fd6fe9235cd0dea40771ec97bd10f970f`, and `6896eb6a4a6f4c25bcfaab674847dcd78bc079cfd6c58b3b8542c5c220d85e7b`. The official current-revision query records the other 14 candidate solution pages as missing; the edition does not imply a larger solution layer.
+
+Lecture 2 uses exactly two media files, while its worksheet and five solutions use none. `Integral apl rot obsah1.svg` is 8,098 bytes, SHA-256 `3dc950fd001c3a2e3ef095dcceac915f4701e990ecf513cf314eaef8a8f86dd1`; `Hyperboloid1.png` is 278,393 bytes, SHA-256 `4c813998156ef1961fa557d3a7c356d737c47291d36159baa955f170e500979b`. Both are public-domain components and retain their Commons source pages and creator credit in `qa/unit-02_media.json` and the reader.
+
 ## Build boundary
 
 The official `/latex` surface is an expanded body fragment, not a self-contained TeX project. It contains HTML line-break artifacts and course-specific macros. The published preamble recipe has personal paths and legacy assumptions. Production therefore uses:

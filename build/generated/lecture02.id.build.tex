@@ -1,0 +1,1389 @@
+\setcounter{section}{2}
+
+  \zwischenueberschrift{Permukaan Putar}
+
+Kita membahas satu kelas lain dari permukaan di ruang, yaitu permukaan putar.
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Integral apl rot obsah1} {svg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Integral apl rot obsah1.svg } {} {Pajs} {Wikipedia bahasa Ceko} {domain publik} {}
+
+Misalkan diberikan suatu
+\definitionsverweis {kurva terdiferensialkan}{}{}
+\maabbeledisp {\gamma} {]a,b[} {\R^2
+} { t } {(x(t),y(t))
+} {,}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ y(t)
+}
+{ \geq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku. Kita tertarik pada
+\definitionsverweis {permukaan putar}{}{,}
+yang bersesuaian, yaitu himpunan bagian
+
+\mathdisp {\left\{  (x(t), y(t) \cos \alpha , y(t) \sin \alpha)   \mid  t \in ]a,b[ , \, \alpha \in [0,2\pi]       \right\}} {  }
+
+dari
+\mathl{\R^3}{,} yang terbentuk ketika lintasan kurva diputar mengelilingi sumbu $x$. Selain itu, kita mengandaikan bahwa $\gamma$ memiliki citra
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ \gamma \left(  ]a,b[  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan merupakan homeomorfisme ke citra tersebut. Secara khusus, kita meninjau kasus ketika
+\maabb {f} {]a,b[} { \R_+
+} {}
+adalah fungsi terdiferensialkan dan permukaan putarnya berasal dari grafik fungsi tersebut.
+
+
+
+\inputfaktbeweis
+{Rotationsfläche/Differenzierbare positive Kurve/Graph/Tangentialraum/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan $I$ adalah sebuah
+\definitionsverweis {interval terbuka}{}{}
+dan
+\maabb {f} { I } { \R_+
+} {}
+sebuah
+\definitionsverweis {fungsi terdiferensialkan}{}{.}}
+\faktuebergang {Maka
+\definitionsverweis {permukaan putar}{}{}
+$Y$
+\zusatzklammer {mengelilingi sumbu $x$} {} {}
+yang diperoleh dari
+\definitionsverweis {grafik}{}{}
+$f$ memiliki sifat-sifat berikut.}
+\faktfolgerung {\aufzaehlungdrei{$Y$ adalah himpunan nol dari
+\maabbeledisp {h} {I \times \R \times \R} {\R
+} { \left(  x   , \,   y  , \,  z                 \right) } { y^2+z^2-f(x)^2
+} {.}
+}{Fungsi $h$ yang mendeskripsikan permukaan itu
+\definitionsverweis {reguler}{}{}
+di setiap titik $Y$.
+}{
+\definitionsverweis {Ruang tangen}{}{}
+$Y$ di suatu titik
+\mathl{\left(  x   , \,   y  , \,  z                 \right)}{} adalah
+\zusatzklammer {untuk
+
+\mavergleichskettek
+{\vergleichskettek
+{ z
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T_PY
+}
+{ =} { \R \begin{pmatrix}  0  \\ z \\  -y   \end{pmatrix} + \R\begin{pmatrix}  z  \\ 0 \\  f(x)f'(x)   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+(1) jelas.
+\definitionsverweis {matriks Jacobi}{}{}
+dari $h$ adalah
+\mathl{2 \left(  -f(x)f'(x)  , \,   y  , \,  z                 \right)}{.} Karena $f$ positif, kasus
+
+\mavergleichskette
+{\vergleichskette
+{ y
+}
+{ = }{ z
+}
+{ = }{ 0
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+tidak mungkin terjadi; dengan demikian, $h$ reguler pada $Y$. Jika
+
+\mavergleichskette
+{\vergleichskette
+{ z
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+maka vektor-vektor yang dinyatakan di atas
+\definitionsverweis {bebas linear}{}{}
+dan termasuk dalam
+\definitionsverweis {kernel}{}{}
+matriks Jacobi.
+
+}
+
+
+
+\inputfaktbeweis
+{Rotationsfläche/Differenzierbare positive Kurve/Graph/Geodätische/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan $I$ adalah sebuah
+\definitionsverweis {interval terbuka}{}{}
+dan
+\maabb {f} { I } { \R_+
+} {}
+sebuah
+\definitionsverweis {fungsi terdiferensialkan}{}{}
+serta misalkan $Y$ adalah
+\definitionsverweis {permukaan putar}{}{}
+\zusatzklammer {mengelilingi sumbu $x$} {} {}
+yang diperoleh dari
+\definitionsverweis {grafik}{}{}
+$f$. Misalkan
+\maabbeledisp {\gamma} { J } { I
+} { t } { \gamma(t)
+} {,}
+adalah fungsi bijektif terdiferensialkan sedemikian rupa sehingga
+\mathl{\left(  \gamma(t)  , \,  f(\gamma(t))                   \right)}{}
+merupakan parametrisasi grafik $f$ dengan norma kecepatan konstan.}
+\faktuebergang {Maka berlaku sifat-sifat berikut.}
+\faktfolgerung {\aufzaehlungzwei {Untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ \left(  x   , \,   y  , \,  z                 \right)
+}
+{ = }{ \left(  x   , \,   f(x) \cos \alpha  , \,   f(x) \sin \alpha                 \right)
+}
+{ \in }{ Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+tersebut, kurva
+\maabbeledisp {\theta} { J } { Y
+} { t } { \left(  \gamma(t)   , \,  f( \gamma(t) ) \cos \alpha  , \,   f( \gamma(t) ) \sin \alpha                 \right)
+} {,}
+adalah sebuah
+\definitionsverweis {geodesik}{}{.}
+} {Sebuah kurva lingkaran
+\maabbeledisp {\theta} {\R} {I \times \R^2
+} {\alpha} { \left(  x   , \,  f( x ) \cos \alpha  , \,   f(x ) \sin \alpha                 \right)
+} {,}
+adalah geodesik tepat ketika
+
+\mavergleichskette
+{\vergleichskette
+{ f'(x)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku.
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\aufzaehlungzwei {Kurva $\theta$ bergerak di bidang
+\mathl{\R  \begin{pmatrix}  1  \\ 0 \\  0   \end{pmatrix} + \R  \begin{pmatrix}  0  \\ \cos \alpha \\  \sin \alpha   \end{pmatrix}}{.} Setelah melakukan rotasi, tanpa mengurangi keumuman kita dapat mengandaikan
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku; dengan demikian, kurva tersebut menelusuri grafik $f$ secara langsung. Karena parametrisasi panjang busur,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \theta'(t)
+}
+{ =} { \begin{pmatrix}  \gamma'(t) \\f'(\gamma(t)) \gamma'(t) \\  0   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+menurut
+Soal 2.3
+tegak lurus terhadap
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \theta^{\prime \prime} (t)
+}
+{ =} { \begin{pmatrix}  \gamma^{\prime \prime} (t) \\f'(\gamma(t)) \gamma^{\prime \prime} (t) +f^{\prime \prime}(\gamma(t))  \left(  \gamma^{\prime } (t)  \right)^2 \\  0   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Artinya, percepatan tegak lurus terhadap ruang tangen
+\zusatzklammer {yang dibangun oleh turunan kurva bersama $\begin{pmatrix}  0  \\ 0\\  1   \end{pmatrix}$} {} {}
+dan karena itu percepatan tangensial sama dengan $0$. Jadi, kurva tersebut adalah geodesik.
+} {Gerak melingkar berlangsung pada bidang yang ditentukan oleh $x$ yang tetap. Turunan
+\zusatzklammer {terhadap $\alpha$} {} {}
+dari kurva yang diberikan adalah $f(x) \begin{pmatrix}  0  \\ - \sin \alpha \\  \cos \alpha   \end{pmatrix}$, sedangkan percepatannya sama dengan $- f(x) \begin{pmatrix}  0  \\  \cos \alpha \\  \sin \alpha   \end{pmatrix}$. Dengan demikian, di dalam bidang tersebut percepatan tegak lurus terhadap kecepatan kurva, yang merupakan sebuah vektor tangen permukaan putar. Sebuah vektor tangen yang bebas linear terhadapnya diberikan oleh $\begin{pmatrix}  1  \\f'(x)\\  0   \end{pmatrix}$. Akan tetapi, vektor ini selalu tegak lurus terhadap percepatan hanya ketika
+
+\mavergleichskette
+{\vergleichskette
+{ f'(x)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku.
+}
+
+}
+
+  \zwischenueberschrift{Medan Normal}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+sebuah
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik $Y$. Misalkan pada suatu lingkungan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ U
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+didefinisikan sebuah
+\definitionsverweis {medan vektor}{}{}
+yang
+\definitionsverweis {kontinu}{}{,}
+\maabb {F} {U} {\R^n
+} {}
+dan memenuhi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F(P)
+}
+{ \in} { N_PY
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk semua
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+disebut
+\definitionswort {medan normal}{}
+pada $Y$.
+
+}
+
+Jika selain itu berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Vert {F(P)} \Vert
+}
+{ =} { 1
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+maka medan tersebut disebut
+\stichwort {medan normal satuan} {.} Karena garis normal dalam kasus hipermuka yang sedang ditinjau berdimensi satu, untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+hanya terdapat dua nilai yang mungkin bagi medan normal satuan di titik itu, dan keduanya saling berlawanan. Dalam hal ini, perhatian utama hanya tertuju pada nilai-nilai medan di $Y$; jadi, dua medan normal pada $Y$ dianggap identik jika keduanya berimpit di $Y$. Lingkungan terbuka hanya diperlukan agar kita dapat berbicara tentang keterdiferensialan.
+
+
+
+\inputfaktbeweis
+{Hyperfläche/Glatt/Normalenfeld/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+sebuah
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik $Y$.}
+\faktfolgerung {Maka
+\mathl{{ \frac{
+\operatorname{Grad} \,  h  }{  \Vert {
+\operatorname{Grad} \,  h } \Vert  } }}{} adalah sebuah
+\definitionsverweis {medan normal satuan}{}{}
+pada $Y$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Menurut asumsi,
+\definitionsverweis {medan gradien}{}{}
+$\operatorname{Grad} \,  h$ tidak pernah nol pada $Y$ dan, karena kontinuitas yang diasumsikan, juga tidak pernah nol pada suatu lingkungan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ U
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Jadi, medan vektor yang dinyatakan di atas terdefinisi pada suatu lingkungan terbuka yang memuat $Y$. Ortogonalitas terhadap ruang-ruang tangen pada serat dan normanya yang sama dengan satu sudah jelas.
+
+}
+
+\inputbeispiel{}
+{
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Hyperboloid1} {png} }
+\end{center}
+\bildtext {Sebuah \stichwort {hiperboloid satu lembar} {.}} }
+
+\bildlizenz { Hyperboloid1.png } {} {RokerHRO} {Commons} {domain publik} {}
+
+Kita meninjau fungsi
+\maabbele {h} {\R^3} {\R
+} {(x,y,z)} { x^2+y^2-z^2-1
+} {}
+beserta seratnya di atas $0$, yaitu \stichwort {hiperboloid satu lembar} {} $Y$.
+\definitionsverweis {Gradien}{}{}
+$h$ di suatu titik
+\mathl{(x,y,z)}{} diberikan oleh
+\mathl{\begin{pmatrix}  2x \\ 2y\\  -2z   \end{pmatrix}}{}
+dan
+\definitionsverweis {diferensial total}{}{}
+diberikan oleh
+\mathl{\left(  2x  , \,   2y  , \,   -2z                 \right)}{}; oleh karena itu, $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik $Y$.
+\definitionsverweis {Ruang tangen}{}{}
+di suatu titik adalah kernel diferensial total. Salah satu basisnya ialah
+\mathl{\begin{pmatrix}  y  \\ -x\\  0   \end{pmatrix} ,  \begin{pmatrix}  z  \\ 0 \\  x   \end{pmatrix}}{}
+\zusatzklammer {jika
+
+\mavergleichskettek
+{\vergleichskettek
+{ x
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku, vektor kedua harus diganti dengan $\begin{pmatrix}  0  \\ z \\  y   \end{pmatrix}$} {} {.}
+
+\definitionsverweis {Medan normal satuan}{}{}
+adalah
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ N( \begin{pmatrix}  x  \\ y \\ z   \end{pmatrix} )
+}
+{ =} { { \frac{
+\operatorname{Grad} \, h(x,y,z)  }{  \Vert {
+\operatorname{Grad} \, h(x,y,z) } \Vert  } }
+}
+{ =} { \left(  x^2+y^2+z^2  \right)^{ - { \frac{   1  }{  2 } } } \begin{pmatrix}  x  \\ y \\  -z   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+
+}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+sebuah
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik $Y$. Penetapan sebuah
+\definitionsverweis {medan normal satuan}{}{}
+pada $Y$ disebut
+\definitionswort {orientasi}{}
+pada $Y$.
+
+}
+
+Untuk setiap orientasi selalu terdapat orientasi negatif atau orientasi yang berlawanan. Jika sebuah fungsi $h$ yang mendeskripsikan $Y$ telah ditetapkan, maka
+Lemma 2.4
+langsung memberikan orientasi
+\mathl{{ \frac{
+\operatorname{Grad} \,  h  }{  \Vert {
+\operatorname{Grad} \,  h } \Vert  } }}{.} Akan tetapi, $-h$ menghasilkan orientasi yang berlawanan, dan tidak ada cara kanonis untuk memilih salah satunya. Dari medan normal yang tidak pernah nol, kita selalu dapat beralih ke medan normal satuan yang bersesuaian dan dengan demikian memperoleh suatu orientasi.
+
+
+
+\inputfaktbeweis
+{Hyperfläche/Glatt/Zusammenhängend/Orientierung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+sebuah
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik $Y$. Misalkan $Y$
+\definitionsverweis {terhubung}{}{.}}
+\faktfolgerung {Maka terdapat tepat dua
+\definitionsverweis {orientasi}{}{}
+pada $Y$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Menurut
+Lemma 2.4,
+terdapat medan normal satuan yang merepresentasikan suatu orientasi, dan negatifnya menghasilkan orientasi lain. Keduanya kita sebut berturut-turut $G$ dan $-G$. Sekarang, misalkan
+\maabbdisp {N} { Y } { \R^n
+} {}
+adalah sebarang medan normal satuan kontinu. Kita meninjau himpunan tempat medan-medan itu berimpit,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y_1
+}
+{ =} { \left\{ P \in Y  \mid   N(P) = G(P)         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y_2
+}
+{ =} { \left\{ P \in Y  \mid   N(P) = - G(P)         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Karena untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku hubungan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ N(P)
+}
+{ =} { \pm G(P)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan hanya ada dua pilihan tanda. Dengan demikian, $Y$ adalah gabungan saling lepas dari
+\mathkor {} {Y_1} {dan} {Y_2} {.}
+Sebagai himpunan tempat fungsi-fungsi kontinu berimpit,
+\mathkor {} {Y_1} {dan} {Y_2} {}
+\definitionsverweis {tertutup}{}{}
+\zusatzklammer {dan dengan demikian juga
+\definitionsverweis {terbuka}{}{}
+di $Y$} {} {.}
+Karena keterhubungan tersebut, diperoleh
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ Y_1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+atau
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ Y_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+
+  \zwischenueberschrift{Pemetaan Gauss}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+sebuah
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik $Y$. Misalkan suatu
+\definitionsverweis {orientasi}{}{}
+pada $Y$ telah ditetapkan. Pemetaan
+\maabbdisp {} { Y } { S^{n-1}
+} {,}
+yang memetakan setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ke vektor normal satuannya yang ditetapkan oleh orientasi disebut
+\definitionswort {pemetaan Gauss}{}
+dari $Y$.
+
+}
+
+Pada umumnya, kita membayangkan vektor tangen dan vektor normal melekat pada titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+tersebut. Namun, di sini vektor normal perlu dipandang sebagai sebuah titik pada permukaan bola berdimensi $n-1$ yang \anfuehrung{netral}{}. Pemetaan Gauss membuka kemungkinan untuk mengaitkan sebarang hipermuka mulus dengan hipermuka yang sangat sederhana, yaitu permukaan bola.
+
+
+
+\inputfaktbeweis
+{Hyperfläche/Glatt/Gauß-Abbildung/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+sebuah
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik $Y$. Misalkan suatu
+\definitionsverweis {orientasi}{}{}
+pada $Y$ telah ditetapkan.}
+\faktuebergang {Maka, untuk
+\definitionsverweis {pemetaan Gauss}{}{,}
+berlaku pernyataan-pernyataan berikut.}
+\faktfolgerung {\aufzaehlungvier{Pemetaan Gauss
+\definitionsverweis {kontinu}{}{.}
+}{Dalam kasus
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ S^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ini, pemetaan Gauss adalah identitas
+\zusatzklammer {jika orientasinya mengarah ke luar} {} {}
+atau pemetaan antipodal untuk orientasi sebaliknya.
+}{Jika $Y$
+\definitionsverweis {terhubung}{}{,}
+maka pemetaan Gauss untuk kedua orientasi saling antipodal.
+}{Misalkan $Y$ terhubung. Pemetaan Gauss konstan tepat ketika $Y$ merupakan suatu bagian terbuka dari sebuah
+\definitionsverweis {subruang afin-linear}{}{}
+berdimensi $n-1$.
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\aufzaehlungvier{Hal ini mengikuti dari
+Lemma 2.4.
+}{Jelas.
+}{Jelas.
+}{Arah sebaliknya jelas. Untuk membuktikan arah maju, misalkan vektor normal satuannya konstan dan sama dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ v
+}
+{ =} { \begin{pmatrix} a_1  \\\vdots\\ a_n   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+\textit{Catatan edisi: sumber mencoba menormalkan fungsi bernilai real $h$
+dengan membaginya oleh normanya pada serat nol. Langkah itu tidak terdefinisi
+dan tidak membuktikan bahwa $h$ linear. Bukti berikut mengganti langkah tersebut.}
+
+Definisikan fungsi linear
+
+\[
+\ell(x)=\langle v,x\rangle .
+\]
+
+Untuk setiap $P\in Y$ dan $w\in T_PY$, berlaku
+
+\[
+(d\ell)_P(w)=\langle v,w\rangle=0,
+\]
+
+karena $v$ merupakan vektor normal pada $Y$. Dengan demikian, diferensial
+dari pembatasan $\ell$ pada $Y$ bernilai nol. Manifold mulus $Y$ terhubung dan
+terhubung-lintasan secara lokal, sehingga $\ell$ konstan pada $Y$, katakanlah
+bernilai $c\in\R$. Oleh sebab itu,
+
+\[
+Y\subseteq H=\{x\in\R^n\mid \langle v,x\rangle=c\}.
+\]
+
+Untuk setiap $P\in Y$, kedua ruang tangen adalah
+$T_PY=T_PH=v^\perp$. Karena $Y$ dan $H$ berdimensi sama, inklusi
+$Y\longrightarrow H$ merupakan difeomorfisme lokal. Jadi $Y$ terbuka dalam
+hiperbidang afin $H$.}
+
+}
+
+Kita ingat kembali teorema berikut.
+
+\inputfakt{Hyperfläche/Glatt und kompakt/Jede Hyperebene als Tangentialraum/Fakt}{Teorema}{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sebuah
+\definitionsverweis {himpunan bagian terbuka}{}{}
+dan misalkan
+\maabbdisp {f} { U } {\R
+} {}
+sebuah
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{.}}
+\faktvoraussetzung {
+\definitionsverweis {Serat}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ = }{ f^{-1}(b)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dari $f$ di atas suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{b
+}
+{ \in }{\R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bersifat
+\definitionsverweis {kompak}{}{}
+dan
+\definitionsverweis {reguler}{}{}
+di setiap titik.}
+\faktfolgerung {Maka, untuk setiap subruang
+\mathl{(n-1)}{-}dimensional
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subset }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat sekurang-kurangnya satu titik
+
+\mavergleichskette
+{\vergleichskette
+{a
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sehingga subruang tersebut berimpit dengan
+\definitionsverweis {ruang tangen}{}{}
+
+\mathl{T_aM}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+
+
+\inputfaktbeweis
+{Hyperfläche/Glatt und kompakt/Gauß-Abbildung surjektiv/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sebuah
+\definitionsverweis {himpunan bagian terbuka}{}{}
+dan misalkan
+\maabbdisp {h} { W } {\R
+} {}
+sebuah
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{.}}
+\faktvoraussetzung {
+\definitionsverweis {Serat}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dari $h$ di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{\R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bersifat
+\definitionsverweis {kompak}{}{}
+dan
+\definitionsverweis {reguler}{}{}
+di setiap titik.}
+\faktfolgerung {Maka
+\definitionsverweis {pemetaan Gauss}{}{}
+\maabbdisp {} { Y } { S^{n-1}
+} {}
+surjektif.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Melalui relasi ortogonalitas, sebuah vektor normal satuan mendeskripsikan sebuah hiperbidang, yaitu subruang vektor berdimensi $n-1$; vektor normal satuan negatifnya juga mendeskripsikan hiperbidang yang sama. Teorema 2.10
+menunjukkan bahwa setiap hiperbidang muncul sebagai ruang tangen pada $Y$. Selain itu, bukti
+Teorema 2.10
+menunjukkan
+\zusatzklammer {jika selain maksimum kita juga meninjau minimum} {} {,}
+bahwa kedua vektor normal satuan itu muncul.
+
+}

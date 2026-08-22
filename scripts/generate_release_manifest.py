@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import subprocess
 from pathlib import Path
 
 
@@ -55,25 +56,58 @@ def main() -> None:
         type=Path,
         default=Path("qa/unit-01/RELEASE_MANIFEST.csv"),
     )
+    parser.add_argument(
+        "--git-index",
+        action="store_true",
+        help="Inventory the exact staged Git blobs instead of working-tree bytes.",
+    )
     args = parser.parse_args()
 
     root = args.project_root.resolve()
     output = (root / args.output).resolve()
     output_relative = output.relative_to(root)
     rows = []
-    for path in sorted(root.rglob("*"), key=lambda item: item.as_posix()):
-        if not path.is_file():
-            continue
-        relative = path.relative_to(root)
-        if skipped(relative, output_relative):
-            continue
-        rows.append(
-            {
-                "path": relative.as_posix(),
-                "bytes": path.stat().st_size,
-                "sha256": digest(path),
-            }
+    if args.git_index:
+        listed = subprocess.run(
+            ["git", "ls-files", "-z"],
+            cwd=root,
+            check=True,
+            stdout=subprocess.PIPE,
+        ).stdout
+        relative_paths = sorted(
+            (Path(item.decode("utf-8")) for item in listed.split(b"\0") if item),
+            key=lambda item: item.as_posix(),
         )
+        for relative in relative_paths:
+            if skipped(relative, output_relative):
+                continue
+            data = subprocess.run(
+                ["git", "show", f":{relative.as_posix()}"],
+                cwd=root,
+                check=True,
+                stdout=subprocess.PIPE,
+            ).stdout
+            rows.append(
+                {
+                    "path": relative.as_posix(),
+                    "bytes": len(data),
+                    "sha256": hashlib.sha256(data).hexdigest(),
+                }
+            )
+    else:
+        for path in sorted(root.rglob("*"), key=lambda item: item.as_posix()):
+            if not path.is_file():
+                continue
+            relative = path.relative_to(root)
+            if skipped(relative, output_relative):
+                continue
+            rows.append(
+                {
+                    "path": relative.as_posix(),
+                    "bytes": path.stat().st_size,
+                    "sha256": digest(path),
+                }
+            )
 
     output.parent.mkdir(parents=True, exist_ok=True)
     with output.open("w", encoding="utf-8", newline="") as stream:

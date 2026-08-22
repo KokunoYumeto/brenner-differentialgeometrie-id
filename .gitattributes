@@ -8,6 +8,9 @@
 *.tex text eol=lf
 *.xml text eol=lf
 *.svg text eol=lf
+*.wiki text eol=lf
+*.b64 text eol=lf
+*.txt text eol=lf
 *.pdf binary
 *.jpg binary
 *.jpeg binary

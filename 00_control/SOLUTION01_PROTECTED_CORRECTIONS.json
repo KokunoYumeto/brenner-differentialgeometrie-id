@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-02/worksheet02_exercise01_solution.id.tex",
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0024",
+      "surface": "profile:protected:mathdisp",
+      "source_sha256": "62647ce3df70a6a5d9a53e05801ebe22fdcc88cca2c77a6d08e9b134c0a27a68",
+      "target_sha256": "c3baba29850b7ff48a690d6f8fcdd729efcb55a69bbe1d9e02c89b4bc9b96422"
+    }
+  ]
+}

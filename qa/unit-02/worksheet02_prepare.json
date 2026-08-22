@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-02/worksheet02.id.tex",
+  "input_bytes": 10576,
+  "input_sha256": "677d9b244a2c30561f497e602e29081ca12f668d5a5ec3d116900c49a5bd5954",
+  "output": "build/generated/worksheet02.id.build.tex",
+  "output_bytes": 10286,
+  "output_sha256": "b3698fa2a4067774ac392f8a445ac418f3ea9be09aa47611291dc9374e6f69b4",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "rendered_internal_links": [
+    {
+      "target": "Funktion/n-1 Variablen/Graph als Hyperfläche/Tangentialraum/Beispiel",
+      "label": "Contoh 1.2"
+    },
+    {
+      "target": "Rotationsfläche/Differenzierbare positive Kurve/Graph/Tangentialraum/Fakt",
+      "label": "Lemma 2.1"
+    },
+    {
+      "target": "Isometrische Isomorphie/Differenzierbare Hyperfläche/Geodätische, Normalenfeld, Gauß-Abbildung/Aufgabe",
+      "label": "Soal 2.14"
+    }
+  ]
+}

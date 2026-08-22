@@ -1,0 +1,1405 @@
+\setcounter{section}{2}
+
+  \zwischenueberschrift{Rotationsflächen}
+
+Wir besprechen eine weitere Klasse von Flächen im Raum, die Rotationsflächen.
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Integral apl rot obsah1} {svg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Integral apl rot obsah1.svg } {} {Pajs} {Tschechische Wikipedia} {gemeinfrei} {}
+
+Es sei eine
+\definitionsverweis {differenzierbare Kurve}{}{}
+\maabbeledisp {\gamma} {]a,b[} {\R^2
+} { t } {(x(t),y(t))
+} {,}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ y(t)
+}
+{ \geq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegeben. Wir interessieren uns für die zugehörige
+\definitionsverweis {Rotationsfläche}{}{,}
+also die Teilmenge
+
+\mathdisp {\left\{  (x(t), y(t) \cos \alpha , y(t) \sin \alpha)   \mid  t \in [a,b] , \, \alpha \in [0,2\pi]       \right\}} {  }
+
+des
+\mathl{\R^3}{,} die entsteht, wenn man die Trajektorie der Kurve um die $x$-Achse dreht. Wir setzen zusätzlich voraus, dass $\gamma$ einen Homöomorphismus auf sein Bild
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ \gamma \left(  ]a,b[  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bewirkt. Insbesondere betrachten wir den Fall, wo
+\maabb {f} {]a,b[} { \R_+
+} {}
+eine differenzierbare Funktion ist und es um die Rotationsfläche des Graphen geht.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Rotationsfläche/Differenzierbare positive Kurve/Graph/Tangentialraum/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $I$ ein
+\definitionsverweis {offenes Intervall}{}{}
+und
+\maabb {f} { I } { \R_+
+} {}
+eine
+\definitionsverweis {differenzierbare Funktion}{}{.}}
+\faktuebergang {Dann besitzt die
+\definitionsverweis {Rotationsfläche}{}{}
+$Y$
+\zusatzklammer {um die $x$-Achse} {} {}
+zum
+\definitionsverweis {Graphen}{}{}
+von $f$ folgende Eigenschaften.}
+\faktfolgerung {\aufzaehlungdrei{Es ist $Y$ die Nullstellenmenge zu
+\maabbeledisp {h} {I \times \R \times \R} {\R
+} { \left(  x   , \,   y  , \,  z                 \right) } { y^2+z^2-f(x)^2
+} {.}
+}{Die beschreibende Funktion $h$ ist in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{.}
+}{Der
+\definitionsverweis {Tangentialraum}{}{}
+von $Y$ in einem Punkt
+\mathl{\left(  x   , \,   y  , \,  z                 \right)}{} ist
+\zusatzklammer {bei
+
+\mavergleichskettek
+{\vergleichskettek
+{ z
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T_PY
+}
+{ =} { \R \begin{pmatrix}  0  \\ z \\  -y   \end{pmatrix} + \R\begin{pmatrix}  z  \\ 0 \\  f(x)f'(x)   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+(1) ist klar. Die
+\definitionsverweis {Jacobimatrix}{}{}
+von $h$ ist
+\mathl{2 \left(  -f(x)f'(x)  , \,   y  , \,  z                 \right)}{.} Wegen der Positivität von $f$ kann
+
+\mavergleichskette
+{\vergleichskette
+{ y
+}
+{ = }{ z
+}
+{ = }{ 0
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nicht sein, daher ist $h$ auf $Y$ regulär. Die angegebenen Vektoren sind bei
+
+\mavergleichskette
+{\vergleichskette
+{ z
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {linear unabhängig}{}{}
+und gehören zum
+\definitionsverweis {Kern}{}{}
+der Jacobimatrix.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Rotationsfläche/Differenzierbare positive Kurve/Graph/Geodätische/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $I$ ein
+\definitionsverweis {offenes Intervall}{}{}
+und
+\maabb {f} { I } { \R_+
+} {}
+eine
+\definitionsverweis {differenzierbare Funktion}{}{}
+und es sei $Y$ die
+\definitionsverweis {Rotationsfläche}{}{}
+\zusatzklammer {um die $x$-Achse} {} {}
+zum
+\definitionsverweis {Graphen}{}{}
+von $f$. Es sei
+\maabbeledisp {\gamma} { J } { I
+} { t } { \gamma(t)
+} {,}
+eine bijektive differenzierbare Funktion derart, dass
+\mathl{\left(  \gamma(t)  , \,  f(\gamma(t))                   \right)}{}
+ein Parametrisierung des Graphen zu $f$ mit konstanter Norm der Geschwindigkeit ist.}
+\faktuebergang {Dann gelten folgende Eigenschaften.}
+\faktfolgerung {\aufzaehlungzwei {Zu jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ \left(  x   , \,   y  , \,  z                 \right)
+}
+{ = }{ \left(  x   , \,   f(x) \cos \alpha  , \,   f(x) \sin \alpha                 \right)
+}
+{ \in }{ Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+\maabbeledisp {\theta} { J } { Y
+} { t } { \left(  \gamma(t)   , \,  f( \gamma(t) ) \cos \alpha  , \,   f( \gamma(t) ) \sin \alpha                 \right)
+} {,}
+eine
+\definitionsverweis {Geodätische}{}{.}
+} {Eine Kreiskurve
+\maabbeledisp {\theta} {\R} {I \times \R^2
+} {\alpha} { \left(  x   , \,  f( x ) \cos \alpha  , \,   f(x ) \sin \alpha                 \right)
+} {,}
+ist genau dann eine Geodätische, wenn
+
+\mavergleichskette
+{\vergleichskette
+{ f'(x)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist.
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\aufzaehlungzwei {Die Kurve $\theta$ bewegt sich in der Ebene
+\mathl{\R  \begin{pmatrix}  1  \\ 0 \\  0   \end{pmatrix} + \R  \begin{pmatrix}  0  \\ \cos \alpha \\  \sin \alpha   \end{pmatrix}}{.} Nach einer Drehung können wir ohne Einschränkung
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+annehmen, die Kurve durchläuft also direkt den Graphen von $f$. Wegen der Bogenparametrisierung steht
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \theta'(t)
+}
+{ =} { \begin{pmatrix}  \gamma'(t) \\f'(\gamma(t)) \gamma'(t) \\  0   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+nach
+[[Differenzierbare Kurve/Bogenparametrisiert/Zweite Ableitung/Senkrecht/Aufgabe|Aufgabe 2.3]]
+senkrecht auf
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \theta^{\prime \prime} (t)
+}
+{ =} { \begin{pmatrix}  \gamma^{\prime \prime} (t) \\f'(\gamma(t)) \gamma^{\prime \prime} (t) +f^{\prime \prime}(\gamma(t))  \left(  \gamma^{\prime } (t)  \right)^2 \\  0   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dies bedeutet, dass die Beschleunigung senkrecht auf dem Tangentialraum
+\zusatzklammer {der neben der Kurvenableitung von $\begin{pmatrix}  0  \\ 0\\  1   \end{pmatrix}$ erzeugt wird} {} {}
+steht und daher die tangentiale Beschleunigung gleich $0$ ist. Also liegt eine Geodätische vor.
+} {Die Kreisbewegung spielt sich auf der durch das fixierte $x$ gegebenen Ebene ab, die Ableitung
+\zusatzklammer {nach $\alpha$} {} {}
+der gegebenen Kurve ist  $f(x) \begin{pmatrix}  0  \\ - \sin \alpha \\  \cos \alpha   \end{pmatrix}$  und die Beschleunigung der gegebenen Kurve ist gleich  $- f(x) \begin{pmatrix}  0  \\ \cos \alpha \\  \sin \alpha   \end{pmatrix}$. Die Beschleunigung ist damit innerhalb der Ebene senkrecht zur Geschwindigkeit der Kurve, die einen Tangentialvektor der Rotationsfläche bildet. Ein dazu linear unabhängiger Tangentialvektor ist durch $\begin{pmatrix}  1  \\f'(x)\\  0   \end{pmatrix}$ gegeben. Dieser steht aber nur bei
+
+\mavergleichskette
+{\vergleichskette
+{ f'(x)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+stets senkrecht auf der Beschleunigung.
+}
+
+}
+
+  \zwischenueberschrift{Das Normalenfeld}
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Ein auf einer offenen Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ U
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definiertes
+\definitionsverweis {stetiges}{}{}
+\definitionsverweis {Vektorfeld}{}{}
+\maabb {F} {U} {\R^n
+} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F(P)
+}
+{ \in} { N_PY
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+heißt
+\definitionswort {Normalenfeld}{}
+auf $Y$.
+
+}
+
+Wenn dabei zusätzlich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Vert {N(P)} \Vert
+}
+{ =} { 1
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gilt, so spricht man von einem \stichwort {Einheitsnormalenfeld} {.} Da die Normalengerade im betrachtenten Hyperflächenfall eindimensional ist, gibt es für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nur zwei mögliche Werte für ein Einheitsnormalenfeld an diesem Punkt, die zueinander negativ sind. Dabei interessiert man sich hauptsächlich nur für die Werte des Feldes auf $Y$, man betrachtet also zwei Normalenfelder zu $Y$ als identisch, wenn sie auf $Y$ übereinstimmen. Die offene Umgebung ist nur nötig, um von differenzierbar sprechen zu können.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Glatt/Normalenfeld/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei.}
+\faktfolgerung {Dann ist
+\mathl{{ \frac{
+\operatorname{Grad} \,  h  }{  \Vert {
+\operatorname{Grad} \,  h } \Vert  } }}{} ein
+\definitionsverweis {Einheitsnormalenfeld}{}{}
+auf $Y$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Nach Voraussetzung ist das
+\definitionsverweis {Gradientenfeld}{}{}
+$\operatorname{Grad} \,  h$ nullstellenfrei auf $Y$ und daher wegen der vorausgesetzten Stetigkeit auch nullstellenfrei in einer offenen Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ U
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Das angegebene Vektorfeld ist also in einer offenen Umgebung von $Y$ definiert. Die Orthogonalität zu den Tangentialräumen an die Faser und die Normiertheit sind klar.
+
+}
+
+\inputbeispiel{}
+{
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Hyperboloid1} {png} }
+\end{center}
+\bildtext {Ein \stichwort {einschaliges Hyperboloid} {.}} }
+
+\bildlizenz { Hyperboloid1.png } {} {RokerHRO} {Commons} {gemeinfrei} {}
+
+Wir betrachten die Funktion
+\maabbele {h} {\R^3} {\R
+} {(x,y,z)} { x^2+y^2-z^2-1
+} {}
+und dazu die Faser über $0$, also das  \stichwort {einschalige Hyperboloid} {} $Y$. Der
+\definitionsverweis {Gradient}{}{}
+zu $h$ in einem Punkt
+\mathl{(x,y,z)}{}  ist durch
+\mathl{\begin{pmatrix}  2x \\ 2y\\  -2z   \end{pmatrix}}{}
+und das
+\definitionsverweis {totale Differential}{}{}
+ist entsprechend durch
+\mathl{\left(  2x  , \,   2y  , \,   -2z                 \right)}{} gegeben, daher ist $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{.}
+Der
+\definitionsverweis {Tangentialraum}{}{}
+in einem Punkt ist der Kern des totalen Differentials, eine Basis ist
+\mathl{\begin{pmatrix}  y  \\ -x\\  0   \end{pmatrix} ,  \begin{pmatrix}  z  \\ 0 \\  x   \end{pmatrix}}{}
+\zusatzklammer {bei
+
+\mavergleichskettek
+{\vergleichskettek
+{ x
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+muss man den zweiten Vektor durch $\begin{pmatrix}  0  \\ z \\  y   \end{pmatrix}$ ersetzen} {} {.}
+Das
+\definitionsverweis {Einheitsnormalenfeld}{}{}
+ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ N( \begin{pmatrix}  x  \\ y \\ z   \end{pmatrix} )
+}
+{ =} { { \frac{
+\operatorname{Grad} \, h(x,y,z)  }{  \Vert {
+\operatorname{Grad} \, h(x,y,z) } \Vert  } }
+}
+{ =} { \left(  x^2+y^2+z^2  \right)^{ - { \frac{   1  }{  2 } } } \begin{pmatrix}  x  \\ y \\  -z   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+
+}
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Dann nennt man die Fixierung eines
+\definitionsverweis {Einheitsnormalenfeldes}{}{}
+auf $Y$ eine
+\definitionswort {Orientierung}{}
+von $Y$.
+
+}
+
+Zu einer Orientierung gibt es stets die negative oder die entgegengesetzte Orientierung. Wenn eine beschreibende Funktion $h$ für $Y$ fixiert ist, so erhält man mit
+[[Hyperfläche/Glatt/Normalenfeld/Fakt|Lemma 2.4]]
+direkt die Orientierung
+\mathl{{ \frac{
+\operatorname{Grad} \,  h  }{  \Vert {
+\operatorname{Grad} \,  h } \Vert  } }}{.} Allerdings gehört zu $-h$ die entgegengesetzte Orientierung, und es gibt keine kanonische Möglichkeit, eine davon auszuwählen. Bei einem nullstellenfreien Normalenfeld kann man stets zum zugehörigen Einheitsnormalenfeld übergehen und erhält somit eine Orientierung.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Glatt/Zusammenhängend/Orientierung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei $Y$
+\definitionsverweis {zusammenhängend}{}{.}}
+\faktfolgerung {Dann gibt es genau zwei
+\definitionsverweis {Orientierungen}{}{}
+auf $Y$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Nach
+[[Hyperfläche/Glatt/Normalenfeld/Fakt|Lemma 2.4]]
+gibt es ein Einheitsnormalenfeld, das eine Orientierung repräsentiert, und die Negation davon liefert eine weitere Orientierung. Diese nennen wir $G$ bzw. $-G$. Es sei nun
+\maabbdisp {N} { Y } { \R^n
+} {}
+ein beliebiges stetiges Einheitsnormalenfeld. Wir betrachten die Übereinstimmungsorte
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y_1
+}
+{ =} { \left\{ P \in Y  \mid   N(P) = G(P)         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y_2
+}
+{ =} { \left\{ P \in Y  \mid   N(P) = - G(P)         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Da es für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nur die beiden möglichen Werte
+
+\mavergleichskettedisp
+{\vergleichskette
+{ N(P)
+}
+{ =} { \pm G(P)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gibt, ist $Y$ die disjunkte Vereinigung von
+\mathkor {} {Y_1} {und} {Y_2} {.}
+Als Übereinstimmungsort von stetigen Funktionen sind
+\mathkor {} {Y_1} {und} {Y_2} {}
+\definitionsverweis {abgeschlossen}{}{}
+\zusatzklammer {und damit auch
+\definitionsverweis {offen}{}{}
+in $Y$} {} {.}
+Aufgrund des Zusammenhangs ist also
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ Y_1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+oder
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ Y_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+
+  \zwischenueberschrift{Die Gauß-Abbildung}
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei eine
+\definitionsverweis {Orientierung}{}{}
+auf $Y$ fixiert. Dann heißt die Abbildung
+\maabbdisp {} { Y } { S^{n-1}
+} {,}
+die jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+auf seinen durch die Orientierung fixierten Einheitsnormalenvektor abbildet, die
+\definitionswort {Gauß-Abbildung}{}
+zu $Y$.
+
+}
+
+Im Allgemeinen denken wir uns Tangentialvektoren und Normalenvektoren an den Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+angeheftet, hier ist es aber wichtig, den Normalenvektor als einen Punkt auf der \anfuehrung{neutralen}{} $n-1$- dimensionalen Sphäre zu betrachten. Die Gauß-Abbildung eröffnet eine Möglichkeit, eine beliebige glatte Hyperfläche mit der besonders einfachen Hyperfläche, nämlich der Kugeloberfläche, in Beziehung zu setzen.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Glatt/Gauß-Abbildung/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei eine
+\definitionsverweis {Orientierung}{}{}
+auf $Y$ fixiert.}
+\faktuebergang {Dann gelten für die
+\definitionsverweis {Gauß-Abbildung}{}{}
+folgende Aussagen.}
+\faktfolgerung {\aufzaehlungvier{Die Gauß-Abbildung ist
+\definitionsverweis {stetig}{}{.}
+}{Bei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ S^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist die Gauß-Abbildung
+\zusatzklammer {wenn die Orientierung nach außen zeigt} {} {}
+die Identität oder die antipodale Abbildung.
+}{Wenn $Y$
+\definitionsverweis {zusammenhängend}{}{}
+ist, so sind die Gauß-Abbildungen zu den beiden Orientierungen antipodal zueinander.
+}{Sei $Y$ zusammenhängend. Dann ist die Gauß-Abbildung genau dann konstant, wenn $Y$ ein offener Ausschnitt aus einem
+\definitionsverweis {affin-linearen Unterraum}{}{}
+der Dimension $n-1$ ist.
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\aufzaehlungvier{Dies folgt aus
+[[Hyperfläche/Glatt/Normalenfeld/Fakt|Lemma 2.4]].
+}{Klar.
+}{Klar.
+}{Die Rückrichtung ist klar. Zum Beweis der Hinrichtung sei der Einheitsnormalenvektor konstant gleich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ v
+}
+{ =} { \begin{pmatrix} a_1  \\\vdots\\ a_n   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dann ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\operatorname{Grad} \,  h  (  P )
+}
+{ =} { g(P) v
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit einer stetigen nullstellenfreien Funktion
+\maabb {g} { Y } {\R
+} {.}
+Wir können $h$ durch
+\mathl{{ \frac{   h  }{  \Vert { h } \Vert  } }}{} ersetzen ohne $Y$ zu verändern. Dann ist nach
+[[Hyperfläche/Glatt/Zusammenhängend/Orientierung/Fakt|Lemma 2.7]]
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\operatorname{Grad} \,  h  (  P )
+}
+{ =} { \pm v
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und daher
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h(x_1 , \ldots , x_n)
+}
+{ =} { \pm \sum_{ i = 1}^n a_ix_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Die Faser zu $h$ auf ganz $\R^n$ ist ein affin-linearer Untervektorraum.}
+
+}
+
+Wir erinnern an den folgenden Satz.
+
+\inputfakt{Hyperfläche/Glatt und kompakt/Jede Hyperebene als Tangentialraum/Fakt}{Satz}{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {offene Teilmenge}{}{}
+und sei
+\maabbdisp {f} { U } {\R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{.}}
+\faktvoraussetzung {Die
+\definitionsverweis {Faser}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ = }{ f^{-1}(b)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+von $f$ zu einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{b
+}
+{ \in }{\R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sei
+\definitionsverweis {kompakt}{}{}
+und in jedem Punkt
+\definitionsverweis {regulär}{}{.}}
+\faktfolgerung {Dann ist jeder
+\mathl{(n-1)}{-}dimensionale Unterraum
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subset }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für mindestens einen Punkt
+
+\mavergleichskette
+{\vergleichskette
+{a
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gleich dem
+\definitionsverweis {Tangentialraum}{}{}
+
+\mathl{T_aM}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Glatt und kompakt/Gauß-Abbildung surjektiv/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {offene Teilmenge}{}{}
+und sei
+\maabbdisp {h} { W } {\R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{.}}
+\faktvoraussetzung {Die
+\definitionsverweis {Faser}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+von $h$ zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{\R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sei
+\definitionsverweis {kompakt}{}{}
+und in jedem Punkt
+\definitionsverweis {regulär}{}{.}}
+\faktfolgerung {Dann ist die
+\definitionsverweis {Gauß-Abbildung}{}{}
+\maabbdisp {} { Y } { S^{n-1}
+} {}
+surjektiv.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Ein Einheitsnormalenvektor beschreibt über die Orthogonalitätsrelation eine Hyperebene, also einen $n-1$-dimensionalen Untervektorraum, wobei auch der negierte Einheitsnormalenvektor die gleiche Hyperebene beschreibt. [[Hyperfläche/Glatt und kompakt/Jede Hyperebene als Tangentialraum/Fakt|Satz 2.10]]
+zeigt, dass jede Hyperebene als ein Tangentialraum von $Y$ auftritt. Der Beweis von
+[[Hyperfläche/Glatt und kompakt/Jede Hyperebene als Tangentialraum/Fakt|Satz 2.10]]
+zeigt aber ferner
+\zusatzklammer {wenn man dort neben dem Maximum auch das Minimum betrachtet} {} {,}
+dass beide Normaleneinheitsvektoren auftreten.
+
+}
+
+ [[Kategorie:Latexseite]]

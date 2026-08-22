@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "input": "authority/exports/worksheet02_latex_expand.json",
+  "input_bytes": 14036,
+  "input_sha256": "81f0f3d88687a255fbe828ff70f78c15aa7686520b39728598518bc03a724ed2",
+  "expanded_chars": 13036,
+  "output": "authority/expanded/worksheet02_source.de.tex",
+  "output_bytes": 10171,
+  "output_sha256": "c645aacb16233d832b492315379b0251c33fa52db6b2e7ac24be4ecc9600d3ad",
+  "transform": [
+    "normalize CRLF/CR to LF",
+    "replace br tags with LF",
+    "remove div/pre/nowiki wrapper tags",
+    "decode HTML entities",
+    "strip trailing horizontal whitespace",
+    "collapse runs of blank lines",
+    "require no residual HTML tag or U+FFFD"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "authority": "German Wikiversity MediaWiki API",
+  "content_format": "text/x-wiki",
+  "content_model": "wikitext",
+  "exact_utf8_base64_sha256": "37062e0d8a6d1dbf696cb4a3b844877f67d778e1389f7ab6f40a142a0c64f027",
+  "exact_utf8_base64_witness": "worksheet02_exercise02_solution_revid1089268.utf8.b64",
+  "mediawiki_sha1": "d684028bf2c688772acfeb0f37a42bd274ff6e70",
+  "namespace": 0,
+  "pageid": 120435,
+  "parentid": 982805,
+  "query_response": "authority/mediawiki/unit02_solution_pages_current.json",
+  "query_response_sha256": "bf4d8f7b6aab85e1d30c599ea963dcc63f49e9dea548a014c6a78e3e62799627",
+  "readable_normalized_bytes": 1029,
+  "readable_normalized_sha256": "0561cbb40f748ffe9819cd3bd6d5d309488c9579327923ae65e022d13e1f045e",
+  "readable_normalized_witness": "worksheet02_exercise02_solution_revid1089268.wiki",
+  "revid": 1089268,
+  "source_characters": 1025,
+  "source_utf8_bytes": 1028,
+  "source_utf8_sha1": "d684028bf2c688772acfeb0f37a42bd274ff6e70",
+  "source_utf8_sha256": "0bdd1cde6d1d0dc74757aa824634d10b6b4bf413efb4431538b7d9bac2b6f06c",
+  "timestamp": "2026-05-31T10:02:12Z",
+  "title": "Differenzierbare Kurve/Geschwindigkeitsnorm/Ableitung/Charakterisierung/Aufgabe/Lösung"
+}

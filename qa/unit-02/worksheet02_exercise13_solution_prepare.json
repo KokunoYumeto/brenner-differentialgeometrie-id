@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-02/worksheet02_exercise13_solution.id.tex",
+  "input_bytes": 2532,
+  "input_sha256": "a4a230b45de82885027722450d3a7f12fc63fe06187abab481788f7b37352ac0",
+  "output": "build/generated/worksheet02_exercise13_solution.id.build.tex",
+  "output_bytes": 2439,
+  "output_sha256": "96cc12031d75d2deb955c6ad9a7b22c7b97532a8475902c6566d8df407df137d",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "rendered_internal_links": [
+    {
+      "target": "Hyperfläche/Glatt und kompakt/Gauß-Abbildung surjektiv/Fakt",
+      "label": "Teorema 2.11"
+    }
+  ]
+}

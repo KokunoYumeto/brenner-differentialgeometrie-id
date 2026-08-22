@@ -81,6 +81,8 @@ Invoke-CheckedPython @(
     '--project-root', $laneRoot,
     '--source-dir', (Join-Path $laneRoot 'authority\media'),
     '--output-dir', $mediaDir,
+    '--media-config', (Join-Path $laneRoot 'source\unit_media.json'),
+    '--unit-number', '1',
     '--attribution-tex', (Join-Path $generatedDir 'unit01-media-attribution.tex'),
     '--receipt', (Join-Path $laneRoot 'qa\unit-01_media.json')
 )

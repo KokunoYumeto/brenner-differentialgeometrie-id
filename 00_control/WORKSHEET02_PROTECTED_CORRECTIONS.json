@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-02/worksheet02.id.tex",
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0016+O011-CORR-0017+O011-CORR-0018+O011-CORR-0019+O011-CORR-0020",
+      "surface": "profile:commands",
+      "source_sha256": "f7b2438d02b65fb4099d4ebaec9726da3e4c25e8d3c9fb054254b9cd34a0e123",
+      "target_sha256": "07da78270bdf88b09aab31e3bce29b56568daf4e0de0ecbc116bfbdfbe4821a9"
+    },
+    {
+      "correction_id": "O011-CORR-0017+O011-CORR-0020",
+      "surface": "profile:inline_math",
+      "source_sha256": "6f035418320cd9700a7fa96e4f491c1d3cc77d34b9e2e2084e0f74b3993ebe24",
+      "target_sha256": "fff8bcae84dcefc6eca9cb10dedccf7b4711dd548c4c123b16f4983e4d8fb70b"
+    },
+    {
+      "correction_id": "O011-CORR-0016+O011-CORR-0017",
+      "surface": "profile:protected:vergleichskette",
+      "source_sha256": "ddee23fc1afa74f0a1366bd00cf5222181906b99721cd758d696b2406050603b",
+      "target_sha256": "b348f6c5dc671b7487ae417f7ca7106758be97254172d0f398b79803765e95fb"
+    },
+    {
+      "correction_id": "O011-CORR-0019",
+      "surface": "profile:protected:maabbeledisp",
+      "source_sha256": "7c9db9063cd3d318017b32f2224a66a3d7b6d26822a4dc4efbd7917825112088",
+      "target_sha256": "3ff1287ace24bf1f325e62f553f0e7cc8b8c16c57854e08b66f86118056d8ad8"
+    }
+  ]
+}

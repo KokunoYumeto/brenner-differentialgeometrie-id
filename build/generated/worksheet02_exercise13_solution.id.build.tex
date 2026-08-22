@@ -1,0 +1,117 @@
+% Authority: German Wikiversity pageid 152873, revid 1094182, 2026-06-14T15:10:42Z.
+% Exact UTF-8 wikitext witness SHA-256: 1050f074ecb58b7a8211d756b7fcd6fe4a0a4db6a024083c31ca3c5469e9fd50.
+% Expanded German TeX source SHA-256: 6896eb6a4a6f4c25bcfaab674847dcd78bc079cfd6c58b3b8542c5c220d85e7b.
+
+Untuk memperoleh
+\definitionsverweis {medan normal satuan}{}{,}
+kita mulai dari gradien fungsi yang mendeskripsikan elips tersebut, yaitu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ G(x,y)
+}
+{ =} { \begin{pmatrix}  2 \alpha x  \\ 2 \beta y    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan dengan menormalisasikannya kita memperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ N(x,y)
+}
+{ =} {  { \frac{   1 }{  \sqrt{ \alpha^2 x^2 + \beta^2 y^2 }  } } \begin{pmatrix}   \alpha x  \\  \beta y    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dengan demikian, pemetaan Gauss tersebut adalah
+\maabbeledisp {\varphi} {Y = \left\{  \begin{pmatrix}  x  \\ y   \end{pmatrix}   \in \R^2  \mid   \alpha x^2+\beta y^2 = 1        \right\}  } { S^1
+} { \begin{pmatrix}  x  \\ y   \end{pmatrix} } { { \frac{   1 }{  \sqrt{ \alpha^2 x^2 + \beta^2 y^2 }  } } \begin{pmatrix}   \alpha x  \\  \beta y    \end{pmatrix}
+} {.} Kesurjektifan pemetaan ini mengikuti
+Teorema 2.11.
+Untuk membuktikan injektivitasnya, kita tinjau syarat
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   1  }{  \sqrt{ \alpha^2 x^2 + \beta^2 y^2 }  } } \begin{pmatrix}   \alpha x  \\  \beta y    \end{pmatrix}
+}
+{ =} { { \frac{   1  }{  \sqrt{ \alpha^2 z^2 + \beta^2 w^2 }  } } \begin{pmatrix}   \alpha z  \\  \beta w    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Ini berarti bahwa
+\mathkor {} {\begin{pmatrix}   \alpha x  \\  \beta y    \end{pmatrix}} {dan} {\begin{pmatrix}   \alpha z  \\  \beta w    \end{pmatrix}} {}
+bergantung secara linear dengan faktor positif $c$, sehingga
+$ (x,y)=c(z,w) $. Karena kedua titik terletak pada $Y$,
+
+\[
+1=\alpha x^2+\beta y^2
+=c^2\left(\alpha z^2+\beta w^2\right)=c^2.
+\]
+
+Karena $c>0$, diperoleh $c=1$. Jadi berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}   \alpha x  \\  \beta y    \end{pmatrix}
+}
+{ =} { \begin{pmatrix}   \alpha z  \\  \beta w    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan oleh karena itu
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ = }{ z
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ y
+}
+{ = }{ w
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}

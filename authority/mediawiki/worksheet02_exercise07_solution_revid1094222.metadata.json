@@ -1,0 +1,23 @@
+{
+  "authority": "German Wikiversity MediaWiki API",
+  "content_format": "text/x-wiki",
+  "content_model": "wikitext",
+  "exact_utf8_base64_sha256": "522cebdffcbf14336ebda09a83e857f26dda5432e6afd699356d0cc371e72ca6",
+  "exact_utf8_base64_witness": "worksheet02_exercise07_solution_revid1094222.utf8.b64",
+  "mediawiki_sha1": "763b0e249dc4092c784d70c9547217f198a3c370",
+  "namespace": 0,
+  "pageid": 152882,
+  "parentid": 1094184,
+  "query_response": "authority/mediawiki/unit02_solution_pages_current.json",
+  "query_response_sha256": "bf4d8f7b6aab85e1d30c599ea963dcc63f49e9dea548a014c6a78e3e62799627",
+  "readable_normalized_bytes": 1024,
+  "readable_normalized_sha256": "61c90532841778b32b86c4a885b78ccc7983d1bcb0dc4881d434e76dd29e7883",
+  "readable_normalized_witness": "worksheet02_exercise07_solution_revid1094222.wiki",
+  "revid": 1094222,
+  "source_characters": 1020,
+  "source_utf8_bytes": 1023,
+  "source_utf8_sha1": "763b0e249dc4092c784d70c9547217f198a3c370",
+  "source_utf8_sha256": "dbe0990deca042c24dda79891b6ccc66b57723be69023687cacd7ffa206f6988",
+  "timestamp": "2026-06-14T15:20:09Z",
+  "title": "Eingebetteter Torus/Einheitsnormalenfeld/Aufgabe/Lösung"
+}

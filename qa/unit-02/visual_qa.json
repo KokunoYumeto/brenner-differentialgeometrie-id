@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "qa_id": "o011-u02-visual-qa-20260822",
+  "timestamp": "2026-08-22T06:20:35+02:00",
+  "pdf": {
+    "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-02-id.pdf",
+    "bytes": 3152320,
+    "sha256": "6312b4df706d0f08eeb9f37da0abda3428b5448dce54781d0f52eb9c8db5c385",
+    "pages": 44
+  },
+  "render": {
+    "command": "pdftoppm -r 120 -png",
+    "directory": "tmp/pdfs/through-unit02-render-6312b4df",
+    "page_pattern": "page-01.png through page-44.png",
+    "page_count": 44,
+    "pixel_dimensions_each": "993x1404",
+    "total_bytes": 5440984,
+    "inventory_digest_method": "SHA-256 of UTF-8 lines filename + NUL + bytes + NUL + lowercase file SHA-256 + LF, sorted by filename",
+    "inventory_sha256": "2f5285e5d2877cc25175308fdd11e582e2e0762173a9d6ac7dd3d421c8a2af46"
+  },
+  "inspection": {
+    "coverage": "Every rendered page 1-44 was visually inspected, including the title matter, table of contents, both lecture/worksheet pairs, all supplied solutions, list of figures, media-rights pages, and license page.",
+    "critical_repair_pages": {
+      "file_page_36": "Exercise 2.11 now ends cleanly at the antipodal-map display with no detached phrase.",
+      "file_page_39": "Solution 2.12 now has grammatical Indonesian prose and intact formulas.",
+      "file_page_41": "Solution 2.13 visibly cites Teorema 2.11 and the completed injectivity proof fits without clipping.",
+      "file_page_43": "Both Unit 2 media entries show the localized rights label domain publik and readable credits."
+    },
+    "checks": {
+      "clipped_or_overlapping_text": false,
+      "broken_or_unreadable_formulas": false,
+      "missing_or_misaligned_images": false,
+      "broken_headings_or_transitions": false,
+      "unexpected_blank_pages": false,
+      "unreadable_glyphs_or_black_squares": false,
+      "footer_or_page_number_defects": false
+    }
+  },
+  "verdict": "PASS"
+}

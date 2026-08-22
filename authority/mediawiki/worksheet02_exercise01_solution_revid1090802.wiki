@@ -1,0 +1,49 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es seien {{math|term=  f_i(t) |SZ=}} bzw. {{math|term=  g_i(t) |SZ=}} die Komponentenfunktionen von
+{{
+mathkor|term1=
+f
+|bzw.|term2=
+g
+|SZ=.
+}}
+Die in Frage stehende Funktion ist
+{{
+Relationskette/display
+|  {{op:Skalarprodukt|f(t)|g(t)}} 
+|| \sum_{i {{=}} 1}^n  f_i(t) g_i(t)
+|| 
+|| 
+|| 
+|SZ=
+}}
+mit der Ableitung
+{{
+Zusatz/Klammer
+|text=auf jeden Summanden wendet man die Produktregel an|
+|ISZ=|ESZ=
+}}
+{{
+Math/display|term=
+ \sum_{i {{=}} 1}^n  f'_i(t) g_i(t)  + \sum_{i {{=}} 1}^n  f_i(t) g'_i(t)
+|SZ=.
+}}
+Mit dem Skalarprodukt kann man dies als
+{{
+Math/display|term=
+ {{op:Skalarprodukt|f'(t)| g(t)}} + {{op:Skalarprodukt|f(t)| g'(t)}} 
+|SZ=
+}}
+schreiben.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

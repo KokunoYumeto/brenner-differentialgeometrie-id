@@ -1,0 +1,828 @@
+\setcounter{section}{2}
+
+  \zwischenueberschrift{Soal latihan}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Misalkan
+\maabbdisp {f,g} {\R} { \R^n
+} {}
+\definitionsverweis {kurva-kurva terdiferensialkan}{}{.}
+Hitung
+\definitionsverweis {turunan}{}{}
+fungsi
+\maabbeledisp {} {\R} {\R
+} { t } { \left\langle f(t) , g(t)  \right\rangle
+} {.}
+Nyatakan hasilnya menggunakan hasil kali dalam.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Misalkan
+\maabb {h} { I } { V
+} {}
+sebuah kurva yang terdiferensialkan dua kali dalam
+\definitionsverweis {ruang vektor Euklides}{}{}
+$V$. Buktikan bahwa jika
+
+\mavergleichskette
+{\vergleichskette
+{h'(t)
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+maka berlaku persamaan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Vert { h'(t)} \Vert'
+}
+{ =} { { \frac{   \left\langle h'(t) , h^{\prime \prime} (t)  \right\rangle  }{  \left\langle h'(t) , h'(t)  \right\rangle  } } \Vert { h'(t)} \Vert
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+Sebuah
+\definitionsverweis {kurva terdiferensialkan}{}{}
+\maabbeledisp {f} { [a,b] } {\R^n
+} { t } {f(t) = \left( f_1(t)  , \,   \ldots  , \,  f_n(t)                 \right)
+} {,}
+disebut
+\definitionswort {berparametrisasi panjang busur}{,}
+jika
+
+\mavergleichskette
+{\vergleichskette
+{ f_1'(t)^2 + \cdots +  f_n'(t)^2
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+untuk setiap $t$.
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+\maabb {\gamma} { I } {\R^n
+} {}
+sebuah kurva yang dua kali
+\definitionsverweis {terdiferensialkan secara kontinu}{}{}
+dan
+\definitionsverweis {berparametrisasi panjang busur}{}{.}
+Buktikan bahwa
+\mathkor {} {\gamma'(t)} {dan} {\gamma^{\prime \prime}(t)} {}
+saling tegak lurus.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sebuah titik dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ = }{ {]{-1},1[}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Kita tinjau himpunan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { \left\{ f:I \rightarrow \R^n   \mid  f \text{ terdiferensialkan} , \,  f(0) = P       \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dua
+\definitionsverweis {kurva}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ f,g
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+disebut \stichwort {ekuivalen secara tangensial} {,} jika
+
+\mavergleichskettedisp
+{\vergleichskette
+{ f'(0)
+}
+{ =} { g'(0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+a) Buktikan bahwa ini merupakan suatu
+\definitionsverweis {relasi ekuivalensi}{}{.}
+
+b) Temukan wakil paling sederhana bagi setiap
+\definitionsverweis {kelas ekuivalensi}{}{.}
+
+c) Berikan satu wakil lain untuk setiap kelas.
+
+d) Deskripsikan himpunan kelas-kelas ekuivalensi tersebut
+\zusatzklammer {yakni
+\definitionsverweis {himpunan hasil bagi}{}{}} {} {.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Dengan syarat
+\zusatzklammer {reguler di setiap titik} {} {,}
+berikan sebuah contoh
+\definitionsverweis {hipermuka terdiferensialkan}{}{,}
+yang tidak
+\definitionsverweis {terhubung}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sebuah
+\definitionsverweis {himpunan terbuka}{}{}
+dan misalkan
+\maabbdisp {f} { V } {\R
+} {}
+sebuah fungsi yang
+\definitionsverweis {terdiferensialkan secara kontinu}{}{.}
+Kita tinjau
+\definitionsverweis {grafik}{}{}
+$Y$ dari $f$ sebagai hipermuka terdiferensialkan di $\R^n$ dalam pengertian
+Contoh 1.2.
+Tentukan
+\definitionsverweis {medan-medan normal satuan}{}{}
+dalam kasus ini.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Misalkan
+\mathkor {} {r} {dan} {R} {}
+bilangan real positif yang memenuhi
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ < }{ r
+}
+{ < }{ R
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Tentukan suatu
+\definitionsverweis {medan normal satuan}{}{}
+untuk torus
+\zusatzklammer {tertanam} {} {}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T
+}
+{ =} { \left\{ (x,y,z) \in \R^3  \mid   \left(  \sqrt{x^2+y^2} -R  \right)^2 +z^2  = r^2         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+\maabbdisp {f} { I } {\R_+
+} {}
+sebuah
+\definitionsverweis {fungsi terdiferensialkan}{}{}
+dan misalkan $Y$ adalah permukaan putar yang terkait dengan grafik $f$, dipandang sebagai hipermuka terdiferensialkan di $\R^3$ dalam pengertian
+Lemma 2.1.
+Tentukan
+\definitionsverweis {medan-medan normal satuan}{}{}
+dalam kasus ini.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Buktikan bahwa
+\definitionsverweis {pemetaan Gauss}{}{}
+pada sebuah hiperbidang bersifat konstan. Apakah pernyataan sebaliknya juga berlaku?
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Buktikan bahwa
+\definitionsverweis {pemetaan Gauss}{}{}
+pada sebuah permukaan bola di $\R^n$ yang berpusat di titik asal, untuk setiap pilihan orientasi, diinduksi oleh homoteti skalar pada $\R^n$ (dengan faktor positif untuk orientasi keluar dan faktor negatif untuk orientasi masuk).
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sebuah
+\definitionsverweis {hipermuka terdiferensialkan}{}{}
+dengan
+\definitionsverweis {medan normal satuan}{}{}
+$N$ dan medan normal satuan yang berlawanan, $-N$. Buktikan bahwa kedua
+\definitionsverweis {pemetaan Gauss}{}{}
+yang terkait saling berhubungan melalui
+\definitionsverweis {pemetaan antipodal}{}{}
+\maabbeledisp {} {S^{n-1}} {S^{n-1}
+} { P } { -P
+} {.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha,\beta
+}
+{ \in }{ \R_+
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan misalkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ =} { \left\{ (x,y)\in\R^2  \mid   \alpha x^2+\beta y^2 = 1        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Orientasikan $Y$ dengan medan normal satuan yang diperoleh dari gradien keluar fungsi
+$ (x,y) \longmapsto \alpha x^2+\beta y^2 $.
+\aufzaehlungzwei {Tentukan
+\definitionsverweis {pemetaan Gauss}{}{}
+untuk $Y$.
+} { Berikan secara eksplisit suatu
+\definitionsverweis {pemetaan invers}{}{}
+untuk pemetaan Gauss pada $Y$.
+}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha,\beta
+}
+{ \in }{ \R_+
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan misalkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ =} { \left\{ (x,y)\in\R^2  \mid   \alpha x^2+\beta y^2 = 1        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Buktikan bahwa
+\definitionsverweis {pemetaan Gauss}{}{}
+untuk $Y$ bersifat bijektif.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Berikan sebuah contoh
+\definitionsverweis {hipermuka terdiferensialkan}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sedemikian sehingga
+\definitionsverweis {pemetaan Gauss}{}{}
+bersifat surjektif dan terdapat titik-titik pada $S^1$ yang dicapai tak berhingga kali.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+sebuah
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik pada $Y$. Misalkan
+\maabbdisp {L} {\R^n } { \R^n
+} {}
+sebuah
+\definitionsverweis {isometri linear}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ W'
+}
+{ = }{ L^{-1}(W)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Z
+}
+{ =} { L^{-1}(Y)
+}
+{ =} { (h \circ L)^{-1}(c)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Buktikan bahwa konsep-konsep kurva geodesik, medan normal, medan normal satuan, dan pemetaan Gauss pada $Y$ dan $Z$ saling bersesuaian
+\zusatzklammer {yakni dapat dipetakan satu sama lain dengan bantuan $L$} {} {.}
+
+}
+{} {}
+
+  \zwischenueberschrift{Soal untuk dikumpulkan}
+
+\inputaufgabe
+{3}
+{
+
+Tentukan citra parabola standar berorientasi ke atas di bawah
+\definitionsverweis {pemetaan Gauss}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ = }{ \R^3 \setminus \{ (0,0,0) \}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {himpunan nol}{}{}
+dari
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h(x,y,z)
+}
+{ =} { x^2+y^2-z^2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Tentukan citra $Y$
+\zusatzklammer {dengan orientasi yang ditentukan oleh gradien $h$} {} {}
+di bawah
+\definitionsverweis {pemetaan Gauss}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{5}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha,\beta, \gamma
+}
+{ \in }{ \R_+
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan misalkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ =} { \left\{ (x,y,z) \in \R^3  \mid   \alpha x^2+ \beta y^2 + \gamma z^2 = 1        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Buktikan bahwa
+\definitionsverweis {pemetaan Gauss}{}{}
+untuk $Y$ bersifat bijektif.
+
+}
+{} {}
+
+\inputaufgabe
+{3}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+sebuah
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik pada $Y$. Misalkan
+\maabbdisp {L} {\R^n } { \R^n
+} {}
+sebuah
+\definitionsverweis {isomorfisme linear}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ W'
+}
+{ = }{ L^{-1}(W)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Z
+}
+{ =} { L^{-1}(Y)
+}
+{ =} { (h \circ L)^{-1}(c)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Buktikan bahwa konsep-konsep kurva geodesik, medan normal, medan normal satuan, dan pemetaan Gauss pada $Y$ dan $Z$ secara umum tidak saling bersesuaian
+\zusatzklammer {berbeda dengan
+Soal 2.14,
+yang melibatkan suatu isometri} {} {.}
+
+}
+{} {}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-02/lecture02.id.tex",
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0012+O011-CORR-0013+O011-CORR-0014",
+      "surface": "profile:commands",
+      "source_sha256": "ec04b7f66af416317feae0f458673cb8470128da2e7472e122e14708c0bfdea8",
+      "target_sha256": "74651979cd7ff08f071d0a1a46ae760a5ca580436062f9682ad62dfb3fddd0b8"
+    },
+    {
+      "correction_id": "O011-CORR-0014",
+      "surface": "profile:inline_math",
+      "source_sha256": "b3e3f364064329ce276d34eb0b7263e6ff86f725914b246b1900c099e2fa5253",
+      "target_sha256": "f0350ee8dc6e7a5759e9bdeb232038bf3e3d070803588cbf104f728ccbf21498"
+    },
+    {
+      "correction_id": "O011-CORR-0014",
+      "surface": "profile:display_math",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "target_sha256": "c30744dc6972f03867fc24bf5930b8aafd71c069a41594240fe877b4a7be7655"
+    },
+    {
+      "correction_id": "O011-CORR-0013+O011-CORR-0014",
+      "surface": "profile:protected:vergleichskette",
+      "source_sha256": "78d161b51a244c0a993bb38b7b56723975be1d60aa8298ba44392444e19082b6",
+      "target_sha256": "99322adb8e5eaefd1ecadc1abbbe3fa5aa29dee5a04f210346574b04587add82"
+    },
+    {
+      "correction_id": "O011-CORR-0014",
+      "surface": "profile:protected:maabb",
+      "source_sha256": "fa369380657c6bb7e5d83b1feea976b6064ebee78fc6b596750783effc2a1dc8",
+      "target_sha256": "4b37bca99d433448b69b873baf502be41caff69f31d909d1bd48d8fe76dcd36d"
+    },
+    {
+      "correction_id": "O011-CORR-0012",
+      "surface": "profile:protected:mathdisp",
+      "source_sha256": "fa4bce6d496e1a9cc36f10e0f208602a3c4ec01e0bcc340603aa87e520df6a1a",
+      "target_sha256": "3a216d20bfe4ba02294d367c4e172bc73ee46525ddd6a1d7f54bae911fcf7bcf"
+    },
+    {
+      "correction_id": "O011-CORR-0014",
+      "surface": "profile:brace_profile",
+      "source_sha256": "2ed12e7cae4e3a13d16f2a49dde78a03ef75d29ac987df7e0cfcf0a1fd0ef81d",
+      "target_sha256": "5b8ef9b5011acd91135b53fb6eb6b620919229c959ae0d7c9df9e63ee1e69324"
+    }
+  ]
+}

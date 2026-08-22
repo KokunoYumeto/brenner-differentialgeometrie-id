@@ -1,6 +1,6 @@
 # Current state — O011 / D50
 
-Updated: 2026-08-21 (Europe/Berlin)
+Updated: 2026-08-22 (Europe/Berlin)
 
 ## Objective
 
@@ -8,7 +8,7 @@ Produce a complete, independent, natural id-ID reader for smooth manifolds and d
 
 ## Edition-production spine and admission gate
 
-- Holger Brenner, *Differentialgeometrie (Osnabrück 2023)*, German Wikiversity, is admitted as the complete 29-lecture/29-worksheet production spine for this independent Indonesian edition. Unit 1 passed the portable-build, translation, rights, visual, structural, privacy, and backend gates on 2026-08-21.
+- Holger Brenner, *Differentialgeometrie (Osnabrück 2023)*, German Wikiversity, is admitted as the complete 29-lecture/29-worksheet production spine for this independent Indonesian edition. Units 1–2 have passed their portable-build, translation, mathematical, rights, visual, structural, privacy, and backend gates.
 - This edition decision is not a decision to admit Brenner into the separate 40-course curriculum. The selection root must compare corpora independently and must not count completed work or sunk effort as evidence.
 - Exact course page: pageid 142521, revision 889544, timestamp 2023-03-07T11:39:09Z, MediaWiki SHA-1 `e274ea4f0ae092736a5df23dfd3bb744184a9f2d`.
 - Course structure: 29 lectures and 29 corresponding worksheets.
@@ -30,15 +30,15 @@ Petrunin–Zamora is optional visual supplementation only. Its curves-and-surfac
 
 ## Production state
 
-- Authority freeze: core semantic and LaTeX/control exports are complete; Unit 1 has exact four-file binary-media closure.
-- Verified reader boundary: Lecture 1, *Analisis dan Geometri*, plus Worksheet 1 and the one solution supplied by the source.
-- Final Unit 1 PDF: 2,678,755 bytes; SHA-256 `eb7e78affacf8a559d0f52a1c44921633d2fa74a070faa64af58efc32d34a568`; 25 A4 pages.
-- Unit 1 backend: 174 schema-valid records across all 14 entity classes, deterministically exported and bound to the final PDF and all seven current QA events.
-- Current cursor: `unit-02`, source pair `Vorlesung 2` / `Arbeitsblatt 2`.
-- Publication/push: Unit 1 is public in the dedicated repository `KokunoYumeto/brenner-differentialgeometrie-id`, content commit `e36f0b4274dbd1feae6cdf7708715d8a40f98b8b`, release tag `v0.1.0-unit-01`. Anonymous raw-file and release-asset readback reproduced the exact final PDF hash.
+- Authority freeze: core semantic and LaTeX/control exports are complete; Unit 1 has exact four-file binary-media closure and Unit 2 has exact two-file binary-media closure. Unit 2 authority, all 19 exercise candidates, and the five actually supplied solutions are frozen at page/revision and byte/hash granularity.
+- Verified reader boundary: cumulative through Lecture 2, *Permukaan Putar, Medan Normal, dan Pemetaan Gauss*, plus Worksheet 2 and its five source-supplied solutions. Across Units 1–2 the reader contains 38 worksheet exercises and six supplied solutions.
+- Final cumulative PDF through Unit 2: 3,152,320 bytes; SHA-256 `6312b4df706d0f08eeb9f37da0abda3428b5448dce54781d0f52eb9c8db5c385`; 44 A4 pages. Terminal QA receipt: `qa/unit-02/UNIT_02_QA.md`, 6,326 bytes, SHA-256 `ef1d89de134f4f9bca59513e8bc3790c9121e6b92d0dae5e67aa0fc882803e4f`.
+- Cumulative backend: 357 schema-valid records across all 14 entity classes. The 174-record Unit 1 slice remains byte-identical; Unit 2 adds 183 records. JSONL SHA-256 `a393d3ff6c8aed203e7d3690eb6391e22ea25436cd06e85aa40e1adc23adb122`; CSV SHA-256 `5880fa9dee8bc0a73ed0e903d931fad38978bc2c9ef65cc58b62b48a7f26b7ba`.
+- Current cursor: `unit-03`, source pair `Vorlesung 3` / `Arbeitsblatt 3`.
+- Publication/push: Unit 1 remains public in the dedicated repository `KokunoYumeto/brenner-differentialgeometrie-id`, content commit `e36f0b4274dbd1feae6cdf7708715d8a40f98b8b`, release tag `v0.1.0-unit-01`. Anonymous raw-file and release-asset readback reproduced the exact Unit 1 PDF hash. Unit 2 is locally verified but was not pushed or published because the current task instruction explicitly prohibited Git and publication in this turn.
 - Upstream contact: prohibited during production and not used.
 
-Known accessibility limitation: the PDF is not structurally tagged. It does carry `/Lang=id-ID`, all 24 fonts have ToUnicode, and all 25 pages yield extractable text. Semantic HTML remains the planned primary structured accessibility surface.
+Known accessibility limitation: the cumulative PDF is not structurally tagged. It does carry `/Lang=id-ID`, all 28 unique embedded fonts have ToUnicode, and all 44 pages yield extractable text through both pypdf and pdfplumber. Semantic HTML remains the planned primary structured accessibility surface.
 
 ## Completion gate for each unit
 
@@ -52,4 +52,4 @@ Known accessibility limitation: the PDF is not structurally tagged. It does carr
 
 ## Resume order
 
-Read `GOAL_AND_WORKFLOW.md`, `AUTHORITY_FREEZE.md`, `DECISION_LOG.md`, `CURSOR.json`, `TERMINOLOGY.csv`, and `ADVERSE_LEDGER.csv`; then continue only the cursor named above. Do not infer admission or completion from a generated file without the unit QA receipt.
+Read `GOAL_AND_WORKFLOW.md`, `AUTHORITY_FREEZE.md`, `DECISION_LOG.md`, `CURSOR.json`, `TERMINOLOGY.csv`, and `ADVERSE_LEDGER.csv`; then continue only Unit 3. Freeze Lecture 3, Worksheet 3, every source-supplied solution, and its actual media closure before translation. Do not infer admission or completion from a generated file without the unit QA receipt.
