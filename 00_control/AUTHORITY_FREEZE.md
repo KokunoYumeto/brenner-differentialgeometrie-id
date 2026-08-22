@@ -57,6 +57,14 @@ The official `/latex` surface is an expanded body fragment, not a self-contained
 
 The official Electron lecture render is a ten-page A4 tagged PDF and is legible, but it contains edit-URL headings, navigation/footer material, and an almost empty final page. It is not the layout target.
 
+## Unit 3 exact closure
+
+The Unit 3 roots are Lecture 3 pageid/revision `142547 / 1020016` and Worksheet 3 `142637 / 894109`; their `/latex` surfaces are `142577 / 807136` and `142667 / 807105`. The frozen official expansion responses yield a 28,482-byte lecture witness with SHA-256 `c6fa222d45a2abaaa121fabbf68a76ab478d9ede7dd14f370d8e58d40887c25a` and a 9,997-byte worksheet witness with SHA-256 `8dded699ee9337ebdc4cb76a9373fb8e2f6a5df94c6048c3deaaaeaccb88bac7`. Exact API identities, response hashes, sanitation receipts, root witnesses, and verification results are in `qa/unit-03/AUTHORITY_PREFLIGHT.json`, `.md`, and `AUTHORITY_PREFLIGHT_VERIFY.json`.
+
+Worksheet 3 contains 21 exercises: 16 practice exercises and five graded exercises worth `2, 2, 4, 4, 4` points, for 16 points total. Every hint field is blank. Exactly two source-supplied solutions exist, for Exercises 7 and 16. Their pageid/revision identities are `151168 / 1095913` and `151178 / 1095920`; their expanded German TeX SHA-256 values are `7e3437274bf4f79b6a3fa719876b09fdbcee4e10523a215e9e6f4ecb566cdb85` and `ed49f1889840b8352f634ef01400301849f8303ec27a2a38b334b744ae5e5951`. The other 19 candidate solution pages were queried and are absent; no larger solution layer is implied.
+
+Unit 3 uses exactly three admitted Commons files. `Parabola circle.svg` is 19,469 bytes, SHA-256 `186a981781924575a5e517d83d8ab5bfb829125d0a86edc664a41a589bcfca83`, credited to IkamusumeFan under CC BY-SA 4.0. `Euler spiral.svg` is 31,848 bytes, SHA-256 `886d55edfa0fa21ac992ede928cfec4f816742a16b29709ea093113b29e410b9`, credited to AdiJapan under CC BY-SA 3.0. `Evolute-parab.svg` is 44,890 bytes, SHA-256 `851a909594c64be31477e391ea9b45e890305ea62e32e29a1d04bc66cf497db1`, credited to Ag2gaeh under CC BY-SA 4.0. Exact source/derivative identities and license URLs pass in `qa/unit-03_media.json`.
+
 ## Known upstream PDF incompleteness
 
 The official Commons category contains only `Differentialgeometrie (Osnabrück 2023)Vorlesung4.pdf`. The other expected lecture and worksheet links are absent. A release must not claim a complete official PDF set.

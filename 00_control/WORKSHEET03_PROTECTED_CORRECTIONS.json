@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-03/worksheet03.id.tex",
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0028+O011-CORR-0029",
+      "surface": "profile:commands",
+      "source_sha256": "8245796e1786311686852d54edc66de956b41f37076aade2a31709acfda8321c",
+      "target_sha256": "3041952a5b9f95d9c9e869e071d6e6e840a243d62db3e8f943bb0991ab47cea3"
+    },
+    {
+      "correction_id": "O011-CORR-0029",
+      "surface": "profile:inline_math",
+      "source_sha256": "1672ecf4a208e7bb6022af571eb50dd93cc0b6f7be92e18cac81cb0bc8392561",
+      "target_sha256": "b366eba7fffae8558513d5055b4572c6f6f19f4032d42f2940d73481f2bb5b3b"
+    },
+    {
+      "correction_id": "O011-CORR-0028",
+      "surface": "profile:brace_profile",
+      "source_sha256": "2f8962f93cf64e01709f82eb7353e2fe10feb9b76ae94b37c45bfa0eddbc9272",
+      "target_sha256": "a8f5766ee4b81f8f996be1dc0c14fb957b760d4dd1772184861fc41df28b937f"
+    },
+    {
+      "correction_id": "O011-CORR-0028",
+      "surface": "profile:protected:vergleichskette",
+      "source_sha256": "8128f7481ff5688bccdea51c314d3fd1c0d883116e09493461d2de1cc9b45b5e",
+      "target_sha256": "4f7bfe04ffe93da208d1eef706d73ae0f28e924b4cbdf2609f7d2edc4b45995f"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+id,source_de,target_id,status,note
+O011-TERM-U03-L-0001,Krümmung,kelengkungan,proposed,Signed curvature of an oriented plane curve
+O011-TERM-U03-L-0002,Krümmungskreis,lingkaran kelengkungan,proposed,Circle of curvature; aligned with the Unit 3 worksheet
+O011-TERM-U03-L-0003,Schmiegkreis,lingkaran oskulasi,proposed,Reader-facing synonym for lingkaran kelengkungan
+O011-TERM-U03-L-0004,Krümmungsradius,jari-jari kelengkungan,proposed,Radius of the osculating circle
+O011-TERM-U03-L-0005,Standardorientierung,orientasi standar,proposed,Orientation represented by the ordered standard basis
+O011-TERM-U03-L-0006,Gegenorientierung,orientasi berlawanan,proposed,Orientation opposite to the standard orientation
+O011-TERM-U03-L-0007,Tangentenvektor,vektor tangen,proposed,Tangent vector; consistent with ruang tangen
+O011-TERM-U03-L-0008,Evolute,evolut,proposed,Locus of centers of osculating circles
+O011-TERM-U03-L-0009,Umparametrisierung,reparametrisasi,proposed,Change of curve parameter
+O011-TERM-U03-L-0010,Bogenlänge,panjang busur,proposed,Arc length
+O011-TERM-U03-L-0011,kommutatives Diagramm,diagram komutatif,proposed,Commutative diagram
+O011-TERM-U03-L-0012,implizit gegebene Kurve,kurva yang diberikan secara implisit,proposed,Implicitly specified curve
+O011-TERM-U03-L-0013,Hauptsatz der Infinitesimalrechnung,teorema dasar kalkulus,proposed,Fundamental theorem of calculus
+O011-TERM-U03-L-0014,Kettenregel,aturan rantai,proposed,Chain rule
+O011-TERM-U03-L-0015,Krümmungsverlauf,profil kelengkungan,proposed,Prescribed curvature as a function of the parameter

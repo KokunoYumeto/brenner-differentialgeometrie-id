@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Sat, 22 Aug 2026 05:08:04 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Impliziter Einheitskreis/Krümmung/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 2360,
+  "response_path": "worksheet03_exercise16_solution_latex_expand.json",
+  "response_sha256": "1521c08d66480710db57309ff684eafdfdffc5da53aa3c0f45636390495bbea6",
+  "retrieved_utc": "2026-08-22T05:08:04Z",
+  "schema_version": 1
+}

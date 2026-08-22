@@ -1,0 +1,153 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es ist
+{{
+Relationskette/display
+| \gamma(0)
+|| {{op:Spaltenvektor| 1 | 0}} 
+|| 
+|| 
+|| 
+|SZ=,
+}}
+{{
+Relationskette/display
+| \gamma'(0)
+|| {{op:Spaltenvektor| 0 | \omega}} 
+|| 
+|| 
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette/display
+| \gamma^{\prime \prime} (0)
+|| {{op:Spaltenvektor| - \omega^2 | 0}} 
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Eine Kreisbewegung, die mit der vorgegebenen Bewegung für
+{{
+Relationskette
+| t
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+bis zur zweiten Ableitung übereinstimmt, muss insbesondere die gleiche Tangente in diesem Punkt haben. Daher muss der Kreismittelpunkt auf der {{math|term= x |SZ=-}}Achse liegen. Ferner muss er links von {{mathl|term=  {{op:Spaltenvektor| 1 | 0}}  |SZ=}} liegen, da die Beschleunigung nach links wirkt. Wir können daher eine gesuchte uniforme Kreisbewegung mit dem Mittelpunkt {{mathl|term= {{op:Spaltenvektor| x | 0}}  |SZ=}}
+{{
+Zusatz/Klammer
+|text= 
+{{
+Relationskette/k
+| x
+| < |  1
+|| 
+|| 
+|| 
+|SZ=
+}} |
+|ISZ=|ESZ=
+}}
+und dem Radius {{mathl|term= 1-x |SZ=}}  als
+{{
+Relationskette/display
+|  \delta (t)
+||  {{op:Spaltenvektor| x | 0}} + (1-x) {{op:Spaltenvektor| {{op:cos(| u t|}} | {{op:sin(| u t|}}  }} 
+|| 
+|| 
+|| 
+|SZ=
+}}
+ansetzen. Es ist
+{{
+Relationskette/display
+| \delta(0)
+|| \gamma(0)
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Ferner ist
+{{
+Relationskette/display
+| \delta'( 0)
+||  (1-x)  {{op:Spaltenvektor| 0 | u  }} 
+|| 
+|| 
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette/display
+| \delta^{\prime \prime}( 0)
+||  (1-x)  {{op:Spaltenvektor| -u^2 | 0  }} 
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Wenn die geforderten Bedingungen also erfüllt sein sollen, muss
+{{
+Relationskette/display
+| \omega
+|| (1-x) u
+|| 
+|| 
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette/display
+| \omega^2
+|| (1-x) u^2
+|| 
+|| 
+|| 
+|SZ=
+}}
+gelten. Dies ergibt
+{{
+Relationskette/display
+| \omega^2
+||  \omega u
+|| 
+|| 
+|| 
+|SZ=
+}}
+und somit
+{{
+Relationskette/display
+| u
+|| \omega
+|| 
+|| 
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette/display
+| x
+|| 0
+|| 
+|| 
+|| 
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

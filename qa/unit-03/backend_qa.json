@@ -1,0 +1,118 @@
+{
+  "checkpoint_utc": "2026-08-22T06:03:04Z",
+  "checks": {
+    "absolute_paths_absent": true,
+    "artifacts_and_media_current": true,
+    "correction_ledger_manifests_targets_and_receipts_current": true,
+    "csv_ids_and_row_count_match_jsonl": true,
+    "exercise_points_hints_and_solution_markers_present": true,
+    "manifest_counts_and_hashes_current": true,
+    "per_file_rights_complete": true,
+    "private_and_credential_markers_absent": true,
+    "qa_receipts_current": true,
+    "references_resolved": true,
+    "relations_exact": true,
+    "schema_valid": true,
+    "source_numbering_preserved": true,
+    "unique_ids": true,
+    "unit12_csv_prefix_byte_identical": true,
+    "unit12_jsonl_prefix_byte_identical": true
+  },
+  "deterministic_repeat": {
+    "csv_byte_identical": true,
+    "fixed_checkpoint": "2026-08-22T06:03:04Z",
+    "jsonl_byte_identical": true,
+    "manifest_byte_identical": true,
+    "runs_compared": 2
+  },
+  "outputs": {
+    "manifest": {
+      "bytes": 12404,
+      "path": "backend/MANIFEST.json",
+      "sha256": "8810518777d9f08ba4a833784835f669c2b9b592b14f928fd0c895f712abd122"
+    },
+    "records_csv": {
+      "bytes": 125961,
+      "path": "backend/records.csv",
+      "sha256": "bdd4648d7e104da5f96a20ff85850a8782379f02609c3f29ed88117401032941"
+    },
+    "records_jsonl": {
+      "bytes": 350935,
+      "path": "backend/records.jsonl",
+      "sha256": "e2b1e159b1dff04273ddb0af82e85dc32adbb507f3936881f750867527d6800a"
+    }
+  },
+  "schema": {
+    "bytes": 3176,
+    "draft": "2020-12",
+    "path": "backend/schema/o011-record-v1.schema.json",
+    "rows_validated": 591,
+    "sha256": "64e477d301681cd8f55775bb5825082a3386c9ee83c7e8b305bcf61f1ebb8f0b"
+  },
+  "schema_version": 1,
+  "status": "pass",
+  "unit03": {
+    "artifact_count": 5,
+    "asset_count": 3,
+    "concept_count": 5,
+    "correction_ids": [
+      "o011-corr-0028",
+      "o011-corr-0029",
+      "o011-corr-0030",
+      "o011-corr-0031",
+      "o011-corr-0032",
+      "o011-corr-0033",
+      "o011-corr-0034",
+      "o011-corr-0035",
+      "o011-corr-0036",
+      "o011-corr-0037"
+    ],
+    "cumulative_pdf": {
+      "bytes": 3596282,
+      "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-03-id.pdf",
+      "sha256": "aee7f335c8d8110feb7b70448c70680a30700285131d5a1b4e4aeb2f2d04b46a"
+    },
+    "entity_counts": {
+      "artifact": 5,
+      "asset": 3,
+      "concept": 5,
+      "correction": 10,
+      "course": 0,
+      "edition": 0,
+      "program": 0,
+      "qa_event": 11,
+      "relation": 149,
+      "resource": 0,
+      "rights": 3,
+      "segment": 2,
+      "term": 20,
+      "unit": 26
+    },
+    "html_included": false,
+    "lecture_segment_count": 2,
+    "per_file_rights_count": 3,
+    "qa_event_count": 11,
+    "record_count": 234,
+    "relation_count": 149,
+    "supplied_solution_indices": [
+      7,
+      16
+    ],
+    "term_count": 20,
+    "worksheet_exercise_count": 21
+  },
+  "unit12_preservation": {
+    "byte_identical_prefixes": true,
+    "csv_bytes": 79611,
+    "csv_sha256": "5880fa9dee8bc0a73ed0e903d931fad38978bc2c9ef65cc58b62b48a7f26b7ba",
+    "jsonl_bytes": 215317,
+    "jsonl_sha256": "a393d3ff6c8aed203e7d3690eb6391e22ea25436cd06e85aa40e1adc23adb122",
+    "record_count": 357
+  },
+  "validator": {
+    "bytes": 60333,
+    "path": "scripts/verify_backend_v3.py",
+    "sha256": "86db10307f332c668f1c083fc4a2e9319a70f25b4c67ed353ddc317e9767ac77"
+  },
+  "workflow": "o011-unit03-backend-qa-v1"
+}

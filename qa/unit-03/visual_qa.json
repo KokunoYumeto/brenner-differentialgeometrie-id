@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-through-unit03-pdf-visual-qa-v2-centered-reflow",
+  "inspected_at_utc": "2026-08-22T06:19:41.4466888Z",
+  "pdf": {
+    "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-03-id.pdf",
+    "bytes": 3596282,
+    "sha256": "aee7f335c8d8110feb7b70448c70680a30700285131d5a1b4e4aeb2f2d04b46a",
+    "pages": 56
+  },
+  "layout_change": {
+    "wrapper_geometry": "A4 with centered 22 mm margins",
+    "legacy_geometry_neutralized": true,
+    "reason": "The frozen historical preamble reset text width and odd/even margins after the wrapper; those legacy page assignments are now retained only as commented provenance so the portable wrapper owns the centered reader frame."
+  },
+  "render": {
+    "command": "pdftoppm -png -r 120 output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-03-id.pdf tmp/pdfs/through-unit03-render-aee7f335/page",
+    "dpi": 120,
+    "directory": "tmp/pdfs/through-unit03-render-aee7f335",
+    "page_png_count": 56,
+    "page_png_total_bytes": 7460940,
+    "ordered_page_sha256_aggregate": "13f0dda0640b51bff07c4815397589dd5b4ce3768a10a5620e925ce0403fa57b"
+  },
+  "inspection": {
+    "all_pages_inspected": true,
+    "all_pages_method": "Four ordered contact sheets covering PDF pages 1-14, 15-28, 29-42, and 43-56; direct full-page inspection of PDF pages 3, 37, 41, 44, 47, 48, 50, 54, 55, and 56.",
+    "contact_sheets": [
+      {
+        "path": "tmp/pdfs/through-unit03-render-aee7f335/contact-01.png",
+        "pages": "1-14",
+        "bytes": 1411725,
+        "sha256": "dd52e8f592ad3dc7ea4c660fb11c873fb9eba9d85da8b63864222eb0928104f6",
+        "dimensions": "1104x1536"
+      },
+      {
+        "path": "tmp/pdfs/through-unit03-render-aee7f335/contact-02.png",
+        "pages": "15-28",
+        "bytes": 1457557,
+        "sha256": "e1f1ee58416446e60e6cb9e6c6a2c8c26b59d8f3d2351ca673cd2ac6342a5ec2",
+        "dimensions": "1104x1536"
+      },
+      {
+        "path": "tmp/pdfs/through-unit03-render-aee7f335/contact-03.png",
+        "pages": "29-42",
+        "bytes": 1375076,
+        "sha256": "541377ec9886bca4501e0578d99f730e69c7da5a9741d1df863d5fab3956b077",
+        "dimensions": "1104x1536"
+      },
+      {
+        "path": "tmp/pdfs/through-unit03-render-aee7f335/contact-04.png",
+        "pages": "43-56",
+        "bytes": 1153733,
+        "sha256": "a95948c413aca054f53dde30e766d771f03958979fa49507dd0601b609bbd408",
+        "dimensions": "1104x1536"
+      }
+    ],
+    "direct_pages": [3, 37, 41, 44, 47, 48, 50, 54, 55, 56],
+    "checks": {
+      "centered_page_frame_and_consistent_margins": true,
+      "reader_fills_page_without_legacy_narrow_column": true,
+      "no_clipped_or_overlapping_text": true,
+      "no_broken_or_missing_glyphs": true,
+      "equations_legible_and_within_margins": true,
+      "unit3_figures_sharp_and_aligned": true,
+      "exercise_and_solution_hierarchy_clear": true,
+      "media_attribution_and_license_pages_legible": true,
+      "multiword_media_filenames_wrap_legibly": true,
+      "headers_footers_page_numbers_and_transitions_consistent": true,
+      "isolated_display_punctuation_defects_absent_after_repairs": true,
+      "build_log_has_zero_warning_error_overfull_underfull_missing_or_undefined_matches": true
+    },
+    "critical_observations": [
+      "All 56 pages now use the centered wrapper-owned A4 text frame and make materially better use of the page width than the legacy preamble geometry.",
+      "The long reparametrization derivation on PDF page 41 stays inside both margins.",
+      "The Unit 3 clothoid correction and both supplied solutions render with their display punctuation attached; no isolated punctuation remains.",
+      "The Unit 3 figures are crisp and unobstructed; the media-attribution filenames on pages 54-55 wrap without overflow.",
+      "No visual blocker was found on any rendered page."
+    ]
+  },
+  "status": "pass",
+  "blockers": []
+}

@@ -1,0 +1,1556 @@
+\setcounter{section}{3}
+
+  \zwischenueberschrift{Kelengkungan Kurva Berparametrisasi Panjang Busur}
+
+\inputdefinition
+{}
+{
+
+Suatu
+\definitionsverweis {kurva terdiferensialkan}{}{}
+\maabbeledisp {f} { [a,b] } {\R^n
+} { t } {f(t) = \left( f_1(t)  , \,   \ldots  , \,  f_n(t)                 \right)
+} {,}
+disebut
+\definitionswort {berparametrisasi panjang busur}{,}
+jika
+
+\mavergleichskette
+{\vergleichskette
+{ f_1'(t)^2 + \cdots +  f_n'(t)^2
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku untuk setiap $t$.
+
+}
+
+Menurut
+[[Differenzierbare Kurve/Bogenparametrisiert/Zweite Ableitung/Senkrecht/Aufgabe|Soal 2.3]],
+kurva berparametrisasi panjang busur yang terdiferensialkan dua kali secara kontinu memiliki sifat bahwa turunan keduanya $\gamma^{\prime \prime} (t)$ selalu tegak lurus terhadap turunan pertamanya $\gamma^{\prime } (t)$.
+
+Misalkan
+\maabbdisp {\gamma} { I } {\R^2
+} {}
+adalah suatu pemetaan yang dua kali
+\definitionsverweis {terdiferensialkan secara kontinu}{}{}
+dan merupakan
+\definitionsverweis {kurva}{}{},
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Salah satu cara alami untuk menghampiri perilaku kurva pada parameter
+\mathkor {} {t} {yakni di titik} {\gamma(t)} {}
+melampaui pendekatan oleh garis tangennya adalah dengan menentukan suatu lingkaran yang menyesuaikan diri sebaik mungkin dengan kurva tersebut, atau menentukan gerak melingkar yang cocok dengan kurva hingga turunan kedua. Andaikan kurva tersebut
+\definitionsverweis {berparametrisasi panjang busur}{}{.}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+\maabbdisp {\gamma} { I } {\R^2
+} {}
+adalah suatu pemetaan yang dua kali
+\definitionsverweis {terdiferensialkan secara kontinu}{}{},
+\definitionsverweis {berparametrisasi panjang busur}{}{}
+dan merupakan
+\definitionsverweis {kurva}{}{},
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ t_0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan turunan kedua $\gamma^{\prime \prime} (t_0)$ tidak sama dengan $0$. Lingkaran berjari-jari
+
+\mavergleichskettedisp
+{\vergleichskette
+{ r
+}
+{ =} { { \frac{   1  }{  \betrag {  \gamma_1'(t_0) \gamma_2^{\prime \prime} (t_0) - \gamma_2'(t_0) \gamma_1^{\prime \prime} (t_0)  }  } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan berpusat di
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { \gamma(t_0) +  { \frac{   1  }{  \gamma_1'(t_0) \gamma_2^{\prime \prime} (t_0) - \gamma_2'(t_0) \gamma_1^{\prime \prime} (t_0)  } }  \begin{pmatrix}  - \gamma_2'(t_0) \\ \gamma_1'(t_0)   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+disebut
+\definitionswort {lingkaran kelengkungan}{}
+dari $\gamma$ di $t_0$.
+
+}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+\maabbdisp {\gamma} { I } {\R^2
+} {}
+adalah suatu pemetaan yang dua kali
+\definitionsverweis {terdiferensialkan secara kontinu}{}{},
+\definitionsverweis {berparametrisasi panjang busur}{}{}
+dan merupakan
+\definitionsverweis {kurva}{}{},
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ t_0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Besaran
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \kappa (t_0)
+}
+{ =} { \gamma_1'(t_0) \gamma_2^{\prime \prime} (t_0) - \gamma_2'(t_0) \gamma_1^{\prime \prime} (t_0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+disebut
+\definitionswort {kelengkungan}{}
+kurva di $t_0$.
+
+}
+
+Lingkaran kelengkungan juga disebut \stichwort {lingkaran oskulasi} {.} Dalam kasus kurva berparametrisasi panjang busur,
+\mathkor {} {\begin{pmatrix}  \gamma_1'(t_0) \\ \gamma_2'(t_0)    \end{pmatrix}} {dan} {\begin{pmatrix}  \gamma_1^{\prime \prime} (t_0) \\ \gamma_2^{\prime \prime}(t_0)    \end{pmatrix}} {}
+saling tegak lurus, dan turunan kedua tidak sama dengan $0$. Karena itu, kedua vektor ini membentuk suatu basis bagi $\R^2$, sehingga determinannya, yang muncul sebagai penyebut dalam definisi lingkaran kelengkungan, tidak sama dengan $0$. Jika determinan ini
+\zusatzklammer {dan dengan demikian kelengkungannya} {} {}
+positif, basis tersebut merepresentasikan
+\definitionsverweis {orientasi standar}{}{}
+\zusatzklammer {yaitu orientasi yang diberikan oleh vektor standar
+\mathkor {} {e_1} {dan} {e_2} {}} {} {};
+jika tidak, basis tersebut merepresentasikan orientasi yang berlawanan. Jika kelengkungan positif, geraknya membelok
+\zusatzklammer {dilihat dari arah tangen} {} {}
+ke kiri; jika kelengkungan negatif, geraknya membelok ke kanan. Untuk kelengkungan positif, pusat lingkaran kelengkungan dapat dituliskan sebagai
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { \gamma(t_0) + r  \begin{pmatrix}  - \gamma_2'(t_0) \\ \gamma_1'(t_0)   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan untuk kelengkungan negatif sebagai
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { \gamma(t_0) + r \begin{pmatrix}  \gamma_2'(t_0) \\ - \gamma_1'(t_0)   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Menurut
+[[Bogenparametrisierte ebene Kurve/Krümmung/Richtungswechsel/Aufgabe|Soal 3.1]],
+kurva yang dilalui dengan arah berlawanan memiliki kelengkungan dengan tanda yang berlawanan. Sesekali kita juga akan berbicara tentang kelengkungan kurva di titik
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(t)
+}
+{ \in }{ \gamma(I)
+}
+{ \subseteq }{ \R^2
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{};
+hal ini tidak menimbulkan masalah bagi kurva yang injektif atau, kalaupun tidak injektif, hanya dilalui berulang kali secara periodik.
+
+\inputbeispiel{}
+{
+
+Kita meninjau parametrisasi trigonometrik lingkaran satuan, yaitu
+\maabbeledisp {\gamma} {\R} { \R^2
+} { t } { \begin{pmatrix}  \cos  t  \\ \sin  t    \end{pmatrix}
+} {.}
+Kita memperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma'(t)
+}
+{ =} { \begin{pmatrix}  - \sin  t  \\ \cos  t    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma^{\prime \prime} (t)
+}
+{ =} { \begin{pmatrix}  - \cos  t  \\ - \sin  t    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+\definitionsverweis {Kelengkungan}{}{}
+pada setiap waktu $t$ adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma_1'(t) \gamma_2^{\prime \prime} (t) - \gamma_2'(t) \gamma_1^{\prime \prime} (t)
+}
+{ =} { \left(  -  \sin  t   \right)  \left(  -  \sin  t   \right)  -  \cos  t  \left(  - \cos  t   \right)
+}
+{ =} { 1
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+jari-jari kelengkungannya adalah $1$, dan pusat lingkaran kelengkungannya adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}  \cos  t  \\ \sin  t    \end{pmatrix}  + \begin{pmatrix}  -\cos  t  \\ - \sin  t    \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  0  \\ 0    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+sehingga lingkaran kelengkungannya selalu merupakan lingkaran satuan.
+
+Jika lingkaran itu dilalui searah jarum jam, yaitu jika kita meninjau kurva
+\maabbeledisp {\delta} {\R} { \R^2
+} { s } { \begin{pmatrix}  \cos \left(  -s \right)  \\ \sin  \left(  -s \right)    \end{pmatrix} = \begin{pmatrix}  \cos  s  \\ - \sin  s    \end{pmatrix}
+} {,}
+maka kelengkungannya adalah $-1$, sedangkan jari-jari kelengkungan dan lingkaran kelengkungannya sama seperti sebelumnya.
+
+}
+
+Definisi lingkaran kelengkungan sudah dapat digunakan apabila $\gamma'(t_0)$ memiliki norma $1$
+\zusatzklammer {jadi hanya di $t_0$} {} {},
+tanpa mengharuskan kurva berparametrisasi panjang busur, asalkan
+\mathkor {} {\begin{pmatrix}  \gamma_1'(t_0) \\ \gamma_2'(t_0)    \end{pmatrix}} {dan} {\begin{pmatrix}  \gamma_1^{\prime \prime} (t_0) \\ \gamma_2^{\prime \prime}(t_0)    \end{pmatrix}} {}
+\definitionsverweis {bebas linear}{}{}.
+Jika kedua vektor tersebut bergantung linear, jari-jari kelengkungannya juga dikatakan tak hingga.
+
+\inputbeispiel{}
+{
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Parabola circle} {svg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Parabola circle.svg } {} {IkamusumeFan} {Commons} {CC-by-sa 4,0} {}
+
+Kita meninjau parabola standar sebagai kurva
+\maabbeledisp {\gamma} {\R} {\R^2
+} { t } { \begin{pmatrix}  t  \\t^2   \end{pmatrix}
+} {}
+di titik nol
+
+\mavergleichskette
+{\vergleichskette
+{ t_0
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Kita memperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma'(t)
+}
+{ =} { \begin{pmatrix}  1  \\ 2t   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Secara umum kurva ini tidak
+\definitionsverweis {berparametrisasi panjang busur}{}{,}
+tetapi di titik nol kurva ini memang demikian. Turunan keduanya adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma^{\prime \prime}(t)
+}
+{ =} { \begin{pmatrix}  0  \\ 2   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan tidak bergantung pada waktu. Karena itu,
+\definitionsverweis {jari-jari kelengkungan}{}{}
+adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ r
+}
+{ =} { { \frac{   1  }{  \betrag {  \gamma_1'(0) \gamma_2^{\prime \prime} (0) - \gamma_2'(0) \gamma_1^{\prime \prime} (0)  }  } }
+}
+{ =} { { \frac{   1  }{  2 } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan pusat
+\definitionsverweis {lingkaran kelengkungan}{}{}
+adalah
+\mathl{\begin{pmatrix}  0  \\ { \frac{   1  }{  2 } }     \end{pmatrix}}{.}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Bogenparametrisierte Kurve/Ebene/Krümmungskreis/Durchlauf/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+\maabbdisp {\gamma} { I } {\R^2
+} {}
+adalah suatu pemetaan yang dua kali
+\definitionsverweis {terdiferensialkan secara kontinu}{}{},
+\definitionsverweis {berparametrisasi panjang busur}{}{}
+dan merupakan
+\definitionsverweis {kurva}{}{},
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ t_0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma^{\prime \prime} (t_0)
+}
+{ \neq} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{},
+dan misalkan $K$ adalah
+\definitionsverweis {lingkaran kelengkungan}{}{}
+dengan pusat $M$ dan jari-jari $r$. Jika pasangan $\gamma'(t_0), \gamma^{\prime \prime} (t_0)$ merepresentasikan
+\definitionsverweis {orientasi standar}{}{,}
+pilih
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha
+}
+{ \in }{ [0, 2 \pi[
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sedemikian sehingga
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}  \gamma_1'(t_0) \\ \gamma_2'(t_0)   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  - \sin  \left(  \alpha + { \frac{  t_0  }{  r  } }   \right)  \\ \cos \left(  \alpha + { \frac{  t_0  }{  r  } }   \right)   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Jika pasangan $\gamma'(t_0), \gamma^{\prime \prime} (t_0)$ tidak merepresentasikan
+\definitionsverweis {orientasi standar}{}{,}
+pilih
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha
+}
+{ \in }{ [0, 2 \pi[
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sedemikian sehingga
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}  \gamma_1'(t_0) \\ \gamma_2'(t_0)   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  - \sin  \left(  \alpha + { \frac{  t_0  }{  r  } }   \right)  \\ - \cos \left(  \alpha + { \frac{  t_0  }{  r  } }   \right)   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktfolgerung {Maka
+\zusatzklammer {dalam kasus berorientasi standar} {} {},
+\maabbeledisp {\delta} {\R} {\R^2
+} { t } { M+r \begin{pmatrix}  \cos \left( \alpha + { \frac{   t  }{  r  } }  \right)  \\ \sin  \left( \alpha + { \frac{   t  }{  r  } }  \right)    \end{pmatrix}
+} {,}
+atau
+\zusatzklammer {dalam kasus yang tidak berorientasi standar} {} {},
+\maabbeledisp {\delta} {\R} {\R^2
+} { t } { M+r \begin{pmatrix}  \cos \left( \alpha + { \frac{   t  }{  r  } }  \right)  \\ - \sin  \left( \alpha + { \frac{   t  }{  r  } }  \right)    \end{pmatrix}
+} {,}
+merupakan gerak berparametrisasi panjang busur pada lingkaran kelengkungan yang di $t_0$ cocok dengan $\gamma$ hingga turunan kedua.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Kita meninjau kasus berorientasi standar. Kita memperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \delta (t_0)
+}
+{ =} { M+r \begin{pmatrix}  \cos \left( \alpha +  { \frac{  t_0  }{  r  } }  \right)  \\ \sin  \left(  \alpha + { \frac{  t_0  }{  r  } }  \right)    \end{pmatrix}
+}
+{ =} { \gamma(t_0) + r\begin{pmatrix}  - \gamma_2'(t_0) \\ \gamma_1'(t_0)   \end{pmatrix} +r \begin{pmatrix}  \gamma_2'(t_0) \\ - \gamma_1'(t_0)   \end{pmatrix}
+}
+{ =} { \gamma(t_0)
+}
+{ } {
+}
+}
+{}{}{.}
+Selanjutnya,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \delta' (t_0)
+}
+{ =} { \begin{pmatrix}  - \sin  \left( \alpha +  { \frac{  t_0  }{  r  } }  \right)  \\ \cos \left(  \alpha + { \frac{  t_0  }{  r  } }   \right)    \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  \gamma_1'(t_0) \\ \gamma_2'(t_0)   \end{pmatrix}
+}
+{ =} { \gamma'(t_0)
+}
+{ } {
+}
+}
+{}{}{,}
+sehingga, khususnya, $\delta$ berparametrisasi panjang busur. Vektor $\begin{pmatrix}  \gamma_1^{\prime \prime} (t_0)  \\ \gamma_2^{\prime \prime} (t_0)   \end{pmatrix}$ tegak lurus terhadap $\begin{pmatrix}  \gamma_1'(t_0)  \\ \gamma_2'(t_0)    \end{pmatrix}$ dan karena itu bergantung linear pada vektor normal satuan
+$\begin{pmatrix}  - \gamma_2'(t_0)  \\ \gamma_1'(t_0)    \end{pmatrix}$. Dengan demikian,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}  \gamma_1^{\prime \prime} (t_0)  \\ \gamma_2^{\prime \prime} (t_0)   \end{pmatrix}
+}
+{ =} { \left\langle  \begin{pmatrix}  - \gamma_2'(t_0)  \\ \gamma_1'(t_0)    \end{pmatrix}   ,  \begin{pmatrix}  \gamma_1^{\prime \prime} (t_0) \\ \gamma_2^{\prime \prime} (t_0)   \end{pmatrix}   \right\rangle  \begin{pmatrix}  - \gamma_2'(t_0)  \\ \gamma_1'(t_0)    \end{pmatrix}
+}
+{ =} { \left(  \gamma_1'(t_0) \gamma_2^{\prime \prime} (t_0) - \gamma_2'(t_0) \gamma_1^{\prime \prime} (t_0)  \right) \begin{pmatrix}  - \gamma_2'(t_0)  \\ \gamma_1'(t_0)    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan karenanya
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \delta^{\prime \prime} (t_0)
+}
+{ =} { - { \frac{   1  }{ r } }  \begin{pmatrix}  \cos \left( \alpha + { \frac{  t_0  }{  r  } }  \right)  \\ \sin  \left(  \alpha + { \frac{  t_0  }{  r  } }  \right)    \end{pmatrix}
+}
+{ =} { - \left(  \gamma_1'(t_0) \gamma_2^{\prime \prime} (t_0) - \gamma_2'(t_0) \gamma_1^{\prime \prime} (t_0)  \right) \begin{pmatrix}  \gamma_2'(t_0) \\ - \gamma_1'(t_0)   \end{pmatrix}
+}
+{ =} { \left(  \gamma_1'(t_0) \gamma_2^{\prime \prime} (t_0) - \gamma_2'(t_0) \gamma_1^{\prime \prime} (t_0)  \right) \begin{pmatrix}  - \gamma_2'(t_0) \\ \gamma_1'(t_0)   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  \gamma_1^{\prime \prime} (t_0) \\ \gamma_2^{\prime \prime} (t_0)   \end{pmatrix}
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \gamma^{\prime \prime} (t_0)
+}
+{ } {
+}
+{ } {}
+{ } {}
+}
+{}{.}
+
+}
+
+Pernyataan berikut menunjukkan bahwa setiap profil kelengkungan yang diinginkan dapat direalisasikan oleh suatu kurva.
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Ebene Kurve/Krümmung/Stammfunktion zu trigonometrischer Funktion/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan $I$ adalah suatu interval,
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{},
+dan
+\maabbdisp {\psi} { I } {\R
+} {}
+adalah suatu fungsi yang terdiferensialkan. Definisikan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma(t)
+}
+{ \defeq} { \int_0^t  \begin{pmatrix}  \cos  \psi(s)  \\ \sin  \psi(s)    \end{pmatrix} ds
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}}
+\faktuebergang {Maka pernyataan-pernyataan berikut berlaku.}
+\faktfolgerung {\aufzaehlungfuenf{Kita mempunyai
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma(0)
+}
+{ =} { \begin{pmatrix}  0  \\ 0   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Kita mempunyai
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma'(t)
+}
+{ =} { \begin{pmatrix}  \cos  \psi(t)  \\ \sin  \psi(t)    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{ \maabbdisp {} { I } { \R^2
+} {}
+adalah kurva bidang berparametrisasi panjang busur yang terdiferensialkan dua kali.
+}{Kita mempunyai
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma^{\prime \prime}(t)
+}
+{ =} { \psi' (t) \begin{pmatrix}  - \sin  \psi(t)  \\ \cos  \psi(t)    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{\definitionsverweis {Kelengkungan}{}{}
+adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \kappa(t)
+}
+{ =} { \psi'(t)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+(1) jelas. (2) langsung mengikuti teorema dasar kalkulus. Dengan demikian, (3) dan (4) juga jelas; parametrisasi panjang busur diperoleh dari
+
+\mavergleichskette
+{\vergleichskette
+{ \cos^{ 2  }  u + \sin^{ 2  }  u
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Untuk (5), kelengkungannya adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \kappa(t)
+}
+{ =} { \gamma_1'(t) \gamma_2^{\prime \prime} (t) - \gamma_2'(t) \gamma_1^{\prime \prime} (t)
+}
+{ =} { \psi'(t) \cos  \psi(t)  \cos  \psi(t) + \psi'(t)  \sin  \psi(t)  \sin  \psi(t)
+}
+{ =} { \psi'(t)
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Ebene reguläre Kurve/Krümmung/Skalarprodukt/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+\maabb {\gamma} { I } {\R^2
+} {}
+adalah suatu pemetaan yang dua kali
+\definitionsverweis {terdiferensialkan secara kontinu}{}{},
+\definitionsverweis {berparametrisasi panjang busur}{}{}
+dan merupakan
+\definitionsverweis {kurva}{}{.}}
+\faktfolgerung {Maka
+\definitionsverweis {kelengkungan}{}{}
+$\gamma$ di $t$ adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \kappa(t)
+}
+{ =} { \left\langle  \gamma^{\prime \prime}(t)  ,  N(t )    \right\rangle
+}
+{ =} { \pm \Vert { \gamma^{\prime \prime}(t) } \Vert
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ N( t)
+}
+{ =} { \begin{pmatrix}  -\gamma_2'(t) \\ \gamma_1'(t)   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+merupakan vektor normal satuan di $\gamma(t)$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Pernyataan pertama langsung mengikuti definisi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \kappa(t)
+}
+{ =} { \gamma_1'(t) \gamma_2^{\prime \prime} (t) - \gamma_2'(t) \gamma_1^{\prime \prime} (t)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dari
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \gamma_1'(t)  \right)^2 +  \left(  \gamma_2' (t)  \right)^2
+}
+{ =} { 1
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+diperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma_1'(t) \gamma_1^{\prime \prime}(t) + \gamma_2'(t) \gamma_2^{\prime \prime} (t)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+sehingga $\gamma^{\prime \prime}(t)$ tegak lurus terhadap $\gamma'(t)$ dan bergantung linear pada
+\mathl{N(t)}{.} Dengan demikian,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma^{\prime \prime}(t)
+}
+{ =} { \left\langle  \gamma^{\prime \prime}(t) ,  N(t)  \right\rangle  N(t)
+}
+{ =} { \kappa(t) N(t)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan karenanya
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Vert { \gamma^{\prime \prime}(t) } \Vert
+}
+{ =} { \betrag {  \kappa(t) }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+Dalam pernyataan di atas, tandanya positif jika kelengkungan positif dan negatif jika kelengkungan negatif; apabila kelengkungannya nol, pilihan tanda tidak berpengaruh. Hal yang menentukan bukan deskripsi eksplisit medan normal satuan, melainkan apakah vektor tangen dan vektor normal satuan merepresentasikan orientasi standar atau tidak.
+
+Kita catat pula definisi berikut.
+
+\inputdefinition
+{}
+{
+
+Misalkan
+\maabb {\gamma} { I } { \R^2
+} {}
+adalah kurva yang terdiferensialkan dua kali secara kontinu dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'(t)
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Pemetaan yang didefinisikan pada titik-titik berkelengkungan tak nol,
+\maabbeledisp {} { \{t\in I\mid \kappa(t)\neq 0\} } { \R^2
+} { t } { M(t)
+} {,}
+yang memetakan $t$ ke pusat
+\definitionsverweis {lingkaran kelengkungan}{}{}
+dari $\gamma$ di $t$, disebut
+\definitionswort {evolut}{}
+dari $\gamma$.
+
+}
+
+  \zwischenueberschrift{Kelengkungan Kurva Secara Umum}
+
+Kita membahas kelengkungan kurva bidang yang tidak harus berparametrisasi panjang busur, serta kurva bidang yang diberikan secara implisit. Misalkan
+\maabbdisp {\alpha} {I} { \R^n
+} {}
+adalah kurva yang terdiferensialkan dua kali secara kontinu dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha'(t)
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan suatu titik tetap
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Besaran
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \ell(t)
+}
+{ =} { \int_a^t \Vert { \alpha'(x)} \Vert dx
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+menurut
+[[Kurve im R^n/Stetig differenzierbar/Rektifizierbar/Fakt|Teorema 38.6 (Analisis (Osnabrück 2021-2023))]]
+merupakan panjang busur $\alpha$ antara
+\mathkor {} {a} {dan} {t} {.}
+Pemetaan
+\maabbeledisp {\ell} {I} { \R
+} {t} { \ell(t)
+} {,}
+bersifat naik tegas dan terdiferensialkan secara kontinu. Misalkan $J$ adalah interval citranya,
+\maabb {\beta} {J} {I
+} {}
+adalah pemetaan invers dari $\ell$, dan
+
+\mavergleichskette
+{\vergleichskette
+{  \gamma (u)
+}
+{ = }{  \alpha( \beta(u))
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dengan menggunakan
+[[Differenzierbar/D offen K/Umkehrfunktion/Fakt|Teorema 18.10 (Analisis (Osnabrück 2021-2023))]]
+dan
+[[Hauptsatz der Infinitesimalrechnung/Riemann/Fakt|Teorema 24.3 (Analisis (Osnabrück 2021-2023))]],
+kita memperoleh
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \gamma' (u)
+}
+{ =} { ( \alpha( \beta(u)))'
+}
+{ =} { \alpha'( \beta(u)) \beta'(u)
+}
+{ =} { \alpha'( \beta(u)) { \frac{  1 }{  \ell'( \beta(u))  } }
+}
+{ =} { \alpha'( \beta(u)) { \frac{  1 }{  \Vert { \alpha'( \beta (u)) } \Vert  } }
+}
+}
+{}
+{}{,}
+yang berarti bahwa $\gamma$ berparametrisasi panjang busur. Peralihan dari $\alpha$ ke $\gamma$ disebut parametrisasi panjang busur. Peralihan ini tidak mengubah citra kurva, melainkan hanya kecepatan kurva ketika dilalui. Kita memperoleh diagram komutatif berikut.
+
+\mathdisp {\begin{matrix}I  & \stackrel{ \alpha }{\longrightarrow} & \R^n   & \\ \beta \uparrow & \nearrow \gamma \!\!\! \!\! & \\ J  & & & & \!\!\!\!\! \!\!\!  \\ \end{matrix}} {  }
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Ebene differenzierbare Kurve/Krümmung/Beschreibung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+\maabb {\alpha} { I } {\R^2
+} {}
+adalah suatu
+\definitionsverweis {kurva yang terdiferensialkan secara kontinu}{}{}
+sebanyak dua kali dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha'(t)
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Definisikan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ N(t)
+}
+{ \defeq} { { \frac{   \begin{pmatrix}  -\alpha_2'(t) \\ \alpha_1'(t)   \end{pmatrix}  }{  \Vert {\alpha'(t) } \Vert  } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktfolgerung {Maka
+\definitionsverweis {kelengkungan}{}{}
+kurva berparametrisasi panjang busur yang bersesuaian adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \kappa(t)
+}
+{ =} { { \frac{   \left\langle  \alpha^{\prime \prime}(t) ,  N(t)   \right\rangle  }{  \Vert {\alpha'(t) } \Vert^2  } }
+}
+{ =} { { \frac{   \alpha_1'(t) \alpha_2^{\prime\prime} (t) - \alpha_2' (t) \alpha_1^{\prime \prime} (t)  }{  \left(  \alpha_1'(t)^2 + \alpha_2'(t)^2  \right)^{3/2}  } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Karena
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ { \frac{   \left\langle  \alpha^{\prime \prime}(t) ,  N(t)   \right\rangle  }{  \Vert {\alpha'(t) } \Vert^2  } }
+}
+{ =} { { \frac{   \left\langle  \alpha^{\prime \prime}(t)  ,  { \frac{   1  }{  \Vert {\alpha'(t) } \Vert  } } \begin{pmatrix}  -\alpha_2'(t) \\ \alpha_1'(t)   \end{pmatrix}    \right\rangle  }{  \Vert {\alpha'(t) } \Vert^2  } }
+}
+{ =} { { \frac{   \left\langle  \begin{pmatrix} \alpha_1^{\prime \prime}(t)   \\\alpha_2^{\prime \prime}(t)    \end{pmatrix}  ,  \begin{pmatrix}  -\alpha_2'(t) \\ \alpha_1'(t)   \end{pmatrix}    \right\rangle  }{  \Vert {\alpha'(t) } \Vert \cdot  \Vert {\alpha'(t) } \Vert^2  } }
+}
+{ =} { { \frac{   \alpha_1'(t) \alpha_2^{\prime\prime} (t) - \alpha_2' (t) \alpha_1^{\prime \prime} (t)  }{  \left(  \alpha_1'(t)^2 + \alpha_2'(t)^2  \right)^{3/2}  } }
+}
+{ } {}
+}
+{}
+{}{}
+kedua suku tersebut sama. Misalkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \alpha(t)
+}
+{ =} { \gamma( \beta(t))
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk suatu reparametrisasi meningkat $\beta$ dan kurva berparametrisasi panjang busur $\gamma$. Maka
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ { \frac{   \alpha_1'(t) \alpha_2^{\prime\prime} (t) - \alpha_2' (t) \alpha_1^{\prime \prime} (t)  }{  \left(  \alpha_1'(t)^2 + \alpha_2'(t)^2  \right)^{3/2}  } }
+}
+{ =} { { \frac{   \gamma_1'( \beta(t)) \beta'(t) \left(  \gamma_2^{\prime\prime} ( \beta(t)) \beta'(t)^2 + \gamma_2'(\beta(t)) \beta^{\prime \prime} (t)  \right) - \gamma_2'( \beta(t)) \beta'(t) \left(  \gamma_1^{\prime\prime} ( \beta(t)) \beta'(t)^2 + \gamma_1'(\beta(t)) \beta^{\prime \prime} (t)  \right)  }{  \left(  \gamma_1'( \beta(t))^2 \beta'(t)^2 + \gamma_2'( \beta(t))^2 \beta'(t)^2  \right)^{3/2}  } }
+}
+{ =} { { \frac{   \gamma_1'( \beta(t)) \left(  \gamma_2^{\prime\prime} ( \beta(t)) \beta'(t)^2 + \gamma_2'(\beta(t)) \beta^{\prime \prime} (t)  \right) - \gamma_2'( \beta(t))  \left(  \gamma_1^{\prime\prime} ( \beta(t)) \beta'(t)^2 + \gamma_1'(\beta(t)) \beta^{\prime \prime} (t)  \right)  }{  \beta'(t)^2        \left(  \gamma_1'( \beta(t))^2  + \gamma_2'( \beta(t))^2   \right)^{3/2}  } }
+}
+{ =} { { \frac{   \gamma_1'( \beta(t)) \gamma_2^{\prime\prime} ( \beta(t)) \beta'(t)^2 - \gamma_2'( \beta(t))  \gamma_1^{\prime\prime} ( \beta(t)) \beta'(t)^2  }{  \beta'(t)^2   } }
+}
+{ =} { \gamma_1'( \beta(t)) \gamma_2^{\prime\prime} ( \beta(t)) - \gamma_2'( \beta(t))  \gamma_1^{\prime\prime} ( \beta(t))
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \kappa (\beta(t))
+}
+{ } {}
+{ } {}
+{ } {}
+}{}{.}
+
+}
+
+Untuk kurva berorientasi yang diberikan secara implisit
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{},
+kita juga menulis $\kappa(P)$ sebagai pengganti $\kappa(t)$ apabila terdapat suatu parametrisasi panjang busur yang selaras dengan orientasi kurva tersebut dan memenuhi
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(t)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Ebene differenzierbare Kurve/Faser/Krümmung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+adalah suatu
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{}
+sebanyak dua kali,
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik pada $Y$. Misalkan
+\maabbdisp {N} { U } {\R^2
+} {}
+adalah suatu medan yang didefinisikan pada lingkungan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan merupakan
+\definitionsverweis {medan normal satuan}{}{}
+bagi $Y$. Selanjutnya, misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Maka untuk setiap vektor tangen
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY \setminus \{0\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+berlaku
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  D N   \right)_{ P } \left(  v  \right)
+}
+{ =} { - \kappa(P) v
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dengan $\kappa(P)$ adalah
+\definitionsverweis {kelengkungan}{}{}
+dari suatu parametrisasi panjang busur dari $Y$ yang selaras dengan orientasi yang diberikan oleh $v, N(P)$. Untuk vektor nol, persamaan yang sama tetap berlaku karena linearitas.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Misalkan
+\maabb {\gamma} { I } { \R^2
+} {}
+adalah parametrisasi panjang busur kurva $Y$ pada suatu lingkungan dari $P$, dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma (0)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang selaras dengan orientasi yang diberikan. Diferensial total
+\maabbdisp {\left(D N \right)_{ P }} { \R^2} {\R^2
+} {}
+bersifat linear. Karena itu, cukup membuktikan pernyataan tersebut untuk vektor $\gamma'(0)$. Menurut
+[[Totale Differenzierbarkeit/K/Kettenregel/Fakt|aturan rantai]],
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  D N   \right)_{ P } \left(   \gamma'(0)  \right)
+}
+{ =} { (N \circ \gamma )'(0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Vektor ini merupakan kelipatan dari $\gamma'(0)$ dan karena itu sama dengan
+
+\mathdisp {\left\langle  (N \circ  \gamma)'(0) ,  \gamma' (0)   \right\rangle  \gamma'(0)} { . }
+
+Berdasarkan syarat keortogonalan,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  (N \circ  \gamma)(t) ,  \gamma' (t)   \right\rangle
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{},
+dan karenanya
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  (N \circ  \gamma)'(t) ,  \gamma' (t)   \right\rangle + \left\langle  (N \circ  \gamma)(t) ,  \gamma^{\prime \prime} (t)   \right\rangle
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Jadi,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  D N   \right)_{ P } \left(   \gamma'(0)  \right)
+}
+{ =} { - \left\langle  (N \circ  \gamma)(0) ,  \gamma^{\prime \prime} (0)   \right\rangle  \gamma'(0)
+}
+{ =} { - \kappa( \gamma(0)) \gamma'(0)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+menurut
+[[Ebene reguläre Kurve/Krümmung/Skalarprodukt/Fakt|Lema 3.8]].
+
+}
+
+ [[Kategorie:Latexseite]]

@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://commons.wikimedia.org/w/api.php",
+  "http_date": "Sat, 22 Aug 2026 05:08:04 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "iiprop": "timestamp|user|url|size|sha1|mime|extmetadata",
+    "prop": "info|imageinfo",
+    "titles": "File:Parabola circle.svg|File:Euler spiral.svg|File:Evolute-parab.svg"
+  },
+  "response_bytes": 7930,
+  "response_path": "unit03_media_imageinfo_current.json",
+  "response_sha256": "0ca15ad45401a73a259aa758b20a56f43779cefa19606da5842df961148850d3",
+  "retrieved_utc": "2026-08-22T05:08:04Z",
+  "schema_version": 1
+}

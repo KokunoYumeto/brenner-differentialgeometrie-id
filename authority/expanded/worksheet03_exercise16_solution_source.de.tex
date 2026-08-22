@@ -1,0 +1,78 @@
+Das
+\definitionsverweis {Gradientenfeld}{}{}
+zu $h$ ist $\begin{pmatrix}  2x \\ 2y   \end{pmatrix}$, ein Einheitsnormalenfeld ist somit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ N \begin{pmatrix}  x  \\ y   \end{pmatrix}
+}
+{ =} { { \frac{   1 }{  \sqrt{x^2+y^2}  } } \begin{pmatrix}  x  \\ y   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Das
+\definitionsverweis {totale Differential}{}{}
+von $N$ in einem Punkt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ P
+}
+{ =} { \begin{pmatrix}  x  \\ y   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{  \left(D N \right)_{P}
+}
+{ =} { \begin{pmatrix}  { \frac{   y^2 }{   \left(  x^2+y^2  \right)^{3/2}  } }   &   - { \frac{   xy }{   \left(  x^2+y^2  \right)^{3/2}  } }   \\    - { \frac{   xy }{   \left(  x^2+y^2  \right)^{3/2}  } }    &  { \frac{   x^2 }{   \left(  x^2+y^2  \right)^{3/2}  } }  \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Angewendet auf den tangentialen Vektor
+\mathl{\begin{pmatrix}  y  \\ -x   \end{pmatrix}}{} ergibt sich
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \left(D N \right)_{P} \begin{pmatrix}  y  \\ -x   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  y^2    &   - xy    \\  - xy   &  x^2  \end{pmatrix} \begin{pmatrix}  y  \\ -x   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  y \left(  y^2 +x^2  \right)  \\ -x \left(  y^2 +x^2  \right)    \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  y   \\ -x    \end{pmatrix}
+}
+{ } {
+}
+}
+{}
+{}{.}
+Daher ist die Krümmung der Kurve in $P$ nach
+[[Ebene differenzierbare Kurve/Faser/Krümmung/Fakt|Fakt]]
+gleich $-1$.
+\zusatzklammer {Dies passt, da
+\mathl{\begin{pmatrix}  y  \\ -x   \end{pmatrix}}{} und das Gradientenfeld die Standardorientierung repräsentieren und
+\mathl{\begin{pmatrix}  y  \\ -x   \end{pmatrix}}{} die Tangentialrichtung für die Bewegung mit dem Uhrzeigersinn ist.} {} {}
+
+ [[Kategorie:Latexseite]]

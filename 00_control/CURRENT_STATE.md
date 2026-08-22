@@ -8,7 +8,7 @@ Produce a complete, independent, natural id-ID reader for smooth manifolds and d
 
 ## Edition-production spine and admission gate
 
-- Holger Brenner, *Differentialgeometrie (Osnabrück 2023)*, German Wikiversity, is admitted as the complete 29-lecture/29-worksheet production spine for this independent Indonesian edition. Units 1–2 have passed their portable-build, translation, mathematical, rights, visual, structural, privacy, and backend gates.
+- Holger Brenner, *Differentialgeometrie (Osnabrück 2023)*, German Wikiversity, is admitted as the complete 29-lecture/29-worksheet production spine for this independent Indonesian edition. Units 1–3 have passed their portable-build, translation, mathematical, rights, visual, structural, privacy, and backend gates.
 - This edition decision is not a decision to admit Brenner into the separate 40-course curriculum. The selection root must compare corpora independently and must not count completed work or sunk effort as evidence.
 - Exact course page: pageid 142521, revision 889544, timestamp 2023-03-07T11:39:09Z, MediaWiki SHA-1 `e274ea4f0ae092736a5df23dfd3bb744184a9f2d`.
 - Course structure: 29 lectures and 29 corresponding worksheets.
@@ -30,15 +30,15 @@ Petrunin–Zamora is optional visual supplementation only. Its curves-and-surfac
 
 ## Production state
 
-- Authority freeze: core semantic and LaTeX/control exports are complete; Unit 1 has exact four-file binary-media closure and Unit 2 has exact two-file binary-media closure. Unit 2 authority, all 19 exercise candidates, and the five actually supplied solutions are frozen at page/revision and byte/hash granularity.
-- Verified reader boundary: cumulative through Lecture 2, *Permukaan Putar, Medan Normal, dan Pemetaan Gauss*, plus Worksheet 2 and its five source-supplied solutions. Across Units 1–2 the reader contains 38 worksheet exercises and six supplied solutions.
-- Final cumulative PDF through Unit 2: 3,152,320 bytes; SHA-256 `6312b4df706d0f08eeb9f37da0abda3428b5448dce54781d0f52eb9c8db5c385`; 44 A4 pages. Terminal QA receipt: `qa/unit-02/UNIT_02_QA.md`, 6,326 bytes, SHA-256 `ef1d89de134f4f9bca59513e8bc3790c9121e6b92d0dae5e67aa0fc882803e4f`.
-- Cumulative backend: 357 schema-valid records across all 14 entity classes. The 174-record Unit 1 slice remains byte-identical; Unit 2 adds 183 records. JSONL SHA-256 `a393d3ff6c8aed203e7d3690eb6391e22ea25436cd06e85aa40e1adc23adb122`; CSV SHA-256 `5880fa9dee8bc0a73ed0e903d931fad38978bc2c9ef65cc58b62b48a7f26b7ba`.
-- Current cursor: `unit-03`, source pair `Vorlesung 3` / `Arbeitsblatt 3`.
-- Publication/push: the cumulative Unit 2 boundary is public in the dedicated repository `KokunoYumeto/brenner-differentialgeometrie-id`. Its bounded content commit is `500b2ce2cbc4eef0f1c443a2e5a22ab36ee9313a`; release tag `v0.2.0-unit-02` points to publication commit `2a1a0fa75462e70278a2b9d4aaaf759bfc5788ee`. Anonymous API, raw-file, manifest, and release-asset readback reproduced the exact 3,152,320-byte PDF and its SHA-256. Unit 1 remains available as the historical `v0.1.0-unit-01` release. Sanitized evidence is in `qa/unit-02/PUBLICATION_RECEIPT.md`.
+- Authority freeze: core semantic and LaTeX/control exports are complete. Unit 3 authority, all 21 exercise candidates, exactly two supplied solutions, and its exact three-file media closure are frozen at page/revision and byte/hash granularity. The cumulative reader now carries four Unit 1 media files, two Unit 2 media files, and three Unit 3 media files with component-specific rights.
+- Verified reader boundary: cumulative through Lecture 3, *Kelengkungan Kurva Berparameter Panjang Busur*, plus Worksheet 3 and its two source-supplied solutions. Across Units 1–3 the reader contains 59 worksheet exercises, eight supplied solutions, and nine figures.
+- Final cumulative PDF through Unit 3: 3,596,282 bytes; SHA-256 `aee7f335c8d8110feb7b70448c70680a30700285131d5a1b4e4aeb2f2d04b46a`; 56 centered A4 pages with wrapper-owned 22 mm margins. Terminal QA receipt: `qa/unit-03/UNIT_03_QA.md`, 7,211 bytes, SHA-256 `7781e297f7fb1688e271c8b7cc507d8efeac2d25b9ea8f84b046e3b68e3d9943`.
+- Cumulative backend: 591 schema-valid records. The 357-record Unit 1–2 prefix remains byte-identical and Unit 3 adds 234 records. JSONL SHA-256 `e2b1e159b1dff04273ddb0af82e85dc32adbb507f3936881f750867527d6800a`; CSV SHA-256 `bdd4648d7e104da5f96a20ff85850a8782379f02609c3f29ed88117401032941`.
+- Current cursor: `unit-04`, source pair `Vorlesung 4` / `Arbeitsblatt 4`.
+- Publication/push: Unit 3 has passed its local publication gate and is being preserved as cumulative release `v0.3.0-unit-03` under the standing authorization. Until that transaction and anonymous public-byte readback complete, the cumulative Unit 2 boundary remains the latest publicly verified release. Unit 1 remains available as the historical `v0.1.0-unit-01` release.
 - Upstream contact: prohibited during production and not used.
 
-Known accessibility limitation: the cumulative PDF is not structurally tagged. It does carry `/Lang=id-ID`, all 28 unique embedded fonts have ToUnicode, and all 44 pages yield extractable text through both pypdf and pdfplumber. Semantic HTML remains the planned primary structured accessibility surface.
+Known accessibility limitation: the cumulative PDF is not structurally tagged. It does carry `/Lang=id-ID`, all 28 unique embedded fonts have ToUnicode, and all 56 pages yield extractable text through both pypdf and pdfplumber. Semantic HTML remains the planned primary structured accessibility surface.
 
 ## Completion gate for each unit
 
@@ -52,4 +52,4 @@ Known accessibility limitation: the cumulative PDF is not structurally tagged. I
 
 ## Resume order
 
-Read `GOAL_AND_WORKFLOW.md`, `AUTHORITY_FREEZE.md`, `DECISION_LOG.md`, `CURSOR.json`, `TERMINOLOGY.csv`, and `ADVERSE_LEDGER.csv`; then continue only Unit 3. Freeze Lecture 3, Worksheet 3, every source-supplied solution, and its actual media closure before translation. Do not infer admission or completion from a generated file without the unit QA receipt.
+Read `GOAL_AND_WORKFLOW.md`, `AUTHORITY_FREEZE.md`, `DECISION_LOG.md`, `CURSOR.json`, `TERMINOLOGY.csv`, and `ADVERSE_LEDGER.csv`; then continue only Unit 4. Freeze Lecture 4, Worksheet 4, every source-supplied solution, and its actual media closure before translation. Do not infer admission or completion from a generated file without the unit QA receipt.

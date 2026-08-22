@@ -53,6 +53,11 @@ def tex_escape(value: str) -> str:
     return "".join(replacements.get(character, character) for character in value)
 
 
+def tex_breakable_filename(value: str) -> str:
+    """Escape a display filename while permitting line breaks at spaces."""
+    return " ".join(rf"\texttt{{{tex_escape(part)}}}" for part in value.split(" "))
+
+
 def write_attribution_tex(
     rows: list[dict[str, object]],
     destination: Path,
@@ -106,7 +111,8 @@ def write_attribution_tex(
             rights_text = rf"status hak: {tex_escape(license_name)}"
         lines.extend(
             [
-                rf"\item[\texttt{{{tex_escape(filename)}}}] {tex_escape(str(row['attribution_id']))}",
+                rf"\item[]{tex_breakable_filename(filename)}",
+                tex_escape(str(row["attribution_id"])),
                 f"{source_link}; {rights_text}.",
             ]
         )

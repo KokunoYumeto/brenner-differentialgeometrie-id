@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-03/lecture03.id.tex",
+  "input_bytes": 29657,
+  "input_sha256": "769ec3b7e72159509ede182469711ce4093027de27096d5d256b88a6e7f32c16",
+  "output": "build/generated/lecture03.id.build.tex",
+  "output_bytes": 29123,
+  "output_sha256": "f449d9b9529b2d73b0dc51c712e92e06cebd034a233f3ac498fb47a9c7ad4195",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 5,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "rendered_internal_links": [
+    {
+      "target": "Differenzierbare Kurve/Bogenparametrisiert/Zweite Ableitung/Senkrecht/Aufgabe",
+      "label": "Soal 2.3"
+    },
+    {
+      "target": "Bogenparametrisierte ebene Kurve/Krümmung/Richtungswechsel/Aufgabe",
+      "label": "Soal 3.1"
+    },
+    {
+      "target": "Kurve im R^n/Stetig differenzierbar/Rektifizierbar/Fakt",
+      "label": "Teorema 38.6 (Analisis (Osnabrück 2021-2023))"
+    },
+    {
+      "target": "Differenzierbar/D offen K/Umkehrfunktion/Fakt",
+      "label": "Teorema 18.10 (Analisis (Osnabrück 2021-2023))"
+    },
+    {
+      "target": "Hauptsatz der Infinitesimalrechnung/Riemann/Fakt",
+      "label": "Teorema 24.3 (Analisis (Osnabrück 2021-2023))"
+    },
+    {
+      "target": "Totale Differenzierbarkeit/K/Kettenregel/Fakt",
+      "label": "aturan rantai"
+    },
+    {
+      "target": "Ebene reguläre Kurve/Krümmung/Skalarprodukt/Fakt",
+      "label": "Lema 3.8"
+    }
+  ]
+}

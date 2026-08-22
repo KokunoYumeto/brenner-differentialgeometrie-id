@@ -1,0 +1,79 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Das
+{{
+Definitionslink
+|Prämath=
+|Gradientenfeld|
+|Kontext=|
+|SZ=
+}}
+zu {{math|term= h |SZ=}} ist {{math|term= {{op:Spaltenvektor| 2x| 2y}} |SZ=,}} ein Einheitsnormalenfeld ist somit
+{{
+Relationskette/display
+| N {{op:Spaltenvektor| x | y}} 
+|| {{op:Bruch| 1| \sqrt{x^2+y^2} }} {{op:Spaltenvektor| x | y}} 
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Das
+{{
+Definitionslink
+|Prämath=
+|totale Differential|
+|Kontext=|
+|SZ=
+}}
+von {{math|term= N |SZ=}} in einem Punkt
+{{
+Relationskette/display
+| P
+|| {{op:Spaltenvektor| x | y}} 
+|| 
+|| 
+|| 
+|SZ=
+}}
+ist
+{{
+Relationskette/display
+|  {{op:Totales Differential| N |P}} 
+|| {{op:Matrix22| {{op:Bruch| y^2|  {{makl| x^2+y^2 |}}^{3/2} }} | - {{op:Bruch| xy|  {{makl| x^2+y^2 |}}^{3/2} }} |   - {{op:Bruch| xy|  {{makl| x^2+y^2 |}}^{3/2} }}   | {{op:Bruch| x^2|  {{makl| x^2+y^2 |}}^{3/2} }} |      }} 
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Angewendet auf den tangentialen Vektor {{mathl|term=  {{op:Spaltenvektor| y | -x}}  |SZ=}} ergibt sich
+{{
+Relationskette/align
+| {{op:Totales Differential| N |P}} {{op:Spaltenvektor| y | -x}}
+|| {{op:Matrix22| y^2  | - xy  | - xy  | x^2 }} {{op:Spaltenvektor| y | -x}}
+|| {{op:Spaltenvektor| y {{makl| y^2 +x^2 |}} | -x {{makl| y^2 +x^2 |}} }}
+|| {{op:Spaltenvektor| y  | -x }}
+|| 
+|SZ=.
+}}
+Daher ist die Krümmung der Kurve in {{math|term= P |SZ=}} nach
+{{
+Faktlink
+|Faktseitenname=
+Ebene differenzierbare Kurve/Faser/Krümmung/Fakt
+|Nr=
+|SZ=
+}}
+gleich {{math|term= -1 |SZ=.}} 
+{{
+Zusatz/Klammer
+|text=Dies passt, da {{mathl|term= {{op:Spaltenvektor| y | -x}} |SZ=}} und das Gradientenfeld die Standardorientierung repräsentieren und {{mathl|term= {{op:Spaltenvektor| y | -x}} |SZ=}} die Tangentialrichtung für die Bewegung mit dem Uhrzeigersinn ist.
+|ISZ=|ESZ=
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

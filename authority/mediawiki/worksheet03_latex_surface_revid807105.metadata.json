@@ -1,0 +1,23 @@
+{
+  "authority": "frozen recursive German Wikiversity Special:Export",
+  "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+  "exact_utf8_base64_witness": "authority/mediawiki/worksheet03_latex_surface_revid807105.utf8.b64",
+  "format": "text/x-wiki",
+  "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+  "model": "wikitext",
+  "namespace": 106,
+  "pageid": 142667,
+  "parentid": 799014,
+  "readable_normalized_bytes": 10,
+  "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+  "readable_normalized_witness": "authority/mediawiki/worksheet03_latex_surface_revid807105.wiki",
+  "revid": 807105,
+  "schema_version": 1,
+  "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+  "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+  "source_utf8_bytes": 9,
+  "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+  "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+  "timestamp": "2022-09-18T09:57:00Z",
+  "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 3/latex"
+}

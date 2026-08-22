@@ -34,6 +34,22 @@
           "rights_label_id": "domain publik"
         }
       ]
+    },
+    "3": {
+      "media": [
+        {
+          "filename": "Parabola circle.svg",
+          "attribution_id": "IkamusumeFan (karya sendiri)."
+        },
+        {
+          "filename": "Euler spiral.svg",
+          "attribution_id": "AdiJapan (karya sendiri)."
+        },
+        {
+          "filename": "Evolute-parab.svg",
+          "attribution_id": "Ag2gaeh (karya sendiri)."
+        }
+      ]
     }
   }
 }

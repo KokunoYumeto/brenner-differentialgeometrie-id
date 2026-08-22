@@ -105,6 +105,7 @@ def main() -> None:
         (r"\newtheorem{Bemerkung}[fakt]{Bemerkung}", r"\newtheorem{Bemerkung}[fakt]{Catatan}"),
         (r"\newtheorem{definition}[fakt]{Definition}", r"\newtheorem{definition}[fakt]{Definisi}"),
         (r"\newtheorem{Definition}[fakt]{Definition}", r"\newtheorem{Definition}[fakt]{Definisi}"),
+        (r"\newtheorem{Lemma}[fakt]{Lemma}", r"\newtheorem{Lemma}[fakt]{Lema}"),
         (
             r"\newcommand{\punkte}[1]{\ifthenelse {\equal {#1}{}}{} {\ifthenelse {\equal {#1}{1}} {(1 Punkt)} {(#1 Punkte)}}}",
             r"\newcommand{\punkte}[1]{\ifthenelse {\equal {#1}{}}{} {\ifthenelse {\equal {#1}{1}} {(1 poin)} {(#1 poin)}}}",
@@ -121,6 +122,12 @@ def main() -> None:
             r"{ \addcontentsline{lof}{figure}{ Quelle = #1, Autor = #2 (hochgeladen von Benutzer #3 auf #4), Lizenz = #5 \bildlizenzskip }} } }",
             r"{ \addcontentsline{lof}{figure}{ Sumber = #1, Kreator = #2 (diunggah oleh Pengguna #3 di #4), Lisensi = #5 \bildlizenzskip }} } }",
         ),
+        (r"\setlength{\oddsidemargin}{1.5cm}", "% page geometry supplied by reader wrapper"),
+        (r"\setlength{\evensidemargin}{1.5cm}", "% page geometry supplied by reader wrapper"),
+        (r"\setlength{\textwidth}{13.7cm}", "% page geometry supplied by reader wrapper"),
+        (r"\setlength{\textheight}{22cm}", "% page geometry supplied by reader wrapper"),
+        (r"\setlength{\topmargin}{1cm}", "% page geometry supplied by reader wrapper"),
+        (r"\setlength{\footskip}{1cm}", "% page geometry supplied by reader wrapper"),
     ]
     for old, new in replacements:
         text = replace_once(text, old, new)
@@ -143,7 +150,7 @@ def main() -> None:
         "replacement_count": len(replacements),
         "removed_category_links": category_count,
         "portable_appendix": ["Teorema environment sharing fakt counter", "Indonesian proof label"],
-        "scope": "language/input ownership, local media paths, current text-license notice, Indonesian reader labels",
+        "scope": "language/input ownership, local media paths, current text-license notice, Indonesian reader labels, wrapper-owned centered A4 page geometry",
     }
     args.receipt.parent.mkdir(parents=True, exist_ok=True)
     args.receipt.write_text(

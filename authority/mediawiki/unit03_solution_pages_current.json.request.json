@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Sat, 22 Aug 2026 05:08:04 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Bogenparametrisierte ebene Kurve/Krümmung/Richtungswechsel/Aufgabe/Lösung|Bogenparametrisierte ebene Kurve/Krümmung/Drehung/Aufgabe/Lösung|Bogenparametrisierte Kurve/Ebene/Krümmungskreis/Durchlauf/Negative Orientierung/Aufgabe/Lösung|Bogenparametrisierte eben Kurve/Krümmung/Streckung/Aufgabe/Lösung|Einheitskreis/Konstante Geschwindigkeit/Kreis mit gleicher nullten und ersten Ableitung/Aufgabe/Lösung|Einheitskreis/Konstante Geschwindigkeit/Kreis mit gleicher nullten und zweiten Ableitung/Aufgabe/Lösung|Einheitskreis/Konstante Geschwindigkeit/Kreis mit gleicher bis zweiten Ableitung/Aufgabe/Lösung|Ebene Kurve/Faser/Geodätische Kurve/Aufgabe/Lösung|Klothoide/Krümmung/Aufgabe/Lösung|Funktionsgraph/Kurve/Krümmung/Aufgabe/Lösung|Kreisbewegung/Krümmung/Berechnung/Aufgabe/Lösung|Sinus/Graph/Krümmung/Aufgabe/Lösung|Logarithmische Spirale/Krümmung/Aufgabe/Lösung|Ebene Kurve/Analytische Krümmung/Analytische Kurve/Aufgabe/Lösung|Parabel/Evolute/Aufgabe/Lösung|Impliziter Einheitskreis/Krümmung/Aufgabe/Lösung|Exponentialfunktion/Graph/Krümmung/Aufgabe/Lösung|Archimedische Spirale/Krümmung/Aufgabe/Lösung|Ebene Kurve/Nicht injektiv/Krümmungskreise/Aufgabe/Lösung|Ellipse/Evolute/Aufgabe/Lösung|Implizite Kurve/Fermat-Quartik/Krümmung/Aufgabe/Lösung"
+  },
+  "response_bytes": 6618,
+  "response_path": "unit03_solution_pages_current.json",
+  "response_sha256": "c05861806b5e697fc675e3fd6cbd385d2b56c65357f7bab97df7edf1303d60e1",
+  "retrieved_utc": "2026-08-22T05:08:04Z",
+  "schema_version": 1
+}

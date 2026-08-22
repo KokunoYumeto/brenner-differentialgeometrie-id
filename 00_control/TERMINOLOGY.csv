@@ -46,3 +46,33 @@ O011-TERM-0044,lineare Isomorphie,isomorfisme linear,admitted,
 O011-TERM-0045,Nullstellenmenge,himpunan nol,admitted,
 O011-TERM-0046,Streckung,homoteti skalar,admitted,Use dilatasi only where a positive scale factor is intended
 O011-TERM-0047,Bild,citra,admitted,Image of a set under a map
+O011-TERM-0048,Krümmung,kelengkungan,admitted,Signed curvature in the oriented plane-curve context
+O011-TERM-0049,Drehung,rotasi,admitted,Orientation-preserving Euclidean rotation
+O011-TERM-0050,Krümmungskreis,lingkaran kelengkungan,admitted,Circle of curvature; synonym of osculating circle
+O011-TERM-0051,Schmiegkreis,lingkaran oskulasi,admitted,Osculating circle; synonym of circle of curvature
+O011-TERM-0052,Kreisbewegung,gerak melingkar,admitted,
+O011-TERM-0053,uniforme Kreisbewegung,gerak melingkar beraturan,admitted,
+O011-TERM-0054,Geschwindigkeitsnorm,norma kecepatan,admitted,
+O011-TERM-0055,Beschleunigung,percepatan,admitted,
+O011-TERM-0056,Klothoide,klotoid,admitted,Also known as the Euler spiral
+O011-TERM-0057,logarithmische Spirale,spiral logaritmik,admitted,
+O011-TERM-0058,archimedische Spirale,spiral Archimedes,admitted,
+O011-TERM-0059,analytisch,analitik,admitted,For analytic functions and curves
+O011-TERM-0060,Potenzreihe,deret pangkat,admitted,
+O011-TERM-0061,Evolute,evolut,admitted,Locus of centers of curvature
+O011-TERM-0062,Gradientenfeld,medan gradien,admitted,
+O011-TERM-0063,totales Differential,diferensial total,admitted,
+O011-TERM-0064,tangentialer Vektor / Tangentenvektor,vektor tangen,admitted,
+O011-TERM-0065,regulär,reguler,admitted,Regular map or regular point as context determines
+O011-TERM-0066,Tangente,garis tangen,admitted,Tangent line
+O011-TERM-0067,Krümmungsradius,jari-jari kelengkungan,admitted,
+O011-TERM-0068,Standardorientierung,orientasi standar,admitted,
+O011-TERM-0069,Gegenorientierung,orientasi berlawanan,admitted,
+O011-TERM-0070,Umparametrisierung,reparametrisasi,admitted,
+O011-TERM-0071,Bogenlänge,panjang busur,admitted,
+O011-TERM-0072,kommutatives Diagramm,diagram komutatif,admitted,
+O011-TERM-0073,implizit gegebene Kurve,kurva yang diberikan secara implisit,admitted,
+O011-TERM-0074,Hauptsatz der Infinitesimalrechnung,teorema dasar kalkulus,admitted,
+O011-TERM-0075,Kettenregel,aturan rantai,admitted,
+O011-TERM-0076,Krümmungsverlauf,profil kelengkungan,admitted,Prescribed curvature as a function of the parameter
+O011-TERM-0077,tangentialer Vektor,vektor tangen,admitted,Exact source variant used in Worksheet 3; aligned with Tangentenvektor

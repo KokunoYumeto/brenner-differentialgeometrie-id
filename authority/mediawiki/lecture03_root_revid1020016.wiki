@@ -1,0 +1,194 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesungsgestaltung|3|
+
+{{Zwischenüberschrift|Krümmung von bogenparametrisierten Kurven}}
+
+{{
+inputdefinition
+|Kurve/Bogenparametrisiert/Definition||
+}}
+
+Nach
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Differenzierbare Kurve/Bogenparametrisiert/Zweite Ableitung/Senkrecht/Aufgabe
+|Nr=
+|SZ=
+}}
+besitzt eine zweimal stetig differenzierbare bogenparametrisierte Kurve die Eigenschaft, dass die zweite Ableitung {{math|term= \gamma^{\prime \prime} (t) |SZ=}} stets senkrecht auf der ersten Ableitung {{math|term= \gamma^{\prime } (t) |SZ=}} steht.
+
+{{:Differenzierbare ebene Kurve/Bogenparametrisiert/Krümmungseigenschaften/Einführung/Textabschnitt|}} 
+
+Wir erwähnen noch die folgende Definition.
+{{
+inputdefinition
+|Ebene Kurve/Parametrisiert/Evolute/Definition||
+}}
+
+{{Zwischenüberschrift|Krümmung von Kurven allgemein}}
+
+Wir besprechen die Krümmung von ebenen Kurven, die nicht notwendigerweise bogenparametrisiert sind und von implizit gegebenen ebenen Kurven. Zu einer zweifach stetig differenzierbaren Kurve
+{{
+Abbildung/display
+|name= \alpha
+|I| \R^n
+||
+|SZ=
+}} 
+mit
+{{
+Relationskette
+| \alpha'(t)
+|\neq| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+für alle
+{{
+Relationskette
+| t
+|\in| I
+||
+||
+||
+|SZ=
+}}
+und einem fixierten Punkt
+{{
+Relationskette
+| a
+|\in| I
+||
+||
+||
+|SZ=
+}}
+ist
+{{
+Relationskette/display
+| \ell(t)
+|| \int_a^t {{op:Norm| \alpha'(x)|}} dx
+|| 
+|| 
+|| 
+|SZ=
+}}
+nach
+{{
+Faktlink
+|Faktseitenname=
+Kurve im R^n/Stetig differenzierbar/Rektifizierbar/Fakt
+|Nr=
+|SZ=
+}}
+die Bogenlänge von {{math|term= \alpha |SZ=}} zwischen
+{{
+mathkor|term1=
+a
+|und|term2=
+t
+|SZ=.
+}}
+Die Zuordnung
+{{
+Abbildung/display
+|name= \ell
+|I| \R
+|t| \ell(t)
+|SZ=,
+}}
+ist dabei streng wachsend und stetig differenzierbar. Es sei {{math|term= J |SZ=}} das Bildintervall,  
+{{
+Abbildung
+|name= \beta
+|J|I
+||
+|SZ=
+}}
+die Umkehrfunktion zu {{math|term= \ell |SZ=}} und
+{{
+Relationskette
+|  \gamma (u)
+||  \alpha( \beta(u))
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Dann ist unter Verwendung von
+{{
+Faktlink
+|Faktseitenname=
+Differenzierbar/D offen K/Umkehrfunktion/Fakt
+|Nr=
+|SZ=
+}}
+und 
+{{
+Faktlink
+|Faktseitenname=
+Hauptsatz der Infinitesimalrechnung/Riemann/Fakt
+|Nr=
+|SZ=
+}}
+{{
+Relationskette/align
+| \gamma' (u)
+|| ( \alpha( \beta(u)))'
+|| \alpha'( \beta(u)) \beta'(u)
+|| \alpha'( \beta(u)) {{op:Bruch|1| \ell'( \beta(u)) }} 
+|| \alpha'( \beta(u)) {{op:Bruch|1| {{op:Norm| \alpha'( \beta (u)) |}} }} 
+|| 
+|SZ=,
+}}
+was bedeutet, dass {{math|term= \gamma |SZ=}} bogenparametrisiert ist. Den Übergang von {{math|term= \alpha |SZ=}} zu  {{math|term= \gamma |SZ=}} nennt man Bogenparametrisierung, dabei wird die Bildkurve nicht geändert, nur die Geschwindigkeit, mit der sie durchlaufen wird. Es liegt das kommutative Diagramm
+{{Kommutatives Dreieck/roo|I|\R^n |J|abb12=\alpha|abb31=\beta|abb32= \gamma}}
+vor.
+
+{{
+inputfaktbeweis
+|Ebene differenzierbare Kurve/Krümmung/Beschreibung/Fakt|Lemma||
+||
+}}
+
+Im Fall einer implizit gegebenen Kurve
+{{
+Relationskette
+| Y
+|\subseteq| \R^2
+|| 
+|| 
+|| 
+|SZ=
+}}
+und einem Punkt
+{{
+Relationskette
+| P
+|\in| Y
+||
+||
+||
+|SZ=
+}}
+schreiben wir auch {{math|term= \kappa(P) |SZ=}} statt  {{math|term= \kappa(t) |SZ=,}} wenn eine Bogenparametrisierung der Kurve mit
+{{
+Relationskette
+| \gamma(t)
+|| P
+|| 
+|| 
+|| 
+|SZ=
+}}
+vorliegt.
+
+{{
+inputfaktbeweis
+|Ebene differenzierbare Kurve/Faser/Krümmung/Fakt|Lemma||
+||
+}}
+
+}}

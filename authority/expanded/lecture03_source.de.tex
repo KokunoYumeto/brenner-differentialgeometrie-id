@@ -1,0 +1,1554 @@
+\setcounter{section}{3}
+
+  \zwischenueberschrift{Krümmung von bogenparametrisierten Kurven}
+
+\inputdefinition
+{}
+{
+
+Eine
+\definitionsverweis {differenzierbare Kurve}{}{}
+\maabbeledisp {f} { [a,b] } {\R^n
+} { t } {f(t) = \left( f_1(t)  , \,   \ldots  , \,  f_n(t)                 \right)
+} {,}
+heißt
+\definitionswort {bogenparametrisiert}{,}
+wenn
+
+\mavergleichskette
+{\vergleichskette
+{ f_1'(t)^2 + \cdots +  f_n'(t)^2
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle $t$ gilt.
+
+}
+
+Nach
+[[Differenzierbare Kurve/Bogenparametrisiert/Zweite Ableitung/Senkrecht/Aufgabe|Aufgabe 2.3]]
+besitzt eine zweimal stetig differenzierbare bogenparametrisierte Kurve die Eigenschaft, dass die zweite Ableitung $\gamma^{\prime \prime} (t)$ stets senkrecht auf der ersten Ableitung $\gamma^{\prime } (t)$ steht.
+
+Es sei
+\maabbdisp {\gamma} { I } {\R^2
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare}{}{}
+\definitionsverweis {Kurve}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Eine naheliegende Möglichkeiten, das Verhalten der Kurve im Punkt
+\mathkor {} {t} {bzw.} {\gamma(t)} {}
+über die Tangente hinaus zu approximieren besteht darin, einen Kreis anzugeben, der sich an die Kurve besonders gut anschmiegt, bzw. eine Kreisbewegung anzugeben, die bis zur zweiten Ableitung mit der Kurve übereinstimmt. Die Kurve sei
+\definitionsverweis {bogenparametrisiert}{}{.}
+
+\inputdefinition
+{}
+{
+
+Es sei
+\maabbdisp {\gamma} { I } {\R^2
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare}{}{}
+\definitionsverweis {bogenparametrisierte}{}{}
+\definitionsverweis {Kurve}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ t_0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei die zweite Ableitung $\gamma^{\prime \prime} (t_0)$ nicht $0$ sei. Dann nennt man den Kreis mit dem Radius
+
+\mavergleichskettedisp
+{\vergleichskette
+{ r
+}
+{ =} { { \frac{   1  }{  \betrag {  \gamma_1'(t_0) \gamma_2^{\prime \prime} (t_0) - \gamma_2'(t_0) \gamma_1^{\prime \prime} (t_0)  }  } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und dem Mittelpunkt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { \gamma(t_0) +  { \frac{   1  }{  \gamma_1'(t_0) \gamma_2^{\prime \prime} (t_0) - \gamma_2'(t_0) \gamma_1^{\prime \prime} (t_0)  } }  \begin{pmatrix}  - \gamma_2'(t_0) \\ \gamma_1'(t_0)   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+den
+\definitionswort {Krümmungskreis}{}
+zu $\gamma$ in $t_0$.
+
+}
+
+\inputdefinition
+{}
+{
+
+Es sei
+\maabbdisp {\gamma} { I } {\R^2
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare}{}{}
+\definitionsverweis {bogenparametrisierte}{}{}
+\definitionsverweis {Kurve}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ t_0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann nennt man
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \kappa (t_0)
+}
+{ =} { \gamma_1'(t_0) \gamma_2^{\prime \prime} (t_0) - \gamma_2'(t_0) \gamma_1^{\prime \prime} (t_0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+die
+\definitionswort {Krümmung}{}
+der Kurve in $t_0$.
+
+}
+
+Statt Krümmungskreis sagt man auch \stichwort {Schmiegkreis} {.} Da im bogenparametrisierten Fall
+\mathkor {} {\begin{pmatrix}  \gamma_1'(t_0) \\ \gamma_2'(t_0)    \end{pmatrix}} {und} {\begin{pmatrix}  \gamma_1^{\prime \prime} (t_0) \\ \gamma_2^{\prime \prime}(t_0)    \end{pmatrix}} {}
+senkrecht aufeinander stehen und die zweite Ableitung nicht $0$ ist, bilden diese Vektoren eine Basis des $\R^2$ und daher ist ihre Determinante, die ja als Nenner in der Definition des Krümmungskreises auftritt, nicht $0$. Wenn diese Determinante
+\zusatzklammer {und damit die Krümmung} {} {}
+positiv ist, so repräsentiert diese Basis die
+\definitionsverweis {Standardorientierung}{}{}
+\zusatzklammer {also die Orientierung, die durch die Standardvektoren
+\mathkor {} {e_1} {und} {e_2} {}} {} {}
+gegeben ist, andernfalls die Gegenorientierung. Bei positiver Krümmung wird die Bewegung
+\zusatzklammer {von der tangentialen Richtung aus gesehen} {} {}
+nach links abgelenkt, bei negativer Krümmung nach rechts. Bei positiver Krümmung kann man den Mittelpunkt des Krümmungskreises als
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { \gamma(t_0) + r  \begin{pmatrix}  - \gamma_2'(t_0) \\ \gamma_1'(t_0)   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und bei negativer Krümmung als
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { \gamma(t_0) + r \begin{pmatrix}  \gamma_2'(t_0) \\ - \gamma_1'(t_0)   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+beschreiben. Gemäß
+[[Bogenparametrisierte ebene Kurve/Krümmung/Richtungswechsel/Aufgabe|Aufgabe 3.1]]
+besitzt die umgekehrt durchlaufene Kurve die negierte Krümmung. Gelegentlich werden wir auch von der Krümmung der Kurve im Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(t)
+}
+{ \in }{ \gamma(I)
+}
+{ \subseteq }{ \R^2
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sprechen, was bei einer Kurve, die injektiv ist oder allenfalls periodisch mehrfach durchlaufen wird, unproblematisch ist.
+
+\inputbeispiel{}
+{
+
+Wir betrachten die trigonometrische Parametrisierung des Einheitskreises, also
+\maabbeledisp {\gamma} {\R} { \R^2
+} { t } { \begin{pmatrix}  \cos  t  \\ \sin  t    \end{pmatrix}
+} {.}
+Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma'(t)
+}
+{ =} { \begin{pmatrix}  - \sin  t  \\ \cos  t    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma^{\prime \prime} (t)
+}
+{ =} { \begin{pmatrix}  - \cos  t  \\ - \sin  t    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Die
+\definitionsverweis {Krümmung}{}{}
+zu jedem Zeitpunkt $t$ ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma_1'(t) \gamma_2^{\prime \prime} (t) - \gamma_2'(t) \gamma_1^{\prime \prime} (t)
+}
+{ =} { \left(  -  \sin  t   \right)  \left(  -  \sin  t   \right)  -  \cos  t  \left(  -  \cos  t   \right)
+}
+{ =} { 1
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+der Krümmungsradius ist $1$ und der Mittelpunkt des Krümmungskreises ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}  \cos  t  \\ \sin  t    \end{pmatrix}  + \begin{pmatrix}  -\cos  t  \\ - \sin  t    \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  0  \\ 0    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+der Krümmungskreis ist also stets der Einheitskreis.
+
+Wenn man den Kreis mit dem Uhrzeigersinn durchläuft, also die Kurve
+\maabbeledisp {\delta} {\R} { \R^2
+} { s } { \begin{pmatrix}  \cos \left(  -s \right)  \\ \sin  \left(  -s \right)    \end{pmatrix} = \begin{pmatrix}  \cos  s  \\ - \sin  s    \end{pmatrix}
+} {,}
+betrachtet, so ist die Krümmung gleich $-1$, Krümmungsradius und Krümmungskreis sind wie zuvor.
+
+}
+
+Die Definition des Krümmungskreises kann man bereits dann verwenden, wenn $\gamma'(t_0)$ die Norm $1$
+\zusatzklammer {also nur für $t_0$} {} {}
+besitzt, ohne dass eine bogenparametrisierte Kurve vorliegt, wenn man fordert, dass
+\mathkor {} {\begin{pmatrix}  \gamma_1'(t_0) \\ \gamma_2'(t_0)    \end{pmatrix}} {und} {\begin{pmatrix}  \gamma_1^{\prime \prime} (t_0) \\ \gamma_2^{\prime \prime}(t_0)    \end{pmatrix}} {}
+\definitionsverweis {linear unabhängig}{}{}
+sind. Wenn die beiden Vektoren linear abhängig sind, so sagt man auch, dass der Krümmungsradius unendlich ist.
+
+\inputbeispiel{}
+{
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Parabola circle} {svg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Parabola circle.svg } {} {IkamusumeFan} {Commons} {CC-by-sa 4,0} {}
+
+Wir betrachten die Standardparabel als Kurve
+\maabbeledisp {\gamma} {\R} {\R^2
+} { t } { \begin{pmatrix}  t  \\t^2   \end{pmatrix}
+} {}
+im Nullpunkt
+
+\mavergleichskette
+{\vergleichskette
+{ t_0
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma'(t)
+}
+{ =} { \begin{pmatrix}  1  \\ 2t   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dies ist im Allgemeinen nicht
+\definitionsverweis {bogenparametrisiert}{}{,}
+im Nullpunkt aber schon. Die zweite Ableitung ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma^{\prime \prime}(t)
+}
+{ =} { \begin{pmatrix}  0  \\ 2   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+unabhängig vom Zeitpunkt. Daher ist der
+\definitionsverweis {Krümmungsradius}{}{}
+gleich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ r
+}
+{ =} { { \frac{   1  }{  \betrag {  \gamma_1'(0) \gamma_2^{\prime \prime} (0) - \gamma_2'(0) \gamma_1^{\prime \prime} (0)  }  } }
+}
+{ =} { { \frac{   1  }{  2 } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und der Mittelpunkt des
+\definitionsverweis {Krümmungskreises}{}{}
+ist
+\mathl{\begin{pmatrix}  0  \\ { \frac{   1  }{  2 } }     \end{pmatrix}}{.}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Bogenparametrisierte Kurve/Ebene/Krümmungskreis/Durchlauf/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+\maabbdisp {\gamma} { I } {\R^2
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare}{}{}
+\definitionsverweis {bogenparametrisierte}{}{}
+\definitionsverweis {Kurve}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ t_0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma^{\prime \prime} (t_0)
+}
+{ \neq} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit dem
+\definitionsverweis {Krümmungskreis}{}{}
+$K$ mit Mittelpunkt $M$ und Radius $r$. Wenn $\gamma'(t_0), \gamma^{\prime \prime} (t_0)$ die
+\definitionsverweis {Standardorientierung}{}{}
+repräsentiert, so sei
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha
+}
+{ \in }{ [0, 2 \pi[
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+derart, dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}  \gamma_1'(t_0) \\ \gamma_2'(t_0)   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  - \sin  \left(  \alpha + { \frac{  t_0  }{  r  } }   \right)  \\ \cos \left(  \alpha + { \frac{  t_0  }{  r  } }   \right)   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Wenn $\gamma'(t_0), \gamma^{\prime \prime} (t_0)$ nicht die
+\definitionsverweis {Standardorientierung}{}{}
+repräsentiert, so sei
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha
+}
+{ \in }{ [0, 2 \pi[
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+derart, dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}  \gamma_1'(t_0) \\ \gamma_2'(t_0)   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  - \sin  \left(  \alpha + { \frac{  t_0  }{  r  } }   \right)  \\ - \cos \left(  \alpha + { \frac{  t_0  }{  r  } }   \right)   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktfolgerung {Dann ist
+\zusatzklammer {im standardorientierten Fall} {} {}
+\maabbeledisp {\delta} {\R} {\R^2
+} { t } { M+r \begin{pmatrix}  \cos \left( \alpha + { \frac{   t  }{  r  } }  \right)  \\ \sin  \left(  \alpha + { \frac{   t  }{  r  } }  \right)    \end{pmatrix}
+} {,}
+bzw.
+\zusatzklammer {im nichtstandardorientierten Fall} {} {}
+\maabbeledisp {\delta} {\R} {\R^2
+} { t } { M+r \begin{pmatrix}  \cos \left( \alpha + { \frac{   t  }{  r  } }  \right)  \\ - \sin  \left(  \alpha + { \frac{   t  }{  r  } }  \right)    \end{pmatrix}
+} {,}
+eine bogenparametrisierte Bewegung auf dem Krümmungskreis, die in $t_0$ mit $\gamma$ bis zur zweiten Ableitung übereinstimmt.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Wir betrachten den standardorientierten Fall. Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \delta (t_0)
+}
+{ =} { M+r \begin{pmatrix}  \cos \left( \alpha +  { \frac{  t_0  }{  r  } }  \right)  \\ \sin  \left(  \alpha + { \frac{  t_0  }{  r  } }  \right)    \end{pmatrix}
+}
+{ =} { \gamma(t_0) + r\begin{pmatrix}  - \gamma_2'(t_0) \\ \gamma_1'(t_0)   \end{pmatrix} +r \begin{pmatrix}  \gamma_2'(t_0) \\ - \gamma_1'(t_0)   \end{pmatrix}
+}
+{ =} { \gamma(t_0)
+}
+{ } {
+}
+}
+{}{}{.}
+Ferner ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \delta' (t_0)
+}
+{ =} { \begin{pmatrix}  - \sin  \left( \alpha +  { \frac{  t_0  }{  r  } }  \right)  \\ \cos \left(  \alpha + { \frac{  t_0  }{  r  } }  \right)    \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  \gamma_1'(t_0) \\ \gamma_2'(t_0)   \end{pmatrix}
+}
+{ =} { \gamma'(t_0)
+}
+{ } {
+}
+}
+{}{}{,}
+insbesondere ist $\delta$ bogenparametrisiert. Es steht $\begin{pmatrix}  \gamma_1^{\prime \prime} (t_0)  \\ \gamma_2^{\prime \prime} (t_0)   \end{pmatrix}$ senkrecht auf $\begin{pmatrix}  \gamma_1'(t_0)  \\ \gamma_2'(t_0)    \end{pmatrix}$ und ist daher linear abhängig zu dem Orthonormalvektor
+$\begin{pmatrix}  - \gamma_2'(t_0)  \\ \gamma_1'(t_0)    \end{pmatrix}$. Somit ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}  \gamma_1^{\prime \prime} (t_0)  \\ \gamma_2^{\prime \prime} (t_0)   \end{pmatrix}
+}
+{ =} { \left\langle  \begin{pmatrix}  - \gamma_2'(t_0)  \\ \gamma_1'(t_0)    \end{pmatrix}   ,  \begin{pmatrix}  \gamma_1^{\prime \prime} (t_0) \\ \gamma_2^{\prime \prime} (t_0)   \end{pmatrix}   \right\rangle  \begin{pmatrix}  - \gamma_2'(t_0)  \\ \gamma_1'(t_0)    \end{pmatrix}
+}
+{ =} { \left(  \gamma_1'(t_0) \gamma_2^{\prime \prime} (t_0) - \gamma_2'(t_0) \gamma_1^{\prime \prime} (t_0)  \right) \begin{pmatrix}  - \gamma_2'(t_0)  \\ \gamma_1'(t_0)    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und daher
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \delta^{\prime \prime} (t_0)
+}
+{ =} { - { \frac{   1  }{ r } }  \begin{pmatrix}  \cos \left( \alpha + { \frac{  t_0  }{  r  } }  \right)  \\ \sin  \left(  \alpha + { \frac{  t_0  }{  r  } }  \right)    \end{pmatrix}
+}
+{ =} { - \left(  \gamma_1'(t_0) \gamma_2^{\prime \prime} (t_0) - \gamma_2'(t_0) \gamma_1^{\prime \prime} (t_0)  \right) \begin{pmatrix}  \gamma_2'(t_0) \\ - \gamma_1'(t_0)   \end{pmatrix}
+}
+{ =} { \left(  \gamma_1'(t_0) \gamma_2^{\prime \prime} (t_0) - \gamma_2'(t_0) \gamma_1^{\prime \prime} (t_0)  \right) \begin{pmatrix}  - \gamma_2'(t_0) \\ \gamma_1'(t_0)   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  \gamma_1^{\prime \prime} (t_0) \\ \gamma_2^{\prime \prime} (t_0)   \end{pmatrix}
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \gamma^{\prime \prime} (t_0)
+}
+{ } {
+}
+{ } {}
+{ } {}
+}
+{}{.}
+
+}
+
+Die folgende Aussage zeigt, dass man jeden gewünschten Krümmungsverlauf durch eine Kurve realisieren kann.
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Ebene Kurve/Krümmung/Stammfunktion zu trigonometrischer Funktion/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $I$ ein Intervall,
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+\maabbdisp {\psi} { I } {\R
+} {}
+eine differenzierbare Funktion. Es sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma(t)
+}
+{ \defeq} { \int_0^t  \begin{pmatrix}  \cos  \psi(s)  \\ \sin  \psi(s)    \end{pmatrix} ds
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}}
+\faktuebergang {Dann gelten folgende Aussagen.}
+\faktfolgerung {\aufzaehlungfuenf{Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma(0)
+}
+{ =} { \begin{pmatrix}  0  \\ 0   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma'(t)
+}
+{ =} { \begin{pmatrix}  \cos  \psi(t)  \\ \sin  \psi(t)    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{ \maabbdisp {} { I } { \R^2
+} {}
+ist eine zweifach differenzierbare bogenparametrisierte ebene Kurve.
+}{Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma^{\prime \prime}(t)
+}
+{ =} { \psi' (t) \begin{pmatrix}  - \sin  \psi(t)  \\ \cos  \psi(t)    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Die
+\definitionsverweis {Krümmung}{}{}
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \kappa(t)
+}
+{ =} { \psi'(t)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+(1) ist klar. (2) ergibt sich direkt aus dem Hauptsatz der Infinitesimalrechnung. Damit sind auch (3) und (4) klar, wobei sich die Bogenparametrisierung aus
+
+\mavergleichskette
+{\vergleichskette
+{ \cos^{ 2  }  u + \sin^{ 2  }  u
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ergibt. (5). Für die Krümmung ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \kappa(t)
+}
+{ =} { \gamma_1'(t) \gamma_2^{\prime \prime} (t) - \gamma_2'(t) \gamma_1^{\prime \prime} (t)
+}
+{ =} { \psi'(t) \cos  \psi(t)  \cos  \psi(t) + \psi'(t)  \sin  \psi(t)  \sin  \psi(t)
+}
+{ =} { \psi'(t)
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Ebene reguläre Kurve/Krümmung/Skalarprodukt/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+\maabb {\gamma} { I } {\R^2
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare}{}{}
+\definitionsverweis {bogenparametrisierte}{}{}
+\definitionsverweis {Kurve}{}{.}}
+\faktfolgerung {Dann ist die
+\definitionsverweis {Krümmung}{}{}
+von $\gamma$ in $t$ gleich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \kappa(t)
+}
+{ =} { \left\langle  \gamma^{\prime \prime}(t)  ,  N(t )    \right\rangle
+}
+{ =} { \pm \Vert { \gamma^{\prime \prime}(t) } \Vert
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ N( t)
+}
+{ =} { \begin{pmatrix}  -\gamma_2'(t) \\ \gamma_1'(t)   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ein Einheitsnormalenvektor in $\gamma(t)$ ist.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Die erste Aussage folgt unmittelbar aus der Definition
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \kappa(t)
+}
+{ =} { \gamma_1'(t) \gamma_2^{\prime \prime} (t) - \gamma_2'(t) \gamma_1^{\prime \prime} (t)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Aus
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \gamma_1'(t)  \right)^2 +  \left(  \gamma_2' (t)  \right)^2
+}
+{ =} { 1
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+folgt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma_1'(t) \gamma_1^{\prime \prime}(t) + \gamma_2'(t) \gamma_2^{\prime \prime} (t)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+daher steht $\gamma^{\prime \prime}(t)$ senkrecht auf $\gamma'(t)$ und ist linear abhängig zu
+\mathl{N(t)}{.} Somit ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma^{\prime \prime}(t)
+}
+{ =} { \left\langle  \gamma^{\prime \prime}(t) ,  N(t)  \right\rangle  N(t)
+}
+{ =} { \kappa(t) N(t)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und somit ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Vert { \gamma^{\prime \prime}(t) } \Vert
+}
+{ =} { \betrag {  \kappa(t) }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+In der vorstehenden Aussage ist das Vorzeichen positiv, wenn die Kurve positiv gekrümmt ist, andernfalls negativ. Entscheidend ist nicht die explizite Beschreibung des Einheitsnormalenfeldes, sondern ob der Tangentenvektor und der Einheitsnormalenvektor die Standardorientierung repräsentiert oder nicht.
+
+Wir erwähnen noch die folgende Definition.
+
+\inputdefinition
+{}
+{
+
+Es sei
+\maabb {\gamma} { I } { \R^2
+} {}
+eine zweifach stetig differenzierbare Kurve mit
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'(t)
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann nennt man die Abbildung
+\maabbeledisp {} { I } { \R^2
+} { t } { M(t)
+} {,}
+die $t$ auf den Mittelpunkt des
+\definitionsverweis {Krümmungskreises}{}{}
+zu $\gamma$ in $t$ abbildet, die
+\definitionswort {Evolute}{}
+zu $\gamma$.
+
+}
+
+  \zwischenueberschrift{Krümmung von Kurven allgemein}
+
+Wir besprechen die Krümmung von ebenen Kurven, die nicht notwendigerweise bogenparametrisiert sind und von implizit gegebenen ebenen Kurven. Zu einer zweifach stetig differenzierbaren Kurve
+\maabbdisp {\alpha} {I} { \R^n
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha'(t)
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und einem fixierten Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \ell(t)
+}
+{ =} { \int_a^t \Vert { \alpha'(x)} \Vert dx
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+nach
+[[Kurve im R^n/Stetig differenzierbar/Rektifizierbar/Fakt|Satz 38.6 (Analysis (Osnabrück 2021-2023))]]
+die Bogenlänge von $\alpha$ zwischen
+\mathkor {} {a} {und} {t} {.}
+Die Zuordnung
+\maabbeledisp {\ell} {I} { \R
+} {t} { \ell(t)
+} {,}
+ist dabei streng wachsend und stetig differenzierbar. Es sei $J$ das Bildintervall,
+\maabb {\beta} {J} {I
+} {}
+die Umkehrfunktion zu $\ell$ und
+
+\mavergleichskette
+{\vergleichskette
+{  \gamma (u)
+}
+{ = }{  \alpha( \beta(u))
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann ist unter Verwendung von
+[[Differenzierbar/D offen K/Umkehrfunktion/Fakt|Satz 18.10 (Analysis (Osnabrück 2021-2023))]]
+und
+[[Hauptsatz der Infinitesimalrechnung/Riemann/Fakt|Satz 24.3 (Analysis (Osnabrück 2021-2023))]]
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \gamma' (u)
+}
+{ =} { ( \alpha( \beta(u)))'
+}
+{ =} { \alpha'( \beta(u)) \beta'(u)
+}
+{ =} { \alpha'( \beta(u)) { \frac{  1 }{  \ell'( \beta(u))  } }
+}
+{ =} { \alpha'( \beta(u)) { \frac{  1 }{  \Vert { \alpha'( \beta (u)) } \Vert  } }
+}
+}
+{}
+{}{,}
+was bedeutet, dass $\gamma$ bogenparametrisiert ist. Den Übergang von $\alpha$ zu  $\gamma$ nennt man Bogenparametrisierung, dabei wird die Bildkurve nicht geändert, nur die Geschwindigkeit, mit der sie durchlaufen wird. Es liegt das kommutative Diagramm
+
+\mathdisp {\begin{matrix}I  & \stackrel{ \alpha }{\longrightarrow} & \R^n   & \\ \beta \uparrow & \nearrow \gamma \!\!\! \!\! & \\ J  & & & & \!\!\!\!\! \!\!\!  \\ \end{matrix}} {  }
+
+vor.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Ebene differenzierbare Kurve/Krümmung/Beschreibung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+\maabb {\alpha} { I } {\R^2
+} {}
+eine zweimal
+\definitionsverweis {stetig differenzierbare Kurve}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha'(t)
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ N(t)
+}
+{ \defeq} { { \frac{   \begin{pmatrix}  -\alpha_2'(t) \\ \alpha_1'(t)   \end{pmatrix}  }{  \Vert {\alpha'(t) } \Vert  } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktfolgerung {Dann ist die
+\definitionsverweis {Krümmung}{}{}
+der zugehörigen bogenparametrisierten Kurve gleich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \kappa(t)
+}
+{ =} { { \frac{   \left\langle  \alpha^{\prime \prime}(t) ,  N(t)   \right\rangle  }{  \Vert {\alpha'(t) } \Vert^2  } }
+}
+{ =} { { \frac{   \alpha_1'(t) \alpha_2^{\prime\prime} (t) - \alpha_2' (t) \alpha_1^{\prime \prime} (t)  }{  \left(  \alpha_1'(t)^2 + \alpha_2'(t)^2  \right)^{3/2}  } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Wegen
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ { \frac{   \left\langle  \alpha^{\prime \prime}(t) ,  N(t)   \right\rangle  }{  \Vert {\alpha'(t) } \Vert^2  } }
+}
+{ =} { { \frac{   \left\langle  \alpha^{\prime \prime}(t)  ,  { \frac{   1  }{  \Vert {\alpha'(t) } \Vert  } } \begin{pmatrix}  -\alpha_2'(t) \\ \alpha_1'(t)   \end{pmatrix}    \right\rangle  }{  \Vert {\alpha'(t) } \Vert^2  } }
+}
+{ =} { { \frac{   \left\langle  \begin{pmatrix} \alpha_1^{\prime \prime}(t)   \\\alpha_2^{\prime \prime}(t)    \end{pmatrix}  ,  \begin{pmatrix}  -\alpha_2'(t) \\ \alpha_1'(t)   \end{pmatrix}    \right\rangle  }{  \Vert {\alpha'(t) } \Vert \cdot  \Vert {\alpha'(t) } \Vert^2  } }
+}
+{ =} { { \frac{   \alpha_1'(t) \alpha_2^{\prime\prime} (t) - \alpha_2' (t) \alpha_1^{\prime \prime} (t)  }{  \left(  \alpha_1'(t)^2 + \alpha_2'(t)^2  \right)^{3/2}  } }
+}
+{ } {}
+}
+{}
+{}{}
+stimmen die beiden Terme überein. Es sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \alpha(t)
+}
+{ =} { \gamma( \beta(t))
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit einer Umparametrisierung $\beta$ und der bogenparametrisierten Kurve $\gamma$. Dann ist
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ { \frac{   \alpha_1'(t) \alpha_2^{\prime\prime} (t) - \alpha_2' (t) \alpha_1^{\prime \prime} (t)  }{  \left(  \alpha_1'(t)^2 + \alpha_2'(t)^2  \right)^{3/2}  } }
+}
+{ =} { { \frac{   \gamma_1'( \beta(t)) \beta'(t) \left(  \gamma_2^{\prime\prime} ( \beta(t)) \beta'(t)^2 + \gamma_2'(\beta(t)) \beta^{\prime \prime} (t)  \right) - \gamma_2'( \beta(t)) \beta'(t) \left(  \gamma_1^{\prime\prime} ( \beta(t)) \beta'(t)^2 + \gamma_1'(\beta(t)) \beta^{\prime \prime} (t)  \right)  }{  \left(  \gamma_1'( \beta(t))^2 \beta'(t)^2 + \gamma_2'( \beta(t))^2 \beta'(t)^2  \right)^{3/2}  } }
+}
+{ =} { { \frac{   \gamma_1'( \beta(t)) \left(  \gamma_2^{\prime\prime} ( \beta(t)) \beta'(t)^2 + \gamma_2'(\beta(t)) \beta^{\prime \prime} (t)  \right) - \gamma_2'( \beta(t))  \left(  \gamma_1^{\prime\prime} ( \beta(t)) \beta'(t)^2 + \gamma_1'(\beta(t)) \beta^{\prime \prime} (t)  \right)  }{  \beta'(t)^2        \left(  \gamma_1'( \beta(t))^2  + \gamma_2'( \beta(t))^2   \right)^{3/2}  } }
+}
+{ =} { { \frac{   \gamma_1'( \beta(t)) \gamma_2^{\prime\prime} ( \beta(t)) \beta'(t)^2 - \gamma_2'( \beta(t))  \gamma_1^{\prime\prime} ( \beta(t)) \beta'(t)^2  }{  \beta'(t)^2   } }
+}
+{ =} { \gamma_1'( \beta(t)) \gamma_2^{\prime\prime} ( \beta(t)) - \gamma_2'( \beta(t))  \gamma_1^{\prime\prime} ( \beta(t))
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \kappa (\beta(t))
+}
+{ } {}
+{ } {}
+{ } {}
+}{}{.}
+
+}
+
+Im Fall einer implizit gegebenen Kurve
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+schreiben wir auch $\kappa(P)$ statt  $\kappa(t)$, wenn eine Bogenparametrisierung der Kurve mit
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(t)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+vorliegt.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Ebene differenzierbare Kurve/Faser/Krümmung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei
+\maabbdisp {N} { U } {\R^2
+} {}
+ein auf einer offenen Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definiertes
+\definitionsverweis {Einheitsnormalenfeld}{}{}
+zu $Y$ und sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Dann ist für jeden tangentialen Vektor
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  D N   \right)_{ P } \left(  v  \right)
+}
+{ =} { - \kappa(P) v
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei $\kappa(P)$ die
+\definitionsverweis {Krümmung}{}{}
+einer Bogenparametrisierung von $Y$ ist, die mit der durch $v, N(P)$ gegebenen Orientierung übereinstimmt.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Es sei
+\maabb {\gamma} { I } { \R^2
+} {}
+eine Bogenparametrisierung der Kurve $Y$ in einer Umgebung von $P$  mit
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma (0)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+die mit der gegebenen Orientierung übereinstimmt. Das totale Differential
+\maabbdisp {\left(D N \right)_{ P }} { \R^2} {\R^2
+} {}
+ist linear, daher genügt es, die Aussage für den Vektor $\gamma'(0)$ zu zeigen. Nach
+der [[Totale Differenzierbarkeit/K/Kettenregel/Fakt|Kettenregel]]
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  D N   \right)_{ P } \left(   \gamma'(0)  \right)
+}
+{ =} { (N \circ \gamma )'(0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dieser Vektor ist ein Vielfaches von $\gamma'(0)$ und daher ist dies gleich
+
+\mathdisp {\left\langle  (N \circ  \gamma)'(0) ,  \gamma' (0)   \right\rangle  \gamma'(0)} { . }
+
+Wegen der Orthogonalitätsbedingung ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  (N \circ  \gamma)(t) ,  \gamma' (t)   \right\rangle
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und daher
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  (N \circ  \gamma)'(t) ,  \gamma' (t)   \right\rangle + \left\langle  (N \circ  \gamma)(t) ,  \gamma^{\prime \prime} (t)   \right\rangle
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Also ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  D N   \right)_{ P } \left(   \gamma'(0)  \right)
+}
+{ =} { - \left\langle  (N \circ  \gamma)(0) ,  \gamma^{\prime \prime} (0)   \right\rangle  \gamma'(0)
+}
+{ =} { - \kappa( \gamma(0)) \gamma'(0)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+nach
+[[Ebene reguläre Kurve/Krümmung/Skalarprodukt/Fakt|Lemma 3.8]].
+
+}
+
+ [[Kategorie:Latexseite]]

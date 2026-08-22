@@ -1,0 +1,388 @@
+{
+  "exercise_count": 21,
+  "exercises": [
+    {
+      "exercise_index": 1,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Bogenparametrisierte ebene Kurve/Krümmung/Richtungswechsel/Aufgabe/Lösung",
+      "task_title": "Bogenparametrisierte ebene Kurve/Krümmung/Richtungswechsel/Aufgabe"
+    },
+    {
+      "exercise_index": 2,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Bogenparametrisierte ebene Kurve/Krümmung/Drehung/Aufgabe/Lösung",
+      "task_title": "Bogenparametrisierte ebene Kurve/Krümmung/Drehung/Aufgabe"
+    },
+    {
+      "exercise_index": 3,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Bogenparametrisierte Kurve/Ebene/Krümmungskreis/Durchlauf/Negative Orientierung/Aufgabe/Lösung",
+      "task_title": "Bogenparametrisierte Kurve/Ebene/Krümmungskreis/Durchlauf/Negative Orientierung/Aufgabe"
+    },
+    {
+      "exercise_index": 4,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Bogenparametrisierte eben Kurve/Krümmung/Streckung/Aufgabe/Lösung",
+      "task_title": "Bogenparametrisierte eben Kurve/Krümmung/Streckung/Aufgabe"
+    },
+    {
+      "exercise_index": 5,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Einheitskreis/Konstante Geschwindigkeit/Kreis mit gleicher nullten und ersten Ableitung/Aufgabe/Lösung",
+      "task_title": "Einheitskreis/Konstante Geschwindigkeit/Kreis mit gleicher nullten und ersten Ableitung/Aufgabe"
+    },
+    {
+      "exercise_index": 6,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Einheitskreis/Konstante Geschwindigkeit/Kreis mit gleicher nullten und zweiten Ableitung/Aufgabe/Lösung",
+      "task_title": "Einheitskreis/Konstante Geschwindigkeit/Kreis mit gleicher nullten und zweiten Ableitung/Aufgabe"
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 2713,
+        "path": "authority/mediawiki/worksheet03_exercise07_solution_revid1095913.utf8.b64",
+        "sha256": "9399aa79a602a1411fb21ec2199c19c0a8a0c32fdb92117b3e4d35142ca31be3"
+      },
+      "exercise_index": 7,
+      "exists": true,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 3175,
+        "http_date": "Sat, 22 Aug 2026 05:08:04 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Einheitskreis/Konstante Geschwindigkeit/Kreis mit gleicher bis zweiten Ableitung/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 734,
+          "path": "authority/exports/worksheet03_exercise07_solution_latex_expand.json.request.json",
+          "sha256": "937e011979fd13307a84e42098d1523365b10d1676f5e5d0a24e4a1570f430e2"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 3499,
+          "path": "authority/exports/worksheet03_exercise07_solution_latex_expand.json",
+          "sha256": "de2058af0cb8f57645df2648022bd47ed9ccc75264f053d3934ecbfaf01e8d5a"
+        },
+        "retrieved_utc": "2026-08-22T05:08:04Z",
+        "sanitized_source": {
+          "bytes": 2514,
+          "path": "authority/expanded/worksheet03_exercise07_solution_source.de.tex",
+          "sha256": "7e3437274bf4f79b6a3fa719876b09fdbcee4e10523a215e9e6f4ecb566cdb85"
+        },
+        "sanitizer": {
+          "bytes": 3113,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+        },
+        "sanitizer_receipt": {
+          "bytes": 713,
+          "path": "qa/unit-03/worksheet03_exercise07_solution_sanitize.json",
+          "sha256": "30343f752d0a1583e009ed9836533296d25938d18dac80c6dd5d4d1ef25890e6"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "ee0890911c7466d14a3461fcf3ec8150a2f42551",
+      "metadata": {
+        "bytes": 1276,
+        "path": "authority/mediawiki/worksheet03_exercise07_solution_revid1095913.metadata.json",
+        "sha256": "e919c120e9ef97094a1b86aec01c4daf855c26a6a6384b7e4fa7d5ecf2da4854"
+      },
+      "pageid": 151168,
+      "parentid": 1094254,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 2034,
+        "path": "authority/mediawiki/worksheet03_exercise07_solution_revid1095913.wiki",
+        "sha256": "44245c94761b141557cef39d6a6c5545ed4c4c5ed68c5224dd4319946e73b0e3"
+      },
+      "revid": 1095913,
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Einheitskreis/Konstante Geschwindigkeit/Kreis mit gleicher bis zweiten Ableitung/Aufgabe/Lösung",
+      "source_utf8_bytes": 2033,
+      "source_utf8_sha256": "c771b7c1ed173ddc05c8c4219c3c34e7e8099fe42079740b292d991b2ce3fb25",
+      "task_title": "Einheitskreis/Konstante Geschwindigkeit/Kreis mit gleicher bis zweiten Ableitung/Aufgabe",
+      "timestamp": "2026-06-15T07:25:24Z"
+    },
+    {
+      "exercise_index": 8,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Ebene Kurve/Faser/Geodätische Kurve/Aufgabe/Lösung",
+      "task_title": "Ebene Kurve/Faser/Geodätische Kurve/Aufgabe"
+    },
+    {
+      "exercise_index": 9,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Klothoide/Krümmung/Aufgabe/Lösung",
+      "task_title": "Klothoide/Krümmung/Aufgabe"
+    },
+    {
+      "exercise_index": 10,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Funktionsgraph/Kurve/Krümmung/Aufgabe/Lösung",
+      "task_title": "Funktionsgraph/Kurve/Krümmung/Aufgabe"
+    },
+    {
+      "exercise_index": 11,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Kreisbewegung/Krümmung/Berechnung/Aufgabe/Lösung",
+      "task_title": "Kreisbewegung/Krümmung/Berechnung/Aufgabe"
+    },
+    {
+      "exercise_index": 12,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Sinus/Graph/Krümmung/Aufgabe/Lösung",
+      "task_title": "Sinus/Graph/Krümmung/Aufgabe"
+    },
+    {
+      "exercise_index": 13,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Logarithmische Spirale/Krümmung/Aufgabe/Lösung",
+      "task_title": "Logarithmische Spirale/Krümmung/Aufgabe"
+    },
+    {
+      "exercise_index": 14,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Ebene Kurve/Analytische Krümmung/Analytische Kurve/Aufgabe/Lösung",
+      "task_title": "Ebene Kurve/Analytische Krümmung/Analytische Kurve/Aufgabe"
+    },
+    {
+      "exercise_index": 15,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Parabel/Evolute/Aufgabe/Lösung",
+      "task_title": "Parabel/Evolute/Aufgabe"
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 2457,
+        "path": "authority/mediawiki/worksheet03_exercise16_solution_revid1095920.utf8.b64",
+        "sha256": "24e9740affaf02db71434e6690d2fa35fb840e6fc2959aba3439c979fd476832"
+      },
+      "exercise_index": 16,
+      "exists": true,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 2111,
+        "http_date": "Sat, 22 Aug 2026 05:08:04 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Impliziter Einheitskreis/Krümmung/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 688,
+          "path": "authority/exports/worksheet03_exercise16_solution_latex_expand.json.request.json",
+          "sha256": "b922eaabe61f6dc0f602d8d8b037046fde2677dfcde8de1d669bfd9163d45b7d"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 2360,
+          "path": "authority/exports/worksheet03_exercise16_solution_latex_expand.json",
+          "sha256": "1521c08d66480710db57309ff684eafdfdffc5da53aa3c0f45636390495bbea6"
+        },
+        "retrieved_utc": "2026-08-22T05:08:04Z",
+        "sanitized_source": {
+          "bytes": 1882,
+          "path": "authority/expanded/worksheet03_exercise16_solution_source.de.tex",
+          "sha256": "ed49f1889840b8352f634ef01400301849f8303ec27a2a38b334b744ae5e5951"
+        },
+        "sanitizer": {
+          "bytes": 3113,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+        },
+        "sanitizer_receipt": {
+          "bytes": 713,
+          "path": "qa/unit-03/worksheet03_exercise16_solution_sanitize.json",
+          "sha256": "99ddc140331c1f0296840ad298a29afd3bc9541456b497e411c5f03d791b5643"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "5321dc2f96f1260311582eaa8918a0c4c91c5547",
+      "metadata": {
+        "bytes": 1230,
+        "path": "authority/mediawiki/worksheet03_exercise16_solution_revid1095920.metadata.json",
+        "sha256": "ea669dbb332fd5b17d29d7d60eff6a64fc3faa8d626af9f9442ea7fd231d7df9"
+      },
+      "pageid": 151178,
+      "parentid": 1094289,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 1842,
+        "path": "authority/mediawiki/worksheet03_exercise16_solution_revid1095920.wiki",
+        "sha256": "6212d468239ec69d4964e18ea2a3be1aa6a10232d9eff64dc48958dc45aba8b2"
+      },
+      "revid": 1095920,
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Impliziter Einheitskreis/Krümmung/Aufgabe/Lösung",
+      "source_utf8_bytes": 1841,
+      "source_utf8_sha256": "237b3b08df28c060d3c5c2fb6efdf22ea7ae5df6c1fbfad68d64380fe7b4f852",
+      "task_title": "Impliziter Einheitskreis/Krümmung/Aufgabe",
+      "timestamp": "2026-06-15T07:26:34Z"
+    },
+    {
+      "exercise_index": 17,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 2,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Exponentialfunktion/Graph/Krümmung/Aufgabe/Lösung",
+      "task_title": "Exponentialfunktion/Graph/Krümmung/Aufgabe"
+    },
+    {
+      "exercise_index": 18,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 2,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Archimedische Spirale/Krümmung/Aufgabe/Lösung",
+      "task_title": "Archimedische Spirale/Krümmung/Aufgabe"
+    },
+    {
+      "exercise_index": 19,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 4,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Ebene Kurve/Nicht injektiv/Krümmungskreise/Aufgabe/Lösung",
+      "task_title": "Ebene Kurve/Nicht injektiv/Krümmungskreise/Aufgabe"
+    },
+    {
+      "exercise_index": 20,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 4,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Ellipse/Evolute/Aufgabe/Lösung",
+      "task_title": "Ellipse/Evolute/Aufgabe"
+    },
+    {
+      "exercise_index": 21,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 4,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Implizite Kurve/Fermat-Quartik/Krümmung/Aufgabe/Lösung",
+      "task_title": "Implizite Kurve/Fermat-Quartik/Krümmung/Aufgabe"
+    }
+  ],
+  "graded_exercise_count": 5,
+  "macro_api_agreement": true,
+  "missing_solution_count": 19,
+  "point_value_total": 16,
+  "practice_exercise_count": 16,
+  "query": {
+    "bytes": 6618,
+    "path": "authority/mediawiki/unit03_solution_pages_current.json",
+    "sha256": "c05861806b5e697fc675e3fd6cbd385d2b56c65357f7bab97df7edf1303d60e1"
+  },
+  "query_request_receipt": {
+    "bytes": 1906,
+    "path": "authority/mediawiki/unit03_solution_pages_current.json.request.json",
+    "sha256": "7d5bc7d24d9aab106e18d5b9c7d7518980fd188407a5fc158bb607a865503dd7"
+  },
+  "query_retrieved_utc": "2026-08-22T05:08:04Z",
+  "schema_version": 1,
+  "supplied_solution_count": 2,
+  "supplied_solution_indices": [
+    7,
+    16
+  ],
+  "workflow": "o011-unit03-solution-freeze-v1",
+  "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 3"
+}

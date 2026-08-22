@@ -1,0 +1,878 @@
+{
+  "authority": {
+    "course_recursive_export": {
+      "bytes": 3538709,
+      "path": "authority/mediawiki/brenner_course_recursive_current.xml",
+      "sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14"
+    },
+    "latex_surface_recursive_export": {
+      "bytes": 3722387,
+      "path": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+      "sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c"
+    },
+    "pages": {
+      "lecture_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture03_latex_surface_revid807136.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1199,
+          "path": "authority/mediawiki/lecture03_latex_surface_revid807136.metadata.json",
+          "sha256": "15d6b2103deee7d79faa01bc7a92dd5b424242fa906acc1c9de0cbd96bed6ef9"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142577,
+        "parentid": 799045,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/lecture03_latex_surface_revid807136.wiki",
+        "revid": 807136,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T10:02:10Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 3/latex"
+      },
+      "lecture_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "54ee0452c8a20127c2362b38b0c04553b37edf34cfaaad7dd7776457bba4e7cf",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture03_root_revid1020016.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "95su7ztt9yhitryq6okb4o7nb832en7",
+        "metadata": {
+          "bytes": 1174,
+          "path": "authority/mediawiki/lecture03_root_revid1020016.metadata.json",
+          "sha256": "d21f8559b8c9f60a90eb75eadf66965a97ea4bc7c22175a9a49b15085cb5747d"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142547,
+        "parentid": 991591,
+        "readable_normalized_bytes": 3346,
+        "readable_normalized_sha256": "dce4f26ed84ca4766367ba3e37ceb78f6e8766800544718fb0d344c91e7a0f5f",
+        "readable_normalized_witness": "authority/mediawiki/lecture03_root_revid1020016.wiki",
+        "revid": 1020016,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 3345,
+        "source_utf8_sha1": "4e6d4c066fc72618e7d8a366261ff532b17829a3",
+        "source_utf8_sha256": "143f7e970b17c058c910fe1228221d828970baf645b0674b0ba1ee80175839c4",
+        "timestamp": "2025-08-09T13:42:46Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 3"
+      },
+      "worksheet_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet03_latex_surface_revid807105.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1206,
+          "path": "authority/mediawiki/worksheet03_latex_surface_revid807105.metadata.json",
+          "sha256": "41712174fbbdad83ae9f137c237c960a86a167355185f98afb89f7dc44f3979b"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142667,
+        "parentid": 799014,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/worksheet03_latex_surface_revid807105.wiki",
+        "revid": 807105,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T09:57:00Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 3/latex"
+      },
+      "worksheet_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "774a555dee2588d65343661a1364fbb39dc0e2947db7bf3e6f4ae436a56dbd61",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet03_root_revid894109.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "kxus1srbcyk9huvn4zzed9l56l2awc6",
+        "metadata": {
+          "bytes": 1178,
+          "path": "authority/mediawiki/worksheet03_root_revid894109.metadata.json",
+          "sha256": "16f13f1595a0ff270e46ba719da804a3b21a864a3a7851dc15e5ed8129a29583"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142637,
+        "parentid": 894079,
+        "readable_normalized_bytes": 2402,
+        "readable_normalized_sha256": "ad95252ed6b76400c606ed7288e1376bcc80fed66b19fc6466b208f9631eec54",
+        "readable_normalized_witness": "authority/mediawiki/worksheet03_root_revid894109.wiki",
+        "revid": 894109,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 2401,
+        "source_utf8_sha1": "b3446b57a48683cd3853d3e63b7b70a093a51836",
+        "source_utf8_sha256": "5c979b6ee53675da63e95506fcb08d7dbd74479922ef80b69f76a8350199d93a",
+        "timestamp": "2023-04-19T14:26:37Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 3"
+      }
+    },
+    "root_revision_manifest": {
+      "bytes": 15237,
+      "path": "authority/brenner_selected_root_revisions.csv",
+      "sha256": "64cf91594907db45355e64fb512fb14092e15218c74847a8f60fe884a5284fc8"
+    },
+    "surface_revision_manifest": {
+      "bytes": 31799,
+      "path": "authority/brenner_selected_surface_revisions.csv",
+      "sha256": "9a3a6b7dc08cc022803dad24e959365d67810d4da87a8bc4385c601db9d4bd52"
+    }
+  },
+  "checks": {
+    "all_candidate_solution_titles_queried": true,
+    "all_displayed_images_have_license_macros": true,
+    "all_point_markers_resolved": true,
+    "all_supplied_solution_latex_snapshots_frozen": true,
+    "all_supplied_solution_revisions_frozen": true,
+    "exercise_root_expansion_count_agreement": true,
+    "lecture_expansion_sanitized": true,
+    "revision_export_hashes_match": true,
+    "root_revision_bindings_unique": true,
+    "root_witnesses_match_mediawiki_sha1": true,
+    "solution_macro_api_agreement": true,
+    "surface_revision_bindings_unique": true,
+    "translation_started_by_workflow": false,
+    "unit_media_binary_and_rights_closure": true,
+    "worksheet_expansion_sanitized": true
+  },
+  "expansions": {
+    "lecture": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 32893,
+      "http_date": "Sat, 22 Aug 2026 05:08:02 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 3/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 673,
+        "path": "authority/exports/lecture03_latex_expand.json.request.json",
+        "sha256": "8044e39d7f3504f7a1e9d0a1e49c80ff38ffb3f35bd5ef52af8338392022f88d"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 35350,
+        "path": "authority/exports/lecture03_latex_expand.json",
+        "sha256": "e544dee50436547ab64b0cfca655eb8247f7e45cf6e0000cabb5850584b3d203"
+      },
+      "retrieved_utc": "2026-08-22T05:08:03Z",
+      "sanitized_source": {
+        "bytes": 28482,
+        "path": "authority/expanded/lecture03_source.de.tex",
+        "sha256": "c6fa222d45a2abaaa121fabbf68a76ab478d9ede7dd14f370d8e58d40887c25a"
+      },
+      "sanitizer": {
+        "bytes": 3113,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+      },
+      "sanitizer_receipt": {
+        "bytes": 672,
+        "path": "qa/unit-03/lecture03_sanitize.json",
+        "sha256": "0ac55489e6c17145f0c913622ebe596557f8fc3c73393dae99a9890c5f3a7a0f"
+      },
+      "valid_utf8": true
+    },
+    "worksheet": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 12908,
+      "http_date": "Sat, 22 Aug 2026 05:08:03 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 3/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 678,
+        "path": "authority/exports/worksheet03_latex_expand.json.request.json",
+        "sha256": "41f87793f4a9c21f77b4ad9878d45b93d880f94de9099c8ca6685d4fc9733224"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 13951,
+        "path": "authority/exports/worksheet03_latex_expand.json",
+        "sha256": "c532cd6994c01c19b47c856eb7ccb9da57c1f3786e89003c4749cb7269c56773"
+      },
+      "retrieved_utc": "2026-08-22T05:08:03Z",
+      "sanitized_source": {
+        "bytes": 9997,
+        "path": "authority/expanded/worksheet03_source.de.tex",
+        "sha256": "8dded699ee9337ebdc4cb76a9373fb8e2f6a5df94c6048c3deaaaeaccb88bac7"
+      },
+      "sanitizer": {
+        "bytes": 3113,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+      },
+      "sanitizer_receipt": {
+        "bytes": 675,
+        "path": "qa/unit-03/worksheet03_sanitize.json",
+        "sha256": "d647f066cbd4140b676222498cb00f88fec63205ee58bb7c9fd9ba0d0ea7c2c0"
+      },
+      "valid_utf8": true
+    }
+  },
+  "media": {
+    "all_displayed_images_have_license_macros": true,
+    "assets": [
+      {
+        "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:IkamusumeFan\" title=\"User:IkamusumeFan\">IkamusumeFan</a>",
+        "artist_text": "IkamusumeFan",
+        "attribution_required": true,
+        "binary": {
+          "bytes": 19469,
+          "path": "authority/media/Parabola circle.svg",
+          "sha256": "186a981781924575a5e517d83d8ab5bfb829125d0a86edc664a41a589bcfca83"
+        },
+        "bytes": 19469,
+        "commons_lastrevid": 914329032,
+        "commons_pageid": 37254596,
+        "commons_sha1": "44184d0a73a11fda2689cedbd994280ab39ed2fd",
+        "commons_touched": "2026-08-14T14:30:46Z",
+        "copyrighted_status": "True",
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "credit_text": "Own work",
+        "current_matches_frozen_rights_manifest": {
+          "artist_html": true,
+          "attribution_required": true,
+          "bytes": true,
+          "copyrighted": true,
+          "credit_html": false,
+          "license": true,
+          "license_url": true,
+          "mime": true,
+          "sha1": true
+        },
+        "description_url": "https://commons.wikimedia.org/wiki/File:Parabola_circle.svg",
+        "download_receipt": {
+          "bytes": 19469,
+          "content_type": "image/svg+xml",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Parabola_circle.svg",
+          "http_date": "Sat, 22 Aug 2026 05:08:41 GMT",
+          "retrieved_utc": "2026-08-22T05:08:41Z",
+          "schema_version": 1,
+          "sha1": "44184d0a73a11fda2689cedbd994280ab39ed2fd",
+          "sha256": "186a981781924575a5e517d83d8ab5bfb829125d0a86edc664a41a589bcfca83",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Parabola_circle.svg"
+        },
+        "filename": "Parabola circle.svg",
+        "frozen_credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+        "frozen_credit_text": "Eigenes Werk",
+        "height": 240,
+        "image_timestamp": "2019-12-29T23:07:37Z",
+        "image_user": "Mikhail Ryazanov",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "localized_credit_variance": true,
+        "mime": "image/svg+xml",
+        "occurrences": [
+          {
+            "filename": "Parabola circle.svg",
+            "surface": "lecture03",
+            "surface_order": 1
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Parabola_circle.svg",
+        "rights_critical_fields_match": true,
+        "sha256": "186a981781924575a5e517d83d8ab5bfb829125d0a86edc664a41a589bcfca83",
+        "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+        "width": 440
+      },
+      {
+        "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:AdiJapan\" title=\"User:AdiJapan\">AdiJapan</a>",
+        "artist_text": "AdiJapan",
+        "attribution_required": true,
+        "binary": {
+          "bytes": 31848,
+          "path": "authority/media/Euler spiral.svg",
+          "sha256": "886d55edfa0fa21ac992ede928cfec4f816742a16b29709ea093113b29e410b9"
+        },
+        "bytes": 31848,
+        "commons_lastrevid": 1179090202,
+        "commons_pageid": 22191870,
+        "commons_sha1": "df9e31d9c0a85a3801468b040b7f063e5cbc2498",
+        "commons_touched": "2026-07-18T00:54:14Z",
+        "copyrighted_status": "True",
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "credit_text": "Own work",
+        "current_matches_frozen_rights_manifest": {
+          "artist_html": true,
+          "attribution_required": true,
+          "bytes": true,
+          "copyrighted": true,
+          "credit_html": false,
+          "license": true,
+          "license_url": true,
+          "mime": true,
+          "sha1": true
+        },
+        "description_url": "https://commons.wikimedia.org/wiki/File:Euler_spiral.svg",
+        "download_receipt": {
+          "bytes": 31848,
+          "content_type": "image/svg+xml",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Euler_spiral.svg",
+          "http_date": "Fri, 21 Aug 2026 08:42:25 GMT",
+          "retrieved_utc": "2026-08-22T05:08:41Z",
+          "schema_version": 1,
+          "sha1": "df9e31d9c0a85a3801468b040b7f063e5cbc2498",
+          "sha256": "886d55edfa0fa21ac992ede928cfec4f816742a16b29709ea093113b29e410b9",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Euler_spiral.svg"
+        },
+        "filename": "Euler spiral.svg",
+        "frozen_credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+        "frozen_credit_text": "Eigenes Werk",
+        "height": 800,
+        "image_timestamp": "2025-12-04T03:42:16Z",
+        "image_user": "Mikhail Ryazanov",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "localized_credit_variance": true,
+        "mime": "image/svg+xml",
+        "occurrences": [
+          {
+            "filename": "Euler spiral.svg",
+            "surface": "worksheet03",
+            "surface_order": 1
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Euler_spiral.svg",
+        "rights_critical_fields_match": true,
+        "sha256": "886d55edfa0fa21ac992ede928cfec4f816742a16b29709ea093113b29e410b9",
+        "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+        "width": 800
+      },
+      {
+        "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Ag2gaeh\" title=\"User:Ag2gaeh\">Ag2gaeh</a>",
+        "artist_text": "Ag2gaeh",
+        "attribution_required": true,
+        "binary": {
+          "bytes": 44890,
+          "path": "authority/media/Evolute-parab.svg",
+          "sha256": "851a909594c64be31477e391ea9b45e890305ea62e32e29a1d04bc66cf497db1"
+        },
+        "bytes": 44890,
+        "commons_lastrevid": 1236742212,
+        "commons_pageid": 66636774,
+        "commons_sha1": "693262a111127462aff1d67de6d5f02e24240850",
+        "commons_touched": "2026-06-23T06:27:23Z",
+        "copyrighted_status": "True",
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "credit_text": "Own work",
+        "current_matches_frozen_rights_manifest": {
+          "artist_html": true,
+          "attribution_required": true,
+          "bytes": true,
+          "copyrighted": true,
+          "credit_html": false,
+          "license": true,
+          "license_url": true,
+          "mime": true,
+          "sha1": true
+        },
+        "description_url": "https://commons.wikimedia.org/wiki/File:Evolute-parab.svg",
+        "download_receipt": {
+          "bytes": 44890,
+          "content_type": "image/svg+xml",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Evolute-parab.svg",
+          "http_date": "Sat, 22 Aug 2026 05:09:11 GMT",
+          "retrieved_utc": "2026-08-22T05:09:11Z",
+          "schema_version": 1,
+          "sha1": "693262a111127462aff1d67de6d5f02e24240850",
+          "sha256": "851a909594c64be31477e391ea9b45e890305ea62e32e29a1d04bc66cf497db1",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Evolute-parab.svg"
+        },
+        "filename": "Evolute-parab.svg",
+        "frozen_credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+        "frozen_credit_text": "Eigenes Werk",
+        "height": 247,
+        "image_timestamp": "2018-02-21T16:59:13Z",
+        "image_user": "Ag2gaeh",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+        "localized_credit_variance": true,
+        "mime": "image/svg+xml",
+        "occurrences": [
+          {
+            "filename": "Evolute-parab.svg",
+            "surface": "worksheet03",
+            "surface_order": 2
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/68/Evolute-parab.svg",
+        "rights_critical_fields_match": true,
+        "sha256": "851a909594c64be31477e391ea9b45e890305ea62e32e29a1d04bc66cf497db1",
+        "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+        "width": 367
+      }
+    ],
+    "current_commons_api": "https://commons.wikimedia.org/w/api.php",
+    "current_commons_query": {
+      "bytes": 7930,
+      "path": "authority/mediawiki/unit03_media_imageinfo_current.json",
+      "sha256": "0ca15ad45401a73a259aa758b20a56f43779cefa19606da5842df961148850d3"
+    },
+    "current_commons_query_request_receipt": {
+      "bytes": 693,
+      "path": "authority/mediawiki/unit03_media_imageinfo_current.json.request.json",
+      "sha256": "e040a63485b1a3c24e2d3e95f1334fc3270070426d1b2dd840f7e5c5bfe2e035"
+    },
+    "occurrence_count": 3,
+    "query_retrieved_utc": "2026-08-22T05:08:04Z",
+    "rights_manifest": {
+      "bytes": 25588,
+      "path": "authority/brenner_media_rights_manifest.csv",
+      "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+    },
+    "surface_occurrences": [
+      {
+        "filename": "Parabola circle.svg",
+        "surface": "lecture03",
+        "surface_order": 1
+      },
+      {
+        "filename": "Euler spiral.svg",
+        "surface": "worksheet03",
+        "surface_order": 1
+      },
+      {
+        "filename": "Evolute-parab.svg",
+        "surface": "worksheet03",
+        "surface_order": 2
+      }
+    ],
+    "unique_asset_count": 3
+  },
+  "next_action": "Translate Lecture 3, Worksheet 3, and exactly the 2 supplied solutions in source order.",
+  "schema_version": 1,
+  "scope": "Brenner Differentialgeometrie Unit 3 authority preflight; no translation",
+  "solutions": {
+    "exercise_count": 21,
+    "exercises": [
+      {
+        "exercise_index": 1,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Bogenparametrisierte ebene Kurve/Krümmung/Richtungswechsel/Aufgabe/Lösung",
+        "task_title": "Bogenparametrisierte ebene Kurve/Krümmung/Richtungswechsel/Aufgabe"
+      },
+      {
+        "exercise_index": 2,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Bogenparametrisierte ebene Kurve/Krümmung/Drehung/Aufgabe/Lösung",
+        "task_title": "Bogenparametrisierte ebene Kurve/Krümmung/Drehung/Aufgabe"
+      },
+      {
+        "exercise_index": 3,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Bogenparametrisierte Kurve/Ebene/Krümmungskreis/Durchlauf/Negative Orientierung/Aufgabe/Lösung",
+        "task_title": "Bogenparametrisierte Kurve/Ebene/Krümmungskreis/Durchlauf/Negative Orientierung/Aufgabe"
+      },
+      {
+        "exercise_index": 4,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Bogenparametrisierte eben Kurve/Krümmung/Streckung/Aufgabe/Lösung",
+        "task_title": "Bogenparametrisierte eben Kurve/Krümmung/Streckung/Aufgabe"
+      },
+      {
+        "exercise_index": 5,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Einheitskreis/Konstante Geschwindigkeit/Kreis mit gleicher nullten und ersten Ableitung/Aufgabe/Lösung",
+        "task_title": "Einheitskreis/Konstante Geschwindigkeit/Kreis mit gleicher nullten und ersten Ableitung/Aufgabe"
+      },
+      {
+        "exercise_index": 6,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Einheitskreis/Konstante Geschwindigkeit/Kreis mit gleicher nullten und zweiten Ableitung/Aufgabe/Lösung",
+        "task_title": "Einheitskreis/Konstante Geschwindigkeit/Kreis mit gleicher nullten und zweiten Ableitung/Aufgabe"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 2713,
+          "path": "authority/mediawiki/worksheet03_exercise07_solution_revid1095913.utf8.b64",
+          "sha256": "9399aa79a602a1411fb21ec2199c19c0a8a0c32fdb92117b3e4d35142ca31be3"
+        },
+        "exercise_index": 7,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 3175,
+          "http_date": "Sat, 22 Aug 2026 05:08:04 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Einheitskreis/Konstante Geschwindigkeit/Kreis mit gleicher bis zweiten Ableitung/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 734,
+            "path": "authority/exports/worksheet03_exercise07_solution_latex_expand.json.request.json",
+            "sha256": "937e011979fd13307a84e42098d1523365b10d1676f5e5d0a24e4a1570f430e2"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 3499,
+            "path": "authority/exports/worksheet03_exercise07_solution_latex_expand.json",
+            "sha256": "de2058af0cb8f57645df2648022bd47ed9ccc75264f053d3934ecbfaf01e8d5a"
+          },
+          "retrieved_utc": "2026-08-22T05:08:04Z",
+          "sanitized_source": {
+            "bytes": 2514,
+            "path": "authority/expanded/worksheet03_exercise07_solution_source.de.tex",
+            "sha256": "7e3437274bf4f79b6a3fa719876b09fdbcee4e10523a215e9e6f4ecb566cdb85"
+          },
+          "sanitizer": {
+            "bytes": 3113,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-03/worksheet03_exercise07_solution_sanitize.json",
+            "sha256": "30343f752d0a1583e009ed9836533296d25938d18dac80c6dd5d4d1ef25890e6"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "ee0890911c7466d14a3461fcf3ec8150a2f42551",
+        "metadata": {
+          "bytes": 1276,
+          "path": "authority/mediawiki/worksheet03_exercise07_solution_revid1095913.metadata.json",
+          "sha256": "e919c120e9ef97094a1b86aec01c4daf855c26a6a6384b7e4fa7d5ecf2da4854"
+        },
+        "pageid": 151168,
+        "parentid": 1094254,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 2034,
+          "path": "authority/mediawiki/worksheet03_exercise07_solution_revid1095913.wiki",
+          "sha256": "44245c94761b141557cef39d6a6c5545ed4c4c5ed68c5224dd4319946e73b0e3"
+        },
+        "revid": 1095913,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Einheitskreis/Konstante Geschwindigkeit/Kreis mit gleicher bis zweiten Ableitung/Aufgabe/Lösung",
+        "source_utf8_bytes": 2033,
+        "source_utf8_sha256": "c771b7c1ed173ddc05c8c4219c3c34e7e8099fe42079740b292d991b2ce3fb25",
+        "task_title": "Einheitskreis/Konstante Geschwindigkeit/Kreis mit gleicher bis zweiten Ableitung/Aufgabe",
+        "timestamp": "2026-06-15T07:25:24Z"
+      },
+      {
+        "exercise_index": 8,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Ebene Kurve/Faser/Geodätische Kurve/Aufgabe/Lösung",
+        "task_title": "Ebene Kurve/Faser/Geodätische Kurve/Aufgabe"
+      },
+      {
+        "exercise_index": 9,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Klothoide/Krümmung/Aufgabe/Lösung",
+        "task_title": "Klothoide/Krümmung/Aufgabe"
+      },
+      {
+        "exercise_index": 10,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Funktionsgraph/Kurve/Krümmung/Aufgabe/Lösung",
+        "task_title": "Funktionsgraph/Kurve/Krümmung/Aufgabe"
+      },
+      {
+        "exercise_index": 11,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Kreisbewegung/Krümmung/Berechnung/Aufgabe/Lösung",
+        "task_title": "Kreisbewegung/Krümmung/Berechnung/Aufgabe"
+      },
+      {
+        "exercise_index": 12,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Sinus/Graph/Krümmung/Aufgabe/Lösung",
+        "task_title": "Sinus/Graph/Krümmung/Aufgabe"
+      },
+      {
+        "exercise_index": 13,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Logarithmische Spirale/Krümmung/Aufgabe/Lösung",
+        "task_title": "Logarithmische Spirale/Krümmung/Aufgabe"
+      },
+      {
+        "exercise_index": 14,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Ebene Kurve/Analytische Krümmung/Analytische Kurve/Aufgabe/Lösung",
+        "task_title": "Ebene Kurve/Analytische Krümmung/Analytische Kurve/Aufgabe"
+      },
+      {
+        "exercise_index": 15,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Parabel/Evolute/Aufgabe/Lösung",
+        "task_title": "Parabel/Evolute/Aufgabe"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 2457,
+          "path": "authority/mediawiki/worksheet03_exercise16_solution_revid1095920.utf8.b64",
+          "sha256": "24e9740affaf02db71434e6690d2fa35fb840e6fc2959aba3439c979fd476832"
+        },
+        "exercise_index": 16,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 2111,
+          "http_date": "Sat, 22 Aug 2026 05:08:04 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Impliziter Einheitskreis/Krümmung/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 688,
+            "path": "authority/exports/worksheet03_exercise16_solution_latex_expand.json.request.json",
+            "sha256": "b922eaabe61f6dc0f602d8d8b037046fde2677dfcde8de1d669bfd9163d45b7d"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 2360,
+            "path": "authority/exports/worksheet03_exercise16_solution_latex_expand.json",
+            "sha256": "1521c08d66480710db57309ff684eafdfdffc5da53aa3c0f45636390495bbea6"
+          },
+          "retrieved_utc": "2026-08-22T05:08:04Z",
+          "sanitized_source": {
+            "bytes": 1882,
+            "path": "authority/expanded/worksheet03_exercise16_solution_source.de.tex",
+            "sha256": "ed49f1889840b8352f634ef01400301849f8303ec27a2a38b334b744ae5e5951"
+          },
+          "sanitizer": {
+            "bytes": 3113,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-03/worksheet03_exercise16_solution_sanitize.json",
+            "sha256": "99ddc140331c1f0296840ad298a29afd3bc9541456b497e411c5f03d791b5643"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "5321dc2f96f1260311582eaa8918a0c4c91c5547",
+        "metadata": {
+          "bytes": 1230,
+          "path": "authority/mediawiki/worksheet03_exercise16_solution_revid1095920.metadata.json",
+          "sha256": "ea669dbb332fd5b17d29d7d60eff6a64fc3faa8d626af9f9442ea7fd231d7df9"
+        },
+        "pageid": 151178,
+        "parentid": 1094289,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 1842,
+          "path": "authority/mediawiki/worksheet03_exercise16_solution_revid1095920.wiki",
+          "sha256": "6212d468239ec69d4964e18ea2a3be1aa6a10232d9eff64dc48958dc45aba8b2"
+        },
+        "revid": 1095920,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Impliziter Einheitskreis/Krümmung/Aufgabe/Lösung",
+        "source_utf8_bytes": 1841,
+        "source_utf8_sha256": "237b3b08df28c060d3c5c2fb6efdf22ea7ae5df6c1fbfad68d64380fe7b4f852",
+        "task_title": "Impliziter Einheitskreis/Krümmung/Aufgabe",
+        "timestamp": "2026-06-15T07:26:34Z"
+      },
+      {
+        "exercise_index": 17,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 2,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Exponentialfunktion/Graph/Krümmung/Aufgabe/Lösung",
+        "task_title": "Exponentialfunktion/Graph/Krümmung/Aufgabe"
+      },
+      {
+        "exercise_index": 18,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 2,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Archimedische Spirale/Krümmung/Aufgabe/Lösung",
+        "task_title": "Archimedische Spirale/Krümmung/Aufgabe"
+      },
+      {
+        "exercise_index": 19,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Ebene Kurve/Nicht injektiv/Krümmungskreise/Aufgabe/Lösung",
+        "task_title": "Ebene Kurve/Nicht injektiv/Krümmungskreise/Aufgabe"
+      },
+      {
+        "exercise_index": 20,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Ellipse/Evolute/Aufgabe/Lösung",
+        "task_title": "Ellipse/Evolute/Aufgabe"
+      },
+      {
+        "exercise_index": 21,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Implizite Kurve/Fermat-Quartik/Krümmung/Aufgabe/Lösung",
+        "task_title": "Implizite Kurve/Fermat-Quartik/Krümmung/Aufgabe"
+      }
+    ],
+    "graded_exercise_count": 5,
+    "macro_api_agreement": true,
+    "missing_solution_count": 19,
+    "point_value_total": 16,
+    "practice_exercise_count": 16,
+    "query": {
+      "bytes": 6618,
+      "path": "authority/mediawiki/unit03_solution_pages_current.json",
+      "sha256": "c05861806b5e697fc675e3fd6cbd385d2b56c65357f7bab97df7edf1303d60e1"
+    },
+    "query_request_receipt": {
+      "bytes": 1906,
+      "path": "authority/mediawiki/unit03_solution_pages_current.json.request.json",
+      "sha256": "7d5bc7d24d9aab106e18d5b9c7d7518980fd188407a5fc158bb607a865503dd7"
+    },
+    "query_retrieved_utc": "2026-08-22T05:08:04Z",
+    "schema_version": 1,
+    "supplied_solution_count": 2,
+    "supplied_solution_indices": [
+      7,
+      16
+    ],
+    "workflow": "o011-unit03-solution-freeze-v1",
+    "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 3"
+  },
+  "status": "pass",
+  "structure": {
+    "all_hint_fields_blank": true,
+    "lecture_section_count": 2,
+    "worksheet_exercise_count": 21,
+    "worksheet_graded_count": 5,
+    "worksheet_point_total": 16,
+    "worksheet_practice_count": 16,
+    "worksheet_section_count": 2,
+    "worksheet_solution_bearing_indices": [
+      7,
+      16
+    ]
+  },
+  "unit": 3,
+  "workflow": "o011-unit03-authority-preflight-v1"
+}

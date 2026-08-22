@@ -69,3 +69,19 @@
 **Decision:** preserve the verified cumulative Unit 2 boundary as GitHub release `v0.2.0-unit-02` in the existing edition lineage.
 
 **Evidence:** the release is public, not a draft or prerelease; its tag points to commit `2a1a0fa75462e70278a2b9d4aaaf759bfc5788ee`. Anonymous download returned one PDF asset of 3,152,320 bytes with SHA-256 `6312b4df706d0f08eeb9f37da0abda3428b5448dce54781d0f52eb9c8db5c385`, exactly matching the verified local artifact. Anonymous tag-raw readback reproduced `README.md`, `UNIT_02_QA.md`, and the 202-row staged-blob release manifest; its PDF and QA rows match the public bytes. See `qa/unit-02/PUBLICATION_RECEIPT.md`.
+
+## D012 — Wrapper-owned centered reader geometry
+
+**Decision:** the portable cumulative reader owns an A4 page frame with centered 22 mm margins. The historical Brenner preamble's explicit `oddsidemargin`, `evensidemargin`, `textwidth`, `textheight`, `topmargin`, and `footskip` assignments are retained only as commented provenance and no longer override the wrapper geometry.
+
+**Reason:** those legacy assignments narrowed and offset the reader column after the wrapper had configured the page, producing the visibly under-filled, inconsistently centered pages reported by the user. Neutralizing only those page-frame assignments is additive: it changes no frozen authority, translation, formula, identifier, media, or rights surface. The final cumulative Unit 3 reader is 56 centered A4 pages; two clean build cycles are byte-identical, all build logs are free of layout warnings, and all pages pass fresh visual and structural inspection.
+
+## D013 — Unit 3 verified local boundary
+
+**Decision:** accept the cumulative Indonesian reader through Lecture 3 and Worksheet 3 as the third verified production boundary and advance the source cursor to Lecture 4 / Worksheet 4.
+
+**Evidence:** the exact 56-page centered A4 PDF is 3,596,282 bytes with SHA-256 `aee7f335c8d8110feb7b70448c70680a30700285131d5a1b4e4aeb2f2d04b46a`. All four Unit 3 translation surfaces pass manifest-aware topology checks; the independent post-repair mathematics audit has no remaining P1, P2, or P3 finding. Two clean three-pass build cycles are byte-identical and have no warning/error/layout-warning matches. All 56 pages pass visual inspection; the structural verifier passes A4, language, ToUnicode, extraction, bookmark, link, active-content, and privacy checks. The PDF remains honestly disclosed as untagged.
+
+**Closure:** Unit 3 contains 21 exercises, exactly two source-supplied solutions (7 and 16), and three component-licensed media files. Corrections `O011-CORR-0028` through `O011-CORR-0037` are explicit. The additive backend contains 591 schema-valid records; the 357-record Unit 1–2 prefix remains byte-identical and Unit 3 adds 234 records. Terminal receipt: `qa/unit-03/UNIT_03_QA.md`, SHA-256 `7781e297f7fb1688e271c8b7cc507d8efeac2d25b9ea8f84b046e3b68e3d9943`.
+
+**Boundary:** this completes one edition-production unit, not the 29-unit edition and not the separate curriculum-selection decision. The verified tree is authorized for preservation as `v0.3.0-unit-03`; anonymous public-byte evidence follows in the publication receipt.

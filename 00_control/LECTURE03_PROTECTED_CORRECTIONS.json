@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-03/lecture03.id.tex",
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0031+O011-CORR-0034",
+      "surface": "profile:commands",
+      "source_sha256": "5da047d91a79b6a8fa5ed8a2da66507ee3a13809417043b521ca97c54742106a",
+      "target_sha256": "273303acbce1123053fac64b54ad0a704e7af30408ab11024ff3c379e2161ee6"
+    },
+    {
+      "correction_id": "O011-CORR-0034",
+      "surface": "profile:protected:vergleichskette",
+      "source_sha256": "661e684ba747fc04fca1bde391c447bbadae8dd79522208c9946f3d71366763c",
+      "target_sha256": "47acd21b984f61a743eeb24fc71972a5ae2fbfb1c5f907e397e1d4b80922e241"
+    },
+    {
+      "correction_id": "O011-CORR-0031",
+      "surface": "profile:protected:maabbeledisp",
+      "source_sha256": "114fd777207589465a730fc363fa80fbe16985a89a67873a049e7fd92e92aa45",
+      "target_sha256": "d17d3d541d40d8f288eba6b3440e1dd5cc5273f2d3d309ddb3719b49bde5374e"
+    }
+  ]
+}

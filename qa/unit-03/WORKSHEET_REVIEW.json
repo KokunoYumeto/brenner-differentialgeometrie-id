@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-unit03-worksheet-translation-review-v2",
+  "unit": 3,
+  "scope": "worksheet and exactly the source-supplied solutions for exercises 7 and 16",
+  "authority_preflight": "qa/unit-03/AUTHORITY_PREFLIGHT.json",
+  "authority_preflight_status": "pass",
+  "structure": {
+    "exercise_count": 21,
+    "practice_exercise_count": 16,
+    "graded_exercise_count": 5,
+    "graded_point_values": [2, 2, 4, 4, 4],
+    "graded_point_total": 16,
+    "all_hint_fields_blank": true,
+    "supplied_solution_indices": [7, 16],
+    "exercise_macro_point_hint_signature_equal": true,
+    "internal_link_destinations_equal": true,
+    "media_license_calls_equal": true
+  },
+  "targets": [
+    {
+      "path": "source/units/unit-03/worksheet03.id.tex",
+      "bytes": 10129,
+      "sha256": "89b05cf8280045703c64e8a0d3540883196f6569f2c9e24f630a6b00ee703474",
+      "receipt": "qa/unit-03/worksheet03_translation.json",
+      "receipt_sha256": "bf1decadfc0aaa53428e46c3ec590514bf78466b24088e60c043cc9ba1d42765"
+    },
+    {
+      "path": "source/units/unit-03/worksheet03_exercise07_solution.id.tex",
+      "bytes": 2895,
+      "sha256": "e1ec57974437f39f778c9eadc26f3cd565cfe69e3f88980d644b2df93552bb36",
+      "receipt": "qa/unit-03/worksheet03_exercise07_solution_translation.json",
+      "receipt_sha256": "b0a310d469e4a421cfb70942a0df922447946b900470aeab481ee999dd748694"
+    },
+    {
+      "path": "source/units/unit-03/worksheet03_exercise16_solution.id.tex",
+      "bytes": 2166,
+      "sha256": "738506177ab79f47321e5e6e83b110bfae887161477abda8145dc7ff52c2ebf3",
+      "receipt": "qa/unit-03/worksheet03_exercise16_solution_translation.json",
+      "receipt_sha256": "1aa1c1feac878b9871bfc415e38015a0d929ebc7775b42cc1515fa3b568cfbad"
+    }
+  ],
+  "checks": {
+    "translation_receipts_pass": true,
+    "command_environment_math_and_protected_calls_preserved_or_declared": true,
+    "reader_german_residue_absent": true,
+    "valid_utf8_without_replacement_character": true,
+    "tested_mojibake_absent": true,
+    "personal_paths_and_task_ids_absent": true,
+    "complete_math_review": true,
+    "complete_prose_review": true,
+    "authority_defects_silently_changed": false,
+    "reader_layout_corrections_rendered_cleanly": true
+  },
+  "corrections": [
+    {
+      "id": "O011-CORR-0028",
+      "severity": "P2",
+      "surface": "worksheet03:exercise09-clothoid-scale",
+      "summary": "Corrected the stated curvature from t to sqrt(pi)*t while retaining the stated clothoid."
+    },
+    {
+      "id": "O011-CORR-0029",
+      "severity": "P2",
+      "surface": "worksheet03:exercise11-regularity",
+      "summary": "Restricted the requested curvature and curvature circle to points where f'(t) is nonzero."
+    },
+    {
+      "id": "O011-CORR-0036",
+      "severity": "P3",
+      "surface": "worksheet03:display-punctuation",
+      "summary": "Moved three full stops into their multiline equation punctuation arguments."
+    },
+    {
+      "id": "O011-CORR-0037",
+      "severity": "P3",
+      "surface": "worksheet03:exercise07-solution-punctuation",
+      "summary": "Moved one full stop into the supplied solution's multiline equation punctuation argument."
+    }
+  ],
+  "status": "pass_with_explicit_corrected_authority_findings"
+}
