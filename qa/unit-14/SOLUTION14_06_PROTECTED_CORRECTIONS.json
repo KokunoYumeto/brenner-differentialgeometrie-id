@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-14/worksheet14_exercise06_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-TRANS-0166",
+      "anchor": "Maximum and minimum points",
+      "change": "Translate the protected respective-point connector without changing P or Q."
+    }
+  ],
+  "allowed_deltas": [],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-TRANS-0166",
+      "surface": "command:mathkor",
+      "occurrence_index": 0,
+      "source_sha256": "dfc81a9b93bee9bc69a633fa4017e17c16186f4730d82a22249388fdaef1e4b4",
+      "target_sha256": "40dd36a895fa3460f0852efb0c601a4ba474f99eef202d4f935f584347bdd8d9"
+    }
+  ]
+}

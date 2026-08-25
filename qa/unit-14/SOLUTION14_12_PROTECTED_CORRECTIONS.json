@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-14/worksheet14_exercise12_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0163",
+      "anchor": "Expanded pullback of tau",
+      "change": "Move cos(r^2st) from the first intermediate wedge summand to the third; the final collected coefficient remains unchanged."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0163",
+      "surface": "profile:commands",
+      "source_sha256": "46835cb940446fa332832d3bfb9ae97dc0e2da7bd8775176d61b98d63a0f80c5",
+      "target_sha256": "afa10832ab66dc359a0d0aa63c9dd009acc281a99e420723b26b1ecfa3c9c06a"
+    }
+  ],
+  "evidence_only_deltas": []
+}

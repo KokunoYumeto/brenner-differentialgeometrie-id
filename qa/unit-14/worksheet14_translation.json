@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "source": "authority/expanded/worksheet14_source.de.tex",
+  "source_bytes": 10635,
+  "source_sha256": "f6553d7398e700e915dc054527c5f079730bc79d2ebda63f094efb3c9c1d6942",
+  "target": "source/units/unit-14/worksheet14.id.tex",
+  "target_bytes": 10760,
+  "target_sha256": "98880cc5c0996175a6f3f60ac6c5098bb4076569f1050cc8136f13662e6cec79",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 331,
+    "environments": 0,
+    "inline_math": 45,
+    "display_math": 0,
+    "protected_calls": 44
+  },
+  "status": "pass",
+  "failures": [],
+  "declared_corrections": [
+    "O011-TRANS-0165",
+    "O011-CORR-0161"
+  ],
+  "evidence_only_results": [
+    {
+      "correction_id": "O011-TRANS-0165",
+      "surface": "command:mathkor",
+      "occurrence_index": 0,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0165",
+      "surface": "command:mathkor",
+      "occurrence_index": 1,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0165",
+      "surface": "command:mathkor",
+      "occurrence_index": 2,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0165",
+      "surface": "command:mathkor",
+      "occurrence_index": 3,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0165",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 0,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0165",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 1,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0161",
+      "surface": "command:mathl",
+      "occurrence_index": 4,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0165",
+      "surface": "command:mathl",
+      "occurrence_index": 15,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0165",
+      "surface": "command:mathl",
+      "occurrence_index": 17,
+      "status": "pass",
+      "detail": "verified"
+    }
+  ]
+}

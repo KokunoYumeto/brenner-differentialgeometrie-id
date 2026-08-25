@@ -1,0 +1,729 @@
+\setcounter{section}{14}
+
+  \zwischenueberschrift{Soal latihan}
+
+\inputaufgabe
+{}
+{
+
+Misalkan $M$ sebuah
+\definitionsverweis {manifold diferensiabel}{}{}
+dengan
+\definitionsverweis {bundel kotangen}{}{}
+
+\mathl{T^*M}{.} Tunjukkan bahwa pada
+\mathl{\bigwedge^k T^*M}{} untuk setiap $k$ dapat didefinisikan suatu
+\definitionsverweis {topologi}{}{}
+sedemikian sehingga, untuk setiap peta
+\maabb {\alpha} { U } { V
+} {}
+pemetaan
+\maabbdisp {} {\bigwedge^k T^*U} { \bigwedge^k T^*V \cong V \times \bigwedge^k \R^{n*}
+} {}
+merupakan sebuah
+\definitionsverweis {homeomorfisme}{}{.}
+
+}
+{} {}
+Dengan demikian, kita dapat berbicara tentang bentuk diferensial kontinu maupun terukur.
+
+\inputaufgabe
+{}
+{
+
+Misalkan $M$ sebuah
+$C^2$-\definitionsverweis {manifold diferensiabel}{}{}
+dengan
+\definitionsverweis {bundel kotangen}{}{}
+
+\mathl{T^*M}{.} Tunjukkan bahwa
+\mathl{\bigwedge^k T^*M}{} merupakan sebuah manifold diferensiabel untuk setiap $k$.
+
+}
+{} {}
+Dengan demikian, kita juga dapat berbicara tentang bentuk diferensial yang terdiferensialkan secara kontinu. Secara lebih umum, jika $M$ sebuah
+$C^m$-\definitionsverweis {manifold}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{  \ell
+}
+{ < }{ m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+maka
+\mathl{{ \mathcal E }^{ k }_{\ell } ( M  )}{} menyatakan himpunan semua bentuk diferensial yang terdiferensialkan secara kontinu hingga orde $\ell$ dan berderajat $k$.
+
+\inputaufgabe
+{}
+{
+
+Misalkan $M$ sebuah
+\definitionsverweis {manifold diferensiabel}{}{}
+dan
+\mathl{{ \mathcal E }^{ k } (  M   )}{} himpunan semua
+$k$-\definitionsverweis {bentuk}{}{}
+pada $M$. Tunjukkan bahwa ${ \mathcal E }^{ k } (  M   )$ merupakan sebuah
+$R$-\definitionsverweis {modul}{}{}
+untuk
+
+\mavergleichskette
+{\vergleichskette
+{R
+}
+{ = }{ C^0(M,\R)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan $M$ sebuah
+\definitionsverweis {manifold diferensiabel}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sebuah titik, dan
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \in }{ C^1(M,\R)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sebuah
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{.}
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sebuah
+\definitionsverweis {vektor singgung}{}{,}
+yang direpresentasikan oleh suatu lintasan diferensiabel
+\maabbdisp {\gamma} {{]{-\delta},\delta [}} {M
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(0)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Tunjukkan kesamaan
+
+\mavergleichskettedisp
+{\vergleichskette
+{(df)(P,v)
+}
+{ =} { (f \circ \gamma)'(0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Misalkan $M$ sebuah
+\definitionsverweis {manifold diferensiabel}{}{}
+dan
+\maabbdisp {f} { M } {\R
+} {}
+sebuah
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{.}
+Pada titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+fungsi tersebut mempunyai suatu
+\definitionsverweis {ekstremum lokal}{}{.}
+Tunjukkan bahwa
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (df)_P
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Misalkan $M$ sebuah
+\definitionsverweis {manifold diferensiabel}{}{}
+\definitionsverweis {kompak}{}{}
+dan
+\maabbdisp {f} { M } {\R
+} {}
+sebuah
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{.}
+Tunjukkan bahwa terdapat sedikitnya dua titik pada $M$
+\zusatzklammer {dengan syarat $M$ mempunyai sedikitnya dua titik} {} {}
+di mana
+$1$-\definitionsverweis {bentuk diferensial}{}{}
+$df$ bernilai nol.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+\mathl{i: M\subseteq \R^n}{} sebuah
+\definitionsverweis {submanifold tertutup}{}{.}
+Tunjukkan bahwa untuk setiap
+\definitionsverweis {fungsi diferensiabel}{}{}
+\maabbdisp {f} {\R^n } {\R
+} {}
+berlaku hubungan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ i^* (df)
+}
+{ =} { d(f \circ i )
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+\maabbeledisp {f} {\R} {\R
+} { t } {f(t)
+} {,}
+sebuah
+\definitionsverweis {fungsi}{}{}
+\definitionsverweis {yang terdiferensialkan secara kontinu}{}{,}
+dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ g(s)ds
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sebuah
+$1$-\definitionsverweis {bentuk diferensial}{}{}
+pada $\R$. Tentukan
+\mathl{f^* \omega}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Kita meninjau pemetaan
+\maabbeledisp {\varphi} {\R^3} {\R^2
+} {(x,y,z)} {(xyz^2,xy-z^3)
+} {.}
+Hitunglah matriks pemetaan
+\maabbdisp {\bigwedge^2 T_P (\varphi)} { \bigwedge^2 T_P \R^3 } { \bigwedge^2 T_{\varphi(P)}  \R^2
+} {}
+di titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ (1,3,5)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terhadap suatu basis yang sesuai.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Kita meninjau
+\definitionsverweis {pemetaan terdiferensialkan kontinu}{}{}
+\maabbeledisp {\varphi} {\R^2 \setminus \{(0,0)\}} {\R^2 \setminus \{(0,0)\}
+} {(u,v)} {(u^2,v^3-u)
+} {,}
+dan
+$2$-\definitionsverweis {bentuk diferensial}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { { \frac{   1  }{  x^2+y^2 } } dx \wedge dy
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Tentukan
+\definitionsverweis {bentuk diferensial tarik balik}{}{}
+
+\mathl{\varphi^* \omega}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Kita meninjau
+$1$-\definitionsverweis {bentuk diferensial}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { -vdu+udv
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+pada
+$1$-\definitionsverweis {sfera}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ S^1
+}
+{ \subset }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan koordinat-koordinat pada ruang ambien $\R^2$ dinotasikan sebagai
+\mathkor {} {u} {dan} {v} {.}
+Tentukan
+\mathl{\pi^* \omega}{} di bawah
+\definitionsverweis {pemetaan terdiferensialkan kontinu}{}{}
+\maabbeledisp {\pi} {\R^2 \setminus \{0\}} { S^{1}
+} {(x , y) } { { \frac{   1  }{  \sqrt{x^2 + y^2}  } } (x , y)
+} {.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Hitunglah bentuk diferensial tarik balik
+\mathl{\varphi^* \tau}{} untuk
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \tau
+}
+{ =} { dx \wedge dy \wedge dz - w dx \wedge dy \wedge dw + \cos (xy)  dx \wedge dz \wedge dw-yw dy \wedge dz \wedge dw
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+di bawah pemetaan
+\maabbeledisp {\varphi} {\R^3} {\R^4
+} {(r,s,t)} { (r^2s,t, \sin  r ,e^{st}) = (x,y,z,w)
+} {.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Misalkan
+\maabbdisp {\psi} { L } { M
+} {}
+sebuah
+\definitionsverweis {pemetaan diferensiabel}{}{}
+antara
+\definitionsverweis {dua manifold diferensiabel}{}{,}
+misalkan
+\maabbdisp {f} { M } {\R
+} {}
+sebuah fungsi pada $M$, dan $\omega$ sebuah
+$k$-\definitionsverweis {bentuk}{}{}
+pada $M$. Tunjukkan bahwa
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \psi^*(f \omega)
+}
+{ =} { \psi^*(f)  \psi^* \omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan
+\definitionsverweis {himpunan-himpunan bagian terbuka}{}{}
+dan misalkan
+\maabbdisp {\psi} { W } { U
+} {}
+sebuah
+\definitionsverweis {pemetaan}{}{} yang
+\definitionsverweis {terdiferensialkan secara kontinu}{}{.}
+Misalkan
+\maabbdisp {f} { U } {\R
+} {}
+sebuah fungsi yang terdiferensialkan secara kontinu. Simpulkan dari
+[[Totale Differenzierbarkeit/K/Kettenregel/Fakt|aturan rantai]]
+bahwa
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d (\psi^*f)
+}
+{ =} { \psi^*(df)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dengan $\psi^*$ menyatakan
+\definitionsverweis {penarikan balik bentuk diferensial}{}{.}
+
+}
+{} {}
+
+  \zwischenueberschrift{Soal untuk dikumpulkan}
+
+\inputaufgabe
+{6}
+{
+
+Misalkan $M$ sebuah
+\definitionsverweis {manifold diferensiabel}{}{}
+dengan
+\definitionsverweis {bundel kotangen}{}{}
+
+\mathl{T^*M}{.} Misalkan $\omega$ sebuah
+$k$-\definitionsverweis {bentuk diferensial}{}{,} yaitu suatu pemetaan
+\maabbdisp {\omega} { M } {\bigwedge^k T^*M
+} {}
+dengan
+\mathl{\omega(P) \in \bigwedge^k T^*_P M}{} untuk setiap
+\mathl{P \in M}{,} dengan produk eksterior ini dilengkapi topologi alaminya
+\zusatzklammer {lihat
+[[Mannigfaltigkeit/Dachprodukte des Kotangentialbündels/Topologie/Aufgabe|Soal 14.1]]} {} {.}
+Tunjukkan bahwa pernyataan-pernyataan berikut ekuivalen:
+\aufzaehlungdrei{ $\omega$
+\definitionsverweis {
+kontinu}{}{.}
+}{Untuk setiap
+\definitionsverweis {peta}{}{}
+\maabb {\alpha} { U } { V
+} {}
+dengan
+\mathl{V \subseteq \R^n}{} dan representasi lokal
+\mathl{\alpha_* \omega =  \sum_{J,\, { \# \left(   J  \right) } =k} f_J dx_J}{,}
+fungsi-fungsi $f_J$ kontinu.
+}{Terdapat suatu tutupan terbuka
+\mathl{M= \bigcup_{i \in I} U_i}{} oleh
+\definitionsverweis {domain-domain peta}{}{} $U_i$ sedemikian sehingga, dalam representasi lokal
+\mathl{\alpha_{i*} \omega =  \sum_{J,\, { \# \left(   J  \right) } =k} f_{i J} dx_J}{,}
+fungsi-fungsi $f_{i J}$ kontinu.
+}
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Misalkan
+\maabbdisp {\varphi} { L } { M
+} {}
+sebuah
+\definitionsverweis {pemetaan diferensiabel}{}{}
+antara dua
+\definitionsverweis {manifold diferensiabel}{}{}
+\mathkor {} {L} {dan} {M} {.}
+Misalkan
+\mathkor {} {\omega \in
+{ \mathcal E }^{ k } (  M   )} {dan} {\tau \in
+{ \mathcal E }^{  \ell } (  M   )} {}
+\definitionsverweis {bentuk-bentuk diferensial}{}{} pada $M$. Tunjukkan kesamaan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi^* ( \omega \wedge \tau)
+}
+{ =} {\varphi^* \omega \wedge \varphi^* \tau
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Kita meninjau
+\definitionsverweis {pemetaan terdiferensialkan kontinu}{}{}
+\maabbeledisp {\varphi} {\R^3 \setminus \{(0,0,0)\}} {N = \left\{ (x,y,z) \in \R^3  \mid   z \neq 0        \right\}
+} {(u,v,w)} {(uvw,u^2-vw^5,u^2+v^2+w^2)
+} {,}
+dan
+$2$-\definitionsverweis {bentuk diferensial}{}{}
+
+\mathdisp {\omega =  z^2dx \wedge dy+{ \frac{   xy }{ z } }dx \wedge dz+(xe^y-z)dy \wedge dz} {  }
+
+pada $N$. Tentukan
+\definitionsverweis {bentuk diferensial tarik balik}{}{}
+
+\mathl{\varphi^* \omega}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{6}
+{
+
+Kita meninjau
+\definitionsverweis {permukaan bola satuan}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ S^2
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan koordinat-koordinat pada $\R^3$ dinotasikan sebagai $x,y,z$. Untuk titik-titik manakah
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ S^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+pembatasan
+\mathkor {} {dx} {dan} {dy} {}
+pada $S^2$ membentuk suatu
+\definitionsverweis {basis}{}{}
+dari
+\definitionsverweis {ruang kotangen}{}{}
+
+\mathl{T^*_PS^2}{.}
+
+}
+{} {}
+
+ [[Kategorie:Latexseite]]

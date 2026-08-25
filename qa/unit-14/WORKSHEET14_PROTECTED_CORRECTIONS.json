@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-14/worksheet14.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0161",
+      "anchor": "Exercise 2, differentiability-class form space",
+      "change": "Replace the undefined U in E^k_l(U) by the quantified manifold M."
+    },
+    {
+      "correction_id": "O011-TRANS-0165",
+      "anchor": "Protected worksheet reader text",
+      "change": "Translate conjunctions and parentheticals and bind formula punctuation moved by Indonesian syntax."
+    }
+  ],
+  "allowed_deltas": [],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-TRANS-0165",
+      "surface": "command:mathkor",
+      "occurrence_index": 0,
+      "source_sha256": "7fbd4af1b142c566584f2ad2e12cfb2acc7e3f353a8c181f2adef3067e476daa",
+      "target_sha256": "e4f02deab71205ce9a51c817575322c203c808efde60f9098e89ebd7459839f1"
+    },
+    {
+      "correction_id": "O011-TRANS-0165",
+      "surface": "command:mathkor",
+      "occurrence_index": 1,
+      "source_sha256": "e47bee8faef7ab5268f912389806c74a4a6a1eba274ad87d1fa7b42a1deaea0e",
+      "target_sha256": "e723ad8a80d4ca188b36b7a2f2f18a5354afc5ba75fd4c7b7d8ff81bbb913597"
+    },
+    {
+      "correction_id": "O011-TRANS-0165",
+      "surface": "command:mathkor",
+      "occurrence_index": 2,
+      "source_sha256": "fba496584e5d8845241a945b7cdd031d1a8ecb4d722dc8375f03e1601cf7bb8a",
+      "target_sha256": "ed043d645ee929b316a3f8fb1f5e062b86a4e19b053d2f5539f97c1c079d1304"
+    },
+    {
+      "correction_id": "O011-TRANS-0165",
+      "surface": "command:mathkor",
+      "occurrence_index": 3,
+      "source_sha256": "b1fe533490059351afb499758b7f6b84926f41c2a15986eafbfa72a3e00c168e",
+      "target_sha256": "43e8c01ec96e5c822318477fe93ec293a7fea1e660a767d5972b6428de70f8aa"
+    },
+    {
+      "correction_id": "O011-TRANS-0165",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 0,
+      "source_sha256": "ea30740bae8ccff5609e5cc1446a05e803dbe7fd606eb0c61779e5913c4c7b6e",
+      "target_sha256": "b3b2c5282ba0921af069e322727c62d45b216fc728678665d8431198a1e296b4"
+    },
+    {
+      "correction_id": "O011-TRANS-0165",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 1,
+      "source_sha256": "265ea8b09d8ab928ad47a60e39f1e8d96a4799878cdcda2d0b66dea323573a45",
+      "target_sha256": "7d59b140cf4dd0cf11c4c854eb439a9c78f63624e2798aaf093a301964143c88"
+    },
+    {
+      "correction_id": "O011-CORR-0161",
+      "surface": "command:mathl",
+      "occurrence_index": 4,
+      "source_sha256": "fa2e953983bbc2adf54f2f991e794427fa1791e0923c1b43d79c38922083cb7a",
+      "target_sha256": "de921de21ff2d33734c324931850ec97353c7af692310999259020a961e0a5a4"
+    },
+    {
+      "correction_id": "O011-TRANS-0165",
+      "surface": "command:mathl",
+      "occurrence_index": 15,
+      "source_sha256": "98c92be0ce11032675b7880a9ddf6b7e7d722ffce5d9a2ba3c8b9f62e1328ec9",
+      "target_sha256": "94f0cf0d3530660011f291e9117f71b5b7389992f65efd893c7e65262f2e7680"
+    },
+    {
+      "correction_id": "O011-TRANS-0165",
+      "surface": "command:mathl",
+      "occurrence_index": 17,
+      "source_sha256": "68c3cc119606bda6d0525a75ed406d3da4dd1e6c6e96274964dfd6e6f07d593c",
+      "target_sha256": "9dcf12d5019d83bbf3a1f7fb0e8dc6ab77813cd0fac4bed52025644e406e6032"
+    }
+  ]
+}

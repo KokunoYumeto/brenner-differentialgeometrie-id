@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Tue, 25 Aug 2026 14:33:03 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Zurückziehen von Differentialformen/Verträglichkeit mit skalarer Funktion/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 1123,
+  "response_path": "worksheet14_exercise13_solution_latex_expand.json",
+  "response_sha256": "f4965366923209cd4f5e19a4a0e8c4b5a0cad420a79d666459855ead0c995dec",
+  "retrieved_utc": "2026-08-25T14:33:03Z",
+  "schema_version": 1
+}

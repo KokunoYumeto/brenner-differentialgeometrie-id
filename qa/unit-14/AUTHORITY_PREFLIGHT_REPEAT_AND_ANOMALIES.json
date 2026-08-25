@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-25T17:25:51+02:00",
+  "unit_id": "o011-brenner-u14",
+  "status": "pass",
+  "repeat_freeze": {
+    "mode": "frozen-response reuse with request-identity and response-hash verification",
+    "network_requests_required": 0,
+    "preflight_path": "qa/unit-14/AUTHORITY_PREFLIGHT.json",
+    "preflight_bytes": 43000,
+    "preflight_sha256": "926ad51ee3d226573d01a2ec95ce021d9fa3348f968f1f297280890d31f6efab",
+    "preflight_markdown_sha256": "a24da0b6c6d4e2c437b50609b16d128a1db8e389ca4c8fae447ac0a4f0832518",
+    "offline_verifier_sha256": "491c6264512da9955f582dfeca716fac79438874f820d0fb3c5750efc420a533",
+    "result": "byte-identical authority receipts reproduced and offline verification passed"
+  },
+  "operational_repair": {
+    "trigger": "one initial official MediaWiki API request returned HTTP 429",
+    "disposition": "the unit freezer now honors Retry-After with bounded exponential backoff and bounded transient-network retries",
+    "script_path": "scripts/freeze_unit_authority.py",
+    "script_bytes": 51956,
+    "script_sha256": "177b29b454adc9637204de68b35c7c8cbf3839d3282bbe6a93a0e1f3223ede97"
+  },
+  "authority_anomalies": [
+    {
+      "correction_id": "O011-CORR-0157",
+      "surface": "lecture14 restriction clause",
+      "finding": "pullback equals restriction only for the inclusion map"
+    },
+    {
+      "correction_id": "O011-CORR-0158",
+      "surface": "lecture14 coordinate proof",
+      "finding": "exterior-basis indices must be strictly increasing"
+    },
+    {
+      "correction_id": "O011-CORR-0159",
+      "surface": "lecture14 partially constant component",
+      "finding": "target-component index range is 1 through m"
+    },
+    {
+      "correction_id": "O011-CORR-0160",
+      "surface": "lecture14 density comparison",
+      "finding": "positive densities use the absolute Jacobian determinant"
+    },
+    {
+      "correction_id": "O011-CORR-0161",
+      "surface": "worksheet14 Exercise 2",
+      "finding": "the form space is on M rather than undefined U"
+    },
+    {
+      "correction_id": "O011-CORR-0162",
+      "surface": "worksheet14 supplied Solution 5",
+      "finding": "the typed coordinate differential is D(f composed with alpha inverse)"
+    },
+    {
+      "correction_id": "O011-CORR-0163",
+      "surface": "worksheet14 supplied Solution 12",
+      "finding": "cos(r^2st) belongs to the third intermediate wedge summand"
+    }
+  ],
+  "census": {
+    "exercises": 18,
+    "practice": 14,
+    "graded": 4,
+    "graded_points": [6, 4, 4, 6],
+    "graded_points_total": 20,
+    "blank_hints": 18,
+    "supplied_solutions": [5, 6, 9, 11, 12, 13, 14],
+    "missing_solutions": 11,
+    "media": 0
+  }
+}

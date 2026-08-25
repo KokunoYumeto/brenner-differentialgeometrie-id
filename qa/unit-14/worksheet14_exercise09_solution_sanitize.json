@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "input": "authority/exports/worksheet14_exercise09_solution_latex_expand.json",
+  "input_bytes": 2524,
+  "input_sha256": "aeffbe829476942db8b9f4a53e1ef1401101189b293fe80890923231cc456a5d",
+  "expanded_chars": 2281,
+  "output": "authority/expanded/worksheet14_exercise09_solution_source.de.tex",
+  "output_bytes": 1972,
+  "output_sha256": "76ebe443c86e71cb75a540ea334fbec4a2ccb99667fbe49646ac390557cab379",
+  "transform": [
+    "normalize CRLF/CR to LF",
+    "replace br tags with LF",
+    "remove div/pre/nowiki wrapper tags",
+    "decode HTML entities",
+    "strip trailing horizontal whitespace",
+    "collapse runs of blank lines",
+    "require no residual HTML tag or U+FFFD"
+  ]
+}

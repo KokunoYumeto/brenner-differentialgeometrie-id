@@ -128,7 +128,7 @@ def request_api(endpoint: str, parameters: dict[str, str]) -> tuple[bytes, dict[
         method="POST",
     )
     last_error: Exception | None = None
-    for attempt in range(4):
+    for attempt in range(6):
         try:
             with urllib.request.urlopen(request, timeout=90) as response:
                 data = response.read()
@@ -140,11 +140,23 @@ def request_api(endpoint: str, parameters: dict[str, str]) -> tuple[bytes, dict[
             if payload.get("error"):
                 raise RuntimeError(f"MediaWiki API error: {payload['error']}")
             return data, headers
+        except urllib.error.HTTPError as exc:
+            last_error = exc
+            if exc.code != 429 or attempt == 5:
+                break
+            retry_after = exc.headers.get("Retry-After")
+            try:
+                delay = float(retry_after) if retry_after else 5.0 * (2**attempt)
+            except ValueError:
+                delay = 5.0 * (2**attempt)
+            # A bounded backoff respects the public API without allowing one
+            # request to leave this unit-level freeze dormant indefinitely.
+            time.sleep(min(max(delay, 1.0), 45.0))
         except (urllib.error.URLError, TimeoutError) as exc:
             last_error = exc
-            if attempt == 3:
+            if attempt == 5:
                 break
-            time.sleep(1.5 * (attempt + 1))
+            time.sleep(min(2.0 * (attempt + 1), 12.0))
     raise RuntimeError(f"API request failed after retries: {last_error}")
 
 

@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Tue, 25 Aug 2026 14:33:02 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Differenzierbare Mannigfaltigkeit/Kompakt/Differentialform/Nullstelle/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 892,
+  "response_path": "worksheet14_exercise06_solution_latex_expand.json",
+  "response_sha256": "f0980b6a1e5cac80164a35024ae813b992e64340269b7fcb2a03f33bbaa9de81",
+  "retrieved_utc": "2026-08-25T14:33:02Z",
+  "schema_version": 1
+}

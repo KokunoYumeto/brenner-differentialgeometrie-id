@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-14/worksheet14_exercise05_solution.id.tex",
+  "input_bytes": 730,
+  "input_sha256": "f881d71e394363e6e5fee0f99e48f7df9d987d2293de6441d07a53ec48f10538",
+  "output": "build/generated/worksheet14_exercise05_solution.id.build.tex",
+  "output_bytes": 637,
+  "output_sha256": "e166f1c0f4f15524dcda1e20553b4606353f9349695f0ed31c3cd88898627453",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Lokales Extremum/Richtungsableitung/Totales Differential/Fakt",
+      "label": "Fakta   (2)"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

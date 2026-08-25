@@ -1,0 +1,1597 @@
+\setcounter{section}{14}
+
+  \zwischenueberschrift{Differentialformen auf Mannigfaltigkeiten}
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{.}
+Eine
+\definitionswortpraemath {k}{ Differentialform }{}
+\zusatzklammer {oder $k$-\definitionswort {Form}{} oder \definitionswort {Form vom Grad}{} $k$} {} {}
+ist ein
+\definitionsverweis {Schnitt}{}{}
+im $k$-fachen
+\definitionsverweis {Dachprodukt}{}{}
+des
+\definitionsverweis {Kotangentialbündels}{}{,}
+also eine Abbildung
+\maabbeledisp {\omega} { M } { \bigwedge^k T^*M
+} { P } { \omega(P)
+} {,}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ \omega(P)
+}
+{ \in }{ \bigwedge^k T_P^*M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+
+Wir bezeichnen die Menge der $k$-Formen auf $M$ mit
+
+\mathdisp {{ \mathcal E }^{ k } ( M  )} { . }
+
+\inputbemerkung
+{}
+{
+
+Eine $k$-\definitionsverweis {Form}{}{}
+ordnet also jedem Punkt $P$ der Mannigfaltigkeit ein Element aus
+\mathl{\bigwedge^k T^*_PM}{} zu. Dies ist
+nach [[Dachprodukt/Universelle Eigenschaft/Alternierende Formen und Linearformen/Fakt|Korollar 57.9 (Lineare Algebra (Osnabrück 2024-2025))]]
+und [[Dachprodukt/Natürliche Dualität/Endlichdimensional/Fakt|Satz 58.4 (Lineare Algebra (Osnabrück 2024-2025))]]
+das gleiche wie eine
+\definitionsverweis {alternierende}{}{}
+\definitionsverweis {multilineare Abbildung}{}{}
+\maabbdisp {} {T_PM \times \cdots \times T_PM } { \R
+} {.}
+Diese zugehörige Abbildung bezeichnen wir ebenfalls mit
+\mathl{\omega(P)}{;} für $k$
+\definitionsverweis {Tangentialvektoren}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ v_1 , \ldots , v_k
+}
+{ \in }{ T_PM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist also
+
+\mathdisp {\omega(P)(v_1 , \ldots , v_k)} {  }
+
+eine reelle Zahl. Dabei treten zwei grundverschiedene Argumente auf, einerseits der Punkt der Mannigfaltigkeit und andererseits Elemente aus dem Tangentialraum an diesem Punkt. Die Abhängigkeit von den Tangentialvektoren ist verhältnismäßig einfach, da es sich ja um eine alternierende multilineare Abbildung handelt, dagegen ist die Abhängigkeit von der Mannigfaltigkeit beliebig kompliziert. Da die Dachprodukte des Kotangentialbündels nach
+[[Mannigfaltigkeit/Dachprodukte des Kotangentialbündels/Mannigfaltigkeit/Aufgabe|Aufgabe 14.2]]
+selbst Mannigfaltigkeiten sind, kann man sofort von stetigen oder
+\zusatzklammer {wenn $M$ eine $C^2$-Mannigfaltigkeit ist} {} {}
+differenzierbaren Differentialformen sprechen.
+
+Für
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kommt der Kotangentialraum nur formal vor, eine $0$-Form ist nichts anderes als eine Funktion
+\maabb {f} { M } {\R
+} {.}
+Eine $1$-Form
+\zusatzklammer {man spricht auch von einer
+\definitionswortenp{Pfaffschen Form}{}} {} {}
+ordnet jedem Punkt und jedem Tangentialvektor an $P$ eine reelle Zahl zu. Für
+
+\mavergleichskette
+{\vergleichskette
+{k
+}
+{ > }{ n
+}
+{ = }{ \operatorname{dim} \, M
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist das $k$-fache Dachprodukt der Nullraum und daher gibt es gar keine nichttrivialen Formen von diesem Grad. Besonders wichtig ist der Fall
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ = }{ n
+}
+{ = }{ \operatorname{dim} \, M
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann besitzt das $n$-te Dachprodukt den Rang $1$
+\zusatzklammer {d. h. die Dimension ist in jedem Punkt $1$} {} {}
+und ein Schnitt darin wird lokal durch eine einzige Funktion beschrieben. Eine empfehlenswerte Vorstellung ist dabei, dass zu $n$ Tangentialvektoren die Zahl
+\mathl{\omega(P)(v_1 , \ldots , v_n)}{} das
+\zusatzklammer {\anfuehrung{orientierte}{}} {} {}
+Volumen des durch die Vektoren im Tangentialraum aufgespannten Paralleltops angibt. Diese Vorstellung ist auch bei kleineren $k$ hilfreich, mit den
+\mathl{\omega(P) (v_1 , \ldots , v_k)}{} kann man das $k$-dimensionale Volumen des durch $k$ Tangentialvektoren erzeugten Parallelotops berechnen. Diese Vorstellung wird präzisiert, wenn man über eine $k$-dimensionale
+\definitionsverweis {abgeschlossene Untermannigfaltigkeit}{}{}
+integriert.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Differentialform/Elementare Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und zu
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sei
+\mathl{{ \mathcal E }^{ k } (  M   )}{} die Menge der
+$k$-\definitionsverweis {Formen}{}{}
+auf $M$.}
+\faktuebergang {Dann gelten folgende Eigenschaften.}
+\faktfolgerung {\aufzaehlungfuenf{Die
+\mathl{{ \mathcal E }^{ k } (  M   )}{} bilden mit den natürlichen Operationen versehen
+\definitionsverweis {reelle Vektorräume}{}{.}
+}{Zu einer Differentialform
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{ k } (  M   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und einer Funktion
+\maabbdisp {f} { M } {\R
+} {}
+ist auch
+
+\mavergleichskette
+{\vergleichskette
+{ f \omega
+}
+{ \in }{
+{ \mathcal E }^{ k } (  M   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $f \omega$ durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (f \omega)(P)
+}
+{ \defeq} { f(P) \omega (P)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+definiert ist.
+}{Jede
+$C^1$-\definitionsverweis {differenzierbare Funktion}{}{}
+\maabbdisp {f} { M } {\R
+} {}
+definiert über die
+\definitionsverweis {Tangentialabbildung}{}{}
+
+\mathl{Tf}{} eine
+$1$-\definitionsverweis {Differentialform}{}{}
+\maabbeledisp {df} { M } { T^*M
+} { P } { T_Pf
+} {,}
+wobei der Tangentialraum von $\R$ in
+\mathl{f(P)}{} mit $\R$ identifiziert wird. Dies ergibt eine Abbildung
+\maabbeledisp {d} {C^1(M,\R)} {
+{ \mathcal E }^{  1 } (  M   )
+} { f } {df
+} {.}
+}{Wenn
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine offene Teilmenge ist, so ist bei der Identifizierung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ TM
+}
+{ \cong} { M \times \R^m
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+die Abbildung aus (3) gleich
+\maabbeledisp {} { M } { M \times ( \R^m)^*
+} { P } { (P, \left(  D f   \right)_{ P } \left(   -  \right) )
+} {.}
+}{Die Abbildung $d$ aus (3) ist
+$\R$-\definitionsverweis {linear}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{(1) und (2) folgen unmittelbar aus einer punktweisen Betrachtung.}
+{} \teilbeweis {}{}{}
+{(3). Für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+\maabbdisp {T_Pf} { T_PM } { T_{f(P)} \R \cong \R
+} {}
+eine nach
+[[Tangentialabbildung/Punktweise/Elementare Eigenschaften/Fakt|Lemma 9.10  (3)]]
+\definitionsverweis {lineare Abbildung}{}{}
+und somit ein Element in
+\mathl{T_P^* M}{,} das wir mit
+\mathl{(df)_P}{} bezeichnen. Die Zuordnung
+\mathl{P \mapsto (df)_P}{} ist daher eine
+\definitionsverweis {Differentialform}{}{.}}
+{}
+\teilbeweis {}{}{}
+{(4) folgt aus
+[[Tangentialabbildung/Punktweise/Elementare Eigenschaften/Fakt|Lemma 9.10  (1)]].}
+{}
+\teilbeweis {}{}{}
+{(5). Die Abbildung in (3) ist für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+auf jeder offenen Umgebung festgelegt. Wir können daher annehmen, dass
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine offene Menge ist, sodass die Aussage aus (4) und
+[[Differenzierbarkeit/K/Summe differenzierbarer Abbildungen ist differenzierbar/Fakt|Proposition 45.6 (Analysis (Osnabrück 2021-2023))]]
+folgt.}
+{}
+
+}
+
+Zu einer offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+hat man die Koordinatenfunktionen
+\maabbdisp {x_j} {V} {\R
+} {}
+zur Verfügung, die sich bei einer gegebenen Karte auf eine offene Teilmenge einer Mannigfaltigkeit übertragen. In jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bilden die
+
+\mathbed {dx_j} {}
+ {j=1 , \ldots , n} {}
+ {} {} {} {,}
+eine Basis des Kotangentialraumes an $Q$. Dies ist einfach die
+\definitionsverweis {Dualbasis}{}{}
+der Standardbasis im umgebenden Raum $\R^n$, den man auf ganz $V$ als Tangentialraum nimmt. Zu einer $k$-elementigen Teilmenge
+
+\mavergleichskettedisp
+{\vergleichskette
+{ J
+}
+{ =} { \{j_1 , \ldots , j_k\}
+}
+{ \subseteq} { \{1 , \ldots , n\}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+setzt man
+
+\mavergleichskettedisp
+{\vergleichskette
+{  dx_J
+}
+{ =} {  dx_{j_1} \wedge \ldots \wedge dx_{j_k}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dies ist eine besonders einfache $k$-Form auf $V$. Für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ dx_J(Q)
+}
+{ =} { (dx_{j_1} \wedge \ldots \wedge dx_{j_k} )(Q)
+}
+{ =} { dx_{j_1}(Q) \wedge \ldots \wedge dx_{j_k} (Q)
+}
+{ =} { e_{j_1}^* \wedge \ldots \wedge e_{j_k}^*
+}
+{ } {
+}
+}
+{}{}{.}
+Die Wirkungsweise von dieser Form auf
+
+\mavergleichskette
+{\vergleichskette
+{  v_1 \wedge \ldots \wedge v_k
+}
+{ \in }{ \bigwedge^k T_QV
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist nach
+[[Dachprodukt/Natürliche Dualität/Endlichdimensional/Fakt|Satz 58.4 (Lineare Algebra (Osnabrück 2024-2025))]]
+gegeben durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  e_{j_1}^* \wedge \ldots \wedge e_{j_k}^*  \right)  (v_1 \wedge \ldots \wedge v_k)
+}
+{ =} { \det  \left(  e_{j_i}^*(v_\ell)  \right)_{i \ell}
+}
+{ =} { \det  \left(  (v_\ell)_{j_i}  \right)_{i \ell}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Gemäß
+[[Dachprodukt/Endlichdimensional/Basis/Fakt|Satz 58.1 (Lineare Algebra (Osnabrück 2024-2025))]]
+bilden die Auswertungen der Differentialformen
+\zusatzklammer {mit \mathlk{j_1 <   \ldots < j_k}{}} {} {}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ dx_J
+}
+{ =} { dx_{j_1} \wedge \ldots \wedge dx_{j_k}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für jeden Punkt $Q$ eine
+\definitionsverweis {Basis}{}{}
+von
+\mathl{\bigwedge^k T_Q^*V}{,} und daher lässt sich jede auf $V$ definierte $k$-\definitionsverweis {Differentialform}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{ k } ( V  )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eindeutig als
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { \sum_{J,\, { \# \left(  J \right) } = k} f_J dx_J
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+schreiben mit eindeutig bestimmten Funktionen
+\maabbdisp {f_J} {V} {\R
+} {.}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Differentialform/Lokale Beschreibung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {offene Teilmenge}{}{}
+mit einer Karte
+\maabbdisp {\alpha} { U } { V
+} {}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen. Es seien
+\maabbdisp {x_j} { U } {\R
+} {}
+die zugehörigen Koordinatenfunktionen,
+
+\mavergleichskette
+{\vergleichskette
+{ 1
+}
+{ \leq }{ j
+}
+{ \leq }{ n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Dann lässt sich jede auf $U$ definierte $k$-\definitionsverweis {Differentialform}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{ k } (  U   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eindeutig schreiben als
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { \sum_{J,\, { \# \left(   J  \right) } = k}  f_J dx_J
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit eindeutig bestimmten Funktionen
+\maabbdisp {f_J} { U } {\R
+} {.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Dies folgt aus
+[[Dachprodukt/Endlichdimensional/Basis/Fakt|Satz 58.1 (Lineare Algebra (Osnabrück 2024-2025))]].
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Pfaffsche Differentialform zu Funktion/Beschreibung mit partiellen Ableitungen/Fakt}
+{Korollar}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {offene Teilmenge}{}{}
+mit einer Karte
+\maabbdisp {\alpha} { U } { V
+} {}
+und
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen. Es seien
+\maabbdisp {x_j} { U } {\R
+} {}
+die zugehörigen Koordinatenfunktionen,
+
+\mavergleichskette
+{\vergleichskette
+{ 1
+}
+{ \leq }{j
+}
+{ \leq }{n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es sei
+\maabbdisp {f} { U } {\R
+} {}
+eine
+\definitionsverweis {differenzierbare Funktion}{}{.}}
+\faktfolgerung {Dann gilt für die zugehörige
+$1$-\definitionsverweis {Differentialform}{}{}
+$df$ die Darstellung\zusatzfussnote {Die Ableitungen
+\mathl{{ \frac{   \partial  f  }{  \partial  x_j  } }}{} wurden in der achten Vorlesung eingeführt} {.} {}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ df
+}
+{ =} { \sum_{j = 1}^n { \frac{   \partial   f   }{  \partial   x_j   } } dx_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Wir können sofort annehmen, dass sich alles auf der offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+abspielt. Für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt die folgende Gleichheit von
+\definitionsverweis {
+Linearformen}{}{}
+auf dem $\R^n$,
+
+\mavergleichskettealign
+{\vergleichskettealign
+{(df)_Q
+}
+{ =} { \left(D f \right)_{ Q }
+}
+{ =} { \left(  { \frac{   \partial   f   }{  \partial   x_1   } } ( Q)   , \,   \ldots  , \,   { \frac{   \partial   f   }{  \partial   x_n   } } ( Q)                 \right)
+}
+{ =} { { \frac{   \partial   f   }{  \partial   x_1   } } ( Q) dx_1 + \cdots + { \frac{   \partial   f   }{  \partial   x_n   } } ( Q) dx_n
+}
+{ } {
+}
+}
+{}
+{}{.}
+
+}
+
+  \zwischenueberschrift{Das Zurückziehen von Differentialformen}
+
+\inputdefinition
+{}
+{
+
+Es seien
+\mathkor {} {L} {und} {M} {}
+\definitionsverweis {differenzierbare Mannigfaltigkeiten}{}{}
+und es sei
+\maabbdisp {\varphi} { L } { M
+} {}
+eine
+\definitionsverweis {differenzierbare Abbildung}{}{.}
+Es sei $\omega$ eine $k$-\definitionsverweis {Differentialform}{}{}
+auf $M$. Dann nennt man die $k$-Form auf $L$, die der durch
+
+\mathdisp {(P ,v_1 , \ldots , v_k) \longmapsto   \omega(\varphi(P), T_P(\varphi)(v_1) , \ldots ,  T_P(\varphi)(v_k) )} {  }
+
+gegebenen
+\definitionsverweis {alternierenden Abbildung}{}{}
+entspricht, die mit $\varphi$ \definitionswort {zurückgezogene}{} $k$-Form.  Sie wird mit
+
+\mathdisp {\varphi^* \omega} {  }
+
+bezeichnet.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Differenzierbare Abbildung/Zurückziehen von Differentialformen/Elementare Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es seien
+\mathkor {} {L} {und} {M} {}
+\definitionsverweis {differenzierbare Mannigfaltigkeiten}{}{}
+und
+\maabbdisp {\varphi} { L } { M
+} {}
+eine
+\definitionsverweis {differenzierbare Abbildung}{}{.}}
+\faktuebergang {Dann erfüllt das
+\definitionsverweis {Zurückziehen von Differentialformen}{}{}
+folgende Eigenschaften.}
+\faktfolgerung {\aufzaehlungvier{Für eine Funktion
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \in }{ \operatorname{Abb} (M,\R)
+}
+{ = }{
+{ \mathcal E }^{  0 } (  M   )
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi^*(f)
+}
+{ = }{ f \circ \varphi
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Die Abbildungen
+\maabbeledisp {\varphi^*} {
+{ \mathcal E }^{ k } (  M   ) } {
+{ \mathcal E }^{ k } (  L   )
+} { \omega} { \varphi^* \omega
+} {,}
+sind
+$\R$-\definitionsverweis {linear}{}{.}
+}{Wenn
+
+\mavergleichskette
+{\vergleichskette
+{ L
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {offene Untermannigfaltigkeit}{}{}
+ist, so ist das Zurückziehen einer Differentialform $\omega$ einfach die Einschränkung
+\mathl{\omega \vert_L}{} auf diese Teilmenge.
+}{Es sei $N$ eine weitere differenzierbare Mannigfaltigkeit und
+\maabbdisp {\psi} { M } { N
+} {}
+eine weitere differenzierbare Abbildung. Dann gilt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ ( \psi \circ \varphi )^*(\omega)
+}
+{ =} { \varphi^*(\psi^*(\omega))
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für jede Differentialform
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{ k } (  N   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{(1) folgt unmittelbar aus der
+[[Mannigfaltigkeit/Differenzierbare Abbildung/Zurückziehen von Differentialformen/Definition|Definition 14.6]].}
+{}
+\teilbeweis {}{}{}
+{(2). Wir müssen für Differentialformen
+\mathkor {} {\omega_1} {und} {\omega_2} {}
+und Skalare
+
+\mavergleichskette
+{\vergleichskette
+{ a,b
+}
+{ \in }{\R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+zeigen, dass
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi^*(a \omega_1+ b \omega_2)
+}
+{ = }{ a \varphi^* \omega_1 + b \varphi^* \omega_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt. Eine solche Gleichheit von Differentialformen bedeutet, dass die Gleichheit in jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und für jedes $k$-Tupel von Tangentialvektoren
+
+\mavergleichskette
+{\vergleichskette
+{ v_1 , \ldots , v_k
+}
+{ \in }{ T_PL
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt. Daher folgt die Behauptung aus
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left(  \varphi^*(a \omega_1 + b \omega_2)  \right) \left(  P, v_1 , \ldots , v_k  \right)
+}
+{ =} { (a \omega_1 + b \omega_2) \left(  \varphi(P), T_P(\varphi)(v_1) , \ldots ,  T_P(\varphi)(v_k)  \right)
+}
+{ =} { a \omega_1 \left(  \varphi(P), T_P(\varphi)(v_1) , \ldots ,  T_P(\varphi)(v_k)  \right)
+}
+{ \,\,\,\, \,} {+ b \omega_2 \left(  \varphi(P), T_P(\varphi)(v_1) , \ldots ,  T_P(\varphi)(v_k)  \right)
+}
+{ =} { \left(  a  \varphi^* \omega_1  \right)(P, v_1 , \ldots , v_k)  + \left(  b \varphi^* \omega_2  \right) (P, v_1 , \ldots , v_k)
+}
+}
+{}
+{}{.}}
+{}
+\teilbeweis {}{}{}
+{(3) folgt unmittelbar aus der Definition.}
+{}
+\teilbeweis {}{}{}
+{(4). Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ u_1 , \ldots , u_k
+}
+{ \in }{ T_QL
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und $\omega$ eine $k$-Form auf $N$. Dann gilt
+unter Verwendung von [[Tangentialabbildung/Punktweise/Elementare Eigenschaften/Fakt|Lemma 9.10  (4)]]
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{(( \psi \circ \varphi)^* (\omega))(Q, u_1 , \ldots , u_k)
+}
+{ =} { \omega \left(  ( \psi \circ \varphi) (Q), T_Q( \psi \circ \varphi)(u_1) , \ldots , T_Q(  \psi \circ \varphi) (u_k)  \right)
+}
+{ =} { \omega \left(  \psi ( \varphi (Q)), \left(  T_{\varphi(Q)}\psi  \right)  ((T_Q\varphi)(u_1)) , \ldots , \left(  T_{\varphi(Q)} \psi  \right) ((T_Q\varphi)(u_k))  \right)
+}
+{ =} { \left(  \psi^*(\omega)  \right) \left(  \varphi(Q),T_Q(\varphi)(u_1) , \ldots , T_Q(\varphi)(u_k)  \right)
+}
+{ =} { \left(  \varphi^* \left(  \psi^*(\omega)  \right)   \right) (Q,u_1 , \ldots , u_k)
+}
+}
+{}{}{,}
+und dies ist die Behauptung.}
+{}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Offene Mengen/Differenzierbare Abbildung/Zurückziehen von Differentialformen/In Koordinaten/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es seien
+\mathkor {} {U \subseteq \R^n} {und} {V \subseteq \R^m} {}
+\definitionsverweis {offene Teilmengen}{}{,}
+deren Koordinaten mit
+\mathl{x_1 , \ldots , x_n}{} bzw. mit
+\mathl{y_1 , \ldots , y_m}{} bezeichnet seien. Es sei
+\maabbdisp {\varphi} { U } { V
+} {}
+eine
+\definitionsverweis {differenzierbare Abbildung}{}{}
+und es sei $\omega$ eine
+$k$-\definitionsverweis {Differentialform}{}{}
+auf $V$ mit der Darstellung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { \sum_{I,\, { \# \left(   I  \right) } = k}  f_I  dy_I
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei
+\maabb {f_I} { V } {\R
+} {}
+\definitionsverweis {
+Funktionen}{}{}
+sind.}
+\faktfolgerung {Dann besitzt die
+\definitionsverweis {zurückgezogene Form}{}{}
+die Darstellung
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \varphi^* \omega
+}
+{ =} { \sum_{I,\, { \# \left(   I  \right) } = k}  \left(  f_I \circ \varphi  \right)  \left( \sum_{J,\, { \# \left(   J  \right) } = k} \det  \left(  \left(  { \frac{   \partial  \varphi_i   }{  \partial   x_j   } }  \right)_{ i \in I, j \in J}  \right)  dx_J \right)
+}
+{ =} { \sum_{J,\, { \# \left(   J  \right) } = k}   \left( \sum_{I,\, { \# \left(   I  \right) } = k} \left(  f_I \circ \varphi  \right)  \det  \left(  \left(  { \frac{   \partial  \varphi_i   }{  \partial   x_j   } }  \right)_{ i \in I, j \in J}  \right)  \right)  dx_J
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Die zweite Gleichung beruht auf einer einfachen Umordnung. Aufgrund von
+[[Mannigfaltigkeit/Differenzierbare Abbildung/Zurückziehen von Differentialformen/Elementare Eigenschaften/Fakt|Lemma 14.7]] (2) kann man sich auf den Fall
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ f_Idy_I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+beschränken. Wir setzen
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ = }{ f_I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und dürfen
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ = }{ \{ 1 , \ldots , k \}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+annehmen. Wir zeigen die Gleichheit der beiden $k$-Formen auf $U$, indem wir zeigen, dass sie für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und jedes Dachprodukt
+\mathl{e_{j_1 } \wedge \ldots \wedge e_{j_k }}{} mit
+
+\mavergleichskette
+{\vergleichskette
+{ 1
+}
+{ \leq }{ j_1
+}
+{ = }{ \ldots
+}
+{ =   }{ j_k
+}
+{ \leq  }{ n
+}
+}
+{}{}{}
+den gleichen Wert liefern. Es ist einerseits
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \varphi^*( f dy_1 \wedge \ldots \wedge dy_k)(P,e_{j_1 } \wedge \ldots \wedge e_{j_k }  )
+}
+{ =} { ( f dy_1 \wedge \ldots \wedge dy_k)(\varphi(P),T_P(\varphi)(e_{j_1 }) \wedge \ldots \wedge T_P(\varphi)(e_{j_k }))
+}
+{ =} { f(\varphi(P)) (dy_1 \wedge \ldots \wedge dy_k)( \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial   x_{j_1 }  } } (P )  \\\vdots\\  { \frac{   \partial  \varphi_m   }{  \partial   x_{j_1 }  } } (P )   \end{pmatrix} \wedge \ldots \wedge \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial   x_{j_k }  } } (P )  \\\vdots\\  { \frac{   \partial  \varphi_m   }{  \partial   x_{j_k }  } } (P )   \end{pmatrix} )
+}
+{ =} { f(\varphi(P)) \cdot \det  \left(  (dy_i) \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial   x_{j_\ell}  } } (P )  \\\vdots\\  { \frac{   \partial  \varphi_m   }{  \partial   x_{j_\ell}  } } (P )   \end{pmatrix}  \right)_{1 \leq i, \ell \leq k}
+}
+{ =} { f(\varphi(P)) \cdot \det  \left(  { \frac{   \partial  \varphi_i   }{  \partial   x_{j_\ell}  } } (P )  \right)_{1 \leq i, \ell \leq k}
+}
+}
+{}{}{.}
+Wenn man andererseits die Summe auf
+\mathl{e_{j_1 } \wedge \ldots \wedge e_{j_k }}{} anwendet, so ist
+
+\mavergleichskette
+{\vergleichskette
+{ dx_J (e_{j_1 } \wedge \ldots \wedge e_{j_k })
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+außer bei
+
+\mavergleichskette
+{\vergleichskette
+{ J
+}
+{ = }{ \{j_1 , \ldots , j_k\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wo sich der Wert $1$ ergibt, sodass sich also der gleiche Wert ergibt.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Offene Mengen/Differenzierbare Abbildung/Zurückziehen von Volumenform auf gleichdimensionalem Raum/In Koordinaten/Fakt}
+{Korollar}
+{}
+{
+
+\faktsituation {Es seien
+
+\mavergleichskette
+{\vergleichskette
+{ U,V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offene Teilmengen}{}{,}
+deren Koordinaten mit
+\mathl{x_1 , \ldots , x_n}{} bzw. mit
+\mathl{y_1 , \ldots , y_n}{} bezeichnet seien. Es sei
+\maabbdisp {\varphi} { U } { V
+} {}
+eine
+\definitionsverweis {differenzierbare Abbildung}{}{}
+und es sei $\omega$ eine
+$n$-\definitionsverweis {Differentialform}{}{}
+auf $V$ mit der Darstellung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { f dy_1 \wedge \ldots \wedge dy_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktfolgerung {Dann besitzt die
+\definitionsverweis {zurückgezogene Form}{}{}
+die Darstellung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi^* \omega
+}
+{ =} { (f \circ \varphi) \cdot \det  \left(  \left(  { \frac{   \partial  \varphi_i   }{  \partial   x_j   } }  \right)_{1 \leq  i, j \leq n}  \right) dx_1 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+{ } {}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Dies folgt unmittelbar aus
+[[Offene Mengen/Differenzierbare Abbildung/Zurückziehen von Differentialformen/In Koordinaten/Fakt|Lemma 14.8]].
+
+}
+Die beschreibenden Funktionen zu einer Differentialform haben also das gleiche Transformationsverhalten wie die Dichten, die auf einer Karte ein kontinuierliches Maß auf einer Mannigfaltigkeit beschreiben.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Differentialform/Lokal/Zurückziehen unter partiell konstanter Abbildung/Fakt}
+{Korollar}
+{}
+{
+
+\faktsituation {Es seien
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offene Teilmengen}{}{,}
+deren Koordinaten mit
+\mathl{x_1 , \ldots , x_n}{} bzw. mit
+\mathl{y_1 , \ldots , y_m}{} bezeichnet seien. Es sei
+\maabbdisp {\varphi} { U } { V
+} {}
+eine
+\definitionsverweis {differenzierbare Abbildung}{}{}
+mit
+\mathl{\varphi_{i_0 }}{} konstant für ein
+
+\mavergleichskette
+{\vergleichskette
+{ i_0
+}
+{ \in }{ \{1 , \ldots , n\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und es sei $\omega$ eine
+$k$-\definitionsverweis {Differentialform}{}{}
+auf $V$ mit der Darstellung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { f dy_I
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ i_0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Dann ist
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi^*\omega
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Nach
+[[Offene Mengen/Differenzierbare Abbildung/Zurückziehen von Differentialformen/In Koordinaten/Fakt|Lemma 14.8]]
+gilt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi^* \omega
+}
+{ =} { \sum_{J,\, { \# \left(   J  \right) } = k} (f \circ \varphi) \cdot \det  \left(  \left(  { \frac{   \partial  \varphi_i   }{  \partial   x_j   } }  \right) _{ i \in I, j \in J}  \right) dx_J
+}
+{ } {
+}
+{ } {
+}
+{ } {}
+}
+{}{}{.}
+Da
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial  \varphi_{i_0 }  }{  \partial   x_j   } }
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist für alle
+
+\mavergleichskette
+{\vergleichskette
+{ j
+}
+{ \in }{ J
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+ist für jedes $J$ eine Zeile der Matrix $0$, sodass die Determinanten stets $0$ sind.
+
+}
+
+ [[Kategorie:Latexseite]]

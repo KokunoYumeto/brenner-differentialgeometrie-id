@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "input": "authority/exports/worksheet14_latex_expand.json",
+  "input_bytes": 14115,
+  "input_sha256": "00474024c9a9ce6df47a274132435a572a597f4f7fa1a8af25d09eff877a1b4b",
+  "expanded_chars": 13136,
+  "output": "authority/expanded/worksheet14_source.de.tex",
+  "output_bytes": 10635,
+  "output_sha256": "f6553d7398e700e915dc054527c5f079730bc79d2ebda63f094efb3c9c1d6942",
+  "transform": [
+    "normalize CRLF/CR to LF",
+    "replace br tags with LF",
+    "remove div/pre/nowiki wrapper tags",
+    "decode HTML entities",
+    "strip trailing horizontal whitespace",
+    "collapse runs of blank lines",
+    "require no residual HTML tag or U+FFFD"
+  ]
+}

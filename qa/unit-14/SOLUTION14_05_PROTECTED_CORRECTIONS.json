@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-14/worksheet14_exercise05_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0162",
+      "anchor": "Coordinate differential at alpha(P)",
+      "change": "Differentiate the composite f composed with alpha inverse rather than composing Df with alpha inverse."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0162",
+      "surface": "protected:maabbdisp",
+      "index": 0,
+      "source_sha256": "f93f1ca89f5b8f9fcd0efc4405f67704ade9ea4b07d594cf4f69445ad41ea511",
+      "target_sha256": "1dd5a84a95c378f99f2df8ff8746fb88640b63bb37483a7215a640714db26d4f"
+    }
+  ],
+  "evidence_only_deltas": []
+}

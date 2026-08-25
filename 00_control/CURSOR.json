@@ -3,7 +3,16 @@
   "role_id": "O011",
   "course_id": "D50",
   "lane": "smooth-manifolds-differential-geometry-id",
-  "status": "unit_13_public_both_lineages_anonymously_verified_unit_14_authority_active",
+  "status": "unit_13_public_both_lineages_anonymously_verified_unit_14_translation_bounded_qa_passed_unit_15_authority_next",
+  "active_cursor": {
+    "unit_id": "o011-brenner-u15",
+    "authority_status": "not_yet_frozen",
+    "previous_unit_id": "o011-brenner-u14",
+    "previous_unit_qa_path": "qa/unit-14/POST_CORRECTION_MATH_QA.json",
+    "previous_unit_qa_bytes": 8498,
+    "previous_unit_qa_sha256": "2b9c5474759e0bc298cb668e9b893ac477edb3e6a9db90ea1b00c19db81ed86e",
+    "next_executable_action": "Run the bounded Unit 15 authority freezer and offline verifier, close its exact exercise, hint, supplied-solution, and media census, then translate Lecture 15 and Worksheet 15 in source order."
+  },
   "authority": {
     "course_pageid": 142521,
     "course_revid": 889544,
@@ -225,22 +234,55 @@
           "O011-CORR-0154",
           "O011-TRANS-0155"
         ]
+      },
+      "unit_14": {
+        "status": "translated_and_bounded_math_qa_passed",
+        "qa_path": "qa/unit-14/POST_CORRECTION_MATH_QA.json",
+        "qa_bytes": 8498,
+        "qa_sha256": "2b9c5474759e0bc298cb668e9b893ac477edb3e6a9db90ea1b00c19db81ed86e",
+        "lecture_target_sha256": "e1ab5149036b72be563774336fea35560e12039946952c5a19b52c612de0073c",
+        "worksheet_target_sha256": "98880cc5c0996175a6f3f60ac6c5098bb4076569f1050cc8136f13662e6cec79",
+        "supplied_solution_target_sha256": {
+          "5": "f881d71e394363e6e5fee0f99e48f7df9d987d2293de6441d07a53ec48f10538",
+          "6": "c3149e898c60aa6d8cdc7a2793357d2a5a1aeefb3fe3715c80a85458af8356d2",
+          "9": "f148e6789525def973c4ea7e09774a79ba8bee627f963b16413a12cf97386928",
+          "11": "1d479e074fd7b518ede0aa33455812bcefb22a3a58b40a6bd716dd45f234b202",
+          "12": "280064a53a5241f7225f068bcd0db7f38c9b9ad3d2de47d1b7cbc549447bed88",
+          "13": "5302b9d778ff9dce9d4d0c6a1f0b20fa63536cea8a119dda10c10a852d20f260",
+          "14": "910a36226b378dc2dc8ada823f052f6edd3caf66300b0c9adbb4a546474381af"
+        },
+        "exercise_count": 18,
+        "supplied_solution_indices": [5, 6, 9, 11, 12, 13, 14],
+        "declared_corrections": [
+          "O011-CORR-0157",
+          "O011-CORR-0158",
+          "O011-CORR-0159",
+          "O011-CORR-0160",
+          "O011-CORR-0161",
+          "O011-CORR-0162",
+          "O011-CORR-0163",
+          "O011-TRANS-0164",
+          "O011-TRANS-0165",
+          "O011-TRANS-0166",
+          "O011-TRANS-0167",
+          "O011-TRANS-0168"
+        ]
       }
     },
-    "active_unit": 13,
-    "remaining_before_consolidated_gate": [],
-    "consolidated_gate_status": "pdf_html_backend_package_zenodo_publication_and_two_anonymous_readbacks_passed"
+    "active_unit": 14,
+    "remaining_before_consolidated_gate": [15, 16],
+    "consolidated_gate_status": "unit_14_bounded_qa_passed_units_15_and_16_pending_before_units_14_through_16_cumulative_gate"
   },
   "current": {
-    "stage": "unit_14_authority_preflight_and_source_order_production",
+    "stage": "unit_15_authority_preflight_and_source_order_production",
     "status": "active",
-    "content_units": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
-    "unit_13_qa_path": "qa/unit-13/POST_CORRECTION_MATH_QA.json",
-    "unit_13_qa_bytes": 17280,
-    "unit_13_qa_sha256": "8adccbf52886be0fe7ecad158c18de0526ff9d1aebbdb37d79f7fee266be0504",
-    "required_surfaces": ["centered_a4_pdf_units_01_through_13", "reflowable_semantic_html_units_01_through_13", "stable_id_backend_units_01_through_13", "complete_units_11_through_13_visual_accessibility_and_reproducibility_qa", "single_existing_concept_zenodo_release", "anonymous_public_byte_readback"],
-    "active_source_order_unit": "o011-brenner-u14",
-    "next_action": "make one bounded existing-lineage GitHub push attempt for the verified Unit 13 checkpoint, then run freeze_unit_authority.py and verify_unit_authority_preflight.py for Unit 14, close its exact exercises/solutions/hints/media census, and translate Lecture 14 plus Worksheet 14 in source order",
+    "content_units": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+    "unit_14_qa_path": "qa/unit-14/POST_CORRECTION_MATH_QA.json",
+    "unit_14_qa_bytes": 8498,
+    "unit_14_qa_sha256": "2b9c5474759e0bc298cb668e9b893ac477edb3e6a9db90ea1b00c19db81ed86e",
+    "required_surfaces": ["bounded_per_unit_translation_and_math_qa_units_14_through_16", "then_centered_a4_pdf_units_01_through_16", "then_reflowable_semantic_html_units_01_through_16", "then_append_only_stable_id_backend_units_01_through_16", "then_existing_lineage_publication_and_anonymous_public_byte_readback"],
+    "active_source_order_unit": "o011-brenner-u15",
+    "next_action": "run freeze_unit_authority.py and verify_unit_authority_preflight.py for Unit 15, close its exact exercise, solution, hint, and media census, and translate Lecture 15 plus Worksheet 15 in source order",
     "previous_batch_milestone": "units_01_through_13_published_in_existing_zenodo_concept_and_twice_anonymously_byte_verified",
     "unit_11": {
       "status": "translated_and_bounded_math_qa_passed",
@@ -327,6 +369,42 @@
       "reader_qa_bytes": 17280,
       "reader_qa_sha256": "8adccbf52886be0fe7ecad158c18de0526ff9d1aebbdb37d79f7fee266be0504",
       "declared_corrections": ["O011-CORR-0135", "O011-TRANS-0136", "O011-TRANS-0137", "O011-TRANS-0138", "O011-TRANS-0139", "O011-TRANS-0140", "O011-CORR-0150", "O011-TRANS-0151", "O011-CORR-0152", "O011-CORR-0153", "O011-CORR-0154", "O011-TRANS-0155"]
+    },
+    "unit_14_authority": {
+      "status": "pass",
+      "lecture_pageid": 142558,
+      "lecture_revid": 897331,
+      "worksheet_pageid": 142648,
+      "worksheet_revid": 1020024,
+      "lecture_source_sha256": "6c14208bd02871b44e60849c627c1e66928cdcabdb0306ad6fbe5407c311abbc",
+      "worksheet_source_sha256": "f6553d7398e700e915dc054527c5f079730bc79d2ebda63f094efb3c9c1d6942",
+      "exercise_count": 18,
+      "graded_exercise_count": 4,
+      "point_total": 20,
+      "supplied_solution_indices": [5, 6, 9, 11, 12, 13, 14],
+      "all_hint_fields_blank": true,
+      "media_asset_count": 0,
+      "preflight_sha256": "926ad51ee3d226573d01a2ec95ce021d9fa3348f968f1f297280890d31f6efab",
+      "offline_verify_sha256": "491c6264512da9955f582dfeca716fac79438874f820d0fb3c5750efc420a533",
+      "repeat_and_anomalies_sha256": "7108be87593dd66e3ee23907018f3a3cb32f60f7f01673cd47befe51de482cc1"
+    },
+    "unit_14": {
+      "status": "translated_and_bounded_math_qa_passed",
+      "lecture_target_sha256": "e1ab5149036b72be563774336fea35560e12039946952c5a19b52c612de0073c",
+      "worksheet_target_sha256": "98880cc5c0996175a6f3f60ac6c5098bb4076569f1050cc8136f13662e6cec79",
+      "supplied_solution_target_sha256": {
+        "5": "f881d71e394363e6e5fee0f99e48f7df9d987d2293de6441d07a53ec48f10538",
+        "6": "c3149e898c60aa6d8cdc7a2793357d2a5a1aeefb3fe3715c80a85458af8356d2",
+        "9": "f148e6789525def973c4ea7e09774a79ba8bee627f963b16413a12cf97386928",
+        "11": "1d479e074fd7b518ede0aa33455812bcefb22a3a58b40a6bd716dd45f234b202",
+        "12": "280064a53a5241f7225f068bcd0db7f38c9b9ad3d2de47d1b7cbc549447bed88",
+        "13": "5302b9d778ff9dce9d4d0c6a1f0b20fa63536cea8a119dda10c10a852d20f260",
+        "14": "910a36226b378dc2dc8ada823f052f6edd3caf66300b0c9adbb4a546474381af"
+      },
+      "reader_qa_path": "qa/unit-14/POST_CORRECTION_MATH_QA.json",
+      "reader_qa_bytes": 8498,
+      "reader_qa_sha256": "2b9c5474759e0bc298cb668e9b893ac477edb3e6a9db90ea1b00c19db81ed86e",
+      "declared_corrections": ["O011-CORR-0157", "O011-CORR-0158", "O011-CORR-0159", "O011-CORR-0160", "O011-CORR-0161", "O011-CORR-0162", "O011-CORR-0163", "O011-TRANS-0164", "O011-TRANS-0165", "O011-TRANS-0166", "O011-TRANS-0167", "O011-TRANS-0168"]
     }
   },
   "standing_push_authorization": true,

@@ -1,0 +1,53 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Wenn {{math|term= f |SZ=}} konstant ist, ist
+{{
+Relationskette
+| df
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+und die Aussage ist klar. Sei {{math|term= f |SZ=}} also nicht konstant. Nach
+{{
+Faktlink
+|Faktseitenname=
+Kompaktheit/Stetige Funktion/Maximum wird angenommen/Fakt
+|Nr=
+|SZ=
+}}
+nimmt die stetige Funktion ein globales Maximum und ein globales Minimum an, sagen wir in den Punkten
+{{
+mathkor|term1=
+P
+|bzw.|term2=
+Q
+|SZ=.
+}}
+Nach
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Differenzierbare Mannigfaltigkeit/Funktion/Extrema/Differentialform/Nullstelle/Aufgabe
+|Nr=
+|SZ=
+}}
+ist dann
+{{
+Relationskette/display
+| (df)_P
+|| (df)_Q
+|| 0
+|| 
+|| 
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

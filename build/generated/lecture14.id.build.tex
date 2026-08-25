@@ -1,0 +1,1593 @@
+\setcounter{section}{14}
+
+  \zwischenueberschrift{Bentuk diferensial pada manifold}
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{.}
+Suatu
+\definitionswortpraemath {k}{ bentuk diferensial }{}
+\zusatzklammer {atau $k$-\definitionswort {bentuk}{} atau \definitionswort {bentuk berderajat}{} $k$} {} {}
+adalah suatu
+\definitionsverweis {penampang}{}{}
+dalam
+\definitionsverweis {produk eksterior}{}{}
+ke-$k$ dari
+\definitionsverweis {bundel kotangen}{}{,}
+yaitu suatu pemetaan
+\maabbeledisp {\omega} { M } { \bigwedge^k T^*M
+} { P } { \omega(P)
+} {,}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \omega(P)
+}
+{ \in }{ \bigwedge^k T_P^*M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+
+Kita melambangkan himpunan semua $k$-bentuk pada $M$ dengan
+
+\mathdisp {{ \mathcal E }^{ k } ( M  )} { . }
+
+\inputbemerkung
+{}
+{
+
+Jadi, suatu $k$-\definitionsverweis {bentuk}{}{}
+memasangkan kepada setiap titik $P$ pada manifold sebuah elemen dari
+\mathl{\bigwedge^k T^*_PM}{}. Berdasarkan
+Korolari 57.9 (Aljabar Linear (Osnabrück 2024-2025))
+dan Teorema 58.4 (Aljabar Linear (Osnabrück 2024-2025)),
+hal ini sama dengan suatu
+\definitionsverweis {pemetaan multilinear}{}{}
+\definitionsverweis {selang-seling}{}{}
+\maabbdisp {} {T_PM \times \cdots \times T_PM } { \R
+} {.}
+Pemetaan yang bersesuaian ini juga kita lambangkan dengan
+\mathl{\omega(P)}{;} untuk $k$
+\definitionsverweis {vektor singgung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ v_1 , \ldots , v_k
+}
+{ \in }{ T_PM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan demikian,
+
+\mathdisp {\omega(P)(v_1 , \ldots , v_k)} {  }
+
+adalah suatu bilangan riil. Di sini muncul dua jenis argumen yang sama sekali berbeda: di satu pihak titik pada manifold, dan di pihak lain elemen-elemen ruang singgung di titik tersebut. Ketergantungan pada vektor-vektor singgung relatif sederhana karena pemetaannya multilinear selang-seling, sedangkan ketergantungan pada titik manifold dapat serumit apa pun. Karena produk-produk eksterior bundel kotangen sendiri merupakan manifold menurut
+Soal 14.2,
+kita dapat langsung membicarakan bentuk diferensial yang kontinu atau
+\zusatzklammer {jika $M$ merupakan manifold $C^2$} {} {}
+diferensiabel.
+
+Untuk
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ruang kotangen hanya muncul secara formal; suatu $0$-bentuk tidak lain adalah sebuah fungsi
+\maabb {f} { M } {\R
+} {.}
+Suatu $1$-bentuk
+\zusatzklammer {juga disebut
+\definitionswortenp{bentuk Pfaff}{}} {} {}
+memasangkan suatu bilangan riil kepada setiap titik $P$ dan setiap vektor singgung pada titik tersebut. Untuk
+
+\mavergleichskette
+{\vergleichskette
+{k
+}
+{ > }{ n
+}
+{ = }{ \operatorname{dim} \, M
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+produk eksterior ke-$k$ adalah ruang nol sehingga sama sekali tidak ada bentuk taktrivial berderajat ini. Kasus yang sangat penting adalah
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ = }{ n
+}
+{ = }{ \operatorname{dim} \, M
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dalam hal ini, produk eksterior ke-$n$ memiliki rank $1$
+\zusatzklammer {artinya, dimensinya $1$ di setiap titik} {} {}
+dan suatu penampang di dalamnya secara lokal dideskripsikan oleh satu fungsi saja. Gambaran yang berguna ialah bahwa, untuk $n$ vektor singgung, bilangan
+\mathl{\omega(P)(v_1 , \ldots , v_n)}{} menyatakan volume
+\zusatzklammer {\anfuehrung{berorientasi}{}} {} {}
+dari paralelotop yang direntang oleh vektor-vektor tersebut di ruang singgung. Gambaran ini juga membantu untuk $k$ yang lebih kecil: dengan
+\mathl{\omega(P) (v_1 , \ldots , v_k)}{} kita dapat menghitung volume berdimensi $k$ dari paralelotop yang dibangkitkan oleh $k$ vektor singgung. Gambaran ini akan dibuat tepat ketika kita mengintegralkan pada suatu
+\definitionsverweis {submanifold tertutup}{}{}
+berdimensi $k$.
+
+}
+
+
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Differentialform/Elementare Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan, untuk
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{},
+misalkan
+\mathl{{ \mathcal E }^{ k } (  M   )}{} himpunan semua
+$k$-\definitionsverweis {bentuk}{}{}
+pada $M$.}
+\faktuebergang {Maka berlaku sifat-sifat berikut.}
+\faktfolgerung {\aufzaehlungfuenf{Dengan operasi-operasi alaminya,
+\mathl{{ \mathcal E }^{ k } (  M   )}{} membentuk
+\definitionsverweis {ruang vektor riil}{}{.}
+}{Untuk suatu bentuk diferensial
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{ k } (  M   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan suatu fungsi
+\maabbdisp {f} { M } {\R
+} {},
+
+\mavergleichskette
+{\vergleichskette
+{ f \omega
+}
+{ \in }{
+{ \mathcal E }^{ k } (  M   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $f \omega$ didefinisikan oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (f \omega)(P)
+}
+{ \defeq} { f(P) \omega (P)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}.
+}{Setiap
+\definitionsverweis {fungsi diferensiabel}{}{}
+$C^1$
+\maabbdisp {f} { M } {\R
+} {}
+melalui
+\definitionsverweis {pemetaan singgung}{}{}
+
+\mathl{Tf}{} mendefinisikan suatu
+$1$-\definitionsverweis {bentuk diferensial}{}{}
+\maabbeledisp {df} { M } { T^*M
+} { P } { T_Pf
+} {,}
+dengan ruang singgung dari $\R$ di
+\mathl{f(P)}{} diidentifikasi dengan $\R$. Hal ini menghasilkan suatu pemetaan
+\maabbeledisp {d} {C^1(M,\R)} {
+{ \mathcal E }^{  1 } (  M   )
+} { f } {df
+} {.}
+}{Jika
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan himpunan bagian terbuka, maka di bawah identifikasi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ TM
+}
+{ \cong} { M \times \R^m
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+pemetaan pada (3) sama dengan
+\maabbeledisp {} { M } { M \times ( \R^m)^*
+} { P } { (P, \left(  D f   \right)_{ P } \left(   -  \right) )
+} {.}
+}{Pemetaan $d$ pada (3) adalah
+$\R$-\definitionsverweis {linear}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{(1) dan (2) langsung mengikuti dari peninjauan titik demi titik.}
+{} \teilbeweis {}{}{}
+{(3). Untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{},
+
+\maabbdisp {T_Pf} { T_PM } { T_{f(P)} \R \cong \R
+} {}
+merupakan suatu
+\definitionsverweis {pemetaan linear}{}{}
+menurut Lemma 9.10  (3),
+dan dengan demikian merupakan elemen dari
+\mathl{T_P^* M}{,} yang kita lambangkan dengan
+\mathl{(df)_P}{}. Oleh karena itu, pemasangan
+\mathl{P \mapsto (df)_P}{} merupakan suatu
+\definitionsverweis {bentuk diferensial}{}{.}}
+{}
+\teilbeweis {}{}{}
+{(4) mengikuti dari
+Lemma 9.10  (1).}
+{}
+\teilbeweis {}{}{}
+{(5). Pemetaan pada (3) ditentukan untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+pada setiap lingkungan terbuka. Karena itu, kita boleh menganggap bahwa
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan himpunan terbuka, sehingga pernyataannya mengikuti dari (4) dan
+Proposisi 45.6 (Analisis (Osnabrück 2021-2023)).}
+{}
+
+}
+
+Untuk suatu himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{},
+tersedia fungsi-fungsi koordinat
+\maabbdisp {x_j} {V} {\R
+} {},
+yang, jika diberikan suatu peta, dapat dipindahkan ke suatu himpunan bagian terbuka dari manifold. Di setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{},
+bentuk-bentuk
+
+\mathbed {dx_j} {}
+ {j=1 , \ldots , n} {}
+ {} {} {} {,}
+membentuk basis ruang kotangen di $Q$. Basis ini tidak lain adalah
+\definitionsverweis {basis dual}{}{}
+dari basis standar di ruang ambien $\R^n$, yang digunakan sebagai ruang singgung di seluruh $V$. Untuk suatu himpunan bagian beranggotakan $k$
+
+\mavergleichskettedisp
+{\vergleichskette
+{ J
+}
+{ =} { \{j_1 , \ldots , j_k\}
+}
+{ \subseteq} { \{1 , \ldots , n\}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{},
+kita tetapkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{  dx_J
+}
+{ =} {  dx_{j_1} \wedge \ldots \wedge dx_{j_k}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+yang merupakan $k$-bentuk yang sangat sederhana pada $V$. Untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{},
+berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ dx_J(Q)
+}
+{ =} { (dx_{j_1} \wedge \ldots \wedge dx_{j_k} )(Q)
+}
+{ =} { dx_{j_1}(Q) \wedge \ldots \wedge dx_{j_k} (Q)
+}
+{ =} { e_{j_1}^* \wedge \ldots \wedge e_{j_k}^*
+}
+{ } {
+}
+}
+{}{}{.}
+Aksi bentuk ini pada
+
+\mavergleichskette
+{\vergleichskette
+{  v_1 \wedge \ldots \wedge v_k
+}
+{ \in }{ \bigwedge^k T_QV
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+, menurut
+Teorema 58.4 (Aljabar Linear (Osnabrück 2024-2025))
+, diberikan oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  e_{j_1}^* \wedge \ldots \wedge e_{j_k}^*  \right)  (v_1 \wedge \ldots \wedge v_k)
+}
+{ =} { \det  \left(  e_{j_i}^*(v_\ell)  \right)_{i \ell}
+}
+{ =} { \det  \left(  (v_\ell)_{j_i}  \right)_{i \ell}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Menurut
+Teorema 58.1 (Aljabar Linear (Osnabrück 2024-2025)),
+nilai-nilai bentuk diferensial
+\zusatzklammer {dengan \mathlk{j_1 <   \ldots < j_k}{}} {} {}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ dx_J
+}
+{ =} { dx_{j_1} \wedge \ldots \wedge dx_{j_k}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+membentuk suatu
+\definitionsverweis {basis}{}{}
+dari
+\mathl{\bigwedge^k T_Q^*V}{}
+untuk setiap titik $Q$. Oleh karena itu, setiap
+\definitionsverweis {bentuk diferensial}{}{} pada $V$ yang berderajat $k$
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{ k } ( V  )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dapat ditulis secara tunggal sebagai
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { \sum_{J,\, { \# \left(  J \right) } = k} f_J dx_J
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan fungsi-fungsi yang ditentukan secara tunggal
+\maabbdisp {f_J} {V} {\R
+} {.}
+
+
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Differentialform/Lokale Beschreibung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {himpunan bagian terbuka}{}{}
+dengan peta
+\maabbdisp {\alpha} { U } { V
+} {},
+dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka. Misalkan
+\maabbdisp {x_j} { U } {\R
+} {}
+fungsi-fungsi koordinat yang bersesuaian,
+
+\mavergleichskette
+{\vergleichskette
+{ 1
+}
+{ \leq }{ j
+}
+{ \leq }{ n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Maka setiap
+\definitionsverweis {bentuk diferensial}{}{} pada $U$ yang berderajat $k$
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{ k } (  U   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dapat ditulis secara tunggal sebagai
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { \sum_{J,\, { \# \left(   J  \right) } = k}  f_J dx_J
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan fungsi-fungsi yang ditentukan secara tunggal
+\maabbdisp {f_J} { U } {\R
+} {.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Hal ini mengikuti dari
+Teorema 58.1 (Aljabar Linear (Osnabrück 2024-2025)).
+
+}
+
+
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Pfaffsche Differentialform zu Funktion/Beschreibung mit partiellen Ableitungen/Fakt}
+{Korolari}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {himpunan bagian terbuka}{}{}
+dengan peta
+\maabbdisp {\alpha} { U } { V
+} {},
+dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka. Misalkan
+\maabbdisp {x_j} { U } {\R
+} {}
+fungsi-fungsi koordinat yang bersesuaian,
+
+\mavergleichskette
+{\vergleichskette
+{ 1
+}
+{ \leq }{j
+}
+{ \leq }{n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Misalkan
+\maabbdisp {f} { U } {\R
+} {}
+suatu
+\definitionsverweis {fungsi diferensiabel}{}{.}}
+\faktfolgerung {Maka $1$-\definitionsverweis {bentuk diferensial}{}{}
+$df$ yang bersesuaian mempunyai representasi\zusatzfussnote {Turunan-turunan
+\mathl{{ \frac{   \partial  f  }{  \partial  x_j  } }}{} diperkenalkan dalam kuliah kedelapan} {.} {}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ df
+}
+{ =} { \sum_{j = 1}^n { \frac{   \partial   f   }{  \partial   x_j   } } dx_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Kita dapat langsung menganggap bahwa semuanya berlangsung pada himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}.
+Untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{},
+berlaku kesamaan berikut antara
+\definitionsverweis {bentuk-bentuk linear}{}{}
+pada $\R^n$,
+
+\mavergleichskettealign
+{\vergleichskettealign
+{(df)_Q
+}
+{ =} { \left(D f \right)_{ Q }
+}
+{ =} { \left(  { \frac{   \partial   f   }{  \partial   x_1   } } ( Q)   , \,   \ldots  , \,   { \frac{   \partial   f   }{  \partial   x_n   } } ( Q)                 \right)
+}
+{ =} { { \frac{   \partial   f   }{  \partial   x_1   } } ( Q) dx_1 + \cdots + { \frac{   \partial   f   }{  \partial   x_n   } } ( Q) dx_n
+}
+{ } {
+}
+}
+{}
+{}{.}
+
+}
+
+  \zwischenueberschrift{Penarikan balik bentuk diferensial}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+\mathkor {} {L} {dan} {M} {}
+\definitionsverweis {dua manifold diferensiabel}{}{}
+dan misalkan
+\maabbdisp {\varphi} { L } { M
+} {}
+suatu
+\definitionsverweis {pemetaan diferensiabel}{}{.}
+Misalkan $\omega$ suatu $k$-\definitionsverweis {bentuk diferensial}{}{}
+pada $M$. Maka pemetaan yang menentukan suatu $k$-bentuk pada $L$ diberikan oleh
+
+\mathdisp {(P ,v_1 , \ldots , v_k) \longmapsto   \omega(\varphi(P), T_P(\varphi)(v_1) , \ldots ,  T_P(\varphi)(v_k) )} {  }
+
+Pemetaan ini merupakan
+\definitionsverweis {pemetaan selang-seling}{}{}.
+Bentuk yang bersesuaian dengannya disebut, terhadap $\varphi$, \definitionswort {bentuk tarik balik}{} berderajat $k$. Bentuk ini dilambangkan dengan
+
+\mathdisp {\varphi^* \omega} {  }.
+
+}
+
+
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Differenzierbare Abbildung/Zurückziehen von Differentialformen/Elementare Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+\mathkor {} {L} {dan} {M} {}
+\definitionsverweis {dua manifold diferensiabel}{}{}
+dan
+\maabbdisp {\varphi} { L } { M
+} {}
+suatu
+\definitionsverweis {pemetaan diferensiabel}{}{.}}
+\faktuebergang {Maka
+\definitionsverweis {penarikan balik bentuk diferensial}{}{}
+memenuhi sifat-sifat berikut.}
+\faktfolgerung {\aufzaehlungvier{Untuk suatu fungsi
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \in }{ \operatorname{Map} (M,\R)
+}
+{ = }{
+{ \mathcal E }^{  0 } (  M   )
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{},
+berlaku
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi^*(f)
+}
+{ = }{ f \circ \varphi
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Pemetaan-pemetaan
+\maabbeledisp {\varphi^*} {
+{ \mathcal E }^{ k } (  M   ) } {
+{ \mathcal E }^{ k } (  L   )
+} { \omega} { \varphi^* \omega
+} {,}
+adalah
+$\R$-\definitionsverweis {linear}{}{.}
+}{Jika
+
+\mavergleichskette
+{\vergleichskette
+{ L
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan suatu
+\definitionsverweis {submanifold terbuka}{}{,}
+dan pemetaan di atas adalah inklusi, maka penarikan balik suatu bentuk diferensial $\omega$ tidak lain adalah pembatasan
+\mathl{\omega \vert_L}{} pada himpunan bagian ini.
+}{Misalkan $N$ suatu manifold diferensiabel lain dan
+\maabbdisp {\psi} { M } { N
+} {}
+suatu pemetaan diferensiabel lain. Maka berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ ( \psi \circ \varphi )^*(\omega)
+}
+{ =} { \varphi^*(\psi^*(\omega))
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk setiap bentuk diferensial
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{ k } (  N   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{(1) langsung mengikuti dari
+Definisi 14.6.}
+{}
+\teilbeweis {}{}{}
+{(2). Untuk bentuk-bentuk diferensial
+\mathkor {} {\omega_1} {dan} {\omega_2} {}
+dan skalar-skalar
+
+\mavergleichskette
+{\vergleichskette
+{ a,b
+}
+{ \in }{\R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{},
+kita harus menunjukkan bahwa
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi^*(a \omega_1+ b \omega_2)
+}
+{ = }{ a \varphi^* \omega_1 + b \varphi^* \omega_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}.
+Kesamaan bentuk diferensial semacam ini berarti bahwa kesamaan tersebut berlaku di setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan untuk setiap $k$-tupel vektor singgung
+
+\mavergleichskette
+{\vergleichskette
+{ v_1 , \ldots , v_k
+}
+{ \in }{ T_PL
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}.
+Karena itu, pernyataannya mengikuti dari
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left(  \varphi^*(a \omega_1 + b \omega_2)  \right) \left(  P, v_1 , \ldots , v_k  \right)
+}
+{ =} { (a \omega_1 + b \omega_2) \left(  \varphi(P), T_P(\varphi)(v_1) , \ldots ,  T_P(\varphi)(v_k)  \right)
+}
+{ =} { a \omega_1 \left(  \varphi(P), T_P(\varphi)(v_1) , \ldots ,  T_P(\varphi)(v_k)  \right)
+}
+{ \,\,\,\, \,} {+ b \omega_2 \left(  \varphi(P), T_P(\varphi)(v_1) , \ldots ,  T_P(\varphi)(v_k)  \right)
+}
+{ =} { \left(  a  \varphi^* \omega_1  \right)(P, v_1 , \ldots , v_k)  + \left(  b \varphi^* \omega_2  \right) (P, v_1 , \ldots , v_k)
+}
+}
+{}
+{}{.}}
+{}
+\teilbeweis {}{}{}
+{(3) langsung mengikuti dari definisi.}
+{}
+\teilbeweis {}{}{}
+{(4). Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ u_1 , \ldots , u_k
+}
+{ \in }{ T_QL
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{},
+dan $\omega$ suatu $k$-bentuk pada $N$. Maka, dengan menggunakan
+Lemma 9.10  (4),
+berlaku
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{(( \psi \circ \varphi)^* (\omega))(Q, u_1 , \ldots , u_k)
+}
+{ =} { \omega \left(  ( \psi \circ \varphi) (Q), T_Q( \psi \circ \varphi)(u_1) , \ldots , T_Q(  \psi \circ \varphi) (u_k)  \right)
+}
+{ =} { \omega \left(  \psi ( \varphi (Q)), \left(  T_{\varphi(Q)}\psi  \right)  ((T_Q\varphi)(u_1)) , \ldots , \left(  T_{\varphi(Q)} \psi  \right) ((T_Q\varphi)(u_k))  \right)
+}
+{ =} { \left(  \psi^*(\omega)  \right) \left(  \varphi(Q),T_Q(\varphi)(u_1) , \ldots , T_Q(\varphi)(u_k)  \right)
+}
+{ =} { \left(  \varphi^* \left(  \psi^*(\omega)  \right)   \right) (Q,u_1 , \ldots , u_k)
+}
+}
+{}{}{,}
+dan inilah pernyataannya.}
+{}
+
+}
+
+
+
+\inputfaktbeweis
+{Offene Mengen/Differenzierbare Abbildung/Zurückziehen von Differentialformen/In Koordinaten/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+\mathkor {} {U \subseteq \R^n} {dan} {V \subseteq \R^m} {}
+\definitionsverweis {himpunan-himpunan bagian terbuka}{}{,}
+dengan koordinat masing-masing dilambangkan
+\mathl{x_1 , \ldots , x_n}{} dan
+\mathl{y_1 , \ldots , y_m}{}. Misalkan
+\maabbdisp {\varphi} { U } { V
+} {}
+suatu
+\definitionsverweis {pemetaan diferensiabel}{}{}
+dan misalkan $\omega$ suatu
+$k$-\definitionsverweis {bentuk diferensial}{}{}
+pada $V$ dengan representasi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { \sum_{I,\, { \# \left(   I  \right) } = k}  f_I  dy_I
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dengan
+\maabb {f_I} { V } {\R
+} {}
+merupakan
+\definitionsverweis {fungsi-fungsi}{}{.}}
+\faktfolgerung {Maka
+\definitionsverweis {bentuk tarik balik}{}{}
+mempunyai representasi
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \varphi^* \omega
+}
+{ =} { \sum_{I,\, { \# \left(   I  \right) } = k}  \left(  f_I \circ \varphi  \right)  \left( \sum_{J,\, { \# \left(   J  \right) } = k} \det  \left(  \left(  { \frac{   \partial  \varphi_i   }{  \partial   x_j   } }  \right)_{ i \in I, j \in J}  \right)  dx_J \right)
+}
+{ =} { \sum_{J,\, { \# \left(   J  \right) } = k}   \left( \sum_{I,\, { \# \left(   I  \right) } = k} \left(  f_I \circ \varphi  \right)  \det  \left(  \left(  { \frac{   \partial  \varphi_i   }{  \partial   x_j   } }  \right)_{ i \in I, j \in J}  \right)  \right)  dx_J
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Kesamaan kedua didasarkan pada pengaturan ulang yang sederhana. Berdasarkan
+Lemma 14.7 (2),
+kita dapat membatasi diri pada kasus
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ f_Idy_I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}.
+Kita tetapkan
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ = }{ f_I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan boleh menganggap
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ = }{ \{ 1 , \ldots , k \}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}.
+Kita menunjukkan kesamaan antara kedua $k$-bentuk pada $U$ dengan menunjukkan bahwa keduanya menghasilkan nilai yang sama untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan setiap produk eksterior
+\mathl{e_{j_1 } \wedge \ldots \wedge e_{j_k }}{} dengan
+
+\mavergleichskette
+{\vergleichskette
+{ 1
+}
+{ \leq }{ j_1
+}
+{ < }{ \ldots
+}
+{ <   }{ j_k
+}
+{ \leq  }{ n
+}
+}
+{}{}{}.
+Di satu pihak,
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \varphi^*( f dy_1 \wedge \ldots \wedge dy_k)(P,e_{j_1 } \wedge \ldots \wedge e_{j_k }  )
+}
+{ =} { ( f dy_1 \wedge \ldots \wedge dy_k)(\varphi(P),T_P(\varphi)(e_{j_1 }) \wedge \ldots \wedge T_P(\varphi)(e_{j_k }))
+}
+{ =} { f(\varphi(P)) (dy_1 \wedge \ldots \wedge dy_k)( \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial   x_{j_1 }  } } (P )  \\\vdots\\  { \frac{   \partial  \varphi_m   }{  \partial   x_{j_1 }  } } (P )   \end{pmatrix} \wedge \ldots \wedge \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial   x_{j_k }  } } (P )  \\\vdots\\  { \frac{   \partial  \varphi_m   }{  \partial   x_{j_k }  } } (P )   \end{pmatrix} )
+}
+{ =} { f(\varphi(P)) \cdot \det  \left(  (dy_i) \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial   x_{j_\ell}  } } (P )  \\\vdots\\  { \frac{   \partial  \varphi_m   }{  \partial   x_{j_\ell}  } } (P )   \end{pmatrix}  \right)_{1 \leq i, \ell \leq k}
+}
+{ =} { f(\varphi(P)) \cdot \det  \left(  { \frac{   \partial  \varphi_i   }{  \partial   x_{j_\ell}  } } (P )  \right)_{1 \leq i, \ell \leq k}
+}
+}
+{}{}{.}
+Di pihak lain, jika jumlah tersebut diterapkan pada
+\mathl{e_{j_1 } \wedge \ldots \wedge e_{j_k }}{},
+maka
+
+\mavergleichskette
+{\vergleichskette
+{ dx_J (e_{j_1 } \wedge \ldots \wedge e_{j_k })
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kecuali apabila
+
+\mavergleichskette
+{\vergleichskette
+{ J
+}
+{ = }{ \{j_1 , \ldots , j_k\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dan dalam kasus itu nilainya $1$, sehingga diperoleh nilai yang sama.
+
+}
+
+
+
+\inputfaktbeweis
+{Offene Mengen/Differenzierbare Abbildung/Zurückziehen von Volumenform auf gleichdimensionalem Raum/In Koordinaten/Fakt}
+{Korolari}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ U,V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {himpunan-himpunan bagian terbuka}{}{,}
+dengan koordinat masing-masing dilambangkan
+\mathl{x_1 , \ldots , x_n}{} dan
+\mathl{y_1 , \ldots , y_n}{}. Misalkan
+\maabbdisp {\varphi} { U } { V
+} {}
+suatu
+\definitionsverweis {pemetaan diferensiabel}{}{}
+dan misalkan $\omega$ suatu
+$n$-\definitionsverweis {bentuk diferensial}{}{}
+pada $V$ dengan representasi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { f dy_1 \wedge \ldots \wedge dy_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktfolgerung {Maka
+\definitionsverweis {bentuk tarik balik}{}{}
+mempunyai representasi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi^* \omega
+}
+{ =} { (f \circ \varphi) \cdot \det  \left(  \left(  { \frac{   \partial  \varphi_i   }{  \partial   x_j   } }  \right)_{1 \leq  i, j \leq n}  \right) dx_1 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+{ } {}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Hal ini langsung mengikuti dari
+Lemma 14.8.
+
+}
+Dengan demikian, fungsi-fungsi yang mendeskripsikan suatu bentuk diferensial mempunyai perilaku transformasi yang sama dengan kerapatan berorientasi pada suatu peta. Untuk kerapatan ukuran positif, faktor determinannya harus diganti dengan nilai mutlak determinan.
+
+
+
+\inputfaktbeweis
+{Differentialform/Lokal/Zurückziehen unter partiell konstanter Abbildung/Fakt}
+{Korolari}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {himpunan-himpunan bagian terbuka}{}{,}
+dengan koordinat masing-masing dilambangkan
+\mathl{x_1 , \ldots , x_n}{} dan
+\mathl{y_1 , \ldots , y_m}{}. Misalkan
+\maabbdisp {\varphi} { U } { V
+} {}
+suatu
+\definitionsverweis {pemetaan diferensiabel}{}{}
+dengan
+\mathl{\varphi_{i_0 }}{} konstan untuk suatu
+
+\mavergleichskette
+{\vergleichskette
+{ i_0
+}
+{ \in }{ \{1 , \ldots , m\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{},
+dan misalkan $\omega$ suatu
+$k$-\definitionsverweis {bentuk diferensial}{}{}
+pada $V$ dengan representasi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { f dy_I
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ i_0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Maka
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi^*\omega
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Menurut
+Lemma 14.8,
+berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi^* \omega
+}
+{ =} { \sum_{J,\, { \# \left(   J  \right) } = k} (f \circ \varphi) \cdot \det  \left(  \left(  { \frac{   \partial  \varphi_i   }{  \partial   x_j   } }  \right) _{ i \in I, j \in J}  \right) dx_J
+}
+{ } {
+}
+{ } {
+}
+{ } {}
+}
+{}{}{.}
+Karena
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial  \varphi_{i_0 }  }{  \partial   x_j   } }
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk semua
+
+\mavergleichskette
+{\vergleichskette
+{ j
+}
+{ \in }{ J
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+untuk setiap $J$, matriks tersebut mempunyai satu baris bernilai $0$, sehingga semua determinannya bernilai $0$.
+
+}

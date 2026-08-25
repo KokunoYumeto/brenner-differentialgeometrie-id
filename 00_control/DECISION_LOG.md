@@ -1217,3 +1217,39 @@ SHA-256 and MD5 identities. Receipt
 `qa/unit-13/GITHUB_PUBLIC_READBACK_RECEIPT_R1.json` is 4,519 bytes, SHA-256
 `0c1f7061114402df477ddcb7817b5746d8f22c82ef13f38a48eea373d28d0ad8`.
 Unit 14 authority closure is now the active production cursor.
+
+## D057 — Unit 14 translation and bounded per-unit QA pass
+
+**Decision:** accept the complete Unit 14 lecture/worksheet pair and every
+source-supplied solution as the first translated unit in the next three-unit
+production batch. Preserve the already-public Unit 13 PDF, HTML, backend, and
+publication bytes; defer the next cumulative reader/backend/release gate until
+Units 15 and 16 also pass their bounded per-unit gates.
+
+**Authority and closure:** the repeatable authority freeze binds Lecture 14 at
+pageid/revid `142558/897331` and Worksheet 14 at `142648/1020024`. Expanded
+source SHA-256 values are
+`6c14208bd02871b44e60849c627c1e66928cdcabdb0306ad6fbe5407c311abbc`
+and `f6553d7398e700e915dc054527c5f079730bc79d2ebda63f094efb3c9c1d6942`.
+The worksheet contains exactly 18 exercises: 14 practice and four graded
+items worth 6, 4, 4, and 6 points. All 18 hints are blank. Exactly Solutions
+5, 6, 9, 11, 12, 13, and 14 are supplied; the remaining eleven problems do
+not receive invented source solutions. The unit has zero media.
+
+**Reader and verification evidence:** Lecture 14 is 27,295 bytes, SHA-256
+`e1ab5149036b72be563774336fea35560e12039946952c5a19b52c612de0073c`;
+Worksheet 14 is 10,760 bytes, SHA-256
+`98880cc5c0996175a6f3f60ac6c5098bb4076569f1050cc8136f13662e6cec79`.
+All seven supplied solution targets and all nine translation/preparation
+chains are hash-current. Independent language and mathematical review passes
+with no reader-facing residual German. Seven mathematical source repairs and
+five protected reader-language changes are explicitly recorded as
+`O011-CORR-0157` through `O011-TRANS-0168`; none is silent. The binding receipt
+`qa/unit-14/POST_CORRECTION_MATH_QA.json` is 8,498 bytes, SHA-256
+`2b9c5474759e0bc298cb668e9b893ac477edb3e6a9db90ea1b00c19db81ed86e`.
+
+**Boundary:** Unit 14 is translated and bounded-QA complete. No cumulative
+PDF, semantic HTML, stable-ID backend, package, publication, or public-byte
+readback is claimed for this unit alone. Advance directly to the bounded Unit
+15 authority freeze and source-order translation; the next consolidated gate
+opens after Unit 16 closes.

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-14/worksheet14.id.tex",
+  "input_bytes": 10760,
+  "input_sha256": "98880cc5c0996175a6f3f60ac6c5098bb4076569f1050cc8136f13662e6cec79",
+  "output": "build/generated/worksheet14.id.build.tex",
+  "output_bytes": 10606,
+  "output_sha256": "580bc969ff3e6a4b51bcd625f83fb608028a6aad1790fee455edc42ac47e9c8d",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Totale Differenzierbarkeit/K/Kettenregel/Fakt",
+      "label": "aturan rantai"
+    },
+    {
+      "target": "Mannigfaltigkeit/Dachprodukte des Kotangentialbündels/Topologie/Aufgabe",
+      "label": "Soal 14.1"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

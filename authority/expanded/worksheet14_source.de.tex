@@ -1,0 +1,730 @@
+\setcounter{section}{14}
+
+  \zwischenueberschrift{Übungsaufgaben}
+
+\inputaufgabe
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+mit dem
+\definitionsverweis {Kotangentialbündel}{}{}
+
+\mathl{T^*M}{.} Zeige, dass man auf
+\mathl{\bigwedge^k T^*M}{} für jedes $k$ eine
+\definitionsverweis {Topologie}{}{}
+erklären kann, bei der für jede Karte
+\maabb {\alpha} { U } { V
+} {}
+die Abbildung
+\maabbdisp {} {\bigwedge^k T^*U} { \bigwedge^k T^*V \cong V \times \bigwedge^k \R^{n*}
+} {}
+eine
+\definitionsverweis {Homöomorphie}{}{}
+ist.
+
+}
+{} {}
+Damit kann man von stetigen und auch von messbaren Differentialformen sprechen.
+
+\inputaufgabe
+{}
+{
+
+Es sei $M$ eine
+$C^2$-\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+mit dem
+\definitionsverweis {Kotangentialbündel}{}{}
+
+\mathl{T^*M}{.} Zeige, dass
+\mathl{\bigwedge^k T^*M}{} für jedes $k$ eine differenzierbare Mannigfaltigkeit ist.
+
+}
+{} {}
+Damit kann man auch von stetig differenzierbaren Differentialformen sprechen. Allgemeiner gilt: Wenn $M$ eine
+$C^m$-\definitionsverweis {Mannigfaltigkeit}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{  \ell
+}
+{ < }{ m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist, so bezeichnet man mit
+\mathl{{ \mathcal E }^{ k }_{\ell } ( U  )}{} die Menge der $\ell$-fach stetig differenzierbaren $k$-Differentialformen.
+
+\inputaufgabe
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und
+\mathl{{ \mathcal E }^{ k } (  M   )}{} die Menge der
+$k$-\definitionsverweis {Formen}{}{}
+auf $M$. Zeige, dass ${ \mathcal E }^{ k } (  M   )$ ein
+$R$-\definitionsverweis {Modul}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{R
+}
+{ = }{ C^0(M,\R)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Punkt und
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ \in }{ C^1(M,\R)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{.}
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {Tangentialvektor}{}{,}
+der durch einen differenzierbaren Weg
+\maabbdisp {\gamma} {{]{-\delta},\delta [}} {M
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(0)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+repräsentiert werde. Zeige die Gleichheit
+
+\mavergleichskettedisp
+{\vergleichskette
+{(df)(P,v)
+}
+{ =} { (f \circ \gamma)'(0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und
+\maabbdisp {f} { M } {\R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{.}
+Die Funktion habe im Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {lokales Extremum}{}{.}
+Zeige
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (df)_P
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {kompakte}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und
+\maabbdisp {f} { M } {\R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{.}
+Zeige, dass es zumindest zwei Punkte auf $M$
+\zusatzklammer {vorausgesetzt, dass $M$ zumindest zwei Punkte besitzt} {} {}
+gibt, wo die
+$1$-\definitionsverweis {Differentialform}{}{}
+$df$ verschwindet.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+\mathl{i: M\subseteq \R^n}{} eine
+\definitionsverweis {abgeschlossene Untermannigfaltigkeit}{}{.}
+Zeige, dass für eine
+\definitionsverweis {differenzierbare Funktion}{}{}
+\maabbdisp {f} {\R^n } {\R
+} {}
+die Beziehung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ i^* (df)
+}
+{ =} { d(f \circ i )
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gilt.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+\maabbeledisp {f} {\R} {\R
+} { t } {f(t)
+} {,}
+eine
+\definitionsverweis {stetig differenzierbare}{}{}
+\definitionsverweis {Funktion}{}{}
+und es sei
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ g(s)ds
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+$1$-\definitionsverweis {Differentialform}{}{}
+auf $\R$. Bestimme
+\mathl{f^* \omega}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Wir betrachten die Abbildung
+\maabbeledisp {\varphi} {\R^3} {\R^2
+} {(x,y,z)} {(xyz^2,xy-z^3)
+} {.}
+Berechne die Matrix der Abbildung
+\maabbdisp {\bigwedge^2 T_P (\varphi)} { \bigwedge^2 T_P \R^3 } { \bigwedge^2 T_{\varphi(P)}  \R^2
+} {}
+im Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ (1,3,5)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bezüglich einer geeigneten Basis.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Wir betrachten die
+\definitionsverweis {stetig differenzierbare Abbildung}{}{}
+\maabbeledisp {\varphi} {\R^2 \setminus \{(0,0)\}} {\R^2 \setminus \{(0,0)\}
+} {(u,v)} {(u^2,v^3-u)
+} {,}
+und die
+$2$-\definitionsverweis {Differentialform}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { { \frac{   1  }{  x^2+y^2 } } dx \wedge dy
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Bestimme die
+\definitionsverweis {zurückgezogene Differentialform}{}{}
+
+\mathl{\varphi^* \omega}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Wir betrachten die
+$1$-\definitionsverweis {Differentialform}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { -vdu+udv
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf der
+$1$-\definitionsverweis {Sphäre}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ S^1
+}
+{ \subset }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei die Koordinaten des umgebenden $\R^2$ mit
+\mathkor {} {u} {und} {v} {}
+bezeichnet seien. Bestimme
+\mathl{\pi^* \omega}{} unter der
+\definitionsverweis {stetig differenzierbaren}{}{}
+Abbildung
+\maabbeledisp {\pi} {\R^2 \setminus \{0\}} { S^{1}
+} {(x , y) } { { \frac{   1  }{  \sqrt{x^2 + y^2}  } } (x , y)
+} {.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Berechne die zurückgezogene Differentialform
+\mathl{\varphi^* \tau}{} zu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \tau
+}
+{ =} { dx \wedge dy \wedge dz - w dx \wedge dy \wedge dw + \cos (xy)  dx \wedge dz \wedge dw-yw dy \wedge dz \wedge dw
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+unter der Abbildung
+\maabbeledisp {\varphi} {\R^3} {\R^4
+} {(r,s,t)} { (r^2s,t, \sin  r ,e^{st}) = (x,y,z,w)
+} {.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es sei
+\maabbdisp {\psi} { L } { M
+} {}
+eine
+\definitionsverweis {differenzierbare Abbildung}{}{}
+zwischen
+\definitionsverweis {differenzierbaren Mannigfaltigkeiten}{}{,}
+es sei
+\maabbdisp {f} { M } {\R
+} {}
+eine Funktion auf $M$ und $\omega$ eine
+$k$-\definitionsverweis {Form}{}{}
+auf $M$. Zeige
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \psi^*(f \omega)
+}
+{ =} { \psi^*(f)  \psi^* \omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es seien
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offene Teilmengen}{}{}
+und sei
+\maabbdisp {\psi} { W } { U
+} {}
+eine
+\definitionsverweis {stetig differenzierbare}{}{}
+\definitionsverweis {Abbildung}{}{.}
+Es sei
+\maabbdisp {f} { U } {\R
+} {}
+eine stetig differenzierbare Funktion. Folgere aus der
+[[Totale Differenzierbarkeit/K/Kettenregel/Fakt|Kettenregel]],
+dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d (\psi^*f)
+}
+{ =} { \psi^*(df)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gilt, wobei $\psi^*$ das
+\definitionsverweis {Zurückziehen von Differentialformen}{}{}
+bezeichnet.
+
+}
+{} {}
+
+  \zwischenueberschrift{Aufgaben zum Abgeben}
+
+\inputaufgabe
+{6}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+mit dem
+\definitionsverweis {Kotangentialbündel}{}{}
+
+\mathl{T^*M}{.} Es sei $\omega$ eine
+$k$-\definitionsverweis {Differentialform}{}{,} also eine Abbildung
+\maabbdisp {\omega} { M } {\bigwedge^k T^*M
+} {}
+mit
+\mathl{\omega(P) \in \bigwedge^k T^*_P M}{} für alle
+\mathl{P \in M}{,} wobei dieses Dachprodukt mit der natürlichen Topologie
+\zusatzklammer {siehe
+[[Mannigfaltigkeit/Dachprodukte des Kotangentialbündels/Topologie/Aufgabe|Aufgabe 14.1]]} {} {} versehen sei. Zeige, dass die folgenden Aussagen äquivalent sind:
+\aufzaehlungdrei{ $\omega$ ist
+\definitionsverweis {
+stetig}{}{.}
+}{Für jede
+\definitionsverweis {Karte}{}{}
+\maabb {\alpha} { U } { V
+} {}
+mit
+\mathl{V \subseteq \R^n}{} und mit der lokalen Darstellung
+\mathl{\alpha_* \omega =  \sum_{J,\, { \# \left(   J  \right) } =k} f_J dx_J}{} sind die Funktionen $f_J$ stetig.
+}{Es gibt eine offene Überdeckung
+\mathl{M= \bigcup_{i \in I} U_i}{} mit
+\definitionsverweis {Kartengebieten}{}{} $U_i$ derart, dass in den lokalen Darstellungen
+\mathl{\alpha_{i*} \omega =  \sum_{J,\, { \# \left(   J  \right) } =k} f_{i J} dx_J}{} die Funktionen $f_{i J}$ stetig sind.
+}
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Es sei
+\maabbdisp {\varphi} { L } { M
+} {}
+eine
+\definitionsverweis {differenzierbare Abbildung}{}{}
+zwischen zwei
+\definitionsverweis {differenzierbaren Mannigfaltigkeiten}{}{}
+\mathkor {} {L} {und} {M} {.}
+Es seien
+\mathkor {} {\omega \in
+{ \mathcal E }^{ k } (  M   )} {und} {\tau \in
+{ \mathcal E }^{  \ell } (  M   )} {}
+\definitionsverweis {Differentialformen}{}{} auf $M$. Zeige die Gleichung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi^* ( \omega \wedge \tau)
+}
+{ =} {\varphi^* \omega \wedge \varphi^* \tau
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Wir betrachten die
+\definitionsverweis {stetig differenzierbare Abbildung}{}{}
+\maabbeledisp {\varphi} {\R^3 \setminus \{(0,0,0)\}} {N = \left\{ (x,y,z) \in \R^3  \mid   z \neq 0        \right\}
+} {(u,v,w)} {(uvw,u^2-vw^5,u^2+v^2+w^2)
+} {,}
+und die
+$2$-\definitionsverweis {Differentialform}{}{}
+
+\mathdisp {\omega =  z^2dx \wedge dy+{ \frac{   xy }{ z } }dx \wedge dz+(xe^y-z)dy \wedge dz} {  }
+
+auf $N$. Bestimme die
+\definitionsverweis {zurückgezogene Differentialform}{}{}
+
+\mathl{\varphi^* \omega}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{6}
+{
+
+Wir betrachten die
+\definitionsverweis {Einheitssphäre}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ S^2
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei die Koordinaten des $\R^3$ mit $x,y,z$ bezeichnet seien. Für welche Punkte
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ S^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bilden die Einschränkungen von
+\mathkor {} {dx} {und} {dy} {}
+auf $S^2$ eine
+\definitionsverweis {Basis}{}{}
+des
+\definitionsverweis {Kotangentialraums}{}{}
+
+\mathl{T^*_PS^2}{.}
+
+}
+{} {}
+
+ [[Kategorie:Latexseite]]

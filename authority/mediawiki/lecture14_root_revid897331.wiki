@@ -1,0 +1,24 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesungsgestaltung|14|
+
+{{Zwischenüberschrift|Differentialformen auf Mannigfaltigkeiten}}
+
+{{:Differentialformen auf Mannigfaltigkeiten/Einführung/Textabschnitt|zusatz1={{
+Zusatz/Fußnote
+|text=Die Ableitungen {{mathl|term= {{op:Partielle Ableitung|f|x_j}} |SZ=}} wurden in der achten Vorlesung eingeführt|
+|ISZ=.|ESZ=
+}}}} 
+
+{{Zwischenüberschrift|Das Zurückziehen von Differentialformen}}
+
+{{:Differentialformen auf Mannigfaltigkeiten/Zurückziehen unter Abbildungen/Textabschnitt|}}
+Die beschreibenden Funktionen zu einer Differentialform haben also das gleiche Transformationsverhalten wie die Dichten, die auf einer Karte ein kontinuierliches Maß auf einer Mannigfaltigkeit beschreiben.
+
+{{
+inputfaktbeweis
+|Differentialform/Lokal/Zurückziehen unter partiell konstanter Abbildung/Fakt|Korollar||
+||
+}}
+
+{{Fußnotenliste}}
+
+}}

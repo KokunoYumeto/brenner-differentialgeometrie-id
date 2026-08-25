@@ -1,0 +1,69 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es sei
+{{
+Relationskette
+| P
+| \in |  U
+| \subseteq | M
+||
+||
+|SZ=
+}}
+ein 
+{{
+Definitionslink
+|Prämath=
+|Kartengebiet|
+|Kontext=Mfkt|
+|SZ=
+}}
+mit der Karte
+{{
+Abbildung
+|name= \alpha
+| U |V \subseteq \R^n
+||
+|SZ=.
+}}
+Dann besitzt auch {{mathl|term=  f \circ \alpha^{-1} |SZ=}} im Punkt {{math|term= \alpha(P) |SZ=}} ein lokales Extremum.
+Daher ist nach
+{{
+Faktlink
+|Faktseitenname=
+Lokales Extremum/Richtungsableitung/Totales Differential/Fakt
+|Nr=2
+|SZ=
+}}
+das 
+{{
+Definitionslink
+|Prämath=
+|totale Differential|
+|Kontext=|
+|SZ=
+}}
+{{
+Abbildung/display
+|name= {{op:Totales Differential| f \circ \alpha^{-1} |\alpha(P) }} 
+|\R^n |\R
+||
+|SZ=
+}}
+die Nullabbildung. Daher ist
+{{
+Relationskette
+| (df)_P
+|| 0
+|| 
+|| 
+|| 
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

@@ -1,0 +1,62 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es ist
+{{
+Relationskette/display
+|dx
+|| d(r^2s) 
+|| 2rs dr  +r^2ds
+||
+||
+|SZ=,
+}}
+{{
+Relationskette/display
+|dy
+|| dt
+||
+||
+||
+|SZ=,
+}}
+{{
+Relationskette/display
+|dz
+|| d ({{op:sin| r |}} )
+|| {{op:cos| r |}}  dr
+||
+||
+|SZ=
+}}
+und
+{{
+Relationskette/display
+|dw
+|| d(e^{st})
+|| se^{st} dt+te^{st} ds
+||
+||
+|SZ=.
+}}
+Damit ist
+{{
+Relationskette/align
+| \varphi^* \tau
+|| d(r^2s) \wedge dt \wedge d( {{op:sin| r |}} )  -e^{st} d(r^2s) \wedge dt \wedge d(e^{st}) 
+|\, \, \, \, |+ {{op:cos|(r^2st)|}}  d (r^2s) \wedge d ( {{op:sin| r |}} ) \wedge d(e^{st}) - te^{st} dt \wedge d( {{op:sin| r |}} ) \wedge d(e^{st})
+|| r^2 {{op:cos|(r^2st)|}} {{op:cos| r |}}  ds \wedge dt \wedge dr  - 2rs t e^{st} e^{st} dr \wedge dt \wedge ds
+|\, \, \, \,| + r^2 se^{st} {{op:cos| r |}}  ds \wedge dr \wedge dt  -  t^2 e^{st}  e^{st} {{op:cos| r |}} dt \wedge dr \wedge ds
+|| (r^2 {{op:cos| r |}} +2 rst e^{2st} - r^2 s e ^{st} {{op:cos|(r^2st)|}} {{op:cos| r |}} - t^2e^{ 2st} {{op:cos| r |}}     )  dr \wedge ds \wedge dt
+|SZ=
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

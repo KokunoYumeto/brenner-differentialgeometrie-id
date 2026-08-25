@@ -1,0 +1,68 @@
+Es ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \pi^*du
+}
+{ =} { d (u \circ \pi)
+}
+{ =} { d   \left(  { \frac{   x  }{  \sqrt{x^2 + y^2}  } }  \right)
+}
+{ =} { { \frac{   \partial   \left(  { \frac{   x  }{  \sqrt{x^2 + y^2}  } }  \right)    }{  \partial   x  } }   dx + { \frac{   \partial   \left(  { \frac{   x  }{  \sqrt{x^2 + y^2}  } }  \right)    }{  \partial   y  } } dy
+}
+{ =} { { \frac{   \sqrt{x^2+y^2}     -x^2 (x^2 + y^2)^{-1/2}  }{  x^2+y^2  } }  dx   - { \frac{   xy }{  \sqrt{x^2+y^2}^3  } }  dy
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { { \frac{   x^2+y^2 -x^2    }{  \sqrt{ x^2+y^2}^3  } }  dx  - { \frac{   xy }{  \sqrt{x^2+y^2}^3  } }  dy
+}
+{ =} { { \frac{   y^2  }{  \sqrt{ x^2+y^2}^3  } }  dx  - { \frac{   xy }{  \sqrt{x^2+y^2}^3  } }  dy
+}
+{ } {}
+{ } {}
+}
+{}{}
+und
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \pi^*dv
+}
+{ =} { d (v \circ \pi)
+}
+{ =} { d \left(  { \frac{   y  }{  \sqrt{x^2 + y^2}  } }  \right)
+}
+{ =} { { \frac{   \partial   \left(  { \frac{   y  }{  \sqrt{x^2 + y^2}  } }  \right)   }{  \partial   x  } } dx + { \frac{   \partial   \left(  { \frac{   y  }{  \sqrt{x^2 + y^2}  } }  \right)    }{  \partial   y  } } dy
+}
+{ =} { { \frac{   -xy }{  \sqrt{x^2+y^2}^3  } } dx + { \frac{   \sqrt{x^2+y^2} -y^2 (x^2 + y^2)^{-1/2}  }{  x^2+y^2  } } dy
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { { \frac{   -xy }{  \sqrt{x^2+y^2}^3  } } dx + { \frac{   x^2  }{  \sqrt{x^2+y^2}^3  } }  dy
+}
+{ } {
+}
+{ } {}
+{ } {}
+}
+{}{.}
+Somit ist
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \pi^*(-vdu+udv)
+}
+{ =} { - (v \circ \pi)  \pi^*du + (u \circ \pi) \pi^*dv
+}
+{ =} { - { \frac{   y  }{  \sqrt{x^2+y^2}  } } \left(  { \frac{   y^2  }{  \sqrt{ x^2+y^2}^3  } }  dx  - { \frac{   xy }{  \sqrt{x^2+y^2}^3  } }  dy   \right) + { \frac{   x  }{  \sqrt{x^2+y^2}  } }  \left(  { \frac{   -xy }{  \sqrt{x^2+y^2}^3  } } dx + { \frac{   x^2  }{  \sqrt{x^2+y^2}^3  } } dy  \right)
+}
+{ =} { { \frac{   1 }{  \left(  x^2+y^2  \right)^2 } }  \left(  \left(  -y^3-x^2y  \right) dx + \left(  xy^2+x^3  \right) dy \right)
+}
+{ =} { { \frac{   1 }{  x^2+y^2  } }  \left(  -  y dx + x dy \right)
+}
+}
+{}{}{.}
+
+ [[Kategorie:Latexseite]]

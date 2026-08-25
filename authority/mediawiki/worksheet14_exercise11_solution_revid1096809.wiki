@@ -1,0 +1,47 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es ist
+{{
+Relationskette/align
+| \pi^*du
+|| d (u \circ \pi)
+|| d   {{makl| {{op:Bruch| x | \sqrt{x^2 + y^2} }} |}}  
+|| {{op:Partielle Ableitung| {{makl| {{op:Bruch| x | \sqrt{x^2 + y^2} }} |}}  | x}}   dx + {{op:Partielle Ableitung| {{makl| {{op:Bruch| x | \sqrt{x^2 + y^2} }} |}}  | y}} dy 
+|| {{op:Bruch| \sqrt{x^2+y^2}     -x^2 (x^2 + y^2)^{-1/2} | x^2+y^2 }}  dx   - {{op:Bruch| xy| \sqrt{x^2+y^2}^3 }}  dy
+|| {{op:Bruch| x^2+y^2 -x^2   | \sqrt{ x^2+y^2}^3 }}  dx  - {{op:Bruch| xy| \sqrt{x^2+y^2}^3 }}  dy
+|| {{op:Bruch| y^2 | \sqrt{ x^2+y^2}^3 }}  dx  - {{op:Bruch| xy| \sqrt{x^2+y^2}^3 }}  dy
+|SZ=
+}}
+und
+{{
+Relationskette/align
+| \pi^*dv
+|| d (v \circ \pi)
+|| d {{makl| {{op:Bruch| y | \sqrt{x^2 + y^2} }} |}}  
+|| {{op:Partielle Ableitung| {{makl| {{op:Bruch| y | \sqrt{x^2 + y^2} }} |}} | x}} dx + {{op:Partielle Ableitung| {{makl| {{op:Bruch| y | \sqrt{x^2 + y^2} }} |}}  | y}} dy 
+|| {{op:Bruch| -xy| \sqrt{x^2+y^2}^3 }} dx + {{op:Bruch| \sqrt{x^2+y^2} -y^2 (x^2 + y^2)^{-1/2} | x^2+y^2 }} dy
+|| {{op:Bruch| -xy| \sqrt{x^2+y^2}^3 }} dx + {{op:Bruch| x^2 | \sqrt{x^2+y^2}^3 }}  dy
+||   
+|SZ=.
+}}
+Somit ist
+{{
+Relationskette/align/drucklinks
+| \pi^*(-vdu+udv)
+|| - (v \circ \pi)  \pi^*du + (u \circ \pi) \pi^*dv
+|| - {{op:Bruch| y | \sqrt{x^2+y^2} }} {{makl| {{op:Bruch| y^2 | \sqrt{ x^2+y^2}^3 }}  dx  - {{op:Bruch| xy| \sqrt{x^2+y^2}^3 }}  dy  |}} + {{op:Bruch| x | \sqrt{x^2+y^2} }}  {{makl| {{op:Bruch| -xy| \sqrt{x^2+y^2}^3 }} dx + {{op:Bruch| x^2 | \sqrt{x^2+y^2}^3 }} dy |}} 
+|| {{op:Bruch| 1| {{makl| x^2+y^2 |}}^2}}  {{makl| {{makl| -y^3-x^2y |}} dx + {{makl| xy^2+x^3 |}} dy|}} 
+|| {{op:Bruch| 1| x^2+y^2 }}  {{makl| -  y dx + x dy|}} 
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

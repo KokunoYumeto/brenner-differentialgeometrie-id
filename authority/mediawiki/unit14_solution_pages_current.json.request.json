@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Tue, 25 Aug 2026 14:33:02 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Mannigfaltigkeit/Dachprodukte des Kotangentialbündels/Topologie/Aufgabe/Lösung|Mannigfaltigkeit/Dachprodukte des Kotangentialbündels/Mannigfaltigkeit/Aufgabe/Lösung|Differentialformen/Modul über Funktionenring/Aufgabe/Lösung|Differentialform/Ableitung einer Funktion/Auswertung an Tangentialvektor/Aufgabe/Lösung|Differenzierbare Mannigfaltigkeit/Funktion/Extrema/Differentialform/Nullstelle/Aufgabe/Lösung|Differenzierbare Mannigfaltigkeit/Kompakt/Differentialform/Nullstelle/Aufgabe/Lösung|Differentialformen/Zurückziehen auf M in R^n/f und df/Aufgabe/Lösung|Zurückziehen von Differentialformen/Eindimensional/Aufgabe/Lösung|Zweites Dachprodukt/(x,y,z) nach (xyz^2,xy-z^3)/(1,3,5)/Aufgabe/Lösung|Zurückziehen einer Differentialform/R^2 ohne (0,0) nach R^2 ohne (0,0)/(u,v) nach (u^2,v^3-u)/1 durch x^2+y^2 dxdy/Aufgabe/Lösung|Zurückziehen einer Differentialform/Punktierte Ebene nach S^1/Längenform/Aufgabe/Lösung|Differentialform/Zurückziehen/dxdydz-wdxdydw+cos(xy)dxdzdw-ywdydzdw/Unter (r^2s,t, sin r, e^(st))/Aufgabe/Lösung|Zurückziehen von Differentialformen/Verträglichkeit mit skalarer Funktion/Aufgabe/Lösung|Kettenregel/Verträglichkeit von Ableitung und Zurückziehen von Funktion und Differentialform/Aufgabe/Lösung|Mannigfaltigkeit/Dachprodukte des Kotangentialbündels/Topologie/Charakterisierung der Stetigkeit von Differentialformen/Aufgabe/Lösung|Zurückziehen von Differentialformen/Dachprodukt/Aufgabe/Lösung|Zurückziehen einer Differentialform/R^3 ohne 0 nach R^3 ohne Gerade/(u,v,w) nach (uvw,u^2-vw^5,u^2+v^2+w^2)/z^2dxdy+xy durch z dxdz+(xe^y-z)dydz/Aufgabe/Lösung|S^2 in R^3/Wann ist dx und dy Basis auf Kotangentialraum/Aufgabe/Lösung"
+  },
+  "response_bytes": 12616,
+  "response_path": "unit14_solution_pages_current.json",
+  "response_sha256": "04488a69be90a987dd2e4af42a871d39e6cdce7422c1d719fa7ad9c9dc6608ee",
+  "retrieved_utc": "2026-08-25T14:33:01Z",
+  "schema_version": 1
+}

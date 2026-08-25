@@ -1,0 +1,104 @@
+Matriks Jacobi dari $\varphi$ secara umum adalah
+
+\mathdisp {\begin{pmatrix}  yz^2 &  xz^2 &  2xyz \\  y  &  x  &  -3z^2 \end{pmatrix}} { . }
+
+Oleh karena itu, di titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ (1,3,5)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+matriks Jacobi tersebut adalah
+
+\mathdisp {\begin{pmatrix}  75 &  25 &  30 \\  3 &  1 &  -75  \end{pmatrix}} {  }
+.
+
+Matriks ini mendeskripsikan pemetaan linear
+\maabbdisp {L} {T_P\R^3 \cong \R^3} { T_{\varphi(P)} \R^2 \cong \R^2
+} {}
+terhadap basis-basis standar. Kita menentukan representasi matriks untuk pemetaan
+\maabbdisp {\bigwedge^2 L} {\bigwedge^2 \R^3 } { \bigwedge^2 \R^2
+} {}
+terhadap basis-basis
+$e_1 \wedge e_2,\, e_1 \wedge e_3$ , $e_2 \wedge e_3$
+\zusatzklammer {di ruas kiri} {} {}
+dan
+\mathl{e_1 \wedge e_2}{}
+\zusatzklammer {di ruas kanan} {} {.}
+Untuk itu, kita perlu menghitung citra produk-produk eksterior tersebut. Kita peroleh
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ (\bigwedge^2 L ) (e_1 \wedge e_2)
+}
+{ =} { L(e_1) \wedge L(e_2)
+}
+{ =} { (75e_1 + 3e_2) \wedge (  25 e_1 + 1 e_2 )
+}
+{ =} { 75 e_1 \wedge e_2 + 75 e_2 \wedge  e_1
+}
+{ =} { 75 e_1 \wedge e_2 - 75 e_1 \wedge  e_2
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { 0
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{,}
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ (\bigwedge^2 L ) (e_1 \wedge e_3)
+}
+{ =} { L(e_1) \wedge L(e_3)
+}
+{ =} { (75e_1 + 3e_2) \wedge (  30 e_1 - 75 e_2 )
+}
+{ =} { - 75^2 e_1 \wedge e_2 + 90 e_2 \wedge  e_1
+}
+{ =} { (-5625 - 90) e_1 \wedge e_2
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { -5715 e_1 \wedge e_2
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{,}
+dan
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ (\bigwedge^2 L ) (e_2 \wedge e_3)
+}
+{ =} { L(e_2) \wedge L(e_3)
+}
+{ =} { (  25 e_1 + 1 e_2 )   \wedge ( 30 e_1 - 75 e_2)
+}
+{ =} { - 1875 e_1 \wedge e_2 + 30 e_2 \wedge  e_1
+}
+{ =} { -  1905 e_1 \wedge  e_2
+}
+}
+{}
+{}{.}
+Jadi, matriks yang mendeskripsikan pemetaan tersebut adalah
+
+\mathdisp {\left(  0,-5715,-1905                     \right)} { . }

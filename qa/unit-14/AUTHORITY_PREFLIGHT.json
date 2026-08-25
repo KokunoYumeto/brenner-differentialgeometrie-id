@@ -1,0 +1,958 @@
+{
+  "authority": {
+    "course_recursive_export": {
+      "bytes": 3538709,
+      "path": "authority/mediawiki/brenner_course_recursive_current.xml",
+      "sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14"
+    },
+    "latex_surface_recursive_export": {
+      "bytes": 3722387,
+      "path": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+      "sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c"
+    },
+    "pages": {
+      "lecture_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture14_latex_surface_revid807119.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1200,
+          "path": "authority/mediawiki/lecture14_latex_surface_revid807119.metadata.json",
+          "sha256": "8fbf2e0dba99924a0ee17794deefcbbb59471fd6a38ef980eb2beb7a491b368e"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142588,
+        "parentid": 799028,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/lecture14_latex_surface_revid807119.wiki",
+        "revid": 807119,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T09:59:20Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 14/latex"
+      },
+      "lecture_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "1f70ab348a4bebd21c4fd29ea2063f82cd789e6f2a0eb8420bcff7760d329dac",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture14_root_revid897331.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "4bguy5j275eeul9uzyjtunx59423d3f",
+        "metadata": {
+          "bytes": 1170,
+          "path": "authority/mediawiki/lecture14_root_revid897331.metadata.json",
+          "sha256": "daeb95da071d0dc53e753b51699240ac1dd269c3076d5c4848aacc625be55ecc"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142558,
+        "parentid": 896692,
+        "readable_normalized_bytes": 886,
+        "readable_normalized_sha256": "0135e868f574261c6da0c92e9047b9aeba13566dae1de89d9a1c4b3c6af61dab",
+        "readable_normalized_witness": "authority/mediawiki/lecture14_root_revid897331.wiki",
+        "revid": 897331,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 885,
+        "source_utf8_sha1": "24f8716fbefd10a1b154489604028d6e5e6c070b",
+        "source_utf8_sha256": "d31e95f294d3fcebe302afdcd05fffa2dbc3c822463697772d86c29c37d50888",
+        "timestamp": "2023-05-26T19:56:22Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 14"
+      },
+      "worksheet_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet14_latex_surface_revid807088.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1207,
+          "path": "authority/mediawiki/worksheet14_latex_surface_revid807088.metadata.json",
+          "sha256": "e243e493cc4f2d6fd684781685355ac5eaa5fb2f4d90fd1c1f2f1688719221d3"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142678,
+        "parentid": 798997,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/worksheet14_latex_surface_revid807088.wiki",
+        "revid": 807088,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T09:54:09Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 14/latex"
+      },
+      "worksheet_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "7931692fd2376b1bf6069e69e672afa836d5fba924492aeea7e06d800e8843cf",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet14_root_revid1020024.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "ifi18zbute5frgt9mfziqf663lcd86s",
+        "metadata": {
+          "bytes": 1182,
+          "path": "authority/mediawiki/worksheet14_root_revid1020024.metadata.json",
+          "sha256": "02b62ef2dc63c137f63fd4b2b01caec6ac9421503810d937f3b48cf8b428f2c7"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142648,
+        "parentid": 991604,
+        "readable_normalized_bytes": 2936,
+        "readable_normalized_sha256": "1af084add5c3230dd3f6bd9225efb0dfefa3d9486af635d363802c199e125ef0",
+        "readable_normalized_witness": "authority/mediawiki/worksheet14_root_revid1020024.wiki",
+        "revid": 1020024,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 2935,
+        "source_utf8_sha1": "9dc7f075132e927396c75e030b2574759f211ab4",
+        "source_utf8_sha256": "2d700c89da4f4a245d5284839faf343184d197606455d054969b6e2b792f6a26",
+        "timestamp": "2025-08-09T13:44:06Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 14"
+      }
+    },
+    "root_revision_manifest": {
+      "bytes": 15237,
+      "path": "authority/brenner_selected_root_revisions.csv",
+      "sha256": "64cf91594907db45355e64fb512fb14092e15218c74847a8f60fe884a5284fc8"
+    },
+    "surface_revision_manifest": {
+      "bytes": 31799,
+      "path": "authority/brenner_selected_surface_revisions.csv",
+      "sha256": "9a3a6b7dc08cc022803dad24e959365d67810d4da87a8bc4385c601db9d4bd52"
+    }
+  },
+  "checks": {
+    "all_candidate_solution_titles_queried": true,
+    "all_displayed_images_have_license_macros": true,
+    "all_point_markers_resolved": true,
+    "all_supplied_solution_latex_snapshots_frozen": true,
+    "all_supplied_solution_revisions_frozen": true,
+    "exercise_root_expansion_count_agreement": true,
+    "lecture_expansion_sanitized": true,
+    "revision_export_hashes_match": true,
+    "root_revision_bindings_unique": true,
+    "root_witnesses_match_mediawiki_sha1": true,
+    "solution_macro_api_agreement": true,
+    "surface_revision_bindings_unique": true,
+    "translation_started_by_workflow": false,
+    "unit_media_binary_and_rights_closure": true,
+    "worksheet_expansion_sanitized": true
+  },
+  "expansions": {
+    "lecture": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 31328,
+      "http_date": "Tue, 25 Aug 2026 14:31:27 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 14/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 674,
+        "path": "authority/exports/lecture14_latex_expand.json.request.json",
+        "sha256": "c3f66f20ddd3f29fb19ea968de382c356d484b3acc260b2765f6e49c000b7ef5"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 33390,
+        "path": "authority/exports/lecture14_latex_expand.json",
+        "sha256": "dae1107a967adb3135ac61c48aace4106e3ec2398bf639e77d9ef53eab870a3c"
+      },
+      "retrieved_utc": "2026-08-25T14:31:27Z",
+      "sanitized_source": {
+        "bytes": 26809,
+        "path": "authority/expanded/lecture14_source.de.tex",
+        "sha256": "6c14208bd02871b44e60849c627c1e66928cdcabdb0306ad6fbe5407c311abbc"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 672,
+        "path": "qa/unit-14/lecture14_sanitize.json",
+        "sha256": "91aa6c273b7600781c789c54438495c0c39e9fe0337eaae7f05e8d4edcc2f5a9"
+      },
+      "valid_utf8": true
+    },
+    "worksheet": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 13136,
+      "http_date": "Tue, 25 Aug 2026 14:33:01 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 14/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 679,
+        "path": "authority/exports/worksheet14_latex_expand.json.request.json",
+        "sha256": "9d44ff9c4ff74bf3295b15a67bb407c84280fca82ec5ae89acdf7163b99400c3"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 14115,
+        "path": "authority/exports/worksheet14_latex_expand.json",
+        "sha256": "00474024c9a9ce6df47a274132435a572a597f4f7fa1a8af25d09eff877a1b4b"
+      },
+      "retrieved_utc": "2026-08-25T14:33:01Z",
+      "sanitized_source": {
+        "bytes": 10635,
+        "path": "authority/expanded/worksheet14_source.de.tex",
+        "sha256": "f6553d7398e700e915dc054527c5f079730bc79d2ebda63f094efb3c9c1d6942"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 676,
+        "path": "qa/unit-14/worksheet14_sanitize.json",
+        "sha256": "ee29f158a5b87f79b7daae58131aae8d53e37e4e920b620718f4ab0c93f9151f"
+      },
+      "valid_utf8": true
+    }
+  },
+  "media": {
+    "all_displayed_images_have_license_macros": true,
+    "assets": [],
+    "current_commons_query": null,
+    "occurrence_count": 0,
+    "rights_manifest": {
+      "bytes": 25588,
+      "path": "authority/brenner_media_rights_manifest.csv",
+      "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+    },
+    "surface_occurrences": [],
+    "unique_asset_count": 0
+  },
+  "next_action": "Translate Lecture 14, Worksheet 14, and exactly the 7 supplied solutions in source order.",
+  "schema_version": 1,
+  "scope": "Brenner Differentialgeometrie Unit 14 authority preflight; no translation",
+  "solutions": {
+    "exercise_count": 18,
+    "exercises": [
+      {
+        "exercise_index": 1,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Dachprodukte des Kotangentialbündels/Topologie/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Dachprodukte des Kotangentialbündels/Topologie/Aufgabe"
+      },
+      {
+        "exercise_index": 2,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Dachprodukte des Kotangentialbündels/Mannigfaltigkeit/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Dachprodukte des Kotangentialbündels/Mannigfaltigkeit/Aufgabe"
+      },
+      {
+        "exercise_index": 3,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Differentialformen/Modul über Funktionenring/Aufgabe/Lösung",
+        "task_title": "Differentialformen/Modul über Funktionenring/Aufgabe"
+      },
+      {
+        "exercise_index": 4,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Differentialform/Ableitung einer Funktion/Auswertung an Tangentialvektor/Aufgabe/Lösung",
+        "task_title": "Differentialform/Ableitung einer Funktion/Auswertung an Tangentialvektor/Aufgabe"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 1145,
+          "path": "authority/mediawiki/worksheet14_exercise05_solution_revid1021520.utf8.b64",
+          "sha256": "095ed873a0401479e9e1273630d8706219e7bdc2bd7ef4d754db55232e941a75"
+        },
+        "exercise_index": 5,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 815,
+          "http_date": "Tue, 25 Aug 2026 14:33:02 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Differenzierbare Mannigfaltigkeit/Funktion/Extrema/Differentialform/Nullstelle/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 731,
+            "path": "authority/exports/worksheet14_exercise05_solution_latex_expand.json.request.json",
+            "sha256": "acb2e79d2985f2ec87ee82171ea5abef5fed056e3cae36eca7aeb904ec1451cf"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 983,
+            "path": "authority/exports/worksheet14_exercise05_solution_latex_expand.json",
+            "sha256": "e4646d7f3f8b36634c55fbf042e730c14fa078ee3ba7abfdcc1ad6566c2809bc"
+          },
+          "retrieved_utc": "2026-08-25T14:33:01Z",
+          "sanitized_source": {
+            "bytes": 681,
+            "path": "authority/expanded/worksheet14_exercise05_solution_source.de.tex",
+            "sha256": "27d0b03dd6037e6648f47b38f42a278d688303f3e21461bea0a88cfea7940cdd"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 710,
+            "path": "qa/unit-14/worksheet14_exercise05_solution_sanitize.json",
+            "sha256": "a7e2701354e4b36c4bba62b89f46769250fce5dfb42761b5fc9e47bdb80f91a2"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "3aee398b9a65ed2958a063c8355eaa400a57825f",
+        "metadata": {
+          "bytes": 1271,
+          "path": "authority/mediawiki/worksheet14_exercise05_solution_revid1021520.metadata.json",
+          "sha256": "1e3a37397ff3b87d41ecd62c0d6786c8e2d38b5fcaa11417b075814419ece008"
+        },
+        "pageid": 152445,
+        "parentid": 1016005,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 857,
+          "path": "authority/mediawiki/worksheet14_exercise05_solution_revid1021520.wiki",
+          "sha256": "c82545d290467d49eaf2a5a4314da958da92d407f13150089b930e1076a7f781"
+        },
+        "revid": 1021520,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Differenzierbare Mannigfaltigkeit/Funktion/Extrema/Differentialform/Nullstelle/Aufgabe/Lösung",
+        "source_utf8_bytes": 856,
+        "source_utf8_sha256": "9fd4e85c90412b6197fb6374662aa7a7e8804f0dd3bbc413dff4db2fdd012bd5",
+        "task_title": "Differenzierbare Mannigfaltigkeit/Funktion/Extrema/Differentialform/Nullstelle/Aufgabe",
+        "timestamp": "2025-08-09T18:26:38Z"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 1017,
+          "path": "authority/mediawiki/worksheet14_exercise06_solution_revid990866.utf8.b64",
+          "sha256": "aad9ec2f72a720c2ed1277d09700a6d315007d2fff7f00f113c6bb73b7ec8062"
+        },
+        "exercise_index": 6,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 749,
+          "http_date": "Tue, 25 Aug 2026 14:33:02 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Differenzierbare Mannigfaltigkeit/Kompakt/Differentialform/Nullstelle/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 722,
+            "path": "authority/exports/worksheet14_exercise06_solution_latex_expand.json.request.json",
+            "sha256": "b07343eca668516a40a9938e8cfa0eba1c9f99e0a8b1b7d58bf74c872f745289"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 892,
+            "path": "authority/exports/worksheet14_exercise06_solution_latex_expand.json",
+            "sha256": "f0980b6a1e5cac80164a35024ae813b992e64340269b7fcb2a03f33bbaa9de81"
+          },
+          "retrieved_utc": "2026-08-25T14:33:02Z",
+          "sanitized_source": {
+            "bytes": 625,
+            "path": "authority/expanded/worksheet14_exercise06_solution_source.de.tex",
+            "sha256": "8b433bf3cb611acd60c234f0eca819a2905e672d15f94eaee6b2c99c06d5b6ef"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 710,
+            "path": "qa/unit-14/worksheet14_exercise06_solution_sanitize.json",
+            "sha256": "bace2cd911c54d37391458eafb73a995f88f56b7559e228db89c32744546269b"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "97304f0d4c4ad2cdc09c0365fff3e0b0cc84f6b9",
+        "metadata": {
+          "bytes": 1258,
+          "path": "authority/mediawiki/worksheet14_exercise06_solution_revid990866.metadata.json",
+          "sha256": "11e8ca9b1c26b5767a64e19248f27d99ec955822ac72f87ec2889c3441baa6b6"
+        },
+        "pageid": 152448,
+        "parentid": 905527,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 762,
+          "path": "authority/mediawiki/worksheet14_exercise06_solution_revid990866.wiki",
+          "sha256": "257a5f594d42317a02440a0ac9f60e97757b5073472b9674ef00dc39d5fd2a6a"
+        },
+        "revid": 990866,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Differenzierbare Mannigfaltigkeit/Kompakt/Differentialform/Nullstelle/Aufgabe/Lösung",
+        "source_utf8_bytes": 761,
+        "source_utf8_sha256": "6f155c6cb56e817e13a391e894b7bd41bee7c750f7c1f0126ba8bf085213efd8",
+        "task_title": "Differenzierbare Mannigfaltigkeit/Kompakt/Differentialform/Nullstelle/Aufgabe",
+        "timestamp": "2025-01-22T20:34:46Z"
+      },
+      {
+        "exercise_index": 7,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Differentialformen/Zurückziehen auf M in R^n/f und df/Aufgabe/Lösung",
+        "task_title": "Differentialformen/Zurückziehen auf M in R^n/f und df/Aufgabe"
+      },
+      {
+        "exercise_index": 8,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Zurückziehen von Differentialformen/Eindimensional/Aufgabe/Lösung",
+        "task_title": "Zurückziehen von Differentialformen/Eindimensional/Aufgabe"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 2581,
+          "path": "authority/mediawiki/worksheet14_exercise09_solution_revid1096822.utf8.b64",
+          "sha256": "770455c35d8863fb80e51f6b9b405dcfa0551d92083c316c106253ea569752a9"
+        },
+        "exercise_index": 9,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 2281,
+          "http_date": "Tue, 25 Aug 2026 14:33:03 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Zweites Dachprodukt/(x,y,z) nach (xyz^2,xy-z^3)/(1,3,5)/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 709,
+            "path": "authority/exports/worksheet14_exercise09_solution_latex_expand.json.request.json",
+            "sha256": "d179a967985f1a8b9533b5ee09d3ff76f0d612157207ab72d8a97bff3a023df9"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 2524,
+            "path": "authority/exports/worksheet14_exercise09_solution_latex_expand.json",
+            "sha256": "aeffbe829476942db8b9f4a53e1ef1401101189b293fe80890923231cc456a5d"
+          },
+          "retrieved_utc": "2026-08-25T14:33:02Z",
+          "sanitized_source": {
+            "bytes": 1972,
+            "path": "authority/expanded/worksheet14_exercise09_solution_source.de.tex",
+            "sha256": "76ebe443c86e71cb75a540ea334fbec4a2ccb99667fbe49646ac390557cab379"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-14/worksheet14_exercise09_solution_sanitize.json",
+            "sha256": "7259b2493b2b6aa6aeca5ea21bf6ddc0bda06a00c649e4d5b93fe154137d48df"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "dbc4089a35e445524698780f19af540c4587b03c",
+        "metadata": {
+          "bytes": 1250,
+          "path": "authority/mediawiki/worksheet14_exercise09_solution_revid1096822.metadata.json",
+          "sha256": "8d57fdc81f917053a7a23571f9bdeeaed8ad2aff130726168aad9daae58bb294"
+        },
+        "pageid": 46308,
+        "parentid": 1095861,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 1934,
+          "path": "authority/mediawiki/worksheet14_exercise09_solution_revid1096822.wiki",
+          "sha256": "2ab63c9aeac9ecb0a9114d3392bd0414a922fda0f54d0e6d4dfbf3bb79db09b2"
+        },
+        "revid": 1096822,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Zweites Dachprodukt/(x,y,z) nach (xyz^2,xy-z^3)/(1,3,5)/Aufgabe/Lösung",
+        "source_utf8_bytes": 1933,
+        "source_utf8_sha256": "f7bd859911464b039247b83e9200c79c31ea786826c46fd1eb610d21403487c8",
+        "task_title": "Zweites Dachprodukt/(x,y,z) nach (xyz^2,xy-z^3)/(1,3,5)/Aufgabe",
+        "timestamp": "2026-06-15T09:52:35Z"
+      },
+      {
+        "exercise_index": 10,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Zurückziehen einer Differentialform/R^2 ohne (0,0) nach R^2 ohne (0,0)/(u,v) nach (u^2,v^3-u)/1 durch x^2+y^2 dxdy/Aufgabe/Lösung",
+        "task_title": "Zurückziehen einer Differentialform/R^2 ohne (0,0) nach R^2 ohne (0,0)/(u,v) nach (u^2,v^3-u)/1 durch x^2+y^2 dxdy/Aufgabe"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 2461,
+          "path": "authority/mediawiki/worksheet14_exercise11_solution_revid1096809.utf8.b64",
+          "sha256": "cd8f47946d325b00ae350e4e423f993683963c054d7c47bbdaa3451e405e8898"
+        },
+        "exercise_index": 11,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 2412,
+          "http_date": "Tue, 25 Aug 2026 14:33:03 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Zurückziehen einer Differentialform/Punktierte Ebene nach S^1/Längenform/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 728,
+            "path": "authority/exports/worksheet14_exercise11_solution_latex_expand.json.request.json",
+            "sha256": "eed5e7aa82acdb263460d7ef5bdc4f128119c18e27515406d08681bfbf909b03"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 2663,
+            "path": "authority/exports/worksheet14_exercise11_solution_latex_expand.json",
+            "sha256": "e015bad732e3d19782c1dbe009eb2d341d4936c23d5edcd96d4b5033ad4ffd48"
+          },
+          "retrieved_utc": "2026-08-25T14:33:02Z",
+          "sanitized_source": {
+            "bytes": 2181,
+            "path": "authority/expanded/worksheet14_exercise11_solution_source.de.tex",
+            "sha256": "bb772fc399aca8aa4e1d2455e53949fce13cdc745e385d8151b7122e8cd63808"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-14/worksheet14_exercise11_solution_sanitize.json",
+            "sha256": "265b444bd632d30fa78e93279a59e5e6d9101e9c679511440f2ef39c36e14c33"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "1b7ac6b346be46ae450a6ccec954c32b5b83cda9",
+        "metadata": {
+          "bytes": 1269,
+          "path": "authority/mediawiki/worksheet14_exercise11_solution_revid1096809.metadata.json",
+          "sha256": "24fb1621ef41b955b1cb8c8c3f38626a4af8dd39ca2ea262ab39872cde569c61"
+        },
+        "pageid": 78505,
+        "parentid": 1095847,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 1846,
+          "path": "authority/mediawiki/worksheet14_exercise11_solution_revid1096809.wiki",
+          "sha256": "18600f236455c3954b34afa2545e28c44aa90e464706191aabe4ad0b31971cce"
+        },
+        "revid": 1096809,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Zurückziehen einer Differentialform/Punktierte Ebene nach S^1/Längenform/Aufgabe/Lösung",
+        "source_utf8_bytes": 1845,
+        "source_utf8_sha256": "7820f2aa6e5b7c2de8d2b5fdf2d16d825b2f152185d084cf3617bc2cde66af4e",
+        "task_title": "Zurückziehen einer Differentialform/Punktierte Ebene nach S^1/Längenform/Aufgabe",
+        "timestamp": "2026-06-15T09:50:35Z"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 1589,
+          "path": "authority/mediawiki/worksheet14_exercise12_solution_revid1089244.utf8.b64",
+          "sha256": "00ce21dce22ea7e48c830e45f9dbb27b6c2de351dc644c3b14c43072b8e96759"
+        },
+        "exercise_index": 12,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 1471,
+          "http_date": "Tue, 25 Aug 2026 14:33:03 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Differentialform/Zurückziehen/dxdydz-wdxdydw+cos(xy)dxdzdw-ywdydzdw/Unter (r^2s,t, sin r, e^(st))/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 752,
+            "path": "authority/exports/worksheet14_exercise12_solution_latex_expand.json.request.json",
+            "sha256": "4d6564be42c507304a46b8002a2fb38cef1c876197e4f179ac61de1e4ec83c90"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 1680,
+            "path": "authority/exports/worksheet14_exercise12_solution_latex_expand.json",
+            "sha256": "d323c0c16be27b938ffedc2f9807b932488c0fb4956c7781e5244f063bff0b7f"
+          },
+          "retrieved_utc": "2026-08-25T14:33:03Z",
+          "sanitized_source": {
+            "bytes": 1200,
+            "path": "authority/expanded/worksheet14_exercise12_solution_source.de.tex",
+            "sha256": "d530c4af821d71e86b552e499e227c048c30790e51a115c4cfab9ab1251f3c40"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-14/worksheet14_exercise12_solution_sanitize.json",
+            "sha256": "20f2d93d4b1f2d13192c2891201bf7e0c00b15f58948527db6caaced96c27d6f"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "e52d8bc0f9132e60096a5f4b1eba98e773afaea3",
+        "metadata": {
+          "bytes": 1293,
+          "path": "authority/mediawiki/worksheet14_exercise12_solution_revid1089244.metadata.json",
+          "sha256": "a8828349cb94e8ec1cb8267f7875af3c5bf534eb6d70d08c3d1164aa5cff6523"
+        },
+        "pageid": 42749,
+        "parentid": 1028645,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 1191,
+          "path": "authority/mediawiki/worksheet14_exercise12_solution_revid1089244.wiki",
+          "sha256": "d2a8e5029aa8ca41886b671033499605e50eaec3cc26f13758824b83e9ce0140"
+        },
+        "revid": 1089244,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Differentialform/Zurückziehen/dxdydz-wdxdydw+cos(xy)dxdzdw-ywdydzdw/Unter (r^2s,t, sin r, e^(st))/Aufgabe/Lösung",
+        "source_utf8_bytes": 1190,
+        "source_utf8_sha256": "348d84fb36318c8946b33e87fb0bab8a11d962616e5aed005054241b1f4a255c",
+        "task_title": "Differentialform/Zurückziehen/dxdydz-wdxdydw+cos(xy)dxdzdw-ywdydzdw/Unter (r^2s,t, sin r, e^(st))/Aufgabe",
+        "timestamp": "2026-05-31T09:58:12Z"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 1133,
+          "path": "authority/mediawiki/worksheet14_exercise13_solution_revid1096810.utf8.b64",
+          "sha256": "df55d092a94a05abbf087a70ee0763239c5345ba9edba6f469c77510fcf9d066"
+        },
+        "exercise_index": 13,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 938,
+          "http_date": "Tue, 25 Aug 2026 14:33:03 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Zurückziehen von Differentialformen/Verträglichkeit mit skalarer Funktion/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 729,
+            "path": "authority/exports/worksheet14_exercise13_solution_latex_expand.json.request.json",
+            "sha256": "ec99f3a5066913936182106be18271b58d142550ee22ba9bcacb55429badc595"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 1123,
+            "path": "authority/exports/worksheet14_exercise13_solution_latex_expand.json",
+            "sha256": "f4965366923209cd4f5e19a4a0e8c4b5a0cad420a79d666459855ead0c995dec"
+          },
+          "retrieved_utc": "2026-08-25T14:33:03Z",
+          "sanitized_source": {
+            "bytes": 814,
+            "path": "authority/expanded/worksheet14_exercise13_solution_source.de.tex",
+            "sha256": "8ad3caf43606443ed014cf2f8c96a12af59523149501aa4f3c09dfc791efa5f6"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 711,
+            "path": "qa/unit-14/worksheet14_exercise13_solution_sanitize.json",
+            "sha256": "24f2fe9ea913dedb4e20f58abdf09d3ea10b6e7f04de846851970a9858232e1d"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "595bae7535a916dc72cb368b5fd29ac4646e6bc5",
+        "metadata": {
+          "bytes": 1267,
+          "path": "authority/mediawiki/worksheet14_exercise13_solution_revid1096810.metadata.json",
+          "sha256": "80ecdb900cae08eb65928c46c89cfa0dfaf60757fd3b14171e3399964bfaec39"
+        },
+        "pageid": 69616,
+        "parentid": 1090801,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 848,
+          "path": "authority/mediawiki/worksheet14_exercise13_solution_revid1096810.wiki",
+          "sha256": "1111b2327ee4c0085c086ee765783dff1ff6ba13c9e1be2e34fb203bc3f7b025"
+        },
+        "revid": 1096810,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Zurückziehen von Differentialformen/Verträglichkeit mit skalarer Funktion/Aufgabe/Lösung",
+        "source_utf8_bytes": 847,
+        "source_utf8_sha256": "00dac71a6b39a62e70454b250dde10a3ce62e499ae362efd38cd911a2de8f020",
+        "task_title": "Zurückziehen von Differentialformen/Verträglichkeit mit skalarer Funktion/Aufgabe",
+        "timestamp": "2026-06-15T09:50:45Z"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 937,
+          "path": "authority/mediawiki/worksheet14_exercise14_solution_revid1089732.utf8.b64",
+          "sha256": "ae968cacd788b5e2f91b1457669eb9505e78b6cffd1cecd89a31b397ecdd0718"
+        },
+        "exercise_index": 14,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 954,
+          "http_date": "Tue, 25 Aug 2026 14:34:00 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Kettenregel/Verträglichkeit von Ableitung und Zurückziehen von Funktion und Differentialform/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 748,
+            "path": "authority/exports/worksheet14_exercise14_solution_latex_expand.json.request.json",
+            "sha256": "a9b74630f103cdd17281c0ce326035a9b491b7072ce483a77e7e7f691c6a2b1a"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 1140,
+            "path": "authority/exports/worksheet14_exercise14_solution_latex_expand.json",
+            "sha256": "b48dde2b1ab3942aca5fa2d76b6bd32f05381bd841b4696469953afa2d14f0b5"
+          },
+          "retrieved_utc": "2026-08-25T14:33:59Z",
+          "sanitized_source": {
+            "bytes": 750,
+            "path": "authority/expanded/worksheet14_exercise14_solution_source.de.tex",
+            "sha256": "9fa9a478711572ab04203a2686077d2d70eb787b65ee77910565a645898d417e"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 711,
+            "path": "qa/unit-14/worksheet14_exercise14_solution_sanitize.json",
+            "sha256": "e950bf7976e22386529d3e37d2edb9a4ea9f82f9dc8841e94b3b844c1719b7d8"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "aef98d4cc3fc758e1d17e75ec26597afa0f30561",
+        "metadata": {
+          "bytes": 1286,
+          "path": "authority/mediawiki/worksheet14_exercise14_solution_revid1089732.metadata.json",
+          "sha256": "d037fb494f058b545f3b7e4cb9f4f678889d07a4bd342740f7c1ed56643280de"
+        },
+        "pageid": 42733,
+        "parentid": 1029255,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 703,
+          "path": "authority/mediawiki/worksheet14_exercise14_solution_revid1089732.wiki",
+          "sha256": "a7f4bc3bc9ef1c5de94468bc73b52927ece5e92f2df055b26f1d27802294c02a"
+        },
+        "revid": 1089732,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Kettenregel/Verträglichkeit von Ableitung und Zurückziehen von Funktion und Differentialform/Aufgabe/Lösung",
+        "source_utf8_bytes": 702,
+        "source_utf8_sha256": "d0715f8cebb258d32850a0f24d25abb9e76ab386a9cb699e9f90bdf0771e3858",
+        "task_title": "Kettenregel/Verträglichkeit von Ableitung und Zurückziehen von Funktion und Differentialform/Aufgabe",
+        "timestamp": "2026-05-31T11:15:52Z"
+      },
+      {
+        "exercise_index": 15,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 6,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Dachprodukte des Kotangentialbündels/Topologie/Charakterisierung der Stetigkeit von Differentialformen/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Dachprodukte des Kotangentialbündels/Topologie/Charakterisierung der Stetigkeit von Differentialformen/Aufgabe"
+      },
+      {
+        "exercise_index": 16,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Zurückziehen von Differentialformen/Dachprodukt/Aufgabe/Lösung",
+        "task_title": "Zurückziehen von Differentialformen/Dachprodukt/Aufgabe"
+      },
+      {
+        "exercise_index": 17,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Zurückziehen einer Differentialform/R^3 ohne 0 nach R^3 ohne Gerade/(u,v,w) nach (uvw,u^2-vw^5,u^2+v^2+w^2)/z^2dxdy+xy durch z dxdz+(xe^y-z)dydz/Aufgabe/Lösung",
+        "task_title": "Zurückziehen einer Differentialform/R^3 ohne 0 nach R^3 ohne Gerade/(u,v,w) nach (uvw,u^2-vw^5,u^2+v^2+w^2)/z^2dxdy+xy durch z dxdz+(xe^y-z)dydz/Aufgabe"
+      },
+      {
+        "exercise_index": 18,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 6,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "S^2 in R^3/Wann ist dx und dy Basis auf Kotangentialraum/Aufgabe/Lösung",
+        "task_title": "S^2 in R^3/Wann ist dx und dy Basis auf Kotangentialraum/Aufgabe"
+      }
+    ],
+    "graded_exercise_count": 4,
+    "macro_api_agreement": true,
+    "missing_solution_count": 11,
+    "point_value_total": 20,
+    "practice_exercise_count": 14,
+    "query": {
+      "bytes": 12616,
+      "path": "authority/mediawiki/unit14_solution_pages_current.json",
+      "sha256": "04488a69be90a987dd2e4af42a871d39e6cdce7422c1d719fa7ad9c9dc6608ee"
+    },
+    "query_request_receipt": {
+      "bytes": 2309,
+      "path": "authority/mediawiki/unit14_solution_pages_current.json.request.json",
+      "sha256": "ad5b16e1bfadeb35e796ec69e1a41f2625113967f1c7b80ee92007ba4045a2bb"
+    },
+    "query_retrieved_utc": "2026-08-25T14:33:01Z",
+    "schema_version": 1,
+    "supplied_solution_count": 7,
+    "supplied_solution_indices": [
+      5,
+      6,
+      9,
+      11,
+      12,
+      13,
+      14
+    ],
+    "workflow": "o011-unit14-solution-freeze-v1",
+    "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 14"
+  },
+  "status": "pass",
+  "structure": {
+    "all_hint_fields_blank": true,
+    "lecture_section_count": 2,
+    "worksheet_exercise_count": 18,
+    "worksheet_graded_count": 4,
+    "worksheet_point_total": 20,
+    "worksheet_practice_count": 14,
+    "worksheet_section_count": 2,
+    "worksheet_solution_bearing_indices": [
+      5,
+      6,
+      9,
+      11,
+      12,
+      13,
+      14
+    ]
+  },
+  "unit": 14,
+  "workflow": "o011-unit14-authority-preflight-v1"
+}

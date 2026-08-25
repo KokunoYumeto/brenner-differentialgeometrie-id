@@ -1,0 +1,53 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es sei
+{{
+Relationskette
+| P
+| \in |  W
+||
+||
+||
+|SZ=
+}} 
+und
+{{
+Relationskette
+| v
+| \in |  \R^m
+||
+||
+||
+|SZ=.
+}} 
+Es ist einerseits
+{{
+Relationskette/display
+| d( \psi^* f) (P,v)
+|| D_P( f \circ \psi) (v)
+|| {{makl| {{makl| D_{\psi(P)} f |}}  \circ {{makl| D_P  \psi |}} |}} (v)
+|| D_{\psi(P)} (f) {{makl| D_P \psi(v) |}} 
+||
+|SZ=.
+}}
+Andererseits ist auch
+{{
+Relationskette/display
+| {{makl| \psi^*(df) |}} (P,v)
+|| (df) {{makl| \psi(P), (D_P \psi )(v) |}} 
+|| D_{\psi(P)} (f) {{makl| D_P \psi (v) |}} 
+||
+||
+|SZ=.
+}} 
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-14/lecture14.id.tex",
+  "input_bytes": 27295,
+  "input_sha256": "e1ab5149036b72be563774336fea35560e12039946952c5a19b52c612de0073c",
+  "output": "build/generated/lecture14.id.build.tex",
+  "output_bytes": 26070,
+  "output_sha256": "d2f48e97bdafddf3f829720b62bb52ab17bcdf966a33caf24f479ae8a652d183",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 7,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Dachprodukt/Universelle Eigenschaft/Alternierende Formen und Linearformen/Fakt",
+      "label": "Korolari 57.9 (Aljabar Linear (Osnabrück 2024-2025))"
+    },
+    {
+      "target": "Dachprodukt/Natürliche Dualität/Endlichdimensional/Fakt",
+      "label": "Teorema 58.4 (Aljabar Linear (Osnabrück 2024-2025))"
+    },
+    {
+      "target": "Mannigfaltigkeit/Dachprodukte des Kotangentialbündels/Mannigfaltigkeit/Aufgabe",
+      "label": "Soal 14.2"
+    },
+    {
+      "target": "Tangentialabbildung/Punktweise/Elementare Eigenschaften/Fakt",
+      "label": "Lemma 9.10  (3)"
+    },
+    {
+      "target": "Tangentialabbildung/Punktweise/Elementare Eigenschaften/Fakt",
+      "label": "Lemma 9.10  (1)"
+    },
+    {
+      "target": "Differenzierbarkeit/K/Summe differenzierbarer Abbildungen ist differenzierbar/Fakt",
+      "label": "Proposisi 45.6 (Analisis (Osnabrück 2021-2023))"
+    },
+    {
+      "target": "Dachprodukt/Natürliche Dualität/Endlichdimensional/Fakt",
+      "label": "Teorema 58.4 (Aljabar Linear (Osnabrück 2024-2025))"
+    },
+    {
+      "target": "Dachprodukt/Endlichdimensional/Basis/Fakt",
+      "label": "Teorema 58.1 (Aljabar Linear (Osnabrück 2024-2025))"
+    },
+    {
+      "target": "Dachprodukt/Endlichdimensional/Basis/Fakt",
+      "label": "Teorema 58.1 (Aljabar Linear (Osnabrück 2024-2025))"
+    },
+    {
+      "target": "Mannigfaltigkeit/Differenzierbare Abbildung/Zurückziehen von Differentialformen/Definition",
+      "label": "Definisi 14.6"
+    },
+    {
+      "target": "Tangentialabbildung/Punktweise/Elementare Eigenschaften/Fakt",
+      "label": "Lemma 9.10  (4)"
+    },
+    {
+      "target": "Mannigfaltigkeit/Differenzierbare Abbildung/Zurückziehen von Differentialformen/Elementare Eigenschaften/Fakt",
+      "label": "Lemma 14.7"
+    },
+    {
+      "target": "Offene Mengen/Differenzierbare Abbildung/Zurückziehen von Differentialformen/In Koordinaten/Fakt",
+      "label": "Lemma 14.8"
+    },
+    {
+      "target": "Offene Mengen/Differenzierbare Abbildung/Zurückziehen von Differentialformen/In Koordinaten/Fakt",
+      "label": "Lemma 14.8"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

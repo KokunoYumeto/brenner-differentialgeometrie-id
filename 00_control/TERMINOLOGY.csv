@@ -231,3 +231,10 @@ O011-TERM-0229,Bildmaß,ukuran citra,admitted,Pushforward measure
 O011-TERM-0230,Dichte,kerapatan,admitted,Measure density
 O011-TERM-0231,Borel-Lebesgue-Maß,ukuran Borel--Lebesgue,admitted,
 O011-TERM-0232,Untermatrix,submatriks,admitted,
+O011-TERM-0233,Dachprodukt,produk eksterior,admitted,Exterior product or exterior power in the source vocabulary
+O011-TERM-0234,alternierende multilineare Abbildung,pemetaan multilinear selang-seling,admitted,Alternating multilinear map
+O011-TERM-0235,Pfaffsche Form,bentuk Pfaff,admitted,Pfaffian one-form
+O011-TERM-0236,Zurückziehen von Differentialformen,penarikan balik bentuk diferensial,admitted,Pullback operation for differential forms
+O011-TERM-0237,zurückgezogene Differentialform,bentuk diferensial tarik balik,admitted,Resulting pulled-back differential form
+O011-TERM-0238,Form vom Grad k,bentuk berderajat k,admitted,Differential form of degree k
+O011-TERM-0239,orientierte Dichte,kerapatan berorientasi,admitted,Signed or oriented density; positive measure densities use the absolute Jacobian determinant

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-14/worksheet14_exercise09_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-TRANS-0167",
+      "anchor": "Exterior-power bases",
+      "change": "Translate the protected left and right basis labels."
+    }
+  ],
+  "allowed_deltas": [],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-TRANS-0167",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 0,
+      "source_sha256": "fd28b58f7f1929371bb38ea393d2d9a03808cc398557a4cb629df459e61d474f",
+      "target_sha256": "10d4c723c6d16542cb529deec83e6ed06346c1f2d0cb4d4e60c2a7939f5e59cb"
+    },
+    {
+      "correction_id": "O011-TRANS-0167",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 1,
+      "source_sha256": "96e02b998bf89da2dfc4874ba3b8a40c8763536de89ee00e1f442c2ef5ee4fa0",
+      "target_sha256": "9fae4ee5e89a1960f570b2b58ee85529356298e7da2d263f5319990fe5cbae27"
+    }
+  ]
+}

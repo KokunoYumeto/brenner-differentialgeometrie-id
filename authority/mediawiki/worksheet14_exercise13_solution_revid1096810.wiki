@@ -1,0 +1,24 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es sei {{mathl|term= P \in L |SZ=}} und {{mathl|term= v_1 {{kommadots}} v_k \in T_PL |SZ=.}} Dann ist
+{{
+Relationskette/align
+| \psi^* {{makl| f \omega) (P,v_1 {{kommadots}} v_k |}}
+|| (f \omega) {{makl| \psi(P), T_P\psi (v_1) {{kommadots}} T_P\psi (v_k )      |}} 
+|| f(\psi(P))   \cdot \omega {{makl| \psi(P), T_P\psi (v_1) {{kommadots}} T_P\psi (v_k )      |}} 
+|| {{makl| \psi^* (f) }} (P)  \cdot \omega {{makl| \psi(P), T_P\psi (v_1) {{kommadots}} T_P\psi (v_k )      |}} 
+|| {{makl| \psi^* (f) }} (P)   \cdot {{makl| \psi^*( \omega) |}}  {{makl| P,v_1 {{kommadots}} v_k |}}
+|| {{makl| \psi^* (f)  \psi^*( \omega) |}} {{makl| P,v_1 {{kommadots}} v_k |}}
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

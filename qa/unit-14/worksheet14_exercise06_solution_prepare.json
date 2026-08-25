@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-14/worksheet14_exercise06_solution.id.tex",
+  "input_bytes": 641,
+  "input_sha256": "c3149e898c60aa6d8cdc7a2793357d2a5a1aeefb3fe3715c80a85458af8356d2",
+  "output": "build/generated/worksheet14_exercise06_solution.id.build.tex",
+  "output_bytes": 461,
+  "output_sha256": "204ca222971166ae407a998dfcf7f552390fe99736aee72b0d4283b6eb905e9b",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Kompaktheit/Stetige Funktion/Maximum wird angenommen/Fakt",
+      "label": "Fakta"
+    },
+    {
+      "target": "Differenzierbare Mannigfaltigkeit/Funktion/Extrema/Differentialform/Nullstelle/Aufgabe",
+      "label": "soal"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}
