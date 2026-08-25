@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-10/worksheet10_exercise10_solution.id.tex",
+  "allowed_deltas": [
+    {"correction_id":"O011-CORR-0089","surface":"profile:commands","source_sha256":"42fbba26cdfb5d29f38bfe4c01dfac384ce499d80701c6891f85567a0ce08dcb","target_sha256":"666f5e57ef441a308e79cc03fd25f3339b33fee28f9a9143d5dea50cd8c9ac0c"},
+    {"correction_id":"O011-CORR-0089","surface":"profile:inline_math","source_sha256":"5af7a2d4b3aa9278e94795250e2aea127f1836f30d26772d8069f61620d9c665","target_sha256":"fbbc7b17cdc3aabbd5c6af72ed024cbc2b220e57dee534c22fb68243ef0bbec0"},
+    {"correction_id":"O011-CORR-0089","surface":"profile:brace_profile","source_sha256":"b7fd22fb38c5a733f083f4a488d111bb60926db0a88d7d663642c5af38e65eee","target_sha256":"2bdaf1983a1c131358c63fe6a21007db978918c51fca1b1ae744f6d06be823d7"},
+    {"correction_id":"O011-CORR-0089","surface":"profile:protected:vergleichskette","source_sha256":"bd5d9514da6f42a7bfa646015d29ca9b4e7c2640820201c2909635441bd075ac","target_sha256":"a13ef7a885dbc300af517d3c805c3476959cae9ec5c8447a9db74e487e87be57"},
+    {"correction_id":"O011-CORR-0089","surface":"profile:protected:mathdisp","source_sha256":"090e73b5a4ac68895d4831659f30fd81293f86e90af3e587d0f724456a56ad72","target_sha256":"13f52b63d1197b0419ad54ad358a6bc93e4562e2fdeae0e2415bbec7180131ac"}
+  ],
+  "evidence_only_deltas": []
+}

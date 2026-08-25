@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-unit07-interactive-media-freeze-v1",
+  "status": "pass",
+  "scope": "Worksheet 7 Exercise 13 source-linked animations",
+  "api_authority": "https://commons.wikimedia.org/w/api.php",
+  "assets": [
+    {
+      "filename": "Aufgabe75.22.1.gif",
+      "pageid": 45528141,
+      "lastrevid": 1254892135,
+      "bytes": 200686,
+      "sha1": "04568d0755b0f831c499707065efb2a697c7fbf0",
+      "sha256": "dae99541dcac8721909366df89d67ee7ddc46ff49c24750c71f7d1e00245acca",
+      "creator": "Präzise",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "role": "interactive/downloadable source surface"
+    },
+    {
+      "filename": "Aufgabe75.22.2.gif",
+      "pageid": 45528285,
+      "lastrevid": 1254892149,
+      "bytes": 1640205,
+      "sha1": "8e6d8679909f574dea870e516306b9b192545488",
+      "sha256": "091b7d19856eb36aaf704bd23e26e46d0119ed97fcd736fb68cababa7ab7e942",
+      "creator": "Präzise",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "role": "interactive/downloadable source surface"
+    }
+  ],
+  "source_solution_binding": "worksheet07_exercise13_solution_source.de.tex",
+  "preserved_locally": true,
+  "translation_surface_requirement": "retain both source links and accessible alt text; do not silently replace animation with a static claim"
+}

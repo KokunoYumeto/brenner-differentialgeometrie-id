@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-11/worksheet11_exercise10_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0110",
+      "anchor": "supplied Solution 10, torus level-set map",
+      "change": "Replace the false isolated-origin claim by nondifferentiability on the full z-axis, compute the critical circle only on the differentiability domain, classify all real fibers, and correct the transition to s=R^2."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0110",
+      "surface": "profile:commands",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "target_sha256": "6c900561000a3d83daed05ebbb11f93b9ceea1567f21e904866742999a2fe737"
+    },
+    {
+      "correction_id": "O011-CORR-0110",
+      "surface": "profile:inline_math",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "target_sha256": "8b9335e818562f54466d642809406e05fb6f39e198276da798f46958c93f605f"
+    },
+    {
+      "correction_id": "O011-CORR-0110",
+      "surface": "profile:brace_profile",
+      "source_sha256": "7976726defb2e3053ddae45e5d620a073cda0eca0c1945aae9cee8fcc296d42d",
+      "target_sha256": "6d15a319920da734693f1080ac5412a551fd0058560d0cf94703dc12fd355676"
+    },
+    {
+      "correction_id": "O011-CORR-0110",
+      "surface": "profile:protected:mathdisp",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "target_sha256": "4553dd12e92664cf316cec891f00609d13f792490a79a86fba032edb7932a88f"
+    }
+  ],
+  "evidence_only_deltas": []
+}

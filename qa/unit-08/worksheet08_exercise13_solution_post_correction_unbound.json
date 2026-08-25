@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "source": "authority/expanded/worksheet08_exercise13_solution_source.de.tex",
+  "source_bytes": 2405,
+  "source_sha256": "31f2e73e81a59c36f23a4f2b35fb1a56399a77d7df3cc2d5b5f43babbc4f7b7d",
+  "target": "source/units/unit-08/worksheet08_exercise13_solution.id.tex",
+  "target_bytes": 3088,
+  "target_sha256": "73ee95e00976b81b69b5bee684d2f941c39ca413e4dd0f2696f29081456215ed",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": false,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": false,
+    "brace_profile_equal_or_declared": false,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 77,
+    "environments": 6,
+    "inline_math": 13,
+    "display_math": 0,
+    "protected_calls": 6
+  },
+  "status": "fail",
+  "failures": [
+    "commands",
+    "protected:vergleichskette",
+    "protected:maabbeledisp",
+    "brace_profile"
+  ],
+  "declared_corrections": [],
+  "evidence_only_results": []
+}

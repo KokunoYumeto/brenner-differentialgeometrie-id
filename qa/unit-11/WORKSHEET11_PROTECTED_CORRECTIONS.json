@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-11/worksheet11.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0110",
+      "anchor": "Exercise 9, torus level-set map",
+      "change": "State nondifferentiability on the entire z-axis, restrict regular/critical terminology to U={x^2+y^2>0}, include the empty negative fibers, and locate the topology transition at s=R^2."
+    },
+    {
+      "correction_id": "O011-CORR-0111",
+      "anchor": "Exercise 23, iterated pullback",
+      "change": "Replace literal set equalities by canonical isomorphisms and supply the canonical map (z,(phi(z),w))->(z,w)."
+    },
+    {
+      "correction_id": "O011-CORR-0112",
+      "anchor": "Exercise 29, first-order differential operator",
+      "change": "Remove the circular premise, assume g_j in C^0(U), define D by the displayed formula, and ask the learner to prove it is first order."
+    },
+    {
+      "correction_id": "O011-CORR-0113",
+      "anchor": "graded Exercise 34, torus parametrization",
+      "change": "Identify S^1 with R/(2 pi Z) and use angle classes before applying sine and cosine."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_ids": [
+        "O011-CORR-0110",
+        "O011-CORR-0111",
+        "O011-CORR-0112",
+        "O011-CORR-0113"
+      ],
+      "surface": "profile:commands",
+      "source_sha256": "112ce38a51b12b0bf2b6e49e18f654efebd804f2acf21e7f43e03346ed599024",
+      "target_sha256": "fe56b29983dfc3a004a1098ba47d28d2a47b37e5b96f11306f156922aa89f9a8"
+    },
+    {
+      "correction_ids": [
+        "O011-CORR-0110",
+        "O011-CORR-0111",
+        "O011-CORR-0112",
+        "O011-CORR-0113"
+      ],
+      "surface": "profile:inline_math",
+      "source_sha256": "8dc80d2be99b4cec15120026ca06a9ce3993793d7401dac6ea6eca2ee58b41cf",
+      "target_sha256": "fbcc4dc4e704fe20e5b58e479e5440fd4e749221c118515c77b76d37c014ff54"
+    },
+    {
+      "correction_ids": [
+        "O011-CORR-0110",
+        "O011-CORR-0111",
+        "O011-CORR-0112",
+        "O011-CORR-0113"
+      ],
+      "surface": "profile:brace_profile",
+      "source_sha256": "cbfbf02fd41f805f2adbeb79a0823a4399b4b40a2a6e419e1030921edb856092",
+      "target_sha256": "ada4453296b3830e333d526abdf081a656f06e1f26ef255e08e0482959690526"
+    },
+    {
+      "correction_id": "O011-CORR-0111",
+      "surface": "protected:vergleichskette",
+      "index": 17,
+      "source_sha256": "553e113fd0fc94081696c5d14736dad43a8b11fd0c715625b0720167f5ff3e0c",
+      "target_sha256": "855267140fe217da0f6325549bc188e7eaf73197617cd8800140463e0a8f7336"
+    },
+    {
+      "correction_id": "O011-CORR-0113",
+      "surface": "protected:maabbeledisp",
+      "index": 9,
+      "source_sha256": "0b1f7396b4ca9e0c709cb2548520157c74a710533df402f0c6fe3259a665d8b3",
+      "target_sha256": "676cef5d4dc11ad8dbeee0415967a52d31ade183baa78b3e9b19880d89891737"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-CORR-0110",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 8,
+      "source_sha256": "bfe12c7d4e2d1328c36eedf3513557cccd072ab35baef43b2404689717c923d8",
+      "target_sha256": "f6e9e65001e5f606ca44f2b5c46b5e6eb0c4898e9ac9065005c5d440b28fd19c",
+      "verification_note": "The complete ninth exercise call binds the corrected regularity domain and transition statement."
+    },
+    {
+      "correction_id": "O011-CORR-0111",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 20,
+      "source_sha256": "1540619449e448b589baa9b56e5837b70a6a07da925be06a62225e9e208b7f07",
+      "target_sha256": "5337eedf470b1cb438969a3bed8fa08bd633e5403bacf025e4cd8f59dfd22325",
+      "verification_note": "The complete pullback exercise binds both canonical-isomorphism symbols and the explicit map."
+    },
+    {
+      "correction_id": "O011-CORR-0112",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 26,
+      "source_sha256": "b694974fce691b516614e84e17894e2cfc35d6466f0173d2928391379a3eda7c",
+      "target_sha256": "1a09604209b4799d4b819268bae2cb01060737053d6177ceff245696542e9d94",
+      "verification_note": "The complete twenty-ninth exercise call binds the non-circular definition and continuity hypothesis."
+    },
+    {
+      "correction_id": "O011-CORR-0113",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 31,
+      "source_sha256": "0f8dc464323e324657bc8ed2fb7a2142c62bc059710fb4ff9f35b1427900b56e",
+      "target_sha256": "8933bd2f195df14e30ccf0c264bb9e896260c3c08beb51ab4daee6d638d34ceb",
+      "verification_note": "The complete first graded exercise call binds the angle-class correction."
+    }
+  ]
+}

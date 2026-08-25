@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://commons.wikimedia.org/w/api.php",
+  "http_date": "Sun, 23 Aug 2026 19:11:21 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "iiprop": "timestamp|user|url|size|sha1|mime|extmetadata",
+    "prop": "info|imageinfo",
+    "titles": "File:Tangentialvektor.svg"
+  },
+  "response_bytes": 6277,
+  "response_path": "unit09_media_imageinfo_current.json",
+  "response_sha256": "5309b7211e13fce75c49f4695f8e0cd85e568b997e627b8b21edae6809afb32b",
+  "retrieved_utc": "2026-08-23T19:11:22Z",
+  "schema_version": 1
+}

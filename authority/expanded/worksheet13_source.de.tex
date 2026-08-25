@@ -1,0 +1,707 @@
+\setcounter{section}{13}
+
+  \zwischenueberschrift{Übungsaufgaben}
+
+Das
+\definitionswort {Kroneckerprodukt}{}
+zu Matrizen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ A
+}
+{ =} { \left(  a_{ij}  \right)_{1 \leq i \leq m,\, 1 \leq j \leq n}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ B
+}
+{ =} { \left(  b_{k \ell }  \right)_{1 \leq k \leq p,\, 1 \leq \ell \leq r}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist durch
+
+\mathdisp {\left(  a_{ij} \cdot b_{k \ell}  \right)_{1 \leq i \leq m,\,     1 \leq  k \leq p;\,   1 \leq j \leq n,     \, 1 \leq \ell \leq r   }} {  }
+
+gegeben.
+
+\inputaufgabegibtloesung
+{}
+{
+
+Berechne das
+\definitionsverweis {Kroneckerprodukt}{}{}
+der beiden Matrizen
+\mathkor {} {\begin{pmatrix}  3   &   -4  \\  5  &  -2 \end{pmatrix}} {und} {\begin{pmatrix}  -2  &   7   \\  6  &  3 \end{pmatrix}} {.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $K$ ein
+\definitionsverweis {Körper}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ A
+}
+{ =} { \left(  a_{ij}  \right)_{1 \leq i \leq m,\, 1 \leq j \leq n}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ B
+}
+{ =} { \left(  b_{k \ell }  \right)_{1 \leq  k \leq p,\, 1 \leq \ell \leq r}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\definitionsverweis {Matrizen}{}{}
+mit den zugehörigen
+\definitionsverweis {linearen Abbildungen}{}{}
+\maabb {A} {K^n  } { K^m
+} {}
+bzw.
+\maabb {B} {K^r } { K^p
+} {.}
+Zeige, dass das
+\definitionsverweis {Tensorprodukt}{}{}
+dieser linearen Abbildungen bezüglich der Basen
+
+\mathbed {e_j \otimes e_\ell} {}
+ {1 \leq j \leq n,\, 1 \leq \ell \leq r} {}
+ {} {} {} {,}
+von
+\mathl{K^n \otimes K^r}{} und
+
+\mathbed {e_i \otimes e_k} {}
+ {1 \leq i \leq m,\, 1 \leq  k \leq p} {}
+ {} {} {} {,}
+von
+\mathl{K^m \otimes K^p}{} durch das
+\definitionsverweis {Kroneckerprodukt}{}{}
+von $A$ und $B$ beschrieben wird.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Zeige, dass das
+\definitionsverweis {Tensorprodukt}{}{}
+des
+\definitionsverweis {Möbiusbandes}{}{}
+mit sich selbst ein triviales Geradenbündel ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es seien
+\mathkor {} {M_1} {und} {M_2} {}
+\definitionsverweis {orientierte Mannigfaltigkeiten}{}{.}
+Zeige, dass das
+\definitionsverweis {Produkt}{}{}
+
+\mathl{M_1 \times M_2}{} eine orientierte Mannigfaltigkeit ist
+\zusatzklammer {wobei die Orientierung von der Ordnung auf \mathlk{\{1,2\}}{} abhängt} {} {.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Zeige, dass die $1$-Sphäre $S^1$ eine
+\definitionsverweis {orientierbare}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+ist.
+
+}
+{} {}
+
+Es seien
+\mathkor {} {M} {und} {N} {}
+\definitionsverweis {orientierte Mannigfaltigkeiten}{}{}
+und
+\maabbdisp {\varphi} { M } { N
+} {}
+eine
+\definitionsverweis {differenzierbare Abbildung}{}{.}
+Diese heißt $\varphi$ \definitionswort {orientierungstreu}{,} wenn für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Tangentialabbildung}{}{}
+\maabbdisp {T\varphi} { T_PM } { T_{\varphi(P)} N
+} {}
+bijektiv und
+\definitionsverweis {orientierungstreu}{}{}
+ist.
+
+\inputaufgabe
+{}
+{
+
+Zeige, dass die
+\definitionsverweis {antipodale Abbildung}{}{}
+\maabbeledisp {\varphi} {S^1} {S^1
+} { P } { -P
+} {,}
+\definitionsverweis {orientierungstreu}{}{} ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {orientierte Mannigfaltigkeit}{}{.}
+Zeige, dass die Vertauschungsabbildung
+\maabbeledisp {\varphi} {M \times M} {M \times M
+} {(P,Q)} {(Q,P)
+} {,}
+bezüglich der jeweiligen
+\definitionsverweis {Produktorientierungen}{}{}
+nicht
+\definitionsverweis {orientierungstreu}{}{}
+sein muss.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{,}
+der nur aus
+\definitionsverweis {endlich vielen}{}{}
+Elementen bestehe. Zeige, dass $X$
+\definitionsverweis {kompakt}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}
+und es seien
+
+\mavergleichskette
+{\vergleichskette
+{Y_1 , \ldots , Y_n
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {kompakte Teilmengen}{}{.}
+Zeige, dass auch die
+\definitionsverweis {Vereinigung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ \bigcup_{i = 1}^n Y_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kompakt ist.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es sei $X$ ein
+\definitionsverweis {kompakter Raum}{}{}
+und es sei
+
+\mavergleichskette
+{\vergleichskette
+{Y
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {abgeschlossene Teilmenge}{}{,}
+die die
+\definitionsverweis {induzierte Topologie}{}{}
+trage. Zeige, dass $Y$ ebenfalls kompakt ist.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es sei $X$ ein nichtleerer
+\definitionsverweis {kompakter}{}{}
+\definitionsverweis {topologischer Raum}{}{}
+und sei
+\maabbdisp {f} { X } {\R
+} {}
+eine
+\definitionsverweis {stetige Funktion}{}{.}
+Zeige, dass es ein
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mathdisp {f(x) \geq f(x')  \text { für alle } x' \in X} {  }
+ gibt.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+\maabbdisp {f} {\R} {S^1
+} {}
+eine
+\definitionsverweis {stetige Abbildung}{}{.}
+Zeige, dass das
+\definitionsverweis {Bild}{}{}
+von $f$
+\definitionsverweis {homöomorph}{}{}
+zu einem offenen, einem halboffenen, einem abgeschlossenen
+\definitionsverweis {Intervall}{}{}
+oder zu $S^1$ ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+\maabbdisp {f} {S^1} {\R
+} {}
+eine
+\definitionsverweis {stetige Abbildung}{}{.}
+Zeige, dass das
+\definitionsverweis {Bild}{}{}
+von $f$
+\definitionsverweis {homöomorph}{}{}
+zu einem abgeschlossenen
+\definitionsverweis {Intervall}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Zeige, dass die Menge der
+\definitionsverweis {reellen Zahlen}{}{} $\R$ nicht
+\definitionsverweis {überdeckungskompakt}{}{} ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Wir betrachten die
+\definitionsverweis {natürlichen Zahlen}{}{}
+$\N$ und versehen sie mit der
+\definitionsverweis {diskreten Metrik}{}{.}
+Zeige, dass $\N$
+\definitionsverweis {
+abgeschlossen}{}{}
+und
+\definitionsverweis {beschränkt}{}{,}
+aber nicht
+\definitionsverweis {
+überdeckungskompakt}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es sei $X$ ein
+\definitionsverweis {kompakter}{}{}
+\definitionsverweis {metrischer Raum}{}{.}
+Zeige, dass $X$
+\definitionsverweis {
+vollständig}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Zeige, dass es eine
+\definitionsverweis {abzählbare Familie}{}{}
+von
+\definitionsverweis {offenen Bällen}{}{}
+im $\R^n$ gibt, die eine
+\definitionsverweis {Basis der Topologie}{}{}
+bilden.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Zeige, dass die Menge
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { \left\{ (x,y,z) \in \R^3  \mid   x^2+y^4+z^6 = 1        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+eine zweidimensionale kompakte differenzierbare Mannigfaltigkeit ist.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es sei $M$ eine kompakte topologische $d$-dimensionale Mannigfaltigkeit,
+
+\mavergleichskette
+{\vergleichskette
+{ d
+}
+{ \geq }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Zeige, dass es eine beschränkte offene Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^d
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und eine stetige surjektive Abbildung
+\maabbdisp {\varphi} { U } { M
+} {}
+gibt.
+
+}
+{} {}
+
+  \zwischenueberschrift{Aufgaben zum Abgeben}
+
+\inputaufgabe
+{4}
+{
+
+Zeige, dass die $2$-Sphäre $S^2$ eine
+\definitionsverweis {orientierbare}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{4}
+{
+
+Zeige, dass die
+\definitionsverweis {Antipodenabbildung}{}{}
+\maabbeledisp {} {S^2} {S^2
+} {(x,y,z)} {(-x,-y,-z)
+} {,}
+nicht
+\definitionsverweis {orientierungstreu}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{4}
+{
+
+Es sei $X$ ein
+\definitionsverweis {Hausdorffraum}{}{}
+und es sei
+
+\mavergleichskette
+{\vergleichskette
+{Y
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine Teilmenge, die die
+\definitionsverweis {induzierte Topologie}{}{}
+trage. Es sei $Y$
+\definitionsverweis {kompakt}{}{.}
+Zeige, dass $Y$
+\definitionsverweis {abgeschlossen}{}{}
+in $X$ ist.
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Es seien
+\mathkor {} {X} {und} {Y} {}
+\definitionsverweis {topologische Räume}{}{}
+und es sei
+\maabbdisp {\varphi} { X } { Y
+} {}
+eine
+\definitionsverweis {stetige Abbildung}{}{.}
+Es sei $X$
+\definitionsverweis {kompakt}{}{.}
+Zeige, dass das
+\definitionsverweis {Bild}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi(X)
+}
+{ \subseteq }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ebenfalls kompakt ist.
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Es sei $V$ ein
+\definitionsverweis {euklidischer Vektorraum}{}{}
+der
+\definitionsverweis {Dimension}{}{}
+$n$ und sei das
+\definitionsverweis {Produkt}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ V^n
+}
+{ = }{ V \times \cdots \times V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit der
+\definitionsverweis {Produkttopologie}{}{}
+versehen. Es sei $I$ ein
+\definitionsverweis {reelles Intervall}{}{}
+und
+\maabbdisp {\varphi} { I } { V^n
+} {}
+eine
+\definitionsverweis {stetige Abbildung}{}{}
+mit der Eigenschaft, dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi(t)
+}
+{ =} { (\varphi_1(t), \varphi_2(t) , \ldots , \varphi_n(t))
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für jedes
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {Basis}{}{}
+von $V$ ist. Zeige, dass sämtliche Basen
+
+\mathbed {\varphi(t)} {}
+ {t \in I} {}
+ {} {} {} {,}
+die gleiche
+\definitionsverweis {Orientierung}{}{}
+auf $V$ repräsentieren.
+
+}
+{} {}
+
+ [[Kategorie:Latexseite]]

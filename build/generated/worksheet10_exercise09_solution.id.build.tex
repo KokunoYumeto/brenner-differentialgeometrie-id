@@ -1,0 +1,56 @@
+Jika $n=0$, ambil saja $M_0=M$. Sekarang anggap $n\geq1$. Pilih suatu titik $P\in M$, sebuah lingkungan peta terbuka
+\mathl{P \in U}{},
+dan sebuah peta
+\maabbdisp {\alpha} { U } {V \subseteq \R^n
+} {,}
+dengan $V=B(0,3)$ bola terbuka berpusat di $0$ berjari-jari $3$ dan
+\mathl{\alpha(P)=0}{}.
+Untuk
+\mathl{i=0 , \ldots , n-1}{}, perhatikan
+
+\mathdisp {B_i = \left\{  x \in V  \mid  (x_1-1)^2+x_2^2 + \cdots + x_{i+1}^2 = 1 , \, x_{i+2}=\cdots=x_n=0       \right\}} { , }
+
+dengan syarat koordinat terakhir dipahami kosong jika $i=n-1$.
+Jadi $B_{n-1}$ adalah permukaan bola berpusat di
+\mathl{(1,0 , \ldots , 0)}{}
+dan berjari-jari $1$, sedangkan $B_{n-2}$ adalah
+\anfuehrung{ekuator}{}
+di dalamnya yang didefinisikan oleh
+\mathl{x_n=0}{}, dan seterusnya. Himpunan $B_i$ diperoleh dari
+\mathl{B_{i+1}}{}
+dengan menambahkan syarat
+\mathl{x_{i+2}=0}{}.
+Dengan demikian terdapat rantai menurun himpunan-himpunan tertutup
+
+\mathdisp {B_{n-1} \supseteq B_{n-2} \supseteq  \ldots \supseteq B_1 \supseteq B_0} { , }
+
+dengan $B_0$ terdiri atas dua titik
+\mathl{(0,0 , \ldots , 0 )}{}
+dan
+\mathl{(2,0 , \ldots , 0 )}{.}
+Kita memandang $B_i$ sebagai serat di atas titik nol dari pemetaan
+\maabbeledisp {\varphi_i} { V } {\R^{n-i}
+} {(x_1 , \ldots , x_n) } {  ((x_1-1)^2+x_2^2 + \cdots + x_n^2 - 1 , x_{i+2} , \ldots , x_n)
+} {,}
+dengan komponen koordinat terakhir kembali dipahami kosong jika $i=n-1$.
+Matriks Jacobi pemetaan ini ialah
+
+\mathdisp {\begin{pmatrix}  2x_1-2 &  2x_2  &  \ldots  &  2x_{i+1} &  2x_{i+2} &  \ldots &  2x_{n-1} &  2x_n
+ \\  0 &  0 &  \ldots &  0 &  1 &  0 &  \ldots &  0
+ \\ \vdots  & \vdots & \vdots &  \ddots &  \ddots &  \ddots  &  \ddots  & \vdots \\  0 &  0 &  \ldots &  \ldots &  \ldots &  0 &  1 &  0 \\  0 &  0 &  \ldots &  \ldots &  \ldots  &  \ldots &  0 &  1 \end{pmatrix}} { . }
+
+Rank matriks ini lebih kecil daripada $n-i$ hanya jika
+\mathl{x_1=1, \, x_2 = \cdots =x_{i+1}=0}{},
+dan titik semacam itu tidak terletak di $B_i$. Jadi $\varphi_i$ reguler pada serat $B_i$, sehingga menurut teorema pemetaan implisit, $B_i$ merupakan submanifold tertutup dari $V$ berdimensi
+\mathl{i}{.}
+
+Sekarang tetapkan
+\mathl{M_i= \alpha^{-1}(B_i)}{}
+untuk
+\mathl{i=0 , \ldots , n-1}{}
+dan
+\mathl{M_n= M}{.}
+Karena setiap $B_i$ kompak, setiap $M_i$ merupakan himpunan tertutup di $M$. Karena kondisi submanifold tertutup bersifat lokal, himpunan-himpunan ini merupakan submanifold tertutup dari $M$, dan
+\mathl{\operatorname{dim}M_i=i}{}.
+
+Catatan edisi: Sumber memulai definisi $B_i$ pada $i=1$ tetapi kemudian memakai $B_0$ dan $M_0$ tanpa mendefinisikannya. Sumber juga menyatakan titik-titik $B_0$ sebagai $(\pm1,0,\ldots,0)$, padahal bola yang dipakai berpusat di $(1,0,\ldots,0)$; titik yang benar ialah $0$ dan $(2,0,\ldots,0)$. Rentang dan titik-titik itu diperbaiki di atas.

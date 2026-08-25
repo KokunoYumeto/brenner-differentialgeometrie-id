@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-unit07-media-aliases-v1",
+  "aliases": [
+    {
+      "source": "authority/media/Hyperboloid1.png",
+      "target": "build/generated/media/Hyperboloid1.png",
+      "bytes": 278393,
+      "sha256": "4c813998156ef1961fa557d3a7c356d737c47291d36159baa955f170e500979b"
+    },
+    {
+      "source": "authority/media/Stereographic projection in 3D.png",
+      "target": "build/generated/media/Stereographic_projection_in_3D.png",
+      "bytes": 69330,
+      "sha256": "ab78ed4225923f771ae69d44930c244c53ef7c3a44d8e7264b16467dc4a78316"
+    },
+    {
+      "source": "authority/media/Manifold zahyou3.png",
+      "target": "build/generated/media/Manifold_zahyou3.png",
+      "bytes": 9977,
+      "sha256": "fd3afef0df5b0ec3dc9eceea337fda5d15371ea143aa3cfbb24e134e455342f8"
+    },
+    {
+      "source": "build/generated/media/Circle - black simple.png",
+      "target": "build/generated/media/Circle_-_black_simple.png",
+      "bytes": 66230,
+      "sha256": "ef7b03e3aa47d3be8cfa205993d27d4a2eff15bb6bcd3f381401ce88224c9b29"
+    }
+  ],
+  "wrapper_macro_surface": "\\bildeinlesungpng,\\bildeinlesungPNG,\\bildeinlesungsvg"
+}

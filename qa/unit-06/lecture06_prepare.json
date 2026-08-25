@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-06/lecture06.id.tex",
+  "input_bytes": 32034,
+  "input_sha256": "180c553eb556d91ba733e00f012bd0ece36c32e66704c992f0c64244ab6e05e8",
+  "output": "build/generated/lecture06.id.build.tex",
+  "output_bytes": 30755,
+  "output_sha256": "c623f4046049dd640b6c813d357c35b532098ee383ef856ad7296881f3f7ea4e",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 6,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Richtungsableitung/R/Elementare Eigenschaften/Fakt",
+      "label": "Lemma 43.6 (Analisis (Osnabrück 2021--2023))"
+    },
+    {
+      "target": "Totale Differenzierbarkeit/K/Produktregel/Fakt",
+      "label": "Lemma 45.10 (Analisis (Osnabrück 2021--2023))"
+    },
+    {
+      "target": "Hyperfläche/Tangentiales Vektorfeld/Bezüglich Tangentenvektor/Kovariante Ableitung/Eigenschaften/Fakt",
+      "label": "Lemma 6.3"
+    },
+    {
+      "target": "Hyperfläche/Tangentiales Vektorfeld/Bezüglich tangentialem Vektorfeld/Kovariante Ableitung/Definition",
+      "label": "Definisi 6.2"
+    },
+    {
+      "target": "Hyperfläche/Tangentiales Vektorfeld/Längs einer Kurve/Kovariante Ableitung/Definition",
+      "label": "Definisi 6.5"
+    },
+    {
+      "target": "Hyperfläche/Kurve/Paralleles Vektorfeld/Eigenschaften/Fakt/Beweis/Aufgabe",
+      "label": "Soal 6.3"
+    },
+    {
+      "target": "Picard Lindelöf/Lokal Lipschitz/Lokale Existenz und Eindeutigkeit/Fakt",
+      "label": "Teorema 56.2 (Analisis (Osnabrück 2021--2023))"
+    },
+    {
+      "target": "Hyperfläche/Kurve/Anfangstangentenvektor/Paralleles Vektorfeld/Existenz/Fakt",
+      "label": "Teorema 6.9"
+    },
+    {
+      "target": "Hyperfläche/Kurve/Anfangstangentenvektor/Paralleles Vektorfeld/Differentialgleichung/Explizite Gestalt/Bemerkung",
+      "label": "Catatan 6.10"
+    },
+    {
+      "target": "Hyperfläche/Kurve/Anfangstangentenvektor/Paralleles Vektorfeld/Existenz/Fakt",
+      "label": "Teorema 6.9"
+    },
+    {
+      "target": "Hyperfläche/Kurve/Anfangstangentenvektor/Paralleles Vektorfeld/Existenz/Fakt",
+      "label": "Teorema 6.9"
+    },
+    {
+      "target": "Hyperfläche/Kurve/Paralleles Vektorfeld/Eigenschaften/Fakt",
+      "label": "Lemma 6.7"
+    },
+    {
+      "target": "Hyperfläche/Kurve/Anfangstangentenvektor/Paralleles Vektorfeld/Existenz/Fakt",
+      "label": "Teorema 6.9"
+    },
+    {
+      "target": "Kugeloberfläche/Viertelgroßkreis/Parallele Vektorfelder/Beispiel",
+      "label": "Contoh 6.11"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

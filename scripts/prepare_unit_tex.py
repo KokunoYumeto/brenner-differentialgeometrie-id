@@ -12,6 +12,15 @@ from pathlib import Path
 
 CATEGORY_RE = re.compile(r"\s*\[\[Kategori(?:e|):[^\]]+\]\]\s*", re.IGNORECASE)
 WIKILINK_RE = re.compile(r"\[\[([^\[\]|]+)(?:\|([^\[\]]+))?\]\]")
+# MediaWiki animation links are a reader surface, not ordinary prose links.
+# Preserve them as clickable Commons links before the generic wiki-link pass
+# strips the source target.  The pattern is intentionally limited to the two
+# file namespaces and GIF assets; ordinary internal links retain the existing
+# label-only behavior.
+INTERACTIVE_GIF_WIKILINK_RE = re.compile(
+    r"\[\[(?:Datei|File):([^\[\]|]+\.gif)(?:\|([^\[\]]*))?\]\]",
+    re.IGNORECASE,
+)
 IMAGE_LOADER_RE = re.compile(
     r"(\\bildeinlesung(?:png|PNG|jpg|JPG|jpeg|svg|gif|GIF|xcf)?\s*\{)"
     r"\s*([^{}]*?)\s*(\})"
@@ -64,6 +73,19 @@ def main() -> None:
     noedit_count = text.count("__NOEDITSECTION__")
     text = text.replace("__NOEDITSECTION__", "")
     links: list[dict[str, str]] = []
+    interactive_links: list[dict[str, str]] = []
+
+    def replace_interactive_gif(match: re.Match[str]) -> str:
+        filename = match.group(1).strip()
+        fields = [field.strip() for field in (match.group(2) or "").split("|") if field.strip()]
+        # MediaWiki's thumb marker is presentation metadata; the final field
+        # is the human-readable caption/accessible label.
+        caption = next((field for field in fields if field.lower() != "thumb"), filename)
+        url = "https://commons.wikimedia.org/wiki/File:" + filename.replace(" ", "_")
+        interactive_links.append({"filename": filename, "label": caption, "url": url})
+        return r"\href{" + url + "}{" + caption + "}"
+
+    text = INTERACTIVE_GIF_WIKILINK_RE.sub(replace_interactive_gif, text)
 
     def replace_link(match: re.Match[str]) -> str:
         target = match.group(1).strip()
@@ -137,6 +159,7 @@ def main() -> None:
         "localized_math_operators": operator_localizations,
         "layout_reflows": layout_reflows,
         "rendered_internal_links": links,
+        "rendered_interactive_gif_links": interactive_links,
     }
     args.receipt.parent.mkdir(parents=True, exist_ok=True)
     args.receipt.write_text(

@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-unit13-authority-repeat-and-source-anomaly-receipt-v1",
+  "unit": 13,
+  "scope": "Unit 13 authority/preflight/solution/media freeze only; no translation, shared-ledger, cursor, backend, build, or publication mutation.",
+  "primary_gate": {
+    "preflight": {
+      "path": "qa/unit-13/AUTHORITY_PREFLIGHT.json",
+      "bytes": 51347,
+      "sha256": "270d2670e7609ea33c54fdef4e0e00005740375ba85e4ad506d2cf826a26d559"
+    },
+    "solution_closure": {
+      "path": "qa/unit-13/solution_closure.json",
+      "bytes": 33249,
+      "sha256": "8255a56ca2496fa785189d5936e144c5ef3b05e553eca8fbfd4c27683b9800c9"
+    },
+    "offline_verifier": {
+      "path": "qa/unit-13/AUTHORITY_PREFLIGHT_VERIFY.json",
+      "bytes": 567,
+      "sha256": "b6dd0288f66d7f05b048ff67848c78f86f168ef4c1279472f5f9687b58a6a751"
+    }
+  },
+  "deterministic_repeat": {
+    "freeze_command": "python scripts/freeze_unit_authority.py --root . --unit 13",
+    "freeze_exit_code": 0,
+    "offline_verify_command": "python scripts/verify_unit_authority_preflight.py --root . --unit 13",
+    "offline_verify_exit_code": 0,
+    "artifact_inventory_scope": [
+      "qa/unit-13/*",
+      "authority/mediawiki/{unit13,lecture13,worksheet13}*",
+      "authority/exports/{lecture13,worksheet13}*",
+      "authority/expanded/{lecture13,worksheet13}*",
+      "each media binary and download receipt named by qa/unit-13/AUTHORITY_PREFLIGHT.json"
+    ],
+    "primary_artifact_count_before_this_receipt": 86,
+    "repeat_artifact_count": 86,
+    "path_sets_identical": true,
+    "byte_and_sha256_differences": []
+  },
+  "bounded_source_anomalies": [
+    {
+      "kind": "displayed-media filename alias differs from adjacent canonical license filename",
+      "official_api_response": {
+        "path": "authority/exports/lecture13_latex_expand.json",
+        "bytes": 28901,
+        "sha256": "6136c208c8f8eb4a08af109b5d63902aad65f497379678109e3f7c9e4bee5792"
+      },
+      "official_spellings_preserved": {
+        "display_macro": "Mobius_strip.jpg",
+        "license_macro": "Möbius strip.jpg"
+      },
+      "bounded_normalization": "The Unit 13 German TeX witness canonicalizes only the display-macro stem to Möbius_strip.jpg so the displayed asset and exact Commons license filename close to one identity.",
+      "normalized_source": {
+        "path": "authority/expanded/lecture13_source.de.tex",
+        "bytes": 23322,
+        "sha256": "3416c47b07bef5b03ca2d70e4dae74691342555a207663af61d908ee0fe05da5"
+      },
+      "receipt": {
+        "path": "qa/unit-13/lecture13_sanitize.json",
+        "bytes": 1120,
+        "sha256": "e3b9011056cc42655166f463decb0e685a5c36088a16497a38e870e2f1dc853b"
+      },
+      "semantic_or_rights_change": false
+    },
+    {
+      "kind": "official supplied-solution expansion retains balanced MediaWiki math tags",
+      "solution_index": 21,
+      "official_api_response": {
+        "path": "authority/exports/worksheet13_exercise21_solution_latex_expand.json",
+        "bytes": 611,
+        "sha256": "e2e4e170d46fa89e79cdc8eded2b90c23c73759bf3168247be27b36ecc19302f"
+      },
+      "balanced_math_tag_pair_count": 6,
+      "bounded_normalization": "The six exact balanced math tag pairs become TeX dollar delimiters; their enclosed mathematical bytes remain in source order. The ordinary sanitizer first failed closed on the residual tags.",
+      "normalized_source": {
+        "path": "authority/expanded/worksheet13_exercise21_solution_source.de.tex",
+        "bytes": 396,
+        "sha256": "67b35cbd9058d61fb882b97dccf38820caeac278a737ca1fbec0cda9c75903f2"
+      },
+      "receipt": {
+        "path": "qa/unit-13/worksheet13_exercise21_solution_sanitize.json",
+        "bytes": 1006,
+        "sha256": "93f74060ea96ba8a58d163009f05d43d6e4f1f6702198ded1c9b17f1efac5061"
+      },
+      "semantic_or_mathematical_change": false
+    },
+    {
+      "kind": "official Solution 13.21 contains an internally inconsistent antipodal-map parity claim",
+      "solution_index": 21,
+      "exact_source_witness": {
+        "path": "authority/mediawiki/worksheet13_exercise21_solution_revid912452.wiki",
+        "bytes": 461,
+        "sha256": "c9d49d7b3905da877d54d3f5a5b8d4e3240c8057fd1f759be158ad7c872fc27b"
+      },
+      "evidence": "The source first concludes that the antipodal map on S^2 is not orientation-preserving, then states that the antipodal map on S^n is orientation-reversing exactly when n is odd. Those two parity claims conflict; the standard degree is (-1)^(n+1), so reversal occurs for even n.",
+      "authority_action": "Preserve the official wording unchanged in the frozen witness; do not silently repair it during authority freeze. Translation/mathematical QA may use the established explicit protected-correction convention.",
+      "admission_impact": "documented_source_error_not_an_authority_or_closure_failure"
+    }
+  ],
+  "checks": {
+    "unchanged_official_api_responses_retained": true,
+    "lossless_root_and_solution_witnesses_retained": true,
+    "normalizations_confined_to_unit13_expanded_source_witnesses": true,
+    "offline_verifier_pass_after_normalization": true,
+    "deterministic_repeat_byte_identical": true,
+    "translation_started": false
+  },
+  "admission": {
+    "admitted_for_translation": true,
+    "lecture": 13,
+    "worksheet": 13,
+    "supplied_solution_indices": [1, 10, 11, 16, 18, 19, 21, 22],
+    "media_filenames": ["Möbius strip.jpg"]
+  },
+  "status": "pass"
+}

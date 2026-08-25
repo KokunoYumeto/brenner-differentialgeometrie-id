@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-12/worksheet12.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0122",
+      "anchor": "Exercises 5-6, punctured R^3 bundle",
+      "change": "Replace R^3 setminus {0,0,0} by R^3 setminus {(0,0,0)} and parenthesize the punctured-space factor in the product."
+    },
+    {
+      "correction_id": "O011-CORR-0123",
+      "anchor": "Exercise 21, quotient short exact sequence",
+      "change": "Replace the erroneous quotient U/V by V/U."
+    },
+    {
+      "correction_id": "O011-CORR-0124",
+      "anchor": "Exercise 25, tangent map",
+      "change": "Replace the ill-typed TY -> phi^*TX over Y by the natural map Tphi:TX -> phi^*TY over X."
+    },
+    {
+      "correction_id": "O011-CORR-0125",
+      "anchor": "Graded Exercise 26, finite kernel bundle",
+      "change": "Replace the union index i in I by i=1,...,n and the erroneous final tuple coordinate f_n by t_n."
+    },
+    {
+      "correction_id": "O011-TRANS-0126",
+      "anchor": "Exercise 19, protected visible set-builder text",
+      "change": "Translate the visible German predicate ist surjektiv inside the protected formula to Indonesian surjektif; mathematical meaning is unchanged."
+    },
+    {
+      "correction_id": "O011-ACC-0128",
+      "anchor": "Inclusion-exclusion.svg figure",
+      "change": "Supply an Indonesian reader description for the source's blank image caption."
+    },
+    {
+      "correction_id": "O011-CORR-0129",
+      "anchor": "Inclusion-exclusion.svg rights macro",
+      "change": "Replace the stale Burn commonswiki / CC BY-SA 3.0 display with the exact frozen current rights: creator unknown and public domain; canonical SVG bytes remain unchanged."
+    },
+    {
+      "correction_id": "O011-CORR-0132",
+      "anchor": "Exercise 15, compatibility indices for local section representatives",
+      "change": "Replace the ambiguous source formula 'for all ij' by 'for all i,j'."
+    },
+    {
+      "correction_id": "O011-TRANS-0133",
+      "anchor": "Exercise 16, paired matrix descriptions",
+      "change": "Render the source's respective pairing explicitly: the phi and psi descriptions produce E and F respectively, rather than offering E or F as alternatives."
+    },
+    {
+      "correction_id": "O011-TRANS-0134",
+      "anchor": "Worksheet 12 prose terminology for real vector spaces, real lines, and real-valued functions",
+      "change": "Normalize the three stale mathematical-adjective spellings real to the admitted Indonesian term riil; mathematical meaning and TeX topology are unchanged."
+    },
+    {
+      "correction_id": "O011-TRANS-0156",
+      "anchor": "Exercises 5-6, long punctured-space bundle display",
+      "change": "Use the authority's aligned comparison-chain macro variant so the unchanged set, inclusion, product, and projection data reflow across three centered lines inside the A4 text block."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_ids": [
+        "O011-CORR-0124",
+        "O011-CORR-0125",
+        "O011-TRANS-0156"
+      ],
+      "surface": "profile:commands",
+      "source_sha256": "7d5fe1033694d670b1d9a8fc78f92829c88eec45205ae86bb04a96c72fbb173e",
+      "target_sha256": "bda08a203bb1d37af6be85a6b1e061a9bc4341f1ee47cdb5dac32f488247cba5"
+    },
+    {
+      "correction_ids": [
+        "O011-CORR-0124",
+        "O011-CORR-0132"
+      ],
+      "surface": "profile:inline_math",
+      "source_sha256": "30aeca0e9e1aa67ad6ea1eb54e030fd8c3b7933a1c94f9f1cb04523d31b98962",
+      "target_sha256": "96baf72ce64233b0239855c66e8f03a3cc79955c666d7dd6ce93000c0532cf61"
+    },
+    {
+      "correction_ids": [
+        "O011-CORR-0122",
+        "O011-CORR-0125",
+        "O011-TRANS-0126",
+        "O011-TRANS-0156"
+      ],
+      "surface": "profile:protected:vergleichskette",
+      "source_sha256": "f7484e323552b77f54059495682c3e47362676dbdef5d890265d3318912c3410",
+      "target_sha256": "6c9517e7f3ede7c5978c7918d6b1fa5900567d941cfb4d4fd1d362804f6a2984"
+    },
+    {
+      "correction_id": "O011-CORR-0124",
+      "surface": "protected:maabbdisp",
+      "index": 9,
+      "source_sha256": "4078e758d96c47e126867e639a4bc15726d469740a442320f64026c22e878fae",
+      "target_sha256": "a00d4b0eb1fb374e14be17109a835f25e7bab345f586b8dc48b733a430dd0e86"
+    },
+    {
+      "correction_id": "O011-CORR-0123",
+      "surface": "protected:mathdisp",
+      "index": 3,
+      "source_sha256": "5cafa829a8e6457b79bd8d8a017b44db81f61b65552753e325f38b130cb992e4",
+      "target_sha256": "b80787209c5fb840a5c45f551e68ab65e247711ed39b32b618acb980f8818b2e"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-CORR-0122",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 4,
+      "source_sha256": "5888e508b3b3f7dc039805c4b90a8d3ff95c8a0d5cdf8cd6b6867eb778d832ac",
+      "target_sha256": "859c8bfdaf44135c5863682bf8890b38f4f3b65aaa0bdaf3511a720a3c1f9b70",
+      "verification_note": "The complete fifth exercise call binds the corrected punctured-space point notation and product parenthesization together with the aligned A4 reflow."
+    },
+    {
+      "correction_id": "O011-CORR-0122",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 5,
+      "source_sha256": "66264e454e7ccf47703a9bf3de7afe594bc9824a8c57c71340e144d7dfb2e47a",
+      "target_sha256": "4a5527f5410cd5f75db8d6c02c029151f0ba25a2604138be23a6c67495584e83",
+      "verification_note": "The complete sixth exercise call binds the corrected punctured-space point notation and product parenthesization together with the aligned A4 reflow."
+    },
+    {
+      "correction_id": "O011-TRANS-0126",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 16,
+      "source_sha256": "04d19037bc7ee0885675588973423c67f5fb4532aa68b901e2abc2c8b64586d4",
+      "target_sha256": "9dc5fb4893f9ef95569aed9b625d72de5ddd4752aab54a38fcf1b73f31b40f84",
+      "verification_note": "The complete nineteenth exercise call binds the Indonesian visible text inside the protected set-builder formula."
+    },
+    {
+      "correction_id": "O011-CORR-0123",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 18,
+      "source_sha256": "2a281daa959af67033c578215356b5d8e2d42017f9aebc78780e8d830a8b38d2",
+      "target_sha256": "b252702af445ecb3f443860efb831ad8748112717c04132949e758a45b0beb55",
+      "verification_note": "The complete twenty-first exercise call binds the corrected quotient V/U in the short exact sequence."
+    },
+    {
+      "correction_id": "O011-CORR-0124",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 22,
+      "source_sha256": "cc323d9950033d6daead6edfadc2f4eeacb7390962b25cf50f588f633970abf3",
+      "target_sha256": "f318ab570379d470913e58e4322a463ec0907462310143a4c15fb472e65d3e35",
+      "verification_note": "The complete twenty-fifth exercise call binds Tphi:TX->phi^*TY over X."
+    },
+    {
+      "correction_id": "O011-CORR-0125",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 23,
+      "source_sha256": "cbdffb1393144fa418e480a339f764de97c199a89614861e035e817c6d28ab5a",
+      "target_sha256": "c568ed575b949d5921848806f21334a1d41ee911729af3805e0d53ef55040e22",
+      "verification_note": "The complete first graded exercise call binds the finite union index and corrected terminal tuple coordinate t_n."
+    },
+    {
+      "correction_id": "O011-ACC-0128",
+      "surface": "command:bild",
+      "occurrence_index": 0,
+      "source_sha256": "5c1f5abeab4d278a96bf521c85e090740963cecbcf6797b796303097cf328e20",
+      "target_sha256": "6c7ecd4ffb53ca650d94df354c296ac583e00a2872d218f52633d4078793d008",
+      "verification_note": "The complete figure call binds the Indonesian description added to the source's blank caption."
+    },
+    {
+      "correction_id": "O011-CORR-0129",
+      "surface": "command:bildlizenz",
+      "occurrence_index": 0,
+      "source_sha256": "540ec4ea40c23db3d913115c6cddc313d67968dc43e4be6377664d10d9e125b9",
+      "target_sha256": "03ca931b8e51ab377bc243c208530fdb35d88fcdd502c2052b6ee9e92df78cd3",
+      "verification_note": "The complete rights call binds the exact frozen current public-domain status and unknown creator label."
+    },
+    {
+      "correction_id": "O011-CORR-0132",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 12,
+      "source_sha256": "32567e3551dc20c25d85a8c121eb0e8025dbadee539edb4823f5a2a6eb4d4df8",
+      "target_sha256": "ef2945d022f1080399238c75d823b7bf031d798de9f4b6aa3cffd6f8b7097e6b",
+      "verification_note": "The complete exercise call binds the corrected distinct pair of compatibility indices."
+    },
+    {
+      "correction_id": "O011-TRANS-0133",
+      "surface": "command:mathkor",
+      "occurrence_index": 1,
+      "source_sha256": "a447db1709196b4a9acfda32875df7cf6f7dab049307fac73730e977c41025cc",
+      "target_sha256": "3e32345b28cb2d83d0df21851a3f4766b872912fce1d178d5e792d2c28432881",
+      "verification_note": "The exact paired-label call binds the explicit respective relation between the two matrix descriptions and E and F."
+    }
+  ]
+}

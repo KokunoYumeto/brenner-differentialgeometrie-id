@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-10/lecture10.id.tex",
+  "input_bytes": 23152,
+  "input_sha256": "bafd2d5f8d1307438c42f2b20a1914f143f097ddc7f37c2e1e9b99dccb340044",
+  "output": "build/generated/lecture10.id.build.tex",
+  "output_bytes": 22313,
+  "output_sha256": "9a8b63c77d00f344180cc91dc985810cd45ae4d6f2292242f2d213a78484fe12",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 3,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Satz über implizite Abbildungen/Globale Diffeomorphismen/Induzierte Diffeomorphismen zwischen Faser und Achsenräumen/Fakt",
+      "label": "teorema pemetaan implisit"
+    },
+    {
+      "target": "Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt/Beweis",
+      "label": "bukti"
+    },
+    {
+      "target": "Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt",
+      "label": "Teorema 8.2"
+    },
+    {
+      "target": "Tangentialabbildung/Punktweise/Elementare Eigenschaften/Fakt",
+      "label": "Lema 9.10  (2)"
+    },
+    {
+      "target": "Abgeschlossene Untermannigfaltigkeit/Punktweise/Tangentialraum als Unterraum/Fakt",
+      "label": "Teorema 10.3"
+    },
+    {
+      "target": "Differenzierbare Abbildung/Reguläre Faser/Tangentialraum als Kern und zu Mannigfaltigkeit/Aufgabe",
+      "label": "Soal 10.12"
+    },
+    {
+      "target": "Differenzierbare Mannigfaltigkeit/Differenzierbare Kurve/Tangentialklassen und R^n unter Karte/Fakt",
+      "label": "Lema 9.5"
+    },
+    {
+      "target": "Tangentialabbildung/Punktweise/Elementare Eigenschaften/Fakt",
+      "label": "Lema 9.10  (1)"
+    },
+    {
+      "target": "Tangentialabbildung/Punktweise/Elementare Eigenschaften/Fakt",
+      "label": "Lema 9.10  (4)"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

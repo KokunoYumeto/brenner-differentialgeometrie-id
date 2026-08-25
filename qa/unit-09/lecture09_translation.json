@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "source": "authority/expanded/lecture09_source.de.tex",
+  "source_bytes": 25318,
+  "source_sha256": "88993b430407a58ad8db4b8006320a3b8ca190fbb02a04d52f3fc8731b55526a",
+  "target": "source/units/unit-09/lecture09.id.tex",
+  "target_bytes": 26132,
+  "target_sha256": "9e3b12f4168c4f7a8c246c4c9106d1154be237e9080e12e0a21bcd8942d61bba",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 825,
+    "environments": 6,
+    "inline_math": 45,
+    "display_math": 0,
+    "protected_calls": 112
+  },
+  "status": "pass",
+  "failures": [],
+  "declared_corrections": [
+    "O011-CORR-0080",
+    "O011-CORR-0084",
+    "O011-CORR-0085",
+    "O011-CORR-0081"
+  ],
+  "evidence_only_results": [
+    {
+      "correction_id": "O011-CORR-0081",
+      "surface": "command:mathl",
+      "occurrence_index": 2,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0085",
+      "surface": "command:mathl",
+      "occurrence_index": 16,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0085",
+      "surface": "command:mathl",
+      "occurrence_index": 19,
+      "status": "pass",
+      "detail": "verified"
+    }
+  ]
+}

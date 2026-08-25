@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Sat, 22 Aug 2026 15:13:58 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Quadratische Funktion/Zwei Variablen/Nullpunkt/Hauptkrümmungsrichtungen/Aufgabe/Lösung|Rein-quadratische Funktion/Hauptkrümmungsrichtungen/Aufgabe/Lösung|Quadratische Funktion/Drei Variablen/Krümmungsverhalten/2/Aufgabe/Lösung|Quadratische Funktion/Drei Variablen/Charakteristisches Polynom/Aufgabe/Lösung|Graph/Z ist x^2+y^3/Krümmungseigenschaften/Aufgabe/Lösung|Funktion/Taylor-Entwicklung/Krümmungsverhalten/Aufgabe/Lösung|Differenzierbare Hyperfläche/Allgemeiner Zylinder/Hauptkrümmungen/Aufgabe/Lösung|Differenzierbare Hyperfläche/Gauß-Kronecker-Krümmung/Produkt der Hauptkrümmungen/Aufgabe/Lösung|Differenzierbare Hyperfläche/Dreidimensional/Weingartenabbildung/Charakteristisches Polynom/Gauß-Kronecker-Krümmung/1/Aufgabe/Lösung|Normalkrümmung/Differenzierbare Fläche/Tangentiale Richtung/Aufgabe/Lösung|Graph/Z ist Funktion in zwei Variablen/Krümmungseigenschaften/2/Aufgabe/Lösung|Quadratische Funktion/Drei Variablen/Krümmungsverhalten/3/Aufgabe/Lösung|Differenzierbare Hyperfläche/Dreidimensional/Weingartenabbildung/Charakteristisches Polynom/Gauß-Kronecker-Krümmung/2/Aufgabe/Lösung|Normalkrümmung/Differenzierbare Fläche/Tangentiale Richtung/2/Aufgabe/Lösung|Normalkrümmung/Differenzierbare Fläche/Schnitt nicht regulär/Skizze/Aufgabe/Lösung"
+  },
+  "response_bytes": 4277,
+  "response_path": "unit05_solution_pages_current.json",
+  "response_sha256": "1e7af2a501592fa4f481b160b9d449a0f749b23394442f336343612bf11c3e9e",
+  "retrieved_utc": "2026-08-22T15:13:58Z",
+  "schema_version": 1
+}

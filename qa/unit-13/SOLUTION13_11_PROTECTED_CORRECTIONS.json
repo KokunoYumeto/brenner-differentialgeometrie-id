@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-13/worksheet13_exercise11_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0154",
+      "anchor": "Solution 13.11, bounded image relation",
+      "change": "Replace the source's ill-typed set-scalar relation f(X) <= M with the well-typed inclusion f(X) subseteq (-infinity,M]."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0154",
+      "surface": "profile:commands",
+      "source_sha256": "6d42ec4682ac2110ce657eda34d03a5ef7a92b52e0dc395cda52ff625534c8e9",
+      "target_sha256": "5b843628de81e395c7156286a4db2e304e28da14c51acc241590daa34373c07e"
+    },
+    {
+      "correction_id": "O011-CORR-0154",
+      "surface": "protected:vergleichskette",
+      "index": 1,
+      "source_sha256": "04ed69b5376b6cf6f35fca231de51755a522f6c571d788b259cb92f241f1a67f",
+      "target_sha256": "4b37ad666489fc85196ddeb8e2fba027a1f9d0460a94234cb32b2e2abf73758b"
+    }
+  ],
+  "evidence_only_deltas": []
+}

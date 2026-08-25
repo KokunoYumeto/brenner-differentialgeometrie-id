@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Mon, 24 Aug 2026 02:55:25 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Kroneckerprodukt/2x2/Berechnung/Aufgabe/Lösung|Matrizen/Tensorprodukt/Kroneckerprodukt/Aufgabe/Lösung|Möbiusband/Tensorprodukt/Trivial/Aufgabe/Lösung|Produkt von orientierten Mannigfaltigkeiten/Orientiert/Aufgabe/Lösung|1-Sphäre/Orientierbare Mannigfaltigkeit/Aufgabe/Lösung|S^1/Antipodal/Orientierungstreu/Aufgabe/Lösung|Produkt von orientierter Mannigfaltigkeit/Vertauschung ist nicht unbedingt orientierungstreu/Aufgabe/Lösung|Endlicher Raum/Kompakt/Aufgabe/Lösung|Topologischer Raum/Endliche viele kompakte Teilmengen/Kompakt/Aufgabe/Lösung|Kompakter Raum/Abgeschlossene Teilmenge/Kompakt/Fakt/Beweis/Aufgabe/Lösung|Kompaktheit/Stetige Funktion/Maximum wird angenommen/Fakt/Beweis/Aufgabe/Lösung|R/S^1/Stetig/Bild/Aufgabe/Lösung|S^1/R/Stetig/Bild/Aufgabe/Lösung|R/Nicht überdeckungskompakt/Aufgabe/Lösung|N/Diskrete Metrik/Abgeschlossen und beschränkt/Nicht kompakt//Aufgabe/Lösung|Metrischer Raum/Kompakt/Vollständig/Fakt/Beweis/Aufgabe/Lösung|R^n/Abzählbare Topologie durch Bälle/Aufgabe/Lösung|Kompakte Mannigfaltigkeit/x^2+y^4+z^6 ist 1/Aufgabe/Lösung|Kompakte Mannigfaltigkeit/Surjektive stetige Abbildung von beschränkter offener Menge/Aufgabe/Lösung|2-Sphäre/Orientierbare Mannigfaltigkeit/Aufgabe/Lösung|S^2/Antipodenabbildung ist nicht orientierungstreu/Aufgabe/Lösung|Hausdorffraum/Kompakte Teilmenge/Abgeschlossen/Fakt/Beweis/Aufgabe/Lösung|Stetige Abbildung/Bild eines kompakten Raumes/Kompakt/Fakt/Beweis/Aufgabe/Lösung|Orientierung/Stetige Abbildung von Intervall nach Basen/Konstante Orientierung/Aufgabe/Lösung"
+  },
+  "response_bytes": 9505,
+  "response_path": "unit13_solution_pages_current.json",
+  "response_sha256": "24621ab9b2672da50790622c0dc23f014e2c41a5c0db5b545eb2a9bc51e6c075",
+  "retrieved_utc": "2026-08-24T02:55:25Z",
+  "schema_version": 1
+}

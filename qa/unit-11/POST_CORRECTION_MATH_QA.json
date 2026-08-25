@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-24T04:30:33+02:00",
+  "unit_id": "o011-brenner-u11",
+  "status": "pass",
+  "scope": "Complete Lecture 11 and Worksheet 11 with exactly two source-supplied solutions; natural Indonesian reader prose; structural and protected-math preservation; bounded independent mathematical and language review; exact static and animated media closure; and explicit correction closure. No cumulative PDF, HTML, backend, or publication gate is claimed at this per-unit boundary.",
+  "authority": {
+    "preflight": {
+      "path": "qa/unit-11/AUTHORITY_PREFLIGHT.json",
+      "bytes": 39646,
+      "sha256": "ebefb49d62801e3aaa41e3e4cc979d88a75940bf84e2cb68e621a7922665d963"
+    },
+    "lecture": {
+      "path": "authority/expanded/lecture11_source.de.tex",
+      "bytes": 16043,
+      "sha256": "d5efb6e57e399693d36cec162df0a897ce898f188dc2b5eb30eb78c840e9c642"
+    },
+    "worksheet": {
+      "path": "authority/expanded/worksheet11_source.de.tex",
+      "bytes": 19538,
+      "sha256": "5738bc01a606b4a6e1958e9698bbdc0d612afce9cddc793ce7ddf8d83eb128b6"
+    },
+    "supplied_solutions": [
+      {
+        "exercise": 10,
+        "path": "authority/expanded/worksheet11_exercise10_solution_source.de.tex",
+        "bytes": 618,
+        "sha256": "ee29d4737ab74b19dd54635c9429f9db3df2b77b191626e70ded1d3cd3293515"
+      },
+      {
+        "exercise": 14,
+        "path": "authority/expanded/worksheet11_exercise14_solution_source.de.tex",
+        "bytes": 835,
+        "sha256": "88e97dcf61c9bb35387862134236635b54ef81fc9bd847e7623da0e5757b5af0"
+      }
+    ]
+  },
+  "targets": {
+    "lecture": {
+      "path": "source/units/unit-11/lecture11.id.tex",
+      "bytes": 16590,
+      "sha256": "c6d5266be60eec3911d841213fb4333b51c6555266915e0b64438c3c2bf3d4fc",
+      "translation_receipt": "qa/unit-11/lecture11_translation.json",
+      "translation_receipt_bytes": 1099,
+      "translation_receipt_sha256": "e4709f3e693d45eddac5a39217bc5e138d231f072fc593d8ce379d08e6fac906"
+    },
+    "worksheet": {
+      "path": "source/units/unit-11/worksheet11.id.tex",
+      "bytes": 20513,
+      "sha256": "b92ce3a51ad8b56acbd01f26673fb3512faee6b7bf17b8ccb6365c2091af6941",
+      "translation_receipt": "qa/unit-11/worksheet11_translation.json",
+      "translation_receipt_bytes": 1830,
+      "translation_receipt_sha256": "de16ee75b7d41c06b82f2570c22c7318f78c69bd74f47cdbae9fc70c0bcdce2d"
+    },
+    "supplied_solutions": [
+      {
+        "exercise": 10,
+        "path": "source/units/unit-11/worksheet11_exercise10_solution.id.tex",
+        "bytes": 1351,
+        "sha256": "77e8efefffb8acded4a11f1e258134d8d26aef4e8cb517a67dd8a3d1565bf2e9",
+        "translation_receipt": "qa/unit-11/worksheet11_exercise10_solution_translation.json",
+        "translation_receipt_sha256": "15f1dbd3c64acdb12f303dc9da8df9d9fd41afe58b95fb4ce2b5d8e775005cd1"
+      },
+      {
+        "exercise": 14,
+        "path": "source/units/unit-11/worksheet11_exercise14_solution.id.tex",
+        "bytes": 795,
+        "sha256": "d8cd8d24a7dba0865dda2bd83e10f1c96c0dc100c9e95de6fcaf723f8a714683",
+        "translation_receipt": "qa/unit-11/worksheet11_exercise14_solution_translation.json",
+        "translation_receipt_sha256": "55064e3eb153d1178533937b0225574a4622cd3f86acdf3fecdb1129c36d763d"
+      }
+    ]
+  },
+  "prepared_fragments": [
+    {
+      "path": "build/generated/lecture11.id.build.tex",
+      "bytes": 16101,
+      "sha256": "a3f689e02a8c0aede0f924f2bfd1205957a14e0994268ebe641f346a1367148d"
+    },
+    {
+      "path": "build/generated/worksheet11.id.build.tex",
+      "bytes": 20369,
+      "sha256": "0f286913dd79414679789a2b9ff27b8b877716365d2d523de9586bdcd9f33282"
+    },
+    {
+      "path": "build/generated/worksheet11_exercise10_solution.id.build.tex",
+      "bytes": 1308,
+      "sha256": "b256cc638b0a72033c0b3a63659e38ea053803044712252f1fd863f73dbd5ed3"
+    },
+    {
+      "path": "build/generated/worksheet11_exercise14_solution.id.build.tex",
+      "bytes": 767,
+      "sha256": "1dcb59a601f85acebe8da790e41d62143ac4115c36b1e20d2b15b8abced3f237"
+    }
+  ],
+  "source_closure": {
+    "exercise_count": 39,
+    "practice_exercise_count": 33,
+    "graded_exercise_count": 6,
+    "graded_exercise_indices": [34, 35, 36, 37, 38, 39],
+    "graded_point_values": [5, 6, 3, 2, 2, "4 (1+1+1+1)"],
+    "point_total": 22,
+    "hint_fields_blank": true,
+    "supplied_solution_indices": [10, 14],
+    "missing_solution_count": 37,
+    "static_media_occurrence_count": 1,
+    "downloadable_animation_occurrence_count": 1
+  },
+  "media": {
+    "static": {
+      "filename": "Toroidal coord.png",
+      "path": "authority/media/Toroidal coord.png",
+      "bytes": 151522,
+      "sha256": "f09c9189157aedc9c9d516d24ffdf80c6e3d413101e2eb38e3c0cda996c5d618",
+      "creator": "DaveBurke",
+      "license": "CC BY 2.5",
+      "receipt": "qa/unit-11_media.json",
+      "receipt_sha256": "8b99d6c5362e7a1e1b691427ceaa12b2fff4e2e2b40fa7be74d8c19cb7a15f17"
+    },
+    "interactive": {
+      "filename": "Aufgabe79.27.gif",
+      "path": "authority/media/Aufgabe79.27.gif",
+      "bytes": 466679,
+      "sha256": "337b29d868481d65b5ad460697ad18ef0d7bcce2695125453e3d88f34a2e9e5b",
+      "creator": "Präzise",
+      "license": "CC BY-SA 4.0",
+      "manifest": "source/unit11_interactive_media.json",
+      "manifest_sha256": "c91b497082b4975209911b33ab6d819db72eb2f140518937b4b8f09253153cfe",
+      "qa_receipt": "qa/unit-11/INTERACTIVE_MEDIA_QA.json",
+      "qa_receipt_sha256": "178a82bee62c0f887ed20dd8abd0d589403cb41466c6b05ab591bcead25bf16e",
+      "prepared_link_count": 1,
+      "caption": "Animasi yang memperlihatkan serat-serat fungsi torus pada Soal 11.10 untuk berbagai nilai s."
+    }
+  },
+  "checks": {
+    "all_four_translation_receipts_pass": true,
+    "utf8_without_bom_or_replacement_character": true,
+    "lf_only_with_trailing_lf": true,
+    "command_environment_inline_math_and_protected_macro_profiles_preserved_or_explicitly_declared": true,
+    "all_declared_deltas_consumed": true,
+    "all_evidence_only_deltas_verified": true,
+    "exercise_order_points_blank_hints_and_exact_solution_presence_preserved": true,
+    "reader_visible_german_residue_found": false,
+    "residual_german_string_is_frozen_internal_source_local_identifier_only": true,
+    "independent_reader_review_passed_after_two_prose_refinements": true,
+    "independent_math_review_confirmed_all_target_repairs": true,
+    "all_mathematical_and_rights_repairs_disclosed": true,
+    "no_new_hint_or_solution_layer_invented": true,
+    "no_cumulative_build_backend_or_publication_claimed_at_this_per_unit_boundary": true
+  },
+  "independent_review": {
+    "path": "qa/unit-11/INDEPENDENT_READER_QA.md",
+    "bytes": 1612,
+    "sha256": "696c0c50f3a017cb90a89377f2dc591eaf95dfb60b2ad972d1d3aa179ade324d"
+  },
+  "declared_corrections": [
+    "O011-CORR-0104",
+    "O011-CORR-0105",
+    "O011-CORR-0106",
+    "O011-CORR-0107",
+    "O011-CORR-0108",
+    "O011-CORR-0109",
+    "O011-CORR-0110",
+    "O011-CORR-0111",
+    "O011-CORR-0112",
+    "O011-CORR-0113"
+  ],
+  "correction_manifests": [
+    {
+      "path": "00_control/LECTURE11_PROTECTED_CORRECTIONS.json",
+      "bytes": 2296,
+      "sha256": "25577b96dd0d67cc417487fb56d2fe66b3ef2937547f66ecb673057160599d93"
+    },
+    {
+      "path": "qa/unit-11/WORKSHEET11_PROTECTED_CORRECTIONS.json",
+      "bytes": 4609,
+      "sha256": "2cdee24b13e9b39932dbccbf198b60fcff1404d39312152edfd1862ab69e1906"
+    },
+    {
+      "path": "qa/unit-11/SOLUTION11_10_PROTECTED_CORRECTIONS.json",
+      "bytes": 1631,
+      "sha256": "ebca2d1c855854496c173129e8ff12cb681774124633cda919ecf145861070d8"
+    }
+  ],
+  "ledgers": {
+    "terminology": {
+      "path": "00_control/TERMINOLOGY.csv",
+      "records": 196,
+      "bytes": 17329,
+      "sha256": "46e1dd5a76f2aaef9a3a9047b3a9c63b125f1c758d0018ec690e19a0b17d68e8"
+    },
+    "adverse": {
+      "path": "00_control/ADVERSE_LEDGER.csv",
+      "records": 122,
+      "bytes": 37988,
+      "sha256": "6348dc92e828beee24d9fc5fd9c18dd3555522bdd51bb9f9f4e48c522cfbc130"
+    },
+    "unit_media": {
+      "path": "source/unit_media.json",
+      "bytes": 4537,
+      "sha256": "1577b0b95c364edc3afbec165e33471129d169c2cca19399cd57e3f57c31740a"
+    }
+  },
+  "next_action": "Continue immediately with the already-admitted Unit 12 lecture, worksheet, exactly supplied Solutions 11 and 12, two media assets, accessible animation/static fallback, and bounded per-unit QA; defer cumulative PDF/HTML/backend/visual/publication work until the next substantial multi-unit milestone."
+}

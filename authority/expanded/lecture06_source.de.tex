@@ -1,0 +1,2019 @@
+\setcounter{section}{6}
+
+  \zwischenueberschrift{Kovariante Ableitung}
+
+Zu einer differenzierbaren Hyperfläche
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+möchte man Ableitungskonzepte, die im umgebenden Raum $\R^n$ einfach definiert sind, mit einem natürlichen Bezug zu $Y$ definieren. Man spricht von kovarianter Ableitung, das wichtigste Hilfsmittel ist die orthogonale Projektion
+\maabbdisp {\pi_P} {\R^n } { T_PY
+} {}
+zu einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {offen}{}{,}
+eine
+\definitionsverweis {differenzierbare Hyperfläche}{}{,}
+sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Punkt und
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {Tangentialvektor}{}{.}
+Es sei
+\maabbdisp {F} { U} { \R^n
+} {}
+ein differenzierbares Vektorfeld, das auf einer offenen Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definiert sei und das auf $Y \cap U$  tangential an $Y$ sei. Dann nennt man
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_v F
+}
+{ \defeq} { \pi_P   \left(  \left(  D F   \right)_{ P } \left(  v  \right)  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei
+\maabbdisp {\pi_P} {\R^n } { T_PY
+} {}
+die
+\definitionsverweis {orthogonale Projektion}{}{}
+bezeichnet, die
+\definitionswort {kovariante Ableitung}{}
+von $F$ in Richtung $v$.
+
+}
+
+Es liegt insgesamt die Situation
+
+\mathdisp {T_PY \longrightarrow \R^n \stackrel{  \left(D F \right)_{ P} }{\longrightarrow} \R^n\stackrel{ \pi_P }{\longrightarrow} T_PY} {  }
+
+vor und $\nabla_v F$ ist das Ergebnis, wenn man vorne den Tangentialvektor
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+einsetzt. Wenn $N$ ein Einheitsnormalenfeld bezeichnet, so ist die kovariante Ableitung gleich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_v F
+}
+{ =} { \left(  D F   \right)_{ P } \left(  v  \right) -  \left\langle  \left(  D F   \right)_{ P } \left(  v  \right)  ,  N(P)  \right\rangle N(P)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+da man ja so das orthogonale Komplement berechnet.
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {offen}{}{,}
+eine
+\definitionsverweis {differenzierbare Hyperfläche}{}{}
+und sei
+\maabbdisp {G} { Y } { TY
+} {}
+ein tangentiales Vektorfeld auf $Y$. Es sei
+\maabbdisp {F} { U} { \R^n
+} {}
+ein differenzierbares Vektorfeld, das auf einer offenen Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definiert sei und das auf $Y \cap U$  tangential an $Y$ sei. Dann nennt man das tangentiale Vektorfeld
+\maabbdisp {\nabla_G F} { Y \cap U } { T(Y \cap U)
+} {,}
+das durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \nabla_G F  \right) (P)
+}
+{ \defeq} { \nabla_{G(P)} F }
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+definiert ist, die
+\definitionswort {kovariante Ableitung}{}
+von $F$ in Richtung $G$.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Tangentiales Vektorfeld/Bezüglich Tangentenvektor/Kovariante Ableitung/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{\R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {offen}{}{,}
+eine
+\definitionsverweis {differenzierbare Hyperfläche}{}{,}
+sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Punkt.}
+\faktuebergang {Dann gelten folgende Aussagen.}
+\faktfolgerung {\aufzaehlungdrei{Zu einem fixierten differenzierbaren
+\definitionsverweis {tangentialen Vektorfeld}{}{}
+$F$ ist die Zuordnung
+\maabbeledisp {} {T_PY} { T_PY
+} { v } { \nabla_v F
+} {,}
+\definitionsverweis {linear}{}{.}
+}{Zu einem fixierten Tangentialvektor
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist die Zuordnung
+\maabbdisp {} { F } { \nabla_v F
+} {,}
+die einem differenzierbaren Vektorfeld die kovariante Ableitung längs  $v$ zuordnet, linear.
+}{Zu einer differenzierbaren Funktion
+\maabb {g} { U } {\R
+} {}
+und einem differenzierbaren tangentialen Vektorfeld $F$ ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_v (gF)
+}
+{ =} { g (P) ( \nabla_v F) (P) + \left(  D_{v}  g   \right) \left(   P   \right) F(P)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\aufzaehlungdrei{Dies folgt unmittelbar aus der Beschreibung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_v F
+}
+{ =} { \left(  D F   \right)_{ P } \left(  v  \right) - \left\langle  \left(  D F   \right)_{ P } \left(  v  \right)  ,  N(P)  \right\rangle N(P)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+da die beiden Summanden linear in $v$ sind.
+}{Dies folgt auch aus der Beschreibung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_v F
+}
+{ =} { \left(  D F   \right)_{ P } \left(  v  \right) - \left\langle  \left(  D F   \right)_{ P } \left(  v  \right)  ,  N(P)  \right\rangle N(P)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+da bei fixiertem Vektor $v$ die beiden Summanden gemäß
+[[Richtungsableitung/R/Elementare Eigenschaften/Fakt|Lemma 43.6 (Analysis (Osnabrück 2021-2023))]]
+linear von $F$ abhängen.
+}{Nach
+[[Totale Differenzierbarkeit/K/Produktregel/Fakt|Lemma 45.10 (Analysis (Osnabrück 2021-2023))]]
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(D( g F)\right)_{ P }
+}
+{ =} { g(P) \cdot \left(D F \right)_{ P } + \left(D g \right)_{ P } \cdot F (P)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Daher ist
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \nabla_v (gF)
+}
+{ =} { \left(  DgF  \right)_{ P } \left(  v  \right) - \left\langle  \left(  DgF  \right)_{ P } \left(  v  \right)  ,  N(P)  \right\rangle N(P)
+}
+{ =} { g(P) \cdot \left(  D F   \right)_{ P } \left(  v  \right) + \left(  D g   \right)_{ P } \left(  v  \right) \cdot F (P) - \left\langle  g(P) \cdot \left(  D F   \right)_{ P } \left(  v  \right) + \left(  D g   \right)_{ P } \left(  v  \right) \cdot F (P)  ,  N(P)  \right\rangle N(P)
+}
+{ =} { g(P) \cdot \left(  D F   \right)_{ P } \left(  v  \right) - \left\langle  g(P) \cdot \left(  D F   \right)_{ P } \left(  v  \right)  ,  N(P)  \right\rangle N(P)        + \left(  D g   \right)_{ P } \left(  v  \right) \cdot F (P) - \left\langle  \left(  D g   \right)_{ P } \left(  v  \right) \cdot F (P)  ,  N(P)  \right\rangle N(P)
+}
+{ =} { g (P) ( \nabla_v F) (P) + \left(  D_{v}  g   \right) \left(   P   \right) \cdot F(P)
+}
+}
+{}
+{}{,}
+da das Vektorfeld $F$ senkrecht auf $N$ steht.
+}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Tangentiales Vektorfeld/Bezüglich tangentialem Vektorfeld/Kovariante Ableitung/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{\R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {offen}{}{,}
+eine
+\definitionsverweis {differenzierbare Hyperfläche}{}{.}}
+\faktuebergang {Dann gelten für tangentiale Vektorfelder auf $Y$ folgende Aussagen.}
+\faktfolgerung {\aufzaehlungdrei{Zu einem fixierten differenzierbaren tangentialen Vektorfeld $F$ ist die Zuordnung
+\mathl{G \mapsto \nabla_G F}{}
+\definitionsverweis {linear}{}{}
+in $G$. Ferner ist für eine stetige Funktion
+\maabb {g} { Y } {\R
+} {}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{gG} F
+}
+{ =} { g \nabla_G F
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Zu einem fixierten tangentialen Vektorfeld $G$ ist die Zuordnung
+\mathl{F \mapsto \nabla_G F}{,} die einem tangentialen differenzierbaren Vektorfeld die kovariante Ableitung längs $G$ zuordnet, linear.
+}{Zu einer differenzierbaren Funktion
+\maabb {g} { U } {\R
+} {}
+und einem differenzierbaren tangentialen Vektorfeld $F$ ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_G (gF)
+}
+{ =} { g (P) ( \nabla_G F) (P) + (\nabla_G g )(P) F(P)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Alle Aussagen folgen aus
+[[Hyperfläche/Tangentiales Vektorfeld/Bezüglich Tangentenvektor/Kovariante Ableitung/Eigenschaften/Fakt|Lemma 6.3]].
+
+}
+
+In der letzten Gleichung bedeutet
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \nabla_G g  \right) (P)
+}
+{ =} { \left(  D_{ G(P)}  g   \right) \left(   P   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+es wird also von der Funktion $g$ die Richtungsableitung in Richtung $G(P)$ genommen.
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{\R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,} $W$
+\definitionsverweis {offen}{}{,}
+eine
+\definitionsverweis {differenzierbare Hyperfläche}{}{,}
+sei
+\maabbdisp {\gamma} {[a,b]} {Y
+} {}
+eine
+\definitionsverweis {differenzierbare Kurve}{}{}
+und sei
+\maabbdisp {F} { I } { \R^n
+} {}
+ein differenzierbares Vektorfeld längs $I$, das tangential an $Y$ sei. Dann nennt man
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (\nabla_\gamma F) (t)
+}
+{ \defeq} { \pi_{\gamma(t)} F' (t)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+die
+\definitionswort {kovariante Ableitung}{}
+von $F$ längs $\gamma$.
+
+}
+
+Man leitet also einfach das Vektorfeld $F$, das ja eine vektorwertige Kurve mit
+
+\mavergleichskette
+{\vergleichskette
+{ F(t)
+}
+{ \in }{ T_{\gamma(t)}Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist, als Kurve im $\R^n$ ab und nimmt vom Ergebnis die orthogonale Projektion auf den Tangentialraum. Manchmal schreibt man auch $\nabla_{\gamma'} F$ oder $\nabla_{\partial} F$\zusatzfussnote {Zu
+[[Hyperfläche/Tangentiales Vektorfeld/Bezüglich tangentialem Vektorfeld/Kovariante Ableitung/Definition|Definition 6.2]]
+und
+[[Hyperfläche/Tangentiales Vektorfeld/Längs einer Kurve/Kovariante Ableitung/Definition|Definition 6.5]]
+gibt es die folgende Verallgemeinerung. Es sei $Y$ die differenzierbare Hyperfläche
+\zusatzklammer {oder eine differenzierbare Mannigfaltigkeit mit einem Zusammenhang auf dem Tangentialbündel} {} {,}
+sei $Z$ eine differenzierbare Mannigfaltigkeit, sei
+\maabb {\varphi} { Z } { Y
+} {}
+eine differenzierbare Abbildung, sei
+\maabbdisp {F} { Z } { TY = \biguplus_{P \in Y} T_PY
+} {}
+ein differenzierbares tangentiales Vektorfelder längs $\varphi$ und $G$ ein Vektorfeld auf $Z$. Dann ist
+\zusatzklammer {zu
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ Z
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ \varphi(Q)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+die kovariante Ableitung von $F$ bezüglich $G$
+\zusatzklammer {längs $\varphi$} {} {}
+durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ ( \nabla_G F )(Q)
+}
+{ =} { \pi_{ P  } \left(D F \right)_{ Q}  (G(Q))
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+definiert. $\nabla_GF$ ist wieder eine Abbildung
+\maabb {} { Z } { TY
+} {.}
+In der ersten Definition ist
+
+\mavergleichskette
+{\vergleichskette
+{ Z
+}
+{ = }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und $\varphi$ die Identität, in der zweiten Definition ist
+
+\mavergleichskette
+{\vergleichskette
+{ Z
+}
+{ = }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Intervall,
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi
+}
+{ = }{ \gamma
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+der Weg und
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ = }{ \partial
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das konstante Vektorfeld auf dem Intervall $I$ mit der Richtung $1$.} {} {.}
+
+  \zwischenueberschrift{Parallele Vektorfelder}
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {offen}{}{,}
+eine
+\definitionsverweis {differenzierbare Hyperfläche}{}{}
+und sei
+\maabb {\gamma} { I } { Y
+} {}
+eine
+\definitionsverweis {differenzierbare Kurve}{}{.}
+Man sagt, dass ein längs $\gamma$ definiertes differenzierbares tangentiales Vektorfeld
+\maabb {F} { I } {\R^n
+} {}
+\definitionswort {parallel längs}{}
+$\gamma$ ist, wenn
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (\nabla_{\gamma} F)(t)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt.
+
+}
+
+Ein Vektorfeld ist genau dann parallel längs $\gamma$, wenn
+\mathl{F'(t)}{} stets senkrecht zum Tangentialraum
+\mathl{T_{\gamma(t)}Y}{} ist, also zur Normalengerade gehört.
+
+__NOEDITSECTION__
+\inputfaktbeweis
+{Hyperfläche/Kurve/Paralleles Vektorfeld/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {offen}{}{,}
+eine
+\definitionsverweis {differenzierbare Hyperfläche}{}{}
+und sei
+\maabb {\gamma} { I } { Y
+} {}
+eine
+\definitionsverweis {differenzierbare Kurve}{}{.}}
+\faktuebergang {Dann gelten folgende Aussagen.}
+\faktfolgerung {\aufzaehlungzwei {Zu einem längs $\gamma$
+\definitionsverweis {parallelen Vektorfeld}{}{}
+$F$ und
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist auch
+\mathl{aF}{} ein paralleles Vektorfeld.
+} {Zu längs $\gamma$ parallelen Vektorfelder
+$F , G$ ist auch
+\mathl{F +G}{} ein paralleles Vektorfeld.
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+ }
+{ Siehe [[Hyperfläche/Kurve/Paralleles Vektorfeld/Eigenschaften/Fakt/Beweis/Aufgabe|Aufgabe 6.3]]. }
+
+Zu einer differenzierbaren Kurve
+\maabbdisp {\gamma} { I } { Y
+} {}
+ist insbesondere das Geschwindigkeitsfeld $\gamma'$ ein Vektorfeld längs $\gamma$, daher ist das Konzept, ob dieses Feld parallel ist, anwendbar.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Differenzierbare Hyperfläche/Differenzierbare Kurve/Ableitung parallel/Geodätische/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {offen}{}{,}
+eine
+\definitionsverweis {differenzierbare Hyperfläche}{}{}
+und sei
+\maabb {\gamma} { I } { Y
+} {}
+eine zweimal
+\definitionsverweis {stetig differenzierbare Kurve}{}{.}}
+\faktfolgerung {Dann ist $\gamma$ genau dann eine
+\definitionsverweis {geodätische Kurve}{}{,}
+wenn das Ableitungsfeld
+\zusatzklammer {Geschwindigkeitsfeld} {} {} $\gamma'$ ein
+\definitionsverweis {paralleles Vektorfeld}{}{}
+längs $\gamma$ ist.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Es sei
+\maabbdisp {\gamma^{\prime \prime}} { I } { \R^n
+} {}
+die zweite Ableitung. Nach Definition ist $\gamma$ eine geodätische Kurve wenn
+\mathl{\gamma^{\prime \prime} (t)}{} stets senkrecht auf dem Tangentialraum $T_{\gamma(t)} Y$ ist, was genau dann der Fall ist, wenn die orthogonale Projektion von $\gamma^{\prime \prime}(t)$ auf den Tangentialraum gleich $0$ ist. Dies ist äquivalent zu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (\nabla_\gamma \gamma')(t)
+}
+{ =} { \pi_{\gamma(t)} \left(  \gamma^{\prime \prime} (t)  \right)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+was bedeutet, dass $\gamma'$ ein
+\definitionsverweis {paralleles Vektorfeld}{}{}
+längs $\gamma$ ist.
+
+}
+
+Die folgende Aussage ist die Grundlage für die Existenz des Paralleltransportes.
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Kurve/Anfangstangentenvektor/Paralleles Vektorfeld/Existenz/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{\R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {offen}{}{,}
+eine
+\definitionsverweis {differenzierbare Hyperfläche}{}{}
+und sei
+\maabb {\gamma} { I } { Y
+} {}
+eine
+\definitionsverweis {differenzierbare Kurve}{}{.}
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ t_0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(t_0)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {Tangentialvektor}{}{.}}
+\faktfolgerung {Dann gibt es ein eindeutig bestimmtes
+\definitionsverweis {tangentiales Vektorfeld}{}{}
+$F$ längs $\gamma$, das
+\definitionsverweis {parallel}{}{}
+ist und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F(t_0)
+}
+{ =} { v
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+erfüllt.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Wir suchen nach einer differenzierbaren Abbildung
+\maabbdisp {F} { I } { \R^n
+} {,}
+das die Bedingungnen
+\aufzaehlungdrei{
+\mavergleichskettedisp
+{\vergleichskette
+{ F(t)
+}
+{ \in} { T_{\gamma(t)} Y
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+}{
+\mavergleichskettedisp
+{\vergleichskette
+{ F'(t)
+}
+{ \in} { N_{\gamma(t)} Y
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+}{
+\mavergleichskettedisp
+{\vergleichskette
+{ F (t_0)
+}
+{ =} { v
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+}
+erfüllt. Die erste Bedingung bedeutet, dass $F(t)$ senkrecht auf dem Normaleneinheitsvektors $N (\gamma(t))$ steht, also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle F( t) ,  N( \gamma(t))   \right\rangle
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Daher ist auch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 0
+}
+{ =} { \left\langle F(t)  ,  N( \gamma(t))   \right\rangle'
+}
+{ =} { \left\langle F'(t)  ,  N( \gamma(t))   \right\rangle +  \left\langle F(t)  ,  (N( \gamma(t)))'   \right\rangle
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Die zweite Bedingung, dass $F'(t)$ im Normalenraum liegt, bedeutet
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F'(t) - \left\langle F'( t) ,  N( \gamma(t))   \right\rangle N(\gamma(t) )
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+was wir mithilfe der vorstehenden Gleichung zu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F'(t) + \left\langle F( t) ,  (N( \gamma(t)))'   \right\rangle N(\gamma(t) )
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bzw. zu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F'(t)
+}
+{ =} { - \left\langle F( t) ,  (N( \gamma(t)))'   \right\rangle N(\gamma(t) )
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+umformen können. Hier steht eine gewöhnliche lineare Differentialgleichung erster Ordnung für $F$, die zusammen mit der Anfangsbedingung
+
+\mavergleichskette
+{\vergleichskette
+{ F(t_0)
+}
+{ = }{ v
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nach
+[[Picard Lindelöf/Lokal Lipschitz/Lokale Existenz und Eindeutigkeit/Fakt|Satz 56.2 (Analysis (Osnabrück 2021-2023))]]
+eine eindeutige Lösung besitzt. Es kann also höchstens eine Lösung der Ausgangsgleichung geben. Wenn $F$ die eindeutige Lösung der Differentialgleichung ist, so liegt in der Tat eine Lösung der Ausgangsgleichung vor.
+
+}
+
+\inputbemerkung
+{}
+{
+
+In der Situation von
+[[Hyperfläche/Kurve/Anfangstangentenvektor/Paralleles Vektorfeld/Existenz/Fakt|Satz 6.9]]
+ist die zu lösende Differentialgleichung das System
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F_i'(t)
+}
+{ =} { - \left(  \sum_{j = 1}^n  F_j (t) (N ( \gamma(t)))'_j  \right)   N(\gamma(t))_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für
+
+\mavergleichskette
+{\vergleichskette
+{ i
+}
+{ = }{ 1 , \ldots , n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+oder in Matrixschreibweise
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix} F_1' \\ \vdots\\ F_n'   \end{pmatrix}
+}
+{ =} { - A \begin{pmatrix} F_1  \\ \vdots\\ F_n   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit den Einträgen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ A_{ij} (t)
+}
+{ =} { N(\gamma(t))_i N ( \gamma(t)))'_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+\inputbeispiel{}
+{
+
+Wir betrachten den Viertelgroßkreis
+\maabbeledisp {} {[0 , \pi/2] } { \R^3
+} { t } { \left(  \cos  t   , \,   \sin  t  , \,   0                 \right)
+} {,}
+auf der Einheitskugeloberfläche $S$. Es ist
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(0)
+}
+{ = }{ \left(  1   , \,   0  , \,   0                 \right)
+}
+{ = }{ P
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(\pi/2)
+}
+{ = }{ \left(  0   , \,   1  , \,   0                 \right)
+}
+{ = }{ Q
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit den
+\definitionsverweis {Tangentialräumen}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ T_PS
+}
+{ = }{ \R e_2 +\R e_3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ T_QS
+}
+{ = }{ \R e_1 +\R e_3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Der nach innen zeigende Einheitsnormalenvektor längs des Weges ist
+
+\mavergleichskette
+{\vergleichskette
+{ N(t)
+}
+{ = }{ -\gamma(t)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Die Matrix aus
+[[Hyperfläche/Kurve/Anfangstangentenvektor/Paralleles Vektorfeld/Differentialgleichung/Explizite Gestalt/Bemerkung|Bemerkung 6.10]],
+die die Differentialgleichung für ein paralleles Vektorfeld beschreibt, ist
+
+\mathdisp {\begin{pmatrix}  -\sin  t \cos  t   &   \cos  t \cos  t  &  0  \\  - \sin  t  \sin  t  &  \sin  t  \cos  t  &  0  \\ 0 &  0  &  0 \end{pmatrix}} { . }
+
+Die konstante Funktion
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F(t)
+}
+{ =} { e_3
+}
+{ =} { \begin{pmatrix}  0  \\ 0\\  1   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist eine Lösung. Ferner ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ G(t)
+}
+{ =} { \begin{pmatrix}  - \sin  t  \\ \cos  t \\  0   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+eine Lösung, es ist ja einerseits
+
+\mavergleichskettedisp
+{\vergleichskette
+{ G'(t)
+}
+{ =} { \begin{pmatrix}  - \cos  t  \\ - \sin  t \\  0   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und andererseits
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ - \begin{pmatrix}  -\sin  t \cos  t   &   \cos  t \cos  t  &  0  \\  - \sin  t  \sin  t  &  \sin  t  \cos  t  &  0  \\ 0 &  0  &  0 \end{pmatrix} \begin{pmatrix}  - \sin  t  \\ \cos  t \\  0   \end{pmatrix}
+}
+{ =} { - \begin{pmatrix}  \sin^{ 2  }  t \cos  t + \cos^{ 3  }  t  \\ \sin^{ 3  }  t +  \sin  t \cos^{ 2  }  t \\  0   \end{pmatrix}
+}
+{ =} { - \begin{pmatrix}  \cos  t  \\ \sin  t \\  0   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+  \zwischenueberschrift{Paralleltransport}
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {offen}{}{,}
+eine
+\definitionsverweis {differenzierbare Hyperfläche}{}{.}
+Zu Punkten
+
+\mavergleichskette
+{\vergleichskette
+{ P,Q
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt es keine natürliche Beziehung zwischen dem
+\definitionsverweis {Tangentialraum}{}{}
+$T_PY$ und dem Tangentialraum $T_QY$. Es sei
+\maabbdisp {\gamma} {[a,b]} {Y
+} {}
+eine
+\definitionsverweis {differenzierbare Kurve}{}{}
+in $Y$ mit
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(a)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(b)
+}
+{ = }{ Q
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Man kann sich fragen, ob es entlang dieses Weges eine sinnvolle Beziehung zwischen den Tangentialräumen gibt.
+
+Zu einer fixierten differenzierbaren Kurve $\gamma$  in $Y$, die die Punkte
+\mathkor {} {P =\gamma(a)} {und} {Q = \gamma(b)} {}
+verbindet, ist durch
+[[Hyperfläche/Kurve/Anfangstangentenvektor/Paralleles Vektorfeld/Existenz/Fakt|Satz 6.9]]
+eine Abbildung
+\maabbdisp {} {T_PY} {T_QY
+} {}
+festgelegt. Diese ordnet dem Anfangsvektor
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+den Vektor
+
+\mavergleichskette
+{\vergleichskette
+{ F(b)
+}
+{ \in }{ T_QY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+zu, wobei $F$ das eindeutig bestimmte parallele Vektorfeld längs $\gamma$ ist. Diese Abbildung heißt der \stichwort {Paralleltransport} {} längs $\gamma$. Sie wird mit
+\maabbdisp {\Psi_\gamma} { T_{\gamma(a)}Y} {T_{\gamma(b)}Y
+} {}
+bezeichnet.
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Parallel transport sphere2} {svg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Parallel transport sphere2.svg } {} {Silly rabbit} {en Wikipedia} {CC-by-sa 3.0} {}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Kurve/Paralleltransport/Isometrie/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {offen}{}{,}
+eine
+\definitionsverweis {differenzierbare Hyperfläche}{}{}
+und sei
+\maabb {\gamma} {[a,b]} {Y
+} {}
+eine
+\definitionsverweis {differenzierbare Kurve}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(a)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(b)
+}
+{ = }{ Q
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Dann ist der
+\definitionsverweis {Paralleltransport}{}{}
+längs $\gamma$ eine
+\definitionsverweis {Isometrie}{}{}
+\maabbdisp {} {T_PY} {T_QY
+} {.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Zum Nachweis der Linearität seien
+
+\mavergleichskette
+{\vergleichskette
+{ v,w
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+and
+
+\mavergleichskette
+{\vergleichskette
+{ r,s
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegeben. Es seien
+\mathkor {} {F} {bzw.} {G} {}
+die gemäß
+[[Hyperfläche/Kurve/Anfangstangentenvektor/Paralleles Vektorfeld/Existenz/Fakt|Satz 6.9]]
+eindeutig bestimmten parallelen Vektorfelder längs $\gamma$ mit
+
+\mavergleichskette
+{\vergleichskette
+{ F(a)
+}
+{ = }{ v
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ G(a)
+}
+{ = }{ w
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Nach
+[[Hyperfläche/Kurve/Paralleles Vektorfeld/Eigenschaften/Fakt|Lemma 6.7]]
+ist
+\mathl{rF+sG}{} ein paralleles Vektorfeld mit
+
+\mavergleichskette
+{\vergleichskette
+{ (rF+sG)(a)
+}
+{ = }{ v+ w
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Wegen der Eindeutigkeit aus
+[[Hyperfläche/Kurve/Anfangstangentenvektor/Paralleles Vektorfeld/Existenz/Fakt|Satz 6.9]]
+ist somit
+\mathl{rF+sG}{} das parallele Vektorfeld zum Tangentialvektor
+\mathl{rv+sw}{.} Daher ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Psi_{\gamma} (rv+sw)
+}
+{ =} { (rF+sG)(b)
+}
+{ =} { r F(b) +s G(b)
+}
+{ =} { r \Psi_{\gamma} (v) + s \Psi_{\gamma} (w)
+}
+{ } {
+}
+}
+{}{}{.}
+
+Zum Nachweis der Verträglichkeit mit dem Skalarprodukt seien wieder
+
+\mavergleichskette
+{\vergleichskette
+{ v,w
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegeben und es seien $F,G$ die zugehörigen parallelen Vektorfelder. Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  F(t) , G(t)  \right\rangle'
+}
+{ =} { \left\langle  F'(t) , G(t)  \right\rangle  +  \left\langle  F(t) , G'(t)  \right\rangle
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+da $F,G$ tangential sind und $F',G'$ orthogonal zum Tangentialraum sind. Daher ist
+\mathl{\left\langle  F(t) , G(t)  \right\rangle}{} konstant längs des Weges. Daher ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle \Psi_\gamma(v)  , \Psi_\gamma(w)  \right\rangle
+}
+{ =} { \left\langle  F(b)  ,  G(b)   \right\rangle
+}
+{ =} { \left\langle  F(a)  ,  F(a)   \right\rangle
+}
+{ =} { \left\langle  v  , w  \right\rangle
+}
+{ } {
+}
+}
+{}{}{.}
+Die Bijektivität ist damit auch klar.
+
+}
+
+\inputbeispiel{}
+{
+
+Wir betrachten den Viertelgroßkreis
+\maabbeledisp {} {[0 , \pi/2] } { \R^3
+} { t } { \left(  \cos  t   , \,   \sin  t  , \,   0                 \right)
+} {,}
+auf der Einheitskugeloberfläche $S$ und knüpfen an
+[[Kugeloberfläche/Viertelgroßkreis/Parallele Vektorfelder/Beispiel|Beispiel 6.11]]
+an. Es ist
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(0)
+}
+{ = }{ \left(  1   , \,   0  , \,   0                 \right)
+}
+{ = }{ P
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(\pi/2)
+}
+{ = }{ \left(  0   , \,   1  , \,   0                 \right)
+}
+{ = }{ Q
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit den
+\definitionsverweis {Tangentialräumen}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ T_PS
+}
+{ = }{ \R e_2 +\R e_3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ T_QS
+}
+{ = }{ \R e_1 +\R e_3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Nach den Berechnungen im angegebenen Beispiel gilt für den
+\definitionsverweis {Paralleltransport}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ \Psi_\gamma(e_3)
+}
+{ = }{ e_3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \Psi_\gamma(e_2)
+}
+{ = }{ - e_1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+
+Wenn
+\maabbdisp {\gamma} { I } { Y
+} {}
+eine stetige, stückweise differenzierbare Kurve ist, so definiert man den Paralleltransport längs $\gamma$, indem man die einzelnen Paralleltransporte zu den differenzierbaren Kurvenstücken hintereinander ausführt.
+
+ [[Kategorie:Latexseite]]

@@ -1,0 +1,2045 @@
+{
+  "accessibility": {
+    "fonts": {
+      "100:0": {
+        "base_font": "/THFMUX+LMRoman10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "101:0": {
+        "base_font": "/QDTWCG+MSBM10",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "102:0": {
+        "base_font": "/MEHSMB+LMMathItalic8-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "103:0": {
+        "base_font": "/ZZSWOB+LMMathSymbols10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "104:0": {
+        "base_font": "/UGBGKH+LMMathSymbols8-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "105:0": {
+        "base_font": "/SRMAUB+LMRoman8-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "106:0": {
+        "base_font": "/SGOSQV+LMRoman10-Italic",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "108:0": {
+        "base_font": "/DXDOXC+LMMathExtension10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "115:0": {
+        "base_font": "/VFSOCH+LMRoman6-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "116:0": {
+        "base_font": "/IYCKNG+LMMathItalic6-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "117:0": {
+        "base_font": "/GKLUXI+LMMathSymbols6-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "133:0": {
+        "base_font": "/SRMAUB+LMRoman8-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "134:0": {
+        "base_font": "/VFSOCH+LMRoman6-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "136:0": {
+        "base_font": "/VSIEHR+LMRoman9-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "144:0": {
+        "base_font": "/VSIEHR+LMRoman9-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "15:0": {
+        "base_font": "/PQXPCF+LMRoman12-Bold",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "16:0": {
+        "base_font": "/THFMUX+LMRoman10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "347:0": {
+        "base_font": "/TGCXOT+LMRoman5-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "354:0": {
+        "base_font": "/RSBFRV+LMRoman7-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "356:0": {
+        "base_font": "/WRSMOM+LMMathItalic7-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "357:0": {
+        "base_font": "/DSSNNO+LMMathItalic5-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "44:0": {
+        "base_font": "/IRUBTY+LMRoman10-Bold",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "525:0": {
+        "base_font": "/RYEVFW+LMSans8-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "6:0": {
+        "base_font": "/WBJUUY+LMRoman17-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "718:0": {
+        "base_font": "/IQATPW+LMMathItalic9-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "719:0": {
+        "base_font": "/VSIEHR+LMRoman9-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "720:0": {
+        "base_font": "/JXKXGG+LMMathSymbols9-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "721:0": {
+        "base_font": "/UWHZKM+LMRoman9-Italic",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "78:0": {
+        "base_font": "/TRFNIH+LMRomanSlant10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "7:0": {
+        "base_font": "/KUUJUY+LMRoman12-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "882:0": {
+        "base_font": "/ANFATO+LMMono10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "8:0": {
+        "base_font": "/EAOLXX+LMRoman12-Italic",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "99:0": {
+        "base_font": "/NCGIPW+LMMathItalic10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      }
+    },
+    "fonts_not_embedded": [],
+    "fonts_with_tounicode": 33,
+    "fonts_without_tounicode": [],
+    "pdfplumber_empty_text_pages": [],
+    "pdfplumber_page_text_characters": [
+      172,
+      904,
+      746,
+      816,
+      17,
+      1639,
+      976,
+      2046,
+      2593,
+      2058,
+      2383,
+      1517,
+      1493,
+      593,
+      899,
+      1321,
+      1321,
+      1489,
+      1774,
+      953,
+      19,
+      930,
+      1590,
+      1743,
+      1280,
+      1682,
+      1638,
+      1499,
+      462,
+      840,
+      1655,
+      1357,
+      1155,
+      1448,
+      1262,
+      827,
+      20,
+      1432,
+      1969,
+      1171,
+      1821,
+      896,
+      1699,
+      1491,
+      1548,
+      1013,
+      1103,
+      935,
+      1181,
+      776,
+      1049,
+      593,
+      314,
+      19,
+      1145,
+      2162,
+      1545,
+      1472,
+      1843,
+      1716,
+      1937,
+      522,
+      850,
+      1478,
+      1226,
+      1328,
+      901,
+      1181,
+      272,
+      18,
+      1461,
+      2249,
+      2342,
+      1755,
+      1596,
+      1623,
+      1543,
+      906,
+      1864,
+      850,
+      1612,
+      1390,
+      19,
+      1096,
+      1538,
+      1641,
+      2200,
+      1769,
+      1473,
+      1611,
+      1184,
+      1459,
+      691,
+      639,
+      1337,
+      1466,
+      1536,
+      1328,
+      1286,
+      1117,
+      836,
+      1934,
+      1747,
+      1483,
+      166
+    ],
+    "pdfplumber_pages_with_extractable_text": 105,
+    "pdfplumber_version": "0.11.9",
+    "pypdf_empty_text_pages": [],
+    "pypdf_page_text_characters": [
+      171,
+      915,
+      746,
+      816,
+      17,
+      1601,
+      867,
+      1965,
+      2508,
+      1999,
+      2314,
+      1476,
+      1470,
+      585,
+      854,
+      1260,
+      1266,
+      1486,
+      1709,
+      877,
+      19,
+      915,
+      1530,
+      1701,
+      1223,
+      1617,
+      1598,
+      1416,
+      460,
+      802,
+      1599,
+      1301,
+      1109,
+      1292,
+      943,
+      816,
+      20,
+      1383,
+      1923,
+      1166,
+      1584,
+      816,
+      1606,
+      1443,
+      1470,
+      891,
+      1061,
+      902,
+      1122,
+      743,
+      1056,
+      597,
+      298,
+      19,
+      1089,
+      2063,
+      1478,
+      1331,
+      1690,
+      1521,
+      1629,
+      510,
+      814,
+      1398,
+      1160,
+      1287,
+      876,
+      1143,
+      246,
+      18,
+      1369,
+      2177,
+      2237,
+      1629,
+      1462,
+      1557,
+      1489,
+      895,
+      1775,
+      825,
+      1577,
+      1412,
+      19,
+      1025,
+      1432,
+      1551,
+      2094,
+      1663,
+      1334,
+      1562,
+      1129,
+      1367,
+      648,
+      607,
+      1273,
+      1406,
+      1442,
+      1252,
+      1248,
+      1119,
+      808,
+      1946,
+      1759,
+      1482,
+      166
+    ],
+    "pypdf_pages_with_extractable_text": 105,
+    "pypdf_version": "6.10.0",
+    "unique_fonts": 33
+  },
+  "blockers": [],
+  "bookmarks": {
+    "count": 31,
+    "duplicate_named_destinations": false,
+    "errors": [],
+    "missing_required": [],
+    "named_destination_count": 442,
+    "out_of_range": [],
+    "records": [
+      {
+        "depth": 0,
+        "page": 5,
+        "title": "I Unit 1"
+      },
+      {
+        "depth": 1,
+        "page": 6,
+        "title": "Kuliah 1"
+      },
+      {
+        "depth": 1,
+        "page": 15,
+        "title": "Lembar Kerja 1"
+      },
+      {
+        "depth": 2,
+        "page": 20,
+        "title": "Solusi yang disediakan oleh sumber"
+      },
+      {
+        "depth": 0,
+        "page": 21,
+        "title": "II Unit 2"
+      },
+      {
+        "depth": 1,
+        "page": 22,
+        "title": "Kuliah 2"
+      },
+      {
+        "depth": 1,
+        "page": 30,
+        "title": "Lembar Kerja 2"
+      },
+      {
+        "depth": 2,
+        "page": 33,
+        "title": "Solusi yang disediakan oleh sumber"
+      },
+      {
+        "depth": 0,
+        "page": 37,
+        "title": "III Unit 3"
+      },
+      {
+        "depth": 1,
+        "page": 38,
+        "title": "Kuliah 3"
+      },
+      {
+        "depth": 1,
+        "page": 47,
+        "title": "Lembar Kerja 3"
+      },
+      {
+        "depth": 2,
+        "page": 51,
+        "title": "Solusi yang disediakan oleh sumber"
+      },
+      {
+        "depth": 0,
+        "page": 54,
+        "title": "IV Unit 4"
+      },
+      {
+        "depth": 1,
+        "page": 55,
+        "title": "Kuliah 4"
+      },
+      {
+        "depth": 1,
+        "page": 63,
+        "title": "Lembar Kerja 4"
+      },
+      {
+        "depth": 2,
+        "page": 67,
+        "title": "Solusi yang disediakan oleh sumber"
+      },
+      {
+        "depth": 0,
+        "page": 70,
+        "title": "V Unit 5"
+      },
+      {
+        "depth": 1,
+        "page": 71,
+        "title": "Kuliah 5"
+      },
+      {
+        "depth": 1,
+        "page": 78,
+        "title": "Lembar Kerja 5"
+      },
+      {
+        "depth": 2,
+        "page": 81,
+        "title": "Solusi yang disediakan oleh sumber"
+      },
+      {
+        "depth": 0,
+        "page": 83,
+        "title": "VI Unit 6"
+      },
+      {
+        "depth": 1,
+        "page": 84,
+        "title": "Kuliah 6"
+      },
+      {
+        "depth": 1,
+        "page": 94,
+        "title": "Lembar Kerja 6"
+      },
+      {
+        "depth": 2,
+        "page": 99,
+        "title": "Solusi yang disediakan oleh sumber"
+      },
+      {
+        "depth": 1,
+        "page": 103,
+        "title": "Atribusi dan Hak Media"
+      },
+      {
+        "depth": 2,
+        "page": 103,
+        "title": "Unit 1"
+      },
+      {
+        "depth": 2,
+        "page": 103,
+        "title": "Unit 2"
+      },
+      {
+        "depth": 2,
+        "page": 103,
+        "title": "Unit 3"
+      },
+      {
+        "depth": 2,
+        "page": 104,
+        "title": "Unit 4"
+      },
+      {
+        "depth": 2,
+        "page": 104,
+        "title": "Unit 5"
+      },
+      {
+        "depth": 2,
+        "page": 104,
+        "title": "Unit 6"
+      }
+    ],
+    "unresolved": []
+  },
+  "build_binding": {
+    "cycles": [
+      {
+        "actual": {
+          "bytes": 4765606,
+          "sha256": "40bf26d196ff04c38c6c99e8e9669a86bb5e6d31124b904b7ad154e7948cdec1"
+        },
+        "cycle": 1,
+        "passed": true,
+        "path": "tmp/pdfs/through-unit06-build/cycle-1.pdf"
+      },
+      {
+        "actual": {
+          "bytes": 4765606,
+          "sha256": "40bf26d196ff04c38c6c99e8e9669a86bb5e6d31124b904b7ad154e7948cdec1"
+        },
+        "cycle": 2,
+        "passed": true,
+        "path": "tmp/pdfs/through-unit06-build/cycle-2.pdf"
+      }
+    ],
+    "inputs": [
+      {
+        "actual": {
+          "bytes": 8435,
+          "sha256": "1e925aa7108f8e2c4d8394a8f90c8fa5c1cbd24725dc53517936082c58e7326f"
+        },
+        "declared": {
+          "bytes": 8435,
+          "sha256": "1e925aa7108f8e2c4d8394a8f90c8fa5c1cbd24725dc53517936082c58e7326f"
+        },
+        "passed": true,
+        "path": "qa/unit-05/build.json"
+      },
+      {
+        "actual": {
+          "bytes": 5935,
+          "sha256": "7b1a63a8c1ec869242957dc6d2151c7bd3214848ef8cbdbeabe9d3d3b66f01cd"
+        },
+        "declared": {
+          "bytes": 5935,
+          "sha256": "7b1a63a8c1ec869242957dc6d2151c7bd3214848ef8cbdbeabe9d3d3b66f01cd"
+        },
+        "passed": true,
+        "path": "build/through-unit-06.tex"
+      },
+      {
+        "actual": {
+          "bytes": 85786,
+          "sha256": "51bcfc80332b373357c4822bc5929266e526c1c1e8e27c4fc3378d08a841c663"
+        },
+        "declared": {
+          "bytes": 85786,
+          "sha256": "51bcfc80332b373357c4822bc5929266e526c1c1e8e27c4fc3378d08a841c663"
+        },
+        "passed": true,
+        "path": "build/brenner-compat.tex"
+      },
+      {
+        "actual": {
+          "bytes": 30755,
+          "sha256": "c623f4046049dd640b6c813d357c35b532098ee383ef856ad7296881f3f7ea4e"
+        },
+        "declared": {
+          "bytes": 30755,
+          "sha256": "c623f4046049dd640b6c813d357c35b532098ee383ef856ad7296881f3f7ea4e"
+        },
+        "passed": true,
+        "path": "build/generated/lecture06.id.build.tex"
+      },
+      {
+        "actual": {
+          "bytes": 16263,
+          "sha256": "c9159aa808f638f02dd850ac6f131289fbf45390f236e23f4d6edc7ab85be900"
+        },
+        "declared": {
+          "bytes": 16263,
+          "sha256": "c9159aa808f638f02dd850ac6f131289fbf45390f236e23f4d6edc7ab85be900"
+        },
+        "passed": true,
+        "path": "build/generated/worksheet06.id.build.tex"
+      },
+      {
+        "actual": {
+          "bytes": 2561,
+          "sha256": "a05d08dec69157aa38e1c867299748d39d4cdffc558939ec6b971239df878d1b"
+        },
+        "declared": {
+          "bytes": 2561,
+          "sha256": "a05d08dec69157aa38e1c867299748d39d4cdffc558939ec6b971239df878d1b"
+        },
+        "passed": true,
+        "path": "build/generated/worksheet06_exercise02_solution.id.build.tex"
+      },
+      {
+        "actual": {
+          "bytes": 939,
+          "sha256": "0466633d87c732eb4b6e468dcf33f2e2755f3961e536dc732f14acf8907fc317"
+        },
+        "declared": {
+          "bytes": 939,
+          "sha256": "0466633d87c732eb4b6e468dcf33f2e2755f3961e536dc732f14acf8907fc317"
+        },
+        "passed": true,
+        "path": "build/generated/worksheet06_exercise06_solution.id.build.tex"
+      },
+      {
+        "actual": {
+          "bytes": 474,
+          "sha256": "4ade5a70dbb8a98d862bb72e76218f02233894cf57bcc7352fb266fd620e9a99"
+        },
+        "declared": {
+          "bytes": 474,
+          "sha256": "4ade5a70dbb8a98d862bb72e76218f02233894cf57bcc7352fb266fd620e9a99"
+        },
+        "passed": true,
+        "path": "build/generated/worksheet06_exercise09_solution.id.build.tex"
+      },
+      {
+        "actual": {
+          "bytes": 734,
+          "sha256": "b9b34e9cc73caba3cf57df4bef73682dfad9766df0c9cad8c4ebcd1929d8af4c"
+        },
+        "declared": {
+          "bytes": 734,
+          "sha256": "b9b34e9cc73caba3cf57df4bef73682dfad9766df0c9cad8c4ebcd1929d8af4c"
+        },
+        "passed": true,
+        "path": "build/generated/unit06-media-attribution-cumulative.tex"
+      },
+      {
+        "actual": {
+          "bytes": 1256,
+          "sha256": "4a5b27132bccd4d68941fe4618fce8fc2730ac37e69eb3dce2ef443594134e2d"
+        },
+        "declared": {
+          "bytes": 1256,
+          "sha256": "4a5b27132bccd4d68941fe4618fce8fc2730ac37e69eb3dce2ef443594134e2d"
+        },
+        "passed": true,
+        "path": "qa/unit-06/lecture06_translation.json"
+      },
+      {
+        "actual": {
+          "bytes": 1170,
+          "sha256": "7bd2efcb70ec437e7c8c3689579fdd061613893a04c80bd851b7e04687af8f51"
+        },
+        "declared": {
+          "bytes": 1170,
+          "sha256": "7bd2efcb70ec437e7c8c3689579fdd061613893a04c80bd851b7e04687af8f51"
+        },
+        "passed": true,
+        "path": "qa/unit-06/worksheet06_translation.json"
+      },
+      {
+        "actual": {
+          "bytes": 1095,
+          "sha256": "b561388fcb8e3f6a966cb5af2b60faba62ed001028e3d1284b58ee0cb073ac06"
+        },
+        "declared": {
+          "bytes": 1095,
+          "sha256": "b561388fcb8e3f6a966cb5af2b60faba62ed001028e3d1284b58ee0cb073ac06"
+        },
+        "passed": true,
+        "path": "qa/unit-06/worksheet06_exercise02_solution_translation.json"
+      },
+      {
+        "actual": {
+          "bytes": 1070,
+          "sha256": "448345444eb5964acd377277b97e796649d4c9cfa32260d60aefdab8297a5499"
+        },
+        "declared": {
+          "bytes": 1070,
+          "sha256": "448345444eb5964acd377277b97e796649d4c9cfa32260d60aefdab8297a5499"
+        },
+        "passed": true,
+        "path": "qa/unit-06/worksheet06_exercise06_solution_translation.json"
+      },
+      {
+        "actual": {
+          "bytes": 1068,
+          "sha256": "5e6bf4cc37f788873588a4f83a12b32e43c1b04c43ff7339c3de00c5a8b33678"
+        },
+        "declared": {
+          "bytes": 1068,
+          "sha256": "5e6bf4cc37f788873588a4f83a12b32e43c1b04c43ff7339c3de00c5a8b33678"
+        },
+        "passed": true,
+        "path": "qa/unit-06/worksheet06_exercise09_solution_translation.json"
+      },
+      {
+        "actual": {
+          "bytes": 2785,
+          "sha256": "0d4bac9e8fabccbea16f71f83c425a78508c1d8b5ed1a87f32e0968b30ee3809"
+        },
+        "declared": {
+          "bytes": 2785,
+          "sha256": "0d4bac9e8fabccbea16f71f83c425a78508c1d8b5ed1a87f32e0968b30ee3809"
+        },
+        "passed": true,
+        "path": "qa/unit-06_media.json"
+      }
+    ],
+    "log_scan": {
+      "diagnostic_count": 0,
+      "fatal_hits": [],
+      "overfull_hits": [],
+      "underfull_hits": [],
+      "verified_logs": [
+        {
+          "actual": {
+            "bytes": 13124,
+            "sha256": "d425f0a982348079463bdeb190cc60d8e1fa514ad9f0ad9aaba257cea6d560e7"
+          },
+          "declared": {
+            "bytes": 13124,
+            "sha256": "d425f0a982348079463bdeb190cc60d8e1fa514ad9f0ad9aaba257cea6d560e7"
+          },
+          "matches": true,
+          "path": "tmp/pdfs/through-unit06-build/cycle-1-pass-1.console.txt"
+        },
+        {
+          "actual": {
+            "bytes": 13103,
+            "sha256": "67ffad87bb7d5e5d33a84db0f7a791ec9c3818748c537423d44d174affa2b0e4"
+          },
+          "declared": {
+            "bytes": 13103,
+            "sha256": "67ffad87bb7d5e5d33a84db0f7a791ec9c3818748c537423d44d174affa2b0e4"
+          },
+          "matches": true,
+          "path": "tmp/pdfs/through-unit06-build/cycle-1-pass-2.console.txt"
+        },
+        {
+          "actual": {
+            "bytes": 13103,
+            "sha256": "67ffad87bb7d5e5d33a84db0f7a791ec9c3818748c537423d44d174affa2b0e4"
+          },
+          "declared": {
+            "bytes": 13103,
+            "sha256": "67ffad87bb7d5e5d33a84db0f7a791ec9c3818748c537423d44d174affa2b0e4"
+          },
+          "matches": true,
+          "path": "tmp/pdfs/through-unit06-build/cycle-1-pass-3.console.txt"
+        },
+        {
+          "actual": {
+            "bytes": 13124,
+            "sha256": "d425f0a982348079463bdeb190cc60d8e1fa514ad9f0ad9aaba257cea6d560e7"
+          },
+          "declared": {
+            "bytes": 13124,
+            "sha256": "d425f0a982348079463bdeb190cc60d8e1fa514ad9f0ad9aaba257cea6d560e7"
+          },
+          "matches": true,
+          "path": "tmp/pdfs/through-unit06-build/cycle-2-pass-1.console.txt"
+        },
+        {
+          "actual": {
+            "bytes": 13103,
+            "sha256": "67ffad87bb7d5e5d33a84db0f7a791ec9c3818748c537423d44d174affa2b0e4"
+          },
+          "declared": {
+            "bytes": 13103,
+            "sha256": "67ffad87bb7d5e5d33a84db0f7a791ec9c3818748c537423d44d174affa2b0e4"
+          },
+          "matches": true,
+          "path": "tmp/pdfs/through-unit06-build/cycle-2-pass-2.console.txt"
+        },
+        {
+          "actual": {
+            "bytes": 13103,
+            "sha256": "67ffad87bb7d5e5d33a84db0f7a791ec9c3818748c537423d44d174affa2b0e4"
+          },
+          "declared": {
+            "bytes": 13103,
+            "sha256": "67ffad87bb7d5e5d33a84db0f7a791ec9c3818748c537423d44d174affa2b0e4"
+          },
+          "matches": true,
+          "path": "tmp/pdfs/through-unit06-build/cycle-2-pass-3.console.txt"
+        }
+      ],
+      "warning_hits": [],
+      "zero_diagnostics": true
+    },
+    "receipt": {
+      "bytes": 5146,
+      "path": "qa/unit-06/build.json",
+      "sha256": "fa3ff197c5dd03be1aff6766ac1a3e8db779ebf9557091cf1aac4f9fa836f466"
+    }
+  },
+  "content_closure": {
+    "correction_disclosures": {
+      "O011-CORR-0054": true,
+      "O011-CORR-0055": true,
+      "O011-CORR-0056": true,
+      "O011-CORR-0057": true,
+      "O011-CORR-0058": true,
+      "O011-CORR-0059": true,
+      "O011-CORR-0060": true,
+      "O011-CORR-0061": true,
+      "O011-CORR-0062": true,
+      "O011-CORR-0063": true,
+      "O011-CORR-0064": true,
+      "O011-CORR-0065": true,
+      "O011-CORR-0066": true,
+      "O011-CORR-0067": true,
+      "O011-CORR-0068": true,
+      "O011-CORR-0069": true
+    },
+    "exercise_heading_counts": {
+      "1": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1,
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1
+    },
+    "expected_exercise_heading_counts": {
+      "1": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1,
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1
+    },
+    "expected_solution_heading_counts": {
+      "2": 1,
+      "6": 1,
+      "9": 1
+    },
+    "missing_correction_disclosures": [],
+    "missing_graded_markers": [],
+    "missing_required_text": [],
+    "missing_unit6_media_text": [],
+    "model_provenance": {
+      "exact_text": "OpenAI Codex gpt-5.6-sol, Ultra",
+      "occurrences": 1
+    },
+    "solution_heading_counts": {
+      "2": 1,
+      "6": 1,
+      "9": 1
+    },
+    "unit6_media_text_presence": {
+      "creation": true,
+      "creator": true,
+      "filename": true,
+      "license": true,
+      "source_context": true
+    },
+    "unit6_part_physical_pages": [
+      83
+    ],
+    "worksheet_physical_pages_checked": [
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+    ]
+  },
+  "execution_binding": {
+    "output": "qa/unit-06/pdf_structural_qa.json",
+    "pdf": {
+      "expected_bytes": 4765606,
+      "expected_sha256": "40bf26d196ff04c38c6c99e8e9669a86bb5e6d31124b904b7ad154e7948cdec1",
+      "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-06-id.pdf"
+    },
+    "project_root": ".",
+    "script": {
+      "bytes": 58020,
+      "path": "scripts/verify_through_unit06_pdf.py",
+      "sha256": "4487b93eb2d91843e3cda7f6aabe35eb342eb6c25f746434ef116ffdfb3f0a91"
+    }
+  },
+  "layout": {
+    "centered_wrapper_passed": true,
+    "content_pages_checked": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101
+    ],
+    "expected_right_anchor_points": 532.913795,
+    "expected_wrapper_margin_mm": 22.0,
+    "expected_wrapper_margin_points": 62.362205,
+    "hash_bound_geometry_declaration_present": true,
+    "left_anchor_pages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      36,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101
+    ],
+    "minimum_required_left_anchor_pages": 86,
+    "minimum_required_right_anchor_pages": 54,
+    "nominal_margin_overruns": [],
+    "outside_media_box": [],
+    "page_body_extents": [
+      {
+        "body_max_x": 535.034,
+        "body_min_x": 62.079,
+        "page": 6
+      },
+      {
+        "body_max_x": 532.913,
+        "body_min_x": 61.97,
+        "page": 7
+      },
+      {
+        "body_max_x": 534.187,
+        "body_min_x": 62.079,
+        "page": 8
+      },
+      {
+        "body_max_x": 535.03,
+        "body_min_x": 61.086,
+        "page": 9
+      },
+      {
+        "body_max_x": 534.739,
+        "body_min_x": 61.817,
+        "page": 10
+      },
+      {
+        "body_max_x": 535.031,
+        "body_min_x": 61.604,
+        "page": 11
+      },
+      {
+        "body_max_x": 534.733,
+        "body_min_x": 62.362,
+        "page": 12
+      },
+      {
+        "body_max_x": 535.036,
+        "body_min_x": 61.969,
+        "page": 13
+      },
+      {
+        "body_max_x": 512.904,
+        "body_min_x": 75.696,
+        "page": 14
+      },
+      {
+        "body_max_x": 532.916,
+        "body_min_x": 61.086,
+        "page": 15
+      },
+      {
+        "body_max_x": 534.19,
+        "body_min_x": 62.362,
+        "page": 16
+      },
+      {
+        "body_max_x": 533.943,
+        "body_min_x": 62.079,
+        "page": 17
+      },
+      {
+        "body_max_x": 532.918,
+        "body_min_x": 62.362,
+        "page": 18
+      },
+      {
+        "body_max_x": 534.43,
+        "body_min_x": 62.362,
+        "page": 19
+      },
+      {
+        "body_max_x": 416.372,
+        "body_min_x": 62.362,
+        "page": 20
+      },
+      {
+        "body_max_x": 534.587,
+        "body_min_x": 61.504,
+        "page": 22
+      },
+      {
+        "body_max_x": 534.587,
+        "body_min_x": 61.526,
+        "page": 23
+      },
+      {
+        "body_max_x": 535.027,
+        "body_min_x": 62.079,
+        "page": 24
+      },
+      {
+        "body_max_x": 532.918,
+        "body_min_x": 61.526,
+        "page": 25
+      },
+      {
+        "body_max_x": 535.03,
+        "body_min_x": 61.504,
+        "page": 26
+      },
+      {
+        "body_max_x": 535.033,
+        "body_min_x": 61.526,
+        "page": 27
+      },
+      {
+        "body_max_x": 534.585,
+        "body_min_x": 61.923,
+        "page": 28
+      },
+      {
+        "body_max_x": 534.733,
+        "body_min_x": 62.362,
+        "page": 29
+      },
+      {
+        "body_max_x": 535.03,
+        "body_min_x": 62.362,
+        "page": 30
+      },
+      {
+        "body_max_x": 534.426,
+        "body_min_x": 62.079,
+        "page": 31
+      },
+      {
+        "body_max_x": 534.944,
+        "body_min_x": 62.079,
+        "page": 32
+      },
+      {
+        "body_max_x": 532.911,
+        "body_min_x": 61.969,
+        "page": 33
+      },
+      {
+        "body_max_x": 534.553,
+        "body_min_x": 61.069,
+        "page": 34
+      },
+      {
+        "body_max_x": 484.543,
+        "body_min_x": 76.432,
+        "page": 35
+      },
+      {
+        "body_max_x": 532.918,
+        "body_min_x": 61.086,
+        "page": 36
+      },
+      {
+        "body_max_x": 533.2,
+        "body_min_x": 62.079,
+        "page": 38
+      },
+      {
+        "body_max_x": 535.033,
+        "body_min_x": 62.079,
+        "page": 39
+      },
+      {
+        "body_max_x": 532.918,
+        "body_min_x": 62.079,
+        "page": 40
+      },
+      {
+        "body_max_x": 534.431,
+        "body_min_x": 61.504,
+        "page": 41
+      },
+      {
+        "body_max_x": 534.738,
+        "body_min_x": 61.526,
+        "page": 42
+      },
+      {
+        "body_max_x": 532.918,
+        "body_min_x": 61.526,
+        "page": 43
+      },
+      {
+        "body_max_x": 534.43,
+        "body_min_x": 61.526,
+        "page": 44
+      },
+      {
+        "body_max_x": 532.909,
+        "body_min_x": 61.526,
+        "page": 45
+      },
+      {
+        "body_max_x": 533.211,
+        "body_min_x": 61.504,
+        "page": 46
+      },
+      {
+        "body_max_x": 532.918,
+        "body_min_x": 62.079,
+        "page": 47
+      },
+      {
+        "body_max_x": 532.917,
+        "body_min_x": 62.362,
+        "page": 48
+      },
+      {
+        "body_max_x": 535.033,
+        "body_min_x": 61.969,
+        "page": 49
+      },
+      {
+        "body_max_x": 496.848,
+        "body_min_x": 61.969,
+        "page": 50
+      },
+      {
+        "body_max_x": 533.203,
+        "body_min_x": 61.969,
+        "page": 51
+      },
+      {
+        "body_max_x": 458.499,
+        "body_min_x": 62.079,
+        "page": 52
+      },
+      {
+        "body_max_x": 532.911,
+        "body_min_x": 62.362,
+        "page": 53
+      },
+      {
+        "body_max_x": 532.919,
+        "body_min_x": 62.079,
+        "page": 55
+      },
+      {
+        "body_max_x": 535.03,
+        "body_min_x": 61.086,
+        "page": 56
+      },
+      {
+        "body_max_x": 534.428,
+        "body_min_x": 62.079,
+        "page": 57
+      },
+      {
+        "body_max_x": 534.185,
+        "body_min_x": 62.079,
+        "page": 58
+      },
+      {
+        "body_max_x": 535.027,
+        "body_min_x": 61.649,
+        "page": 59
+      },
+      {
+        "body_max_x": 534.736,
+        "body_min_x": 61.526,
+        "page": 60
+      },
+      {
+        "body_max_x": 533.193,
+        "body_min_x": 61.526,
+        "page": 61
+      },
+      {
+        "body_max_x": 532.919,
+        "body_min_x": 62.362,
+        "page": 62
+      },
+      {
+        "body_max_x": 535.033,
+        "body_min_x": 61.969,
+        "page": 63
+      },
+      {
+        "body_max_x": 535.03,
+        "body_min_x": 61.806,
+        "page": 64
+      },
+      {
+        "body_max_x": 533.2,
+        "body_min_x": 61.969,
+        "page": 65
+      },
+      {
+        "body_max_x": 533.2,
+        "body_min_x": 62.079,
+        "page": 66
+      },
+      {
+        "body_max_x": 532.914,
+        "body_min_x": 61.069,
+        "page": 67
+      },
+      {
+        "body_max_x": 534.591,
+        "body_min_x": 60.645,
+        "page": 68
+      },
+      {
+        "body_max_x": 509.229,
+        "body_min_x": 62.079,
+        "page": 69
+      },
+      {
+        "body_max_x": 532.918,
+        "body_min_x": 61.806,
+        "page": 71
+      },
+      {
+        "body_max_x": 534.733,
+        "body_min_x": 62.079,
+        "page": 72
+      },
+      {
+        "body_max_x": 535.028,
+        "body_min_x": 61.086,
+        "page": 73
+      },
+      {
+        "body_max_x": 535.032,
+        "body_min_x": 62.362,
+        "page": 74
+      },
+      {
+        "body_max_x": 533.262,
+        "body_min_x": 60.5,
+        "page": 75
+      },
+      {
+        "body_max_x": 535.03,
+        "body_min_x": 61.504,
+        "page": 76
+      },
+      {
+        "body_max_x": 534.583,
+        "body_min_x": 61.504,
+        "page": 77
+      },
+      {
+        "body_max_x": 533.198,
+        "body_min_x": 61.969,
+        "page": 78
+      },
+      {
+        "body_max_x": 535.025,
+        "body_min_x": 62.362,
+        "page": 79
+      },
+      {
+        "body_max_x": 534.552,
+        "body_min_x": 61.969,
+        "page": 80
+      },
+      {
+        "body_max_x": 534.552,
+        "body_min_x": 61.069,
+        "page": 81
+      },
+      {
+        "body_max_x": 535.03,
+        "body_min_x": 62.079,
+        "page": 82
+      },
+      {
+        "body_max_x": 533.136,
+        "body_min_x": 61.069,
+        "page": 84
+      },
+      {
+        "body_max_x": 534.419,
+        "body_min_x": 62.079,
+        "page": 85
+      },
+      {
+        "body_max_x": 534.082,
+        "body_min_x": 61.504,
+        "page": 86
+      },
+      {
+        "body_max_x": 534.192,
+        "body_min_x": 61.069,
+        "page": 87
+      },
+      {
+        "body_max_x": 534.189,
+        "body_min_x": 61.805,
+        "page": 88
+      },
+      {
+        "body_max_x": 535.026,
+        "body_min_x": 62.079,
+        "page": 89
+      },
+      {
+        "body_max_x": 534.432,
+        "body_min_x": 61.069,
+        "page": 90
+      },
+      {
+        "body_max_x": 535.03,
+        "body_min_x": 62.362,
+        "page": 91
+      },
+      {
+        "body_max_x": 535.03,
+        "body_min_x": 61.069,
+        "page": 92
+      },
+      {
+        "body_max_x": 534.734,
+        "body_min_x": 61.937,
+        "page": 93
+      },
+      {
+        "body_max_x": 532.86,
+        "body_min_x": 62.362,
+        "page": 94
+      },
+      {
+        "body_max_x": 532.918,
+        "body_min_x": 61.069,
+        "page": 95
+      },
+      {
+        "body_max_x": 534.089,
+        "body_min_x": 61.069,
+        "page": 96
+      },
+      {
+        "body_max_x": 534.732,
+        "body_min_x": 62.079,
+        "page": 97
+      },
+      {
+        "body_max_x": 532.914,
+        "body_min_x": 61.069,
+        "page": 98
+      },
+      {
+        "body_max_x": 533.194,
+        "body_min_x": 61.069,
+        "page": 99
+      },
+      {
+        "body_max_x": 532.918,
+        "body_min_x": 62.362,
+        "page": 100
+      },
+      {
+        "body_max_x": 533.135,
+        "body_min_x": 62.362,
+        "page": 101
+      }
+    ],
+    "right_anchor_pages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      36,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      51,
+      53,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101
+    ]
+  },
+  "limitations": [
+    "PDF is untagged: no active structure tree with /MarkInfo /Marked true. All 33 discovered fonts have ToUnicode and all 105 pages remain text-extractable through both pypdf and pdfplumber; the semantic HTML reader remains the primary structured accessibility surface."
+  ],
+  "links_and_active_content": {
+    "acroform_or_fields": false,
+    "annotation_subtype_counts": {
+      "/Link": 80
+    },
+    "attachment_markers": [],
+    "catalog_associated_files": false,
+    "collection": false,
+    "embedded_files_name_tree": false,
+    "external_uri_count": 24,
+    "external_uri_counts": {
+      "https://commons.wikimedia.org/wiki/File:2019-07-Helix.jpg": 1,
+      "https://commons.wikimedia.org/wiki/File:3d-function-6.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Euler_spiral.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Evolute-parab.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Great_circle_passing_through_two_points.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Hyperboloid1.png": 2,
+      "https://commons.wikimedia.org/wiki/File:Integral_apl_rot_obsah1.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Minimal_surface_curvature_planes-de.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Parabola_circle.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Parallel_transport_sphere2.svg": 2,
+      "https://commons.wikimedia.org/wiki/File:Planned_flight_map_of_the_Oiseau_Blanc.svg": 1,
+      "https://creativecommons.org/licenses/by-sa/3.0": 2,
+      "https://creativecommons.org/licenses/by-sa/3.0/": 2,
+      "https://creativecommons.org/licenses/by-sa/4.0": 6,
+      "https://creativecommons.org/licenses/by/3.0": 1
+    },
+    "internal_link_count": 56,
+    "javascript_name_tree": false,
+    "unit6_media_license_uri_count": 2,
+    "unit6_media_source_uri_count": 2,
+    "unsafe_actions": [],
+    "unsafe_active_content_present": false,
+    "unsafe_annotation_subtypes": []
+  },
+  "passed": true,
+  "pdf": {
+    "all_crop_boxes_a4": true,
+    "all_media_boxes_a4": true,
+    "all_rotations_zero": true,
+    "bytes": 4765606,
+    "catalog_language": "id-ID",
+    "crop_box_points": [
+      595.276,
+      841.89
+    ],
+    "encrypted": false,
+    "has_structure_tree": false,
+    "mark_info_marked": false,
+    "media_box_points": [
+      595.276,
+      841.89
+    ],
+    "metadata": {
+      "/Author": "Holger Brenner, Terjemahan Bahasa Indonesia independen",
+      "/Creator": "LaTeX with hyperref",
+      "/Keywords": "",
+      "/Producer": "MiKTeX pdfTeX-1.40.29",
+      "/Subject": "",
+      "/Title": "Geometri Diferensial dan Manifold Mulus Pembaca kumulatif hingga Unit 6",
+      "/Trapped": "/False"
+    },
+    "metadata_mismatches": {},
+    "page_labels": [
+      "1",
+      "i",
+      "ii",
+      "iii",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79",
+      "80",
+      "81",
+      "82",
+      "83",
+      "84",
+      "85",
+      "86",
+      "87",
+      "88",
+      "89",
+      "90",
+      "91",
+      "92",
+      "93",
+      "94",
+      "95",
+      "96",
+      "97",
+      "98",
+      "99",
+      "100",
+      "101"
+    ],
+    "page_labels_match": true,
+    "pages": 105,
+    "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-06-id.pdf",
+    "sha256": "40bf26d196ff04c38c6c99e8e9669a86bb5e6d31124b904b7ad154e7948cdec1",
+    "tagged": false,
+    "trailer_id_present": false,
+    "volatile_metadata_keys": []
+  },
+  "prefix_integrity": {
+    "compared_physical_pages": {
+      "count": 78,
+      "first": 5,
+      "last": 82
+    },
+    "content_stream_aggregate_sha256_cumulative": "886d8212a3d77a196d4587b98ace3ad8b67ea8a0d6bea5661b270bb16539120a",
+    "content_stream_aggregate_sha256_prefix": "886d8212a3d77a196d4587b98ace3ad8b67ea8a0d6bea5661b270bb16539120a",
+    "content_stream_mismatch_pages": [],
+    "page_sizes_equal": true,
+    "passed": true,
+    "pdfplumber_text_mismatch_pages": [],
+    "prefix_pdf": {
+      "bytes": 4385195,
+      "pages": 86,
+      "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-05-id.pdf",
+      "sha256": "7aca79b4cfc937760463fe193a21373d5ad0acf18c79086faaf2a09189e08628"
+    },
+    "prefix_receipt": {
+      "bytes": 8435,
+      "path": "qa/unit-05/build.json",
+      "sha256": "1e925aa7108f8e2c4d8394a8f90c8fa5c1cbd24725dc53517936082c58e7326f"
+    }
+  },
+  "privacy_and_residue": {
+    "decoded_stream_bytes_scanned": 64638940,
+    "decoded_stream_count": 178,
+    "extracted_text_hits": {},
+    "metadata_hits": {},
+    "raw_or_decompressed_object_hits": {},
+    "stream_scan_errors": []
+  },
+  "punctuation_regression": {
+    "concatenation_gap_points": 1.0,
+    "neighbor_radius_points": 12.0,
+    "passed": true,
+    "pdfplumber_layout_punctuation_only_line_candidates": [
+      {
+        "line": 57,
+        "page": 100,
+        "text": "!"
+      },
+      {
+        "line": 59,
+        "page": 100,
+        "text": "."
+      }
+    ],
+    "pdfplumber_punctuation_only_line_candidates": [
+      {
+        "line": 53,
+        "page": 100,
+        "text": "!"
+      },
+      {
+        "line": 55,
+        "page": 100,
+        "text": "."
+      }
+    ],
+    "pypdf_punctuation_only_line_candidates": [
+      {
+        "line": 27,
+        "page": 89,
+        "text": "."
+      },
+      {
+        "line": 28,
+        "page": 90,
+        "text": "..."
+      },
+      {
+        "line": 36,
+        "page": 90,
+        "text": "..."
+      },
+      {
+        "line": 159,
+        "page": 100,
+        "text": "."
+      }
+    ],
+    "sentence_punctuation_concatenations": [],
+    "source_punctuation_only_logical_lines": [],
+    "visually_isolated_punctuation_glyphs": []
+  },
+  "schema_version": 1,
+  "source_and_math_qa_binding": {
+    "lecture_source": {
+      "bytes": 32034,
+      "path": "source/units/unit-06/lecture06.id.tex",
+      "punctuation_only_logical_lines": [],
+      "sha256": "180c553eb556d91ba733e00f012bd0ece36c32e66704c992f0c64244ab6e05e8"
+    },
+    "post_repair_math_qa": {
+      "bytes": 28914,
+      "checks_passed": 262,
+      "path": "qa/unit-06/POST_REPAIR_MATH_QA.json",
+      "punctuation_orphan_check_present": true,
+      "sha256": "b462de3f20b2a650d3f430660c993b598eba37f8acb0e4cc7187c0e171ee0cc7",
+      "status": "pass",
+      "target_lecture_sha256": "180c553eb556d91ba733e00f012bd0ece36c32e66704c992f0c64244ab6e05e8"
+    },
+    "terminology_qa": {
+      "bytes": 9363,
+      "final_lecture_row": {
+        "after_bytes": 32034,
+        "after_sha256": "180c553eb556d91ba733e00f012bd0ece36c32e66704c992f0c64244ab6e05e8",
+        "before_bytes": 32034,
+        "before_sha256": "180c553eb556d91ba733e00f012bd0ece36c32e66704c992f0c64244ab6e05e8",
+        "changes": {},
+        "path": "source/units/unit-06/lecture06.id.tex"
+      },
+      "path": "qa/terminology/FIELD_TERMINOLOGY_PROPAGATION_U01_U06.json",
+      "post_checks": {
+        "disallowed_standalone_tangen": 0,
+        "indonesian_transport_paralel": 0,
+        "manifold_terdiferensialkan": 0,
+        "unnatural_bersifat_singgung": 0,
+        "unnatural_nilai_singgung": 0,
+        "unnatural_tetap_singgung": 0
+      },
+      "sha256": "c625cb3b97b1032dcec864c3ea06d7098f4a5ab7274078493f86e91c0e1de811",
+      "status": "pass"
+    }
+  },
+  "verdict": "PASS_WITH_DOCUMENTED_LIMITATION",
+  "warnings": [],
+  "workflow": "o011-through-unit06-pdf-structural-qa-v1"
+}

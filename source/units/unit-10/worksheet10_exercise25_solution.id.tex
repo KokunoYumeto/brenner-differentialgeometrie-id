@@ -1,0 +1,37 @@
+Misalkan $N=(0,0,1)$ dan gunakan invers proyeksi stereografis
+\maabbeledisp {\sigma} {\R^2} {S^2\setminus\{N\}
+} {(x,y)} {\left(\frac{2x}{1+x^2+y^2},\frac{2y}{1+x^2+y^2},\frac{x^2+y^2-1}{1+x^2+y^2}\right)
+} {.}
+Pada $S^2\setminus\{N\}$, dorong medan vektor konstan $e_1$ ke depan dan definisikan
+
+\mathdisp {X(\sigma(x,y))=(D\sigma)_{(x,y)}(e_1)} { . }
+
+Secara eksplisit,
+
+\mathdisp {X(\sigma(x,y))=\frac{1}{(1+x^2+y^2)^2}\left(2(1-x^2+y^2),-4xy,4x\right)} { . }
+
+Karena $\sigma$ merupakan difeomorfisme, diferensialnya injektif; jadi medan ini tidak mempunyai titik nol pada $S^2\setminus\{N\}$. Selain itu,
+
+\mathdisp {\left\|X(\sigma(x,y))\right\|=\frac{2}{1+x^2+y^2}} { , }
+
+yang menuju $0$ ketika $x^2+y^2\to\infty$, yakni ketika $\sigma(x,y)\to N$. Oleh sebab itu, medan tersebut dapat diperluas secara kontinu dengan menetapkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{X(N)
+}
+{ =} {0
+}
+{ \in }{T_NS^2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dalam realisasi $TS^2\subseteq S^2\times\R^3$, rumus norma di atas langsung membuktikan kontinuitas pada $N$. Dengan demikian, $X$ adalah medan vektor kontinu pada $S^2$ dan satu-satunya titik nolnya ialah $N$.
+
+Catatan edisi: Solusi sumber menyatakan medan $e_1/(x^2+y^2)$ pada seluruh $\R^2$, padahal rumus itu tidak terdefinisi di titik asal, lalu menyimpulkan kontinuitas di kutub hanya dari komponen koordinat. Konstruksi di atas memakai medan konstan yang terdefinisi di seluruh bidang dan memeriksa norma dorong-majunya di dalam realisasi ambien, sehingga perluasan di kutub benar-benar kontinu.
+
+ [[Kategorie:Latexseite]]

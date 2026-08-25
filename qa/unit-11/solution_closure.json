@@ -1,0 +1,586 @@
+{
+  "exercise_count": 39,
+  "exercises": [
+    {
+      "exercise_index": 1,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Produkt von Mannigfaltigkeiten/Ist Mannigfaltigkeit/Aufgabe/Lösung",
+      "task_title": "Produkt von Mannigfaltigkeiten/Ist Mannigfaltigkeit/Aufgabe"
+    },
+    {
+      "exercise_index": 2,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Zwei abgeschlossene Untermannigfaltigkeiten/Produkt davon/Aufgabe/Lösung",
+      "task_title": "Zwei abgeschlossene Untermannigfaltigkeiten/Produkt davon/Aufgabe"
+    },
+    {
+      "exercise_index": 3,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Torus/Karten/Aufgabe/Lösung",
+      "task_title": "Torus/Karten/Aufgabe"
+    },
+    {
+      "exercise_index": 4,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Punktierte Ebene/Produktmannigfaltigkeit/Aufgabe/Lösung",
+      "task_title": "Punktierte Ebene/Produktmannigfaltigkeit/Aufgabe"
+    },
+    {
+      "exercise_index": 5,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Produkt von Mannigfaltigkeiten/Wegzusammenhängend/Aufgabe/Lösung",
+      "task_title": "Produkt von Mannigfaltigkeiten/Wegzusammenhängend/Aufgabe"
+    },
+    {
+      "exercise_index": 6,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Mannigfaltigkeit/Diagonale/Abgeschlossene Untermannigfaltigkeit/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Mannigfaltigkeit/Diagonale/Abgeschlossene Untermannigfaltigkeit/Aufgabe"
+    },
+    {
+      "exercise_index": 7,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Mannigfaltigkeit/Vertauschung/Diffeomorphismus/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Mannigfaltigkeit/Vertauschung/Diffeomorphismus/Aufgabe"
+    },
+    {
+      "exercise_index": 8,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Torus/Rotationsmenge/Aufgabe/Lösung",
+      "task_title": "Torus/Rotationsmenge/Aufgabe"
+    },
+    {
+      "exercise_index": 9,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Torus/Faserrealisierung/Andere Fasern/Aufgabe/Lösung",
+      "task_title": "Torus/Faserrealisierung/Andere Fasern/Aufgabe"
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 857,
+        "path": "authority/mediawiki/worksheet11_exercise10_solution_revid896320.utf8.b64",
+        "sha256": "0be6937ef2e1b2708adc2da763459e541e75a1216abf036384a8014558ffed82"
+      },
+      "exercise_index": 10,
+      "exists": true,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 610,
+        "http_date": "Mon, 24 Aug 2026 01:59:29 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Torus/Faserrealisierung/Animation/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 686,
+          "path": "authority/exports/worksheet11_exercise10_solution_latex_expand.json.request.json",
+          "sha256": "319252f4bc526772cf5eebfedd17f418df112d8f9f0afd5377080f283682ce8b"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 728,
+          "path": "authority/exports/worksheet11_exercise10_solution_latex_expand.json",
+          "sha256": "c17d9ada396ec7342c5fc17c985996ba8c0d147c225ed6186e4a02cfcc06f07e"
+        },
+        "retrieved_utc": "2026-08-24T01:59:29Z",
+        "sanitized_source": {
+          "bytes": 618,
+          "path": "authority/expanded/worksheet11_exercise10_solution_source.de.tex",
+          "sha256": "ee29d4737ab74b19dd54635c9429f9db3df2b77b191626e70ded1d3cd3293515"
+        },
+        "sanitizer": {
+          "bytes": 3606,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+        },
+        "sanitizer_receipt": {
+          "bytes": 710,
+          "path": "qa/unit-11/worksheet11_exercise10_solution_sanitize.json",
+          "sha256": "57c37eedff1c954c74d1a56942808b244407696630168166362b630897583ecc"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "b6e6402753c2596bd9ca0a51550f3245b973fb2f",
+      "metadata": {
+        "bytes": 1221,
+        "path": "authority/mediawiki/worksheet11_exercise10_solution_revid896320.metadata.json",
+        "sha256": "e020992d94d86cb58185ff21e44bda029615a9bcfa702050f78d7d0eb0fc07fc"
+      },
+      "pageid": 78099,
+      "parentid": 896319,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 643,
+        "path": "authority/mediawiki/worksheet11_exercise10_solution_revid896320.wiki",
+        "sha256": "c1715bf7485fe87c70072f1c7687d275177ed648647d4ac7a2cc6eb301eeec53"
+      },
+      "revid": 896320,
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Torus/Faserrealisierung/Animation/Aufgabe/Lösung",
+      "source_utf8_bytes": 642,
+      "source_utf8_sha256": "842bff4641d5ba4aa8385970e0fd7d4a095aa48190a969428dd714d4835d31d9",
+      "task_title": "Torus/Faserrealisierung/Animation/Aufgabe",
+      "timestamp": "2023-05-15T18:00:18Z"
+    },
+    {
+      "exercise_index": 11,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Torus/Sphäre/Abbildung/Aufgabe/Lösung",
+      "task_title": "Torus/Sphäre/Abbildung/Aufgabe"
+    },
+    {
+      "exercise_index": 12,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Torus/Sphäre/Nicht homöomorph/Heuristisch/Aufgabe/Lösung",
+      "task_title": "Torus/Sphäre/Nicht homöomorph/Heuristisch/Aufgabe"
+    },
+    {
+      "exercise_index": 13,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Torus/Ohne Diagonale/Diffeomorphietyp/Aufgabe/Lösung",
+      "task_title": "Torus/Ohne Diagonale/Diffeomorphietyp/Aufgabe"
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 1465,
+        "path": "authority/mediawiki/worksheet11_exercise14_solution_revid1090654.utf8.b64",
+        "sha256": "4ddf82d04597a3e702ef7457dffbf19a0fe98749ef0316d99bdd9be380a25e05"
+      },
+      "exercise_index": 14,
+      "exists": true,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 881,
+        "http_date": "Mon, 24 Aug 2026 01:59:30 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Torus/Surjektive Abbildung von Ebene/Surjektive Tangentialabbildung/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 721,
+          "path": "authority/exports/worksheet11_exercise14_solution_latex_expand.json.request.json",
+          "sha256": "43e77d1600cf40217e7199503b61aa5142781fbe81c87423eff01c85ee122565"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 1039,
+          "path": "authority/exports/worksheet11_exercise14_solution_latex_expand.json",
+          "sha256": "7cc22289cfde9975c9e65850eae33ed2a93aaaf460a33415003c3a7efbf73edb"
+        },
+        "retrieved_utc": "2026-08-24T01:59:29Z",
+        "sanitized_source": {
+          "bytes": 835,
+          "path": "authority/expanded/worksheet11_exercise14_solution_source.de.tex",
+          "sha256": "88e97dcf61c9bb35387862134236635b54ef81fc9bd847e7623da0e5757b5af0"
+        },
+        "sanitizer": {
+          "bytes": 3606,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+        },
+        "sanitizer_receipt": {
+          "bytes": 711,
+          "path": "qa/unit-11/worksheet11_exercise14_solution_sanitize.json",
+          "sha256": "a027d3766b0a54a48832ab6c55683287830c9a3f421fb333129a53ab5e78db42"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "718c61f05e70c83a83a453b0365913e32cb932e6",
+      "metadata": {
+        "bytes": 1262,
+        "path": "authority/mediawiki/worksheet11_exercise14_solution_revid1090654.metadata.json",
+        "sha256": "794919ab984c4ba9890194dc1825d610f794798a8efd136d86f1ae8edd767223"
+      },
+      "pageid": 46312,
+      "parentid": 1024103,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 1098,
+        "path": "authority/mediawiki/worksheet11_exercise14_solution_revid1090654.wiki",
+        "sha256": "535495a47aee7f8d2ce25562d55e3c7607425897f7757d4f2d51536ac0937133"
+      },
+      "revid": 1090654,
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Torus/Surjektive Abbildung von Ebene/Surjektive Tangentialabbildung/Aufgabe/Lösung",
+      "source_utf8_bytes": 1097,
+      "source_utf8_sha256": "9a00786d7b5715b496d5e57de2130738ff931396c9caf86dde8977d34a9eed06",
+      "task_title": "Torus/Surjektive Abbildung von Ebene/Surjektive Tangentialabbildung/Aufgabe",
+      "timestamp": "2026-05-31T13:48:43Z"
+    },
+    {
+      "exercise_index": 15,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Mengen/Relatives Produkt/Aufgabe/Lösung",
+      "task_title": "Mengen/Relatives Produkt/Aufgabe"
+    },
+    {
+      "exercise_index": 16,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Topologische Räume/Relatives Produkt/Aufgabe/Lösung",
+      "task_title": "Topologische Räume/Relatives Produkt/Aufgabe"
+    },
+    {
+      "exercise_index": 17,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Topologische Räume/Relatives Produkt/Identischer Faktor/Aufgabe/Lösung",
+      "task_title": "Topologische Räume/Relatives Produkt/Identischer Faktor/Aufgabe"
+    },
+    {
+      "exercise_index": 18,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Topologische Räume/Relatives Produkt/Punkt und Faser/Aufgabe/Lösung",
+      "task_title": "Topologische Räume/Relatives Produkt/Punkt und Faser/Aufgabe"
+    },
+    {
+      "exercise_index": 19,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Topologische Räume/Produkträume/Relatives Produkt/Kürzung/Aufgabe/Lösung",
+      "task_title": "Topologische Räume/Produkträume/Relatives Produkt/Kürzung/Aufgabe"
+    },
+    {
+      "exercise_index": 20,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Reelle Gerade/Relatives Produkt/Skizze/Aufgabe/Lösung",
+      "task_title": "Reelle Gerade/Relatives Produkt/Skizze/Aufgabe"
+    },
+    {
+      "exercise_index": 21,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Topologische Räume/Relatives Produkt/Schnitt/Charakterisierung/Aufgabe/Lösung",
+      "task_title": "Topologische Räume/Relatives Produkt/Schnitt/Charakterisierung/Aufgabe"
+    },
+    {
+      "exercise_index": 22,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Topologische Räume/Relatives Produkt/Abbildung/Rückzug/Aufgabe/Lösung",
+      "task_title": "Topologische Räume/Relatives Produkt/Abbildung/Rückzug/Aufgabe"
+    },
+    {
+      "exercise_index": 23,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Topologische Räume/Relatives Produkt/Hintereinanderschaltung/Aufgabe/Lösung",
+      "task_title": "Topologische Räume/Relatives Produkt/Hintereinanderschaltung/Aufgabe"
+    },
+    {
+      "exercise_index": 24,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Kreislinie/Definiere differenzierbare Gruppenstruktur/Aufgabe/Lösung",
+      "task_title": "Kreislinie/Definiere differenzierbare Gruppenstruktur/Aufgabe"
+    },
+    {
+      "exercise_index": 25,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Allgemeine lineare Gruppe/R/Definiere differenzierbare Gruppenstruktur/Aufgabe/Lösung",
+      "task_title": "Allgemeine lineare Gruppe/R/Definiere differenzierbare Gruppenstruktur/Aufgabe"
+    },
+    {
+      "exercise_index": 26,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "S^1xR/Spiegelung/Selbstinverser Diffeomorphismus/Aufgabe/Lösung",
+      "task_title": "S^1xR/Spiegelung/Selbstinverser Diffeomorphismus/Aufgabe"
+    },
+    {
+      "exercise_index": 27,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Differentialoperator/Erste Ordnung/R^2/Explizit/Aufgabe/Lösung",
+      "task_title": "Differentialoperator/Erste Ordnung/R^2/Explizit/Aufgabe"
+    },
+    {
+      "exercise_index": 28,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Vektorfeld/Offene Teilmenge/Rekonstruktion der Koeffizentenfunktionen/Aufgabe/Lösung",
+      "task_title": "Vektorfeld/Offene Teilmenge/Rekonstruktion der Koeffizentenfunktionen/Aufgabe"
+    },
+    {
+      "exercise_index": 29,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Mannigfaltigkeit/Vektorfeld/Zugehöriger Differentialoperator/Ist/Aufgabe/Lösung",
+      "task_title": "Mannigfaltigkeit/Vektorfeld/Zugehöriger Differentialoperator/Ist/Aufgabe"
+    },
+    {
+      "exercise_index": 30,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Vektorfelder/Lie-Klammer/D und D/Aufgabe/Lösung",
+      "task_title": "Vektorfelder/Lie-Klammer/D und D/Aufgabe"
+    },
+    {
+      "exercise_index": 31,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Vektorfelder/Lie-Klammer/Jacobi-Identität/Fakt/Beweis/Aufgabe/Lösung",
+      "task_title": "Vektorfelder/Lie-Klammer/Jacobi-Identität/Fakt/Beweis/Aufgabe"
+    },
+    {
+      "exercise_index": 32,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Mannigfaltigkeit/Vektorfelder/Lie-Algebra/Aufgabe/Lösung",
+      "task_title": "Mannigfaltigkeit/Vektorfelder/Lie-Algebra/Aufgabe"
+    },
+    {
+      "exercise_index": 33,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Vektorraum/Endomorphismen/Lie-Algebra/Aufgabe/Lösung",
+      "task_title": "Vektorraum/Endomorphismen/Lie-Algebra/Aufgabe"
+    },
+    {
+      "exercise_index": 34,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 5,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Torus/Produktdarstellung und Schlauch/Bijektion/Aufgabe/Lösung",
+      "task_title": "Torus/Produktdarstellung und Schlauch/Bijektion/Aufgabe"
+    },
+    {
+      "exercise_index": 35,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 6,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Torus/Zwei Punkte/Gemeinsame Kartenumgebung/Quadrat/Aufgabe/Lösung",
+      "task_title": "Torus/Zwei Punkte/Gemeinsame Kartenumgebung/Quadrat/Aufgabe"
+    },
+    {
+      "exercise_index": 36,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 3,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Reelle Gerade/Relatives Produkt/Keine topologische Mannigfaltigkeit/Aufgabe/Lösung",
+      "task_title": "Reelle Gerade/Relatives Produkt/Keine topologische Mannigfaltigkeit/Aufgabe"
+    },
+    {
+      "exercise_index": 37,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 2,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Differentialoperator/Erste Ordnung/R^3/Explizit/2/Aufgabe/Lösung",
+      "task_title": "Differentialoperator/Erste Ordnung/R^3/Explizit/2/Aufgabe"
+    },
+    {
+      "exercise_index": 38,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 2,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Hyperfläche/Differentialoperator/Erste Ordnung/Verschwindet auf Gleichung/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Hyperfläche/Differentialoperator/Erste Ordnung/Verschwindet auf Gleichung/Aufgabe"
+    },
+    {
+      "exercise_index": 39,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": "4 (1+1+1+1)",
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Vektorfelder/Lie-Klammer/Berechnung/1/Aufgabe/Lösung",
+      "task_title": "Vektorfelder/Lie-Klammer/Berechnung/1/Aufgabe"
+    }
+  ],
+  "graded_exercise_count": 6,
+  "macro_api_agreement": true,
+  "missing_solution_count": 37,
+  "point_value_total": 22,
+  "practice_exercise_count": 33,
+  "query": {
+    "bytes": 6185,
+    "path": "authority/mediawiki/unit11_solution_pages_current.json",
+    "sha256": "2d0818c763d0b66d951907508b3b3befd3714c93558f41dca947981595421120"
+  },
+  "query_request_receipt": {
+    "bytes": 3200,
+    "path": "authority/mediawiki/unit11_solution_pages_current.json.request.json",
+    "sha256": "c73214708b4bbb5d827cac183887b4ef04a58890121823d58c9c71388077ca55"
+  },
+  "query_retrieved_utc": "2026-08-24T01:59:28Z",
+  "schema_version": 1,
+  "supplied_solution_count": 2,
+  "supplied_solution_indices": [
+    10,
+    14
+  ],
+  "workflow": "o011-unit11-solution-freeze-v1",
+  "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 11"
+}

@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://commons.wikimedia.org/w/api.php",
+  "http_date": "Sun, 23 Aug 2026 17:06:45 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "iiprop": "timestamp|user|url|size|sha1|mime|extmetadata",
+    "prop": "info|imageinfo",
+    "titles": "File:Stereographic projection in 3D.png|File:Manifold zahyou3.png|File:Circle - black simple.svg"
+  },
+  "response_bytes": 7638,
+  "response_path": "unit07_media_imageinfo_current.json",
+  "response_sha256": "80ac0019e7b88126f8f91ff5837710e30b28a16723acc83c287bc5aabcca92fe",
+  "retrieved_utc": "2026-08-23T17:06:46Z",
+  "schema_version": 1
+}

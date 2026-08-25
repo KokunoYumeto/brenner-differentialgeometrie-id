@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-pdf-visual-qa-v13",
+  "generated_at": "2026-08-24T07:58:00+02:00",
+  "status": "pass",
+  "scope": "Complete visual inspection of every page in the cumulative Indonesian PDF through Unit 13 after the Unit 12 long-display reflow.",
+  "surface": {
+    "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-13-id.pdf",
+    "bytes": 6396207,
+    "sha256": "a4d7e55604de9bfb6556d78461db8255a6c584d36b8934a0993b2386ad5832a7",
+    "pages": 213,
+    "page_size": "A4, 595.276 x 841.89 pt",
+    "build_receipt_path": "qa/unit-13/build.json",
+    "build_receipt_bytes": 82852,
+    "build_receipt_sha256": "b0264bc6fd73b24243c69bc36bb75bade986f674b16e95bae04d75bff56304db"
+  },
+  "structural_qa": {
+    "path": "qa/unit-13/pdf_structural_qa.json",
+    "bytes": 202022,
+    "sha256": "785a2afe6335d2c2978b6f26ea42d49f61f3f1bd59a939258c0cef8606561089",
+    "verdict": "PASS_WITH_WARNINGS_AND_DOCUMENTED_LIMITATION",
+    "minimum_body_left_points": 60.5,
+    "maximum_body_right_points": 535.036
+  },
+  "render_evidence": {
+    "renderer": "Poppler pdftoppm",
+    "resolution_dpi": 110,
+    "page_png_count": 213,
+    "page_png_bytes": 29256329,
+    "page_inventory_sha256": "cd9875ec7266133bee86253f2e25f80ddef540359704b4fa4f223379677b606b",
+    "contact_sheet_count": 9,
+    "contact_sheet_bytes": 4824069,
+    "contact_sheet_inventory_sha256": "2bf0eba0f812358727445c7e3175deb37b80254baa49483ba5b05da754189e26",
+    "inspection": "All nine contact sheets covering pages 1-213 were inspected; full-page renders 172, 174, 184, 209, and 213 were additionally inspected at original rendered resolution."
+  },
+  "checks": {
+    "all_213_pages_rendered": true,
+    "all_213_pages_visually_inspected": true,
+    "front_matter_and_contents_legible": true,
+    "all_thirteen_unit_boundaries_consistent": true,
+    "body_is_centered_inside_the_a4_page": true,
+    "unit12_exercises_5_and_6_long_displays_reflow_inside_text_block": true,
+    "nested_lie_brackets_render_as_valid_mathematics": true,
+    "no_clipped_or_out_of_page_content": true,
+    "no_overlapping_text_figures_or_equations": true,
+    "figures_are_sharp_and_positioned_with_their_content": true,
+    "equations_and_small_glyphs_are_legible": true,
+    "headers_footers_and_page_numbers_are_consistent": true,
+    "media_attribution_and_license_pages_are_readable": true,
+    "no_placeholder_or_tool_token_is_visible": true
+  },
+  "limitations": [
+    "This is a visual-rendering receipt, not a claim that the PDF is structurally tagged; the structural receipt records the untagged-PDF limitation separately.",
+    "The bound TeX logs contain non-blocking box diagnostics, while independent page-bound and body-extent checks pass."
+  ]
+}

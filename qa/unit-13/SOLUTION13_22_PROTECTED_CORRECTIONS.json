@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-13/worksheet13_exercise22_solution.id.tex",
+  "source_authority": {
+    "path": "authority/expanded/worksheet13_exercise22_solution_source.de.tex",
+    "bytes": 1333,
+    "sha256": "c4d083293155778f45c9e0c02fe5fe780af816deba837df0df7a6f8ec8bc8d7e"
+  },
+  "corrections": [
+    {
+      "correction_id": "O011-TRANS-0155",
+      "anchor": "Solution 13.22 finite-subcover terminology",
+      "change": "Normalize the stale reader phrase tutupan bagian berhingga to the admitted glossary rendering subtutupan hingga; mathematical meaning and TeX topology are unchanged."
+    }
+  ],
+  "allowed_deltas": [],
+  "evidence_only_deltas": []
+}

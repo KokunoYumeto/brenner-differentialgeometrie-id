@@ -1,0 +1,1257 @@
+\setcounter{section}{10}
+
+  \zwischenueberschrift{Abgeschlossene Untermannigfaltigkeiten}
+
+\inputdefinition
+{}
+{
+
+Es sei $N$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+der
+\definitionsverweis {Dimension}{}{}
+$n$ und
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {abgeschlossene Teilmenge}{}{.}
+Dann heißt $M$ eine \definitionswort {abgeschlossene Untermannigfaltigkeit}{} der Dimension $m$ von $N$, wenn es zu jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {Karte}{}{}\zusatzfussnote {Hier ist mit Karte jede Karte gemeint, die mit dem vorgegebenen Atlas verträglich ist; sie muss nicht selbst zum Atlas gehören} {.} {}
+\maabbdisp {\theta} { W } { W'
+} {}
+gibt mit
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ W
+}
+{ \subseteq }{ N
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ W'
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen und mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M \cap W
+}
+{ =} { \theta^{-1} (( \R^m  \times\{0\}) \cap W' )
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+Dies ist genau die Eigenschaft, die die Faser einer differenzierbaren Abbildung zwischen euklidischen Räumen in einem regulären Punkt
+aufgrund des [[Satz über implizite Abbildungen/Globale Diffeomorphismen/Induzierte Diffeomorphismen zwischen Faser und Achsenräumen/Fakt|Satzes über implizite Abbildungen]]
+besitzt. D.h. solche Fasern sind abgeschlossene Untermannigfaltigkeiten von
+
+\mavergleichskette
+{\vergleichskette
+{ N
+}
+{ = }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Abgeschlossene Untermannigfaltigkeit/Ist Mannigfaltigkeit/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei $N$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{} der
+\definitionsverweis {Dimension}{}{}
+$n$ und
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {abgeschlossene Untermannigfaltigkeit}{}{}
+der Dimension $m$ von $N$.}
+\faktfolgerung {Dann ist $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+derart, dass die Inklusion
+\maabb {} { M } { N
+} {}
+eine differenzierbare Abbildung ist.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Die differenzierbare Struktur auf $M$ ist durch die eingeschränkten Karten
+\maabbdisp {\theta\!\mid_{M}} {M \cap W} {(\R^m \times \{0\}) \cap W'
+} {}
+gegeben. Dass sich die Diffeomorphismuseigenschaft der Kartenwechsel auf die Einschränkungen überträgt ergibt sich wie im [[Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt/Beweis|Beweis]] zu
+[[Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt|Satz 8.2]].
+Dass eine differenzierbare Abbildung vorliegt ergibt sich daraus, dass zu einem offenen Kartengebiet
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein kommutatives Diagramm
+
+\mathdisp {\begin{matrix} M\cap W & \stackrel{  }{\longrightarrow} &  W  &  \\ \downarrow & & \downarrow  & \\  M  & \stackrel{  }{\longrightarrow} &  N & \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }
+
+gehört, wobei die vertikalen Pfeile offene und die horizontalen Pfeile abgeschlossene Einbettungen repräsentieren. Der obere Pfeil korrespondiert über die Kartenwechsel zu
+\maabbdisp {} {(\R^m \times \{0\}) \cap W'} {W'
+} {,}
+also zur abgeschlossenen Einbettung eines Koordinatenunterraums, die natür\-lich differenzierbar ist.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Abgeschlossene Untermannigfaltigkeit/Punktweise/Tangentialraum als Unterraum/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei $N$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+der
+\definitionsverweis {Dimension}{}{}
+$n$ und es sei
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {abgeschlossene Untermannigfaltigkeit}{}{}
+der Dimension $m$.}
+\faktfolgerung {Dann ist für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Tangentialabbildung}{}{}
+\maabbdisp {} { T_PM } { T_PN
+} {}
+\definitionsverweis {injektiv}{}{.}}
+\faktzusatz {D.h. der Tangentialraum
+\mathl{T_PM}{} ist ein
+\definitionsverweis {Untervektorraum}{}{}
+der Dimension $m$ von
+\mathl{T_PN}{.}}
+\faktzusatz {}
+
+}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ V
+}
+{ \subseteq }{ N
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Kartengebiet mit der Karte
+\maabbdisp {\alpha} { V } { V'
+} {}
+und mit der eingeschränkten Karte
+\maabbdisp {} {U = M \cap  V } { U' = \R^m \cap  V'
+} {.}
+Nach
+[[Tangentialabbildung/Punktweise/Elementare Eigenschaften/Fakt|Lemma 9.10  (2)]]
+haben wir ein kommutatives Diagramm
+
+\mathdisp {\begin{matrix} T_pM & \stackrel{  }{\longrightarrow} & T_PN &  \\ \downarrow & & \downarrow  & \\  \R^m  & \stackrel{ \left(D \left(  \alpha \circ \varphi \circ \alpha^{-1}  \right) \right)_{ \alpha(P)} }{\longrightarrow} & \R^n  & \! \! \! \!\!\!\!\! .  \\ \end{matrix}} {  }
+
+Die untere horizontale Abbildung ist dabei das totale Differential zur Inklusion
+\maabb {} { \R^m \cap  V' } { V'
+} {,}
+und diese ist die lineare Inklusion
+
+\mavergleichskette
+{\vergleichskette
+{ \R^m
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+also injektiv. Da die vertikalen Abbildungen bijektiv sind, ist auch die obere horizontale Abbildung injektiv.
+
+}
+
+Durch die letzte Aussage ergibt sich auch, dass der in einem regulären Punkt $P$ der Faser $M$ einer differenzierbaren Abbildung
+\maabb {\varphi} {G} {\R^k
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{G
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen, als Kern des totalen Differentials
+\zusatzklammer {als Untervektorraum von
+
+\mavergleichskettek
+{\vergleichskettek
+{ \R^n
+}
+{ = }{ T_P \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+definierte
+\definitionsverweis {Tangentialraum}{}{}
+mit dem
+\definitionsverweis {Tangentialraum}{}{}
+an die Faser als einer differenzierbaren Mannigfaltigkeit übereinstimmt. Der
+\zusatzklammer {abstrakte} {} {}
+Tangentialraum
+\mathl{T_PM}{} ist aufgrund von
+[[Abgeschlossene Untermannigfaltigkeit/Punktweise/Tangentialraum als Unterraum/Fakt|Satz 10.3]]
+ein Untervektorraum von
+
+\mavergleichskette
+{\vergleichskette
+{ T_P\R^n
+}
+{ = }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+der Dimension
+\mathl{n-k}{.} Auch der Kern des surjektiven totalen Differentials
+\maabb {\left(D\varphi\right)_{P}} { \R^n } { \R^k
+} {}
+ist ein
+\mathl{(n-k)}{-}dimensionaler Untervektorraum von $\R^n$. Die Gleichheit der beiden Untervektorräume ergibt sich daraus, dass die den abstrakten Tangentialraum definierenden differenzierbaren Kurven
+\maabbdisp {\gamma} {I} {M
+} {}
+verknüpft mit $\varphi$ konstant sind, siehe
+[[Differenzierbare Abbildung/Reguläre Faser/Tangentialraum als Kern und zu Mannigfaltigkeit/Aufgabe|Aufgabe 10.12]].
+
+  \zwischenueberschrift{Das Tangentialbündel}
+
+Zu jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+einer Mannigfaltigkeit gehört der
+\definitionsverweis {Tangentialraum}{}{}
+
+\mathl{T_PM}{.} Der Tangentialraum ist ein $n$-dimensionaler Vektorraum, wobei $n$ die Dimension der Mannigfaltigkeit ist. Seine Elemente sind die Tangentenvektoren, das sind \anfuehrung{infinitesimale Richtungen}{} an diesem Punkt. Solche Tangen\-ten-Richtungen an zwei verschiedenen Punkten haben zunächst einmal nichts miteinander zu tun, da ihre präzise Definition jeweils nur von beliebig kleinen offenen Umgebungen der Punkte abhängt, und da diese aufgrund der
+\definitionsverweis {Hausdorff-Eigenschaft}{}{}
+disjunkt gewählt werden können.
+
+Dem steht radikal die Vorstellung gegenüber, die sich mit einer offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+verbindet. Dort kann man für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+den Tangentialraum
+\mathl{T_QV}{} mit dem umgebenden Vektorraum $\R^n$ in natürlicher Weise identifizieren, indem man dem Vektor
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+den Tangentenvektor zuordnet, der durch die lineare Kurve
+\mathl{t \mapsto Q+tv}{} definiert wird. Da diese Identifizierung für jeden Punkt gilt, besteht zwischen den Tangentialräumen zu
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine direkte Parallelität.
+
+Da eine Mannigfaltigkeit durch offene Mengen überdeckt wird, die diffeomorph zu offenen Mengen in einem euklidischen Raum sind, liegt die Vermutung nahe, dass die verschiedenen Tangentialräume doch nicht völlig isoliert dastehen. Das Konzept des \stichwort {Tangentialbündels} {} vereinigt alle Tangentialräume und ermöglicht es, die lokale Verbundenheit der Tangentialräume wiederzuspiegeln.
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Tangent_bundle} {svg} }
+\end{center}
+\bildtext {Zwei Visualisierungen des Tangentialbündels einer Kreislinie. Oben wird zu jedem Punkt $P$  des Kreises der Tangentialraum an den Kreis \anfuehrung{tangential}{} angelegt und als eindimensionaler affiner Unterraum im umgebenden $\R^2$ realisiert. Diese Einbettung führt zu Überschneidungen, die es im Tangentialbündel aber nicht gibt, da der Basispunkt $P$ mitbedacht werden muss. Unten werden zu jedem Punkt des Kreises die Tangentialräume parallel angeordnet und es ergibt sich ein Zylinder.} }
+
+\bildlizenz { Tangent bundle.svg } {} {Oleg Alexandrov} {Commons} {PD} {}
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{.}
+Dann nennt man die Menge
+
+\mavergleichskettedisp
+{\vergleichskette
+{TM
+}
+{ =} {\biguplus_{P \in M} T_PM
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+versehen mit der Projektionsabbildung
+\maabbeledisp {\pi} {TM} {M
+} {(P,v)} {P
+} {,}
+das \definitionswort {Tangentialbündel}{} von $M$.
+
+}
+
+Ein Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ u
+}
+{ \in }{ TM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in einem Tangentialbündel besitzt also stets einen \stichwort {Basispunkt} {}
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und ist ein Element im Tangentialraum
+\mathl{T_PM}{.} Man schreibt einen solchen Punkt zumeist als
+\mathl{(P,v)}{} mit
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Für eine offene Menge
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskette
+{\vergleichskette
+{ TV
+}
+{ = }{ V \times \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+also ein Produktraum. Dies gilt im Allgemeinen nicht für eine beliebige Mannigfaltigkeit. Das Tangentialbündel bringt zunächst einmal nur die verschiedenen Tangentialräume disjunkt zusammen, ohne dass verschiedene Tangentialräume miteinander identifiziert würden; allerdings entsteht durch die Topologie, die wir auf dem Tangentialbündel gleich einführen werden, eine zusätzliche \anfuehrung{Nachbarschaftsstruktur}{} zwischen den Tangentialräumen.
+
+\inputdefinition
+{}
+{
+
+Es seien
+\mathkor {} {M} {und} {N} {}
+\definitionsverweis {differenzierbare Mannigfaltigkeiten}{}{}
+und
+\maabbdisp {\varphi} { M } { N
+} {}
+eine
+\definitionsverweis {differenzierbare Abbildung}{}{.}
+Es seien
+\mathkor {} {TM} {und} {TN} {}
+die zugehörigen
+\definitionsverweis {Tangentialbündel}{}{.}
+Dann versteht man unter der \definitionswort {Tangentialabbildung}{}
+\maabbdisp {T (\varphi)} {TM} {TN
+} {}
+die disjunkte Vereinigung der
+\definitionsverweis {Tangentialabbildungen}{}{}
+in den einzelnen Punkten, also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T (\varphi)
+}
+{ =} { \biguplus_{P \in M} T_P(\varphi)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+\inputbeispiel{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und
+\maabbdisp {\alpha} { U } { V
+} {}
+eine
+\definitionsverweis {Karte}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{.}
+Dann induziert die Karte eine natürliche Bijektion
+\maabbeledisp {T \left(  \alpha^{-1}  \right)} {TV =  V \times \R^n } { TU
+} {(Q,v)} { \left(  \alpha^{-1}(Q) ,[s \mapsto \alpha^{-1}( Q+ sv) ]  \right)
+} {.}
+Dabei bewegt sich
+
+\mavergleichskette
+{\vergleichskette
+{ s
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in einem
+\definitionsverweis {reellen Intervall}{}{}
+derart, dass
+
+\mavergleichskette
+{\vergleichskette
+{ Q+sv
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+\zusatzklammer {vergleiche
+[[Differenzierbare Mannigfaltigkeit/Differenzierbare Kurve/Tangentialklassen und R^n unter Karte/Fakt|Lemma 9.5]]} {} {.}
+Da
+\mathl{V \times \R^n}{} ein
+\definitionsverweis {Produkt von topologischen Räumen}{}{}
+ist, ist
+
+\mavergleichskette
+{\vergleichskette
+{ T V
+}
+{ = }{ V \times \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+selbst ein
+\definitionsverweis {topologischer Raum}{}{,}
+und es liegt nahe, diese Topologie auf $TU$ zu übertragen und daraus insgesamt eine Topologie auf dem
+\definitionsverweis {Tangentialbündel}{}{}
+$TM$ zu konstruieren.
+
+}
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+der
+\definitionsverweis {Dimension}{}{}
+$n$ und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ TM
+}
+{ =} {\biguplus_{P \in M} T_P M
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+das
+\definitionsverweis {Tangentialbündel}{}{,}
+versehen mit der Projektionsabbildung
+\maabbeledisp {\pi} { TM } { M
+} { (P,v) } { P
+} {.}
+Das \definitionswort {Tangentialbündel}{} wird mit derjenigen
+\definitionsverweis {Topologie}{}{}
+versehen, bei der eine Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ TM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+genau dann offen ist, wenn für jede
+\definitionsverweis {Karte}{}{}
+\maabbdisp {\alpha} { U } { V
+} {}
+die Menge
+\mathl{(T(\alpha)) \left(  W \cap \pi^{-1}(U)  \right)}{} offen in
+\mathl{V \times \R^n}{} ist.
+
+}
+
+Insbesondere ist für jede offene Menge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das Urbild
+
+\mavergleichskette
+{\vergleichskette
+{  \pi^{-1}(U)
+}
+{ = }{ TU
+}
+{ \subseteq }{ TM
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen, d.h. die Projektion $\pi$ ist stetig.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Differenzierbare Mannigfaltigkeit/Abbildung/Tangentialabbildung/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es seien
+\mathkor {} {M} {und} {N} {}
+\definitionsverweis {differenzierbare Mannigfaltigkeiten}{}{}
+und es sei
+\maabbdisp {\varphi} { M } { N
+} {}
+eine
+\definitionsverweis {differenzierbare Abbildung}{}{.}
+Es sei
+\maabbdisp {T(\varphi)} {TM} {TN
+} {}
+die zugehörige
+\definitionsverweis {Tangentialabbildung}{}{.}}
+\faktuebergang {Dann gelten folgende Aussagen.}
+\faktfolgerung {\aufzaehlungsechs{Es gibt ein
+\definitionsverweis {kommutatives Diagramm}{}{}
+
+\mathdisp {\begin{matrix} TM & \stackrel{ T(\varphi) }{\longrightarrow} & TN &  \\ \!\!\!\!\! \pi \downarrow & & \downarrow \pi \!\!\!\!\!  & \\  M  & \stackrel{ \varphi }{\longrightarrow} &  N  & \! \! \! \!\!\!\!\! .  \\ \end{matrix}} {  }
+
+}{Für eine Karte
+\maabbdisp {\alpha} { U } { V
+} {}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen und mit
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen gibt es ein kommutatives Diagramm
+
+\mathdisp {\begin{matrix} TU & \stackrel{ T(\alpha) }{\longrightarrow} & TV = V \times \R^m  &  \\ \downarrow & & \downarrow  & \\  U  & \stackrel{ \alpha }{\longrightarrow} &  V  & \! \! \! \!\!\!\!\! .  \\ \end{matrix}} {  }
+
+}{Wenn
+\mathkor {} {M \subseteq \R^m} {und} {N \subseteq \R^n} {}
+\definitionsverweis {offene Teilmengen}{}{}
+sind und die Tangentialbündel mit
+\mathl{M \times \R^m}{} bzw.
+\mathl{N \times \R^n}{} identifiziert werden, so ist die Tangentialabbildung gleich
+\maabbeledisp {} {M \times \R^m } { N \times \R^n
+} {(P,v)} { \left(  \varphi(P), \left(  D\varphi  \right)_{ P } \left(  v  \right)  \right)
+} {.}
+}{Wenn $L$ eine weitere
+\definitionsverweis {Mannigfaltigkeit}{}{}
+und
+\maabbdisp {\psi} { L } { M
+} {}
+eine weitere differenzierbare Abbildung ist, so gilt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T( \varphi \circ \psi)
+}
+{ =} { T( \varphi) \circ T( \psi)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Die Tangentialabbildung
+\mathl{T(\varphi)}{} ist
+\definitionsverweis {stetig}{}{.}
+}{Wenn $\varphi$ ein
+\definitionsverweis {Diffeomorphismus}{}{}
+ist, so ist
+\mathl{T(\varphi)}{} ein
+\definitionsverweis {Homöomorphismus}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{(1) folgt unmittelbar aus der Definition der
+\definitionsverweis {Tangentialabbildung}{}{.}}
+{}
+\teilbeweis {}{}{}
+{(2) folgt aus (1) unter Verwendung der natürlichen Identifizierung
+
+\mavergleichskette
+{\vergleichskette
+{ TV
+}
+{ = }{ V \times \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für eine offene Menge im $\R^n$.}
+{}
+\teilbeweis {}{}{}
+{(3) folgt aus
+[[Tangentialabbildung/Punktweise/Elementare Eigenschaften/Fakt|Lemma 9.10  (1)]].}
+{}
+\teilbeweis {}{}{}
+{(4) folgt aus
+[[Tangentialabbildung/Punktweise/Elementare Eigenschaften/Fakt|Lemma 9.10  (4)]].}
+{}
+\teilbeweis {}{}{}
+{(5). Zu einer offenen Menge
+
+\mavergleichskettedisp
+{\vergleichskette
+{ V
+}
+{ \subseteq} { N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist
+
+\mavergleichskette
+{\vergleichskette
+{ TV
+}
+{ = }{ \pi^{-1} V
+}
+{ \subseteq }{ TN
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen und daher ist
+
+\mavergleichskette
+{\vergleichskette
+{ (T(\varphi))^{-1} TV
+}
+{ = }{ T \varphi^{-1}(V)
+}
+{ \subseteq }{ TM
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen. Es genügt die Stetigkeit von
+\maabbdisp {} {T \varphi^{-1} (V)} {TV
+} {}
+nachzuweisen. Dabei kann man $V$ als ein Kartengebiet ansetzen und $\varphi^{-1}(V)$ durch Kartengebiete überdecken. Dann genügt es, die Stetigkeit
+\maabbdisp {} {TU} {TV
+} {}
+für Kartengebiete
+\mathkor {} {U \subseteq M} {und} {V \subseteq N} {}
+zu zeigen. Es gibt dann ein kommutatives Diagramm
+
+\mathdisp {\begin{matrix} TU & \stackrel{ T(\varphi) }{\longrightarrow} & TV &  \\ \downarrow & & \downarrow  & \\ U' \times \R^m  & \stackrel{  }{\longrightarrow} &  V' \times \R^n  & \! \! \! \!\!\!\!\! ,  \\ \end{matrix}} {  }
+ wobei die vertikalen Abbildungen Homöomorphismen sind. Für die untere horizontale Abbildung sind wir in der unter (3) beschriebenen Situation. Wir müssen also die Stetigkeit der Abbildung
+\maabbeledisp {} {U' \times \R^m } { V' \times \R^n
+} {(P,v)} { (\varphi(P), \left(  D\varphi  \right)_{ P } \left(  v  \right) )
+} {,}
+beweisen, wobei wir nur die hintere Komponente, also
+\mathl{\left(  D\varphi  \right)_{ P } \left(  v  \right)}{,}  betrachten müssen. Die $j$-te Komponente davon ist
+
+\mathdisp {\sum_{i=1}^m v_i { \frac{   \partial  \varphi_j   }{  \partial   x_i   } } ( P)} { , }
+
+und dies sind nach der
+$C^1$-\definitionsverweis {Differenzierbarkeits
+}{}{-}Voraussetzung stetige Abbildungen.}
+{}
+\teilbeweis {}{}{}
+{(6) folgt aus (5).}
+{}
+
+}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Torus_vectors_oblique} {jpg} }
+\end{center}
+\bildtext {Ein Vektorfeld auf einem Torus. Jedem Punkt des Torus wird eine tangentiale Richtung zugeordnet, dies wird durch die Pfeile angedeutet.} }
+
+\bildlizenz { Torus vectors oblique.jpg } {} {RokerHRO} {Commons} {CC-by-sa 3.0} {}
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{.}
+Eine Abbildung
+\maabbdisp {F} { M } { TM
+} {}
+mit der Eigenschaft, dass
+
+\mavergleichskette
+{\vergleichskette
+{ F(P)
+}
+{ \in }{  T_PM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist, heißt
+\zusatzklammer {zeitunabhängiges} {} {}
+\definitionswort {Vektorfeld}{.}
+
+}
+Ein Vektorfeld weist also jedem Punkt einen Richtungsvektor in diesem Punkt zu. Man sagt auch kurz, das ein Vektorfeld ein \stichwort {Schnitt} {} im Tangentialbündel ist. Vektorfelder führen zu gewöhnlichen Differentialgleichungen auf Mannigfaltigkeiten. Auf einer offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt es die \stichwort {Standardvektorfelder} {}
+
+\mathbed {\partial_i} {}
+ {1 \leq i \leq n} {}
+ {} {} {} {,}
+die jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+den
+\definitionsverweis {Standardvektor}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ e_i
+}
+{ \in }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+aufgefasst als Tangentialvektor an $P$, zuordnen. Beliebige Vektorfelder $F$  auf $U$ kann man dann als
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ = }{ \sum_{i = 1}^n  f_i \partial_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit Funktionen $f_i$ ansetzen.
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{.}
+Dann nennt man die Menge
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T^*M
+}
+{ =} {\biguplus_{P \in M} T^*_PM
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+versehen mit der Projektionsabbildung
+\maabbeledisp {\pi} { T^*M } { M
+} { (P,u) } { P
+} {,}
+und derjenigen
+\definitionsverweis {Topologie}{}{,}
+bei der eine Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ T^*M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+genau dann
+\definitionsverweis {offen}{}{}
+ist, wenn für jede
+\definitionsverweis {Karte}{}{}
+\maabbdisp {\alpha} { U } { V
+} {}
+die Menge
+\mathl{(T^*(\alpha))^{-1} \left(  W \cap \pi^{-1}(U)  \right)}{} offen in
+\mathl{V \times (\R^n)^*}{} ist, das \definitionswort {Kotangentialbündel}{} von $M$.
+
+}
+Die Schnitte im Kotangentialbündel heißen $1$-Differentialformen. Wir werden darauf ausführlich zurückkommen.
+
+ [[Kategorie:Latexseite]]

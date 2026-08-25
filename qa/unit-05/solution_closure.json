@@ -1,0 +1,257 @@
+{
+  "exercise_count": 15,
+  "exercises": [
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 2765,
+        "path": "authority/mediawiki/worksheet05_exercise01_solution_revid1095881.utf8.b64",
+        "sha256": "97ca446d6c042e9c64c6ee059e0b8a3c91b186d15560c249562b385d573f3a90"
+      },
+      "exercise_index": 1,
+      "exists": true,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 2335,
+        "http_date": "Sat, 22 Aug 2026 15:13:58 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Quadratische Funktion/Zwei Variablen/Nullpunkt/Hauptkrümmungsrichtungen/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 726,
+          "path": "authority/exports/worksheet05_exercise01_solution_latex_expand.json.request.json",
+          "sha256": "adea80f0403b62e927883374f3df583bcff0e667210411954ee8498a79d54352"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 2578,
+          "path": "authority/exports/worksheet05_exercise01_solution_latex_expand.json",
+          "sha256": "404bf67b693c58fdd4b66227d3074209d21e44518058252c5024d743c1ba3331"
+        },
+        "retrieved_utc": "2026-08-22T15:13:59Z",
+        "sanitized_source": {
+          "bytes": 2033,
+          "path": "authority/expanded/worksheet05_exercise01_solution_source.de.tex",
+          "sha256": "c2ae2ee20c93daf8bd13b6491e2a8180adb2f07fcb934b968ac384e11ec46790"
+        },
+        "sanitizer": {
+          "bytes": 3113,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+        },
+        "sanitizer_receipt": {
+          "bytes": 713,
+          "path": "qa/unit-05/worksheet05_exercise01_solution_sanitize.json",
+          "sha256": "f345340d47672f186d53b39e52b81d1d01ccb0d17b5774b8be8c00bae44949b4"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "8c0f0fe42c7b75bd175312e84068f9f2032c99fb",
+      "metadata": {
+        "bytes": 1268,
+        "path": "authority/mediawiki/worksheet05_exercise01_solution_revid1095881.metadata.json",
+        "sha256": "065b14f6545c15f55c3a318ed11041c3ff206002e6ab27f50cc391dd00eec9ae"
+      },
+      "pageid": 151137,
+      "parentid": 1094215,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 2073,
+        "path": "authority/mediawiki/worksheet05_exercise01_solution_revid1095881.wiki",
+        "sha256": "830afe09bd22b085f86e466fd7909c462f6a6023f81b74a6844cfd47aa300e57"
+      },
+      "revid": 1095881,
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Quadratische Funktion/Zwei Variablen/Nullpunkt/Hauptkrümmungsrichtungen/Aufgabe/Lösung",
+      "source_utf8_bytes": 2072,
+      "source_utf8_sha256": "eaafd69141e97f577fa0a5bf83e759c58083a87c66904a7b6e6eca6607a8cb6e",
+      "task_title": "Quadratische Funktion/Zwei Variablen/Nullpunkt/Hauptkrümmungsrichtungen/Aufgabe",
+      "timestamp": "2026-06-15T07:14:34Z"
+    },
+    {
+      "exercise_index": 2,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Rein-quadratische Funktion/Hauptkrümmungsrichtungen/Aufgabe/Lösung",
+      "task_title": "Rein-quadratische Funktion/Hauptkrümmungsrichtungen/Aufgabe"
+    },
+    {
+      "exercise_index": 3,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Quadratische Funktion/Drei Variablen/Krümmungsverhalten/2/Aufgabe/Lösung",
+      "task_title": "Quadratische Funktion/Drei Variablen/Krümmungsverhalten/2/Aufgabe"
+    },
+    {
+      "exercise_index": 4,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Quadratische Funktion/Drei Variablen/Charakteristisches Polynom/Aufgabe/Lösung",
+      "task_title": "Quadratische Funktion/Drei Variablen/Charakteristisches Polynom/Aufgabe"
+    },
+    {
+      "exercise_index": 5,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Graph/Z ist x^2+y^3/Krümmungseigenschaften/Aufgabe/Lösung",
+      "task_title": "Graph/Z ist x^2+y^3/Krümmungseigenschaften/Aufgabe"
+    },
+    {
+      "exercise_index": 6,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Funktion/Taylor-Entwicklung/Krümmungsverhalten/Aufgabe/Lösung",
+      "task_title": "Funktion/Taylor-Entwicklung/Krümmungsverhalten/Aufgabe"
+    },
+    {
+      "exercise_index": 7,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Hyperfläche/Allgemeiner Zylinder/Hauptkrümmungen/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Hyperfläche/Allgemeiner Zylinder/Hauptkrümmungen/Aufgabe"
+    },
+    {
+      "exercise_index": 8,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Hyperfläche/Gauß-Kronecker-Krümmung/Produkt der Hauptkrümmungen/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Hyperfläche/Gauß-Kronecker-Krümmung/Produkt der Hauptkrümmungen/Aufgabe"
+    },
+    {
+      "exercise_index": 9,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Hyperfläche/Dreidimensional/Weingartenabbildung/Charakteristisches Polynom/Gauß-Kronecker-Krümmung/1/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Hyperfläche/Dreidimensional/Weingartenabbildung/Charakteristisches Polynom/Gauß-Kronecker-Krümmung/1/Aufgabe"
+    },
+    {
+      "exercise_index": 10,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Normalkrümmung/Differenzierbare Fläche/Tangentiale Richtung/Aufgabe/Lösung",
+      "task_title": "Normalkrümmung/Differenzierbare Fläche/Tangentiale Richtung/Aufgabe"
+    },
+    {
+      "exercise_index": 11,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 4,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Graph/Z ist Funktion in zwei Variablen/Krümmungseigenschaften/2/Aufgabe/Lösung",
+      "task_title": "Graph/Z ist Funktion in zwei Variablen/Krümmungseigenschaften/2/Aufgabe"
+    },
+    {
+      "exercise_index": 12,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 4,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Quadratische Funktion/Drei Variablen/Krümmungsverhalten/3/Aufgabe/Lösung",
+      "task_title": "Quadratische Funktion/Drei Variablen/Krümmungsverhalten/3/Aufgabe"
+    },
+    {
+      "exercise_index": 13,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "Tipp: Löse die Gleichung nach einer geeigneten Variablen auf und behandle die Hyperfläche als einen Graphen in den anderen Variablen.",
+      "point_value": 6,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Hyperfläche/Dreidimensional/Weingartenabbildung/Charakteristisches Polynom/Gauß-Kronecker-Krümmung/2/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Hyperfläche/Dreidimensional/Weingartenabbildung/Charakteristisches Polynom/Gauß-Kronecker-Krümmung/2/Aufgabe"
+    },
+    {
+      "exercise_index": 14,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": "6 (2+2+2)",
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Normalkrümmung/Differenzierbare Fläche/Tangentiale Richtung/2/Aufgabe/Lösung",
+      "task_title": "Normalkrümmung/Differenzierbare Fläche/Tangentiale Richtung/2/Aufgabe"
+    },
+    {
+      "exercise_index": 15,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 2,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Normalkrümmung/Differenzierbare Fläche/Schnitt nicht regulär/Skizze/Aufgabe/Lösung",
+      "task_title": "Normalkrümmung/Differenzierbare Fläche/Schnitt nicht regulär/Skizze/Aufgabe"
+    }
+  ],
+  "graded_exercise_count": 5,
+  "macro_api_agreement": true,
+  "missing_solution_count": 14,
+  "point_value_total": 22,
+  "practice_exercise_count": 10,
+  "query": {
+    "bytes": 4277,
+    "path": "authority/mediawiki/unit05_solution_pages_current.json",
+    "sha256": "1e7af2a501592fa4f481b160b9d449a0f749b23394442f336343612bf11c3e9e"
+  },
+  "query_request_receipt": {
+    "bytes": 1915,
+    "path": "authority/mediawiki/unit05_solution_pages_current.json.request.json",
+    "sha256": "50853e0a072d560205ec67867774f82d909e947b02073eaed9b7d6003b72ece7"
+  },
+  "query_retrieved_utc": "2026-08-22T15:13:58Z",
+  "schema_version": 1,
+  "supplied_solution_count": 1,
+  "supplied_solution_indices": [
+    1
+  ],
+  "workflow": "o011-unit05-solution-freeze-v1",
+  "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 5"
+}

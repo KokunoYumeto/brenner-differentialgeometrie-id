@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Sun, 23 Aug 2026 18:55:10 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Differenzierbare Mannigfaltigkeit/Überdeckungskriterium für differenzierbare Abbildung/Aufgabe/Lösung|Differenzierbare Mannigfaltigkeit/Karte ist Diffeomorphismus/Aufgabe/Lösung|Mannigfaltigkeit/Differenzierbare Funktionen/Strukturelle Eigenschaften/Fakt/Beweis/Aufgabe/Lösung|Sphäre/Stereographisch/Koordinaten des Raumes/Aufgabe/Lösung|Mannigfaltigkeit/Differenzierbare Abbildung/Ringhomomorphismus auf Funktionen/Aufgabe/Lösung|Koordinateneinbettung/R^m in R^n/Differenzierbar/Aufgabe/Lösung|Mannigfaltigkeit/Zylinder/Punktierte Ebene/Sphäre ohne Pole/Diffeomorph/Aufgabe/Lösung|Homogene Funktion/Faser/Diffeomorph/Aufgabe/Lösung|Rotationsmenge/Positive Funktion/Differenzierbar/Mannigfaltigkeit/Aufgabe/Lösung|Ellipsoidoberfläche und Sphäre/Diffeomorph/Aufgabe/Lösung|Zweidimensionale zusammenhängende Mannigfaltigkeit/Ohne Punkt/Diffeomorph/Aufgabe/Lösung|S^n/Antipodenabbildung/Diffeomorphismus/Aufgabe/Lösung|Mannigfaltigkeit/Viele Diffeomorphismen/Aufgabe/Lösung|Topologische Mannigfaltigkeit/Folge/Konvergenz/Aufgabe/Lösung|Topologische Mannigfaltigkeit/Rekonstruktion aus Karten/Aufgabe/Lösung|Zwei Geraden/Verklebung/1-Sphäre/Aufgabe/Lösung|Gerade/Verdoppelter Punkt/Verklebung/Aufgabe/Lösung|Komplexe Multiplikation/Fasern/Mannigfaltigkeit/Aufgabe/Lösung|Sphäre/Zwei Punkte/Überführender Diffeomorphismus/Aufgabe/Lösung|Mannigfaltigkeit/Differenzierbare Funktionen/Garbeneigenschaft/Aufgabe/Lösung|Differenzierbare Mannigfaltigkeit/Nicht einpunktig/C^1-Funktionen/Nullteiler/Aufgabe/Lösung"
+  },
+  "response_bytes": 7008,
+  "response_path": "unit08_solution_pages_current.json",
+  "response_sha256": "84882393e3ed90d725c93ec6a72d1d66445d7acbae29afd4c9117417a173b4cc",
+  "retrieved_utc": "2026-08-23T18:55:10Z",
+  "schema_version": 1
+}

@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Sun, 23 Aug 2026 17:05:39 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Einheitssphäre/Abstände in Standardkarten/Differenz/Aufgabe/Lösung|Halboffenes Intervall/Keine topologische Mannigfaltigkeit/Aufgabe/Lösung|Halboffenes Intervall/Kreis/Stetige Bijektion/Kein Homöomorphismus/Aufgabe/Lösung|Eindimensionale Mannigfaltigkeiten/R, 1-Sphäre, R punktiert/Nicht homöomorph/Aufgabe/Lösung|Sinus 1 durch x/Keine Mannigfaltigkeit/Aufgabe/Lösung|Offener euklidischer Ball/Diffeomorph zu R^n/Aufgabe/Lösung|Einheitssphäre/Beschreibung von offenen Halbsphären/Nicht von 3 überdeckt/Aufgabe/Lösung|Mannigfaltigkeit/Zylinder/Punktierte Ebene/Sphäre ohne Pole/Aufgabe/Lösung|Rotationsmenge/Positive Funktion oder Nullstelle/Mannigfaltigkeit/Aufgabe/Lösung|Mannigfaltigkeit/Zusammenhängend/Wegzusammenhängend/Aufgabe/Lösung|Mannigfaltigkeit/Übergangsabbildungen/Kozykelbedingung/Aufgabe/Lösung|Einheitskugel/Kozykelbedingung für Standardkarten/Aufgabe/Lösung|Einheitssphäre/Nordpol und (1,0,0)/Abstand längs Ebenenschnitt/Animation/Aufgabe/Lösung|Geschenkpapier/Verkleben/Mannigfaltigkeit/Aufgabe/Lösung|Einheitssphäre/Großkreise durch Pole/Bild unter stereographischer Projektion/Aufgabe/Lösung|Einheitssphäre/Metrik über Großkreis/Aufgabe/Lösung|Einheitssphäre/Nordpol und (1,0,0)/Abstand längs Ebenenschnitt/Abhängigkeit vom Winkel/Aufgabe/Lösung|Injektive stetige Abbildung/R nach S^2/Bild unendliche Länge/Pole als Limiten/Aufgabe/Lösung|Achsenkreuz/Keine topologische Mannigfaltigkeit/Aufgabe/Lösung"
+  },
+  "response_bytes": 6646,
+  "response_path": "unit07_solution_pages_current.json",
+  "response_sha256": "01f031c98780b34b53ded53795f218b9339dfab69e991dfa151fde4afd23403e",
+  "retrieved_utc": "2026-08-23T17:05:39Z",
+  "schema_version": 1
+}

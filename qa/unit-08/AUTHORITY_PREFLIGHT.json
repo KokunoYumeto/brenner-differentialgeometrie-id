@@ -1,0 +1,661 @@
+{
+  "authority": {
+    "course_recursive_export": {
+      "bytes": 3538709,
+      "path": "authority/mediawiki/brenner_course_recursive_current.xml",
+      "sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14"
+    },
+    "latex_surface_recursive_export": {
+      "bytes": 3722387,
+      "path": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+      "sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c"
+    },
+    "pages": {
+      "lecture_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture08_latex_surface_revid807142.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1199,
+          "path": "authority/mediawiki/lecture08_latex_surface_revid807142.metadata.json",
+          "sha256": "856ecff31f1ca2b4bcae91f5d76fdc0bed3f98d288a250b6b252f4b565ad527c"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142582,
+        "parentid": 799051,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/lecture08_latex_surface_revid807142.wiki",
+        "revid": 807142,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T10:03:10Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 8/latex"
+      },
+      "lecture_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "f662d1ffe6d8420476f154df2fe516aa51fc96cbf1330dd336e61818b66c541e",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture08_root_revid886680.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "g42gsoe6eogiojlvh9nbyiv6qgfwsj1",
+        "metadata": {
+          "bytes": 1171,
+          "path": "authority/mediawiki/lecture08_root_revid886680.metadata.json",
+          "sha256": "7a5aa13915bccfd0d5f4bc5ae311190afa26ce2219db8f2392f393dcc59b4c92"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142552,
+        "parentid": 828725,
+        "readable_normalized_bytes": 1834,
+        "readable_normalized_sha256": "2420875a3ae7f3e629331bad9d1018f47c11dbc2f259338b8cf1559655f25a3c",
+        "readable_normalized_witness": "authority/mediawiki/lecture08_root_revid886680.wiki",
+        "revid": 886680,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 1833,
+        "source_utf8_sha1": "89f0d2c0ef9f9e0a89041b27a1be6ba27326276d",
+        "source_utf8_sha256": "a6b0a45939754ab780029d93d287b0c055131613c2e4921ba88e9dc26c614130",
+        "timestamp": "2023-02-20T16:25:42Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 8"
+      },
+      "worksheet_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet08_latex_surface_revid807111.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1206,
+          "path": "authority/mediawiki/worksheet08_latex_surface_revid807111.metadata.json",
+          "sha256": "93149c747619479315fafc4b1559023aa790d216bbefb8cb3c1566a9358df4ac"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142672,
+        "parentid": 799020,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/worksheet08_latex_surface_revid807111.wiki",
+        "revid": 807111,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T09:58:00Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 8/latex"
+      },
+      "worksheet_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "c8252f311ecc6eca8651af5e66c4f13af4eaa7dd253bc8f03f3fed6f76d64dd8",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet08_root_revid1069484.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "f2fnuiw3o1mzfnoihcckwc84eeiata6",
+        "metadata": {
+          "bytes": 1181,
+          "path": "authority/mediawiki/worksheet08_root_revid1069484.metadata.json",
+          "sha256": "12d18482bdc3497bedb68b37c9c3c5178bd9ee0040db44c77ae9bc78cada4254"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142642,
+        "parentid": 905404,
+        "readable_normalized_bytes": 3242,
+        "readable_normalized_sha256": "262ff19fd6e3083f0cfbeed7bf9832a08940881ba721f113d71d783eec2e0e0e",
+        "readable_normalized_witness": "authority/mediawiki/worksheet08_root_revid1069484.wiki",
+        "revid": 1069484,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 3241,
+        "source_utf8_sha1": "80fdcff5c41fd6d29ddf73345cec1f60aaeddcbe",
+        "source_utf8_sha256": "49125b5b67fbf66b288c8f9e3a10c7ba774d071332bc5c33387ae40b23e1b944",
+        "timestamp": "2026-02-05T20:57:03Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 8"
+      }
+    },
+    "root_revision_manifest": {
+      "bytes": 15237,
+      "path": "authority/brenner_selected_root_revisions.csv",
+      "sha256": "64cf91594907db45355e64fb512fb14092e15218c74847a8f60fe884a5284fc8"
+    },
+    "surface_revision_manifest": {
+      "bytes": 31799,
+      "path": "authority/brenner_selected_surface_revisions.csv",
+      "sha256": "9a3a6b7dc08cc022803dad24e959365d67810d4da87a8bc4385c601db9d4bd52"
+    }
+  },
+  "checks": {
+    "all_candidate_solution_titles_queried": true,
+    "all_displayed_images_have_license_macros": true,
+    "all_point_markers_resolved": true,
+    "all_supplied_solution_latex_snapshots_frozen": true,
+    "all_supplied_solution_revisions_frozen": true,
+    "exercise_root_expansion_count_agreement": true,
+    "lecture_expansion_sanitized": true,
+    "revision_export_hashes_match": true,
+    "root_revision_bindings_unique": true,
+    "root_witnesses_match_mediawiki_sha1": true,
+    "solution_macro_api_agreement": true,
+    "surface_revision_bindings_unique": true,
+    "translation_started_by_workflow": false,
+    "unit_media_binary_and_rights_closure": true,
+    "worksheet_expansion_sanitized": true
+  },
+  "expansions": {
+    "lecture": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 19686,
+      "http_date": "Sun, 23 Aug 2026 18:55:08 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 8/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 673,
+        "path": "authority/exports/lecture08_latex_expand.json.request.json",
+        "sha256": "78037e0c4d347bc6e029ce142ee397dcfc34a6d9b3542c3b085aeafdfa7f1a60"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 20951,
+        "path": "authority/exports/lecture08_latex_expand.json",
+        "sha256": "b4b5b6f0c2c48c532c10539d3e497f55dbf7ca31647747c72d22c33ea4417a9e"
+      },
+      "retrieved_utc": "2026-08-23T18:55:09Z",
+      "sanitized_source": {
+        "bytes": 17329,
+        "path": "authority/expanded/lecture08_source.de.tex",
+        "sha256": "91fef67aac0b5f0f539f73a672d3bb1c79b277986cc5561c0e27801a9973129a"
+      },
+      "sanitizer": {
+        "bytes": 3113,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+      },
+      "sanitizer_receipt": {
+        "bytes": 672,
+        "path": "qa/unit-08/lecture08_sanitize.json",
+        "sha256": "65666a06dafa348e906b34bf1c7ac7c18dfd8bbd5ced79ed3aa52e6a06479a80"
+      },
+      "valid_utf8": true
+    },
+    "worksheet": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 15591,
+      "http_date": "Sun, 23 Aug 2026 18:55:09 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 8/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 678,
+        "path": "authority/exports/worksheet08_latex_expand.json.request.json",
+        "sha256": "35932e3bed9e071fe68caaf5ea8c500fb019d87911865c796b69eaa2d240d7e0"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 16679,
+        "path": "authority/exports/worksheet08_latex_expand.json",
+        "sha256": "f002ef794b4575c7ac916fcaa948e2d0c2172229df0f998d96d31e08124aaa87"
+      },
+      "retrieved_utc": "2026-08-23T18:55:09Z",
+      "sanitized_source": {
+        "bytes": 12693,
+        "path": "authority/expanded/worksheet08_source.de.tex",
+        "sha256": "1313fbf0d8d068f5089ee8381dafc811079a404dc0d7c847c3b3bab85afceb9a"
+      },
+      "sanitizer": {
+        "bytes": 3113,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+      },
+      "sanitizer_receipt": {
+        "bytes": 676,
+        "path": "qa/unit-08/worksheet08_sanitize.json",
+        "sha256": "f99eb10b311b75595d5d99e1b3d5ae9f0c80ab4d61272aad9811d86c152af6cd"
+      },
+      "valid_utf8": true
+    }
+  },
+  "media": {
+    "all_displayed_images_have_license_macros": true,
+    "assets": [],
+    "current_commons_query": null,
+    "occurrence_count": 0,
+    "rights_manifest": {
+      "bytes": 25588,
+      "path": "authority/brenner_media_rights_manifest.csv",
+      "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+    },
+    "surface_occurrences": [],
+    "unique_asset_count": 0
+  },
+  "next_action": "Translate Lecture 8, Worksheet 8, and exactly the 2 supplied solutions in source order.",
+  "schema_version": 1,
+  "scope": "Brenner Differentialgeometrie Unit 8 authority preflight; no translation",
+  "solutions": {
+    "exercise_count": 21,
+    "exercises": [
+      {
+        "exercise_index": 1,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Differenzierbare Mannigfaltigkeit/Überdeckungskriterium für differenzierbare Abbildung/Aufgabe/Lösung",
+        "task_title": "Differenzierbare Mannigfaltigkeit/Überdeckungskriterium für differenzierbare Abbildung/Aufgabe"
+      },
+      {
+        "exercise_index": 2,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Differenzierbare Mannigfaltigkeit/Karte ist Diffeomorphismus/Aufgabe/Lösung",
+        "task_title": "Differenzierbare Mannigfaltigkeit/Karte ist Diffeomorphismus/Aufgabe"
+      },
+      {
+        "exercise_index": 3,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Differenzierbare Funktionen/Strukturelle Eigenschaften/Fakt/Beweis/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Differenzierbare Funktionen/Strukturelle Eigenschaften/Fakt/Beweis/Aufgabe"
+      },
+      {
+        "exercise_index": 4,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Sphäre/Stereographisch/Koordinaten des Raumes/Aufgabe/Lösung",
+        "task_title": "Sphäre/Stereographisch/Koordinaten des Raumes/Aufgabe"
+      },
+      {
+        "exercise_index": 5,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Differenzierbare Abbildung/Ringhomomorphismus auf Funktionen/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Differenzierbare Abbildung/Ringhomomorphismus auf Funktionen/Aufgabe"
+      },
+      {
+        "exercise_index": 6,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Koordinateneinbettung/R^m in R^n/Differenzierbar/Aufgabe/Lösung",
+        "task_title": "Koordinateneinbettung/R^m in R^n/Differenzierbar/Aufgabe"
+      },
+      {
+        "exercise_index": 7,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Zylinder/Punktierte Ebene/Sphäre ohne Pole/Diffeomorph/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Zylinder/Punktierte Ebene/Sphäre ohne Pole/Diffeomorph/Aufgabe"
+      },
+      {
+        "exercise_index": 8,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Homogene Funktion/Faser/Diffeomorph/Aufgabe/Lösung",
+        "task_title": "Homogene Funktion/Faser/Diffeomorph/Aufgabe"
+      },
+      {
+        "exercise_index": 9,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Rotationsmenge/Positive Funktion/Differenzierbar/Mannigfaltigkeit/Aufgabe/Lösung",
+        "task_title": "Rotationsmenge/Positive Funktion/Differenzierbar/Mannigfaltigkeit/Aufgabe"
+      },
+      {
+        "exercise_index": 10,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Ellipsoidoberfläche und Sphäre/Diffeomorph/Aufgabe/Lösung",
+        "task_title": "Ellipsoidoberfläche und Sphäre/Diffeomorph/Aufgabe"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 1889,
+          "path": "authority/mediawiki/worksheet08_exercise11_solution_revid1030330.utf8.b64",
+          "sha256": "8b2a5e092ac71da3cb43faf60cafd6315ec33c5e57e4e837662c8c00d274db97"
+        },
+        "exercise_index": 11,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 1358,
+          "http_date": "Sun, 23 Aug 2026 18:55:10 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Zweidimensionale zusammenhängende Mannigfaltigkeit/Ohne Punkt/Diffeomorph/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 728,
+            "path": "authority/exports/worksheet08_exercise11_solution_latex_expand.json.request.json",
+            "sha256": "6902c675674eb1c7cb95b06f737b4fb45c630f1317d43401481991ff9296d502"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 1542,
+            "path": "authority/exports/worksheet08_exercise11_solution_latex_expand.json",
+            "sha256": "812c01f36a584b46821e56d02cfadf4203436937aaa192ec0e337a618af60dd0"
+          },
+          "retrieved_utc": "2026-08-23T18:55:10Z",
+          "sanitized_source": {
+            "bytes": 1175,
+            "path": "authority/expanded/worksheet08_exercise11_solution_source.de.tex",
+            "sha256": "6ae059c8bfa3ea5d0eb6ee3766647fa5b9a85a5592bff3597d3df185e04622a1"
+          },
+          "sanitizer": {
+            "bytes": 3113,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-08/worksheet08_exercise11_solution_sanitize.json",
+            "sha256": "7a0d54856102fe1ac39969d5f9de7c7f5af2cba06621c69e7fcedac587730574"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "0504603083ccd21998237565b1ed54658db10a38",
+        "metadata": {
+          "bytes": 1268,
+          "path": "authority/mediawiki/worksheet08_exercise11_solution_revid1030330.metadata.json",
+          "sha256": "fb1b943ea148ac186a773e9cec4bab8e5bff6f898fc306b080518e6e285856c0"
+        },
+        "pageid": 81669,
+        "parentid": 987678,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 1415,
+          "path": "authority/mediawiki/worksheet08_exercise11_solution_revid1030330.wiki",
+          "sha256": "e7323e17bf4dd95cec416639302ac7c0132afd8111256640fa14ea0eee6c9e7a"
+        },
+        "revid": 1030330,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Zweidimensionale zusammenhängende Mannigfaltigkeit/Ohne Punkt/Diffeomorph/Aufgabe/Lösung",
+        "source_utf8_bytes": 1414,
+        "source_utf8_sha256": "2c4f57bee2acbbea715ef0c22fafa2826a6740ccb144432b2cbb0e82d2c2a658",
+        "task_title": "Zweidimensionale zusammenhängende Mannigfaltigkeit/Ohne Punkt/Diffeomorph/Aufgabe",
+        "timestamp": "2025-08-11T01:13:09Z"
+      },
+      {
+        "exercise_index": 12,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "S^n/Antipodenabbildung/Diffeomorphismus/Aufgabe/Lösung",
+        "task_title": "S^n/Antipodenabbildung/Diffeomorphismus/Aufgabe"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 3537,
+          "path": "authority/mediawiki/worksheet08_exercise13_solution_revid1095903.utf8.b64",
+          "sha256": "fe568fe5cc58ded676d36201db97855de45a9c8d6c2c3af4c81e648dc8b58c47"
+        },
+        "exercise_index": 13,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 2571,
+          "http_date": "Sun, 23 Aug 2026 18:55:10 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Mannigfaltigkeit/Viele Diffeomorphismen/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 693,
+            "path": "authority/exports/worksheet08_exercise13_solution_latex_expand.json.request.json",
+            "sha256": "ba8c1882fce1974c18c7eddcd98fe656b6c0be27b4b653703065b6529bdc94b7"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 2839,
+            "path": "authority/exports/worksheet08_exercise13_solution_latex_expand.json",
+            "sha256": "eaa684a1a30e1ce974c49f1b386837cb66cd0f8fbeaf85b169efbd7b20d765c0"
+          },
+          "retrieved_utc": "2026-08-23T18:55:10Z",
+          "sanitized_source": {
+            "bytes": 2405,
+            "path": "authority/expanded/worksheet08_exercise13_solution_source.de.tex",
+            "sha256": "31f2e73e81a59c36f23a4f2b35fb1a56399a77d7df3cc2d5b5f43babbc4f7b7d"
+          },
+          "sanitizer": {
+            "bytes": 3113,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-08/worksheet08_exercise13_solution_sanitize.json",
+            "sha256": "12666e15f0b013ea88e547bd745544ec5afa9c5869ac507990e5ac3080cbbd33"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "f650788269256c5caddbd52317e287c3d98119eb",
+        "metadata": {
+          "bytes": 1235,
+          "path": "authority/mediawiki/worksheet08_exercise13_solution_revid1095903.metadata.json",
+          "sha256": "eca6c6bc19c3ca040360035e2e3863f66584658b8cc22de8f8a3d99dc1290d97"
+        },
+        "pageid": 151983,
+        "parentid": 1094245,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 2652,
+          "path": "authority/mediawiki/worksheet08_exercise13_solution_revid1095903.wiki",
+          "sha256": "e22ac07731557cd0ee9ac858a6ce7556f5be5655d09fd961fcd60b8a1f74167f"
+        },
+        "revid": 1095903,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Mannigfaltigkeit/Viele Diffeomorphismen/Aufgabe/Lösung",
+        "source_utf8_bytes": 2651,
+        "source_utf8_sha256": "7a844d6f883c2ed7c4b30f195f9948ad817edbb70de637b7f449ed42f693833d",
+        "task_title": "Mannigfaltigkeit/Viele Diffeomorphismen/Aufgabe",
+        "timestamp": "2026-06-15T07:23:44Z"
+      },
+      {
+        "exercise_index": 14,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Topologische Mannigfaltigkeit/Folge/Konvergenz/Aufgabe/Lösung",
+        "task_title": "Topologische Mannigfaltigkeit/Folge/Konvergenz/Aufgabe"
+      },
+      {
+        "exercise_index": 15,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Topologische Mannigfaltigkeit/Rekonstruktion aus Karten/Aufgabe/Lösung",
+        "task_title": "Topologische Mannigfaltigkeit/Rekonstruktion aus Karten/Aufgabe"
+      },
+      {
+        "exercise_index": 16,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Zwei Geraden/Verklebung/1-Sphäre/Aufgabe/Lösung",
+        "task_title": "Zwei Geraden/Verklebung/1-Sphäre/Aufgabe"
+      },
+      {
+        "exercise_index": 17,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Gerade/Verdoppelter Punkt/Verklebung/Aufgabe/Lösung",
+        "task_title": "Gerade/Verdoppelter Punkt/Verklebung/Aufgabe"
+      },
+      {
+        "exercise_index": 18,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Komplexe Multiplikation/Fasern/Mannigfaltigkeit/Aufgabe/Lösung",
+        "task_title": "Komplexe Multiplikation/Fasern/Mannigfaltigkeit/Aufgabe"
+      },
+      {
+        "exercise_index": 19,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 6,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Sphäre/Zwei Punkte/Überführender Diffeomorphismus/Aufgabe/Lösung",
+        "task_title": "Sphäre/Zwei Punkte/Überführender Diffeomorphismus/Aufgabe"
+      },
+      {
+        "exercise_index": 20,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": "4 (1+1+2)",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Differenzierbare Funktionen/Garbeneigenschaft/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Differenzierbare Funktionen/Garbeneigenschaft/Aufgabe"
+      },
+      {
+        "exercise_index": 21,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 5,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Differenzierbare Mannigfaltigkeit/Nicht einpunktig/C^1-Funktionen/Nullteiler/Aufgabe/Lösung",
+        "task_title": "Differenzierbare Mannigfaltigkeit/Nicht einpunktig/C^1-Funktionen/Nullteiler/Aufgabe"
+      }
+    ],
+    "graded_exercise_count": 4,
+    "macro_api_agreement": true,
+    "missing_solution_count": 19,
+    "point_value_total": 19,
+    "practice_exercise_count": 17,
+    "query": {
+      "bytes": 7008,
+      "path": "authority/mediawiki/unit08_solution_pages_current.json",
+      "sha256": "84882393e3ed90d725c93ec6a72d1d66445d7acbae29afd4c9117417a173b4cc"
+    },
+    "query_request_receipt": {
+      "bytes": 2152,
+      "path": "authority/mediawiki/unit08_solution_pages_current.json.request.json",
+      "sha256": "46541a2a73b201e1eabb9815e6e3b985707156b1efde8be1c6ea4c20e3fd6a25"
+    },
+    "query_retrieved_utc": "2026-08-23T18:55:10Z",
+    "schema_version": 1,
+    "supplied_solution_count": 2,
+    "supplied_solution_indices": [
+      11,
+      13
+    ],
+    "workflow": "o011-unit08-solution-freeze-v1",
+    "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 8"
+  },
+  "status": "pass",
+  "structure": {
+    "all_hint_fields_blank": true,
+    "lecture_section_count": 3,
+    "worksheet_exercise_count": 21,
+    "worksheet_graded_count": 4,
+    "worksheet_point_total": 19,
+    "worksheet_practice_count": 17,
+    "worksheet_section_count": 2,
+    "worksheet_solution_bearing_indices": [
+      11,
+      13
+    ]
+  },
+  "unit": 8,
+  "workflow": "o011-unit08-authority-preflight-v1"
+}

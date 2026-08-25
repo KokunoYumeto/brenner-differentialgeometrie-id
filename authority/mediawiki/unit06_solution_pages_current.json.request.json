@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Sat, 22 Aug 2026 19:35:57 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Zweidimensionaler Graph/Sattelfläche/Tangentiales Vektorfeld/Aufgabe/Lösung|Kugeloberfläche/Vektorfeld zu Breitenkreis/Kovariante Ableitung/Aufgabe/Lösung|Hyperfläche/Kurve/Paralleles Vektorfeld/Eigenschaften/Fakt/Beweis/Aufgabe/Lösung|Hyperebene/Weg/Tangentiales Vektorfeld/Parallel/Aufgabe/Lösung|Kugeloberfläche/Großkreis/Paralleles Vektorfeld/Aufgabe/Lösung|Fläche im Raum/Paralleles Vektorfeld/Einheitsnormalenfeld/Kreuzprodukt/Aufgabe/Lösung|Differenzierbare Hyperfläche/Paralleles Vektorfeld/Differentialgleichung/1/Aufgabe/Lösung|Hyperebene/Paralleltransport/Identität/Aufgabe/Lösung|Hyperfläche/Geodätische Kurve/Tangentiale Richtung/Paralleltransport/Aufgabe/Lösung|Kugeloberfläche/Geschlossener Großkreis/Paralleltransport/Aufgabe/Lösung|Kugeloberfläche/Breitengrad/Paralleltransport/Aufgabe/Lösung|Hyperfläche/Transport durch Projektion/Eigenschaften/Aufgabe/Lösung|Differenzierbare Hyperfläche/Holonomiegruppe/Untergruppe/Aufgabe/Lösung|Hyperebene/Paralleltransport/Holonomiegruppe/Aufgabe/Lösung|Kugeloberfläche/Vektorfeld zu Breitenkreis/Kovariante Ableitung/2/Aufgabe/Lösung|Differenzierbare Hyperfläche/Paralleles Vektorfeld/Differentialgleichung/2/Aufgabe/Lösung|Kugeloberfläche/Holonomiegruppe/Aufgabe/Lösung|Differenzierbare Hyperfläche/Isometrie/Paralleles Vektorfeld/Paralleltransport/Holonomiegruppe/Aufgabe/Lösung"
+  },
+  "response_bytes": 6991,
+  "response_path": "unit06_solution_pages_current.json",
+  "response_sha256": "a9197048cb9f4465bb865e37e64cbd191013732d54198c8ff98bc8473ef9c192",
+  "retrieved_utc": "2026-08-22T19:35:57Z",
+  "schema_version": 1
+}

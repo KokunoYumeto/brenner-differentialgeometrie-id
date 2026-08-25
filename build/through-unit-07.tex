@@ -1,0 +1,172 @@
+\documentclass[11pt,a4paper,oneside]{book}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[indonesian]{babel}
+\usepackage{lmodern}
+\usepackage{amsmath,amsthm,amssymb,amscd}
+\usepackage{graphicx}
+\usepackage[a4paper,margin=22mm,headheight=15pt]{geometry}
+\usepackage{microtype}
+\usepackage[hidelinks,pdfusetitle]{hyperref}
+\usepackage{bookmark}
+\input{brenner-compat.tex}
+% Unit 7's frozen MediaWiki TeX uses underscore-normalized PNG names while
+% the canonical Commons filenames retain spaces.  The bounded Unit 7 build
+% creates exact generated aliases and routes only these PNG macros through
+% that generated directory; canonical source files remain untouched.
+\renewcommand{\bildeinlesungpng}[2]{generated/media/#1.png}
+\renewcommand{\bildeinlesungPNG}[2]{generated/media/#1.png}
+% The frozen source numbers facts and exercises by lecture/worksheet section.
+% Book chapters are reader scaffolding and must not enter source identifiers.
+\renewcommand{\thefakt}{\arabic{section}.\arabic{fakt}}
+
+\addto\captionsindonesian{%
+  \renewcommand{\contentsname}{Daftar Isi}%
+  \renewcommand{\figurename}{Gambar}%
+  \renewcommand{\listfigurename}{Daftar Gambar}%
+}
+\hypersetup{pdflang={id-ID},bookmarksopen=true}
+\emergencystretch=1em
+\ifdefined\pdfinfoomitdate\pdfinfoomitdate=1\fi
+\ifdefined\pdftrailerid\pdftrailerid{}\fi
+\ifdefined\pdfsuppressptexinfo\pdfsuppressptexinfo=15\fi
+
+\title{Geometri Diferensial dan Manifold Mulus\\\large Pembaca kumulatif hingga Unit 7}
+\author{Holger Brenner\\Terjemahan Bahasa Indonesia independen}
+\date{Sumber: \textit{Differentialgeometrie (Osnabrück 2023)}}
+
+\begin{document}
+\hypersetup{pageanchor=false}
+\maketitle
+\hypersetup{pageanchor=true}
+\frontmatter
+\chapter*{Tentang edisi ini}
+Pembaca kumulatif ini menerjemahkan Kuliah 1--7 dan Lembar Kerja 1--7 dari kursus Holger Brenner di Wikiversity berbahasa Jerman. Teks sumber digunakan berdasarkan CC BY-SA 4.0. Terjemahan ini merupakan karya independen dan bukan edisi resmi atau dukungan dari penulis maupun Wikiversity. Setiap gambar mengikuti status hak atau lisensi berkasnya sendiri, yang dicatat pada daftar gambar dan manifest media.
+
+Sumber permanen dan hash revisi dicatat dalam berkas kontrol edisi ini. Rumus, urutan, latihan, penanda solusi, dan atribusi media dipertahankan; ID mesin hanya merupakan lapisan tambahan. Bagian solusi hanya memuat solusi yang benar-benar disediakan oleh sumber.
+
+Proses terjemahan dan produksi edisi dibantu oleh OpenAI Codex gpt-5.6-sol, Ultra, di bawah arahan pengguna. Kredit penulis, sumber, dan kontributor manusia tetap dipertahankan sebagaimana dicatat dalam edisi dan manifestnya.
+\tableofcontents
+
+\mainmatter
+\part{Unit 1}
+\chapter[Kuliah 1]{Kuliah 1: Analisis dan Geometri}
+\input{generated/lecture01.id.build.tex}
+
+\chapter{Lembar Kerja 1}
+\input{generated/worksheet01.id.build.tex}
+
+\section*{Solusi yang disediakan oleh sumber}
+\addcontentsline{toc}{section}{Solusi yang disediakan oleh sumber}
+\input{generated/worksheet01_exercise01_solution.id.build.tex}
+
+\part{Unit 2}
+\chapter[Kuliah 2]{Kuliah 2: Permukaan Putar, Medan Normal, dan Pemetaan Gauss}
+\input{generated/lecture02.id.build.tex}
+
+\chapter{Lembar Kerja 2}
+\input{generated/worksheet02.id.build.tex}
+
+\section*{Solusi yang disediakan oleh sumber}
+\addcontentsline{toc}{section}{Solusi yang disediakan oleh sumber}
+\subsection*{Solusi Soal 2.1}
+\input{generated/worksheet02_exercise01_solution.id.build.tex}
+\subsection*{Solusi Soal 2.2}
+\input{generated/worksheet02_exercise02_solution.id.build.tex}
+\subsection*{Solusi Soal 2.7}
+\begingroup\scriptsize
+\input{generated/worksheet02_exercise07_solution.id.build.tex}
+\endgroup
+\subsection*{Solusi Soal 2.12}
+\begingroup\small
+\input{generated/worksheet02_exercise12_solution.id.build.tex}
+\endgroup
+\subsection*{Solusi Soal 2.13}
+\input{generated/worksheet02_exercise13_solution.id.build.tex}
+
+\part{Unit 3}
+\chapter[Kuliah 3]{Kuliah 3: Kelengkungan Kurva Berparameter Panjang Busur}
+\input{generated/lecture03.id.build.tex}
+
+\chapter{Lembar Kerja 3}
+\input{generated/worksheet03.id.build.tex}
+
+\section*{Solusi yang disediakan oleh sumber}
+\addcontentsline{toc}{section}{Solusi yang disediakan oleh sumber}
+\subsection*{Solusi Soal 3.7}
+\input{generated/worksheet03_exercise07_solution.id.build.tex}
+\subsection*{Solusi Soal 3.16}
+\input{generated/worksheet03_exercise16_solution.id.build.tex}
+
+\part{Unit 4}
+\chapter[Kuliah 4]{Kuliah 4: Pemetaan Weingarten}
+\input{generated/lecture04.id.build.tex}
+
+\chapter{Lembar Kerja 4}
+\input{generated/worksheet04.id.build.tex}
+
+\section*{Solusi yang disediakan oleh sumber}
+\addcontentsline{toc}{section}{Solusi yang disediakan oleh sumber}
+\subsection*{Solusi Soal 4.7}
+\input{generated/worksheet04_exercise07_solution.id.build.tex}
+\subsection*{Solusi Soal 4.10}
+\input{generated/worksheet04_exercise10_solution.id.build.tex}
+
+\part{Unit 5}
+\chapter[Kuliah 5]{Kuliah 5: Kelengkungan Utama}
+\input{generated/lecture05.id.build.tex}
+
+\chapter{Lembar Kerja 5}
+\input{generated/worksheet05.id.build.tex}
+
+\section*{Solusi yang disediakan oleh sumber}
+\addcontentsline{toc}{section}{Solusi yang disediakan oleh sumber}
+\subsection*{Solusi Soal 5.1}
+\input{generated/worksheet05_exercise01_solution.id.build.tex}
+
+\part{Unit 6}
+\chapter[Kuliah 6]{Kuliah 6: Turunan Kovarian, Medan Vektor Paralel, dan Transpor Paralel}
+\input{generated/lecture06.id.build.tex}
+
+\chapter{Lembar Kerja 6}
+\input{generated/worksheet06.id.build.tex}
+
+\section*{Solusi yang disediakan oleh sumber}
+\addcontentsline{toc}{section}{Solusi yang disediakan oleh sumber}
+\subsection*{Solusi Soal 6.2}
+\input{generated/worksheet06_exercise02_solution.id.build.tex}
+\subsection*{Solusi Soal 6.6}
+\input{generated/worksheet06_exercise06_solution.id.build.tex}
+\subsection*{Solusi Soal 6.9}
+\input{generated/worksheet06_exercise09_solution.id.build.tex}
+
+\part{Unit 7}
+\chapter[Kuliah 7]{Kuliah 7: Konsep sebuah manifold}
+\input{generated/lecture07.id.build.tex}
+
+\chapter{Lembar Kerja 7}
+\input{generated/worksheet07.id.build.tex}
+
+\section*{Solusi yang disediakan oleh sumber}
+\addcontentsline{toc}{section}{Solusi yang disediakan oleh sumber}
+\subsection*{Solusi Soal 7.4}
+\input{generated/worksheet07_exercise04_solution.id.build.tex}
+\subsection*{Solusi Soal 7.7}
+\input{generated/worksheet07_exercise07_solution.id.build.tex}
+\subsection*{Solusi Soal 7.13}
+\input{generated/worksheet07_exercise13_solution.id.build.tex}
+
+\backmatter
+\listoffigures
+\chapter*{Atribusi dan Hak Media}
+\addcontentsline{toc}{chapter}{Atribusi dan Hak Media}
+\input{generated/unit01-media-attribution-cumulative.tex}
+\input{generated/unit02-media-attribution-cumulative.tex}
+\input{generated/unit03-media-attribution-cumulative.tex}
+\input{generated/unit04-media-attribution-cumulative.tex}
+\input{generated/unit05-media-attribution-cumulative.tex}
+\input{generated/unit06-media-attribution-cumulative.tex}
+\input{generated/unit07-media-attribution-cumulative.tex}
+\chapter*{Lisensi}
+\Lizenztext
+\end{document}

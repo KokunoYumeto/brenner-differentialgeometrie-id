@@ -1,0 +1,130 @@
+{
+  "authentication_used_for_public_readback": false,
+  "authentication_used_for_publication_path": true,
+  "concept_doi": "10.5281/zenodo.22059977",
+  "concept_record_id": 22059977,
+  "coverage": "active_partial_through_unit_10",
+  "doi": "10.5281/zenodo.22073928",
+  "draft": {
+    "id": 22073928,
+    "origin": "resumed_exact_listed_new_version_draft",
+    "uploads": [
+      {
+        "name": "geometri-diferensial-manifold-mulus-hingga-unit-10-id.pdf",
+        "status": "uploaded_exact"
+      },
+      {
+        "name": "geometri-diferensial-manifold-mulus-brenner-id-unit10-html-20260823.zip",
+        "status": "uploaded_exact"
+      },
+      {
+        "name": "geometri-diferensial-manifold-mulus-brenner-id-unit10-source-20260823.zip",
+        "status": "uploaded_exact"
+      },
+      {
+        "name": "LICENSE.md",
+        "status": "uploaded_exact"
+      },
+      {
+        "name": "RELEASE_NOTES_20260823.md",
+        "status": "uploaded_exact"
+      },
+      {
+        "name": "FILE_MANIFEST.csv",
+        "status": "uploaded_exact"
+      },
+      {
+        "name": "CHECKSUMS.sha256",
+        "status": "uploaded_exact"
+      }
+    ]
+  },
+  "files": [
+    {
+      "bytes": 5733895,
+      "download_url": "https://zenodo.org/api/records/22073928/files/geometri-diferensial-manifold-mulus-hingga-unit-10-id.pdf/content",
+      "matches_local": true,
+      "md5": "1ccd07d9bec081677afe390c7cd0c534",
+      "name": "geometri-diferensial-manifold-mulus-hingga-unit-10-id.pdf",
+      "sha256": "4eaec807347feeab2b3334056d3109d5ce6e5eb30ed3649a507ae6124049856d"
+    },
+    {
+      "bytes": 1260239,
+      "download_url": "https://zenodo.org/api/records/22073928/files/geometri-diferensial-manifold-mulus-brenner-id-unit10-html-20260823.zip/content",
+      "matches_local": true,
+      "md5": "de08ee9e63461228ab7cdeab0b5a4a39",
+      "name": "geometri-diferensial-manifold-mulus-brenner-id-unit10-html-20260823.zip",
+      "sha256": "6dbffc22f338eab537b42d907c2d6dae9bd2f00c045f7a690f5e96e652663b06"
+    },
+    {
+      "bytes": 1758537,
+      "download_url": "https://zenodo.org/api/records/22073928/files/geometri-diferensial-manifold-mulus-brenner-id-unit10-source-20260823.zip/content",
+      "matches_local": true,
+      "md5": "0ac08f527f81a91814d31de98f089dae",
+      "name": "geometri-diferensial-manifold-mulus-brenner-id-unit10-source-20260823.zip",
+      "sha256": "0c160e741e02a711bdbbb984a788459ccb1e4ca94f0809f5add25ec50f8beb3a"
+    },
+    {
+      "bytes": 2199,
+      "download_url": "https://zenodo.org/api/records/22073928/files/LICENSE.md/content",
+      "matches_local": true,
+      "md5": "8da6645f9632ea5e76fafd2c3f108ffb",
+      "name": "LICENSE.md",
+      "sha256": "162445a9cc08e0fd683a66a6dd648737c797761c3390c912eba73cd6b2e75cb5"
+    },
+    {
+      "bytes": 1989,
+      "download_url": "https://zenodo.org/api/records/22073928/files/RELEASE_NOTES_20260823.md/content",
+      "matches_local": true,
+      "md5": "2f8287a1c51e86a89af47ccd150fa2f6",
+      "name": "RELEASE_NOTES_20260823.md",
+      "sha256": "231b0fdae12ba65ba78b258f0f7bea18cfdd736db72c3c1cc06d7476f294efd6"
+    },
+    {
+      "bytes": 618,
+      "download_url": "https://zenodo.org/api/records/22073928/files/FILE_MANIFEST.csv/content",
+      "matches_local": true,
+      "md5": "2b57231e97ccf4b4df45cb9fd2b4778f",
+      "name": "FILE_MANIFEST.csv",
+      "sha256": "8ba2d99cd2baec523c7253acdf7bd01979983a519f449d852eb41e21655f7f83"
+    },
+    {
+      "bytes": 655,
+      "download_url": "https://zenodo.org/api/records/22073928/files/CHECKSUMS.sha256/content",
+      "matches_local": true,
+      "md5": "cad7059f4b73737af1904c65501a22e5",
+      "name": "CHECKSUMS.sha256",
+      "sha256": "2eac1a8b59e9b6657f7e36faf565ecba3b14b50d96e85af5314fc9d2a043a0f1"
+    }
+  ],
+  "metadata_title": "Geometri Diferensial dan Manifold Mulus \u2014 Edisi Bahasa Indonesia (Batas Unit 10)",
+  "pdf_default_preview_verified": true,
+  "predecessor_record_id": 22071323,
+  "public_file_order": [
+    "CHECKSUMS.sha256",
+    "geometri-diferensial-manifold-mulus-hingga-unit-10-id.pdf",
+    "geometri-diferensial-manifold-mulus-brenner-id-unit10-html-20260823.zip",
+    "geometri-diferensial-manifold-mulus-brenner-id-unit10-source-20260823.zip",
+    "LICENSE.md",
+    "FILE_MANIFEST.csv",
+    "RELEASE_NOTES_20260823.md"
+  ],
+  "publication_action": "published_new_version",
+  "reader_first_order": [
+    "geometri-diferensial-manifold-mulus-hingga-unit-10-id.pdf",
+    "geometri-diferensial-manifold-mulus-brenner-id-unit10-html-20260823.zip",
+    "geometri-diferensial-manifold-mulus-brenner-id-unit10-source-20260823.zip",
+    "LICENSE.md",
+    "RELEASE_NOTES_20260823.md",
+    "FILE_MANIFEST.csv",
+    "CHECKSUMS.sha256"
+  ],
+  "record_id": 22073928,
+  "record_url": "https://zenodo.org/records/22073928",
+  "remote_state_mutated": true,
+  "schema_version": 1,
+  "status": "pass",
+  "verified_at_utc": "2026-08-24T01:48:28.893190+00:00",
+  "version": "2026.08.23-unit10",
+  "workflow": "o011-publish-zenodo-unit10-rdm-v1"
+}

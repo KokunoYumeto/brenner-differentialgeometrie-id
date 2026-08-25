@@ -1,0 +1,420 @@
+{
+  "exercise_count": 18,
+  "exercises": [
+    {
+      "exercise_index": 1,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Zweidimensionaler Graph/Sattelfläche/Tangentiales Vektorfeld/Aufgabe/Lösung",
+      "task_title": "Zweidimensionaler Graph/Sattelfläche/Tangentiales Vektorfeld/Aufgabe"
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 2697,
+        "path": "authority/mediawiki/worksheet06_exercise02_solution_revid1094226.utf8.b64",
+        "sha256": "4b65b8f9ba9b68c460cecd55211a6048e6993c4fe20c40d01f9715b8b730998e"
+      },
+      "exercise_index": 2,
+      "exists": true,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 2737,
+        "http_date": "Sat, 22 Aug 2026 19:35:57 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Kugeloberfläche/Vektorfeld zu Breitenkreis/Kovariante Ableitung/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 718,
+          "path": "authority/exports/worksheet06_exercise02_solution_latex_expand.json.request.json",
+          "sha256": "a45e89f8313d246c5678aadf8727c393cf4f4b1854e5a6680b6b00ac59d15cfe"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 3065,
+          "path": "authority/exports/worksheet06_exercise02_solution_latex_expand.json",
+          "sha256": "b542b94d73829496a7aa4261c38af095240a966b99445fbb4b7f5c3c560e757e"
+        },
+        "retrieved_utc": "2026-08-22T19:35:58Z",
+        "sanitized_source": {
+          "bytes": 2390,
+          "path": "authority/expanded/worksheet06_exercise02_solution_source.de.tex",
+          "sha256": "97b063b6f25eadad6dd7fd6eaae1fce4a61c979f513d6139cac846114a6f6025"
+        },
+        "sanitizer": {
+          "bytes": 3113,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+        },
+        "sanitizer_receipt": {
+          "bytes": 713,
+          "path": "qa/unit-06/worksheet06_exercise02_solution_sanitize.json",
+          "sha256": "77819f9a5775950fc390de66e5357efeebc2a481766232033cde8d5f9c454e38"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "5d6c5ee4b7ac2938fe45276743850bfec0ae5f3a",
+      "metadata": {
+        "bytes": 1260,
+        "path": "authority/mediawiki/worksheet06_exercise02_solution_revid1094226.metadata.json",
+        "sha256": "a22c784d724090f9b26e7f81818572bd037702a140aa2cac7792261999df3e43"
+      },
+      "pageid": 151235,
+      "parentid": 1094187,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 2023,
+        "path": "authority/mediawiki/worksheet06_exercise02_solution_revid1094226.wiki",
+        "sha256": "0098b04c4edf6dd585d1f00c811a75284d74bfb2947009d9c69d7196db3fa172"
+      },
+      "revid": 1094226,
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Kugeloberfläche/Vektorfeld zu Breitenkreis/Kovariante Ableitung/Aufgabe/Lösung",
+      "source_utf8_bytes": 2022,
+      "source_utf8_sha256": "2e6ffe35b9e2a7fd10dae0189939dbaa382a82814ea933d28f7841738eaf6478",
+      "task_title": "Kugeloberfläche/Vektorfeld zu Breitenkreis/Kovariante Ableitung/Aufgabe",
+      "timestamp": "2026-06-14T15:21:29Z"
+    },
+    {
+      "exercise_index": 3,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Hyperfläche/Kurve/Paralleles Vektorfeld/Eigenschaften/Fakt/Beweis/Aufgabe/Lösung",
+      "task_title": "Hyperfläche/Kurve/Paralleles Vektorfeld/Eigenschaften/Fakt/Beweis/Aufgabe"
+    },
+    {
+      "exercise_index": 4,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Hyperebene/Weg/Tangentiales Vektorfeld/Parallel/Aufgabe/Lösung",
+      "task_title": "Hyperebene/Weg/Tangentiales Vektorfeld/Parallel/Aufgabe"
+    },
+    {
+      "exercise_index": 5,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Kugeloberfläche/Großkreis/Paralleles Vektorfeld/Aufgabe/Lösung",
+      "task_title": "Kugeloberfläche/Großkreis/Paralleles Vektorfeld/Aufgabe"
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 1673,
+        "path": "authority/mediawiki/worksheet06_exercise06_solution_revid1095929.utf8.b64",
+        "sha256": "3701edf9ce4e0fb80fb14c1266e14adcea47e63741137c5e08fd3d59ce57c767"
+      },
+      "exercise_index": 6,
+      "exists": true,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 1108,
+        "http_date": "Sat, 22 Aug 2026 19:35:57 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Fläche im Raum/Paralleles Vektorfeld/Einheitsnormalenfeld/Kreuzprodukt/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 725,
+          "path": "authority/exports/worksheet06_exercise06_solution_latex_expand.json.request.json",
+          "sha256": "75f34d9cfe27e9766a2fd239dc5290c933b946870a89e9f48172de1adc8be0e7"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 1268,
+          "path": "authority/exports/worksheet06_exercise06_solution_latex_expand.json",
+          "sha256": "ac8562314bc5e0fbfbef91117331cf260e751aada987ac6784c8e95f0fdc82fb"
+        },
+        "retrieved_utc": "2026-08-22T19:35:58Z",
+        "sanitized_source": {
+          "bytes": 1021,
+          "path": "authority/expanded/worksheet06_exercise06_solution_source.de.tex",
+          "sha256": "f986bce024056c1979de52dc33b5afff08e889559dd2a9ebee39c826d452a59a"
+        },
+        "sanitizer": {
+          "bytes": 3113,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+        },
+        "sanitizer_receipt": {
+          "bytes": 713,
+          "path": "qa/unit-06/worksheet06_exercise06_solution_sanitize.json",
+          "sha256": "70d0c078f4cc89f12378dbe9be22e835fb3ee7b055dccfa17e1ed6d2baeb9327"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "280e71235ea4bd9f652b9177ff271d7a397cc89e",
+      "metadata": {
+        "bytes": 1267,
+        "path": "authority/mediawiki/worksheet06_exercise06_solution_revid1095929.metadata.json",
+        "sha256": "fb0f378e66d7bad52f4086e80cfa243d0b10da4d815721915a3eefffdf6029c7"
+      },
+      "pageid": 151269,
+      "parentid": 1088957,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 1254,
+        "path": "authority/mediawiki/worksheet06_exercise06_solution_revid1095929.wiki",
+        "sha256": "0531f2bf9644a3a4ceb7720c644a9ab5cc5267046ad0d3561d0042bb0bc8839a"
+      },
+      "revid": 1095929,
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Fläche im Raum/Paralleles Vektorfeld/Einheitsnormalenfeld/Kreuzprodukt/Aufgabe/Lösung",
+      "source_utf8_bytes": 1253,
+      "source_utf8_sha256": "50c9b981a7aa75964c4afc3e0531c06b921ae10697ae7cf75a93c74a003a2622",
+      "task_title": "Fläche im Raum/Paralleles Vektorfeld/Einheitsnormalenfeld/Kreuzprodukt/Aufgabe",
+      "timestamp": "2026-06-15T07:28:04Z"
+    },
+    {
+      "exercise_index": 7,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Hyperfläche/Paralleles Vektorfeld/Differentialgleichung/1/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Hyperfläche/Paralleles Vektorfeld/Differentialgleichung/1/Aufgabe"
+    },
+    {
+      "exercise_index": 8,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Hyperebene/Paralleltransport/Identität/Aufgabe/Lösung",
+      "task_title": "Hyperebene/Paralleltransport/Identität/Aufgabe"
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 1049,
+        "path": "authority/mediawiki/worksheet06_exercise09_solution_revid1021634.utf8.b64",
+        "sha256": "5d39442ffc74fb9f3ddf1f4caf9925e6e884aae41e4432dc1b281da15310b972"
+      },
+      "exercise_index": 9,
+      "exists": true,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 713,
+        "http_date": "Sat, 22 Aug 2026 19:35:58 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Hyperfläche/Geodätische Kurve/Tangentiale Richtung/Paralleltransport/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 723,
+          "path": "authority/exports/worksheet06_exercise09_solution_latex_expand.json.request.json",
+          "sha256": "ab03fb5778f683d2357f6aa1a2e6d52374f3c64cd7bd7fd407d9d0af8291a8b0"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 875,
+          "path": "authority/exports/worksheet06_exercise09_solution_latex_expand.json",
+          "sha256": "0d0fbf701fc961f1f3f4c22ed6c9c4e7b5838b40896a8e0ce4410104bfb7311f"
+        },
+        "retrieved_utc": "2026-08-22T19:35:58Z",
+        "sanitized_source": {
+          "bytes": 598,
+          "path": "authority/expanded/worksheet06_exercise09_solution_source.de.tex",
+          "sha256": "9eefeeabb0e4769e28c4340d4ce2fa33172773862fdcbb791f21e583ea8e1b61"
+        },
+        "sanitizer": {
+          "bytes": 3113,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+        },
+        "sanitizer_receipt": {
+          "bytes": 710,
+          "path": "qa/unit-06/worksheet06_exercise09_solution_sanitize.json",
+          "sha256": "d53586318ecf2a1529cd3bcee22903684e43d132cd8fdb3b91b8d57d42133a24"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "83ebe00fa05225e5db1d684af46be6f2e6202e88",
+      "metadata": {
+        "bytes": 1262,
+        "path": "authority/mediawiki/worksheet06_exercise09_solution_revid1021634.metadata.json",
+        "sha256": "b0519ec36c9a0473a3560dcafed01c0c87f030f270098615174b835f28e83f2a"
+      },
+      "pageid": 151260,
+      "parentid": 990808,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 786,
+        "path": "authority/mediawiki/worksheet06_exercise09_solution_revid1021634.wiki",
+        "sha256": "0e4eab170bba5c1eafd3a8f8373e524eba77a8119a66e8b50ae97edcfb96bac0"
+      },
+      "revid": 1021634,
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Hyperfläche/Geodätische Kurve/Tangentiale Richtung/Paralleltransport/Aufgabe/Lösung",
+      "source_utf8_bytes": 785,
+      "source_utf8_sha256": "f41d76403c109c3a5303891373fe499e83cb7b12a841aad461627b19a2883ba5",
+      "task_title": "Hyperfläche/Geodätische Kurve/Tangentiale Richtung/Paralleltransport/Aufgabe",
+      "timestamp": "2025-08-09T18:45:38Z"
+    },
+    {
+      "exercise_index": 10,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Kugeloberfläche/Geschlossener Großkreis/Paralleltransport/Aufgabe/Lösung",
+      "task_title": "Kugeloberfläche/Geschlossener Großkreis/Paralleltransport/Aufgabe"
+    },
+    {
+      "exercise_index": 11,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Kugeloberfläche/Breitengrad/Paralleltransport/Aufgabe/Lösung",
+      "task_title": "Kugeloberfläche/Breitengrad/Paralleltransport/Aufgabe"
+    },
+    {
+      "exercise_index": 12,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Hyperfläche/Transport durch Projektion/Eigenschaften/Aufgabe/Lösung",
+      "task_title": "Hyperfläche/Transport durch Projektion/Eigenschaften/Aufgabe"
+    },
+    {
+      "exercise_index": 13,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Hyperfläche/Holonomiegruppe/Untergruppe/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Hyperfläche/Holonomiegruppe/Untergruppe/Aufgabe"
+    },
+    {
+      "exercise_index": 14,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Hyperebene/Paralleltransport/Holonomiegruppe/Aufgabe/Lösung",
+      "task_title": "Hyperebene/Paralleltransport/Holonomiegruppe/Aufgabe"
+    },
+    {
+      "exercise_index": 15,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 2,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Kugeloberfläche/Vektorfeld zu Breitenkreis/Kovariante Ableitung/2/Aufgabe/Lösung",
+      "task_title": "Kugeloberfläche/Vektorfeld zu Breitenkreis/Kovariante Ableitung/2/Aufgabe"
+    },
+    {
+      "exercise_index": 16,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 4,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Hyperfläche/Paralleles Vektorfeld/Differentialgleichung/2/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Hyperfläche/Paralleles Vektorfeld/Differentialgleichung/2/Aufgabe"
+    },
+    {
+      "exercise_index": 17,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 4,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Kugeloberfläche/Holonomiegruppe/Aufgabe/Lösung",
+      "task_title": "Kugeloberfläche/Holonomiegruppe/Aufgabe"
+    },
+    {
+      "exercise_index": 18,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 4,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Hyperfläche/Isometrie/Paralleles Vektorfeld/Paralleltransport/Holonomiegruppe/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Hyperfläche/Isometrie/Paralleles Vektorfeld/Paralleltransport/Holonomiegruppe/Aufgabe"
+    }
+  ],
+  "graded_exercise_count": 4,
+  "macro_api_agreement": true,
+  "missing_solution_count": 15,
+  "point_value_total": 14,
+  "practice_exercise_count": 14,
+  "query": {
+    "bytes": 6991,
+    "path": "authority/mediawiki/unit06_solution_pages_current.json",
+    "sha256": "a9197048cb9f4465bb865e37e64cbd191013732d54198c8ff98bc8473ef9c192"
+  },
+  "query_request_receipt": {
+    "bytes": 1993,
+    "path": "authority/mediawiki/unit06_solution_pages_current.json.request.json",
+    "sha256": "2e7ab86146afd51970571faea1beee3bb05993926fc97ce3a8e09286a5b44bfe"
+  },
+  "query_retrieved_utc": "2026-08-22T19:35:57Z",
+  "schema_version": 1,
+  "supplied_solution_count": 3,
+  "supplied_solution_indices": [
+    2,
+    6,
+    9
+  ],
+  "workflow": "o011-unit06-solution-freeze-v1",
+  "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 6"
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-13/lecture13.id.tex",
+  "input_bytes": 23437,
+  "input_sha256": "967551bab13674a72cd13fdde37bb9b1d0037adbc29d5a0059ec6f68258dc4db",
+  "output": "build/generated/lecture13.id.build.tex",
+  "output_bytes": 23008,
+  "output_sha256": "b659b836d9971bbe06554402003db1a18a05ab27c14310bc8a20674d204ab2b0",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 2,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Topologischer Raum/Abzählbare Basis/Überdeckung besitzt abzählbare Teilüberdeckung/Aufgabe",
+      "label": "Soal 2.8 (Teori Ukuran dan Integrasi (Osnabrück 2022-2023))"
+    },
+    {
+      "target": "Topologischer Raum/Abzählbare Basis/Überdeckungskompakt und folgenkompakt/Fakt",
+      "label": "Lema 13.13"
+    },
+    {
+      "target": "R^n/Abzählbare Topologie durch Bälle/Aufgabe",
+      "label": "Soal 13.17"
+    },
+    {
+      "target": "Kompaktheit/R^n/Charakterisierung mit konvergenten Teilfolgen/Fakt",
+      "label": "Teorema 36.9 (Analisis (Osnabrück 2021-2023))"
+    },
+    {
+      "target": "Diffeomorphismus/Transformationsformel für Integrale/Fakt",
+      "label": "rumus transformasi"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

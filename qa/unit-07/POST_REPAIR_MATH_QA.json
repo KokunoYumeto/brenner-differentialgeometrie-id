@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-unit07-post-repair-mathematical-topology-qa-v1",
+  "status": "pass",
+  "scope": "Unit 7 Lecture 7, Worksheet 7, and the three source-supplied solution surfaces",
+  "method": "Independent source/target receipt review, exact inline/display-math and protected-topology comparisons, exercise-order census, clean cumulative PDF build, and sampled visual inspection. No mathematical token changes were admitted.",
+  "source_target_receipts": [
+    "qa/unit-07/lecture07_translation.json",
+    "qa/unit-07/worksheet07_translation.json",
+    "qa/unit-07/worksheet07_exercise04_solution_translation.json",
+    "qa/unit-07/worksheet07_exercise07_solution_translation.json",
+    "qa/unit-07/worksheet07_exercise13_solution_translation.json"
+  ],
+  "checks": {
+    "translation_receipts_pass": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profiles_equal_or_declared": true,
+    "exercise_order_1_through_19": true,
+    "graded_exercises": [4, 7, 9, 13, 16],
+    "source_solution_exercises": [4, 7, 13],
+    "missing_source_solutions": [1, 2, 3, 5, 6, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19],
+    "source_hints_present": false,
+    "cumulative_pdf_build_pass": true,
+    "interactive_gif_surfaces_preserved": true,
+    "visual_sample_review_pass": true,
+    "unresolved_p1_p2_p3_findings": 0
+  },
+  "declared_non_mathematical_repairs": [
+    {
+      "id": "O011-TRANS-0070",
+      "surface": "mathbed text argument",
+      "change": "German mit -> Indonesian dengan"
+    },
+    {
+      "id": "O011-TRANS-0071",
+      "surface": "comparison macro text",
+      "change": "German für/sonst -> Indonesian untuk/selain itu"
+    },
+    {
+      "id": "O011-TEX-0072",
+      "surface": "Manifold zahyou3.png creator display in moving TeX argument",
+      "change": "ASCII 132ninme display only; exact Unicode creator retained in rights metadata"
+    }
+  ],
+  "artifact_bindings": {
+    "lecture_target": {"path": "source/units/unit-07/lecture07.id.tex", "bytes": 20487, "sha256": "5faec64b0b20a6999e61fc3fa6a32db812e324d1e8a272d1978c67bc76c3c7b0"},
+    "worksheet_target": {"path": "source/units/unit-07/worksheet07.id.tex", "bytes": 8029, "sha256": "af223f98696a9353e7967d3ac150a8f2f5de3c49bef506c69fe0d452e7717658"},
+    "reader_pdf": {"path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-07-id.pdf", "bytes": 4950232, "sha256": "8c2cf76230b45d66a8236c0cd92a048809ff5ec0cce343132dd902684cb05ec6"},
+    "pdf_boundary_qa": {"path": "qa/unit-07/PDF_BOUNDARY_QA.json", "bytes": 8777, "sha256": "06b50304e1ac3f7873c054b6607f689db08f6e65fb583beffaaeb91e7bd39ef0"}
+  },
+  "model_identification": "OpenAI Codex gpt-5.6-sol, Ultra"
+}

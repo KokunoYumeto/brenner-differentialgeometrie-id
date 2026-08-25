@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-24T04:50:44+02:00",
+  "unit_id": "o011-brenner-u12",
+  "status": "pass",
+  "scope": "Bounded authority, timing, rights, reader-description, and deterministic static-PDF fallback verification for the Unit 12 animated GIF. This receipt does not claim the later cumulative HTML interaction gate.",
+  "canonical_animation": {
+    "filename": "Fiddler crab mobius strip.gif",
+    "path": "authority/media/Fiddler crab mobius strip.gif",
+    "bytes": 1557242,
+    "sha256": "059c8643c42a0561e5ee5efe52cd5fc59de0879ddd3870fa200f4ae66a2fc69a",
+    "mime": "image/gif",
+    "width": 317,
+    "height": 489,
+    "frame_count": 24,
+    "delay_unit": "1/100 second",
+    "frame_delays": [180, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 180, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40],
+    "total_duration_seconds": 12.4,
+    "creator": "Hamishtodd1",
+    "license": "CC BY-SA 4.0",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Fiddler_crab_mobius_strip.gif"
+  },
+  "static_pdf_fallback": {
+    "frame_index": 0,
+    "path": "build/generated/media/Fiddler_crab_mobius_strip.png",
+    "bytes": 145058,
+    "sha256": "15f45aee985375fe99b19f30dc62268d286db4caf103cf4fc066a8951cc43790",
+    "identify": "PNG 317 489 sRGB",
+    "canonical_animation_unchanged": true,
+    "portable_preamble_macro": "bildeinlesunggif -> generated/media/#1.png"
+  },
+  "reader_description": "Animasi seekor kepiting biola yang mengelilingi pita Möbius dan kembali dengan orientasi tercermin. Edisi PDF menampilkan bingkai pertama yang statis; animasi asli dipertahankan untuk edisi HTML dan unduhan.",
+  "bindings": {
+    "media_receipt": {
+      "path": "qa/unit-12_media.json",
+      "bytes": 4350,
+      "sha256": "b4ddde72b4d43261bb90a2f0f6fe360ed5e3d83b5c46c91a3bfd2e7737dd9fda"
+    },
+    "media_preparer": {
+      "path": "scripts/prepare_unit_media.py",
+      "bytes": 12757,
+      "sha256": "2f1ddc03e83d47fddb747f8c5738804a0adb0b29a14b0d7e093b24ff3f63305e"
+    },
+    "preamble_generator": {
+      "path": "scripts/make_portable_preamble.py",
+      "bytes": 8870,
+      "sha256": "65c2aaf7171d0b090e7469a481c09d403b1d80dc5124effb79e2195117ef88af"
+    },
+    "portable_preamble": {
+      "path": "build/brenner-compat.tex",
+      "bytes": 85780,
+      "sha256": "c4d5afb66ba066b45cb466cd863840dc4bdc8d19f73f62f57fc2a96c764fc113"
+    }
+  },
+  "checks": {
+    "canonical_bytes_match_frozen_commons_authority": true,
+    "frame_count_dimensions_and_source_timing_measured": true,
+    "frame_zero_derivative_generated_from_canonical_animation": true,
+    "two_media_preparation_cycles_byte_identical": true,
+    "canonical_animation_retained_for_html_and_download": true,
+    "static_pdf_path_resolves_without_requiring_animation_support": true,
+    "indonesian_description_present_in_source_and_prepared_fragment": true,
+    "file_specific_creator_and_license_preserved": true
+  },
+  "next_action": "At the consolidated Units 11-13 HTML gate, expose a keyboard-operable play/stop control with the static frame as the non-animated state and verify prefers-reduced-motion behavior; do not alter canonical GIF bytes."
+}

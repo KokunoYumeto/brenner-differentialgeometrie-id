@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "source": "authority/expanded/lecture08_source.de.tex",
+  "source_bytes": 17329,
+  "source_sha256": "91fef67aac0b5f0f539f73a672d3bb1c79b277986cc5561c0e27801a9973129a",
+  "target": "source/units/unit-08/lecture08.id.tex",
+  "target_bytes": 18099,
+  "target_sha256": "90574f5e2879e7bc07ee20e5a335d78bd1b84f5f94b52f257dcdd0f3abf6f8bf",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 468,
+    "environments": 0,
+    "inline_math": 58,
+    "display_math": 0,
+    "protected_calls": 64
+  },
+  "status": "pass",
+  "failures": [],
+  "declared_corrections": [
+    "O011-CORR-0074",
+    "O011-CORR-0075",
+    "O011-CORR-0073",
+    "O011-CORR-0076"
+  ],
+  "evidence_only_results": [
+    {
+      "correction_id": "O011-CORR-0073",
+      "surface": "command:mavergleichskette",
+      "occurrence_index": 13,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0074",
+      "surface": "command:mavergleichskettedisp",
+      "occurrence_index": 0,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0075",
+      "surface": "command:mathkor",
+      "occurrence_index": 4,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0075",
+      "surface": "command:mathl",
+      "occurrence_index": 6,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0075",
+      "surface": "command:mathl",
+      "occurrence_index": 7,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0076",
+      "surface": "command:maabb",
+      "occurrence_index": 2,
+      "status": "pass",
+      "detail": "verified"
+    }
+  ]
+}

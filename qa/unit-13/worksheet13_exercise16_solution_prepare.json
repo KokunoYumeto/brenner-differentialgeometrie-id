@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-13/worksheet13_exercise16_solution.id.tex",
+  "input_bytes": 1031,
+  "input_sha256": "802f85bf09bec093760930a4c179651c540c1b2b75b21943a12724a74f9d6fa3",
+  "output": "build/generated/worksheet13_exercise16_solution.id.build.tex",
+  "output_bytes": 937,
+  "output_sha256": "0931addc2f1a421dd6281b56c2a7df6d5fb451364a84a1fd4452d6f28ff031e2",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Metrischer Raum/Cauchy-Folge/Häufungspunkt/Konvergent/Aufgabe",
+      "label": "Soal"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

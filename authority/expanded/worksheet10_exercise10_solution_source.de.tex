@@ -1,0 +1,295 @@
+a) Jede nilpotente Matrix
+\mathl{\begin{pmatrix}  a   &   b   \\  c  & d \end{pmatrix}}{} lässt sich durch den linearen Weg
+\maabbeledisp {} {[0,1]} {N
+} { t } {t \begin{pmatrix}  a   &   b   \\  c  & d \end{pmatrix}
+} {,}
+innerhalb der nilpotenten Matrizen mit der Nullmatrix verbinden. Daher ist $N$ wegzusammenhängend und damit auch zusammenhängend.
+
+b) Eine
+$2 \times 2$-\definitionsverweis {Matrix}{}{}
+ist genau dann nilpotent, wenn sowohl die Spur als auch die Determinante $0$ sind. Die Menge $N$ der nilpotenten Matrizen kann also als
+
+\mathdisp {\left\{  (a,b,c,d)  \mid   a+d = 0 \text{ und } ad-bc = 0         \right\}} {  }
+
+aufgefasst werden. Wir betrachten die Abbildung
+\maabbeledisp {} {\R^4} {\R^2
+} {(a,b,c,d)} { (a+d, ad-bc)
+} {.}
+Deren Jacobi-Matrix ist
+
+\mathdisp {\begin{pmatrix}  1 &  0 &  0 &  1 \\  d  &  -c &  -b &  a  \end{pmatrix}} { . }
+
+Diese Abbildung ist im Nullpunkt nicht
+\definitionsverweis {regulär}{}{,}
+aber in jedem anderen Punkt der Faser $N$. Wenn nämlich
+\mathl{P \in M}{} ist, so folgt wegen
+
+\mavergleichskettedisp
+{\vergleichskette
+{a^2
+}
+{ =} {bc
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+aus
+
+\mavergleichskettedisp
+{\vergleichskette
+{b
+}
+{ =} { c
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+sofort
+
+\mavergleichskettedisp
+{\vergleichskette
+{a
+}
+{ =} {b
+}
+{ =} { c
+}
+{ =} { d
+}
+{ =} { 0
+}
+}
+{}{}{.}
+Die Jacobi-Matrix hat also in den Punkten aus $M$ den maximalen Rang. Mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{G
+}
+{ =} {\R^4 \setminus \{0\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+kann man $M$ als die Faser der eingeschränkten Abbildung auffassen, die überall auf der Faser regulär ist. Daher ist $M$ nach
+[[Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt|Fakt]]
+eine abgeschlossene Untermannigfaltigkeit von $G$.
+
+c) Nach
+[[Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt|Fakt]]
+ist die Dimension von $M$ gleich
+
+\mavergleichskette
+{\vergleichskette
+{ 4-2
+}
+{ = }{ 2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+d) Wir schreiben
+
+\mavergleichskettedisp
+{\vergleichskette
+{M_+
+}
+{ =} { \left\{ (a,b,c,d) \in M  \mid   b>c        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{M_-
+}
+{ =} { \left\{ (a,b,c,d) \in M  \mid   b<c        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+beides sind
+\zusatzklammer {als Durchschnitt von $M$ mit der durch
+\mathl{b>c}{} gegebenen offenen Menge des $\R^4$} {} {}
+offene Mengen in $M$. Die Matrizen
+\mathkor {} {\begin{pmatrix}  0  &   1  \\  0 &  0 \end{pmatrix}} {und} {\begin{pmatrix}  0  &   0  \\  1 &  0 \end{pmatrix}} {}
+zeigen, dass sie nicht leer sind. Ferner überdecken sie ganz $M$. Bei
+
+\mavergleichskette
+{\vergleichskette
+{b
+}
+{ = }{ c
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+folgt nämlich wegen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 0
+}
+{ =} { ad-bc
+}
+{ =} { -a^2 -b^2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+direkt
+
+\mavergleichskette
+{\vergleichskette
+{a
+}
+{ = }{b
+}
+{ = }{ c
+}
+{ =   }{ d
+}
+{ =  }{ 0
+}
+}
+{}{}{,}
+und der Punkt gehört nicht zu $M$. Es liegt also eine Überdeckung mit zwei nichtleeren disjunkten offenen Mengen vor, daher ist $M$ nicht zusammenhängend.
+
+e) Wir arbeiten mit der Abbildung
+\maabbeledisp {\psi} {\R^2 \setminus \{(0,0)\}} { M_+
+} {(a,u)} { (a, u + \sqrt{a^2+u^2}, u - \sqrt{a^2 +u^2},-a)
+} {.}
+Wegen
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ad-bc
+}
+{ =} { -a^2 - \left(  u + \sqrt{a^2+u^2}  \right) \left( u - \sqrt{a^2+u^2}  \right)
+}
+{ =} { -a^2 - \left(  u^2 - \left(  a^2+u^2 \right)   \right)
+}
+{ =} { 0
+}
+{ } {
+}
+}
+{}
+{}{}
+ist die Determinantenbedingung erfüllt, und wegen
+
+\mavergleichskettedisp
+{\vergleichskette
+{b-c
+}
+{ =} { u + \sqrt{a^2+u^2} - \left(  u- \sqrt{a^2 +u^2})  \right)
+}
+{ =} { 2 \sqrt{a^2+u^2}
+}
+{ >} { 0
+}
+{ } {
+}
+}
+{}{}{}
+gehört das Bild zu $M_+$. Die Abbildung
+\maabbeledisp {\varphi} {M_+} { \R^2 \setminus \{(0,0)\}
+} {(a,b,c,d)} { \left(  a  , \,   { \frac{  b+c }{  2 } }                   \right)
+} {,}
+ist invers zu der gegebenen Abbildung. Dabei ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi \circ \psi
+}
+{ =} {
+\operatorname{Id}_{ \R^2 \setminus \{(0,0)\}  }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+klar. Die andere Identität ergibt sich aus
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ { \frac{  b+c }{  2 } } + \sqrt{a^2 + \left( { \frac{  b+c }{  2 } }  \right)^2 }
+}
+{ =} { { \frac{  b+c }{  2 } } + { \frac{   1 }{  2 } }  \sqrt{4 a^2 + b^2 +c^2 +2bc }
+}
+{ =} { { \frac{  b+c }{  2 } } + { \frac{   1 }{  2 } }  \sqrt{ b^2 +c^2 -2bc }
+}
+{ =} { { \frac{  b+c }{  2 } } + { \frac{  b-c }{  2 } }
+}
+{ =} {b
+}
+}
+{}
+{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{  b+c }{  2 } } - \sqrt{a^2 + \left(   { \frac{  b+c }{  2 } }   \right)^2 }
+}
+{ =} { { \frac{  b+c }{  2 } } - { \frac{  b-c }{  2 } }
+}
+{ =} { c
+}
+{ } {}
+{ } {}
+}
+{}{}{.}
+Beide Abbildungen sind stetig, daher liegt eine
+\definitionsverweis {Homöomorphie}{}{}
+vor.
+Für
+\mathl{M_-}{} vertauscht man die Rollen von
+\mathkor {} {b} {und} {c} {.}
+
+ [[Kategorie:Latexseite]]

@@ -1,0 +1,298 @@
+{
+  "baseline": {
+    "csv_prefix_bytes": 414039,
+    "csv_prefix_sha256": "409c3d79d99ac17cbf4bf597763221681db00d4fd4c3f7a8cc84c6cd98c9a753",
+    "jsonl_bytes": 1138347,
+    "jsonl_sha256": "ef614f1d6f74357b65644e06d5667870339f9ee6712bdde028e8b3923e16d132",
+    "preserved_byte_identically": true,
+    "records": 1888
+  },
+  "checkpoint": "2026-08-24T20:50:06Z",
+  "checks": {
+    "all_ids_unique": true,
+    "all_references_resolve": true,
+    "canonical_jsonl": true,
+    "combined_json_schema_valid": true,
+    "component_rights_current": true,
+    "correction_manifest_target_bindings_current": true,
+    "csv_projection_exact": true,
+    "html_pdf_reader_all_or_nothing": true,
+    "immutable_units1_10_prefix": true,
+    "live_input_bindings_current": true,
+    "model_provenance_current": true,
+    "pdf_structural_qa_current": true,
+    "pdf_visual_qa_current": true,
+    "qa_receipts_current": true,
+    "solution_hint_point_media_closure": true,
+    "source_target_segment_hashes_current": true
+  },
+  "combined_records": 2604,
+  "determinism": {
+    "first_csv_sha256": "e891d6f7c3cb9655f375e9309cd54d0840a09033722b794bd3d01fe73606c854",
+    "first_jsonl_sha256": "15c4fd6b78a277be60d08016f4df4e5a3afe56bb26f5cb24df285256514186e9",
+    "first_manifest_sha256": "e5959dfd7347fbf53ac3210cd8e671c5dc84842fba99c940a68f062c0bb3dbc3",
+    "second_export_matches_first": true
+  },
+  "outputs": {
+    "manifest": {
+      "bytes": 30235,
+      "path": "backend/MANIFEST.json",
+      "sha256": "e5959dfd7347fbf53ac3210cd8e671c5dc84842fba99c940a68f062c0bb3dbc3"
+    },
+    "records_csv": {
+      "bytes": 584320,
+      "path": "backend/records.csv",
+      "sha256": "e891d6f7c3cb9655f375e9309cd54d0840a09033722b794bd3d01fe73606c854"
+    },
+    "records_jsonl": {
+      "bytes": 1586447,
+      "path": "backend/records.jsonl",
+      "sha256": "15c4fd6b78a277be60d08016f4df4e5a3afe56bb26f5cb24df285256514186e9"
+    }
+  },
+  "reader_closure": {
+    "html": {
+      "entry": {
+        "bytes": 942593,
+        "path": "output/html/unit-13/index.html",
+        "sha256": "994c6caf59d87638b3b78583cc9765c2dd8feba42a1ba2ab2c2a9e02d068ebc8"
+      },
+      "manifest": {
+        "bytes": 78936,
+        "path": "output/html/unit-13/manifest.json",
+        "sha256": "8e4cd88db27d77eb4f764aa71816ef15bf758387ccb050e99f383eb741db87da"
+      },
+      "qa": {
+        "bytes": 22249,
+        "path": "qa/unit-13/HTML_READER_QA.json",
+        "sha256": "8790767d395fc994779d4e349c38d3d99e8828c782ebf69ab32fa020d4d869d2"
+      }
+    },
+    "pdf": {
+      "artifact": {
+        "bytes": 6396207,
+        "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-13-id.pdf",
+        "sha256": "a4d7e55604de9bfb6556d78461db8255a6c584d36b8934a0993b2386ad5832a7"
+      },
+      "page_size": "A4, 595.276 x 841.89 pt",
+      "pages": 213,
+      "structural_qa": {
+        "bytes": 202022,
+        "path": "qa/unit-13/pdf_structural_qa.json",
+        "sha256": "785a2afe6335d2c2978b6f26ea42d49f61f3f1bd59a939258c0cef8606561089"
+      },
+      "visual_qa": {
+        "bytes": 2742,
+        "path": "qa/unit-13/PDF_VISUAL_QA.json",
+        "sha256": "f3b6edc369b0a1112ab1713b717f324956b046e8acf12b73fd2181d161a50834"
+      }
+    },
+    "status": "cumulative_html_pdf_reader_bound",
+    "through_unit": 13
+  },
+  "schema_version": 1,
+  "status": "pass",
+  "units11_13_extension": {
+    "census": {
+      "11": {
+        "assets": 1,
+        "correction_ids": [
+          "O011-CORR-0104",
+          "O011-CORR-0105",
+          "O011-CORR-0106",
+          "O011-CORR-0107",
+          "O011-CORR-0108",
+          "O011-CORR-0109",
+          "O011-CORR-0110",
+          "O011-CORR-0111",
+          "O011-CORR-0112",
+          "O011-CORR-0113"
+        ],
+        "exercises": 39,
+        "graded_point_total": 22,
+        "hint_indices": [],
+        "lecture_sections": 2,
+        "source_solution_absent_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          12,
+          13,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "source_solution_indices": [
+          10,
+          14
+        ],
+        "worksheet_sections": 2
+      },
+      "12": {
+        "assets": 2,
+        "correction_ids": [
+          "O011-CORR-0114",
+          "O011-CORR-0115",
+          "O011-CORR-0116",
+          "O011-CORR-0117",
+          "O011-CORR-0118",
+          "O011-TRANS-0119",
+          "O011-TRANS-0120",
+          "O011-TRANS-0121",
+          "O011-CORR-0122",
+          "O011-CORR-0123",
+          "O011-CORR-0124",
+          "O011-CORR-0125",
+          "O011-TRANS-0126",
+          "O011-ACC-0127",
+          "O011-ACC-0128",
+          "O011-CORR-0129",
+          "O011-CORR-0130",
+          "O011-CORR-0131",
+          "O011-CORR-0132",
+          "O011-TRANS-0133",
+          "O011-TRANS-0134",
+          "O011-TRANS-0156"
+        ],
+        "exercises": 29,
+        "graded_point_total": 15,
+        "hint_indices": [],
+        "lecture_sections": 2,
+        "source_solution_absent_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "source_solution_indices": [
+          11,
+          12
+        ],
+        "worksheet_sections": 1
+      },
+      "13": {
+        "assets": 1,
+        "correction_ids": [
+          "O011-CORR-0135",
+          "O011-TRANS-0136",
+          "O011-TRANS-0137",
+          "O011-TRANS-0138",
+          "O011-TRANS-0139",
+          "O011-TRANS-0140",
+          "O011-CORR-0150",
+          "O011-TRANS-0151",
+          "O011-CORR-0152",
+          "O011-CORR-0153",
+          "O011-CORR-0154",
+          "O011-TRANS-0155"
+        ],
+        "exercises": 24,
+        "graded_point_total": 20,
+        "hint_indices": [],
+        "lecture_sections": 5,
+        "source_solution_absent_indices": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          12,
+          13,
+          14,
+          15,
+          17,
+          20,
+          23,
+          24
+        ],
+        "source_solution_indices": [
+          1,
+          10,
+          11,
+          16,
+          18,
+          19,
+          21,
+          22
+        ],
+        "worksheet_sections": 2
+      }
+    },
+    "entity_counts": {
+      "artifact": 87,
+      "asset": 4,
+      "concept": 0,
+      "correction": 44,
+      "course": 0,
+      "edition": 0,
+      "program": 0,
+      "qa_event": 36,
+      "relation": 414,
+      "resource": 0,
+      "rights": 4,
+      "segment": 14,
+      "term": 0,
+      "unit": 113
+    },
+    "html_reader_bound": true,
+    "model_identification": "OpenAI Codex gpt-5.6-sol, Ultra",
+    "pdf_reader_bound": true,
+    "records": 716
+  },
+  "workflow": "o011-verify-backend-v13"
+}

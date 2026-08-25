@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-09/lecture09.id.tex",
+  "prose_only_corrections": [
+    {
+      "correction_id": "O011-CORR-0084",
+      "anchor": "opening Euclidean regular-fiber tangent-space paragraph",
+      "change": "State m<=n and surjectivity before asserting kernel dimension n-m."
+    },
+    {
+      "correction_id": "O011-CORR-0085",
+      "anchor": "affine tangent representatives in parts (1) and (6) of Lemma 9.10",
+      "change": "Restrict both affine curves to sufficiently small open parameter intervals."
+    },
+    {
+      "correction_id": "O011-CORR-0086",
+      "anchor": "final link to the Euclidean maximal-rank definition",
+      "change": "Retain the frozen target while replacing the source's blank display number by a number-free truthful label."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_ids": ["O011-CORR-0080", "O011-CORR-0084", "O011-CORR-0085"],
+      "surface": "profile:commands",
+      "source_sha256": "a90e446c3ca50542796f3eec244c8b093b4328229b83df832c370ce28882f971",
+      "target_sha256": "4e0806275d5f3fe845dc52cc647dfef376b1ba571e2db4bf40cd7009e9c9b459"
+    },
+    {
+      "correction_ids": ["O011-CORR-0080", "O011-CORR-0084", "O011-CORR-0085"],
+      "surface": "profile:inline_math",
+      "source_sha256": "e751a4d1bdc697318b618f65bddfca93a146e8c78734cb8779400b750a048e0b",
+      "target_sha256": "be2addaee336765f6b822a2260926da11c8a532352d085e35fd9c32199899b02"
+    },
+    {
+      "correction_id": "O011-CORR-0080",
+      "surface": "protected:vergleichskette",
+      "index": 33,
+      "source_sha256": "e9f9e14e28bc467e9cc21cef4e99c2961008ded1c4723f444f1d35829f34ab6c",
+      "target_sha256": "e6f08c9cf15e72a25fc7427118922c71c8ce04e40bdad58d5bb5e069f9977ff4"
+    },
+    {
+      "correction_id": "O011-CORR-0081",
+      "surface": "protected:maabbeledisp",
+      "index": 1,
+      "source_sha256": "f5a52e6bfbcbb8893121f331ec76d2e869b19cd97b52b4691e536e3f2b534030",
+      "target_sha256": "c663bb5f33c9c734d2d3ac8190a47039b5c8d55ce23bd1388485849d24af6539"
+    },
+    {
+      "correction_id": "O011-CORR-0081",
+      "surface": "protected:mathdisp",
+      "index": 4,
+      "source_sha256": "e82d93d6d8e0b3305e8383c442951eb5012112416f2a793adaaf3494fe3a3c0b",
+      "target_sha256": "789f82be2c66269fce8641839842d2981d02dcaac139413565ea775ac0148abe"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-CORR-0081",
+      "surface": "command:mathl",
+      "occurrence_index": 2,
+      "source_sha256": "a7d20eb66d676ae987c9496dec703453ce9302e1e7dd50bcf17b8191467fcb41",
+      "target_sha256": "0c09e1e457828446c09be5c5b26877b40025e2cc232f5d2a142abcf22ff549a6",
+      "source_latex": "\\mathl{T_pM}{}",
+      "target_latex": "\\mathl{T_PM}{}"
+    },
+    {
+      "correction_id": "O011-CORR-0085",
+      "surface": "command:mathl",
+      "occurrence_index": 16,
+      "source_sha256": "dd5e6994f681883af23429beecb18abe1c3d366cf28cdad9a2a4430942bffee1",
+      "target_sha256": "dd5e6994f681883af23429beecb18abe1c3d366cf28cdad9a2a4430942bffee1",
+      "verification_note": "The unchanged affine formula anchors the added local-domain sentence."
+    },
+    {
+      "correction_id": "O011-CORR-0085",
+      "surface": "command:mathl",
+      "occurrence_index": 19,
+      "source_sha256": "eeeeb707a74360ae73bce17c02f06a04c828cde98745d5ea968a837d6a781718",
+      "target_sha256": "eeeeb707a74360ae73bce17c02f06a04c828cde98745d5ea968a837d6a781718",
+      "verification_note": "The unchanged identity-curve formula anchors the added local-domain sentence."
+    }
+  ]
+}

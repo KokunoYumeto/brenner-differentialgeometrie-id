@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-unit13-wrapper-derivation-v1",
+  "input": {
+    "path": "build/through-unit-10.tex",
+    "bytes": 8511,
+    "sha256": "be9b9fc8adadd331c0949032fb0118e1f0e5fdd9d0dfe7760334c1086112065b"
+  },
+  "output": {
+    "path": "build/generated/through-unit-13-driver.tex",
+    "bytes": 11498,
+    "sha256": "5e9218a832ff3c61f60922f83735281ec6ffc9b61f04a2b404cc382f995e8959"
+  },
+  "geometry": {
+    "paper": "A4",
+    "margin": "22mm",
+    "centered": true,
+    "class_option": "oneside"
+  },
+  "extension_units": [
+    11,
+    12,
+    13
+  ],
+  "supplied_solutions": {
+    "11": [
+      10,
+      14
+    ],
+    "12": [
+      11,
+      12
+    ],
+    "13": [
+      1,
+      10,
+      11,
+      16,
+      18,
+      19,
+      21,
+      22
+    ]
+  },
+  "unit12_gif_static_pdf_fallback": {
+    "path": "build/generated/media/Fiddler_crab_mobius_strip.png",
+    "frame_index": 0,
+    "sha256": "15f45aee985375fe99b19f30dc62268d286db4caf103cf4fc066a8951cc43790"
+  }
+}

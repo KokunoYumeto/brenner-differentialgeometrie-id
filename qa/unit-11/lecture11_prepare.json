@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-11/lecture11.id.tex",
+  "input_bytes": 16590,
+  "input_sha256": "c6d5266be60eec3911d841213fb4333b51c6555266915e0b64438c3c2bf3d4fc",
+  "output": "build/generated/lecture11.id.build.tex",
+  "output_bytes": 16101,
+  "output_sha256": "a3f689e02a8c0aede0f924f2bfd1205957a14e0994268ebe641f346a1367148d",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 4,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Produkt von Mannigfaltigkeiten/Ist Mannigfaltigkeit/Aufgabe",
+      "label": "Soal 11.1"
+    },
+    {
+      "target": "Zwei abgeschlossene Untermannigfaltigkeiten/Produkt davon/Aufgabe",
+      "label": "Soal 11.2"
+    },
+    {
+      "target": "Differenzierbarkeit/K/Lineare Abbildungen sind differenzierbar/Fakt",
+      "label": "Proposisi 45.3 (Analysis (Osnabrück 2021-2023))"
+    },
+    {
+      "target": "Totales Differential/K/Produktabbildungen/Aufgabe",
+      "label": "Soal 45.9 (Analysis (Osnabrück 2021-2023))"
+    },
+    {
+      "target": "Offene Menge/R^n/Vektorfelder/Hintereinanderschaltung/Explizit/Fakt",
+      "label": "Lema 11.5"
+    },
+    {
+      "target": "Offene Menge/R^n/Vektorfelder/Lie-Klammer/Vektorfeld/Fakt",
+      "label": "Lema 11.6"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

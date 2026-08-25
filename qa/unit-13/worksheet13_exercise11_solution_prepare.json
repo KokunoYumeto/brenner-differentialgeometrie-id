@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-13/worksheet13_exercise11_solution.id.tex",
+  "input_bytes": 1229,
+  "input_sha256": "35af09e224c9dd9d8c797cd89675880d03a1383a6a24e91c36939a68fbfb264b",
+  "output": "build/generated/worksheet13_exercise11_solution.id.build.tex",
+  "output_bytes": 953,
+  "output_sha256": "14da9cc8ea72afae45c78a9283115785efa5bc9eea90eae21289dd5950602ca1",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Stetige Abbildung/Bild eines kompakten Raumes/Kompakt/Fakt",
+      "label": "Fakta"
+    },
+    {
+      "target": "Kompaktheit/Satz von Heine-Borel/Fakt",
+      "label": "Fakta"
+    },
+    {
+      "target": "Reelle Zahlen/Beschränkte Teilmenge hat Supremum/Fakt",
+      "label": "Fakta"
+    },
+    {
+      "target": "Reelle Zahlen/Abgeschlossene nach oben beschränkte Menge/Enthält Supremum/Fakt",
+      "label": "Fakta"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

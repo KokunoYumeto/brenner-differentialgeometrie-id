@@ -64,6 +64,8 @@ def main() -> None:
     args = parser.parse_args()
 
     root = args.project_root.resolve()
+    if not root.is_dir():
+        raise SystemExit(f"project root not found: {root}")
     output = (root / args.output).resolve()
     output_relative = output.relative_to(root)
     rows = []

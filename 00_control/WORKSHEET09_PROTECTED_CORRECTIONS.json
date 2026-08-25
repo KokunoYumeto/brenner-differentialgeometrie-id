@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-09/worksheet09.id.tex",
+  "prose_only_corrections": [
+    {
+      "correction_id": "O011-CORR-0082",
+      "anchor": "graded Exercise 14 reparameterization lambda(t)=gamma(at)",
+      "change": "Define lambda on J={t in R | at in I}, an open neighborhood of zero, rather than assuming that multiplication by a preserves I."
+    },
+    {
+      "correction_id": "O011-CORR-0083",
+      "anchor": "graded Exercise 15 higher-order curve equivalence",
+      "change": "Replace the impossible request for a canonical vector-space structure when k>=2 by the correct chart-dependence test and intrinsic smooth-manifold dimension kn."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_ids": ["O011-CORR-0082", "O011-CORR-0083"],
+      "surface": "profile:commands",
+      "source_sha256": "467a26cd87763e6a78bdedd372b0a187027ffb765b376449be6e6d1a83ba16e0",
+      "target_sha256": "7cba42a1969cca3a3814be52006950c237ebcc19c7ea2b08225d81031d625593"
+    },
+    {
+      "correction_ids": ["O011-CORR-0082", "O011-CORR-0083"],
+      "surface": "profile:inline_math",
+      "source_sha256": "eb0b2f4eea2ac2c3811edf9d61f4d6da7545af8bb19c5c9c0aa219d99eb1f20f",
+      "target_sha256": "d9d69cd70af89a80c414e29de1489383ea5fbf4546e0c9a0360721f99d4c3d2a"
+    },
+    {
+      "correction_ids": ["O011-CORR-0082", "O011-CORR-0083"],
+      "surface": "profile:brace_profile",
+      "source_sha256": "ac1e5650a871fa1d8f95e37d0b1f4ba634125c5d8a9dd53807fe6988e7e7eaea",
+      "target_sha256": "4a405a1050fd0da690db2855b3596583009b0c46bd8236f1da12cc241bb429f4"
+    },
+    {
+      "correction_id": "O011-TRANS-0087",
+      "surface": "protected:vergleichskette",
+      "index": 3,
+      "source_sha256": "f65f8c9fe062e498345b36142894e21a5114e843ff0ad9f12d89d7c01f61cfc5",
+      "target_sha256": "3e5c35c66bdf1385bb679828741d237c407ce5530dbcc2db17407177389e1aff"
+    },
+    {
+      "correction_id": "O011-TRANS-0087",
+      "surface": "protected:mathdisp",
+      "index": 0,
+      "source_sha256": "34f8b31ee404f8ced7b9a9d4102bf35a7b3bb41483421a04bf9d6208991c0ece",
+      "target_sha256": "210b2c737e9d0239a31d95387435c4c4507e2218d3cb6a1d51374a99bf974c80"
+    },
+    {
+      "correction_id": "O011-TRANS-0087",
+      "surface": "protected:mathdisp",
+      "index": 1,
+      "source_sha256": "1ee36562c084cefced4e253c42098ac72368807032ae6ffaa37608c0a25cb6ab",
+      "target_sha256": "c6fa159dbda69bbfe8d77985223c1bfa7101994d337f62e902eff4288c03fae8"
+    },
+    {
+      "correction_id": "O011-TRANS-0087",
+      "surface": "protected:mathdisp",
+      "index": 2,
+      "source_sha256": "cfa88e39df56e850ee5b888645c84e2d19ef14afc1d671d183205971c159633b",
+      "target_sha256": "8b01363f1258343bdcf6f326c47310af6b75fdc3ae7e132adcbccec7caf4bb1a"
+    }
+  ],
+  "evidence_only_deltas": []
+}

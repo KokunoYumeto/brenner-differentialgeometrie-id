@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "source": "authority/expanded/lecture10_source.de.tex",
+  "source_bytes": 22299,
+  "source_sha256": "d9958463f904b6d4118203fc759307b1e97d758296ec1aec4b1e6747309bfa07",
+  "target": "source/units/unit-10/lecture10.id.tex",
+  "target_bytes": 23152,
+  "target_sha256": "bafd2d5f8d1307438c42f2b20a1914f143f097ddc7f37c2e1e9b99dccb340044",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 560,
+    "environments": 14,
+    "inline_math": 48,
+    "display_math": 0,
+    "protected_calls": 92
+  },
+  "status": "pass",
+  "failures": [],
+  "declared_corrections": [
+    "O011-CORR-0093",
+    "O011-CORR-0094",
+    "O011-CORR-0095",
+    "O011-CORR-0096",
+    "O011-CORR-0097",
+    "O011-CORR-0098",
+    "O011-TRANS-0103"
+  ],
+  "evidence_only_results": [
+    {
+      "correction_id": "O011-CORR-0098",
+      "surface": "command:mavergleichskette",
+      "occurrence_index": 39,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0103",
+      "surface": "command:definitionsverweis",
+      "occurrence_index": 20,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0103",
+      "surface": "command:definitionsverweis",
+      "occurrence_index": 36,
+      "status": "pass",
+      "detail": "verified"
+    }
+  ]
+}

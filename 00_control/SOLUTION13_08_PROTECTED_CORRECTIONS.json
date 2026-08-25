@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-08/worksheet08_exercise13_solution.id.tex",
+  "translation_only_deltas": [
+    "The three protected case labels German 'für' are translated as Indonesian 'untuk'; every surrounding formula token and branch boundary is preserved."
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0078",
+      "surface": "profile:commands",
+      "source_sha256": "1a3b43faa87fc904a0b10ccd7a0f75136461029c18ac3091bc8539fb5bec1e68",
+      "target_sha256": "4a5e8d1304917bde562f4ed7924f77a5fcfa68943becd6c78a3df298b9e09179"
+    },
+    {
+      "correction_id": "O011-CORR-0078",
+      "surface": "profile:brace_profile",
+      "source_sha256": "bd3235ea8119b456e404b9d796144b5a58585435155c1622f96ee27210215e5d",
+      "target_sha256": "c4d674c955a3ab1bb63c6be1c65ff5ed51f12bc98a21a9accd5790a5aeca1440"
+    },
+    {
+      "correction_id": "O011-TRANS-0079",
+      "surface": "protected:vergleichskette",
+      "index": 0,
+      "source_sha256": "abccae9af679c93d4a590db3c604d1b322fb8812c6564a0afab52dc3ab3e26d3",
+      "target_sha256": "91ce5ba69726ab60b02084cdc02169d1f04277e53369d7e7fd264dbf6b59323b"
+    },
+    {
+      "correction_id": "O011-CORR-0078",
+      "surface": "protected:maabbeledisp",
+      "index": 1,
+      "source_sha256": "5f34b614974c60983ca08a1d71d85b5ab1a8a2328816d31f79f782d33dc3bd10",
+      "target_sha256": "4cca1b6b1af4c57fc1ac778982d273005c8e9b896e1e0f9005e804d7cd3e3f00"
+    }
+  ]
+}

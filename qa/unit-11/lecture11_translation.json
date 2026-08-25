@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "source": "authority/expanded/lecture11_source.de.tex",
+  "source_bytes": 16043,
+  "source_sha256": "d5efb6e57e399693d36cec162df0a897ce898f188dc2b5eb30eb78c840e9c642",
+  "target": "source/units/unit-11/lecture11.id.tex",
+  "target_bytes": 16590,
+  "target_sha256": "c6d5266be60eec3911d841213fb4333b51c6555266915e0b64438c3c2bf3d4fc",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 525,
+    "environments": 2,
+    "inline_math": 31,
+    "display_math": 0,
+    "protected_calls": 52
+  },
+  "status": "pass",
+  "failures": [],
+  "declared_corrections": [
+    "O011-CORR-0105",
+    "O011-CORR-0107",
+    "O011-CORR-0108"
+  ],
+  "evidence_only_results": []
+}

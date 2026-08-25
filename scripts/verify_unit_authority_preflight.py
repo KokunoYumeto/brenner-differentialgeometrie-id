@@ -12,8 +12,33 @@ from pathlib import Path
 from typing import Any
 
 
+HTML_TAG_RE = re.compile(
+    r"</?[A-Za-z][A-Za-z0-9]*\s*/?>|"
+    r"<[A-Za-z][A-Za-z0-9]*(?:\s+[A-Za-z_:][-A-Za-z0-9_:.]*\s*=\s*"
+    r"(?:\"[^\"]*\"|'[^']*'|[^\s\"'=<>`]+))+\s*/?>",
+    re.IGNORECASE,
+)
+
+
 def digest(data: bytes, algorithm: str = "sha256") -> str:
     return hashlib.new(algorithm, data).hexdigest()
+
+
+def graded_point_value(value: Any) -> int:
+    """Parse Brenner's integer or split-point labels without losing the rubric."""
+    if isinstance(value, int):
+        return value
+    text = str(value).strip()
+    if text.isdigit():
+        return int(text)
+    match = re.fullmatch(r"(\d+)\s*\((\d+(?:\+\d+)+)\)", text)
+    if not match:
+        raise RuntimeError(f"unsupported graded point label: {value!r}")
+    total = int(match.group(1))
+    parts = sum(int(part) for part in match.group(2).split("+"))
+    if parts != total:
+        raise RuntimeError(f"inconsistent split-point label: {value!r}")
+    return total
 
 
 def file_check(root: Path, entry: dict[str, Any]) -> dict[str, Any]:
@@ -46,7 +71,7 @@ def verify_expansion(root: Path, expansion: dict[str, Any]) -> None:
     if receipt["output_sha256"] != expansion["sanitized_source"]["sha256"]:
         raise RuntimeError("sanitizer receipt has stale output")
     text = (root / expansion["sanitized_source"]["path"]).read_text(encoding="utf-8")
-    if "\ufffd" in text or re.search(r"</?[A-Za-z][^>]*>", text):
+    if "\ufffd" in text or HTML_TAG_RE.search(text):
         raise RuntimeError(f"unsafe sanitized source: {expansion['sanitized_source']['path']}")
 
 
@@ -138,7 +163,7 @@ def main() -> None:
     graded = [item for item in exercises if item["root_point_marker"]]
     if len(graded) != solutions["graded_exercise_count"]:
         raise RuntimeError("graded-exercise count mismatch")
-    if sum(int(item["point_value"]) for item in graded) != solutions["point_value_total"]:
+    if sum(graded_point_value(item["point_value"]) for item in graded) != solutions["point_value_total"]:
         raise RuntimeError("graded-point total mismatch")
     for exercise in exercises:
         verify_solution(root, exercise)

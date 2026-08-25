@@ -1,0 +1,1141 @@
+\setcounter{section}{12}
+
+  \zwischenueberschrift{Vektorbündel}
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+mit dem
+\definitionsverweis {Tangentialbündel}{}{}
+\maabb {p} {TM} {M
+} {.}
+Zu einem Kartengebiet
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und einer Karte
+\maabbdisp {\alpha} { U } { V \subseteq \R^n
+} {}
+gibt es nach
+[[Differenzierbare Mannigfaltigkeit/Abbildung/Tangentialabbildung/Eigenschaften/Fakt|Lemma 10.8]]
+eine
+\definitionsverweis {Homöomorphie}{}{}
+\maabbdisp {T(\alpha)} {TM\vert_U \cong TU} { TV \cong V \times \R^n
+} {,}
+die für jeden Basispunkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in der zweiten Komponente linear ist. Für eine weitere Karte
+\maabbdisp {\alpha'} {U'} {V'
+} {}
+ist die Übergangsabbildung
+\maabbdisp {} {TV \vert_{\alpha(U \cap U') }  \cong \alpha(U \cap U') \times \R^n } { TV' \vert_{\alpha'(U \cap U') }  \cong \alpha'(U \cap U') \times \R^n
+} {}
+linear in den Fasern. Über die Homöomorphismen
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \cong }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+erhält man auch direkt Homöomorphismen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ TM \vert_U \cong TU
+}
+{ \cong} { U \times \R^n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+über $U$ und zugehörige Übergangsabbildungen
+\maabbdisp {} {(U \cap U') \times \R^n } { (U \cap U') \times \R^n
+} {,}
+die bezüglich $\R^n$ linear sind.
+
+Das Tangentialbündel ist ein wichtiges Beispiel für ein Vektorbündel.
+
+\inputdefinition
+{}
+{
+
+Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{r
+}
+{ \in }{\N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Ein
+\definitionswort {reelles Vektorbündel}{}
+$V$ vom
+\definitionswort {Rang}{}
+$r$ ist ein topologischer Raum zusammen mit einer
+\definitionsverweis {stetigen Abbildung}{}{}
+\maabb {p} { V } { X
+} {}
+derart, dass jede
+\definitionsverweis {Faser}{}{}
+$p^{-1}(x)$ ein
+$r$-\definitionsverweis {dimensionaler}{}{}
+\definitionsverweis {reeller Vektorraum}{}{}
+ist und dass es eine
+\definitionsverweis {offene Überdeckung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{X
+}
+{ = }{ \bigcup_{i \in I} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+\definitionsverweis {Homöomorphismen}{}{}
+\maabbdisp {\varphi_i} {p^{-1} \left(  U_i  \right) } { U_i \times \R^r
+} {}
+über $U_i$ gibt, die in jeder Faser einen
+\definitionsverweis {linearen Isomorphismus}{}{}
+\maabbdisp {\left(  \varphi_i  \right)_x} {p^{-1} (x) } { \R^r
+} {}
+induzieren.
+
+}
+
+Dabei nennt man $V$ auch den \stichwort {Totalraum } {} und $X$ den \stichwort {Basisraum } {} des Vektorbündels. Für die Faser schreibt man oft auch
+
+\mavergleichskette
+{\vergleichskette
+{ V_x
+}
+{ = }{ p^{-1} (x)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+In der Homöomorphie
+\maabb {} { p^{-1}(U) } { U \times \R^r
+} {}
+ist die rechte Seite mit der
+\definitionsverweis {Produkttopologie}{}{}
+und der $\R^r$ mit der natürlichen
+\definitionsverweis {euklidischen Topologie}{}{}
+und
+\mathl{p^{-1}(U)}{} ist mit der induzierten Topologie von $V$ versehen. Somit tragen alle Fasern $V_x$ die natürliche Topologie eines endlichdimensionalen reellen Vektorraumes. Mit Homöomorphismus über $U$ ist gemeint, dass das Diagramm
+
+\mathdisp {\begin{matrix} p^{-1}(U)   & \stackrel{  }{\longrightarrow} &  U \times \R^n   & \\ &  \searrow & \downarrow & \\ & &  U   & \!\!\!\!\! \!\!\!  \\ \end{matrix}} {  }
+
+kommutiert. Das Produkt
+\mathl{X \times \R^r}{} ist ein Vektorbündel, das das \stichwort {triviale Vektorbündel} {} heißt. Eine lineare Homöomorphie
+\maabb {} { p^{-1}(U) } { U \times \R^r
+} {}
+heißt eine
+\zusatzklammer {lokale} {} {}
+\stichwort {Trivialisierung} {.} Die Einschränkung eines Vektorbündels auf die $U_i$ ist trivial, lokal ist also jedes Vektorbündel trivial. Ein Vektorbündel vom Rang $1$ heißt auch \stichwort {Geradenbündel} {.}
+
+\inputbemerkung
+{}
+{
+
+Ein
+\definitionsverweis {reelles Vektorbündel}{}{}
+\maabb {p} { V } { X
+} {}
+über einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ kann man auch nur unter Bezug auf eine offene Überdeckung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ X
+}
+{ =} { \bigcup_{i \in I} U_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und Trivialisierungen
+\maabbdisp {\varphi_i} {p^{-1} \left(  U_i  \right) } { U_i \times \R^r
+} {}
+definieren, wenn man fordert, dass die Übergangsabbildungen
+\zusatzklammer {die sich über $p^{-1} (U_i \cap U_j)$ ergeben} {} {}
+\maabbdisp {\varphi_j \circ \varphi_i^{-1}} {U_i \cap U_j \times \R^r } { U_i \cap U_j \times \R^r
+} {}
+linear in der Vektorraumkomponente ist. Dies ergibt eine Vektorraumstruktur in jeder Faser, wofür man eine beliebige Trivialisierung heranzieht.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Topologischer Raum/Reelles Vektorbündel/Einschränkung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+\maabb {p} { V } { X
+} {}
+ein
+\definitionsverweis {reelles Vektorbündel}{}{}
+über einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$.}
+\faktfolgerung {Dann ist zu jeder
+\definitionsverweis {offenen Menge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Einschränkung}{}{}
+\maabbdisp {} {p^{-1} (W)} {W
+} {}
+ebenfalls ein Vektorbündel.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Dies ist klar, man muss einfach nur die faserweise linearen Homöomorphismen
+\maabbdisp {\varphi_i} {p^{-1} \left(  U_i  \right) } { U_i \times \R^r
+} {}
+zu
+\maabbdisp {\varphi_i \vert_{W \cap U_i }} {p^{-1} \left(  W \cap U_i  \right) } { \left(  W \cap U_i  \right)  \times \R^r
+} {}
+einschränken.
+
+}
+
+\inputdefinition
+{}
+{
+
+Es seien
+\mathkor {} {E} {und} {F} {}
+\definitionsverweis {reelle Vektorbündel}{}{}
+auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$. Ein
+\definitionswort {Homomorphismus von Vektorbündeln}{}
+\maabb {\varphi} { E } { F
+} {}
+ist eine
+\definitionsverweis {stetige Abbildung}{}{}
+über $X$ derart, dass für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die induzierte Abbildung
+\maabbdisp {\varphi_x} { E_x} {F_x
+} {}
+$\R$-\definitionsverweis {linear}{}{}
+ist.
+
+}
+
+Die folgende Beobachtung erlaubt die Konstruktion einer Vielzahl von Vektorbündeln.
+
+\inputbemerkung
+{}
+{
+
+Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}
+und seien
+
+\mavergleichskette
+{\vergleichskette
+{ f_1 , \ldots , f_n
+}
+{ \in }{ C^0(X,\R)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+reellwertige
+\definitionsverweis {stetige Funktionen}{}{}
+auf $X$. Diese definieren eine Abbildung
+\maabbeledisp {} {X \times \R^n } { X \times \R
+} {(P,t_1 , \ldots , t_n) } { (P, \sum_{i= 1}^n f_i (P) t_i)
+} {,}
+zwischen dem trivialen
+\definitionsverweis {Vektorbündel}{}{}
+vom Rang $n$ über $X$ und dem trivialen Vektorbündel vom Rang $1$ über $X$. Diese Abbildung ist stetig und über jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+liegt die
+\definitionsverweis {Linearform}{}{}
+\maabb {} {\R^n } { \R
+} {}
+zur Zeilenmatrix
+\mathl{\left( f_1(P)  , \,   \ldots  , \,  f_n(P)                 \right)}{} vor, daher handelt es sich um einen
+\definitionsverweis {Homomorphismus}{}{}
+von Vektorbündeln. Über den Kern ergibt sich in jeder Faser $\R^n$ ein Untervektorraum, der die Dimension $n-1$ besitzt, es sei denn, alle Funktionen $f_i$ verschwinden simultan im Punkt $P$. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ D(f_i)
+}
+{ = }{ \left\{ P \in X  \mid  f_i(P) \neq 0        \right\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dann ist
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ = }{ \bigcup_{i = 1}^n D(f_i)
+}
+{ \subseteq }{ X
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die offene Teilmenge, auf der zumindest ein $f_i$ nicht verschwindet und wo somit die Kerne stets die Dimension $n-1$ besitzen. Das \stichwort {Kernbündel} {}  $E$ zu den $f_i$ ist nun das Vektorbündel auf $U$, das faserweise durch die Kerne bestimmt ist, also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ E
+}
+{ =} { \left\{  (P; t_1 , \ldots , t_n)  \mid   P \in U , \,  \sum_{i = 1}^n f_i(P)t_i = 0       \right\}
+}
+{ \subseteq} { U \times \R^n
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Gemäß
+[[Topologischer Raum/Triviale Vektorbündel/Homomorphismus/Kernbündel/Trivialisierungen/Aufgabe|Aufgabe 12.26]]
+gibt es Trivialisierungen über $D(f_i)$ und es handelt sich in der Tat um ein Vektorbündel.
+
+}
+
+\inputbeispiel{}
+{
+
+Wir betrachten über dem $\R^2$ die Abbildung
+\maabbeledisp {} {\R^2 \times \R^2} { \R^2 \times \R
+} {(x,y;s,t)} { (x,y;xs+yt)
+} {,}
+als ein
+\definitionsverweis {Homomorphismus von Vektorbündeln}{}{}
+im Sinne von
+[[Topologischer Raum/Triviale Vektorbündel/Homomorphismus/Kernbündel/Bemerkung|Bemerkung 12.5]].
+Die einzige gemeinsame Nullstelle der beiden Koordinatenfunktionen $x,y$ ist der Ursprungspunkt $(0,0)$, somit ist
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ = }{ \R^2 \setminus \{ (0,0) \}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und das zugehörige Kernbündel ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ E
+}
+{ =} { \left\{  (P; s ,t)   \mid   P \in U  , \,  xs + yt = 0       \right\}
+}
+{ \subseteq} { U \times \R^2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Es besteht aus einer Familie von Geraden in einer Ebene, wobei die Geraden sich mit dem Basispunkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ (x,y)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bewegen.
+
+}
+
+\inputbeispiel{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Der
+\definitionsverweis {Tangentialraum}{}{}
+$T_PY$ zu
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist der Kern des
+\definitionsverweis {totalen Differentials}{}{}
+$\left(D h \right)_{ P}$, das durch die partiellen Ableitungen ${ \frac{   \partial   h   }{  \partial   x_1   } } ( P) , \ldots , { \frac{   \partial   h   }{  \partial   x_n   } } ( P)$ gegeben ist und daher als $(n-1)$-linearer Untervektorraum des $\R^n$ vorliegt, siehe auch
+[[Abgeschlossene Untermannigfaltigkeit/Punktweise/Tangentialraum als Unterraum/Fakt|Satz 10.3]].
+Wir betrachten die Abbildung
+\maabbeledisp {} {Y \times \R^n } { Y \times \R
+} {(P;t_1 , \ldots , t_n) } { (P; \sum_{i = 1}^n { \frac{   \partial   h   }{  \partial   x_i   } } ( P)  t_i )
+} {}
+und das zugehörige Kernbündel
+
+\mavergleichskettedisp
+{\vergleichskette
+{ E
+}
+{ =} { \left\{  (P; t_1 , \ldots , t_n)  \mid   P \in Y , \,  \sum_{i = 1}^n { \frac{   \partial   h   }{  \partial   x_i   } } ( P) t_i = 0       \right\}
+}
+{ \subseteq} { Y \times \R^n
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+im Sinne von
+[[Topologischer Raum/Triviale Vektorbündel/Homomorphismus/Kernbündel/Bemerkung|Bemerkung 12.5]].
+Dieses Bündel stimmt unmittelbar faserweise mit den Tangentialräumen an $Y$ überein. Es handelt sich aber in der Tat um das Tangentialbündel, wie der Vergleich mit
+[[Abgeschlossene Untermannigfaltigkeit/Tangentialbündel/Abgeschlossen/Aufgabe|Aufgabe 10.22]]
+ergibt.
+
+}
+
+\inputdefinition
+{}
+{
+
+Es seien
+\mathkor {} {E} {und} {F} {}
+\definitionsverweis {reelle Vektorbündel}{}{}
+auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$. Ein
+\definitionsverweis {Homomorphismus von Vektorbündeln}{}{}
+\maabb {\varphi} { E } { F
+} {}
+heißt
+\definitionsverweis {Isomorphismus}{}{,}
+wenn es einen Homomophismus
+\maabb {\psi} { F } { E
+} {}
+gibt, der verknüpft mit $\varphi$
+\zusatzklammer {in beiden Reihenfolgen} {} {} die Identität ergibt.
+
+}
+
+\inputdefinition
+{}
+{
+
+Es seien
+\mathkor {} {X} {und} {Y} {}
+\definitionsverweis {topologische Räume}{}{}
+und es sei
+\maabbdisp {p} { Y } { X
+} {}
+eine
+\definitionsverweis {stetige Abbildung}{}{.}
+Unter einem
+\definitionswort {stetigen Schnitt}{}
+zu $p$ versteht man eine stetige Abbildung
+\maabb {s} { X } { Y
+} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{  p \circ s
+}
+{ =} {
+\operatorname{Id}_{  X  }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+Man denke bei $Y$ beispielsweise an ein Vektorbündel über $X$. Einen Schnitt kann es nur geben, wenn $p$ surjektiv ist, was bei einem Vektorbündel stets der Fall ist. Gelegentlich identifiziert man einen Schnitt mit seinem Bild, was problemlos ist, da ein Schnitt stets injektiv ist. Eine besondere Rolle spielt der \stichwort {Nullschnitt} {,} der jedem Basispunkt $P$ den Nullpunkt im Vektorraum $V_P$ zuordnet.
+Für das
+\definitionsverweis {Tangentialbündel}{}{}
+sind die stetigen Schnitte einfach die stetigen
+\definitionsverweis {Vektorfelder}{}{.}
+Für das triviale Vektorbündel
+\maabbdisp {} {X \times \R^n } { X
+} {}
+gibt es die konstanten Schnitte
+
+\mathbed {e_i} {}
+ {i = 1 , \ldots , n} {}
+ {} {} {} {,}
+die jedem Punkt den Vektor
+
+\mavergleichskette
+{\vergleichskette
+{ e_i
+}
+{ \in }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+zuordnen. Die Familie dieser Schnitte bilden für jeden Punkt eine Basis in der darüber liegenden Faser.
+
+Es sei
+\maabb {p} { V } { X
+} {}
+ein
+\definitionsverweis {reelles Vektorbündel}{}{}
+vom
+\definitionsverweis {Rang}{}{}
+$r$ über einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ und sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {offene Teilmenge}{}{.}
+Eine Familie von stetigen
+\definitionsverweis {Schnitten}{}{}
+\maabbdisp {s_1 , \ldots , s_n} { U} {V  \vert_U
+} {}
+heißt eine Familie von
+\definitionswort {Basisschnitten}{,}
+wenn für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Vektoren
+
+\mavergleichskette
+{\vergleichskette
+{ s_1(P)  , \ldots , s_n(P)
+}
+{ \in }{ V_P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {Basis}{}{}
+von $V_P$ bilden.
+
+Die Existenz von
+\zusatzklammer {stetigen} {} {}
+Basisschnitten auf einer offenen Menge $U$ ist äquivalent zur Existenz einer
+\zusatzklammer {stetigen} {} {}
+Trivialisierung des Vektorbündels über $U$, siehe
+[[Vektorbündel/Offene Menge/Stetige Basisschnitte/Trivialisierung/Aufgabe|Aufgabe 12.14]].
+
+  \zwischenueberschrift{Verklebungsdaten}
+
+Die Idee, lokale Daten zu verkleben, um globale Objekte zu beschreiben, ist uns schon in
+[[Topologische Mannigfaltigkeit/Rekonstruktion aus Karten/Aufgabe|Aufgabe 8.15]]
+begegnet.
+
+\inputdefinition
+{}
+{
+
+Unter einem
+\definitionswort {Verklebungsdatum}{}
+für ein
+\definitionsverweis {reelles Vektorbündel}{}{}
+vom Rang $r$ über einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ versteht man den folgenden Datensatz.
+\aufzaehlungvier{Eine
+\definitionsverweis {offene Überdeckung}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{X
+}
+{ =} { \bigcup_{i \in I} U_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+}{Eine Familie
+
+\mathbed {E_i \rightarrow U_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+von reellen Vektorbündeln vom Rang $r$.
+}{Für jedes Paar
+\mathl{(i,j)}{} einen
+\definitionsverweis {Isomorphismus von Vektorbündeln}{}{}
+\maabbdisp {\varphi_{ji}} { E_i {{|}}_{U_i \cap U_j }
+} { E_{j} {{|}}_{U_i \cap U_j }
+} {}
+über
+\mathl{U_i \cap U_j}{.}
+}{Für Indizes
+
+\mavergleichskette
+{\vergleichskette
+{ i,j,k
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist die
+\definitionswort {Kozykelbedingung}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_{kj} \circ \varphi_{ji}
+}
+{ =} { \varphi_{ki}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+als Abbildung von
+\mathl{E_{i} {{|}}_{U_i \cap U_j \cap U_k }}{} nach
+\mathl{E_{k}  {{|}}_{U_i \cap U_j \cap U_k }}{} erfüllt.
+}
+
+}
+
+\inputbemerkung
+{}
+{
+
+Typischerweise sind in der
+[[Topologisches reelles Vektorbündel/Verklebungsdatum/Definition|Definition 12.10]]
+die Vektorbündel aus (2) triviale Vektorbündel auf $U_i$, also
+
+\mavergleichskette
+{\vergleichskette
+{E_i
+}
+{ = }{ \R^r \times U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Die Isomorphismen aus (3) sind dann einfach durch bijektive lineare Abbildungen
+\maabb {\varphi_{ji}} { \R^r} { \R^r
+} {}
+gegeben, die stetig vom Basispunkt aus
+\mathl{U_i \cap U_j}{} abhängen. Diese kann man kompakt durch stetige Abbildungen
+\maabbdisp {\varphi_{ji}} {U_i \cap U_j } { \operatorname{GL}_{  r   } \! \left(  \R  \right)
+} {}
+in die
+\definitionsverweis {allgemeine lineare Gruppe}{}{}
+beschreiben. Den Basispunkten wird also in stetiger Weise eine
+\definitionsverweis {invertierbare}{}{}
+$r \times r$-\definitionsverweis {Matrix}{}{}
+zugeordnet, wobei die Stetigkeit bedeutet, dass sämtliche Matrixeinträge stetige Funktionen sind. Man spricht von einer \stichwort {Matrixbeschreibung} {} des Bündels. Die Kozykelbedingung bleibt bestehen.
+
+}
+
+__NOEDITSECTION__
+\inputfaktbeweis
+{Topologisches reelles Vektorbündel/Verklebungsdatum/Existenz/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei ein
+\definitionsverweis {Verklebungsdatum}{}{}
+
+\mathbed {E_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+über einem
+\definitionsverweis {topologischen Raum}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{X
+}
+{ =} { \bigcup_{i \in I} U_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gegeben.}
+\faktfolgerung {Dann gibt es ein eindeutig bestimmtes reelles Vektorbündel
+\maabb {} { E } { X
+} {}
+und
+\definitionsverweis {Isomorphismen}{}{}
+\maabb {\psi_i} {E_i } { E \vert_{U_i }
+} {}
+derart, dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \psi_i \vert_{ E_i {{ |}}_{ U_{i} \cap U_j } }
+}
+{ =} { \psi_j \vert_{ E_j {{ |}}_{ U_{i} \cap U_j } }  \circ \varphi_{ji}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gilt.}
+\faktzusatz {}
+\faktzusatz {}
+
+ }
+{ Siehe [[Topologisches reelles Vektorbündel/Verklebungsdatum/Existenz/Fakt/Beweis/Aufgabe|Aufgabe 12.12]]. }
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesunggif {Fiddler_crab_mobius_strip} {gif} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Fiddler_crab_mobius_strip.gif } {} {Hamishtodd1} {Commons} {CC-by-sa 4.0} {}
+
+\inputbeispiel{}
+{
+
+Wir betrachten auf der eindimensionalen Sphäre
+
+\mavergleichskettedisp
+{\vergleichskette
+{S^1
+}
+{ =} { \left\{ (x,y) \in \R^2  \mid   x^2+y^2 = 1        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+die
+\definitionsverweis {offene Überdeckung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{S^1
+}
+{ = }{ U \cup V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ = }{S^1 \setminus \{(0,1)\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ = }{S^1 \setminus \{(0,-1)\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Darauf beschreiben wir ein
+\definitionsverweis {Verklebungdatum}{}{}
+für ein reelles Vektorbündel vom Rang $1$. Die beiden offenen Mengen sind
+\definitionsverweis {homöomorph}{}{}
+zur reellen Geraden. Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{U \cap V
+}
+{ =} { S^1 \setminus \{(0,1), (0,-1)  \}
+}
+{ =} { \left\{ (x,y) \in  S^1   \mid   x \neq 0        \right\}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+und dies ist nicht
+\definitionsverweis {zusammenhängend}{}{,}
+sondern homöomorph zu zwei disjunkten reellen offenen Halbgeraden
+\zusatzklammer {bzw. Geraden} {} {.}
+Wir setzen
+
+\mavergleichskette
+{\vergleichskette
+{L
+}
+{ = }{ U \times \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ = }{ V \times \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Wir legen einen
+\definitionsverweis {Isomorphismus}{}{}
+\maabbdisp {\varphi} {L \vert_{U \cap V} } { M\vert_{U \cap V}
+} {}
+durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi(x,y,t)
+}
+{ \defeq} { \begin{cases}  (x,y,t) \text{ für } x > 0 \, , \\  (x,y,-t) \text{ für } x < 0  \,  \end{cases}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+fest. Man beachte, dass $\varphi$ stetig ist, da die beiden funktionalen Ausdrücke für zueinander disjunkte offene Teilmengen gelten. Auf der einen Hälfte wird identisch abgebildet, auf der anderen Hälfte wird umgeklappt. Im Sinne von
+[[Verklebungsdatum/Vektorbündel/Trivialisierungen/Bemerkung|Bemerkung 12.11]]
+liegt die stetige
+\zusatzklammer {konstante} {} {}
+Matrixbeschreibung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \psi (x,y)
+}
+{ \defeq} { \begin{cases}  (1) \text{ für } x > 0 \, , \\  (-1) \text{ für } x < 0  \, , \end{cases}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf
+\mathl{U \cap V}{} vor. Da nur zwei offene Mengen vorliegen, ist die Kozykelbedingung automatisch erfüllt. Dieses Verklebungsdatum definiert nach
+[[Topologisches reelles Vektorbündel/Verklebungsdatum/Existenz/Fakt|Lemma 12.12]]
+ein reelles Vektorbündel vom Rang $1$ auf der Sphäre, das \stichwort {Möbiusband} {} heißt.
+
+}
+
+ [[Kategorie:Latexseite]]

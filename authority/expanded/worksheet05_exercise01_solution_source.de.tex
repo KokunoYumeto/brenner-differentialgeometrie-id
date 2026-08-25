@@ -1,0 +1,112 @@
+Wir verwenden
+[[Differenzierbare Funktion/Graph/Hyperfläche/Weingartenabbildung/Fakt|Fakt]],
+wobei im Nullpunkt der Vorfaktor gleich $1$ ist und somit die
+\definitionsverweis {Weingartenabbildung}{}{}
+direkt durch die
+\definitionsverweis {Hesse-Matrix}{}{}
+beschrieben wird. Die Hesse-Matrix der Funktion ist
+
+\mathdisp {\begin{pmatrix}  2a  &   c   \\ c &  2b \end{pmatrix}} { , }
+
+das
+\definitionsverweis {charakteristische Polynom}{}{}
+davon ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ (t-2a)(t-2b)-c^2
+}
+{ =} { t^2 -2(a+b)t +4ab -c^2
+}
+{ =} { \left(  t-(a+b)  \right)^2 - (a+b)^2 +4ab -c^2
+}
+{ =} { \left(  t-(a+b)  \right)^2  - a^2 -b^2 +2ab -c^2
+}
+{ =} { \left(  t-(a+b)  \right)^2  - (a-b)^2 -c^2
+}
+}
+{}
+{}{.}
+Die Eigenwerte
+\zusatzklammer {und dies sind die Hauptkrümmungen} {} {}
+sind also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \lambda_{1,2}
+}
+{ =} { \pm \sqrt{ (a-b)^2+c^2 } +a+b
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Bei
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ = }{ b
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist die Weingartenabbildung Multiplikation mit $2a$ und jeder Vektor ist ein Eigenvektor, sei dies jetzt ausgeschlossen. Für
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \lambda_{1}
+}
+{ =} { \sqrt{ (a-b)^2+c^2 } +a+b
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist der Kern der Matrix
+
+\mathdisp {\begin{pmatrix}  \sqrt{(a-b)^2 +c^2} + b-a  &   -c  \\  -c &  \sqrt{(a-b)^2 +c^2} + a-b \end{pmatrix}} {  }
+
+zu bestimmen, dieser ist
+
+\mathdisp {\R \begin{pmatrix}  \sqrt{(a-b)^2 +c^2} + a-b  \\c   \end{pmatrix}} { . }
+
+Eine Hauptkrümmungsrichtung ist also
+\mathl{\begin{pmatrix}  \sqrt{(a-b)^2 +c^2} + a-b  \\c   \end{pmatrix}}{} mit der Hauptkrümmung
+\mathl{\sqrt{ (a-b)^2+c^2 } +a+b}{.}
+
+Entsprechend ergibt sich die Hauptkrümmungsrichtung
+\mathl{\begin{pmatrix}  -c \\ \sqrt{(a-b)^2 +c^2} + a-b    \end{pmatrix}}{} mit der Hauptkrümmung
+\mathl{-\sqrt{ (a-b)^2+c^2 } +a+b}{.}
+
+ [[Kategorie:Latexseite]]

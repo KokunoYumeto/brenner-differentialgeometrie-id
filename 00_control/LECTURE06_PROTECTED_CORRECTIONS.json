@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-06/lecture06.id.tex",
+  "target_typography_normalizations": [
+    "Eight punctuation marks following mapping or comparison macros were moved into the macros' terminal punctuation arguments so periods and commas cannot reflow as orphan lines; mathematical tokens and statement order are unchanged."
+  ],
+  "allowed_deltas": [
+    {
+      "correction_ids": ["O011-CORR-0054", "O011-CORR-0055", "O011-CORR-0056", "O011-CORR-0057", "O011-CORR-0058", "O011-CORR-0059", "O011-CORR-0060", "O011-CORR-0061", "O011-CORR-0062"],
+      "surface": "profile:commands",
+      "source_sha256": "8bcb609e48324f34e961addefefa9b08bf5601b4e95a30bdde4b0e1cafe19a98",
+      "target_sha256": "bc38a808f4d90b06c40033bff4d85e0e937d1e043cc9017003ce707632cd5a1e"
+    },
+    {
+      "correction_ids": ["O011-CORR-0055"],
+      "surface": "profile:environments",
+      "source_sha256": "616dd45f588c795092cebfa1dcd60350d9457e35a21cf9c1891c3f2be111c1b0",
+      "target_sha256": "81fbbc995d37c7894c626d6955d6c4a56407c44d28f6d3f89be9f22fb5163821"
+    },
+    {
+      "correction_ids": ["O011-CORR-0054", "O011-CORR-0055", "O011-CORR-0056", "O011-CORR-0057", "O011-CORR-0058", "O011-CORR-0059", "O011-CORR-0060", "O011-CORR-0061", "O011-CORR-0062", "O011-CORR-0069"],
+      "surface": "profile:inline_math",
+      "source_sha256": "74e13e85f87c522d008d19663ffa42a4ac31b5539ebb59b670513a768ebddc9e",
+      "target_sha256": "9fec623635dd925594b64e8e3a9d0ac64f71facb6088ac8a7614376948209e40"
+    },
+    {
+      "correction_ids": ["O011-CORR-0059"],
+      "surface": "profile:display_math",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "target_sha256": "06c7e1055fc4a5f910f0dc7d486655e551354418fae04377dbf39a248117c60c"
+    },
+    {
+      "correction_ids": ["O011-CORR-0054", "O011-CORR-0055", "O011-CORR-0056", "O011-CORR-0060", "O011-CORR-0061", "O011-CORR-0062"],
+      "surface": "profile:protected:vergleichskette",
+      "source_sha256": "f9d7e84a783bb36fa666988e63699621da0245d7ec909bbd8a25c84ee4c66336",
+      "target_sha256": "9f82d5e2cff8c6caa036c433647c0f0867687c94768c1907e03b6937fcd574d6"
+    },
+    {
+      "correction_ids": ["O011-CORR-0057", "O011-CORR-0058"],
+      "surface": "profile:protected:maabbdisp",
+      "source_sha256": "9b57f9d2f28a88d3ca0d4a4e67438c1f960c162c62b1b02bd6628aa40f9c59b9",
+      "target_sha256": "ae9416397b65acdb6fab13bbaa7fee796c27ac66a59117f19d8a31e60126c5fb"
+    },
+    {
+      "correction_ids": ["O011-CORR-0055"],
+      "surface": "profile:brace_profile",
+      "source_sha256": "f9c99087d1bcf69354059cc7a778de741253c0a515c4bc540d907be7e0dfa1fd",
+      "target_sha256": "1216e25b93fa7fd7ae5fc063e4cb5fd2ae7ccb67d852eb99c1fa4e19b2cc5607"
+    }
+  ]
+}

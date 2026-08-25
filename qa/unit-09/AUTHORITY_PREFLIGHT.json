@@ -1,0 +1,590 @@
+{
+  "authority": {
+    "course_recursive_export": {
+      "bytes": 3538709,
+      "path": "authority/mediawiki/brenner_course_recursive_current.xml",
+      "sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14"
+    },
+    "latex_surface_recursive_export": {
+      "bytes": 3722387,
+      "path": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+      "sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c"
+    },
+    "pages": {
+      "lecture_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture09_latex_surface_revid807144.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1199,
+          "path": "authority/mediawiki/lecture09_latex_surface_revid807144.metadata.json",
+          "sha256": "1c2e146b6d6606af102e6879222d81313ffa8b68849d6d5a72411b8445052158"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142583,
+        "parentid": 799052,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/lecture09_latex_surface_revid807144.wiki",
+        "revid": 807144,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T10:03:20Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 9/latex"
+      },
+      "lecture_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "b11a6736d4f08d0951db733a65c9741d1cdab01e4b51e3e615079b5b374b5ff2",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture09_root_revid991592.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "aolvg9mldzazu2sciber4zcn19ejn7o",
+        "metadata": {
+          "bytes": 1171,
+          "path": "authority/mediawiki/lecture09_root_revid991592.metadata.json",
+          "sha256": "e869b18f19e2a718f29edeaab2c470cba1fb45bf9b58719fbcd0f40ad6845fb5"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142553,
+        "parentid": 886679,
+        "readable_normalized_bytes": 1200,
+        "readable_normalized_sha256": "a755abd7bacf04115130143d14d163d829ad78305d954430936a7ac3c5d5a8ee",
+        "readable_normalized_witness": "authority/mediawiki/lecture09_root_revid991592.wiki",
+        "revid": 991592,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 1199,
+        "source_utf8_sha1": "5b75c0769af0f13f7642892f37dfc841db935e44",
+        "source_utf8_sha256": "d223c899fa9bffa2b91694ace8b5b94d263d422c580e26ed7bf4fd95c6bf3547",
+        "timestamp": "2025-01-23T13:22:49Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 9"
+      },
+      "worksheet_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet09_latex_surface_revid807112.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1206,
+          "path": "authority/mediawiki/worksheet09_latex_surface_revid807112.metadata.json",
+          "sha256": "e6e575a4e5fb1143e9176baf8a59f5f905590d09367a4ad57f23301a3cb69a74"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142673,
+        "parentid": 799021,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/worksheet09_latex_surface_revid807112.wiki",
+        "revid": 807112,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T09:58:10Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 9/latex"
+      },
+      "worksheet_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "38943edfadc6547a9bb084ffee162d6532f6167a8656ed7d40f76fd6e90d6e48",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet09_root_revid896662.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "5xvnexeoluuozx6f8e6xruewkrj2brx",
+        "metadata": {
+          "bytes": 1178,
+          "path": "authority/mediawiki/worksheet09_root_revid896662.metadata.json",
+          "sha256": "c422939099465ec744e4364ccb6ac10fc560c81ea62cb9cbc896ec552395f9b0"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142643,
+        "parentid": 886728,
+        "readable_normalized_bytes": 2177,
+        "readable_normalized_sha256": "1902da5a4e5e15f232af6cc404fa01bd3ae68beea8462992f87592b039d18104",
+        "readable_normalized_witness": "authority/mediawiki/worksheet09_root_revid896662.wiki",
+        "revid": 896662,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 2176,
+        "source_utf8_sha1": "32dc51e1851f3798d3bd9a0baa669bb012a3271d",
+        "source_utf8_sha256": "caf6c5e6cdfc94f80b008e3fb1ce6876793cfbdf05de6662c436056bea3ae7c4",
+        "timestamp": "2023-05-19T15:48:58Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 9"
+      }
+    },
+    "root_revision_manifest": {
+      "bytes": 15237,
+      "path": "authority/brenner_selected_root_revisions.csv",
+      "sha256": "64cf91594907db45355e64fb512fb14092e15218c74847a8f60fe884a5284fc8"
+    },
+    "surface_revision_manifest": {
+      "bytes": 31799,
+      "path": "authority/brenner_selected_surface_revisions.csv",
+      "sha256": "9a3a6b7dc08cc022803dad24e959365d67810d4da87a8bc4385c601db9d4bd52"
+    }
+  },
+  "checks": {
+    "all_candidate_solution_titles_queried": true,
+    "all_displayed_images_have_license_macros": true,
+    "all_point_markers_resolved": true,
+    "all_supplied_solution_latex_snapshots_frozen": true,
+    "all_supplied_solution_revisions_frozen": true,
+    "exercise_root_expansion_count_agreement": true,
+    "lecture_expansion_sanitized": true,
+    "revision_export_hashes_match": true,
+    "root_revision_bindings_unique": true,
+    "root_witnesses_match_mediawiki_sha1": true,
+    "solution_macro_api_agreement": true,
+    "surface_revision_bindings_unique": true,
+    "translation_started_by_workflow": false,
+    "unit_media_binary_and_rights_closure": true,
+    "worksheet_expansion_sanitized": true
+  },
+  "expansions": {
+    "lecture": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 29454,
+      "http_date": "Sun, 23 Aug 2026 19:11:13 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 9/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 673,
+        "path": "authority/exports/lecture09_latex_expand.json.request.json",
+        "sha256": "e5e47d908bed401463cf4e5f337e25a7eec6ec5de83379527b9cded551b0e4f6"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 31494,
+        "path": "authority/exports/lecture09_latex_expand.json",
+        "sha256": "9debeaa1b40126f5ca725bfd74928c9ed811e8de1f2d213722215ba8bf332da7"
+      },
+      "retrieved_utc": "2026-08-23T19:11:15Z",
+      "sanitized_source": {
+        "bytes": 25318,
+        "path": "authority/expanded/lecture09_source.de.tex",
+        "sha256": "88993b430407a58ad8db4b8006320a3b8ca190fbb02a04d52f3fc8731b55526a"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 672,
+        "path": "qa/unit-09/lecture09_sanitize.json",
+        "sha256": "105d04d78704be950ea7fa54a55dd5edd857af020ae3682c2d67dd777866450f"
+      },
+      "valid_utf8": true
+    },
+    "worksheet": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 11117,
+      "http_date": "Sun, 23 Aug 2026 19:11:17 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 9/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 678,
+        "path": "authority/exports/worksheet09_latex_expand.json.request.json",
+        "sha256": "52a35203090ed40f6e70a9451d4c0d5ab776b2071fac3eff855b7f7291a457a2"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 11949,
+        "path": "authority/exports/worksheet09_latex_expand.json",
+        "sha256": "695d8c4b44bc142f9a78562b59bdb4f188c94f7e016bd90c2e5484c398281409"
+      },
+      "retrieved_utc": "2026-08-23T19:11:19Z",
+      "sanitized_source": {
+        "bytes": 9211,
+        "path": "authority/expanded/worksheet09_source.de.tex",
+        "sha256": "a852a6a793f860d387075bb38be9606cb2c3b26b4558e15323ba61bb127aaa3f"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 675,
+        "path": "qa/unit-09/worksheet09_sanitize.json",
+        "sha256": "e4d7a81ac207f8138e1ad0ba540c2897de62001c04b32fb9363af01b60a543c2"
+      },
+      "valid_utf8": true
+    }
+  },
+  "media": {
+    "all_displayed_images_have_license_macros": true,
+    "assets": [
+      {
+        "artist_html": "<ul><li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:McSush\" title=\"User:McSush\">McSush</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:McSush\" title=\"User talk:McSush\"><span class=\"signature-talk\">talk</span></a>)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Tangentialvektor.png\" title=\"File:Tangentialvektor.png\">Tangentialvektor.png</a>: <a href=\"https://de.wikipedia.org/wiki/Benutzer:TN\" class=\"extiw\" title=\"de:Benutzer:TN\">TN</a><br></li></ul>\nThe original uploader was <a href=\"https://en.wikipedia.org/wiki/de:User:TN\" class=\"extiw\" title=\"w:de:User:TN\">TN</a> at <a href=\"https://en.wikipedia.org/wiki/de:\" class=\"extiw\" title=\"w:de:\">German Wikipedia</a>.",
+        "artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/wiki/User:McSush",
+            "//commons.wikimedia.org/wiki/User_talk:McSush",
+            "//commons.wikimedia.org/wiki/File:Tangentialvektor.png",
+            "https://de.wikipedia.org/wiki/Benutzer:TN",
+            "https://en.wikipedia.org/wiki/de:User:TN",
+            "https://en.wikipedia.org/wiki/de:"
+          ],
+          "creator_label": "McSush"
+        },
+        "artist_text": "derivative work: McSush (talk)\nTangentialvektor.png: TN\nThe original uploader was TN at German Wikipedia.",
+        "attribution_required": false,
+        "binary": {
+          "bytes": 4790,
+          "path": "authority/media/Tangentialvektor.svg",
+          "sha256": "ed39381859fa3f6e4240ad7112388600a59126e71bc5aac5943a87f11d9e5301"
+        },
+        "bytes": 4790,
+        "commons_lastrevid": 513180893,
+        "commons_pageid": 4821938,
+        "commons_sha1": "d6385ee16ebcc717b2b83164a0d4849ef1a02483",
+        "commons_touched": "2026-05-02T12:29:06Z",
+        "copyrighted_status": "False",
+        "credit_html": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Tangentialvektor.png\" title=\"File:Tangentialvektor.png\">Tangentialvektor.png</a></li></ul>",
+        "credit_text": "Tangentialvektor.png",
+        "current_matches_frozen_rights_manifest": {
+          "artist_html": false,
+          "artist_identity": true,
+          "attribution_required": true,
+          "bytes": true,
+          "copyrighted": true,
+          "credit_html": true,
+          "license": true,
+          "license_url": true,
+          "mime": true,
+          "sha1": true
+        },
+        "description_url": "https://commons.wikimedia.org/wiki/File:Tangentialvektor.svg",
+        "download_receipt": {
+          "bytes": 4790,
+          "content_type": "image/svg+xml",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Tangentialvektor.svg",
+          "http_date": "Sun, 23 Aug 2026 19:19:01 GMT",
+          "retrieved_utc": "2026-08-23T19:27:21Z",
+          "schema_version": 1,
+          "sha1": "d6385ee16ebcc717b2b83164a0d4849ef1a02483",
+          "sha256": "ed39381859fa3f6e4240ad7112388600a59126e71bc5aac5943a87f11d9e5301",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Tangentialvektor.svg"
+        },
+        "filename": "Tangentialvektor.svg",
+        "frozen_artist_html": "<ul><li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:McSush\" title=\"User:McSush\">McSush</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:McSush\" title=\"User talk:McSush\"><span class=\"signature-talk\">talk</span></a>)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Tangentialvektor.png\" title=\"File:Tangentialvektor.png\">Tangentialvektor.png</a>: <a href=\"https://de.wikipedia.org/wiki/Benutzer:TN\" class=\"extiw\" title=\"de:Benutzer:TN\">TN</a><br></li></ul>\nDer ursprünglich hochladende Benutzer war <a href=\"https://en.wikipedia.org/wiki/de:User:TN\" class=\"extiw\" title=\"w:de:User:TN\">TN</a> in der <a href=\"https://en.wikipedia.org/wiki/de:\" class=\"extiw\" title=\"w:de:\">Wikipedia auf Deutsch</a>",
+        "frozen_artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/wiki/User:McSush",
+            "//commons.wikimedia.org/wiki/User_talk:McSush",
+            "//commons.wikimedia.org/wiki/File:Tangentialvektor.png",
+            "https://de.wikipedia.org/wiki/Benutzer:TN",
+            "https://en.wikipedia.org/wiki/de:User:TN",
+            "https://en.wikipedia.org/wiki/de:"
+          ],
+          "creator_label": "McSush"
+        },
+        "frozen_artist_text": "derivative work: McSush (talk)\nTangentialvektor.png: TN\nDer ursprünglich hochladende Benutzer war TN in der Wikipedia auf Deutsch",
+        "frozen_credit_html": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Tangentialvektor.png\" title=\"File:Tangentialvektor.png\">Tangentialvektor.png</a></li></ul>",
+        "frozen_credit_text": "Tangentialvektor.png",
+        "height": 440,
+        "image_timestamp": "2008-09-20T03:23:30Z",
+        "image_user": "McSush",
+        "license": "Public domain",
+        "license_url": null,
+        "localized_artist_variance": true,
+        "localized_credit_variance": false,
+        "mime": "image/svg+xml",
+        "occurrences": [
+          {
+            "filename": "Tangentialvektor.svg",
+            "surface": "lecture09",
+            "surface_order": 1
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Tangentialvektor.svg",
+        "rights_critical_fields_match": true,
+        "sha256": "ed39381859fa3f6e4240ad7112388600a59126e71bc5aac5943a87f11d9e5301",
+        "usage_terms": "Public domain",
+        "width": 640
+      }
+    ],
+    "current_commons_api": "https://commons.wikimedia.org/w/api.php",
+    "current_commons_query": {
+      "bytes": 6277,
+      "path": "authority/mediawiki/unit09_media_imageinfo_current.json",
+      "sha256": "5309b7211e13fce75c49f4695f8e0cd85e568b997e627b8b21edae6809afb32b"
+    },
+    "current_commons_query_request_receipt": {
+      "bytes": 649,
+      "path": "authority/mediawiki/unit09_media_imageinfo_current.json.request.json",
+      "sha256": "63b8e36d9f431a67a8351bc33bb6b1320821c6eab5bf837e01d71b97cda0cdec"
+    },
+    "occurrence_count": 1,
+    "query_retrieved_utc": "2026-08-23T19:11:22Z",
+    "rights_manifest": {
+      "bytes": 25588,
+      "path": "authority/brenner_media_rights_manifest.csv",
+      "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+    },
+    "surface_occurrences": [
+      {
+        "filename": "Tangentialvektor.svg",
+        "surface": "lecture09",
+        "surface_order": 1
+      }
+    ],
+    "unique_asset_count": 1
+  },
+  "next_action": "Translate Lecture 9, Worksheet 9, and exactly the 0 supplied solutions in source order.",
+  "schema_version": 1,
+  "scope": "Brenner Differentialgeometrie Unit 9 authority preflight; no translation",
+  "solutions": {
+    "exercise_count": 17,
+    "exercises": [
+      {
+        "exercise_index": 1,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "2-Sphäre/Tangentialvektor/Großkreis/Aufgabe/Lösung",
+        "task_title": "2-Sphäre/Tangentialvektor/Großkreis/Aufgabe"
+      },
+      {
+        "exercise_index": 2,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Zylinder/Tangentialvektor/Realisierung/Aufgabe/Lösung",
+        "task_title": "Zylinder/Tangentialvektor/Realisierung/Aufgabe"
+      },
+      {
+        "exercise_index": 3,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Differenzierbare Mannigfaltigkeiten/Differenzierbare Abbildung/Tangential äquivalent/Fakt/Beweis/Aufgabe/Lösung",
+        "task_title": "Differenzierbare Mannigfaltigkeiten/Differenzierbare Abbildung/Tangential äquivalent/Fakt/Beweis/Aufgabe"
+      },
+      {
+        "exercise_index": 4,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "R/Nicht surjektiv/Tangentialabbildung überall bijektiv/Aufgabe/Lösung",
+        "task_title": "R/Nicht surjektiv/Tangentialabbildung überall bijektiv/Aufgabe"
+      },
+      {
+        "exercise_index": 5,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Einheitskreis/Nicht injektiv/Tangentialabbildung überall bijektiv/Aufgabe/Lösung",
+        "task_title": "Einheitskreis/Nicht injektiv/Tangentialabbildung überall bijektiv/Aufgabe"
+      },
+      {
+        "exercise_index": 6,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Tangentialraum/Addition über Karte/Nicht wohldefiniert/Aufgabe/Lösung",
+        "task_title": "Tangentialraum/Addition über Karte/Nicht wohldefiniert/Aufgabe"
+      },
+      {
+        "exercise_index": 7,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Trigonometrische Parametrisierung/Tangentialabbildung punktweise/Bijektiv/Aufgabe/Lösung",
+        "task_title": "Trigonometrische Parametrisierung/Tangentialabbildung punktweise/Bijektiv/Aufgabe"
+      },
+      {
+        "exercise_index": 8,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Differenzierbare Abbildung/Surjektiv/Tangentialabbildung im Punkt/Nicht surjektiv/Beispiel/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Differenzierbare Abbildung/Surjektiv/Tangentialabbildung im Punkt/Nicht surjektiv/Beispiel/Aufgabe"
+      },
+      {
+        "exercise_index": 9,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Differenzierbare Abbildung/Injektiv/Tangentialabbildung im Punkt/Nicht injektiv/Beispiel/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Differenzierbare Abbildung/Injektiv/Tangentialabbildung im Punkt/Nicht injektiv/Beispiel/Aufgabe"
+      },
+      {
+        "exercise_index": 10,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Differenzierbare Mannigfaltigkeit/Funktionskeim in einem Punkt/Äquivalenz und Ringstruktur/Aufgabe/Lösung",
+        "task_title": "Differenzierbare Mannigfaltigkeit/Funktionskeim in einem Punkt/Äquivalenz und Ringstruktur/Aufgabe"
+      },
+      {
+        "exercise_index": 11,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Bildtopologie/Aufgabe/Lösung",
+        "task_title": "Bildtopologie/Aufgabe"
+      },
+      {
+        "exercise_index": 12,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Z^n in R^n/Äquivalenzrelation/Quotient ist hausdorffsch/Aufgabe/Lösung",
+        "task_title": "Z^n in R^n/Äquivalenzrelation/Quotient ist hausdorffsch/Aufgabe"
+      },
+      {
+        "exercise_index": 13,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Komplexe Mannigfaltigkeiten/Theorieaufbau/Aufgabe/Lösung",
+        "task_title": "Komplexe Mannigfaltigkeiten/Theorieaufbau/Aufgabe"
+      },
+      {
+        "exercise_index": 14,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Tangentialraum/Skalarmultiplikation/Aufgabe/Lösung",
+        "task_title": "Tangentialraum/Skalarmultiplikation/Aufgabe"
+      },
+      {
+        "exercise_index": 15,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 6,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Differenzierbare Mannigfaltigkeit/Höhere tangentiale Äquivalenz/Aufgabe/Lösung",
+        "task_title": "Differenzierbare Mannigfaltigkeit/Höhere tangentiale Äquivalenz/Aufgabe"
+      },
+      {
+        "exercise_index": 16,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 5,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Differenzierbare Mannigfaltigkeit/Kurvenkeim/Äquivalenzrelation/Aufgabe/Lösung",
+        "task_title": "Differenzierbare Mannigfaltigkeit/Kurvenkeim/Äquivalenzrelation/Aufgabe"
+      },
+      {
+        "exercise_index": 17,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 8,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "R^n mod Z^n/Mannigfaltigkeitsstruktur/Differenzierbare Abbildung/Tangentialabbildung bijektiv/Aufgabe/Lösung",
+        "task_title": "R^n mod Z^n/Mannigfaltigkeitsstruktur/Differenzierbare Abbildung/Tangentialabbildung bijektiv/Aufgabe"
+      }
+    ],
+    "graded_exercise_count": 4,
+    "macro_api_agreement": true,
+    "missing_solution_count": 17,
+    "point_value_total": 23,
+    "practice_exercise_count": 13,
+    "query": {
+      "bytes": 2000,
+      "path": "authority/mediawiki/unit09_solution_pages_current.json",
+      "sha256": "615081ae1f9912a0d9403ab2e41eca9dffa33989da0102775d30a63c1a48ca5b"
+    },
+    "query_request_receipt": {
+      "bytes": 1998,
+      "path": "authority/mediawiki/unit09_solution_pages_current.json.request.json",
+      "sha256": "b779f8996b5d62d76fc7bc4b69c8ee2cf990f8082af31af4b0ad565536b0f0dc"
+    },
+    "query_retrieved_utc": "2026-08-23T19:11:20Z",
+    "schema_version": 1,
+    "supplied_solution_count": 0,
+    "supplied_solution_indices": [],
+    "workflow": "o011-unit09-solution-freeze-v1",
+    "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 9"
+  },
+  "status": "pass",
+  "structure": {
+    "all_hint_fields_blank": true,
+    "lecture_section_count": 1,
+    "worksheet_exercise_count": 17,
+    "worksheet_graded_count": 4,
+    "worksheet_point_total": 23,
+    "worksheet_practice_count": 13,
+    "worksheet_section_count": 2,
+    "worksheet_solution_bearing_indices": []
+  },
+  "unit": 9,
+  "workflow": "o011-unit09-authority-preflight-v1"
+}

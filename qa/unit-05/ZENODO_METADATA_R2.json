@@ -1,0 +1,48 @@
+{
+  "metadata": {
+    "title": "Geometri Diferensial dan Manifold Mulus — Edisi Bahasa Indonesia (Batas Unit 05)",
+    "upload_type": "publication",
+    "publication_type": "book",
+    "description": "<p>Rilis kumulatif yang sedang dikerjakan dari edisi independen Bahasa Indonesia atas kursus Holger Brenner, <em>Differentialgeometrie (Osnabrück 2023)</em> di Wikiversity Jerman. Batas ini mencakup Kuliah 1–5 dan Lembar Kerja 1–5: 86 halaman A4, 89 latihan, 11 solusi yang memang disediakan sumber, dan 10 gambar. Kursus sumber lengkap terdiri atas 29 pasangan kuliah/lembar kerja; edisi ini belum lengkap.</p><p>Paket ini memuat PDF pembaca, arsip sumber ringkas yang dapat dilanjutkan, backend stable-ID, skrip pembangunan, bukti QA, pemberitahuan hak mandiri, manifes berkas, dan checksum SHA-256. PDF belum bertag struktur; seluruh 29 font tersemat memiliki pemetaan ToUnicode dan teks dapat diekstrak pada semua 86 halaman. Pembaca HTML semantik belum disertakan pada batas ini.</p><p>Lisensi tingkat rekaman dicatat sebagai Other (Open) karena paket memuat beberapa lisensi terbuka yang berbeda. Teks sumber dan adaptasi Indonesia didistribusikan menurut CC BY-SA 4.0. Media tidak menerima lisensi menyeluruh: setiap berkas mempertahankan pencipta dan lisensinya sendiri sebagaimana tercatat dalam inventaris hak. Gambar baru pada Unit 5, <em>Minimal surface curvature planes-de.svg</em> karya Eric Gaba (Sting), berlisensi CC BY-SA 3.0. Sepuluh gambar kumulatif mencakup komponen CC BY 3.0, CC BY-SA 3.0, CC BY-SA 4.0, dan domain publik.</p><p>Terjemahan, penataan ulang, backend stable-ID, dan QA dibuat melalui alur kerja berbantuan Codex atas arahan pengguna; tidak ada tinjauan manusia independen yang diklaim. Ini bukan edisi resmi dan tidak menyiratkan dukungan Holger Brenner, Wikiversity, Wikimedia Commons, Wikimedia Foundation, atau pencipta media mana pun. Revisi sumber, perubahan, atribusi, hash, dan batasan aksesibilitas dicatat dalam paket preservasi.</p><p>Revisi preservasi r2 mempertahankan byte PDF dan arsip sumber bersih dari r1, lalu menambahkan LICENSE, manifes berkas, dan checksum sebagai berkas mandiri agar rekaman tertaut dapat dibaca dan diverifikasi tanpa menebak hak atau identitas byte. Isi matematis, terjemahan, backend, hak komponen, dan hasil QA tidak berubah; versi ini tetap berada dalam konsep Zenodo yang sama.</p>",
+    "creators": [
+      {
+        "name": "Brenner, Holger"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "TTP",
+        "type": "Other"
+      },
+      {
+        "name": "Codex (OpenAI), acting on Floris's request",
+        "type": "Other"
+      }
+    ],
+    "license": "other-open",
+    "access_right": "open",
+    "publication_date": "2026-08-22",
+    "version": "2026.08.22-unit05-r2",
+    "language": "ind",
+    "keywords": [
+      "geometri diferensial",
+      "manifold mulus",
+      "differential geometry",
+      "smooth manifolds",
+      "Bahasa Indonesia",
+      "buku teks terbuka",
+      "open textbook",
+      "pendidikan matematika",
+      "Wikiversity",
+      "Holger Brenner"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://de.wikiversity.org/wiki/Kurs:Differentialgeometrie_(Osnabr%C3%BCck_2023)",
+        "relation": "isDerivedFrom",
+        "resource_type": "publication-book",
+        "scheme": "url"
+      }
+    ]
+  }
+}

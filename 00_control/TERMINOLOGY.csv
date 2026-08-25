@@ -1,20 +1,20 @@
 id,source_de,target_id,status,note
 O011-TERM-0001,Differentialgeometrie,geometri diferensial,admitted,Course field
-O011-TERM-0002,Mannigfaltigkeit,manifold,admitted,Use manifold rather than varietas
-O011-TERM-0003,differenzierbare Mannigfaltigkeit,manifold diferensiabel,admitted,Smoothness degree follows source
-O011-TERM-0004,glatte Mannigfaltigkeit,manifold mulus,admitted,Reserve for smooth
+O011-TERM-0002,Mannigfaltigkeit,manifold,admitted,Primary reader term; keragaman is a field-attested retrieval alias
+O011-TERM-0003,differenzierbare Mannigfaltigkeit,manifold diferensiabel,admitted,Smoothness degree follows source; keragaman diferensiabel is a field-attested alias
+O011-TERM-0004,glatte Mannigfaltigkeit,manifold mulus,admitted,Reserve for smooth; manifold smooth is a field-attested retrieval alias
 O011-TERM-0005,Hyperfläche,hipermuka,admitted,Codimension-one submanifold
-O011-TERM-0006,Tangentialraum,ruang tangen,admitted,
-O011-TERM-0007,Kotangentialraum,ruang kotangen,admitted,
+O011-TERM-0006,Tangentialraum,ruang singgung,admitted,Normalized after Indonesian field-source audit; prior ruang tangen retained as retrieval alias
+O011-TERM-0007,Kotangentialraum,ruang kotangen,admitted,Ruang singgung pendamping and ruang kosinggung are retrieval aliases
 O011-TERM-0008,Faser,serat,admitted,Preimage fiber
-O011-TERM-0009,Differentialform,bentuk diferensial,admitted,
+O011-TERM-0009,Differentialform,bentuk diferensial,admitted,Forma diferensial is a field-attested retrieval alias
 O011-TERM-0010,äußere Ableitung,turunan eksterior,admitted,
 O011-TERM-0011,Zusammenhang,koneksi,admitted,Geometric connection; distinguish connectedness
 O011-TERM-0012,Levi-Civita-Zusammenhang,koneksi Levi-Civita,admitted,
 O011-TERM-0013,geodätische Kurve,kurva geodesik,admitted,
 O011-TERM-0014,Schnittkrümmung,kelengkungan seksional,admitted,
 O011-TERM-0015,Satz von Stokes,teorema Stokes,admitted,
-O011-TERM-0016,Partition der Eins,partisi satuan,admitted,
+O011-TERM-0016,Partition der Eins,partisi satuan,admitted,Sekatan kesatuan is a field-attested retrieval alias
 O011-TERM-0017,Weingartenabbildung,pemetaan Weingarten,admitted,
 O011-TERM-0018,Normalenfeld,medan normal,admitted,
 O011-TERM-0019,Rotationsfläche,permukaan putar,admitted,Surface of revolution
@@ -33,7 +33,7 @@ O011-TERM-0031,affin-linearer Unterraum,subruang afin-linear,admitted,Avoid subr
 O011-TERM-0032,gemeinfrei,domain publik,admitted,Reader-facing media rights label
 O011-TERM-0033,differenzierbare Kurve,kurva terdiferensialkan,admitted,
 O011-TERM-0034,Ableitung,turunan,admitted,
-O011-TERM-0035,euklidischer Vektorraum,ruang vektor Euklides,admitted,
+O011-TERM-0035,euklidischer Vektorraum,ruang vektor Euklides,admitted,Euclidean is a field-attested retrieval alias
 O011-TERM-0036,tangential äquivalent,ekuivalen secara tangensial,admitted,
 O011-TERM-0037,Äquivalenzrelation,relasi ekuivalensi,admitted,
 O011-TERM-0038,Äquivalenzklasse,kelas ekuivalensi,admitted,
@@ -62,20 +62,20 @@ O011-TERM-0060,Potenzreihe,deret pangkat,admitted,
 O011-TERM-0061,Evolute,evolut,admitted,Locus of centers of curvature
 O011-TERM-0062,Gradientenfeld,medan gradien,admitted,
 O011-TERM-0063,totales Differential,diferensial total,admitted,
-O011-TERM-0064,tangentialer Vektor / Tangentenvektor,vektor tangen,admitted,
+O011-TERM-0064,tangentialer Vektor / Tangentenvektor,vektor singgung,admitted,Normalized after Indonesian field-source audit; prior vektor tangen retained as retrieval alias
 O011-TERM-0065,regulär,reguler,admitted,Regular map or regular point as context determines
-O011-TERM-0066,Tangente,garis tangen,admitted,Tangent line
+O011-TERM-0066,Tangente,garis singgung,admitted,Normalized after Indonesian field-source audit; prior garis tangen retained as retrieval alias
 O011-TERM-0067,Krümmungsradius,jari-jari kelengkungan,admitted,
 O011-TERM-0068,Standardorientierung,orientasi standar,admitted,
 O011-TERM-0069,Gegenorientierung,orientasi berlawanan,admitted,
-O011-TERM-0070,Umparametrisierung,reparametrisasi,admitted,
+O011-TERM-0070,Umparametrisierung,reparametrisasi,admitted,reparameterisasi is a field-attested retrieval alias
 O011-TERM-0071,Bogenlänge,panjang busur,admitted,
 O011-TERM-0072,kommutatives Diagramm,diagram komutatif,admitted,
 O011-TERM-0073,implizit gegebene Kurve,kurva yang diberikan secara implisit,admitted,
 O011-TERM-0074,Hauptsatz der Infinitesimalrechnung,teorema dasar kalkulus,admitted,
 O011-TERM-0075,Kettenregel,aturan rantai,admitted,
 O011-TERM-0076,Krümmungsverlauf,profil kelengkungan,admitted,Prescribed curvature as a function of the parameter
-O011-TERM-0077,tangentialer Vektor,vektor tangen,admitted,Exact source variant used in Worksheet 3; aligned with Tangentenvektor
+O011-TERM-0077,tangentialer Vektor,vektor singgung,admitted,Exact source variant used in Worksheet 3; aligned with Tangentenvektor; prior vektor tangen is an alias
 O011-TERM-0078,Richtungsableitung,turunan berarah,admitted,Directional derivative
 O011-TERM-0079,normiertes Gradientenfeld,medan gradien ternormalisasi,admitted,Normalized gradient field used as a unit normal field
 O011-TERM-0080,Endomorphismus,endomorfisme,admitted,Linear endomorphism of one tangent space
@@ -92,5 +92,142 @@ O011-TERM-0090,Matrixdarstellung,representasi matriks,admitted,
 O011-TERM-0091,zweifach stetig differenzierbar,dua kali terdiferensialkan secara kontinu,admitted,
 O011-TERM-0092,nach oben gerichtetes Einheitsnormalenfeld,medan normal satuan yang mengarah ke atas,admitted,
 O011-TERM-0093,erste Fundamentalform,bentuk fundamental pertama,admitted,Graph metric form
-O011-TERM-0094,zweite Fundamentalform,bentuk fundamental kedua,admitted,Distinguish from the shape-operator matrix
+O011-TERM-0094,zweite Fundamentalform,bentuk fundamental kedua,admitted,Distinguish from the shape-operator matrix; forma asasi kedua is a field-attested alias
 O011-TERM-0095,Metrikmatrix,matriks metrik,admitted,Coordinate matrix of the first fundamental form
+O011-TERM-0096,Hauptkrümmung,kelengkungan utama,admitted,Principal curvature
+O011-TERM-0097,Hauptkrümmungsrichtung,arah kelengkungan utama,admitted,Principal direction; reserve vektor for the source synonym Hauptkrümmungsvektor
+O011-TERM-0098,Hauptkrümmungsvektor,vektor kelengkungan utama,admitted,Source synonym for Hauptkrümmungsrichtung
+O011-TERM-0099,Hauptkrümmungstupel,tupel kelengkungan utama,admitted,Ordered tuple of principal curvatures with multiplicity
+O011-TERM-0100,geometrische Vielfachheit,multiplisitas geometrik,admitted,Dimension of the corresponding eigenspace
+O011-TERM-0101,charakteristisches Polynom,polinom karakteristik,admitted,Characteristic polynomial
+O011-TERM-0102,mittlere Krümmung,kelengkungan rata-rata,admitted,Mean curvature under the source convention
+O011-TERM-0103,Gaußkrümmung / Gaußsche Krümmung,kelengkungan Gauss,admitted,Gaussian curvature; use ASCII spelling in Indonesian prose
+O011-TERM-0104,Normalkrümmung,kelengkungan normal,admitted,Normal curvature in a specified tangent direction
+O011-TERM-0105,Normalenebene / Normalebene,bidang normal,admitted,Normal plane spanned by a tangent direction and a nonzero normal vector
+O011-TERM-0106,Orthonormalbasis,basis ortonormal,admitted,Orthonormal basis
+O011-TERM-0107,arithmetisches Mittel,rata-rata aritmetika,admitted,Arithmetic mean
+O011-TERM-0108,partielle Ableitung,turunan parsial,admitted,Partial derivative
+O011-TERM-0109,Gauß-Kronecker-Krümmung,kelengkungan Gauss--Kronecker,admitted,Gauss--Kronecker curvature
+O011-TERM-0110,Determinante,determinan,admitted,Determinant
+O011-TERM-0111,Kovariante Ableitung,turunan kovarian,admitted,Covariant derivative
+O011-TERM-0112,orthogonale Projektion,proyeksi ortogonal,admitted,Orthogonal projection
+O011-TERM-0113,tangentiales Vektorfeld,medan vektor tangensial,admitted,Keep tangensial as the adjective while nominal tangent objects use singgung
+O011-TERM-0114,Vektorfeld längs einer Kurve,medan vektor sepanjang kurva,admitted,Vector field along a curve
+O011-TERM-0115,parallel längs,paralel sepanjang,admitted,Parallel along a curve
+O011-TERM-0116,paralleles Vektorfeld,medan vektor paralel,admitted,Parallel vector field
+O011-TERM-0117,Geschwindigkeitsfeld,medan kecepatan,admitted,Velocity field
+O011-TERM-0118,Normalengerade,garis normal,admitted,Normal line
+O011-TERM-0119,Normalenraum,ruang normal,admitted,Normal space
+O011-TERM-0120,gewöhnliche lineare Differentialgleichung erster Ordnung,persamaan diferensial linear biasa orde pertama,admitted,First-order linear ordinary differential equation
+O011-TERM-0121,Anfangsbedingung,syarat awal,admitted,Initial condition
+O011-TERM-0122,Paralleltransport,transpor paralel,admitted,Canonical form confirmed in Indonesian institutional usage; pergeseran sejajar is a retrieval alias
+O011-TERM-0123,stückweise differenzierbar,terdiferensialkan sepotong-sepotong,admitted,Piecewise differentiable
+O011-TERM-0124,geschlossener Weg,lintasan tertutup,admitted,Closed path
+O011-TERM-0125,Holonomiegruppe,grup holonomi,admitted,Holonomy group
+O011-TERM-0126,Isometriegruppe,grup isometri,admitted,Isometry group
+O011-TERM-0127,Kreuzprodukt,hasil kali silang,admitted,Cross product
+O011-TERM-0128,Einheitssphäre,permukaan bola satuan,admitted,Unit sphere
+O011-TERM-0129,Großkreis,lingkaran besar,admitted,Great circle
+O011-TERM-0130,Breitenkreis,lingkaran lintang,admitted,Latitude circle
+O011-TERM-0131,Breitengrad,garis lintang,admitted,Latitude
+O011-TERM-0132,Untergruppe,subgrup,admitted,Subgroup
+O011-TERM-0133,tangentiale Richtung,arah singgung,admitted,Tangent direction; normalized after Indonesian field-source audit
+O011-TERM-0134,Tangentialbündel,bundel tangen,admitted,Retained field loan compound; untingan singgung is a retrieval alias and is not forced into prose
+O011-TERM-0135,topologische Mannigfaltigkeit,manifold topologis,admitted,manifold topologi is a field-attested retrieval alias
+O011-TERM-0136,topologischer Raum,ruang topologis,admitted,ruang topologi is a field-attested retrieval alias
+O011-TERM-0137,Karte,peta,admitted,Chart is a field-attested retrieval alias; use peta (chart) only when a first pedagogical gloss is useful
+O011-TERM-0138,Kartenbild,citra peta,admitted,Coordinate image of a chart
+O011-TERM-0139,Kartengebiet,domain peta,admitted,Chart domain
+O011-TERM-0140,lokale Koordinaten,koordinat lokal,admitted,koordinat lingkungan is a field-attested retrieval alias
+O011-TERM-0141,Diffeomorphismus,difeomorfisme,admitted,
+O011-TERM-0142,diffeomorph,difeomorfik,admitted,Adjectival form
+O011-TERM-0143,Homöomorphismus,homeomorfisme,admitted,
+O011-TERM-0144,Atlas,atlas,admitted,
+O011-TERM-0145,Kartenwechsel,pergantian peta,admitted,
+O011-TERM-0146,Übergangsabbildung,pemetaan transisi,admitted,Confirmed in Indonesian institutional usage
+O011-TERM-0147,differenzierbare Abbildung,pemetaan diferensiabel,admitted,
+O011-TERM-0148,differenzierbare Funktion,fungsi diferensiabel,admitted,
+O011-TERM-0149,differenzierbare Koordinaten,koordinat diferensiabel,admitted,
+O011-TERM-0150,offene Teilmenge,himpunan bagian terbuka,admitted,
+O011-TERM-0151,offene Umgebung,lingkungan terbuka,admitted,
+O011-TERM-0152,offene Einbettung,penyematan terbuka,admitted,
+O011-TERM-0153,abgeschlossene Untermannigfaltigkeit,submanifold tertutup,admitted,
+O011-TERM-0154,maximaler Atlas,atlas maksimal,admitted,
+O011-TERM-0155,Hintereinanderschaltung,komposisi,admitted,Composition of maps
+O011-TERM-0156,kommutativer Ring,gelanggang komutatif,admitted,
+O011-TERM-0157,Nullstelle,titik nol,admitted,Zero of a function
+O011-TERM-0158,Ausgangsraum / Zielraum,ruang asal / ruang sasaran,admitted,Domain-side and codomain-side spaces in a map
+O011-TERM-0159,offene Überdeckung / Überdeckung,tutupan terbuka / tutupan,admitted,Open cover; preserve established Unit 7 wording
+O011-TERM-0160,differenzierbare Struktur,struktur diferensiabel,admitted,Degree-sensitive; reserve struktur mulus for C-infinity
+O011-TERM-0161,homogene Funktion,fungsi homogen,admitted,
+O011-TERM-0162,homogen vom Grad,homogen berderajat,admitted,
+O011-TERM-0163,Kozykelbedingung,syarat koklus,admitted,Cocycle condition
+O011-TERM-0164,offenes Verkleben,perekatan terbuka,admitted,Open gluing construction
+O011-TERM-0165,Grenzwert,limit,admitted,Nilai batas is the explanatory alias
+O011-TERM-0166,stetig differenzierbare Abbildung,pemetaan terdiferensialkan kontinu,admitted,Continuously differentiable map
+O011-TERM-0167,Untermannigfaltigkeit,submanifold,admitted,
+O011-TERM-0168,Tangentialabbildung,pemetaan singgung,admitted,Tangent map or differential between tangent spaces; do not confuse with tangent bundle map context
+O011-TERM-0169,Kotangentialabbildung,pemetaan kotangen,admitted,Dual of the tangent map at a point
+O011-TERM-0170,Bildtopologie,topologi citra,admitted,Final topology induced by a map in the source exercise
+O011-TERM-0171,Kurvenkeim,germ kurva,admitted,Germ is retained as the established mathematical loanword
+O011-TERM-0172,regulärer Punkt,titik reguler,admitted,Rank condition depends on source dimension comparison
+O011-TERM-0173,maximaler Rang,rank maksimal,admitted,Indonesian mathematical loan spelling retained consistently
+O011-TERM-0174,affin-lineare Kurve,lintasan afin-linear,admitted,Curve restricted to a suitable open parameter interval when required
+O011-TERM-0175,komplexe Mannigfaltigkeit,manifold kompleks,admitted,
+O011-TERM-0176,Tangentialklasse,kelas tangensial,admitted,Equivalence class of differentiable curves at a point
+O011-TERM-0177,Vektorfeld,medan vektor,admitted,The source permits arbitrary sections; regularity is stated separately when needed
+O011-TERM-0178,Kotangentialbündel,bundel kotangen,admitted,Cotangent bundle; consistent with ruang kotangen and pemetaan kotangen
+O011-TERM-0179,Schnitt (eines Bündels),penampang (bundel),admitted,Section of a bundle; distinguish from irisan for set intersection
+O011-TERM-0180,zeitunabhängiges Vektorfeld,medan vektor tak bergantung waktu,admitted,Time-independent vector field
+O011-TERM-0181,Vektorfeld längs einer Abbildung,medan vektor sepanjang pemetaan,admitted,Generalizes the previously admitted term for a vector field along a curve
+O011-TERM-0182,nilpotente Matrix,matriks nilpoten,admitted,Standard algebraic loan term
+O011-TERM-0183,Produktraum,ruang produk,admitted,Product space
+O011-TERM-0184,Produktmannigfaltigkeit,manifold produk,admitted,Product manifold
+O011-TERM-0185,Projektion,proyeksi,admitted,Coordinate or canonical projection as context requires
+O011-TERM-0186,Komponentenabbildung,pemetaan komponen,admitted,Component map
+O011-TERM-0187,lineare Projektion,proyeksi linear,admitted,Linear projection
+O011-TERM-0188,Differentialoperator erster Ordnung,operator diferensial orde pertama,admitted,First-order differential operator
+O011-TERM-0189,Derivation,derivasi,admitted,Derivation associated with a vector field
+O011-TERM-0190,Lie-Klammer,braket Lie,admitted,Kurung Lie is retained as a retrieval alias; braket Lie is the reader term
+O011-TERM-0191,Lie-Algebra,aljabar Lie,admitted,Lie algebra
+O011-TERM-0192,relatives Produkt,produk relatif,admitted,Relative product; produk serat is a retrieval alias where fiber-product language is used
+O011-TERM-0193,Rückzug,tarik balik,admitted,Pullback
+O011-TERM-0194,differenzierbare Gruppenstruktur,struktur grup diferensiabel,admitted,Differentiable group structure
+O011-TERM-0195,Kartenumgebung,lingkungan koordinat,admitted,Coordinate neighborhood
+O011-TERM-0196,Kartenabbildung,pemetaan koordinat,admitted,Coordinate map
+O011-TERM-0197,Vektorbündel,bundel vektor,admitted,Vector bundle
+O011-TERM-0198,reelles Vektorbündel,bundel vektor riil,admitted,Real vector bundle; riil is the consistent reader spelling
+O011-TERM-0199,Rang,rank,admitted,Bundle or linear-map rank
+O011-TERM-0200,Totalraum,ruang total,admitted,Total space of a bundle
+O011-TERM-0201,Basisraum,ruang dasar,admitted,Base space of a bundle
+O011-TERM-0202,Trivialisierung,trivialisasi,admitted,Bundle trivialization
+O011-TERM-0203,triviales Vektorbündel,bundel vektor trivial,admitted,Trivial vector bundle
+O011-TERM-0204,Geradenbündel,bundel garis,admitted,Line bundle
+O011-TERM-0205,Vektorbündelhomomorphismus,homomorfisme bundel vektor,admitted,Vector-bundle homomorphism
+O011-TERM-0206,Kernbündel,bundel kernel,admitted,Kernel bundle
+O011-TERM-0207,Nullschnitt,penampang nol,admitted,Zero section
+O011-TERM-0208,Basisschnitt,penampang basis,admitted,Frame or basis section in the source convention
+O011-TERM-0209,Verklebungsdatum,data perekatan,admitted,Gluing datum; perekatan is retained consistently across Unit 12
+O011-TERM-0210,Matrixbeschreibung,deskripsi matriks,admitted,Matrix description of transition data
+O011-TERM-0211,Untervektorbündel,subbundel vektor,admitted,Vector subbundle
+O011-TERM-0212,kurze exakte Sequenz,barisan eksak pendek,admitted,Short exact sequence
+O011-TERM-0213,direkte Summe von Vektorbündeln,jumlah langsung bundel vektor,admitted,Direct sum of vector bundles
+O011-TERM-0214,Möbiusband,pita Möbius,admitted,Mobius band or line bundle
+O011-TERM-0215,Tensorprodukt,produk tensor,admitted,Includes vector-bundle tensor products
+O011-TERM-0216,Kroneckerprodukt,produk Kronecker,admitted,Matrix description of a tensor product
+O011-TERM-0217,äußeres Produkt,produk eksterior,admitted,Exterior power; ordinal follows context
+O011-TERM-0218,Determinantenbündel,bundel determinan,admitted,Top exterior power
+O011-TERM-0219,Homomorphismenbündel,bundel homomorfisme,admitted,
+O011-TERM-0220,duales Bündel,bundel dual,admitted,
+O011-TERM-0221,differenzierbares Vektorbündel,bundel vektor diferensiabel,admitted,
+O011-TERM-0222,orientierungstreu,mempertahankan orientasi,admitted,
+O011-TERM-0223,orientierbar,dapat diorientasikan,admitted,
+O011-TERM-0224,überdeckungskompakt,kompak terhadap tutupan,admitted,
+O011-TERM-0225,abzählbare Basis,basis terhitung,admitted,
+O011-TERM-0226,Häufungspunkt,titik akumulasi,admitted,
+O011-TERM-0227,Teilfolge,barisan bagian,admitted,Subsequence
+O011-TERM-0228,Teilüberdeckung,subtutupan,admitted,Subcover
+O011-TERM-0229,Bildmaß,ukuran citra,admitted,Pushforward measure
+O011-TERM-0230,Dichte,kerapatan,admitted,Measure density
+O011-TERM-0231,Borel-Lebesgue-Maß,ukuran Borel--Lebesgue,admitted,
+O011-TERM-0232,Untermatrix,submatriks,admitted,

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-08/worksheet08.id.tex",
+  "input_bytes": 13094,
+  "input_sha256": "8cd886c6c2f9a7019f5e2319d9930a729572e016ee823346200228e3265b40bf",
+  "output": "build/generated/worksheet08.id.build.tex",
+  "output_bytes": 12863,
+  "output_sha256": "c7f284a7cc84ef71a3f1df8b7fa25be8e4d3cf2a79bf84e0a7b9e9d83999afca",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Mannigfaltigkeit/Übergangsabbildungen/Kozykelbedingung/Aufgabe",
+      "label": "Soal 7.11"
+    },
+    {
+      "target": "Topologische Mannigfaltigkeit/Rekonstruktion aus Karten/Aufgabe",
+      "label": "Soal 8.15"
+    },
+    {
+      "target": "Topologische Mannigfaltigkeit/Rekonstruktion aus Karten/Aufgabe",
+      "label": "Soal 8.15"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

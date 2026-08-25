@@ -1,0 +1,13 @@
+id,source_de,target_id,status,note
+O011-TERM-U05-L-0001,Hauptkrümmung,kelengkungan utama,proposed,Principal curvature
+O011-TERM-U05-L-0002,Hauptkrümmungsrichtung,arah kelengkungan utama,proposed,Principal direction; reserve vektor for the source synonym Hauptkrümmungsvektor
+O011-TERM-U05-L-0003,Hauptkrümmungsvektor,vektor kelengkungan utama,proposed,Source synonym for Hauptkrümmungsrichtung
+O011-TERM-U05-L-0004,Hauptkrümmungstupel,tupel kelengkungan utama,proposed,Ordered tuple of principal curvatures with multiplicity
+O011-TERM-U05-L-0005,geometrische Vielfachheit,multiplisitas geometrik,proposed,Dimension of the corresponding eigenspace
+O011-TERM-U05-L-0006,charakteristisches Polynom,polinom karakteristik,proposed,Characteristic polynomial
+O011-TERM-U05-L-0007,mittlere Krümmung,kelengkungan rata-rata,proposed,Mean curvature under the source convention
+O011-TERM-U05-L-0008,Gaußkrümmung / Gaußsche Krümmung,kelengkungan Gauss,proposed,Gaussian curvature; use ASCII spelling in Indonesian prose
+O011-TERM-U05-L-0009,Normalkrümmung,kelengkungan normal,proposed,Normal curvature in a specified tangent direction
+O011-TERM-U05-L-0010,Normalenebene,bidang normal,proposed,Plane spanned by a nonzero tangent vector and a nonzero normal vector
+O011-TERM-U05-L-0011,Orthonormalbasis,basis ortonormal,proposed,Orthonormal basis
+O011-TERM-U05-L-0012,arithmetisches Mittel,rata-rata aritmetika,proposed,Arithmetic mean

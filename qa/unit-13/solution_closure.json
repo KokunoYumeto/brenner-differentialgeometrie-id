@@ -1,0 +1,811 @@
+{
+  "exercise_count": 24,
+  "exercises": [
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 765,
+        "path": "authority/mediawiki/worksheet13_exercise01_solution_revid1095037.utf8.b64",
+        "sha256": "8ecdba1128933f7ab0585585a46f945f7b80da02f39f5e7721addbc4d765aaa5"
+      },
+      "exercise_index": 1,
+      "exists": true,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 760,
+        "http_date": "Mon, 24 Aug 2026 02:55:25 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Kroneckerprodukt/2x2/Berechnung/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 684,
+          "path": "authority/exports/worksheet13_exercise01_solution_latex_expand.json.request.json",
+          "sha256": "a07c02b9a275170b4e9b30ce985976ca7c8a35af1ee469159a6b5d58fe205336"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 924,
+          "path": "authority/exports/worksheet13_exercise01_solution_latex_expand.json",
+          "sha256": "ec03204078bdbd25ee6ea786d7921d39f1f8d49b0c82a42e653023b2927184f6"
+        },
+        "retrieved_utc": "2026-08-24T02:55:25Z",
+        "sanitized_source": {
+          "bytes": 680,
+          "path": "authority/expanded/worksheet13_exercise01_solution_source.de.tex",
+          "sha256": "8f7b50751d9795aae38404cb018203dd9d4cf70a025374b6a22602293b2debf3"
+        },
+        "sanitizer": {
+          "bytes": 3606,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+        },
+        "sanitizer_receipt": {
+          "bytes": 710,
+          "path": "qa/unit-13/worksheet13_exercise01_solution_sanitize.json",
+          "sha256": "8a495fee56671899229f08eb16d3216dcadce5a12f4b34aaea2481b827e077c7"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "90a739d79baeba74076567320f1f5ad1b1ecb897",
+      "metadata": {
+        "bytes": 1224,
+        "path": "authority/mediawiki/worksheet13_exercise01_solution_revid1095037.metadata.json",
+        "sha256": "2fd3871f3703e65937eb3eb66f0a1d26a2e6a9fcf3653bdfa75208be6efa62ed"
+      },
+      "pageid": 125430,
+      "parentid": 1089836,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 573,
+        "path": "authority/mediawiki/worksheet13_exercise01_solution_revid1095037.wiki",
+        "sha256": "5d23f26221ca8b00307a9f91ad8d799e99bcf71b3a5b487d662d7dade3c15356"
+      },
+      "revid": 1095037,
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Kroneckerprodukt/2x2/Berechnung/Aufgabe/Lösung",
+      "source_utf8_bytes": 572,
+      "source_utf8_sha256": "7fde1c398dd22cf2c48e89e480d4254f2df90aea1edf1f5ef71a0723186180a0",
+      "task_title": "Kroneckerprodukt/2x2/Berechnung/Aufgabe",
+      "timestamp": "2026-06-14T17:35:09Z"
+    },
+    {
+      "exercise_index": 2,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Matrizen/Tensorprodukt/Kroneckerprodukt/Aufgabe/Lösung",
+      "task_title": "Matrizen/Tensorprodukt/Kroneckerprodukt/Aufgabe"
+    },
+    {
+      "exercise_index": 3,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Möbiusband/Tensorprodukt/Trivial/Aufgabe/Lösung",
+      "task_title": "Möbiusband/Tensorprodukt/Trivial/Aufgabe"
+    },
+    {
+      "exercise_index": 4,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Produkt von orientierten Mannigfaltigkeiten/Orientiert/Aufgabe/Lösung",
+      "task_title": "Produkt von orientierten Mannigfaltigkeiten/Orientiert/Aufgabe"
+    },
+    {
+      "exercise_index": 5,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "1-Sphäre/Orientierbare Mannigfaltigkeit/Aufgabe/Lösung",
+      "task_title": "1-Sphäre/Orientierbare Mannigfaltigkeit/Aufgabe"
+    },
+    {
+      "exercise_index": 6,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "S^1/Antipodal/Orientierungstreu/Aufgabe/Lösung",
+      "task_title": "S^1/Antipodal/Orientierungstreu/Aufgabe"
+    },
+    {
+      "exercise_index": 7,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Produkt von orientierter Mannigfaltigkeit/Vertauschung ist nicht unbedingt orientierungstreu/Aufgabe/Lösung",
+      "task_title": "Produkt von orientierter Mannigfaltigkeit/Vertauschung ist nicht unbedingt orientierungstreu/Aufgabe"
+    },
+    {
+      "exercise_index": 8,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Endlicher Raum/Kompakt/Aufgabe/Lösung",
+      "task_title": "Endlicher Raum/Kompakt/Aufgabe"
+    },
+    {
+      "exercise_index": 9,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Topologischer Raum/Endliche viele kompakte Teilmengen/Kompakt/Aufgabe/Lösung",
+      "task_title": "Topologischer Raum/Endliche viele kompakte Teilmengen/Kompakt/Aufgabe"
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 273,
+        "path": "authority/mediawiki/worksheet13_exercise10_solution_revid879281.utf8.b64",
+        "sha256": "7ad3370247a27980598763fed790d539c61b64cf916564041f8e56e82c8b8a83"
+      },
+      "exercise_index": 10,
+      "exists": true,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 1667,
+        "http_date": "Mon, 24 Aug 2026 02:55:25 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Kompakter Raum/Abgeschlossene Teilmenge/Kompakt/Fakt/Beweis/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 713,
+          "path": "authority/exports/worksheet13_exercise10_solution_latex_expand.json.request.json",
+          "sha256": "67c4762dff22a7c74c43f9ba1eb397d2cc178c7228188fb664d44cd825ebd667"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 1885,
+          "path": "authority/exports/worksheet13_exercise10_solution_latex_expand.json",
+          "sha256": "0aae2a14b440b124ff5aca0ca7aa87e0652fdb21bf90c8292937a99c45d4e7f0"
+        },
+        "retrieved_utc": "2026-08-24T02:55:25Z",
+        "sanitized_source": {
+          "bytes": 1284,
+          "path": "authority/expanded/worksheet13_exercise10_solution_source.de.tex",
+          "sha256": "ee5c487e0ac4c59ce1db9311f37552b24bfb7607e0031b175c6060d2a4877346"
+        },
+        "sanitizer": {
+          "bytes": 3606,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+        },
+        "sanitizer_receipt": {
+          "bytes": 713,
+          "path": "qa/unit-13/worksheet13_exercise10_solution_sanitize.json",
+          "sha256": "400cb3682d544dfd2be861e53e2a969ef0c3935fb311f9bc0412c2af5a441d1a"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "d01ed2141f48219e4d57f099ad8090c62f214e13",
+      "metadata": {
+        "bytes": 1243,
+        "path": "authority/mediawiki/worksheet13_exercise10_solution_revid879281.metadata.json",
+        "sha256": "10701663dd0381eca8a4cbb309f1773f4b5b1bcf11c237c986bc8e27c20ca7b6"
+      },
+      "pageid": 148072,
+      "parentid": 0,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 204,
+        "path": "authority/mediawiki/worksheet13_exercise10_solution_revid879281.wiki",
+        "sha256": "3a8a652e22c1053b52f079cf73715ec6fdba36dd9549de10f4b6438762f1a5be"
+      },
+      "revid": 879281,
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Kompakter Raum/Abgeschlossene Teilmenge/Kompakt/Fakt/Beweis/Aufgabe/Lösung",
+      "source_utf8_bytes": 203,
+      "source_utf8_sha256": "bed93ad1c7195668959d2af07500a6cf11a3a272c27eb1061052713182f37c5f",
+      "task_title": "Kompakter Raum/Abgeschlossene Teilmenge/Kompakt/Fakt/Beweis/Aufgabe",
+      "timestamp": "2023-01-16T17:36:42Z"
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 281,
+        "path": "authority/mediawiki/worksheet13_exercise11_solution_revid905567.utf8.b64",
+        "sha256": "28b9196c9f4e0c8bb2759ad27e72c7c4ce459939b3c0a6677558b6aeadda21c5"
+      },
+      "exercise_index": 11,
+      "exists": true,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 1394,
+        "http_date": "Mon, 24 Aug 2026 02:55:26 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Kompaktheit/Stetige Funktion/Maximum wird angenommen/Fakt/Beweis/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 718,
+          "path": "authority/exports/worksheet13_exercise11_solution_latex_expand.json.request.json",
+          "sha256": "a4ca514831cad0b64b6295861fbb59083cd5640b50278672daa4a9dc0244bfb1"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 1589,
+          "path": "authority/exports/worksheet13_exercise11_solution_latex_expand.json",
+          "sha256": "721177a2aae015540e85da1471ed042cc671d94cb5d7f2980ad17d33a747af20"
+        },
+        "retrieved_utc": "2026-08-24T02:55:25Z",
+        "sanitized_source": {
+          "bytes": 1144,
+          "path": "authority/expanded/worksheet13_exercise11_solution_source.de.tex",
+          "sha256": "dd5f2fd2568a6729d79838288301a3659653aaef0735f11a50717ebf0357673a"
+        },
+        "sanitizer": {
+          "bytes": 3606,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+        },
+        "sanitizer_receipt": {
+          "bytes": 713,
+          "path": "qa/unit-13/worksheet13_exercise11_solution_sanitize.json",
+          "sha256": "f835ae97aa0746794f634d08fa80e1922a28fc6c638133b00ccb664a6bfc6c7c"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "81c445a552bf17b4bdbf10789857ab813adb0f41",
+      "metadata": {
+        "bytes": 1248,
+        "path": "authority/mediawiki/worksheet13_exercise11_solution_revid905567.metadata.json",
+        "sha256": "5b7b06e14ae493752fea459206157e9ec889cc4d363651b647e32a747ff8798f"
+      },
+      "pageid": 152454,
+      "parentid": 0,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 209,
+        "path": "authority/mediawiki/worksheet13_exercise11_solution_revid905567.wiki",
+        "sha256": "83d73496c10c2582cd85e1f058c5b2f372120c12ecf4d793345e9c4ff17b8a55"
+      },
+      "revid": 905567,
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Kompaktheit/Stetige Funktion/Maximum wird angenommen/Fakt/Beweis/Aufgabe/Lösung",
+      "source_utf8_bytes": 208,
+      "source_utf8_sha256": "e6559f223ba8de8870834cd2e6ac67163d9d3062c4e3d8908c2fe67513cc54e7",
+      "task_title": "Kompaktheit/Stetige Funktion/Maximum wird angenommen/Fakt/Beweis/Aufgabe",
+      "timestamp": "2023-07-09T19:01:41Z"
+    },
+    {
+      "exercise_index": 12,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "R/S^1/Stetig/Bild/Aufgabe/Lösung",
+      "task_title": "R/S^1/Stetig/Bild/Aufgabe"
+    },
+    {
+      "exercise_index": 13,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "S^1/R/Stetig/Bild/Aufgabe/Lösung",
+      "task_title": "S^1/R/Stetig/Bild/Aufgabe"
+    },
+    {
+      "exercise_index": 14,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "R/Nicht überdeckungskompakt/Aufgabe/Lösung",
+      "task_title": "R/Nicht überdeckungskompakt/Aufgabe"
+    },
+    {
+      "exercise_index": 15,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "N/Diskrete Metrik/Abgeschlossen und beschränkt/Nicht kompakt//Aufgabe/Lösung",
+      "task_title": "N/Diskrete Metrik/Abgeschlossen und beschränkt/Nicht kompakt//Aufgabe"
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 325,
+        "path": "authority/mediawiki/worksheet13_exercise16_solution_revid746197.utf8.b64",
+        "sha256": "a4ebb792c183f99974ffadd7a998b31c9b58179db3cc34887833492c31175eef"
+      },
+      "exercise_index": 16,
+      "exists": true,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 1228,
+        "http_date": "Mon, 24 Aug 2026 02:55:26 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Metrischer Raum/Kompakt/Vollständig/Fakt/Beweis/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 702,
+          "path": "authority/exports/worksheet13_exercise16_solution_latex_expand.json.request.json",
+          "sha256": "0cdf773996c20863fcdbc65fc7e6c9771f5976ec624bccce9b33a6b16ef91d03"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 1406,
+          "path": "authority/exports/worksheet13_exercise16_solution_latex_expand.json",
+          "sha256": "0332c58661d863226dee5304be7cadf79d686ed9c5ac404c2a5bf63a810a2efc"
+        },
+        "retrieved_utc": "2026-08-24T02:55:26Z",
+        "sanitized_source": {
+          "bytes": 1022,
+          "path": "authority/expanded/worksheet13_exercise16_solution_source.de.tex",
+          "sha256": "ab188f46852994f4cdbf092b51b0375fa3679493d0e7e14816ce3e1b4965c68f"
+        },
+        "sanitizer": {
+          "bytes": 3606,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+        },
+        "sanitizer_receipt": {
+          "bytes": 713,
+          "path": "qa/unit-13/worksheet13_exercise16_solution_sanitize.json",
+          "sha256": "929da3c0f57c8f08aeac003d811474f6a5700582ddb7abc6fdf8e1e83e3fa86b"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "933c94418058888ffa552e82f0e9c5c7435b0807",
+      "metadata": {
+        "bytes": 1237,
+        "path": "authority/mediawiki/worksheet13_exercise16_solution_revid746197.metadata.json",
+        "sha256": "648d777f9e509c47d0378c97e448e977ed19a382b3e573466a698d650653f50b"
+      },
+      "pageid": 141350,
+      "parentid": 746192,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 244,
+        "path": "authority/mediawiki/worksheet13_exercise16_solution_revid746197.wiki",
+        "sha256": "ab90396cc6871e4446a5b89432fac4bd9bab758955fcd3ec9e242cfd493e9bce"
+      },
+      "revid": 746197,
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Metrischer Raum/Kompakt/Vollständig/Fakt/Beweis/Aufgabe/Lösung",
+      "source_utf8_bytes": 243,
+      "source_utf8_sha256": "9b2f8447229303a5b5862a01c4bb1d0605b1729771ca172d7523346830e5b1df",
+      "task_title": "Metrischer Raum/Kompakt/Vollständig/Fakt/Beweis/Aufgabe",
+      "timestamp": "2022-07-26T18:54:30Z"
+    },
+    {
+      "exercise_index": 17,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "R^n/Abzählbare Topologie durch Bälle/Aufgabe/Lösung",
+      "task_title": "R^n/Abzählbare Topologie durch Bälle/Aufgabe"
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 1669,
+        "path": "authority/mediawiki/worksheet13_exercise18_solution_revid1096290.utf8.b64",
+        "sha256": "cab6545724a474404a9ff7a9b4290b21e2eaf29d144341a7170b0784ec46a384"
+      },
+      "exercise_index": 18,
+      "exists": true,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 900,
+        "http_date": "Mon, 24 Aug 2026 02:55:26 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Kompakte Mannigfaltigkeit/x^2+y^4+z^6 ist 1/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 697,
+          "path": "authority/exports/worksheet13_exercise18_solution_latex_expand.json.request.json",
+          "sha256": "a564c5bc2aae7d9c813eccf5c4d9a7a55fc2d4ccf8a37eca6fb1ed5b5e46d0ba"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 1052,
+          "path": "authority/exports/worksheet13_exercise18_solution_latex_expand.json",
+          "sha256": "9caf6520fe8c3bfdcd7f472922fe5eb37ae55017f3ce07749277bf7b48f7da0d"
+        },
+        "retrieved_utc": "2026-08-24T02:55:26Z",
+        "sanitized_source": {
+          "bytes": 834,
+          "path": "authority/expanded/worksheet13_exercise18_solution_source.de.tex",
+          "sha256": "d1202aabb3cf02d2ba68cacc0bbd08d8efecea22fc60b504f3cef04483e3b4cf"
+        },
+        "sanitizer": {
+          "bytes": 3606,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+        },
+        "sanitizer_receipt": {
+          "bytes": 711,
+          "path": "qa/unit-13/worksheet13_exercise18_solution_sanitize.json",
+          "sha256": "673e1f1e3cae9b750c406fe865261f54ce784b9338af39aac619e5d1252f1cf5"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "b48f0dc5910c80efcb118d3a8c104630c807d3f9",
+      "metadata": {
+        "bytes": 1238,
+        "path": "authority/mediawiki/worksheet13_exercise18_solution_revid1096290.metadata.json",
+        "sha256": "b755ad5aa009edb1f86a0e477be3727a138462b8e71fdd85410fbcc6232855d8"
+      },
+      "pageid": 42755,
+      "parentid": 1089760,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 1251,
+        "path": "authority/mediawiki/worksheet13_exercise18_solution_revid1096290.wiki",
+        "sha256": "47416771c19c861d63cbdb6c6d7b2b19beced435ecfcb905105b35faaeafd644"
+      },
+      "revid": 1096290,
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Kompakte Mannigfaltigkeit/x^2+y^4+z^6 ist 1/Aufgabe/Lösung",
+      "source_utf8_bytes": 1250,
+      "source_utf8_sha256": "b1445e6402cca480414df946eb9a5f49507e9fe644c188ee7947f09f7b00a150",
+      "task_title": "Kompakte Mannigfaltigkeit/x^2+y^4+z^6 ist 1/Aufgabe",
+      "timestamp": "2026-06-15T08:27:54Z"
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 2621,
+        "path": "authority/mediawiki/worksheet13_exercise19_solution_revid1094979.utf8.b64",
+        "sha256": "4ab3458363585596eb176bfd5d8a917ffeb834643f1e1c98370f6601221ba3a6"
+      },
+      "exercise_index": 19,
+      "exists": true,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 1648,
+        "http_date": "Mon, 24 Aug 2026 02:55:26 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Kompakte Mannigfaltigkeit/Surjektive stetige Abbildung von beschränkter offener Menge/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 740,
+          "path": "authority/exports/worksheet13_exercise19_solution_latex_expand.json.request.json",
+          "sha256": "3c6ab68c2b18ea484422456087d9518c1ac3392572da7241b3c574b5df749958"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 1838,
+          "path": "authority/exports/worksheet13_exercise19_solution_latex_expand.json",
+          "sha256": "cd2675229ad18ef03cb31827e5dbbf1ccceae20ba9dd599234bf2073f55f11b5"
+        },
+        "retrieved_utc": "2026-08-24T02:55:26Z",
+        "sanitized_source": {
+          "bytes": 1504,
+          "path": "authority/expanded/worksheet13_exercise19_solution_source.de.tex",
+          "sha256": "c2eab59249752e96d60f3acd8337860436f42f08b9a9694e1b1de70e5545bf7b"
+        },
+        "sanitizer": {
+          "bytes": 3606,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+        },
+        "sanitizer_receipt": {
+          "bytes": 713,
+          "path": "qa/unit-13/worksheet13_exercise19_solution_sanitize.json",
+          "sha256": "ef1f02ea844d8bb681fc842fa304d08ec4e4032e620a70cd3863f243a58838ef"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "2ae4b6ad9cf1c75c5565f3339bed01529e7b2abb",
+      "metadata": {
+        "bytes": 1281,
+        "path": "authority/mediawiki/worksheet13_exercise19_solution_revid1094979.metadata.json",
+        "sha256": "8b521a22307d0508c9189b736d9192088427170c171e709b91060cefeefdb471"
+      },
+      "pageid": 71455,
+      "parentid": 1089759,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 1965,
+        "path": "authority/mediawiki/worksheet13_exercise19_solution_revid1094979.wiki",
+        "sha256": "0f1f3291347663087c0956f8adce3806bff52b3a77f0ea2e8622077dc1f1549a"
+      },
+      "revid": 1094979,
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Kompakte Mannigfaltigkeit/Surjektive stetige Abbildung von beschränkter offener Menge/Aufgabe/Lösung",
+      "source_utf8_bytes": 1964,
+      "source_utf8_sha256": "c84af68a47e7de4233d9ad8f7cf0afaf4cca274ed90817ebb35d168ab32cb74e",
+      "task_title": "Kompakte Mannigfaltigkeit/Surjektive stetige Abbildung von beschränkter offener Menge/Aufgabe",
+      "timestamp": "2026-06-14T17:25:29Z"
+    },
+    {
+      "exercise_index": 20,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 4,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "2-Sphäre/Orientierbare Mannigfaltigkeit/Aufgabe/Lösung",
+      "task_title": "2-Sphäre/Orientierbare Mannigfaltigkeit/Aufgabe"
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 617,
+        "path": "authority/mediawiki/worksheet13_exercise21_solution_revid912452.utf8.b64",
+        "sha256": "e33750e45d8799b2088c9a00f77a153c72087315601e6336f75c4710b1e88cf0"
+      },
+      "exercise_index": 21,
+      "exists": true,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 485,
+        "http_date": "Mon, 24 Aug 2026 02:55:27 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "S^2/Antipodenabbildung ist nicht orientierungstreu/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 703,
+          "path": "authority/exports/worksheet13_exercise21_solution_latex_expand.json.request.json",
+          "sha256": "4bdc37bb88a4146ff1cc67c3d03f49963829fa4bc95ec649abf6e20c3ca3f0fc"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 611,
+          "path": "authority/exports/worksheet13_exercise21_solution_latex_expand.json",
+          "sha256": "e2e4e170d46fa89e79cdc8eded2b90c23c73759bf3168247be27b36ecc19302f"
+        },
+        "retrieved_utc": "2026-08-24T02:55:27Z",
+        "sanitized_source": {
+          "bytes": 396,
+          "path": "authority/expanded/worksheet13_exercise21_solution_source.de.tex",
+          "sha256": "67b35cbd9058d61fb882b97dccf38820caeac278a737ca1fbec0cda9c75903f2"
+        },
+        "sanitizer": {
+          "bytes": 3606,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+        },
+        "sanitizer_receipt": {
+          "bytes": 1006,
+          "path": "qa/unit-13/worksheet13_exercise21_solution_sanitize.json",
+          "sha256": "93f74060ea96ba8a58d163009f05d43d6e4f1f6702198ded1c9b17f1efac5061"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "6f7cd00e98baf0be6d611bd7318145d7ec8a09d7",
+      "metadata": {
+        "bytes": 1239,
+        "path": "authority/mediawiki/worksheet13_exercise21_solution_revid912452.metadata.json",
+        "sha256": "4665e0dd118b3861decd265fd013826666f93ade769a5f8ccd38624a376cc939"
+      },
+      "pageid": 153543,
+      "parentid": 912451,
+      "point_value": 4,
+      "readable_normalized_witness": {
+        "bytes": 461,
+        "path": "authority/mediawiki/worksheet13_exercise21_solution_revid912452.wiki",
+        "sha256": "c9d49d7b3905da877d54d3f5a5b8d4e3240c8057fd1f759be158ad7c872fc27b"
+      },
+      "revid": 912452,
+      "root_point_marker": "p",
+      "solution_marker": true,
+      "solution_title": "S^2/Antipodenabbildung ist nicht orientierungstreu/Aufgabe/Lösung",
+      "source_utf8_bytes": 460,
+      "source_utf8_sha256": "e6263d485b905e198e54a1e57acd163931496df6d300b9c4a47624f4543f275d",
+      "task_title": "S^2/Antipodenabbildung ist nicht orientierungstreu/Aufgabe",
+      "timestamp": "2023-09-24T11:09:23Z"
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 269,
+        "path": "authority/mediawiki/worksheet13_exercise22_solution_revid1008850.utf8.b64",
+        "sha256": "12182607b48344975a10fb65a8c16d6d45300a72079140e295a8196e0bad06b5"
+      },
+      "exercise_index": 22,
+      "exists": true,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 1723,
+        "http_date": "Mon, 24 Aug 2026 02:58:01 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Hausdorffraum/Kompakte Teilmenge/Abgeschlossen/Fakt/Beweis/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 712,
+          "path": "authority/exports/worksheet13_exercise22_solution_latex_expand.json.request.json",
+          "sha256": "8f8d76887106b2f2395b306253f6a3f9c236293c86996324c4482f9a00deca47"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 1937,
+          "path": "authority/exports/worksheet13_exercise22_solution_latex_expand.json",
+          "sha256": "d398bb5f4e8e080bbe34745376829be5cab5ab2715487b8e29f2140d79d74779"
+        },
+        "retrieved_utc": "2026-08-24T02:58:01Z",
+        "sanitized_source": {
+          "bytes": 1333,
+          "path": "authority/expanded/worksheet13_exercise22_solution_source.de.tex",
+          "sha256": "c4d083293155778f45c9e0c02fe5fe780af816deba837df0df7a6f8ec8bc8d7e"
+        },
+        "sanitizer": {
+          "bytes": 3606,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+        },
+        "sanitizer_receipt": {
+          "bytes": 713,
+          "path": "qa/unit-13/worksheet13_exercise22_solution_sanitize.json",
+          "sha256": "549d8946bbadf88dd9068f5983909d489970c0d5905584f8919453049b75faa4"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "3a4451d426d70a562efab4bcbd72c5b3eda9b768",
+      "metadata": {
+        "bytes": 1245,
+        "path": "authority/mediawiki/worksheet13_exercise22_solution_revid1008850.metadata.json",
+        "sha256": "aff361f6fafc76dac0112667d325e1195e567c6c222ee5b28d0aed83b619cf13"
+      },
+      "pageid": 164652,
+      "parentid": 0,
+      "point_value": 4,
+      "readable_normalized_witness": {
+        "bytes": 202,
+        "path": "authority/mediawiki/worksheet13_exercise22_solution_revid1008850.wiki",
+        "sha256": "557323f9a855dc53b0d50bc8a33ccd6a5efc1bcbe963b63132ae9a43b97823c9"
+      },
+      "revid": 1008850,
+      "root_point_marker": "p",
+      "solution_marker": true,
+      "solution_title": "Hausdorffraum/Kompakte Teilmenge/Abgeschlossen/Fakt/Beweis/Aufgabe/Lösung",
+      "source_utf8_bytes": 201,
+      "source_utf8_sha256": "b247d116a8d6550ce453cd1e68b1bc472ab5c8407d9788bfbf234a7ebd61292c",
+      "task_title": "Hausdorffraum/Kompakte Teilmenge/Abgeschlossen/Fakt/Beweis/Aufgabe",
+      "timestamp": "2025-07-11T06:39:04Z"
+    },
+    {
+      "exercise_index": 23,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 4,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Stetige Abbildung/Bild eines kompakten Raumes/Kompakt/Fakt/Beweis/Aufgabe/Lösung",
+      "task_title": "Stetige Abbildung/Bild eines kompakten Raumes/Kompakt/Fakt/Beweis/Aufgabe"
+    },
+    {
+      "exercise_index": 24,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 4,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Orientierung/Stetige Abbildung von Intervall nach Basen/Konstante Orientierung/Aufgabe/Lösung",
+      "task_title": "Orientierung/Stetige Abbildung von Intervall nach Basen/Konstante Orientierung/Aufgabe"
+    }
+  ],
+  "graded_exercise_count": 5,
+  "macro_api_agreement": true,
+  "missing_solution_count": 16,
+  "point_value_total": 20,
+  "practice_exercise_count": 19,
+  "query": {
+    "bytes": 9505,
+    "path": "authority/mediawiki/unit13_solution_pages_current.json",
+    "sha256": "24621ab9b2672da50790622c0dc23f014e2c41a5c0db5b545eb2a9bc51e6c075"
+  },
+  "query_request_receipt": {
+    "bytes": 2182,
+    "path": "authority/mediawiki/unit13_solution_pages_current.json.request.json",
+    "sha256": "b59352f7f92d9b90af0ddd13e33701729512a09f2490081a92213dcb240e0f81"
+  },
+  "query_retrieved_utc": "2026-08-24T02:55:25Z",
+  "schema_version": 1,
+  "supplied_solution_count": 8,
+  "supplied_solution_indices": [
+    1,
+    10,
+    11,
+    16,
+    18,
+    19,
+    21,
+    22
+  ],
+  "workflow": "o011-unit13-solution-freeze-v1",
+  "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 13"
+}

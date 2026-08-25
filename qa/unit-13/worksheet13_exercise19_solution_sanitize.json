@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "input": "authority/exports/worksheet13_exercise19_solution_latex_expand.json",
+  "input_bytes": 1838,
+  "input_sha256": "cd2675229ad18ef03cb31827e5dbbf1ccceae20ba9dd599234bf2073f55f11b5",
+  "expanded_chars": 1648,
+  "output": "authority/expanded/worksheet13_exercise19_solution_source.de.tex",
+  "output_bytes": 1504,
+  "output_sha256": "c2eab59249752e96d60f3acd8337860436f42f08b9a9694e1b1de70e5545bf7b",
+  "transform": [
+    "normalize CRLF/CR to LF",
+    "replace br tags with LF",
+    "remove div/pre/nowiki wrapper tags",
+    "decode HTML entities",
+    "strip trailing horizontal whitespace",
+    "collapse runs of blank lines",
+    "require no residual HTML tag or U+FFFD"
+  ]
+}

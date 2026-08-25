@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://commons.wikimedia.org/w/api.php",
+  "http_date": "Sat, 22 Aug 2026 15:13:58 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "iiprop": "timestamp|user|url|size|sha1|mime|extmetadata",
+    "prop": "info|imageinfo",
+    "titles": "File:Minimal surface curvature planes-de.svg"
+  },
+  "response_bytes": 2595,
+  "response_path": "unit05_media_imageinfo_current.json",
+  "response_sha256": "e9891d47f2a6893991efcdc55124c089c95e2113528767f7d84e4b231ca5f3a6",
+  "retrieved_utc": "2026-08-22T15:14:01Z",
+  "schema_version": 1
+}

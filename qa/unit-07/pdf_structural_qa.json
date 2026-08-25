@@ -1,0 +1,2502 @@
+{
+  "accessibility": {
+    "fonts": {
+      "109:0": {
+        "base_font": "/HBJAEM+LMMathItalic10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "110:0": {
+        "base_font": "/BBTQTO+LMRoman10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "111:0": {
+        "base_font": "/GNHOUD+MSBM10",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "112:0": {
+        "base_font": "/JNJLWZ+LMMathItalic8-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "113:0": {
+        "base_font": "/XXYBGW+LMMathSymbols10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "114:0": {
+        "base_font": "/KJLMXT+LMMathSymbols8-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "115:0": {
+        "base_font": "/SRMAUB+LMRoman8-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "116:0": {
+        "base_font": "/ADWADW+LMRoman10-Italic",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "118:0": {
+        "base_font": "/CCIFAY+LMMathExtension10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "125:0": {
+        "base_font": "/VFSOCH+LMRoman6-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "126:0": {
+        "base_font": "/IYCKNG+LMMathItalic6-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "127:0": {
+        "base_font": "/GKLUXI+LMMathSymbols6-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "143:0": {
+        "base_font": "/SRMAUB+LMRoman8-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "144:0": {
+        "base_font": "/VFSOCH+LMRoman6-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "146:0": {
+        "base_font": "/FCAGNJ+LMRoman9-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "154:0": {
+        "base_font": "/FCAGNJ+LMRoman9-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "15:0": {
+        "base_font": "/PQXPCF+LMRoman12-Bold",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "16:0": {
+        "base_font": "/BBTQTO+LMRoman10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "357:0": {
+        "base_font": "/TGCXOT+LMRoman5-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "364:0": {
+        "base_font": "/RSBFRV+LMRoman7-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "366:0": {
+        "base_font": "/WRSMOM+LMMathItalic7-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "367:0": {
+        "base_font": "/DSSNNO+LMMathItalic5-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "44:0": {
+        "base_font": "/IRUBTY+LMRoman10-Bold",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "535:0": {
+        "base_font": "/RYEVFW+LMSans8-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "6:0": {
+        "base_font": "/WBJUUY+LMRoman17-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "728:0": {
+        "base_font": "/IQATPW+LMMathItalic9-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "729:0": {
+        "base_font": "/FCAGNJ+LMRoman9-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "730:0": {
+        "base_font": "/JXKXGG+LMMathSymbols9-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "731:0": {
+        "base_font": "/UWHZKM+LMRoman9-Italic",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "7:0": {
+        "base_font": "/YHEHNU+LMRoman12-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "83:0": {
+        "base_font": "/TRFNIH+LMRomanSlant10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "8:0": {
+        "base_font": "/EAOLXX+LMRoman12-Italic",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      },
+      "995:0": {
+        "base_font": "/FELWKR+LMMono10-Regular",
+        "embedded": true,
+        "subtype": "/Type1",
+        "to_unicode": true
+      }
+    },
+    "fonts_not_embedded": [],
+    "fonts_with_tounicode": 33,
+    "fonts_without_tounicode": [],
+    "pdfplumber_empty_text_pages": [],
+    "pdfplumber_pages_with_extractable_text": 117,
+    "pdfplumber_version": "0.11.9",
+    "pypdf_empty_text_pages": [],
+    "pypdf_page_text_characters": [
+      171,
+      915,
+      746,
+      1077,
+      17,
+      1601,
+      867,
+      1965,
+      2508,
+      1999,
+      2314,
+      1476,
+      1470,
+      585,
+      854,
+      1260,
+      1266,
+      1486,
+      1709,
+      877,
+      19,
+      915,
+      1530,
+      1701,
+      1223,
+      1617,
+      1598,
+      1416,
+      460,
+      802,
+      1599,
+      1301,
+      1109,
+      1292,
+      943,
+      816,
+      20,
+      1383,
+      1923,
+      1166,
+      1584,
+      816,
+      1606,
+      1443,
+      1470,
+      891,
+      1061,
+      902,
+      1122,
+      743,
+      1056,
+      597,
+      298,
+      19,
+      1089,
+      2063,
+      1478,
+      1331,
+      1690,
+      1521,
+      1629,
+      510,
+      814,
+      1398,
+      1160,
+      1287,
+      876,
+      1143,
+      246,
+      18,
+      1369,
+      2177,
+      2237,
+      1629,
+      1462,
+      1557,
+      1489,
+      895,
+      1775,
+      825,
+      1577,
+      1412,
+      19,
+      1025,
+      1432,
+      1551,
+      2094,
+      1663,
+      1334,
+      1562,
+      1129,
+      1367,
+      648,
+      607,
+      1273,
+      1406,
+      1442,
+      1252,
+      1248,
+      1119,
+      808,
+      20,
+      1407,
+      1835,
+      2417,
+      1230,
+      2664,
+      1589,
+      1114,
+      1491,
+      1944,
+      1715,
+      279,
+      2482,
+      1760,
+      2263,
+      166
+    ],
+    "pypdf_pages_with_extractable_text": 117,
+    "pypdf_version": "6.10.0",
+    "unique_fonts": 33
+  },
+  "blockers": [],
+  "bookmarks": {
+    "count": 36,
+    "duplicate_named_destinations": false,
+    "errors": [],
+    "missing_required": [],
+    "named_destination_count": 497,
+    "out_of_range": [],
+    "records": [
+      {
+        "depth": 0,
+        "page": 5,
+        "title": "I Unit 1"
+      },
+      {
+        "depth": 1,
+        "page": 6,
+        "title": "Kuliah 1"
+      },
+      {
+        "depth": 1,
+        "page": 15,
+        "title": "Lembar Kerja 1"
+      },
+      {
+        "depth": 2,
+        "page": 20,
+        "title": "Solusi yang disediakan oleh sumber"
+      },
+      {
+        "depth": 0,
+        "page": 21,
+        "title": "II Unit 2"
+      },
+      {
+        "depth": 1,
+        "page": 22,
+        "title": "Kuliah 2"
+      },
+      {
+        "depth": 1,
+        "page": 30,
+        "title": "Lembar Kerja 2"
+      },
+      {
+        "depth": 2,
+        "page": 33,
+        "title": "Solusi yang disediakan oleh sumber"
+      },
+      {
+        "depth": 0,
+        "page": 37,
+        "title": "III Unit 3"
+      },
+      {
+        "depth": 1,
+        "page": 38,
+        "title": "Kuliah 3"
+      },
+      {
+        "depth": 1,
+        "page": 47,
+        "title": "Lembar Kerja 3"
+      },
+      {
+        "depth": 2,
+        "page": 51,
+        "title": "Solusi yang disediakan oleh sumber"
+      },
+      {
+        "depth": 0,
+        "page": 54,
+        "title": "IV Unit 4"
+      },
+      {
+        "depth": 1,
+        "page": 55,
+        "title": "Kuliah 4"
+      },
+      {
+        "depth": 1,
+        "page": 63,
+        "title": "Lembar Kerja 4"
+      },
+      {
+        "depth": 2,
+        "page": 67,
+        "title": "Solusi yang disediakan oleh sumber"
+      },
+      {
+        "depth": 0,
+        "page": 70,
+        "title": "V Unit 5"
+      },
+      {
+        "depth": 1,
+        "page": 71,
+        "title": "Kuliah 5"
+      },
+      {
+        "depth": 1,
+        "page": 78,
+        "title": "Lembar Kerja 5"
+      },
+      {
+        "depth": 2,
+        "page": 81,
+        "title": "Solusi yang disediakan oleh sumber"
+      },
+      {
+        "depth": 0,
+        "page": 83,
+        "title": "VI Unit 6"
+      },
+      {
+        "depth": 1,
+        "page": 84,
+        "title": "Kuliah 6"
+      },
+      {
+        "depth": 1,
+        "page": 94,
+        "title": "Lembar Kerja 6"
+      },
+      {
+        "depth": 2,
+        "page": 99,
+        "title": "Solusi yang disediakan oleh sumber"
+      },
+      {
+        "depth": 0,
+        "page": 102,
+        "title": "VII Unit 7"
+      },
+      {
+        "depth": 1,
+        "page": 103,
+        "title": "Kuliah 7"
+      },
+      {
+        "depth": 1,
+        "page": 109,
+        "title": "Lembar Kerja 7"
+      },
+      {
+        "depth": 2,
+        "page": 112,
+        "title": "Solusi yang disediakan oleh sumber"
+      },
+      {
+        "depth": 1,
+        "page": 115,
+        "title": "Atribusi dan Hak Media"
+      },
+      {
+        "depth": 2,
+        "page": 115,
+        "title": "Unit 1"
+      },
+      {
+        "depth": 2,
+        "page": 115,
+        "title": "Unit 2"
+      },
+      {
+        "depth": 2,
+        "page": 115,
+        "title": "Unit 3"
+      },
+      {
+        "depth": 2,
+        "page": 116,
+        "title": "Unit 4"
+      },
+      {
+        "depth": 2,
+        "page": 116,
+        "title": "Unit 5"
+      },
+      {
+        "depth": 2,
+        "page": 116,
+        "title": "Unit 6"
+      },
+      {
+        "depth": 2,
+        "page": 116,
+        "title": "Unit 7"
+      }
+    ],
+    "unresolved": []
+  },
+  "build_binding": {
+    "cycles": [
+      {
+        "actual": {
+          "bytes": 4950232,
+          "sha256": "8c2cf76230b45d66a8236c0cd92a048809ff5ec0cce343132dd902684cb05ec6"
+        },
+        "cycle": 1,
+        "passed": true,
+        "path": "tmp/pdfs/through-unit07-build/cycle-1.pdf"
+      },
+      {
+        "actual": {
+          "bytes": 4950232,
+          "sha256": "8c2cf76230b45d66a8236c0cd92a048809ff5ec0cce343132dd902684cb05ec6"
+        },
+        "cycle": 2,
+        "passed": true,
+        "path": "tmp/pdfs/through-unit07-build/cycle-2.pdf"
+      }
+    ],
+    "inputs": [
+      {
+        "actual": {
+          "bytes": 5146,
+          "sha256": "253141e382d97605c374442604a57de2d3f7c5262c275131f46e00c4318ce480"
+        },
+        "declared": {
+          "bytes": 5146,
+          "sha256": "253141e382d97605c374442604a57de2d3f7c5262c275131f46e00c4318ce480"
+        },
+        "passed": true,
+        "path": "qa/unit-06/build.json"
+      },
+      {
+        "actual": {
+          "bytes": 6979,
+          "sha256": "fff1fc48d7c8391d2ece0085a87e28ab1c38d41a5cfcfd7965b5c8ed48312b13"
+        },
+        "declared": {
+          "bytes": 6979,
+          "sha256": "fff1fc48d7c8391d2ece0085a87e28ab1c38d41a5cfcfd7965b5c8ed48312b13"
+        },
+        "passed": true,
+        "path": "build/through-unit-07.tex"
+      },
+      {
+        "actual": {
+          "bytes": 85786,
+          "sha256": "51bcfc80332b373357c4822bc5929266e526c1c1e8e27c4fc3378d08a841c663"
+        },
+        "declared": {
+          "bytes": 85786,
+          "sha256": "51bcfc80332b373357c4822bc5929266e526c1c1e8e27c4fc3378d08a841c663"
+        },
+        "passed": true,
+        "path": "build/brenner-compat.tex"
+      },
+      {
+        "actual": {
+          "bytes": 30755,
+          "sha256": "c623f4046049dd640b6c813d357c35b532098ee383ef856ad7296881f3f7ea4e"
+        },
+        "declared": {
+          "bytes": 30755,
+          "sha256": "c623f4046049dd640b6c813d357c35b532098ee383ef856ad7296881f3f7ea4e"
+        },
+        "passed": true,
+        "path": "build/generated/lecture06.id.build.tex"
+      },
+      {
+        "actual": {
+          "bytes": 16263,
+          "sha256": "c9159aa808f638f02dd850ac6f131289fbf45390f236e23f4d6edc7ab85be900"
+        },
+        "declared": {
+          "bytes": 16263,
+          "sha256": "c9159aa808f638f02dd850ac6f131289fbf45390f236e23f4d6edc7ab85be900"
+        },
+        "passed": true,
+        "path": "build/generated/worksheet06.id.build.tex"
+      },
+      {
+        "actual": {
+          "bytes": 2561,
+          "sha256": "a05d08dec69157aa38e1c867299748d39d4cdffc558939ec6b971239df878d1b"
+        },
+        "declared": {
+          "bytes": 2561,
+          "sha256": "a05d08dec69157aa38e1c867299748d39d4cdffc558939ec6b971239df878d1b"
+        },
+        "passed": true,
+        "path": "build/generated/worksheet06_exercise02_solution.id.build.tex"
+      },
+      {
+        "actual": {
+          "bytes": 939,
+          "sha256": "0466633d87c732eb4b6e468dcf33f2e2755f3961e536dc732f14acf8907fc317"
+        },
+        "declared": {
+          "bytes": 939,
+          "sha256": "0466633d87c732eb4b6e468dcf33f2e2755f3961e536dc732f14acf8907fc317"
+        },
+        "passed": true,
+        "path": "build/generated/worksheet06_exercise06_solution.id.build.tex"
+      },
+      {
+        "actual": {
+          "bytes": 474,
+          "sha256": "4ade5a70dbb8a98d862bb72e76218f02233894cf57bcc7352fb266fd620e9a99"
+        },
+        "declared": {
+          "bytes": 474,
+          "sha256": "4ade5a70dbb8a98d862bb72e76218f02233894cf57bcc7352fb266fd620e9a99"
+        },
+        "passed": true,
+        "path": "build/generated/worksheet06_exercise09_solution.id.build.tex"
+      },
+      {
+        "actual": {
+          "bytes": 734,
+          "sha256": "b9b34e9cc73caba3cf57df4bef73682dfad9766df0c9cad8c4ebcd1929d8af4c"
+        },
+        "declared": {
+          "bytes": 734,
+          "sha256": "b9b34e9cc73caba3cf57df4bef73682dfad9766df0c9cad8c4ebcd1929d8af4c"
+        },
+        "passed": true,
+        "path": "build/generated/unit06-media-attribution-cumulative.tex"
+      },
+      {
+        "actual": {
+          "bytes": 20460,
+          "sha256": "69e14480aa0a9f9b6a565ad8952ef3592f156d1687d2011edbf75e3155054ea2"
+        },
+        "declared": {
+          "bytes": 20460,
+          "sha256": "69e14480aa0a9f9b6a565ad8952ef3592f156d1687d2011edbf75e3155054ea2"
+        },
+        "passed": true,
+        "path": "build/generated/lecture07.id.build.tex"
+      },
+      {
+        "actual": {
+          "bytes": 7780,
+          "sha256": "87d9ed393f508b149fab935cde93fd0911b2022009ff6c5b4ab412b412dd9590"
+        },
+        "declared": {
+          "bytes": 7780,
+          "sha256": "87d9ed393f508b149fab935cde93fd0911b2022009ff6c5b4ab412b412dd9590"
+        },
+        "passed": true,
+        "path": "build/generated/worksheet07.id.build.tex"
+      },
+      {
+        "actual": {
+          "bytes": 787,
+          "sha256": "0a1357ad74d3f75ca72821ac159871acc8ff93b87bd87f5a56fd872f58b08882"
+        },
+        "declared": {
+          "bytes": 787,
+          "sha256": "0a1357ad74d3f75ca72821ac159871acc8ff93b87bd87f5a56fd872f58b08882"
+        },
+        "passed": true,
+        "path": "build/generated/worksheet07_exercise04_solution.id.build.tex"
+      },
+      {
+        "actual": {
+          "bytes": 1668,
+          "sha256": "b21c056701c3c5959acc6adbd5159e6e011f3e7b2b49dc36be629535020f254f"
+        },
+        "declared": {
+          "bytes": 1668,
+          "sha256": "b21c056701c3c5959acc6adbd5159e6e011f3e7b2b49dc36be629535020f254f"
+        },
+        "passed": true,
+        "path": "build/generated/worksheet07_exercise07_solution.id.build.tex"
+      },
+      {
+        "actual": {
+          "bytes": 372,
+          "sha256": "24adcb97573668d0cd6e0a698f6bf2b5f322b2fbe2e39722a0ca74fbe0a81807"
+        },
+        "declared": {
+          "bytes": 372,
+          "sha256": "24adcb97573668d0cd6e0a698f6bf2b5f322b2fbe2e39722a0ca74fbe0a81807"
+        },
+        "passed": true,
+        "path": "build/generated/worksheet07_exercise13_solution.id.build.tex"
+      },
+      {
+        "actual": {
+          "bytes": 1260,
+          "sha256": "ddd2ea07293279745fc521e37621e9faa7dcacc00ae2cee137aafcba238e400d"
+        },
+        "declared": {
+          "bytes": 1260,
+          "sha256": "ddd2ea07293279745fc521e37621e9faa7dcacc00ae2cee137aafcba238e400d"
+        },
+        "passed": true,
+        "path": "build/generated/unit07-media-attribution-cumulative.tex"
+      },
+      {
+        "actual": {
+          "bytes": 1823,
+          "sha256": "79a6509a87fa0da8f96527f798ca02b40d10c223300c439ee08dbdea1d2d3352"
+        },
+        "declared": {
+          "bytes": 1823,
+          "sha256": "79a6509a87fa0da8f96527f798ca02b40d10c223300c439ee08dbdea1d2d3352"
+        },
+        "passed": true,
+        "path": "source/unit07_interactive_media.json"
+      },
+      {
+        "actual": {
+          "bytes": 667,
+          "sha256": "e4f2af5750074228b03dc7cd3ce5eaa0fccae03a1e2c3e5fc11d7efafe17fd70"
+        },
+        "declared": {
+          "bytes": 667,
+          "sha256": "e4f2af5750074228b03dc7cd3ce5eaa0fccae03a1e2c3e5fc11d7efafe17fd70"
+        },
+        "passed": true,
+        "path": "00_control/LECTURE07_PROTECTED_CORRECTIONS.json"
+      },
+      {
+        "actual": {
+          "bytes": 642,
+          "sha256": "a3fb4ee0fbed8ba0bd0e3a5ef05dd625468d7c16f30004e49815a50506b291c6"
+        },
+        "declared": {
+          "bytes": 642,
+          "sha256": "a3fb4ee0fbed8ba0bd0e3a5ef05dd625468d7c16f30004e49815a50506b291c6"
+        },
+        "passed": true,
+        "path": "00_control/WORKSHEET07_PROTECTED_CORRECTIONS.json"
+      },
+      {
+        "actual": {
+          "bytes": 1428,
+          "sha256": "a6077a07a4ec03f1a33500781bf3256fa81da9d8efb091318fc6dd59dfdca193"
+        },
+        "declared": {
+          "bytes": 1428,
+          "sha256": "a6077a07a4ec03f1a33500781bf3256fa81da9d8efb091318fc6dd59dfdca193"
+        },
+        "passed": true,
+        "path": "qa/unit-07/INTERACTIVE_MEDIA_QA.json"
+      },
+      {
+        "actual": {
+          "bytes": 1188,
+          "sha256": "268a6f56e762b35900df0a78bd135d4a1a1c8b7b3f383f96e31b6d19d9581f1a"
+        },
+        "declared": {
+          "bytes": 1188,
+          "sha256": "268a6f56e762b35900df0a78bd135d4a1a1c8b7b3f383f96e31b6d19d9581f1a"
+        },
+        "passed": true,
+        "path": "qa/unit-07/MEDIA_ALIAS_RECEIPT.json"
+      },
+      {
+        "actual": {
+          "bytes": 6693,
+          "sha256": "32675ed03f708ab2d65bb55df6e906942c97642bb44088c2237079b91831e0ad"
+        },
+        "declared": {
+          "bytes": 6693,
+          "sha256": "32675ed03f708ab2d65bb55df6e906942c97642bb44088c2237079b91831e0ad"
+        },
+        "passed": true,
+        "path": "scripts/prepare_unit_tex.py"
+      },
+      {
+        "actual": {
+          "bytes": 11515,
+          "sha256": "a83ec488615100eae250cefc1562d1451740d84490b832283c774f8b1bed69f3"
+        },
+        "declared": {
+          "bytes": 11515,
+          "sha256": "a83ec488615100eae250cefc1562d1451740d84490b832283c774f8b1bed69f3"
+        },
+        "passed": true,
+        "path": "scripts/prepare_unit_media.py"
+      },
+      {
+        "actual": {
+          "bytes": 1256,
+          "sha256": "4a5b27132bccd4d68941fe4618fce8fc2730ac37e69eb3dce2ef443594134e2d"
+        },
+        "declared": {
+          "bytes": 1256,
+          "sha256": "4a5b27132bccd4d68941fe4618fce8fc2730ac37e69eb3dce2ef443594134e2d"
+        },
+        "passed": true,
+        "path": "qa/unit-06/lecture06_translation.json"
+      },
+      {
+        "actual": {
+          "bytes": 1170,
+          "sha256": "7bd2efcb70ec437e7c8c3689579fdd061613893a04c80bd851b7e04687af8f51"
+        },
+        "declared": {
+          "bytes": 1170,
+          "sha256": "7bd2efcb70ec437e7c8c3689579fdd061613893a04c80bd851b7e04687af8f51"
+        },
+        "passed": true,
+        "path": "qa/unit-06/worksheet06_translation.json"
+      },
+      {
+        "actual": {
+          "bytes": 1095,
+          "sha256": "b561388fcb8e3f6a966cb5af2b60faba62ed001028e3d1284b58ee0cb073ac06"
+        },
+        "declared": {
+          "bytes": 1095,
+          "sha256": "b561388fcb8e3f6a966cb5af2b60faba62ed001028e3d1284b58ee0cb073ac06"
+        },
+        "passed": true,
+        "path": "qa/unit-06/worksheet06_exercise02_solution_translation.json"
+      },
+      {
+        "actual": {
+          "bytes": 1070,
+          "sha256": "448345444eb5964acd377277b97e796649d4c9cfa32260d60aefdab8297a5499"
+        },
+        "declared": {
+          "bytes": 1070,
+          "sha256": "448345444eb5964acd377277b97e796649d4c9cfa32260d60aefdab8297a5499"
+        },
+        "passed": true,
+        "path": "qa/unit-06/worksheet06_exercise06_solution_translation.json"
+      },
+      {
+        "actual": {
+          "bytes": 1068,
+          "sha256": "5e6bf4cc37f788873588a4f83a12b32e43c1b04c43ff7339c3de00c5a8b33678"
+        },
+        "declared": {
+          "bytes": 1068,
+          "sha256": "5e6bf4cc37f788873588a4f83a12b32e43c1b04c43ff7339c3de00c5a8b33678"
+        },
+        "passed": true,
+        "path": "qa/unit-06/worksheet06_exercise09_solution_translation.json"
+      },
+      {
+        "actual": {
+          "bytes": 1056,
+          "sha256": "0e7e5d7ef6b041de4e294991932b4d9ca91771ec3d88083d7ebb8f11c22c0191"
+        },
+        "declared": {
+          "bytes": 1056,
+          "sha256": "0e7e5d7ef6b041de4e294991932b4d9ca91771ec3d88083d7ebb8f11c22c0191"
+        },
+        "passed": true,
+        "path": "qa/unit-07/lecture07_translation.json"
+      },
+      {
+        "actual": {
+          "bytes": 1058,
+          "sha256": "bf7e04ed1db79b14fad4f6666f8d6caedc4eae6b6a2bf17ff3cfab010ed65c35"
+        },
+        "declared": {
+          "bytes": 1058,
+          "sha256": "bf7e04ed1db79b14fad4f6666f8d6caedc4eae6b6a2bf17ff3cfab010ed65c35"
+        },
+        "passed": true,
+        "path": "qa/unit-07/worksheet07_translation.json"
+      },
+      {
+        "actual": {
+          "bytes": 1068,
+          "sha256": "b275b4574b6803cfb12509880d4dbac9f281db039c5d85d9a432a914677acd80"
+        },
+        "declared": {
+          "bytes": 1068,
+          "sha256": "b275b4574b6803cfb12509880d4dbac9f281db039c5d85d9a432a914677acd80"
+        },
+        "passed": true,
+        "path": "qa/unit-07/worksheet07_exercise04_solution_translation.json"
+      },
+      {
+        "actual": {
+          "bytes": 1070,
+          "sha256": "eaaea92b01f0752ea2ebff8ac94911df714657d5c04dad5c6288638a84c0a84e"
+        },
+        "declared": {
+          "bytes": 1070,
+          "sha256": "eaaea92b01f0752ea2ebff8ac94911df714657d5c04dad5c6288638a84c0a84e"
+        },
+        "passed": true,
+        "path": "qa/unit-07/worksheet07_exercise07_solution_translation.json"
+      },
+      {
+        "actual": {
+          "bytes": 1067,
+          "sha256": "d0bb9febef426e3e8f437cdee3d2fa2c7d509ed2367a05f8a453dea67314b4f1"
+        },
+        "declared": {
+          "bytes": 1067,
+          "sha256": "d0bb9febef426e3e8f437cdee3d2fa2c7d509ed2367a05f8a453dea67314b4f1"
+        },
+        "passed": true,
+        "path": "qa/unit-07/worksheet07_exercise13_solution_translation.json"
+      },
+      {
+        "actual": {
+          "bytes": 650,
+          "sha256": "a04c9790e242a20faa39fb84e10641ad8ff2c9b29e4449bc7152f77530709407"
+        },
+        "declared": {
+          "bytes": 650,
+          "sha256": "a04c9790e242a20faa39fb84e10641ad8ff2c9b29e4449bc7152f77530709407"
+        },
+        "passed": true,
+        "path": "qa/unit-07/lecture07_prepare.json"
+      },
+      {
+        "actual": {
+          "bytes": 1050,
+          "sha256": "e0fa9457709f03d84f9bdfa8d7cda13a7850678ed538458ca834fc60b25ce983"
+        },
+        "declared": {
+          "bytes": 1050,
+          "sha256": "e0fa9457709f03d84f9bdfa8d7cda13a7850678ed538458ca834fc60b25ce983"
+        },
+        "passed": true,
+        "path": "qa/unit-07/worksheet07_prepare.json"
+      },
+      {
+        "actual": {
+          "bytes": 904,
+          "sha256": "ae866426cdfe3362357c2554c283934ed702b6e3ddb4afb8101ff928561a500d"
+        },
+        "declared": {
+          "bytes": 904,
+          "sha256": "ae866426cdfe3362357c2554c283934ed702b6e3ddb4afb8101ff928561a500d"
+        },
+        "passed": true,
+        "path": "qa/unit-07/worksheet07_exercise04_solution_prepare.json"
+      },
+      {
+        "actual": {
+          "bytes": 692,
+          "sha256": "d5cb79bac263d56b49211030a04de833bb97959edd246769df6c093da3e77d0e"
+        },
+        "declared": {
+          "bytes": 692,
+          "sha256": "d5cb79bac263d56b49211030a04de833bb97959edd246769df6c093da3e77d0e"
+        },
+        "passed": true,
+        "path": "qa/unit-07/worksheet07_exercise07_solution_prepare.json"
+      },
+      {
+        "actual": {
+          "bytes": 1023,
+          "sha256": "13001e636ee870fc52d568015be6fa52b19e3a89642b0984e8a1c1165dd3c92d"
+        },
+        "declared": {
+          "bytes": 1023,
+          "sha256": "13001e636ee870fc52d568015be6fa52b19e3a89642b0984e8a1c1165dd3c92d"
+        },
+        "passed": true,
+        "path": "qa/unit-07/worksheet07_exercise13_solution_prepare.json"
+      },
+      {
+        "actual": {
+          "bytes": 5306,
+          "sha256": "4bc9627f78dbe99f9223f08f6fcb33d8a7b7fed1cad888e8df0a54ee54916ef9"
+        },
+        "declared": {
+          "bytes": 5306,
+          "sha256": "4bc9627f78dbe99f9223f08f6fcb33d8a7b7fed1cad888e8df0a54ee54916ef9"
+        },
+        "passed": true,
+        "path": "qa/unit-07_media.json"
+      }
+    ],
+    "log_scan": {
+      "diagnostic_count": 0,
+      "fatal_hits": [],
+      "overfull_hits": [],
+      "underfull_hits": [],
+      "verified_logs": [
+        {
+          "actual": {
+            "bytes": 13670,
+            "sha256": "574caa2b976a730dfe028a5d1fba7fa77e32c1de38439e6c852395c75fd6790f"
+          },
+          "declared": {
+            "bytes": 13670,
+            "sha256": "574caa2b976a730dfe028a5d1fba7fa77e32c1de38439e6c852395c75fd6790f"
+          },
+          "matches": true,
+          "path": "tmp/pdfs/through-unit07-build/cycle-1-pass-1.console.txt"
+        },
+        {
+          "actual": {
+            "bytes": 13649,
+            "sha256": "47e7ea7e2e013ca86424a905679c21b98f56796ad7ab2d7f736be557dfcccb61"
+          },
+          "declared": {
+            "bytes": 13649,
+            "sha256": "47e7ea7e2e013ca86424a905679c21b98f56796ad7ab2d7f736be557dfcccb61"
+          },
+          "matches": true,
+          "path": "tmp/pdfs/through-unit07-build/cycle-1-pass-2.console.txt"
+        },
+        {
+          "actual": {
+            "bytes": 13649,
+            "sha256": "47e7ea7e2e013ca86424a905679c21b98f56796ad7ab2d7f736be557dfcccb61"
+          },
+          "declared": {
+            "bytes": 13649,
+            "sha256": "47e7ea7e2e013ca86424a905679c21b98f56796ad7ab2d7f736be557dfcccb61"
+          },
+          "matches": true,
+          "path": "tmp/pdfs/through-unit07-build/cycle-1-pass-3.console.txt"
+        },
+        {
+          "actual": {
+            "bytes": 13670,
+            "sha256": "574caa2b976a730dfe028a5d1fba7fa77e32c1de38439e6c852395c75fd6790f"
+          },
+          "declared": {
+            "bytes": 13670,
+            "sha256": "574caa2b976a730dfe028a5d1fba7fa77e32c1de38439e6c852395c75fd6790f"
+          },
+          "matches": true,
+          "path": "tmp/pdfs/through-unit07-build/cycle-2-pass-1.console.txt"
+        },
+        {
+          "actual": {
+            "bytes": 13649,
+            "sha256": "47e7ea7e2e013ca86424a905679c21b98f56796ad7ab2d7f736be557dfcccb61"
+          },
+          "declared": {
+            "bytes": 13649,
+            "sha256": "47e7ea7e2e013ca86424a905679c21b98f56796ad7ab2d7f736be557dfcccb61"
+          },
+          "matches": true,
+          "path": "tmp/pdfs/through-unit07-build/cycle-2-pass-2.console.txt"
+        },
+        {
+          "actual": {
+            "bytes": 13649,
+            "sha256": "47e7ea7e2e013ca86424a905679c21b98f56796ad7ab2d7f736be557dfcccb61"
+          },
+          "declared": {
+            "bytes": 13649,
+            "sha256": "47e7ea7e2e013ca86424a905679c21b98f56796ad7ab2d7f736be557dfcccb61"
+          },
+          "matches": true,
+          "path": "tmp/pdfs/through-unit07-build/cycle-2-pass-3.console.txt"
+        }
+      ],
+      "warning_hits": [],
+      "zero_diagnostics": true
+    },
+    "receipt": {
+      "bytes": 9419,
+      "path": "qa/unit-07/build.json",
+      "sha256": "bb3b6bc858948291b0fa6a000c57761aef3d055fceae43000b303b1aaaacf08d"
+    }
+  },
+  "content_closure": {
+    "exercise_heading_counts": {
+      "1": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1,
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1,
+      "19": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1
+    },
+    "expected_exercise_heading_counts": {
+      "1": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1,
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1,
+      "19": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1
+    },
+    "expected_solution_heading_counts": {
+      "13": 1,
+      "4": 1,
+      "7": 1
+    },
+    "media_text_presence": {
+      "132ninme": true,
+      "Circle - black simple.svg": true,
+      "Dakdada": true,
+      "Manifold zahyou3.png": true,
+      "Mark.Howison": true,
+      "Stereographic projection in 3D.png": true
+    },
+    "missing_graded_markers": [],
+    "missing_media_text": [],
+    "missing_required_text": [],
+    "model_provenance": {
+      "exact_text": "OpenAI Codex gpt-5.6-sol, Ultra",
+      "occurrences": 1
+    },
+    "solution_heading_counts": {
+      "13": 1,
+      "4": 1,
+      "7": 1
+    },
+    "solution_physical_pages_checked": [
+      112,
+      113
+    ],
+    "unit7_part_physical_pages": [
+      102
+    ],
+    "worksheet_physical_pages_checked": [
+      109,
+      110,
+      111
+    ]
+  },
+  "execution_binding": {
+    "output": "qa/unit-07/pdf_structural_qa.json",
+    "pdf": {
+      "bytes": 4950232,
+      "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-07-id.pdf",
+      "sha256": "8c2cf76230b45d66a8236c0cd92a048809ff5ec0cce343132dd902684cb05ec6"
+    },
+    "project_root": ".",
+    "script": {
+      "bytes": 39824,
+      "path": "scripts/verify_through_unit07_pdf.py",
+      "sha256": "7d21277dad911acc517ae2f634e33cfe3dc84aff3c62b27ff2c1f9115acb887a"
+    }
+  },
+  "interactive_surface": {
+    "caption_presence": {
+      "Konstruktion der Objekte": true,
+      "Variation von S": true
+    },
+    "gif_uri_counts": {
+      "Aufgabe75.22.1.gif": 1,
+      "Aufgabe75.22.2.gif": 1
+    }
+  },
+  "layout": {
+    "centered_wrapper_passed": true,
+    "content_pages_checked": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113
+    ],
+    "expected_right_anchor_points": 532.913795,
+    "expected_wrapper_margin_mm": 22.0,
+    "expected_wrapper_margin_points": 62.362205,
+    "left_anchor_pages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      36,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113
+    ],
+    "minimum_required_left_anchor_pages": 96,
+    "minimum_required_right_anchor_pages": 61,
+    "nominal_margin_overruns": [],
+    "outside_media_box": [],
+    "page_body_extents": [
+      {
+        "body_max_x": 535.034,
+        "body_min_x": 62.079,
+        "page": 6
+      },
+      {
+        "body_max_x": 532.913,
+        "body_min_x": 61.97,
+        "page": 7
+      },
+      {
+        "body_max_x": 534.187,
+        "body_min_x": 62.079,
+        "page": 8
+      },
+      {
+        "body_max_x": 535.03,
+        "body_min_x": 61.086,
+        "page": 9
+      },
+      {
+        "body_max_x": 534.739,
+        "body_min_x": 61.817,
+        "page": 10
+      },
+      {
+        "body_max_x": 535.031,
+        "body_min_x": 61.604,
+        "page": 11
+      },
+      {
+        "body_max_x": 534.733,
+        "body_min_x": 62.362,
+        "page": 12
+      },
+      {
+        "body_max_x": 535.036,
+        "body_min_x": 61.969,
+        "page": 13
+      },
+      {
+        "body_max_x": 512.904,
+        "body_min_x": 75.696,
+        "page": 14
+      },
+      {
+        "body_max_x": 532.916,
+        "body_min_x": 61.086,
+        "page": 15
+      },
+      {
+        "body_max_x": 534.19,
+        "body_min_x": 62.362,
+        "page": 16
+      },
+      {
+        "body_max_x": 533.943,
+        "body_min_x": 62.079,
+        "page": 17
+      },
+      {
+        "body_max_x": 532.918,
+        "body_min_x": 62.362,
+        "page": 18
+      },
+      {
+        "body_max_x": 534.43,
+        "body_min_x": 62.362,
+        "page": 19
+      },
+      {
+        "body_max_x": 416.372,
+        "body_min_x": 62.362,
+        "page": 20
+      },
+      {
+        "body_max_x": 534.587,
+        "body_min_x": 61.504,
+        "page": 22
+      },
+      {
+        "body_max_x": 534.587,
+        "body_min_x": 61.526,
+        "page": 23
+      },
+      {
+        "body_max_x": 535.027,
+        "body_min_x": 62.079,
+        "page": 24
+      },
+      {
+        "body_max_x": 532.918,
+        "body_min_x": 61.526,
+        "page": 25
+      },
+      {
+        "body_max_x": 535.03,
+        "body_min_x": 61.504,
+        "page": 26
+      },
+      {
+        "body_max_x": 535.033,
+        "body_min_x": 61.526,
+        "page": 27
+      },
+      {
+        "body_max_x": 534.585,
+        "body_min_x": 61.923,
+        "page": 28
+      },
+      {
+        "body_max_x": 534.733,
+        "body_min_x": 62.362,
+        "page": 29
+      },
+      {
+        "body_max_x": 535.03,
+        "body_min_x": 62.362,
+        "page": 30
+      },
+      {
+        "body_max_x": 534.426,
+        "body_min_x": 62.079,
+        "page": 31
+      },
+      {
+        "body_max_x": 534.944,
+        "body_min_x": 62.079,
+        "page": 32
+      },
+      {
+        "body_max_x": 532.911,
+        "body_min_x": 61.969,
+        "page": 33
+      },
+      {
+        "body_max_x": 534.553,
+        "body_min_x": 61.069,
+        "page": 34
+      },
+      {
+        "body_max_x": 484.543,
+        "body_min_x": 76.432,
+        "page": 35
+      },
+      {
+        "body_max_x": 532.918,
+        "body_min_x": 61.086,
+        "page": 36
+      },
+      {
+        "body_max_x": 533.2,
+        "body_min_x": 62.079,
+        "page": 38
+      },
+      {
+        "body_max_x": 535.033,
+        "body_min_x": 62.079,
+        "page": 39
+      },
+      {
+        "body_max_x": 532.918,
+        "body_min_x": 62.079,
+        "page": 40
+      },
+      {
+        "body_max_x": 534.431,
+        "body_min_x": 61.504,
+        "page": 41
+      },
+      {
+        "body_max_x": 534.738,
+        "body_min_x": 61.526,
+        "page": 42
+      },
+      {
+        "body_max_x": 532.918,
+        "body_min_x": 61.526,
+        "page": 43
+      },
+      {
+        "body_max_x": 534.43,
+        "body_min_x": 61.526,
+        "page": 44
+      },
+      {
+        "body_max_x": 532.909,
+        "body_min_x": 61.526,
+        "page": 45
+      },
+      {
+        "body_max_x": 533.211,
+        "body_min_x": 61.504,
+        "page": 46
+      },
+      {
+        "body_max_x": 532.918,
+        "body_min_x": 62.079,
+        "page": 47
+      },
+      {
+        "body_max_x": 532.917,
+        "body_min_x": 62.362,
+        "page": 48
+      },
+      {
+        "body_max_x": 535.033,
+        "body_min_x": 61.969,
+        "page": 49
+      },
+      {
+        "body_max_x": 496.848,
+        "body_min_x": 61.969,
+        "page": 50
+      },
+      {
+        "body_max_x": 533.203,
+        "body_min_x": 61.969,
+        "page": 51
+      },
+      {
+        "body_max_x": 458.499,
+        "body_min_x": 62.079,
+        "page": 52
+      },
+      {
+        "body_max_x": 532.911,
+        "body_min_x": 62.362,
+        "page": 53
+      },
+      {
+        "body_max_x": 532.919,
+        "body_min_x": 62.079,
+        "page": 55
+      },
+      {
+        "body_max_x": 535.03,
+        "body_min_x": 61.086,
+        "page": 56
+      },
+      {
+        "body_max_x": 534.428,
+        "body_min_x": 62.079,
+        "page": 57
+      },
+      {
+        "body_max_x": 534.185,
+        "body_min_x": 62.079,
+        "page": 58
+      },
+      {
+        "body_max_x": 535.027,
+        "body_min_x": 61.649,
+        "page": 59
+      },
+      {
+        "body_max_x": 534.736,
+        "body_min_x": 61.526,
+        "page": 60
+      },
+      {
+        "body_max_x": 533.193,
+        "body_min_x": 61.526,
+        "page": 61
+      },
+      {
+        "body_max_x": 532.919,
+        "body_min_x": 62.362,
+        "page": 62
+      },
+      {
+        "body_max_x": 535.033,
+        "body_min_x": 61.969,
+        "page": 63
+      },
+      {
+        "body_max_x": 535.03,
+        "body_min_x": 61.806,
+        "page": 64
+      },
+      {
+        "body_max_x": 533.2,
+        "body_min_x": 61.969,
+        "page": 65
+      },
+      {
+        "body_max_x": 533.2,
+        "body_min_x": 62.079,
+        "page": 66
+      },
+      {
+        "body_max_x": 532.914,
+        "body_min_x": 61.069,
+        "page": 67
+      },
+      {
+        "body_max_x": 534.591,
+        "body_min_x": 60.645,
+        "page": 68
+      },
+      {
+        "body_max_x": 509.229,
+        "body_min_x": 62.079,
+        "page": 69
+      },
+      {
+        "body_max_x": 532.918,
+        "body_min_x": 61.806,
+        "page": 71
+      },
+      {
+        "body_max_x": 534.733,
+        "body_min_x": 62.079,
+        "page": 72
+      },
+      {
+        "body_max_x": 535.028,
+        "body_min_x": 61.086,
+        "page": 73
+      },
+      {
+        "body_max_x": 535.032,
+        "body_min_x": 62.362,
+        "page": 74
+      },
+      {
+        "body_max_x": 533.262,
+        "body_min_x": 60.5,
+        "page": 75
+      },
+      {
+        "body_max_x": 535.03,
+        "body_min_x": 61.504,
+        "page": 76
+      },
+      {
+        "body_max_x": 534.583,
+        "body_min_x": 61.504,
+        "page": 77
+      },
+      {
+        "body_max_x": 533.198,
+        "body_min_x": 61.969,
+        "page": 78
+      },
+      {
+        "body_max_x": 535.025,
+        "body_min_x": 62.362,
+        "page": 79
+      },
+      {
+        "body_max_x": 534.552,
+        "body_min_x": 61.969,
+        "page": 80
+      },
+      {
+        "body_max_x": 534.552,
+        "body_min_x": 61.069,
+        "page": 81
+      },
+      {
+        "body_max_x": 535.03,
+        "body_min_x": 62.079,
+        "page": 82
+      },
+      {
+        "body_max_x": 533.136,
+        "body_min_x": 61.069,
+        "page": 84
+      },
+      {
+        "body_max_x": 534.419,
+        "body_min_x": 62.079,
+        "page": 85
+      },
+      {
+        "body_max_x": 534.082,
+        "body_min_x": 61.504,
+        "page": 86
+      },
+      {
+        "body_max_x": 534.192,
+        "body_min_x": 61.069,
+        "page": 87
+      },
+      {
+        "body_max_x": 534.189,
+        "body_min_x": 61.805,
+        "page": 88
+      },
+      {
+        "body_max_x": 535.026,
+        "body_min_x": 62.079,
+        "page": 89
+      },
+      {
+        "body_max_x": 534.432,
+        "body_min_x": 61.069,
+        "page": 90
+      },
+      {
+        "body_max_x": 535.03,
+        "body_min_x": 62.362,
+        "page": 91
+      },
+      {
+        "body_max_x": 535.03,
+        "body_min_x": 61.069,
+        "page": 92
+      },
+      {
+        "body_max_x": 534.734,
+        "body_min_x": 61.937,
+        "page": 93
+      },
+      {
+        "body_max_x": 532.86,
+        "body_min_x": 62.362,
+        "page": 94
+      },
+      {
+        "body_max_x": 532.918,
+        "body_min_x": 61.069,
+        "page": 95
+      },
+      {
+        "body_max_x": 534.089,
+        "body_min_x": 61.069,
+        "page": 96
+      },
+      {
+        "body_max_x": 534.732,
+        "body_min_x": 62.079,
+        "page": 97
+      },
+      {
+        "body_max_x": 532.914,
+        "body_min_x": 61.069,
+        "page": 98
+      },
+      {
+        "body_max_x": 533.194,
+        "body_min_x": 61.069,
+        "page": 99
+      },
+      {
+        "body_max_x": 532.918,
+        "body_min_x": 62.362,
+        "page": 100
+      },
+      {
+        "body_max_x": 533.135,
+        "body_min_x": 62.362,
+        "page": 101
+      },
+      {
+        "body_max_x": 535.03,
+        "body_min_x": 62.079,
+        "page": 103
+      },
+      {
+        "body_max_x": 533.07,
+        "body_min_x": 61.959,
+        "page": 104
+      },
+      {
+        "body_max_x": 535.032,
+        "body_min_x": 62.362,
+        "page": 105
+      },
+      {
+        "body_max_x": 533.206,
+        "body_min_x": 61.086,
+        "page": 106
+      },
+      {
+        "body_max_x": 535.029,
+        "body_min_x": 61.086,
+        "page": 107
+      },
+      {
+        "body_max_x": 534.428,
+        "body_min_x": 61.086,
+        "page": 108
+      },
+      {
+        "body_max_x": 533.21,
+        "body_min_x": 61.969,
+        "page": 109
+      },
+      {
+        "body_max_x": 534.43,
+        "body_min_x": 61.086,
+        "page": 110
+      },
+      {
+        "body_max_x": 533.934,
+        "body_min_x": 61.969,
+        "page": 111
+      },
+      {
+        "body_max_x": 534.74,
+        "body_min_x": 62.362,
+        "page": 112
+      },
+      {
+        "body_max_x": 532.919,
+        "body_min_x": 61.959,
+        "page": 113
+      }
+    ],
+    "right_anchor_pages": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      36,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      51,
+      53,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113
+    ]
+  },
+  "limitations": [
+    "PDF is untagged; all 33 fonts have ToUnicode and all 117 pages are extractable through pypdf/pdfplumber; semantic HTML remains the structured accessibility surface."
+  ],
+  "links_and_active_content": {
+    "acroform_or_fields": false,
+    "annotation_subtype_counts": {
+      "/Link": 101
+    },
+    "attachment_markers": [],
+    "catalog_associated_files": false,
+    "collection": false,
+    "embedded_files_name_tree": false,
+    "external_uri_count": 32,
+    "external_uri_counts": {
+      "https://commons.wikimedia.org/wiki/File:2019-07-Helix.jpg": 1,
+      "https://commons.wikimedia.org/wiki/File:3d-function-6.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Aufgabe75.22.1.gif": 1,
+      "https://commons.wikimedia.org/wiki/File:Aufgabe75.22.2.gif": 1,
+      "https://commons.wikimedia.org/wiki/File:Circle_-_black_simple.svg": 2,
+      "https://commons.wikimedia.org/wiki/File:Euler_spiral.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Evolute-parab.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Great_circle_passing_through_two_points.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Hyperboloid1.png": 2,
+      "https://commons.wikimedia.org/wiki/File:Integral_apl_rot_obsah1.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Manifold_zahyou3.png": 1,
+      "https://commons.wikimedia.org/wiki/File:Minimal_surface_curvature_planes-de.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Parabola_circle.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Parallel_transport_sphere2.svg": 2,
+      "https://commons.wikimedia.org/wiki/File:Planned_flight_map_of_the_Oiseau_Blanc.svg": 1,
+      "https://commons.wikimedia.org/wiki/File:Stereographic_projection_in_3D.png": 2,
+      "https://creativecommons.org/licenses/by-sa/3.0": 2,
+      "https://creativecommons.org/licenses/by-sa/3.0/": 3,
+      "https://creativecommons.org/licenses/by-sa/4.0": 6,
+      "https://creativecommons.org/licenses/by/3.0": 1
+    },
+    "internal_link_count": 69,
+    "javascript_name_tree": false,
+    "required_unit7_uri_counts": {
+      "https://commons.wikimedia.org/wiki/File:Aufgabe75.22.1.gif": 1,
+      "https://commons.wikimedia.org/wiki/File:Aufgabe75.22.2.gif": 1,
+      "https://commons.wikimedia.org/wiki/File:Circle_-_black_simple.svg": 2,
+      "https://commons.wikimedia.org/wiki/File:Manifold_zahyou3.png": 1,
+      "https://commons.wikimedia.org/wiki/File:Stereographic_projection_in_3D.png": 2
+    },
+    "unsafe_actions": [],
+    "unsafe_active_content_present": false,
+    "unsafe_annotation_subtypes": []
+  },
+  "passed": true,
+  "pdf": {
+    "all_crop_boxes_a4": true,
+    "all_media_boxes_a4": true,
+    "all_rotations_zero": true,
+    "bytes": 4950232,
+    "catalog_language": "id-ID",
+    "crop_box_points": [
+      595.276,
+      841.89
+    ],
+    "encrypted": false,
+    "has_structure_tree": false,
+    "mark_info_marked": false,
+    "media_box_points": [
+      595.276,
+      841.89
+    ],
+    "metadata": {
+      "/Author": "Holger Brenner, Terjemahan Bahasa Indonesia independen",
+      "/Creator": "LaTeX with hyperref",
+      "/Keywords": "",
+      "/Producer": "MiKTeX pdfTeX-1.40.29",
+      "/Subject": "",
+      "/Title": "Geometri Diferensial dan Manifold Mulus Pembaca kumulatif hingga Unit 7",
+      "/Trapped": "/False"
+    },
+    "metadata_mismatches": {},
+    "page_labels": [
+      "1",
+      "i",
+      "ii",
+      "iii",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79",
+      "80",
+      "81",
+      "82",
+      "83",
+      "84",
+      "85",
+      "86",
+      "87",
+      "88",
+      "89",
+      "90",
+      "91",
+      "92",
+      "93",
+      "94",
+      "95",
+      "96",
+      "97",
+      "98",
+      "99",
+      "100",
+      "101",
+      "102",
+      "103",
+      "104",
+      "105",
+      "106",
+      "107",
+      "108",
+      "109",
+      "110",
+      "111",
+      "112",
+      "113"
+    ],
+    "page_labels_match": true,
+    "pages": 117,
+    "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-07-id.pdf",
+    "sha256": "8c2cf76230b45d66a8236c0cd92a048809ff5ec0cce343132dd902684cb05ec6",
+    "tagged": false,
+    "trailer_id_present": false,
+    "volatile_metadata_keys": []
+  },
+  "prefix_integrity": {
+    "compared_physical_pages": {
+      "count": 97,
+      "first": 5,
+      "last": 101
+    },
+    "content_stream_aggregate_sha256_cumulative": "b7ace0e8a6e4769d972f749b423083dce278af16902b33f990763fb669e6982e",
+    "content_stream_aggregate_sha256_prefix": "b7ace0e8a6e4769d972f749b423083dce278af16902b33f990763fb669e6982e",
+    "content_stream_mismatch_pages": [],
+    "page_sizes_equal": true,
+    "passed": true,
+    "pdfplumber_text_mismatch_pages": [],
+    "prefix_pdf": {
+      "bytes": 4765606,
+      "pages": 105,
+      "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-06-id.pdf",
+      "sha256": "40bf26d196ff04c38c6c99e8e9669a86bb5e6d31124b904b7ad154e7948cdec1"
+    },
+    "prefix_receipt": {
+      "actual": {
+        "bytes": 5146,
+        "sha256": "253141e382d97605c374442604a57de2d3f7c5262c275131f46e00c4318ce480"
+      },
+      "expected": {
+        "bytes": 5146,
+        "sha256": "253141e382d97605c374442604a57de2d3f7c5262c275131f46e00c4318ce480"
+      },
+      "matches": true,
+      "path": "qa/unit-06/build.json"
+    }
+  },
+  "privacy_and_residue": {
+    "decoded_stream_bytes_scanned": 73654879,
+    "decoded_stream_count": 195,
+    "extracted_text_hits": {},
+    "metadata_hits": {},
+    "raw_or_decompressed_object_hits": {},
+    "stream_scan_errors": []
+  },
+  "punctuation_regression": {
+    "passed": true,
+    "unit7_sentence_concatenations": [],
+    "unit7_visual_orphans": []
+  },
+  "schema_version": 1,
+  "source_and_media_binding": {
+    "interactive_checks": [
+      {
+        "actual": {
+          "bytes": 200686,
+          "sha256": "dae99541dcac8721909366df89d67ee7ddc46ff49c24750c71f7d1e00245acca"
+        },
+        "declared": {
+          "bytes": 200686,
+          "sha256": "dae99541dcac8721909366df89d67ee7ddc46ff49c24750c71f7d1e00245acca"
+        },
+        "filename": "Aufgabe75.22.1.gif",
+        "passed": true
+      },
+      {
+        "actual": {
+          "bytes": 1640205,
+          "sha256": "091b7d19856eb36aaf704bd23e26e46d0119ed97fcd736fb68cababa7ab7e942"
+        },
+        "declared": {
+          "bytes": 1640205,
+          "sha256": "091b7d19856eb36aaf704bd23e26e46d0119ed97fcd736fb68cababa7ab7e942"
+        },
+        "filename": "Aufgabe75.22.2.gif",
+        "passed": true
+      }
+    ],
+    "interactive_manifest": {
+      "actual": {
+        "bytes": 1823,
+        "sha256": "79a6509a87fa0da8f96527f798ca02b40d10c223300c439ee08dbdea1d2d3352"
+      },
+      "expected": {
+        "bytes": 1823,
+        "sha256": "79a6509a87fa0da8f96527f798ca02b40d10c223300c439ee08dbdea1d2d3352"
+      },
+      "matches": true,
+      "path": "source/unit07_interactive_media.json"
+    },
+    "interactive_qa": {
+      "actual": {
+        "bytes": 1428,
+        "sha256": "a6077a07a4ec03f1a33500781bf3256fa81da9d8efb091318fc6dd59dfdca193"
+      },
+      "expected": {
+        "bytes": 1428,
+        "sha256": "a6077a07a4ec03f1a33500781bf3256fa81da9d8efb091318fc6dd59dfdca193"
+      },
+      "matches": true,
+      "path": "qa/unit-07/INTERACTIVE_MEDIA_QA.json"
+    },
+    "media_config": {
+      "actual": {
+        "bytes": 2869,
+        "sha256": "0f12d3057ca69c3ed8be75bcfdc391f31e9759c6b99d0cd48c1474630a0fe74d"
+      },
+      "expected": {
+        "bytes": 2869,
+        "sha256": "0f12d3057ca69c3ed8be75bcfdc391f31e9759c6b99d0cd48c1474630a0fe74d"
+      },
+      "matches": true,
+      "path": "source/unit_media.json"
+    },
+    "media_config_units": null,
+    "media_qa": {
+      "actual": {
+        "bytes": 5306,
+        "sha256": "4bc9627f78dbe99f9223f08f6fcb33d8a7b7fed1cad888e8df0a54ee54916ef9"
+      },
+      "expected": {
+        "bytes": 5306,
+        "sha256": "4bc9627f78dbe99f9223f08f6fcb33d8a7b7fed1cad888e8df0a54ee54916ef9"
+      },
+      "matches": true,
+      "path": "qa/unit-07_media.json"
+    },
+    "static_media_checks": [
+      {
+        "actual": {
+          "bytes": 69330,
+          "sha256": "ab78ed4225923f771ae69d44930c244c53ef7c3a44d8e7264b16467dc4a78316"
+        },
+        "declared": {
+          "bytes": 69330,
+          "sha256": "ab78ed4225923f771ae69d44930c244c53ef7c3a44d8e7264b16467dc4a78316"
+        },
+        "filename": "Stereographic projection in 3D.png",
+        "passed": true,
+        "path": "authority/media/Stereographic projection in 3D.png"
+      },
+      {
+        "actual": {
+          "bytes": 9977,
+          "sha256": "fd3afef0df5b0ec3dc9eceea337fda5d15371ea143aa3cfbb24e134e455342f8"
+        },
+        "declared": {
+          "bytes": 9977,
+          "sha256": "fd3afef0df5b0ec3dc9eceea337fda5d15371ea143aa3cfbb24e134e455342f8"
+        },
+        "filename": "Manifold zahyou3.png",
+        "passed": true,
+        "path": "authority/media/Manifold zahyou3.png"
+      },
+      {
+        "actual": {
+          "bytes": 207,
+          "sha256": "6a28c8b677e37aaa88984cd72336ca752156ebf95fddf9bae4b2dd17903e8bde"
+        },
+        "declared": {
+          "bytes": 207,
+          "sha256": "6a28c8b677e37aaa88984cd72336ca752156ebf95fddf9bae4b2dd17903e8bde"
+        },
+        "filename": "Circle - black simple.svg",
+        "passed": true,
+        "path": "authority/media/Circle - black simple.svg"
+      }
+    ],
+    "translation_receipts": {
+      "00_control/LECTURE07_PROTECTED_CORRECTIONS.json": {
+        "correction_ids": [
+          "O011-TRANS-0070"
+        ],
+        "identity": {
+          "actual": {
+            "bytes": 667,
+            "sha256": "e4f2af5750074228b03dc7cd3ce5eaa0fccae03a1e2c3e5fc11d7efafe17fd70"
+          },
+          "expected": {
+            "bytes": 667,
+            "sha256": "e4f2af5750074228b03dc7cd3ce5eaa0fccae03a1e2c3e5fc11d7efafe17fd70"
+          },
+          "matches": true,
+          "path": "00_control/LECTURE07_PROTECTED_CORRECTIONS.json"
+        }
+      },
+      "00_control/WORKSHEET07_PROTECTED_CORRECTIONS.json": {
+        "correction_ids": [
+          "O011-TRANS-0071"
+        ],
+        "identity": {
+          "actual": {
+            "bytes": 642,
+            "sha256": "a3fb4ee0fbed8ba0bd0e3a5ef05dd625468d7c16f30004e49815a50506b291c6"
+          },
+          "expected": {
+            "bytes": 642,
+            "sha256": "a3fb4ee0fbed8ba0bd0e3a5ef05dd625468d7c16f30004e49815a50506b291c6"
+          },
+          "matches": true,
+          "path": "00_control/WORKSHEET07_PROTECTED_CORRECTIONS.json"
+        }
+      },
+      "qa/unit-07/lecture07_translation.json": {
+        "declared_corrections": [
+          "O011-TRANS-0070"
+        ],
+        "identity": {
+          "actual": {
+            "bytes": 1056,
+            "sha256": "0e7e5d7ef6b041de4e294991932b4d9ca91771ec3d88083d7ebb8f11c22c0191"
+          },
+          "expected": {
+            "bytes": 1056,
+            "sha256": "0e7e5d7ef6b041de4e294991932b4d9ca91771ec3d88083d7ebb8f11c22c0191"
+          },
+          "matches": true,
+          "path": "qa/unit-07/lecture07_translation.json"
+        },
+        "status": "pass",
+        "target": "source/units/unit-07/lecture07.id.tex"
+      },
+      "qa/unit-07/worksheet07_translation.json": {
+        "declared_corrections": [
+          "O011-TRANS-0071"
+        ],
+        "identity": {
+          "actual": {
+            "bytes": 1058,
+            "sha256": "bf7e04ed1db79b14fad4f6666f8d6caedc4eae6b6a2bf17ff3cfab010ed65c35"
+          },
+          "expected": {
+            "bytes": 1058,
+            "sha256": "bf7e04ed1db79b14fad4f6666f8d6caedc4eae6b6a2bf17ff3cfab010ed65c35"
+          },
+          "matches": true,
+          "path": "qa/unit-07/worksheet07_translation.json"
+        },
+        "status": "pass",
+        "target": "source/units/unit-07/worksheet07.id.tex"
+      },
+      "source/units/unit-07/worksheet07_exercise04_solution.id.tex": {
+        "actual": {
+          "bytes": 898,
+          "sha256": "fcae797a689655b486d9ffed1fdede2059b0f15f3842cc5f38e1ba21d4499822"
+        },
+        "expected": {
+          "bytes": 898,
+          "sha256": "fcae797a689655b486d9ffed1fdede2059b0f15f3842cc5f38e1ba21d4499822"
+        },
+        "matches": true,
+        "path": "source/units/unit-07/worksheet07_exercise04_solution.id.tex"
+      },
+      "source/units/unit-07/worksheet07_exercise07_solution.id.tex": {
+        "actual": {
+          "bytes": 1695,
+          "sha256": "b85aae3fecf5ff5c316fcd2f496134a2d60203b468d112b97ccda701bb77a49a"
+        },
+        "expected": {
+          "bytes": 1695,
+          "sha256": "b85aae3fecf5ff5c316fcd2f496134a2d60203b468d112b97ccda701bb77a49a"
+        },
+        "matches": true,
+        "path": "source/units/unit-07/worksheet07_exercise07_solution.id.tex"
+      },
+      "source/units/unit-07/worksheet07_exercise13_solution.id.tex": {
+        "actual": {
+          "bytes": 332,
+          "sha256": "b23f0e52a315ac6d47d1849f06d426e5e1815a244cc39c1c6ce741435ba20f37"
+        },
+        "expected": {
+          "bytes": 332,
+          "sha256": "b23f0e52a315ac6d47d1849f06d426e5e1815a244cc39c1c6ce741435ba20f37"
+        },
+        "matches": true,
+        "path": "source/units/unit-07/worksheet07_exercise13_solution.id.tex"
+      }
+    }
+  },
+  "verdict": "PASS_WITH_DOCUMENTED_LIMITATION",
+  "warnings": [],
+  "workflow": "o011-through-unit07-pdf-structural-qa-v1"
+}

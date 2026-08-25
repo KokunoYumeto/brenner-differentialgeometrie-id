@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-unit10-wrapper-compatibility-v1",
+  "input": {
+    "path": "build/through-unit-10.tex",
+    "bytes": 8511,
+    "sha256": "be9b9fc8adadd331c0949032fb0118e1f0e5fdd9d0dfe7760334c1086112065b"
+  },
+  "output": {
+    "path": "build/generated/through-unit-10-driver.tex",
+    "bytes": 8916,
+    "sha256": "802480a93f46bea1e1f27c6c55d904dc7ac5d6f462f458a4772d2d777410f0bf"
+  },
+  "added_environment_aliases": [
+    "Proposisi",
+    "Lema"
+  ]
+}

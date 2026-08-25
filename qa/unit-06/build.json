@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-through-unit06-pdf-build-v1",
+  "engine": "MiKTeX-pdfTeX 4.27 (MiKTeX 26.5)",
+  "command": "pdflatex -interaction=nonstopmode -halt-on-error -file-line-error -recorder through-unit-06.tex (three passes per clean cycle; two cycles)",
+  "deterministic_clean_cycles": true,
+  "cumulative_prefix_receipt": "qa/unit-05/build.json",
+  "cycles": [
+    {
+      "cycle": 1,
+      "pdf": "tmp/pdfs/through-unit06-build/cycle-1.pdf",
+      "bytes": 4765606,
+      "sha256": "40bf26d196ff04c38c6c99e8e9669a86bb5e6d31124b904b7ad154e7948cdec1",
+      "logs": [
+        {
+          "path": "tmp/pdfs/through-unit06-build/cycle-1-pass-1.console.txt",
+          "bytes": 13124,
+          "sha256": "d425f0a982348079463bdeb190cc60d8e1fa514ad9f0ad9aaba257cea6d560e7"
+        },
+        {
+          "path": "tmp/pdfs/through-unit06-build/cycle-1-pass-2.console.txt",
+          "bytes": 13103,
+          "sha256": "67ffad87bb7d5e5d33a84db0f7a791ec9c3818748c537423d44d174affa2b0e4"
+        },
+        {
+          "path": "tmp/pdfs/through-unit06-build/cycle-1-pass-3.console.txt",
+          "bytes": 13103,
+          "sha256": "67ffad87bb7d5e5d33a84db0f7a791ec9c3818748c537423d44d174affa2b0e4"
+        }
+      ]
+    },
+    {
+      "cycle": 2,
+      "pdf": "tmp/pdfs/through-unit06-build/cycle-2.pdf",
+      "bytes": 4765606,
+      "sha256": "40bf26d196ff04c38c6c99e8e9669a86bb5e6d31124b904b7ad154e7948cdec1",
+      "logs": [
+        {
+          "path": "tmp/pdfs/through-unit06-build/cycle-2-pass-1.console.txt",
+          "bytes": 13124,
+          "sha256": "d425f0a982348079463bdeb190cc60d8e1fa514ad9f0ad9aaba257cea6d560e7"
+        },
+        {
+          "path": "tmp/pdfs/through-unit06-build/cycle-2-pass-2.console.txt",
+          "bytes": 13103,
+          "sha256": "67ffad87bb7d5e5d33a84db0f7a791ec9c3818748c537423d44d174affa2b0e4"
+        },
+        {
+          "path": "tmp/pdfs/through-unit06-build/cycle-2-pass-3.console.txt",
+          "bytes": 13103,
+          "sha256": "67ffad87bb7d5e5d33a84db0f7a791ec9c3818748c537423d44d174affa2b0e4"
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "path": "qa/unit-05/build.json",
+      "bytes": 8435,
+      "sha256": "9f32a3720670a510a7b6b33bea11d9fe357ccee5ee339db6f8aaf7b825fc22de"
+    },
+    {
+      "path": "build/through-unit-06.tex",
+      "bytes": 5935,
+      "sha256": "7b1a63a8c1ec869242957dc6d2151c7bd3214848ef8cbdbeabe9d3d3b66f01cd"
+    },
+    {
+      "path": "build/brenner-compat.tex",
+      "bytes": 85780,
+      "sha256": "c4d5afb66ba066b45cb466cd863840dc4bdc8d19f73f62f57fc2a96c764fc113"
+    },
+    {
+      "path": "build/generated/lecture06.id.build.tex",
+      "bytes": 30755,
+      "sha256": "c623f4046049dd640b6c813d357c35b532098ee383ef856ad7296881f3f7ea4e"
+    },
+    {
+      "path": "build/generated/worksheet06.id.build.tex",
+      "bytes": 16263,
+      "sha256": "c9159aa808f638f02dd850ac6f131289fbf45390f236e23f4d6edc7ab85be900"
+    },
+    {
+      "path": "build/generated/worksheet06_exercise02_solution.id.build.tex",
+      "bytes": 2561,
+      "sha256": "a05d08dec69157aa38e1c867299748d39d4cdffc558939ec6b971239df878d1b"
+    },
+    {
+      "path": "build/generated/worksheet06_exercise06_solution.id.build.tex",
+      "bytes": 939,
+      "sha256": "0466633d87c732eb4b6e468dcf33f2e2755f3961e536dc732f14acf8907fc317"
+    },
+    {
+      "path": "build/generated/worksheet06_exercise09_solution.id.build.tex",
+      "bytes": 474,
+      "sha256": "4ade5a70dbb8a98d862bb72e76218f02233894cf57bcc7352fb266fd620e9a99"
+    },
+    {
+      "path": "build/generated/unit06-media-attribution-cumulative.tex",
+      "bytes": 734,
+      "sha256": "b9b34e9cc73caba3cf57df4bef73682dfad9766df0c9cad8c4ebcd1929d8af4c"
+    },
+    {
+      "path": "qa/unit-06/lecture06_translation.json",
+      "bytes": 1256,
+      "sha256": "4a5b27132bccd4d68941fe4618fce8fc2730ac37e69eb3dce2ef443594134e2d"
+    },
+    {
+      "path": "qa/unit-06/worksheet06_translation.json",
+      "bytes": 1170,
+      "sha256": "7bd2efcb70ec437e7c8c3689579fdd061613893a04c80bd851b7e04687af8f51"
+    },
+    {
+      "path": "qa/unit-06/worksheet06_exercise02_solution_translation.json",
+      "bytes": 1095,
+      "sha256": "b561388fcb8e3f6a966cb5af2b60faba62ed001028e3d1284b58ee0cb073ac06"
+    },
+    {
+      "path": "qa/unit-06/worksheet06_exercise06_solution_translation.json",
+      "bytes": 1070,
+      "sha256": "448345444eb5964acd377277b97e796649d4c9cfa32260d60aefdab8297a5499"
+    },
+    {
+      "path": "qa/unit-06/worksheet06_exercise09_solution_translation.json",
+      "bytes": 1068,
+      "sha256": "5e6bf4cc37f788873588a4f83a12b32e43c1b04c43ff7339c3de00c5a8b33678"
+    },
+    {
+      "path": "qa/unit-06_media.json",
+      "bytes": 2838,
+      "sha256": "56746d0d77a785457378ed571c64c31d095605dac64d120a8691d891d10d147b"
+    }
+  ],
+  "output": {
+    "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-06-id.pdf",
+    "bytes": 4765606,
+    "sha256": "40bf26d196ff04c38c6c99e8e9669a86bb5e6d31124b904b7ad154e7948cdec1"
+  }
+}

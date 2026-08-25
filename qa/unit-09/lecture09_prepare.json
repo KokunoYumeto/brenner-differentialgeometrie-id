@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-09/lecture09.id.tex",
+  "input_bytes": 26132,
+  "input_sha256": "9e3b12f4168c4f7a8c246c4c9106d1154be237e9080e12e0a21bcd8942d61bba",
+  "output": "build/generated/lecture09.id.build.tex",
+  "output_bytes": 25359,
+  "output_sha256": "0513417668f7cc4e261b1e25c8555ed6c2d6772bc9202c6e60e2d1ccdfcf109c",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 5,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Totale Differenzierbarkeit/K/Kettenregel/Fakt",
+      "label": "aturan rantai"
+    },
+    {
+      "target": "Differenzierbare Mannigfaltigkeit/Differenzierbare Kurve/Tangential äquivalent/Beliebige offene Umgebung/Fakt",
+      "label": "Lema 9.2"
+    },
+    {
+      "target": "Differenzierbare Mannigfaltigkeit/Differenzierbare Kurve/Tangential äquivalent/Beliebige offene Umgebung/Fakt",
+      "label": "Lema 9.2"
+    },
+    {
+      "target": "Differenzierbare Mannigfaltigkeit/Differenzierbare Kurve/Tangential äquivalent/Definition",
+      "label": "Definisi 9.1"
+    },
+    {
+      "target": "Totale Differenzierbarkeit/R/Kettenregel/Fakt",
+      "label": "aturan rantai"
+    },
+    {
+      "target": "Differenzierbare Mannigfaltigkeiten/Differenzierbare Abbildung/Tangential äquivalent/Fakt/Beweis/Aufgabe",
+      "label": "Soal 9.3"
+    },
+    {
+      "target": "Totale Differenzierbarkeit/R/Kettenregel/Fakt",
+      "label": "aturan rantai"
+    },
+    {
+      "target": "Differenzierbare Abbildung/R/Regulärer Punkt/Maximaler Rang/Definition",
+      "label": "definisi Euklides tentang titik reguler"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

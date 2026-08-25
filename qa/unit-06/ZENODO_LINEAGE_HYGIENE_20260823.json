@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-08-23T19:24:00+02:00",
+  "check_type": "bounded_anonymous_public_lineage_check",
+  "concept_record_id": "22059977",
+  "concept_doi": "10.5281/zenodo.22059977",
+  "latest_public_record_id": "22070425",
+  "latest_public_doi": "10.5281/zenodo.22070425",
+  "latest_public_state": "done",
+  "latest_title": "Geometri Diferensial dan Manifold Mulus — Edisi Bahasa Indonesia (Batas Unit 06)",
+  "latest_version": "2026.08.22-unit06",
+  "latest_file_count": 6,
+  "latest_public_readback_receipt": "qa/unit-06/ZENODO_PUBLIC_READBACK_RECEIPT.json",
+  "public_version_inventory": [
+    {"record_id": "22059978", "version": "2026.08.22-unit05", "state": "done", "files": 3},
+    {"record_id": "22060146", "version": "2026.08.22-unit05-r1", "state": "done", "files": 3},
+    {"record_id": "22060387", "version": "2026.08.22-unit05-r2", "state": "done", "files": 6},
+    {"record_id": "22070425", "version": "2026.08.22-unit06", "state": "done", "files": 6}
+  ],
+  "public_metadata_checks": {
+    "title_contains_ttp": false,
+    "description_contains_ttp": false,
+    "organization_contributor_anchor_present_once": true,
+    "exact_license_and_component_rights_disclosure_present": true,
+    "non_endorsement_disclosure_present": true,
+    "partial_status_disclosed": true,
+    "duplicate_unit06_concept_created": false
+  },
+  "api_endpoints": [
+    "https://zenodo.org/api/records/22059978",
+    "https://zenodo.org/api/records/22060146",
+    "https://zenodo.org/api/records/22060387",
+    "https://zenodo.org/api/records/22070425",
+    "https://zenodo.org/api/records?q=conceptrecid:22059977&sort=mostrecent&size=20"
+  ],
+  "result": "pass_public_lineage_is_single_concept_and_latest_checkpoint_is_reader_first; no_remote_mutation"
+}

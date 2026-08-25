@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-12/worksheet12_exercise12_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0131",
+      "anchor": "bundle isomorphism from E_i to E_j over U_i intersect U_j",
+      "change": "Replace phi_ij by phi_ji so that the map direction agrees with Exercise 12's compatibility equation and carries the i-fiber to the j-fiber."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0131",
+      "surface": "protected:maabbdisp",
+      "index": 0,
+      "source_sha256": "18468c8ec00acb9394762278e5fe08ba4a9372594a7ad9ea821e2543da1da180",
+      "target_sha256": "7436fd6945f47304b01c3312782da24378e58baed716b2b367656781872e1273"
+    }
+  ],
+  "evidence_only_deltas": []
+}

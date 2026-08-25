@@ -1,0 +1,1464 @@
+\setcounter{section}{5}
+
+  \zwischenueberschrift{Hauptkrümmungen}
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Wir definieren verschiedene Krümmungskonzepte unter Bezug auf die
+\definitionsverweis {Weingartenabbildung}{}{}
+\maabbdisp {L_P} {T_PY} { T_PY
+} {.}
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann nennt man jeden
+\definitionsverweis {Eigenwert}{}{}
+der
+\definitionsverweis {Weingartenabbildung}{}{}
+\maabbeledisp {L_P} {T_P Y} { T_PY
+} { v } { - \left(  D_{v}  N   \right) \left(   P  \right)
+} {,}
+eine
+\definitionswort {Hauptkrümmung}{}
+von $Y$ in $P$.
+
+}
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann nennt man jeden
+\definitionsverweis {Eigenvektor}{}{}
+der
+\definitionsverweis {Weingartenabbildung}{}{}
+\maabbeledisp {L_P} {T_P Y} { T_PY
+} { v } { - \left(  D_{v}  N   \right) \left(   P  \right)
+} {,}
+eine
+\definitionswort {Hauptkrümmungsrichtung}{}
+von $Y$ in $P$.
+
+}
+
+Statt Hauptkrümmungsrichtung sagt man auch \stichwort {Hauptkrümmungsvektor} {,} von Hauptkrümmungsrichtungen spricht man insbesondere bei Eigenvektoren der Norm $1$. Aufgrund von
+[[Hyperfläche/Weingartenabbildung/Selbstadjungiert/Eigenwerte/Fakt|Korollar 4.8]]
+besitzt die Weingartenabbildung eine Orthonormalbasis aus Eigenvektoren, also von Hauptkrümmungsrichtungen. Im Allgemeinen wählt man eine Orthonormalbasis aus Hauptkrümmungsrichtungen. Die Hauptkrümmungen sind reelle Zahlen, die man häufig der Größe nach ordnet und als
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \kappa_1
+}
+{ \leq} { \kappa_2
+}
+{ \leq   \ldots \leq} { \kappa_{n-1}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+notiert, man spricht von dem \stichwort {Hauptkrümmungstupel} {.} Dabei wird ein $\kappa$ so oft angeführt, wie es die Dimension des zugehörigen Eigenraumes, also die
+\definitionsverweis {geometrische Vielfachheit}{}{,}
+angibt.
+
+Gemäß
+[[Endomorphismus/Eigenwert und charakteristisches Polynom/Fakt|Satz 23.2 (Lineare Algebra (Osnabrück 2024-2025))]]
+erhält man die Hauptkrümmungen, indem man die Nullstellen des
+\definitionsverweis {charakteristischen Polynoms}{}{}
+der
+\definitionsverweis {Weingartenabbildung}{}{}
+bestimmt, und die zugehörigen
+\definitionsverweis {Eigenräume}{}{}
+erhält man mit
+[[Lineare Abbildung/Eigenraum als Kern/Fakt|Lemma 22.1 (Lineare Algebra (Osnabrück 2024-2025))]].
+
+\inputbeispiel{}
+{
+
+Es seien
+\mathl{a_1 , \ldots , a_{n-1}}{} reelle Zahlen, wir betrachten die Funktion
+\maabbeledisp {f} {\R^{n-1}} {\R
+} { \left(  x_1   , \,   \ldots  , \,   x_{n-1}                 \right) } { a_1x_1^2  + \cdots + a_{n-1} x_{n-1}^2
+} {.}
+Gemäß
+[[Differenzierbare Funktion/Graph/Hyperfläche/Weingartenabbildung/Fakt|Lemma 4.9]]
+wird die
+\definitionsverweis {Weingartenabbildung}{}{}
+des
+\definitionsverweis {Graphen}{}{}
+zu $f$ im Nullpunkt durch die
+\definitionsverweis {Hesse-Matrix}{}{}
+von $f$ beschrieben, also durch
+
+\mathdisp {\begin{pmatrix}  2a_1  & 0 & 0 & 0 \\ 0 &  2a_2  & 0  & 0 \\ 0 & 0 &   \ddots & 0 \\ 0 & 0 & 0 &  2a_{n-1}  \end{pmatrix}} { . }
+
+Die
+\definitionsverweis {Hauptkrümmungen}{}{}
+des Graphen im Nullpunkt sind also $2a_1  , \ldots , 2a_{n-1}$ und die
+\definitionsverweis {Hauptkrümmungsrichtungen}{}{}
+sind durch die Standardvektoren gegeben. Insbesondere taucht jedes reelle Tupel als Hauptkrümmungstupel einer differenzierbaren Hyperfläche auf.
+
+}
+
+  \zwischenueberschrift{Krümmung auf Flächen}
+
+Wir schauen uns nun Krümmungskonzepte auf differenzierbaren Flächen im Raum genauer an.
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Faser zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei und sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann nennt man das
+\definitionsverweis {arithmetische Mittel}{}{}
+
+\mathl{{ \frac{   \kappa_1+\kappa_2  }{  2 } }}{}  der beiden
+\definitionsverweis {Hauptkrümmungen}{}{}
+in $P$ die
+\definitionswort {mittlere Krümmung}{}
+der Fläche $Y$ in $P$.
+
+}
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Faser zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei und sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann nennt man das Produkt
+\mathl{\kappa_1 \cdot \kappa_2}{} der beiden
+\definitionsverweis {Hauptkrümmungen}{}{}
+in $P$ die
+\definitionswort {Gaußkrümmung}{}
+der Fläche $Y$ in $P$.
+
+}
+
+Die Gaußkrümmung ist die
+\definitionsverweis {Determinante}{}{}
+der Weingartenabbildung.
+
+\inputbeispiel{}
+{
+
+Bei einer Kugeloberfläche zum Radius $r$ ist die
+\definitionsverweis {Weingartenabbildung}{}{}
+\zusatzklammer {zu dem nach innen gerichteten Einheitsnormalenfeld} {} {}
+in jedem Punkt gemäß
+[[Kugel/Radius/Weingartenabbildung/Beispiel|Beispiel 4.4]]
+die Streckung mit ${ \frac{   1  }{ r } }$. Daher ist ${ \frac{   1  }{ r } }$ die einzige
+\definitionsverweis {Hauptkrümmung}{}{}
+mit Vielfachheit $2$ und die
+\definitionsverweis {Gaußkrümmung}{}{}
+ist
+\mathl{{ \frac{   1  }{ r^2 } }}{.}
+
+}
+
+\inputbeispiel{}
+{
+
+Für das einschalige Hyperboloid
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ =} { \left\{ (x,y,z)  \mid   x^2+y^2-z^2  = 1         \right\}
+}
+{ \subseteq} { \R^3
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+sind aufgrund der Berechnungen in
+[[Einschaliges Hyperboloid/Weingartenabbildung/Beispiel|Beispiel 4.5]]
+in einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ (x,y,z)
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die beiden
+\definitionsverweis {Hauptkrümmungen}{}{}
+gleich
+\mathkor {} {- \left(  x^2+y^2+z^2  \right)^{- { \frac{   1  }{  2 } } }} {und} {\left(  x^2+y^2+z^2  \right)^{- { \frac{   3  }{  2 } } }} {,}
+die
+\definitionsverweis {Gaußsche Krümmung}{}{}
+ist also
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ - \left(  x^2+y^2+z^2  \right)^{- { \frac{   1  }{  2 } } }  \cdot \left(  x^2+y^2+z^2  \right)^{- { \frac{   3  }{  2 } } }
+}
+{ =} { - \left(  x^2+y^2+z^2  \right)^{- 2 }
+}
+{ =} { -  { \frac{   1  }{  \left(  x^2+y^2+z^2  \right)^{ 2 }   } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+\inputbeispiel{}
+{
+
+Es sei $Y$ der
+\definitionsverweis {Graph}{}{}
+zu einer zweifach stetig differenzierbaren Funktion
+\maabbele {f} { V } { \R
+} {(x,y)} { f(x,y)
+} {,}
+auf einer offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Nach
+[[Differenzierbare Funktion/Graph/Hyperfläche/Weingartenabbildung/Fakt|Lemma 4.9]]
+ist die
+\definitionsverweis {Weingartenabbildung}{}{}
+\zusatzklammer {zu dem nach oben gerichteten Einheitsnormalenfeld} {} {}
+in jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ (Q,f(Q))
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gemäß
+[[Kugel/Radius/Weingartenabbildung/Beispiel|Beispiel 4.4]]
+durch
+
+\mathdisp {{ \frac{   1  }{  \sqrt{ 1+ \left(  { \frac{   \partial   f   }{  \partial   x   } } ( Q)  \right)^2+ \left(  { \frac{   \partial   f   }{  \partial   y   } } ( Q )  \right)^2 }   } }  \begin{pmatrix}  { \frac{   \partial    }{  \partial   x  } }  { \frac{   \partial   f   }{  \partial   x   } } ( Q)    &   { \frac{   \partial    }{  \partial   x  } }  { \frac{   \partial   f   }{  \partial   y   } } ( Q)   \\  { \frac{   \partial    }{  \partial   x  } }  { \frac{   \partial   f   }{  \partial   y   } } ( Q)  &  { \frac{   \partial    }{  \partial   y  } }  { \frac{   \partial   f   }{  \partial   y   } } ( Q)  \end{pmatrix}} {  }
+
+gegeben. Die Hauptkrümmungsrichtungen kann man direkt mit der Hesse-Matrix ausrechnen, für die Hauptkrümmungen muss man den Vorfaktor mitberücksichtigen. Die
+\definitionsverweis {Gaußkrümmung}{}{}
+ist
+
+\mathdisp {{ \frac{   1  }{  1+ \left(  { \frac{   \partial   f   }{  \partial   x   } } ( Q)  \right)^2+ \left(  { \frac{   \partial   f   }{  \partial   y   } } ( Q )  \right)^2  } }  \det  \begin{pmatrix}  { \frac{   \partial    }{  \partial   x  } }  { \frac{   \partial   f   }{  \partial   x   } } ( Q)    &   { \frac{   \partial    }{  \partial   x  } }  { \frac{   \partial   f   }{  \partial   y   } } ( Q)   \\  { \frac{   \partial    }{  \partial   x  } }  { \frac{   \partial   f   }{  \partial   y   } } ( Q)  &  { \frac{   \partial    }{  \partial   y  } }  { \frac{   \partial   f   }{  \partial   y   } } ( Q)  \end{pmatrix}} { . }
+
+}
+
+\inputbeispiel{}
+{
+
+Es sei $I$ ein
+\definitionsverweis {offenes Intervall}{}{}
+und
+\maabb {f} { I } { \R_+
+} {}
+eine
+\definitionsverweis {differenzierbare Funktion}{}{,}
+es sei $Y$ die zugehörige
+\definitionsverweis {Rotationsfläche}{}{}
+\zusatzklammer {um die $x$-Achse} {} {}
+zum
+\definitionsverweis {Graphen}{}{}
+von $f$ und sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ P
+}
+{ =} { \begin{pmatrix}  x_0  \\f(x_0)\\  0   \end{pmatrix}
+}
+{ \in} { Y
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\zusatzklammer {was keine wesentliche Einschränkung ist} {} {.}
+Wir betrachten den Ausschnitt der Rotationsfläche oberhalb von
+\mathl{\left\{ (x,z)   \mid   z^2 < f(x_0)        \right\}}{}  als den Graphen zu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g(x,z)
+}
+{ =} { \sqrt{ f(x)^2-z^2 }
+}
+{ =} { \left(  f(x)^2-z^2   \right)^{1/2}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Die Jacobi-Matrix von $g$ ist
+
+\mathdisp {\left(  \left(  f(x)^2-z^2  \right)^{-1/2}  f(x) f'(x)   , \,   - z \left(  f(x)^2-z^2  \right)^{-1/2}                   \right)} {  }
+
+und die Hesse-Matrix von $g$ ist
+
+\mathdisp {\begin{pmatrix}  - \left(  f(x)^2-z^2  \right)^{-3/2} f(x)^2 f'(x)^2 + \left(  f(x)^2-z^2  \right)^{-1/2}  \left(  f'(x)^2 + f(x) f^{\prime \prime} (x)   \right)   &   z \left(  f(x)^2-z^2  \right)^{-3/2} f(x) f'(x)   \\  z \left(  f(x)^2-z^2  \right)^{-3/2} f(x) f'(x)  &  - \left(  f(x)^2-z^2  \right)^{-1/2}  -z^2 \left(  f(x)^2-z^2  \right)^{-3/2}  \end{pmatrix}} {  }
+
+bzw. das
+\mathl{\left(  f(x)^2-z^2  \right)^{-3/2}}{-}Vielfache von
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \begin{pmatrix}  -  f(x)^2 f'(x)^2 + \left(  f(x)^2-z^2  \right) \left(  f'(x)^2 + f(x) f^{\prime \prime} (x)   \right)   &   z  f(x) f'(x)   \\  z f(x) f'(x)  &  - \left(  f(x)^2-z^2  \right)  -z^2   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  f(x)^3 f^{\prime \prime} (x)  -z^2 f'(x)^2    -z^2 f(x) f^{\prime \prime} (x)    &   z  f(x) f'(x)   \\  z f(x) f'(x)  &  - f(x)^2  \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Für den gewählten Punkt $P$ ist dies
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   1  }{  f(x_0)^3 } } \begin{pmatrix}  f(x_0)^3 f^{\prime \prime} (x_0)   &   0   \\  0  &  - f(x_0)^2  \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  f^{\prime \prime} (x_0)   &   0   \\  0  &  -  { \frac{   1  }{ f(x_0) } }   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Nach
+[[Differenzierbare Funktion/Graph/Hyperfläche/Weingartenabbildung/Fakt|Lemma 4.9]]
+ist die Weingartenabbildung in $P$ gleich
+
+\mathdisp {{ \frac{   1  }{  \sqrt{ 1 +f'(x_0)^2 }  } } \begin{pmatrix}  f^{\prime \prime} (x_0)   &   0   \\  0  &  -  { \frac{   1  }{ f(x_0) } }   \end{pmatrix}} { . }
+
+Somit sind die beiden
+\definitionsverweis {Hauptkrümmungen}{}{}
+gleich
+\mathkor {} {{ \frac{   f^{\prime \prime} (x_0)  }{  \sqrt{ 1 +f'(x_0)^2 }  } }} {und} {- { \frac{   1  }{  f(x_0) \sqrt{ 1 +f'(x_0)^2 }  } }} {,}
+die Hauptkrümmungsrichtungen sind die Standardvektoren bzw. ihre Bilder
+\mathkor {} {\begin{pmatrix}  1  \\f'(x_0)\\  0   \end{pmatrix}} {und} {\begin{pmatrix}  0  \\ 0\\  1   \end{pmatrix}} {}
+im Tangentialraum $T_PY$. Die Hauptkrümmungsrichtungen verlaufen also längs des Graphen zu $f$ und längs der Kreisbewegung der Rotation. Die
+\definitionsverweis {Gaußkrümmung}{}{}
+ist
+
+\mathdisp {{ \frac{   - f^{\prime \prime} (x_0)  }{  f(x_0)  \left(  1 +f'(x_0)^2  \right)    } }} { . }
+
+}
+
+  \zwischenueberschrift{Normalkrümmung}
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine zweimal
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Zu einem normierten Tangentialvektor
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nennt man
+\mathl{\left\langle  v  ,  L_P(v)  \right\rangle}{} die
+\definitionswort {Normalkrümmung}{}
+von $Y$ in $P$ in Richtung $v$. Sie wird mit
+
+\mavergleichskette
+{\vergleichskette
+{ \kappa(P,v)
+}
+{ = }{ \kappa(v)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bezeichnet.
+
+}
+
+Nach
+[[Hyperfläche/Weingartenabbildung/Zweite Ableitung/Skalarprodukt/Fakt|Lemma 4.6]]
+ist die Normalkrümmung gleich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  v  ,  L_P(v)  \right\rangle
+}
+{ =} { \left\langle  \gamma^{\prime \prime} (0)  ,  N(P)  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei $\gamma$ eine Kurvenrealisierung des Tangentialvektors $v$ ist. Die Normalkrümmung misst also die normale Komponente der Beschleunigung der Kurve.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Normalkrümmung/Berechnung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine zweimal
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es seien
+\mathl{\kappa_1 , \ldots , \kappa_{n-1}}{} die
+\definitionsverweis {Hauptkrümmungen}{}{}
+zu $Y$ in $P$ und
+\mathl{v_1 , \ldots , v_{n-1}}{} zugehörige
+\definitionsverweis {normierte}{}{}
+\definitionsverweis {Hauptkrümmungsrichtungen}{}{.}}
+\faktfolgerung {Dann ist die
+\definitionsverweis {Normalkrümmung}{}{}
+von $Y$ in $P$ in Richtung
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gleich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \kappa(v)
+}
+{ =} { \sum_{i = 1}^{n-1} \kappa_i \left\langle  v  , v_i   \right\rangle^2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Mit
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ = }{ \sum_{i = 1}^{n-1} a_i v_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist unter Verwendung der Orthogonalität
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \kappa(v)
+}
+{ =} { \left\langle  v  ,  L_P(v)  \right\rangle
+}
+{ =} { \left\langle  \sum_{i = 1}^{n-1} a_i v_i  ,  L_P \left(  \sum_{i = 1}^{n-1} a_i v_i  \right)   \right\rangle
+}
+{ =} { \left\langle  \sum_{i = 1}^{n-1} a_i v_i  ,  \sum_{i = 1}^{n-1} \kappa_i a_i v_i   \right\rangle
+}
+{ =} { \sum_{i = 1}^{n-1} \kappa_i a_i^2
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \sum_{i = 1}^{n-1} \kappa_i \left\langle  v  , v_i   \right\rangle^2
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+
+}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Minimal surface curvature planes-de} {svg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Minimal surface curvature planes-de.svg } {} {Eric Gaba} {Commons} {CC-by-sa 3.0} {}
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine zweimal
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein von $0$ verschiedener
+\definitionsverweis {Tangentenvektor}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{ u
+}
+{ \in }{ N_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein von $0$ verschiedener
+\definitionsverweis {Normalenvektor}{}{.}
+Dann nennt man die Ebene $\R u + \R v$ eine
+\definitionswort {Normalenebene}{}
+zu $Y$ durch $P$.
+
+}
+
+Jeder Tangentialvektor
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+legt eine eindeutige Normalebene $E$ fest, die man zumeist als
+\mathl{P+E}{} auffasst.
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Normalebene/Kurvenschnitt/Regularität/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine zweimal
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {Normalebene}{}{}
+durch $P$ an $Y$.}
+\faktfolgerung {Dann ist der Durchschnitt
+\mathl{Y \cap (P+E)}{} eine ebene Kurve in $P+E$, die im Punkt $P$ regulär ist.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Nach einer Verschiebung können wir annehmen, dass $P$ der Nullpunkt des Raumes ist. Das totale Differential
+\maabbdisp {\left(D h \right)_{ 0}} {\R^n } {\R
+} {}
+ist surjektiv und der Kern ist der Tangentialraum $T_PY$. Die Ebene $E$ enthält Normalenvektoren $\neq 0$, die nicht zum Kern gehören. Daher ist das totale Differential der zusammengesetzten Abbildung
+
+\mathdisp {E \supseteq E \cap W \longrightarrow W \stackrel{h}{\longrightarrow} \R} {  }
+
+im Punkt $0$ surjektiv und somit kann man den Satz über implizite Abbildungen anwenden und erhält, dass die Faser eine im Punkt $0$ reguläre Kurve ist.
+
+}
+
+Man beachte, dass der Kurvenschnitt nicht in jedem Punkt regulär sein muss.
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Normalkrümmung/Normalebene/Kurvenschnitt/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine zweimal
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {Normalebene}{}{}
+durch $P$ an $Y$.}
+\faktfolgerung {Dann ist die
+\definitionsverweis {Normalkrümmung}{}{}
+von $Y$ in $P$ gleich der
+\definitionsverweis {Krümmung}{}{}
+der ebenen Kurve
+
+\mavergleichskette
+{\vergleichskette
+{ Y \cap (P+E)
+}
+{ \subseteq }{ P+E
+}
+{ \cong }{ \R^2
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+im Punkt $P$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Zur Notationsvereinfachung verschieben wir $P$ in den Nullpunkt. Nach
+[[Hyperfläche/Normalebene/Kurvenschnitt/Regularität/Fakt|Lemma 5.13]]
+ist der Durchschnitt  $Y \cap E$ eine in $0$ reguläre Kurve, es sei
+\maabbdisp {\gamma} { I } { Y \cap E
+} {}
+eine zweifach differenzierbare bogenparametrisierte Realisierung davon. Nach
+[[Hyperfläche/Weingartenabbildung/Zweite Ableitung/Skalarprodukt/Fakt|Lemma 4.6]]
+ist die Normalkrümmung gleich
+\mathl{\left\langle  \gamma^{\prime \prime}(0) , N(0)  \right\rangle}{.} Da die Normalebene den Einheitsnormalenvektor $N(0)$ enthält, spielt sich alles in der Ebene $E$ ab. Somit folgt die Aussage aus
+[[Ebene reguläre Kurve/Krümmung/Skalarprodukt/Fakt|Lemma 3.8]].
+
+}
+
+ [[Kategorie:Latexseite]]

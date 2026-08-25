@@ -1,0 +1,68 @@
+{
+  "all_downloaded_bytes_sha256_md5_match": true,
+  "all_inventory_md5_matches": true,
+  "authentication_used": false,
+  "concept_doi": "10.5281/zenodo.22059977",
+  "concept_record_id": 22059977,
+  "coverage": "active_partial_through_unit_13",
+  "doi": "10.5281/zenodo.22096736",
+  "file_count": 7,
+  "files": [
+    {
+      "bytes": 6396207,
+      "md5": "98eccead8555b7595f13394a620aade4",
+      "name": "geometri-diferensial-manifold-mulus-hingga-unit-13-id.pdf",
+      "sha256": "a4d7e55604de9bfb6556d78461db8255a6c584d36b8934a0993b2386ad5832a7"
+    },
+    {
+      "bytes": 5331749,
+      "md5": "3dcca6b93c6becb844c931d0e73a45c3",
+      "name": "geometri-diferensial-manifold-mulus-brenner-id-unit13-html-20260825.zip",
+      "sha256": "22dacc34c9381c44aebeccf0c48e7cf107c991d7ff3c8c74ec4d950e77e77cf7"
+    },
+    {
+      "bytes": 3848742,
+      "md5": "17d9e782e4a7a87f00a2fa5c78024064",
+      "name": "geometri-diferensial-manifold-mulus-brenner-id-unit13-source-20260825.zip",
+      "sha256": "494fdecf09bec68bc45e04c2d9c7ff4a491bab471e14979a0e6039af7e03fbcb"
+    },
+    {
+      "bytes": 2274,
+      "md5": "393697323f471e137d3275ac5bc14725",
+      "name": "LICENSE.md",
+      "sha256": "9c23f63571ce11e46fd577204bf3fe0fd66be7e74f9465af91b40237e7b6e3b3"
+    },
+    {
+      "bytes": 2538,
+      "md5": "6c4d724985bbed0092d2ce87657ae0f7",
+      "name": "RELEASE_NOTES_20260825.md",
+      "sha256": "6d12ca9c16de6636ac150dd80609237cf92acf975be83232870de3d8459fcb70"
+    },
+    {
+      "bytes": 618,
+      "md5": "bccab830a400cbc67d2fd0930fb76f84",
+      "name": "FILE_MANIFEST.csv",
+      "sha256": "91ac4f5de69b102f9df592f856f70f5c1d83060a6b605e25f28d44757b1c1244"
+    },
+    {
+      "bytes": 655,
+      "md5": "216f2a1b5be9e779b5dfd85f39b76f7c",
+      "name": "CHECKSUMS.sha256",
+      "sha256": "70aa60df1801486e8e04a88b9171b25cf0cad2d7c0b4010a305d2b1f161eb889"
+    }
+  ],
+  "pdf_default_preview": "geometri-diferensial-manifold-mulus-hingga-unit-13-id.pdf",
+  "pdf_default_preview_verified": true,
+  "preparation_receipt_sha256": "35c9f44ff55bad66de94779b5326500986b3c857abe96380e5039d810661e5fc",
+  "publication_receipt_sha256": "9431051d25ab8617554d5cd2f8c673552dbb1ee940c38fc398536ebd3ec34463",
+  "rdm_file_order": [],
+  "record_id": 22096736,
+  "record_status": "published",
+  "schema_version": 1,
+  "status": "pass",
+  "temporary_downloads_removed": true,
+  "total_bytes": 15582783,
+  "verified_at_utc": "2026-08-25T13:18:47.990479+00:00",
+  "version": "2026.08.25-unit13",
+  "workflow": "o011-independent-zenodo-unit13-public-readback-v1"
+}

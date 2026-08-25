@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-07/lecture07.id.tex",
+  "translation_only_deltas": [
+    "The protected macro \\mathbed keeps the source's five empty structural arguments; its second text argument is translated from German 'mit' to Indonesian 'dengan'. No mathematical token, argument count, or brace topology changes."
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-TRANS-0070",
+      "surface": "protected:mathbed",
+      "index": 2,
+      "source_sha256": "a55617c35cd8ba6e2ba74ccf369b2967a4a2cadd01a748c060f96365c36c78df",
+      "target_sha256": "7d2892ac41b0afef52aa7a593ffc2d3db3db91b10094ffebeb84ddf83a5f8233"
+    }
+  ]
+}

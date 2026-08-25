@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "contributors": [
+      {
+        "name": "TTP",
+        "type": "Other"
+      }
+    ],
+    "creators": [
+      {
+        "name": "Brenner, Holger"
+      }
+    ],
+    "description": "Reader-first active_partial Indonesian adaptation through Kuliah 1–10 and Lembar Kerja 1–10. The release contains an A4 PDF, a reflowable semantic HTML reader, and a compact resumable source/backend/essential-QA package. Course text and the Indonesian adaptation are CC BY-SA 4.0; component media retain their recorded mixed public-domain, CC BY, and CC BY-SA rights. This is an independent adaptation and is not endorsed by the source author, Wikiversity, Wikimedia Commons, the Wikimedia Foundation, or media creators. Computational provenance: OpenAI Codex gpt-5.6-sol, Ultra.",
+    "keywords": [
+      "differential geometry",
+      "smooth manifolds",
+      "Indonesian translation",
+      "open educational resources",
+      "semantic HTML",
+      "stable identifiers"
+    ],
+    "language": "ind",
+    "license": "other-open",
+    "publication_date": "2026-08-23",
+    "related_identifiers": [
+      {
+        "identifier": "https://de.wikiversity.org/wiki/Kurs:Differentialgeometrie_(Osnabr%C3%BCck_2023)",
+        "relation": "isDerivedFrom",
+        "resource_type": "publication-book",
+        "scheme": "url"
+      }
+    ],
+    "title": "Geometri Diferensial dan Manifold Mulus — Edisi Bahasa Indonesia (Batas Unit 10)",
+    "version": "2026.08.23-unit10"
+  }
+}

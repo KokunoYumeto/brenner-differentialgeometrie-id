@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-07/worksheet07.id.tex",
+  "translation_only_deltas": [
+    "The first protected comparison macro translates the case labels German 'für' and 'sonst' to Indonesian 'untuk' and 'selain itu'; all seven argument groups, formulas, and brace topology remain identical."
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-TRANS-0071",
+      "surface": "profile:protected:vergleichskette",
+      "source_sha256": "68b3f4a993c1337a03d1e4f2929d91115751ec5f0f0ed0d8294a8f1b015d8d1d",
+      "target_sha256": "a95dd12aed2c49709335da8372d14ce139c1a3eb7c6ba2e0b42f426379cb9280"
+    }
+  ]
+}

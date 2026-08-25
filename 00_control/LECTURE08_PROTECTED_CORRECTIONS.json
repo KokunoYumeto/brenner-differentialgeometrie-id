@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-08/lecture08.id.tex",
+  "prose_only_corrections": [
+    {
+      "correction_id": "O011-CORR-0073",
+      "anchor": "proof of Theorem 8.2 at the Q=0 reduction",
+      "change": "State the necessary codomain translation before reducing the arbitrary regular fiber to the zero fiber."
+    },
+    {
+      "correction_id": "O011-CORR-0076",
+      "anchor": "maximal-atlas characterization around the beta:U-to-V chart",
+      "change": "Require both the chart and its inverse to be C^k, not only the forward homeomorphism."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_ids": ["O011-CORR-0074", "O011-CORR-0075"],
+      "surface": "profile:commands",
+      "source_sha256": "d39da3ab3a7c8fe702984d366b71c42cb42ab4a19fc82c84a90f989e9b42c221",
+      "target_sha256": "20ae7d1a1df6734581f14b29a78bfe6c2540e3a9d426408b633920ec8c03476f"
+    },
+    {
+      "correction_id": "O011-CORR-0074",
+      "surface": "protected:vergleichskette",
+      "index": 9,
+      "source_sha256": "f3840ba4bf1724ef7446814d66dd7ffa6a2503b2e1882613d8af72903070623d",
+      "target_sha256": "c02f5a1dec8d6c9a9e2ecfbc6d0343fedd74040f365922c710d509e337fbca8d"
+    },
+    {
+      "correction_id": "O011-CORR-0074",
+      "surface": "profile:brace_profile",
+      "source_sha256": "5079f39d6290626f93d8ed53523e76f71590a57a16775a36ae2fbd4187d99fc2",
+      "target_sha256": "250a47df89505edbec2e630f7b3db207004748540b57dc61effa4fe372b38057"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-CORR-0073",
+      "surface": "command:mavergleichskette",
+      "occurrence_index": 13,
+      "source_sha256": "755809eef395682e4e3dcbe12ed1a8112f7e2035b136c68e19108a38f84a08c5",
+      "target_sha256": "755809eef395682e4e3dcbe12ed1a8112f7e2035b136c68e19108a38f84a08c5",
+      "verification_note": "The unchanged Q=0 comparison is the exact anchor for the added prose that supplies the missing codomain translation."
+    },
+    {
+      "correction_id": "O011-CORR-0074",
+      "surface": "command:mavergleichskettedisp",
+      "occurrence_index": 0,
+      "source_sha256": "9f04dd70a9edf85dd2c994d0a5476fef85c2eddc0b75b97efe66814767577474",
+      "target_sha256": "83817f10b640d66f3faf7cbd6f149c9d64a3a22a6e982dd438f5f551dbcd2496"
+    },
+    {
+      "correction_id": "O011-CORR-0075",
+      "surface": "command:mathkor",
+      "occurrence_index": 4,
+      "source_sha256": "71c87d0b6f6022761849c33ef67d6996f431db331035fbd1dc2167e3726722c6",
+      "target_sha256": "58d5d873bd37825a9f3f92282073d9b2a26a5e442317332ed110e564b7220149"
+    },
+    {
+      "correction_id": "O011-CORR-0075",
+      "surface": "command:mathl",
+      "occurrence_index": 6,
+      "source_sha256": "3f0637d679915aaa5b6ad8667addd35341a30a0a01ea8c13c60411b56bb874ac",
+      "target_sha256": "d27c6d3ab51860b0e081c24e74f1f556616c52c858ac95ee81cbe833efa593e6"
+    },
+    {
+      "correction_id": "O011-CORR-0075",
+      "surface": "command:mathl",
+      "occurrence_index": 7,
+      "source_sha256": "66e944504aeccbe0c85331e39f3804f561746512e288195adf23f7b4d6b49f20",
+      "target_sha256": "04733347982f336dfcebf3c1c615e1e2a9645c3b699855b52548a105030899a1"
+    },
+    {
+      "correction_id": "O011-CORR-0076",
+      "surface": "command:maabb",
+      "occurrence_index": 2,
+      "source_sha256": "869c7cbda4a853afc9db9cf7b5054187be2ad9a6414154ccbcdd779338996d6f",
+      "target_sha256": "869c7cbda4a853afc9db9cf7b5054187be2ad9a6414154ccbcdd779338996d6f",
+      "verification_note": "The unchanged beta:U-to-V chart is the exact anchor for the corrected inverse-regularity clause."
+    }
+  ]
+}

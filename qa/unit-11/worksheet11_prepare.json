@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-11/worksheet11.id.tex",
+  "input_bytes": 20513,
+  "input_sha256": "b92ce3a51ad8b56acbd01f26673fb3512faee6b7bf17b8ccb6365c2091af6941",
+  "output": "build/generated/worksheet11.id.build.tex",
+  "output_bytes": 20369,
+  "output_sha256": "0f286913dd79414679789a2b9ff27b8b877716365d2d523de9586bdcd9f33282",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Torus/Faserrealisierung/Andere Fasern/Aufgabe",
+      "label": "Soal 11.9"
+    },
+    {
+      "target": "Mannigfaltigkeit/Differentialoperator/Erste Ordnung/Definition",
+      "label": "Definisi 11.4"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

@@ -1,0 +1,253 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-through-unit07-pdf-build-v1",
+  "engine": "MiKTeX-pdfTeX 4.27 (MiKTeX 26.5)",
+  "command": "pdflatex -interaction=nonstopmode -halt-on-error -file-line-error -recorder through-unit-07.tex (three passes per clean cycle; two cycles)",
+  "deterministic_clean_cycles": true,
+  "cumulative_prefix_receipt": "qa/unit-06/build.json",
+  "cycles": [
+    {
+      "cycle": 1,
+      "pdf": "tmp/pdfs/through-unit07-build/cycle-1.pdf",
+      "bytes": 4950232,
+      "sha256": "8c2cf76230b45d66a8236c0cd92a048809ff5ec0cce343132dd902684cb05ec6",
+      "logs": [
+        {
+          "path": "tmp/pdfs/through-unit07-build/cycle-1-pass-1.console.txt",
+          "bytes": 13670,
+          "sha256": "574caa2b976a730dfe028a5d1fba7fa77e32c1de38439e6c852395c75fd6790f"
+        },
+        {
+          "path": "tmp/pdfs/through-unit07-build/cycle-1-pass-2.console.txt",
+          "bytes": 13649,
+          "sha256": "47e7ea7e2e013ca86424a905679c21b98f56796ad7ab2d7f736be557dfcccb61"
+        },
+        {
+          "path": "tmp/pdfs/through-unit07-build/cycle-1-pass-3.console.txt",
+          "bytes": 13649,
+          "sha256": "47e7ea7e2e013ca86424a905679c21b98f56796ad7ab2d7f736be557dfcccb61"
+        }
+      ]
+    },
+    {
+      "cycle": 2,
+      "pdf": "tmp/pdfs/through-unit07-build/cycle-2.pdf",
+      "bytes": 4950232,
+      "sha256": "8c2cf76230b45d66a8236c0cd92a048809ff5ec0cce343132dd902684cb05ec6",
+      "logs": [
+        {
+          "path": "tmp/pdfs/through-unit07-build/cycle-2-pass-1.console.txt",
+          "bytes": 13670,
+          "sha256": "574caa2b976a730dfe028a5d1fba7fa77e32c1de38439e6c852395c75fd6790f"
+        },
+        {
+          "path": "tmp/pdfs/through-unit07-build/cycle-2-pass-2.console.txt",
+          "bytes": 13649,
+          "sha256": "47e7ea7e2e013ca86424a905679c21b98f56796ad7ab2d7f736be557dfcccb61"
+        },
+        {
+          "path": "tmp/pdfs/through-unit07-build/cycle-2-pass-3.console.txt",
+          "bytes": 13649,
+          "sha256": "47e7ea7e2e013ca86424a905679c21b98f56796ad7ab2d7f736be557dfcccb61"
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "path": "qa/unit-06/build.json",
+      "bytes": 5146,
+      "sha256": "ed5d459f1be6cdf6f98315e27ee9c6140e86e15d56686504dcefbec548ae41bc"
+    },
+    {
+      "path": "build/through-unit-07.tex",
+      "bytes": 6979,
+      "sha256": "fff1fc48d7c8391d2ece0085a87e28ab1c38d41a5cfcfd7965b5c8ed48312b13"
+    },
+    {
+      "path": "build/brenner-compat.tex",
+      "bytes": 85780,
+      "sha256": "c4d5afb66ba066b45cb466cd863840dc4bdc8d19f73f62f57fc2a96c764fc113"
+    },
+    {
+      "path": "build/generated/lecture06.id.build.tex",
+      "bytes": 30755,
+      "sha256": "c623f4046049dd640b6c813d357c35b532098ee383ef856ad7296881f3f7ea4e"
+    },
+    {
+      "path": "build/generated/worksheet06.id.build.tex",
+      "bytes": 16263,
+      "sha256": "c9159aa808f638f02dd850ac6f131289fbf45390f236e23f4d6edc7ab85be900"
+    },
+    {
+      "path": "build/generated/worksheet06_exercise02_solution.id.build.tex",
+      "bytes": 2561,
+      "sha256": "a05d08dec69157aa38e1c867299748d39d4cdffc558939ec6b971239df878d1b"
+    },
+    {
+      "path": "build/generated/worksheet06_exercise06_solution.id.build.tex",
+      "bytes": 939,
+      "sha256": "0466633d87c732eb4b6e468dcf33f2e2755f3961e536dc732f14acf8907fc317"
+    },
+    {
+      "path": "build/generated/worksheet06_exercise09_solution.id.build.tex",
+      "bytes": 474,
+      "sha256": "4ade5a70dbb8a98d862bb72e76218f02233894cf57bcc7352fb266fd620e9a99"
+    },
+    {
+      "path": "build/generated/unit06-media-attribution-cumulative.tex",
+      "bytes": 734,
+      "sha256": "b9b34e9cc73caba3cf57df4bef73682dfad9766df0c9cad8c4ebcd1929d8af4c"
+    },
+    {
+      "path": "build/generated/lecture07.id.build.tex",
+      "bytes": 20460,
+      "sha256": "69e14480aa0a9f9b6a565ad8952ef3592f156d1687d2011edbf75e3155054ea2"
+    },
+    {
+      "path": "build/generated/worksheet07.id.build.tex",
+      "bytes": 7780,
+      "sha256": "87d9ed393f508b149fab935cde93fd0911b2022009ff6c5b4ab412b412dd9590"
+    },
+    {
+      "path": "build/generated/worksheet07_exercise04_solution.id.build.tex",
+      "bytes": 787,
+      "sha256": "0a1357ad74d3f75ca72821ac159871acc8ff93b87bd87f5a56fd872f58b08882"
+    },
+    {
+      "path": "build/generated/worksheet07_exercise07_solution.id.build.tex",
+      "bytes": 1668,
+      "sha256": "b21c056701c3c5959acc6adbd5159e6e011f3e7b2b49dc36be629535020f254f"
+    },
+    {
+      "path": "build/generated/worksheet07_exercise13_solution.id.build.tex",
+      "bytes": 372,
+      "sha256": "24adcb97573668d0cd6e0a698f6bf2b5f322b2fbe2e39722a0ca74fbe0a81807"
+    },
+    {
+      "path": "build/generated/unit07-media-attribution-cumulative.tex",
+      "bytes": 1260,
+      "sha256": "ddd2ea07293279745fc521e37621e9faa7dcacc00ae2cee137aafcba238e400d"
+    },
+    {
+      "path": "source/unit07_interactive_media.json",
+      "bytes": 1823,
+      "sha256": "79a6509a87fa0da8f96527f798ca02b40d10c223300c439ee08dbdea1d2d3352"
+    },
+    {
+      "path": "00_control/LECTURE07_PROTECTED_CORRECTIONS.json",
+      "bytes": 667,
+      "sha256": "e4f2af5750074228b03dc7cd3ce5eaa0fccae03a1e2c3e5fc11d7efafe17fd70"
+    },
+    {
+      "path": "00_control/WORKSHEET07_PROTECTED_CORRECTIONS.json",
+      "bytes": 642,
+      "sha256": "a3fb4ee0fbed8ba0bd0e3a5ef05dd625468d7c16f30004e49815a50506b291c6"
+    },
+    {
+      "path": "qa/unit-07/INTERACTIVE_MEDIA_QA.json",
+      "bytes": 1428,
+      "sha256": "a6077a07a4ec03f1a33500781bf3256fa81da9d8efb091318fc6dd59dfdca193"
+    },
+    {
+      "path": "qa/unit-07/MEDIA_ALIAS_RECEIPT.json",
+      "bytes": 1188,
+      "sha256": "268a6f56e762b35900df0a78bd135d4a1a1c8b7b3f383f96e31b6d19d9581f1a"
+    },
+    {
+      "path": "scripts/prepare_unit_tex.py",
+      "bytes": 6693,
+      "sha256": "32675ed03f708ab2d65bb55df6e906942c97642bb44088c2237079b91831e0ad"
+    },
+    {
+      "path": "scripts/prepare_unit_media.py",
+      "bytes": 12757,
+      "sha256": "2f1ddc03e83d47fddb747f8c5738804a0adb0b29a14b0d7e093b24ff3f63305e"
+    },
+    {
+      "path": "qa/unit-06/lecture06_translation.json",
+      "bytes": 1256,
+      "sha256": "4a5b27132bccd4d68941fe4618fce8fc2730ac37e69eb3dce2ef443594134e2d"
+    },
+    {
+      "path": "qa/unit-06/worksheet06_translation.json",
+      "bytes": 1170,
+      "sha256": "7bd2efcb70ec437e7c8c3689579fdd061613893a04c80bd851b7e04687af8f51"
+    },
+    {
+      "path": "qa/unit-06/worksheet06_exercise02_solution_translation.json",
+      "bytes": 1095,
+      "sha256": "b561388fcb8e3f6a966cb5af2b60faba62ed001028e3d1284b58ee0cb073ac06"
+    },
+    {
+      "path": "qa/unit-06/worksheet06_exercise06_solution_translation.json",
+      "bytes": 1070,
+      "sha256": "448345444eb5964acd377277b97e796649d4c9cfa32260d60aefdab8297a5499"
+    },
+    {
+      "path": "qa/unit-06/worksheet06_exercise09_solution_translation.json",
+      "bytes": 1068,
+      "sha256": "5e6bf4cc37f788873588a4f83a12b32e43c1b04c43ff7339c3de00c5a8b33678"
+    },
+    {
+      "path": "qa/unit-07/lecture07_translation.json",
+      "bytes": 1056,
+      "sha256": "0e7e5d7ef6b041de4e294991932b4d9ca91771ec3d88083d7ebb8f11c22c0191"
+    },
+    {
+      "path": "qa/unit-07/worksheet07_translation.json",
+      "bytes": 1058,
+      "sha256": "bf7e04ed1db79b14fad4f6666f8d6caedc4eae6b6a2bf17ff3cfab010ed65c35"
+    },
+    {
+      "path": "qa/unit-07/worksheet07_exercise04_solution_translation.json",
+      "bytes": 1068,
+      "sha256": "b275b4574b6803cfb12509880d4dbac9f281db039c5d85d9a432a914677acd80"
+    },
+    {
+      "path": "qa/unit-07/worksheet07_exercise07_solution_translation.json",
+      "bytes": 1070,
+      "sha256": "eaaea92b01f0752ea2ebff8ac94911df714657d5c04dad5c6288638a84c0a84e"
+    },
+    {
+      "path": "qa/unit-07/worksheet07_exercise13_solution_translation.json",
+      "bytes": 1067,
+      "sha256": "d0bb9febef426e3e8f437cdee3d2fa2c7d509ed2367a05f8a453dea67314b4f1"
+    },
+    {
+      "path": "qa/unit-07/lecture07_prepare.json",
+      "bytes": 650,
+      "sha256": "a04c9790e242a20faa39fb84e10641ad8ff2c9b29e4449bc7152f77530709407"
+    },
+    {
+      "path": "qa/unit-07/worksheet07_prepare.json",
+      "bytes": 1050,
+      "sha256": "e0fa9457709f03d84f9bdfa8d7cda13a7850678ed538458ca834fc60b25ce983"
+    },
+    {
+      "path": "qa/unit-07/worksheet07_exercise04_solution_prepare.json",
+      "bytes": 904,
+      "sha256": "ae866426cdfe3362357c2554c283934ed702b6e3ddb4afb8101ff928561a500d"
+    },
+    {
+      "path": "qa/unit-07/worksheet07_exercise07_solution_prepare.json",
+      "bytes": 692,
+      "sha256": "d5cb79bac263d56b49211030a04de833bb97959edd246769df6c093da3e77d0e"
+    },
+    {
+      "path": "qa/unit-07/worksheet07_exercise13_solution_prepare.json",
+      "bytes": 1023,
+      "sha256": "13001e636ee870fc52d568015be6fa52b19e3a89642b0984e8a1c1165dd3c92d"
+    },
+    {
+      "path": "qa/unit-07_media.json",
+      "bytes": 5359,
+      "sha256": "67fbf8209cd0aceda40d62f21a55ac94e37d954468552a21f65d0f8d8d8a034f"
+    }
+  ],
+  "output": {
+    "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-07-id.pdf",
+    "bytes": 4950232,
+    "sha256": "8c2cf76230b45d66a8236c0cd92a048809ff5ec0cce343132dd902684cb05ec6"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "api_authority": "https://commons.wikimedia.org/w/api.php",
+  "assets": [
+    {
+      "bytes": 466679,
+      "creator": "Präzise",
+      "filename": "Aufgabe79.27.gif",
+      "lastrevid": 1254892140,
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "pageid": 46160282,
+      "role": "interactive/downloadable source surface",
+      "sha1": "07ea94680121ec4eb2e3d1cd18315469686ef5db",
+      "sha256": "337b29d868481d65b5ad460697ad18ef0d7bcce2695125453e3d88f34a2e9e5b"
+    }
+  ],
+  "preserved_locally": true,
+  "schema_version": 1,
+  "scope": "worksheet11_exercise10_solution source-linked animation",
+  "source_link_occurrences": 1,
+  "source_solution_binding": "authority/expanded/worksheet11_exercise10_solution_source.de.tex",
+  "status": "pass",
+  "translation_surface_requirement": "retain the source link and accessible Indonesian alt text; do not silently replace the animation with a static claim",
+  "workflow": "o011-unit11-interactive-media-freeze-v1"
+}

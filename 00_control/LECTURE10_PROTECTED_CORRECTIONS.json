@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-10/lecture10.id.tex",
+  "prose_only_corrections": [
+    {
+      "correction_id": "O011-CORR-0098",
+      "anchor": "editor note immediately after the broad vector-field definition",
+      "change": "Retain the source's section-valued definition and disclose that ordinary-differential-equation existence and uniqueness theorems require the additional regularity assumed by the theorem being used."
+    },
+    {
+      "correction_id": "O011-TRANS-0103",
+      "anchor": "the two plural differentiable-manifold reference labels",
+      "change": "Normalize the malformed duplicated reader label manifold-manifold diferensiabel to manifold diferensiabel while retaining both frozen reference targets."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_ids": [
+        "O011-CORR-0093",
+        "O011-CORR-0094",
+        "O011-CORR-0095",
+        "O011-CORR-0096",
+        "O011-CORR-0097",
+        "O011-CORR-0098"
+      ],
+      "surface": "profile:commands",
+      "source_sha256": "6476d7906bc9ec82007e4b06fa41a3fe4b9526891fc3c113268809db360ab278",
+      "target_sha256": "560fc6892fea746f91a2003ec1b99ac052f35d46ae122e4a723ba6f2d3f6a3c2"
+    },
+    {
+      "correction_ids": [
+        "O011-CORR-0093",
+        "O011-CORR-0094",
+        "O011-CORR-0095",
+        "O011-CORR-0096",
+        "O011-CORR-0097"
+      ],
+      "surface": "profile:inline_math",
+      "source_sha256": "e4fd6844254315a5741b68c9590b257804f940379cd5af6ccdba503ee8415914",
+      "target_sha256": "327e185853049e6fb0e79bf627d4d02a37b09bcc2582d362efbfb6e93895ca1f"
+    },
+    {
+      "correction_ids": [
+        "O011-CORR-0093",
+        "O011-CORR-0094",
+        "O011-CORR-0095",
+        "O011-CORR-0096",
+        "O011-CORR-0097",
+        "O011-CORR-0098"
+      ],
+      "surface": "profile:brace_profile",
+      "source_sha256": "f312c087415bde19f7db8009f8c0f21ea074f448bfeddedb55a1368326762294",
+      "target_sha256": "34ee46a91fb0c247c38c8f8f6e8ae492c0bad264c9a253d6436de39ffa5f5038"
+    },
+    {
+      "correction_ids": [
+        "O011-CORR-0093",
+        "O011-CORR-0094",
+        "O011-CORR-0097"
+      ],
+      "surface": "profile:protected:maabb",
+      "source_sha256": "02d5b37b5d3fe26d8a5d1e63540cbc33e1106347ff68b81c0f9b462cbff19a8e",
+      "target_sha256": "28575bee17fef596ebd8d3a6eb5b7c968dd1d9e3443b283fb5d2fd1d55e1da90"
+    },
+    {
+      "correction_ids": [
+        "O011-CORR-0093",
+        "O011-CORR-0094",
+        "O011-CORR-0097"
+      ],
+      "surface": "profile:protected:maabbdisp",
+      "source_sha256": "a5c51b6c4e4b9aeebc633bad0fd22d89eb94b9fc223f5c1657477ffe94be9768",
+      "target_sha256": "a8180950a253a9afe89c11209487af83c84d109135514b2aa47dc5103fe666cb"
+    },
+    {
+      "correction_id": "O011-CORR-0095",
+      "surface": "protected:vergleichskette",
+      "index": 39,
+      "source_sha256": "3920bc2e16d7676cd42667c4b22c6585f075e6e9edec79999955c1f3d0252027",
+      "target_sha256": "e874c195e729984cbcb6c648a41da8715c2367a01ef51305277cc71611447b26"
+    },
+    {
+      "correction_id": "O011-CORR-0096",
+      "surface": "protected:vergleichskette",
+      "index": 42,
+      "source_sha256": "22aac1105e385a14b20dc9f776efd59fd1a86b62c1e5ad6e8618017dadb2a5c9",
+      "target_sha256": "9213ed41db54f37d1ed9895d48e180520d6392a5fb9ae24390bd487ab078603d"
+    },
+    {
+      "correction_id": "O011-CORR-0097",
+      "surface": "protected:maabbeledisp",
+      "index": 4,
+      "source_sha256": "cb309249546795e369346a1426985537f4385408cfbd97ade2db243b296a0e5e",
+      "target_sha256": "d22f353c64a3d7fc68c5003c54d357cd35aedada2b0fefbf9cd6813434e11a6f"
+    },
+    {
+      "correction_id": "O011-CORR-0094",
+      "surface": "protected:mathdisp",
+      "index": 1,
+      "source_sha256": "f7c621113b994ebf9bbf7fd7afd756975aa46c99c1e893e97968e8ad71f73de7",
+      "target_sha256": "9870305734d8c7dc5325524f4ac39535bdefc70f2b6966f474903404a97c8fe7"
+    },
+    {
+      "correction_id": "O011-CORR-0097",
+      "surface": "protected:mathdisp",
+      "index": 5,
+      "source_sha256": "40ff04f373e4426acbd9e36c76609c7f03528178a96d1c7fe56b0c010bbcc37e",
+      "target_sha256": "cdf185ee368fab507283cc68d3e8ab34ddedb5189d872962a5ac7b2ce1f5903a"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-CORR-0098",
+      "surface": "command:mavergleichskette",
+      "occurrence_index": 39,
+      "source_sha256": "90c3314a201f98ebb52a641e6e39ced5a0a2e3a024d4edbeb52892947da33fa1",
+      "target_sha256": "90c3314a201f98ebb52a641e6e39ced5a0a2e3a024d4edbeb52892947da33fa1",
+      "verification_note": "The unchanged U-subset-of-R^n comparison immediately after the editor note anchors the added regularity disclosure."
+    },
+    {
+      "correction_id": "O011-TRANS-0103",
+      "surface": "command:definitionsverweis",
+      "occurrence_index": 20,
+      "source_sha256": "1995ba6e3d82aac9ee1206de4dca1ba400d711eb19b74c9dac8b83471b3c6528",
+      "target_sha256": "7633d26bdcaae7bc0b8f39054f8e7f8a10f9aa566715096f72ab35ce19c6f61c",
+      "source_latex": "\\definitionsverweis{differenzierbareMannigfaltigkeiten}{}{}",
+      "target_latex": "\\definitionsverweis{manifolddiferensiabel}{}{}"
+    },
+    {
+      "correction_id": "O011-TRANS-0103",
+      "surface": "command:definitionsverweis",
+      "occurrence_index": 36,
+      "source_sha256": "1995ba6e3d82aac9ee1206de4dca1ba400d711eb19b74c9dac8b83471b3c6528",
+      "target_sha256": "7633d26bdcaae7bc0b8f39054f8e7f8a10f9aa566715096f72ab35ce19c6f61c",
+      "source_latex": "\\definitionsverweis{differenzierbareMannigfaltigkeiten}{}{}",
+      "target_latex": "\\definitionsverweis{manifolddiferensiabel}{}{}"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "baseline": {
+    "csv_prefix_bytes": 243301,
+    "csv_prefix_sha256": "5831a7bf3ccc0c18c4246bf713ec6e4c93958465808e7027763e53e170683997",
+    "jsonl_bytes": 702086,
+    "jsonl_sha256": "b09862d4b98c475d7e5a3bc92f1e3d72ca771d7f726350b76ab4bd68d6dde5a1",
+    "preserved_byte_identically": true,
+    "records": 1173
+  },
+  "checkpoint": "2026-08-23T18:00:00Z",
+  "checks": {
+    "all_ids_unique": true,
+    "all_references_resolve": true,
+    "canonical_jsonl": true,
+    "combined_json_schema_valid": true,
+    "correction_manifest_target_bindings_current": true,
+    "csv_projection_exact": true,
+    "immutable_prefix": true,
+    "interactive_surfaces_preserved": true,
+    "live_input_bindings_current": true,
+    "qa_receipts_current": true,
+    "reader_bound_current": true,
+    "reader_not_falsely_claimed": false,
+    "solution_hint_point_media_closure": true,
+    "source_target_segment_hashes_current": true
+  },
+  "combined_records": 1363,
+  "determinism": {
+    "first_csv_sha256": "c301009770e1c523d046585c0c83947cab6f856b32b83890d361a919fed5a958",
+    "first_jsonl_sha256": "d9d51a46b84368f50a211a31263bafe8f1588f8e62a5fa4b496b2ff45903b912",
+    "first_manifest_sha256": "1a950183a66bbc837cff27f34cf2f1fc838ad181bc4fbf16e8bd758c1df2068d",
+    "second_export_matches_first": true
+  },
+  "outputs": {
+    "manifest": {
+      "bytes": 11297,
+      "path": "backend/MANIFEST.json",
+      "sha256": "1a950183a66bbc837cff27f34cf2f1fc838ad181bc4fbf16e8bd758c1df2068d"
+    },
+    "records_csv": {
+      "bytes": 288506,
+      "path": "backend/records.csv",
+      "sha256": "c301009770e1c523d046585c0c83947cab6f856b32b83890d361a919fed5a958"
+    },
+    "records_jsonl": {
+      "bytes": 812882,
+      "path": "backend/records.jsonl",
+      "sha256": "d9d51a46b84368f50a211a31263bafe8f1588f8e62a5fa4b496b2ff45903b912"
+    }
+  },
+  "schema_version": 1,
+  "status": "pass",
+  "unit07_extension": {
+    "correction_ids": [
+      "o011-trans-0070",
+      "o011-trans-0071",
+      "o011-tex-0072"
+    ],
+    "entity_counts": {
+      "artifact": 29,
+      "asset": 5,
+      "concept": 0,
+      "correction": 3,
+      "course": 0,
+      "edition": 0,
+      "program": 0,
+      "qa_event": 16,
+      "relation": 103,
+      "resource": 0,
+      "rights": 5,
+      "segment": 4,
+      "term": 0,
+      "unit": 25
+    },
+    "exercises": 19,
+    "graded_point_total": 26,
+    "graded_point_values": [
+      3,
+      5,
+      8,
+      6,
+      4
+    ],
+    "hint_indices": [],
+    "html_status": "absent_not_claimed",
+    "interactive_assets": 2,
+    "lecture_sections": 2,
+    "model_identification": "OpenAI Codex gpt-5.6-sol, Ultra",
+    "reader_status": "final_cumulative_reader_bound",
+    "records": 190,
+    "source_solution_absent_indices": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      8,
+      9,
+      10,
+      11,
+      12,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "source_solution_indices": [
+      4,
+      7,
+      13
+    ],
+    "static_assets": 3,
+    "translation_state": "visually_checked",
+    "worksheet_sections": 2
+  },
+  "workflow": "o011-verify-backend-v7"
+}

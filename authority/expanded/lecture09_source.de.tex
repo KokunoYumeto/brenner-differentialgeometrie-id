@@ -1,0 +1,1598 @@
+\setcounter{section}{9}
+
+  \zwischenueberschrift{Der Tangentialraum einer differenzierbaren Mannigfaltigkeit}
+
+Für eine offene Menge
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und einen Punkt
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+repräsentiert der umgebende reelle Vektorraum $\R^n$ die Menge aller möglichen Richtungen in diesem Punkt. Man kann den Vektor
+
+\mavergleichskette
+{\vergleichskette
+{v
+}
+{ \in }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit dem Weg
+\maabbeledisp {} {I} {V
+} {t} { P+t v
+} {,}
+identifizieren, wobei
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein reelles Intervall derart ist, dass das Bild der Abbildung in $V$ liegt. Diesen Vektorraum nennt man den \stichwort {Tangentialraum} {} im Punkt $P$ an $V$.
+
+Für die Faser einer differenzierbaren Abbildung
+\maabb {\varphi} {G} {\R^m
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{G
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen, in einem regulären Punkt
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{G
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+haben wir den
+\definitionsverweis {Tangentialraum}{}{}
+an die Faser durch $P$ als Kern des totalen Differentials
+\maabb {\left(D\varphi\right)_{P}} {\R^n } { \R^m
+} {}
+definiert. Dadurch war der Tangentialraum ein
+\mathl{(n-m)}{-}dimensionaler Untervektorraum des umgebenden Vektorraums $\R^n$. Für unseren abstrakten Mannigfaltigkeitsbegriff gibt es einen solchen umgebenden Vektorraum nicht, in dem sich alles abspielt. Dennoch können wir auch für eine Mannigfaltigkeit in jedem Punkt einen Tangentialraum erklären. Dieser wird ein Vektorraum sein
+\zusatzklammer {dessen Dimension gleich der Dimension der Mannigfaltigkeit ist} {} {,}
+und zu einer differenzierbaren Abbildung zwischen zwei Mannigfaltigkeiten wird das totale Differential in jedem Punkt eine lineare Abbildung zwischen den Tangentialräumen sein.
+
+Wenn man für einen Punkt
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+einer differenzierbaren Mannigfaltigkeit $M$ eine offene Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{ \subseteq }{ M
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und eine Karte
+\maabbdisp {\alpha} {U} {V
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ \R^k
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+heranzieht, so liegt es nahe, diesen $\R^k$ als Tangentialraum zu betrachten. In der Tat wird es eine solche Isomorphie geben, doch als Definition ist dieser Ansatz wegen der Abhängigkeit von der gewählten Karte unbrauchbar. Stattdessen arbeiten wir mit Äquivalenzklassen von differenzierbaren Kurven.
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Tangentialvektor} {svg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Tangentialvektor.svg } {} {TN} {de Wikipedia} {PD} {}
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Punkt. Es seien
+\maabbdisp {\gamma_1} {I_1 } { M
+} {}
+und
+\maabbdisp {\gamma_2} {I_2 } { M
+} {}
+zwei auf
+\definitionsverweis {offenen Intervallen}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I_1,I_2
+}
+{ \subseteq }{ \R
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definierte
+\definitionsverweis {differenzierbare Kurven}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma_1(0)
+}
+{ = }{ P
+}
+{ = }{ \gamma_2(0)
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann heißen
+\mathkor {} {\gamma_1} {und} {\gamma_2} {}
+\definitionswort {tangential äquivalent }{} in $P$, wenn es eine offene Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und eine
+\definitionsverweis {Karte}{}{}
+\maabbdisp {\alpha} { U } { V
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+derart gibt, dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \alpha \circ \left(  \gamma_1  \vert_{\gamma_1^{-1} (U)}  \right)  \right)'(0)
+}
+{ =} { \left(  \alpha \circ \left(  \gamma_2  \vert_{\gamma_2^{-1} (U)}  \right)  \right)'(0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gilt.
+
+}
+
+Wir brauchen einige einfache Lemmata, um nachzuweisen, dass es sich hierbei um einen sinnvollen Begriff handelt.
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Differenzierbare Mannigfaltigkeit/Differenzierbare Kurve/Tangential äquivalent/Beliebige offene Umgebung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Punkt. Es seien
+\maabbdisp {\gamma_1} {I_1 } { M
+} {}
+und
+\maabbdisp {\gamma_2} {I_2 } { M
+} {}
+zwei auf
+\definitionsverweis {offenen Intervallen}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I_1,I_2
+}
+{ \subseteq }{ \R
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definierte
+\definitionsverweis {differenzierbare Kurven}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma_1(0)
+}
+{ = }{ P
+}
+{ = }{ \gamma_2(0)
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Dann sind
+\mathkor {} {\gamma_1} {und} {\gamma_2} {}
+genau dann
+\definitionsverweis {tangential äquivalent}{}{}
+in $P$, wenn für jede
+\definitionsverweis {Karte}{}{}
+\maabbdisp {\alpha} { U } { V
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Gleichheit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \alpha \circ \left(  \gamma_1  \vert_{\gamma_1^{-1} (U)}  \right)  \right)'(0)
+}
+{ =} { \left(  \alpha \circ \left(  \gamma_2  \vert_{\gamma_2^{-1} (U)}  \right)  \right)'(0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gilt.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Für eine
+\definitionsverweis {differenzierbare Kurve}{}{}
+\maabbdisp {\gamma} { I } { M
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(0)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und eine
+\definitionsverweis {Karte}{}{}
+\maabbdisp {\alpha} { U } { V
+} {}
+\zusatzklammer {mit
+
+\mavergleichskettek
+{\vergleichskettek
+{P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+ändert sich der Ausdruck
+
+\mathdisp {\left(  \alpha \circ \left(  \gamma \vert_{\gamma^{-1} (U)}  \right)  \right)'(0)} {  }
+
+nicht, wenn man zu einem kleineren offenen Intervall
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I'
+}
+{ \subseteq }{ I
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und einer kleineren offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ U'
+}
+{ \subseteq }{ U
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {mit der induzierten Karte} {} {}
+übergeht. Wir können also davon ausgehen, dass
+\mathkor {} {\gamma_1} {und} {\gamma_2} {}
+auf dem gleichen Intervall definiert sind und ihre Bilder in $U$ liegen, und dass es für dieses $U$ zwei Karten
+\maabbdisp {\alpha_1} { U } { V_1
+} {}
+und
+\maabbdisp {\alpha_2} { U } { V_2
+} {}
+gibt. Dann folgt aus
+
+\mavergleichskettedisp
+{\vergleichskette
+{ ( \alpha_1  \circ \gamma_1 )'(0)
+}
+{ =} { ( \alpha_1  \circ \gamma_2 )'(0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+nach
+der [[Totale Differenzierbarkeit/K/Kettenregel/Fakt|Kettenregel]]
+unter Verwendung der Differenzierbarkeit der
+\definitionsverweis {Übergangsabbildung}{}{}
+
+\mathl{\alpha_2 \circ \alpha_1^{-1}}{} sofort
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \left(  \alpha_2 \circ \gamma_1  \right)'(0)
+}
+{ =} { \left(  \left(  \alpha_2 \circ \alpha_1^{-1}  \right) \circ \left(  \alpha_1 \circ \gamma_1  \right)  \right)'(0)
+}
+{ =} { \left(  D   \left(   \alpha_2 \circ \alpha_1^{-1}   \right)      \right)_{\alpha_1(P)} \left(   \left(  \alpha_1 \circ \gamma_1  \right)'(0)   \right)
+}
+{ =} { \left(  D   \left(   \alpha_2 \circ \alpha_1^{-1}   \right)      \right)_{\alpha_1(P)} \left(   \left(  \alpha_1 \circ \gamma_2  \right)'(0)   \right)
+}
+{ =} { \left(  \alpha_2 \circ \gamma_2  \right)'(0)
+}
+}
+{}
+{}{.}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Differenzierbare Mannigfaltigkeit/Differenzierbare Kurve/Tangential äquivalent/Äquivalenzrelation/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Punkt.}
+\faktfolgerung {Dann ist die
+\definitionsverweis {tangentiale Äquivalenz}{}{}
+von
+\definitionsverweis {differenzierbaren Kurven}{}{}
+durch $P$ eine
+\definitionsverweis {Äquivalenzrelation}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Die Reflexiviät und die Symmetrie der Relation sind unmittelbar klar. Zum Nachweis der Transitivität seien drei
+\definitionsverweis {differenzierbare Kurven}{}{}
+\maabbdisp {\gamma_1,\gamma_2, \gamma_3} { I } { M
+} {}
+gegeben, wobei wir sofort annehmen dürfen, dass sie auf dem gleichen
+\definitionsverweis {offenen Intervall}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I
+}
+{ \subseteq }{\R
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definiert sind. Es seien
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ U_1,U_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offene Mengen, mit denen man die tangentiale Gleichheit von
+\mathkor {} {\gamma_1} {und} {\gamma_2} {}
+bzw. von
+\mathkor {} {\gamma_2} {und} {\gamma_3} {}
+nachweisen kann. Dann kann man nach
+[[Differenzierbare Mannigfaltigkeit/Differenzierbare Kurve/Tangential äquivalent/Beliebige offene Umgebung/Fakt|Lemma 9.2]]
+mit
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ = }{ U_1 \cap U_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die tangentiale Gleichheit von
+\mathkor {} {\gamma_1} {und} {\gamma_3} {}
+nachweisen.
+
+}
+
+Aufgrund dieses Lemmas ist die folgende Definition sinnvoll.
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Punkt. Unter einem \definitionswort {Tangentialvektor}{} an $P$ versteht man eine
+\definitionsverweis {Äquivalenzklasse}{}{}
+von
+\definitionsverweis {tangential äquivalenten}{}{}
+\definitionsverweis {differenzierbaren Kurven}{}{}
+durch $P$.  Die Menge dieser Tangentialvektoren wird mit
+
+\mathdisp {T_PM} {  }
+
+bezeichnet.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Differenzierbare Mannigfaltigkeit/Differenzierbare Kurve/Tangentialklassen und R^n unter Karte/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+($C^1$)-\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Punkt,
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{U
+}
+{ = }{M
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+und
+\maabbdisp {\alpha} {U} {V
+} {}
+eine
+\definitionsverweis {Karte}{}{.}}
+\faktuebergang {Dann gelten folgende Aussagen.}
+\faktfolgerung {\aufzaehlungzwei {Die
+\definitionsverweis {Abbildung}{}{}
+\maabbeledisp {} {T_pM } { \R^n
+} { [\gamma] } { \left(  \alpha \circ \gamma \vert_{\gamma^{-1}(U)}  \right)'(0)
+} {,}
+ist eine wohldefinierte
+\definitionsverweis {Bijektion}{}{.}
+} {Die durch diese Abbildung auf
+\mathl{T_pM}{} definierte
+\definitionsverweis {Vektorraumstruktur}{}{}
+ist unabhängig von der gewählten Karte.
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{(1). Die Wohldefiniertheit der Abbildung ist wegen
+[[Differenzierbare Mannigfaltigkeit/Differenzierbare Kurve/Tangential äquivalent/Beliebige offene Umgebung/Fakt|Lemma 9.2]]
+klar. Die
+\definitionsverweis {Injektivität}{}{}
+folgt unmittelbar aus der
+[[Differenzierbare Mannigfaltigkeit/Differenzierbare Kurve/Tangential äquivalent/Definition|Definition 9.1]].
+Zur
+\definitionsverweis {Surjektivität}{}{}
+sei
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Wir betrachten die
+\definitionsverweis {affin-lineare Kurve}{}{}
+\maabbeledisp {\theta} { \R } { \R^n
+} { t } { \theta(t) =  \alpha(P) + t v
+} {,}
+dessen
+\definitionsverweis {Ableitung}{}{}
+in $0$ gerade $v$ ist. Wir schränken diese Kurve auf ein Intervall
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I
+}
+{ \subseteq }{ \R
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+derart ein, dass
+
+\mavergleichskette
+{\vergleichskette
+{ \theta(I)
+}
+{ \subseteq }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist und betrachten
+\maabbdisp {\gamma = \alpha^{-1} \circ \theta} { I } { M
+} {.}
+Für diese Kurve gilt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma(0)
+}
+{ =} { \left(  \alpha^{-1} \circ \theta  \right) (0)
+}
+{ =} { \alpha^{-1} (\theta(0))
+}
+{ =} { \alpha^{-1} (\alpha(P))
+}
+{ =} { P
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \alpha \circ \gamma  \right)'(0)
+}
+{ =} { \left(  \alpha \circ \left(  \alpha^{-1} \circ \theta  \right)  \right)'(0)
+}
+{ =} { \theta'(0)
+}
+{ =} { v
+}
+{ } {
+}
+}
+{}{}{.}}
+{}
+\teilbeweis {}{}{}
+{(2). Durch Übergang zu kleineren offenen Mengen können wir annehmen, dass zwei Karten
+\maabbdisp {\alpha_1} { U } { V_1
+} {}
+und
+\maabbdisp {\alpha_2} { U } { V_2
+} {}
+vorliegen. Die
+\definitionsverweis {Übergangsabbildung}{}{}
+\maabbdisp {\alpha_2 \circ \alpha_1^{-1}} { V_1 } { V_2
+} {}
+ist ein
+$C^1$-\definitionsverweis {Diffeomorphismus}{}{}
+und für ihr
+\definitionsverweis {totales Differential}{}{}
+in
+\mathl{\alpha_1(P)}{} gilt nach
+der [[Totale Differenzierbarkeit/R/Kettenregel/Fakt|Kettenregel]]
+die Beziehung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  D(\alpha_2 \circ \alpha_1^{-1})  \right)_{\alpha_1(P)} \left(   (\alpha_1 \circ \gamma)'(0)   \right)
+}
+{ =} { (\alpha_2 \circ \gamma)'(0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Das bedeutet, dass das Diagramm
+
+\mathdisp {\begin{matrix}T_PM  & \stackrel{  }{\longrightarrow} & \R^n   & \\ &  \searrow & \downarrow & \\ & & \R^n   & \!\!\!\!\! \!\!\! , \\ \end{matrix}} {  }
+
+wobei vertikal das totale Differential zu
+\mathl{\alpha_2 \circ \alpha_1^{-1}}{} steht, kommutiert. Da das totale Differential eine
+\definitionsverweis {lineare Abbildung}{}{}
+ist, die in der gegebenen Situation bijektiv ist, macht es keinen Unterschied, ob man die Addition und die Skalarmultiplikation auf
+\mathl{T_PM}{} unter Bezug auf die obere oder die untere horizontale Abbildung definiert.}
+{}
+
+}
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Punkt. Unter dem \definitionswort {Tangentialraum}{} an $P$, geschrieben
+\mathl{T_PM}{,} versteht man die Menge der
+\definitionsverweis {Tangentialvektoren}{}{}
+an $P$ versehen mit der durch eine beliebige
+\definitionsverweis {Karte}{}{}
+gegebenen reellen
+\definitionsverweis {Vektorraumstruktur}{}{.}
+
+}
+
+Die Dimension des Tangentialraumes stimmt mit der Dimension der Mannigfaltigkeit überein. Jede Karte induziert einen Isomorphismus zwischen
+\mathl{T_P M}{} und dem $\R^n$, aber diese Isomorphismen hängen von der gewählten Karte ab. Insbesondere gibt es auf dem Tangentialraum keine Standardbasis.
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Punkt. Den
+\definitionsverweis {Dualraum}{}{}
+des
+\definitionsverweis {Tangentialraumes}{}{}
+
+\mathl{T_PM}{} an $P$ nennt man den \definitionswort {Kotangentialraum}{} an $P$.  Er wird mit
+\mathdisp {T^*_PM} {  }
+ bezeichnet.
+
+}
+
+__NOEDITSECTION__
+\inputfaktbeweis
+{Differenzierbare Mannigfaltigkeiten/Differenzierbare Abbildung/Tangential äquivalent/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es seien
+\mathkor {} {M} {und} {N} {}
+\definitionsverweis {differenzierbare Mannigfaltigkeiten}{}{}
+und es sei
+\maabbdisp {\varphi} { M } { N
+} {}
+eine
+\definitionsverweis {differenzierbare Abbildung}{}{.}
+Es sei
+\mathkor {} {P \in M} {und} {Q=\varphi(P)} {}
+und es seien
+\maabbdisp {\gamma_1,\gamma_2} { I } { M
+} {}
+zwei
+\definitionsverweis {differenzierbare Kurven}{}{}
+mit einem offenen Intervall
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma_1 (0)
+}
+{ = }{ \gamma_2(0)
+}
+{ = }{ P
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktvoraussetzung {Es seien
+\mathkor {} {\gamma_1} {und} {\gamma_2} {}
+im Punkt $P$
+\definitionsverweis {tangential äquivalent}{}{.}}
+\faktfolgerung {Dann sind auch die
+\definitionsverweis {Verknüpfungen}{}{}
+\mathkor {} {\varphi \circ \gamma_1} {und} {\varphi \circ \gamma_2} {}
+tangential äquivalent in $Q$.}
+\faktzusatz {}
+\faktzusatz {}
+
+ }
+{ Siehe [[Differenzierbare Mannigfaltigkeiten/Differenzierbare Abbildung/Tangential äquivalent/Fakt/Beweis/Aufgabe|Aufgabe 9.3]]. }
+
+Aufgrund dieses Lemmas ist der folgende Begriff wohldefiniert.
+
+\inputdefinition
+{}
+{
+
+Es seien
+\mathkor {} {M} {und} {N} {}
+\definitionsverweis {differenzierbare Mannigfaltigkeiten}{}{}
+und es sei
+\maabbdisp {\varphi} { M } { N
+} {}
+eine
+\definitionsverweis {differenzierbare Abbildung}{}{.}
+Es sei
+\mathkor {} {P \in M} {und} {Q=\varphi(P)} {.}
+Dann nennt man die Abbildung
+\maabbeledisp {} {T_PM} {T_{\varphi(P)}N
+} { [\gamma] } { [\varphi \circ \gamma]
+} {,}
+die zugehörige \definitionswort {Tangentialabbildung im Punkt}{} $P$.  Sie wird mit
+\mathl{T_P(\varphi)}{} bezeichnet.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Tangentialabbildung/Punktweise/Elementare Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es seien
+\mathkor {} {M} {und} {N} {}
+\definitionsverweis {differenzierbare Mannigfaltigkeiten}{}{}
+und es sei
+\maabbdisp {\varphi} { M } { N
+} {}
+eine
+\definitionsverweis {differenzierbare Abbildung}{}{.}
+Es sei
+\mathkor {} {P \in M} {,} {Q=\varphi(P)} {}
+und es sei
+\maabbdisp {T_P(\varphi)} {T_PM} {T_QN
+} {}
+die zugehörige
+\definitionsverweis {Tangentialabbildung}{}{.}}
+\faktuebergang {Dann gelten folgende Aussagen.}
+\faktfolgerung {\aufzaehlungsechs{Wenn
+\mathkor {} {M \subseteq \R^m} {und} {N \subseteq \R^n} {}
+\definitionsverweis {offene Teilmengen}{}{}
+sind und die Tangentialräume mit den umgebenden euklidischen Räumen identifiziert werden, so ist die Tangentialabbildung gleich dem
+\definitionsverweis {totalen Differential}{}{}
+
+\mathl{\left(D\varphi\right)_{P}}{.}
+}{Wenn
+\maabbdisp {\alpha} { U } { V
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+\maabbdisp {\beta} {U'} {W
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{Q
+}
+{ \in }{ U'
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {Karten}{}{}
+sind, so ist das Diagramm
+
+\mathdisp {\begin{matrix} T_pM & \stackrel{ T_P \varphi }{\longrightarrow} & T_QN &  \\ \downarrow & & \downarrow  & \\  \R^m  & \stackrel{ \left(D \left(  \beta \circ \varphi \circ \alpha^{-1}  \right)  \right)_{ \alpha(P)} }{\longrightarrow} & \R^n  & \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }
+
+kommutativ, wobei die vertikalen Abbildungen durch die Isomorphismen
+\mathl{[\gamma] \mapsto ( \alpha \circ \gamma)'(0)}{} bzw.
+\mathl{[\gamma] \mapsto ( \beta \circ \gamma)'(0)}{} gegeben sind.
+}{
+\mathl{T_P(\varphi)}{} ist
+$\R$-\definitionsverweis {linear}{}{.}
+}{Wenn $L$ eine weitere
+\definitionsverweis {Mannigfaltigkeit}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{R
+}
+{ \in }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+\maabbdisp {\psi} { L } { M
+} {}
+eine weitere differenzierbare Abbildung mit
+
+\mavergleichskette
+{\vergleichskette
+{ \psi(R)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist, so gilt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T_R( \varphi \circ \psi)
+}
+{ =} { T_P( \varphi) \circ T_R( \psi)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Wenn $\varphi$ ein
+\definitionsverweis {Diffeomorphismus}{}{}
+ist, dann ist
+\mathl{T_P(\varphi)}{} ein
+\definitionsverweis {Isomorphismus}{}{.}
+}{Für eine
+\definitionsverweis {differenzierbare Kurve}{}{}
+\maabbdisp {\gamma} { I } { M
+} {}
+mit einem offenen Intervall
+
+\mavergleichskette
+{\vergleichskette
+{I
+}
+{ \subseteq }{\R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(0)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt im Tangentialraum
+\mathl{T_PM}{} die Gleichheit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ [\gamma]
+}
+{ =} { (T_0(\gamma))(1)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{(1). Jeder Tangentialvektor wird repräsentiert durch einen affin-linearen Weg
+\mathl{t \mapsto \gamma(t)=P +t v}{} mit einem Vektor
+
+\mavergleichskette
+{\vergleichskette
+{v
+}
+{ \in }{\R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+sodass wir zwischen diesen Vektoren und den durch sie definierten Tangentialvektoren hin- und herwechseln können. Für den zusammengesetzten Weg
+\mathl{\varphi \circ \gamma}{} gilt nach der
+[[Totale Differenzierbarkeit/R/Kettenregel/Fakt|Kettenregel]]
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (T_P\varphi )( [\gamma ] )
+}
+{ =} { [ \varphi \circ \gamma ]
+}
+{ =} { (\varphi \circ \gamma)'(0)
+}
+{ =} { (D \varphi)_P \left( \left(  D \gamma  \right)_{ 0 } \left(   1  \right) \right)
+}
+{ =} { \left(  D\varphi  \right)_{ P } \left(  v  \right)
+}
+}
+{}{}{.}}
+{}
+\teilbeweis {}{}{}
+{(2). Die Kettenregel angewendet auf
+\zusatzklammer {wobei man $I$ und $V$ durch kleinere offene Mengen ersetzen muss} {} {}
+
+\mathdisp {I \stackrel{ \alpha \circ \gamma}{ \longrightarrow} V \stackrel{ \beta \circ \varphi \circ \alpha^{-1} }{ \longrightarrow} W} {  }
+
+liefert
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  D   \left(   \beta \circ \varphi \circ \alpha^{-1}    \right)      \right)_{ \alpha(P)} \left(   (\alpha \circ \gamma)' (0)    \right)
+}
+{ =} { ( \beta \circ ( \varphi \circ \gamma) )'(0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+was gerade die Kommutativität des Diagramms ist.}
+{}
+\teilbeweis {}{}{}
+{(3). Die Aussage folgt aus (2) und der Linearität des
+\definitionsverweis {totalen Differentials}{}{.}}
+{}
+\teilbeweis {}{}{}
+{(4). Durch Übergang zu Karten folgt dies aus (2) und der Kettenregel.}
+{}
+\teilbeweis {}{}{}
+{(5) folgt aus (4) angewendet auf die Umkehrabbildung
+\mathl{\varphi^{-1}}{.}}
+{}
+\teilbeweis {}{}{}
+{(6). Das Element
+
+\mavergleichskette
+{\vergleichskette
+{ 1
+}
+{ \in }{\R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist als Tangentenvektor an einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{a
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+als der Weg
+\mathl{s \mapsto a+s}{} zu interpretieren. Bei
+
+\mavergleichskette
+{\vergleichskette
+{a
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist dies der identische Weg. Daher ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (T_0(\gamma))(1)
+}
+{ =} { (T_0(\gamma))(\operatorname{Id})
+}
+{ =} { [\gamma \circ \operatorname{Id}]
+}
+{ =} { [\gamma ]
+}
+{ } {
+}
+}
+{}{}{.}}
+{}
+
+}
+
+\inputdefinition
+{}
+{
+
+Es seien
+\mathkor {} {M} {und} {N} {}
+\definitionsverweis {differenzierbare Mannigfaltigkeiten}{}{}
+und
+\maabbdisp {\varphi} { M } { N
+} {}
+eine
+\definitionsverweis {differenzierbare Abbildung}{}{.}
+Es sei
+\mathkor {} {P \in M} {und} {Q=\varphi(P)} {.}
+Dann nennt man die zur
+\definitionsverweis {Tangentialabbildung}{}{}
+\maabbdisp {T_P(\varphi)} { T_PM } { T_QN
+} {}
+\definitionsverweis {duale Abbildung}{}{}
+\maabbeledisp {} { T^*_QN } { T^*_PM
+} { h } { h \circ  T_P(\varphi)
+} {,}
+die \definitionswort {Kotangentialabbildung}{} im Punkt $P$.  Sie wird mit
+\mathl{T^*_P(\varphi)}{} bezeichnet.
+
+}
+
+Ausgeschrieben handelt es sich dabei um die Abbildung
+\maabbeledisp {} {T^*_QN} {T^*_PM
+} {h} {( [\gamma] \mapsto h([\varphi \circ \gamma]))
+} {.}
+
+\inputdefinition
+{}
+{
+
+Es seien
+\mathkor {} {L} {und} {M} {}
+\definitionsverweis {differenzierbare Mannigfaltigkeiten}{}{}
+und sei
+\maabbdisp {\varphi} { L } { M
+} {}
+eine
+\definitionsverweis {differenzierbare Abbildung}{}{.}
+Dann heißt $\varphi$ im Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionswort {regulär}{}
+\zusatzklammer {und $Q$ ein \definitionswort {regulärer Punkt}{} für $\varphi$} {} {,}
+wenn die
+\definitionsverweis {Tangentialabbildung}{}{}
+\maabbdisp {T_Q(\varphi)} { T_QL } { T_{\varphi(Q)}M
+} {}
+im Punkt $Q$
+\definitionsverweis {maximalen Rang}{}{}
+besitzt.
+
+}
+
+Diese Definition verallgemeinert die entsprechende
+[[Differenzierbare Abbildung/R/Regulärer Punkt/Maximaler Rang/Definition|Definition  .]]
+von euklidischen Teilmengen auf Mannigfaltigkeiten. Sie bedeutet einfach, dass bei
+
+\mavergleichskette
+{\vergleichskette
+{ \operatorname{dim} (L)
+}
+{ \geq }{  \operatorname{dim} (M)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Tangentialabbildung in $Q$ surjektiv sein muss und bei
+
+\mavergleichskette
+{\vergleichskette
+{ \operatorname{dim} (L)
+}
+{ \leq }{  \operatorname{dim} (M)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+injektiv sein muss.
+
+ [[Kategorie:Latexseite]]

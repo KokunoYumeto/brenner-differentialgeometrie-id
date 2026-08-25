@@ -1,0 +1,694 @@
+\setcounter{section}{13}
+
+  \zwischenueberschrift{Soal latihan}
+
+\definitionswort {Produk Kronecker}{}
+dari matriks-matriks
+
+\mavergleichskettedisp
+{\vergleichskette
+{ A
+}
+{ =} { \left(  a_{ij}  \right)_{1 \leq i \leq m,\, 1 \leq j \leq n}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ B
+}
+{ =} { \left(  b_{k \ell }  \right)_{1 \leq k \leq p,\, 1 \leq \ell \leq r}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+diberikan oleh
+
+\mathdisp {\left(  a_{ij} \cdot b_{k \ell}  \right)_{1 \leq i \leq m,\,     1 \leq  k \leq p;\,   1 \leq j \leq n,     \, 1 \leq \ell \leq r   }} {  }
+
+\inputaufgabegibtloesung
+{}
+{
+
+Hitunglah
+\definitionsverweis {produk Kronecker}{}{}
+dari kedua matriks
+\mathkor {} {\begin{pmatrix}  3   &   -4  \\  5  &  -2 \end{pmatrix}} {dan} {\begin{pmatrix}  -2  &   7   \\  6  &  3 \end{pmatrix}} {.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan $K$ sebuah
+\definitionsverweis {lapangan}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ A
+}
+{ =} { \left(  a_{ij}  \right)_{1 \leq i \leq m,\, 1 \leq j \leq n}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+serta
+
+\mavergleichskettedisp
+{\vergleichskette
+{ B
+}
+{ =} { \left(  b_{k \ell }  \right)_{1 \leq  k \leq p,\, 1 \leq \ell \leq r}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\definitionsverweis {matriks-matriks}{}{}
+dengan
+\definitionsverweis {pemetaan-pemetaan linear}{}{}
+yang bersesuaian
+\maabb {A} {K^n  } { K^m
+} {}
+dan
+\maabb {B} {K^r } { K^p
+} {.}
+Tunjukkan bahwa
+\definitionsverweis {produk tensor}{}{}
+dari pemetaan-pemetaan linear tersebut, terhadap basis-basis
+
+\mathbed {e_j \otimes e_\ell} {}
+ {1 \leq j \leq n,\, 1 \leq \ell \leq r} {}
+ {} {} {} {,}
+dari
+\mathl{K^n \otimes K^r}{} dan
+
+\mathbed {e_i \otimes e_k} {}
+ {1 \leq i \leq m,\, 1 \leq  k \leq p} {}
+ {} {} {} {,}
+dari
+\mathl{K^m \otimes K^p}{,}
+dideskripsikan oleh
+\definitionsverweis {produk Kronecker}{}{}
+dari $A$ dan $B$.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Tunjukkan bahwa
+\definitionsverweis {produk tensor}{}{}
+dari
+\definitionsverweis {pita Möbius}{}{}
+dengan dirinya sendiri merupakan sebuah bundel garis trivial.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+\mathkor {} {M_1} {dan} {M_2} {}
+\definitionsverweis {manifold-manifold berorientasi}{}{.}
+Tunjukkan bahwa
+\definitionsverweis {produk}{}{}
+
+\mathl{M_1 \times M_2}{} merupakan sebuah manifold berorientasi
+\zusatzklammer {dengan orientasi yang bergantung pada urutan pada \mathlk{\{1,2\}}{}} {} {.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Tunjukkan bahwa sfera berdimensi $1$, yaitu $S^1$, merupakan sebuah
+\definitionsverweis {manifold diferensiabel}{}{}
+yang
+\definitionsverweis {dapat diorientasikan}{}{.}
+
+}
+{} {}
+
+Misalkan
+\mathkor {} {M} {dan} {N} {}
+\definitionsverweis {manifold-manifold berorientasi}{}{}
+dan
+\maabbdisp {\varphi} { M } { N
+} {}
+sebuah
+\definitionsverweis {pemetaan diferensiabel}{}{.}
+Pemetaan $\varphi$ disebut \definitionswort {mempertahankan orientasi}{,} jika untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {pemetaan singgung}{}{}
+\maabbdisp {T\varphi} { T_PM } { T_{\varphi(P)} N
+} {}
+bijektif dan
+\definitionsverweis {mempertahankan orientasi}{}{.}
+
+\inputaufgabe
+{}
+{
+
+Tunjukkan bahwa
+\definitionsverweis {pemetaan antipodal}{}{}
+\maabbeledisp {\varphi} {S^1} {S^1
+} { P } { -P
+} {,}
+\definitionsverweis {mempertahankan orientasi}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan $M$ sebuah
+\definitionsverweis {manifold berorientasi}{}{.}
+Tunjukkan bahwa pemetaan pertukaran
+\maabbeledisp {\varphi} {M \times M} {M \times M
+} {(P,Q)} {(Q,P)
+} {,}
+terhadap masing-masing
+\definitionsverweis {orientasi produk}{}{,}
+tidak harus
+\definitionsverweis {mempertahankan orientasi}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan $X$ sebuah
+\definitionsverweis {ruang topologis}{}{}
+yang hanya terdiri atas
+\definitionsverweis {berhingga banyak}{}{}
+elemen. Tunjukkan bahwa $X$
+\definitionsverweis {kompak}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan $X$ sebuah
+\definitionsverweis {ruang topologis}{}{}
+dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{Y_1 , \ldots , Y_n
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {himpunan-himpunan bagian kompak}{}{.}
+Tunjukkan bahwa
+\definitionsverweis {gabungan}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ \bigcup_{i = 1}^n Y_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+juga kompak.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Misalkan $X$ sebuah
+\definitionsverweis {ruang kompak}{}{}
+dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{Y
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sebuah
+\definitionsverweis {himpunan bagian tertutup}{}{,}
+yang dilengkapi dengan
+\definitionsverweis {topologi terinduksi}{}{.}
+Tunjukkan bahwa $Y$ juga kompak.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Misalkan $X$ sebuah
+\definitionsverweis {ruang topologis}{}{}
+\definitionsverweis {kompak}{}{}
+yang tak kosong dan misalkan
+\maabbdisp {f} { X } {\R
+} {}
+sebuah
+\definitionsverweis {fungsi kontinu}{}{.}
+Tunjukkan bahwa terdapat suatu
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan
+
+\mathdisp {f(x) \geq f(x')  \text { untuk semua } x' \in X} {  }
+.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+\maabbdisp {f} {\R} {S^1
+} {}
+sebuah
+\definitionsverweis {pemetaan kontinu}{}{.}
+Tunjukkan bahwa
+\definitionsverweis {citra}{}{}
+dari $f$
+\definitionsverweis {homeomorfik}{}{}
+dengan suatu
+\definitionsverweis {interval}{}{}
+terbuka, setengah terbuka, atau tertutup, atau dengan $S^1$.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+\maabbdisp {f} {S^1} {\R
+} {}
+sebuah
+\definitionsverweis {pemetaan kontinu}{}{.}
+Tunjukkan bahwa
+\definitionsverweis {citra}{}{}
+dari $f$
+\definitionsverweis {homeomorfik}{}{}
+dengan suatu
+\definitionsverweis {interval tertutup}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Tunjukkan bahwa himpunan
+\definitionsverweis {bilangan-bilangan riil}{}{} $\R$ tidak
+\definitionsverweis {kompak terhadap tutupan}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Kita meninjau
+\definitionsverweis {bilangan-bilangan asli}{}{}
+$\N$ dan melengkapinya dengan
+\definitionsverweis {metrik diskret}{}{.}
+Tunjukkan bahwa $\N$
+\definitionsverweis {
+tertutup}{}{}
+dan
+\definitionsverweis {terbatas}{}{,}
+tetapi tidak
+\definitionsverweis {
+kompak terhadap tutupan}{}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Misalkan $X$ sebuah
+\definitionsverweis {ruang metrik}{}{}
+\definitionsverweis {kompak}{}{.}
+Tunjukkan bahwa $X$
+\definitionsverweis {
+lengkap}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Tunjukkan bahwa terdapat sebuah
+\definitionsverweis {keluarga terhitung}{}{}
+dari
+\definitionsverweis {bola-bola terbuka}{}{}
+di $\R^n$ yang membentuk sebuah
+\definitionsverweis {basis topologi}{}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Tunjukkan bahwa himpunan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { \left\{ (x,y,z) \in \R^3  \mid   x^2+y^4+z^6 = 1        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+merupakan sebuah manifold diferensiabel kompak berdimensi dua.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Misalkan $M$ sebuah manifold topologis kompak berdimensi $d$,
+
+\mavergleichskette
+{\vergleichskette
+{ d
+}
+{ \geq }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Tunjukkan bahwa terdapat sebuah himpunan bagian terbuka terbatas
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^d
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan sebuah pemetaan kontinu surjektif
+\maabbdisp {\varphi} { U } { M
+} {}.
+
+}
+{} {}
+
+  \zwischenueberschrift{Soal untuk dikumpulkan}
+
+\inputaufgabe
+{4}
+{
+
+Tunjukkan bahwa sfera berdimensi $2$, yaitu $S^2$, merupakan sebuah
+\definitionsverweis {manifold diferensiabel}{}{}
+yang
+\definitionsverweis {dapat diorientasikan}{}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{4}
+{
+
+Tunjukkan bahwa
+\definitionsverweis {pemetaan antipodal}{}{}
+\maabbeledisp {} {S^2} {S^2
+} {(x,y,z)} {(-x,-y,-z)
+} {,}
+tidak
+\definitionsverweis {mempertahankan orientasi}{}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{4}
+{
+
+Misalkan $X$ sebuah
+\definitionsverweis {ruang Hausdorff}{}{}
+dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{Y
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sebuah himpunan bagian yang dilengkapi dengan
+\definitionsverweis {topologi terinduksi}{}{.}
+Misalkan $Y$
+\definitionsverweis {kompak}{}{.}
+Tunjukkan bahwa $Y$
+\definitionsverweis {tertutup}{}{}
+di $X$.
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Misalkan
+\mathkor {} {X} {dan} {Y} {}
+\definitionsverweis {ruang-ruang topologis}{}{}
+dan misalkan
+\maabbdisp {\varphi} { X } { Y
+} {}
+sebuah
+\definitionsverweis {pemetaan kontinu}{}{.}
+Misalkan $X$
+\definitionsverweis {kompak}{}{.}
+Tunjukkan bahwa
+\definitionsverweis {citra}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi(X)
+}
+{ \subseteq }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+juga kompak.
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Misalkan $V$ sebuah
+\definitionsverweis {ruang vektor Euklides}{}{}
+ber-
+\definitionsverweis {dimensi}{}{}
+$n$ dan misalkan
+\definitionsverweis {produk}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ V^n
+}
+{ = }{ V \times \cdots \times V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dilengkapi dengan
+\definitionsverweis {topologi produk}{}{.}
+Misalkan $I$ sebuah
+\definitionsverweis {interval riil}{}{}
+dan
+\maabbdisp {\varphi} { I } { V^n
+} {}
+sebuah
+\definitionsverweis {pemetaan kontinu}{}{}
+dengan sifat bahwa
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi(t)
+}
+{ =} { (\varphi_1(t), \varphi_2(t) , \ldots , \varphi_n(t))
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan sebuah
+\definitionsverweis {basis}{}{}
+dari $V$. Tunjukkan bahwa semua basis
+
+\mathbed {\varphi(t)} {}
+ {t \in I} {}
+ {} {} {} {,}
+merepresentasikan
+\definitionsverweis {orientasi}{}{}
+yang sama pada $V$.
+
+}
+{} {}

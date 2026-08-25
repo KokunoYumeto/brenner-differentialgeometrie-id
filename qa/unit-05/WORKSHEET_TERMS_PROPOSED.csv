@@ -1,0 +1,11 @@
+id,source_de,target_id,status,note
+O011-TERM-U05-W-0001,Hauptkrümmung,kelengkungan utama,proposed,Principal curvature; singular and plural use the same Indonesian head phrase
+O011-TERM-U05-W-0002,Hauptkrümmungsrichtung,arah kelengkungan utama,proposed,Principal-curvature direction
+O011-TERM-U05-W-0003,charakteristisches Polynom,polinom karakteristik,proposed,Characteristic polynomial
+O011-TERM-U05-W-0004,Gaußkrümmung,kelengkungan Gauss,proposed,Gaussian curvature; follow the admitted ASCII Gauss spelling in Indonesian prose
+O011-TERM-U05-W-0005,partielle Ableitung,turunan parsial,proposed,Partial derivative
+O011-TERM-U05-W-0006,Gauß-Kronecker-Krümmung,kelengkungan Gauss--Kronecker,proposed,Gauss--Kronecker curvature; double hyphen is the TeX en-dash source form
+O011-TERM-U05-W-0007,Normalkrümmung,kelengkungan normal,proposed,Normal curvature
+O011-TERM-U05-W-0008,Normalebene,bidang normal,proposed,Normal plane associated with a tangent direction and the surface normal
+O011-TERM-U05-W-0009,bogenparametrisierte Kurve,kurva berparametrisasi panjang busur,proposed,Arc-length-parametrized curve; aligned with admitted Bogenparametrisierung wording
+O011-TERM-U05-W-0010,Determinante,determinan,proposed,Determinant

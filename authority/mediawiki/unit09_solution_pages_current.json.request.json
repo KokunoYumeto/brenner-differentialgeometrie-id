@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Sun, 23 Aug 2026 19:11:20 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "2-Sphäre/Tangentialvektor/Großkreis/Aufgabe/Lösung|Zylinder/Tangentialvektor/Realisierung/Aufgabe/Lösung|Differenzierbare Mannigfaltigkeiten/Differenzierbare Abbildung/Tangential äquivalent/Fakt/Beweis/Aufgabe/Lösung|R/Nicht surjektiv/Tangentialabbildung überall bijektiv/Aufgabe/Lösung|Einheitskreis/Nicht injektiv/Tangentialabbildung überall bijektiv/Aufgabe/Lösung|Tangentialraum/Addition über Karte/Nicht wohldefiniert/Aufgabe/Lösung|Trigonometrische Parametrisierung/Tangentialabbildung punktweise/Bijektiv/Aufgabe/Lösung|Mannigfaltigkeit/Differenzierbare Abbildung/Surjektiv/Tangentialabbildung im Punkt/Nicht surjektiv/Beispiel/Aufgabe/Lösung|Mannigfaltigkeit/Differenzierbare Abbildung/Injektiv/Tangentialabbildung im Punkt/Nicht injektiv/Beispiel/Aufgabe/Lösung|Differenzierbare Mannigfaltigkeit/Funktionskeim in einem Punkt/Äquivalenz und Ringstruktur/Aufgabe/Lösung|Bildtopologie/Aufgabe/Lösung|Z^n in R^n/Äquivalenzrelation/Quotient ist hausdorffsch/Aufgabe/Lösung|Komplexe Mannigfaltigkeiten/Theorieaufbau/Aufgabe/Lösung|Tangentialraum/Skalarmultiplikation/Aufgabe/Lösung|Differenzierbare Mannigfaltigkeit/Höhere tangentiale Äquivalenz/Aufgabe/Lösung|Differenzierbare Mannigfaltigkeit/Kurvenkeim/Äquivalenzrelation/Aufgabe/Lösung|R^n mod Z^n/Mannigfaltigkeitsstruktur/Differenzierbare Abbildung/Tangentialabbildung bijektiv/Aufgabe/Lösung"
+  },
+  "response_bytes": 2000,
+  "response_path": "unit09_solution_pages_current.json",
+  "response_sha256": "615081ae1f9912a0d9403ab2e41eca9dffa33989da0102775d30a63c1a48ca5b",
+  "retrieved_utc": "2026-08-23T19:11:20Z",
+  "schema_version": 1
+}

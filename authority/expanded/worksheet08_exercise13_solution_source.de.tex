@@ -1,0 +1,74 @@
+Wir betrachten Funktionen der Bauart
+\maabbeledisp {\psi_c} {[0,1]} {[0,1]
+} { x } { x + \varphi_c (x)
+} {,}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{  \varphi_c(x)
+}
+{ =} { \begin{cases}  0 \text{ für } x \leq { \frac{   1  }{  3 } } \, , \\  c \left(  x- { \frac{   1  }{  3 } }   \right)^2 \left(  x- { \frac{   2 }{  3 } }   \right)^2 \text{ für } { \frac{   1  }{  3 } } < x < { \frac{   2 }{  3 } }  \, ,  \\  0 \text{ für } x \geq { \frac{   2 }{  3 } }  \, .  \end{cases}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit einem Parameter
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{  \R_{\geq 0}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dabei ist $\varphi_c$ stetig und auch stetig differenzierbar, da die Nullstellen des Polynoms doppelt sind. Somit ist auch $\psi_c$ stetig differenzierbar. Für $c$ hinreichend klein ist $\psi_c$ streng wachsend und definiert eine stetig differenzierbare bijektive Abbildung des Einheitsintervalls in sich, die im unteren und im oberen Drittel die Identität ist.
+
+Mit $\psi_c$ definieren wir Diffeomorphismen des offenen Einheitsballes in sich, durch
+\maabbeledisp {} { U \left(   0 , 1  \right) } { U \left(   0 , 1  \right)
+} { \begin{pmatrix}  x_1  \\\vdots \\  x_n   \end{pmatrix} } { \psi_c \left(  \sqrt{  x_1^2 + \cdots + x_n^2 }  \right) \begin{pmatrix}  x_1  \\\vdots \\  x_n   \end{pmatrix}
+} {.}
+Es wird also der Punkt abhängig vom Radius gestreckt, wobei auf
+\mathl{U \left(   0 , { \frac{   1  }{  3 } }   \right)}{} und auf
+\mathl{U \left(   0 , 1  \right) \setminus  U \left(   0 ,   { \frac{   2 }{  3 } }   \right)}{} die Identität vorliegt.
+
+Wenn nun $M$ eine Mannigfaltigkeit der Dimension $\geq 1$ ist, so wählen wir eine Karte
+\maabbdisp {\alpha} { U } {V
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{  \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei wir
+\zusatzklammer {durch verkleinern} {} {}
+davon ausgehen können, dass $V$
+\zusatzklammer {ein offener Ball und dann auch} {} {}
+der offene Einheitsball ist. Die konstruierten Diffeomorphismen auf $V$ liefern Diffeomorphismen auf $U$. Da diese für den äußeren Ball
+\zusatzklammer {ab Radius ${ \frac{   2 }{  3 } }$} {} {}
+die Identität sind, kann man diese Diffeomorphismen auf $M$ durch die Identität auf $M \setminus \alpha^{-1} \left(  U \left(   0 , { \frac{   2 }{  3 } }   \right)  \right)$ diffeomorph ausdehnen.
+
+ [[Kategorie:Latexseite]]

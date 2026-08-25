@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-08/worksheet08.id.tex",
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0077",
+      "surface": "profile:commands",
+      "source_sha256": "775d568e223bc59cbb59dabb2252a6d13481e6b3b16ac8de0b34d1c1800ef9e8",
+      "target_sha256": "f74a66463b5eb263e3a2988bad27517eab317189658e23ea781276a678725c51"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-CORR-0077",
+      "surface": "command:mathl",
+      "occurrence_index": 17,
+      "source_sha256": "f9cb713ad21763ed00bdb4ccd10c1789039a2a37d08d767da16d1178c016e1c5",
+      "target_sha256": "059300a7329e642b11ac6d4ab704a71fa2e6d045346503756495884df7c857e9",
+      "source_latex": "\\mathl{b\\neq0}{}",
+      "target_latex": "\\mathl{b\\neq0,\\b=\\lambda^da}{}"
+    }
+  ]
+}

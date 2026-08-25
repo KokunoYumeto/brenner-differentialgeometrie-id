@@ -1,0 +1,431 @@
+{
+  "exercise_count": 19,
+  "exercises": [
+    {
+      "exercise_index": 1,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Einheitssphäre/Abstände in Standardkarten/Differenz/Aufgabe/Lösung",
+      "task_title": "Einheitssphäre/Abstände in Standardkarten/Differenz/Aufgabe"
+    },
+    {
+      "exercise_index": 2,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Halboffenes Intervall/Keine topologische Mannigfaltigkeit/Aufgabe/Lösung",
+      "task_title": "Halboffenes Intervall/Keine topologische Mannigfaltigkeit/Aufgabe"
+    },
+    {
+      "exercise_index": 3,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Halboffenes Intervall/Kreis/Stetige Bijektion/Kein Homöomorphismus/Aufgabe/Lösung",
+      "task_title": "Halboffenes Intervall/Kreis/Stetige Bijektion/Kein Homöomorphismus/Aufgabe"
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 1641,
+        "path": "authority/mediawiki/worksheet07_exercise04_solution_revid983203.utf8.b64",
+        "sha256": "5b4de937ed8c5bf8c34060ba465ca96e56d32af7a0bc196b22e12366bc05df66"
+      },
+      "exercise_index": 4,
+      "exists": true,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 977,
+        "http_date": "Sun, 23 Aug 2026 17:05:39 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Eindimensionale Mannigfaltigkeiten/R, 1-Sphäre, R punktiert/Nicht homöomorph/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 732,
+          "path": "authority/exports/worksheet07_exercise04_solution_latex_expand.json.request.json",
+          "sha256": "41b210792bfb14a8cdf3270368ee8063ccb45194b9ee1ab92d2982480ed20881"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 1158,
+          "path": "authority/exports/worksheet07_exercise04_solution_latex_expand.json",
+          "sha256": "2705a260c2f1c2f9c76cd28d4b6db5f7e7353c3073ba418d35c61fd1d8b76bdc"
+        },
+        "retrieved_utc": "2026-08-23T17:05:40Z",
+        "sanitized_source": {
+          "bytes": 890,
+          "path": "authority/expanded/worksheet07_exercise04_solution_source.de.tex",
+          "sha256": "c57b0b7199b5d2bb508e59b111364084a352a144b9ab293ff1e9e402c6aa9f9c"
+        },
+        "sanitizer": {
+          "bytes": 3113,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+        },
+        "sanitizer_receipt": {
+          "bytes": 711,
+          "path": "qa/unit-07/worksheet07_exercise04_solution_sanitize.json",
+          "sha256": "a0561b27fadb07728bfb32780ddaa983ee1f8d93c1affaf6cf74e5c41291145c"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "fdc35a899367042f81698370e438e963dc51bdfd",
+      "metadata": {
+        "bytes": 1269,
+        "path": "authority/mediawiki/worksheet07_exercise04_solution_revid983203.metadata.json",
+        "sha256": "08e246878273c9614e4668f0c3f775244d31f35cdf3a904e9b7cbdf7fe5c854b"
+      },
+      "pageid": 46315,
+      "parentid": 958154,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 1229,
+        "path": "authority/mediawiki/worksheet07_exercise04_solution_revid983203.wiki",
+        "sha256": "a104ff376c35ddf247a5caa34d5bf99658a61e08b5f229f3a49fdd59da1072d1"
+      },
+      "revid": 983203,
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Eindimensionale Mannigfaltigkeiten/R, 1-Sphäre, R punktiert/Nicht homöomorph/Aufgabe/Lösung",
+      "source_utf8_bytes": 1228,
+      "source_utf8_sha256": "c98d6728b46c37eeae4496544342de94a5f562c8eb1c635f8b586950e9f19c30",
+      "task_title": "Eindimensionale Mannigfaltigkeiten/R, 1-Sphäre, R punktiert/Nicht homöomorph/Aufgabe",
+      "timestamp": "2025-01-21T22:04:43Z"
+    },
+    {
+      "exercise_index": 5,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Sinus 1 durch x/Keine Mannigfaltigkeit/Aufgabe/Lösung",
+      "task_title": "Sinus 1 durch x/Keine Mannigfaltigkeit/Aufgabe"
+    },
+    {
+      "exercise_index": 6,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Offener euklidischer Ball/Diffeomorph zu R^n/Aufgabe/Lösung",
+      "task_title": "Offener euklidischer Ball/Diffeomorph zu R^n/Aufgabe"
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 2801,
+        "path": "authority/mediawiki/worksheet07_exercise07_solution_revid1089359.utf8.b64",
+        "sha256": "3a624a7a8f72e7eee114e978b6ca049e75d76b7edcc084da5407773784ba09d6"
+      },
+      "exercise_index": 7,
+      "exists": true,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 1804,
+        "http_date": "Sun, 23 Aug 2026 17:05:40 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Einheitssphäre/Beschreibung von offenen Halbsphären/Nicht von 3 überdeckt/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 730,
+          "path": "authority/exports/worksheet07_exercise07_solution_latex_expand.json.request.json",
+          "sha256": "0c9a5487cf450b96e917cf0337f44496575452dc9730706aac0c9f93c1a64cdb"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 2011,
+          "path": "authority/exports/worksheet07_exercise07_solution_latex_expand.json",
+          "sha256": "d79c9dd538ce0a00aa680bcb5eef32f3a32c99251c36f3fd97e8fada8813f216"
+        },
+        "retrieved_utc": "2026-08-23T17:05:40Z",
+        "sanitized_source": {
+          "bytes": 1647,
+          "path": "authority/expanded/worksheet07_exercise07_solution_source.de.tex",
+          "sha256": "b56174176937645ce2ca223c9cd33c4a414612b1ff24017684e56ed1c04b01d2"
+        },
+        "sanitizer": {
+          "bytes": 3113,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+        },
+        "sanitizer_receipt": {
+          "bytes": 713,
+          "path": "qa/unit-07/worksheet07_exercise07_solution_sanitize.json",
+          "sha256": "59ddd6f4ea73e395bcaf12ddff7d7f97d1334aeb6a4b9c57c7aa02e077a4cd76"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "0dfee11407eb695a67c1d764c0e768ce1ec849c2",
+      "metadata": {
+        "bytes": 1271,
+        "path": "authority/mediawiki/worksheet07_exercise07_solution_revid1089359.metadata.json",
+        "sha256": "370f5d53aa003c46fddba3b92b857658cfa8fcf7db62f87452150006ab83775f"
+      },
+      "pageid": 44423,
+      "parentid": 1023051,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 2099,
+        "path": "authority/mediawiki/worksheet07_exercise07_solution_revid1089359.wiki",
+        "sha256": "13a01659129e932918749721722545350301753d8f7d1731d8786987064f6621"
+      },
+      "revid": 1089359,
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Einheitssphäre/Beschreibung von offenen Halbsphären/Nicht von 3 überdeckt/Aufgabe/Lösung",
+      "source_utf8_bytes": 2098,
+      "source_utf8_sha256": "ed5e826945c7a0a45890e9c55960b27f738c6963c213f8f3a96014a445413315",
+      "task_title": "Einheitssphäre/Beschreibung von offenen Halbsphären/Nicht von 3 überdeckt/Aufgabe",
+      "timestamp": "2026-05-31T10:16:52Z"
+    },
+    {
+      "exercise_index": 8,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Mannigfaltigkeit/Zylinder/Punktierte Ebene/Sphäre ohne Pole/Aufgabe/Lösung",
+      "task_title": "Mannigfaltigkeit/Zylinder/Punktierte Ebene/Sphäre ohne Pole/Aufgabe"
+    },
+    {
+      "exercise_index": 9,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Rotationsmenge/Positive Funktion oder Nullstelle/Mannigfaltigkeit/Aufgabe/Lösung",
+      "task_title": "Rotationsmenge/Positive Funktion oder Nullstelle/Mannigfaltigkeit/Aufgabe"
+    },
+    {
+      "exercise_index": 10,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Mannigfaltigkeit/Zusammenhängend/Wegzusammenhängend/Aufgabe/Lösung",
+      "task_title": "Mannigfaltigkeit/Zusammenhängend/Wegzusammenhängend/Aufgabe"
+    },
+    {
+      "exercise_index": 11,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Mannigfaltigkeit/Übergangsabbildungen/Kozykelbedingung/Aufgabe/Lösung",
+      "task_title": "Mannigfaltigkeit/Übergangsabbildungen/Kozykelbedingung/Aufgabe"
+    },
+    {
+      "exercise_index": 12,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Einheitskugel/Kozykelbedingung für Standardkarten/Aufgabe/Lösung",
+      "task_title": "Einheitskugel/Kozykelbedingung für Standardkarten/Aufgabe"
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 421,
+        "path": "authority/mediawiki/worksheet07_exercise13_solution_revid928708.utf8.b64",
+        "sha256": "c45dcf08f5e36d84768aec38ab3e1630773d9a6fed903197bab5362639cedc5b"
+      },
+      "exercise_index": 13,
+      "exists": true,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 336,
+        "http_date": "Sun, 23 Aug 2026 17:05:40 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Einheitssphäre/Nordpol und (1,0,0)/Abstand längs Ebenenschnitt/Animation/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 727,
+          "path": "authority/exports/worksheet07_exercise13_solution_latex_expand.json.request.json",
+          "sha256": "28f03adcd5d9713eb022ef9142e70a50c49ef9c7bb8e5a857b4fcb867c450f83"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 445,
+          "path": "authority/exports/worksheet07_exercise13_solution_latex_expand.json",
+          "sha256": "9a83c3be71e612f583a3a1440d56849369f27c97d1590992ea7969afb9f1cd2c"
+        },
+        "retrieved_utc": "2026-08-23T17:05:40Z",
+        "sanitized_source": {
+          "bytes": 339,
+          "path": "authority/expanded/worksheet07_exercise13_solution_source.de.tex",
+          "sha256": "34f24a751ae2c0b2913ba12460ac758f5f28fd50bb915b26da103a808abd1df8"
+        },
+        "sanitizer": {
+          "bytes": 3113,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+        },
+        "sanitizer_receipt": {
+          "bytes": 710,
+          "path": "qa/unit-07/worksheet07_exercise13_solution_sanitize.json",
+          "sha256": "be928af2eb569b1c9e7a05fbc868e81fb9932c89fc9c2aa370eca667b803258c"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "eca8786fa6bd62219988b2cd41133ded0fc84942",
+      "metadata": {
+        "bytes": 1262,
+        "path": "authority/mediawiki/worksheet07_exercise13_solution_revid928708.metadata.json",
+        "sha256": "b7a544f374bdd77341f307434d5cd687130380db77a073901376951d194f11b9"
+      },
+      "pageid": 77668,
+      "parentid": 441171,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 314,
+        "path": "authority/mediawiki/worksheet07_exercise13_solution_revid928708.wiki",
+        "sha256": "5702751536979408e9b4b2c6e616fc16c3318f294173e45199ca36c80b421583"
+      },
+      "revid": 928708,
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Einheitssphäre/Nordpol und (1,0,0)/Abstand längs Ebenenschnitt/Animation/Aufgabe/Lösung",
+      "source_utf8_bytes": 313,
+      "source_utf8_sha256": "e02acdce203af7baca26b0d2b28fd4c47baad35a36e14e0ca3a96309f3cbbea1",
+      "task_title": "Einheitssphäre/Nordpol und (1,0,0)/Abstand längs Ebenenschnitt/Animation/Aufgabe",
+      "timestamp": "2024-01-30T13:37:28Z"
+    },
+    {
+      "exercise_index": 14,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Geschenkpapier/Verkleben/Mannigfaltigkeit/Aufgabe/Lösung",
+      "task_title": "Geschenkpapier/Verkleben/Mannigfaltigkeit/Aufgabe"
+    },
+    {
+      "exercise_index": 15,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 3,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Einheitssphäre/Großkreise durch Pole/Bild unter stereographischer Projektion/Aufgabe/Lösung",
+      "task_title": "Einheitssphäre/Großkreise durch Pole/Bild unter stereographischer Projektion/Aufgabe"
+    },
+    {
+      "exercise_index": 16,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 5,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Einheitssphäre/Metrik über Großkreis/Aufgabe/Lösung",
+      "task_title": "Einheitssphäre/Metrik über Großkreis/Aufgabe"
+    },
+    {
+      "exercise_index": 17,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 8,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Einheitssphäre/Nordpol und (1,0,0)/Abstand längs Ebenenschnitt/Abhängigkeit vom Winkel/Aufgabe/Lösung",
+      "task_title": "Einheitssphäre/Nordpol und (1,0,0)/Abstand längs Ebenenschnitt/Abhängigkeit vom Winkel/Aufgabe"
+    },
+    {
+      "exercise_index": 18,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 6,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Injektive stetige Abbildung/R nach S^2/Bild unendliche Länge/Pole als Limiten/Aufgabe/Lösung",
+      "task_title": "Injektive stetige Abbildung/R nach S^2/Bild unendliche Länge/Pole als Limiten/Aufgabe"
+    },
+    {
+      "exercise_index": 19,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 4,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Achsenkreuz/Keine topologische Mannigfaltigkeit/Aufgabe/Lösung",
+      "task_title": "Achsenkreuz/Keine topologische Mannigfaltigkeit/Aufgabe"
+    }
+  ],
+  "graded_exercise_count": 5,
+  "macro_api_agreement": true,
+  "missing_solution_count": 16,
+  "point_value_total": 26,
+  "practice_exercise_count": 14,
+  "query": {
+    "bytes": 6646,
+    "path": "authority/mediawiki/unit07_solution_pages_current.json",
+    "sha256": "01f031c98780b34b53ded53795f218b9339dfab69e991dfa151fde4afd23403e"
+  },
+  "query_request_receipt": {
+    "bytes": 2083,
+    "path": "authority/mediawiki/unit07_solution_pages_current.json.request.json",
+    "sha256": "c2be34c32dff0d4b81b1d36fa2043506924fdb4cb870b903411bcf599096f906"
+  },
+  "query_retrieved_utc": "2026-08-23T17:05:39Z",
+  "schema_version": 1,
+  "supplied_solution_count": 3,
+  "supplied_solution_indices": [
+    4,
+    7,
+    13
+  ],
+  "workflow": "o011-unit07-solution-freeze-v1",
+  "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 7"
+}

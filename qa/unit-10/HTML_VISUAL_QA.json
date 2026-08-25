@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-browser-visual-qa-v10",
+  "status": "pass",
+  "checked_at": "2026-08-23T21:15:46Z",
+  "surface": {
+    "path": "output/html/unit-10/index.html",
+    "bytes": 710428,
+    "sha256": "125688aadaade39ded86fb42adc8bfa74005a7fca66623a4c419c79ab36d52d4",
+    "manifest_path": "output/html/unit-10/manifest.json",
+    "manifest_bytes": 32562,
+    "manifest_sha256": "c9d6b7ce87feeb7c1621d0ac25e8b4ef3639a2e95140ef4ffe6f330a40b62e8e",
+    "structural_qa_path": "qa/unit-10/HTML_READER_QA.json",
+    "structural_qa_sha256": "b5af7e5e5192b2c19aaeb940907cce58c8340f294d694f130965545d2c1defb9"
+  },
+  "render_checks": {
+    "desktop_viewport_css_pixels": [1265, 720],
+    "mobile_requested_viewport_css_pixels": [390, 844],
+    "mobile_effective_content_viewport_css_pixels": [375, 829],
+    "desktop_body_horizontal_overflow_pixels": 0,
+    "mobile_body_horizontal_overflow_pixels": 2,
+    "mobile_overflow_interpretation": "The two-pixel document difference is the browser scrollbar/gutter; reader cards remain within x=16..359.11 of the 375-pixel content viewport.",
+    "wide_display_math_containers": 179,
+    "uncontained_wide_math": 0,
+    "deep_link_test": {
+      "target": "#o011-brenner-u10",
+      "desktop_target_top_css_pixels": 79.94,
+      "mobile_target_top_css_pixels": 79.85,
+      "post_typesetting_delay_milliseconds": 4200,
+      "result": "pass"
+    },
+    "unit_10_figures": [
+      {
+        "id": "o011-brenner-u10-l10-fig-001",
+        "natural_pixels": [400, 1027],
+        "loaded": true,
+        "caption_and_rights_visible": true
+      },
+      {
+        "id": "o011-brenner-u10-l10-fig-002",
+        "natural_pixels": [2038, 1730],
+        "loaded": true,
+        "caption_and_rights_visible": true
+      }
+    ],
+    "representative_views": [
+      "reader masthead and Unit 1 navigation",
+      "Unit 10 heading and first definition",
+      "Unit 10 tangent-bundle figure with caption and rights",
+      "Unit 10 torus-vector-field figure with caption",
+      "mobile Unit 10 definition and display mathematics"
+    ]
+  },
+  "checks": {
+    "centered_reading_column": true,
+    "responsive_reflow": true,
+    "reader_cards_within_mobile_viewport": true,
+    "wide_math_horizontally_scrollable_inside_own_containers": true,
+    "stable_hash_navigation_after_optional_typesetting": true,
+    "representative_media_loaded": true,
+    "captions_and_component_rights_visible": true,
+    "dark_color_scheme_legible": true,
+    "no_clipping_or_overlap_observed": true
+  },
+  "implementation": {
+    "exporter_path": "scripts/export_html_v10.py",
+    "exporter_sha256": "1ce772bd156f211d33335650f93234379290dc444073e8691572807d95b31a5c",
+    "verifier_path": "scripts/verify_html_v10.py",
+    "verifier_sha256": "00951165f42221f0dd7feeb14778e4dc6098cf6631efed8a5514c5821a660e43",
+    "deep_link_repair": "A bounded local stabilizer realigns an existing hash after load, font settlement, optional MathJax layout, and hash changes. It performs no network request and changes no content."
+  },
+  "limitations": [
+    "MathJax 3.2.2 is an optional pinned CDN dependency; without it, the visible and selectable TeX source remains the offline fallback.",
+    "Only representative visual surfaces were sampled manually; exhaustive structure, IDs, links, assets, formula delimiters, rights, and content topology are covered by the deterministic HTML verifier."
+  ]
+}

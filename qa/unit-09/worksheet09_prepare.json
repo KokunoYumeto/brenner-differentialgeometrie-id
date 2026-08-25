@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-09/worksheet09.id.tex",
+  "input_bytes": 10331,
+  "input_sha256": "4079437947ab31c9216e3ee6059badc8cf7d780ead1df93cd5cfb6f1cd7d3e9d",
+  "output": "build/generated/worksheet09.id.build.tex",
+  "output_bytes": 10304,
+  "output_sha256": "62f6edc9044117566c7a763a296654e83eb201b3ae59589276052d42ada0896b",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [],
+  "rendered_interactive_gif_links": []
+}

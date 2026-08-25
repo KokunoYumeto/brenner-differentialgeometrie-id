@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-html-browser-qa-v13",
+  "generated_at": "2026-08-24T22:50:00+02:00",
+  "status": "pass",
+  "scope": "Real-browser desktop and mobile validation of the cumulative Indonesian semantic HTML reader through Unit 13 after correcting the MathJax delimiter configuration.",
+  "surface": {
+    "path": "output/html/unit-13/index.html",
+    "bytes": 942593,
+    "sha256": "994c6caf59d87638b3b78583cc9765c2dd8feba42a1ba2ab2c2a9e02d068ebc8",
+    "manifest_path": "output/html/unit-13/manifest.json",
+    "manifest_bytes": 78936,
+    "manifest_sha256": "8e4cd88db27d77eb4f764aa71816ef15bf758387ccb050e99f383eb741db87da",
+    "structural_qa_path": "qa/unit-13/HTML_READER_QA.json",
+    "structural_qa_sha256": "8790767d395fc994779d4e349c38d3d99e8828c782ebf69ab32fa020d4d869d2"
+  },
+  "runtime": {
+    "browser": "Codex in-app Chromium browser",
+    "served_from": "bounded task-local HTTP server on 127.0.0.1",
+    "mathjax_containers": 4598,
+    "mathjax_errors": 0,
+    "console_errors": 0
+  },
+  "desktop": {
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "document_scroll_width": 1265,
+      "page_has_horizontal_overflow": false
+    },
+    "unit_navigation_links": 13,
+    "math_hosts": 4598,
+    "mathjax_containers": 4598,
+    "mathjax_errors": 0,
+    "images": 21,
+    "images_missing_alt": 0,
+    "failed_images_after_all_figures_loaded": [],
+    "id_count": 624,
+    "unique_id_count": 624
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "document_scroll_width": 377,
+      "page_has_horizontal_overflow": false
+    },
+    "title_reflows_inside_viewport": true,
+    "navigation": {
+      "client_width": 375,
+      "scroll_width": 936,
+      "overflow_x": "auto",
+      "horizontally_scrollable": true
+    },
+    "math_hosts": 4598,
+    "mathjax_containers": 4598,
+    "mathjax_errors": 0,
+    "internally_scrollable_long_math_hosts": 230,
+    "uncontained_math_overflow": 0,
+    "images": 21,
+    "images_missing_alt": 0
+  },
+  "animation": {
+    "embedded_animation_figures": 1,
+    "initial_state": "stopped",
+    "initial_surface": "assets/media/Fiddler_crab_mobius_strip.png",
+    "play_control_changed_state_to_playing": true,
+    "play_control_selected_canonical_gif": true,
+    "stop_control_restored_static_frame": true,
+    "play_and_stop_controls_are_native_buttons": true,
+    "reduced_motion_contract": {
+      "path": "qa/unit-12/HTML_ANIMATED_MEDIA_QA.json",
+      "bytes": 3506,
+      "sha256": "0b84a482e4b5af062a87535eb80b23ca47dc13afd82d04546f4c84ac8907a32e",
+      "status": "previously bounded and unchanged in the cumulative controller"
+    }
+  },
+  "visual_samples": {
+    "desktop_title_navigation_and_about": "pass",
+    "desktop_unit13_display_math_and_typography": "pass",
+    "mobile_title_navigation_and_about": "pass",
+    "mobile_unit13_display_math_and_reflow": "pass"
+  },
+  "checks": {
+    "all_formula_hosts_typeset_one_to_one": true,
+    "zero_mathjax_runtime_errors": true,
+    "zero_browser_console_errors": true,
+    "desktop_reader_is_centered_and_readable": true,
+    "mobile_reader_reflows_without_page_overflow": true,
+    "long_mobile_math_is_locally_scrollable": true,
+    "all_loaded_media_resolve": true,
+    "all_images_have_alt_text": true,
+    "animation_static_first_play_stop_cycle_passes": true,
+    "temporary_viewport_override_reset": true,
+    "task_local_browser_tab_and_server_closed": true
+  }
+}

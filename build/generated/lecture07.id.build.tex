@@ -1,0 +1,973 @@
+\setcounter{section}{7}
+
+  \zwischenueberschrift{Konsep sebuah manifold}
+
+Dalam geometri diferensial, gagasan tentang manifold berada di pusat pembahasan. Sebagai contoh, kita meninjau Bumi
+\zusatzklammer {permukaannya} {} {,}
+yang dalam sejarah ilmu pengetahuan lama dianggap sebagai sebuah cakram, dan ada alasan yang baik untuk itu. Secara lokal Bumi tampak seperti sebuah bidang. Hal ini juga tercermin dalam peta yang dibuat tentangnya. Sebuah peta adalah sebuah \anfuehrung{lembaran}{,} yang titik-titiknya berada dalam bijeksi dengan suatu bagian permukaan Bumi. Khususnya untuk bagian-bagian kecil hal ini tidak bermasalah, tetapi pada peta yang harus menggambarkan bagian besar atau bahkan seluruh Bumi segera muncul pertanyaan tentang apa yang dipertahankan oleh peta dan apa yang tidak: pertanyaan tentang pelestarian panjang, pelestarian luas, pelestarian sudut, titik-titik yang hilang atau muncul berkali-kali, pertanyaan perpanjangan, pertanyaan kelengkungan, dan seterusnya.
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Stereographic_projection_in_3D} {png} }
+\end{center}
+\bildtext {Proyeksi stereografis ketika bidang tidak diletakkan melalui khatulistiwa, melainkan melalui Kutub Selatan.} }
+
+\bildlizenz { Stereographic projection in 3D.png } {} {Mark.Howison} {en.Wikipedia} {PD} {}
+
+Mula-mula kita membahas \stichwort {proyeksi stereografis} {} dari permukaan bola.
+
+\inputbeispiel{
+}
+{
+
+Kita meninjau permukaan bola
+
+\mavergleichskettedisp
+{\vergleichskette
+{ K
+}
+{ =} { \left\{ (x,y,z)  \mid   x^2+y^2+z^2 = 1        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan menyebut titik
+
+\mavergleichskette
+{\vergleichskette
+{ N
+}
+{ = }{ (0,0,1)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sebagai Kutub Utara dan titik
+
+\mavergleichskette
+{\vergleichskette
+{ S
+}
+{ = }{ (0,0,-1)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sebagai Kutub Selatan. Sebuah titik
+
+\mathbed {P=(x,y,z) \in K} {}
+ {P \neq N} {}
+ {} {} {} {,}
+bersama Kutub Utara menentukan sebuah garis tunggal di ruang, yang diparameterkan oleh
+
+\mathdisp {(tx,ty ,1+t(z-1))=(0,0,1)  + t ((x,y,z) -(0,0,1)), \, t \in \R} { , }
+
+Vektor \mathl{(x,y,z) -(0,0,1)}{,} yang menentukan garis ini, tidak sejajar dengan bidang $x-y$; artinya garis tersebut mempunyai tepat satu titik potong dengan bidang ini. Titik itu diperoleh untuk parameter
+
+\mavergleichskettedisp
+{\vergleichskette
+{ t
+}
+{ =} { { \frac{   1  }{  1-z } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+yaitu titik
+
+\mathdisp {\left(  { \frac{   x  }{  1-z  } }, { \frac{   y  }{  1-z  } } ,0  \right)} { . }
+
+Kita rangkum konstruksi ini sebagai pemetaan
+\maabbeledisp {\alpha} {K \setminus \{N\}} { \R^2
+} {(x,y,z)} { \left(  { \frac{   x  }{  1-z  } }, { \frac{   y  }{  1-z  } }  \right)
+} {}
+Pemetaan ini secara intuitif jelas merupakan bijeksi, dan hal tersebut juga mudah dihitung dari rumus-rumusnya. Pemetaan invers diperoleh dengan menghubungkan sebuah titik \mathl{(u,v,0)}{} di bidang dengan Kutub Utara, lalu menghitung titik tembusnya $\neq N$ dengan permukaan bola. Hal ini menghasilkan syarat
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \Vert {(0,0,1) +a((u,v,0) - (0,0,1) ) } \Vert^2
+}
+{ =} { \Vert {(au,av,1-a) } \Vert^2
+}
+{ =} { a^2u^2+a^2v^2+(1-a)^2
+}
+{ =} { 1
+}
+{ } {
+}
+}
+{}
+{}{,}
+yang berujung pada
+
+\mavergleichskettedisp
+{\vergleichskette
+{ a \left(  au^2+av^2 -2 +a  \right)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+Solusinya adalah
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+yang bersesuaian dengan Kutub Utara dan tidak kita minati, sehingga kita memperoleh
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ = }{ { \frac{   2  }{ u^2+v^2+1 } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan dengan demikian pemetaan
+\maabbeledisp {} { \R^2 } { K \setminus \{N\}
+} { (u,v) } { \left(  { \frac{   2u }{ u^2+v^2+1 } }, { \frac{   2v }{ u^2+v^2+1 } } ,1- { \frac{   2  }{ u^2+v^2+1 } }  \right)
+} {.}
+Jadi bidang riil adalah \definitionsverweis {homeomorf}{}{} dengan permukaan bola yang \anfuehrung{dilubangi}{} pada satu titik.
+
+Pertimbangan yang sama dapat dilakukan untuk \mathl{K \setminus \{S\}}{}. Hal ini menghasilkan pemetaan
+\maabbeledisp {\beta} { K \setminus \{S\} } { \R^2
+} { (x,y,z) } { \left(  { \frac{   x  }{ z+1 } }, { \frac{   y  }{ z+1 } }  \right)
+} {}
+dengan pemetaan invers
+\maabbeledisp {} { \R^2 } { K \setminus \{S\}
+} { (s,t) } { \left(  { \frac{   2s }{ s^2+t^2+1 } }, { \frac{   2t }{ s^2+t^2+1 } }, -1+ { \frac{   2  }{ s^2+t^2+1 } }  \right)
+} {.}
+Kutub Selatan dipetakan ke pusat bidang Euklides oleh pemetaan pertama, sedangkan Kutub Utara dipetakan ke pusat bidang Euklides oleh pemetaan kedua. Kita menyebut kedua pemetaan, maupun pemetaan inversnya, sebagai peta. Kedua peta tersebut bersama-sama menutupi seluruh permukaan bola. Karena merupakan homeomorfisme, keduanya mempertahankan sifat-sifat topologis utama bola. Keduanya tidak cocok untuk geografi Bumi karena peta membutuhkan seluruh bidang dan sangat mendistorsi panjang.
+
+Kedua peta itu sama baiknya. Titik-titik \zusatzklammer {dan secara umum gambar-gambar lain} {} {} pada satu peta dapat dengan mudah diubah ke peta yang lain. Namun, perlu diperhatikan bahwa kedua kutub hanya muncul pada salah satu peta. Titik-titik dari himpunan \mathl{K \setminus \{N,S\}}{} terdapat pada kedua peta, dan melalui keduanya berada dalam bijeksi dengan bidang yang dilubangi di pusatnya, \mathl{\R^2 \setminus \{0\}}{.} Pemetaan \stichwort {transisi} {} \zusatzklammer {atau \stichwort {pergantian peta} {}} {} {} diberikan oleh
+
+\mavergleichskette
+{\vergleichskette
+{ \psi
+}
+{ = }{ \beta \circ \left(  \alpha^{-1}\!\mid_{\R^2 \setminus \{0\} }  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+Selanjutnya,
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \psi(u,v)
+}
+{ =} { \beta \left(  { \frac{   2u }{ u^2+v^2+1 } }, { \frac{   2v }{ u^2+v^2+1 } } ,1- { \frac{   2  }{ u^2+v^2+1 } }  \right)
+}
+{ =} { \left(  { \frac{   { \frac{   2u }{ u^2+v^2+1 } }  }{  2 - { \frac{   2  }{ u^2+v^2+1 } }  } } , { \frac{   { \frac{   2v }{ u^2+v^2+1 } }  }{  2 - { \frac{   2  }{ u^2+v^2+1 } }  } }  \right)
+}
+{ =} { \left(  { \frac{   { \frac{   u  }{ u^2+v^2+1 } }  }{  { \frac{  (u^2+v^2+1) -1  }{ u^2+v^2+1 } }  } } , { \frac{   { \frac{   v  }{ u^2+v^2+1 } }  }{  { \frac{  (u^2+v^2+1) -1  }{ u^2+v^2+1 } }  } }  \right)
+}
+{ =} { \left(  { \frac{   u  }{ u^2+v^2  } } , { \frac{   v  }{ u^2+v^2 } }  \right)
+}
+}
+{}
+{}{.}
+Pemetaan transisi ini tidak hanya menginduksi homeomorfisme antara \mathl{\R^2 \setminus \{0\}}{} dengan \mathl{\R^2 \setminus \{0\}}{\zusatzfussnote {Sebaiknya di sini tidak dikatakan \anfuehrung{dengan dirinya sendiri}{} karena kedua bidang peta sebaiknya dibayangkan sebagai bidang yang independen. Hubungan di antara keduanya muncul semata-mata karena keduanya menggambarkan permukaan bola yang sama} {.} {,}} sebagaimana langsung mengikuti dari fakta bahwa kedua pemetaan peta \mathkor {} {\alpha} {dan} {\beta} {} adalah homeomorfisme, melainkan bahkan sebuah \definitionsverweis {difeomorfisme}{}{.} Ini langsung terlihat dari rumusnya; tetapi tidak masuk akal mengatakan bahwa pemetaan peta adalah difeomorfisme, karena permukaan bola bukan himpunan terbuka di dalam $\R^3$. Yang masih kurang adalah sebuah \anfuehrung{struktur diferensiabel}{} pada permukaan ini agar kita dapat berbicara tentang difeomorfisme.
+
+}
+Sebuah \stichwort {manifold} {} adalah suatu bangun geometri yang secara \anfuehrung{lokal}{} tampak seperti ruang Euklides $\R^n$. Kita menganggap bangun ini sebagai sebuah
+\definitionsverweis {ruang topologis}{}{}
+dan memperjelas kata lokal dengan menyatakan bahwa terdapat tutupan oleh himpunan-himpunan terbuka yang homeomorfik dengan himpunan terbuka di $\R^n$. Walaupun selanjutnya kita bekerja dengan ruang topologis, kandungan intuitif pembahasan tidak berkurang jika ruang topologis dibayangkan sekadar sebagai ruang metrik.
+
+  \zwischenueberschrift{Manifold diferensiabel}
+
+\inputdefinition
+{}
+{
+
+Sebuah
+\definitionsverweis {ruang topologis}{}{}
+\definitionsverweis {Hausdorff}{}{}
+$M$ disebut \definitionswort {manifold topologis}{} berdimensi \definitionswort {dimensi}{} $n$, jika terdapat suatu
+\definitionsverweis {tutupan terbuka}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{  \bigcup_{i \in I} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sedemikian sehingga setiap $U_i$
+\definitionsverweis {homeomorf}{}{}
+dengan suatu
+\definitionsverweis {himpunan bagian terbuka}{}{}
+dari $\R^n$.
+
+}
+
+Untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat lingkungan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ U
+}
+{ \subseteq }{ M
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang homeomorfik dengan suatu himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}.
+Misalkan
+\maabbdisp {\varphi} {U} {V
+} {}
+sebuah homeomorfisme dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ = }{ \varphi(P)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Maka lingkungan bola terbuka
+
+\mavergleichskette
+{\vergleichskette
+{Q
+}
+{ \in }{ U \left(  Q, \epsilon  \right)
+}
+{ \subseteq }{ V
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berpadanan dengan lingkungan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U'
+}
+{ = }{  \varphi^{-1}(U \left(  Q, \epsilon  \right))
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ U'
+}
+{ \subseteq }{ U
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang menurut konstruksi homeomorfik dengan bola terbuka. Karena itu manifold topologis juga dapat dicirikan sebagai ruang Hausdorff topologis yang \stichwort {secara lokal Euklides} {}.
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ adalah sebuah
+\definitionsverweis {manifold topologis}{}{.}
+Setiap
+\definitionsverweis {homeomorfisme}{}{}
+\maabbdisp {\varphi} { U } { V
+} {,}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{}
+adalah sebuah
+\zusatzklammer {topologis} {} {}
+\definitionswort {peta}{} untuk $M$.
+
+}
+
+Himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kadang-kadang disebut \stichwort {daerah peta} {}, sedangkan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kadang-kadang disebut \stichwort {citra peta} {.} Untuk sebuah peta
+\maabbdisp {\varphi} {U} {V
+} {}
+dan himpunan bagian terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U'
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+pemetaan terinduksi
+\maabbdisp {\varphi \vert_{U'}} {U'} {\varphi(U')
+} {}
+juga merupakan peta. Kadang-kadang pemetaan invers juga disebut peta. Selain peta, kita juga berbicara tentang \stichwort {sistem koordinat lokal} {.} Melalui peta
+\maabb {\varphi} {U} {V
+} {}
+koordinat pada
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dipindahkan ke $U$. Koordinat ke-$j$
+\zusatzklammer {yakni proyeksi ke-$j$} {} {}
+\maabb {x_j} {V} {\R
+} {}
+menginduksi \zusatzklammer {koordinat lokal} {} {-}fungsi
+\maabbdisp {x_j \circ \varphi} {U} {\R
+} {}
+\zusatzklammer {yang sering kembali dilambangkan dengan $x_j$} {} {,}
+dan sebuah titik
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ = }{ \left(  x_1   , \,   , \ldots ,  , \,   x_n                 \right)
+}
+{ \in }{ V
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berpadanan dengan titik
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ = }{\varphi^{-1}(Q)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Manifold_zahyou3} {png} }
+\end{center}
+\bildtext {} }
+
+% TeX-safe display form for the moving list-of-figures argument.  The exact
+% Unicode creator string remains in source/unit_media.json and the rights
+% manifest; this ASCII rendering avoids an engine-dependent Unicode failure.
+\bildlizenz { Manifold zahyou3.png } {} {132ninme} {ja. Wikipedia} {CC-by-sa 3.0} {}
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ adalah sebuah
+\definitionsverweis {manifold topologis}{}{,}
+misalkan
+
+\mavergleichskette
+{\vergleichskette
+{  U_1, U_2
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan
+\definitionsverweis {himpunan bagian terbuka}{}{}
+dan
+\maabb {\alpha_1} { U_1 } { V_1
+} {} dan \maabb {\alpha_2} { U_2 } { V_2
+} {}
+merupakan
+\definitionsverweis {peta}{}{}
+\zusatzklammer {dengan
+
+\mavergleichskettek
+{\vergleichskettek
+{  V_1,V_2
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka} {} {.}
+Maka
+\definitionsverweis {pemetaan}{}{}
+\maabbdisp {\alpha_2  \circ \alpha_1^{-1}} { \alpha_1(U_1 \cap U_2) } { \alpha_2(U_1 \cap U_2)
+} {} disebut \definitionswort {pemetaan transisi}{} untuk peta-peta tersebut.
+
+}
+
+Irisan \mathl{U_1 \cap U_2}{} adalah himpunan bagian terbuka tempat kedua peta didefinisikan dan tempat keduanya dapat dibandingkan. Secara lebih teliti, pada definisi tersebut kita harus berbicara tentang pembatasan $\alpha_1^{-1}$ pada himpunan bagian terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha_1(U_1 \cap U_2)
+}
+{ \subseteq }{ V_1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}.
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ \in }{ \overline{ \N }_+
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Sebuah
+\definitionsverweis {ruang topologis}{}{}
+\definitionsverweis {Hausdorff}{}{}
+$M$ bersama suatu
+\definitionsverweis {tutupan terbuka}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ \bigcup_{i \in I} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+\definitionsverweis {peta}{}{}
+\maabbdisp {\alpha_i} {U_i } { V_i
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ V_i
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka, sedemikian sehingga
+\definitionsverweis {pemetaan transisi}{}{}
+\maabbdisp {\alpha_j \circ (\alpha_i)^{-1}} {V_i \cap \alpha_i(U_i \cap U_j) } { V_j \cap \alpha_j(U_i \cap U_j)
+} {}
+merupakan
+$C^k$-\definitionsverweis {difeomorfisme}{}{}
+untuk semua
+
+\mavergleichskette
+{\vergleichskette
+{ i,j
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dinamakan
+\definitionswortpraemath {C^k}{ manifold }{}
+atau \definitionswort {manifold diferensiabel}{}
+\zusatzklammer {berdimensi \definitionswort {dimensi}{} $n$ dan berderajat diferensiabilitas $k$} {} {.} Kumpulan peta
+
+\mathbed {(U_i,\alpha_i)} {}
+ {i \in I} {}
+ {} {} {} {,}
+dinamakan juga
+\definitionswortpraemath {C^k}{ atlas }{}
+manifold tersebut.
+
+}
+
+Manifold diferensiabel khususnya merupakan sebuah
+\definitionsverweis {manifold topologis}{}{.}
+Menurut definisi kita, atlas merupakan bagian integral dari konsep manifold. Namun, yang lebih penting daripada atlas adalah \stichwort {struktur diferensiabel} {} yang ditentukan oleh atlas tersebut. Hal ini akan menjadi lebih jelas setelah kita memiliki konsep pemetaan diferensiabel antara dua manifold dan dapat berbicara tentang manifold yang difeomorf.
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ sebuah
+\definitionsverweis {manifold diferensiabel}{}{.}
+Sebuah
+\definitionsverweis {himpunan bagian terbuka}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang dilengkapi dengan
+\definitionsverweis {peta}{}{}
+\definitionsverweis {terbatas}{}{}
+disebut \definitionswort {submanifold terbuka}{.}
+
+}
+
+\inputbeispiel{}
+{
+
+Setiap himpunan bagian terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan
+$C^\infty$-\definitionsverweis {manifold}{}{,}
+jika kita menggunakan
+\definitionsverweis {identitas}{}{}
+\maabb {\operatorname{Id}} { V } { V
+} {}
+sebagai
+\definitionsverweis {peta}{}{}.
+Satu-satunya
+\definitionsverweis {pemetaan transisi}{}{}
+adalah identitas itu sendiri, yang merupakan sebuah $C^\infty$-\definitionsverweis {difeomorfisme}{}{}.
+Ini adalah manifold dengan sebuah
+\definitionsverweis {atlas}{}{,}
+yang terdiri atas satu peta. Namun kita juga dapat menggunakan atlas yang terdiri atas semua himpunan bagian terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+beserta peta identitas terkait $\varphi_U$. Pemetaan transisinya adalah identitas pada \mathl{U_1 \cap U_2}{.}
+
+}
+
+Kita telah membahas ruang metrik yang
+\definitionsverweis {terhubung}{}{}
+dalam konteks teorema nilai antara. Definisi yang sama juga kita gunakan untuk ruang topologis.
+
+\inputdefinition
+{}
+{
+
+Sebuah
+\definitionsverweis {ruang topologis}{}{}
+$X$ disebut \definitionswort {terhubung}{,} jika di dalam $X$ tepat ada dua himpunan
+\zusatzklammer {yaitu $\emptyset$ dan seluruh ruang \mathlk{X \neq \emptyset}{}} {} {,}
+yang sekaligus
+\definitionsverweis {terbuka}{}{}
+dan
+\definitionsverweis {tertutup}{}{}.
+
+}
+
+Sering kali kita hanya tertarik pada manifold yang terhubung, terutama karena pada kasus tak terhubung komponen-komponen \anfuehrung{keterhubungan}{} dapat diteliti secara terpisah. Sekarang kita membahas secara singkat manifold berdimensi rendah.
+
+\inputbeispiel{}
+{
+
+Pada sebuah
+\definitionsverweis {manifold}{}{}
+$M$ berdimensi nol, untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat lingkungan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang
+\definitionsverweis {homeomorf}{}{}
+dengan suatu himpunan terbuka dari
+
+\mavergleichskette
+{\vergleichskette
+{ \R^0
+}
+{ = }{ \{0\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}.
+Artinya, himpunan satu titik \mathl{\{P\}}{} harus terbuka, sehingga $M$ harus membawa
+\definitionsverweis {topologi diskret}{}{},
+yaitu setiap himpunan bagiannya terbuka. Karena itu satu-satunya manifold berdimensi nol yang
+\definitionsverweis {terhubung}{}{}
+adalah himpunan satu titik.
+
+}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Circle_-_black_simple} {svg} }
+\end{center}
+\bildtext {Sebuah garis lingkaran adalah manifold kompak berdimensi satu} }
+
+\bildlizenz { Circle - black simple.svg } {} {Dakdada} {Commons} {PD} {}
+
+\inputbeispiel{}
+{
+
+Pada manifold berdimensi satu
+\definitionsverweis {manifold}{}{}
+mula-mula terdapat himpunan bagian terbuka dari $\R^1$. Himpunan-himpunan ini merupakan gabungan interval terbuka, dan \definitionsverweis {terhubung}{}{,} tepat ketika merupakan sebuah interval terbuka. Setiap interval terbuka, baik terbatas maupun tak terbatas, adalah
+\definitionsverweis {homeomorf}{}{}
+dan juga
+\definitionsverweis {difeomorf}{}{}
+dengan
+\definitionsverweis {interval satuan terbuka}{}{}
+\mathl{]0,1[}{} dan dengan bilangan-bilangan riil $\R$ sendiri. Interval tertutup
+
+\mathbed {[a,b]} {dengan}
+ {a < b} {}
+ {} {} {} {}
+bukan manifold, karena untuk titik-titik batasnya
+\zusatzklammer {ujung-ujung interval} {} {}
+tidak ada lingkungan terbuka yang homeomorfik dengan interval terbuka
+\zusatzklammer {meskipun interval itu disebut \stichwort {manifold dengan batas} {}} {} {.}
+
+Selain itu ada \stichwort {lingkaran} {}
+\zusatzklammer {atau \stichwort {sfera} {}} {} {}
+$S^1$ sebagai manifold terhubung berdimensi satu lainnya. Berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ S^1
+}
+{ =} { \left\{ (x,y) \in \R^2  \mid   x^2+y^2 = 1         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ S^1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku
+\mathl{S^1 \setminus \{P \}}{} homeomorfik dengan $\R$
+\zusatzklammer {melalui proyeksi stereografis} {} {.}
+Lingkaran tidak homeomorfik dengan $\R$, sebab lingkaran
+\definitionsverweis {kompak}{}{\zusatzfussnote {Sebelumnya kita mendefinisikan kekompakan hanya untuk himpunan bagian di dalam $\R^n$; sebentar lagi akan terlihat bahwa ini merupakan konsep absolut yang tidak bergantung pada penyematan. Jadi, tidak mungkin menyematkan $\R$ secara homeomorfik ke dalam $\R^n$ sedemikian sehingga citranya kompak} {.} {}}
+sedangkan bilangan riil tidak kompak. Selain \mathkor {} {S^1} {dan} {\R} {}, tidak ada manifold terhubung berdimensi satu lainnya yang memiliki
+\definitionsverweis {basis topologi terhitung}{}{}
+\zusatzklammer {hal ini dinyatakan tanpa bukti di sini} {} {.}
+
+}
+Mulai dari dimensi dua, tanpa syarat tambahan yang kuat, mustahil membuat gambaran menyeluruh tentang semua manifold.

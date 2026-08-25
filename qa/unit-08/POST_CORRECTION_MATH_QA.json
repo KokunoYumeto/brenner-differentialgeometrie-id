@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-23T21:42:28+02:00",
+  "unit_id": "o011-brenner-u08",
+  "status": "pass",
+  "scope": "Complete Lecture 8, Worksheet 8, and both source-supplied solutions; translation, protected-math preservation, bounded mathematical review, and explicit source-correction closure. Cumulative PDF, semantic HTML, backend, visual, and publication gates are intentionally deferred until the Units 8-10 milestone.",
+  "authority": {
+    "lecture": {
+      "path": "authority/expanded/lecture08_source.de.tex",
+      "bytes": 17329,
+      "sha256": "91fef67aac0b5f0f539f73a672d3bb1c79b277986cc5561c0e27801a9973129a"
+    },
+    "worksheet": {
+      "path": "authority/expanded/worksheet08_source.de.tex",
+      "bytes": 12693,
+      "sha256": "1313fbf0d8d068f5089ee8381dafc811079a404dc0d7c847c3b3bab85afceb9a"
+    },
+    "supplied_solutions": [
+      {
+        "exercise": 11,
+        "path": "authority/expanded/worksheet08_exercise11_solution_source.de.tex",
+        "bytes": 1175,
+        "sha256": "6ae059c8bfa3ea5d0eb6ee3766647fa5b9a85a5592bff3597d3df185e04622a1"
+      },
+      {
+        "exercise": 13,
+        "path": "authority/expanded/worksheet08_exercise13_solution_source.de.tex",
+        "bytes": 2405,
+        "sha256": "31f2e73e81a59c36f23a4f2b35fb1a56399a77d7df3cc2d5b5f43babbc4f7b7d"
+      }
+    ]
+  },
+  "targets": {
+    "lecture": {
+      "path": "source/units/unit-08/lecture08.id.tex",
+      "bytes": 18099,
+      "sha256": "90574f5e2879e7bc07ee20e5a335d78bd1b84f5f94b52f257dcdd0f3abf6f8bf",
+      "translation_receipt": "qa/unit-08/lecture08_translation.json",
+      "translation_receipt_sha256": "92f2343d308f8f9af51dc32986f381ae7e1a1b23d221de37f04b0dfe2dbc9fba"
+    },
+    "worksheet": {
+      "path": "source/units/unit-08/worksheet08.id.tex",
+      "bytes": 13094,
+      "sha256": "8cd886c6c2f9a7019f5e2319d9930a729572e016ee823346200228e3265b40bf",
+      "translation_receipt": "qa/unit-08/worksheet08_translation.json",
+      "translation_receipt_sha256": "202e9cf3cfed8f67e4c28cd8be659c0fc4258c09338684b6fb8f8c5e09a7c60d"
+    },
+    "supplied_solutions": [
+      {
+        "exercise": 11,
+        "path": "source/units/unit-08/worksheet08_exercise11_solution.id.tex",
+        "bytes": 1204,
+        "sha256": "1a55e39744d436cf93afd514a638197019f2e9e139279abbb3576a1704757a2b",
+        "translation_receipt": "qa/unit-08/worksheet08_exercise11_solution_translation.json",
+        "translation_receipt_sha256": "836ab2d3f5486d273e40a7c6860381cbfb7355298a2e59dbdd3db617e13a0c90"
+      },
+      {
+        "exercise": 13,
+        "path": "source/units/unit-08/worksheet08_exercise13_solution.id.tex",
+        "bytes": 3088,
+        "sha256": "73ee95e00976b81b69b5bee684d2f941c39ca413e4dd0f2696f29081456215ed",
+        "translation_receipt": "qa/unit-08/worksheet08_exercise13_solution_translation.json",
+        "translation_receipt_sha256": "311fdf18bb0fb6693c8f1c5d5886876deaa2f75d3d8f099b49edfe405fe06c72"
+      }
+    ]
+  },
+  "source_closure": {
+    "exercise_count": 21,
+    "practice_exercise_count": 17,
+    "graded_exercise_count": 4,
+    "point_total": 19,
+    "hint_fields_blank": true,
+    "supplied_solution_indices": [11, 13],
+    "media_occurrence_count": 0
+  },
+  "checks": {
+    "all_four_translation_receipts_pass": true,
+    "utf8_without_replacement_character": true,
+    "command_environment_and_protected_macro_profiles_preserved_or_explicitly_declared": true,
+    "all_declared_deltas_consumed": true,
+    "all_evidence_only_deltas_verified": true,
+    "exercise_order_points_blank_hints_and_solution_presence_preserved": true,
+    "reader_visible_german_residue_found": false,
+    "residual_german_strings_are_protected_internal_link_or_input_targets_only": true,
+    "all_mathematical_source_repairs_disclosed_in_reader_and_adverse_ledger": true,
+    "no_cumulative_build_or_publication_claimed_at_this_per_unit_boundary": true
+  },
+  "declared_corrections": [
+    "O011-CORR-0073",
+    "O011-CORR-0074",
+    "O011-CORR-0075",
+    "O011-CORR-0076",
+    "O011-CORR-0077",
+    "O011-CORR-0078",
+    "O011-TRANS-0079"
+  ],
+  "correction_manifests": [
+    {
+      "path": "00_control/LECTURE08_PROTECTED_CORRECTIONS.json",
+      "bytes": 3606,
+      "sha256": "3e146bfa313157a80407fec4bc5bad54fada2db9d2c7d49677740b8bcc7371a2"
+    },
+    {
+      "path": "00_control/WORKSHEET08_PROTECTED_CORRECTIONS.json",
+      "bytes": 813,
+      "sha256": "17a1df1e6b8066dce199b797227ffd33af6ba8a8add8ea8b13ec044478a6ccdf"
+    },
+    {
+      "path": "00_control/SOLUTION13_08_PROTECTED_CORRECTIONS.json",
+      "bytes": 1463,
+      "sha256": "89413b8115a9670c00ae4c0a674773162fbe64194020254a3027fc5e7607ecd1"
+    }
+  ],
+  "ledgers": {
+    "terminology": {
+      "path": "00_control/TERMINOLOGY.csv",
+      "records": 167,
+      "bytes": 14288,
+      "sha256": "b6c50daa03ea47121586510b44cb7d2618c644ef3fd89d11332ce7ca9463a5ae"
+    },
+    "adverse": {
+      "path": "00_control/ADVERSE_LEDGER.csv",
+      "records": 88,
+      "bytes": 26569,
+      "sha256": "c31e367721b0716c279eb0acd7373b2c8f5c1565bf92610e2e75f76fb16a2244"
+    }
+  },
+  "next_action": "Translate the complete frozen Unit 9 lecture and worksheet, then perform the same bounded source, topology, terminology, and mathematical closure before Unit 10."
+}

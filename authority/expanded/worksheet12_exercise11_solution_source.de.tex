@@ -1,0 +1,179 @@
+Es sei $Y$ die disjunkte Vereinigung der $U_i$. Wir definieren auf $Y$ eine
+\definitionsverweis {Äquivalenzrelation}{}{}
+$\sim$, wobei wir Punkte
+
+\mavergleichskette
+{\vergleichskette
+{ x_i
+}
+{ \in }{ U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ x_j
+}
+{ \in }{ U_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+als äquivalent ansehen, wenn
+
+\mavergleichskette
+{\vergleichskette
+{ x_i
+}
+{ \in }{ U_{ij}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ x_j
+}
+{ \in }{ U_{ji}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi_{ji} (x_i)
+}
+{ = }{ x_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist. Die Eigenschaften einer Äquivalenzrelation sind dabei durch die Kozykelbedingung gesichert, siehe
+[[Topologischer Raum/Verklebungsdatum/Äquivalenzrelation/Aufgabe|Aufgabe]].
+Wir setzen
+
+\mavergleichskettedisp
+{\vergleichskette
+{X
+}
+{ \defeq} { Y/ \sim
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und versehen $X$ mit der
+\definitionsverweis {Quotiententopologie}{}{.}
+Die Verknüpfungen
+
+\mathdisp {U_i \longrightarrow Y \longrightarrow X} {  }
+
+sind die $\psi_i$, und $V_i$ sind die Bilder dieser Abbildungen. Daher liegen Homöomorphismen
+\maabb {\psi_i} {U_i } { V_i
+} {}
+vor. Dabei ist zu
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \in }{ U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \psi_i (x)
+}
+{ \in} { V_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+genau dann, wenn
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \in }{ U_{ij}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist, da genau in diesem Fall $x$ mit
+\mathl{\varphi_{ij}(x)}{} identifiziert wird. Daher ist
+
+\mavergleichskette
+{\vergleichskette
+{ \psi_i(U_{ij})
+}
+{ = }{ V_i \cap V_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Die Kommutativität des Diagramms
+
+\mathdisp {\begin{matrix} U_{ij}   & \stackrel{ \varphi_{ji} }{\longrightarrow} &  U_{ji}   & \\ & \!\!\! \!\! \psi_i \searrow & \downarrow \psi_j \!\!\! \!\! & \\ & &  V_i \cap V_j   & \!\!\!\!\! \!\!\!  \\ \end{matrix}} {  }
+
+folgt ebenso.
+
+ [[Kategorie:Latexseite]]

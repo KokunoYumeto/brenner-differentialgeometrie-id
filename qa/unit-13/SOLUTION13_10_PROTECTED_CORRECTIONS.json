@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-13/worksheet13_exercise10_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0152",
+      "anchor": "Solution 13.10, finite subcover conclusion",
+      "change": "Correct the source's invalid final equality. Since V_i = Y intersect U_i, the finite family satisfies Y = union over J of V_i = Y intersect the union over J of U_i; the source's bare Y = union over J of U_i need not hold."
+    },
+    {
+      "correction_id": "O011-TRANS-0155",
+      "anchor": "Solution 13.10 finite-subcover terminology",
+      "change": "Normalize the stale reader phrase tutupan bagian berhingga to the admitted glossary rendering subtutupan hingga; mathematical meaning and TeX topology are unchanged."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0152",
+      "surface": "profile:commands",
+      "source_sha256": "8b844afa589edeae93d8f52a7bbf4ea1cc033a259bc25e14ded58710badaa16d",
+      "target_sha256": "bcfb9bc5bcace95b64566f095e3c175d169393945371e0a0486af68933ea8cd5"
+    },
+    {
+      "correction_id": "O011-CORR-0152",
+      "surface": "profile:brace_profile",
+      "source_sha256": "e3e8fd6e1d3dd238da7765dc6aacdcd101bc15e6ebae58ce06422f23424567f3",
+      "target_sha256": "99b7543ef59c9de04e1fc15b13534d04c68c1e8a23a7eb669dec85021ff394b3"
+    },
+    {
+      "correction_id": "O011-CORR-0152",
+      "surface": "protected:vergleichskette",
+      "index": 7,
+      "source_sha256": "383ee8e471f450efc8eca104802391ad5c0af2f5ae02fabfd42e8bfed1d552d5",
+      "target_sha256": "c2f861059fe0fe7849bc06e215c40516c91d376c5c5f16d62957b344ddf88f94"
+    }
+  ],
+  "evidence_only_deltas": []
+}

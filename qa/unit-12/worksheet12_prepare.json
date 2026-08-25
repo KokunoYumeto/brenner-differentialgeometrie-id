@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-12/worksheet12.id.tex",
+  "input_bytes": 19723,
+  "input_sha256": "b773f00690f9d5128cf602ec8f96d816e58009113f9051f198966e98c1a76975",
+  "output": "build/generated/worksheet12.id.build.tex",
+  "output_bytes": 19290,
+  "output_sha256": "251d7ad2328904eab479795b7c3762ceec7a7a6b6709873e77f09d26ce071055",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 1,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Reelle Ebene/Parameter/Kernbündel/Beispiel",
+      "label": "Contoh 12.6"
+    },
+    {
+      "target": "Topologischer Raum/Triviale Vektorbündel/Homomorphismus/Kernbündel/Bemerkung",
+      "label": "Catatan 12.5"
+    },
+    {
+      "target": "Differenzierbare Hyperfläche/Tangentialbündel als Kernbündel/Beispiel",
+      "label": "Contoh 12.7"
+    },
+    {
+      "target": "Topologische Räume/Relatives Produkt/Aufgabe",
+      "label": "Soal 11.16"
+    },
+    {
+      "target": "Topologische Räume/Relatives Produkt/Aufgabe",
+      "label": "Soal 11.16"
+    },
+    {
+      "target": "Topologischer Raum/Triviale Vektorbündel/Homomorphismus/Kernbündel/Bemerkung",
+      "label": "Catatan 12.5"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

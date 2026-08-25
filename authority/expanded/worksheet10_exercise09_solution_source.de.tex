@@ -1,0 +1,40 @@
+Es sei $P \in M$ ein Punkt und
+\mathl{P \in U}{} eine offene Kartenumgebung zusammen mit einer Karte
+\maabbdisp {\alpha} { U } {V \subseteq \R^n
+} {,}
+wobei $V=B(0,3)$ die offene Kugel mit Mittelpunkt $0$ und Radius $3$ sei und wobei
+\mathl{\alpha(P)=0}{} gelte. Für
+\mathl{i=1 , \ldots , n-1}{}  betrachten wir
+
+\mathdisp {B_i = \left\{  x \in V  \mid  (x_1-1)^2+x_2^2 + \cdots + x_n^2 = 1 , \,  x_{i+2}   = 0,\, x_{i+3} = 0 , \ldots , x_n = 0       \right\}} { . }
+
+Es ist also $B_{n-1}$ die Kugeloberfläche mit Mittelpunkt
+\mathl{(1,0 , \ldots , 0)}{} und Radius $1$, $B_{n-2}$ ist darin der durch
+\mathl{x_n=0}{} definierte \anfuehrung{Äquator}{} usw. Man erhält $B_i$ aus
+\mathl{B_{i+1}}{,} indem man zusätzlich noch
+\mathl{x_{i+2}=0}{} setzt. Daher liegt eine absteigende Kette von abgeschlossenen Teilmengen
+
+\mathdisp {B_{n-1} \supseteq B_{n-2} \supseteq  \ldots \supseteq B_1 \supseteq B_0} {  }
+ vor
+\zusatzklammer {$B_0$ besteht aus den beiden Punkten
+\mathl{(\pm1,0 , \ldots , 0 )}{}} {} {.}
+Wir fassen $B_i$ als die Faser über dem Nullpunkt der Abbildung
+\maabbeledisp {\varphi_i} { V } {\R^{n-i}
+} {(x_1 , \ldots , x_n) } {  ((x_1-1)^2+x_2^2 + \cdots + x_n^2 - 1 , x_{i+2} , \ldots , x_n)
+} {,}
+auf. Die Jacobimatrix dieser Abbildung ist
+
+\mathdisp {\begin{pmatrix}  2x_1-2 &  2x_2  &  \ldots  &  2x_{i+1} &  2x_{i+2} &  \ldots &  2x_{n-1} &  2x_n
+ \\  0 &  0 &  \ldots &  0 &  1 &  0 &  \ldots &  0
+ \\ \vdots  & \vdots & \vdots &  \ddots &  \ddots &  \ddots  &  \ddots  & \vdots \\  0 &  0 &  \ldots &  \ldots &  \ldots &  0 &  1 &  0 \\  0 &  0 &  \ldots &  \ldots &  \ldots  &  \ldots &  0 &  1 \end{pmatrix}} { . }
+
+Der Rang dieser Matrix ist nur bei
+\mathl{x_1=1, \, x_2 = \cdots =x_{i+1}=0}{} kleiner als $n-i$, ein solcher Punkt liegt also nicht auf $B_i$. Das bedeutet, dass die Abbildung $\varphi_i$ in der Faser $B_i$ regulär ist, sodass $B_i$ aufgrund des Satzes über implizite Abbildungen eine abgeschlossene Untermannigfaltigkeit von $V$ der Dimension
+\mathl{i}{} ist.
+
+Wir setzen nun
+\mathl{M_i= \alpha^{-1}(B_i)}{} für
+\mathl{i=1 , \ldots , n-1}{} und
+\mathl{M_n= M}{.} Da die $B_i$ kompakt sind, sind die $M_i$ auch abgeschlossene Teilmengen in $M$. Da die Bedingung für eine abgeschlossene Mannigfaltigkeit eine lokale Eigenschaft ist, handelt es sich um abgeschlossene Untermannigfaltigkeiten von $M$.
+
+ [[Kategorie:Latexseite]]

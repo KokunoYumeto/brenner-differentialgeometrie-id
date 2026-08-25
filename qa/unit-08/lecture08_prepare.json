@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-08/lecture08.id.tex",
+  "input_bytes": 18099,
+  "input_sha256": "90574f5e2879e7bc07ee20e5a335d78bd1b84f5f94b52f257dcdd0f3abf6f8bf",
+  "output": "build/generated/lecture08.id.build.tex",
+  "output_bytes": 17413,
+  "output_sha256": "1de5fe501ba8953cf5f51dc42a8efb45bf795e4a6e4f98d11383ba013a40de1d",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 4,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 3,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Satz über implizite Abbildungen/R/Fakt/Beweis",
+      "label": "bukti"
+    },
+    {
+      "target": "Satz über implizite Abbildungen/R/Fakt",
+      "label": "teorema pemetaan implisit"
+    },
+    {
+      "target": "Satz über implizite Abbildungen/Globale Diffeomorphismen/Induzierte Diffeomorphismen zwischen Faser und Achsenräumen/Fakt",
+      "label": "Teorema 8.1"
+    },
+    {
+      "target": "Diffeomorphismus/Euklidische Produktmengen/Eingeschränkter Diffeomorphismus/Aufgabe",
+      "label": "Soal 52 (Analisis (Osnabrück 2021--2023))"
+    },
+    {
+      "target": "Totale Differenzierbarkeit/R/Kettenregel/Fakt",
+      "label": "aturan rantai"
+    },
+    {
+      "target": "Stetig differenzierbar/K/Höherdimensional/Mehrfach/Hintereinanderschaltung/Aufgabe",
+      "label": "Soal 46.10 (Analisis (Osnabrück 2021--2023))"
+    },
+    {
+      "target": "Mannigfaltigkeit/Differenzierbare Funktionen/Strukturelle Eigenschaften/Fakt/Beweis/Aufgabe",
+      "label": "Soal 8.3"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

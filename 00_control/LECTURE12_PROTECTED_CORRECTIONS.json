@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-12/lecture12.id.tex",
+  "source_authority": {
+    "path": "authority/expanded/lecture12_source.de.tex",
+    "bytes": 20823,
+    "sha256": "6f7ce6f22e12cc56f2de7874634f1a96cc65211264873c47ed485f2ea1e0cc32"
+  },
+  "mathematical_corrections": [
+    {
+      "correction_id": "O011-CORR-0114",
+      "anchor": "commutative diagram explaining a rank-r local trivialization",
+      "change": "Correct the target of the upper horizontal arrow from U \\times \\R^n to U \\times \\R^r, consistently with the surrounding rank-r definition."
+    },
+    {
+      "correction_id": "O011-CORR-0115",
+      "anchor": "both displayed occurrences in the definition of basis sections for a rank-r bundle",
+      "change": "Correct s_1, \\ldots, s_n and s_1(P), \\ldots, s_n(P) to s_1, \\ldots, s_r and s_1(P), \\ldots, s_r(P)."
+    },
+    {
+      "correction_id": "O011-CORR-0116",
+      "anchor": "description of T_PY as the kernel of the total differential",
+      "change": "Translate the malformed German '(n-1)-linearer Untervektorraum' by its mathematically intended meaning: an (n-1)-dimensional subspace."
+    }
+  ],
+  "metadata_corrections": [
+    {
+      "correction_id": "O011-ACC-0127",
+      "anchor": "Fiddler-crab Mobius-strip animation",
+      "change": "Supply an Indonesian reader description for the source's blank image caption; the canonical GIF remains the animated HTML/download asset and its deterministic frame-zero PNG is the static PDF fallback."
+    }
+  ],
+  "prose_only_corrections": [
+    {
+      "correction_id": "O011-CORR-0117",
+      "anchor": "inverse homomorphism in the definition of a vector-bundle isomorphism",
+      "change": "Correct the source typo 'Homomophismus' while translating it as 'homomorfisme'."
+    }
+  ],
+  "reader_surface_corrections": [
+    {
+      "correction_id": "O011-CORR-0118",
+      "anchor": "reader-visible reference label in the Mobius-bundle example",
+      "change": "Correct the source typo 'Verklebungdatum' while translating it consistently as 'data perekatan'."
+    },
+    {
+      "correction_id": "O011-TRANS-0119",
+      "anchor": "all three mathkor conjunction payloads",
+      "change": "Translate reader-visible German 'und' to Indonesian 'dan'."
+    },
+    {
+      "correction_id": "O011-TRANS-0120",
+      "anchor": "all seven zusatzklammer payloads",
+      "change": "Translate every reader-visible German parenthetical payload, including 'bzw. Geraden', into Indonesian."
+    },
+    {
+      "correction_id": "O011-TRANS-0121",
+      "anchor": "the two case displays in the Mobius-bundle example",
+      "change": "Translate every reader-visible German '\\text{ für }' payload to '\\text{ untuk }'."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0115",
+      "surface": "protected:vergleichskette",
+      "index": 27,
+      "source_sha256": "51e9d97673dc4bf8e102b41266b9bfbdd8ba620f516c5f5f5f1e55a60b8597a8",
+      "target_sha256": "63a2be8a146a2102d1b14bdf2ea26e9b9ee1f0d928a9d477fc01931d52a29fd4"
+    },
+    {
+      "correction_id": "O011-TRANS-0121",
+      "surface": "protected:vergleichskette",
+      "index": 41,
+      "source_sha256": "9c3d0fa865eb73f97642235894febcfac55fc6b75331f92de0d0b26f46ed00c0",
+      "target_sha256": "88b3af545230533a318a3528927e1f7c83574ea684b0c2a9d82be2cc163e35fa"
+    },
+    {
+      "correction_id": "O011-TRANS-0121",
+      "surface": "protected:vergleichskette",
+      "index": 42,
+      "source_sha256": "9057e177f8ee48cabd984285a076d864573f4639e3bd4f3ce443e3eb2c9154c2",
+      "target_sha256": "fc794d3eab174f83b920aa09d6cfcd5985688a75ec0ec3571a473f76e3daf3a7"
+    },
+    {
+      "correction_id": "O011-CORR-0115",
+      "surface": "protected:maabbdisp",
+      "index": 15,
+      "source_sha256": "cbb51a5d7a73c5805601690a1539bc1291cdbb5c41a1974feca068f9a146fd37",
+      "target_sha256": "328d0ab100920cdbcfcc5684a87d5812614f0e61c43d1c616723235fd9e98016"
+    },
+    {
+      "correction_id": "O011-CORR-0114",
+      "surface": "protected:mathdisp",
+      "index": 0,
+      "source_sha256": "0e9b15ff808cf2fd483886c2b465e5b4cb2707a124e9ed0793f8050c5b63da79",
+      "target_sha256": "7dbc4e19a0da9089bc9fcfdcf7347c8f528b6a20f1c8f2c7f9e750e986d51d7f"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-CORR-0116",
+      "surface": "command:maabbeledisp",
+      "occurrence_index": 2,
+      "source_sha256": "3e4191860b713544a6aec727ed2d83a6fabfa901c7127bccd069cdf1be510db3",
+      "target_sha256": "3e4191860b713544a6aec727ed2d83a6fabfa901c7127bccd069cdf1be510db3",
+      "verification_note": "The unchanged bundle-homomorphism display immediately after the corrected (n-1)-dimensional-subspace sentence anchors the prose correction."
+    },
+    {
+      "correction_id": "O011-CORR-0117",
+      "surface": "command:maabb",
+      "occurrence_index": 10,
+      "source_sha256": "8649cb3d562fb56582e3e16c7d11eeb19b149d96462d28c243108702932fa0a5",
+      "target_sha256": "8649cb3d562fb56582e3e16c7d11eeb19b149d96462d28c243108702932fa0a5",
+      "verification_note": "The unchanged inverse map psi:F->E anchors the corrected source typo Homomophismus in the immediately preceding prose."
+    },
+    {
+      "correction_id": "O011-TRANS-0119",
+      "surface": "command:mathkor",
+      "occurrence_index": 0,
+      "source_sha256": "20664bcd12b653fb24a171949353b6573779d6ef90753ac1118a1d49ca1ae85a",
+      "target_sha256": "bc66b3b1a0340a0cb0d055977a7d3be6db10407925cb8c62236ca4428bc7735b",
+      "source_latex": "\\mathkor{}{E}{und}{F}{}",
+      "target_latex": "\\mathkor{}{E}{dan}{F}{}"
+    },
+    {
+      "correction_id": "O011-TRANS-0119",
+      "surface": "command:mathkor",
+      "occurrence_index": 1,
+      "source_sha256": "20664bcd12b653fb24a171949353b6573779d6ef90753ac1118a1d49ca1ae85a",
+      "target_sha256": "bc66b3b1a0340a0cb0d055977a7d3be6db10407925cb8c62236ca4428bc7735b",
+      "source_latex": "\\mathkor{}{E}{und}{F}{}",
+      "target_latex": "\\mathkor{}{E}{dan}{F}{}"
+    },
+    {
+      "correction_id": "O011-TRANS-0119",
+      "surface": "command:mathkor",
+      "occurrence_index": 2,
+      "source_sha256": "3ec904c44cd63cbd10cfc1c0135dda3f4272f6b1de3381d6efa2b77cbb4eba07",
+      "target_sha256": "a769ef4d0f44f73f2ae8f540da408ccdc341754c6313b9dcab3fa972c0e76c41",
+      "source_latex": "\\mathkor{}{X}{und}{Y}{}",
+      "target_latex": "\\mathkor{}{X}{dan}{Y}{}"
+    },
+    {
+      "correction_id": "O011-TRANS-0120",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 0,
+      "source_sha256": "c8c8c183415a0d8e64409381b3fb230ec299f80a5bae3a032e9dbdc3fe174c45",
+      "target_sha256": "23f5da796c2ae30c23bdcd539378b2e990a85c79f5792e77b53ee9470b1762b6"
+    },
+    {
+      "correction_id": "O011-TRANS-0120",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 1,
+      "source_sha256": "2add94ff0a2db8be80a6facbc832b796db7b39ef78f0272ea844165091e14531",
+      "target_sha256": "d710ece449ade06005e93d43193c7b6c7343573de1c7aec6300cb0da75d1b44f"
+    },
+    {
+      "correction_id": "O011-TRANS-0120",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 2,
+      "source_sha256": "bde4913aaf7147b443ba54b02ea3de34fa44d3fb8ad53600e6eda985f8446eb3",
+      "target_sha256": "dd6ae6d1d0b8edf7e1cf62b63089e02665a1e5df4bf41435b344905667456a45"
+    },
+    {
+      "correction_id": "O011-TRANS-0120",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 3,
+      "source_sha256": "f31893838f7da2147f5fa40e8570b75af6d1f767443af5412c51a450432d75c9",
+      "target_sha256": "7ce89c23fb5190c89b267d6ac1810d6b619b3349671eb5b8db94694a0a8086ad"
+    },
+    {
+      "correction_id": "O011-TRANS-0120",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 4,
+      "source_sha256": "f31893838f7da2147f5fa40e8570b75af6d1f767443af5412c51a450432d75c9",
+      "target_sha256": "7ce89c23fb5190c89b267d6ac1810d6b619b3349671eb5b8db94694a0a8086ad"
+    },
+    {
+      "correction_id": "O011-TRANS-0120",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 5,
+      "source_sha256": "8f8de0411778a29672f232b01b19912f8d3f8d9022e64ffad93a1c47f824d06f",
+      "target_sha256": "609126d5d9c80a7808a80e4cf376fb4618463af899dd4780949f87c0270c5db5"
+    },
+    {
+      "correction_id": "O011-TRANS-0120",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 6,
+      "source_sha256": "83936457812234c3b2391fa0fd84aea2a4dc82225be96476b1840a5d1a2211a3",
+      "target_sha256": "133671a1496f0f60f899e19bfd2a5e52170b720a79e12c08acc0550767bac0c4"
+    },
+    {
+      "correction_id": "O011-CORR-0118",
+      "surface": "command:definitionsverweis",
+      "occurrence_index": 60,
+      "source_sha256": "92f96648b0b0f00aae343264611136dbbfc4c2ae1327af9caae885f7dd825d94",
+      "target_sha256": "b10c8fdaf84f9f1193e4cef58b714c50bef0b0a93a22d1ed4147c0014ee63fc5",
+      "source_latex": "\\definitionsverweis{Verklebungdatum}{}{}",
+      "target_latex": "\\definitionsverweis{dataperekatan}{}{}"
+    },
+    {
+      "correction_id": "O011-ACC-0127",
+      "surface": "command:bild",
+      "occurrence_index": 0,
+      "source_sha256": "63cbc176b2e5b084835447c574dbb7c5e014cb09be0f634d4b16b476e4a3b54e",
+      "target_sha256": "1536ca105c14cb379a710d0077f5802428705d68fff6ff7a2e3c3fad9847a024",
+      "verification_note": "The complete figure call binds the Indonesian description added to the source's blank animated-media caption."
+    }
+  ]
+}

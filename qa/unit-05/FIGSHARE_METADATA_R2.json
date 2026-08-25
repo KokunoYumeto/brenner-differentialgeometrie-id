@@ -1,0 +1,59 @@
+{
+  "title": "Geometri Diferensial dan Manifold Mulus — Edisi Bahasa Indonesia (batas Unit 05; rilis kerja parsial)",
+  "description": "<p><strong>Mulai membaca:</strong> satu-satunya berkas pada panel Figshare adalah PDF pembaca kumulatif 86 halaman A4. Batas kerja ini mencakup Kuliah 1–5 dan Lembar Kerja 1–5 dari 29 pasangan inti: 89 latihan, seluruh 11 solusi yang benar-benar disediakan sumber untuk Unit 1–5, 10 gambar, dan backend stable-ID 969 rekaman. Sepuluh ujian serta jembatan Lie dan de Rham belum selesai; statusnya <code>active_partial</code>, bukan buku lengkap.</p><p><strong>Hak dan lisensi:</strong> pilihan CC0 pada Figshare berlaku hanya untuk metadata/katalog dan susunan tautan yang dibuat bagi rekaman ini. PDF pada panel dan lima tautan pendamping di bawah menunjuk ke byte yang disimpan di Zenodo dan <strong>bukan</strong> berlisensi CC0. Teks sumber dan adaptasi Indonesia didistribusikan menurut CC BY-SA 4.0. Media mempertahankan pencipta dan lisensi masing-masing—termasuk CC BY, CC BY-SA dari beberapa versi, dan domain publik—sebagaimana dirinci dalam <code>LICENSE.md</code> dan inventaris hak di paket sumber. Figshare tidak menawarkan lisensi artikel yang dapat menyatakan campuran ini secara tepat dan hanya mengizinkan satu linked-file per item, sehingga byte edisi tidak diunggah atau dilisensikan ulang oleh Figshare.</p><p><strong>Paket preservasi reader-first:</strong></p><ol><li>PDF pembaca — berkas utama pada panel Figshare.</li><li><a href='https://zenodo.org/records/22060387/files/geometri-diferensial-manifold-mulus-brenner-id-unit05-20260822.zip'>ZIP sumber/backend ringkas</a> — sumber yang dapat dilanjutkan, backend, hak, build, dan QA.</li><li><a href='https://zenodo.org/records/22060387/files/LICENSE.md'>LICENSE.md</a> — hak, atribusi, lisensi komponen, dan non-endorsement.</li><li><a href='https://zenodo.org/records/22060387/files/RELEASE_NOTES_20260822.md'>Catatan rilis</a> — cakupan, QA, aksesibilitas, dan batas yang belum selesai.</li><li><a href='https://zenodo.org/records/22060387/files/FILE_MANIFEST.csv'>Manifes berkas</a> — nama, peran, byte, SHA-256, MD5, dan ruang lingkup hak.</li><li><a href='https://zenodo.org/records/22060387/files/CHECKSUMS.sha256'>Checksum SHA-256</a> — verifikasi byte.</li></ol><p>Semua tautan menunjuk ke versi Zenodo terverifikasi <a href='https://doi.org/10.5281/zenodo.22060387'>10.5281/zenodo.22060387</a> dalam konsep tetap <a href='https://doi.org/10.5281/zenodo.22059977'>10.5281/zenodo.22059977</a>. Muatan substantifnya 10.211.159 byte, jauh di bawah batas 500.000.000 byte untuk lane ini.</p><p>PDF belum bertag struktur, tetapi seluruh 29 font tersemat memiliki ToUnicode dan teks dapat diekstrak pada semua 86 halaman; pembaca HTML semantik belum termasuk pada batas ini. Edisi ini merupakan adaptasi independen dan tidak disahkan oleh Holger Brenner, Wikiversity, Wikimedia Commons, Wikimedia Foundation, atau pencipta media. Terjemahan, reflow, backend, dan QA dibuat melalui alur kerja berbantuan Codex atas arahan pengguna; tidak ada tinjauan manusia independen yang diklaim, dan model bukan penulis karya.</p>",
+  "authors": [
+    {
+      "name": "Holger Brenner"
+    }
+  ],
+  "categories": [
+    29830,
+    26095
+  ],
+  "tags": [
+    "Bahasa Indonesia",
+    "differential geometry",
+    "smooth manifolds",
+    "open educational resources",
+    "translation",
+    "active_partial",
+    "D50",
+    "O011",
+    "CC BY-SA 4.0",
+    "mixed component licenses",
+    "linked reader"
+  ],
+  "defined_type": "book",
+  "license": 2,
+  "is_metadata_record": false,
+  "related_materials": [
+    {
+      "identifier": "10.5281/zenodo.22059977",
+      "identifier_type": "DOI",
+      "relation": "References",
+      "is_linkout": true,
+      "title": "Zenodo concept — latest preservation version"
+    },
+    {
+      "identifier": "10.5281/zenodo.22060387",
+      "identifier_type": "DOI",
+      "relation": "References",
+      "is_linkout": false,
+      "title": "Zenodo Unit 05 reader-first preservation revision"
+    },
+    {
+      "identifier": "https://de.wikiversity.org/wiki/Kurs:Differentialgeometrie_(Osnabr%C3%BCck_2023)",
+      "identifier_type": "URL",
+      "relation": "IsDerivedFrom",
+      "is_linkout": false,
+      "title": "Official source course"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.33314676.v1",
+      "identifier_type": "DOI",
+      "relation": "IsPartOf",
+      "is_linkout": false,
+      "title": "Indonesian Open Mathematics Editions inventory baseline"
+    }
+  ]
+}

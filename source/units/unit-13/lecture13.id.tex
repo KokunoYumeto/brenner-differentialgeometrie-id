@@ -1,0 +1,1356 @@
+\setcounter{section}{13}
+
+  \zwischenueberschrift{Konstruksi bundel vektor}
+
+Semua konstruksi yang dilakukan pada ruang vektor dalam aljabar linear dapat diterapkan pada bundel vektor. Pada setiap serat, kita menggunakan konstruksi untuk ruang vektor. Namun, karena trivialisasi juga harus diperhitungkan, cara termudah adalah bekerja dengan data perekatan.
+
+\inputdefinition
+{}
+{
+
+Untuk
+\definitionsverweis {bundel-bundel vektor riil}{}{}
+\mathkor {} {E} {dan} {F} {}
+di atas suatu
+\definitionsverweis {ruang topologis}{}{}
+$X$ dengan trivialisasi
+\maabbdisp {\alpha_i} {E {{|}}_{U_i } } { U_i \times \R^m
+} {}
+dan
+\maabbdisp {\beta_i} {F{{|}}_{U_i } } { U_i \times \R^n
+} {}
+bundel vektor yang terkait dengan
+\definitionsverweis {data perekatan}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{G_i
+}
+{ =} { U_i \times \R^m \times \R^n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+\maabbdisp {\varphi_{ij}} {G_i {{|}}_{U_i \cap U_j }  } { G_j {{|}}_{U_i \cap U_j }
+} {}
+dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_{ij} (x,v,w)
+}
+{ \defeq} { \left(  x   , \,   \alpha_j (\alpha_i^{-1} (x,v))  , \,   \beta_j (\beta_i^{-1} (x,w))                 \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+disebut
+\definitionswort {jumlah langsung}{}
+dari bundel-bundel vektor
+\mathkor {} {E} {dan} {F} {.}
+Bundel ini dilambangkan dengan
+\mathl{E \oplus F}{}.
+
+}
+
+Jika $E$ diberikan oleh deskripsi matriks
+\maabbdisp {\varphi_{ij}} { U_i \cap U_j } { \operatorname{GL}_{ m  } \! \left(  \R  \right)
+} {}
+dan $F$ oleh deskripsi matriks
+\maabbdisp {\psi_{ij}} { U_i \cap U_j } { \operatorname{GL}_{ n  } \! \left(  \R  \right)
+} {,}
+maka deskripsi matriks dari
+\mathl{E \oplus F}{} diperoleh dengan menyusun kedua matriks secara diagonal menjadi suatu matriks
+\mathl{(m+n) \times (m+n)}{} dan mengisi entri-entri lainnya dengan nol.
+
+\inputdefinition
+{}
+{
+
+Untuk
+\definitionsverweis {bundel-bundel vektor riil}{}{}
+\mathkor {} {E} {dan} {F} {}
+di atas suatu
+\definitionsverweis {ruang topologis}{}{}
+$X$ dengan trivialisasi
+\maabbdisp {\alpha_i} {E {{|}}_{U_i } } { U_i \times \R^m
+} {}
+dan
+\maabbdisp {\beta_i} {F{{|}}_{U_i } } { U_i \times \R^n
+} {}
+bundel vektor yang terkait dengan
+\definitionsverweis {data perekatan}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{G_i
+}
+{ =} { U_i \times \left(  \R^m  \otimes  \R^n  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+\maabbdisp {\varphi_{ij}} {G_i {{|}}_{U_i \cap U_j }  } { G_j {{|}}_{U_i \cap U_j }
+} {}
+dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_{ij}
+}
+{ \defeq} { \left(  \alpha_j \circ \alpha_i^{-1}  \right)   \otimes \left(  \beta_j  \circ \beta_i^{-1}  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\zusatzklammer {di sini, pada setiap titik dasar diambil
+\definitionsverweis {produk tensor pemetaan linear}{}{}} {} {}
+disebut
+\definitionswort {produk tensor}{}
+dari bundel-bundel vektor
+\mathkor {} {E} {dan} {F} {.}
+Bundel ini dilambangkan dengan
+\mathl{E \otimes F}{}.
+
+}
+
+Jika deskripsi-deskripsi matriksnya diberikan, deskripsi matriks produk tensor diperoleh melalui apa yang disebut
+\definitionsverweis {produk Kronecker}{}{.}
+Dalam proses ini, setiap entri matriks yang satu dikalikan dengan setiap entri matriks yang lain.
+
+\inputdefinition
+{}
+{
+
+Untuk suatu
+\definitionsverweis {bundel vektor riil}{}{}
+$E$ ber-rank $m$ di atas suatu
+\definitionsverweis {ruang topologis}{}{}
+$X$ dengan trivialisasi
+\maabbdisp {\alpha_i} {E {{|}}_{U_i } } { U_i \times \R^m
+} {}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{r
+}
+{ \in }{\N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bundel vektor yang terkait dengan
+\definitionsverweis {data perekatan}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{G_i
+}
+{ =} { U_i \times \left(   \bigwedge^r \R^m   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+\maabbdisp {\varphi_{ij}} {G_i {{|}}_{U_i \cap U_j }  } { G_j {{|}}_{U_i \cap U_j }
+} {}
+dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_{ij}
+}
+{ \defeq} {  \bigwedge^r \left(  \alpha_j \circ \alpha_i^{-1}  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\zusatzklammer {di sini, pada setiap titik dasar diambil
+\definitionsverweis {produk eksterior ke-$r$ dari pemetaan linear}{}{}} {} {}
+disebut
+\definitionswort {produk eksterior ke-$r$}{}
+dari bundel vektor $E$. Bundel ini dilambangkan dengan
+\mathl{\bigwedge^r E}{}.
+
+}
+Jika deskripsi matriks $E$ diberikan, deskripsi matriks produk eksterior ke-$r$ diperoleh dengan menghimpun semua
+\definitionsverweis {determinan}{}{}
+dari
+$r \times r$-\definitionsverweis {submatriks}{}{}
+ke dalam suatu matriks.
+
+\inputdefinition
+{}
+{
+
+Untuk suatu
+\definitionsverweis {bundel vektor riil}{}{}
+$E$ ber-rank $m$ di atas suatu
+\definitionsverweis {ruang topologis}{}{}
+$X$, objek yang disebut \definitionsverweis {produk eksterior ke-$m$}{}{}, yaitu
+
+\mathl{\bigwedge^m E}{} disebut
+\definitionswort {bundel determinan}{}
+dari $E$. Bundel ini dilambangkan dengan
+\mathl{\det  E}{}.
+
+}
+Bundel determinan merupakan bundel garis. Deskripsi matriksnya diberikan oleh determinan.
+
+\inputdefinition
+{}
+{
+
+Untuk
+\definitionsverweis {bundel-bundel vektor riil}{}{}
+\mathkor {} {E} {dan} {F} {}
+di atas suatu
+\definitionsverweis {ruang topologis}{}{}
+$X$ dengan trivialisasi
+\maabbdisp {\alpha_i} {E {{|}}_{U_i } } { U_i \times \R^m
+} {}
+dan
+\maabbdisp {\beta_i} {F{{|}}_{U_i } } { U_i \times \R^n
+} {}
+bundel vektor yang terkait dengan
+\definitionsverweis {data perekatan}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{G_i
+}
+{ =} { U_i \times  \operatorname{Hom}_{ \R } \left(   \R^m , \R^n   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+\maabbdisp {\varphi_{ij}} {G_i {{|}}_{U_i \cap U_j }  } { G_j {{|}}_{U_i \cap U_j }
+} {}
+dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_{ij} (\theta)
+}
+{ \defeq} { \left(  \beta_j  \circ \beta_i^{-1}  \right)    \circ \theta \circ \left(  \alpha_i \circ \alpha_j^{-1}  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+disebut
+\definitionswort {bundel homomorfisme}{}
+dari bundel-bundel vektor
+\mathkor {} {E} {dan} {F} {.}
+Bundel ini dilambangkan dengan
+\mathl{\operatorname{Hom} \left(    E ,  F  \right)}{}.
+
+}
+
+\inputdefinition
+{}
+{
+
+Untuk suatu
+\definitionsverweis {bundel vektor riil}{}{}
+$E$ di atas suatu
+\definitionsverweis {ruang topologis}{}{}
+$X$,
+\definitionsverweis {bundel homomorfisme}{}{}
+
+\mathl{\operatorname{Hom} \left(    E ,  X \times \R  \right)}{} disebut
+\definitionswort {bundel dual}{}
+dari $E$. Bundel ini dilambangkan dengan
+\mathl{E ^*}{}.
+
+}
+
+  \zwischenueberschrift{Bundel vektor diferensiabel}
+
+\inputdefinition
+{}
+{
+
+Misalkan $X$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{r
+}
+{ \in }{\N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Sebuah
+\definitionswort {bundel vektor diferensiabel}{}
+$V$ ber-
+\definitionswort {rank}{}
+$r$ adalah sebuah manifold yang dilengkapi dengan suatu
+\definitionsverweis {pemetaan diferensiabel}{}{}
+\maabb {p} { V } { X
+} {}
+sedemikian sehingga setiap
+\definitionsverweis {serat}{}{}
+$p^{-1}(x)$ merupakan
+\definitionsverweis {ruang vektor riil}{}{}
+yang
+\definitionsverweis {berdimensi}{}{}
+$r$ dan terdapat suatu
+\definitionsverweis {tutupan terbuka}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{X
+}
+{ = }{ \bigcup_{i \in I} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+beserta
+\definitionsverweis {difeomorfisme-difeomorfisme}{}{}
+\maabbdisp {\varphi_i} {p^{-1} \left(  U_i  \right) } { U_i \times \R^r
+} {}
+di atas $U_i$ yang pada setiap serat menginduksi suatu
+\definitionsverweis {isomorfisme linear}{}{}
+\maabbdisp {\left(  \varphi_i  \right)_x} {p^{-1} (x) } { \R^r
+} {}
+.
+
+}
+
+  \zwischenueberschrift{Orientasi pada manifold}
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ sebuah
+\definitionsverweis {manifold diferensiabel}{}{.}
+Sebuah
+\definitionsverweis {peta}{}{}
+\maabbdisp {\alpha} { U } { V
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+yang terbuka disebut \definitionswort {berorientasi}{,} jika $\R^n$
+\definitionsverweis {berorientasi}{}{.}
+
+}
+
+Jika tersedia suatu atlas yang terdiri atas peta-peta berorientasi
+\mathl{(U_i,V_i, \alpha_i)}{}, maka orientasi-orientasi pada ruang bilangan sekitar $\R^n$ yang memuat citra terbuka $V_i$ dari peta-peta tersebut pada awalnya tidak saling berkaitan
+\zusatzklammer {meskipun kita selalu menuliskan $\R^n$} {} {.}
+Kaitan antarorientasi baru dapat dirumuskan melalui dua konsep berikut.
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ sebuah
+\definitionsverweis {manifold diferensiabel}{}{}
+dan misalkan
+\mathkor {} {(U_1,V_1, \alpha_1)} {dan} {(U_2,V_2, \alpha_2)} {}
+\definitionsverweis {peta-peta berorientasi}{}{.}
+Maka
+\definitionsverweis {pergantian peta}{}{}
+yang terkait
+\maabbdisp {\psi=\alpha_2 \circ \alpha_1^{-1}} {  \alpha_1 (U_1 \cap U_2)} {  \alpha_2 (U_1 \cap U_2 )
+} {}
+disebut
+\definitionswort {mempertahankan orientasi}{,} jika untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ \alpha_1 (U_1 \cap U_2)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {diferensial total}{}{}
+\maabbdisp {\left(D \psi\right)_{Q}} {\R^n } {\R^n
+} {}
+\definitionsverweis {mempertahankan orientasi}{}{}
+.
+
+}
+
+\inputdefinition
+{}
+{
+
+Sebuah
+\definitionsverweis {manifold diferensiabel}{}{}
+$M$ dengan suatu
+\definitionsverweis {atlas}{}{}
+
+\mathl{(U_i, V_i, \alpha_i)}{} disebut \definitionswort {berorientasi}{,} jika setiap peta
+\definitionsverweis {berorientasi}{}{}
+dan semua pergantian peta
+\definitionsverweis {mempertahankan orientasi}{}{.}
+
+}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Möbius strip} {jpg} }
+\end{center}
+\bildtext {Pita Möbius adalah contoh khas manifold yang tidak dapat diorientasikan. Agar menjadi manifold, tepinya tidak boleh termasuk di dalamnya; tetapi dengan demikian pita ini juga bukan submanifold tertutup dari $\R^3$, sebab submanifold tertutup seperti itu selalu dapat diorientasikan.} }
+
+\bildlizenz { Möbius strip.jpg } {} {Dbenbenn} {Commons} {CC-by-sa 3.0} {}
+
+Pada sebuah manifold berorientasi, setiap ruang singgung
+\mathl{T_PM}{}  memiliki suatu orientasi. Kita cukup memilih sebarang lingkungan koordinat
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {dari atlas berorientasi} {} {}
+dan mentranspor orientasi pada
+
+\mavergleichskettedisp
+{\vergleichskette
+{ V
+}
+{ \subseteq} { \R^n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+melalui
+\mathl{T_P(\alpha^{-1})}{} ke
+\mathl{T_PM}{}. Karena pergantian peta mempertahankan orientasi, orientasi ini tidak bergantung pada lingkungan koordinat yang dipilih.
+
+Pada sebuah manifold berorientasi, kita juga dapat menentukan apakah dua basis dalam ruang-ruang singgung pada dua titik yang berbeda merepresentasikan orientasi yang sama. Hal ini terjadi jika kedua basis merepresentasikan orientasi manifold tersebut atau jika keduanya sama-sama tidak merepresentasikannya.
+
+Sebuah manifold disebut \stichwort {dapat diorientasikan} {,} jika manifold tersebut difeomorfik dengan suatu manifold berorientasi. Artinya, terdapat sebuah atlas yang mendefinisikan struktur diferensiabel yang sama dan juga dapat diberi orientasi.
+
+\inputbemerkung
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik dari $Y$. Pada ruang sekitar $\R^n$, kita tetapkan suatu
+\definitionsverweis {orientasi}{}{}
+\zusatzklammer {misalnya
+\definitionsverweis {orientasi standar}{}{}} {} {}
+dan kita tetapkan suatu
+\definitionsverweis {medan normal satuan}{}{}
+$N$ pada $Y$. Pilihan ini menetapkan suatu
+\definitionsverweis {orientasi}{}{}
+pada $Y$
+\zusatzklammer {sebagai manifold} {} {}
+dengan menetapkan pada setiap ruang singgung $T_PY$ bahwa suatu
+\definitionsverweis {basis}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ v_1 , \ldots , v_{n-1}
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merepresentasikan orientasi jika
+
+\mavergleichskette
+{\vergleichskette
+{ N(P) , v_1 , \ldots , v_{n-1}
+}
+{ \in }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merepresentasikan orientasi $\R^n$.
+
+}
+
+  \zwischenueberschrift{Kekompakan}
+
+Himpunan bagian dari suatu ruang Euklides yang sekaligus tertutup dan terbatas disebut kompak. Pada ruang topologis yang tidak dilengkapi metrik, kita tidak dapat berbicara tentang keterbatasan; bahkan pada ruang metrik yang bukan himpunan bagian dari suatu $\R^n$, kedua sifat tertutup dan terbatas tidak banyak membantu. Konsep berikut lebih berdaya guna.
+
+\inputdefinition
+{}
+{
+
+Suatu
+\definitionsverweis {ruang topologis}{}{}
+$X$ disebut \definitionswort {kompak}{}
+\zusatzklammer {atau \definitionswort {kompak terhadap tutupan}{}} {} {,}
+jika untuk setiap tutupan terbuka
+
+\mathdisp {X= \bigcup_{i \in I} U_i \, \, \, \text{ dengan } U_i \text{ terbuka dan untuk suatu himpunan indeks sebarang }I} {  }
+
+terdapat suatu himpunan bagian hingga
+
+\mavergleichskette
+{\vergleichskette
+{J
+}
+{ \subseteq }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sedemikian sehingga
+
+\mavergleichskettedisp
+{\vergleichskette
+{ X
+}
+{ =} { \bigcup_{i \in J} U_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+.
+
+}
+
+Sifat ini kadang-kadang juga disebut \stichwort {kompak terhadap tutupan} {.} Sering kali sifat Hausdorff juga disertakan dalam pengertian kompak. Perlu ditekankan bahwa sifat ini
+\betonung{tidak}{} menyatakan adanya suatu tutupan hingga yang terdiri atas himpunan-himpunan terbuka
+\zusatzklammer {tutupan terbuka trivial yang hanya terdiri atas seluruh ruang selalu ada} {} {,}
+melainkan menyatakan bahwa dari sebarang tutupan terbuka, dengan sebarang himpunan indeks, cukup dipilih suatu himpunan bagian hingga dari himpunan indeks itu untuk tetap menutupi ruang tersebut.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Topologischer Raum/Abzählbare Basis/Überdeckungskompakt und folgenkompakt/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $X$ suatu
+\definitionsverweis {ruang topologis}{}{}
+dengan suatu
+\definitionsverweis {basis terhitung}{}{.}}
+\faktfolgerung {Maka $X$
+\definitionsverweis {kompak}{}{}
+jika dan hanya jika setiap barisan
+\mathl{\left(  x_n  \right)_{n \in  \N  }}{} di $X$ memiliki suatu
+\definitionsverweis {titik akumulasi}{}{}
+\zusatzklammer {di $X$} {} {}.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{Misalkan $X$ kompak dan diberikan suatu barisan
+\mathl{\left(  x_n  \right)_{n \in  \N  }}{}.
+Anggap bahwa barisan ini tidak memiliki titik akumulasi. Artinya, untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ y
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat suatu lingkungan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ y
+}
+{ \in }{ U_y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+yang hanya memuat sejumlah hingga suku barisan. Karena
+
+\mavergleichskettedisp
+{\vergleichskette
+{ X
+}
+{ =} { \bigcup_{y \in X} U_y
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+menurut asumsi terdapat suatu subtutupan hingga
+
+\mavergleichskettedisp
+{\vergleichskette
+{ X
+}
+{ =} { \bigcup_{i = 1}^n U_{y_i }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.} Tutupan ini di satu pihak memuat semua suku barisan, tetapi di pihak lain hanya memuat sejumlah hingga suku barisan, suatu kontradiksi.}
+{}
+
+\teilbeweis {}{}{}
+{Misalkan sifat barisan tersebut terpenuhi dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ X
+}
+{ = }{ \bigcup_{i \in I} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu tutupan oleh himpunan-himpunan terbuka. Karena $X$ memiliki suatu
+\definitionsverweis {basis terhitung}{}{,}
+berdasarkan
+[[Topologischer Raum/Abzählbare Basis/Überdeckung besitzt abzählbare Teilüberdeckung/Aufgabe|Soal 2.8 (Teori Ukuran dan Integrasi (Osnabrück 2022-2023))]]
+terdapat suatu himpunan bagian terhitung
+
+\mavergleichskette
+{\vergleichskette
+{ J
+}
+{ \subseteq }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ X
+}
+{ =} { \bigcup_{i \in J} U_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Kita dapat mengambil
+
+\mavergleichskette
+{\vergleichskette
+{ J
+}
+{ = }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sebagai asumsi. Anggap bahwa tutupan
+
+\mavergleichskette
+{\vergleichskette
+{ X
+}
+{ = }{ \bigcup_{i \in \N} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+tidak memiliki subtutupan hingga. Maka, khususnya,
+
+\mavergleichskette
+{\vergleichskette
+{ \bigcup_{i = 0}^n  U_i
+}
+{ \neq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan oleh karena itu untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat suatu
+
+\mathbed {x_n \in X} {dengan}
+ {x_n \not\in \bigcup_{i =0}^n  U_i} {}
+ {} {} {} {.}
+Menurut asumsi, barisan ini memiliki suatu titik akumulasi $x$. Karena
+
+\mavergleichskette
+{\vergleichskette
+{ X
+}
+{ = }{ \bigcup_{i \in \N} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan suatu tutupan, terdapat suatu
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \in }{ U_k
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Karena $x$ merupakan titik akumulasi, terdapat tak hingga banyak suku barisan di $U_k$. Ini merupakan kontradiksi, sebab menurut konstruksi, untuk
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ \geq }{ k
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suku-suku barisan $x_n$ tidak termasuk dalam $U_k$.}
+{}
+
+}
+
+Teorema berikut disebut \stichwort {teorema Heine--Borel} {.}
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Kompaktheit/Satz von Heine-Borel/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{T
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu himpunan bagian.}
+\faktuebergang {Maka pernyataan-pernyataan berikut ekuivalen.}
+\faktfolgerung {\aufzaehlungvier{ $T$
+\definitionsverweis {kompak terhadap tutupan}{}{.}
+}{Setiap
+\definitionsverweis {barisan}{}{}
+
+\mathl{\left(  x_n  \right)_{n \in  \N  }}{} di $T$ memiliki suatu
+\definitionsverweis {titik akumulasi}{}{}
+di $T$.
+}{Setiap
+\definitionsverweis {barisan}{}{}
+
+\mathl{\left(  x_n  \right)_{n \in  \N  }}{} di $T$ memiliki suatu
+\definitionsverweis {barisan bagian}{}{} yang \definitionsverweis {konvergen}{}{} di $T$.
+}{ $T$
+\definitionsverweis {tertutup}{}{}
+dan
+\definitionsverweis {terbatas}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{Ekuivalensi (1) dan (2) telah dibuktikan dalam bentuk yang lebih umum pada
+[[Topologischer Raum/Abzählbare Basis/Überdeckungskompakt und folgenkompakt/Fakt|Lema 13.13]];
+untuk keberadaan basis terhitung, lihat
+[[R^n/Abzählbare Topologie durch Bälle/Aufgabe|Soal 13.17]].}
+{}
+\teilbeweis {}{}{}
+{Ekuivalensi (2) dan (3) jelas.}
+{}
+\teilbeweis {}{}{}
+{Ekuivalensi (3) dan (4) telah ditunjukkan dalam
+[[Kompaktheit/R^n/Charakterisierung mit konvergenten Teilfolgen/Fakt|Teorema 36.9 (Analisis (Osnabrück 2021-2023))]].}
+{}
+
+}
+
+  \zwischenueberschrift{Ukuran pada manifold}
+
+Misalkan $M$ sebuah manifold. Adakah pengertian volume yang bermakna untuk
+\zusatzklammer {himpunan-himpunan bagian dari} {} {}
+$M$, dan kapan suatu fungsi yang didefinisikan pada $M$ dapat diintegralkan secara bermakna? Jika teori ukuran dijadikan kerangka umum, diperoleh gambaran berikut. Anggap bahwa $M$ memiliki suatu atlas terhitung
+\mathl{(U_i,V_i,\alpha_i, i \in I)}{}. Suatu ukuran $\mu$ pada himpunan-himpunan Borel
+\mathl{{\mathcal B }(M)}{} ditentukan secara tunggal oleh pembatasan-pembatasan
+
+\mavergleichskette
+{\vergleichskette
+{ \mu_i
+}
+{ = }{ \mu \vert_{U_i }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dari ukuran tersebut pada himpunan-himpunan bagian terbuka $U_i$. Untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ i
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+homeomorfisme
+\maabbdisp {\alpha_i} {U_i } { V_i
+} {}
+mendefinisikan ukuran citra
+
+\mavergleichskette
+{\vergleichskette
+{ \nu_i
+}
+{ = }{ {\alpha_i }_* \mu_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+pada
+
+\mavergleichskette
+{\vergleichskette
+{ V_i
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Ukuran-ukuran citra
+
+\mathbed {\nu_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+saling berhubungan melalui
+
+\mavergleichskettedisp
+{\vergleichskette
+{\nu_i ( \alpha_i(T))
+}
+{ =} { \mu(T)
+}
+{ =} {\nu_j( \alpha_j(T))
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk setiap himpunan bagian terukur
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ U_i \cap U_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dengan pergantian peta
+
+\mavergleichskette
+{\vergleichskette
+{ \psi_{ij}
+}
+{ = }{ \alpha_j \circ \alpha_i^{-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+hal ini berarti
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nu_i(S)
+}
+{ =} { \nu_j ( \psi_{ij} (S))
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk setiap himpunan terukur
+
+\mavergleichskette
+{\vergleichskette
+{ S
+}
+{ \subseteq }{ V_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang seluruhnya terletak di dalam domain pemetaan transisi.
+
+Sekarang anggap bahwa setiap ukuran citra $\nu_i$ dapat dituliskan menggunakan suatu
+\definitionsverweis {kerapatan}{}{}
+terhadap
+\definitionsverweis {ukuran Borel--Lebesgue}{}{}
+$\lambda^n$, misalnya
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nu_i
+}
+{ =} { g_i d \lambda^n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dengan
+\definitionsverweis {fungsi-fungsi yang dapat diintegralkan}{}{}
+yang didefinisikan pada $V_i$
+dan dinyatakan oleh
+\maabb {g_i} {V_i } {\R
+} {.}
+Untuk suatu himpunan bagian terukur
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \mu(T)
+}
+{ =} { \nu_i(\alpha_i(T))
+}
+{ =} { \int_{ \alpha_i(T)  }  g_i    \,  d  \lambda^n
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Untuk suatu himpunan bagian terukur
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ U_i \cap U_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+maka, menurut
+[[Diffeomorphismus/Transformationsformel für Integrale/Fakt|rumus transformasi]],
+yang diterapkan pada pemetaan transisi difeomorfik
+\maabbdisp {\psi_{ij}} { \alpha_i(U_i \cap U_j) } { \alpha_j(U_i \cap U_j)
+} {,}
+yang membawa
+\mathl{\alpha_i(T)}{} ke
+\mathl{\alpha_j(T)}{}, berlaku kesamaan
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \int_{ \alpha_i(T)  }  g_i    \,  d  \lambda^n
+}
+{ =} { \int_{ \alpha_j(T)  }  g_j    \,  d  \lambda^n
+}
+{ =} { \int_{ \alpha_i(T)  }   \betrag {  \det  \left(  D  \psi_{ij}  \right)  } \cdot  ( g_j \circ  \psi_{ij} )   \,  d  \lambda^n
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+Hal ini menyarankan, bagi fungsi-fungsi kerapatan
+
+\mathbed {g_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+perilaku transformasi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g_i
+}
+{ =} { \betrag {  \det  \left(  D  \psi_{ij}  \right)  } \cdot ( g_j \circ \psi_{ij} )
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\zusatzklammer {meskipun perilaku ini tidak dipaksakan, karena suatu kerapatan tidak ditentukan secara tunggal oleh ukurannya} {} {.}
+Kita akan membangun teori integrasi pada manifold berdasarkan konsep bentuk diferensial-$n$, yang secara alami memiliki perilaku transformasi ini
+\zusatzklammer {tanpa nilai mutlak} {} {}.
+
+ [[Kategori:Latexseite]]

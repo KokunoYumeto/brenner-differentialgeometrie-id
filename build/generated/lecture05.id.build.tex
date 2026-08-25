@@ -1,0 +1,1487 @@
+\setcounter{section}{5}
+
+  \zwischenueberschrift{Kelengkungan Utama}
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+pada setiap titik di $Y$. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Kita mendefinisikan berbagai konsep kelengkungan dengan mengacu pada
+\definitionsverweis {pemetaan Weingarten}{}{}
+\maabbdisp {L_P} {T_PY} { T_PY
+} {.}
+
+Catatan edisi: sumber memakai hipotesis $C^1$ dalam pengantar dan dua definisi berikut, meskipun pemetaan Weingarten mendiferensialkan medan normal. Ketiga hipotesis diperkuat menjadi $C^2$ agar objek yang didefinisikan benar-benar tersedia.
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+pada setiap titik di $Y$. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Setiap
+\definitionsverweis {nilai eigen}{}{}
+dari
+\definitionsverweis {pemetaan Weingarten}{}{}
+\maabbeledisp {L_P} {T_P Y} { T_PY
+} { v } { - \left(  D_{v}  N   \right) \left(   P  \right)
+} {,}
+disebut suatu
+\definitionswort {kelengkungan utama}{}
+dari $Y$ di $P$.
+
+}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+pada setiap titik di $Y$. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Setiap
+\definitionsverweis {vektor eigen}{}{}
+dari
+\definitionsverweis {pemetaan Weingarten}{}{}
+\maabbeledisp {L_P} {T_P Y} { T_PY
+} { v } { - \left(  D_{v}  N   \right) \left(   P  \right)
+} {,}
+disebut suatu
+\definitionswort {arah kelengkungan utama}{}
+dari $Y$ di $P$.
+
+}
+
+Istilah \stichwort {vektor kelengkungan utama} {} juga digunakan sebagai pengganti arah kelengkungan utama; istilah arah kelengkungan utama khususnya digunakan untuk vektor eigen dengan norma $1$. Berdasarkan
+Korolari 4.8,
+pemetaan Weingarten memiliki suatu basis ortonormal yang terdiri atas vektor-vektor eigen, yakni arah-arah kelengkungan utama. Pada umumnya, dipilih suatu basis ortonormal yang terdiri atas arah-arah kelengkungan utama. Kelengkungan-kelengkungan utama merupakan bilangan real yang sering diurutkan menurut besarnya dan ditulis sebagai
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \kappa_1
+}
+{ \leq} { \kappa_2
+}
+{ \leq   \ldots \leq} { \kappa_{n-1}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan disebut \stichwort {tupel kelengkungan utama} {.} Setiap $\kappa$ dicantumkan sebanyak dimensi ruang eigen yang bersesuaian, yaitu sebanyak
+\definitionsverweis {multiplisitas geometrik}{}{nya.}
+
+Menurut
+Teorema 23.2 (Aljabar Linear (Osnabrück 2024-2025)),
+kelengkungan-kelengkungan utama diperoleh dengan menentukan akar-akar
+\definitionsverweis {polinom karakteristik}{}{}
+dari
+\definitionsverweis {pemetaan Weingarten}{}{,}
+sedangkan
+\definitionsverweis {ruang-ruang eigen}{}{}
+yang bersesuaian diperoleh menggunakan
+Lemma 22.1 (Aljabar Linear (Osnabrück 2024-2025)).
+
+\inputbeispiel{}
+{
+
+Misalkan
+\mathl{a_1 , \ldots , a_{n-1}}{} bilangan-bilangan real. Kita meninjau fungsi
+\maabbeledisp {f} {\R^{n-1}} {\R
+} { \left(  x_1   , \,   \ldots  , \,   x_{n-1}                 \right) } { a_1x_1^2  + \cdots + a_{n-1} x_{n-1}^2
+} {.}
+Menurut
+Lemma 4.9,
+\definitionsverweis {pemetaan Weingarten}{}{}
+dari
+\definitionsverweis {grafik}{}{}
+$f$ di titik nol dijelaskan oleh
+\definitionsverweis {matriks Hesse}{}{}
+dari $f$, yaitu oleh
+
+\mathdisp {\begin{pmatrix}  2a_1  & 0 & 0 & 0 \\ 0 &  2a_2  & 0  & 0 \\ 0 & 0 &   \ddots & 0 \\ 0 & 0 & 0 &  2a_{n-1}  \end{pmatrix}} { . }
+
+Jadi,
+\definitionsverweis {kelengkungan-kelengkungan utama}{}{}
+grafik tersebut di titik nol adalah $2a_1  , \ldots , 2a_{n-1}$ dan
+\definitionsverweis {arah-arah kelengkungan utama}{}{}
+diberikan oleh vektor-vektor standar. Secara khusus, setiap tupel bilangan real muncul sebagai tupel kelengkungan utama suatu hipermuka terdiferensialkan.
+
+}
+
+  \zwischenueberschrift{Kelengkungan pada Permukaan}
+
+Sekarang kita menelaah lebih saksama konsep-konsep kelengkungan pada permukaan terdiferensialkan di ruang.
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah serat di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+pada setiap titik di $Y$, dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+\definitionsverweis {Rata-rata aritmetika}{}{}
+
+\mathl{{ \frac{   \kappa_1+\kappa_2  }{  2 } }}{} dari kedua
+\definitionsverweis {kelengkungan utama}{}{}
+di $P$ disebut
+\definitionswort {kelengkungan rata-rata}{}
+permukaan $Y$ di $P$.
+
+}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah serat di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+pada setiap titik di $Y$, dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Hasil kali
+\mathl{\kappa_1 \cdot \kappa_2}{} dari kedua
+\definitionsverweis {kelengkungan utama}{}{}
+di $P$ disebut
+\definitionswort {kelengkungan Gauss}{}
+permukaan $Y$ di $P$.
+
+}
+
+Kelengkungan Gauss adalah
+\definitionsverweis {determinan}{}{}
+dari pemetaan Weingarten.
+
+\inputbeispiel{}
+{
+
+Pada permukaan bola berjari-jari $r$,
+\definitionsverweis {pemetaan Weingarten}{}{}
+\zusatzklammer {terhadap medan normal satuan yang mengarah ke dalam} {} {}
+di setiap titik, menurut
+Contoh 4.4,
+adalah homoteti skalar dengan faktor ${ \frac{   1  }{ r } }$. Oleh karena itu, ${ \frac{   1  }{ r } }$ merupakan satu-satunya
+\definitionsverweis {kelengkungan utama}{}{}
+dengan multiplisitas $2$, dan
+\definitionsverweis {kelengkungan Gauss}{}{}
+adalah
+\mathl{{ \frac{   1  }{ r^2 } }}{.}
+
+}
+
+\inputbeispiel{}
+{
+
+Untuk hiperboloid satu lembar
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ =} { \left\{ (x,y,z)  \mid   x^2+y^2-z^2  = 1         \right\}
+}
+{ \subseteq} { \R^3
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+berdasarkan perhitungan dalam
+Contoh 4.5,
+pada suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ (x,y,z)
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kedua
+\definitionsverweis {kelengkungan utama}{}{}
+adalah
+\mathkor {} {- \left(  x^2+y^2+z^2  \right)^{- { \frac{   1  }{  2 } } }} {dan} {\left(  x^2+y^2+z^2  \right)^{- { \frac{   3  }{  2 } } }} {,}
+sehingga
+\definitionsverweis {kelengkungan Gauss}{}{}
+adalah
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ - \left(  x^2+y^2+z^2  \right)^{- { \frac{   1  }{  2 } } }  \cdot \left(  x^2+y^2+z^2  \right)^{- { \frac{   3  }{  2 } } }
+}
+{ =} { - \left(  x^2+y^2+z^2  \right)^{- 2 }
+}
+{ =} { -  { \frac{   1  }{  \left(  x^2+y^2+z^2  \right)^{ 2 }   } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+\inputbeispiel{}
+{
+
+Misalkan $Y$ adalah
+\definitionsverweis {grafik}{}{}
+suatu fungsi yang dua kali terdiferensialkan secara kontinu
+\maabbele {f} { V } { \R
+} {(x,y)} { f(x,y)
+} {,}
+pada suatu himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Menurut
+Lemma 4.9,
+\definitionsverweis {pemetaan Weingarten}{}{}
+\zusatzklammer {terhadap medan normal satuan yang mengarah ke atas} {} {}
+di setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ (Q,f(Q))
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+memiliki bentuk berikut. Tuliskan
+\mathl{g=\operatorname{Grad} f(Q)}{,}
+\mathl{G=I_2+gg^{\mathsf T}}{,}
+\mathl{H=\operatorname{Hess} f(Q)}{,}
+dan
+\mathl{\omega=\sqrt{1+\lVert g\rVert^2}}{.}
+Dalam basis koordinat grafik, $G$ adalah matriks metrik dan matriks $A$ dari pemetaan Weingarten adalah
+
+\mathdisp {A=G^{-1}{ \frac{ 1 }{ \omega } }H} { . }
+
+Jadi, koordinat $u$ dari suatu arah kelengkungan utama memenuhi masalah nilai eigen umum
+
+\mathdisp {Hu=\kappa\,\omega Gu} { . }
+
+Hanya apabila $g=0$ masalah ini mereduksi menjadi masalah nilai eigen biasa untuk matriks Hesse. Untuk permukaan ini,
+\definitionsverweis {kelengkungan Gauss}{}{}
+adalah
+
+\mathdisp {K={ \frac{ \det H }{ \omega^4 } }={ \frac{ \det\!\left(\operatorname{Hess}f(Q)\right) }{ \left(1+\lVert\operatorname{Grad}f(Q)\rVert^2\right)^2 } }} { . }
+
+Catatan edisi: sumber menunjuk contoh bola yang tidak terkait dan menghilangkan faktor invers metrik $G^{-1}$. Akibatnya, pernyataan sumber tentang arah utama dan penyebut kelengkungan Gauss tidak benar secara umum; pernyataan itu tereduksi ke rumus yang benar pada titik kritis $f$. Rumus di atas menerapkan Lemma 4.9 yang telah diperbaiki pada Unit 4.
+
+}
+
+\inputbeispiel{}
+{
+
+Misalkan $I$ suatu
+\definitionsverweis {interval terbuka}{}{}
+dan
+\maabb {f} { I } { \R_+
+} {}
+suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{,}
+misalkan $Y$ adalah
+\definitionsverweis {permukaan putar}{}{}
+yang bersesuaian
+\zusatzklammer {mengelilingi sumbu $x$} {} {}
+dengan
+\definitionsverweis {grafik}{}{}
+$f$, dan misalkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ P
+}
+{ =} { \begin{pmatrix}  x_0  \\f(x_0)\\  0   \end{pmatrix}
+}
+{ \in} { Y
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\zusatzklammer {yang bukan merupakan pembatasan berarti} {} {.}
+Kita meninjau bagian permukaan putar yang, pada suatu lingkungan $(x_0,0)$ yang termuat dalam
+\mathl{\left\{ (x,z)   \mid   z^2 < f(x)^2        \right\}=\left\{(x,z)\mid |z|<f(x)\right\}}{,} dapat ditulis sebagai grafik dari
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g(x,z)
+}
+{ =} { \sqrt{ f(x)^2-z^2 }
+}
+{ =} { \left(  f(x)^2-z^2   \right)^{1/2}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Matriks Jacobi dari $g$ adalah
+
+\mathdisp {\left(  \left(  f(x)^2-z^2  \right)^{-1/2}  f(x) f'(x)   , \,   - z \left(  f(x)^2-z^2  \right)^{-1/2}                   \right)} {  }
+
+Untuk meringkas tampilan matriks berikut, tulis $s=f(x)^2-z^2>0$. Matriks Hesse dari $g$ adalah
+
+\mathdisp {\begin{pmatrix}  -s^{-3/2} f(x)^2 f'(x)^2 + s^{-1/2} \left(  f'(x)^2 + f(x) f^{\prime \prime} (x)   \right)   &   z s^{-3/2} f(x) f'(x)   \\  z s^{-3/2} f(x) f'(x)  &  -s^{-1/2}  -z^2 s^{-3/2}  \end{pmatrix}} {  }
+
+atau merupakan hasil kali skalar
+\mathl{\left(  f(x)^2-z^2  \right)^{-3/2}}{} dengan matriks
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \begin{pmatrix}  -  f(x)^2 f'(x)^2 + \left(  f(x)^2-z^2  \right) \left(  f'(x)^2 + f(x) f^{\prime \prime} (x)   \right)   &   z  f(x) f'(x)   \\  z f(x) f'(x)  &  - \left(  f(x)^2-z^2  \right)  -z^2   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  f(x)^3 f^{\prime \prime} (x)  -z^2 f'(x)^2    -z^2 f(x) f^{\prime \prime} (x)    &   z  f(x) f'(x)   \\  z f(x) f'(x)  &  - f(x)^2  \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Untuk titik $P$ yang dipilih, hasil ini adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   1  }{  f(x_0)^3 } } \begin{pmatrix}  f(x_0)^3 f^{\prime \prime} (x_0)   &   0   \\  0  &  - f(x_0)^2  \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  f^{\prime \prime} (x_0)   &   0   \\  0  &  -  { \frac{   1  }{ f(x_0) } }   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Menurut
+Lemma 4.9,
+dengan
+\mathl{\omega=\sqrt{1+f'(x_0)^2}}{,}
+faktor invers metrik grafik juga harus diperhitungkan. Pemetaan Weingarten di $P$ adalah
+
+\mathdisp {\begin{pmatrix}  { \frac{ f^{\prime \prime}(x_0) }{ \omega^3 } } & 0 \\ 0 & -{ \frac{ 1 }{ f(x_0)\omega } } \end{pmatrix}} { . }
+
+Dengan demikian, kedua
+\definitionsverweis {kelengkungan utama}{}{}
+adalah
+\mathkor {} {{ \frac{   f^{\prime \prime} (x_0)  }{  \left(1+f'(x_0)^2\right)^{3/2}  } }} {dan} {- { \frac{   1  }{  f(x_0) \sqrt{ 1 +f'(x_0)^2 }  } }} {,}
+sedangkan arah-arah kelengkungan utama adalah vektor-vektor standar atau citranya
+\mathkor {} {\begin{pmatrix}  1  \\f'(x_0)\\  0   \end{pmatrix}} {dan} {\begin{pmatrix}  0  \\ 0\\  1   \end{pmatrix}} {}
+di ruang singgung $T_PY$. Jadi, arah-arah kelengkungan utama membentang sepanjang grafik $f$ dan sepanjang gerak melingkar rotasi.
+\definitionsverweis {Kelengkungan Gauss}{}{}
+adalah
+
+\mathdisp {{ \frac{   - f^{\prime \prime} (x_0)  }{  f(x_0)  \left(  1 +f'(x_0)^2  \right)^2    } }} { . }
+
+Catatan edisi: sumber hanya mengasumsikan keterdiferensialan meskipun memakai $f''$, menuliskan daerah grafik yang keliru, dan kembali menghilangkan faktor invers metrik. Hipotesis, daerah, dan tiga rumus kelengkungan di atas telah diperbaiki.
+
+}
+
+  \zwischenueberschrift{Kelengkungan Normal}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+pada setiap titik di $Y$. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Untuk suatu vektor singgung ternormalisasi
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nilai
+\mathl{\left\langle  v  ,  L_P(v)  \right\rangle}{} disebut
+\definitionswort {kelengkungan normal}{}
+dari $Y$ di $P$ dalam arah $v$. Nilai tersebut dilambangkan dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \kappa(P,v)
+}
+{ = }{ \kappa(v)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+.
+
+}
+
+Menurut
+Lemma 4.6,
+kelengkungan normal sama dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  v  ,  L_P(v)  \right\rangle
+}
+{ =} { \left\langle  \gamma^{\prime \prime} (0)  ,  N(P)  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dengan $\gamma$ suatu realisasi kurva dari vektor singgung $v$. Jadi, kelengkungan normal mengukur komponen normal percepatan kurva tersebut.
+
+
+
+\inputfaktbeweis
+{Hyperfläche/Normalkrümmung/Berechnung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+pada setiap titik di $Y$. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Misalkan
+\mathl{\kappa_1 , \ldots , \kappa_{n-1}}{} adalah
+\definitionsverweis {kelengkungan-kelengkungan utama}{}{}
+dari $Y$ di $P$ dan
+\mathl{v_1 , \ldots , v_{n-1}}{} adalah
+\definitionsverweis {arah-arah kelengkungan utama}{}{}
+\definitionsverweis {ternormalisasi}{}{ yang bersesuaian dan membentuk suatu basis ortonormal.}}
+\faktfolgerung {Maka
+\definitionsverweis {kelengkungan normal}{}{}
+dari $Y$ di $P$ dalam arah
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+yang memenuhi $\lVert v\rVert=1$ adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \kappa(v)
+}
+{ =} { \sum_{i = 1}^{n-1} \kappa_i \left\langle  v  , v_i   \right\rangle^2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+Untuk vektor tak nol yang belum dinormalisasi, bentuk kuadratik pada ruas kanan memenuhi
+
+\mathdisp {\sum_{i=1}^{n-1}\kappa_i\left\langle v,v_i\right\rangle^2=\lVert v\rVert^2\kappa\!\left({ \frac{v}{\lVert v\rVert} }\right)} { . }
+
+Catatan edisi: sumber hanya menyebut vektor-vektor utama ``ternormalisasi'', padahal bukti memakai ortogonalitas, dan tidak mensyaratkan arah $v$ berpanjang satu. Kedua hipotesis itu dibuat eksplisit di sini.
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Dengan
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ = }{ \sum_{i = 1}^{n-1} a_i v_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan menggunakan ortogonalitas, diperoleh
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \kappa(v)
+}
+{ =} { \left\langle  v  ,  L_P(v)  \right\rangle
+}
+{ =} { \left\langle  \sum_{i = 1}^{n-1} a_i v_i  ,  L_P \left(  \sum_{i = 1}^{n-1} a_i v_i  \right)   \right\rangle
+}
+{ =} { \left\langle  \sum_{i = 1}^{n-1} a_i v_i  ,  \sum_{i = 1}^{n-1} \kappa_i a_i v_i   \right\rangle
+}
+{ =} { \sum_{i = 1}^{n-1} \kappa_i a_i^2
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \sum_{i = 1}^{n-1} \kappa_i \left\langle  v  , v_i   \right\rangle^2
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+
+}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Minimal surface curvature planes-de} {svg} }
+\end{center}
+\bildtext {Bidang-bidang kelengkungan utama, vektor normal, dan bidang singgung pada sebuah permukaan minimal. Label dalam berkas sumber dijelaskan seluruhnya oleh keterangan ini.} }
+
+\bildlizenz { Minimal surface curvature planes-de.svg } {} {Eric Gaba} {Commons} {CC-by-sa 3.0} {}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+pada setiap titik di $Y$. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {vektor singgung}{}{}
+yang berbeda dari $0$, dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ u
+}
+{ \in }{ N_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {vektor normal}{}{.}
+Vektor tersebut berbeda dari $0$. Bidang $\R u + \R v$ disebut
+\definitionswort {bidang normal}{}
+dari $Y$ melalui $P$.
+
+}
+
+Setiap vektor singgung
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+menentukan sebuah bidang normal $E$ secara tunggal, yang biasanya dipandang sebagai
+\mathl{P+E}{}.
+
+
+\inputfaktbeweis
+{Hyperfläche/Normalebene/Kurvenschnitt/Regularität/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+pada setiap titik di $Y$. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {bidang normal}{}{}
+melalui $P$ pada $Y$.}
+\faktfolgerung {Maka irisan
+\mathl{Y \cap (P+E)}{} merupakan suatu kurva bidang di $P+E$ yang reguler pada titik $P$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Setelah melakukan translasi, kita dapat mengasumsikan bahwa $P$ adalah titik nol ruang tersebut. Diferensial total
+\maabbdisp {\left(D h \right)_{ 0}} {\R^n } {\R
+} {}
+bersifat surjektif dan kernelnya adalah ruang singgung $T_PY$. Bidang $E$ memuat vektor-vektor normal $\neq 0$ yang tidak berada dalam kernel. Oleh karena itu, diferensial total dari pemetaan komposit
+
+\mathdisp {E \supseteq E \cap W \longrightarrow W \stackrel{h}{\longrightarrow} \R} {  }
+
+bersifat surjektif di titik $0$. Dengan demikian, teorema fungsi implisit dapat diterapkan, dan diperoleh bahwa serat tersebut merupakan kurva yang reguler di titik $0$.
+
+}
+
+Perhatikan bahwa irisan kurva tersebut tidak harus reguler di setiap titik.
+
+
+\inputfaktbeweis
+{Hyperfläche/Normalkrümmung/Normalebene/Kurvenschnitt/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+pada setiap titik di $Y$. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {bidang normal}{}{}
+melalui $P$ pada $Y$. Ambil suatu vektor satuan
+\mathl{v\in E\cap T_PY}{,}
+dan orientasikan bidang $P+E$ dengan menetapkan pasangan $(v,N(P))$ sebagai basis berorientasi positif. Dengan demikian, normal satuan kurva irisan di dalam bidang yang bersesuaian dengan arah singgung $v$ adalah $N(P)$.}
+\faktfolgerung {Maka
+\definitionsverweis {kelengkungan normal}{}{}
+dari $Y$ di $P$ dalam arah $v$ sama dengan kelengkungan bertanda
+\definitionsverweis {kelengkungan}{}{}
+kurva bidang
+
+\mavergleichskette
+{\vergleichskette
+{ Y \cap (P+E)
+}
+{ \subseteq }{ P+E
+}
+{ \cong }{ \R^2
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+di titik $P$. Tanpa pilihan orientasi yang kompatibel, hanya nilai mutlak kedua kelengkungan yang ditentukan secara invarian.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Untuk menyederhanakan notasi, kita mentranslasikan $P$ ke titik nol. Menurut
+Lemma 5.13,
+irisan $Y \cap E$ merupakan kurva yang reguler di $0$. Misalkan
+\maabbdisp {\gamma} { I } { Y \cap E
+} {}
+suatu realisasi yang dua kali terdiferensialkan dan berparametrisasi panjang busur dengan
+\mathl{\gamma(0)=0}{,}
+\mathl{\gamma'(0)=v}{,}
+dan normal satuan kurva $\gamma$ di dalam bidang yang kompatibel sama dengan $N(0)$. Menurut
+Lemma 4.6,
+kelengkungan normal sama dengan
+\mathl{\left\langle  \gamma^{\prime \prime}(0) , N(0)  \right\rangle}{.} Karena bidang normal memuat vektor normal satuan $N(0)$, seluruh perhitungan berlangsung di bidang $E$. Jadi, pernyataan tersebut mengikuti dari
+Lemma 3.8.
+
+Catatan edisi: sumber tidak menetapkan orientasi irisan bidang, sehingga kesamaan kelengkungan bertanda bersifat ambigu. Konvensi orientasi di atas menghilangkan ambiguitas tersebut.
+
+}

@@ -1,0 +1,1218 @@
+\setcounter{section}{6}
+
+  \zwischenueberschrift{Soal latihan}
+
+\inputaufgabe
+{}
+{
+
+Misalkan $Y$ adalah
+\definitionsverweis {grafik}{}{}
+fungsi
+
+\mavergleichskette
+{\vergleichskette
+{ f(x,y)
+}
+{ = }{ x^2-y^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+\aufzaehlungdrei{Buktikan bahwa
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F(x,y,z)
+}
+{ =} { \begin{pmatrix}  y  \\ x \\  0   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+memberikan suatu
+\definitionsverweis {medan vektor tangensial}{}{}
+pada $Y$.
+}{Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ \begin{pmatrix}  2  \\ 3 \\  -5   \end{pmatrix}
+}
+{ \in }{ Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Hitung
+\mathl{\nabla_v F}{} untuk
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ = }{ \begin{pmatrix}  2  \\ 1 \\  2   \end{pmatrix}
+}
+{ \in }{ T_PY
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+\emph{Catatan edisi: Tanda sama dengan pada sumber diperbaiki menjadi tanda keanggotaan, karena $v$ adalah vektor di $T_PY$.}
+}{Verifikasikan bahwa $\nabla_v F$ tangensial pada $Y$ di $P$.
+}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Pada
+\definitionsverweis {permukaan bola satuan}{}{}
+$Y$ yang berdimensi dua, kita tinjau
+\definitionsverweis {medan vektor tangensial}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F \begin{pmatrix}  x  \\ y \\ z   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  y  \\ -x\\  0   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+\aufzaehlungdrei{Tentukan
+\definitionsverweis {matriks Jacobi}{}{}
+dari $F$ pada $\R^3$.
+}{Untuk titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ \begin{pmatrix}  0  \\ 1 \\  0   \end{pmatrix}
+}
+{ \in }{ Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+tentukan suatu matriks bagi pemetaan
+\maabbeledisp {} {T_PY} { T_PY
+} { v } { \nabla_v F
+} {,}
+terhadap suatu
+\definitionsverweis {basis}{}{}
+yang sesuai.
+}{Untuk titik
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ = }{ \begin{pmatrix}  0  \\ 0\\  1   \end{pmatrix}
+}
+{ \in }{ Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+tentukan suatu matriks bagi pemetaan
+\maabbeledisp {} {T_QY} { T_QY
+} { v } { \nabla_v F
+} {,}
+terhadap suatu
+\definitionsverweis {basis}{}{}
+yang sesuai.
+}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $W$
+\definitionsverweis {terbuka}{}{,}
+adalah suatu
+\definitionsverweis {hipermuka terdiferensialkan}{}{,}
+dan misalkan
+\maabb {\gamma} { I } { Y
+} {}
+adalah suatu
+\definitionsverweis {kurva terdiferensialkan}{}{.}
+Buktikan pernyataan-pernyataan berikut.
+\aufzaehlungzwei {Jika $F$ adalah suatu
+\definitionsverweis {medan vektor paralel}{}{}
+sepanjang $\gamma$ dan
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+maka \mathl{aF}{} juga merupakan medan vektor paralel.
+} {Jika $F$ dan $G$ adalah medan-medan vektor paralel sepanjang $\gamma$, maka
+\mathl{F +G}{} juga merupakan medan vektor paralel.
+}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah suatu
+\definitionsverweis {hiperbidang}{}{.}
+Buktikan bahwa setiap
+\definitionsverweis {medan vektor tangensial}{}{}
+$F$ yang konstan
+\zusatzklammer {yang bersesuaian dengan suatu medan vektor pada
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \cong }{\R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+bersifat
+\definitionsverweis {paralel}{}{}
+\zusatzklammer {sepanjang setiap kurva} {}{}{.}
+
+\emph{Catatan edisi: Syarat ``konstan'' ditambahkan; medan tangensial umum pada hiperbidang tidak harus paralel.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ =} { \left\{  \begin{pmatrix}  x  \\ y \\ z   \end{pmatrix}   \mid   x^2+y^2+z^2 = 1        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {permukaan bola satuan}{}{}
+berdimensi dua dan
+\maabbele {\gamma} {[0,2\pi]} {Y
+} { t } { \begin{pmatrix}  \cos  t  \\ 0 \\  \sin  t   \end{pmatrix}
+} {.}
+Tentukan mana di antara medan-medan vektor berikut
+\maabbdisp {F} {[0,2\pi]} { \R^3
+} {}
+sepanjang $\gamma$ yang tangensial pada $Y$ dan mana yang
+\definitionsverweis {paralel}{}{.}
+\aufzaehlungfuenf{
+\mavergleichskette
+{\vergleichskette
+{ F (t)
+}
+{ = }{ \begin{pmatrix}  2  \\ 0 \\  1   \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{
+\mavergleichskette
+{\vergleichskette
+{ F (t)
+}
+{ = }{ \begin{pmatrix}  0  \\ 5 \\  0   \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{
+\mavergleichskette
+{\vergleichskette
+{ F (t)
+}
+{ = }{ \begin{pmatrix}  \cos  t  \\ 0 \\  \sin  t   \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{
+\mavergleichskette
+{\vergleichskette
+{ F (t)
+}
+{ = }{ \begin{pmatrix}  - \sin  t  \\ 0 \\  \cos  t   \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{
+\mavergleichskette
+{\vergleichskette
+{ F (t)
+}
+{ = }{ \begin{pmatrix}  t  \\e^t\\  \sin  t   \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^3
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $W$
+\definitionsverweis {terbuka}{}{,}
+adalah suatu
+\definitionsverweis {permukaan terdiferensialkan}{}{}
+yang dilengkapi dengan
+\definitionsverweis {medan normal satuan}{}{}
+$N$. Misalkan
+\maabb {\gamma} { I } { Y
+} {}
+adalah suatu kurva yang terdiferensialkan secara kontinu dan
+\maabbdisp {F} { I } { \R^3
+} {}
+adalah suatu
+\definitionsverweis {medan vektor tangensial}{}{}
+terdiferensialkan sepanjang $\gamma$ yang
+\definitionsverweis {paralel}{}{.}
+Buktikan bahwa medan vektor
+\maabbeledisp {} { I } { \R^3
+} { t } { N(\gamma(t)) \times F(t)
+} {,}
+juga paralel, dengan $\times$ menyatakan
+\definitionsverweis {hasil kali silang}{}{}
+di $\R^3$.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h(x,y,z)
+}
+{ =} { x^3-2y^4-3z^5
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(1)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Misalkan
+\maabbeledisp {\gamma} { (-3^{-1/5},\infty)} {Y
+} { t } { \begin{pmatrix}  \sqrt[3]{ 1+3t^5  } \\ 0 \\ t   \end{pmatrix}
+} {,}
+adalah suatu lintasan terdiferensialkan pada $Y$. Tentukan persamaan diferensial biasa dalam bentuk
+Catatan 6.10
+untuk
+\definitionsverweis {medan-medan vektor paralel}{}{}
+sepanjang $\gamma$.
+
+\emph{Catatan edisi: Domain sumber $\R$ dibatasi pada interval di atas karena komponen akar pangkat tiga tidak terdiferensialkan di $t=-3^{-1/5}$.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah suatu
+\definitionsverweis {hiperbidang}{}{.}
+Buktikan bahwa
+\definitionsverweis {transpor paralel}{}{}
+sepanjang setiap kurva pada $Y$ adalah identitas setelah semua
+\definitionsverweis {ruang singgung}{}{}
+$T_PY$ diidentifikasi secara kanonis dengan ruang arah linear $V=Y-P$ dari hiperbidang tersebut.
+
+\emph{Catatan edisi: Sumber mengidentifikasi ruang singgung hiperbidang afin langsung dengan $Y$. Identifikasi kanonis sebenarnya adalah dengan ruang arah linear $V=Y-P$; pernyataan diperjelas sesuai identifikasi tersebut.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $W$
+\definitionsverweis {terbuka}{}{,}
+adalah suatu
+\definitionsverweis {hipermuka terdiferensialkan}{}{,}
+dan misalkan
+\maabb {\gamma} {I =[a,b]} {Y
+} {}
+adalah suatu
+\definitionsverweis {kurva geodesik}{}{.}
+Buktikan bahwa
+\definitionsverweis {transpor paralel}{}{}
+sepanjang $\gamma$ membawa vektor singgung
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'(a)
+}
+{ \in }{ T_{\gamma(a)}Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ke vektor singgung
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'(b)
+}
+{ \in }{ T_{\gamma(b)}Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan $Y$ adalah
+\definitionsverweis {permukaan bola satuan}{}{}
+berdimensi dua dan
+\maabb {\gamma} {[0,2\pi]} {Y
+} {}
+adalah
+\definitionsverweis {parametrisasi panjang busur}{}{}
+dari suatu
+\definitionsverweis {lingkaran besar}{}{}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(0)
+}
+{ = }{ \gamma(2 \pi)
+}
+{ = }{ P
+}
+{ \in   }{ Y
+}
+{   }{
+}
+}
+{}{}{.}
+Buktikan bahwa
+\definitionsverweis {transpor paralel}{}{}
+yang bersesuaian adalah identitas pada $T_PY$.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ =} { \left\{  \begin{pmatrix}  x  \\ y \\ z   \end{pmatrix}   \mid   x^2+y^2+z^2 = 1        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {permukaan bola satuan}{}{}
+berdimensi dua,
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ \begin{pmatrix}  { \frac{   1  }{  2 } }  \\ 0 \\  { \frac{   \sqrt{3}  }{  2 } }   \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+\maabbele {\gamma} {[0,2\pi]} {Y
+} { t } { \begin{pmatrix}  { \frac{   1  }{  2  } } \cos  t  \\ { \frac{   1  }{  2  } }  \sin  t \\  { \frac{   \sqrt{3}  }{  2  } }   \end{pmatrix}
+} {.}
+Deskripsikan
+\definitionsverweis {transpor paralel}{}{}
+\maabb {\Psi_\gamma} { T_PY} {T_PY
+} {}
+terhadap suatu basis yang sesuai.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $W$
+\definitionsverweis {terbuka}{}{,}
+adalah suatu
+\definitionsverweis {hipermuka terdiferensialkan}{}{,}
+dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P,Q
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah titik-titik dengan
+\definitionsverweis {ruang-ruang singgung}{}{}
+\mathkor {} {T_PY} {dan} {T_QY} {.}
+Kita tinjau pemetaan
+\maabbeledisp {\varphi_{P,Q}} {T_PY} { T_QY
+} { v } { \pi_Q(v)
+} {,}
+yang memandang suatu vektor singgung di $P$ sebagai vektor di ruang sekitar $\R^n$, lalu memproyeksikannya secara ortogonal ke $T_QY$.
+\aufzaehlungvier{Apakah
+\mathl{\varphi_{P,Q}}{} linear?
+}{Apakah
+\mathl{\varphi_{P,Q}}{} bijektif?
+}{Apakah
+\mathl{\varphi_{P,Q}}{} suatu isometri?
+}{Apakah terdapat hubungan antara
+\mathl{\varphi_{P,Q}}{} dan
+\definitionsverweis {transpor paralel}{}{} $\Psi_\gamma$ sepanjang suatu kurva terdiferensialkan
+\maabb {\gamma} {[a,b]} { Y
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(a)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(b)
+}
+{ = }{ Q
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{?}
+}
+
+}
+{} {}
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+adalah suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik pada $Y$. Untuk suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+\definitionsverweis {subgrup}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ H
+}
+{ \subseteq }{ \operatorname{Iso} \left(  T_PY  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang terdiri atas semua
+\definitionsverweis {transpor paralel}{}{}
+\maabbdisp {\Psi_\gamma} {T_PY} {T_PY
+} {}
+yang diinduksi oleh
+\definitionsverweis {lintasan tertutup}{}{}
+$\gamma$ yang terdiferensialkan sepotong-sepotong pada $Y$ dari $P$ ke $P$, disebut
+\definitionswort {grup holonomi}{}
+di $P$.
+
+\emph{Catatan edisi: Regularitas sumber diperkuat dari $C^1$ menjadi $C^2$ agar medan normal dapat diturunkan dan transpor paralel yang dipakai dalam definisi ini terjamin.}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+adalah suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik pada $Y$. Buktikan bahwa
+\definitionsverweis {grup holonomi}{}{}
+di suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+memang merupakan suatu
+\definitionsverweis {subgrup}{}{}
+dari
+\definitionsverweis {grup isometri}{}{.}
+
+\emph{Catatan edisi: Hipotesis $C^1$ pada sumber diperkuat menjadi $C^2$, sesuai dengan regularitas yang diperlukan oleh transpor paralel.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah suatu
+\definitionsverweis {hiperbidang}{}{.}
+Tentukan
+\definitionsverweis {grup holonomi}{}{}
+di
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+  \zwischenueberschrift{Soal untuk dikumpulkan}
+
+\inputaufgabe
+{2}
+{
+
+Pada
+\definitionsverweis {permukaan bola satuan}{}{}
+$Y$ yang berdimensi dua, kita tinjau
+\definitionsverweis {medan vektor tangensial}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F \begin{pmatrix}  x  \\ y \\ z   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  y  \\ -x\\  0   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Untuk titik
+
+\mavergleichskette
+{\vergleichskette
+{ R
+}
+{ = }{ \begin{pmatrix}  { \frac{   1  }{  2 } }  \\ { \frac{   1  }{  2 } } \\  { \frac{   1  }{  \sqrt{2}  } }   \end{pmatrix}
+}
+{ \in }{ Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+tentukan suatu matriks bagi pemetaan
+\maabbeledisp {} {T_RY} { T_RY
+} { v } { \nabla_v F
+} {,}
+terhadap suatu
+\definitionsverweis {basis}{}{}
+yang sesuai.
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Misalkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h(x,y,z)
+}
+{ =} { x^2+y^2-2z^7
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(3)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Misalkan
+\maabbeledisp {\gamma} { [1,5] } { Y
+} { t } { \begin{pmatrix}  \sqrt{3  -4t^2+2t^7  } \\ 2t\\ t   \end{pmatrix}
+} {,}
+adalah suatu lintasan terdiferensialkan pada $Y$. Tentukan persamaan diferensial biasa dalam bentuk
+Catatan 6.10
+untuk
+\definitionsverweis {medan-medan vektor paralel}{}{}
+sepanjang $\gamma$.
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Buktikan bahwa
+\definitionsverweis {grup holonomi}{}{}
+\definitionsverweis {permukaan bola satuan}{}{}
+di setiap titik $P$ adalah grup isometri linear yang mempertahankan orientasi,
+\mathl{\operatorname{SO}(T_PY) \cong \operatorname{SO}(2)}{.}
+
+\emph{Catatan edisi: Sumber menyatakan grup isometri penuh $\operatorname{O}(2)$; transpor paralel mempertahankan orientasi, sehingga grup holonominya adalah $\operatorname{SO}(2)$.}
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+adalah suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik pada $Y$. Misalkan
+\maabbdisp {L} {\R^n } { \R^n
+} {}
+adalah suatu
+\definitionsverweis {isometri linear}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ W'
+}
+{ = }{ L^{-1}(W)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Z
+}
+{ =} { L^{-1}(Y)
+}
+{ =} { (h \circ L)^{-1}(c)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Jelaskan bagaimana konsep-konsep
+\definitionsverweis {medan vektor paralel}{}{,}
+\definitionsverweis {transpor paralel}{}{}
+dan
+\definitionsverweis {grup holonomi}{}{}
+berperilaku di bawah $L$.
+
+\emph{Catatan edisi: Hipotesis $C^1$ pada sumber diperkuat menjadi $C^2$, sesuai dengan regularitas yang diperlukan oleh transpor paralel dan holonomi.}
+
+}
+{} {}

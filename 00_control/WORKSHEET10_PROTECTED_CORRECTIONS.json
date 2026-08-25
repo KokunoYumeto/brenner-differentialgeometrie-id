@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-10/worksheet10.id.tex",
+  "prose_only_corrections": [
+    {
+      "correction_id": "O011-CORR-0099",
+      "anchor": "Exercise 7, union of disjoint closed submanifolds",
+      "change": "Add the missing equal-dimension hypothesis required for the union to be a submanifold of one fixed dimension."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_ids": [
+        "O011-CORR-0090",
+        "O011-CORR-0100"
+      ],
+      "surface": "profile:commands",
+      "source_sha256": "6bbacabd81ea0937431632d2001a11bcdf235f20baf6b2b1e592e35431d3a18e",
+      "target_sha256": "b8a8d9c7025e2fdc6d0132e282824af36e10a96b9378c1c318ff15877817301f"
+    },
+    {
+      "correction_ids": [
+        "O011-CORR-0090",
+        "O011-CORR-0100"
+      ],
+      "surface": "profile:inline_math",
+      "source_sha256": "467fb7a667ce2e09b9dc3e7e5f1c8fd1f5116f32cc1648c0cb39eb8687582449",
+      "target_sha256": "1c4e52ab363712c06cd4a1cebd8283a5ba5d539a586a0c929bc69de4b5645943"
+    },
+    {
+      "correction_id": "O011-TRANS-0102",
+      "surface": "protected:vergleichskette",
+      "index": 4,
+      "source_sha256": "438b220090b32f7f2ad1e545fa0b8c38d2e779dc018e813f0d520c789018c8d6",
+      "target_sha256": "fcf81930751755f49cada09de06dfea1cd584008bce322a14aa468c47ca4805b"
+    },
+    {
+      "correction_id": "O011-CORR-0100",
+      "surface": "profile:protected:maabbdisp",
+      "source_sha256": "b748336d1116dd623d78dac0004ec23eb2e50dcbbd0bfe0506367897bfb1fe57",
+      "target_sha256": "7f8db6c7219c6e0da87086391b1b99ffe4b12497da0073b40b8d8f7a40272f65"
+    },
+    {
+      "correction_id": "O011-CORR-0100",
+      "surface": "protected:mathdisp",
+      "index": 0,
+      "source_sha256": "19fb53131a838b062b452455f785e8f6fe324bb8064aa3485f4a66594e6c3300",
+      "target_sha256": "e72f67603760df41ee845b05de4157a1d17f5526fcdb90c193ecd64ae2e52b5d"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-CORR-0090",
+      "surface": "command:inputaufgabegibtloesung",
+      "occurrence_index": 2,
+      "source_sha256": "20072384006b554d47a4cfe511947d50d0f7e52910dd43e36577de29d5812957",
+      "target_sha256": "8ab3fa6f6d7d690f728a853cf976ecfdb89192f6f77c446d7e5f34ba4e38c995",
+      "verification_note": "The complete third solution-bearing exercise call binds the strengthened C^2 hypothesis."
+    },
+    {
+      "correction_id": "O011-CORR-0099",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 6,
+      "source_sha256": "8612b2dee639d87490bd03a49a8f8b8acea6a52395ff283b1b5d263640689c7b",
+      "target_sha256": "229ea12063a958c9d05201acfae311ee156ae0db731b2e224a8c95952da58035",
+      "verification_note": "The complete seventh exercise call binds the added equal-dimension hypothesis."
+    },
+    {
+      "correction_id": "O011-CORR-0100",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 12,
+      "source_sha256": "17078959dff2d14ae2430dc0b46b50f908f91c64fd9b42ffd3f3c622aaae1d08",
+      "target_sha256": "57eee3fe73eb7f4016a5023201809a20cad375a5d38de2ef434d2ca6d1277572",
+      "verification_note": "The complete sixteenth exercise call binds the definition and label of X_i."
+    },
+    {
+      "correction_id": "O011-CORR-0101",
+      "surface": "command:mathl",
+      "occurrence_index": 14,
+      "source_sha256": "3e528aeeaf07c8732cc9db243d5cc1ade335d2938a324e708f44dc459cbf008c",
+      "target_sha256": "d30c814a0d12ffc68a5ff4520c9e974658fb041607a49539f51f4a9e3d415f45",
+      "source_latex": "\\mathl{T_{S_1}}{}",
+      "target_latex": "\\mathl{TS^1}{}"
+    }
+  ]
+}

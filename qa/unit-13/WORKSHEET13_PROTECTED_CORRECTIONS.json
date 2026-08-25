@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-13/worksheet13.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-TRANS-0151",
+      "anchor": "Exercise 11, maximum inequality",
+      "change": "Translate the visible German phrase 'für alle' inside the protected mathdisp formula to Indonesian 'untuk semua'; the quantified inequality and all mathematical symbols remain unchanged."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-TRANS-0151",
+      "surface": "protected:mathdisp",
+      "index": 1,
+      "source_sha256": "f05e7389851fb3eff0b8b065e16653d597d9b40e9b0cb7ed36ffb0be85189ac2",
+      "target_sha256": "67bf5555ac1ce695a1e3c6d54501c6e54bc3fb93df503f9ce5ccfff72a7b5291"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-TRANS-0151",
+      "surface": "command:inputaufgabegibtloesung",
+      "occurrence_index": 2,
+      "source_sha256": "77239ebdf5fd8b9bfeca16af7cc49fd156c0ec7a09a0078e16d29e79493ff1e5",
+      "target_sha256": "72a49eac822e34b7ce274d32b2d82feecc812638a25cd92bf71b057a5677124c",
+      "verification_note": "The complete eleventh exercise call binds the Indonesian visible text inside the protected quantified maximum formula."
+    }
+  ]
+}

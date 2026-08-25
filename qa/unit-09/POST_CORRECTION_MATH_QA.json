@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-23T22:09:00+02:00",
+  "unit_id": "o011-brenner-u09",
+  "status": "pass",
+  "scope": "Complete Lecture 9 and Worksheet 9; translation, protected-math preservation, bounded mathematical review, exact one-asset rights closure, and explicit source-correction closure. The cumulative reader/backend/publication gate remains deferred through Unit 10.",
+  "authority": {
+    "preflight": {
+      "path": "qa/unit-09/AUTHORITY_PREFLIGHT.json",
+      "bytes": 27017,
+      "sha256": "6425743defefc74dbe17d0870f6f6cfafe58c224474a001ace1c411950f1ba0a"
+    },
+    "lecture": {
+      "path": "authority/expanded/lecture09_source.de.tex",
+      "bytes": 25318,
+      "sha256": "88993b430407a58ad8db4b8006320a3b8ca190fbb02a04d52f3fc8731b55526a"
+    },
+    "worksheet": {
+      "path": "authority/expanded/worksheet09_source.de.tex",
+      "bytes": 9211,
+      "sha256": "a852a6a793f860d387075bb38be9606cb2c3b26b4558e15323ba61bb127aaa3f"
+    }
+  },
+  "targets": {
+    "lecture": {
+      "path": "source/units/unit-09/lecture09.id.tex",
+      "bytes": 26132,
+      "sha256": "9e3b12f4168c4f7a8c246c4c9106d1154be237e9080e12e0a21bcd8942d61bba",
+      "translation_receipt": "qa/unit-09/lecture09_translation.json",
+      "translation_receipt_sha256": "59e18dce250ab149a84ce35230bc88dbe214fe388dda41785270ac7ed34cb3ba"
+    },
+    "worksheet": {
+      "path": "source/units/unit-09/worksheet09.id.tex",
+      "bytes": 10331,
+      "sha256": "4079437947ab31c9216e3ee6059badc8cf7d780ead1df93cd5cfb6f1cd7d3e9d",
+      "translation_receipt": "qa/unit-09/worksheet09_translation.json",
+      "translation_receipt_sha256": "faff592d00f3e7bbf9d71e1eb547996f1213fb1305217a2b038bac599affbcf8"
+    }
+  },
+  "source_closure": {
+    "exercise_count": 17,
+    "practice_exercise_count": 13,
+    "graded_exercise_count": 4,
+    "point_total": 23,
+    "hint_fields_blank": true,
+    "supplied_solution_indices": [],
+    "media_occurrence_count": 1
+  },
+  "media": [
+    {
+      "filename": "Tangentialvektor.svg",
+      "path": "authority/media/Tangentialvektor.svg",
+      "bytes": 4790,
+      "sha256": "ed39381859fa3f6e4240ad7112388600a59126e71bc5aac5943a87f11d9e5301",
+      "license": "Public domain",
+      "rights_status": "exact authority binary and file-specific rights preserved"
+    }
+  ],
+  "checks": {
+    "both_translation_receipts_pass": true,
+    "utf8_without_replacement_character": true,
+    "command_environment_and_protected_macro_profiles_preserved_or_explicitly_declared": true,
+    "all_declared_deltas_consumed": true,
+    "all_evidence_only_deltas_verified": true,
+    "exercise_order_points_blank_hints_and_zero_solution_presence_preserved": true,
+    "reader_visible_german_residue_found": false,
+    "residual_german_strings_are_protected_internal_link_input_or_asset_attribution_targets_only": true,
+    "plural_internal_fact_and_exercise_link_targets_exist_in_frozen_recursive_export": true,
+    "all_mathematical_source_repairs_disclosed_in_reader_and_adverse_ledger": true,
+    "no_cumulative_build_backend_or_publication_claimed_at_this_per_unit_boundary": true
+  },
+  "declared_corrections": [
+    "O011-CORR-0080",
+    "O011-CORR-0081",
+    "O011-CORR-0082",
+    "O011-CORR-0083",
+    "O011-CORR-0084",
+    "O011-CORR-0085",
+    "O011-CORR-0086",
+    "O011-TRANS-0087"
+  ],
+  "correction_manifests": [
+    {
+      "path": "00_control/LECTURE09_PROTECTED_CORRECTIONS.json",
+      "bytes": 3567,
+      "sha256": "6138e9ad10c2911a0041f863f7657471735351b794dc7247f20cccab27e0b048"
+    },
+    {
+      "path": "00_control/WORKSHEET09_PROTECTED_CORRECTIONS.json",
+      "bytes": 2815,
+      "sha256": "fdb33b4fd49cbcc77b63c64b91cf54a74264f6670528d3a06775bdb6715f9e76"
+    }
+  ],
+  "ledgers": {
+    "terminology": {
+      "path": "00_control/TERMINOLOGY.csv",
+      "records": 176,
+      "bytes": 15297,
+      "sha256": "b5da78ae65ddf2471b29adb1c2ee516c60dcd2062ccaef84c1ce56728372d79d"
+    },
+    "adverse": {
+      "path": "00_control/ADVERSE_LEDGER.csv",
+      "records": 96,
+      "bytes": 29182,
+      "sha256": "3a5d9dd4240dd81971e3ba4443cc6bb90ddeafe70220c8a5bbde25ee1d957df8"
+    }
+  },
+  "next_action": "Translate the complete frozen Unit 10 lecture, worksheet, and exactly four supplied solutions, then run the single consolidated Units 1-10 PDF, semantic HTML, backend, visual, accessibility, reproducibility, and publication gate."
+}

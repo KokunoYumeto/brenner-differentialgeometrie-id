@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-12/worksheet12_exercise11_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0130",
+      "anchor": "quotient-map identification for x in U_ij",
+      "change": "Replace the ill-typed phi_ij(x) by phi_ji(x), because phi_ji maps U_ij to U_ji under the gluing convention used by the exercise and the displayed commutative diagram."
+    }
+  ],
+  "allowed_deltas": [],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-CORR-0130",
+      "surface": "command:mathl",
+      "occurrence_index": 0,
+      "source_sha256": "03ba360302556ad346fef14708eabca1bd033d94cae907cdda6cf3845c55f626",
+      "target_sha256": "84967d57522fb5cf8f49ec8e8ddee170ad56b8ac34a9bfa675b2d4e957da829b",
+      "source_latex": "\\mathl{\\varphi_{ij}(x)}{}",
+      "target_latex": "\\mathl{\\varphi_{ji}(x)}{}"
+    }
+  ]
+}

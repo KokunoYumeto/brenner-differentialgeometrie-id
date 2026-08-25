@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "source": "authority/expanded/lecture13_source.de.tex",
+  "source_bytes": 23322,
+  "source_sha256": "3416c47b07bef5b03ca2d70e4dae74691342555a207663af61d908ee0fe05da5",
+  "target": "source/units/unit-13/lecture13.id.tex",
+  "target_bytes": 23437,
+  "target_sha256": "967551bab13674a72cd13fdde37bb9b1d0037adbc29d5a0059ec6f68258dc4db",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 629,
+    "environments": 2,
+    "inline_math": 73,
+    "display_math": 0,
+    "protected_calls": 83
+  },
+  "status": "pass",
+  "failures": [],
+  "declared_corrections": [
+    "O011-CORR-0135",
+    "O011-TRANS-0138",
+    "O011-TRANS-0139",
+    "O011-TRANS-0136",
+    "O011-TRANS-0137"
+  ],
+  "evidence_only_results": [
+    {
+      "correction_id": "O011-CORR-0135",
+      "surface": "command:bildlizenz",
+      "occurrence_index": 0,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0136",
+      "surface": "command:mathkor",
+      "occurrence_index": 0,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0136",
+      "surface": "command:mathkor",
+      "occurrence_index": 1,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0136",
+      "surface": "command:mathkor",
+      "occurrence_index": 2,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0136",
+      "surface": "command:mathkor",
+      "occurrence_index": 3,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0136",
+      "surface": "command:mathkor",
+      "occurrence_index": 4,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0136",
+      "surface": "command:mathkor",
+      "occurrence_index": 5,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0136",
+      "surface": "command:mathkor",
+      "occurrence_index": 6,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 0,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 1,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 2,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 3,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 4,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 5,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 6,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 7,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 8,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 9,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 10,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 11,
+      "status": "pass",
+      "detail": "verified"
+    }
+  ]
+}

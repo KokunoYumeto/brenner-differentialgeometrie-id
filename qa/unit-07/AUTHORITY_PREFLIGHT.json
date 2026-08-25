@@ -1,0 +1,974 @@
+{
+  "authority": {
+    "course_recursive_export": {
+      "bytes": 3538709,
+      "path": "authority/mediawiki/brenner_course_recursive_current.xml",
+      "sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14"
+    },
+    "latex_surface_recursive_export": {
+      "bytes": 3722387,
+      "path": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+      "sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c"
+    },
+    "pages": {
+      "lecture_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture07_latex_surface_revid807141.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1199,
+          "path": "authority/mediawiki/lecture07_latex_surface_revid807141.metadata.json",
+          "sha256": "357b72e7d53e82c428a02013ef84cf16e13b4ad25e0482d60566858bdb51ebd8"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142581,
+        "parentid": 799050,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/lecture07_latex_surface_revid807141.wiki",
+        "revid": 807141,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T10:03:00Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 7/latex"
+      },
+      "lecture_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "90b208c3d7e95ca498264596dd8d0add5282f4aaec6b60cd2758e813e88cca6d",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture07_root_revid1052941.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "37za5lak4buk6icxuwqmlp5i93uh4ai",
+        "metadata": {
+          "bytes": 1174,
+          "path": "authority/mediawiki/lecture07_root_revid1052941.metadata.json",
+          "sha256": "0ee0863ac29db1ab29276c79f8890d1e590ae30425c7825e1e406ebd596392b1"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142551,
+        "parentid": 941695,
+        "readable_normalized_bytes": 4104,
+        "readable_normalized_sha256": "26f5f4d8e7555216465667b14e42e5574c9c2c90dd5acbccf5b68cc4d899bbb2",
+        "readable_normalized_witness": "authority/mediawiki/lecture07_root_revid1052941.wiki",
+        "revid": 1052941,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 4103,
+        "source_utf8_sha1": "1b9484357ebbbf086e26e5208236b4302fce09fa",
+        "source_utf8_sha256": "d2f680f8365a71bf86be4b798797b5ac3e27e9bf8f4b087a6b810cd5603a99db",
+        "timestamp": "2025-08-28T06:41:28Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 7"
+      },
+      "worksheet_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet07_latex_surface_revid807110.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1206,
+          "path": "authority/mediawiki/worksheet07_latex_surface_revid807110.metadata.json",
+          "sha256": "897a2c492460285b81337cbe2fa85e917c82bdbd24c248ed359c296ed1f5523f"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142671,
+        "parentid": 799019,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/worksheet07_latex_surface_revid807110.wiki",
+        "revid": 807110,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T09:57:50Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 7/latex"
+      },
+      "worksheet_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "3b20f3d72d9917dd25ca512cf7fda41ecd33ea630f33c25313ed1729a0843907",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet07_root_revid905403.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "k88a4szth18kjgzz1jdi0qay2czc6eb",
+        "metadata": {
+          "bytes": 1178,
+          "path": "authority/mediawiki/worksheet07_root_revid905403.metadata.json",
+          "sha256": "af4376d28b97918371ee38742a4f767ebaef2ac3cffb20d581921683b6a59881"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142641,
+        "parentid": 896659,
+        "readable_normalized_bytes": 2625,
+        "readable_normalized_sha256": "fc3c7a312be6400ed7242aeb05d4d4ac31120ddada1be541c655423861f28ea0",
+        "readable_normalized_witness": "authority/mediawiki/worksheet07_root_revid905403.wiki",
+        "revid": 905403,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 2624,
+        "source_utf8_sha1": "ad2c73508f2937db0a134e309a63c6bad37dfe63",
+        "source_utf8_sha256": "5a2af60e7ab1f920f454c15c1f9af96c1725116fc34e84911f420b5c268da6f8",
+        "timestamp": "2023-07-09T16:09:00Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 7"
+      }
+    },
+    "root_revision_manifest": {
+      "bytes": 15237,
+      "path": "authority/brenner_selected_root_revisions.csv",
+      "sha256": "64cf91594907db45355e64fb512fb14092e15218c74847a8f60fe884a5284fc8"
+    },
+    "surface_revision_manifest": {
+      "bytes": 31799,
+      "path": "authority/brenner_selected_surface_revisions.csv",
+      "sha256": "9a3a6b7dc08cc022803dad24e959365d67810d4da87a8bc4385c601db9d4bd52"
+    }
+  },
+  "checks": {
+    "all_candidate_solution_titles_queried": true,
+    "all_displayed_images_have_license_macros": true,
+    "all_point_markers_resolved": true,
+    "all_supplied_solution_latex_snapshots_frozen": true,
+    "all_supplied_solution_revisions_frozen": true,
+    "exercise_root_expansion_count_agreement": true,
+    "lecture_expansion_sanitized": true,
+    "revision_export_hashes_match": true,
+    "root_revision_bindings_unique": true,
+    "root_witnesses_match_mediawiki_sha1": true,
+    "solution_macro_api_agreement": true,
+    "surface_revision_bindings_unique": true,
+    "translation_started_by_workflow": false,
+    "unit_media_binary_and_rights_closure": true,
+    "worksheet_expansion_sanitized": true
+  },
+  "expansions": {
+    "lecture": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 23654,
+      "http_date": "Sun, 23 Aug 2026 17:05:38 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 7/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 673,
+        "path": "authority/exports/lecture07_latex_expand.json.request.json",
+        "sha256": "e312aca5cbef41af72e283be24772fcef3b2495c223fc9949b538011231d2db1"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 25017,
+        "path": "authority/exports/lecture07_latex_expand.json",
+        "sha256": "72fd7ecefed4b9f537ddaadc2573d7fcf16ead5d7b5115c4b37e0ce3f2722632"
+      },
+      "retrieved_utc": "2026-08-23T17:05:39Z",
+      "sanitized_source": {
+        "bytes": 20948,
+        "path": "authority/expanded/lecture07_source.de.tex",
+        "sha256": "32705d6ed9773281b3ea2519cda3d46dc4a47edc560c4a04d99370ba86500d0b"
+      },
+      "sanitizer": {
+        "bytes": 3113,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+      },
+      "sanitizer_receipt": {
+        "bytes": 672,
+        "path": "qa/unit-07/lecture07_sanitize.json",
+        "sha256": "be44d0f64b7a54e7fd8cd140dcf3d6d38ac2b120f075dcff8e8c504c18831c57"
+      },
+      "valid_utf8": true
+    },
+    "worksheet": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 10041,
+      "http_date": "Sun, 23 Aug 2026 17:05:39 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 7/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 678,
+        "path": "authority/exports/worksheet07_latex_expand.json.request.json",
+        "sha256": "9780c3ae45ee47b312773aead0ec225c6401c657de18a2f3b6c4dc011eee197c"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 10744,
+        "path": "authority/exports/worksheet07_latex_expand.json",
+        "sha256": "90a67a477c381e73376c6fc69b02406205cc68c428c7b2c11cbe21496583edf2"
+      },
+      "retrieved_utc": "2026-08-23T17:05:39Z",
+      "sanitized_source": {
+        "bytes": 8186,
+        "path": "authority/expanded/worksheet07_source.de.tex",
+        "sha256": "50e465eb3c6590cb510ef066f6b354000999442da71cfa65ffe3f2eb89bf821c"
+      },
+      "sanitizer": {
+        "bytes": 3113,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+      },
+      "sanitizer_receipt": {
+        "bytes": 675,
+        "path": "qa/unit-07/worksheet07_sanitize.json",
+        "sha256": "6ff12a486cbd6e7a6913dcb8cd3d86dc14e10085c63378ffc790064331c5d1a0"
+      },
+      "valid_utf8": true
+    }
+  },
+  "media": {
+    "all_displayed_images_have_license_macros": true,
+    "assets": [
+      {
+        "artist_html": "<a href=\"https://en.wikipedia.org/wiki/User:Mark.Howison\" class=\"extiw\" title=\"wikipedia:User:Mark.Howison\">Mark.Howison</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+        "artist_identity": {
+          "anchor_hrefs": [
+            "https://en.wikipedia.org/wiki/User:Mark.Howison",
+            "https://en.wikipedia.org/wiki/"
+          ],
+          "creator_label": "Mark.Howison"
+        },
+        "artist_text": "Mark.Howison at English Wikipedia",
+        "attribution_required": false,
+        "binary": {
+          "bytes": 69330,
+          "path": "authority/media/Stereographic projection in 3D.png",
+          "sha256": "ab78ed4225923f771ae69d44930c244c53ef7c3a44d8e7264b16467dc4a78316"
+        },
+        "bytes": 69330,
+        "commons_lastrevid": 1148968673,
+        "commons_pageid": 3380134,
+        "commons_sha1": "9ebf8ae912dbb26b65f5cbf9cfd8ccb174dd15fe",
+        "commons_touched": "2026-06-16T22:19:59Z",
+        "copyrighted_status": "False",
+        "credit_html": "<bdi lang=\"en\" dir=\"ltr\">Transferred from <span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a></span> to Commons.</bdi>",
+        "credit_text": "Transferred from en.wikipedia to Commons.",
+        "current_matches_frozen_rights_manifest": {
+          "artist_html": false,
+          "artist_identity": true,
+          "attribution_required": true,
+          "bytes": true,
+          "copyrighted": true,
+          "credit_html": false,
+          "license": true,
+          "license_url": true,
+          "mime": true,
+          "sha1": true
+        },
+        "description_url": "https://commons.wikimedia.org/wiki/File:Stereographic_projection_in_3D.png",
+        "download_receipt": {
+          "bytes": 69330,
+          "content_type": "image/png",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Stereographic_projection_in_3D.png",
+          "http_date": "Sun, 23 Aug 2026 11:06:04 GMT",
+          "retrieved_utc": "2026-08-23T17:06:46Z",
+          "schema_version": 1,
+          "sha1": "9ebf8ae912dbb26b65f5cbf9cfd8ccb174dd15fe",
+          "sha256": "ab78ed4225923f771ae69d44930c244c53ef7c3a44d8e7264b16467dc4a78316",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Stereographic_projection_in_3D.png"
+        },
+        "filename": "Stereographic projection in 3D.png",
+        "frozen_artist_html": "<a href=\"https://en.wikipedia.org/wiki/User:Mark.Howison\" class=\"extiw\" title=\"wikipedia:User:Mark.Howison\">Mark.Howison</a> in der <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">Wikipedia auf Englisch</a>",
+        "frozen_artist_identity": {
+          "anchor_hrefs": [
+            "https://en.wikipedia.org/wiki/User:Mark.Howison",
+            "https://en.wikipedia.org/wiki/"
+          ],
+          "creator_label": "Mark.Howison"
+        },
+        "frozen_artist_text": "Mark.Howison in der Wikipedia auf Englisch",
+        "frozen_credit_html": "<bdi lang=\"de\" dir=\"ltr\">Übertragen aus <span class=\"plainlinks\"><a class=\"external text\" data-mw-original-href=\"//en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a></span> nach Commons.</bdi>",
+        "frozen_credit_text": "Übertragen aus en.wikipedia nach Commons.",
+        "height": 473,
+        "image_timestamp": "2008-01-13T02:59:55Z",
+        "image_user": "File Upload Bot (Magnus Manske)",
+        "license": "Public domain",
+        "license_url": null,
+        "localized_artist_variance": true,
+        "localized_credit_variance": true,
+        "mime": "image/png",
+        "occurrences": [
+          {
+            "filename": "Stereographic projection in 3D.png",
+            "surface": "lecture07",
+            "surface_order": 1
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Stereographic_projection_in_3D.png",
+        "rights_critical_fields_match": true,
+        "sha256": "ab78ed4225923f771ae69d44930c244c53ef7c3a44d8e7264b16467dc4a78316",
+        "usage_terms": "Public domain",
+        "width": 640
+      },
+      {
+        "artist_html": "<a href=\"https://en.wikipedia.org/wiki/ja:User:%EF%BC%91%EF%BC%93%EF%BC%92%E4%BA%BA%E7%9B%AE\" class=\"extiw\" title=\"w:ja:User:１３２人目\">１３２人目</a> at <a href=\"https://en.wikipedia.org/wiki/ja:\" class=\"extiw\" title=\"w:ja:\">Japanese Wikipedia</a>",
+        "artist_identity": {
+          "anchor_hrefs": [
+            "https://en.wikipedia.org/wiki/ja:User:%EF%BC%91%EF%BC%93%EF%BC%92%E4%BA%BA%E7%9B%AE",
+            "https://en.wikipedia.org/wiki/ja:"
+          ],
+          "creator_label": "１３２人目"
+        },
+        "artist_text": "１３２人目 at Japanese Wikipedia",
+        "attribution_required": true,
+        "binary": {
+          "bytes": 9977,
+          "path": "authority/media/Manifold zahyou3.png",
+          "sha256": "fd3afef0df5b0ec3dc9eceea337fda5d15371ea143aa3cfbb24e134e455342f8"
+        },
+        "bytes": 9977,
+        "commons_lastrevid": 1128644218,
+        "commons_pageid": 1061238,
+        "commons_sha1": "092d5bdf050bac4d712de6f40a3c96330d5b13dd",
+        "commons_touched": "2026-06-16T22:19:47Z",
+        "copyrighted_status": "True",
+        "credit_html": "<a href=\"https://ja.wikipedia.org/wiki/user:%EF%BC%91%EF%BC%93%EF%BC%92%E4%BA%BA%E7%9B%AE\" class=\"extiw\" title=\"ja:user:１３２人目\">ja:user:１３２人目</a>'s file.",
+        "credit_text": "ja:user:１３２人目's file.",
+        "current_matches_frozen_rights_manifest": {
+          "artist_html": false,
+          "artist_identity": true,
+          "attribution_required": true,
+          "bytes": true,
+          "copyrighted": true,
+          "credit_html": true,
+          "license": true,
+          "license_url": true,
+          "mime": true,
+          "sha1": true
+        },
+        "description_url": "https://commons.wikimedia.org/wiki/File:Manifold_zahyou3.png",
+        "download_receipt": {
+          "bytes": 9977,
+          "content_type": "image/png",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Manifold_zahyou3.png",
+          "http_date": "Sun, 23 Aug 2026 17:06:46 GMT",
+          "retrieved_utc": "2026-08-23T17:06:46Z",
+          "schema_version": 1,
+          "sha1": "092d5bdf050bac4d712de6f40a3c96330d5b13dd",
+          "sha256": "fd3afef0df5b0ec3dc9eceea337fda5d15371ea143aa3cfbb24e134e455342f8",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Manifold_zahyou3.png"
+        },
+        "filename": "Manifold zahyou3.png",
+        "frozen_artist_html": "<a href=\"https://en.wikipedia.org/wiki/ja:User:%EF%BC%91%EF%BC%93%EF%BC%92%E4%BA%BA%E7%9B%AE\" class=\"extiw\" title=\"w:ja:User:１３２人目\">１３２人目</a> in der <a href=\"https://en.wikipedia.org/wiki/ja:\" class=\"extiw\" title=\"w:ja:\">Wikipedia auf Japanisch</a>",
+        "frozen_artist_identity": {
+          "anchor_hrefs": [
+            "https://en.wikipedia.org/wiki/ja:User:%EF%BC%91%EF%BC%93%EF%BC%92%E4%BA%BA%E7%9B%AE",
+            "https://en.wikipedia.org/wiki/ja:"
+          ],
+          "creator_label": "１３２人目"
+        },
+        "frozen_artist_text": "１３２人目 in der Wikipedia auf Japanisch",
+        "frozen_credit_html": "<a href=\"https://ja.wikipedia.org/wiki/user:%EF%BC%91%EF%BC%93%EF%BC%92%E4%BA%BA%E7%9B%AE\" class=\"extiw\" title=\"ja:user:１３２人目\">ja:user:１３２人目</a>'s file.",
+        "frozen_credit_text": "ja:user:１３２人目's file.",
+        "height": 248,
+        "image_timestamp": "2022-01-16T13:17:28Z",
+        "image_user": "OgreBot",
+        "license": "CC BY-SA 3.0",
+        "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+        "localized_artist_variance": true,
+        "localized_credit_variance": false,
+        "mime": "image/png",
+        "occurrences": [
+          {
+            "filename": "Manifold zahyou3.png",
+            "surface": "lecture07",
+            "surface_order": 2
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Manifold_zahyou3.png",
+        "rights_critical_fields_match": true,
+        "sha256": "fd3afef0df5b0ec3dc9eceea337fda5d15371ea143aa3cfbb24e134e455342f8",
+        "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+        "width": 357
+      },
+      {
+        "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Darkdadaah\" title=\"User:Darkdadaah\">Dakdada</a>",
+        "artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/wiki/User:Darkdadaah"
+          ],
+          "creator_label": "Dakdada"
+        },
+        "artist_text": "Dakdada",
+        "attribution_required": false,
+        "binary": {
+          "bytes": 207,
+          "path": "authority/media/Circle - black simple.svg",
+          "sha256": "6a28c8b677e37aaa88984cd72336ca752156ebf95fddf9bae4b2dd17903e8bde"
+        },
+        "bytes": 207,
+        "commons_lastrevid": 1192905594,
+        "commons_pageid": 447757,
+        "commons_sha1": "ef5e6d0f5ef3d92cc5ba0edbe559f544351f94c4",
+        "commons_touched": "2026-05-28T10:24:16Z",
+        "copyrighted_status": "False",
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "credit_text": "Own work",
+        "current_matches_frozen_rights_manifest": {
+          "artist_html": true,
+          "artist_identity": true,
+          "attribution_required": true,
+          "bytes": true,
+          "copyrighted": true,
+          "credit_html": false,
+          "license": true,
+          "license_url": true,
+          "mime": true,
+          "sha1": true
+        },
+        "description_url": "https://commons.wikimedia.org/wiki/File:Circle_-_black_simple.svg",
+        "download_receipt": {
+          "bytes": 207,
+          "content_type": "image/svg+xml",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Circle_-_black_simple.svg",
+          "http_date": "Sat, 22 Aug 2026 22:33:08 GMT",
+          "retrieved_utc": "2026-08-23T17:06:46Z",
+          "schema_version": 1,
+          "sha1": "ef5e6d0f5ef3d92cc5ba0edbe559f544351f94c4",
+          "sha256": "6a28c8b677e37aaa88984cd72336ca752156ebf95fddf9bae4b2dd17903e8bde",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Circle_-_black_simple.svg"
+        },
+        "filename": "Circle - black simple.svg",
+        "frozen_artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Darkdadaah\" title=\"User:Darkdadaah\">Dakdada</a>",
+        "frozen_artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/wiki/User:Darkdadaah"
+          ],
+          "creator_label": "Dakdada"
+        },
+        "frozen_artist_text": "Dakdada",
+        "frozen_credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+        "frozen_credit_text": "Eigenes Werk",
+        "height": 500,
+        "image_timestamp": "2007-03-29T02:49:02Z",
+        "image_user": "Fibonacci",
+        "license": "Public domain",
+        "license_url": null,
+        "localized_artist_variance": false,
+        "localized_credit_variance": true,
+        "mime": "image/svg+xml",
+        "occurrences": [
+          {
+            "filename": "Circle - black simple.svg",
+            "surface": "lecture07",
+            "surface_order": 3
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Circle_-_black_simple.svg",
+        "rights_critical_fields_match": true,
+        "sha256": "6a28c8b677e37aaa88984cd72336ca752156ebf95fddf9bae4b2dd17903e8bde",
+        "usage_terms": "Public domain",
+        "width": 500
+      }
+    ],
+    "current_commons_api": "https://commons.wikimedia.org/w/api.php",
+    "current_commons_query": {
+      "bytes": 7638,
+      "path": "authority/mediawiki/unit07_media_imageinfo_current.json",
+      "sha256": "80ac0019e7b88126f8f91ff5837710e30b28a16723acc83c287bc5aabcca92fe"
+    },
+    "current_commons_query_request_receipt": {
+      "bytes": 720,
+      "path": "authority/mediawiki/unit07_media_imageinfo_current.json.request.json",
+      "sha256": "bee6a529d76c85da66bd23f646055059d445636abbff42003c59f53533f20134"
+    },
+    "occurrence_count": 3,
+    "query_retrieved_utc": "2026-08-23T17:06:46Z",
+    "rights_manifest": {
+      "bytes": 25588,
+      "path": "authority/brenner_media_rights_manifest.csv",
+      "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+    },
+    "surface_occurrences": [
+      {
+        "filename": "Stereographic projection in 3D.png",
+        "surface": "lecture07",
+        "surface_order": 1
+      },
+      {
+        "filename": "Manifold zahyou3.png",
+        "surface": "lecture07",
+        "surface_order": 2
+      },
+      {
+        "filename": "Circle - black simple.svg",
+        "surface": "lecture07",
+        "surface_order": 3
+      }
+    ],
+    "unique_asset_count": 3
+  },
+  "next_action": "Translate Lecture 7, Worksheet 7, and exactly the 3 supplied solutions in source order.",
+  "schema_version": 1,
+  "scope": "Brenner Differentialgeometrie Unit 7 authority preflight; no translation",
+  "solutions": {
+    "exercise_count": 19,
+    "exercises": [
+      {
+        "exercise_index": 1,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Einheitssphäre/Abstände in Standardkarten/Differenz/Aufgabe/Lösung",
+        "task_title": "Einheitssphäre/Abstände in Standardkarten/Differenz/Aufgabe"
+      },
+      {
+        "exercise_index": 2,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Halboffenes Intervall/Keine topologische Mannigfaltigkeit/Aufgabe/Lösung",
+        "task_title": "Halboffenes Intervall/Keine topologische Mannigfaltigkeit/Aufgabe"
+      },
+      {
+        "exercise_index": 3,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Halboffenes Intervall/Kreis/Stetige Bijektion/Kein Homöomorphismus/Aufgabe/Lösung",
+        "task_title": "Halboffenes Intervall/Kreis/Stetige Bijektion/Kein Homöomorphismus/Aufgabe"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 1641,
+          "path": "authority/mediawiki/worksheet07_exercise04_solution_revid983203.utf8.b64",
+          "sha256": "5b4de937ed8c5bf8c34060ba465ca96e56d32af7a0bc196b22e12366bc05df66"
+        },
+        "exercise_index": 4,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 977,
+          "http_date": "Sun, 23 Aug 2026 17:05:39 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Eindimensionale Mannigfaltigkeiten/R, 1-Sphäre, R punktiert/Nicht homöomorph/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 732,
+            "path": "authority/exports/worksheet07_exercise04_solution_latex_expand.json.request.json",
+            "sha256": "41b210792bfb14a8cdf3270368ee8063ccb45194b9ee1ab92d2982480ed20881"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 1158,
+            "path": "authority/exports/worksheet07_exercise04_solution_latex_expand.json",
+            "sha256": "2705a260c2f1c2f9c76cd28d4b6db5f7e7353c3073ba418d35c61fd1d8b76bdc"
+          },
+          "retrieved_utc": "2026-08-23T17:05:40Z",
+          "sanitized_source": {
+            "bytes": 890,
+            "path": "authority/expanded/worksheet07_exercise04_solution_source.de.tex",
+            "sha256": "c57b0b7199b5d2bb508e59b111364084a352a144b9ab293ff1e9e402c6aa9f9c"
+          },
+          "sanitizer": {
+            "bytes": 3113,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+          },
+          "sanitizer_receipt": {
+            "bytes": 711,
+            "path": "qa/unit-07/worksheet07_exercise04_solution_sanitize.json",
+            "sha256": "a0561b27fadb07728bfb32780ddaa983ee1f8d93c1affaf6cf74e5c41291145c"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "fdc35a899367042f81698370e438e963dc51bdfd",
+        "metadata": {
+          "bytes": 1269,
+          "path": "authority/mediawiki/worksheet07_exercise04_solution_revid983203.metadata.json",
+          "sha256": "08e246878273c9614e4668f0c3f775244d31f35cdf3a904e9b7cbdf7fe5c854b"
+        },
+        "pageid": 46315,
+        "parentid": 958154,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 1229,
+          "path": "authority/mediawiki/worksheet07_exercise04_solution_revid983203.wiki",
+          "sha256": "a104ff376c35ddf247a5caa34d5bf99658a61e08b5f229f3a49fdd59da1072d1"
+        },
+        "revid": 983203,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Eindimensionale Mannigfaltigkeiten/R, 1-Sphäre, R punktiert/Nicht homöomorph/Aufgabe/Lösung",
+        "source_utf8_bytes": 1228,
+        "source_utf8_sha256": "c98d6728b46c37eeae4496544342de94a5f562c8eb1c635f8b586950e9f19c30",
+        "task_title": "Eindimensionale Mannigfaltigkeiten/R, 1-Sphäre, R punktiert/Nicht homöomorph/Aufgabe",
+        "timestamp": "2025-01-21T22:04:43Z"
+      },
+      {
+        "exercise_index": 5,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Sinus 1 durch x/Keine Mannigfaltigkeit/Aufgabe/Lösung",
+        "task_title": "Sinus 1 durch x/Keine Mannigfaltigkeit/Aufgabe"
+      },
+      {
+        "exercise_index": 6,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Offener euklidischer Ball/Diffeomorph zu R^n/Aufgabe/Lösung",
+        "task_title": "Offener euklidischer Ball/Diffeomorph zu R^n/Aufgabe"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 2801,
+          "path": "authority/mediawiki/worksheet07_exercise07_solution_revid1089359.utf8.b64",
+          "sha256": "3a624a7a8f72e7eee114e978b6ca049e75d76b7edcc084da5407773784ba09d6"
+        },
+        "exercise_index": 7,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 1804,
+          "http_date": "Sun, 23 Aug 2026 17:05:40 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Einheitssphäre/Beschreibung von offenen Halbsphären/Nicht von 3 überdeckt/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 730,
+            "path": "authority/exports/worksheet07_exercise07_solution_latex_expand.json.request.json",
+            "sha256": "0c9a5487cf450b96e917cf0337f44496575452dc9730706aac0c9f93c1a64cdb"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 2011,
+            "path": "authority/exports/worksheet07_exercise07_solution_latex_expand.json",
+            "sha256": "d79c9dd538ce0a00aa680bcb5eef32f3a32c99251c36f3fd97e8fada8813f216"
+          },
+          "retrieved_utc": "2026-08-23T17:05:40Z",
+          "sanitized_source": {
+            "bytes": 1647,
+            "path": "authority/expanded/worksheet07_exercise07_solution_source.de.tex",
+            "sha256": "b56174176937645ce2ca223c9cd33c4a414612b1ff24017684e56ed1c04b01d2"
+          },
+          "sanitizer": {
+            "bytes": 3113,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-07/worksheet07_exercise07_solution_sanitize.json",
+            "sha256": "59ddd6f4ea73e395bcaf12ddff7d7f97d1334aeb6a4b9c57c7aa02e077a4cd76"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "0dfee11407eb695a67c1d764c0e768ce1ec849c2",
+        "metadata": {
+          "bytes": 1271,
+          "path": "authority/mediawiki/worksheet07_exercise07_solution_revid1089359.metadata.json",
+          "sha256": "370f5d53aa003c46fddba3b92b857658cfa8fcf7db62f87452150006ab83775f"
+        },
+        "pageid": 44423,
+        "parentid": 1023051,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 2099,
+          "path": "authority/mediawiki/worksheet07_exercise07_solution_revid1089359.wiki",
+          "sha256": "13a01659129e932918749721722545350301753d8f7d1731d8786987064f6621"
+        },
+        "revid": 1089359,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Einheitssphäre/Beschreibung von offenen Halbsphären/Nicht von 3 überdeckt/Aufgabe/Lösung",
+        "source_utf8_bytes": 2098,
+        "source_utf8_sha256": "ed5e826945c7a0a45890e9c55960b27f738c6963c213f8f3a96014a445413315",
+        "task_title": "Einheitssphäre/Beschreibung von offenen Halbsphären/Nicht von 3 überdeckt/Aufgabe",
+        "timestamp": "2026-05-31T10:16:52Z"
+      },
+      {
+        "exercise_index": 8,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Zylinder/Punktierte Ebene/Sphäre ohne Pole/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Zylinder/Punktierte Ebene/Sphäre ohne Pole/Aufgabe"
+      },
+      {
+        "exercise_index": 9,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Rotationsmenge/Positive Funktion oder Nullstelle/Mannigfaltigkeit/Aufgabe/Lösung",
+        "task_title": "Rotationsmenge/Positive Funktion oder Nullstelle/Mannigfaltigkeit/Aufgabe"
+      },
+      {
+        "exercise_index": 10,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Zusammenhängend/Wegzusammenhängend/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Zusammenhängend/Wegzusammenhängend/Aufgabe"
+      },
+      {
+        "exercise_index": 11,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Übergangsabbildungen/Kozykelbedingung/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Übergangsabbildungen/Kozykelbedingung/Aufgabe"
+      },
+      {
+        "exercise_index": 12,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Einheitskugel/Kozykelbedingung für Standardkarten/Aufgabe/Lösung",
+        "task_title": "Einheitskugel/Kozykelbedingung für Standardkarten/Aufgabe"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 421,
+          "path": "authority/mediawiki/worksheet07_exercise13_solution_revid928708.utf8.b64",
+          "sha256": "c45dcf08f5e36d84768aec38ab3e1630773d9a6fed903197bab5362639cedc5b"
+        },
+        "exercise_index": 13,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 336,
+          "http_date": "Sun, 23 Aug 2026 17:05:40 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Einheitssphäre/Nordpol und (1,0,0)/Abstand längs Ebenenschnitt/Animation/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 727,
+            "path": "authority/exports/worksheet07_exercise13_solution_latex_expand.json.request.json",
+            "sha256": "28f03adcd5d9713eb022ef9142e70a50c49ef9c7bb8e5a857b4fcb867c450f83"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 445,
+            "path": "authority/exports/worksheet07_exercise13_solution_latex_expand.json",
+            "sha256": "9a83c3be71e612f583a3a1440d56849369f27c97d1590992ea7969afb9f1cd2c"
+          },
+          "retrieved_utc": "2026-08-23T17:05:40Z",
+          "sanitized_source": {
+            "bytes": 339,
+            "path": "authority/expanded/worksheet07_exercise13_solution_source.de.tex",
+            "sha256": "34f24a751ae2c0b2913ba12460ac758f5f28fd50bb915b26da103a808abd1df8"
+          },
+          "sanitizer": {
+            "bytes": 3113,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "19b7098bf3b5bde934169ede20752b4014742c13cea72f135ee65822bc8c725a"
+          },
+          "sanitizer_receipt": {
+            "bytes": 710,
+            "path": "qa/unit-07/worksheet07_exercise13_solution_sanitize.json",
+            "sha256": "be928af2eb569b1c9e7a05fbc868e81fb9932c89fc9c2aa370eca667b803258c"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "eca8786fa6bd62219988b2cd41133ded0fc84942",
+        "metadata": {
+          "bytes": 1262,
+          "path": "authority/mediawiki/worksheet07_exercise13_solution_revid928708.metadata.json",
+          "sha256": "b7a544f374bdd77341f307434d5cd687130380db77a073901376951d194f11b9"
+        },
+        "pageid": 77668,
+        "parentid": 441171,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 314,
+          "path": "authority/mediawiki/worksheet07_exercise13_solution_revid928708.wiki",
+          "sha256": "5702751536979408e9b4b2c6e616fc16c3318f294173e45199ca36c80b421583"
+        },
+        "revid": 928708,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Einheitssphäre/Nordpol und (1,0,0)/Abstand längs Ebenenschnitt/Animation/Aufgabe/Lösung",
+        "source_utf8_bytes": 313,
+        "source_utf8_sha256": "e02acdce203af7baca26b0d2b28fd4c47baad35a36e14e0ca3a96309f3cbbea1",
+        "task_title": "Einheitssphäre/Nordpol und (1,0,0)/Abstand längs Ebenenschnitt/Animation/Aufgabe",
+        "timestamp": "2024-01-30T13:37:28Z"
+      },
+      {
+        "exercise_index": 14,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Geschenkpapier/Verkleben/Mannigfaltigkeit/Aufgabe/Lösung",
+        "task_title": "Geschenkpapier/Verkleben/Mannigfaltigkeit/Aufgabe"
+      },
+      {
+        "exercise_index": 15,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 3,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Einheitssphäre/Großkreise durch Pole/Bild unter stereographischer Projektion/Aufgabe/Lösung",
+        "task_title": "Einheitssphäre/Großkreise durch Pole/Bild unter stereographischer Projektion/Aufgabe"
+      },
+      {
+        "exercise_index": 16,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 5,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Einheitssphäre/Metrik über Großkreis/Aufgabe/Lösung",
+        "task_title": "Einheitssphäre/Metrik über Großkreis/Aufgabe"
+      },
+      {
+        "exercise_index": 17,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 8,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Einheitssphäre/Nordpol und (1,0,0)/Abstand längs Ebenenschnitt/Abhängigkeit vom Winkel/Aufgabe/Lösung",
+        "task_title": "Einheitssphäre/Nordpol und (1,0,0)/Abstand längs Ebenenschnitt/Abhängigkeit vom Winkel/Aufgabe"
+      },
+      {
+        "exercise_index": 18,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 6,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Injektive stetige Abbildung/R nach S^2/Bild unendliche Länge/Pole als Limiten/Aufgabe/Lösung",
+        "task_title": "Injektive stetige Abbildung/R nach S^2/Bild unendliche Länge/Pole als Limiten/Aufgabe"
+      },
+      {
+        "exercise_index": 19,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Achsenkreuz/Keine topologische Mannigfaltigkeit/Aufgabe/Lösung",
+        "task_title": "Achsenkreuz/Keine topologische Mannigfaltigkeit/Aufgabe"
+      }
+    ],
+    "graded_exercise_count": 5,
+    "macro_api_agreement": true,
+    "missing_solution_count": 16,
+    "point_value_total": 26,
+    "practice_exercise_count": 14,
+    "query": {
+      "bytes": 6646,
+      "path": "authority/mediawiki/unit07_solution_pages_current.json",
+      "sha256": "01f031c98780b34b53ded53795f218b9339dfab69e991dfa151fde4afd23403e"
+    },
+    "query_request_receipt": {
+      "bytes": 2083,
+      "path": "authority/mediawiki/unit07_solution_pages_current.json.request.json",
+      "sha256": "c2be34c32dff0d4b81b1d36fa2043506924fdb4cb870b903411bcf599096f906"
+    },
+    "query_retrieved_utc": "2026-08-23T17:05:39Z",
+    "schema_version": 1,
+    "supplied_solution_count": 3,
+    "supplied_solution_indices": [
+      4,
+      7,
+      13
+    ],
+    "workflow": "o011-unit07-solution-freeze-v1",
+    "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 7"
+  },
+  "status": "pass",
+  "structure": {
+    "all_hint_fields_blank": true,
+    "lecture_section_count": 2,
+    "worksheet_exercise_count": 19,
+    "worksheet_graded_count": 5,
+    "worksheet_point_total": 26,
+    "worksheet_practice_count": 14,
+    "worksheet_section_count": 2,
+    "worksheet_solution_bearing_indices": [
+      4,
+      7,
+      13
+    ]
+  },
+  "unit": 7,
+  "workflow": "o011-unit07-authority-preflight-v1"
+}

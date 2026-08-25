@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "input": "authority/exports/worksheet13_exercise21_solution_latex_expand.json",
+  "input_bytes": 611,
+  "input_sha256": "e2e4e170d46fa89e79cdc8eded2b90c23c73759bf3168247be27b36ecc19302f",
+  "expanded_chars": 485,
+  "output": "authority/expanded/worksheet13_exercise21_solution_source.de.tex",
+  "output_bytes": 396,
+  "output_sha256": "67b35cbd9058d61fb882b97dccf38820caeac278a737ca1fbec0cda9c75903f2",
+  "transform": [
+    "normalize CRLF/CR to LF",
+    "replace br tags with LF",
+    "remove div/pre/nowiki wrapper tags",
+    "decode HTML entities",
+    "replace six exact balanced MediaWiki math tag pairs with TeX dollar delimiters",
+    "strip trailing horizontal whitespace",
+    "collapse runs of blank lines",
+    "require no residual HTML tag or U+FFFD"
+  ],
+  "source_anomaly": "The official Solution 13.21 expansion uniquely retained six balanced MediaWiki math tag pairs; the ordinary sanitizer therefore failed closed before this bounded delimiter normalization."
+}

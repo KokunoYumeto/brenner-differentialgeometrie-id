@@ -1,0 +1,164 @@
+{
+  "baseline": {
+    "csv_bytes": 201742,
+    "csv_sha256": "ab7c40867434141e5f0a102db6b9a92a73677a3a946d96c3adbd925e77130592",
+    "jsonl_bytes": 576960,
+    "jsonl_sha256": "bdd82d81cdac5cf30338d8fa0705189808ec4d746995127d02cbf4a248333227",
+    "preserved_byte_identically": true,
+    "records": 969
+  },
+  "checkpoint": "2026-08-22T20:55:00Z",
+  "checks": {
+    "all_ids_unique": true,
+    "all_references_resolve": true,
+    "authority_solution_hint_point_media_closure": true,
+    "canonical_jsonl": true,
+    "combined_json_schema_valid": true,
+    "component_rights_current": true,
+    "correction_manifest_target_validation_bindings_current": true,
+    "csv_projection_exact": true,
+    "cumulative_html_not_falsely_claimed": true,
+    "cumulative_pdf_build_structural_visual_current": true,
+    "exact_solution_absence_truth": true,
+    "live_artifact_bindings_current": true,
+    "live_input_bindings_current": true,
+    "qa_receipts_current": true,
+    "reconstructed_scripts_replace_nul_corruption": true,
+    "source_target_segment_hashes_current": true,
+    "terminology_and_model_provenance_current": true
+  },
+  "combined_records": 1173,
+  "determinism": {
+    "first_csv_sha256": "5831a7bf3ccc0c18c4246bf713ec6e4c93958465808e7027763e53e170683997",
+    "first_jsonl_sha256": "b09862d4b98c475d7e5a3bc92f1e3d72ca771d7f726350b76ab4bd68d6dde5a1",
+    "first_manifest_sha256": "7e3efde35929a615384a104397d5c380b76d27b516b31f32919f907259cd5c44",
+    "second_export_matches_first": true
+  },
+  "final_pdf": {
+    "bytes": 4765606,
+    "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-06-id.pdf",
+    "sha256": "40bf26d196ff04c38c6c99e8e9669a86bb5e6d31124b904b7ad154e7948cdec1"
+  },
+  "outputs": {
+    "manifest": {
+      "bytes": 12110,
+      "path": "backend/MANIFEST.json",
+      "sha256": "7e3efde35929a615384a104397d5c380b76d27b516b31f32919f907259cd5c44"
+    },
+    "records_csv": {
+      "bytes": 243301,
+      "path": "backend/records.csv",
+      "sha256": "5831a7bf3ccc0c18c4246bf713ec6e4c93958465808e7027763e53e170683997"
+    },
+    "records_jsonl": {
+      "bytes": 702086,
+      "path": "backend/records.jsonl",
+      "sha256": "b09862d4b98c475d7e5a3bc92f1e3d72ca771d7f726350b76ab4bd68d6dde5a1"
+    }
+  },
+  "schema_version": 1,
+  "status": "pass",
+  "unit06_extension": {
+    "asset_id": "o011-asset-file-parallel-transport-sphere2-svg",
+    "correction_ids": [
+      "o011-corr-0054",
+      "o011-corr-0055",
+      "o011-corr-0056",
+      "o011-corr-0057",
+      "o011-corr-0058",
+      "o011-corr-0059",
+      "o011-corr-0060",
+      "o011-corr-0061",
+      "o011-corr-0062",
+      "o011-corr-0063",
+      "o011-corr-0064",
+      "o011-corr-0065",
+      "o011-corr-0066",
+      "o011-corr-0067",
+      "o011-corr-0068",
+      "o011-corr-0069"
+    ],
+    "entity_counts": {
+      "artifact": 8,
+      "asset": 1,
+      "concept": 8,
+      "correction": 16,
+      "course": 0,
+      "edition": 0,
+      "program": 0,
+      "qa_event": 14,
+      "relation": 105,
+      "resource": 0,
+      "rights": 1,
+      "segment": 3,
+      "term": 24,
+      "unit": 24
+    },
+    "exercises": 18,
+    "graded_point_total": 14,
+    "graded_point_values": [
+      2,
+      4,
+      4,
+      4
+    ],
+    "hint_indices": [],
+    "html_status": "absent_not_claimed",
+    "lecture_segments": 3,
+    "model_identification": "OpenAI Codex gpt-5.6-sol, Ultra",
+    "pdf_status": "final_cumulative_reader_bound",
+    "qa_events": 14,
+    "records": 204,
+    "rights_id": "o011-rights-media-u06-01",
+    "source_solution_absent_indices": [
+      1,
+      3,
+      4,
+      5,
+      7,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "source_solution_indices": [
+      2,
+      6,
+      9
+    ],
+    "terminology_ids": [
+      "o011-term-0111",
+      "o011-term-0112",
+      "o011-term-0113",
+      "o011-term-0114",
+      "o011-term-0115",
+      "o011-term-0116",
+      "o011-term-0117",
+      "o011-term-0118",
+      "o011-term-0119",
+      "o011-term-0120",
+      "o011-term-0121",
+      "o011-term-0122",
+      "o011-term-0123",
+      "o011-term-0124",
+      "o011-term-0125",
+      "o011-term-0126",
+      "o011-term-0127",
+      "o011-term-0128",
+      "o011-term-0129",
+      "o011-term-0130",
+      "o011-term-0131",
+      "o011-term-0132",
+      "o011-term-0133",
+      "o011-term-0134"
+    ],
+    "translation_state": "visually_checked"
+  },
+  "workflow": "o011-verify-backend-v6"
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "source": "authority/expanded/lecture07_source.de.tex",
+  "source_bytes": 20948,
+  "source_sha256": "32705d6ed9773281b3ea2519cda3d46dc4a47edc560c4a04d99370ba86500d0b",
+  "target": "source/units/unit-07/lecture07.id.tex",
+  "target_bytes": 20487,
+  "target_sha256": "5faec64b0b20a6999e61fc3fa6a32db812e324d1e8a272d1978c67bc76c3c7b0",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 458,
+    "environments": 6,
+    "inline_math": 38,
+    "display_math": 0,
+    "protected_calls": 68
+  },
+  "status": "pass",
+  "failures": [],
+  "declared_corrections": [
+    "O011-TRANS-0070"
+  ],
+  "evidence_only_results": []
+}

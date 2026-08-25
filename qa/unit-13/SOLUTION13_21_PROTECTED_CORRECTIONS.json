@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-13/worksheet13_exercise21_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0150",
+      "anchor": "Solution 13.21, antipodal-map orientation parity",
+      "change": "Correct the source's contradictory parity claim: the antipodal map on S^n has degree (-1)^(n+1), hence reverses orientation exactly for even n; in particular, it reverses orientation on S^2. The normalized ambient derivative matrix retained from the source remains mathematically unchanged."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0150",
+      "surface": "inline_math",
+      "index": 7,
+      "source_sha256": "1b16b1df538ba12dc3f97edbb85caa7050d46c148134290feba80f8236c83db9",
+      "target_sha256": "18055f4cc8c7ad12de5ce44c0ae95bdbdf5710026bc1dbcdb72a452eb8ca1aaa"
+    },
+    {
+      "correction_id": "O011-CORR-0150",
+      "surface": "profile:brace_profile",
+      "source_sha256": "05f349ca71453a21a8ab514ab27716f3426d26e9e2bfa7c7549a2780f8a8219d",
+      "target_sha256": "da8d929b1910c466abf2f28ae71ffec6210cdf988c1f2c3826045427ae7c5b65"
+    }
+  ],
+  "evidence_only_deltas": []
+}

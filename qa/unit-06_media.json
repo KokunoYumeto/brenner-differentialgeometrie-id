@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "scope": "O011 Brenner Unit 6 exact media closure and TeX print derivatives",
+  "unit_number": 6,
+  "heading_level": "section",
+  "media_config": "source/unit_media.json",
+  "media_config_sha256": "1f5404aad71947dcff064b853f1820b302f5a7e14cbb862631623eeddc2b8cad",
+  "manifest": "authority/brenner_media_rights_manifest.csv",
+  "manifest_sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57",
+  "image_engine": "Version: ImageMagick 7.1.2-22 Q16 x64 ccf56fb:20260512 https://imagemagick.org",
+  "source_count": 1,
+  "derivative_count": 1,
+  "attribution_tex": {
+    "path": "build/generated/unit06-media-attribution-cumulative.tex",
+    "bytes": 734,
+    "sha256": "b9b34e9cc73caba3cf57df4bef73682dfad9766df0c9cad8c4ebcd1929d8af4c"
+  },
+  "media": [
+    {
+      "filename": "Parallel transport sphere2.svg",
+      "canonical_path": "authority/media/Parallel transport sphere2.svg",
+      "canonical_bytes": 11448,
+      "canonical_sha1": "c63af00b134c84472c499324e5ccb7e6badc33e0",
+      "canonical_sha256": "4a6215c455dc248c97d1831e9af8b5d551a7cdb5da46976df2c1a77c959b88f8",
+      "commons_description_url": "https://commons.wikimedia.org/wiki/File:Parallel_transport_sphere2.svg",
+      "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/2/24/Parallel_transport_sphere2.svg",
+      "license": "CC BY-SA 3.0",
+      "rights_label_id": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "artist_html": "<a href=\"https://en.wikipedia.org/wiki/User:Silly_rabbit\" class=\"extiw\" title=\"wikipedia:User:Silly rabbit\">Silly rabbit</a> in der <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">Wikipedia auf Englisch</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+      "attribution_required": "true",
+      "attribution_id": "Silly rabbit di Wikipedia bahasa Inggris (karya sendiri).",
+      "derivative": {
+        "path": "build/generated/media/Parallel transport sphere2.png",
+        "bytes": 274294,
+        "sha256": "9eeb16a1046b087010ffc9fb345214f251b552b977be48d2a018264ffcaef965",
+        "identify": "PNG 1417 1417 sRGB",
+        "source_kind": "svg",
+        "frame_index": null,
+        "command": [
+          "magick",
+          "-background",
+          "white",
+          "-density",
+          "300",
+          "authority/media/Parallel transport sphere2.svg",
+          "-alpha",
+          "remove",
+          "-alpha",
+          "off",
+          "-resize",
+          "1800x1800>",
+          "-strip",
+          "-define",
+          "png:exclude-chunk=date,time",
+          "build/generated/media/Parallel transport sphere2.png"
+        ]
+      },
+      "source_license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+  ]
+}

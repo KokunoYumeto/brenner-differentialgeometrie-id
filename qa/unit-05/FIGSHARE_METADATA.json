@@ -1,0 +1,58 @@
+{
+  "title": "Geometri Diferensial dan Manifold Mulus — Edisi Bahasa Indonesia (batas Unit 05; metadata preservasi)",
+  "description": "<p><strong>Status kurikulum:</strong> <code>active_partial</code> — lima dari 29 pasangan kuliah/lembar kerja inti Brenner telah diterjemahkan dan diverifikasi; sepuluh ujian serta jembatan Lie dan de Rham masih harus diselesaikan.</p><p>Catatan Figshare ini hanya memuat metadata dan tautan preservasi. Batas Unit 05 yang bersih tersedia melalui DOI konsep Zenodo <a href=\"https://doi.org/10.5281/zenodo.22059977\">10.5281/zenodo.22059977</a>; versi terverifikasi saat ini ialah <a href=\"https://doi.org/10.5281/zenodo.22060146\">10.5281/zenodo.22060146</a>. Rilis itu memuat pembaca 86 halaman A4, 89 latihan, seluruh 11 solusi yang benar-benar disediakan sumber untuk Unit 1–5, 10 gambar, backend stable-ID 969 rekaman, sumber/provenans, skrip pembangunan, dan bukti QA.</p><p><strong>Lisensi:</strong> CC0 hanya berlaku pada catatan metadata Figshare ini. Berkas edisi yang ditautkan tidak berlisensi CC0. Teks sumber dan adaptasi Indonesia berada di bawah CC BY-SA 4.0; media mempertahankan pencipta dan lisensi komponennya masing-masing, termasuk CC BY, CC BY-SA, dan domain publik. Karena Figshare tidak menawarkan lisensi artikel yang dapat menyatakan campuran ini dengan tepat, tidak ada byte edisi yang diunggah ke item Figshare.</p><p>PDF belum bertag struktur, tetapi seluruh font tersemat memiliki ToUnicode dan teks dapat diekstrak pada semua 86 halaman; pembaca HTML semantik belum termasuk pada batas ini. Edisi ini merupakan adaptasi independen dan tidak disahkan oleh Holger Brenner, Wikiversity, Wikimedia Commons, Wikimedia Foundation, atau pencipta media. Terjemahan, reflow, backend, dan QA dibuat melalui alur kerja berbantuan Codex atas arahan pengguna; tidak ada tinjauan manusia independen yang diklaim, dan model bukan penulis karya.</p>",
+  "authors": [
+    {
+      "name": "Holger Brenner"
+    }
+  ],
+  "categories": [
+    29830,
+    26095
+  ],
+  "tags": [
+    "Bahasa Indonesia",
+    "differential geometry",
+    "smooth manifolds",
+    "open educational resources",
+    "translation",
+    "active_partial",
+    "D50",
+    "O011",
+    "CC BY-SA 4.0",
+    "mixed component licenses",
+    "metadata link"
+  ],
+  "defined_type": "online resource",
+  "license": 2,
+  "related_materials": [
+    {
+      "identifier": "10.5281/zenodo.22059977",
+      "identifier_type": "DOI",
+      "relation": "References",
+      "is_linkout": true,
+      "title": "Zenodo concept — latest clean preservation version"
+    },
+    {
+      "identifier": "10.5281/zenodo.22060146",
+      "identifier_type": "DOI",
+      "relation": "References",
+      "is_linkout": false,
+      "title": "Zenodo Unit 05 clean version"
+    },
+    {
+      "identifier": "https://de.wikiversity.org/wiki/Kurs:Differentialgeometrie_(Osnabr%C3%BCck_2023)",
+      "identifier_type": "URL",
+      "relation": "IsDerivedFrom",
+      "is_linkout": false,
+      "title": "Official source course"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.33314676.v1",
+      "identifier_type": "DOI",
+      "relation": "IsPartOf",
+      "is_linkout": false,
+      "title": "Indonesian Open Mathematics Editions inventory baseline"
+    }
+  ]
+}

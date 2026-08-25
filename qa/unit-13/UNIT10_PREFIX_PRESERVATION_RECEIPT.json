@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-unit13-unit10-prefix-preservation-v2",
+  "public_boundary": {
+    "build_script": {
+      "path": "scripts/build_through_unit10.ps1",
+      "bytes": 25539,
+      "sha256": "d96c4488494c3ee1ce2b3a4498f582fda4468f20afcb5fe00cb3316bb9279d84"
+    },
+    "verify_script": {
+      "path": "scripts/verify_through_unit10_pdf.py",
+      "bytes": 34642,
+      "sha256": "48dc3cff8b2205b5e8cde9e19bc197644f74320223c41e2661274b14c3ab8e74"
+    },
+    "wrapper": {
+      "path": "build/through-unit-10.tex",
+      "bytes": 8511,
+      "sha256": "be9b9fc8adadd331c0949032fb0118e1f0e5fdd9d0dfe7760334c1086112065b"
+    },
+    "archive": {
+      "path": "output/release-unit10/geometri-diferensial-manifold-mulus-brenner-id-unit10-source-20260823.zip",
+      "bytes": 1758537,
+      "sha256": "0c160e741e02a711bdbbb984a788459ccb1e4ca94f0809f5add25ec50f8beb3a"
+    },
+    "media_config_entry": {
+      "path": "source/unit_media.json",
+      "bytes": 3709,
+      "sha256": "1f5404aad71947dcff064b853f1820b302f5a7e14cbb862631623eeddc2b8cad"
+    },
+    "pdf": {
+      "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-10-id.pdf",
+      "bytes": 5733895,
+      "sha256": "4eaec807347feeab2b3334056d3109d5ce6e5eb30ed3649a507ae6124049856d"
+    },
+    "build_receipt": {
+      "path": "qa/unit-10/build.json",
+      "bytes": 20600,
+      "sha256": "4f3146a4889e9be09e17ac5d7a1bb9bfb4a6c609debccd4befb078a1bd33b65d"
+    },
+    "structural_qa": {
+      "path": "qa/unit-10/pdf_structural_qa.json",
+      "bytes": 89821,
+      "sha256": "81451a5e7f78f63935e758fa3d277db28b9db252c09c6930fc1cea597c9a47d7"
+    }
+  },
+  "archive_evidence": {
+    "path": "output/release-unit10/geometri-diferensial-manifold-mulus-brenner-id-unit10-source-20260823.zip",
+    "media_config_entry": {
+      "path": "source/unit_media.json",
+      "bytes": 3709,
+      "sha256": "1f5404aad71947dcff064b853f1820b302f5a7e14cbb862631623eeddc2b8cad"
+    },
+    "build_receipt_entry": {
+      "path": "qa/unit-10/build.json",
+      "bytes": 20600,
+      "sha256": "4f3146a4889e9be09e17ac5d7a1bb9bfb4a6c609debccd4befb078a1bd33b65d"
+    },
+    "structural_qa_entry": {
+      "path": "qa/unit-10/pdf_structural_qa.json",
+      "bytes": 89821,
+      "sha256": "81451a5e7f78f63935e758fa3d277db28b9db252c09c6930fc1cea597c9a47d7"
+    },
+    "exact_entries_verified": true
+  },
+  "live_media_configuration": {
+    "path": "source/unit_media.json",
+    "before": {
+      "bytes": 4832,
+      "sha256": "bb4643772d9db389a9842128cbbe4595ac2daa39521d5e563bbfbab7ec869e54"
+    },
+    "after": {
+      "bytes": 4832,
+      "sha256": "bb4643772d9db389a9842128cbbe4595ac2daa39521d5e563bbfbab7ec869e54"
+    },
+    "untouched_byte_identically": true
+  },
+  "verification": {
+    "public_pdf_and_historical_receipts_match_frozen_identities": true,
+    "historical_receipts_restored_from_verified_archive_entries": true,
+    "legacy_prefix_rebuild_skipped": true,
+    "reason": "The append-only live build graph has evolved after Unit 10; rebuilding the old receipt would replace immutable public provenance even though the PDF remains byte-identical."
+  }
+}

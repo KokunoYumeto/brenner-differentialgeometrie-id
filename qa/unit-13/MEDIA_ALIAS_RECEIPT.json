@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-unit13-cumulative-media-aliases-v1",
+  "aliases": [
+    {
+      "source": "authority/media/Toroidal coord.png",
+      "target": "build/generated/media/Toroidal_coord.png",
+      "role": "Unit 11 MediaWiki underscore-normalized PNG loader alias",
+      "transient": false,
+      "bytes": 151522,
+      "sha256": "f09c9189157aedc9c9d516d24ffdf80c6e3d413101e2eb38e3c0cda996c5d618"
+    },
+    {
+      "source": "authority/media/Torus vectors oblique.jpg",
+      "target": "authority/media/Torus_vectors_oblique.jpg",
+      "role": "transient Unit 10 MediaWiki underscore-normalized JPEG loader alias",
+      "transient": true,
+      "bytes": 251142,
+      "sha256": "cfcd0c5c16262a6beab6dd47dc27291b7ff3651228b2b9defc0717957ce5d3f6"
+    }
+  ],
+  "transient_alias_removed_after_pipeline": true
+}

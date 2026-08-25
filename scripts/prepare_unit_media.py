@@ -86,6 +86,20 @@ def write_attribution_tex(
     else:
         heading = rf"\section*{{Unit {unit_number}}}"
         toc = rf"\addcontentsline{{toc}}{{section}}{{Unit {unit_number}}}"
+    if not rows:
+        lines = [
+            heading,
+            toc,
+            (
+                f"Unit {unit_number} tidak menggunakan berkas media. "
+                "Penutupan nol-aset ini diverifikasi terhadap kuliah, lembar kerja, "
+                "dan semua solusi yang disediakan oleh sumber."
+            ),
+            "",
+        ]
+        destination.parent.mkdir(parents=True, exist_ok=True)
+        destination.write_text("\n".join(lines), encoding="utf-8", newline="\n")
+        return
     lines = [
         heading,
         toc,
@@ -112,7 +126,7 @@ def write_attribution_tex(
         lines.extend(
             [
                 rf"\item[]{tex_breakable_filename(filename)}",
-                tex_escape(str(row["attribution_id"])),
+                tex_escape(str(row.get("attribution_id_tex") or row["attribution_id"])),
                 f"{source_link}; {rights_text}.",
             ]
         )
@@ -153,16 +167,20 @@ def main() -> None:
         raise RuntimeError(
             f"missing Unit {args.unit_number} media configuration"
         ) from exc
-    if not isinstance(media_config, list) or not media_config:
-        raise RuntimeError("unit media configuration must be a nonempty list")
+    if not isinstance(media_config, list):
+        raise RuntimeError("unit media configuration must be a list")
 
     with args.manifest.open(encoding="utf-8", newline="") as stream:
         by_title = {row["title"]: row for row in csv.DictReader(stream)}
 
-    magick = shutil.which("magick")
-    if not magick:
+    magick = shutil.which("magick") if media_config else None
+    if media_config and not magick:
         raise RuntimeError("ImageMagick 'magick' executable not found")
-    version = run_checked([magick, "-version"]).splitlines()[0]
+    version = (
+        run_checked([magick, "-version"]).splitlines()[0]
+        if magick
+        else "not required (verified zero-asset unit)"
+    )
     args.output_dir.mkdir(parents=True, exist_ok=True)
 
     rows: list[dict[str, object]] = []
@@ -184,28 +202,54 @@ def main() -> None:
             raise RuntimeError(f"Commons SHA-1 mismatch for {filename}")
 
         derivative: dict[str, object] | None = None
-        if source.suffix.lower() == ".svg":
-            output = args.output_dir / f"{source.stem}.png"
+        if source.suffix.lower() in {".svg", ".gif"}:
+            print_basename = media_item.get("print_basename", source.stem)
+            output = args.output_dir / f"{print_basename}.png"
             # Fixed density, bounding box, colour treatment, and metadata stripping make
-            # this a stable print fallback while preserving the canonical SVG unchanged.
-            command = [
-                magick,
-                "-background",
-                "white",
-                "-density",
-                "300",
-                str(source),
-                "-alpha",
-                "remove",
-                "-alpha",
-                "off",
-                "-resize",
-                "1800x1800>",
-                "-strip",
-                "-define",
-                "png:exclude-chunk=date,time",
-                f"PNG24:{output}",
-            ]
+            # this a stable print fallback while preserving the canonical SVG or GIF.
+            # Animated GIFs use frame zero only; the canonical animation remains the
+            # HTML/download surface and the derivative is explicitly recorded below.
+            source_argument = (
+                f"{source}[0]" if source.suffix.lower() == ".gif" else str(source)
+            )
+            command = [magick, "-background", "white"]
+            if source.suffix.lower() == ".svg":
+                command.extend(["-density", "300"])
+            command.extend(
+                [
+                    source_argument,
+                    "-alpha",
+                    "remove",
+                    "-alpha",
+                    "off",
+                ]
+            )
+            if media_item.get("trim_whitespace", False):
+                # Some legacy Commons SVGs carry a malformed/oversized viewport.
+                # Crop only the deterministic print derivative, retaining a small
+                # white quiet zone; the canonical SVG bytes remain untouched.
+                command.extend(
+                    [
+                        "-fuzz",
+                        "1%",
+                        "-trim",
+                        "+repage",
+                        "-bordercolor",
+                        "white",
+                        "-border",
+                        "12x12",
+                    ]
+                )
+            command.extend(
+                [
+                    "-resize",
+                    "1800x1800>",
+                    "-strip",
+                    "-define",
+                    "png:exclude-chunk=date,time",
+                    f"PNG24:{output}",
+                ]
+            )
             run_checked(command)
             identify = run_checked(
                 [magick, "identify", "-format", "%m %w %h %[colorspace]", str(output)]
@@ -215,28 +259,23 @@ def main() -> None:
                 "bytes": output.stat().st_size,
                 "sha256": digest(output, "sha256"),
                 "identify": identify,
+                "source_kind": source.suffix.lower().lstrip("."),
+                "frame_index": 0 if source.suffix.lower() == ".gif" else None,
                 "command": [
-                    "magick",
-                    "-background",
-                    "white",
-                    "-density",
-                    "300",
-                    relative_path(source, args.project_root),
-                    "-alpha",
-                    "remove",
-                    "-alpha",
-                    "off",
-                    "-resize",
-                    "1800x1800>",
-                    "-strip",
-                    "-define",
-                    "png:exclude-chunk=date,time",
-                    f"PNG24:{relative_path(output, args.project_root)}",
+                    "magick" if part == magick else relative_path(output, args.project_root)
+                    if part == f"PNG24:{output}"
+                    else relative_path(source, args.project_root) + "[0]"
+                    if part == f"{source}[0]"
+                    else relative_path(source, args.project_root)
+                    if part == str(source)
+                    else part
+                    for part in command
                 ],
             }
 
-        rows.append(
-            {
+        source_license_url = metadata["license_url"]
+        reader_license_url = media_item.get("license_url_id", source_license_url)
+        row: dict[str, object] = {
                 "filename": filename,
                 "canonical_path": relative_path(source, args.project_root),
                 "canonical_bytes": source_bytes,
@@ -248,14 +287,18 @@ def main() -> None:
                 "rights_label_id": media_item.get(
                     "rights_label_id", metadata["license"]
                 ),
-                "license_url": metadata["license_url"],
+                "license_url": reader_license_url,
                 "artist_html": metadata["artist_html"],
                 "credit_html": metadata["credit_html"],
                 "attribution_required": metadata["attribution_required"],
                 "attribution_id": media_item["attribution_id"],
                 "derivative": derivative,
             }
-        )
+        if media_item.get("attribution_id_tex"):
+            row["attribution_id_tex"] = media_item["attribution_id_tex"]
+        if reader_license_url != source_license_url:
+            row["source_license_url"] = source_license_url
+        rows.append(row)
 
     write_attribution_tex(
         rows, args.attribution_tex, args.unit_number, args.heading_level

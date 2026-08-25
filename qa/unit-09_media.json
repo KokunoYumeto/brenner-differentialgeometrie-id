@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "scope": "O011 Brenner Unit 9 exact media closure and TeX print derivatives",
+  "unit_number": 9,
+  "heading_level": "section",
+  "media_config": "source/unit_media.json",
+  "media_config_sha256": "1f5404aad71947dcff064b853f1820b302f5a7e14cbb862631623eeddc2b8cad",
+  "manifest": "authority/brenner_media_rights_manifest.csv",
+  "manifest_sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57",
+  "image_engine": "Version: ImageMagick 7.1.2-22 Q16 x64 ccf56fb:20260512 https://imagemagick.org",
+  "source_count": 1,
+  "derivative_count": 1,
+  "attribution_tex": {
+    "path": "build/generated/unit09-media-attribution-cumulative.tex",
+    "bytes": 660,
+    "sha256": "598f4d8c9e63ed3f2a9547750e5b517faaa715f984e799a2cbd5e902ce42c6fb"
+  },
+  "media": [
+    {
+      "filename": "Tangentialvektor.svg",
+      "canonical_path": "authority/media/Tangentialvektor.svg",
+      "canonical_bytes": 4790,
+      "canonical_sha1": "d6385ee16ebcc717b2b83164a0d4849ef1a02483",
+      "canonical_sha256": "ed39381859fa3f6e4240ad7112388600a59126e71bc5aac5943a87f11d9e5301",
+      "commons_description_url": "https://commons.wikimedia.org/wiki/File:Tangentialvektor.svg",
+      "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Tangentialvektor.svg",
+      "license": "Public domain",
+      "rights_label_id": "domain publik",
+      "license_url": "",
+      "artist_html": "<ul><li>derivative work: <a href=\"//commons.wikimedia.org/wiki/User:McSush\" title=\"User:McSush\">McSush</a> (<a href=\"//commons.wikimedia.org/wiki/User_talk:McSush\" title=\"User talk:McSush\"><span class=\"signature-talk\">talk</span></a>)</li>\n<li><a href=\"//commons.wikimedia.org/wiki/File:Tangentialvektor.png\" title=\"File:Tangentialvektor.png\">Tangentialvektor.png</a>: <a href=\"https://de.wikipedia.org/wiki/Benutzer:TN\" class=\"extiw\" title=\"de:Benutzer:TN\">TN</a><br></li></ul>\nDer ursprünglich hochladende Benutzer war <a href=\"https://en.wikipedia.org/wiki/de:User:TN\" class=\"extiw\" title=\"w:de:User:TN\">TN</a> in der <a href=\"https://en.wikipedia.org/wiki/de:\" class=\"extiw\" title=\"w:de:\">Wikipedia auf Deutsch</a>",
+      "credit_html": "<ul><li><a href=\"//commons.wikimedia.org/wiki/File:Tangentialvektor.png\" title=\"File:Tangentialvektor.png\">Tangentialvektor.png</a></li></ul>",
+      "attribution_required": "false",
+      "attribution_id": "McSush (karya turunan dari Tangentialvektor.png oleh TN; domain publik).",
+      "derivative": {
+        "path": "build/generated/media/Tangentialvektor.png",
+        "bytes": 301930,
+        "sha256": "c17f99b3204c7fbdf64301545e234f99cd0378f2cdd3613a409e888fcda907b5",
+        "identify": "PNG 1800 1238 sRGB",
+        "source_kind": "svg",
+        "frame_index": null,
+        "command": [
+          "magick",
+          "-background",
+          "white",
+          "-density",
+          "300",
+          "authority/media/Tangentialvektor.svg",
+          "-alpha",
+          "remove",
+          "-alpha",
+          "off",
+          "-resize",
+          "1800x1800>",
+          "-strip",
+          "-define",
+          "png:exclude-chunk=date,time",
+          "build/generated/media/Tangentialvektor.png"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-12/lecture12.id.tex",
+  "input_bytes": 21299,
+  "input_sha256": "993875dc8f085e0bddaaac813179dade7e5a2928d53c1e575c7c4f09bc6074f1",
+  "output": "build/generated/lecture12.id.build.tex",
+  "output_bytes": 20287,
+  "output_sha256": "3dd57fbe38399ceff2118b7bffcf69b845b72e397ba212d7c56e0f417951554c",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 2,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Differenzierbare Mannigfaltigkeit/Abbildung/Tangentialabbildung/Eigenschaften/Fakt",
+      "label": "Lema 10.8"
+    },
+    {
+      "target": "Topologischer Raum/Triviale Vektorbündel/Homomorphismus/Kernbündel/Trivialisierungen/Aufgabe",
+      "label": "Soal 12.26"
+    },
+    {
+      "target": "Topologischer Raum/Triviale Vektorbündel/Homomorphismus/Kernbündel/Bemerkung",
+      "label": "Catatan 12.5"
+    },
+    {
+      "target": "Abgeschlossene Untermannigfaltigkeit/Punktweise/Tangentialraum als Unterraum/Fakt",
+      "label": "Teorema 10.3"
+    },
+    {
+      "target": "Topologischer Raum/Triviale Vektorbündel/Homomorphismus/Kernbündel/Bemerkung",
+      "label": "Catatan 12.5"
+    },
+    {
+      "target": "Abgeschlossene Untermannigfaltigkeit/Tangentialbündel/Abgeschlossen/Aufgabe",
+      "label": "Soal 10.22"
+    },
+    {
+      "target": "Vektorbündel/Offene Menge/Stetige Basisschnitte/Trivialisierung/Aufgabe",
+      "label": "Soal 12.14"
+    },
+    {
+      "target": "Topologische Mannigfaltigkeit/Rekonstruktion aus Karten/Aufgabe",
+      "label": "Soal 8.15"
+    },
+    {
+      "target": "Topologisches reelles Vektorbündel/Verklebungsdatum/Definition",
+      "label": "Definisi 12.10"
+    },
+    {
+      "target": "Topologisches reelles Vektorbündel/Verklebungsdatum/Existenz/Fakt/Beweis/Aufgabe",
+      "label": "Soal 12.12"
+    },
+    {
+      "target": "Verklebungsdatum/Vektorbündel/Trivialisierungen/Bemerkung",
+      "label": "Catatan 12.11"
+    },
+    {
+      "target": "Topologisches reelles Vektorbündel/Verklebungsdatum/Existenz/Fakt",
+      "label": "Lema 12.12"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

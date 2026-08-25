@@ -1,0 +1,894 @@
+\setcounter{section}{8}
+
+  \zwischenueberschrift{Der Satz über implizite Abbildungen und Mannigfaltigkeiten}
+
+Die Einheitssphäre, die wir in der letzten Vorlesung als ein motivierendes Beispiel einer Mannigfaltigkeit besprochen haben, ist die Faser zur differenzierbaren Abbildung
+\maabbeledisp {} { \R^3 } { \R
+} { (x,y,z) } { x^2+y^2+z^2
+} {,}
+über $1$. Diese Abbildung ist mit Ausnahme des Nullpunkts
+\definitionsverweis {regulär}{}{.}
+Der Satz über implizite Abbildung macht in dieser Situation weitreichende Aussagen über die lokale Gestalt der Faser zu einer Abbildung
+\maabb {\varphi} {\R^n} { \R^m
+} {,}
+nämlich, dass es lokal Homöomorphismen zwischen der Faser in einem regulären Punkt und einer offenen Menge des $\R^k$ gibt, wobei $k$ die Differenz zwischen der Dimension des Ausgangsraumes und der Dimension des Zielraumes ist. Wir werden gleich sehen, dass solche Fasern nicht nur topologische Mannigfaltigkeiten, sondern auch differenzierbare Mannigfaltigkeiten sind. Wir formulieren den Satz über implizite Abbildungen in einer Version, aus der sich ablesen lässt, dass die regulären Fasern differenzierbare Mannigfaltigkeiten sind.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Satz über implizite Abbildungen/Globale Diffeomorphismen/Induzierte Diffeomorphismen zwischen Faser und Achsenräumen/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+und sei
+\maabbdisp {\varphi} { G } {\R^m
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Abbildung}{}{.}
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Z
+}
+{ = }{ \varphi^{-1}(0)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+über
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+und $\varphi$ sei in jedem Punkt der Faser
+\definitionsverweis {regulär}{}{.}}
+\faktfolgerung {Dann gibt es zu jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Z
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine offene Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ W
+}
+{ \subseteq }{ G
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+offene Mengen
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^{n- m}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ V'
+}
+{ \subseteq }{ \R^{ m }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+und einen
+$C^1$-\definitionsverweis {Diffeomorphismus}{}{}
+\maabbdisp {\theta} { W } { V \times V'
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi\!\mid_{W}
+}
+{ = }{ p_2 \circ \theta
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+der eine Bijektion zwischen
+\mathkor {} {Z \cap W} {und} {V \times \{0\}} {}
+induziert, und so, dass das
+\definitionsverweis {totale Differential}{}{}
+
+\mathl{\left(D\theta\right)_{Q}}{} für jedes
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine Bijektion zwischen
+\mathkor {} {\operatorname{kern}  \left(D\varphi\right)_{ Q }} {und} {\R^{n-m }} {}
+stiftet.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Diese Aussage wurde im [[Satz über implizite Abbildungen/R/Fakt/Beweis|Beweis]]
+des [[Satz über implizite Abbildungen/R/Fakt|Satzes über implizite Abbildungen]]
+mitbewiesen. Der Zusatz ergibt sich aus
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \operatorname{kern}  \left(D\varphi\right)_{Q}
+}
+{ \cong} { \operatorname{kern}  \left(Dp_2 \right)_{ \theta(Q)}
+}
+{ =} { \R^{n- m }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+Für die Faser selbst ergibt sich daraus die Struktur einer Mannigfaltigkeit. Der Satz über implizite Abbildungen beschert uns also mit einer riesigen Klasse von Mannigfaltigkeiten. Es handelt sich dabei um sogenannte \stichwort {abgeschlossene Untermannigfaltigkeiten} {,} die wir bald, wenn wir Tangentialräume zur Verfügung haben, systematischer behandeln werden.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+und sei
+\maabbdisp {\varphi} { G } { \R^{ m }
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Abbildung}{}{.}
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Z
+}
+{ = }{ \varphi^{-1}( Q)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+über einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ \R^{ m }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktvoraussetzung {Das
+\definitionsverweis {totale Differential}{}{}
+
+\mathl{\left(D\varphi\right)_{ P }}{} sei
+\definitionsverweis {surjektiv}{}{}
+für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Z
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Dann ist $Z$ eine
+($C^1$)-\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+der
+\definitionsverweis {Dimension}{}{}
+
+\mathl{n - { m }}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Wir setzen
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+Aufgrund von
+[[Satz über implizite Abbildungen/Globale Diffeomorphismen/Induzierte Diffeomorphismen zwischen Faser und Achsenräumen/Fakt|Satz 8.1]]
+gibt es zu jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Z
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine offene Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ W
+}
+{ \subseteq }{ G
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und einen
+$C^1$-\definitionsverweis {Diffeomorphismus}{}{}
+\maabbdisp {\theta} { W } { V \times V'
+} {}
+mit offenen Mengen
+\mathkor {} {V \subseteq \R^{n - m }} {und} {V' \subseteq \R^m} {}
+derart, dass $\theta$ eine Bijektion zwischen
+\mathl{Z \cap W}{} und
+
+\mavergleichskette
+{\vergleichskette
+{ V \times \{0\}
+}
+{ \cong }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+induziert. Die Einschränkungen dieser Diffeomorphismen auf
+\mathl{Z \cap W}{} bzw. $V$ nehmen wir als Karten für $Z$.
+\teilbeweis {}{}{}
+{Zum Nachweis, dass dies eine differenzierbare Struktur auf $Z$ definiert, seien offene Umgebungen
+\zusatzklammer {im $\R^n$} {} {}
+\mathkor {} {W_1} {und} {W_2} {}
+von
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Z
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegeben zusammen mit Diffeomorphismen
+\maabbdisp {\theta_1} {W_1 } { V_1 \times V_1'
+} {} und \maabbdisp {\theta_2} {W_2 } { V_2 \times V_2'
+} {.}
+Durch Übergang zu
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ = }{ W_1 \cap W_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+können wir annehmen, dass beide offenen Mengen gleich sind. Die Übergangsabbildung
+\mathl{\theta_2 \circ \theta_1^{-1}}{} ist ein $C^1$-Diffeomorphismus zwischen
+\zusatzklammer {offenen Teilmengen von} {} {}
+\mathkor {} {V_1 \times V_1'} {und} {V_2 \times V_2'} {,}
+der
+\mathl{V_1 \times \{0\}}{} in
+\mathl{V_2 \times \{0\}}{} überführt. Daher ist nach
+[[Diffeomorphismus/Euklidische Produktmengen/Eingeschränkter Diffeomorphismus/Aufgabe|Aufgabe 52. (Analysis (Osnabrück 2021-2023))]]
+auch die auf diese Teilmengen eingeschränkte Übergangsabbildung ein $C^1$-Diffeomorphismus
+\zusatzklammer {zwischen offenen Teilmengen des \mathlk{\R^{n - m }}{}} {} {.}}
+{}
+
+}
+
+  \zwischenueberschrift{Differenzierbare Abbildungen}
+
+\inputdefinition
+{}
+{
+
+Es seien
+\mathkor {} {L} {und} {M} {}
+zwei $C^k$-\definitionsverweis {Mannigfaltigkeiten}{}{}
+mit
+\definitionsverweis {Atlanten}{}{}
+\mathkor {} {(U_i,U_i', \alpha_i, i \in I)} {und} {(V_j,V_j', \beta_j, j \in J)} {.}
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ 1
+}
+{ \leq }{ \ell
+}
+{ \leq }{ k
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Eine
+\definitionsverweis {stetige Abbildung}{}{}
+\maabbdisp {\varphi} { L } { M
+} {}
+heißt eine $C^\ell$-\definitionswort {differenzierbare Abbildung}{,} wenn für alle
+\mathkor {} {i \in I} {und alle} {j \in J} {}
+die Abbildungen
+\maabbdisp {\beta_j \circ  \varphi \circ (\alpha_i)^{-1}} {\alpha_i( \varphi^{-1}(V_j) \cap U_i) } { V_j'
+} {}
+$C^\ell$-\definitionsverweis {differenzierbar}{}{}
+sind.
+
+}
+
+Da die
+\mathl{\alpha_i \left(  \varphi^{-1}(V_j) \cap U_i  \right)}{} offen sind, ist durch diese Definition der Differenzierbarkeitsbegriff für Abbildungen zwischen Mannigfaltigkeiten auf den Differenzierbarkeitsbegriff von Abbildungen zwischen offenen Mengen in reellen Vektorräumen zurückgeführt. Da man eine $C^k$-Mannigfaltigkeit als eine $C^\ell$-Mannigfaltigkeit für
+
+\mavergleichskette
+{\vergleichskette
+{ \ell
+}
+{ \leq }{ k
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+auffassen kann, genügt es im Wesentlichen, von $C^k$-Abbildungen zwischen $C^k$-Mannigfaltigkeiten zu sprechen. Wichtig sind insbesondere die Fälle
+\mathl{k=1,2, \infty}{.} Man beachte, dass wir bei
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+von einer differenzierbaren Abbildung sprechen, ohne dass es
+\zusatzklammer {bisher} {} {}
+eine \anfuehrung{Ableitung}{} gibt.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Differenzierbare Mannigfaltigkeit/Differenzierbare Abbildungen/Elementare funktorielle Eigenschaften/Fakt}
+{Proposition}
+{}
+{
+
+\faktsituation {Es seien
+\mathkor {} {L,M} {und} {N} {}
+$C^k$-\definitionsverweis {Mannigfaltigkeiten}{}{.}}
+\faktuebergang {Dann gelten folgende Aussagen.}
+\faktfolgerung {\aufzaehlungvier{Die \definitionsverweis {Identität}{}{}
+\maabbdisp {\operatorname{Id} \,} { L } { L
+} {}
+ist eine
+$C^k$-\definitionsverweis {Abbildung}{}{.}
+}{Jede
+\definitionsverweis {konstante Abbildung}{}{}
+\maabbdisp {\varphi} { L } { M
+} {}
+ist eine $C^k$-\definitionsverweis {Abbildung}{}{.}
+}{Für jede
+\definitionsverweis {offene Teilmenge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist die
+\definitionsverweis {offene Einbettung}{}{}
+\maabb {} { U } { L
+} {}
+eine $C^k$-\definitionsverweis {Abbildung}{}{.}
+}{Es seien
+\maabbdisp {\varphi} { L } { M
+} {}
+und
+\maabbdisp {\psi} { M } { N
+} {}
+$C^k$-\definitionsverweis {Abbildungen}{}{.}
+Dann ist auch die
+\definitionsverweis {Hintereinanderschaltung}{}{}
+\maabbdisp {\psi \circ \varphi} { L } { N
+} {}
+eine $C^k$-\definitionsverweis {Abbildung}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{(1). Die zu überprüfenden Abbildungen sind genau die Kartenwechsel
+\mathl{\alpha_j \circ \alpha_i^{-1}}{,} die nach Definition einer
+$C^k$-\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+$C^k$-\definitionsverweis {Diffeomorphismen}{}{}
+sind.}
+{}
+\teilbeweis {}{}{}
+{(2). Die zu überprüfenden Abbildungen sind bezüglich jeder Karte konstant, also beliebig oft differenzierbar.}
+{}
+\teilbeweis {}{}{}
+{(3). Die zu überprüfenden Abbildungen zu
+
+\mavergleichskette
+{\vergleichskette
+{ i,j
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sind gleich
+
+\mathdisp {\alpha_i \left(  U \cap U_i  \cap U_j  \right)  \subseteq  \alpha_i \left(  U_i  \cap U_j  \right) \stackrel{ \alpha_j \circ \alpha_i^{-1} }{  \longrightarrow} U'_j} { , }
+
+also  eine offene Einbettung gefolgt von einem differenzierbaren Kartenwechsel.}
+{}
+\teilbeweis {}{}{}
+{(4). Es seien
+\maabbdisp {\gamma_{  \ell }} {W_{  \ell }} {W'_{  \ell }
+} {}
+die Karten für $N$. Dann sind für alle möglichen Indexkombinationen die
+\zusatzklammer {auf gewissen offenen Teilmengen eingeschränkten} {} {}
+Hintereinanderschaltungen
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \gamma_{  \ell } \circ (\psi  \circ \varphi) \circ \alpha_i^{-1}
+}
+{ =} { \gamma_{  \ell } \circ  \psi  \circ \beta_j^{-1} \circ \beta_j \circ \varphi \circ \alpha_i^{-1}
+}
+{ =} { \left(  \gamma_{  \ell } \circ \psi \circ \beta_j^{-1}  \right)  \circ \left(  \beta_j \circ \varphi \circ \alpha_i^{-1}  \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+nach der [[Totale Differenzierbarkeit/R/Kettenregel/Fakt|Kettenregel]]
+\definitionsverweis {differenzierbar}{}{.}
+Bei
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ \geq }{ 2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+verwendet man
+[[Stetig differenzierbar/K/Höherdimensional/Mehrfach/Hintereinanderschaltung/Aufgabe|Aufgabe 46.10 (Analysis (Osnabrück 2021-2023))]].}
+{}
+
+}
+
+\inputdefinition
+{}
+{
+
+Es seien
+\mathkor {} {L} {und} {M} {}
+zwei
+$C^k$-\definitionsverweis {Mannigfaltigkeiten}{}{.}
+Ein
+\definitionsverweis {Homöomorphismus}{}{}
+\maabbdisp {\varphi} { L } { M
+} {}
+heißt ein
+\definitionswortpraemath {C^k}{ Diffeomorphismus }{,}
+wenn sowohl
+\mathkor {} {\varphi} {als auch} {\varphi^{-1}} {}
+$C^k$-\definitionsverweis {Abbildungen}{}{}
+sind.
+
+}
+
+\inputdefinition
+{}
+{
+
+Zwei
+$C^k$-\definitionsverweis {Mannigfaltigkeiten}{}{}
+\mathkor {} {L} {und} {M} {}
+heißen
+\definitionswortpraemath {C^k}{ diffeomorph }{,}
+wenn es zwischen ihnen einen
+$C^k$-\definitionsverweis {Diffeomorphismus}{}{}
+gibt.
+
+}
+
+\inputbemerkung
+{}
+{
+
+Zu einer
+$C^k$-\definitionsverweis {Mannigfaltigkeit}{}{}
+$M$ mit einem $C^k$-Atlas
+\mathl{\left(  U_i,U_i',\alpha_i, i \in I  \right)}{} gibt es einen \stichwort {maximalen Atlas} {,} der mit der durch den Atlas gegebenen differenzierbaren Struktur verträglich ist. Er besteht aus der Menge aller
+\definitionsverweis {Homöomorphismen}{}{}
+\maabbdisp {\beta} { U } { V
+} {}
+mit offenen Mengen
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit der Eigenschaft, dass diese Abbildungen
+$C^k$-\definitionsverweis { Abbildungen
+}{}{}
+\zusatzklammer {bezüglich der durch den Atlas gegebenen Struktur} {} {}
+sind. Dieser maximale Atlas enthält natürlich den Ausgangsatlas, ist aber im Allgemeinen bei weitem größer. Beispielsweise enthält er zu jeder Karte
+\maabb {\beta} { U } { V
+} {}
+und jeder offenen Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ U'
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+auch die auf $U'$ eingeschränkte Kartenabbildung. Wichtig ist, dass die identische Abbildung
+\maabbdisp {\operatorname{Id}} {(M,A)} {(M,B)
+} {,}
+wobei $A$ den Ausgangsatlas und $B$ den maximalen Atlas bezeichnet, ein
+$C^k$-\definitionsverweis {Diffeomorphismus}{}{}
+von Mannigfaltigkeiten ist, wie unmittelbar aus der Definition folgt. Wichtiger als der Atlas ist die durch ihn vertretene differenzierbare Struktur auf der Mannigfaltigkeit, die festlegt, welche Abbildungen differenzierbar und welche Diffeomorphismen sind. Die Karten des maximalen Atlas werden manchmal auch
+\zusatzklammer {verallgemeinerte} {} {}
+Karten der Mannigfaltigkeit genannt.
+
+}
+
+  \zwischenueberschrift{Differenzierbare Funktionen}
+
+Eine
+$C^k$-\definitionsverweis {differenzierbare Abbildung}{}{}
+\maabbdisp {f} {M} {\R
+} {}
+von einer
+\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+in die reellen Zahlen nennt man auch eine $C^k$-\stichwort {differenzierbare Funktion} {.} Nach Definition bedeutet das einfach, dass für jede Karte
+\maabbdisp {\alpha} {U} {V
+} {}
+die zusammengesetzte Funktion
+\maabbdisp {f \circ \alpha^{-1}} {V} {\R
+} {}
+eine
+$C^k$-\definitionsverweis {Funktion}{}{}
+ist. Die Menge aller $C^k$-Funktionen auf $M$ werden mit
+\mathl{C^k(M,\R)}{} bezeichnet.
+
+__NOEDITSECTION__
+\inputfaktbeweis
+{Mannigfaltigkeit/Differenzierbare Funktionen/Strukturelle Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{} und
+\maabbdisp {f,g} { M } {\R
+} {}
+\definitionsverweis {differenzierbare Funktionen}{}{} auf $M$.}
+\faktuebergang {Dann gelten die folgenden Aussagen.}
+\faktfolgerung {\aufzaehlungvier{Die Abbildung
+\maabbeledisp {f \times g} { M } {\R^2
+} { x } {(f(x),g(x))
+} {,} ist differenzierbar.
+}{ $f+g$ ist
+\definitionsverweis {differenzierbar}{}{.}
+}{ $f \cdot g$ ist
+\definitionsverweis {differenzierbar}{}{.}
+}{Wenn $f$ keine Nullstelle besitzt, so ist auch
+\mathl{f^{-1}}{} differenzierbar.
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+ }
+{ Siehe [[Mannigfaltigkeit/Differenzierbare Funktionen/Strukturelle Eigenschaften/Fakt/Beweis/Aufgabe|Aufgabe 8.3]]. }
+
+Insbesondere bilden die differenzierbaren Funktionen auf einer Mannigfaltigkeit einen
+\definitionsverweis {kommutativen Ring}{}{.}
+
+Wenn
+\maabbdisp {\alpha} {U} {V
+} {}
+eine Karte ist mit
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen, so liefert jede Projektion $x_i$ eine differenzierbare Funktion
+\maabbdisp {x_i \circ \alpha} {U} {\R
+} {,}
+die meistens wieder mit $x_i$ bezeichnet wird. Man sagt dann, dass die Funktionen
+\mathl{x_1 , \ldots , x_n}{} \stichwort {differenzierbare Koordinaten} {} für
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bilden. Für eine stetig differenzierbare Funktion
+\maabbdisp {f} {U} {\R
+} {}
+ist nach Definition die Funktion
+\maabbdisp {f \circ \alpha^{-1}} {V} {\R
+} {}
+\definitionsverweis {
+stetig differenzierbar}{}{,}
+d.h. für jedes $i$ existieren die
+\definitionsverweis {
+partiellen Ableitungen}{}{}
+
+\mathdisp {{ \frac{   \partial  (f \circ \alpha^{-1})  }{  \partial   x_i  } }} { , }
+
+die wiederum
+\zusatzklammer {stetige} {} {}
+Funktionen auf $V$ sind. Daher sind
+
+\mathdisp {{ \frac{   \partial  (f \circ \alpha^{-1})   }{  \partial   x_i  } }  \circ \alpha} {  }
+
+Funktionen auf $U$. Diese werden im Allgemeinen einfach wieder mit
+\mathl{{ \frac{   \partial  f  }{  \partial   x_i  } }}{} bezeichnet.
+
+ [[Kategorie:Latexseite]]

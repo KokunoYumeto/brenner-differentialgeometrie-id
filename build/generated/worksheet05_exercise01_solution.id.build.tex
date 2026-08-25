@@ -1,0 +1,116 @@
+\textit{Catatan edisi: solusi sumber memakai reduksi ke matriks Hesse tanpa menyebut matriks metrik grafik dan memberikan vektor eigen nol pada kasus sah $c=0$ dan $a<b$. Alasan metrik dan pemisahan kasus berikut memperbaiki kedua kekurangan itu.}
+
+Kita menggunakan
+Fakta,
+dan di titik nol berlaku $\operatorname{Grad}f(0)=0$, sehingga faktor normalisasi $\omega=1$ dan matriks metrik grafik $G=I$. Oleh karena itu,
+\definitionsverweis {pemetaan Weingarten}{}{}
+langsung dinyatakan oleh
+\definitionsverweis {matriks Hesse}{}{.}
+Matriks Hesse dari fungsi tersebut adalah
+
+\mathdisp {\begin{pmatrix}  2a  &   c   \\ c &  2b \end{pmatrix}} { , }
+
+sedangkan
+\definitionsverweis {polinom karakteristik}{}{}
+darinya adalah
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ (t-2a)(t-2b)-c^2
+}
+{ =} { t^2 -2(a+b)t +4ab -c^2
+}
+{ =} { \left(  t-(a+b)  \right)^2 - (a+b)^2 +4ab -c^2
+}
+{ =} { \left(  t-(a+b)  \right)^2  - a^2 -b^2 +2ab -c^2
+}
+{ =} { \left(  t-(a+b)  \right)^2  - (a-b)^2 -c^2
+}
+}
+{}
+{}{.}
+Jadi, nilai-nilai eigennya
+\zusatzklammer {yang sekaligus merupakan kelengkungan utama} {} {}
+adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \lambda_{1,2}
+}
+{ =} { \pm \sqrt{ (a-b)^2+c^2 } +a+b
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Jika $c=0$, matriks tersebut diagonal. Apabila $a>b$, arah eigen
+\mathkor {} {\begin{pmatrix}1\\0\end{pmatrix}} {dan} {\begin{pmatrix}0\\1\end{pmatrix}} {}
+masing-masing bersesuaian dengan nilai eigen $2a$ dan $2b$. Apabila $a<b$, arah eigen
+\mathkor {} {\begin{pmatrix}0\\1\end{pmatrix}} {dan} {\begin{pmatrix}1\\0\end{pmatrix}} {}
+masing-masing bersesuaian dengan nilai eigen $2b$ dan $2a$. Jika
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ = }{ b
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+maka pemetaan Weingarten adalah perkalian dengan $2a$ dan setiap vektor tak nol merupakan vektor eigen. Dengan demikian, seluruh kasus $c=0$ telah selesai. Mulai sekarang, anggap $c\neq 0$. Untuk
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \lambda_{1}
+}
+{ =} { \sqrt{ (a-b)^2+c^2 } +a+b
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+kita perlu menentukan kernel matriks
+
+\mathdisp {\begin{pmatrix}  \sqrt{(a-b)^2 +c^2} + b-a  &   -c  \\  -c &  \sqrt{(a-b)^2 +c^2} + a-b \end{pmatrix}} {  }
+
+yang diberikan oleh
+
+\mathdisp {\R \begin{pmatrix}  \sqrt{(a-b)^2 +c^2} + a-b  \\c   \end{pmatrix}} { . }
+
+Dengan demikian, salah satu arah kelengkungan utama adalah
+\mathl{\begin{pmatrix}  \sqrt{(a-b)^2 +c^2} + a-b  \\c   \end{pmatrix}}{} dengan kelengkungan utama
+\mathl{\sqrt{ (a-b)^2+c^2 } +a+b}{.}
+
+Dengan cara yang sama, diperoleh arah kelengkungan utama
+\mathl{\begin{pmatrix}  -c \\ \sqrt{(a-b)^2 +c^2} + a-b    \end{pmatrix}}{} dengan kelengkungan utama
+\mathl{-\sqrt{ (a-b)^2+c^2 } +a+b}{.}

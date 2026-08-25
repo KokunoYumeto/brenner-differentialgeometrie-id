@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-07/lecture07.id.tex",
+  "surface": "Manifold zahyou3.png bildlizenz creator argument",
+  "decision": "Use an ASCII TeX-safe transliteration in the moving list-of-figures argument; retain the exact Unicode creator string in source/unit_media.json, the rights manifest, and release metadata.",
+  "reason": "The exact fullwidth Unicode creator name caused the deterministic TeX build to fail while writing through-unit-07.lof. The change is display-only and does not alter the source identity, attribution, license, or asset bytes.",
+  "source_call_sha256": "a55b6d2e8465ab9270952703ac2166c71f4d3f7c5a070747a8bdcb74ea2a4316",
+  "target_call_sha256": "c856be9edc1cc35eda70fda2d01062df75e278abf1e7e271a964860ad85afbae",
+  "exact_unicode_creator": "１３２人目　",
+  "tex_display_creator": "132ninme",
+  "status": "applied-before-unit-07-build"
+}

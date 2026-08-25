@@ -1,0 +1,53 @@
+Dengan regularitas $C^2$ yang dinyatakan dalam soal edisi ini, kita klaim
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ TY
+}
+{ =} { \left\{  (P,u)   \mid   h(P) = c , \,  \left(  D h   \right)_{ P } \left(  u  \right) = 0       \right\}
+}
+{ =} { \left\{  (P,u_1 , \ldots , u_n)   \mid   h(P) = c , \,  \sum_{i = 1}^n u_i { \frac{   \partial   h   }{  \partial   x_i   } } (P) = 0       \right\}
+}
+{ \subseteq} { W \times \R^n
+}
+{ } {
+}
+}
+{}
+{}{}
+dengan proyeksi alami ke $Y$.
+
+Definisikan pemetaan
+\maabbeledisp {\Phi} {W\times\R^n} {\R^2
+} {(P,u)} {\left(h(P),\left(Dh\right)_P(u)\right)
+} {.}
+Karena $h$ berkelas $C^2$, pemetaan $\Phi$ berkelas $C^1$, dan
+
+\mathdisp {TY=\Phi^{-1}(c,0)} { . }
+
+Kita tunjukkan bahwa $(c,0)$ merupakan nilai reguler. Untuk
+\mathl{(P,u)\in TY}{}, diferensial $\Phi$ diberikan oleh
+
+\mathdisp {(D\Phi)_{(P,u)}(v,w)=\left((Dh)_P(v),\,(D^2h)_P(v,u)+(Dh)_P(w)\right)} { . }
+
+Karena $h$ reguler pada $Y$, bentuk linear $(Dh)_P$ surjektif. Untuk sebarang
+\mathl{(r,s)\in\R^2}{}, pilih $v$ dengan $(Dh)_P(v)=r$, lalu pilih $w$ dengan
+
+\mathdisp {(Dh)_P(w)=s-(D^2h)_P(v,u)} { . }
+
+Dengan pilihan ini, $(D\Phi)_{(P,u)}(v,w)=(r,s)$, sehingga diferensial $\Phi$ surjektif di setiap titik serat. Teorema pemetaan implisit kini menunjukkan bahwa $TY$ merupakan submanifold tertutup dari $W\times\R^n$ berdimensi $2n-2$. Ketertutupannya juga langsung mengikuti dari kontinuitas $\Phi$ dan ketertutupannya titik $(c,0)$ di $\R^2$.
+
+Untuk mencocokkan realisasi tertanam ini dengan struktur bundel, bagi setiap
+\mathl{P\in Y}{}
+pilih suatu parametrisasi lokal
+\maabbdisp {\beta} {V} {U\subseteq Y
+} {,}
+dengan $V\subseteq\R^{n-1}$ terbuka. Pemetaan
+\maabbeledisp {} {V \times \R^{n-1} } { U \times \R^n
+} {(Q,z)} { ( \beta(Q), \left(  D\beta  \right)_{ Q } \left(  z  \right) )
+} {,}
+memberikan trivialisasi lokal yang citranya tepat terdiri atas pasangan titik dan vektor singgung pada serat. Jadi topologi serta proyeksi realisasi tertanam ini sama dengan topologi dan proyeksi bundel singgung yang telah didefinisikan.
+
+Catatan edisi: Solusi sumber mengganti syarat $h(P)=c$ dengan $h(P)=0$, menulis turunan parsial dari fungsi $f$ yang tidak didefinisikan, dan memakai $\beta(q)$ alih-alih $\beta(Q)$. Lebih mendasar, asumsi $C^1$ sumber hanya membuat turunan pertama kontinu dan tidak cukup untuk menyimpulkan bahwa $TY$ adalah submanifold diferensiabel dari $W\times\R^n$. Edisi ini memperkuat asumsi soal menjadi $C^2$ dan memberikan pemeriksaan nilai reguler yang hilang.
+
+ [[Kategorie:Latexseite]]

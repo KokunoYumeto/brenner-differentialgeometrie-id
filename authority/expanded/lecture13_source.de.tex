@@ -1,0 +1,1362 @@
+\setcounter{section}{13}
+
+  \zwischenueberschrift{Konstruktion von Vektorbündeln}
+
+Man kann sämtliche Konstruktionen, die man in der linearen Algebra für Vektorräume durchführt, auf Vektorbündel übertragen. In jeder Faser verwendet man die Konstruktionen für die Vektorräume. Da man aber auch die Trivialisierungen berücksichtigen muss, ist es am einfachsten, mit Verklebungsdaten zu arbeiten.
+
+\inputdefinition
+{}
+{
+
+Zu
+\definitionsverweis {reellen Vektorbündeln}{}{}
+\mathkor {} {E} {und} {F} {}
+auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ mit Trivialisierungen
+\maabbdisp {\alpha_i} {E {{|}}_{U_i } } { U_i \times \R^m
+} {}
+und
+\maabbdisp {\beta_i} {F{{|}}_{U_i } } { U_i \times \R^n
+} {}
+nennt man das Vektorbündel zum
+\definitionsverweis {Verklebungsdatum}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{G_i
+}
+{ =} { U_i \times \R^m \times \R^n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+\maabbdisp {\varphi_{ij}} {G_i {{|}}_{U_i \cap U_j }  } { G_j {{|}}_{U_i \cap U_j }
+} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_{ij} (x,v,w)
+}
+{ \defeq} { \left(  x   , \,   \alpha_j (\alpha_i^{-1} (x,v))  , \,   \beta_j (\beta_i^{-1} (x,w))                 \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+die
+\definitionswort {direkte Summe}{}
+der Vektorbündel
+\mathkor {} {E} {und} {F} {.}
+Es wird mit
+\mathl{E \oplus F}{} bezeichnet.
+
+}
+
+Wenn $E$ durch die Matrixbeschreibung
+\maabbdisp {\varphi_{ij}} { U_i \cap U_j } { \operatorname{GL}_{ m  } \! \left(  \R  \right)
+} {}
+und $F$ durch die Matrixbeschreibung
+\maabbdisp {\psi_{ij}} { U_i \cap U_j } { \operatorname{GL}_{ n  } \! \left(  \R  \right)
+} {,}
+so erhält man die Matrixbeschreibung von
+\mathl{E \oplus F}{,} indem man die beiden Matrizen diagonal zu einer
+\mathl{(m+n) \times (m+n)}{-}Matrix zusammensetzt und mit Nullen auffüllt.
+
+\inputdefinition
+{}
+{
+
+Zu
+\definitionsverweis {reellen Vektorbündeln}{}{}
+\mathkor {} {E} {und} {F} {}
+auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ mit Trivialisierungen
+\maabbdisp {\alpha_i} {E {{|}}_{U_i } } { U_i \times \R^m
+} {}
+und
+\maabbdisp {\beta_i} {F{{|}}_{U_i } } { U_i \times \R^n
+} {}
+nennt man das Vektorbündel zum
+\definitionsverweis {Verklebungsdatum}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{G_i
+}
+{ =} { U_i \times \left(  \R^m  \otimes  \R^n  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+\maabbdisp {\varphi_{ij}} {G_i {{|}}_{U_i \cap U_j }  } { G_j {{|}}_{U_i \cap U_j }
+} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_{ij}
+}
+{ \defeq} { \left(  \alpha_j \circ \alpha_i^{-1}  \right)   \otimes \left(  \beta_j  \circ \beta_i^{-1}  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\zusatzklammer {dabei wird für jeden Basispunkt das
+\definitionsverweis {Tensorprodukt der linearen Abbildungen}{}{}
+genommen} {} {}
+das
+\definitionswort {Tensorprodukt}{}
+der Vektorbündel
+\mathkor {} {E} {und} {F} {.}
+Es wird mit
+\mathl{E \otimes F}{} bezeichnet.
+
+}
+
+Bei gegebenen Matrixbeschreibungen erhält man die Matrixbeschreibung des Tensorproduktes durch das sogenannte
+\definitionsverweis {Kroneckerprodukt}{}{.}
+Dabei wird jeder Eintrag der einen Matrix mit jedem Eintrag der anderen Matrix multipliziert.
+
+\inputdefinition
+{}
+{
+
+Zu einem
+\definitionsverweis {reellen Vektorbündel}{}{}
+$E$ vom Rang $m$ auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ mit Trivialisierungen
+\maabbdisp {\alpha_i} {E {{|}}_{U_i } } { U_i \times \R^m
+} {}
+und
+
+\mavergleichskette
+{\vergleichskette
+{r
+}
+{ \in }{\N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nennt man das Vektorbündel zum
+\definitionsverweis {Verklebungsdatum}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{G_i
+}
+{ =} { U_i \times \left(   \bigwedge^r \R^m   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+\maabbdisp {\varphi_{ij}} {G_i {{|}}_{U_i \cap U_j }  } { G_j {{|}}_{U_i \cap U_j }
+} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_{ij}
+}
+{ \defeq} {  \bigwedge^r \left(  \alpha_j \circ \alpha_i^{-1}  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\zusatzklammer {dabei wird für jeden Basispunkt das $r$-te
+\definitionsverweis {äußere Produkt der linearen Abbildungen}{}{}
+genommen} {} {}
+das $r$-te
+\definitionswort {äußere Produkt}{}
+des Vektorbündels $E$. Es wird mit
+\mathl{\bigwedge^r E}{} bezeichnet.
+
+}
+Bei einer gegebenen Matrixbeschreibung von $E$ erhält man die Matrixbeschreibung des $r$-ten äußeren Produktes, indem man sämtliche
+\definitionsverweis {Determinanten}{}{}
+der
+$r \times r$-\definitionsverweis {Untermatrizen}{}{}
+zu einer Matrix zusammenfasst.
+
+\inputdefinition
+{}
+{
+
+Zu einem
+\definitionsverweis {reellen Vektorbündel}{}{}
+$E$ vom Rang $m$ auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ nennt man das $m$-te
+\definitionsverweis {äußere Produkt}{}{}
+
+\mathl{\bigwedge^m E}{} das
+\definitionswort {Determinantenbündel}{}
+von $E$. Es wird mit
+\mathl{\det  E}{} bezeichnet.
+
+}
+Das Determinantenbündel ist ein Geradenbündel. Die Matrixbeschreibung ist durch die Determinante gegeben.
+
+\inputdefinition
+{}
+{
+
+Zu
+\definitionsverweis {reellen Vektorbündeln}{}{}
+\mathkor {} {E} {und} {F} {}
+auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ mit Trivialisierungen
+\maabbdisp {\alpha_i} {E {{|}}_{U_i } } { U_i \times \R^m
+} {}
+und
+\maabbdisp {\beta_i} {F{{|}}_{U_i } } { U_i \times \R^n
+} {}
+nennt man das Vektorbündel zum
+\definitionsverweis {Verklebungsdatum}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{G_i
+}
+{ =} { U_i \times  \operatorname{Hom}_{ \R } \left(   \R^m , \R^n   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+\maabbdisp {\varphi_{ij}} {G_i {{|}}_{U_i \cap U_j }  } { G_j {{|}}_{U_i \cap U_j }
+} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_{ij} (\theta)
+}
+{ \defeq} { \left(  \beta_j  \circ \beta_i^{-1}  \right)    \circ \theta \circ \left(  \alpha_i \circ \alpha_j^{-1}  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+die
+\definitionswort {Homomorphismenbündel}{}
+der Vektorbündel
+\mathkor {} {E} {und} {F} {.}
+Es wird mit
+\mathl{\operatorname{Hom} \left(    E ,  F  \right)}{} bezeichnet.
+
+}
+
+\inputdefinition
+{}
+{
+
+Zu einem
+\definitionsverweis {reellen Vektorbündel}{}{}
+$E$ auf einem
+\definitionsverweis {topologischen Raum}{}{}
+$X$ nennt man das
+\definitionsverweis {Homomorphismenbündel}{}{}
+
+\mathl{\operatorname{Hom} \left(    E ,  X \times \R  \right)}{} das
+\definitionswort {duale Bündel}{}
+von $E$. Es wird mit
+\mathl{E ^*}{} bezeichnet.
+
+}
+
+  \zwischenueberschrift{Differenzierbare Vektorbündel}
+
+\inputdefinition
+{}
+{
+
+Es sei $X$ ein
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{r
+}
+{ \in }{\N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Ein
+\definitionswort {differenzierbares Vektorbündel}{}
+$V$ vom
+\definitionswort {Rang}{}
+$r$ ist eine Mannigfaltigkeit zusammen mit einer
+\definitionsverweis {differenzierbaren Abbildung}{}{}
+\maabb {p} { V } { X
+} {}
+derart, dass jede
+\definitionsverweis {Faser}{}{}
+$p^{-1}(x)$ ein
+$r$-\definitionsverweis {dimensionaler}{}{}
+\definitionsverweis {reeller Vektorraum}{}{}
+ist und dass es eine
+\definitionsverweis {offene Überdeckung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{X
+}
+{ = }{ \bigcup_{i \in I} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+\definitionsverweis {Diffeomorphismen}{}{}
+\maabbdisp {\varphi_i} {p^{-1} \left(  U_i  \right) } { U_i \times \R^r
+} {}
+über $U_i$ gibt, die in jeder Faser einen
+\definitionsverweis {linearen Isomorphismus}{}{}
+\maabbdisp {\left(  \varphi_i  \right)_x} {p^{-1} (x) } { \R^r
+} {}
+induzieren.
+
+}
+
+  \zwischenueberschrift{Orientierungen auf Mannigfaltigkeiten}
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{.}
+Eine
+\definitionsverweis {Karte}{}{}
+\maabbdisp {\alpha} { U } { V
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen heißt \definitionswort {orientiert}{,} wenn der $\R^n$
+\definitionsverweis {orientiert}{}{}
+ist.
+
+}
+
+Wenn man einen Atlas aus orientierten Karten
+\mathl{(U_i,V_i, \alpha_i)}{} hat, so haben die Orientierungen auf den umgebenden Zahlenräumen $\R^n$, in denen die offenen Bilder $V_i$ der Karten liegen, erstmal nichts miteinander zu tun
+\zusatzklammer {obwohl man stets $\R^n$ schreibt} {} {.}
+Ein Zusammenhang zwischen den Orientierungen wird erst durch die beiden folgenden Begriffe formulierbar.
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und es seien
+\mathkor {} {(U_1,V_1, \alpha_1)} {und} {(U_2,V_2, \alpha_2)} {}
+\definitionsverweis {orientierte Karten}{}{.}
+Dann heißt der zugehörige
+\definitionsverweis {Kartenwechsel}{}{}
+\maabbdisp {\psi=\alpha_2 \circ \alpha_1^{-1}} {  \alpha_1 (U_1 \cap U_2)} {  \alpha_2 (U_1 \cap U_2 )
+} {}
+\definitionswort {orientierungstreu}{,} wenn für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ \alpha_1 (U_1 \cap U_2)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das
+\definitionsverweis {totale Differential}{}{}
+\maabbdisp {\left(D \psi\right)_{Q}} {\R^n } {\R^n
+} {}
+\definitionsverweis {orientierungstreu}{}{}
+ist.
+
+}
+
+\inputdefinition
+{}
+{
+
+Eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+$M$ mit einem
+\definitionsverweis {Atlas}{}{}
+
+\mathl{(U_i, V_i, \alpha_i)}{} heißt \definitionswort {orientiert}{,} wenn jede Karte
+\definitionsverweis {orientiert}{}{}
+ist und wenn sämtliche Kartenwechsel
+\definitionsverweis {orientierungstreu}{}{}
+sind.
+
+}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Möbius_strip} {jpg} }
+\end{center}
+\bildtext {Das Möbius-Band ist das typische Beispiel einer nicht orientierbaren Mannigfaltigkeit. Damit es eine Mannigfaltigkeit ist, darf der Rand nicht dazu gehören; dann ist es aber auch keine abgeschlossene Untermannigfaltigkeit des $\R^3$, diese sind nämlich stets orientierbar.} }
+
+\bildlizenz { Möbius strip.jpg } {} {Dbenbenn} {Commons} {CC-by-sa 3.0} {}
+
+Bei einer orientierten Mannigfaltigkeit besitzt jeder Tangentialraum
+\mathl{T_PM}{}  eine Orientierung. Man kann einfach eine beliebige Kartenumgebung
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {aus dem orientierten Atlas} {} {}
+wählen und die Orientierung auf
+
+\mavergleichskettedisp
+{\vergleichskette
+{ V
+}
+{ \subseteq} { \R^n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mittels
+\mathl{T_P(\alpha^{-1})}{} nach
+\mathl{T_PM}{} transportieren. Wegen der Orientierungstreue der Kartenwechsel ist diese Orientierung unabhängig von der gewählten Kartenumgebung.
+
+In einer orientierten Mannigfaltigkeit kann man auch zu zwei Basen in den Tangentialräumen zu zwei verschiedenen Punkten sagen, ob sie die gleiche Orientierung repräsentieren oder nicht. Dies ist der Fall, wenn beide Basen die Orientierung der Mannigfaltigkeit repräsentieren oder aber beide nicht.
+
+Eine Mannigfaltigkeit heißt \stichwort {orientierbar} {,} wenn sie diffeomorph zu einer orientierten Mannigfaltigkeit ist. D.h. wenn es einen Atlas gibt, der die gleiche differenzierbare Struktur definiert und der zusätzlich orientiert werden kann.
+
+\inputbemerkung
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Wir legen auf dem umgebenden Raum $\R^n$ eine
+\definitionsverweis {Orientierung}{}{}
+fest
+\zusatzklammer {beispielsweise die
+\definitionsverweis {Standardorientierung}{}{}} {} {}
+und wir fixieren ein
+\definitionsverweis {Einheitsnormalenfeld}{}{}
+$N$ auf $Y$. Dies legt eine
+\definitionsverweis {Orientierung}{}{}
+auf $Y$
+\zusatzklammer {als Mannigfaltigkeit} {} {}
+fest, indem man auf jedem Tangentialraum $T_PY$ festlegt, dass eine
+\definitionsverweis {Basis}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ v_1 , \ldots , v_{n-1}
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Orientierung repräsentiert, wenn
+
+\mavergleichskette
+{\vergleichskette
+{ N(P) , v_1 , \ldots , v_{n-1}
+}
+{ \in }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Orientierung des $\R^n$ repräsentiert.
+
+}
+
+  \zwischenueberschrift{Kompaktheit}
+
+Teilmengen eines euklidischen Raumes, die sowohl abgeschlossen als auch beschränkt sind, nennt man kompakt. Auf topologischen Räumen, die nicht durch eine Metrik gegeben sind, kann man nicht von beschränkt sprechen, aber auch bei einem metrischen Raum, der keine Teilmenge eines $\R^n$ ist, führen die beiden Eigenschaften abgeschlossen und beschränkt nicht sehr weit. Schlagkräftiger ist das folgende Konzept.
+
+\inputdefinition
+{}
+{
+
+Ein
+\definitionsverweis {topologischer Raum}{}{}
+$X$ heißt \definitionswort {kompakt}{}
+\zusatzklammer {oder \definitionswort {überdeckungskompakt}{}} {} {,}
+wenn es zu jeder offenen Überdeckung
+
+\mathdisp {X= \bigcup_{i \in I} U_i \, \, \, \text{ mit } U_i \text{ offen und einer beliebigen Indexmenge }I} {  }
+
+eine endliche Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{J
+}
+{ \subseteq }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+derart gibt, dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ X
+}
+{ =} { \bigcup_{i \in J} U_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist.
+
+}
+
+Diese Eigenschaft nennt man manchmal auch \stichwort {überdeckungskompakt} {.} Häufig nimmt man zu kompakt noch die Eigenschaft Hausdorffsch mit hinzu. Es sei betont, dass diese Eigenschaft
+\betonung{nicht}{} besagt, dass es eine endliche Überdeckung aus offenen Mengen gibt
+\zusatzklammer {es gibt immer die triviale offene Überdeckung mit dem Gesamtraum} {} {,}
+sondern dass man, wenn irgendeine irgendwie indizierte offene Überdeckung vorliegt, dann nur eine endliche Teilmenge aus der Indexmenge für die Überdeckung nötig ist.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Topologischer Raum/Abzählbare Basis/Überdeckungskompakt und folgenkompakt/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}
+mit einer
+\definitionsverweis {abzählbaren Basis}{}{.}}
+\faktfolgerung {Dann ist $X$ genau dann
+\definitionsverweis {kompakt}{}{,}
+wenn jede Folge
+\mathl{\left(  x_n  \right)_{n \in  \N  }}{} in $X$ einen
+\definitionsverweis {Häu\-fungspunkt}{}{}
+\zusatzklammer {in $X$} {} {}
+besitzt.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{Es sei $X$ kompakt und sei eine Folge
+\mathl{\left(  x_n  \right)_{n \in  \N  }}{} gegeben.
+ Nehmen wir an, dass diese Folge keinen Häufungspunkt besitzt. Das bedeutet, dass es zu jedem
+
+\mavergleichskette
+{\vergleichskette
+{ y
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine offene Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ y
+}
+{ \in }{ U_y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt, in der es nur endlich viele Folgenglieder gibt. Wegen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ X
+}
+{ =} { \bigcup_{y \in X} U_y
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gibt es nach Voraussetzung eine endliche Teilüberdeckung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ X
+}
+{ =} { \bigcup_{i = 1}^n U_{y_i }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.} Diese enthält einerseits alle Folgenglieder und andererseits nur endlich viele Folgenglieder, ein Widerspruch.}
+{}
+
+\teilbeweis {}{}{}
+{Es sei die Folgeneigenschaft erfüllt und sei
+
+\mavergleichskette
+{\vergleichskette
+{ X
+}
+{ = }{ \bigcup_{i \in I} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine Überdeckung mit offenen Mengen. Da $X$ eine
+\definitionsverweis {abzählbare Basis}{}{}
+besitzt, gibt es nach
+[[Topologischer Raum/Abzählbare Basis/Überdeckung besitzt abzählbare Teilüberdeckung/Aufgabe|Aufgabe 2.8 (Maß- und Integrationstheorie (Osnabrück 2022-2023))]]
+eine abzählbare Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ J
+}
+{ \subseteq }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ X
+}
+{ =} { \bigcup_{i \in J} U_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Wir können
+
+\mavergleichskette
+{\vergleichskette
+{ J
+}
+{ = }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+annehmen.  Nehmen wir an, dass die Überdeckung
+
+\mavergleichskette
+{\vergleichskette
+{ X
+}
+{ = }{ \bigcup_{i \in \N} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+keine endliche Teilüberdeckung besitzt. Dann ist insbesondere
+
+\mavergleichskette
+{\vergleichskette
+{ \bigcup_{i = 0}^n  U_i
+}
+{ \neq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für jedes
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und daher gibt es zu jedem
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+
+\mathbed {x_n \in X} {mit}
+ {x_n \not\in \bigcup_{i =0}^n  U_i} {}
+ {} {} {} {.}
+Nach Voraussetzung besitzt diese Folge einen Häufungspunkt $x$. Da eine Überdeckung
+
+\mavergleichskette
+{\vergleichskette
+{ X
+}
+{ = }{ \bigcup_{i \in \N} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+vorliegt, gibt es ein
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \in }{ U_k
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Da $x$ ein Häufungspunkt ist, liegen unendlich viele Folgenglieder in $U_k$. Dies ist ein Widerspruch, da nach Konstruktion für
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ \geq }{ k
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Folgenglieder $x_n$ nicht zu $U_k$ gehören.}
+{}
+
+}
+
+Der folgende Satz heißt \stichwort {Satz von Heine-Borel} {.}
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Kompaktheit/Satz von Heine-Borel/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{T
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine Teilmenge}
+\faktuebergang {Dann sind folgende Aussagen äquivalent.}
+\faktfolgerung {\aufzaehlungvier{ $T$ ist
+\definitionsverweis {überdeckungskompakt}{}{.}
+}{Jede
+\definitionsverweis {Folge}{}{}
+
+\mathl{\left(  x_n  \right)_{n \in  \N  }}{} in $T$ besitzt einen
+\definitionsverweis {Häufungspunkt}{}{}
+in $T$.
+}{Jede
+\definitionsverweis {Folge}{}{}
+
+\mathl{\left(  x_n  \right)_{n \in  \N  }}{} in $T$ besitzt eine in $T$
+\definitionsverweis {konvergente}{}{} \definitionsverweis {Teilfolge}{}{.}
+}{ $T$ ist
+\definitionsverweis {abgeschlossen}{}{}
+und
+\definitionsverweis {beschränkt}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{Die Äquivalenz von (1) und (2) wurde allgemeiner in
+[[Topologischer Raum/Abzählbare Basis/Überdeckungskompakt und folgenkompakt/Fakt|Lemma 13.13]]
+bewiesen, für die Existenz einer abzählbaren Basis siehe
+[[R^n/Abzählbare Topologie durch Bälle/Aufgabe|Aufgabe 13.17]].}
+{}
+\teilbeweis {}{}{}
+{Die Äquivalenz von (2) und (3) ist klar.}
+{}
+\teilbeweis {}{}{}
+{Die Äquivalenz von (3) und (4) wurde in
+[[Kompaktheit/R^n/Charakterisierung mit konvergenten Teilfolgen/Fakt|Satz 36.9 (Analysis (Osnabrück 2021-2023))]]
+gezeigt.}
+{}
+
+}
+
+  \zwischenueberschrift{Maße auf Mannigfaltigkeiten}
+
+Es sei $M$ eine Mannigfaltigkeit. Gibt es ein sinnvolles Volumen für
+\zusatzklammer {Teilmengen von} {} {}
+$M$, wann kann man eine auf $M$ definierte Funktion sinnvoll integrieren? Wenn man die Maßtheorie als allgemeines Konzept zugrunde legt, so ergibt sich folgendes Bild: es sei vorausgesetzt, dass $M$ einen abzählbaren Atlas
+\mathl{(U_i,V_i,\alpha_i, i \in I)}{} besitzt. Ein Maß $\mu$ auf den Borelmengen
+\mathl{{\mathcal B }(M)}{} ist dann durch die Einschränkungen
+
+\mavergleichskette
+{\vergleichskette
+{ \mu_i
+}
+{ = }{ \mu \vert_{U_i }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+des Maßes auf die offenen Teilmengen $U_i$ eindeutig bestimmt. Für jedes
+
+\mavergleichskette
+{\vergleichskette
+{ i
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definiert die Homöomorphie
+\maabbdisp {\alpha_i} {U_i } { V_i
+} {}
+das Bildmaß
+
+\mavergleichskette
+{\vergleichskette
+{ \nu_i
+}
+{ = }{ {\alpha_i }_* \mu_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+auf
+
+\mavergleichskette
+{\vergleichskette
+{ V_i
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dabei stehen die Bildmaße
+
+\mathbed {\nu_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+untereinander in der Beziehung
+
+\mavergleichskettedisp
+{\vergleichskette
+{\nu_i ( \alpha_i(T))
+}
+{ =} { \mu(T)
+}
+{ =} {\nu_j( \alpha_j(T))
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für jede messbare Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ U_i \cap U_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Mit den Kartenwechseln
+
+\mavergleichskette
+{\vergleichskette
+{ \psi_{ij}
+}
+{ = }{ \alpha_j \circ \alpha_i^{-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bedeutet dies
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nu_i(S)
+}
+{ =} { \nu_j ( \psi_{ij} (S))
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für jede messbare Menge
+
+\mavergleichskette
+{\vergleichskette
+{ S
+}
+{ \subseteq }{ V_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+die ganz innerhalb des Definitionsbereiches der Übergangsabbildung liegt.
+
+Nehmen wir nun an, dass sich die Bildmaße $\nu_i$ jeweils mit einer
+\definitionsverweis {Dichte}{}{}
+bezüglich des
+\definitionsverweis {Borel-Lebesgue-Maßes}{}{}
+$\lambda^n$ schreiben lassen, sagen wir
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nu_i
+}
+{ =} { g_i d \lambda^n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+mit auf $V_i$ definierten
+\definitionsverweis {integrierbaren Funktionen}{}{}
+\maabb {g_i} {V_i } {\R
+} {.}
+Für eine messbare Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt dann also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \mu(T)
+}
+{ =} { \nu_i(\alpha_i(T))
+}
+{ =} { \int_{ \alpha_i(T)  }  g_i    \,  d  \lambda^n
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Für eine messbare Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ U_i \cap U_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt somit nach
+der [[Diffeomorphismus/Transformationsformel für Integrale/Fakt|Transformationsformel]],
+angewendet auf die diffeomorphe Übergangsabbildung
+\maabbdisp {\psi_{ij}} { \alpha_i(U_i \cap U_j) } { \alpha_j(U_i \cap U_j)
+} {,}
+die
+\mathl{\alpha_i(T)}{} in
+\mathl{\alpha_j(T)}{} überführt, die Gleichheit
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \int_{ \alpha_i(T)  }  g_i    \,  d  \lambda^n
+}
+{ =} { \int_{ \alpha_j(T)  }  g_j    \,  d  \lambda^n
+}
+{ =} { \int_{ \alpha_i(T)  }   \betrag {  \det  \left(  D  \psi_{ij}  \right)  } \cdot  ( g_j \circ  \psi_{ij} )   \,  d  \lambda^n
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+Dies legt für die Dichtefunktionen
+
+\mathbed {g_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+das Transformationsverhalten
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g_i
+}
+{ =} { \betrag {  \det  \left(  D  \psi_{ij}  \right)  } \cdot ( g_j \circ \psi_{ij} )
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+nahe
+\zusatzklammer {auch wenn es dies nicht erzwingt, da eine Dichte durch ihr Maß nicht eindeutig bestimmt ist} {} {.}
+Wir werden die Integrationstheorie für Mannigfaltigkeiten auf dem Konzept der $n$-Differentialformen aufbauen, die in natürlicher Weise dieses Transformationsverhalten
+\zusatzklammer {ohne den Betrag} {} {}
+besitzen.
+
+ [[Kategorie:Latexseite]]

@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "source": "authority/expanded/worksheet12_source.de.tex",
+  "source_bytes": 19055,
+  "source_sha256": "d88e5c3200b8ff324d1d720ee78a44a2c2c23d4ce69c29e7c999526b7226b1f9",
+  "target": "source/units/unit-12/worksheet12.id.tex",
+  "target_bytes": 19723,
+  "target_sha256": "b773f00690f9d5128cf602ec8f96d816e58009113f9051f198966e98c1a76975",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 536,
+    "environments": 2,
+    "inline_math": 59,
+    "display_math": 0,
+    "protected_calls": 87
+  },
+  "status": "pass",
+  "failures": [],
+  "declared_corrections": [
+    "O011-CORR-0124",
+    "O011-CORR-0125",
+    "O011-TRANS-0156",
+    "O011-CORR-0132",
+    "O011-CORR-0122",
+    "O011-TRANS-0126",
+    "O011-CORR-0123",
+    "O011-ACC-0128",
+    "O011-CORR-0129",
+    "O011-TRANS-0133"
+  ],
+  "evidence_only_results": [
+    {
+      "correction_id": "O011-CORR-0122",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 4,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0122",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 5,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0126",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 16,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0123",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 18,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0124",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 22,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0125",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 23,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-ACC-0128",
+      "surface": "command:bild",
+      "occurrence_index": 0,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0129",
+      "surface": "command:bildlizenz",
+      "occurrence_index": 0,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0132",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 12,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0133",
+      "surface": "command:mathkor",
+      "occurrence_index": 1,
+      "status": "pass",
+      "detail": "verified"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-pdf-visual-qa-v10",
+  "status": "pass",
+  "checked_at": "2026-08-23T21:35:33Z",
+  "surface": {
+    "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-10-id.pdf",
+    "bytes": 5733895,
+    "sha256": "4eaec807347feeab2b3334056d3109d5ce6e5eb30ed3649a507ae6124049856d",
+    "pages": 165,
+    "page_size": "A4, 595.276 x 841.89 pt",
+    "tagged": false,
+    "suspects": false,
+    "build_receipt_path": "qa/unit-10/build.json",
+    "build_receipt_sha256": "4f3146a4889e9be09e17ac5d7a1bb9bfb4a6c609debccd4befb078a1bd33b65d"
+  },
+  "render_review": {
+    "all_page_contact_sheets": [
+      {
+        "pages": "1-55",
+        "sha256": "539771c237dd931a56e3f1a04f227fba7b23d538dc8622caf06c0aabfcc55c07"
+      },
+      {
+        "pages": "56-110",
+        "sha256": "f9a272657b749e8699733fbf109fde6cc0bde7a91c754969e340d1f5755b9adc"
+      },
+      {
+        "pages": "111-165",
+        "sha256": "9ca8dfbda25fccdabc31af8f0c0d600f4c380dd4700f59bc8d5a3fae4ea5b1be"
+      }
+    ],
+    "high_resolution_sample_pages": [
+      1,
+      2,
+      3,
+      6,
+      115,
+      116,
+      128,
+      140,
+      141,
+      144,
+      145,
+      147,
+      149,
+      160,
+      161,
+      164,
+      165
+    ],
+    "sample_montage_sha256": "249470fb2fed6991e8b96323bb1200d9cdc83de38751a3bb1bf882ed363eb123",
+    "focused_render_sha256": {
+      "physical_page_144_tangent_bundle_figure_and_caption": "8cd023ad5df19798f9ff5d052c508ffd92b1a9a07595050315a995864bb86139",
+      "physical_page_145_post_figure_continuation": "326ad0f053872200835dbe558f5a9bc98ac98e595482cffcfbd018866fa7e51e",
+      "physical_page_147_torus_figure_and_caption": "ce58cc6b90ac5142acf6a58e666613bd0f5498740f93bc78ab57b3e7f049b390",
+      "physical_page_165_license": "156a4b2102301d74131e8b1f0578dd91f122a16a250ad6633b8ec02d2338de8a"
+    }
+  },
+  "checks": {
+    "all_pages_rendered": true,
+    "centered_a4_text_block": true,
+    "consistent_headers_footers_and_page_numbers": true,
+    "section_and_unit_transitions_legible": true,
+    "figures_sharp_and_centered": true,
+    "figure_captions_present_and_legible": true,
+    "rights_and_license_surfaces_legible": true,
+    "no_clipping_overlap_black_boxes_or_unreadable_glyphs_observed": true,
+    "two_clean_build_cycles_byte_identical": true
+  },
+  "bounded_repair": {
+    "problem": "The canonical legacy Tangent bundle.svg has an oversized malformed viewport. Its first generated print derivative retained a 224 x 1800 white canvas, and an atomic image-caption wrapper consequently pushed the caption beyond the page box.",
+    "resolution": "The canonical SVG remains byte-identical. Only its deterministic PNG print derivative is cropped to the ink bounding box with a fixed 12-pixel white border before size limiting. The image and its source caption now remain together on physical page 144.",
+    "canonical_svg_sha256": "96e46d20e64c40985d7ddc517824a36ef6546261762c3cd8e277c9a4eab55623",
+    "print_derivative_sha256": "ec76e2061dcaf6b2e1bf577eb0c75e525bf89d5139ccf77b8aee25370b37bd7e",
+    "print_derivative_pixels": [405, 947],
+    "media_receipt_path": "qa/unit-10_media.json",
+    "media_receipt_sha256": "a5ef490f0228cf565c3b336a0b39ad78b8dc476104d2617debc0788ee92c23e4",
+    "media_config_sha256": "1f5404aad71947dcff064b853f1820b302f5a7e14cbb862631623eeddc2b8cad",
+    "media_preparer_sha256": "b1591c4aba01ec529f809fa0bd719c80fe0e1713c558d19986ab92895bb58eec"
+  },
+  "warnings": {
+    "new_unit_8_10_overfull_vboxes": 0,
+    "new_unit_8_10_overfull_hboxes": 0,
+    "inherited_unit_1_3_heading_hbox_warnings": 4,
+    "interpretation": "The four stable inherited warnings are bold heading/math boxes already present in the verified cumulative prefix; every affected page was rendered and no clipping was observed. The repaired Unit 10 build adds no overfull box warning."
+  },
+  "limitations": [
+    "The PDF is intentionally disclosed as untagged; semantic reflow and accessible navigation are supplied by the companion HTML reader.",
+    "Visual review covers every page at contact-sheet scale plus representative high-resolution pages; independent structural checks cover page geometry, extraction, fonts, links, counts, metadata, rights, and privacy."
+  ]
+}

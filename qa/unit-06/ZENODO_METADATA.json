@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "title": "Geometri Diferensial dan Manifold Mulus — Edisi Bahasa Indonesia (Batas Unit 06)",
+    "upload_type": "publication",
+    "publication_type": "book",
+    "description": "<p>Rilis kumulatif yang sedang dikerjakan dari edisi independen Bahasa Indonesia atas kursus Holger Brenner, <em>Differentialgeometrie (Osnabrück 2023)</em> di Wikiversity Jerman. Batas ini mencakup Kuliah 1–6 dan Lembar Kerja 1–6: 105 halaman A4, 107 latihan, seluruh 14 solusi yang memang disediakan sumber untuk enam unit tersebut, 11 gambar, dan backend stable-ID 1.173 rekaman. Kursus sumber lengkap terdiri atas 29 pasangan kuliah/lembar kerja; edisi ini berstatus <code>active_partial</code> dan belum lengkap.</p><p>Paket reader-first ini memuat PDF pembaca, arsip sumber/backend deterministik yang ringkas dan dapat dilanjutkan, LICENSE, catatan rilis, manifes berkas, serta checksum SHA-256. Dump MediaWiki/XML mentah, PDF saksi historis, build turunan yang dapat dibuat ulang, cache, render sementara, kredensial, locator privat, dan data Git tidak disertakan. PDF belum bertag struktur; seluruh 33 font tersemat memiliki ToUnicode dan teks dapat diekstrak pada semua 105 halaman melalui dua parser independen. Pembaca HTML semantik belum disertakan pada batas ini.</p><p>Lisensi tingkat rekaman dicatat sebagai Other (Open) karena paket memuat beberapa lisensi terbuka yang berbeda. Teks sumber dan adaptasi Indonesia didistribusikan menurut CC BY-SA 4.0. Media tidak menerima lisensi menyeluruh: setiap berkas mempertahankan pencipta, revisi, dan lisensinya sendiri sebagaimana tercatat dalam inventaris hak. Gambar baru Unit 6, <em>Parallel transport sphere2.svg</em> karya Silly rabbit, tetap berlisensi CC BY-SA 3.0. Sebelas gambar kumulatif mencakup komponen CC BY, CC BY-SA dari beberapa versi, dan domain publik.</p><p>Terjemahan, reflow, backend stable-ID, dan QA pada batas ini menggunakan <strong>OpenAI Codex gpt-5.6-sol, Ultra</strong> atas arahan pengguna. Model bukan pengarang karya dan tidak ada tinjauan manusia independen yang diklaim. Ini bukan edisi resmi dan tidak menyiratkan dukungan Holger Brenner, Wikiversity, Wikimedia Commons, Wikimedia Foundation, atau pencipta media. Kredit pengarang sumber, kontributor halaman, dan pencipta media dipertahankan; perubahan, atribusi, hash, serta batasan aksesibilitas dicatat dalam paket preservasi.</p>",
+    "creators": [
+      {
+        "name": "Brenner, Holger"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "TTP",
+        "type": "Other"
+      },
+      {
+        "name": "Codex (OpenAI), at the user's direction",
+        "type": "Other"
+      }
+    ],
+    "license": "other-open",
+    "access_right": "open",
+    "publication_date": "2026-08-22",
+    "version": "2026.08.22-unit06",
+    "language": "ind",
+    "keywords": [
+      "geometri diferensial",
+      "manifold mulus",
+      "differential geometry",
+      "smooth manifolds",
+      "transpor paralel",
+      "Bahasa Indonesia",
+      "buku teks terbuka",
+      "open textbook",
+      "pendidikan matematika",
+      "Wikiversity",
+      "Holger Brenner"
+    ],
+    "related_identifiers": [
+      {
+        "identifier": "https://de.wikiversity.org/wiki/Kurs:Differentialgeometrie_(Osnabr%C3%BCck_2023)",
+        "relation": "isDerivedFrom",
+        "resource_type": "publication-book",
+        "scheme": "url"
+      }
+    ]
+  }
+}

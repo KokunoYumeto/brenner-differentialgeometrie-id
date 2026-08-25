@@ -1,0 +1,60 @@
+{
+  "title": "Geometri Diferensial dan Manifold Mulus — Edisi Bahasa Indonesia (batas Unit 06; rilis kerja parsial)",
+  "description": "<p><strong>Mulai membaca:</strong> rekaman Figshare ini adalah rekaman metadata/tautan CC0. Satu-satunya berkas pada panel Figshare adalah tautan eksternal persis ke <a href='https://zenodo.org/records/{{ZENODO_RECORD}}/files/geometri-diferensial-manifold-mulus-hingga-unit-06-id.pdf'>PDF pembaca kumulatif 105 halaman A4 di Zenodo</a>; Figshare tidak menyimpan salinan byte PDF tersebut. Batas kerja ini mencakup Kuliah 1–6 dan Lembar Kerja 1–6 dari 29 pasangan inti: 107 latihan, seluruh 14 solusi yang benar-benar disediakan sumber untuk Unit 1–6, 11 gambar, dan backend stable-ID 1.173 rekaman. Sepuluh ujian serta jembatan Lie dan de Rham belum selesai; statusnya <code>active_partial</code>, bukan buku lengkap.</p><p><strong>Hak dan lisensi:</strong> pilihan CC0 pada Figshare berlaku hanya untuk metadata/katalog dan susunan tautan yang dibuat bagi rekaman ini. PDF pada panel dan lima tautan pendamping di bawah menunjuk ke byte yang disimpan di Zenodo dan <strong>bukan</strong> berlisensi CC0. Penetapan CC0 pada rekaman metadata/tautan Figshare ini tidak melisensikan ulang satu byte pun dari keenam berkas Zenodo yang ditautkan. Teks sumber dan adaptasi Indonesia didistribusikan menurut CC BY-SA 4.0. Media mempertahankan pencipta, revisi, dan lisensi masing-masing—termasuk CC BY, CC BY-SA dari beberapa versi, dan domain publik—sebagaimana dirinci dalam <code>LICENSE.md</code> dan inventaris hak di paket sumber. Gambar baru Unit 6, <em>Parallel transport sphere2.svg</em> karya Silly rabbit, tetap berlisensi CC BY-SA 3.0. Figshare tidak menawarkan lisensi artikel yang dapat menyatakan campuran ini secara tepat; rekaman publik ini dirancang untuk menampilkan satu linked-file PDF eksternal, sehingga byte edisi tidak diunggah atau dilisensikan ulang oleh Figshare.</p><p><strong>Paket preservasi reader-first:</strong></p><ol><li><a href='https://zenodo.org/records/{{ZENODO_RECORD}}/files/geometri-diferensial-manifold-mulus-hingga-unit-06-id.pdf'>PDF pembaca eksternal Zenodo</a> — berkas utama pada panel Figshare.</li><li><a href='https://zenodo.org/records/{{ZENODO_RECORD}}/files/geometri-diferensial-manifold-mulus-brenner-id-unit06-20260822.zip'>ZIP sumber/backend ringkas</a> — sumber yang dapat dilanjutkan, backend, provenans, hak, build, dan QA.</li><li><a href='https://zenodo.org/records/{{ZENODO_RECORD}}/files/LICENSE.md'>LICENSE.md</a> — hak, atribusi, lisensi komponen, dan non-endorsement.</li><li><a href='https://zenodo.org/records/{{ZENODO_RECORD}}/files/RELEASE_NOTES_20260822.md'>Catatan rilis</a> — cakupan, QA, aksesibilitas, provenans, dan batas yang belum selesai.</li><li><a href='https://zenodo.org/records/{{ZENODO_RECORD}}/files/FILE_MANIFEST.csv'>Manifes berkas</a> — nama, peran, byte, SHA-256, MD5, dan ruang lingkup hak.</li><li><a href='https://zenodo.org/records/{{ZENODO_RECORD}}/files/CHECKSUMS.sha256'>Checksum SHA-256</a> — verifikasi byte.</li></ol><p>Semua tautan menunjuk ke versi Zenodo terverifikasi <a href='https://doi.org/{{ZENODO_DOI}}'>{{ZENODO_DOI}}</a> dalam konsep tetap <a href='https://doi.org/10.5281/zenodo.22059977'>10.5281/zenodo.22059977</a>. Muatan tertaut enam berkas adalah {{PUBLIC_PAYLOAD_BYTES_ID}} byte, jauh di bawah batas 500.000.000 byte untuk lane ini.</p><p>PDF belum bertag struktur, tetapi seluruh 33 font tersemat memiliki ToUnicode dan teks dapat diekstrak pada semua 105 halaman melalui dua parser independen; pembaca HTML semantik belum termasuk pada batas ini. Edisi ini merupakan adaptasi independen dan tidak disahkan oleh Holger Brenner, Wikiversity, Wikimedia Commons, Wikimedia Foundation, atau pencipta media. Terjemahan, reflow, backend, dan QA menggunakan <strong>OpenAI Codex gpt-5.6-sol, Ultra</strong> atas arahan pengguna; tidak ada tinjauan manusia independen yang diklaim, dan model bukan pengarang karya.</p>",
+  "authors": [
+    {
+      "name": "Holger Brenner"
+    }
+  ],
+  "categories": [
+    29830,
+    26095
+  ],
+  "tags": [
+    "Bahasa Indonesia",
+    "differential geometry",
+    "smooth manifolds",
+    "parallel transport",
+    "open educational resources",
+    "translation",
+    "active_partial",
+    "D50",
+    "O011",
+    "CC BY-SA 4.0",
+    "mixed component licenses",
+    "linked reader"
+  ],
+  "defined_type": "metadata",
+  "license": 2,
+  "is_metadata_record": false,
+  "related_materials": [
+    {
+      "identifier": "10.5281/zenodo.22059977",
+      "identifier_type": "DOI",
+      "relation": "References",
+      "is_linkout": true,
+      "title": "Zenodo concept — latest preservation version"
+    },
+    {
+      "identifier": "{{ZENODO_DOI}}",
+      "identifier_type": "DOI",
+      "relation": "References",
+      "is_linkout": false,
+      "title": "Zenodo Unit 06 reader-first preservation version"
+    },
+    {
+      "identifier": "https://de.wikiversity.org/wiki/Kurs:Differentialgeometrie_(Osnabr%C3%BCck_2023)",
+      "identifier_type": "URL",
+      "relation": "IsDerivedFrom",
+      "is_linkout": false,
+      "title": "Official source course"
+    },
+    {
+      "identifier": "10.6084/m9.figshare.33314676.v1",
+      "identifier_type": "DOI",
+      "relation": "IsPartOf",
+      "is_linkout": false,
+      "title": "Indonesian Open Mathematics Editions inventory baseline"
+    }
+  ]
+}

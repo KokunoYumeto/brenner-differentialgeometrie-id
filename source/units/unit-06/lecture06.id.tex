@@ -1,0 +1,2042 @@
+\setcounter{section}{6}
+
+  \zwischenueberschrift{Turunan Kovarian}
+
+Untuk suatu hipermuka terdiferensialkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kita ingin mendefinisikan konsep-konsep turunan yang mudah didefinisikan di ruang sekitar $\R^n$, tetapi memiliki kaitan alami dengan $Y$. Konsep ini disebut turunan kovarian; alat bantu terpentingnya adalah proyeksi ortogonal
+\maabbdisp {\pi_P} {\R^n } { T_PY
+} {}
+di suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+\emph{Catatan edisi: Relasi pembuka diperbaiki dari $Y=\R^n$ menjadi $Y\subseteq\R^n$; sebuah hipermuka tidak sama dengan seluruh ruang sekitarnya.}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {terbuka}{}{,}
+dan $Y$ suatu
+\definitionsverweis {hipermuka terdiferensialkan}{}{,}
+misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu titik dan
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {vektor singgung}{}{.}
+Misalkan
+\maabbdisp {F} { U} { \R^n
+} {}
+suatu medan vektor terdiferensialkan yang didefinisikan pada lingkungan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan pada $Y \cap U$ tangensial terhadap $Y$. Maka
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_v F
+}
+{ \defeq} { \pi_P   \left(  \left(  D F   \right)_{ P } \left(  v  \right)  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dengan
+\maabbdisp {\pi_P} {\R^n } { T_PY
+} {}
+menyatakan
+\definitionsverweis {proyeksi ortogonal}{}{,}
+disebut
+\definitionswort {turunan kovarian}{}
+dari $F$ dalam arah $v$.
+
+}
+
+Secara keseluruhan, situasinya adalah
+
+\mathdisp {T_PY \longrightarrow \R^n \stackrel{  \left(D F \right)_{ P} }{\longrightarrow} \R^n\stackrel{ \pi_P }{\longrightarrow} T_PY} {  }
+
+dan $\nabla_v F$ merupakan hasil ketika vektor singgung
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dimasukkan pada awal rangkaian tersebut. Jika $N$ menyatakan suatu medan normal satuan, maka turunan kovarian sama dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_v F
+}
+{ =} { \left(  D F   \right)_{ P } \left(  v  \right) -  \left\langle  \left(  D F   \right)_{ P } \left(  v  \right)  ,  N(P)  \right\rangle N(P)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+karena dengan cara inilah komplemen ortogonal dihitung.
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {terbuka}{}{,}
+dan $Y$ suatu
+\definitionsverweis {hipermuka terdiferensialkan}{}{}
+dan misalkan
+\maabbdisp {G} { Y } { TY
+} {}
+suatu medan vektor tangensial pada $Y$. Misalkan
+\maabbdisp {F} { U} { \R^n
+} {}
+suatu medan vektor terdiferensialkan yang didefinisikan pada lingkungan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan pada $Y \cap U$ tangensial terhadap $Y$. Maka medan vektor tangensial
+\maabbdisp {\nabla_G F} { Y \cap U } { T(Y \cap U)
+} {,}
+yang didefinisikan oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \nabla_G F  \right) (P)
+}
+{ \defeq} { \nabla_{G(P)} F }
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+disebut
+\definitionswort {turunan kovarian}{}
+dari $F$ dalam arah $G$.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Tangentiales Vektorfeld/Bezüglich Tangentenvektor/Kovariante Ableitung/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{\R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {terbuka}{}{,}
+dan $Y$ suatu
+\definitionsverweis {hipermuka terdiferensialkan}{}{,}
+dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu titik.}
+\faktuebergang {Maka pernyataan-pernyataan berikut berlaku.}
+\faktfolgerung {\aufzaehlungdrei{Untuk suatu
+\definitionsverweis {medan vektor tangensial}{}{}
+terdiferensialkan $F$ yang tetap, pemetaan
+\maabbeledisp {} {T_PY} { T_PY
+} { v } { \nabla_v F
+} {,}
+bersifat
+\definitionsverweis {linear}{}{.}
+}{Untuk suatu vektor singgung tetap
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+pemetaan
+\maabbdisp {} { F } { \nabla_v F
+} {,}
+yang memetakan sebuah medan vektor terdiferensialkan ke turunan kovariannya sepanjang $v$, bersifat linear.
+}{Untuk suatu fungsi terdiferensialkan
+\maabb {g} { U } {\R
+} {}
+dan suatu medan vektor tangensial terdiferensialkan $F$, berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_v (gF)
+}
+{ =} { g (P) \nabla_v F + \left(  D_{v}  g   \right) \left(   P   \right) F(P)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+\emph{Catatan edisi: Evaluasi berlebih $(P)$ setelah $\nabla_vF$ dihapus karena $v\in T_PY$ sudah menentukan titiknya.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\aufzaehlungdrei{Hal ini langsung mengikuti representasi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_v F
+}
+{ =} { \left(  D F   \right)_{ P } \left(  v  \right) - \left\langle  \left(  D F   \right)_{ P } \left(  v  \right)  ,  N(P)  \right\rangle N(P)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+karena kedua suku tersebut linear dalam $v$.
+}{Hal ini juga mengikuti representasi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_v F
+}
+{ =} { \left(  D F   \right)_{ P } \left(  v  \right) - \left\langle  \left(  D F   \right)_{ P } \left(  v  \right)  ,  N(P)  \right\rangle N(P)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+karena untuk vektor tetap $v$, menurut
+[[Richtungsableitung/R/Elementare Eigenschaften/Fakt|Lemma 43.6 (Analisis (Osnabrück 2021--2023))]],
+kedua suku bergantung secara linear pada $F$.
+}{Menurut
+[[Totale Differenzierbarkeit/K/Produktregel/Fakt|Lemma 45.10 (Analisis (Osnabrück 2021--2023))]],
+berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(D( g F)\right)_{ P }
+}
+{ =} { g(P) \cdot \left(D F \right)_{ P } + \left(D g \right)_{ P } \cdot F (P)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Oleh karena itu,
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \nabla_v (gF)
+}
+{ =} { \left(  D(gF)  \right)_{ P } \left(  v  \right) - \left\langle  \left(  D(gF)  \right)_{ P } \left(  v  \right)  ,  N(P)  \right\rangle N(P)
+}
+{ =} { \begin{aligned}[t]
+&g(P) \cdot \left(  D F   \right)_{ P } \left(  v  \right) + \left(  D g   \right)_{ P } \left(  v  \right) \cdot F (P) \\
+&\quad - \left\langle  g(P) \cdot \left(  D F   \right)_{ P } \left(  v  \right) + \left(  D g   \right)_{ P } \left(  v  \right) \cdot F (P)  ,  N(P)  \right\rangle N(P)
+\end{aligned}
+}
+{ =} { \begin{aligned}[t]
+&g(P) \cdot \left(  D F   \right)_{ P } \left(  v  \right) - \left\langle  g(P) \cdot \left(  D F   \right)_{ P } \left(  v  \right)  ,  N(P)  \right\rangle N(P) \\
+&\quad + \left(  D g   \right)_{ P } \left(  v  \right) \cdot F (P) - \left\langle  \left(  D g   \right)_{ P } \left(  v  \right) \cdot F (P)  ,  N(P)  \right\rangle N(P)
+\end{aligned}
+}
+{ =} { g (P) \nabla_v F + \left(  D_{v}  g   \right) \left(   P   \right) \cdot F(P)
+}
+}
+{}
+{}{,}
+karena medan vektor $F$ tegak lurus terhadap $N$.
+}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Tangentiales Vektorfeld/Bezüglich tangentialem Vektorfeld/Kovariante Ableitung/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{\R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {terbuka}{}{,}
+dan $Y$ suatu
+\definitionsverweis {hipermuka terdiferensialkan}{}{.}}
+\faktuebergang {Maka pernyataan-pernyataan berikut berlaku bagi medan-medan vektor tangensial pada $Y$.}
+\faktfolgerung {\aufzaehlungdrei{Untuk suatu medan vektor tangensial terdiferensialkan $F$ yang tetap, pemetaan
+\mathl{G \mapsto \nabla_G F}{}
+bersifat
+\definitionsverweis {linear}{}{}
+dalam $G$. Selanjutnya, untuk suatu fungsi kontinu
+\maabb {g} { Y } {\R
+} {}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{gG} F
+}
+{ =} { g \nabla_G F
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Untuk suatu medan vektor tangensial $G$ yang tetap, pemetaan
+\mathl{F \mapsto \nabla_G F}{,} yang memetakan sebuah medan vektor tangensial terdiferensialkan ke turunan kovariannya sepanjang $G$, bersifat linear.
+}{Untuk suatu fungsi terdiferensialkan
+\maabb {g} { U } {\R
+} {}
+dan suatu medan vektor tangensial terdiferensialkan $F$, berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (\nabla_G (gF))(P)
+}
+{ =} { g (P) ( \nabla_G F) (P) + (\nabla_G g )(P) F(P)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+\emph{Catatan edisi: Ruas kiri dievaluasi di $P$ agar identitas ini konsisten dengan ruas kanan yang juga dievaluasi di $P$.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Semua pernyataan mengikuti dari
+[[Hyperfläche/Tangentiales Vektorfeld/Bezüglich Tangentenvektor/Kovariante Ableitung/Eigenschaften/Fakt|Lemma 6.3]].
+
+}
+
+Pada persamaan terakhir,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \nabla_G g  \right) (P)
+}
+{ =} { \left(  D_{ G(P)}  g   \right) \left(   P   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+yang berarti turunan berarah fungsi $g$ diambil dalam arah $G(P)$.
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{\R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,} $W$
+\definitionsverweis {terbuka}{}{,}
+dan $Y$ suatu
+\definitionsverweis {hipermuka terdiferensialkan}{}{,}
+misalkan
+\maabbdisp {\gamma} {I} {Y
+} {}
+suatu
+\definitionsverweis {kurva terdiferensialkan}{}{}
+dan misalkan
+\maabbdisp {F} { I } { \R^n
+} {}
+suatu medan vektor terdiferensialkan sepanjang $\gamma$ yang tangensial terhadap $Y$. Maka
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (\nabla_\gamma F) (t)
+}
+{ \defeq} { \pi_{\gamma(t)} F' (t)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+disebut
+\definitionswort {turunan kovarian}{}
+dari $F$ sepanjang $\gamma$.
+
+\emph{Catatan edisi: Domain $\gamma$ dan $F$ diseragamkan menjadi interval $I$, dan $F$ dinyatakan sebagai medan sepanjang $\gamma$; sumber memakai $[a,b]$ dan kemudian interval $I$ yang belum didefinisikan.}
+
+}
+
+Medan vektor $F$ merupakan kurva bernilai vektor di $\R^n$ dengan
+
+\mavergleichskette
+{\vergleichskette
+{ F(t)
+}
+{ \in }{ T_{\gamma(t)}Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Turunan kovariannya diperoleh dengan menurunkan kurva ini lalu mengambil proyeksi ortogonal hasilnya ke ruang singgung. Kadang-kadang ditulis pula $\nabla_{\gamma'} F$ atau $\nabla_{\partial} F$\zusatzfussnote {Untuk
+[[Hyperfläche/Tangentiales Vektorfeld/Bezüglich tangentialem Vektorfeld/Kovariante Ableitung/Definition|Definisi 6.2]]
+dan
+[[Hyperfläche/Tangentiales Vektorfeld/Längs einer Kurve/Kovariante Ableitung/Definition|Definisi 6.5]]
+terdapat generalisasi berikut. Misalkan $Y$ adalah hipermuka terdiferensialkan
+\zusatzklammer {atau suatu manifold diferensiabel dengan koneksi pada bundel tangen} {} {,}
+misalkan $Z$ suatu manifold diferensiabel, misalkan
+\maabb {\varphi} { Z } { Y
+} {}
+suatu pemetaan terdiferensialkan, misalkan
+\maabbdisp {F} { Z } { \R^n
+} {}
+suatu pemetaan terdiferensialkan dengan $F(Q)\in T_{\varphi(Q)}Y$ untuk setiap $Q\in Z$, yaitu suatu medan vektor tangensial sepanjang $\varphi$, dan $G$ suatu medan vektor pada $Z$. Maka
+\zusatzklammer {untuk
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ Z
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ \varphi(Q)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+turunan kovarian $F$ terhadap $G$
+\zusatzklammer {sepanjang $\varphi$} {} {}
+didefinisikan oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ ( \nabla_G F )(Q)
+}
+{ =} { \pi_{ P  } \left(D F \right)_{ Q}  (G(Q))
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan $\nabla_GF$ kembali merupakan suatu pemetaan
+\maabb {} { Z } { TY
+}{.}
+\emph{Catatan edisi: Kodomain $F$ diperbaiki menjadi $\R^n$ dengan syarat nilai tangensial, sehingga diferensial $DF$ yang diproyeksikan pada rumus di atas bertipe benar.}
+Dalam definisi pertama,
+
+\mavergleichskette
+{\vergleichskette
+{ Z
+}
+{ = }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan $\varphi$ adalah identitas; dalam definisi kedua,
+
+\mavergleichskette
+{\vergleichskette
+{ Z
+}
+{ = }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah suatu interval,
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi
+}
+{ = }{ \gamma
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah lintasan tersebut, dan
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ = }{ \partial
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah medan vektor konstan pada interval $I$ dengan arah $1$.} {} {.}
+
+  \zwischenueberschrift{Medan Vektor Paralel}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {terbuka}{}{,}
+dan $Y$ suatu
+\definitionsverweis {hipermuka terdiferensialkan}{}{}
+dan misalkan
+\maabb {\gamma} { I } { Y
+} {}
+suatu
+\definitionsverweis {kurva terdiferensialkan}{}{.}
+Suatu medan vektor tangensial terdiferensialkan yang didefinisikan sepanjang $\gamma$,
+\maabb {F} { I } {\R^n
+} {}
+disebut
+\definitionswort {paralel sepanjang}{}
+$\gamma$ jika
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (\nabla_{\gamma} F)(t)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk semua
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+
+Suatu medan vektor paralel sepanjang $\gamma$ tepat ketika
+\mathl{F'(t)}{} selalu tegak lurus terhadap ruang singgung
+\mathl{T_{\gamma(t)}Y}{}, yakni ketika turunannya berada pada garis normal.
+
+__NOEDITSECTION__
+\inputfaktbeweis
+{Hyperfläche/Kurve/Paralleles Vektorfeld/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {terbuka}{}{,}
+dan $Y$ suatu
+\definitionsverweis {hipermuka terdiferensialkan}{}{}
+dan misalkan
+\maabb {\gamma} { I } { Y
+} {}
+suatu
+\definitionsverweis {kurva terdiferensialkan}{}{.}}
+\faktuebergang {Maka pernyataan-pernyataan berikut berlaku.}
+\faktfolgerung {\aufzaehlungzwei {Jika $F$ adalah medan vektor
+\definitionsverweis {paralel}{}{} sepanjang $\gamma$ dan
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+maka $aF$ juga merupakan medan vektor paralel.
+} {Jika $F$ dan $G$ adalah medan-medan vektor paralel sepanjang $\gamma$, maka
+\mathl{F +G}{} juga merupakan medan vektor paralel.
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+ }
+{ Lihat [[Hyperfläche/Kurve/Paralleles Vektorfeld/Eigenschaften/Fakt/Beweis/Aufgabe|Soal 6.3]]. }
+
+Untuk suatu kurva terdiferensialkan
+\maabbdisp {\gamma} { I } { Y
+} {}
+medan kecepatan $\gamma'$ khususnya merupakan suatu medan vektor sepanjang $\gamma$; karena itu, konsep apakah medan ini paralel dapat diterapkan.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Differenzierbare Hyperfläche/Differenzierbare Kurve/Ableitung parallel/Geodätische/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {terbuka}{}{,}
+dan $Y$ suatu
+\definitionsverweis {hipermuka terdiferensialkan}{}{}
+dan misalkan
+\maabb {\gamma} { I } { Y
+} {}
+suatu kurva yang
+\definitionsverweis {dua kali terdiferensialkan secara kontinu}{}{.}}
+\faktfolgerung {Maka $\gamma$ merupakan suatu
+\definitionsverweis {kurva geodesik}{}{}
+tepat ketika medan turunannya
+\zusatzklammer {medan kecepatannya} {} {} $\gamma'$ merupakan suatu
+\definitionsverweis {medan vektor paralel}{}{}
+sepanjang $\gamma$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Misalkan
+\maabbdisp {\gamma^{\prime \prime}} { I } { \R^n
+} {}
+adalah turunan kedua. Berdasarkan definisi, $\gamma$ merupakan suatu kurva geodesik jika
+\mathl{\gamma^{\prime \prime} (t)}{} selalu tegak lurus terhadap ruang singgung $T_{\gamma(t)} Y$, yang berlaku tepat ketika proyeksi ortogonal $\gamma^{\prime \prime}(t)$ pada ruang singgung sama dengan $0$. Hal ini ekuivalen dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (\nabla_\gamma \gamma')(t)
+}
+{ =} { \pi_{\gamma(t)} \left(  \gamma^{\prime \prime} (t)  \right)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk semua
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang berarti bahwa $\gamma'$ merupakan suatu
+\definitionsverweis {medan vektor paralel}{}{}
+sepanjang $\gamma$.
+
+}
+
+Pernyataan berikut menjadi dasar bagi keberadaan transpor paralel.
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Kurve/Anfangstangentenvektor/Paralleles Vektorfeld/Existenz/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{\R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {terbuka}{}{,}
+dan $Y$ suatu
+\definitionsverweis {hipermuka terdiferensialkan}{}{} kelas $C^2$
+dan misalkan
+\maabb {\gamma} { I } { Y
+} {}
+suatu
+\definitionsverweis {kurva terdiferensialkan}{}{.}
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ t_0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(t_0)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {vektor singgung}{}{.}}
+\faktfolgerung {Maka terdapat suatu
+\definitionsverweis {medan vektor tangensial}{}{}
+$F$ yang ditentukan secara unik sepanjang $\gamma$, yang bersifat
+\definitionsverweis {paralel}{}{}
+dan memenuhi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F(t_0)
+}
+{ =} { v
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Pilih suatu medan normal satuan terdiferensialkan $N$ sepanjang $\gamma$; regularitas $C^2$ pada $Y$ menjamin pilihan lokal tersebut dapat diteruskan sepanjang interval $I$. Kita mencari suatu pemetaan terdiferensialkan
+\maabbdisp {F} { I } { \R^n
+} {,}
+yang memenuhi ketiga syarat
+\aufzaehlungdrei{
+\mavergleichskettedisp
+{\vergleichskette
+{ F(t)
+}
+{ \in} { T_{\gamma(t)} Y
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk semua
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+}{
+\mavergleichskettedisp
+{\vergleichskette
+{ F'(t)
+}
+{ \in} { N_{\gamma(t)} Y
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk semua
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+}{
+\mavergleichskettedisp
+{\vergleichskette
+{ F (t_0)
+}
+{ =} { v
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}
+Syarat pertama berarti bahwa $F(t)$ tegak lurus terhadap vektor normal satuan $N (\gamma(t))$, sehingga
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle F( t) ,  N( \gamma(t))   \right\rangle
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Oleh karena itu, berlaku pula
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 0
+}
+{ =} { \left\langle F(t)  ,  N( \gamma(t))   \right\rangle'
+}
+{ =} { \left\langle F'(t)  ,  N( \gamma(t))   \right\rangle +  \left\langle F(t)  ,  (N( \gamma(t)))'   \right\rangle
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Syarat kedua, bahwa $F'(t)$ berada di ruang normal, berarti
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F'(t) - \left\langle F'( t) ,  N( \gamma(t))   \right\rangle N(\gamma(t) )
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk semua
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang dengan bantuan persamaan sebelumnya dapat kita ubah menjadi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F'(t) + \left\langle F( t) ,  (N( \gamma(t)))'   \right\rangle N(\gamma(t) )
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk semua
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+atau menjadi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F'(t)
+}
+{ =} { - \left\langle F( t) ,  (N( \gamma(t)))'   \right\rangle N(\gamma(t) )
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk semua
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Di sini terdapat suatu persamaan diferensial linear biasa orde pertama untuk $F$ yang, bersama dengan syarat awal
+
+\mavergleichskette
+{\vergleichskette
+{ F(t_0)
+}
+{ = }{ v
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+menurut
+[[Picard Lindelöf/Lokal Lipschitz/Lokale Existenz und Eindeutigkeit/Fakt|Teorema 56.2 (Analisis (Osnabrück 2021--2023))]],
+memiliki solusi lokal tunggal. Karena persamaan ini linear dengan koefisien kontinu pada $I$, solusi tersebut dapat dilanjutkan secara unik ke seluruh interval $I$. Karena $v\in T_PY$, nilai awal memenuhi $\langle v,N(P)\rangle=0$. Sepanjang solusi persamaan diferensial tersebut,
+\[
+\frac{d}{dt}\left\langle F(t),N(\gamma(t))\right\rangle
+=-\left\langle F(t),(N\circ\gamma)'(t)\right\rangle
++\left\langle F(t),(N\circ\gamma)'(t)\right\rangle=0.
+\]
+Jadi $F(t)$ tetap tangensial dan persamaan diferensial membuat $F'(t)$ tetap normal. Dengan demikian, solusi tersebut memang merupakan medan paralel yang diminta dan keunikan persamaan diferensial memberi keunikannya.
+
+\emph{Catatan edisi: Sumber hanya mengasumsikan hipermuka terdiferensialkan, menerapkan teorema eksistensi lokal langsung pada seluruh interval $I$, dan tidak membuktikan bahwa solusi persamaan diferensial tetap tangensial. Hipotesis diperkuat menjadi $C^2$, kelanjutan global untuk sistem linear dinyatakan, medan normal diperkenalkan secara eksplisit, dan perhitungan invarian yang hilang dilengkapi.}
+
+}
+
+\inputbemerkung
+{}
+{
+
+Dalam situasi
+[[Hyperfläche/Kurve/Anfangstangentenvektor/Paralleles Vektorfeld/Existenz/Fakt|Teorema 6.9]],
+persamaan diferensial yang harus diselesaikan adalah sistem
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F_i'(t)
+}
+{ =} { - \left(  \sum_{j = 1}^n  F_j (t) (N ( \gamma(t)))'_j  \right)   N(\gamma(t))_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk
+
+\mavergleichskette
+{\vergleichskette
+{ i
+}
+{ = }{ 1 , \ldots , n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+atau, dalam notasi matriks,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix} F_1' \\ \vdots\\ F_n'   \end{pmatrix}
+}
+{ =} { - A \begin{pmatrix} F_1  \\ \vdots\\ F_n   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan entri-entri
+
+\mavergleichskettedisp
+{\vergleichskette
+{ A_{ij} (t)
+}
+{ =} { N(\gamma(t))_i (N(\gamma(t)))'_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+\emph{Catatan edisi: Satu tanda kurung tutup berlebih pada faktor $(N(\gamma(t)))'_j$ dihapus, sehingga koefisiennya adalah $A_{ij}=N_iN'_j$.}
+
+}
+
+\inputbeispiel{}
+{
+
+Kita meninjau seperempat lingkaran besar
+\maabbeledisp {} {[0 , \pi/2] } { \R^3
+} { t } { \left(  \cos  t   , \,   \sin  t  , \,   0                 \right)
+} {,}
+pada permukaan bola satuan $S$. Berlaku
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(0)
+}
+{ = }{ \left(  1   , \,   0  , \,   0                 \right)
+}
+{ = }{ P
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(\pi/2)
+}
+{ = }{ \left(  0   , \,   1  , \,   0                 \right)
+}
+{ = }{ Q
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan
+\definitionsverweis {ruang-ruang singgung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ T_PS
+}
+{ = }{ \R e_2 +\R e_3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ T_QS
+}
+{ = }{ \R e_1 +\R e_3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Vektor normal satuan yang mengarah ke dalam sepanjang lintasan tersebut adalah
+
+\mavergleichskette
+{\vergleichskette
+{ N(t)
+}
+{ = }{ -\gamma(t)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Matriks dari
+[[Hyperfläche/Kurve/Anfangstangentenvektor/Paralleles Vektorfeld/Differentialgleichung/Explizite Gestalt/Bemerkung|Catatan 6.10]],
+yang mendeskripsikan persamaan diferensial bagi suatu medan vektor paralel, adalah
+
+\mathdisp {\begin{pmatrix}  -\sin  t \cos  t   &   \cos  t \cos  t  &  0  \\  - \sin  t  \sin  t  &  \sin  t  \cos  t  &  0  \\ 0 &  0  &  0 \end{pmatrix}} { . }
+
+Fungsi konstan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F(t)
+}
+{ =} { e_3
+}
+{ =} { \begin{pmatrix}  0  \\ 0\\  1   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+merupakan suatu solusi. Selanjutnya,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ G(t)
+}
+{ =} { \begin{pmatrix}  - \sin  t  \\ \cos  t \\  0   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+merupakan suatu solusi; di satu pihak,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ G'(t)
+}
+{ =} { \begin{pmatrix}  - \cos  t  \\ - \sin  t \\  0   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan, di pihak lain,
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ - \begin{pmatrix}  -\sin  t \cos  t   &   \cos  t \cos  t  &  0  \\  - \sin  t  \sin  t  &  \sin  t  \cos  t  &  0  \\ 0 &  0  &  0 \end{pmatrix} \begin{pmatrix}  - \sin  t  \\ \cos  t \\  0   \end{pmatrix}
+}
+{ =} { - \begin{pmatrix}  \sin^{ 2  }  t \cos  t + \cos^{ 3  }  t  \\ \sin^{ 3  }  t +  \sin  t \cos^{ 2  }  t \\  0   \end{pmatrix}
+}
+{ =} { - \begin{pmatrix}  \cos  t  \\ \sin  t \\  0   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+  \zwischenueberschrift{Transpor Paralel}
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {terbuka}{}{,}
+dan $Y$ suatu
+\definitionsverweis {hipermuka terdiferensialkan}{}{} kelas $C^2$.
+Untuk titik-titik
+
+\mavergleichskette
+{\vergleichskette
+{ P,Q
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+tidak terdapat hubungan alami antara
+\definitionsverweis {ruang singgung}{}{}
+$T_PY$ dan ruang singgung $T_QY$. Misalkan
+\maabbdisp {\gamma} {[a,b]} {Y
+} {}
+suatu
+\definitionsverweis {kurva terdiferensialkan}{}{}
+di $Y$ dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(a)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(b)
+}
+{ = }{ Q
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Kita dapat bertanya apakah sepanjang lintasan ini terdapat hubungan yang bermakna antara ruang-ruang singgung tersebut.
+
+Untuk suatu kurva terdiferensialkan tetap $\gamma$ di $Y$ yang menghubungkan titik-titik
+\mathkor {} {P =\gamma(a)} {dan} {Q = \gamma(b)} {,}
+berdasarkan
+[[Hyperfläche/Kurve/Anfangstangentenvektor/Paralleles Vektorfeld/Existenz/Fakt|Teorema 6.9]],
+ditentukan suatu pemetaan
+\maabbdisp {} {T_PY} {T_QY
+} {.}
+Pemetaan ini memetakan vektor awal
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ke vektor
+
+\mavergleichskette
+{\vergleichskette
+{ F(b)
+}
+{ \in }{ T_QY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $F$ adalah medan vektor paralel yang ditentukan secara unik sepanjang $\gamma$. Pemetaan ini disebut \stichwort {transpor paralel} {} sepanjang $\gamma$. Pemetaan tersebut dilambangkan dengan
+\maabbdisp {\Psi_\gamma} { T_{\gamma(a)}Y} {T_{\gamma(b)}Y
+} {.}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Parallel transport sphere2} {svg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Parallel transport sphere2.svg } {} {Silly rabbit} {en Wikipedia} {CC-by-sa 3.0} {}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Kurve/Paralleltransport/Isometrie/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {terbuka}{}{,}
+dan $Y$ suatu
+\definitionsverweis {hipermuka terdiferensialkan}{}{} kelas $C^2$
+dan misalkan
+\maabb {\gamma} {[a,b]} {Y
+} {}
+suatu
+\definitionsverweis {kurva terdiferensialkan}{}{}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(a)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(b)
+}
+{ = }{ Q
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Maka
+\definitionsverweis {transpor paralel}{}{}
+sepanjang $\gamma$ merupakan suatu
+\definitionsverweis {isometri}{}{}
+\maabbdisp {} {T_PY} {T_QY
+} {.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Untuk membuktikan linearitas, misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ v,w
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ r,s
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+diberikan. Misalkan
+\mathkor {} {F} {dan} {G} {}
+adalah medan-medan vektor paralel sepanjang $\gamma$ yang ditentukan secara unik menurut
+[[Hyperfläche/Kurve/Anfangstangentenvektor/Paralleles Vektorfeld/Existenz/Fakt|Teorema 6.9]]
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ F(a)
+}
+{ = }{ v
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ G(a)
+}
+{ = }{ w
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Menurut
+[[Hyperfläche/Kurve/Paralleles Vektorfeld/Eigenschaften/Fakt|Lemma 6.7]],
+\mathl{rF+sG}{} merupakan suatu medan vektor paralel dengan
+
+\mavergleichskette
+{\vergleichskette
+{ (rF+sG)(a)
+}
+{ = }{ rv+sw
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+\emph{Catatan edisi: Nilai awal kombinasi linear diperbaiki dari $v+w$ menjadi $rv+sw$.}
+Berdasarkan keunikan dari
+[[Hyperfläche/Kurve/Anfangstangentenvektor/Paralleles Vektorfeld/Existenz/Fakt|Teorema 6.9]],
+\mathl{rF+sG}{} dengan demikian merupakan medan vektor paralel untuk vektor singgung
+\mathl{rv+sw}{.} Oleh karena itu,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Psi_{\gamma} (rv+sw)
+}
+{ =} { (rF+sG)(b)
+}
+{ =} { r F(b) +s G(b)
+}
+{ =} { r \Psi_{\gamma} (v) + s \Psi_{\gamma} (w)
+}
+{ } {
+}
+}
+{}{}{.}
+
+Untuk membuktikan kompatibilitas dengan hasil kali dalam, misalkan kembali
+
+\mavergleichskette
+{\vergleichskette
+{ v,w
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+diberikan, dan misalkan $F,G$ adalah medan-medan vektor paralel yang bersesuaian. Berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  F(t) , G(t)  \right\rangle'
+}
+{ =} { \left\langle  F'(t) , G(t)  \right\rangle  +  \left\langle  F(t) , G'(t)  \right\rangle
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+karena $F,G$ bersifat tangensial, sedangkan $F',G'$ ortogonal terhadap ruang singgung. Jadi,
+\mathl{\left\langle  F(t) , G(t)  \right\rangle}{} konstan sepanjang lintasan. Oleh karena itu,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle \Psi_\gamma(v)  , \Psi_\gamma(w)  \right\rangle
+}
+{ =} { \left\langle  F(b)  ,  G(b)   \right\rangle
+}
+{ =} { \left\langle  F(a)  ,  G(a)   \right\rangle
+}
+{ =} { \left\langle  v  , w  \right\rangle
+}
+{ } {
+}
+}
+{}{}{.}
+
+\emph{Catatan edisi: Faktor kedua pada hasil kali dalam di titik awal diperbaiki dari $F(a)$ menjadi $G(a)$.}
+Bijektivitasnya juga jelas dari sini.
+
+}
+
+\inputbeispiel{}
+{
+
+Kita meninjau seperempat lingkaran besar
+\maabbeledisp {} {[0 , \pi/2] } { \R^3
+} { t } { \left(  \cos  t   , \,   \sin  t  , \,   0                 \right)
+} {,}
+pada permukaan bola satuan $S$ dan melanjutkan pembahasan dari
+[[Kugeloberfläche/Viertelgroßkreis/Parallele Vektorfelder/Beispiel|Contoh 6.11]].
+Berlaku
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(0)
+}
+{ = }{ \left(  1   , \,   0  , \,   0                 \right)
+}
+{ = }{ P
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(\pi/2)
+}
+{ = }{ \left(  0   , \,   1  , \,   0                 \right)
+}
+{ = }{ Q
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan
+\definitionsverweis {ruang-ruang singgung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ T_PS
+}
+{ = }{ \R e_2 +\R e_3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ T_QS
+}
+{ = }{ \R e_1 +\R e_3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Berdasarkan perhitungan dalam contoh yang dirujuk tersebut, untuk
+\definitionsverweis {transpor paralel}{}{}
+berlaku
+
+\mavergleichskette
+{\vergleichskette
+{ \Psi_\gamma(e_3)
+}
+{ = }{ e_3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \Psi_\gamma(e_2)
+}
+{ = }{ - e_1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+
+Jika
+\maabbdisp {\gamma} { I } { Y
+} {}
+merupakan suatu kurva kontinu yang terdiferensialkan sepotong-sepotong, transpor paralel sepanjang $\gamma$ didefinisikan dengan melaksanakan secara berurutan transpor-transpor paralel pada setiap potongan kurva yang terdiferensialkan.
+
+ [[Kategorie:Latexseite]]

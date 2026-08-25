@@ -148,6 +148,25 @@ def extract(text: str) -> dict[str, object]:
     }
 
 
+def correction_ids(item: dict[str, object]) -> list[str]:
+    """Return one or more correction IDs from a manifest item.
+
+    Older manifests use ``correction_id``.  A profile-level delta can be the
+    combined result of several independently ledgered corrections, so newer
+    manifests may instead use ``correction_ids`` without weakening the exact
+    source/target profile-hash binding.
+    """
+    values = item.get("correction_ids")
+    if values is None:
+        value = item.get("correction_id")
+        return [value] if isinstance(value, str) and value else []
+    if not isinstance(values, list) or not all(
+        isinstance(value, str) and value for value in values
+    ):
+        raise RuntimeError("correction_ids must be a nonempty list of strings")
+    return list(dict.fromkeys(values))
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("source", type=Path)
@@ -166,6 +185,7 @@ def main() -> None:
     source_profile = extract(source)
     target_profile = extract(target)
     allowed: list[dict[str, object]] = []
+    evidence_only: list[dict[str, object]] = []
     if args.corrections:
         correction_payload = json.loads(args.corrections.read_text(encoding="utf-8"))
         if correction_payload.get("schema_version") != 1:
@@ -173,6 +193,9 @@ def main() -> None:
         allowed = correction_payload.get("allowed_deltas", [])
         if not isinstance(allowed, list):
             raise RuntimeError("allowed_deltas must be a list")
+        evidence_only = correction_payload.get("evidence_only_deltas", [])
+        if not isinstance(evidence_only, list):
+            raise RuntimeError("evidence_only_deltas must be a list")
     consumed: set[int] = set()
 
     def profile_hash(value: object) -> str:
@@ -261,6 +284,55 @@ def main() -> None:
     if unused:
         failures.append("unused_allowed_deltas")
 
+    evidence_results: list[dict[str, object]] = []
+    for evidence_index, item in enumerate(evidence_only):
+        correction_id = item.get("correction_id")
+        surface = item.get("surface")
+        occurrence_index = item.get("occurrence_index")
+        passed = True
+        detail = "verified"
+        if not isinstance(surface, str) or not surface.startswith("command:"):
+            passed = False
+            detail = "unsupported evidence-only surface"
+        elif not isinstance(occurrence_index, int) or occurrence_index < 0:
+            passed = False
+            detail = "invalid occurrence index"
+        else:
+            command = surface.split(":", 1)[1]
+            source_calls = command_calls(source, command)
+            target_calls = command_calls(target, command)
+            if occurrence_index >= len(source_calls) or occurrence_index >= len(target_calls):
+                passed = False
+                detail = "occurrence index outside source or target call sequence"
+            else:
+                source_call = source_calls[occurrence_index]
+                target_call = target_calls[occurrence_index]
+                passed = (
+                    item.get("source_sha256") == sha256(source_call.encode("utf-8"))
+                    and item.get("target_sha256") == sha256(target_call.encode("utf-8"))
+                    and (
+                        "source_latex" not in item
+                        or item.get("source_latex") == source_call
+                    )
+                    and (
+                        "target_latex" not in item
+                        or item.get("target_latex") == target_call
+                    )
+                )
+                if not passed:
+                    detail = "declared exact call or hash does not match"
+        if not passed:
+            failures.append(f"evidence_only:{correction_id or evidence_index}")
+        evidence_results.append(
+            {
+                "correction_id": correction_id,
+                "surface": surface,
+                "occurrence_index": occurrence_index,
+                "status": "pass" if passed else "fail",
+                "detail": detail,
+            }
+        )
+
     receipt = {
         "schema_version": 1,
         "source": relative_path(args.source, args.project_root),
@@ -278,6 +350,9 @@ def main() -> None:
             "protected_macro_calls_equal_or_declared": not any(item.startswith("protected:") for item in failures),
             "brace_profile_equal_or_declared": "brace_profile" not in failures,
             "all_declared_deltas_consumed": not unused,
+            "evidence_only_deltas_verified": not any(
+                item.startswith("evidence_only:") for item in failures
+            ),
         },
         "counts": {
             "commands": len(source_profile["commands"]),
@@ -288,7 +363,14 @@ def main() -> None:
         },
         "status": "pass" if not failures else "fail",
         "failures": failures,
-        "declared_corrections": [allowed[index].get("correction_id") for index in sorted(consumed)],
+        "declared_corrections": list(
+            dict.fromkeys(
+                correction_id
+                for item in [allowed[index] for index in sorted(consumed)] + evidence_only
+                for correction_id in correction_ids(item)
+            )
+        ),
+        "evidence_only_results": evidence_results,
     }
     args.receipt.parent.mkdir(parents=True, exist_ok=True)
     args.receipt.write_text(

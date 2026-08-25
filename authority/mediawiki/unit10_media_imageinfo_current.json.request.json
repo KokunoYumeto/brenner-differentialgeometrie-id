@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://commons.wikimedia.org/w/api.php",
+  "http_date": "Sun, 23 Aug 2026 19:17:10 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "iiprop": "timestamp|user|url|size|sha1|mime|extmetadata",
+    "prop": "info|imageinfo",
+    "titles": "File:Tangent bundle.svg|File:Torus vectors oblique.jpg"
+  },
+  "response_bytes": 4910,
+  "response_path": "unit10_media_imageinfo_current.json",
+  "response_sha256": "a7e21c6f08704654c06685ac1df7d9858faa1ef980c6c1ab63af7e1df827c251",
+  "retrieved_utc": "2026-08-23T19:17:10Z",
+  "schema_version": 1
+}

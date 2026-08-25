@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-06/worksheet06_exercise02_solution.id.tex",
+  "allowed_deltas": [
+    {
+      "correction_ids": ["O011-CORR-0067"],
+      "surface": "profile:commands",
+      "source_sha256": "0be6dd32ef1ce9baef999fa95b9722613b8d9a24989fd4fc5bcabef7449224a9",
+      "target_sha256": "54be2d11d7fbf9e9f34b0499b60648274f4f6321dbc94b8ac7d5c547f1badec2"
+    },
+    {
+      "correction_ids": ["O011-CORR-0067"],
+      "surface": "profile:protected:mathdisp",
+      "source_sha256": "89da3159ce2507fb86a4efa4ae09b5bbb3570e18ca8a27fb0c93716f111a354b",
+      "target_sha256": "c7e866b9a1a3e08f1a461d309dca88058f7eab4e3f668b6781856c5b3071253e"
+    },
+    {
+      "correction_ids": ["O011-CORR-0067"],
+      "surface": "profile:brace_profile",
+      "source_sha256": "705f607ce5a9fa0574a911f5b658f0474e082761b516be5f41281fe84fa5458f",
+      "target_sha256": "3afa997b12d053de0ec3357426aafe77f9ba6a204d50c90f7a22ef657bdbddbe"
+    }
+  ]
+}

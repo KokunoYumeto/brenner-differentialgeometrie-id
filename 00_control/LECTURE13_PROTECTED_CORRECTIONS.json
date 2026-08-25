@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-13/lecture13.id.tex",
+  "source_authority": {
+    "path": "authority/expanded/lecture13_source.de.tex",
+    "bytes": 23322,
+    "sha256": "3416c47b07bef5b03ca2d70e4dae74691342555a207663af61d908ee0fe05da5"
+  },
+  "metadata_corrections": [
+    {
+      "correction_id": "O011-CORR-0135",
+      "anchor": "Möbius-strip figure loader and adjacent immutable rights record",
+      "change": "Canonicalize the target display loader stem from Möbius_strip to the exact admitted media stem Möbius strip; preserve the adjacent rights filename Möbius strip.jpg and all attribution and license fields exactly. The frozen authority remains unchanged."
+    }
+  ],
+  "reader_surface_corrections": [
+    {
+      "correction_id": "O011-TRANS-0136",
+      "anchor": "all seven mathkor conjunction payloads",
+      "change": "Translate every reader-visible German conjunction payload und to Indonesian dan."
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "anchor": "all twelve zusatzklammer payloads",
+      "change": "Translate every reader-visible German parenthetical payload into Indonesian without changing the three-argument macro topology."
+    },
+    {
+      "correction_id": "O011-TRANS-0138",
+      "anchor": "open-cover display in the compactness definition",
+      "change": "Translate the two reader-visible German text payloads inside the protected mathdisp call into Indonesian while preserving the mathematical statement and command topology."
+    },
+    {
+      "correction_id": "O011-TRANS-0139",
+      "anchor": "witness-selection display in the sequential compactness proof",
+      "change": "Translate the reader-visible German connector mit inside the protected mathbed call to Indonesian dengan."
+    },
+    {
+      "correction_id": "O011-TRANS-0140",
+      "anchor": "continuously differentiable function terminology",
+      "change": "Replace the semantically weak first-pass phrase fungsi diferensiabel kontinu by the admitted fungsi yang terdiferensialkan secara kontinu; mathematical meaning and TeX topology are unchanged."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0135",
+      "surface": "protected:includegraphics",
+      "index": 0,
+      "source_sha256": "b8117e17203c5a8bbbc5885feefc98930202f8081880b5ebf84d0b56e81fe6e0",
+      "target_sha256": "dcea0efd6f747c4481b93417c546748d251c96bd51d22e4eba27ad435b0d6cc7"
+    },
+    {
+      "correction_id": "O011-CORR-0135",
+      "surface": "protected:bildeinlesungjpg",
+      "index": 0,
+      "source_sha256": "0b13cfa24b68093a3b136d3e259a365bbfef2cf5ce31ec598a66b03f9b64ed79",
+      "target_sha256": "b8ad8bf72b44a20ca44032a3e2860f72991a66e7488a232f7f1aa79551739ab3"
+    },
+    {
+      "correction_id": "O011-TRANS-0138",
+      "surface": "protected:mathdisp",
+      "index": 0,
+      "source_sha256": "20fd8d5581ecd676aaa6275c5a03a83bcb0296c97485594418eb5ebd5aef7173",
+      "target_sha256": "d7153ad054b97701fb349e82b6018a0bac7200356ddcb0eee49fa30521779011"
+    },
+    {
+      "correction_id": "O011-TRANS-0139",
+      "surface": "protected:mathbed",
+      "index": 0,
+      "source_sha256": "98c01cd953b87b82a5d74e0e02dbedd5d2efd549030fb6d0f444883a5b88f6bd",
+      "target_sha256": "2b77b9aee67f4e48b8a2a972d2db78061655d14779786f8710eaf5a5507864e7"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-CORR-0135",
+      "surface": "command:bildlizenz",
+      "occurrence_index": 0,
+      "source_sha256": "b02c5f0886ccbfe49425ac25669bd3bdccabc12e22a39abb85ba867494305f34",
+      "target_sha256": "b02c5f0886ccbfe49425ac25669bd3bdccabc12e22a39abb85ba867494305f34",
+      "verification_note": "The exact normalized rights call remains unchanged beside the canonicalized display loader."
+    },
+    {
+      "correction_id": "O011-TRANS-0136",
+      "surface": "command:mathkor",
+      "occurrence_index": 0,
+      "source_sha256": "20664bcd12b653fb24a171949353b6573779d6ef90753ac1118a1d49ca1ae85a",
+      "target_sha256": "bc66b3b1a0340a0cb0d055977a7d3be6db10407925cb8c62236ca4428bc7735b"
+    },
+    {
+      "correction_id": "O011-TRANS-0136",
+      "surface": "command:mathkor",
+      "occurrence_index": 1,
+      "source_sha256": "cd9f7168101afb575a43ce83039a3950669a5dcdc0015e55932879103691dcaa",
+      "target_sha256": "3e32345b28cb2d83d0df21851a3f4766b872912fce1d178d5e792d2c28432881"
+    },
+    {
+      "correction_id": "O011-TRANS-0136",
+      "surface": "command:mathkor",
+      "occurrence_index": 2,
+      "source_sha256": "20664bcd12b653fb24a171949353b6573779d6ef90753ac1118a1d49ca1ae85a",
+      "target_sha256": "bc66b3b1a0340a0cb0d055977a7d3be6db10407925cb8c62236ca4428bc7735b"
+    },
+    {
+      "correction_id": "O011-TRANS-0136",
+      "surface": "command:mathkor",
+      "occurrence_index": 3,
+      "source_sha256": "cd9f7168101afb575a43ce83039a3950669a5dcdc0015e55932879103691dcaa",
+      "target_sha256": "3e32345b28cb2d83d0df21851a3f4766b872912fce1d178d5e792d2c28432881"
+    },
+    {
+      "correction_id": "O011-TRANS-0136",
+      "surface": "command:mathkor",
+      "occurrence_index": 4,
+      "source_sha256": "20664bcd12b653fb24a171949353b6573779d6ef90753ac1118a1d49ca1ae85a",
+      "target_sha256": "bc66b3b1a0340a0cb0d055977a7d3be6db10407925cb8c62236ca4428bc7735b"
+    },
+    {
+      "correction_id": "O011-TRANS-0136",
+      "surface": "command:mathkor",
+      "occurrence_index": 5,
+      "source_sha256": "cd9f7168101afb575a43ce83039a3950669a5dcdc0015e55932879103691dcaa",
+      "target_sha256": "3e32345b28cb2d83d0df21851a3f4766b872912fce1d178d5e792d2c28432881"
+    },
+    {
+      "correction_id": "O011-TRANS-0136",
+      "surface": "command:mathkor",
+      "occurrence_index": 6,
+      "source_sha256": "37a10d35ec56124257ec67ce940de572a1919f9d049f5bfa7fecfc0013e50973",
+      "target_sha256": "04c0133a2e8bc1dd33858262c0068600f43753f0268df1aedd4b8348d08c2e1c"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 0,
+      "source_sha256": "31e858f7effb982db9af2f2eb79f8849eff65226532a9aa09e621cc2587878b0",
+      "target_sha256": "1c29f5af73df2321eb1fb093dcb21abd21149206aff97371a76629ab7497cd68"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 1,
+      "source_sha256": "77d89d26d5baa3e80537123ff53452f03475a110d67ad4e8075271f7c7f48056",
+      "target_sha256": "8ec6f8a93da6edc7ee84d11a0c0979bc86cfa36f75ec0555c2b0107c5fafa241"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 2,
+      "source_sha256": "21a6939978dffad7a6f54e298a5b4c2f3c7761cfda62ccbb76a99bb3c5ffdce6",
+      "target_sha256": "71a32e4b4bff6672a14ba286f5929fc363d2d4126b1e9fa393519dab69ffda47"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 3,
+      "source_sha256": "10d74514c5525ffc8e8f40e2e861317b421069caaa8e9ab79d3cf14bc539a31f",
+      "target_sha256": "b3c51a06602c4d9ab2a82adecf1a458e43581fff7b9f10b2f5ef0609c2c047a9"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 4,
+      "source_sha256": "bbb7b7eec9ee23cbcc5caa6f4bfa392994e3e7f7e261e1d7e458a0151896745f",
+      "target_sha256": "d86356dbf5741b51fc67c27718774ea03e5ca0a7d8585472c9f65167141cc16f"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 5,
+      "source_sha256": "7ceb55f19bd22b94b585f4dbd0aa23c1ec46439f0c686052dd1bc1a4e037a23e",
+      "target_sha256": "2778c9ff70fa254d90d0084ca25c3c2bdff106ecf0f9afabf6ee1a49cae793b1"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 6,
+      "source_sha256": "a931ae497ab0bf71864dd5c4404b266c794d11bcc1bf96ff7d4b95ec3f977270",
+      "target_sha256": "4ae93d1fadf2d4f1848005dedb7148d5ebccb1c62699e458cbcb24c8102b4530"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 7,
+      "source_sha256": "207fc1b1d0396d0fbbae60ee9968da57897fab2c6b24180bf4bfbdf5c6055de1",
+      "target_sha256": "a9ff1978d759d79373eab3ff9740b1f7a23ec480e01223aeb34f4d5aec763065"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 8,
+      "source_sha256": "6c6959e0837ddd8de6f30cd53a79d728521eddf6f69aa95ad7cb461df3c9b6fd",
+      "target_sha256": "e41a1e7bce4690755b0977ef4025a2e1ad2bdc85d3ddccc1b4946cb824c817c0"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 9,
+      "source_sha256": "b3bed53a14bb55a0e380b471f5297ed7f9a4ba7602023ee6df5d9499735efca1",
+      "target_sha256": "32ad2bfd21f0f06f793cea6db52da3f99265c700f9273b7be4f290c24f885718"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 10,
+      "source_sha256": "6971424fb32013d2fbeab747f2c701413c8d202e5e2e070325a7ec6441e2af21",
+      "target_sha256": "f6f6cc8c7e44d43185efce123f10adc8b3b96dc98d5929c7271be4f68aef65b2"
+    },
+    {
+      "correction_id": "O011-TRANS-0137",
+      "surface": "command:zusatzklammer",
+      "occurrence_index": 11,
+      "source_sha256": "ba52b58e036156815d5c8c66d572ae34e0204c2eab65541368fa333629af2b06",
+      "target_sha256": "c800f744b0f7ec90528c221c86836572d0784e84b86816e9c2fe81d782450373"
+    }
+  ]
+}

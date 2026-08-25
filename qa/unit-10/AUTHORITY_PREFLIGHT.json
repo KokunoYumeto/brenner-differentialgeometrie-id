@@ -1,0 +1,1084 @@
+{
+  "authority": {
+    "course_recursive_export": {
+      "bytes": 3538709,
+      "path": "authority/mediawiki/brenner_course_recursive_current.xml",
+      "sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14"
+    },
+    "latex_surface_recursive_export": {
+      "bytes": 3722387,
+      "path": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+      "sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c"
+    },
+    "pages": {
+      "lecture_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture10_latex_surface_revid807115.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1200,
+          "path": "authority/mediawiki/lecture10_latex_surface_revid807115.metadata.json",
+          "sha256": "37cb3bca6bb89dc6c746580e3767318f62ec1b564ba7a803212b44fb2291f5f9"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142584,
+        "parentid": 799024,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/lecture10_latex_surface_revid807115.wiki",
+        "revid": 807115,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T09:58:40Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 10/latex"
+      },
+      "lecture_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "55737b406dda5d200c17e8c189b74c7e1bc448b3ca5042314eb8286e733679b2",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture10_root_revid1069485.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "mwu7x9yuenp6wkk8fhacgwk24j31jtu",
+        "metadata": {
+          "bytes": 1176,
+          "path": "authority/mediawiki/lecture10_root_revid1069485.metadata.json",
+          "sha256": "69912069b7725240daec728b4a75f7742a470ffff0d0a815f01d7194190efabb"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142554,
+        "parentid": 1052469,
+        "readable_normalized_bytes": 3718,
+        "readable_normalized_sha256": "f97a396b0417fbfc3e55f8ad824a9c0ce1fe871c9c358960ec04f2765412b8f3",
+        "readable_normalized_witness": "authority/mediawiki/lecture10_root_revid1069485.wiki",
+        "revid": 1069485,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 3717,
+        "source_utf8_sha1": "c425bd7030f3c1e158d9c13df5736d8ab914e9a2",
+        "source_utf8_sha256": "e8eb3cb400071c4e565939e53c17f259b7554aa51ab2028d6f39e082ff12aaf2",
+        "timestamp": "2026-02-05T20:57:25Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 10"
+      },
+      "worksheet_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet10_latex_surface_revid807083.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1207,
+          "path": "authority/mediawiki/worksheet10_latex_surface_revid807083.metadata.json",
+          "sha256": "7c7a7fc09c247a79ae3948781c61d1db096f404d66b05bfb410e76505364199d"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142674,
+        "parentid": 798993,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/worksheet10_latex_surface_revid807083.wiki",
+        "revid": 807083,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T09:53:29Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 10/latex"
+      },
+      "worksheet_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "17f8136467ab50fd2ce65409cd17d05cfc3fc80f769931d08f7470bdb1398b2e",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet10_root_revid906482.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "p7r1v7mm4sf9mrc5gnvcfmyr6uodoz8",
+        "metadata": {
+          "bytes": 1179,
+          "path": "authority/mediawiki/worksheet10_root_revid906482.metadata.json",
+          "sha256": "e7a7f7147eef3d875d8b35e3e8ed7ff17306a8d35e04df4eeb5eb666d81d37c8"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142644,
+        "parentid": 906003,
+        "readable_normalized_bytes": 3852,
+        "readable_normalized_sha256": "6f6de8aa1e30e587a08230ca6488a8c2fba4c273be2dfd2d4f5002a01250a6b7",
+        "readable_normalized_witness": "authority/mediawiki/worksheet10_root_revid906482.wiki",
+        "revid": 906482,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 3851,
+        "source_utf8_sha1": "d7dd2c19885e1bfb3da949e4e65fbbf400252fb4",
+        "source_utf8_sha256": "5b9ffffb45f582797906a2c685e5bc332fd47d0b252b8983e8438359fe05a2a1",
+        "timestamp": "2023-07-15T13:20:43Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 10"
+      }
+    },
+    "root_revision_manifest": {
+      "bytes": 15237,
+      "path": "authority/brenner_selected_root_revisions.csv",
+      "sha256": "64cf91594907db45355e64fb512fb14092e15218c74847a8f60fe884a5284fc8"
+    },
+    "surface_revision_manifest": {
+      "bytes": 31799,
+      "path": "authority/brenner_selected_surface_revisions.csv",
+      "sha256": "9a3a6b7dc08cc022803dad24e959365d67810d4da87a8bc4385c601db9d4bd52"
+    }
+  },
+  "checks": {
+    "all_candidate_solution_titles_queried": true,
+    "all_displayed_images_have_license_macros": true,
+    "all_point_markers_resolved": true,
+    "all_supplied_solution_latex_snapshots_frozen": true,
+    "all_supplied_solution_revisions_frozen": true,
+    "exercise_root_expansion_count_agreement": true,
+    "lecture_expansion_sanitized": true,
+    "revision_export_hashes_match": true,
+    "root_revision_bindings_unique": true,
+    "root_witnesses_match_mediawiki_sha1": true,
+    "solution_macro_api_agreement": true,
+    "surface_revision_bindings_unique": true,
+    "translation_started_by_workflow": false,
+    "unit_media_binary_and_rights_closure": true,
+    "worksheet_expansion_sanitized": true
+  },
+  "expansions": {
+    "lecture": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 25734,
+      "http_date": "Sun, 23 Aug 2026 19:15:49 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 10/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 674,
+        "path": "authority/exports/lecture10_latex_expand.json.request.json",
+        "sha256": "b672bd50ed737e2eff729ca2e99bbd393e7cd174c00cd1db932d25e4a33823ef"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 27380,
+        "path": "authority/exports/lecture10_latex_expand.json",
+        "sha256": "6740312048086da197fadc17bb2dff01bdc134fc0758369263d00108958db646"
+      },
+      "retrieved_utc": "2026-08-23T19:15:49Z",
+      "sanitized_source": {
+        "bytes": 22299,
+        "path": "authority/expanded/lecture10_source.de.tex",
+        "sha256": "d9958463f904b6d4118203fc759307b1e97d758296ec1aec4b1e6747309bfa07"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 672,
+        "path": "qa/unit-10/lecture10_sanitize.json",
+        "sha256": "2c27f2f6fb5d86d05eb93c623e6e248b2b627acb68347da623845f7c7c49cbd9"
+      },
+      "valid_utf8": true
+    },
+    "worksheet": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 20416,
+      "http_date": "Sun, 23 Aug 2026 19:15:50 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 10/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 679,
+        "path": "authority/exports/worksheet10_latex_expand.json.request.json",
+        "sha256": "bdbe8a12bbb6e33b9fd574fd80fac0190d7e6d0117c84a922d09eda02dbf0fd9"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 21878,
+        "path": "authority/exports/worksheet10_latex_expand.json",
+        "sha256": "5c7be3097490ec02e2aa9b90b920399427847220ef47f7196a54536ece17e39b"
+      },
+      "retrieved_utc": "2026-08-23T19:15:50Z",
+      "sanitized_source": {
+        "bytes": 16246,
+        "path": "authority/expanded/worksheet10_source.de.tex",
+        "sha256": "0bb2340e60fd19551d420565bd9296e259eacf786a4262dc892395c1f2cbb786"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 676,
+        "path": "qa/unit-10/worksheet10_sanitize.json",
+        "sha256": "fd99906f8330958f9ca1ff12d390b6540c5595dce1d51ec7aacd9466b5d36bee"
+      },
+      "valid_utf8": true
+    }
+  },
+  "media": {
+    "all_displayed_images_have_license_macros": true,
+    "assets": [
+      {
+        "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Oleg_Alexandrov\" title=\"User:Oleg Alexandrov\">Oleg Alexandrov</a>",
+        "artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/wiki/User:Oleg_Alexandrov"
+          ],
+          "creator_label": "Oleg Alexandrov"
+        },
+        "artist_text": "Oleg Alexandrov",
+        "attribution_required": false,
+        "binary": {
+          "bytes": 23116,
+          "path": "authority/media/Tangent bundle.svg",
+          "sha256": "96e46d20e64c40985d7ddc517824a36ef6546261762c3cd8e277c9a4eab55623"
+        },
+        "bytes": 23116,
+        "commons_lastrevid": 910059871,
+        "commons_pageid": 2233661,
+        "commons_sha1": "44717b4e02c2e87eafedc1eb78263e1cc078e801",
+        "commons_touched": "2026-08-14T14:30:44Z",
+        "copyrighted_status": "False",
+        "credit_html": "self-made, with <a href=\"https://en.wikipedia.org/wiki/Matlab\" class=\"extiw\" title=\"en:Matlab\">en:Matlab</a> then tweaked with <a href=\"https://en.wikipedia.org/wiki/Inkscape\" class=\"extiw\" title=\"en:Inkscape\">en:Inkscape</a>",
+        "credit_text": "self-made, with en:Matlab then tweaked with en:Inkscape",
+        "current_matches_frozen_rights_manifest": {
+          "artist_html": true,
+          "artist_identity": true,
+          "attribution_required": true,
+          "bytes": true,
+          "copyrighted": true,
+          "credit_html": true,
+          "license": true,
+          "license_url": true,
+          "mime": true,
+          "sha1": true
+        },
+        "description_url": "https://commons.wikimedia.org/wiki/File:Tangent_bundle.svg",
+        "download_receipt": {
+          "bytes": 23116,
+          "content_type": "image/svg+xml",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Tangent_bundle.svg",
+          "http_date": "Sun, 23 Aug 2026 16:48:05 GMT",
+          "retrieved_utc": "2026-08-23T19:17:10Z",
+          "schema_version": 1,
+          "sha1": "44717b4e02c2e87eafedc1eb78263e1cc078e801",
+          "sha256": "96e46d20e64c40985d7ddc517824a36ef6546261762c3cd8e277c9a4eab55623",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Tangent_bundle.svg"
+        },
+        "filename": "Tangent bundle.svg",
+        "frozen_artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Oleg_Alexandrov\" title=\"User:Oleg Alexandrov\">Oleg Alexandrov</a>",
+        "frozen_artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/wiki/User:Oleg_Alexandrov"
+          ],
+          "creator_label": "Oleg Alexandrov"
+        },
+        "frozen_artist_text": "Oleg Alexandrov",
+        "frozen_credit_html": "self-made, with <a href=\"https://en.wikipedia.org/wiki/Matlab\" class=\"extiw\" title=\"en:Matlab\">en:Matlab</a> then tweaked with <a href=\"https://en.wikipedia.org/wiki/Inkscape\" class=\"extiw\" title=\"en:Inkscape\">en:Inkscape</a>",
+        "frozen_credit_text": "self-made, with en:Matlab then tweaked with en:Inkscape",
+        "height": 963,
+        "image_timestamp": "2007-06-12T04:08:20Z",
+        "image_user": "Oleg Alexandrov",
+        "license": "Public domain",
+        "license_url": null,
+        "localized_artist_variance": false,
+        "localized_credit_variance": false,
+        "mime": "image/svg+xml",
+        "occurrences": [
+          {
+            "filename": "Tangent bundle.svg",
+            "surface": "lecture10",
+            "surface_order": 1
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Tangent_bundle.svg",
+        "rights_critical_fields_match": true,
+        "sha256": "96e46d20e64c40985d7ddc517824a36ef6546261762c3cd8e277c9a4eab55623",
+        "usage_terms": "Public domain",
+        "width": 400
+      },
+      {
+        "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:RokerHRO\" title=\"User:RokerHRO\">RokerHRO</a>",
+        "artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/wiki/User:RokerHRO"
+          ],
+          "creator_label": "RokerHRO"
+        },
+        "artist_text": "RokerHRO",
+        "attribution_required": true,
+        "binary": {
+          "bytes": 251142,
+          "path": "authority/media/Torus vectors oblique.jpg",
+          "sha256": "cfcd0c5c16262a6beab6dd47dc27291b7ff3651228b2b9defc0717957ce5d3f6"
+        },
+        "bytes": 251142,
+        "commons_lastrevid": 1264691197,
+        "commons_pageid": 8268735,
+        "commons_sha1": "fae076a93a4a1961db5413c6044862a020f2be25",
+        "commons_touched": "2026-08-21T07:48:40Z",
+        "copyrighted_status": "True",
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "credit_text": "Own work",
+        "current_matches_frozen_rights_manifest": {
+          "artist_html": true,
+          "artist_identity": true,
+          "attribution_required": true,
+          "bytes": true,
+          "copyrighted": true,
+          "credit_html": false,
+          "license": true,
+          "license_url": true,
+          "mime": true,
+          "sha1": true
+        },
+        "description_url": "https://commons.wikimedia.org/wiki/File:Torus_vectors_oblique.jpg",
+        "download_receipt": {
+          "bytes": 251142,
+          "content_type": "image/jpeg",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Torus_vectors_oblique.jpg",
+          "http_date": "Sun, 23 Aug 2026 19:17:10 GMT",
+          "retrieved_utc": "2026-08-23T19:17:11Z",
+          "schema_version": 1,
+          "sha1": "fae076a93a4a1961db5413c6044862a020f2be25",
+          "sha256": "cfcd0c5c16262a6beab6dd47dc27291b7ff3651228b2b9defc0717957ce5d3f6",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Torus_vectors_oblique.jpg"
+        },
+        "filename": "Torus vectors oblique.jpg",
+        "frozen_artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:RokerHRO\" title=\"User:RokerHRO\">RokerHRO</a>",
+        "frozen_artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/wiki/User:RokerHRO"
+          ],
+          "creator_label": "RokerHRO"
+        },
+        "frozen_artist_text": "RokerHRO",
+        "frozen_credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+        "frozen_credit_text": "Eigenes Werk",
+        "height": 1730,
+        "image_timestamp": "2009-10-26T11:42:14Z",
+        "image_user": "RokerHRO",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "localized_artist_variance": false,
+        "localized_credit_variance": true,
+        "mime": "image/jpeg",
+        "occurrences": [
+          {
+            "filename": "Torus vectors oblique.jpg",
+            "surface": "lecture10",
+            "surface_order": 2
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Torus_vectors_oblique.jpg",
+        "rights_critical_fields_match": true,
+        "sha256": "cfcd0c5c16262a6beab6dd47dc27291b7ff3651228b2b9defc0717957ce5d3f6",
+        "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+        "width": 2038
+      }
+    ],
+    "current_commons_api": "https://commons.wikimedia.org/w/api.php",
+    "current_commons_query": {
+      "bytes": 4910,
+      "path": "authority/mediawiki/unit10_media_imageinfo_current.json",
+      "sha256": "a7e21c6f08704654c06685ac1df7d9858faa1ef980c6c1ab63af7e1df827c251"
+    },
+    "current_commons_query_request_receipt": {
+      "bytes": 678,
+      "path": "authority/mediawiki/unit10_media_imageinfo_current.json.request.json",
+      "sha256": "9d146952e87667b9629e688200f86d5d62061b82054c17b6acfbd6d8466c7101"
+    },
+    "occurrence_count": 2,
+    "query_retrieved_utc": "2026-08-23T19:17:10Z",
+    "rights_manifest": {
+      "bytes": 25588,
+      "path": "authority/brenner_media_rights_manifest.csv",
+      "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+    },
+    "surface_occurrences": [
+      {
+        "filename": "Tangent bundle.svg",
+        "surface": "lecture10",
+        "surface_order": 1
+      },
+      {
+        "filename": "Torus vectors oblique.jpg",
+        "surface": "lecture10",
+        "surface_order": 2
+      }
+    ],
+    "unique_asset_count": 2
+  },
+  "next_action": "Translate Lecture 10, Worksheet 10, and exactly the 4 supplied solutions in source order.",
+  "schema_version": 1,
+  "scope": "Brenner Differentialgeometrie Unit 10 authority preflight; no translation",
+  "solutions": {
+    "exercise_count": 31,
+    "exercises": [
+      {
+        "exercise_index": 1,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Russell-Kubik/Differenzierbare Mannigfaltigkeit/Aufgabe/Lösung",
+        "task_title": "Russell-Kubik/Differenzierbare Mannigfaltigkeit/Aufgabe"
+      },
+      {
+        "exercise_index": 2,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Rotationsfläche/Abgeschlossene Untermannigfaltigkeit/Aufgabe/Lösung",
+        "task_title": "Rotationsfläche/Abgeschlossene Untermannigfaltigkeit/Aufgabe"
+      },
+      {
+        "exercise_index": 3,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Matrizenmenge/Determinante ist 1/Abgeschlossene Untermannigfaltigkeit/Aufgabe/Lösung",
+        "task_title": "Matrizenmenge/Determinante ist 1/Abgeschlossene Untermannigfaltigkeit/Aufgabe"
+      },
+      {
+        "exercise_index": 4,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "R/Abgeschlossene Teilmenge/Keine abgeschlossene Untermannigfaltigkeit/Aufgabe/Lösung",
+        "task_title": "R/Abgeschlossene Teilmenge/Keine abgeschlossene Untermannigfaltigkeit/Aufgabe"
+      },
+      {
+        "exercise_index": 5,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "R/Abgeschlossene Untermannigfaltigkeiten/Aufgabe/Lösung",
+        "task_title": "R/Abgeschlossene Untermannigfaltigkeiten/Aufgabe"
+      },
+      {
+        "exercise_index": 6,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "S^1/Abgeschlossene Untermannigfaltigkeiten/Aufgabe/Lösung",
+        "task_title": "S^1/Abgeschlossene Untermannigfaltigkeiten/Aufgabe"
+      },
+      {
+        "exercise_index": 7,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Abgeschlossene Untermannigfaltigkeiten im R^n/(Disjunkte) Vereinigung/Aufgabe/Lösung",
+        "task_title": "Abgeschlossene Untermannigfaltigkeiten im R^n/(Disjunkte) Vereinigung/Aufgabe"
+      },
+      {
+        "exercise_index": 8,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Graph einer differenzierbaren Funktion/Ist abgeschlossene Untermannigfaltigkeit/Aufgabe/Lösung",
+        "task_title": "Graph einer differenzierbaren Funktion/Ist abgeschlossene Untermannigfaltigkeit/Aufgabe"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 4053,
+          "path": "authority/mediawiki/worksheet10_exercise09_solution_revid1106651.utf8.b64",
+          "sha256": "a2091781ec3deadbf8dd452eab56375935100d9494a0ded03ed46d5ca55c8c4b"
+        },
+        "exercise_index": 9,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 2510,
+          "http_date": "Sun, 23 Aug 2026 19:15:50 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Differenzierbare Mannigfaltigkeit/Kette von abgeschlossenen Untermannigfaltigkeiten/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 737,
+            "path": "authority/exports/worksheet10_exercise09_solution_latex_expand.json.request.json",
+            "sha256": "05141ade516ba528ea77c8e10b6e16b6a0dad76bc01c1d8470047c23c7d7e6c0"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 2739,
+            "path": "authority/exports/worksheet10_exercise09_solution_latex_expand.json",
+            "sha256": "513983ba27c6b621e288787056c45113064643b8c95240e158dab5108f245078"
+          },
+          "retrieved_utc": "2026-08-23T19:15:51Z",
+          "sanitized_source": {
+            "bytes": 2372,
+            "path": "authority/expanded/worksheet10_exercise09_solution_source.de.tex",
+            "sha256": "834634b11a1139ad6766043844108f945466cf4ebb45a23b3838fac32814c784"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-10/worksheet10_exercise09_solution_sanitize.json",
+            "sha256": "7a091ff99142dbc44456e4f89642699546f5987e816e7728def1be4e07620ad0"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "de4c7d8f5839897ae9b847696318aa8d64677481",
+        "metadata": {
+          "bytes": 1278,
+          "path": "authority/mediawiki/worksheet10_exercise09_solution_revid1106651.metadata.json",
+          "sha256": "fb0396ac84bfd928819ea0ea34227d3f0dafb71407d4202dde70b7f8a1c01178"
+        },
+        "pageid": 46303,
+        "parentid": 1096060,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 3038,
+          "path": "authority/mediawiki/worksheet10_exercise09_solution_revid1106651.wiki",
+          "sha256": "9d3aa74042149273234d1fade99d3dc862e27e1ac4a29026c1ab6aff6d163499"
+        },
+        "revid": 1106651,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Differenzierbare Mannigfaltigkeit/Kette von abgeschlossenen Untermannigfaltigkeiten/Aufgabe/Lösung",
+        "source_utf8_bytes": 3037,
+        "source_utf8_sha256": "0d4526124ec282ef8f62391cb137a4a392402371846520dd4ddfa7f48b4653f5",
+        "task_title": "Differenzierbare Mannigfaltigkeit/Kette von abgeschlossenen Untermannigfaltigkeiten/Aufgabe",
+        "timestamp": "2026-07-12T10:40:47Z"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 6397,
+          "path": "authority/mediawiki/worksheet10_exercise10_solution_revid1095262.utf8.b64",
+          "sha256": "25e01c76dd3b42aec36495341aa665ecfd0c39d8c6d01ad4c3a9bfcda2b16efe"
+        },
+        "exercise_index": 10,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 5683,
+          "http_date": "Sun, 23 Aug 2026 19:15:51 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Nilpotente Matrizen/2x2/Mannigfaltigkeit/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 694,
+            "path": "authority/exports/worksheet10_exercise10_solution_latex_expand.json.request.json",
+            "sha256": "1b25ec65587abb50a66e5930dc9e964adafe3e2bf1780f8a17c8b642d2858759"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 6136,
+            "path": "authority/exports/worksheet10_exercise10_solution_latex_expand.json",
+            "sha256": "633fb3f520b773311bb6cbae805690db50060a7bc10a75ff6260002972b325a0"
+          },
+          "retrieved_utc": "2026-08-23T19:15:51Z",
+          "sanitized_source": {
+            "bytes": 5002,
+            "path": "authority/expanded/worksheet10_exercise10_solution_source.de.tex",
+            "sha256": "7d5ddb258d592ae0efcf699c4c2bfee47fb0bf4a92554b616cdf27cca9481a78"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-10/worksheet10_exercise10_solution_sanitize.json",
+            "sha256": "69f2c05f3f24d8e97ebe0b1e9a0f1be5e45a660a4bb59975dd84a6b3de9b5433"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "a9bf9ee59e6420b25be0d3baf3fbb6a2e2b07cc4",
+        "metadata": {
+          "bytes": 1235,
+          "path": "authority/mediawiki/worksheet10_exercise10_solution_revid1095262.metadata.json",
+          "sha256": "98854c9ff279141a4d24a6f921cabdca02c1b15618ee5d81c4db16cf6fc87294"
+        },
+        "pageid": 78663,
+        "parentid": 1090112,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 4798,
+          "path": "authority/mediawiki/worksheet10_exercise10_solution_revid1095262.wiki",
+          "sha256": "5387776bde87cd9ae55fed196fe2576e4b1f7d5925a3bc543ce8a4fc6877844a"
+        },
+        "revid": 1095262,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Nilpotente Matrizen/2x2/Mannigfaltigkeit/Aufgabe/Lösung",
+        "source_utf8_bytes": 4797,
+        "source_utf8_sha256": "a4fdf293463bba6011aea6a5a2b45636fe8ee234f7751849b2f49c452895050a",
+        "task_title": "Nilpotente Matrizen/2x2/Mannigfaltigkeit/Aufgabe",
+        "timestamp": "2026-06-14T18:12:39Z"
+      },
+      {
+        "exercise_index": 11,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Abgeschlossene Untermannigfaltigkeit/R^n/Tangentialvektor/Aufgabe/Lösung",
+        "task_title": "Abgeschlossene Untermannigfaltigkeit/R^n/Tangentialvektor/Aufgabe"
+      },
+      {
+        "exercise_index": 12,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Differenzierbare Abbildung/Reguläre Faser/Tangentialraum als Kern und zu Mannigfaltigkeit/Aufgabe/Lösung",
+        "task_title": "Differenzierbare Abbildung/Reguläre Faser/Tangentialraum als Kern und zu Mannigfaltigkeit/Aufgabe"
+      },
+      {
+        "exercise_index": 13,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Tangentialbündel/Projektion ist stetig/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Tangentialbündel/Projektion ist stetig/Aufgabe"
+      },
+      {
+        "exercise_index": 14,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Tangentialbündel/Basis der Topologie/Aufgabe/Lösung",
+        "task_title": "Tangentialbündel/Basis der Topologie/Aufgabe"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 2941,
+          "path": "authority/mediawiki/worksheet10_exercise15_solution_revid1095883.utf8.b64",
+          "sha256": "2d104b1d3ad211e1e903793e70c08c544317498879732a742951bf227668a470"
+        },
+        "exercise_index": 15,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 2596,
+          "http_date": "Sun, 23 Aug 2026 19:17:09 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Differenzierbare Hyperfläche/Tangentialbündel/Implizite Realsierung/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 723,
+            "path": "authority/exports/worksheet10_exercise15_solution_latex_expand.json.request.json",
+            "sha256": "8ec70602961724bc0d1025be033dae70b58baca8b14aa27612f97c09228aaf22"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 2865,
+            "path": "authority/exports/worksheet10_exercise15_solution_latex_expand.json",
+            "sha256": "79a142bd02e635e95dcf9dd2943a012b85d97e2c4301c260c9c8dbb876c1914c"
+          },
+          "retrieved_utc": "2026-08-23T19:17:10Z",
+          "sanitized_source": {
+            "bytes": 2266,
+            "path": "authority/expanded/worksheet10_exercise15_solution_source.de.tex",
+            "sha256": "d4eec7ea3336812723021e08c9efe24592b99a7ce21f8ad5e74a6ba8d0dbc143"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-10/worksheet10_exercise15_solution_sanitize.json",
+            "sha256": "8efcda4aa6586bbce3447f66a23fa676ebaa86514da27c8d6f2803f76b0fd5df"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "36c1434583ef5c22e0b71d5f7304ce4bf3b66d21",
+        "metadata": {
+          "bytes": 1265,
+          "path": "authority/mediawiki/worksheet10_exercise15_solution_revid1095883.metadata.json",
+          "sha256": "90027330fd5cd3ff51bb0abdac740b46176f661620e20b85b24c8b99dd615268"
+        },
+        "pageid": 152422,
+        "parentid": 1088811,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 2204,
+          "path": "authority/mediawiki/worksheet10_exercise15_solution_revid1095883.wiki",
+          "sha256": "70eb92363467f4cbd2705d0a7676cce9ebfe38ad4498c9f9bf5b9f3fa6619390"
+        },
+        "revid": 1095883,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Differenzierbare Hyperfläche/Tangentialbündel/Implizite Realsierung/Aufgabe/Lösung",
+        "source_utf8_bytes": 2203,
+        "source_utf8_sha256": "d01cdc84862aa6c562b2096dd21ee72bb4f5f6bd7da80355dc8bfaeb3bc2df05",
+        "task_title": "Differenzierbare Hyperfläche/Tangentialbündel/Implizite Realsierung/Aufgabe",
+        "timestamp": "2026-06-15T07:15:54Z"
+      },
+      {
+        "exercise_index": 16,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Eingebettete Mannigfaltigkeit/Inverse Karte/Tangentialbündel/Partielle Ableitung/Aufgabe/Lösung",
+        "task_title": "Eingebettete Mannigfaltigkeit/Inverse Karte/Tangentialbündel/Partielle Ableitung/Aufgabe"
+      },
+      {
+        "exercise_index": 17,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Tangentialabbildung/Stetig/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Tangentialabbildung/Stetig/Aufgabe"
+      },
+      {
+        "exercise_index": 18,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Tangentialabbildung/(x,y,z) nach (x^2y-3xz^3+y^2,x sin y -e^yz)/Aufgabe/Lösung",
+        "task_title": "Tangentialabbildung/(x,y,z) nach (x^2y-3xz^3+y^2,x sin y -e^yz)/Aufgabe"
+      },
+      {
+        "exercise_index": 19,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "S^1/Weg/Tangentialbündel/Basiskonvergenz/Beispiel/Aufgabe/Lösung",
+        "task_title": "S^1/Weg/Tangentialbündel/Basiskonvergenz/Beispiel/Aufgabe"
+      },
+      {
+        "exercise_index": 20,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "R^n/Untermannigfaltigkeit/Tangentialabbildung/Addition/Aufgabe/Lösung",
+        "task_title": "R^n/Untermannigfaltigkeit/Tangentialabbildung/Addition/Aufgabe"
+      },
+      {
+        "exercise_index": 21,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Einheitssphäre/Untermannigfaltigkeit/Tangentialabbildung/Aufgabe/Lösung",
+        "task_title": "Einheitssphäre/Untermannigfaltigkeit/Tangentialabbildung/Aufgabe"
+      },
+      {
+        "exercise_index": 22,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Abgeschlossene Untermannigfaltigkeit/Tangentialbündel/Abgeschlossen/Aufgabe/Lösung",
+        "task_title": "Abgeschlossene Untermannigfaltigkeit/Tangentialbündel/Abgeschlossen/Aufgabe"
+      },
+      {
+        "exercise_index": 23,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Differenzierbare Abbildung/Injektiv/Tangentialabbildung nicht injektiv/Beispiel/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Differenzierbare Abbildung/Injektiv/Tangentialabbildung nicht injektiv/Beispiel/Aufgabe"
+      },
+      {
+        "exercise_index": 24,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Differenzierbare Abbildung/Surjektiv/Tangentialabbildung nicht surjektiv/Beispiel/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Differenzierbare Abbildung/Surjektiv/Tangentialabbildung nicht surjektiv/Beispiel/Aufgabe"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 1825,
+          "path": "authority/mediawiki/worksheet10_exercise25_solution_revid1096699.utf8.b64",
+          "sha256": "98f1c69c072021e23544f61465f9e8e5a54906d29a251d0f2959fb0e68794ac2"
+        },
+        "exercise_index": 25,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 1612,
+          "http_date": "Sun, 23 Aug 2026 19:17:10 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Stetiges Vektorfeld/S^2/Nur eine Nullstelle/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 697,
+            "path": "authority/exports/worksheet10_exercise25_solution_latex_expand.json.request.json",
+            "sha256": "c9d20f4339499abd3209222074db27c60b19dafdf2b31b0c37929aeb0d1846aa"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 1805,
+            "path": "authority/exports/worksheet10_exercise25_solution_latex_expand.json",
+            "sha256": "f941500109cc2e3238a7c987d8e923815b0c96ddafda34a080b4fef103d6289f"
+          },
+          "retrieved_utc": "2026-08-23T19:17:10Z",
+          "sanitized_source": {
+            "bytes": 1317,
+            "path": "authority/expanded/worksheet10_exercise25_solution_source.de.tex",
+            "sha256": "3d4501800dc153183f9dbd86269956dc73a1787e5961b56004dc383dc3cc1617"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-10/worksheet10_exercise25_solution_sanitize.json",
+            "sha256": "32b41634fbb389bad7e66ffd4c4ccf50693a5a6631ac763b64e034dd88791812"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "64a726dc965e322b03e5eb0797f109cb45ab5125",
+        "metadata": {
+          "bytes": 1238,
+          "path": "authority/mediawiki/worksheet10_exercise25_solution_revid1096699.metadata.json",
+          "sha256": "a491125c47f516b1e19d9c3f52da83af58a9fd5decc55ef7f4cdf66841a2742f"
+        },
+        "pageid": 77727,
+        "parentid": 1095681,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 1368,
+          "path": "authority/mediawiki/worksheet10_exercise25_solution_revid1096699.wiki",
+          "sha256": "04f1d48f2078038596fa3307320d9277bca73f37e751ae68934bf9f33c78b24e"
+        },
+        "revid": 1096699,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Stetiges Vektorfeld/S^2/Nur eine Nullstelle/Aufgabe/Lösung",
+        "source_utf8_bytes": 1367,
+        "source_utf8_sha256": "25196779a177ebc5fe350f9bcdafb10f20516be109d4583188ce8a62c5c9811c",
+        "task_title": "Stetiges Vektorfeld/S^2/Nur eine Nullstelle/Aufgabe",
+        "timestamp": "2026-06-15T09:32:35Z"
+      },
+      {
+        "exercise_index": 26,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Sphäre/Drehbewegung/Vektorfeld/Aufgabe/Lösung",
+        "task_title": "Sphäre/Drehbewegung/Vektorfeld/Aufgabe"
+      },
+      {
+        "exercise_index": 27,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": "8 (3+3+2)",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Abgeschlossene Untermannigfaltigkeit/ux^m+vy^n ist 1/x-y-Projektion/Fasern/Aufgabe/Lösung",
+        "task_title": "Abgeschlossene Untermannigfaltigkeit/ux^m+vy^n ist 1/x-y-Projektion/Fasern/Aufgabe"
+      },
+      {
+        "exercise_index": 28,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": "10 (2+3+5)",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "R nach R^2/x nach (x^2,x^3)/Injektiv und Bild abgeschlossen/Keine Untermannigfaltigkeit/Aufgabe/Lösung",
+        "task_title": "R nach R^2/x nach (x^2,x^3)/Injektiv und Bild abgeschlossen/Keine Untermannigfaltigkeit/Aufgabe"
+      },
+      {
+        "exercise_index": 29,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Tangentialbündel/S^1/Trivial/Aufgabe/Lösung",
+        "task_title": "Tangentialbündel/S^1/Trivial/Aufgabe"
+      },
+      {
+        "exercise_index": 30,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 5,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Tangentialbündel ist Mannigfaltigkeit/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Tangentialbündel ist Mannigfaltigkeit/Aufgabe"
+      },
+      {
+        "exercise_index": 31,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Differenzierbare Mannigfaltigkeit/Vektorfelder als Modul über Ring/Aufgabe/Lösung",
+        "task_title": "Differenzierbare Mannigfaltigkeit/Vektorfelder als Modul über Ring/Aufgabe"
+      }
+    ],
+    "graded_exercise_count": 5,
+    "macro_api_agreement": true,
+    "missing_solution_count": 27,
+    "point_value_total": 31,
+    "practice_exercise_count": 26,
+    "query": {
+      "bytes": 16437,
+      "path": "authority/mediawiki/unit10_solution_pages_current.json",
+      "sha256": "2f24536e68deaabecd4417b4bd1b02f87bc65a0c9ff599102a615ec6e343758d"
+    },
+    "query_request_receipt": {
+      "bytes": 3042,
+      "path": "authority/mediawiki/unit10_solution_pages_current.json.request.json",
+      "sha256": "62ec58669e0bee81506115579327bd0dc6610aa90a8be72f3e68f53b593cc038"
+    },
+    "query_retrieved_utc": "2026-08-23T19:15:50Z",
+    "schema_version": 1,
+    "supplied_solution_count": 4,
+    "supplied_solution_indices": [
+      9,
+      10,
+      15,
+      25
+    ],
+    "workflow": "o011-unit10-solution-freeze-v1",
+    "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 10"
+  },
+  "status": "pass",
+  "structure": {
+    "all_hint_fields_blank": true,
+    "lecture_section_count": 2,
+    "worksheet_exercise_count": 31,
+    "worksheet_graded_count": 5,
+    "worksheet_point_total": 31,
+    "worksheet_practice_count": 26,
+    "worksheet_section_count": 2,
+    "worksheet_solution_bearing_indices": [
+      9,
+      10,
+      15,
+      25
+    ]
+  },
+  "unit": 10,
+  "workflow": "o011-unit10-authority-preflight-v1"
+}

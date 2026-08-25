@@ -1,0 +1,918 @@
+\setcounter{section}{8}
+
+  \zwischenueberschrift{Teorema pemetaan implisit dan manifold}
+
+Permukaan bola satuan, yang dalam kuliah sebelumnya kita bahas sebagai contoh pemotivasi sebuah manifold, merupakan serat di atas $1$ dari pemetaan diferensiabel
+\maabbeledisp {} { \R^3 } { \R
+} { (x,y,z) } { x^2+y^2+z^2
+} {,}
+Pemetaan ini
+\definitionsverweis {reguler}{}{}
+kecuali di titik nol. Dalam situasi ini, teorema pemetaan implisit memberikan pernyataan yang luas tentang bentuk lokal serat suatu pemetaan
+\maabb {\varphi} {\R^n} { \R^m
+} {,}
+yakni bahwa secara lokal terdapat homeomorfisme antara serat di suatu titik reguler dan sebuah himpunan terbuka di $\R^k$, dengan $k$ selisih antara dimensi ruang asal dan dimensi ruang sasaran. Sebentar lagi akan kita lihat bahwa serat-serat semacam itu bukan hanya manifold topologis, melainkan juga manifold diferensiabel. Kita merumuskan teorema pemetaan implisit dalam suatu versi yang memperlihatkan bahwa serat-serat reguler merupakan manifold diferensiabel.
+
+
+
+\inputfaktbeweis
+{Satz über implizite Abbildungen/Globale Diffeomorphismen/Induzierte Diffeomorphismen zwischen Faser und Achsenräumen/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{}
+dan misalkan
+\maabbdisp {\varphi} { G } {\R^m
+} {}
+suatu
+\definitionsverweis {pemetaan terdiferensialkan secara kontinu}{}{.}
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Z
+}
+{ = }{ \varphi^{-1}(0)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dan misalkan $\varphi$
+\definitionsverweis {reguler}{}{}
+di setiap titik serat tersebut.}
+\faktfolgerung {Maka untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Z
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat suatu lingkungan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ W
+}
+{ \subseteq }{ G
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+himpunan-himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^{n- m}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ V'
+}
+{ \subseteq }{ \R^{ m }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+serta suatu
+$C^1$-\definitionsverweis {difeomorfisme}{}{}
+\maabbdisp {\theta} { W } { V \times V'
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi\!\mid_{W}
+}
+{ = }{ p_2 \circ \theta
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang menginduksi bijeksi antara
+\mathkor {} {Z \cap W} {dan} {V \times \{0\}} {}
+sedemikian sehingga
+\definitionsverweis {diferensial total}{}{}
+
+\mathl{\left(D\theta\right)_{Q}}{} untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+menginduksi bijeksi antara
+\mathkor {} {\ker  \left(D\varphi\right)_{ Q }} {dan} {\R^{n-m }} {}
+.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Pernyataan ini telah dibuktikan sekaligus dalam bukti
+teorema pemetaan implisit.
+Pernyataan tambahan diperoleh dari
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \ker  \left(D\varphi\right)_{Q}
+}
+{ \cong} { \ker  \left(Dp_2 \right)_{ \theta(Q)}
+}
+{ =} { \R^{n- m } \times \{0\} \cong \R^{n-m}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+Catatan edisi: Sumber mengidentifikasi kernel proyeksi kedua langsung dengan ruang berdimensi lebih rendah. Bentuk di atas menampilkan dahulu subruang yang sebenarnya, lalu isomorfisme kanonisnya.
+
+}
+
+Dari hasil ini, serat itu sendiri memperoleh struktur manifold. Dengan demikian, teorema pemetaan implisit menyediakan bagi kita suatu kelas manifold yang sangat besar. Manifold-manifold ini disebut \stichwort {submanifold tertutup} {,} yang segera akan kita bahas secara lebih sistematis setelah ruang singgung tersedia.
+
+
+
+\inputfaktbeweis
+{Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{}
+dan misalkan
+\maabbdisp {\varphi} { G } { \R^{ m }
+} {}
+suatu
+\definitionsverweis {pemetaan terdiferensialkan secara kontinu}{}{.}
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Z
+}
+{ = }{ \varphi^{-1}( Q)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan
+\definitionsverweis {serat}{}{}
+di atas suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ \R^{ m }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktvoraussetzung {Misalkan
+\definitionsverweis {diferensial total}{}{}
+
+\mathl{\left(D\varphi\right)_{ P }}{}
+\definitionsverweis {surjektif}{}{}
+untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Z
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Maka $Z$ merupakan
+\definitionsverweis {manifold diferensiabel}{}{}
+kelas $C^1$ dengan
+\definitionsverweis {dimensi}{}{}
+
+\mathl{n - { m }}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Dengan mengurangkan nilai serat dari pemetaan, kita dapat mereduksi ke kasus
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+.
+Catatan edisi: Sumber langsung menetapkan nilai serat sama dengan nol; kalimat sebelumnya menambahkan translasi kodomain yang diperlukan agar reduksi itu sah.
+Berdasarkan
+Teorema 8.1,
+untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Z
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat suatu lingkungan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ W
+}
+{ \subseteq }{ G
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan suatu
+$C^1$-\definitionsverweis {difeomorfisme}{}{}
+\maabbdisp {\theta} { W } { V \times V'
+} {}
+dengan himpunan-himpunan terbuka
+\mathkor {} {V \subseteq \R^{n - m }} {dan} {V' \subseteq \R^m} {}
+sedemikian sehingga $\theta$ menginduksi bijeksi antara
+\mathl{Z \cap W}{} dan
+
+\mavergleichskette
+{\vergleichskette
+{ V \times \{0\}
+}
+{ \cong }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+.
+Pembatasan difeomorfisme ini masing-masing pada
+\mathl{Z \cap W}{} dan $V$ kita ambil sebagai peta untuk $Z$.
+\teilbeweis {}{}{}
+{Untuk menunjukkan bahwa hal ini mendefinisikan struktur diferensiabel pada $Z$, misalkan diberikan lingkungan-lingkungan terbuka
+\zusatzklammer {di $\R^n$} {} {}
+\mathkor {} {W_1} {dan} {W_2} {}
+dari
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Z
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bersama difeomorfisme
+\maabbdisp {\theta_1} {W_1 } { V_1 \times V_1'
+} {} dan \maabbdisp {\theta_2} {W_2 } { V_2 \times V_2'
+} {.}
+Dengan beralih ke
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ = }{ W_1 \cap W_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kita dapat mengasumsikan bahwa kedua himpunan terbuka tersebut sama. Pemetaan transisi
+\mathl{\theta_2 \circ \theta_1^{-1}}{} merupakan difeomorfisme $C^1$ antara
+\zusatzklammer {himpunan-himpunan bagian terbuka dari} {} {}
+\mathkor {} {\theta_1(W)} {dan} {\theta_2(W)} {,}
+yang memetakan
+\mathl{\theta_1(W\cap Z)}{} ke
+\mathl{\theta_2(W\cap Z)}{}. Oleh karena itu, menurut
+Soal 52 (Analisis (Osnabrück 2021--2023)),
+pembatasan pemetaan transisi pada himpunan-himpunan bagian tersebut juga merupakan difeomorfisme $C^1$
+\zusatzklammer {antara himpunan-himpunan bagian terbuka di \mathlk{\R^{n - m }}{}} {} {.}}
+{}
+
+Catatan edisi: Sumber menyebut seluruh irisan sumbu pada kedua kodomain. Setelah lingkungan dipersempit menjadi irisan kedua lingkungan awal, domain yang tepat ialah kedua citra terbuka dari irisan tersebut sebagaimana ditulis di atas.
+
+}
+
+  \zwischenueberschrift{Pemetaan diferensiabel}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+\mathkor {} {L} {dan} {M} {}
+dua
+\definitionsverweis {manifold}{}{}
+$C^k$ dengan
+\definitionsverweis {atlas}{}{}
+\mathkor {} {(U_i,U_i', \alpha_i, i \in I)} {dan} {(V_j,V_j', \beta_j, j \in J)} {.}
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ 1
+}
+{ \leq }{ \ell
+}
+{ \leq }{ k
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Suatu
+\definitionsverweis {pemetaan kontinu}{}{}
+\maabbdisp {\varphi} { L } { M
+} {}
+disebut suatu $C^\ell$-\definitionswort {pemetaan diferensiabel}{,} jika untuk semua
+\mathkor {} {i \in I} {dan semua} {j \in J} {}
+pemetaan
+\maabbdisp {\beta_j \circ  \varphi \circ (\alpha_i)^{-1}} {\alpha_i( \varphi^{-1}(V_j) \cap U_i) } { V_j'
+} {}
+bersifat
+$C^\ell$-\definitionsverweis {diferensiabel}{}{.}
+
+}
+
+Karena
+\mathl{\alpha_i \left(  \varphi^{-1}(V_j) \cap U_i  \right)}{} terbuka, definisi ini mereduksi konsep diferensiabilitas bagi pemetaan antara manifold pada konsep diferensiabilitas bagi pemetaan antara himpunan-himpunan terbuka di ruang vektor real. Karena manifold $C^k$ dapat dipandang sebagai manifold $C^\ell$ untuk
+
+\mavergleichskette
+{\vergleichskette
+{ \ell
+}
+{ \leq }{ k
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+,
+pada dasarnya cukup membicarakan pemetaan $C^k$ antara manifold-manifold $C^k$. Kasus yang khususnya penting adalah
+\mathl{k=1,2, \infty}{.} Perhatikan bahwa untuk
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kita berbicara tentang pemetaan diferensiabel, meskipun
+\zusatzklammer {sejauh ini} {} {}
+belum ada suatu \anfuehrung{turunan}{.}
+
+
+
+\inputfaktbeweis
+{Differenzierbare Mannigfaltigkeit/Differenzierbare Abbildungen/Elementare funktorielle Eigenschaften/Fakt}
+{Proposisi}
+{}
+{
+
+\faktsituation {Misalkan
+\mathkor {} {L,M} {dan} {N} {}
+merupakan
+\definitionsverweis {manifold}{}{}
+$C^k$.}
+\faktuebergang {Maka berlaku pernyataan-pernyataan berikut.}
+\faktfolgerung {\aufzaehlungvier{\definitionsverweis {Identitas}{}{}
+\maabbdisp {\operatorname{Id} \,} { L } { L
+} {}
+merupakan
+\definitionsverweis {pemetaan}{}{}
+$C^k$.
+}{Setiap
+\definitionsverweis {pemetaan konstan}{}{}
+\maabbdisp {\varphi} { L } { M
+} {}
+merupakan
+\definitionsverweis {pemetaan}{}{}
+$C^k$.
+}{Untuk setiap
+\definitionsverweis {himpunan bagian terbuka}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {penyematan terbuka}{}{}
+\maabb {} { U } { L
+} {}
+merupakan
+\definitionsverweis {pemetaan}{}{}
+$C^k$.
+}{Misalkan
+\maabbdisp {\varphi} { L } { M
+} {}
+dan
+\maabbdisp {\psi} { M } { N
+} {}
+merupakan
+\definitionsverweis {pemetaan}{}{}
+$C^k$. Maka
+\definitionsverweis {komposisi}{}{}
+\maabbdisp {\psi \circ \varphi} { L } { N
+} {}
+juga merupakan
+\definitionsverweis {pemetaan}{}{}
+$C^k$.
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{(1). Pemetaan-pemetaan yang harus diperiksa tepatnya adalah pemetaan transisi
+\mathl{\alpha_j \circ \alpha_i^{-1}}{,} yang menurut definisi suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+$C^k$ merupakan
+\definitionsverweis {difeomorfisme}{}{}
+$C^k$.}
+{}
+\teilbeweis {}{}{}
+{(2). Dalam setiap peta, pemetaan yang harus diperiksa bersifat konstan, sehingga diferensiabel hingga sebarang orde.}
+{}
+\teilbeweis {}{}{}
+{(3). Pemetaan-pemetaan yang harus diperiksa untuk
+
+\mavergleichskette
+{\vergleichskette
+{ i,j
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sama dengan
+
+\mathdisp {\alpha_i \left(  U \cap U_i  \cap U_j  \right)  \subseteq  \alpha_i \left(  U_i  \cap U_j  \right) \stackrel{ \alpha_j \circ \alpha_i^{-1} }{  \longrightarrow} U'_j} { , }
+
+sehingga merupakan penyematan terbuka yang diikuti oleh pemetaan transisi diferensiabel.}
+{}
+\teilbeweis {}{}{}
+{(4). Misalkan
+\maabbdisp {\gamma_{  \ell }} {W_{  \ell }} {W'_{  \ell }
+} {}
+merupakan peta-peta untuk $N$. Maka, untuk semua kombinasi indeks yang mungkin, komposisi
+\zusatzklammer {yang dibatasi pada himpunan-himpunan bagian terbuka tertentu} {} {}
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \gamma_{  \ell } \circ (\psi  \circ \varphi) \circ \alpha_i^{-1}
+}
+{ =} { \gamma_{  \ell } \circ  \psi  \circ \beta_j^{-1} \circ \beta_j \circ \varphi \circ \alpha_i^{-1}
+}
+{ =} { \left(  \gamma_{  \ell } \circ \psi \circ \beta_j^{-1}  \right)  \circ \left(  \beta_j \circ \varphi \circ \alpha_i^{-1}  \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+bersifat
+\definitionsverweis {diferensiabel}{}{}
+menurut aturan rantai.
+Untuk
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ \geq }{ 2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kita menggunakan
+Soal 46.10 (Analisis (Osnabrück 2021--2023)).}
+{}
+
+}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+\mathkor {} {L} {dan} {M} {}
+dua
+\definitionsverweis {manifold}{}{}
+$C^k$. Suatu
+\definitionsverweis {homeomorfisme}{}{}
+\maabbdisp {\varphi} { L } { M
+} {}
+disebut
+\definitionswortpraemath {C^k}{ difeomorfisme }{,}
+jika
+\mathkor {} {\varphi} {dan} {\varphi^{-1}} {}
+keduanya merupakan
+\definitionsverweis {pemetaan}{}{}
+$C^k$.
+
+}
+
+\inputdefinition
+{}
+{
+
+Dua
+\definitionsverweis {manifold}{}{}
+$C^k$
+\mathkor {} {L} {dan} {M} {}
+disebut
+\definitionswortpraemath {C^k}{ difeomorfik }{,}
+jika terdapat suatu
+\definitionsverweis {difeomorfisme}{}{}
+$C^k$ di antara keduanya.
+
+}
+
+\inputbemerkung
+{}
+{
+
+Untuk suatu
+\definitionsverweis {manifold}{}{}
+$C^k$ $M$ dengan atlas $C^k$
+\mathl{\left(  U_i,U_i',\alpha_i, i \in I  \right)}{} terdapat suatu \stichwort {atlas maksimal} {,} yang kompatibel dengan struktur diferensiabel yang diberikan oleh atlas tersebut. Atlas ini terdiri atas himpunan semua
+\definitionsverweis {homeomorfisme}{}{}
+\maabbdisp {\beta} { U } { V
+} {}
+dengan himpunan-himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+yang mempunyai sifat bahwa pemetaan ini beserta inversnya merupakan
+\definitionsverweis {pemetaan}{}{}
+$C^k$
+\zusatzklammer {terhadap struktur yang diberikan oleh atlas tersebut} {} {.}
+Atlas maksimal ini tentu memuat atlas awal, tetapi secara umum jauh lebih besar. Sebagai contoh, untuk setiap peta
+\maabb {\beta} { U } { V
+} {}
+dan setiap himpunan bagian terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U'
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+atlas tersebut juga memuat pembatasan peta itu pada $U'$. Hal yang penting adalah bahwa pemetaan identitas
+\maabbdisp {\operatorname{Id}} {(M,A)} {(M,B)
+} {,}
+dengan $A$ menyatakan atlas awal dan $B$ atlas maksimal, merupakan
+\definitionsverweis {difeomorfisme}{}{}
+$C^k$ antara kedua manifold tersebut, sebagaimana langsung mengikuti dari definisi. Struktur diferensiabel pada manifold yang direpresentasikan oleh atlas lebih penting daripada atlas itu sendiri; struktur ini menentukan pemetaan mana yang diferensiabel dan pemetaan mana yang merupakan difeomorfisme. Peta-peta dalam atlas maksimal kadang-kadang juga disebut peta
+\zusatzklammer {yang diperumum} {} {}
+bagi manifold tersebut.
+
+Catatan edisi: Sumber hanya mensyaratkan regularitas pemetaan maju. Regularitas invers ditambahkan karena sebuah homeomorfisme yang diferensiabel belum tentu merupakan difeomorfisme dan belum tentu kompatibel dengan atlas awal.
+
+}
+
+  \zwischenueberschrift{Fungsi diferensiabel}
+
+Suatu
+\definitionsverweis {pemetaan diferensiabel}{}{}
+$C^k$
+\maabbdisp {f} {M} {\R
+} {}
+dari suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+ke bilangan real juga disebut \stichwort {fungsi diferensiabel} {} $C^k$. Menurut definisi, ini berarti bahwa untuk setiap peta
+\maabbdisp {\alpha} {U} {V
+} {}
+fungsi komposit
+\maabbdisp {f \circ \alpha^{-1}} {V} {\R
+} {}
+merupakan
+\definitionsverweis {fungsi}{}{}
+$C^k$. Himpunan semua fungsi $C^k$ pada $M$ dinotasikan dengan
+\mathl{C^k(M,\R)}{}.
+
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Differenzierbare Funktionen/Strukturelle Eigenschaften/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{} dan
+\maabbdisp {f,g} { M } {\R
+} {}
+merupakan
+\definitionsverweis {fungsi diferensiabel}{}{}
+pada $M$.}
+\faktuebergang {Maka berlaku pernyataan-pernyataan berikut.}
+\faktfolgerung {\aufzaehlungvier{Pemetaan
+\maabbeledisp {f \times g} { M } {\R^2
+} { x } {(f(x),g(x))
+} {,} bersifat diferensiabel.
+}{ $f+g$
+\definitionsverweis {diferensiabel}{}{.}
+}{ $f \cdot g$
+\definitionsverweis {diferensiabel}{}{.}
+}{Jika $f$ tidak mempunyai titik nol, maka
+\mathl{f^{-1}}{} juga diferensiabel.
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+ }
+{ Lihat Soal 8.3. }
+
+Secara khusus, fungsi-fungsi diferensiabel pada suatu manifold membentuk
+\definitionsverweis {gelanggang komutatif}{}{.}
+
+Jika
+\maabbdisp {\alpha} {U} {V
+} {}
+merupakan suatu peta dengan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka, maka setiap proyeksi $x_i$ menghasilkan suatu fungsi diferensiabel
+\maabbdisp {x_i \circ \alpha} {U} {\R
+} {,}
+yang biasanya kembali dinotasikan dengan $x_i$. Dalam hal ini dikatakan bahwa fungsi-fungsi
+\mathl{x_1 , \ldots , x_n}{} membentuk \stichwort {koordinat diferensiabel} {} untuk
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+.
+Bagi suatu fungsi yang terdiferensialkan secara kontinu
+\maabbdisp {f} {U} {\R
+} {}
+menurut definisi fungsi
+\maabbdisp {f \circ \alpha^{-1}} {V} {\R
+} {}
+\definitionsverweis {terdiferensialkan secara kontinu}{}{,}
+artinya, untuk setiap $i$ terdapat
+\definitionsverweis {turunan parsial}{}{}
+
+\mathdisp {{ \frac{   \partial  (f \circ \alpha^{-1})  }{  \partial   x_i  } }} { , }
+
+yang kembali merupakan fungsi
+\zusatzklammer {kontinu} {} {}
+pada $V$. Oleh karena itu,
+
+\mathdisp {{ \frac{   \partial  (f \circ \alpha^{-1})   }{  \partial   x_i  } }  \circ \alpha} {  }
+
+merupakan fungsi pada $U$. Fungsi ini secara umum kembali dinotasikan dengan
+\mathl{{ \frac{   \partial  f  }{  \partial   x_i  } }}{}.

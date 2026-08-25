@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-07/worksheet07_exercise13_solution.id.tex",
+  "input_bytes": 332,
+  "input_sha256": "b23f0e52a315ac6d47d1849f06d426e5e1815a244cc39c1c6ce741435ba20f37",
+  "output": "build/generated/worksheet07_exercise13_solution.id.build.tex",
+  "output_bytes": 372,
+  "output_sha256": "24adcb97573668d0cd6e0a698f6bf2b5f322b2fbe2e39722a0ca74fbe0a81807",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [],
+  "rendered_interactive_gif_links": [
+    {
+      "filename": "Aufgabe75.22.1.gif",
+      "label": "Konstruktion der Objekte",
+      "url": "https://commons.wikimedia.org/wiki/File:Aufgabe75.22.1.gif"
+    },
+    {
+      "filename": "Aufgabe75.22.2.gif",
+      "label": "Variation von S",
+      "url": "https://commons.wikimedia.org/wiki/File:Aufgabe75.22.2.gif"
+    }
+  ]
+}

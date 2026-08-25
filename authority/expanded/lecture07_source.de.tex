@@ -1,0 +1,999 @@
+\setcounter{section}{7}
+
+  \zwischenueberschrift{Das Konzept einer Mannigfaltigkeit}
+
+In der Differentialgeometrie steht der Begriff einer Mannigfaltigkeit im Mittelpunk. Als Beispiel betrachten wir die Erde
+\zusatzklammer {ihre Oberfläche} {} {,}
+die in der Wissenschaftsgeschichte lange für eine Scheibe gehalten wurde, und zwar aus gutem Grund. Sie sieht nämlich lokal aus wie eine Ebene. Dies spiegelt sich auch in den Karten wider, die man sich von ihr macht. Eine Karte ist ein ebenes \anfuehrung{Blatt}{,} dessen Punkte in Bijektion zu einem Ausschnitt der Erdoberfläche steht. Insbesondere bei kleinen Ausschnitten halten wir das für unproblematisch, bei Karten aber, die große Ausschnitte oder gar die gesamte Erde wiedergeben sollen, tauchen schnell Fragen auf, was die Karte richtig wiedergibt und was nicht, Fragen nach der Längentreue, Flächentreue, Winkeltreue, Fragen über fehlende Punkte oder mehrfach auftretende Punkte, Fortsetzungsfragen, Krümmungsfragen ...
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Stereographic_projection_in_3D} {png} }
+\end{center}
+\bildtext {Die stereographische Projektion, wenn man die Ebene nicht durch den Äquator, sondern durch den Südpol legt.} }
+
+\bildlizenz { Stereographic projection in 3D.png } {} {Mark.Howison} {en.Wikipedia} {PD} {}
+
+Wir besprechen zunächst die \stichwort {stereographische Projektion} {} der Kugeloberfläche.
+
+\inputbeispiel{
+}
+{
+
+Wir betrachten die Kugeloberfläche
+
+\mavergleichskettedisp
+{\vergleichskette
+{ K
+}
+{ =} { \left\{ (x,y,z)  \mid   x^2+y^2+z^2 = 1        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und nennen den Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ N
+}
+{ = }{ (0,0,1)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+Nordpol und den Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ S
+}
+{ = }{ (0,0,-1)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+Südpol. Ein Punkt
+
+\mathbed {P=(x,y,z) \in K} {}
+ {P \neq N} {}
+ {} {} {} {,}
+definiert zusammen mit dem Nordpol eine eindeutige Gerade im Raum, die durch
+
+\mathdisp {(tx,ty ,1+t(z-1))=(0,0,1)  + t ((x,y,z) -(0,0,1)), \, t \in \R} { , }
+
+parametrisiert ist. Der Vektor
+\mathl{(x,y,z) -(0,0,1)}{,} der diese Gerade definiert, ist nicht parallel zur $x-y$-Ebene, d.h. dass es genau einen Schnittpunkt dieser Geraden mit dieser Ebene gibt. Dieser ergibt sich zum Parameter
+
+\mavergleichskettedisp
+{\vergleichskette
+{ t
+}
+{ =} { { \frac{   1  }{  1-z } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+es handelt sich um den Punkt
+
+\mathdisp {\left(  { \frac{   x  }{  1-z } }, { \frac{   y  }{  1-z } } ,0  \right)} { . }
+
+Wir fassen diese Konstruktion als eine Abbildung
+\maabbeledisp {\alpha} {K \setminus \{N\}} { \R^2
+} {(x,y,z)} { \left(  { \frac{   x  }{  1-z } }, { \frac{   y  }{  1-z } }  \right)
+} {}
+auf. Es ist anschaulich klar, dass diese Abbildung eine Bijektion ist, was sich auch einfach über die Formeln nachrechnen lässt. Die Umkehrabbildung ergibt sich, indem man einen Punkt
+\mathl{(u,v,0)}{} der Ebene mit dem Nordpol verbindet und den Durchstoßungspunkt $\neq N$  mit der Kugeloberfläche berechnet. Dies führt zur Bedingung
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \Vert {(0,0,1) +a((u,v,0) - (0,0,1) ) } \Vert^2
+}
+{ =} { \Vert {(au,av,1-a) } \Vert^2
+}
+{ =} { a^2u^2+a^2v^2+(1-a)^2
+}
+{ =} { 1
+}
+{ } {
+}
+}
+{}
+{}{,}
+was auf
+
+\mavergleichskettedisp
+{\vergleichskette
+{ a \left(  au^2+av^2 -2 +a  \right)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+führt. Die Lösung
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+entspricht dem Nordpol, an der wir nicht interessiert sind, sodass wir auf
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ = }{ { \frac{   2  }{ u^2+v^2+1 } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+geführt werden, also auf die Abbildung
+\maabbeledisp {} { \R^2 } { K \setminus \{N\}
+} { (u,v) } { \left(  { \frac{   2u }{ u^2+v^2+1 } }, { \frac{   2v }{ u^2+v^2+1 } } ,1- { \frac{   2  }{ u^2+v^2+1 } }  \right)
+} {.}
+Insbesondere ist also die reelle Ebene
+\definitionsverweis {homöomorph}{}{}
+zur in einem Punkt \anfuehrung{gelochten}{} Kugeloberfläche.
+
+Eine entsprechende Überlegung kann man für
+\mathl{K \setminus \{S\}}{} anstellen. Dies führt zur Abbildung
+\maabbeledisp {\beta} { K \setminus \{S\} } { \R^2
+} { (x,y,z) } { \left(  { \frac{   x  }{ z+1 } }, { \frac{   y  }{ z+1 } }  \right)
+} {}
+mit der Umkehrabbildung
+\maabbeledisp {} { \R^2 } { K \setminus \{S\}
+} { (s,t) } { \left(  { \frac{   2s }{ s^2+t^2+1 } }, { \frac{   2t }{ s^2+t^2+1 } }, -1+ { \frac{   2  }{ s^2+t^2+1 } }  \right)
+} {.}
+Der Südpol entspricht bei der ersten Abbildung dem Mittelpunkt der euklidischen Ebene und der Nordpol entspricht bei der zweiten Abbildung dem Mittelpunkt der euklidischen Ebene. Wir nennen beide Abbildungen bzw. ihre Umkehrabbildungen Karten. Beide Karten decken zusammen die gesamte Kugeloberfläche ab. Da es sich um Homöomorphismen handelt, geben sie die wesentlichen topologischen Eigenschaften der Sphäre richtig wieder. Sie sind beide nicht für die Geographie der Erde gut geeignet, da die Karten die gesamte Ebene benötigen und die Längen sehr stark verzerren.
+
+Beide Karten sind gleich gut. Es ist einfach, Punkte
+\zusatzklammer {und allgemeiner andere Figuren} {} {}
+auf der einen Karte in die andere Karte umzurechnen. Man muss dabei allerdings beachten, dass die beiden Pole nur in einer Karte vertreten sind. Die Punkte der Menge
+\mathl{K \setminus \{N,S\}}{} finden sich auf beiden Karten, und zwar stehen sie durch beide Karten in Bijektion zu der im Mittelpunkt gelochten Ebene
+\mathl{\R^2 \setminus \{0\}}{.} Die \stichwort {Übergangsabbildung} {}
+\zusatzklammer {oder der \stichwort {Kartenwechsel} {}} {} {}
+wird durch
+
+\mavergleichskette
+{\vergleichskette
+{ \psi
+}
+{ = }{ \beta \circ \left(  \alpha^{-1}\!\mid_{\R^2 \setminus \{0\} }  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegeben. Dabei ist
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \psi(u,v)
+}
+{ =} { \beta \left(  { \frac{   2u }{ u^2+v^2+1 } }, { \frac{   2v }{ u^2+v^2+1 } } ,1- { \frac{   2  }{ u^2+v^2+1 } }  \right)
+}
+{ =} { \left(  { \frac{   { \frac{   2u }{ u^2+v^2+1 } }  }{  2 - { \frac{   2  }{ u^2+v^2+1 } }  } } , { \frac{   { \frac{   2v }{ u^2+v^2+1 } }  }{  2 - { \frac{   2  }{ u^2+v^2+1 } }  } }  \right)
+}
+{ =} { \left(  { \frac{   { \frac{   u  }{ u^2+v^2+1 } }  }{  { \frac{  (u^2+v^2+1) -1 }{ u^2+v^2+1 } }  } } , { \frac{   { \frac{   v  }{ u^2+v^2+1 } }  }{  { \frac{  (u^2+v^2+1) -1 }{ u^2+v^2+1 } }  } }  \right)
+}
+{ =} { \left(  { \frac{   u  }{ u^2+v^2  } } , { \frac{   v  }{ u^2+v^2 } }  \right)
+}
+}
+{}
+{}{.}
+Diese Übergangsabbildung induziert nicht nur einen Homöomorphismus zwischen
+\mathl{\R^2 \setminus \{0\}}{} mit
+\mathl{\R^2 \setminus \{0\}}{\zusatzfussnote {Es empfiehlt sich hier nicht, \anfuehrung{mit sich}{} zu sagen, da man sich die beiden Kartenebenen als unabhängig voneinander vorstellen sollte. Die Beziehung zwischen ihnen entsteht allein dadurch, dass sie beide die gleiche Kugeloberfläche beschreiben} {.} {,}}
+was unmittelbar daraus folgt, dass die Kartenabbildungen
+\mathkor {} {\alpha} {und} {\beta} {}
+Homöomorphismen sind, sondern sogar einen
+\definitionsverweis {Diffeomorphismus}{}{.}
+Dies ist direkt aus der Funktionsvorschrift ablesbar; es macht aber keinen Sinn zu sagen, dass die Kartenabbildungen Diffeomorphismen sind, da ja die Kugeloberfläche keine offene Teilmenge im $\R^3$ ist. Was bisher fehlt ist eine \anfuehrung{differenzierbare Struktur}{} auf dieser Oberfläche, um von diffeomorph sprechen zu können.
+
+}
+
+Eine \stichwort {Mannigfaltigkeit} {} ist ein geometrisches Gebilde, das \anfuehrung{lokal}{} so aussieht wie der euklidische Raum $\R^n$. Dabei setzen wir dieses geometrische Gebilde als einen
+\definitionsverweis {topologischen Raum}{}{}
+an, und lokal wird dadurch präzisiert, dass es eine Überdeckung aus offenen Mengen gibt, die homöomorph zu offenen Teilmengen des $\R^n$ sind. Obwohl wir im Folgenden mit topologischen Räumen arbeiten sei erwähnt, dass sich der Vorstellungsgehalt des Folgenden nicht verringert, wenn man bei einem topologischen Raum einfach an einen metrischen Raum denkt.
+
+  \zwischenueberschrift{Differenzierbare Mannigfaltigkeiten}
+
+\inputdefinition
+{}
+{
+
+Ein
+\definitionsverweis {topologischer}{}{}
+\definitionsverweis {Hausdorffraum}{}{}
+$M$ heißt eine \definitionswort {topologische Mannigfaltigkeit}{} der \definitionswort {Dimension}{} $n$, wenn es eine
+\definitionsverweis {offene Überdeckung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{  \bigcup_{i \in I} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+derart gibt, dass jedes $U_i$
+\definitionsverweis {homöomorph}{}{}
+zu einer
+\definitionsverweis {offenen Teilmenge}{}{}
+des $\R^n$ ist.
+
+}
+
+Zu jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt es also eine offene Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ U
+}
+{ \subseteq }{ M
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+die homöomorph zu einer offenen Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist. Sei
+\maabbdisp {\varphi} {U} {V
+} {}
+eine Homöomorphie und sei
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ = }{ \varphi(P)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann entspricht einer offenen Ballumgebung
+
+\mavergleichskette
+{\vergleichskette
+{Q
+}
+{ \in }{ U \left(  Q, \epsilon  \right)
+}
+{ \subseteq }{ V
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine offene Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ U'
+}
+{ = }{  \varphi^{-1}(U \left(  Q, \epsilon  \right))
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ U'
+}
+{ \subseteq }{ U
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+die nach Konstruktion homöomorph zu einem offenen Ball ist. Man kann daher eine topologische Mannigfaltigkeit auch als einen topologischen Hausdorff-Raum charakterisieren, der \stichwort {lokal euklidisch} {} ist.
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {topologische Mannigfaltigkeit}{}{.}
+Dann nennt man jede
+\definitionsverweis {Homöomorphie}{}{}
+\maabbdisp {\varphi} { U } { V
+} {,}
+wobei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+sind, eine
+\zusatzklammer {topologische} {} {}
+\definitionswort {Karte}{} für $M$.
+
+}
+
+Dabei nennt man die offene Menge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+manchmal das \stichwort {Kartengebiet} {} und
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das \stichwort {Kartenbild} {.} Zu einer Karte
+\maabbdisp {\varphi} {U} {V
+} {}
+und einer offenen Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ U'
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist auch die induzierte Abbildung
+\maabbdisp {\varphi \vert_{U'}} {U'} {\varphi(U')
+} {}
+eine Karte. Manchmal nennt man auch die Umkehrabbildung eine Karte. Statt Karte spricht man auch von einem \stichwort {lokalen Koordinatensystem} {.} Durch die Karte
+\maabb {\varphi} {U} {V
+} {}
+werden ja die Koordinaten auf
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+auf $U$ übertragen. Die $j$-te Koordinate
+\zusatzklammer {die $j$-te Projektion} {} {}
+\maabb {x_j} {V} {\R
+} {}
+induziert die
+\zusatzklammer {lokale Koordinaten} {} {-}Funktion
+\maabbdisp {x_j \circ \varphi} {U} {\R
+} {}
+\zusatzklammer {die oft einfach wieder mit $x_j$ bezeichnet wird} {} {,}
+und ein Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ = }{ \left(  x_1   , \,   , \ldots ,  , \,   x_n                 \right)
+}
+{ \in }{ V
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+entspricht einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ = }{\varphi^{-1}(Q)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Manifold_zahyou3} {png} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Manifold zahyou3.png } {} {１３２人目　} {ja. Wikipedia} {CC-by-sa 3.0} {}
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {topologische Mannigfaltigkeit}{}{,}
+es seien
+
+\mavergleichskette
+{\vergleichskette
+{  U_1, U_2
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offene Teilmengen}{}{}
+und
+\maabb {\alpha_1} { U_1 } { V_1
+} {} und \maabb {\alpha_2} { U_2 } { V_2
+} {}
+seien
+\definitionsverweis {Karten}{}{}
+\zusatzklammer {mit
+
+\mavergleichskettek
+{\vergleichskettek
+{  V_1,V_2
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen} {} {.}
+Dann heißt die
+\definitionsverweis {Abbildung}{}{}
+\maabbdisp {\alpha_2  \circ \alpha_1^{-1}} { \alpha_1(U_1 \cap U_2) } { \alpha_2(U_1 \cap U_2)
+} {} die \definitionswort {Übergangsabbildung}{} zu diesen Karten.
+
+}
+
+Der Durchschnitt
+\mathl{U_1 \cap U_2}{} ist die offene Teilmenge, auf der beide Karten definiert sind und worauf man die beiden Karten vergleichen kann. Genauer müsste man in der Definition von der Einschränkung von $\alpha_1^{-1}$ auf die offene Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha_1(U_1 \cap U_2)
+}
+{ \subseteq }{ V_1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sprechen.
+
+\inputdefinition
+{}
+{
+
+Es seien
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ \in }{ \overline{ \N }_+
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Ein
+\definitionsverweis {topologischer}{}{}
+\definitionsverweis {Hausdorffraum}{}{}
+$M$ zusammen mit einer
+\definitionsverweis {offenen Überdeckung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ \bigcup_{i \in I} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+\definitionsverweis {Karten}{}{}
+\maabbdisp {\alpha_i} {U_i } { V_i
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ V_i
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen derart, dass die
+\definitionsverweis {Übergangsabbildungen}{}{}
+\maabbdisp {\alpha_j \circ (\alpha_i)^{-1}} {V_i \cap \alpha_i(U_i \cap U_j) } { V_j \cap \alpha_j(U_i \cap U_j)
+} {}
+$C^k$-\definitionsverweis {Diffeomorphismen}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ i,j
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sind, heißt
+\definitionswortpraemath {C^k}{ Mannigfaltigkeit }{}
+oder \definitionswort {differenzierbare Mannigfaltigkeit}{}
+\zusatzklammer {der \definitionswort {Dimension}{} $n$ vom Differenzierbarkeitsgrad $k$} {} {.} Die Menge der Karten
+
+\mathbed {(U_i,\alpha_i)} {}
+ {i \in I} {}
+ {} {} {} {,}
+nennt man auch den
+\definitionswortpraemath {C^k}{ Atlas }{}
+der Mannigfaltigkeit.
+
+}
+
+Eine differenzierbare Mannigfaltigkeit ist insbesondere eine
+\definitionsverweis {topologische Mannigfaltigkeit}{}{.} Nach unserer Definition ist der Atlas ein integraler Bestandteil des Mannigfaltigkeitsbegriffs. Wichtiger als der Atlas ist aber die durch den Atlas definierte \stichwort {differenzierbare Struktur} {} auf der Mannigfaltigkeit. Dies wird deutlicher, wenn wir den Begriff der differenzierbaren Abbildung zwischen zwei Mannigfaltigkeiten zur Verfügung haben und von diffeomorphen Mannigfaltigkeiten sprechen können.
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{.}
+Eine
+\definitionsverweis {offene Teilmenge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+die mit den
+\definitionsverweis {eingeschränkten}{}{}
+\definitionsverweis {Karten}{}{}
+versehen ist, heißt \definitionswort {offene Untermannigfaltigkeit}{.}
+
+}
+
+\inputbeispiel{}
+{
+
+Jede offene Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist eine
+$C^\infty$-\definitionsverweis {Mannigfaltigkeit}{}{,}
+wenn man die
+\definitionsverweis {Identität}{}{}
+\maabb {\operatorname{Id}} { V } { V
+} {}
+als
+\definitionsverweis {Karte}{}{}
+nimmt. Die einzige
+\definitionsverweis {Übergangsabbildung}{}{}
+ist dann ebenfalls diese Identität, die ein $C^\infty$-\definitionsverweis {Diffeomorphismus}{}{}
+ist. Dies ist dann eine Mannigfaltigkeit mit einem
+\definitionsverweis {Atlas}{}{,}
+der aus einer einzigen Karte besteht. Man kann aber genauso gut den Atlas nehmen, der aus sämtlichen offenen Teilmengen
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und den zugehörigen identischen Karten $\varphi_U$ besteht. Die Übergangsabbildungen sind dann die Identitäten auf
+\mathl{U_1 \cap U_2}{.}
+
+}
+
+Wir haben schon früher im Kontext des Zwischenwertsatzes von
+\definitionsverweis {zusammenhängenden metrischen Räumen}{}{}
+gesprochen. Die gleiche Definition verwenden wir auch für topologische Räume.
+
+\inputdefinition
+{}
+{
+
+Ein
+\definitionsverweis {topologischer Raum}{}{}
+$X$ heißt \definitionswort {zusammenhängend}{,} wenn es in $X$ genau zwei Teilmengen gibt
+\zusatzklammer {nämlich $\emptyset$ und der Gesamtraum \mathlk{X \neq \emptyset}{}} {} {,}
+die sowohl
+\definitionsverweis {offen}{}{}
+als auch
+\definitionsverweis {abgeschlossen}{}{}
+sind.
+
+}
+
+Häufig interessiert man sich nur für zusammenhängende Mannigfaltigkeiten, vor allem deshalb, da man im nicht zusammenhängenden Fall die einzelnen \anfuehrung{Zusammenhangskomponenten}{} getrennt voneinander untersuchen kann. Wir besprechen kurz niedrigdimensionale Mannigfaltigkeiten.
+
+\inputbeispiel{}
+{
+
+Bei einer nulldimensionalen
+\definitionsverweis {Mannigfaltigkeit}{}{}
+$M$ gibt es für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine offene Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+die
+\definitionsverweis {homöomorph}{}{}
+zu einer offenen Menge des
+
+\mavergleichskette
+{\vergleichskette
+{ \R^0
+}
+{ = }{ \{0\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist. D.h. dass die einpunktige Menge
+\mathl{\{P\}}{} offen sein muss, und daher muss $M$ die
+\definitionsverweis {diskrete Topologie}{}{}
+tragen, d.h. jede Teilmenge ist offen. Daher ist die einzige
+\definitionsverweis {zusammenhängende}{}{}
+nulldimensionale Mannigfaltigkeit die einpunktige Menge.
+
+}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Circle_-_black_simple} {svg} }
+\end{center}
+\bildtext {Eine Kreislinie ist eine kompakte eindimensionale Mannigfaltigkeit} }
+
+\bildlizenz { Circle - black simple.svg } {} {Dakdada} {Commons} {PD} {}
+
+\inputbeispiel{}
+{
+
+An eindimensionalen
+\definitionsverweis {Mannigfaltigkeiten}{}{}
+gibt es zunächst die offenen Teilmengen des $\R^1$. Diese sind Vereinigungen von offenen Intervallen, und sie sind genau dann
+\definitionsverweis {zusammenhängend}{}{,}
+wenn sie ein offenes Intervall sind. Jedes offene, beschränkte oder unbeschränkte Intervall ist
+\definitionsverweis {homöomorph}{}{}
+und auch
+\definitionsverweis {diffeomorph}{}{}
+zum
+\definitionsverweis {offenen Einheitsintervall}{}{}
+
+\mathl{]0,1[}{} und zu den reellen Zahlen $\R$ selbst. Die abgschlossenen Intervalle
+
+\mathbed {[a,b]} {mit}
+ {a < b} {}
+ {} {} {} {}
+sind keine Mannigfaltigkeiten, da es für die Randpunkte
+\zusatzklammer {die Intervallgrenzen} {} {}
+keine offene Umgebung gibt, die homöomorph zu einem offenen Intervall ist
+\zusatzklammer {sie sind aber sogenannte \stichwort {Mannigfaltigkeiten mit Rand} {}} {} {.}
+
+Darüber hinaus gibt es noch den \stichwort {Kreis} {}
+\zusatzklammer {die \stichwort {Sphäre} {}} {} {}
+$S^1$ als weitere zusammenhängende eindimensionale Mannigfaltigkeit. Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ S^1
+}
+{ =} { \left\{ (x,y) \in \R^2  \mid   x^2+y^2 = 1         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ S^1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+\mathl{S^1 \setminus \{P \}}{} homöomorph zu $\R$
+\zusatzklammer {durch stereographische Projektion} {} {.}
+Der Kreis ist nicht homöomorph zu $\R$, da der Kreis
+\definitionsverweis {kompakt}{}{\zusatzfussnote {Allerdings haben wir den Kompaktheitsbegriff bisher nur für Teilmengen im $\R^n$ definiert; wir werden bald sehen, dass es sich um einen absoluten Begriff handelt, der nicht von der Einbettung abhängt. Man  kann also $\R$ nicht irgendwie in den $\R^n$ homöomorph einbetten, so dass das Bild kompakt ist} {.} {}}
+ist, die reellen Zahlen aber nicht. Neben
+\mathkor {} {S^1} {und} {\R} {}
+gibt es keine weiteren eindimensionalen zusammenhängenden Mannigfaltigkeiten mit
+\definitionsverweis {abzählbarer Basis der Topologie}{}{}
+\zusatzklammer {was hier ohne Beweis erwähnt sei} {} {.}
+
+}
+Ab der Dimension zwei ist es ohne starke zusätzliche Voraussetzungen nicht möglich, sich eine Übersicht über alle Mannigfaltigkeiten zu verschaffen.
+
+ [[Kategorie:Latexseite]]

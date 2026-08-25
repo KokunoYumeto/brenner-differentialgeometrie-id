@@ -50,6 +50,109 @@
           "attribution_id": "Ag2gaeh (karya sendiri)."
         }
       ]
+    },
+    "4": {
+      "media": []
+    },
+    "5": {
+      "media": [
+        {
+          "filename": "Minimal surface curvature planes-de.svg",
+          "attribution_id": "Eric Gaba (Sting); berdasarkan sebuah gambar dalam buku.",
+          "license_url_id": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ]
+    },
+    "6": {
+      "media": [
+        {
+          "filename": "Parallel transport sphere2.svg",
+          "attribution_id": "Silly rabbit di Wikipedia bahasa Inggris (karya sendiri).",
+          "license_url_id": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ]
+    },
+    "7": {
+      "media": [
+        {
+          "filename": "Stereographic projection in 3D.png",
+          "attribution_id": "Mark.Howison (karya sendiri; domain publik)."
+        },
+        {
+          "filename": "Manifold zahyou3.png",
+          "attribution_id": "１３２人目 di Wikipedia bahasa Jepang (karya sendiri).",
+          "attribution_id_tex": "132ninme di Wikipedia bahasa Jepang (karya sendiri; nama Unicode persis dicatat dalam manifes).",
+          "license_url_id": "https://creativecommons.org/licenses/by-sa/3.0/"
+        },
+        {
+          "filename": "Circle - black simple.svg",
+          "attribution_id": "Dakdada (karya sendiri; domain publik)."
+        }
+      ]
+    },
+    "8": {
+      "media": []
+    },
+    "9": {
+      "media": [
+        {
+          "filename": "Tangentialvektor.svg",
+          "attribution_id": "McSush (karya turunan dari Tangentialvektor.png oleh TN; domain publik).",
+          "rights_label_id": "domain publik"
+        }
+      ]
+    },
+    "10": {
+      "media": [
+        {
+          "filename": "Tangent bundle.svg",
+          "attribution_id": "Oleg Alexandrov (karya sendiri dengan Matlab dan Inkscape; domain publik).",
+          "rights_label_id": "domain publik",
+          "trim_whitespace": true
+        },
+        {
+          "filename": "Torus vectors oblique.jpg",
+          "attribution_id": "RokerHRO (karya sendiri).",
+          "rights_label_id": "CC BY-SA 3.0",
+          "license_url_id": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ]
+    },
+    "11": {
+      "media": [
+        {
+          "filename": "Toroidal coord.png",
+          "attribution_id": "DaveBurke (karya sendiri).",
+          "rights_label_id": "CC BY 2.5",
+          "license_url_id": "https://creativecommons.org/licenses/by/2.5/"
+        }
+      ]
+    },
+    "12": {
+      "media": [
+        {
+          "filename": "Fiddler crab mobius strip.gif",
+          "print_basename": "Fiddler_crab_mobius_strip",
+          "attribution_id": "Hamishtodd1 (karya sendiri).",
+          "rights_label_id": "CC BY-SA 4.0",
+          "license_url_id": "https://creativecommons.org/licenses/by-sa/4.0/"
+        },
+        {
+          "filename": "Inclusion-exclusion.svg",
+          "attribution_id": "Pembuat tidak diketahui; domain publik.",
+          "rights_label_id": "domain publik"
+        }
+      ]
+    },
+    "13": {
+      "media": [
+        {
+          "filename": "Möbius strip.jpg",
+          "attribution_id": "David Benbennick (karya sendiri).",
+          "rights_label_id": "CC BY-SA 3.0",
+          "license_url_id": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ]
     }
   }
 }

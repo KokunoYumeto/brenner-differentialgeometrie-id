@@ -1,0 +1,60 @@
+{
+  "assets": [
+    {
+      "alt_text_id": "Animasi yang memperlihatkan serat-serat fungsi torus pada Soal 11.10 untuk berbagai nilai s.",
+      "alt_text_source": "Animation zur Veranschaulichung der Fasern von Aufgabe 79.27.",
+      "attribution_required": true,
+      "bytes": 466679,
+      "commons_lastrevid": 1254892140,
+      "commons_pageid": 46160282,
+      "commons_touched": "2026-08-01T00:36:21Z",
+      "creator": "Präzise",
+      "creator_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Pr%C3%A4zise&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Präzise (page does not exist)\">Präzise</a>",
+      "filename": "Aufgabe79.27.gif",
+      "height": 650,
+      "image_timestamp": "2016-01-06T12:16:50Z",
+      "image_user": "Präzise",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "mime": "image/gif",
+      "role": "source-linked animation; retain as an interactive/downloadable surface",
+      "sha1": "07ea94680121ec4eb2e3d1cd18315469686ef5db",
+      "sha256": "337b29d868481d65b5ad460697ad18ef0d7bcce2695125453e3d88f34a2e9e5b",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Aufgabe79.27.gif",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Aufgabe79.27.gif",
+      "width": 650
+    }
+  ],
+  "description": "Source-linked animation surface preserved separately from static TeX media attribution.",
+  "download_receipt": {
+    "bytes": 466679,
+    "content_type": "image/gif",
+    "final_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Aufgabe79.27.gif",
+    "http_date": "Mon, 24 Aug 2026 02:14:29 GMT",
+    "retrieved_utc": "2026-08-24T02:14:29Z",
+    "schema_version": 1,
+    "sha1": "07ea94680121ec4eb2e3d1cd18315469686ef5db",
+    "sha256": "337b29d868481d65b5ad460697ad18ef0d7bcce2695125453e3d88f34a2e9e5b",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Aufgabe79.27.gif"
+  },
+  "query": {
+    "bytes": 2349,
+    "path": "authority/mediawiki/unit11_interactive_media_imageinfo_current.json",
+    "sha256": "2c21b9a841168a58e8ccfa156c6e4d802b4ac67aaff6cb58930ebd333c172cb3"
+  },
+  "query_request_receipt": {
+    "bytes": 657,
+    "path": "authority/mediawiki/unit11_interactive_media_imageinfo_current.json.request.json",
+    "sha256": "25891f54437f5fb11f974c0fe69879769eb1bdf3dd2c2879147c706db8a20dae"
+  },
+  "query_retrieved_utc": "2026-08-24T02:14:29Z",
+  "schema_version": 1,
+  "source_link_occurrences": 1,
+  "source_surface": {
+    "bytes": 618,
+    "path": "authority/expanded/worksheet11_exercise10_solution_source.de.tex",
+    "sha256": "ee29d4737ab74b19dd54635c9429f9db3df2b77b191626e70ded1d3cd3293515"
+  },
+  "surface": "worksheet11_exercise10_solution",
+  "unit": 11
+}

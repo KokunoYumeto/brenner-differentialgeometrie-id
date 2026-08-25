@@ -1,0 +1,1625 @@
+\setcounter{section}{9}
+
+  \zwischenueberschrift{Ruang singgung manifold diferensiabel}
+
+Untuk suatu himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ruang vektor real ambien $\R^n$ merepresentasikan himpunan semua arah yang mungkin di titik tersebut. Vektor
+
+\mavergleichskette
+{\vergleichskette
+{v
+}
+{ \in }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dapat diidentifikasi dengan lintasan
+\maabbeledisp {} {I} {V
+} {t} { P+t v
+} {,}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu interval real sedemikian sehingga citra pemetaan tersebut terletak di dalam $V$. Ruang vektor ini disebut \stichwort {ruang singgung} {} di titik $P$ pada $V$.
+
+Untuk serat suatu pemetaan diferensiabel
+\maabb {\varphi} {G} {\R^m
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{G
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka, di suatu titik reguler dalam arti submersif
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{G
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}, dengan $m\leq n$ dan diferensial total $(D\varphi)_P$ surjektif, kita telah mendefinisikan
+\definitionsverweis {ruang singgung}{}{}
+serat yang melalui $P$ sebagai kernel diferensial total
+\maabb {\left(D\varphi\right)_{P}} {\R^n } { \R^m
+} {}.
+Dengan demikian, ruang singgung merupakan subruang vektor
+\mathl{(n-m)}{-}dimensional dari ruang vektor ambien $\R^n$.
+
+Catatan edisi: Sumber hanya menyebut titik ber-rank maksimal, tetapi dimensi kernel $n-m$ memerlukan kasus submersif di atas. Jika $n<m$, rank maksimal berarti injektif dan dimensi kernel ialah nol, bukan $n-m$.
+
+Untuk konsep manifold abstrak kita, tidak ada ruang vektor ambien semacam itu yang menjadi tempat berlangsungnya segala sesuatu. Meskipun demikian, kita juga dapat mendefinisikan suatu ruang singgung di setiap titik suatu manifold. Ruang ini akan berupa ruang vektor
+\zusatzklammer {yang dimensinya sama dengan dimensi manifold tersebut} {} {,}
+dan bagi suatu pemetaan diferensiabel antara dua manifold, diferensial total di setiap titik akan berupa pemetaan linear antara ruang-ruang singgungnya.
+
+Jika untuk suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dari suatu manifold diferensiabel $M$ kita memilih suatu lingkungan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{ \subseteq }{ M
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan suatu peta
+\maabbdisp {\alpha} {U} {V
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ \R^k
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+maka wajar untuk memandang $\R^k$ ini sebagai ruang singgung. Memang, akan terdapat suatu isomorfisme semacam itu, tetapi sebagai definisi pendekatan ini tidak dapat digunakan karena bergantung pada peta yang dipilih. Sebagai gantinya, kita bekerja dengan kelas-kelas ekuivalensi kurva terdiferensialkan.
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Tangentialvektor} {svg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Tangentialvektor.svg } {} {TN} {de Wikipedia} {PD} {}
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu titik. Misalkan
+\maabbdisp {\gamma_1} {I_1 } { M
+} {}
+dan
+\maabbdisp {\gamma_2} {I_2 } { M
+} {}
+dua kurva yang didefinisikan pada
+\definitionsverweis {interval-interval terbuka}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I_1,I_2
+}
+{ \subseteq }{ \R
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+\definitionsverweis {terdiferensialkan}{}{}
+, dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma_1(0)
+}
+{ = }{ P
+}
+{ = }{ \gamma_2(0)
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Kurva
+\mathkor {} {\gamma_1} {dan} {\gamma_2} {}
+disebut
+\definitionswort {ekuivalen secara tangensial }{} di $P$ jika terdapat suatu lingkungan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan suatu
+\definitionsverweis {peta}{}{}
+\maabbdisp {\alpha} { U } { V
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sedemikian sehingga berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \alpha \circ \left(  \gamma_1  \vert_{\gamma_1^{-1} (U)}  \right)  \right)'(0)
+}
+{ =} { \left(  \alpha \circ \left(  \gamma_2  \vert_{\gamma_2^{-1} (U)}  \right)  \right)'(0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+.
+
+}
+
+Kita memerlukan beberapa lema sederhana untuk menunjukkan bahwa konsep ini bermakna.
+
+
+\inputfaktbeweis
+{Differenzierbare Mannigfaltigkeit/Differenzierbare Kurve/Tangential äquivalent/Beliebige offene Umgebung/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu titik. Misalkan
+\maabbdisp {\gamma_1} {I_1 } { M
+} {}
+dan
+\maabbdisp {\gamma_2} {I_2 } { M
+} {}
+dua kurva yang didefinisikan pada
+\definitionsverweis {interval-interval terbuka}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I_1,I_2
+}
+{ \subseteq }{ \R
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+\definitionsverweis {terdiferensialkan}{}{}
+, dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma_1(0)
+}
+{ = }{ P
+}
+{ = }{ \gamma_2(0)
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Maka
+\mathkor {} {\gamma_1} {dan} {\gamma_2} {}
+\definitionsverweis {ekuivalen secara tangensial}{}{}
+di $P$ jika dan hanya jika untuk setiap
+\definitionsverweis {peta}{}{}
+\maabbdisp {\alpha} { U } { V
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku kesamaan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \alpha \circ \left(  \gamma_1  \vert_{\gamma_1^{-1} (U)}  \right)  \right)'(0)
+}
+{ =} { \left(  \alpha \circ \left(  \gamma_2  \vert_{\gamma_2^{-1} (U)}  \right)  \right)'(0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Untuk suatu
+\definitionsverweis {kurva terdiferensialkan}{}{}
+\maabbdisp {\gamma} { I } { M
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(0)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+serta suatu
+\definitionsverweis {peta}{}{}
+\maabbdisp {\alpha} { U } { V
+} {}
+\zusatzklammer {dengan
+
+\mavergleichskettek
+{\vergleichskettek
+{P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+nilai ungkapan
+
+\mathdisp {\left(  \alpha \circ \left(  \gamma \vert_{\gamma^{-1} (U)}  \right)  \right)'(0)} {  }
+
+tidak berubah apabila kita beralih ke interval terbuka yang lebih kecil
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I'
+}
+{ \subseteq }{ I
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan himpunan terbuka yang lebih kecil
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ U'
+}
+{ \subseteq }{ U
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {dengan peta terinduksi} {} {.}
+Kita dengan demikian dapat mengasumsikan bahwa
+\mathkor {} {\gamma_1} {dan} {\gamma_2} {}
+didefinisikan pada interval yang sama dan citranya terletak di $U$, serta bahwa untuk $U$ ini terdapat dua peta
+\maabbdisp {\alpha_1} { U } { V_1
+} {}
+dan
+\maabbdisp {\alpha_2} { U } { V_2
+} {}.
+Selanjutnya, dari
+
+\mavergleichskettedisp
+{\vergleichskette
+{ ( \alpha_1  \circ \gamma_1 )'(0)
+}
+{ =} { ( \alpha_1  \circ \gamma_2 )'(0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+menurut
+aturan rantai,
+dengan menggunakan diferensiabilitas
+\definitionsverweis {pemetaan transisi}{}{}
+
+\mathl{\alpha_2 \circ \alpha_1^{-1}}{}
+, langsung diperoleh
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \left(  \alpha_2 \circ \gamma_1  \right)'(0)
+}
+{ =} { \left(  \left(  \alpha_2 \circ \alpha_1^{-1}  \right) \circ \left(  \alpha_1 \circ \gamma_1  \right)  \right)'(0)
+}
+{ =} { \left(  D   \left(   \alpha_2 \circ \alpha_1^{-1}   \right)      \right)_{\alpha_1(P)} \left(   \left(  \alpha_1 \circ \gamma_1  \right)'(0)   \right)
+}
+{ =} { \left(  D   \left(   \alpha_2 \circ \alpha_1^{-1}   \right)      \right)_{\alpha_1(P)} \left(   \left(  \alpha_1 \circ \gamma_2  \right)'(0)   \right)
+}
+{ =} { \left(  \alpha_2 \circ \gamma_2  \right)'(0)
+}
+}
+{}
+{}{.}
+
+}
+
+
+
+\inputfaktbeweis
+{Differenzierbare Mannigfaltigkeit/Differenzierbare Kurve/Tangential äquivalent/Äquivalenzrelation/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu titik.}
+\faktfolgerung {Maka
+\definitionsverweis {ekuivalensi tangensial}{}{}
+dari
+\definitionsverweis {kurva-kurva terdiferensialkan}{}{}
+yang melalui $P$ merupakan suatu
+\definitionsverweis {relasi ekuivalensi}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Refleksivitas dan simetri relasi tersebut langsung jelas. Untuk membuktikan transitivitas, misalkan diberikan tiga
+\definitionsverweis {kurva terdiferensialkan}{}{}
+\maabbdisp {\gamma_1,\gamma_2, \gamma_3} { I } { M
+} {}
+,
+dan kita dapat langsung mengasumsikan bahwa ketiganya didefinisikan pada
+\definitionsverweis {interval terbuka}{}{}
+yang sama
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I
+}
+{ \subseteq }{\R
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+.
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ U_1,U_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+himpunan-himpunan terbuka yang dapat digunakan untuk membuktikan ekuivalensi tangensial antara
+\mathkor {} {\gamma_1} {dan} {\gamma_2} {}
+serta antara
+\mathkor {} {\gamma_2} {dan} {\gamma_3} {}
+,
+secara berurutan. Maka, menurut
+Lema 9.2,
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ = }{ U_1 \cap U_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kita dapat membuktikan ekuivalensi tangensial antara
+\mathkor {} {\gamma_1} {dan} {\gamma_3} {}
+.
+
+}
+
+Berdasarkan lema ini, definisi berikut bermakna.
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu titik. Yang dimaksud dengan \definitionswort {vektor singgung}{} di $P$ adalah suatu
+\definitionsverweis {kelas ekuivalensi}{}{}
+dari
+\definitionsverweis {kurva-kurva terdiferensialkan}{}{}
+yang
+\definitionsverweis {ekuivalen secara tangensial}{}{}
+dan melalui $P$. Himpunan vektor-vektor singgung ini dinotasikan dengan
+
+\mathdisp {T_PM} {  }
+
+.
+
+}
+
+
+
+\inputfaktbeweis
+{Differenzierbare Mannigfaltigkeit/Differenzierbare Kurve/Tangentialklassen und R^n unter Karte/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+($C^1$)-\definitionsverweis {manifold diferensiabel}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu titik,
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{U
+}
+{ \subseteq }{M
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{}
+dan
+\maabbdisp {\alpha} {U} {V
+} {}
+suatu
+\definitionsverweis {peta}{}{.}
+
+Catatan edisi: Sumber menulis $U=M$, yang tanpa sengaja mensyaratkan peta global. Yang diperlukan hanyalah domain peta terbuka $U\subseteq M$ yang memuat $P$.}
+\faktuebergang {Maka berlaku pernyataan-pernyataan berikut.}
+\faktfolgerung {\aufzaehlungzwei {\definitionsverweis {Pemetaan}{}{}
+\maabbeledisp {} {T_PM } { \R^n
+} { [\gamma] } { \left(  \alpha \circ \gamma \vert_{\gamma^{-1}(U)}  \right)'(0)
+} {,}
+merupakan suatu
+\definitionsverweis {bijeksi}{}{}
+yang terdefinisi dengan baik.
+} {Pada
+\mathl{T_PM}{},
+\definitionsverweis {struktur ruang vektor}{}{}
+yang didefinisikan melalui pemetaan ini tidak bergantung pada peta yang dipilih.
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{(1). Bahwa pemetaan tersebut terdefinisi dengan baik jelas berdasarkan
+Lema 9.2.
+\definitionsverweis {Injektivitas}{}{}
+langsung mengikuti dari
+Definisi 9.1.
+Untuk
+\definitionsverweis {surjektivitas}{}{,}
+misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Kita meninjau
+\definitionsverweis {kurva afin-linear}{}{}
+\maabbeledisp {\theta} { \R } { \R^n
+} { t } { \theta(t) =  \alpha(P) + t v
+} {,}
+yang
+\definitionsverweis {turunannya}{}{}
+di $0$ tepat sama dengan $v$. Kita membatasi kurva ini pada suatu interval
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I
+}
+{ \subseteq }{ \R
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sedemikian sehingga
+
+\mavergleichskette
+{\vergleichskette
+{ \theta(I)
+}
+{ \subseteq }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan meninjau
+\maabbdisp {\gamma = \alpha^{-1} \circ \theta} { I } { M
+} {.}
+Untuk kurva ini berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma(0)
+}
+{ =} { \left(  \alpha^{-1} \circ \theta  \right) (0)
+}
+{ =} { \alpha^{-1} (\theta(0))
+}
+{ =} { \alpha^{-1} (\alpha(P))
+}
+{ =} { P
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \alpha \circ \gamma  \right)'(0)
+}
+{ =} { \left(  \alpha \circ \left(  \alpha^{-1} \circ \theta  \right)  \right)'(0)
+}
+{ =} { \theta'(0)
+}
+{ =} { v
+}
+{ } {
+}
+}
+{}{}{.}}
+{}
+\teilbeweis {}{}{}
+{(2). Dengan beralih ke himpunan-himpunan terbuka yang lebih kecil, kita dapat mengasumsikan bahwa terdapat dua peta
+\maabbdisp {\alpha_1} { U } { V_1
+} {}
+dan
+\maabbdisp {\alpha_2} { U } { V_2
+} {}
+.
+\definitionsverweis {Pemetaan transisi}{}{}
+\maabbdisp {\alpha_2 \circ \alpha_1^{-1}} { V_1 } { V_2
+} {}
+merupakan suatu
+$C^1$-\definitionsverweis {difeomorfisme}{}{}
+dan menurut
+aturan rantai,
+untuk
+\definitionsverweis {diferensial total}{}{}
+pemetaan tersebut di
+\mathl{\alpha_1(P)}{}
+berlaku hubungan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  D(\alpha_2 \circ \alpha_1^{-1})  \right)_{\alpha_1(P)} \left(   (\alpha_1 \circ \gamma)'(0)   \right)
+}
+{ =} { (\alpha_2 \circ \gamma)'(0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Ini berarti bahwa diagram
+
+\mathdisp {\begin{matrix}T_PM  & \stackrel{  }{\longrightarrow} & \R^n   & \\ &  \searrow & \downarrow & \\ & & \R^n   & \!\!\!\!\! \!\!\! , \\ \end{matrix}} {  }
+
+komutatif, dengan diferensial total dari
+\mathl{\alpha_2 \circ \alpha_1^{-1}}{}
+sebagai pemetaan vertikal. Karena diferensial total tersebut merupakan suatu
+\definitionsverweis {pemetaan linear}{}{}
+yang bijektif dalam situasi ini, tidak ada perbedaan apakah penjumlahan dan perkalian skalar pada
+\mathl{T_PM}{}
+didefinisikan dengan mengacu pada pemetaan horizontal atas atau bawah.}
+{}
+
+}
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu titik. Yang dimaksud dengan \definitionswort {ruang singgung}{} di $P$, ditulis
+\mathl{T_PM}{,} adalah himpunan
+\definitionsverweis {vektor-vektor singgung}{}{}
+di $P$ yang dilengkapi dengan
+\definitionsverweis {struktur ruang vektor}{}{}
+real yang diberikan oleh sebarang
+\definitionsverweis {peta}{}{.}
+
+}
+
+Dimensi ruang singgung sama dengan dimensi manifold. Setiap peta menginduksi suatu isomorfisme antara
+\mathl{T_P M}{} dan $\R^n$, tetapi isomorfisme-isomorfisme ini bergantung pada peta yang dipilih. Secara khusus, tidak terdapat basis standar pada ruang singgung.
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu titik. \definitionsverweis {Ruang dual}{}{}
+dari
+\definitionsverweis {ruang singgung}{}{}
+
+\mathl{T_PM}{} di $P$ disebut \definitionswort {ruang kotangen}{} di $P$. Ruang ini dinotasikan dengan
+\mathdisp {T^*_PM} {  }
+.
+
+}
+
+
+\inputfaktbeweis
+{Differenzierbare Mannigfaltigkeiten/Differenzierbare Abbildung/Tangential äquivalent/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan
+\mathkor {} {M} {dan} {N} {}
+\definitionsverweis {manifold-manifold diferensiabel}{}{}
+dan misalkan
+\maabbdisp {\varphi} { M } { N
+} {}
+suatu
+\definitionsverweis {pemetaan diferensiabel}{}{.}
+Misalkan
+\mathkor {} {P \in M} {dan} {Q=\varphi(P)} {}
+serta misalkan
+\maabbdisp {\gamma_1,\gamma_2} { I } { M
+} {}
+dua
+\definitionsverweis {kurva terdiferensialkan}{}{}
+yang didefinisikan pada suatu interval terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma_1 (0)
+}
+{ = }{ \gamma_2(0)
+}
+{ = }{ P
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktvoraussetzung {Misalkan
+\mathkor {} {\gamma_1} {dan} {\gamma_2} {}
+\definitionsverweis {ekuivalen secara tangensial}{}{}
+di titik $P$.}
+\faktfolgerung {Maka
+\definitionsverweis {komposisi}{}{}
+\mathkor {} {\varphi \circ \gamma_1} {dan} {\varphi \circ \gamma_2} {}
+juga ekuivalen secara tangensial di $Q$.}
+\faktzusatz {}
+\faktzusatz {}
+
+ }
+{ Lihat Soal 9.3. }
+
+Berdasarkan lema ini, konsep berikut terdefinisi dengan baik.
+
+\inputdefinition
+{}
+{
+
+Misalkan
+\mathkor {} {M} {dan} {N} {}
+\definitionsverweis {manifold-manifold diferensiabel}{}{}
+dan misalkan
+\maabbdisp {\varphi} { M } { N
+} {}
+suatu
+\definitionsverweis {pemetaan diferensiabel}{}{.}
+Misalkan
+\mathkor {} {P \in M} {dan} {Q=\varphi(P)} {.}
+Pemetaan
+\maabbeledisp {} {T_PM} {T_{\varphi(P)}N
+} { [\gamma] } { [\varphi \circ \gamma]
+} {,}
+disebut \definitionswort {pemetaan singgung di titik}{} $P$ yang bersesuaian. Pemetaan ini dinotasikan dengan
+\mathl{T_P(\varphi)}{}.
+
+}
+
+
+
+\inputfaktbeweis
+{Tangentialabbildung/Punktweise/Elementare Eigenschaften/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan
+\mathkor {} {M} {dan} {N} {}
+\definitionsverweis {manifold-manifold diferensiabel}{}{}
+dan misalkan
+\maabbdisp {\varphi} { M } { N
+} {}
+suatu
+\definitionsverweis {pemetaan diferensiabel}{}{.}
+Misalkan
+\mathkor {} {P \in M} {,} {Q=\varphi(P)} {}
+dan misalkan
+\maabbdisp {T_P(\varphi)} {T_PM} {T_QN
+} {}
+\definitionsverweis {pemetaan singgung}{}{}
+yang terkait.}
+\faktuebergang {Maka berlaku pernyataan-pernyataan berikut.}
+\faktfolgerung {\aufzaehlungsechs{Jika
+\mathkor {} {M \subseteq \R^m} {dan} {N \subseteq \R^n} {}
+merupakan
+\definitionsverweis {himpunan-himpunan bagian terbuka}{}{}
+dan ruang-ruang singgung diidentifikasi dengan ruang-ruang Euklides ambien, maka pemetaan singgung sama dengan
+\definitionsverweis {diferensial total}{}{}
+
+\mathl{\left(D\varphi\right)_{P}}{.}
+}{Jika
+\maabbdisp {\alpha} { U } { V
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+serta
+\maabbdisp {\beta} {U'} {W
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{Q
+}
+{ \in }{ U'
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan
+\definitionsverweis {peta-peta}{}{,}
+maka diagram
+
+\mathdisp {\begin{matrix} T_PM & \stackrel{ T_P(\varphi) }{\longrightarrow} & T_QN &  \\ \downarrow & & \downarrow  & \\  \R^m  & \stackrel{ \left(D \left(  \beta \circ \varphi \circ \alpha^{-1}  \right)  \right)_{ \alpha(P)} }{\longrightarrow} & \R^n  & \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }
+
+komutatif, dengan pemetaan-pemetaan vertikal diberikan oleh isomorfisme
+\mathl{[\gamma] \mapsto ( \alpha \circ \gamma)'(0)}{}
+dan
+\mathl{[\gamma] \mapsto ( \beta \circ \gamma)'(0)}{}
+,
+secara berurutan.
+}{
+\mathl{T_P(\varphi)}{}
+bersifat
+$\R$-\definitionsverweis {linear}{}{.}
+}{Jika $L$ suatu
+\definitionsverweis {manifold}{}{}
+lain,
+
+\mavergleichskette
+{\vergleichskette
+{R
+}
+{ \in }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+\maabbdisp {\psi} { L } { M
+} {}
+suatu pemetaan diferensiabel lain dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \psi(R)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+,
+maka berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T_R( \varphi \circ \psi)
+}
+{ =} { T_P( \varphi) \circ T_R( \psi)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Jika $\varphi$ suatu
+\definitionsverweis {difeomorfisme}{}{,}
+maka
+\mathl{T_P(\varphi)}{}
+merupakan suatu
+\definitionsverweis {isomorfisme}{}{.}
+}{Untuk suatu
+\definitionsverweis {kurva terdiferensialkan}{}{}
+\maabbdisp {\gamma} { I } { M
+} {}
+dengan suatu interval terbuka
+
+\mavergleichskette
+{\vergleichskette
+{I
+}
+{ \subseteq }{\R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(0)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+,
+di dalam ruang singgung
+\mathl{T_PM}{}
+berlaku kesamaan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ [\gamma]
+}
+{ =} { (T_0(\gamma))(1)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{(1). Setiap vektor singgung direpresentasikan oleh suatu lintasan afin-linear pada interval terbuka yang cukup kecil di sekitar nol agar citranya tetap berada di domain terbuka,
+\mathl{t \mapsto \gamma(t)=P +t v}{}
+dengan suatu vektor
+
+\mavergleichskette
+{\vergleichskette
+{v
+}
+{ \in }{\R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+sehingga kita dapat beralih bolak-balik antara vektor-vektor ini dan vektor-vektor singgung yang didefinisikannya. Untuk lintasan komposit
+\mathl{\varphi \circ \gamma}{}
+menurut
+aturan rantai
+berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (T_P\varphi )( [\gamma ] )
+}
+{ =} { [ \varphi \circ \gamma ]
+}
+{ =} { (\varphi \circ \gamma)'(0)
+}
+{ =} { (D \varphi)_P \left( \left(  D \gamma  \right)_{ 0 } \left(   1  \right) \right)
+}
+{ =} { \left(  D\varphi  \right)_{ P } \left(  v  \right)
+}
+}
+{}{}{.}}
+{}
+\teilbeweis {}{}{}
+{(2). Aturan rantai yang diterapkan pada
+\zusatzklammer {dengan $I$ dan $V$ harus diganti oleh himpunan-himpunan terbuka yang lebih kecil} {} {}
+
+\mathdisp {I \stackrel{ \alpha \circ \gamma}{ \longrightarrow} V \stackrel{ \beta \circ \varphi \circ \alpha^{-1} }{ \longrightarrow} W} {  }
+
+menghasilkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  D   \left(   \beta \circ \varphi \circ \alpha^{-1}    \right)      \right)_{ \alpha(P)} \left(   (\alpha \circ \gamma)' (0)    \right)
+}
+{ =} { ( \beta \circ ( \varphi \circ \gamma) )'(0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+yang tepat menyatakan komutativitas diagram tersebut.}
+{}
+\teilbeweis {}{}{}
+{(3). Pernyataan ini mengikuti dari (2) dan linearitas
+\definitionsverweis {diferensial total}{}{.}}
+{}
+\teilbeweis {}{}{}
+{(4). Dengan beralih ke peta-peta, pernyataan ini mengikuti dari (2) dan aturan rantai.}
+{}
+\teilbeweis {}{}{}
+{(5) mengikuti dari (4) yang diterapkan pada pemetaan invers
+\mathl{\varphi^{-1}}{.}}
+{}
+\teilbeweis {}{}{}
+{(6). Elemen
+
+\mavergleichskette
+{\vergleichskette
+{ 1
+}
+{ \in }{\R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sebagai vektor singgung di suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{a
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+harus ditafsirkan sebagai lintasan
+\mathl{s \mapsto a+s}{}
+pada interval terbuka yang cukup kecil di sekitar nol sehingga $a+s\in I$.
+Untuk
+
+\mavergleichskette
+{\vergleichskette
+{a
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+lintasan ini adalah lintasan identitas. Oleh karena itu,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (T_0(\gamma))(1)
+}
+{ =} { (T_0(\gamma))(\operatorname{Id})
+}
+{ =} { [\gamma \circ \operatorname{Id}]
+}
+{ =} { [\gamma ]
+}
+{ } {
+}
+}
+{}{}{.}}
+{}
+
+}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+\mathkor {} {M} {dan} {N} {}
+\definitionsverweis {manifold-manifold diferensiabel}{}{}
+dan
+\maabbdisp {\varphi} { M } { N
+} {}
+suatu
+\definitionsverweis {pemetaan diferensiabel}{}{.}
+Misalkan
+\mathkor {} {P \in M} {dan} {Q=\varphi(P)} {.}
+Bagi
+\definitionsverweis {pemetaan singgung}{}{}
+\maabbdisp {T_P(\varphi)} { T_PM } { T_QN
+} {}
+,
+\definitionsverweis {pemetaan dual}{}{}
+\maabbeledisp {} { T^*_QN } { T^*_PM
+} { h } { h \circ  T_P(\varphi)
+} {,}
+disebut \definitionswort {pemetaan kotangen}{} di titik $P$. Pemetaan ini dinotasikan dengan
+\mathl{T^*_P(\varphi)}{}.
+
+}
+
+Jika dituliskan secara eksplisit, pemetaan tersebut adalah
+\maabbeledisp {} {T^*_QN} {T^*_PM
+} {h} {( [\gamma] \mapsto h([\varphi \circ \gamma]))
+} {.}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+\mathkor {} {L} {dan} {M} {}
+\definitionsverweis {manifold-manifold diferensiabel}{}{}
+dan misalkan
+\maabbdisp {\varphi} { L } { M
+} {}
+suatu
+\definitionsverweis {pemetaan diferensiabel}{}{.}
+Pemetaan $\varphi$ di titik
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+disebut
+\definitionswort {reguler}{}
+\zusatzklammer {dan $Q$ disebut \definitionswort {titik reguler}{} bagi $\varphi$} {} {,}
+jika
+\definitionsverweis {pemetaan singgung}{}{}
+\maabbdisp {T_Q(\varphi)} { T_QL } { T_{\varphi(Q)}M
+} {}
+di titik $Q$ mempunyai
+\definitionsverweis {rank maksimal}{}{.}
+
+}
+
+Definisi ini memperumum
+definisi Euklides tentang titik reguler
+yang bersesuaian dari himpunan-himpunan bagian Euklides ke manifold. Artinya, jika
+
+\mavergleichskette
+{\vergleichskette
+{ \operatorname{dim} (L)
+}
+{ \geq }{  \operatorname{dim} (M)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+maka pemetaan singgung di $Q$ harus surjektif, sedangkan jika
+
+\mavergleichskette
+{\vergleichskette
+{ \operatorname{dim} (L)
+}
+{ \leq }{  \operatorname{dim} (M)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+pemetaan tersebut harus injektif.

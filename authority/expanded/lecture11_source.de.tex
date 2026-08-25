@@ -1,0 +1,907 @@
+\setcounter{section}{11}
+
+  \zwischenueberschrift{Produkte von Mannigfaltigkeiten}
+
+\inputdefinition
+{}
+{
+
+Es seien
+\mathkor {} {M} {und} {N} {}
+zwei
+\definitionsverweis {differenzierbare Mannigfaltigkeiten}{}{}
+mit den
+\definitionsverweis {Atlanten}{}{}
+\mathkor {} {(U_i,U_i',\alpha_i, i \in I)} {und} {(V_j,V_j',\beta_j, j \in J)} {.}
+Dann nennt man den
+\definitionsverweis {Produktraum}{}{}
+
+\mathl{M \times N}{} mit den
+\definitionsverweis {Karten}{}{}
+\maabbdisp {\alpha_i \times \beta_j} {U_i \times V_j } { U_i' \times V_j'
+} {}
+\zusatzklammer {mit
+
+\mavergleichskettek
+{\vergleichskettek
+{  (i,j)
+}
+{ \in }{ I \times J
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskettek
+{\vergleichskettek
+{ U_i' \times V_j'
+}
+{ \subseteq }{ \R^m \times \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+das \definitionswort {Produkt der Mannigfaltigkeiten}{}
+\mathkor {} {M} {und} {N} {.}
+
+}
+
+Es handelt sich dabei in der Tat um eine Mannigfaltigkeit, siehe
+[[Produkt von Mannigfaltigkeiten/Ist Mannigfaltigkeit/Aufgabe|Aufgabe 11.1]].
+Eine Produktmannigfaltigkeit der Form
+\mathl{M \times \R}{} nennt man auch \stichwort {Zylinder} {} über $M$. Zu abgeschlossenen Untermannigfaltigkeiten
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ \R^\ell
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ N
+}
+{ \subseteq }{ \R^k
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist die Produktmannigfaltigkeit
+\mathl{M \times N}{} eine abgeschlossene Untermannigfaltigkeit von
+
+\mavergleichskette
+{\vergleichskette
+{ \R^\ell \times \R^k
+}
+{ = }{ \R^{\ell + k}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+siehe
+[[Zwei abgeschlossene Untermannigfaltigkeiten/Produkt davon/Aufgabe|Aufgabe 11.2]].
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Produkt von Mannigfaltigkeiten/Abbildungseigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es seien
+\mathkor {} {M} {und} {N} {}
+\definitionsverweis {differenzierbare Mannigfaltigkeiten}{}{}
+und
+\mathl{M \times N}{} ihr
+\definitionsverweis {Produkt}{}{.}}
+\faktuebergang {Dann gelten folgende Eigenschaften.}
+\faktfolgerung {\aufzaehlungdrei{Die
+\definitionsverweis {Projektionen}{}{}
+\maabbeledisp {p_1} {M \times N} {M
+} {(x,y)} { x
+} {,}
+und
+\maabbeledisp {p_2} {M \times N} {N
+} {(x,y)} { y
+} {,}
+sind
+\definitionsverweis {differenzierbare Abbildungen}{}{.}
+}{Der
+\definitionsverweis {Tangentialraum}{}{}
+in einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ R
+}
+{ = }{ (P,Q)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskette
+{\vergleichskette
+{ T_R(M \times N)
+}
+{ = }{ T_PM \times T_QN
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Es sei $L$ eine weitere differenzierbare Mannigfaltigkeit. Dann ist eine Abbildung
+\maabbeledisp {\varphi \times \psi} { L } { M \times N
+} { u } { (\varphi(u), \psi(u))
+} {,}
+genau dann differenzierbar, wenn die
+\definitionsverweis {Komponentenabbildungen}{}{}
+\mathkor {} {\varphi} {und} {\psi} {}
+differenzierbar sind.
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{(1). Durch Übergang zu Karten können wir annehmen, dass
+\mathkor {} {M} {und} {N} {}
+\definitionsverweis {offene Teilmengen}{}{}
+im
+\mathkor {} {\R^m} {bzw. im} {\R^n} {}
+sind. In diesem Fall handelt es sich um eine
+\definitionsverweis {Einschränkung}{}{}
+der
+\definitionsverweis {linearen Projektion}{}{}
+\maabb {} {\R^m \times \R^n } {\R^m
+} {,}
+die
+nach [[Differenzierbarkeit/K/Lineare Abbildungen sind differenzierbar/Fakt|Proposition 45.3 (Analysis (Osnabrück 2021-2023))]]
+\definitionsverweis {stetig differenzierbar}{}{}
+ist.}
+{}
+\teilbeweis {}{}{}
+{(2). Die differenzierbaren Projektionen
+\maabb {p_1} {M \times N} {M
+} {}
+und
+\maabb {p_2} {M \times N} {N
+} {}
+liefern die linearen
+\definitionsverweis {Tangentialabbildungen}{}{}
+\maabb {T_R(p_1)} {T_R(M \times N)} {T_PM
+} {}
+und
+\maabb {T_R(p_2)} {T_R(M \times N)} {T_QN
+} {}
+und  damit insgesamt die lineare Abbildung
+\maabbdisp {T_R(p_1) \times T_R(p_2)} { T_R(M \times N)} {T_PM \times T_QN} {.}
+Zum Nachweis der Bijektivität kann man zu Karten übergehen und annehmen, dass
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ N
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offene Teilmengen sind. Diese Abbildung wird dann zur Bijektion
+\maabbdisp {p_1 \times p_2} {\R^{m+n} } { \R^m \times \R^n
+} {.}}
+{}
+\teilbeweis {}{}{}
+{(3). Für einen fixierten Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ A
+}
+{ \in }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kann man unter Verwendung von Kartenumgebungen von $A$ und von
+\mathkor {} {\varphi(A)} {und} {\psi(A)} {}
+sich darauf zurückziehen, dass alle drei Mannigfaltigkeiten offene Mengen in euklidischen Räumen sind. Wenn beide Abbildungen stetig differenzierbar sind, so folgt nach
+[[Totales Differential/K/Produktabbildungen/Aufgabe|Aufgabe 45.9 (Analysis (Osnabrück 2021-2023))]]
+die stetige Differenzierbarkeit der Gesamtabbildung. Die Umkehrung ist klar.}
+{}
+
+}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Toroidal_coord} {png} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Toroidal coord.png } {} {Dave Burke} {Commons} {CC-by-sa 3.0} {}
+
+\inputbeispiel{}
+{
+
+Das
+\definitionsverweis {Produkt}{}{}
+der
+\definitionsverweis {Kreislinie}{}{}
+mit sich selbst, also
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ S^1 \times S^1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+heißt \stichwort {Torus} {.} Dies ist eine zweidimensionale Mannigfaltigkeit. Da
+
+\mavergleichskette
+{\vergleichskette
+{ S^1
+}
+{ \subset }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {abgeschlossene Untermannigfaltigkeit}{}{}
+ist, lässt sich der Torus als abgeschlossenene Untermannigfaltigkeit im
+
+\mavergleichskette
+{\vergleichskette
+{ \R^2 \times \R^2
+}
+{ = }{ \R^4
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+realisieren. Sie lässt sich aber auch als abgeschlossenene Untermannigfaltigkeit im $\R^3$ realisieren. Dazu seien
+\mathkor {} {r} {und} {R} {}
+positive reelle Zahlen mit
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ < }{ r
+}
+{ < }{ R
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann ist die Menge
+
+\mathdisp {\left\{ (x,y,z) \in \R^3  \mid   \left(  \sqrt{x^2+y^2} -R  \right)^2 +z^2 = r^2         \right\}} {  }
+
+ein Torus. Es handelt sich bei dieser Realisierung um die Oberfläche eines
+\zusatzklammer {aufgeblasenen} {} {}
+\anfuehrung{Fahrradschlauches}{,} dessen \anfuehrung{Radradius}{} gleich $R$ und dessen \anfuehrung{Schlauchradius}{} gleich $r$ ist
+\zusatzklammer {das Rad liegt in der \mathlk{x-y}{-}Ebene} {} {.}
+Der Zusammenhang mit dem Produkt
+\mathl{S^1 \times S^1}{} ergibt sich, indem man dem Produktwinkel
+\mathl{( \varphi, \psi)}{} den Punkt
+\mathl{( (R +r \cos  \psi) \cos \varphi, (R+ r \cos  \psi ) \sin \varphi ,  r \sin  \psi )}{} zuordnet.
+
+}
+
+  \zwischenueberschrift{Die Lie-Klammer von Vektorfeldern}
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{.}
+Eine Abbildung
+\maabbdisp {D} {C^1(M,\R) } { C^0(M,\R)
+} {}
+heißt
+\definitionswort {Differentialoperator erster Ordnung}{,}
+wenn sie folgende Eigenschaften erfüllt.
+\aufzaehlungzwei { $D$ ist
+$\R$-\definitionsverweis {linear}{}{.}
+} {Es ist
+
+\mavergleichskette
+{\vergleichskette
+{ D(fg)
+}
+{ = }{ fD(g)+gD(f)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}
+
+}
+
+Statt Differentialoperator erster Ordnung sagt man auch \stichwort {Derivation} {.}
+
+Zu einer offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sind die partiellen Ableitungen $\partial_i$ und $\partial_j$ als Operationen auf zweifach stetig differenzierbaren Funktionen vertauschbar, also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial_i \circ \partial_j
+}
+{ =} { \partial_j \circ \partial_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Eine Linearkombination
+
+\mavergleichskettedisp
+{\vergleichskette
+{ V
+}
+{ =} { \sum_{i = 1}^n f_i \partial_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit auf $U$ definierten reellwertigen Funktionen $f_i$ kann man als
+\definitionsverweis {Vektorfeld}{}{}
+\maabbeledisp {} { U } { TU = U \times \R^n
+} { P } { (P, \sum_{i = 1}^n f_i(P) \partial_i ) = (P,f_1(P) , \ldots , f_n(P) )
+} {,}
+und ebenso als Ableitungsoperator
+\maabbeledisp {} {C^1(U,\R)} {C^0(U,\R)
+} {h } { \sum_{i = 1}^n f_i  \partial_i  h
+} {,}
+auffassen
+\zusatzklammer {oder von $C^\infty(U,\R)$ nach $C^\infty(U,\R)$} {} {.}
+In diesem Sinne entsprechen sich Vektorfelder und Differentialoperatoren der ersten Ordnung. Differentialoperatoren kann man aber darüber hinaus miteinander verknüpfen, wobei sich herausstellt, dass es auf die Reihenfolge ankommt.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Offene Menge/R^n/Vektorfelder/Hintereinanderschaltung/Explizit/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+und seien $f_1 , \ldots , f_n, g_1 , \ldots , g_n,h$ zweifach
+\definitionsverweis {stetig differenzierbare Funktionen}{}{}
+auf $U$.}
+\faktfolgerung {Dann gilt
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \left(  \sum_{i = 1}^n f_i \partial_i  \right) \left(  \left(  \sum_{j = 1}^n g_j \partial_j   \right) (h)  \right)
+}
+{ =} { \sum_{j = 1}^n  \left(  \sum_{i = 1}^n  f_i \partial_i g_j  \right) \partial_j h + \sum_{j = 1}^n \sum_{i = 1}^n    f_i g_j \partial_i \partial_j h
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Es ist
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left(  \sum_{i = 1}^n f_i \partial_i  \right) \left(  \left(  \sum_{j = 1}^n g_j \partial_j   \right) (h)  \right)
+}
+{ =} { \left(  \sum_{i = 1}^n f_i \partial_i  \right) \left(  \sum_{j = 1}^n g_j \partial_j (h)  \right)
+}
+{ =} { \sum_{i = 1}^n f_i \partial_i \left(  \sum_{j = 1}^n g_j \partial_j (h)  \right)
+}
+{ =} { \sum_{i = 1}^n f_i \left(  \sum_{j = 1}^n \left(  \partial_i (g_j) \partial_j (h) +  g_j \partial_i \partial_j (h)  \right)  \right)
+}
+{ =} { \sum_{j = 1}^n \left(  \sum_{i = 1}^n f_i  \partial_i g_j  \right) \partial_j h +  \sum_{j = 1}^n \sum_{i = 1}^n    f_i g_j \partial_i \partial_j h
+}
+}
+{}
+{}{.}
+
+}
+
+An dieser expliziten Beschreibung sieht man
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \sum_{i = 1}^n f_i \partial_i  \right) \circ  \left(  \sum_{j = 1}^n g_j \partial_j   \right)
+}
+{ \neq} { \left(  \sum_{j = 1}^n g_j \partial_j   \right) \circ  \left(  \sum_{i = 1}^n f_i \partial_i  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+da zwar der zweite Summand gleich ist, aber nicht der erste. Dies hat auch die folgende Konsequenz.
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Offene Menge/R^n/Vektorfelder/Lie-Klammer/Vektorfeld/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+und seien $f_1 , \ldots , f_n, g_1 , \ldots , g_n$ zweifach
+\definitionsverweis {stetig differenzierbare Funktionen}{}{}
+auf $U$ mit den zugehörigen Differentialoperatoren
+
+\mavergleichskette
+{\vergleichskette
+{ D
+}
+{ = }{ \sum_{i = 1}^n f_i \partial_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ = }{ \sum_{j = 1}^n g_j \partial_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}}
+\faktfolgerung {Dann gilt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D \circ E -E \circ D
+}
+{ =} { \sum_{j = 1}^n \left(  \sum_{i = 1}^n \left(  f_i  \partial_i g_j - g_i \partial_i f_j  \right)  \right)  \partial_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Insbesondere entspricht dieser Ausdruck selbst einem Differentialoperator der Ordnung $1$ und somit einem Vektorfeld.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Nach
+[[Offene Menge/R^n/Vektorfelder/Hintereinanderschaltung/Explizit/Fakt|Lemma 11.5]]
+ist
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{D \circ E-E \circ D
+}
+{ =} { \left(  \sum_{i = 1}^n f_i \partial_i  \right) \circ  \left(  \sum_{j = 1}^n g_j \partial_j   \right) -  \left(  \sum_{j = 1}^n g_j \partial_j   \right) \circ  \left(  \sum_{i = 1}^n f_i \partial_i  \right)
+}
+{ =} { \sum_{j = 1}^n  \left(  \sum_{i = 1}^n  \left(  f_i  \partial_i g_j - g_i \partial_i f_j  \right)  \right)  \partial_j
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+
+}
+
+Auf einer Mannigfaltigkeit bezeichnen wir den Differentialoperator zu einem Vektorfeld $V$ mit $D_V$. Zu einer differenzierbaren Funktion
+\maabb {f} { M } {\R
+} {}
+ist
+
+\mavergleichskette
+{\vergleichskette
+{ D_V(f)
+}
+{ = }{ T(f) \circ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Angewendet auf einen Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  D_V(f)  \right) (P)
+}
+{ =} { T_P(f) (V(P))
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Entsprechendes gilt für eine auf einer offenen Teilmenge von $M$ definierten differenzierbaren Funktion.
+
+\inputdefinition
+{}
+{
+
+Es seien
+\mathkor {} {V} {und} {W} {}
+stetig differenzierbare
+\definitionsverweis {Vektorfelder}{}{}
+auf einer
+$C^2$-\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+mit den zugehörigen Differentialoperatoren $D_V$ und $D_W$. Dann nennt man das Vektorfeld, das der Hintereinanderschaltung
+\mathl{D_V \circ D_W -D_W \circ D_V}{} entspricht, die
+\definitionswort {Lie-Klammer}{}
+der beiden Vektorfelder. Sie wird mit $[V,W]$ bezeichnet.
+
+}
+
+Es ist eine Konvention, welche Reihenfolge der Operatoren mit einem Minuszeichen in die Definition eingeht.
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Vektorfelder/Lie-Klammer/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+$C^2$-\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{.}}
+\faktuebergang {Dann erfüllt die
+\definitionsverweis {Lie-Klammer}{}{}
+von
+\definitionsverweis {Vektorfeldern}{}{}
+die folgenden Eigenschaften.}
+\faktfolgerung {\aufzaehlungdrei{Es ist
+
+\mavergleichskette
+{\vergleichskette
+{ [V,W]
+}
+{ = }{ -[W,V]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Es ist
+
+\mavergleichskette
+{\vergleichskette
+{ [V_1+V_2,W]
+}
+{ = }{ [V_1,W] + [V_2,W]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Für eine differenzierbare Funktion $f$ auf $M$ ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ [fV,W]
+}
+{ =} { f [V,W] - \left(  D_Wf  \right)  V
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+(1) folgt aus der Definition, (2) folgt aus der Beziehung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D_{V_1 +V_2 }
+}
+{ =} { D_{V_1 } + D_{V_2 }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+zwischen Differentialoperatoren und Vektorfeldern. (3). Da die Aussage lokal ist, können wir
+
+\mavergleichskettedisp
+{\vergleichskette
+{ V
+}
+{ =} { \sum_{i = 1}^n f_i \partial_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ = }{ \sum_{j = 1}^n g_j \partial_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ansetzen. Dann ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ fV
+}
+{ =} { f \sum_{i = 1}^n f_i \partial_i
+}
+{ =} { \sum_{i = 1}^n ff_i \partial_i
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und nach
+[[Offene Menge/R^n/Vektorfelder/Lie-Klammer/Vektorfeld/Fakt|Lemma 11.6]]
+ist
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \, [fV,W]
+}
+{ =} { \sum_{j = 1}^n \left(  \sum_{i = 1}^n \left(  f f_i \partial_i g_j - g_i \partial_i (f f_j) \right)  \right) \partial_j
+}
+{ =} { \sum_{j = 1}^n \left(  \sum_{i = 1}^n \left(  f f_i \partial_i g_j - g_i \left(  f \partial_i ( f_j) +f_j \partial_i (f)  \right)  \right)  \right)  \partial_j
+}
+{ =} { f \sum_{j = 1}^n \left(  \sum_{i = 1}^n \left(  f_i \partial_i g_j - g_i \partial_i ( f_j)  \right)  \right) \partial_j - \sum_{j = 1}^n \left(  \sum_{i = 1}^n g_i f_j \partial_i (f)  \right)  \partial_j
+}
+{ =} { f[V,W] - \sum_{j = 1}^n \left(  \sum_{i = 1}^n g_i \partial_i (f)  \right) f_j \partial_j
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { f[V,W] - \left(  \sum_{i = 1}^n g_i \partial_i (f)  \right) \left(  \sum_{j = 1}^n f_j \partial_j  \right)
+}
+{ =} { f[V,W] - D_W(f) V
+}
+{ } {}
+{ } {}
+}
+{}{.}
+
+}
+
+ [[Kategorie:Latexseite]]

@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Mon, 24 Aug 2026 01:59:28 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Produkt von Mannigfaltigkeiten/Ist Mannigfaltigkeit/Aufgabe/Lösung|Zwei abgeschlossene Untermannigfaltigkeiten/Produkt davon/Aufgabe/Lösung|Torus/Karten/Aufgabe/Lösung|Punktierte Ebene/Produktmannigfaltigkeit/Aufgabe/Lösung|Produkt von Mannigfaltigkeiten/Wegzusammenhängend/Aufgabe/Lösung|Differenzierbare Mannigfaltigkeit/Diagonale/Abgeschlossene Untermannigfaltigkeit/Aufgabe/Lösung|Differenzierbare Mannigfaltigkeit/Vertauschung/Diffeomorphismus/Aufgabe/Lösung|Torus/Rotationsmenge/Aufgabe/Lösung|Torus/Faserrealisierung/Andere Fasern/Aufgabe/Lösung|Torus/Faserrealisierung/Animation/Aufgabe/Lösung|Torus/Sphäre/Abbildung/Aufgabe/Lösung|Torus/Sphäre/Nicht homöomorph/Heuristisch/Aufgabe/Lösung|Torus/Ohne Diagonale/Diffeomorphietyp/Aufgabe/Lösung|Torus/Surjektive Abbildung von Ebene/Surjektive Tangentialabbildung/Aufgabe/Lösung|Mengen/Relatives Produkt/Aufgabe/Lösung|Topologische Räume/Relatives Produkt/Aufgabe/Lösung|Topologische Räume/Relatives Produkt/Identischer Faktor/Aufgabe/Lösung|Topologische Räume/Relatives Produkt/Punkt und Faser/Aufgabe/Lösung|Topologische Räume/Produkträume/Relatives Produkt/Kürzung/Aufgabe/Lösung|Reelle Gerade/Relatives Produkt/Skizze/Aufgabe/Lösung|Topologische Räume/Relatives Produkt/Schnitt/Charakterisierung/Aufgabe/Lösung|Topologische Räume/Relatives Produkt/Abbildung/Rückzug/Aufgabe/Lösung|Topologische Räume/Relatives Produkt/Hintereinanderschaltung/Aufgabe/Lösung|Kreislinie/Definiere differenzierbare Gruppenstruktur/Aufgabe/Lösung|Allgemeine lineare Gruppe/R/Definiere differenzierbare Gruppenstruktur/Aufgabe/Lösung|S^1xR/Spiegelung/Selbstinverser Diffeomorphismus/Aufgabe/Lösung|Differentialoperator/Erste Ordnung/R^2/Explizit/Aufgabe/Lösung|Vektorfeld/Offene Teilmenge/Rekonstruktion der Koeffizentenfunktionen/Aufgabe/Lösung|Mannigfaltigkeit/Vektorfeld/Zugehöriger Differentialoperator/Ist/Aufgabe/Lösung|Vektorfelder/Lie-Klammer/D und D/Aufgabe/Lösung|Vektorfelder/Lie-Klammer/Jacobi-Identität/Fakt/Beweis/Aufgabe/Lösung|Mannigfaltigkeit/Vektorfelder/Lie-Algebra/Aufgabe/Lösung|Vektorraum/Endomorphismen/Lie-Algebra/Aufgabe/Lösung|Torus/Produktdarstellung und Schlauch/Bijektion/Aufgabe/Lösung|Torus/Zwei Punkte/Gemeinsame Kartenumgebung/Quadrat/Aufgabe/Lösung|Reelle Gerade/Relatives Produkt/Keine topologische Mannigfaltigkeit/Aufgabe/Lösung|Differentialoperator/Erste Ordnung/R^3/Explizit/2/Aufgabe/Lösung|Differenzierbare Hyperfläche/Differentialoperator/Erste Ordnung/Verschwindet auf Gleichung/Aufgabe/Lösung|Vektorfelder/Lie-Klammer/Berechnung/1/Aufgabe/Lösung"
+  },
+  "response_bytes": 6185,
+  "response_path": "unit11_solution_pages_current.json",
+  "response_sha256": "2d0818c763d0b66d951907508b3b3befd3714c93558f41dca947981595421120",
+  "retrieved_utc": "2026-08-24T01:59:28Z",
+  "schema_version": 1
+}

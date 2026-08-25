@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-11/lecture11.id.tex",
+  "metadata_corrections": [
+    {
+      "correction_id": "O011-CORR-0104",
+      "anchor": "Toroidal coord.png attribution macro",
+      "change": "Replace the source's displayed Dave Burke / CC BY-SA 3.0 claim with the frozen Commons authority DaveBurke / CC BY 2.5 while retaining the filename and media locator."
+    }
+  ],
+  "prose_only_corrections": [
+    {
+      "correction_id": "O011-CORR-0106",
+      "anchor": "paragraph after the explicit composition calculation",
+      "change": "Qualify noncommutativity as a difference that can occur in general rather than a universal inequality."
+    },
+    {
+      "correction_id": "O011-CORR-0109",
+      "anchor": "product-manifold tangent-space statement",
+      "change": "State that the displayed product equality is the canonical identification induced by the tangent maps of the projections."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_ids": [
+        "O011-CORR-0105",
+        "O011-CORR-0107",
+        "O011-CORR-0108"
+      ],
+      "surface": "profile:commands",
+      "source_sha256": "a258bb5b1015cf43f37aab0d327b6e273ee9c5ff4931dc0457686b6d9c2a4e26",
+      "target_sha256": "279ac595a18468a9156724189f6acefc80aa2680da3f9e614814388498b49e21"
+    },
+    {
+      "correction_ids": [
+        "O011-CORR-0105",
+        "O011-CORR-0107"
+      ],
+      "surface": "profile:inline_math",
+      "source_sha256": "0cbd80beb7019aeec82477518cc6981ff8c1815f571ec09192b7d947130486d1",
+      "target_sha256": "c4f92f69f43a2ae3ee21ce5d243044e753ee7a0a9af9923b37eefd064fbbc364"
+    },
+    {
+      "correction_ids": [
+        "O011-CORR-0105",
+        "O011-CORR-0107",
+        "O011-CORR-0108"
+      ],
+      "surface": "profile:brace_profile",
+      "source_sha256": "afda9e1b239a642bf9af54166fbe8565b2b5e79ea27fc3deb3f5e751356666aa",
+      "target_sha256": "91720b3f256105c21b18d2a1a5948bb88e6480b0894ad3a590364bcb4b180d66"
+    },
+    {
+      "correction_id": "O011-CORR-0107",
+      "surface": "profile:protected:vergleichskette",
+      "source_sha256": "26fe3b8698960d0587badd81eb3ede052f873ff3c4f2407e6aa8cc0a0103e8c8",
+      "target_sha256": "f873b92f8e58fa24641806bac2cf168622a91c2c3ea48eb203b04811f9a6849d"
+    }
+  ],
+  "evidence_only_deltas": []
+}

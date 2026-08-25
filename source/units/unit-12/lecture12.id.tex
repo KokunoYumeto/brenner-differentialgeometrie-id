@@ -1,0 +1,1141 @@
+\setcounter{section}{12}
+
+  \zwischenueberschrift{Bundel vektor}
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dengan
+\definitionsverweis {bundel tangen}{}{}
+\maabb {p} {TM} {M
+} {.}
+Untuk suatu domain peta
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan suatu peta
+\maabbdisp {\alpha} { U } { V \subseteq \R^n
+} {}
+berdasarkan
+[[Differenzierbare Mannigfaltigkeit/Abbildung/Tangentialabbildung/Eigenschaften/Fakt|Lema 10.8]]
+terdapat suatu
+\definitionsverweis {homeomorfisme}{}{}
+\maabbdisp {T(\alpha)} {TM\vert_U \cong TU} { TV \cong V \times \R^n
+} {,}
+yang linear pada komponen kedua untuk setiap titik dasar
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+. Untuk peta lain
+\maabbdisp {\alpha'} {U'} {V'
+} {}
+pemetaan transisinya
+\maabbdisp {} {TV \vert_{\alpha(U \cap U') }  \cong \alpha(U \cap U') \times \R^n } { TV' \vert_{\alpha'(U \cap U') }  \cong \alpha'(U \cap U') \times \R^n
+} {}
+linear pada serat-seratnya. Melalui homeomorfisme
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \cong }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kita juga langsung memperoleh homeomorfisme
+
+\mavergleichskettedisp
+{\vergleichskette
+{ TM \vert_U \cong TU
+}
+{ \cong} { U \times \R^n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+di atas $U$ beserta pemetaan transisi terkait
+\maabbdisp {} {(U \cap U') \times \R^n } { (U \cap U') \times \R^n
+} {,}
+yang linear terhadap $\R^n$.
+
+Bundel tangen merupakan contoh penting dari bundel vektor.
+
+\inputdefinition
+{}
+{
+
+Misalkan $X$ suatu
+\definitionsverweis {ruang topologis}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{r
+}
+{ \in }{\N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Sebuah
+\definitionswort {bundel vektor riil}{}
+$V$ ber-
+\definitionswort {rank}{}
+$r$ adalah suatu ruang topologis yang dilengkapi dengan
+\definitionsverweis {pemetaan kontinu}{}{}
+\maabb {p} { V } { X
+} {}
+sedemikian sehingga setiap
+\definitionsverweis {serat}{}{}
+$p^{-1}(x)$ merupakan
+\definitionsverweis {ruang vektor riil}{}{}
+yang
+\definitionsverweis {berdimensi}{}{}
+$r$ dan terdapat suatu
+\definitionsverweis {penutup terbuka}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{X
+}
+{ = }{ \bigcup_{i \in I} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+beserta
+\definitionsverweis {homeomorfisme-homeomorfisme}{}{}
+\maabbdisp {\varphi_i} {p^{-1} \left(  U_i  \right) } { U_i \times \R^r
+} {}
+di atas $U_i$ yang pada setiap serat menginduksi suatu
+\definitionsverweis {isomorfisme linear}{}{}
+\maabbdisp {\left(  \varphi_i  \right)_x} {p^{-1} (x) } { \R^r
+} {}
+.
+
+}
+
+Dalam hal ini, $V$ juga disebut \stichwort {ruang total} {} dan $X$ disebut \stichwort {ruang dasar} {} dari bundel vektor tersebut. Untuk serat sering pula ditulis
+
+\mavergleichskette
+{\vergleichskette
+{ V_x
+}
+{ = }{ p^{-1} (x)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+Dalam homeomorfisme
+\maabb {} { p^{-1}(U) } { U \times \R^r
+} {}
+sisi kanan dilengkapi dengan
+\definitionsverweis {topologi produk}{}{}
+dan $\R^r$ dengan
+\definitionsverweis {topologi Euklides}{}{}
+alaminya, sedangkan
+\mathl{p^{-1}(U)}{} dilengkapi dengan topologi yang diinduksi dari $V$. Dengan demikian, semua serat $V_x$ menyandang topologi alami suatu ruang vektor riil berdimensi hingga. Yang dimaksud dengan homeomorfisme di atas $U$ adalah bahwa diagram
+
+\mathdisp {\begin{matrix} p^{-1}(U)   & \stackrel{  }{\longrightarrow} &  U \times \R^r   & \\ &  \searrow & \downarrow & \\ & &  U   & \!\!\!\!\! \!\!\!  \\ \end{matrix}} {  }
+
+komutatif. Produk
+\mathl{X \times \R^r}{} merupakan suatu bundel vektor yang disebut \stichwort {bundel vektor trivial} {.} Suatu homeomorfisme linear
+\maabb {} { p^{-1}(U) } { U \times \R^r
+} {}
+disebut
+\zusatzklammer {lokal} {} {}
+\stichwort {trivialisasi} {.} Pembatasan suatu bundel vektor pada $U_i$ bersifat trivial; jadi, secara lokal setiap bundel vektor bersifat trivial. Bundel vektor ber-rank $1$ juga disebut \stichwort {bundel garis} {.}
+
+\inputbemerkung
+{}
+{
+
+Suatu
+\definitionsverweis {bundel vektor riil}{}{}
+\maabb {p} { V } { X
+} {}
+di atas
+\definitionsverweis {ruang topologis}{}{}
+$X$ juga dapat didefinisikan hanya dengan mengacu pada suatu penutup terbuka
+
+\mavergleichskettedisp
+{\vergleichskette
+{ X
+}
+{ =} { \bigcup_{i \in I} U_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan trivialisasi-trivialisasi
+\maabbdisp {\varphi_i} {p^{-1} \left(  U_i  \right) } { U_i \times \R^r
+} {}
+dengan mensyaratkan agar pemetaan transisi
+\zusatzklammer {yang diperoleh di atas $p^{-1} (U_i \cap U_j)$} {} {}
+\maabbdisp {\varphi_j \circ \varphi_i^{-1}} {U_i \cap U_j \times \R^r } { U_i \cap U_j \times \R^r
+} {}
+linear pada komponen ruang vektornya. Hal ini menghasilkan struktur ruang vektor pada setiap serat, dengan menggunakan sebarang trivialisasi.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Topologischer Raum/Reelles Vektorbündel/Einschränkung/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan
+\maabb {p} { V } { X
+} {}
+suatu
+\definitionsverweis {bundel vektor riil}{}{}
+di atas
+\definitionsverweis {ruang topologis}{}{}
+$X$.}
+\faktfolgerung {Maka untuk setiap
+\definitionsverweis {himpunan terbuka}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {pembatasan}{}{}
+\maabbdisp {} {p^{-1} (W)} {W
+} {}
+juga merupakan suatu bundel vektor.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Hal ini jelas; kita cukup membatasi homeomorfisme-homeomorfisme yang linear pada serat
+\maabbdisp {\varphi_i} {p^{-1} \left(  U_i  \right) } { U_i \times \R^r
+} {}
+menjadi
+\maabbdisp {\varphi_i \vert_{W \cap U_i }} {p^{-1} \left(  W \cap U_i  \right) } { \left(  W \cap U_i  \right)  \times \R^r
+} {}
+.
+
+}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+\mathkor {} {E} {dan} {F} {}
+\definitionsverweis {bundel-bundel vektor riil}{}{}
+di atas suatu
+\definitionsverweis {ruang topologis}{}{}
+$X$. Suatu
+\definitionswort {homomorfisme bundel vektor}{}
+\maabb {\varphi} { E } { F
+} {}
+adalah
+\definitionsverweis {pemetaan kontinu}{}{}
+di atas $X$ sedemikian sehingga untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+pemetaan terinduksi
+\maabbdisp {\varphi_x} { E_x} {F_x
+} {}
+bersifat
+$\R$-\definitionsverweis {linear}{}{}
+.
+
+}
+
+Pengamatan berikut memungkinkan konstruksi berbagai macam bundel vektor.
+
+\inputbemerkung
+{}
+{
+
+Misalkan $X$ suatu
+\definitionsverweis {ruang topologis}{}{}
+dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ f_1 , \ldots , f_n
+}
+{ \in }{ C^0(X,\R)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan
+\definitionsverweis {fungsi-fungsi kontinu}{}{}
+bernilai riil pada $X$. Fungsi-fungsi ini mendefinisikan suatu pemetaan
+\maabbeledisp {} {X \times \R^n } { X \times \R
+} {(P,t_1 , \ldots , t_n) } { (P, \sum_{i= 1}^n f_i (P) t_i)
+} {,}
+antara
+\definitionsverweis {bundel vektor}{}{}
+trivial ber-rank $n$ di atas $X$ dan bundel vektor trivial ber-rank $1$ di atas $X$. Pemetaan ini kontinu, dan di atas setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat
+\definitionsverweis {bentuk linear}{}{}
+\maabb {} {\R^n } { \R
+} {}
+dengan matriks baris
+\mathl{\left( f_1(P)  , \,   \ldots  , \,  f_n(P)                 \right)}{}; oleh karena itu, pemetaan ini merupakan suatu
+\definitionsverweis {homomorfisme}{}{}
+bundel vektor. Melalui kernel tersebut, pada setiap serat $\R^n$ diperoleh suatu subruang vektor berdimensi $n-1$, kecuali apabila semua fungsi $f_i$ lenyap secara serentak di titik $P$. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ D(f_i)
+}
+{ = }{ \left\{ P \in X  \mid  f_i(P) \neq 0        \right\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+maka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ = }{ \bigcup_{i = 1}^n D(f_i)
+}
+{ \subseteq }{ X
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah himpunan bagian terbuka tempat sekurang-kurangnya satu $f_i$ tidak lenyap, sehingga kernel-kernel tersebut selalu berdimensi $n-1$. \stichwort {Bundel kernel} {} $E$ yang terkait dengan fungsi-fungsi $f_i$ adalah bundel vektor di atas $U$ yang ditentukan serat demi serat oleh kernel-kernel itu, yaitu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ E
+}
+{ =} { \left\{  (P; t_1 , \ldots , t_n)  \mid   P \in U , \,  \sum_{i= 1}^n f_i(P)t_i = 0       \right\}
+}
+{ \subseteq} { U \times \R^n
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Berdasarkan
+[[Topologischer Raum/Triviale Vektorbündel/Homomorphismus/Kernbündel/Trivialisierungen/Aufgabe|Soal 12.26]]
+terdapat trivialisasi-trivialisasi di atas $D(f_i)$, dan objek ini memang merupakan suatu bundel vektor.
+
+}
+
+\inputbeispiel{}
+{
+
+Di atas $\R^2$, kita meninjau pemetaan
+\maabbeledisp {} {\R^2 \times \R^2} { \R^2 \times \R
+} {(x,y;s,t)} { (x,y;xs+yt)
+} {,}
+sebagai suatu
+\definitionsverweis {homomorfisme bundel vektor}{}{}
+dalam pengertian
+[[Topologischer Raum/Triviale Vektorbündel/Homomorphismus/Kernbündel/Bemerkung|Catatan 12.5]].
+Satu-satunya nol bersama kedua fungsi koordinat $x,y$ adalah titik asal $(0,0)$, sehingga
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ = }{ \R^2 \setminus \{ (0,0) \}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan bundel kernel terkait adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ E
+}
+{ =} { \left\{  (P; s ,t)   \mid   P \in U  , \,  xs + yt = 0       \right\}
+}
+{ \subseteq} { U \times \R^2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Bundel ini terdiri atas suatu keluarga garis di dalam suatu bidang, dengan garis-garis tersebut bergerak bersama titik dasar
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ (x,y)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+.
+
+}
+
+\inputbeispiel{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+suatu fungsi yang dua kali
+\definitionsverweis {terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik dari $Y$. \definitionsverweis {Ruang singgung}{}{}
+$T_PY$ pada
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah kernel
+\definitionsverweis {diferensial total}{}{}
+$\left(D h \right)_{ P}$, yang diberikan oleh turunan-turunan parsial ${ \frac{   \partial   h   }{  \partial   x_1   } } ( P) , \ldots , { \frac{   \partial   h   }{  \partial   x_n   } } ( P)$ dan karenanya merupakan subruang vektor berdimensi $(n-1)$ dari $\R^n$; lihat juga
+[[Abgeschlossene Untermannigfaltigkeit/Punktweise/Tangentialraum als Unterraum/Fakt|Teorema 10.3]].
+Kita meninjau pemetaan
+\maabbeledisp {} {Y \times \R^n } { Y \times \R
+} {(P;t_1 , \ldots , t_n) } { (P; \sum_{i= 1}^n { \frac{   \partial   h   }{  \partial   x_i   } } ( P)  t_i )
+} {}
+dan bundel kernel terkait
+
+\mavergleichskettedisp
+{\vergleichskette
+{ E
+}
+{ =} { \left\{  (P; t_1 , \ldots , t_n)  \mid   P \in Y , \,  \sum_{i= 1}^n { \frac{   \partial   h   }{  \partial   x_i   } } ( P) t_i = 0       \right\}
+}
+{ \subseteq} { Y \times \R^n
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+dalam pengertian
+[[Topologischer Raum/Triviale Vektorbündel/Homomorphismus/Kernbündel/Bemerkung|Catatan 12.5]].
+Bundel ini secara langsung berimpit, serat demi serat, dengan ruang-ruang singgung pada $Y$. Namun, bundel ini memang merupakan bundel tangen, sebagaimana diperoleh dengan membandingkannya dengan
+[[Abgeschlossene Untermannigfaltigkeit/Tangentialbündel/Abgeschlossen/Aufgabe|Soal 10.22]].
+
+}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+\mathkor {} {E} {dan} {F} {}
+\definitionsverweis {bundel-bundel vektor riil}{}{}
+di atas suatu
+\definitionsverweis {ruang topologis}{}{}
+$X$. Suatu
+\definitionsverweis {homomorfisme bundel vektor}{}{}
+\maabb {\varphi} { E } { F
+} {}
+disebut
+\definitionsverweis {isomorfisme}{}{,}
+apabila terdapat suatu homomorfisme
+\maabb {\psi} { F } { E
+} {}
+yang, ketika dikomposisikan dengan $\varphi$
+\zusatzklammer {dalam kedua urutan} {} {}, menghasilkan identitas.
+
+}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+\mathkor {} {X} {dan} {Y} {}
+\definitionsverweis {ruang-ruang topologis}{}{}
+dan misalkan
+\maabbdisp {p} { Y } { X
+} {}
+suatu
+\definitionsverweis {pemetaan kontinu}{}{.}
+Yang dimaksud dengan
+\definitionswort {penampang kontinu}{}
+dari $p$ adalah suatu pemetaan kontinu
+\maabb {s} { X } { Y
+} {}
+dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{  p \circ s
+}
+{ =} {
+\operatorname{Id}_{  X  }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+Sebagai contoh, $Y$ dapat dipandang sebagai suatu bundel vektor di atas $X$. Suatu penampang hanya mungkin ada apabila $p$ surjektif, dan ini selalu berlaku bagi suatu bundel vektor. Kadang-kadang suatu penampang diidentifikasi dengan citranya; hal ini tidak menimbulkan masalah karena suatu penampang selalu injektif. Peran khusus dimainkan oleh \stichwort {penampang nol} {,} yang memetakan setiap titik dasar $P$ ke titik nol dalam ruang vektor $V_P$.
+Untuk
+\definitionsverweis {bundel tangen}{}{}
+penampang-penampang kontinu tepat merupakan
+\definitionsverweis {medan-medan vektor}{}{}
+kontinu. Untuk bundel vektor trivial
+\maabbdisp {} {X \times \R^n } { X
+} {}
+terdapat penampang-penampang konstan
+
+\mathbed {e_i} {}
+ {i = 1 , \ldots , n} {}
+ {} {} {} {,}
+yang memetakan setiap titik ke vektor
+
+\mavergleichskette
+{\vergleichskette
+{ e_i
+}
+{ \in }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+. Keluarga penampang ini membentuk suatu basis pada serat di atas setiap titik.
+
+Misalkan
+\maabb {p} { V } { X
+} {}
+suatu
+\definitionsverweis {bundel vektor riil}{}{}
+ber-
+\definitionsverweis {rank}{}{}
+$r$ di atas suatu
+\definitionsverweis {ruang topologis}{}{}
+$X$, dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {himpunan bagian terbuka}{}{.}
+Suatu keluarga
+\definitionsverweis {penampang}{}{}
+kontinu
+\maabbdisp {s_1 , \ldots , s_r} { U} {V  \vert_U
+} {}
+disebut keluarga
+\definitionswort {penampang basis}{,}
+apabila untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+vektor-vektor
+
+\mavergleichskette
+{\vergleichskette
+{ s_1(P)  , \ldots , s_r(P)
+}
+{ \in }{ V_P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+membentuk suatu
+\definitionsverweis {basis}{}{}
+dari $V_P$.
+
+Keberadaan penampang-penampang basis
+\zusatzklammer {kontinu} {} {}
+pada suatu himpunan terbuka $U$ ekuivalen dengan keberadaan suatu trivialisasi
+\zusatzklammer {kontinu} {} {}
+dari bundel vektor di atas $U$; lihat
+[[Vektorbündel/Offene Menge/Stetige Basisschnitte/Trivialisierung/Aufgabe|Soal 12.14]].
+
+  \zwischenueberschrift{Data perekatan}
+
+Gagasan untuk merekatkan data lokal guna mendeskripsikan objek global telah kita jumpai dalam
+[[Topologische Mannigfaltigkeit/Rekonstruktion aus Karten/Aufgabe|Soal 8.15]].
+
+\inputdefinition
+{}
+{
+
+Yang dimaksud dengan suatu
+\definitionswort {data perekatan}{}
+untuk
+\definitionsverweis {bundel vektor riil}{}{}
+ber-rank $r$ di atas suatu
+\definitionsverweis {ruang topologis}{}{}
+$X$ adalah kumpulan data berikut.
+\aufzaehlungvier{Suatu
+\definitionsverweis {penutup terbuka}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{X
+}
+{ =} { \bigcup_{i \in I} U_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+}{Suatu keluarga
+
+\mathbed {E_i \rightarrow U_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+bundel vektor riil ber-rank $r$.
+}{Untuk setiap pasangan
+\mathl{(i,j)}{} suatu
+\definitionsverweis {isomorfisme bundel vektor}{}{}
+\maabbdisp {\varphi_{ji}} { E_i {{|}}_{U_i \cap U_j }
+} { E_{j} {{|}}_{U_i \cap U_j }
+} {}
+di atas
+\mathl{U_i \cap U_j}{.}
+}{Untuk indeks-indeks
+
+\mavergleichskette
+{\vergleichskette
+{ i,j,k
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku
+\definitionswort {syarat koklus}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi_{kj} \circ \varphi_{ji}
+}
+{ =} { \varphi_{ki}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+sebagai pemetaan dari
+\mathl{E_{i} {{|}}_{U_i \cap U_j \cap U_k }}{} ke
+\mathl{E_{k}  {{|}}_{U_i \cap U_j \cap U_k }}{}.
+}
+
+}
+
+\inputbemerkung
+{}
+{
+
+Secara khas, dalam
+[[Topologisches reelles Vektorbündel/Verklebungsdatum/Definition|Definisi 12.10]]
+bundel-bundel vektor pada (2) adalah bundel-bundel vektor trivial di atas $U_i$, yakni
+
+\mavergleichskette
+{\vergleichskette
+{E_i
+}
+{ = }{ \R^r \times U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Isomorfisme-isomorfisme pada (3) kemudian hanya diberikan oleh pemetaan linear bijektif
+\maabb {\varphi_{ji}} { \R^r} { \R^r
+} {}
+yang bergantung secara kontinu pada titik dasar dari
+\mathl{U_i \cap U_j}{}. Pemetaan-pemetaan ini dapat dideskripsikan secara ringkas oleh pemetaan kontinu
+\maabbdisp {\varphi_{ji}} {U_i \cap U_j } { \operatorname{GL}_{  r   } \! \left(  \R  \right)
+} {}
+ke dalam
+\definitionsverweis {grup linear umum}{}{}
+. Jadi, setiap titik dasar dipetakan secara kontinu ke suatu objek
+\definitionsverweis {invertibel}{}{}
+berupa $r \times r$-
+\definitionsverweis {matriks}{}{,}
+di mana kontinuitas berarti bahwa semua entri matriks merupakan fungsi kontinu. Ini disebut \stichwort {deskripsi matriks} {} dari bundel tersebut. Syarat koklus tetap berlaku.
+
+}
+
+__NOEDITSECTION__
+\inputfaktbeweis
+{Topologisches reelles Vektorbündel/Verklebungsdatum/Existenz/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan diberikan suatu
+\definitionsverweis {data perekatan}{}{}
+
+\mathbed {E_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+di atas suatu
+\definitionsverweis {ruang topologis}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{X
+}
+{ =} { \bigcup_{i \in I} U_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+.}
+\faktfolgerung {Maka terdapat suatu bundel vektor riil yang ditentukan secara tunggal
+\maabb {} { E } { X
+} {}
+beserta
+\definitionsverweis {isomorfisme-isomorfisme}{}{}
+\maabb {\psi_i} {E_i } { E \vert_{U_i }
+} {}
+sedemikian sehingga
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \psi_i \vert_{ E_i {{ |}}_{ U_{i} \cap U_j } }
+}
+{ =} { \psi_j \vert_{ E_j {{ |}}_{ U_{i} \cap U_j } }  \circ \varphi_{ji}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+berlaku.}
+\faktzusatz {}
+\faktzusatz {}
+
+ }
+{ Lihat [[Topologisches reelles Vektorbündel/Verklebungsdatum/Existenz/Fakt/Beweis/Aufgabe|Soal 12.12]]. }
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesunggif {Fiddler_crab_mobius_strip} {gif} }
+\end{center}
+\bildtext {Animasi seekor kepiting biola yang mengelilingi pita Möbius dan kembali dengan orientasi tercermin. Edisi PDF menampilkan bingkai pertama yang statis; animasi asli dipertahankan untuk edisi HTML dan unduhan.} }
+
+\bildlizenz { Fiddler_crab_mobius_strip.gif } {} {Hamishtodd1} {Commons} {CC-by-sa 4.0} {}
+
+\inputbeispiel{}
+{
+
+Pada lingkaran satu dimensi
+
+\mavergleichskettedisp
+{\vergleichskette
+{S^1
+}
+{ =} { \left\{ (x,y) \in \R^2  \mid   x^2+y^2 = 1        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+kita meninjau
+\definitionsverweis {penutup terbuka}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{S^1
+}
+{ = }{ U \cup V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ = }{S^1 \setminus \{(0,1)\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ = }{S^1 \setminus \{(0,-1)\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Di atasnya kita mendeskripsikan suatu
+\definitionsverweis {data perekatan}{}{}
+untuk bundel vektor riil ber-rank $1$. Kedua himpunan terbuka tersebut
+\definitionsverweis {homeomorfik}{}{}
+dengan garis riil. Kita mempunyai
+
+\mavergleichskettedisp
+{\vergleichskette
+{U \cap V
+}
+{ =} { S^1 \setminus \{(0,1), (0,-1)  \}
+}
+{ =} { \left\{ (x,y) \in  S^1   \mid   x \neq 0        \right\}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dan himpunan ini tidak
+\definitionsverweis {terhubung}{}{,}
+melainkan homeomorfik dengan dua setengah garis riil terbuka yang saling lepas
+\zusatzklammer {atau, ekuivalen, dengan garis-garis} {} {.}
+Kita tetapkan
+
+\mavergleichskette
+{\vergleichskette
+{L
+}
+{ = }{ U \times \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ = }{ V \times \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Kita mendefinisikan suatu
+\definitionsverweis {isomorfisme}{}{}
+\maabbdisp {\varphi} {L \vert_{U \cap V} } { M\vert_{U \cap V}
+} {}
+melalui
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi(x,y,t)
+}
+{ \defeq} { \begin{cases}  (x,y,t) \text{ untuk } x > 0 \, , \\  (x,y,-t) \text{ untuk } x < 0  \,  \end{cases}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+. Perhatikan bahwa $\varphi$ kontinu karena kedua ekspresi fungsional itu berlaku pada himpunan bagian terbuka yang saling lepas. Pada separuh yang satu pemetaannya adalah identitas, sedangkan pada separuh yang lain pemetaannya membalik. Dalam pengertian
+[[Verklebungsdatum/Vektorbündel/Trivialisierungen/Bemerkung|Catatan 12.11]]
+kita memperoleh deskripsi matriks
+\zusatzklammer {konstan} {} {}
+yang kontinu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \psi (x,y)
+}
+{ \defeq} { \begin{cases}  (1) \text{ untuk } x > 0 \, , \\  (-1) \text{ untuk } x < 0  \, , \end{cases}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+pada
+\mathl{U \cap V}{}. Karena hanya terdapat dua himpunan terbuka, syarat koklus terpenuhi secara otomatis. Berdasarkan
+[[Topologisches reelles Vektorbündel/Verklebungsdatum/Existenz/Fakt|Lema 12.12]]
+data perekatan ini mendefinisikan suatu bundel vektor riil ber-rank $1$ pada lingkaran tersebut, yang disebut \stichwort {pita Möbius} {}.
+
+}
+
+ [[Kategori:Latexseite]]

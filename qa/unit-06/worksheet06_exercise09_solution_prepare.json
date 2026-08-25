@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-06/worksheet06_exercise09_solution.id.tex",
+  "input_bytes": 595,
+  "input_sha256": "fd027471aa6655aaf6b2d07c60e7a96cb5d13df961adca1c38d2021cc19cf39b",
+  "output": "build/generated/worksheet06_exercise09_solution.id.build.tex",
+  "output_bytes": 474,
+  "output_sha256": "4ade5a70dbb8a98d862bb72e76218f02233894cf57bcc7352fb266fd620e9a99",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Differenzierbare Hyperfläche/Differenzierbare Kurve/Ableitung parallel/Geodätische/Fakt",
+      "label": "Fakta"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

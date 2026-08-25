@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "unit": 7,
+  "surface": "worksheet07_exercise13_solution",
+  "description": "Source-linked animation surfaces preserved separately from static TeX media attribution.",
+  "assets": [
+    {
+      "filename": "Aufgabe75.22.1.gif",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Aufgabe75.22.1.gif",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Aufgabe75.22.1.gif",
+      "creator": "Präzise",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commons_pageid": 45528141,
+      "commons_lastrevid": 1254892135,
+      "image_timestamp": "2015-12-09T12:48:21Z",
+      "bytes": 200686,
+      "sha1": "04568d0755b0f831c499707065efb2a697c7fbf0",
+      "sha256": "dae99541dcac8721909366df89d67ee7ddc46ff49c24750c71f7d1e00245acca",
+      "alt_text_source": "Konstruktion der Objekte von Aufgabe 75.22",
+      "role": "source-linked animation; retain as an interactive/downloadable surface"
+    },
+    {
+      "filename": "Aufgabe75.22.2.gif",
+      "source_page": "https://commons.wikimedia.org/wiki/File:Aufgabe75.22.2.gif",
+      "source_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Aufgabe75.22.2.gif",
+      "creator": "Präzise",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "commons_pageid": 45528285,
+      "commons_lastrevid": 1254892149,
+      "image_timestamp": "2015-12-09T12:53:21Z",
+      "bytes": 1640205,
+      "sha1": "8e6d8679909f574dea870e516306b9b192545488",
+      "sha256": "091b7d19856eb36aaf704bd23e26e46d0119ed97fcd736fb68cababa7ab7e942",
+      "alt_text_source": "Variation von S in Aufgabe 75.22",
+      "role": "source-linked animation; retain as an interactive/downloadable surface"
+    }
+  ]
+}

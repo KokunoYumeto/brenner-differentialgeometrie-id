@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://commons.wikimedia.org/w/api.php",
+  "http_date": "Mon, 24 Aug 2026 02:14:29 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "iiprop": "timestamp|user|url|size|sha1|mime|extmetadata",
+    "prop": "info|imageinfo",
+    "titles": "File:Aufgabe79.27.gif"
+  },
+  "response_bytes": 2349,
+  "response_path": "unit11_interactive_media_imageinfo_current.json",
+  "response_sha256": "2c21b9a841168a58e8ccfa156c6e4d802b4ac67aaff6cb58930ebd333c172cb3",
+  "retrieved_utc": "2026-08-24T02:14:29Z",
+  "schema_version": 1
+}

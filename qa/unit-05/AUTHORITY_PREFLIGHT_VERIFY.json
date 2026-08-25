@@ -1,0 +1,19 @@
+{
+  "exercise_candidates_verified": 15,
+  "expanded_surfaces_verified": 3,
+  "media_assets_verified": 1,
+  "media_occurrences_verified": 1,
+  "preflight": {
+    "bytes": 26812,
+    "path": "qa/unit-05/AUTHORITY_PREFLIGHT.json",
+    "sha256": "3cd23e9c6ef0a74309a680c5f754817c607f533ed935b960e0def949fd12184c"
+  },
+  "root_page_witnesses_verified": 4,
+  "schema_version": 1,
+  "status": "pass",
+  "supplied_solution_indices": [
+    1
+  ],
+  "unit": 5,
+  "workflow": "o011-unit-authority-offline-verifier-v1"
+}

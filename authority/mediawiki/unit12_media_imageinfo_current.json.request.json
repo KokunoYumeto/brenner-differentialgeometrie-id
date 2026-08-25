@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://commons.wikimedia.org/w/api.php",
+  "http_date": "Mon, 24 Aug 2026 02:08:42 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "iiprop": "timestamp|user|url|size|sha1|mime|extmetadata",
+    "prop": "info|imageinfo",
+    "titles": "File:Fiddler_crab_mobius_strip.gif|File:Inclusion-exclusion.svg"
+  },
+  "response_bytes": 4752,
+  "response_path": "unit12_media_imageinfo_current.json",
+  "response_sha256": "3369ef34052997bc89360ea733eecfc6aa59349b8a4094ffc0913ea5ad31944f",
+  "retrieved_utc": "2026-08-24T02:08:41Z",
+  "schema_version": 1
+}

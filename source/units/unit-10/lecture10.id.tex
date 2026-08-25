@@ -1,0 +1,1282 @@
+\setcounter{section}{10}
+
+  \zwischenueberschrift{Submanifold tertutup}
+
+\inputdefinition
+{}
+{
+
+Misalkan $N$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dengan
+\definitionsverweis {dimensi}{}{}
+$n$ dan
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {himpunan bagian tertutup}{}{.}
+Maka $M$ disebut \definitionswort {submanifold tertutup}{} berdimensi $m$ dari $N$ jika untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat suatu
+\definitionsverweis {peta}{}{}\zusatzfussnote {Yang dimaksud dengan peta di sini adalah setiap peta yang kompatibel dengan atlas yang telah diberikan; peta itu sendiri tidak harus termasuk dalam atlas tersebut} {.} {}
+\maabbdisp {\theta} { W } { W'
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ W
+}
+{ \subseteq }{ N
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ W'
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka, dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M \cap W
+}
+{ =} { \theta^{-1} (( \R^m  \times\{0\}) \cap W' )
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+Ini tepat merupakan sifat yang dimiliki serat suatu pemetaan diferensiabel antara ruang-ruang Euklides di suatu titik reguler berdasarkan
+[[Satz über implizite Abbildungen/Globale Diffeomorphismen/Induzierte Diffeomorphismen zwischen Faser und Achsenräumen/Fakt|teorema pemetaan implisit]].
+Dengan kata lain, serat-serat semacam itu merupakan submanifold tertutup dari
+
+\mavergleichskette
+{\vergleichskette
+{ N
+}
+{ = }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Abgeschlossene Untermannigfaltigkeit/Ist Mannigfaltigkeit/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan $N$ suatu
+\definitionsverweis {manifold diferensiabel}{}{} dengan
+\definitionsverweis {dimensi}{}{}
+$n$ dan
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {submanifold tertutup}{}{}
+berdimensi $m$ dari $N$.}
+\faktfolgerung {Maka $M$ merupakan suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+sedemikian sehingga inklusi
+ \maabb {\iota} { M } { N
+} {}
+merupakan suatu pemetaan diferensiabel.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Struktur diferensiabel pada $M$ diberikan dengan mengidentifikasi sumbu
+$\R^m\times\{0\}$ dengan $\R^m$, melalui peta-peta
+\maabbdisp {\beta=\operatorname{pr}_{\R^m}\circ\theta\!\mid_{M\cap W}} {M \cap W} {\operatorname{pr}_{\R^m}\bigl((\R^m \times \{0\}) \cap W'\bigr)
+} {}
+.
+Bahwa sifat difeomorfisme dari pemetaan-pemetaan transisi diwariskan kepada pembatasannya diperoleh seperti dalam [[Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt/Beweis|bukti]]
+[[Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt|Teorema 8.2]].
+Bahwa pemetaan tersebut diferensiabel diperoleh dari fakta bahwa bagi suatu domain peta terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat diagram komutatif
+
+\mathdisp {\begin{matrix} M\cap W & \stackrel{  }{\longrightarrow} &  W  &  \\ \downarrow & & \downarrow  & \\  M  & \stackrel{  }{\longrightarrow} &  N & \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }
+
+dengan panah-panah vertikal merepresentasikan penyematan terbuka dan panah-panah horizontal merepresentasikan penyematan tertutup. Panah horizontal adalah pembatasan inklusi $\iota$ dan inklusi itu sendiri. Melalui peta $\beta$ pada sumber dan $\theta$ pada sasaran, panah atas bersesuaian dengan
+\maabbdisp {j} {\operatorname{pr}_{\R^m}\bigl((\R^m \times \{0\}) \cap W'\bigr)} {W'
+} {,}
+dengan $j(x)=(x,0)$, yaitu penyematan tertutup suatu subruang koordinat, yang tentu saja diferensiabel.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Abgeschlossene Untermannigfaltigkeit/Punktweise/Tangentialraum als Unterraum/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan $N$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dengan
+\definitionsverweis {dimensi}{}{}
+$n$ dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {submanifold tertutup}{}{}
+berdimensi $m$, dengan inklusi
+\maabb {\iota} {M} {N
+} {.}}
+\faktfolgerung {Maka untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {pemetaan singgung}{}{}
+\maabbdisp {T_P\iota} { T_PM } { T_PN
+} {}
+bersifat
+\definitionsverweis {injektif}{}{.}}
+\faktzusatz {Dengan kata lain, ruang singgung
+\mathl{T_PM}{} merupakan
+\definitionsverweis {subruang vektor}{}{}
+berdimensi $m$ dari
+\mathl{T_PN}{.}}
+\faktzusatz {}
+
+}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ V
+}
+{ \subseteq }{ N
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu domain peta dengan peta
+\maabbdisp {\alpha} { V } { V'
+} {}
+serta dengan peta submanifold
+\maabbdisp {\beta=\operatorname{pr}_{\R^m}\circ\alpha\!\mid_U} {U = M \cap  V } { U' = \operatorname{pr}_{\R^m}\bigl((\R^m\times\{0\})\cap V'\bigr)
+} {.}
+Menurut
+[[Tangentialabbildung/Punktweise/Elementare Eigenschaften/Fakt|Lema 9.10  (2)]],
+kita mempunyai diagram komutatif
+
+\mathdisp {\begin{matrix} T_PM & \stackrel{ T_P\iota }{\longrightarrow} & T_PN &  \\ \downarrow & & \downarrow  & \\  \R^m  & \stackrel{ j }{\longrightarrow} & \R^n  & \! \! \! \!\!\!\!\! .  \\ \end{matrix}} {  }
+
+Pemetaan horizontal bawah adalah diferensial total di $\beta(P)$ dari representasi koordinat inklusi,
+\maabbdisp {\alpha\circ\iota\circ\beta^{-1}} {U'} {V'
+} {,}
+dan sama dengan inklusi linear
+
+\mavergleichskette
+{\vergleichskette
+{ \R^m
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+sehingga injektif. Karena pemetaan-pemetaan vertikal bersifat bijektif, pemetaan horizontal atas juga injektif.
+
+}
+
+Dari pernyataan terakhir juga diperoleh bahwa di suatu titik reguler $P$ dari serat $M$ suatu pemetaan diferensiabel
+\maabb {\varphi} {G} {\R^k
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{G
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka, ruang yang didefinisikan sebagai kernel diferensial total
+\zusatzklammer {sebagai subruang vektor dari
+
+\mavergleichskettek
+{\vergleichskettek
+{ \R^n
+}
+{ = }{ T_P \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+dan disebut
+\definitionsverweis {ruang singgung}{}{}
+berimpit dengan
+\definitionsverweis {ruang singgung}{}{}
+serat tersebut sebagai manifold diferensiabel. Berdasarkan
+[[Abgeschlossene Untermannigfaltigkeit/Punktweise/Tangentialraum als Unterraum/Fakt|Teorema 10.3]],
+ruang singgung
+\zusatzklammer {abstrak} {} {}
+\mathl{T_PM}{} merupakan subruang vektor dari
+
+\mavergleichskette
+{\vergleichskette
+{ T_P\R^n
+}
+{ = }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berdimensi
+\mathl{n-k}{.}
+Kernel diferensial total yang surjektif
+\maabb {\left(D\varphi\right)_{P}} { \R^n } { \R^k
+} {}
+juga merupakan subruang vektor
+\mathl{(n-k)}{-}dimensional dari $\R^n$. Kesamaan kedua subruang vektor tersebut diperoleh dari fakta bahwa kurva-kurva terdiferensialkan yang mendefinisikan ruang singgung abstrak
+\maabbdisp {\gamma} {I} {M
+} {}
+menjadi konstan setelah dikomposisikan dengan $\varphi$; lihat
+[[Differenzierbare Abbildung/Reguläre Faser/Tangentialraum als Kern und zu Mannigfaltigkeit/Aufgabe|Soal 10.12]].
+
+  \zwischenueberschrift{Bundel tangen}
+
+Untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+pada suatu manifold terdapat
+\definitionsverweis {ruang singgung}{}{}
+
+\mathl{T_PM}{.}
+Ruang singgung merupakan ruang vektor berdimensi $n$, dengan $n$ dimensi manifold tersebut. Elemen-elemennya adalah vektor singgung, yakni \anfuehrung{arah infinitesimal}{} di titik tersebut. Arah-arah singgung di dua titik yang berbeda pada mulanya sama sekali tidak saling berkaitan, sebab definisi tepatnya masing-masing hanya bergantung pada lingkungan terbuka titik-titik itu yang sekecil apa pun, dan lingkungan tersebut dapat dipilih saling lepas berdasarkan
+\definitionsverweis {sifat Hausdorff}{}{.}
+
+Hal ini sangat bertentangan dengan gambaran yang diasosiasikan dengan suatu himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+.
+Di sana, untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ruang singgung
+\mathl{T_QV}{}
+dapat diidentifikasi secara alami dengan ruang vektor ambien $\R^n$ dengan memetakan suatu vektor
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ke vektor singgung yang didefinisikan oleh kurva linear
+\mathl{t \mapsto Q+tv}{}
+.
+Karena identifikasi ini berlaku untuk setiap titik, terdapat kesejajaran langsung antara ruang-ruang singgung bagi
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+.
+
+Karena suatu manifold ditutupi oleh himpunan-himpunan terbuka yang difeomorfik dengan himpunan-himpunan terbuka dalam ruang Euklides, wajar diduga bahwa berbagai ruang singgung tersebut tidak sepenuhnya terisolasi satu sama lain. Konsep \stichwort {bundel tangen} {} menyatukan semua ruang singgung dan memungkinkan keterhubungan lokal di antara ruang-ruang singgung itu dicerminkan.
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Tangent_bundle} {svg} }
+\end{center}
+\bildtext {Dua visualisasi bundel tangen sebuah lingkaran. Di bagian atas, ruang singgung lingkaran pada setiap titik $P$ ditempatkan \anfuehrung{secara tangensial}{} dan direalisasikan sebagai subruang afin berdimensi satu di dalam $\R^2$ ambien. Penyematan ini menimbulkan perpotongan yang sebenarnya tidak ada dalam bundel tangen, karena titik dasar $P$ juga harus diperhitungkan. Di bagian bawah, ruang-ruang singgung pada setiap titik lingkaran disusun secara paralel sehingga menghasilkan sebuah silinder.} }
+
+\bildlizenz { Tangent bundle.svg } {} {Oleg Alexandrov} {Commons} {PD} {}
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{.}
+Himpunan
+
+\mavergleichskettedisp
+{\vergleichskette
+{TM
+}
+{ =} {\biguplus_{P \in M} T_PM
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+yang dilengkapi dengan pemetaan proyeksi
+\maabbeledisp {\pi} {TM} {M
+} {(P,v)} {P
+} {,}
+disebut \definitionswort {bundel tangen}{} dari $M$.
+
+}
+
+Jadi, suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ u
+}
+{ \in }{ TM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dalam bundel tangen selalu mempunyai suatu \stichwort {titik dasar} {}
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan merupakan elemen ruang singgung
+\mathl{T_PM}{.}
+Titik semacam itu biasanya ditulis sebagai
+\mathl{(P,v)}{} dengan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Untuk suatu himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku
+
+\mavergleichskette
+{\vergleichskette
+{ TV
+}
+{ = }{ V \times \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+sehingga merupakan ruang produk. Hal ini secara umum tidak berlaku bagi sebarang manifold. Pada mulanya, bundel tangen hanya menggabungkan berbagai ruang singgung secara saling lepas tanpa mengidentifikasi ruang-ruang singgung yang berbeda; namun, topologi yang sebentar lagi akan kita perkenalkan pada bundel tangen menghasilkan suatu \anfuehrung{struktur ketetanggaan}{} tambahan di antara ruang-ruang singgung tersebut.
+
+\inputdefinition
+{}
+{
+
+Misalkan
+\mathkor {} {M} {dan} {N} {}
+\definitionsverweis {manifold diferensiabel}{}{}
+dan
+\maabbdisp {\varphi} { M } { N
+} {}
+suatu
+\definitionsverweis {pemetaan diferensiabel}{}{.}
+Misalkan
+\mathkor {} {TM} {dan} {TN} {}
+\definitionsverweis {bundel-bundel tangen}{}{}
+yang bersesuaian. Yang dimaksud dengan \definitionswort {pemetaan singgung}{}
+\maabbdisp {T (\varphi)} {TM} {TN
+} {}
+adalah gabungan saling lepas dari
+\definitionsverweis {pemetaan-pemetaan singgung}{}{}
+di setiap titik, yaitu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T (\varphi)
+}
+{ =} { \biguplus_{P \in M} T_P(\varphi)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+\inputbeispiel{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan
+\maabbdisp {\alpha} { U } { V
+} {}
+suatu
+\definitionsverweis {peta}{}{}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{.}
+Maka peta tersebut menginduksi bijeksi alami
+\maabbeledisp {T \left(  \alpha^{-1}  \right)} {TV =  V \times \R^n } { TU
+} {(Q,v)} { \left(  \alpha^{-1}(Q) ,[s \mapsto \alpha^{-1}( Q+ sv) ]  \right)
+} {.}
+Di sini,
+
+\mavergleichskette
+{\vergleichskette
+{ s
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bergerak dalam suatu
+\definitionsverweis {interval real}{}{}
+sedemikian sehingga
+
+\mavergleichskette
+{\vergleichskette
+{ Q+sv
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {bandingkan
+[[Differenzierbare Mannigfaltigkeit/Differenzierbare Kurve/Tangentialklassen und R^n unter Karte/Fakt|Lema 9.5]]} {} {.}
+Karena
+\mathl{V \times \R^n}{} merupakan
+\definitionsverweis {produk ruang-ruang topologis}{}{,}
+maka
+
+\mavergleichskette
+{\vergleichskette
+{ T V
+}
+{ = }{ V \times \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sendiri merupakan
+\definitionsverweis {ruang topologis}{}{,}
+dan wajar untuk memindahkan topologi ini ke $TU$ serta menggunakannya untuk mengonstruksi sebuah topologi pada
+\definitionsverweis {bundel tangen}{}{}
+$TM$ secara keseluruhan.
+
+}
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dengan
+\definitionsverweis {dimensi}{}{}
+$n$ dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ TM
+}
+{ =} {\biguplus_{P \in M} T_P M
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\definitionsverweis {bundel tangen}{}{,}
+yang dilengkapi dengan pemetaan proyeksi
+\maabbeledisp {\pi} { TM } { M
+} { (P,v) } { P
+} {.}
+\definitionswort {Bundel tangen}{} dilengkapi dengan
+\definitionsverweis {topologi}{}{}
+yang mempunyai sifat bahwa suatu himpunan bagian
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ TM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka jika dan hanya jika untuk setiap
+\definitionsverweis {peta}{}{}
+\maabbdisp {\alpha} { U } { V
+} {}
+himpunan
+\mathl{(T(\alpha)) \left(  W \cap \pi^{-1}(U)  \right)}{}
+terbuka di dalam
+\mathl{V \times \R^n}{}
+.
+
+}
+
+Secara khusus, untuk setiap himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+prapeta
+
+\mavergleichskette
+{\vergleichskette
+{  \pi^{-1}(U)
+}
+{ = }{ TU
+}
+{ \subseteq }{ TM
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka, yakni proyeksi $\pi$ kontinu.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Differenzierbare Mannigfaltigkeit/Abbildung/Tangentialabbildung/Eigenschaften/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan
+\mathkor {} {M} {dan} {N} {}
+\definitionsverweis {manifold diferensiabel}{}{}
+dan misalkan
+\maabbdisp {\varphi} { M } { N
+} {}
+suatu
+\definitionsverweis {pemetaan diferensiabel}{}{.}
+Misalkan
+\maabbdisp {T(\varphi)} {TM} {TN
+} {}
+\definitionsverweis {pemetaan singgung}{}{}
+yang bersesuaian.}
+\faktuebergang {Maka berlaku pernyataan-pernyataan berikut.}
+\faktfolgerung {\aufzaehlungsechs{Terdapat suatu
+\definitionsverweis {diagram komutatif}{}{}
+
+\mathdisp {\begin{matrix} TM & \stackrel{ T(\varphi) }{\longrightarrow} & TN &  \\ \!\!\!\!\! \pi \downarrow & & \downarrow \pi \!\!\!\!\!  & \\  M  & \stackrel{ \varphi }{\longrightarrow} &  N  & \! \! \! \!\!\!\!\! .  \\ \end{matrix}} {  }
+
+}{Untuk suatu peta
+\maabbdisp {\alpha} { U } { V
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka dan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka, terdapat diagram komutatif
+
+\mathdisp {\begin{matrix} TU & \stackrel{ T(\alpha) }{\longrightarrow} & TV = V \times \R^m  &  \\ \downarrow & & \downarrow  & \\  U  & \stackrel{ \alpha }{\longrightarrow} &  V  & \! \! \! \!\!\!\!\! .  \\ \end{matrix}} {  }
+
+}{Jika
+\mathkor {} {M \subseteq \R^m} {dan} {N \subseteq \R^n} {}
+merupakan
+\definitionsverweis {himpunan-himpunan bagian terbuka}{}{}
+dan bundel-bundel tangen diidentifikasi berturut-turut dengan
+\mathl{M \times \R^m}{} dan
+\mathl{N \times \R^n}{}
+,
+maka pemetaan singgung sama dengan
+\maabbeledisp {} {M \times \R^m } { N \times \R^n
+} {(P,v)} { \left(  \varphi(P), \left(  D\varphi  \right)_{ P } \left(  v  \right)  \right)
+} {.}
+}{Jika $L$ suatu
+\definitionsverweis {manifold}{}{}
+lain dan
+\maabbdisp {\psi} { L } { M
+} {}
+suatu pemetaan diferensiabel lain, maka berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T( \varphi \circ \psi)
+}
+{ =} { T( \varphi) \circ T( \psi)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Pemetaan singgung
+\mathl{T(\varphi)}{}
+bersifat
+\definitionsverweis {kontinu}{}{.}
+}{Jika $\varphi$ suatu
+\definitionsverweis {difeomorfisme}{}{,}
+maka
+\mathl{T(\varphi)}{}
+merupakan suatu
+\definitionsverweis {homeomorfisme}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{(1) langsung mengikuti dari definisi
+\definitionsverweis {pemetaan singgung}{}{.}}
+{}
+\teilbeweis {}{}{}
+{(2) mengikuti dari (1) dengan menggunakan identifikasi alami
+
+\mavergleichskette
+{\vergleichskette
+{ TV
+}
+{ = }{ V \times \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+untuk suatu himpunan terbuka $V\subseteq\R^m$; dengan demikian $TV$ terbuka di dalam $\R^{2m}$.}
+{}
+\teilbeweis {}{}{}
+{(3) mengikuti dari
+[[Tangentialabbildung/Punktweise/Elementare Eigenschaften/Fakt|Lema 9.10  (1)]].}
+{}
+\teilbeweis {}{}{}
+{(4) mengikuti dari
+[[Tangentialabbildung/Punktweise/Elementare Eigenschaften/Fakt|Lema 9.10  (4)]].}
+{}
+\teilbeweis {}{}{}
+{(5). Bagi suatu himpunan terbuka
+
+\mavergleichskettedisp
+{\vergleichskette
+{ V
+}
+{ \subseteq} { N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+berlaku
+
+\mavergleichskette
+{\vergleichskette
+{ TV
+}
+{ = }{ \pi^{-1} V
+}
+{ \subseteq }{ TN
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka, sehingga
+
+\mavergleichskette
+{\vergleichskette
+{ (T(\varphi))^{-1} TV
+}
+{ = }{ T(\varphi^{-1}(V))
+}
+{ \subseteq }{ TM
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka. Cukup dibuktikan kontinuitas
+\maabbdisp {} {T(\varphi^{-1}(V))} {TV
+} {}
+.
+Di sini, $V$ dapat diambil sebagai domain peta dan $\varphi^{-1}(V)$ dapat ditutupi oleh domain-domain peta. Maka cukup menunjukkan kontinuitas pembatasan
+\maabbdisp {T(\varphi)\!\mid_{TU}} {TU} {TV
+} {}
+untuk domain-domain peta $U\subseteq M$ dan $V\subseteq N$ dengan $\varphi(U)\subseteq V$. Pilih peta
+\maabb {\alpha} {U} {U'
+} {}
+dan
+\maabbdisp {\beta} {V} {V'
+} {,}
+lalu tuliskan representasi koordinatnya sebagai
+\maabbdisp {\widetilde\varphi=\beta\circ\varphi\circ\alpha^{-1}} {U'} {V'
+} {.}
+Selanjutnya terdapat diagram komutatif
+
+\mathdisp {\begin{matrix} TU & \stackrel{ T(\varphi) }{\longrightarrow} & TV &  \\ \downarrow & & \downarrow  & \\ U' \times \R^m  & \stackrel{  }{\longrightarrow} &  V' \times \R^n  & \! \! \! \!\!\!\!\! ,  \\ \end{matrix}} {  }
+ dengan pemetaan-pemetaan vertikal berupa homeomorfisme. Untuk pemetaan horizontal bawah kita berada dalam situasi yang dijelaskan pada (3). Jadi, kita harus membuktikan kontinuitas pemetaan
+\maabbeledisp {\widetilde T} {U' \times \R^m } { V' \times \R^n
+} {(x,v)} {(\widetilde\varphi(x), \left(  D\widetilde\varphi  \right)_{ x } \left(  v  \right) )
+} {,}
+dan kita hanya perlu meninjau komponen belakang, yaitu
+\mathl{\left(  D\widetilde\varphi  \right)_{ x } \left(  v  \right)}{.}
+Komponen ke-$j$ dari komponen tersebut adalah
+
+\mathdisp {\sum_{i=1}^m v_i { \frac{   \partial  \widetilde\varphi_j   }{  \partial   x_i   } } ( x)} { , }
+
+dan berdasarkan asumsi
+$C^1$-\definitionsverweis {diferensiabilitas
+}{}{-}, semua ini merupakan pemetaan kontinu.}
+{}
+\teilbeweis {}{}{}
+{(6) mengikuti dari (5).}
+{}
+
+}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Torus_vectors_oblique} {jpg} }
+\end{center}
+\bildtext {Suatu medan vektor pada torus. Setiap titik torus diberi suatu arah tangensial, yang ditunjukkan oleh panah-panah.} }
+
+\bildlizenz { Torus vectors oblique.jpg } {} {RokerHRO} {Commons} {CC-by-sa 3.0} {}
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{.}
+Suatu pemetaan
+\maabbdisp {F} { M } { TM
+} {}
+dengan sifat bahwa
+
+\mavergleichskette
+{\vergleichskette
+{ F(P)
+}
+{ \in }{  T_PM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+disebut
+\zusatzklammer {tak bergantung waktu} {} {}
+\definitionswort {medan vektor}{.}
+
+}
+\emph{Catatan penyunting.} Definisi di atas mencakup sebarang penampang sebagai medan vektor. Untuk menerapkan teorema keberadaan atau ketunggalan bagi persamaan diferensial biasa, diperlukan syarat regularitas tambahan pada medan tersebut, sesuai dengan teorema yang digunakan.
+Jadi, suatu medan vektor memberikan sebuah vektor arah di setiap titik. Secara ringkas, dikatakan pula bahwa medan vektor merupakan suatu \stichwort {penampang} {} dalam bundel tangen. Medan-medan vektor menghasilkan persamaan diferensial biasa pada manifold. Pada suatu himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat \stichwort {medan-medan vektor standar} {}
+
+\mathbed {\partial_i} {}
+ {1 \leq i \leq n} {}
+ {} {} {} {,}
+yang memetakan setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ke
+\definitionsverweis {vektor standar}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ e_i
+}
+{ \in }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang dipandang sebagai vektor singgung di $P$. Sebarang medan vektor $F$ pada $U$ kemudian dapat dituliskan sebagai
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ = }{ \sum_{i = 1}^n  f_i \partial_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan fungsi-fungsi $f_i$.
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{.}
+Himpunan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T^*M
+}
+{ =} {\biguplus_{P \in M} T^*_PM
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+yang dilengkapi dengan pemetaan proyeksi
+\maabbeledisp {\pi} { T^*M } { M
+} { (P,u) } { P
+} {,}
+dan dengan
+\definitionsverweis {topologi}{}{}
+yang mempunyai sifat bahwa suatu himpunan bagian
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ T^*M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{}
+jika dan hanya jika untuk setiap
+\definitionsverweis {peta}{}{}
+\maabbdisp {\alpha} { U } { V
+} {}
+himpunan
+\mathl{(T^*(\alpha))^{-1} \left(  W \cap \pi^{-1}(U)  \right)}{}
+terbuka di dalam
+\mathl{V \times (\R^n)^*}{}
+,
+disebut \definitionswort {bundel kotangen}{} dari $M$.
+
+}
+Penampang-penampang dalam bundel kotangen disebut bentuk diferensial-$1$. Kita akan kembali membahasnya secara terperinci.
+
+ [[Kategorie:Latexseite]]

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-10/worksheet10_exercise10_solution.id.tex",
+  "input_bytes": 5275,
+  "input_sha256": "4af0e5d19acc8555b0deb5fd7503008b86bb740f76ef8ce1482ff95d09cc7b22",
+  "output": "build/generated/worksheet10_exercise10_solution.id.build.tex",
+  "output_bytes": 5110,
+  "output_sha256": "1e6eeeb6fde3b2b40b048f74c3f73ac008cf0ee0ad8d3eb412e2b75cd4a5dc7f",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt",
+      "label": "fakta tentang serat reguler"
+    },
+    {
+      "target": "Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt",
+      "label": "fakta tentang serat reguler"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

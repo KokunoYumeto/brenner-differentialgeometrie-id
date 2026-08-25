@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "input": "authority/exports/lecture13_latex_expand.json",
+  "input_bytes": 28901,
+  "input_sha256": "6136c208c8f8eb4a08af109b5d63902aad65f497379678109e3f7c9e4bee5792",
+  "expanded_chars": 27104,
+  "output": "authority/expanded/lecture13_source.de.tex",
+  "output_bytes": 23322,
+  "output_sha256": "3416c47b07bef5b03ca2d70e4dae74691342555a207663af61d908ee0fe05da5",
+  "transform": [
+    "normalize CRLF/CR to LF",
+    "replace br tags with LF",
+    "remove div/pre/nowiki wrapper tags",
+    "decode HTML entities",
+    "canonicalize the single display-macro media stem Mobius_strip to Möbius_strip so it matches the adjacent exact Commons license filename",
+    "strip trailing horizontal whitespace",
+    "collapse runs of blank lines",
+    "require no residual HTML tag or U+FFFD"
+  ],
+  "source_anomaly": "The official Lecture 13 expansion spells the same displayed asset as Mobius_strip.jpg in the input macro and Möbius strip.jpg in the license macro; the unchanged API response preserves both spellings while this bounded source witness uses the canonical licensed Commons spelling."
+}

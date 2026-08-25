@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-24T07:49:41+02:00",
+  "unit_id": "o011-brenner-u12",
+  "status": "pass",
+  "scope": "Complete Lecture 12 and Worksheet 12 with exactly two source-supplied solutions; natural Indonesian reader prose; structural and protected-math preservation; bounded independent mathematical and language review; exact animated/static media and rights closure; deterministic frame-zero PDF fallback; explicit correction closure; and an equivalent aligned reflow of the two long Exercises 5-6 bundle displays inside the centered A4 text block. No cumulative PDF, HTML, backend, or publication gate is claimed at this per-unit boundary.",
+  "authority": {
+    "preflight": {
+      "path": "qa/unit-12/AUTHORITY_PREFLIGHT.json",
+      "bytes": 39355,
+      "sha256": "334789a72179046d0ef8bc741c256f953ab04e1f6728663ec4dd44ba0e01f6fa"
+    },
+    "offline_verification": {
+      "path": "qa/unit-12/AUTHORITY_PREFLIGHT_VERIFY.json",
+      "bytes": 519,
+      "sha256": "5f6bd731ef88456c7e7394ea13c6d05ec98c2129cd4c283f3b79876ecb3e7073"
+    },
+    "lecture": {
+      "pageid": 142556,
+      "revid": 1020020,
+      "path": "authority/expanded/lecture12_source.de.tex",
+      "bytes": 20823,
+      "sha256": "6f7ce6f22e12cc56f2de7874634f1a96cc65211264873c47ed485f2ea1e0cc32"
+    },
+    "worksheet": {
+      "pageid": 142646,
+      "revid": 906760,
+      "path": "authority/expanded/worksheet12_source.de.tex",
+      "bytes": 19055,
+      "sha256": "d88e5c3200b8ff324d1d720ee78a44a2c2c23d4ce69c29e7c999526b7226b1f9"
+    },
+    "supplied_solutions": [
+      {
+        "exercise": 11,
+        "path": "authority/expanded/worksheet12_exercise11_solution_source.de.tex",
+        "bytes": 2109,
+        "sha256": "7fc7712e2556623eb4e427a9353e09ceeb2ceb330d90273f9dc32ed6ab571c16"
+      },
+      {
+        "exercise": 12,
+        "path": "authority/expanded/worksheet12_exercise12_solution_source.de.tex",
+        "bytes": 1157,
+        "sha256": "239c68ec16add06aace3cd58c27d7b1dfa74c11cb26b4c0d2d3958e7786cd681"
+      }
+    ],
+    "solution_closure": {
+      "path": "qa/unit-12/solution_closure.json",
+      "bytes": 18434,
+      "sha256": "68d0bbe1370a8454d6e7f4899f543b8ff0fb6f63496b030fb23b79564b50e655"
+    }
+  },
+  "targets": {
+    "lecture": {
+      "path": "source/units/unit-12/lecture12.id.tex",
+      "bytes": 21299,
+      "sha256": "993875dc8f085e0bddaaac813179dade7e5a2928d53c1e575c7c4f09bc6074f1",
+      "translation_receipt": "qa/unit-12/lecture12_translation.json",
+      "translation_receipt_bytes": 3679,
+      "translation_receipt_sha256": "4587fa188eaadddea400b1d255ced76a4afd09d9b9a6f347e3fd237acbebde28"
+    },
+    "worksheet": {
+      "path": "source/units/unit-12/worksheet12.id.tex",
+      "bytes": 19723,
+      "sha256": "b773f00690f9d5128cf602ec8f96d816e58009113f9051f198966e98c1a76975",
+      "translation_receipt": "qa/unit-12/worksheet12_translation.json",
+      "translation_receipt_bytes": 3002,
+      "translation_receipt_sha256": "5625d000ccb5290070a7e6caced1cffd357f279f7d75fc043405900b3f542d11"
+    },
+    "supplied_solutions": [
+      {
+        "exercise": 11,
+        "path": "source/units/unit-12/worksheet12_exercise11_solution.id.tex",
+        "bytes": 2143,
+        "sha256": "fcee4e2a7cbf9c36b053c0831c5ac51aa99553870ddf7e9b10c7b04ac301a210",
+        "translation_receipt": "qa/unit-12/worksheet12_exercise11_solution_translation.json",
+        "translation_receipt_bytes": 1265,
+        "translation_receipt_sha256": "ceb1d01ff2f810ea2077e079e5e08d2a7ac90c20858991002a387f75f137c8c7"
+      },
+      {
+        "exercise": 12,
+        "path": "source/units/unit-12/worksheet12_exercise12_solution.id.tex",
+        "bytes": 1306,
+        "sha256": "3efe62a19d10bbf4f36301f6753f0f29f7480030dd2a1fe7a0ae914b1957d23f",
+        "translation_receipt": "qa/unit-12/worksheet12_exercise12_solution_translation.json",
+        "translation_receipt_bytes": 1094,
+        "translation_receipt_sha256": "8f41031fbb124b4ba525eefff4d99d59fe356750ac011d194f2a8988aacc66f6"
+      }
+    ]
+  },
+  "prepared_fragments": [
+    {
+      "path": "build/generated/lecture12.id.build.tex",
+      "bytes": 20287,
+      "sha256": "3dd57fbe38399ceff2118b7bffcf69b845b72e397ba212d7c56e0f417951554c",
+      "preparation_receipt": "qa/unit-12/lecture12_prepare.json",
+      "preparation_receipt_sha256": "52249a9e999cf5159f92932b531a4a9919a7d59709e8ae15ff1ec84d5fddd08a"
+    },
+    {
+      "path": "build/generated/worksheet12.id.build.tex",
+      "bytes": 19290,
+      "sha256": "251d7ad2328904eab479795b7c3762ceec7a7a6b6709873e77f09d26ce071055",
+      "preparation_receipt": "qa/unit-12/worksheet12_prepare.json",
+      "preparation_receipt_sha256": "54ec759b95bb4e7c5a33b199ee61cbf951e4c51291b1cb04dc7fcb43b48ea25b"
+    },
+    {
+      "path": "build/generated/worksheet12_exercise11_solution.id.build.tex",
+      "bytes": 2048,
+      "sha256": "be75ff34b04de199f5c6a7d1c65d949f2623fcfb56746813c85ec3b8c4a3aa4f",
+      "preparation_receipt": "qa/unit-12/worksheet12_exercise11_solution_prepare.json",
+      "preparation_receipt_sha256": "a139f8925b791f2e1519461ec52fe5558b97cbc4c16a2ba8a0264e16aba0cd2f"
+    },
+    {
+      "path": "build/generated/worksheet12_exercise12_solution.id.build.tex",
+      "bytes": 1162,
+      "sha256": "0b57624a796e6e528b7e1e0129b094ab1a50423bd223c34c150dd91c39492540",
+      "preparation_receipt": "qa/unit-12/worksheet12_exercise12_solution_prepare.json",
+      "preparation_receipt_sha256": "0e0b51b194f7f844a958d5a14c3d00b3442be3d588fc9b5cdd1517b73bd63988"
+    }
+  ],
+  "source_closure": {
+    "exercise_count": 29,
+    "practice_exercise_count": 25,
+    "graded_exercise_count": 4,
+    "graded_exercise_indices": [26, 27, 28, 29],
+    "graded_point_values": [4, 4, 3, 4],
+    "point_total": 15,
+    "hint_fields_blank": true,
+    "supplied_solution_indices": [11, 12],
+    "missing_solution_count": 27,
+    "media_occurrence_count": 2,
+    "unique_media_asset_count": 2
+  },
+  "media": {
+    "receipt": {
+      "path": "qa/unit-12_media.json",
+      "bytes": 4350,
+      "sha256": "b4ddde72b4d43261bb90a2f0f6fe360ed5e3d83b5c46c91a3bfd2e7737dd9fda"
+    },
+    "animated_media_qa": {
+      "path": "qa/unit-12/ANIMATED_MEDIA_QA.json",
+      "bytes": 3156,
+      "sha256": "654881dc783a3c6fc6f436f19d57bdbf9d35892022fd4d21bf1030f5fe256952"
+    },
+    "bounded_html_animation_qa": {
+      "path": "qa/unit-12/HTML_ANIMATED_MEDIA_QA.json",
+      "bytes": 3506,
+      "sha256": "0b84a482e4b5af062a87535eb80b23ca47dc13afd82d04546f4c84ac8907a32e",
+      "scope": "Static-first animated-media fragment, keyboard Play/Stop, canonical GIF download/play path, reduced-motion handling, and unchanged Unit 10 static-media regression; no cumulative HTML build claim."
+    },
+    "assets": [
+      {
+        "filename": "Fiddler crab mobius strip.gif",
+        "canonical_path": "authority/media/Fiddler crab mobius strip.gif",
+        "canonical_bytes": 1557242,
+        "canonical_sha256": "059c8643c42a0561e5ee5efe52cd5fc59de0879ddd3870fa200f4ae66a2fc69a",
+        "creator": "Hamishtodd1",
+        "license": "CC BY-SA 4.0",
+        "frame_count": 24,
+        "duration_seconds": 12.4,
+        "static_pdf_derivative_path": "build/generated/media/Fiddler_crab_mobius_strip.png",
+        "static_pdf_derivative_bytes": 145058,
+        "static_pdf_derivative_sha256": "15f45aee985375fe99b19f30dc62268d286db4caf103cf4fc066a8951cc43790"
+      },
+      {
+        "filename": "Inclusion-exclusion.svg",
+        "canonical_path": "authority/media/Inclusion-exclusion.svg",
+        "canonical_bytes": 6804,
+        "canonical_sha256": "d37d8453528fa90456c473f705741e6c50bc04ad2cd76e9d0f4199a9aa702df3",
+        "creator": "unknown",
+        "license": "Public domain",
+        "static_pdf_derivative_path": "build/generated/media/Inclusion-exclusion.png",
+        "static_pdf_derivative_bytes": 136273,
+        "static_pdf_derivative_sha256": "68825ea402cfdb1cd9831891815788b481ae16189f3f9d470aa07ab787256e19"
+      }
+    ]
+  },
+  "checks": {
+    "all_four_translation_receipts_pass": true,
+    "utf8_without_bom_or_replacement_character": true,
+    "lf_only_with_trailing_lf": true,
+    "command_environment_inline_math_and_protected_macro_profiles_preserved_or_explicitly_declared": true,
+    "all_declared_deltas_consumed": true,
+    "all_evidence_only_deltas_verified": true,
+    "exercise_order_points_blank_hints_and_exact_solution_presence_preserved": true,
+    "reader_visible_german_residue_found": false,
+    "residual_german_string_is_frozen_internal_source_local_identifier_only": true,
+    "independent_reader_review_passed_after_corrections": true,
+    "independent_math_review_confirmed_all_target_repairs": true,
+    "file_specific_media_rights_and_accessibility_descriptions_preserved": true,
+    "canonical_animation_retained_and_static_pdf_fallback_deterministic": true,
+    "bounded_static_first_html_animation_and_reduced_motion_qa_passed": true,
+    "all_mathematical_translation_accessibility_and_rights_repairs_disclosed": true,
+    "no_new_hint_or_solution_layer_invented": true,
+    "no_cumulative_build_backend_or_publication_claimed_at_this_per_unit_boundary": true
+  },
+  "independent_review": {
+    "path": "qa/unit-12/INDEPENDENT_READER_QA.md",
+    "bytes": 2764,
+    "sha256": "c29deb53a599bc288661b0c86ce0c7a5f5c740a4306f22f1ad569e6d2686df29"
+  },
+  "declared_corrections": [
+    "O011-CORR-0114",
+    "O011-CORR-0115",
+    "O011-CORR-0116",
+    "O011-CORR-0117",
+    "O011-CORR-0118",
+    "O011-TRANS-0119",
+    "O011-TRANS-0120",
+    "O011-TRANS-0121",
+    "O011-CORR-0122",
+    "O011-CORR-0123",
+    "O011-CORR-0124",
+    "O011-CORR-0125",
+    "O011-TRANS-0126",
+    "O011-ACC-0127",
+    "O011-ACC-0128",
+    "O011-CORR-0129",
+    "O011-CORR-0130",
+    "O011-CORR-0131",
+    "O011-CORR-0132",
+    "O011-TRANS-0133",
+    "O011-TRANS-0134",
+    "O011-TRANS-0156"
+  ],
+  "correction_manifests": [
+    {
+      "path": "00_control/LECTURE12_PROTECTED_CORRECTIONS.json",
+      "bytes": 9430,
+      "sha256": "80d401560a376809dae1e9dcd94e9adeaf4877966681b15b18529a120fa20eee"
+    },
+    {
+      "path": "qa/unit-12/WORKSHEET12_PROTECTED_CORRECTIONS.json",
+      "bytes": 9053,
+      "sha256": "00d1636706c3cf9e18774f78e73e9ff2fec3d5d07b4f124e237fd3c9100f17ed"
+    },
+    {
+      "path": "qa/unit-12/SOLUTION12_11_PROTECTED_CORRECTIONS.json",
+      "bytes": 883,
+      "sha256": "619a1846b0c75d70bff4e6e8b8f8045d9e20648e17f0a81f953d529adda47807"
+    },
+    {
+      "path": "qa/unit-12/SOLUTION12_12_PROTECTED_CORRECTIONS.json",
+      "bytes": 761,
+      "sha256": "0c7beb3b4a8af926e2f3a74c99489797428cd579676f206042b3e406adfe6726"
+    }
+  ],
+  "ledgers": {
+    "terminology": {
+      "path": "00_control/TERMINOLOGY.csv",
+      "records": 214,
+      "bytes": 18877,
+      "sha256": "40a1362fa1465553c1158328e0d856655d635f3cf73cfe2990679c3232724959"
+    },
+    "adverse": {
+      "path": "00_control/ADVERSE_LEDGER.csv",
+      "records": 156,
+      "bytes": 46483,
+      "sha256": "9e71df91386a9e35a837db803a7da9778204cfc2cac6d01e9854363e602fef5a"
+    },
+    "unit_media": {
+      "path": "source/unit_media.json",
+      "bytes": 4832,
+      "sha256": "bb4643772d9db389a9842128cbbe4595ac2daa39521d5e563bbfbab7ec869e54"
+    }
+  },
+  "next_action": "Continue immediately to Unit 13 authority closure and natural Indonesian Lecture 13, Worksheet 13, exactly source-supplied solutions, and admitted media; then run one consolidated Units 11-13 PDF, semantic HTML, backend, visual, accessibility, reproducibility, release, and public-readback gate."
+}

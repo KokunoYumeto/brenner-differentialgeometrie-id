@@ -1,0 +1,296 @@
+a) Setiap matriks nilpoten
+\mathl{\begin{pmatrix}  a   &   b   \\  c  & d \end{pmatrix}}{}
+dapat dihubungkan dengan matriks nol melalui lintasan linear
+\maabbeledisp {} {[0,1]} {N
+} { t } {t \begin{pmatrix}  a   &   b   \\  c  & d \end{pmatrix}
+} {,}
+yang seluruhnya berada di dalam himpunan matriks nilpoten. Jadi $N$ terhubung lintasan dan, karena itu, terhubung.
+
+b) Sebuah
+$2 \times 2$-\definitionsverweis {matriks}{}{}
+nilpoten tepat ketika jejak dan determinannya sama dengan $0$. Dengan demikian, himpunan $N$ semua matriks nilpoten dapat ditulis sebagai
+
+\mathdisp {\left\{  (a,b,c,d)  \mid   a+d = 0 \text{ dan } ad-bc = 0         \right\}} { . }
+
+Perhatikan pemetaan
+\maabbeledisp {} {\R^4} {\R^2
+} {(a,b,c,d)} { (a+d, ad-bc)
+} {.}
+Matriks Jacobi pemetaan ini ialah
+
+\mathdisp {\begin{pmatrix}  1 &  0 &  0 &  1 \\  d  &  -c &  -b &  a  \end{pmatrix}} { . }
+
+Pemetaan ini tidak
+\definitionsverweis {reguler}{}{}
+di titik nol, tetapi reguler di setiap titik lain pada serat $N$. Memang, jika
+\mathl{P \in M}{}, maka dari syarat jejak dan determinan diperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{a^2
+}
+{ =} {-bc
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}.
+Karena itu,
+
+\mavergleichskettedisp
+{\vergleichskette
+{b
+}
+{ =} { c
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+langsung mengakibatkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{a
+}
+{ =} {b
+}
+{ =} { c
+}
+{ =} { d
+}
+{ =} { 0
+}
+}
+{}{}{.}
+Jadi matriks Jacobi mempunyai rank maksimal di semua titik $M$. Dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{G
+}
+{ =} {\R^4 \setminus \{0\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+kita dapat memandang $M$ sebagai serat pemetaan yang dibatasi ke $G$, dan pemetaan itu reguler di seluruh serat. Oleh karena itu, berdasarkan
+[[Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt|fakta tentang serat reguler]],
+$M$ merupakan submanifold tertutup dari $G$.
+
+Catatan edisi: Sumber menulis $a^2=bc$ setelah memakai $d=-a$. Tanda yang benar dari $ad-bc=0$ adalah $a^2=-bc$; argumen rank di atas menggunakan identitas yang telah diperbaiki ini.
+
+c) Berdasarkan
+[[Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt|fakta tentang serat reguler]],
+dimensi $M$ ialah
+
+\mavergleichskette
+{\vergleichskette
+{ 4-2
+}
+{ = }{ 2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+d) Tuliskan
+
+\mavergleichskettedisp
+{\vergleichskette
+{M_+
+}
+{ =} { \left\{ (a,b,c,d) \in M  \mid   b>c        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{M_-
+}
+{ =} { \left\{ (a,b,c,d) \in M  \mid   b<c        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Keduanya merupakan himpunan terbuka di $M$
+\zusatzklammer {sebagai irisan $M$ dengan himpunan terbuka di $\R^4$ yang masing-masing ditentukan oleh $b>c$ dan $b<c$} {} {.}
+Matriks
+\mathkor {} {\begin{pmatrix}  0  &   1  \\  0 &  0 \end{pmatrix}} {dan} {\begin{pmatrix}  0  &   0  \\  1 &  0 \end{pmatrix}} {}
+menunjukkan bahwa keduanya tidak kosong. Selain itu, keduanya menutupi seluruh $M$. Jika
+
+\mavergleichskette
+{\vergleichskette
+{b
+}
+{ = }{ c
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{},
+maka
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 0
+}
+{ =} { ad-bc
+}
+{ =} { -a^2 -b^2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+langsung memberikan
+
+\mavergleichskette
+{\vergleichskette
+{a
+}
+{ = }{b
+}
+{ = }{ c
+}
+{ =   }{ d
+}
+{ =  }{ 0
+}
+}
+{}{}{,}
+dan titik ini tidak termasuk $M$. Jadi $M$ mempunyai tutupan oleh dua himpunan terbuka tak kosong yang saling lepas; akibatnya, $M$ tidak terhubung.
+
+e) Untuk $M_+$, gunakan pemetaan
+\maabbeledisp {\psi} {\R^2 \setminus \{(0,0)\}} { M_+
+} {(a,u)} { (a, u + \sqrt{a^2+u^2}, u - \sqrt{a^2 +u^2},-a)
+} {.}
+Karena
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ad-bc
+}
+{ =} { -a^2 - \left(  u + \sqrt{a^2+u^2}  \right) \left( u - \sqrt{a^2 +u^2}  \right)
+}
+{ =} { -a^2 - \left(  u^2 - \left(  a^2+u^2 \right)   \right)
+}
+{ =} { 0
+}
+{ } {
+}
+}
+{}
+{}{}
+syarat determinan terpenuhi, dan karena
+
+\mavergleichskettedisp
+{\vergleichskette
+{b-c
+}
+{ =} { u + \sqrt{a^2+u^2} - \left(  u- \sqrt{a^2 +u^2})  \right)
+}
+{ =} { 2 \sqrt{a^2+u^2}
+}
+{ >} { 0
+}
+{ } {
+}
+}
+{}{}{},
+citranya terletak di $M_+$. Pemetaan
+\maabbeledisp {\varphi} {M_+} { \R^2 \setminus \{(0,0)\}
+} {(a,b,c,d)} { \left(  a  , \,   { \frac{  b+c }{  2 } }                   \right)
+} {,}
+merupakan invers dari pemetaan tersebut. Identitas
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi \circ \psi
+}
+{ =} {
+\operatorname{Id}_{ \R^2 \setminus \{(0,0)\}  }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+jelas. Identitas lainnya mengikuti dari
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ { \frac{  b+c }{  2 } } + \sqrt{a^2 + \left( { \frac{  b+c }{  2 } }  \right)^2 }
+}
+{ =} { { \frac{  b+c }{  2 } } + { \frac{   1 }{  2 } }  \sqrt{4 a^2 + b^2 +c^2 +2bc }
+}
+{ =} { { \frac{  b+c }{  2 } } + { \frac{   1 }{  2 } }  \sqrt{ b^2 +c^2 -2bc }
+}
+{ =} { { \frac{  b+c }{  2 } } + { \frac{  b-c }{  2 } }
+}
+{ =} {b
+}
+}
+{}
+{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{  b+c }{  2 } } - \sqrt{a^2 + \left(   { \frac{  b+c }{  2 } }   \right)^2 }
+}
+{ =} { { \frac{  b+c }{  2 } } - { \frac{  b-c }{  2 } }
+}
+{ =} { c
+}
+{ } {}
+{ } {}
+}
+{}{}{.}
+Kedua pemetaan kontinu, sehingga diperoleh suatu
+\definitionsverweis {homeomorfisme}{}{.}
+Untuk
+\mathl{M_-}{}, tukarkan peran
+\mathkor {} {b} {dan} {c} {.}
+
+ [[Kategorie:Latexseite]]

@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://commons.wikimedia.org/w/api.php",
+  "http_date": "Mon, 24 Aug 2026 01:59:31 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "iiprop": "timestamp|user|url|size|sha1|mime|extmetadata",
+    "prop": "info|imageinfo",
+    "titles": "File:Toroidal coord.png"
+  },
+  "response_bytes": 2592,
+  "response_path": "unit11_media_imageinfo_current.json",
+  "response_sha256": "dbbdd4a097825f5b2e87f7414731d8236e8b5d8ae505dc4bfd8720edf8b992d8",
+  "retrieved_utc": "2026-08-24T01:59:30Z",
+  "schema_version": 1
+}

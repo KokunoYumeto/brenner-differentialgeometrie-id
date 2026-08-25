@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://commons.wikimedia.org/w/api.php",
+  "http_date": "Mon, 24 Aug 2026 02:58:49 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "iiprop": "timestamp|user|url|size|sha1|mime|extmetadata",
+    "prop": "info|imageinfo",
+    "titles": "File:Möbius strip.jpg"
+  },
+  "response_bytes": 2889,
+  "response_path": "unit13_media_imageinfo_current.json",
+  "response_sha256": "52f2c5e8a732c0dfb97fba2b998b066df7f9089de0b013c724a2b0936b81e4d7",
+  "retrieved_utc": "2026-08-24T02:58:49Z",
+  "schema_version": 1
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-07/lecture07.id.tex",
+  "input_bytes": 20487,
+  "input_sha256": "5faec64b0b20a6999e61fc3fa6a32db812e324d1e8a272d1978c67bc76c3c7b0",
+  "output": "build/generated/lecture07.id.build.tex",
+  "output_bytes": 20460,
+  "output_sha256": "69e14480aa0a9f9b6a565ad8952ef3592f156d1687d2011edbf75e3155054ea2",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [],
+  "rendered_interactive_gif_links": []
+}

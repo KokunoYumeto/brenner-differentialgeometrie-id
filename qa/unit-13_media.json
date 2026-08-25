@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "scope": "O011 Brenner Unit 13 exact media closure and TeX print derivatives",
+  "unit_number": 13,
+  "heading_level": "section",
+  "media_config": "source/unit_media.json",
+  "media_config_sha256": "bb4643772d9db389a9842128cbbe4595ac2daa39521d5e563bbfbab7ec869e54",
+  "manifest": "authority/brenner_media_rights_manifest.csv",
+  "manifest_sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57",
+  "image_engine": "Version: ImageMagick 7.1.2-22 Q16 x64 ccf56fb:20260512 https://imagemagick.org",
+  "source_count": 1,
+  "derivative_count": 0,
+  "attribution_tex": {
+    "path": "build/generated/unit13-media-attribution-cumulative.tex",
+    "bytes": 682,
+    "sha256": "a4d331110538009c2217e347117d2ba8cb235a3e4e2d78800d5e50b8459123f4"
+  },
+  "media": [
+    {
+      "filename": "Möbius strip.jpg",
+      "canonical_path": "authority/media/Möbius strip.jpg",
+      "canonical_bytes": 82042,
+      "canonical_sha1": "38f4c7787fd665a45ce9d7130d9d2d0deba5fcf8",
+      "canonical_sha256": "9c4323cfa3ce4f3ce043e4e2479dbf68658d165c46bd41394991361859ea9fad",
+      "commons_description_url": "https://commons.wikimedia.org/wiki/File:M%C3%B6bius_strip.jpg",
+      "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/M%C3%B6bius_strip.jpg",
+      "license": "CC BY-SA 3.0",
+      "rights_label_id": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Dbenbenn\" title=\"User:Dbenbenn\">David Benbennick</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+      "attribution_required": "true",
+      "attribution_id": "David Benbennick (karya sendiri).",
+      "derivative": null,
+      "source_license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    }
+  ]
+}

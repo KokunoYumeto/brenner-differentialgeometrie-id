@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-11/worksheet11_exercise10_solution.id.tex",
+  "input_bytes": 1351,
+  "input_sha256": "77e8efefffb8acded4a11f1e258134d8d26aef4e8cb517a67dd8a3d1565bf2e9",
+  "output": "build/generated/worksheet11_exercise10_solution.id.build.tex",
+  "output_bytes": 1308,
+  "output_sha256": "b256cc638b0a72033c0b3a63659e38ea053803044712252f1fd863f73dbd5ed3",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Torus/Faserrealisierung/Andere Fasern/Aufgabe",
+      "label": "soal ini"
+    }
+  ],
+  "rendered_interactive_gif_links": [
+    {
+      "filename": "Aufgabe79.27.gif",
+      "label": "Animasi yang memperlihatkan serat-serat fungsi torus pada Soal 11.10 untuk berbagai nilai s.",
+      "url": "https://commons.wikimedia.org/wiki/File:Aufgabe79.27.gif"
+    }
+  ]
+}

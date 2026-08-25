@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-13/worksheet13_exercise19_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0153",
+      "anchor": "Solution 13.19, chart-image point index",
+      "change": "Correct the source's undefined lowercase V_p to the already quantified chart image V_P."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0153",
+      "surface": "inline_math",
+      "index": 0,
+      "source_sha256": "ac8b12063b2b121127a4595d5459863280fad533776924021564ff6bc43ad0e4",
+      "target_sha256": "a390126b0a72b56e97833d6db394f975cb9d54e8cdcbcc17d7f79b69dc381711"
+    }
+  ],
+  "evidence_only_deltas": []
+}

@@ -1,0 +1,97 @@
+{
+  "baseline": {
+    "csv_sha256": "34a472148f9f376dcc6da220af640c0b4b5f12586b722015789908226059b5ea",
+    "jsonl_sha256": "33a4f876f8225e40a006e97453f5530c05b21e327cfd1b7058303fa2421287f9",
+    "preserved_byte_identically": true,
+    "records": 813
+  },
+  "checkpoint": "2026-08-22T17:30:00Z",
+  "checks": {
+    "all_ids_unique": true,
+    "all_references_resolve": true,
+    "authority_solution_hint_point_media_closure": true,
+    "canonical_jsonl": true,
+    "component_rights_current": true,
+    "correction_manifest_target_reader_bindings_current": true,
+    "csv_projection_exact": true,
+    "cumulative_html_not_falsely_claimed": true,
+    "live_artifact_bindings_current": true,
+    "live_input_bindings_current": true,
+    "qa_receipts_current": true,
+    "required_schema_fields_present": true
+  },
+  "combined_records": 969,
+  "determinism": {
+    "first_csv_sha256": "ab7c40867434141e5f0a102db6b9a92a73677a3a946d96c3adbd925e77130592",
+    "first_jsonl_sha256": "bdd82d81cdac5cf30338d8fa0705189808ec4d746995127d02cbf4a248333227",
+    "first_manifest_sha256": "d2be7db771da7409da1cb085e06b609735b9b93916d090a7404a1e56f160a1ac",
+    "second_export_matches_first": true
+  },
+  "outputs": {
+    "manifest": {
+      "bytes": 9439,
+      "path": "backend/MANIFEST.json",
+      "sha256": "d2be7db771da7409da1cb085e06b609735b9b93916d090a7404a1e56f160a1ac"
+    },
+    "records_csv": {
+      "bytes": 201742,
+      "path": "backend/records.csv",
+      "sha256": "ab7c40867434141e5f0a102db6b9a92a73677a3a946d96c3adbd925e77130592"
+    },
+    "records_jsonl": {
+      "bytes": 576960,
+      "path": "backend/records.jsonl",
+      "sha256": "bdd82d81cdac5cf30338d8fa0705189808ec4d746995127d02cbf4a248333227"
+    }
+  },
+  "schema_version": 1,
+  "status": "pass",
+  "unit05_extension": {
+    "correction_ids": [
+      "o011-corr-0046",
+      "o011-corr-0047",
+      "o011-corr-0048",
+      "o011-corr-0049",
+      "o011-corr-0050",
+      "o011-corr-0051",
+      "o011-corr-0052",
+      "o011-corr-0053"
+    ],
+    "entity_counts": {
+      "artifact": 5,
+      "asset": 1,
+      "concept": 8,
+      "correction": 8,
+      "course": 0,
+      "edition": 0,
+      "program": 0,
+      "qa_event": 15,
+      "relation": 80,
+      "resource": 0,
+      "rights": 1,
+      "segment": 4,
+      "term": 15,
+      "unit": 19
+    },
+    "exercises": 15,
+    "graded_point_total": 22,
+    "graded_point_values": [
+      4,
+      4,
+      6,
+      "6 (2+2+2)",
+      2
+    ],
+    "hint_indices": [
+      13
+    ],
+    "html_status": "absent_not_claimed",
+    "lecture_segments": 3,
+    "qa_events": 15,
+    "records": 156,
+    "source_solution_indices": [
+      1
+    ]
+  },
+  "workflow": "o011-verify-backend-v5"
+}

@@ -19,6 +19,16 @@ WRAPPER_RE = re.compile(
     r"</?(?:div|pre|nowiki)(?:\s+[^>]*)?>", re.IGNORECASE
 )
 BLANKS_RE = re.compile(r"\n[ \t]*\n(?:[ \t]*\n)+")
+# Match actual HTML tag syntax without mistaking TeX inequalities such as
+# ``b<c`` followed later by ``b>c`` for one enormous ``<c ...>`` tag.  Bare
+# tags and closing tags are accepted; opening tags with content between the
+# name and ``>`` must contain syntactically named attributes with values.
+HTML_TAG_RE = re.compile(
+    r"</?[A-Za-z][A-Za-z0-9]*\s*/?>|"
+    r"<[A-Za-z][A-Za-z0-9]*(?:\s+[A-Za-z_:][-A-Za-z0-9_:.]*\s*=\s*"
+    r"(?:\"[^\"]*\"|'[^']*'|[^\s\"'=<>`]+))+\s*/?>",
+    re.IGNORECASE,
+)
 
 
 def sha256(data: bytes) -> str:
@@ -36,7 +46,7 @@ def sanitize(raw: str) -> str:
     text = html.unescape(text)
     text = "\n".join(line.rstrip() for line in text.split("\n"))
     text = BLANKS_RE.sub("\n\n", text).strip() + "\n"
-    if re.search(r"</?[A-Za-z][^>]*>", text):
+    if HTML_TAG_RE.search(text):
         raise RuntimeError("unexpected HTML tag remains after sanitation")
     if "\ufffd" in text:
         raise RuntimeError("replacement character in sanitized text")

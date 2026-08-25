@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-12/worksheet12_exercise11_solution.id.tex",
+  "input_bytes": 2143,
+  "input_sha256": "fcee4e2a7cbf9c36b053c0831c5ac51aa99553870ddf7e9b10c7b04ac301a210",
+  "output": "build/generated/worksheet12_exercise11_solution.id.build.tex",
+  "output_bytes": 2048,
+  "output_sha256": "be75ff34b04de199f5c6a7d1c65d949f2623fcfb56746813c85ec3b8c4a3aa4f",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Topologischer Raum/Verklebungsdatum/Äquivalenzrelation/Aufgabe",
+      "label": "soal tentang relasi ekuivalensi"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

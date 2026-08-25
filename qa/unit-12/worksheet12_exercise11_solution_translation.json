@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "source": "authority/expanded/worksheet12_exercise11_solution_source.de.tex",
+  "source_bytes": 2109,
+  "source_sha256": "7fc7712e2556623eb4e427a9353e09ceeb2ceb330d90273f9dc32ed6ab571c16",
+  "target": "source/units/unit-12/worksheet12_exercise11_solution.id.tex",
+  "target_bytes": 2143,
+  "target_sha256": "fcee4e2a7cbf9c36b053c0831c5ac51aa99553870ddf7e9b10c7b04ac301a210",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 55,
+    "environments": 2,
+    "inline_math": 8,
+    "display_math": 0,
+    "protected_calls": 13
+  },
+  "status": "pass",
+  "failures": [],
+  "declared_corrections": [
+    "O011-CORR-0130"
+  ],
+  "evidence_only_results": [
+    {
+      "correction_id": "O011-CORR-0130",
+      "surface": "command:mathl",
+      "occurrence_index": 0,
+      "status": "pass",
+      "detail": "verified"
+    }
+  ]
+}
