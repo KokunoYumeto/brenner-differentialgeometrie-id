@@ -32,9 +32,11 @@ Chromium nyata pada desktop dan seluler mencakup 4.598 ekspresi matematika,
 seluruh media, navigasi, luapan, serta kontrol Putar/Hentikan dengan nol galat
 MathJax atau konsol.
 
-GitHub untuk sementara dapat mengembalikan 404 karena penangguhan keamanan
-akun setelah pemakaian VPN; tiket dukungan telah diajukan. Keadaan itu bukan
-kegagalan sumber atau pembaca. Zenodo di atas adalah preservasi publik terbaru.
+GitHub telah pulih dari penangguhan keamanan sebelumnya. Commit korektif
+[`56f2b2b4`](https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/commit/56f2b2b4d11592ecb311f7e317b92ae591f752ab), tag beranotasi, dan
+[rilis `v0.13.1-unit-13`](https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v0.13.1-unit-13)
+telah dibaca ulang tanpa autentikasi. Zenodo di atas adalah preservasi DOI
+publik terbaru.
 Ketujuh berkas publiknya telah diunduh ulang tanpa autentikasi oleh penerbit
 dan verifikator independen. Paket sumber 475-anggota juga telah membangun ulang
 PDF, pohon/ZIP HTML, backend, dan kuitansi QA secara identik dari dua direktori

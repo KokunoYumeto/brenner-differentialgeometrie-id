@@ -1205,3 +1205,15 @@ and `81944e806274dffeae4513b64185db9b45f062296b45dd5658ca75d677ac8082`.
 The visible Zenodo page independently shows the exact unmangled title, public
 access, the Unit 13 r1 version, and the PDF preview. The corrective release
 gate is closed; no duplicate concept or record was created.
+
+**GitHub outcome:** the previously suspended account was available at the
+bounded attempt. One atomic push published `main` at corrective commit
+`56f2b2b4d11592ecb311f7e317b92ae591f752ab` and annotated tag
+`v0.13.1-unit-13`. The existing repository now also has a latest, public,
+non-prerelease release at that tag with the same seven staged files. A separate
+unauthenticated verifier resolved the tag to the exact commit, matched the
+public README, and downloaded all 37,657,635 release-asset bytes with exact
+SHA-256 and MD5 identities. Receipt
+`qa/unit-13/GITHUB_PUBLIC_READBACK_RECEIPT_R1.json` is 4,519 bytes, SHA-256
+`0c1f7061114402df477ddcb7817b5746d8f22c82ef13f38a48eea373d28d0ad8`.
+Unit 14 authority closure is now the active production cursor.

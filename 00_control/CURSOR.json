@@ -3,7 +3,7 @@
   "role_id": "O011",
   "course_id": "D50",
   "lane": "smooth-manifolds-differential-geometry-id",
-  "status": "unit_13_corrective_source_package_public_twice_verified_github_attempt_then_unit_14",
+  "status": "unit_13_public_both_lineages_anonymously_verified_unit_14_authority_active",
   "authority": {
     "course_pageid": 142521,
     "course_revid": 889544,
@@ -334,19 +334,22 @@
   "publication_allowed": true,
   "publication": {
     "repository": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id",
-    "release_tag": "v0.2.0-unit-02",
-    "release_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v0.2.0-unit-02",
-    "content_commit": "500b2ce2cbc4eef0f1c443a2e5a22ab36ee9313a",
-    "status": "historically_published_and_verified_currently_unreachable_due_account_suspension",
-    "public_readback_timestamp": "2026-08-22T05:04:58Z",
-    "current_anonymous_check_timestamp": "2026-08-22T16:00:46Z",
-    "current_anonymous_check_status": "repository_and_release_api_http_404"
+    "release_tag": "v0.13.1-unit-13",
+    "release_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v0.13.1-unit-13",
+    "content_commit": "56f2b2b4d11592ecb311f7e317b92ae591f752ab",
+    "status": "public_commit_tag_release_and_seven_assets_anonymously_verified",
+    "public_readback_timestamp": "2026-08-25T14:29:46Z",
+    "current_anonymous_check_timestamp": "2026-08-25T14:29:46Z",
+    "current_anonymous_check_status": "pass",
+    "public_readback_receipt_path": "qa/unit-13/GITHUB_PUBLIC_READBACK_RECEIPT_R1.json",
+    "public_readback_receipt_bytes": 4519,
+    "public_readback_receipt_sha256": "0c1f7061114402df477ddcb7817b5746d8f22c82ef13f38a48eea373d28d0ad8"
   },
   "pending_github_publication": {
-    "release_tag": "v0.7.0-unit-07",
-    "includes_pending_predecessors": ["v0.3.0-unit-03", "v0.4.0-unit-04", "v0.5.0-unit-05", "v0.6.0-unit-06"],
-    "status": "account_owner_reports_vpn_triggered_suspension_and_active_support_ticket_no_retry_until_external_state_changes",
-    "anonymous_public_readback_complete": false
+    "release_tag": "v0.13.1-unit-13",
+    "includes_pending_predecessors": [],
+    "status": "resolved_by_successful_atomic_push_and_public_release",
+    "anonymous_public_readback_complete": true
   },
   "zenodo_preservation": {
     "record_id": 22097422,
