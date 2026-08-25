@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-unit13-r1-clean-extraction-rebuild-qa-v1",
+  "status": "pass",
+  "scope": "manual clean rebuild followed by independent two-root verification of the final staged corrective source package; no remote state mutation",
+  "model_identification": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "source_archive": {
+    "path": "output/release-unit13-r1/geometri-diferensial-manifold-mulus-unit13-source-r1-20260825.zip",
+    "bytes": 25923641,
+    "sha256": "970221e6b7d9cb8cd9453dd3262647bcf9043eb639315bf87f15499ebbb56775"
+  },
+  "clean_extraction": {
+    "path": "tmp/unit13-r1-clean-rebuild-test-20260825",
+    "directory_created_empty": true,
+    "package_manifest": {
+      "path": "PACKAGE_MANIFEST.json",
+      "bytes": 94935,
+      "sha256": "3210bfdbc9337cf2612f5d1ccfe8cfcf07190edc89c212ffbfb1b268a64512aa"
+    },
+    "package_checksums": {
+      "path": "PACKAGE_CHECKSUMS.sha256",
+      "bytes": 53803,
+      "sha256": "838a116f40433d4024f54391e24c9eb811be2c0cd4e90c1c4ad5045a636426d8"
+    }
+  },
+  "independent_final_archive_verification": {
+    "path": "qa/unit-13/SOURCE_PACKAGE_R1_INTEGRITY.json",
+    "bytes": 13367,
+    "sha256": "1b5a4f5353066cf4b19db174185fdeb31923c69690fa2817c07eea1db84e8f13",
+    "workflow": "o011-verify-source-package-unit13-r1-v1",
+    "status": "pass",
+    "clean_extractions": 2,
+    "temporary_directories_removed": true
+  },
+  "commands": [
+    {
+      "command": "pwsh -NoProfile -File scripts/build_through_unit13.ps1",
+      "exit_code": 0,
+      "result": "two deterministic PDF cycles passed"
+    },
+    {
+      "command": "python scripts/verify_through_unit13_pdf.py",
+      "exit_code": 0,
+      "result": "structural/accessibility QA passed for 213 pages"
+    },
+    {
+      "command": "python scripts/export_html_v13.py --root . --output output/html/unit-13 --replace",
+      "exit_code": 0,
+      "result": "two-cycle 29-file HTML tree export passed"
+    },
+    {
+      "command": "python scripts/verify_html_v13.py --root . --output output/html/unit-13",
+      "exit_code": 0,
+      "result": "independent two-cycle HTML verification passed"
+    },
+    {
+      "command": "python scripts/export_backend_v13.py --root . --checkpoint 2026-08-24T20:50:06Z --translation-state mathematically_reviewed",
+      "exit_code": 0,
+      "result": "2604-record cumulative backend export passed"
+    },
+    {
+      "command": "python scripts/verify_backend_v13.py --root .",
+      "exit_code": 0,
+      "result": "deterministic backend verification passed"
+    }
+  ],
+  "byte_identical_rebuilds": {
+    "pdf": {
+      "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-13-id.pdf",
+      "bytes": 6396207,
+      "sha256": "a4d7e55604de9bfb6556d78461db8255a6c584d36b8934a0993b2386ad5832a7",
+      "clean_rebuild_matches_live_boundary": true
+    },
+    "pdf_build_receipt": {
+      "path": "qa/unit-13/build.json",
+      "bytes": 82852,
+      "sha256": "b0264bc6fd73b24243c69bc36bb75bade986f674b16e95bae04d75bff56304db",
+      "clean_rebuild_matches_live_boundary": true
+    },
+    "pdf_structural_qa": {
+      "path": "qa/unit-13/pdf_structural_qa.json",
+      "bytes": 202022,
+      "sha256": "785a2afe6335d2c2978b6f26ea42d49f61f3f1bd59a939258c0cef8606561089",
+      "clean_rebuild_matches_live_boundary": true
+    },
+    "html_entry": {
+      "path": "output/html/unit-13/index.html",
+      "bytes": 942593,
+      "sha256": "994c6caf59d87638b3b78583cc9765c2dd8feba42a1ba2ab2c2a9e02d068ebc8",
+      "clean_rebuild_matches_live_boundary": true
+    },
+    "html_manifest": {
+      "path": "output/html/unit-13/manifest.json",
+      "bytes": 78936,
+      "sha256": "8e4cd88db27d77eb4f764aa71816ef15bf758387ccb050e99f383eb741db87da",
+      "clean_rebuild_matches_live_boundary": true
+    },
+    "html_structural_qa": {
+      "path": "qa/unit-13/HTML_READER_QA.json",
+      "bytes": 22249,
+      "sha256": "8790767d395fc994779d4e349c38d3d99e8828c782ebf69ab32fa020d4d869d2",
+      "clean_rebuild_matches_live_boundary": true
+    },
+    "backend_jsonl": {
+      "path": "backend/records.jsonl",
+      "bytes": 1586447,
+      "sha256": "15c4fd6b78a277be60d08016f4df4e5a3afe56bb26f5cb24df285256514186e9",
+      "records": 2604,
+      "clean_rebuild_matches_live_boundary": true
+    },
+    "backend_csv": {
+      "path": "backend/records.csv",
+      "bytes": 584320,
+      "sha256": "e891d6f7c3cb9655f375e9309cd54d0840a09033722b794bd3d01fe73606c854",
+      "clean_rebuild_matches_live_boundary": true
+    },
+    "backend_manifest": {
+      "path": "backend/MANIFEST.json",
+      "bytes": 30235,
+      "sha256": "e5959dfd7347fbf53ac3210cd8e671c5dc84842fba99c940a68f062c0bb3dbc3",
+      "clean_rebuild_matches_live_boundary": true
+    },
+    "backend_qa": {
+      "path": "qa/unit-13/backend.json",
+      "bytes": 7398,
+      "sha256": "cd5ffe0eac66c68be1705890d6f79225c9dfcc811225d13d9cbedbf656c50784",
+      "clean_rebuild_matches_live_boundary": true
+    }
+  },
+  "checks": {
+    "fresh_empty_extraction": true,
+    "pdf_two_cycle_rebuild": true,
+    "pdf_structural_accessibility_verifier": true,
+    "html_two_cycle_rebuild": true,
+    "html_independent_restaging_verifier": true,
+    "backend_append_only_prefix_preserved": true,
+    "backend_repeat_export_deterministic": true,
+    "all_compared_live_and_rebuilt_artifacts_byte_identical": true,
+    "final_archive_independently_rebuilt_twice": true,
+    "independent_verifier_embedded_in_source_archive": true,
+    "remote_state_mutated": false
+  }
+}

@@ -1164,3 +1164,44 @@ SHA-256
 **Boundary:** the Unit 13 cumulative checkpoint is public and closed. The
 course goal remains active: make the bounded existing-lineage GitHub attempt,
 then freeze and translate Unit 14 in source order.
+
+## D056 — Correct the Unit 13 source package without changing reader content
+
+**Decision:** retain record `22096736` as valid evidence for the exact PDF,
+HTML, backend, and anonymous public-byte readbacks, but supersede it as the
+source-package checkpoint. A post-publication clean-extraction audit proved
+that its internally valid source ZIP omitted the public-safe durable controls
+and frozen Unit 10 predecessor dependencies required by the incremental Unit
+13 PDF and HTML builders. The existing description therefore overstated that
+ZIP as resumable.
+
+Create exactly one corrective next version in the same Zenodo concept
+`22059977`. Preserve the PDF and HTML bytes exactly; replace the source ZIP,
+README/release notes, manifest, and checksums. Include the public-safe goal,
+state, cursor, decision, authority, scope, terminology, adverse/correction
+ledgers, all transitive Unit 10 predecessor surfaces, and explicit executable
+build commands. Exclude credentials, private locators, caches, and private
+publication-operation receipts. Before publishing, extract the staged source
+ZIP into two independent empty directories and require each to reproduce the
+canonical Unit 13 PDF, HTML tree/package, JSONL, CSV, backend manifest, and QA
+identities. This is a packaging correction only, not a mathematical or reader
+revision. Unit 14 remains next after the corrective public readback and one
+bounded GitHub attempt.
+
+**Outcome:** passed. Corrective record `22097422`, DOI
+`10.5281/zenodo.22097422`, is public in the same concept. Its PDF and HTML ZIP
+are byte-identical to predecessor `22096736`; the replacement source ZIP is
+25,923,641 bytes, SHA-256
+`970221e6b7d9cb8cd9453dd3262647bcf9043eb639315bf87f15499ebbb56775`,
+with 475 entries. Independent receipt
+`qa/unit-13/SOURCE_PACKAGE_R1_INTEGRITY.json`, SHA-256
+`1b5a4f5353066cf4b19db174185fdeb31923c69690fa2817c07eea1db84e8f13`,
+binds two separate empty-root reproductions of the exact PDF, HTML tree/ZIP,
+JSONL, CSV, backend manifest, and QA outputs. Publisher and independent
+credential-free readbacks each reproduced all seven public files, totaling
+37,657,635 bytes. Their receipt SHA-256 values are
+`a817f1404898ea4dfce5654e7491d6be176f66fe872ac53c6400b0f6ab65c3ce`
+and `81944e806274dffeae4513b64185db9b45f062296b45dd5658ca75d677ac8082`.
+The visible Zenodo page independently shows the exact unmangled title, public
+access, the Unit 13 r1 version, and the PDF preview. The corrective release
+gate is closed; no duplicate concept or record was created.

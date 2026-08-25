@@ -1,0 +1,380 @@
+{
+  "canonical": {
+    "backend": {
+      "backend/MANIFEST.json": {
+        "bytes": 30235,
+        "sha256": "e5959dfd7347fbf53ac3210cd8e671c5dc84842fba99c940a68f062c0bb3dbc3"
+      },
+      "backend/records.csv": {
+        "bytes": 584320,
+        "sha256": "e891d6f7c3cb9655f375e9309cd54d0840a09033722b794bd3d01fe73606c854"
+      },
+      "backend/records.jsonl": {
+        "bytes": 1586447,
+        "sha256": "15c4fd6b78a277be60d08016f4df4e5a3afe56bb26f5cb24df285256514186e9"
+      }
+    },
+    "html": {
+      "bytes": 7819674,
+      "files": 29,
+      "inventory_sha256": "f07081884c3d6a347a2bd443e1274820d79d760966ae21b7b0c242cd06498c1b",
+      "staged_zip": {
+        "bytes": 5331749,
+        "crc_passed": true,
+        "entries": 29,
+        "sha256": "22dacc34c9381c44aebeccf0c48e7cf107c991d7ff3c8c74ec4d950e77e77cf7",
+        "tree_inventory_sha256": "f07081884c3d6a347a2bd443e1274820d79d760966ae21b7b0c242cd06498c1b"
+      }
+    },
+    "pdf": {
+      "bytes": 6396207,
+      "sha256": "a4d7e55604de9bfb6556d78461db8255a6c584d36b8934a0993b2386ad5832a7"
+    },
+    "staged_pdf": {
+      "bytes": 6396207,
+      "sha256": "a4d7e55604de9bfb6556d78461db8255a6c584d36b8934a0993b2386ad5832a7"
+    }
+  },
+  "checks": {
+    "backend_matches_staged_canonical": true,
+    "cross_cycle_identity": true,
+    "cumulative_correction_manifests_complete": true,
+    "documented_build_paths_exercised": true,
+    "embedded_checksums_complete": true,
+    "html_tree_and_zip_match_staged_canonical": true,
+    "independent_verifier_in_source_package": true,
+    "network_not_used": true,
+    "pdf_matches_staged_canonical": true,
+    "privacy_and_credentials_absent": true,
+    "public_safe_durable_controls_complete": true,
+    "safe_regular_members_only": true,
+    "temporary_directories_removed": true,
+    "transitive_pdf_build_inputs_bound": true,
+    "two_independent_clean_extractions": true,
+    "unit10_predecessor_closure_complete": true,
+    "zip_crc_and_manifest_identity": true
+  },
+  "clean_rebuilds": [
+    {
+      "commands": [
+        {
+          "duration_ms": 65229,
+          "label": "PDF build (two clean TeX cycles plus structural verifier)",
+          "returncode": 0,
+          "status": "pass",
+          "stderr_bytes": 0,
+          "stdout_bytes": 82853
+        },
+        {
+          "duration_ms": 2773,
+          "label": "HTML export (two deterministic staging cycles)",
+          "returncode": 0,
+          "status": "pass",
+          "stderr_bytes": 0,
+          "stdout_bytes": 268
+        },
+        {
+          "duration_ms": 2424,
+          "label": "HTML verifier (independent two-cycle reconstruction)",
+          "returncode": 0,
+          "status": "pass",
+          "stderr_bytes": 0,
+          "stdout_bytes": 971
+        },
+        {
+          "duration_ms": 2873,
+          "label": "backend verifier (two deterministic exports)",
+          "returncode": 0,
+          "status": "pass",
+          "stderr_bytes": 0,
+          "stdout_bytes": 594
+        }
+      ],
+      "cycle": 1,
+      "outputs": {
+        "backend": {
+          "backend/MANIFEST.json": {
+            "bytes": 30235,
+            "sha256": "e5959dfd7347fbf53ac3210cd8e671c5dc84842fba99c940a68f062c0bb3dbc3"
+          },
+          "backend/records.csv": {
+            "bytes": 584320,
+            "sha256": "e891d6f7c3cb9655f375e9309cd54d0840a09033722b794bd3d01fe73606c854"
+          },
+          "backend/records.jsonl": {
+            "bytes": 1586447,
+            "sha256": "15c4fd6b78a277be60d08016f4df4e5a3afe56bb26f5cb24df285256514186e9"
+          }
+        },
+        "html_tree": {
+          "bytes": 7819674,
+          "files": 29,
+          "inventory_sha256": "f07081884c3d6a347a2bd443e1274820d79d760966ae21b7b0c242cd06498c1b"
+        },
+        "html_zip": {
+          "bytes": 5331749,
+          "crc_passed": true,
+          "entries": 29,
+          "sha256": "22dacc34c9381c44aebeccf0c48e7cf107c991d7ff3c8c74ec4d950e77e77cf7",
+          "tree_inventory_sha256": "f07081884c3d6a347a2bd443e1274820d79d760966ae21b7b0c242cd06498c1b"
+        },
+        "pdf": {
+          "bytes": 6396207,
+          "sha256": "a4d7e55604de9bfb6556d78461db8255a6c584d36b8934a0993b2386ad5832a7"
+        },
+        "qa": {
+          "qa/unit-13/HTML_READER_QA.json": {
+            "bytes": 22249,
+            "sha256": "8790767d395fc994779d4e349c38d3d99e8828c782ebf69ab32fa020d4d869d2"
+          },
+          "qa/unit-13/backend.json": {
+            "bytes": 7398,
+            "sha256": "cd5ffe0eac66c68be1705890d6f79225c9dfcc811225d13d9cbedbf656c50784"
+          },
+          "qa/unit-13/build.json": {
+            "bytes": 82852,
+            "sha256": "b0264bc6fd73b24243c69bc36bb75bade986f674b16e95bae04d75bff56304db"
+          },
+          "qa/unit-13/pdf_structural_qa.json": {
+            "bytes": 202022,
+            "sha256": "785a2afe6335d2c2978b6f26ea42d49f61f3f1bd59a939258c0cef8606561089"
+          }
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "commands": [
+        {
+          "duration_ms": 62786,
+          "label": "PDF build (two clean TeX cycles plus structural verifier)",
+          "returncode": 0,
+          "status": "pass",
+          "stderr_bytes": 0,
+          "stdout_bytes": 82853
+        },
+        {
+          "duration_ms": 2421,
+          "label": "HTML export (two deterministic staging cycles)",
+          "returncode": 0,
+          "status": "pass",
+          "stderr_bytes": 0,
+          "stdout_bytes": 268
+        },
+        {
+          "duration_ms": 2365,
+          "label": "HTML verifier (independent two-cycle reconstruction)",
+          "returncode": 0,
+          "status": "pass",
+          "stderr_bytes": 0,
+          "stdout_bytes": 971
+        },
+        {
+          "duration_ms": 2483,
+          "label": "backend verifier (two deterministic exports)",
+          "returncode": 0,
+          "status": "pass",
+          "stderr_bytes": 0,
+          "stdout_bytes": 594
+        }
+      ],
+      "cycle": 2,
+      "outputs": {
+        "backend": {
+          "backend/MANIFEST.json": {
+            "bytes": 30235,
+            "sha256": "e5959dfd7347fbf53ac3210cd8e671c5dc84842fba99c940a68f062c0bb3dbc3"
+          },
+          "backend/records.csv": {
+            "bytes": 584320,
+            "sha256": "e891d6f7c3cb9655f375e9309cd54d0840a09033722b794bd3d01fe73606c854"
+          },
+          "backend/records.jsonl": {
+            "bytes": 1586447,
+            "sha256": "15c4fd6b78a277be60d08016f4df4e5a3afe56bb26f5cb24df285256514186e9"
+          }
+        },
+        "html_tree": {
+          "bytes": 7819674,
+          "files": 29,
+          "inventory_sha256": "f07081884c3d6a347a2bd443e1274820d79d760966ae21b7b0c242cd06498c1b"
+        },
+        "html_zip": {
+          "bytes": 5331749,
+          "crc_passed": true,
+          "entries": 29,
+          "sha256": "22dacc34c9381c44aebeccf0c48e7cf107c991d7ff3c8c74ec4d950e77e77cf7",
+          "tree_inventory_sha256": "f07081884c3d6a347a2bd443e1274820d79d760966ae21b7b0c242cd06498c1b"
+        },
+        "pdf": {
+          "bytes": 6396207,
+          "sha256": "a4d7e55604de9bfb6556d78461db8255a6c584d36b8934a0993b2386ad5832a7"
+        },
+        "qa": {
+          "qa/unit-13/HTML_READER_QA.json": {
+            "bytes": 22249,
+            "sha256": "8790767d395fc994779d4e349c38d3d99e8828c782ebf69ab32fa020d4d869d2"
+          },
+          "qa/unit-13/backend.json": {
+            "bytes": 7398,
+            "sha256": "cd5ffe0eac66c68be1705890d6f79225c9dfcc811225d13d9cbedbf656c50784"
+          },
+          "qa/unit-13/build.json": {
+            "bytes": 82852,
+            "sha256": "b0264bc6fd73b24243c69bc36bb75bade986f674b16e95bae04d75bff56304db"
+          },
+          "qa/unit-13/pdf_structural_qa.json": {
+            "bytes": 202022,
+            "sha256": "785a2afe6335d2c2978b6f26ea42d49f61f3f1bd59a939258c0cef8606561089"
+          }
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "cross_cycle_identity": {
+    "backend": true,
+    "html_tree": true,
+    "html_zip": true,
+    "pdf": true,
+    "qa_receipts": true
+  },
+  "outer_release": {
+    "checksums": {
+      "bytes": 657,
+      "path": "output/release-unit13-r1/CHECKSUMS.sha256",
+      "sha256": "1ac35b905e5afc3ffc543f01626a5004ee5507a1951ff863667a7f3d2920e03e"
+    },
+    "manifest": {
+      "bytes": 621,
+      "path": "output/release-unit13-r1/FILE_MANIFEST.csv",
+      "sha256": "10b5e753e0cb6bbac485099ab19fdf208e0d577edc133a0a8debbf374f90fffc"
+    },
+    "status": "pass",
+    "verified_artifacts": {
+      "geometri-diferensial-manifold-mulus-brenner-id-unit13-html-20260825.zip": {
+        "bytes": 5331749,
+        "sha256": "22dacc34c9381c44aebeccf0c48e7cf107c991d7ff3c8c74ec4d950e77e77cf7"
+      },
+      "geometri-diferensial-manifold-mulus-hingga-unit-13-id.pdf": {
+        "bytes": 6396207,
+        "sha256": "a4d7e55604de9bfb6556d78461db8255a6c584d36b8934a0993b2386ad5832a7"
+      },
+      "geometri-diferensial-manifold-mulus-unit13-source-r1-20260825.zip": {
+        "bytes": 25923641,
+        "sha256": "970221e6b7d9cb8cd9453dd3262647bcf9043eb639315bf87f15499ebbb56775"
+      }
+    }
+  },
+  "privacy": {
+    "credential_like_content_hits": 0,
+    "files_scanned": 475,
+    "forbidden_member_name_hits": 0,
+    "local_user_identifier_hits": 0,
+    "nested_members_scanned": 173,
+    "nested_text_members_scanned": 162,
+    "nested_zip_files_scanned": 2,
+    "private_locator_hits": 0,
+    "status": "pass",
+    "text_files_scanned": 433
+  },
+  "required_closure": {
+    "adverse_ledger_rows": 156,
+    "backend_correction_records": 156,
+    "backend_records": 2604,
+    "cumulative_correction_manifests": 54,
+    "documented_build_paths": {
+      "all_documented": true,
+      "required_commands": [
+        "build_through_unit13.ps1",
+        "export_html_v13.py",
+        "verify_html_v13.py",
+        "verify_backend_v13.py"
+      ]
+    },
+    "durable_controls": 8,
+    "explicit_predecessor_bindings": {
+      "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-10-id.pdf": {
+        "bytes": 5733895,
+        "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-10-id.pdf",
+        "sha256": "4eaec807347feeab2b3334056d3109d5ce6e5eb30ed3649a507ae6124049856d"
+      },
+      "output/release-unit10/geometri-diferensial-manifold-mulus-brenner-id-unit10-html-20260823.zip": {
+        "bytes": 1260239,
+        "path": "output/release-unit10/geometri-diferensial-manifold-mulus-brenner-id-unit10-html-20260823.zip",
+        "sha256": "6dbffc22f338eab537b42d907c2d6dae9bd2f00c045f7a690f5e96e652663b06"
+      },
+      "output/release-unit10/geometri-diferensial-manifold-mulus-brenner-id-unit10-source-20260823.zip": {
+        "bytes": 1758537,
+        "path": "output/release-unit10/geometri-diferensial-manifold-mulus-brenner-id-unit10-source-20260823.zip",
+        "sha256": "0c160e741e02a711bdbbb984a788459ccb1e4ca94f0809f5add25ec50f8beb3a"
+      },
+      "qa/unit-10/HTML_READER_QA.json": {
+        "bytes": 5830,
+        "path": "qa/unit-10/HTML_READER_QA.json",
+        "sha256": "b5af7e5e5192b2c19aaeb940907cce58c8340f294d694f130965545d2c1defb9"
+      },
+      "qa/unit-10/ZENODO_PUBLIC_READBACK_RECEIPT.json": {
+        "bytes": 2351,
+        "path": "qa/unit-10/ZENODO_PUBLIC_READBACK_RECEIPT.json",
+        "sha256": "575f2affc4bcdff66f2757da0551540c77c8a4c5a2cd4eb356bb5bb20c8c923c"
+      },
+      "qa/unit-10/build.json": {
+        "bytes": 20600,
+        "path": "qa/unit-10/build.json",
+        "sha256": "4f3146a4889e9be09e17ac5d7a1bb9bfb4a6c609debccd4befb078a1bd33b65d"
+      },
+      "qa/unit-10/pdf_structural_qa.json": {
+        "bytes": 89821,
+        "path": "qa/unit-10/pdf_structural_qa.json",
+        "sha256": "81451a5e7f78f63935e758fa3d277db28b9db252c09c6930fc1cea597c9a47d7"
+      }
+    },
+    "predecessor_qa_files": 5,
+    "status": "pass",
+    "terminology_rows": 232,
+    "transitive_build_input_bindings": {
+      "qa/unit-10/build.json": {
+        "bindings": 98,
+        "loose_exact_matches": 92,
+        "nested_frozen_source_matches": 4,
+        "present_superseded_versions": 2
+      },
+      "qa/unit-13/build.json": {
+        "bindings": 237,
+        "loose_exact_matches": 237,
+        "nested_frozen_source_matches": 0,
+        "present_superseded_versions": 0
+      }
+    },
+    "unit10_html_files": 21,
+    "unit10_release_files": 7
+  },
+  "schema_version": 1,
+  "source_zip": {
+    "bytes": 25923641,
+    "filename": "geometri-diferensial-manifold-mulus-unit13-source-r1-20260825.zip",
+    "path": "output/release-unit13-r1/geometri-diferensial-manifold-mulus-unit13-source-r1-20260825.zip",
+    "sha256": "970221e6b7d9cb8cd9453dd3262647bcf9043eb639315bf87f15499ebbb56775"
+  },
+  "status": "pass",
+  "verifier": {
+    "bytes": 53906,
+    "path": "scripts/verify_source_package_unit13_r1.py",
+    "sha256": "97622c88157397755270d49f14de69d124189f1ed2ff973cd7e1bde7224f3a12"
+  },
+  "workflow": "o011-verify-source-package-unit13-r1-v1",
+  "zip_validation": {
+    "case_collisions": 0,
+    "checksums_rows": 474,
+    "crc_passed": true,
+    "encrypted_members": 0,
+    "entries": 475,
+    "manifest_rows": 473,
+    "manifest_sha256": "3210bfdbc9337cf2612f5d1ccfe8cfcf07190edc89c212ffbfb1b268a64512aa",
+    "timestamps_normalized": true,
+    "tree_sha256": "fd77f58408f032702673bb6b20abc6514faaff9674b43fdd15567baeaed31351",
+    "uncompressed_bytes": 35142948,
+    "unsafe_members": 0
+  }
+}

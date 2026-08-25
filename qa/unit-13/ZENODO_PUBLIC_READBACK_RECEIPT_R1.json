@@ -1,0 +1,104 @@
+{
+  "all_downloaded_bytes_sha256_md5_match": true,
+  "all_inventory_md5_matches": true,
+  "authentication_used": false,
+  "concept_doi": "10.5281/zenodo.22059977",
+  "concept_record_id": 22059977,
+  "correction_scope": "resumable_source_package_and_documentation_only",
+  "coverage": "active_partial_through_unit_13",
+  "doi": "10.5281/zenodo.22097422",
+  "expected_reader_first_order": [
+    "geometri-diferensial-manifold-mulus-hingga-unit-13-id.pdf",
+    "geometri-diferensial-manifold-mulus-brenner-id-unit13-html-20260825.zip",
+    "geometri-diferensial-manifold-mulus-unit13-source-r1-20260825.zip",
+    "LICENSE.md",
+    "RELEASE_NOTES_UNIT13_R1_20260825.md",
+    "FILE_MANIFEST.csv",
+    "CHECKSUMS.sha256"
+  ],
+  "file_count": 7,
+  "files": [
+    {
+      "bytes": 6396207,
+      "md5": "98eccead8555b7595f13394a620aade4",
+      "name": "geometri-diferensial-manifold-mulus-hingga-unit-13-id.pdf",
+      "sha256": "a4d7e55604de9bfb6556d78461db8255a6c584d36b8934a0993b2386ad5832a7"
+    },
+    {
+      "bytes": 5331749,
+      "md5": "3dcca6b93c6becb844c931d0e73a45c3",
+      "name": "geometri-diferensial-manifold-mulus-brenner-id-unit13-html-20260825.zip",
+      "sha256": "22dacc34c9381c44aebeccf0c48e7cf107c991d7ff3c8c74ec4d950e77e77cf7"
+    },
+    {
+      "bytes": 25923641,
+      "md5": "b7edde531dc3f57017f167cbcaba7b79",
+      "name": "geometri-diferensial-manifold-mulus-unit13-source-r1-20260825.zip",
+      "sha256": "970221e6b7d9cb8cd9453dd3262647bcf9043eb639315bf87f15499ebbb56775"
+    },
+    {
+      "bytes": 2274,
+      "md5": "393697323f471e137d3275ac5bc14725",
+      "name": "LICENSE.md",
+      "sha256": "9c23f63571ce11e46fd577204bf3fe0fd66be7e74f9465af91b40237e7b6e3b3"
+    },
+    {
+      "bytes": 2486,
+      "md5": "faa185344a5c0b59abb6720fdead17b6",
+      "name": "RELEASE_NOTES_UNIT13_R1_20260825.md",
+      "sha256": "8c46114164bb7bd3d3d30d63210434452fe2cf410b7c930f3b3ec14069c7e158"
+    },
+    {
+      "bytes": 621,
+      "md5": "d636f8679d886ec347f0fa7c84e14ea7",
+      "name": "FILE_MANIFEST.csv",
+      "sha256": "10b5e753e0cb6bbac485099ab19fdf208e0d577edc133a0a8debbf374f90fffc"
+    },
+    {
+      "bytes": 657,
+      "md5": "8ba4f3f208232220c1abd03bb51ba4c6",
+      "name": "CHECKSUMS.sha256",
+      "sha256": "1ac35b905e5afc3ffc543f01626a5004ee5507a1951ff863667a7f3d2920e03e"
+    }
+  ],
+  "pdf_default_preview": "geometri-diferensial-manifold-mulus-hingga-unit-13-id.pdf",
+  "pdf_default_preview_verified": true,
+  "predecessor_record_id": 22096736,
+  "preparation_receipt_sha256": "3fd8e33078dd92ea2c43325dba7dc1d0b4709a0687f50e111455adacd311ee7a",
+  "public_source_zip_crc_verified": true,
+  "publication_receipt_sha256": "a817f1404898ea4dfce5654e7491d6be176f66fe872ac53c6400b0f6ab65c3ce",
+  "rdm_file_order": [
+    "CHECKSUMS.sha256",
+    "FILE_MANIFEST.csv",
+    "geometri-diferensial-manifold-mulus-hingga-unit-13-id.pdf",
+    "geometri-diferensial-manifold-mulus-brenner-id-unit13-html-20260825.zip",
+    "geometri-diferensial-manifold-mulus-unit13-source-r1-20260825.zip",
+    "LICENSE.md",
+    "RELEASE_NOTES_UNIT13_R1_20260825.md"
+  ],
+  "reader_bytes_unchanged_from_predecessor": [
+    {
+      "bytes": 6396207,
+      "matches_corrective_reader": true,
+      "md5": "98eccead8555b7595f13394a620aade4",
+      "name": "geometri-diferensial-manifold-mulus-hingga-unit-13-id.pdf",
+      "sha256": "a4d7e55604de9bfb6556d78461db8255a6c584d36b8934a0993b2386ad5832a7"
+    },
+    {
+      "bytes": 5331749,
+      "matches_corrective_reader": true,
+      "md5": "3dcca6b93c6becb844c931d0e73a45c3",
+      "name": "geometri-diferensial-manifold-mulus-brenner-id-unit13-html-20260825.zip",
+      "sha256": "22dacc34c9381c44aebeccf0c48e7cf107c991d7ff3c8c74ec4d950e77e77cf7"
+    }
+  ],
+  "record_id": 22097422,
+  "record_status": "published",
+  "schema_version": 1,
+  "status": "pass",
+  "temporary_downloads_removed": true,
+  "total_bytes": 37657635,
+  "verified_at_utc": "2026-08-25T14:14:37.931819+00:00",
+  "version": "2026.08.25-unit13-r1",
+  "workflow": "o011-independent-zenodo-unit13-source-r1-public-readback-v1"
+}
