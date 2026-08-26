@@ -1547,3 +1547,21 @@ unique adverse-ledger rows. Its 5,656-byte receipt has SHA-256
 `e37b86dadd0b0cfb9f3bf6188e788173dab45d6c45dc395d072fe7f0765f27a5`.
 Unit 17 is complete only at its bounded per-unit gate; Unit 18 is active and
 the full O011 goal remains unfinished.
+
+## D067 — Preserve and anonymously verify the Unit 17 source checkpoint (2026-08-26)
+
+**Decision:** Push the complete bounded Unit 17 authority, reader, prepared
+fragments, rights, corrections, and QA state to `main` without creating a
+single-unit release or changing the Unit 16 DOI lineage. Resolve the public
+branch anonymously and read back the two targets, two supplied solutions, and
+the binding QA receipt at the immutable content commit. Continue Unit 18 after
+the readback passes.
+
+**Evidence:** Public content commit
+`64d157d1622327ce7d7e0471284bad89573c2ef3` matches anonymous `main`
+resolution. The five raw files total 44,198 bytes and match their local
+SHA-256 identities. `qa/unit-17/GITHUB_COMMIT_READBACK_RECEIPT.json` is 2,251
+bytes with SHA-256
+`f3890184be6dbe546cdc3c9ce0e7e18e3a423691ac60e20034233be29266323d`.
+No tag, release, Zenodo mutation, or upstream contact occurred at this
+per-unit source checkpoint.

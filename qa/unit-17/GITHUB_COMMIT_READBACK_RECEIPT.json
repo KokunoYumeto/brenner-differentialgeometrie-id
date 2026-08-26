@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-08-26T02:53:53.6018981Z",
+  "repository": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id",
+  "content_commit": "64d157d1622327ce7d7e0471284bad89573c2ef3",
+  "remote_main_commit": "64d157d1622327ce7d7e0471284bad89573c2ef3",
+  "anonymous_remote_resolution": "git ls-remote over public HTTPS",
+  "commit_match": true,
+  "files": [
+    {
+      "path": "source/units/unit-17/lecture17.id.tex",
+      "url": "https://raw.githubusercontent.com/KokunoYumeto/brenner-differentialgeometrie-id/64d157d1622327ce7d7e0471284bad89573c2ef3/source/units/unit-17/lecture17.id.tex",
+      "bytes": 24372,
+      "sha256": "ef22cfb765131f1b8c0b52bd78545c66e36eedec777f84bb5e6cc04ecf04ad3e"
+    },
+    {
+      "path": "source/units/unit-17/worksheet17.id.tex",
+      "url": "https://raw.githubusercontent.com/KokunoYumeto/brenner-differentialgeometrie-id/64d157d1622327ce7d7e0471284bad89573c2ef3/source/units/unit-17/worksheet17.id.tex",
+      "bytes": 6649,
+      "sha256": "0b1366792404b62fb2705f56995077f4d53bb9779e10c06f8a2c0b96a5241fdc"
+    },
+    {
+      "path": "source/units/unit-17/worksheet17_exercise02_solution.id.tex",
+      "url": "https://raw.githubusercontent.com/KokunoYumeto/brenner-differentialgeometrie-id/64d157d1622327ce7d7e0471284bad89573c2ef3/source/units/unit-17/worksheet17_exercise02_solution.id.tex",
+      "bytes": 1568,
+      "sha256": "5fdd8ec67263580cd64065b4bd574581b8c55788b2351f278098781cb091b5ef"
+    },
+    {
+      "path": "source/units/unit-17/worksheet17_exercise04_solution.id.tex",
+      "url": "https://raw.githubusercontent.com/KokunoYumeto/brenner-differentialgeometrie-id/64d157d1622327ce7d7e0471284bad89573c2ef3/source/units/unit-17/worksheet17_exercise04_solution.id.tex",
+      "bytes": 770,
+      "sha256": "8de955a9a8910399b656e291a11ec70096d59444ba292b6a00fc8a7bfbfc6c3e"
+    },
+    {
+      "path": "qa/unit-17/POST_CORRECTION_MATH_QA.json",
+      "url": "https://raw.githubusercontent.com/KokunoYumeto/brenner-differentialgeometrie-id/64d157d1622327ce7d7e0471284bad89573c2ef3/qa/unit-17/POST_CORRECTION_MATH_QA.json",
+      "bytes": 10839,
+      "sha256": "90b5e890a3869d5187ec1e6bb6d66dba0842dbdab5e51414d1a05fe4fcb3eb0a"
+    }
+  ],
+  "status": "pass"
+}
