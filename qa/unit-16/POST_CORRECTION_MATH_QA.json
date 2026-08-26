@@ -1,0 +1,261 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-25T23:53:49+02:00",
+  "unit_id": "o011-brenner-u16",
+  "status": "pass",
+  "scope": "Complete Lecture 16 and Worksheet 16 with exactly two source-supplied solutions; natural Indonesian reader prose; structural and protected-math preservation; bounded independent mathematical, language, and terminology review; exact two-media public-domain rights closure; and explicit correction closure. No cumulative PDF, HTML, backend, publication, or public-readback gate is claimed at this per-unit boundary.",
+  "authority": {
+    "preflight": {
+      "path": "qa/unit-16/AUTHORITY_PREFLIGHT.json",
+      "bytes": 36594,
+      "sha256": "d5da582156e81f62db972eb3e1310374b4cd137c4fb27fe7bc039b0a16ffc9bd"
+    },
+    "offline_verification": {
+      "path": "qa/unit-16/AUTHORITY_PREFLIGHT_VERIFY.json",
+      "bytes": 518,
+      "sha256": "b8c4d7ae1a9ba0f509fcc84cc5a0d133c26aae3612173d5144608be419070bb5"
+    },
+    "repeat_and_anomalies": {
+      "path": "qa/unit-16/AUTHORITY_PREFLIGHT_REPEAT_AND_ANOMALIES.json",
+      "bytes": 2725,
+      "sha256": "4f6f453ceb3248de3aec3de8e227ac36c435913e8ab013a78f90f7a999263592"
+    },
+    "lecture": {
+      "pageid": 142560,
+      "revid": 1052551,
+      "timestamp": "2025-08-27T13:57:43Z",
+      "path": "authority/expanded/lecture16_source.de.tex",
+      "bytes": 25010,
+      "sha256": "10070f2b0621b03b05a9613be90635ef3c42c72cd45377bb88be78112d6b2839"
+    },
+    "worksheet": {
+      "pageid": 142650,
+      "revid": 1020028,
+      "timestamp": "2025-08-09T13:44:46Z",
+      "path": "authority/expanded/worksheet16_source.de.tex",
+      "bytes": 11282,
+      "sha256": "6a04cbb12e27bd18a5fc1dfb92eae667e54fcdaab41c1ecb1b4d56126618f01d"
+    },
+    "supplied_solutions": [
+      {
+        "exercise": 1,
+        "pageid": 152860,
+        "revid": 1094316,
+        "timestamp": "2026-06-14T15:38:09Z",
+        "path": "authority/expanded/worksheet16_exercise01_solution_source.de.tex",
+        "bytes": 409,
+        "sha256": "9885e4f1e8ffa7c7066136bc4a55f4c093669368cf797c8cbed0c19074b9a491"
+      },
+      {
+        "exercise": 12,
+        "pageid": 42734,
+        "revid": 1096219,
+        "timestamp": "2026-06-15T08:16:04Z",
+        "path": "authority/expanded/worksheet16_exercise12_solution_source.de.tex",
+        "bytes": 2127,
+        "sha256": "0743074c0b944d24a5778e2aebe7aa08a48f295353e953042f63d9ce4e7445f5"
+      }
+    ],
+    "solution_closure": {
+      "path": "qa/unit-16/solution_closure.json",
+      "bytes": 15327,
+      "sha256": "30384d9327261170f36310bc296a7c8c7f2e3083873724530d5410331c93cf86"
+    }
+  },
+  "targets": {
+    "lecture": {
+      "path": "source/units/unit-16/lecture16.id.tex",
+      "bytes": 24993,
+      "sha256": "b463b63c8aa8fa669d8072b924daec5de6a14872aeb1c9ece82ea1ea5a7434c7",
+      "translation_receipt": "qa/unit-16/lecture16_translation.json",
+      "translation_receipt_bytes": 1253,
+      "translation_receipt_sha256": "328b3eab932dd7e216f78258f7804456ceac95fb3d715a8ab9087e85a44dfd7b"
+    },
+    "worksheet": {
+      "path": "source/units/unit-16/worksheet16.id.tex",
+      "bytes": 11081,
+      "sha256": "1a7535fe6e1ee9bb40e0a508143aa57c5dfc19ef92415635e54ed9f5975290b2",
+      "translation_receipt": "qa/unit-16/worksheet16_translation.json",
+      "translation_receipt_bytes": 1035,
+      "translation_receipt_sha256": "f67d1349f27073b38c31b1814bb1f0891c37ab60c4eefbfee984360871b74a73"
+    },
+    "supplied_solutions": [
+      {
+        "exercise": 1,
+        "path": "source/units/unit-16/worksheet16_exercise01_solution.id.tex",
+        "bytes": 410,
+        "sha256": "df5f155101df65eb27bc1aeea5933526488471eea6b444cf7e8f5f04aa9c8779",
+        "translation_receipt": "qa/unit-16/worksheet16_exercise01_solution_translation.json",
+        "translation_receipt_bytes": 1068,
+        "translation_receipt_sha256": "a7af7a675ac429696ac0ab0347556deb9f078f90170a46f98bd7777e177a9965"
+      },
+      {
+        "exercise": 12,
+        "path": "source/units/unit-16/worksheet16_exercise12_solution.id.tex",
+        "bytes": 2096,
+        "sha256": "84f08c2ac9fef0276b844e4c1ff06963f99a8115db4ff9422b5f833da4848cbf",
+        "translation_receipt": "qa/unit-16/worksheet16_exercise12_solution_translation.json",
+        "translation_receipt_bytes": 1269,
+        "translation_receipt_sha256": "c99c157746096703854e4da82a8884b122c2c7bc267aaff329852513257ade41"
+      }
+    ]
+  },
+  "prepared_fragments": [
+    {
+      "path": "build/generated/lecture16.id.build.tex",
+      "bytes": 23909,
+      "sha256": "fa023655b61d09d0133c20192e94ecdaa4c8cbf8960f71a434efa91e94209839",
+      "preparation_receipt": "qa/unit-16/lecture16_prepare.json",
+      "preparation_receipt_bytes": 2671,
+      "preparation_receipt_sha256": "62e0aa75c3c5ebf7de9fadcc8bcaea5e5a23cd4f69697777e892d8e22c429668"
+    },
+    {
+      "path": "build/generated/worksheet16.id.build.tex",
+      "bytes": 10626,
+      "sha256": "f91da5ff46a0dc7cd82b59638cbdba761a23520a78cfdcba32768891798ff7e4",
+      "preparation_receipt": "qa/unit-16/worksheet16_prepare.json",
+      "preparation_receipt_bytes": 1373,
+      "preparation_receipt_sha256": "5e631c29645c5d4b2b22cb2eff4b262d83b8a5582d292a903c74ebea616afd47"
+    },
+    {
+      "path": "build/generated/worksheet16_exercise01_solution.id.build.tex",
+      "bytes": 383,
+      "sha256": "f4845efcd3d1d4d62047736e45d0a5ca16bd6bfd2479cd696cfdff1b76d9daaa",
+      "preparation_receipt": "qa/unit-16/worksheet16_exercise01_solution_prepare.json",
+      "preparation_receipt_bytes": 690,
+      "preparation_receipt_sha256": "066fa9e8f648f8eec5b4a8d640e40b4afb1e8f520a52d2216dcbed3665ec0061"
+    },
+    {
+      "path": "build/generated/worksheet16_exercise12_solution.id.build.tex",
+      "bytes": 2069,
+      "sha256": "88e168474d63de017a267c47f4b2b36b162b020a6fecd75ff17987371b7749b7",
+      "preparation_receipt": "qa/unit-16/worksheet16_exercise12_solution_prepare.json",
+      "preparation_receipt_bytes": 692,
+      "preparation_receipt_sha256": "83761c69b838562aba376caa94dd5a76934c014526e71470bb1c8ec3d4a80608"
+    }
+  ],
+  "source_closure": {
+    "exercise_count": 21,
+    "practice_exercise_count": 16,
+    "graded_exercise_count": 5,
+    "graded_exercise_indices": [17, 18, 19, 20, 21],
+    "graded_point_values": [4, 3, 4, 6, 6],
+    "point_total": 23,
+    "hint_fields_blank": true,
+    "supplied_solution_indices": [1, 12],
+    "missing_solution_count": 19,
+    "media_occurrence_count": 2,
+    "unique_media_asset_count": 2
+  },
+  "media": {
+    "receipt": {
+      "path": "qa/unit-16_media.json",
+      "bytes": 3113,
+      "sha256": "124cf9859dc39e146c0573b415fcfe13e8cc6771ac0116728b2a7e9d0aec6780"
+    },
+    "assets": [
+      {
+        "filename": "Georg Friedrich Bernhard Riemann.jpeg",
+        "canonical_path": "authority/media/Georg Friedrich Bernhard Riemann.jpeg",
+        "canonical_bytes": 255626,
+        "canonical_sha256": "945240277e351b4deacc64e0a8e0cbb5c8398a5d13ae322eafb55bfae91cabc6",
+        "creator": "Unknown; source credit retained in the media receipt",
+        "license": "Public domain",
+        "license_url": null
+      },
+      {
+        "filename": "Sphere with three handles.png",
+        "canonical_path": "authority/media/Sphere with three handles.png",
+        "canonical_bytes": 398740,
+        "canonical_sha256": "49398059697841332186226bccf87e46032289c1a8a02063fc2600070c51a311",
+        "creator": "Oleg Alexandrov",
+        "license": "Public domain",
+        "license_url": null
+      }
+    ],
+    "cumulative_attribution": {
+      "path": "build/generated/unit16-media-attribution-cumulative.tex",
+      "bytes": 1004,
+      "sha256": "46006e419dab9518ea25f0bd113f928a7b83995e48d684de88db3f673a9438e4"
+    }
+  },
+  "checks": {
+    "all_four_translation_receipts_pass": true,
+    "all_four_preparation_receipts_pass": true,
+    "utf8_without_bom_or_replacement_character": true,
+    "lf_only_with_trailing_lf": true,
+    "command_environment_inline_math_and_protected_macro_profiles_preserved_or_explicitly_declared": true,
+    "all_declared_deltas_consumed": true,
+    "exercise_order_points_blank_hints_and_exact_solution_presence_preserved": true,
+    "reader_visible_german_residue_found": false,
+    "independent_reader_math_and_terminology_review_passed_after_corrections": true,
+    "file_specific_media_rights_and_accessibility_description_preserved": true,
+    "all_mathematical_translation_and_rights_repairs_disclosed": true,
+    "no_new_hint_or_solution_layer_invented": true,
+    "no_cumulative_build_backend_or_publication_claimed_at_this_per_unit_boundary": true
+  },
+  "independent_review": {
+    "path": "qa/unit-16/INDEPENDENT_READER_QA.md",
+    "bytes": 3302,
+    "sha256": "cb3c078ed6cc0aea4830c272acaf38627143749ed7b5332aafdccf99700f0868"
+  },
+  "declared_corrections": [
+    "O011-CORR-0181",
+    "O011-CORR-0182",
+    "O011-CORR-0183",
+    "O011-CORR-0184",
+    "O011-TRANS-0185",
+    "O011-TRANS-0186",
+    "O011-CORR-0187",
+    "O011-TRANS-0188",
+    "O011-TRANS-0189",
+    "O011-TRANS-0192"
+  ],
+  "correction_manifests": [
+    {
+      "path": "qa/unit-16/LECTURE16_PROTECTED_CORRECTIONS.json",
+      "bytes": 2421,
+      "sha256": "0515870f8396f6041b31d71a06c05a978af8df44ae67c0949f83948a14902ec5"
+    },
+    {
+      "path": "qa/unit-16/WORKSHEET16_PROTECTED_CORRECTIONS.json",
+      "bytes": 479,
+      "sha256": "053d23c8fa6c2bf2edc5129488d625515ac8236f4510fb00bcffc8fb404ec3ad"
+    },
+    {
+      "path": "qa/unit-16/SOLUTION16_12_PROTECTED_CORRECTIONS.json",
+      "bytes": 1029,
+      "sha256": "10aa3def06fda256ddd45ea2b73f5344778aa45ff18900ad0f0c1ad20ba51cc8"
+    },
+    {
+      "path": "qa/unit-16/LECTURE16_MATH_WRAPPER_STRUCTURE_CORRECTION.json",
+      "bytes": 1297,
+      "sha256": "baf89c4c2eaac3acbbfbc26facfd1b395f6e5667055d4051fbafeda256667ef5"
+    }
+  ],
+  "ledgers": {
+    "terminology": {
+      "path": "00_control/TERMINOLOGY.csv",
+      "records": 258,
+      "bytes": 22635,
+      "sha256": "6a24a44c9c49bb842f075beb49c918639ac6dd019e22f85670008fd29c537803"
+    },
+    "adverse": {
+      "path": "00_control/ADVERSE_LEDGER.csv",
+      "records": 192,
+      "bytes": 57036,
+      "sha256": "56814e17251a3fc262b3321bb33a2f0bab76000586ebd54d501c10d4c1b6eb92"
+    },
+    "unit_media": {
+      "path": "source/unit_media.json",
+      "bytes": 5400,
+      "sha256": "63809a729fd1149257f0dc6d28bf9b252ecec59854f590357378865d3c5f5bf0"
+    },
+    "media_rights": {
+      "path": "authority/brenner_media_rights_manifest.csv",
+      "bytes": 25588,
+      "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+    }
+  },
+  "next_action": "Run the single consolidated Units 14-16 centered A4 PDF, reflowable semantic HTML, append-only stable-ID backend, visual, accessibility, reproducibility, release, and anonymous public-readback gate; then continue immediately to Unit 17 in source order."
+}

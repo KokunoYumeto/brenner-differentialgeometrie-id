@@ -1,0 +1,119 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblattgestaltung|15|
+
+{{Zwischenüberschrift|Übungsaufgaben}}
+
+{{
+inputaufgabe
+|Kompakte Mannigfaltigkeit/Positive Volumenform/Endlich/Fakt/Beweis/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Positive Volumenform/Volumenmaß/Ist Maß/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|R^n/Standardform/Integration über Teilmenge/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Integration auf Mannigfaltigkeiten/Nullmengen/Ignorierbar/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Volumenform/Integration/Eigenschaften/Fakt/Beweis/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Abzählbare Topologie/Nullmengen/Unabhängig von Volumenform/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|S^1/Faser/Gradient/Längenform/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|S^2/Faser/Gradient/Flächenform/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Wegintegral/Mannigfaltigkeit/Differenzierbare Abbildung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Wegintegral/Trigonometrischer Kreis/xdx+ydy etc/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Wegintegral/x^3dx-yzdy+xz^2dz/(-t^2,t^3-1,t+2)/-1 bis 0/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Wegintegrale/t nach (t,t^(-1))/(u,v) nach (u^2,uv,-u+v^2)/xdx-zdy+dz/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Wegintegrale/t nach (t,t^3)/(u,v) nach (u^3,u^2+v^2,u^-1+v^-1)/(x-y)dx-z^2dy+dz/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{Zwischenüberschrift|Aufgaben zum Abgeben}}
+
+{{
+inputaufgabe
+|Abgeschlossene Untermannigfaltigkeit/Volumenform/Kleinere Dimension/Nullmenge/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Wegintegral/R^2/Monomiale Daten/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Wegintegral/Trigonometrische Helix/(y-z^3)dx+x^2dy-xzdz/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+}}

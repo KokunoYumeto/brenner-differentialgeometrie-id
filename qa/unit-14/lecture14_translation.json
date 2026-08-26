@@ -5,7 +5,7 @@
   "source_sha256": "6c14208bd02871b44e60849c627c1e66928cdcabdb0306ad6fbe5407c311abbc",
   "target": "source/units/unit-14/lecture14.id.tex",
   "target_bytes": 27295,
-  "target_sha256": "e1ab5149036b72be563774336fea35560e12039946952c5a19b52c612de0073c",
+  "target_sha256": "3803b4b3ca94c228e959443a4cc23a803578a1ca82bf5cc6731b83e5a4bd044c",
   "checks": {
     "utf8_without_replacement_character": true,
     "command_sequence_equal_or_declared": true,

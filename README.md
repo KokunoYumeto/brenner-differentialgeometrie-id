@@ -7,39 +7,35 @@ revisi beserta graf transklusinya, bukan hanya halaman agregator.
 
 ## Status pembaca
 
-Batas kumulatif yang telah diverifikasi mencakup Kuliah 1–13 dan Lembar Kerja
-1–13. Edisi ini masih berstatus `active_partial`: 16 pasangan inti berikutnya,
+Batas kumulatif yang telah diverifikasi mencakup Kuliah 1–16 dan Lembar Kerja
+1–16. Edisi ini masih berstatus `active_partial`: 13 pasangan inti berikutnya,
 sepuluh formulir ujian resmi, serta dua jembatan asli terbatas masih harus
 diselesaikan.
 
-- [PDF Unit 1–13](output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-13-id.pdf) — 213 halaman A4 terpusat, 6.396.207 byte, SHA-256 `a4d7e55604de9bfb6556d78461db8255a6c584d36b8934a0993b2386ad5832a7`
-- [Pembaca HTML semantik Unit 1–13](output/html/unit-13/index.html) — reflowable, navigasi tautan-dalam stabil, matematika MathJax dengan fallback TeX, media berteks alternatif, dan kontrol animasi yang dapat dipakai dengan papan ketik
-- [Preservasi Zenodo Unit 13 r1](https://doi.org/10.5281/zenodo.22097422) — revisi paket sumber dalam konsep tetap [`10.5281/zenodo.22059977`](https://doi.org/10.5281/zenodo.22059977); byte PDF dan HTML tidak berubah
+- [PDF Unit 1–16](output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-16-id.pdf) — 261 halaman A4 terpusat, 7.241.359 byte, SHA-256 `58f98853ab8eeb1beb2aa4ade6bd3c746b62b4fa42c3c692a03c17076cdb06b8`
+- [Pembaca HTML semantik Unit 1–16](output/html/unit-16/index.html) — reflowable, navigasi tautan-dalam stabil, matematika MathJax dengan fallback TeX, media berteks alternatif, dan kontrol animasi yang dapat dipakai dengan papan ketik
+- [Checkpoint Unit 16 di Zenodo](https://doi.org/10.5281/zenodo.22104426) — versi `2026.08.26-unit16` dalam [konsep tetap yang sama](https://doi.org/10.5281/zenodo.22059977); Unit 13 r1 ialah pendahulu langsungnya
 - [Sumber terjemahan](source/units) dan [backend modular](backend/README.md)
-- [Kuitansi publikasi r1](qa/unit-13/ZENODO_PUBLICATION_RECEIPT_R1.json), [pembacaan ulang anonim independen](qa/unit-13/ZENODO_PUBLIC_READBACK_RECEIPT_R1.json), dan [bukti dua ekstraksi bersih](qa/unit-13/SOURCE_PACKAGE_R1_INTEGRITY.json)
+- [Kuitansi publikasi](qa/unit-16/ZENODO_PUBLICATION_RECEIPT.json), [pembacaan ulang anonim independen](qa/unit-16/ZENODO_PUBLIC_READBACK_RECEIPT.json), dan [bukti dua ekstraksi bersih](qa/unit-16/SOURCE_PACKAGE_INTEGRITY.json)
 
-Pembaca mempertahankan seluruh 287 soal dalam urutan sumber dan tepat 35
+Pembaca mempertahankan seluruh 342 soal dalam urutan sumber dan tepat 48
 solusi yang memang disediakan sumber; tidak ada lapisan petunjuk atau solusi
 lengkap yang diklaim. Backend JSONL/CSV berisi 2.604 record ber-ID stabil dan
-mempertahankan prefiks publik Unit 1–10 sebanyak 1.888 record secara identik
-byte demi byte. Backend adalah lapisan tambahan: buku tetap dapat digunakan
-tanpa membacanya.
+memuat 3.208 record ber-ID stabil. Prefiks publik Unit 1–13 sebanyak 2.604
+record dipertahankan secara identik byte demi byte. Backend adalah lapisan
+tambahan: buku tetap dapat digunakan tanpa membacanya.
 
-PDF memiliki metadata bahasa `id-ID`, ToUnicode pada seluruh 33 objek font,
-dan teks yang dapat diekstrak pada semua 213 halaman. PDF belum bertag;
+PDF memiliki metadata bahasa `id-ID`, ToUnicode pada seluruh 34 objek font,
+dan teks yang dapat diekstrak pada semua 261 halaman. PDF belum bertag;
 pembaca HTML adalah permukaan aksesibilitas terstruktur utama. Pengujian
-Chromium nyata pada desktop dan seluler mencakup 4.598 ekspresi matematika,
+Chromium nyata pada desktop dan seluler mencakup 5.648 ekspresi matematika,
 seluruh media, navigasi, luapan, serta kontrol Putar/Hentikan dengan nol galat
 MathJax atau konsol.
 
-GitHub telah pulih dari penangguhan keamanan sebelumnya. Commit korektif
-[`56f2b2b4`](https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/commit/56f2b2b4d11592ecb311f7e317b92ae591f752ab), tag beranotasi, dan
-[rilis `v0.13.1-unit-13`](https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v0.13.1-unit-13)
-telah dibaca ulang tanpa autentikasi. Zenodo di atas adalah preservasi DOI
-publik terbaru.
-Ketujuh berkas publiknya telah diunduh ulang tanpa autentikasi oleh penerbit
-dan verifikator independen. Paket sumber 475-anggota juga telah membangun ulang
-PDF, pohon/ZIP HTML, backend, dan kuitansi QA secara identik dari dua direktori
+Rilis GitHub `v0.16.0-unit-16` dan versi Zenodo Unit 16 memakai tujuh berkas
+publik yang sama. Setiap berkas diunduh ulang tanpa autentikasi dan dicocokkan
+berdasarkan ukuran serta SHA-256. Paket sumber juga membangun ulang PDF,
+pohon/ZIP HTML, backend, dan kuitansi QA secara identik dari dua direktori
 ekstraksi kosong yang terpisah.
 
 ## Sumber, lisensi, dan independensi
@@ -56,20 +52,20 @@ Terjemahan, reflow, backend, dan QA pada batas ini menggunakan **OpenAI Codex
 gpt-5.6-sol, Ultra** atas arahan pengguna. Kredit penulis sumber, kontributor
 halaman, dan pencipta media tetap dipertahankan.
 
-## Membangun ulang batas Unit 13
+## Membangun ulang batas Unit 16
 
 Prasyarat terbuka/offline: Python 3, PowerShell 7, MiKTeX/pdfTeX,
 ImageMagick, serta paket Python yang dicatat oleh skrip verifikasi. Jalankan
 dari akar repositori:
 
 ```text
-pwsh -NoProfile -File scripts/build_through_unit13.ps1
-python scripts/verify_through_unit13_pdf.py
-python scripts/export_html_v13.py --root . --replace
-python scripts/verify_html_v13.py --root .
-python scripts/export_backend_v13.py --root . --checkpoint 2026-08-24T20:50:06Z --translation-state mathematically_reviewed
-python scripts/verify_backend_v13.py --root .
-python scripts/verify_source_package_unit13_r1.py --root .
+pwsh -NoProfile -File scripts/build_through_unit16.ps1
+python scripts/verify_through_unit16_pdf.py
+python scripts/export_html_v16.py --root . --output output/html/unit-16 --replace
+python scripts/verify_html_v16.py --root . --output output/html/unit-16
+python scripts/export_backend_v16.py --root . --checkpoint 2026-08-26T00:50:00Z --translation-state mathematically_reviewed
+python scripts/verify_backend_v16.py --root .
+python scripts/verify_source_package_unit16.py --root . --release-dir output/release-unit16
 ```
 
 Rangkaian ini membangun PDF dari sumber TeX portabel, merekonstruksi HTML dua
@@ -82,4 +78,4 @@ Status tahan-kompaksi berada di
 [`00_control/GOAL_AND_WORKFLOW.md`](00_control/GOAL_AND_WORKFLOW.md),
 [`00_control/CURRENT_STATE.md`](00_control/CURRENT_STATE.md), dan
 [`00_control/CURSOR.json`](00_control/CURSOR.json). Kursor berikutnya ialah
-pembekuan otoritas, lalu terjemahan Kuliah 14 + Lembar Kerja 14.
+pembekuan otoritas, lalu terjemahan Kuliah 17 + Lembar Kerja 17.

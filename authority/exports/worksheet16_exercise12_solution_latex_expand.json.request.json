@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Tue, 25 Aug 2026 20:11:56 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Graph/(u,v) nach u^2+uv-v^3/Von Tangentialvektoren aufgespannte Parallelotope/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 2635,
+  "response_path": "worksheet16_exercise12_solution_latex_expand.json",
+  "response_sha256": "dc94cb786acefbf315ee9f9b61febb99508ab10d6c064e87630f4d245ff36752",
+  "retrieved_utc": "2026-08-25T20:11:55Z",
+  "schema_version": 1
+}

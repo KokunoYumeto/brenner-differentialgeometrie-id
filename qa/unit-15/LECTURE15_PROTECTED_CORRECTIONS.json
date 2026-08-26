@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-15/lecture15.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0169",
+      "anchor": "Volume-measure paragraph, sigma-finiteness claim",
+      "change": "Retain the source's general sigma-finiteness conclusion and supply the missing bounded-density/countable-atlas justification; keep Exercise 15.2 as the continuous special case rather than narrowing the theorem to that case."
+    },
+    {
+      "correction_id": "O011-CORR-0170",
+      "anchor": "Orientation proof, local top form",
+      "change": "Use an m-form on the m-dimensional chart rather than the source's impossible degree 1."
+    },
+    {
+      "correction_id": "O011-CORR-0171",
+      "anchor": "Graph example, defining map and determinant components",
+      "change": "Type the graph-defining map on V times R, where h is defined, and use component indices consistent with v_s=(v_{1s},...,v_{n+1,s})."
+    },
+    {
+      "correction_id": "O011-CORR-0177",
+      "anchor": "Chart-independence lemma, common measurable subset",
+      "change": "Replace the ambiguous T subset U_1,U_2 notation by the typed intersection T subset U_1 cap U_2."
+    },
+    {
+      "correction_id": "O011-CORR-0178",
+      "anchor": "Path-integral definition and coordinate computation",
+      "change": "State the required integrability condition explicitly; measurability of the coefficient functions alone does not imply that the pulled-back coefficient is integrable."
+    },
+    {
+      "correction_id": "O011-TRANS-0179",
+      "anchor": "Independent Unit 15 lecture reader-language review",
+      "change": "Normalize Indonesian dimension, degree, chart, curve, collective-noun, and continuously-differentiable phrasing without changing the mathematical sequence."
+    },
+    {
+      "correction_id": "O011-ACC-0193",
+      "anchor": "Oversized determinant displays preceding Remark 15.8 and following Example 15.10",
+      "change": "Stack the first determinant index conditions and place both equality chains on centered aligned rows so every mathematical token stays inside the A4 text block; the expressions, conditions, order, and equality relations remain unchanged."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_ids": [
+        "O011-CORR-0171",
+        "O011-CORR-0177",
+        "O011-TRANS-0179",
+        "O011-ACC-0193"
+      ],
+      "surface": "profile:commands",
+      "source_sha256": "87872d35a0ed2cb988366542df787de59ed995601a3c1a2836be7b4f5106d69b",
+      "target_sha256": "c4c645af531607e27c625bd3aef4bb4aace39b69ec9958076ec2e1fc80ae2e84"
+    },
+    {
+      "correction_id": "O011-CORR-0170",
+      "surface": "inline_math",
+      "index": 47,
+      "source_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+      "target_sha256": "62c66a7a5dd70c3146618063c344e531e6d4b59e379808443ce962b3abd63c5a"
+    },
+    {
+      "correction_ids": [
+        "O011-CORR-0177",
+        "O011-ACC-0193"
+      ],
+      "surface": "profile:protected:vergleichskette",
+      "source_sha256": "a4bd50e5f4e6f9364d8c94677ecb5246674ce2f8b4d29c27deed3437b40b328d",
+      "target_sha256": "3d840323b55919314ae7cef154a4da46d2808ea4fa5609d44490f8e200b6e75c"
+    },
+    {
+      "correction_id": "O011-CORR-0171",
+      "surface": "protected:maabbeledisp",
+      "index": 3,
+      "source_sha256": "b26fde0a50f53ce2d6b1b0faf81da7ba22e657f6578c478d074c0f59451a9482",
+      "target_sha256": "42ecb052642d28895edadc77fc338f4bf92bf9524ea88458b004aa6ad36b32b8"
+    },
+    {
+      "correction_id": "O011-CORR-0171",
+      "surface": "protected:mathdisp",
+      "index": 3,
+      "source_sha256": "f2f197ccff4862a7190f5184c78cdb0fbd9d38c6227339838a6b8d49c866585c",
+      "target_sha256": "c4a84e55d7dcda54c2f42c9a23b0952913d12e798fb7dd82c83347d03c576cd5"
+    },
+    {
+      "correction_ids": [
+        "O011-CORR-0171",
+        "O011-ACC-0193"
+      ],
+      "surface": "profile:brace_profile",
+      "source_sha256": "fe51f3c7cda31466678a7bc9ecf54b55414fcccf128ca9c7826c7fe3085b1850",
+      "target_sha256": "bdbdc6d975db3b54016f35bd08d376219d8d04b75a7fe98de899bf3ba0ca10c8"
+    }
+  ],
+  "evidence_only_deltas": []
+}

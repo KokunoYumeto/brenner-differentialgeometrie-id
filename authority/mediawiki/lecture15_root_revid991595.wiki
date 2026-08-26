@@ -1,0 +1,100 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesungsgestaltung|15|
+
+Wir kommen nun zur Integrationstheorie auf Mannigfaltigkeiten. Ausgangspunkt dafür ist, dass auf einer Mannigfaltigkeit der Dimension {{math|term= n |SZ=}} eine {{math|term= n |SZ=-}}Form gegeben ist. Bei einer offenen Teilmenge
+{{
+Relationskette
+| V
+|\subseteq| \R^n
+||
+||
+||
+|SZ=
+}}
+mit den Koordinaten {{mathl|term= x_1 {{kommadots|}} x_n |SZ=}} entspricht dabei die Integration bezüglich der Form {{mathl|term= dx_1 {{wedgedots|}} dx_n |SZ=}} der Integration bezüglich des Lebesgue-Maßes. Bei einer Mannigfaltigkeit muss man die Form und das zugehörige Maß {{Anführung|zusammenkleben|SZ=.}} 
+
+{{Zwischenüberschrift|Positive Volumenform auf einer Mannigfaltigkeit}}
+
+{{:Differenzierbare Mannigfaltigkeit/Positive Volumenform/Einführung/Textabschnitt|zusatz1={{
+Zusatz/Fußnote
+|text=Die zur Karte {{math|term= U |SZ=}} gehörenden Funktionen {{math|term= f |SZ=,}} die hier mit der {{math|term= n |SZ=-}}Standardform multipliziert werden, entsprechen den am Ende der 13ten Vorlesung erwähnten Dichten, mit denen ein Maß auf der Mannigfaltigkeit beschrieben werden kann|
+|ISZ=.|ESZ=
+}}}}
+
+{{Zwischenüberschrift|Volumenformen und Orientierung}}
+
+Die Existenz einer stetigen nullstellenfreien Volumenform auf einer Mannigfaltigkeit hängt eng mit ihrer Orientierbarkeit zusammen. Von der folgenden Aussage werden wir in
+{{
+Faktlink
+|Faktseitenname=
+Nullstellenfreie Volumenform/Orientierte (Karten) Mannigfaltigkeit/Äquivalenz/Fakt
+|SZ=
+}}
+auch die Umkehrung beweisen.
+
+{{
+inputfaktbeweis
+|Nullstellenfreie Volumenform/Impliziert orientierte (Karten) Mannigfaltigkeit/Fakt|Lemma||
+||
+}}
+
+{{Zwischenüberschrift|Volumenform auf Fasern}}
+
+Für die folgenden Aussagen vergleiche
+{{
+Bemerkungslink
+|Bemerkungsseitenname=
+Differenzierbare Hyperfläche/Orientierung über Einheitsnormalenfeld/Bemerkung
+|Nr=
+|SZ=.
+}}
+{{
+inputfaktbeweis
+|Differenzierbare reguläre Abbildung/R^n/Faser besitzt Volumenform über Gradienten/Fakt|Korollar||
+||
+}} 
+
+Der vorstehende Satz liefert zwar in dieser wichtigen Situation die Existenz eines positiven Maßes, aber noch nicht die kanonische Volumenform, die wir in der nächsten Vorlesung über die riemannsche Metrik einführen werden. Für den Zusammenhang zwischen den beiden Konzepten siehe
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Faser/Reguläre Funktion/Volumenform/Gradient und Skalarprodukt/Aufgabe
+|Nr=
+|SZ=
+}}
+und
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Faser/Reguläre Funktionen/Volumenform/Orthogonale Gradienten und Skalarprodukt/Aufgabe
+|Nr=
+|SZ=.
+}}
+
+{{
+inputfaktbeweis
+|Differenzierbare reguläre Funktion/R^n/Volumenform über Gradienten/Als Differentialform/Fakt|Korollar||
+||
+}}
+
+{{
+inputbemerkung
+|Differenzierbare reguläre Abbildung/R^n/Faser/Orientierung über Gradienten/Bemerkung||
+}}
+
+{{
+inputbeispiel
+|S^2/Orientierte Mannigfaltigkeit/Flächenform/Beispiel||
+}}
+
+{{
+inputbeispiel
+|Graph/Gradient und Volumenform/Beispiel||
+}}
+
+{{Zwischenüberschrift|Integration längs einer differenzierbaren Abbildung}}
+
+{{:Mannigfaltigkeit/Differentialform/Integration längs Abbildung/Einführung/Textabschnitt}}
+
+{{Fußnotenliste|}}
+
+}}

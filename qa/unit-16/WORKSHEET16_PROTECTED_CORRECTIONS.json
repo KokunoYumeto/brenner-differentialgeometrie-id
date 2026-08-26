@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-16/worksheet16.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-TRANS-0188",
+      "anchor": "Independent Unit 16 worksheet reader-language review",
+      "change": "Remove mechanical reduplication, repair the sentence introducing psi, and use the admitted natural continuous-differentiability phrase without changing any exercise or formula."
+    }
+  ],
+  "allowed_deltas": [],
+  "evidence_only_deltas": []
+}

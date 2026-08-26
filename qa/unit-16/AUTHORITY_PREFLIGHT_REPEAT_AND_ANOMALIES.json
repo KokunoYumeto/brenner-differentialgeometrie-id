@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-25T23:47:03+02:00",
+  "unit_id": "o011-brenner-u16",
+  "status": "pass",
+  "repeat_freeze": {
+    "mode": "frozen-response reuse with request-identity and response-hash verification",
+    "network_requests_required": 0,
+    "preflight_path": "qa/unit-16/AUTHORITY_PREFLIGHT.json",
+    "preflight_bytes": 36594,
+    "preflight_sha256": "d5da582156e81f62db972eb3e1310374b4cd137c4fb27fe7bc039b0a16ffc9bd",
+    "preflight_markdown_sha256": "90cec387abca4b883622158862957997255730920ace176eba328c17d0d23e10",
+    "offline_verifier_sha256": "b8c4d7ae1a9ba0f509fcc84cc5a0d133c26aae3612173d5144608be419070bb5",
+    "result": "byte-identical frozen authority bindings reproduced and the independent offline verifier passed"
+  },
+  "freezer": {
+    "path": "scripts/freeze_unit_authority.py",
+    "bytes": 51956,
+    "sha256": "177b29b454adc9637204de68b35c7c8cbf3839d3282bbe6a93a0e1f3223ede97"
+  },
+  "authority_anomalies": [
+    {
+      "correction_id": "O011-CORR-0181",
+      "surface": "lecture16 adapted submanifold chart",
+      "finding": "the zero-coordinate factor has dimension n-m rather than m-n"
+    },
+    {
+      "correction_id": "O011-CORR-0182",
+      "surface": "lecture16 canonical-volume pullback theorem",
+      "finding": "the positive-square-root form formula requires an orientation-preserving parametrization"
+    },
+    {
+      "correction_id": "O011-CORR-0183",
+      "surface": "lecture16 regular-curve example",
+      "finding": "the signless canonical-form formula needs the image orientation induced by the parametrization"
+    },
+    {
+      "correction_id": "O011-CORR-0184",
+      "surface": "lecture16 Sphere with three handles credit",
+      "finding": "the frozen source misspells the authoritative creator identity Oleg Alexandrov"
+    },
+    {
+      "correction_id": "O011-CORR-0187",
+      "surface": "lecture16 inherited metric paragraph",
+      "finding": "the German source contains the typo ererbt"
+    }
+  ],
+  "census": {
+    "exercises": 21,
+    "practice": 16,
+    "graded": 5,
+    "graded_points": [4, 3, 4, 6, 6],
+    "graded_points_total": 23,
+    "blank_hints": 21,
+    "supplied_solutions": [1, 12],
+    "missing_solutions": 19,
+    "media_occurrences": 2,
+    "media_assets": [
+      {
+        "filename": "Georg Friedrich Bernhard Riemann.jpeg",
+        "bytes": 255626,
+        "sha256": "945240277e351b4deacc64e0a8e0cbb5c8398a5d13ae322eafb55bfae91cabc6",
+        "license": "Public domain"
+      },
+      {
+        "filename": "Sphere with three handles.png",
+        "bytes": 398740,
+        "sha256": "49398059697841332186226bccf87e46032289c1a8a02063fc2600070c51a311",
+        "license": "Public domain"
+      }
+    ]
+  }
+}

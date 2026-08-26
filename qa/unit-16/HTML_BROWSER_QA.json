@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-html-browser-qa-v16",
+  "status": "pass",
+  "generated_at": "2026-08-26T00:43:44Z",
+  "scope": "Real-browser desktop/mobile, MathJax, deep-link, media, and interaction QA for the cumulative Indonesian HTML reader through Unit 16 after the final Unit 15 source reflow.",
+  "browser": "Codex In-app Browser",
+  "test_protocol": "Exact rebuilt output tree served from a task-local loopback HTTP origin; temporary viewport overrides were reset after testing.",
+  "surface": {
+    "entry": {"path": "output/html/unit-16/index.html", "bytes": 1163644, "sha256": "5612cf4218619425e5524fd72c46757fb30db63c185407e99c4d84d99fe3a2f9"},
+    "manifest": {"path": "output/html/unit-16/manifest.json", "bytes": 90230, "sha256": "e7c3c2c952b0880c938d07632faf313dd91b20c281295dbe7e3fb13b9af1d871"},
+    "stylesheet": {"path": "output/html/unit-16/assets/reader.css", "bytes": 7065, "sha256": "84e6bd9203836746a33ae85d3baaf627d582dee7777e04dc14fc11af576994cc"},
+    "structural_qa": {"path": "qa/unit-16/HTML_READER_QA.json", "bytes": 23628, "sha256": "1d4596fa9c8d66b602e65c83badade5c93c4c5320ee5b8b61102675b19be6b9b"}
+  },
+  "desktop": {
+    "requested_viewport": {"width": 1440, "height": 900},
+    "viewport": {"inner_width": 1440, "inner_height": 900, "document_client_width": 1425, "document_scroll_width": 1425, "page_has_horizontal_overflow": false},
+    "main": {"left_px": 88.44444274902344, "right_from_client_px": 88.55555725097656, "width_px": 1248, "center_delta_px": 0.111114501953125}
+  },
+  "mobile": {
+    "requested_viewport": {"width": 390, "height": 844},
+    "viewport": {"inner_width": 390, "inner_height": 844, "document_client_width": 375, "document_scroll_width": 375, "page_has_horizontal_overflow": false},
+    "main": {"left_px": 0, "right_from_client_px": -0.111114501953125, "width_px": 375.1111145019531, "center_delta_px": 0.111114501953125},
+    "unit_navigation": {"client_width": 375, "scroll_width": 1168, "horizontal_scroll_available": true},
+    "wide_mathematics": {"overflowing_count": 4790, "locally_scrollable_count": 4790, "all_overflow_locally_contained": true},
+    "animation_controls_visible": true,
+    "reader_text_visible": true
+  },
+  "runtime": {
+    "math_source_elements": 5648,
+    "mathjax_containers": 5648,
+    "mathjax_errors": 0,
+    "console_errors": 0,
+    "units": 16,
+    "exercises": 342,
+    "source_supplied_solutions": 48,
+    "figures": 23,
+    "broken_internal_links": 0
+  },
+  "animation": {
+    "initial_state": "stopped",
+    "initial_source": "assets/media/Fiddler_crab_mobius_strip.png",
+    "play_state": "playing",
+    "play_source": "assets/media/Fiddler%20crab%20mobius%20strip.gif",
+    "play_status": "Animasi sedang diputar.",
+    "stop_state": "stopped",
+    "stop_source": "assets/media/Fiddler_crab_mobius_strip.png",
+    "stop_status": "Animasi dihentikan; bingkai statis ditampilkan."
+  },
+  "deep_link": {"fragment": "#o011-brenner-u16-w16-e021", "target_exists": true, "target_top_px": -0.02777777798473835, "within_view": true},
+  "unit16_media": [
+    {"source": "assets/media/Georg%20Friedrich%20Bernhard%20Riemann.jpeg", "complete": true, "natural_width": 903, "natural_height": 986},
+    {"source": "assets/media/Sphere%20with%20three%20handles.png", "complete": true, "natural_width": 1308, "natural_height": 1004}
+  ],
+  "checks": {
+    "exact_structural_surface_bound": true,
+    "desktop_centered_without_page_overflow": true,
+    "mobile_reflows_without_page_overflow": true,
+    "wide_navigation_remains_locally_scrollable": true,
+    "wide_mathematics_remains_locally_scrollable": true,
+    "mathjax_runtime_complete_without_errors": true,
+    "internal_links_resolve": true,
+    "deep_link_stabilizer_reaches_target": true,
+    "animation_is_static_first": true,
+    "play_stop_controls_update_source_state_and_status": true,
+    "unit16_media_load_when_visible": true,
+    "unknown_creator_is_disclosed_without_false_attribution": true,
+    "temporary_viewport_override_reset": true
+  }
+}

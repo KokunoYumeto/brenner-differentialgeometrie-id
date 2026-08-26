@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Tue, 25 Aug 2026 15:38:19 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Wegintegrale/t nach (t,t^3)/(u,v) nach (u^3,u^2+v^2,u^-1+v^-1)/(x-y)dx-z^2dy+dz/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 1933,
+  "response_path": "worksheet15_exercise13_solution_latex_expand.json",
+  "response_sha256": "558ad93c6a66ab4f86fd968675c7601321f1e194edcf89d42e7bc795625b9a31",
+  "retrieved_utc": "2026-08-25T15:38:18Z",
+  "schema_version": 1
+}

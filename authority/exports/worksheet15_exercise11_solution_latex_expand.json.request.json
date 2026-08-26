@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Tue, 25 Aug 2026 15:38:18 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Wegintegral/x^3dx-yzdy+xz^2dz/(-t^2,t^3-1,t+2)/-1 bis 0/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 1411,
+  "response_path": "worksheet15_exercise11_solution_latex_expand.json",
+  "response_sha256": "e0c0213906a0700675736b8cb146e0c3c8f6b1a44678105c3b4b8ea73006e181",
+  "retrieved_utc": "2026-08-25T15:38:17Z",
+  "schema_version": 1
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-15/worksheet15_exercise12_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0174",
+      "anchor": "Exercise 12 solution, differential notation",
+      "change": "Add parentheses to d(u^2), d(uv), and d(t^2) so the intended differentials cannot be misread as powers of du or dt."
+    }
+  ],
+  "allowed_deltas": [],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-CORR-0174",
+      "surface": "command:vergleichskettealign",
+      "occurrence_index": 0,
+      "source_sha256": "2492c9cc3ba18c5cc0054151532f1442fe10ce8c529253ed20d59e3f149cd6bf",
+      "target_sha256": "54af688354ba5ad80b7a6355263cb6487319310b90f42a99bf4d1f858c4a4cd4"
+    },
+    {
+      "correction_id": "O011-CORR-0174",
+      "surface": "command:vergleichskettealign",
+      "occurrence_index": 2,
+      "source_sha256": "850ebd32c60a6fc4359cff3a27ea7f41a163779d61a6cbb7404e9fe261c5a97e",
+      "target_sha256": "bfaddbce98e020cb0eeb4ef090d85f2d0843e0ab0af60f159786049af63c3407"
+    }
+  ]
+}

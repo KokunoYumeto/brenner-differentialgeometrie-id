@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Tue, 25 Aug 2026 15:38:18 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Kompakte Mannigfaltigkeit/Positive Volumenform/Endlich/Fakt/Beweis/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 2599,
+  "response_path": "worksheet15_exercise01_solution_latex_expand.json",
+  "response_sha256": "ba00a54955f784e9f204444a6164d646a2bd0fee87911921789aa8cf24c31e52",
+  "retrieved_utc": "2026-08-25T15:38:17Z",
+  "schema_version": 1
+}

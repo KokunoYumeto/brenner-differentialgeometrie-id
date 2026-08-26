@@ -1,0 +1,196 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblattgestaltung|16|
+
+{{Zwischenüberschrift|Übungsaufgaben}}
+
+{{
+inputaufgabe
+|Standardparabel/Induzierte riemannsche Struktur/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Tangentialbündel trivial/Riemannsche Struktur/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Kreis/Induzierte riemannsche Struktur/Triviale riemannsche Struktur/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Riemannsche Mannigfaltigkeit/Produktmannigfaltigkeit/Eigenschaften/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Offene euklidische Teilmenge/Riemannsch/Kanonische Form/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Riemannsche Mannigfaltigkeit/Vektorfelder und 1-Formen/Linear/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Offene euklidische Teilmenge/Vektorfelder und 1-Differentialformen/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Abgeschlossene Untermannigfaltigkeit/R^n/Einschränkung eines Vektorfeldes/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Orientierte riemannsche Mannigfaltigkeit/Kanonische Form/Wert an jeder Orthonormalbasis/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Orientierter Vektorraum/Borel-Lebesgue-Maß/n-Form/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Riemannsche Mannigfaltigkeit/Karte/Keine Isometrie/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Graph/(u,v) nach u^2+uv-v^3/Von Tangentialvektoren aufgespannte Parallelotope/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Faser/Reguläre Funktion/Volumenform/Gradient und Skalarprodukt/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Faser/Reguläre Funktionen/Volumenform/Orthogonale Gradienten und Skalarprodukt/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Sphäre/Faser/Flächenform/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+
+{{:Mannigfaltigkeit/Riemannsches Vektorbündel/Definition|}} 
+
+Bei einer
+{{
+Definitionslink
+|Prämath=
+|riemannschen Mannigfaltigkeit|
+|Kontext=|
+|SZ=
+}}
+ist also das 
+{{
+Definitionslink
+|Prämath=
+|Tangentialbündel|
+|Kontext=|
+|SZ=
+}}
+ein riemannsches Vektorbündel.
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Riemannsches Vektorbündel/Rückzug/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{Zwischenüberschrift|Aufgaben zum Abgeben}}
+
+Bei einer riemannschen Mannigfaltigkeit {{math|term= M|SZ=}} definiert man zu einem Tangentialvektor
+{{
+Relationskette
+| v
+|\in| T_PM
+||
+||
+||
+|SZ=
+}} 
+die Norm durch
+{{
+Relationskette
+| {{op:Norm|v|}}  
+|| \sqrt{ {{op:Skalarprodukt|v|v}}_P }
+|| 
+|| 
+|| 
+|SZ=.
+}}
+
+{{
+inputaufgabe
+|Riemannsche Mannigfaltigkeit/Tangentialbündel/Norm ist stetig/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Riemannsche Mannigfaltigkeit/Hesse-Form zu x^2+y^4/RxR+/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Einheitssphäre/Orthonormalbasis in jedem Punkt/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Flächenberechnung/Ellipsoid x^2+y^2+3z^3 \leq 5/Ebene 7x-3y-2z ist 2/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Zurückziehen von Vektorfeldern auf R^n/Skizze/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+}}

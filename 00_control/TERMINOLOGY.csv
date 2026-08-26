@@ -164,7 +164,7 @@ O011-TERM-0162,homogen vom Grad,homogen berderajat,admitted,
 O011-TERM-0163,Kozykelbedingung,syarat koklus,admitted,Cocycle condition
 O011-TERM-0164,offenes Verkleben,perekatan terbuka,admitted,Open gluing construction
 O011-TERM-0165,Grenzwert,limit,admitted,Nilai batas is the explanatory alias
-O011-TERM-0166,stetig differenzierbare Abbildung,pemetaan terdiferensialkan kontinu,admitted,Continuously differentiable map
+O011-TERM-0166,stetig differenzierbare Abbildung,pemetaan yang terdiferensialkan secara kontinu,admitted,Continuously differentiable map; natural reader form preferred over the compressed calque
 O011-TERM-0167,Untermannigfaltigkeit,submanifold,admitted,
 O011-TERM-0168,Tangentialabbildung,pemetaan singgung,admitted,Tangent map or differential between tangent spaces; do not confuse with tangent bundle map context
 O011-TERM-0169,Kotangentialabbildung,pemetaan kotangen,admitted,Dual of the tangent map at a point
@@ -238,3 +238,22 @@ O011-TERM-0236,Zurückziehen von Differentialformen,penarikan balik bentuk difer
 O011-TERM-0237,zurückgezogene Differentialform,bentuk diferensial tarik balik,admitted,Resulting pulled-back differential form
 O011-TERM-0238,Form vom Grad k,bentuk berderajat k,admitted,Differential form of degree k
 O011-TERM-0239,orientierte Dichte,kerapatan berorientasi,admitted,Signed or oriented density; positive measure densities use the absolute Jacobian determinant
+O011-TERM-0240,Integrationstheorie,teori integrasi,admitted,
+O011-TERM-0241,Volumenform,bentuk volume,admitted,Top-degree differential form
+O011-TERM-0242,positive Volumenform,bentuk volume positif,admitted,Positivity is relative to the admitted oriented atlas
+O011-TERM-0243,Volumenmaß,ukuran volume,admitted,
+O011-TERM-0244,Maß,ukuran,admitted,Measure-theoretic sense
+O011-TERM-0245,Nullmenge,himpunan nol,admitted,
+O011-TERM-0246,Wegintegral,integral lintasan,admitted,Line integral of a one-form along a curve
+O011-TERM-0247,Flächenform,bentuk luas,admitted,Top-degree form on a surface
+O011-TERM-0248,Borel-Menge,himpunan Borel,admitted,
+O011-TERM-0249,sigma-endliches Maß,ukuran sigma-hingga,admitted,Rendered with the mathematical sigma symbol in reader formulas
+O011-TERM-0250,Integration längs einer Abbildung,integrasi sepanjang pemetaan,admitted,Integration after pullback to the source manifold
+O011-TERM-0251,riemannsche Mannigfaltigkeit,manifold Riemann,admitted,Riemannian manifold
+O011-TERM-0252,riemannsche Metrik,metrik Riemann,admitted,Riemannian metric
+O011-TERM-0253,metrische Fundamentalmatrix,matriks fundamental metrik,admitted,Coordinate Gram matrix of a Riemannian metric
+O011-TERM-0254,kanonische Volumenform,bentuk volume kanonik,admitted,Orientation-dependent Riemannian volume form
+O011-TERM-0255,kanonisches Maß,ukuran kanonik,admitted,Riemannian volume measure
+O011-TERM-0256,Isometrie,isometri,admitted,
+O011-TERM-0257,riemannsches Vektorbündel,bundel vektor Riemann,admitted,Riemannian vector bundle
+O011-TERM-0258,Sphäre,sfer,admitted,Sphere surface rather than the solid ball

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-26T00:12:00+02:00",
+  "unit_id": "o011-brenner-u15",
+  "status": "pass",
+  "correction_id": "O011-CORR-0180",
+  "scope": "source/units/unit-15/lecture15.id.tex",
+  "anchor": "Lecture 15 sigma-finiteness proof, countable-atlas phrase",
+  "source_finding": "The frozen German phrase uses an article and adjective ending that disagree grammatically.",
+  "target_treatment": "Translate the mathematically unambiguous intended phrase as a countable atlas; no source grammar error is propagated into Indonesian and no mathematical content is changed.",
+  "target": {
+    "path": "source/units/unit-15/lecture15.id.tex",
+    "bytes": 34170,
+    "sha256": "c7ef815dfa5e1fbdd877c866d7841bb322e5086a30d36ec02925014a7854a954"
+  },
+  "evidence": {
+    "authority_repeat_and_anomalies": {
+      "path": "qa/unit-15/AUTHORITY_PREFLIGHT_REPEAT_AND_ANOMALIES.json",
+      "bytes": 3287,
+      "sha256": "216c13045fc49beed750a76b1ed3d2791db7475b37045cd17678d8da1dabe1e6"
+    },
+    "post_correction_receipt": {
+      "path": "qa/unit-15/POST_CORRECTION_MATH_QA.json",
+      "bytes": 8300,
+      "sha256": "de1dc534976c4440cf4eaf04be2ab3297b6b48294ab9e6a3be4b72ddba411c82"
+    },
+    "adverse_ledger": {
+      "path": "00_control/ADVERSE_LEDGER.csv",
+      "row_id": "O011-CORR-0180"
+    }
+  }
+}

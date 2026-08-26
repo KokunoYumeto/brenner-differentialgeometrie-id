@@ -1,0 +1,1699 @@
+\setcounter{section}{15}
+
+Wir kommen nun zur Integrationstheorie auf Mannigfaltigkeiten. Ausgangspunkt dafür ist, dass auf einer Mannigfaltigkeit der Dimension $n$ eine $n$-Form gegeben ist. Bei einer offenen Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit den Koordinaten
+\mathl{x_1 , \ldots , x_n}{} entspricht dabei die Integration bezüglich der Form
+\mathl{dx_1 \wedge \ldots \wedge dx_n}{} der Integration bezüglich des Lebesgue-Maßes. Bei einer Mannigfaltigkeit muss man die Form und das zugehörige Maß \anfuehrung{zusammenkleben}{.}
+
+  \zwischenueberschrift{Positive Volumenform auf einer Mannigfaltigkeit}
+
+In der folgenden Definition bezeichnen wir zu einer Karte
+\maabb {\alpha} { U } { V
+} {}
+und einer Differentialform $\omega$ auf $U$ die nach $V$ transportierte Differentialform mit
+\mathl{\alpha_* \omega}{.} Das ist dasselbe wie die zurückgezogene Form
+\mathl{\alpha^{-1 *} \omega}{.}
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+$n$-\definitionsverweis {dimensionale}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und $\omega$ eine
+\definitionsverweis {messbare}{}{}
+$n$-\definitionsverweis {Differentialform}{}{}
+auf $M$. Dann heißt $\omega$ eine \definitionswort {positive Volumenform}{,} wenn für jede
+\definitionsverweis {Karte}{}{}
+\zusatzklammer {eines gegebenen Atlases} {} {}
+\maabbdisp {\alpha} { U } { V
+} {}
+\zusatzklammer {mit
+
+\mavergleichskettek
+{\vergleichskettek
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und Koordinatenfunktionen \mathlk{x_1 , \ldots , x_n}{}} {} {}
+in der lokalen Darstellung der Differentialform
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \alpha_* \omega
+}
+{ =} { f dx_1 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+die Funktion $f$ überall positiv ist.\zusatzfussnote {Die zur Karte $U$ gehörenden Funktionen $f$, die hier mit der $n$-Standardform multipliziert werden, entsprechen den am Ende der 13ten Vorlesung erwähnten Dichten, mit denen ein Maß auf der Mannigfaltigkeit beschrieben werden kann} {.} {}
+
+}
+Dabei ist die Funktion $f$ durch
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ f(Q)
+}
+{ =} { \omega \left(  \alpha^{-1} (Q) ,T_Q \left(  \alpha^{-1}  \right)(e_1) \wedge \ldots \wedge T_Q \left(  \alpha^{-1}  \right)( e_n)  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+festgelegt. Eine solche positive Volumenform kann es nur geben, wenn die Mannigfaltigkeit
+\definitionsverweis {orientierbar}{}{}
+ist
+\zusatzklammer {siehe
+[[Nullstellenfreie Volumenform/Impliziert orientierte (Karten) Mannigfaltigkeit/Fakt|Lemma 15.5]]
+weiter unten} {} {.}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Abzählbar/Positive Volumenform/Zugehöriges Maß/Vorbereitende Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+$n$-\definitionsverweis {dimensionale}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+mit
+\definitionsverweis {abzählbarer Basis der Topologie}{}{}
+und es sei $\omega$ eine
+\definitionsverweis {positive Volumenform}{}{}
+auf $M$. Zu einer Karte
+\maabbdisp {\alpha} { U } { V
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha_* ( \omega \vert_U)
+}
+{ = }{ fdx_1 \wedge \ldots \wedge dx_n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und einer
+\definitionsverweis {messbaren Teilmenge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+setzen wir
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nu ( \alpha,T )
+}
+{ \defeq} { \int_{ \alpha(T)  }   f    \,  d  \lambda^n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}}
+\faktuebergang {Dann gelten folgende Eigenschaften.}
+\faktfolgerung {\aufzaehlungdrei{Wenn
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ U_1,U_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+zwei Kartenumgebungen sind, so ist
+
+\mavergleichskette
+{\vergleichskette
+{ \nu(\alpha_1,T)
+}
+{ = }{ \nu(\alpha_2,T)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Zu einer messbaren Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt es eine
+\definitionsverweis {abzählbare}{}{} \definitionsverweis {disjunkte Vereinigung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ = }{ \biguplus_{i \in I} T_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+derart, dass jedes $T_i$ ganz in einer Karte $U_i$ liegt.
+}{Die Summe
+\mathl{\sum_{i \in I} \nu( \alpha_i ,T_i)}{} ist unabhängig von der gewählten abzählbaren disjunkten Zerlegung in (2).
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{(1). Wegen
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ U_1 \cap U_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+können wir
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ = }{ U_1
+}
+{ = }{ U_2
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+annehmen
+\zusatzklammer {aber mit unterschiedlichen Kartenabbildungen
+\mathkor {} {\alpha_1} {und} {\alpha_2} {}
+nach
+\mathkor {} {V_1} {bzw.} {V_2} {}} {} {.}
+Es sei
+\maabbdisp {\psi=\alpha_2 \circ \alpha_1^{-1}} { V_1 } { V_2
+} {}
+der
+\definitionsverweis {diffeomorphe Kartenwechsel}{}{.}
+Dann gelten nach
+[[Diffeomorphismus/Transformationsformel für Integrale/Fakt|Satz 14.3 (Maß- und Integrationstheorie (Osnabrück 2022-2023))]]
+und nach
+[[Offene Mengen/Differenzierbare Abbildung/Zurückziehen von Volumenform auf gleichdimensionalem Raum/In Koordinaten/Fakt|Korollar 14.9]],
+und da wegen der Positivität von
+
+\mavergleichskette
+{\vergleichskette
+{ f_1
+}
+{ = }{ \left(  f_2 \circ \psi  \right) \det  \left(  D  \psi   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und von $f_2$ auch die Determinante positiv ist, die Gleichheiten
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \nu \left(  \alpha_2,T  \right)
+}
+{ =} { \int_{  \alpha_2(T)   }   f_2    \,  d  \lambda^n
+}
+{ =} { \int_{  \alpha_1(T)   }   \left(  f_2 \circ \psi  \right) \mid  \det  \left(  D  \psi   \right)  \mid      \,  d  \lambda^n
+}
+{ =} { \int_{  \alpha_1(T)   }   \left(  f_2 \circ \psi  \right) \cdot \det  \left(  D  \psi   \right)     \,  d  \lambda^n
+}
+{ =} { \int_{  \alpha_1(T)   }   f_1    \,  d  \lambda^n
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \nu(\alpha_1,T)
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}}
+{}
+\teilbeweis {}{}{}
+{(2). Es sei
+
+\mathbed {U_n} {}
+ {n \in \N} {}
+ {} {} {} {,}
+eine abzählbarer Atlas. Dann kann man die Mengen
+
+\mavergleichskette
+{\vergleichskette
+{ T_n
+}
+{ = }{ T \cap (U_n \setminus \bigcup_{m < n} U_m )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nehmen.}
+{}
+\teilbeweis {}{}{}
+{(3). Es seien
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ = }{ \biguplus_{i \in I} T_i
+}
+{ = }{ \biguplus_{j \in J} S_j
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+zwei abzählbare disjunkte messbare Zerlegungen, deren Glieder jeweils in Karten enthalten seien. Die Karten seien einerseits
+\mathl{(U_i, \alpha_i)}{} mit den die Form beschreibenden Funktionen $f_i$ und andererseits
+\mathl{(V_j, \beta_j)}{} mit den die Form beschreibenden Funktionen $g_j$. Wir betrachten die ebenfalls abzählbare Zerlegung, die durch die Mengen
+
+\mathbed {T_i \cap S_j} {}
+ {(i,j) \in I \times J} {}
+ {} {} {} {,}
+gegeben ist. Nach
+[[Integrierbare Funktion/Abzählbare Zerlegung des Raumes/Fakt|Lemma 10.1 (Maß- und Integrationstheorie (Osnabrück 2022-2023))]]
+\zusatzklammer {angewendet auf die einzelnen Kartenbilder} {} {}
+gilt dann unter Verwendung von Teil (1)
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \sum_{i \in I } \left(  \int_{  \alpha_i \left(  T_i  \right)   }   f_i    \,  d  \lambda^n  \right)
+}
+{ =} { \sum_{i \in I } \left(  \sum_{j \in J} \int_{ \alpha_i \left(  T_i \cap S_j  \right)   }   f_i    \,  d  \lambda^n  \right)
+}
+{ =} { \sum_{i \in I } \left(  \sum_{j \in J} \int_{ \beta_j \left(  T_i \cap S_j  \right)   }   g_j    \,  d  \lambda^n  \right)
+}
+{ =} { \sum_{j \in J } \left(  \sum_{i \in I} \int_{ \beta_j \left(  T_i \cap S_j  \right)   }   g_j    \,  d  \lambda^n  \right)
+}
+{ =} { \sum_{j \in J } \left(  \int_{  \beta_j(S_j)   }   g_j    \,  d  \lambda^n  \right)
+}
+}
+{}
+{}{.}}
+{}
+
+}
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+$n$-\definitionsverweis {dimensionale}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+mit einer
+\definitionsverweis {abzählbaren Basis der Topologie}{}{}
+und es sei $\omega$ eine
+\definitionsverweis {positive Volumenform}{}{}
+auf $M$. Dann heißt die für jede
+\definitionsverweis {Borel-Menge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+durch eine
+\definitionsverweis {abzählbare}{}{}
+\definitionsverweis {Zerlegung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ = }{  \biguplus_{i \in I} T_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {wobei
+
+\mavergleichskettek
+{\vergleichskettek
+{ T_i
+}
+{ \subseteq }{ U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein offenes Kartengebiet und
+
+\mavergleichskettek
+{\vergleichskettek
+{  \alpha_{i*} \omega
+}
+{ = }{ f_i dx_1 \wedge \ldots \wedge dx_n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist} {} {}
+definierte Zahl
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ T  }   \omega
+}
+{ =} { \sum_{i \in I} \int_{ \alpha_i(T_i)  }  f_i    \,  d  \lambda^n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\zusatzklammer {aus $\overline{ \R }_{\geq 0}$} {} {}
+das \definitionswort {Maß}{} von $T$ zu $\omega$ oder das \definitionswort {Integral}{} von $\omega$ über $T$.
+
+}
+Nach dem vorstehenden Lemma ist dieses Volumenmaß wohldefiniert. Nach
+[[Positive Volumenform/Volumenmaß/Ist Maß/Aufgabe|Aufgabe 15.2]]
+handelt es sich um ein
+$\sigma$-\definitionsverweis {endliches Maß}{}{.}
+Für eine offene Menge
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+eine messbare Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und eine positive $n$-Form
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ f dx_1 \wedge \ldots \wedge dx_n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist einfach
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_T \omega
+}
+{ =} { \int_T f d \lambda^n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+__NOEDITSECTION__
+\inputfaktbeweis
+{Volumenform/Integration/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+$n$-\definitionsverweis {dimensionale}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{} mit einer
+\definitionsverweis {abzählbaren Basis der Topologie}{}{}
+und es seien
+\mathkor {} {\omega_1} {und} {\omega_2} {}
+\definitionsverweis {positive Volumenformen}{}{}
+auf $M$.}
+\faktfolgerung {Dann gilt für jede
+\definitionsverweis {messbare Teilmenge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{T
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{a,b
+}
+{ \in }{\R_+
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Beziehung
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ T  }  (a \omega_1 + b \omega_2)
+}
+{ =} { a
+\int_{  T  }   \omega_1 + b
+\int_{  T  }   \omega_2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+ }
+{ Siehe [[Volumenform/Integration/Eigenschaften/Fakt/Beweis/Aufgabe|Aufgabe 15.5]]. }
+
+  \zwischenueberschrift{Volumenformen und Orientierung}
+
+Die Existenz einer stetigen nullstellenfreien Volumenform auf einer Mannigfaltigkeit hängt eng mit ihrer Orientierbarkeit zusammen. Von der folgenden Aussage werden wir in
+[[Nullstellenfreie Volumenform/Orientierte (Karten) Mannigfaltigkeit/Äquivalenz/Fakt|Satz 22.11]]
+auch die Umkehrung beweisen.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Nullstellenfreie Volumenform/Impliziert orientierte (Karten) Mannigfaltigkeit/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+$m$-\definitionsverweis {dimensionale}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und}
+\faktvoraussetzung {$\omega$ eine
+\definitionsverweis {stetige}{}{}
+nullstellenfreie
+\definitionsverweis {Volumenform}{}{}
+auf $M$.}
+\faktfolgerung {Dann gibt es einen
+\zusatzklammer {diffeomorph-äquivalenten} {} {}
+\definitionsverweis {orientierten Atlas}{}{}
+für $M$ derart, dass $\omega$ eine
+\definitionsverweis {positive Volumenform}{}{}
+bezüglich dieses Atlases wird.}
+\faktzusatz {Insbesondere ist $M$
+\definitionsverweis {orientierbar}{}{.}}
+\faktzusatz {}
+
+}
+{
+
+Zu
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+betrachtet man
+\definitionsverweis {Kartengebiete}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit der Eigenschaft, dass $U$ homöomorph zu einem offenen Ball
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist. Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \bigwedge^m TU
+}
+{ \cong} { \bigwedge^m TV
+}
+{ \cong} { V \times \bigwedge^m \R^m
+}
+{ \cong} { V \times \R
+}
+{ } {
+}
+}
+{}{}{}
+mittels
+\mathl{\bigwedge^m T (\alpha)}{.} Dabei ist die hintere Isomorphie durch die Standardbasis mit den Koordinaten
+\mathl{x_1 , \ldots , x_m}{} gegeben. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha_* \omega
+}
+{ = }{ fdx_1 \wedge \ldots \wedge dx_m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die zugehörige $1$-Differentialform auf $V$. Diese Form ist nullstellenfrei, und da $V$
+\definitionsverweis {zusammenhängend}{}{}
+ist, ist $f$ nach dem
+[[Metrischer Raum/Stetig/Bilder zusammenhängender Räume/Fakt|Zwischenwertsatz]]
+positiv oder negativ. Im negativen Fall ersetzen wir die Karte, indem wir ein Basiselement durch sein Negatives ersetzen. Dadurch gewinnen wir für jeden Punkt eine Kartenumgebung, auf der die Form positiv ist. Zu zwei Karten
+\maabb {\alpha} { U } { V
+} {}
+und
+\maabb {\beta} { U } { V'
+} {}
+mit der Übergangsabbildung
+
+\mavergleichskette
+{\vergleichskette
+{ \psi
+}
+{ = }{ \beta \circ \alpha^{-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und den lokalen Beschreibungen
+\mathkor {} {\alpha_*\omega =f dx_1 \wedge \ldots \wedge dx_m} {und} {\beta_*\omega =g dy_1 \wedge \ldots \wedge dy_m} {}
+gilt dann wegen
+
+\mavergleichskette
+{\vergleichskette
+{ \psi^* (\beta_*\omega)
+}
+{ = }{ \alpha_* \omega
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nach [[Offene Mengen/Differenzierbare Abbildung/Zurückziehen von Volumenform auf gleichdimensionalem Raum/In Koordinaten/Fakt|Korollar 14.9]]
+die Beziehung
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ = }{ g \circ \psi \det  \left(  D  \psi  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Da
+\mathkor {} {f} {und} {g} {}
+positiv sind, muss auch die Determinante positiv sein, sodass die Übergangsabbildung
+\definitionsverweis {orientierungstreu}{}{}
+und die Mannigfaltigkeit somit
+\definitionsverweis {orientiert}{}{}
+ist.
+
+}
+
+  \zwischenueberschrift{Volumenform auf Fasern}
+
+Für die folgenden Aussagen vergleiche
+[[Differenzierbare Hyperfläche/Orientierung über Einheitsnormalenfeld/Bemerkung|Bemerkung 13.11]].
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Differenzierbare reguläre Abbildung/R^n/Faser besitzt Volumenform über Gradienten/Fakt}
+{Korollar}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen und sei
+\maabbdisp {\varphi} { G } {\R^\ell
+} {}
+\zusatzklammer {mit
+
+\mavergleichskettek
+{\vergleichskettek
+{ m
+}
+{ = }{ n - \ell
+}
+{ \geq }{ 0
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+eine
+\definitionsverweis {stetig differenzierbare Abbildung}{}{,}}
+\faktvoraussetzung {die in jedem Punkt der
+\definitionsverweis {Faser}{}{}
+$M$ über
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ \R^\ell
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {regulär}{}{}
+sei.}
+\faktfolgerung {Dann ist die Abbildung
+\maabbeledisp {} {\bigwedge^{m} T_PM } { \R
+} {v_1 \wedge \ldots \wedge v_m } { \det  (
+\operatorname{Grad} \, \varphi_1  (  P ) , \ldots ,
+\operatorname{Grad} \, \varphi_\ell ( P ),  v_1 , \ldots , v_m)
+} {,}
+in jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine Isomorphie, wodurch eine stetige nullstellenfreie Volumenform auf $M$ gegeben ist.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Bei dieser Abbildung werden die Vektoren
+
+\mavergleichskette
+{\vergleichskette
+{ v_i
+}
+{ \in }{ T_PM
+}
+{ \subseteq }{ T_P \R^n
+}
+{ =   }{ \R^n
+}
+{   }{
+}
+}
+{}{}{}
+und die Gradienten als Vektoren in $\R^n$ aufgefasst. Nach
+[[Dachprodukt/Abbildung mit fixierten Dachprodukt/Alternierend/Aufgabe|Aufgabe 12.13]]
+und nach
+[[Dachprodukt/Transformation mit Determinante/Fakt|Korollar 57.6 (Lineare Algebra (Osnabrück 2024-2025))]]
+ist die Abbildung wohldefiniert und linear. Der Ausgangsraum der Abbildung ist wie der Zielraum eindimensional. Es sei
+\mathl{v_1 , \ldots , v_m}{} eine
+\definitionsverweis {Basis}{}{}
+von
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T_PM
+}
+{ =} { \operatorname{kern}  \left(D\varphi\right)_{P}
+}
+{ =} { (
+\operatorname{Grad} \, \varphi_1  (  P ) , \ldots ,
+\operatorname{Grad} \, \varphi_\ell ( P ) ) ^{ { \perp  } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Da die Abbildung regulär ist, sind die Gradienten untereinander
+\definitionsverweis {linear unabhängig}{}{,}
+und wegen der Orthogonalitätsbeziehung erst recht linear unabhängig zu den $v_i$. Daher liegt insgesamt eine Basis des $\R^n$ vor, sodass nach
+[[Determinante/Null, linear abhängig und Rangeigenschaft/Fakt|Satz 16.11 (Lineare Algebra (Osnabrück 2024-2025))]]
+die Determinante $\neq 0$ ist. Die Abhängigkeit dieser Volumenform vom Basispunkt $P$ ist stetig, wie aus der Stetigkeit der Gradienten, der Stetigkeit der Determinante und dem
+[[Satz über implizite Abbildungen/Globale Diffeomorphismen/Induzierte Diffeomorphismen zwischen Faser und Achsenräumen/Fakt|Satz über implizite Abbildungen]]
+folgt.
+
+}
+
+Der vorstehende Satz liefert zwar in dieser wichtigen Situation die Existenz eines positiven Maßes, aber noch nicht die kanonische Volumenform, die wir in der nächsten Vorlesung über die riemannsche Metrik einführen werden. Für den Zusammenhang zwischen den beiden Konzepten siehe
+[[Faser/Reguläre Funktion/Volumenform/Gradient und Skalarprodukt/Aufgabe|Aufgabe 16.10]]
+und
+[[Faser/Reguläre Funktionen/Volumenform/Orthogonale Gradienten und Skalarprodukt/Aufgabe|Aufgabe 16.11]].
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Differenzierbare reguläre Funktion/R^n/Volumenform über Gradienten/Als Differentialform/Fakt}
+{Korollar}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen und sei
+\maabbdisp {\varphi} { G } {\R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Abbildung}{}{,}}
+\faktvoraussetzung {die in jedem Punkt der
+\definitionsverweis {Faser}{}{}
+$M$ über
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{\R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {regulär}{}{}
+sei.}
+\faktfolgerung {Dann ist die
+\definitionsverweis {Volumenform}{}{}
+aus
+[[Differenzierbare reguläre Abbildung/R^n/Faser besitzt Volumenform über Gradienten/Fakt|Korollar 15.6]]
+gleich
+
+\mathdisp {\sum_{i = 1}^n (-1)^{i+1} { \frac{   \partial  \varphi  }{  \partial   x_i   } } dx_1 \wedge \ldots \wedge dx_{i-1} \wedge dx_{i+1} \wedge \ldots \wedge dx_n} { , }
+
+wobei die
+\mathl{x_1 , \ldots , x_n}{} die Koordinaten auf $\R^n$ bezeichnen und die
+\mathl{dx_i}{} die zugehörigen $1$-Formen auf $M$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Nach
+[[Differenzierbare reguläre Abbildung/R^n/Faser besitzt Volumenform über Gradienten/Fakt|Korollar 15.6]]
+ist die Volumenform dadurch gegeben, dass sie in einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und einem $n-1$-Tupel
+
+\mavergleichskette
+{\vergleichskette
+{ v_1 , \ldots , v_{n-1}
+}
+{ \in }{ T_PM
+}
+{ \subset }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ v_s
+}
+{ = }{ \begin{pmatrix} v_{1s} \\\vdots\\ v_{ns}   \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Zahl
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \det  \left(
+\operatorname{Grad} \, \varphi ( P )   , \,  v_1  , \,   \ldots , \,  v_{n-1}                \right)
+}
+{ =} { \det  \begin{pmatrix}  { \frac{   \partial  \varphi  }{  \partial   x_1   } } ( P)  & v_{11}   &  \ldots & v_{1 \, n-1 } \\  { \frac{   \partial  \varphi  }{  \partial   x_2   } } ( P)  & v_{21}   &  \ldots & v_{2 \, n-1 } \\ \vdots & \vdots & \vdots & \vdots \\  { \frac{   \partial  \varphi  }{  \partial   x_n   } } ( P)  & v_{n1} &  \ldots &  v_{n\, n-1}  \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {}
+}
+{}{}{}
+zuordnet. Wir müssen zeigen, dass die angegebene Form damit übereinstimmt. Wenn wir diese im Punkt $P$ in den Vektoren auswerten, so erhält man nach
+[[Dachprodukt/Natürliche Dualität/Endlichdimensional/Fakt|Satz 58.4 (Lineare Algebra (Osnabrück 2024-2025))]]
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \sum_{i = 1}^n (-1)^{i+1} { \frac{   \partial  \varphi  }{  \partial   x_i   } } (P) dx_1 \wedge \ldots \wedge dx_{i-1} \wedge dx_{i+1} \wedge \ldots \wedge dx_n  (v_1 , \ldots , v_{n-1})
+}
+{ =} { \sum_{i = 1}^n (-1)^{i+1} { \frac{   \partial  \varphi  }{  \partial   x_i   } } (P) \det  \left(  dx_r  (v_{s} )  \right)_{1\leq  r \leq n,\, r \neq i,\, 1 \leq s \leq n-1  }
+}
+{ =} { \sum_{i = 1}^n (-1)^{i+1} { \frac{   \partial  \varphi  }{  \partial   x_i   } } (P) \det  \left(  v_{r s }  \right)_{1 \leq  r \leq n,\, r \neq i,\, 1 \leq s \leq n-1  }
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+Dies ist gerade die Entwicklung der obigen Determinante nach der ersten Spalte.
+
+}
+
+\inputbemerkung
+{}
+{
+
+In der Situation von
+[[Differenzierbare reguläre Abbildung/R^n/Faser besitzt Volumenform über Gradienten/Fakt|Korollar 15.6]]
+erhält man nicht nur eine nullstellenfreie Volumenform, sondern auch eine Orientierung auf jedem Tangentialraum und überhaupt eine orientierte Mannigfaltigkeit. Man definiert die Orientierung auf
+\mathl{T_PM}{} dadurch, dass man festlegt, dass eine Basis
+\mathl{v_1 , \ldots , v_m}{} die Orientierung repräsentiert, wenn die erweiterte Basis
+\mathl{\operatorname{Grad} \, \varphi_1  (  P ) , \ldots ,
+\operatorname{Grad} \, \varphi_\ell ( P ), v_1 , \ldots , v_m}{} die Standardorientierung des $\R^n$ repräsentiert. Diese Festlegung hängt von $\varphi$ ab. Wenn man beispielsweise $\varphi$ durch $- \varphi$ ersetzt, so ändert sich bei ungeradem $\ell$ die Orientierung.
+
+}
+
+\inputbeispiel{}
+{
+
+Wir betrachten die
+$2$-\definitionsverweis {Sphäre}{}{}
+$S^2$ als
+\definitionsverweis {Faser}{}{}
+über $0$ zur
+\definitionsverweis {differenzierbaren Abbildung}{}{}
+\maabbeledisp {\varphi} {\R^3} {\R
+} {(x,y,z)} { x^2+y^2+z^2-1
+} {.}
+Wir können darauf
+[[Differenzierbare reguläre Abbildung/R^n/Faser besitzt Volumenform über Gradienten/Fakt|Korollar 15.6]]
+anwenden und erhalten durch
+\maabbeledisp {} {\bigwedge^2 T_P S^2} {\R
+} {v_1 \wedge v_2 } { \det  (
+\operatorname{Grad} \, \varphi(P),v_1,v_2)
+} {,}
+\zusatzklammer {wobei die Tangentenvektoren
+\mathkor {} {v_1} {und} {v_2} {}
+wegen
+
+\mavergleichskette
+{\vergleichskette
+{ T_PS^2
+}
+{ \subseteq }{ T_P\R^3
+}
+{ = }{ \R^3
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+direkt im $\R^3$ aufgefasst werden können} {.} {,}
+eine stetige nullstellenfreie
+\definitionsverweis {Flächenform}{}{}
+$\omega$. Dies führt zu einer
+\definitionsverweis {positiven Flächenform}{}{}
+und zu einer
+\definitionsverweis {Orientierung}{}{}
+auf $S^2$. Zwei linear unabhängige Tangentialvektoren
+\mathkor {} {v_1} {und} {v_2} {}
+repräsentieren die Orientierung, wenn
+
+\mavergleichskette
+{\vergleichskette
+{ \omega(v_1,v_2)
+}
+{ > }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist, und dies ist genau dann der Fall, wenn die drei Vektoren
+\mathl{\operatorname{Grad} \, \varphi(P),\, v_1,\, v_2}{} die
+\definitionsverweis {Standardorientierung}{}{}
+des $\R^3$ repräsentieren. Nach
+[[Differenzierbare reguläre Funktion/R^n/Volumenform über Gradienten/Als Differentialform/Fakt|Korollar 15.7]]
+kann man diese Flächenform auch als das Doppelte von
+
+\mathdisp {x dy \wedge dz -y dx \wedge dz + z dx \wedge dy} {  }
+
+schreiben.
+
+}
+
+\inputbeispiel{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine offene Teilmenge,
+\maabbdisp {h} { V } {\R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ \subset }{ \R^n \times \R
+}
+{ = }{\R^{n+1}
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+der zugehörige Graph, den wir als $n$-dimensionale
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+auffassen, die zu $V$ über
+\mathl{(x_1 , \ldots , x_n) \mapsto (x_1 , \ldots , x_n, h (x_1 , \ldots , x_n) )}{}
+\definitionsverweis {diffeomorph}{}{}
+ist. Diese Mannigfaltigkeit ist zugleich die Faser über $0$ unter der Abbildung
+\maabbeledisp {\varphi} {\R^{n+1}} {\R
+} {(x_1 , \ldots , x_n,y)} { h( x_1 , \ldots , x_n)-y
+} {.}
+Der Gradient dieser Abbildung ist
+
+\mathdisp {\left( \frac{ \partial h } { \partial x_1 } (P)  , \,   \ldots  , \,  \frac{ \partial h } { \partial x_n } (P) , \,   -1                \right)} {  }
+
+Nach
+[[Differenzierbare reguläre Abbildung/R^n/Faser besitzt Volumenform über Gradienten/Fakt|Korollar 15.6]]
+liefert daher die Zuordnung
+
+\mathdisp {(v_1 , \ldots , v_n) \mapsto \det  \begin{pmatrix}  \frac{ \partial h } { \partial x_1 }(P)  & v_{11} &  \ldots & v_{n1} \\  \vdots & \vdots &  \ddots & \vdots \\  \frac{ \partial h } { \partial x_n } (P) & v_{1n} &  \ldots & v_{nn} \\  -1 & v_{1 n+1} &  \ldots & v_{n n+1}  \end{pmatrix}} {  }
+
+eine stetige nullstellenfreie $n$-Form $\omega$ auf $M$. Wenn man diese Form über die oben beschriebene
+\zusatzklammer {einzige} {} {}
+Karte nach $V$ zurückzieht, so ist
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha_*\omega
+}
+{ = }{ f dx_1 \wedge \ldots \wedge dx_n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei sich
+\mathl{f(Q)}{} als Wert der Form $\omega$ im Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha^{-1}(Q)
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bezüglich der Vektoren
+\mathl{T_Q (\alpha^{-1})(e_1) , \ldots , T_Q (\alpha^{-1})(e_n)}{} ergibt. Wegen
+
+\mavergleichskette
+{\vergleichskette
+{ T_Q (\alpha^{-1})(e_i)
+}
+{ = }{ ( e_i , \frac{ \partial h } { \partial x_i } (Q))
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist dies
+
+\mavergleichskettedisp
+{\vergleichskette
+{ f(Q)
+}
+{ =} { \det  \begin{pmatrix}  \frac{ \partial h } { \partial x_1 }(Q)   &   1  &  0  &  \ldots &  0  \\  \frac{ \partial h } { \partial x_2 }(Q)  &  0  &  1  &   \ldots  &  0   \\  \vdots & \vdots  & \vdots &  \ddots  & \vdots \\   \frac{ \partial h } { \partial x_n } (Q) &  0  &  0 &   \ldots  &  1  \\  -1 &  \frac{ \partial h } { \partial x_1 }(Q)  &  \frac{ \partial h } { \partial x_2 }(Q) &  \ldots &  \frac{ \partial h } { \partial x_n }(Q)   \end{pmatrix}
+}
+{ =} { \pm \left(  \left( \frac{ \partial h } { \partial x_1 } (Q)   \right)^2 + \cdots + \left(  \frac{ \partial h } { \partial x_n } (Q)   \right)^2 +1  \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei das Vorzeichen von $n$ abhängt.
+
+}
+
+  \zwischenueberschrift{Integration längs einer differenzierbaren Abbildung}
+
+Auf einer $n$-dimensionalen Mannigfaltigkeit $M$ sind nur $n$-Formen über $M$ sinnvoll integrierbar. Man möchte aber auch $k$-Formen
+\zusatzklammer {
+\mavergleichskettek
+{\vergleichskettek
+{ 1
+}
+{ \leq }{k
+}
+{ \leq }{n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+über gewisse $k$-dimensionale Unterobjekte integrieren können. Das passende Konzept ist dabei die Integration längs einer differenzierbaren Abbildung
+\maabbdisp {\varphi} {L} {M
+} {}
+einer $k$-dimensionalen Mannigfaltigkeit $L$. Dabei integriert man über $L$ einfach die mit $\varphi$
+\definitionsverweis {zurückgezogene Differentialform}{}{}
+
+\mathl{\varphi^* \omega}{} zu einer Form
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{ k } ( M  )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Auf $L$ passen dabei die Dimension und der Grad der Form zusammen. Ein wichtiger Spezialfall ist dabei der von $1$-Formen und differenzierbaren Kurven
+\maabbdisp {\gamma} {I} {M
+} {,}
+die dabei entstehenden Integrale nennt man \stichwort {Wegintegrale} {.}
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{  1 } (  M   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+$1$-\definitionsverweis {Differentialform}{}{.}
+Es sei
+\maabbdisp {\gamma} { [a,b] } { M
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Kurve}{}{.}
+Dann heißt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_\gamma \omega
+}
+{ \defeq} {
+\int_{  [a,b]  }   \gamma^* \omega
+}
+{ =} { \int_{  a  }^{  b  } \omega ( \gamma(t); \gamma'(t)) \, d  t
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+das \definitionswort {Wegintegral}{} von $\omega$ längs $\gamma$.
+
+}
+Dabei ist
+
+\mavergleichskette
+{\vergleichskette
+{  \gamma'(t)
+}
+{ = }{ (T_t \gamma)(1)
+}
+{ \in }{ T_{\gamma (t)} M
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+\inputbemerkung
+{}
+{
+
+Im physikalischen Kontext beschreibt eine reellwertige
+$1$-\definitionsverweis {Differentialform}{}{}
+\zusatzklammer {bzw. ihre duale Version, ein Vektorfeld} {} {}
+eine Kraft; das
+\definitionsverweis {Wegintegral}{}{}
+ist dann der \stichwort {Arbeitsaufwand} {} oder die \stichwort {Energie} {,} die gebraucht oder freigesetzt wird, wenn sich ein Teilchen auf dem Weg bewegt.
+
+}
+
+Häufig werden wir Differentialformen auf einer abgeschlossenen Untermannigfaltigkeit
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ \subseteq }{G
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$G$ offen in $\R^n$, betrachten, die sogar auf $G$ definiert sind und daher die Gestalt
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ \sum_{i = 1}^n g_i d x_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+besitzen, wobei die $x_i$ die Koordinaten des $\R^n$ und die $g_i$ auf $G$ definierte Funktionen sind. Für einen Weg in $M$ ist es nach
+[[Wegintegral/Mannigfaltigkeit/Differenzierbare Abbildung/Aufgabe|Aufgabe 15.9]]
+gleichgültig, ob man das Wegintegral mit Bezug auf
+\mathkor {} {G} {und} {\omega} {}
+oder mit Bezug auf
+\mathkor {} {M} {und die eingeschränkte Differentialform} {\omega \vert_M} {}
+betrachtet.
+
+\inputbemerkung
+{}
+{
+
+Ein
+\definitionsverweis {Wegintegral}{}{}
+wird folgendermaßen berechnet. Es sei $\omega$ eine $1$-Form auf
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen, die durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { g_1dx_1 + \cdots + g_ndx_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+beschrieben werde, wobei die
+\maabb {g_j} { G } {\R
+} {}
+messbare Funktionen sind. Es sei eine
+\definitionsverweis {stetig differenzierbare Kurve}{}{}
+\maabb {\gamma} { [a,b] } { G
+} {}
+gegeben mit den
+\zusatzklammer {stetig differenzierbaren} {} {}
+\definitionsverweis {Komponentenfunktionen}{}{}
+$\gamma_j$. Die
+\definitionsverweis {Ableitung}{}{}
+in einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ [a,b]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+wird dann
+nach [[Kurve/Euklidischer Vektorraum/Differenzierbar und Komponenten/Fakt|Lemma 37.4 (Analysis (Osnabrück 2021-2023))]]
+durch den Vektor
+\mathl{\left(  \gamma_1'(t)  , \,   \ldots  , \,   \gamma_n'(t)                 \right)}{} beschrieben. Die
+\definitionsverweis {zurückgezogene Differentialform}{}{}
+
+\mathl{\gamma^* \omega}{} hat dann im Punkt $t$ in Richtung $1$ den Wert
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \omega(\gamma(t); \gamma'(t))
+}
+{ =} { \left(  g_1(\gamma(t))dx_1 + \cdots + g_n(\gamma(t))dx_n  \right) \begin{pmatrix}  \gamma_1'(t)  \\\vdots \\  \gamma_n'(t)   \end{pmatrix}
+}
+{ =} { g_1(\gamma(t)) \gamma_1'(t) + \cdots + g_n(\gamma(t)) \gamma_n'(t)
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+Im mittleren Ausdruck wird eine
+\definitionsverweis {Linearform}{}{}
+auf einen Vektor angewendet. In
+\mathl{g_j(x_1 , \ldots , x_n)}{} wird also
+\mathkor {} {x_i} {durch} {\gamma_i(t)} {}
+und
+\mathkor {} {dx_i} {durch} {\gamma_i'(t) dt} {}
+ersetzt. Das Gesamtergebnis ist eine messbare $1$-Form auf
+\mathl{[a,b]}{} bzw. eine messbare Funktion von
+\mathl{[a,b]}{} nach $\R$, die man integrieren kann.
+
+}
+
+\inputbeispiel{}
+{
+
+Wir betrachten die Differentialform
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { \left(  xy+z^2  \right) dx+zdy+x^3dz
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf dem $\R^3$ und den
+\definitionsverweis {affin-linearen Weg}{}{}
+\maabbeledisp {\gamma} { [0,1] } {\R^3
+} { t } {(1,2,0) +t(3,0,2) = (1+3t,2,2t)
+} {.}
+Die unter $\gamma$
+\definitionsverweis {zurückgenommene Differentialform}{}{}
+$\gamma^* \omega$ ist
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left(  \left(  (1+3t)2 + (2t)^2  \right) dx + 2tdy + (1+3t)^3 dz  \right) \begin{pmatrix}  3  \\ 0 \\  2   \end{pmatrix}
+}
+{ =} { \left(  3  ((1+3t)2  + (2t)^2) + 2(1+3t)^3  \right) dt
+}
+{ =} { \left(  12t^2+18t+6+54t^3+54t^2+18t+2  \right) dt
+}
+{ =} { \left(  54t^3+66t^2+36t+8  \right) dt
+}
+{ } {
+}
+}
+{}
+{}{.}
+Für das Integral über dem Einheitsintervall ergibt sich
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \int_{  0  }^{  1  } 54t^3+66t^2+36t+8 \, d t
+}
+{ =} { \left(  { \frac{   27 }{  2 } } t^4 + 22 t^3 + 18t^2 +8t \right) \vert_{  0  }^{  1  }
+}
+{ =} { { \frac{   123 }{  2  } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+ [[Kategorie:Latexseite]]

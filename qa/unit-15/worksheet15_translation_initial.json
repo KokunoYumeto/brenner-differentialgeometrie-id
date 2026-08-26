@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "source": "authority/expanded/worksheet15_source.de.tex",
+  "source_bytes": 8200,
+  "source_sha256": "e425eede128eefd7d8eae134076caed6f0782e40e148b73eeaf843e1c740a621",
+  "target": "source/units/unit-15/worksheet15.id.tex",
+  "target_bytes": 8381,
+  "target_sha256": "3c6e0d42eb20663d6c6eb6a33d2641b1afabc38b6e246a0ac9273bbeb5f6858c",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": false,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 257,
+    "environments": 0,
+    "inline_math": 30,
+    "display_math": 0,
+    "protected_calls": 26
+  },
+  "status": "fail",
+  "failures": [
+    "commands"
+  ],
+  "declared_corrections": [],
+  "evidence_only_results": []
+}

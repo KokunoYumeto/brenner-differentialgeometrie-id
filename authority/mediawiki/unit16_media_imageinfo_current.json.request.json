@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://commons.wikimedia.org/w/api.php",
+  "http_date": "Tue, 25 Aug 2026 20:11:56 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "iiprop": "timestamp|user|url|size|sha1|mime|extmetadata",
+    "prop": "info|imageinfo",
+    "titles": "File:Georg Friedrich Bernhard Riemann.jpeg|File:Sphere with three handles.png"
+  },
+  "response_bytes": 9552,
+  "response_path": "unit16_media_imageinfo_current.json",
+  "response_sha256": "db2ff547db6f3f2a25c081e2b28b9d02a8a176ff24256e0b0c7db7a8bc477221",
+  "retrieved_utc": "2026-08-25T20:11:55Z",
+  "schema_version": 1
+}

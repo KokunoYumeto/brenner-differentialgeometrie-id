@@ -1,0 +1,44 @@
+{
+  "bytes_bound": 51239152,
+  "coverage": "Kuliah 1–16 dan Lembar Kerja 1–16 dari 29 pasangan inti",
+  "files": [
+    {
+      "bytes": 7241359,
+      "path": "geometri-diferensial-manifold-mulus-hingga-unit-16-id.pdf",
+      "sha256": "58f98853ab8eeb1beb2aa4ade6bd3c746b62b4fa42c3c692a03c17076cdb06b8"
+    },
+    {
+      "bytes": 6004554,
+      "path": "geometri-diferensial-manifold-mulus-unit16-html-20260826.zip",
+      "sha256": "56ce4139bfeab826a9107c9f7068c6b49355852b63107176bd0d196f2bdd2d71"
+    },
+    {
+      "bytes": 37989234,
+      "path": "geometri-diferensial-manifold-mulus-unit16-source-20260826.zip",
+      "sha256": "080cc0c3902c3bda3a895646575ca2770cf20870ce16a740d6e3783cbc90a71c"
+    },
+    {
+      "bytes": 2034,
+      "path": "LICENSE.md",
+      "sha256": "ae342d8e0541b387b519160e8ba174aea17c2f1c7ee7809d35b54357c6184467"
+    },
+    {
+      "bytes": 1971,
+      "path": "RELEASE_NOTES_UNIT16_20260826.md",
+      "sha256": "dfb29ff35c76023c161d0fb5fe76e638cb4641a8feb4e445146a6e39ce772c9c"
+    }
+  ],
+  "model_identification": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "public_file_order": [
+    "geometri-diferensial-manifold-mulus-hingga-unit-16-id.pdf",
+    "geometri-diferensial-manifold-mulus-unit16-html-20260826.zip",
+    "geometri-diferensial-manifold-mulus-unit16-source-20260826.zip",
+    "LICENSE.md",
+    "RELEASE_NOTES_UNIT16_20260826.md",
+    "FILE_MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "schema_version": 1,
+  "status": "active_partial",
+  "workflow": "o011-unit16-public-file-manifest-v1"
+}

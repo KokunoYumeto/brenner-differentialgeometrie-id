@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Tue, 25 Aug 2026 15:38:17 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Kompakte Mannigfaltigkeit/Positive Volumenform/Endlich/Fakt/Beweis/Aufgabe/Lösung|Positive Volumenform/Volumenmaß/Ist Maß/Aufgabe/Lösung|R^n/Standardform/Integration über Teilmenge/Aufgabe/Lösung|Integration auf Mannigfaltigkeiten/Nullmengen/Ignorierbar/Aufgabe/Lösung|Volumenform/Integration/Eigenschaften/Fakt/Beweis/Aufgabe/Lösung|Mannigfaltigkeit/Abzählbare Topologie/Nullmengen/Unabhängig von Volumenform/Aufgabe/Lösung|S^1/Faser/Gradient/Längenform/Aufgabe/Lösung|S^2/Faser/Gradient/Flächenform/Aufgabe/Lösung|Wegintegral/Mannigfaltigkeit/Differenzierbare Abbildung/Aufgabe/Lösung|Wegintegral/Trigonometrischer Kreis/xdx+ydy etc/Aufgabe/Lösung|Wegintegral/x^3dx-yzdy+xz^2dz/(-t^2,t^3-1,t+2)/-1 bis 0/Aufgabe/Lösung|Wegintegrale/t nach (t,t^(-1))/(u,v) nach (u^2,uv,-u+v^2)/xdx-zdy+dz/Aufgabe/Lösung|Wegintegrale/t nach (t,t^3)/(u,v) nach (u^3,u^2+v^2,u^-1+v^-1)/(x-y)dx-z^2dy+dz/Aufgabe/Lösung|Abgeschlossene Untermannigfaltigkeit/Volumenform/Kleinere Dimension/Nullmenge/Aufgabe/Lösung|Wegintegral/R^2/Monomiale Daten/Aufgabe/Lösung|Wegintegral/Trigonometrische Helix/(y-z^3)dx+x^2dy-xzdz/Aufgabe/Lösung"
+  },
+  "response_bytes": 6753,
+  "response_path": "unit15_solution_pages_current.json",
+  "response_sha256": "9269eb6fe8db693fcf6288a35504ab6810f58917e765dc58c2eb0ad0175855f3",
+  "retrieved_utc": "2026-08-25T15:38:17Z",
+  "schema_version": 1
+}

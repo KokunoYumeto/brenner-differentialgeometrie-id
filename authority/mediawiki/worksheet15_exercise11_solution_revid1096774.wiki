@@ -1,0 +1,35 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es ist
+{{
+Relationskette/align
+| \gamma^* \omega
+|| (-t^2)^3 d(-t^2) - (t^3-1) (t+2)d (t^3-1)  - t^2(t+2)^2d(t+2)
+|| 2 t^7 dt     - 3t^2 (t^4 +2t^3 -t -2) dt - t^2(  t^2  +4 t +4) dt
+||  (2t^7 -3t^6 -6t^5   +3t^3 +6t^2 -t^4  -4t^3 -4t^2       )dt
+|| (2t^7 -3t^6 -6t^5   -t^4  -t^3 +2 t^2       )dt
+|SZ=.
+}}
+Daher ist
+{{
+Relationskette/align
+| \int_\gamma \omega
+|| \int_{-1}^0    (2t^7 -3t^6 -6t^5   -t^4  -t^3 +2 t^2       )dt 
+|| {{op:Integralstamm| -1| 0| ({{op:Bruch| 1| 4}}  t^8 - {{op:Bruch| 3| 7}}  t^7 - t^6- {{op:Bruch| 1| 5}} t^5 - {{op:Bruch| 1| 4}} t^4 + {{op:Bruch| 2| 3}} t^3)||}} 
+|| -( {{op:Bruch| 1| 4}}  + {{op:Bruch| 3| 7}}  -1 + {{op:Bruch| 1| 5}}  - {{op:Bruch| 1| 4}}  - {{op:Bruch| 2| 3}} )
+|| - {{op:Bruch| 3| 7}}  +1 - {{op:Bruch| 1| 5}} + {{op:Bruch| 2| 3}}
+|| {{op:Bruch| -45 +105-21+70| 105}} 
+|| {{op:Bruch| 109| 105}} 
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

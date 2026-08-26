@@ -1,0 +1,19 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es ist
+{{
+Relationskette/align
+| g(t)
+|| {{op:Skalarprodukt| T_t \varphi(1)  |T_t \varphi(1) }}_{ Y, \varphi(t) }
+|| {{op:Skalarprodukt|   \varphi' (t)  |  \varphi'(t) }} 
+|| {{op:Skalarprodukt| {{op:Spaltenvektor| 1| 2t}}    | {{op:Spaltenvektor| 1| 2t}} }} 
+|| 1+4t^2
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

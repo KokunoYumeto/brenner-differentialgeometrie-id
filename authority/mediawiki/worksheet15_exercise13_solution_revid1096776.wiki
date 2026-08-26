@@ -1,0 +1,36 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+a) Die zurückgezogene Differentialform ist
+{{
+Relationskette/align/drucklinks
+|\varphi^* (  (x-y)dx-z^2dy+dz   )
+|| (u^3-u^2-v^2 ) d(u^3)  -u^{-2}v^{-2} d(u^2+v^2) +d (u^{-1}v^{-1})
+|| 3 (u^5-u^4-u^2v^2 ) du  -2u^{-1}v^{-2} du -2u^{-2}v^{-1} dv - u^{-2} v^{-1}du - u^{-1} v^{-2}dv 
+|| (3 u^5-3u^4-3u^2v^2 -2u^{-1}v^{-2}- u^{-2} v^{-1} )  du + (  -2u^{-2}v^{-1} - u^{-1} v^{-2})dv 
+||
+|SZ=.
+}}
+
+b) Das Wegintegral ist
+{{
+Relationskette/align/drucklinks
+| \int_1^c (3 t^5-3t^4-3t^2t^6 -2t^{-1}t^{-6}- t^{-2} t^{-3} )dt  +(  -2t^{-2}t^{-3} - t^{-1} t^{-6}) d t^3 
+|| \int_1^c   (3 t^5-3t^4-3t^8-2t^{-7} - t^{-5})dt + ( -2t^{-5} - t^{-7})3t^2 dt 
+|| \int_1^c (3 t^5-3t^4-3t^8-2t^{-7} - t^{-5}   -6t^{-3} - 3 t^{-5}      ) dt
+|| \int_1^c (-3t^8 + 3 t^5-3t^4 -6t^{-3} - 4 t^{-5}  -2t^{-7}       )  dt
+|| {{op:Integralstamm| 1| c |(-{{op:Bruch| 1| 3}} t^9 + {{op:Bruch| 1| 2}} t^{6}  - {{op:Bruch| 3| 5}} t^5  +  3 t^{-2} +  t^{-4} + {{op:Bruch| 1| 3}}  t^{-6}     )}} 
+|| -{{op:Bruch| 1| 3}} c^9 + {{op:Bruch| 1| 2}} c^{6}  - {{op:Bruch| 3| 5}} c^5  +  3c^{-2} +   c^{-4} + {{op:Bruch| 1| 3}}  c^{-6} 
+-(-{{op:Bruch| 1| 3}} + {{op:Bruch| 1| 2}} - {{op:Bruch| 3| 5}} +3 + 1 + {{op:Bruch| 1| 3}}  )
+|| -{{op:Bruch| 1| 3}} c^9 + {{op:Bruch| 1| 2}} c^{6}  - {{op:Bruch| 3| 5}} c^5 + 3 c^{-2} +  c^{-4} + {{op:Bruch| 1| 3}} c^{-6} - {{op:Bruch| 39| 10}}  |SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

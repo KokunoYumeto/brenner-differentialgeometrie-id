@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-16/worksheet16_exercise12_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-TRANS-0189",
+      "anchor": "Supplied Solution 12 protected conjunctions",
+      "change": "Translate the two reader-visible German conjunction occurrences to dan while preserving both vector formulas exactly."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-TRANS-0189",
+      "surface": "protected:mathdisp",
+      "index": 1,
+      "source_sha256": "2be8316a2e23482ec34c8e01a51d3a93d8206e2ac096f511825a4dfd8f9ce8e4",
+      "target_sha256": "0160ee4f5abed822dc66da64f7f87c37f0c3a2fd63fc74ab37aa3aac8ce50166"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-TRANS-0189",
+      "surface": "command:mathkor",
+      "occurrence_index": 0,
+      "source_sha256": "824227b3dff6d88a05987d413b1000a05a022cdbf796ebc25de447b80468b471",
+      "target_sha256": "a5b6f55800483ba911d85fb124944114e1f5d0da31dd1abcf63805507d4aa1b5"
+    }
+  ]
+}

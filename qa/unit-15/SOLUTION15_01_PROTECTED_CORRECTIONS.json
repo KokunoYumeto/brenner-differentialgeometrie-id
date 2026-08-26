@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-15/worksheet15_exercise01_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0172",
+      "anchor": "Exercise 1 solution, finite subcover cardinality",
+      "change": "Use N for the independently obtained finite-subcover cardinality rather than reusing the manifold dimension n."
+    },
+    {
+      "correction_id": "O011-CORR-0173",
+      "anchor": "Exercise 1 solution, coordinate-domain boundedness",
+      "change": "State that f is bounded on the compact closure of the coordinate ball and hence on the ball rather than ill-typedly saying f is bounded on U prime."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0173",
+      "surface": "profile:inline_math",
+      "source_sha256": "44811ae9abbc039d7892bc022180c0359971d27eb5ae9df2b2041fed31a210a9",
+      "target_sha256": "0418d27276790a5e76a219938b1f4277b8b56dbaf3a52d86c9a471cfc48b7032"
+    },
+    {
+      "correction_id": "O011-CORR-0172",
+      "surface": "protected:vergleichskette",
+      "index": 7,
+      "source_sha256": "e4fad2ba93b7a36e3520497f5653b18cd9cb738d233524d57c287c82e670a36e",
+      "target_sha256": "1befe0accc8b9a7209c35043fe668b882318b678e7a4e478a804e3d84b54c132"
+    },
+    {
+      "correction_id": "O011-CORR-0172",
+      "surface": "protected:vergleichskette",
+      "index": 9,
+      "source_sha256": "2777f6483ab857f1dbbf0e6e6c482f18e8281c1a91bbec39d3eca64fb389c510",
+      "target_sha256": "0c14cdfffeb962811c9298b4d69cc85f10ee27aea483dedbb44c49c45ff932c4"
+    }
+  ],
+  "evidence_only_deltas": []
+}

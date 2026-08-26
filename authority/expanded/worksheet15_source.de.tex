@@ -1,0 +1,541 @@
+\setcounter{section}{15}
+
+  \zwischenueberschrift{Übungsaufgaben}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es sei $M$ eine kompakte differenzierbare Mannigfaltigkeit mit einer stetigen positiven Volumenform $\omega$. Zeige, dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_M \omega
+}
+{ <} { \infty
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Zeige, dass das zu einer
+\definitionsverweis {stetigen}{}{}
+\definitionsverweis {positiven Volumenform}{}{}
+auf einer
+\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+in
+[[Mannigfaltigkeit/Abzählbar/Positive Volumenform/Zugehöriges Maß/Definition|Definition 15.3]]
+eingeführte Volumenmaß ein
+$\sigma$-\definitionsverweis {endliches Maß}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { dx_1 \wedge \ldots \wedge dx_n
+}
+{ =} { e_1^* \wedge \ldots \wedge e_n^*
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+die Standard-Volumenform auf dem $\R^n$. Zeige, dass für jede
+\definitionsverweis {messbare Teilmenge}{}{}
+
+\mathl{T \subseteq \R^n}{} die Gleichheit
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ T  }   \omega
+}
+{ =} { \int_{  T  }     \,  d  \lambda^n
+}
+{ =} { \lambda^n(T)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gilt.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+mit einer
+\definitionsverweis {positiven Volumenform}{}{}
+$\omega$. Es sei
+\mathl{T \subseteq M}{}
+\definitionsverweis {messbar}{}{}
+und
+\mathl{N \subseteq M}{} eine
+\definitionsverweis {Nullmenge}{}{.}
+Zeige, dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ T  }   \omega
+}
+{ =} {
+\int_{ T \setminus N  }   \omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gilt.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $M$ eine
+$n$-\definitionsverweis {dimensionale}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+mit einer
+\definitionsverweis {abzählbaren Basis der Topologie}{}{}
+und es seien
+\mathkor {} {\omega_1} {und} {\omega_2} {}
+\definitionsverweis {positive Volumenformen}{}{}
+auf $M$. Zeige, dass für jede
+\definitionsverweis {messbare Teilmenge}{}{}
+
+\mathl{T \subseteq M}{} und
+\mathl{a,b \in \R_+}{} die Beziehung
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ T  }  (a \omega_1 + b \omega_2)
+}
+{ =} { a
+\int_{  T  }   \omega_1+ b
+\int_{  T  }   \omega_2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gilt.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+mit
+\definitionsverweis {abzählbarer Basis der Topologie}{}{.}
+Zeige, wie man unter Bezug auf Karten \anfuehrung{Nullmengen}{} von $M$ erklären kann, ohne dass ein
+\definitionsverweis {Maß}{}{}
+gegeben ist. Zeige ferner, dass, wenn eine
+\definitionsverweis {positive Volumenform}{}{}
+gegeben ist, diese Nullmengen auch
+\definitionsverweis {Nullmengen}{}{}
+im Sinne der Maßtheorie sind.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Beschreibe den Einheitskreis
+\mathl{S^1 \subset \R^2}{} als Faser einer Abbildung
+\maabbdisp {} {\R^2} {\R
+} {}
+derart, dass die gemäß
+[[Differenzierbare reguläre Abbildung/R^n/Faser besitzt Volumenform über Gradienten/Fakt|Korollar 15.6]]
+gegebene Volumenform $\omega$  positiv ist. Berechne
+\mathl{\int_{S^1} \omega}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Beschreibe die Einheitssphäre
+\mathl{S^2 \subset \R^3}{} als Faser einer Abbildung
+\maabbdisp {} {\R^3} {\R
+} {}
+derart, dass die gemäß
+[[Differenzierbare reguläre Abbildung/R^n/Faser besitzt Volumenform über Gradienten/Fakt|Korollar 15.6]]
+gegebene Volumenform $\omega$  positiv ist. Berechne
+\mathl{\int_{S^2} \omega}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es seien
+\mathkor {} {L} {und} {M} {}
+\definitionsverweis {differenzierbare Mannigfaltigkeiten}{}{}
+und
+\maabbdisp {\varphi} { L } { M
+} {}
+eine
+\definitionsverweis {differenzierbare Abbildung}{}{.}
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{  1 } (  M   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine messbare Differentialform mit der
+\definitionsverweis {zurückgezogenen Differentialform}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi^*\omega
+}
+{ \in }{
+{ \mathcal E }^{  1 } (  L   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und es sei
+\maabbdisp {\gamma} { I } { L
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Kurve}{}{}
+\zusatzklammer {$I$ ein
+\definitionsverweis {reelles Intervall}{}{}} {} {.}
+Zeige, dass für die
+\definitionsverweis {Wegintegrale}{}{}
+die Gleichheit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_\gamma \varphi^* \omega
+}
+{ =} { \int_{\varphi \circ \gamma} \omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Sei
+\maabbeledisp {\gamma} { [0,2\pi] } {\R^2
+} { t } {( \cos  t , \sin  t )
+} {,}
+gegeben. Berechne das
+\definitionsverweis {Wegintegral}{}{}
+längs dieses Weges zu den folgenden
+\definitionsverweis {Differentialformen}{}{}
+
+a)
+\mathl{xdx +ydy}{,}
+
+b)
+\mathl{xdx -ydy}{,}
+
+c)
+\mathl{ydx +xdy}{,}
+
+d)
+\mathl{ydx -xdy}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Berechne das Wegintegral
+\mathl{\int_\gamma \omega}{} zu
+\maabbeledisp {\gamma} { [-1,0] } {\R^3
+} { t } {(-t^2,t^3-1,t+2)
+} {,}
+für die $1$-Differentialform
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { x^3dx -yzdy +xz^2 dz
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf dem $\R^3$.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Wir betrachten die differenzierbaren Abbildungen
+\maabbeledisp {\gamma} { [1,2] } {\R^2
+} { t } {(t,t^{-1})
+} {,}
+und
+\maabbeledisp {\varphi} {\R^2} {\R^3
+} {(u,v)} {(u^2,uv,-u+v^2)
+} {,}
+und die Differentialform
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { xdx-zdy+dz
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf dem $\R^3$.
+
+a) Berechne die zurückgezogene Differentialform
+\mathl{\varphi^* \omega}{} auf dem $\R^2$.
+
+b) Berechne das Wegintegral zur Differentialform
+\mathl{\varphi^* \omega}{} zum Weg $\gamma$.
+
+c) Berechne
+\zusatzklammer {ohne Bezug auf b)} {} {}
+das Wegintegral zur Differentialform
+\mathl{\omega}{} zum Weg $\varphi \circ \gamma$.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Wir betrachten die differenzierbaren Abbildungen
+\maabbeledisp {\gamma} { [1,c] } {\R^2
+} { t } {(t,t^{3})
+} {,}
+\zusatzklammer {mit \mathlk{c \geq 1}{}} {} {}
+und
+\maabbeledisp {\varphi} {\R_+ \times \R_+ } {\R^3
+} {(u,v)} {(u^3,u^2+v^2,u^{-1}v^{-1} )
+} {,}
+und die Differentialform
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { (x-y)dx-z^2dy+dz
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf dem $\R^3$.
+
+a) Berechne die zurückgezogene Differentialform
+\mathl{\varphi^* \omega}{} auf dem $\R_+ \times \R_+$.
+
+b) Berechne das Wegintegral zur Differentialform
+\mathl{\varphi^* \omega}{} zum Weg $\gamma$ in Abhängigkeit von $c$.
+
+}
+{} {}
+
+  \zwischenueberschrift{Aufgaben zum Abgeben}
+
+\inputaufgabe
+{4}
+{
+
+Es sei $M$ eine
+$n$-\definitionsverweis {dimensionale}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+mit
+\definitionsverweis {abzählbarer Basis der Topologie}{}{.}
+Es sei $\omega$ eine
+\definitionsverweis {positive Volumenform}{}{} auf $M$ und es sei $\mu$ das durch diese Volumenform definierte
+\definitionsverweis {Maß}{}{} auf $M$. Zeige, dass dann jede
+\definitionsverweis {abgeschlossene Untermannigfaltigkeit}{}{} der Dimension
+\mathl{\leq n-1}{} eine
+\definitionsverweis {Nullmenge}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Es seien
+
+\mavergleichskette
+{\vergleichskette
+{a,b,c,d,r,s
+}
+{ \geq }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {natürliche Zahlen}{}{.}
+Wir betrachten die
+\definitionsverweis {stetig differenzierbare Kurve}{}{}
+\maabbeledisp {} { [0,1] } {\R^2
+} { t } {(t^r,t^s)
+} {.}
+Berechne das
+\definitionsverweis {Wegintegral}{}{}
+längs dieses Weges zur
+\definitionsverweis {Differentialform}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ x^ay^b dx +x^c y^d dy
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{5}
+{
+
+Es sei
+\maabbeledisp {\gamma} { [0,2\pi] } {\R^3
+} { t } {( \cos  t , \sin  t, t )
+} {,}
+gegeben. Berechne das
+\definitionsverweis {Wegintegral}{}{}
+längs dieses Weges zur
+\definitionsverweis {Differentialform}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ (y-z^3) dx +x^2dy -xzdz
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+ [[Kategorie:Latexseite]]

@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "scope": "O011 Brenner Unit 12 exact media closure and TeX print derivatives",
+  "unit_number": 12,
+  "heading_level": "section",
+  "media_config": "source/unit_media.json",
+  "media_config_sha256": "63809a729fd1149257f0dc6d28bf9b252ecec59854f590357378865d3c5f5bf0",
+  "manifest": "authority/brenner_media_rights_manifest.csv",
+  "manifest_sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57",
+  "image_engine": "Version: ImageMagick 7.1.2-22 Q16 x64 ccf56fb:20260512 https://imagemagick.org",
+  "source_count": 2,
+  "derivative_count": 2,
+  "attribution_tex": {
+    "path": "build/generated/unit12-media-attribution-cumulative.tex",
+    "bytes": 930,
+    "sha256": "74bc73b81c0d5b4b8e633a497f26f0dbef55d7ece5b933569f3e55492cb7e78f"
+  },
+  "media": [
+    {
+      "filename": "Fiddler crab mobius strip.gif",
+      "canonical_path": "authority/media/Fiddler crab mobius strip.gif",
+      "canonical_bytes": 1557242,
+      "canonical_sha1": "3b839b0399284006c6cbc7d23d3ef75aa00f58d5",
+      "canonical_sha256": "059c8643c42a0561e5ee5efe52cd5fc59de0879ddd3870fa200f4ae66a2fc69a",
+      "commons_description_url": "https://commons.wikimedia.org/wiki/File:Fiddler_crab_mobius_strip.gif",
+      "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Fiddler_crab_mobius_strip.gif",
+      "license": "CC BY-SA 4.0",
+      "rights_label_id": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hamishtodd1&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Hamishtodd1 (page does not exist)\">Hamishtodd1</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+      "attribution_required": "true",
+      "attribution_id": "Hamishtodd1 (karya sendiri).",
+      "derivative": {
+        "path": "build/generated/media/Fiddler_crab_mobius_strip.png",
+        "bytes": 145058,
+        "sha256": "15f45aee985375fe99b19f30dc62268d286db4caf103cf4fc066a8951cc43790",
+        "identify": "PNG 317 489 sRGB",
+        "source_kind": "gif",
+        "frame_index": 0,
+        "command": [
+          "magick",
+          "-background",
+          "white",
+          "authority/media/Fiddler crab mobius strip.gif[0]",
+          "-alpha",
+          "remove",
+          "-alpha",
+          "off",
+          "-resize",
+          "1800x1800>",
+          "-strip",
+          "-define",
+          "png:exclude-chunk=date,time",
+          "build/generated/media/Fiddler_crab_mobius_strip.png"
+        ]
+      },
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    {
+      "filename": "Inclusion-exclusion.svg",
+      "canonical_path": "authority/media/Inclusion-exclusion.svg",
+      "canonical_bytes": 6804,
+      "canonical_sha1": "cc9ef91306f4db7a1658720eb4310e255b0b6943",
+      "canonical_sha256": "d37d8453528fa90456c473f705741e6c50bc04ad2cd76e9d0f4199a9aa702df3",
+      "commons_description_url": "https://commons.wikimedia.org/wiki/File:Inclusion-exclusion.svg",
+      "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Inclusion-exclusion.svg",
+      "license": "Public domain",
+      "rights_label_id": "domain publik",
+      "license_url": "",
+      "artist_html": "Unbekannt<span style=\"display: none;\">Unknown </span>",
+      "credit_html": "Unbekannt<span style=\"display: none;\">Unknown </span>",
+      "attribution_required": "false",
+      "attribution_id": "Pembuat tidak diketahui; domain publik.",
+      "derivative": {
+        "path": "build/generated/media/Inclusion-exclusion.png",
+        "bytes": 136273,
+        "sha256": "68825ea402cfdb1cd9831891815788b481ae16189f3f9d470aa07ab787256e19",
+        "identify": "PNG 1562 1250 sRGB",
+        "source_kind": "svg",
+        "frame_index": null,
+        "command": [
+          "magick",
+          "-background",
+          "white",
+          "-density",
+          "300",
+          "authority/media/Inclusion-exclusion.svg",
+          "-alpha",
+          "remove",
+          "-alpha",
+          "off",
+          "-resize",
+          "1800x1800>",
+          "-strip",
+          "-define",
+          "png:exclude-chunk=date,time",
+          "build/generated/media/Inclusion-exclusion.png"
+        ]
+      }
+    }
+  ]
+}

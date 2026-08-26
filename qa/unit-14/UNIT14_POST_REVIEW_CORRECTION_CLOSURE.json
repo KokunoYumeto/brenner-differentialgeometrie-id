@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-26T00:08:00+02:00",
+  "unit_id": "o011-brenner-u14",
+  "status": "pass_with_disclosed_granularity_limit",
+  "correction_id": "O011-TRANS-0168",
+  "scope": "Final-target identity closure for the bounded Unit 14 independent reader refinements recorded under O011-TRANS-0168.",
+  "change_summary": "Bind the point and domain explicitly, replace literal ambient-space wording, clarify the pullback definition, restore display punctuation and one omitted qualifier, remove awkward reduplication, and standardize the pullback-result term in the final admitted reader.",
+  "affected_targets": [
+    {
+      "path": "source/units/unit-14/lecture14.id.tex",
+      "bytes": 27295,
+      "sha256": "3803b4b3ca94c228e959443a4cc23a803578a1ca82bf5cc6731b83e5a4bd044c"
+    },
+    {
+      "path": "source/units/unit-14/worksheet14.id.tex",
+      "bytes": 10760,
+      "sha256": "98880cc5c0996175a6f3f60ac6c5098bb4076569f1050cc8136f13662e6cec79"
+    },
+    {
+      "path": "source/units/unit-14/worksheet14_exercise05_solution.id.tex",
+      "bytes": 730,
+      "sha256": "f881d71e394363e6e5fee0f99e48f7df9d987d2293de6441d07a53ec48f10538"
+    },
+    {
+      "path": "source/units/unit-14/worksheet14_exercise09_solution.id.tex",
+      "bytes": 2040,
+      "sha256": "f148e6789525def973c4ea7e09774a79ba8bee627f963b16413a12cf97386928"
+    },
+    {
+      "path": "source/units/unit-14/worksheet14_exercise14_solution.id.tex",
+      "bytes": 763,
+      "sha256": "910a36226b378dc2dc8ada823f052f6edd3caf66300b0c9adbb4a546474381af"
+    }
+  ],
+  "evidence": {
+    "independent_review": {
+      "path": "qa/unit-14/INDEPENDENT_READER_QA.md",
+      "bytes": 2880,
+      "sha256": "026c0031f33d1c0929bc722b2d75887b658e0d6e6ed53f62e1a5a6980296e92a"
+    },
+    "adverse_ledger": {
+      "path": "00_control/ADVERSE_LEDGER.csv",
+      "row_id": "O011-TRANS-0168"
+    },
+    "post_correction_receipt": {
+      "path": "qa/unit-14/POST_CORRECTION_MATH_QA.json",
+      "bytes": 8521,
+      "sha256": "a7626b33d38c2e0c9856c0815ccda7a7774f2b96557eaf0b2ab949beb4b09bcc"
+    }
+  },
+  "granularity_limit": "The final Unit 14 target identities and review record are available, but no separate pre-refinement byte snapshots were retained for this late prose-only correction. This receipt binds the exact admitted final files and does not claim an unavailable span-level before/after delta map."
+}

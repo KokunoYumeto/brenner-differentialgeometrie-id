@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-25T22:36:20+02:00",
+  "unit_id": "o011-brenner-u15",
+  "status": "pass",
+  "repeat_freeze": {
+    "mode": "frozen-response reuse with request-identity and response-hash verification",
+    "network_requests_required": 0,
+    "preflight_path": "qa/unit-15/AUTHORITY_PREFLIGHT.json",
+    "preflight_bytes": 32155,
+    "preflight_sha256": "e8aad6eb37a7a5a63dd9a99a75a63501f73300cf145277374666b9a5ca709668",
+    "preflight_markdown_sha256": "e42d2ce3718838d87293d51f6ad329d33d6017c8fe06587f601553e4bbf864f7",
+    "offline_verifier_sha256": "40b4193c3eaf09860103a3843a22274cccd079506bc505b0fb483f7971ea31f5",
+    "result": "byte-identical frozen authority bindings reproduced and the independent offline verifier passed"
+  },
+  "freezer": {
+    "path": "scripts/freeze_unit_authority.py",
+    "bytes": 51956,
+    "sha256": "177b29b454adc9637204de68b35c7c8cbf3839d3282bbe6a93a0e1f3223ede97"
+  },
+  "authority_anomalies": [
+    {
+      "correction_id": "O011-CORR-0169",
+      "surface": "lecture15 sigma-finiteness paragraph",
+      "finding": "the general true claim omits its bounded-density and countable-atlas justification while the cited exercise covers only the continuous special case"
+    },
+    {
+      "correction_id": "O011-CORR-0170",
+      "surface": "lecture15 local top form",
+      "finding": "the form degree must be m rather than 1"
+    },
+    {
+      "correction_id": "O011-CORR-0171",
+      "surface": "lecture15 graph map and determinant",
+      "finding": "the map domain and component indices are ill-typed in the source"
+    },
+    {
+      "correction_id": "O011-CORR-0177",
+      "surface": "lecture15 chart-independence hypothesis",
+      "finding": "the common subset belongs to U_1 intersect U_2"
+    },
+    {
+      "correction_id": "O011-CORR-0178",
+      "surface": "lecture15 path-integral existence",
+      "finding": "measurability alone does not imply integrability of the pulled-back coefficient"
+    },
+    {
+      "correction_id": "O011-CORR-0180",
+      "surface": "lecture15 German countable-atlas phrase",
+      "finding": "the frozen German article and adjective ending disagree"
+    },
+    {
+      "correction_id": "O011-CORR-0172",
+      "surface": "worksheet15 supplied Solution 1 finite subcover",
+      "finding": "the finite-subcover cardinality collides with the manifold dimension"
+    },
+    {
+      "correction_id": "O011-CORR-0173",
+      "surface": "worksheet15 supplied Solution 1 boundedness domain",
+      "finding": "the source names the wrong set for the compact coordinate-ball bound"
+    },
+    {
+      "correction_id": "O011-CORR-0174",
+      "surface": "worksheet15 supplied Solution 12 differential notation",
+      "finding": "unparenthesized differentials permit a false power reading"
+    },
+    {
+      "correction_id": "O011-CORR-0175",
+      "surface": "worksheet15 Exercise 13 title versus body",
+      "finding": "the title encodes a sum while the statement and supplied solution consistently use a product"
+    }
+  ],
+  "census": {
+    "exercises": 16,
+    "practice": 13,
+    "graded": 3,
+    "graded_points": [4, 4, 5],
+    "graded_points_total": 13,
+    "blank_hints": 16,
+    "supplied_solutions": [1, 11, 12, 13],
+    "missing_solutions": 12,
+    "media": 0
+  }
+}

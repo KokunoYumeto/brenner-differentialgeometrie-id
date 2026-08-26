@@ -47,9 +47,9 @@
     {
       "path": "source/units/unit-14/lecture14.id.tex",
       "bytes": 27295,
-      "sha256": "e1ab5149036b72be563774336fea35560e12039946952c5a19b52c612de0073c",
+      "sha256": "3803b4b3ca94c228e959443a4cc23a803578a1ca82bf5cc6731b83e5a4bd044c",
       "translation_receipt": "qa/unit-14/lecture14_translation.json",
-      "translation_receipt_sha256": "9f72b796d508c718ee93b8a888d440e602c3436cd32a2518eb8901c9dc2c7c17"
+      "translation_receipt_sha256": "549a835d4f376b6d03bbc59ae0aff82e6e8fd0b7394ed6ec02f54dcc7b3fbfb9"
     },
     {
       "path": "source/units/unit-14/worksheet14.id.tex",
@@ -112,7 +112,7 @@
     {
       "path": "build/generated/lecture14.id.build.tex",
       "bytes": 26070,
-      "sha256": "d2f48e97bdafddf3f829720b62bb52ab17bcdf966a33caf24f479ae8a652d183"
+      "sha256": "57c17209900125f97f6eabf8e4b7b825652b60937851c7a65d82f0bb86cf405d"
     },
     {
       "path": "build/generated/worksheet14.id.build.tex",
@@ -181,7 +181,8 @@
     "O011-TRANS-0165",
     "O011-TRANS-0166",
     "O011-TRANS-0167",
-    "O011-TRANS-0168"
+    "O011-TRANS-0168",
+    "O011-TRANS-0190"
   ],
   "ledgers": {
     "terminology": {

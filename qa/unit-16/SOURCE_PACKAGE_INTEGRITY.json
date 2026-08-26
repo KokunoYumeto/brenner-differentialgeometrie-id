@@ -1,0 +1,918 @@
+{
+  "canonical": {
+    "backend": {
+      "backend/MANIFEST.json": {
+        "bytes": 32725,
+        "sha256": "5718751f625774d4b4ca6d019524646c56219731b513b3329f9ba022304845db"
+      },
+      "backend/records.csv": {
+        "bytes": 727631,
+        "sha256": "2ff324a750b01540fd3827684947877e807ac8402d09fc6ece1efdf14caeb312"
+      },
+      "backend/records.jsonl": {
+        "bytes": 1966474,
+        "sha256": "c42bac17822f949aa16ac0f87c7d0726526d020d46bab97f91d36e70f4b21983"
+      }
+    },
+    "html": {
+      "bytes": 8706781,
+      "files": 31,
+      "inventory_sha256": "0e752777b457774e6ff2393dc227a37b7d3f02f2e403fe02422233c13f9acbca",
+      "staged_zip": {
+        "bytes": 6004554,
+        "crc_passed": true,
+        "entries": 31,
+        "sha256": "56ce4139bfeab826a9107c9f7068c6b49355852b63107176bd0d196f2bdd2d71",
+        "tree_inventory_sha256": "0e752777b457774e6ff2393dc227a37b7d3f02f2e403fe02422233c13f9acbca"
+      }
+    },
+    "pdf": {
+      "bytes": 7241359,
+      "sha256": "58f98853ab8eeb1beb2aa4ade6bd3c746b62b4fa42c3c692a03c17076cdb06b8"
+    },
+    "qa": {
+      "qa/unit-16/HTML_BROWSER_QA.json": {
+        "bytes": 4020,
+        "sha256": "fe2a6cec0a93c7f9065bb60839a1f93a4c216f8933e4ccc79dad74b2df072a50"
+      },
+      "qa/unit-16/HTML_READER_QA.json": {
+        "bytes": 23628,
+        "sha256": "1d4596fa9c8d66b602e65c83badade5c93c4c5320ee5b8b61102675b19be6b9b"
+      },
+      "qa/unit-16/PDF_VISUAL_QA.json": {
+        "bytes": 3902,
+        "sha256": "747b0eba681b317f1455b869e1cc5592fb147ffc5f32420eca338145eb6c8958"
+      },
+      "qa/unit-16/backend.json": {
+        "bytes": 7123,
+        "sha256": "5e7e40f07033725db979fdb30b2a86e89c301555b10bb20f8a66447af8bfb22a"
+      },
+      "qa/unit-16/build.json": {
+        "bytes": 141048,
+        "sha256": "19c1d42e62060346ea66478f2a9cc74e438078d4ccc1482c031ffbec8b2d48dc"
+      },
+      "qa/unit-16/pdf_structural_qa.json": {
+        "bytes": 305728,
+        "sha256": "4232813af23d15810cb3f753105cb616b78e27323e753d758c6fa3de8a8418b6"
+      }
+    },
+    "staged_pdf": {
+      "bytes": 7241359,
+      "sha256": "58f98853ab8eeb1beb2aa4ade6bd3c746b62b4fa42c3c692a03c17076cdb06b8"
+    }
+  },
+  "checks": {
+    "adverse_193_and_terminology_258_rows": true,
+    "backend_3208_records_and_193_corrections": true,
+    "backend_and_receipts_match_staged_canonical": true,
+    "cross_cycle_identity": true,
+    "deterministic_member_order_and_timestamps": true,
+    "durable_controls_complete_and_current": true,
+    "embedded_checksums_complete": true,
+    "html_tree_and_zip_match_staged_canonical": true,
+    "network_not_used": true,
+    "pdf_matches_staged_canonical": true,
+    "privacy_and_credentials_absent": true,
+    "safe_regular_members_only": true,
+    "source_authority_translation_solution_closure_complete": true,
+    "temporary_directories_removed": true,
+    "text_and_per_component_media_rights_complete": true,
+    "two_independent_clean_extractions": true,
+    "zip_crc_and_manifest_identity": true
+  },
+  "clean_rebuilds": [
+    {
+      "commands": [
+        {
+          "label": "PDF build (two clean TeX cycles plus structural verifier)",
+          "returncode": 0,
+          "status": "pass",
+          "stderr_bytes": 0,
+          "stdout_bytes": 141049
+        },
+        {
+          "label": "HTML export (two deterministic staging cycles)",
+          "returncode": 0,
+          "status": "pass",
+          "stderr_bytes": 0,
+          "stdout_bytes": 268
+        },
+        {
+          "label": "HTML verifier (independent two-cycle reconstruction)",
+          "returncode": 0,
+          "status": "pass",
+          "stderr_bytes": 0,
+          "stdout_bytes": 972
+        },
+        {
+          "label": "bounded HTML pipeline regression",
+          "returncode": 0,
+          "status": "pass",
+          "stderr_bytes": 0,
+          "stdout_bytes": 540
+        },
+        {
+          "label": "backend verifier (two deterministic exports)",
+          "returncode": 0,
+          "status": "pass",
+          "stderr_bytes": 0,
+          "stdout_bytes": 594
+        }
+      ],
+      "cycle": 1,
+      "outputs": {
+        "backend": {
+          "backend/MANIFEST.json": {
+            "bytes": 32725,
+            "sha256": "5718751f625774d4b4ca6d019524646c56219731b513b3329f9ba022304845db"
+          },
+          "backend/records.csv": {
+            "bytes": 727631,
+            "sha256": "2ff324a750b01540fd3827684947877e807ac8402d09fc6ece1efdf14caeb312"
+          },
+          "backend/records.jsonl": {
+            "bytes": 1966474,
+            "sha256": "c42bac17822f949aa16ac0f87c7d0726526d020d46bab97f91d36e70f4b21983"
+          }
+        },
+        "backend_census": {
+          "adverse_rows": 193,
+          "asset_bindings": [
+            {
+              "bytes": 377311,
+              "path": "authority/media/2019-07-Helix.jpg",
+              "sha256": "34d8c05038bdcbd34992bba1b1ab8d852a8c1d51975469d14f7640a829430f9e"
+            },
+            {
+              "bytes": 1215777,
+              "path": "authority/media/3d-function-6.svg",
+              "sha256": "16abe6c062235dc6cbdc9358aa4694da94e8f4a993d76f7137e26e4c95a7131b"
+            },
+            {
+              "bytes": 7568,
+              "path": "authority/media/Great circle passing through two points.svg",
+              "sha256": "11cc0326e2bf51f226b1033af7a37f024216707a4c3b69854fadb9905c3409c7"
+            },
+            {
+              "bytes": 278393,
+              "path": "authority/media/Hyperboloid1.png",
+              "sha256": "4c813998156ef1961fa557d3a7c356d737c47291d36159baa955f170e500979b"
+            },
+            {
+              "bytes": 8098,
+              "path": "authority/media/Integral apl rot obsah1.svg",
+              "sha256": "3dc950fd001c3a2e3ef095dcceac915f4701e990ecf513cf314eaef8a8f86dd1"
+            },
+            {
+              "bytes": 135949,
+              "path": "authority/media/Planned flight map of the Oiseau Blanc.svg",
+              "sha256": "45d3109037287e3111bc60543f43163e2264e8e4d52806b83cfd96279522b1b9"
+            },
+            {
+              "bytes": 31848,
+              "path": "authority/media/Euler spiral.svg",
+              "sha256": "886d55edfa0fa21ac992ede928cfec4f816742a16b29709ea093113b29e410b9"
+            },
+            {
+              "bytes": 44890,
+              "path": "authority/media/Evolute-parab.svg",
+              "sha256": "851a909594c64be31477e391ea9b45e890305ea62e32e29a1d04bc66cf497db1"
+            },
+            {
+              "bytes": 19469,
+              "path": "authority/media/Parabola circle.svg",
+              "sha256": "186a981781924575a5e517d83d8ab5bfb829125d0a86edc664a41a589bcfca83"
+            },
+            {
+              "bytes": 50805,
+              "path": "authority/media/Minimal surface curvature planes-de.svg",
+              "sha256": "c3048459dcf36445b38c5b734eee1febd21215bb08aeba9675cd1e5745cde873"
+            },
+            {
+              "bytes": 11448,
+              "path": "authority/media/Parallel transport sphere2.svg",
+              "sha256": "4a6215c455dc248c97d1831e9af8b5d551a7cdb5da46976df2c1a77c959b88f8"
+            },
+            {
+              "bytes": 200686,
+              "path": "authority/media/Aufgabe75.22.1.gif",
+              "sha256": "dae99541dcac8721909366df89d67ee7ddc46ff49c24750c71f7d1e00245acca"
+            },
+            {
+              "bytes": 1640205,
+              "path": "authority/media/Aufgabe75.22.2.gif",
+              "sha256": "091b7d19856eb36aaf704bd23e26e46d0119ed97fcd736fb68cababa7ab7e942"
+            },
+            {
+              "bytes": 207,
+              "path": "authority/media/Circle - black simple.svg",
+              "sha256": "6a28c8b677e37aaa88984cd72336ca752156ebf95fddf9bae4b2dd17903e8bde"
+            },
+            {
+              "bytes": 9977,
+              "path": "authority/media/Manifold zahyou3.png",
+              "sha256": "fd3afef0df5b0ec3dc9eceea337fda5d15371ea143aa3cfbb24e134e455342f8"
+            },
+            {
+              "bytes": 69330,
+              "path": "authority/media/Stereographic projection in 3D.png",
+              "sha256": "ab78ed4225923f771ae69d44930c244c53ef7c3a44d8e7264b16467dc4a78316"
+            },
+            {
+              "bytes": 4790,
+              "path": "authority/media/Tangentialvektor.svg",
+              "sha256": "ed39381859fa3f6e4240ad7112388600a59126e71bc5aac5943a87f11d9e5301"
+            },
+            {
+              "bytes": 23116,
+              "path": "authority/media/Tangent bundle.svg",
+              "sha256": "96e46d20e64c40985d7ddc517824a36ef6546261762c3cd8e277c9a4eab55623"
+            },
+            {
+              "bytes": 251142,
+              "path": "authority/media/Torus vectors oblique.jpg",
+              "sha256": "cfcd0c5c16262a6beab6dd47dc27291b7ff3651228b2b9defc0717957ce5d3f6"
+            },
+            {
+              "bytes": 151522,
+              "path": "authority/media/Toroidal coord.png",
+              "sha256": "f09c9189157aedc9c9d516d24ffdf80c6e3d413101e2eb38e3c0cda996c5d618"
+            },
+            {
+              "bytes": 1557242,
+              "path": "authority/media/Fiddler crab mobius strip.gif",
+              "sha256": "059c8643c42a0561e5ee5efe52cd5fc59de0879ddd3870fa200f4ae66a2fc69a"
+            },
+            {
+              "bytes": 6804,
+              "path": "authority/media/Inclusion-exclusion.svg",
+              "sha256": "d37d8453528fa90456c473f705741e6c50bc04ad2cd76e9d0f4199a9aa702df3"
+            },
+            {
+              "bytes": 82042,
+              "path": "authority/media/Möbius strip.jpg",
+              "sha256": "9c4323cfa3ce4f3ce043e4e2479dbf68658d165c46bd41394991361859ea9fad"
+            },
+            {
+              "bytes": 255626,
+              "path": "authority/media/Georg Friedrich Bernhard Riemann.jpeg",
+              "sha256": "945240277e351b4deacc64e0a8e0cbb5c8398a5d13ae322eafb55bfae91cabc6"
+            },
+            {
+              "bytes": 398740,
+              "path": "authority/media/Sphere with three handles.png",
+              "sha256": "49398059697841332186226bccf87e46032289c1a8a02063fc2600070c51a311"
+            }
+          ],
+          "asset_records": 25,
+          "correction_records": 193,
+          "entity_counts": {
+            "artifact": 303,
+            "asset": 25,
+            "concept": 39,
+            "correction": 193,
+            "course": 1,
+            "edition": 1,
+            "program": 1,
+            "qa_event": 197,
+            "relation": 1825,
+            "resource": 1,
+            "rights": 27,
+            "segment": 62,
+            "term": 95,
+            "unit": 438
+          },
+          "records": 3208,
+          "rights_records": 27,
+          "status": "pass",
+          "terminology_rows": 258
+        },
+        "html_tree": {
+          "bytes": 8706781,
+          "files": 31,
+          "inventory_sha256": "0e752777b457774e6ff2393dc227a37b7d3f02f2e403fe02422233c13f9acbca"
+        },
+        "html_zip": {
+          "bytes": 6004554,
+          "crc_passed": true,
+          "entries": 31,
+          "sha256": "56ce4139bfeab826a9107c9f7068c6b49355852b63107176bd0d196f2bdd2d71",
+          "tree_inventory_sha256": "0e752777b457774e6ff2393dc227a37b7d3f02f2e403fe02422233c13f9acbca"
+        },
+        "pdf": {
+          "bytes": 7241359,
+          "sha256": "58f98853ab8eeb1beb2aa4ade6bd3c746b62b4fa42c3c692a03c17076cdb06b8"
+        },
+        "qa": {
+          "qa/unit-16/HTML_BROWSER_QA.json": {
+            "bytes": 4020,
+            "sha256": "fe2a6cec0a93c7f9065bb60839a1f93a4c216f8933e4ccc79dad74b2df072a50"
+          },
+          "qa/unit-16/HTML_READER_QA.json": {
+            "bytes": 23628,
+            "sha256": "1d4596fa9c8d66b602e65c83badade5c93c4c5320ee5b8b61102675b19be6b9b"
+          },
+          "qa/unit-16/PDF_VISUAL_QA.json": {
+            "bytes": 3902,
+            "sha256": "747b0eba681b317f1455b869e1cc5592fb147ffc5f32420eca338145eb6c8958"
+          },
+          "qa/unit-16/backend.json": {
+            "bytes": 7123,
+            "sha256": "5e7e40f07033725db979fdb30b2a86e89c301555b10bb20f8a66447af8bfb22a"
+          },
+          "qa/unit-16/build.json": {
+            "bytes": 141048,
+            "sha256": "19c1d42e62060346ea66478f2a9cc74e438078d4ccc1482c031ffbec8b2d48dc"
+          },
+          "qa/unit-16/pdf_structural_qa.json": {
+            "bytes": 305728,
+            "sha256": "4232813af23d15810cb3f753105cb616b78e27323e753d758c6fa3de8a8418b6"
+          }
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "commands": [
+        {
+          "label": "PDF build (two clean TeX cycles plus structural verifier)",
+          "returncode": 0,
+          "status": "pass",
+          "stderr_bytes": 0,
+          "stdout_bytes": 141049
+        },
+        {
+          "label": "HTML export (two deterministic staging cycles)",
+          "returncode": 0,
+          "status": "pass",
+          "stderr_bytes": 0,
+          "stdout_bytes": 268
+        },
+        {
+          "label": "HTML verifier (independent two-cycle reconstruction)",
+          "returncode": 0,
+          "status": "pass",
+          "stderr_bytes": 0,
+          "stdout_bytes": 972
+        },
+        {
+          "label": "bounded HTML pipeline regression",
+          "returncode": 0,
+          "status": "pass",
+          "stderr_bytes": 0,
+          "stdout_bytes": 540
+        },
+        {
+          "label": "backend verifier (two deterministic exports)",
+          "returncode": 0,
+          "status": "pass",
+          "stderr_bytes": 0,
+          "stdout_bytes": 594
+        }
+      ],
+      "cycle": 2,
+      "outputs": {
+        "backend": {
+          "backend/MANIFEST.json": {
+            "bytes": 32725,
+            "sha256": "5718751f625774d4b4ca6d019524646c56219731b513b3329f9ba022304845db"
+          },
+          "backend/records.csv": {
+            "bytes": 727631,
+            "sha256": "2ff324a750b01540fd3827684947877e807ac8402d09fc6ece1efdf14caeb312"
+          },
+          "backend/records.jsonl": {
+            "bytes": 1966474,
+            "sha256": "c42bac17822f949aa16ac0f87c7d0726526d020d46bab97f91d36e70f4b21983"
+          }
+        },
+        "backend_census": {
+          "adverse_rows": 193,
+          "asset_bindings": [
+            {
+              "bytes": 377311,
+              "path": "authority/media/2019-07-Helix.jpg",
+              "sha256": "34d8c05038bdcbd34992bba1b1ab8d852a8c1d51975469d14f7640a829430f9e"
+            },
+            {
+              "bytes": 1215777,
+              "path": "authority/media/3d-function-6.svg",
+              "sha256": "16abe6c062235dc6cbdc9358aa4694da94e8f4a993d76f7137e26e4c95a7131b"
+            },
+            {
+              "bytes": 7568,
+              "path": "authority/media/Great circle passing through two points.svg",
+              "sha256": "11cc0326e2bf51f226b1033af7a37f024216707a4c3b69854fadb9905c3409c7"
+            },
+            {
+              "bytes": 278393,
+              "path": "authority/media/Hyperboloid1.png",
+              "sha256": "4c813998156ef1961fa557d3a7c356d737c47291d36159baa955f170e500979b"
+            },
+            {
+              "bytes": 8098,
+              "path": "authority/media/Integral apl rot obsah1.svg",
+              "sha256": "3dc950fd001c3a2e3ef095dcceac915f4701e990ecf513cf314eaef8a8f86dd1"
+            },
+            {
+              "bytes": 135949,
+              "path": "authority/media/Planned flight map of the Oiseau Blanc.svg",
+              "sha256": "45d3109037287e3111bc60543f43163e2264e8e4d52806b83cfd96279522b1b9"
+            },
+            {
+              "bytes": 31848,
+              "path": "authority/media/Euler spiral.svg",
+              "sha256": "886d55edfa0fa21ac992ede928cfec4f816742a16b29709ea093113b29e410b9"
+            },
+            {
+              "bytes": 44890,
+              "path": "authority/media/Evolute-parab.svg",
+              "sha256": "851a909594c64be31477e391ea9b45e890305ea62e32e29a1d04bc66cf497db1"
+            },
+            {
+              "bytes": 19469,
+              "path": "authority/media/Parabola circle.svg",
+              "sha256": "186a981781924575a5e517d83d8ab5bfb829125d0a86edc664a41a589bcfca83"
+            },
+            {
+              "bytes": 50805,
+              "path": "authority/media/Minimal surface curvature planes-de.svg",
+              "sha256": "c3048459dcf36445b38c5b734eee1febd21215bb08aeba9675cd1e5745cde873"
+            },
+            {
+              "bytes": 11448,
+              "path": "authority/media/Parallel transport sphere2.svg",
+              "sha256": "4a6215c455dc248c97d1831e9af8b5d551a7cdb5da46976df2c1a77c959b88f8"
+            },
+            {
+              "bytes": 200686,
+              "path": "authority/media/Aufgabe75.22.1.gif",
+              "sha256": "dae99541dcac8721909366df89d67ee7ddc46ff49c24750c71f7d1e00245acca"
+            },
+            {
+              "bytes": 1640205,
+              "path": "authority/media/Aufgabe75.22.2.gif",
+              "sha256": "091b7d19856eb36aaf704bd23e26e46d0119ed97fcd736fb68cababa7ab7e942"
+            },
+            {
+              "bytes": 207,
+              "path": "authority/media/Circle - black simple.svg",
+              "sha256": "6a28c8b677e37aaa88984cd72336ca752156ebf95fddf9bae4b2dd17903e8bde"
+            },
+            {
+              "bytes": 9977,
+              "path": "authority/media/Manifold zahyou3.png",
+              "sha256": "fd3afef0df5b0ec3dc9eceea337fda5d15371ea143aa3cfbb24e134e455342f8"
+            },
+            {
+              "bytes": 69330,
+              "path": "authority/media/Stereographic projection in 3D.png",
+              "sha256": "ab78ed4225923f771ae69d44930c244c53ef7c3a44d8e7264b16467dc4a78316"
+            },
+            {
+              "bytes": 4790,
+              "path": "authority/media/Tangentialvektor.svg",
+              "sha256": "ed39381859fa3f6e4240ad7112388600a59126e71bc5aac5943a87f11d9e5301"
+            },
+            {
+              "bytes": 23116,
+              "path": "authority/media/Tangent bundle.svg",
+              "sha256": "96e46d20e64c40985d7ddc517824a36ef6546261762c3cd8e277c9a4eab55623"
+            },
+            {
+              "bytes": 251142,
+              "path": "authority/media/Torus vectors oblique.jpg",
+              "sha256": "cfcd0c5c16262a6beab6dd47dc27291b7ff3651228b2b9defc0717957ce5d3f6"
+            },
+            {
+              "bytes": 151522,
+              "path": "authority/media/Toroidal coord.png",
+              "sha256": "f09c9189157aedc9c9d516d24ffdf80c6e3d413101e2eb38e3c0cda996c5d618"
+            },
+            {
+              "bytes": 1557242,
+              "path": "authority/media/Fiddler crab mobius strip.gif",
+              "sha256": "059c8643c42a0561e5ee5efe52cd5fc59de0879ddd3870fa200f4ae66a2fc69a"
+            },
+            {
+              "bytes": 6804,
+              "path": "authority/media/Inclusion-exclusion.svg",
+              "sha256": "d37d8453528fa90456c473f705741e6c50bc04ad2cd76e9d0f4199a9aa702df3"
+            },
+            {
+              "bytes": 82042,
+              "path": "authority/media/Möbius strip.jpg",
+              "sha256": "9c4323cfa3ce4f3ce043e4e2479dbf68658d165c46bd41394991361859ea9fad"
+            },
+            {
+              "bytes": 255626,
+              "path": "authority/media/Georg Friedrich Bernhard Riemann.jpeg",
+              "sha256": "945240277e351b4deacc64e0a8e0cbb5c8398a5d13ae322eafb55bfae91cabc6"
+            },
+            {
+              "bytes": 398740,
+              "path": "authority/media/Sphere with three handles.png",
+              "sha256": "49398059697841332186226bccf87e46032289c1a8a02063fc2600070c51a311"
+            }
+          ],
+          "asset_records": 25,
+          "correction_records": 193,
+          "entity_counts": {
+            "artifact": 303,
+            "asset": 25,
+            "concept": 39,
+            "correction": 193,
+            "course": 1,
+            "edition": 1,
+            "program": 1,
+            "qa_event": 197,
+            "relation": 1825,
+            "resource": 1,
+            "rights": 27,
+            "segment": 62,
+            "term": 95,
+            "unit": 438
+          },
+          "records": 3208,
+          "rights_records": 27,
+          "status": "pass",
+          "terminology_rows": 258
+        },
+        "html_tree": {
+          "bytes": 8706781,
+          "files": 31,
+          "inventory_sha256": "0e752777b457774e6ff2393dc227a37b7d3f02f2e403fe02422233c13f9acbca"
+        },
+        "html_zip": {
+          "bytes": 6004554,
+          "crc_passed": true,
+          "entries": 31,
+          "sha256": "56ce4139bfeab826a9107c9f7068c6b49355852b63107176bd0d196f2bdd2d71",
+          "tree_inventory_sha256": "0e752777b457774e6ff2393dc227a37b7d3f02f2e403fe02422233c13f9acbca"
+        },
+        "pdf": {
+          "bytes": 7241359,
+          "sha256": "58f98853ab8eeb1beb2aa4ade6bd3c746b62b4fa42c3c692a03c17076cdb06b8"
+        },
+        "qa": {
+          "qa/unit-16/HTML_BROWSER_QA.json": {
+            "bytes": 4020,
+            "sha256": "fe2a6cec0a93c7f9065bb60839a1f93a4c216f8933e4ccc79dad74b2df072a50"
+          },
+          "qa/unit-16/HTML_READER_QA.json": {
+            "bytes": 23628,
+            "sha256": "1d4596fa9c8d66b602e65c83badade5c93c4c5320ee5b8b61102675b19be6b9b"
+          },
+          "qa/unit-16/PDF_VISUAL_QA.json": {
+            "bytes": 3902,
+            "sha256": "747b0eba681b317f1455b869e1cc5592fb147ffc5f32420eca338145eb6c8958"
+          },
+          "qa/unit-16/backend.json": {
+            "bytes": 7123,
+            "sha256": "5e7e40f07033725db979fdb30b2a86e89c301555b10bb20f8a66447af8bfb22a"
+          },
+          "qa/unit-16/build.json": {
+            "bytes": 141048,
+            "sha256": "19c1d42e62060346ea66478f2a9cc74e438078d4ccc1482c031ffbec8b2d48dc"
+          },
+          "qa/unit-16/pdf_structural_qa.json": {
+            "bytes": 305728,
+            "sha256": "4232813af23d15810cb3f753105cb616b78e27323e753d758c6fa3de8a8418b6"
+          }
+        }
+      },
+      "status": "pass"
+    }
+  ],
+  "cross_cycle_identity": {
+    "backend": true,
+    "backend_census": true,
+    "html_tree": true,
+    "html_zip": true,
+    "pdf": true,
+    "qa_receipts": true
+  },
+  "outer_release": {
+    "checksums": {
+      "bytes": 641,
+      "path": "output/release-unit16/SHA256SUMS.txt",
+      "sha256": "a5b5e7d970f27d233d7cb8309e11377ea6da4c0156199e94140e3c1cd75c9f7c"
+    },
+    "manifest": {
+      "bytes": 1535,
+      "path": "output/release-unit16/FILE_MANIFEST.json",
+      "sha256": "029051b61a3ae47d13f933942aad697283a23338a3ae1d1af473eef80e47cbe0"
+    },
+    "public_file_order": [
+      "geometri-diferensial-manifold-mulus-hingga-unit-16-id.pdf",
+      "geometri-diferensial-manifold-mulus-unit16-html-20260826.zip",
+      "geometri-diferensial-manifold-mulus-unit16-source-20260826.zip",
+      "LICENSE.md",
+      "RELEASE_NOTES_UNIT16_20260826.md",
+      "FILE_MANIFEST.json",
+      "SHA256SUMS.txt"
+    ],
+    "status": "pass",
+    "verified_artifacts": {
+      "LICENSE.md": {
+        "bytes": 2034,
+        "sha256": "ae342d8e0541b387b519160e8ba174aea17c2f1c7ee7809d35b54357c6184467"
+      },
+      "RELEASE_NOTES_UNIT16_20260826.md": {
+        "bytes": 1971,
+        "sha256": "dfb29ff35c76023c161d0fb5fe76e638cb4641a8feb4e445146a6e39ce772c9c"
+      },
+      "geometri-diferensial-manifold-mulus-hingga-unit-16-id.pdf": {
+        "bytes": 7241359,
+        "sha256": "58f98853ab8eeb1beb2aa4ade6bd3c746b62b4fa42c3c692a03c17076cdb06b8"
+      },
+      "geometri-diferensial-manifold-mulus-unit16-html-20260826.zip": {
+        "bytes": 6004554,
+        "sha256": "56ce4139bfeab826a9107c9f7068c6b49355852b63107176bd0d196f2bdd2d71"
+      },
+      "geometri-diferensial-manifold-mulus-unit16-source-20260826.zip": {
+        "bytes": 37989234,
+        "sha256": "080cc0c3902c3bda3a895646575ca2770cf20870ce16a740d6e3783cbc90a71c"
+      }
+    }
+  },
+  "privacy": {
+    "credential_like_content_hits": 0,
+    "files_scanned": 634,
+    "forbidden_member_name_hits": 0,
+    "local_user_identifier_hits": 0,
+    "nested_members_scanned": 202,
+    "nested_text_members_scanned": 179,
+    "nested_zip_files_scanned": 3,
+    "private_locator_hits": 0,
+    "status": "pass",
+    "text_files_scanned": 576
+  },
+  "required_closure": {
+    "backend_and_ledgers": {
+      "adverse_rows": 193,
+      "asset_bindings": [
+        {
+          "bytes": 377311,
+          "path": "authority/media/2019-07-Helix.jpg",
+          "sha256": "34d8c05038bdcbd34992bba1b1ab8d852a8c1d51975469d14f7640a829430f9e"
+        },
+        {
+          "bytes": 1215777,
+          "path": "authority/media/3d-function-6.svg",
+          "sha256": "16abe6c062235dc6cbdc9358aa4694da94e8f4a993d76f7137e26e4c95a7131b"
+        },
+        {
+          "bytes": 7568,
+          "path": "authority/media/Great circle passing through two points.svg",
+          "sha256": "11cc0326e2bf51f226b1033af7a37f024216707a4c3b69854fadb9905c3409c7"
+        },
+        {
+          "bytes": 278393,
+          "path": "authority/media/Hyperboloid1.png",
+          "sha256": "4c813998156ef1961fa557d3a7c356d737c47291d36159baa955f170e500979b"
+        },
+        {
+          "bytes": 8098,
+          "path": "authority/media/Integral apl rot obsah1.svg",
+          "sha256": "3dc950fd001c3a2e3ef095dcceac915f4701e990ecf513cf314eaef8a8f86dd1"
+        },
+        {
+          "bytes": 135949,
+          "path": "authority/media/Planned flight map of the Oiseau Blanc.svg",
+          "sha256": "45d3109037287e3111bc60543f43163e2264e8e4d52806b83cfd96279522b1b9"
+        },
+        {
+          "bytes": 31848,
+          "path": "authority/media/Euler spiral.svg",
+          "sha256": "886d55edfa0fa21ac992ede928cfec4f816742a16b29709ea093113b29e410b9"
+        },
+        {
+          "bytes": 44890,
+          "path": "authority/media/Evolute-parab.svg",
+          "sha256": "851a909594c64be31477e391ea9b45e890305ea62e32e29a1d04bc66cf497db1"
+        },
+        {
+          "bytes": 19469,
+          "path": "authority/media/Parabola circle.svg",
+          "sha256": "186a981781924575a5e517d83d8ab5bfb829125d0a86edc664a41a589bcfca83"
+        },
+        {
+          "bytes": 50805,
+          "path": "authority/media/Minimal surface curvature planes-de.svg",
+          "sha256": "c3048459dcf36445b38c5b734eee1febd21215bb08aeba9675cd1e5745cde873"
+        },
+        {
+          "bytes": 11448,
+          "path": "authority/media/Parallel transport sphere2.svg",
+          "sha256": "4a6215c455dc248c97d1831e9af8b5d551a7cdb5da46976df2c1a77c959b88f8"
+        },
+        {
+          "bytes": 200686,
+          "path": "authority/media/Aufgabe75.22.1.gif",
+          "sha256": "dae99541dcac8721909366df89d67ee7ddc46ff49c24750c71f7d1e00245acca"
+        },
+        {
+          "bytes": 1640205,
+          "path": "authority/media/Aufgabe75.22.2.gif",
+          "sha256": "091b7d19856eb36aaf704bd23e26e46d0119ed97fcd736fb68cababa7ab7e942"
+        },
+        {
+          "bytes": 207,
+          "path": "authority/media/Circle - black simple.svg",
+          "sha256": "6a28c8b677e37aaa88984cd72336ca752156ebf95fddf9bae4b2dd17903e8bde"
+        },
+        {
+          "bytes": 9977,
+          "path": "authority/media/Manifold zahyou3.png",
+          "sha256": "fd3afef0df5b0ec3dc9eceea337fda5d15371ea143aa3cfbb24e134e455342f8"
+        },
+        {
+          "bytes": 69330,
+          "path": "authority/media/Stereographic projection in 3D.png",
+          "sha256": "ab78ed4225923f771ae69d44930c244c53ef7c3a44d8e7264b16467dc4a78316"
+        },
+        {
+          "bytes": 4790,
+          "path": "authority/media/Tangentialvektor.svg",
+          "sha256": "ed39381859fa3f6e4240ad7112388600a59126e71bc5aac5943a87f11d9e5301"
+        },
+        {
+          "bytes": 23116,
+          "path": "authority/media/Tangent bundle.svg",
+          "sha256": "96e46d20e64c40985d7ddc517824a36ef6546261762c3cd8e277c9a4eab55623"
+        },
+        {
+          "bytes": 251142,
+          "path": "authority/media/Torus vectors oblique.jpg",
+          "sha256": "cfcd0c5c16262a6beab6dd47dc27291b7ff3651228b2b9defc0717957ce5d3f6"
+        },
+        {
+          "bytes": 151522,
+          "path": "authority/media/Toroidal coord.png",
+          "sha256": "f09c9189157aedc9c9d516d24ffdf80c6e3d413101e2eb38e3c0cda996c5d618"
+        },
+        {
+          "bytes": 1557242,
+          "path": "authority/media/Fiddler crab mobius strip.gif",
+          "sha256": "059c8643c42a0561e5ee5efe52cd5fc59de0879ddd3870fa200f4ae66a2fc69a"
+        },
+        {
+          "bytes": 6804,
+          "path": "authority/media/Inclusion-exclusion.svg",
+          "sha256": "d37d8453528fa90456c473f705741e6c50bc04ad2cd76e9d0f4199a9aa702df3"
+        },
+        {
+          "bytes": 82042,
+          "path": "authority/media/Möbius strip.jpg",
+          "sha256": "9c4323cfa3ce4f3ce043e4e2479dbf68658d165c46bd41394991361859ea9fad"
+        },
+        {
+          "bytes": 255626,
+          "path": "authority/media/Georg Friedrich Bernhard Riemann.jpeg",
+          "sha256": "945240277e351b4deacc64e0a8e0cbb5c8398a5d13ae322eafb55bfae91cabc6"
+        },
+        {
+          "bytes": 398740,
+          "path": "authority/media/Sphere with three handles.png",
+          "sha256": "49398059697841332186226bccf87e46032289c1a8a02063fc2600070c51a311"
+        }
+      ],
+      "asset_records": 25,
+      "correction_records": 193,
+      "entity_counts": {
+        "artifact": 303,
+        "asset": 25,
+        "concept": 39,
+        "correction": 193,
+        "course": 1,
+        "edition": 1,
+        "program": 1,
+        "qa_event": 197,
+        "relation": 1825,
+        "resource": 1,
+        "rights": 27,
+        "segment": 62,
+        "term": 95,
+        "unit": 438
+      },
+      "records": 3208,
+      "rights_records": 27,
+      "status": "pass",
+      "terminology_rows": 258
+    },
+    "documented_commands": [
+      "build_through_unit16.ps1",
+      "export_html_v16.py",
+      "verify_html_v16.py",
+      "test_html_v16_pipeline.py",
+      "verify_backend_v16.py"
+    ],
+    "durable_controls_bind_finalized_checkpoint": true,
+    "required_sets": {
+      "authority": 6,
+      "backend": 3,
+      "build_paths": 23,
+      "current_qa": 9,
+      "durable_controls": 8,
+      "package_documents": 4,
+      "predecessor_surfaces": 9
+    },
+    "rights": {
+      "media_rows": 36,
+      "model_identification": "OpenAI Codex gpt-5.6-sol, Ultra",
+      "non_endorsement": true,
+      "per_component_media_licensing": true,
+      "status": "pass",
+      "text_license": "CC BY-SA 4.0"
+    },
+    "source": {
+      "required_lecture_worksheet_and_qa_surfaces": 64,
+      "solution_targets": [
+        "source/units/unit-01/worksheet01_exercise01_solution.id.tex",
+        "source/units/unit-02/worksheet02_exercise01_solution.id.tex",
+        "source/units/unit-02/worksheet02_exercise02_solution.id.tex",
+        "source/units/unit-02/worksheet02_exercise07_solution.id.tex",
+        "source/units/unit-02/worksheet02_exercise12_solution.id.tex",
+        "source/units/unit-02/worksheet02_exercise13_solution.id.tex",
+        "source/units/unit-03/worksheet03_exercise07_solution.id.tex",
+        "source/units/unit-03/worksheet03_exercise16_solution.id.tex",
+        "source/units/unit-04/worksheet04_exercise07_solution.id.tex",
+        "source/units/unit-04/worksheet04_exercise10_solution.id.tex",
+        "source/units/unit-05/worksheet05_exercise01_solution.id.tex",
+        "source/units/unit-06/worksheet06_exercise02_solution.id.tex",
+        "source/units/unit-06/worksheet06_exercise06_solution.id.tex",
+        "source/units/unit-06/worksheet06_exercise09_solution.id.tex",
+        "source/units/unit-07/worksheet07_exercise04_solution.id.tex",
+        "source/units/unit-07/worksheet07_exercise07_solution.id.tex",
+        "source/units/unit-07/worksheet07_exercise13_solution.id.tex",
+        "source/units/unit-08/worksheet08_exercise11_solution.id.tex",
+        "source/units/unit-08/worksheet08_exercise13_solution.id.tex",
+        "source/units/unit-10/worksheet10_exercise09_solution.id.tex",
+        "source/units/unit-10/worksheet10_exercise10_solution.id.tex",
+        "source/units/unit-10/worksheet10_exercise15_solution.id.tex",
+        "source/units/unit-10/worksheet10_exercise25_solution.id.tex",
+        "source/units/unit-11/worksheet11_exercise10_solution.id.tex",
+        "source/units/unit-11/worksheet11_exercise14_solution.id.tex",
+        "source/units/unit-12/worksheet12_exercise11_solution.id.tex",
+        "source/units/unit-12/worksheet12_exercise12_solution.id.tex",
+        "source/units/unit-13/worksheet13_exercise01_solution.id.tex",
+        "source/units/unit-13/worksheet13_exercise10_solution.id.tex",
+        "source/units/unit-13/worksheet13_exercise11_solution.id.tex",
+        "source/units/unit-13/worksheet13_exercise16_solution.id.tex",
+        "source/units/unit-13/worksheet13_exercise18_solution.id.tex",
+        "source/units/unit-13/worksheet13_exercise19_solution.id.tex",
+        "source/units/unit-13/worksheet13_exercise21_solution.id.tex",
+        "source/units/unit-13/worksheet13_exercise22_solution.id.tex",
+        "source/units/unit-14/worksheet14_exercise05_solution.id.tex",
+        "source/units/unit-14/worksheet14_exercise06_solution.id.tex",
+        "source/units/unit-14/worksheet14_exercise09_solution.id.tex",
+        "source/units/unit-14/worksheet14_exercise11_solution.id.tex",
+        "source/units/unit-14/worksheet14_exercise12_solution.id.tex",
+        "source/units/unit-14/worksheet14_exercise13_solution.id.tex",
+        "source/units/unit-14/worksheet14_exercise14_solution.id.tex",
+        "source/units/unit-15/worksheet15_exercise01_solution.id.tex",
+        "source/units/unit-15/worksheet15_exercise11_solution.id.tex",
+        "source/units/unit-15/worksheet15_exercise12_solution.id.tex",
+        "source/units/unit-15/worksheet15_exercise13_solution.id.tex",
+        "source/units/unit-16/worksheet16_exercise01_solution.id.tex",
+        "source/units/unit-16/worksheet16_exercise12_solution.id.tex"
+      ],
+      "source_supplied_solutions": 48,
+      "status": "pass",
+      "units": 16
+    },
+    "status": "pass",
+    "transitive_pdf_build_inputs": {
+      "bindings": 366,
+      "unique_bindings": 366
+    }
+  },
+  "schema_version": 1,
+  "source_zip": {
+    "bytes": 37989234,
+    "filename": "geometri-diferensial-manifold-mulus-unit16-source-20260826.zip",
+    "path": "output/release-unit16/geometri-diferensial-manifold-mulus-unit16-source-20260826.zip",
+    "sha256": "080cc0c3902c3bda3a895646575ca2770cf20870ce16a740d6e3783cbc90a71c"
+  },
+  "status": "pass",
+  "verifier": {
+    "bytes": 41762,
+    "path": "scripts/verify_source_package_unit16.py",
+    "sha256": "3362acb95c27d271a1b0103caba67661f7507c2213deaba94e8cadea5191ada7"
+  },
+  "workflow": "o011-verify-source-package-unit16-v1",
+  "zip_validation": {
+    "case_collisions": 0,
+    "checksums_rows": 633,
+    "crc_passed": true,
+    "encrypted_members": 0,
+    "entries": 634,
+    "manifest_rows": 632,
+    "manifest_sha256": "b090034e3f4af73712aa551ef0cd1190936c894ed770328de7e81bf6d38c2df2",
+    "timestamps_normalized": true,
+    "tree_sha256": "87cc0b69c7b4aee1f45326babc7d90832062102087539df39d0fd0eff33f7ee9",
+    "uncompressed_bytes": 50986607,
+    "unsafe_members": 0
+  }
+}

@@ -221,7 +221,12 @@ FORBIDDEN_MEMBER_NAMES = (
 PRIVATE_BYTE_PATTERNS = (
     re.compile(rb"[A-Za-z]:[\\/]+(?:Users|Documents[ ]and[ ]Settings)[\\/]", re.IGNORECASE),
     re.compile(rb"(?<!:)\/Users\/[^/\x00\r\n]+\/", re.IGNORECASE),
+    re.compile(rb"(?<!:)\/home\/[^/\x00\r\n]+\/", re.IGNORECASE),
     re.compile(rb"\\\\[^\\\x00\r\n]+\\Users\\", re.IGNORECASE),
+)
+ADMITTED_PUBLIC_UPSTREAM_LOCATORS = (
+    b"/home/aoleg/diverse/wiki",
+    b"/home/.../diverse/wiki",
 )
 
 SECRET_BYTE_PATTERNS = (
@@ -574,6 +579,8 @@ def verify_privacy(zip_path: Path, member_names: Iterable[str]) -> dict[str, Any
         else:
             scanned += 1
         scan_payload = text_scan_payload(payload, name)
+        for admitted in ADMITTED_PUBLIC_UPSTREAM_LOCATORS:
+            scan_payload = scan_payload.replace(admitted, b"[admitted-public-upstream-locator]")
         for pattern in (*PRIVATE_BYTE_PATTERNS, *SECRET_BYTE_PATTERNS):
             if pattern.search(scan_payload):
                 raise RuntimeError(f"private/credential-like content in {name}")

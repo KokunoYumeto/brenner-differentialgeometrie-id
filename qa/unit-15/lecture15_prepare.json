@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-15/lecture15.id.tex",
+  "input_bytes": 34170,
+  "input_sha256": "c7ef815dfa5e1fbdd877c866d7841bb322e5086a30d36ec02925014a7854a954",
+  "output": "build/generated/lecture15.id.build.tex",
+  "output_bytes": 31975,
+  "output_sha256": "05f625788630ec0c5557b8314a51800ae6dec74d37748fb834b82cfffe79cf5f",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 5,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 1,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Nullstellenfreie Volumenform/Impliziert orientierte (Karten) Mannigfaltigkeit/Fakt",
+      "label": "Lema 15.5"
+    },
+    {
+      "target": "Diffeomorphismus/Transformationsformel für Integrale/Fakt",
+      "label": "Teorema 14.3 (Teori Ukuran dan Integrasi (Osnabrück 2022-2023))"
+    },
+    {
+      "target": "Offene Mengen/Differenzierbare Abbildung/Zurückziehen von Volumenform auf gleichdimensionalem Raum/In Koordinaten/Fakt",
+      "label": "Korolari 14.9"
+    },
+    {
+      "target": "Integrierbare Funktion/Abzählbare Zerlegung des Raumes/Fakt",
+      "label": "Lema 10.1 (Teori Ukuran dan Integrasi (Osnabrück 2022-2023))"
+    },
+    {
+      "target": "Positive Volumenform/Volumenmaß/Ist Maß/Aufgabe",
+      "label": "Soal 15.2"
+    },
+    {
+      "target": "Volumenform/Integration/Eigenschaften/Fakt/Beweis/Aufgabe",
+      "label": "Soal 15.5"
+    },
+    {
+      "target": "Nullstellenfreie Volumenform/Orientierte (Karten) Mannigfaltigkeit/Äquivalenz/Fakt",
+      "label": "Teorema 22.11"
+    },
+    {
+      "target": "Metrischer Raum/Stetig/Bilder zusammenhängender Räume/Fakt",
+      "label": "teorema nilai antara"
+    },
+    {
+      "target": "Offene Mengen/Differenzierbare Abbildung/Zurückziehen von Volumenform auf gleichdimensionalem Raum/In Koordinaten/Fakt",
+      "label": "Korolari 14.9"
+    },
+    {
+      "target": "Differenzierbare Hyperfläche/Orientierung über Einheitsnormalenfeld/Bemerkung",
+      "label": "Catatan 13.11"
+    },
+    {
+      "target": "Dachprodukt/Abbildung mit fixierten Dachprodukt/Alternierend/Aufgabe",
+      "label": "Soal 12.13"
+    },
+    {
+      "target": "Dachprodukt/Transformation mit Determinante/Fakt",
+      "label": "Korolari 57.6 (Aljabar Linear (Osnabrück 2024-2025))"
+    },
+    {
+      "target": "Determinante/Null, linear abhängig und Rangeigenschaft/Fakt",
+      "label": "Teorema 16.11 (Aljabar Linear (Osnabrück 2024-2025))"
+    },
+    {
+      "target": "Satz über implizite Abbildungen/Globale Diffeomorphismen/Induzierte Diffeomorphismen zwischen Faser und Achsenräumen/Fakt",
+      "label": "teorema pemetaan implisit"
+    },
+    {
+      "target": "Faser/Reguläre Funktion/Volumenform/Gradient und Skalarprodukt/Aufgabe",
+      "label": "Soal 16.10"
+    },
+    {
+      "target": "Faser/Reguläre Funktionen/Volumenform/Orthogonale Gradienten und Skalarprodukt/Aufgabe",
+      "label": "Soal 16.11"
+    },
+    {
+      "target": "Differenzierbare reguläre Abbildung/R^n/Faser besitzt Volumenform über Gradienten/Fakt",
+      "label": "Korolari 15.6"
+    },
+    {
+      "target": "Differenzierbare reguläre Abbildung/R^n/Faser besitzt Volumenform über Gradienten/Fakt",
+      "label": "Korolari 15.6"
+    },
+    {
+      "target": "Dachprodukt/Natürliche Dualität/Endlichdimensional/Fakt",
+      "label": "Teorema 58.4 (Aljabar Linear (Osnabrück 2024-2025))"
+    },
+    {
+      "target": "Differenzierbare reguläre Abbildung/R^n/Faser besitzt Volumenform über Gradienten/Fakt",
+      "label": "Korolari 15.6"
+    },
+    {
+      "target": "Differenzierbare reguläre Abbildung/R^n/Faser besitzt Volumenform über Gradienten/Fakt",
+      "label": "Korolari 15.6"
+    },
+    {
+      "target": "Differenzierbare reguläre Funktion/R^n/Volumenform über Gradienten/Als Differentialform/Fakt",
+      "label": "Korolari 15.7"
+    },
+    {
+      "target": "Differenzierbare reguläre Abbildung/R^n/Faser besitzt Volumenform über Gradienten/Fakt",
+      "label": "Korolari 15.6"
+    },
+    {
+      "target": "Wegintegral/Mannigfaltigkeit/Differenzierbare Abbildung/Aufgabe",
+      "label": "Soal 15.9"
+    },
+    {
+      "target": "Kurve/Euklidischer Vektorraum/Differenzierbar und Komponenten/Fakt",
+      "label": "Lema 37.4 (Analisis (Osnabrück 2021-2023))"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

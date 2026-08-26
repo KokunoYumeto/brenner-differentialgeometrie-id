@@ -153,6 +153,26 @@
           "license_url_id": "https://creativecommons.org/licenses/by-sa/3.0/"
         }
       ]
+    },
+    "14": {
+      "media": []
+    },
+    "15": {
+      "media": []
+    },
+    "16": {
+      "media": [
+        {
+          "filename": "Georg Friedrich Bernhard Riemann.jpeg",
+          "attribution_id": "Potret Georg Friedrich Bernhard Riemann; pembuat tidak dicantumkan dalam metadata Commons.",
+          "rights_label_id": "domain publik"
+        },
+        {
+          "filename": "Sphere with three handles.png",
+          "attribution_id": "Oleg Alexandrov (karya sendiri; domain publik).",
+          "rights_label_id": "domain publik"
+        }
+      ]
     }
   }
 }

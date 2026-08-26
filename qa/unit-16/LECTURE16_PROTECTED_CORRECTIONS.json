@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-16/lecture16.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0181",
+      "anchor": "Closed-submanifold adapted chart, zero-coordinate factor",
+      "change": "Use zero in R^(n-m), not the source's dimensionally impossible R^(m-n), for M^m inside N^n."
+    },
+    {
+      "correction_id": "O011-CORR-0182",
+      "anchor": "Canonical-volume pullback theorem",
+      "change": "Require the parametrizing diffeomorphism to preserve orientation before asserting the positive-square-root volume-form formula without a sign."
+    },
+    {
+      "correction_id": "O011-CORR-0183",
+      "anchor": "Regular-curve canonical form example",
+      "change": "Orient the image submanifold through the parametrization so the signless pullback formula is well-defined."
+    },
+    {
+      "correction_id": "O011-CORR-0184",
+      "anchor": "Sphere with three handles creator credit",
+      "change": "Use the authoritative Commons creator identity Oleg Alexandrov rather than the misspelled inherited source credit Oleg Alexandrow."
+    },
+    {
+      "correction_id": "O011-TRANS-0185",
+      "anchor": "Sphäre example",
+      "change": "Translate Sphäre as sfer rather than the solid-body term bola."
+    },
+    {
+      "correction_id": "O011-TRANS-0186",
+      "anchor": "Independent Unit 16 lecture reader-language review",
+      "change": "Normalize arbitrary-space, vector-field, dimension, differentiability, and curve phrasing without altering mathematical topology."
+    },
+    {
+      "correction_id": "O011-CORR-0187",
+      "anchor": "Inherited-metric curve paragraph",
+      "change": "Translate the intended verb normally while recording the frozen German typo ererbt."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0181",
+      "surface": "protected:vergleichskettek",
+      "index": 1,
+      "source_sha256": "5125b1a35b030304a1437f1f32a2ac37c8823b012457fd8475c1e7801f7e64dd",
+      "target_sha256": "40c0099a34f0780751399866216c38e72b3382747863077af36524b5148c3fff"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-CORR-0184",
+      "surface": "command:bildlizenz",
+      "occurrence_index": 1,
+      "source_sha256": "4e7d287e535a523241e8e254231d0f7c1ed8e9a0530a7d609e01ac2653717ac0",
+      "target_sha256": "c59621371da6a94ac7b9e667a209a6142efdaf9f7592325042a19c5621dd2403"
+    }
+  ]
+}

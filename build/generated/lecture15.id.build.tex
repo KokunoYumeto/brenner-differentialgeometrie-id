@@ -1,0 +1,1698 @@
+\setcounter{section}{15}
+
+Kini kita beralih ke teori integrasi pada manifold. Titik pangkalnya ialah tersedianya suatu $n$-bentuk pada manifold berdimensi $n$. Untuk suatu himpunan bagian terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan koordinat
+\mathl{x_1 , \ldots , x_n}{,} integrasi terhadap bentuk
+\mathl{dx_1 \wedge \ldots \wedge dx_n}{} bersesuaian dengan integrasi terhadap ukuran Lebesgue. Pada suatu manifold, bentuk tersebut dan ukuran yang terkait harus \anfuehrung{direkatkan bersama}{.}
+
+  \zwischenueberschrift{Bentuk volume positif pada manifold}
+
+Dalam definisi berikut, untuk suatu peta
+\maabb {\alpha} { U } { V
+} {}
+dan suatu bentuk diferensial $\omega$ pada $U$, kita melambangkan bentuk diferensial yang ditranspor ke $V$ dengan
+\mathl{\alpha_* \omega}{.} Bentuk ini sama dengan bentuk tarik balik
+\mathl{\alpha^{-1 *} \omega}{.}
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+\definitionsverweis {berdimensi}{}{} $n$
+dan $\omega$ suatu
+\definitionsverweis {bentuk diferensial}{}{}
+\definitionsverweis {terukur}{}{}
+berderajat $n$ pada $M$. Bentuk $\omega$ disebut \definitionswort {bentuk volume positif}{,} jika untuk setiap
+\definitionsverweis {peta}{}{}
+\zusatzklammer {dari suatu atlas yang diberikan} {} {}
+\maabbdisp {\alpha} { U } { V
+} {}
+\zusatzklammer {dengan
+
+\mavergleichskettek
+{\vergleichskettek
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan fungsi koordinat \mathlk{x_1 , \ldots , x_n}{}} {} {}
+dalam representasi lokal bentuk diferensial tersebut,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \alpha_* \omega
+}
+{ =} { f dx_1 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+fungsi $f$ bernilai positif di mana-mana.\zusatzfussnote {Fungsi yang terkait dengan setiap peta $U$, yang di sini dilambangkan $f$ dan dikalikan dengan bentuk standar berderajat $n$, bersesuaian dengan kerapatan yang disebutkan pada akhir Kuliah 13, yang dengannya suatu ukuran pada manifold dapat dideskripsikan} {.} {}
+
+}
+Di sini fungsi $f$ ditentukan oleh
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ f(Q)
+}
+{ =} { \omega \left(  \alpha^{-1} (Q) ,T_Q \left(  \alpha^{-1}  \right)(e_1) \wedge \ldots \wedge T_Q \left(  \alpha^{-1}  \right)( e_n)  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+secara tunggal. Bentuk volume positif semacam itu hanya dapat ada jika manifold tersebut
+\definitionsverweis {dapat diorientasikan}{}{}
+\zusatzklammer {lihat
+Lema 15.5
+di bawah} {} {.}
+
+
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Abzählbar/Positive Volumenform/Zugehöriges Maß/Vorbereitende Eigenschaften/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+\definitionsverweis {berdimensi}{}{} $n$
+dengan
+\definitionsverweis {basis topologi terhitung}{}{}
+dan misalkan $\omega$ suatu
+\definitionsverweis {bentuk volume positif}{}{}
+pada $M$. Untuk suatu peta
+\maabbdisp {\alpha} { U } { V
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha_* ( \omega \vert_U)
+}
+{ = }{ fdx_1 \wedge \ldots \wedge dx_n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan suatu
+\definitionsverweis {himpunan bagian terukur}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kita tetapkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nu ( \alpha,T )
+}
+{ \defeq} { \int_{ \alpha(T)  }   f    \,  d  \lambda^n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{} }
+\faktuebergang {Maka berlaku sifat-sifat berikut.}
+\faktfolgerung {\aufzaehlungdrei{Jika
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ U_1 \cap U_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan kedua himpunan di ruas kanan merupakan lingkungan koordinat, maka
+
+\mavergleichskette
+{\vergleichskette
+{ \nu(\alpha_1,T)
+}
+{ = }{ \nu(\alpha_2,T)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Untuk suatu himpunan bagian terukur
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat suatu
+\definitionsverweis {gabungan saling lepas}{}{}
+\definitionsverweis {terhitung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ = }{ \biguplus_{i \in I} T_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sedemikian sehingga setiap $T_i$ seluruhnya termuat dalam suatu lingkungan koordinat $U_i$.
+}{Jumlah
+\mathl{\sum_{i \in I} \nu( \alpha_i ,T_i)}{} tidak bergantung pada dekomposisi saling lepas terhitung yang dipilih pada (2).
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{(1). Karena
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ U_1 \cap U_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kita dapat mengasumsikan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ = }{ U_1
+}
+{ = }{ U_2
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {tetapi dengan dua pemetaan koordinat yang berbeda,
+\mathkor {} {\alpha_1} {dan} {\alpha_2} {}
+masing-masing menuju
+\mathkor {} {V_1} {dan} {V_2} {}} {} {.}
+Misalkan
+\maabbdisp {\psi=\alpha_2 \circ \alpha_1^{-1}} { V_1 } { V_2
+} {}
+merupakan
+\definitionsverweis {pergantian koordinat difeomorfik}{}{.}
+Maka berdasarkan
+Teorema 14.3 (Teori Ukuran dan Integrasi (Osnabrück 2022-2023))
+dan
+Korolari 14.9,
+serta karena dari kepositifan
+
+\mavergleichskette
+{\vergleichskette
+{ f_1
+}
+{ = }{ \left(  f_2 \circ \psi  \right) \det  \left(  D  \psi   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan $f_2$ diperoleh bahwa determinannya juga positif, berlaku kesamaan
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \nu \left(  \alpha_2,T  \right)
+}
+{ =} { \int_{  \alpha_2(T)   }   f_2    \,  d  \lambda^n
+}
+{ =} { \int_{  \alpha_1(T)   }   \left(  f_2 \circ \psi  \right) \mid  \det  \left(  D  \psi   \right)  \mid      \,  d  \lambda^n
+}
+{ =} { \int_{  \alpha_1(T)   }   \left(  f_2 \circ \psi  \right) \cdot \det  \left(  D  \psi   \right)     \,  d  \lambda^n
+}
+{ =} { \int_{  \alpha_1(T)   }   f_1    \,  d  \lambda^n
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \nu(\alpha_1,T)
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}}
+{}
+\teilbeweis {}{}{}
+{(2). Misalkan
+
+\mathbed {U_n} {}
+ {n \in \N} {}
+ {} {} {} {,}
+suatu atlas terhitung. Maka kita dapat mengambil himpunan
+
+\mavergleichskette
+{\vergleichskette
+{ T_n
+}
+{ = }{ T \cap (U_n \setminus \bigcup_{m < n} U_m )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+{}
+\teilbeweis {}{}{}
+{(3). Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ = }{ \biguplus_{i \in I} T_i
+}
+{ = }{ \biguplus_{j \in J} S_j
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dua dekomposisi terukur saling lepas terhitung yang setiap anggotanya termuat dalam suatu daerah koordinat. Daerah beserta pemetaan koordinatnya masing-masing adalah
+\mathl{(U_i, \alpha_i)}{} dengan fungsi $f_i$ yang mendeskripsikan bentuk tersebut dan
+\mathl{(V_j, \beta_j)}{} dengan fungsi $g_j$ yang mendeskripsikannya. Kita tinjau dekomposisi terhitung yang juga diberikan oleh himpunan
+
+\mathbed {T_i \cap S_j} {}
+ {(i,j) \in I \times J} {}
+ {} {} {} {,}
+Berdasarkan
+Lema 10.1 (Teori Ukuran dan Integrasi (Osnabrück 2022-2023))
+\zusatzklammer {yang diterapkan pada masing-masing citra peta} {} {}
+dan dengan menggunakan bagian (1), diperoleh
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \sum_{i \in I } \left(  \int_{  \alpha_i \left(  T_i  \right)   }   f_i    \,  d  \lambda^n  \right)
+}
+{ =} { \sum_{i \in I } \left(  \sum_{j \in J} \int_{ \alpha_i \left(  T_i \cap S_j  \right)   }   f_i    \,  d  \lambda^n  \right)
+}
+{ =} { \sum_{i \in I } \left(  \sum_{j \in J} \int_{ \beta_j \left(  T_i \cap S_j  \right)   }   g_j    \,  d  \lambda^n  \right)
+}
+{ =} { \sum_{j \in J } \left(  \sum_{i \in I} \int_{ \beta_j \left(  T_i \cap S_j  \right)   }   g_j    \,  d  \lambda^n  \right)
+}
+{ =} { \sum_{j \in J } \left(  \int_{  \beta_j(S_j)   }   g_j    \,  d  \lambda^n  \right)
+}
+}
+{}
+{}{.}}
+{}
+
+}
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+\definitionsverweis {berdimensi}{}{} $n$
+dengan suatu
+\definitionsverweis {basis topologi terhitung}{}{}
+dan misalkan $\omega$ suatu
+\definitionsverweis {bentuk volume positif}{}{}
+pada $M$. Untuk setiap
+\definitionsverweis {himpunan Borel}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+pilih suatu
+\definitionsverweis {dekomposisi}{}{}
+\definitionsverweis {terhitung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ = }{  \biguplus_{i \in I} T_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {dengan suatu daerah koordinat terbuka yang memenuhi
+
+\mavergleichskettek
+{\vergleichskettek
+{ T_i
+}
+{ \subseteq }{ U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettek
+{\vergleichskettek
+{  \alpha_{i*} \omega
+}
+{ = }{ f_i dx_1 \wedge \ldots \wedge dx_n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {.}
+Bilangan yang didefinisikan oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ T  }   \omega
+}
+{ =} { \sum_{i \in I} \int_{ \alpha_i(T_i)  }  f_i    \,  d  \lambda^n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\zusatzklammer {sebagai elemen $\overline{ \R }_{\geq 0}$} {} {}
+disebut \definitionswort {ukuran}{} dari $T$ terhadap $\omega$, atau \definitionswort {integral}{} $\omega$ atas $T$.
+
+}
+Berdasarkan lema di atas, ukuran volume ini terdefinisi dengan baik dan merupakan suatu ukuran
+$\sigma$-\definitionsverweis {hingga}{}{.}
+Pada setiap daerah koordinat, citranya dapat ditutupi secara terhitung oleh irisan kotak terbatas dengan himpunan tempat fungsi kerapatan dibatasi; atlas terhitung kemudian memberikan tutupan terhitung bagi manifold tersebut. Untuk bentuk volume kontinu, kesimpulan ini juga mengikuti dari
+Soal 15.2.
+Untuk suatu himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+suatu himpunan bagian terukur
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan suatu $n$-bentuk positif
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ f dx_1 \wedge \ldots \wedge dx_n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku langsung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_T \omega
+}
+{ =} { \int_T f d \lambda^n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+
+\inputfaktbeweis
+{Volumenform/Integration/Eigenschaften/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+\definitionsverweis {berdimensi}{}{} $n$ dengan suatu
+\definitionsverweis {basis topologi terhitung}{}{}
+dan misalkan
+\mathkor {} {\omega_1} {dan} {\omega_2} {}
+\definitionsverweis {bentuk volume positif}{}{}
+pada $M$.}
+\faktfolgerung {Maka untuk setiap
+\definitionsverweis {himpunan bagian terukur}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{T
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{a,b
+}
+{ \in }{\R_+
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku hubungan
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ T  }  (a \omega_1 + b \omega_2)
+}
+{ =} { a
+\int_{  T  }   \omega_1 + b
+\int_{  T  }   \omega_2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+ }
+{ Lihat Soal 15.5. }
+
+  \zwischenueberschrift{Bentuk volume dan orientasi}
+
+Keberadaan suatu bentuk volume kontinu yang tidak pernah nol pada manifold berkaitan erat dengan keterorientasiannya. Kebalikan dari pernyataan berikut juga akan kita buktikan dalam
+Teorema 22.11.
+
+
+
+\inputfaktbeweis
+{Nullstellenfreie Volumenform/Impliziert orientierte (Karten) Mannigfaltigkeit/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+\definitionsverweis {berdimensi}{}{} $m$
+dan}
+\faktvoraussetzung {$\omega$ suatu
+\definitionsverweis {bentuk volume}{}{}
+\definitionsverweis {kontinu}{}{}
+yang tidak pernah nol pada $M$.}
+\faktfolgerung {Maka terdapat suatu
+\zusatzklammer {yang ekuivalen secara difeomorfik} {} {}
+\definitionsverweis {atlas berorientasi}{}{}
+untuk $M$ sedemikian sehingga $\omega$ menjadi suatu
+\definitionsverweis {bentuk volume positif}{}{}
+terhadap atlas tersebut.}
+\faktzusatz {Khususnya, $M$
+\definitionsverweis {dapat diorientasikan}{}{.}}
+\faktzusatz {}
+
+}
+{
+
+Untuk
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kita tinjau
+\definitionsverweis {daerah koordinat}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+yang mempunyai sifat bahwa $U$ homeomorfik dengan suatu bola terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \bigwedge^m TU
+}
+{ \cong} { \bigwedge^m TV
+}
+{ \cong} { V \times \bigwedge^m \R^m
+}
+{ \cong} { V \times \R
+}
+{ } {
+}
+}
+{}{}{}
+melalui
+\mathl{\bigwedge^m T (\alpha)}{.} Isomorfisme terakhir diberikan oleh basis standar dengan koordinat
+\mathl{x_1 , \ldots , x_m}{.} Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha_* \omega
+}
+{ = }{ fdx_1 \wedge \ldots \wedge dx_m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu $m$-bentuk diferensial yang bersesuaian pada $V$. Bentuk ini tidak pernah nol, dan karena $V$
+\definitionsverweis {terhubung}{}{,}
+menurut
+teorema nilai antara,
+fungsi $f$ bernilai positif seluruhnya atau negatif seluruhnya. Dalam kasus negatif, kita mengomposisikan peta dengan pencerminan koordinat yang membalik orientasi, setara dengan mengganti tanda satu vektor basis. Dengan cara ini, untuk setiap titik kita memperoleh suatu lingkungan koordinat tempat bentuk tersebut positif. Untuk dua peta
+\maabb {\alpha} { U } { V
+} {}
+dan
+\maabb {\beta} { U } { V'
+} {}
+dengan pemetaan transisi
+
+\mavergleichskette
+{\vergleichskette
+{ \psi
+}
+{ = }{ \beta \circ \alpha^{-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan deskripsi lokal
+\mathkor {} {\alpha_*\omega =f dx_1 \wedge \ldots \wedge dx_m} {dan} {\beta_*\omega =g dy_1 \wedge \ldots \wedge dy_m} {}
+maka, karena
+
+\mavergleichskette
+{\vergleichskette
+{ \psi^* (\beta_*\omega)
+}
+{ = }{ \alpha_* \omega
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+menurut Korolari 14.9 berlaku hubungan
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ = }{ g \circ \psi \det  \left(  D  \psi  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Karena
+\mathkor {} {f} {dan} {g} {}
+positif, determinan tersebut juga harus positif, sehingga pemetaan transisinya
+\definitionsverweis {mempertahankan orientasi}{}{}
+dan dengan demikian manifoldnya
+\definitionsverweis {berorientasi}{}{.}
+
+}
+
+  \zwischenueberschrift{Bentuk volume pada serat}
+
+Untuk pernyataan berikut, bandingkan dengan
+Catatan 13.11.
+
+
+\inputfaktbeweis
+{Differenzierbare reguläre Abbildung/R^n/Faser besitzt Volumenform über Gradienten/Fakt}
+{Korollar}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka dan misalkan
+\maabbdisp {\varphi} { G } {\R^\ell
+} {}
+\zusatzklammer {dengan
+
+\mavergleichskettek
+{\vergleichskettek
+{ m
+}
+{ = }{ n - \ell
+}
+{ \geq }{ 0
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+suatu
+\definitionsverweis {pemetaan yang terdiferensialkan secara kontinu}{}{,}}
+\faktvoraussetzung {yang di setiap titik
+\definitionsverweis {serat}{}{}
+$M$ di atas
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ \R^\ell
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {reguler}{}{.}}
+\faktfolgerung {Maka pemetaan
+
+\maabbeledisp {} {\bigwedge^{m} T_PM } { \R
+} {v_1 \wedge \ldots \wedge v_m } { \det  (
+\operatorname{Grad} \, \varphi_1  (  P ) , \ldots ,
+\operatorname{Grad} \, \varphi_\ell ( P ),  v_1 , \ldots , v_m)
+} {,}
+di setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan suatu isomorfisme, sehingga memberikan suatu bentuk volume kontinu yang tidak pernah nol pada $M$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Dalam pemetaan ini, vektor
+
+\mavergleichskette
+{\vergleichskette
+{ v_i
+}
+{ \in }{ T_PM
+}
+{ \subseteq }{ T_P \R^n
+}
+{ =   }{ \R^n
+}
+{   }{
+}
+}
+{}{}{}
+dan gradien dipandang sebagai vektor dalam $\R^n$. Menurut
+Soal 12.13
+dan
+Korolari 57.6 (Aljabar Linear (Osnabrück 2024-2025)),
+pemetaan tersebut terdefinisi dengan baik dan linear. Domain pemetaan itu berdimensi satu, sama seperti kodomainnya. Misalkan
+\mathl{v_1 , \ldots , v_m}{} suatu
+\definitionsverweis {basis}{}{}
+dari
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T_PM
+}
+{ =} { \ker  \left(D\varphi\right)_{P}
+}
+{ =} { (
+\operatorname{Grad} \, \varphi_1  (  P ) , \ldots ,
+\operatorname{Grad} \, \varphi_\ell ( P ) ) ^{ { \perp  } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Karena pemetaan tersebut reguler, gradien itu
+\definitionsverweis {bebas linear}{}{}
+satu sama lain; akibat relasi ortogonalitas, gradien tersebut terlebih lagi bebas linear dari $v_i$. Dengan demikian, keseluruhannya merupakan suatu basis dari $\R^n$, sehingga menurut
+Teorema 16.11 (Aljabar Linear (Osnabrück 2024-2025))
+determinannya $\neq 0$. Ketergantungan bentuk volume ini pada titik pangkal $P$ bersifat kontinu, sebagaimana mengikuti dari kontinuitas gradien, kontinuitas determinan, dan
+teorema pemetaan implisit.
+
+}
+
+Walaupun dalam situasi penting ini hasil di atas menjamin keberadaan suatu ukuran positif, hasil itu belum memberikan bentuk volume kanonik yang akan kita perkenalkan melalui metrik Riemann pada kuliah berikutnya. Untuk hubungan antara kedua konsep ini, lihat
+Soal 16.10
+dan
+Soal 16.11.
+
+
+
+\inputfaktbeweis
+{Differenzierbare reguläre Funktion/R^n/Volumenform über Gradienten/Als Differentialform/Fakt}
+{Korollar}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka dan misalkan
+\maabbdisp {\varphi} { G } {\R
+} {}
+suatu
+\definitionsverweis {pemetaan yang terdiferensialkan secara kontinu}{}{,}}
+\faktvoraussetzung {yang di setiap titik
+\definitionsverweis {serat}{}{}
+$M$ di atas
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{\R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {reguler}{}{.}}
+\faktfolgerung {Maka
+\definitionsverweis {bentuk volume}{}{}
+dari
+Korolari 15.6
+sama dengan
+
+\mathdisp {\sum_{i = 1}^n (-1)^{i+1} { \frac{   \partial  \varphi  }{  \partial   x_i   } } dx_1 \wedge \ldots \wedge dx_{i-1} \wedge dx_{i+1} \wedge \ldots \wedge dx_n} { , }
+
+di mana
+\mathl{x_1 , \ldots , x_n}{} menyatakan koordinat pada $\R^n$ dan
+\mathl{dx_i}{} adalah $1$-bentuk yang bersesuaian pada $M$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Berdasarkan
+Korolari 15.6,
+bentuk volume tersebut diberikan dengan memasangkan, di suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan pada suatu tupel beranggotakan $n-1$
+
+\mavergleichskette
+{\vergleichskette
+{ v_1 , \ldots , v_{n-1}
+}
+{ \in }{ T_PM
+}
+{ \subset }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ v_s
+}
+{ = }{ \begin{pmatrix} v_{1s} \\\vdots\\ v_{ns}   \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+bilangan
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \det  \left(
+\operatorname{Grad} \, \varphi ( P )   , \,  v_1  , \,   \ldots , \,  v_{n-1}                \right)
+}
+{ =} { \det  \begin{pmatrix}  { \frac{   \partial  \varphi  }{  \partial   x_1   } } ( P)  & v_{11}   &  \ldots & v_{1 \, n-1 } \\  { \frac{   \partial  \varphi  }{  \partial   x_2   } } ( P)  & v_{21}   &  \ldots & v_{2 \, n-1 } \\ \vdots & \vdots & \vdots & \vdots \\  { \frac{   \partial  \varphi  }{  \partial   x_n   } } ( P)  & v_{n1} &  \ldots &  v_{n\, n-1}  \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {}
+}
+{}{}{.}
+Kita harus menunjukkan bahwa bentuk yang dinyatakan dalam pernyataan memang sama dengan bentuk ini. Jika bentuk tersebut dievaluasi di titik $P$ pada vektor itu, maka menurut
+Teorema 58.4 (Aljabar Linear (Osnabrück 2024-2025))
+diperoleh
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \sum_{i = 1}^n (-1)^{i+1} { \frac{   \partial  \varphi  }{  \partial   x_i   } } (P) dx_1 \wedge \ldots \wedge dx_{i-1} \wedge dx_{i+1} \wedge \ldots \wedge dx_n  (v_1 , \ldots , v_{n-1})
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+{ } {}
+}
+{}{}{}
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ }
+{ =} { \sum_{i = 1}^n (-1)^{i+1} { \frac{   \partial  \varphi  }{  \partial   x_i   } } (P) \det  \left(  dx_r  (v_{s} )  \right)_{\substack{1\leq r\leq n,\, r\neq i\\1\leq s\leq n-1}}
+}
+{ =} { \sum_{i = 1}^n (-1)^{i+1} { \frac{   \partial  \varphi  }{  \partial   x_i   } } (P) \det  \left(  v_{r s }  \right)_{\substack{1\leq r\leq n,\, r\neq i\\1\leq s\leq n-1}}
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+Ini tepat merupakan ekspansi determinan di atas menurut kolom pertama.
+
+}
+
+\inputbemerkung
+{}
+{
+
+Dalam situasi
+Korolari 15.6,
+kita tidak hanya memperoleh suatu bentuk volume yang tidak pernah nol, tetapi juga suatu orientasi pada setiap ruang singgung, bahkan suatu manifold berorientasi. Orientasi pada
+\mathl{T_PM}{} didefinisikan dengan menetapkan bahwa suatu basis
+\mathl{v_1 , \ldots , v_m}{} merepresentasikan orientasi tersebut jika basis yang diperluas
+\mathl{\operatorname{Grad} \, \varphi_1  (  P ) , \ldots ,
+\operatorname{Grad} \, \varphi_\ell ( P ), v_1 , \ldots , v_m}{} merepresentasikan orientasi standar $\R^n$. Penetapan ini bergantung pada $\varphi$. Sebagai contoh, jika $\varphi$ diganti dengan $- \varphi$, maka untuk $\ell$ ganjil orientasinya berubah.
+
+}
+
+\inputbeispiel{}
+{
+
+Kita memandang
+\definitionsverweis {permukaan bola berdimensi}{}{} $2$, yaitu
+$S^2$, sebagai
+\definitionsverweis {serat}{}{}
+di atas $0$ dari
+\definitionsverweis {pemetaan diferensiabel}{}{}
+\maabbeledisp {\varphi} {\R^3} {\R
+} {(x,y,z)} { x^2+y^2+z^2-1
+} {.}
+Kita dapat menerapkan
+Korolari 15.6
+dan melalui
+\maabbeledisp {} {\bigwedge^2 T_P S^2} {\R
+} {v_1 \wedge v_2 } { \det  (
+\operatorname{Grad} \, \varphi(P),v_1,v_2)
+} {,}
+\zusatzklammer {dengan vektor singgung
+\mathkor {} {v_1} {dan} {v_2} {}
+karena
+
+\mavergleichskette
+{\vergleichskette
+{ T_PS^2
+}
+{ \subseteq }{ T_P\R^3
+}
+{ = }{ \R^3
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dapat langsung dipandang sebagai vektor dalam $\R^3$} {.} {,}
+kita memperoleh suatu
+\definitionsverweis {bentuk luas}{}{}
+kontinu yang tidak pernah nol, yaitu $\omega$. Bentuk ini menghasilkan suatu
+\definitionsverweis {bentuk luas positif}{}{}
+dan suatu
+\definitionsverweis {orientasi}{}{}
+pada $S^2$. Dua vektor singgung yang bebas linear,
+\mathkor {} {v_1} {dan} {v_2} {,}
+merepresentasikan orientasi tersebut jika
+
+\mavergleichskette
+{\vergleichskette
+{ \omega(v_1,v_2)
+}
+{ > }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dan ini terjadi tepat ketika ketiga vektor
+\mathl{\operatorname{Grad} \, \varphi(P),\, v_1,\, v_2}{} merepresentasikan
+\definitionsverweis {orientasi standar}{}{}
+$\R^3$. Menurut
+Korolari 15.7,
+bentuk luas ini juga dapat ditulis sebagai dua kali
+
+\mathdisp {x dy \wedge dz -y dx \wedge dz + z dx \wedge dy} {  }
+
+}
+
+\inputbeispiel{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu himpunan bagian terbuka,
+\maabbdisp {h} { V } {\R
+} {}
+suatu
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ \subset }{ \R^n \times \R
+}
+{ = }{\R^{n+1}
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+grafik yang bersesuaian. Kita memandang grafik ini sebagai suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+berdimensi $n$ yang difeomorfik dengan $V$ melalui
+\mathl{(x_1 , \ldots , x_n) \mapsto (x_1 , \ldots , x_n, h (x_1 , \ldots , x_n) )}{}
+\definitionsverweis {difeomorfik}{}{.}
+Manifold ini sekaligus merupakan serat di atas $0$ dari pemetaan
+\maabbeledisp {\varphi} {V \times \R} {\R
+} {(x_1 , \ldots , x_n,y)} { h( x_1 , \ldots , x_n)-y
+} {.}
+Gradien pemetaan ini adalah
+
+\mathdisp {\left( \frac{ \partial h } { \partial x_1 } (P)  , \,   \ldots  , \,  \frac{ \partial h } { \partial x_n } (P) , \,   -1                \right)} {  }
+
+Oleh karena itu, menurut
+Korolari 15.6,
+pemasangan
+
+\mathdisp {(v_1 , \ldots , v_n) \mapsto \det  \begin{pmatrix}  \frac{ \partial h } { \partial x_1 }(P)  & v_{11} &  \ldots & v_{1n} \\  \vdots & \vdots &  \ddots & \vdots \\  \frac{ \partial h } { \partial x_n } (P) & v_{n1} &  \ldots & v_{nn} \\  -1 & v_{n+1,1} &  \ldots & v_{n+1,n}  \end{pmatrix}} {  }
+
+memberikan suatu $n$-bentuk kontinu $\omega$ yang tidak pernah nol pada $M$. Jika bentuk ini ditarik balik ke $V$ melalui peta
+\zusatzklammer {satu-satunya} {} {}
+yang dideskripsikan di atas, maka
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha_*\omega
+}
+{ = }{ f dx_1 \wedge \ldots \wedge dx_n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+di mana
+\mathl{f(Q)}{} diperoleh sebagai nilai bentuk $\omega$ di titik
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha^{-1}(Q)
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+pada vektor
+\mathl{T_Q (\alpha^{-1})(e_1) , \ldots , T_Q (\alpha^{-1})(e_n)}{.}
+Karena
+
+\mavergleichskette
+{\vergleichskette
+{ T_Q (\alpha^{-1})(e_i)
+}
+{ = }{ ( e_i , \frac{ \partial h } { \partial x_i } (Q))
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+nilai tersebut adalah
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ f(Q)
+}
+{ =} { \det  \begin{pmatrix}  \frac{ \partial h } { \partial x_1 }(Q)   &   1  &  0  &  \ldots &  0  \\  \frac{ \partial h } { \partial x_2 }(Q)  &  0  &  1  &   \ldots  &  0   \\  \vdots & \vdots  & \vdots &  \ddots  & \vdots \\   \frac{ \partial h } { \partial x_n } (Q) &  0  &  0 &   \ldots  &  1  \\  -1 &  \frac{ \partial h } { \partial x_1 }(Q)  &  \frac{ \partial h } { \partial x_2 }(Q) &  \ldots &  \frac{ \partial h } { \partial x_n }(Q)   \end{pmatrix}
+}
+{ =} { \pm \left(  \left( \frac{ \partial h } { \partial x_1 } (Q)   \right)^2 + \cdots + \left(  \frac{ \partial h } { \partial x_n } (Q)   \right)^2 +1  \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dengan tanda yang bergantung pada $n$.
+
+}
+
+\zwischenueberschrift{Integrasi sepanjang suatu pemetaan diferensiabel}
+
+Pada suatu manifold berdimensi $n$, yaitu $M$, hanya $n$-bentuk pada $M$ yang secara wajar dapat diintegralkan. Namun, kita juga ingin dapat mengintegralkan $k$-bentuk
+\zusatzklammer {
+\mavergleichskettek
+{\vergleichskettek
+{ 1
+}
+{ \leq }{k
+}
+{ \leq }{n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+atas subobjek berdimensi $k$ tertentu. Konsep yang sesuai ialah integrasi sepanjang suatu pemetaan diferensiabel
+\maabbdisp {\varphi} {L} {M
+} {}
+dari suatu manifold berdimensi $k$, yaitu $L$. Pada tahap ini, atas $L$ kita mengintegralkan
+\definitionsverweis {bentuk diferensial tarik balik}{}{}
+\mathl{\varphi^* \omega}{,} yaitu bentuk tarik balik oleh $\varphi$ dari suatu bentuk
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{ k } ( M  )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Pada $L$, dimensi manifold dan derajat bentuk tersebut bersesuaian. Kasus khusus yang penting ialah $1$-bentuk dan kurva diferensiabel
+\maabbdisp {\gamma} {I} {M
+} {,}
+integral yang dihasilkan disebut \stichwort {integral lintasan} {.}
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{  1 } (  M   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+$1$-\definitionsverweis {bentuk diferensial}{}{.}
+Misalkan
+\maabbdisp {\gamma} { [a,b] } { M
+} {}
+suatu
+\definitionsverweis {kurva yang terdiferensialkan secara kontinu}{}{.}
+Jika integran di bawah terintegralkan pada interval tersebut, maka
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_\gamma \omega
+}
+{ \defeq} {
+\int_{  [a,b]  }   \gamma^* \omega
+}
+{ =} { \int_{  a  }^{  b  } \omega ( \gamma(t); \gamma'(t)) \, d  t
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+disebut \definitionswort {integral lintasan}{} dari $\omega$ sepanjang $\gamma$.
+
+}
+Di sini
+
+\mavergleichskette
+{\vergleichskette
+{  \gamma'(t)
+}
+{ = }{ (T_t \gamma)(1)
+}
+{ \in }{ T_{\gamma (t)} M
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+\inputbemerkung
+{}
+{
+
+Dalam konteks fisika, suatu
+$1$-\definitionsverweis {bentuk diferensial}{}{}
+bernilai riil
+\zusatzklammer {atau versi dualnya, yaitu suatu medan vektor} {} {}
+mendeskripsikan suatu gaya; maka
+\definitionsverweis {integral lintasan}{}{}
+adalah \stichwort {usaha} {} atau \stichwort {energi} {,} yang dibutuhkan atau dilepaskan ketika sebuah partikel bergerak sepanjang lintasan tersebut.
+
+}
+
+Kita akan sering meninjau bentuk diferensial pada suatu submanifold tertutup
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ \subseteq }{G
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $G$ terbuka dalam $\R^n$, yang bahkan terdefinisi pada $G$ dan karena itu berbentuk
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ \sum_{i = 1}^n g_i d x_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+di mana $x_i$ adalah koordinat $\R^n$ dan $g_i$ merupakan fungsi yang terdefinisi pada $G$. Untuk suatu lintasan dalam $M$, menurut
+Soal 15.9,
+tidak ada perbedaan apakah integral lintasannya ditinjau terhadap
+\mathkor {} {G} {dan} {\omega} {}
+atau terhadap
+\mathkor {} {M} {dan bentuk diferensial yang dibatasi} {\omega \vert_M} {.}
+
+\inputbemerkung
+{}
+{
+
+Suatu
+\definitionsverweis {integral lintasan}{}{}
+dihitung sebagai berikut. Misalkan $\omega$ suatu $1$-bentuk pada suatu himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+yang dideskripsikan oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { g_1dx_1 + \cdots + g_ndx_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+di mana
+\maabb {g_j} { G } {\R
+} {}
+merupakan fungsi terukur. Misalkan diberikan suatu
+\definitionsverweis {kurva yang terdiferensialkan secara kontinu}{}{}
+\maabb {\gamma} { [a,b] } { G
+} {}
+dengan
+\definitionsverweis {fungsi komponen}{}{}
+$\gamma_j$
+\zusatzklammer {yang masing-masing terdiferensialkan secara kontinu} {} {.}
+Menurut Lema 37.4 (Analisis (Osnabrück 2021-2023)),
+\definitionsverweis {turunan}{}{}
+di suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ [a,b]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dideskripsikan oleh vektor
+\mathl{\left(  \gamma_1'(t)  , \,   \ldots  , \,   \gamma_n'(t)                 \right)}{.}
+Di titik $t$ dan pada arah $1$, nilai
+\definitionsverweis {bentuk diferensial tarik balik}{}{}
+\mathl{\gamma^* \omega}{} adalah
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \omega(\gamma(t); \gamma'(t))
+}
+{ =} { \left(  g_1(\gamma(t))dx_1 + \cdots + g_n(\gamma(t))dx_n  \right) \begin{pmatrix}  \gamma_1'(t)  \\\vdots \\  \gamma_n'(t)   \end{pmatrix}
+}
+{ =} { g_1(\gamma(t)) \gamma_1'(t) + \cdots + g_n(\gamma(t)) \gamma_n'(t)
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+Pada ekspresi di tengah, suatu
+\definitionsverweis {bentuk linear}{}{}
+diterapkan pada sebuah vektor. Jadi, dalam
+\mathl{g_j(x_1 , \ldots , x_n)}{}
+\mathkor {} {x_i} {diganti oleh} {\gamma_i(t)} {}
+dan
+\mathkor {} {dx_i} {diganti oleh} {\gamma_i'(t) dt} {.}
+Hasil keseluruhannya adalah suatu $1$-bentuk terukur pada
+\mathl{[a,b]}{} atau, secara ekuivalen, suatu fungsi terukur dari
+\mathl{[a,b]}{} ke $\R$. Integral lintasan ada jika fungsi koefisien pada ruas kanan terintegralkan pada interval tersebut; keterukuran saja tidak cukup.
+
+}
+
+\inputbeispiel{}
+{
+
+Kita meninjau bentuk diferensial
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { \left(  xy+z^2  \right) dx+zdy+x^3dz
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+pada $\R^3$ dan
+\definitionsverweis {lintasan afin-linear}{}{}
+\maabbeledisp {\gamma} { [0,1] } {\R^3
+} { t } {(1,2,0) +t(3,0,2) = (1+3t,2,2t)
+} {.}
+Melalui $\gamma$,
+\definitionsverweis {bentuk diferensial tarik balik}{}{}
+$\gamma^* \omega$ adalah
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left(  \left(  (1+3t)2 + (2t)^2  \right) dx + 2tdy + (1+3t)^3 dz  \right) \begin{pmatrix}  3  \\ 0 \\  2   \end{pmatrix}
+}
+{ =} { \left(  3  ((1+3t)2  + (2t)^2) + 2(1+3t)^3  \right) dt
+}
+{ =} { \left(  12t^2+18t+6+54t^3+54t^2+18t+2  \right) dt
+}
+{ =} { \left(  54t^3+66t^2+36t+8  \right) dt
+}
+{ } {
+}
+}
+{}
+{}{.}
+Untuk integral pada interval satuan, kita memperoleh
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \int_{  0  }^{  1  } 54t^3+66t^2+36t+8 \, d t
+}
+{ =} { \left(  { \frac{   27 }{  2 } } t^4 + 22 t^3 + 18t^2 +8t \right) \vert_{  0  }^{  1  }
+}
+{ =} { { \frac{   123 }{  2  } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}

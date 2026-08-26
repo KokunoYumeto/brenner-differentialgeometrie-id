@@ -1,0 +1,738 @@
+{
+  "authority": {
+    "course_recursive_export": {
+      "bytes": 3538709,
+      "path": "authority/mediawiki/brenner_course_recursive_current.xml",
+      "sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14"
+    },
+    "latex_surface_recursive_export": {
+      "bytes": 3722387,
+      "path": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+      "sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c"
+    },
+    "pages": {
+      "lecture_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture15_latex_surface_revid807120.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1200,
+          "path": "authority/mediawiki/lecture15_latex_surface_revid807120.metadata.json",
+          "sha256": "383f3e7aed7bb73546f83b830d1cc1ee66ed32f0bbd2f99fed0dba0c3b0586ac"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142589,
+        "parentid": 799029,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/lecture15_latex_surface_revid807120.wiki",
+        "revid": 807120,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T09:59:30Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 15/latex"
+      },
+      "lecture_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "acba6be4515e5cf58388d37157f632214fd2c09466e5d34ef9367ed11bbf72e1",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture15_root_revid991595.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "eyal6k850lvp9r5k7a5wtxissy8z1lh",
+        "metadata": {
+          "bytes": 1172,
+          "path": "authority/mediawiki/lecture15_root_revid991595.metadata.json",
+          "sha256": "e8e473d2891921e305d0acd92b1f0c6623a016ce0299fb31dcf28f96d61b6887"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142559,
+        "parentid": 905406,
+        "readable_normalized_bytes": 3159,
+        "readable_normalized_sha256": "cb7f7f8e2c11e00f72671b4856b54db6e7bf24bb0d1053efd6deceecf58a2a7b",
+        "readable_normalized_witness": "authority/mediawiki/lecture15_root_revid991595.wiki",
+        "revid": 991595,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 3158,
+        "source_utf8_sha1": "8001b95b2ea9ac15b25e11403572169294aa82d5",
+        "source_utf8_sha256": "631077e09fc2a8464bf5387923562eb60602a36bdea2d2121e9fdc27da6445f2",
+        "timestamp": "2025-01-23T13:23:09Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 15"
+      },
+      "worksheet_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet15_latex_surface_revid807089.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1207,
+          "path": "authority/mediawiki/worksheet15_latex_surface_revid807089.metadata.json",
+          "sha256": "22cc3b2988c261ca94bf09a8e108499047074e28c874812021b638447f02d0da"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142679,
+        "parentid": 798998,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/worksheet15_latex_surface_revid807089.wiki",
+        "revid": 807089,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T09:54:19Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 15/latex"
+      },
+      "worksheet_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "5b426b75f4324410297e827c41fec476a0967fbda4cbac492f0e221f37cd150e",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet15_root_revid899070.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "qi7v542hf1tgxf9n6ho1rdmg0qp1dyn",
+        "metadata": {
+          "bytes": 1179,
+          "path": "authority/mediawiki/worksheet15_root_revid899070.metadata.json",
+          "sha256": "40933fa9f7fc74e8314bab6b90d8f7391a09161075d97b4820f48ad06e780849"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142649,
+        "parentid": 899069,
+        "readable_normalized_bytes": 1800,
+        "readable_normalized_sha256": "024bcb4800c227966f3fcbb15306c9d6738aed7a1849ec8fe1ce512ebc742ae0",
+        "readable_normalized_witness": "authority/mediawiki/worksheet15_root_revid899070.wiki",
+        "revid": 899070,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 1799,
+        "source_utf8_sha1": "e2e9f1fa04d369bbd85f699293a54d6af7745def",
+        "source_utf8_sha256": "4438489b1001fbd7f28f3f14c9686fbaf3026b525dc27f3f1c0537ee450b6c69",
+        "timestamp": "2023-06-21T09:48:22Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 15"
+      }
+    },
+    "root_revision_manifest": {
+      "bytes": 15237,
+      "path": "authority/brenner_selected_root_revisions.csv",
+      "sha256": "64cf91594907db45355e64fb512fb14092e15218c74847a8f60fe884a5284fc8"
+    },
+    "surface_revision_manifest": {
+      "bytes": 31799,
+      "path": "authority/brenner_selected_surface_revisions.csv",
+      "sha256": "9a3a6b7dc08cc022803dad24e959365d67810d4da87a8bc4385c601db9d4bd52"
+    }
+  },
+  "checks": {
+    "all_candidate_solution_titles_queried": true,
+    "all_displayed_images_have_license_macros": true,
+    "all_point_markers_resolved": true,
+    "all_supplied_solution_latex_snapshots_frozen": true,
+    "all_supplied_solution_revisions_frozen": true,
+    "exercise_root_expansion_count_agreement": true,
+    "lecture_expansion_sanitized": true,
+    "revision_export_hashes_match": true,
+    "root_revision_bindings_unique": true,
+    "root_witnesses_match_mediawiki_sha1": true,
+    "solution_macro_api_agreement": true,
+    "surface_revision_bindings_unique": true,
+    "translation_started_by_workflow": false,
+    "unit_media_binary_and_rights_closure": true,
+    "worksheet_expansion_sanitized": true
+  },
+  "expansions": {
+    "lecture": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 37806,
+      "http_date": "Tue, 25 Aug 2026 15:38:16 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 15/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 674,
+        "path": "authority/exports/lecture15_latex_expand.json.request.json",
+        "sha256": "b4017b9f48d2d76e0e5fe9522a9ddbbda57d182a8179bc1ad3733f981d9fea2a"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 40211,
+        "path": "authority/exports/lecture15_latex_expand.json",
+        "sha256": "13e0b1c80a33f51c7378b7584476b20064ad28f02047bdf35cbdb9b4abd20fd1"
+      },
+      "retrieved_utc": "2026-08-25T15:38:16Z",
+      "sanitized_source": {
+        "bytes": 33156,
+        "path": "authority/expanded/lecture15_source.de.tex",
+        "sha256": "5645c84aed54603af32dda35ae73008c964b0a850b5a9bedffa27f2c62b38bc8"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 672,
+        "path": "qa/unit-15/lecture15_sanitize.json",
+        "sha256": "d212d8f76660eb7b7b0bf96e98cb5aaae6c33f55696a89a4f1bab88236094ded"
+      },
+      "valid_utf8": true
+    },
+    "worksheet": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 10169,
+      "http_date": "Tue, 25 Aug 2026 15:38:17 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 15/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 679,
+        "path": "authority/exports/worksheet15_latex_expand.json.request.json",
+        "sha256": "764f743d55c402b48c55ab792a1d57b759ae647eeaede69022c2d8fe8fb510bc"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 10957,
+        "path": "authority/exports/worksheet15_latex_expand.json",
+        "sha256": "c09668fb40eeacd7cb23790f4275e6a904df87bffe3e4edf22d6c5cf2db3a5b9"
+      },
+      "retrieved_utc": "2026-08-25T15:38:16Z",
+      "sanitized_source": {
+        "bytes": 8200,
+        "path": "authority/expanded/worksheet15_source.de.tex",
+        "sha256": "e425eede128eefd7d8eae134076caed6f0782e40e148b73eeaf843e1c740a621"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 675,
+        "path": "qa/unit-15/worksheet15_sanitize.json",
+        "sha256": "ad6a24fad09c24b538c97e35a63a2ed938f23cf2d417bec928ed69b61313d0a0"
+      },
+      "valid_utf8": true
+    }
+  },
+  "media": {
+    "all_displayed_images_have_license_macros": true,
+    "assets": [],
+    "current_commons_query": null,
+    "occurrence_count": 0,
+    "rights_manifest": {
+      "bytes": 25588,
+      "path": "authority/brenner_media_rights_manifest.csv",
+      "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+    },
+    "surface_occurrences": [],
+    "unique_asset_count": 0
+  },
+  "next_action": "Translate Lecture 15, Worksheet 15, and exactly the 4 supplied solutions in source order.",
+  "schema_version": 1,
+  "scope": "Brenner Differentialgeometrie Unit 15 authority preflight; no translation",
+  "solutions": {
+    "exercise_count": 16,
+    "exercises": [
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 349,
+          "path": "authority/mediawiki/worksheet15_exercise01_solution_revid1021853.utf8.b64",
+          "sha256": "66aec6a807d62fee036fdfc5767a8024637df2acf08968bba421beaa90c0147b"
+        },
+        "exercise_index": 1,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 2340,
+          "http_date": "Tue, 25 Aug 2026 15:38:18 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Kompakte Mannigfaltigkeit/Positive Volumenform/Endlich/Fakt/Beweis/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 720,
+            "path": "authority/exports/worksheet15_exercise01_solution_latex_expand.json.request.json",
+            "sha256": "9ffa48369b6f92f6c042f9f715fe08911cf1170f39133b5b7641cdb47ec37389"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 2599,
+            "path": "authority/exports/worksheet15_exercise01_solution_latex_expand.json",
+            "sha256": "ba00a54955f784e9f204444a6164d646a2bd0fee87911921789aa8cf24c31e52"
+          },
+          "retrieved_utc": "2026-08-25T15:38:17Z",
+          "sanitized_source": {
+            "bytes": 1865,
+            "path": "authority/expanded/worksheet15_exercise01_solution_source.de.tex",
+            "sha256": "704e01fdf3ae8ca82e9424478279b045621e90e8362c419b84ceaa8a9ca2caf5"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-15/worksheet15_exercise01_solution_sanitize.json",
+            "sha256": "ef44febc60664817486b1ce37a01b16bf9ad68640b573cf9a928384b7bb2ee74"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "3778dfe9dd026bc6e94842d5ce64f28856669ca4",
+        "metadata": {
+          "bytes": 1257,
+          "path": "authority/mediawiki/worksheet15_exercise01_solution_revid1021853.metadata.json",
+          "sha256": "f33a9a90ec46ab976678b6be2bd7fa9f37e196e4517927a1578b57df5ac839f8"
+        },
+        "pageid": 42741,
+        "parentid": 899079,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 262,
+          "path": "authority/mediawiki/worksheet15_exercise01_solution_revid1021853.wiki",
+          "sha256": "76cb747570601e4f5e727b40e1662decb49472b1496f2f19982569f42f6cea89"
+        },
+        "revid": 1021853,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Kompakte Mannigfaltigkeit/Positive Volumenform/Endlich/Fakt/Beweis/Aufgabe/Lösung",
+        "source_utf8_bytes": 261,
+        "source_utf8_sha256": "40c626ff88ad80e0124bb01f0a67babbf2b6442bd290882e031837e05c9dd25c",
+        "task_title": "Kompakte Mannigfaltigkeit/Positive Volumenform/Endlich/Fakt/Beweis/Aufgabe",
+        "timestamp": "2025-08-09T19:22:38Z"
+      },
+      {
+        "exercise_index": 2,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Positive Volumenform/Volumenmaß/Ist Maß/Aufgabe/Lösung",
+        "task_title": "Positive Volumenform/Volumenmaß/Ist Maß/Aufgabe"
+      },
+      {
+        "exercise_index": 3,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "R^n/Standardform/Integration über Teilmenge/Aufgabe/Lösung",
+        "task_title": "R^n/Standardform/Integration über Teilmenge/Aufgabe"
+      },
+      {
+        "exercise_index": 4,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Integration auf Mannigfaltigkeiten/Nullmengen/Ignorierbar/Aufgabe/Lösung",
+        "task_title": "Integration auf Mannigfaltigkeiten/Nullmengen/Ignorierbar/Aufgabe"
+      },
+      {
+        "exercise_index": 5,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Volumenform/Integration/Eigenschaften/Fakt/Beweis/Aufgabe/Lösung",
+        "task_title": "Volumenform/Integration/Eigenschaften/Fakt/Beweis/Aufgabe"
+      },
+      {
+        "exercise_index": 6,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Abzählbare Topologie/Nullmengen/Unabhängig von Volumenform/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Abzählbare Topologie/Nullmengen/Unabhängig von Volumenform/Aufgabe"
+      },
+      {
+        "exercise_index": 7,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "S^1/Faser/Gradient/Längenform/Aufgabe/Lösung",
+        "task_title": "S^1/Faser/Gradient/Längenform/Aufgabe"
+      },
+      {
+        "exercise_index": 8,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "S^2/Faser/Gradient/Flächenform/Aufgabe/Lösung",
+        "task_title": "S^2/Faser/Gradient/Flächenform/Aufgabe"
+      },
+      {
+        "exercise_index": 9,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Wegintegral/Mannigfaltigkeit/Differenzierbare Abbildung/Aufgabe/Lösung",
+        "task_title": "Wegintegral/Mannigfaltigkeit/Differenzierbare Abbildung/Aufgabe"
+      },
+      {
+        "exercise_index": 10,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Wegintegral/Trigonometrischer Kreis/xdx+ydy etc/Aufgabe/Lösung",
+        "task_title": "Wegintegral/Trigonometrischer Kreis/xdx+ydy etc/Aufgabe"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 1385,
+          "path": "authority/mediawiki/worksheet15_exercise11_solution_revid1096774.utf8.b64",
+          "sha256": "71ff550bbc05605410108bfd81293903b556b4782e7b9cbbd1a8c57080017388"
+        },
+        "exercise_index": 11,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 1248,
+          "http_date": "Tue, 25 Aug 2026 15:38:18 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Wegintegral/x^3dx-yzdy+xz^2dz/(-t^2,t^3-1,t+2)/-1 bis 0/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 709,
+            "path": "authority/exports/worksheet15_exercise11_solution_latex_expand.json.request.json",
+            "sha256": "592b7bbb5fc3822c418f85e3123285c69746dc5f145a89a13248f1e71055dab5"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 1411,
+            "path": "authority/exports/worksheet15_exercise11_solution_latex_expand.json",
+            "sha256": "e0c0213906a0700675736b8cb146e0c3c8f6b1a44678105c3b4b8ea73006e181"
+          },
+          "retrieved_utc": "2026-08-25T15:38:17Z",
+          "sanitized_source": {
+            "bytes": 1095,
+            "path": "authority/expanded/worksheet15_exercise11_solution_source.de.tex",
+            "sha256": "b0ddb245a1c69c87e845b784bb433b43b10b488616bd316ac0274f083b045424"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-15/worksheet15_exercise11_solution_sanitize.json",
+            "sha256": "2fb25b50d39122c7083f9953ccc20e89113ad989250f4e8e18ede79bfcf70faa"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "95f03ddfe8542ce5474c97101584e09d867cc723",
+        "metadata": {
+          "bytes": 1250,
+          "path": "authority/mediawiki/worksheet15_exercise11_solution_revid1096774.metadata.json",
+          "sha256": "a731cb20fa9cbb13aea9bfbfd624db9a3c4c6c8de4a54b2f509dd16c435647d6"
+        },
+        "pageid": 42746,
+        "parentid": 1095777,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 1038,
+          "path": "authority/mediawiki/worksheet15_exercise11_solution_revid1096774.wiki",
+          "sha256": "24e72eab9c16bec01986dd27c8e286f706961ab71c3615255c1be06f9ee73fbc"
+        },
+        "revid": 1096774,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Wegintegral/x^3dx-yzdy+xz^2dz/(-t^2,t^3-1,t+2)/-1 bis 0/Aufgabe/Lösung",
+        "source_utf8_bytes": 1037,
+        "source_utf8_sha256": "b3f5c2706d083b0a494eab0834b81513d1aa7b60ad5185f0c4d7d35c28fc89b5",
+        "task_title": "Wegintegral/x^3dx-yzdy+xz^2dz/(-t^2,t^3-1,t+2)/-1 bis 0/Aufgabe",
+        "timestamp": "2026-06-15T09:44:45Z"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 1533,
+          "path": "authority/mediawiki/worksheet15_exercise12_solution_revid1096775.utf8.b64",
+          "sha256": "34c613a28f9b8c58cc5056f56ca6b259b047ef3a595c1f9955e3c3155946bc54"
+        },
+        "exercise_index": 12,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 1494,
+          "http_date": "Tue, 25 Aug 2026 15:38:19 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Wegintegrale/t nach (t,t^(-1))/(u,v) nach (u^2,uv,-u+v^2)/xdx-zdy+dz/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 722,
+            "path": "authority/exports/worksheet15_exercise12_solution_latex_expand.json.request.json",
+            "sha256": "147968402f84b78f534fc741aa187be561c7a81738926e01fad5697fbd22ea44"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 1678,
+            "path": "authority/exports/worksheet15_exercise12_solution_latex_expand.json",
+            "sha256": "dd50065200a6de883e9d124ce3df16f59f6237fc6c6f8dbad10e7a1c310b5e9f"
+          },
+          "retrieved_utc": "2026-08-25T15:38:18Z",
+          "sanitized_source": {
+            "bytes": 1264,
+            "path": "authority/expanded/worksheet15_exercise12_solution_source.de.tex",
+            "sha256": "8db8323acb8e5b40c7c7c0d40d381f526e0c96e4ee14e2380ff048e80cc8886a"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-15/worksheet15_exercise12_solution_sanitize.json",
+            "sha256": "80c92f07685ee57effaac9ab4a200e25cdf122ae244b308c000ee2fb0a5995a3"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "0b2ea7a31016975c41cf91c278f5947a58357e1b",
+        "metadata": {
+          "bytes": 1263,
+          "path": "authority/mediawiki/worksheet15_exercise12_solution_revid1096775.metadata.json",
+          "sha256": "c138588f06f924196dba416bc857eaf550d930cb98328dab420ad5b8de1a3619"
+        },
+        "pageid": 44419,
+        "parentid": 1095778,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 1150,
+          "path": "authority/mediawiki/worksheet15_exercise12_solution_revid1096775.wiki",
+          "sha256": "04228e27aca13e0cd657b83ce884e22a18762b990dbe20efecdc183b6cbbfc9e"
+        },
+        "revid": 1096775,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Wegintegrale/t nach (t,t^(-1))/(u,v) nach (u^2,uv,-u+v^2)/xdx-zdy+dz/Aufgabe/Lösung",
+        "source_utf8_bytes": 1149,
+        "source_utf8_sha256": "57849775264ad113c0128d93b67b128d6ad538a37f6d62ba63949436e87f57d7",
+        "task_title": "Wegintegrale/t nach (t,t^(-1))/(u,v) nach (u^2,uv,-u+v^2)/xdx-zdy+dz/Aufgabe",
+        "timestamp": "2026-06-15T09:44:55Z"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 2045,
+          "path": "authority/mediawiki/worksheet15_exercise13_solution_revid1096776.utf8.b64",
+          "sha256": "076d461dccba6631b5f95722f2d84c666a2ebff36b431906d0f961975cdb8bae"
+        },
+        "exercise_index": 13,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 1769,
+          "http_date": "Tue, 25 Aug 2026 15:38:19 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Wegintegrale/t nach (t,t^3)/(u,v) nach (u^3,u^2+v^2,u^-1+v^-1)/(x-y)dx-z^2dy+dz/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 733,
+            "path": "authority/exports/worksheet15_exercise13_solution_latex_expand.json.request.json",
+            "sha256": "0b99092ba133c95083ca5a775e9eaca5a40a5496be1bf78a8007312a8d045540"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 1933,
+            "path": "authority/exports/worksheet15_exercise13_solution_latex_expand.json",
+            "sha256": "558ad93c6a66ab4f86fd968675c7601321f1e194edcf89d42e7bc795625b9a31"
+          },
+          "retrieved_utc": "2026-08-25T15:38:18Z",
+          "sanitized_source": {
+            "bytes": 1615,
+            "path": "authority/expanded/worksheet15_exercise13_solution_source.de.tex",
+            "sha256": "a5a9670f194f7c23f147b6f8a3403239d2b62e5858b7a7199574a57291315c03"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-15/worksheet15_exercise13_solution_sanitize.json",
+            "sha256": "87cf979436c4525d633477a2c2a49575c6dfa1f27b9c90ca21cc964bd566a07e"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "f554e07d22fc2df9e4938a00f0b7b455a8a66ca0",
+        "metadata": {
+          "bytes": 1274,
+          "path": "authority/mediawiki/worksheet15_exercise13_solution_revid1096776.metadata.json",
+          "sha256": "3b7b673c517bed63942e370ba66bb5a161a1efd673cc663ebbaa8473828c3154"
+        },
+        "pageid": 46309,
+        "parentid": 1095779,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 1534,
+          "path": "authority/mediawiki/worksheet15_exercise13_solution_revid1096776.wiki",
+          "sha256": "cf54ece9a69cb12fde74ff0be15c71a880b74eba452fb3583acc09a8ace9730f"
+        },
+        "revid": 1096776,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Wegintegrale/t nach (t,t^3)/(u,v) nach (u^3,u^2+v^2,u^-1+v^-1)/(x-y)dx-z^2dy+dz/Aufgabe/Lösung",
+        "source_utf8_bytes": 1533,
+        "source_utf8_sha256": "64cd7a96fdcf4fc8e5ae5b79994bdb4429e835498af5754708e83606fa725bbc",
+        "task_title": "Wegintegrale/t nach (t,t^3)/(u,v) nach (u^3,u^2+v^2,u^-1+v^-1)/(x-y)dx-z^2dy+dz/Aufgabe",
+        "timestamp": "2026-06-15T09:45:05Z"
+      },
+      {
+        "exercise_index": 14,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Abgeschlossene Untermannigfaltigkeit/Volumenform/Kleinere Dimension/Nullmenge/Aufgabe/Lösung",
+        "task_title": "Abgeschlossene Untermannigfaltigkeit/Volumenform/Kleinere Dimension/Nullmenge/Aufgabe"
+      },
+      {
+        "exercise_index": 15,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Wegintegral/R^2/Monomiale Daten/Aufgabe/Lösung",
+        "task_title": "Wegintegral/R^2/Monomiale Daten/Aufgabe"
+      },
+      {
+        "exercise_index": 16,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 5,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Wegintegral/Trigonometrische Helix/(y-z^3)dx+x^2dy-xzdz/Aufgabe/Lösung",
+        "task_title": "Wegintegral/Trigonometrische Helix/(y-z^3)dx+x^2dy-xzdz/Aufgabe"
+      }
+    ],
+    "graded_exercise_count": 3,
+    "macro_api_agreement": true,
+    "missing_solution_count": 12,
+    "point_value_total": 13,
+    "practice_exercise_count": 13,
+    "query": {
+      "bytes": 6753,
+      "path": "authority/mediawiki/unit15_solution_pages_current.json",
+      "sha256": "9269eb6fe8db693fcf6288a35504ab6810f58917e765dc58c2eb0ad0175855f3"
+    },
+    "query_request_receipt": {
+      "bytes": 1752,
+      "path": "authority/mediawiki/unit15_solution_pages_current.json.request.json",
+      "sha256": "26f11892c99a818f545b26f71c5997ef1c4b01797945bf7f2504d62ff2b0afed"
+    },
+    "query_retrieved_utc": "2026-08-25T15:38:17Z",
+    "schema_version": 1,
+    "supplied_solution_count": 4,
+    "supplied_solution_indices": [
+      1,
+      11,
+      12,
+      13
+    ],
+    "workflow": "o011-unit15-solution-freeze-v1",
+    "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 15"
+  },
+  "status": "pass",
+  "structure": {
+    "all_hint_fields_blank": true,
+    "lecture_section_count": 4,
+    "worksheet_exercise_count": 16,
+    "worksheet_graded_count": 3,
+    "worksheet_point_total": 13,
+    "worksheet_practice_count": 13,
+    "worksheet_section_count": 2,
+    "worksheet_solution_bearing_indices": [
+      1,
+      11,
+      12,
+      13
+    ]
+  },
+  "unit": 15,
+  "workflow": "o011-unit15-authority-preflight-v1"
+}

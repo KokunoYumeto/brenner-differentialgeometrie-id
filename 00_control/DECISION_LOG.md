@@ -1253,3 +1253,211 @@ PDF, semantic HTML, stable-ID backend, package, publication, or public-byte
 readback is claimed for this unit alone. Advance directly to the bounded Unit
 15 authority freeze and source-order translation; the next consolidated gate
 opens after Unit 16 closes.
+
+## D058 — Unit 15 authority, solution, hint, and zero-media closure pass
+
+**Decision:** admit the exact frozen Unit 15 lecture/worksheet pair for
+translation. The official expanded LaTeX and offline verifier agree, and the
+finite exercise/solution surface is closed. Translation may proceed without
+another source-selection or publication ceremony.
+
+Lecture 15 is pageid/revid `142559/991595`, timestamp
+`2025-01-23T13:23:09Z`; its sanitized expanded German TeX is 33,156 bytes,
+SHA-256 `5645c84aed54603af32dda35ae73008c964b0a850b5a9bedffa27f2c62b38bc8`.
+Worksheet 15 is pageid/revid `142649/899070`, timestamp
+`2023-06-21T09:48:22Z`; its witness is 8,200 bytes, SHA-256
+`e425eede128eefd7d8eae134076caed6f0782e40e148b73eeaf843e1c740a621`.
+
+The worksheet contains exactly 16 exercises: 13 practice and three graded
+items worth 4, 4, and 5 points, totaling 13. All 16 hint fields are blank.
+Exactly Solutions 1, 11, 12, and 13 exist and are frozen; twelve candidate
+solution pages are absent and must not be represented as supplied solutions.
+The complete lecture/worksheet/solution surface has zero media occurrences.
+
+Preflight `qa/unit-15/AUTHORITY_PREFLIGHT.json` is 32,155 bytes, SHA-256
+`e8aad6eb37a7a5a63dd9a99a75a63501f73300cf145277374666b9a5ca709668`.
+The independent offline verifier is 534 bytes, SHA-256
+`40b4193c3eaf09860103a3843a22274cccd079506bc505b0fb483f7971ea31f5`,
+and passes four root witnesses, six expanded surfaces, all sixteen exercise
+candidates, the exact four-solution set, and the empty media set.
+
+**Boundary:** translate the full lecture, worksheet, and exactly the four
+supplied solutions in source order; independently audit source mathematics and
+reader language before the bounded Unit 15 receipt. Unit 13 remains the latest
+cumulative public reader, and Unit 14–16 remain the next cumulative batch.
+
+## D059 — Unit 16 authority and two-media rights closure pass
+
+**Decision:** freeze and admit Unit 16 while the disjoint Unit 15 targets close,
+so the already-declared Units 14–16 cumulative milestone has no later source or
+rights dependency. This is bounded forward preparation, not a claim that Unit
+15 is complete or that source order has been abandoned.
+
+Lecture 16 is pageid/revid `142560/1052551`, timestamp
+`2025-08-27T13:57:43Z`, with expanded-source identity 25,010 bytes, SHA-256
+`10070f2b0621b03b05a9613be90635ef3c42c72cd45377bb88be78112d6b2839`.
+Worksheet 16 is pageid/revid `142650/1020028`, timestamp
+`2025-08-09T13:44:46Z`, with expanded-source identity 11,282 bytes, SHA-256
+`6a04cbb12e27bd18a5fc1dfb92eae667e54fcdaab41c1ecb1b4d56126618f01d`.
+
+The worksheet contains exactly 21 exercises: 16 practice and five graded
+items totaling 23 points. All 21 hints are blank. Exactly Solutions 1 and 12
+exist; nineteen candidates are absent. The two displayed media assets are
+exactly `Georg Friedrich Bernhard Riemann.jpeg`, 255,626 bytes, SHA-256
+`945240277e351b4deacc64e0a8e0cbb5c8398a5d13ae322eafb55bfae91cabc6`,
+and `Sphere with three handles.png`, 398,740 bytes, SHA-256
+`49398059697841332186226bccf87e46032289c1a8a02063fc2600070c51a311`.
+Both are independently bound as public-domain Commons files; no blanket media
+license is inferred.
+
+Preflight SHA-256 is
+`d5da582156e81f62db972eb3e1310374b4cd137c4fb27fe7bc039b0a16ffc9bd`.
+Offline-verifier SHA-256 is
+`b8c4d7ae1a9ba0f509fcc84cc5a0d133c26aae3612173d5144608be419070bb5`;
+it passes four root witnesses, four expanded surfaces, all 21 exercise
+candidates, the exact two-solution set, and both media occurrences/assets.
+
+**Boundary:** keep Unit 15 as the active cursor. Translation of the disjoint
+Unit 16 lecture may proceed in parallel, but the Unit 15 reader and bounded QA
+must close before Unit 16 becomes the active source-order cursor.
+
+## D060 — Unit 15 complete bounded reader and QA boundary passes
+
+**Decision:** accept the complete Unit 15 lecture/worksheet pair and exactly
+the four source-supplied solutions as the second closed unit in the Units
+14–16 batch. Advance the source-order cursor to Unit 16. Do not rebuild or
+republish the cumulative reader until Unit 16 also passes its bounded gate.
+
+**Reader identity and closure:** Lecture 15 is 34,034 bytes, SHA-256
+`7d13af0d91107fda5d622ff80ef838338d1720ae397a74a8a6137112d30cc7ba`;
+Worksheet 15 is 8,381 bytes, SHA-256
+`3c6e0d42eb20663d6c6eb6a33d2641b1afabc38b6e246a0ac9273bbeb5f6858c`.
+All sixteen exercises remain in source order: thirteen practice and three
+graded problems worth 4, 4, and 5 points. Every hint remains blank. Exactly
+Solutions 1, 11, 12, and 13 are present; twelve missing source solutions are
+not invented. The unit has zero media.
+
+**Correction and review evidence:** independent mathematical comparison
+confirmed the local-form degree, graph domain/component typing, common-chart
+intersection, path-integrability hypothesis, finite-subcover, boundedness,
+differential-notation, and title/body findings. The general sigma-finiteness
+claim is retained with its missing countable bounded-density justification.
+Independent language review normalized dimensions, continuously
+differentiable maps, charts, collective nouns, and pullback phrasing. Twelve
+records `O011-CORR-0169` through `O011-CORR-0180` disclose every change and
+source anomaly. Six translation receipts and six preparation receipts pass.
+
+**Binding receipt:** `qa/unit-15/POST_CORRECTION_MATH_QA.json` is 8,256 bytes,
+SHA-256
+`90e0cee5ec3228ea3635e50ad6feaacd1f86092e93dea3c70b07ca020cff6a87`.
+An independent binding check resolved 25 paths and all twelve ledger IDs
+against current bytes and hashes.
+
+**Boundary:** Unit 15 is complete only at its bounded per-unit gate. Unit 16
+is now active. Once Unit 16 closes, build the centered A4 PDF, reflowable HTML,
+append-only backend, release package, existing-lineage publication, and
+anonymous readback through Unit 16.
+
+## D061 — Unit 16 complete bounded reader and QA boundary passes
+
+**Decision:** accept the complete Unit 16 lecture/worksheet pair and exactly
+the two source-supplied solutions as the third closed unit in the Units 14–16
+batch. The per-unit batch is complete; advance immediately to the cumulative
+Units 1–16 reader/backend/release gate rather than starting another isolated
+unit.
+
+**Reader identity and closure:** Lecture 16 is 24,994 bytes, SHA-256
+`e40adb356c641b552e931bc7660094bacb5dbd10d351c2036e0a253021434614`;
+Worksheet 16 is 11,081 bytes, SHA-256
+`1a7535fe6e1ee9bb40e0a508143aa57c5dfc19ef92415635e54ed9f5975290b2`.
+All 21 exercises remain in source order: sixteen practice and five graded
+problems worth 4, 3, 4, 6, and 6 points. Every hint remains blank. Exactly
+Solutions 1 and 12 are present, with target SHA-256 values
+`df5f155101df65eb27bc1aeea5933526488471eea6b444cf7e8f5f04aa9c8779`
+and
+`84f08c2ac9fef0276b844e4c1ff06963f99a8115db4ff9422b5f833da4848cbf`;
+nineteen missing source solutions are not invented.
+
+**Correction, rights, and review evidence:** nine records
+`O011-CORR-0181` through `O011-TRANS-0189` disclose the corrected adapted-chart
+dimension, two necessary orientation hypotheses, authoritative creator
+spelling, the source typo `ererbt`, and bounded reader-language refinements.
+Both exact media assets remain public-domain and byte-identical to the frozen
+Commons closure: the 255,626-byte Riemann portrait has SHA-256
+`945240277e351b4deacc64e0a8e0cbb5c8398a5d13ae322eafb55bfae91cabc6`;
+the 398,740-byte three-handled sphere has SHA-256
+`49398059697841332186226bccf87e46032289c1a8a02063fc2600070c51a311`.
+Four translation and four preparation chains pass. Independent mathematical
+and reader review passes with zero reader-facing German.
+
+**Binding receipt:** `qa/unit-16/POST_CORRECTION_MATH_QA.json` is 10,639
+bytes, SHA-256
+`13edee0684042a53beb4daa7b6dfe5c877ac7ed5c35ec03fa5fa63f11a710a4c`.
+An independent recursive binding check resolved 26 path/byte/hash triples and
+all nine declared ledger IDs against current bytes.
+
+**Boundary:** Units 14–16 are translated and bounded-QA complete. Run one
+deterministic two-cycle centered A4 PDF gate, semantic HTML plus real-browser
+gate, append-only stable-ID backend gate, clean-extraction reproducibility
+package, existing-lineage GitHub and Zenodo publication, and anonymous public
+byte readback through Unit 16. Then resume source order at Unit 17.
+
+## D062 — Close the local cumulative Unit 16 reader/backend gate and activate its preservation boundary (2026-08-26)
+
+**Decision:** Accept the deterministic cumulative Unit 16 PDF, semantic HTML,
+and append-only backend as the next preservation boundary. Stage exactly one
+reader-first seven-file release, prove it from two clean extractions in
+`qa/unit-16/SOURCE_PACKAGE_INTEGRITY.json`, publish it in the existing GitHub
+and Zenodo lineages, anonymously verify every public byte, and then continue
+immediately with Unit 17. This decision does not claim publication before the
+public receipts exist and does not complete the 29-unit owner goal.
+
+**Evidence:** The 261-page PDF is 7,241,359 bytes with SHA-256
+`58f98853ab8eeb1beb2aa4ade6bd3c746b62b4fa42c3c692a03c17076cdb06b8`;
+two clean cycles are byte-identical and structural/visual gates pass. The HTML
+entry is 1,163,644 bytes with SHA-256
+`5612cf4218619425e5524fd72c46757fb30db63c185407e99c4d84d99fe3a2f9`;
+structural plus real-browser desktop/mobile gates pass. The backend has 3,208
+records, preserves the 2,604-record public Unit 13 prefix byte-for-byte, and
+has JSONL SHA-256
+`c42bac17822f949aa16ac0f87c7d0726526d020d46bab97f91d36e70f4b21983`,
+CSV SHA-256
+`2ff324a750b01540fd3827684947877e807ac8402d09fc6ece1efdf14caeb312`,
+and manifest SHA-256
+`5718751f625774d4b4ca6d019524646c56219731b513b3329f9ba022304845db`.
+
+**Scope correction:** The final post-review Unit 14–16 target hashes and
+correction records in the cumulative backend/reader supersede earlier
+per-unit interim byte identities wherever they differ. No source mathematics,
+exercise, supplied solution, identifier, media right, or correction disclosure
+is dropped. The next production cursor after public readback is Unit 17.
+
+## D063 — Accept the reproducible Unit 16 source closure and preserve it in the existing Zenodo concept (2026-08-26)
+
+**Decision:** Accept the seven-file Unit 16 release only after two independent
+empty-root rebuilds reproduce the exact cumulative PDF, HTML, and backend.
+Publish those exact bytes as version `2026.08.26-unit16` in existing Zenodo
+concept `22059977`, then require an independent credential-free download and
+hash comparison of every file. Preserve the PDF as the first effective file
+and default preview. Continue with the matching GitHub checkpoint and Unit 17;
+this is a substantial partial boundary, not completion of O011.
+
+**Evidence:** The compact source ZIP is 37,989,234 bytes with SHA-256
+`080cc0c3902c3bda3a895646575ca2770cf20870ce16a740d6e3783cbc90a71c`.
+The two-root integrity receipt is 35,272 bytes with SHA-256
+`035277c316604ed69e6aac8d6632b6c8b927a02a2701f35e9ce7b35f4e475fa5`.
+Zenodo record `22104426`, DOI `10.5281/zenodo.22104426`, is public and latest
+in the same concept. Publisher and independent readback both match seven files
+and 51,241,328 bytes. Their receipt SHA-256 values are respectively
+`0f35287a422263d48786ed45dee0e581c191cf1a0c6dce4f701535579a2a0c63`
+and
+`1c846dd93cf66c60822577b39e5b3ecf5a42a3c1f950ae56d30da0a493ddd063`.
+
+**Packaging corrections:** Three fail-closed clean-build attempts exposed and
+then closed omitted transitive dependencies: all backend-bound media assets,
+the deterministic prepared-TeX tree plus the Unit 6 PDF helper, and the HTML
+media/interaction generation receipts. The final passing archive contains the
+complete bounded closure. The frozen upstream `Tangent bundle.svg` keeps its
+previously disclosed public authoring locator byte-identically; hardened scans
+admit only that exact known public string and reject any other Unix home,
+Windows profile, credential, or token pattern.

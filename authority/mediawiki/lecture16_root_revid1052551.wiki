@@ -1,0 +1,74 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesungsgestaltung|16|
+
+{{
+inputbild
+|Georg Friedrich Bernhard Riemann|jpeg| 200px {{!}} right {{!}} 
+|Zusname=Georg_Friedrich_Bernhard_Riemann
+|Text=[[w:Georg Friedrich Bernhard Riemann|Georg Friedrich Bernhard Riemann (1826-1866)]] 
+|Autor=
+|Benutzer=Ævar Arnfjörð Bjarmason
+|Domäne=
+|Lizenz=PD
+|Bemerkung=http://www.sil.si.edu/digitalcollections/hst/scientific-identity/explore.htm
+}}
+
+{{Zwischenüberschrift|Riemannsche Mannigfaltigkeiten}}
+
+Die Kugeloberfläche einer Kugel mit Radius {{math|term= r |SZ=}} besitzt den Flächeninhalt {{mathl|term= 4 \pi r^2 |SZ=.}} Dies ist ein klassisches Resultat, doch wie kann man den Flächeninhalt einer solchen zweidimensionalen Mannigfaltigkeit präzise erfassen? Um die Maß- und Integrationstheorie der vorhergehenden Vorlesungen anwenden zu können, brauchen wir eine möglichst natürliche {{math|term= 2 |SZ=-}}Form auf der Fläche. Über den Begriff der Riemannschen Metrik werden wir zeigen, dass es auf Flächen, die im dreidimensionalen euklidischen Raum eingebettet sind, ein natürliches Flächenmaß gibt, mit dem man den Flächeninhalt ausrechnen kann.
+
+{{
+inputbild
+|Sphere with three handles|png| 250px {{!}} right {{!}} 
+|Zusname=Sphere_with_three_handles
+|Text=Die grüne Oberfläche erbt vom umgebenden euklidischen Raum das Skalarprodukt. Dies erlaubt darauf eine sinnvolle Flächenmessung.
+|Autor=
+|Benutzer=Oleg Alexandrow
+|Domäne=
+|Lizenz=PD
+|Bemerkung=
+}}
+{{:Riemannsche Mannigfaltigkeit/C^1/Einführung/Textabschnitt|zusatz1=Fußnote|zusatz2=Fußnote|}} 
+
+Die einfachsten Beispiele sind abgeschlossene Untermannigfaltigkeiten
+{{
+Relationskette
+|M
+|\subseteq| \R^n
+||
+||
+||
+|SZ=,
+}} 
+wobei sich das Standardskalarprodukt direkt auf {{math|term= M |SZ=}} überträgt.
+
+{{Zwischenüberschrift|Vektorfelder und {{math|term= 1 |SZ=-}}Formen auf einer riemannschen Mannigfaltigkeit}}
+
+Böse Zungen behaupten, dass Physiker nicht den Unterschied zwischen Vektorfeldern und {{math|term= 1 |SZ=-}}Formen kennen. Auf riemannschen Mannigfaltigkeiten entsprechen sich in der Tat diese Objekte.
+{{
+inputfaktbeweis
+|Riemannsche Mannigfaltigkeit/Vektorfelder und 1-Formen/Fakt|Lemma||zusatz={{{zusatz2|}}}
+||
+}}
+
+{{
+inputbemerkung
+|Abgeschlossene Untermannigfaltigkeit/R^n/Einschränkung eines Vektorfeldes/Bemerkung||
+}}
+
+{{
+inputbeispiel
+|Kreislinie in R^2/Zurückgezogenes Vektorfeld zu konstantem Vektorfeld e1/Beispiel||
+}}
+
+{{Zwischenüberschrift|Die kanonische Volumenform auf einer orientierten riemannschen Mannigfaltigkeit}}
+
+{{:Riemannsche Mannigfaltigkeit/Kanonische Volumenform/Einführung/Textabschnitt|}} 
+
+{{
+inputbeispiel
+|Intervall/Riemannsche Struktur/Einbettung/Beispiel||
+}}
+
+{{Fußnotenliste|}}
+
+}}

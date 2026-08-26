@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-15/worksheet15.id.tex",
+  "input_bytes": 8381,
+  "input_sha256": "3c6e0d42eb20663d6c6eb6a33d2641b1afabc38b6e246a0ac9273bbeb5f6858c",
+  "output": "build/generated/worksheet15.id.build.tex",
+  "output_bytes": 8086,
+  "output_sha256": "01603b0e1ea234c648c559a25f4defe04a9e06424789c462e74167333f31a7fe",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Mannigfaltigkeit/Abzählbar/Positive Volumenform/Zugehöriges Maß/Definition",
+      "label": "Definisi 15.3"
+    },
+    {
+      "target": "Differenzierbare reguläre Abbildung/R^n/Faser besitzt Volumenform über Gradienten/Fakt",
+      "label": "Korolari 15.6"
+    },
+    {
+      "target": "Differenzierbare reguläre Abbildung/R^n/Faser besitzt Volumenform über Gradienten/Fakt",
+      "label": "Korolari 15.6"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

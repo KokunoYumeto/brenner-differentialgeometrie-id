@@ -1,0 +1,57 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+a) Die zurückgezogene Differentialform ist
+{{
+Relationskette/align
+|\varphi^* ( xdx -zdy +dz )
+|| u^2 du^2    -(-u+v^2) duv +d (-u+v^2)
+|| 2u^3 du + (u-v^2) (vdu +udv) -du +2vdv
+|| (2u^3 +uv -v^3 -1) du    + (u^2 -uv^2 +2v )dv
+||
+|SZ=.
+}}
+
+b) Das Wegintegral ist
+{{
+Relationskette/align
+| \int_1^2 ( 2t^3 +1 -t^{-3} -1 )dt  +(t^2 -t^{-1} +2t^{-1} ) d t^{-1} 
+|| \int_1^2 ( 2t^3 -t^{-3} ) dt  +(t^2 + t^{-1} ) d t^{-1}
+|| \int_1^2 ( 2t^3 -t^{-3} ) dt  -(1 + t^{-3} ) dt
+|| \int_1^2 ( 2t^3 - 2t^{-3} -1 ) dt
+|| {{op:Integralstamm| 1| 2| {{makl| {{op:Bruch| 1| 2}}  t^4  + t^{-2}  -t |}} }} 
+|| 8 + {{op:Bruch| 1| 4}}  -2 - {{op:Bruch| 1| 2}} -1 +1
+|| 5 + {{op:Bruch| 3| 4}}
+|SZ=.
+}}
+
+c) Der verknüpfte Weg ist
+{{
+Relationskette/display
+| \psi (t)
+|| (t^2,1,-t +t^{-2} )
+||
+||
+||
+|SZ=.
+}}
+Somit ist
+{{
+Relationskette/align
+| \int_1^2 \psi^* (xdx -zdy +dz ) 
+|| \int_1^2 t^2dt^2 + d (-t + t^{-2} )
+||  \int_1^2 (2 t^3-1 -2t^{-3} ) dt
+|| 5 + {{op:Bruch| 3| 4}}
+||
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-16/worksheet16.id.tex",
+  "input_bytes": 11081,
+  "input_sha256": "1a7535fe6e1ee9bb40e0a508143aa57c5dfc19ef92415635e54ed9f5975290b2",
+  "output": "build/generated/worksheet16.id.build.tex",
+  "output_bytes": 10626,
+  "output_sha256": "f91da5ff46a0dc7cd82b59638cbdba761a23520a78cfdcba32768891798ff7e4",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Vektorfelder und 1-Formen/Fakt",
+      "label": "Lema 16.3"
+    },
+    {
+      "target": "Abgeschlossene Untermannigfaltigkeit/R^n/Einschränkung eines Vektorfeldes/Bemerkung",
+      "label": "Catatan 16.4"
+    },
+    {
+      "target": "Differenzierbare reguläre Abbildung/R^n/Faser besitzt Volumenform über Gradienten/Fakt",
+      "label": "Korolari 15.6"
+    },
+    {
+      "target": "Differenzierbare reguläre Abbildung/R^n/Faser besitzt Volumenform über Gradienten/Fakt",
+      "label": "Korolari 15.6"
+    },
+    {
+      "target": "Abgeschlossene Untermannigfaltigkeit/R^n/Einschränkung eines Vektorfeldes/Bemerkung",
+      "label": "Catatan 16.4"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

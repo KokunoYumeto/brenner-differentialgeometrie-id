@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-26T00:59:58+02:00",
+  "unit_id": "o011-brenner-u15",
+  "status": "pass",
+  "scope": "Complete Lecture 15 and Worksheet 15 with exactly four source-supplied solutions; natural Indonesian reader prose; structural and protected-math preservation; independent mathematical and language review; exact zero-media closure; and explicit correction closure. No cumulative PDF, HTML, backend, publication, or public-readback gate is claimed at this per-unit boundary.",
+  "authority": {
+    "preflight": {
+      "path": "qa/unit-15/AUTHORITY_PREFLIGHT.json",
+      "bytes": 32155,
+      "sha256": "e8aad6eb37a7a5a63dd9a99a75a63501f73300cf145277374666b9a5ca709668"
+    },
+    "offline_verification": {
+      "path": "qa/unit-15/AUTHORITY_PREFLIGHT_VERIFY.json",
+      "bytes": 534,
+      "sha256": "40b4193c3eaf09860103a3843a22274cccd079506bc505b0fb483f7971ea31f5"
+    },
+    "repeat_and_anomalies": {
+      "path": "qa/unit-15/AUTHORITY_PREFLIGHT_REPEAT_AND_ANOMALIES.json",
+      "bytes": 3287,
+      "sha256": "216c13045fc49beed750a76b1ed3d2791db7475b37045cd17678d8da1dabe1e6"
+    },
+    "solution_closure": {
+      "path": "qa/unit-15/solution_closure.json",
+      "bytes": 18873,
+      "sha256": "ac34c43f6bd7b246f192fe078545e7bced2f9d8d8678faf90748555ffdb363dd"
+    },
+    "lecture": {
+      "pageid": 142559,
+      "revid": 991595,
+      "timestamp": "2025-01-23T13:23:09Z",
+      "path": "authority/expanded/lecture15_source.de.tex",
+      "bytes": 33156,
+      "sha256": "5645c84aed54603af32dda35ae73008c964b0a850b5a9bedffa27f2c62b38bc8"
+    },
+    "worksheet": {
+      "pageid": 142649,
+      "revid": 899070,
+      "timestamp": "2023-06-21T09:48:22Z",
+      "path": "authority/expanded/worksheet15_source.de.tex",
+      "bytes": 8200,
+      "sha256": "e425eede128eefd7d8eae134076caed6f0782e40e148b73eeaf843e1c740a621"
+    },
+    "supplied_solution_indices": [1, 11, 12, 13]
+  },
+  "targets": [
+    {
+      "path": "source/units/unit-15/lecture15.id.tex",
+      "bytes": 34170,
+      "sha256": "c7ef815dfa5e1fbdd877c866d7841bb322e5086a30d36ec02925014a7854a954",
+      "translation_receipt": "qa/unit-15/lecture15_translation.json",
+      "translation_receipt_sha256": "8764b8f70d86c59265528c75a4a95dce200acf3cf56fccf8e89ee4feb4816e93"
+    },
+    {
+      "path": "source/units/unit-15/worksheet15.id.tex",
+      "bytes": 8381,
+      "sha256": "3c6e0d42eb20663d6c6eb6a33d2641b1afabc38b6e246a0ac9273bbeb5f6858c",
+      "translation_receipt": "qa/unit-15/worksheet15_translation.json",
+      "translation_receipt_sha256": "56230564e1f5ec8d9eafe24eac97239282e903dbc79d5f0dbef6b2fa913011d6"
+    },
+    {
+      "exercise": 1,
+      "path": "source/units/unit-15/worksheet15_exercise01_solution.id.tex",
+      "bytes": 1958,
+      "sha256": "bff5036f08a6dfc8dded4043ab42ce201e313a9f2757f15275919888f663a42a",
+      "translation_receipt_sha256": "dcef9d4567537cf7e5e53b6648f856f81bb7692c8c86a2e44d489b7fa0b708a4"
+    },
+    {
+      "exercise": 11,
+      "path": "source/units/unit-15/worksheet15_exercise11_solution.id.tex",
+      "bytes": 1109,
+      "sha256": "6902a8cd4421acd9d83ed501af4fbe7bc8e91fe1c6ab2ed6668827c8ed4ab749",
+      "translation_receipt_sha256": "4ce4fcb4225deb64d34d9e4f0ee1a38ef690826e7299268139f199f287cab1e5"
+    },
+    {
+      "exercise": 12,
+      "path": "source/units/unit-15/worksheet15_exercise12_solution.id.tex",
+      "bytes": 1290,
+      "sha256": "fa070c1c433e17d201ae84e1ccfb7ea21c24f4255f28857016e323f0eb4fba49",
+      "translation_receipt_sha256": "32de573ed0c77590c08378871144c789fd1495cfa798fb907aabdb12d538d13f"
+    },
+    {
+      "exercise": 13,
+      "path": "source/units/unit-15/worksheet15_exercise13_solution.id.tex",
+      "bytes": 1623,
+      "sha256": "b29338f5cabe345e317c6848e8321ffea0e91d76910afa5ab86feccf5a5349d8",
+      "translation_receipt_sha256": "bb29e759b04bf382cf013bb224fd5244212a3f4f0f60ca2e1afb5488f01ac5f4"
+    }
+  ],
+  "prepared_fragments": [
+    {
+      "path": "build/generated/lecture15.id.build.tex",
+      "bytes": 31975,
+      "sha256": "05f625788630ec0c5557b8314a51800ae6dec74d37748fb834b82cfffe79cf5f",
+      "prepare_receipt_sha256": "0e2c4cd1b9909c5ef6fcb9d532ad1686fc0f913342cf3eb7009120090aa4e711"
+    },
+    {
+      "path": "build/generated/worksheet15.id.build.tex",
+      "bytes": 8086,
+      "sha256": "01603b0e1ea234c648c559a25f4defe04a9e06424789c462e74167333f31a7fe",
+      "prepare_receipt_sha256": "ba1b18880ee02e26ef69c711b714ff3e977c758216dbf9f10fd5ebab74c60b9b"
+    },
+    {
+      "path": "build/generated/worksheet15_exercise01_solution.id.build.tex",
+      "bytes": 1931,
+      "sha256": "150423c98dbfb51bd725ed314684e023307067fcebe4ab85998bcd2fca4d7e4c",
+      "prepare_receipt_sha256": "dda105aa574b62e2c41ef6a21c2abec47bad1d4f3d75d03d3530c5e67f8e2974"
+    },
+    {
+      "path": "build/generated/worksheet15_exercise11_solution.id.build.tex",
+      "bytes": 1081,
+      "sha256": "bde4746bfda25fde7e71a1fea8b827fb5a300c5377dc1aa4c8d2acfcf0d6e9e0",
+      "prepare_receipt_sha256": "950c7cf7241add9c3f69d25e591a73c40b4aae251bffa7dd52cdb9536c9bf9df"
+    },
+    {
+      "path": "build/generated/worksheet15_exercise12_solution.id.build.tex",
+      "bytes": 1263,
+      "sha256": "e4302745aae8fe21d36b5fc95ba492740b77ee9f767b955859790e777ac9278f",
+      "prepare_receipt_sha256": "b929926d28cce8c4f4033201da7808f571de19f86eb6c880f50c77a5763865b8"
+    },
+    {
+      "path": "build/generated/worksheet15_exercise13_solution.id.build.tex",
+      "bytes": 1596,
+      "sha256": "4b1e08fce08aaa418365bd9cdbc8845951d1e596d72ce3a0f5272808cb4eec72",
+      "prepare_receipt_sha256": "800e664248f13afc78c22b4dc5f2a1f810355a97a2a0beea3f43a9fab4a7fdb4"
+    }
+  ],
+  "source_closure": {
+    "exercise_count": 16,
+    "practice_exercise_count": 13,
+    "graded_exercise_count": 3,
+    "graded_points": [4, 4, 5],
+    "graded_points_total": 13,
+    "blank_hint_count": 16,
+    "supplied_solution_count": 4,
+    "missing_solution_count": 12,
+    "media_occurrences": 0,
+    "media_assets": 0
+  },
+  "corrections": [
+    "O011-CORR-0169",
+    "O011-CORR-0170",
+    "O011-CORR-0171",
+    "O011-CORR-0172",
+    "O011-CORR-0173",
+    "O011-CORR-0174",
+    "O011-CORR-0175",
+    "O011-TRANS-0176",
+    "O011-CORR-0177",
+    "O011-CORR-0178",
+    "O011-TRANS-0179",
+    "O011-CORR-0180",
+    "O011-TRANS-0191",
+    "O011-ACC-0193"
+  ],
+  "correction_manifests": [
+    {
+      "path": "qa/unit-15/LECTURE15_PROTECTED_CORRECTIONS.json",
+      "bytes": 4164,
+      "sha256": "d0a86e1b212ab72b8585e2b4670645bc78a95c6c374415259705942eb34e830f"
+    },
+    {
+      "path": "qa/unit-15/WORKSHEET15_PROTECTED_CORRECTIONS.json",
+      "bytes": 1061,
+      "sha256": "a6e03441258feb6d51ff5a7b4153f4c71b9eadac24e74bfed27864e1093fb87e"
+    },
+    {
+      "path": "qa/unit-15/SOLUTION15_01_PROTECTED_CORRECTIONS.json",
+      "bytes": 1593,
+      "sha256": "4210f31edb02c8aeec9c7a4f853528abd89abeb287d44af97b875f86bac0b653"
+    },
+    {
+      "path": "qa/unit-15/SOLUTION15_12_PROTECTED_CORRECTIONS.json",
+      "bytes": 1056,
+      "sha256": "dc1674eec2ff2d14438f7a73be7b1595a68980beaab1e19f53305c3bdfd96be5"
+    }
+  ],
+  "ledgers": {
+    "terminology": {
+      "path": "00_control/TERMINOLOGY.csv",
+      "bytes": 21927,
+      "sha256": "691e39d84c32018d29209d1098766c5ac040b93b1b98090f240ffce3c16fede0"
+    },
+    "adverse": {
+      "path": "00_control/ADVERSE_LEDGER.csv",
+      "bytes": 57335,
+      "sha256": "2abd433b319d22b4875c817d38a4c9564b143bafdfe69c51a59b4ab5de49649c"
+    }
+  },
+  "independent_review": {
+    "path": "qa/unit-15/INDEPENDENT_READER_QA.md",
+    "bytes": 3495,
+    "sha256": "5756bd5c79a8810fb8679a0df86259a491727823adc9d5175f05b84dc3ef37a3",
+    "language_status": "pass",
+    "mathematics_status": "pass",
+    "residual_reader_german": 0
+  },
+  "gates": {
+    "authority_repeat": "pass",
+    "offline_authority_verification": "pass",
+    "translation_receipts": 6,
+    "translation_receipts_passed": 6,
+    "prepared_fragments": 6,
+    "prepared_fragments_passed": 6,
+    "exercise_solution_hint_census": "pass",
+    "protected_corrections": "pass",
+    "independent_reader_review": "pass",
+    "independent_mathematical_review": "pass",
+    "media_rights": "not_applicable_zero_media",
+    "cumulative_build_deferred_to_multi_unit_milestone": true
+  },
+  "next_unit": 16
+}

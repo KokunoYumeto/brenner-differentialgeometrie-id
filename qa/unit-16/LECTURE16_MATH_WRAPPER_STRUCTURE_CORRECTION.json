@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "unit_id": "o011-brenner-u16",
+  "status": "pass",
+  "correction_id": "O011-TRANS-0192",
+  "scope": "source/units/unit-16/lecture16.id.tex",
+  "anchor": "Definition of a Riemannian manifold, first local-chart comparison chain",
+  "finding": "A translation-only blank paragraph occurred inside a comparison-chain argument that is expanded within math mode, causing TeX to insert a missing delimiter at the definition boundary.",
+  "treatment": "Remove only the blank paragraph; mathematical tokens, ordering, and reader prose remain unchanged.",
+  "target": {
+    "path": "source/units/unit-16/lecture16.id.tex",
+    "bytes": 24993,
+    "sha256": "b463b63c8aa8fa669d8072b924daec5de6a14872aeb1c9ece82ea1ea5a7434c7"
+  },
+  "translation_receipt": {
+    "path": "qa/unit-16/lecture16_translation.json",
+    "bytes": 1253,
+    "sha256": "328b3eab932dd7e216f78258f7804456ceac95fb3d715a8ab9087e85a44dfd7b"
+  },
+  "prepared_fragment": {
+    "path": "build/generated/lecture16.id.build.tex",
+    "bytes": 23909,
+    "sha256": "fa023655b61d09d0133c20192e94ecdaa4c8cbf8960f71a434efa91e94209839"
+  },
+  "preparation_receipt": {
+    "path": "qa/unit-16/lecture16_prepare.json",
+    "bytes": 2671,
+    "sha256": "62e0aa75c3c5ebf7de9fadcc8bcaea5e5a23cd4f69697777e892d8e22c429668"
+  }
+}

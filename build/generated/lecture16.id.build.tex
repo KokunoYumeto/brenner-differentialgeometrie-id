@@ -1,0 +1,1403 @@
+\setcounter{section}{16}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungjpeg {Georg_Friedrich_Bernhard_Riemann} {jpeg} }
+\end{center}
+\bildtext {Georg Friedrich Bernhard Riemann (1826-1866)} }
+
+\bildlizenz { Georg Friedrich Bernhard Riemann.jpeg } {} {Ævar Arnfjörð Bjarmason} {Commons} {PD} {http://www.sil.si.edu/digitalcollections/hst/scientific-identity/explore.htm}
+
+  \zwischenueberschrift{Manifold Riemann}
+
+Permukaan sebuah bola berjari-jari $r$ mempunyai luas
+\mathl{4 \pi r^2}{.} Ini merupakan hasil klasik, tetapi bagaimana kita dapat merumuskan secara tepat luas suatu manifold dua dimensi seperti ini? Agar dapat menerapkan teori ukuran dan integrasi dari kuliah-kuliah sebelumnya, kita memerlukan suatu $2$-bentuk pada permukaan yang sealami mungkin. Melalui konsep metrik Riemann, kita akan menunjukkan bahwa permukaan yang tertanam dalam ruang Euklides tiga dimensi mempunyai ukuran permukaan alami yang dapat digunakan untuk menghitung luasnya.
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Sphere_with_three_handles} {png} }
+\end{center}
+\bildtext {Permukaan hijau mewarisi hasil kali dalam dari ruang Euklides di sekelilingnya. Dengan demikian, luas permukaan tersebut dapat diukur secara bermakna.} }
+
+\bildlizenz { Sphere with three handles.png } {} {Oleg Alexandrov} {Commons} {PD} {}
+
+\inputdefinition
+{}
+{
+
+Suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+$M$ disebut \definitionswort {manifold Riemann}{,} jika pada setiap
+\definitionsverweis {ruang singgung}{}{}
+
+\mathbed {T_PM} {}
+ {P \in M} {}
+ {} {} {} {,}
+diberikan suatu
+\definitionsverweis {hasil kali dalam}{}{}
+
+\mathl{\left\langle  - ,  -  \right\rangle_P}{} sedemikian sehingga untuk setiap peta
+\maabbdisp {\alpha} { U } { V
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{  \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+fungsi-fungsi
+\zusatzklammer {untuk
+
+\mavergleichskettek
+{\vergleichskettek
+{ 1
+}
+{ \leq }{ i,j
+}
+{ \leq }{ n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+\maabbeledisp {g_{ij}} { V } {\R
+} { Q } {g_{ij}(Q) = \left\langle  T(\alpha^{-1})(e_i)  ,  T(\alpha^{-1}) (e_j)   \right\rangle_{ \alpha^{-1}(Q) }
+} {,}
+\definitionsverweis {terdiferensialkan}{}{} kelas $C^1$
+\zusatzfussnote {Banyak penulis mensyaratkan bahwa manifold Riemann dan fungsi-fungsi ini berkelas $C^\infty$} {.} {.}
+
+}
+
+Fungsi-fungsi
+\mathl{g_{ij}}{} yang didefinisikan pada peta-peta disebut
+\zusatzklammer {metrik atau Riemann} {} {}
+\stichwort {fungsi fundamental} {.} Fungsi-fungsi tersebut dihimpun menjadi matriks
+\mathl{\left(  g_{ij}  \right)_{1 \leq i,j \leq n}}{} yang juga disebut \stichwort {matriks fundamental metrik} {}
+\zusatzklammer {atau \stichwort {matriks fundamental pertama} {} atau \stichwort {tensor fundamental metrik} {}} {} {.}
+Pada setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+matriks ini simetris dan definit positif. Determinannya juga penting, yaitu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g
+}
+{ =} { \det  \left(  g_{ij}  \right)_{1 \leq i,j \leq n}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+yang juga terdiferensialkan secara kontinu dan, menurut
+Korolari 39.5 (Aljabar Linear (Osnabrück 2024-2025)),
+bernilai positif di mana-mana.
+
+Contoh paling sederhana dari manifold Riemann ialah ruang Euklides
+\mathl{\R^n}{} dengan hasil kali dalam standar pada setiap titik
+\zusatzklammer {dan, secara lebih umum, sembarang ruang Euklides} {} {},
+serta setiap himpunan bagian terbukanya. Yang lebih penting, setiap
+\definitionsverweis {submanifold tertutup}{}{}
+dari suatu manifold Riemann juga merupakan manifold Riemann. Hal ini menghasilkan banyak contoh tak trivial, misalnya permukaan di $\R^3$ seperti sfer atau torus.
+
+
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Abgeschlossene Untermannigfaltigkeit/Riemannsch/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan $N$ suatu
+\definitionsverweis {manifold Riemann}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {submanifold tertutup}{}{.}}
+\faktfolgerung {Maka $M$ juga merupakan manifold Riemann.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ruang
+
+\mavergleichskette
+{\vergleichskette
+{ T_PM
+}
+{ \subseteq }{ T_PN
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan suatu
+\definitionsverweis {subruang vektor}{}{}
+menurut
+Teorema 10.3.
+Karena itu,
+\definitionsverweis {hasil kali dalam}{}{}
+
+\mathl{\left\langle  - ,  -  \right\rangle_P}{} pada
+\mathl{T_PN}{} menginduksi hasil kali dalam pada
+\mathl{T_PM}{.} Untuk membuktikan keterdiferensialan kontinu hasil kali dalam tersebut, misalkan
+\maabbdisp {\theta} { W } { W'
+} {}
+suatu peta untuk $N$ dengan
+
+\mavergleichskette
+{\vergleichskette
+{ W'
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang menginduksi suatu bijeksi $\alpha$ antara
+\mathl{M \cap W}{} dan
+\mathl{\R^m \times \{0\} \cap W'}{}
+\zusatzklammer {dengan
+
+\mavergleichskettek
+{\vergleichskettek
+{ 0
+}
+{ \in }{ \R^{n-m}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {.}
+Di bawah identifikasi ini berlaku
+
+\mavergleichskette
+{\vergleichskette
+{ T_PM
+}
+{ \cong }{ \R^m
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan vektor-vektor basis
+
+\mathbed {e_i} {}
+ {i \leq m} {}
+ {} {} {} {.}
+Untuk pasangan
+
+\mathbed {e_i, e_j} {}
+ {1 \leq i,j \leq m} {}
+ {} {} {} {,}
+dari vektor-vektor tersebut dan untuk
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ \R^m \times \{0\} \cap W'
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku kesamaan
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ h_{ij}(Q)
+}
+{ \defeq} { \left\langle  T(\alpha^{-1})(e_i)  ,  T(\alpha^{-1}) (e_j)   \right\rangle_{ \alpha^{-1}(Q) }
+}
+{ =} { \left\langle  T(\theta^{-1})(e_i)  ,  T(\theta^{-1}) (e_j)   \right\rangle_{ \theta^{-1}(Q) }
+}
+{ =} { g_{ij}(Q)
+}
+{ } {
+}
+}
+{}
+{}{,}
+sebab hasil kali dalam pada
+\mathl{T_{\alpha^{-1}(Q)}M}{} hanyalah pembatasan hasil kali dalam pada
+\mathl{T_{\alpha^{-1}(Q)}N}{}, dan $\alpha$ merupakan pembatasan $\theta$.
+
+}
+
+Contoh paling sederhana ialah submanifold tertutup
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+karena hasil kali dalam standar dapat langsung dibatasi ke $M$.
+
+  \zwischenueberschrift{Medan vektor dan $1$-bentuk pada manifold Riemann}
+
+Orang yang gemar menyindir mengatakan bahwa fisikawan tidak mengenal perbedaan antara medan vektor dan $1$-bentuk. Pada manifold Riemann, kedua objek ini memang saling bersesuaian.
+
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Vektorfelder und 1-Formen/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold Riemann}{}{.}}
+\faktfolgerung {Maka
+\definitionsverweis {pemetaan}{}{}
+
+\maabbeledisp {} {
+{ \mathcal V } ( M )  } {
+{ \mathcal E }^{  1 } (  M   )
+} { F } { \omega_F
+} {,}
+dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \omega_F(P)  \right) (v)
+}
+{ \defeq} { \left\langle F(P) , v  \right\rangle_P
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+di mana
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan $v$ menyatakan suatu
+\definitionsverweis {vektor singgung}{}{}
+dari
+\mathl{T_PM}{}, merupakan suatu
+\definitionsverweis {isomorfisme}{}{}
+antara
+\definitionsverweis {medan vektor}{}{}
+pada $M$ dan
+$1$-\definitionsverweis {bentuk
+}{}{}
+pada $M$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+pemetaan
+\maabbeledisp {} {T_PM} {T^*_PM
+} { u } { \left\langle  u  ,  -  \right\rangle_P
+} {,}
+menurut
+Lema 38.5 (Aljabar Linear (Osnabrück 2024-2025)),
+merupakan suatu
+\definitionsverweis {isomorfisme}{}{.}
+Dari sini langsung diperoleh bahwa korespondensi global tersebut merupakan bijeksi. Untuk linearitas korespondensi itu, lihat
+Soal 16.3.
+
+}
+
+\inputbemerkung
+{}
+{
+
+Pada suatu
+\definitionsverweis {ruang vektor Euklides}{}{},
+\definitionsverweis {medan vektor}{}{}
+dan
+$1$-\definitionsverweis {bentuk diferensial}{}{}
+saling bersesuaian menurut
+Lema 16.3.
+Hal yang sama berlaku untuk suatu
+\definitionsverweis {submanifold tertutup}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dan bentuk diferensial pada $\R^n$ dapat dibatasi ke $M$. Karena itu, suatu medan vektor $F$ pada $\R^n$ juga dapat ditarik balik menjadi medan vektor pada $M$: kita meninjau bentuk diferensial terkait pada $\R^n$, bentuk diferensial tarik balik pada $M$, lalu medan vektor yang bersesuaian dengannya pada $M$. Namun, secara geometrik, suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+tidak diberi arah
+\mathl{F(P)}{}, sebab pada umumnya vektor ini bahkan tidak termasuk dalam
+\definitionsverweis {ruang singgung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ T_PM
+}
+{ \subseteq }{ T_P\R^n
+}
+{ = }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Sebagai gantinya, kita harus mengambil
+\definitionsverweis {proyeksi ortogonal}{}{}
+dari
+\mathl{F(P)}{} ke
+\mathl{T_PM}{}
+\zusatzklammer {jadi, struktur Euklides digunakan di sini} {} {.}
+
+}
+
+\inputbeispiel{}
+{
+
+Sebagai contoh untuk
+Catatan 16.4,
+kita meninjau
+\definitionsverweis {lingkaran satuan}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ S^1
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sebagai
+\definitionsverweis {submanifold tertutup}{}{},
+serta
+\definitionsverweis {medan vektor}{}{}
+konstan $e_1$ pada $\R^2$, yang memasangkan setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan vektor standar pertama sebagai arahnya. Bentuk diferensial terkait ialah $dx$, yang memetakan $e_1$ ke $1$ dan $e_2$ ke $0$. Bentuk diferensial yang
+\definitionsverweis {ditarik balik}{}{}
+ke $S^1$ juga dilambangkan dengan $dx$ dan bekerja dengan cara yang sama, tetapi dibatasi pada
+\definitionsverweis {ruang singgung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ T_PS^1
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Medan vektor pada $S^1$ yang bersesuaian dengan bentuk diferensial ini, yang kita nyatakan dengan $H$, dihitung menurut
+Lema 16.3
+sebagai berikut: Untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ \begin{pmatrix}  a  \\b   \end{pmatrix}
+}
+{ \in }{ S^1
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan setiap vektor
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ = }{ \begin{pmatrix} v_1  \\v_2    \end{pmatrix}
+}
+{ \in }{ T_PS^1
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+harus berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle H(P) , v  \right\rangle
+}
+{ =} { dx(P)(v)
+}
+{ =} { v_1
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan syarat
+
+\mavergleichskette
+{\vergleichskette
+{ H(P)
+}
+{ \in }{ T_PS^1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Ruang singgung tersebut berdimensi satu dan direntang oleh
+\mathl{\begin{pmatrix}  -b \\a   \end{pmatrix}}{.} Karena itu,
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ = }{ d \begin{pmatrix}  -b \\a   \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{H(P)
+}
+{ =} { c \begin{pmatrix}  -b \\a   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk suatu pasangan
+
+\mavergleichskette
+{\vergleichskette
+{ d,c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dari syarat
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle H(P) , v  \right\rangle
+}
+{ =} { \left\langle c \begin{pmatrix}  -b \\a   \end{pmatrix}  , d \begin{pmatrix}  -b \\a   \end{pmatrix}   \right\rangle
+}
+{ =} { c d
+}
+{ =} { -bd
+}
+{ } {
+}
+}
+{}{}{}
+langsung diperoleh
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ = }{ -b
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Jadi, medan vektor tarik balik tersebut adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ H \left(  \begin{pmatrix}  a  \\b   \end{pmatrix}  \right)
+}
+{ =} { -b \begin{pmatrix}  -b \\a   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+  \zwischenueberschrift{Bentuk volume kanonik pada manifold Riemann berorientasi}
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold Riemann}{}{}
+\definitionsverweis {berorientasi}{}{}
+dengan
+\definitionsverweis {dimensi}{}{}
+$n$. Untuk
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+misalkan $\omega_P$ merupakan
+\definitionsverweis {bentuk selang-seling}{}{} pada
+\mathl{T_PM}{}
+\zusatzklammer {atau, ekuivalen, elemen yang bersesuaian dari \mathlk{\bigwedge^n T^*_PM}{}} {} {,}
+yang memberi nilai $1$ pada setiap
+\definitionsverweis {basis ortonormal}{}{}
+yang merepresentasikan
+\definitionsverweis {orientasi}{}{.}
+Maka
+$n$-\definitionsverweis {bentuk diferensial
+}{}{}
+\maabbeledisp {} { M } { \bigwedge^n T^*M
+} {P } { \omega_P
+} {,}
+disebut \definitionswort {bentuk volume kanonik}{} pada $M$.
+
+}
+
+\definitionsverweis {Ukuran terkait}{}{}
+dengan bentuk positif ini disebut \stichwort {ukuran kanonik} {} pada $M$. Kita melambangkannya dengan $\lambda_M$. Dengan demikian,
+\mathl{\lambda_M(M)}{} adalah ukuran total
+\zusatzklammer {luas permukaan atau volume} {} {}
+dari $M$.
+
+
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Orientiert/Kanonische Volumenform/Lokale Berechnung/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold Riemann}{}{}
+\definitionsverweis {berorientasi}{}{}
+dan $\omega$ merupakan
+\definitionsverweis {bentuk volume kanonik}{}{.}
+Misalkan
+\maabbdisp {\alpha} { U } { V
+} {}
+suatu
+\definitionsverweis {peta berorientasi}{}{}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka, dengan koordinat
+\mathl{x_1 , \ldots , x_n}{}, dengan
+\definitionsverweis {matriks fundamental metrik}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ = }{ (g_{ij})_{1 \leq i,j \leq n}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ g
+}
+{ = }{ \det  G
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Maka
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \alpha_* \omega
+}
+{ =} { \sqrt{ g} dx_1 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {Untuk suatu
+\definitionsverweis {himpunan bagian terukur}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{T
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{  T   }   \omega
+}
+{ =} {
+\int_{ \alpha(T)  }   \sqrt{g} dx_1 \wedge \ldots \wedge dx_n
+}
+{ =} { \int_{ \alpha(T)  }   \sqrt{g}    \,  d  \lambda^n
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+
+}
+{
+
+Menurut
+Definisi 15.3,
+kita harus menghitung bentuk diferensial
+\mathl{\left(  \alpha^{-1}  \right)^*\omega}{} untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Bentuk ini mempunyai wujud
+\mathl{c_Q dx_1 \wedge \ldots \wedge dx_n}{} dan ditentukan oleh nilainya pada
+\mathl{e_1 \wedge \ldots \wedge e_n}{.} Berlaku
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \left(  \alpha^{-1}  \right)^*\omega \left(  Q,  e_1 \wedge \ldots \wedge e_n  \right)
+}
+{ =} { \omega \left(  \alpha^{-1} (Q) ,T_Q \left(  \alpha^{-1}  \right)(e_1) \wedge \ldots \wedge T_Q \left(  \alpha^{-1}  \right)( e_n)  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Menurut definisi matriks fundamental metrik,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g_{ij}(Q)
+}
+{ =} { \left\langle  T_Q \left(  \alpha^{-1}  \right) (e_i)   ,  T_Q \left(  \alpha^{-1}  \right) (e_j)   \right\rangle_{\alpha^{-1}(Q)}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Menurut
+Teorema 7.8 (Teori Ukuran dan Integrasi (Osnabrück 2022-2023)),
+berlaku
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \omega \left(  \alpha^{-1}(Q), T_Q \left(  \alpha^{-1}  \right) (e_1) \wedge \ldots \wedge T_Q \left(  \alpha^{-1}  \right) ( e_n)  \right)
+}
+{ =} { \left(  \det  \left(  \left\langle T_Q \left(  \alpha^{-1}  \right)  (e_i)  ,  T_Q \left(  \alpha^{-1}  \right) (e_j)   \right\rangle  \right)_{1 \leq i,j \leq n}  \right)^{1/2}
+}
+{ =} { \left(  \det  \left(  g_{ij}(Q)   \right)_{1 \leq i,j \leq n}  \right)^{1/2}
+}
+{ =} { \sqrt{g(Q)}
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+
+
+\inputfaktbeweis
+{Riemannsche Untermannigfaltigkeit des R^n/Einbettung/Volumenform/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{G
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu himpunan
+\definitionsverweis {terbuka}{}{}
+dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ \subseteq }{ G
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {submanifold tertutup}{}{}
+\definitionsverweis {berdimensi}{}{} $n$,
+yang
+\definitionsverweis {berorientasi}{}{}
+dan dilengkapi dengan struktur Riemann terinduksi serta
+\definitionsverweis {bentuk volume kanonik}{}{}
+$\omega$. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{W
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka dan misalkan
+\maabbdisp {\varphi} { W } { U
+} {}
+suatu
+\definitionsverweis {difeomorfisme}{}{}
+yang mempertahankan orientasi menuju himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{\zusatzfussnote {Kita juga mengatakan bahwa $\varphi$ merupakan
+\zusatzklammer {difeomorfik} {} {}
+\stichwort {parametrisasi} {} untuk $U$} {.} {.}}}
+\faktfolgerung {Maka $\varphi^{-1}$ merupakan suatu peta untuk $M$, dan pada $W$ berlaku
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{\varphi^* \left(  \omega \vert_U  \right)
+}
+{ =} { \left( \det  \left( \left\langle  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial   x_i   } }  \\ \vdots \\  { \frac{   \partial  \varphi_m   }{  \partial   x_i   } }   \end{pmatrix}  ,  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial   x_j   } }  \\ \vdots \\  { \frac{   \partial  \varphi_m   }{  \partial   x_j   } }   \end{pmatrix}   \right\rangle \right)_{1 \leq i,j \leq n} \right)^{1/2}  dx_1 \wedge \ldots \wedge dx_n
+}
+{ =} { \left( \det  \left(  { \frac{   \partial  \varphi_1   }{  \partial   x_i   } } { \frac{   \partial  \varphi_1   }{  \partial   x_j   } } + \cdots + { \frac{   \partial  \varphi_m   }{  \partial   x_i   } } { \frac{   \partial  \varphi_m   }{  \partial   x_j   } }  \right)_{1 \leq i,j \leq n} \right)^{1/2}  dx_1 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Kesamaan kedua langsung diperoleh dengan mengevaluasi hasil kali dalam standar pada $\R^m$. Menurut definisi
+\definitionsverweis {matriks fundamental metrik}{}{},
+untuk
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ g_{ij} (Q)
+}
+{ =} { \left\langle  T_Q(\varphi)(e_i)  ,  T_Q(\varphi)(e_j)   \right\rangle_{\varphi(Q)}
+}
+{ =} { \left\langle  T_Q(\varphi)(e_i)  ,  T_Q(\varphi)(e_j)   \right\rangle
+}
+{ =} { \left\langle  \left(  D \varphi  \right)_{ Q } \left(   e_i   \right)  ,  \left(  D\varphi  \right)_{ Q } \left(   e_j   \right)   \right\rangle
+}
+{ =} { \left\langle  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial   x_i   } } ( Q)  \\ \vdots \\  { \frac{   \partial  \varphi_m   }{  \partial   x_i   } } ( Q)   \end{pmatrix}  ,  \begin{pmatrix}  { \frac{   \partial   \varphi_1   }{  \partial   x_j   } } ( Q )  \\ \vdots \\  { \frac{   \partial  \varphi_m   }{  \partial   x_j   } } ( Q)   \end{pmatrix}   \right\rangle
+}
+}
+{}
+{}{,}
+sebab ruang singgung
+\mathl{T_{\varphi(Q)}M}{} membawa hasil kali dalam yang diinduksi dari $\R^m$, pemetaan singgung dalam situasi lokal sama dengan diferensial total, dan entri-entri diferensial total tersebut dapat dinyatakan melalui turunan parsial. Karena itu, pernyataan teorema diperoleh dari
+Lema 16.7.
+
+}
+
+\inputbeispiel{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ \subseteq }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {interval terbuka}{}{}
+dan
+\maabbdisp {\varphi} { I } {\R^m
+} {}
+suatu
+\definitionsverweis {kurva terdiferensialkan}{}{}
+\definitionsverweis {reguler}{}{,}
+yakni
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi'(t)
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+di mana-mana. Misalkan pula $\varphi$ injektif dan citra
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ \varphi(I)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dari $I$ merupakan suatu
+\definitionsverweis {submanifold tertutup}{}{}
+berdimensi satu dari suatu himpunan bagian terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Kita memberi submanifold ini orientasi yang diinduksi oleh parametrisasinya sehingga parametrisasi tersebut mempertahankan orientasi. Menurut
+Teorema 16.8,
+untuk
+\definitionsverweis {bentuk kanonik}{}{}
+$\omega$ pada $M$
+\zusatzklammer {atau
+\definitionsverweis {ukuran kanonik}{}{,}
+yang dalam hal ini merupakan ukuran panjang} {} {}
+berlaku hubungan
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \varphi^* \omega
+}
+{ =} { \left(  \left\langle  \begin{pmatrix} \varphi'_1(t) \\\vdots\\ \varphi'_m(t)   \end{pmatrix}  ,  \begin{pmatrix} \varphi'_1(t) \\\vdots\\ \varphi'_m(t)   \end{pmatrix}   \right\rangle  \right)^{1/2}  dt
+}
+{ =} { \sqrt{ (\varphi'_1(t))^2 + \cdots + (\varphi'_m(t))^2  }   dt
+}
+{ =} { \Vert {\varphi'(t)} \Vert dt
+}
+{ } {
+}
+}
+{}
+{}{.}
+Dengan demikian, jika
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ = }{ {]a,b[}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+maka untuk ukuran
+\zusatzklammer {yaitu panjang} {} {}
+dari $M$ berlaku rumus
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \lambda_M (M)
+}
+{ =} { \int_{  a  }^{  b  } \sqrt{ (\varphi'_1(t))^2 + \cdots + (\varphi'_m(t))^2  } \, d t
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Rumus ini bersesuaian dengan rumus yang diperoleh dalam
+Teorema 38.6 (Analisis (Osnabrück 2021-2023))
+melalui teori
+\definitionsverweis {kurva terektifikasi}{}{.}
+
+}
+
+\inputbeispiel{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ \subseteq }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {interval riil}{}{}
+dan misalkan
+\maabbdisp {g} { I } {\R_+
+} {}
+suatu fungsi positif yang terdiferensialkan, yang kita tafsirkan sebagai
+\definitionsverweis {metrik Riemann}{}{}
+pada $I$. Makna $g(t)$ ialah mendefinisikan suatu hasil kali dalam pada ruang singgung satu dimensi dari interval tersebut di titik $t$. Jadi,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  1  ,  1  \right\rangle_t
+}
+{ =} { g(t)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan karena itu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Vert { 1 } \Vert_t
+}
+{ =} { \sqrt{ g(t) }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Jika
+\maabb {\gamma} { I } { \R^n
+} {}
+suatu
+\definitionsverweis {kurva yang terdiferensialkan secara kontinu}{}{}
+\definitionsverweis {reguler}{}{}
+dan $\R^n$ dilengkapi dengan metrik Euklides, maka melalui pemetaan tersebut $I$ mewarisi metrik seperti ini, yaitu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g(t)
+}
+{ \defeq} { \left\langle  \gamma'(t) ,  \gamma'(t)  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Menurut
+Teorema 38.6 (Analisis (Osnabrück 2021-2023)),
+panjang kurva $\gamma$ pada
+
+\mavergleichskette
+{\vergleichskette
+{ [a,b]
+}
+{ \subseteq }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_a^b \Vert { \gamma'(t) } \Vert  dt
+}
+{ =} { \int_a^b  \sqrt{ g(t) }  dt
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Jadi, panjang kurva pada interval dapat dihitung jika pengukuran panjang infinitesimal pada interval tersebut diketahui. Sebaliknya, setiap metrik positif $g$ pada $I$ dapat diperoleh melalui fungsi
+\maabbdisp {\gamma} { I } { \R
+} {}
+dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma(t)
+}
+{ \defeq} { \int_0^t \sqrt{ g(s) } ds
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dengan demikian, metrik ini merupakan metrik tarik balik dari metrik standar pada $\R$.
+
+}

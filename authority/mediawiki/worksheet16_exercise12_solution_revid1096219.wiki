@@ -1,0 +1,75 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+a) Das totale Differential zu {{math|term= \psi|SZ=}} im Punkt {{mathl|term= P=(u,v) |SZ=}} ist
+{{
+Math/display|term=
+ {{op:Totales Differential| \psi|P}} = {{op:Matrix32| 1| 0| 0| 1| 2u+v|u-3v^2}} 
+|SZ=
+}}
+und es ist
+{{
+Mathkor/display|term1=
+ T_P(\psi) (e_1) = {{op:Totales Differential| \psi| P |e_1}} = {{op:Spaltenvektor| 1| 0| 2u+v}} 
+|und|term2=
+T_P(\psi) (e_2)   = {{op:Totales Differential| \psi| P |e_2}} = {{op:Spaltenvektor| 0| 1|u-3v^2}} 
+|SZ=.
+}}
+
+b) und c) Zur Bestimmung des Flächeninhalts berechnen wir zunächst die Skalarprodukte der beiden Vektoren
+{{
+mathkor|term1=
+{{op:Spaltenvektor| 1| 0| 2u+v}} 
+|und|term2=
+{{op:Spaltenvektor| 0| 1|u-3v^2}} 
+|SZ=.
+}}
+Es ist
+{{
+Math/display|term=
+{{op:Skalarprodukt|{{op:Spaltenvektor| 1| 0| 2u+v}} |{{op:Spaltenvektor| 1| 0| 2u+v}} }} = 1+(2u+v)^2 = 1 +4u^2+4uv +v^2
+|SZ=,
+}}
+{{
+Math/display|term=
+{{op:Skalarprodukt|{{op:Spaltenvektor| 1| 0| 2u+v}} |{{op:Spaltenvektor| 0| 1|u-3v^2}}  }} = (2u+v)(u-3v^2) = 2u^2 -6uv^2 +uv -3v^3
+|SZ=
+}}
+und
+{{
+Math/display|term=
+{{op:Skalarprodukt|{{op:Spaltenvektor| 0| 1|u-3v^2}}  |{{op:Spaltenvektor| 0| 1|u-3v^2}}  }} = 1+(u-3v^2)^2 = 1 +u^2 -6uv^2  + 9v^4
+|SZ=.
+}}
+
+b) Für {{mathl|term= P=(u,0) |SZ=}} berechnet sich der Flächeninhalt des von {{mathl|term=  T_P(\psi) (e_1) |SZ=}} und {{mathl|term=  T_P(\psi) (e_2) |SZ=}} in {{mathl|term= T_{\psi(P)}M|SZ=}} aufgespannten Parallelogramms zu
+{{
+Relationskette/display
+| \sqrt { {{op:Determinante| {{op:Matrix22| 1+4u^2| 2u^2 | 2 u^2| 1+ u^2 }}    |}} }
+|| \sqrt{  (1+4u^2)(1+u^2) - 4u^4 }
+|| \sqrt{  1+5u^2 }
+||
+||
+|SZ=.
+}}
+
+c) Für {{mathl|term= P=(0,v) |SZ=}} berechnet sich der Flächeninhalt des von {{mathl|term=  T_P(\psi) (e_1) |SZ=}} und {{mathl|term=  T_P(\psi) (e_2) |SZ=}} in {{mathl|term= T_{\psi(P)}M|SZ=}} aufgespannten Parallelogramms zu
+{{
+Relationskette/display
+| \sqrt { {{op:Determinante| {{op:Matrix22| 1+v^2| -3v^3 | -3  v^3| 1+ 9v^4 }}    |}} }
+|| \sqrt{  (1+v^2)(1+9v^4) - 9v^6 }
+|| \sqrt{  1+v^2 +9v^4  }
+||
+||
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

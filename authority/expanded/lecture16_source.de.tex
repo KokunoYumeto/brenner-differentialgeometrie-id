@@ -1,0 +1,1405 @@
+\setcounter{section}{16}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungjpeg {Georg_Friedrich_Bernhard_Riemann} {jpeg} }
+\end{center}
+\bildtext {[[w:Georg Friedrich Bernhard Riemann|Georg Friedrich Bernhard Riemann (1826-1866)]]} }
+
+\bildlizenz { Georg Friedrich Bernhard Riemann.jpeg } {} {Ævar Arnfjörð Bjarmason} {Commons} {PD} {http://www.sil.si.edu/digitalcollections/hst/scientific-identity/explore.htm}
+
+  \zwischenueberschrift{Riemannsche Mannigfaltigkeiten}
+
+Die Kugeloberfläche einer Kugel mit Radius $r$ besitzt den Flächeninhalt
+\mathl{4 \pi r^2}{.} Dies ist ein klassisches Resultat, doch wie kann man den Flächeninhalt einer solchen zweidimensionalen Mannigfaltigkeit präzise erfassen? Um die Maß- und Integrationstheorie der vorhergehenden Vorlesungen anwenden zu können, brauchen wir eine möglichst natürliche $2$-Form auf der Fläche. Über den Begriff der Riemannschen Metrik werden wir zeigen, dass es auf Flächen, die im dreidimensionalen euklidischen Raum eingebettet sind, ein natürliches Flächenmaß gibt, mit dem man den Flächeninhalt ausrechnen kann.
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Sphere_with_three_handles} {png} }
+\end{center}
+\bildtext {Die grüne Oberfläche erbt vom umgebenden euklidischen Raum das Skalarprodukt. Dies erlaubt darauf eine sinnvolle Flächenmessung.} }
+
+\bildlizenz { Sphere with three handles.png } {} {Oleg Alexandrow} {Commons} {PD} {}
+
+\inputdefinition
+{}
+{
+
+Eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+$M$ heißt \definitionswort {riemannsche Mannigfaltigkeit}{,} wenn auf jedem
+\definitionsverweis {Tangentialraum}{}{}
+
+\mathbed {T_PM} {}
+ {P \in M} {}
+ {} {} {} {,}
+ein
+\definitionsverweis {Skalarprodukt}{}{}
+
+\mathl{\left\langle  - ,  -  \right\rangle_P}{} erklärt ist derart, dass für jede Karte
+\maabbdisp {\alpha} { U } { V
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{  \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Funktionen
+\zusatzklammer {für
+
+\mavergleichskettek
+{\vergleichskettek
+{ 1
+}
+{ \leq }{ i,j
+}
+{ \leq }{ n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+\maabbeledisp {g_{ij}} { V } {\R
+} { Q } {g_{ij}(Q) = \left\langle  T(\alpha^{-1})(e_i)  ,  T(\alpha^{-1}) (e_j)   \right\rangle_{ \alpha^{-1}(Q) }
+} {,}
+$C^1$-\definitionsverweis {differenzierbar}{}{}
+sind\zusatzfussnote {Viele Autoren fordern, dass eine riemannsche Mannigfaltigkeit und diese Funktionen von der Klasse $C^\infty$ sind} {.} {.}
+
+}
+
+Die auf den Karten definierten Funktionen
+\mathl{g_{ij}}{} nennt man
+\zusatzklammer {metrische oder riemannsche} {} {}
+\stichwort {Fundamentalfunktionen} {.} Man fasst sie zu einer Matrix
+\mathl{\left(  g_{ij}  \right)_{1 \leq i,j \leq n}}{} zusammen, die man auch die \stichwort {metrische Fundamentalmatrix} {}
+\zusatzklammer {oder die \stichwort {erste Fundamentalmatrix} {} oder den \stichwort {metrischen Fundamentaltensor} {}} {} {}
+nennt. Diese Matrix ist in jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+symmetrisch und positiv definit. Wichtig ist auch die Determinante davon, also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g
+}
+{ =} { \det  \left(  g_{ij}  \right)_{1 \leq i,j \leq n}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+die ebenfalls stetig differenzierbar ist und die nach
+[[Bilinearform/Symmetrisch/Minorenkriterium für Definitheit/Fakt|Korollar 39.5 (Lineare Algebra (Osnabrück 2024-2025))]]
+überall positiv ist.
+
+Das einfachste Beispiel einer riemannschen Mannigfaltigkeit ist der euklidische Raum
+\mathl{\R^n}{} mit dem Standardskalarprodukt für jeden Punkt
+\zusatzklammer {und überhaupt jeder euklidische Raum} {} {}
+sowie eine jede offene Teilmenge davon. Wichtiger ist, dass auch jede
+\definitionsverweis {abgeschlossene Untermannigfaltigkeit}{}{}
+einer riemannschen Mannigfaltigkeit wieder eine riemannsche Mannigfaltigkeit ist. Dadurch ergeben sich viele nichttriviale Beispiele, wie beispielsweise Flächen im $\R^3$ wie die Sphäre oder der Torus.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Abgeschlossene Untermannigfaltigkeit/Riemannsch/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei $N$ eine
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {abgeschlossene Untermannigfaltigkeit}{}{.}}
+\faktfolgerung {Dann ist $M$ ebenfalls eine riemannsche Mannigfaltigkeit.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskette
+{\vergleichskette
+{ T_PM
+}
+{ \subseteq }{ T_PN
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {Untervektorraum}{}{}
+nach
+[[Abgeschlossene Untermannigfaltigkeit/Punktweise/Tangentialraum als Unterraum/Fakt|Satz 10.3]].
+Daher induziert das
+\definitionsverweis {Skalarprodukt}{}{}
+
+\mathl{\left\langle  - ,  -  \right\rangle_P}{} auf
+\mathl{T_PN}{} ein Skalarprodukt auf
+\mathl{T_PM}{.} Für die stetige Differenzierbarkeit des Skalarproduktes sei
+\maabbdisp {\theta} { W } { W'
+} {}
+eine Karte von $N$ mit
+
+\mavergleichskette
+{\vergleichskette
+{ W'
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+die eine Bijektion $\alpha$ zwischen
+\mathl{M \cap W}{} und
+\mathl{\R^m \times \{0\} \cap W'}{} induziere
+\zusatzklammer {mit
+
+\mavergleichskettek
+{\vergleichskettek
+{ 0
+}
+{ \in }{ \R^{m-n}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {.}
+Unter dieser Identifizierung ist
+
+\mavergleichskette
+{\vergleichskette
+{ T_PM
+}
+{ \cong }{ \R^m
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit den Basisvektoren
+
+\mathbed {e_i} {}
+ {i \leq m} {}
+ {} {} {} {.}
+Für Paare
+
+\mathbed {e_i, e_j} {}
+ {1 \leq i,j \leq m} {}
+ {} {} {} {,}
+von solchen Vektoren gelten dann für
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ \R^m \times \{0\} \cap W'
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Gleichheiten
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ h_{ij}(Q)
+}
+{ \defeq} { \left\langle  T(\alpha^{-1})(e_i)  ,  T(\alpha^{-1}) (e_j)   \right\rangle_{ \alpha^{-1}(Q) }
+}
+{ =} { \left\langle  T(\theta^{-1})(e_i)  ,  T(\theta^{-1}) (e_j)   \right\rangle_{ \theta^{-1}(Q) }
+}
+{ =} { g_{ij}(Q)
+}
+{ } {
+}
+}
+{}
+{}{,}
+da ja das Skalarprodukt auf
+\mathl{T_{\alpha^{-1}(Q)}M}{} einfach die Einschränkung des Skalarproduktes auf
+\mathl{T_{\alpha^{-1}(Q)}N}{} ist und da $\alpha$ die Einschränkung von $\theta$ ist.
+
+}
+
+Die einfachsten Beispiele sind abgeschlossene Untermannigfaltigkeiten
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei sich das Standardskalarprodukt direkt auf $M$ überträgt.
+
+  \zwischenueberschrift{Vektorfelder und $1$-Formen auf einer riemannschen Mannigfaltigkeit}
+
+Böse Zungen behaupten, dass Physiker nicht den Unterschied zwischen Vektorfeldern und $1$-Formen kennen. Auf riemannschen Mannigfaltigkeiten entsprechen sich in der Tat diese Objekte.
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Vektorfelder und 1-Formen/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{.}}
+\faktfolgerung {Dann ist die
+\definitionsverweis {Abbildung}{}{}
+
+\maabbeledisp {} {
+{ \mathcal V } ( M )  } {
+{ \mathcal E }^{  1 } (  M   )
+} { F } { \omega_F
+} {,}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \omega_F(P)  \right) (v)
+}
+{ \defeq} { \left\langle F(P) , v  \right\rangle_P
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist und $v$ einen
+\definitionsverweis {Tangentenvektor}{}{}
+aus
+\mathl{T_PM}{} bezeichnet, eine
+\definitionsverweis {Isomorphie}{}{}
+zwischen den
+\definitionsverweis {Vektorfeldern}{}{}
+auf $M$ und den
+$1$-\definitionsverweis {Formen
+}{}{}
+auf $M$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist die Abbildung
+\maabbeledisp {} {T_PM} {T^*_PM
+} { u } { \left\langle  u  ,  -  \right\rangle_P
+} {,}
+nach
+[[Bilinearform/Linearformen/Nicht ausgeartet/Fakt|Lemma 38.5 (Lineare Algebra (Osnabrück 2024-2025))]]
+eine
+\definitionsverweis {Isomorphie}{}{.}
+Daraus folgt direkt, dass die globale Zuordnung eine Bijektion ist. Für die Linearität der Zuordnung siehe
+[[Riemannsche Mannigfaltigkeit/Vektorfelder und 1-Formen/Linear/Aufgabe|Aufgabe 16.3]].
+
+}
+
+\inputbemerkung
+{}
+{
+
+Auf einem
+\definitionsverweis {euklidischen Vektorraum}{}{}
+entsprechen sich die
+\definitionsverweis {Vektorfelder}{}{}
+und die
+$1$-\definitionsverweis {Differentialformen}{}{}
+gemäß
+[[Riemannsche Mannigfaltigkeit/Vektorfelder und 1-Formen/Fakt|Lemma 16.3]].
+Das gleiche gilt für eine
+\definitionsverweis {abgeschlossene Untermannigfaltigkeit}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+und Differentialformen auf $\R^n$ lassen sich auf $M$ einschränken. Daher kann man auch ein Vektorfeld $F$  auf $\R^n$ zu einem Vektorfeld auf $M$ zurückziehen: man betrachtet die zugehörige Differentialform auf $\R^n$, die zurückgezogene Differentialform auf $M$ und dazu das zugehörige Vektorfeld auf $M$. Geometrisch gesprochen wird dabei einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+aber nicht die Richtung
+\mathl{F(P)}{} zugeordnet, da dieser Vektor im Allgemeinen gar nicht zum
+\definitionsverweis {Tangentialraum}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ T_PM
+}
+{ \subseteq }{ T_P\R^n
+}
+{ = }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gehört. Stattdessen muss man die
+\definitionsverweis {orthogonale Projektion}{}{}
+von
+\mathl{F(P)}{} auf
+\mathl{T_PM}{} nehmen
+\zusatzklammer {hierbei wird also die euklidische Struktur verwendet} {} {.}
+
+}
+
+\inputbeispiel{}
+{
+
+Als Beispiel zu
+[[Abgeschlossene Untermannigfaltigkeit/R^n/Einschränkung eines Vektorfeldes/Bemerkung|Bemerkung 16.4]]
+betrachten wir den
+\definitionsverweis {Einheitskreis}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ S^1
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+als
+\definitionsverweis {abgeschlossene Untermannigfaltigkeit}{}{}
+und das konstante
+\definitionsverweis {Vektorfeld}{}{}
+$e_1$ auf $\R^2$, das also jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+den ersten Standardvektor als Richtung zuordnet. Die zugehörige Differentialform ist $dx$, die $e_1$ auf $1$ und $e_2$ auf $0$ abbildet. Die auf $S^1$
+\definitionsverweis {zurückgezogene Differentialform}{}{}
+wird ebenfalls mit $dx$ bezeichnet und besitzt die gleiche Wirkungsweise, allerdings eingeschränkt auf den jeweiligen
+\definitionsverweis {Tangentialraum}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ T_PS^1
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Das zu dieser Differentialform auf $S^1$ gehörige Vektorfeld $H$ berechnet sich
+nach [[Riemannsche Mannigfaltigkeit/Vektorfelder und 1-Formen/Fakt|Lemma 16.3]]
+folgendermaßen: Für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ \begin{pmatrix}  a  \\b   \end{pmatrix}
+}
+{ \in }{ S^1
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und jeden Vektor
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ = }{ \begin{pmatrix} v_1  \\v_2    \end{pmatrix}
+}
+{ \in }{ T_PS^1
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+muss
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle H(P) , v  \right\rangle
+}
+{ =} { dx(P)(v)
+}
+{ =} { v_1
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gelten, wobei
+
+\mavergleichskette
+{\vergleichskette
+{ H(P)
+}
+{ \in }{ T_PS^1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sein muss. Der Tangentialraum ist eindimensional und wird von
+\mathl{\begin{pmatrix}  -b \\a   \end{pmatrix}}{} aufgespannt. Daher ist
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ = }{ d \begin{pmatrix}  -b \\a   \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{H(P)
+}
+{ =} { c \begin{pmatrix}  -b \\a   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für gewisse
+
+\mavergleichskette
+{\vergleichskette
+{ d,c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Aus der Bedingung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle H(P) , v  \right\rangle
+}
+{ =} { \left\langle c \begin{pmatrix}  -b \\a   \end{pmatrix}  , d \begin{pmatrix}  -b \\a   \end{pmatrix}   \right\rangle
+}
+{ =} { c d
+}
+{ =} { -bd
+}
+{ } {
+}
+}
+{}{}{}
+folgt direkt
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ = }{ -b
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Das zurückgezogene Vektorfeld ist demnach
+
+\mavergleichskettedisp
+{\vergleichskette
+{ H \left(  \begin{pmatrix}  a  \\b   \end{pmatrix}  \right)
+}
+{ =} { -b \begin{pmatrix}  -b \\a   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+  \zwischenueberschrift{Die kanonische Volumenform auf einer orientierten riemannschen Mannigfaltigkeit}
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {orientierte}{}{}
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{}
+der
+\definitionsverweis {Dimension}{}{}
+$n$. Zu
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sei $\omega_P$ diejenige
+\definitionsverweis {alternierende Form}{}{} auf
+\mathl{T_PM}{}
+\zusatzklammer {bzw. das entsprechende Element aus \mathlk{\bigwedge^n T^*_PM}{}} {} {,}
+die jeder die
+\definitionsverweis {Orientierung}{}{} repräsentierenden
+\definitionsverweis {Orthonormalbasis}{}{}
+den Wert $1$ zuordnet. Dann heißt die
+$n$-\definitionsverweis {Differentialform
+}{}{}
+\maabbeledisp {} { M } { \bigwedge^n T^*M
+} {P } { \omega_P
+} {,}
+die \definitionswort {kanonische Volumenform}{} auf $M$.
+
+}
+
+Das
+\definitionsverweis {zugehörige Maß}{}{}
+zu dieser positiven Form heißt \stichwort {kanonisches Maß} {} auf $M$. Wir bezeichnen es mit $\lambda_M$. Demnach ist
+\mathl{\lambda_M(M)}{} das Gesamtmaß
+\zusatzklammer {der Flächeninhalt, das Volumen} {} {}
+von $M$.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Orientiert/Kanonische Volumenform/Lokale Berechnung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+\definitionsverweis {orientierte}{}{}
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{}
+und $\omega$ die
+\definitionsverweis {kanonische Volumenform}{}{.}
+Es sei
+\maabbdisp {\alpha} { U } { V
+} {}
+eine
+\definitionsverweis {orientierte Karte}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen mit Koordinaten
+\mathl{x_1 , \ldots , x_n}{} mit der
+\definitionsverweis {metrischen Fundamentalmatrix}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ = }{ (g_{ij})_{1 \leq i,j \leq n}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ g
+}
+{ = }{ \det  G
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Dann ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \alpha_* \omega
+}
+{ =} { \sqrt{ g} dx_1 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {Für eine
+\definitionsverweis {messbare Teilmenge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{T
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{  T   }   \omega
+}
+{ =} {
+\int_{ \alpha(T)  }   \sqrt{g} dx_1 \wedge \ldots \wedge dx_n
+}
+{ =} { \int_{ \alpha(T)  }   \sqrt{g}    \,  d  \lambda^n
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+
+}
+{
+
+Gemäß der
+[[Mannigfaltigkeit/Abzählbar/Positive Volumenform/Zugehöriges Maß/Definition|Definition 15.3]]
+müssen wir die Differentialform
+\mathl{\left(  \alpha^{-1}  \right)^*\omega}{} für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berechnen. Diese Form besitzt die Gestalt
+\mathl{c_Q dx_1 \wedge \ldots \wedge dx_n}{} und ist durch ihren Wert auf
+\mathl{e_1 \wedge \ldots \wedge e_n}{} festgelegt. Es ist
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \left(  \alpha^{-1}  \right)^*\omega \left(  Q,  e_1 \wedge \ldots \wedge e_n  \right)
+}
+{ =} { \omega \left(  \alpha^{-1} (Q) ,T_Q \left(  \alpha^{-1}  \right)(e_1) \wedge \ldots \wedge T_Q \left(  \alpha^{-1}  \right)( e_n)  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Nach Definition der metrischen Fundamentalmatrix ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g_{ij}(Q)
+}
+{ =} { \left\langle  T_Q \left(  \alpha^{-1}  \right) (e_i)   ,  T_Q \left(  \alpha^{-1}  \right) (e_j)   \right\rangle_{\alpha^{-1}(Q)}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Nach
+[[Euklidischer Vektorraum/Volumen eines Parallelotops/Über Skalarproduktmatrix/Fakt|Satz 7.8 (Maß- und Integrationstheorie (Osnabrück 2022-2023))]]
+ist
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \omega \left(  \alpha^{-1}(Q), T_Q \left(  \alpha^{-1}  \right) (e_1) \wedge \ldots \wedge T_Q \left(  \alpha^{-1}  \right) ( e_n)  \right)
+}
+{ =} { \left(  \det  \left(  \left\langle T_Q \left(  \alpha^{-1}  \right)  (e_i)  ,  T_Q \left(  \alpha^{-1}  \right) (e_j)   \right\rangle  \right)_{1 \leq i,j \leq n}  \right)^{1/2}
+}
+{ =} { \left(  \det  \left(  g_{ij}(Q)   \right)_{1 \leq i,j \leq n}  \right)^{1/2}
+}
+{ =} { \sqrt{g(Q)}
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Riemannsche Untermannigfaltigkeit des R^n/Einbettung/Volumenform/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{G
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ \subseteq }{ G
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+$n$-\definitionsverweis {dimensionale}{}{}
+\definitionsverweis {abgeschlossene Untermannigfaltigkeit}{}{,}
+die
+\definitionsverweis {orientiert}{}{}
+und mit der induzierten riemannschen Struktur und der
+\definitionsverweis {kanonischen Volumenform}{}{}
+$\omega$ versehen sei. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{W
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen und es sei
+\maabbdisp {\varphi} { W } { U
+} {}
+ein
+\definitionsverweis {Diffeomorphismus}{}{}
+mit der offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{\zusatzfussnote {Man sagt auch, dass $\varphi$ eine
+\zusatzklammer {diffeomorphe} {} {}
+\stichwort {Parametrisierung} {} von $U$ ist} {.} {.}}}
+\faktfolgerung {Dann ist $\varphi^{-1}$ eine Karte von $M$, und auf $W$ gilt
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{\varphi^* \left(  \omega \vert_U  \right)
+}
+{ =} { \left( \det  \left( \left\langle  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial   x_i   } }  \\ \vdots \\  { \frac{   \partial  \varphi_m   }{  \partial   x_i   } }   \end{pmatrix}  ,  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial   x_j   } }  \\ \vdots \\  { \frac{   \partial  \varphi_m   }{  \partial   x_j   } }   \end{pmatrix}   \right\rangle \right)_{1 \leq i,j \leq n} \right)^{1/2}  dx_1 \wedge \ldots \wedge dx_n
+}
+{ =} { \left( \det  \left(  { \frac{   \partial  \varphi_1   }{  \partial   x_i   } } { \frac{   \partial  \varphi_1   }{  \partial   x_j   } } + \cdots + { \frac{   \partial  \varphi_m   }{  \partial   x_i   } } { \frac{   \partial  \varphi_m   }{  \partial   x_j   } }  \right)_{1 \leq i,j \leq n} \right)^{1/2}  dx_1 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Die zweite Gleichung ergibt sich einfach durch Auswertung des Standardskalarproduktes auf dem $\R^m$. Nach Definition der
+\definitionsverweis {metrischen Fundamentalmatrix}{}{}
+ist für
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ g_{ij} (Q)
+}
+{ =} { \left\langle  T_Q(\varphi)(e_i)  ,  T_Q(\varphi)(e_j)   \right\rangle_{\varphi(Q)}
+}
+{ =} { \left\langle  T_Q(\varphi)(e_i)  ,  T_Q(\varphi)(e_j)   \right\rangle
+}
+{ =} { \left\langle  \left(  D \varphi  \right)_{ Q } \left(   e_i   \right)  ,  \left(  D\varphi  \right)_{ Q } \left(   e_j   \right)   \right\rangle
+}
+{ =} { \left\langle  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial   x_i   } } ( Q)  \\ \vdots \\  { \frac{   \partial  \varphi_m   }{  \partial   x_i   } } ( Q)   \end{pmatrix}  ,  \begin{pmatrix}  { \frac{   \partial   \varphi_1   }{  \partial   x_j   } } ( Q )  \\ \vdots \\  { \frac{   \partial  \varphi_m   }{  \partial   x_j   } } ( Q)   \end{pmatrix}   \right\rangle
+}
+}
+{}
+{}{,}
+da ja der Tangentialraum
+\mathl{T_{\varphi(Q)}M}{} das induzierte Skalarprodukt des $\R^m$ trägt, da die Tangentialabbildung im lokalen Fall das totale Differential ist und da man dessen Einträge mit den partiellen Ableitungen ausdrücken kann. Daher ergibt sich die Behauptung aus
+[[Riemannsche Mannigfaltigkeit/Orientiert/Kanonische Volumenform/Lokale Berechnung/Fakt|Lemma 16.7]].
+
+}
+
+\inputbeispiel{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ \subseteq }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {offenes Intervall}{}{}
+und
+\maabbdisp {\varphi} { I } {\R^m
+} {}
+eine
+\definitionsverweis {reguläre}{}{}
+\definitionsverweis {differenzierbare Kurve}{}{,}
+es sei also überall
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi'(t)
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Ferner sei angenommen, dass $\varphi$ injektiv und dass das Bild
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ \varphi(I)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+von $I$ eine eindimensionale
+\definitionsverweis {abgeschlossene Untermannigfaltigkeit}{}{}
+einer offenen Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist. Dann gilt nach
+[[Riemannsche Untermannigfaltigkeit des R^n/Einbettung/Volumenform/Fakt|Satz 16.8]]
+für die
+\definitionsverweis {kanonische Form}{}{}
+$\omega$ von $M$
+\zusatzklammer {bzw. das
+\definitionsverweis {kanonische Maß}{}{,}
+das in diesem Fall ein Längenmaß ist} {} {}
+die Beziehung
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \varphi^* \omega
+}
+{ =} { \left(  \left\langle  \begin{pmatrix} \varphi'_1(t) \\\vdots\\ \varphi'_m(t)   \end{pmatrix}  ,  \begin{pmatrix} \varphi'_1(t) \\\vdots\\ \varphi'_m(t)   \end{pmatrix}   \right\rangle  \right)^{1/2}  dt
+}
+{ =} { \sqrt{ (\varphi'_1(t))^2 + \cdots + (\varphi'_m(t))^2  }   dt
+}
+{ =} { \Vert {\varphi'(t)} \Vert dt
+}
+{ } {
+}
+}
+{}
+{}{.}
+Somit gilt bei
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ = }{ {]a,b[}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für das Maß
+\zusatzklammer {also die Länge} {} {}
+von $M$ die Formel
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \lambda_M (M)
+}
+{ =} { \int_{  a  }^{  b  } \sqrt{ (\varphi'_1(t))^2 + \cdots + (\varphi'_m(t))^2  } \, d t
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dies stimmt mit der in
+[[Kurve im R^n/Stetig differenzierbar/Rektifizierbar/Fakt|Satz 38.6 (Analysis (Osnabrück 2021-2023))]]
+über die Theorie der
+\definitionsverweis {rektifizierbaren Kurven}{}{}
+erzielten Formel überein.
+
+}
+
+\inputbeispiel{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ \subseteq }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {reelles Intervall}{}{}
+und sei
+\maabbdisp {g} { I } {\R_+
+} {}
+eine positive differenzierbare Funktion, die wir als eine
+\definitionsverweis {riemannsche Metrik}{}{}
+auf $I$ interpretieren. Die Bedeutung von $g(t)$ ist, auf dem eindimensionalen Tangentialraum des Intervalls zum Punkt $t$ ein Skalarprodukt zu definieren. Es ist also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  1  ,  1  \right\rangle_t
+}
+{ =} { g(t)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und daher
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Vert { 1 } \Vert_t
+}
+{ =} { \sqrt{ g(t) }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Wenn
+\maabb {\gamma} { I } { \R^n
+} {}
+eine
+\definitionsverweis {reguläre}{}{}
+\definitionsverweis {stetig differenzierbare Kurve}{}{}
+und der $\R^n$ mit der euklidischen Metrik versehen ist, so ererbt $I$ durch die Abbildung eine solche Metrik durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g(t)
+}
+{ \defeq} { \left\langle  \gamma'(t) ,  \gamma'(t)  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Die Länge der Kurve $\gamma$ auf
+
+\mavergleichskette
+{\vergleichskette
+{ [a,b]
+}
+{ \subseteq }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist nach
+[[Kurve im R^n/Stetig differenzierbar/Rektifizierbar/Fakt|Satz 38.6 (Analysis (Osnabrück 2021-2023))]]
+gleich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_a^b \Vert { \gamma'(t) } \Vert  dt
+}
+{ =} { \int_a^b  \sqrt{ g(t) }  dt
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Man kann also die Kurvenlänge auf dem Intervall berechnen, wenn man darauf die infinitesimale Längenmessung kennt. Umgekehrt kann man jede positive Metrik $g$ auf $I$ über die Funktion
+\maabbdisp {\gamma} { I } { \R
+} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma(t)
+}
+{ \defeq} { \int_0^t \sqrt{ g(s) } ds
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+als zurückgezogene Metrik zur Standardmetrik auf $\R$ erhalten.
+
+}
+
+ [[Kategorie:Latexseite]]

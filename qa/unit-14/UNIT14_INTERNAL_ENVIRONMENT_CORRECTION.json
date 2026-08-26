@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "unit_id": "o011-brenner-u14",
+  "status": "pass",
+  "correction_id": "O011-TRANS-0190",
+  "scope": "source/units/unit-14/lecture14.id.tex",
+  "finding": "Three internal inputfaktbeweis environment arguments were incorrectly localized from Korollar to Korolari, causing an undefined-environment build failure.",
+  "treatment": "Restore the three internal Korollar identifiers. The brenner-compat theorem environment continues to print the visible Indonesian heading Korolari.",
+  "occurrence_count": 3,
+  "target": {
+    "path": "source/units/unit-14/lecture14.id.tex",
+    "bytes": 27295,
+    "sha256": "3803b4b3ca94c228e959443a4cc23a803578a1ca82bf5cc6731b83e5a4bd044c"
+  },
+  "translation_receipt": {
+    "path": "qa/unit-14/lecture14_translation.json",
+    "bytes": 3196,
+    "sha256": "549a835d4f376b6d03bbc59ae0aff82e6e8fd0b7394ed6ec02f54dcc7b3fbfb9"
+  },
+  "prepared_fragment": {
+    "path": "build/generated/lecture14.id.build.tex",
+    "bytes": 26070,
+    "sha256": "57c17209900125f97f6eabf8e4b7b825652b60937851c7a65d82f0bb86cf405d"
+  },
+  "preparation_receipt": {
+    "path": "qa/unit-14/lecture14_prepare.json",
+    "bytes": 2785,
+    "sha256": "94b108aad3386ba3808bed1d2c17625d17de5ab74ec43408e32e9d9d834600d7"
+  }
+}

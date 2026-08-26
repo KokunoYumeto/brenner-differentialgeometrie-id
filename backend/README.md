@@ -3,12 +3,12 @@
 This backend is additive to the Indonesian reader. It follows the coordinator's interoperability envelope without making the reader depend on a database or proprietary service.
 
 - `schema/o011-record-v1.schema.json` defines the common record envelope.
-- `records.jsonl` is the canonical deterministic UTF-8/LF stream for Units 1–10.
+- `records.jsonl` is the canonical deterministic UTF-8/LF stream for Units 1–16.
 - `records.csv` is a deliberately lossy exchange projection of common fields.
 - `MANIFEST.json` binds the generated views, source/target inputs, and generator.
-- `unit01_records_frozen.jsonl` is the immutable 174-record Unit 1 baseline. The full 1,363-record Units 1–7 prefix is preserved byte-for-byte in every Units 8–10 export.
+- `unit01_records_frozen.jsonl` is the immutable 174-record Unit 1 baseline. Each cumulative exporter preserves its published predecessor prefix byte-for-byte; the current Unit 16 export preserves all 2,604 Unit 1–13 records.
 
-Stable IDs use source order and source-local identity, never translated titles or rendered page numbers. Display identifiers retain Brenner's source numbering (`1.x` through `10.x`) rather than the standalone book wrapper's chapter prefixes. Corrections and component rights remain separate records. Regenerate the combined backend only through `scripts/export_backend_v10.py`; generated files must not be hand-edited.
+Stable IDs use source order and source-local identity, never translated titles or rendered page numbers. Display identifiers retain Brenner's source numbering (`1.x` through `16.x`) rather than the standalone book wrapper's chapter prefixes. Corrections and component rights remain separate records. Regenerate the current combined backend only through `scripts/export_backend_v16.py`; generated files must not be hand-edited.
 
 Unit 1 exposes one PDF `artifact` and receipt-backed `qa_event` records for structural translation checks, exact media closure, two-cycle reproducible PDF build, structural/accessibility inspection, and all-page visual inspection. Evidence paths are repository-relative; receipt hashes bind the records without copying machine-local or temporary-render paths into the public views.
 
@@ -32,10 +32,14 @@ Unit 10 adds the lecture/worksheet pair, four section segments, thirty-one exerc
 
 Together Units 8–10 add 517 semantic records plus eight cumulative-reader closure records, bringing the bound cumulative backend to 1,888 records. The immutable Units 1–7 JSONL prefix is 812,882 bytes with SHA-256 `d9d51a46b84368f50a211a31263bafe8f1588f8e62a5fa4b496b2ff45903b912`; the corresponding 1,364-line CSV prefix is 288,506 bytes with SHA-256 `c301009770e1c523d046585c0c83947cab6f856b32b83890d361a919fed5a958`. The validation receipt is `qa/unit-10/backend.json`. The exporter binds the final readers only as one six-file closure: `output/html/unit-10/index.html`, its inventory manifest, the passing HTML receipt, `output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-10-id.pdf`, `qa/unit-10/pdf_structural_qa.json`, and `qa/unit-10/PDF_VISUAL_QA.json` must all exist with the frozen exact bytes, and each receipt must bind its corresponding reader artifact. Any partial or stale closure is rejected.
 
+Units 11–13 add 716 records and bring the published cumulative backend to 2,604 records, 287 exercises, and exactly 35 source-supplied solutions. The Unit 10 prefix remains byte-identical. The Unit 13 exporter additionally binds semantic HTML, real-browser runtime evidence, the 213-page PDF, structural/visual receipts, source corrections, and media rights as one all-or-nothing reader closure.
+
+Units 14–16 add exactly 604 records: 92 artifacts, two assets, 37 corrections, 38 QA events, 341 relations, two component-rights records, 15 segments, and 77 unit/exercise/solution records. The cumulative backend therefore contains 3,208 records, 342 exercises, and exactly 48 source-supplied solutions. Its immutable 2,604-record Unit 1–13 JSONL prefix is 1,586,447 bytes with SHA-256 `15c4fd6b78a277be60d08016f4df4e5a3afe56bb26f5cb24df285256514186e9`; the corresponding 2,605-line CSV prefix is 584,320 bytes with SHA-256 `e891d6f7c3cb9655f375e9309cd54d0840a09033722b794bd3d01fe73606c854`. The current JSONL SHA-256 is `c42bac17822f949aa16ac0f87c7d0726526d020d46bab97f91d36e70f4b21983`; the CSV SHA-256 is `2ff324a750b01540fd3827684947877e807ac8402d09fc6ece1efdf14caeb312`; validation receipt is `qa/unit-16/backend.json`.
+
 Use an explicit checkpoint timestamp so a repeat export is byte-identical:
 
 ```text
-python scripts/export_backend_v10.py --root . --checkpoint YYYY-MM-DDTHH:MM:SSZ --translation-state mathematically_reviewed
+python scripts/export_backend_v16.py --root . --checkpoint 2026-08-26T00:50:00Z --translation-state mathematically_reviewed
 ```
 
-The generator rejects a changed Units 1–7 prefix; any drift from the frozen 525-record extension and 1,888-record combined census; stale Units 8–10 authority, translation, mathematical-QA, correction, or reader evidence; any exercise/point/hint/solution mismatch; incomplete component-rights evidence; schema violations; and unresolved stable-ID references. Use `--check-only` for a non-mutating full reconstruction. Run `python scripts/verify_backend_v10.py --root .` after export to verify canonical JSONL, the exact CSV projection, JSON Schema validity, reference closure, every source/target segment hash, exact solution-absence truth, live artifact hashes, component rights, every correction target and manifest, every QA receipt, the six-file HTML/PDF reader closure, model provenance, and a byte-identical two-cycle repeat export.
+The generator rejects a changed Unit 1–13 prefix; drift from the frozen 604-record extension or 3,208-record combined census; stale Unit 14–16 authority, translation, mathematical-QA, correction, or reader evidence; exercise/point/hint/solution mismatches; incomplete component-rights evidence; schema violations; and unresolved stable-ID references. Use `--check-only` for a non-mutating full reconstruction. Run `python scripts/verify_backend_v16.py --root .` after export to verify canonical JSONL, the exact CSV projection, JSON Schema validity, reference closure, every source/target segment hash, exact solution-absence truth, live artifact hashes, component rights, every correction target and manifest, every QA receipt, the HTML/PDF/browser/visual reader closure, model provenance, and a byte-identical two-cycle repeat export.

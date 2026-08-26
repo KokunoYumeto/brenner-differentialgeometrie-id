@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Tue, 25 Aug 2026 15:38:16 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 15/latex"
+  },
+  "response_bytes": 40211,
+  "response_path": "lecture15_latex_expand.json",
+  "response_sha256": "13e0b1c80a33f51c7378b7584476b20064ad28f02047bdf35cbdb9b4abd20fd1",
+  "retrieved_utc": "2026-08-25T15:38:16Z",
+  "schema_version": 1
+}

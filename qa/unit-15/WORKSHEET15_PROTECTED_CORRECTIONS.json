@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-15/worksheet15.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0175",
+      "anchor": "Exercise 13 authority title versus statement body",
+      "change": "Preserve the product u^{-1}v^{-1} used consistently by the frozen worksheet body and supplied solution while disclosing that the canonical page title encodes a sum."
+    },
+    {
+      "correction_id": "O011-TRANS-0176",
+      "anchor": "Natural Indonesian worksheet prose and sigma-finite word order",
+      "change": "Use idiomatic dimension, plurality, curve, and degree phrasing and retain ukuran sigma-hingga in natural Indonesian word order without changing any mathematical token."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-TRANS-0176",
+      "surface": "profile:commands",
+      "source_sha256": "eebaddbde85193c01b5e4b691971033acc9c9a829e6e0cb0674c15339bdea4fa",
+      "target_sha256": "0baf01cd3bad5bfa4865799493cbdda2f01d417507fe57225a5598eaa8d87666"
+    }
+  ],
+  "evidence_only_deltas": []
+}
