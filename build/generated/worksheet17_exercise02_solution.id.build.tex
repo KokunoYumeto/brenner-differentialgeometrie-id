@@ -1,0 +1,51 @@
+Hemisfer atas adalah grafik dari fungsi
+\maabbeledisp {\psi} { B  \left(  0, 1 \right) } {\R
+} {(u,v)} { \sqrt{1- u^2-v^2}
+} {.}
+Turunan parsial dari parametrisasi grafik ini adalah
+\mathkor {} {\begin{pmatrix}  1  \\ 0\\  { \frac{   -u }{  \sqrt{1-u^2 -v^2}  } }   \end{pmatrix}} {dan} {\begin{pmatrix}  0  \\ 1\\  { \frac{   -v }{  \sqrt{1-u^2 -v^2}  } }   \end{pmatrix}} {}
+dan karena itu, menurut
+Korolari 17.1,
+akar kuadrat dari
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 1 + { \frac{  u^2 }{  1-u^2-v^2 } }  + { \frac{  v^2 }{  1-u^2-v^2 } }
+}
+{ =} { { \frac{   1 }{  1-u^2-v^2 } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+merupakan faktor yang menentukan. Dengan demikian, luas hemisfer satuan adalah
+
+\mathdisp {\int_B { \frac{   1 }{  \sqrt{1- u^2 -v^2}  } } d \lambda^2} { . }
+
+Dengan substitusi
+\mathkor {} {u= \sqrt{w} \cos \alpha} {dan} {v= \sqrt{w} \sin \alpha} {}
+serta
+rumus transformasi,
+dengan menggunakan
+latihan,
+diperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_B { \frac{   1 }{  \sqrt{1- u^2-v^2}  } } d \lambda^2
+}
+{ =} { \int_{[0,2 \pi] \times [0,1] } { \frac{   1 }{  2  } }  \cdot { \frac{   1 }{  \sqrt{1- w}  } }  d \lambda^2
+}
+{ =} { \pi \cdot \int_0^1 { \frac{   1 }{  \sqrt{1- w}  } } dw
+}
+{ =} { \pi \cdot (  -2\sqrt{1-w})\vert_0^1
+}
+{ =} { 2 \pi
+}
+}
+{}{}{.}
+Jadi, luas permukaan bola adalah $4 \pi$.

@@ -1,0 +1,1138 @@
+\setcounter{section}{17}
+
+In dieser Vorlesung setzen wir die Theorie der riemannschen Mannigfaltigkeiten fort und berechnen insbesondere einige Flächeninhalte.
+
+  \zwischenueberschrift{Berechnungen auf riemannschen Mannigfaltigkeiten}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Graph einer Funktion/Riemannsche Untermannigfaltigkeit des R^n/Volumenform/Fakt}
+{Korollar}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{W
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {offene Teilmenge}{}{}
+und
+\maabbdisp {\psi} { W } {\R
+} {}
+eine
+\definitionsverweis {differenzierbare Funktion}{}{.}
+Es sei
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{M
+}
+{ =} { \left\{  \left(  x_1   , \,   , \ldots ,  , \,   x_n , \,   \psi(x_1 , \ldots , x_n)                \right)   \mid  (x_1 , \ldots , x_n) \in W         \right\}
+}
+{ \subseteq} { W \times \R
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+der
+\definitionsverweis {Graph}{}{}
+von $\psi$.}
+\faktfolgerung {Dann ist $M$ eine
+\definitionsverweis {orientierte}{}{} \definitionsverweis {riemannsche Mannigfaltigkeit}{}{,}
+und für die
+\definitionsverweis {kanonische Volumenform}{}{}
+$\omega$ auf $M$ gilt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (\operatorname{Id} \times \psi)^*(\omega)
+}
+{ =} { \left(  1+ \sum_{i = 1}^n \left(  { \frac{   \partial   \psi  }{  \partial   x_i   } }  \right)^2  \right)^{1/2} dx_1 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Die Abbildung
+\maabbeledisp {\varphi = \operatorname{id} \times \psi} { W } { W \times \R
+} { x } {(x, \psi(x))
+} {,}
+ist ein
+\definitionsverweis {Diffeomorphismus}{}{}
+zwischen $W$ und dem Graphen $M$. Der Graph ist eine
+\definitionsverweis {abgeschlossene Untermannigfaltigkeit}{}{}
+von
+\mathl{W \times \R}{} und trägt daher die
+\definitionsverweis {induzierte riemannsche Struktur}{}{}
+und
+\zusatzklammer {da sich die Orientierung von $W$ auf $M$ überträgt} {} {}
+eine
+\definitionsverweis {kanonische Volumenform}{}{}
+$\omega$. Auf diese Situation kann man
+[[Riemannsche Untermannigfaltigkeit des R^n/Einbettung/Volumenform/Fakt|Satz 16.8]]
+anwenden. Die
+\definitionsverweis {partiellen Ableitungen}{}{}
+von $\varphi$ nach der $i$-ten Variablen sind
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial  \varphi  }{  \partial   x_i   } }
+}
+{ =} { \begin{pmatrix}  0  \\\vdots\\  0\\ 1\\  0\\ \vdots\\  0\\  { \frac{   \partial   \psi  }{  \partial   x_i   } }   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{Q
+}
+{ \in }{ W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Punkt, den wir in die Funktionen im Folgenden einsetzen, sodass wir überall mit reellen Zahlen rechnen. Die Skalarprodukte, die die Einträge
+\mathl{b_{ij}}{} der Matrix $B$ bilden
+\zusatzklammer {von deren Determinante wir die Wurzel berechnen müssen} {} {,}
+sind gleich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ b_{ij}
+}
+{ =} { \left\langle  { \frac{   \partial  \varphi  }{  \partial   x_i   } }(Q)  ,  { \frac{   \partial  \varphi  }{  \partial   x_j   } }(Q)   \right\rangle
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{}{}
+Wir schreiben
+
+\mavergleichskette
+{\vergleichskette
+{B
+}
+{ = }{ E_n+A
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ A
+}
+{ = }{ \left(  a_{ij}  \right)_{1 \leq i,j \leq n}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Mit
+
+\mavergleichskette
+{\vergleichskette
+{ c_i
+}
+{ = }{ { \frac{   \partial   \psi  }{  \partial   x_i   } } ( Q)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+können wir
+
+\mavergleichskette
+{\vergleichskette
+{ a_{ij}
+}
+{ = }{ c_ic_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und insgesamt die Matrix $A$ als
+
+\mavergleichskettedisp
+{\vergleichskette
+{A
+}
+{ =} { \begin{pmatrix} c_1  \\\vdots\\ c_n   \end{pmatrix} \left( c_1   , \,   \ldots  , \,  c_n                 \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+schreiben. Daher beschreibt $A$ eine lineare Abbildung von $\R^n$ nach $\R^n$, die durch $\R$
+\definitionsverweis {faktorisiert}{}{,}
+und besitzt damit einen
+\definitionsverweis {Kern}{}{,}
+der zumindest $(n-1)$-dimensional ist. Nennen wir ihn $K$. Wenn er die Dimension $n$ besitzt, so ist
+
+\mavergleichskette
+{\vergleichskette
+{A
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und $B$ ist die Identität, und die Aussage ist richtig. Es sei also
+
+\mavergleichskette
+{\vergleichskette
+{A
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann ist
+
+\mavergleichskette
+{\vergleichskette
+{v
+}
+{ = }{ \begin{pmatrix} c_1  \\\vdots\\ c_n   \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {Eigenvektor}{}{}
+von $A$ zum
+\definitionsverweis {Eigenwert}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ c_1^2 + \cdots + c_n^2
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dieser Vektor ist ein Eigenvektor von $B$ zum Eigenwert
+\mathl{1+c_1^2 + \cdots + c_n^2}{} und $K$ bildet den
+\mathl{(n-1)}{-}dimensionalen
+\definitionsverweis {Eigenraum}{}{}
+für $B$ zum Eigenwert $1$. Insgesamt ist $B$
+\definitionsverweis {diagonalisierbar}{}{}
+und ihre
+\definitionsverweis {Determinante}{}{}
+ist das Produkt der Eigenwerte, also gleich
+\mathl{1+c_1^2 + \cdots + c_n^2}{.}
+
+}
+
+Mit diesem Ansatz kann man beispielsweise den Flächeninhalt der Einheitssphäre berechnen, siehe
+[[Obere Halbkugel/Graph/Fläche/Aufgabe|Aufgabe 17.2]].
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Flächenstück im Raum/Einbettung/Flächenform/Fakt}
+{Korollar}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ G
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {abgeschlossene Fläche}{}{\zusatzfussnote {Eine Fläche ist einfach eine zweidimensionale Mannigfaltigkeit} {.} {}}
+in einer
+\definitionsverweis {offenen Menge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+die mit der induzierten riemannschen Struktur und der
+\definitionsverweis {kanonischen Flächenform}{}{}
+$\omega$ versehen sei. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen und es sei
+\maabbdisp {\varphi} { W } { U
+} {}
+ein
+\definitionsverweis {Diffeomorphismus}{}{}
+mit der offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Die Koordinaten von $\R^2$ seien
+\mathkor {} {u} {und} {v} {}
+und wir setzen
+\zusatzfussnote {Diese Notation wurde schon von Carl Friedrich Gauß verwendet} {.} {}
+
+\mathdisp {E = \left\langle  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial  u  } }  \\ { \frac{   \partial  \varphi_2   }{  \partial  u  } } \\  { \frac{   \partial  \varphi_3   }{  \partial  u  } }   \end{pmatrix}  ,  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial  u  } }  \\ { \frac{   \partial  \varphi_2   }{  \partial  u  } } \\  { \frac{   \partial  \varphi_3   }{  \partial  u  } }   \end{pmatrix}   \right\rangle ,\, F = \left\langle  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial  u  } }  \\ { \frac{   \partial  \varphi_2   }{  \partial  u  } } \\  { \frac{   \partial  \varphi_3   }{  \partial  u  } }   \end{pmatrix}   ,  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial  v  } }  \\ { \frac{   \partial  \varphi_2   }{  \partial  v  } } \\  { \frac{   \partial  \varphi_3   }{  \partial  v  } }   \end{pmatrix}   \right\rangle \text{ und } G = \left\langle  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial  v  } }  \\ { \frac{   \partial  \varphi_2   }{  \partial  v  } } \\  { \frac{   \partial  \varphi_3   }{  \partial  v  } }   \end{pmatrix}   ,  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial  v  } }  \\ { \frac{   \partial  \varphi_2   }{  \partial  v  } } \\  { \frac{   \partial  \varphi_3   }{  \partial  v  } }   \end{pmatrix}   \right\rangle} { . }
+}
+\faktfolgerung {Dann gilt auf $W$
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \varphi^*\left(  \omega \vert_U  \right)
+}
+{ =} { \sqrt{EG-F^2}  du \wedge dv
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Dies folgt direkt aus
+[[Riemannsche Untermannigfaltigkeit des R^n/Einbettung/Volumenform/Fakt|Satz 16.8]].
+
+}
+
+\inputbemerkung
+{}
+{
+
+Es sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { \left\{ (u,v, \psi(u,v))  \mid  (u,v) \in W         \right\}
+}
+{ \subseteq} { W \times \R
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+der
+\definitionsverweis {Graph}{}{}
+von
+\maabbdisp {\psi} { W } {\R
+} {,}
+wobei
+
+\mavergleichskette
+{\vergleichskette
+{W
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine offene Teilmenge sei. In diesem Fall stehen
+[[Graph einer Funktion/Riemannsche Untermannigfaltigkeit des R^n/Volumenform/Fakt|Korollar 17.1]]
+und
+[[Flächenstück im Raum/Einbettung/Flächenform/Fakt|Korollar 17.2]]
+wie folgt miteinander in Beziehung. Die partiellen Ableitungen sind
+\mathkor {} {\begin{pmatrix}  1  \\ 0 \\  { \frac{   \partial \psi }{  \partial u } }   \end{pmatrix}} {und} {\begin{pmatrix}  0  \\ 1 \\  { \frac{   \partial \psi }{  \partial v } }   \end{pmatrix}} {.}
+Daher ist
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ = }{ 1 + \left(  { \frac{   \partial \psi }{  \partial u } }  \right)^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ = }{ { \frac{   \partial \psi }{  \partial u } } { \frac{   \partial \psi }{  \partial v } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ = }{ 1 + \left(  { \frac{   \partial \psi }{  \partial v } }  \right)^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Somit ist
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{EG-F^2
+}
+{ =} { \left(  1 + \left(  { \frac{   \partial \psi }{  \partial u } }  \right)^2  \right) \left(  1 + \left(  { \frac{   \partial \psi }{  \partial v } }  \right)^2  \right) - \left(  { \frac{   \partial \psi }{  \partial u } }  \right)^2 \left(  { \frac{   \partial \psi }{  \partial v } }  \right)^2
+}
+{ =} { 1  + \left(  { \frac{   \partial \psi }{  \partial u } }  \right)^2  + \left(  { \frac{   \partial \psi }{  \partial v } }  \right)^2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+\inputbemerkung
+{}
+{
+
+Wir knüpfen an die Bezeichnungen von
+[[Flächenstück im Raum/Einbettung/Flächenform/Fakt|Korollar 17.2]]
+an. Wenn die durch
+\mathkor {} {W} {und} {\varphi} {}
+erfasste offene Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Eigenschaft besitzt, dass ihr
+\definitionsverweis {Komplement}{}{}
+
+\mathl{M \setminus U}{} eine
+\definitionsverweis {Nullmenge}{}{}
+bezüglich des
+\definitionsverweis {kanonischen Maßes}{}{}
+auf $M$ ist, so lässt sich der Flächeninhalt von $M$ allein mittels der Formel für
+\mathl{\varphi^*\left(  \omega \vert_U  \right)}{} berechnen. Dies ist z.B. der Fall, wenn
+\mathl{M \setminus U}{} eine
+\definitionsverweis {abgeschlossene Untermannigfaltigkeit}{}{}
+von $M$ der Dimension
+\mathl{\leq 1}{} ist, siehe
+[[Abgeschlossene Untermannigfaltigkeit/Volumenform/Kleinere Dimension/Nullmenge/Aufgabe|Aufgabe 15.14]].
+Nullmengen werden bei Berechnungen häufig stillschweigend ignoriert.
+
+}
+
+  \zwischenueberschrift{Rotationsflächen}
+
+Es sei eine
+\definitionsverweis {differenzierbare Kurve}{}{}
+\maabbeledisp {\gamma} {]a,b[} {\R^2
+} {t} {(x(t),y(t))
+} {,}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ y(t)
+}
+{ \geq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegeben. Wir interessieren uns für die zugehörige
+\definitionsverweis {Rotationsfläche}{}{,}
+also die Teilmenge
+
+\mathdisp {\left\{  (x(t), y(t) \cos \alpha , y(t) \sin \alpha)   \mid   t \in ]a,b[  , \,  \alpha \in [0,2\pi]       \right\}} {  }
+
+des $\R^3$, die entsteht, wenn man die Trajektorie der Kurve um die $x$-Achse dreht. Wir setzen zusätzlich voraus, dass $\gamma$ einen Diffeomorphismus auf sein Bild
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ \gamma \left(  ]a,b[  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bewirkt und dass $M$ eine abgeschlossene Untermannigfaltigkeit in einer offenen Menge
+
+\mavergleichskettedisp
+{\vergleichskette
+{ G
+}
+{ \subseteq} {\R \times \R_+
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist
+\zusatzklammer {es wird also auch gefordert, dass $\gamma$ überall positiv ist} {} {.}
+Die Rotationsfläche ist dann eine zweidimensionale abgeschlossene Untermannigfaltigkeit des $\R^3$ ohne die $x$-Achse, sodass eine riemannsche Mannigfaltigkeit vorliegt. Ihr Flächeninhalt lässt sich wie folgt berechnen.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Rotationsfläche zu ebener Kurve/Flächenberechnung/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei
+\maabbeledisp {\gamma} {]a,b[} {\R^2
+} { t } {(x(t),y(t))
+} {,}
+eine
+\definitionsverweis {differenzierbare Kurve}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ y(t)
+}
+{ > }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}}
+\faktvoraussetzung {die einen
+\definitionsverweis {Diffeomorphismus}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ = }{ \gamma(I)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+induziere, wobei
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ \subseteq }{ G
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine eindimensionale
+\definitionsverweis {abgeschlossene Untermannigfaltigkeit}{}{}
+in einer offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{G
+}
+{ \subseteq }{\R \times \R_+
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sei.}
+\faktfolgerung {Dann ist die zugehörige
+\definitionsverweis {Rotationsfläche}{}{}
+eine abgeschlossene Untermannigfaltigkeit von
+\mathl{\R^3}{} ohne die $x$-Achse, und ihr Flächeninhalt ist gleich
+
+\mathdisp {2 \pi \int_{  a  }^{  b  } \sqrt{ (x'(t))^2+ (y'(t))^2 } \cdot y(t) \, d t} { . }
+}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Es sei $S$ die Rotationsfläche, die eine abgeschlossene zweidimensionale Untermannigfaltigkeit in einer offenen Menge des $\R^3$ ist. Wir wenden
+[[Flächenstück im Raum/Einbettung/Flächenform/Fakt|Korollar 17.2]]
+auf die Parametrisierung
+\maabbeledisp {} { ]a,b[ \times ]0, 2 \pi[} {S
+} { (t, \alpha) } { (x(t),  y(t) \cos \alpha  , y(t) \sin \alpha  )
+} {,}
+an. Die partiellen Ableitungen sind
+
+\mathdisp {\begin{pmatrix}  x'(t) \\ y'(t) \cos \alpha \\  y'(t) \sin \alpha   \end{pmatrix} \text{   und } \begin{pmatrix}  0  \\ - y(t) \sin \alpha \\  y(t) \cos \alpha   \end{pmatrix}} {  }
+
+und daher ist
+
+\mathdisp {E(t, \alpha) = (x'(t))^2 + (y'(t))^2,\, F(t, \alpha)=0,\, G(t, \alpha) = (y(t))^2} { . }
+
+Somit ist der Flächeninhalt gleich
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \int_{  a  }^{  b  } \int_{  0  }^{  2 \pi } \sqrt{(x'(t))^2+(y'(t))^2} \cdot   y(t) \, d \alpha \, d t
+}
+{ =} { 2 \pi \int_{  a  }^{  b  } \sqrt{(x'(t))^2+(y'(t))^2} \cdot   y(t) \, d t
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+  \zwischenueberschrift{Kartographie}
+
+Die
+\zusatzklammer {abstrakte} {} {}
+Kartographie beschäftigt sich mit Karten für die Oberfläche einer Kugel.
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Cilinderprojectie-constructie} {jpg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Cilinderprojectie-constructie.jpg } {} {KoenB} {Commons} {PD} {}
+
+\inputbeispiel{}
+{
+
+Wir betrachten die Abbildung
+\maabbeledisp {\varphi} { [0, 2 \pi] \times [-1,1] } {\R^3
+} {(u,v)} { \left(  \sqrt{1-v^2} \cos  u   , \,   \sqrt{1-v^2} \sin  u  , \,   v                 \right)
+} {,}
+deren
+\definitionsverweis {Bild}{}{}
+auf der \stichwort {Einheitssphäre} {} liegt. Diese Abbildung kann man sich so vorstellen, dass zuerst das Rechteck zu einer Zylinderoberfläche gemacht wird und anschließend die Kreise des Zylinders auf die horizontalen Kreise einer Kugel mit derselben Höhe projiziert werden. Diese Abbildung ist
+\definitionsverweis {differenzierbar}{}{}
+mit den
+\definitionsverweis {partiellen Ableitungen}{}{}
+
+\mathdisp {{ \frac{   \partial  \varphi  }{  \partial  u  } } = \begin{pmatrix}  - \sqrt{1-v^2} \sin  u  \\ \sqrt{1-v^2} \cos  u \\  0   \end{pmatrix} \text{   und } { \frac{   \partial  \varphi  }{  \partial  v  } } = \begin{pmatrix}  { \frac{   -v }{  \sqrt{1-v^2}  } } \cos  u   \\ { \frac{   -v }{  \sqrt{1-v^2}  } } \sin  u \\  1   \end{pmatrix}} { . }
+
+Die
+\definitionsverweis {Einschränkung}{}{}
+dieser Abbildung auf das offene Rechteck ist
+\definitionsverweis {injektiv}{}{,}
+ihr Bild ist die Einheitssphäre bis auf einen einzigen halben Längenkreis. Man kann mit diesen Koordinaten also die Kugeloberfläche berechnen. Mit der in
+[[Flächenstück im Raum/Einbettung/Flächenform/Fakt|Korollar 17.2]]
+verwendeten Notation ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{E
+}
+{ =} { \left(  1-v^2  \right) \sin^{ 2  }  u  + \left(  1-v^2  \right) \cos^{ 2  }  u
+}
+{ =} { 1-v^2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{F
+}
+{ =} { v \sin  u\cos  u  - v \sin  u\cos  u
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{G
+}
+{ =} { { \frac{  v^2 }{  1-v^2 } } \cos^{ 2  }  u + { \frac{  v^2 }{  1-v^2 } } \sin^{ 2  }  u +1
+}
+{ =} { { \frac{  v^2 }{  1-v^2 } }  +1
+}
+{ =} { { \frac{   1  }{  1-v^2 } }
+}
+{ } {
+}
+}
+{}{}{.}
+Daher ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \sqrt{EG-F^2 }
+}
+{ =} { 1
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+d.h. diese Kartenabbildung ist \stichwort {flächentreu} {\zusatzfussnote {Sie ist aber nicht längentreu. Die horizontalen Strecken auf dem Rechteck werden zu den Polen hin stark gestaucht. Dafür werden die vertikalen Strecken zu den Polen hin zunehmend gestreckt, und diese beiden Phänomene neutralisieren sich} {.} {,}}
+und somit ist die Kugeloberfläche gleich
+
+\mavergleichskettealign
+{\vergleichskettealign
+{A
+}
+{ =} {
+\int_{  ]- 1 ,  1 [ \times ]0, 2 \pi[   }   1  du \wedge dv
+}
+{ =} { \int_{  [- 1 ,  1 ] \times [0, 2 \pi]   }   1     \,  d  \lambda^2
+}
+{ =} { 2 \cdot 2 \pi
+}
+{ =} { 4 \pi
+}
+}
+{}
+{}{.}
+
+}
+
+\inputbeispiel{}
+{
+
+Wir betrachten die Abbildung
+\maabbeledisp {\varphi} { [0, 2 \pi] \times \R} {\R^3
+} {(u,v)} { { \frac{   1  }{  \sqrt{1+v^2}  } }  ( \cos  u  , \sin  u  , v )
+} {,}
+deren
+\definitionsverweis {Bild}{}{}
+auf der \stichwort {Einheitssphäre} {} liegt. Diese Abbildung kann man sich so vorstellen, dass zuerst das
+\zusatzklammer {in eine Richtung unbeschränkte} {} {}
+Rechteck
+\mathl{[0, 2 \pi] \times \R}{} zu einem unendlichen Zylindermantel über dem Einheitskreis gemacht wird und anschließend jeder Punkt dieses Zylindermantels über die Verbindungsgerade mit dem Kugelmittelpunkt auf die Kugel projiziert wird. Unter dieser Abbildung werden mit der Ausnahme des Nord- und des Südpols alle Punkte der Kugeloberfläche erreicht. Ferner ist sie injektiv, wenn man die Randpunkte des Intervalls herausnimmt
+\zusatzklammer {dann fehlt ein halber Längenkreis im Bild} {} {.}
+Die Abbildung ist
+\definitionsverweis {differenzierbar}{}{}
+mit den
+\definitionsverweis {partiellen Ableitungen}{}{}
+
+\mathdisp {{ \frac{   \partial  \varphi  }{  \partial  u  } } = \begin{pmatrix}  { \frac{   - \sin  u  }{  \sqrt{1+v^2}  } }   \\ { \frac{   \cos  u  }{  \sqrt{1+v^2}  } }  \\  0   \end{pmatrix} = { \frac{   1  }{  \sqrt{1+v^2}  } } \begin{pmatrix}  - \sin  u  \\ \cos  u  \\  0   \end{pmatrix} \text{   und } { \frac{   \partial  \varphi  }{  \partial  v  } } = \begin{pmatrix}  { \frac{   -v \cos  u  }{  \sqrt{1+v^2}^3  } }    \\ { \frac{   -v \sin  u  }{  \sqrt{1+v^2}^3  } }    \\  { \frac{   \sqrt{1+v^2 } - v^2 \left(  1+v^2  \right)^{- 1/2}   }{  1+v^2  } }   \end{pmatrix} = { \frac{   1  }{  \sqrt{1+v^2}^3  } } \begin{pmatrix}  -v \cos  u  \\ -v \sin  u  \\  1   \end{pmatrix}} { . }
+
+Man kann mit diesen Koordinaten die Kugeloberfläche berechnen. Mit der in
+[[Flächenstück im Raum/Einbettung/Flächenform/Fakt|Korollar 17.2]]
+verwendeten Notation ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{E
+}
+{ =} { { \frac{   1  }{  1+v^2 } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{F
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{G
+}
+{ =} { { \frac{   1  }{  \left(  1+v^2  \right)^3 } } \left(  v^2 \cos^{ 2  }  u + v^2 \sin^{ 2  }  u +1  \right)
+}
+{ =} { { \frac{   1  }{  \left(  1+v^2  \right)^2 } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Daher ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \sqrt{EG-F^2 }
+}
+{ =} { \sqrt{ { \frac{   1  }{  \left(  1+v^2  \right)^3  } }  }
+}
+{ =} { { \frac{   1  }{  \sqrt{1+v^2}^3  } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Die Kugeloberfläche ist somit unter Verwendung von
+[[Sigmaendliche Räume/Satz von Fubini/Fakt|Satz 12.10 (Maß- und Integrationstheorie (Osnabrück 2022-2023))]]
+gleich
+
+\mavergleichskettealign
+{\vergleichskettealign
+{A
+}
+{ =} {
+\int_{  ]0, 2 \pi[ \times \R   }   { \frac{   1  }{  \sqrt{1+v^2}^3  } }  du \wedge dv
+}
+{ =} { \int_{ ]0, 2 \pi[ \times  \R   }   { \frac{   1  }{  \sqrt{1+v^2}^3  } }    \,  d  \lambda^2
+}
+{ =} { 2 \pi \int_{  - \infty }^{ + \infty } { \frac{   1  }{  \sqrt{1+v^2}^3  } } \, d  v
+}
+{ } {
+}
+}
+{}
+{}{.}
+Das Integral ist nach
+[[Integration/Eine Variable/1 durch Wurzel(1+t^2)^3/Beispiel|Beispiel 31.7 (Analysis (Osnabrück 2021-2023))]]
+gleich $2$, sodass sich der Flächeninhalt
+\mathl{4\pi}{} ergibt.
+
+}
+Die \stichwort {Mercator-Projektion} {} geht von der zuletzt genannten Projektion aus, ersetzt aber das unbeschränkte Intervall $\R$ über eine Diffeomorphie durch ein beschränktes Intervall, sodass eine winkeltreue Karte entsteht.
+
+\inputbeispiel{}
+{
+
+Wir betrachten die Abbildung
+\maabbeledisp {\varphi} {\R^2} {\R^3
+} {(u,v)} {(\cos  u \cos  v  , \cos  u \sin  v  , \sin  u )
+} {,}
+deren
+\definitionsverweis {Bild}{}{}
+auf der \stichwort {Einheitssphäre} {} landet. Geographisch gesprochen gibt $u$ den \stichwort {Breitenkreis} {} und $v$ den \stichwort {Längenkreis} {} des entsprechenden Punktes auf der Einheitserde an
+\zusatzklammer {in \stichwort {geozentrischen Koordinaten} {;} die in der Geographie verwendeten Koordinaten weichen davon leicht ab, da die Erde nicht wirklich eine Kugel ist} {} {.}
+Diese Abbildung ist
+\definitionsverweis {differenzierbar}{}{}
+mit den
+\definitionsverweis {partiellen Ableitungen}{}{}
+
+\mathdisp {{ \frac{   \partial  \varphi  }{  \partial  u  } } = \begin{pmatrix}  - \sin  u \cos  v  \\ -\sin  u \sin  v \\  \cos  u   \end{pmatrix} \text{   und } { \frac{   \partial  \varphi  }{  \partial  v  } } = \begin{pmatrix}  - \cos  u \sin  v  \\ \cos  u \cos  v \\  0   \end{pmatrix}} { . }
+
+Die
+\definitionsverweis {Einschränkung}{}{}
+dieser Abbildung auf das offene Rechteck
+
+\mathdisp {{]{- { \frac{   \pi }{  2 } }}, { \frac{   \pi }{  2 } } [} \times {]{-\pi}, \pi[}} {  }
+
+ist
+\definitionsverweis {injektiv}{}{,}
+ihr Bild ist die Einheitskugel bis auf einen einzigen Längenkreis. Man kann mit diesen Koordinaten also die Kugeloberfläche berechnen. Mit der in
+[[Flächenstück im Raum/Einbettung/Flächenform/Fakt|Korollar 17.2]]
+verwendeten Notation ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{E
+}
+{ =} { \sin^{ 2  }  u \cos^{ 2  }  v + \sin^{ 2  }  u \sin^{ 2  }  v + \cos^{ 2  }  u
+}
+{ =} { \sin^{ 2  }  u + \cos^{ 2  }  u
+}
+{ =} { 1
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{F
+}
+{ =} { \sin  u\cos  u \sin  v \cos  v  -\sin  u\cos  u \sin  v \cos  v
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{G
+}
+{ =} { \cos^{ 2  }  u \sin^{ 2  }  v + \cos^{ 2  }  u \cos^{ 2  }  v
+}
+{ =} { \cos^{ 2  }  u
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Daher ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \sqrt{EG-F^2 }
+}
+{ =} { \sqrt{ 1 \cdot \cos^{ 2  }  u  }
+}
+{ =} { \cos  u
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Somit ist die Kugeloberfläche nach
+dem [[Sigmaendliche Räume/Satz von Fubini/Fakt|Satz von Fubini]]
+gleich
+
+\mavergleichskettealign
+{\vergleichskettealign
+{A
+}
+{ =} {
+\int_{  ]- { \frac{   \pi }{  2 } } , { \frac{   \pi }{  2 } } [ \times ]-\pi, \pi[   }   \cos  u  \,du \wedge dv
+}
+{ =} { \int_{  [- { \frac{   \pi }{  2 } }, { \frac{   \pi }{  2 } }] \times [-\pi, \pi]   }   \cos  u    \,  d  \lambda^2
+}
+{ =} { \int_{  -\pi }^{  \pi } \int_{  - { \frac{   \pi }{  2 } }  }^{  { \frac{   \pi }{  2 } }  } \cos  u \, d  u \, d v
+}
+{ =} { \int_{  -\pi }^{  \pi } 2 \, d v
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { 4 \pi
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+
+}
+
+ [[Kategorie:Latexseite]]

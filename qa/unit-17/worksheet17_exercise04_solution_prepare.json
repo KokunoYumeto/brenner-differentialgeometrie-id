@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-17/worksheet17_exercise04_solution.id.tex",
+  "input_bytes": 770,
+  "input_sha256": "8de955a9a8910399b656e291a11ec70096d59444ba292b6a00fc8a7bfbfc6c3e",
+  "output": "build/generated/worksheet17_exercise04_solution.id.build.tex",
+  "output_bytes": 743,
+  "output_sha256": "b650961fd22a89ab183d0041ebf416548850589231c4f71711735b1e18aa3f9b",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [],
+  "rendered_interactive_gif_links": []
+}

@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://commons.wikimedia.org/w/api.php",
+  "http_date": "Wed, 26 Aug 2026 02:20:02 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "iiprop": "timestamp|user|url|size|sha1|mime|extmetadata",
+    "prop": "info|imageinfo",
+    "titles": "File:Cilinderprojectie-constructie.jpg"
+  },
+  "response_bytes": 2237,
+  "response_path": "unit17_media_imageinfo_current.json",
+  "response_sha256": "a6af152e1bf0137a311be66639881355fe2078114d901c434aad8c2679536161",
+  "retrieved_utc": "2026-08-26T02:20:01Z",
+  "schema_version": 1
+}

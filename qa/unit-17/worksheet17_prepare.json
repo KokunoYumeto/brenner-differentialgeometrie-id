@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-17/worksheet17.id.tex",
+  "input_bytes": 6649,
+  "input_sha256": "0b1366792404b62fb2705f56995077f4d53bb9779e10c06f8a2c0b96a5241fdc",
+  "output": "build/generated/worksheet17.id.build.tex",
+  "output_bytes": 5369,
+  "output_sha256": "3f796d07d14b0f5f2032fb43df7c7a30bb2eb207ca9c8f6fe7aa3099edf7631e",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Graph einer Funktion/Riemannsche Untermannigfaltigkeit des R^n/Volumenform/Fakt",
+      "label": "Korolari 17.1"
+    },
+    {
+      "target": "Kugeloberfläche/Koordinaten von Zylinder aus/Horizontale Projektion/Flächenberechnung/Beispiel",
+      "label": "Contoh 17.6"
+    },
+    {
+      "target": "Kugeloberfläche/Koordinaten von Zylinder aus/Mittelpunktsprojektion/Flächenberechnung/Beispiel",
+      "label": "Contoh 17.7"
+    },
+    {
+      "target": "Kugeloberfläche/Geozentrische Koordinaten/Flächenberechnung/Beispiel",
+      "label": "Contoh 17.8"
+    },
+    {
+      "target": "Kugeloberfläche/Koordinaten von Zylinder aus/Horizontale Projektion/Flächenberechnung/Beispiel",
+      "label": "Contoh 17.6"
+    },
+    {
+      "target": "Kugeloberfläche/Koordinaten von Zylinder aus/Mittelpunktsprojektion/Flächenberechnung/Beispiel",
+      "label": "Contoh 17.7"
+    },
+    {
+      "target": "Kugeloberfläche/Geozentrische Koordinaten/Flächenberechnung/Beispiel",
+      "label": "Contoh 17.8"
+    },
+    {
+      "target": "Kugeloberfläche/Koordinaten von Zylinder aus/Horizontale Projektion/Flächenberechnung/Beispiel",
+      "label": "Contoh 17.6"
+    },
+    {
+      "target": "Graph einer Funktion/Riemannsche Untermannigfaltigkeit des R^n/Volumenform/Fakt",
+      "label": "Korolari 17.1"
+    },
+    {
+      "target": "Graph/Gradient und Volumenform/Beispiel",
+      "label": "Contoh 15.10"
+    },
+    {
+      "target": "Faser/Reguläre Funktion/Volumenform/Gradient und Skalarprodukt/Aufgabe",
+      "label": "Latihan 16.10"
+    },
+    {
+      "target": "w:Osnabrück",
+      "label": "Osnabrück"
+    },
+    {
+      "target": "w:Bangalore",
+      "label": "Bangalore"
+    },
+    {
+      "target": "Kugeloberfläche/Koordinaten von Zylinder aus/Horizontale Projektion/Flächenberechnung/Beispiel",
+      "label": "Contoh 17.6"
+    },
+    {
+      "target": "Kugeloberfläche/Koordinaten von Zylinder aus/Mittelpunktsprojektion/Flächenberechnung/Beispiel",
+      "label": "Contoh 17.7"
+    },
+    {
+      "target": "Kugeloberfläche/Geozentrische Koordinaten/Flächenberechnung/Beispiel",
+      "label": "Contoh 17.8"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

@@ -1,0 +1,30 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=Wir betrachten die Oberfläche für {{math|term= s \leq x \leq 0 |SZ=}} mit einer beliebigen negativen Zahl {{mathl|term= s |SZ=.}} Der Flächeninhalt ist nach der Rotationsformel gleich
+{{
+Math/display|term=
+ 2 \pi \int_s^0    \sqrt{1 + e ^{2t} } e^t dt
+|SZ=.
+}}
+Da {{math|term= t |SZ=}} sich im negativen Bereich bewegt, ist {{mathl|term= e^{2t} \leq 1 |SZ=}} und somit ist der Integrand {{math|term= \leq \sqrt{2} e^t |SZ=.}} Damit ist dieses Integral kleiner/gleich
+{{
+Relationskette/display
+| 2 \pi \sqrt{2}  \int_s^0 e^t dt
+|| 2 \pi \sqrt{2} (1- e^s )
+| \leq | 2 \pi \sqrt{2} 
+| \leq | 2 \cdot 3{,}2 \cdot 1{,}5
+|| 2 \cdot 4{,}8
+| < | 10
+|SZ=.
+}}
+Diese Abschätzung gilt auch für {{math|term= s \rightarrow - \infty |SZ=.}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

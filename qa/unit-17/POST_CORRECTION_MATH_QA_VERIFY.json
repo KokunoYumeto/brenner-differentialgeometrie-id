@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "qa": "qa/unit-17/POST_CORRECTION_MATH_QA.json",
+  "qa_bytes": 10839,
+  "qa_sha256": "90b5e890a3869d5187ec1e6bb6d66dba0842dbdab5e51414d1a05fe4fcb3eb0a",
+  "checked_unique_path_records": 28,
+  "checked_paths": [
+    {
+      "path": "00_control/ADVERSE_LEDGER.csv",
+      "bytes": 61055,
+      "sha256": "e3e8ac8bfcf23b70756f1bf158323acd79f75bd72791e4ce57fabba5be644097"
+    },
+    {
+      "path": "00_control/TERMINOLOGY.csv",
+      "bytes": 23691,
+      "sha256": "9f9ab6160fe626481707d15c921a4258f4c5fecf2b3f9e00d4ace381f7948db7"
+    },
+    {
+      "path": "authority/brenner_media_rights_manifest.csv",
+      "bytes": 25588,
+      "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+    },
+    {
+      "path": "authority/expanded/lecture17_source.de.tex",
+      "bytes": 24138,
+      "sha256": "0ac2f20594df388ad6e6ddb3a38515af63ec74b6298eb7acc1d5c20851f2d1e0"
+    },
+    {
+      "path": "authority/expanded/worksheet17_exercise02_solution_source.de.tex",
+      "bytes": 1598,
+      "sha256": "d17c6d24732d641f6812059b56ad3c503a9044020b436c9b29f057bebb7784cc"
+    },
+    {
+      "path": "authority/expanded/worksheet17_exercise04_solution_source.de.tex",
+      "bytes": 741,
+      "sha256": "a5309abc57923b02fcee4e2cbb2c7ae9c4f36acb0822da501452915855438b77"
+    },
+    {
+      "path": "authority/expanded/worksheet17_source.de.tex",
+      "bytes": 6577,
+      "sha256": "fec773f1573930cba133de084287bd5cd91ea2302e99c2d5c0d96e65fe5cbd96"
+    },
+    {
+      "path": "build/generated/lecture17.id.build.tex",
+      "bytes": 23439,
+      "sha256": "626e600d9753dd4b05d3f593ab7950be02b8437bf0912dd34ba5021cc63eda00"
+    },
+    {
+      "path": "build/generated/unit17-media-attribution-cumulative.tex",
+      "bytes": 654,
+      "sha256": "47659d9035a822317dd715ecfbbde58ff9f8f10498d921c7d8bb3b84364baa7d"
+    },
+    {
+      "path": "build/generated/worksheet17.id.build.tex",
+      "bytes": 5369,
+      "sha256": "3f796d07d14b0f5f2032fb43df7c7a30bb2eb207ca9c8f6fe7aa3099edf7631e"
+    },
+    {
+      "path": "build/generated/worksheet17_exercise02_solution.id.build.tex",
+      "bytes": 1338,
+      "sha256": "fd70091b75a09f04a25b1590e8353333a7000965f24128736c39530f3bd93feb"
+    },
+    {
+      "path": "build/generated/worksheet17_exercise04_solution.id.build.tex",
+      "bytes": 743,
+      "sha256": "b650961fd22a89ab183d0041ebf416548850589231c4f71711735b1e18aa3f9b"
+    },
+    {
+      "path": "qa/unit-17/AUTHORITY_PREFLIGHT.json",
+      "bytes": 31181,
+      "sha256": "0c7d19d122793874a8196386ba556cd4f80720602b08cf88e818dc1b8c59887a"
+    },
+    {
+      "path": "qa/unit-17/AUTHORITY_PREFLIGHT_VERIFY.json",
+      "bytes": 517,
+      "sha256": "48d7c6646d0d964fd5ed091d817ebf4b56eaac4b54e53b9da3bc76b011bffff7"
+    },
+    {
+      "path": "qa/unit-17/CURRENT_REVISION_CHECK.json",
+      "bytes": 3065,
+      "sha256": "788d919c67bb538639a0f65e8b78b3c47101c663a7c56dc9cf6767d643c97990"
+    },
+    {
+      "path": "qa/unit-17/INDEPENDENT_READER_QA.md",
+      "bytes": 2423,
+      "sha256": "c9dc81f61fb0e97a60415d8055860c7bd43c145e1fc6b17462c16c08c68b59f8"
+    },
+    {
+      "path": "qa/unit-17/LECTURE17_PROTECTED_CORRECTIONS.json",
+      "bytes": 5110,
+      "sha256": "5d68736b63f8373278afc8be38a28946e9259adba5d98f76f9a9c8a17b3e3d66"
+    },
+    {
+      "path": "qa/unit-17/SOLUTION17_02_PROTECTED_CORRECTIONS.json",
+      "bytes": 428,
+      "sha256": "9846f5828f34eb4b516b925714d0228bf140adccbefa97eeb22b549f20c3fb45"
+    },
+    {
+      "path": "qa/unit-17/SOLUTION17_04_PROTECTED_CORRECTIONS.json",
+      "bytes": 952,
+      "sha256": "c3040069bdf11787aa8011b5b74979302595ff77f6abc32951a279854b14eb67"
+    },
+    {
+      "path": "qa/unit-17/WORKSHEET17_PROTECTED_CORRECTIONS.json",
+      "bytes": 1953,
+      "sha256": "768af2de4573586110959ecde2d51586688b6943e9b044e599659f9812af5775"
+    },
+    {
+      "path": "qa/unit-17/WORKSHEET17_TOPOLOGY_QA.json",
+      "bytes": 996,
+      "sha256": "cf2dbb3369402a2474fe99b22220473c6415b880208351a57042e75b9424a0f7"
+    },
+    {
+      "path": "qa/unit-17/solution_closure.json",
+      "bytes": 14082,
+      "sha256": "85995cbeee5057451e390a75c70a9156227f7abdb910a72e4caecfb4e88cdbd0"
+    },
+    {
+      "path": "qa/unit-17_media.json",
+      "bytes": 1797,
+      "sha256": "1a63203e3dfe7ed6d7ec283b99132bafa89670bd8d99bbde4046d2a13e554c68"
+    },
+    {
+      "path": "source/unit_media.json",
+      "bytes": 5637,
+      "sha256": "c46cd6f52cda768b1b3e7aef8d46ab95e18920f8014c30e86ca8b79b14b38dfa"
+    },
+    {
+      "path": "source/units/unit-17/lecture17.id.tex",
+      "bytes": 24372,
+      "sha256": "ef22cfb765131f1b8c0b52bd78545c66e36eedec777f84bb5e6cc04ecf04ad3e"
+    },
+    {
+      "path": "source/units/unit-17/worksheet17.id.tex",
+      "bytes": 6649,
+      "sha256": "0b1366792404b62fb2705f56995077f4d53bb9779e10c06f8a2c0b96a5241fdc"
+    },
+    {
+      "path": "source/units/unit-17/worksheet17_exercise02_solution.id.tex",
+      "bytes": 1568,
+      "sha256": "5fdd8ec67263580cd64065b4bd574581b8c55788b2351f278098781cb091b5ef"
+    },
+    {
+      "path": "source/units/unit-17/worksheet17_exercise04_solution.id.tex",
+      "bytes": 770,
+      "sha256": "8de955a9a8910399b656e291a11ec70096d59444ba292b6a00fc8a7bfbfc6c3e"
+    }
+  ],
+  "translation_receipts_checked": [
+    "qa/unit-17/lecture17_translation.json",
+    "qa/unit-17/worksheet17_translation.json",
+    "qa/unit-17/worksheet17_exercise02_solution_translation.json",
+    "qa/unit-17/worksheet17_exercise04_solution_translation.json"
+  ],
+  "declared_correction_count": 16,
+  "manifest_correction_count": 16,
+  "adverse_ledger_record_count": 209,
+  "status": "pass",
+  "failures": []
+}

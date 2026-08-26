@@ -1,0 +1,30 @@
+Kita meninjau permukaan untuk $s \leq x \leq 0$ dengan suatu bilangan negatif sebarang
+\mathl{s}{.} Menurut rumus permukaan putar, luas permukaan tersebut sama dengan
+
+\mathdisp {2 \pi \int_s^0    \sqrt{1 + e ^{2t} } e^t dt} { . }
+
+Karena $t$ berada di daerah negatif, berlaku
+\mathl{e^{2t} \leq 1}{} sehingga integrannya tidak melebihi $\sqrt{2} e^t$. Oleh karena itu, integral ini kurang dari atau sama dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 2 \pi \sqrt{2}  \int_s^0 e^t dt
+}
+{ =} { 2 \pi \sqrt{2} (1- e^s )
+}
+{ \leq} { 2 \pi \sqrt{2}
+}
+{ \leq} { 2 \cdot 3{,}2 \cdot 1{,}5
+}
+{ =} { 2 \cdot 4{,}8
+}
+}
+{
+\vergleichskettefortsetzung
+{ <} { 10
+}
+{ } {}
+{ } {}
+{ } {}
+}{}{.}
+Taksiran ini juga berlaku ketika $s \rightarrow - \infty$.

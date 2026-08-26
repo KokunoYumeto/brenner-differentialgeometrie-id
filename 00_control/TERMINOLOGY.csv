@@ -257,3 +257,15 @@ O011-TERM-0255,kanonisches Maß,ukuran kanonik,admitted,Riemannian volume measur
 O011-TERM-0256,Isometrie,isometri,admitted,
 O011-TERM-0257,riemannsches Vektorbündel,bundel vektor Riemann,admitted,Riemannian vector bundle
 O011-TERM-0258,Sphäre,sfer,admitted,Sphere surface rather than the solid ball
+O011-TERM-0259,Flächeninhalt,luas permukaan,admitted,Surface area rather than enclosed volume
+O011-TERM-0260,Rotationsfläche,permukaan putar,admitted,Surface of revolution
+O011-TERM-0261,Kartographie,kartografi,admitted,
+O011-TERM-0262,flächentreu,mempertahankan luas,admitted,Equal-area map
+O011-TERM-0263,längentreu,mempertahankan panjang,admitted,Length-preserving map
+O011-TERM-0264,winkeltreu,konformal,admitted,Angle-preserving; reader prose may say mempertahankan sudut
+O011-TERM-0265,Längenkreis,lingkaran bujur,admitted,Meridian great circle rather than an arbitrary longitude coordinate
+O011-TERM-0266,Breitenkreis,lingkaran lintang,admitted,Parallel of latitude
+O011-TERM-0267,Großkreis,lingkaran besar,admitted,Great circle on a sphere
+O011-TERM-0268,stereographische Projektion,proyeksi stereografis,admitted,
+O011-TERM-0269,obere Halbkugel,hemisfer atas,admitted,Upper hemisphere rather than a solid half-ball
+O011-TERM-0270,Mercator-Projektion,proyeksi Mercator,admitted,Conformal cylindrical map with an unbounded vertical coordinate

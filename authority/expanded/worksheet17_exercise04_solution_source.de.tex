@@ -1,0 +1,32 @@
+Wir betrachten die Oberfläche für $s \leq x \leq 0$ mit einer beliebigen negativen Zahl
+\mathl{s}{.} Der Flächeninhalt ist nach der Rotationsformel gleich
+
+\mathdisp {2 \pi \int_s^0    \sqrt{1 + e ^{2t} } e^t dt} { . }
+
+Da $t$ sich im negativen Bereich bewegt, ist
+\mathl{e^{2t} \leq 1}{} und somit ist der Integrand $\leq \sqrt{2} e^t$. Damit ist dieses Integral kleiner/gleich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 2 \pi \sqrt{2}  \int_s^0 e^t dt
+}
+{ =} { 2 \pi \sqrt{2} (1- e^s )
+}
+{ \leq} { 2 \pi \sqrt{2}
+}
+{ \leq} { 2 \cdot 3{,}2 \cdot 1{,}5
+}
+{ =} { 2 \cdot 4{,}8
+}
+}
+{
+\vergleichskettefortsetzung
+{ <} { 10
+}
+{ } {}
+{ } {}
+{ } {}
+}{}{.}
+Diese Abschätzung gilt auch für $s \rightarrow - \infty$.
+
+ [[Kategorie:Latexseite]]

@@ -1,0 +1,52 @@
+Die obere Sphärenhälfte ist der Graph zur Funktion
+\maabbeledisp {\psi} { B  \left(  0, 1 \right) } {\R
+} {(u,v)} { \sqrt{1- u^2-v^2}
+} {.}
+Die partiellen Ableitungen der Parametrisierung dieses Graphen sind
+\mathkor {} {\begin{pmatrix}  1  \\ 0\\  { \frac{   -u }{  \sqrt{1-u^2 -v^2}  } }   \end{pmatrix}} {und} {\begin{pmatrix}  0  \\ 1\\  { \frac{   -v }{  \sqrt{1-u^2 -v^2}  } }   \end{pmatrix}} {}
+und daher ist nach
+[[Graph einer Funktion/Riemannsche Untermannigfaltigkeit des R^n/Volumenform/Fakt|Fakt]]
+die Wurzelfunktion aus
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 1 + { \frac{  u^2 }{  1-u^2-v^2 } }  + { \frac{  v^2 }{  1-u^2-v^2 } }
+}
+{ =} { { \frac{   1 }{  1-u^2-v^2 } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ausschlaggebend. Der Flächeninhalt der halben Einheitssphäre ist somit
+
+\mathdisp {\int_B { \frac{   1 }{  \sqrt{1- u^2 -v^2}  } } d \lambda^2} { . }
+
+Mit der Substitution
+\mathkor {} {u= \sqrt{w} \cos \alpha} {und} {v= \sqrt{w} \sin \alpha} {}
+ergibt sich
+mit der [[Diffeomorphismus/Transformationsformel für Integrale/Fakt|Transformationsformel]]
+unter Verwendung von
+[[Polarkoordinaten/Wurzelversion/Determinante/Aufgabe|Aufgabe]]
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_B { \frac{   1 }{  \sqrt{1- u^2 -v^2}  } } d \lambda^2
+}
+{ =} { \int_{[0,2 \pi] \times [0,1] } { \frac{   1 }{  2  } }  \cdot { \frac{   1 }{  \sqrt{1- w}  } }  d \lambda^2
+}
+{ =} { \pi \cdot \int_0^1 { \frac{   1 }{  \sqrt{1- w}  } } dw
+}
+{ =} { \pi \cdot (  -2\sqrt{1-w})\vert_0^1
+}
+{ =} { 2 \pi
+}
+}
+{}{}{.}
+Der Flächeninhalt der Sphäre ist also $4 \pi$.
+
+ [[Kategorie:Latexseite]]

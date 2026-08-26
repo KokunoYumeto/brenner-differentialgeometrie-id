@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-17/worksheet17_exercise04_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-TRANS-0208",
+      "anchor": "Solution 4 integrand bound",
+      "change": "State naturally that the integrand does not exceed sqrt(2)e^t while preserving the same bound."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-TRANS-0208",
+      "surface": "profile:commands",
+      "source_sha256": "52cde91a976daf47e52a70981ff9e6be3af717f095d56d416e11dc1b72571f3e",
+      "target_sha256": "bf58c6242574d685878e5c52b89886eb780c31f38fca1329f7f0d6ef6540bef2"
+    },
+    {
+      "correction_id": "O011-TRANS-0208",
+      "surface": "inline_math",
+      "index": 2,
+      "source_sha256": "04a1e1f83c78fbca21b1bdf2bdeee5adf923d5ef08374c04c574a166929a3bf9",
+      "target_sha256": "54a721391b2b6489d7157cc0142b9448a31b5302d3313cbe0199bdb5ebbe33f4"
+    }
+  ],
+  "evidence_only_deltas": []
+}

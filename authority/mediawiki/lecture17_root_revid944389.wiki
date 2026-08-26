@@ -1,0 +1,79 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesungsgestaltung|17|
+
+In dieser Vorlesung setzen wir die Theorie der riemannschen Mannigfaltigkeiten fort und berechnen insbesondere einige Flächeninhalte.
+
+{{Zwischenüberschrift|Berechnungen auf riemannschen Mannigfaltigkeiten}}
+
+{{
+inputfaktbeweis
+|Graph einer Funktion/Riemannsche Untermannigfaltigkeit des R^n/Volumenform/Fakt|Korollar||
+||
+}}
+
+Mit diesem Ansatz kann man beispielsweise den Flächeninhalt der Einheitssphäre berechnen, siehe
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Obere Halbkugel/Graph/Fläche/Aufgabe
+|Nr=
+|SZ=.
+}}
+
+{{
+inputfaktbeweis
+|Flächenstück im Raum/Einbettung/Flächenform/Fakt|Korollar||zusatz1=Fußnote|zusatz2=Fußnote
+||
+}} 
+
+{{
+inputbemerkung
+|Graph einer Funktion/Zweidimensional/EFG-Formel/Bemerkung||
+}}
+
+{{
+inputbemerkung
+|Flächenberechnung/Ignorierung von Nullmengen/Bemerkung||
+}}
+
+{{Zwischenüberschrift|Rotationsflächen}}
+
+{{:Rotationsflächen/Riemannsch/Flächeninhalt/Einführung/Textabschnitt|}} 
+
+{{Zwischenüberschrift|Kartographie}}
+
+Die 
+{{
+Zusatz/Klammer
+|text=abstrakte|
+|ISZ=|ESZ=
+}}
+Kartographie beschäftigt sich mit Karten für die Oberfläche einer Kugel.
+{{
+inputbild
+|Cilinderprojectie-constructie|jpg| 350px {{!}} right {{!}} 
+|Text=
+|Autor=
+|Benutzer=KoenB
+|Domäne=
+|Lizenz=PD
+|Bemerkung=
+}}
+{{
+inputbeispiel
+|Kugeloberfläche/Koordinaten von Zylinder aus/Horizontale Projektion/Flächenberechnung/Beispiel||zusatz1=Fußnote
+}}
+
+{{
+inputbeispiel
+|Kugeloberfläche/Koordinaten von Zylinder aus/Mittelpunktsprojektion/Flächenberechnung/Beispiel||
+}}
+Die {{Stichwort|Mercator-Projektion|SZ=}} geht von der zuletzt genannten Projektion aus, ersetzt aber das unbeschränkte Intervall {{math|term= \R |SZ=}} über eine Diffeomorphie durch ein beschränktes Intervall, sodass eine winkeltreue Karte entsteht. 
+
+{{
+inputbeispiel
+|Kugeloberfläche/Geozentrische Koordinaten/Flächenberechnung/Beispiel||
+}}
+
+{{Fußnotenliste}}
+
+}}

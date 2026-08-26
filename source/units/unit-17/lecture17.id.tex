@@ -1,0 +1,1132 @@
+\setcounter{section}{17}
+
+Dalam kuliah ini kita melanjutkan teori manifold Riemann dan, khususnya, menghitung beberapa luas permukaan.
+
+  \zwischenueberschrift{Perhitungan pada manifold Riemann}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Graph einer Funktion/Riemannsche Untermannigfaltigkeit des R^n/Volumenform/Fakt}
+{Korolari}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{W
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {himpunan bagian terbuka}{}{}
+dan
+\maabbdisp {\psi} { W } {\R
+} {}
+suatu
+\definitionsverweis {fungsi terdiferensialkan}{}{.}
+Misalkan
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{M
+}
+{ =} { \left\{  \left(  x_1 , \ldots , x_n , \, \psi(x_1 , \ldots , x_n) \right)   \mid  (x_1 , \ldots , x_n) \in W         \right\}
+}
+{ \subseteq} { W \times \R
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+merupakan
+\definitionsverweis {grafik}{}{}
+dari $\psi$.}
+\faktfolgerung {Maka $M$ merupakan suatu
+\definitionsverweis {manifold Riemann}{}{} yang \definitionsverweis {berorientasi}{}{,}
+dan untuk
+\definitionsverweis {bentuk volume kanonik}{}{}
+$\omega$ pada $M$ berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (\operatorname{Id} \times \psi)^*(\omega)
+}
+{ =} { \left(  1+ \sum_{i = 1}^n \left(  { \frac{   \partial   \psi  }{  \partial   x_i   } }  \right)^2  \right)^{1/2} dx_1 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Pemetaan
+\maabbeledisp {\varphi = \operatorname{id} \times \psi} { W } { W \times \R
+} { x } {(x, \psi(x))
+} {,}
+merupakan suatu
+\definitionsverweis {difeomorfisme}{}{}
+antara $W$ dan grafik $M$. Grafik tersebut merupakan suatu
+\definitionsverweis {submanifold tertutup}{}{}
+dari
+\mathl{W \times \R}{} sehingga membawa
+\definitionsverweis {struktur Riemann terinduksi}{}{}
+dan
+\zusatzklammer {karena orientasi $W$ dipindahkan ke $M$} {} {}
+suatu
+\definitionsverweis {bentuk volume kanonik}{}{}
+$\omega$. Pada situasi ini kita dapat menerapkan
+[[Riemannsche Untermannigfaltigkeit des R^n/Einbettung/Volumenform/Fakt|Teorema 16.8]].
+\definitionsverweis {Turunan parsial}{}{}
+$\varphi$ terhadap variabel ke-$i$ adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial  \varphi  }{  \partial   x_i   } }
+}
+{ =} { \begin{pmatrix}  0  \\\vdots\\  0\\ 1\\  0\\ \vdots\\  0\\  { \frac{   \partial   \psi  }{  \partial   x_i   } }   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{Q
+}
+{ \in }{ W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu titik yang selanjutnya kita substitusikan ke dalam fungsi-fungsi tersebut, sehingga di seluruh perhitungan kita bekerja dengan bilangan real. Hasil kali dalam yang membentuk entri-entri
+\mathl{b_{ij}}{} dari matriks $B$
+\zusatzklammer {yang determinannya perlu kita ambil akarnya} {} {}
+ialah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ b_{ij}
+}
+{ =} { \left\langle  { \frac{   \partial  \varphi  }{  \partial   x_i   } }(Q)  ,  { \frac{   \partial  \varphi  }{  \partial   x_j   } }(Q)   \right\rangle
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{}{}
+Kita tulis
+
+\mavergleichskette
+{\vergleichskette
+{B
+}
+{ = }{ E_n+A
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ A
+}
+{ = }{ \left(  a_{ij}  \right)_{1 \leq i,j \leq n}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dengan
+
+\mavergleichskette
+{\vergleichskette
+{ c_i
+}
+{ = }{ { \frac{   \partial   \psi  }{  \partial   x_i   } } ( Q)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kita dapat menuliskan
+
+\mavergleichskette
+{\vergleichskette
+{ a_{ij}
+}
+{ = }{ c_ic_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan seluruh matriks $A$ sebagai
+
+\mavergleichskettedisp
+{\vergleichskette
+{A
+}
+{ =} { \begin{pmatrix} c_1  \\\vdots\\ c_n   \end{pmatrix} \left( c_1   , \,   \ldots  , \,  c_n                 \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+Dengan demikian, $A$ mendeskripsikan suatu pemetaan linear dari $\R^n$ ke $\R^n$ yang
+\definitionsverweis {terfaktorkan}{}{} melalui $\R$,
+sehingga mempunyai suatu
+\definitionsverweis {kernel}{}{}
+yang berdimensi sekurang-kurangnya $(n-1)$. Sebut kernel itu $K$. Jika dimensinya $n$, maka
+
+\mavergleichskette
+{\vergleichskette
+{A
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan $B$ adalah identitas, sehingga pernyataannya benar. Jadi, misalkan
+
+\mavergleichskette
+{\vergleichskette
+{A
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Maka
+
+\mavergleichskette
+{\vergleichskette
+{v
+}
+{ = }{ \begin{pmatrix} c_1  \\\vdots\\ c_n   \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan suatu
+\definitionsverweis {vektor eigen}{}{}
+dari $A$ untuk
+\definitionsverweis {nilai eigen}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ c_1^2 + \cdots + c_n^2
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Vektor ini merupakan vektor eigen $B$ untuk nilai eigen
+\mathl{1+c_1^2 + \cdots + c_n^2}{,} sedangkan $K$ merupakan
+\definitionsverweis {ruang eigen}{}{}
+bagi $B$ untuk nilai eigen $1$ dan berdimensi
+\mathl{(n-1)}{.} Secara keseluruhan, $B$
+\definitionsverweis {dapat didiagonalkan}{}{}
+dan
+\definitionsverweis {determinan}{}{}
+matriks tersebut adalah hasil kali nilai-nilai eigennya, yaitu
+\mathl{1+c_1^2 + \cdots + c_n^2}{.}
+
+}
+
+Dengan pendekatan ini kita, misalnya, dapat menghitung luas permukaan sfer satuan; lihat
+[[Obere Halbkugel/Graph/Fläche/Aufgabe|Soal 17.2]].
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Flächenstück im Raum/Einbettung/Flächenform/Fakt}
+{Korolari}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ G
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {submanifold tertutup terbenam}{}{\zusatzfussnote {Permukaan adalah manifold dua dimensi} {.} {}}
+berdimensi dua dan berorientasi di dalam suatu
+\definitionsverweis {himpunan terbuka}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang dilengkapi dengan struktur Riemann terinduksi dan
+\definitionsverweis {bentuk luas kanonik}{}{}
+$\omega$. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka dan misalkan
+\maabbdisp {\varphi} { W } { U
+} {}
+suatu
+\definitionsverweis {difeomorfisme}{}{}
+yang mempertahankan orientasi ke himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Koordinat-koordinat pada $\R^2$ adalah
+\mathkor {} {u} {dan} {v} {}
+dan kita tetapkan
+\zusatzfussnote {Notasi ini sudah digunakan oleh Carl Friedrich Gauss} {.} {}
+
+\mathdisp {E = \left\langle  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial  u  } }  \\ { \frac{   \partial  \varphi_2   }{  \partial  u  } } \\  { \frac{   \partial  \varphi_3   }{  \partial  u  } }   \end{pmatrix}  ,  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial  u  } }  \\ { \frac{   \partial  \varphi_2   }{  \partial  u  } } \\  { \frac{   \partial  \varphi_3   }{  \partial  u  } }   \end{pmatrix}   \right\rangle ,\, F = \left\langle  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial  u  } }  \\ { \frac{   \partial  \varphi_2   }{  \partial  u  } } \\  { \frac{   \partial  \varphi_3   }{  \partial  u  } }   \end{pmatrix}   ,  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial  v  } }  \\ { \frac{   \partial  \varphi_2   }{  \partial  v  } } \\  { \frac{   \partial  \varphi_3   }{  \partial  v  } }   \end{pmatrix}   \right\rangle \text{ dan } G = \left\langle  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial  v  } }  \\ { \frac{   \partial  \varphi_2   }{  \partial  v  } } \\  { \frac{   \partial  \varphi_3   }{  \partial  v  } }   \end{pmatrix}   ,  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial  v  } }  \\ { \frac{   \partial  \varphi_2   }{  \partial  v  } } \\  { \frac{   \partial  \varphi_3   }{  \partial  v  } }   \end{pmatrix}   \right\rangle} { . }
+}
+\faktfolgerung {Maka pada $W$ berlaku
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \varphi^*\left(  \omega \vert_U  \right)
+}
+{ =} { \sqrt{EG-F^2}  du \wedge dv
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Hal ini langsung mengikuti dari
+[[Riemannsche Untermannigfaltigkeit des R^n/Einbettung/Volumenform/Fakt|Teorema 16.8]].
+
+}
+
+\inputbemerkung
+{}
+{
+
+Misalkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { \left\{ (u,v, \psi(u,v))  \mid  (u,v) \in W         \right\}
+}
+{ \subseteq} { W \times \R
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+merupakan
+\definitionsverweis {grafik}{}{}
+dari
+\maabbdisp {\psi} { W } {\R
+} {,}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{W
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu himpunan bagian terbuka. Dalam kasus ini,
+[[Graph einer Funktion/Riemannsche Untermannigfaltigkeit des R^n/Volumenform/Fakt|Korolari 17.1]]
+dan
+[[Flächenstück im Raum/Einbettung/Flächenform/Fakt|Korolari 17.2]]
+berkaitan sebagai berikut. Turunan-turunan parsialnya adalah
+\mathkor {} {\begin{pmatrix}  1  \\ 0 \\  { \frac{   \partial \psi }{  \partial u } }   \end{pmatrix}} {dan} {\begin{pmatrix}  0  \\ 1 \\  { \frac{   \partial \psi }{  \partial v } }   \end{pmatrix}} {.}
+Oleh karena itu,
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ = }{ 1 + \left(  { \frac{   \partial \psi }{  \partial u } }  \right)^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ = }{ { \frac{   \partial \psi }{  \partial u } } { \frac{   \partial \psi }{  \partial v } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ = }{ 1 + \left(  { \frac{   \partial \psi }{  \partial v } }  \right)^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dengan demikian,
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{EG-F^2
+}
+{ =} { \left(  1 + \left(  { \frac{   \partial \psi }{  \partial u } }  \right)^2  \right) \left(  1 + \left(  { \frac{   \partial \psi }{  \partial v } }  \right)^2  \right) - \left(  { \frac{   \partial \psi }{  \partial u } }  \right)^2 \left(  { \frac{   \partial \psi }{  \partial v } }  \right)^2
+}
+{ =} { 1  + \left(  { \frac{   \partial \psi }{  \partial u } }  \right)^2  + \left(  { \frac{   \partial \psi }{  \partial v } }  \right)^2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+\inputbemerkung
+{}
+{
+
+Kita melanjutkan dengan notasi dari
+[[Flächenstück im Raum/Einbettung/Flächenform/Fakt|Korolari 17.2]].
+Jika himpunan bagian terbuka yang dicakup oleh
+\mathkor {} {W} {dan} {\varphi} {}
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mempunyai sifat bahwa
+\definitionsverweis {komplemen}{}{}
+
+\mathl{M \setminus U}{} merupakan suatu
+\definitionsverweis {himpunan nol}{}{}
+terhadap
+\definitionsverweis {ukuran kanonik}{}{}
+pada $M$, maka luas permukaan $M$ dapat dihitung hanya dengan memakai rumus untuk
+\mathl{\varphi^*\left(  \omega \vert_U  \right)}{.} Hal ini, misalnya, berlaku jika
+\mathl{M \setminus U}{} merupakan suatu
+\definitionsverweis {submanifold tertutup}{}{}
+dari $M$ yang berdimensi
+\mathl{\leq 1}{;} lihat
+[[Abgeschlossene Untermannigfaltigkeit/Volumenform/Kleinere Dimension/Nullmenge/Aufgabe|Soal 15.14]].
+Dalam perhitungan, himpunan nol sering diabaikan secara tersirat.
+
+}
+
+  \zwischenueberschrift{Permukaan putar}
+
+Misalkan diberikan suatu
+\definitionsverweis {kurva terdiferensialkan}{}{}
+\maabbeledisp {\gamma} {]a,b[} {\R^2
+} {t} {(x(t),y(t))
+} {,}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ y(t)
+}
+{ \geq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Kita tertarik pada
+\definitionsverweis {permukaan putar}{}{}
+yang bersesuaian, yakni himpunan bagian
+
+\mathdisp {\left\{  (x(t), y(t) \cos \alpha , y(t) \sin \alpha)   \mid   t \in ]a,b[  , \,  \alpha \in [0,2\pi]       \right\}} {  }
+
+dari $\R^3$ yang diperoleh dengan memutar lintasan kurva tersebut mengelilingi sumbu $x$. Kita juga mensyaratkan bahwa $\gamma$ menghasilkan suatu difeomorfisme ke citranya
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ \gamma \left(  ]a,b[  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan bahwa $M$ merupakan submanifold tertutup dalam suatu himpunan terbuka
+
+\mavergleichskettedisp
+{\vergleichskette
+{ G
+}
+{ \subseteq} {\R \times \R_+
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+
+\zusatzklammer {jadi juga disyaratkan bahwa komponen kedua $\gamma$ bernilai positif di mana-mana} {} {.}
+Permukaan putarnya kemudian merupakan suatu submanifold tertutup dua dimensi dari $\R^3$ yang tidak berpotongan dengan sumbu $x$, sehingga kita memperoleh suatu manifold Riemann. Luas permukaannya dapat dihitung sebagai berikut.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Rotationsfläche zu ebener Kurve/Flächenberechnung/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan
+\maabbeledisp {\gamma} {]a,b[} {\R^2
+} { t } {(x(t),y(t))
+} {,}
+suatu
+\definitionsverweis {kurva terdiferensialkan}{}{}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ y(t)
+}
+{ > }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}}
+\faktvoraussetzung {yang menginduksi suatu
+\definitionsverweis {difeomorfisme}{}{}
+ke
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ = }{ \gamma(]a,b[)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ \subseteq }{ G
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {submanifold tertutup}{}{}
+satu dimensi dalam suatu himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{G
+}
+{ \subseteq }{\R \times \R_+
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Maka
+\definitionsverweis {permukaan putar}{}{}
+yang bersesuaian merupakan suatu submanifold tertutup dari
+\mathl{\R^3}{} yang tidak berpotongan dengan sumbu $x$, dan luas permukaannya sama dengan
+
+\mathdisp {2 \pi \int_{  a  }^{  b  } \sqrt{ (x'(t))^2+ (y'(t))^2 } \cdot y(t) \, d t} { . }
+}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Misalkan $S$ permukaan putar tersebut, yang merupakan submanifold tertutup dua dimensi dalam suatu himpunan terbuka di $\R^3$. Kita menerapkan
+[[Flächenstück im Raum/Einbettung/Flächenform/Fakt|Korolari 17.2]]
+pada parametrisasi
+\maabbeledisp {} { ]a,b[ \times ]0, 2 \pi[} {S
+} { (t, \alpha) } { (x(t),  y(t) \cos \alpha  , y(t) \sin \alpha  )
+} {,}
+Turunan-turunan parsialnya adalah
+
+\mathdisp {\begin{pmatrix}  x'(t) \\ y'(t) \cos \alpha \\  y'(t) \sin \alpha   \end{pmatrix} \text{   dan } \begin{pmatrix}  0  \\ - y(t) \sin \alpha \\  y(t) \cos \alpha   \end{pmatrix}} {  }
+
+dan karena itu
+
+\mathdisp {E(t, \alpha) = (x'(t))^2 + (y'(t))^2,\, F(t, \alpha)=0,\, G(t, \alpha) = (y(t))^2} { . }
+
+Dengan demikian, luas permukaannya sama dengan
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \int_{  a  }^{  b  } \int_{  0  }^{  2 \pi } \sqrt{(x'(t))^2+(y'(t))^2} \cdot   y(t) \, d \alpha \, d t
+}
+{ =} { 2 \pi \int_{  a  }^{  b  } \sqrt{(x'(t))^2+(y'(t))^2} \cdot   y(t) \, d t
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+  \zwischenueberschrift{Kartografi}
+
+Kartografi
+\zusatzklammer {abstrak} {} {}
+mempelajari peta untuk permukaan suatu sfer.
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Cilinderprojectie-constructie} {jpg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Cilinderprojectie-constructie.jpg } {} {KoenB} {Commons} {PD} {}
+
+\inputbeispiel{}
+{
+
+Kita meninjau pemetaan
+\maabbeledisp {\varphi} { [0, 2 \pi] \times [-1,1] } {\R^3
+} {(u,v)} { \left(  \sqrt{1-v^2} \cos  u   , \,   \sqrt{1-v^2} \sin  u  , \,   v                 \right)
+} {,}
+yang
+\definitionsverweis {citranya}{}{}
+terletak pada \stichwort {sfer satuan} {.} Pemetaan ini kontinu pada persegi panjang tertutup tersebut. Pemetaan ini dapat dibayangkan dengan mula-mula membentuk persegi panjang itu menjadi permukaan tabung, kemudian memproyeksikan lingkaran-lingkaran tabung ke lingkaran-lingkaran horizontal pada sebuah sfer yang mempunyai tinggi sama. Pada interior persegi panjang, pemetaan ini
+\definitionsverweis {terdiferensialkan}{}{}
+dengan
+\definitionsverweis {turunan parsial}{}{}
+
+\mathdisp {{ \frac{   \partial  \varphi  }{  \partial  u  } } = \begin{pmatrix}  - \sqrt{1-v^2} \sin  u  \\ \sqrt{1-v^2} \cos  u \\  0   \end{pmatrix} \text{   dan } { \frac{   \partial  \varphi  }{  \partial  v  } } = \begin{pmatrix}  { \frac{   -v }{  \sqrt{1-v^2}  } } \cos  u   \\ { \frac{   -v }{  \sqrt{1-v^2}  } } \sin  u \\  1   \end{pmatrix}} { . }
+
+\definitionsverweis {Pembatasan}{}{}
+pemetaan ini pada persegi panjang terbuka bersifat
+\definitionsverweis {injektif}{}{,}
+dan citranya adalah sfer satuan kecuali sebuah busur setengah lingkaran bujur. Dengan demikian, kita dapat menghitung luas permukaan sfer memakai koordinat-koordinat ini. Dengan notasi yang digunakan dalam
+[[Flächenstück im Raum/Einbettung/Flächenform/Fakt|Korolari 17.2]],
+kita memperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{E
+}
+{ =} { \left(  1-v^2  \right) \sin^{ 2  }  u  + \left(  1-v^2  \right) \cos^{ 2  }  u
+}
+{ =} { 1-v^2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{F
+}
+{ =} { v \sin  u\cos  u  - v \sin  u\cos  u
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{G
+}
+{ =} { { \frac{  v^2 }{  1-v^2 } } \cos^{ 2  }  u + { \frac{  v^2 }{  1-v^2 } } \sin^{ 2  }  u +1
+}
+{ =} { { \frac{  v^2 }{  1-v^2 } }  +1
+}
+{ =} { { \frac{   1  }{  1-v^2 } }
+}
+{ } {
+}
+}
+{}{}{.}
+Oleh karena itu,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \sqrt{EG-F^2 }
+}
+{ =} { 1
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+artinya, pemetaan kartografis ini \stichwort {mempertahankan luas} {\zusatzfussnote {Akan tetapi, pemetaan ini tidak mempertahankan panjang. Ruas horizontal pada persegi panjang sangat dipendekkan ketika mendekati kutub. Sebagai gantinya, ruas vertikal semakin diregangkan ketika mendekati kutub, dan kedua gejala ini saling menetralkan} {.} {,}}
+sehingga luas permukaan sfer sama dengan
+
+\mavergleichskettealign
+{\vergleichskettealign
+{A
+}
+{ =} {
+\int_{  ]0, 2 \pi[ \times ]- 1 ,  1 [   }   1  du \wedge dv
+}
+{ =} { \int_{  [0, 2 \pi] \times [- 1 ,  1 ]   }   1     \,  d  \lambda^2
+}
+{ =} { 2 \cdot 2 \pi
+}
+{ =} { 4 \pi
+}
+}
+{}
+{}{.}
+
+}
+
+\inputbeispiel{}
+{
+
+Kita meninjau pemetaan
+\maabbeledisp {\varphi} { [0, 2 \pi] \times \R} {\R^3
+} {(u,v)} { { \frac{   1  }{  \sqrt{1+v^2}  } }  ( \cos  u  , \sin  u  , v )
+} {,}
+yang
+\definitionsverweis {citranya}{}{}
+terletak pada \stichwort {sfer satuan} {.} Pemetaan ini dapat dibayangkan dengan mula-mula membentuk persegi panjang
+\zusatzklammer {yang tak terbatas dalam satu arah} {} {}
+\mathl{[0, 2 \pi] \times \R}{} menjadi selimut tabung tak hingga di atas lingkaran satuan, lalu memproyeksikan setiap titik selimut tabung itu ke sfer melalui garis yang menghubungkannya dengan pusat sfer. Di bawah pemetaan ini, semua titik permukaan sfer tercapai kecuali kutub utara dan kutub selatan. Selain itu, pemetaan tersebut bersifat injektif jika titik-titik ujung interval dibuang
+\zusatzklammer {maka setengah lingkaran bujur tidak termasuk dalam citra} {} {.}
+Pemetaan ini
+\definitionsverweis {terdiferensialkan}{}{}
+dengan
+\definitionsverweis {turunan parsial}{}{}
+
+\mathdisp {{ \frac{   \partial  \varphi  }{  \partial  u  } } = \begin{pmatrix}  { \frac{   - \sin  u  }{  \sqrt{1+v^2}  } }   \\ { \frac{   \cos  u  }{  \sqrt{1+v^2}  } }  \\  0   \end{pmatrix} = { \frac{   1  }{  \sqrt{1+v^2}  } } \begin{pmatrix}  - \sin  u  \\ \cos  u  \\  0   \end{pmatrix} \text{   dan } { \frac{   \partial  \varphi  }{  \partial  v  } } = \begin{pmatrix}  { \frac{   -v \cos  u  }{  \sqrt{1+v^2}^3  } }    \\ { \frac{   -v \sin  u  }{  \sqrt{1+v^2}^3  } }    \\  { \frac{   \sqrt{1+v^2 } - v^2 \left(  1+v^2  \right)^{- 1/2}   }{  1+v^2  } }   \end{pmatrix} = { \frac{   1  }{  \sqrt{1+v^2}^3  } } \begin{pmatrix}  -v \cos  u  \\ -v \sin  u  \\  1   \end{pmatrix}} { . }
+
+Kita dapat menghitung luas permukaan sfer memakai koordinat-koordinat ini. Dengan notasi yang digunakan dalam
+[[Flächenstück im Raum/Einbettung/Flächenform/Fakt|Korolari 17.2]],
+kita memperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{E
+}
+{ =} { { \frac{   1  }{  1+v^2 } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{F
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{G
+}
+{ =} { { \frac{   1  }{  \left(  1+v^2  \right)^3 } } \left(  v^2 \cos^{ 2  }  u + v^2 \sin^{ 2  }  u +1  \right)
+}
+{ =} { { \frac{   1  }{  \left(  1+v^2  \right)^2 } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Oleh karena itu,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \sqrt{EG-F^2 }
+}
+{ =} { \sqrt{ { \frac{   1  }{  \left(  1+v^2  \right)^3  } }  }
+}
+{ =} { { \frac{   1  }{  \sqrt{1+v^2}^3  } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dengan menggunakan
+[[Sigmaendliche Räume/Satz von Fubini/Fakt|Teorema 12.10 (Teori Ukuran dan Integrasi (Osnabrück 2022-2023))]],
+luas permukaan sfer dengan demikian sama dengan
+
+\mavergleichskettealign
+{\vergleichskettealign
+{A
+}
+{ =} {
+\int_{  ]0, 2 \pi[ \times \R   }   { \frac{   1  }{  \sqrt{1+v^2}^3  } }  du \wedge dv
+}
+{ =} { \int_{ ]0, 2 \pi[ \times  \R   }   { \frac{   1  }{  \sqrt{1+v^2}^3  } }    \,  d  \lambda^2
+}
+{ =} { 2 \pi \int_{  - \infty }^{ + \infty } { \frac{   1  }{  \sqrt{1+v^2}^3  } } \, d  v
+}
+{ } {
+}
+}
+{}
+{}{.}
+Menurut
+[[Integration/Eine Variable/1 durch Wurzel(1+t^2)^3/Beispiel|Contoh 31.7 (Analisis (Osnabrück 2021-2023))]],
+integral tersebut sama dengan $2$, sehingga diperoleh luas permukaan
+\mathl{4\pi}{.}
+
+}
+\stichwort {Proyeksi Mercator} {} berangkat dari proyeksi yang disebut terakhir dan mereparametrisasi koordinat vertikal sebagai $v=\sinh w,\;w\in\R$. Dengan demikian, koordinat lintang yang terbatas diwakili oleh koordinat vertikal tak terbatas, dan peta yang dihasilkan mempertahankan sudut.
+
+\inputbeispiel{}
+{
+
+Kita meninjau pemetaan
+\maabbeledisp {\varphi} {\R^2} {\R^3
+} {(u,v)} {(\cos  u \cos  v  , \cos  u \sin  v  , \sin  u )
+} {,}
+yang
+\definitionsverweis {citranya}{}{}
+terletak pada \stichwort {sfer satuan} {.} Dalam istilah geografi, $u$ menyatakan \stichwort {lingkaran lintang} {} dan $v$ menyatakan \stichwort {lingkaran bujur} {} dari titik yang bersesuaian pada bumi satuan
+\zusatzklammer {dalam \stichwort {koordinat geosentrik} {;} koordinat yang dipakai dalam geografi sedikit berbeda karena bumi bukan benar-benar sebuah sfer} {} {.}
+Pemetaan ini
+\definitionsverweis {terdiferensialkan}{}{}
+dengan
+\definitionsverweis {turunan parsial}{}{}
+
+\mathdisp {{ \frac{   \partial  \varphi  }{  \partial  u  } } = \begin{pmatrix}  - \sin  u \cos  v  \\ -\sin  u \sin  v \\  \cos  u   \end{pmatrix} \text{   dan } { \frac{   \partial  \varphi  }{  \partial  v  } } = \begin{pmatrix}  - \cos  u \sin  v  \\ \cos  u \cos  v \\  0   \end{pmatrix}} { . }
+
+\definitionsverweis {Pembatasan}{}{}
+pemetaan ini pada persegi panjang terbuka
+
+\mathdisp {{]{- { \frac{   \pi }{  2 } }}, { \frac{   \pi }{  2 } } [} \times {]{-\pi}, \pi[}} {  }
+
+bersifat
+\definitionsverweis {injektif}{}{,}
+dan citranya adalah sfer satuan kecuali satu lingkaran bujur. Dengan demikian, kita dapat menghitung luas permukaan sfer memakai koordinat-koordinat ini. Dengan notasi yang digunakan dalam
+[[Flächenstück im Raum/Einbettung/Flächenform/Fakt|Korolari 17.2]],
+kita memperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{E
+}
+{ =} { \sin^{ 2  }  u \cos^{ 2  }  v + \sin^{ 2  }  u \sin^{ 2  }  v + \cos^{ 2  }  u
+}
+{ =} { \sin^{ 2  }  u + \cos^{ 2  }  u
+}
+{ =} { 1
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{F
+}
+{ =} { \sin  u\cos  u \sin  v \cos  v  -\sin  u\cos  u \sin  v \cos  v
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{G
+}
+{ =} { \cos^{ 2  }  u \sin^{ 2  }  v + \cos^{ 2  }  u \cos^{ 2  }  v
+}
+{ =} { \cos^{ 2  }  u
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Oleh karena itu,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \sqrt{EG-F^2 }
+}
+{ =} { \sqrt{ 1 \cdot \cos^{ 2  }  u  }
+}
+{ =} { \cos  u
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Jadi, menurut
+[[Sigmaendliche Räume/Satz von Fubini/Fakt|teorema Fubini]],
+luas permukaan sfer sama dengan
+
+\mavergleichskettealign
+{\vergleichskettealign
+{A
+}
+{ =} {
+\int_{  ]- { \frac{   \pi }{  2 } } , { \frac{   \pi }{  2 } } [ \times ]-\pi, \pi[   }   \cos  u  \,du \wedge dv
+}
+{ =} { \int_{  [- { \frac{   \pi }{  2 } }, { \frac{   \pi }{  2 } }] \times [-\pi, \pi]   }   \cos  u    \,  d  \lambda^2
+}
+{ =} { \int_{  -\pi }^{  \pi } \int_{  - { \frac{   \pi }{  2 } }  }^{  { \frac{   \pi }{  2 } }  } \cos  u \, d  u \, d v
+}
+{ =} { \int_{  -\pi }^{  \pi } 2 \, d v
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { 4 \pi
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+
+}
+
+ [[Kategorie:Latexseite]]

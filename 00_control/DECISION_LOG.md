@@ -1480,3 +1480,70 @@ are mutually consistent. The public README binds DOI
 and matches 51,241,328 bytes by SHA-256 and MD5. Its 4,555-byte receipt has
 SHA-256 `b2c8e160c13115a50cdd2f57484e7ce6172387b9cc713cd70d10bef640b3bea6`.
 No upstream contact occurred.
+
+## D065 — Admit Unit 17 authority and begin its complete source-ordered translation (2026-08-26)
+
+**Decision:** Admit Lecture 17 and Worksheet 17 after exact revision, recursive
+export, expansion, sanitizer, solution, media-rights, repeatability, and
+current-revision gates all pass. Translate the complete pair and exactly
+source-supplied Solutions 2 and 4; keep the other seventeen solution absences
+explicit. Preserve all nineteen exercises, six point-bearing items, thirty
+points, blank hints, and the public-domain media attribution.
+
+**Evidence:** Lecture root pageid/revid `142561/944389` expands to a 24,138-byte
+sanitized source with SHA-256
+`0ac2f20594df388ad6e6ddb3a38515af63ec74b6298eb7acc1d5c20851f2d1e0`.
+Worksheet root pageid/revid `142651/886713` expands to 6,577 bytes with SHA-256
+`fec773f1573930cba133de084287bd5cd91ea2302e99c2d5c0d96e65fe5cbd96`.
+The preflight receipt SHA-256 is
+`0c7d19d122793874a8196386ba556cd4f80720602b08cf88e818dc1b8c59887a`;
+the live current-revision receipt SHA-256 is
+`788d919c67bb538639a0f65e8b78b3c47101c663a7c56dc9cf6767d643c97990`.
+The one media file is 172,697 bytes, SHA-256
+`7a3898760a53e679871e89e1a4382a4b5d8954c31f71d572bca6a3b3a160ef29`,
+creator KoenB, public domain.
+
+## D066 — Close the Unit 17 bounded reader gate and advance to Unit 18 (2026-08-26)
+
+**Decision:** Accept the complete Unit 17 lecture/worksheet pair and exactly
+the two source-supplied solutions after independent mathematical and reader
+review, explicit correction closure, regenerated translation and preparation
+receipts, exact exercise/solution/media closure, and an independent 28-path
+content-addressed binding check. Do not run another release ceremony at this
+single-unit boundary. Advance directly to Unit 18 authority freeze and
+translation; Units 17–19 form the next cumulative reader/backend/publication
+batch.
+
+**Reader identity and closure:** Lecture 17 is 24,372 bytes with SHA-256
+`ef22cfb765131f1b8c0b52bd78545c66e36eedec777f84bb5e6cc04ecf04ad3e`;
+Worksheet 17 is 6,649 bytes with SHA-256
+`0b1366792404b62fb2705f56995077f4d53bb9779e10c06f8a2c0b96a5241fdc`.
+All nineteen exercises remain in source order: thirteen practice and six
+graded items worth 5, 5, 4, 4, 6, and 6 points. Every hint remains blank.
+Exactly Solutions 2 and 4 are present with target SHA-256 values
+`5fdd8ec67263580cd64065b4bd574581b8c55788b2351f278098781cb091b5ef`
+and
+`8de955a9a8910399b656e291a11ec70096d59444ba292b6a00fc8a7bfbfc6c3e`;
+seventeen missing source solutions are not invented. The exact 172,697-byte
+public-domain image remains credited to KoenB and has SHA-256
+`7a3898760a53e679871e89e1a4382a4b5d8954c31f71d572bca6a3b3a160ef29`.
+
+**Corrections and review:** Sixteen records `O011-CORR-0194` through
+`O011-TRANS-0209` disclose the orientation hypothesis, malformed graph tuple,
+surface-of-revolution domain and positivity repairs, endpoint differentiability,
+unit-sphere terminology, parameter-domain order, Mercator reparametrization,
+latitude and parallel-ray qualifications, one frozen source typo, protected
+formula conjunctions, and natural Indonesian refinements. The complete
+protected formula chains remain intact. Reader-facing German is absent;
+structural German remains only in immutable MediaWiki targets, macro names,
+and category markers.
+
+**Binding evidence:** `qa/unit-17/POST_CORRECTION_MATH_QA.json` is 10,839
+bytes with SHA-256
+`90b5e890a3869d5187ec1e6bb6d66dba0842dbdab5e51414d1a05fe4fcb3eb0a`.
+The independent verifier resolves 28 unique path/byte/hash records, all four
+passing translation receipts, all sixteen manifest correction IDs, and their
+unique adverse-ledger rows. Its 5,656-byte receipt has SHA-256
+`e37b86dadd0b0cfb9f3bf6188e788173dab45d6c45dc395d072fe7f0765f27a5`.
+Unit 17 is complete only at its bounded per-unit gate; Unit 18 is active and
+the full O011 goal remains unfinished.

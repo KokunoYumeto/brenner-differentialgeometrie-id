@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "scope": "O011 Brenner Unit 17 exact media closure and TeX print derivatives",
+  "unit_number": 17,
+  "heading_level": "section",
+  "media_config": "source/unit_media.json",
+  "media_config_sha256": "c46cd6f52cda768b1b3e7aef8d46ab95e18920f8014c30e86ca8b79b14b38dfa",
+  "manifest": "authority/brenner_media_rights_manifest.csv",
+  "manifest_sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57",
+  "image_engine": "Version: ImageMagick 7.1.2-22 Q16 x64 ccf56fb:20260512 https://imagemagick.org",
+  "source_count": 1,
+  "derivative_count": 0,
+  "attribution_tex": {
+    "path": "build/generated/unit17-media-attribution-cumulative.tex",
+    "bytes": 654,
+    "sha256": "47659d9035a822317dd715ecfbbde58ff9f8f10498d921c7d8bb3b84364baa7d"
+  },
+  "media": [
+    {
+      "filename": "Cilinderprojectie-constructie.jpg",
+      "canonical_path": "authority/media/Cilinderprojectie-constructie.jpg",
+      "canonical_bytes": 172697,
+      "canonical_sha1": "0ad09cfc88a1cfb8d3c21c383f4cf4e9f5faf349",
+      "canonical_sha256": "7a3898760a53e679871e89e1a4382a4b5d8954c31f71d572bca6a3b3a160ef29",
+      "commons_description_url": "https://commons.wikimedia.org/wiki/File:Cilinderprojectie-constructie.jpg",
+      "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Cilinderprojectie-constructie.jpg",
+      "license": "Public domain",
+      "rights_label_id": "domain publik",
+      "license_url": "",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:KoenB\" title=\"User:KoenB\">KoenB</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+      "attribution_required": "false",
+      "attribution_id": "KoenB (karya sendiri; domain publik).",
+      "derivative": null
+    }
+  ]
+}

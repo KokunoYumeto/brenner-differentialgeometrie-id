@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-17/worksheet17.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0203",
+      "anchor": "Exercises 8 and 18, thirtieth parallel",
+      "change": "Render the intended geographic parallel unambiguously as latitude 30 degrees in both occurrences."
+    },
+    {
+      "correction_id": "O011-CORR-0204",
+      "anchor": "Exercise 9, illuminated fraction of Earth",
+      "change": "Replace the source's inconsistent finite point-source idealization with the parallel-ray assumption required by the intended one-half illuminated-surface answer."
+    },
+    {
+      "correction_id": "O011-CORR-0205",
+      "anchor": "Exercise 13 source verb",
+      "change": "Translate the intended imperative normally while recording the frozen German typo Bestime for Bestimme."
+    },
+    {
+      "correction_id": "O011-TRANS-0206",
+      "anchor": "Exercise 5 image terminology",
+      "change": "Use sfer satuan for the unit-sphere image rather than the solid-body term bola satuan."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0203",
+      "surface": "profile:commands",
+      "source_sha256": "31bdac77994ee5081355c9e86d56e39c10e2ee5d4d180f598cf567ccfe798ce6",
+      "target_sha256": "fc719d6f8513a2f8a4fa629cab4ca9e267396b73f9f202d766fa378611649b5d"
+    },
+    {
+      "correction_id": "O011-CORR-0203",
+      "surface": "inline_math",
+      "index": 12,
+      "source_sha256": "624b60c58c9d8bfb6ff1886c2fd605d2adeb6ea4da576068201b6c6958ce93f4",
+      "target_sha256": "e5238611aea8727fece9d6002c1f3dc386335348a5521b6e65d36e794118d3ac"
+    },
+    {
+      "correction_id": "O011-CORR-0203",
+      "surface": "inline_math",
+      "index": 19,
+      "source_sha256": "624b60c58c9d8bfb6ff1886c2fd605d2adeb6ea4da576068201b6c6958ce93f4",
+      "target_sha256": "e5238611aea8727fece9d6002c1f3dc386335348a5521b6e65d36e794118d3ac"
+    }
+  ],
+  "evidence_only_deltas": []
+}

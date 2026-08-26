@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-17/lecture17.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0194",
+      "anchor": "Surface-form pullback corollary",
+      "change": "Declare the closed embedded surface oriented and require the chart diffeomorphism to preserve orientation before asserting the positive square-root pullback formula without a sign."
+    },
+    {
+      "correction_id": "O011-CORR-0195",
+      "anchor": "Surface-of-revolution setup",
+      "change": "State that the second component of gamma is positive; the frozen source incorrectly says that gamma itself is positive."
+    },
+    {
+      "correction_id": "O011-CORR-0196",
+      "anchor": "Surface-of-revolution theorem, image manifold",
+      "change": "Replace the undefined interval symbol I by the declared domain ]a,b[ in M = gamma(]a,b[)."
+    },
+    {
+      "correction_id": "O011-CORR-0197",
+      "anchor": "Equal-area cylindrical sphere parametrization",
+      "change": "State continuity on the closed rectangle and confine the differentiability assertion to its interior, since the displayed v-derivative is singular at v = plus or minus 1."
+    },
+    {
+      "correction_id": "O011-CORR-0198",
+      "anchor": "Latitude-longitude parametrization image",
+      "change": "Use unit sphere rather than the frozen source's unit-ball term; the displayed map has norm one."
+    },
+    {
+      "correction_id": "O011-TRANS-0199",
+      "anchor": "Five displayed derivative and coefficient formulas",
+      "change": "Translate the protected in-formula conjunction und as dan without changing any mathematical token."
+    },
+    {
+      "correction_id": "O011-CORR-0200",
+      "anchor": "Graph parametrization tuple",
+      "change": "Remove two stray empty comma fields from the frozen graph tuple and retain the intended coordinates (x_1,...,x_n,psi(x_1,...,x_n))."
+    },
+    {
+      "correction_id": "O011-CORR-0201",
+      "anchor": "Equal-area sphere integral domain",
+      "change": "Put the u interval before the v interval so that the parameter domain agrees with the displayed map and the ordered form du wedge dv."
+    },
+    {
+      "correction_id": "O011-CORR-0202",
+      "anchor": "Mercator reparametrization",
+      "change": "Correct the reversed bounded/unbounded description by recording v = sinh(w), with unbounded Mercator vertical coordinate w representing bounded latitude."
+    },
+    {
+      "correction_id": "O011-TRANS-0209",
+      "anchor": "Independent Unit 17 lecture reader-language review",
+      "change": "Repair factorization, eigenspace-dimension, closed-embedded-surface, and cartographic-map phrasing without altering mathematical content or source topology."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0202",
+      "surface": "profile:commands",
+      "source_sha256": "0444a5ca334a47435a08ec72cf81cc23c74ff1a589b0e7d27a2c4251a480b55e",
+      "target_sha256": "c1c98705940151d7cb11a9745e9741157ef52819c713a7f62fca763c5da41915"
+    },
+    {
+      "correction_id": "O011-CORR-0196",
+      "surface": "protected:vergleichskette",
+      "index": 28,
+      "source_sha256": "ba87005dafb45d630e790e55412819221851af126a7be89932727c90353f1bbe",
+      "target_sha256": "9f8852fee5bf0eec8338ddb2b9486f483b67611e9d44ca4478fde71051642bae"
+    },
+    {
+      "correction_id": "O011-TRANS-0199",
+      "surface": "protected:mathdisp",
+      "index": 0,
+      "source_sha256": "5ab4fd4de918cec75dcce6e686a27697e863f4ba5f95486bbc38bcfded282014",
+      "target_sha256": "c92ad9077bc9d73adf3bf964bb1610615cc24e386e1235fec3aac5b5997f9890"
+    },
+    {
+      "correction_id": "O011-TRANS-0199",
+      "surface": "protected:mathdisp",
+      "index": 3,
+      "source_sha256": "e05b13af53972a0fcb0d035d0d177b7cad6c25c2d63c382acd7e1acd0ac9e9da",
+      "target_sha256": "68a6d6ef3047959f48f5320e0a7d26b955f4b497ffa307fadbafe4adcb810f11"
+    },
+    {
+      "correction_id": "O011-TRANS-0199",
+      "surface": "protected:mathdisp",
+      "index": 5,
+      "source_sha256": "ad03b1b2442e1f29ac4053e5fd9b85cb5f469e69c5e0cf8f6b36ca57f5482dd1",
+      "target_sha256": "d59d00b39c74a16eacbd81012c21143e3b9b68d137e04c8605c8735a9a6ff700"
+    },
+    {
+      "correction_id": "O011-TRANS-0199",
+      "surface": "protected:mathdisp",
+      "index": 6,
+      "source_sha256": "ae74f269423cc979f2b0ed5a685802406f19ecede5bcd688d9668397eee958e9",
+      "target_sha256": "90bcb5289def5530a0ccacd083747c35257fafbf1137e3c55b633117ef567b41"
+    },
+    {
+      "correction_id": "O011-TRANS-0199",
+      "surface": "protected:mathdisp",
+      "index": 7,
+      "source_sha256": "2cd5c9a0063c184cc12828ae64a5d49e94c940f7979a9d9da6b562dcdc5901b5",
+      "target_sha256": "461c45577f0a8b8f8280f79da8add0e01d265ccbfee6d0f339dff97a8210b431"
+    },
+    {
+      "correction_id": "O011-CORR-0202",
+      "surface": "inline_math",
+      "index": 44,
+      "source_sha256": "b53f9683364fb5fd05b6fb5edd28f4b4eb107e88a9129bb4a5be73b1f361b034",
+      "target_sha256": "f37eb764bd7ea701c1754c16331b3bd1d8668c837fe77108f232b2bee8359bad"
+    }
+  ],
+  "evidence_only_deltas": []
+}

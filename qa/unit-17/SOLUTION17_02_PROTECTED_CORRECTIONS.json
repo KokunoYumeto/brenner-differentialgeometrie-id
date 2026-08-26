@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-17/worksheet17_exercise02_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-TRANS-0207",
+      "anchor": "Solution 2 hemisphere and corollary terminology",
+      "change": "Use hemisfer for the upper half of the sphere and label the cited graph result consistently as Corollary 17.1."
+    }
+  ],
+  "allowed_deltas": [],
+  "evidence_only_deltas": []
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-17/worksheet17_exercise02_solution.id.tex",
+  "input_bytes": 1568,
+  "input_sha256": "5fdd8ec67263580cd64065b4bd574581b8c55788b2351f278098781cb091b5ef",
+  "output": "build/generated/worksheet17_exercise02_solution.id.build.tex",
+  "output_bytes": 1338,
+  "output_sha256": "fd70091b75a09f04a25b1590e8353333a7000965f24128736c39530f3bd93feb",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Graph einer Funktion/Riemannsche Untermannigfaltigkeit des R^n/Volumenform/Fakt",
+      "label": "Korolari 17.1"
+    },
+    {
+      "target": "Diffeomorphismus/Transformationsformel für Integrale/Fakt",
+      "label": "rumus transformasi"
+    },
+    {
+      "target": "Polarkoordinaten/Wurzelversion/Determinante/Aufgabe",
+      "label": "latihan"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

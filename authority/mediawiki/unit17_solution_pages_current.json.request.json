@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Wed, 26 Aug 2026 02:19:49 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Graph zu linearer Funktion/Maßberechnung/Konstant/Aufgabe/Lösung|Obere Halbkugel/Graph/Fläche/Aufgabe/Lösung|Rotationsfläche/(sin 1 durch y,y)/Diskutiere/Aufgabe/Lösung|Rotationsfläche/Graph der Exponentialfunktion im Negativen/Kleiner 10/Aufgabe/Lösung|Kartenbeispiele/Auf Einheitskugel/Surjektiv bis auf Nullmenge/Aufgabe/Lösung|Kartenbeispiele/Auf Einheitskugel/Finde Formeln für partielle Umkehrabbildungen/Aufgabe/Lösung|Längenkreis und Breitenkreis/Senkrecht/Aufgabe/Lösung|Erde/Breitenkreis 30/Länge/Aufgabe/Lösung|Erde/Sonnenseite/Aufgabe/Lösung|Rotationsfläche/Ellipsoid/Aufgabe/Lösung|Großkreise auf Karte/Horizontale Zylinderprojektion/Infimum und Supremum/Aufgabe/Lösung|Faser/Reguläre Funktion/Volumenform/Gradient und Skalarprodukt/Graph/Aufgabe/Lösung|Stereographische Projektion/Flächenform/Inhalt/Aufgabe/Lösung|Graph als riemannsche Mannigfaltigkeit/Flächeninhalt von x^2+y/Über Quadrat/Aufgabe/Lösung|Rotationsfläche/Parabelbogen/Keine Mannigfaltigkeit/Aufgabe/Lösung|Kugeloberfläche/Als Rotationsfläche/Flächeninhalt/Aufgabe/Lösung|Torus/Als Rotationsfläche/Flächeninhalt/Aufgabe/Lösung|Erdkugel/Abstand/Osnabrück und Bangalore/Aufgabe/Lösung|Erde/Breitenkreis 30/Länge auf verschiedenen Karten/Aufgabe/Lösung"
+  },
+  "response_bytes": 5289,
+  "response_path": "unit17_solution_pages_current.json",
+  "response_sha256": "e4937f2db3ab8fa28c29c24d3c786776bd3e901a52ac5de49271b89446c4bd9b",
+  "retrieved_utc": "2026-08-26T02:19:48Z",
+  "schema_version": 1
+}

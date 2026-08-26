@@ -1,0 +1,736 @@
+{
+  "authority": {
+    "course_recursive_export": {
+      "bytes": 3538709,
+      "path": "authority/mediawiki/brenner_course_recursive_current.xml",
+      "sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14"
+    },
+    "latex_surface_recursive_export": {
+      "bytes": 3722387,
+      "path": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+      "sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c"
+    },
+    "pages": {
+      "lecture_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture17_latex_surface_revid807122.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1200,
+          "path": "authority/mediawiki/lecture17_latex_surface_revid807122.metadata.json",
+          "sha256": "26249008e3bf5fb0dd68d3f46f1ed9b01829a73e59b9be01d7449498284574c2"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142591,
+        "parentid": 799031,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/lecture17_latex_surface_revid807122.wiki",
+        "revid": 807122,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T09:59:50Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 17/latex"
+      },
+      "lecture_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "630364a6b06e7dea098d6874eeb696c4fe821078d3b38ffd06675c30936f0880",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture17_root_revid944389.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "1g45kf5m83kqnlamm3fhxje43rb9w34",
+        "metadata": {
+          "bytes": 1172,
+          "path": "authority/mediawiki/lecture17_root_revid944389.metadata.json",
+          "sha256": "64c6f55223c6fac97e2c730b8f54d57104b09ad7f0531e0728e49028f27dd3c9"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142561,
+        "parentid": 905407,
+        "readable_normalized_bytes": 1939,
+        "readable_normalized_sha256": "bf6c9b9883b56f29eacbe9a07e4efc8083b0f87c04d76dc9f16473d19f424fa2",
+        "readable_normalized_witness": "authority/mediawiki/lecture17_root_revid944389.wiki",
+        "revid": 944389,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 1938,
+        "source_utf8_sha1": "0c64a10108900cd7fedcb72aaf9c7e6c0ab071b0",
+        "source_utf8_sha256": "544569750e3ef7d72857fd0a1358c99f03f8ff81217b32eb2b306e70fefbcd62",
+        "timestamp": "2024-08-31T10:52:31Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 17"
+      },
+      "worksheet_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet17_latex_surface_revid807091.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1207,
+          "path": "authority/mediawiki/worksheet17_latex_surface_revid807091.metadata.json",
+          "sha256": "ddee18dccbd0a722e585bfb897b8dc0ec04a29f6bbb343a4f69550fd7c5fd459"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142681,
+        "parentid": 799000,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/worksheet17_latex_surface_revid807091.wiki",
+        "revid": 807091,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T09:54:39Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 17/latex"
+      },
+      "worksheet_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "13498edbf80787f7dd5e82a836ae080d77cf1c708737199dcfa2664d313f65ec",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet17_root_revid886713.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "ro4ovxw7d66bfynjmyijl0m5207t97n",
+        "metadata": {
+          "bytes": 1179,
+          "path": "authority/mediawiki/worksheet17_root_revid886713.metadata.json",
+          "sha256": "c3e1e4e37c9e01222d9f3c679dd4e40d8dc675834609d219a1c27e3cdb963455"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142651,
+        "parentid": 790766,
+        "readable_normalized_bytes": 2033,
+        "readable_normalized_sha256": "e1d18d3997d8fb76ee4fdf62a6e115d6be00f27cfecaf2083725e53d63230643",
+        "readable_normalized_witness": "authority/mediawiki/worksheet17_root_revid886713.wiki",
+        "revid": 886713,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 2032,
+        "source_utf8_sha1": "ece16969c844d7b4b003c134ec2b6d221d439ae3",
+        "source_utf8_sha256": "0ddb48ea84ba942a2cad4570d232207104c7fdb6a9e1286954d992910e6df9c4",
+        "timestamp": "2023-02-20T18:31:36Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 17"
+      }
+    },
+    "root_revision_manifest": {
+      "bytes": 15237,
+      "path": "authority/brenner_selected_root_revisions.csv",
+      "sha256": "64cf91594907db45355e64fb512fb14092e15218c74847a8f60fe884a5284fc8"
+    },
+    "surface_revision_manifest": {
+      "bytes": 31799,
+      "path": "authority/brenner_selected_surface_revisions.csv",
+      "sha256": "9a3a6b7dc08cc022803dad24e959365d67810d4da87a8bc4385c601db9d4bd52"
+    }
+  },
+  "checks": {
+    "all_candidate_solution_titles_queried": true,
+    "all_displayed_images_have_license_macros": true,
+    "all_point_markers_resolved": true,
+    "all_supplied_solution_latex_snapshots_frozen": true,
+    "all_supplied_solution_revisions_frozen": true,
+    "exercise_root_expansion_count_agreement": true,
+    "lecture_expansion_sanitized": true,
+    "revision_export_hashes_match": true,
+    "root_revision_bindings_unique": true,
+    "root_witnesses_match_mediawiki_sha1": true,
+    "solution_macro_api_agreement": true,
+    "surface_revision_bindings_unique": true,
+    "translation_started_by_workflow": false,
+    "unit_media_binary_and_rights_closure": true,
+    "worksheet_expansion_sanitized": true
+  },
+  "expansions": {
+    "lecture": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 27245,
+      "http_date": "Wed, 26 Aug 2026 02:19:47 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 17/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 674,
+        "path": "authority/exports/lecture17_latex_expand.json.request.json",
+        "sha256": "3f9b125cc556e57410b3d1a30e03c85ac78d4393ecb039c3dbdd8a6c0490f1e9"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 29131,
+        "path": "authority/exports/lecture17_latex_expand.json",
+        "sha256": "b2b8a31d64cc29662f1872592ba3c2c6e73859cdfc37f59adad74a6e08d9aebb"
+      },
+      "retrieved_utc": "2026-08-26T02:19:46Z",
+      "sanitized_source": {
+        "bytes": 24138,
+        "path": "authority/expanded/lecture17_source.de.tex",
+        "sha256": "0ac2f20594df388ad6e6ddb3a38515af63ec74b6298eb7acc1d5c20851f2d1e0"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 672,
+        "path": "qa/unit-17/lecture17_sanitize.json",
+        "sha256": "59ee019a1ad331521d14773ac0ac6b28fa07b3eedbc9f6ac841fa5bf4e40ce43"
+      },
+      "valid_utf8": true
+    },
+    "worksheet": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 8117,
+      "http_date": "Wed, 26 Aug 2026 02:19:49 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 17/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 678,
+        "path": "authority/exports/worksheet17_latex_expand.json.request.json",
+        "sha256": "d05adb8580e31f0cd0ca070a8de3d01ed65e53eceed3a7ac8325f27c19d8e117"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 8700,
+        "path": "authority/exports/worksheet17_latex_expand.json",
+        "sha256": "1768f2f6c608792f0c4cbfe98bcc98de6c859603bbe734f2518152be34fa0b13"
+      },
+      "retrieved_utc": "2026-08-26T02:19:48Z",
+      "sanitized_source": {
+        "bytes": 6577,
+        "path": "authority/expanded/worksheet17_source.de.tex",
+        "sha256": "fec773f1573930cba133de084287bd5cd91ea2302e99c2d5c0d96e65fe5cbd96"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 673,
+        "path": "qa/unit-17/worksheet17_sanitize.json",
+        "sha256": "0eb39308b5f6ef60578b1496e9722e7450cada37faa5cb0f3dec26b9d43634b9"
+      },
+      "valid_utf8": true
+    }
+  },
+  "media": {
+    "all_displayed_images_have_license_macros": true,
+    "assets": [
+      {
+        "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:KoenB\" title=\"User:KoenB\">KoenB</a>",
+        "artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/wiki/User:KoenB"
+          ],
+          "creator_label": "KoenB"
+        },
+        "artist_text": "KoenB",
+        "attribution_required": false,
+        "binary": {
+          "bytes": 172697,
+          "path": "authority/media/Cilinderprojectie-constructie.jpg",
+          "sha256": "7a3898760a53e679871e89e1a4382a4b5d8954c31f71d572bca6a3b3a160ef29"
+        },
+        "bytes": 172697,
+        "commons_lastrevid": 860884002,
+        "commons_pageid": 4425145,
+        "commons_sha1": "0ad09cfc88a1cfb8d3c21c383f4cf4e9f5faf349",
+        "commons_touched": "2026-08-13T17:01:52Z",
+        "copyrighted_status": "False",
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "credit_text": "Own work",
+        "current_matches_frozen_rights_manifest": {
+          "artist_html": true,
+          "artist_identity": true,
+          "attribution_required": true,
+          "bytes": true,
+          "copyrighted": true,
+          "credit_html": false,
+          "license": true,
+          "license_url": true,
+          "mime": true,
+          "sha1": true
+        },
+        "description_url": "https://commons.wikimedia.org/wiki/File:Cilinderprojectie-constructie.jpg",
+        "download_receipt": {
+          "bytes": 172697,
+          "content_type": "image/jpeg",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Cilinderprojectie-constructie.jpg",
+          "http_date": "Wed, 26 Aug 2026 02:20:03 GMT",
+          "retrieved_utc": "2026-08-26T02:20:02Z",
+          "schema_version": 1,
+          "sha1": "0ad09cfc88a1cfb8d3c21c383f4cf4e9f5faf349",
+          "sha256": "7a3898760a53e679871e89e1a4382a4b5d8954c31f71d572bca6a3b3a160ef29",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Cilinderprojectie-constructie.jpg"
+        },
+        "filename": "Cilinderprojectie-constructie.jpg",
+        "frozen_artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:KoenB\" title=\"User:KoenB\">KoenB</a>",
+        "frozen_artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/wiki/User:KoenB"
+          ],
+          "creator_label": "KoenB"
+        },
+        "frozen_artist_text": "KoenB",
+        "frozen_credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+        "frozen_credit_text": "Eigenes Werk",
+        "height": 768,
+        "image_timestamp": "2008-07-22T15:22:12Z",
+        "image_user": "KoenB",
+        "license": "Public domain",
+        "license_url": null,
+        "localized_artist_variance": false,
+        "localized_credit_variance": true,
+        "mime": "image/jpeg",
+        "occurrences": [
+          {
+            "filename": "Cilinderprojectie-constructie.jpg",
+            "surface": "lecture17",
+            "surface_order": 1
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Cilinderprojectie-constructie.jpg",
+        "rights_critical_fields_match": true,
+        "sha256": "7a3898760a53e679871e89e1a4382a4b5d8954c31f71d572bca6a3b3a160ef29",
+        "usage_terms": "Public domain",
+        "width": 1024
+      }
+    ],
+    "current_commons_api": "https://commons.wikimedia.org/w/api.php",
+    "current_commons_query": {
+      "bytes": 2237,
+      "path": "authority/mediawiki/unit17_media_imageinfo_current.json",
+      "sha256": "a6af152e1bf0137a311be66639881355fe2078114d901c434aad8c2679536161"
+    },
+    "current_commons_query_request_receipt": {
+      "bytes": 662,
+      "path": "authority/mediawiki/unit17_media_imageinfo_current.json.request.json",
+      "sha256": "ef4ca1d873ed684a3b444e62962334a5c7fd974145c6be9a0fbe7a29195acaf2"
+    },
+    "occurrence_count": 1,
+    "query_retrieved_utc": "2026-08-26T02:20:01Z",
+    "rights_manifest": {
+      "bytes": 25588,
+      "path": "authority/brenner_media_rights_manifest.csv",
+      "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+    },
+    "surface_occurrences": [
+      {
+        "filename": "Cilinderprojectie-constructie.jpg",
+        "surface": "lecture17",
+        "surface_order": 1
+      }
+    ],
+    "unique_asset_count": 1
+  },
+  "next_action": "Translate Lecture 17, Worksheet 17, and exactly the 2 supplied solutions in source order.",
+  "schema_version": 1,
+  "scope": "Brenner Differentialgeometrie Unit 17 authority preflight; no translation",
+  "solutions": {
+    "exercise_count": 19,
+    "exercises": [
+      {
+        "exercise_index": 1,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Graph zu linearer Funktion/Maßberechnung/Konstant/Aufgabe/Lösung",
+        "task_title": "Graph zu linearer Funktion/Maßberechnung/Konstant/Aufgabe"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 2409,
+          "path": "authority/mediawiki/worksheet17_exercise02_solution_revid1112704.utf8.b64",
+          "sha256": "bf6ba0b79ec7b66c4b39570e2bbd522f175bd30b3318bfa53cd93d46d9fae089"
+        },
+        "exercise_index": 2,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 1723,
+          "http_date": "Wed, 26 Aug 2026 02:19:50 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Obere Halbkugel/Graph/Fläche/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 683,
+            "path": "authority/exports/worksheet17_exercise02_solution_latex_expand.json.request.json",
+            "sha256": "7aaf5f9fabd1a9091ffef85513e4d607f4598184280b6bce4c3e8a382f0313f7"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 1943,
+            "path": "authority/exports/worksheet17_exercise02_solution_latex_expand.json",
+            "sha256": "7aef1fb9c47be23544a10aae1fffc217acd5ea73068a669bcdda26fd36ac5cb7"
+          },
+          "retrieved_utc": "2026-08-26T02:19:50Z",
+          "sanitized_source": {
+            "bytes": 1598,
+            "path": "authority/expanded/worksheet17_exercise02_solution_source.de.tex",
+            "sha256": "d17c6d24732d641f6812059b56ad3c503a9044020b436c9b29f057bebb7784cc"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-17/worksheet17_exercise02_solution_sanitize.json",
+            "sha256": "f38de8e2facb0f7f572308994a1b516fa4807c825ce85a35311ebccc9984e680"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "da956bb827c2fc106370e55ed194f5ff60f04619",
+        "metadata": {
+          "bytes": 1224,
+          "path": "authority/mediawiki/worksheet17_exercise02_solution_revid1112704.metadata.json",
+          "sha256": "2a0aa024a67f3ba7c6dac26e4a3bf28957084eee37864632a2a9dd012c784054"
+        },
+        "pageid": 69586,
+        "parentid": 1096453,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 1807,
+          "path": "authority/mediawiki/worksheet17_exercise02_solution_revid1112704.wiki",
+          "sha256": "575ba51b5c435797a2069f6a3e2d5c1806508b642c441e5d3747e48c2ef28ee7"
+        },
+        "revid": 1112704,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Obere Halbkugel/Graph/Fläche/Aufgabe/Lösung",
+        "source_utf8_bytes": 1806,
+        "source_utf8_sha256": "97000bbbb42afea84e55a3c22d54b129c2faf6e6903b0e7d63ed2b87e9de13df",
+        "task_title": "Obere Halbkugel/Graph/Fläche/Aufgabe",
+        "timestamp": "2026-08-21T16:38:09Z"
+      },
+      {
+        "exercise_index": 3,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Rotationsfläche/(sin 1 durch y,y)/Diskutiere/Aufgabe/Lösung",
+        "task_title": "Rotationsfläche/(sin 1 durch y,y)/Diskutiere/Aufgabe"
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 1213,
+          "path": "authority/mediawiki/worksheet17_exercise04_solution_revid1096640.utf8.b64",
+          "sha256": "4274b16291cf2a2b2c5fbc46d1b0d9d04ce344570f2db687c2c8877fc0bd5d5d"
+        },
+        "exercise_index": 4,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 868,
+          "http_date": "Wed, 26 Aug 2026 02:19:52 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Rotationsfläche/Graph der Exponentialfunktion im Negativen/Kleiner 10/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 724,
+            "path": "authority/exports/worksheet17_exercise04_solution_latex_expand.json.request.json",
+            "sha256": "c61be2923b1d10fa0d5e5023105bc79fda4907b4569e57581c2a677e93ba3e19"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 1029,
+            "path": "authority/exports/worksheet17_exercise04_solution_latex_expand.json",
+            "sha256": "6dd5b27eaf419f0d617b305203c2e4ff7d4a2c393f02518f656a264eae863d6b"
+          },
+          "retrieved_utc": "2026-08-26T02:19:51Z",
+          "sanitized_source": {
+            "bytes": 741,
+            "path": "authority/expanded/worksheet17_exercise04_solution_source.de.tex",
+            "sha256": "a5309abc57923b02fcee4e2cbb2c7ae9c4f36acb0822da501452915855438b77"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 711,
+            "path": "qa/unit-17/worksheet17_exercise04_solution_sanitize.json",
+            "sha256": "3d1e0a080cf6ccbb8f130f1521f8bb77e4ca338b7493261bc367ef3415844e5f"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "6c6b3157cfaa1498eb848f989b097f3bcd4f4bd5",
+        "metadata": {
+          "bytes": 1262,
+          "path": "authority/mediawiki/worksheet17_exercise04_solution_revid1096640.metadata.json",
+          "sha256": "f83a26e01f5d75c4f53005d636c4cd397b8a751a02cfe362e296bac94a5ed690"
+        },
+        "pageid": 42744,
+        "parentid": 1095584,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 910,
+          "path": "authority/mediawiki/worksheet17_exercise04_solution_revid1096640.wiki",
+          "sha256": "280de1891de8a785eda161161496606cecd3487542ca32f00f7890afa1b3cd0f"
+        },
+        "revid": 1096640,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Rotationsfläche/Graph der Exponentialfunktion im Negativen/Kleiner 10/Aufgabe/Lösung",
+        "source_utf8_bytes": 909,
+        "source_utf8_sha256": "d3f7f49d1a5bd28a2e7ad8dfe2bf64154d52e2cbaf669535af05bd7407227fa2",
+        "task_title": "Rotationsfläche/Graph der Exponentialfunktion im Negativen/Kleiner 10/Aufgabe",
+        "timestamp": "2026-06-15T09:22:55Z"
+      },
+      {
+        "exercise_index": 5,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Kartenbeispiele/Auf Einheitskugel/Surjektiv bis auf Nullmenge/Aufgabe/Lösung",
+        "task_title": "Kartenbeispiele/Auf Einheitskugel/Surjektiv bis auf Nullmenge/Aufgabe"
+      },
+      {
+        "exercise_index": 6,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Kartenbeispiele/Auf Einheitskugel/Finde Formeln für partielle Umkehrabbildungen/Aufgabe/Lösung",
+        "task_title": "Kartenbeispiele/Auf Einheitskugel/Finde Formeln für partielle Umkehrabbildungen/Aufgabe"
+      },
+      {
+        "exercise_index": 7,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Längenkreis und Breitenkreis/Senkrecht/Aufgabe/Lösung",
+        "task_title": "Längenkreis und Breitenkreis/Senkrecht/Aufgabe"
+      },
+      {
+        "exercise_index": 8,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Erde/Breitenkreis 30/Länge/Aufgabe/Lösung",
+        "task_title": "Erde/Breitenkreis 30/Länge/Aufgabe"
+      },
+      {
+        "exercise_index": 9,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Erde/Sonnenseite/Aufgabe/Lösung",
+        "task_title": "Erde/Sonnenseite/Aufgabe"
+      },
+      {
+        "exercise_index": 10,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Rotationsfläche/Ellipsoid/Aufgabe/Lösung",
+        "task_title": "Rotationsfläche/Ellipsoid/Aufgabe"
+      },
+      {
+        "exercise_index": 11,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Großkreise auf Karte/Horizontale Zylinderprojektion/Infimum und Supremum/Aufgabe/Lösung",
+        "task_title": "Großkreise auf Karte/Horizontale Zylinderprojektion/Infimum und Supremum/Aufgabe"
+      },
+      {
+        "exercise_index": 12,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Faser/Reguläre Funktion/Volumenform/Gradient und Skalarprodukt/Graph/Aufgabe/Lösung",
+        "task_title": "Faser/Reguläre Funktion/Volumenform/Gradient und Skalarprodukt/Graph/Aufgabe"
+      },
+      {
+        "exercise_index": 13,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Stereographische Projektion/Flächenform/Inhalt/Aufgabe/Lösung",
+        "task_title": "Stereographische Projektion/Flächenform/Inhalt/Aufgabe"
+      },
+      {
+        "exercise_index": 14,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 5,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Graph als riemannsche Mannigfaltigkeit/Flächeninhalt von x^2+y/Über Quadrat/Aufgabe/Lösung",
+        "task_title": "Graph als riemannsche Mannigfaltigkeit/Flächeninhalt von x^2+y/Über Quadrat/Aufgabe"
+      },
+      {
+        "exercise_index": 15,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 5,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Rotationsfläche/Parabelbogen/Keine Mannigfaltigkeit/Aufgabe/Lösung",
+        "task_title": "Rotationsfläche/Parabelbogen/Keine Mannigfaltigkeit/Aufgabe"
+      },
+      {
+        "exercise_index": 16,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Kugeloberfläche/Als Rotationsfläche/Flächeninhalt/Aufgabe/Lösung",
+        "task_title": "Kugeloberfläche/Als Rotationsfläche/Flächeninhalt/Aufgabe"
+      },
+      {
+        "exercise_index": 17,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Torus/Als Rotationsfläche/Flächeninhalt/Aufgabe/Lösung",
+        "task_title": "Torus/Als Rotationsfläche/Flächeninhalt/Aufgabe"
+      },
+      {
+        "exercise_index": 18,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 6,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Erdkugel/Abstand/Osnabrück und Bangalore/Aufgabe/Lösung",
+        "task_title": "Erdkugel/Abstand/Osnabrück und Bangalore/Aufgabe"
+      },
+      {
+        "exercise_index": 19,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 6,
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Erde/Breitenkreis 30/Länge auf verschiedenen Karten/Aufgabe/Lösung",
+        "task_title": "Erde/Breitenkreis 30/Länge auf verschiedenen Karten/Aufgabe"
+      }
+    ],
+    "graded_exercise_count": 6,
+    "macro_api_agreement": true,
+    "missing_solution_count": 17,
+    "point_value_total": 30,
+    "practice_exercise_count": 13,
+    "query": {
+      "bytes": 5289,
+      "path": "authority/mediawiki/unit17_solution_pages_current.json",
+      "sha256": "e4937f2db3ab8fa28c29c24d3c786776bd3e901a52ac5de49271b89446c4bd9b"
+    },
+    "query_request_receipt": {
+      "bytes": 1888,
+      "path": "authority/mediawiki/unit17_solution_pages_current.json.request.json",
+      "sha256": "b40e41de7bd9332f49535cc2594ce2e5195641a6239c74aa1e29dafcb1acb838"
+    },
+    "query_retrieved_utc": "2026-08-26T02:19:48Z",
+    "schema_version": 1,
+    "supplied_solution_count": 2,
+    "supplied_solution_indices": [
+      2,
+      4
+    ],
+    "workflow": "o011-unit17-solution-freeze-v1",
+    "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 17"
+  },
+  "status": "pass",
+  "structure": {
+    "all_hint_fields_blank": true,
+    "lecture_section_count": 3,
+    "worksheet_exercise_count": 19,
+    "worksheet_graded_count": 6,
+    "worksheet_point_total": 30,
+    "worksheet_practice_count": 13,
+    "worksheet_section_count": 2,
+    "worksheet_solution_bearing_indices": [
+      2,
+      4
+    ]
+  },
+  "unit": 17,
+  "workflow": "o011-unit17-authority-preflight-v1"
+}

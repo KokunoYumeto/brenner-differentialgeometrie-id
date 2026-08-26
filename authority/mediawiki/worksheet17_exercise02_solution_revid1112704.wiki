@@ -1,0 +1,87 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Die obere Sphärenhälfte ist der Graph zur Funktion
+{{
+Abbildung/display
+|name= \psi
+| {{op:Abgeschlossener Ball| 0| 1|}} |\R
+|(u,v)| \sqrt{1- u^2-v^2}
+|SZ=.
+}}
+Die partiellen Ableitungen der Parametrisierung dieses Graphen sind
+{{
+mathkor|term1=
+{{op:Spaltenvektor| 1 | 0| {{op:Bruch| -u| \sqrt{1-u^2 -v^2} }} }}
+|und|term2=
+{{op:Spaltenvektor| 0 | 1| {{op:Bruch| -v| \sqrt{1-u^2 -v^2} }} }}
+|SZ=
+}} 
+und daher ist nach
+{{
+Faktlink
+|Faktseitenname=
+Graph einer Funktion/Riemannsche Untermannigfaltigkeit des R^n/Volumenform/Fakt
+|Nr=
+|SZ=
+}}
+die Wurzelfunktion aus
+{{
+Relationskette/display
+| 1 + {{op:Bruch|u^2| 1-u^2-v^2}}  + {{op:Bruch|v^2| 1-u^2-v^2}} 
+|| {{op:Bruch| 1| 1-u^2-v^2}} 
+||
+||
+||
+|SZ=
+}}
+ausschlaggebend. Der Flächeninhalt der halben Einheitssphäre ist somit
+{{
+Math/display|term=
+ \int_B {{op:Bruch| 1| \sqrt{1- u^2 -v^2} }} d \lambda^2
+|SZ=.
+}}
+Mit der Substitution
+{{
+mathkor|term1=
+u= \sqrt{w} {{op:cos|\alpha}}
+|und|term2=
+v= \sqrt{w} {{op:sin|\alpha}}
+|SZ=
+}}
+ergibt sich
+{{
+Faktlink
+|Präwort=mit der|Transformationsformel|Faktseitenname=
+Diffeomorphismus/Transformationsformel für Integrale/Fakt
+|Nr=
+|SZ=
+}}
+unter Verwendung von
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Polarkoordinaten/Wurzelversion/Determinante/Aufgabe
+|Nr=
+|SZ=
+}}
+{{
+Relationskette/display
+| \int_B {{op:Bruch| 1| \sqrt{1- u^2 -v^2} }} d \lambda^2
+|| \int_{[0,2 \pi] \times [0,1] } {{op:Bruch| 1| 2 }}  \cdot {{op:Bruch| 1| \sqrt{1- w} }}  d \lambda^2
+|| \pi \cdot \int_0^1 {{op:Bruch| 1| \sqrt{1- w} }} dw
+|| \pi \cdot (  -2\sqrt{1-w})\vert_0^1
+|| 2 \pi
+|SZ=.
+}}
+Der Flächeninhalt der Sphäre ist also {{math|term= 4 \pi|SZ=.}} 
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}
