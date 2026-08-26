@@ -3,16 +3,16 @@
   "role_id": "O011",
   "course_id": "D50",
   "lane": "smooth-manifolds-differential-geometry-id",
-  "status": "unit_16_zenodo_public_and_anonymously_verified_github_checkpoint_active",
+  "status": "unit_16_public_in_github_and_zenodo_with_anonymous_readbacks_unit_17_authority_freeze_active",
   "active_cursor": {
-    "unit_id": "o011-brenner-u16-release-milestone",
-    "authority_status": "pass",
-    "translation_status": "units_14_15_16_bounded_qa_and_cumulative_pdf_html_backend_pass",
+    "unit_id": "o011-brenner-u17",
+    "authority_status": "freeze_and_preflight_active",
+    "translation_status": "not_started_until_authority_gate_passes",
     "unit_16_qa_path": "qa/unit-16/POST_CORRECTION_MATH_QA.json",
     "unit_16_qa_bytes": 10639,
     "unit_16_qa_sha256": "13edee0684042a53beb4daa7b6dfe5c877ac7ed5c35ec03fa5fa63f11a710a4c",
-    "previous_public_unit": 13,
-    "target_cumulative_unit": 16,
+    "previous_public_unit": 16,
+    "target_cumulative_unit": 19,
     "pdf_path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-16-id.pdf",
     "pdf_bytes": 7241359,
     "pdf_pages": 261,
@@ -22,7 +22,10 @@
     "html_sha256": "5612cf4218619425e5524fd72c46757fb30db63c185407e99c4d84d99fe3a2f9",
     "backend_records": 3208,
     "backend_jsonl_sha256": "c42bac17822f949aa16ac0f87c7d0726526d020d46bab97f91d36e70f4b21983",
-    "next_executable_action": "Commit, tag, push, release, and anonymously verify the exact Unit 16 checkpoint on GitHub; then freeze authority and begin the complete source-ordered Unit 17 lecture/worksheet translation."
+    "unit_16_github_commit": "a492e9d7c23991edd8cec7978533e80b44f86e6f",
+    "unit_16_github_tag": "v0.16.0-unit-16",
+    "unit_16_github_readback_sha256": "b2c8e160c13115a50cdd2f57484e7ce6172387b9cc713cd70d10bef640b3bea6",
+    "next_executable_action": "Freeze and preflight the exact official Lecture 17 and Worksheet 17 authority closure, then translate the complete pair and every source-supplied solution in source order."
   },
   "authority": {
     "course_pageid": 142521,
@@ -68,7 +71,7 @@
     "zenodo_independent_readback_receipt_sha256": "81944e806274dffeae4513b64185db9b45f062296b45dd5658ca75d677ac8082"
   },
   "batch_progress": {
-    "milestone": "units_14_through_16_zenodo_public_and_verified_github_checkpoint_active_then_unit_17",
+    "milestone": "units_14_through_16_public_in_both_existing_lineages_unit_17_active",
     "completed_units": {
       "unit_08": {
         "status": "translated_and_bounded_math_qa_passed",
@@ -327,10 +330,10 @@
     },
     "active_unit": 17,
     "remaining_before_consolidated_gate": [],
-    "consolidated_gate_status": "units_01_through_16_pdf_html_browser_visual_backend_reproducibility_and_zenodo_public_readback_passed_github_active"
+    "consolidated_gate_status": "units_01_through_16_pdf_html_browser_visual_backend_reproducibility_github_zenodo_public_readbacks_passed"
   },
   "current": {
-    "stage": "unit_16_github_checkpoint_then_unit_17",
+    "stage": "unit_17_authority_freeze_and_preflight",
     "status": "active",
     "content_units": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
     "unit_14_qa_path": "qa/unit-14/POST_CORRECTION_MATH_QA.json",
@@ -344,7 +347,7 @@
     "unit_16_qa_bytes": 10639,
     "unit_16_qa_sha256": "13edee0684042a53beb4daa7b6dfe5c877ac7ed5c35ec03fa5fa63f11a710a4c",
     "active_source_order_unit": "o011-brenner-u17-after-unit16-publication",
-    "next_action": "commit and push the Unit 16 source/reader/backend boundary, create and anonymously verify tag v0.16.0-unit-16 and its exact seven-file release, then freeze and translate Unit 17 in source order",
+    "next_action": "freeze and preflight official Lecture 17 and Worksheet 17 recursively, then translate their complete source and every supplied solution in source order",
     "unit_16_cumulative_gate": {
       "status": "pass_source_package_reproduced_twice_and_zenodo_public_readback_passed_github_active",
       "pdf": {"path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-16-id.pdf", "bytes": 7241359, "pages": 261, "sha256": "58f98853ab8eeb1beb2aa4ade6bd3c746b62b4fa42c3c692a03c17076cdb06b8"},
@@ -363,7 +366,8 @@
       "exercise_count": 342,
       "source_supplied_solution_count": 48,
       "source_package": {"path": "output/release-unit16/geometri-diferensial-manifold-mulus-unit16-source-20260826.zip", "bytes": 37989234, "sha256": "080cc0c3902c3bda3a895646575ca2770cf20870ce16a740d6e3783cbc90a71c", "integrity_receipt_sha256": "035277c316604ed69e6aac8d6632b6c8b927a02a2701f35e9ce7b35f4e475fa5", "clean_rebuilds": 2},
-      "zenodo": {"concept_record_id": 22059977, "record_id": 22104426, "doi": "10.5281/zenodo.22104426", "version": "2026.08.26-unit16", "files": 7, "bytes": 51241328, "publication_receipt_sha256": "0f35287a422263d48786ed45dee0e581c191cf1a0c6dce4f701535579a2a0c63", "anonymous_readback_receipt_sha256": "1c846dd93cf66c60822577b39e5b3ecf5a42a3c1f950ae56d30da0a493ddd063"}
+      "zenodo": {"concept_record_id": 22059977, "record_id": 22104426, "doi": "10.5281/zenodo.22104426", "version": "2026.08.26-unit16", "files": 7, "bytes": 51241328, "publication_receipt_sha256": "0f35287a422263d48786ed45dee0e581c191cf1a0c6dce4f701535579a2a0c63", "anonymous_readback_receipt_sha256": "1c846dd93cf66c60822577b39e5b3ecf5a42a3c1f950ae56d30da0a493ddd063"},
+      "github": {"commit": "a492e9d7c23991edd8cec7978533e80b44f86e6f", "tag": "v0.16.0-unit-16", "release_id": 376840167, "release_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v0.16.0-unit-16", "files": 7, "bytes": 51241328, "anonymous_readback_receipt_sha256": "b2c8e160c13115a50cdd2f57484e7ce6172387b9cc713cd70d10bef640b3bea6"}
     },
     "previous_batch_milestone": "units_01_through_13_published_in_existing_zenodo_concept_and_twice_anonymously_byte_verified",
     "unit_11": {
@@ -569,19 +573,19 @@
   "publication_allowed": true,
   "publication": {
     "repository": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id",
-    "release_tag": "v0.13.1-unit-13",
-    "release_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v0.13.1-unit-13",
-    "content_commit": "56f2b2b4d11592ecb311f7e317b92ae591f752ab",
+    "release_tag": "v0.16.0-unit-16",
+    "release_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v0.16.0-unit-16",
+    "content_commit": "a492e9d7c23991edd8cec7978533e80b44f86e6f",
     "status": "public_commit_tag_release_and_seven_assets_anonymously_verified",
-    "public_readback_timestamp": "2026-08-25T14:29:46Z",
-    "current_anonymous_check_timestamp": "2026-08-25T14:29:46Z",
+    "public_readback_timestamp": "2026-08-26T02:18:23.501491+00:00",
+    "current_anonymous_check_timestamp": "2026-08-26T02:18:23.501491+00:00",
     "current_anonymous_check_status": "pass",
-    "public_readback_receipt_path": "qa/unit-13/GITHUB_PUBLIC_READBACK_RECEIPT_R1.json",
-    "public_readback_receipt_bytes": 4519,
-    "public_readback_receipt_sha256": "0c1f7061114402df477ddcb7817b5746d8f22c82ef13f38a48eea373d28d0ad8"
+    "public_readback_receipt_path": "qa/unit-16/GITHUB_PUBLIC_READBACK_RECEIPT.json",
+    "public_readback_receipt_bytes": 4555,
+    "public_readback_receipt_sha256": "b2c8e160c13115a50cdd2f57484e7ce6172387b9cc713cd70d10bef640b3bea6"
   },
   "pending_github_publication": {
-    "release_tag": "v0.13.1-unit-13",
+    "release_tag": "v0.16.0-unit-16",
     "includes_pending_predecessors": [],
     "status": "resolved_by_successful_atomic_push_and_public_release",
     "anonymous_public_readback_complete": true

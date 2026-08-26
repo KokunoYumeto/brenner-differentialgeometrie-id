@@ -1461,3 +1461,22 @@ complete bounded closure. The frozen upstream `Tangent bundle.svg` keeps its
 previously disclosed public authoring locator byte-identically; hardened scans
 admit only that exact known public string and reject any other Unix home,
 Windows profile, credential, or token pattern.
+
+## D064 — Close the matching GitHub Unit 16 checkpoint and advance to Unit 17 (2026-08-26)
+
+**Decision:** Commit the verified Unit 16 reader, source, backend, authority,
+rights, controls, and sanitized receipts; push `main`; create annotated tag
+`v0.16.0-unit-16`; attach the same seven release bytes already verified on
+Zenodo; and require an unauthenticated commit/tag/release/asset readback. After
+that passes, advance the active cursor directly to Unit 17 authority freeze and
+translation. Do not repeat Unit 16 release ceremony unless external bytes
+change.
+
+**Evidence:** Public content commit
+`a492e9d7c23991edd8cec7978533e80b44f86e6f`, its annotated tag, and GitHub
+release `https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v0.16.0-unit-16`
+are mutually consistent. The public README binds DOI
+`10.5281/zenodo.22104426`. The independent verifier downloads all seven assets
+and matches 51,241,328 bytes by SHA-256 and MD5. Its 4,555-byte receipt has
+SHA-256 `b2c8e160c13115a50cdd2f57484e7ce6172387b9cc713cd70d10bef640b3bea6`.
+No upstream contact occurred.
