@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-18/worksheet18.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0218",
+      "anchor": "Exercise 5 isometry assertion",
+      "change": "Replace the dimensionally impossible source chain I = gamma(I) subseteq R^n by the intended map gamma: I -> gamma(I) subseteq R^n."
+    },
+    {
+      "correction_id": "O011-CORR-0219",
+      "anchor": "Exercise 7 punctured-complex-plane codomain",
+      "change": "Write C setminus {0}, not C setminus {(0,0)}; the ordered pair belongs only to the identified R^2 representation."
+    },
+    {
+      "correction_id": "O011-CORR-0220",
+      "anchor": "Graded exercises 18 and 19 source spelling",
+      "change": "Translate the intended words normally while recording the frozen German typos Halbkreies and Kreies."
+    },
+    {
+      "correction_id": "O011-TRANS-0221",
+      "anchor": "Independent Unit 18 worksheet reader-language review",
+      "change": "Use the admitted continuous-differentiability phrase and distinguish the requested upper circular arc and disk area without changing any exercise data."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0218",
+      "surface": "profile:commands",
+      "source_sha256": "c06b2c43e0b5dc89400a05f5a5a93be3c29aea037eac50cc7091110f990fd6b1",
+      "target_sha256": "0e50a9a300fade4c04f99b3309f7049c8680f3015f5b7a8a963821d1d6934ca8"
+    },
+    {
+      "correction_id": "O011-CORR-0218",
+      "surface": "protected:vergleichskette",
+      "index": 2,
+      "source_sha256": "ce5d5f0b9913be1c10132bfb293eb6fc35cba5d8c76b09f8e85f6aa4497904c3",
+      "target_sha256": "99e9cd90ccd6c5667beee67466f312541b17a63ee2e85a4373266cc05745eeb1"
+    },
+    {
+      "correction_id": "O011-CORR-0219",
+      "surface": "protected:maabbeledisp",
+      "index": 1,
+      "source_sha256": "049f3bd23f46984e94d9e66e6f87724fe1ff63ef97214b308474b1dae873dd59",
+      "target_sha256": "29e11432d2b0e76ea0712dff5527be77cdd31d9b9b5c4e0c7d66cf8534bdc283"
+    },
+    {
+      "correction_id": "O011-CORR-0218",
+      "surface": "profile:brace_profile",
+      "source_sha256": "ae67e718c4a4109df98cdcc199070f9ba65a53d36c902089bf84132ff97ff86c",
+      "target_sha256": "0b8c79dd5f53b0781c7842ca13a94b43c5c0c0c0a147554f5aa2ab2fd9499a5f"
+    }
+  ],
+  "evidence_only_deltas": []
+}

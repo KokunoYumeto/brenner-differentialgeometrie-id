@@ -1,0 +1,26 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesungsgestaltung|19|
+
+{{Zwischenüberschrift|Die Weingartenabbildung für parametrisierte Mannigfaltigkeiten}}
+
+{{:Hyperfläche/Parametrisierung/Normalenfeld/Weingartenabbildung/Textabschnitt}}
+
+{{Zwischenüberschrift|Die Gaußkrümmung als intrinsisches Konzept}}
+
+{{
+Beispiellink
+|Beispielseitenname=
+Bogenparametrisierte Kurve/Gerade darüber/Isometrie/Beispiel
+|Nr=
+|SZ=
+}}
+zeigt, dass es Isometrien zwischen riemannschen Flächen 
+{{
+Zusatz/Klammer
+|text=etwa zwischen einem ebenen Flächenstück und einem Zylindermantel|
+|ISZ=|ESZ=
+}}
+gibt, unter den die Weingartenabbildung und die Hauptkrümmungen nicht erhalten bleiben. In der Ebene ist die Weingartenabbildung die Nullabbildung, auf dem Zylinder besitzt sie die Eigenwerte {{math|term= 0 |SZ=}} und {{math|term=   {{op:Bruch|1|r}}  |SZ=,}} wenn {{math|term= r |SZ=}} den Radius bezeichnet. Allerdings ist das Produkt der Eigenwerte, also die Determinante der Weingartenabbildung, die ja wiederum die Gaußsche Krümmung ist, für beide Flächen gleich {{math|term= 0 |SZ=.}} Wir werden in der Tat zeigen, dass die Gaußsche Krümmung einer Fläche im {{math|term= \R^3 |SZ=}} allein durch die riemannsche Struktur bestimmt ist.
+
+{{:Hyperfläche/Raum/Parametrisierung/Christoffelsymbole/Gaußkrümmung/Textabschnitt}}
+
+}}

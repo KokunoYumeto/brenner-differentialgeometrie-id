@@ -1,0 +1,1019 @@
+\setcounter{section}{18}
+
+  \zwischenueberschrift{Rumus transformasi untuk bentuk volume}
+
+
+
+\inputfaktbeweis
+{Differenzierbare Mannigfaltigkeit/Positive Volumenform/Diffeomorphismus/Rückzug/Maß/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dengan
+\definitionsverweis {basis topologi terhitung}{}{}
+dan misalkan $\omega$ suatu
+\definitionsverweis {bentuk volume positif}{}{}
+pada $M$. Misalkan
+\maabbdisp {\varphi} { L } { M
+} {}
+suatu
+\definitionsverweis {difeomorfisme}{}{}
+dengan manifold $L$, yang diberi orientasi tarikan balik melalui pemetaan tersebut, dan
+
+\mavergleichskette
+{\vergleichskette
+{ S
+}
+{ \subseteq }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {himpunan bagian terukur}{}{.}}
+\faktfolgerung {Maka
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_S \varphi^* \omega
+}
+{ =} { \int_{ \varphi(S)} \omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Menurut
+Lema 15.2,
+kita dapat mengasumsikan bahwa
+\mathkor {} {S} {dan} {\varphi(S)} {}
+masing-masing seluruhnya terletak di dalam sebuah peta berorientasi positif pada
+\mathkor {} {L} {dan} {M} {;}
+katakanlah
+
+\mavergleichskette
+{\vergleichskette
+{ S
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan peta
+\maabbdisp {\alpha} { U } { U' \subseteq \R^n
+} {}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi(S)
+}
+{ \subseteq }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan peta
+\maabbdisp {\beta} { V } { V' \subseteq \R^n
+} {.}
+Dengan memperkecil peta-peta itu lebih lanjut, kita dapat mengasumsikan bahwa
+\mathkor {} {U} {dan} {V} {}
+saling difeomorfik melalui $\varphi$. Dengan demikian, terdapat diagram komutatif difeomorfisme
+
+\mathdisp {\begin{matrix}  U  & \stackrel{ \varphi }{\longrightarrow} &  V  &  \\ \!\!\!\!\! \alpha \downarrow & & \downarrow \beta \!\!\!\!\!  & \\  U'  & \stackrel{ \beta \circ \varphi \circ \alpha^{-1} }{\longrightarrow} &  V' & \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }
+
+yang menginduksi diagram komutatif himpunan terukur
+
+\mathdisp {\begin{matrix}  S  & \stackrel{ \varphi }{\longrightarrow} &  \varphi (S)  &  \\ \!\!\!\!\! \alpha \downarrow & & \downarrow \beta \!\!\!\!\!  & \\  \alpha (S) & \stackrel{ \beta \circ \varphi \circ \alpha^{-1} }{\longrightarrow} &  \beta ( \varphi (S) ) & \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }
+
+Bagi bentuk volume $\omega$ pada $V$, berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \alpha^{ {-1}*} ( \varphi^* \omega)
+}
+{ =} { \left(  \beta \circ \varphi \circ \alpha^{-1}  \right)^*  ( \beta^{ {-1}*} \omega)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+menurut
+Lema 14.7 (4).
+Bentuk volume $\beta^{ {-1}*} \omega$ pada $V'$ mempunyai representasi
+\mathl{g dy_1  \wedge \ldots \wedge dy_n}{} dengan suatu fungsi terukur
+\maabb {g} {V'} {\R
+} {}
+dan, menurut definisi, $\int_{\varphi(S)} \omega$ sama dengan $\int_{\beta( \varphi(S))} g d \lambda^n$. Demikian pula,
+\mathl{\alpha^{ {-1}*} ( \varphi^* \omega)}{} pada $U'$ mempunyai representasi berbentuk
+\mathl{f dx_1 \wedge \ldots \wedge dx_n}{.} Bentuk volume pada $U'$ ini berimpit dengan penarikan balik
+\mathl{g dy_1  \wedge \ldots \wedge dy_n}{} dan, menurut
+Korolari 14.9,
+penarikan balik tersebut sama dengan
+
+\mathdisp {(g \circ \psi) \cdot \det  \left(  \left(  { \frac{   \partial   \psi_i   }{  \partial   x_j   } }  \right)_{1 \leq  i, j \leq n}  \right) dx_1 \wedge \ldots \wedge dx_n} {  }
+
+\zusatzklammer {dengan
+
+\mavergleichskettek
+{\vergleichskettek
+{ \psi
+}
+{ = }{ \beta \circ \varphi \circ \alpha^{-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {.}
+Dengan demikian, pernyataan tersebut mengikuti dari
+Teorema 14.3 (Teori Ukuran dan Integrasi (Osnabrück 2022-2023)).
+
+}
+
+  \zwischenueberschrift{Isometri antara manifold Riemann}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+\mathkor {} {L} {dan} {M} {}
+merupakan
+\definitionsverweis {manifold Riemann}{}{.}
+Suatu
+\definitionsverweis {pemetaan terdiferensialkan}{}{}
+\maabb {\varphi} { L } { M
+} {}
+disebut
+\definitionswort {isometri lokal}{,}
+jika untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {pemetaan singgung}{}{}
+\maabbdisp {T_P \varphi} {T_PL} { T_{\varphi(P) } M
+} {}
+merupakan suatu
+\definitionsverweis {isometri}{}{}
+terhadap hasil kali dalam yang diberikan.
+
+}
+
+Pemetaan
+\maabbeledisp {} {\R} { \R^2
+} { t } { \begin{pmatrix}  \cos  t  \\ \sin  t    \end{pmatrix}
+} {,}
+sudah menunjukkan bahwa suatu isometri lokal tidak harus injektif.
+
+\inputdefinition
+{}
+{
+
+Misalkan
+\mathkor {} {L} {dan} {M} {}
+merupakan
+\definitionsverweis {manifold Riemann}{}{.}
+Suatu
+\definitionsverweis {pemetaan terdiferensialkan}{}{}
+\maabb {\varphi} { L } { M
+} {}
+disebut
+\definitionswort {isometri}{,}
+jika pemetaan tersebut merupakan suatu
+\definitionsverweis {difeomorfisme}{}{}
+dan secara lokal merupakan isometri.
+
+}
+
+Manifold-manifold Riemann yang isometrik dianggap sama dalam geometri Riemann. Secara khusus, panjang, sudut, dan volume dipertahankan oleh isometri; lihat
+Lema 18.6.
+Akan tetapi, sama sekali tidak mudah menentukan sifat mana dari suatu manifold Riemann yang tertanam di dalam $\R^n$ yang hanya bergantung pada struktur Riemann dan bukan pada penanamannya. Sifat yang hanya bergantung pada struktur Riemann juga disebut intrinsik
+\zusatzklammer {sedangkan sifat yang bergantung pada penanaman disebut ekstrinsik} {} {.}
+Untuk sifat intrinsik, gambaran yang sesuai ialah menanyakan apakah sifat itu dapat dikenali dan dideskripsikan oleh suatu makhluk yang hanya boleh bergerak pada manifold tersebut dan tidak dapat meninggalkannya.
+
+\inputbeispiel{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu submanifold Riemann tertutup. Maka setiap
+\definitionsverweis {isometri linear}{}{}
+dari $\R^n$ menginduksi suatu
+\definitionsverweis {isometri}{}{}
+dari $M$ ke $\varphi(M)$; simbol pada kodomain menyatakan isometri linear yang bersangkutan.
+
+}
+
+\inputbeispiel{}
+{
+
+Misalkan
+\maabb {\gamma} {]a,b[} { \R^2
+} {}
+suatu kurva injektif
+\definitionsverweis {terdiferensialkan}{}{}
+dan
+\definitionsverweis {berparametrisasi panjang busur}{}{}
+dengan kurva citra
+
+\mavergleichskettedisp
+{\vergleichskette
+{ C
+}
+{ \subseteq} { V
+}
+{ \subseteq} { \R^2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+yang tertutup di dalam himpunan bagian terbuka $V$. Maka pemetaan
+\maabbdisp {\varphi = \gamma \times
+\operatorname{Id}_{ \R }} { ]a,b[ \times \R} { C \times \R
+} {}
+merupakan suatu
+\definitionsverweis {isometri}{}{,}
+dengan
+\mathl{]a,b[ \times \R}{} membawa struktur Euklides alami dan $C \times \R$ membawa struktur submanifold Riemann
+
+\mavergleichskette
+{\vergleichskette
+{ C \times \R
+}
+{ \subseteq }{ V \times \R
+}
+{ \subseteq }{ \R^3
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+yang terinduksi. Pada dasarnya, pemetaan ini berarti bahwa selembar kertas dibentangkan mengikuti sebuah kurva dasar. Serat-serat vertikal tidak berubah, sedangkan serat-serat horizontal merupakan salinan kurva dasar. Contoh tak trivial yang paling sederhana ialah membengkokkan lembar tersebut menjadi selimut tabung bercelah. Secara intuitif jelas bahwa panjang kurva pada permukaan dan luas permukaan tidak berubah. Kita dapat menunjukkan bahwa pemetaan ini merupakan isometri sebagai berikut. Untuk itu, misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ (s,t)
+}
+{ \in }{ ]a,b[ \times \R
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Maka
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  D\varphi  \right)_{ P } \left(  e_1   \right)
+}
+{ =} { \begin{pmatrix}  \gamma_1'(s) \\ \gamma_2'(s)\\  0   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  D\varphi  \right)_{ P } \left(  e_2   \right)
+}
+{ =} { \begin{pmatrix}  0  \\ 0\\  1   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+jadi kedua vektor citra dari vektor-vektor standar mempunyai panjang $1$ dan saling tegak lurus. Dengan demikian,
+\maabbdisp {} {T_P(  ]a,b[ \times \R)} { T_{\varphi(P)} (C \times \R)
+} {}
+merupakan suatu isometri.
+
+}
+
+
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Isometrie/Grundlegende Eigenschaften/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $L,M$ merupakan
+\definitionsverweis {manifold Riemann}{}{}
+yang
+\definitionsverweis {berorientasi}{}{}
+dan misalkan
+\maabb {\varphi} { L } { M
+} {}
+suatu
+\definitionsverweis {isometri}{}{}
+yang
+\definitionsverweis {mempertahankan orientasi}{}{.}}
+\faktuebergang {Maka pernyataan-pernyataan berikut berlaku.}
+\faktfolgerung {\aufzaehlungvier{Bentuk volume kanonik
+\definitionsverweis {ditarik balik}{}{}
+dari
+\definitionsverweis {bentuk volume kanonik}{}{}
+pada $M$ menjadi bentuk volume kanonik pada $L$.
+}{Untuk setiap kurva terdiferensialkan
+\maabbdisp {\gamma} {[a,b]} { L
+} {}
+\definitionsverweis {panjang kurva}{}{}
+$\gamma$ sama dengan panjang kurva $\varphi \circ \gamma$.
+}{ $\varphi$
+\definitionsverweis {mempertahankan ukuran}{}{.}
+}{ $\varphi$
+\definitionsverweis {konformal}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\aufzaehlungvier{Misalkan $\omega$ bentuk volume kanonik pada $M$ dan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ u_1 , \ldots , u_n
+}
+{ \in }{ T_PL
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {basis ortonormal}{}{}
+dari $T_PL$ yang merepresentasikan orientasi $L$. Maka
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \varphi^* \omega  \right) (P, u_1 , \ldots , u_n)
+}
+{ =} { \omega( \varphi(P), T_P\varphi(u_1) , \ldots , T_P\varphi(u_n))
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Karena sifat isometri,
+\mathl{T_P\varphi(u_1) , \ldots , T_P\varphi(u_n)}{} merupakan suatu basis ortonormal dari $T_{\varphi(P)} M$. Karena pemetaan tersebut mempertahankan orientasi, basis itu merepresentasikan orientasi pada $M$, sehingga nilainya sama dengan $1$. Sifat ini mengarakterisasi bentuk volume kanonik pada $L$.
+}{Panjang kurva $\gamma$ adalah integral dari
+\mathl{\Vert { \gamma'(t) } \Vert}{,} dengan norma diambil dalam
+\mathl{T_{\gamma(t)}L}{.} Demikian pula, panjang kurva $\varphi \circ \gamma$ adalah integral dari
+\mathl{\Vert { \left(  \varphi \circ \gamma  \right)'(t) } \Vert}{,} yang sama karena sifat isometri.
+}{Untuk suatu himpunan bagian
+
+\mavergleichskette
+{\vergleichskette
+{ S
+}
+{ \subseteq }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ukuran yang berasal dari bentuk volume kanonik pada $L$, jika diterapkan pada $S$, menurut bagian (1) dan
+Lema 18.1,
+sama dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_S \omega_L
+}
+{ =} { \int_S \varphi^*(\omega_M)
+}
+{ =} { \int_{\varphi(S)} \omega_M
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Hal ini langsung mengikuti dari sifat isometri.
+}
+
+}
+
+
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Karte/Isometrie/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold Riemann}{}{}
+dan misalkan
+\maabbdisp {\alpha} { U } { V \subseteq \R^n
+} {}
+suatu
+\definitionsverweis {peta}{}{}
+pada $M$.}
+\faktfolgerung {Maka $\alpha$ merupakan suatu
+\definitionsverweis {isometri}{}{}
+antara
+\mathkor {} {U} {dan} {V} {,}
+jika $V$ dilengkapi dengan
+\definitionsverweis {hasil kali dalam}{}{}
+yang ditentukan oleh
+\definitionsverweis {fungsi-fungsi fundamental metrik}{}{}
+$g_{ij}$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Hal ini langsung mengikuti dari definisi $g_{ij}$ melalui
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g_{ij}(Q)
+}
+{ =} { \left\langle  T(\alpha^{-1})(e_i)  ,  T(\alpha^{-1}) (e_j)    \right\rangle_{ \alpha^{-1}(Q) }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+  \zwischenueberschrift{Permukaan hiperbolik}
+
+Kita membahas tiga model untuk apa yang disebut permukaan hiperbolik
+\zusatzklammer {atau bidang hiperbolik} {} {}
+dan memberikan
+\definitionsverweis {isometri}{}{}
+di antara model-model tersebut. Dalam
+Contoh 29.10,
+kita akan melihat bahwa ini merupakan permukaan dengan
+\definitionsverweis {kelengkungan seksional}{}{}
+konstan $-1$. Model berikut disebut setengah bidang Poincaré.
+
+\inputbeispiel{}
+{
+
+Misalkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ H = {\mathbb H}
+}
+{ =} { \R \times \R_+
+}
+{ =} { \left\{ (x,y)  \mid   y > 0        \right\}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+merupakan setengah bidang atas yang dilengkapi dengan
+\definitionsverweis {metrik Riemann}{}{,}
+yang diberikan oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g_{11}
+}
+{ =} { g_{22}
+}
+{ =} { { \frac{   1  }{  y^2 } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ g_{12}
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Jadi, hasil kali dalam standar diskalakan dengan fungsi ${ \frac{   1  }{  y^2 } }$. Norma suatu vektor singgung pada titik
+\mathl{(x,y)}{} adalah norma standar yang diskalakan dengan faktor ${ \frac{   1  }{  \betrag {  y  } } }$. Dengan demikian, bentuk luas diberikan oleh kerapatan ${ \frac{   1  }{  y^2 } }$.
+
+}
+
+Model berikut disebut \stichwort {cakram hiperbolik} {.}
+
+\inputbeispiel{}
+{
+
+Pada cakram terbuka
+
+\mavergleichskettedisp
+{\vergleichskette
+{ V
+}
+{ =} { \left\{ (x,y)  \mid   x^2+y^2 < 1        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+kita mendefinisikan suatu
+\definitionsverweis {struktur Riemann}{}{}
+melalui bentuk bilinear
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g(Q) (u,v)
+}
+{ =} { { \frac{   4  }{  \left(  1-  \Vert { Q } \Vert^2   \right)^2  } }   \left\langle  u  , v  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+jadi hasil kali dalam standar diskalakan dengan fungsi
+\mathl{{ \frac{   4  }{  \left(  1 - \Vert { Q } \Vert^2   \right)^2  } }}{,} dan matriks fundamental pertamanya adalah
+
+\mathdisp {{ \frac{   4  }{  \left(  1- \Vert { Q } \Vert^2   \right)^2  } } \begin{pmatrix}  1   &   0   \\  0 &  1 \end{pmatrix}} { . }
+
+}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesunggif {Poincarehalfplaneconform} {gif} }
+\end{center}
+\bildtext {Animasi transformasi konformal setengah bidang Poincaré menjadi cakram satuan melalui inversi terhadap lingkaran yang berpusat di titik bergerak I. Edisi PDF menampilkan bingkai pertama yang statis; animasi asli dipertahankan untuk edisi HTML dan unduhan.} }
+
+\bildlizenz { Poincarehalfplaneconform.gif } {} {HB} {Commons} {CC-by-sa 3.0} {}
+
+
+
+\inputfaktbeweis
+{Hyperbolische Fläche/Kreisscheibe/Halbebene/Isometrie/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Pemetaan
+\maabbeledisp {\psi} { V } { H
+} { w } { { \frac{   \left(  w +1  \right)  { \mathrm i}  }{  1 - w } }
+} {,}}
+\faktfolgerung {mendefinisikan suatu
+\definitionsverweis {isometri}{}{}
+antara
+\definitionsverweis {cakram hiperbolik}{}{}
+dan
+\definitionsverweis {setengah bidang Poincaré}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Menurut
+Soal 18.10,
+pemetaan ini bijektif dan terdiferensialkan kompleks dengan invers yang terdiferensialkan kompleks, sehingga khususnya terdapat suatu difeomorfisme antara manifold-manifold diferensiabel. Menurut
+Soal 18.12,
+pemetaan ini dalam koordinat real diberikan oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \psi \begin{pmatrix}  a  \\b   \end{pmatrix}
+}
+{ =} { { \frac{   1  }{  -2a+1+a^2+b^2 } }  \begin{pmatrix}  -2b \\ 1-a^2-b^2   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+Menurut
+Soal 18.13,
+turunan-turunan parsialnya adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial   \psi  }{  \partial  a  } }
+}
+{ =} { { \frac{   1  }{  \left(  -2a+1+a^2+b^2  \right)^2  } } \begin{pmatrix}  4ab -4b  \\ 2a^2 -4a+2 -2 b^2     \end{pmatrix}
+}
+{ } {
+}
+{ } {}
+{ } {}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial   \psi  }{  \partial  b  } }
+}
+{ =} { { \frac{   1  }{  \left(  -2a+1+a^2+b^2  \right)^2  } } \begin{pmatrix}  4a  -2-2a^2+2b^2   \\ 4ab -4b     \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {}
+}
+{}{}{.}
+Kita harus menunjukkan bahwa
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle e_i  , e_j   \right\rangle_{V, (a,b)}
+}
+{ =} { \left\langle  \left(  D \psi  \right)_{(a,b)} \left(  e_i   \right)   ,  \left(  D \psi  \right)_{(a,b)} \left(  e_j   \right)   \right\rangle_{H, \psi (a,b)}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Karena kedua turunan parsial saling tegak lurus dan karena kedua metrik Riemann mewarisi ortogonalitas hasil kali dalam standar, hal ini hanya perlu ditunjukkan untuk
+
+\mavergleichskette
+{\vergleichskette
+{ i
+}
+{ = }{ j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Jadi, kita harus menunjukkan bahwa diferensial total mempertahankan panjang. Kita memperoleh
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \Vert { { \frac{   \partial   \psi  }{  \partial   a   } } ( \begin{pmatrix}  a  \\b   \end{pmatrix} ) } \Vert_{H, \psi(a,b) }
+}
+{ =} { \Vert { { \frac{   1  }{  \left(  -2a+1+a^2+b^2  \right)^2  } } \begin{pmatrix}  4ab -4b  \\ 2a^2 -4a+2 -2 b^2    \end{pmatrix} } \Vert_{H, \psi(a,b) }
+}
+{ =} { { \frac{   \left(  -2a+1+a^2+b^2  \right)  }{  \left(  1-a^2-b^2  \right)  } } \Vert { { \frac{   2  }{  \left(  -2a+1+a^2+b^2  \right)^2  } } \begin{pmatrix}  2(a-1)b  \\ \left(  a-1  \right)^2 - b^2    \end{pmatrix} } \Vert
+}
+{ =} { { \frac{   2  }{  \left(  1-a^2-b^2  \right) \left(  \left(  a-1  \right)^2 +b^2  \right)  } } \sqrt{ 4(a-1)^2b^2 + \left(  a-1  \right)^4 + b^4 -2\left(  a-1  \right)^2  b^2 }
+}
+{ =} { { \frac{   2  }{  \left(  1-a^2-b^2  \right) \left(  \left(  a-1  \right)^2 +b^2  \right)  } } \left(  \left(  a-1  \right)^2 + b^2   \right)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { { \frac{   2  }{  \left(  1- \left(  a^2+b^2  \right)  \right)  } }
+}
+{ =} { \Vert {e_1 } \Vert_{V, (a,b)}
+}
+{ } {}
+{ } {}
+}{}{.}
+Dengan cara yang sama, pernyataan tersebut diperoleh untuk turunan parsial kedua.
+
+}
+
+Metrik Euklides standar pada $\R^n$ menginduksi suatu metrik Riemann pada setiap submanifold tertutup. Akan tetapi, terdapat pula situasi ketika $\R^n$ dilengkapi dengan suatu
+\definitionsverweis {bentuk bilinear}{}{}
+tak terdegenerasi yang berbeda, yaitu tidak
+\definitionsverweis {definit positif}{}{,}
+namun pembatasannya pada suatu submanifold tertutup tetap menghasilkan manifold Riemann. Untuk contoh berikut, yaitu hiperboloid dua lembar, lihat juga Kurs:Lineare Algebra (Osnabrück 2017-2018)/Teil II/Vorlesung 40.
+
+\inputbeispiel{}
+{
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Hyperboloid2} {png} }
+\end{center}
+\bildtext {Yang dibahas ialah lembar atas hiperboloid dua lembar,\\
+yang dilengkapi dengan bentuk bilinear terinduksi dari bentuk Minkowski.} }
+
+\bildlizenz { Hyperboloid2.png } {} {RokerHRO} {Commons} {gemeinfrei} {}
+
+Kita melengkapi $\R^3$ dengan
+\definitionsverweis {bentuk Minkowski standar}{}{,}
+yakni bentuk bilinear yang bersesuaian dengan bentuk kuadratik $x^2+y^2-z^2$, dan kita meninjau himpunan bagian
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ =} { \left\{ (x,y,z)  \mid   x^2 +y^2-z^2 = -1  , \,  z > 0       \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Jika $\R^3$ dengan bentuk Minkowski dipandang sebagai model tiga dimensi untuk relativitas khusus, maka ini merupakan himpunan vektor pengamat berarah masa depan. Untuk suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ (x,y,z)
+}
+{ \in }{ Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+menurut
+Lema 40.4 (Aljabar Linear (Osnabrück 2024-2025)),
+pembatasan bentuk tersebut pada ruang singgung bersifat definit positif. Vektor-vektor
+\mathkor {} {\begin{pmatrix}  z  \\ 0\\  x   \end{pmatrix}} {dan} {\begin{pmatrix}  0  \\ z \\  y   \end{pmatrix}} {}
+membentuk suatu basis dari
+\definitionsverweis {ruang singgung}{}{}
+$T_PY$. Untuk sembarang vektor singgung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ v
+}
+{ =} { a \begin{pmatrix}  z  \\ 0\\  x   \end{pmatrix} + b \begin{pmatrix}  0  \\ z\\  y   \end{pmatrix}
+}
+{ =} { \begin{pmatrix} az \\ bz\\ ax+by   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+berlaku
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left\langle  v  , v  \right\rangle_{Y,P}
+}
+{ =} { {  \begin{pmatrix} az \\ bz\\ ax+by \end{pmatrix} ^{ \text{tr} } } \begin{pmatrix}  1   &   0  &  0 \\  0  &  1  &  0  \\ 0 &  0  &  -1 \end{pmatrix} \begin{pmatrix} az \\ bz\\ ax+by \end{pmatrix}
+}
+{ =} { {  \begin{pmatrix} az \\ bz\\ ax+by \end{pmatrix} ^{ \text{tr} } }\begin{pmatrix} az \\ bz\\  -ax-by \end{pmatrix}
+}
+{ =} { a^2z^2+b^2z^2-\left(  ax+by  \right)^2
+}
+{ =} { a^2+b^2+\left(  ay-bx  \right)^2
+}
+}
+{}
+{}{,}
+yang positif setiap kali kedua koefisien tidak sekaligus nol.
+
+}
+
+
+
+\inputfaktbeweis
+{Hyperbolische Fläche/Kreisscheibe/Zweischaliges Hyperboloid/Isometrie/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Pemetaan
+\maabbeledisp {\theta} { V } { Y
+} { \begin{pmatrix}  a  \\b   \end{pmatrix} } { \begin{pmatrix}  { \frac{   -2a }{ a^2+b^2-1  } }  \\ { \frac{   -2b }{ a^2+b^2-1  } } \\  { \frac{   -a^2-b^2-1  }{ a^2+b^2-1  } }   \end{pmatrix}
+} {,}}
+\faktfolgerung {mendefinisikan suatu
+\definitionsverweis {isometri}{}{}
+antara
+\definitionsverweis {cakram hiperbolik}{}{}
+$V$ dan lembar atas
+\definitionsverweis {hiperboloid dua lembar}{}{}
+dengan
+\definitionsverweis {metrik Minkowski}{}{}
+terinduksi.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Turunan parsial dari $\theta$ adalah
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ { \frac{   \partial  \theta  }{  \partial   a   } } ( \begin{pmatrix}  a  \\b   \end{pmatrix} )
+}
+{ =} { { \frac{   1  }{  \left(  a^2+b^2-1  \right)^2  } } \begin{pmatrix}  -2 \left(  a^2+b^2-1  \right)+ 2a (2a)  \\ 4ab\\  -2a \left(  a^2+b^2-1  \right) +2a  \left(  a^2+b^2+1  \right)   \end{pmatrix}
+}
+{ =} { { \frac{   1  }{  \left(  a^2+b^2-1  \right)^2  } } \begin{pmatrix}  2a^2-2b^2+2  \\ 4ab\\  4a   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial  \theta  }{  \partial   b   } } ( \begin{pmatrix}  a  \\b   \end{pmatrix} )
+}
+{ =} { { \frac{   1  }{  \left(  a^2+b^2-1  \right)^2  } } \begin{pmatrix}  4ab \\ - 2a^2+2b^2+2 \\  4b   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {}
+}
+{}{}{.}
+Kita memperoleh
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left\langle  \begin{pmatrix}  2a^2-2b^2+2  \\ 4ab\\  4a   \end{pmatrix}   ,  \begin{pmatrix}  4ab \\ - 2a^2+2b^2+2 \\  4b   \end{pmatrix}     \right\rangle_{Y}
+}
+{ =} { 4 ab \left(  2a^2-2b^2+2   \right) +  4 ab \left(  - 2a^2 +2b^2+2   \right)      -16ab
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{,}
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left\langle  \begin{pmatrix}  2a^2-2b^2+2  \\ 4ab\\  4a   \end{pmatrix}   ,  \begin{pmatrix}  2a^2-2b^2+2  \\ 4ab\\  4a   \end{pmatrix}      \right\rangle_{Y}
+}
+{ =} { \left(  2a^2-2b^2+2   \right)^2  +  16 a^2b^2 -16a^2
+}
+{ =} { 4  \left(  \left(  a^2-b^2+1   \right)^2  +  4 a^2b^2 -4a^2  \right)
+}
+{ =} { 4 \left(  a^4+b^4+1 -2a^2+2a^2b^2 -2b^2  \right)
+}
+{ =} { 4  \left(  a^2 +b^2-1  \right)^2
+}
+}
+{}
+{}{,}
+dan
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \left\langle  \begin{pmatrix}  4ab \\ - 2a^2+2b^2+2 \\  4b   \end{pmatrix}   ,  \begin{pmatrix}  4ab \\ - 2a^2+2b^2+2 \\  4b   \end{pmatrix}     \right\rangle_{Y}
+}
+{ =} { 4  \left(  a^2 +b^2-1  \right)^2
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{}{.}
+Dengan memperhitungkan faktor awal ${ \frac{   1  }{  \left(  a^2+b^2-1  \right)^2  } }$, nilai hasil kali dalam pada $Y$ berimpit dengan hasil kali dalam pada cakram.
+
+}

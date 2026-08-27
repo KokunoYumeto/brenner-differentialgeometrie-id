@@ -1,0 +1,84 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Die Abbildung ist auf
+{{
+Relationskette/display
+| \R^3
+|| \R^2 \times \R
+|| 
+|| 
+|| 
+|SZ=
+}}
+das Produkt einer 
+{{
+Definitionslink
+|Prämath=
+|ebenen Drehung|
+|Kontext=|
+|SZ=
+}}
+mit der Identität. Daher liegt eine euklidische 
+{{
+Definitionslink
+|Prämath=
+|Isometrie|
+|Kontext=linear|
+|SZ=
+}}
+des {{math|term= \R^3 |SZ=}} vor. Es sei
+{{
+Relationskette
+| (x,y,z)
+| \in |  T
+||
+||
+||
+|SZ=
+}}
+und
+{{
+Relationskette/display
+| \Psi_\alpha(x,y,z)
+|| ( u,v,z)
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Dann ist
+{{
+Relationskette/align/netzlinks
+| {{makl| \sqrt{u^2+v^2} -R |}}^2 +z^2 
+|| {{makl| \sqrt{ {{makl| x {{op:cos|\alpha|}} - y {{op:sin| \alpha|}}  |}}^2+ {{makl| x {{op:sin|\alpha|}} + y {{op:cos| \alpha|}} |}}^2} -R |}}^2 +z^2     
+|| {{makl| \sqrt{  x^2 {{op:cos|\alpha|exp=2}} + y^2 {{op:sin| \alpha|exp=2}}  -2xy {{op:cos|\alpha|}} {{op:sin| \alpha|}}    + x^2 {{op:sin|\alpha|exp=2}} + y^2 {{op:cos| \alpha|exp=2}}  +2xy {{op:cos|\alpha|}} {{op:sin| \alpha|}}     } -R |}}^2 +z^2 
+|| {{makl| \sqrt{  x^2   + y^2 } -R |}}^2 +z^2 
+|| r^2
+|SZ=,
+}}
+also
+{{
+Relationskette
+| \Psi_\alpha(x,y,z)
+| \in |  T
+||
+||
+||
+|SZ=.
+}}
+Es ist also
+{{
+Abbildung/display
+|name=\Psi_\alpha
+| T|T
+||
+|SZ=
+}}
+ein Diffeomorphismus und eine Isometrie, da {{math|term= T |SZ=}} die induzierte riemannsche Struktur trägt.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

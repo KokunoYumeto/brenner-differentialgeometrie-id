@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "qa": "qa/unit-19/POST_CORRECTION_MATH_QA.json",
+  "qa_bytes": 7398,
+  "qa_sha256": "4c13af7f96c6ab9f90992532ddfb59e943b8c269f53c5cf5505aa70e86ab1aae",
+  "checked_unique_path_records": 20,
+  "checked_paths": [
+    {
+      "path": "00_control/ADVERSE_LEDGER.csv",
+      "bytes": 70642,
+      "sha256": "4c3764411d3570c8906e9c1643d1ba10fd5e0216c2340a18c078e1ab7a937050"
+    },
+    {
+      "path": "00_control/TERMINOLOGY.csv",
+      "bytes": 25246,
+      "sha256": "bc316c9f62e1386b72f99dab46a6112cd9cbac5c3623d4edcd4b5beb76f0121b"
+    },
+    {
+      "path": "authority/brenner_media_rights_manifest.csv",
+      "bytes": 25588,
+      "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+    },
+    {
+      "path": "authority/expanded/lecture19_source.de.tex",
+      "bytes": 29051,
+      "sha256": "bd47777c4d0fc68698db177e8937ab15824931ee86707148eb4ecb4bc9c548f2"
+    },
+    {
+      "path": "authority/expanded/worksheet19_source.de.tex",
+      "bytes": 7006,
+      "sha256": "85fed2deb4f46ff8279383f9047a43fc8aee39b3cd7ddc35293b0686dc40ddad"
+    },
+    {
+      "path": "build/generated/lecture19.id.build.tex",
+      "bytes": 28594,
+      "sha256": "91b703089648fbc5a61266c2c636ca1e8bfa89bcda73c4edaaaa037befeddd9a"
+    },
+    {
+      "path": "build/generated/unit19-media-attribution-cumulative.tex",
+      "bytes": 212,
+      "sha256": "d2a97bac10b2dd4e028282294cc4f28343fe9a283cbe08d00b2b4f89afc045da"
+    },
+    {
+      "path": "build/generated/worksheet19.id.build.tex",
+      "bytes": 6280,
+      "sha256": "7671f9aee7946b487d8a2b8a370981b99159c20542f3199141026fa46ece5ee1"
+    },
+    {
+      "path": "qa/unit-19/AUTHORITY_PREFLIGHT.json",
+      "bytes": 18631,
+      "sha256": "5e0fec5205ae00d794dac3b64eabf0a333d982c2c7f13a50efdb003e5485465a"
+    },
+    {
+      "path": "qa/unit-19/AUTHORITY_PREFLIGHT_VERIFY.json",
+      "bytes": 501,
+      "sha256": "af656b6f9abbe5e7117019fa7a38d0b876a0f21d7c720393c3aa249586629600"
+    },
+    {
+      "path": "qa/unit-19/CURRENT_REVISION_CHECK.json",
+      "bytes": 3065,
+      "sha256": "399a006a5b865ab6cc1e8e1df8e6d347b2e17d641d3624f5677388b38a46b625"
+    },
+    {
+      "path": "qa/unit-19/INDEPENDENT_READER_QA.md",
+      "bytes": 3527,
+      "sha256": "a5d3817016e3cf0e5a7922209a7d0f596cdb60a17fbef6df6a19cf1eb8647e0a"
+    },
+    {
+      "path": "qa/unit-19/LECTURE19_PROTECTED_CORRECTIONS.json",
+      "bytes": 7054,
+      "sha256": "8e007b0c689d89a6a10ea340d303f6f364d9f7b019465044ca78b44a20869604"
+    },
+    {
+      "path": "qa/unit-19/WORKSHEET19_PROTECTED_CORRECTIONS.json",
+      "bytes": 2821,
+      "sha256": "ebdfa36dbd85ac654fa01cd3b38403e4b6bb02010fa56f8a991c822d11f4f50f"
+    },
+    {
+      "path": "qa/unit-19/WORKSHEET19_TOPOLOGY_QA.json",
+      "bytes": 767,
+      "sha256": "a0a1467504246e76de7a296299487ff5e3ff19eea0e4c357a3d6a1f5d1de3b0f"
+    },
+    {
+      "path": "qa/unit-19/solution_closure.json",
+      "bytes": 6005,
+      "sha256": "2ddd344eb8c2eec7c6ee9431d8850541465ee8cf6904e1b0063c0bae9e74b944"
+    },
+    {
+      "path": "qa/unit-19_media.json",
+      "bytes": 765,
+      "sha256": "1ac6159dc835ffb3d693a4d40d432795f9a18cf4c81e84901147ccba73312553"
+    },
+    {
+      "path": "source/unit_media.json",
+      "bytes": 6203,
+      "sha256": "dd901249426ef0fdc839c647eccf313c1df7c94297f3d56d0c6402ae5cb2128b"
+    },
+    {
+      "path": "source/units/unit-19/lecture19.id.tex",
+      "bytes": 29476,
+      "sha256": "ca3e199d2e80c45a8d87f43c2dae79538108ba04749ace112b88fc4d28000147"
+    },
+    {
+      "path": "source/units/unit-19/worksheet19.id.tex",
+      "bytes": 7220,
+      "sha256": "338753c6889573ae0056d4975f14e6271722751f349a15ed0df9b3d044689df8"
+    }
+  ],
+  "translation_receipts_checked": [
+    "qa/unit-19/lecture19_translation.json",
+    "qa/unit-19/worksheet19_translation.json"
+  ],
+  "declared_correction_count": 16,
+  "manifest_correction_count": 16,
+  "adverse_ledger_record_count": 245,
+  "status": "pass",
+  "failures": []
+}

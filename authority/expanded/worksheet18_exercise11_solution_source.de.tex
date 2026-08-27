@@ -1,0 +1,263 @@
+$\varphi$ ist wegen
+
+\mavergleichskette
+{\vergleichskette
+{ - { \mathrm i}
+}
+{ \notin }{ {\mathbb H}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+auf ${\mathbb H}$ definiert. Wir zeigen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \betrag {  { \frac{  z-  { \mathrm i}  }{ z + { \mathrm i}  } }  }
+}
+{ <} { 1
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+was zu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \betrag {  z- { \mathrm i}  }
+}
+{ <} { \betrag { z + { \mathrm i}  }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+äquivalent ist. Mit
+
+\mavergleichskette
+{\vergleichskette
+{z
+}
+{ = }{ a+b { \mathrm i}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist dies äquivalent zu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ a^2 +(b+1)^2
+}
+{ >} { a^2 +(b-1)^2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+was wiederum äquivalent zu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ b^2+2b+1
+}
+{ >} { b^2 -2b +1
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist, was wegen
+
+\mavergleichskette
+{\vergleichskette
+{ b
+}
+{ > }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+stimmt.
+
+Für
+
+\mavergleichskette
+{\vergleichskette
+{ \betrag {  w  }
+}
+{ < }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist direkt
+
+\mavergleichskette
+{\vergleichskette
+{ 1-w
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+daher ist $\psi$ definiert. Sei
+
+\mavergleichskette
+{\vergleichskette
+{ w
+}
+{ = }{ c+d  { \mathrm i}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ c^2+d^2
+}
+{ < }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann ist
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ { \frac{   (w+1) { \mathrm i}  }{  1-w  } }
+}
+{ =} { { \frac{   (c+1+d { \mathrm i} ) { \mathrm i}  }{  1-c -d { \mathrm i}  } }
+}
+{ =} { { \frac{   -d +(c+1) { \mathrm i}  }{  1-c -d { \mathrm i}  } }
+}
+{ =} { { \frac{   -d +(c+1) { \mathrm i}  }{  1-c -d { \mathrm i}  } } \cdot { \frac{   1-c+d { \mathrm i}  }{  1-c +d { \mathrm i}  } }
+}
+{ =} { { \frac{   -d (1-c) -d(c+1) + ( (1+c)(1-c)-d^2 ) { \mathrm i}  }{  (1-c)^2 +d^2  } }
+}
+}
+{}
+{}{.}
+Da der Nenner eine positive reelle Zahl ist, ist der Imaginärteil dieser Zahl wegen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 1-c^2-d^2
+}
+{ >0} {
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+positiv, also liegt das Bild von $\psi$ in ${\mathbb H}$.
+
+Wir berechnen nun die Hintereinanderschaltungen. Es ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \varphi( \psi(w))
+}
+{ =} { \varphi \left( \frac{   (w+1) { \mathrm i}  }{  1-w  } \right)
+}
+{ =} { { \frac{   { \frac{  (w+1) { \mathrm i}  }{  1-w  } } - { \mathrm i}  }{  { \frac{   (w+1) { \mathrm i}  }{  1-w  } } + { \mathrm i}  } }
+}
+{ =} { { \frac{   (w+1) { \mathrm i} - (1-w) { \mathrm i}  }{  (w+1) { \mathrm i} + (1-w) { \mathrm i}  } }
+}
+{ =} { { \frac{   2 w { \mathrm i}  }{  2 { \mathrm i}  } }
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { w
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{}
+und
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \psi( \varphi(z))
+}
+{ =} { \psi \left(  { \frac{   z- { \mathrm i}  }{  z + { \mathrm i}  } }  \right)
+}
+{ =} { { \frac{   \left(  { \frac{   z- { \mathrm i}  }{ z + { \mathrm i}  } } +1  \right)  { \mathrm i}  }{  1- { \frac{   z- { \mathrm i}  }{ z + { \mathrm i}  } }  } }
+}
+{ =} { { \frac{   ( z- { \mathrm i} + z+ { \mathrm i} ) { \mathrm i}  }{  z+ { \mathrm i} - (z- { \mathrm i} )  } }
+}
+{ =} { { \frac{   2 z { \mathrm i}  }{  2 { \mathrm i}  } }
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { z
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+
+ [[Kategorie:Latexseite]]

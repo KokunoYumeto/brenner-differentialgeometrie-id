@@ -1,0 +1,1581 @@
+\setcounter{section}{19}
+
+  \zwischenueberschrift{Die Weingartenabbildung für parametrisierte Mannigfaltigkeiten}
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {f} { W } { \R
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ f^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $f$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei
+\maabbdisp {\varphi} { V } { Y
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen eine diffeomorphe Parametrisierung einer offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{}
+}
+{}{}{,}
+man kann also $\varphi^{-1}$ als eine
+\definitionsverweis {Karte}{}{}
+für $Y$ auffassen. Dabei ist
+für
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi(Q)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T_{P}Y
+}
+{ =} { \operatorname{bild}  \left(D\varphi\right)_{Q}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+es liegt also ein linearer Isomorphismus
+\maabbdisp {\left(D\varphi\right)_{Q}} {\R^{n-1}} { T_{P} Y
+} {}
+vor, der den Tangentialraum
+\mathl{T_{P} Y}{} beschreibt. Die Standardbasisvektoren $e_i$  werden auf
+
+\mavergleichskette
+{\vergleichskette
+{ \partial_i \varphi(Q)
+}
+{ = }{ \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial  u_i   } } ( Q)  \\\vdots\\  { \frac{   \partial  \varphi_n   }{  \partial  u_i   } } ( Q)   \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+abgebildet und bilden eine Basis des Tangentialraumes. Wenn man
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit der von der euklidischen Struktur des $\R^n$ induzierten
+\definitionsverweis {riemannschen Struktur}{}{}
+versieht, so erhält man die Funktionen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g_{ij}(Q)
+}
+{ =} { \left\langle  \partial_i \varphi (Q)   ,  \partial_j \varphi (Q)   \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+die man zur ersten Fundamentalmatrix
+\zusatzklammer {metrischen Fundamentalmatrix} {} {}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ G
+}
+{ =} { \left(  g_{ij}  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+zusammenfasst. Die erste Fundamentalmatrix ist durch die riemannsche Struktur von $Y$ vollständig bestimmt.
+
+Die
+\definitionsverweis {Weingartenabbildung}{}{}
+\maabbdisp {L_{P}} { T_{P}Y } { T_{P}Y
+} {}
+kann man bezüglich der Basis
+\mathl{\partial_i \varphi (Q)}{} beschreiben. Dies geschieht am besten, wenn man die sogenannte zweite Fundamentalmatrix einführt. Dazu sei $Y$ durch ein
+\definitionsverweis {Einheitsnormalenfeld}{}{}
+$N$
+\definitionsverweis {orientiert}{}{,}
+was unter Rückgriff auf die beschreibende Funktion $f$ möglich ist. Das Einheitsnormalenfeld eingeschränkt auf $U$ kann man unmittelbar auf $V$ auffassen. Wegen der vorausgesetzten zweifachen stetigen Differenzierbarkeit von $f$ und der von $\varphi$ ist das Einheitsnormalenfeld auf $V$ differenzierbar. Wir definieren.
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {f} { W } { \R
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ f^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $f$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei
+\maabbdisp {\varphi} { V } { Y
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+eine zweifach differenzierbare Parametrisierung einer offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit den Parametern
+\mathl{u_1 , \ldots , u_{n-1}}{.} Es sei $Y$ durch ein
+\definitionsverweis {Einheitsnormalenfeld}{}{}
+$N$
+\definitionsverweis {orientiert}{}{,}
+wobei wir $N$ als Feld auf $V$ auffassen. Dann setzt man
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h_{i j}
+}
+{ =} { \left\langle  \partial_i \partial_j \varphi , N  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Die
+\definitionswort {zweite Fundamentalmatrix}{}
+zu $\varphi$ ist die
+\zusatzklammer {von
+
+\mavergleichskettek
+{\vergleichskettek
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+abhängige Matrix
+
+\mavergleichskettedisp
+{\vergleichskette
+{ H
+}
+{ =} { \left(  h_{ij}   \right)_{1 \leq i,j \leq n-1}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+In dieser Definition wird auf das Einheitsnormalenfeld und über das Skalarprodukt auf die riemannsche Struktur von $Y$ Bezug genommen. Die zweite Fundamentalmatrix ist nach
+dem [[Satz von Schwarz/R/Partielle Version/Fakt|Satz von Schwarz]]
+symmetrisch.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/R^n/Parametrisierung/Zweite Fundamentalform/Variante/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {f} { W } { \R
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ f^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $f$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei
+\maabbdisp {\varphi} { V } { Y
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+eine zweifach differenzierbare Parametrisierung einer offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit den Parametern
+\mathl{u_1 , \ldots , u_{n-1}}{.} Es sei $Y$ durch ein
+\definitionsverweis {Einheitsnormalenfeld}{}{}
+$N$
+\definitionsverweis {orientiert}{}{,}
+wobei wir $N$ als Feld auf $V$ auffassen.}
+\faktfolgerung {Dann gilt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h_{i j}
+}
+{ =} { - \left\langle  \partial_i  \varphi ,  \partial_j N  \right\rangle
+}
+{ =} { \left\langle  \partial_i  \varphi ,  L_{} ( \partial_j \varphi)  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Da das
+\definitionsverweis {Einheitsnormalenfeld}{}{}
+senkrecht auf den
+\definitionsverweis {Tangentialräumen}{}{}
+an $Y$ steht, gilt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  \partial_i \varphi , N  \right\rangle
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Daraus folgt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 0
+}
+{ =} { \left\langle  \partial_j \partial_i \varphi , N  \right\rangle + \left\langle  \partial_i \varphi ,  \partial_j N  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+was die erste Gleichung ergibt. Die zweite folgt direkt aus der Definition der Weingartenabbildung.
+
+}
+
+Wir beschränken uns nun auf den Fall
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ = }{ 3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es liegt die erste Fundamentalmatrix
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix} g_{11}  &  g_{12}  \\ g_{21} & g_{22}  \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  E   &   F   \\  F & G  \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g_{ij}
+}
+{ =} { \left\langle  \partial_i \varphi ,  \partial_j \varphi  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+vor, wobei wir im jetzigen Kontext die erste Bezeichnung vorziehen, und die zweite Fundamentalmatrix
+
+\mathdisp {\begin{pmatrix} h_{11}  &  h_{12}  \\ h_{21} & h_{22}  \end{pmatrix}} {  }
+
+vor. Für die in der folgenden Aussage aufgeführten Voraussetzungen sagt man auch kurz, dass eine \stichwort {orientierte Fläche} {} oder eine stückweise parametrisierte orientierte Fläche im $\R^3$ vorliegt.
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Raum/Parametrisierung/Weingartenabbildung/Fundamentalformen/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {f} { T } { \R
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ f^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $f$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei
+\maabbdisp {\varphi} { V } { Y
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^{2}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+eine zweifach differenzierbare Parametrisierung einer offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit den Parametern $u_1,u_2$. Es sei $Y$ durch ein
+\definitionsverweis {Einheitsnormalenfeld}{}{}
+$N$
+\definitionsverweis {orientiert}{}{,}
+wobei wir $N$ als Feld auf $V$ auffassen. Es sei $G$ die
+\definitionsverweis {erste}{}{}
+und $H$ die
+\definitionsverweis {zweite Fundamentalmatrix}{}{}
+zu $\varphi$. Zu
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ \varphi(Q)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sei $W$ die Matrix, die die
+\definitionsverweis {Weingartenabbildung}{}{}
+\maabbdisp {} {T_PY} {T_PY
+} {}
+bezüglich der Basis
+\mathkor {} {\partial_1 \varphi (Q)} {und} {\partial_2 \varphi (Q)} {}
+von $T_PY$ beschreibt.}
+\faktuebergang {Dann gelten folgende Aussagen.}
+\faktfolgerung {\aufzaehlungvier{Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ H
+}
+{ =} { G \cdot W
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ W
+}
+{ =} { G^{-1} H
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Es ist
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \partial_1 N
+}
+{ =} { -  { \frac{   1  }{ g_{11} g_{22} - g_{12}^2  } } \left(  \left(  g_{22} h_{11}  -g_{12}h_{12}  \right) \partial_1 \varphi + \left(  - g_{12} h_{11} + g_{11}h_{12}  \right) \partial_2 \varphi \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \partial_2 N
+}
+{ =} { - { \frac{   1  }{  g_{11} g_{22} - g_{12}^2  } }  \left(  \left(  g_{22} h_{12} -g_{12} h_{22}  \right)  \partial_1 \varphi + \left(  -g_{12} h_{12} + g_{11} h_{22}   \right) \partial_2 \varphi  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+}{Für die
+\definitionsverweis {Gaußkrümmung}{}{}
+von $Y$ gilt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ K
+}
+{ =} { { \frac{   \det  H  }{  \det  G  } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\aufzaehlungvier{Es ist nach Definition von $W$
+
+\mavergleichskettedisp
+{\vergleichskette
+{ L_P ( \partial_1 \varphi)
+}
+{ =} { w_{11}  \partial_1 \varphi + w_{21}\partial_2 \varphi
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ L_P ( \partial_2 \varphi)
+}
+{ =} { w_{12}  \partial_1 \varphi + w_{22}\partial_2 \varphi
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Daher ist nach
+[[Hyperfläche/R^n/Parametrisierung/Zweite Fundamentalform/Variante/Fakt|Lemma 19.2]]
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h_{ij}
+}
+{ =} { \left\langle  \partial_i \varphi  ,  L_P ( \partial_j \varphi)  \right\rangle
+}
+{ =} { \left\langle  \partial_i \varphi  ,  w_{1j}  \partial_1 \varphi + w_{2j} \partial_2 \varphi    \right\rangle
+}
+{ =} { w_{1j} g_{i1 } + w_{2j} g_{i2}
+}
+{ } {
+}
+}
+{}{}{.}
+}{Das folgt unmittelbar aus (1) durch Multiplikation mit $G^{-1}$ von links.
+}{Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial_i N
+}
+{ =} { - L( \partial_i \varphi)
+}
+{ =} { -w_{1i} \partial_1 \varphi - w_{2i} \partial_2 \varphi
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und somit folgt die Aussage aus (2) unter Berücksichtigung von
+
+\mavergleichskettedisp
+{\vergleichskette
+{ G^{-1}
+}
+{ =} { { \frac{   1  }{  g_{11} g_{22} - g_{12}^2  } } \begin{pmatrix} g_{22}  &   - g_{12}   \\  -g_{12}  & g_{11}  \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Damit ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ W
+}
+{ =} { { \frac{   1  }{  g_{11} g_{22} - g_{12}^2  } } \begin{pmatrix} g_{22}  &   - g_{12}   \\  -g_{12}  & g_{11}  \end{pmatrix}  \begin{pmatrix} h_{11}  &   h_{12}   \\  h_{12}  & h_{22}  \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und somit
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \partial_1 N
+}
+{ =} { -w_{11} \partial_1 \varphi - w_{21} \partial_2 \varphi
+}
+{ =} { -{ \frac{   1  }{  g_{11} g_{22} - g_{12}^2  } }  \left(  \left(  g_{22} h_{11} -g_{12} h_{12}   \right)  \partial_1 \varphi + \left(  -g_{12} h_{11} + g_{11} h_{12}   \right)  \partial_2 \varphi  \right)
+}
+{ } {
+}
+{ } {}
+}
+{}
+{}{}
+und
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \partial_2 N
+}
+{ =} { -w_{12} \partial_1 \varphi - w_{22} \partial_2 \varphi
+}
+{ =} { - { \frac{   1  }{  g_{11} g_{22} - g_{12}^2  } }  \left(  \left(  g_{22} h_{12} -g_{12} h_{22}  \right)  \partial_1 \varphi + \left(  -g_{12} h_{12} + g_{11} h_{22}   \right) \partial_2 \varphi  \right)
+}
+{ } {
+}
+{ } {}
+}
+{}
+{}{}
+}{Die Gaußkrümmung ist die Determinante der Weingartenabbildung, daher folgt die Aussage aus (2) mit
+dem [[Determinante/Multiplikationssatz/Fakt|Determinantenmultiplikationssatz]].
+}
+
+}
+
+  \zwischenueberschrift{Die Gaußkrümmung als intrinsisches Konzept}
+
+[[Bogenparametrisierte Kurve/Gerade darüber/Isometrie/Beispiel|Beispiel 18.5]]
+zeigt, dass es Isometrien zwischen riemannschen Flächen
+\zusatzklammer {etwa zwischen einem ebenen Flächenstück und einem Zylindermantel} {} {}
+gibt, unter den die Weingartenabbildung und die Hauptkrümmungen nicht erhalten bleiben. In der Ebene ist die Weingartenabbildung die Nullabbildung, auf dem Zylinder besitzt sie die Eigenwerte $0$ und ${ \frac{  1 }{ r } }$, wenn $r$ den Radius bezeichnet. Allerdings ist das Produkt der Eigenwerte, also die Determinante der Weingartenabbildung, die ja wiederum die Gaußsche Krümmung ist, für beide Flächen gleich $0$. Wir werden in der Tat zeigen, dass die Gaußsche Krümmung einer Fläche im $\R^3$ allein durch die riemannsche Struktur bestimmt ist.
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine zweifach stetig differenzierbare
+\definitionsverweis {orientierte Fläche}{}{}
+und sei
+\maabbdisp {\varphi} { V } { Y
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+eine zweifach stetig differenzierbare lokale Parametrisierung von $Y$ mit den Parametern $u,v$. Es sei $N$ das
+\definitionsverweis {Einheitsnormalenfeld}{}{}
+aufgefasst auf $V$. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ H
+}
+{ = }{ \left(  h_{ij}  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {zweite Fundamentalmatrix}{}{}
+zu $\varphi$. Dann nennt man die punktweise über die linearen Gleichungssysteme
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial^2  \varphi  }{  \partial^2  u  } }
+}
+{ =} { \Gamma^1_{11}  { \frac{   \partial  \varphi  }{  \partial  u  } } + \Gamma^2_{11} { \frac{   \partial  \varphi  }{  \partial  v  } } +h_{11} N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial    }{  \partial   u  } } { \frac{   \partial  \varphi  }{  \partial  v  } }
+}
+{ =} { \Gamma^1_{12} { \frac{   \partial  \varphi  }{  \partial  u  } } + \Gamma^2_{12}  { \frac{   \partial  \varphi  }{  \partial  v  } } +h_{12} N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial    }{  \partial   v  } } { \frac{   \partial  \varphi  }{  \partial  u  } }
+}
+{ =} { \Gamma^1_{21} { \frac{   \partial  \varphi  }{  \partial  u  } } + \Gamma^2_{21}   { \frac{   \partial  \varphi  }{  \partial  v  } } +h_{21} N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial^2  \varphi  }{  \partial^2  v  } }
+}
+{ =} { \Gamma^1_{22} { \frac{   \partial  \varphi  }{  \partial  u  } } + \Gamma^2_{22}   { \frac{   \partial  \varphi  }{  \partial  v  } } +h_{22} N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+definierten Funktionen
+\maabbdisp {\Gamma^{k}_{ij}} { V } {\R
+} {}
+die
+\definitionswort {Christoffelsymbole}{}
+zu $\varphi$.
+
+}
+
+Man beachte, dass
+\mathl{{ \frac{   \partial  \varphi  }{  \partial   u   } } ( Q), { \frac{   \partial  \varphi  }{  \partial   v   } } ( Q), N(Q)}{} in jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine Basis des $\R^3$ bilden und dass daher überhaupt jeder Vektor mit eindeutigen Koeffizienten als Linearkombination bezüglich dieser Basis geschrieben werden kann. Allerdings variiert die Basis mit $Q$ und entsprechend sind die Christoffelsymbole Funktionen. Da  $N$ normiert ist und senkrecht auf den beiden anderen Basisvektoren steht, ergibt sich der Koeffizient, der sich auf $N$ bezieht, als Skalarprodukt
+
+\mavergleichskette
+{\vergleichskette
+{ \left\langle  \partial_i \partial_j \varphi , N  \right\rangle
+}
+{ = }{ h_{ij}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Raum/Parametrisierung/Christoffelsymbole/Bezug zu riemannscher Metrik/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine zweifach stetig differenzierbare
+\definitionsverweis {orientierte Fläche}{}{}
+und sei
+\maabbdisp {\varphi} { V } { Y
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+eine zweifach differenzierbare lokale Parametrisierung von $Y$ mit den Parametern $u,v$. Es sei
+\mathl{\left(  g_{ij}  \right)}{} die
+\definitionsverweis {erste Fundamentalmatrix}{}{}
+auf $V$  und sei
+\mathl{\left(  g^{kl}  \right)}{} die
+\definitionsverweis {inverse Matrix}{}{}
+zu
+\mathl{g_{ij}}{.}}
+\faktfolgerung {Dann gilt für die
+\definitionsverweis {Christoffelsymbole}{}{}
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \Gamma^k_{ij}
+}
+{ =} { { \frac{   1  }{  2 } } g^{1k}  \left(  \partial_i g_{j1}  + \partial_j g_{1i} - \partial_1 g_{ij}  \right)  +  { \frac{   1  }{  2 } } g^{2k}  \left(  \partial_i g_{j2}  + \partial_j g_{2i} -  \partial_2 g_{ij}  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {Insbesondere kann man die Christoffelsymbole durch die Daten der ersten Fundamentalmatrix ausdrücken.}
+\faktzusatz {}
+
+}
+{
+
+Es ist
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \partial_k g_{ij}
+}
+{ =} { \partial_k  \left\langle  \partial_i \varphi  ,  \partial_j \varphi  \right\rangle
+}
+{ =} { \left\langle  \partial_k \partial_i  \varphi ,  \partial_j \varphi  \right\rangle +  \left\langle  \partial_i  \varphi ,  \partial_k \partial_j \varphi  \right\rangle
+}
+{ =} { \left\langle  \Gamma_{ki}^1 \partial_1 \varphi + \Gamma^2_{ki} \partial_2 \varphi + h_{ki} N ,  \partial_j \varphi  \right\rangle +  \left\langle  \partial_i  \varphi ,  \Gamma_{kj}^1 \partial_1 \varphi + \Gamma^2_{kj} \partial_2 \varphi + h_{kj} N   \right\rangle
+}
+{ =} { \left\langle  \Gamma_{ki}^1 \partial_1 \varphi + \Gamma^2_{ki} \partial_2 \varphi ,  \partial_j \varphi  \right\rangle +  \left\langle  \partial_i  \varphi ,  \Gamma_{kj}^1 \partial_1 \varphi + \Gamma^2_{kj} \partial_2 \varphi  \right\rangle
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \Gamma^1_{ki} g_{1j} +  \Gamma^2_{ki} g_{2j} + \Gamma^1_{kj} g_{i1} +  \Gamma^2_{kj} g_{i2}
+}
+{ } {
+}
+{ } {}
+{ } {}
+}
+{}{.}
+Somit ist
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \partial_i g_{jk} +\partial_j g_{ki}   -\partial_k g_{ij}
+}
+{ =} { \Gamma^1_{ij} g_{1k} +  \Gamma^2_{ij} g_{2k} + \Gamma^1_{ik} g_{j1}  +  \Gamma^2_{ik} g_{j2} + \Gamma^1_{jk} g_{1i} +  \Gamma^2_{jk} g_{2i} + \Gamma^1_{ji} g_{k1} +  \Gamma^2_{ji} g_{k2}  -  \left(  \Gamma^1_{ki} g_{1j} +  \Gamma^2_{ki} g_{2j} + \Gamma^1_{kj} g_{i1} +  \Gamma^2_{kj} g_{i2} \right)
+}
+{ =} { 2  \left(  \Gamma_{ij}^1 g_{1k}  + \Gamma_{ij}^2 g_{2k}  \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Es liegt also die Matrixbeziehung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}  \partial_i g_{j1} +\partial_j g_{1i}  -\partial_1 g_{ij} \\ \partial_i g_{j2} +\partial_j g_{2i}   -\partial_2 g_{ij}    \end{pmatrix}
+}
+{ =} { 2  \begin{pmatrix} g_{11}  &  g_{12}  \\ g_{12} & g_{22}  \end{pmatrix}  \begin{pmatrix} \Gamma_{ij}^1 \\\Gamma_{ij}^2   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+vor, woraus durch Multiplikation mit
+\mathl{{ \frac{   1  }{  2 } } G^{-1}}{} die Behauptung folgt.
+
+}
+
+\inputbemerkung
+{}
+{
+
+In der Situation von
+[[Hyperfläche/Raum/Parametrisierung/Christoffelsymbole/Bezug zu riemannscher Metrik/Fakt|Lemma 19.5]]
+gelten die Beziehungen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}  \partial_1 g_{11} \\ 2 \partial_1 g_{12} - \partial_2 g_{11}    \end{pmatrix}
+}
+{ =} { 2  \begin{pmatrix} g_{11}  &  g_{12}  \\ g_{12} & g_{22}  \end{pmatrix}  \begin{pmatrix} \Gamma^1_{11}  \\\Gamma^2_{11}    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}  2 \partial_1 g_{12} - \partial_2 g_{11}  \\ \partial_2 g_{22}   \end{pmatrix}
+}
+{ =} { 2  \begin{pmatrix} g_{11}  &  g_{12}  \\ g_{12} & g_{22}  \end{pmatrix}  \begin{pmatrix} \Gamma^1_{22}  \\\Gamma^2_{22}    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}  \partial_2 g_{11} \\ \partial_1 g_{22}    \end{pmatrix}
+}
+{ =} { 2  \begin{pmatrix} g_{11}  &  g_{12}  \\ g_{12} & g_{22}  \end{pmatrix}  \begin{pmatrix} \Gamma^1_{12}  \\\Gamma^2_{12}    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Raum/Parametrisierung/Gaußkrümmung/Christoffelsymbole/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {orientierte Fläche}{}{}
+und sei
+\maabbdisp {\varphi} { V } { Y
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+eine zweifach differenzierbare lokale Parametrisierung von $Y$ mit den Parametern $u,v$. Es sei
+\mathl{\left(  g_{ij}  \right)}{} die
+\definitionsverweis {erste Fundamentalmatrix}{}{}
+auf $V$.}
+\faktfolgerung {Dann gilt für die
+\definitionsverweis {Gaußsche Krümmung}{}{}
+unter Verwendung der
+\definitionsverweis {Christoffelsymbole}{}{}
+die Beziehung
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ K
+}
+{ =} { { \frac{   1  }{ g_{11}  } }  \left(  \partial_2 \Gamma_{11}^2 - \partial_1 \Gamma_{12}^2 + \Gamma^1_{11} \Gamma^2_{12}  + \Gamma_{11}^2 \Gamma_{22}^2 - \Gamma_{12}^1 \Gamma_{11}^2-  \left(  \Gamma_{12}^2  \right)^2  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Wir differenzieren die erste Bestimmungsgleichung für die Christoffelsymbole, also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial_1 \partial_1 \varphi
+}
+{ =} { \Gamma^1_{11}  \partial_1 \varphi  + \Gamma^2_{11}  \partial_2 \varphi +h_{11} N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+in Richtung der zweiten Variablen und die zweite Bestimmungsgleichung, also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial_1 \partial_2 \varphi
+}
+{ =} { \Gamma^1_{12}  \partial_1 \varphi + \Gamma^2_{12}  \partial_2  \varphi + h_{12} N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+in Richtung der ersten Variablen und erhalten nach Schwarz
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \left(  \partial_2 \Gamma^1_{11}  \right) \partial_1 \varphi +  \left(  \partial_2 \Gamma^2_{11}  \right)  \partial_2 \varphi+ \left(  \partial_2 h_{11}  \right)  N + \Gamma^1_{11} \partial_2 \partial_1 \varphi + \Gamma^2_{11}  \partial_2 \partial_2 \varphi  +h_{11} \partial_2 N
+}
+{ =} { \left(  \partial_1 \Gamma^1_{12}  \right)  \partial_1  \varphi+ \left(  \partial_1 \Gamma^2_{12}  \right)\partial_2 \varphi + \left(  \partial_1 h_{12}  \right)  N+ \Gamma^1_{12}  \partial_1 \partial_1 \varphi + \Gamma^2_{12}  \partial_1 \partial_2 \varphi + h_{12} \partial_1 N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Die Differenz dieser Ausdrücke ist $0$, und wir bestimmen, was sich dabei auf den Basisvektor $\partial_2 \varphi$ bezieht. Dazu müssen wir die Bestimmungsgleichungen für die Christoffelsymbole und
+[[Hyperfläche/Raum/Parametrisierung/Weingartenabbildung/Fundamentalformen/Fakt|Lemma 19.3  (3)]]
+heranziehen und erhalten
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ 0
+}
+{ =} { \partial_2 \Gamma^2_{11} - \partial_1 \Gamma^2_{12} +\Gamma^1_{11} \Gamma^2_{12} - \Gamma^1_{12} \Gamma^2_{11} + \Gamma_{11}^2 \Gamma_{22}^2- \left(  \Gamma_{12}^2  \right)^2 + h_{11}  { \frac{   g_{12} h_{12} - g_{11} h_{22}   }{  g_{11}g_{22} -g_{12}^2 } } - h_{12}  { \frac{   g_{12} h_{11} - g_{11}h_{12}  }{  g_{11}g_{22} -g_{12}^2 } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Mit
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ - g_{11} \left(  h_{11}h_{22} -h_{12}^2  \right)
+}
+{ =} { h_{11} \left(  g_{12} h_{12}- g_{11} h_{22}  \right) - h_{12} \left(  g_{12} h_{11} - g_{11}h_{12}  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+können wir die beiden hinteren Summanden ersetzen und erhalten mit
+[[Hyperfläche/Raum/Parametrisierung/Weingartenabbildung/Fundamentalformen/Fakt|Lemma 19.3  (4)]]
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ g_{11} K
+}
+{ =} { g_{11} { \frac{   h_{11}h_{22} -h_{12}^2  }{ g_{11}g_{22} -g_{12}^2 } }
+}
+{ =} { \left(  \partial_2 \Gamma_{11}^2 - \partial_1 \Gamma_{12}^2 + \Gamma^1_{11} \Gamma^2_{12}  + \Gamma_{11}^2 \Gamma_{22}^2 - \Gamma_{12}^1 \Gamma_{11}^2-  \left(  \Gamma_{12}^2  \right)^2  \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+
+}
+
+__NOEDITSECTION__
+\inputfaktbeweis
+{Hyperfläche/Raum/Parametrisierung/Gaußkrümmung/Bezug zu riemannscher Metrik/Brioschi/Fakt}
+{Korollar}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {orientierte Fläche}{}{}
+und sei
+\maabbdisp {\varphi} { V } { Y
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+eine zweifach differenzierbare lokale Parametrisierung von $Y$ mit den Parametern $u,v$. Es sei
+\mathl{\left(  g_{ij}  \right)}{} die
+\definitionsverweis {erste Fundamentalmatrix}{}{}
+auf $V$.}
+\faktfolgerung {Dann gilt für die
+\definitionsverweis {Gaußsche Krümmung}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ K
+}
+{ =} { { \frac{   1  }{  \left(  g_{11} g_{22} -g_{12}^2  \right)^2 } }  \left(  \det  \begin{pmatrix}  - { \frac{   1  }{  2 } } \partial_2^2  g_{11}  + \partial_1 \partial_2 g_{12} - { \frac{   1  }{  2 } }  \partial_1^2  g_{22}   &   { \frac{   1  }{  2 } } \partial_1 g_{11}  &  \partial_1 g_{12} - { \frac{   1  }{  2 } } \partial_2 g_{11}  \\  \partial_2 g_{12} -{ \frac{   1  }{  2 } } \partial_1 g_{22} &  g_{11}  &  g_{12}  \\ { \frac{   1  }{  2 } } \partial_2 g_{22}  &  g_{12}  &  g_{22}  \end{pmatrix} -  \det  \begin{pmatrix}  0   &   { \frac{   1  }{  2 } }  \partial_2 g_{11}  &  { \frac{   1  }{  2 } }  \partial_1 g_{22}   \\  { \frac{   1  }{  2 } } \partial_2 g_{11} & g_{11} & g_{12} \\ { \frac{   1  }{  2 } } \partial_1 g_{22}  &  g_{12} & g_{22} \end{pmatrix}  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+ }
+{ Siehe [[Hyperfläche/Raum/Parametrisierung/Gaußkrümmung/Bezug zu riemannscher Metrik/Brioschi/Fakt/Beweis/Aufgabe|Aufgabe 19.9]]. }
+
+Die beiden vorstehenden Aussagen sind Varianten des Theorema egregiums, der Inhalt bedeutet unabhängig von den genauen Formeln, dass man die Gaußkrümmung auf einer eingebettenen Fläche allein durch Messungen auf der Fläche, also ohne Bezug auf den umgebenden Raum,  beschreiben kann. Die Messungen auf der Fläche sind dabei durch die metrische Fundamentalmatrix kodiert, man muss also das Skalarprodukt auf den Tangentialräumen der Fläche kennen, was eben bedeutet, die Fläche als eine riemannsche Mannigfaltigkeit aufzufassen. Die Hauptkrümmungen lassen sich nicht allein intrinsisch bestimmen, siehe
+[[Bogenparametrisierte Kurve/Gerade darüber/Isometrie/Beispiel|Beispiel 18.5]]
+und
+[[Bogenparametrisierte ebene Kurve/Zweite Fundamentalform/Weingartenabbildung/Gaußkrümmung/Aufgabe|Aufgabe 19.12]].
+
+ [[Kategorie:Latexseite]]

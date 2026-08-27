@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-19/lecture19.id.tex",
+  "input_bytes": 29476,
+  "input_sha256": "ca3e199d2e80c45a8d87f43c2dae79538108ba04749ace112b88fc4d28000147",
+  "output": "build/generated/lecture19.id.build.tex",
+  "output_bytes": 28594,
+  "output_sha256": "91b703089648fbc5a61266c2c636ca1e8bfa89bcda73c4edaaaa037befeddd9a",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 5,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 1
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Satz von Schwarz/R/Partielle Version/Fakt",
+      "label": "teorema Schwarz"
+    },
+    {
+      "target": "Hyperfläche/R^n/Parametrisierung/Zweite Fundamentalform/Variante/Fakt",
+      "label": "Lema 19.2"
+    },
+    {
+      "target": "Determinante/Multiplikationssatz/Fakt",
+      "label": "teorema perkalian determinan"
+    },
+    {
+      "target": "Bogenparametrisierte Kurve/Gerade darüber/Isometrie/Beispiel",
+      "label": "Contoh 18.5"
+    },
+    {
+      "target": "Hyperfläche/Raum/Parametrisierung/Christoffelsymbole/Bezug zu riemannscher Metrik/Fakt",
+      "label": "Lema 19.5"
+    },
+    {
+      "target": "Hyperfläche/Raum/Parametrisierung/Weingartenabbildung/Fundamentalformen/Fakt",
+      "label": "Lema 19.3 (3)"
+    },
+    {
+      "target": "Hyperfläche/Raum/Parametrisierung/Weingartenabbildung/Fundamentalformen/Fakt",
+      "label": "Lema 19.3 (4)"
+    },
+    {
+      "target": "Hyperfläche/Raum/Parametrisierung/Gaußkrümmung/Bezug zu riemannscher Metrik/Brioschi/Fakt/Beweis/Aufgabe",
+      "label": "Soal 19.9"
+    },
+    {
+      "target": "Bogenparametrisierte Kurve/Gerade darüber/Isometrie/Beispiel",
+      "label": "Contoh 18.5"
+    },
+    {
+      "target": "Bogenparametrisierte ebene Kurve/Zweite Fundamentalform/Weingartenabbildung/Gaußkrümmung/Aufgabe",
+      "label": "Soal 19.12"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

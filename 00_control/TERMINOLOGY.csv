@@ -269,3 +269,18 @@ O011-TERM-0267,Großkreis,lingkaran besar,admitted,Great circle on a sphere
 O011-TERM-0268,stereographische Projektion,proyeksi stereografis,admitted,
 O011-TERM-0269,obere Halbkugel,hemisfer atas,admitted,Upper hemisphere rather than a solid half-ball
 O011-TERM-0270,Mercator-Projektion,proyeksi Mercator,admitted,Conformal cylindrical map with an unbounded vertical coordinate
+O011-TERM-0271,Transformationsformel,rumus transformasi,admitted,Change-of-variables formula for volume forms and measures
+O011-TERM-0272,isometrisch,isometrik,admitted,Metric-preserving in the Riemannian sense
+O011-TERM-0273,Poincarésche Halbebene,setengah bidang Poincaré,admitted,Upper-half-plane model of hyperbolic geometry
+O011-TERM-0274,hyperbolische Kreisscheibe,cakram hiperbolik,admitted,Poincare disk model
+O011-TERM-0275,Minkowski-Form,bentuk Minkowski,admitted,Indefinite symmetric bilinear form
+O011-TERM-0276,zweischaliges Hyperboloid,hiperboloid dua lembar,admitted,Two-sheeted hyperboloid
+O011-TERM-0277,Weingartenabbildung,pemetaan Weingarten,admitted,Shape operator with the source convention L=-DN
+O011-TERM-0278,zweite Fundamentalform,bentuk fundamental kedua,admitted,Second fundamental form
+O011-TERM-0279,zweite Fundamentalmatrix,matriks fundamental kedua,admitted,Coordinate matrix of the second fundamental form
+O011-TERM-0280,Hauptkrümmung,kelengkungan utama,admitted,Principal curvature; sign depends on the chosen unit normal
+O011-TERM-0281,Gaußkrümmung,kelengkungan Gauss,admitted,Gaussian curvature
+O011-TERM-0282,Christoffelsymbol,simbol Christoffel,admitted,Coordinate connection coefficients
+O011-TERM-0283,Brioschische Formel,rumus Brioschi,admitted,Intrinsic formula for Gaussian curvature
+O011-TERM-0284,intrinsisch,intrinsik,admitted,Determined by the Riemannian metric rather than an embedding
+O011-TERM-0285,Normalenfeld,medan normal,admitted,A chosen unit normal field when orientation-dependent signs matter

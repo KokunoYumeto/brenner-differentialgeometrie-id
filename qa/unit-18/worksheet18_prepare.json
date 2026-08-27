@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-18/worksheet18.id.tex",
+  "input_bytes": 9504,
+  "input_sha256": "6710aad75c6a8132d0d255548cf19ea6d184999386a81f786061b0f02546d759",
+  "output": "build/generated/worksheet18.id.build.tex",
+  "output_bytes": 9371,
+  "output_sha256": "1323b8103689f948e6997564c9d17ea7d1e78e1fefec1f301503dfa8f0105c74",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Minkowskiraum/Dreidimensional/Zweischaliges Hyperboloid/Eingeschränkte riemannsche Struktur/Beispiel",
+      "label": "Contoh 18.11"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

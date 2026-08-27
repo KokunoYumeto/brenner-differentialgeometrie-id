@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-19/worksheet19.id.tex",
+  "input_bytes": 7220,
+  "input_sha256": "338753c6889573ae0056d4975f14e6271722751f349a15ed0df9b3d044689df8",
+  "output": "build/generated/worksheet19.id.build.tex",
+  "output_bytes": 6280,
+  "output_sha256": "7671f9aee7946b487d8a2b8a370981b99159c20542f3199141026fa46ece5ee1",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Kugeloberfläche/Koordinaten von Zylinder aus/Horizontale Projektion/Flächenberechnung/Beispiel",
+      "label": "Contoh 17.6"
+    },
+    {
+      "target": "Kugeloberfläche/Koordinaten von Zylinder aus/Mittelpunktsprojektion/Flächenberechnung/Beispiel",
+      "label": "Contoh 17.7"
+    },
+    {
+      "target": "Kugeloberfläche/Koordinaten von Zylinder aus/Horizontale Projektion/Flächenberechnung/Beispiel",
+      "label": "Contoh 17.6"
+    },
+    {
+      "target": "Kugeloberfläche/Koordinaten von Zylinder aus/Mittelpunktsprojektion/Flächenberechnung/Beispiel",
+      "label": "Contoh 17.7"
+    },
+    {
+      "target": "Kugeloberfläche/Geozentrische Koordinaten/Flächenberechnung/Beispiel",
+      "label": "Contoh 17.8"
+    },
+    {
+      "target": "Kugeloberfläche/Koordinaten von Zylinder aus/Horizontale Projektion/Flächenberechnung/Beispiel",
+      "label": "Contoh 17.6"
+    },
+    {
+      "target": "Kugeloberfläche/Koordinaten von Zylinder aus/Mittelpunktsprojektion/Flächenberechnung/Beispiel",
+      "label": "Contoh 17.7"
+    },
+    {
+      "target": "Kugeloberfläche/Geozentrische Koordinaten/Flächenberechnung/Beispiel",
+      "label": "Contoh 17.8"
+    },
+    {
+      "target": "Hyperfläche/Raum/Parametrisierung/Weingartenabbildung/Fundamentalformen/Fakt",
+      "label": "Lema 19.3  (4)"
+    },
+    {
+      "target": "Kugeloberfläche/Geozentrische Koordinaten/Flächenberechnung/Beispiel",
+      "label": "Contoh 17.8"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

@@ -1565,3 +1565,146 @@ bytes with SHA-256
 `f3890184be6dbe546cdc3c9ce0e7e18e3a423691ac60e20034233be29266323d`.
 No tag, release, Zenodo mutation, or upstream contact occurred at this
 per-unit source checkpoint.
+
+## D068 - Close Unit 18 only after canonical solution and animation surfaces agree (2026-08-26)
+
+**Decision:** Admit the complete Unit 18 reader only after its four supplied
+solutions use the cumulative naming convention and the formerly blank
+Poincare animation caption becomes a meaningful Indonesian accessibility
+surface. Preserve the canonical GIF and static PDF fallback without changing
+source mathematics or file-specific rights. Bind all seventeen declared
+corrections to unique adverse-ledger rows and require an independent
+content-addressed verifier before the cumulative build.
+
+**Evidence:** The final lecture and worksheet SHA-256 values are
+`61a0e9240fb83c0e553c37866e76efc5b38b7a27ade1789a8d32f014549d8193`
+and
+`6710aad75c6a8132d0d255548cf19ea6d184999386a81f786061b0f02546d759`.
+Exactly Solutions 8, 11, 13, and 14 remain present; the four byte-identical
+targets now have canonical `worksheet18_exerciseNN_solution.id.tex` names and
+the obsolete loose names are absent. `qa/unit-18/ANIMATED_MEDIA_QA.json` has
+SHA-256
+`fd22692b6eeed7a4fe139a862b725fb932db780ab62a40de4a86d53583d16898`.
+The final POST and independent binding receipts have SHA-256 values
+`1ddc7b46878adaa9f8fe1419793a7f4453de768cb1607bf068de2ad712f5f6d1`
+and
+`f1169ce3f04e9c69179e68423085f29999657ce9492c05bc2e1cb01a76299068`.
+
+## D069 - Close Unit 19 and activate the cumulative Units 1-19 release gate (2026-08-26)
+
+**Decision:** Accept the complete Unit 19 lecture/worksheet pair after exact
+revision closure, strict translation receipts, explicit mathematical repairs,
+and independent review. Preserve all twelve exercises and the exact absence of
+source solutions or media. Start one consolidated deterministic PDF, semantic
+HTML, append-only backend, clean-source-package, GitHub, Zenodo, and anonymous
+public-readback gate for Units 1-19. Do not publish or advance to Unit 20 until
+all local release bytes pass; after public readback advance immediately.
+
+**Evidence:** Lecture and worksheet target SHA-256 values are
+`b86102481c4997fb3f403d83809a5a4418ce9eae3c5d58b230693788afa7fbaa`
+and
+`7fd09462ffe522d33330b4105b0cccbc04c9e7588e9bd7128e24c97dd2828c9c`.
+The source closure is nine practice plus three graded exercises totaling 12
+points with blank hints and zero supplied solutions. Independent review has
+SHA-256
+`a5d3817016e3cf0e5a7922209a7d0f596cdb60a17fbef6df6a19cf1eb8647e0a`.
+The final POST and independent binding receipts have SHA-256 values
+`b5a35c91e7136592d80cc80d337d8667df1e6e125462ee7f2653d536ee9d4f55`
+and
+`3d2ffa12b0ebd585a84ce8a4ef50eed1c26e7a8111eb7639d5d4c48339df841c`.
+The non-building cumulative audit resolves 92 source files, 50 new fragments,
+394 exercises, 54 source-supplied solutions, 26 media assets, two animations,
+and the immutable published Units 1-16 backend prefix. The full O011 goal
+remains active.
+
+## D070 — Supersede interim Unit 18/19 identities and close the cumulative local gate (2026-08-27)
+
+**Decision:** Supersede the interim D068/D069 reader identities with the final
+post-reflow Unit 18 and Unit 19 bytes. Accept the cumulative Units 1–19 PDF,
+semantic HTML, browser evidence, and append-only backend as one local release
+boundary. Preserve D068/D069 as append-only history rather than rewriting them.
+Package and publish this boundary in the existing GitHub and Zenodo lineages,
+require anonymous byte readback, and then continue directly with Unit 20.
+
+**Final unit evidence:** Unit 18 lecture and worksheet SHA-256 values are
+`7d7bc9d97d9719790d1cd37f78fae74f9cb318a4f29b8a7c295e24deb6aed298`
+and `6710aad75c6a8132d0d255548cf19ea6d184999386a81f786061b0f02546d759`.
+Its POST and independent verifier SHA-256 values are
+`fd5640eea8b9f109423e0ca51bcfbd7f5f77950ee3b1f4434331de414068f48e`
+and `65beaa5bee7a6cf34de98752e073f5b8a5744c61f78fe9156235682a353f24b2`.
+Unit 19 lecture and worksheet SHA-256 values are
+`ca3e199d2e80c45a8d87f43c2dae79538108ba04749ace112b88fc4d28000147`
+and `338753c6889573ae0056d4975f14e6271722751f349a15ed0df9b3d044689df8`.
+Its POST and independent verifier SHA-256 values are
+`4c13af7f96c6ab9f90992532ddfb59e943b8c269f53c5cf5505aa70e86ab1aae`
+and `91244e6f4088d3e4b104ee294f6e391f8b27b7f15a3208b1ca4d21fe7aaf0cdd`.
+
+**Cumulative reader evidence:** The centered PDF is 302 A4 pages and
+7,740,452 bytes, SHA-256
+`d96c7200271cd790b42bd4c584befd65c3aa669546e2b6935dbe44fc923b746e`.
+Its structural and full visual QA receipts have SHA-256 values
+`8d4e8e56f8990bfd6250b61f02501c4b08589e2fc8db4150716867e533a142b9`
+and `b21130b6cabc7cad7b89cb4cba45c243af26d569d71ad504d1913afa251a6abb`.
+The final HTML entry is 1,333,528 bytes, SHA-256
+`096393a5218d49dca913904bbf52a9bc0933a389d456db5d907db76872a3444a`;
+its manifest, structural QA, and browser evidence SHA-256 values are
+`78af3571a8ed75da6bdf421342bf601148c972dbb0f450f36fbeeddb97f74aac`,
+`f41ece1e459b6e9ce4df411855f3ab3fb4fa4a08213ff6d01408394f675ef078`,
+and `3b5c2de61b61d5307e355d836540bfc08a0918c8d4f9020bc9c92a947bdedeee`.
+The responsive repair preserves nonzero-width inline mathematics on small
+screens and adds delayed-layout observation for stable deep links.
+
+**Backend evidence:** The Unit 16 prefix remains exactly 3,208 records and the
+new suffix adds 536 records, yielding 3,744. JSONL, CSV, and manifest SHA-256
+values are
+`21287c3f9128be335af2734864d6ecacc44336d1da0416d43e5cfe67dcf979b1`,
+`adb3acf4d6aaf9b1474c5b86c5df8f0cc9b221a85ca6af5f46d410cd35dfb8d8`,
+and `5a2d46d5fa4d608728badaa6bcc6ce2ff4c8fd83b9980a9c83da722caf4ac1b2`.
+The independent two-cycle verifier receipt SHA-256 is
+`fa8b33d653b498f6cb15ecb5d5779b99c9fea9421258a8a5da0a006291e6b6bd`.
+This closes only the local Unit 19 release gate; public preservation and the
+remaining Units 20–29, exams, and original bridges remain open.
+
+## D071 — Close the adverse-ledger/backend mismatch before packaging (2026-08-27)
+
+**Decision:** Supersede only D070's backend census and hashes. Preserve its
+reader identities. Represent `O011-ACC-0228`, the already-proven Unit 18
+Hyperboloid static PNG loader repair, as an explicit stable-ID correction plus
+its generated build artifact and `corrects` relation. Bind the canonical
+public-domain raster, byte-identical persistent alias, alias receipt, exact
+build script, and passing cumulative build receipt. Require the backend
+verifier to compare every adverse-ledger numeric identity against every
+backend correction identity before packaging.
+
+**Evidence:** The immutable Unit 16 prefix remains 3,208 records. The final
+Units 17–19 suffix is 539 records, producing 3,747 total and 245 correction
+records for 245 adverse-ledger rows. JSONL, CSV, and manifest SHA-256 values
+are `8045e59c84bc8c70fc3275bc65d023e46848276b184aca5978bd9b015060c193`,
+`b63d9d673b841869ab2d848e3a21b5b256a765c2b29f3e9982385e0ad3d75e1b`,
+and `1bc181df4c931eb388dbd42cbc535ed88dd1ec37a475c26e820788d12c93c5eb`.
+The independent two-cycle verifier receipt SHA-256 is
+`feeab0a83c912d2f20f3bfa6c5bceb89f8cc4883a759166992579dc8b0ea60e2`.
+The PDF and HTML bytes from D070 are unchanged. Packaging and public
+preservation remain the next actions; the full O011 goal remains open.
+
+## D072 — Preserve the Unit 19 checkpoint in the existing Zenodo concept (2026-08-28)
+
+**Decision:** Publish the verified seven-file Unit 19 boundary as the direct
+successor of public Unit 16 within concept `22059977`; do not create a competing
+concept. Keep the 302-page PDF first and as the default preview. Preserve the
+exact mixed-rights disclosures, single organizational contributor anchor,
+independent/non-endorsement statement, and computational provenance. Require
+an unauthenticated second verifier to download and hash every public file.
+
+**Evidence:** Public record `22134954`, DOI `10.5281/zenodo.22134954`, contains
+seven files totaling 54,614,325 bytes. The PDF is both the first returned file
+and the default preview. The 39,624,186-byte source ZIP has SHA-256
+`4451ab83b504fb4403664f132c057ebe26096f27a0ef6c8f9e5351bb71a4dfc2`
+and passed two clean, network-disabled PDF/HTML/backend reconstructions. The
+preparation, source-integrity, publication, and independent-readback receipt
+SHA-256 values are
+`be51943938acd78a4927aee344fd8d18dd39c3f9245f2cd0a7421d03b16a01bd`,
+`4fceb43e329f3a50a14bc3f89c9830183afa736ecb2b14f2210dde1ad8e6ba79`,
+`a778cb203fa7598dbacc3e396df497f86b1a5518af05b028a551c2f3d413a0ee`,
+and `7ff16486bbaa6867c5f85ff7761f03244b9bc683d57719f2fa26c8e0f88ca216`.
+The matching GitHub release and remaining corpus are still open.

@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Wed, 26 Aug 2026 03:01:02 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Zweite Fundamentalmatrix/Symmetrisch/Aufgabe/Lösung|Polynomialer Graph/2 Variablen/Zweite Fundamentalmatrix/1/Aufgabe/Lösung|Graph/2 Variablen/Zweite Fundamentalmatrix/1/Aufgabe/Lösung|Kugeloberfläche/Koordinaten von Zylinder aus/Horizontale Projektion/Zweite Fundamentalmatrix/Aufgabe/Lösung|Kugeloberfläche/Koordinaten von Zylinder aus/Mittelpunktsprojektion/Zweite Fundamentalmatrix/Aufgabe/Lösung|Kugeloberfläche/Verschiedene Parametrisierungen/Weingartenabbildungen/Aufgabe/Lösung|Kugeloberfläche/Verschiedene Parametrisierungen/Gaußkrümmung/Aufgabe/Lösung|Ebene Kurve/Zweite Fundamentalmatrix/Aufgabe/Lösung|Hyperfläche/Raum/Parametrisierung/Gaußkrümmung/Bezug zu riemannscher Metrik/Brioschi/Fakt/Beweis/Aufgabe/Lösung|Polynomialer Graph/2 Variablen/Zweite Fundamentalmatrix/2/Aufgabe/Lösung|Kugeloberfläche/Geozentrische Koordinaten/Zweite Fundamentalmatrix/Aufgabe/Lösung|Bogenparametrisierte ebene Kurve/Zweite Fundamentalform/Weingartenabbildung/Gaußkrümmung/Aufgabe/Lösung"
+  },
+  "response_bytes": 1459,
+  "response_path": "unit19_solution_pages_current.json",
+  "response_sha256": "389f094478f86f202f36a48e0c2806667f4f26987a6dd45e02df260617d14665",
+  "retrieved_utc": "2026-08-26T03:01:01Z",
+  "schema_version": 1
+}

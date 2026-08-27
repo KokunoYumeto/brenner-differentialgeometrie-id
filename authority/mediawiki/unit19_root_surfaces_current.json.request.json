@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Wed, 26 Aug 2026 03:02:00 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "info|revisions",
+    "rvprop": "ids|timestamp|sha1",
+    "titles": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 19/latex|Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 19|Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 19/latex|Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 19"
+  },
+  "response_bytes": 1626,
+  "response_path": "unit19_root_surfaces_current.json",
+  "response_sha256": "129af5301384927800cff436981f7c82571fd2a0e326c55a1b19ffbec778242f",
+  "retrieved_utc": "2026-08-26T03:01:59Z",
+  "schema_version": 1
+}

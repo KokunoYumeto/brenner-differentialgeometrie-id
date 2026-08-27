@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-18/lecture18.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0210",
+      "anchor": "Transformation formula for a pulled-back positive volume form",
+      "change": "Equip L with the pullback orientation and use positively oriented charts; without an orientation condition the source's signless integral identity fails for an orientation-reversing diffeomorphism."
+    },
+    {
+      "correction_id": "O011-TRANS-0211",
+      "anchor": "Independent Unit 18 lecture reader-language review",
+      "change": "Repair respectively-chart, induced-isometry, and partial-derivative phrasing, and restore two accidental diagram-spacing commands, without changing mathematical content."
+    },
+    {
+      "correction_id": "O011-CORR-0212",
+      "anchor": "Ambient linear isometry example",
+      "change": "Clarify that the otherwise undefined symbol in phi(M) denotes the ambient linear isometry under discussion."
+    },
+    {
+      "correction_id": "O011-CORR-0213",
+      "anchor": "Pullback of the canonical volume form under an isometry",
+      "change": "Insert the omitted differential-map symbol in both occurrences of T_P phi(u_i); the frozen source writes the undefined T_P(u_i)."
+    },
+    {
+      "correction_id": "O011-CORR-0214",
+      "anchor": "Poincare upper-half-plane model",
+      "change": "Define H to equal the displayed upper half-plane because the immediately following isometry uses H as domain while the frozen source defines only mathbb H."
+    },
+    {
+      "correction_id": "O011-CORR-0215",
+      "anchor": "Two-sheeted-hyperboloid figure caption",
+      "change": "Normalize the frozen source typo Minkowsi-Form to bentuk Minkowski in the Indonesian caption."
+    },
+    {
+      "correction_id": "O011-CORR-0216",
+      "anchor": "Two-sheeted hyperboloid tangent-space basis and positivity computation",
+      "change": "Replace the source's non-tangent first vector and inconsistent expansion by the valid basis (z,0,x),(0,z,y) and its exact Minkowski-norm identity a^2+b^2+(ay-bx)^2."
+    },
+    {
+      "correction_id": "O011-CORR-0217",
+      "anchor": "Disk-to-hyperboloid isometry, three Minkowski inner products",
+      "change": "Remove the impossible point subscript (a,b) from the Y metric; (a,b) lies in the disk, not on Y, and the induced Minkowski form is point-independent."
+    },
+    {
+      "correction_id": "O011-ACC-0226",
+      "anchor": "Poincarehalfplaneconform.gif reader caption",
+      "change": "Add a faithful Indonesian description of the conformal half-plane-to-disk animation and disclose the static PDF first frame plus preserved HTML/download animation; the frozen source caption is empty."
+    },
+    {
+      "correction_id": "O011-ACC-0229",
+      "anchor": "Hyperboloid2.png caption print reflow",
+      "change": "Insert one deterministic centered line break between the two unchanged caption clauses so neither line can exceed the 22 mm-margin A4 text block."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_ids": [
+        "O011-CORR-0213",
+        "O011-CORR-0216"
+      ],
+      "surface": "profile:commands",
+      "source_sha256": "6ad4f2b8e2915ac3b942c653faf4f97920d11f7a70c5659ac940836ade42b4a5",
+      "target_sha256": "3d2490b9777bf11bfa8d70877fdba22fd7636daa38b198005902f8d5568666db"
+    },
+    {
+      "correction_id": "O011-CORR-0213",
+      "surface": "protected:vergleichskette",
+      "index": 14,
+      "source_sha256": "734449005bb4cf6b4ebc117cae93656553f536d10d9214d6cf2f9acc39731bbe",
+      "target_sha256": "82b96a6c54ab5cc20e0891f1ba7e33fa7cd4fab6c9e1892789a0a78233cff5d2"
+    },
+    {
+      "correction_id": "O011-CORR-0214",
+      "surface": "protected:vergleichskette",
+      "index": 18,
+      "source_sha256": "c28cd9bf1c4ffbef6a66ad5d2f0966f1d2ffbdfe0b434493685d7e015381f18c",
+      "target_sha256": "e02c415e21b46948f66438a094c92cc843f27864ea0da88ceed2d7b6e47d1191"
+    },
+    {
+      "correction_id": "O011-CORR-0216",
+      "surface": "protected:vergleichskette",
+      "index": 30,
+      "source_sha256": "5e4b8287f07bec83373f10e02a8cbad0c563d4756f8e3d7d2eefafcc485d1761",
+      "target_sha256": "0003b1b3185f19503ddb4638d2cbb6d63fbe93a7eb87768403fffd2903f9ad96"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-CORR-0213",
+      "surface": "command:mathl",
+      "occurrence_index": 5,
+      "source_sha256": "4d363d6103935caf30fc91c6db34250add87f49f87acc680ae75af8bd2f85c51",
+      "target_sha256": "075a7127d64afe9866d24040d318e5cf904f52565440ed0f2af914c3de01a370"
+    },
+    {
+      "correction_id": "O011-CORR-0216",
+      "surface": "command:mathkor",
+      "occurrence_index": 6,
+      "source_sha256": "4458a248b19e1b2912446ec932bfa3925a8f5bd3ba0e49e56633dd3d42bf607a",
+      "target_sha256": "12c4f70f681e35b5d933d4cf29d1a2a5b26556e967bb6a5d28279b2bfe7cab73"
+    },
+    {
+      "correction_id": "O011-CORR-0216",
+      "surface": "command:vergleichskettealignhandlinks",
+      "occurrence_index": 0,
+      "source_sha256": "f6374edcba3f152211ad94ced174d1b63890ce0df94c71e61e2bd11a3a65f99c",
+      "target_sha256": "65eb98667418735e95e5ff87e085be382542518f9daefc0f2e28d49f5e4f7562"
+    },
+    {
+      "correction_id": "O011-CORR-0217",
+      "surface": "command:vergleichskettealignhandlinks",
+      "occurrence_index": 2,
+      "source_sha256": "edfac7cb0d2e3f42ba2873f273019d1038fa3aa42ba8ccffdf2f63c49e41268b",
+      "target_sha256": "7b530c2d1b645566543419571ed139169ddab6a2025acfeba57280b9ed6f6236"
+    },
+    {
+      "correction_id": "O011-CORR-0217",
+      "surface": "command:vergleichskettealignhandlinks",
+      "occurrence_index": 3,
+      "source_sha256": "6485fa9a7cb03809cd75802482c7aee39270718069443d955ae734eba3a876fd",
+      "target_sha256": "ad886cdee18ffec03d032f14f2aa8b89dc8a0a60f1b63c4083247a8d222eefa0"
+    },
+    {
+      "correction_id": "O011-CORR-0217",
+      "surface": "command:vergleichskettedisphandlinks",
+      "occurrence_index": 0,
+      "source_sha256": "32ec1e1963da925f3394ee48cd2ed9dc9b6a6f1bded124732128dcc38329cbb7",
+      "target_sha256": "de3ccc9e581531a21459a454bdbd942ee2864ba5f9dcf95083cca82fe455f3a9"
+    },
+    {
+      "correction_id": "O011-CORR-0215",
+      "surface": "command:bildtext",
+      "occurrence_index": 1,
+      "source_sha256": "7fd7eb4539e1802f0397a5eb01af68a22db61638cb8a094eace65c9c48e35d8a",
+      "target_sha256": "598b02d36815133771c1351aa947fa1741c29f356654fde9ae3716bfe60fb900"
+    },
+    {
+      "correction_id": "O011-ACC-0226",
+      "surface": "command:bildtext",
+      "occurrence_index": 0,
+      "source_sha256": "2267558a19f5e401b0c8de10183fcfe603304f8752f8928634295faf831d4733",
+      "target_sha256": "d72b7c7504bb45b3e1d0f25bdb926d985e7409a39d880f91d9ef1feb1657fc0f"
+    },
+    {
+      "correction_id": "O011-ACC-0229",
+      "surface": "command:bildtext",
+      "occurrence_index": 1,
+      "source_sha256": "7fd7eb4539e1802f0397a5eb01af68a22db61638cb8a094eace65c9c48e35d8a",
+      "target_sha256": "598b02d36815133771c1351aa947fa1741c29f356654fde9ae3716bfe60fb900"
+    }
+  ]
+}

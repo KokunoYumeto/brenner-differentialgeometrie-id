@@ -1,6 +1,64 @@
 # Current state — O011 / D50
 
-Updated: 2026-08-26 (Europe/Berlin)
+Updated: 2026-08-27 (Europe/Berlin)
+
+## Current verified boundary — cumulative Unit 19 local gate
+
+Units 1–19 now pass the complete local reader and additive-backend gate. The
+current centered A4 PDF is 302 pages and 7,740,452 bytes, SHA-256
+`d96c7200271cd790b42bd4c584befd65c3aa669546e2b6935dbe44fc923b746e`.
+It contains 394 exercises, exactly 54 source-supplied solutions, and 26 admitted
+media assets. Two clean PDF build cycles are byte-identical. Structural QA has
+SHA-256 `8d4e8e56f8990bfd6250b61f02501c4b08589e2fc8db4150716867e533a142b9`;
+full 302-page visual QA has SHA-256
+`b21130b6cabc7cad7b89cb4cba45c243af26d569d71ad504d1913afa251a6abb`.
+
+The final reflowable HTML entry is 1,333,528 bytes, SHA-256
+`096393a5218d49dca913904bbf52a9bc0933a389d456db5d907db76872a3444a`;
+its manifest SHA-256 is
+`78af3571a8ed75da6bdf421342bf601148c972dbb0f450f36fbeeddb97f74aac`.
+The final responsive repair removes zero-width inline-math containment on small
+screens and follows delayed MathJax layout changes when resolving deep links.
+Structural HTML QA has SHA-256
+`f41ece1e459b6e9ce4df411855f3ab3fb4fa4a08213ff6d01408394f675ef078`;
+browser evidence has SHA-256
+`3b5c2de61b61d5307e355d836540bfc08a0918c8d4f9020bc9c92a947bdedeee`.
+
+The append-only backend preserves the exact 3,208-record public Unit 16 prefix
+and adds 539 records for Units 17–19, the cumulative reader closure, and the
+hash-bound Unit 18 static-media loader repair, for 3,747 records total. JSONL
+SHA-256 is
+`8045e59c84bc8c70fc3275bc65d023e46848276b184aca5978bd9b015060c193`;
+CSV SHA-256 is
+`b63d9d673b841869ab2d848e3a21b5b256a765c2b29f3e9982385e0ad3d75e1b`;
+manifest SHA-256 is
+`1bc181df4c931eb388dbd42cbc535ed88dd1ec37a475c26e820788d12c93c5eb`;
+independent verifier receipt SHA-256 is
+`feeab0a83c912d2f20f3bfa6c5bceb89f8cc4883a759166992579dc8b0ea60e2`.
+All 245 adverse-ledger rows now correspond one-to-one with backend correction
+records; `O011-ACC-0228` binds the persistent byte-identical loader alias, its
+canonical public-domain raster, build script, alias receipt, and build receipt.
+
+Unit 18's final lecture/worksheet hashes are
+`7d7bc9d97d9719790d1cd37f78fae74f9cb318a4f29b8a7c295e24deb6aed298`
+and `6710aad75c6a8132d0d255548cf19ea6d184999386a81f786061b0f02546d759`.
+Unit 19's final lecture/worksheet hashes are
+`ca3e199d2e80c45a8d87f43c2dae79538108ba04749ace112b88fc4d28000147`
+and `338753c6889573ae0056d4975f14e6271722751f349a15ed0df9b3d044689df8`.
+The previous D068/D069 values are superseded by this finalized reflow and QA
+closure; their append-only historical entries remain unchanged.
+
+The seven-file Unit 19 checkpoint is public in the existing Zenodo concept at
+record `22134954`, DOI `10.5281/zenodo.22134954`. Its source package passed two
+independent clean reconstructions; the anonymous public readback verified all
+seven files, 54,614,325 bytes total, with the PDF as first file and default
+preview. The publication and independent-readback receipt SHA-256 values are
+`a778cb203fa7598dbacc3e396df497f86b1a5518af05b028a551c2f3d413a0ee`
+and `7ff16486bbaa6867c5f85ff7761f03244b9bc683d57719f2fa26c8e0f88ca216`.
+The next executable action is the matching existing-lineage GitHub commit,
+tag, seven-asset release, and anonymous public readback, followed immediately
+by the exact Unit 20 authority freeze and source-ordered translation. The full
+O011 goal remains unfinished.
 
 ## Objective
 
@@ -99,3 +157,62 @@ The matching GitHub checkpoint is now public. `main` contains content commit `a4
 ## Unit 17 authority boundary
 
 Unit 17 authority freeze and preflight pass, including a second frozen-response reproduction and a live current-revision check. Lecture root pageid/revid is `142561/944389`; its sanitized expanded LaTeX is 24,138 bytes, SHA-256 `0ac2f20594df388ad6e6ddb3a38515af63ec74b6298eb7acc1d5c20851f2d1e0`. Worksheet root pageid/revid is `142651/886713`; its sanitized expanded LaTeX is 6,577 bytes, SHA-256 `fec773f1573930cba133de084287bd5cd91ea2302e99c2d5c0d96e65fe5cbd96`. The worksheet contains exactly 19 exercises: thirteen practice and six graded items totaling 30 points; all hint fields are blank and only Solutions 2 and 4 are source-supplied. One displayed public-domain media asset, `Cilinderprojectie-constructie.jpg` by KoenB, is frozen at 172,697 bytes with SHA-256 `7a3898760a53e679871e89e1a4382a4b5d8954c31f71d572bca6a3b3a160ef29`. The localized credit-text variance does not affect any rights-critical field. Preflight receipt SHA-256 is `0c7d19d122793874a8196386ba556cd4f80720602b08cf88e818dc1b8c59887a`; current-revision receipt SHA-256 is `788d919c67bb538639a0f65e8b78b3c47101c663a7c56dc9cf6767d643c97990`. The complete Unit 17 translation and bounded QA now pass as recorded above. The active action is exact Unit 18 authority closure and source-ordered translation.
+
+## Units 18 and 19 bounded reader closure
+
+Unit 18 now passes exact authority, translation, mathematical, media-rights,
+accessibility, and content-addressed binding gates. Lecture root pageid/revid is
+`142562/898474`; its 23,948-byte sanitized authority has SHA-256
+`7fc98f4cdd977e4a5acb4dea5d61807251ac850fe102b8f0ecc1251f755d3c3e`.
+Worksheet root pageid/revid is `142652/908317`; its 9,557-byte sanitized
+authority has SHA-256
+`ee2744cd813459a644fb382e931ae1f9a0f3b9dd8889532dfd9d49acd30de738`.
+The final lecture target is 24,212 bytes with SHA-256
+`61a0e9240fb83c0e553c37866e76efc5b38b7a27ade1789a8d32f014549d8193`;
+the worksheet target is 9,504 bytes with SHA-256
+`6710aad75c6a8132d0d255548cf19ea6d184999386a81f786061b0f02546d759`.
+All 21 exercises remain in source order: 16 practice and five graded items
+totaling 19 points; hints remain blank. Exactly Solutions 8, 11, 13, and 14
+are present under the canonical cumulative filenames with SHA-256 values
+`b33f25142ea1d417660de331a39252483fe081d456f3f32db19e4772a2cedf0f`,
+`e602b8a63785e6bd356394d7e09d75a77203a3863efe5e6845f035e638dc409d`,
+`2c618c487cbb8cccf300b3333c645f79519f39640dac00c664c25963e2935ec3`,
+and `f1ee3d9a587a96a1315a31b45ee5483b494951018bd2082674bd0fed9468b307`.
+The canonical 956,681-byte Poincare GIF remains CC BY-SA 3.0 and the
+194,637-byte hyperboloid PNG remains public domain. The GIF has a faithful
+Indonesian caption and a deterministic frame-zero static fallback; its
+animation receipt is 5,919 bytes with SHA-256
+`fd22692b6eeed7a4fe139a862b725fb932db780ab62a40de4a86d53583d16898`.
+Seventeen disclosed Unit 18 records include `O011-ACC-0226`; no correction is
+silent. The final POST QA is 13,965 bytes with SHA-256
+`1ddc7b46878adaa9f8fe1419793a7f4453de768cb1607bf068de2ad712f5f6d1`;
+its 7,339-byte independent binding receipt has SHA-256
+`f1169ce3f04e9c69179e68423085f29999657ce9492c05bc2e1cb01a76299068`.
+
+Unit 19 also passes its complete bounded gate. Lecture root pageid/revid is
+`142563/905408`; the 29,051-byte sanitized authority has SHA-256
+`bd47777c4d0fc68698db177e8937ab15824931ee86707148eb4ecb4bc9c548f2`.
+Worksheet root pageid/revid is `142653/898594`; its 7,006-byte authority has
+SHA-256
+`85fed2deb4f46ff8279383f9047a43fc8aee39b3cd7ddc35293b0686dc40ddad`.
+The final 29,383-byte lecture target has SHA-256
+`b86102481c4997fb3f403d83809a5a4418ce9eae3c5d58b230693788afa7fbaa`;
+the 7,175-byte worksheet target has SHA-256
+`7fd09462ffe522d33330b4105b0cccbc04c9e7588e9bd7128e24c97dd2828c9c`.
+All 12 exercises remain in source order: nine practice and three graded items
+totaling 12 points; hints remain blank and no source solution exists. Thirteen
+explicit corrections/refinements `O011-CORR-0250` through
+`O011-CORR-0274` at their recorded noncontiguous IDs close the omitted map
+label, malformed second derivatives, duplicated Christoffel equation,
+regularity hypotheses, orientation-dependent curvature signs, and reader
+language. The final POST QA is 7,491 bytes with SHA-256
+`b5a35c91e7136592d80cc80d337d8667df1e6e125462ee7f2653d536ee9d4f55`;
+its 3,976-byte independent binding receipt has SHA-256
+`3d2ffa12b0ebd585a84ce8a4ef50eed1c26e7a8111eb7639d5d4c48339df841c`.
+
+The active cursor is now the cumulative Unit 19 gate. The bounded dry audit
+reconciles 92 source files, 50 Units 17-19 fragments, 394 cumulative exercises,
+54 source-supplied solutions, 26 media assets, and two static-first animation
+surfaces while preserving the published 3,208-record Units 1-16 backend
+prefix. No cumulative PDF, HTML, backend, package, or publication is claimed
+until the deterministic runtime and public-readback gates below pass.

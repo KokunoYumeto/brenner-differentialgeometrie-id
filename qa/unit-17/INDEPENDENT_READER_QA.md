@@ -17,6 +17,7 @@ PASS after correction. The Indonesian targets preserve the lecture structure, al
 - Every norm-one image is called a sphere rather than a solid ball. The upper half is called a hemisphere.
 - Worksheet Exercises 8 and 19 identify latitude `30^\circ` explicitly. Exercise 9 states the parallel-ray idealization required by the intended one-half answer. The frozen `Bestime` typo in Exercise 13 is not propagated.
 - Solution 2 retains the complete polar-substitution chain and result `4\pi`; Solution 4 retains the complete improper-integral bound through `2\pi\sqrt{2}<10`.
+- Both corollary wrappers now use the required internal `Korollar` environment key; the compatibility layer and prepared cross-reference labels still expose only the Indonesian heading `Korolari` to readers.
 
 ## Reader review
 

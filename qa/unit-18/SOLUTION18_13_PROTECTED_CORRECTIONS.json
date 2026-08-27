@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-18/worksheet18_exercise13_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-TRANS-0224",
+      "anchor": "Supplied Solution 13 reader translation",
+      "change": "Render the complex-to-real coordinate calculation in natural Indonesian while preserving every algebraic step."
+    }
+  ],
+  "allowed_deltas": [],
+  "evidence_only_deltas": []
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-19/worksheet19.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0270",
+      "anchor": "Exercise 4, horizontal-projection sphere parametrization",
+      "change": "Clarify that the second fundamental matrix is to be computed on the interior of the displayed closed parameter domain, because the square-root parametrization is not differentiable at v = plus or minus 1."
+    },
+    {
+      "correction_id": "O011-CORR-0271",
+      "anchor": "Exercise 9, regularity required by the Brioschi formula",
+      "change": "Strengthen the local parametrization from twice to three-times differentiable so that the displayed second partial derivatives of the first fundamental coefficients are defined."
+    },
+    {
+      "correction_id": "O011-CORR-0272",
+      "anchor": "Exercise 12, regularity of the generating curve",
+      "change": "Strengthen the generating curve from differentiable to twice differentiable because the requested second fundamental matrix and principal curvatures use its second derivative."
+    },
+    {
+      "correction_id": "O011-CORR-0273",
+      "anchor": "Exercise 8, curve second fundamental matrix",
+      "change": "Supply a chosen unit normal field because the second fundamental matrix and its signed relation to curvature depend on this choice."
+    },
+    {
+      "correction_id": "O011-CORR-0274",
+      "anchor": "Exercise 12, cylinder orientation",
+      "change": "Require a choice of one of the cylinder's two unit normal fields so the requested second fundamental matrix and signed principal curvatures are unambiguous."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-ACC-0259",
+      "surface": "profile:commands",
+      "source_sha256": "28559880f646dd0bb32d21f1b8522d39f1b750e8e363fe13e67c5009568f0e01",
+      "target_sha256": "dd86cd2c7ee8f200223a288203feccbbee560a35d2950eddd01bbe6755077768"
+    },
+    {
+      "correction_id": "O011-ACC-0259",
+      "surface": "profile:environments",
+      "source_sha256": "e08c499ee06aa2f49f0b12c378ba528262497e9b877ee74c098c24f15281b22e",
+      "target_sha256": "07d07a3d01fcd76adcbe05e5128ac72854488e72da60ff539e235e8ddb5a934b"
+    },
+    {
+      "correction_id": "O011-ACC-0259",
+      "surface": "profile:brace_profile",
+      "source_sha256": "55a1c94006a74fb79af23d0016f698efdbc5ddd7aa9c7dfcadb9efece9c1f9d0",
+      "target_sha256": "cf30a38f10813ac7773a255da828161c71e5513708d9d366e8b476dca6903bdf"
+    },
+    {
+      "correction_id": "O011-ACC-0259",
+      "surface": "protected:vergleichskette",
+      "index": 2,
+      "source_sha256": "e557695ee6a4954d8a34567e5c45d2a7b7e1b36efadf91bc8fd86dd43e2bdb73",
+      "target_sha256": "176f59dfd7c40112db1d41b0306a6f3bbd61b5b7f326a974f0a1ce8f464a9cc7"
+    }
+  ],
+  "evidence_only_deltas": []
+}

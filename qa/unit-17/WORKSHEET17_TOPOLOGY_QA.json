@@ -1,33 +1,42 @@
 {
   "schema_version": 1,
-  "source": {
-    "path": "authority/expanded/worksheet17_source.de.tex",
-    "bytes": 6577,
-    "sha256": "fec773f1573930cba133de084287bd5cd91ea2302e99c2d5c0d96e65fe5cbd96"
-  },
+  "unit": 17,
+  "status": "pass",
   "target": {
     "path": "source/units/unit-17/worksheet17.id.tex",
     "bytes": 6649,
     "sha256": "0b1366792404b62fb2705f56995077f4d53bb9779e10c06f8a2c0b96a5241fdc"
   },
+  "exercise_count": 19,
+  "practice_exercise_count": 13,
+  "graded_exercise_count": 6,
+  "graded_exercise_indices": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "graded_point_values": [
+    5,
+    5,
+    4,
+    4,
+    6,
+    6
+  ],
+  "point_total": 30,
+  "all_hint_fields_blank": true,
+  "supplied_solution_indices": [
+    2,
+    4
+  ],
   "checks": {
-    "exercise_count_equal": true,
-    "exercise_command_order_equal": true,
-    "supplied_solution_macro_positions_equal": true,
-    "graded_count_equal": true,
-    "graded_point_sequence_equal": true,
-    "graded_point_total_equal": true,
-    "blank_hint_field_count_equal": true,
-    "translation_verifier_passed": true
-  },
-  "census": {
-    "exercise_count": 19,
-    "practice_count": 13,
-    "graded_count": 6,
-    "graded_point_sequence": [5, 5, 4, 4, 6, 6],
-    "graded_point_total": 30,
-    "blank_hint_field_count": 19,
-    "source_supplied_solution_exercises": [2, 4]
-  },
-  "status": "pass"
+    "exercise_sequence_preserved": true,
+    "point_values_preserved": true,
+    "blank_hint_layer_preserved": true,
+    "source_solution_markers_match_frozen_closure": true,
+    "no_missing_solution_invented": true
+  }
 }

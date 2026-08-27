@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-18/worksheet18_exercise14_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-TRANS-0225",
+      "anchor": "Supplied Solution 14 reader translation",
+      "change": "Render the two partial-derivative calculations in natural Indonesian while preserving every quotient-rule and simplification step."
+    }
+  ],
+  "allowed_deltas": [],
+  "evidence_only_deltas": []
+}

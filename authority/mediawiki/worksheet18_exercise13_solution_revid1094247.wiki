@@ -1,0 +1,41 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Wir schreiben
+{{
+Relationskette
+| w
+|| a+b {{imaginäre Einheit|}} 
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Dann ist
+{{
+Relationskette/align
+|  \psi ( a+b {{imaginäre Einheit|}}   )
+|| {{op:Bruch| {{makl| a+b {{imaginäre Einheit|}} +1 |}} {{imaginäre Einheit|}}     | 1-  a-b {{imaginäre Einheit|}}     }} 
+|| {{op:Bruch|   a {{imaginäre Einheit|}} +{{imaginäre Einheit|}}  -b | 1-  a-b {{imaginäre Einheit|}}     }}
+|| {{op:Bruch|   {{makl| a {{imaginäre Einheit|}} +{{imaginäre Einheit|}}  -b |}} {{makl| 1-  a+b {{imaginäre Einheit|}} |}} | {{makl| 1-  a-b {{imaginäre Einheit|}} |}} {{makl| 1-  a+b {{imaginäre Einheit|}} |}}     }}
+|| {{op:Bruch|   {{makl| a+1}} {{makl| 1-a |}} {{imaginäre Einheit|}}  -b^2 {{imaginäre Einheit|}} -b {{makl| 1-  a|}} -b{{makl| a+1 |}} | {{makl| 1-  a}}^2 +b^2 }}
+|| {{op:Bruch|   {{makl| 1-a ^2-b^2 |}} {{imaginäre Einheit|}}   -2 b | {{makl| 1-  a}}^2 +b^2 }}
+||
+|SZ=.
+}}
+In reellen Koordinaten ist daher
+{{
+Relationskette/display
+| \psi {{op:Spaltenvektor| a |b}} 
+|| {{op:Bruch| 1 | -2a+1+a^2+b^2}} {{op:Spaltenvektor| -2b| 1-a^2-b^2}} 
+|| 
+|| 
+|| 
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

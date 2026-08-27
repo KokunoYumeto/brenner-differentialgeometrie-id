@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
   "qa": "qa/unit-17/POST_CORRECTION_MATH_QA.json",
-  "qa_bytes": 10839,
-  "qa_sha256": "90b5e890a3869d5187ec1e6bb6d66dba0842dbdab5e51414d1a05fe4fcb3eb0a",
+  "qa_bytes": 10672,
+  "qa_sha256": "cd6ed9262222d439eb699b15b05a1d16e9d17ab07862a323f81f1782b7d0ced9",
   "checked_unique_path_records": 28,
   "checked_paths": [
     {
       "path": "00_control/ADVERSE_LEDGER.csv",
-      "bytes": 61055,
-      "sha256": "e3e8ac8bfcf23b70756f1bf158323acd79f75bd72791e4ce57fabba5be644097"
+      "bytes": 70642,
+      "sha256": "4c3764411d3570c8906e9c1643d1ba10fd5e0216c2340a18c078e1ab7a937050"
     },
     {
       "path": "00_control/TERMINOLOGY.csv",
-      "bytes": 23691,
-      "sha256": "9f9ab6160fe626481707d15c921a4258f4c5fecf2b3f9e00d4ace381f7948db7"
+      "bytes": 25246,
+      "sha256": "bc316c9f62e1386b72f99dab46a6112cd9cbac5c3623d4edcd4b5beb76f0121b"
     },
     {
       "path": "authority/brenner_media_rights_manifest.csv",
@@ -43,7 +43,7 @@
     {
       "path": "build/generated/lecture17.id.build.tex",
       "bytes": 23439,
-      "sha256": "626e600d9753dd4b05d3f593ab7950be02b8437bf0912dd34ba5021cc63eda00"
+      "sha256": "bc59a1659cfd0155c1333cb58d03ac37477e68db119cbf0655fa3ca09e514843"
     },
     {
       "path": "build/generated/unit17-media-attribution-cumulative.tex",
@@ -82,13 +82,13 @@
     },
     {
       "path": "qa/unit-17/INDEPENDENT_READER_QA.md",
-      "bytes": 2423,
-      "sha256": "c9dc81f61fb0e97a60415d8055860c7bd43c145e1fc6b17462c16c08c68b59f8"
+      "bytes": 2631,
+      "sha256": "7fb6450a316907dd3845dd52dc01f09d86b4dcdddecac60a7cf3a7930979d9b5"
     },
     {
       "path": "qa/unit-17/LECTURE17_PROTECTED_CORRECTIONS.json",
-      "bytes": 5110,
-      "sha256": "5d68736b63f8373278afc8be38a28946e9259adba5d98f76f9a9c8a17b3e3d66"
+      "bytes": 6031,
+      "sha256": "caac35aa2cd7ce65a46877d7d8aedacaf942b4e104cbcb3d5ef02c7fa3cd5dd9"
     },
     {
       "path": "qa/unit-17/SOLUTION17_02_PROTECTED_CORRECTIONS.json",
@@ -107,8 +107,8 @@
     },
     {
       "path": "qa/unit-17/WORKSHEET17_TOPOLOGY_QA.json",
-      "bytes": 996,
-      "sha256": "cf2dbb3369402a2474fe99b22220473c6415b880208351a57042e75b9424a0f7"
+      "bytes": 817,
+      "sha256": "ce417d94e2932aae841795c20c15bfc83d802dd0b334844c1a098b56cde82a88"
     },
     {
       "path": "qa/unit-17/solution_closure.json",
@@ -122,13 +122,13 @@
     },
     {
       "path": "source/unit_media.json",
-      "bytes": 5637,
-      "sha256": "c46cd6f52cda768b1b3e7aef8d46ab95e18920f8014c30e86ca8b79b14b38dfa"
+      "bytes": 6203,
+      "sha256": "dd901249426ef0fdc839c647eccf313c1df7c94297f3d56d0c6402ae5cb2128b"
     },
     {
       "path": "source/units/unit-17/lecture17.id.tex",
       "bytes": 24372,
-      "sha256": "ef22cfb765131f1b8c0b52bd78545c66e36eedec777f84bb5e6cc04ecf04ad3e"
+      "sha256": "a01fde947d1efc4ab28b426933bc7c7a2f2e922fa8c2833ef224c747e3d39da9"
     },
     {
       "path": "source/units/unit-17/worksheet17.id.tex",
@@ -152,9 +152,9 @@
     "qa/unit-17/worksheet17_exercise02_solution_translation.json",
     "qa/unit-17/worksheet17_exercise04_solution_translation.json"
   ],
-  "declared_correction_count": 16,
-  "manifest_correction_count": 16,
-  "adverse_ledger_record_count": 209,
+  "declared_correction_count": 17,
+  "manifest_correction_count": 17,
+  "adverse_ledger_record_count": 245,
   "status": "pass",
   "failures": []
 }

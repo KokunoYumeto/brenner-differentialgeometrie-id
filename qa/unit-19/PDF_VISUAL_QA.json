@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-pdf-visual-qa-v19",
+  "generated_at": "2026-08-27T19:49:57+02:00",
+  "status": "pass",
+  "scope": "Complete visual inspection of every page in the cumulative Indonesian PDF through Unit 19 after the Unit 18 caption and Unit 19 Christoffel and Brioschi display reflows.",
+  "surface": {
+    "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-19-id.pdf",
+    "bytes": 7740452,
+    "sha256": "d96c7200271cd790b42bd4c584befd65c3aa669546e2b6935dbe44fc923b746e",
+    "pages": 302,
+    "page_size": "A4, 595.276 x 841.89 pt",
+    "build_receipt_path": "qa/unit-19/build.json",
+    "build_receipt_bytes": 180696,
+    "build_receipt_sha256": "f2135490f527a3504a84f3586c26f7b49756fa8d8d0ab9bd938464f63c4d1bd1"
+  },
+  "structural_qa": {
+    "path": "qa/unit-19/pdf_structural_qa.json",
+    "bytes": 382759,
+    "sha256": "8d4e8e56f8990bfd6250b61f02501c4b08589e2fc8db4150716867e533a142b9",
+    "verdict": "PASS_WITH_WARNINGS_AND_DOCUMENTED_LIMITATION",
+    "minimum_body_left_points": 60.5,
+    "maximum_body_right_points": 538.641,
+    "exercise_count": 394,
+    "source_supplied_solution_count": 54,
+    "bookmark_count": 94,
+    "media_count": 26,
+    "font_object_count": 34
+  },
+  "render_evidence": {
+    "renderer": "Poppler pdftoppm",
+    "resolution_dpi": 110,
+    "page_png_count": 302,
+    "page_png_bytes": 41028622,
+    "page_inventory_sha256": "00e098e33287b6a7e4ec6118e79eeb47257996b33e7948cdf9ac08514d2080f8",
+    "inventory_digest_method": "SHA-256 over UTF-8 filename|bytes|sha256 lines in sorted order, each terminated by LF",
+    "contact_sheet_count": 11,
+    "contact_sheet_bytes": 47162219,
+    "contact_sheet_inventory_sha256": "a6dde029179f2e4436da707758ec6b787c6922dec526457b14fa678c752f50bb",
+    "inspection": "All eleven contact sheets covering pages 1-302 were inspected. Because the final sheet contains only pages 301-302 and is sparse, both final pages were additionally inspected at full rendered resolution. Repaired pages 273, 289, 290, and 293 were also inspected at full rendered resolution."
+  },
+  "focused_reflow_evidence": {
+    "physical_page_273_sha256": "ff032288717d55b7bfb6c973e7bb99adb58b628ab34aec6c8412ec193bb35bb8",
+    "physical_page_289_sha256": "709a98f90548a37220ebce2db8831a4f2fb9c57b9f7ce7d4082734ea062b46d7",
+    "physical_page_290_sha256": "f69a3b076c7d3b1571af353f6365a2d9a12d76216c08bedf44b11a264f237882",
+    "physical_page_293_sha256": "788e6fcbefca0229e60c92c152c2b1b24cac8f3bd0f028756d4b9be22a0cb289",
+    "physical_page_301_sha256": "76a91e7f4a382c0332bbf2a852072cfc9022f64ef87bf03ad138574c7796ecef",
+    "physical_page_302_sha256": "07bb4cf88c421bebf3f9f77f1a200caf427abde4ec90b72ce3d9a3269296bc8f",
+    "finding": "The Unit 18 Hyperboloid2 caption, the Unit 19 Christoffel expansion, and both Brioschi determinant displays are legible, centered, full-size, and wholly inside the text block. The last media-attribution and license pages are complete and readable."
+  },
+  "checks": {
+    "all_302_pages_rendered": true,
+    "all_302_pages_visually_inspected": true,
+    "front_matter_and_contents_legible": true,
+    "all_nineteen_unit_boundaries_consistent": true,
+    "body_is_centered_inside_the_a4_page": true,
+    "unit18_caption_reflow_inside_text_block": true,
+    "unit19_christoffel_expansion_reflow_inside_text_block": true,
+    "unit19_brioschi_displays_reflow_inside_text_block": true,
+    "no_clipped_or_out_of_page_content": true,
+    "no_overlapping_text_figures_or_equations": true,
+    "no_unintended_blank_pages": true,
+    "figures_are_sharp_and_positioned_with_their_content": true,
+    "equations_and_small_glyphs_are_legible": true,
+    "headers_footers_and_page_numbers_are_consistent": true,
+    "media_attribution_and_license_pages_are_readable": true,
+    "no_placeholder_or_tool_token_is_visible": true,
+    "two_clean_build_cycles_byte_identical": true
+  },
+  "limitations": [
+    "This is a visual-rendering receipt, not a claim that the PDF is structurally tagged; the structural receipt records the untagged-PDF limitation separately.",
+    "The bound TeX logs contain 42 non-blocking box diagnostics, while independent page-bound, body-extent, full-render, and visual checks pass.",
+    "Hollow square marks visible in the reader are intentional proof-ending marks, not missing-glyph placeholders."
+  ]
+}

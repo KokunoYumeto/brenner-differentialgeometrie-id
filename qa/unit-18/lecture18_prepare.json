@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-18/lecture18.id.tex",
+  "input_bytes": 24214,
+  "input_sha256": "7d7bc9d97d9719790d1cd37f78fae74f9cb318a4f29b8a7c295e24deb6aed298",
+  "output": "build/generated/lecture18.id.build.tex",
+  "output_bytes": 23167,
+  "output_sha256": "873589aa4c749156ef1db51f84533c54d8540a3f4d5986cacf707f3ca8fcdc9b",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 5,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Mannigfaltigkeit/Abzählbar/Positive Volumenform/Zugehöriges Maß/Vorbereitende Eigenschaften/Fakt",
+      "label": "Lema 15.2"
+    },
+    {
+      "target": "Mannigfaltigkeit/Differenzierbare Abbildung/Zurückziehen von Differentialformen/Elementare Eigenschaften/Fakt",
+      "label": "Lema 14.7 (4)"
+    },
+    {
+      "target": "Offene Mengen/Differenzierbare Abbildung/Zurückziehen von Volumenform auf gleichdimensionalem Raum/In Koordinaten/Fakt",
+      "label": "Korolari 14.9"
+    },
+    {
+      "target": "Diffeomorphismus/Transformationsformel für Integrale/Fakt",
+      "label": "Teorema 14.3 (Teori Ukuran dan Integrasi (Osnabrück 2022-2023))"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Isometrie/Grundlegende Eigenschaften/Fakt",
+      "label": "Lema 18.6"
+    },
+    {
+      "target": "Differenzierbare Mannigfaltigkeit/Positive Volumenform/Diffeomorphismus/Rückzug/Maß/Fakt",
+      "label": "Lema 18.1"
+    },
+    {
+      "target": "Halbebene/Poincaré/Riemannsche Geometrie/Schnittkrümmung/Beispiel",
+      "label": "Contoh 29.10"
+    },
+    {
+      "target": "Obere Halbebene/Einheitskreis/Rational isomorph/Fakt/Beweis/Aufgabe",
+      "label": "Soal 18.10"
+    },
+    {
+      "target": "Einheitskreis/Obere Halbebene/Rational isomorph/Reelle Koordinaten/Aufgabe",
+      "label": "Soal 18.12"
+    },
+    {
+      "target": "Einheitskreis/Obere Halbebene/Rational isomorph/Reelle partielle Ableitungen/Aufgabe",
+      "label": "Soal 18.13"
+    },
+    {
+      "target": "Kurs:Lineare Algebra (Osnabrück 2017-2018)/Teil II/Vorlesung 40",
+      "label": "Kurs:Lineare Algebra (Osnabrück 2017-2018)/Teil II/Vorlesung 40"
+    },
+    {
+      "target": "Minkowski-Raum/Beobachtervektoren/Fakt",
+      "label": "Lema 40.4 (Aljabar Linear (Osnabrück 2024-2025))"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

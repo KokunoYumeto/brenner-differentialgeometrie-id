@@ -1,0 +1,1589 @@
+\setcounter{section}{19}
+
+  \zwischenueberschrift{Pemetaan Weingarten untuk manifold terparametrisasi}
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {f} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi terdiferensialkan kontinu dua kali}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ f^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $f$
+\definitionsverweis {reguler}{}{}
+pada setiap titik di $Y$. Misalkan
+\maabbdisp {\varphi} { V } { Y
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka. Misalkan pemetaan tersebut merupakan suatu parametrisasi difeomorfik pada himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{}
+}
+{}{}{,}
+Dengan demikian, $\varphi^{-1}$ dapat dipandang sebagai suatu
+\definitionsverweis {peta}{}{}
+untuk $Y$. Untuk
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi(Q)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T_{P}Y
+}
+{ =} { \operatorname{bild}  \left(D\varphi\right)_{Q}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+Dengan demikian, terdapat isomorfisme linear
+\maabbdisp {\left(D\varphi\right)_{Q}} {\R^{n-1}} { T_{P} Y
+} {}
+yang mendeskripsikan ruang singgung
+\mathl{T_{P} Y}{.} Vektor-vektor basis standar $e_i$ dipetakan ke
+
+\mavergleichskette
+{\vergleichskette
+{ \partial_i \varphi(Q)
+}
+{ = }{ \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial  u_i   } } ( Q)  \\\vdots\\  { \frac{   \partial  \varphi_n   }{  \partial  u_i   } } ( Q)   \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan membentuk suatu basis ruang singgung. Jika
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dilengkapi dengan struktur Euklides pada $\R^n$, struktur ini menginduksi
+\definitionsverweis {struktur Riemann}{}{}
+dan menghasilkan fungsi-fungsi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g_{ij}(Q)
+}
+{ =} { \left\langle  \partial_i \varphi (Q)   ,  \partial_j \varphi (Q)   \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+yang dihimpun menjadi matriks fundamental pertama
+\zusatzklammer {matriks fundamental metrik} {} {}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ G
+}
+{ =} { \left(  g_{ij}  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+Matriks fundamental pertama sepenuhnya ditentukan oleh struktur Riemann pada $Y$.
+
+\definitionsverweis {Pemetaan Weingarten}{}{}
+\maabbdisp {L_{P}} { T_{P}Y } { T_{P}Y
+} {}
+kini dapat dideskripsikan terhadap basis
+\mathl{\partial_i \varphi (Q)}{.} Cara terbaik untuk melakukannya ialah dengan memperkenalkan apa yang disebut matriks fundamental kedua. Untuk itu, orientasikan $Y$ dengan suatu
+\definitionsverweis {medan normal satuan}{}{}
+$N$
+\definitionsverweis {yang menentukan orientasi}{}{.}
+Hal ini dapat dilakukan dengan menggunakan fungsi pendeskripsi $f$. Medan normal satuan yang dibatasi pada $U$ dapat langsung dipandang sebagai medan pada $V$. Karena $f$ dan $\varphi$ diasumsikan terdiferensialkan kontinu dua kali, medan normal satuan pada $V$ terdiferensialkan. Kita mendefinisikan hal berikut.
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {f} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi terdiferensialkan kontinu dua kali}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ f^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $f$
+\definitionsverweis {reguler}{}{}
+pada setiap titik di $Y$. Misalkan
+\maabbdisp {\varphi} { V } { Y
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+suatu parametrisasi terdiferensialkan dua kali pada suatu himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan parameter
+\mathl{u_1 , \ldots , u_{n-1}}{.} Orientasikan $Y$ dengan suatu
+\definitionsverweis {medan normal satuan}{}{}
+$N$
+\definitionsverweis {yang menentukan orientasi}{}{,}
+dan pandang $N$ sebagai medan pada $V$. Tetapkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h_{i j}
+}
+{ =} { \left\langle  \partial_i \partial_j \varphi , N  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+\definitionswort {Matriks fundamental kedua}{}
+untuk $\varphi$ adalah matriks
+\zusatzklammer {yang bergantung pada
+
+\mavergleichskettek
+{\vergleichskettek
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ H
+}
+{ =} { \left(  h_{ij}   \right)_{1 \leq i,j \leq n-1}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+Definisi ini menggunakan medan normal satuan dan, melalui hasil kali skalar, struktur Riemann pada $Y$. Menurut
+[[Satz von Schwarz/R/Partielle Version/Fakt|teorema Schwarz]],
+matriks fundamental kedua bersifat simetris.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/R^n/Parametrisierung/Zweite Fundamentalform/Variante/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {f} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi terdiferensialkan kontinu dua kali}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ f^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $f$
+\definitionsverweis {reguler}{}{}
+pada setiap titik di $Y$. Misalkan
+\maabbdisp {\varphi} { V } { Y
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+suatu parametrisasi terdiferensialkan dua kali pada suatu himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan parameter
+\mathl{u_1 , \ldots , u_{n-1}}{.} Orientasikan $Y$ dengan suatu
+\definitionsverweis {medan normal satuan}{}{}
+$N$
+\definitionsverweis {yang menentukan orientasi}{}{,}
+dan pandang $N$ sebagai medan pada $V$.}
+\faktfolgerung {Maka berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h_{i j}
+}
+{ =} { - \left\langle  \partial_i  \varphi ,  \partial_j N  \right\rangle
+}
+{ =} { \left\langle  \partial_i  \varphi ,  L_{} ( \partial_j \varphi)  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Karena
+\definitionsverweis {medan normal satuan}{}{}
+tegak lurus terhadap
+\definitionsverweis {ruang-ruang singgung}{}{}
+pada $Y$, berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  \partial_i \varphi , N  \right\rangle
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dari sini diperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 0
+}
+{ =} { \left\langle  \partial_j \partial_i \varphi , N  \right\rangle + \left\langle  \partial_i \varphi ,  \partial_j N  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+yang memberikan persamaan pertama. Persamaan kedua langsung mengikuti definisi pemetaan Weingarten.
+
+}
+
+Sekarang kita membatasi pembahasan pada kasus
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ = }{ 3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Matriks fundamental pertama adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix} g_{11}  &  g_{12}  \\ g_{21} & g_{22}  \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  E   &   F   \\  F & G  \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g_{ij}
+}
+{ =} { \left\langle  \partial_i \varphi ,  \partial_j \varphi  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+Dalam konteks ini kita memilih notasi pertama. Matriks fundamental kedua adalah
+
+\mathdisp {\begin{pmatrix} h_{11}  &  h_{12}  \\ h_{21} & h_{22}  \end{pmatrix}} {  }
+
+Untuk menyingkat hipotesis dalam pernyataan berikut, kita juga mengatakan bahwa terdapat suatu \stichwort {permukaan berorientasi} {} atau suatu permukaan berorientasi yang terparametrisasi sepotong demi sepotong di $\R^3$.
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Raum/Parametrisierung/Weingartenabbildung/Fundamentalformen/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {f} { T } { \R
+} {}
+suatu
+\definitionsverweis {fungsi terdiferensialkan kontinu dua kali}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ f^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $f$
+\definitionsverweis {reguler}{}{}
+di setiap titik $Y$. Misalkan
+\maabbdisp {\varphi} { V } { Y
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^{2}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+suatu parametrisasi terdiferensialkan dua kali pada suatu himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan parameter $u_1,u_2$. Orientasikan $Y$ dengan suatu
+\definitionsverweis {medan normal satuan}{}{}
+$N$
+\definitionsverweis {yang menentukan orientasi}{}{,}
+dan pandang $N$ sebagai medan pada $V$. Misalkan $G$ adalah
+\definitionsverweis {matriks fundamental pertama}{}{}
+dan $H$ adalah
+\definitionsverweis {matriks fundamental kedua}{}{}
+untuk $\varphi$. Untuk
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ \varphi(Q)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+misalkan $W$ adalah matriks yang merepresentasikan
+\definitionsverweis {pemetaan Weingarten}{}{}
+\maabbdisp {L_P} {T_PY} {T_PY
+} {}
+terhadap basis
+\mathkor {} {\partial_1 \varphi (Q)} {dan} {\partial_2 \varphi (Q)} {}
+dari $T_PY$.}
+\faktuebergang {Maka berlaku pernyataan-pernyataan berikut.}
+\faktfolgerung {\aufzaehlungvier{Berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ H
+}
+{ =} { G \cdot W
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ W
+}
+{ =} { G^{-1} H
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Berlaku
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \partial_1 N
+}
+{ =} { -  { \frac{   1  }{ g_{11} g_{22} - g_{12}^2  } } \left(  \left(  g_{22} h_{11}  -g_{12}h_{12}  \right) \partial_1 \varphi + \left(  - g_{12} h_{11} + g_{11}h_{12}  \right) \partial_2 \varphi \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \partial_2 N
+}
+{ =} { - { \frac{   1  }{  g_{11} g_{22} - g_{12}^2  } }  \left(  \left(  g_{22} h_{12} -g_{12} h_{22}  \right)  \partial_1 \varphi + \left(  -g_{12} h_{12} + g_{11} h_{22}   \right) \partial_2 \varphi  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+}{Untuk
+\definitionsverweis {kelengkungan Gauss}{}{}
+pada $Y$, berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ K
+}
+{ =} { { \frac{   \det  H  }{  \det  G  } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\aufzaehlungvier{Menurut definisi $W$, berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ L_P ( \partial_1 \varphi)
+}
+{ =} { w_{11}  \partial_1 \varphi + w_{21}\partial_2 \varphi
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ L_P ( \partial_2 \varphi)
+}
+{ =} { w_{12}  \partial_1 \varphi + w_{22}\partial_2 \varphi
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Karena itu, menurut
+[[Hyperfläche/R^n/Parametrisierung/Zweite Fundamentalform/Variante/Fakt|Lema 19.2]],
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h_{ij}
+}
+{ =} { \left\langle  \partial_i \varphi  ,  L_P ( \partial_j \varphi)  \right\rangle
+}
+{ =} { \left\langle  \partial_i \varphi  ,  w_{1j}  \partial_1 \varphi + w_{2j} \partial_2 \varphi    \right\rangle
+}
+{ =} { w_{1j} g_{i1 } + w_{2j} g_{i2}
+}
+{ } {
+}
+}
+{}{}{.}
+}{Hal ini langsung mengikuti (1) dengan mengalikan dari kiri oleh $G^{-1}$.
+}{Berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial_i N
+}
+{ =} { - L( \partial_i \varphi)
+}
+{ =} { -w_{1i} \partial_1 \varphi - w_{2i} \partial_2 \varphi
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan dengan demikian pernyataan tersebut mengikuti (2), dengan memperhatikan bahwa
+
+\mavergleichskettedisp
+{\vergleichskette
+{ G^{-1}
+}
+{ =} { { \frac{   1  }{  g_{11} g_{22} - g_{12}^2  } } \begin{pmatrix} g_{22}  &   - g_{12}   \\  -g_{12}  & g_{11}  \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Oleh karena itu,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ W
+}
+{ =} { { \frac{   1  }{  g_{11} g_{22} - g_{12}^2  } } \begin{pmatrix} g_{22}  &   - g_{12}   \\  -g_{12}  & g_{11}  \end{pmatrix}  \begin{pmatrix} h_{11}  &   h_{12}   \\  h_{12}  & h_{22}  \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan dengan demikian
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \partial_1 N
+}
+{ =} { -w_{11} \partial_1 \varphi - w_{21} \partial_2 \varphi
+}
+{ =} { -{ \frac{   1  }{  g_{11} g_{22} - g_{12}^2  } }  \left(  \left(  g_{22} h_{11} -g_{12} h_{12}   \right)  \partial_1 \varphi + \left(  -g_{12} h_{11} + g_{11} h_{12}   \right)  \partial_2 \varphi  \right)
+}
+{ } {
+}
+{ } {}
+}
+{}
+{}{}
+dan
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \partial_2 N
+}
+{ =} { -w_{12} \partial_1 \varphi - w_{22} \partial_2 \varphi
+}
+{ =} { - { \frac{   1  }{  g_{11} g_{22} - g_{12}^2  } }  \left(  \left(  g_{22} h_{12} -g_{12} h_{22}  \right)  \partial_1 \varphi + \left(  -g_{12} h_{12} + g_{11} h_{22}   \right) \partial_2 \varphi  \right)
+}
+{ } {
+}
+{ } {}
+}
+{}
+{}{}
+}{Kelengkungan Gauss adalah determinan pemetaan Weingarten. Karena itu, pernyataan ini mengikuti (2) bersama
+[[Determinante/Multiplikationssatz/Fakt|teorema perkalian determinan]].
+}
+
+}
+
+  \zwischenueberschrift{Kelengkungan Gauss sebagai konsep intrinsik}
+
+[[Bogenparametrisierte Kurve/Gerade darüber/Isometrie/Beispiel|Contoh 18.5]]
+menunjukkan bahwa terdapat isometri di antara permukaan-permukaan Riemann
+\zusatzklammer {misalnya antara suatu bagian bidang dan selimut silinder} {} {}
+yang tidak mempertahankan pemetaan Weingarten maupun kelengkungan utama. Pada bidang, pemetaan Weingarten adalah pemetaan nol; pada silinder, nilai eigennya ialah $0$ dan ${ \pm \frac{  1 }{ r } }$, dengan $r$ menyatakan jari-jari dan tandanya ditentukan oleh pilihan medan normal satuan. Namun, hasil kali nilai-nilai eigen tersebut, yakni determinan pemetaan Weingarten dan sekaligus kelengkungan Gauss, sama dengan $0$ untuk kedua permukaan. Kita akan membuktikan bahwa kelengkungan Gauss suatu permukaan di $\R^3$ memang sepenuhnya ditentukan oleh struktur Riemannnya.
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {permukaan berorientasi}{}{}
+yang terdiferensialkan kontinu dua kali, dan misalkan
+\maabbdisp {\varphi} { V } { Y
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+suatu parametrisasi lokal dari $Y$ yang terdiferensialkan kontinu dua kali, dengan parameter $u,v$. Misalkan $N$ adalah
+\definitionsverweis {medan normal satuan}{}{}
+yang dipandang sebagai medan pada $V$. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ H
+}
+{ = }{ \left(  h_{ij}  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {matriks fundamental kedua}{}{}
+untuk $\varphi$. Fungsi-fungsi yang pada setiap titik didefinisikan melalui sistem persamaan linear
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial^2  \varphi  }{  \partial u^2  } }
+}
+{ =} { \Gamma^1_{11}  { \frac{   \partial  \varphi  }{  \partial  u  } } + \Gamma^2_{11} { \frac{   \partial  \varphi  }{  \partial  v  } } +h_{11} N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial    }{  \partial   u  } } { \frac{   \partial  \varphi  }{  \partial  v  } }
+}
+{ =} { \Gamma^1_{12} { \frac{   \partial  \varphi  }{  \partial  u  } } + \Gamma^2_{12}  { \frac{   \partial  \varphi  }{  \partial  v  } } +h_{12} N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial    }{  \partial   v  } } { \frac{   \partial  \varphi  }{  \partial  u  } }
+}
+{ =} { \Gamma^1_{21} { \frac{   \partial  \varphi  }{  \partial  u  } } + \Gamma^2_{21}   { \frac{   \partial  \varphi  }{  \partial  v  } } +h_{21} N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial^2  \varphi  }{  \partial v^2  } }
+}
+{ =} { \Gamma^1_{22} { \frac{   \partial  \varphi  }{  \partial  u  } } + \Gamma^2_{22}   { \frac{   \partial  \varphi  }{  \partial  v  } } +h_{22} N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+yakni
+\maabbdisp {\Gamma^{k}_{ij}} { V } {\R
+} {}
+disebut
+\definitionswort {simbol Christoffel}{}
+untuk $\varphi$.
+
+}
+
+Perhatikan bahwa ketiga vektor
+\mathl{{ \frac{   \partial  \varphi  }{  \partial   u   } } ( Q), { \frac{   \partial  \varphi  }{  \partial   v   } } ( Q), N(Q)}{}
+pada setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+membentuk suatu basis $\R^3$;
+karena itu, setiap vektor dapat ditulis secara tunggal sebagai kombinasi linear terhadap basis ini. Akan tetapi, basis tersebut berubah bersama $Q$, sehingga simbol-simbol Christoffel adalah fungsi. Karena $N$ ternormalisasi dan tegak lurus terhadap kedua vektor basis lainnya, koefisien pada $N$ diperoleh sebagai hasil kali skalar
+
+\mavergleichskette
+{\vergleichskette
+{ \left\langle  \partial_i \partial_j \varphi , N  \right\rangle
+}
+{ = }{ h_{ij}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Raum/Parametrisierung/Christoffelsymbole/Bezug zu riemannscher Metrik/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {permukaan berorientasi}{}{}
+yang terdiferensialkan kontinu dua kali, dan misalkan
+\maabbdisp {\varphi} { V } { Y
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+suatu parametrisasi lokal dari $Y$ yang terdiferensialkan dua kali, dengan parameter $u,v$. Misalkan
+\mathl{\left(  g_{ij}  \right)}{} adalah
+\definitionsverweis {matriks fundamental pertama}{}{}
+pada $V$, dan misalkan
+\mathl{\left(  g^{kl}  \right)}{} adalah
+\definitionsverweis {matriks invers}{}{}
+dari
+\mathl{g_{ij}}{.}}
+\faktfolgerung {Maka, untuk
+\definitionsverweis {simbol-simbol Christoffel}{}{,}
+berlaku
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \Gamma^k_{ij}
+}
+{ =} { { \frac{   1  }{  2 } } g^{1k}  \left(  \partial_i g_{j1}  + \partial_j g_{1i} - \partial_1 g_{ij}  \right)  +  { \frac{   1  }{  2 } } g^{2k}  \left(  \partial_i g_{j2}  + \partial_j g_{2i} -  \partial_2 g_{ij}  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {Secara khusus, simbol-simbol Christoffel dapat dinyatakan melalui data matriks fundamental pertama.}
+\faktzusatz {}
+
+}
+{
+
+Berlaku
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \partial_k g_{ij}
+}
+{ =} { \partial_k  \left\langle  \partial_i \varphi  ,  \partial_j \varphi  \right\rangle
+}
+{ =} { \left\langle  \partial_k \partial_i  \varphi ,  \partial_j \varphi  \right\rangle +  \left\langle  \partial_i  \varphi ,  \partial_k \partial_j \varphi  \right\rangle
+}
+{ =} { \left\langle  \Gamma_{ki}^1 \partial_1 \varphi + \Gamma^2_{ki} \partial_2 \varphi + h_{ki} N ,  \partial_j \varphi  \right\rangle +  \left\langle  \partial_i  \varphi ,  \Gamma_{kj}^1 \partial_1 \varphi + \Gamma^2_{kj} \partial_2 \varphi + h_{kj} N   \right\rangle
+}
+{ =} { \left\langle  \Gamma_{ki}^1 \partial_1 \varphi + \Gamma^2_{ki} \partial_2 \varphi ,  \partial_j \varphi  \right\rangle +  \left\langle  \partial_i  \varphi ,  \Gamma_{kj}^1 \partial_1 \varphi + \Gamma^2_{kj} \partial_2 \varphi  \right\rangle
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \Gamma^1_{ki} g_{1j} +  \Gamma^2_{ki} g_{2j} + \Gamma^1_{kj} g_{i1} +  \Gamma^2_{kj} g_{i2}
+}
+{ } {
+}
+{ } {}
+{ } {}
+}
+{}{.}
+Dengan demikian,
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \partial_i g_{jk} +\partial_j g_{ki}   -\partial_k g_{ij}
+}
+{ =} { \begin{aligned}[t]
+& \Gamma^1_{ij} g_{1k} +  \Gamma^2_{ij} g_{2k} + \Gamma^1_{ik} g_{j1}  +  \Gamma^2_{ik} g_{j2}
+\\
+& {}+ \Gamma^1_{jk} g_{1i} +  \Gamma^2_{jk} g_{2i} + \Gamma^1_{ji} g_{k1} +  \Gamma^2_{ji} g_{k2}
+\\
+& {}-  \left(  \Gamma^1_{ki} g_{1j} +  \Gamma^2_{ki} g_{2j} + \Gamma^1_{kj} g_{i1} +  \Gamma^2_{kj} g_{i2} \right)
+\end{aligned}
+}
+{ =} { 2  \left(  \Gamma_{ij}^1 g_{1k}  + \Gamma_{ij}^2 g_{2k}  \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dengan demikian, berlaku relasi matriks
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}  \partial_i g_{j1} +\partial_j g_{1i}  -\partial_1 g_{ij} \\ \partial_i g_{j2} +\partial_j g_{2i}   -\partial_2 g_{ij}    \end{pmatrix}
+}
+{ =} { 2  \begin{pmatrix} g_{11}  &  g_{12}  \\ g_{12} & g_{22}  \end{pmatrix}  \begin{pmatrix} \Gamma_{ij}^1 \\\Gamma_{ij}^2   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+Dengan mengalikan relasi ini dengan
+\mathl{{ \frac{   1  }{  2 } } G^{-1}}{,} diperoleh pernyataan yang dimaksud.
+
+}
+
+\inputbemerkung
+{}
+{
+
+Dalam situasi
+[[Hyperfläche/Raum/Parametrisierung/Christoffelsymbole/Bezug zu riemannscher Metrik/Fakt|Lema 19.5]],
+berlaku relasi-relasi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}  \partial_1 g_{11} \\ 2 \partial_1 g_{12} - \partial_2 g_{11}    \end{pmatrix}
+}
+{ =} { 2  \begin{pmatrix} g_{11}  &  g_{12}  \\ g_{12} & g_{22}  \end{pmatrix}  \begin{pmatrix} \Gamma^1_{11}  \\\Gamma^2_{11}    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}  2 \partial_2 g_{12} - \partial_1 g_{22}  \\ \partial_2 g_{22}   \end{pmatrix}
+}
+{ =} { 2  \begin{pmatrix} g_{11}  &  g_{12}  \\ g_{12} & g_{22}  \end{pmatrix}  \begin{pmatrix} \Gamma^1_{22}  \\\Gamma^2_{22}    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}  \partial_2 g_{11} \\ \partial_1 g_{22}    \end{pmatrix}
+}
+{ =} { 2  \begin{pmatrix} g_{11}  &  g_{12}  \\ g_{12} & g_{22}  \end{pmatrix}  \begin{pmatrix} \Gamma^1_{12}  \\\Gamma^2_{12}    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Raum/Parametrisierung/Gaußkrümmung/Christoffelsymbole/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {permukaan berorientasi}{}{,}
+dan misalkan
+\maabbdisp {\varphi} { V } { Y
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+suatu parametrisasi lokal dari $Y$ yang terdiferensialkan kontinu tiga kali, dengan parameter $u,v$. Misalkan
+\mathl{\left(  g_{ij}  \right)}{} adalah
+\definitionsverweis {matriks fundamental pertama}{}{}
+pada $V$.}
+\faktfolgerung {Dengan menggunakan
+\definitionsverweis {simbol-simbol Christoffel}{}{,}
+\definitionsverweis {kelengkungan Gauss}{}{}
+memenuhi relasi
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ K
+}
+{ =} { { \frac{   1  }{ g_{11}  } }  \left(  \partial_2 \Gamma_{11}^2 - \partial_1 \Gamma_{12}^2 + \Gamma^1_{11} \Gamma^2_{12}  + \Gamma_{11}^2 \Gamma_{22}^2 - \Gamma_{12}^1 \Gamma_{11}^2-  \left(  \Gamma_{12}^2  \right)^2  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Kita mendiferensialkan persamaan penentu pertama bagi simbol-simbol Christoffel, yakni
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial_1 \partial_1 \varphi
+}
+{ =} { \Gamma^1_{11}  \partial_1 \varphi  + \Gamma^2_{11}  \partial_2 \varphi +h_{11} N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+terhadap variabel kedua, dan persamaan penentu kedua, yakni
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial_1 \partial_2 \varphi
+}
+{ =} { \Gamma^1_{12}  \partial_1 \varphi + \Gamma^2_{12}  \partial_2  \varphi + h_{12} N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+terhadap variabel pertama. Menurut teorema Schwarz, kita memperoleh
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \left(  \partial_2 \Gamma^1_{11}  \right) \partial_1 \varphi +  \left(  \partial_2 \Gamma^2_{11}  \right)  \partial_2 \varphi+ \left(  \partial_2 h_{11}  \right)  N + \Gamma^1_{11} \partial_2 \partial_1 \varphi + \Gamma^2_{11}  \partial_2 \partial_2 \varphi  +h_{11} \partial_2 N
+}
+{ =} { \left(  \partial_1 \Gamma^1_{12}  \right)  \partial_1  \varphi+ \left(  \partial_1 \Gamma^2_{12}  \right)\partial_2 \varphi + \left(  \partial_1 h_{12}  \right)  N+ \Gamma^1_{12}  \partial_1 \partial_1 \varphi + \Gamma^2_{12}  \partial_1 \partial_2 \varphi + h_{12} \partial_1 N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Selisih kedua ruas ini adalah $0$. Kita menentukan koefisien vektor basis $\partial_2 \varphi$. Dengan menggunakan persamaan-persamaan penentu simbol Christoffel dan
+[[Hyperfläche/Raum/Parametrisierung/Weingartenabbildung/Fundamentalformen/Fakt|Lema 19.3 (3)]],
+kita memperoleh
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ 0
+}
+{ =} { \partial_2 \Gamma^2_{11} - \partial_1 \Gamma^2_{12} +\Gamma^1_{11} \Gamma^2_{12} - \Gamma^1_{12} \Gamma^2_{11} + \Gamma_{11}^2 \Gamma_{22}^2- \left(  \Gamma_{12}^2  \right)^2 + h_{11}  { \frac{   g_{12} h_{12} - g_{11} h_{22}   }{  g_{11}g_{22} -g_{12}^2 } } - h_{12}  { \frac{   g_{12} h_{11} - g_{11}h_{12}  }{  g_{11}g_{22} -g_{12}^2 } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dengan identitas
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ - g_{11} \left(  h_{11}h_{22} -h_{12}^2  \right)
+}
+{ =} { h_{11} \left(  g_{12} h_{12}- g_{11} h_{22}  \right) - h_{12} \left(  g_{12} h_{11} - g_{11}h_{12}  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+kita dapat mengganti dua suku terakhir. Kemudian, dengan
+[[Hyperfläche/Raum/Parametrisierung/Weingartenabbildung/Fundamentalformen/Fakt|Lema 19.3 (4)]],
+diperoleh
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ g_{11} K
+}
+{ =} { g_{11} { \frac{   h_{11}h_{22} -h_{12}^2  }{ g_{11}g_{22} -g_{12}^2 } }
+}
+{ =} { \left(  \partial_2 \Gamma_{11}^2 - \partial_1 \Gamma_{12}^2 + \Gamma^1_{11} \Gamma^2_{12}  + \Gamma_{11}^2 \Gamma_{22}^2 - \Gamma_{12}^1 \Gamma_{11}^2-  \left(  \Gamma_{12}^2  \right)^2  \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+
+}
+
+__NOEDITSECTION__
+\inputfaktbeweis
+{Hyperfläche/Raum/Parametrisierung/Gaußkrümmung/Bezug zu riemannscher Metrik/Brioschi/Fakt}
+{Korollar}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {permukaan berorientasi}{}{,}
+dan misalkan
+\maabbdisp {\varphi} { V } { Y
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+suatu parametrisasi lokal dari $Y$ yang terdiferensialkan kontinu tiga kali, dengan parameter $u,v$. Misalkan
+\mathl{\left(  g_{ij}  \right)}{} adalah
+\definitionsverweis {matriks fundamental pertama}{}{}
+pada $V$.}
+\faktfolgerung {Maka, untuk
+\definitionsverweis {kelengkungan Gauss}{}{}
+berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ K
+}
+{ =} { \begin{aligned}[t]
+& { \frac{   1  }{  \left(  g_{11} g_{22} -g_{12}^2  \right)^2 } }  \Biggl(
+\\
+& \det  \begin{pmatrix}  - { \frac{   1  }{  2 } } \partial_2^2  g_{11}  + \partial_1 \partial_2 g_{12} - { \frac{   1  }{  2 } }  \partial_1^2  g_{22}   &   { \frac{   1  }{  2 } } \partial_1 g_{11}  &  \partial_1 g_{12} - { \frac{   1  }{  2 } } \partial_2 g_{11}  \\  \partial_2 g_{12} -{ \frac{   1  }{  2 } } \partial_1 g_{22} &  g_{11}  &  g_{12}  \\ { \frac{   1  }{  2 } } \partial_2 g_{22}  &  g_{12}  &  g_{22}  \end{pmatrix}
+\\
+& {}- \det  \begin{pmatrix}  0   &   { \frac{   1  }{  2 } }  \partial_2 g_{11}  &  { \frac{   1  }{  2 } }  \partial_1 g_{22}   \\  { \frac{   1  }{  2 } } \partial_2 g_{11} & g_{11} & g_{12} \\ { \frac{   1  }{  2 } } \partial_1 g_{22}  &  g_{12} & g_{22} \end{pmatrix} \Biggr)
+\end{aligned}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+ }
+{ Lihat [[Hyperfläche/Raum/Parametrisierung/Gaußkrümmung/Bezug zu riemannscher Metrik/Brioschi/Fakt/Beweis/Aufgabe|Soal 19.9]]. }
+
+Dua pernyataan di atas merupakan varian-varian Theorema Egregium. Terlepas dari bentuk rumusnya, isinya menyatakan bahwa kelengkungan Gauss pada suatu permukaan tertanam dapat dideskripsikan hanya melalui pengukuran pada permukaan itu sendiri, tanpa merujuk pada ruang sekelilingnya. Pengukuran pada permukaan tersebut dikodekan oleh matriks fundamental metrik. Jadi, kita perlu mengetahui hasil kali skalar pada ruang-ruang singgung permukaan, yang persis berarti memandang permukaan itu sebagai manifold Riemann. Kelengkungan-kelengkungan utama tidak dapat ditentukan secara intrinsik saja; lihat
+[[Bogenparametrisierte Kurve/Gerade darüber/Isometrie/Beispiel|Contoh 18.5]]
+dan
+[[Bogenparametrisierte ebene Kurve/Zweite Fundamentalform/Weingartenabbildung/Gaußkrümmung/Aufgabe|Soal 19.12]].
+
+ [[Kategori:Halaman LaTeX]]

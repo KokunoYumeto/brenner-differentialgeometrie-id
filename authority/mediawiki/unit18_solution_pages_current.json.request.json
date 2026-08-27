@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Wed, 26 Aug 2026 02:53:13 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Riemannsche Mannigfaltigkeit/Isometrien/Funktorielle Eigenschaften/Aufgabe/Lösung|Riemannsche Mannigfaltigkeit/Isometrien/Gruppe/Aufgabe/Lösung|Kreis/Trigonometrische Parametrisierung/Riemannsche Mannigfaltigkeit/Isometrie/Aufgabe/Lösung|Euklidische Räume/Lineare Abbildung/Isometrie/Riemannsche Mannigfaltigkeit/Aufgabe/Lösung|Kurve/Euklidischer Raum/Isometrie auf Bild/Bogenparametrisiert/Aufgabe/Lösung|Riemannsche Mannigfaltigkeit/Produktmannigfaltigkeit/Isometrie/Aufgabe/Lösung|Zylinder/Punktierte Ebene/Isometrie/Aufgabe/Lösung|Eingebetteter Torus/Drehung/Isometrie/Aufgabe/Lösung|Obere Halbebene/Hyperbolisch/Wegberechnung/Aufgabe/Lösung|Obere Halbebene/Hyperbolisch/Flächenberechnung/Aufgabe/Lösung|Obere Halbebene/Einheitskreis/Rational isomorph/Fakt/Beweis/Aufgabe/Lösung|Obere Halbebene/Einheitskreis/Rational isomorph/Ableitung/Aufgabe/Lösung|Einheitskreis/Obere Halbebene/Rational isomorph/Reelle Koordinaten/Aufgabe/Lösung|Einheitskreis/Obere Halbebene/Rational isomorph/Reelle partielle Ableitungen/Aufgabe/Lösung|Zweischaliges Hyperboloid/Offener Kreis/Durchstoßungspunkte/Aufgabe/Lösung|Ellipsoidoberfläche/Verschiedene Radien/Isometrien/Aufgabe/Lösung|Lokaler Diffeomorphismus/Nach riemannscher Mannigfaltigkeit/Rückzug/Aufgabe/Lösung|Riemannsche Mannigfaltigkeit/Diffeomorphismus/Keine Isometrie/Aufgabe/Lösung|Obere Halbebene/Hyperbolisch/Wegberechnung/2/Aufgabe/Lösung|Obere Halbebene/Hyperbolisch/Flächenberechnung/2/Aufgabe/Lösung|Obere Halbebene/Zweischaliges Hyperboloid/Isometrie/Aufgabe/Lösung"
+  },
+  "response_bytes": 7442,
+  "response_path": "unit18_solution_pages_current.json",
+  "response_sha256": "897cff929d5c71e9c5d9210cf373178e8e91988ff878e771d85243e562ac71bd",
+  "retrieved_utc": "2026-08-26T02:53:12Z",
+  "schema_version": 1
+}

@@ -5,7 +5,7 @@
   "source_sha256": "0ac2f20594df388ad6e6ddb3a38515af63ec74b6298eb7acc1d5c20851f2d1e0",
   "target": "source/units/unit-17/lecture17.id.tex",
   "target_bytes": 24372,
-  "target_sha256": "ef22cfb765131f1b8c0b52bd78545c66e36eedec777f84bb5e6cc04ecf04ad3e",
+  "target_sha256": "a01fde947d1efc4ab28b426933bc7c7a2f2e922fa8c2833ef224c747e3d39da9",
   "checks": {
     "utf8_without_replacement_character": true,
     "command_sequence_equal_or_declared": true,
@@ -29,7 +29,23 @@
   "declared_corrections": [
     "O011-CORR-0202",
     "O011-CORR-0196",
-    "O011-TRANS-0199"
+    "O011-TRANS-0199",
+    "O011-TRANS-0227"
   ],
-  "evidence_only_results": []
+  "evidence_only_results": [
+    {
+      "correction_id": "O011-TRANS-0227",
+      "surface": "command:inputfaktbeweis",
+      "occurrence_index": 0,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0227",
+      "surface": "command:inputfaktbeweis",
+      "occurrence_index": 1,
+      "status": "pass",
+      "detail": "verified"
+    }
+  ]
 }

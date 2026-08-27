@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-26T07:12:21+02:00",
+  "unit_id": "o011-brenner-u18",
+  "status": "pass",
+  "scope": "Bounded authority, timing, file-specific rights, Indonesian reader-description, deterministic static-PDF fallback, and static-first HTML-control verification for the Unit 18 animated GIF. This receipt does not claim the later cumulative HTML browser gate.",
+  "canonical_animation": {
+    "filename": "Poincarehalfplaneconform.gif",
+    "path": "authority/media/Poincarehalfplaneconform.gif",
+    "bytes": 956681,
+    "sha256": "2a1da25b6afb54e7c4e9e48b36447f66a9ae2a71b0bd23118d83ad5b4a260a4d",
+    "mime": "image/gif",
+    "width": 590,
+    "height": 479,
+    "frame_count": 99,
+    "delay_unit": "1/100 second",
+    "frame_delay_runs": [
+      {"first_frame": 0, "last_frame": 49, "delay": 2},
+      {"first_frame": 50, "last_frame": 50, "delay": 100},
+      {"first_frame": 51, "last_frame": 98, "delay": 2}
+    ],
+    "total_duration_seconds": 2.96,
+    "creator": "HB",
+    "credit": "own work",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Poincarehalfplaneconform.gif"
+  },
+  "authority_description": "Transformation of the Poincaré half-plane into a unit disc by a conformal transformation, shown as inversion in a circle whose center I moves on the positive vertical axis.",
+  "static_pdf_fallback": {
+    "frame_index": 0,
+    "path": "build/generated/media/Poincarehalfplaneconform.png",
+    "bytes": 3137,
+    "sha256": "3fc44ea03f030f75ad3d7de2590d8ea6ef6061bdb1fe45f241129eff4af5d11c",
+    "identify": "PNG 590 479 sRGB",
+    "canonical_animation_unchanged": true,
+    "portable_preamble_macro": "bildeinlesunggif -> generated/media/#1.png"
+  },
+  "reader_description": "Animasi transformasi konformal setengah bidang Poincaré menjadi cakram satuan melalui inversi terhadap lingkaran yang berpusat di titik bergerak I. Edisi PDF menampilkan bingkai pertama yang statis; animasi asli dipertahankan untuk edisi HTML dan unduhan.",
+  "html_controls": {
+    "default_state": "static_frame",
+    "group_label": "Kontrol animasi",
+    "play_label": "Putar animasi",
+    "stop_label": "Hentikan animasi",
+    "download_label": "Unduh GIF asli",
+    "native_keyboard_buttons": true,
+    "polite_live_status": true,
+    "canonical_gif_is_play_and_download_target": true,
+    "prefers_reduced_motion": "animation remains stopped and any playing animation is stopped when the preference becomes active"
+  },
+  "bindings": {
+    "commons_imageinfo_authority": {
+      "path": "authority/mediawiki/unit18_media_imageinfo_current.json",
+      "bytes": 6083,
+      "sha256": "c03d1c77eb05773fca41191b207f9c9a54d8f98137d6bce15155c84024c73206"
+    },
+    "media_rights_manifest": {
+      "path": "authority/brenner_media_rights_manifest.csv",
+      "bytes": 25588,
+      "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+    },
+    "unit_media_config": {
+      "path": "source/unit_media.json",
+      "bytes": 6203,
+      "sha256": "dd901249426ef0fdc839c647eccf313c1df7c94297f3d56d0c6402ae5cb2128b"
+    },
+    "media_receipt": {
+      "path": "qa/unit-18_media.json",
+      "bytes": 3536,
+      "sha256": "7946287c4d57a1cfebdc0fabd9f17f9f7c819e73759fc5137da9fc1a15060b7f"
+    },
+    "media_preparer": {
+      "path": "scripts/prepare_unit_media.py",
+      "bytes": 12757,
+      "sha256": "2f1ddc03e83d47fddb747f8c5738804a0adb0b29a14b0d7e093b24ff3f63305e"
+    },
+    "preamble_generator": {
+      "path": "scripts/make_portable_preamble.py",
+      "bytes": 8870,
+      "sha256": "65c2aaf7171d0b090e7469a481c09d403b1d80dc5124effb79e2195117ef88af"
+    },
+    "portable_preamble": {
+      "path": "build/brenner-compat.tex",
+      "bytes": 85780,
+      "sha256": "c4d5afb66ba066b45cb466cd863840dc4bdc8d19f73f62f57fc2a96c764fc113"
+    },
+    "semantic_html_renderer": {
+      "path": "scripts/export_html_v10.py",
+      "bytes": 69665,
+      "sha256": "c6d817de1af44236a826f954630bc5004b22b19c952d2b9c853c844164d61df1"
+    },
+    "animated_control_verifier": {
+      "path": "scripts/verify_html_animated_media.py",
+      "bytes": 18949,
+      "sha256": "243d14203b059562557e14c359bb1a4ceafbdbbe36986ff53dbb508c6702ed3a"
+    },
+    "lecture_target": {
+      "path": "source/units/unit-18/lecture18.id.tex",
+      "bytes": 24214,
+      "sha256": "7d7bc9d97d9719790d1cd37f78fae74f9cb318a4f29b8a7c295e24deb6aed298"
+    },
+    "lecture_translation_receipt": {
+      "path": "qa/unit-18/lecture18_translation.json",
+      "bytes": 2804,
+      "sha256": "ca81e6115449e5c4ae908b9344fae5329250e3fef3a6d601d76cb41c45935b35"
+    },
+    "lecture_preparation_receipt": {
+      "path": "qa/unit-18/lecture18_prepare.json",
+      "bytes": 2476,
+      "sha256": "4a0c5d1e9fa15854aaa0c5be60c4b40463ee78c944467811901dbfee4a90e92d"
+    },
+    "protected_correction_manifest": {
+      "path": "qa/unit-18/LECTURE18_PROTECTED_CORRECTIONS.json",
+      "bytes": 7073,
+      "sha256": "5ca7c11ad36a9ee43195900c1750a43d23086ca13424dc0f36981745c90572da"
+    }
+  },
+  "checks": {
+    "canonical_bytes_match_frozen_commons_authority": true,
+    "frame_count_dimensions_and_source_timing_measured": true,
+    "two_independent_frame_zero_generations_match_the_admitted_fallback": true,
+    "canonical_animation_retained_for_html_playback_and_download": true,
+    "static_pdf_path_resolves_without_animation_support": true,
+    "indonesian_description_matches_source_and_prepared_fragment": true,
+    "file_specific_creator_license_and_license_url_preserved": true,
+    "native_keyboard_play_stop_and_download_controls_bound": true,
+    "polite_status_and_reduced_motion_contract_bound": true
+  },
+  "next_action": "At the cumulative Units 1-19 HTML gate, verify this static-first control in real desktop and mobile browsers and retain the canonical GIF bytes unchanged."
+}

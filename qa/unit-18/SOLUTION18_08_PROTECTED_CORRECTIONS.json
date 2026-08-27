@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-18/worksheet18_exercise08_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-TRANS-0222",
+      "anchor": "Supplied Solution 8 reader translation",
+      "change": "Render the ambient rotation, torus invariance, and induced-isometry argument in natural Indonesian while preserving every formula."
+    }
+  ],
+  "allowed_deltas": [],
+  "evidence_only_deltas": []
+}

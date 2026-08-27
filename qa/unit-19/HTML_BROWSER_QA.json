@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-html-browser-qa-v19",
+  "status": "pass",
+  "generated_at": "2026-08-27T19:15:39Z",
+  "scope": "Real-browser desktop/mobile, MathJax, deep-link, media, and interaction QA for the cumulative Indonesian HTML reader through Unit 19 after the final Unit 18 caption reflow and Unit 19 formula reflow.",
+  "browser": "Codex In-app Browser",
+  "test_protocol": "The exact final output tree was served from a task-local loopback HTTP origin. Desktop runtime and visual checks bind the final entry bytes directly. Mobile reflow and both animation interactions were exercised after the responsive CSS repair against the immediately preceding candidate; the final deterministic rebuild retained byte-identical responsive CSS and animation-controller code and changed only the deep-link stabilizer. Static final-output verification binds that additive stabilizer and the exact final tree. Temporary viewport overrides were reset after testing.",
+  "surface": {
+    "entry": {"path": "output/html/unit-19/index.html", "bytes": 1333528, "sha256": "096393a5218d49dca913904bbf52a9bc0933a389d456db5d907db76872a3444a"},
+    "manifest": {"path": "output/html/unit-19/manifest.json", "bytes": 110705, "sha256": "78af3571a8ed75da6bdf421342bf601148c972dbb0f450f36fbeeddb97f74aac"},
+    "stylesheet": {"path": "output/html/unit-19/assets/reader.css", "bytes": 7045, "sha256": "b2af565e44ff10837308b0d1bc693ef8be350e2a80fa4d654ce2ecac3864e0b0"},
+    "structural_qa": {"path": "qa/unit-19/HTML_READER_QA.json", "bytes": 33848, "sha256": "f41ece1e459b6e9ce4df411855f3ab3fb4fa4a08213ff6d01408394f675ef078"}
+  },
+  "desktop": {
+    "requested_viewport": {"width": 1280, "height": 720},
+    "viewport": {"inner_width": 1280, "inner_height": 720, "document_client_width": 1265, "document_scroll_width": 1265, "page_has_horizontal_overflow": false},
+    "reader_centered_and_full_width_within_wrapper": true,
+    "unit19_heading_and_opening_mathematics_visible": true,
+    "zero_width_inline_math": 0
+  },
+  "mobile": {
+    "requested_viewport": {"width": 390, "height": 844},
+    "viewport": {"inner_width": 390, "inner_height": 844, "document_client_width": 375, "document_scroll_width": 375, "page_has_horizontal_overflow": false},
+    "main": {"left_px": 0, "right_px": 375.1111145019531, "width_px": 375.1111145019531},
+    "unit_navigation": {"client_width": 375, "scroll_width": 1400, "horizontal_scroll_available": true},
+    "wide_mathematics": {"display_count": 1371, "overflowing_count": 404, "all_overflow_locally_contained": true},
+    "inline_mathematics": {"count": 4944, "zero_width_count": 0, "representative_unit19_width_px": 61.60416793823242},
+    "animation_controls_visible": true,
+    "reader_text_visible": true
+  },
+  "runtime": {
+    "math_source_elements": 6315,
+    "mathjax_containers": 6315,
+    "mathjax_errors": 0,
+    "console_errors": 0,
+    "units": 19,
+    "exercises": 394,
+    "source_supplied_solutions": 54,
+    "figures": 26,
+    "broken_internal_links": 0,
+    "duplicate_ids": 0
+  },
+  "animations": [
+    {
+      "id": "o011-brenner-u12-l12-fig-001",
+      "initial_state": "stopped",
+      "initial_source": "assets/media/Fiddler_crab_mobius_strip.png",
+      "play_state": "playing",
+      "play_source": "assets/media/Fiddler%20crab%20mobius%20strip.gif",
+      "play_status": "Animasi sedang diputar.",
+      "stop_state": "stopped",
+      "stop_source": "assets/media/Fiddler_crab_mobius_strip.png",
+      "stop_status": "Animasi dihentikan; bingkai statis ditampilkan."
+    },
+    {
+      "id": "o011-brenner-u18-l18-fig-001",
+      "initial_state": "stopped",
+      "initial_source": "assets/media/Poincarehalfplaneconform.png",
+      "play_state": "playing",
+      "play_source": "assets/media/Poincarehalfplaneconform.gif",
+      "play_status": "Animasi sedang diputar.",
+      "stop_state": "stopped",
+      "stop_source": "assets/media/Poincarehalfplaneconform.png",
+      "stop_status": "Animasi dihentikan; bingkai statis ditampilkan.",
+      "alt_text": "Animasi transformasi konformal setengah bidang Poincaré menjadi cakram satuan melalui inversi terhadap lingkaran yang berpusat di titik bergerak I. Edisi PDF menampilkan bingkai pertama yang statis; animasi asli dipertahankan untuk edisi HTML dan unduhan."
+    }
+  ],
+  "deep_link": {
+    "fragment": "#o011-brenner-u19",
+    "target_exists": true,
+    "manual_final-layout_alignment_observed": true,
+    "final_stabilizer_uses_body_resize_observation": true,
+    "final_stabilizer_static_verification_passed": true
+  },
+  "checks": {
+    "exact_structural_surface_bound": true,
+    "desktop_centered_without_page_overflow": true,
+    "mobile_reflows_without_page_overflow": true,
+    "mobile_inline_mathematics_retains_nonzero_width": true,
+    "wide_navigation_remains_locally_scrollable": true,
+    "wide_mathematics_remains_locally_scrollable": true,
+    "mathjax_runtime_complete_without_errors": true,
+    "internal_links_resolve": true,
+    "deep_link_stabilizer_tracks_delayed_math_layout": true,
+    "animations_are_static_first": true,
+    "play_stop_controls_update_source_state_and_status": true,
+    "unit18_animation_has_meaningful_indonesian_alt_text": true,
+    "temporary_viewport_override_reset": true
+  }
+}

@@ -1,0 +1,39 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Die partiellen Ableitungen von
+{{
+Relationskette/display
+| \psi {{op:Spaltenvektor| a |b}} 
+|| {{op:Bruch| 1| -2a+1+a^2+b^2}} {{op:Spaltenvektor| -2b| 1-a^2-b^2}} 
+|| 
+|| 
+|| 
+|SZ=
+}}
+sind 
+{{
+Relationskette/align
+| {{op:Partielle Ableitung| \psi|a}}
+|| {{op:Bruch| 1| {{makl| -2a+1+a^2+b^2 |}}^2 }} {{op:Spaltenvektor| 2b {{makl| 2a-2 |}} | -2a {{makl| -2a+1+a^2+b^2 |}} - {{makl| 1-a^2-b^2 |}} {{makl| -2+2a |}} }} 
+|| {{op:Bruch| 1| {{makl| -2a+1+a^2+b^2 |}}^2 }} {{op:Spaltenvektor| 2b {{makl| 2a-2 |}} | 4a^2 -4a+2 {{makl| 1-a^2-b^2 |}} }} 
+|| {{op:Bruch| 1| {{makl| -2a+1+a^2+b^2 |}}^2 }} {{op:Spaltenvektor| 4ab -4b | 2a^2 -4a+2 -2 b^2  }} 
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette/align
+| {{op:Partielle Ableitung| \psi|b}}
+|| {{op:Bruch| 1| {{makl| -2a+1+a^2+b^2 |}}^2 }} {{op:Spaltenvektor| -2 {{makl| -2a+1+a^2+b^2 |}} +4b^2  | -2b {{makl| -2a+1+a^2+b^2 |}} - 2b {{makl| 1-a^2-b^2 |}}  }} 
+|| {{op:Bruch| 1| {{makl| -2a+1+a^2+b^2 |}}^2 }} {{op:Spaltenvektor| 4a  -2-2a^2+2b^2  | 4ab -4b }} 
+|| 
+|| 
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

@@ -1,0 +1,158 @@
+{
+  "exercise_count": 12,
+  "exercises": [
+    {
+      "exercise_index": 1,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Zweite Fundamentalmatrix/Symmetrisch/Aufgabe/Lösung",
+      "task_title": "Zweite Fundamentalmatrix/Symmetrisch/Aufgabe"
+    },
+    {
+      "exercise_index": 2,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Polynomialer Graph/2 Variablen/Zweite Fundamentalmatrix/1/Aufgabe/Lösung",
+      "task_title": "Polynomialer Graph/2 Variablen/Zweite Fundamentalmatrix/1/Aufgabe"
+    },
+    {
+      "exercise_index": 3,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Graph/2 Variablen/Zweite Fundamentalmatrix/1/Aufgabe/Lösung",
+      "task_title": "Graph/2 Variablen/Zweite Fundamentalmatrix/1/Aufgabe"
+    },
+    {
+      "exercise_index": 4,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Kugeloberfläche/Koordinaten von Zylinder aus/Horizontale Projektion/Zweite Fundamentalmatrix/Aufgabe/Lösung",
+      "task_title": "Kugeloberfläche/Koordinaten von Zylinder aus/Horizontale Projektion/Zweite Fundamentalmatrix/Aufgabe"
+    },
+    {
+      "exercise_index": 5,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Kugeloberfläche/Koordinaten von Zylinder aus/Mittelpunktsprojektion/Zweite Fundamentalmatrix/Aufgabe/Lösung",
+      "task_title": "Kugeloberfläche/Koordinaten von Zylinder aus/Mittelpunktsprojektion/Zweite Fundamentalmatrix/Aufgabe"
+    },
+    {
+      "exercise_index": 6,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Kugeloberfläche/Verschiedene Parametrisierungen/Weingartenabbildungen/Aufgabe/Lösung",
+      "task_title": "Kugeloberfläche/Verschiedene Parametrisierungen/Weingartenabbildungen/Aufgabe"
+    },
+    {
+      "exercise_index": 7,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Kugeloberfläche/Verschiedene Parametrisierungen/Gaußkrümmung/Aufgabe/Lösung",
+      "task_title": "Kugeloberfläche/Verschiedene Parametrisierungen/Gaußkrümmung/Aufgabe"
+    },
+    {
+      "exercise_index": 8,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Ebene Kurve/Zweite Fundamentalmatrix/Aufgabe/Lösung",
+      "task_title": "Ebene Kurve/Zweite Fundamentalmatrix/Aufgabe"
+    },
+    {
+      "exercise_index": 9,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Hyperfläche/Raum/Parametrisierung/Gaußkrümmung/Bezug zu riemannscher Metrik/Brioschi/Fakt/Beweis/Aufgabe/Lösung",
+      "task_title": "Hyperfläche/Raum/Parametrisierung/Gaußkrümmung/Bezug zu riemannscher Metrik/Brioschi/Fakt/Beweis/Aufgabe"
+    },
+    {
+      "exercise_index": 10,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 3,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Polynomialer Graph/2 Variablen/Zweite Fundamentalmatrix/2/Aufgabe/Lösung",
+      "task_title": "Polynomialer Graph/2 Variablen/Zweite Fundamentalmatrix/2/Aufgabe"
+    },
+    {
+      "exercise_index": 11,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 4,
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Kugeloberfläche/Geozentrische Koordinaten/Zweite Fundamentalmatrix/Aufgabe/Lösung",
+      "task_title": "Kugeloberfläche/Geozentrische Koordinaten/Zweite Fundamentalmatrix/Aufgabe"
+    },
+    {
+      "exercise_index": 12,
+      "exists": false,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": "5 (2+1+1+1)",
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Bogenparametrisierte ebene Kurve/Zweite Fundamentalform/Weingartenabbildung/Gaußkrümmung/Aufgabe/Lösung",
+      "task_title": "Bogenparametrisierte ebene Kurve/Zweite Fundamentalform/Weingartenabbildung/Gaußkrümmung/Aufgabe"
+    }
+  ],
+  "graded_exercise_count": 3,
+  "macro_api_agreement": true,
+  "missing_solution_count": 12,
+  "point_value_total": 12,
+  "practice_exercise_count": 9,
+  "query": {
+    "bytes": 1459,
+    "path": "authority/mediawiki/unit19_solution_pages_current.json",
+    "sha256": "389f094478f86f202f36a48e0c2806667f4f26987a6dd45e02df260617d14665"
+  },
+  "query_request_receipt": {
+    "bytes": 1627,
+    "path": "authority/mediawiki/unit19_solution_pages_current.json.request.json",
+    "sha256": "c46cfd184ee4ae79739f762088674db683823971933f923980c093f09e62ff97"
+  },
+  "query_retrieved_utc": "2026-08-26T03:01:01Z",
+  "schema_version": 1,
+  "supplied_solution_count": 0,
+  "supplied_solution_indices": [],
+  "workflow": "o011-unit19-solution-freeze-v1",
+  "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 19"
+}

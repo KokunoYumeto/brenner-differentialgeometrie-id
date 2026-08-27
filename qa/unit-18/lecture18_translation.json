@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "source": "authority/expanded/lecture18_source.de.tex",
+  "source_bytes": 23948,
+  "source_sha256": "7fc98f4cdd977e4a5acb4dea5d61807251ac850fe102b8f0ecc1251f755d3c3e",
+  "target": "source/units/unit-18/lecture18.id.tex",
+  "target_bytes": 24214,
+  "target_sha256": "7d7bc9d97d9719790d1cd37f78fae74f9cb318a4f29b8a7c295e24deb6aed298",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 734,
+    "environments": 76,
+    "inline_math": 59,
+    "display_math": 0,
+    "protected_calls": 57
+  },
+  "status": "pass",
+  "failures": [],
+  "declared_corrections": [
+    "O011-CORR-0213",
+    "O011-CORR-0216",
+    "O011-CORR-0214",
+    "O011-CORR-0217",
+    "O011-CORR-0215",
+    "O011-ACC-0226",
+    "O011-ACC-0229"
+  ],
+  "evidence_only_results": [
+    {
+      "correction_id": "O011-CORR-0213",
+      "surface": "command:mathl",
+      "occurrence_index": 5,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0216",
+      "surface": "command:mathkor",
+      "occurrence_index": 6,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0216",
+      "surface": "command:vergleichskettealignhandlinks",
+      "occurrence_index": 0,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0217",
+      "surface": "command:vergleichskettealignhandlinks",
+      "occurrence_index": 2,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0217",
+      "surface": "command:vergleichskettealignhandlinks",
+      "occurrence_index": 3,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0217",
+      "surface": "command:vergleichskettedisphandlinks",
+      "occurrence_index": 0,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0215",
+      "surface": "command:bildtext",
+      "occurrence_index": 1,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-ACC-0226",
+      "surface": "command:bildtext",
+      "occurrence_index": 0,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-ACC-0229",
+      "surface": "command:bildtext",
+      "occurrence_index": 1,
+      "status": "pass",
+      "detail": "verified"
+    }
+  ]
+}

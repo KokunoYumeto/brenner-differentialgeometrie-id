@@ -1,0 +1,3189 @@
+{
+  "excluded_reader_metadata": {
+    "mediawiki_category_marker": "[[Kategorie:Latexseite]]",
+    "occurrences": 87,
+    "preservation": "Retained byte-for-byte in the source inputs bound above; excluded only from reader-visible prose."
+  },
+  "exporter": {
+    "bytes": 50646,
+    "path": "scripts/export_html_v19.py",
+    "sha256": "5735f5acb1f556ea67fa2b84f63c338ab66365ba479e4fb89d87f7453a99eb9a"
+  },
+  "figures": [
+    {
+      "alt": "Ilustrasi sumber: 3d-function-6",
+      "caption_supplied": false,
+      "caption_text": null,
+      "filename": "3d-function-6.svg",
+      "id": "o011-brenner-u01-l01-fig-001",
+      "unit": 1
+    },
+    {
+      "alt": "Ilustrasi sumber: Great circle passing through two points",
+      "caption_supplied": false,
+      "caption_text": null,
+      "filename": "Great circle passing through two points.svg",
+      "id": "o011-brenner-u01-l01-fig-002",
+      "unit": 1
+    },
+    {
+      "alt": "Ilustrasi sumber: 2019-07-Helix",
+      "caption_supplied": false,
+      "caption_text": null,
+      "filename": "2019-07-Helix.jpg",
+      "id": "o011-brenner-u01-l01-fig-003",
+      "unit": 1
+    },
+    {
+      "alt": "Mengapa pesawat terbang menempuh lintasan melengkung?",
+      "caption_supplied": true,
+      "caption_text": "Mengapa pesawat terbang menempuh lintasan melengkung?",
+      "filename": "Planned flight map of the Oiseau Blanc.svg",
+      "id": "o011-brenner-u01-w01-fig-001",
+      "unit": 1
+    },
+    {
+      "alt": "Ilustrasi sumber: Integral apl rot obsah1",
+      "caption_supplied": false,
+      "caption_text": null,
+      "filename": "Integral apl rot obsah1.svg",
+      "id": "o011-brenner-u02-l02-fig-001",
+      "unit": 2
+    },
+    {
+      "alt": "Sebuah hiperboloid satu lembar.",
+      "caption_supplied": true,
+      "caption_text": "Sebuah hiperboloid satu lembar.",
+      "filename": "Hyperboloid1.png",
+      "id": "o011-brenner-u02-l02-fig-002",
+      "unit": 2
+    },
+    {
+      "alt": "Ilustrasi sumber: Parabola circle",
+      "caption_supplied": false,
+      "caption_text": null,
+      "filename": "Parabola circle.svg",
+      "id": "o011-brenner-u03-l03-fig-001",
+      "unit": 3
+    },
+    {
+      "alt": "Ilustrasi sumber: Euler spiral",
+      "caption_supplied": false,
+      "caption_text": null,
+      "filename": "Euler spiral.svg",
+      "id": "o011-brenner-u03-w03-fig-001",
+      "unit": 3
+    },
+    {
+      "alt": "Ilustrasi sumber: Evolute-parab",
+      "caption_supplied": false,
+      "caption_text": null,
+      "filename": "Evolute-parab.svg",
+      "id": "o011-brenner-u03-w03-fig-002",
+      "unit": 3
+    },
+    {
+      "alt": "Bidang-bidang kelengkungan utama, vektor normal, dan bidang singgung pada sebuah permukaan minimal. Label dalam berkas sumber dijelaskan seluruhnya oleh keterangan ini.",
+      "caption_supplied": true,
+      "caption_text": "Bidang-bidang kelengkungan utama, vektor normal, dan bidang singgung pada sebuah permukaan minimal. Label dalam berkas sumber dijelaskan seluruhnya oleh keterangan ini.",
+      "filename": "Minimal surface curvature planes-de.svg",
+      "id": "o011-brenner-u05-l05-fig-001",
+      "unit": 5
+    },
+    {
+      "alt": "Ilustrasi sumber: Parallel transport sphere2",
+      "caption_supplied": false,
+      "caption_text": null,
+      "filename": "Parallel transport sphere2.svg",
+      "id": "o011-brenner-u06-l06-fig-001",
+      "unit": 6
+    },
+    {
+      "alt": "Proyeksi stereografis ketika bidang tidak diletakkan melalui khatulistiwa, melainkan melalui Kutub Selatan.",
+      "caption_supplied": true,
+      "caption_text": "Proyeksi stereografis ketika bidang tidak diletakkan melalui khatulistiwa, melainkan melalui Kutub Selatan.",
+      "filename": "Stereographic projection in 3D.png",
+      "id": "o011-brenner-u07-l07-fig-001",
+      "unit": 7
+    },
+    {
+      "alt": "Ilustrasi sumber: Manifold zahyou3",
+      "caption_supplied": false,
+      "caption_text": null,
+      "filename": "Manifold zahyou3.png",
+      "id": "o011-brenner-u07-l07-fig-002",
+      "unit": 7
+    },
+    {
+      "alt": "Sebuah garis lingkaran adalah manifold kompak berdimensi satu",
+      "caption_supplied": true,
+      "caption_text": "Sebuah garis lingkaran adalah manifold kompak berdimensi satu",
+      "filename": "Circle - black simple.svg",
+      "id": "o011-brenner-u07-l07-fig-003",
+      "unit": 7
+    },
+    {
+      "alt": "Ilustrasi sumber: Tangentialvektor",
+      "caption_supplied": false,
+      "caption_text": null,
+      "filename": "Tangentialvektor.svg",
+      "id": "o011-brenner-u09-l09-fig-001",
+      "unit": 9
+    },
+    {
+      "alt": "Dua visualisasi bundel tangen sebuah lingkaran. Di bagian atas, ruang singgung lingkaran pada setiap titik \\(P\\) ditempatkan “secara tangensial” dan direalisasikan sebagai subruang afin berdimensi satu di dalam \\(\\mathbb{R}^2\\) ambien. Penyematan ini menimbulkan perpotongan yang sebenarnya tidak ada dalam bundel tangen, karena titik dasar \\(P\\) juga harus diperhitungkan. Di bagian bawah, ruang-ruang singgung pada setiap titik lingkaran disusun secara paralel sehingga menghasilkan sebuah silinder.",
+      "caption_supplied": true,
+      "caption_text": "Dua visualisasi bundel tangen sebuah lingkaran. Di bagian atas, ruang singgung lingkaran pada setiap titik \\(P\\) ditempatkan “secara tangensial” dan direalisasikan sebagai subruang afin berdimensi satu di dalam \\(\\mathbb{R}^2\\) ambien. Penyematan ini menimbulkan perpotongan yang sebenarnya tidak ada dalam bundel tangen, karena titik dasar \\(P\\) juga harus diperhitungkan. Di bagian bawah, ruang-ruang singgung pada setiap titik lingkaran disusun secara paralel sehingga menghasilkan sebuah silinder.",
+      "filename": "Tangent bundle.svg",
+      "id": "o011-brenner-u10-l10-fig-001",
+      "unit": 10
+    },
+    {
+      "alt": "Suatu medan vektor pada torus. Setiap titik torus diberi suatu arah tangensial, yang ditunjukkan oleh panah-panah.",
+      "caption_supplied": true,
+      "caption_text": "Suatu medan vektor pada torus. Setiap titik torus diberi suatu arah tangensial, yang ditunjukkan oleh panah-panah.",
+      "filename": "Torus vectors oblique.jpg",
+      "id": "o011-brenner-u10-l10-fig-002",
+      "unit": 10
+    },
+    {
+      "alt": "Ilustrasi sumber: Toroidal coord",
+      "caption_supplied": false,
+      "caption_text": null,
+      "filename": "Toroidal coord.png",
+      "id": "o011-brenner-u11-l11-fig-001",
+      "unit": 11
+    },
+    {
+      "alt": "Animasi seekor kepiting biola yang mengelilingi pita Möbius dan kembali dengan orientasi tercermin. Edisi PDF menampilkan bingkai pertama yang statis; animasi asli dipertahankan untuk edisi HTML dan unduhan.",
+      "canonical_download": true,
+      "caption_supplied": true,
+      "caption_text": "Animasi seekor kepiting biola yang mengelilingi pita Möbius dan kembali dengan orientasi tercermin. Edisi PDF menampilkan bingkai pertama yang statis; animasi asli dipertahankan untuk edisi HTML dan unduhan.",
+      "default_state": "static_frame",
+      "filename": "Fiddler crab mobius strip.gif",
+      "id": "o011-brenner-u12-l12-fig-001",
+      "media_kind": "animated",
+      "play_stop_controls": true,
+      "prefers_reduced_motion": true,
+      "static_filename": "Fiddler_crab_mobius_strip.png",
+      "unit": 12
+    },
+    {
+      "alt": "Diagram Venn tiga himpunan A, B, dan C yang memperlihatkan daerah-daerah tumpang tindih untuk prinsip inklusi–eksklusi.",
+      "caption_supplied": true,
+      "caption_text": "Diagram Venn tiga himpunan A, B, dan C yang memperlihatkan daerah-daerah tumpang tindih untuk prinsip inklusi–eksklusi.",
+      "filename": "Inclusion-exclusion.svg",
+      "id": "o011-brenner-u12-w12-fig-001",
+      "unit": 12
+    },
+    {
+      "alt": "Pita Möbius adalah contoh khas manifold yang tidak dapat diorientasikan. Agar menjadi manifold, tepinya tidak boleh termasuk di dalamnya; tetapi dengan demikian pita ini juga bukan submanifold tertutup dari \\(\\mathbb{R}^3\\), sebab submanifold tertutup seperti itu selalu dapat diorientasikan.",
+      "caption_supplied": true,
+      "caption_text": "Pita Möbius adalah contoh khas manifold yang tidak dapat diorientasikan. Agar menjadi manifold, tepinya tidak boleh termasuk di dalamnya; tetapi dengan demikian pita ini juga bukan submanifold tertutup dari \\(\\mathbb{R}^3\\), sebab submanifold tertutup seperti itu selalu dapat diorientasikan.",
+      "filename": "Möbius strip.jpg",
+      "id": "o011-brenner-u13-l13-fig-001",
+      "unit": 13
+    },
+    {
+      "alt": "Georg Friedrich Bernhard Riemann (1826-1866)",
+      "caption_supplied": true,
+      "caption_text": "Georg Friedrich Bernhard Riemann (1826-1866)",
+      "filename": "Georg Friedrich Bernhard Riemann.jpeg",
+      "id": "o011-brenner-u16-l16-fig-001",
+      "unit": 16
+    },
+    {
+      "alt": "Permukaan hijau mewarisi hasil kali dalam dari ruang Euklides di sekelilingnya. Dengan demikian, luas permukaan tersebut dapat diukur secara bermakna.",
+      "caption_supplied": true,
+      "caption_text": "Permukaan hijau mewarisi hasil kali dalam dari ruang Euklides di sekelilingnya. Dengan demikian, luas permukaan tersebut dapat diukur secara bermakna.",
+      "filename": "Sphere with three handles.png",
+      "id": "o011-brenner-u16-l16-fig-002",
+      "unit": 16
+    },
+    {
+      "alt": "Ilustrasi sumber: Cilinderprojectie-constructie",
+      "caption_supplied": false,
+      "caption_text": null,
+      "filename": "Cilinderprojectie-constructie.jpg",
+      "id": "o011-brenner-u17-l17-fig-001",
+      "unit": 17
+    },
+    {
+      "alt": "Animasi transformasi konformal setengah bidang Poincaré menjadi cakram satuan melalui inversi terhadap lingkaran yang berpusat di titik bergerak I. Edisi PDF menampilkan bingkai pertama yang statis; animasi asli dipertahankan untuk edisi HTML dan unduhan.",
+      "canonical_download": true,
+      "caption_supplied": true,
+      "caption_text": "Animasi transformasi konformal setengah bidang Poincaré menjadi cakram satuan melalui inversi terhadap lingkaran yang berpusat di titik bergerak I. Edisi PDF menampilkan bingkai pertama yang statis; animasi asli dipertahankan untuk edisi HTML dan unduhan.",
+      "default_state": "static_frame",
+      "filename": "Poincarehalfplaneconform.gif",
+      "id": "o011-brenner-u18-l18-fig-001",
+      "media_kind": "animated",
+      "play_stop_controls": true,
+      "prefers_reduced_motion": true,
+      "static_filename": "Poincarehalfplaneconform.png",
+      "unit": 18
+    },
+    {
+      "alt": "Yang dibahas ialah lembar atas hiperboloid dua lembar, yang dilengkapi dengan bentuk bilinear terinduksi dari bentuk Minkowski.",
+      "caption_supplied": true,
+      "caption_text": "Yang dibahas ialah lembar atas hiperboloid dua lembar, yang dilengkapi dengan bentuk bilinear terinduksi dari bentuk Minkowski.",
+      "filename": "Hyperboloid2.png",
+      "id": "o011-brenner-u18-l18-fig-002",
+      "unit": 18
+    }
+  ],
+  "files": [
+    {
+      "bytes": 377311,
+      "path": "assets/media/2019-07-Helix.jpg",
+      "sha256": "34d8c05038bdcbd34992bba1b1ab8d852a8c1d51975469d14f7640a829430f9e"
+    },
+    {
+      "bytes": 1215777,
+      "path": "assets/media/3d-function-6.svg",
+      "sha256": "16abe6c062235dc6cbdc9358aa4694da94e8f4a993d76f7137e26e4c95a7131b"
+    },
+    {
+      "bytes": 200686,
+      "path": "assets/media/Aufgabe75.22.1.gif",
+      "sha256": "dae99541dcac8721909366df89d67ee7ddc46ff49c24750c71f7d1e00245acca"
+    },
+    {
+      "bytes": 1640205,
+      "path": "assets/media/Aufgabe75.22.2.gif",
+      "sha256": "091b7d19856eb36aaf704bd23e26e46d0119ed97fcd736fb68cababa7ab7e942"
+    },
+    {
+      "bytes": 466679,
+      "path": "assets/media/Aufgabe79.27.gif",
+      "sha256": "337b29d868481d65b5ad460697ad18ef0d7bcce2695125453e3d88f34a2e9e5b"
+    },
+    {
+      "bytes": 172697,
+      "path": "assets/media/Cilinderprojectie-constructie.jpg",
+      "sha256": "7a3898760a53e679871e89e1a4382a4b5d8954c31f71d572bca6a3b3a160ef29"
+    },
+    {
+      "bytes": 207,
+      "path": "assets/media/Circle - black simple.svg",
+      "sha256": "6a28c8b677e37aaa88984cd72336ca752156ebf95fddf9bae4b2dd17903e8bde"
+    },
+    {
+      "bytes": 31848,
+      "path": "assets/media/Euler spiral.svg",
+      "sha256": "886d55edfa0fa21ac992ede928cfec4f816742a16b29709ea093113b29e410b9"
+    },
+    {
+      "bytes": 44890,
+      "path": "assets/media/Evolute-parab.svg",
+      "sha256": "851a909594c64be31477e391ea9b45e890305ea62e32e29a1d04bc66cf497db1"
+    },
+    {
+      "bytes": 1557242,
+      "path": "assets/media/Fiddler crab mobius strip.gif",
+      "sha256": "059c8643c42a0561e5ee5efe52cd5fc59de0879ddd3870fa200f4ae66a2fc69a"
+    },
+    {
+      "bytes": 145058,
+      "path": "assets/media/Fiddler_crab_mobius_strip.png",
+      "sha256": "15f45aee985375fe99b19f30dc62268d286db4caf103cf4fc066a8951cc43790"
+    },
+    {
+      "bytes": 255626,
+      "path": "assets/media/Georg Friedrich Bernhard Riemann.jpeg",
+      "sha256": "945240277e351b4deacc64e0a8e0cbb5c8398a5d13ae322eafb55bfae91cabc6"
+    },
+    {
+      "bytes": 7568,
+      "path": "assets/media/Great circle passing through two points.svg",
+      "sha256": "11cc0326e2bf51f226b1033af7a37f024216707a4c3b69854fadb9905c3409c7"
+    },
+    {
+      "bytes": 278393,
+      "path": "assets/media/Hyperboloid1.png",
+      "sha256": "4c813998156ef1961fa557d3a7c356d737c47291d36159baa955f170e500979b"
+    },
+    {
+      "bytes": 194637,
+      "path": "assets/media/Hyperboloid2.png",
+      "sha256": "d6e7b45784e7208f652106f0df65839d635a3058b1fa834455e490e904c61ef0"
+    },
+    {
+      "bytes": 6804,
+      "path": "assets/media/Inclusion-exclusion.svg",
+      "sha256": "d37d8453528fa90456c473f705741e6c50bc04ad2cd76e9d0f4199a9aa702df3"
+    },
+    {
+      "bytes": 8098,
+      "path": "assets/media/Integral apl rot obsah1.svg",
+      "sha256": "3dc950fd001c3a2e3ef095dcceac915f4701e990ecf513cf314eaef8a8f86dd1"
+    },
+    {
+      "bytes": 9977,
+      "path": "assets/media/Manifold zahyou3.png",
+      "sha256": "fd3afef0df5b0ec3dc9eceea337fda5d15371ea143aa3cfbb24e134e455342f8"
+    },
+    {
+      "bytes": 50805,
+      "path": "assets/media/Minimal surface curvature planes-de.svg",
+      "sha256": "c3048459dcf36445b38c5b734eee1febd21215bb08aeba9675cd1e5745cde873"
+    },
+    {
+      "bytes": 82042,
+      "path": "assets/media/Möbius strip.jpg",
+      "sha256": "9c4323cfa3ce4f3ce043e4e2479dbf68658d165c46bd41394991361859ea9fad"
+    },
+    {
+      "bytes": 19469,
+      "path": "assets/media/Parabola circle.svg",
+      "sha256": "186a981781924575a5e517d83d8ab5bfb829125d0a86edc664a41a589bcfca83"
+    },
+    {
+      "bytes": 11448,
+      "path": "assets/media/Parallel transport sphere2.svg",
+      "sha256": "4a6215c455dc248c97d1831e9af8b5d551a7cdb5da46976df2c1a77c959b88f8"
+    },
+    {
+      "bytes": 135949,
+      "path": "assets/media/Planned flight map of the Oiseau Blanc.svg",
+      "sha256": "45d3109037287e3111bc60543f43163e2264e8e4d52806b83cfd96279522b1b9"
+    },
+    {
+      "bytes": 956681,
+      "path": "assets/media/Poincarehalfplaneconform.gif",
+      "sha256": "2a1da25b6afb54e7c4e9e48b36447f66a9ae2a71b0bd23118d83ad5b4a260a4d"
+    },
+    {
+      "bytes": 3137,
+      "path": "assets/media/Poincarehalfplaneconform.png",
+      "sha256": "3fc44ea03f030f75ad3d7de2590d8ea6ef6061bdb1fe45f241129eff4af5d11c"
+    },
+    {
+      "bytes": 398740,
+      "path": "assets/media/Sphere with three handles.png",
+      "sha256": "49398059697841332186226bccf87e46032289c1a8a02063fc2600070c51a311"
+    },
+    {
+      "bytes": 69330,
+      "path": "assets/media/Stereographic projection in 3D.png",
+      "sha256": "ab78ed4225923f771ae69d44930c244c53ef7c3a44d8e7264b16467dc4a78316"
+    },
+    {
+      "bytes": 23116,
+      "path": "assets/media/Tangent bundle.svg",
+      "sha256": "96e46d20e64c40985d7ddc517824a36ef6546261762c3cd8e277c9a4eab55623"
+    },
+    {
+      "bytes": 4790,
+      "path": "assets/media/Tangentialvektor.svg",
+      "sha256": "ed39381859fa3f6e4240ad7112388600a59126e71bc5aac5943a87f11d9e5301"
+    },
+    {
+      "bytes": 151522,
+      "path": "assets/media/Toroidal coord.png",
+      "sha256": "f09c9189157aedc9c9d516d24ffdf80c6e3d413101e2eb38e3c0cda996c5d618"
+    },
+    {
+      "bytes": 251142,
+      "path": "assets/media/Torus vectors oblique.jpg",
+      "sha256": "cfcd0c5c16262a6beab6dd47dc27291b7ff3651228b2b9defc0717957ce5d3f6"
+    },
+    {
+      "bytes": 7045,
+      "path": "assets/reader.css",
+      "sha256": "b2af565e44ff10837308b0d1bc693ef8be350e2a80fa4d654ce2ecac3864e0b0"
+    },
+    {
+      "bytes": 1333528,
+      "path": "index.html",
+      "sha256": "096393a5218d49dca913904bbf52a9bc0933a389d456db5d907db76872a3444a"
+    },
+    {
+      "bytes": 1120,
+      "path": "README.txt",
+      "sha256": "289ab42fe4af3851d282c9a1fb0397e77be55d269fd098f019d7f61e69acd9c0"
+    }
+  ],
+  "generation_bindings": [
+    {
+      "bytes": 25588,
+      "path": "authority/brenner_media_rights_manifest.csv",
+      "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+    },
+    {
+      "bytes": 6203,
+      "path": "source/unit_media.json",
+      "sha256": "dd901249426ef0fdc839c647eccf313c1df7c94297f3d56d0c6402ae5cb2128b"
+    },
+    {
+      "bytes": 8751,
+      "path": "qa/unit-01_media.json",
+      "sha256": "d18312ae5d346e90fce515e4badb9ba10c6a5ae0ae36d4cb8f850f7544ca700c"
+    },
+    {
+      "bytes": 3797,
+      "path": "qa/unit-02_media.json",
+      "sha256": "a55131f785f7c7129ab75f4d02518083147a70f345eb9141779116f8610186e6"
+    },
+    {
+      "bytes": 5857,
+      "path": "qa/unit-03_media.json",
+      "sha256": "ecfe0fd6e24ac0f4bd1fbf73c4475d6a6ffef075d5af7def6d0a21a173c5112b"
+    },
+    {
+      "bytes": 763,
+      "path": "qa/unit-04_media.json",
+      "sha256": "1ec9d4cb9dfd03a4b922b05de2460c519c7f555e0d5922dc2f2a8421218d1cde"
+    },
+    {
+      "bytes": 2720,
+      "path": "qa/unit-05_media.json",
+      "sha256": "cd74ce07d413a493a74db1ac4d1eeb0c960f4a3885f5b18dbf92c9036eb1dc1b"
+    },
+    {
+      "bytes": 2838,
+      "path": "qa/unit-06_media.json",
+      "sha256": "56746d0d77a785457378ed571c64c31d095605dac64d120a8691d891d10d147b"
+    },
+    {
+      "bytes": 5359,
+      "path": "qa/unit-07_media.json",
+      "sha256": "67fbf8209cd0aceda40d62f21a55ac94e37d954468552a21f65d0f8d8d8a034f"
+    },
+    {
+      "bytes": 763,
+      "path": "qa/unit-08_media.json",
+      "sha256": "058b53d25a380b36bb16ca7eda658f7666c861b55f2ebd24c5929c1acc88c59b"
+    },
+    {
+      "bytes": 3254,
+      "path": "qa/unit-09_media.json",
+      "sha256": "112cd9541b82c6ac870bb0d1008bf135b74e78c5ea733b3b4eb3112a0f3fc59b"
+    },
+    {
+      "bytes": 3931,
+      "path": "qa/unit-10_media.json",
+      "sha256": "019654ebfc1e402c2309fb8edf4818acbfdeafbfe3bf13939df9af739588aaac"
+    },
+    {
+      "bytes": 1927,
+      "path": "qa/unit-11_media.json",
+      "sha256": "dacc6d37bb173ec64f67313e8c1dca89e3091d922d79ab73800d74e4dd54b7d9"
+    },
+    {
+      "bytes": 4350,
+      "path": "qa/unit-12_media.json",
+      "sha256": "b4ddde72b4d43261bb90a2f0f6fe360ed5e3d83b5c46c91a3bfd2e7737dd9fda"
+    },
+    {
+      "bytes": 1875,
+      "path": "qa/unit-13_media.json",
+      "sha256": "69413f3d4949283172cb9938cb6438dcd20963a15a29aeffe8878d56d3a0fed3"
+    },
+    {
+      "bytes": 765,
+      "path": "qa/unit-14_media.json",
+      "sha256": "6f1fded78e3fb5250e115da6bb7eac894e6d692e3da8637ab6516ce4f3522cdb"
+    },
+    {
+      "bytes": 765,
+      "path": "qa/unit-15_media.json",
+      "sha256": "1007dd5fb3fc3539685fbedcb97468ce96eec294ec1f0133f81d3f59c77bfb7c"
+    },
+    {
+      "bytes": 3113,
+      "path": "qa/unit-16_media.json",
+      "sha256": "124cf9859dc39e146c0573b415fcfe13e8cc6771ac0116728b2a7e9d0aec6780"
+    },
+    {
+      "bytes": 1797,
+      "path": "qa/unit-17_media.json",
+      "sha256": "1a63203e3dfe7ed6d7ec283b99132bafa89670bd8d99bbde4046d2a13e554c68"
+    },
+    {
+      "bytes": 3536,
+      "path": "qa/unit-18_media.json",
+      "sha256": "7946287c4d57a1cfebdc0fabd9f17f9f7c819e73759fc5137da9fc1a15060b7f"
+    },
+    {
+      "bytes": 765,
+      "path": "qa/unit-19_media.json",
+      "sha256": "1ac6159dc835ffb3d693a4d40d432795f9a18cf4c81e84901147ccba73312553"
+    },
+    {
+      "bytes": 1823,
+      "path": "source/unit07_interactive_media.json",
+      "sha256": "79a6509a87fa0da8f96527f798ca02b40d10c223300c439ee08dbdea1d2d3352"
+    },
+    {
+      "bytes": 1428,
+      "path": "qa/unit-07/INTERACTIVE_MEDIA_QA.json",
+      "sha256": "a6077a07a4ec03f1a33500781bf3256fa81da9d8efb091318fc6dd59dfdca193"
+    },
+    {
+      "bytes": 2766,
+      "path": "source/unit11_interactive_media.json",
+      "sha256": "c91b497082b4975209911b33ab6d819db72eb2f140518937b4b8f09253153cfe"
+    },
+    {
+      "bytes": 1030,
+      "path": "qa/unit-11/INTERACTIVE_MEDIA_QA.json",
+      "sha256": "178a82bee62c0f887ed20dd8abd0d589403cb41466c6b05ab591bcead25bf16e"
+    },
+    {
+      "bytes": 3156,
+      "path": "qa/unit-12/ANIMATED_MEDIA_QA.json",
+      "sha256": "654881dc783a3c6fc6f436f19d57bdbf9d35892022fd4d21bf1030f5fe256952"
+    },
+    {
+      "bytes": 3506,
+      "path": "qa/unit-12/HTML_ANIMATED_MEDIA_QA.json",
+      "sha256": "0b84a482e4b5af062a87535eb80b23ca47dc13afd82d04546f4c84ac8907a32e"
+    },
+    {
+      "bytes": 5919,
+      "path": "qa/unit-18/ANIMATED_MEDIA_QA.json",
+      "sha256": "5fac0c492aa07789739307270091c7ac0d88ec6b951bdbb69fd50ee66e874358"
+    }
+  ],
+  "inputs": [
+    {
+      "bytes": 29009,
+      "path": "source/units/unit-01/lecture01.id.tex",
+      "sha256": "0237473836f695af04b5ab972857f58904b416f8baffd9e5d2c8f5e504fdd0f3"
+    },
+    {
+      "bytes": 13478,
+      "path": "source/units/unit-01/worksheet01.id.tex",
+      "sha256": "70b598bd9ef0db42f8461cd2e6289cfbaa7d96634bc4c186dcda59f1f8013677"
+    },
+    {
+      "bytes": 2583,
+      "path": "source/units/unit-01/worksheet01_exercise01_solution.id.tex",
+      "sha256": "36f9b17c995afa4967c05fb119b15c18348dde5669a72140487c4d9ff33e12d5"
+    },
+    {
+      "bytes": 22714,
+      "path": "source/units/unit-02/lecture02.id.tex",
+      "sha256": "d0226246f26aa13dd94f5e42e62827e64109fda1d80dfd3741a1be6bcb8b439a"
+    },
+    {
+      "bytes": 10576,
+      "path": "source/units/unit-02/worksheet02.id.tex",
+      "sha256": "677d9b244a2c30561f497e602e29081ca12f668d5a5ec3d116900c49a5bd5954"
+    },
+    {
+      "bytes": 951,
+      "path": "source/units/unit-02/worksheet02_exercise01_solution.id.tex",
+      "sha256": "bf0788c3f5cc77324bca5dfc1a899b5410fa5a8312da7594b85993c9245a45fe"
+    },
+    {
+      "bytes": 965,
+      "path": "source/units/unit-02/worksheet02_exercise02_solution.id.tex",
+      "sha256": "66ac0a6b86de21eee86a898fe7122644c932c4dff44bbc51845967a86b73e2fc"
+    },
+    {
+      "bytes": 1499,
+      "path": "source/units/unit-02/worksheet02_exercise07_solution.id.tex",
+      "sha256": "405e59e8569d9ba8d8dd35ebe6b2ce693cb931d8ed42824d790baeba31fdd8d3"
+    },
+    {
+      "bytes": 5009,
+      "path": "source/units/unit-02/worksheet02_exercise12_solution.id.tex",
+      "sha256": "1c04a8fd29888aa47633cffceb25104c6533e6c2b9e512ad663fd3742c581832"
+    },
+    {
+      "bytes": 2532,
+      "path": "source/units/unit-02/worksheet02_exercise13_solution.id.tex",
+      "sha256": "a4a230b45de82885027722450d3a7f12fc63fe06187abab481788f7b37352ac0"
+    },
+    {
+      "bytes": 29665,
+      "path": "source/units/unit-03/lecture03.id.tex",
+      "sha256": "1b856b6f42a4c5e17991ace18d0c378f8df6025bd8dffbaae7f07f16f87a7885"
+    },
+    {
+      "bytes": 10129,
+      "path": "source/units/unit-03/worksheet03.id.tex",
+      "sha256": "89b05cf8280045703c64e8a0d3540883196f6569f2c9e24f630a6b00ee703474"
+    },
+    {
+      "bytes": 2897,
+      "path": "source/units/unit-03/worksheet03_exercise07_solution.id.tex",
+      "sha256": "6acaaf786d11721f70b970b2c9e001ee5ae13b922c3fccd594b0bc8b790095c2"
+    },
+    {
+      "bytes": 2170,
+      "path": "source/units/unit-03/worksheet03_exercise16_solution.id.tex",
+      "sha256": "c71c2178c6380432a56f267718fadd4fbcc9415a0a8a2fbe994f6e3d9b89c84f"
+    },
+    {
+      "bytes": 28636,
+      "path": "source/units/unit-04/lecture04.id.tex",
+      "sha256": "456d30821bdaaa71736ddcbb6707b7d7de46ddbdbb81e9614ab982763f2d8b03"
+    },
+    {
+      "bytes": 11805,
+      "path": "source/units/unit-04/worksheet04.id.tex",
+      "sha256": "fb6438475d2ebc6917f7928faa6b338e67944c1228406d2178f58119307e1ebf"
+    },
+    {
+      "bytes": 1983,
+      "path": "source/units/unit-04/worksheet04_exercise07_solution.id.tex",
+      "sha256": "6003193ccef4456ffcbe42e67068202567ceafe4897363aa4833b266aaf855d5"
+    },
+    {
+      "bytes": 2663,
+      "path": "source/units/unit-04/worksheet04_exercise10_solution.id.tex",
+      "sha256": "87c65a52f982f32483c8747b0825b5b628c28127bc8b7892509d68f916f383d5"
+    },
+    {
+      "bytes": 25573,
+      "path": "source/units/unit-05/lecture05.id.tex",
+      "sha256": "bd6c5ba67f3bf029e4227e4ba3f94f56fd3e2cf1fd2d5ab3cdac27810eca53d3"
+    },
+    {
+      "bytes": 11371,
+      "path": "source/units/unit-05/worksheet05.id.tex",
+      "sha256": "e4107899e13705e0d0fcc40a5ff4a7815e44f3eab2beaf297f3af0a49c8b29a4"
+    },
+    {
+      "bytes": 2895,
+      "path": "source/units/unit-05/worksheet05_exercise01_solution.id.tex",
+      "sha256": "aad6ab0d0729988c26b41cc6d6a82c95338b388f79212005a86b0f5c90b3bc4f"
+    },
+    {
+      "bytes": 32034,
+      "path": "source/units/unit-06/lecture06.id.tex",
+      "sha256": "180c553eb556d91ba733e00f012bd0ece36c32e66704c992f0c64244ab6e05e8"
+    },
+    {
+      "bytes": 16526,
+      "path": "source/units/unit-06/worksheet06.id.tex",
+      "sha256": "b0cf54f892e2357bd6edaf1ed87df711cffcdf164c1454e7b7d2c987faa8bca5"
+    },
+    {
+      "bytes": 2588,
+      "path": "source/units/unit-06/worksheet06_exercise02_solution.id.tex",
+      "sha256": "772755e8e7d46abd63b2acf146fec3be01a23f57476cbea153ff14668a316ad5"
+    },
+    {
+      "bytes": 1103,
+      "path": "source/units/unit-06/worksheet06_exercise06_solution.id.tex",
+      "sha256": "e10704fec468e5ee582e72415ef85d92ad6182a3a4207359ad10ac41b9a581ac"
+    },
+    {
+      "bytes": 595,
+      "path": "source/units/unit-06/worksheet06_exercise09_solution.id.tex",
+      "sha256": "fd027471aa6655aaf6b2d07c60e7a96cb5d13df961adca1c38d2021cc19cf39b"
+    },
+    {
+      "bytes": 20487,
+      "path": "source/units/unit-07/lecture07.id.tex",
+      "sha256": "5faec64b0b20a6999e61fc3fa6a32db812e324d1e8a272d1978c67bc76c3c7b0"
+    },
+    {
+      "bytes": 8029,
+      "path": "source/units/unit-07/worksheet07.id.tex",
+      "sha256": "af223f98696a9353e7967d3ac150a8f2f5de3c49bef506c69fe0d452e7717658"
+    },
+    {
+      "bytes": 898,
+      "path": "source/units/unit-07/worksheet07_exercise04_solution.id.tex",
+      "sha256": "fcae797a689655b486d9ffed1fdede2059b0f15f3842cc5f38e1ba21d4499822"
+    },
+    {
+      "bytes": 1695,
+      "path": "source/units/unit-07/worksheet07_exercise07_solution.id.tex",
+      "sha256": "b85aae3fecf5ff5c316fcd2f496134a2d60203b468d112b97ccda701bb77a49a"
+    },
+    {
+      "bytes": 332,
+      "path": "source/units/unit-07/worksheet07_exercise13_solution.id.tex",
+      "sha256": "b23f0e52a315ac6d47d1849f06d426e5e1815a244cc39c1c6ce741435ba20f37"
+    },
+    {
+      "bytes": 18099,
+      "path": "source/units/unit-08/lecture08.id.tex",
+      "sha256": "90574f5e2879e7bc07ee20e5a335d78bd1b84f5f94b52f257dcdd0f3abf6f8bf"
+    },
+    {
+      "bytes": 13094,
+      "path": "source/units/unit-08/worksheet08.id.tex",
+      "sha256": "8cd886c6c2f9a7019f5e2319d9930a729572e016ee823346200228e3265b40bf"
+    },
+    {
+      "bytes": 1204,
+      "path": "source/units/unit-08/worksheet08_exercise11_solution.id.tex",
+      "sha256": "1a55e39744d436cf93afd514a638197019f2e9e139279abbb3576a1704757a2b"
+    },
+    {
+      "bytes": 3088,
+      "path": "source/units/unit-08/worksheet08_exercise13_solution.id.tex",
+      "sha256": "73ee95e00976b81b69b5bee684d2f941c39ca413e4dd0f2696f29081456215ed"
+    },
+    {
+      "bytes": 26132,
+      "path": "source/units/unit-09/lecture09.id.tex",
+      "sha256": "9e3b12f4168c4f7a8c246c4c9106d1154be237e9080e12e0a21bcd8942d61bba"
+    },
+    {
+      "bytes": 10331,
+      "path": "source/units/unit-09/worksheet09.id.tex",
+      "sha256": "4079437947ab31c9216e3ee6059badc8cf7d780ead1df93cd5cfb6f1cd7d3e9d"
+    },
+    {
+      "bytes": 23152,
+      "path": "source/units/unit-10/lecture10.id.tex",
+      "sha256": "bafd2d5f8d1307438c42f2b20a1914f143f097ddc7f37c2e1e9b99dccb340044"
+    },
+    {
+      "bytes": 16155,
+      "path": "source/units/unit-10/worksheet10.id.tex",
+      "sha256": "3a386ddb1a7e29475d54ca052c518b9b7c7447cefb2c6158f1a288c9b816ac4a"
+    },
+    {
+      "bytes": 2822,
+      "path": "source/units/unit-10/worksheet10_exercise09_solution.id.tex",
+      "sha256": "f4d86590a7244ce6006f2d7812700e4038391fe9808bf733b3c731e1d1cfe088"
+    },
+    {
+      "bytes": 5275,
+      "path": "source/units/unit-10/worksheet10_exercise10_solution.id.tex",
+      "sha256": "4af0e5d19acc8555b0deb5fd7503008b86bb740f76ef8ce1482ff95d09cc7b22"
+    },
+    {
+      "bytes": 2544,
+      "path": "source/units/unit-10/worksheet10_exercise15_solution.id.tex",
+      "sha256": "df54358b3ac368df7d552f21a38f09fbceb0c90055066e25944a11359c5ab2d1"
+    },
+    {
+      "bytes": 1568,
+      "path": "source/units/unit-10/worksheet10_exercise25_solution.id.tex",
+      "sha256": "18c69f5473ffea083ed655dd8542e2e466a0fee07175e355f3125447b26d21d5"
+    },
+    {
+      "bytes": 16590,
+      "path": "source/units/unit-11/lecture11.id.tex",
+      "sha256": "c6d5266be60eec3911d841213fb4333b51c6555266915e0b64438c3c2bf3d4fc"
+    },
+    {
+      "bytes": 20513,
+      "path": "source/units/unit-11/worksheet11.id.tex",
+      "sha256": "b92ce3a51ad8b56acbd01f26673fb3512faee6b7bf17b8ccb6365c2091af6941"
+    },
+    {
+      "bytes": 1351,
+      "path": "source/units/unit-11/worksheet11_exercise10_solution.id.tex",
+      "sha256": "77e8efefffb8acded4a11f1e258134d8d26aef4e8cb517a67dd8a3d1565bf2e9"
+    },
+    {
+      "bytes": 795,
+      "path": "source/units/unit-11/worksheet11_exercise14_solution.id.tex",
+      "sha256": "d8cd8d24a7dba0865dda2bd83e10f1c96c0dc100c9e95de6fcaf723f8a714683"
+    },
+    {
+      "bytes": 21299,
+      "path": "source/units/unit-12/lecture12.id.tex",
+      "sha256": "993875dc8f085e0bddaaac813179dade7e5a2928d53c1e575c7c4f09bc6074f1"
+    },
+    {
+      "bytes": 19723,
+      "path": "source/units/unit-12/worksheet12.id.tex",
+      "sha256": "b773f00690f9d5128cf602ec8f96d816e58009113f9051f198966e98c1a76975"
+    },
+    {
+      "bytes": 2143,
+      "path": "source/units/unit-12/worksheet12_exercise11_solution.id.tex",
+      "sha256": "fcee4e2a7cbf9c36b053c0831c5ac51aa99553870ddf7e9b10c7b04ac301a210"
+    },
+    {
+      "bytes": 1306,
+      "path": "source/units/unit-12/worksheet12_exercise12_solution.id.tex",
+      "sha256": "3efe62a19d10bbf4f36301f6753f0f29f7480030dd2a1fe7a0ae914b1957d23f"
+    },
+    {
+      "bytes": 23437,
+      "path": "source/units/unit-13/lecture13.id.tex",
+      "sha256": "967551bab13674a72cd13fdde37bb9b1d0037adbc29d5a0059ec6f68258dc4db"
+    },
+    {
+      "bytes": 9779,
+      "path": "source/units/unit-13/worksheet13.id.tex",
+      "sha256": "d44ad81ba46d80fcd1bc67aafa032943c085f3bc7899ea6266f9c94b846190d3"
+    },
+    {
+      "bytes": 687,
+      "path": "source/units/unit-13/worksheet13_exercise01_solution.id.tex",
+      "sha256": "da687a0ab23159cd5d9702cc6f6fb85ce479166b9d8829846c2286bb1010640c"
+    },
+    {
+      "bytes": 1338,
+      "path": "source/units/unit-13/worksheet13_exercise10_solution.id.tex",
+      "sha256": "522b280e4783ef70436f915492b36cc7cb6fc776ab42310d74e52e8605320a3e"
+    },
+    {
+      "bytes": 1229,
+      "path": "source/units/unit-13/worksheet13_exercise11_solution.id.tex",
+      "sha256": "35af09e224c9dd9d8c797cd89675880d03a1383a6a24e91c36939a68fbfb264b"
+    },
+    {
+      "bytes": 1031,
+      "path": "source/units/unit-13/worksheet13_exercise16_solution.id.tex",
+      "sha256": "802f85bf09bec093760930a4c179651c540c1b2b75b21943a12724a74f9d6fa3"
+    },
+    {
+      "bytes": 844,
+      "path": "source/units/unit-13/worksheet13_exercise18_solution.id.tex",
+      "sha256": "6491add401d36d889047295089d9a61f0cd1258aece21f71926a1e5c26f4d8ea"
+    },
+    {
+      "bytes": 1528,
+      "path": "source/units/unit-13/worksheet13_exercise19_solution.id.tex",
+      "sha256": "62ab43ca3da248c84fceaf6d5bf7e7aa5c9aad795a5d566a43b57c3903bffebf"
+    },
+    {
+      "bytes": 561,
+      "path": "source/units/unit-13/worksheet13_exercise21_solution.id.tex",
+      "sha256": "b057f77dc7d5765defe8465d5a1e6f6e9a40bcd51260ba7703fc6654c741c0b0"
+    },
+    {
+      "bytes": 1410,
+      "path": "source/units/unit-13/worksheet13_exercise22_solution.id.tex",
+      "sha256": "8924d20cfd8305c389961d28bdbc9a5858927b49977924295997c94a0a1932bf"
+    },
+    {
+      "bytes": 27295,
+      "path": "source/units/unit-14/lecture14.id.tex",
+      "sha256": "3803b4b3ca94c228e959443a4cc23a803578a1ca82bf5cc6731b83e5a4bd044c"
+    },
+    {
+      "bytes": 10760,
+      "path": "source/units/unit-14/worksheet14.id.tex",
+      "sha256": "98880cc5c0996175a6f3f60ac6c5098bb4076569f1050cc8136f13662e6cec79"
+    },
+    {
+      "bytes": 730,
+      "path": "source/units/unit-14/worksheet14_exercise05_solution.id.tex",
+      "sha256": "f881d71e394363e6e5fee0f99e48f7df9d987d2293de6441d07a53ec48f10538"
+    },
+    {
+      "bytes": 641,
+      "path": "source/units/unit-14/worksheet14_exercise06_solution.id.tex",
+      "sha256": "c3149e898c60aa6d8cdc7a2793357d2a5a1aeefb3fe3715c80a85458af8356d2"
+    },
+    {
+      "bytes": 2040,
+      "path": "source/units/unit-14/worksheet14_exercise09_solution.id.tex",
+      "sha256": "f148e6789525def973c4ea7e09774a79ba8bee627f963b16413a12cf97386928"
+    },
+    {
+      "bytes": 2194,
+      "path": "source/units/unit-14/worksheet14_exercise11_solution.id.tex",
+      "sha256": "1d479e074fd7b518ede0aa33455812bcefb22a3a58b40a6bd716dd45f234b202"
+    },
+    {
+      "bytes": 1213,
+      "path": "source/units/unit-14/worksheet14_exercise12_solution.id.tex",
+      "sha256": "280064a53a5241f7225f068bcd0db7f38c9b9ad3d2de47d1b7cbc549447bed88"
+    },
+    {
+      "bytes": 812,
+      "path": "source/units/unit-14/worksheet14_exercise13_solution.id.tex",
+      "sha256": "5302b9d778ff9dce9d4d0c6a1f0b20fa63536cea8a119dda10c10a852d20f260"
+    },
+    {
+      "bytes": 763,
+      "path": "source/units/unit-14/worksheet14_exercise14_solution.id.tex",
+      "sha256": "910a36226b378dc2dc8ada823f052f6edd3caf66300b0c9adbb4a546474381af"
+    },
+    {
+      "bytes": 34170,
+      "path": "source/units/unit-15/lecture15.id.tex",
+      "sha256": "c7ef815dfa5e1fbdd877c866d7841bb322e5086a30d36ec02925014a7854a954"
+    },
+    {
+      "bytes": 8381,
+      "path": "source/units/unit-15/worksheet15.id.tex",
+      "sha256": "3c6e0d42eb20663d6c6eb6a33d2641b1afabc38b6e246a0ac9273bbeb5f6858c"
+    },
+    {
+      "bytes": 1958,
+      "path": "source/units/unit-15/worksheet15_exercise01_solution.id.tex",
+      "sha256": "bff5036f08a6dfc8dded4043ab42ce201e313a9f2757f15275919888f663a42a"
+    },
+    {
+      "bytes": 1109,
+      "path": "source/units/unit-15/worksheet15_exercise11_solution.id.tex",
+      "sha256": "6902a8cd4421acd9d83ed501af4fbe7bc8e91fe1c6ab2ed6668827c8ed4ab749"
+    },
+    {
+      "bytes": 1290,
+      "path": "source/units/unit-15/worksheet15_exercise12_solution.id.tex",
+      "sha256": "fa070c1c433e17d201ae84e1ccfb7ea21c24f4255f28857016e323f0eb4fba49"
+    },
+    {
+      "bytes": 1623,
+      "path": "source/units/unit-15/worksheet15_exercise13_solution.id.tex",
+      "sha256": "b29338f5cabe345e317c6848e8321ffea0e91d76910afa5ab86feccf5a5349d8"
+    },
+    {
+      "bytes": 24993,
+      "path": "source/units/unit-16/lecture16.id.tex",
+      "sha256": "b463b63c8aa8fa669d8072b924daec5de6a14872aeb1c9ece82ea1ea5a7434c7"
+    },
+    {
+      "bytes": 11081,
+      "path": "source/units/unit-16/worksheet16.id.tex",
+      "sha256": "1a7535fe6e1ee9bb40e0a508143aa57c5dfc19ef92415635e54ed9f5975290b2"
+    },
+    {
+      "bytes": 410,
+      "path": "source/units/unit-16/worksheet16_exercise01_solution.id.tex",
+      "sha256": "df5f155101df65eb27bc1aeea5933526488471eea6b444cf7e8f5f04aa9c8779"
+    },
+    {
+      "bytes": 2096,
+      "path": "source/units/unit-16/worksheet16_exercise12_solution.id.tex",
+      "sha256": "84f08c2ac9fef0276b844e4c1ff06963f99a8115db4ff9422b5f833da4848cbf"
+    },
+    {
+      "bytes": 24372,
+      "path": "source/units/unit-17/lecture17.id.tex",
+      "sha256": "a01fde947d1efc4ab28b426933bc7c7a2f2e922fa8c2833ef224c747e3d39da9"
+    },
+    {
+      "bytes": 6649,
+      "path": "source/units/unit-17/worksheet17.id.tex",
+      "sha256": "0b1366792404b62fb2705f56995077f4d53bb9779e10c06f8a2c0b96a5241fdc"
+    },
+    {
+      "bytes": 1568,
+      "path": "source/units/unit-17/worksheet17_exercise02_solution.id.tex",
+      "sha256": "5fdd8ec67263580cd64065b4bd574581b8c55788b2351f278098781cb091b5ef"
+    },
+    {
+      "bytes": 770,
+      "path": "source/units/unit-17/worksheet17_exercise04_solution.id.tex",
+      "sha256": "8de955a9a8910399b656e291a11ec70096d59444ba292b6a00fc8a7bfbfc6c3e"
+    },
+    {
+      "bytes": 24214,
+      "path": "source/units/unit-18/lecture18.id.tex",
+      "sha256": "7d7bc9d97d9719790d1cd37f78fae74f9cb318a4f29b8a7c295e24deb6aed298"
+    },
+    {
+      "bytes": 9504,
+      "path": "source/units/unit-18/worksheet18.id.tex",
+      "sha256": "6710aad75c6a8132d0d255548cf19ea6d184999386a81f786061b0f02546d759"
+    },
+    {
+      "bytes": 1396,
+      "path": "source/units/unit-18/worksheet18_exercise08_solution.id.tex",
+      "sha256": "b33f25142ea1d417660de331a39252483fe081d456f3f32db19e4772a2cedf0f"
+    },
+    {
+      "bytes": 3549,
+      "path": "source/units/unit-18/worksheet18_exercise11_solution.id.tex",
+      "sha256": "e602b8a63785e6bd356394d7e09d75a77203a3863efe5e6845f035e638dc409d"
+    },
+    {
+      "bytes": 1236,
+      "path": "source/units/unit-18/worksheet18_exercise13_solution.id.tex",
+      "sha256": "2c618c487cbb8cccf300b3333c645f79519f39640dac00c664c25963e2935ec3"
+    },
+    {
+      "bytes": 1371,
+      "path": "source/units/unit-18/worksheet18_exercise14_solution.id.tex",
+      "sha256": "f1ee3d9a587a96a1315a31b45ee5483b494951018bd2082674bd0fed9468b307"
+    },
+    {
+      "bytes": 29476,
+      "path": "source/units/unit-19/lecture19.id.tex",
+      "sha256": "ca3e199d2e80c45a8d87f43c2dae79538108ba04749ace112b88fc4d28000147"
+    },
+    {
+      "bytes": 7220,
+      "path": "source/units/unit-19/worksheet19.id.tex",
+      "sha256": "338753c6889573ae0056d4975f14e6271722751f349a15ed0df9b3d044689df8"
+    }
+  ],
+  "language": "id-ID",
+  "math_rendering": {
+    "format": "MathJax-compatible TeX retained in document text",
+    "offline_fallback": "visible selectable TeX source",
+    "optional_network_dependency": "https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-chtml.js"
+  },
+  "media": [
+    {
+      "creator": "Ag2gaeh",
+      "description_url": "https://commons.wikimedia.org/wiki/File:2019-07-Helix.jpg",
+      "filename": "2019-07-Helix.jpg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": {
+        "bytes": 377311,
+        "path": "authority/media/2019-07-Helix.jpg",
+        "sha256": "34d8c05038bdcbd34992bba1b1ab8d852a8c1d51975469d14f7640a829430f9e"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 8751,
+            "path": "qa/unit-01_media.json",
+            "sha256": "d18312ae5d346e90fce515e4badb9ba10c6a5ae0ae36d4cb8f850f7544ca700c"
+          },
+          "unit": 1
+        }
+      ],
+      "units": [
+        1
+      ]
+    },
+    {
+      "creator": "MartinThoma",
+      "description_url": "https://commons.wikimedia.org/wiki/File:3d-function-6.svg",
+      "filename": "3d-function-6.svg",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "source": {
+        "bytes": 1215777,
+        "path": "authority/media/3d-function-6.svg",
+        "sha256": "16abe6c062235dc6cbdc9358aa4694da94e8f4a993d76f7137e26e4c95a7131b"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 8751,
+            "path": "qa/unit-01_media.json",
+            "sha256": "d18312ae5d346e90fce515e4badb9ba10c6a5ae0ae36d4cb8f850f7544ca700c"
+          },
+          "unit": 1
+        }
+      ],
+      "units": [
+        1
+      ]
+    },
+    {
+      "creator": "KoenB",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Cilinderprojectie-constructie.jpg",
+      "filename": "Cilinderprojectie-constructie.jpg",
+      "license": "Public domain",
+      "license_url": null,
+      "source": {
+        "bytes": 172697,
+        "path": "authority/media/Cilinderprojectie-constructie.jpg",
+        "sha256": "7a3898760a53e679871e89e1a4382a4b5d8954c31f71d572bca6a3b3a160ef29"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 1797,
+            "path": "qa/unit-17_media.json",
+            "sha256": "1a63203e3dfe7ed6d7ec283b99132bafa89670bd8d99bbde4046d2a13e554c68"
+          },
+          "unit": 17
+        }
+      ],
+      "units": [
+        17
+      ]
+    },
+    {
+      "creator": "Dakdada",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Circle_-_black_simple.svg",
+      "filename": "Circle - black simple.svg",
+      "license": "Public domain",
+      "license_url": null,
+      "source": {
+        "bytes": 207,
+        "path": "authority/media/Circle - black simple.svg",
+        "sha256": "6a28c8b677e37aaa88984cd72336ca752156ebf95fddf9bae4b2dd17903e8bde"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 5359,
+            "path": "qa/unit-07_media.json",
+            "sha256": "67fbf8209cd0aceda40d62f21a55ac94e37d954468552a21f65d0f8d8d8a034f"
+          },
+          "unit": 7
+        }
+      ],
+      "units": [
+        7
+      ]
+    },
+    {
+      "creator": "AdiJapan",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Euler_spiral.svg",
+      "filename": "Euler spiral.svg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": {
+        "bytes": 31848,
+        "path": "authority/media/Euler spiral.svg",
+        "sha256": "886d55edfa0fa21ac992ede928cfec4f816742a16b29709ea093113b29e410b9"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 5857,
+            "path": "qa/unit-03_media.json",
+            "sha256": "ecfe0fd6e24ac0f4bd1fbf73c4475d6a6ffef075d5af7def6d0a21a173c5112b"
+          },
+          "unit": 3
+        }
+      ],
+      "units": [
+        3
+      ]
+    },
+    {
+      "creator": "Ag2gaeh",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Evolute-parab.svg",
+      "filename": "Evolute-parab.svg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": {
+        "bytes": 44890,
+        "path": "authority/media/Evolute-parab.svg",
+        "sha256": "851a909594c64be31477e391ea9b45e890305ea62e32e29a1d04bc66cf497db1"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 5857,
+            "path": "qa/unit-03_media.json",
+            "sha256": "ecfe0fd6e24ac0f4bd1fbf73c4475d6a6ffef075d5af7def6d0a21a173c5112b"
+          },
+          "unit": 3
+        }
+      ],
+      "units": [
+        3
+      ]
+    },
+    {
+      "animation": {
+        "bindings": {
+          "animated_media_qa": {
+            "bytes": 3156,
+            "path": "qa/unit-12/ANIMATED_MEDIA_QA.json",
+            "sha256": "654881dc783a3c6fc6f436f19d57bdbf9d35892022fd4d21bf1030f5fe256952"
+          },
+          "unit_media_config": {
+            "bytes": 6203,
+            "path": "source/unit_media.json",
+            "sha256": "dd901249426ef0fdc839c647eccf313c1df7c94297f3d56d0c6402ae5cb2128b"
+          },
+          "unit_media_receipt": {
+            "bytes": 4350,
+            "path": "qa/unit-12_media.json",
+            "sha256": "b4ddde72b4d43261bb90a2f0f6fe360ed5e3d83b5c46c91a3bfd2e7737dd9fda"
+          }
+        },
+        "canonical_filename": "Fiddler crab mobius strip.gif",
+        "canonical_source": {
+          "bytes": 1557242,
+          "path": "authority/media/Fiddler crab mobius strip.gif",
+          "sha256": "059c8643c42a0561e5ee5efe52cd5fc59de0879ddd3870fa200f4ae66a2fc69a"
+        },
+        "default_state": "static_frame",
+        "description": "Animasi seekor kepiting biola yang mengelilingi pita Möbius dan kembali dengan orientasi tercermin. Edisi PDF menampilkan bingkai pertama yang statis; animasi asli dipertahankan untuk edisi HTML dan unduhan.",
+        "prefers_reduced_motion": "animation remains stopped",
+        "static_filename": "Fiddler_crab_mobius_strip.png",
+        "static_frame_index": 0,
+        "static_source": {
+          "bytes": 145058,
+          "path": "build/generated/media/Fiddler_crab_mobius_strip.png",
+          "sha256": "15f45aee985375fe99b19f30dc62268d286db4caf103cf4fc066a8951cc43790"
+        }
+      },
+      "creator": "Hamishtodd1",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Fiddler_crab_mobius_strip.gif",
+      "filename": "Fiddler crab mobius strip.gif",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": {
+        "bytes": 1557242,
+        "path": "authority/media/Fiddler crab mobius strip.gif",
+        "sha256": "059c8643c42a0561e5ee5efe52cd5fc59de0879ddd3870fa200f4ae66a2fc69a"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 4350,
+            "path": "qa/unit-12_media.json",
+            "sha256": "b4ddde72b4d43261bb90a2f0f6fe360ed5e3d83b5c46c91a3bfd2e7737dd9fda"
+          },
+          "unit": 12
+        }
+      ],
+      "units": [
+        12
+      ]
+    },
+    {
+      "creator": "Pembuat tidak dicantumkan dalam metadata Commons",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Georg_Friedrich_Bernhard_Riemann.jpeg",
+      "filename": "Georg Friedrich Bernhard Riemann.jpeg",
+      "license": "Public domain",
+      "license_url": null,
+      "source": {
+        "bytes": 255626,
+        "path": "authority/media/Georg Friedrich Bernhard Riemann.jpeg",
+        "sha256": "945240277e351b4deacc64e0a8e0cbb5c8398a5d13ae322eafb55bfae91cabc6"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 3113,
+            "path": "qa/unit-16_media.json",
+            "sha256": "124cf9859dc39e146c0573b415fcfe13e8cc6771ac0116728b2a7e9d0aec6780"
+          },
+          "unit": 16
+        }
+      ],
+      "units": [
+        16
+      ]
+    },
+    {
+      "creator": "HaEr48",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Great_circle_passing_through_two_points.svg",
+      "filename": "Great circle passing through two points.svg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": {
+        "bytes": 7568,
+        "path": "authority/media/Great circle passing through two points.svg",
+        "sha256": "11cc0326e2bf51f226b1033af7a37f024216707a4c3b69854fadb9905c3409c7"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 8751,
+            "path": "qa/unit-01_media.json",
+            "sha256": "d18312ae5d346e90fce515e4badb9ba10c6a5ae0ae36d4cb8f850f7544ca700c"
+          },
+          "unit": 1
+        }
+      ],
+      "units": [
+        1
+      ]
+    },
+    {
+      "creator": "Lars H. Rohwedder ( User:RokerHRO )",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Hyperboloid1.png",
+      "filename": "Hyperboloid1.png",
+      "license": "Public domain",
+      "license_url": null,
+      "source": {
+        "bytes": 278393,
+        "path": "authority/media/Hyperboloid1.png",
+        "sha256": "4c813998156ef1961fa557d3a7c356d737c47291d36159baa955f170e500979b"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 3797,
+            "path": "qa/unit-02_media.json",
+            "sha256": "a55131f785f7c7129ab75f4d02518083147a70f345eb9141779116f8610186e6"
+          },
+          "unit": 2
+        }
+      ],
+      "units": [
+        2
+      ]
+    },
+    {
+      "creator": "Lars H. Rohwedder ( User:RokerHRO )",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Hyperboloid2.png",
+      "filename": "Hyperboloid2.png",
+      "license": "Public domain",
+      "license_url": null,
+      "source": {
+        "bytes": 194637,
+        "path": "authority/media/Hyperboloid2.png",
+        "sha256": "d6e7b45784e7208f652106f0df65839d635a3058b1fa834455e490e904c61ef0"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 3536,
+            "path": "qa/unit-18_media.json",
+            "sha256": "7946287c4d57a1cfebdc0fabd9f17f9f7c819e73759fc5137da9fc1a15060b7f"
+          },
+          "unit": 18
+        }
+      ],
+      "units": [
+        18
+      ]
+    },
+    {
+      "creator": "Unbekannt Unknown",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Inclusion-exclusion.svg",
+      "filename": "Inclusion-exclusion.svg",
+      "license": "Public domain",
+      "license_url": null,
+      "source": {
+        "bytes": 6804,
+        "path": "authority/media/Inclusion-exclusion.svg",
+        "sha256": "d37d8453528fa90456c473f705741e6c50bc04ad2cd76e9d0f4199a9aa702df3"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 4350,
+            "path": "qa/unit-12_media.json",
+            "sha256": "b4ddde72b4d43261bb90a2f0f6fe360ed5e3d83b5c46c91a3bfd2e7737dd9fda"
+          },
+          "unit": 12
+        }
+      ],
+      "units": [
+        12
+      ]
+    },
+    {
+      "creator": "Pajs in der Wikipedia auf Tschechisch",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Integral_apl_rot_obsah1.svg",
+      "filename": "Integral apl rot obsah1.svg",
+      "license": "Public domain",
+      "license_url": null,
+      "source": {
+        "bytes": 8098,
+        "path": "authority/media/Integral apl rot obsah1.svg",
+        "sha256": "3dc950fd001c3a2e3ef095dcceac915f4701e990ecf513cf314eaef8a8f86dd1"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 3797,
+            "path": "qa/unit-02_media.json",
+            "sha256": "a55131f785f7c7129ab75f4d02518083147a70f345eb9141779116f8610186e6"
+          },
+          "unit": 2
+        }
+      ],
+      "units": [
+        2
+      ]
+    },
+    {
+      "creator": "１３２人目 in der Wikipedia auf Japanisch",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Manifold_zahyou3.png",
+      "filename": "Manifold zahyou3.png",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": {
+        "bytes": 9977,
+        "path": "authority/media/Manifold zahyou3.png",
+        "sha256": "fd3afef0df5b0ec3dc9eceea337fda5d15371ea143aa3cfbb24e134e455342f8"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 5359,
+            "path": "qa/unit-07_media.json",
+            "sha256": "67fbf8209cd0aceda40d62f21a55ac94e37d954468552a21f65d0f8d8d8a034f"
+          },
+          "unit": 7
+        }
+      ],
+      "units": [
+        7
+      ]
+    },
+    {
+      "creator": "Eric Gaba ( Sting )",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Minimal_surface_curvature_planes-de.svg",
+      "filename": "Minimal surface curvature planes-de.svg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": {
+        "bytes": 50805,
+        "path": "authority/media/Minimal surface curvature planes-de.svg",
+        "sha256": "c3048459dcf36445b38c5b734eee1febd21215bb08aeba9675cd1e5745cde873"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 2720,
+            "path": "qa/unit-05_media.json",
+            "sha256": "cd74ce07d413a493a74db1ac4d1eeb0c960f4a3885f5b18dbf92c9036eb1dc1b"
+          },
+          "unit": 5
+        }
+      ],
+      "units": [
+        5
+      ]
+    },
+    {
+      "creator": "David Benbennick",
+      "description_url": "https://commons.wikimedia.org/wiki/File:M%C3%B6bius_strip.jpg",
+      "filename": "Möbius strip.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": {
+        "bytes": 82042,
+        "path": "authority/media/Möbius strip.jpg",
+        "sha256": "9c4323cfa3ce4f3ce043e4e2479dbf68658d165c46bd41394991361859ea9fad"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 1875,
+            "path": "qa/unit-13_media.json",
+            "sha256": "69413f3d4949283172cb9938cb6438dcd20963a15a29aeffe8878d56d3a0fed3"
+          },
+          "unit": 13
+        }
+      ],
+      "units": [
+        13
+      ]
+    },
+    {
+      "creator": "IkamusumeFan",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Parabola_circle.svg",
+      "filename": "Parabola circle.svg",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "source": {
+        "bytes": 19469,
+        "path": "authority/media/Parabola circle.svg",
+        "sha256": "186a981781924575a5e517d83d8ab5bfb829125d0a86edc664a41a589bcfca83"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 5857,
+            "path": "qa/unit-03_media.json",
+            "sha256": "ecfe0fd6e24ac0f4bd1fbf73c4475d6a6ffef075d5af7def6d0a21a173c5112b"
+          },
+          "unit": 3
+        }
+      ],
+      "units": [
+        3
+      ]
+    },
+    {
+      "creator": "Silly rabbit in der Wikipedia auf Englisch",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Parallel_transport_sphere2.svg",
+      "filename": "Parallel transport sphere2.svg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+      "source": {
+        "bytes": 11448,
+        "path": "authority/media/Parallel transport sphere2.svg",
+        "sha256": "4a6215c455dc248c97d1831e9af8b5d551a7cdb5da46976df2c1a77c959b88f8"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 2838,
+            "path": "qa/unit-06_media.json",
+            "sha256": "56746d0d77a785457378ed571c64c31d095605dac64d120a8691d891d10d147b"
+          },
+          "unit": 6
+        }
+      ],
+      "units": [
+        6
+      ]
+    },
+    {
+      "creator": "BlankMap-World8.svg : AMK1211 derivative work: Pethrus ( talk )",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Planned_flight_map_of_the_Oiseau_Blanc.svg",
+      "filename": "Planned flight map of the Oiseau Blanc.svg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": {
+        "bytes": 135949,
+        "path": "authority/media/Planned flight map of the Oiseau Blanc.svg",
+        "sha256": "45d3109037287e3111bc60543f43163e2264e8e4d52806b83cfd96279522b1b9"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 8751,
+            "path": "qa/unit-01_media.json",
+            "sha256": "d18312ae5d346e90fce515e4badb9ba10c6a5ae0ae36d4cb8f850f7544ca700c"
+          },
+          "unit": 1
+        }
+      ],
+      "units": [
+        1
+      ]
+    },
+    {
+      "animation": {
+        "bindings": {
+          "animated_media_qa": {
+            "bytes": 5919,
+            "path": "qa/unit-18/ANIMATED_MEDIA_QA.json",
+            "sha256": "5fac0c492aa07789739307270091c7ac0d88ec6b951bdbb69fd50ee66e874358"
+          },
+          "unit_media_config": {
+            "bytes": 6203,
+            "path": "source/unit_media.json",
+            "sha256": "dd901249426ef0fdc839c647eccf313c1df7c94297f3d56d0c6402ae5cb2128b"
+          },
+          "unit_media_receipt": {
+            "bytes": 3536,
+            "path": "qa/unit-18_media.json",
+            "sha256": "7946287c4d57a1cfebdc0fabd9f17f9f7c819e73759fc5137da9fc1a15060b7f"
+          }
+        },
+        "canonical_filename": "Poincarehalfplaneconform.gif",
+        "canonical_source": {
+          "bytes": 956681,
+          "path": "authority/media/Poincarehalfplaneconform.gif",
+          "sha256": "2a1da25b6afb54e7c4e9e48b36447f66a9ae2a71b0bd23118d83ad5b4a260a4d"
+        },
+        "default_state": "static_frame",
+        "description": "Animasi transformasi konformal setengah bidang Poincaré menjadi cakram satuan melalui inversi terhadap lingkaran yang berpusat di titik bergerak I. Edisi PDF menampilkan bingkai pertama yang statis; animasi asli dipertahankan untuk edisi HTML dan unduhan.",
+        "prefers_reduced_motion": "animation remains stopped",
+        "static_filename": "Poincarehalfplaneconform.png",
+        "static_frame_index": 0,
+        "static_source": {
+          "bytes": 3137,
+          "path": "build/generated/media/Poincarehalfplaneconform.png",
+          "sha256": "3fc44ea03f030f75ad3d7de2590d8ea6ef6061bdb1fe45f241129eff4af5d11c"
+        }
+      },
+      "creator": "HB",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Poincarehalfplaneconform.gif",
+      "filename": "Poincarehalfplaneconform.gif",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": {
+        "bytes": 956681,
+        "path": "authority/media/Poincarehalfplaneconform.gif",
+        "sha256": "2a1da25b6afb54e7c4e9e48b36447f66a9ae2a71b0bd23118d83ad5b4a260a4d"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 3536,
+            "path": "qa/unit-18_media.json",
+            "sha256": "7946287c4d57a1cfebdc0fabd9f17f9f7c819e73759fc5137da9fc1a15060b7f"
+          },
+          "unit": 18
+        }
+      ],
+      "units": [
+        18
+      ]
+    },
+    {
+      "creator": "Oleg Alexandrov",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Sphere_with_three_handles.png",
+      "filename": "Sphere with three handles.png",
+      "license": "Public domain",
+      "license_url": null,
+      "source": {
+        "bytes": 398740,
+        "path": "authority/media/Sphere with three handles.png",
+        "sha256": "49398059697841332186226bccf87e46032289c1a8a02063fc2600070c51a311"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 3113,
+            "path": "qa/unit-16_media.json",
+            "sha256": "124cf9859dc39e146c0573b415fcfe13e8cc6771ac0116728b2a7e9d0aec6780"
+          },
+          "unit": 16
+        }
+      ],
+      "units": [
+        16
+      ]
+    },
+    {
+      "creator": "Mark.Howison in der Wikipedia auf Englisch",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Stereographic_projection_in_3D.png",
+      "filename": "Stereographic projection in 3D.png",
+      "license": "Public domain",
+      "license_url": null,
+      "source": {
+        "bytes": 69330,
+        "path": "authority/media/Stereographic projection in 3D.png",
+        "sha256": "ab78ed4225923f771ae69d44930c244c53ef7c3a44d8e7264b16467dc4a78316"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 5359,
+            "path": "qa/unit-07_media.json",
+            "sha256": "67fbf8209cd0aceda40d62f21a55ac94e37d954468552a21f65d0f8d8d8a034f"
+          },
+          "unit": 7
+        }
+      ],
+      "units": [
+        7
+      ]
+    },
+    {
+      "creator": "Oleg Alexandrov",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Tangent_bundle.svg",
+      "filename": "Tangent bundle.svg",
+      "license": "Public domain",
+      "license_url": null,
+      "source": {
+        "bytes": 23116,
+        "path": "authority/media/Tangent bundle.svg",
+        "sha256": "96e46d20e64c40985d7ddc517824a36ef6546261762c3cd8e277c9a4eab55623"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 3931,
+            "path": "qa/unit-10_media.json",
+            "sha256": "019654ebfc1e402c2309fb8edf4818acbfdeafbfe3bf13939df9af739588aaac"
+          },
+          "unit": 10
+        }
+      ],
+      "units": [
+        10
+      ]
+    },
+    {
+      "creator": "derivative work: McSush ( talk ) Tangentialvektor.png : TN Der ursprünglich hochladende Benutzer war TN in der Wikipedia auf Deutsch",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Tangentialvektor.svg",
+      "filename": "Tangentialvektor.svg",
+      "license": "Public domain",
+      "license_url": null,
+      "source": {
+        "bytes": 4790,
+        "path": "authority/media/Tangentialvektor.svg",
+        "sha256": "ed39381859fa3f6e4240ad7112388600a59126e71bc5aac5943a87f11d9e5301"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 3254,
+            "path": "qa/unit-09_media.json",
+            "sha256": "112cd9541b82c6ac870bb0d1008bf135b74e78c5ea733b3b4eb3112a0f3fc59b"
+          },
+          "unit": 9
+        }
+      ],
+      "units": [
+        9
+      ]
+    },
+    {
+      "creator": "DaveBurke",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Toroidal_coord.png",
+      "filename": "Toroidal coord.png",
+      "license": "CC BY 2.5",
+      "license_url": "https://creativecommons.org/licenses/by/2.5",
+      "source": {
+        "bytes": 151522,
+        "path": "authority/media/Toroidal coord.png",
+        "sha256": "f09c9189157aedc9c9d516d24ffdf80c6e3d413101e2eb38e3c0cda996c5d618"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 1927,
+            "path": "qa/unit-11_media.json",
+            "sha256": "dacc6d37bb173ec64f67313e8c1dca89e3091d922d79ab73800d74e4dd54b7d9"
+          },
+          "unit": 11
+        }
+      ],
+      "units": [
+        11
+      ]
+    },
+    {
+      "creator": "RokerHRO",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Torus_vectors_oblique.jpg",
+      "filename": "Torus vectors oblique.jpg",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+      "source": {
+        "bytes": 251142,
+        "path": "authority/media/Torus vectors oblique.jpg",
+        "sha256": "cfcd0c5c16262a6beab6dd47dc27291b7ff3651228b2b9defc0717957ce5d3f6"
+      },
+      "unit_media_receipts": [
+        {
+          "binding": {
+            "bytes": 3931,
+            "path": "qa/unit-10_media.json",
+            "sha256": "019654ebfc1e402c2309fb8edf4818acbfdeafbfe3bf13939df9af739588aaac"
+          },
+          "unit": 10
+        }
+      ],
+      "units": [
+        10
+      ]
+    }
+  ],
+  "model_identification": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "non_endorsement": true,
+  "official_source": "https://de.wikiversity.org/wiki/Kurs:Differentialgeometrie_(Osnabr%C3%BCck_2023)",
+  "reproducibility": {
+    "byte_identical_before_commit": true,
+    "payload_inventory_sha256": "c21c85916022b95a2bb7ac5d50237b99fb7428ca97d8b0fc298b82e93c959794",
+    "required_comparison": "complete relative-path/byte-count/SHA-256 inventory, including manifest",
+    "staging_cycles": 2
+  },
+  "schema_version": 1,
+  "scope": "O011 cumulative Indonesian semantic HTML reader through Unit 19",
+  "source_linked_media": [
+    {
+      "bindings": {
+        "interactive_media_manifest": {
+          "bytes": 1823,
+          "path": "source/unit07_interactive_media.json",
+          "sha256": "79a6509a87fa0da8f96527f798ca02b40d10c223300c439ee08dbdea1d2d3352"
+        },
+        "interactive_media_qa": {
+          "bytes": 1428,
+          "path": "qa/unit-07/INTERACTIVE_MEDIA_QA.json",
+          "sha256": "a6077a07a4ec03f1a33500781bf3256fa81da9d8efb091318fc6dd59dfdca193"
+        }
+      },
+      "creator": "Präzise",
+      "description": "Konstruksi objek-objek pada Soal 7.13.",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Aufgabe75.22.1.gif",
+      "filename": "Aufgabe75.22.1.gif",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "role": "source-linked animation; local keyboard-accessible download",
+      "source": {
+        "bytes": 200686,
+        "path": "authority/media/Aufgabe75.22.1.gif",
+        "sha256": "dae99541dcac8721909366df89d67ee7ddc46ff49c24750c71f7d1e00245acca"
+      }
+    },
+    {
+      "bindings": {
+        "interactive_media_manifest": {
+          "bytes": 1823,
+          "path": "source/unit07_interactive_media.json",
+          "sha256": "79a6509a87fa0da8f96527f798ca02b40d10c223300c439ee08dbdea1d2d3352"
+        },
+        "interactive_media_qa": {
+          "bytes": 1428,
+          "path": "qa/unit-07/INTERACTIVE_MEDIA_QA.json",
+          "sha256": "a6077a07a4ec03f1a33500781bf3256fa81da9d8efb091318fc6dd59dfdca193"
+        }
+      },
+      "creator": "Präzise",
+      "description": "Variasi S dan perubahan panjang lintasan pada Soal 7.13.",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Aufgabe75.22.2.gif",
+      "filename": "Aufgabe75.22.2.gif",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "role": "source-linked animation; local keyboard-accessible download",
+      "source": {
+        "bytes": 1640205,
+        "path": "authority/media/Aufgabe75.22.2.gif",
+        "sha256": "091b7d19856eb36aaf704bd23e26e46d0119ed97fcd736fb68cababa7ab7e942"
+      }
+    },
+    {
+      "bindings": {
+        "interactive_media_manifest": {
+          "bytes": 2766,
+          "path": "source/unit11_interactive_media.json",
+          "sha256": "c91b497082b4975209911b33ab6d819db72eb2f140518937b4b8f09253153cfe"
+        },
+        "interactive_media_qa": {
+          "bytes": 1030,
+          "path": "qa/unit-11/INTERACTIVE_MEDIA_QA.json",
+          "sha256": "178a82bee62c0f887ed20dd8abd0d589403cb41466c6b05ab591bcead25bf16e"
+        }
+      },
+      "creator": "Präzise",
+      "description": "Animasi yang memperlihatkan serat-serat fungsi torus pada Soal 11.10 untuk berbagai nilai s.",
+      "description_url": "https://commons.wikimedia.org/wiki/File:Aufgabe79.27.gif",
+      "filename": "Aufgabe79.27.gif",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "role": "source-linked animation; local keyboard-accessible download",
+      "source": {
+        "bytes": 466679,
+        "path": "authority/media/Aufgabe79.27.gif",
+        "sha256": "337b29d868481d65b5ad460697ad18ef0d7bcce2695125453e3d88f34a2e9e5b"
+      }
+    }
+  ],
+  "source_linked_media_occurrences": [
+    {
+      "description": "Konstruksi objek-objek pada Soal 7.13.",
+      "filename": "Aufgabe75.22.1.gif",
+      "id": "o011-brenner-u07-w07-e013-solution-linked-animation-01",
+      "unit": 7
+    },
+    {
+      "description": "Variasi S dan perubahan panjang lintasan pada Soal 7.13.",
+      "filename": "Aufgabe75.22.2.gif",
+      "id": "o011-brenner-u07-w07-e013-solution-linked-animation-02",
+      "unit": 7
+    },
+    {
+      "description": "Animasi yang memperlihatkan serat-serat fungsi torus pada Soal 11.10 untuk berbagai nilai s.",
+      "filename": "Aufgabe79.27.gif",
+      "id": "o011-brenner-u11-w11-e010-solution-linked-animation-01",
+      "unit": 11
+    }
+  ],
+  "status": "partial_edition",
+  "text_license": "CC BY-SA 4.0",
+  "topology": {
+    "01": {
+      "lecture": {
+        "counts": {
+          "figure": 3,
+          "inputbeispiel": 4,
+          "inputbemerkung": 3,
+          "inputdefinition": 3,
+          "inputfaktbeweis": 1,
+          "zwischenueberschrift": 4
+        },
+        "figures": 3,
+        "semantic_blocks": 11,
+        "source_sections": 4
+      },
+      "source_supplied_solution_indices": [
+        1
+      ],
+      "worksheet": {
+        "counts": {
+          "figure": 1,
+          "inputaufgabe": 18,
+          "inputaufgabegibtloesung": 1,
+          "zwischenueberschrift": 2
+        },
+        "exercises": 19,
+        "figures": 1,
+        "source_sections": 2
+      }
+    },
+    "02": {
+      "lecture": {
+        "counts": {
+          "figure": 2,
+          "inputbeispiel": 1,
+          "inputdefinition": 3,
+          "inputfakt": 1,
+          "inputfaktbeweis": 6,
+          "zwischenueberschrift": 3
+        },
+        "figures": 2,
+        "semantic_blocks": 11,
+        "source_sections": 3
+      },
+      "source_supplied_solution_indices": [
+        1,
+        2,
+        7,
+        12,
+        13
+      ],
+      "worksheet": {
+        "counts": {
+          "inputaufgabe": 14,
+          "inputaufgabegibtloesung": 5,
+          "zwischenueberschrift": 2
+        },
+        "exercises": 19,
+        "figures": 0,
+        "source_sections": 2
+      }
+    },
+    "03": {
+      "lecture": {
+        "counts": {
+          "figure": 1,
+          "inputbeispiel": 2,
+          "inputdefinition": 4,
+          "inputfaktbeweis": 5,
+          "zwischenueberschrift": 2
+        },
+        "figures": 1,
+        "semantic_blocks": 11,
+        "source_sections": 2
+      },
+      "source_supplied_solution_indices": [
+        7,
+        16
+      ],
+      "worksheet": {
+        "counts": {
+          "figure": 2,
+          "inputaufgabe": 19,
+          "inputaufgabegibtloesung": 2,
+          "zwischenueberschrift": 2
+        },
+        "exercises": 21,
+        "figures": 2,
+        "source_sections": 2
+      }
+    },
+    "04": {
+      "lecture": {
+        "counts": {
+          "inputbeispiel": 2,
+          "inputdefinition": 1,
+          "inputfaktbeweis": 6,
+          "zwischenueberschrift": 1
+        },
+        "figures": 0,
+        "semantic_blocks": 9,
+        "source_sections": 1
+      },
+      "source_supplied_solution_indices": [
+        7,
+        10
+      ],
+      "worksheet": {
+        "counts": {
+          "inputaufgabe": 13,
+          "inputaufgabegibtloesung": 2,
+          "zwischenueberschrift": 2
+        },
+        "exercises": 15,
+        "figures": 0,
+        "source_sections": 2
+      }
+    },
+    "05": {
+      "lecture": {
+        "counts": {
+          "figure": 1,
+          "inputbeispiel": 5,
+          "inputdefinition": 6,
+          "inputfaktbeweis": 3,
+          "zwischenueberschrift": 3
+        },
+        "figures": 1,
+        "semantic_blocks": 14,
+        "source_sections": 3
+      },
+      "source_supplied_solution_indices": [
+        1
+      ],
+      "worksheet": {
+        "counts": {
+          "inputaufgabe": 14,
+          "inputaufgabegibtloesung": 1,
+          "zwischenueberschrift": 2
+        },
+        "exercises": 15,
+        "figures": 0,
+        "source_sections": 2
+      }
+    },
+    "06": {
+      "lecture": {
+        "counts": {
+          "figure": 1,
+          "inputbeispiel": 2,
+          "inputbemerkung": 1,
+          "inputdefinition": 4,
+          "inputfaktbeweis": 6,
+          "zwischenueberschrift": 3
+        },
+        "figures": 1,
+        "semantic_blocks": 13,
+        "source_sections": 3
+      },
+      "source_supplied_solution_indices": [
+        2,
+        6,
+        9
+      ],
+      "worksheet": {
+        "counts": {
+          "inputaufgabe": 15,
+          "inputaufgabegibtloesung": 3,
+          "zwischenueberschrift": 2
+        },
+        "exercises": 18,
+        "figures": 0,
+        "source_sections": 2
+      }
+    },
+    "07": {
+      "lecture": {
+        "counts": {
+          "figure": 3,
+          "inputbeispiel": 4,
+          "inputdefinition": 6,
+          "zwischenueberschrift": 2
+        },
+        "figures": 3,
+        "semantic_blocks": 10,
+        "source_sections": 2
+      },
+      "source_supplied_solution_indices": [
+        4,
+        7,
+        13
+      ],
+      "worksheet": {
+        "counts": {
+          "inputaufgabe": 16,
+          "inputaufgabegibtloesung": 3,
+          "zwischenueberschrift": 2
+        },
+        "exercises": 19,
+        "figures": 0,
+        "source_sections": 2
+      }
+    },
+    "08": {
+      "lecture": {
+        "counts": {
+          "inputbemerkung": 1,
+          "inputdefinition": 3,
+          "inputfaktbeweis": 4,
+          "zwischenueberschrift": 3
+        },
+        "figures": 0,
+        "semantic_blocks": 8,
+        "source_sections": 3
+      },
+      "source_supplied_solution_indices": [
+        11,
+        13
+      ],
+      "worksheet": {
+        "counts": {
+          "inputaufgabe": 19,
+          "inputaufgabegibtloesung": 2,
+          "zwischenueberschrift": 2
+        },
+        "exercises": 21,
+        "figures": 0,
+        "source_sections": 2
+      }
+    },
+    "09": {
+      "lecture": {
+        "counts": {
+          "figure": 1,
+          "inputdefinition": 7,
+          "inputfaktbeweis": 5,
+          "zwischenueberschrift": 1
+        },
+        "figures": 1,
+        "semantic_blocks": 12,
+        "source_sections": 1
+      },
+      "source_supplied_solution_indices": [],
+      "worksheet": {
+        "counts": {
+          "inputaufgabe": 17,
+          "zwischenueberschrift": 2
+        },
+        "exercises": 17,
+        "figures": 0,
+        "source_sections": 2
+      }
+    },
+    "10": {
+      "lecture": {
+        "counts": {
+          "figure": 2,
+          "inputbeispiel": 1,
+          "inputdefinition": 6,
+          "inputfaktbeweis": 3,
+          "zwischenueberschrift": 2
+        },
+        "figures": 2,
+        "semantic_blocks": 10,
+        "source_sections": 2
+      },
+      "source_supplied_solution_indices": [
+        9,
+        10,
+        15,
+        25
+      ],
+      "worksheet": {
+        "counts": {
+          "inputaufgabe": 27,
+          "inputaufgabegibtloesung": 4,
+          "zwischenueberschrift": 2
+        },
+        "exercises": 31,
+        "figures": 0,
+        "source_sections": 2
+      }
+    },
+    "11": {
+      "lecture": {
+        "counts": {
+          "figure": 1,
+          "inputbeispiel": 1,
+          "inputdefinition": 3,
+          "inputfaktbeweis": 4,
+          "zwischenueberschrift": 2
+        },
+        "figures": 1,
+        "semantic_blocks": 8,
+        "source_sections": 2
+      },
+      "source_supplied_solution_indices": [
+        10,
+        14
+      ],
+      "worksheet": {
+        "counts": {
+          "inputaufgabe": 37,
+          "inputaufgabegibtloesung": 2,
+          "zwischenueberschrift": 2
+        },
+        "exercises": 39,
+        "figures": 0,
+        "source_sections": 2
+      }
+    },
+    "12": {
+      "lecture": {
+        "counts": {
+          "figure": 1,
+          "inputbeispiel": 3,
+          "inputbemerkung": 3,
+          "inputdefinition": 5,
+          "inputfaktbeweis": 2,
+          "zwischenueberschrift": 2
+        },
+        "figures": 1,
+        "semantic_blocks": 13,
+        "source_sections": 2
+      },
+      "source_supplied_solution_indices": [
+        11,
+        12
+      ],
+      "worksheet": {
+        "counts": {
+          "figure": 1,
+          "inputaufgabe": 27,
+          "inputaufgabegibtloesung": 2,
+          "zwischenueberschrift": 1
+        },
+        "exercises": 29,
+        "figures": 1,
+        "source_sections": 1
+      }
+    },
+    "13": {
+      "lecture": {
+        "counts": {
+          "figure": 1,
+          "inputbemerkung": 1,
+          "inputdefinition": 11,
+          "inputfaktbeweis": 2,
+          "zwischenueberschrift": 5
+        },
+        "figures": 1,
+        "semantic_blocks": 14,
+        "source_sections": 5
+      },
+      "source_supplied_solution_indices": [
+        1,
+        10,
+        11,
+        16,
+        18,
+        19,
+        21,
+        22
+      ],
+      "worksheet": {
+        "counts": {
+          "inputaufgabe": 16,
+          "inputaufgabegibtloesung": 8,
+          "zwischenueberschrift": 2
+        },
+        "exercises": 24,
+        "figures": 0,
+        "source_sections": 2
+      }
+    },
+    "14": {
+      "lecture": {
+        "counts": {
+          "inputbemerkung": 1,
+          "inputdefinition": 2,
+          "inputfaktbeweis": 7,
+          "zwischenueberschrift": 2
+        },
+        "figures": 0,
+        "semantic_blocks": 10,
+        "source_sections": 2
+      },
+      "source_supplied_solution_indices": [
+        5,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14
+      ],
+      "worksheet": {
+        "counts": {
+          "inputaufgabe": 11,
+          "inputaufgabegibtloesung": 7,
+          "zwischenueberschrift": 2
+        },
+        "exercises": 18,
+        "figures": 0,
+        "source_sections": 2
+      }
+    },
+    "15": {
+      "lecture": {
+        "counts": {
+          "inputbeispiel": 3,
+          "inputbemerkung": 3,
+          "inputdefinition": 3,
+          "inputfaktbeweis": 5,
+          "zwischenueberschrift": 4
+        },
+        "figures": 0,
+        "semantic_blocks": 14,
+        "source_sections": 4
+      },
+      "source_supplied_solution_indices": [
+        1,
+        11,
+        12,
+        13
+      ],
+      "worksheet": {
+        "counts": {
+          "inputaufgabe": 12,
+          "inputaufgabegibtloesung": 4,
+          "zwischenueberschrift": 2
+        },
+        "exercises": 16,
+        "figures": 0,
+        "source_sections": 2
+      }
+    },
+    "16": {
+      "lecture": {
+        "counts": {
+          "figure": 2,
+          "inputbeispiel": 3,
+          "inputbemerkung": 1,
+          "inputdefinition": 2,
+          "inputfaktbeweis": 4,
+          "zwischenueberschrift": 3
+        },
+        "figures": 2,
+        "semantic_blocks": 10,
+        "source_sections": 3
+      },
+      "source_supplied_solution_indices": [
+        1,
+        12
+      ],
+      "worksheet": {
+        "counts": {
+          "inputaufgabe": 19,
+          "inputaufgabegibtloesung": 2,
+          "zwischenueberschrift": 2
+        },
+        "exercises": 21,
+        "figures": 0,
+        "source_sections": 2
+      }
+    },
+    "17": {
+      "lecture": {
+        "counts": {
+          "figure": 1,
+          "inputbeispiel": 3,
+          "inputbemerkung": 2,
+          "inputfaktbeweis": 3,
+          "zwischenueberschrift": 3
+        },
+        "figures": 1,
+        "semantic_blocks": 8,
+        "source_sections": 3
+      },
+      "source_supplied_solution_indices": [
+        2,
+        4
+      ],
+      "worksheet": {
+        "counts": {
+          "inputaufgabe": 17,
+          "inputaufgabegibtloesung": 2,
+          "zwischenueberschrift": 2
+        },
+        "exercises": 19,
+        "figures": 0,
+        "source_sections": 2
+      }
+    },
+    "18": {
+      "lecture": {
+        "counts": {
+          "figure": 2,
+          "inputbeispiel": 5,
+          "inputdefinition": 2,
+          "inputfaktbeweis": 5,
+          "zwischenueberschrift": 3
+        },
+        "figures": 2,
+        "semantic_blocks": 12,
+        "source_sections": 3
+      },
+      "source_supplied_solution_indices": [
+        8,
+        11,
+        13,
+        14
+      ],
+      "worksheet": {
+        "counts": {
+          "inputaufgabe": 17,
+          "inputaufgabegibtloesung": 4,
+          "zwischenueberschrift": 2
+        },
+        "exercises": 21,
+        "figures": 0,
+        "source_sections": 2
+      }
+    },
+    "19": {
+      "lecture": {
+        "counts": {
+          "inputbemerkung": 1,
+          "inputdefinition": 2,
+          "inputfaktbeweis": 5,
+          "zwischenueberschrift": 2
+        },
+        "figures": 0,
+        "semantic_blocks": 8,
+        "source_sections": 2
+      },
+      "source_supplied_solution_indices": [],
+      "worksheet": {
+        "counts": {
+          "inputaufgabe": 12,
+          "zwischenueberschrift": 2
+        },
+        "exercises": 12,
+        "figures": 0,
+        "source_sections": 2
+      }
+    }
+  },
+  "unit13_baseline": {
+    "exporter": {
+      "bytes": 40497,
+      "path": "scripts/export_html_v13.py",
+      "sha256": "d8052e5905ca1c40c1db8ae267341ebf488eb2004dd5c4e95bb1f3a04c0fd2a7"
+    },
+    "github_commit": "56f2b2b4d11592ecb311f7e317b92ae591f752ab",
+    "github_public_readback": {
+      "bytes": 4519,
+      "path": "qa/unit-13/GITHUB_PUBLIC_READBACK_RECEIPT_R1.json",
+      "sha256": "0c1f7061114402df477ddcb7817b5746d8f22c82ef13f38a48eea373d28d0ad8"
+    },
+    "output_directory": "output/html/unit-13",
+    "output_file_count": 29,
+    "output_inventory": [
+      {
+        "bytes": 377311,
+        "path": "assets/media/2019-07-Helix.jpg",
+        "sha256": "34d8c05038bdcbd34992bba1b1ab8d852a8c1d51975469d14f7640a829430f9e"
+      },
+      {
+        "bytes": 1215777,
+        "path": "assets/media/3d-function-6.svg",
+        "sha256": "16abe6c062235dc6cbdc9358aa4694da94e8f4a993d76f7137e26e4c95a7131b"
+      },
+      {
+        "bytes": 200686,
+        "path": "assets/media/Aufgabe75.22.1.gif",
+        "sha256": "dae99541dcac8721909366df89d67ee7ddc46ff49c24750c71f7d1e00245acca"
+      },
+      {
+        "bytes": 1640205,
+        "path": "assets/media/Aufgabe75.22.2.gif",
+        "sha256": "091b7d19856eb36aaf704bd23e26e46d0119ed97fcd736fb68cababa7ab7e942"
+      },
+      {
+        "bytes": 466679,
+        "path": "assets/media/Aufgabe79.27.gif",
+        "sha256": "337b29d868481d65b5ad460697ad18ef0d7bcce2695125453e3d88f34a2e9e5b"
+      },
+      {
+        "bytes": 207,
+        "path": "assets/media/Circle - black simple.svg",
+        "sha256": "6a28c8b677e37aaa88984cd72336ca752156ebf95fddf9bae4b2dd17903e8bde"
+      },
+      {
+        "bytes": 31848,
+        "path": "assets/media/Euler spiral.svg",
+        "sha256": "886d55edfa0fa21ac992ede928cfec4f816742a16b29709ea093113b29e410b9"
+      },
+      {
+        "bytes": 44890,
+        "path": "assets/media/Evolute-parab.svg",
+        "sha256": "851a909594c64be31477e391ea9b45e890305ea62e32e29a1d04bc66cf497db1"
+      },
+      {
+        "bytes": 1557242,
+        "path": "assets/media/Fiddler crab mobius strip.gif",
+        "sha256": "059c8643c42a0561e5ee5efe52cd5fc59de0879ddd3870fa200f4ae66a2fc69a"
+      },
+      {
+        "bytes": 145058,
+        "path": "assets/media/Fiddler_crab_mobius_strip.png",
+        "sha256": "15f45aee985375fe99b19f30dc62268d286db4caf103cf4fc066a8951cc43790"
+      },
+      {
+        "bytes": 7568,
+        "path": "assets/media/Great circle passing through two points.svg",
+        "sha256": "11cc0326e2bf51f226b1033af7a37f024216707a4c3b69854fadb9905c3409c7"
+      },
+      {
+        "bytes": 278393,
+        "path": "assets/media/Hyperboloid1.png",
+        "sha256": "4c813998156ef1961fa557d3a7c356d737c47291d36159baa955f170e500979b"
+      },
+      {
+        "bytes": 6804,
+        "path": "assets/media/Inclusion-exclusion.svg",
+        "sha256": "d37d8453528fa90456c473f705741e6c50bc04ad2cd76e9d0f4199a9aa702df3"
+      },
+      {
+        "bytes": 8098,
+        "path": "assets/media/Integral apl rot obsah1.svg",
+        "sha256": "3dc950fd001c3a2e3ef095dcceac915f4701e990ecf513cf314eaef8a8f86dd1"
+      },
+      {
+        "bytes": 9977,
+        "path": "assets/media/Manifold zahyou3.png",
+        "sha256": "fd3afef0df5b0ec3dc9eceea337fda5d15371ea143aa3cfbb24e134e455342f8"
+      },
+      {
+        "bytes": 50805,
+        "path": "assets/media/Minimal surface curvature planes-de.svg",
+        "sha256": "c3048459dcf36445b38c5b734eee1febd21215bb08aeba9675cd1e5745cde873"
+      },
+      {
+        "bytes": 82042,
+        "path": "assets/media/Möbius strip.jpg",
+        "sha256": "9c4323cfa3ce4f3ce043e4e2479dbf68658d165c46bd41394991361859ea9fad"
+      },
+      {
+        "bytes": 19469,
+        "path": "assets/media/Parabola circle.svg",
+        "sha256": "186a981781924575a5e517d83d8ab5bfb829125d0a86edc664a41a589bcfca83"
+      },
+      {
+        "bytes": 11448,
+        "path": "assets/media/Parallel transport sphere2.svg",
+        "sha256": "4a6215c455dc248c97d1831e9af8b5d551a7cdb5da46976df2c1a77c959b88f8"
+      },
+      {
+        "bytes": 135949,
+        "path": "assets/media/Planned flight map of the Oiseau Blanc.svg",
+        "sha256": "45d3109037287e3111bc60543f43163e2264e8e4d52806b83cfd96279522b1b9"
+      },
+      {
+        "bytes": 69330,
+        "path": "assets/media/Stereographic projection in 3D.png",
+        "sha256": "ab78ed4225923f771ae69d44930c244c53ef7c3a44d8e7264b16467dc4a78316"
+      },
+      {
+        "bytes": 23116,
+        "path": "assets/media/Tangent bundle.svg",
+        "sha256": "96e46d20e64c40985d7ddc517824a36ef6546261762c3cd8e277c9a4eab55623"
+      },
+      {
+        "bytes": 4790,
+        "path": "assets/media/Tangentialvektor.svg",
+        "sha256": "ed39381859fa3f6e4240ad7112388600a59126e71bc5aac5943a87f11d9e5301"
+      },
+      {
+        "bytes": 151522,
+        "path": "assets/media/Toroidal coord.png",
+        "sha256": "f09c9189157aedc9c9d516d24ffdf80c6e3d413101e2eb38e3c0cda996c5d618"
+      },
+      {
+        "bytes": 251142,
+        "path": "assets/media/Torus vectors oblique.jpg",
+        "sha256": "cfcd0c5c16262a6beab6dd47dc27291b7ff3651228b2b9defc0717957ce5d3f6"
+      },
+      {
+        "bytes": 6669,
+        "path": "assets/reader.css",
+        "sha256": "c99e728bbacfed51485bdd2bc84ef18ab32b560357861e503ad464f1f35bf75c"
+      },
+      {
+        "bytes": 942593,
+        "path": "index.html",
+        "sha256": "994c6caf59d87638b3b78583cc9765c2dd8feba42a1ba2ab2c2a9e02d068ebc8"
+      },
+      {
+        "bytes": 78936,
+        "path": "manifest.json",
+        "sha256": "8e4cd88db27d77eb4f764aa71816ef15bf758387ccb050e99f383eb741db87da"
+      },
+      {
+        "bytes": 1120,
+        "path": "README.txt",
+        "sha256": "6932559284332de6f0858a35afaebd5534b1017d8abd64cefb902b8663b7db81"
+      }
+    ],
+    "output_inventory_sha256": "583a7f904c6742c8afb00e4322f22720f36a366eb39c1308a6717d15c0d6ee0f",
+    "published_html_zip": {
+      "bytes": 5331749,
+      "path": "output/release-unit13-r1/geometri-diferensial-manifold-mulus-brenner-id-unit13-html-20260825.zip",
+      "sha256": "22dacc34c9381c44aebeccf0c48e7cf107c991d7ff3c8c74ec4d950e77e77cf7"
+    },
+    "reader_qa": {
+      "bytes": 22249,
+      "path": "qa/unit-13/HTML_READER_QA.json",
+      "sha256": "8790767d395fc994779d4e349c38d3d99e8828c782ebf69ab32fa020d4d869d2"
+    },
+    "status": "exact_published_baseline_preserved",
+    "verifier": {
+      "bytes": 31925,
+      "path": "scripts/verify_html_v13.py",
+      "sha256": "80ea80fb4c3fe5e2af0862342dcdbd824d1b11da10356c1bc3ce72fd0a1f444a"
+    },
+    "zenodo_public_readback": {
+      "bytes": 4054,
+      "path": "qa/unit-13/ZENODO_PUBLIC_READBACK_RECEIPT_R1.json",
+      "sha256": "81944e806274dffeae4513b64185db9b45f062296b45dd5658ca75d677ac8082"
+    },
+    "zenodo_record_id": 22097422
+  },
+  "unit14_19_live_qa": {
+    "14": {
+      "post_correction_math_qa": {
+        "bytes": 8521,
+        "path": "qa/unit-14/POST_CORRECTION_MATH_QA.json",
+        "sha256": "a7626b33d38c2e0c9856c0815ccda7a7774f2b96557eaf0b2ab949beb4b09bcc"
+      },
+      "translation_surfaces": [
+        {
+          "authority_source": {
+            "bytes": 26809,
+            "path": "authority/expanded/lecture14_source.de.tex",
+            "sha256": "6c14208bd02871b44e60849c627c1e66928cdcabdb0306ad6fbe5407c311abbc"
+          },
+          "target": {
+            "bytes": 27295,
+            "path": "source/units/unit-14/lecture14.id.tex",
+            "sha256": "3803b4b3ca94c228e959443a4cc23a803578a1ca82bf5cc6731b83e5a4bd044c"
+          },
+          "translation_receipt": {
+            "bytes": 3196,
+            "path": "qa/unit-14/lecture14_translation.json",
+            "sha256": "549a835d4f376b6d03bbc59ae0aff82e6e8fd0b7394ed6ec02f54dcc7b3fbfb9"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 10635,
+            "path": "authority/expanded/worksheet14_source.de.tex",
+            "sha256": "f6553d7398e700e915dc054527c5f079730bc79d2ebda63f094efb3c9c1d6942"
+          },
+          "target": {
+            "bytes": 10760,
+            "path": "source/units/unit-14/worksheet14.id.tex",
+            "sha256": "98880cc5c0996175a6f3f60ac6c5098bb4076569f1050cc8136f13662e6cec79"
+          },
+          "translation_receipt": {
+            "bytes": 2630,
+            "path": "qa/unit-14/worksheet14_translation.json",
+            "sha256": "eed9f066fc9d185cba8f6814287b67428c46816ebbb86078b8a264bbd10c7390"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 681,
+            "path": "authority/expanded/worksheet14_exercise05_solution_source.de.tex",
+            "sha256": "27d0b03dd6037e6648f47b38f42a278d688303f3e21461bea0a88cfea7940cdd"
+          },
+          "target": {
+            "bytes": 730,
+            "path": "source/units/unit-14/worksheet14_exercise05_solution.id.tex",
+            "sha256": "f881d71e394363e6e5fee0f99e48f7df9d987d2293de6441d07a53ec48f10538"
+          },
+          "translation_receipt": {
+            "bytes": 1092,
+            "path": "qa/unit-14/worksheet14_exercise05_solution_translation.json",
+            "sha256": "ea15c47bc38daff8f984e888f894be9b9efbd1005c22cace246096236668ef44"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 625,
+            "path": "authority/expanded/worksheet14_exercise06_solution_source.de.tex",
+            "sha256": "8b433bf3cb611acd60c234f0eca819a2905e672d15f94eaee6b2c99c06d5b6ef"
+          },
+          "target": {
+            "bytes": 641,
+            "path": "source/units/unit-14/worksheet14_exercise06_solution.id.tex",
+            "sha256": "c3149e898c60aa6d8cdc7a2793357d2a5a1aeefb3fe3715c80a85458af8356d2"
+          },
+          "translation_receipt": {
+            "bytes": 1265,
+            "path": "qa/unit-14/worksheet14_exercise06_solution_translation.json",
+            "sha256": "3657a46f8888a8101b129fbb4063319a0b9254e5468b00efae2d460f6b44f2c2"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 1972,
+            "path": "authority/expanded/worksheet14_exercise09_solution_source.de.tex",
+            "sha256": "76ebe443c86e71cb75a540ea334fbec4a2ccb99667fbe49646ac390557cab379"
+          },
+          "target": {
+            "bytes": 2040,
+            "path": "source/units/unit-14/worksheet14_exercise09_solution.id.tex",
+            "sha256": "f148e6789525def973c4ea7e09774a79ba8bee627f963b16413a12cf97386928"
+          },
+          "translation_receipt": {
+            "bytes": 1451,
+            "path": "qa/unit-14/worksheet14_exercise09_solution_translation.json",
+            "sha256": "54df8b8daa720d7b6952b79af7675229a2b25d4e41306c6fd4ffe13cba741bff"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 2181,
+            "path": "authority/expanded/worksheet14_exercise11_solution_source.de.tex",
+            "sha256": "bb772fc399aca8aa4e1d2455e53949fce13cdc745e385d8151b7122e8cd63808"
+          },
+          "target": {
+            "bytes": 2194,
+            "path": "source/units/unit-14/worksheet14_exercise11_solution.id.tex",
+            "sha256": "1d479e074fd7b518ede0aa33455812bcefb22a3a58b40a6bd716dd45f234b202"
+          },
+          "translation_receipt": {
+            "bytes": 1071,
+            "path": "qa/unit-14/worksheet14_exercise11_solution_translation.json",
+            "sha256": "3466295710a890a5878dbd338145dcfdf90097f6427cc681aaf86ad0c8391ed4"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 1200,
+            "path": "authority/expanded/worksheet14_exercise12_solution_source.de.tex",
+            "sha256": "d530c4af821d71e86b552e499e227c048c30790e51a115c4cfab9ab1251f3c40"
+          },
+          "target": {
+            "bytes": 1213,
+            "path": "source/units/unit-14/worksheet14_exercise12_solution.id.tex",
+            "sha256": "280064a53a5241f7225f068bcd0db7f38c9b9ad3d2de47d1b7cbc549447bed88"
+          },
+          "translation_receipt": {
+            "bytes": 1094,
+            "path": "qa/unit-14/worksheet14_exercise12_solution_translation.json",
+            "sha256": "9536be89d57e1425ae477a07bbfb18d9579831aa3d5c366cdee9a166db35d531"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 814,
+            "path": "authority/expanded/worksheet14_exercise13_solution_source.de.tex",
+            "sha256": "8ad3caf43606443ed014cf2f8c96a12af59523149501aa4f3c09dfc791efa5f6"
+          },
+          "target": {
+            "bytes": 812,
+            "path": "source/units/unit-14/worksheet14_exercise13_solution.id.tex",
+            "sha256": "5302b9d778ff9dce9d4d0c6a1f0b20fa63536cea8a119dda10c10a852d20f260"
+          },
+          "translation_receipt": {
+            "bytes": 1068,
+            "path": "qa/unit-14/worksheet14_exercise13_solution_translation.json",
+            "sha256": "2c19ce89a6ea21a58cdd604c373f2cdc17010875a16021c709214e65387297d9"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 750,
+            "path": "authority/expanded/worksheet14_exercise14_solution_source.de.tex",
+            "sha256": "9fa9a478711572ab04203a2686077d2d70eb787b65ee77910565a645898d417e"
+          },
+          "target": {
+            "bytes": 763,
+            "path": "source/units/unit-14/worksheet14_exercise14_solution.id.tex",
+            "sha256": "910a36226b378dc2dc8ada823f052f6edd3caf66300b0c9adbb4a546474381af"
+          },
+          "translation_receipt": {
+            "bytes": 1068,
+            "path": "qa/unit-14/worksheet14_exercise14_solution_translation.json",
+            "sha256": "4c358955a9530591fad4472ff0d4500b89773f5c293d2b8ae727a0b271fe29fe"
+          }
+        }
+      ]
+    },
+    "15": {
+      "post_correction_math_qa": {
+        "bytes": 8300,
+        "path": "qa/unit-15/POST_CORRECTION_MATH_QA.json",
+        "sha256": "de1dc534976c4440cf4eaf04be2ab3297b6b48294ab9e6a3be4b72ddba411c82"
+      },
+      "translation_surfaces": [
+        {
+          "authority_source": {
+            "bytes": 33156,
+            "path": "authority/expanded/lecture15_source.de.tex",
+            "sha256": "5645c84aed54603af32dda35ae73008c964b0a850b5a9bedffa27f2c62b38bc8"
+          },
+          "target": {
+            "bytes": 34170,
+            "path": "source/units/unit-15/lecture15.id.tex",
+            "sha256": "c7ef815dfa5e1fbdd877c866d7841bb322e5086a30d36ec02925014a7854a954"
+          },
+          "translation_receipt": {
+            "bytes": 1146,
+            "path": "qa/unit-15/lecture15_translation.json",
+            "sha256": "8764b8f70d86c59265528c75a4a95dce200acf3cf56fccf8e89ee4feb4816e93"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 8200,
+            "path": "authority/expanded/worksheet15_source.de.tex",
+            "sha256": "e425eede128eefd7d8eae134076caed6f0782e40e148b73eeaf843e1c740a621"
+          },
+          "target": {
+            "bytes": 8381,
+            "path": "source/units/unit-15/worksheet15.id.tex",
+            "sha256": "3c6e0d42eb20663d6c6eb6a33d2641b1afabc38b6e246a0ac9273bbeb5f6858c"
+          },
+          "translation_receipt": {
+            "bytes": 1058,
+            "path": "qa/unit-15/worksheet15_translation.json",
+            "sha256": "56230564e1f5ec8d9eafe24eac97239282e903dbc79d5f0dbef6b2fa913011d6"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 1865,
+            "path": "authority/expanded/worksheet15_exercise01_solution_source.de.tex",
+            "sha256": "704e01fdf3ae8ca82e9424478279b045621e90e8362c419b84ceaa8a9ca2caf5"
+          },
+          "target": {
+            "bytes": 1958,
+            "path": "source/units/unit-15/worksheet15_exercise01_solution.id.tex",
+            "sha256": "bff5036f08a6dfc8dded4043ab42ce201e313a9f2757f15275919888f663a42a"
+          },
+          "translation_receipt": {
+            "bytes": 1117,
+            "path": "qa/unit-15/worksheet15_exercise01_solution_translation.json",
+            "sha256": "dcef9d4567537cf7e5e53b6648f856f81bb7692c8c86a2e44d489b7fa0b708a4"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 1095,
+            "path": "authority/expanded/worksheet15_exercise11_solution_source.de.tex",
+            "sha256": "b0ddb245a1c69c87e845b784bb433b43b10b488616bd316ac0274f083b045424"
+          },
+          "target": {
+            "bytes": 1109,
+            "path": "source/units/unit-15/worksheet15_exercise11_solution.id.tex",
+            "sha256": "6902a8cd4421acd9d83ed501af4fbe7bc8e91fe1c6ab2ed6668827c8ed4ab749"
+          },
+          "translation_receipt": {
+            "bytes": 1070,
+            "path": "qa/unit-15/worksheet15_exercise11_solution_translation.json",
+            "sha256": "4ce4fcb4225deb64d34d9e4f0ee1a38ef690826e7299268139f199f287cab1e5"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 1264,
+            "path": "authority/expanded/worksheet15_exercise12_solution_source.de.tex",
+            "sha256": "8db8323acb8e5b40c7c7c0d40d381f526e0c96e4ee14e2380ff048e80cc8886a"
+          },
+          "target": {
+            "bytes": 1290,
+            "path": "source/units/unit-15/worksheet15_exercise12_solution.id.tex",
+            "sha256": "fa070c1c433e17d201ae84e1ccfb7ea21c24f4255f28857016e323f0eb4fba49"
+          },
+          "translation_receipt": {
+            "bytes": 1462,
+            "path": "qa/unit-15/worksheet15_exercise12_solution_translation.json",
+            "sha256": "32de573ed0c77590c08378871144c789fd1495cfa798fb907aabdb12d538d13f"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 1615,
+            "path": "authority/expanded/worksheet15_exercise13_solution_source.de.tex",
+            "sha256": "a5a9670f194f7c23f147b6f8a3403239d2b62e5858b7a7199574a57291315c03"
+          },
+          "target": {
+            "bytes": 1623,
+            "path": "source/units/unit-15/worksheet15_exercise13_solution.id.tex",
+            "sha256": "b29338f5cabe345e317c6848e8321ffea0e91d76910afa5ab86feccf5a5349d8"
+          },
+          "translation_receipt": {
+            "bytes": 1070,
+            "path": "qa/unit-15/worksheet15_exercise13_solution_translation.json",
+            "sha256": "bb29e759b04bf382cf013bb224fd5244212a3f4f0f60ca2e1afb5488f01ac5f4"
+          }
+        }
+      ]
+    },
+    "16": {
+      "post_correction_math_qa": {
+        "bytes": 10856,
+        "path": "qa/unit-16/POST_CORRECTION_MATH_QA.json",
+        "sha256": "f4db3637e3805e5d358c81b60abc677dba6d7fbe892d1ac95028ab63076310d4"
+      },
+      "translation_surfaces": [
+        {
+          "authority_source": {
+            "bytes": 25010,
+            "path": "authority/expanded/lecture16_source.de.tex",
+            "sha256": "10070f2b0621b03b05a9613be90635ef3c42c72cd45377bb88be78112d6b2839"
+          },
+          "target": {
+            "bytes": 24993,
+            "path": "source/units/unit-16/lecture16.id.tex",
+            "sha256": "b463b63c8aa8fa669d8072b924daec5de6a14872aeb1c9ece82ea1ea5a7434c7"
+          },
+          "translation_receipt": {
+            "bytes": 1253,
+            "path": "qa/unit-16/lecture16_translation.json",
+            "sha256": "328b3eab932dd7e216f78258f7804456ceac95fb3d715a8ab9087e85a44dfd7b"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 11282,
+            "path": "authority/expanded/worksheet16_source.de.tex",
+            "sha256": "6a04cbb12e27bd18a5fc1dfb92eae667e54fcdaab41c1ecb1b4d56126618f01d"
+          },
+          "target": {
+            "bytes": 11081,
+            "path": "source/units/unit-16/worksheet16.id.tex",
+            "sha256": "1a7535fe6e1ee9bb40e0a508143aa57c5dfc19ef92415635e54ed9f5975290b2"
+          },
+          "translation_receipt": {
+            "bytes": 1035,
+            "path": "qa/unit-16/worksheet16_translation.json",
+            "sha256": "f67d1349f27073b38c31b1814bb1f0891c37ab60c4eefbfee984360871b74a73"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 409,
+            "path": "authority/expanded/worksheet16_exercise01_solution_source.de.tex",
+            "sha256": "9885e4f1e8ffa7c7066136bc4a55f4c093669368cf797c8cbed0c19074b9a491"
+          },
+          "target": {
+            "bytes": 410,
+            "path": "source/units/unit-16/worksheet16_exercise01_solution.id.tex",
+            "sha256": "df5f155101df65eb27bc1aeea5933526488471eea6b444cf7e8f5f04aa9c8779"
+          },
+          "translation_receipt": {
+            "bytes": 1068,
+            "path": "qa/unit-16/worksheet16_exercise01_solution_translation.json",
+            "sha256": "a7af7a675ac429696ac0ab0347556deb9f078f90170a46f98bd7777e177a9965"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 2127,
+            "path": "authority/expanded/worksheet16_exercise12_solution_source.de.tex",
+            "sha256": "0743074c0b944d24a5778e2aebe7aa08a48f295353e953042f63d9ce4e7445f5"
+          },
+          "target": {
+            "bytes": 2096,
+            "path": "source/units/unit-16/worksheet16_exercise12_solution.id.tex",
+            "sha256": "84f08c2ac9fef0276b844e4c1ff06963f99a8115db4ff9422b5f833da4848cbf"
+          },
+          "translation_receipt": {
+            "bytes": 1269,
+            "path": "qa/unit-16/worksheet16_exercise12_solution_translation.json",
+            "sha256": "c99c157746096703854e4da82a8884b122c2c7bc267aaff329852513257ade41"
+          }
+        }
+      ]
+    },
+    "17": {
+      "post_correction_math_qa": {
+        "bytes": 10672,
+        "path": "qa/unit-17/POST_CORRECTION_MATH_QA.json",
+        "sha256": "cd6ed9262222d439eb699b15b05a1d16e9d17ab07862a323f81f1782b7d0ced9"
+      },
+      "translation_surfaces": [
+        {
+          "authority_source": {
+            "bytes": 24138,
+            "path": "authority/expanded/lecture17_source.de.tex",
+            "sha256": "0ac2f20594df388ad6e6ddb3a38515af63ec74b6298eb7acc1d5c20851f2d1e0"
+          },
+          "target": {
+            "bytes": 24372,
+            "path": "source/units/unit-17/lecture17.id.tex",
+            "sha256": "a01fde947d1efc4ab28b426933bc7c7a2f2e922fa8c2833ef224c747e3d39da9"
+          },
+          "translation_receipt": {
+            "bytes": 1484,
+            "path": "qa/unit-17/lecture17_translation.json",
+            "sha256": "c9ada772e6239212c93b311e47a25affb5fc3b0b983b70a21b8d09bc5e104626"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 6577,
+            "path": "authority/expanded/worksheet17_source.de.tex",
+            "sha256": "fec773f1573930cba133de084287bd5cd91ea2302e99c2d5c0d96e65fe5cbd96"
+          },
+          "target": {
+            "bytes": 6649,
+            "path": "source/units/unit-17/worksheet17.id.tex",
+            "sha256": "0b1366792404b62fb2705f56995077f4d53bb9779e10c06f8a2c0b96a5241fdc"
+          },
+          "translation_receipt": {
+            "bytes": 1056,
+            "path": "qa/unit-17/worksheet17_translation.json",
+            "sha256": "9adcd243024b1afd1ebdfdbf80b22392d39c00332de7c3398c39f6a6015d2217"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 1598,
+            "path": "authority/expanded/worksheet17_exercise02_solution_source.de.tex",
+            "sha256": "d17c6d24732d641f6812059b56ad3c503a9044020b436c9b29f057bebb7784cc"
+          },
+          "target": {
+            "bytes": 1568,
+            "path": "source/units/unit-17/worksheet17_exercise02_solution.id.tex",
+            "sha256": "5fdd8ec67263580cd64065b4bd574581b8c55788b2351f278098781cb091b5ef"
+          },
+          "translation_receipt": {
+            "bytes": 1070,
+            "path": "qa/unit-17/worksheet17_exercise02_solution_translation.json",
+            "sha256": "6dd2eccc46556123ce7917c62007fe4287f7518b9320432b186578e1ab48836b"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 741,
+            "path": "authority/expanded/worksheet17_exercise04_solution_source.de.tex",
+            "sha256": "a5309abc57923b02fcee4e2cbb2c7ae9c4f36acb0822da501452915855438b77"
+          },
+          "target": {
+            "bytes": 770,
+            "path": "source/units/unit-17/worksheet17_exercise04_solution.id.tex",
+            "sha256": "8de955a9a8910399b656e291a11ec70096d59444ba292b6a00fc8a7bfbfc6c3e"
+          },
+          "translation_receipt": {
+            "bytes": 1093,
+            "path": "qa/unit-17/worksheet17_exercise04_solution_translation.json",
+            "sha256": "33a88bb2c759560f9c7c053e29d74b08bd20d9757e553d0a9ce33a9811bd6dde"
+          }
+        }
+      ]
+    },
+    "18": {
+      "post_correction_math_qa": {
+        "bytes": 13851,
+        "path": "qa/unit-18/POST_CORRECTION_MATH_QA.json",
+        "sha256": "fd5640eea8b9f109423e0ca51bcfbd7f5f77950ee3b1f4434331de414068f48e"
+      },
+      "translation_surfaces": [
+        {
+          "authority_source": {
+            "bytes": 23948,
+            "path": "authority/expanded/lecture18_source.de.tex",
+            "sha256": "7fc98f4cdd977e4a5acb4dea5d61807251ac850fe102b8f0ecc1251f755d3c3e"
+          },
+          "target": {
+            "bytes": 24214,
+            "path": "source/units/unit-18/lecture18.id.tex",
+            "sha256": "7d7bc9d97d9719790d1cd37f78fae74f9cb318a4f29b8a7c295e24deb6aed298"
+          },
+          "translation_receipt": {
+            "bytes": 2804,
+            "path": "qa/unit-18/lecture18_translation.json",
+            "sha256": "ca81e6115449e5c4ae908b9344fae5329250e3fef3a6d601d76cb41c45935b35"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 9557,
+            "path": "authority/expanded/worksheet18_source.de.tex",
+            "sha256": "ee2744cd813459a644fb382e931ae1f9a0f3b9dd8889532dfd9d49acd30de738"
+          },
+          "target": {
+            "bytes": 9504,
+            "path": "source/units/unit-18/worksheet18.id.tex",
+            "sha256": "6710aad75c6a8132d0d255548cf19ea6d184999386a81f786061b0f02546d759"
+          },
+          "translation_receipt": {
+            "bytes": 1080,
+            "path": "qa/unit-18/worksheet18_translation.json",
+            "sha256": "a0a1a8a1e5a96cb2c894bba93281c0d23d24927a2f1e20b3825cf21929f11d7b"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 1369,
+            "path": "authority/expanded/worksheet18_exercise08_solution_source.de.tex",
+            "sha256": "aa7c364802a08ecf65a15cf05b5c04a9cd91fb2f695f123cb531a867624aca9b"
+          },
+          "target": {
+            "bytes": 1396,
+            "path": "source/units/unit-18/worksheet18_exercise08_solution.id.tex",
+            "sha256": "b33f25142ea1d417660de331a39252483fe081d456f3f32db19e4772a2cedf0f"
+          },
+          "translation_receipt": {
+            "bytes": 1070,
+            "path": "qa/unit-18/worksheet18_exercise08_solution_translation.json",
+            "sha256": "5811f6ef8df731db20e12ba4b88660af48a176a4848d49c8ff781be35f577867"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 3444,
+            "path": "authority/expanded/worksheet18_exercise11_solution_source.de.tex",
+            "sha256": "3a0fdd6356c37ddf28071138df7ba9cc9cac60af378cfeedc60d4b1c18198085"
+          },
+          "target": {
+            "bytes": 3549,
+            "path": "source/units/unit-18/worksheet18_exercise11_solution.id.tex",
+            "sha256": "e602b8a63785e6bd356394d7e09d75a77203a3863efe5e6845f035e638dc409d"
+          },
+          "translation_receipt": {
+            "bytes": 1072,
+            "path": "qa/unit-18/worksheet18_exercise11_solution_translation.json",
+            "sha256": "9c2ed78f614bd3f6cc5545e624de98bd0ea1d6537bad7b3d01701697cdd035a9"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 1248,
+            "path": "authority/expanded/worksheet18_exercise13_solution_source.de.tex",
+            "sha256": "7a0e047e2c6d90bb590a2f78e2198860f78917cfaa9019d0e68ba21aae1b4f10"
+          },
+          "target": {
+            "bytes": 1236,
+            "path": "source/units/unit-18/worksheet18_exercise13_solution.id.tex",
+            "sha256": "2c618c487cbb8cccf300b3333c645f79519f39640dac00c664c25963e2935ec3"
+          },
+          "translation_receipt": {
+            "bytes": 1070,
+            "path": "qa/unit-18/worksheet18_exercise13_solution_translation.json",
+            "sha256": "0e427a321be1d60092ea2d6b3c7167e3d8ed02b5415b4051653390e397dd95f1"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 1379,
+            "path": "authority/expanded/worksheet18_exercise14_solution_source.de.tex",
+            "sha256": "91d82fb120103490b619000640f5fbb7a30d8d2f23cf5c5ffe28b98337763528"
+          },
+          "target": {
+            "bytes": 1371,
+            "path": "source/units/unit-18/worksheet18_exercise14_solution.id.tex",
+            "sha256": "f1ee3d9a587a96a1315a31b45ee5483b494951018bd2082674bd0fed9468b307"
+          },
+          "translation_receipt": {
+            "bytes": 1071,
+            "path": "qa/unit-18/worksheet18_exercise14_solution_translation.json",
+            "sha256": "fc80af709456aa48a7232d221b8a7db2365d6866f989597938ab01bccb4001dc"
+          }
+        }
+      ]
+    },
+    "19": {
+      "post_correction_math_qa": {
+        "bytes": 7398,
+        "path": "qa/unit-19/POST_CORRECTION_MATH_QA.json",
+        "sha256": "4c13af7f96c6ab9f90992532ddfb59e943b8c269f53c5cf5505aa70e86ab1aae"
+      },
+      "translation_surfaces": [
+        {
+          "authority_source": {
+            "bytes": 29051,
+            "path": "authority/expanded/lecture19_source.de.tex",
+            "sha256": "bd47777c4d0fc68698db177e8937ab15824931ee86707148eb4ecb4bc9c548f2"
+          },
+          "target": {
+            "bytes": 29476,
+            "path": "source/units/unit-19/lecture19.id.tex",
+            "sha256": "ca3e199d2e80c45a8d87f43c2dae79538108ba04749ace112b88fc4d28000147"
+          },
+          "translation_receipt": {
+            "bytes": 1368,
+            "path": "qa/unit-19/lecture19_translation.json",
+            "sha256": "cbf43142a85457bcd0cdcac58bb99906896aa57ad8ea6805f1e81f4d6afbabd1"
+          }
+        },
+        {
+          "authority_source": {
+            "bytes": 7006,
+            "path": "authority/expanded/worksheet19_source.de.tex",
+            "sha256": "85fed2deb4f46ff8279383f9047a43fc8aee39b3cd7ddc35293b0686dc40ddad"
+          },
+          "target": {
+            "bytes": 7220,
+            "path": "source/units/unit-19/worksheet19.id.tex",
+            "sha256": "338753c6889573ae0056d4975f14e6271722751f349a15ed0df9b3d044689df8"
+          },
+          "translation_receipt": {
+            "bytes": 1056,
+            "path": "qa/unit-19/worksheet19_translation.json",
+            "sha256": "81476a8664c15dccecb7a80960eea0d31673fa3feca461ba1b7cf8d9c9865d2e"
+          }
+        }
+      ]
+    }
+  },
+  "units": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "workflow": "o011-export-html-v19"
+}

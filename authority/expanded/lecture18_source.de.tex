@@ -1,0 +1,1014 @@
+\setcounter{section}{18}
+
+  \zwischenueberschrift{Die Transformationsformel für Volumenformen}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Differenzierbare Mannigfaltigkeit/Positive Volumenform/Diffeomorphismus/Rückzug/Maß/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+mit
+\definitionsverweis {abzählbarer Basis der Topologie}{}{}
+und sei  $\omega$ eine
+\definitionsverweis {positive Volumenform}{}{}
+auf $M$. Es sei
+\maabbdisp {\varphi} { L } { M
+} {}
+ein
+\definitionsverweis {Diffeomorphismus}{}{}
+mit der Mannigfaltigkeit $L$ und
+
+\mavergleichskette
+{\vergleichskette
+{ S
+}
+{ \subseteq }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {messbare Teilmenge}{}{.}}
+\faktfolgerung {Dann ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_S \varphi^* \omega
+}
+{ =} { \int_{ \varphi(S)} \omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Nach
+[[Mannigfaltigkeit/Abzählbar/Positive Volumenform/Zugehöriges Maß/Vorbereitende Eigenschaften/Fakt|Lemma 15.2]]
+können wir davon ausgehen, dass
+\mathkor {} {S} {und} {\varphi(S)} {}
+jeweils ganz in einer Karte von
+\mathkor {} {L} {bzw. von} {M} {}
+liegen, sagen wir
+
+\mavergleichskette
+{\vergleichskette
+{ S
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit der Karte
+\maabbdisp {\alpha} { U } { U' \subseteq \R^n
+} {}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi(S)
+}
+{ \subseteq }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit der Karte
+\maabbdisp {\beta} { V } { V' \subseteq \R^n
+} {.}
+Wir können weiter durch verkleinern der Karten davon ausgehen, dass
+\mathkor {} {U} {und} {V} {}
+über $\varphi$ diffeomorph zueinander sind. Es liegt dann ein kommutatives Diagramm von Diffeomorphismen
+
+\mathdisp {\begin{matrix}  U  & \stackrel{ \varphi }{\longrightarrow} &  V  &  \\ \!\!\!\!\! \alpha \downarrow & & \downarrow \beta \!\!\!\!\!  & \\  U'  & \stackrel{ \beta \circ \varphi \circ \alpha^{-1} }{\longrightarrow} &  V' & \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }
+
+vor, das ein kommutatives Diagramm
+
+\mathdisp {\begin{matrix}  S  & \stackrel{ \varphi }{\longrightarrow} &  \varphi (S)  &  \\ \!\!\!\!\! \alpha \downarrow & & \downarrow \beta \!\!\!\!\!  & \\  \alpha (S) & \stackrel{ \beta \circ \varphi \circ \alpha^{-1} }{\longrightarrow} &  \beta ( \varphi (S) ) & \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }
+
+von messbaren Mengen induziert. Für die Volumenform $\omega$ auf $V$ gilt dabei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \alpha^{ {-1}*} ( \varphi^* \omega)
+}
+{ =} { \left(  \beta \circ \varphi \circ \alpha^{-1}  \right)^*  ( \beta^{ {-1}*} \omega)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+nach
+[[Mannigfaltigkeit/Differenzierbare Abbildung/Zurückziehen von Differentialformen/Elementare Eigenschaften/Fakt|Lemma 14.7  (4)]].
+Die Volumenform $\beta^{ {-1}*} \omega$ besitzt auf $V'$ die Beschreibung
+\mathl{g dy_1  \wedge \ldots \wedge dy_n}{} mit einer messbaren Funktion
+\maabb {g} {V'} {\R
+} {}
+und $\int_{\varphi(S)} \omega$ ist nach Definition gleich $\int_{\beta( \varphi(S))} g d \lambda^n$. Ebenso besitzt
+\mathl{\alpha^{ {-1}*} ( \varphi^* \omega)}{} auf $U'$ eine Beschreibung der Form
+\mathl{f dx_1 \wedge \ldots \wedge dx_n}{.} Diese Volumenform auf $U'$ stimmt mit dem Rückzug von
+\mathl{g dy_1  \wedge \ldots \wedge dy_n}{} überein und dieser ist nach
+[[Offene Mengen/Differenzierbare Abbildung/Zurückziehen von Volumenform auf gleichdimensionalem Raum/In Koordinaten/Fakt|Korollar 14.9]]
+gleich
+
+\mathdisp {(g \circ \psi) \cdot \det  \left(  \left(  { \frac{   \partial   \psi_i   }{  \partial   x_j   } }  \right)_{1 \leq  i, j \leq n}  \right) dx_1 \wedge \ldots \wedge dx_n} {  }
+
+\zusatzklammer {mit
+
+\mavergleichskettek
+{\vergleichskettek
+{ \psi
+}
+{ = }{ \beta \circ \varphi \circ \alpha^{-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {.}
+Somit folgt die Aussage aus
+[[Diffeomorphismus/Transformationsformel für Integrale/Fakt|Satz 14.3 (Maß- und Integrationstheorie (Osnabrück 2022-2023))]].
+
+}
+
+  \zwischenueberschrift{Isometrien zwischen riemannschen Mannigfaltigkeiten}
+
+\inputdefinition
+{}
+{
+
+Es seien
+\mathkor {} {L} {und} {M} {}
+\definitionsverweis {riemannsche Mannigfaltigkeiten}{}{.}
+Eine
+\definitionsverweis {differenzierbare Abbildung}{}{}
+\maabb {\varphi} { L } { M
+} {}
+heißt
+\definitionswort {lokale Isometrie}{,}
+wenn für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Tangentialabbildung}{}{}
+\maabbdisp {T_P \varphi} {T_PL} { T_{\varphi(P) } M
+} {}
+eine
+\definitionsverweis {Isometrie}{}{}
+bezüglich der gegebenen Skalarprodukte ist.
+
+}
+
+Schon die Abbildung
+\maabbeledisp {} {\R} { \R^2
+} { t } { \begin{pmatrix}  \cos  t  \\ \sin  t    \end{pmatrix}
+} {,}
+zeigt, dass eine lokale Isometrie nicht injektiv sein muss.
+
+\inputdefinition
+{}
+{
+
+Es seien
+\mathkor {} {L} {und} {M} {}
+\definitionsverweis {riemannsche Mannigfaltigkeiten}{}{.}
+Eine
+\definitionsverweis {differenzierbare Abbildung}{}{}
+\maabb {\varphi} { L } { M
+} {}
+heißt
+\definitionswort {Isometrie}{,}
+wenn sie ein
+\definitionsverweis {Diffeomorphismus}{}{}
+ist und wenn sie lokal eine Isometrie ist.
+
+}
+
+Isometrische riemannsche Mannigfaltigkeiten werden im Sinne der riemannschen Geometrie als gleich betrachtet, insbesondere bleiben Längen, Winkel, Volumina unter Isometrien erhalten, siehe
+[[Riemannsche Mannigfaltigkeit/Isometrie/Grundlegende Eigenschaften/Fakt|Lemma 18.6]].
+Es ist aber keineswegs einfach zu erkennen, welche Eigenschaften einer im $\R^n$ eingebetteten riemannschen Mannigfaltigkeit nur von der riemannschen Struktur und nicht von der Einbettung abhängen. Eigenschaften, die nur von der riemannschen Struktur abhängen, nennt man auch intrinsisch
+\zusatzklammer {und solche, die von der Einbettung abhängen, extrinsisch} {} {.}
+Für eine intrinsische Eigenschaft ist die Vorstellung passend, ob die Eigenschaft von einem Lebewesen, das sich nur auf der Mannigfaltigkeit bewegen darf und diese nicht verlassen kann, erkannt und beschrieben werden kann.
+
+\inputbeispiel{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine abgeschlossene riemannsche Untermannigfaltigkeit. Dann induzierte jede
+\definitionsverweis {lineare Isometrie}{}{}
+des $\R^n$ eine
+\definitionsverweis {Isometrie}{}{}
+von $M$ nach $\varphi(M)$.
+
+}
+
+\inputbeispiel{}
+{
+
+Es sei
+\maabb {\gamma} {]a,b[} { \R^2
+} {}
+eine
+\definitionsverweis {differenzierbare}{}{}
+\definitionsverweis {bogenparametrisierte}{}{}
+injektive Kurve mit der Bildkurve
+
+\mavergleichskettedisp
+{\vergleichskette
+{ C
+}
+{ \subseteq} { V
+}
+{ \subseteq} { \R^2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+die in der offenen Teilmenge $V$ abgeschlossen sei. Dann ist die Abbildung
+\maabbdisp {\varphi = \gamma \times
+\operatorname{Id}_{ \R }} { ]a,b[ \times \R} { C \times \R
+} {}
+eine
+\definitionsverweis {Isometrie}{}{,}
+wobei
+\mathl{]a,b[ \times \R}{} die natürliche euklidische Struktur und $C \times \R$ die riemannsche Untermannigfaltigkeitsstruktur
+
+\mavergleichskette
+{\vergleichskette
+{ C \times \R
+}
+{ \subseteq }{ V \times \R
+}
+{ \subseteq }{ \R^3
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+trägt. Die Abbildung bedeutet im Wesentlichen, dass ein Blatt Papier längs einer Basiskurve ausgebreitet wird. Die vertikalen Fasern ändern sich dabei nicht und die horizontalen Faser sind eine Kopie der Basiskurve. Das einfachste nichttriviale Beispiel ist die Verbiegung des Blattes zu einem geschlitzten Zylindermantel. Es ist anschaulich klar, dass sich dabei die Kurvenlängen auf den Flächen und Flächeninhalte nicht ändern. Dass eine Isometrie vorliegt, kann man wie folgt zeigen. Sei dazu
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ (s,t)
+}
+{ \in }{ ]a,b[ \times \R
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  D\varphi  \right)_{ P } \left(  e_1   \right)
+}
+{ =} { \begin{pmatrix}  \gamma_1'(s) \\ \gamma_2'(s)\\  0   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  D\varphi  \right)_{ P } \left(  e_2   \right)
+}
+{ =} { \begin{pmatrix}  0  \\ 0\\  1   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+die beiden Bildvektoren der Standardvektoren haben also die Länge $1$ und stehen senkrecht aufeinander. Somit ist
+\maabbdisp {} {T_P(  ]a,b[ \times \R)} { T_{\varphi(P)} (C \times \R)
+} {}
+eine Isometrie.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Isometrie/Grundlegende Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es seien $L,M$
+\definitionsverweis {orientierte}{}{}
+\definitionsverweis {riemannsche Mannigfaltigkeiten}{}{}
+und sei
+\maabb {\varphi} { L } { M
+} {}
+eine
+\definitionsverweis {orientierungstreue}{}{}
+\definitionsverweis {Isometrie}{}{.}}
+\faktuebergang {Dann gelten folgende Aussagen.}
+\faktfolgerung {\aufzaehlungvier{Die
+\definitionsverweis {kanonische Volumenform}{}{}
+von $M$ wird auf die kanonische Volumenform von $L$
+\definitionsverweis {zurückgezogen}{}{.}
+}{Für jede differenzierbare Kurve
+\maabbdisp {\gamma} {[a,b]} { L
+} {}
+ist die
+\definitionsverweis {Kurvenlänge}{}{}
+von $\gamma$ gleich der Kurvenlänge von $\varphi \circ \gamma$.
+}{ $\varphi$ ist
+\definitionsverweis {maßtreu}{}{.}
+}{ $\varphi$ ist
+\definitionsverweis {winkeltreu}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\aufzaehlungvier{Es sei $\omega$ die kanonische Volumenform auf $M$ und
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ u_1 , \ldots , u_n
+}
+{ \in }{ T_PL
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {Orthonormalbasis}{}{}
+von $T_PL$, die die Orientierung von $L$ repräsentiert. Dann ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \varphi^* \omega  \right) (P, u_1 , \ldots , u_n)
+}
+{ =} { \omega( \varphi(P), T_P(u_1) , \ldots , T_P(u_n))
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Wegen der Isometrie ist
+\mathl{T_P(u_1) , \ldots , T_P(u_n)}{} eine Orthonormalbasis von $T_{\varphi(P)} M$ und wegen der Orientierungserhaltung der Abbildung repräsentiert sie die Orientierung auf $M$, daher ist der Wert gleich $1$. Diese Eigenschaft charakterisiert die kanonische Volumenform auf $L$.
+}{Die Kurvenlänge von $\gamma$ ist das Integral zu
+\mathl{\Vert { \gamma'(t) } \Vert}{,} wobei die Norm in
+\mathl{T_{\gamma(t)}L}{} zu nehmen ist. Entsprechend ist die Kurvenlänge von $\varphi \circ \gamma$ das Integral über
+\mathl{\Vert { \left(  \varphi \circ \gamma  \right)'(t) } \Vert}{,} was wegen der Isometrie das gleiche ist.
+}{Zu einer Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ S
+}
+{ \subseteq }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist das Maß zur kanonischen Volumenform von $L$ über $S$ nach Teil (1) und
+[[Differenzierbare Mannigfaltigkeit/Positive Volumenform/Diffeomorphismus/Rückzug/Maß/Fakt|Lemma 18.1]]
+gleich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_S \omega_L
+}
+{ =} { \int_S \varphi^*(\omega_M)
+}
+{ =} { \int_{\varphi(S)} \omega_M
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Dies folgt direkt aus der Isometrie.
+}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Karte/Isometrie/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{}
+und sei
+\maabbdisp {\alpha} { U } { V \subseteq \R^n
+} {}
+eine
+\definitionsverweis {Karte}{}{}
+auf $M$.}
+\faktfolgerung {Dann ist $\alpha$ eine
+\definitionsverweis {Isometrie}{}{}
+zwischen
+\mathkor {} {U} {und} {V} {,}
+wenn $V$ mit den durch die
+\definitionsverweis {metrischen Fundamentalfunktionen}{}{}
+$g_{ij}$ festgelegten
+\definitionsverweis {Skalarprodukt}{}{}
+versehen wird.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Dies folgt unmittelbar aus der Definition der  $g_{ij}$ durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g_{ij}(Q)
+}
+{ =} { \left\langle  T(\alpha^{-1})(e_i)  ,  T(\alpha^{-1}) (e_j)    \right\rangle_{ \alpha^{-1}(Q) }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+  \zwischenueberschrift{Die hyperbolische Fläche}
+
+Wir besprechen drei Modelle für die sogenannte hyperbolische Fläche
+\zusatzklammer {oder hyperbolische Ebene} {} {}
+und geben
+\definitionsverweis {Isometrien}{}{}
+zwischen ihnen an. In
+[[Halbebene/Poincaré/Riemannsche Geometrie/Schnittkrümmung/Beispiel|Beispiel 29.10]]
+werden wir sehen, dass es sich um eine Fläche mit konstanter
+\definitionsverweis {Schnittkrümmung}{}{}
+$-1$ handelt. Das folgende Modell heißt Poincarésche Halbebene.
+
+\inputbeispiel{}
+{
+
+Es sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ {\mathbb H}
+}
+{ =} { \R \times \R_+
+}
+{ =} { \left\{ (x,y)  \mid   y > 0        \right\}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+die obere Halbebene versehen mit der
+\definitionsverweis {riemannschen Metrik}{}{,}
+die durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g_{11}
+}
+{ =} { g_{22}
+}
+{ =} { { \frac{   1  }{  y^2 } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ g_{12}
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegeben ist. Es handelt sich also um das mit der Funktion ${ \frac{   1  }{  y^2 } }$ umskalierte Standardskalarprodukt. Die Norm eines Tangentialvektors in einem Punkt
+\mathl{(x,y)}{} ist die um den Faktor ${ \frac{   1  }{  \betrag {  y  } } }$ umskalierte Standardnorm. Die Flächenform ist also durch die Dichte ${ \frac{   1  }{  y^2 } }$ gegeben.
+
+}
+
+Das folgende Modell heißt \stichwort {hyperbolische Kreisscheibe} {.}
+
+\inputbeispiel{}
+{
+
+Auf der offenen Kreisscheibe
+
+\mavergleichskettedisp
+{\vergleichskette
+{ V
+}
+{ =} { \left\{ (x,y)  \mid   x^2+y^2 < 1        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+definieren wir eine
+\definitionsverweis {riemannsche Struktur}{}{}
+durch die Bilinearform
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g(Q) (u,v)
+}
+{ =} { { \frac{   4  }{  \left(  1-  \Vert { Q } \Vert^2   \right)^2  } }   \left\langle  u  , v  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+das Standardskalarprodukt wird also mit der Funktion
+\mathl{{ \frac{   4  }{  \left(  1 - \Vert { Q } \Vert^2   \right)^2  } }}{} umskaliert, die erste Fundamentalmatrix ist
+
+\mathdisp {{ \frac{   4  }{  \left(  1- \Vert { Q } \Vert^2   \right)^2  } } \begin{pmatrix}  1   &   0   \\  0 &  1 \end{pmatrix}} { . }
+
+}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesunggif {Poincarehalfplaneconform} {gif} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Poincarehalfplaneconform.gif } {} {HB} {Commons} {CC-by-sa 3.0} {}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperbolische Fläche/Kreisscheibe/Halbebene/Isometrie/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Die Abbildung
+\maabbeledisp {\psi} { V } { H
+} { w } { { \frac{   \left(  w +1  \right)  { \mathrm i}  }{  1 - w } }
+} {,}}
+\faktfolgerung {definiert eine
+\definitionsverweis {Isometrie}{}{}
+zwischen der
+\definitionsverweis {hyperbolischen Kreisscheibe}{}{}
+und der
+\definitionsverweis {Poincaréschen Halbebene}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Die Abbildung ist nach
+[[Obere Halbebene/Einheitskreis/Rational isomorph/Fakt/Beweis/Aufgabe|Aufgabe 18.10]]
+bijektiv und komplex-differenzierbar mit einer komplex-differenzierbaren Umkehrabbildung, es liegt also erst recht ein Diffeomorphismus zwischen differenzierbaren Mannigfaltigkeiten vor. Die Abbildung ist nach
+[[Einheitskreis/Obere Halbebene/Rational isomorph/Reelle Koordinaten/Aufgabe|Aufgabe 18.12]]
+in reellen Koordinaten durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \psi \begin{pmatrix}  a  \\b   \end{pmatrix}
+}
+{ =} { { \frac{   1  }{  -2a+1+a^2+b^2 } }  \begin{pmatrix}  -2b \\ 1-a^2-b^2   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gegeben. Die partiellen Ableitungen sind nach
+[[Einheitskreis/Obere Halbebene/Rational isomorph/Reelle partielle Ableitungen/Aufgabe|Aufgabe 18.13]]
+gleich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial   \psi  }{  \partial  a  } }
+}
+{ =} { { \frac{   1  }{  \left(  -2a+1+a^2+b^2  \right)^2  } } \begin{pmatrix}  4ab -4b  \\ 2a^2 -4a+2 -2 b^2     \end{pmatrix}
+}
+{ } {
+}
+{ } {}
+{ } {}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial   \psi  }{  \partial  b  } }
+}
+{ =} { { \frac{   1  }{  \left(  -2a+1+a^2+b^2  \right)^2  } } \begin{pmatrix}  4a  -2-2a^2+2b^2   \\ 4ab -4b     \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {}
+}
+{}{}{.}
+Wir müssen zeigen, dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle e_i  , e_j   \right\rangle_{V, (a,b)}
+}
+{ =} { \left\langle  \left(  D \psi  \right)_{(a,b)} \left(  e_i   \right)   ,  \left(  D \psi  \right)_{(a,b)} \left(  e_j   \right)   \right\rangle_{H, \psi (a,b)}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist. Da die beiden partiellen Ableitungen senkrecht aufeinander stehen und da beide riemannschen Metriken die Orthogonalität des Standardskalarproduktes ererben, muss dies nur für
+
+\mavergleichskette
+{\vergleichskette
+{ i
+}
+{ = }{ j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gezeigt werden. Wir müssen also zeigen, dass das totale Differential längentreu ist. Es ist
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \Vert { { \frac{   \partial   \psi  }{  \partial   a   } } ( \begin{pmatrix}  a  \\b   \end{pmatrix} ) } \Vert_{H, \psi(a,b) }
+}
+{ =} { \Vert { { \frac{   1  }{  \left(  -2a+1+a^2+b^2  \right)^2  } } \begin{pmatrix}  4ab -4b  \\ 2a^2 -4a+2 -2 b^2    \end{pmatrix} } \Vert_{H, \psi(a,b) }
+}
+{ =} { { \frac{   \left(  -2a+1+a^2+b^2  \right)  }{  \left(  1-a^2-b^2  \right)  } } \Vert { { \frac{   2  }{  \left(  -2a+1+a^2+b^2  \right)^2  } } \begin{pmatrix}  2(a-1)b  \\ \left(  a-1  \right)^2 - b^2    \end{pmatrix} } \Vert
+}
+{ =} { { \frac{   2  }{  \left(  1-a^2-b^2  \right) \left(  \left(  a-1  \right)^2 +b^2  \right)  } } \sqrt{ 4(a-1)^2b^2 + \left(  a-1  \right)^4 + b^4 -2\left(  a-1  \right)^2  b^2 }
+}
+{ =} { { \frac{   2  }{  \left(  1-a^2-b^2  \right) \left(  \left(  a-1  \right)^2 +b^2  \right)  } } \left(  \left(  a-1  \right)^2 + b^2   \right)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { { \frac{   2  }{  \left(  1- \left(  a^2+b^2  \right)  \right)  } }
+}
+{ =} { \Vert {e_1 } \Vert_{V, (a,b)}
+}
+{ } {}
+{ } {}
+}{}{.}
+Entsprechend ergibt sich die Aussage für die zweite partielle Ableitung.
+
+}
+
+Die euklidische Standardmetrik des $\R^n$ induziert auf jeder abgeschlossenen Untermannigfaltigkeit eine riemannsche Metrik. Es gibt aber auch Situationen, wo man den $\R^n$ mit einer anderen, also nicht
+\definitionsverweis {positiv definiten}{}{}
+nichtausgearteten
+\definitionsverweis {Bilinearform}{}{}
+versieht und die Einschränkung auf eine abgeschlossene Untermannigfaltigkeit dennoch eine riemannsche Mannigfaltigkeit ergibt. Für das folgende Beispiel, das zweischalige Hyperboloid, siehe auch [[Kurs:Lineare Algebra (Osnabrück 2017-2018)/Teil II/Vorlesung 40]].
+
+\inputbeispiel{}
+{
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Hyperboloid2} {png} }
+\end{center}
+\bildtext {Es geht um die obere Schale des zweischaligen Hyperboloids, versehen mit der von der Minkowsi-Form induzierten Bilinearform.} }
+
+\bildlizenz { Hyperboloid2.png } {} {RokerHRO} {Commons} {gemeinfrei} {}
+
+Wir versehen den $\R^3$ mit der
+\definitionsverweis {Standard-Minkowski-Form}{}{,}
+also der Bilinearform, die zur quadratischen Form $x^2+y^2-z^2$ gehört, und wir betrachten die Teilmenge
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ =} { \left\{ (x,y,z)  \mid   x^2 +y^2-z^2 = -1  , \,  z > 0       \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Wenn man den $\R^3$ mit der Minkowski-Form als ein dreidimensionales Modell für die spezielle Relativitätstheorie ansieht, so ist dies die Menge der in die Zukunft gerichteten Beobachtervektoren. Zu einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ (x,y,z)
+}
+{ \in }{ Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist nach
+[[Minkowski-Raum/Beobachtervektoren/Fakt|Lemma 40.4 (Lineare Algebra (Osnabrück 2024-2025))]]
+die Einschränkung der Form auf den Tangentialraum positiv definit. Es bilden
+\mathkor {} {\begin{pmatrix}  x  \\ -y\\  0   \end{pmatrix}} {und} {\begin{pmatrix}  z  \\ 0 \\  x   \end{pmatrix}} {}
+eine Basis des
+\definitionsverweis {Tangentialraumes}{}{}
+$T_PY$. Für einen beliebigen Tangentialvektor
+
+\mavergleichskettedisp
+{\vergleichskette
+{ v
+}
+{ =} { a \begin{pmatrix}  x  \\ -y\\  0   \end{pmatrix} + b \begin{pmatrix}  z  \\ 0 \\  x   \end{pmatrix}
+}
+{ =} { \begin{pmatrix} ax+bz \\ -ay\\ bx   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left\langle  v  , v  \right\rangle_{Y,P}
+}
+{ =} { {  \begin{pmatrix} ax+bz \\ -ay\\ bx   \end{pmatrix} ^{ \text{tr} } } \begin{pmatrix}  1   &   0  &  0 \\  0  &  1  &  0  \\ 0 &  0  &  -1 \end{pmatrix} \begin{pmatrix} ax+bz \\ -ay\\ bx   \end{pmatrix}
+}
+{ =} { {  \begin{pmatrix} ax+bz \\ -ay\\ bx   \end{pmatrix} ^{ \text{tr} } }\begin{pmatrix} ax+bz \\ -ay\\  -bx   \end{pmatrix}
+}
+{ =} { \left(  ax+bz  \right)^2 +a^2y^2 -b^2x^2
+}
+{ =} { \left(  ax+bz  \right)^2 +a^2 \left(  -1-x^2  +z^2 \right)  -b^2 x^2
+}
+}
+{}
+{}{.}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperbolische Fläche/Kreisscheibe/Zweischaliges Hyperboloid/Isometrie/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Die Abbildung
+\maabbeledisp {\theta} { V } { Y
+} { \begin{pmatrix}  a  \\b   \end{pmatrix} } { \begin{pmatrix}  { \frac{   -2a }{ a^2+b^2-1  } }  \\ { \frac{   -2b }{ a^2+b^2-1  } } \\  { \frac{   -a^2-b^2-1  }{ a^2+b^2-1  } }   \end{pmatrix}
+} {,}}
+\faktfolgerung {definiert eine
+\definitionsverweis {Isometrie}{}{}
+zwischen der
+\definitionsverweis {hyperbolischen Kreisscheibe}{}{}
+$V$ und der oberen Schale des
+\definitionsverweis {zweischaligen Hyperboloids}{}{}
+mit der induzierten
+\definitionsverweis {Minkowski-Metrik}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Die partiellen Ableitungen von $\theta$ sind
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ { \frac{   \partial  \theta  }{  \partial   a   } } ( \begin{pmatrix}  a  \\b   \end{pmatrix} )
+}
+{ =} { { \frac{   1  }{  \left(  a^2+b^2-1  \right)^2  } } \begin{pmatrix}  -2 \left(  a^2+b^2-1  \right)+ 2a (2a)  \\ 4ab\\  -2a \left(  a^2+b^2-1  \right) +2a  \left(  a^2+b^2+1  \right)   \end{pmatrix}
+}
+{ =} { { \frac{   1  }{  \left(  a^2+b^2-1  \right)^2  } } \begin{pmatrix}  2a^2-2b^2+2  \\ 4ab\\  4a   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial  \theta  }{  \partial   b   } } ( \begin{pmatrix}  a  \\b   \end{pmatrix} )
+}
+{ =} { { \frac{   1  }{  \left(  a^2+b^2-1  \right)^2  } } \begin{pmatrix}  4ab \\ - 2a^2+2b^2+2 \\  4b   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {}
+}
+{}{}{.}
+Es ist
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left\langle  \begin{pmatrix}  2a^2-2b^2+2  \\ 4ab\\  4a   \end{pmatrix}   ,  \begin{pmatrix}  4ab \\ - 2a^2+2b^2+2 \\  4b   \end{pmatrix}     \right\rangle_{Y, (a,b) }
+}
+{ =} { 4 ab \left(  2a^2-2b^2+2   \right) +  4 ab \left(  - 2a^2 +2b^2+2   \right)      -16ab
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{,}
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left\langle  \begin{pmatrix}  2a^2-2b^2+2  \\ 4ab\\  4a   \end{pmatrix}   ,  \begin{pmatrix}  2a^2-2b^2+2  \\ 4ab\\  4a   \end{pmatrix}      \right\rangle_{Y, (a,b)}
+}
+{ =} { \left(  2a^2-2b^2+2   \right)^2  +  16 a^2b^2 -16a^2
+}
+{ =} { 4  \left(  \left(  a^2-b^2+1   \right)^2  +  4 a^2b^2 -4a^2  \right)
+}
+{ =} { 4 \left(  a^4+b^4+1 -2a^2+2a^2b^2 -2b^2  \right)
+}
+{ =} { 4  \left(  a^2 +b^2-1  \right)^2
+}
+}
+{}
+{}{,}
+und
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \left\langle  \begin{pmatrix}  4ab \\ - 2a^2+2b^2+2 \\  4b   \end{pmatrix}   ,  \begin{pmatrix}  4ab \\ - 2a^2+2b^2+2 \\  4b   \end{pmatrix}     \right\rangle_{Y, (a,b)}
+}
+{ =} { 4  \left(  a^2 +b^2-1  \right)^2
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{}{.}
+Unter Berücksichtigung des Vorfaktors ${ \frac{   1  }{  \left(  a^2+b^2-1  \right)^2  } }$ stimmen die Werte der Skalarprodukte auf $Y$ mit den Skalarprodukten auf der Kreisscheibe überein.
+
+}
+
+ [[Kategorie:Latexseite]]

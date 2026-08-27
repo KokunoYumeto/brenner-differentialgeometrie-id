@@ -51,6 +51,11 @@
       "correction_id": "O011-TRANS-0209",
       "anchor": "Independent Unit 17 lecture reader-language review",
       "change": "Repair factorization, eigenspace-dimension, closed-embedded-surface, and cartographic-map phrasing without altering mathematical content or source topology."
+    },
+    {
+      "correction_id": "O011-TRANS-0227",
+      "anchor": "Two inputfaktbeweis internal environment arguments",
+      "change": "Restore the required internal LaTeX environment key Korollar in both corollary calls while retaining every reader-visible Indonesian Korolari label and link."
     }
   ],
   "allowed_deltas": [
@@ -110,5 +115,20 @@
       "target_sha256": "f37eb764bd7ea701c1754c16331b3bd1d8668c837fe77108f232b2bee8359bad"
     }
   ],
-  "evidence_only_deltas": []
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-TRANS-0227",
+      "surface": "command:inputfaktbeweis",
+      "occurrence_index": 0,
+      "source_sha256": "9e62744c1ba4681452ab1f6421aecb806d548e9888fbeadf63127622a8c0054b",
+      "target_sha256": "1f5e4f92b9dff9e31b882afc8a4c9a3642ffc31d5e0e421e707e2eb4f6481fda"
+    },
+    {
+      "correction_id": "O011-TRANS-0227",
+      "surface": "command:inputfaktbeweis",
+      "occurrence_index": 1,
+      "source_sha256": "f1472d6080cd20e713df1ec994e44affc756a85feaa51aa0e0726335ecaa4105",
+      "target_sha256": "ffb75dbae2911df20b64999b561482b43f9cad75e220482400935ff04cb43d20"
+    }
+  ]
 }

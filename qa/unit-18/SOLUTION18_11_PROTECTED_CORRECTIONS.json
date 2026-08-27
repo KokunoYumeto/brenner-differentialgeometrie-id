@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-18/worksheet18_exercise11_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-TRANS-0223",
+      "anchor": "Supplied Solution 11 reader translation",
+      "change": "Render the two domain checks, imaginary-part argument, and inverse-composition calculation in natural Indonesian while preserving the source command and formula topology."
+    }
+  ],
+  "allowed_deltas": [],
+  "evidence_only_deltas": []
+}

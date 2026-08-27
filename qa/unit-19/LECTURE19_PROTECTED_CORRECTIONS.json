@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-19/lecture19.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0250",
+      "anchor": "Lemma 19.3, Weingarten-map display",
+      "change": "Supply the omitted map label L_P in the displayed endomorphism T_PY to T_PY; the frozen source leaves the map slot blank although the surrounding sentence and proof identify it as L_P."
+    },
+    {
+      "correction_id": "O011-CORR-0251",
+      "anchor": "Christoffel-symbol defining systems",
+      "change": "Write the pure second derivatives with denominators partial u squared and partial v squared rather than the malformed frozen-source denominators partial squared u and partial squared v."
+    },
+    {
+      "correction_id": "O011-CORR-0252",
+      "anchor": "Remark after Lemma 19.5, Gamma_22 system",
+      "change": "Correct the first component of the Gamma_22 system to 2 partial_2 g_12 minus partial_1 g_22; the frozen source duplicates the Gamma_11 system's second component there."
+    },
+    {
+      "correction_id": "O011-CORR-0253",
+      "anchor": "Theorem 19.7 regularity",
+      "change": "Require a continuously three-times differentiable local parametrization because the displayed curvature identity differentiates Christoffel symbols, equivalently using second derivatives of the metric coefficients."
+    },
+    {
+      "correction_id": "O011-CORR-0254",
+      "anchor": "Brioschi corollary regularity",
+      "change": "Require a continuously three-times differentiable local parametrization because the Brioschi formula explicitly contains second partial derivatives of the first fundamental coefficients."
+    },
+    {
+      "correction_id": "O011-TRANS-0255",
+      "anchor": "Independent Unit 19 lecture reader-language pass",
+      "change": "Normalize point-location phrasing, theorem-conclusion syntax, and Indonesian mathematical capitalization without changing any mathematical token or source topology."
+    },
+    {
+      "correction_id": "O011-TRANS-0256",
+      "anchor": "Opening parametrization hypothesis",
+      "change": "Restore the frozen source's explicit statement that the parameter domain V is open and attach the predicate unambiguously to V."
+    },
+    {
+      "correction_id": "O011-CORR-0257",
+      "anchor": "Intrinsic-curvature comparison with a cylinder",
+      "change": "State the cylinder's nonzero Weingarten eigenvalue as plus or minus 1/r, with sign determined by the chosen unit normal, because the paragraph does not fix an orientation and L = -DN changes sign when the normal is reversed."
+    },
+    {
+      "correction_id": "O011-TRANS-0258",
+      "anchor": "Brioschi corollary inputfaktbeweis theorem-type key",
+      "change": "Keep the internal theorem-type dispatch key as the source-compatible German Korollar so the wrapper selects the corollary environment; the wrapper renders the reader-visible Indonesian label Korolari."
+    },
+    {
+      "correction_id": "O011-ACC-0259",
+      "anchor": "Brioschi determinant displays in the lecture corollary and Worksheet 19.9",
+      "change": "Reflow both source-equivalent displays into three aligned rows: the equality and common prefactor open the parenthesis on row one, determinant one occupies row two, and the subtraction plus determinant two occupy row three before the closing delimiter. Preserve every matrix entry, sign, derivative, factor, and the mathematical value without scaling the text."
+    },
+    {
+      "correction_id": "O011-ACC-0260",
+      "anchor": "Proof of Lemma 19.5, expanded Christoffel-symbol equality",
+      "change": "Reflow the source-equivalent sum into three aligned continuation rows at natural plus and minus boundaries. Preserve every Gamma term, metric coefficient, index, sign, grouping delimiter, and the algebraic value without scaling the text."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_ids": [
+        "O011-CORR-0257",
+        "O011-ACC-0259",
+        "O011-ACC-0260"
+      ],
+      "surface": "profile:commands",
+      "source_sha256": "26d78616efb065bb376029986d18922d180d1904e6385548a201978474e08675",
+      "target_sha256": "dc50e1143a96ad7f1317b8df7940b001529ac3daab4683983412ceb99b7d8729"
+    },
+    {
+      "correction_ids": [
+        "O011-ACC-0259",
+        "O011-ACC-0260"
+      ],
+      "surface": "profile:environments",
+      "source_sha256": "ba1dbf69ccffe6a8cae684f56b7a7e74d625c28dcbec2ebb725388b25fffea5e",
+      "target_sha256": "ecf9deec14dd17cc93a1956a97678118f43fa153e79ac0c420fa20235e997f53"
+    },
+    {
+      "correction_ids": [
+        "O011-ACC-0259",
+        "O011-ACC-0260"
+      ],
+      "surface": "profile:brace_profile",
+      "source_sha256": "b9b1312e73abae4973456648dfe38c10d09d9f7f5c2e1ff9108b7d4b000e722f",
+      "target_sha256": "6874d5c9924fb4b88e88735ad7fec4dc955c3c031710a3e47554cc8f6f11dc93"
+    },
+    {
+      "correction_id": "O011-ACC-0259",
+      "surface": "protected:vergleichskette",
+      "index": 66,
+      "source_sha256": "e557695ee6a4954d8a34567e5c45d2a7b7e1b36efadf91bc8fd86dd43e2bdb73",
+      "target_sha256": "176f59dfd7c40112db1d41b0306a6f3bbd61b5b7f326a974f0a1ce8f464a9cc7"
+    },
+    {
+      "correction_id": "O011-CORR-0257",
+      "surface": "inline_math",
+      "index": 47,
+      "source_sha256": "50f27bf1a716a845f8dfe1a29396ee0cf9805d983941784d1651cca861f94992",
+      "target_sha256": "d6a25a6f3ffc52b275818f7c2afd90de1cb1fcbc37b63ab9d9bfda4dc4fb5259"
+    },
+    {
+      "correction_id": "O011-CORR-0250",
+      "surface": "protected:maabbdisp",
+      "index": 6,
+      "source_sha256": "13399d9c01a275146be798e1904a83445275dec6861392e6878268e0e0939b01",
+      "target_sha256": "e7b65ad495bd27095f09dad827f47e5c4d929fd07a842b88d7e80442dfa02059"
+    },
+    {
+      "correction_id": "O011-CORR-0251",
+      "surface": "protected:vergleichskette",
+      "index": 48,
+      "source_sha256": "b5590455626f4aeae7c61bb6b3132a1aacf293a8b8443754e3c8464be279755a",
+      "target_sha256": "de3045a9c785740a709d68226f15efbca1e644b9a7735773530a28b7783b0696"
+    },
+    {
+      "correction_id": "O011-CORR-0251",
+      "surface": "protected:vergleichskette",
+      "index": 51,
+      "source_sha256": "fcac02c60e6fda74467ba0089f8c9885ddab48cafdb46ae92679c4a373c65598",
+      "target_sha256": "7f700b88bf2b32471c3e187c71dea59ab04ccc325ed8b910de7c599a1ecb473f"
+    },
+    {
+      "correction_id": "O011-CORR-0252",
+      "surface": "protected:vergleichskette",
+      "index": 58,
+      "source_sha256": "d140c1ca487f76c2437ac751e3a1178e684b59fe86faa0145976954b4e785d0b",
+      "target_sha256": "70d12e25657ef7e10ac18ca4529eb0959b89c24c3836a1b2a242c4f0e4792372"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-TRANS-0258",
+      "correction_ids": [
+        "O011-TRANS-0258",
+        "O011-ACC-0259"
+      ],
+      "surface": "command:inputfaktbeweis",
+      "occurrence_index": 4,
+      "source_sha256": "77f08d270984c84cc1047f3f12536b516de13ffde42452d54f454755b3037f0d",
+      "target_sha256": "6b5d5343641de33f816192d610698adbf1b1729832d5efcd6854abe078a321b1"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "all_downloaded_bytes_sha256_md5_match": true,
+  "all_inventory_md5_matches": true,
+  "authentication_used": false,
+  "concept_doi": "10.5281/zenodo.22059977",
+  "concept_record_id": 22059977,
+  "coverage": "active_partial_through_unit_19",
+  "doi": "10.5281/zenodo.22134954",
+  "expected_reader_first_order": [
+    "geometri-diferensial-manifold-mulus-hingga-unit-19-id.pdf",
+    "geometri-diferensial-manifold-mulus-unit19-html-20260826.zip",
+    "geometri-diferensial-manifold-mulus-unit19-source-20260826.zip",
+    "LICENSE.md",
+    "RELEASE_NOTES_UNIT19_20260826.md",
+    "FILE_MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "file_count": 7,
+  "files": [
+    {
+      "bytes": 7740452,
+      "md5": "5096439bad162e3476cbcfee958cbc3a",
+      "name": "geometri-diferensial-manifold-mulus-hingga-unit-19-id.pdf",
+      "sha256": "d96c7200271cd790b42bd4c584befd65c3aa669546e2b6935dbe44fc923b746e"
+    },
+    {
+      "bytes": 7243306,
+      "md5": "c88b60cc3c3047330b801338cca4b878",
+      "name": "geometri-diferensial-manifold-mulus-unit19-html-20260826.zip",
+      "sha256": "b26a01cb6f3523603a18fa175f31f59e3fcc4ef30ce1bf0a19510b122542d049"
+    },
+    {
+      "bytes": 39624186,
+      "md5": "93e535d277d1a80e0fd73f48a795ba4a",
+      "name": "geometri-diferensial-manifold-mulus-unit19-source-20260826.zip",
+      "sha256": "4451ab83b504fb4403664f132c057ebe26096f27a0ef6c8f9e5351bb71a4dfc2"
+    },
+    {
+      "bytes": 2034,
+      "md5": "07d8a80b2f85b2bebc85c3d3e3acb2fc",
+      "name": "LICENSE.md",
+      "sha256": "ee5602f78002b7d5eb5b3762f05531135c5913c0826f73a234bdb97666245a35"
+    },
+    {
+      "bytes": 2171,
+      "md5": "505ebeb6eb391b90ba5f2b29def47c13",
+      "name": "RELEASE_NOTES_UNIT19_20260826.md",
+      "sha256": "1c54f2527aa03cf8e0241a73e2323da2f533cb1d895e051d589efbb652ebbd14"
+    },
+    {
+      "bytes": 1535,
+      "md5": "e7818aaa5c51996dc70d56863162271a",
+      "name": "FILE_MANIFEST.json",
+      "sha256": "81e1b1168584a4e4cf33c42a16ec2754c221938bb71b1441f1753612ec0c61df"
+    },
+    {
+      "bytes": 641,
+      "md5": "d9440c3726bff7bcb2dd18987c705158",
+      "name": "SHA256SUMS.txt",
+      "sha256": "5049e644917f058585e30a15ba290876c2122eb9fae69b3b3e8f858c3df90daf"
+    }
+  ],
+  "pdf_default_preview": "geometri-diferensial-manifold-mulus-hingga-unit-19-id.pdf",
+  "pdf_default_preview_verified": true,
+  "predecessor_boundary": {
+    "default_preview": "geometri-diferensial-manifold-mulus-hingga-unit-16-id.pdf",
+    "doi": "10.5281/zenodo.22104426",
+    "file_count": 7,
+    "file_order": [
+      "geometri-diferensial-manifold-mulus-hingga-unit-16-id.pdf",
+      "geometri-diferensial-manifold-mulus-unit16-html-20260826.zip",
+      "geometri-diferensial-manifold-mulus-unit16-source-20260826.zip",
+      "LICENSE.md",
+      "RELEASE_NOTES_UNIT16_20260826.md",
+      "FILE_MANIFEST.json",
+      "SHA256SUMS.txt"
+    ],
+    "record_id": 22104426,
+    "status": "pass",
+    "version": "2026.08.26-unit16"
+  },
+  "predecessor_record_id": 22104426,
+  "preparation_receipt_sha256": "be51943938acd78a4927aee344fd8d18dd39c3f9245f2cd0a7421d03b16a01bd",
+  "public_source_zip_crc_verified": true,
+  "publication_receipt_sha256": "a778cb203fa7598dbacc3e396df497f86b1a5518af05b028a551c2f3d413a0ee",
+  "rdm_file_order": [
+    "geometri-diferensial-manifold-mulus-hingga-unit-19-id.pdf",
+    "FILE_MANIFEST.json",
+    "geometri-diferensial-manifold-mulus-unit19-html-20260826.zip",
+    "geometri-diferensial-manifold-mulus-unit19-source-20260826.zip",
+    "LICENSE.md",
+    "RELEASE_NOTES_UNIT19_20260826.md",
+    "SHA256SUMS.txt"
+  ],
+  "record_id": 22134954,
+  "record_status": "published",
+  "schema_version": 1,
+  "source_package_integrity_receipt_sha256": "4fceb43e329f3a50a14bc3f89c9830183afa736ecb2b14f2210dde1ad8e6ba79",
+  "status": "pass",
+  "temporary_downloads_removed": true,
+  "total_bytes": 54614325,
+  "verified_at_utc": "2026-08-27T23:26:25.602705+00:00",
+  "version": "2026.08.26-unit19",
+  "workflow": "o011-independent-zenodo-unit19-public-readback-v1"
+}
