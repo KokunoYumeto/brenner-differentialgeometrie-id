@@ -3,11 +3,11 @@
   "role_id": "O011",
   "course_id": "D50",
   "lane": "smooth-manifolds-differential-geometry-id",
-  "status": "unit_19_public_unit_20_bounded_qa_passed_unit_21_authority_freeze_active",
+  "status": "unit_19_public_unit_20_public_checkpoint_unit_21_authority_admitted_translation_active",
   "active_cursor": {
     "unit_id": "o011-brenner-u21",
-    "authority_status": "not_started",
-    "translation_status": "not_started",
+    "authority_status": "pass_exact_root_expansion_solution_media_rights_offline_and_live_current",
+    "translation_status": "preparation_active",
     "previous_bounded_unit": 20,
     "previous_bounded_qa_path": "qa/unit-20/POST_CORRECTION_MATH_QA.json",
     "previous_bounded_qa_bytes": 13674,
@@ -24,7 +24,18 @@
     "unit_20_public_checkpoint_readback_sha256": "a38ccd463520daf0a8cfc64cfa93909e2610697fee5bf8f57c14b7202a5c7c13",
     "zenodo_record_id": 22134954,
     "zenodo_doi": "10.5281/zenodo.22134954",
-    "next_executable_action": "Freeze the exact Lecture 21 and Worksheet 21 roots expansions solution closure media rights and current revisions; independently verify the frozen closure and then translate the admitted pair in source order."
+    "unit_21_lecture_pageid": 142565,
+    "unit_21_lecture_revid": 897931,
+    "unit_21_worksheet_pageid": 142655,
+    "unit_21_worksheet_export_baseline_revid": 900559,
+    "unit_21_worksheet_adopted_revid": 1113692,
+    "unit_21_preflight_path": "qa/unit-21/AUTHORITY_PREFLIGHT.json",
+    "unit_21_preflight_sha256": "ef14f5ffa01482dd67596adff3ef4c29d931c3c234979f2cbbb41f7e5089f194",
+    "unit_21_offline_verify_sha256": "d9ca3fd9f6767c393f37c996aff5bc0a4f11be0dea98520af89cc3f305cba0b6",
+    "unit_21_root_transition_sha256": "ddcec3f3b05ccb47b188814cdf8f5711b860c056d49ca0ba0c187c0236fcbae8",
+    "unit_21_current_revision_check_path": "qa/unit-21/CURRENT_REVISION_CHECK_R2.json",
+    "unit_21_current_revision_check_sha256": "0cc4febad5958fca8432f7aed16867cb8a9d9215ac40b57945111a453d329bbd",
+    "next_executable_action": "Prepare the admitted Unit 21 lecture worksheet and exactly Solutions 7 10 12 and 13 then translate the complete pair in source order with three admitted SVG assets."
   },
   "authority": {
     "course_pageid": 142521,
@@ -75,7 +86,7 @@
     "public_zenodo_doi": "10.5281/zenodo.22134954"
   },
   "batch_progress": {
-    "milestone": "units_17_through_19_public_and_anonymously_verified_unit_20_bounded_source_checkpoint_public_unit_21_freeze_active",
+    "milestone": "units_17_through_19_public_unit_20_public_source_checkpoint_unit_21_authority_admitted_translation_active",
     "completed_units": {
       "unit_08": {
         "status": "translated_and_bounded_math_qa_passed",
@@ -413,7 +424,7 @@
     "consolidated_gate_status": "unit_19_public_gate_closed_units_20_through_22_translation_batch_active"
   },
   "current": {
-    "stage": "unit_21_authority_freeze",
+    "stage": "unit_21_translation_preparation",
     "status": "active",
     "content_units": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
     "unit_14_qa_path": "qa/unit-14/POST_CORRECTION_MATH_QA.json",
@@ -427,7 +438,23 @@
     "unit_16_qa_bytes": 10639,
     "unit_16_qa_sha256": "13edee0684042a53beb4daa7b6dfe5c877ac7ed5c35ec03fa5fa63f11a710a4c",
     "active_source_order_unit": "o011-brenner-u21",
-    "next_action": "freeze and independently verify the exact Unit 21 lecture worksheet solution media and current-revision closure then begin the complete source-order Indonesian pair",
+    "next_action": "prepare and translate the complete admitted Unit 21 lecture worksheet and source-supplied Solutions 7 10 12 and 13 while preserving three rights-closed SVG assets",
+    "unit_21_authority_gate": {
+      "status": "pass",
+      "lecture": {"pageid": 142565, "revid": 897931, "expanded_source_bytes": 24383, "expanded_source_sha256": "3bd477b25e7061b022dab80c007fcdaef0c72c3674e6b61651e2bf598811e9d9"},
+      "worksheet": {"pageid": 142655, "recursive_export_baseline_revid": 900559, "adopted_revid": 1113692, "expanded_source_bytes": 10004, "expanded_source_sha256": "07915c64bad243ef085524475108f94b38f2e4432c787466b752ff1dec48743e"},
+      "preflight": {"path": "qa/unit-21/AUTHORITY_PREFLIGHT.json", "bytes": 52253, "sha256": "ef14f5ffa01482dd67596adff3ef4c29d931c3c234979f2cbbb41f7e5089f194"},
+      "offline_verify": {"path": "qa/unit-21/AUTHORITY_PREFLIGHT_VERIFY.json", "bytes": 534, "sha256": "d9ca3fd9f6767c393f37c996aff5bc0a4f11be0dea98520af89cc3f305cba0b6"},
+      "live_current": {"path": "qa/unit-21/CURRENT_REVISION_CHECK_R2.json", "bytes": 3068, "sha256": "0cc4febad5958fca8432f7aed16867cb8a9d9215ac40b57945111a453d329bbd"},
+      "worksheet_root_revision_override": {"baseline_revid": 900559, "adopted_revid": 1113692, "official_compare_sha256": "9154f3930ab4cbcc30c7feb571b208eb650db5dc763c099102b12fb47d9d5138", "transition_receipt_sha256": "ddcec3f3b05ccb47b188814cdf8f5711b860c056d49ca0ba0c187c0236fcbae8", "byte_identical_expansion_sha256": "cba043d0692525c5aafd43901eaa0437c92ba608b8241f1f3b8f01edf011d951", "change": "one-byte repair adding the missing trailing pipe to the Not-star-shaped.svg inputbild macro"},
+      "exercise_count": 20,
+      "practice_exercise_count": 15,
+      "graded_exercise_count": 5,
+      "point_total": 24,
+      "supplied_solution_indices": [7, 10, 12, 13],
+      "all_hint_fields_blank": true,
+      "media_asset_count": 3
+    },
     "unit_19_cumulative_gate": {
       "status": "pass_github_and_zenodo_public_and_anonymously_verified",
       "pdf": {"path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-19-id.pdf", "bytes": 7740452, "pages": 302, "sha256": "d96c7200271cd790b42bd4c584befd65c3aa669546e2b6935dbe44fc923b746e"},

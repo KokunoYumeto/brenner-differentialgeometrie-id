@@ -1,0 +1,89 @@
+{
+  "all_four_frozen_revisions_remain_live_current": true,
+  "api_request_receipt": {
+    "bytes": 841,
+    "path": "authority/mediawiki/unit21_root_surfaces_current.json.request.json",
+    "sha256": "ff6cd5caf70bacf9369a7b750fc0e0499200ada559eea94bf148bb940d7baff5"
+  },
+  "api_response": {
+    "bytes": 1627,
+    "path": "authority/mediawiki/unit21_root_surfaces_current.json",
+    "sha256": "52adb95499358d522735b317b5a0a04cb8fc2103af13b7175ce72e39878b5bf8"
+  },
+  "preflight_input": {
+    "bytes": 52026,
+    "path": "qa/unit-21/AUTHORITY_PREFLIGHT.json",
+    "sha256": "fa6483aa084a9240f354362bdb4d04845ec2f0cbf7eec2923bfd4c30f8a0443c"
+  },
+  "retrieved_utc": "2026-08-28T09:36:04Z",
+  "schema_version": 1,
+  "status": "pass",
+  "surfaces": [
+    {
+      "current_lastrevid": 807127,
+      "current_pageid": 142595,
+      "current_revid": 807127,
+      "current_revision_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+      "current_timestamp": "2022-09-18T10:00:40Z",
+      "lastrevid_match": true,
+      "pageid": 142595,
+      "pageid_match": true,
+      "revid": 807127,
+      "revid_match": true,
+      "surface": "lecture_latex",
+      "timestamp": "2022-09-18T10:00:40Z",
+      "timestamp_match": true,
+      "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 21/latex"
+    },
+    {
+      "current_lastrevid": 897931,
+      "current_pageid": 142565,
+      "current_revid": 897931,
+      "current_revision_sha1": "57981cd0e6617c80c891f3fab7e37bdeada95d29",
+      "current_timestamp": "2023-06-05T10:06:22Z",
+      "lastrevid_match": true,
+      "pageid": 142565,
+      "pageid_match": true,
+      "revid": 897931,
+      "revid_match": true,
+      "surface": "lecture_root",
+      "timestamp": "2023-06-05T10:06:22Z",
+      "timestamp_match": true,
+      "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 21"
+    },
+    {
+      "current_lastrevid": 807096,
+      "current_pageid": 142685,
+      "current_revid": 807096,
+      "current_revision_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+      "current_timestamp": "2022-09-18T09:55:30Z",
+      "lastrevid_match": true,
+      "pageid": 142685,
+      "pageid_match": true,
+      "revid": 807096,
+      "revid_match": true,
+      "surface": "worksheet_latex",
+      "timestamp": "2022-09-18T09:55:30Z",
+      "timestamp_match": true,
+      "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 21/latex"
+    },
+    {
+      "current_lastrevid": 1113692,
+      "current_pageid": 142655,
+      "current_revid": 1113692,
+      "current_revision_sha1": "a23e8d2c74aac049820a5be1607fa86701d7f37c",
+      "current_timestamp": "2026-08-27T07:00:27Z",
+      "lastrevid_match": true,
+      "pageid": 142655,
+      "pageid_match": true,
+      "revid": 1113692,
+      "revid_match": true,
+      "surface": "worksheet_root",
+      "timestamp": "2026-08-27T07:00:27Z",
+      "timestamp_match": true,
+      "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 21"
+    }
+  ],
+  "unit": 21,
+  "workflow": "o011-brenner-unit-live-current-revision-check-v1"
+}

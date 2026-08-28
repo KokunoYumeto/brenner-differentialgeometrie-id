@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://commons.wikimedia.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 09:34:46 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "iiprop": "timestamp|user|url|size|sha1|mime|extmetadata",
+    "prop": "info|imageinfo",
+    "titles": "File:Runge theorem.svg|File:Circle on sphere wireframe 10deg 6r.svg|File:Not-star-shaped.svg"
+  },
+  "response_bytes": 7609,
+  "response_path": "unit21_media_imageinfo_current.json",
+  "response_sha256": "2005014812a20b0644e45f011921efcd3110c90add1657afc18c675476943738",
+  "retrieved_utc": "2026-08-28T09:34:46Z",
+  "schema_version": 1
+}

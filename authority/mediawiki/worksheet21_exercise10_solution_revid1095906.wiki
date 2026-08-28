@@ -1,0 +1,104 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es sei {{math|term= \gamma |SZ=}} ein Halbweg in {{math|term= M |SZ=}} wie angegeben und sei
+{{
+Relationskette
+| P
+| \in |  U
+| \subseteq | M
+||
+||
+|SZ=
+}}
+ein Kartengebiet mit einer Karte
+{{
+Abbildung/display
+|name= \alpha
+| U |V \subseteq  H_{\leq 0}
+||
+|SZ=
+}}
+mit
+{{
+Relationskette/display
+|  H_{\leq 0}
+|| {{Mengebed|(x_1,x_2 , \ldots, x_n)| x_1 \leq 0}} 
+|| 
+|| 
+|| 
+|SZ=
+}}
+und mit
+{{
+Relationskette/display
+| Q
+|| \alpha(P)
+|| {{op:Zeilenvektor| 0 |a_2 | \ldots |a_n}} 
+|| 
+|| 
+|SZ=.
+}}
+Unter der Tangentialabbildung wird  
+{{
+Relationskette
+| v
+|| \gamma'(0) 
+|| 
+|| 
+|| 
+|SZ=
+}} 
+auf den Ableitungsvektor von
+{{
+Relationskette
+| \delta
+|| \alpha \circ \gamma
+|| 
+|| 
+|| 
+|SZ=
+}}
+im Nullpunkt abgebildet. Da {{math|term= \gamma |SZ=}} in {{math|term= M |SZ=}} verläuft, verläuft {{math|term= \delta |SZ=}} ganz in {{math|term= H_{\leq 0} |SZ=.}} Daher ist im Differenzenquotient
+{{
+Math/display|term=
+  {{op:Bruch| {{op:Zeilenvektor| \delta_1(t) | \delta_2(t) | \ldots| \delta_n(t) }} |t}} 
+|SZ=
+}}
+sowohl {{math|term= t |SZ=}} negativ als auch {{math|term= \delta_1(t)  |SZ=}} negativ und daher ist
+{{
+Relationskette/display
+|  \delta_1'(0)
+| \geq | 0 
+|| 
+|| 
+|| 
+|SZ=,
+}}
+gehört also zur positiven Hälfte.
+
+Es gehöre umgekehrt {{mathl|term= T_P(\alpha)(v) |SZ=}} zur positiven Hälfte. Dann verläuft die Gerade  
+{{
+Abbildung/display
+|name= \delta
+|\R|\R^n
+| t | Q+tv
+|SZ=
+}}
+für 
+{{
+Relationskette
+| t
+| \leq |  0
+|| 
+|| 
+|| 
+|SZ=
+}}
+ganz in der negativen Hälfte. Der Weg {{mathl|term= \alpha^{-1} \circ \delta   |SZ=}} ist auf einem negativen Intervall definiert und landet in {{math|term= M |SZ=}} und ist eine Halbwegrealisierung von {{math|term= v |SZ=.}} 
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

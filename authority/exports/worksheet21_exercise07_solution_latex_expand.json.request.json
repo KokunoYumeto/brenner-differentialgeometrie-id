@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 09:34:45 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Reelle Ebene/Eindimensionale Teilmenge/Mannigfaltigkeit mit Rand/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 2052,
+  "response_path": "worksheet21_exercise07_solution_latex_expand.json",
+  "response_sha256": "dc8a724e3c8e6f568cf9af66410bec2c65ec4e174f663fda22a21959b72d7496",
+  "retrieved_utc": "2026-08-28T09:34:45Z",
+  "schema_version": 1
+}

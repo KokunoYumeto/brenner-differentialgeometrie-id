@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import base64
+import difflib
 import hashlib
 import json
 import re
@@ -76,6 +77,12 @@ def verify_expansion(root: Path, expansion: dict[str, Any]) -> None:
 
 
 def verify_page_witness(root: Path, page: dict[str, Any]) -> None:
+    if "source_api_response" in page:
+        verify_request(
+            root,
+            page["source_api_response"],
+            page["source_api_request_receipt"],
+        )
     file_check(root, page["metadata"])
     exact_entry = {
         "path": page["exact_utf8_base64_witness"],
@@ -94,6 +101,98 @@ def verify_page_witness(root: Path, page: dict[str, Any]) -> None:
         raise RuntimeError(f"readable witness byte mismatch: {page['title']}")
     if digest(readable) != page["readable_normalized_sha256"]:
         raise RuntimeError(f"readable witness hash mismatch: {page['title']}")
+    if "source_api_response" in page:
+        payload = json.loads(
+            (root / page["source_api_response"]["path"]).read_text(encoding="utf-8")
+        )
+        pages = payload.get("query", {}).get("pages", [])
+        if len(pages) != 1:
+            raise RuntimeError("API-backed page witness has ambiguous response")
+        api_page = pages[0]
+        revisions = api_page.get("revisions") or []
+        if len(revisions) != 1:
+            raise RuntimeError("API-backed page witness has ambiguous revision")
+        revision = revisions[0]
+        slot = revision.get("slots", {}).get("main", {})
+        if (
+            api_page.get("title") != page["title"]
+            or int(api_page.get("pageid", -1)) != int(page["pageid"])
+            or int(revision.get("revid", -1)) != int(page["revid"])
+            or int(revision.get("parentid", -1)) != int(page["parentid"])
+            or revision.get("timestamp") != page["timestamp"]
+            or revision.get("sha1") != page["source_utf8_sha1"]
+            or slot.get("content", "").encode("utf-8") != decoded
+        ):
+            raise RuntimeError("API-backed page metadata/content binding failed")
+
+
+def source_delta_operations(baseline: str, adopted: str) -> list[dict[str, Any]]:
+    operations: list[dict[str, Any]] = []
+    for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(
+        None, baseline, adopted, autojunk=False
+    ).get_opcodes():
+        if tag == "equal":
+            continue
+        operations.append(
+            {
+                "operation": tag,
+                "baseline_span": [i1, i2],
+                "adopted_span": [j1, j2],
+                "baseline_text": baseline[i1:i2],
+                "adopted_text": adopted[j1:j2],
+            }
+        )
+    return operations
+
+
+def expansion_text(root: Path, response: dict[str, Any]) -> str:
+    payload = json.loads((root / response["path"]).read_text(encoding="utf-8"))
+    expanded = payload.get("expandtemplates", {}).get("wikitext")
+    if not isinstance(expanded, str):
+        raise RuntimeError("expansion-equivalence response lacks wikitext")
+    return expanded
+
+
+def verify_root_override_transition(
+    root: Path,
+    baseline_page: dict[str, Any],
+    adopted_page: dict[str, Any],
+    receipt_entry: dict[str, Any],
+) -> None:
+    file_check(root, receipt_entry)
+    receipt = json.loads((root / receipt_entry["path"]).read_text(encoding="utf-8"))
+    if receipt.get("status") != "pass":
+        raise RuntimeError("root override transition receipt is not PASS")
+    baseline = base64.b64decode(
+        (root / baseline_page["exact_utf8_base64_witness"]).read_text(encoding="ascii")
+    ).decode("utf-8")
+    adopted = base64.b64decode(
+        (root / adopted_page["exact_utf8_base64_witness"]).read_text(encoding="ascii")
+    ).decode("utf-8")
+    if adopted_page["parentid"] != baseline_page["revid"]:
+        raise RuntimeError("adopted root is not the direct child of its baseline")
+    if receipt["source_delta_operations"] != source_delta_operations(baseline, adopted):
+        raise RuntimeError("root override source-delta receipt differs from witnesses")
+    texts: list[str] = []
+    for label in ("baseline", "adopted"):
+        row = receipt["template_sandbox"][label]
+        verify_request(root, row["response"], row["request_receipt"])
+        text = expansion_text(root, row["response"])
+        if (
+            len(text) != row["expanded_characters"]
+            or len(text.encode("utf-8")) != row["expanded_utf8_bytes"]
+            or digest(text.encode("utf-8")) != row["expanded_utf8_sha256"]
+        ):
+            raise RuntimeError("TemplateSandbox expansion metrics differ")
+        texts.append(text)
+    existing = receipt["existing_frozen_expansion"]
+    verify_request(root, existing["response"], existing["request_receipt"])
+    existing_text = expansion_text(root, existing["response"])
+    texts.append(existing_text)
+    if not receipt["baseline_adopted_and_existing_expansions_byte_identical"]:
+        raise RuntimeError("root override expansion-equivalence flag is false")
+    if not (texts[0] == texts[1] == texts[2]):
+        raise RuntimeError("root override expansions are not byte-identical")
 
 
 def verify_solution(root: Path, exercise: dict[str, Any]) -> None:
@@ -140,6 +239,23 @@ def main() -> None:
         file_check(root, authority[key])
     for page in authority["pages"].values():
         verify_page_witness(root, page)
+    for page in authority.get("root_revision_baselines", {}).values():
+        verify_page_witness(root, page)
+    for key, override in authority.get("root_revision_overrides", {}).items():
+        baseline = authority["root_revision_baselines"].get(key)
+        adopted = authority["pages"].get(key)
+        if baseline is None or adopted is None:
+            raise RuntimeError(f"root override lacks baseline or adopted page: {key}")
+        if int(baseline["revid"]) != int(override["baseline_revid"]):
+            raise RuntimeError(f"root override baseline revision mismatch: {key}")
+        if int(adopted["revid"]) != int(override["adopted_revid"]):
+            raise RuntimeError(f"root override adopted revision mismatch: {key}")
+        verify_request(root, override["api_response"], override["api_request_receipt"])
+        comparison = override["official_revision_compare"]
+        verify_request(root, comparison["response"], comparison["request_receipt"])
+        verify_root_override_transition(
+            root, baseline, adopted, override["transition_receipt"]
+        )
     verify_expansion(root, manifest["expansions"]["lecture"])
     verify_expansion(root, manifest["expansions"]["worksheet"])
 

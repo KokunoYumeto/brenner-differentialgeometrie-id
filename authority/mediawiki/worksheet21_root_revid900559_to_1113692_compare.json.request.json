@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 09:40:41 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "compare",
+    "format": "json",
+    "formatversion": "2",
+    "fromrev": "900559",
+    "prop": "ids|title|diff|user|comment|parsedcomment|size",
+    "torev": "1113692"
+  },
+  "response_bytes": 1877,
+  "response_path": "worksheet21_root_revid900559_to_1113692_compare.json",
+  "response_sha256": "9154f3930ab4cbcc30c7feb571b208eb650db5dc763c099102b12fb47d9d5138",
+  "retrieved_utc": "2026-08-28T09:40:40Z",
+  "schema_version": 1
+}

@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 09:34:45 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Kleidung/Mannigfaltigkeit mit Rand/Aufgabe/Lösung|Mannigfaltigkeit mit Rand/Differenzierbare Abbildung/Tangentialraum/Begriffseinführung/Aufgabe/Lösung|Mannigfaltigkeit mit Rand/Intervall/Aufgabe/Lösung|Kugeloberfläche/Kreis/Berandete Mannigfaltigkeiten/Aufgabe/Lösung|Mannigfaltigkeit mit und ohne Rand/Produkt/Aufgabe/Lösung|Annulus/Zylinder/Mannigfaltigkeiten mit Rand/Diffeomorph/Aufgabe/Lösung|Reelle Ebene/Eindimensionale Teilmenge/Mannigfaltigkeit mit Rand/Aufgabe/Lösung|Obere Halbebene/Einheitskreis/Rational isomorph/Ausdehnung/Aufgabe/Lösung|Mannigfaltigkeit mit Rand/Innerer und äußerer Halbweg/Äquivalenz/Tangentialraum/Aufgabe/Lösung|Mannigfaltigkeit mit Rand/Tangentialraum/Halbraum/Charakterisierung/Aufgabe/Lösung|Mannigfaltigkeit mit Rand/Durchgängiger Weg/Tangential zum Rand/Aufgabe/Lösung|Mannigfaltigkeit mit Rand/Offene Teilmenge/Aufgabe/Lösung|Halbraum/Randpunkt/Keine offene Menge im Raum/Aufgabe/Lösung|Halbraum/Offene Menge/Diffeomorphismus/Offene Umgebung/Aufgabe/Lösung|Kreisscheibe/Standardorientierung/Randorientierung/Aufgabe/Lösung|Kreisring/Explizite Karten/Aufgabe/Lösung|Halbebene und Quadrant/Nicht diffeomorph/Aufgabe/Lösung|Zweifach punktierte Kreisscheibe/Offenes x abgeschlossenes Intervall/Diffeomorph/Aufgabe/Lösung|Diffeomorphismus/Halbraum_auf_Halbraum/Induziert_Diffeomorphismus/Aufgabe/Lösung|Kugeloberfläche/Standardorientierung/Nordpol/(2,1,0) und (3,-1,0)/Aufgabe/Lösung"
+  },
+  "response_bytes": 10029,
+  "response_path": "unit21_solution_pages_current.json",
+  "response_sha256": "53b681d357a70b342f90bb64f95e70a33f9d9b631f0b410887848e35bfca7c7c",
+  "retrieved_utc": "2026-08-28T09:34:44Z",
+  "schema_version": 1
+}

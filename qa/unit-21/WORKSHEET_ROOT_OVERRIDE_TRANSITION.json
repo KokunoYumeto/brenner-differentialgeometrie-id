@@ -1,0 +1,90 @@
+{
+  "adopted": {
+    "pageid": 142655,
+    "parentid": 900559,
+    "revid": 1113692,
+    "source_utf8_bytes": 2430,
+    "source_utf8_sha256": "9535187f156472de585c46532e67e4508e359e66dd23453e8241bd4299b4d933",
+    "timestamp": "2026-08-27T07:00:27Z"
+  },
+  "adopted_is_direct_child": true,
+  "baseline": {
+    "pageid": 142655,
+    "revid": 900559,
+    "source_utf8_bytes": 2429,
+    "source_utf8_sha256": "c3427f1ab0505f37ef4cfdf74c4b2a9fad026b12c77760a3b0021e5b74d5d18f"
+  },
+  "baseline_adopted_and_existing_expansions_byte_identical": true,
+  "existing_frozen_expansion": {
+    "expanded_characters": 12465,
+    "expanded_utf8_bytes": 12497,
+    "expanded_utf8_sha256": "cba043d0692525c5aafd43901eaa0437c92ba608b8241f1f3b8f01edf011d951",
+    "request_receipt": {
+      "bytes": 679,
+      "path": "authority/exports/worksheet21_latex_expand.json.request.json",
+      "sha256": "6c6a1d4c4ff932287287340988bbdb11b58428b733efc775157ba95498955f35"
+    },
+    "response": {
+      "bytes": 13311,
+      "path": "authority/exports/worksheet21_latex_expand.json",
+      "sha256": "867d76a04e929a4ae3d7fd048668f03b6c7cf281504ae45d73f9710dad45cd70"
+    }
+  },
+  "latex_surface_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 21/latex",
+  "root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 21",
+  "schema_version": 1,
+  "source_delta_operations": [
+    {
+      "adopted_span": [
+        1764,
+        1765
+      ],
+      "adopted_text": "|",
+      "baseline_span": [
+        1764,
+        1764
+      ],
+      "baseline_text": "",
+      "operation": "insert"
+    }
+  ],
+  "source_utf8_byte_delta": 1,
+  "status": "pass",
+  "surface": "worksheet",
+  "template_sandbox": {
+    "adopted": {
+      "expanded_characters": 12465,
+      "expanded_utf8_bytes": 12497,
+      "expanded_utf8_sha256": "cba043d0692525c5aafd43901eaa0437c92ba608b8241f1f3b8f01edf011d951",
+      "request_receipt": {
+        "bytes": 3414,
+        "path": "authority/exports/worksheet21_latex_expand_root_revid1113692_sandbox.json.request.json",
+        "sha256": "e7d9eebda7787c38189a83b0bec1221638408789ca089171c6aaf318bcffc953"
+      },
+      "response": {
+        "bytes": 13311,
+        "path": "authority/exports/worksheet21_latex_expand_root_revid1113692_sandbox.json",
+        "sha256": "867d76a04e929a4ae3d7fd048668f03b6c7cf281504ae45d73f9710dad45cd70"
+      },
+      "root_revid": 1113692
+    },
+    "baseline": {
+      "expanded_characters": 12465,
+      "expanded_utf8_bytes": 12497,
+      "expanded_utf8_sha256": "cba043d0692525c5aafd43901eaa0437c92ba608b8241f1f3b8f01edf011d951",
+      "request_receipt": {
+        "bytes": 3412,
+        "path": "authority/exports/worksheet21_latex_expand_root_revid900559_sandbox.json.request.json",
+        "sha256": "29f459a28a735d8759e996c63b210d3dfc08386426782cc90e6a35444d3c1526"
+      },
+      "response": {
+        "bytes": 13311,
+        "path": "authority/exports/worksheet21_latex_expand_root_revid900559_sandbox.json",
+        "sha256": "867d76a04e929a4ae3d7fd048668f03b6c7cf281504ae45d73f9710dad45cd70"
+      },
+      "root_revid": 900559
+    }
+  },
+  "unit": 21,
+  "workflow": "o011-root-revision-override-transition-v1"
+}

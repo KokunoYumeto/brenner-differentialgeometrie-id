@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 09:34:45 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Mannigfaltigkeit mit Rand/Tangentialraum/Halbraum/Charakterisierung/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 2432,
+  "response_path": "worksheet21_exercise10_solution_latex_expand.json",
+  "response_sha256": "a9a465586f8da1411650e5c00263fd3a7b225b1abfc5c355e82c867637df48a1",
+  "retrieved_utc": "2026-08-28T09:34:45Z",
+  "schema_version": 1
+}

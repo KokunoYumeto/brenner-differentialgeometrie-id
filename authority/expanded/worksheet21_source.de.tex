@@ -1,0 +1,592 @@
+\setcounter{section}{21}
+
+  \zwischenueberschrift{Übungsaufgaben}
+
+\inputaufgabe
+{}
+{
+
+Beschreibe diverse Kleidungsstücke als zweidimensionale
+\definitionsverweis {Mannigfaltigkeiten mit Rand}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Definiere die Konzepte differenzierbare Abbildung, Diffeomorphismus, Tangentialraum, Tangentialbündel ... für
+\definitionsverweis {Mannigfaltigkeiten mit Rand}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Beschreibe
+\definitionsverweis {reelle Intervalle}{}{}
+als
+\definitionsverweis {Mannigfaltigkeiten mit Rand}{}{.}
+Was ist jeweils der
+\definitionsverweis {Rand}{}{,}
+welche sind untereinander
+\definitionsverweis {diffeomorph}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+$\,$
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Circle_on_sphere_wireframe_10deg_6r} {svg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Circle on sphere wireframe 10deg 6r.svg } {} {Itai} {Commons} {CC-by-sa 3.0} {}
+
+Zeige, dass sowohl das blaue als auch das rote Oberflächenstück einschließlich der Begrenzungslinie eine
+\definitionsverweis {Mannigfaltigkeit mit Rand}{}{}
+ist. Was ist der Rand? Sind die beiden Mannigfaltigkeiten
+\definitionsverweis {diffeomorph}{}{?}
+Gibt es eine einfachere dazu diffeomorphe Mannigfaltigkeit?
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+\zusatzklammer {ohne Rand} {} {}
+und $N$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit mit Rand}{}{.}
+Was kann man über das
+\definitionsverweis {Produkt}{}{}
+\mathl{M \times N}{} sagen?
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Zeige, dass der abgeschlossene Annulus
+
+\mathdisp {\left\{ P \in \R^2  \mid   1 \leq \Vert { P } \Vert \leq 2         \right\}} {  }
+
+und der abgeschlossene Zylinder
+
+\mathdisp {S^1 \times [0,1]} {  }
+
+zueinander
+\definitionsverweis {diffeomorphe}{}{} \definitionsverweis {Mannigfaltigkeiten mit Rand}{}{}
+sind.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Begründe, dass der $\R^2$ keine Struktur einer
+\definitionsverweis {Mannigfaltigkeit mit Rand}{}{}
+derart trägt, dass die angegebene Teilmenge $T$ der
+\definitionsverweis {Rand}{}{}
+ist.
+\aufzaehlungvierabc{
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ = }{ {]0,1[}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei das Intervall auf der $x$-Achse liegt.
+}{
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ = }{ [0,1]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei das Intervall auf der $x$-Achse liegt.
+}{
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ = }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $\R$ die $x$-Achse sei.
+}{
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ = }{ S^1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Zeige, dass die zueinander inversen
+\definitionsverweis {Diffeomorphismen}{}{}
+\maabbeledisp {\varphi} { {\mathbb H} } { U \left(   0 , 1  \right)
+} { z} { { \frac{  z-  { \mathrm i}  }{ z + { \mathrm i}  } }
+} {,}
+und
+\maabbeledisp {\psi} { U \left(   0 , 1  \right)  } { {\mathbb H}
+} { w } { { \frac{   (w+1)  { \mathrm i}  }{  1-w  } }
+} {,}
+\zusatzklammer {siehe
+[[Obere Halbebene/Einheitskreis/Rational isomorph/Fakt/Beweis/Aufgabe|Aufgabe 18.10]]} {} {}
+zu Diffeomorphismen
+\zusatzklammer {zwischen
+\definitionsverweis {Mannigfaltigkeiten mit Rand}{}{}} {} {}
+zwischen der abgeschlossenen Halbebene und der abgeschlossenen punktierten Kreisscheibe
+\mathl{B  \left(  0 , 1 \right) \setminus \{  \left(  1   , \,   0                   \right) \}}{} ausgedehnt werden können.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit mit Rand}{}{.}
+Unter einem \stichwort {differenzierbaren Halbweg} {} verstehen wir jede
+\definitionsverweis {differenzierbare Abbildung}{}{}
+\maabbdisp {\gamma} { [0, \epsilon [ } { M
+} {}
+oder
+\maabbdisp {\gamma} {] -\epsilon, 0] } { M
+} {}
+\zusatzklammer {mit \mathlk{\epsilon >0}{.} Sie heißen nach innen bzw. nach außen gerichtet} {} {.}
+Definiere, wann zwei Halbwege mit
+\mathl{\gamma_1(0) = \gamma_2(0) =P \in M}{} \stichwort {tangential äquivalent} {} sind, und zeige, dass dadurch eine Äquivalenzrelation gegeben ist, und dass die
+\definitionsverweis {Quotientenmenge}{}{}
+ein reeller Vektorraum ist, der der \stichwort {Tangentialraum} {} in $P$ heißt. Charakterisiere die Äquivalenzklassen, die sowohl nach innen als auch nach außen repräsentierbar sind.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {Mannigfaltigkeit mit Rand}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ \partial M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Randpunkt. Zeige, dass für einen Tangentialvektor
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+folgende Eigenschaften äquivalent sind.
+\aufzaehlungzwei {Es gibt einen stetig differenzierbaren Weg
+\maabb {\gamma} { [- \epsilon, 0]} { M
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(0)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'(0)
+}
+{ = }{ v
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+} { $v$ wird bei jeder Karte mit einem negativen Halbraum unter der Tangentialabbildung auf den rechten Halbraum abgebildet.
+}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit mit Rand}{}{}
+und es sei
+\maabbdisp {\gamma} {{]{-\epsilon}, \epsilon[}} {M
+} {}
+ein
+\definitionsverweis {differenzierbarer Weg}{}{}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma (0)
+}
+{ =} { P
+}
+{ \in} { \partial M
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Zeige
+\mathl{\gamma'(0) \in T_P \partial M}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {Mannigfaltigkeit mit Rand}{}{.}
+Zeige, dass jede offene Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ N
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ebenfalls eine Mannigfaltigkeit mit
+\zusatzklammer {eventuell leerem} {} {}
+Rand ist, und dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial N
+}
+{ =} { \partial M \cap N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gilt.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ H
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {euklidischer Halbraum}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es gebe eine in $\R^n$ offene Menge $V$ mit
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ V
+}
+{ \subseteq }{ H
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Zeige, dass
+\mathl{P}{} kein Randpunkt von $H$ ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es seien
+\mathl{U_1 \subseteq H_1 \subset \R^n}{}  und
+\mathl{U_2 \subseteq H_2 \subset \R^n}{}
+\definitionsverweis {offene Teilmengen}{}{}
+in
+\definitionsverweis {euklidischen Halbräumen}{}{}
+\mathkor {} {H_1} {und} {H_2} {}
+und es sei
+\maabbdisp {\varphi} {U_1 } { U_2
+} {}
+ein
+\definitionsverweis {Diffeomorphismus}{}{.}
+Zeige, dass es zu jedem Punkt
+\mathl{P\in U_1}{} offene Umgebungen
+\mathl{P\in V_1 \subset \R^n}{} und
+\mathl{\varphi(P) \in V_2 \subset \R^n}{} und eine diffeomorphe Fortsetzung
+\maabbdisp {\tilde{\varphi}} {V_1 } { V_2
+} {}
+gibt.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Die abgeschlossene Kreisscheibe
+\mathl{B  \left(  0 , 1 \right)}{} trage die
+\definitionsverweis {Standardorientierung}{}{}
+des $\R^2$. Läuft die durch die
+\definitionsverweis {äußere Normale}{}{}
+festgelegte Orientierung auf dem Rand
+\zusatzklammer {also auf dem Einheitskreis} {} {} mit dem oder gegen den Uhrzeigersinn?
+
+}
+{} {}
+
+  \zwischenueberschrift{Aufgaben zum Abgeben}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Not-star-shaped} {svg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Not-star-shaped.svg } {} {Oleg Alexandrov} {Commons} {PD} {}
+
+\inputaufgabe
+{4}
+{
+
+Man gebe für den Kreisring
+
+\mavergleichskettedisp
+{\vergleichskette
+{M
+}
+{ =} { \left\{  x \in \R^2  \mid   1 \leq \Vert { x } \Vert \leq 2         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+explizit
+\definitionsverweis {Karten}{}{}
+an, die zeigen, dass $M$ eine
+\definitionsverweis {Mannigfaltigkeit mit Rand}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabe
+{6}
+{
+
+Zeige, dass die
+\definitionsverweis {Halbebene}{}{} $\R_{\geq 0} \times \R$ und der
+\definitionsverweis {Quadrant}{}{}
+\mathl{\R_{\geq 0} \times \R_{\geq 0}}{} nicht
+\definitionsverweis {diffeomorph}{}{}
+sind.
+
+}
+{(Was ist hierbei der geeignete Diffeomorphiebegriff?)} {}
+
+\inputaufgabe
+{6}
+{
+
+Es sei
+\mathl{M= B  \left(  0 , 1 \right) \setminus \{ (0,1), (0,-1)\} \subseteq \R^2}{,} also die
+\definitionsverweis {abgeschlossene Kreisscheibe}{}{,} aus der man zwei Randpunkte herausgenommen hat. Es sei
+\mathl{N={]{-1},1[} \times  [-1,1]}{} das Produkt eines offenen und eines abgeschlossenen Intervalls. Zeige, dass
+\mathkor {} {M} {und} {N} {}
+\definitionsverweis {diffeomorphe}{}{}
+\definitionsverweis {Mannigfaltigkeiten mit Rand}{}{} sind.
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Es seien
+\mathl{V_1,V_2 \subseteq \R^n}{}
+\definitionsverweis {offene Teilmengen}{}{}
+und es sei
+\maabbdisp {\varphi} {V_1 } { V_2
+} {}
+ein
+\definitionsverweis {Diffeomorphismus}{}{,}
+der eine
+\definitionsverweis {Homöomorphie}{}{}
+zwischen
+\mathkor {} {V_1 \cap H} {und} {V_2 \cap H} {}
+induziert und damit auch zwischen
+\mathkor {} {V_1 \cap \partial H} {und} {V_2 \cap \partial H} {}
+\zusatzklammer {$H$ bezeichnet den
+\definitionsverweis {Halbraum}{}{}
+und $\partial H$ seinen Rand} {} {.}
+Zeige, dass die Einschränkung auf den Rand ebenfalls ein
+\definitionsverweis {Diffeomorphismus}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Die abgeschlossene Einheitskugel
+\mathl{B  \left(  0 , 1 \right)}{} trage die
+\definitionsverweis {Standardorientierung}{}{} des $\R^3$. Bestimme, ob die beiden Tangentenvektoren
+\mathkor {} {(2,1,0)} {und} {(3,-1,0)} {}
+am Nordpol
+\mathl{(0,0,1)}{} die durch die
+\definitionsverweis {äußere Normale}{}{} induzierte Orientierung auf dem Rand
+\zusatzklammer {also auf der Einheitssphäre} {} {} repräsentieren oder nicht?
+
+}
+{} {}
+
+ [[Kategorie:Latexseite]]

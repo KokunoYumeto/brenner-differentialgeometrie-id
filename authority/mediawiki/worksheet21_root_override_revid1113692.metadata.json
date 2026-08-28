@@ -1,0 +1,32 @@
+{
+  "authority": "German Wikiversity MediaWiki API exact root-revision override",
+  "exact_utf8_base64_sha256": "191c96e828968af6416e4fce2e2a64a6a7a406e01e2d5f5a17608d1775c99262",
+  "exact_utf8_base64_witness": "authority/mediawiki/worksheet21_root_override_revid1113692.utf8.b64",
+  "format": "text/x-wiki",
+  "mediawiki_sha1": "a23e8d2c74aac049820a5be1607fa86701d7f37c",
+  "mediawiki_sha1_base36": "iy9q4ng85jxtgcvsq0ccw2xco0si1do",
+  "model": "wikitext",
+  "namespace": 106,
+  "pageid": 142655,
+  "parentid": 900559,
+  "readable_normalized_bytes": 2431,
+  "readable_normalized_sha256": "f2841d946844570c99072db8d581adb8f91685b5725994e5a10ae0857596dac4",
+  "readable_normalized_witness": "authority/mediawiki/worksheet21_root_override_revid1113692.wiki",
+  "revid": 1113692,
+  "schema_version": 1,
+  "source_api_request_receipt": {
+    "bytes": 635,
+    "path": "authority/mediawiki/worksheet21_root_override_revid1113692.json.request.json",
+    "sha256": "02dfad1dc05271967a2866f0418a32a96aa3aebd455001ca70795ae39810bf8c"
+  },
+  "source_api_response": {
+    "bytes": 2949,
+    "path": "authority/mediawiki/worksheet21_root_override_revid1113692.json",
+    "sha256": "af28819eba7ba9bd83cfe85394fc3b074c7df1c61e384d9e69aeeee1538aaa44"
+  },
+  "source_utf8_bytes": 2430,
+  "source_utf8_sha1": "a23e8d2c74aac049820a5be1607fa86701d7f37c",
+  "source_utf8_sha256": "9535187f156472de585c46532e67e4508e359e66dd23453e8241bd4299b4d933",
+  "timestamp": "2026-08-27T07:00:27Z",
+  "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 21"
+}

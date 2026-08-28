@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 from pathlib import Path
 
 from freeze_unit_authority import (
@@ -20,7 +21,10 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--unit", type=int, required=True, choices=range(1, 30))
+    parser.add_argument("--output-suffix", default="")
     args = parser.parse_args()
+    if not re.fullmatch(r"[A-Za-z0-9_-]*", args.output_suffix):
+        raise RuntimeError("output suffix must contain only letters, digits, underscores, or hyphens")
     root = args.root.resolve()
     unit = args.unit
     manifest_path = root / f"qa/unit-{unit:02d}/AUTHORITY_PREFLIGHT.json"
@@ -92,7 +96,7 @@ def main() -> None:
         "all_four_frozen_revisions_remain_live_current": matches,
         "status": "pass",
     }
-    output_path = root / f"qa/unit-{unit:02d}/CURRENT_REVISION_CHECK.json"
+    output_path = root / f"qa/unit-{unit:02d}/CURRENT_REVISION_CHECK{args.output_suffix}.json"
     preserve_or_write(output_path, canonical_json(receipt))
     print(json.dumps({**receipt, "receipt": file_entry(output_path, root)}, ensure_ascii=False, indent=2))
 

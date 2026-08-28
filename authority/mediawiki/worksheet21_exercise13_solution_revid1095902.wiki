@@ -1,0 +1,56 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es sei
+{{
+Relationskette/display
+| P
+|| {{op:Spaltenvektor| x_1 | x_2 | \vdots| x_n}} 
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Wir können die im {{math|term= \R^n |SZ=}} offene Umgebung {{math|term= V |SZ=}} durch einen
+{{
+Zusatz/Klammer
+|text=im {{math|term= \R^n |SZ=}} |
+|ISZ=|ESZ=
+}}
+offenen Ball {{mathl|term= {{op:Offener Ball| P | \epsilon}}  |SZ=}} mit
+{{
+Relationskette
+| P
+| \in |   {{op:Offener Ball| P | \epsilon}}
+| \subseteq |  V
+| \subseteq | H
+||
+|SZ=
+}}
+ersetzen. Wenn {{math|term= P |SZ=}} ein Randpunkt wäre, so wäre
+{{
+Relationskette
+| x_1
+|| 0
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Doch dann wäre
+{{
+Relationskette
+| {{op:Spaltenvektor| - {{op:Bruch| \epsilon| 2}} | x_2 | \vdots| x_n}} 
+| \in | {{op:Offener Ball| P | \epsilon}} 
+||
+||
+||
+|SZ=,
+}}
+aber dieser Punkt gehört nicht zu {{math|term= H |SZ=.}} 
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

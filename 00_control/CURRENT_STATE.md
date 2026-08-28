@@ -2,7 +2,7 @@
 
 Updated: 2026-08-28 (Europe/Berlin)
 
-## Current verified boundary — Unit 19 cumulative release public; Unit 20 source checkpoint public; Unit 21 freeze active
+## Current verified boundary — Unit 19 cumulative release public; Unit 20 source checkpoint public; Unit 21 authority admitted and translation active
 
 Units 1–19 now pass the complete local reader and additive-backend gate. The
 current centered A4 PDF is 302 pages and 7,740,452 bytes, SHA-256
@@ -120,6 +120,38 @@ their local byte counts and SHA-256 values exactly. The 3,396-byte receipt is
 The next executable action is the exact Unit 21 authority freeze and
 source-ordered translation; the next consolidated PDF/HTML/backend/publication
 boundary remains Units 20–22. The full O011 goal remains unfinished.
+
+Unit 21 is now admitted through an exact, independently verified authority
+closure. Lecture 21 remains pageid/revision `142565 / 897931`; Worksheet 21 is
+pageid/revision `142655 / 1113692`. The latter intentionally supersedes the
+recursive-export baseline revision `900559`: the official revision comparison
+shows one source repair only, adding the missing trailing `|` to the
+`Not-star-shaped.svg` image macro. Both baseline and adopted witnesses remain
+preserved. The transition receipt additionally proves that the baseline,
+adopted, and already-frozen worksheet expansions are byte-identical at 12,497
+UTF-8 bytes, SHA-256
+`cba043d0692525c5aafd43901eaa0437c92ba608b8241f1f3b8f01edf011d951`;
+its own SHA-256 is
+`ddcec3f3b05ccb47b188814cdf8f5711b860c056d49ca0ba0c187c0236fcbae8`.
+The 52,253-byte preflight has SHA-256
+`ef14f5ffa01482dd67596adff3ef4c29d931c3c234979f2cbbb41f7e5089f194`;
+its independent offline verifier has SHA-256
+`d9ca3fd9f6767c393f37c996aff5bc0a4f11be0dea98520af89cc3f305cba0b6`;
+and the final live-current receipt `qa/unit-21/CURRENT_REVISION_CHECK_R2.json`
+has SHA-256
+`0cc4febad5958fca8432f7aed16867cb8a9d9215ac40b57945111a453d329bbd`.
+
+The admitted Unit 21 expansion contains a 24,383-byte lecture (SHA-256
+`3bd477b25e7061b022dab80c007fcdaef0c72c3674e6b61651e2bf598811e9d9`)
+and a 10,004-byte worksheet (SHA-256
+`07915c64bad243ef085524475108f94b38f2e4432c787466b752ff1dec48743e`).
+Its 20 exercises comprise 15 practice and five graded items totaling 24
+points; exactly Solutions 7, 10, 12, and 13 are source-supplied and all hint
+fields are blank. Three exact media assets are admitted: two public-domain SVGs
+and `Circle on sphere wireframe 10deg 6r.svg` under CC BY 3.0, with creator and
+rights metadata retained. The next executable action is to prepare and
+translate the complete lecture, worksheet, and four supplied solutions in
+source order while preserving those three media assets.
 
 ## Objective
 

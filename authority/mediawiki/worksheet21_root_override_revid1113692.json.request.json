@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 09:39:28 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "revids": "1113692",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main"
+  },
+  "response_bytes": 2949,
+  "response_path": "worksheet21_root_override_revid1113692.json",
+  "response_sha256": "af28819eba7ba9bd83cfe85394fc3b074c7df1c61e384d9e69aeeee1538aaa44",
+  "retrieved_utc": "2026-08-28T09:39:28Z",
+  "schema_version": 1
+}

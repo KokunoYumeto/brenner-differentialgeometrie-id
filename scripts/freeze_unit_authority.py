@@ -13,6 +13,7 @@ from __future__ import annotations
 import argparse
 import base64
 import csv
+import difflib
 import hashlib
 import html
 import io
@@ -343,6 +344,257 @@ def freeze_xml_witness(
     preserve_or_write(metadata_path, canonical_json(metadata))
     metadata["metadata"] = file_entry(metadata_path, root)
     return metadata, content
+
+
+def freeze_api_revision_witness(
+    root: Path,
+    title: str,
+    revid: int,
+    stem: str,
+) -> tuple[dict[str, Any], str]:
+    """Freeze one explicitly selected root revision outside the course export.
+
+    The whole-course recursive export remains the reproducibility baseline.  A
+    later official root-page repair can nevertheless be adopted without
+    silently mixing its current expansion with the older root witness.  This
+    helper preserves the exact API response and request identity, then creates
+    the same lossless source witnesses used for export-backed pages.
+    """
+    query_path = root / "authority/mediawiki" / f"{stem}.json"
+    parameters = {
+        "action": "query",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "revisions",
+        "rvprop": "ids|timestamp|sha1|content",
+        "rvslots": "main",
+        "revids": str(revid),
+    }
+    response_bytes, _ = fetch_frozen_api(query_path, WIKIVERSITY_API, parameters)
+    payload = json.loads(response_bytes.decode("utf-8"))
+    pages = payload.get("query", {}).get("pages", [])
+    if len(pages) != 1:
+        raise RuntimeError(f"expected one API page for exact revision {revid}")
+    page = pages[0]
+    revisions = page.get("revisions") or []
+    if page.get("title") != title or len(revisions) != 1:
+        raise RuntimeError(f"exact revision {revid} resolved to an unexpected page")
+    revision = revisions[0]
+    if int(revision.get("revid", -1)) != revid:
+        raise RuntimeError(f"API returned the wrong exact revision for {title}")
+    slot = revision.get("slots", {}).get("main", {})
+    content = slot.get("content")
+    if not isinstance(content, str):
+        raise RuntimeError(f"exact revision {revid} has no main-slot content")
+    content_bytes = content.encode("utf-8")
+    if sha(content_bytes, "sha1") != revision.get("sha1"):
+        raise RuntimeError(f"MediaWiki SHA-1 mismatch for exact revision {revid}")
+
+    exact_path = root / "authority/mediawiki" / f"{stem}.utf8.b64"
+    readable_path = root / "authority/mediawiki" / f"{stem}.wiki"
+    metadata_path = root / "authority/mediawiki" / f"{stem}.metadata.json"
+    exact_bytes = (base64.b64encode(content_bytes).decode("ascii") + "\n").encode("ascii")
+    readable_bytes = (
+        content.replace("\r\n", "\n").replace("\r", "\n").rstrip() + "\n"
+    ).encode("utf-8")
+    metadata = {
+        "schema_version": 1,
+        "authority": "German Wikiversity MediaWiki API exact root-revision override",
+        "source_api_response": file_entry(query_path, root),
+        "source_api_request_receipt": file_entry(
+            query_path.with_suffix(query_path.suffix + ".request.json"), root
+        ),
+        "pageid": int(page["pageid"]),
+        "namespace": int(page["ns"]),
+        "title": page["title"],
+        "revid": int(revision["revid"]),
+        "parentid": int(revision["parentid"]),
+        "timestamp": revision["timestamp"],
+        "mediawiki_sha1": revision["sha1"],
+        "mediawiki_sha1_base36": mediawiki_sha1_base36(content_bytes),
+        "model": slot.get("contentmodel"),
+        "format": slot.get("contentformat"),
+        "source_utf8_bytes": len(content_bytes),
+        "source_utf8_sha1": sha(content_bytes, "sha1"),
+        "source_utf8_sha256": sha(content_bytes),
+        "exact_utf8_base64_witness": rel(exact_path, root),
+        "exact_utf8_base64_sha256": sha(exact_bytes),
+        "readable_normalized_witness": rel(readable_path, root),
+        "readable_normalized_bytes": len(readable_bytes),
+        "readable_normalized_sha256": sha(readable_bytes),
+    }
+    preserve_or_write(exact_path, exact_bytes)
+    preserve_or_write(readable_path, readable_bytes)
+    preserve_or_write(metadata_path, canonical_json(metadata))
+    metadata["metadata"] = file_entry(metadata_path, root)
+    return metadata, content
+
+
+def freeze_revision_compare(
+    root: Path,
+    stem: str,
+    fromrevid: int,
+    torevid: int,
+) -> dict[str, Any]:
+    """Freeze the official diff that justifies an explicit root override."""
+    path = root / "authority/mediawiki" / f"{stem}.json"
+    parameters = {
+        "action": "compare",
+        "format": "json",
+        "formatversion": "2",
+        "fromrev": str(fromrevid),
+        "torev": str(torevid),
+        "prop": "ids|title|diff|user|comment|parsedcomment|size",
+    }
+    response_bytes, _ = fetch_frozen_api(path, WIKIVERSITY_API, parameters)
+    payload = json.loads(response_bytes.decode("utf-8"))
+    comparison = payload.get("compare", {})
+    if (
+        int(comparison.get("fromrevid", -1)) != fromrevid
+        or int(comparison.get("torevid", -1)) != torevid
+    ):
+        raise RuntimeError("revision comparison returned unexpected identities")
+    return {
+        "response": file_entry(path, root),
+        "request_receipt": file_entry(
+            path.with_suffix(path.suffix + ".request.json"), root
+        ),
+        "fromsize": int(comparison["fromsize"]),
+        "tosize": int(comparison["tosize"]),
+    }
+
+
+def source_delta_operations(baseline: str, adopted: str) -> list[dict[str, Any]]:
+    operations: list[dict[str, Any]] = []
+    for tag, i1, i2, j1, j2 in difflib.SequenceMatcher(
+        None, baseline, adopted, autojunk=False
+    ).get_opcodes():
+        if tag == "equal":
+            continue
+        operations.append(
+            {
+                "operation": tag,
+                "baseline_span": [i1, i2],
+                "adopted_span": [j1, j2],
+                "baseline_text": baseline[i1:i2],
+                "adopted_text": adopted[j1:j2],
+            }
+        )
+    return operations
+
+
+def freeze_root_override_transition(
+    root: Path,
+    unit: int,
+    surface_key: str,
+    root_title: str,
+    latex_surface_title: str,
+    baseline_page: dict[str, Any],
+    baseline_text: str,
+    adopted_page: dict[str, Any],
+    adopted_text: str,
+    live_expansion: dict[str, Any],
+) -> dict[str, Any]:
+    """Prove a root override does not silently change the frozen expansion."""
+    if adopted_page["pageid"] != baseline_page["pageid"]:
+        raise RuntimeError("root override changed page identity")
+    if adopted_page["parentid"] != baseline_page["revid"]:
+        raise RuntimeError("root override is not a direct child of the export baseline")
+
+    sandbox_rows: dict[str, dict[str, Any]] = {}
+    expanded_texts: dict[str, str] = {}
+    for label, revision, source_text in (
+        ("baseline", int(baseline_page["revid"]), baseline_text),
+        ("adopted", int(adopted_page["revid"]), adopted_text),
+    ):
+        path = (
+            root
+            / "authority/exports"
+            / f"{surface_key}{unit:02d}_latex_expand_root_revid{revision}_sandbox.json"
+        )
+        parameters = {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "title": latex_surface_title,
+            "text": "{{Latex}}",
+            "templatesandboxtitle": root_title,
+            "templatesandboxtext": source_text,
+        }
+        response_bytes, _ = fetch_frozen_api(path, WIKIVERSITY_API, parameters)
+        payload = json.loads(response_bytes.decode("utf-8"))
+        expanded = payload.get("expandtemplates", {}).get("wikitext")
+        if not isinstance(expanded, str):
+            raise RuntimeError("TemplateSandbox expansion lacks wikitext")
+        expanded_texts[label] = expanded
+        sandbox_rows[label] = {
+            "root_revid": revision,
+            "response": file_entry(path, root),
+            "request_receipt": file_entry(
+                path.with_suffix(path.suffix + ".request.json"), root
+            ),
+            "expanded_characters": len(expanded),
+            "expanded_utf8_bytes": len(expanded.encode("utf-8")),
+            "expanded_utf8_sha256": sha(expanded.encode("utf-8")),
+        }
+
+    live_response_path = root / live_expansion["response"]["path"]
+    live_payload = json.loads(live_response_path.read_text(encoding="utf-8"))
+    live_text = live_payload.get("expandtemplates", {}).get("wikitext")
+    if not isinstance(live_text, str):
+        raise RuntimeError("frozen live expansion lacks wikitext")
+    all_equal = (
+        expanded_texts["baseline"] == expanded_texts["adopted"] == live_text
+    )
+    if not all_equal:
+        raise RuntimeError("root override changes the already-frozen official expansion")
+
+    receipt = {
+        "schema_version": 1,
+        "workflow": "o011-root-revision-override-transition-v1",
+        "unit": unit,
+        "surface": surface_key,
+        "root_title": root_title,
+        "latex_surface_title": latex_surface_title,
+        "baseline": {
+            "pageid": baseline_page["pageid"],
+            "revid": baseline_page["revid"],
+            "source_utf8_bytes": baseline_page["source_utf8_bytes"],
+            "source_utf8_sha256": baseline_page["source_utf8_sha256"],
+        },
+        "adopted": {
+            "pageid": adopted_page["pageid"],
+            "revid": adopted_page["revid"],
+            "parentid": adopted_page["parentid"],
+            "timestamp": adopted_page["timestamp"],
+            "source_utf8_bytes": adopted_page["source_utf8_bytes"],
+            "source_utf8_sha256": adopted_page["source_utf8_sha256"],
+        },
+        "adopted_is_direct_child": True,
+        "source_utf8_byte_delta": len(adopted_text.encode("utf-8"))
+        - len(baseline_text.encode("utf-8")),
+        "source_delta_operations": source_delta_operations(
+            baseline_text, adopted_text
+        ),
+        "template_sandbox": sandbox_rows,
+        "existing_frozen_expansion": {
+            "response": live_expansion["response"],
+            "request_receipt": live_expansion["request_receipt"],
+            "expanded_characters": len(live_text),
+            "expanded_utf8_bytes": len(live_text.encode("utf-8")),
+            "expanded_utf8_sha256": sha(live_text.encode("utf-8")),
+        },
+        "baseline_adopted_and_existing_expansions_byte_identical": all_equal,
+        "status": "pass",
+    }
+    output_path = (
+        root
+        / f"qa/unit-{unit:02d}"
+        / f"{surface_key.upper()}_ROOT_OVERRIDE_TRANSITION.json"
+    )
+    write_generated(output_path, canonical_json(receipt))
+    return file_entry(output_path, root)
 
 
 def run_sanitizer(root: Path, response: Path, output: Path, receipt: Path) -> None:
@@ -927,11 +1179,22 @@ def render_markdown(manifest: dict[str, Any]) -> str:
             f"| {md_escape(key)} | {item['pageid']} | {item['revid']} | "
             f"{item['timestamp']} | `{item['mediawiki_sha1_base36']}` | {item['source_utf8_bytes']} |"
         )
+    if authority.get("root_revision_overrides"):
+        root_identity_note = (
+            "The recursive export remains the four-surface baseline, but each explicitly listed root override "
+            "is an exact later official revision frozen through a request-bound MediaWiki API response. "
+            "Both the superseded export witness and the adopted root witness remain hash-bound; the page table "
+            "shows the revision actually admitted for this unit."
+        )
+    else:
+        root_identity_note = (
+            "The root identities come from the already-frozen recursive export and selected-revision manifests. "
+            "Each of the four page bodies now also has an exact UTF-8 base64 witness, a readable normalized witness, and hash-bound metadata."
+        )
     lines.extend(
         [
             "",
-            "The root identities come from the already-frozen recursive export and selected-revision manifests. "
-            "Each of the four page bodies now also has an exact UTF-8 base64 witness, a readable normalized witness, and hash-bound metadata.",
+            root_identity_note,
             "",
             "## Official expanded LaTeX",
             "",
@@ -1028,6 +1291,8 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     parser.add_argument("--unit", type=int, required=True, choices=range(1, 30))
+    parser.add_argument("--lecture-root-revid", type=int)
+    parser.add_argument("--worksheet-root-revid", type=int)
     args = parser.parse_args()
     root = args.root.resolve()
     unit = args.unit
@@ -1085,6 +1350,60 @@ def main() -> None:
         f"worksheet{unit:02d}_latex_surface_revid{selected['worksheet_latex']['revid']}",
     )
 
+    lecture_root_baseline_text = lecture_root_text
+    worksheet_root_baseline_text = worksheet_root_text
+
+    root_revision_baselines: dict[str, Any] = {}
+    root_revision_overrides: dict[str, Any] = {}
+    if args.lecture_root_revid is not None:
+        root_revision_baselines["lecture_root"] = page_records["lecture_root"]
+        adopted, lecture_root_text = freeze_api_revision_witness(
+            root,
+            lecture_root_title,
+            args.lecture_root_revid,
+            f"lecture{unit:02d}_root_override_revid{args.lecture_root_revid}",
+        )
+        if adopted["pageid"] != page_records["lecture_root"]["pageid"]:
+            raise RuntimeError("lecture root override changed the page identity")
+        page_records["lecture_root"] = adopted
+        root_revision_overrides["lecture_root"] = {
+            "baseline_revid": int(selected["lecture_root"]["revid"]),
+            "adopted_revid": args.lecture_root_revid,
+            "basis": "explicit exact official revision newer than the recursive-export baseline",
+            "api_response": adopted["source_api_response"],
+            "api_request_receipt": adopted["source_api_request_receipt"],
+            "official_revision_compare": freeze_revision_compare(
+                root,
+                f"lecture{unit:02d}_root_revid{selected['lecture_root']['revid']}_to_{args.lecture_root_revid}_compare",
+                int(selected["lecture_root"]["revid"]),
+                args.lecture_root_revid,
+            ),
+        }
+    if args.worksheet_root_revid is not None:
+        root_revision_baselines["worksheet_root"] = page_records["worksheet_root"]
+        adopted, worksheet_root_text = freeze_api_revision_witness(
+            root,
+            worksheet_root_title,
+            args.worksheet_root_revid,
+            f"worksheet{unit:02d}_root_override_revid{args.worksheet_root_revid}",
+        )
+        if adopted["pageid"] != page_records["worksheet_root"]["pageid"]:
+            raise RuntimeError("worksheet root override changed the page identity")
+        page_records["worksheet_root"] = adopted
+        root_revision_overrides["worksheet_root"] = {
+            "baseline_revid": int(selected["worksheet_root"]["revid"]),
+            "adopted_revid": args.worksheet_root_revid,
+            "basis": "explicit exact official revision newer than the recursive-export baseline",
+            "api_response": adopted["source_api_response"],
+            "api_request_receipt": adopted["source_api_request_receipt"],
+            "official_revision_compare": freeze_revision_compare(
+                root,
+                f"worksheet{unit:02d}_root_revid{selected['worksheet_root']['revid']}_to_{args.worksheet_root_revid}_compare",
+                int(selected["worksheet_root"]["revid"]),
+                args.worksheet_root_revid,
+            ),
+        }
+
     lecture_expansion = freeze_expansion(
         root,
         root / "authority/exports" / f"lecture{unit:02d}_latex_expand.json",
@@ -1099,6 +1418,36 @@ def main() -> None:
         qa_dir / f"worksheet{unit:02d}_sanitize.json",
         worksheet_surface_title,
     )
+    if "lecture_root" in root_revision_overrides:
+        root_revision_overrides["lecture_root"]["transition_receipt"] = (
+            freeze_root_override_transition(
+                root,
+                unit,
+                "lecture",
+                lecture_root_title,
+                lecture_surface_title,
+                root_revision_baselines["lecture_root"],
+                lecture_root_baseline_text,
+                page_records["lecture_root"],
+                lecture_root_text,
+                lecture_expansion,
+            )
+        )
+    if "worksheet_root" in root_revision_overrides:
+        root_revision_overrides["worksheet_root"]["transition_receipt"] = (
+            freeze_root_override_transition(
+                root,
+                unit,
+                "worksheet",
+                worksheet_root_title,
+                worksheet_surface_title,
+                root_revision_baselines["worksheet_root"],
+                worksheet_root_baseline_text,
+                page_records["worksheet_root"],
+                worksheet_root_text,
+                worksheet_expansion,
+            )
+        )
     lecture_text = (root / lecture_expansion["sanitized_source"]["path"]).read_text(encoding="utf-8")
     worksheet_text = (root / worksheet_expansion["sanitized_source"]["path"]).read_text(encoding="utf-8")
     exercises = parse_tasks(worksheet_root_text, worksheet_text)
@@ -1149,6 +1498,8 @@ def main() -> None:
             "root_revision_manifest": file_entry(root_manifest_path, root),
             "surface_revision_manifest": file_entry(surface_manifest_path, root),
             "pages": page_records,
+            "root_revision_baselines": root_revision_baselines,
+            "root_revision_overrides": root_revision_overrides,
         },
         "expansions": {"lecture": lecture_expansion, "worksheet": worksheet_expansion},
         "structure": {

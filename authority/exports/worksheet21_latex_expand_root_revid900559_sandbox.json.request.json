@@ -1,0 +1,21 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 09:45:20 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "templatesandboxtext": "{{Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblattgestaltung|21|\n\n{{Zwischenüberschrift|Übungsaufgaben}}\n\n{{\ninputaufgabe\n|Kleidung/Mannigfaltigkeit mit Rand/Aufgabe||\n|zusatz=\n|tipp=\n}}\n\n{{\ninputaufgabe\n|Mannigfaltigkeit mit Rand/Differenzierbare Abbildung/Tangentialraum/Begriffseinführung/Aufgabe||\n|zusatz=\n|tipp=\n}}\n\n{{\ninputaufgabe\n|Mannigfaltigkeit mit Rand/Intervall/Aufgabe||\n|zusatz=\n|tipp=\n}}\n\n{{\ninputaufgabe\n|Kugeloberfläche/Kreis/Berandete Mannigfaltigkeiten/Aufgabe||\n|zusatz=\n|tipp=\n}}\n\n{{\ninputaufgabe\n|Mannigfaltigkeit mit und ohne Rand/Produkt/Aufgabe||\n|zusatz=\n|tipp=\n}}\n\n{{\ninputaufgabe\n|Annulus/Zylinder/Mannigfaltigkeiten mit Rand/Diffeomorph/Aufgabe||\n|zusatz=\n|tipp=\n}}\n\n{{\ninputaufgabe\n|Reelle Ebene/Eindimensionale Teilmenge/Mannigfaltigkeit mit Rand/Aufgabe||\n|zusatz=\n|tipp=\n}}\n\n{{\ninputaufgabe\n|Obere Halbebene/Einheitskreis/Rational isomorph/Ausdehnung/Aufgabe||\n|zusatz=\n|tipp=\n}}\n\n{{\ninputaufgabe\n|Mannigfaltigkeit mit Rand/Innerer und äußerer Halbweg/Äquivalenz/Tangentialraum/Aufgabe||\n|zusatz=\n|tipp=\n}}\n\n{{\ninputaufgabe\n|Mannigfaltigkeit mit Rand/Tangentialraum/Halbraum/Charakterisierung/Aufgabe||\n|zusatz=\n|tipp=\n}}\n\n{{\ninputaufgabe\n|Mannigfaltigkeit mit Rand/Durchgängiger Weg/Tangential zum Rand/Aufgabe||\n|zusatz=\n|tipp=\n}}\n\n{{\ninputaufgabe\n|Mannigfaltigkeit mit Rand/Offene Teilmenge/Aufgabe||\n|zusatz=\n|tipp=\n}}\n\n{{\ninputaufgabe\n|Halbraum/Randpunkt/Keine offene Menge im Raum/Aufgabe||\n|zusatz=\n|tipp=\n}}\n\n{{\ninputaufgabe\n|Halbraum/Offene Menge/Diffeomorphismus/Offene Umgebung/Aufgabe||\n|zusatz=\n|tipp=\n}}\n\n{{\ninputaufgabe\n|Kreisscheibe/Standardorientierung/Randorientierung/Aufgabe||\n|zusatz=\n|tipp=\n}}\n\n{{Zwischenüberschrift|Aufgaben zum Abgeben}}\n\n{{\ninputbild\n|Not-star-shaped|svg| 200px {{!}} right {{!}} \n|Text=\n|Autor=\n|Benutzer=Oleg Alexandrov\n|Domäne=\n|Lizenz=PD\n|Bemerkung=\n}}\n{{\ninputaufgabe\n|Kreisring/Explizite Karten/Aufgabe|p|\n|zusatz=\n|tipp=\n}}\n\n{{\ninputaufgabe\n|Halbebene und Quadrant/Nicht diffeomorph/Aufgabe|p|\n|zusatz=(Was ist hierbei der geeignete Diffeomorphiebegriff?)\n|tipp=\n}}\n\n{{\ninputaufgabe\n|Zweifach punktierte Kreisscheibe/Offenes x abgeschlossenes Intervall/Diffeomorph/Aufgabe|p|\n|zusatz=\n|tipp=\n}}\n\n{{\ninputaufgabe\n|Diffeomorphismus/Halbraum_auf_Halbraum/Induziert_Diffeomorphismus/Aufgabe|p|\n|zusatz=\n|tipp=\n}}\n\n{{\ninputaufgabe\n|Kugeloberfläche/Standardorientierung/Nordpol/(2,1,0) und (3,-1,0)/Aufgabe|p|\n|zusatz=\n|tipp=\n}}\n\n}}",
+    "templatesandboxtitle": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 21",
+    "text": "{{Latex}}",
+    "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 21/latex"
+  },
+  "response_bytes": 13311,
+  "response_path": "worksheet21_latex_expand_root_revid900559_sandbox.json",
+  "response_sha256": "867d76a04e929a4ae3d7fd048668f03b6c7cf281504ae45d73f9710dad45cd70",
+  "retrieved_utc": "2026-08-28T09:45:21Z",
+  "schema_version": 1
+}

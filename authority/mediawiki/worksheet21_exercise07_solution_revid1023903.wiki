@@ -1,0 +1,82 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+a) Der Rand {{mathl|term= \partial M |SZ=}} einer Mannigfaltigkeit mit Rand ist nach
+{{
+Faktlink
+|Faktseitenname=
+Mannigfaltigkeit mit Rand/Rand/Elementare Eigenschaften/Fakt
+|Nr=2
+|SZ=
+}}
+{{
+Definitionslink
+|abgeschlossen|
+|SZ=,
+}}
+das offene Intervall als Teilmenge des {{math|term= \R^2 |SZ=}} ist aber nicht abgeschlossen.
+
+b) Der Rand {{mathl|term= \partial M |SZ=}} einer Mannigfaltigkeit mit Rand ist nach
+{{
+Faktlink
+|Faktseitenname=
+Mannigfaltigkeit mit Rand/Rand ist Mannigfaltigkeit/Fakt
+|Nr=
+|SZ=
+}}
+eine Mannigfaltigkeit ohne Rand, das abgeschlossene Intervall besitzt aber Randpunkte.
+
+c) Es sei angenommen, dass {{math|term= \R^2 |SZ=}} eine Mannigfaltigkeit mit dem Rand {{mathl|term= \R = \R \times \{0\} |SZ=}} ist. Zu {{mathl|term= P \in \R|SZ=}} gibt es dann eine offene Umgebung {{mathl|term= P\in U |SZ=}} und eine Homöomorphie
+{{
+Abbildung/display
+|name=\alpha
+| U |V
+||
+|SZ=
+}}
+mit einer offenen Menge {{math|term= V \subseteq H |SZ=,}} wobei {{math|term= H |SZ=}} eine Halbebene bezeichnet. Dabei können wir {{math|term= V |SZ=}} durch eine kleinere offene Halbballumgebung um {{math|term= P |SZ=}} ersetzen. Bei einer solchen Karte werden nach
+{{
+Faktlink
+|Faktseitenname=
+Mannigfaltigkeit mit Rand/Rand/Elementare Eigenschaften/Fakt
+|Nr=2
+|SZ=
+}}
+Randpunkte auf Randpunkte abgebildet, d.h. es ist
+{{
+Relationskette/display
+|\alpha ( U \cap \R  )
+|| V \cap \delta H
+||
+||
+||
+|SZ=.
+}}
+Damit erhält man auch eine Homöomorphie zwischen den Komplementen, also zwischen
+{{
+mathkor|term1=
+U \setminus U \cap \R
+|und|term2=
+V \setminus V \cap \delta H
+|SZ=.
+}}
+Die Halbballumgebung rechts ist aber 
+{{
+Definitionslink
+|wegzusammenhängend|
+|Vektorraum/K/Norm=mr|
+|SZ=,
+}}
+wohingegen die Menge links die disjunkte Vereinigung der Schnitte mit der positiven bzw. der negativen Hälfte ist, die beide offen und auch nicht leer sind, da {{math|term= U |SZ=}} eine Ballumgebung von {{math|term= P |SZ=}} enthält. Daher ist die Menge links nicht zusammenhängend und es kann keine Homöomorphie geben.
+
+d) wie c).
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

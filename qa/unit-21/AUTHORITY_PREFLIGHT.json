@@ -1,0 +1,1164 @@
+{
+  "authority": {
+    "course_recursive_export": {
+      "bytes": 3538709,
+      "path": "authority/mediawiki/brenner_course_recursive_current.xml",
+      "sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14"
+    },
+    "latex_surface_recursive_export": {
+      "bytes": 3722387,
+      "path": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+      "sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c"
+    },
+    "pages": {
+      "lecture_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture21_latex_surface_revid807127.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1200,
+          "path": "authority/mediawiki/lecture21_latex_surface_revid807127.metadata.json",
+          "sha256": "099cc0d69ce6609c90b6ab67cfbe98a0f8c0f9776014225bae16f481f6d4cfd3"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142595,
+        "parentid": 799036,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/lecture21_latex_surface_revid807127.wiki",
+        "revid": 807127,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T10:00:40Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 21/latex"
+      },
+      "lecture_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "e57dcaf45b14f50c540c48e1100bc1e3589439652838049024ec9308ec79e834",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture21_root_revid897931.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "a8cn6qn15d300xl36ts35cxtupslxk9",
+        "metadata": {
+          "bytes": 1170,
+          "path": "authority/mediawiki/lecture21_root_revid897931.metadata.json",
+          "sha256": "a93bd2e6549063a83700e45d648e62b40e7c7ccde67add83b5225d839775c14e"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142565,
+        "parentid": 887584,
+        "readable_normalized_bytes": 986,
+        "readable_normalized_sha256": "5ec8346ac5c134d87bbc0650d5c1826e6a726a077385ed11d374d3a4ff7adb8d",
+        "readable_normalized_witness": "authority/mediawiki/lecture21_root_revid897931.wiki",
+        "revid": 897931,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 985,
+        "source_utf8_sha1": "57981cd0e6617c80c891f3fab7e37bdeada95d29",
+        "source_utf8_sha256": "6864a45a6174ea73d1edbcff612c145883221e35fce6611a750a35147cf51ed1",
+        "timestamp": "2023-06-05T10:06:22Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 21"
+      },
+      "worksheet_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet21_latex_surface_revid807096.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1207,
+          "path": "authority/mediawiki/worksheet21_latex_surface_revid807096.metadata.json",
+          "sha256": "cc49ea8542c66b5b5747c36f93524949bda917fae95c99841921a1dab94e6d53"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142685,
+        "parentid": 799005,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/worksheet21_latex_surface_revid807096.wiki",
+        "revid": 807096,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T09:55:30Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 21/latex"
+      },
+      "worksheet_root": {
+        "authority": "German Wikiversity MediaWiki API exact root-revision override",
+        "exact_utf8_base64_sha256": "191c96e828968af6416e4fce2e2a64a6a7a406e01e2d5f5a17608d1775c99262",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet21_root_override_revid1113692.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1": "a23e8d2c74aac049820a5be1607fa86701d7f37c",
+        "mediawiki_sha1_base36": "iy9q4ng85jxtgcvsq0ccw2xco0si1do",
+        "metadata": {
+          "bytes": 1543,
+          "path": "authority/mediawiki/worksheet21_root_override_revid1113692.metadata.json",
+          "sha256": "178c8dc61a398e7698fcdc35cb39523ef1bdee143786ae724e023a2fe4de03b1"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142655,
+        "parentid": 900559,
+        "readable_normalized_bytes": 2431,
+        "readable_normalized_sha256": "f2841d946844570c99072db8d581adb8f91685b5725994e5a10ae0857596dac4",
+        "readable_normalized_witness": "authority/mediawiki/worksheet21_root_override_revid1113692.wiki",
+        "revid": 1113692,
+        "schema_version": 1,
+        "source_api_request_receipt": {
+          "bytes": 635,
+          "path": "authority/mediawiki/worksheet21_root_override_revid1113692.json.request.json",
+          "sha256": "02dfad1dc05271967a2866f0418a32a96aa3aebd455001ca70795ae39810bf8c"
+        },
+        "source_api_response": {
+          "bytes": 2949,
+          "path": "authority/mediawiki/worksheet21_root_override_revid1113692.json",
+          "sha256": "af28819eba7ba9bd83cfe85394fc3b074c7df1c61e384d9e69aeeee1538aaa44"
+        },
+        "source_utf8_bytes": 2430,
+        "source_utf8_sha1": "a23e8d2c74aac049820a5be1607fa86701d7f37c",
+        "source_utf8_sha256": "9535187f156472de585c46532e67e4508e359e66dd23453e8241bd4299b4d933",
+        "timestamp": "2026-08-27T07:00:27Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 21"
+      }
+    },
+    "root_revision_baselines": {
+      "worksheet_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "e8c614b16fa74419a42ee6630becbbb8298a27794b62e28a78ec9d0ab4a1b2c1",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet21_root_revid900559.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "54hnq3dmudl0t6ux22tkhy1w5doqokx",
+        "metadata": {
+          "bytes": 1179,
+          "path": "authority/mediawiki/worksheet21_root_revid900559.metadata.json",
+          "sha256": "c7452952e67585ab4893fcdccdf8aaf211897ceb534eeec9c186a6da2e7c24b5"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142655,
+        "parentid": 899646,
+        "readable_normalized_bytes": 2430,
+        "readable_normalized_sha256": "7e254ae026193c5b7a2e2f5007bec385b93d202c75d88f4be47375609944e5e8",
+        "readable_normalized_witness": "authority/mediawiki/worksheet21_root_revid900559.wiki",
+        "revid": 900559,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 2429,
+        "source_utf8_sha1": "2bdf3a38583012fddf972217a365c02987f0baf1",
+        "source_utf8_sha256": "c3427f1ab0505f37ef4cfdf74c4b2a9fad026b12c77760a3b0021e5b74d5d18f",
+        "timestamp": "2023-06-30T08:47:56Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 21"
+      }
+    },
+    "root_revision_manifest": {
+      "bytes": 15237,
+      "path": "authority/brenner_selected_root_revisions.csv",
+      "sha256": "64cf91594907db45355e64fb512fb14092e15218c74847a8f60fe884a5284fc8"
+    },
+    "root_revision_overrides": {
+      "worksheet_root": {
+        "adopted_revid": 1113692,
+        "api_request_receipt": {
+          "bytes": 635,
+          "path": "authority/mediawiki/worksheet21_root_override_revid1113692.json.request.json",
+          "sha256": "02dfad1dc05271967a2866f0418a32a96aa3aebd455001ca70795ae39810bf8c"
+        },
+        "api_response": {
+          "bytes": 2949,
+          "path": "authority/mediawiki/worksheet21_root_override_revid1113692.json",
+          "sha256": "af28819eba7ba9bd83cfe85394fc3b074c7df1c61e384d9e69aeeee1538aaa44"
+        },
+        "baseline_revid": 900559,
+        "basis": "explicit exact official revision newer than the recursive-export baseline",
+        "official_revision_compare": {
+          "fromsize": 2429,
+          "request_receipt": {
+            "bytes": 640,
+            "path": "authority/mediawiki/worksheet21_root_revid900559_to_1113692_compare.json.request.json",
+            "sha256": "4deda016efb8ceb4a4007fff310255963acd78dda65a8cca049452153325870f"
+          },
+          "response": {
+            "bytes": 1877,
+            "path": "authority/mediawiki/worksheet21_root_revid900559_to_1113692_compare.json",
+            "sha256": "9154f3930ab4cbcc30c7feb571b208eb650db5dc763c099102b12fb47d9d5138"
+          },
+          "tosize": 2430
+        },
+        "transition_receipt": {
+          "bytes": 3186,
+          "path": "qa/unit-21/WORKSHEET_ROOT_OVERRIDE_TRANSITION.json",
+          "sha256": "ddcec3f3b05ccb47b188814cdf8f5711b860c056d49ca0ba0c187c0236fcbae8"
+        }
+      }
+    },
+    "surface_revision_manifest": {
+      "bytes": 31799,
+      "path": "authority/brenner_selected_surface_revisions.csv",
+      "sha256": "9a3a6b7dc08cc022803dad24e959365d67810d4da87a8bc4385c601db9d4bd52"
+    }
+  },
+  "checks": {
+    "all_candidate_solution_titles_queried": true,
+    "all_displayed_images_have_license_macros": true,
+    "all_point_markers_resolved": true,
+    "all_supplied_solution_latex_snapshots_frozen": true,
+    "all_supplied_solution_revisions_frozen": true,
+    "exercise_root_expansion_count_agreement": true,
+    "lecture_expansion_sanitized": true,
+    "revision_export_hashes_match": true,
+    "root_revision_bindings_unique": true,
+    "root_witnesses_match_mediawiki_sha1": true,
+    "solution_macro_api_agreement": true,
+    "surface_revision_bindings_unique": true,
+    "translation_started_by_workflow": false,
+    "unit_media_binary_and_rights_closure": true,
+    "worksheet_expansion_sanitized": true
+  },
+  "expansions": {
+    "lecture": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 28245,
+      "http_date": "Fri, 28 Aug 2026 09:34:43 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 21/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 674,
+        "path": "authority/exports/lecture21_latex_expand.json.request.json",
+        "sha256": "6757e9189eba7947ef54a59f760154ee3e194a5e482bb2a9c30b9f770500d361"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 30018,
+        "path": "authority/exports/lecture21_latex_expand.json",
+        "sha256": "ac8fc626b12e30fec025b85501daff94dba8674857ce07d26c2c648d5438adb7"
+      },
+      "retrieved_utc": "2026-08-28T09:34:43Z",
+      "sanitized_source": {
+        "bytes": 24383,
+        "path": "authority/expanded/lecture21_source.de.tex",
+        "sha256": "3bd477b25e7061b022dab80c007fcdaef0c72c3674e6b61651e2bf598811e9d9"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 672,
+        "path": "qa/unit-21/lecture21_sanitize.json",
+        "sha256": "ddc225ff05240e1f9776217c7de56342a4fa5e34357ff46dd24aab7047105cb6"
+      },
+      "valid_utf8": true
+    },
+    "worksheet": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 12465,
+      "http_date": "Fri, 28 Aug 2026 09:34:44 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 21/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 679,
+        "path": "authority/exports/worksheet21_latex_expand.json.request.json",
+        "sha256": "6c6a1d4c4ff932287287340988bbdb11b58428b733efc775157ba95498955f35"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 13311,
+        "path": "authority/exports/worksheet21_latex_expand.json",
+        "sha256": "867d76a04e929a4ae3d7fd048668f03b6c7cf281504ae45d73f9710dad45cd70"
+      },
+      "retrieved_utc": "2026-08-28T09:34:44Z",
+      "sanitized_source": {
+        "bytes": 10004,
+        "path": "authority/expanded/worksheet21_source.de.tex",
+        "sha256": "07915c64bad243ef085524475108f94b38f2e4432c787466b752ff1dec48743e"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 676,
+        "path": "qa/unit-21/worksheet21_sanitize.json",
+        "sha256": "be23910f1d1dc1b565716a079fca5aebd5ef2cfe2d29d2658905a4079df40511"
+      },
+      "valid_utf8": true
+    }
+  },
+  "media": {
+    "all_displayed_images_have_license_macros": true,
+    "assets": [
+      {
+        "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Oleg_Alexandrov\" title=\"User:Oleg Alexandrov\">Oleg Alexandrov</a>",
+        "artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/wiki/User:Oleg_Alexandrov"
+          ],
+          "creator_label": "Oleg Alexandrov"
+        },
+        "artist_text": "Oleg Alexandrov",
+        "attribution_required": false,
+        "binary": {
+          "bytes": 3611,
+          "path": "authority/media/Runge theorem.svg",
+          "sha256": "4b75001b55c08784871990f6ee70522cb809ef78997b1f0b9822d66617db44d0"
+        },
+        "bytes": 3611,
+        "commons_lastrevid": 508052117,
+        "commons_pageid": 2283954,
+        "commons_sha1": "e6ef52404397bf6ac8a9644df040e2b19e910367",
+        "commons_touched": "2026-05-25T00:09:28Z",
+        "copyrighted_status": "False",
+        "credit_html": "self-made with <a href=\"https://en.wikipedia.org/wiki/Inkscape\" class=\"extiw\" title=\"en:Inkscape\">en:Inkscape</a>",
+        "credit_text": "self-made with en:Inkscape",
+        "current_matches_frozen_rights_manifest": {
+          "artist_html": true,
+          "artist_identity": true,
+          "attribution_required": true,
+          "bytes": true,
+          "copyrighted": true,
+          "credit_html": true,
+          "license": true,
+          "license_url": true,
+          "mime": true,
+          "sha1": true
+        },
+        "description_url": "https://commons.wikimedia.org/wiki/File:Runge_theorem.svg",
+        "download_receipt": {
+          "bytes": 3611,
+          "content_type": "image/svg+xml",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Runge_theorem.svg",
+          "http_date": "Fri, 28 Aug 2026 09:34:46 GMT",
+          "retrieved_utc": "2026-08-28T09:34:46Z",
+          "schema_version": 1,
+          "sha1": "e6ef52404397bf6ac8a9644df040e2b19e910367",
+          "sha256": "4b75001b55c08784871990f6ee70522cb809ef78997b1f0b9822d66617db44d0",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Runge_theorem.svg"
+        },
+        "filename": "Runge theorem.svg",
+        "frozen_artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Oleg_Alexandrov\" title=\"User:Oleg Alexandrov\">Oleg Alexandrov</a>",
+        "frozen_artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/wiki/User:Oleg_Alexandrov"
+          ],
+          "creator_label": "Oleg Alexandrov"
+        },
+        "frozen_artist_text": "Oleg Alexandrov",
+        "frozen_credit_html": "self-made with <a href=\"https://en.wikipedia.org/wiki/Inkscape\" class=\"extiw\" title=\"en:Inkscape\">en:Inkscape</a>",
+        "frozen_credit_text": "self-made with en:Inkscape",
+        "height": 600,
+        "image_timestamp": "2012-01-17T11:23:56Z",
+        "image_user": "Mwtoews",
+        "license": "Public domain",
+        "license_url": null,
+        "localized_artist_variance": false,
+        "localized_credit_variance": false,
+        "mime": "image/svg+xml",
+        "occurrences": [
+          {
+            "filename": "Runge theorem.svg",
+            "surface": "lecture21",
+            "surface_order": 1
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Runge_theorem.svg",
+        "rights_critical_fields_match": true,
+        "sha256": "4b75001b55c08784871990f6ee70522cb809ef78997b1f0b9822d66617db44d0",
+        "usage_terms": "Public domain",
+        "width": 800
+      },
+      {
+        "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Itai\" title=\"User:Itai\">Itai</a>",
+        "artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/wiki/User:Itai"
+          ],
+          "creator_label": "Itai"
+        },
+        "artist_text": "Itai",
+        "attribution_required": true,
+        "binary": {
+          "bytes": 15703,
+          "path": "authority/media/Circle on sphere wireframe 10deg 6r.svg",
+          "sha256": "55665e60f4c39d6bd0b9474af45f652454cfd031fe9ad81f90abab6c9b3f7a31"
+        },
+        "bytes": 15703,
+        "commons_lastrevid": 861184473,
+        "commons_pageid": 9279378,
+        "commons_sha1": "be2bc81df4b2883cda3e394c1d3ae761724eb9d5",
+        "commons_touched": "2025-12-31T13:58:25Z",
+        "copyrighted_status": "True",
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "credit_text": "Own work",
+        "current_matches_frozen_rights_manifest": {
+          "artist_html": true,
+          "artist_identity": true,
+          "attribution_required": true,
+          "bytes": true,
+          "copyrighted": true,
+          "credit_html": false,
+          "license": true,
+          "license_url": true,
+          "mime": true,
+          "sha1": true
+        },
+        "description_url": "https://commons.wikimedia.org/wiki/File:Circle_on_sphere_wireframe_10deg_6r.svg",
+        "download_receipt": {
+          "bytes": 15703,
+          "content_type": "image/svg+xml",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Circle_on_sphere_wireframe_10deg_6r.svg",
+          "http_date": "Fri, 28 Aug 2026 09:34:47 GMT",
+          "retrieved_utc": "2026-08-28T09:34:46Z",
+          "schema_version": 1,
+          "sha1": "be2bc81df4b2883cda3e394c1d3ae761724eb9d5",
+          "sha256": "55665e60f4c39d6bd0b9474af45f652454cfd031fe9ad81f90abab6c9b3f7a31",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Circle_on_sphere_wireframe_10deg_6r.svg"
+        },
+        "filename": "Circle on sphere wireframe 10deg 6r.svg",
+        "frozen_artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Itai\" title=\"User:Itai\">Itai</a>",
+        "frozen_artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/wiki/User:Itai"
+          ],
+          "creator_label": "Itai"
+        },
+        "frozen_artist_text": "Itai",
+        "frozen_credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+        "frozen_credit_text": "Eigenes Werk",
+        "height": 800,
+        "image_timestamp": "2022-10-09T02:26:23Z",
+        "image_user": "Smasongarrison",
+        "license": "CC BY 3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0",
+        "localized_artist_variance": false,
+        "localized_credit_variance": true,
+        "mime": "image/svg+xml",
+        "occurrences": [
+          {
+            "filename": "Circle on sphere wireframe 10deg 6r.svg",
+            "surface": "worksheet21",
+            "surface_order": 1
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Circle_on_sphere_wireframe_10deg_6r.svg",
+        "rights_critical_fields_match": true,
+        "sha256": "55665e60f4c39d6bd0b9474af45f652454cfd031fe9ad81f90abab6c9b3f7a31",
+        "usage_terms": "Creative Commons Attribution 3.0",
+        "width": 800
+      },
+      {
+        "artist_html": "<a href=\"https://en.wikipedia.org/wiki/User:WillT.Net\" class=\"extiw\" title=\"en:User:WillT.Net\">WillT.Net</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:WillT.Net\" class=\"extiw\" title=\"en:User talk:WillT.Net\">talk</a>)",
+        "artist_identity": {
+          "anchor_hrefs": [
+            "https://en.wikipedia.org/wiki/User:WillT.Net",
+            "https://en.wikipedia.org/wiki/User_talk:WillT.Net"
+          ],
+          "creator_label": "WillT.Net"
+        },
+        "artist_text": "WillT.Net (talk)",
+        "attribution_required": false,
+        "binary": {
+          "bytes": 253,
+          "path": "authority/media/Not-star-shaped.svg",
+          "sha256": "e0bcc5c9e7573e8acf87300e9b1c7be72959fea9306bfc815214c47780e02fb1"
+        },
+        "bytes": 253,
+        "commons_lastrevid": 839183583,
+        "commons_pageid": 30289788,
+        "commons_sha1": "e6e0778e94069c7309c8969296f2790f1c87d7fb",
+        "commons_touched": "2026-07-11T10:16:47Z",
+        "copyrighted_status": "False",
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "credit_text": "Own work",
+        "current_matches_frozen_rights_manifest": {
+          "artist_html": false,
+          "artist_identity": true,
+          "attribution_required": true,
+          "bytes": true,
+          "copyrighted": true,
+          "credit_html": false,
+          "license": true,
+          "license_url": true,
+          "mime": true,
+          "sha1": true
+        },
+        "description_url": "https://commons.wikimedia.org/wiki/File:Not-star-shaped.svg",
+        "download_receipt": {
+          "bytes": 253,
+          "content_type": "image/svg+xml",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Not-star-shaped.svg",
+          "http_date": "Fri, 28 Aug 2026 09:35:56 GMT",
+          "retrieved_utc": "2026-08-28T09:35:56Z",
+          "schema_version": 1,
+          "sha1": "e6e0778e94069c7309c8969296f2790f1c87d7fb",
+          "sha256": "e0bcc5c9e7573e8acf87300e9b1c7be72959fea9306bfc815214c47780e02fb1",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Not-star-shaped.svg"
+        },
+        "filename": "Not-star-shaped.svg",
+        "frozen_artist_html": "<a href=\"https://en.wikipedia.org/wiki/User:WillT.Net\" class=\"extiw\" title=\"en:User:WillT.Net\">WillT.Net</a> (<a href=\"https://en.wikipedia.org/wiki/User_talk:WillT.Net\" class=\"extiw\" title=\"en:User talk:WillT.Net\">Diskussion</a>)",
+        "frozen_artist_identity": {
+          "anchor_hrefs": [
+            "https://en.wikipedia.org/wiki/User:WillT.Net",
+            "https://en.wikipedia.org/wiki/User_talk:WillT.Net"
+          ],
+          "creator_label": "WillT.Net"
+        },
+        "frozen_artist_text": "WillT.Net (Diskussion)",
+        "frozen_credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+        "frozen_credit_text": "Eigenes Werk",
+        "height": 122,
+        "image_timestamp": "2013-12-22T17:50:11Z",
+        "image_user": "OgreBot",
+        "license": "Public domain",
+        "license_url": null,
+        "localized_artist_variance": true,
+        "localized_credit_variance": true,
+        "mime": "image/svg+xml",
+        "occurrences": [
+          {
+            "filename": "Not-star-shaped.svg",
+            "surface": "worksheet21",
+            "surface_order": 2
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/91/Not-star-shaped.svg",
+        "rights_critical_fields_match": true,
+        "sha256": "e0bcc5c9e7573e8acf87300e9b1c7be72959fea9306bfc815214c47780e02fb1",
+        "usage_terms": "Public domain",
+        "width": 122
+      }
+    ],
+    "current_commons_api": "https://commons.wikimedia.org/w/api.php",
+    "current_commons_query": {
+      "bytes": 7609,
+      "path": "authority/mediawiki/unit21_media_imageinfo_current.json",
+      "sha256": "2005014812a20b0644e45f011921efcd3110c90add1657afc18c675476943738"
+    },
+    "current_commons_query_request_receipt": {
+      "bytes": 716,
+      "path": "authority/mediawiki/unit21_media_imageinfo_current.json.request.json",
+      "sha256": "2560570e76809dcf105c1c7eaf1e31c4001448056e96fc7ad59278ef1857ab0d"
+    },
+    "occurrence_count": 3,
+    "query_retrieved_utc": "2026-08-28T09:34:46Z",
+    "rights_manifest": {
+      "bytes": 25588,
+      "path": "authority/brenner_media_rights_manifest.csv",
+      "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+    },
+    "surface_occurrences": [
+      {
+        "filename": "Runge theorem.svg",
+        "surface": "lecture21",
+        "surface_order": 1
+      },
+      {
+        "filename": "Circle on sphere wireframe 10deg 6r.svg",
+        "surface": "worksheet21",
+        "surface_order": 1
+      },
+      {
+        "filename": "Not-star-shaped.svg",
+        "surface": "worksheet21",
+        "surface_order": 2
+      }
+    ],
+    "unique_asset_count": 3
+  },
+  "next_action": "Translate Lecture 21, Worksheet 21, and exactly the 4 supplied solutions in source order.",
+  "schema_version": 1,
+  "scope": "Brenner Differentialgeometrie Unit 21 authority preflight; no translation",
+  "solutions": {
+    "exercise_count": 20,
+    "exercises": [
+      {
+        "exercise_index": 1,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Kleidung/Mannigfaltigkeit mit Rand/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Kleidung/Mannigfaltigkeit mit Rand/Aufgabe/Lösung",
+        "task_title": "Kleidung/Mannigfaltigkeit mit Rand/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 2,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Mannigfaltigkeit mit Rand/Differenzierbare Abbildung/Tangentialraum/Begriffseinführung/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit mit Rand/Differenzierbare Abbildung/Tangentialraum/Begriffseinführung/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit mit Rand/Differenzierbare Abbildung/Tangentialraum/Begriffseinführung/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 3,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Mannigfaltigkeit mit Rand/Intervall/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit mit Rand/Intervall/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit mit Rand/Intervall/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 4,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Kugeloberfläche/Kreis/Berandete Mannigfaltigkeiten/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Kugeloberfläche/Kreis/Berandete Mannigfaltigkeiten/Aufgabe/Lösung",
+        "task_title": "Kugeloberfläche/Kreis/Berandete Mannigfaltigkeiten/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 5,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Mannigfaltigkeit mit und ohne Rand/Produkt/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit mit und ohne Rand/Produkt/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit mit und ohne Rand/Produkt/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 6,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Annulus/Zylinder/Mannigfaltigkeiten mit Rand/Diffeomorph/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Annulus/Zylinder/Mannigfaltigkeiten mit Rand/Diffeomorph/Aufgabe/Lösung",
+        "task_title": "Annulus/Zylinder/Mannigfaltigkeiten mit Rand/Diffeomorph/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 2949,
+          "path": "authority/mediawiki/worksheet21_exercise07_solution_revid1023903.utf8.b64",
+          "sha256": "bf3f20eb232e922a04e3873fd5bf84c1a6f679efa936f66eb974f0c03f822eb9"
+        },
+        "exercise_index": 7,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 1862,
+          "http_date": "Fri, 28 Aug 2026 09:34:45 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Reelle Ebene/Eindimensionale Teilmenge/Mannigfaltigkeit mit Rand/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 718,
+            "path": "authority/exports/worksheet21_exercise07_solution_latex_expand.json.request.json",
+            "sha256": "b9ca9409a042a93787cf78fa685c3beca227e958cd99a57d2f2678188cbd57c5"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 2052,
+            "path": "authority/exports/worksheet21_exercise07_solution_latex_expand.json",
+            "sha256": "dc8a724e3c8e6f568cf9af66410bec2c65ec4e174f663fda22a21959b72d7496"
+          },
+          "retrieved_utc": "2026-08-28T09:34:45Z",
+          "sanitized_source": {
+            "bytes": 1753,
+            "path": "authority/expanded/worksheet21_exercise07_solution_source.de.tex",
+            "sha256": "e5b4fd8ec6366157a24234fb9c7b8f9d38f66221859782f43e1484feff5520dd"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-21/worksheet21_exercise07_solution_sanitize.json",
+            "sha256": "11739b88f21c498c535ff2217832fc11af848f02ce9dc92bd401c9171093e11d"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "060ec4ee118823243932e62b2cabb4b7092dc9b1",
+        "metadata": {
+          "bytes": 1363,
+          "path": "authority/mediawiki/worksheet21_exercise07_solution_revid1023903.metadata.json",
+          "sha256": "497a5362f835038bf93043daf76e65287ec82e548930896cb7fa5ee876f1d2cc"
+        },
+        "pageid": 78693,
+        "parentid": 986723,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 2212,
+          "path": "authority/mediawiki/worksheet21_exercise07_solution_revid1023903.wiki",
+          "sha256": "19f058806aa846751cabb416a98b91bcffe809394a4ea70dba3fb7980507a65b"
+        },
+        "resolved_solution_title": "Reelle Ebene/Eindimensionale Teilmenge/Mannigfaltigkeit mit Rand/Aufgabe/Lösung",
+        "revid": 1023903,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Reelle Ebene/Eindimensionale Teilmenge/Mannigfaltigkeit mit Rand/Aufgabe/Lösung",
+        "source_utf8_bytes": 2211,
+        "source_utf8_sha256": "400488a9994b28b54cda36ad135e1e71ba4db2a2f152d7c7541f1b8a37f4d68b",
+        "task_title": "Reelle Ebene/Eindimensionale Teilmenge/Mannigfaltigkeit mit Rand/Aufgabe",
+        "timestamp": "2025-08-10T01:07:29Z",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 8,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Obere Halbebene/Einheitskreis/Rational isomorph/Ausdehnung/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Obere Halbebene/Einheitskreis/Rational isomorph/Ausdehnung/Aufgabe/Lösung",
+        "task_title": "Obere Halbebene/Einheitskreis/Rational isomorph/Ausdehnung/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 9,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Mannigfaltigkeit mit Rand/Innerer und äußerer Halbweg/Äquivalenz/Tangentialraum/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit mit Rand/Innerer und äußerer Halbweg/Äquivalenz/Tangentialraum/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit mit Rand/Innerer und äußerer Halbweg/Äquivalenz/Tangentialraum/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 2417,
+          "path": "authority/mediawiki/worksheet21_exercise10_solution_revid1095906.utf8.b64",
+          "sha256": "917dad048faf4b258a5dfb640393f6e2d56d06631eb4a15853576598a80c8064"
+        },
+        "exercise_index": 10,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 2170,
+          "http_date": "Fri, 28 Aug 2026 09:34:45 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Mannigfaltigkeit mit Rand/Tangentialraum/Halbraum/Charakterisierung/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 721,
+            "path": "authority/exports/worksheet21_exercise10_solution_latex_expand.json.request.json",
+            "sha256": "19421a21849f50dd717689e207a6ad2b75eb6e072f2d0b7533e85e03b47b9b00"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 2432,
+            "path": "authority/exports/worksheet21_exercise10_solution_latex_expand.json",
+            "sha256": "a9a465586f8da1411650e5c00263fd3a7b225b1abfc5c355e82c867637df48a1"
+          },
+          "retrieved_utc": "2026-08-28T09:34:45Z",
+          "sanitized_source": {
+            "bytes": 1810,
+            "path": "authority/expanded/worksheet21_exercise10_solution_source.de.tex",
+            "sha256": "9a2e3dc9df3d4a29784742285e42e0076746c6b674572a18652c85e69acb7bad"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-21/worksheet21_exercise10_solution_sanitize.json",
+            "sha256": "b4c5985d5edd125c8710bdfb766d02d23f19e509e069c5b86f3134c618aa66fd"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "79c13e7fadfa8cff50a534f3ed8d27d371df0747",
+        "metadata": {
+          "bytes": 1371,
+          "path": "authority/mediawiki/worksheet21_exercise10_solution_revid1095906.metadata.json",
+          "sha256": "e0cc7a187f4b365666508e1c2236c651453ff57c83f4e72c9b4b58172afc972f"
+        },
+        "pageid": 152008,
+        "parentid": 1094200,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 1811,
+          "path": "authority/mediawiki/worksheet21_exercise10_solution_revid1095906.wiki",
+          "sha256": "31a26bcd376b99bda953f862b88e230b83f3762b916c80cc97d38a538b1bd19e"
+        },
+        "resolved_solution_title": "Mannigfaltigkeit mit Rand/Tangentialraum/Halbraum/Charakterisierung/Aufgabe/Lösung",
+        "revid": 1095906,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Mannigfaltigkeit mit Rand/Tangentialraum/Halbraum/Charakterisierung/Aufgabe/Lösung",
+        "source_utf8_bytes": 1810,
+        "source_utf8_sha256": "233a54ba4806658ad1566cd0f47fd699008fad821db396bd84c4c2fb4e162775",
+        "task_title": "Mannigfaltigkeit mit Rand/Tangentialraum/Halbraum/Charakterisierung/Aufgabe",
+        "timestamp": "2026-06-15T07:24:14Z",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 11,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Mannigfaltigkeit mit Rand/Durchgängiger Weg/Tangential zum Rand/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit mit Rand/Durchgängiger Weg/Tangential zum Rand/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit mit Rand/Durchgängiger Weg/Tangential zum Rand/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 1925,
+          "path": "authority/mediawiki/worksheet21_exercise12_solution_revid1089970.utf8.b64",
+          "sha256": "d940798b50c1fde4a9b83888ae750169d2d88a6e32fe602d114ef4e6285be9bd"
+        },
+        "exercise_index": 12,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 1032,
+          "http_date": "Fri, 28 Aug 2026 09:34:45 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Mannigfaltigkeit mit Rand/Offene Teilmenge/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 696,
+            "path": "authority/exports/worksheet21_exercise12_solution_latex_expand.json.request.json",
+            "sha256": "ba7c8b5ebdff6502e03761789fc641ed10add5e78e83ca91125351fe57185e14"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 1191,
+            "path": "authority/exports/worksheet21_exercise12_solution_latex_expand.json",
+            "sha256": "a086437599dd70fa734a35bf58eb1883813026989a1193e8b51ad628e36a834e"
+          },
+          "retrieved_utc": "2026-08-28T09:34:45Z",
+          "sanitized_source": {
+            "bytes": 960,
+            "path": "authority/expanded/worksheet21_exercise12_solution_source.de.tex",
+            "sha256": "05579de63340d9049eafb422466d956dc85a4e079cff6cb3dca6b3598d936d9a"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 712,
+            "path": "qa/unit-21/worksheet21_exercise12_solution_sanitize.json",
+            "sha256": "e75412d23096442d4f494907bd51b493dd02e83451dd057ba7b01366e1de1c50"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "39435f127da1bb9b131eb55e209fbf790dce2199",
+        "metadata": {
+          "bytes": 1320,
+          "path": "authority/mediawiki/worksheet21_exercise12_solution_revid1089970.metadata.json",
+          "sha256": "0b4b8be3aea0d4e58ce5554a26709f9317bce8d55995b45a8a40f5dd2df27e52"
+        },
+        "pageid": 78683,
+        "parentid": 1023572,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 1443,
+          "path": "authority/mediawiki/worksheet21_exercise12_solution_revid1089970.wiki",
+          "sha256": "c6853fab9290422a1221b05a9e2fe615a1302da8bfac3d6819c678e12ac98a91"
+        },
+        "resolved_solution_title": "Mannigfaltigkeit mit Rand/Offene Teilmenge/Aufgabe/Lösung",
+        "revid": 1089970,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Mannigfaltigkeit mit Rand/Offene Teilmenge/Aufgabe/Lösung",
+        "source_utf8_bytes": 1442,
+        "source_utf8_sha256": "5761d4d72daadf1e97dc0501fee45489516f54ec4292a5f31c9f73743bced814",
+        "task_title": "Mannigfaltigkeit mit Rand/Offene Teilmenge/Aufgabe",
+        "timestamp": "2026-05-31T11:54:42Z",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 1237,
+          "path": "authority/mediawiki/worksheet21_exercise13_solution_revid1095902.utf8.b64",
+          "sha256": "a19471ae12519c188d87f89f9dc5ef0b514ea4dc05313c51eb9249e64d87c74a"
+        },
+        "exercise_index": 13,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 1108,
+          "http_date": "Fri, 28 Aug 2026 09:34:46 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Halbraum/Randpunkt/Keine offene Menge im Raum/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 699,
+            "path": "authority/exports/worksheet21_exercise13_solution_latex_expand.json.request.json",
+            "sha256": "3a360d3c539f3bfb7d50a5fa64d72e0a78a4a6aa54e12ef2432e6c743bab7a6c"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 1309,
+            "path": "authority/exports/worksheet21_exercise13_solution_latex_expand.json",
+            "sha256": "2f91a2ac4c71c10f791ecd15f8fbfe9caaf5dacd7bc1f153f8de16965dd85347"
+          },
+          "retrieved_utc": "2026-08-28T09:34:45Z",
+          "sanitized_source": {
+            "bytes": 899,
+            "path": "authority/expanded/worksheet21_exercise13_solution_source.de.tex",
+            "sha256": "544dc3b1ebe290f5b78f4e934c6a0b54136fa72bc658383d00b3f3e6749aea06"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 712,
+            "path": "qa/unit-21/worksheet21_exercise13_solution_sanitize.json",
+            "sha256": "f498064b5cf929086ac8b7971e6e19f69d462e5650290f409fc20120cbfb7eb2"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "68c3483ddca499c7033426c10f1b600416cb7da8",
+        "metadata": {
+          "bytes": 1324,
+          "path": "authority/mediawiki/worksheet21_exercise13_solution_revid1095902.metadata.json",
+          "sha256": "b7886b0355fc2d56498a59dbe1d597fc5874b0067d7af6ee54ea0ac4653a6b53"
+        },
+        "pageid": 151957,
+        "parentid": 1094243,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 926,
+          "path": "authority/mediawiki/worksheet21_exercise13_solution_revid1095902.wiki",
+          "sha256": "f9ead90db6a87c0def3de91bf0bb119f75499f3246b1e16465aa5fa81a2483ab"
+        },
+        "resolved_solution_title": "Halbraum/Randpunkt/Keine offene Menge im Raum/Aufgabe/Lösung",
+        "revid": 1095902,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Halbraum/Randpunkt/Keine offene Menge im Raum/Aufgabe/Lösung",
+        "source_utf8_bytes": 925,
+        "source_utf8_sha256": "1dc67d9da182e19614714f6c350204fab123ba0c8f89d05917c2ee3af1c306b1",
+        "task_title": "Halbraum/Randpunkt/Keine offene Menge im Raum/Aufgabe",
+        "timestamp": "2026-06-15T07:23:34Z",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 14,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Halbraum/Offene Menge/Diffeomorphismus/Offene Umgebung/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Halbraum/Offene Menge/Diffeomorphismus/Offene Umgebung/Aufgabe/Lösung",
+        "task_title": "Halbraum/Offene Menge/Diffeomorphismus/Offene Umgebung/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 15,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Kreisscheibe/Standardorientierung/Randorientierung/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Kreisscheibe/Standardorientierung/Randorientierung/Aufgabe/Lösung",
+        "task_title": "Kreisscheibe/Standardorientierung/Randorientierung/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 16,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "resolved_solution_title": "Kreisring/Explizite Karten/Aufgabe/Lösung",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Kreisring/Explizite Karten/Aufgabe/Lösung",
+        "task_title": "Kreisring/Explizite Karten/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 17,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 6,
+        "resolved_solution_title": "Halbebene und Quadrant/Nicht diffeomorph/Aufgabe/Lösung",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Halbebene und Quadrant/Nicht diffeomorph/Aufgabe/Lösung",
+        "task_title": "Halbebene und Quadrant/Nicht diffeomorph/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 18,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 6,
+        "resolved_solution_title": "Zweifach punktierte Kreisscheibe/Offenes x abgeschlossenes Intervall/Diffeomorph/Aufgabe/Lösung",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Zweifach punktierte Kreisscheibe/Offenes x abgeschlossenes Intervall/Diffeomorph/Aufgabe/Lösung",
+        "task_title": "Zweifach punktierte Kreisscheibe/Offenes x abgeschlossenes Intervall/Diffeomorph/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 19,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "resolved_solution_title": "Diffeomorphismus/Halbraum auf Halbraum/Induziert Diffeomorphismus/Aufgabe/Lösung",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Diffeomorphismus/Halbraum_auf_Halbraum/Induziert_Diffeomorphismus/Aufgabe/Lösung",
+        "task_title": "Diffeomorphismus/Halbraum_auf_Halbraum/Induziert_Diffeomorphismus/Aufgabe",
+        "title_normalized_by_mediawiki": true
+      },
+      {
+        "exercise_index": 20,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "resolved_solution_title": "Kugeloberfläche/Standardorientierung/Nordpol/(2,1,0) und (3,-1,0)/Aufgabe/Lösung",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Kugeloberfläche/Standardorientierung/Nordpol/(2,1,0) und (3,-1,0)/Aufgabe/Lösung",
+        "task_title": "Kugeloberfläche/Standardorientierung/Nordpol/(2,1,0) und (3,-1,0)/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      }
+    ],
+    "graded_exercise_count": 5,
+    "macro_api_agreement": true,
+    "missing_solution_count": 16,
+    "point_value_total": 24,
+    "practice_exercise_count": 15,
+    "query": {
+      "bytes": 10029,
+      "path": "authority/mediawiki/unit21_solution_pages_current.json",
+      "sha256": "53b681d357a70b342f90bb64f95e70a33f9d9b631f0b410887848e35bfca7c7c"
+    },
+    "query_request_receipt": {
+      "bytes": 2067,
+      "path": "authority/mediawiki/unit21_solution_pages_current.json.request.json",
+      "sha256": "386584a9fff9597ad60138e7aaa4372c9f33aa60a7649ef313fc1b4e8dec1617"
+    },
+    "query_retrieved_utc": "2026-08-28T09:34:44Z",
+    "schema_version": 1,
+    "supplied_solution_count": 4,
+    "supplied_solution_indices": [
+      7,
+      10,
+      12,
+      13
+    ],
+    "workflow": "o011-unit21-solution-freeze-v1",
+    "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 21"
+  },
+  "status": "pass",
+  "structure": {
+    "all_hint_fields_blank": true,
+    "lecture_section_count": 2,
+    "worksheet_exercise_count": 20,
+    "worksheet_graded_count": 5,
+    "worksheet_point_total": 24,
+    "worksheet_practice_count": 15,
+    "worksheet_section_count": 2,
+    "worksheet_solution_bearing_indices": [
+      7,
+      10,
+      12,
+      13
+    ]
+  },
+  "unit": 21,
+  "workflow": "o011-unit21-authority-preflight-v1"
+}

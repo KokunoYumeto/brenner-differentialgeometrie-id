@@ -1804,3 +1804,33 @@ matched all local byte counts and SHA-256 values without authentication. The
 3,396-byte receipt is
 `qa/unit-20/GITHUB_COMMIT_PUBLIC_READBACK_RECEIPT.json`, SHA-256
 `a38ccd463520daf0a8cfc64cfa93909e2610697fee5bf8f57c14b7202a5c7c13`.
+
+## D077 — Adopt and freeze the exact live Unit 21 worksheet-root repair (2026-08-28)
+
+**Decision:** Retain the recursive course export and Worksheet 21 revision
+`900559` as the historical baseline, but admit current official revision
+`1113692` as an explicit unit-local root override. Preserve both lossless
+witnesses, the exact official revision-comparison response, request identities,
+and the adopted revision's source hashes. Do not alter the whole-course
+selected-revision ledger or silently combine the old root with a current
+expansion. Extend the generic freezer and offline verifier so any such override
+is explicit, exact, and reproducible.
+
+**Evidence:** The official comparison from `900559` (2,429 bytes) to `1113692`
+(2,430 bytes) contains one repair only: it adds the missing trailing `|` to the
+`Not-star-shaped.svg` `inputbild` macro. The comparison response SHA-256 is
+`9154f3930ab4cbcc30c7feb571b208eb650db5dc763c099102b12fb47d9d5138`.
+Two request-bound TemplateSandbox expansions—one substituting the baseline
+root and one the adopted root—are byte-identical to each other and to the
+already-frozen official worksheet expansion: 12,497 UTF-8 bytes, SHA-256
+`cba043d0692525c5aafd43901eaa0437c92ba608b8241f1f3b8f01edf011d951`.
+The transition receipt SHA-256 is
+`ddcec3f3b05ccb47b188814cdf8f5711b860c056d49ca0ba0c187c0236fcbae8`.
+The final 52,253-byte Unit 21 preflight has SHA-256
+`ef14f5ffa01482dd67596adff3ef4c29d931c3c234979f2cbbb41f7e5089f194`;
+offline verification SHA-256 is
+`d9ca3fd9f6767c393f37c996aff5bc0a4f11be0dea98520af89cc3f305cba0b6`;
+and the manifest-bound live-current receipt SHA-256 is
+`0cc4febad5958fca8432f7aed16867cb8a9d9215ac40b57945111a453d329bbd`.
+The admitted closure has 20 exercises, four supplied solutions, three
+rights-closed SVG assets, and no hints. Translation begins immediately.

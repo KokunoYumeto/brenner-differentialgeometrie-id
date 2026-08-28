@@ -1,0 +1,1424 @@
+\setcounter{section}{21}
+
+  \zwischenueberschrift{Mannigfaltigkeiten mit Rand}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Runge_theorem} {svg} }
+\end{center}
+\bildtext {Eine zweidimensionale Mannigfaltigkeit mit Rand. Der Rand besteht aus den vier geschlossenen Bögen.} }
+
+\bildlizenz { Runge theorem.svg } {} {Oleg Alexandrov} {Commons} {PD} {}
+
+\inputdefinition
+{}
+{
+
+Es seien
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ \in }{ \overline{ \N }_+
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Ein
+\definitionsverweis {topologischer}{}{}
+\definitionsverweis {Hausdorffraum}{}{}
+$M$ zusammen mit einer
+\definitionsverweis {offenen Überdeckung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ \bigcup_{i \in I} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+\definitionsverweis {Karten}{}{}
+\maabbdisp {\alpha_i} {U_i } { V_i
+} {,}
+wobei die
+
+\mavergleichskette
+{\vergleichskette
+{ V_i
+}
+{ \subseteq }{ H
+}
+{ \subset }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offene Mengen im
+\definitionsverweis {euklidischen Halbraum}{}{}
+$H$ der Dimension $n$ sind, und mit der Eigenschaft, dass die
+\definitionsverweis {Übergangsabbildungen}{}{}
+\maabbdisp {\alpha_j \circ \alpha_i^{-1}} {V_i \cap \alpha_i(U_i \cap U_j) } { V_j \cap \alpha_j(U_i \cap U_j)
+} {}
+$C^k$-\definitionsverweis {Diffeomorphismen}{}{}
+sind, heißt $C^k$-\definitionswort {Mannigfaltigkeit mit Rand}{} oder \definitionswort {differenzierbare Mannigfaltigkeit mit Rand}{}
+\zusatzklammer {vom Grad $k$} {} {,}
+oder \definitionswort {berandete Mannigfaltigkeit}{.} Die Menge der Karten
+
+\mathbed {(U_i,\alpha_i)} {}
+ {i \in I} {}
+ {} {} {} {,}
+nennt man auch den $C^k$-\definitionswort {Atlas}{} der berandeten Mannigfaltigkeit.
+
+}
+Da auch offene Mengen im Halbraum $H$ zugelassen sind, die den Rand
+
+\mavergleichskette
+{\vergleichskette
+{ \partial H
+}
+{ = }{ 0 \times \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}gar nicht treffen, umfasst dieser Begriff den der differenzierbaren Mannigfaltigkeit. Bei einer Mannigfaltigkeit mit Rand kann der Rand
+\zusatzklammer {den wir gleich in naheliegender Weise definieren} {} {}
+eben auch leer sein. Dies ist genau bei den \anfuehrung{gewöhnlichen}{} differenzierbaren Mannigfaltigkeiten der Fall.
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {Mannigfaltigkeit mit Rand}{}{.}
+Dann ist der \definitionswort {Rand}{} von $M$, geschrieben
+\mathl{\partial M}{,} durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial M
+}
+{ =} { \left\{  x \in M  \mid   \alpha_i(x) \in  \partial H \cap V_i  \text{ für } \text{ein } i \in I         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+definiert, wobei $\alpha_i$ Karten sind.
+
+}
+Dabei kann man auf jeder Karte testen, ob ein gegebener Punkt ein Randpunkt ist.
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Mannigfaltigkeit mit Rand/Rand/Elementare Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit mit Rand}{}{}
+
+\mathl{\partial M}{.}}
+\faktuebergang {Dann gelten folgende Aussagen.}
+\faktfolgerung {\aufzaehlungdrei{Ein Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist genau dann ein Randpunkt, wenn dies für jede
+\definitionsverweis {Karte}{}{,}
+deren Kartengebiet den Punkt beinhaltet, gilt\zusatzfussnote {Bei einer topologischen Mannigfaltigkeit mit Rand, wo also die Übergangsabbildungen lediglich Homöomorphien sind, gilt diese Aussage mit anderem Beweis ebenfalls.} {} {.}
+}{Der Rand $\partial M$ ist \definitionsverweis {abgeschlossen}{}{.}
+}{Das Komplement
+\mathl{M \setminus \partial M}{} ist eine \definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+\zusatzklammer {ohne Rand} {} {.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{(1). Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Kartengebiet mit zwei Karten
+\maabbdisp {\alpha_1} { U } { V_1
+} {}
+und
+\maabbdisp {\alpha_2} { U } { V_2
+} {}
+mit
+\mathkor {} {V_1 \subseteq H_1} {und} {V_2 \subseteq H_2} {}
+offen in
+\definitionsverweis {euklidischen Halbräumen}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ H_1, H_2
+}
+{ \cong }{ \R_{\geq 0} \times \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Die Kartenwechselabbildung
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi
+}
+{ = }{ \alpha_2 \circ \alpha_1^{-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist ein
+\definitionsverweis {Diffeomorphismus}{}{,}
+und das heißt
+nach [[Halbraum/Offene Menge/Diffeomorphismus/Offene Umgebung/Aufgabe|Aufgabe 21.14]]
+für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V_1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dass es offene Umgebungen
+\mathkor {} {W_1} {und} {W_2} {}
+in $\R^n$ gibt mit
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ W_1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und eine
+\definitionsverweis {diffeomorphe}{}{}
+Ausdehnung
+\maabbdisp {\tilde{\varphi}} {W_1 } { W_2
+} {}
+von
+\mathl{\varphi\!\mid_{W_1 \cap H_1 }}{.} Daher ist
+\mathl{\tilde{\varphi} \left(  H_1^+ \cap W_1  \right)}{} offen in $W_2$.
+
+Es sei nun
+
+\mavergleichskette
+{\vergleichskette
+{ Q_1
+}
+{ = }{ \alpha_1(P)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+\mathl{W_1,W_2, \tilde{\varphi}}{} mit den eben erwähnten Eigenschaften gewählt. Wenn $Q_1$ kein Randpunkt in der ersten Karte ist, so ist
+
+\mavergleichskette
+{\vergleichskette
+{ Q_1
+}
+{ \in }{ H_1^+ \cap W_1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine offene Umgebung und damit ist
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha_2 (P)
+}
+{ \in }{ \tilde{\varphi} \left(  H_1^+ \cap W_1  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine offene Umgebung in
+
+\mavergleichskette
+{\vergleichskette
+{ W_2
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Ferner ist
+
+\mavergleichskette
+{\vergleichskette
+{ \tilde{\varphi} \left(  H_1^+ \cap W_1  \right)
+}
+{ \subseteq }{ H_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+D.h.
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha_2(P)
+}
+{ \in }{ H_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+besitzt eine in $\R^n$ offene Umgebung innerhalb von $H_2$ und kann daher
+nach [[Halbraum/Randpunkt/Keine offene Menge im Raum/Aufgabe|Aufgabe 21.13]]
+auch in der zweiten Karte kein Randpunkt sein.}
+{}
+\teilbeweis {}{}{}
+{(2). Sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \notin }{ \partial M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Kartengebiet mit dem
+\definitionsverweis {Homöomorphismus}{}{}
+\maabbdisp {\alpha} { U } { V
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R_{\geq 0} \times \R^{n-1}
+}
+{ = }{ H
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen. Da $P$ kein Randpunkt ist, ist die erste Komponente von
+\mathl{\alpha(P)}{} positiv und daher gibt es eine offene Menge
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha(P)
+}
+{ \in }{ V'
+}
+{ \subseteq }{ \R_{+} \times \R^{n-1}
+}
+{ =   }{ H_+
+}
+{   }{
+}
+}
+{}{}{.}
+Daher ist
+
+\mavergleichskette
+{\vergleichskette
+{ U'
+}
+{ = }{ \alpha^{-1}(V')
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine offene Umgebung von $P$, die
+\zusatzklammer {nach Teil 1} {} {}
+den Rand nicht trifft.}
+{}
+\teilbeweis {}{}{}
+{(3). Für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \notin }{ \partial M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kann man wie in (2) ein Kartengebiet angeben, das disjunkt zum Rand ist und dessen Kartenbild eine offene Menge im $\R^n$ ist. Daher liegt eine
+\definitionsverweis {Mannigfaltigkeit}{}{}
+\zusatzklammer {ohne Rand} {} {}
+vor.}
+{}
+
+}
+
+Auch die Begriffe differenzierbare Abbildung, Diffeomorphismus und Tangentialraum übertragen sich auf eine Mannigfaltigkeit mit Rand, siehe
+[[Mannigfaltigkeit mit Rand/Differenzierbare Abbildung/Tangentialraum/Begriffseinführung/Aufgabe|Aufgabe 21.2]].
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Mannigfaltigkeit mit Rand/Rand ist Mannigfaltigkeit/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit mit Rand}{}{} der Dimension $n$.}
+\faktfolgerung {Dann ist der Rand
+\mathl{\partial M}{} eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+\zusatzklammer {ohne Rand} {} {} der Dimension
+\mathl{n-1}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Zunächst ist
+
+\mavergleichskette
+{\vergleichskette
+{ L
+}
+{ = }{ \partial M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit der
+\definitionsverweis {induzierten Topologie}{}{}
+ein
+\definitionsverweis {Hausdorffraum}{}{.}
+Sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und sei
+\maabbdisp {\alpha} { U } { V
+} {}
+eine
+\definitionsverweis {Karte}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen und
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha(P)
+}
+{ \in }{ \partial H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Da $\alpha$ eine
+\definitionsverweis {Homöomorphie}{}{}
+ist und da nach
+[[Mannigfaltigkeit mit Rand/Rand/Elementare Eigenschaften/Fakt|Lemma 21.3  (1)]]
+bei jeder Karte Randpunkte zu Randpunkten korrespondieren, induziert dies eine Homöomorphie
+\maabbdisp {} {U \cap L} {V \cap \partial H
+} {.}
+Dabei ist
+\mathl{U \cap L}{} eine offene Umgebung von $P$ in $L$, sodass wir diese Mengen als Kartengebiete nehmen können. Betrachten wir nun einen Kartenwechsel, wobei wir gleich von einem einzigen Kartengebiet
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und zwei Karten
+\maabb {\alpha_1} { U } { V_1
+} {} und \maabb {\alpha_2} { U } { V_2
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ V_1,V_2
+}
+{ \subseteq }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen ausgehen können. Es liegt dann ein
+$C^1$-\definitionsverweis {Diffeomorphismus
+}{}{}
+\maabbdisp {\varphi=\alpha_2 \circ \alpha_1^{-1}} {V_1 } { V_2
+} {}
+vor. Dies bedeutet zunächst, dass eine Homöomorphie
+\maabb {} { \partial H \cap V_1 } { \partial H \cap V_2
+} {}
+vorliegt. Die Diffeomorphismuseigenschaft von $\varphi$ bedeutet für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U \cap L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dass es offene Umgebungen
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha_1(P)
+}
+{ \in }{ W_1
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha_2(P)
+}
+{ \in }{ W_2
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und eine diffeomorphe
+\definitionsverweis {Fortsetzung}{}{}
+\maabbdisp {\tilde{\varphi}} { W_1 } { W_2
+} {}
+von $\varphi$ von
+\mathkor {} {V_1 \cap W_1} {nach} {V_2 \cap W_2} {}
+gibt. Diese Fortsetzung induziert dann
+nach [[Diffeomorphismus/Halbraum auf Halbraum/Induziert Diffeomorphismus/Aufgabe|Aufgabe 21.19]]
+auch eine
+$C^1$-\definitionsverweis {Diffeomorphie}{}{}
+zwischen den Rändern
+\mathl{\partial H \cap W_1}{} und
+\mathl{\partial H \cap W_2}{,}  sodass insgesamt eine Diffeomorphie
+\maabbdisp {\varphi \vert_{\partial H}} { \partial H \cap V_1 } { \partial H \cap V_2
+} {}
+vorliegt.
+
+}
+
+Wir wissen bereits, dass die Faser einer differenzierbaren regulären Abbildung zwischen differenzierbaren Mannigfaltigkeiten die Struktur einer abgeschlossenen Untermannigfaltigkeit trägt. Auf einem ähnlichen Argument beruht der folgende Satz, der die Existenz von sehr vielen berandeten Mannigfaltigkeiten sichert.
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Reguläre Funktion auf Mannigfaltigkeit/Urbild halbseitiger Intervalle/Mannigfaltigkeit mit Rand/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei $L$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und es sei
+\maabbdisp {f} { L } {\R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{.}
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktvoraussetzung {Jeder Punkt der
+\definitionsverweis {Faser}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ = }{ f^{-1}(a)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+über $a$ sei
+\definitionsverweis {regulär}{}{.}}
+\faktfolgerung {Dann sind die Teilmengen
+
+\mathdisp {M= \left\{  x \in L  \mid   f(x) \leq a        \right\} \text{   und } N= \left\{  x \in L  \mid   f(x) \geq a        \right\}} {  }
+
+\definitionsverweis {differenzierbare Mannigfaltigkeiten mit Rand}{}{,}
+und zwar ist ihr
+\definitionsverweis {Rand}{}{}
+jeweils gleich $F$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Zur Notationsvereinfachung sei
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+und wir beschränken uns auf $M$. Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { \left\{  x\in L  \mid  f(x)<0        \right\}  \uplus F
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei die linke Menge eine
+\definitionsverweis {offene Menge}{}{}
+von $L$ und damit eine offene Untermannigfaltigkeit ist. Entscheidend ist also zu zeigen, dass es für die Punkte aus der Faser $F$ Karten und damit eine Mannigfaltigkeitsstruktur gibt. Es sei also
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ F
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Nach dem Beweis
+des [[Satz über implizite Abbildungen/R/Fakt|Satzes über implizite Abbildungen]]
+gibt es zu
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ F
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine offene
+\zusatzklammer {Karten} {} {-}Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{ \subseteq }{ L
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und eine Karte
+\maabbdisp {\alpha} { U } { V
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+derart, dass
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ = }{ x_1 \circ \alpha
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist. Dabei korrespondiert
+\mathl{F \cap U}{} zu
+\mathl{\left\{  x \in V  \mid   x_1 = 0         \right\}}{} und
+\mathl{M \cap U}{} zu
+\mathl{H_{\leq 0} \cap V}{,} sodass also die Einschränkung von $\alpha$ auf $M$ eine Karte für $M$ in $P$ liefert. Die Kartenwechsel sind dabei
+$C^1$-\definitionsverweis {diffeomorph}{}{,}
+da dies für die
+\zusatzklammer {vollen} {} {}
+Karten auf $L$ gilt.
+
+}
+
+\inputbeispiel{}
+{
+
+Die
+\definitionsverweis {abgeschlossene Kugel}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ B  \left(  0 ,r \right)
+}
+{ =} { \left\{  x \in \R^n   \mid   \sqrt{x_1^2 + \cdots + x_n^2} \leq r         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist eine
+$C^\infty$-\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+mit der \stichwort {Sphäre} {}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ S \left(   0 , r  \right)
+}
+{ =} { \left\{  x \in \R^n   \mid   \sqrt{x_1^2 + \cdots + x_n^2} =  r         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+als
+\definitionsverweis {Rand}{}{.}
+Dies folgt unmittelbar aus
+[[Reguläre Funktion auf Mannigfaltigkeit/Urbild halbseitiger Intervalle/Mannigfaltigkeit mit Rand/Fakt|Satz 21.5]]
+angewendet auf die differenzierbare Funktion
+\maabbeledisp {f} {\R^n } {\R
+} {(x_1 , \ldots , x_n) } { \sqrt{x_1^2 + \cdots + x_n^2}
+} {,}
+die in jedem Punkt $\neq 0$
+\definitionsverweis {regulär}{}{}
+ist.
+
+}
+
+\inputbeispiel{}
+{
+
+Ein
+\definitionsverweis {abgeschlossener}{}{} \definitionsverweis {Quader}{}{}
+
+\mathdisp {[a_1,b_1] \times [a_2,b_2] \times \cdots \times [a_n,b_n] \subseteq \R^n} {  }
+
+ist bei
+\mathl{n \geq 2}{} keine
+\definitionsverweis {differenzierbare Mannigfaltigkeit mit Rand}{}{,}
+da er nicht nur Seiten, sondern auch
+\zusatzklammer {je nach Dimension} {} {}
+Ecken und Kanten besitzt. Ein Rechteck besitzt vier Eckpunkte, denen man nicht die Struktur einer
+\zusatzklammer {mit dem umgebenden Raum verträglichen} {} {}
+differenzierbaren berandeten Mannigfaltigkeit geben kann
+\zusatzklammer {da das abgeschlossene Rechteck
+\definitionsverweis {homöomorph}{}{}
+zur abgeschlossenen Kreisscheibe ist, kann man darauf die Struktur einer differenzierbaren Mannigfaltigkeit mit Rand erklären; mit dieser Struktur ist aber die natürliche Einbettung des Rechtecks in den $\R^2$ nicht differenzierbar} {} {,}
+ein dreidimensionaler Quader besitzt zwölf Kanten und acht Ecken, an denen es keine natürliche Mannigfaltigkeitsstruktur gibt.
+
+Wenn man allerdings diese Ecken, Kanten etc. entfernt und nur die \anfuehrung{Seiten der Kodimension eins}{} beibehält, so bekommt man eine
+\zusatzklammer {nicht kompakte} {} {}
+Mannigfaltigkeit mit Rand. Der Rand ist dabei die disjunkte Vereinigung dieser Hyper-Seiten. Dieser Rand ist, wie bei jeder Mannigfaltigkeit mit Rand, abgeschlossen innerhalb der Mannigfaltigkeit, allerdings nicht abgeschlossen im umgebenden euklidischen Raum.
+
+}
+
+  \zwischenueberschrift{Orientierungen auf Mannigfaltigkeiten mit Rand}
+
+Der $\R^n$ sei mit der durch die Standardvektoren
+\mathl{e_1 , \ldots , e_n}{} gegebenen
+\definitionsverweis {Orientierung}{}{}
+versehen, ferner sei der Halbraum
+
+\mavergleichskettedisp
+{\vergleichskette
+{ H_{\leq 0}
+}
+{ =} { \left\{  x \in \R^n   \mid   x_1 \leq 0         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+als der \anfuehrung{innere Halbraum}{} ausgezeichnet. Dann nennt man die auf der Hyperebene
+\zusatzklammer {also dem Rand der berandeten Mannigfaltigkeit \mathlk{H_{\leq 0}}{}} {} {}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ E
+}
+{ =} { \left\{  x \in \R^n   \mid   x_1 = 0         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+durch die Basis
+\mathl{e_2 , \ldots , e_n}{} definierte Orientierung die \stichwort {Orientierung durch die äußere Normale} {.} Eine beliebige Basis
+\mathl{v_2 , \ldots , v_n}{} von $E$ repräsentiert diese Orientierung genau dann, wenn für einen beliebigen Vektor
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ H_+
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {das bedeutet, nach \anfuehrung{außen}{,} also raus aus dem Halbraum zu zeigen} {} {}
+die Basis
+\mathl{v,v_2 , \ldots , v_n}{}
+\zusatzklammer {also $v$ zuerst} {} {}
+von $\R^n$ die Ausgangsorientierung repräsentiert
+\zusatzfussnote {Dies ist für eine Halbgerade
+
+\mavergleichskette
+{\vergleichskette
+{H
+}
+{ = }{ \R_{\geq 0}
+}
+{ \subseteq }{ \R
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit seinem einzigen Randpunkt $\{0\}$ folgendermaßen zu interpretieren. Die beiden Orientierungen auf
+\mathl{\{0\}}{} sind
+\mathkor {} {+} {und} {-} {,}
+und $-$ repräsentiert die Orientierung durch die äußere Normale, da für einen nach außen weisenden Vektor
+
+\mavergleichskette
+{\vergleichskette
+{ w
+}
+{ \in }{ \R_-
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+der entgegengesetzte Vektor $-w$ die Standardorientierung von $\R$ repräsentiert. Für den negativen Halbraum
+\mathl{\R_{\leq 0}}{} repräsentiert hingegen im Nullpunkt $+$ die Orientierung durch die äußere Normale} {.} {.}
+
+Dieser Zusammenhang zwischen Orientierungen auf einem reellen Vektorraum und Orientierungen auf dem Rand eines Halbraumes überträgt sich auf Mannigfaltigkeiten mit Rand. Wichtig ist dabei, dass der Tangentialraum
+\mathl{T_PM}{} in einem Randpunkt $P$ eine kanonische Hyperebene enthält, nämlich den Tangentialraum
+\mathl{T_P (\partial M)}{} des Randes. Die Mannigfaltigkeit definiert dabei eine \anfuehrung{innere}{} und eine \anfuehrung{äußere Hälfte}{} des Tangentialraumes.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Mannigfaltigkeit mit Rand/Orientierung/Randorientierung/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit mit Rand}{}{,}}
+\faktvoraussetzung {die eine
+\definitionsverweis {Orientierung}{}{} trage.}
+\faktfolgerung {Dann trägt auch die
+\definitionsverweis {Randmannigfaltigkeit}{}{} eine kanonische Orientierung, nämlich diejenige, die auf jeder
+\definitionsverweis {Karte}{}{} durch die
+\definitionsverweis {äußere Normale}{}{} festgelegt ist.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Für jede
+\zusatzklammer {orientierte} {} {}
+Karte
+\maabbdisp {\alpha} { U } { V
+} {}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen wird die induzierte Karte
+\maabbdisp {} {U \cap \partial M } { V \cap \partial H
+} {}
+mit der
+\definitionsverweis {Orientierung durch die äußere Normale}{}{}
+auf
+\mathl{\partial H}{} versehen. Nach Voraussetzung besitzen sämtliche Kartenwechsel zu $M$ in jedem Punkt eine positive
+\definitionsverweis {Fundamentaldeterminante}{}{}
+bezüglich der die Orientierungen repräsentierenden Basen, und wir müssen zeigen, dass dies auch für die induzierten Kartenwechsel gilt. Dabei können wir von einem offenen Kartengebiet
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{ \subseteq }{ M
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und zwei Karten
+\maabbdisp {\alpha_1} { U } { V_1
+} {}
+und
+\maabbdisp {\alpha_2} { U } { V_2
+} {}
+ausgehen und die Übergangsabbildung
+\maabbdisp {\varphi = \alpha_2 \circ \alpha_1^{-1}} { V_1 } { V_2
+} {}
+mit offenen Mengen
+
+\mavergleichskette
+{\vergleichskette
+{ V_1
+}
+{ \subseteq }{ H_1
+}
+{ \subset }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ V_2
+}
+{ \subseteq }{ H_2
+}
+{ \subset }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+betrachten. Es sei
+\mathl{v_2 , \ldots , v_n}{} eine Basis von
+\mathl{\partial H_1}{} und
+
+\mavergleichskette
+{\vergleichskette
+{ v_1
+}
+{ \in }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+derart, dass $v_1$ die äußere Normale von $H_1$ repräsentiert, dass also
+\mathl{v_1, v_2 , \ldots , v_n}{} die Orientierung des $\R^n$ repräsentiert
+\zusatzklammer {es seien $x_1 , \ldots , x_n$ die zugehörigen Koordinaten} {} {;}
+ebenso sollen
+
+\mavergleichskette
+{\vergleichskette
+{ w_1, w_2 , \ldots , w_n
+}
+{ \in }{ H_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die entsprechenden Eigenschaften erfüllen. Wir schreiben die Fundamentalmatrix von $\varphi$ bezüglich dieser Basen hin, also die Matrix mit den Einträgen
+
+\mathdisp {\left(  { \frac{   \partial  \varphi_i   }{  \partial   x_j   } } ( Q)  \right)_{1 \leq i,j \leq n}} { . }
+
+Die Determinante davon ist nach Voraussetzung positiv. Wegen
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi ( \partial H_1)
+}
+{ \subseteq }{ \partial H_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt für einen Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ \partial H_1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Beziehung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial  \varphi_1   }{  \partial   x_j   } } ( Q)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für
+
+\mavergleichskette
+{\vergleichskette
+{ j
+}
+{ = }{ 2 , \ldots , n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Nach
+dem [[Determinante/Körper/Entwicklungssatz/Fakt|Entwicklungssatz]]
+hängt daher das Vorzeichen der Determinante der Matrix
+
+\mathdisp {\left(  { \frac{   \partial  \varphi_i   }{  \partial   x_j   } } ( Q)  \right)_{ 2 \leq i,j \leq n}} { , }
+
+die die Fundamentalmatrix der Übergangsabbildung der Randkarten
+\maabbdisp {} {U_1 \cap \partial H_1 } { U_2 \cap \partial H_2
+} {}
+\zusatzklammer {bezüglich der Basen
+\mathl{v_2 , \ldots , v_n}{} und
+\mathl{w_2 , \ldots , w_n}{}} {} {}
+im Punkt $Q$ ist, nur von
+\mathl{{ \frac{   \partial  \varphi_1   }{  \partial   x_1   } } ( Q)}{} ab. Dabei gilt mit
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ = }{ (0,a_2 , \ldots , a_n)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nach
+[[Differenzierbarkeit/K/Zusammenhang zwischen partieller Ableitung und Richtungsableitung/Fakt|Lemma 44.3 (Analysis (Osnabrück 2021-2023))]]
+die Beziehung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial  \varphi_1   }{  \partial   x_1   } } ( Q)
+}
+{ =} { \operatorname{lim}_{   \epsilon \rightarrow  0   } \,  { \frac{   \varphi_1 (\epsilon, a_2 , \ldots , a_n)  }{  \epsilon } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Da $v_1$ die äußere Normale repräsentiert, ist bei negativem
+\zusatzklammer {betragsmäßig hinreichend kleinen} {} {}
+$\epsilon$ der Vektor mit den Koordinaten
+
+\mavergleichskette
+{\vergleichskette
+{ (\epsilon,a_2 , \ldots , a_n)
+}
+{ \in }{ H_1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Daher muss der Bildvektor zu $H_2$ gehören und daher ist wiederum
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi_1(\epsilon,a_2 , \ldots , a_n)
+}
+{ < }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Also ist dieser Quotient
+\mathl{\geq 0}{,} was dann auch für den Limes gilt. Da ein Diffeomorphismus vorliegt, muss der Limes sogar positiv sein, woraus die Aussage folgt.
+
+}
+
+ [[Kategorie:Latexseite]]

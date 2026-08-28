@@ -1,0 +1,30 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesungsgestaltung|21|
+
+{{Zwischenüberschrift|Mannigfaltigkeiten mit Rand}}
+
+{{:Mannigfaltigkeiten mit Rand/Einführung/Textabschnitt|zusatz2=Fußnote}} 
+
+Wir wissen bereits, dass die Faser einer differenzierbaren regulären Abbildung zwischen differenzierbaren Mannigfaltigkeiten die Struktur einer abgeschlossenen Untermannigfaltigkeit trägt. Auf einem ähnlichen Argument beruht der folgende Satz, der die Existenz von sehr vielen berandeten Mannigfaltigkeiten sichert.
+{{
+inputfaktbeweis
+|Reguläre Funktion auf Mannigfaltigkeit/Urbild halbseitiger Intervalle/Mannigfaltigkeit mit Rand/Fakt|Satz||
+||
+}}
+
+{{
+inputbeispiel
+|Vollkugel/Mannigfaltigkeit mit Rand/Beispiel||
+}}
+
+{{
+inputbeispiel
+|Quader/Ohne Kanten und Ecken/Mannigfaltigkeit mit Rand/Beispiel||
+}}
+
+{{Zwischenüberschrift|Orientierungen auf Mannigfaltigkeiten mit Rand}}
+
+{{:Differenzierbare Mannigfaltigkeit/Rand/Orientierung/Textabschnitt|}}
+
+{{Fußnotenliste}}
+
+}}
