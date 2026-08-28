@@ -2,7 +2,7 @@
 
 Updated: 2026-08-28 (Europe/Berlin)
 
-## Current verified boundary — Unit 19 public; Unit 20 translated and bounded-QA complete
+## Current verified boundary — Unit 19 cumulative release public; Unit 20 source checkpoint public; Unit 21 freeze active
 
 Units 1–19 now pass the complete local reader and additive-backend gate. The
 current centered A4 PDF is 302 pages and 7,740,452 bytes, SHA-256
@@ -109,10 +109,17 @@ SHA-256
 `a5eff2cb30b006d4642d6dd7fdb32e5bc434930e8c77700e3a1bb4434e7f0498`.
 Two independent three-pass builds are byte-identical; the final log has no
 overfull/underfull boxes, undefined commands, or LaTeX/package warnings. This
-is QA evidence rather than a new cumulative public release. The next
-executable action is the exact Unit 21 authority freeze and source-ordered
-translation; the next consolidated PDF/HTML/backend/publication boundary
-remains Units 20–22. The full O011 goal remains unfinished.
+is QA evidence rather than a new cumulative public release. The complete
+bounded Unit 20 source, controls, and QA evidence are public on `main` at commit
+`a7a450118e88727d160f1fd76d2dff2d0e22f92e`, tree
+`902a418351aec0ff8e8d881846ce694bf65fb13b`. An unauthenticated GitHub API
+readback matched both identities, and seven representative raw files matched
+their local byte counts and SHA-256 values exactly. The 3,396-byte receipt is
+`qa/unit-20/GITHUB_COMMIT_PUBLIC_READBACK_RECEIPT.json`, SHA-256
+`a38ccd463520daf0a8cfc64cfa93909e2610697fee5bf8f57c14b7202a5c7c13`.
+The next executable action is the exact Unit 21 authority freeze and
+source-ordered translation; the next consolidated PDF/HTML/backend/publication
+boundary remains Units 20–22. The full O011 goal remains unfinished.
 
 ## Objective
 

@@ -1786,3 +1786,21 @@ The 16-page 363,565-byte A4 QA reader has SHA-256
 `a5eff2cb30b006d4642d6dd7fdb32e5bc434930e8c77700e3a1bb4434e7f0498`;
 its build/visual receipt SHA-256 is
 `35a584bde32c8d60db5088ba474a8ca2572bd82f93789d8fc0d425d3d946064f`.
+
+## D076 — Publish and anonymously verify the bounded Unit 20 source checkpoint (2026-08-28)
+
+**Decision:** Push the exact bounded Unit 20 source, controls, and QA evidence
+to public `main` immediately, but do not manufacture a standalone cumulative
+reader release. Keep Unit 22 as the next PDF/HTML/backend/release boundary and
+advance directly to the Unit 21 authority freeze. Require a credential-free
+commit/tree readback plus representative raw-file byte and SHA-256 matches.
+
+**Evidence:** Public commit
+`a7a450118e88727d160f1fd76d2dff2d0e22f92e` has tree
+`902a418351aec0ff8e8d881846ce694bf65fb13b`, exactly matching the local commit
+and tree. Seven raw files spanning the lecture, worksheet, disclosed incomplete
+source solution, mathematical QA, reader-build QA, current state, and cursor
+matched all local byte counts and SHA-256 values without authentication. The
+3,396-byte receipt is
+`qa/unit-20/GITHUB_COMMIT_PUBLIC_READBACK_RECEIPT.json`, SHA-256
+`a38ccd463520daf0a8cfc64cfa93909e2610697fee5bf8f57c14b7202a5c7c13`.

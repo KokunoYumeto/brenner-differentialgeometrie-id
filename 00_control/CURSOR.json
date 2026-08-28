@@ -18,6 +18,10 @@
     "github_commit": "e470fa5897708f49596488083b442c494ca9ab0e",
     "github_tag": "v0.19.0-unit-19",
     "github_readback_sha256": "991b1a037df12edf288085403054861e44816e9cc2a93f5c0d35af4c340f79fb",
+    "unit_20_public_checkpoint_commit": "a7a450118e88727d160f1fd76d2dff2d0e22f92e",
+    "unit_20_public_checkpoint_tree": "902a418351aec0ff8e8d881846ce694bf65fb13b",
+    "unit_20_public_checkpoint_readback_path": "qa/unit-20/GITHUB_COMMIT_PUBLIC_READBACK_RECEIPT.json",
+    "unit_20_public_checkpoint_readback_sha256": "a38ccd463520daf0a8cfc64cfa93909e2610697fee5bf8f57c14b7202a5c7c13",
     "zenodo_record_id": 22134954,
     "zenodo_doi": "10.5281/zenodo.22134954",
     "next_executable_action": "Freeze the exact Lecture 21 and Worksheet 21 roots expansions solution closure media rights and current revisions; independently verify the frozen closure and then translate the admitted pair in source order."
@@ -71,7 +75,7 @@
     "public_zenodo_doi": "10.5281/zenodo.22134954"
   },
   "batch_progress": {
-    "milestone": "units_17_through_19_public_and_anonymously_verified_unit_20_bounded_qa_passed",
+    "milestone": "units_17_through_19_public_and_anonymously_verified_unit_20_bounded_source_checkpoint_public_unit_21_freeze_active",
     "completed_units": {
       "unit_08": {
         "status": "translated_and_bounded_math_qa_passed",
@@ -396,6 +400,11 @@
         "qa_verify_sha256": "00eb96eea2afab16dedf6e021f25edb60c60183facd8299056ecd49b069ec73c",
         "unit_reader_pdf": {"path": "build/pdf/unit20-qa.pdf", "bytes": 363565, "pages": 16, "sha256": "a5eff2cb30b006d4642d6dd7fdb32e5bc434930e8c77700e3a1bb4434e7f0498"},
         "unit_reader_qa_sha256": "35a584bde32c8d60db5088ba474a8ca2572bd82f93789d8fc0d425d3d946064f",
+        "github_checkpoint_commit": "a7a450118e88727d160f1fd76d2dff2d0e22f92e",
+        "github_checkpoint_tree": "902a418351aec0ff8e8d881846ce694bf65fb13b",
+        "github_checkpoint_readback_path": "qa/unit-20/GITHUB_COMMIT_PUBLIC_READBACK_RECEIPT.json",
+        "github_checkpoint_readback_bytes": 3396,
+        "github_checkpoint_readback_sha256": "a38ccd463520daf0a8cfc64cfa93909e2610697fee5bf8f57c14b7202a5c7c13",
         "declared_corrections": ["O011-CORR-0275", "O011-CORR-0276", "O011-CORR-0277", "O011-CORR-0278", "O011-CORR-0279", "O011-CORR-0280", "O011-CORR-0281", "O011-TRANS-0282", "O011-ACC-0283", "O011-ACC-0284"]
       }
     },

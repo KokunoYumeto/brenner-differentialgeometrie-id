@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "role_id": "O011",
+  "course_id": "D50",
+  "unit": 20,
+  "checkpoint_kind": "bounded_source_checkpoint_not_cumulative_release",
+  "repository": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id",
+  "branch": "main",
+  "commit": "a7a450118e88727d160f1fd76d2dff2d0e22f92e",
+  "tree": "902a418351aec0ff8e8d881846ce694bf65fb13b",
+  "verified_at": "2026-08-28T11:32:34.0745437+02:00",
+  "authentication": "none",
+  "commit_api": "https://api.github.com/repos/KokunoYumeto/brenner-differentialgeometrie-id/git/commits/a7a450118e88727d160f1fd76d2dff2d0e22f92e",
+  "commit_identity": {
+    "local_commit": "a7a450118e88727d160f1fd76d2dff2d0e22f92e",
+    "public_commit": "a7a450118e88727d160f1fd76d2dff2d0e22f92e",
+    "local_tree": "902a418351aec0ff8e8d881846ce694bf65fb13b",
+    "public_tree": "902a418351aec0ff8e8d881846ce694bf65fb13b",
+    "match": true
+  },
+  "raw_file_readback": [
+    {
+      "path": "source/units/unit-20/lecture20.id.tex",
+      "bytes": 25211,
+      "sha256": "4f6b2af7f168bec59cb4c8a02bdb66ade520f7ab110098ed6b24ca4be9b98fb7",
+      "public_bytes": 25211,
+      "public_sha256": "4f6b2af7f168bec59cb4c8a02bdb66ade520f7ab110098ed6b24ca4be9b98fb7",
+      "match": true
+    },
+    {
+      "path": "source/units/unit-20/worksheet20.id.tex",
+      "bytes": 9695,
+      "sha256": "ccbae6a87a2e11d6cbcb076f27d16bb97c520ba5806a477a2d4b12fa5d9c3b9a",
+      "public_bytes": 9695,
+      "public_sha256": "ccbae6a87a2e11d6cbcb076f27d16bb97c520ba5806a477a2d4b12fa5d9c3b9a",
+      "match": true
+    },
+    {
+      "path": "source/units/unit-20/worksheet20_exercise14_solution.id.tex",
+      "bytes": 1700,
+      "sha256": "efcb047ffdae25fd7d0a89dd92fa2b32424d87595ca46df19f1411fb36325c79",
+      "public_bytes": 1700,
+      "public_sha256": "efcb047ffdae25fd7d0a89dd92fa2b32424d87595ca46df19f1411fb36325c79",
+      "match": true
+    },
+    {
+      "path": "qa/unit-20/POST_CORRECTION_MATH_QA.json",
+      "bytes": 13674,
+      "sha256": "4f75d385d8613d71173f00855bc9270870bb2ad5ac51842bb806bed931763acf",
+      "public_bytes": 13674,
+      "public_sha256": "4f75d385d8613d71173f00855bc9270870bb2ad5ac51842bb806bed931763acf",
+      "match": true
+    },
+    {
+      "path": "qa/unit-20/UNIT20_READER_BUILD_QA.json",
+      "bytes": 1980,
+      "sha256": "35a584bde32c8d60db5088ba474a8ca2572bd82f93789d8fc0d425d3d946064f",
+      "public_bytes": 1980,
+      "public_sha256": "35a584bde32c8d60db5088ba474a8ca2572bd82f93789d8fc0d425d3d946064f",
+      "match": true
+    },
+    {
+      "path": "00_control/CURRENT_STATE.md",
+      "bytes": 44964,
+      "sha256": "5f0b5a5507776583541e20bdd1c267c381018e04c5d555702b3ac7f73c30eec5",
+      "public_bytes": 44964,
+      "public_sha256": "5f0b5a5507776583541e20bdd1c267c381018e04c5d555702b3ac7f73c30eec5",
+      "match": true
+    },
+    {
+      "path": "00_control/CURSOR.json",
+      "bytes": 48028,
+      "sha256": "902e4f2c7694c8a505d671b7acda04408c1962b1891579670b84c7cec9ac2d5a",
+      "public_bytes": 48028,
+      "public_sha256": "902e4f2c7694c8a505d671b7acda04408c1962b1891579670b84c7cec9ac2d5a",
+      "match": true
+    }
+  ],
+  "result": "pass",
+  "scope_note": "The exact public Git commit and tree match local identities; seven representative raw files match byte-for-byte. Unit 20 remains a bounded source checkpoint, while the next cumulative PDF/HTML/backend release boundary remains Unit 22."
+}
