@@ -3,7 +3,7 @@
   "role_id": "O011",
   "course_id": "D50",
   "lane": "smooth-manifolds-differential-geometry-id",
-  "status": "unit_19_public_unit_20_public_checkpoint_units_20_21_bounded_unit_22_authority_next",
+  "status": "unit_19_public_units_20_21_public_checkpoints_unit_22_authority_next",
   "active_cursor": {
     "unit_id": "o011-brenner-u22",
     "authority_status": "not_started_next_source_order_unit",
@@ -38,8 +38,13 @@
     "unit_21_lecture_target_sha256": "207266db84e4ce06f17d7fa9dd82383597b1dc54afd989f8ae082e222826fff3",
     "unit_21_worksheet_target_sha256": "8418192976181a42355d9349af05e4683333d5041f0fd996c77d366820a36946",
     "unit_21_reader_pdf_sha256": "d423260ff0bf8525e4aea9ff68ae3d4f435b12c66685dacebc5bdfda567a2840",
-    "unit_21_source_checkpoint_publication_status": "pending_narrow_commit_and_anonymous_readback",
-    "next_executable_action": "Commit and publish the exact bounded Unit 21 source checkpoint, verify public bytes anonymously, then freeze Unit 22 exact authority and rights closure."
+    "unit_21_source_checkpoint_publication_status": "public_and_anonymously_verified",
+    "unit_21_public_checkpoint_commit": "79617dbc308605c82c4f66ccda445c8c3adf26c8",
+    "unit_21_public_checkpoint_tree": "068e1e73acb41c272b843133dbf4ac3346dfaa01",
+    "unit_21_public_checkpoint_readback_path": "qa/unit-21/GITHUB_COMMIT_PUBLIC_READBACK_RECEIPT.json",
+    "unit_21_public_checkpoint_readback_bytes": 4064,
+    "unit_21_public_checkpoint_readback_sha256": "85fd8cf7eb3aee6e4658a580dbad9ea1d30b69f2fb283be3f84f3b330b8174dc",
+    "next_executable_action": "Freeze Unit 22 exact authority and rights closure, then translate the complete lecture/worksheet pair and every source-supplied solution."
   },
   "authority": {
     "course_pageid": 142521,
@@ -90,7 +95,7 @@
     "public_zenodo_doi": "10.5281/zenodo.22134954"
   },
   "batch_progress": {
-    "milestone": "units_17_through_19_public_unit_20_public_source_checkpoint_units_20_21_bounded_unit_22_next",
+    "milestone": "units_17_through_19_public_units_20_21_public_source_checkpoints_unit_22_next",
     "completed_units": {
       "unit_08": {
         "status": "translated_and_bounded_math_qa_passed",
@@ -450,6 +455,11 @@
         "qa_verify_sha256": "89977cefeffe9b7d38fb24571e693ebce864dbc05b1a39c488a7f44fb763c6bd",
         "unit_reader_pdf": {"path": "build/pdf/unit21-qa.pdf", "bytes": 1486293, "pages": 18, "sha256": "d423260ff0bf8525e4aea9ff68ae3d4f435b12c66685dacebc5bdfda567a2840"},
         "unit_reader_qa_sha256": "3aa629928e6ea9bd8e5cbc09c2bfccd1d200cd23683b128c03645d00cb200624",
+        "github_checkpoint_commit": "79617dbc308605c82c4f66ccda445c8c3adf26c8",
+        "github_checkpoint_tree": "068e1e73acb41c272b843133dbf4ac3346dfaa01",
+        "github_checkpoint_readback_path": "qa/unit-21/GITHUB_COMMIT_PUBLIC_READBACK_RECEIPT.json",
+        "github_checkpoint_readback_bytes": 4064,
+        "github_checkpoint_readback_sha256": "85fd8cf7eb3aee6e4658a580dbad9ea1d30b69f2fb283be3f84f3b330b8174dc",
         "declared_corrections": ["O011-CORR-0285", "O011-CORR-0286", "O011-CORR-0287", "O011-CORR-0288", "O011-CORR-0289", "O011-CORR-0290", "O011-CORR-0291", "O011-CORR-0292", "O011-TRANS-0293", "O011-ACC-0294", "O011-CORR-0295", "O011-TRANS-0296", "O011-TRANS-0297", "O011-TRANS-0298"]
       }
     },
@@ -458,13 +468,13 @@
     "consolidated_gate_status": "unit_19_public_gate_closed_units_20_through_22_translation_batch_active"
   },
   "current": {
-    "stage": "unit_21_source_checkpoint_then_unit_22_authority_freeze",
+    "stage": "unit_22_authority_freeze",
     "status": "active",
     "content_units": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
     "unit_14_qa_path": "qa/unit-14/POST_CORRECTION_MATH_QA.json",
     "unit_14_qa_bytes": 8498,
     "unit_14_qa_sha256": "2b9c5474759e0bc298cb668e9b893ac477edb3e6a9db90ea1b00c19db81ed86e",
-    "required_surfaces": ["publish_and_anonymously_verify_unit_21_bounded_source_checkpoint", "freeze_unit_22_exact_authority_and_rights", "translate_unit_22_complete_pair_and_supplied_solutions", "run_units_20_through_22_cumulative_reader_backend_publication_gate"],
+    "required_surfaces": ["freeze_unit_22_exact_authority_and_rights", "translate_unit_22_complete_pair_and_supplied_solutions", "run_units_20_through_22_cumulative_reader_backend_publication_gate"],
     "unit_15_qa_path": "qa/unit-15/POST_CORRECTION_MATH_QA.json",
     "unit_15_qa_bytes": 8256,
     "unit_15_qa_sha256": "90e0cee5ec3228ea3635e50ad6feaacd1f86092e93dea3c70b07ca020cff6a87",
@@ -472,7 +482,7 @@
     "unit_16_qa_bytes": 10639,
     "unit_16_qa_sha256": "13edee0684042a53beb4daa7b6dfe5c877ac7ed5c35ec03fa5fa63f11a710a4c",
     "active_source_order_unit": "o011-brenner-u22",
-    "next_action": "publish and anonymously verify the bounded Unit 21 source checkpoint then freeze Unit 22 exact authority and rights closure",
+    "next_action": "freeze Unit 22 exact authority and rights closure, then translate the complete pair and every source-supplied solution",
     "unit_21_bounded_gate": {
       "status": "pass_translation_math_media_build_and_visual_qa",
       "lecture": {"pageid": 142565, "revid": 897931, "expanded_source_bytes": 24383, "expanded_source_sha256": "3bd477b25e7061b022dab80c007fcdaef0c72c3674e6b61651e2bf598811e9d9"},
@@ -492,7 +502,10 @@
       "worksheet_target": {"path": "source/units/unit-21/worksheet21.id.tex", "bytes": 10101, "sha256": "8418192976181a42355d9349af05e4683333d5041f0fd996c77d366820a36946"},
       "post_qa": {"path": "qa/unit-21/POST_CORRECTION_MATH_QA.json", "bytes": 13696, "sha256": "f389f1ae59621f5d16a4e0917c0299f3d2bedf5c68aab684e4d75ab45268419a", "verify_sha256": "89977cefeffe9b7d38fb24571e693ebce864dbc05b1a39c488a7f44fb763c6bd"},
       "unit_reader": {"path": "build/pdf/unit21-qa.pdf", "bytes": 1486293, "pages": 18, "sha256": "d423260ff0bf8525e4aea9ff68ae3d4f435b12c66685dacebc5bdfda567a2840", "qa_sha256": "3aa629928e6ea9bd8e5cbc09c2bfccd1d200cd23683b128c03645d00cb200624"},
-      "source_checkpoint_publication_status": "pending_narrow_commit_and_anonymous_readback"
+      "source_checkpoint_publication_status": "public_and_anonymously_verified",
+      "github_checkpoint_commit": "79617dbc308605c82c4f66ccda445c8c3adf26c8",
+      "github_checkpoint_tree": "068e1e73acb41c272b843133dbf4ac3346dfaa01",
+      "github_checkpoint_readback": {"path": "qa/unit-21/GITHUB_COMMIT_PUBLIC_READBACK_RECEIPT.json", "bytes": 4064, "sha256": "85fd8cf7eb3aee6e4658a580dbad9ea1d30b69f2fb283be3f84f3b330b8174dc"}
     },
     "unit_19_cumulative_gate": {
       "status": "pass_github_and_zenodo_public_and_anonymously_verified",

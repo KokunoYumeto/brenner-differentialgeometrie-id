@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "role_id": "O011",
+  "course_id": "D50",
+  "unit": 21,
+  "checkpoint_kind": "bounded_source_checkpoint_not_cumulative_release",
+  "repository": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id",
+  "branch": "main",
+  "commit": "79617dbc308605c82c4f66ccda445c8c3adf26c8",
+  "tree": "068e1e73acb41c272b843133dbf4ac3346dfaa01",
+  "verified_at": "2026-08-28T12:43:41.4611796+02:00",
+  "authentication": "none",
+  "commit_api": "https://api.github.com/repos/KokunoYumeto/brenner-differentialgeometrie-id/git/commits/79617dbc308605c82c4f66ccda445c8c3adf26c8",
+  "commit_identity": {
+    "local_commit": "79617dbc308605c82c4f66ccda445c8c3adf26c8",
+    "public_commit": "79617dbc308605c82c4f66ccda445c8c3adf26c8",
+    "local_tree": "068e1e73acb41c272b843133dbf4ac3346dfaa01",
+    "public_tree": "068e1e73acb41c272b843133dbf4ac3346dfaa01",
+    "match": true
+  },
+  "raw_file_readback": [
+    {
+      "path": "source/units/unit-21/lecture21.id.tex",
+      "bytes": 24518,
+      "sha256": "207266db84e4ce06f17d7fa9dd82383597b1dc54afd989f8ae082e222826fff3",
+      "public_bytes": 24518,
+      "public_sha256": "207266db84e4ce06f17d7fa9dd82383597b1dc54afd989f8ae082e222826fff3",
+      "match": true
+    },
+    {
+      "path": "source/units/unit-21/worksheet21.id.tex",
+      "bytes": 10101,
+      "sha256": "8418192976181a42355d9349af05e4683333d5041f0fd996c77d366820a36946",
+      "public_bytes": 10101,
+      "public_sha256": "8418192976181a42355d9349af05e4683333d5041f0fd996c77d366820a36946",
+      "match": true
+    },
+    {
+      "path": "source/units/unit-21/worksheet21_exercise10_solution.id.tex",
+      "bytes": 1923,
+      "sha256": "0bf50584af30cec1246553e5ed796b2f81ae9e00f634c19b2ebbe6120ff795a8",
+      "public_bytes": 1923,
+      "public_sha256": "0bf50584af30cec1246553e5ed796b2f81ae9e00f634c19b2ebbe6120ff795a8",
+      "match": true
+    },
+    {
+      "path": "qa/unit-21/POST_CORRECTION_MATH_QA.json",
+      "bytes": 13696,
+      "sha256": "f389f1ae59621f5d16a4e0917c0299f3d2bedf5c68aab684e4d75ab45268419a",
+      "public_bytes": 13696,
+      "public_sha256": "f389f1ae59621f5d16a4e0917c0299f3d2bedf5c68aab684e4d75ab45268419a",
+      "match": true
+    },
+    {
+      "path": "qa/unit-21/UNIT21_READER_BUILD_QA.json",
+      "bytes": 2905,
+      "sha256": "3aa629928e6ea9bd8e5cbc09c2bfccd1d200cd23683b128c03645d00cb200624",
+      "public_bytes": 2905,
+      "public_sha256": "3aa629928e6ea9bd8e5cbc09c2bfccd1d200cd23683b128c03645d00cb200624",
+      "match": true
+    },
+    {
+      "path": "qa/unit-21_media.json",
+      "bytes": 6251,
+      "sha256": "6719518e60282245cd217ca8ae8261faa1c8c4bb417cef52f4474b48a8943fde",
+      "public_bytes": 6251,
+      "public_sha256": "6719518e60282245cd217ca8ae8261faa1c8c4bb417cef52f4474b48a8943fde",
+      "match": true
+    },
+    {
+      "path": "build/generated/media/Circle_on_sphere_wireframe_10deg_6r.png",
+      "bytes": 831787,
+      "sha256": "112d1b5f964a7a34125eeab32897ce896eed642ebc640b7bb3b8e0a84f7d44d2",
+      "public_bytes": 831787,
+      "public_sha256": "112d1b5f964a7a34125eeab32897ce896eed642ebc640b7bb3b8e0a84f7d44d2",
+      "match": true
+    },
+    {
+      "path": "00_control/CURRENT_STATE.md",
+      "bytes": 49560,
+      "sha256": "334eddb2e199bfeb51c73429ce16c7ec5b5c6b2c346e925229fca46185a0f0ba",
+      "public_bytes": 49560,
+      "public_sha256": "334eddb2e199bfeb51c73429ce16c7ec5b5c6b2c346e925229fca46185a0f0ba",
+      "match": true
+    },
+    {
+      "path": "00_control/CURSOR.json",
+      "bytes": 55225,
+      "sha256": "b4bd8949786fc07e31bd9e3369f87af17991538d40dc9610efc3ba73b2930d4e",
+      "public_bytes": 55225,
+      "public_sha256": "b4bd8949786fc07e31bd9e3369f87af17991538d40dc9610efc3ba73b2930d4e",
+      "match": true
+    }
+  ],
+  "result": "pass",
+  "scope_note": "The exact public Git commit and tree match local identities; nine representative raw files, including one licensed media derivative, match byte-for-byte. Unit 21 remains a bounded source checkpoint; Unit 22 is the next cumulative PDF/HTML/backend release boundary."
+}

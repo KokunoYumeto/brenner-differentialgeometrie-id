@@ -2,7 +2,7 @@
 
 Updated: 2026-08-28 (Europe/Berlin)
 
-## Current verified boundary — Unit 19 cumulative release public; Units 20–21 bounded and Unit 20 source checkpoint public; Unit 22 next
+## Current verified boundary — Unit 19 cumulative release public; Units 20–21 bounded source checkpoints public; Unit 22 next
 
 Units 1–19 now pass the complete local reader and additive-backend gate. The
 current centered A4 PDF is 302 pages and 7,740,452 bytes, SHA-256
@@ -117,10 +117,11 @@ readback matched both identities, and seven representative raw files matched
 their local byte counts and SHA-256 values exactly. The 3,396-byte receipt is
 `qa/unit-20/GITHUB_COMMIT_PUBLIC_READBACK_RECEIPT.json`, SHA-256
 `a38ccd463520daf0a8cfc64cfa93909e2610697fee5bf8f57c14b7202a5c7c13`.
-Unit 21 has now joined Unit 20 at the complete bounded translation gate. The
-next executable action is the exact Unit 22 authority freeze and source-ordered
-translation; the next consolidated PDF/HTML/backend/publication boundary
-remains Units 20–22. The full O011 goal remains unfinished.
+Unit 21 has now joined Unit 20 at the complete bounded translation gate, and
+both bounded source checkpoints are public. The next executable action is the
+exact Unit 22 authority freeze and source-ordered translation; the next
+consolidated PDF/HTML/backend/publication boundary remains Units 20–22. The
+full O011 goal remains unfinished.
 
 Unit 21 is now admitted through an exact, independently verified authority
 closure. Lecture 21 remains pageid/revision `142565 / 897931`; Worksheet 21 is
@@ -186,9 +187,16 @@ inspected; the three figures, repaired sign argument, media attribution, and
 license page are centered, legible, and unclipped. The build/visual receipt is
 2,905 bytes with SHA-256
 `3aa629928e6ea9bd8e5cbc09c2bfccd1d200cd23683b128c03645d00cb200624`.
-This PDF is bounded QA evidence rather than a cumulative release. The next
-executable action is the Unit 21 source-checkpoint commit/public readback and
-then exact Unit 22 authority closure.
+This PDF is bounded QA evidence rather than a cumulative release. The exact
+bounded source checkpoint is public on `main` at commit
+`79617dbc308605c82c4f66ccda445c8c3adf26c8`, tree
+`068e1e73acb41c272b843133dbf4ac3346dfaa01`. A credential-free GitHub API
+readback matched both identities, and nine representative raw files—including
+one licensed media derivative—matched their local byte counts and SHA-256
+values exactly. The 4,064-byte receipt is
+`qa/unit-21/GITHUB_COMMIT_PUBLIC_READBACK_RECEIPT.json`, SHA-256
+`85fd8cf7eb3aee6e4658a580dbad9ea1d30b69f2fb283be3f84f3b330b8174dc`.
+The next executable action is exact Unit 22 authority closure.
 
 ## Objective
 
