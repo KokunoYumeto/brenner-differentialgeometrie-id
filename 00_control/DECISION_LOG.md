@@ -1834,3 +1834,37 @@ and the manifest-bound live-current receipt SHA-256 is
 `0cc4febad5958fca8432f7aed16867cb8a9d9215ac40b57945111a453d329bbd`.
 The admitted closure has 20 exercises, four supplied solutions, three
 rights-closed SVG assets, and no hints. Translation begins immediately.
+
+## D078 — Close the bounded Unit 21 translation and reader gate (2026-08-28)
+
+**Decision:** Admit the complete Indonesian Lecture 21 and Worksheet 21 pair,
+including all 20 exercises and exactly the four source-supplied solution pages,
+after protected-topology verification, independent mathematical and language
+review, explicit source-defect handling, exact file-specific media rights, two
+byte-identical unit-only A4 builds, and full-page visual inspection. Treat the
+Unit 21 PDF as bounded QA evidence rather than a cumulative release. Publish a
+narrow source checkpoint, then continue directly to Unit 22 for the planned
+Units 20–22 cumulative PDF/HTML/backend boundary.
+
+**Corrections and refinements:** Use the squared norm in the closed-ball
+regular-level example; place the boundary-orientation comparison basis in
+ambient `R^n`; repair the boundary-chart domains; replace `\delta H` by
+`\partial H`; use the actual difference quotient and chart-coordinate vector
+in Solution 21.10; and allow its first coordinate to be zero. Replace the two
+incorrect source media-credit fields with exact Commons rights. Normalize the
+independent-review language findings to `ruang topologis Hausdorff`, `tutupan
+terbuka`, `balok tertutup`, and `permukaan bola satuan`. Preserve canonical
+space-bearing media filenames while supplying hash-identical loader aliases.
+No defect or departure is silent.
+
+**Evidence:** Lecture and worksheet SHA-256 values are
+`207266db84e4ce06f17d7fa9dd82383597b1dc54afd989f8ae082e222826fff3`
+and `8418192976181a42355d9349af05e4683333d5041f0fd996c77d366820a36946`.
+Formal POST QA is 13,696 bytes with SHA-256
+`f389f1ae59621f5d16a4e0917c0299f3d2bedf5c68aab684e4d75ab45268419a`;
+independent verification SHA-256 is
+`89977cefeffe9b7d38fb24571e693ebce864dbc05b1a39c488a7f44fb763c6bd`.
+The 18-page, 1,486,293-byte A4 QA reader has SHA-256
+`d423260ff0bf8525e4aea9ff68ae3d4f435b12c66685dacebc5bdfda567a2840`;
+its build/visual receipt SHA-256 is
+`3aa629928e6ea9bd8e5cbc09c2bfccd1d200cd23683b128c03645d00cb200624`.

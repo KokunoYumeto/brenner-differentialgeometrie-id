@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "unit": 21,
+  "status": "pass",
+  "scope": "Bounded unit-only A4 reader build and visual QA; not a cumulative release artifact",
+  "driver": {
+    "path": "build/generated/unit21-qa-driver.tex",
+    "bytes": 2103,
+    "sha256": "2dd298e7126b6e289909ce9631b0f2e60b3aadeb6ea02d81f8e670d881497358"
+  },
+  "pdf": {
+    "path": "build/pdf/unit21-qa.pdf",
+    "bytes": 1486293,
+    "sha256": "d423260ff0bf8525e4aea9ff68ae3d4f435b12c66685dacebc5bdfda567a2840",
+    "pages": 18,
+    "page_size": "A4",
+    "wrapper_margins_mm": 22
+  },
+  "reproducibility": {
+    "method": "two independent three-pass pdflatex builds",
+    "second_pdf_bytes": 1486293,
+    "second_pdf_sha256": "d423260ff0bf8525e4aea9ff68ae3d4f435b12c66685dacebc5bdfda567a2840",
+    "byte_identical": true,
+    "second_build_artifact_retained": false
+  },
+  "final_log": {
+    "path": "build/pdf/unit21-qa-pass3.log",
+    "bytes": 31904,
+    "sha256": "3fed2ffa0da34aecfd5593a36a3df6867a277d93d112423d1cd590040d005eb1",
+    "overfull_boxes": 0,
+    "underfull_boxes": 0,
+    "undefined_commands": 0,
+    "duplicate_hyperlink_destinations": 0,
+    "latex_or_package_warnings": 0
+  },
+  "media": {
+    "closure_receipt": {
+      "path": "qa/unit-21_media.json",
+      "bytes": 6251,
+      "sha256": "6719518e60282245cd217ca8ae8261faa1c8c4bb417cef52f4474b48a8943fde"
+    },
+    "loader_alias_receipt": {
+      "path": "qa/unit-21/MEDIA_ALIAS_RECEIPT.json",
+      "bytes": 829,
+      "sha256": "7f0d3cbcdd230410230f3d02396a3315a43035ccdf4e5cd213954f1875390f03"
+    },
+    "attribution_tex": {
+      "path": "build/generated/unit21-media-attribution-cumulative.tex",
+      "bytes": 1182,
+      "sha256": "9c37a6686e8acd4aee20edb53941601f29c420e947a108fad5bf7a96d6a09692"
+    }
+  },
+  "visual_review": {
+    "all_pages_rendered_and_inspected": true,
+    "rendered_page_count": 18,
+    "render_dpi": 120,
+    "samples": [
+      {"page": 3, "sha256": "8c771b204c870f94fd9aeb1d0a33b2bf8e0d5f07197ed39333be3b2f8edd4449"},
+      {"page": 7, "sha256": "2cf3826bfea673b901eae63b9a06864d151f26a52b4a74ff22d5130844286dfe"},
+      {"page": 13, "sha256": "0064a19a7d2eb7d2896624f53b63bce8b033c90a93855669b209e11309ee049a"},
+      {"page": 14, "sha256": "50a127f9242f4768bde128dbbf007eaf700c528ba0ba46e6fe175da0af732119"},
+      {"page": 15, "sha256": "5917c2dce56a874b9162b205f26c3fb95aea1e71796b5f8d3459b9f1970d0e2f"},
+      {"page": 17, "sha256": "6760be326e356d9e140b11fc2ac947e1ef6fd5d6fa9043cb81c519e315c6002f"},
+      {"page": 18, "sha256": "561fe72e1cca82f91fa4a44ab0dd9cd9c7f17ec3c64a333d447560fdbb3381ab"}
+    ]
+  },
+  "checks": {
+    "centered_text_block": true,
+    "no_clipping_or_horizontal_overflow": true,
+    "no_orphaned_solution_conclusion": true,
+    "all_three_figures_sharp_and_legible": true,
+    "media_attribution_and_license_pages_legible": true,
+    "corrected_solution_21_10_sign_argument_visible": true
+  }
+}

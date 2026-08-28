@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-21/worksheet21_exercise10_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0291",
+      "anchor": "displayed derivative quotient in supplied Solution 21.10",
+      "change": "Subtract delta of zero from every coordinate before division by t."
+    },
+    {
+      "correction_id": "O011-CORR-0292",
+      "anchor": "coordinate line in the converse of supplied Solution 21.10",
+      "change": "Use the chart-coordinate vector T_P alpha of v instead of the tangent vector v itself."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_ids": ["O011-CORR-0291", "O011-CORR-0292"],
+      "surface": "profile:commands",
+      "source_sha256": "42b0a53964e8a0e9f3597fdbd3b4d4dfbe45a377ffb5a4de9850fd9372f1790e",
+      "target_sha256": "8a3701cec38b065ecf08f92a39eb54f9f366ad42939647c15feca6af1e699d0e"
+    },
+    {
+      "correction_id": "O011-CORR-0291",
+      "surface": "profile:protected:mathdisp",
+      "source_sha256": "fa943a834bf2d32617d303d389def11974409a8f310b972c33d6fbf6f2ea644f",
+      "target_sha256": "7055ea810bcdf18e54fcbe2f144e2871cddacb46da473cc107ac7e0c0700722c"
+    },
+    {
+      "correction_id": "O011-CORR-0292",
+      "surface": "profile:protected:maabbeledisp",
+      "source_sha256": "47903fa1b2519c0fd124e4738529173dd04876234a395a641cb39496a46e2fcd",
+      "target_sha256": "667a98282d86bc762b11f4bb741d25a09835e1c9fdde2fcddc8960d6953712a7"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-CORR-0291",
+      "surface": "command:mathdisp",
+      "occurrence_index": 0,
+      "source_sha256": "3249522c9a63612c0bededf5fc581bd5a1f845df983aa7f5bea9b6629b1e49d5",
+      "target_sha256": "9df99856c8632f2772da06b5ef5e34a911c7d55d27f42a8414d9214e6ecbecda"
+    },
+    {
+      "correction_id": "O011-CORR-0292",
+      "surface": "command:maabbeledisp",
+      "occurrence_index": 0,
+      "source_sha256": "88d885216ac18dbc7e2f2188dec967b18d32729d0a2b7c9951130136de9b3107",
+      "target_sha256": "57a71a4cfdc9c02454027bc8a9291be19bdc5caedaa178e94233d8d1ce18d801"
+    }
+  ]
+}

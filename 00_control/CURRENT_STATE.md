@@ -2,7 +2,7 @@
 
 Updated: 2026-08-28 (Europe/Berlin)
 
-## Current verified boundary — Unit 19 cumulative release public; Unit 20 source checkpoint public; Unit 21 authority admitted and translation active
+## Current verified boundary — Unit 19 cumulative release public; Units 20–21 bounded and Unit 20 source checkpoint public; Unit 22 next
 
 Units 1–19 now pass the complete local reader and additive-backend gate. The
 current centered A4 PDF is 302 pages and 7,740,452 bytes, SHA-256
@@ -117,9 +117,10 @@ readback matched both identities, and seven representative raw files matched
 their local byte counts and SHA-256 values exactly. The 3,396-byte receipt is
 `qa/unit-20/GITHUB_COMMIT_PUBLIC_READBACK_RECEIPT.json`, SHA-256
 `a38ccd463520daf0a8cfc64cfa93909e2610697fee5bf8f57c14b7202a5c7c13`.
-The next executable action is the exact Unit 21 authority freeze and
-source-ordered translation; the next consolidated PDF/HTML/backend/publication
-boundary remains Units 20–22. The full O011 goal remains unfinished.
+Unit 21 has now joined Unit 20 at the complete bounded translation gate. The
+next executable action is the exact Unit 22 authority freeze and source-ordered
+translation; the next consolidated PDF/HTML/backend/publication boundary
+remains Units 20–22. The full O011 goal remains unfinished.
 
 Unit 21 is now admitted through an exact, independently verified authority
 closure. Lecture 21 remains pageid/revision `142565 / 897931`; Worksheet 21 is
@@ -149,9 +150,45 @@ Its 20 exercises comprise 15 practice and five graded items totaling 24
 points; exactly Solutions 7, 10, 12, and 13 are source-supplied and all hint
 fields are blank. Three exact media assets are admitted: two public-domain SVGs
 and `Circle on sphere wireframe 10deg 6r.svg` under CC BY 3.0, with creator and
-rights metadata retained. The next executable action is to prepare and
-translate the complete lecture, worksheet, and four supplied solutions in
-source order while preserving those three media assets.
+rights metadata retained.
+
+The complete Indonesian Lecture 21 and Worksheet 21 pair now passes protected
+topology, mathematical, terminology, media-rights, independent-reader,
+deterministic-build, and visual gates. The final lecture and worksheet are
+24,518 and 10,101 bytes with SHA-256
+`207266db84e4ce06f17d7fa9dd82383597b1dc54afd989f8ae082e222826fff3`
+and `8418192976181a42355d9349af05e4683333d5041f0fd996c77d366820a36946`.
+All 20 exercises retain their exact order, 15/5 practice/graded split, and 24
+points. Only source-supplied Solutions 7, 10, 12, and 13 are included, with
+SHA-256 values
+`a8dc37a46a7f3a63e35e6e6f2e449f2f9ea1e54e5dd8a787d657f7b7bcd9b847`,
+`0bf50584af30cec1246553e5ed796b2f81ae9e00f634c19b2ebbe6120ff795a8`,
+`5dcd64ff8208506ca60e1b0a730f92af3db3f838c465b296f2d5a69b4c6e56a4`,
+and `ea2841a4d57af79e727edee65dbea21371c70cb4a2a13d2799a71ddfda6a6bc2`.
+
+Fourteen explicit Unit 21 records, `O011-CORR-0285` through
+`O011-TRANS-0298` at their recorded mixed prefixes, bind the two media-credit
+repairs, three lecture mathematics repairs, three supplied-solution repairs,
+one loader-alias repair, the complete Indonesian pass, and the four findings
+from independent review. Nothing is silent. Formal POST QA is 13,696 bytes,
+SHA-256
+`f389f1ae59621f5d16a4e0917c0299f3d2bedf5c68aab684e4d75ab45268419a`;
+its independent binding receipt is 6,968 bytes, SHA-256
+`89977cefeffe9b7d38fb24571e693ebce864dbc05b1a39c488a7f44fb763c6bd`.
+
+The bounded Unit 21 reader is 18 centered A4 pages and 1,486,293 bytes,
+SHA-256
+`d423260ff0bf8525e4aea9ff68ae3d4f435b12c66685dacebc5bdfda567a2840`.
+Two independent three-pass builds are byte-identical. The final log contains
+no overfull or underfull boxes, undefined commands, duplicate hyperlink
+destinations, or LaTeX/package warnings. Every rendered page was visually
+inspected; the three figures, repaired sign argument, media attribution, and
+license page are centered, legible, and unclipped. The build/visual receipt is
+2,905 bytes with SHA-256
+`3aa629928e6ea9bd8e5cbc09c2bfccd1d200cd23683b128c03645d00cb200624`.
+This PDF is bounded QA evidence rather than a cumulative release. The next
+executable action is the Unit 21 source-checkpoint commit/public readback and
+then exact Unit 22 authority closure.
 
 ## Objective
 

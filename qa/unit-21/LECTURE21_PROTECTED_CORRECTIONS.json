@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-21/lecture21.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0287",
+      "anchor": "closed-ball example following Theorem 21.5",
+      "change": "For positive radius replace the nondifferentiable Euclidean norm used as the theorem input by the squared norm and regular value r squared."
+    },
+    {
+      "correction_id": "O011-CORR-0288",
+      "anchor": "comparison basis in the proof of boundary orientation",
+      "change": "Place w_1 through w_n in the ambient vector space R^n instead of the half-space H_2."
+    },
+    {
+      "correction_id": "O011-CORR-0289",
+      "anchor": "induced boundary-chart transition map",
+      "change": "Replace undefined U_1 and U_2 by the previously declared coordinate domains V_1 and V_2."
+    },
+    {
+      "correction_id": "O011-TRANS-0293",
+      "anchor": "complete Unit 21 Indonesian reader-language pass",
+      "change": "Translate reader-visible formula connectives and normalize sentence punctuation while preserving mathematical topology."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_ids": ["O011-CORR-0287", "O011-CORR-0288", "O011-TRANS-0293"],
+      "surface": "profile:commands",
+      "source_sha256": "be7ad521bb5877f101dff94be0233444d3f86fedc333056d5428930e4af986b3",
+      "target_sha256": "1a086fd8a26c97d6e886746a729676fffe51e0111f4b7f1f0790b85ef36c2866"
+    },
+    {
+      "correction_id": "O011-CORR-0287",
+      "surface": "profile:inline_math",
+      "source_sha256": "d53bfdbd123a518626f05d9901f51b2424acd71a9988b9bfe1051f2486fb6af5",
+      "target_sha256": "4dcae4a3500601d1e87b88ca2d819e8371fc1d5de257781b89f8214927aa0b36"
+    },
+    {
+      "correction_id": "O011-CORR-0287",
+      "surface": "profile:brace_profile",
+      "source_sha256": "59e760496723b3595503f842211b3e1b0cfbcafb8001234f36b0fb2899bf21f8",
+      "target_sha256": "187707bc86365b749e9c4624f9c63bebb7ba6b5296c1bd6fefee0fe54f309658"
+    },
+    {
+      "correction_ids": ["O011-CORR-0288", "O011-TRANS-0293"],
+      "surface": "profile:protected:vergleichskette",
+      "source_sha256": "6a2383eb2f6cee36597195fd22b2b45c1b0341b08c2694498526d179db8f6edd",
+      "target_sha256": "92f9ac7cc454aa65316d6c6cd28f0544040dd2d053cd96e49c026ff88cd4d508"
+    },
+    {
+      "correction_id": "O011-TRANS-0293",
+      "surface": "profile:protected:maabb",
+      "source_sha256": "c639cec9a747a6564556804870da45c9e32ebad5593eb4d39c76e7e2483357c5",
+      "target_sha256": "4da4f4bb6e3f7da8e5a2df011c5fc484887549051d724510a0edc4f87a395e40"
+    },
+    {
+      "correction_ids": ["O011-CORR-0289", "O011-TRANS-0293"],
+      "surface": "profile:protected:maabbdisp",
+      "source_sha256": "9a8938af9b2324749c6c5cda4bf242af603be460bb7e6746b1ca9daf4d3d8630",
+      "target_sha256": "e76ade40eb5acef4e9f01dce47cc2f816381c71a728cbd791633cbfa90993b77"
+    },
+    {
+      "correction_id": "O011-CORR-0287",
+      "surface": "profile:protected:maabbeledisp",
+      "source_sha256": "e84ea22062e7d2fade8a28477366c8b709eae82a00b8767a691b967fb12eca69",
+      "target_sha256": "592aedf5c0cfcd76d5bdfd4b6edecfaef2e4cc98fd6da54b5774d9b93392ffae"
+    },
+    {
+      "correction_id": "O011-TRANS-0293",
+      "surface": "profile:protected:mathdisp",
+      "source_sha256": "007b339b6e394d432d1c99304860828b576bd0288d2f68a69467296c727dea97",
+      "target_sha256": "6a4bc88d7aa60ab3b1ae48944b71754e5f9af6f2d21d948883550af78a738d2f"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-CORR-0287",
+      "surface": "command:maabbeledisp",
+      "occurrence_index": 0,
+      "source_sha256": "8421f87ded2f1ca7da03630480f71fe5706d3db6995a4e5db0132e3fb11485f3",
+      "target_sha256": "045883d80f92de11342caea4f7d228e91dfd3584d72cacf3620f29d9a0ed6834"
+    },
+    {
+      "correction_id": "O011-CORR-0288",
+      "surface": "command:vergleichskette",
+      "occurrence_index": 55,
+      "source_sha256": "2f27c915a23e90e98201500c33099a71a4a30599190a5a746e752e2c51912dcc",
+      "target_sha256": "1c2d64a0e00c84cef73f441dea03ccc15c3d17f81900240dc22becd81e4982af"
+    },
+    {
+      "correction_id": "O011-CORR-0289",
+      "surface": "command:maabbdisp",
+      "occurrence_index": 18,
+      "source_sha256": "d326c528ed0ca48cf93174c9947e443cecab70929019c6284b226ff365999b35",
+      "target_sha256": "4c8120246ba00f3064633c8f74abfaeb9344afe184f9b947d8a80a47afc21825"
+    }
+  ]
+}

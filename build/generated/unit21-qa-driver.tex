@@ -1,0 +1,62 @@
+\documentclass[11pt,a4paper,oneside]{book}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[indonesian]{babel}
+\usepackage{lmodern}
+\usepackage{amsmath,amsthm,amssymb,amscd}
+\usepackage{graphicx}
+\usepackage[a4paper,margin=22mm,headheight=15pt]{geometry}
+\usepackage{microtype}
+\usepackage[hidelinks,pdfusetitle]{hyperref}
+\usepackage{bookmark}
+\input{brenner-compat.tex}
+\newtheorem{Proposisi}[fakt]{Proposisi}
+\newtheorem{Lema}[fakt]{Lema}
+\renewcommand{\thefakt}{\arabic{section}.\arabic{fakt}}
+\addto\captionsindonesian{%
+  \renewcommand{\contentsname}{Daftar Isi}%
+  \renewcommand{\figurename}{Gambar}%
+  \renewcommand{\listfigurename}{Daftar Gambar}%
+}
+\hypersetup{pdflang={id-ID},bookmarksopen=true}
+\emergencystretch=1em
+\ifdefined\pdfinfoomitdate\pdfinfoomitdate=1\fi
+\ifdefined\pdftrailerid\pdftrailerid{}\fi
+\ifdefined\pdfsuppressptexinfo\pdfsuppressptexinfo=15\fi
+
+\title{Geometri Diferensial dan Manifold Mulus\\\large Uji pembaca Unit 21}
+\author{Holger Brenner\\Terjemahan Bahasa Indonesia independen}
+\date{Sumber: \textit{Differentialgeometrie (Osnabr\"uck 2023)}}
+
+\begin{document}
+\hypersetup{pageanchor=false}
+\maketitle
+\hypersetup{pageanchor=true}
+\frontmatter
+\tableofcontents
+\mainmatter
+\chapter[Kuliah 21]{Kuliah 21: Manifold Berbatas dan Orientasi Batas}
+\input{generated/lecture21.id.build.tex}
+
+\chapter{Lembar Kerja 21}
+\input{generated/worksheet21.id.build.tex}
+
+\section*{Solusi yang disediakan oleh sumber}
+\addcontentsline{toc}{section}{Solusi yang disediakan oleh sumber}
+\subsection*{Solusi Soal 21.7}
+\input{generated/worksheet21_exercise07_solution.id.build.tex}
+\clearpage
+\subsection*{Solusi Soal 21.10}
+\input{generated/worksheet21_exercise10_solution.id.build.tex}
+\subsection*{Solusi Soal 21.12}
+\input{generated/worksheet21_exercise12_solution.id.build.tex}
+\subsection*{Solusi Soal 21.13}
+\input{generated/worksheet21_exercise13_solution.id.build.tex}
+
+\backmatter
+\chapter*{Atribusi media}
+\addcontentsline{toc}{chapter}{Atribusi media}
+\input{generated/unit21-media-attribution-cumulative.tex}
+\chapter*{Lisensi}
+\Lizenztext
+\end{document}

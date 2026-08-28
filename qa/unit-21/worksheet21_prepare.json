@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-21/worksheet21.id.tex",
+  "input_bytes": 10101,
+  "input_sha256": "8418192976181a42355d9349af05e4683333d5041f0fd996c77d366820a36946",
+  "output": "build/generated/worksheet21.id.build.tex",
+  "output_bytes": 10002,
+  "output_sha256": "3cc7ac104a3c0de75310610ae8696e7c1e106c8381ded00fab3566115cff6db8",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Obere Halbebene/Einheitskreis/Rational isomorph/Fakt/Beweis/Aufgabe",
+      "label": "Soal 18.10"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

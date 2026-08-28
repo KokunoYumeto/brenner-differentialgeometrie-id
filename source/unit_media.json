@@ -182,6 +182,45 @@
           "rights_label_id": "domain publik"
         }
       ]
+    },
+    "18": {
+      "media": [
+        {
+          "filename": "Poincarehalfplaneconform.gif",
+          "print_basename": "Poincarehalfplaneconform",
+          "attribution_id": "HB (karya sendiri).",
+          "rights_label_id": "CC BY-SA 3.0",
+          "license_url_id": "https://creativecommons.org/licenses/by-sa/3.0/"
+        },
+        {
+          "filename": "Hyperboloid2.png",
+          "attribution_id": "Lars H. Rohwedder (RokerHRO; karya asli).",
+          "rights_label_id": "domain publik"
+        }
+      ]
+    },
+    "19": {
+      "media": []
+    },
+    "21": {
+      "media": [
+        {
+          "filename": "Runge theorem.svg",
+          "attribution_id": "Oleg Alexandrov (domain publik).",
+          "rights_label_id": "domain publik"
+        },
+        {
+          "filename": "Circle on sphere wireframe 10deg 6r.svg",
+          "attribution_id": "Itai (karya sendiri).",
+          "rights_label_id": "CC BY 3.0",
+          "license_url_id": "https://creativecommons.org/licenses/by/3.0/"
+        },
+        {
+          "filename": "Not-star-shaped.svg",
+          "attribution_id": "WillT.Net; dialihkan dari Wikipedia bahasa Inggris (domain publik).",
+          "rights_label_id": "domain publik"
+        }
+      ]
     }
   }
 }

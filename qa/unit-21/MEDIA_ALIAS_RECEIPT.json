@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-unit21-media-aliases-v1",
+  "aliases": [
+    {
+      "source": "build/generated/media/Runge theorem.png",
+      "target": "build/generated/media/Runge_theorem.png",
+      "role": "Unit 21 MediaWiki underscore-normalized SVG print-derivative alias",
+      "transient": false,
+      "bytes": 203109,
+      "sha256": "66dffb62de06584cdc689b5dab5ee4a57aaca613e4e4d44e0d01fea7cda4b133"
+    },
+    {
+      "source": "build/generated/media/Circle on sphere wireframe 10deg 6r.png",
+      "target": "build/generated/media/Circle_on_sphere_wireframe_10deg_6r.png",
+      "role": "Unit 21 MediaWiki underscore-normalized SVG print-derivative alias",
+      "transient": false,
+      "bytes": 831787,
+      "sha256": "112d1b5f964a7a34125eeab32897ce896eed642ebc640b7bb3b8e0a84f7d44d2"
+    }
+  ]
+}

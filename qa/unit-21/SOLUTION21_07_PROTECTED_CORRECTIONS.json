@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-21/worksheet21_exercise07_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0290",
+      "anchor": "the two model-half-space boundary occurrences in supplied Solution 21.7",
+      "change": "Replace delta H by partial H in the boundary image and complement."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0290",
+      "surface": "profile:commands",
+      "source_sha256": "923244fbc41cff997d26881e6d10729a38a85b70d3aac41dc5c9e447ad10d773",
+      "target_sha256": "4a0e7edbc8753f7bb529ad61a8e5789c72d5776dc814f451d0adc1113baadeef"
+    },
+    {
+      "correction_id": "O011-CORR-0290",
+      "surface": "profile:protected:vergleichskette",
+      "source_sha256": "ce503a6df4b016b31d8cdbdac58dc8a641736547af61d2661e8037691ceaaf08",
+      "target_sha256": "c6321c593c7a8eee71f0f09b45136913ff63aada34b45ea52742854a362677c6"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-CORR-0290",
+      "surface": "command:vergleichskette",
+      "occurrence_index": 0,
+      "source_sha256": "9b61a777113b41e9a00f087ea46ab12950ed98e685dfa35f064f5114d276678c",
+      "target_sha256": "d82750995627a136ed233ce81e275bbcbc3f2c2d470150ab21f717ec52986371"
+    },
+    {
+      "correction_id": "O011-CORR-0290",
+      "surface": "command:mathkor",
+      "occurrence_index": 0,
+      "source_sha256": "33f166b5f3bb4ffd5dce0076a7a8601178736708ebd15d494937e69af3f1a6fc",
+      "target_sha256": "d27e159fdf55ba84f77600d65c03c21db2e36d11a53dbfd63b0a58faca24ce03"
+    }
+  ]
+}

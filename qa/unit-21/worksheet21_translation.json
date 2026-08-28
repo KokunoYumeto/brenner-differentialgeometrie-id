@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "source": "authority/expanded/worksheet21_source.de.tex",
+  "source_bytes": 10004,
+  "source_sha256": "07915c64bad243ef085524475108f94b38f2e4432c787466b752ff1dec48743e",
+  "target": "source/units/unit-21/worksheet21.id.tex",
+  "target_bytes": 10101,
+  "target_sha256": "8418192976181a42355d9349af05e4683333d5041f0fd996c77d366820a36946",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 282,
+    "environments": 4,
+    "inline_math": 24,
+    "display_math": 0,
+    "protected_calls": 30
+  },
+  "status": "pass",
+  "failures": [],
+  "declared_corrections": [
+    "O011-CORR-0285",
+    "O011-CORR-0286"
+  ],
+  "evidence_only_results": [
+    {
+      "correction_id": "O011-CORR-0285",
+      "surface": "command:bildlizenz",
+      "occurrence_index": 0,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0286",
+      "surface": "command:bildlizenz",
+      "occurrence_index": 1,
+      "status": "pass",
+      "detail": "verified"
+    }
+  ]
+}

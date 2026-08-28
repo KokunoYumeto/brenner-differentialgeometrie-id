@@ -1,0 +1,601 @@
+\setcounter{section}{21}
+
+  \zwischenueberschrift{Soal latihan}
+
+\inputaufgabe
+{}
+{
+
+Deskripsikan berbagai jenis pakaian sebagai
+\definitionsverweis {manifold berbatas}{}{}
+berdimensi dua.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Definisikan konsep pemetaan diferensiabel, difeomorfisme, ruang singgung, bundel tangen, dan seterusnya untuk
+\definitionsverweis {manifold berbatas}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Deskripsikan
+\definitionsverweis {interval riil}{}{}
+sebagai
+\definitionsverweis {manifold berbatas}{}{.}
+Apa
+\definitionsverweis {batas}{}{}
+masing-masing interval tersebut, dan interval mana saja yang saling
+\definitionsverweis {difeomorfik}{}{?}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+$\,$
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Circle_on_sphere_wireframe_10deg_6r} {svg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Circle on sphere wireframe 10deg 6r.svg } {} {Itai} {Commons} {CC BY 3.0} {}
+
+Tunjukkan bahwa potongan permukaan berwarna biru maupun merah, masing-masing bersama garis pembatasnya, merupakan
+\definitionsverweis {manifold berbatas}{}{.}
+Apa batasnya? Apakah kedua manifold tersebut
+\definitionsverweis {difeomorfik}{}{?}
+Adakah manifold yang lebih sederhana dan difeomorfik dengannya?
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+\zusatzklammer {tanpa batas} {} {}
+dan $N$ suatu
+\definitionsverweis {manifold diferensiabel berbatas}{}{.}
+Apa yang dapat dikatakan tentang
+\definitionsverweis {produk}{}{}
+\mathl{M \times N}{?}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Tunjukkan bahwa anulus tertutup
+
+\mathdisp {\left\{ P \in \R^2  \mid   1 \leq \Vert { P } \Vert \leq 2         \right\}} {  }
+
+dan silinder tertutup
+
+\mathdisp {S^1 \times [0,1]} {  }
+
+merupakan
+\definitionsverweis {manifold berbatas}{}{}
+yang saling
+\definitionsverweis {difeomorfik}{}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Jelaskan mengapa $\R^2$ tidak dapat diberi struktur
+\definitionsverweis {manifold berbatas}{}{}
+sedemikian rupa sehingga himpunan bagian $T$ yang diberikan menjadi
+\definitionsverweis {batas}{}{}
+dari struktur tersebut.
+\aufzaehlungvierabc{
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ = }{ {]0,1[}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan interval tersebut terletak pada sumbu $x$.
+}{
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ = }{ [0,1]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan interval tersebut terletak pada sumbu $x$.
+}{
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ = }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $\R$ menyatakan sumbu $x$.
+}{
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ = }{ S^1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Tunjukkan bahwa kedua
+\definitionsverweis {difeomorfisme}{}{}
+yang saling invers,
+\maabbeledisp {\varphi} { {\mathbb H} } { U \left(   0 , 1  \right)
+} { z} { { \frac{  z-  { \mathrm i}  }{ z + { \mathrm i}  } }
+} {,}
+dan
+\maabbeledisp {\psi} { U \left(   0 , 1  \right)  } { {\mathbb H}
+} { w } { { \frac{   (w+1)  { \mathrm i}  }{  1-w  } }
+} {,}
+\zusatzklammer {lihat
+[[Obere Halbebene/Einheitskreis/Rational isomorph/Fakt/Beweis/Aufgabe|Soal 18.10]]} {} {,}
+dapat diperluas menjadi difeomorfisme
+\zusatzklammer {antara
+\definitionsverweis {manifold berbatas}{}{}} {} {}
+antara setengah bidang tertutup dan cakram tertutup berlubang
+\mathl{B  \left(  0 , 1 \right) \setminus \{  \left(  1   , \,   0                   \right) \}}{}.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel berbatas}{}{.}
+Yang dimaksud dengan \stichwort {lintasan-separuh diferensiabel} {} ialah setiap
+\definitionsverweis {pemetaan diferensiabel}{}{}
+\maabbdisp {\gamma} { [0, \epsilon [ } { M
+} {}
+atau
+\maabbdisp {\gamma} {] -\epsilon, 0] } { M
+} {}
+\zusatzklammer {dengan \mathlk{\epsilon >0}{;} masing-masing disebut mengarah ke dalam dan mengarah ke luar} {} {.}
+Definisikan kapan dua lintasan-separuh dengan
+\mathl{\gamma_1(0) = \gamma_2(0) =P \in M}{} disebut \stichwort {ekuivalen secara tangensial} {,} lalu tunjukkan bahwa definisi ini memberikan suatu relasi ekuivalensi dan bahwa
+\definitionsverweis {himpunan hasil bagi}{}{}
+yang diperoleh merupakan ruang vektor riil yang disebut \stichwort {ruang singgung} {} di $P$. Karakterisasikan kelas-kelas ekuivalensi yang dapat direpresentasikan baik oleh lintasan-separuh yang mengarah ke dalam maupun yang mengarah ke luar.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold berbatas}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ \partial M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu titik batas. Tunjukkan bahwa untuk suatu vektor singgung
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ T_PM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kedua sifat berikut ekuivalen.
+\aufzaehlungzwei {Terdapat lintasan yang terdiferensialkan secara kontinu
+\maabb {\gamma} { [- \epsilon, 0]} { M
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(0)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'(0)
+}
+{ = }{ v
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+} {Pada setiap peta dengan setengah ruang negatif, vektor $v$ dipetakan oleh pemetaan singgung ke setengah ruang kanan.
+}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel berbatas}{}{}
+dan
+\maabbdisp {\gamma} {{]{-\epsilon}, \epsilon[}} {M
+} {}
+suatu
+\definitionsverweis {lintasan diferensiabel}{}{}
+dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma (0)
+}
+{ =} { P
+}
+{ \in} { \partial M
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Tunjukkan bahwa
+\mathl{\gamma'(0) \in T_P \partial M}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold berbatas}{}{.}
+Tunjukkan bahwa setiap himpunan bagian terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ N
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+juga merupakan manifold dengan batas
+\zusatzklammer {yang mungkin kosong} {} {,}
+dan bahwa
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial N
+}
+{ =} { \partial M \cap N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+berlaku.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ H
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {setengah ruang Euklides}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Misalkan terdapat himpunan yang terbuka di $\R^n$, yaitu $V$, dengan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ V
+}
+{ \subseteq }{ H
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Tunjukkan bahwa
+\mathl{P}{} bukan titik batas $H$.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+\mathl{U_1 \subseteq H_1 \subset \R^n}{} dan
+\mathl{U_2 \subseteq H_2 \subset \R^n}{}
+merupakan
+\definitionsverweis {himpunan bagian terbuka}{}{}
+di dalam
+\definitionsverweis {setengah ruang Euklides}{}{}
+\mathkor {} {H_1} {dan} {H_2} {,}
+serta
+\maabbdisp {\varphi} {U_1 } { U_2
+} {}
+suatu
+\definitionsverweis {difeomorfisme}{}{.}
+Tunjukkan bahwa untuk setiap titik
+\mathl{P\in U_1}{} terdapat lingkungan terbuka
+\mathl{P\in V_1 \subset \R^n}{} dan
+\mathl{\varphi(P) \in V_2 \subset \R^n}{,}
+beserta suatu perluasan
+\maabbdisp {\tilde{\varphi}} {V_1 } { V_2
+} {}
+yang merupakan difeomorfisme.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan cakram tertutup
+\mathl{B  \left(  0 , 1 \right)}{} dilengkapi dengan
+\definitionsverweis {orientasi standar}{}{}
+dari $\R^2$. Apakah orientasi yang ditentukan oleh
+\definitionsverweis {normal luar}{}{}
+pada batas
+\zusatzklammer {yaitu pada lingkaran satuan} {} {}
+searah atau berlawanan arah jarum jam?
+
+}
+{} {}
+
+  \zwischenueberschrift{Soal untuk dikumpulkan}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Not-star-shaped} {svg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Not-star-shaped.svg } {} {WillT.Net} {Commons} {PD} {}
+
+\inputaufgabe
+{4}
+{
+
+Untuk anulus
+
+\mavergleichskettedisp
+{\vergleichskette
+{M
+}
+{ =} { \left\{  x \in \R^2  \mid   1 \leq \Vert { x } \Vert \leq 2         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+berikan secara eksplisit
+\definitionsverweis {peta}{}{}
+yang menunjukkan bahwa $M$ merupakan
+\definitionsverweis {manifold berbatas}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{6}
+{
+
+Tunjukkan bahwa
+\definitionsverweis {setengah bidang}{}{} $\R_{\geq 0} \times \R$ dan
+\definitionsverweis {kuadran}{}{}
+\mathl{\R_{\geq 0} \times \R_{\geq 0}}{} tidak
+\definitionsverweis {difeomorfik}{}{.}
+
+}
+{(Apa pengertian difeomorfisme yang sesuai dalam konteks ini?)} {}
+
+\inputaufgabe
+{6}
+{
+
+Misalkan
+\mathl{M= B  \left(  0 , 1 \right) \setminus \{ (0,1), (0,-1)\} \subseteq \R^2}{,}
+yaitu
+\definitionsverweis {cakram tertutup}{}{}
+yang dua titik batasnya telah dibuang. Misalkan
+\mathl{N={]{-1},1[} \times  [-1,1]}{} merupakan produk sebuah interval terbuka dan sebuah interval tertutup. Tunjukkan bahwa
+\mathkor {} {M} {dan} {N} {}
+merupakan
+\definitionsverweis {manifold berbatas}{}{}
+yang saling
+\definitionsverweis {difeomorfik}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Misalkan
+\mathl{V_1,V_2 \subseteq \R^n}{}
+merupakan
+\definitionsverweis {himpunan bagian terbuka}{}{}
+dan
+\maabbdisp {\varphi} {V_1 } { V_2
+} {}
+suatu
+\definitionsverweis {difeomorfisme}{}{}
+yang menginduksi
+\definitionsverweis {homeomorfisme}{}{}
+antara
+\mathkor {} {V_1 \cap H} {dan} {V_2 \cap H} {}
+dan, dengan demikian, juga antara
+\mathkor {} {V_1 \cap \partial H} {dan} {V_2 \cap \partial H} {}
+\zusatzklammer {$H$ menyatakan
+\definitionsverweis {setengah ruang}{}{}
+dan $\partial H$ batasnya} {} {.}
+Tunjukkan bahwa pembatasan pada batas juga merupakan
+\definitionsverweis {difeomorfisme}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Misalkan bola satuan tertutup
+\mathl{B  \left(  0 , 1 \right)}{} dilengkapi dengan
+\definitionsverweis {orientasi standar}{}{} dari $\R^3$. Tentukan apakah kedua vektor singgung
+\mathkor {} {(2,1,0)} {dan} {(3,-1,0)} {}
+di kutub utara
+\mathl{(0,0,1)}{} merepresentasikan orientasi pada batas yang diinduksi oleh
+\definitionsverweis {normal luar}{}{}
+\zusatzklammer {yaitu pada permukaan bola satuan} {} {,}
+atau tidak.
+
+}
+{} {}
+
+ [[Kategorie:Latexseite]]

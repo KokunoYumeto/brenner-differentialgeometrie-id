@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-21/worksheet21_exercise07_solution.id.tex",
+  "input_bytes": 1853,
+  "input_sha256": "a8dc37a46a7f3a63e35e6e6f2e449f2f9ea1e54e5dd8a787d657f7b7bcd9b847",
+  "output": "build/generated/worksheet21_exercise07_solution.id.build.tex",
+  "output_bytes": 1635,
+  "output_sha256": "8c9cd01735a7ac19ad4f2eac1cc8290a892ad2a3c0dee39f571ed5fbba788129",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Mannigfaltigkeit mit Rand/Rand/Elementare Eigenschaften/Fakt",
+      "label": "Fakta (2)"
+    },
+    {
+      "target": "Mannigfaltigkeit mit Rand/Rand ist Mannigfaltigkeit/Fakt",
+      "label": "Fakta"
+    },
+    {
+      "target": "Mannigfaltigkeit mit Rand/Rand/Elementare Eigenschaften/Fakt",
+      "label": "Fakta (2)"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

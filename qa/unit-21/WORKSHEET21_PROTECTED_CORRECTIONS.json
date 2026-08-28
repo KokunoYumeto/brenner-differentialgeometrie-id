@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-21/worksheet21.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0285",
+      "anchor": "Circle on sphere wireframe 10deg 6r.svg media-credit macro",
+      "change": "Replace the source macro's inaccurate CC BY-SA 3.0 label with the frozen Commons file license CC BY 3.0."
+    },
+    {
+      "correction_id": "O011-CORR-0286",
+      "anchor": "Not-star-shaped.svg media-credit macro",
+      "change": "Replace the copied Oleg Alexandrov creator label with the frozen Commons creator identity WillT.Net."
+    }
+  ],
+  "allowed_deltas": [],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-CORR-0285",
+      "surface": "command:bildlizenz",
+      "occurrence_index": 0,
+      "source_sha256": "abc713d5456597f96cb6572dc8775af97920a8b7dacbf16849faca0ad54f164d",
+      "target_sha256": "f529453bcb6eceb2f493769ca1675c54ceae56ce4180f1d9407514081c20cd53"
+    },
+    {
+      "correction_id": "O011-CORR-0286",
+      "surface": "command:bildlizenz",
+      "occurrence_index": 1,
+      "source_sha256": "d212ebd30a5a280dee94a005a2fdb1c256a887874613a577cb14242be6918cd8",
+      "target_sha256": "4a0356255bc99811dc7598524a48be2082a8f37f8537481837b0dbc235ffa151"
+    }
+  ]
+}

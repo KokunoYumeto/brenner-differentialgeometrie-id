@@ -1,0 +1,1414 @@
+\setcounter{section}{21}
+
+  \zwischenueberschrift{Manifold berbatas}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Runge_theorem} {svg} }
+\end{center}
+\bildtext {Suatu manifold berdimensi dua dengan batas. Batasnya terdiri atas empat busur tertutup.} }
+
+\bildlizenz { Runge theorem.svg } {} {Oleg Alexandrov} {Commons} {PD} {}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ \in }{ \overline{ \N }_+
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Suatu
+\definitionsverweis {ruang topologis}{}{}
+\definitionsverweis {Hausdorff}{}{}
+$M$ bersama dengan suatu
+\definitionsverweis {tutupan terbuka}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ \bigcup_{i \in I} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+\definitionsverweis {peta-peta}{}{}
+\maabbdisp {\alpha_i} {U_i } { V_i
+} {,}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ V_i
+}
+{ \subseteq }{ H
+}
+{ \subset }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan himpunan-himpunan terbuka di dalam
+\definitionsverweis {setengah ruang Euklides}{}{}
+$H$ berdimensi $n$, serta dengan sifat bahwa
+\definitionsverweis {pemetaan-pemetaan transisi}{}{}
+\maabbdisp {\alpha_j \circ \alpha_i^{-1}} {V_i \cap \alpha_i(U_i \cap U_j) } { V_j \cap \alpha_j(U_i \cap U_j)
+} {}
+merupakan
+$C^k$-\definitionsverweis {difeomorfisme}{}{}{,}
+disebut \definitionswort {manifold-$C^k$ berbatas}{} atau \definitionswort {manifold diferensiabel berbatas}{}
+\zusatzklammer {berderajat $k$} {} {,}
+atau \definitionswort {manifold dengan batas}{.} Himpunan peta
+
+\mathbed {(U_i,\alpha_i)} {}
+ {i \in I} {}
+ {} {} {} {,}
+juga disebut \definitionswort {atlas-$C^k$}{} dari manifold berbatas tersebut.
+
+}
+Karena himpunan-himpunan terbuka di dalam setengah ruang $H$ yang sama sekali tidak memotong batas
+
+\mavergleichskette
+{\vergleichskette
+{ \partial H
+}
+{ = }{ 0 \times \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+juga diperbolehkan, konsep ini mencakup konsep manifold diferensiabel. Batas suatu manifold berbatas
+\zusatzklammer {yang segera akan kita definisikan dengan cara yang wajar} {} {}
+dapat saja kosong. Hal ini terjadi tepat pada manifold diferensiabel \anfuehrung{biasa}{}.
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold berbatas}{}{.}
+Maka \definitionswort {batas}{} dari $M$, yang ditulis
+\mathl{\partial M}{,} didefinisikan oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial M
+}
+{ =} { \left\{  x \in M  \mid   \alpha_i(x) \in  \partial H \cap V_i  \text{ untuk } \text{suatu } i \in I         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan $\alpha_i$ adalah peta-peta.
+
+}
+Pada definisi ini, peta mana pun dapat digunakan untuk menguji apakah suatu titik yang diberikan merupakan titik batas.
+
+
+\inputfaktbeweis
+{Mannigfaltigkeit mit Rand/Rand/Elementare Eigenschaften/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel berbatas}{}{}
+
+\mathl{\partial M}{.}}
+\faktuebergang {Maka pernyataan-pernyataan berikut berlaku.}
+\faktfolgerung {\aufzaehlungdrei{Suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan titik batas jika dan hanya jika hal ini berlaku bagi setiap
+\definitionsverweis {peta}{}{,}
+yang domain petanya memuat titik tersebut\zusatzfussnote {Pada manifold topologis berbatas, yaitu ketika pemetaan-pemetaan transisinya hanya berupa homeomorfisme, pernyataan ini juga berlaku, tetapi dengan pembuktian yang berbeda.} {} {.}
+}{Batas $\partial M$ merupakan himpunan
+\definitionsverweis {tertutup}{}{.}
+}{Komplemen
+\mathl{M \setminus \partial M}{} merupakan suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+\zusatzklammer {tanpa batas} {} {.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{(1). Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu domain peta dengan dua peta
+\maabbdisp {\alpha_1} { U } { V_1
+} {}
+dan
+\maabbdisp {\alpha_2} { U } { V_2
+} {}
+dengan
+\mathkor {} {V_1 \subseteq H_1} {dan} {V_2 \subseteq H_2} {}
+terbuka di dalam
+\definitionsverweis {setengah ruang Euklides}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ H_1, H_2
+}
+{ \cong }{ \R_{\geq 0} \times \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Pemetaan pergantian peta
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi
+}
+{ = }{ \alpha_2 \circ \alpha_1^{-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan suatu
+\definitionsverweis {difeomorfisme}{}{,}
+dan menurut Soal 21.14 ini berarti bahwa bagi setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V_1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+terdapat lingkungan-lingkungan terbuka
+\mathkor {} {W_1} {dan} {W_2} {}
+di $\R^n$ dengan
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ W_1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+serta suatu perluasan
+\definitionsverweis {difeomorfik}{}{}
+\maabbdisp {\tilde{\varphi}} {W_1 } { W_2
+} {}
+dari
+\mathl{\varphi\!\mid_{W_1 \cap H_1 }}{.} Oleh karena itu,
+\mathl{\tilde{\varphi} \left(  H_1^+ \cap W_1  \right)}{} terbuka di $W_2$.
+
+Sekarang, tetapkan
+
+\mavergleichskette
+{\vergleichskette
+{ Q_1
+}
+{ = }{ \alpha_1(P)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan pilih
+\mathl{W_1,W_2, \tilde{\varphi}}{} dengan sifat-sifat yang baru saja disebutkan. Jika $Q_1$ bukan titik batas dalam peta pertama, maka
+
+\mavergleichskette
+{\vergleichskette
+{ Q_1
+}
+{ \in }{ H_1^+ \cap W_1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan suatu lingkungan terbuka dan karenanya
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha_2 (P)
+}
+{ \in }{ \tilde{\varphi} \left(  H_1^+ \cap W_1  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan suatu lingkungan terbuka di
+
+\mavergleichskette
+{\vergleichskette
+{ W_2
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Selain itu,
+
+\mavergleichskette
+{\vergleichskette
+{ \tilde{\varphi} \left(  H_1^+ \cap W_1  \right)
+}
+{ \subseteq }{ H_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dengan kata lain,
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha_2(P)
+}
+{ \in }{ H_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+memiliki suatu lingkungan yang terbuka di $\R^n$ dan termuat di dalam $H_2$; maka menurut Soal 21.13, titik ini juga tidak mungkin menjadi titik batas dalam peta kedua.}
+{}
+\teilbeweis {}{}{}
+{(2). Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \notin }{ \partial M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu domain peta dengan
+\definitionsverweis {homeomorfisme}{}{}
+\maabbdisp {\alpha} { U } { V
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R_{\geq 0} \times \R^{n-1}
+}
+{ = }{ H
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka. Karena $P$ bukan titik batas, komponen pertama
+\mathl{\alpha(P)}{} positif, sehingga terdapat suatu himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha(P)
+}
+{ \in }{ V'
+}
+{ \subseteq }{ \R_{+} \times \R^{n-1}
+}
+{ =   }{ H_+
+}
+{   }{
+}
+}
+{}{}{.}
+Dengan demikian,
+
+\mavergleichskette
+{\vergleichskette
+{ U'
+}
+{ = }{ \alpha^{-1}(V')
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan suatu lingkungan terbuka dari $P$ yang
+\zusatzklammer {menurut Bagian 1} {} {}
+tidak memotong batas.}
+{}
+\teilbeweis {}{}{}
+{(3). Bagi setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \notin }{ \partial M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kita dapat menentukan, seperti pada (2), suatu domain peta yang terpisah dari batas dan citra petanya merupakan himpunan terbuka di $\R^n$. Jadi, kita memperoleh suatu
+\definitionsverweis {manifold}{}{}
+\zusatzklammer {tanpa batas} {} {.}}
+{}
+
+}
+
+Konsep pemetaan diferensiabel, difeomorfisme, dan ruang singgung juga terbawa ke manifold berbatas; lihat
+Soal 21.2.
+
+
+
+\inputfaktbeweis
+{Mannigfaltigkeit mit Rand/Rand ist Mannigfaltigkeit/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel berbatas}{}{} berdimensi $n$.}
+\faktfolgerung {Maka batas
+\mathl{\partial M}{} merupakan suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+\zusatzklammer {tanpa batas} {} {} berdimensi
+\mathl{n-1}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Pertama-tama,
+
+\mavergleichskette
+{\vergleichskette
+{ L
+}
+{ = }{ \partial M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan
+\definitionsverweis {topologi terinduksi}{}{}
+merupakan suatu
+\definitionsverweis {ruang Hausdorff}{}{.}
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan misalkan
+\maabbdisp {\alpha} { U } { V
+} {}
+suatu
+\definitionsverweis {peta}{}{}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka dan
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha(P)
+}
+{ \in }{ \partial H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Karena $\alpha$ merupakan suatu
+\definitionsverweis {homeomorfisme}{}{}
+dan menurut
+Lema 21.3 (1)
+titik batas berkorespondensi dengan titik batas pada setiap peta, peta ini menginduksi suatu homeomorfisme
+\maabbdisp {} {U \cap L} {V \cap \partial H
+} {.}
+Di sini,
+\mathl{U \cap L}{} merupakan suatu lingkungan terbuka dari $P$ di $L$, sehingga himpunan-himpunan ini dapat kita gunakan sebagai domain peta. Sekarang tinjau suatu pergantian peta. Kita boleh langsung memulai dengan satu domain peta
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan dua peta
+\maabb {\alpha_1} { U } { V_1
+} {} dan \maabb {\alpha_2} { U } { V_2
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ V_1,V_2
+}
+{ \subseteq }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka. Dengan demikian, terdapat suatu
+$C^1$-\definitionsverweis {difeomorfisme
+}{}{}
+\maabbdisp {\varphi=\alpha_2 \circ \alpha_1^{-1}} {V_1 } { V_2
+} {.}
+Pertama, hal ini berarti terdapat suatu homeomorfisme
+\maabb {} { \partial H \cap V_1 } { \partial H \cap V_2
+} {.}
+Sifat difeomorfisme dari $\varphi$ berarti bahwa bagi setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U \cap L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+terdapat lingkungan-lingkungan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha_1(P)
+}
+{ \in }{ W_1
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha_2(P)
+}
+{ \in }{ W_2
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+serta suatu
+\definitionsverweis {perluasan}{}{}
+\maabbdisp {\tilde{\varphi}} { W_1 } { W_2
+} {}
+yang difeomorfik dari $\varphi$, dari
+\mathkor {} {V_1 \cap W_1} {ke} {V_2 \cap W_2} {.}
+Menurut Soal 21.19, perluasan ini juga menginduksi suatu
+$C^1$-\definitionsverweis {difeomorfisme}{}{}
+antara batas-batas
+\mathl{\partial H \cap W_1}{} dan
+\mathl{\partial H \cap W_2}{,} sehingga secara keseluruhan terdapat suatu difeomorfisme
+\maabbdisp {\varphi \vert_{\partial H}} { \partial H \cap V_1 } { \partial H \cap V_2
+} {.}
+
+}
+
+Kita sudah mengetahui bahwa serat suatu pemetaan reguler diferensiabel antara manifold-manifold diferensiabel memiliki struktur submanifold tertutup. Teorema berikut didasarkan pada argumen serupa dan menjamin keberadaan sangat banyak manifold berbatas.
+
+
+\inputfaktbeweis
+{Reguläre Funktion auf Mannigfaltigkeit/Urbild halbseitiger Intervalle/Mannigfaltigkeit mit Rand/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan $L$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan misalkan
+\maabbdisp {f} { L } {\R
+} {}
+suatu
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{.}
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktvoraussetzung {Setiap titik dalam
+\definitionsverweis {serat}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ F
+}
+{ = }{ f^{-1}(a)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+di atas $a$ merupakan titik
+\definitionsverweis {reguler}{}{.}}
+\faktfolgerung {Maka himpunan-himpunan bagian
+
+\mathdisp {M= \left\{  x \in L  \mid   f(x) \leq a        \right\} \text{   dan } N= \left\{  x \in L  \mid   f(x) \geq a        \right\}} {  }
+
+merupakan
+\definitionsverweis {manifold diferensiabel berbatas}{}{,}
+dan \definitionsverweis {batas}{}{} masing-masing sama dengan $F$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Untuk menyederhanakan notasi, misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dan kita batasi perhatian pada $M$. Kita mempunyai
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { \left\{  x\in L  \mid  f(x)<0        \right\}  \uplus F
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dengan himpunan di sebelah kiri merupakan suatu
+\definitionsverweis {himpunan terbuka}{}{}
+di $L$ dan dengan demikian merupakan suatu submanifold terbuka. Jadi, hal yang menentukan ialah menunjukkan bahwa bagi titik-titik dari serat $F$ terdapat peta-peta, dan dengan demikian suatu struktur manifold. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ F
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Menurut pembuktian
+teorema pemetaan implisit,
+bagi
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ F
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat suatu lingkungan
+\zusatzklammer {koordinat} {} {}
+terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{ \subseteq }{ L
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan suatu peta
+\maabbdisp {\alpha} { U } { V
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+sedemikian sehingga
+
+\mavergleichskette
+{\vergleichskette
+{ f
+}
+{ = }{ x_1 \circ \alpha
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dalam hal ini,
+\mathl{F \cap U}{} berkorespondensi dengan
+\mathl{\left\{  x \in V  \mid   x_1 = 0         \right\}}{} dan
+\mathl{M \cap U}{} berkorespondensi dengan
+\mathl{H_{\leq 0} \cap V}{,} sehingga pembatasan $\alpha$ pada $M$ menghasilkan suatu peta untuk $M$ di $P$. Pergantian-pergantian petanya
+$C^1$-\definitionsverweis {difeomorfik}{}{,}
+karena hal ini berlaku bagi peta-peta
+\zusatzklammer {penuh} {} {}
+pada $L$.
+
+}
+
+\inputbeispiel{}
+{
+
+Untuk $r>0$, \definitionsverweis {bola tertutup}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ B  \left(  0 ,r \right)
+}
+{ =} { \left\{  x \in \R^n   \mid   \sqrt{x_1^2 + \cdots + x_n^2} \leq r         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+merupakan suatu
+$C^\infty$-\definitionsverweis {manifold diferensiabel}{}{}
+dengan \stichwort {sfer} {}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ S \left(   0 , r  \right)
+}
+{ =} { \left\{  x \in \R^n   \mid   \sqrt{x_1^2 + \cdots + x_n^2} =  r         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+sebagai
+\definitionsverweis {batas}{}{.}
+Hal ini langsung mengikuti
+Teorema 21.5
+yang diterapkan pada fungsi mulus
+\maabbeledisp {g} {\R^n } {\R
+} {(x_1 , \ldots , x_n) } { x_1^2 + \cdots + x_n^2
+} {,}
+dengan nilai reguler $r^2$; setiap titik $x\in g^{-1}(r^2)$ memenuhi
+$x\neq 0$, sehingga $g$ bersifat
+\definitionsverweis {reguler}{}{} pada seluruh serat itu.
+
+}
+
+\inputbeispiel{}
+{
+
+Suatu
+\definitionsverweis {balok}{}{} \definitionsverweis {tertutup}{}{}
+
+\mathdisp {[a_1,b_1] \times [a_2,b_2] \times \cdots \times [a_n,b_n] \subseteq \R^n} {  }
+
+untuk
+\mathl{n \geq 2}{} bukan merupakan suatu
+\definitionsverweis {manifold diferensiabel berbatas}{}{,}
+karena balok itu tidak hanya mempunyai sisi, tetapi juga
+\zusatzklammer {bergantung pada dimensinya} {} {}
+sudut dan rusuk. Suatu persegi panjang mempunyai empat titik sudut yang tidak dapat diberi struktur manifold diferensiabel berbatas
+\zusatzklammer {yang kompatibel dengan ruang sekitar} {} {}
+\zusatzklammer {karena persegi panjang tertutup
+\definitionsverweis {homeomorfik}{}{}
+dengan cakram tertutup, suatu struktur manifold diferensiabel berbatas dapat didefinisikan padanya; tetapi dengan struktur ini, penyematan alami persegi panjang tersebut ke dalam $\R^2$ tidak diferensiabel} {} {,}
+sedangkan suatu balok berdimensi tiga mempunyai dua belas rusuk dan delapan sudut yang tidak memiliki struktur manifold alami.
+
+Namun, jika sudut, rusuk, dan seterusnya tersebut dihapus dan hanya \anfuehrung{sisi-sisi berkodimensi satu}{} dipertahankan, kita memperoleh suatu
+\zusatzklammer {tak kompak} {} {}
+manifold berbatas. Batasnya merupakan gabungan saling lepas dari muka-muka hiper tersebut. Seperti pada setiap manifold berbatas, batas ini tertutup di dalam manifold, tetapi tidak tertutup di dalam ruang Euklides sekitar.
+
+}
+
+  \zwischenueberschrift{Orientasi pada manifold berbatas}
+
+Misalkan pada $\R^n$ vektor-vektor standar
+\mathl{e_1 , \ldots , e_n}{} memberikan suatu
+\definitionsverweis {orientasi}{}{;}
+selanjutnya pilih setengah ruang
+
+\mavergleichskettedisp
+{\vergleichskette
+{ H_{\leq 0}
+}
+{ =} { \left\{  x \in \R^n   \mid   x_1 \leq 0         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+sebagai \anfuehrung{setengah ruang dalam}{}. Orientasi pada hiperbidang
+\zusatzklammer {yaitu batas manifold berbatas \mathlk{H_{\leq 0}}{}} {} {}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ E
+}
+{ =} { \left\{  x \in \R^n   \mid   x_1 = 0         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+yang didefinisikan oleh basis
+\mathl{e_2 , \ldots , e_n}{} disebut \stichwort {orientasi oleh normal luar} {.} Suatu basis sembarang
+\mathl{v_2 , \ldots , v_n}{} dari $E$ merepresentasikan orientasi ini jika dan hanya jika, bagi suatu vektor sembarang
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{ H_+
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {artinya, mengarah ke \anfuehrung{luar}{,} yakni keluar dari setengah ruang} {} {}
+basis
+\mathl{v,v_2 , \ldots , v_n}{}
+\zusatzklammer {jadi $v$ ditempatkan pertama} {} {}
+dari $\R^n$ merepresentasikan orientasi semula
+\zusatzfussnote {Untuk suatu setengah garis
+
+\mavergleichskette
+{\vergleichskette
+{H
+}
+{ = }{ \R_{\geq 0}
+}
+{ \subseteq }{ \R
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan satu-satunya titik batas $\{0\}$, hal ini harus ditafsirkan sebagai berikut. Kedua orientasi pada
+\mathl{\{0\}}{} adalah
+\mathkor {} {+} {dan} {-} {,}
+dan $-$ merepresentasikan orientasi oleh normal luar, sebab bagi suatu vektor yang mengarah ke luar
+
+\mavergleichskette
+{\vergleichskette
+{ w
+}
+{ \in }{ \R_-
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+vektor lawannya $-w$ merepresentasikan orientasi standar dari $\R$. Sebaliknya, untuk setengah ruang negatif
+\mathl{\R_{\leq 0}}{} di titik nol, $+$ merepresentasikan orientasi oleh normal luar} {.} {.}
+
+Hubungan antara orientasi pada ruang vektor real dan orientasi pada batas suatu setengah ruang ini terbawa ke manifold berbatas. Hal yang penting di sini ialah bahwa ruang singgung
+\mathl{T_PM}{} di suatu titik batas $P$ memuat suatu hiperbidang kanonik, yaitu ruang singgung
+\mathl{T_P (\partial M)}{} dari batas. Dalam hal ini manifold tersebut menentukan suatu \anfuehrung{separuh dalam}{} dan suatu \anfuehrung{separuh luar}{} dari ruang singgung.
+
+
+
+\inputfaktbeweis
+{Mannigfaltigkeit mit Rand/Orientierung/Randorientierung/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel berbatas}{}{,}}
+\faktvoraussetzung {yang dilengkapi dengan suatu
+\definitionsverweis {orientasi}{}{.}}
+\faktfolgerung {Maka
+\definitionsverweis {manifold batas}{}{} juga dilengkapi dengan suatu orientasi kanonik, yaitu orientasi yang pada setiap
+\definitionsverweis {peta}{}{} ditentukan oleh
+\definitionsverweis {normal luar}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Untuk setiap peta
+\zusatzklammer {berorientasi} {} {}
+\maabbdisp {\alpha} { U } { V
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka, peta terinduksi
+\maabbdisp {} {U \cap \partial M } { V \cap \partial H
+} {}
+dilengkapi dengan
+\definitionsverweis {orientasi oleh normal luar}{}{}
+pada
+\mathl{\partial H}{.} Menurut asumsi, semua pergantian peta pada $M$ mempunyai
+\definitionsverweis {determinan fundamental}{}{}
+positif di setiap titik terhadap basis-basis yang merepresentasikan orientasi; kita harus menunjukkan bahwa hal ini juga berlaku bagi pergantian peta yang terinduksi. Kita dapat memulai dengan suatu domain peta terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{ \subseteq }{ M
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan dua peta
+\maabbdisp {\alpha_1} { U } { V_1
+} {}
+dan
+\maabbdisp {\alpha_2} { U } { V_2
+} {}
+serta meninjau pemetaan transisi
+\maabbdisp {\varphi = \alpha_2 \circ \alpha_1^{-1}} { V_1 } { V_2
+} {}
+dengan himpunan-himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ V_1
+}
+{ \subseteq }{ H_1
+}
+{ \subset }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ V_2
+}
+{ \subseteq }{ H_2
+}
+{ \subset }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Misalkan
+\mathl{v_2 , \ldots , v_n}{} suatu basis dari
+\mathl{\partial H_1}{} dan
+
+\mavergleichskette
+{\vergleichskette
+{ v_1
+}
+{ \in }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sedemikian sehingga $v_1$ merepresentasikan normal luar dari $H_1$, yakni
+\mathl{v_1, v_2 , \ldots , v_n}{} merepresentasikan orientasi $\R^n$
+\zusatzklammer {misalkan $x_1 , \ldots , x_n$ adalah koordinat-koordinat yang bersesuaian} {} {;}
+demikian pula,
+
+\mavergleichskette
+{\vergleichskette
+{ w_1, w_2 , \ldots , w_n
+}
+{ \in }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+harus memenuhi sifat-sifat yang bersesuaian. Kita tuliskan matriks fundamental dari $\varphi$ terhadap basis-basis ini, yakni matriks dengan entri-entri
+
+\mathdisp {\left(  { \frac{   \partial  \varphi_i   }{  \partial   x_j   } } ( Q)  \right)_{1 \leq i,j \leq n}} { . }
+
+Menurut asumsi, determinannya positif. Karena
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi ( \partial H_1)
+}
+{ \subseteq }{ \partial H_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+maka untuk suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ \partial H_1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku hubungan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial  \varphi_1   }{  \partial   x_j   } } ( Q)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk
+
+\mavergleichskette
+{\vergleichskette
+{ j
+}
+{ = }{ 2 , \ldots , n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Menurut
+teorema ekspansi,
+oleh karena itu tanda determinan matriks
+
+\mathdisp {\left(  { \frac{   \partial  \varphi_i   }{  \partial   x_j   } } ( Q)  \right)_{ 2 \leq i,j \leq n}} { , }
+
+yang merupakan matriks fundamental dari pemetaan transisi peta-peta batas
+\maabbdisp {} {V_1 \cap \partial H_1 } { V_2 \cap \partial H_2
+} {}
+\zusatzklammer {terhadap basis
+\mathl{v_2 , \ldots , v_n}{} dan
+\mathl{w_2 , \ldots , w_n}{}} {} {}
+di titik $Q$, hanya bergantung pada
+\mathl{{ \frac{   \partial  \varphi_1   }{  \partial   x_1   } } ( Q)}{.} Dengan
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ = }{ (0,a_2 , \ldots , a_n)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+menurut
+Lema 44.3 (Analisis (Osnabrück 2021--2023)),
+kita memperoleh hubungan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   \partial  \varphi_1   }{  \partial   x_1   } } ( Q)
+}
+{ =} { \operatorname{lim}_{   \epsilon \rightarrow  0   } \,  { \frac{   \varphi_1 (\epsilon, a_2 , \ldots , a_n)  }{  \epsilon } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Karena $v_1$ merepresentasikan normal luar, untuk nilai negatif
+\zusatzklammer {dengan nilai mutlak yang cukup kecil} {} {}
+$\epsilon$, vektor dengan koordinat
+
+\mavergleichskette
+{\vergleichskette
+{ (\epsilon,a_2 , \ldots , a_n)
+}
+{ \in }{ H_1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Karena itu, vektor citranya harus termasuk dalam $H_2$, dan dengan demikian
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi_1(\epsilon,a_2 , \ldots , a_n)
+}
+{ < }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Jadi, hasil bagi ini
+\mathl{\geq 0}{,} dan hal yang sama berlaku bagi limitnya. Karena terdapat suatu difeomorfisme, limit tersebut bahkan harus positif, dan pernyataan pun terbukti.
+
+}

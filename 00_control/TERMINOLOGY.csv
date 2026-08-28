@@ -297,3 +297,10 @@ O011-TERM-0295,Integrabilitätsbedingung,syarat keterintegralan,admitted,Compati
 O011-TERM-0296,Halbebene,setengah bidang,admitted,Generic half-plane; distinct from the Poincare half-plane row
 O011-TERM-0297,Quadrant,kuadran,admitted,
 O011-TERM-0298,höhere Ableitung,turunan tingkat tinggi,admitted,
+O011-TERM-0299,Randmannigfaltigkeit,manifold batas,admitted,The boundary manifold itself; distinguish from a manifold with boundary
+O011-TERM-0300,äußere Normale,normal luar,admitted,Outward normal along the boundary
+O011-TERM-0301,Orientierung durch die äußere Normale,orientasi oleh normal luar,admitted,Boundary orientation convention induced by an outward normal first
+O011-TERM-0302,differenzierbarer Halbweg,lintasan-separuh diferensiabel,admitted,Differentiable one-sided path based at a boundary point
+O011-TERM-0303,Annulus,anulus,admitted,Annular region; use tertutup when the source specifies closed
+O011-TERM-0304,Kreisring,anulus,admitted,Planar annulus
+O011-TERM-0305,abgeschlossene Kreisscheibe,cakram tertutup,admitted,Closed disk including its boundary
