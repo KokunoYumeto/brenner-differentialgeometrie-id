@@ -1997,3 +1997,32 @@ Its 10,559-byte independent integrity receipt has SHA-256
 Both clean cycles independently pass the PDF, HTML, and backend verifiers and
 produce the exact canonical artifacts and exact staged HTML ZIP; all package
 inventory, manifest, checksum, CRC, privacy, and no-overwrite checks pass.
+
+## D084 — Publish and anonymously verify the cumulative Unit 22 checkpoint (2026-08-28)
+
+**Decision:** Publish the exact seven-file Unit 22 payload in the existing
+GitHub repository/release lineage and the existing Zenodo concept, then accept
+the boundary only after separate credential-free downloads match every local
+file by byte count, SHA-256, and MD5. Keep the PDF as Zenodo's configured
+default preview. Do not create a competing concept or let this publication
+transaction delay the independently running Unit 23 translation.
+
+**GitHub evidence:** Content commit
+`c7f4928327b3be9bc28a42543acbc43d7009410e`, annotated tag
+`v0.22.0-unit-22`, and release `378563046` are public. The seven assets total
+73,215,901 bytes. Independent anonymous readback receipt
+`qa/unit-22/GITHUB_PUBLIC_READBACK_RECEIPT.json` is 4,334 bytes, SHA-256
+`55ce476b8e09d5e6d55db871bc6f2fbe0091c49b9d56dd0c26229da3eb3f321b`.
+
+**Zenodo evidence:** Existing concept `22059977` now has direct successor
+record `22146873`, DOI `10.5281/zenodo.22146873`, version
+`2026.08.28-unit22`; predecessor record `22134954` is unchanged. Record and
+files are public and the 345-page PDF is the default preview. Sanitized
+publisher receipt `qa/unit-22/ZENODO_PUBLICATION_RECEIPT.json` is 4,955 bytes,
+SHA-256
+`7fcb3923280b129b9c4c1c028c8fa2fe2860883c753cdffe83e6c21537ec346f`.
+Independent anonymous readback receipt
+`qa/unit-22/ZENODO_PUBLIC_READBACK_RECEIPT.json` is 4,068 bytes, SHA-256
+`0d3b14210fee7552cce8dd1aa442ea3c0f85b4dbb5686f4ee6e9cf9aa759c7c9`.
+Both paths downloaded all seven files and matched the same 73,215,901 public
+bytes. The next action is contiguous Unit 23 production, not more Unit 22 QA.

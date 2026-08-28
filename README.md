@@ -14,7 +14,7 @@ diselesaikan.
 
 - [PDF Unit 1–22](output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-22-id.pdf) — 345 halaman A4 terpusat, 9.046.717 byte, SHA-256 `4e6c03dc8388a4c10c464d939d5a416ab035c52e3bd233212c78a40617e02cf7`
 - [Pembaca HTML semantik Unit 1–22](output/html/unit-22/index.html) — reflowable, navigasi tautan-dalam stabil, matematika MathJax dengan fallback TeX, media berteks alternatif, dan kontrol animasi yang dapat dipakai dengan papan ketik
-- [Checkpoint Unit 22 di Zenodo](https://doi.org/10.5281/zenodo.22059977) — versi `2026.08.28-unit22` dalam konsep tetap yang sama; [Unit 19](https://doi.org/10.5281/zenodo.22134954) ialah pendahulu langsungnya
+- [Checkpoint Unit 22 di Zenodo](https://doi.org/10.5281/zenodo.22146873) — versi `2026.08.28-unit22` dalam konsep tetap yang sama; [Unit 19](https://doi.org/10.5281/zenodo.22134954) ialah pendahulu langsungnya
 - [Sumber terjemahan](source/units) dan [backend modular](backend/README.md)
 - [Kuitansi build PDF](qa/unit-22/build.json), [inspeksi visual seluruh halaman](qa/unit-22/PDF_VISUAL_QA.json), [QA browser](qa/unit-22/HTML_BROWSER_QA.json), dan [validasi backend](qa/unit-22/backend.json)
 

@@ -1,0 +1,94 @@
+{
+  "all_downloaded_bytes_sha256_md5_match": true,
+  "authentication_used": false,
+  "concept_doi": "10.5281/zenodo.22059977",
+  "concept_record_id": 22059977,
+  "doi": "10.5281/zenodo.22146873",
+  "expected_reader_first_order": [
+    "geometri-diferensial-manifold-mulus-hingga-unit-22-id.pdf",
+    "geometri-diferensial-manifold-mulus-unit22-html-20260828.zip",
+    "geometri-diferensial-manifold-mulus-unit22-source-20260828.zip",
+    "LICENSE.md",
+    "RELEASE_NOTES_UNIT22_20260828.md",
+    "FILE_MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "file_count": 7,
+  "files": [
+    {
+      "bytes": 9046717,
+      "download_url": "https://zenodo.org/api/records/22146873/files/geometri-diferensial-manifold-mulus-hingga-unit-22-id.pdf/content",
+      "md5": "b6340f3b217bae1b86c276db2c30082c",
+      "name": "geometri-diferensial-manifold-mulus-hingga-unit-22-id.pdf",
+      "sha256": "4e6c03dc8388a4c10c464d939d5a416ab035c52e3bd233212c78a40617e02cf7"
+    },
+    {
+      "bytes": 7301411,
+      "download_url": "https://zenodo.org/api/records/22146873/files/geometri-diferensial-manifold-mulus-unit22-html-20260828.zip/content",
+      "md5": "1854747c69b3201510ffeffc438d313c",
+      "name": "geometri-diferensial-manifold-mulus-unit22-html-20260828.zip",
+      "sha256": "9e6782f535d3299c959d76f903bf74fb5593a560d0f2126349aa4f65c64dcdcc"
+    },
+    {
+      "bytes": 56860936,
+      "download_url": "https://zenodo.org/api/records/22146873/files/geometri-diferensial-manifold-mulus-unit22-source-20260828.zip/content",
+      "md5": "26e621d3862c86770c6a0b800c7e1b76",
+      "name": "geometri-diferensial-manifold-mulus-unit22-source-20260828.zip",
+      "sha256": "8f85344d1fd91d709534b15b960ddaac16aaddfc2f5d6fb62cba802a99898f83"
+    },
+    {
+      "bytes": 2034,
+      "download_url": "https://zenodo.org/api/records/22146873/files/LICENSE.md/content",
+      "md5": "b9649c1081666bfe3707c40948c84d20",
+      "name": "LICENSE.md",
+      "sha256": "eac2f6fd61f648a576e2e38c4d5ad0603b4c95423763e6ac2ed6f5a80b35025b"
+    },
+    {
+      "bytes": 2627,
+      "download_url": "https://zenodo.org/api/records/22146873/files/RELEASE_NOTES_UNIT22_20260828.md/content",
+      "md5": "9311fa9ad2d65572ac800e87b28647c7",
+      "name": "RELEASE_NOTES_UNIT22_20260828.md",
+      "sha256": "e13dc7d8757f978db980b809df3aeca2bbc2bfc5d892d7b9e41c29d7657f8b4a"
+    },
+    {
+      "bytes": 1535,
+      "download_url": "https://zenodo.org/api/records/22146873/files/FILE_MANIFEST.json/content",
+      "md5": "e7fdebab53e50338d54baa9a365ea4aa",
+      "name": "FILE_MANIFEST.json",
+      "sha256": "676c87301bf3e60a4f61ec8c51c37040b102474eb3759caf54af57e401b703ae"
+    },
+    {
+      "bytes": 641,
+      "download_url": "https://zenodo.org/api/records/22146873/files/SHA256SUMS.txt/content",
+      "md5": "761f0e55c1ea64c5a3a50173b6db2547",
+      "name": "SHA256SUMS.txt",
+      "sha256": "4742a29ec1858eaea60ff385d1dfe4807300256264fda0a7c6984a98113d49e1"
+    }
+  ],
+  "files_access": "public",
+  "latest_in_concept": true,
+  "pdf_default_preview": "geometri-diferensial-manifold-mulus-hingga-unit-22-id.pdf",
+  "pdf_default_preview_verified": true,
+  "predecessor_record_id": 22134954,
+  "preparation_receipt_sha256": "a862a3cc9f158c3a895fb37dd1691d7276de97494974ff097ea4689f9bac6480",
+  "publication_receipt_sha256": "7fcb3923280b129b9c4c1c028c8fa2fe2860883c753cdffe83e6c21537ec346f",
+  "rdm_file_order": [
+    "FILE_MANIFEST.json",
+    "geometri-diferensial-manifold-mulus-hingga-unit-22-id.pdf",
+    "geometri-diferensial-manifold-mulus-unit22-html-20260828.zip",
+    "geometri-diferensial-manifold-mulus-unit22-source-20260828.zip",
+    "LICENSE.md",
+    "RELEASE_NOTES_UNIT22_20260828.md",
+    "SHA256SUMS.txt"
+  ],
+  "record_access": "public",
+  "record_id": 22146873,
+  "record_status": "published",
+  "record_url": "https://zenodo.org/records/22146873",
+  "schema_version": 1,
+  "status": "pass",
+  "total_bytes": 73215901,
+  "verified_at_utc": "2026-08-28T15:13:44.400937+00:00",
+  "version": "2026.08.28-unit22",
+  "workflow": "o011-independent-zenodo-unit22-public-readback-v1"
+}

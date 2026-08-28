@@ -2,7 +2,7 @@
 
 Updated: 2026-08-28 (Europe/Berlin)
 
-## Current verified boundary — Unit 19 cumulative release public; Units 20–21 bounded source checkpoints public; Unit 22 cumulative local release gate passed
+## Current verified boundary — Unit 22 cumulative release public and anonymously byte-verified; Unit 23 production active
 
 Units 1–19 now pass the complete local reader and additive-backend gate. The
 current centered A4 PDF is 302 pages and 7,740,452 bytes, SHA-256
@@ -456,10 +456,30 @@ media-loader, and accessibility changes; the two displayed public-domain
 assets retain exact creator and source rights. No bounded Unit 22 defect
 remains open.
 
-The exact active action is the planned cumulative Units 1–22 gate: finish and
-verify the centered A4 PDF, reflowable semantic HTML, and append-only backend
-while preserving the exact 3,747-record public Unit 19 prefix; package the
-verified reader-first boundary; publish it in the existing GitHub and Zenodo
-lineages; and anonymously read back every released byte. The full O011 goal is
-still unfinished after that boundary because Units 23–29, the exam bank, and
+## Unit 22 public lineage closure — 2026-08-28
+
+The cumulative Units 1–22 checkpoint is public in both existing lineages. The
+GitHub content commit is
+`c7f4928327b3be9bc28a42543acbc43d7009410e`; annotated tag
+`v0.22.0-unit-22` and public release `378563046` resolve to it at
+`https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v0.22.0-unit-22`.
+An independent credential-free verifier downloaded all seven release assets
+and matched all 73,215,901 bytes by SHA-256 and MD5. Its 4,334-byte receipt is
+`qa/unit-22/GITHUB_PUBLIC_READBACK_RECEIPT.json`, SHA-256
+`55ce476b8e09d5e6d55db871bc6f2fbe0091c49b9d56dd0c26229da3eb3f321b`.
+
+Zenodo version `2026.08.28-unit22` is public in the existing concept
+`22059977` as record `22146873`, DOI `10.5281/zenodo.22146873`, with record
+and files both public and the 345-page PDF configured as the default preview.
+Record `22134954` remains its direct predecessor; no competing concept was
+created. The publisher and a separate credential-free verifier each
+downloaded the exact same seven files and matched all 73,215,901 bytes by
+SHA-256 and MD5. The sanitized publication receipt is 4,955 bytes, SHA-256
+`7fcb3923280b129b9c4c1c028c8fa2fe2860883c753cdffe83e6c21537ec346f`;
+the independent 4,068-byte readback receipt has SHA-256
+`0d3b14210fee7552cce8dd1aa442ea3c0f85b4dbb5686f4ee6e9cf9aa759c7c9`.
+
+The exact active action is contiguous source-ordered Unit 23 translation. No
+additional Unit 22 rebuild or release ceremony is pending. The full O011 goal
+remains unfinished because Units 23–29, the ten-form official exam bank, and
 the two original bridges remain.

@@ -6,6 +6,9 @@ HTML semantik reflowable, paket sumber yang dapat dilanjutkan dan dibangun
 ulang, backend stable-ID, lisensi, manifes, dan checksum disertakan sebagai
 aset pendamping.
 
+Versi preservasi yang sama tersedia dalam garis konsep Zenodo tetap pada
+<https://doi.org/10.5281/zenodo.22146873>.
+
 Checkpoint ini memuat seluruh 457 soal dalam urutan sumber, tepat 64 solusi
 yang disediakan sumber, dan 31 media beratribusi. Tidak ada lapisan petunjuk
 atau solusi lengkap yang diklaim. PDF, HTML, dan backend telah melewati gate

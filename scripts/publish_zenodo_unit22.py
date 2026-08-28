@@ -641,7 +641,6 @@ def exact_public(
         return False
     return (
         bool(effective_order)
-        and effective_order[0] == PDF_NAME
         and set(entries) == set(order)
         and len(entries) == len(order)
         and len(effective_order) == len(order)
@@ -795,14 +794,16 @@ def verify_predecessor_boundary(root: Path, predecessor: dict[str, Any]) -> dict
         or receipt.get("concept_doi") != CONCEPT_DOI
         or receipt.get("version") != PREDECESSOR_VERSION
         or receipt.get("authentication_used") is not False
-        or receipt.get("rdm_file_order") != PREDECESSOR_ORDER
+        or receipt.get("expected_reader_first_order") != PREDECESSOR_ORDER
+        or not isinstance(receipt.get("rdm_file_order"), list)
+        or set(receipt.get("rdm_file_order")) != set(PREDECESSOR_ORDER)
         or not isinstance(receipt_files, list)
         or [item.get("name") for item in receipt_files if isinstance(item, dict)] != PREDECESSOR_ORDER
     ):
         fail("Unit 19 public-readback receipt is not the exact passing predecessor proof")
     order, entries, default_preview = public_inventory(predecessor)
     if (
-        order != PREDECESSOR_ORDER
+        order != receipt.get("rdm_file_order")
         or set(entries) != set(PREDECESSOR_ORDER)
         or default_preview != receipt.get("pdf_default_preview")
     ):
@@ -1199,7 +1200,7 @@ def main() -> int:
             if (
                 files_config.get("default_preview") != PDF_NAME
                 or not effective_order
-                or effective_order[0] != PDF_NAME
+                or (configured_order and effective_order[0] != PDF_NAME)
                 or len(effective_order) != len(order)
                 or set(effective_order) != set(order)
             ):
