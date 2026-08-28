@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-20/worksheet20_exercise14_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0281",
+      "anchor": "entire supplied solution fragment",
+      "change": "Disclose the source page's unfinished status and algebraic and global gaps while preserving its meaningful fragment and omitting the empty equation placeholder."
+    },
+    {
+      "correction_id": "O011-ACC-0283",
+      "anchor": "fixed-coordinate tuple in the supplied solution fragment",
+      "change": "Place the unchanged long tuple in a separate display so it remains inside the A4 text block without scaling."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_ids": ["O011-CORR-0281", "O011-ACC-0283"],
+      "surface": "profile:commands",
+      "source_sha256": "e8045e74598bcd7044fd78108ce0c024835d2f80dcffbb534a4372c493bc7381",
+      "target_sha256": "0c934e2a804633f683f8350b85efa2bf150895a56a9d6b5d80216e1c8d77ebc5"
+    },
+    {
+      "correction_ids": ["O011-CORR-0281", "O011-ACC-0283"],
+      "surface": "profile:inline_math",
+      "source_sha256": "ef829b82d6d1b38bdbc7ed35f9c1b4a89afbd9235cda9aeec69a4e96337984f1",
+      "target_sha256": "007057ba245e7230e3f2658b93afeafd8740edb7916a8a5ee5d28024b4d07334"
+    },
+    {
+      "correction_ids": ["O011-CORR-0281", "O011-ACC-0283"],
+      "surface": "profile:brace_profile",
+      "source_sha256": "3c71bc8e2e0df6b5473f3de327aa3bb641a8eacfe968baeb4d63b54453ab4bd0",
+      "target_sha256": "626f718bb0207dced90fa12778c49bc7219dc798d7cb0e341a577c273c3a05f8"
+    },
+    {
+      "correction_id": "O011-CORR-0281",
+      "surface": "profile:protected:vergleichskette",
+      "source_sha256": "2fcec21d680354d3ee54e428ff90eb717cf918b09ada6b95bec9007a256d1f1c",
+      "target_sha256": "7c713a8c127cc15697fcf3103773abd9439b812c1f79b3cf11867c6d5721499f"
+    },
+    {
+      "correction_ids": ["O011-CORR-0281", "O011-ACC-0283"],
+      "surface": "profile:protected:mathdisp",
+      "source_sha256": "ba376e73a266317b893cffbf62439d7962f7640a7148c4f939a2dd8b2b551876",
+      "target_sha256": "8caa5e53be6647e76edbc190af7846a4978d81635ab310fdfa6dd0d4c26d248a"
+    }
+  ]
+}

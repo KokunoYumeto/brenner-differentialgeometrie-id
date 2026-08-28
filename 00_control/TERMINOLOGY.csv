@@ -284,3 +284,16 @@ O011-TERM-0282,Christoffelsymbol,simbol Christoffel,admitted,Coordinate connecti
 O011-TERM-0283,Brioschische Formel,rumus Brioschi,admitted,Intrinsic formula for Gaussian curvature
 O011-TERM-0284,intrinsisch,intrinsik,admitted,Determined by the Riemannian metric rather than an embedding
 O011-TERM-0285,Normalenfeld,medan normal,admitted,A chosen unit normal field when orientation-dependent signs matter
+O011-TERM-0286,geschlossene Differentialform,bentuk diferensial tertutup,admitted,Closed differential form; context-specific sense of geschlossen
+O011-TERM-0287,exakte Differentialform,bentuk diferensial eksak,admitted,Exact differential form; distinguish from an exact sequence
+O011-TERM-0288,Stammform,bentuk primitif,admitted,Primitive differential form; distinguish from Stammfunktion
+O011-TERM-0289,Stammfunktion,antiturunan,admitted,Primitive or antiderivative of a function
+O011-TERM-0290,euklidischer Halbraum,setengah ruang Euklides,admitted,Closed half-space model used for manifolds with boundary
+O011-TERM-0291,Mannigfaltigkeit mit Rand,manifold berbatas,admitted,Manifold with boundary
+O011-TERM-0292,Rand,batas,admitted,Boundary of a half-space or manifold; retain context
+O011-TERM-0293,Randpunkt,titik batas,admitted,Boundary point
+O011-TERM-0294,induzierte Topologie,topologi terinduksi,admitted,Subspace topology in this unit
+O011-TERM-0295,Integrabilitätsbedingung,syarat keterintegralan,admitted,Compatibility condition for a gradient field
+O011-TERM-0296,Halbebene,setengah bidang,admitted,Generic half-plane; distinct from the Poincare half-plane row
+O011-TERM-0297,Quadrant,kuadran,admitted,
+O011-TERM-0298,höhere Ableitung,turunan tingkat tinggi,admitted,

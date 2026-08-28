@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-20/worksheet20_exercise07_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0280",
+      "anchor": "entire supplied solution",
+      "change": "Replace malformed ASCII shorthand with a valid exterior-derivative computation and give the explicit primitive x squared minus x sine y."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0280",
+      "surface": "profile:commands",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "target_sha256": "75d4aaf3986fafc0adc999f2951639e590bd27f8578dad62ecb1f0fd2acd50e3"
+    },
+    {
+      "correction_id": "O011-CORR-0280",
+      "surface": "profile:inline_math",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "target_sha256": "0ffd585e22124483e4d3f20a202f311b7cee49535a34be012e2be813e57144f7"
+    },
+    {
+      "correction_id": "O011-CORR-0280",
+      "surface": "profile:brace_profile",
+      "source_sha256": "7976726defb2e3053ddae45e5d620a073cda0eca0c1945aae9cee8fcc296d42d",
+      "target_sha256": "7a9e6b690858cf0150ecdb43e3c5487f02f1e34931112bdaf8fb6ec08685996a"
+    },
+    {
+      "correction_id": "O011-CORR-0280",
+      "surface": "profile:protected:vergleichskette",
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "target_sha256": "ac65506c48319aa597515b42b0e05d8a6153da8342dce4752d15d914d9b75aab"
+    }
+  ]
+}

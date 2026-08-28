@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-20/lecture20.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0275",
+      "anchor": "Lemma 20.2(5) the corresponding manifold theorem and dependent Worksheet 20 Exercises 11 and 16",
+      "change": "Require the pullback map to be twice continuously differentiable so the pulled-back positive-degree form is differentiable and d(d psi_i)=0 is defined."
+    },
+    {
+      "correction_id": "O011-CORR-0276",
+      "anchor": "chart-independence comparison",
+      "change": "Replace the malformed beta inverse superscript with the pullback by beta inverse."
+    },
+    {
+      "correction_id": "O011-CORR-0277",
+      "anchor": "definition of an exact form the Euclidean sufficiency statement and Worksheet 20 Exercise 14",
+      "change": "Restrict exact forms and the corresponding Euclidean statements to positive degree."
+    },
+    {
+      "correction_id": "O011-CORR-0278",
+      "anchor": "definition of the Euclidean half-space",
+      "change": "Apply the coordinate formula only in positive dimension and state the zero-dimensional one-point convention separately."
+    },
+    {
+      "correction_id": "O011-CORR-0279",
+      "anchor": "one-dimensional Euclidean half-space",
+      "change": "Correct the impossible closed endpoint at positive infinity to [0,infinity)."
+    },
+    {
+      "correction_id": "O011-TRANS-0282",
+      "anchor": "independent Unit 20 lecture and worksheet reader-language pass",
+      "change": "Apply admitted differentiability terminology and clarify coordinate images coordinate neighborhoods and worksheet syntax without changing the mathematics."
+    },
+    {
+      "correction_id": "O011-ACC-0284",
+      "anchor": "opening tangent-map display",
+      "change": "Move the sentence-ending period into the display macro so it does not render alone on a separate line."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-ACC-0284",
+      "surface": "protected:maabbdisp",
+      "index": 1,
+      "source_sha256": "438b91ad4e11f5d398ac9471511fa9e3dbe332b02fbfc56bca7c5bb51ca3643a",
+      "target_sha256": "4abd3a20085f404b98abb35636f9bbc0b80b970856fddc9ba92b259b9ed14167"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-CORR-0276",
+      "surface": "command:vergleichskettealignhandlinks",
+      "occurrence_index": 2,
+      "source_sha256": "8e7973b820636bc1d071c9b01a067fdae51ee3ef5b8595ac93edc01d8e0dfa00",
+      "target_sha256": "5f611493dea0c5691c0e342d3078758fd6488ca937d9edb7b3d0af6340f1e18a"
+    },
+    {
+      "correction_id": "O011-TRANS-0282",
+      "surface": "command:mathl",
+      "occurrence_index": 0,
+      "source_sha256": "317567aa661860937d560e78f161d8b9f8698d54348e0a7974527846ea884606",
+      "target_sha256": "fa3623693c0826a50004b3d7be5ccbe0f14a89c011f2cb5150d9b13fa042598e"
+    },
+    {
+      "correction_id": "O011-TRANS-0282",
+      "surface": "command:mathl",
+      "occurrence_index": 5,
+      "source_sha256": "a8ae350e639bac126fae910b81de52a97a02b89c54970aee729c37e64677bbfd",
+      "target_sha256": "5db0bfea653d18b6b0a8b5705ff5b84a34138580d33974b002ddb755a572fba4"
+    },
+    {
+      "correction_id": "O011-CORR-0277",
+      "surface": "command:mathl",
+      "occurrence_index": 6,
+      "source_sha256": "aa0345a4b8188072844bd9f0c0d4b98accb27e97708cd83b0e3078481ce0af06",
+      "target_sha256": "f22f6ae620a099e3a8b711dd5492236ec6af57ade4484d09f3e080f648ab46cd"
+    },
+    {
+      "correction_id": "O011-CORR-0279",
+      "surface": "command:mathl",
+      "occurrence_index": 7,
+      "source_sha256": "a545275903c956e22298103938768d9486e844cfcf50a6a31c84ecf4fc2d5b86",
+      "target_sha256": "636bf2d1d5e451b37f32e6546ae55fa0be5d800fcd449beabb4058a74cb11a69"
+    }
+  ]
+}

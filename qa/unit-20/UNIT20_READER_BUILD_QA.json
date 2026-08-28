@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "unit": 20,
+  "status": "pass",
+  "scope": "Bounded unit-only A4 reader build and visual QA; not a cumulative release artifact",
+  "driver": {
+    "path": "build/generated/unit20-qa-driver.tex",
+    "bytes": 2020,
+    "sha256": "de9cfc1a8aae20bd96341bb9bf31422ce68ee62894582eaf64e16eca5e718868"
+  },
+  "pdf": {
+    "path": "build/pdf/unit20-qa.pdf",
+    "bytes": 363565,
+    "sha256": "a5eff2cb30b006d4642d6dd7fdb32e5bc434930e8c77700e3a1bb4434e7f0498",
+    "pages": 16,
+    "page_size": "A4",
+    "wrapper_margins_mm": 22
+  },
+  "reproducibility": {
+    "method": "two independent three-pass pdflatex builds",
+    "second_pdf_bytes": 363565,
+    "second_pdf_sha256": "a5eff2cb30b006d4642d6dd7fdb32e5bc434930e8c77700e3a1bb4434e7f0498",
+    "byte_identical": true,
+    "second_build_artifact_retained": false
+  },
+  "final_log": {
+    "path": "build/pdf/unit20-qa-pass3.log",
+    "bytes": 10490,
+    "sha256": "cbb9e231bbf7ccc027666550ffca40011e48efb316d650bdafbabcd731381d4e",
+    "overfull_boxes": 0,
+    "underfull_boxes": 0,
+    "undefined_commands": 0,
+    "latex_or_package_warnings": 0
+  },
+  "visual_samples": [
+    {"page": 3, "sha256": "72765c2b8df327df0f4e972e7c924a256578bd3358e75da11d71013c805f83b2"},
+    {"page": 7, "sha256": "207c4d3916bad6e804ec989c1d728afdf688d622c70fdc3c3176dd4f426189da"},
+    {"page": 8, "sha256": "3a1a47b4e61fe04601098df20c08d98964316a2ed0664aa668fa61dff2b6ba20"},
+    {"page": 12, "sha256": "3ef4725d6a9190458cb7addd671134b6f801be83a7aab900549af2345d872905"},
+    {"page": 14, "sha256": "f73f2b6575fdb70c6d4e726fe878cdcf7f1191151bf44e86461aa3472a89bd3f"},
+    {"page": 15, "sha256": "d9ed42d61bb95e371bf505025b8ae6ef305b7333e5afb972e19719019d4b3a69"}
+  ],
+  "checks": {
+    "centered_text_block": true,
+    "no_clipping": true,
+    "no_orphan_display_punctuation": true,
+    "long_coordinate_tuple_reflowed": true,
+    "corrected_solution_20_7_visible": true,
+    "unfinished_solution_20_14_disclosed": true
+  }
+}

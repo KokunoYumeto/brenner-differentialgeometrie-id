@@ -1753,3 +1753,36 @@ SHA-256 values are
 `bbcde73c065cb6caf386a4053d26f90925443f3c44a9f3f3384bb35b553d32ee`,
 and `73d67138cd2e0a59f688b07b83624dff5b4d8bb45cedd1c532eacb9698e11d02`.
 Translation of the lecture, worksheet, and five supplied solutions is next.
+
+## D075 — Close the bounded Unit 20 translation and reader gate (2026-08-28)
+
+**Decision:** Admit the complete Indonesian Lecture 20 and Worksheet 20 pair,
+including all 24 exercises and exactly the five source-supplied solution pages,
+after protected-topology verification, independent mathematical and language
+review, explicit source-defect handling, zero-asset media closure, two
+byte-identical unit-only A4 builds, and visual inspection. Treat the Unit 20
+PDF as bounded QA evidence rather than a cumulative release; continue directly
+to Unit 21 and retain Units 20–22 as the next consolidated reader/backend/public
+checkpoint.
+
+**Source corrections:** Require twice-continuous differentiability wherever
+the source invokes exterior-derivative naturality on positive-degree forms;
+repair the malformed inverse-chart pullback; restrict exactness to positive
+degree; separate the zero-dimensional half-space convention; and correct the
+half-line endpoint. Repair Exercise 20.7's malformed ASCII solution with the
+explicit primitive. Preserve Exercise 20.14 as a visibly disclosed fragment
+because its source page is explicitly marked unfinished and its displayed
+candidate differentiates to minus `n` times the claimed form under its own
+assumptions. No defect is silent and no missing source solution is invented.
+
+**Evidence:** Lecture and worksheet SHA-256 values are
+`4f6b2af7f168bec59cb4c8a02bdb66ade520f7ab110098ed6b24ca4be9b98fb7`
+and `ccbae6a87a2e11d6cbcb076f27d16bb97c520ba5806a477a2d4b12fa5d9c3b9a`.
+Formal POST QA is 13,674 bytes with SHA-256
+`4f75d385d8613d71173f00855bc9270870bb2ad5ac51842bb806bed931763acf`;
+independent verification SHA-256 is
+`00eb96eea2afab16dedf6e021f25edb60c60183facd8299056ecd49b069ec73c`.
+The 16-page 363,565-byte A4 QA reader has SHA-256
+`a5eff2cb30b006d4642d6dd7fdb32e5bc434930e8c77700e3a1bb4434e7f0498`;
+its build/visual receipt SHA-256 is
+`35a584bde32c8d60db5088ba474a8ca2572bd82f93789d8fc0d425d3d946064f`.

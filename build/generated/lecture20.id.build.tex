@@ -1,0 +1,1332 @@
+\setcounter{section}{20}
+
+  \zwischenueberschrift{Turunan eksterior}
+
+Pada kuliah ini kita akan mengenal suatu objek matematika jenis baru, yang disebut turunan eksterior. Turunan ini merupakan konsep turunan yang mengubah bentuk diferensial berderajat $k$ menjadi bentuk diferensial berderajat
+\mathl{k+1}{.} Untuk bentuk diferensial berderajat $0$, yaitu suatu fungsi $f$, turunan eksterior yang bersesuaian hanyalah bentuk diferensial berderajat $1$, yaitu $df$, yang memasangkan pada setiap titik $P$
+\zusatzklammer {untuk ruang Euklides} {} {}
+diferensial total
+\maabbdisp {\left(Df\right)_{P}} { \R^n } { \R
+} {}
+atau
+\zusatzklammer {untuk suatu manifold $M$} {} {}
+pemetaan singgung
+\maabbdisp {T_P(f)} {T_PM} {\R
+} {.}
+
+Dalam kalkulus diferensial satu dimensi, fungsi dan turunannya atau antiturunannya merupakan objek sejenis
+\zusatzklammer {hal ini masih berlaku untuk kurva terdiferensialkan} {} {,}
+tetapi sejak diperkenalkannya diferensial total bagi suatu fungsi beberapa variabel, turunannya sudah merupakan objek yang secara mendasar berbeda dari fungsi itu sendiri. Turunan berarah tingkat tinggi memang dapat didefinisikan sepanjang arah-arah yang telah ditentukan dan kembali berupa fungsi, tetapi masing-masing hanya menangkap satu aspek parsial dari turunan fungsi, sedangkan diferensial total memuat seluruh informasinya.
+
+Perbedaan mendasar antara fungsi dan turunannya ini juga berkaitan dengan kenyataan bahwa, dalam dimensi lebih tinggi, kita belum membahas pertanyaan sebaliknya: turunan mana yang memiliki antiturunan. Suatu fungsi beberapa variabel tidak dapat memiliki antiturunan dalam pengertian ini; pertanyaan tersebut hanya bermakna bagi suatu bentuk diferensial-$1$
+\zusatzklammer {atau medan vektor yang bersesuaian} {} {.}
+Teorema Schwarz tentang dapat dipertukarkannya turunan berarah sudah memberikan suatu kriteria perlu yang penting bagi keberadaan antiturunan dari suatu bentuk diferensial-$1$.
+
+Pertanyaan tentang antiturunan atau bentuk primitif memperoleh kerangka alaminya dalam teori turunan eksterior. Selain itu, teori ini memungkinkan teorema Stokes dirumuskan secara ringkas. Turunan eksterior juga dapat digunakan untuk mengarakterisasi sifat-sifat topologis penting suatu manifold, walaupun hal tersebut jauh melampaui kuliah ini.
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{}
+dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{ k } (  U   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+$k$-\definitionsverweis {bentuk diferensial}{}{}
+yang \definitionsverweis {terdiferensialkan secara kontinu}{}{}
+dengan penyajian
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { \sum_{I \subseteq \{1 , \ldots , n \},\, { \# \left(   I  \right) } = k } f_I dx_I
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan
+\definitionsverweis {fungsi-fungsi yang terdiferensialkan secara kontinu}{}{}
+\maabbdisp {f_I} { U } {\R
+} {.}
+Maka bentuk diferensial berderajat $(k+1)$
+
+\mavergleichskettedisp
+{\vergleichskette
+{d \omega
+}
+{ =} { \sum_{I \subseteq \{1 , \ldots , n \},\,  { \# \left(   I  \right) } = k } df_I \wedge dx_I
+}
+{ =} { \sum_{I \subseteq \{1 , \ldots , n \},\,  { \# \left(   I  \right) } = k } \left(  \sum_{j = 1}^n { \frac{   \partial  f_I  }{  \partial   x_j   } } dx_j  \right)  \wedge dx_I
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+disebut \definitionswort {turunan eksterior}{} dari $\omega$.
+
+}
+
+Kadang-kadang kita menyebutnya secara lebih tepat sebagai turunan eksterior ke-$k$. Derajat keterdiferensialan bentuk diferensial tersebut berkurang sebesar $1$, sebagaimana dapat langsung dilihat dari fungsi-fungsi koefisiennya.
+
+Turunan eksterior relevan untuk
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ = }{ 0 , \ldots , n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sedangkan untuk
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ \geq }{ n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+pemetaan ini merupakan pemetaan nol. Jika kita membatasi diri pada bentuk-bentuk diferensial mulus, diperoleh suatu barisan turunan eksterior
+
+\mathdisp {C^\infty(U,\R) =
+{ \mathcal E }^{  0  }_{ \infty } (  U   ) \stackrel{d}{\longrightarrow}
+{ \mathcal E }^{  1  }_{ \infty } (  U   ) \stackrel{d}{\longrightarrow}
+{ \mathcal E }^{  2  }_{ \infty } (  U   ) \stackrel{d}{\longrightarrow} \ldots \stackrel{d}{\longrightarrow}
+{ \mathcal E }^{ n-1 }_{ \infty } (  U   ) \stackrel{d}{\longrightarrow}
+{ \mathcal E }^{  n  }_{ \infty } (  U   ) \stackrel{d}{\longrightarrow} 0} { . }
+
+Pada posisi pertama hanya terdapat turunan suatu fungsi
+\zusatzklammer {satu-satunya himpunan indeks dengan $0$ elemen adalah himpunan kosong} {} {,}
+yakni pemetaan
+\mathl{f \mapsto df}{.}
+
+Sifat-sifat terpenting turunan eksterior dirangkum sebagai berikut.
+
+
+\inputfaktbeweis
+{Differentialform/Offene Menge/Äußere Ableitung/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan misalkan
+\maabbeledisp {d} {
+{ \mathcal E }^{  k  }_{ 1 } (  U   ) } {
+{ \mathcal E }^{ k+1 }_{ 0 } (  U   )
+} { \omega} { d \omega
+} {,}
+adalah
+\definitionsverweis {turunan eksterior}{}{.}}
+\faktuebergang {Maka berlaku sifat-sifat berikut.}
+\faktfolgerung {\aufzaehlungfuenf{Turunan eksterior
+\maabbdisp {d} {
+{ \mathcal E }^{  0  }_{ 1 } (  U   ) } {
+{ \mathcal E }^{  1  }_{ 0 } (  U   )
+} {,}
+adalah
+\definitionsverweis {diferensial total}{}{.}
+}{Turunan eksterior bersifat
+$\R$-\definitionsverweis {linear}{}{.}
+}{Untuk
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{  k  }_{ 1 } (  U   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \tau
+}
+{ \in }{
+{ \mathcal E }^{  \ell }_{ 1 } (  U   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku aturan hasil kali
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d( \omega \wedge \tau)
+}
+{ =} {( d \omega) \wedge \tau  + (-1)^k \omega  \wedge  (d \tau)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Untuk
+
+\mavergleichskette
+{\vergleichskette
+{k
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+hal ini dibaca sebagai
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d( f \tau)
+}
+{ =} {( d f) \wedge \tau  +  f  d \tau
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+}{Untuk setiap bentuk diferensial yang dua kali terdiferensialkan secara kontinu, $\omega$,
+
+\mavergleichskette
+{\vergleichskette
+{ d(d \omega)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Untuk suatu
+\definitionsverweis {pemetaan yang dua kali terdiferensialkan secara kontinu}{}{}
+\zusatzklammer {dengan
+
+\mavergleichskettek
+{\vergleichskettek
+{ W
+}
+{ \subseteq \R^m }{}
+{  }{}
+{    }{}
+{   }{}
+}
+{}{}{}
+terbuka} {} {}
+\maabbdisp {\psi} { W } { U
+} {}
+dan setiap
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{  k  }_{ 1 } (  U   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku bagi
+\definitionsverweis {bentuk diferensial tarik balik}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{d (\psi^* \omega)
+}
+{ =} { \psi^* (d \omega)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{(1) langsung mengikuti definisi
+\zusatzklammer {himpunan kosong adalah satu-satunya himpunan indeks yang relevan} {} {.}}
+{}
+\teilbeweis {}{}{}
+{(2). Linearitas langsung mengikuti definisi,
+linearitas
+dari
+\definitionsverweis {diferensial total}{}{}
+dan
+\definitionsverweis {multilinearitas}{}{}
+dari
+\definitionsverweis {produk eksterior}{}{.}}
+{}
+
+\teilbeweis {}{}{}
+{(3). Misalkan
+\mathl{x_1 , \ldots , x_n}{} koordinat-koordinat pada $\R^n$. Berkat linearitas $d$ dan
+multilinearitas produk eksterior,
+kedua bentuk diferensial dapat ditulis sebagai
+\mathkor {} {\omega=f dx_I} {dan} {\tau=g dx_J} {}
+dengan himpunan indeks
+\mathkor {} {I=\{i_1 , \ldots , i_k\}} {dan} {J=\{ j_1 , \ldots , j_\ell \}} {.}
+Maka
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ d( \omega \wedge \tau)
+}
+{ =} { d \left(  fdx_I \wedge gdx_J  \right)
+}
+{ =} { d \left(  (f g) dx_I \wedge dx_J  \right)
+}
+{ =} { \sum_{s = 1}^n { \frac{   \partial  (fg)  }{  \partial   x_s  } }  dx_s  \wedge  dx_I  \wedge dx_J
+}
+{ =} { \sum_{s = 1}^n \left(  g { \frac{   \partial   f   }{  \partial   x_s  } } + f { \frac{   \partial   g   }{  \partial   x_s  } }  \right)  dx_s \wedge  dx_I  \wedge dx_J
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \sum_{s = 1}^n  g { \frac{   \partial   f   }{  \partial   x_s  } } dx_s \wedge  dx_I \wedge dx_J + \sum_{s = 1}^n  f { \frac{   \partial   g   }{  \partial   x_s  } }  dx_s \wedge  dx_I  \wedge dx_J
+}
+{ =} { \sum_{s = 1}^n  { \frac{   \partial   f   }{  \partial   x_s  } } dx_s \wedge  dx_I \wedge gdx_J + \sum_{s = 1}^n  { \frac{   \partial   g   }{  \partial   x_s  } }  dx_s \wedge f dx_I \wedge dx_J
+}
+{ =} { d(fdx_I ) \wedge g dx_J  + \sum_{s = 1}^n (-1)^k  f dx_I \wedge { \frac{   \partial   g   }{  \partial   x_s  } }  dx_s \wedge dx_J
+}
+{ =} { d(fdx_I ) \wedge g dx_J + (-1)^k  f dx_I \wedge  d( g dx_J)
+}
+}
+{}{.}}
+{}
+
+\teilbeweis {}{}{}
+{(4). Untuk suatu bentuk-$1$
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ \sum_{j = 1}^n g_jdx_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan menggunakan
+
+\mavergleichskette
+{\vergleichskette
+{ dx_i \wedge dx_j
+}
+{ = }{ -dx_j \wedge dx_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+diperoleh
+
+\mavergleichskettealign
+{\vergleichskettealign
+{d \omega
+}
+{ =} { \sum_{j = 1 }^n  d(g_j dx_j)
+}
+{ =} { \sum_{j = 1 }^n   \left(  \sum_{i = 1}^n { \frac{   \partial  g_j   }{  \partial   x_i   } } dx_i \wedge dx_j  \right)
+}
+{ =} { \sum _{1 \leq i <j\leq n} \left(  { \frac{   \partial  g_j   }{  \partial   x_i   } } - { \frac{   \partial  g_i   }{  \partial   x_j   } }  \right) dx_i \wedge dx_j
+}
+{ } {
+}
+}
+{}
+{}{.}
+Untuk fungsi $f$ yang dua kali terdiferensialkan secara kontinu,
+
+\mavergleichskette
+{\vergleichskette
+{ df
+}
+{ = }{ \sum_{j = 1}^n g_j dx_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan
+\definitionsverweis {turunan parsial}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ g_j
+}
+{ = }{ { \frac{   \partial   f   }{  \partial   x_j   } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+sehingga
+
+\mavergleichskette
+{\vergleichskette
+{ d(df)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+menurut
+teorema Schwarz.
+
+Untuk bentuk diferensial berderajat $k$, kita mengambil
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ f dx_{i_1 } \wedge \ldots \wedge dx_{i_k }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan memperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d(d \omega)
+}
+{ =} { d (df \wedge  dx_{i_1 } \wedge \ldots \wedge dx_{i_k })
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Menurut aturan hasil kali (3), ungkapan ini merupakan jumlah dari
+\mathl{k+1}{} produk eksterior; pada setiap produk itu, salah satu \anfuehrung{faktor produk-eksterior}{} berbentuk
+
+\mavergleichskette
+{\vergleichskette
+{ d(dg)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+{}
+
+\teilbeweis {}{}{}
+{(5). Kita tulis
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \psi_i
+}
+{ =} { x_i \circ \psi
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Berkat linearitas turunan eksterior (2) dan
+linearitas penarikan balik bentuk diferensial,
+kita dapat mengambil
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ f dx_I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ = }{ \{i_1 , \ldots , i_k\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Menurut
+Soal 14.13
+dan
+Soal 14.16,
+penarikan balik serasi dengan perkalian oleh fungsi skalar dan dengan produk eksterior. Dengan menggunakan aturan hasil kali (3), aturan (4), dan
+aturan rantai
+\zusatzklammer {dalam pengertian
+Soal 14.14} {} {,}
+diperoleh
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ d \left(  \psi^* \omega  \right)
+}
+{ =} { d \left(  \psi^* \left(  f dx_{i_1 } \wedge \ldots \wedge dx_{i_k }  \right)   \right)
+}
+{ =} { d \left(  \psi^*(f)  \psi^* \left(  dx_{i_1 } \wedge \ldots \wedge dx_{i_k }  \right)  \right)
+}
+{ =} { d \left(  \psi^*(f) \left(  \psi^* dx_{i_1 }  \right) \wedge \ldots \wedge \left(  \psi^* dx_{i_k }  \right)  \right)
+}
+{ =} { d \left(  \psi^*(f)  d \psi_{i_1 } \wedge \ldots \wedge d\psi_{i_k }  \right)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { d \left(  \psi^*(f)  \right) \wedge \left(  d \psi_{i_1 } \wedge \ldots \wedge d\psi_{i_k }   \right) + (\psi^*(f))  d \left(  d \psi_{i_1 } \wedge \ldots \wedge d\psi_{i_k }  \right)
+}
+{ =} { d \left(  \psi^*(f)  \right)  \wedge \left(  d \psi_{i_1 } \wedge \ldots \wedge d\psi_{i_k }  \right)
+}
+{ =} { \psi^* (df)  \wedge  d \psi_{i_1 } \wedge \ldots \wedge d\psi_{i_k }
+}
+{ =} { \psi^* ( df) \wedge \psi^*\left(  d x_{i_1 }  \right) \wedge \ldots \wedge \psi^*\left(  d x_{i_k }  \right)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \psi^* \left(  df \wedge  d x_{i_1 } \wedge \ldots \wedge d x_{i_k }  \right)
+}
+{ =} { \psi^* \left(  d \left(  f d x_{i_1 } \wedge \ldots \wedge d x_{i_k }  \right)   \right)
+}
+{ } {}
+{ } {}
+}{.}}
+{}
+
+}
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{.}
+Untuk suatu
+\definitionsverweis {bentuk diferensial}{}{}
+\definitionsverweis {terdiferensialkan}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{  k  }_{ 1 } (  M   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kita definisikan \definitionswort {turunan eksterior}{}
+
+\mavergleichskette
+{\vergleichskette
+{ d\omega
+}
+{ \in }{
+{ \mathcal E }^{ k+1 }_{ 0 } (  M   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan mengacu pada
+\definitionsverweis {kasus lokal}{}{}
+dan peta-peta
+\maabbdisp {\alpha} { U } { V
+} {}
+\zusatzklammer {dengan
+\mavergleichskettek
+{\vergleichskettek
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettek
+{\vergleichskettek
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka} {} {}
+melalui
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (d \omega){{|}}_U
+}
+{ =} { d \left(  \omega{{|}}_U  \right)
+}
+{ =} { \alpha^* \left(  d \left(  \alpha^{-1 *} \left(  \omega {{|}}_U  \right)  \right)  \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+Jadi, bentuk diferensial yang dibatasi pada $U$ ditarik balik ke $V$, turunan eksteriornya diambil di sana sesuai aturan lokal, lalu hasilnya ditarik balik ke $U$. Kita perlu memastikan bahwa prosedur ini menghasilkan bentuk diferensial yang terdefinisi dengan baik pada $M$: untuk suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+hasil turunan eksterior tidak bergantung pada lingkungan koordinat yang digunakan. Misalkan diberikan dua peta untuk $P$; kita dapat langsung menganggap bahwa keduanya mempunyai domain definisi yang sama, yaitu $U$. Misalkan peta-peta itu
+\maabbdisp {\alpha} { U } { V
+} {}
+dan
+\maabbdisp {\beta} { U } { W
+} {}
+dan kita tetapkan
+
+\mavergleichskette
+{\vergleichskette
+{\tau
+}
+{ = }{ \omega  \vert_U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dengan menerapkan
+Lema 20.2 (5)
+pada
+\mathl{\alpha \circ \beta^{-1}}{} dan
+\mathl{\alpha^{-1*} \tau}{,}
+kita memperoleh
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \beta^* \left(  d \left(  \beta^{-1*}(\tau)  \right)   \right)
+}
+{ =} { \left(  \beta \circ \alpha^{-1} \circ \alpha  \right)^* \left(  d \left(  \left(  \alpha^{-1} \circ \alpha  \circ \beta^{-1}  \right)^* (\tau )  \right)   \right)
+}
+{ =} {\alpha^* \left(  \beta \circ \alpha^{-1}  \right)^* \left(  d \left(  \left(  \alpha  \circ  \beta^{-1}  \right)^*  \alpha^{-1*} (\tau)  \right)   \right)
+}
+{ =} {\alpha^* \left(  d \left(  \alpha^{-1*}( \tau)  \right)   \right)
+}
+{ } {}
+}
+{}
+{}{.}
+
+Sifat-sifat dasar di atas juga terbawa ke manifold.
+
+
+\inputfaktbeweis
+{Differentialform/Mannigfaltigkeit/Äußere Ableitung/Eigenschaften/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan misalkan
+\maabbeledisp {d} {
+{ \mathcal E }^{  k  }_{ 1 } (  M   ) } {
+{ \mathcal E }^{ k+1 }_{ 0 } (  M   )
+} { \omega} { d \omega
+} {,}
+adalah
+\definitionsverweis {turunan eksterior}{}{.}}
+\faktuebergang {Maka berlaku sifat-sifat berikut.}
+\faktfolgerung {\aufzaehlungfuenf{Turunan eksterior
+\maabbdisp {d} {
+{ \mathcal E }^{  0  }_{ 1 } (  M   ) } {
+{ \mathcal E }^{  1  }_{ 0 } (  M   )
+} {,}
+adalah
+\definitionsverweis {pemetaan singgung}{}{.}
+}{Turunan eksterior bersifat
+$\R$-\definitionsverweis {linear}{}{.}
+}{Untuk
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{  k  }_{ 1 } (  M   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \tau
+}
+{ \in }{
+{ \mathcal E }^{  \ell }_{ 1 } (  M   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku aturan hasil kali
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d( \omega \wedge \tau)
+}
+{ =} { ( d \omega) \wedge \tau  + (-1)^k \omega \wedge d \tau
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+}{Untuk setiap bentuk diferensial yang dua kali terdiferensialkan secara kontinu, $\omega$,
+
+\mavergleichskette
+{\vergleichskette
+{ d(d \omega)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Misalkan $L$ suatu manifold diferensiabel lainnya. Untuk suatu
+\definitionsverweis {pemetaan yang dua kali terdiferensialkan secara kontinu}{}{}
+\maabbdisp {\psi} { L } { M
+} {}
+dan setiap
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{  k  }_{ 1 } (  M   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku bagi
+\definitionsverweis {bentuk diferensial tarik balik}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d (\psi^* \omega)
+}
+{ =} { \psi^* (d \omega)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Semua pernyataan ini bersifat lokal, sehingga langsung diperoleh dari
+Lema 20.2.
+
+}
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{.}
+Suatu
+\definitionsverweis {bentuk diferensial}{}{}
+\definitionsverweis {terdiferensialkan}{}{}
+$\omega$ pada $M$ disebut \definitionswort {tertutup}{,} jika
+\definitionsverweis {turunan eksterior}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ d \omega
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{.}
+Untuk derajat positif, suatu
+$k$-\definitionsverweis {bentuk diferensial}{}{}
+$\omega$ pada $M$, disebut \definitionswort {eksak}{,} jika terdapat suatu bentuk diferensial yang
+\definitionsverweis {terdiferensialkan}{}{}
+dan berderajat \mathl{(k-1)}{}, yang kita nyatakan dengan $\sigma$, pada $M$ sedemikian sehingga
+
+\mavergleichskette
+{\vergleichskette
+{ d \sigma
+}
+{ = }{ \omega
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+
+Jadi, bentuk diferensial eksak adalah bentuk diferensial berderajat positif yang memiliki suatu \stichwort {bentuk primitif} {} $\sigma$. Dengan istilah-istilah ini, pernyataan di atas
+
+\mavergleichskette
+{\vergleichskette
+{ dd
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dapat dirumuskan dengan mengatakan bahwa setiap bentuk eksak adalah tertutup. Jadi, sifat tertutup merupakan syarat perlu bagi keberadaan suatu bentuk primitif. Tanpa bukti, kita catat bahwa untuk bentuk berderajat positif kriteria perlu ini juga cukup pada $\R^n$. Namun, ekuivalensi tersebut sama sekali tidak berlaku pada setiap manifold.
+
+  \zwischenueberschrift{Setengah ruang Euklides}
+
+\inputdefinition
+{}
+{
+
+Dalam dimensi positif, yang dimaksud dengan \definitionswort {setengah ruang Euklides}{} dengan
+\definitionswort {dimensi}{} $n$ adalah himpunan
+
+\mavergleichskettedisp
+{\vergleichskette
+{H
+}
+{ =} { \left\{  x \in \R^n   \mid   x_1 \geq 0        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan
+\definitionsverweis {topologi terinduksi}{}{.}
+
+}
+Untuk
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kita gunakan konvensi bahwa setengah ruang Euklides berupa satu titik; untuk
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+himpunan ini berupa interval
+\mathl{[0, \infty)}{;} untuk
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ = }{ 2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+himpunan ini merupakan suatu \stichwort {setengah bidang} {;} dan untuk
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ = }{ 3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+himpunan ini merupakan suatu setengah ruang. Jika indeks koordinat $1$ diganti dengan indeks lain, atau \anfuehrung{$\leq$}{} digunakan sebagai ganti \anfuehrung{$\geq$ }{,} objek-objek ini juga disebut setengah ruang. Karena suatu setengah ruang $H$ tertutup dalam $\R^n$, suatu himpunan bagian
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+tertutup di $H$ jika dan hanya jika ia tertutup di $\R^n$. Ekuivalensi ini
+\betonung{tidak}{} berlaku untuk himpunan terbuka. Sebagai contoh, seluruh ruang $H$ terbuka di $H$, tetapi tidak terbuka di $\R^n$. Himpunan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial H
+}
+{ =} { \left\{  x \in \R^n   \mid   x_1 = 0        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+merupakan bagian dari $H$ dan disebut \stichwort {batas} {} dari $H$. Batas ini homeomorfik dengan $\R^{n-1}$
+\zusatzklammer {yang untuk $n=0$ harus ditafsirkan sebagai himpunan kosong} {} {.}
+Dengan $H_+$ kita nyatakan bagian positif
+
+\mavergleichskette
+{\vergleichskette
+{ H_+
+}
+{ = }{ \left\{  x \in \R^n   \mid   x_1 >0        \right\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang merupakan himpunan bagian terbuka dari $\R^n$.
+
+Setengah ruang merupakan model standar bagi manifold berbatas yang akan kita perkenalkan sekarang. Konsep ini memperumum konsep manifold. Contoh khas manifold berbatas adalah bola pejal tertutup; batasnya adalah sfer. Suatu titik di interior bola mempunyai lingkungan berupa bola terbuka yang lebih kecil, sehingga di sekitar titik itu bentuknya \anfuehrung{secara lokal}{} seperti $\R^3$. Titik pada batas bola tidak mempunyai lingkungan seperti itu: batasnya hadir dalam setiap lingkungan terbuka titik tersebut. Secara lokal, titik batas demikian tampak seperti titik batas suatu setengah ruang Euklides.
+
+Citra koordinat peta-peta suatu manifold berbatas berupa himpunan-himpunan terbuka di dalam setengah ruang. Karena itu, untuk membahas pemetaan transisi, kita harus dapat berbicara tentang pemetaan diferensiabel yang didefinisikan pada setengah ruang. Definisi berikut memungkinkan hal tersebut.
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {himpunan bagian terbuka}{}{}
+di dalam
+\definitionsverweis {setengah ruang Euklides}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ H
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu titik, dan misalkan
+\maabbdisp {\varphi} { U } {\R^m
+} {}
+suatu
+\definitionsverweis {pemetaan}{}{.}
+Maka $\varphi$ disebut \definitionswort {terdiferensialkan secara kontinu}{} di $P$ jika terdapat suatu lingkungan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ V
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan suatu fungsi
+\definitionsverweis {terdiferensialkan secara kontinu}{}{}
+\maabbdisp {\tilde{\varphi}} { V } {\R^m
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \tilde{\varphi} {{|}}_{U \cap V}
+}
+{ = }{\varphi {{|}}_{U \cap V}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+Jadi, konsep keterdiferensialan yang baru direduksi ke konsep lama. Untuk suatu himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang tidak memotong batas $H$, definisi ini ekuivalen dengan definisi bagi suatu himpunan terbuka di $\R^n$.
+
+Melalui strategi mendefinisikan konsep-konsep pada titik batas dengan mensyaratkan adanya lingkungan terbuka dan objek yang diperluas, banyak konsep penting terbawa ke situasi baru yang lebih umum ini; kita tidak akan selalu menguraikannya satu per satu. Sebagai contoh, sudah jelas apa yang dimaksud dengan \stichwort {difeomorfisme} {} antara himpunan-himpunan terbuka di dalam setengah ruang, serta apa yang dimaksud dengan diferensial total suatu pemetaan diferensiabel. Dengan latar ini, definisi manifold berbatas juga tidak mengejutkan.

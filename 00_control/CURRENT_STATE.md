@@ -2,7 +2,7 @@
 
 Updated: 2026-08-28 (Europe/Berlin)
 
-## Current verified boundary — Unit 19 public; Unit 20 authority frozen
+## Current verified boundary — Unit 19 public; Unit 20 translated and bounded-QA complete
 
 Units 1–19 now pass the complete local reader and additive-backend gate. The
 current centered A4 PDF is 302 pages and 7,740,452 bytes, SHA-256
@@ -68,7 +68,7 @@ GitHub's API exposes the assets in deterministic filename order even though
 they were uploaded PDF-first; the release notes explicitly identify the PDF as
 the primary reader.
 
-Unit 20 is now exactly frozen and independently offline-verified. Lecture 20 is
+Unit 20 is exactly frozen and independently offline-verified. Lecture 20 is
 pageid/revision `142564 / 991598`, with sanitized expanded-source SHA-256
 `6af7e41e240899c1866ff6c6904984c6eb5d3b436b47f07068cb4d29e40e1768`;
 Worksheet 20 is `142654 / 906457`, SHA-256
@@ -82,9 +82,37 @@ live-current-revision receipt SHA-256 values are
 `9a4c9d9e871406ce0629fad3ef7193df99aadb790b445fce961aac6654147324`,
 `bbcde73c065cb6caf386a4053d26f90925443f3c44a9f3f3384bb35b553d32ee`,
 and `73d67138cd2e0a59f688b07b83624dff5b4d8bb45cedd1c532eacb9698e11d02`.
-The next executable action is the source-ordered Indonesian translation of the
-lecture, worksheet, and those five supplied solutions. The full O011 goal
-remains unfinished.
+The complete Indonesian Unit 20 target now passes its bounded translation,
+mathematical, structural, terminology, media, deterministic-build, and visual
+gates. The final lecture and worksheet are 25,211 and 9,695 bytes with SHA-256
+`4f6b2af7f168bec59cb4c8a02bdb66ade520f7ab110098ed6b24ca4be9b98fb7`
+and `ccbae6a87a2e11d6cbcb076f27d16bb97c520ba5806a477a2d4b12fa5d9c3b9a`.
+All 24 exercises remain in source order with the exact 19/5 practice/graded
+split and 22 points. The five source-supplied solution pages remain attached
+only to Exercises 3, 4, 5, 7, and 14. Exercise 7's malformed ASCII solution is
+transparently repaired; Exercise 14's source page is explicitly marked
+unfinished and is preserved as a visibly disclosed fragment rather than
+misrepresented as a complete proof.
+
+The ten explicit Unit 20 records `O011-CORR-0275` through `O011-ACC-0284`
+at their recorded noncontiguous IDs close the pullback regularity hypotheses,
+inverse-chart pullback notation, positive-degree exactness domain,
+zero-dimensional half-space convention, half-line interval, two defective
+source solutions, terminology, and two A4 reflows. The 13,674-byte formal POST
+QA has SHA-256
+`4f75d385d8613d71173f00855bc9270870bb2ad5ac51842bb806bed931763acf`;
+its independent binding receipt has SHA-256
+`00eb96eea2afab16dedf6e021f25edb60c60183facd8299056ecd49b069ec73c`.
+
+The bounded unit-only reader is 16 centered A4 pages and 363,565 bytes with
+SHA-256
+`a5eff2cb30b006d4642d6dd7fdb32e5bc434930e8c77700e3a1bb4434e7f0498`.
+Two independent three-pass builds are byte-identical; the final log has no
+overfull/underfull boxes, undefined commands, or LaTeX/package warnings. This
+is QA evidence rather than a new cumulative public release. The next
+executable action is the exact Unit 21 authority freeze and source-ordered
+translation; the next consolidated PDF/HTML/backend/publication boundary
+remains Units 20–22. The full O011 goal remains unfinished.
 
 ## Objective
 

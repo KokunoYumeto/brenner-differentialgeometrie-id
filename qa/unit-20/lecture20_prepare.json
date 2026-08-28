@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-20/lecture20.id.tex",
+  "input_bytes": 25211,
+  "input_sha256": "4f6b2af7f168bec59cb4c8a02bdb66ade520f7ab110098ed6b24ca4be9b98fb7",
+  "output": "build/generated/lecture20.id.build.tex",
+  "output_bytes": 24401,
+  "output_sha256": "e3bd644b8e654c3056960748cecabdecc9a07fe67a67a0d5d3237664556c7895",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 2,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Differenzierbarkeit/K/Summe differenzierbarer Abbildungen ist differenzierbar/Fakt",
+      "label": "linearitas"
+    },
+    {
+      "target": "Dachprodukt/Algebrastruktur/Eigenschaften/Fakt",
+      "label": "multilinearitas produk eksterior"
+    },
+    {
+      "target": "Differenzierbarkeit/Satz von Schwarz/Fakt",
+      "label": "teorema Schwarz"
+    },
+    {
+      "target": "Mannigfaltigkeit/Differenzierbare Abbildung/Zurückziehen von Differentialformen/Elementare Eigenschaften/Fakt",
+      "label": "linearitas penarikan balik bentuk diferensial"
+    },
+    {
+      "target": "Zurückziehen von Differentialformen/Verträglichkeit mit skalarer Funktion/Aufgabe",
+      "label": "Soal 14.13"
+    },
+    {
+      "target": "Zurückziehen von Differentialformen/Dachprodukt/Aufgabe",
+      "label": "Soal 14.16"
+    },
+    {
+      "target": "Totale Differenzierbarkeit/K/Kettenregel/Fakt",
+      "label": "aturan rantai"
+    },
+    {
+      "target": "Kettenregel/Verträglichkeit von Ableitung und Zurückziehen von Funktion und Differentialform/Aufgabe",
+      "label": "Soal 14.14"
+    },
+    {
+      "target": "Differentialform/Offene Menge/Äußere Ableitung/Eigenschaften/Fakt",
+      "label": "Lema 20.2 (5)"
+    },
+    {
+      "target": "Differentialform/Offene Menge/Äußere Ableitung/Eigenschaften/Fakt",
+      "label": "Lema 20.2"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

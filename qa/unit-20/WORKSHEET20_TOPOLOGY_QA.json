@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "unit": 20,
+  "status": "pass",
+  "target": {
+    "path": "source/units/unit-20/worksheet20.id.tex",
+    "bytes": 9695,
+    "sha256": "ccbae6a87a2e11d6cbcb076f27d16bb97c520ba5806a477a2d4b12fa5d9c3b9a"
+  },
+  "exercise_count": 24,
+  "practice_exercise_count": 19,
+  "graded_exercise_count": 5,
+  "graded_exercise_indices": [
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "graded_point_values": [
+    3,
+    3,
+    5,
+    5,
+    6
+  ],
+  "point_total": 22,
+  "all_hint_fields_blank": true,
+  "supplied_solution_indices": [
+    3,
+    4,
+    5,
+    7,
+    14
+  ],
+  "checks": {
+    "exercise_sequence_preserved": true,
+    "point_values_preserved": true,
+    "blank_hint_layer_preserved": true,
+    "source_solution_markers_match_frozen_closure": true,
+    "no_missing_solution_invented": true
+  }
+}

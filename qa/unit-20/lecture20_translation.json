@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "source": "authority/expanded/lecture20_source.de.tex",
+  "source_bytes": 25013,
+  "source_sha256": "6af7e41e240899c1866ff6c6904984c6eb5d3b436b47f07068cb4d29e40e1768",
+  "target": "source/units/unit-20/lecture20.id.tex",
+  "target_bytes": 25211,
+  "target_sha256": "4f6b2af7f168bec59cb4c8a02bdb66ade520f7ab110098ed6b24ca4be9b98fb7",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 740,
+    "environments": 0,
+    "inline_math": 66,
+    "display_math": 0,
+    "protected_calls": 74
+  },
+  "status": "pass",
+  "failures": [],
+  "declared_corrections": [
+    "O011-ACC-0284",
+    "O011-CORR-0276",
+    "O011-TRANS-0282",
+    "O011-CORR-0277",
+    "O011-CORR-0279"
+  ],
+  "evidence_only_results": [
+    {
+      "correction_id": "O011-CORR-0276",
+      "surface": "command:vergleichskettealignhandlinks",
+      "occurrence_index": 2,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0282",
+      "surface": "command:mathl",
+      "occurrence_index": 0,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-TRANS-0282",
+      "surface": "command:mathl",
+      "occurrence_index": 5,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0277",
+      "surface": "command:mathl",
+      "occurrence_index": 6,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0279",
+      "surface": "command:mathl",
+      "occurrence_index": 7,
+      "status": "pass",
+      "detail": "verified"
+    }
+  ]
+}
