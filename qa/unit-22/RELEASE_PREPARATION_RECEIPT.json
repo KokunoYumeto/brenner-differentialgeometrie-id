@@ -1,0 +1,320 @@
+{
+  "coverage": "active_partial_through_unit_22",
+  "deterministic_archives": {
+    "html": {
+      "archive_bytes": 7301411,
+      "archive_sha256": "9e6782f535d3299c959d76f903bf74fb5593a560d0f2126349aa4f65c64dcdcc",
+      "crc_and_identity_verified": true,
+      "encrypted_members": 0,
+      "entries": 40,
+      "reproducible_second_serialization": true,
+      "timestamps_normalized": true,
+      "uncompressed_bytes": 10498912
+    },
+    "source": {
+      "archive_bytes": 56860936,
+      "archive_sha256": "8f85344d1fd91d709534b15b960ddaac16aaddfc2f5d6fb62cba802a99898f83",
+      "crc_and_identity_verified": true,
+      "encrypted_members": 0,
+      "entries": 904,
+      "reproducible_second_serialization": true,
+      "timestamps_normalized": true,
+      "uncompressed_bytes": 76178952
+    },
+    "status": "pass"
+  },
+  "deterministic_zip_timestamp": [
+    2026,
+    8,
+    28,
+    0,
+    0,
+    0
+  ],
+  "excluded": [
+    "raw provenance dumps and caches",
+    "private locators and credentials",
+    "temporary page renders, contact sheets, diagnostics, and duplicate builds",
+    "remote publication receipts not yet created"
+  ],
+  "files": [
+    {
+      "bytes": 9046717,
+      "filename": "geometri-diferensial-manifold-mulus-hingga-unit-22-id.pdf",
+      "md5": "b6340f3b217bae1b86c276db2c30082c",
+      "sha256": "4e6c03dc8388a4c10c464d939d5a416ab035c52e3bd233212c78a40617e02cf7"
+    },
+    {
+      "bytes": 7301411,
+      "filename": "geometri-diferensial-manifold-mulus-unit22-html-20260828.zip",
+      "md5": "1854747c69b3201510ffeffc438d313c",
+      "sha256": "9e6782f535d3299c959d76f903bf74fb5593a560d0f2126349aa4f65c64dcdcc"
+    },
+    {
+      "bytes": 56860936,
+      "filename": "geometri-diferensial-manifold-mulus-unit22-source-20260828.zip",
+      "md5": "26e621d3862c86770c6a0b800c7e1b76",
+      "sha256": "8f85344d1fd91d709534b15b960ddaac16aaddfc2f5d6fb62cba802a99898f83"
+    },
+    {
+      "bytes": 2034,
+      "filename": "LICENSE.md",
+      "md5": "b9649c1081666bfe3707c40948c84d20",
+      "sha256": "eac2f6fd61f648a576e2e38c4d5ad0603b4c95423763e6ac2ed6f5a80b35025b"
+    },
+    {
+      "bytes": 2627,
+      "filename": "RELEASE_NOTES_UNIT22_20260828.md",
+      "md5": "9311fa9ad2d65572ac800e87b28647c7",
+      "sha256": "e13dc7d8757f978db980b809df3aeca2bbc2bfc5d892d7b9e41c29d7657f8b4a"
+    },
+    {
+      "bytes": 1535,
+      "filename": "FILE_MANIFEST.json",
+      "md5": "e7fdebab53e50338d54baa9a365ea4aa",
+      "sha256": "676c87301bf3e60a4f61ec8c51c37040b102474eb3759caf54af57e401b703ae"
+    },
+    {
+      "bytes": 641,
+      "filename": "SHA256SUMS.txt",
+      "md5": "761f0e55c1ea64c5a3a50173b6db2547",
+      "sha256": "4742a29ec1858eaea60ff385d1dfe4807300256264fda0a7c6984a98113d49e1"
+    }
+  ],
+  "input_bindings": {
+    "backend_manifest": {
+      "bytes": 26677,
+      "path": "backend/MANIFEST.json",
+      "sha256": "43d190abeb2321fc06b10e882699ba8838488dbde4357cac586146c645b0886f"
+    },
+    "backend_qa": {
+      "bytes": 4457,
+      "path": "qa/unit-22/backend.json",
+      "sha256": "cac8c90df35816902c873aa73dfcfd24f077e93412c3ade526b119493a4d3330"
+    },
+    "backend_records_csv": {
+      "bytes": 987360,
+      "path": "backend/records.csv",
+      "sha256": "8bc81cbe634cb94f71640d1f5fd5e4c7a7697647f3a21b4ea161cb18c031d34b"
+    },
+    "backend_records_jsonl": {
+      "bytes": 2672207,
+      "path": "backend/records.jsonl",
+      "sha256": "448982cccc2f7c21e275faae1314f3ef6731f6ba36c939035b295dcc7b3d195a"
+    },
+    "build_qa": {
+      "bytes": 233556,
+      "path": "qa/unit-22/build.json",
+      "sha256": "68aacdf979f81c432a62dd9cebf2d4bab8e017cc03cde60d60532aaa99e6312d"
+    },
+    "coverage": {
+      "backend_corrections": 282,
+      "backend_records": 4324,
+      "exercises": 457,
+      "pdf_pages": 345,
+      "source_supplied_solutions": 64,
+      "units": 22
+    },
+    "durable_controls": {
+      "current_state": {
+        "bytes": 55887,
+        "path": "00_control/CURRENT_STATE.md",
+        "sha256": "a0f156b4be691ca2ffcc8a24cc56626f125bae04d792c919b45e1c65cc7b997c"
+      },
+      "cursor": {
+        "bytes": 65730,
+        "path": "00_control/CURSOR.json",
+        "sha256": "edc8fcc7382554e8c9ee948c6a0666c7fd61f3ef0156dbf390f7c28895d1669c"
+      },
+      "decision_log": {
+        "bytes": 128323,
+        "path": "00_control/DECISION_LOG.md",
+        "sha256": "89598d0704ffe256c9910e755966bc092e53d37376327b59d81ca08ffa0f22c3"
+      },
+      "unit23_next_action_recorded": true
+    },
+    "html_browser_qa": {
+      "bytes": 5748,
+      "path": "qa/unit-22/HTML_BROWSER_QA.json",
+      "sha256": "57b9b785277df2873631b61f85de34a3ce12e0916dfb264bd404e9a9060fc212"
+    },
+    "html_entry": {
+      "bytes": 1525348,
+      "path": "output/html/unit-22/index.html",
+      "sha256": "260d16445fabffa3f3225c6c97c9727e2215378a29d5ad8d9e352d8adc5d5cd5"
+    },
+    "html_manifest": {
+      "bytes": 152234,
+      "path": "output/html/unit-22/manifest.json",
+      "sha256": "c1d7a977f75c03ba839a6b805b5d521525cceaa103fff27469482eea1e18d3d5"
+    },
+    "html_reader_qa": {
+      "bytes": 10029,
+      "path": "qa/unit-22/HTML_READER_QA.json",
+      "sha256": "4bf37f194b5ef4bd300c068b04bf49f374ff0822a21996ce454ef599e5366377"
+    },
+    "html_tree": {
+      "bytes": 10498912,
+      "files": 40
+    },
+    "metadata": {
+      "bytes": 1679,
+      "path": "qa/unit-22/ZENODO_METADATA_UNIT22.json",
+      "sha256": "72c4b7ee8683fb348f2b2385decb9a8dbc220a6b4495c7678d1b101ebd4f6804"
+    },
+    "pdf": {
+      "bytes": 9046717,
+      "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-22-id.pdf",
+      "sha256": "4e6c03dc8388a4c10c464d939d5a416ab035c52e3bd233212c78a40617e02cf7"
+    },
+    "pdf_structural_qa": {
+      "bytes": 478620,
+      "path": "qa/unit-22/pdf_structural_qa.json",
+      "sha256": "f5e9ae47e09bd6759b32b5ae14d623f25c0fbb5feb51f1d21d42559291915159"
+    },
+    "pdf_visual_qa": {
+      "bytes": 4968,
+      "path": "qa/unit-22/PDF_VISUAL_QA.json",
+      "sha256": "b266ff257fd1777a40b024f747ed10ba15436141dc1235168c260832194d6f27"
+    }
+  },
+  "lineage": {
+    "concept_record_id": 22059977,
+    "new_concept_created": false,
+    "predecessor_record_id": 22134954
+  },
+  "manifest_contract": {
+    "checksum_rows": [
+      "geometri-diferensial-manifold-mulus-hingga-unit-22-id.pdf",
+      "geometri-diferensial-manifold-mulus-unit22-html-20260828.zip",
+      "geometri-diferensial-manifold-mulus-unit22-source-20260828.zip",
+      "LICENSE.md",
+      "RELEASE_NOTES_UNIT22_20260828.md",
+      "FILE_MANIFEST.json"
+    ],
+    "file_manifest_rows": [
+      "geometri-diferensial-manifold-mulus-hingga-unit-22-id.pdf",
+      "geometri-diferensial-manifold-mulus-unit22-html-20260828.zip",
+      "geometri-diferensial-manifold-mulus-unit22-source-20260828.zip",
+      "LICENSE.md",
+      "RELEASE_NOTES_UNIT22_20260828.md"
+    ],
+    "receipt_binds_all_seven_public_files": true
+  },
+  "maximum_public_bytes": 500000000,
+  "metadata": {
+    "bytes": 1679,
+    "path": "qa/unit-22/ZENODO_METADATA_UNIT22.json",
+    "sha256": "72c4b7ee8683fb348f2b2385decb9a8dbc220a6b4495c7678d1b101ebd4f6804"
+  },
+  "model_identification": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "privacy_scan": {
+    "credential_like_content_hits": 0,
+    "files_considered": 7,
+    "local_profile_name_hits": 0,
+    "nested_zip_members_considered": 944,
+    "nested_zip_text_members_scanned": 834,
+    "private_locator_hits": 0,
+    "status": "pass",
+    "text_files_scanned": 4
+  },
+  "public_bytes": 73215901,
+  "public_directory": "output/release-unit22",
+  "public_file_count": 7,
+  "public_file_order": [
+    "geometri-diferensial-manifold-mulus-hingga-unit-22-id.pdf",
+    "geometri-diferensial-manifold-mulus-unit22-html-20260828.zip",
+    "geometri-diferensial-manifold-mulus-unit22-source-20260828.zip",
+    "LICENSE.md",
+    "RELEASE_NOTES_UNIT22_20260828.md",
+    "FILE_MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "public_files": [
+    {
+      "bytes": 9046717,
+      "path": "geometri-diferensial-manifold-mulus-hingga-unit-22-id.pdf",
+      "sha256": "4e6c03dc8388a4c10c464d939d5a416ab035c52e3bd233212c78a40617e02cf7"
+    },
+    {
+      "bytes": 7301411,
+      "path": "geometri-diferensial-manifold-mulus-unit22-html-20260828.zip",
+      "sha256": "9e6782f535d3299c959d76f903bf74fb5593a560d0f2126349aa4f65c64dcdcc"
+    },
+    {
+      "bytes": 56860936,
+      "path": "geometri-diferensial-manifold-mulus-unit22-source-20260828.zip",
+      "sha256": "8f85344d1fd91d709534b15b960ddaac16aaddfc2f5d6fb62cba802a99898f83"
+    },
+    {
+      "bytes": 2034,
+      "path": "LICENSE.md",
+      "sha256": "eac2f6fd61f648a576e2e38c4d5ad0603b4c95423763e6ac2ed6f5a80b35025b"
+    },
+    {
+      "bytes": 2627,
+      "path": "RELEASE_NOTES_UNIT22_20260828.md",
+      "sha256": "e13dc7d8757f978db980b809df3aeca2bbc2bfc5d892d7b9e41c29d7657f8b4a"
+    },
+    {
+      "bytes": 1535,
+      "path": "FILE_MANIFEST.json",
+      "sha256": "676c87301bf3e60a4f61ec8c51c37040b102474eb3759caf54af57e401b703ae"
+    },
+    {
+      "bytes": 641,
+      "path": "SHA256SUMS.txt",
+      "sha256": "4742a29ec1858eaea60ff385d1dfe4807300256264fda0a7c6984a98113d49e1"
+    }
+  ],
+  "release_date": "2026-08-28",
+  "remote_state_mutated": false,
+  "rights": {
+    "component_media": "file-specific rights retained in component ledger and reader attribution",
+    "license_byte_identical_to": "qa/unit-22/LICENSE_RELEASE_UNIT22.md",
+    "non_endorsement_preserved": true,
+    "text_and_adaptation": "CC BY-SA 4.0"
+  },
+  "schema_version": 1,
+  "source_package": {
+    "files": 904,
+    "privacy_scan": {
+      "credential_like_content_hits": 0,
+      "files_considered": 902,
+      "local_profile_name_hits": 0,
+      "nested_zip_members_considered": 202,
+      "nested_zip_text_members_scanned": 179,
+      "private_locator_hits": 0,
+      "text_files_scanned": 812
+    },
+    "tree_sha256": "fd7ccef82333512784ad41076f274c90e0ad5c26d490cba06b5461b2a156b86f",
+    "uncompressed_bytes": 76178952
+  },
+  "status": "pass",
+  "total_public_bytes": 73215901,
+  "under_500000000_bytes": true,
+  "version": "2026.08.28-unit22",
+  "workflow": "o011-prepare-release-unit22-v1",
+  "zip_verification": {
+    "html": {
+      "archive_bytes": 7301411,
+      "archive_sha256": "9e6782f535d3299c959d76f903bf74fb5593a560d0f2126349aa4f65c64dcdcc",
+      "crc_and_identity_verified": true,
+      "encrypted_members": 0,
+      "entries": 40,
+      "reproducible_second_serialization": true,
+      "timestamps_normalized": true,
+      "uncompressed_bytes": 10498912
+    },
+    "source": {
+      "archive_bytes": 56860936,
+      "archive_sha256": "8f85344d1fd91d709534b15b960ddaac16aaddfc2f5d6fb62cba802a99898f83",
+      "crc_and_identity_verified": true,
+      "encrypted_members": 0,
+      "entries": 904,
+      "reproducible_second_serialization": true,
+      "timestamps_normalized": true,
+      "uncompressed_bytes": 76178952
+    }
+  }
+}

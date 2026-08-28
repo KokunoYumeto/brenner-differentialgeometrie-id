@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "scope": "O011 Brenner Unit 16 exact media closure and TeX print derivatives",
+  "unit_number": 16,
+  "heading_level": "section",
+  "media_config": "source/unit_media.json",
+  "media_config_sha256": "7f9bc6ca0c72a02bca58efc1703422ee0e83cf2a09849f050565eb9fe393729b",
+  "manifest": "authority/brenner_media_rights_manifest.csv",
+  "manifest_sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57",
+  "image_engine": "Version: ImageMagick 7.1.2-22 Q16 x64 ccf56fb:20260512 https://imagemagick.org",
+  "source_count": 2,
+  "derivative_count": 0,
+  "attribution_tex": {
+    "path": "build/generated/unit16-media-attribution-cumulative.tex",
+    "bytes": 1004,
+    "sha256": "46006e419dab9518ea25f0bd113f928a7b83995e48d684de88db3f673a9438e4"
+  },
+  "media": [
+    {
+      "filename": "Georg Friedrich Bernhard Riemann.jpeg",
+      "canonical_path": "authority/media/Georg Friedrich Bernhard Riemann.jpeg",
+      "canonical_bytes": 255626,
+      "canonical_sha1": "6ce62e0a7c81bbcbf6581d2463b88962cc150a1f",
+      "canonical_sha256": "945240277e351b4deacc64e0a8e0cbb5c8398a5d13ae322eafb55bfae91cabc6",
+      "commons_description_url": "https://commons.wikimedia.org/wiki/File:Georg_Friedrich_Bernhard_Riemann.jpeg",
+      "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Georg_Friedrich_Bernhard_Riemann.jpeg",
+      "license": "Public domain",
+      "rights_label_id": "domain publik",
+      "license_url": "",
+      "artist_html": "",
+      "credit_html": "<a rel=\"nofollow\" class=\"external free\" href=\"http://www.sil.si.edu/digitalcollections/hst/scientific-identity/explore.htm\">http://www.sil.si.edu/digitalcollections/hst/scientific-identity/explore.htm</a> according to the <a href=\"https://de.wikipedia.org/wiki/\" class=\"extiw\" title=\"de:\">German Wikipedia</a>.",
+      "attribution_required": "false",
+      "attribution_id": "Potret Georg Friedrich Bernhard Riemann; pembuat tidak dicantumkan dalam metadata Commons.",
+      "derivative": null
+    },
+    {
+      "filename": "Sphere with three handles.png",
+      "canonical_path": "authority/media/Sphere with three handles.png",
+      "canonical_bytes": 398740,
+      "canonical_sha1": "6890fd8dbe8f2a238b2629531380e3dcbaa792eb",
+      "canonical_sha256": "49398059697841332186226bccf87e46032289c1a8a02063fc2600070c51a311",
+      "commons_description_url": "https://commons.wikimedia.org/wiki/File:Sphere_with_three_handles.png",
+      "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Sphere_with_three_handles.png",
+      "license": "Public domain",
+      "rights_label_id": "domain publik",
+      "license_url": "",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Oleg_Alexandrov\" title=\"User:Oleg Alexandrov\">Oleg Alexandrov</a>",
+      "credit_html": "self-made using <a href=\"https://en.wikipedia.org/wiki/Matlab\" class=\"extiw\" title=\"en:Matlab\">MATLAB</a>",
+      "attribution_required": "false",
+      "attribution_id": "Oleg Alexandrov (karya sendiri; domain publik).",
+      "derivative": null
+    }
+  ]
+}

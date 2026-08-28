@@ -1886,3 +1886,114 @@ receipt, licensed media derivative, current state, and cursor; all matched the
 local byte counts and SHA-256 values. The 4,064-byte receipt is
 `qa/unit-21/GITHUB_COMMIT_PUBLIC_READBACK_RECEIPT.json`, SHA-256
 `85fd8cf7eb3aee6e4658a580dbad9ea1d30b69f2fb283be3f84f3b330b8174dc`.
+
+## D080 — Freeze and admit exact Unit 22 authority (2026-08-28)
+
+**Decision:** Admit the exact official Lecture 22 and Worksheet 22 roots,
+their sanitized LaTeX expansions, the sole source-supplied solution, and the
+two file-specific public-domain media assets after offline reproduction and a
+live-current check. Begin the complete Indonesian pair immediately; retain the
+planned Units 20–22 cumulative reader/backend/publication boundary.
+
+**Evidence:** Lecture root pageid/revision is `142566 / 1052940`; its
+23,522-byte expansion has SHA-256
+`73121723a31462a430a32fca8aca18fb94834c3fed936ec08a7bc11a9c301fc0`.
+Worksheet root pageid/revision is `142656 / 905863`; its 7,553-byte expansion
+has SHA-256
+`c66138c90289ba525cb861835720a44f26369a7f59c00f76db7994abd20392ec`.
+The exact closure contains 19 exercises, four graded items totaling 16 points,
+blank hints, only source-supplied Solution 6, and two public-domain images.
+Preflight, offline-verifier, and live-current SHA-256 values are
+`9dbb43502dfcf2d5d7faa0ec2b5e65cb96b3374a200a3d2d825f733d648a92c2`,
+`4cd821f3a80d64a72cd5dd38882581814f660106a67a6ed5c8143905a02f8a67`,
+and `b8f37a4db40e5fafa2d9fe537d2864afb19fbb51f08088a3020c0e01f6f95cca`.
+
+## D081 — Close Unit 22 bounded translation and start the cumulative release gate (2026-08-28)
+
+**Decision:** Admit the complete Indonesian Lecture 22, Worksheet 22, and
+source-supplied Solution 6 after protected-topology verification, independent
+mathematical and language review, exact public-domain media closure, and
+explicit registration of all thirteen target repairs/refinements. Begin the
+planned cumulative Units 20–22 PDF, HTML, and append-only backend gate
+immediately. Do not reopen or duplicate the already-public Unit 19 edition.
+
+**Mathematical disposition:** Repair the missing `n_0=0` base step; make the
+locally finite atlas argument cover `A_0` before adjoining the finite annular
+subcovers; restore the missing `j` indices on the bump function and chart
+inverses; restore chart-tuple and pullback scope; use `U_{i(j)}` in the
+positivity argument; turn the impossible Worksheet 22.10 construction into a
+nonexistence proof; repair the extension restriction; and define `A_{-1}`.
+Translate the remaining formula labels and add the previously absent image
+description. These changes are target corrections and are never silently
+attributed to the source.
+
+**Evidence:** Lecture, worksheet, and supplied-solution SHA-256 values are
+`9d00d0a1072c30f35c677b02ec68d7f9908c24f0ef0084da20193fc44102b1e1`,
+`8f83748984c53a9ebecd44ba14d439fee9087d65f6466e71b61da2b4ced885b1`,
+and `f887cc5de32991876780565b2a6a7a6553c859d614ee1a024d6bc24a7e865e1b`.
+The 9,577-byte POST receipt has SHA-256
+`80002ae88b1d748929f251ea15e14a013b4077f427beba1709488aada2f27e72`;
+its independent 4,809-byte verifier has SHA-256
+`61be508d59d9b7ca89ac85d434c696244617c0e1cda5ba09c2350835007ad870`.
+
+## D082 — Close the cumulative Unit 22 local reader and backend gate (2026-08-28)
+
+**Decision:** Accept the cumulative Units 1–22 PDF, semantic HTML, real-browser
+surface, and append-only backend as one deterministic local release boundary.
+Preserve the already-public Unit 19 bytes and exact 3,747-record backend prefix.
+Proceed immediately through source-package reconstruction, publication in the
+existing GitHub and Zenodo lineages, and anonymous public-byte readback. Do not
+create a duplicate concept or treat this local gate as completion of O011.
+
+**PDF evidence:** The centered A4 reader is 345 pages and 9,046,717 bytes,
+SHA-256
+`4e6c03dc8388a4c10c464d939d5a416ab035c52e3bd233212c78a40617e02cf7`.
+It contains 457 exercises, 64 source-supplied solutions, 109 bookmarks, and 31
+media assets. Two clean three-pass builds are byte-identical. Build,
+structural, and complete 345-page visual QA receipts have SHA-256 values
+`68aacdf979f81c432a62dd9cebf2d4bab8e017cc03cde60d60532aaa99e6312d`,
+`f5e9ae47e09bd6759b32b5ae14d623f25c0fbb5feb51f1d21d42559291915159`,
+and `b266ff257fd1777a40b024f747ed10ba15436141dc1235168c260832194d6f27`.
+The disclosed untagged-PDF limitation remains; all pages are text-extractable,
+all embedded fonts have ToUnicode maps, and all page/body bounds pass.
+
+**HTML evidence:** The entry is 1,525,348 bytes, SHA-256
+`260d16445fabffa3f3225c6c97c9727e2215378a29d5ad8d9e352d8adc5d5cd5`.
+Manifest, structural QA, browser QA, and complete-tree SHA-256 values are
+`c1d7a977f75c03ba839a6b805b5d521525cceaa103fff27469482eea1e18d3d5`,
+`4bf37f194b5ef4bd300c068b04bf49f374ff0822a21996ce454ef599e5366377`,
+`57b9b785277df2873631b61f85de34a3ce12e0916dfb264bd404e9a9060fc212`,
+and `8a27ef38e1a25d623d3dd9ab000aa8c5c4c5fdba2c6fe2ed4dbdc99f4389afab`.
+Desktop/mobile reflow, MathJax, local formula scrolling, deep links, all
+internal links, loaded images, and both static-first animation controls pass.
+
+**Backend evidence:** The public Unit 19 prefix remains exactly 3,747 records
+and 2,316,959 bytes. The final export contains 4,324 records. JSONL, CSV,
+manifest, and verifier SHA-256 values are
+`448982cccc2f7c21e275faae1314f3ef6731f6ba36c939035b295dcc7b3d195a`,
+`8bc81cbe634cb94f71640d1f5fd5e4c7a7697647f3a21b4ea161cb18c031d34b`,
+`43d190abeb2321fc06b10e882699ba8838488dbde4357cac586146c645b0886f`,
+and `cac8c90df35816902c873aa73dfcfd24f077e93412c3ade526b119493a4d3330`.
+All schema, reference, stable-ID, exact-projection, source/hash, rights,
+correction-ledger, prefix, and two-cycle determinism checks pass.
+
+## D083 — Close the Unit 22 reader-first source-package integrity gate (2026-08-28)
+
+**Decision:** Admit the seven-file Unit 22 release payload for publication only
+after deterministic HTML/source ZIP staging, privacy and rights checks, and two
+unrelated clean extractions that rebuild the cumulative PDF, HTML, and backend
+with network access blocked. Include the exact verifier in the source ZIP and
+retain only privacy-safe command basenames, arguments, exit codes, output byte
+counts, and output hashes in the durable receipt. Proceed to the existing
+GitHub and Zenodo lineages; do not create a duplicate concept.
+
+**Evidence:** The seven files total 73,215,901 bytes. The 10,868-byte
+preparation receipt has SHA-256
+`a862a3cc9f158c3a895fb37dd1691d7276de97494974ff097ea4689f9bac6480`.
+The source ZIP is 56,860,936 bytes, SHA-256
+`8f85344d1fd91d709534b15b960ddaac16aaddfc2f5d6fb62cba802a99898f83`.
+Its 10,559-byte independent integrity receipt has SHA-256
+`84c08713a057a5703e3efac048b7afa1c494d22118393065a318ceb72081f09f`.
+Both clean cycles independently pass the PDF, HTML, and backend verifiers and
+produce the exact canonical artifacts and exact staged HTML ZIP; all package
+inventory, manifest, checksum, CRC, privacy, and no-overwrite checks pass.

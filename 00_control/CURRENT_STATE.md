@@ -2,7 +2,7 @@
 
 Updated: 2026-08-28 (Europe/Berlin)
 
-## Current verified boundary — Unit 19 cumulative release public; Units 20–21 bounded source checkpoints public; Unit 22 next
+## Current verified boundary — Unit 19 cumulative release public; Units 20–21 bounded source checkpoints public; Unit 22 cumulative local release gate passed
 
 Units 1–19 now pass the complete local reader and additive-backend gate. The
 current centered A4 PDF is 302 pages and 7,740,452 bytes, SHA-256
@@ -196,7 +196,81 @@ one licensed media derivative—matched their local byte counts and SHA-256
 values exactly. The 4,064-byte receipt is
 `qa/unit-21/GITHUB_COMMIT_PUBLIC_READBACK_RECEIPT.json`, SHA-256
 `85fd8cf7eb3aee6e4658a580dbad9ea1d30b69f2fb283be3f84f3b330b8174dc`.
-The next executable action is exact Unit 22 authority closure.
+
+Unit 22 is now exactly frozen and independently verified. Lecture 22 is
+pageid/revision `142566 / 1052940`; its 23,522-byte sanitized expansion has
+SHA-256
+`73121723a31462a430a32fca8aca18fb94834c3fed936ec08a7bc11a9c301fc0`.
+Worksheet 22 is pageid/revision `142656 / 905863`; its 7,553-byte expansion has
+SHA-256
+`c66138c90289ba525cb861835720a44f26369a7f59c00f76db7994abd20392ec`.
+The worksheet has exactly 19 exercises: 15 practice and four graded items
+totaling 16 points. All hint fields are blank and only Solution 6 is supplied;
+its 605-byte sanitized authority has SHA-256
+`b181ad81b16c367d2ff99012aa97ae2cc058474dda93b008536b5df91a4f2039`.
+Two public-domain media assets are rights-closed: `Inner point.png` by
+Zasdfgbnm and `Partition of unity illustration.svg` by Oleg Alexandrov. The
+35,444-byte preflight, offline verifier, and live-current receipt have SHA-256
+values
+`9dbb43502dfcf2d5d7faa0ec2b5e65cb96b3374a200a3d2d825f733d648a92c2`,
+`4cd821f3a80d64a72cd5dd38882581814f660106a67a6ed5c8143905a02f8a67`,
+and `b8f37a4db40e5fafa2d9fe537d2864afb19fbb51f08088a3020c0e01f6f95cca`.
+The complete Unit 22 translation, explicit correction closure, and cumulative
+Units 1–22 PDF/HTML/backend build are now closed locally as described below.
+
+The cumulative Unit 22 PDF is 345 centered A4 pages and 9,046,717 bytes,
+SHA-256
+`4e6c03dc8388a4c10c464d939d5a416ab035c52e3bd233212c78a40617e02cf7`.
+It contains 457 exercises, exactly 64 source-supplied solutions, 109
+bookmarks, and 31 admitted media assets. Two clean three-pass build cycles are
+byte-identical. The build, structural QA, and complete 345-page visual QA
+receipts have SHA-256 values
+`68aacdf979f81c432a62dd9cebf2d4bab8e017cc03cde60d60532aaa99e6312d`,
+`f5e9ae47e09bd6759b32b5ae14d623f25c0fbb5feb51f1d21d42559291915159`,
+and `b266ff257fd1777a40b024f747ed10ba15436141dc1235168c260832194d6f27`.
+All pages are centered inside the accepted A4 bounds and visually clean. The
+PDF remains untagged, but all 345 pages are text-extractable; all 34 embedded
+font objects carry ToUnicode maps and the catalog language is `id-ID`.
+
+The final reflowable HTML entry is 1,525,348 bytes, SHA-256
+`260d16445fabffa3f3225c6c97c9727e2215378a29d5ad8d9e352d8adc5d5cd5`;
+its manifest SHA-256 is
+`c1d7a977f75c03ba839a6b805b5d521525cceaa103fff27469482eea1e18d3d5`,
+and the complete tree digest is
+`8a27ef38e1a25d623d3dd9ab000aa8c5c4c5fdba2c6fe2ed4dbdc99f4389afab`.
+Structural and real-browser QA have SHA-256 values
+`4bf37f194b5ef4bd300c068b04bf49f374ff0822a21996ce454ef599e5366377`
+and `57b9b785277df2873631b61f85de34a3ce12e0916dfb264bd404e9a9060fc212`.
+Desktop and mobile surfaces reflow without page-level overflow, all 7,261
+MathJax elements typeset without runtime errors, wide formulas remain locally
+scrollable, both static-first animation controllers pass, and all internal
+links and images resolve.
+
+The append-only backend preserves the exact 3,747-record public Unit 19 prefix
+and adds 577 records, yielding 4,324 records. JSONL, CSV, manifest, and
+independent two-cycle verifier SHA-256 values are
+`448982cccc2f7c21e275faae1314f3ef6731f6ba36c939035b295dcc7b3d195a`,
+`8bc81cbe634cb94f71640d1f5fd5e4c7a7697647f3a21b4ea161cb18c031d34b`,
+`43d190abeb2321fc06b10e882699ba8838488dbde4357cac586146c645b0886f`,
+and `cac8c90df35816902c873aa73dfcfd24f077e93412c3ade526b119493a4d3330`.
+Schema, reference, duplicate-ID, canonical serialization, exact CSV
+projection, prefix, live-hash, exercise/solution, media-rights,
+correction-ledger, and determinism checks all pass.
+
+The next executable action is to finish the two-clean-reconstruction source
+package gate, publish this exact checkpoint in the existing GitHub and Zenodo
+lineages, anonymously read back every public byte, and then advance directly
+to Unit 23. That package gate has now passed: the seven public files total
+73,215,901 bytes; release-preparation receipt SHA-256 is
+`a862a3cc9f158c3a895fb37dd1691d7276de97494974ff097ea4689f9bac6480`,
+and two independent clean, network-blocked reconstructions have integrity
+receipt SHA-256
+`84c08713a057a5703e3efac048b7afa1c494d22118393065a318ceb72081f09f`.
+The 56,860,936-byte source ZIP has SHA-256
+`8f85344d1fd91d709534b15b960ddaac16aaddfc2f5d6fb62cba802a99898f83`.
+Both reconstructions rebuilt and independently verified the exact canonical
+PDF, HTML tree/ZIP, and backend. Publication and anonymous readback are now the
+next executable actions. The full O011 goal remains unfinished.
 
 ## Objective
 
@@ -354,3 +428,38 @@ reconciles 92 source files, 50 Units 17-19 fragments, 394 cumulative exercises,
 surfaces while preserving the published 3,208-record Units 1-16 backend
 prefix. No cumulative PDF, HTML, backend, package, or publication is claimed
 until the deterministic runtime and public-readback gates below pass.
+
+## Unit 22 bounded translation closure — 2026-08-28
+
+The public Unit 19 cumulative boundary and the public Unit 20 and Unit 21
+source checkpoints remain intact. Unit 22 is now completely translated and
+passes its bounded source, mathematics, language, rights, accessibility, and
+correction gates. The final lecture is 24,495 bytes, SHA-256
+`9d00d0a1072c30f35c677b02ec68d7f9908c24f0ef0084da20193fc44102b1e1`;
+the worksheet is 7,650 bytes, SHA-256
+`8f83748984c53a9ebecd44ba14d439fee9087d65f6466e71b61da2b4ced885b1`;
+and source-supplied Solution 6 is 582 bytes, SHA-256
+`f887cc5de32991876780565b2a6a7a6553c859d614ee1a024d6bc24a7e865e1b`.
+All 19 exercises remain in order: 15 practice and four graded items totaling
+16 points; every hint field remains blank and no solution other than the one
+actually supplied by the source is claimed.
+
+The content-addressed POST receipt is
+`qa/unit-22/POST_CORRECTION_MATH_QA.json`, 9,577 bytes, SHA-256
+`80002ae88b1d748929f251ea15e14a013b4077f427beba1709488aada2f27e72`.
+Its independent verifier receipt is 4,809 bytes, SHA-256
+`61be508d59d9b7ca89ac85d434c696244617c0e1cda5ba09c2350835007ad870`.
+One semantically empty blank paragraph inside the first comparison macro was
+removed after the TeX-context gate; it changed no reader text or mathematical
+profile and prevents `\par` from entering math mode. Thirteen distinct ledger records disclose the mathematical, translation,
+media-loader, and accessibility changes; the two displayed public-domain
+assets retain exact creator and source rights. No bounded Unit 22 defect
+remains open.
+
+The exact active action is the planned cumulative Units 1–22 gate: finish and
+verify the centered A4 PDF, reflowable semantic HTML, and append-only backend
+while preserving the exact 3,747-record public Unit 19 prefix; package the
+verified reader-first boundary; publish it in the existing GitHub and Zenodo
+lineages; and anonymously read back every released byte. The full O011 goal is
+still unfinished after that boundary because Units 23–29, the exam bank, and
+the two original bridges remain.

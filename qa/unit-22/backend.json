@@ -1,0 +1,161 @@
+{
+  "baseline": {
+    "csv_prefix_bytes": 850266,
+    "csv_prefix_sha256": "b63d9d673b841869ab2d848e3a21b5b256a765c2b29f3e9982385e0ad3d75e1b",
+    "jsonl_bytes": 2316959,
+    "jsonl_sha256": "8045e59c84bc8c70fc3275bc65d023e46848276b184aca5978bd9b015060c193",
+    "preserved_byte_identically": true,
+    "records": 3747
+  },
+  "checkpoint": "2026-08-28T13:30:00Z",
+  "checks": {
+    "adverse_ledger_backend_correction_closure_current": true,
+    "all_ids_unique": true,
+    "all_references_resolve": true,
+    "canonical_jsonl": true,
+    "combined_json_schema_valid": true,
+    "correction_manifest_target_bindings_current": true,
+    "csv_projection_exact": true,
+    "exercise_solution_hint_point_closure": true,
+    "immutable_public_unit19_prefix": true,
+    "live_input_hash_bindings_current": true,
+    "media_rights_closure_current": true,
+    "repeat_export_deterministic": true,
+    "source_target_segment_hashes_current": true
+  },
+  "combined_records": 4324,
+  "cumulative_census": {
+    "exercises": 457,
+    "source_supplied_solutions": 64
+  },
+  "determinism": {
+    "first_csv_sha256": "8bc81cbe634cb94f71640d1f5fd5e4c7a7697647f3a21b4ea161cb18c031d34b",
+    "first_jsonl_sha256": "448982cccc2f7c21e275faae1314f3ef6731f6ba36c939035b295dcc7b3d195a",
+    "first_manifest_sha256": "43d190abeb2321fc06b10e882699ba8838488dbde4357cac586146c645b0886f",
+    "second_export_matches_first": true
+  },
+  "outputs": {
+    "manifest": {
+      "bytes": 26677,
+      "path": "backend/MANIFEST.json",
+      "sha256": "43d190abeb2321fc06b10e882699ba8838488dbde4357cac586146c645b0886f"
+    },
+    "records_csv": {
+      "bytes": 987360,
+      "path": "backend/records.csv",
+      "sha256": "8bc81cbe634cb94f71640d1f5fd5e4c7a7697647f3a21b4ea161cb18c031d34b"
+    },
+    "records_jsonl": {
+      "bytes": 2672207,
+      "path": "backend/records.jsonl",
+      "sha256": "448982cccc2f7c21e275faae1314f3ef6731f6ba36c939035b295dcc7b3d195a"
+    }
+  },
+  "schema_version": 1,
+  "status": "pass",
+  "units20_22_extension": {
+    "census": {
+      "20": {
+        "assets": 0,
+        "correction_ids": [
+          "O011-CORR-0275",
+          "O011-CORR-0276",
+          "O011-CORR-0277",
+          "O011-CORR-0278",
+          "O011-CORR-0279",
+          "O011-TRANS-0282",
+          "O011-ACC-0284",
+          "O011-CORR-0280",
+          "O011-CORR-0281",
+          "O011-ACC-0283"
+        ],
+        "exercises": 24,
+        "graded_exercises": 5,
+        "graded_point_total": 22,
+        "lecture_sections": 2,
+        "practice_exercises": 19,
+        "source_solution_indices": [
+          3,
+          4,
+          5,
+          7,
+          14
+        ],
+        "worksheet_sections": 2
+      },
+      "21": {
+        "assets": 3,
+        "correction_ids": [
+          "O011-CORR-0287",
+          "O011-CORR-0288",
+          "O011-CORR-0289",
+          "O011-TRANS-0293",
+          "O011-CORR-0290",
+          "O011-CORR-0291",
+          "O011-CORR-0292",
+          "O011-CORR-0285",
+          "O011-CORR-0286"
+        ],
+        "exercises": 20,
+        "graded_exercises": 5,
+        "graded_point_total": 24,
+        "lecture_sections": 2,
+        "practice_exercises": 15,
+        "source_solution_indices": [
+          7,
+          10,
+          12,
+          13
+        ],
+        "worksheet_sections": 2
+      },
+      "22": {
+        "assets": 2,
+        "correction_ids": [
+          "O011-CORR-0299",
+          "O011-CORR-0300",
+          "O011-CORR-0301",
+          "O011-CORR-0302",
+          "O011-CORR-0303",
+          "O011-CORR-0304",
+          "O011-CORR-0305",
+          "O011-TRANS-0309",
+          "O011-ACC-0311",
+          "O011-ACC-0310",
+          "O011-CORR-0306",
+          "O011-CORR-0307",
+          "O011-CORR-0308"
+        ],
+        "exercises": 19,
+        "graded_exercises": 4,
+        "graded_point_total": 16,
+        "lecture_sections": 3,
+        "practice_exercises": 15,
+        "source_solution_indices": [
+          6
+        ],
+        "worksheet_sections": 2
+      }
+    },
+    "entity_counts": {
+      "artifact": 76,
+      "asset": 5,
+      "concept": 0,
+      "correction": 37,
+      "course": 0,
+      "edition": 0,
+      "program": 0,
+      "qa_event": 31,
+      "relation": 328,
+      "resource": 0,
+      "rights": 5,
+      "segment": 13,
+      "term": 0,
+      "unit": 82
+    },
+    "exercise_count": 63,
+    "records": 577,
+    "source_supplied_solution_count": 10
+  },
+  "workflow": "o011-verify-backend-v22"
+}

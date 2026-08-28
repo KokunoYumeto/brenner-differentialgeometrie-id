@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Sun, 23 Aug 2026 19:17:09 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Differenzierbare Hyperfläche/Tangentialbündel/Implizite Realsierung/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 2865,
+  "response_path": "worksheet10_exercise15_solution_latex_expand.json",
+  "response_sha256": "79a142bd02e635e95dcf9dd2943a012b85d97e2c4301c260c9c8dbb876c1914c",
+  "retrieved_utc": "2026-08-23T19:17:10Z",
+  "schema_version": 1
+}

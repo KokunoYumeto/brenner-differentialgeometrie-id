@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "scope": "O011 Brenner Unit 18 exact media closure and TeX print derivatives",
+  "unit_number": 18,
+  "heading_level": "section",
+  "media_config": "source/unit_media.json",
+  "media_config_sha256": "7f9bc6ca0c72a02bca58efc1703422ee0e83cf2a09849f050565eb9fe393729b",
+  "manifest": "authority/brenner_media_rights_manifest.csv",
+  "manifest_sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57",
+  "image_engine": "Version: ImageMagick 7.1.2-22 Q16 x64 ccf56fb:20260512 https://imagemagick.org",
+  "source_count": 2,
+  "derivative_count": 1,
+  "attribution_tex": {
+    "path": "build/generated/unit18-media-attribution-cumulative.tex",
+    "bytes": 880,
+    "sha256": "7f91047a19c5b41e77c99dac88bc8ce4c3f0809f5aa57e6cf80576280e4f5ca0"
+  },
+  "media": [
+    {
+      "filename": "Poincarehalfplaneconform.gif",
+      "canonical_path": "authority/media/Poincarehalfplaneconform.gif",
+      "canonical_bytes": 956681,
+      "canonical_sha1": "3b1d79ff7e4c0a5741c5f8ac6f01bca6fdcf4592",
+      "canonical_sha256": "2a1da25b6afb54e7c4e9e48b36447f66a9ae2a71b0bd23118d83ad5b4a260a4d",
+      "commons_description_url": "https://commons.wikimedia.org/wiki/File:Poincarehalfplaneconform.gif",
+      "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Poincarehalfplaneconform.gif",
+      "license": "CC BY-SA 3.0",
+      "rights_label_id": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:HB\" title=\"User:HB\">HB</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+      "attribution_required": "true",
+      "attribution_id": "HB (karya sendiri).",
+      "derivative": {
+        "path": "build/generated/media/Poincarehalfplaneconform.png",
+        "bytes": 3137,
+        "sha256": "3fc44ea03f030f75ad3d7de2590d8ea6ef6061bdb1fe45f241129eff4af5d11c",
+        "identify": "PNG 590 479 sRGB",
+        "source_kind": "gif",
+        "frame_index": 0,
+        "command": [
+          "magick",
+          "-background",
+          "white",
+          "authority/media/Poincarehalfplaneconform.gif[0]",
+          "-alpha",
+          "remove",
+          "-alpha",
+          "off",
+          "-resize",
+          "1800x1800>",
+          "-strip",
+          "-define",
+          "png:exclude-chunk=date,time",
+          "build/generated/media/Poincarehalfplaneconform.png"
+        ]
+      },
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "filename": "Hyperboloid2.png",
+      "canonical_path": "authority/media/Hyperboloid2.png",
+      "canonical_bytes": 194637,
+      "canonical_sha1": "e70d4d6f4c5e4a0d703b48bdcddc2ed7fa25b3be",
+      "canonical_sha256": "d6e7b45784e7208f652106f0df65839d635a3058b1fa834455e490e904c61ef0",
+      "commons_description_url": "https://commons.wikimedia.org/wiki/File:Hyperboloid2.png",
+      "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Hyperboloid2.png",
+      "license": "Public domain",
+      "rights_label_id": "domain publik",
+      "license_url": "",
+      "artist_html": "Lars H. Rohwedder (<a href=\"//commons.wikimedia.org/wiki/User:RokerHRO\" title=\"User:RokerHRO\">User:RokerHRO</a>)",
+      "credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+      "attribution_required": "false",
+      "attribution_id": "Lars H. Rohwedder (RokerHRO; karya asli).",
+      "derivative": null
+    }
+  ]
+}

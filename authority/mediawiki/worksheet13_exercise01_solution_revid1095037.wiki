@@ -1,0 +1,23 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Das Kroneckerprodukt der beiden Matrizen ist
+{{
+Relationskette/align
+| {{op:Matrix22| 3| -4| 5| -2}} {{tensor|}} {{op:Matrix22| -2| 7| 6| 3}} 
+|| {{op:Matrix22| 3 {{op:Matrix22| -2| 7| 6| 3}} | -4{{op:Matrix22| -2| 7| 6| 3}} | 5{{op:Matrix22| -2| 7| 6| 3}} | -2{{op:Matrix22| -2| 7| 6| 3}}}}
+|| {{op:Matrix44| -6| 21| 8| -28| 18| 9| -24| -12| -10| 35| 4| -14| 30| 15| -12| -6}}
+||
+||
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

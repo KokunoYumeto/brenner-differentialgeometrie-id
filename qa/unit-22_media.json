@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "scope": "O011 Brenner Unit 22 exact media closure and TeX print derivatives",
+  "unit_number": 22,
+  "heading_level": "section",
+  "media_config": "source/unit_media.json",
+  "media_config_sha256": "7f9bc6ca0c72a02bca58efc1703422ee0e83cf2a09849f050565eb9fe393729b",
+  "manifest": "authority/brenner_media_rights_manifest.csv",
+  "manifest_sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57",
+  "image_engine": "Version: ImageMagick 7.1.2-22 Q16 x64 ccf56fb:20260512 https://imagemagick.org",
+  "source_count": 2,
+  "derivative_count": 1,
+  "attribution_tex": {
+    "path": "build/generated/unit22-media-attribution-cumulative.tex",
+    "bytes": 950,
+    "sha256": "64633fa4aa0f777dc38beec16642a078997bc4ca37b71251963099d25fbbd641"
+  },
+  "media": [
+    {
+      "filename": "Inner point.png",
+      "canonical_path": "authority/media/Inner point.png",
+      "canonical_bytes": 9165,
+      "canonical_sha1": "5b2ba4843701c43776725e38f3e9bac093a4886c",
+      "canonical_sha256": "8a8574b52fd937cd9f10c73bac3ab32b0b79300763a30ee4ecb2e260b39c2695",
+      "commons_description_url": "https://commons.wikimedia.org/wiki/File:Inner_point.png",
+      "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Inner_point.png",
+      "license": "Public domain",
+      "rights_label_id": "domain publik",
+      "license_url": "",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Zasdfgbnm&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Zasdfgbnm (page does not exist)\">Zasdfgbnm</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+      "attribution_required": "false",
+      "attribution_id": "Zasdfgbnm (karya sendiri; domain publik).",
+      "derivative": null
+    },
+    {
+      "filename": "Partition of unity illustration.svg",
+      "canonical_path": "authority/media/Partition of unity illustration.svg",
+      "canonical_bytes": 12559,
+      "canonical_sha1": "38b2159759bef5eb0cfa3e42c7b870600ea37001",
+      "canonical_sha256": "e36381a58269f1e1e18203e72a5a7ad5dde936a534fcee4a9f578dab4a9e5128",
+      "commons_description_url": "https://commons.wikimedia.org/wiki/File:Partition_of_unity_illustration.svg",
+      "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Partition_of_unity_illustration.svg",
+      "license": "Public domain",
+      "rights_label_id": "domain publik",
+      "license_url": "",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Oleg_Alexandrov\" title=\"User:Oleg Alexandrov\">Oleg Alexandrov</a>",
+      "credit_html": "self-made with MATLAB, tweaked in Inkscape",
+      "attribution_required": "false",
+      "attribution_id": "Oleg Alexandrov (dibuat sendiri dengan MATLAB dan disempurnakan di Inkscape; domain publik).",
+      "derivative": {
+        "path": "build/generated/media/Partition of unity illustration.png",
+        "bytes": 88626,
+        "sha256": "a29ea8ca84cffd71518c29eca73f64796a4ecc0d86ed23bc73ae04d7bc2141b1",
+        "identify": "PNG 1800 297 sRGB",
+        "source_kind": "svg",
+        "frame_index": null,
+        "command": [
+          "magick",
+          "-background",
+          "white",
+          "-density",
+          "300",
+          "authority/media/Partition of unity illustration.svg",
+          "-alpha",
+          "remove",
+          "-alpha",
+          "off",
+          "-resize",
+          "1800x1800>",
+          "-strip",
+          "-define",
+          "png:exclude-chunk=date,time",
+          "build/generated/media/Partition of unity illustration.png"
+        ]
+      }
+    }
+  ]
+}

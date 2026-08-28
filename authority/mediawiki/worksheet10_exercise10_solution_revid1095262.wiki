@@ -1,0 +1,273 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+a) Jede nilpotente Matrix {{mathl|term= {{op:Matrix22| a | b | c |d}} |SZ=}} lässt sich durch den linearen Weg
+{{
+Abbildung/display
+|name=
+|[0,1]|N
+| t |t {{op:Matrix22| a | b | c |d}}
+|SZ=,
+}}
+innerhalb der nilpotenten Matrizen mit der Nullmatrix verbinden. Daher ist {{math|term= N |SZ=}} wegzusammenhängend und damit auch zusammenhängend.
+
+b) Eine 
+{{
+Definitionslink
+|Prämath=2 \times 2
+|Matrix|
+|Kontext=|
+|SZ=
+}}
+ist genau dann nilpotent, wenn sowohl die Spur als auch die Determinante {{math|term= 0 |SZ=}} sind. Die Menge {{math|term= N |SZ=}} der nilpotenten Matrizen kann also als
+{{
+Math/display|term=
+{{Mengebed| (a,b,c,d)| a+d {{=}} 0 \text{ und } ad-bc {{=}} 0 }}
+|SZ=
+}}
+aufgefasst werden. Wir betrachten die Abbildung
+{{
+Abbildung/display
+|name=
+|\R^4|\R^2
+|(a,b,c,d)| (a+d, ad-bc)
+|SZ=.
+}}
+Deren Jacobi-Matrix ist
+{{
+Math/display|term=
+ {{op:Matrix24| 1| 0| 0| 1| d | -c| -b| a |}} 
+|SZ=.
+}}
+Diese Abbildung ist im Nullpunkt nicht 
+{{
+Definitionslink
+|regulär|
+|Kontext=differenzierbar|
+|SZ=,
+}}
+aber in jedem anderen Punkt der Faser {{math|term= N |SZ=.}} Wenn nämlich {{mathl|term= P \in M |SZ=}} ist, so folgt wegen
+{{
+Relationskette/display
+|a^2
+||bc
+||
+||
+||
+|SZ=
+}}
+aus
+{{
+Relationskette/display
+|b
+|| c
+|| 0
+||
+||
+|SZ=
+}}
+sofort
+{{
+Relationskette/display
+|a
+||b
+|| c
+|| d
+|| 0
+|SZ=.
+}}
+Die Jacobi-Matrix hat also in den Punkten aus {{math|term= M |SZ=}} den maximalen Rang. Mit
+{{
+Relationskette/display
+|G
+||\R^4 \setminus \{0\}
+||
+||
+||
+|SZ=
+}} 
+kann man {{math|term= M |SZ=}} als die Faser der eingeschränkten Abbildung auffassen, die überall auf der Faser regulär ist. Daher ist {{math|term= M |SZ=}} nach
+{{
+Faktlink
+|Faktseitenname=
+Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt
+|Nr=
+|SZ=
+}}
+eine abgeschlossene Untermannigfaltigkeit von {{math|term= G |SZ=.}}
+
+c) Nach
+{{
+Faktlink
+|Faktseitenname=
+Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt
+|Nr=
+|SZ=
+}}
+ist die Dimension von {{math|term= M |SZ=}} gleich
+{{
+Relationskette
+| 4-2
+|| 2
+||
+||
+||
+|SZ=.
+}}
+
+d) Wir schreiben
+{{
+Relationskette/display
+|M_+
+|| {{Mengebed|(a,b,c,d) \in M| b>c}} 
+|| 
+||
+||
+|SZ=
+}}
+und
+{{
+Relationskette/display
+|M_-
+|| {{Mengebed|(a,b,c,d) \in M| b<c}} 
+||
+||
+||
+|SZ=,
+}}
+beides sind 
+{{
+Zusatz/Klammer
+|text=als Durchschnitt von {{math|term= M |SZ=}} mit der durch {{mathl|term= b>c|SZ=}} gegebenen offenen Menge des {{math|term= \R^4 |SZ=}} |
+|ISZ=|ESZ=
+}}
+offene Mengen in {{math|term= M |SZ=.}} Die Matrizen
+{{
+mathkor|term1= 
+ {{op:Matrix22| 0| 1| 0| 0}} 
+|und|term2=
+{{op:Matrix22| 0| 0| 1| 0}} 
+|SZ=
+}}
+zeigen, dass sie nicht leer sind. Ferner überdecken sie ganz {{math|term= M |SZ=.}} Bei
+{{
+Relationskette
+|b
+|| c
+||
+||
+||
+|SZ=
+}}
+folgt nämlich wegen
+{{
+Relationskette/display
+| 0 
+|| ad-bc
+|| -a^2 -b^2
+||
+||
+|SZ=
+}}
+direkt
+{{
+Relationskette
+|a
+||b
+|| c
+|| d
+|| 0
+|SZ=,
+}}
+und der Punkt gehört nicht zu {{math|term= M |SZ=.}} Es liegt also eine Überdeckung mit zwei nichtleeren disjunkten offenen Mengen vor, daher ist {{math|term= M |SZ=}} nicht zusammenhängend.
+
+e) Wir arbeiten mit der Abbildung
+{{
+Abbildung/display
+|name=\psi
+|\R^2 \setminus \{(0,0)\}| M_+
+|(a,u)| (a, u + \sqrt{a^2+u^2}, u - \sqrt{a^2 +u^2},-a)
+|SZ=.
+}}
+Wegen
+{{
+Relationskette/align
+|ad-bc
+|| -a^2 - {{makl| u + \sqrt{a^2+u^2} |}} {{makl|u - \sqrt{a^2+u^2} |}} 
+|| -a^2 - {{makl| u^2 - {{makl| a^2+u^2|}}  |}} 
+|| 0
+||
+|SZ=
+}}
+ist die Determinantenbedingung erfüllt, und wegen
+{{
+Relationskette/display
+|b-c
+|| u + \sqrt{a^2+u^2} - {{makl| u- \sqrt{a^2 +u^2}) |}} 
+|| 2 \sqrt{a^2+u^2}
+| > | 0
+||
+|SZ=
+}}
+gehört das Bild zu {{math|term= M_+|SZ=.}} Die Abbildung
+{{
+Abbildung/display
+|name=\varphi
+|M_+| \R^2 \setminus \{(0,0)\}
+|(a,b,c,d)| {{op:Zeilenvektor| a| {{op:Bruch|b+c| 2}} }}
+|SZ=,
+}}
+ist invers zu der gegebenen Abbildung. Dabei ist
+{{
+Relationskette/display
+| \varphi \circ \psi
+|| {{op:Identität|\R^2 \setminus \{(0,0)\} |}} 
+||
+||
+||
+|SZ=
+}}
+klar. Die andere Identität ergibt sich aus
+{{
+Relationskette/align
+| {{op:Bruch|b+c| 2}} + \sqrt{a^2 + {{makl|{{op:Bruch|b+c| 2}} |}}^2 }
+|| {{op:Bruch|b+c| 2}} + {{op:Bruch| 1| 2}}  \sqrt{4 a^2 + b^2 +c^2 +2bc }
+|| {{op:Bruch|b+c| 2}} + {{op:Bruch| 1| 2}}  \sqrt{ b^2 +c^2 -2bc }
+|| {{op:Bruch|b+c| 2}} + {{op:Bruch|b-c| 2}} 
+||b
+|SZ=
+}}
+und
+{{
+Relationskette/display
+| {{op:Bruch|b+c| 2}} - \sqrt{a^2 + {{makl|  {{op:Bruch|b+c| 2}}  |}}^2 }
+|| {{op:Bruch|b+c| 2}} - {{op:Bruch|b-c| 2}} 
+|| c
+|SZ=.
+}}
+Beide Abbildungen sind stetig, daher liegt eine 
+{{
+Definitionslink
+|Homöomorphie|
+|Kontext=|
+|SZ=
+}}
+vor.
+Für {{mathl|term= M_-|SZ=}} vertauscht man die Rollen von
+{{
+mathkor|term1=
+b
+|und|term2=
+c
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

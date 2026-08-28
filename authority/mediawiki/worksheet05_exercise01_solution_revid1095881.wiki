@@ -1,0 +1,119 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Wir verwenden
+{{
+Faktlink
+|Faktseitenname=
+Differenzierbare Funktion/Graph/Hyperfläche/Weingartenabbildung/Fakt
+|Nr=
+|SZ=,
+}}
+wobei im Nullpunkt der Vorfaktor gleich {{math|term= 1 |SZ=}} ist und somit die 
+{{
+Definitionslink
+|Prämath=
+|Weingartenabbildung|
+|Kontext=|
+|SZ=
+}}
+direkt durch die 
+{{
+Definitionslink
+|Prämath=
+|Hesse-Matrix|
+|Kontext=|
+|SZ=
+}}
+beschrieben wird. Die Hesse-Matrix der Funktion ist
+{{
+Math/display|term=
+ {{op:Matrix22| 2a| c |c| 2b}} 
+|SZ=,
+}}
+das 
+{{
+Definitionslink
+|Prämath=
+|charakteristische Polynom|
+|Kontext=|
+|SZ=
+}}
+davon ist
+{{
+Relationskette/align
+| (t-2a)(t-2b)-c^2
+|| t^2 -2(a+b)t +4ab -c^2
+|| {{makl| t-(a+b) |}}^2 - (a+b)^2 +4ab -c^2
+|| {{makl| t-(a+b) |}}^2  - a^2 -b^2 +2ab -c^2
+|| {{makl| t-(a+b) |}}^2  - (a-b)^2 -c^2
+|| 
+|SZ=.
+}}
+Die Eigenwerte
+{{
+Zusatz/Klammer
+|text=und dies sind die Hauptkrümmungen|
+|ISZ=|ESZ=
+}}
+sind also
+{{
+Relationskette/display
+| \lambda_{1,2}
+|| \pm \sqrt{ (a-b)^2+c^2 } +a+b
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Bei
+{{
+Relationskette
+| a
+|| b
+|| 
+|| 
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette
+| c
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+ist die Weingartenabbildung Multiplikation mit {{math|term= 2a |SZ=}} und jeder Vektor ist ein Eigenvektor, sei dies jetzt ausgeschlossen. Für
+{{
+Relationskette/display
+| \lambda_{1}
+|| \sqrt{ (a-b)^2+c^2 } +a+b
+|| 
+|| 
+|| 
+|SZ=
+}}
+ist der Kern der Matrix
+{{
+Math/display|term=
+ {{op:Matrix22| \sqrt{(a-b)^2 +c^2} + b-a| -c| -c| \sqrt{(a-b)^2 +c^2} + a-b}} 
+|SZ=
+}}
+zu bestimmen, dieser ist
+{{
+Math/display|term=
+ \R {{op:Spaltenvektor| \sqrt{(a-b)^2 +c^2} + a-b |c}} 
+|SZ=.
+}}
+Eine Hauptkrümmungsrichtung ist also {{mathl|term= {{op:Spaltenvektor| \sqrt{(a-b)^2 +c^2} + a-b |c}} |SZ=}} mit der Hauptkrümmung {{mathl|term= \sqrt{ (a-b)^2+c^2 } +a+b  |SZ=.}} 
+
+Entsprechend ergibt sich die Hauptkrümmungsrichtung {{mathl|term= {{op:Spaltenvektor| -c| \sqrt{(a-b)^2 +c^2} + a-b }} |SZ=}} mit der Hauptkrümmung {{mathl|term= -\sqrt{ (a-b)^2+c^2 } +a+b  |SZ=.}} 
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

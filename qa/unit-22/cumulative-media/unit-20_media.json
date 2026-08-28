@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "scope": "O011 Brenner Unit 20 exact zero-media closure",
+  "unit_number": 20,
+  "heading_level": "section",
+  "media_config": "source/unit_media.json",
+  "media_config_sha256": "7f9bc6ca0c72a02bca58efc1703422ee0e83cf2a09849f050565eb9fe393729b",
+  "media_config_unit_row_present": false,
+  "zero_media_authority": "qa/unit-20/POST_CORRECTION_MATH_QA.json",
+  "manifest": "authority/brenner_media_rights_manifest.csv",
+  "manifest_sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57",
+  "image_engine": "not required (verified zero-asset unit)",
+  "source_count": 0,
+  "derivative_count": 0,
+  "attribution_tex": {
+    "path": "build/generated/unit20-media-attribution-cumulative.tex",
+    "bytes": 212,
+    "sha256": "463d4dcfea1f4b84aea7f301923927f18fef8cd89a8924568ca82f74f5677462"
+  },
+  "media": []
+}

@@ -1,0 +1,179 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblattgestaltung|13|
+
+{{Zwischenüberschrift|Übungsaufgaben}}
+
+{{:Matrizen/Kroneckerprodukt/Definition}}
+
+{{
+inputaufgabe
+|Kroneckerprodukt/2x2/Berechnung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Matrizen/Tensorprodukt/Kroneckerprodukt/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Möbiusband/Tensorprodukt/Trivial/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Produkt von orientierten Mannigfaltigkeiten/Orientiert/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|1-Sphäre/Orientierbare Mannigfaltigkeit/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{:Orientierte Mannigfaltigkeiten/Orientierungstreue Abbildung/Definition|}} 
+
+{{
+inputaufgabe
+|S^1/Antipodal/Orientierungstreu/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Produkt von orientierter Mannigfaltigkeit/Vertauschung ist nicht unbedingt orientierungstreu/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Endlicher Raum/Kompakt/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Topologischer Raum/Endliche viele kompakte Teilmengen/Kompakt/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Kompakter Raum/Abgeschlossene Teilmenge/Kompakt/Fakt/Beweis/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Kompaktheit/Stetige Funktion/Maximum wird angenommen/Fakt/Beweis/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|R/S^1/Stetig/Bild/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|S^1/R/Stetig/Bild/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|R/Nicht überdeckungskompakt/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|N/Diskrete Metrik/Abgeschlossen und beschränkt/Nicht kompakt//Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Metrischer Raum/Kompakt/Vollständig/Fakt/Beweis/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|R^n/Abzählbare Topologie durch Bälle/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Kompakte Mannigfaltigkeit/x^2+y^4+z^6 ist 1/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Kompakte Mannigfaltigkeit/Surjektive stetige Abbildung von beschränkter offener Menge/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{Zwischenüberschrift|Aufgaben zum Abgeben}}
+
+{{
+inputaufgabe
+|2-Sphäre/Orientierbare Mannigfaltigkeit/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|S^2/Antipodenabbildung ist nicht orientierungstreu/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Hausdorffraum/Kompakte Teilmenge/Abgeschlossen/Fakt/Beweis/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Stetige Abbildung/Bild eines kompakten Raumes/Kompakt/Fakt/Beweis/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Orientierung/Stetige Abbildung von Intervall nach Basen/Konstante Orientierung/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+}}

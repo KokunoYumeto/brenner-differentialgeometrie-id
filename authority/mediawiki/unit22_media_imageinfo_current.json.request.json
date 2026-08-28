@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://commons.wikimedia.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 10:46:37 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "iiprop": "timestamp|user|url|size|sha1|mime|extmetadata",
+    "prop": "info|imageinfo",
+    "titles": "File:Inner point.png|File:Partition of unity illustration.svg"
+  },
+  "response_bytes": 4513,
+  "response_path": "unit22_media_imageinfo_current.json",
+  "response_sha256": "4006b2fbd36fcf93df896b8f3bacbdc166e67d094c30decbba698c6bcf130b23",
+  "retrieved_utc": "2026-08-28T10:46:36Z",
+  "schema_version": 1
+}

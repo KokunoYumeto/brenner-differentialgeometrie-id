@@ -1,0 +1,75 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Wir betrachten auf dem {{math|term= \R^2 |SZ=}} das stetige Vektorfeld {{math|term= F |SZ=,}} das durch
+{{
+Relationskette/display
+|F(x,y)
+|| {{op:Bruch| 1| x^2+y^2}}  e_1
+||
+||
+||
+|SZ=
+}}
+gegeben sei. Dieses hat keine Nullstelle und ist stetig. Wir transportieren dieses Vektorfeld mittels der stereographischen Projektion auf
+{{
+Relationskette
+|  \R^2 
+| \cong| S^2 \setminus \{N\}
+|| 
+|| 
+|| 
+|| 
+|SZ=
+}}
+und ergänzen es im Nordpol durch den Wert
+{{
+Relationskette
+| 0
+| \in |  T_NS^2
+||
+||
+||
+|SZ=.
+}} 
+Wir behaupten, dass dieses Vektorfeld stetig ist. Dazu sei {{mathl|term= P_n |SZ=}} sei eine Folge auf {{math|term= S^2 |SZ=,}} die gegen {{math|term= N |SZ=}} konvergiert. Dabei können wir direkt annehmen, dass alle
+{{
+Relationskette
+|P_n
+|\neq|N
+||
+||
+||
+|SZ=
+}}
+sind. Das Kartenbild dieser Folge ist
+{{
+Relationskette/display
+|P'_n
+|| (x_n,y_n)
+||
+||
+||
+|SZ=,
+}}
+und da {{math|term= P_n |SZ=}} gegen den Nordpol konvergiert, divergiert {{mathl|term=  {{op:Betrag|P_n'|}} |SZ=}} bestimmt gegen {{math|term= \infty|SZ=.}} Daher konvergiert die Folge 
+{{
+Relationskette/display
+| F(P'_n)
+|| F(x_n , y_n)
+|| {{op:Bruch| 1| x^2+y^2}} e_1
+||
+||
+|SZ=
+}}
+gegen {{math|term= 0 |SZ=.}} 
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

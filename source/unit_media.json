@@ -221,6 +221,20 @@
           "rights_label_id": "domain publik"
         }
       ]
+    },
+    "22": {
+      "media": [
+        {
+          "filename": "Inner point.png",
+          "attribution_id": "Zasdfgbnm (karya sendiri; domain publik).",
+          "rights_label_id": "domain publik"
+        },
+        {
+          "filename": "Partition of unity illustration.svg",
+          "attribution_id": "Oleg Alexandrov (dibuat sendiri dengan MATLAB dan disempurnakan di Inkscape; domain publik).",
+          "rights_label_id": "domain publik"
+        }
+      ]
     }
   }
 }

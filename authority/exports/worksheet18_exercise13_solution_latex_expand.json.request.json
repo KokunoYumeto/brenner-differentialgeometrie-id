@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Wed, 26 Aug 2026 02:53:14 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Einheitskreis/Obere Halbebene/Rational isomorph/Reelle Koordinaten/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 1653,
+  "response_path": "worksheet18_exercise13_solution_latex_expand.json",
+  "response_sha256": "bea721c9dc1cfdd1c49314d7a3005a7f76cfbf42c03c45034b8ebfebf765e551",
+  "retrieved_utc": "2026-08-26T02:53:13Z",
+  "schema_version": 1
+}

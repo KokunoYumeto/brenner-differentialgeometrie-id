@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-22/lecture22.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0299",
+      "anchor": "base step in the compact-exhaustion recursion",
+      "change": "Repair the bare n_0 fragment to the mathematically required initialization n_0=0."
+    },
+    {
+      "correction_id": "O011-CORR-0300",
+      "anchor": "local-finiteness proof in Lemma 22.9",
+      "change": "Cover A_0 separately by a finite J_{-1}, use the stated annular cover for every n>=0, and define J as J_{-1} union the J_n so the proof actually covers all of M."
+    },
+    {
+      "correction_id": "O011-CORR-0301",
+      "anchor": "definition of the extended bump function tilde g_j",
+      "change": "Replace the undefined g by the indexed function g_j."
+    },
+    {
+      "correction_id": "O011-CORR-0302",
+      "anchor": "two inverse-chart occurrences in the partition-of-unity proof",
+      "change": "Replace undefined alpha inverse by alpha_j inverse."
+    },
+    {
+      "correction_id": "O011-CORR-0303",
+      "anchor": "oriented-atlas tuple in the volume-form proof",
+      "change": "Restore the course's chart tuple order (U_i,alpha_i,V_i)."
+    },
+    {
+      "correction_id": "O011-CORR-0304",
+      "anchor": "local volume-form definition omega_i",
+      "change": "Parenthesize the complete coordinate volume form inside the pullback alpha_i^*."
+    },
+    {
+      "correction_id": "O011-CORR-0305",
+      "anchor": "positivity argument for the patched volume form",
+      "change": "Use the selected chart domain U_{i(j)} rather than the unrelated U_j."
+    },
+    {
+      "correction_id": "O011-TRANS-0309",
+      "anchor": "complete Unit 22 Indonesian reader-language pass",
+      "change": "Translate reader-visible formula labels and connectives while preserving mathematical topology."
+    },
+    {
+      "correction_id": "O011-ACC-0311",
+      "anchor": "partition-of-unity illustration",
+      "change": "Supply a concise Indonesian accessibility caption for the source image whose caption field is empty."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_ids": ["O011-CORR-0300", "O011-CORR-0302", "O011-CORR-0304"],
+      "surface": "profile:commands",
+      "source_sha256": "c8f4f062c0b266563c68e90526308e4987ed395e449554af2c4da4abdda07989",
+      "target_sha256": "bd7c81f9de7c56190aaa1b661459bedf2bef5aa025d765c63449fa28f433cc74"
+    },
+    {
+      "correction_ids": ["O011-CORR-0300", "O011-CORR-0302", "O011-CORR-0304", "O011-TRANS-0309"],
+      "surface": "profile:inline_math",
+      "source_sha256": "ac18292244bf233a32f534bd2a7769455dee12d2625c216334b977b195d47f00",
+      "target_sha256": "4ebcb8e5c41c85b675768c174994fb2222edff853612f86ac660fa8e17da9199"
+    },
+    {
+      "correction_ids": ["O011-CORR-0299", "O011-CORR-0300", "O011-CORR-0301", "O011-CORR-0302", "O011-CORR-0304", "O011-CORR-0305", "O011-TRANS-0309"],
+      "surface": "profile:protected:vergleichskette",
+      "source_sha256": "bd2cbdcc8573479822a0e734b368568faf1edcd5c1c5d23c0ddeda5a46a08c32",
+      "target_sha256": "1eb97e0e55d8b8607245abbef07bc138c194b2a1f3b2137f3fd3239098ed739d"
+    },
+    {
+      "correction_ids": ["O011-CORR-0300", "O011-CORR-0303"],
+      "surface": "profile:protected:mathbed",
+      "source_sha256": "d15940c63315d2ef9480865c36364a8ac2596a98251a8b521c4f9d43d623a776",
+      "target_sha256": "88a87439633423ee8cc371bdef4156905a139db250bba0651382139e97000911"
+    },
+    {
+      "correction_id": "O011-TRANS-0309",
+      "surface": "profile:protected:mathdisp",
+      "source_sha256": "92fb6a5b54065d5c927cada4534112f07d9b3d7d692ee6942bd9ae89c7228e75",
+      "target_sha256": "263e482599d9650ec740bcd68aae43f3af022a5cd58db168ea7140a515b28ed3"
+    },
+    {
+      "correction_ids": ["O011-CORR-0300", "O011-CORR-0302", "O011-CORR-0304"],
+      "surface": "profile:brace_profile",
+      "source_sha256": "4c3ae0c772881879879d32c1a23ed38bd31b2ca3224b523bbc2681be72ddf1da",
+      "target_sha256": "ca1f7e2bccd02fb51dc2ec3fe9f2df9a20d02344872076749147caf0f92ed97e"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-TRANS-0309",
+      "surface": "command:vergleichskette",
+      "occurrence_index": 1,
+      "source_sha256": "c08c976612d90cd31904da2463bdcaf59990ddf70500644cb68349aaed590899",
+      "target_sha256": "2f2fa68b5b5bdebbf41c5015ac8fe27da28a32a670b7d33c203dada0d403a64d"
+    },
+    {
+      "correction_id": "O011-TRANS-0309",
+      "surface": "command:vergleichskette",
+      "occurrence_index": 6,
+      "source_sha256": "e5c0556e1d38b8ec8e533092687b64eac553ad9c6a9937d593b1d565576df8d3",
+      "target_sha256": "c5141fec990fad2b97e1fe5ec146b378b3c1ee9422b47a4fdcfed028550402d8"
+    },
+    {
+      "correction_id": "O011-CORR-0299",
+      "surface": "command:vergleichskette",
+      "occurrence_index": 13,
+      "source_sha256": "1a191c5550a964ca9361913587078156b3629af098c1190b722eb9b94e00d881",
+      "target_sha256": "8767faba62ce05868fc4a503bfe4aae53a6153571e72446aaf07cb3725718852"
+    },
+    {
+      "correction_id": "O011-CORR-0300",
+      "surface": "command:vergleichskette",
+      "occurrence_index": 44,
+      "source_sha256": "9e421ec602087df3fc810ea31fe37ac7b6d24fc74d7f4b91b959007493b84f61",
+      "target_sha256": "2cbeeea034ad171450347d5082c312eac3ef7a37958f8b90e642561b7337b85e"
+    },
+    {
+      "correction_id": "O011-CORR-0301",
+      "surface": "command:vergleichskette",
+      "occurrence_index": 48,
+      "source_sha256": "0663ff1ea71f1d6adcd11c704439b7d732a4422fb623bc3e4697d697c5f6e90a",
+      "target_sha256": "49822ba2b2f749fc9e8e31e1d546af16020cb432c6c37d1e44923e6dd89558a2"
+    },
+    {
+      "correction_id": "O011-CORR-0302",
+      "surface": "command:vergleichskette",
+      "occurrence_index": 50,
+      "source_sha256": "7fca73cd32bb00482e5f4ec41c0745c78f7e80455900644262ef0034863ffb99",
+      "target_sha256": "639b62b3547d9633552f4896acf7108d619fc346a66b6f90184180ab4304b1e5"
+    },
+    {
+      "correction_id": "O011-CORR-0304",
+      "surface": "command:vergleichskette",
+      "occurrence_index": 53,
+      "source_sha256": "12304372326c4b88de84a571db1d51587cf62163792dff5790c16b82056a70ac",
+      "target_sha256": "ed4a5e9abbe83214e4481293a8bc2902ed1dc03a9458f5ef6bdc996983c8ff89"
+    },
+    {
+      "correction_id": "O011-CORR-0305",
+      "surface": "command:vergleichskette",
+      "occurrence_index": 60,
+      "source_sha256": "03457bd072dc5daf8d03b94350126c9b46dd01ad2232d5d2244bea1d95f41ca1",
+      "target_sha256": "1abb09315148527981a658535680460b02a818712dedbaf2e88a20e298549daf"
+    },
+    {
+      "correction_id": "O011-TRANS-0309",
+      "surface": "command:mathdisp",
+      "occurrence_index": 1,
+      "source_sha256": "1a34735d1e44bc5588279f79b1a586168cba26f93ad5a2032f36914226dc5d61",
+      "target_sha256": "88f268c352aef51433cc52165026feada599b8d753fa3cfde7d4081b95bedad1"
+    }
+  ]
+}

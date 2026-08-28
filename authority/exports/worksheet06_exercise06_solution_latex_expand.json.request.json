@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Sat, 22 Aug 2026 19:35:57 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Fläche im Raum/Paralleles Vektorfeld/Einheitsnormalenfeld/Kreuzprodukt/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 1268,
+  "response_path": "worksheet06_exercise06_solution_latex_expand.json",
+  "response_sha256": "ac8562314bc5e0fbfbef91117331cf260e751aada987ac6784c8e95f0fdc82fb",
+  "retrieved_utc": "2026-08-22T19:35:58Z",
+  "schema_version": 1
+}

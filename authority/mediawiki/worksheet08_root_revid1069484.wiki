@@ -1,0 +1,172 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblattgestaltung|8|
+
+{{Zwischenüberschrift|Übungsaufgaben}}
+
+{{
+inputaufgabe
+|Differenzierbare Mannigfaltigkeit/Überdeckungskriterium für differenzierbare Abbildung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Differenzierbare Mannigfaltigkeit/Karte ist Diffeomorphismus/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Differenzierbare Funktionen/Strukturelle Eigenschaften/Fakt/Beweis/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Sphäre/Stereographisch/Koordinaten des Raumes/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Differenzierbare Abbildung/Ringhomomorphismus auf Funktionen/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Koordinateneinbettung/R^m in R^n/Differenzierbar/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Zylinder/Punktierte Ebene/Sphäre ohne Pole/Diffeomorph/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+Die nächste Aufgabe verwendet folgende Definition.
+{{:Funktion/K/Homogen/Definition||}}
+
+{{
+inputaufgabe
+|Homogene Funktion/Faser/Diffeomorph/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Rotationsmenge/Positive Funktion/Differenzierbar/Mannigfaltigkeit/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Ellipsoidoberfläche und Sphäre/Diffeomorph/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Zweidimensionale zusammenhängende Mannigfaltigkeit/Ohne Punkt/Diffeomorph/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|S^n/Antipodenabbildung/Diffeomorphismus/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Viele Diffeomorphismen/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+Die folgenden Aufgaben sollen erläutern, warum man Mannigfaltigkeiten mit offenen Überdeckungen ansetzt.
+
+{{:Topologischer Raum/Folge/Konvergenz/Definition|}} 
+
+{{
+inputaufgabe
+|Topologische Mannigfaltigkeit/Folge/Konvergenz/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Topologische Mannigfaltigkeit/Rekonstruktion aus Karten/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+Das in der vorstehenden Aufgabe beschriebene Konstruktionsverfahren für eine Mannigfaltigkeit funktioniert für eine Familie von offenen Teilmengen im {{math|term=\R^n|SZ=}} mit Übergangsabbildungen, die die Kozykelbedingung aus
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Mannigfaltigkeit/Übergangsabbildungen/Kozykelbedingung/Aufgabe
+|Nr=
+|SZ=
+}}
+erfüllen. Allerdings ist der dabei entstehende topologische Raum nicht ohne weiteres ein Hausdorff-Raum. Man spricht vom {{Stichwort|offenen Verkleben|msw=Offenes Verkleben|SZ=}} von Räumen.
+
+{{
+inputaufgabe
+|Zwei Geraden/Verklebung/1-Sphäre/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Gerade/Verdoppelter Punkt/Verklebung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{Zwischenüberschrift|Aufgaben zum Abgeben}}
+
+In der folgenden Aufgabe interpretiere man {{math|term={{CC}}|SZ=}} als {{math|term=\R^2|SZ=.}} 
+{{
+inputaufgabe
+|Komplexe Multiplikation/Fasern/Mannigfaltigkeit/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Sphäre/Zwei Punkte/Überführender Diffeomorphismus/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Differenzierbare Funktionen/Garbeneigenschaft/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Differenzierbare Mannigfaltigkeit/Nicht einpunktig/C^1-Funktionen/Nullteiler/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+}}

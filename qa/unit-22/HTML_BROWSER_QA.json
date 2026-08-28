@@ -1,0 +1,157 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-html-browser-qa-v22",
+  "status": "pass",
+  "generated_at": "2026-08-28T11:48:13.9433734Z",
+  "scope": "Real-browser desktop/mobile, MathJax, deep-link, local-scroll, media, and interaction QA for the exact cumulative Indonesian HTML reader through Unit 22.",
+  "browser": "Codex In-app Browser",
+  "test_protocol": "The exact final output tree was served from a task-local loopback HTTP origin after deterministic export and two independent restages. The same final bytes were exercised at desktop and mobile viewport overrides. MathJax completion, page and local overflow, final deep-link alignment after delayed layout, navigation, a representative wide formula, both static-first animation controllers, loaded media, and console state were checked. The temporary viewport override was reset and the test tab and loopback servers were closed.",
+  "surface": {
+    "entry": {
+      "path": "output/html/unit-22/index.html",
+      "bytes": 1525348,
+      "sha256": "260d16445fabffa3f3225c6c97c9727e2215378a29d5ad8d9e352d8adc5d5cd5"
+    },
+    "manifest": {
+      "path": "output/html/unit-22/manifest.json",
+      "bytes": 152234,
+      "sha256": "c1d7a977f75c03ba839a6b805b5d521525cceaa103fff27469482eea1e18d3d5"
+    },
+    "stylesheet": {
+      "path": "output/html/unit-22/assets/reader.css",
+      "bytes": 7045,
+      "sha256": "b2af565e44ff10837308b0d1bc693ef8be350e2a80fa4d654ce2ecac3864e0b0"
+    },
+    "structural_qa": {
+      "path": "qa/unit-22/HTML_READER_QA.json",
+      "bytes": 10029,
+      "sha256": "4bf37f194b5ef4bd300c068b04bf49f374ff0822a21996ce454ef599e5366377"
+    },
+    "complete_tree_inventory_sha256": "8a27ef38e1a25d623d3dd9ab000aa8c5c4c5fdba2c6fe2ed4dbdc99f4389afab"
+  },
+  "desktop": {
+    "requested_viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "viewport": {
+      "inner_width": 1280,
+      "inner_height": 720,
+      "document_client_width": 1265,
+      "document_scroll_width": 1265,
+      "page_has_horizontal_overflow": false
+    },
+    "main": {
+      "left_px": 16,
+      "right_px": 1248.888916015625,
+      "width_px": 1232.888916015625
+    },
+    "unit22": {
+      "left_px": 67.19444274902344,
+      "right_px": 1197.6944427490234,
+      "width_px": 1130.5
+    },
+    "unit22_display_math_count": 41,
+    "unit22_figures": 2,
+    "reader_centered_and_fills_available_wrapper": true,
+    "unit_navigation_overflow_x": "auto"
+  },
+  "mobile": {
+    "requested_viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "viewport": {
+      "inner_width": 390,
+      "inner_height": 844,
+      "document_client_width": 375,
+      "document_scroll_width": 375,
+      "page_has_horizontal_overflow": false
+    },
+    "main": {
+      "left_px": 0,
+      "right_px": 375.1111145019531,
+      "width_px": 375.1111145019531
+    },
+    "unit22": {
+      "left_px": 16,
+      "right_px": 359.1111145019531,
+      "width_px": 343.1111145019531
+    },
+    "unit22_math_elements": 295,
+    "unit22_overflowing_math_elements": 42,
+    "all_overflowing_math_locally_scrollable": true,
+    "oversize_images": 0,
+    "unit_navigation_position": "static"
+  },
+  "wide_formula_scroll": {
+    "unit": 22,
+    "formula": "tilde g_j piecewise definition",
+    "client_width_px": 273,
+    "scroll_width_px": 356,
+    "initial_scroll_left_px": 0,
+    "final_scroll_left_px": 83.11111450195312,
+    "horizontal_user_scroll_passed": true
+  },
+  "runtime": {
+    "math_source_elements": 7261,
+    "mathjax_containers": 7261,
+    "mathjax_errors": 0,
+    "console_errors_or_warnings": 0,
+    "broken_loaded_images": 0,
+    "units": 22,
+    "exercises": 457,
+    "source_supplied_solutions": 64,
+    "figures": 31,
+    "broken_internal_links": 0,
+    "duplicate_ids": 0
+  },
+  "animations": [
+    {
+      "id": "o011-brenner-u12-l12-fig-001",
+      "initial_state": "stopped",
+      "initial_source": "assets/media/Fiddler_crab_mobius_strip.png",
+      "play_state": "playing",
+      "play_source": "assets/media/Fiddler%20crab%20mobius%20strip.gif",
+      "play_status": "Animasi sedang diputar.",
+      "stop_state": "stopped",
+      "stop_source": "assets/media/Fiddler_crab_mobius_strip.png",
+      "stop_status": "Animasi dihentikan; bingkai statis ditampilkan."
+    },
+    {
+      "id": "o011-brenner-u18-l18-fig-001",
+      "initial_state": "stopped",
+      "initial_source": "assets/media/Poincarehalfplaneconform.png",
+      "play_state": "playing",
+      "play_source": "assets/media/Poincarehalfplaneconform.gif",
+      "play_status": "Animasi sedang diputar.",
+      "stop_state": "stopped",
+      "stop_source": "assets/media/Poincarehalfplaneconform.png",
+      "stop_status": "Animasi dihentikan; bingkai statis ditampilkan."
+    }
+  ],
+  "deep_link_and_navigation": {
+    "fragment": "#o011-brenner-u22",
+    "target_exists": true,
+    "mobile_target_top_after_final_mathjax_layout_px": 79.8125,
+    "unit22_navigation_link_count": 1,
+    "unit22_navigation_click_fragment": "#o011-brenner-u22",
+    "unit22_navigation_click_target_top_px": 79.8125,
+    "pass": true
+  },
+  "checks": {
+    "exact_final_structural_surface_bound": true,
+    "desktop_centered_without_page_overflow": true,
+    "mobile_reflows_without_page_overflow": true,
+    "wide_navigation_remains_locally_scrollable": true,
+    "wide_mathematics_accepts_local_horizontal_scroll": true,
+    "mathjax_runtime_complete_without_errors": true,
+    "internal_links_resolve": true,
+    "deep_link_stabilizer_tracks_delayed_math_layout": true,
+    "animations_are_static_first": true,
+    "both_play_stop_controls_update_source_state_and_status": true,
+    "loaded_images_render": true,
+    "temporary_viewport_override_reset": true,
+    "test_tab_and_loopback_servers_closed": true
+  }
+}

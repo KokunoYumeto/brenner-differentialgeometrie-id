@@ -1,0 +1,140 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblattgestaltung|22|
+
+{{Zwischenüberschrift|Übungsaufgaben}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit mit Rand/Rand ist topologischer Rand des Komplementes/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Einige Funktionen auf R/Ihr Träger/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Topologischer Raum/Funktion/Träger/Stetigkeitstest/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Teilmenge/Abschluss und Träger der Indikatorfunktion/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|R/Kompakte Ausschöpfung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|R^n/Kompakte Ausschöpfung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Partition der Eins/Triviale Überdeckung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Partition der Eins/Indikatorfunktionen zu Punkten/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|R/Kompakte Ausschöpfung durch abgeschlossene Intervalle/Überdeckung durch offene Intervalle/Lokal endliche Intervalle/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Abgeschlossenes Einheitsintervall/Partition der 1/0 im Träger/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Halbraum/Offene Menge/Differenzierbare Funktion/Gemeinsame Fortsetzung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|R nach R/Differenzierbar/Kompakter Träger/Ableitung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|R \geq 0 nach R/Differenzierbar/Kompakter Träger oder nicht/Satz von Stokes/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Abzählbare Basis/Riemannsche Struktur/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Abzählbare Basis/Vektorbündel/Riemannsche Struktur/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{Zwischenüberschrift|Aufgaben zum Abgeben}}
+
+{{
+inputaufgabe
+|Kompakte Ausschöpfung/Beziehung der Teilmengen/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|R/Stetige Partition der Eins/Zu Intervallen der Länge 3/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|R^2/Kompakte Ausschöpfung durch abgeschlossene Bälle/Überdeckung durch offene Kreisringe/Lokal endliche Bälle/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Topologischer Raum/Keine kompakte Ausschöpfung/Beispiel/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+}}

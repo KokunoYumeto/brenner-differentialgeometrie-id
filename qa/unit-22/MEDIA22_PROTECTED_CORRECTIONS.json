@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "scope": "build/generated/media aliases required by the Unit 22 TeX loader",
+  "corrections": [
+    {
+      "correction_id": "O011-ACC-0310",
+      "anchor": "Unit 22 media loader names",
+      "change": "Create deterministic hash-bound loader aliases for the exact rights-closed source assets without altering the canonical media bytes or attribution."
+    }
+  ],
+  "allowed_deltas": [],
+  "evidence_only_deltas": []
+}

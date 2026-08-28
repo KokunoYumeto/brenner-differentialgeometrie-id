@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Sat, 22 Aug 2026 19:35:57 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Kugeloberfläche/Vektorfeld zu Breitenkreis/Kovariante Ableitung/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 3065,
+  "response_path": "worksheet06_exercise02_solution_latex_expand.json",
+  "response_sha256": "b542b94d73829496a7aa4261c38af095240a966b99445fbb4b7f5c3c560e757e",
+  "retrieved_utc": "2026-08-22T19:35:58Z",
+  "schema_version": 1
+}

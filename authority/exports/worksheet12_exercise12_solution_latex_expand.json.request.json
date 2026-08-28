@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Mon, 24 Aug 2026 02:08:41 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Topologisches reelles Vektorbündel/Verklebungsdatum/Existenz/Fakt/Beweis/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 1495,
+  "response_path": "worksheet12_exercise12_solution_latex_expand.json",
+  "response_sha256": "be45da11f19a062f7d7ab125089b8a036842cb7368cca8c21057db9bfcdffeee",
+  "retrieved_utc": "2026-08-24T02:08:41Z",
+  "schema_version": 1
+}

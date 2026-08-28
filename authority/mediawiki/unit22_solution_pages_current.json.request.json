@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 10:46:36 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Mannigfaltigkeit mit Rand/Rand ist topologischer Rand des Komplementes/Aufgabe/Lösung|Einige Funktionen auf R/Ihr Träger/Aufgabe/Lösung|Topologischer Raum/Funktion/Träger/Stetigkeitstest/Aufgabe/Lösung|Teilmenge/Abschluss und Träger der Indikatorfunktion/Aufgabe/Lösung|R/Kompakte Ausschöpfung/Aufgabe/Lösung|R^n/Kompakte Ausschöpfung/Aufgabe/Lösung|Partition der Eins/Triviale Überdeckung/Aufgabe/Lösung|Partition der Eins/Indikatorfunktionen zu Punkten/Aufgabe/Lösung|R/Kompakte Ausschöpfung durch abgeschlossene Intervalle/Überdeckung durch offene Intervalle/Lokal endliche Intervalle/Aufgabe/Lösung|Abgeschlossenes Einheitsintervall/Partition der 1/0 im Träger/Aufgabe/Lösung|Halbraum/Offene Menge/Differenzierbare Funktion/Gemeinsame Fortsetzung/Aufgabe/Lösung|R nach R/Differenzierbar/Kompakter Träger/Ableitung/Aufgabe/Lösung|R \\geq 0 nach R/Differenzierbar/Kompakter Träger oder nicht/Satz von Stokes/Aufgabe/Lösung|Mannigfaltigkeit/Abzählbare Basis/Riemannsche Struktur/Aufgabe/Lösung|Mannigfaltigkeit/Abzählbare Basis/Vektorbündel/Riemannsche Struktur/Aufgabe/Lösung|Kompakte Ausschöpfung/Beziehung der Teilmengen/Aufgabe/Lösung|R/Stetige Partition der Eins/Zu Intervallen der Länge 3/Aufgabe/Lösung|R^2/Kompakte Ausschöpfung durch abgeschlossene Bälle/Überdeckung durch offene Kreisringe/Lokal endliche Bälle/Aufgabe/Lösung|Topologischer Raum/Keine kompakte Ausschöpfung/Beispiel/Aufgabe/Lösung"
+  },
+  "response_bytes": 3291,
+  "response_path": "unit22_solution_pages_current.json",
+  "response_sha256": "3cf0d407acd09455faedae70fde40bfe1c41dc7fb88d2b055792a2f38ef90fd9",
+  "retrieved_utc": "2026-08-28T10:46:36Z",
+  "schema_version": 1
+}

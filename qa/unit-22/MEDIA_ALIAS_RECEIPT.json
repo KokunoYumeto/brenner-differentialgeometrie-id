@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-unit22-cumulative-media-aliases-v1",
+  "aliases": [
+    {
+      "source": "authority/media/Toroidal coord.png",
+      "target": "build/generated/media/Toroidal_coord.png",
+      "role": "Unit 11 MediaWiki underscore-normalized PNG loader alias",
+      "transient": false,
+      "bytes": 151522,
+      "sha256": "f09c9189157aedc9c9d516d24ffdf80c6e3d413101e2eb38e3c0cda996c5d618"
+    },
+    {
+      "source": "authority/media/Sphere with three handles.png",
+      "target": "build/generated/media/Sphere_with_three_handles.png",
+      "role": "Unit 16 MediaWiki underscore-normalized PNG loader alias",
+      "transient": false,
+      "bytes": 398740,
+      "sha256": "49398059697841332186226bccf87e46032289c1a8a02063fc2600070c51a311"
+    },
+    {
+      "source": "authority/media/Hyperboloid2.png",
+      "target": "build/generated/media/Hyperboloid2.png",
+      "role": "Unit 18 MediaWiki static PNG loader alias",
+      "transient": false,
+      "bytes": 194637,
+      "sha256": "d6e7b45784e7208f652106f0df65839d635a3058b1fa834455e490e904c61ef0"
+    },
+    {
+      "source": "build/generated/media/Runge theorem.png",
+      "target": "build/generated/media/Runge_theorem.png",
+      "role": "Unit 21 MediaWiki underscore-normalized SVG print-derivative alias",
+      "transient": false,
+      "bytes": 203109,
+      "sha256": "66dffb62de06584cdc689b5dab5ee4a57aaca613e4e4d44e0d01fea7cda4b133"
+    },
+    {
+      "source": "build/generated/media/Circle on sphere wireframe 10deg 6r.png",
+      "target": "build/generated/media/Circle_on_sphere_wireframe_10deg_6r.png",
+      "role": "Unit 21 MediaWiki underscore-normalized SVG print-derivative alias",
+      "transient": false,
+      "bytes": 831787,
+      "sha256": "112d1b5f964a7a34125eeab32897ce896eed642ebc640b7bb3b8e0a84f7d44d2"
+    },
+    {
+      "source": "authority/media/Inner point.png",
+      "target": "build/generated/media/Inner_point.png",
+      "role": "Unit 22 MediaWiki underscore-normalized PNG reader alias",
+      "transient": false,
+      "bytes": 9165,
+      "sha256": "8a8574b52fd937cd9f10c73bac3ab32b0b79300763a30ee4ecb2e260b39c2695"
+    },
+    {
+      "source": "build/generated/media/Partition of unity illustration.png",
+      "target": "build/generated/media/Partition_of_unity_illustration.png",
+      "role": "Unit 22 MediaWiki underscore-normalized SVG print-derivative alias",
+      "transient": false,
+      "bytes": 88626,
+      "sha256": "a29ea8ca84cffd71518c29eca73f64796a4ecc0d86ed23bc73ae04d7bc2141b1"
+    },
+    {
+      "source": "authority/media/Torus vectors oblique.jpg",
+      "target": "authority/media/Torus_vectors_oblique.jpg",
+      "role": "transient Unit 10 MediaWiki underscore-normalized JPEG loader alias",
+      "transient": true,
+      "bytes": 251142,
+      "sha256": "cfcd0c5c16262a6beab6dd47dc27291b7ff3651228b2b9defc0717957ce5d3f6"
+    },
+    {
+      "source": "authority/media/Georg Friedrich Bernhard Riemann.jpeg",
+      "target": "authority/media/Georg_Friedrich_Bernhard_Riemann.jpg",
+      "role": "transient Unit 16 MediaWiki underscore-normalized JPEG loader alias",
+      "transient": true,
+      "bytes": 255626,
+      "sha256": "945240277e351b4deacc64e0a8e0cbb5c8398a5d13ae322eafb55bfae91cabc6"
+    }
+  ],
+  "transient_alias_removed_after_pipeline": true
+}

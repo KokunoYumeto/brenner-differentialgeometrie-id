@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Mon, 24 Aug 2026 02:55:26 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Metrischer Raum/Kompakt/Vollständig/Fakt/Beweis/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 1406,
+  "response_path": "worksheet13_exercise16_solution_latex_expand.json",
+  "response_sha256": "0332c58661d863226dee5304be7cadf79d686ed9c5ac404c2a5bf63a810a2efc",
+  "retrieved_utc": "2026-08-24T02:55:26Z",
+  "schema_version": 1
+}

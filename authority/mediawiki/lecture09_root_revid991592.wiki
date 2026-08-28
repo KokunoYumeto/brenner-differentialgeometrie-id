@@ -1,0 +1,52 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesungsgestaltung|9|
+
+{{Zwischenüberschrift|Der Tangentialraum einer differenzierbaren Mannigfaltigkeit}}
+
+{{:Differenzierbare Mannigfaltigkeit/Tangentialraum/Motivation/Einführung/Textabschnitt|}} 
+
+{{:Differenzierbare Mannigfaltigkeit/Tangentialraum über Wege/Einführung/Textabschnitt|}} 
+
+{{
+inputdefinition
+|Differenzierbare Mannigfaltigkeit/Kotangentialraum/Definition||
+}}
+
+{{:Differenzierbare Mannigfaltikeit/Funktorielle Eigenschaften des Tangentialraums/Textabschnitt}}
+
+{{
+inputdefinition
+|Mannigfaltigkeit/Differenzierbare Abbildung/Regulär/Über Rang/Definition||
+}}
+
+Diese Definition verallgemeinert die entsprechende
+{{
+Definitionslink
+|Definition|
+|Kontext=|
+|Definitionsseitenname=
+Differenzierbare Abbildung/R/Regulärer Punkt/Maximaler Rang/Definition
+|SZ=
+}}
+von euklidischen Teilmengen auf Mannigfaltigkeiten. Sie bedeutet einfach, dass bei
+{{
+Relationskette
+| \operatorname{dim} (L)
+|\geq|  \operatorname{dim} (M)
+||
+||
+||
+|SZ=
+}} 
+die Tangentialabbildung in {{math|term= Q |SZ=}} surjektiv sein muss und bei
+{{
+Relationskette
+| \operatorname{dim} (L)
+|\leq|  \operatorname{dim} (M)
+||
+||
+||
+|SZ=
+}}
+injektiv sein muss.
+
+}}

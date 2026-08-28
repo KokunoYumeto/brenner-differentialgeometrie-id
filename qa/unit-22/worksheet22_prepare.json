@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-22/worksheet22.id.tex",
+  "input_bytes": 7650,
+  "input_sha256": "8f83748984c53a9ebecd44ba14d439fee9087d65f6466e71b61da2b4ced885b1",
+  "output": "build/generated/worksheet22.id.build.tex",
+  "output_bytes": 7491,
+  "output_sha256": "e04e99ff8210a47cd1a2150eae6b62fa74360d32e899a295415b6ee084859b84",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Mannigfaltigkeit/Abzählbare Basis/Lokal endlicher Atlas/Fakt",
+      "label": "Lemma 22.9"
+    },
+    {
+      "target": "Mannigfaltigkeit/Abzählbare Basis/Lokal endlicher Atlas/Fakt",
+      "label": "Lemma 22.9"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

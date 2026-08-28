@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Mon, 24 Aug 2026 02:55:26 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Kompakte Mannigfaltigkeit/x^2+y^4+z^6 ist 1/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 1052,
+  "response_path": "worksheet13_exercise18_solution_latex_expand.json",
+  "response_sha256": "9caf6520fe8c3bfdcd7f472922fe5eb37ae55017f3ce07749277bf7b48f7da0d",
+  "retrieved_utc": "2026-08-24T02:55:26Z",
+  "schema_version": 1
+}

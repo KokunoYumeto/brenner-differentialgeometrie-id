@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-22/worksheet22.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0306",
+      "anchor": "Exercise 22.10 impossible locally finite support condition",
+      "change": "Replace the impossible construction command by a request to prove that no such sequence exists."
+    },
+    {
+      "correction_id": "O011-CORR-0307",
+      "anchor": "Exercise 22.11 extension restriction equation",
+      "change": "Restrict the extension to V rather than to its entire domain tilde V before equating it with f."
+    },
+    {
+      "correction_id": "O011-CORR-0308",
+      "anchor": "Exercise 22.16 negative exhaustion index",
+      "change": "Add the convention A minus one equals the empty set so the claim is defined for n equal to zero."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_ids": [
+        "O011-CORR-0307",
+        "O011-CORR-0308"
+      ],
+      "surface": "profile:commands",
+      "source_sha256": "560413d43518a3dc135406b23864f102d4ce80709e13aefa42e86391d6f913f5",
+      "target_sha256": "2e13d476303df211fb46b65011f32d17fb4f3c07a3a3f40de53b9bf79d1eed1d"
+    },
+    {
+      "correction_ids": [
+        "O011-CORR-0307",
+        "O011-CORR-0308"
+      ],
+      "surface": "profile:brace_profile",
+      "source_sha256": "d71778d8516b3a44f3cbe5baa148b23c861141ca9c5b3dd8bd66018884a4c666",
+      "target_sha256": "7a332061b3bd747d2d3806aa345fca80f4c044d9e68032aa98032172bbe2b4c6"
+    },
+    {
+      "correction_id": "O011-CORR-0307",
+      "surface": "protected:vergleichskette",
+      "index": 8,
+      "source_sha256": "6512370c0f904f78290fcbf64cd925d90e27bf84f8f5a9686699edc4a1075c52",
+      "target_sha256": "f4ace0fd3fe8909853162eda9737726799ead4cec9f2f0cc65a70457e232319b"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-CORR-0306",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 8,
+      "source_sha256": "39de8d75e3e628998eea17fddf9ce933db9b68fbf07b0302b4062a352539fe2d",
+      "target_sha256": "e5cde868f7bad625c2a5615568db9b9e4288184d42ddf47142d6cf038f3a69a5"
+    },
+    {
+      "correction_id": "O011-CORR-0307",
+      "surface": "command:vergleichskette",
+      "occurrence_index": 8,
+      "source_sha256": "6512370c0f904f78290fcbf64cd925d90e27bf84f8f5a9686699edc4a1075c52",
+      "target_sha256": "f4ace0fd3fe8909853162eda9737726799ead4cec9f2f0cc65a70457e232319b"
+    },
+    {
+      "correction_id": "O011-CORR-0308",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 14,
+      "source_sha256": "5c966dea46df379052cb9cd11cd0ea00eb8f05a3b5f689b50d0c34b7d53c1887",
+      "target_sha256": "89aa3b2abfb4e7d3f0ed3ac30408b110e169f4642c5c2ab5f474452ef36db94e"
+    }
+  ]
+}

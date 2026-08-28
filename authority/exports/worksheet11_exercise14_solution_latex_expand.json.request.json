@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Mon, 24 Aug 2026 01:59:30 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Torus/Surjektive Abbildung von Ebene/Surjektive Tangentialabbildung/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 1039,
+  "response_path": "worksheet11_exercise14_solution_latex_expand.json",
+  "response_sha256": "7cc22289cfde9975c9e65850eae33ed2a93aaaf460a33415003c3a7efbf73edb",
+  "retrieved_utc": "2026-08-24T01:59:29Z",
+  "schema_version": 1
+}

@@ -1,0 +1,47 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Als abgeschlossene beschränkte Teilmenge des {{math|term= \R^2 |SZ=}} ist der Einheitskreis kompakt
+{{
+Zusatz/Klammer
+|text=
+{{
+Faktlink
+|Präwort=|Satz von Heine-Borel|Faktseitenname=
+Kompaktheit/Satz von Heine-Borel/Fakt
+|Nr=
+|SZ=
+}}
+|
+|ISZ=|ESZ=.
+}} Die reelle Gerade {{math|term= \R|SZ=}} und {{math|term= \R \setminus \{0\} |SZ=}} sind hingegen nicht kompakt, da sie unbeschränkte Teilmengen von {{math|term= \R|SZ=}} sind. Also ist {{mathl|term= S^1 \not \cong \R,\, \R \setminus \{0\} |SZ=.}}
+
+Die reelle Gerade ist zusammenhängend, wie aus dem 
+{{
+Faktlink
+|Präwort=|Zwischenwertsatz|Faktseitenname=
+Reelle Analysis/Zwischenwertsatz/Fakt
+|Nr=
+|SZ=
+}}
+folgt. Dagegen ist {{math|term= \R \setminus \{0\} |SZ=}} nicht zusammenhängend, da man
+{{
+Relationskette/display
+|\R_+
+||(\R \setminus \{0\}) \cap [0, \infty]
+||(\R \setminus \{0\}) \cap \, ]0, \infty]
+||
+||
+|SZ=
+}}
+schreiben kann, sodass man eine sowohl offene als auch abgeschlossene nichtleere Teilmenge erhält. Also ist {{mathl|term=   \R \,\not \cong \R \setminus \{0\} |SZ=.}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

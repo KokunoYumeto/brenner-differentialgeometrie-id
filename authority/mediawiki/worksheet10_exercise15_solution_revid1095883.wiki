@@ -1,0 +1,105 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Wir behaupten
+{{
+Relationskette/align/handlinks
+| TY
+|| {{Mengebed| (P,u) | h(P) {{=}} c| {{op:Totales Differential| h | P |u}} {{=}} 0 }} 
+|| {{Mengebed| (P,u_1 {{kommadots}} u_n) | h(P) {{=}} 0| \sum_{i {{=}} 1}^n u_i {{op:Partielle Ableitung| h | x_i |P}} {{=}} 0 }} 
+| \subseteq| W \times \R^n
+|| 
+|| 
+|SZ=
+}}
+mit der natürlichen Projektion nach {{math|term= Y |SZ=.}} Wir fassen dabei {{math|term= h |SZ=}} als Funktion auf dem {{math|term= \R^{2n} |SZ=}} auf, die nur von den ersten {{math|term= n |SZ=}} Variablen abhängt. Die beiden Funktionen {{math|term= h |SZ=}}  und
+{{
+Relationskette/display
+| g(P,u)
+|| \sum_{i {{=}} 1}^n u_i {{op:Partielle Ableitung| f | x_i |P}}
+|| 
+|| 
+|| 
+|SZ=
+}}
+sind stetig und daher ist eine durch Gleichungen bestimmte abgeschlossene Teilmenge von {{math|term= W \times \R^n |SZ=}} gegeben. Zu jedem festen Punkt
+{{
+Relationskette
+| P
+| \in |  Y
+||
+||
+||
+|SZ=
+}}
+ist
+{{
+Relationskette/display
+|  \pi^{-1}(P) 
+|| {{Mengebed| (u_1 {{kommadots}} u_n) | \sum_{i {{=}} 1}^n u_i {{op:Partielle Ableitung| h | x_i |P}} {{=}} 0 }}
+| \subseteq |  \R^n
+|| 
+|| 
+|SZ=
+}}  
+der 
+{{
+Definitionslink
+|Prämath=
+|Tangentialraum an die Faser|
+|Kontext=|
+|SZ=
+}}
+{{math|term= Y |SZ=}} im Punkt {{math|term= P |SZ=.}} Aufgrund es Satzes über implizite Abbildungen gibt es zu jedem Punkt
+{{
+Relationskette
+| P
+| \in |  Y
+||
+||
+||
+|SZ=
+}}
+eine offene Umgebung
+{{
+Relationskette
+| P
+| \in |  U
+| \subseteq | Y
+||
+||
+|SZ=,
+}}
+eine offene Teilmenge
+{{
+Relationskette
+| V
+| \subseteq |  \R^{n-1}
+|| 
+|| 
+|| 
+|SZ=
+}}
+und ein Homöomorphismus
+{{
+Abbildung/display
+|name= \beta
+| V |U
+||
+|SZ=,
+}}
+der als Abbildung nach {{math|term= \R^n |SZ=}} stetig differenzierbar ist und eine stetige in der zweiten Komponenten lineare Abbildung
+{{
+Abbildung/display
+|name=
+|V \times \R^{n-1} | U \times \R^n
+|(Q,z)| ( \beta(q), {{op:Totales Differential|\beta| Q |z}} )
+|SZ=,
+}}
+induziert, die stets im Tangentialraum an die Faser landet. Dies zeigt, dass die eingebettete Realisierung auch mit der Bündelstruktur und der Topologie des Tangentialbündels übereinstimmt.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

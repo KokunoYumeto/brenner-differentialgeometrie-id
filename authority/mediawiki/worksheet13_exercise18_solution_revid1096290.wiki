@@ -1,0 +1,30 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Wir betrachten die differenzierbare Abbildung
+{{
+Abbildung/display
+|name=\varphi
+|\R^3|\R
+|(x,y,z)| x^2+y^4+z^6-1
+|SZ=.
+}}
+Die Menge {{math|term= M |SZ=}} ist die Faser von {{math|term= \varphi|SZ=}} über {{math|term= 0 |SZ=.}} Es ist
+{{
+Math/display|term=
+ {{op:Totales Differential|\varphi|(x,y,z)}}  = (2x,4y^3,6z^5)
+|SZ=.
+}}
+Diese Ableitung ist nur bei {{mathl|term= (x,y,z)=(0,0,0) |SZ=}} gleich {{math|term= (0,0,0) |SZ=,}} und dies ist kein Punkt von {{math|term= M |SZ=,}} sodass {{math|term= \varphi|SZ=}} in jedem Punkt von {{math|term= M |SZ=}} regulär ist. Daher liegt nach dem Satz über implizite Abbildungen eine zweidimensionale Mannigfaltigkeit vor.
+
+Als Faser einer stetigen Abbildung ist {{math|term= M |SZ=}} eine abgeschlossene Teilmenge von {{math|term= \R^3 |SZ=.}} Ferner ist {{math|term= M |SZ=}} beschränkt. Für {{mathl|term= (x,y,z) \in M |SZ=}} ist nämlich {{mathl|term=  {{op:Betrag| x |}} , {{op:Betrag| y |}} ,{{op:Betrag| z |}} \leq 1 |SZ=,}} da andernfalls {{mathl|term= x^2+y^4+z^6 >1 |SZ=}} wäre. Dies impliziert die Kompaktheit.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

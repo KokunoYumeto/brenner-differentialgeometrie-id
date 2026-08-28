@@ -1,0 +1,23 @@
+{
+  "authority": "frozen recursive German Wikiversity Special:Export",
+  "exact_utf8_base64_sha256": "76f4a66bf203e4d1ea0c3c83b78c296aee93feb0d8a1770ffdf77ab488e68a65",
+  "exact_utf8_base64_witness": "authority/mediawiki/lecture12_root_revid1020020.utf8.b64",
+  "format": "text/x-wiki",
+  "mediawiki_sha1_base36": "0y192mvw096kgbv0ei7458dqazyc5um",
+  "model": "wikitext",
+  "namespace": 106,
+  "pageid": 142556,
+  "parentid": 991593,
+  "readable_normalized_bytes": 2726,
+  "readable_normalized_sha256": "b1d68a50c331183ba4e8626399a6b86b7af9019efdfa91e466f0a515cc0f234b",
+  "readable_normalized_witness": "authority/mediawiki/lecture12_root_revid1020020.wiki",
+  "revid": 1020020,
+  "schema_version": 1,
+  "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+  "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+  "source_utf8_bytes": 2725,
+  "source_utf8_sha1": "0817ef4ce3f34ce66a70261ca2f2f2eb525a969e",
+  "source_utf8_sha256": "32cb85c394036cea9b1fea9e72c22d68a80707b8bafb6decfe8c54652606c302",
+  "timestamp": "2025-08-09T13:43:26Z",
+  "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 12"
+}

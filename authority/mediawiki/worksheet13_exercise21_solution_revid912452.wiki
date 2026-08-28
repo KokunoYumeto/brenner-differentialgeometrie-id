@@ -1,0 +1,14 @@
+
+Als Antipodenabbildung erhalten wir die Matrix 
+:<math>
+\ dA = \begin{pmatrix}
+-1 & 0 & 0 \\
+0 & -1 & 0 \\
+0 & 0 & -1 \end{pmatrix}
+</math> <math> \in </math> <math>\R^{3x3}</math>.
+
+Folglich ist die Determinante von <math>dA</math> genau -1, also
+ <math> \det(dA) = -1 <0</math>
+ und somit ist <math>S^2</math> nicht orientierunstreu.
+
+Insbesondere erhalten wir daraus, dass <math>S^n</math> genau dann orientierunstreu ist, wenn <math>n</math> ungerade ist.

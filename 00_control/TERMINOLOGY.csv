@@ -304,3 +304,12 @@ O011-TERM-0302,differenzierbarer Halbweg,lintasan-separuh diferensiabel,admitted
 O011-TERM-0303,Annulus,anulus,admitted,Annular region; use tertutup when the source specifies closed
 O011-TERM-0304,Kreisring,anulus,admitted,Planar annulus
 O011-TERM-0305,abgeschlossene Kreisscheibe,cakram tertutup,admitted,Closed disk including its boundary
+O011-TERM-0306,Abschluss,penutupan,admitted,Topological closure; keep distinct from tutupan for a cover
+O011-TERM-0307,offenes Innere,interior terbuka,admitted,Interior of a subset; interior may be used after the definition
+O011-TERM-0308,innerer Punkt,titik interior,admitted,Interior point of a subset
+O011-TERM-0309,topologischer Rand,batas topologis,admitted,Topological boundary; distinguish from the boundary manifold
+O011-TERM-0310,Träger,tumpuan,admitted,Support of a function; field-attested Indonesian pure-mathematics term
+O011-TERM-0311,kompakte Ausschöpfung,penghabisan kompak,admitted,Compact exhaustion by nested compact subsets
+O011-TERM-0312,lokal endlich,terhingga secara lokal,admitted,Locally finite family
+O011-TERM-0313,untergeordnete Partition der Eins,partisi satuan subordinat terhadap tutupan,admitted,Partition of unity subordinate to an open cover
+O011-TERM-0314,riemannsche Struktur,struktur Riemann,admitted,Riemannian structure or metric in the source terminology

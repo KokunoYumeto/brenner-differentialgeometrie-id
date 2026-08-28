@@ -1,0 +1,116 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblattgestaltung|5|
+
+{{Zwischenüberschrift|Übungsaufgaben}}
+
+{{
+inputaufgabe
+|Quadratische Funktion/Zwei Variablen/Nullpunkt/Hauptkrümmungsrichtungen/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Rein-quadratische Funktion/Hauptkrümmungsrichtungen/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Quadratische Funktion/Drei Variablen/Krümmungsverhalten/2/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Quadratische Funktion/Drei Variablen/Charakteristisches Polynom/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Graph/Z ist x^2+y^3/Krümmungseigenschaften/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Funktion/Taylor-Entwicklung/Krümmungsverhalten/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Differenzierbare Hyperfläche/Allgemeiner Zylinder/Hauptkrümmungen/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{:Differenzierbare Hyperfläche/Gauß-Kronecker-Krümmung/Definition|}} 
+
+Die Gauß-Kronecker-Krümmung ist eine direkte Verallgemeinerung der Gaußkrümmung.
+
+{{
+inputaufgabe
+|Differenzierbare Hyperfläche/Gauß-Kronecker-Krümmung/Produkt der Hauptkrümmungen/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Differenzierbare Hyperfläche/Dreidimensional/Weingartenabbildung/Charakteristisches Polynom/Gauß-Kronecker-Krümmung/1/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Normalkrümmung/Differenzierbare Fläche/Tangentiale Richtung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{Zwischenüberschrift|Aufgaben zum Abgeben}}
+
+{{
+inputaufgabe
+|Graph/Z ist Funktion in zwei Variablen/Krümmungseigenschaften/2/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Quadratische Funktion/Drei Variablen/Krümmungsverhalten/3/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Differenzierbare Hyperfläche/Dreidimensional/Weingartenabbildung/Charakteristisches Polynom/Gauß-Kronecker-Krümmung/2/Aufgabe|p|
+|zusatz=
+|tipp=Tipp: Löse die Gleichung nach einer geeigneten Variablen auf und behandle die Hyperfläche als einen Graphen in den anderen Variablen.
+}}
+
+{{
+inputaufgabe
+|Normalkrümmung/Differenzierbare Fläche/Tangentiale Richtung/2/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Normalkrümmung/Differenzierbare Fläche/Schnitt nicht regulär/Skizze/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+}}

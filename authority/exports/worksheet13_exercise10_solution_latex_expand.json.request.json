@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Mon, 24 Aug 2026 02:55:25 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Kompakter Raum/Abgeschlossene Teilmenge/Kompakt/Fakt/Beweis/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 1885,
+  "response_path": "worksheet13_exercise10_solution_latex_expand.json",
+  "response_sha256": "0aae2a14b440b124ff5aca0ca7aa87e0652fdb21bf90c8292937a99c45d4e7f0",
+  "retrieved_utc": "2026-08-24T02:55:25Z",
+  "schema_version": 1
+}

@@ -1,0 +1,324 @@
+{
+  "checks": {
+    "all_rebuilt_artifacts_match_canonical_bytes": true,
+    "backend_rebuilt_and_independently_verified_twice": true,
+    "both_clean_cycles_match_each_other": true,
+    "html_rebuilt_verified_and_zip_matched_twice": true,
+    "network_disabled_for_all_rebuild_commands": true,
+    "pdf_rebuilt_and_independently_verified_twice": true,
+    "required_resumable_source_closure_present": true,
+    "seven_file_outer_manifest_and_checksums_pass": true,
+    "source_zip_crc_paths_manifest_and_checksums_pass": true,
+    "two_independent_clean_extractions": true
+  },
+  "clean_rebuilds": [
+    {
+      "commands": [
+        {
+          "command": [
+            "pwsh.EXE",
+            "-NoProfile",
+            "-File",
+            "scripts/build_through_unit22.ps1"
+          ],
+          "exit_code": 0,
+          "output_bytes": 227528,
+          "output_sha256": "28e2fd3b614c8a3c752f55556878e468def0965444ee92490c75405e3b6263e4"
+        },
+        {
+          "command": [
+            "python.exe",
+            "scripts/verify_through_unit22_pdf.py"
+          ],
+          "exit_code": 0,
+          "output_bytes": 478640,
+          "output_sha256": "e87a211333b71f02a01957484d629db7886cf40bcaa69034d3c501c7310b72c9"
+        },
+        {
+          "command": [
+            "python.exe",
+            "scripts/export_html_v22.py",
+            "--root",
+            ".",
+            "--output",
+            "output/html/unit-22",
+            "--replace"
+          ],
+          "exit_code": 0,
+          "output_bytes": 260,
+          "output_sha256": "c4cdb4a792e4ab55fb537c8d22df552dcf9e26eaa4c91066404a9b2ba25bb13c"
+        },
+        {
+          "command": [
+            "python.exe",
+            "scripts/verify_html_v22.py",
+            "--root",
+            ".",
+            "--output",
+            "output/html/unit-22"
+          ],
+          "exit_code": 0,
+          "output_bytes": 1355,
+          "output_sha256": "1bab4fff80bd611ab15acbc906a7c7af39eee3aca80f5d40d0b55c5a4523bcc3"
+        },
+        {
+          "command": [
+            "python.exe",
+            "scripts/export_backend_v22.py",
+            "--root",
+            ".",
+            "--checkpoint",
+            "2026-08-28T13:30:00Z",
+            "--translation-state",
+            "mathematically_reviewed"
+          ],
+          "exit_code": 0,
+          "output_bytes": 4086,
+          "output_sha256": "ddeaa35d3f5eeadb063bdd2d06f12c1cd4ce8486a3ecc406106d41429c569a41"
+        },
+        {
+          "command": [
+            "python.exe",
+            "scripts/verify_backend_v22.py",
+            "--root",
+            "."
+          ],
+          "exit_code": 0,
+          "output_bytes": 593,
+          "output_sha256": "debc06067fec135b97c4a69ee66f2086911db6491149a35bb2cf903f1bdb67e1"
+        }
+      ],
+      "cycle": 1,
+      "extraction": {
+        "checksums": {
+          "bytes": 103424,
+          "path": "PACKAGE_CHECKSUMS.sha256",
+          "sha256": "67b30d6bd1a2d176ddb71ab1d3ce4c955f50af13811573c68abbf23508c65320"
+        },
+        "manifest": {
+          "bytes": 169588,
+          "path": "PACKAGE_MANIFEST.json",
+          "sha256": "bd79317b58df6897b604ece3bb7fde2bfa70e092b3b63048de294333afc4785a"
+        },
+        "members": 904,
+        "uncompressed_bytes": 76178952,
+        "zip": {
+          "bytes": 56860936,
+          "sha256": "8f85344d1fd91d709534b15b960ddaac16aaddfc2f5d6fb62cba802a99898f83"
+        }
+      },
+      "offline_proxy_blocking": true,
+      "outputs": {
+        "backend_csv": {
+          "bytes": 987360,
+          "sha256": "8bc81cbe634cb94f71640d1f5fd5e4c7a7697647f3a21b4ea161cb18c031d34b"
+        },
+        "backend_jsonl": {
+          "bytes": 2672207,
+          "sha256": "448982cccc2f7c21e275faae1314f3ef6731f6ba36c939035b295dcc7b3d195a"
+        },
+        "backend_manifest": {
+          "bytes": 26677,
+          "sha256": "43d190abeb2321fc06b10e882699ba8838488dbde4357cac586146c645b0886f"
+        },
+        "html_entry": {
+          "bytes": 1525348,
+          "sha256": "260d16445fabffa3f3225c6c97c9727e2215378a29d5ad8d9e352d8adc5d5cd5"
+        },
+        "html_manifest": {
+          "bytes": 152234,
+          "sha256": "c1d7a977f75c03ba839a6b805b5d521525cceaa103fff27469482eea1e18d3d5"
+        },
+        "html_tree_sha256": "062a5f9a39c6d73fb48113398f72c788267b6b6c2611c72745761568a7b98280",
+        "pdf": {
+          "bytes": 9046717,
+          "sha256": "4e6c03dc8388a4c10c464d939d5a416ab035c52e3bd233212c78a40617e02cf7"
+        }
+      }
+    },
+    {
+      "commands": [
+        {
+          "command": [
+            "pwsh.EXE",
+            "-NoProfile",
+            "-File",
+            "scripts/build_through_unit22.ps1"
+          ],
+          "exit_code": 0,
+          "output_bytes": 227528,
+          "output_sha256": "28e2fd3b614c8a3c752f55556878e468def0965444ee92490c75405e3b6263e4"
+        },
+        {
+          "command": [
+            "python.exe",
+            "scripts/verify_through_unit22_pdf.py"
+          ],
+          "exit_code": 0,
+          "output_bytes": 478640,
+          "output_sha256": "e87a211333b71f02a01957484d629db7886cf40bcaa69034d3c501c7310b72c9"
+        },
+        {
+          "command": [
+            "python.exe",
+            "scripts/export_html_v22.py",
+            "--root",
+            ".",
+            "--output",
+            "output/html/unit-22",
+            "--replace"
+          ],
+          "exit_code": 0,
+          "output_bytes": 260,
+          "output_sha256": "c4cdb4a792e4ab55fb537c8d22df552dcf9e26eaa4c91066404a9b2ba25bb13c"
+        },
+        {
+          "command": [
+            "python.exe",
+            "scripts/verify_html_v22.py",
+            "--root",
+            ".",
+            "--output",
+            "output/html/unit-22"
+          ],
+          "exit_code": 0,
+          "output_bytes": 1355,
+          "output_sha256": "1bab4fff80bd611ab15acbc906a7c7af39eee3aca80f5d40d0b55c5a4523bcc3"
+        },
+        {
+          "command": [
+            "python.exe",
+            "scripts/export_backend_v22.py",
+            "--root",
+            ".",
+            "--checkpoint",
+            "2026-08-28T13:30:00Z",
+            "--translation-state",
+            "mathematically_reviewed"
+          ],
+          "exit_code": 0,
+          "output_bytes": 4086,
+          "output_sha256": "ddeaa35d3f5eeadb063bdd2d06f12c1cd4ce8486a3ecc406106d41429c569a41"
+        },
+        {
+          "command": [
+            "python.exe",
+            "scripts/verify_backend_v22.py",
+            "--root",
+            "."
+          ],
+          "exit_code": 0,
+          "output_bytes": 593,
+          "output_sha256": "debc06067fec135b97c4a69ee66f2086911db6491149a35bb2cf903f1bdb67e1"
+        }
+      ],
+      "cycle": 2,
+      "extraction": {
+        "checksums": {
+          "bytes": 103424,
+          "path": "PACKAGE_CHECKSUMS.sha256",
+          "sha256": "67b30d6bd1a2d176ddb71ab1d3ce4c955f50af13811573c68abbf23508c65320"
+        },
+        "manifest": {
+          "bytes": 169588,
+          "path": "PACKAGE_MANIFEST.json",
+          "sha256": "bd79317b58df6897b604ece3bb7fde2bfa70e092b3b63048de294333afc4785a"
+        },
+        "members": 904,
+        "uncompressed_bytes": 76178952,
+        "zip": {
+          "bytes": 56860936,
+          "sha256": "8f85344d1fd91d709534b15b960ddaac16aaddfc2f5d6fb62cba802a99898f83"
+        }
+      },
+      "offline_proxy_blocking": true,
+      "outputs": {
+        "backend_csv": {
+          "bytes": 987360,
+          "sha256": "8bc81cbe634cb94f71640d1f5fd5e4c7a7697647f3a21b4ea161cb18c031d34b"
+        },
+        "backend_jsonl": {
+          "bytes": 2672207,
+          "sha256": "448982cccc2f7c21e275faae1314f3ef6731f6ba36c939035b295dcc7b3d195a"
+        },
+        "backend_manifest": {
+          "bytes": 26677,
+          "sha256": "43d190abeb2321fc06b10e882699ba8838488dbde4357cac586146c645b0886f"
+        },
+        "html_entry": {
+          "bytes": 1525348,
+          "sha256": "260d16445fabffa3f3225c6c97c9727e2215378a29d5ad8d9e352d8adc5d5cd5"
+        },
+        "html_manifest": {
+          "bytes": 152234,
+          "sha256": "c1d7a977f75c03ba839a6b805b5d521525cceaa103fff27469482eea1e18d3d5"
+        },
+        "html_tree_sha256": "062a5f9a39c6d73fb48113398f72c788267b6b6c2611c72745761568a7b98280",
+        "pdf": {
+          "bytes": 9046717,
+          "sha256": "4e6c03dc8388a4c10c464d939d5a416ab035c52e3bd233212c78a40617e02cf7"
+        }
+      }
+    }
+  ],
+  "coverage": "active_partial_through_unit_22",
+  "model_identification": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "outer_release": {
+    "files": [
+      {
+        "bytes": 9046717,
+        "filename": "geometri-diferensial-manifold-mulus-hingga-unit-22-id.pdf",
+        "sha256": "4e6c03dc8388a4c10c464d939d5a416ab035c52e3bd233212c78a40617e02cf7"
+      },
+      {
+        "bytes": 7301411,
+        "filename": "geometri-diferensial-manifold-mulus-unit22-html-20260828.zip",
+        "sha256": "9e6782f535d3299c959d76f903bf74fb5593a560d0f2126349aa4f65c64dcdcc"
+      },
+      {
+        "bytes": 56860936,
+        "filename": "geometri-diferensial-manifold-mulus-unit22-source-20260828.zip",
+        "sha256": "8f85344d1fd91d709534b15b960ddaac16aaddfc2f5d6fb62cba802a99898f83"
+      },
+      {
+        "bytes": 2034,
+        "filename": "LICENSE.md",
+        "sha256": "eac2f6fd61f648a576e2e38c4d5ad0603b4c95423763e6ac2ed6f5a80b35025b"
+      },
+      {
+        "bytes": 2627,
+        "filename": "RELEASE_NOTES_UNIT22_20260828.md",
+        "sha256": "e13dc7d8757f978db980b809df3aeca2bbc2bfc5d892d7b9e41c29d7657f8b4a"
+      },
+      {
+        "bytes": 1535,
+        "filename": "FILE_MANIFEST.json",
+        "sha256": "676c87301bf3e60a4f61ec8c51c37040b102474eb3759caf54af57e401b703ae"
+      },
+      {
+        "bytes": 641,
+        "filename": "SHA256SUMS.txt",
+        "sha256": "4742a29ec1858eaea60ff385d1dfe4807300256264fda0a7c6984a98113d49e1"
+      }
+    ],
+    "html": {
+      "files": 40,
+      "tree_sha256": "062a5f9a39c6d73fb48113398f72c788267b6b6c2611c72745761568a7b98280",
+      "zip": {
+        "bytes": 7301411,
+        "sha256": "9e6782f535d3299c959d76f903bf74fb5593a560d0f2126349aa4f65c64dcdcc"
+      }
+    },
+    "total_bytes": 73215901
+  },
+  "remote_state_mutated": false,
+  "schema_version": 1,
+  "source_zip": {
+    "bytes": 56860936,
+    "path": "output/release-unit22/geometri-diferensial-manifold-mulus-unit22-source-20260828.zip",
+    "sha256": "8f85344d1fd91d709534b15b960ddaac16aaddfc2f5d6fb62cba802a99898f83"
+  },
+  "status": "pass",
+  "version": "2026.08.28-unit22",
+  "workflow": "o011-verify-source-package-unit22-v1"
+}

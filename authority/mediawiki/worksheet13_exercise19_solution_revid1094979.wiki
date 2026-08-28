@@ -1,0 +1,66 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Zu jedem Punkt {{mathl|term= P \in M |SZ=}} wählen wir eine offene Kartenumgebung {{mathl|term= P \in U_P |SZ=}} mit einer Karte
+{{
+Abbildung/display
+|name= \alpha_P
+|U_P |V_P
+||
+|SZ=
+}}
+mit {{mathl|term= V_P \subseteq \R^d|SZ=.}} Dabei können wir annehmen, indem wir zu einer Ballumgebung von {{mathl|term= \alpha_P(P) \in V_P |SZ=}} und dessen Urbild übergehen, dass die {{math|term= V_p|SZ=}} offene Bälle sind, deren Radius maximal {{mathl|term=  {{op:Bruch| 1| 3}} |SZ=}} ist. Die
+{{
+mathbed|term=
+U_P
+||bedterm1=
+P\in M
+||bedterm2=
+|SZ=,
+}}
+überdecken die Mannigfaltigkeit. Wegen der Kompaktheit von {{math|term= M |SZ=}} gibt es endlich viele Punkte {{mathl|term= P_1 {{kommadots|}} P_n |SZ=}} derart, dass auch
+{{
+mathbed|term=
+ U_i=U_{P_i}
+||bedterm1=
+ i=1 {{kommadots|}} n
+||bedterm2=
+|SZ=,
+}}
+die Mannigfaltigkeit überdecken. Wir platzieren die offenen Bälle {{mathl|term= V_i=V_{P_i} |SZ=}} in 
+{{
+Zusatz/Klammer
+|text= {{anführung|einem neuen}} |
+|ISZ=|ESZ=
+}}
+{{math|term= \R^d|SZ=,}} und zwar mit den Mittelpunkten
+{{
+Math/display|term=
+(1,0 {{kommadots|}} 0), (2,0 {{kommadots|}} 0) {{kommadots|}} (n,0 {{kommadots|}} 0) 
+|SZ=.
+}}
+Wegen der Radiusbedingung sind diese Bälle zueinander disjunkt. Wir betrachten die beschränkte offene Menge {{mathl|term= U= \bigcup_{i=1}^n V_i |SZ=.}} Die Kartenabbildungen {{math|term= \alpha_i |SZ=}} liefern stetige Abbildungen
+{{
+Math/display|term=
+\varphi_i :V_i \stackrel{ {{makl| \alpha_i |}}^{-1} }{\longrightarrow} U_i \longrightarrow M
+|SZ=.
+}}
+Wegen der Disjunktheit ergibt sich daraus durch {{mathl|term= \varphi(z)= \varphi_i(z) |SZ=,}} falls {{mathl|term= z \in V_i |SZ=}} ist, eine stetige Abbildung
+{{
+Abbildung/display
+|name= \varphi
+| U |M
+||
+|SZ=.
+}}
+Wegen der Überdeckungseigenschaft ist diese surjektiv. 
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

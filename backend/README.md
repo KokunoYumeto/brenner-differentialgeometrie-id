@@ -3,12 +3,12 @@
 This backend is additive to the Indonesian reader. It follows the coordinator's interoperability envelope without making the reader depend on a database or proprietary service.
 
 - `schema/o011-record-v1.schema.json` defines the common record envelope.
-- `records.jsonl` is the canonical deterministic UTF-8/LF stream for Units 1–16.
+- `records.jsonl` is the canonical deterministic UTF-8/LF stream through Unit 22.
 - `records.csv` is a deliberately lossy exchange projection of common fields.
 - `MANIFEST.json` binds the generated views, source/target inputs, and generator.
-- `unit01_records_frozen.jsonl` is the immutable 174-record Unit 1 baseline. Each cumulative exporter preserves its published predecessor prefix byte-for-byte; the current Unit 16 export preserves all 2,604 Unit 1–13 records.
+- `unit01_records_frozen.jsonl` is the immutable 174-record Unit 1 baseline. Each cumulative exporter preserves its published predecessor prefix byte-for-byte; the current Unit 22 export preserves the exact 3,747-record public Unit 19 backend.
 
-Stable IDs use source order and source-local identity, never translated titles or rendered page numbers. Display identifiers retain Brenner's source numbering (`1.x` through `16.x`) rather than the standalone book wrapper's chapter prefixes. Corrections and component rights remain separate records. Regenerate the current combined backend only through `scripts/export_backend_v16.py`; generated files must not be hand-edited.
+Stable IDs use source order and source-local identity, never translated titles or rendered page numbers. Display identifiers retain Brenner's source numbering (`1.x` through `22.x`) rather than the standalone book wrapper's chapter prefixes. Corrections and component rights remain separate records. Regenerate the current combined backend only through `scripts/export_backend_v22.py`; generated files must not be hand-edited.
 
 Unit 1 exposes one PDF `artifact` and receipt-backed `qa_event` records for structural translation checks, exact media closure, two-cycle reproducible PDF build, structural/accessibility inspection, and all-page visual inspection. Evidence paths are repository-relative; receipt hashes bind the records without copying machine-local or temporary-render paths into the public views.
 
@@ -36,10 +36,12 @@ Units 11–13 add 716 records and bring the published cumulative backend to 2,60
 
 Units 14–16 add exactly 604 records: 92 artifacts, two assets, 37 corrections, 38 QA events, 341 relations, two component-rights records, 15 segments, and 77 unit/exercise/solution records. The cumulative backend therefore contains 3,208 records, 342 exercises, and exactly 48 source-supplied solutions. Its immutable 2,604-record Unit 1–13 JSONL prefix is 1,586,447 bytes with SHA-256 `15c4fd6b78a277be60d08016f4df4e5a3afe56bb26f5cb24df285256514186e9`; the corresponding 2,605-line CSV prefix is 584,320 bytes with SHA-256 `e891d6f7c3cb9655f375e9309cd54d0840a09033722b794bd3d01fe73606c854`. The current JSONL SHA-256 is `c42bac17822f949aa16ac0f87c7d0726526d020d46bab97f91d36e70f4b21983`; the CSV SHA-256 is `2ff324a750b01540fd3827684947877e807ac8402d09fc6ece1efdf14caeb312`; validation receipt is `qa/unit-16/backend.json`.
 
+Units 17–19 extend the public cumulative backend to exactly 3,747 records. Units 20–22 append 577 records while preserving that complete public prefix byte-identically: 2,316,959 JSONL bytes with SHA-256 `8045e59c84bc8c70fc3275bc65d023e46848276b184aca5978bd9b015060c193`, and 850,266 CSV bytes across 3,748 lines with SHA-256 `b63d9d673b841869ab2d848e3a21b5b256a765c2b29f3e9982385e0ad3d75e1b`. The cumulative census is 4,324 records, 457 exercises, and exactly 64 source-supplied solutions. Units 20–22 preserve source/target segment hashes, explicit solution absences, five media assets with five separate component-rights records, all correction identities through `O011-ACC-0311`, and deterministic loader-alias artifacts for the Unit 21 and Unit 22 media repairs. Validation receipt is `qa/unit-22/backend.json`.
+
 Use an explicit checkpoint timestamp so a repeat export is byte-identical:
 
 ```text
-python scripts/export_backend_v16.py --root . --checkpoint 2026-08-26T00:50:00Z --translation-state mathematically_reviewed
+python scripts/export_backend_v22.py --root . --checkpoint 2026-08-28T13:30:00Z --translation-state mathematically_reviewed
 ```
 
-The generator rejects a changed Unit 1–13 prefix; drift from the frozen 604-record extension or 3,208-record combined census; stale Unit 14–16 authority, translation, mathematical-QA, correction, or reader evidence; exercise/point/hint/solution mismatches; incomplete component-rights evidence; schema violations; and unresolved stable-ID references. Use `--check-only` for a non-mutating full reconstruction. Run `python scripts/verify_backend_v16.py --root .` after export to verify canonical JSONL, the exact CSV projection, JSON Schema validity, reference closure, every source/target segment hash, exact solution-absence truth, live artifact hashes, component rights, every correction target and manifest, every QA receipt, the HTML/PDF/browser/visual reader closure, model provenance, and a byte-identical two-cycle repeat export.
+The generator rejects a changed Unit 19 prefix; drift from the Units 20–22 semantic census; stale authority, translation, mathematical-QA, correction, media-alias, or rights evidence; exercise/point/hint/solution mismatches; schema violations; duplicate IDs; and unresolved stable-ID references. Use `--check-only` for a non-mutating full reconstruction. Run `python scripts/verify_backend_v22.py --root .` after export to verify canonical JSONL, the exact CSV projection, JSON Schema validity, reference closure, every source/target segment hash, exact solution-absence truth, live artifact hashes, component rights, every correction target/evidence binding, complete adverse-ledger closure, and a byte-identical two-cycle repeat export.

@@ -1,0 +1,236 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblattgestaltung|10|
+
+{{Zwischenüberschrift|Übungsaufgaben}}
+
+{{
+inputaufgabe
+|Russell-Kubik/Differenzierbare Mannigfaltigkeit/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Rotationsfläche/Abgeschlossene Untermannigfaltigkeit/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Matrizenmenge/Determinante ist 1/Abgeschlossene Untermannigfaltigkeit/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|R/Abgeschlossene Teilmenge/Keine abgeschlossene Untermannigfaltigkeit/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|R/Abgeschlossene Untermannigfaltigkeiten/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|S^1/Abgeschlossene Untermannigfaltigkeiten/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Abgeschlossene Untermannigfaltigkeiten im R^n/(Disjunkte) Vereinigung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Graph einer differenzierbaren Funktion/Ist abgeschlossene Untermannigfaltigkeit/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Differenzierbare Mannigfaltigkeit/Kette von abgeschlossenen Untermannigfaltigkeiten/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Nilpotente Matrizen/2x2/Mannigfaltigkeit/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Abgeschlossene Untermannigfaltigkeit/R^n/Tangentialvektor/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Differenzierbare Abbildung/Reguläre Faser/Tangentialraum als Kern und zu Mannigfaltigkeit/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Tangentialbündel/Projektion ist stetig/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Tangentialbündel/Basis der Topologie/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Differenzierbare Hyperfläche/Tangentialbündel/Implizite Realsierung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Eingebettete Mannigfaltigkeit/Inverse Karte/Tangentialbündel/Partielle Ableitung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Tangentialabbildung/Stetig/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Tangentialabbildung/(x,y,z) nach (x^2y-3xz^3+y^2,x sin y -e^yz)/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|S^1/Weg/Tangentialbündel/Basiskonvergenz/Beispiel/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|R^n/Untermannigfaltigkeit/Tangentialabbildung/Addition/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Einheitssphäre/Untermannigfaltigkeit/Tangentialabbildung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Abgeschlossene Untermannigfaltigkeit/Tangentialbündel/Abgeschlossen/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Differenzierbare Abbildung/Injektiv/Tangentialabbildung nicht injektiv/Beispiel/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Differenzierbare Abbildung/Surjektiv/Tangentialabbildung nicht surjektiv/Beispiel/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Stetiges Vektorfeld/S^2/Nur eine Nullstelle/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Sphäre/Drehbewegung/Vektorfeld/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+
+{{:Mannigfaltigkeit/Vektorfeld längs Abbildung/Definition}}
+
+{{Zwischenüberschrift|Aufgaben zum Abgeben}}
+
+{{
+inputaufgabe
+|Abgeschlossene Untermannigfaltigkeit/ux^m+vy^n ist 1/x-y-Projektion/Fasern/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|R nach R^2/x nach (x^2,x^3)/Injektiv und Bild abgeschlossen/Keine Untermannigfaltigkeit/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Tangentialbündel/S^1/Trivial/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Tangentialbündel ist Mannigfaltigkeit/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+In der folgenden Aufgabe wird der Begriff eines {{math|term=R|SZ=-}}Moduls verwendet
+{{
+Zusatz/Klammer
+|text=das ist eine direkte Verallgemeinerung des Vektorraumsbegriffes|
+|ISZ=|ESZ=.
+}}
+
+{{:Kommutative Algebra/Modul/Definition}}
+
+{{
+inputaufgabe
+|Differenzierbare Mannigfaltigkeit/Vektorfelder als Modul über Ring/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+}}

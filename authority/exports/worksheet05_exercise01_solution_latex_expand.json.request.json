@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Sat, 22 Aug 2026 15:13:58 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Quadratische Funktion/Zwei Variablen/Nullpunkt/Hauptkrümmungsrichtungen/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 2578,
+  "response_path": "worksheet05_exercise01_solution_latex_expand.json",
+  "response_sha256": "404bf67b693c58fdd4b66227d3074209d21e44518058252c5024d743c1ba3331",
+  "retrieved_utc": "2026-08-22T15:13:59Z",
+  "schema_version": 1
+}

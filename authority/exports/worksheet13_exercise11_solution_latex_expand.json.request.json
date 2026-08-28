@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Mon, 24 Aug 2026 02:55:26 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Kompaktheit/Stetige Funktion/Maximum wird angenommen/Fakt/Beweis/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 1589,
+  "response_path": "worksheet13_exercise11_solution_latex_expand.json",
+  "response_sha256": "721177a2aae015540e85da1471ed042cc671d94cb5d7f2980ad17d33a747af20",
+  "retrieved_utc": "2026-08-24T02:55:25Z",
+  "schema_version": 1
+}

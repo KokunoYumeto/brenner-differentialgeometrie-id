@@ -1,0 +1,1521 @@
+\setcounter{section}{22}
+
+Sekarang kita membahas suatu teknik bantu analitik penting yang disebut \stichwort {partisi satuan} {.} Kita akan menggunakannya dalam pembuktian pernyataan bahwa manifold yang dapat diorientasikan mempunyai bentuk volume positif, dan dalam pembuktian teorema Stokes. Dalam kuliah ini kita akan mengonstruksi partisi satuan; untuk itu mula-mula kita memerlukan beberapa konsep topologis.
+
+  \zwischenueberschrift{Penghabisan kompak}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungpng {Inner_point} {png} }
+\end{center}
+\bildtext {Interior terbuka adalah gabungan semua titik interior, yaitu titik-titik dari $T$
+\zusatzklammer {pada gambar, $E$} {} {,}
+yang memiliki suatu lingkungan terbuka yang seluruhnya termuat di dalam $T$.} }
+
+\bildlizenz { Inner point.png } {} {Zasdfgbnm} {Commons} {PD} {}
+
+\inputdefinition
+{}
+{
+
+Misalkan $X$ suatu
+\definitionsverweis {ruang topologis}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{T
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu himpunan bagian. Maka
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \overline{  T  }
+}
+{ =} {  \bigcap_{A \text{ tertutup}, \, T \subseteq A} A
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+disebut \definitionswort {penutupan}{}
+\zusatzklammer {atau \definitionswort {penutupan topologis}{}} {} {}
+dari $T$.
+
+}
+Untuk ruang metrik, kita sebelumnya telah memperkenalkan penutupan sebagai himpunan semua
+\definitionsverweis {titik pelekatan}{}{}{;}
+lihat khususnya
+Soal 35.3 (Analisis (Osnabrück 2021--2023)).
+
+\inputdefinition
+{}
+{
+
+Misalkan $X$ suatu
+\definitionsverweis {ruang topologis}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu himpunan bagian. Maka
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T ^{o}
+}
+{ =} { \bigcup_{U \text{ terbuka}, \, U \subseteq T}   U
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+disebut \definitionswort {interior terbuka}{}
+\zusatzklammer {atau \stichwort {interior} {}} {} {}
+dari $T$.
+
+}
+Kedua konsep ini berhubungan melalui
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \overline{ T }
+}
+{ =} { X \setminus (X \setminus T)^{o}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Konsep batas juga terbawa dari situasi metrik ke ruang topologis sembarang.
+
+\inputdefinition
+{
+}
+{
+
+Misalkan $X$ suatu
+\definitionsverweis {ruang topologis}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu himpunan bagian. Yang dimaksud dengan
+\definitionswort {batas}{}
+dari $T$ adalah himpunan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \operatorname{Batas} \, ( T )
+}
+{ =} { \overline{  T  }  \setminus T ^{o}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+Perhatikan bahwa batas topologis ini merupakan konsep yang berbeda dari batas suatu manifold berbatas. Meskipun demikian, terdapat hubungan yang dibahas dalam
+Soal 22.1.
+
+\inputdefinition
+{}
+{
+
+Misalkan $X$ suatu
+\definitionsverweis {ruang topologis}{}{}
+dan
+\maabbdisp {f} { X } {\R
+} {}
+suatu
+\definitionsverweis {fungsi}{}{.}
+Maka
+\definitionsverweis {penutupan topologis}{}{}
+
+\mathdisp {\overline{  \left\{  x \in X  \mid  f(x) \neq 0        \right\}   }} {  }
+
+disebut \definitionswort {tumpuan}{} dari $f$.
+
+}
+
+\inputdefinition
+{}
+{
+
+Misalkan $X$ suatu
+\definitionsverweis {ruang topologis}{}{.}
+Suatu \definitionswort {penghabisan kompak}{}
+
+\mathbed {A_n} {}
+ {n \in \N} {}
+ {} {} {} {,}
+dari $X$ adalah suatu
+\definitionsverweis {barisan}{}{}
+\definitionsverweis {himpunan-himpunan bagian kompak}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ A_n
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan
+
+\mathdisp {A_n \subseteq A_{n+1}^{o} \text{ dan } \bigcup_{n=0}^\infty A_n = X} { . }
+
+}
+
+Ruang $\R^d$ dihabiskan secara kompak oleh bola-bola tertutup
+
+\mathbed {B  \left( 0,n \right)} {}
+ {n \in \N} {}
+ {} {} {} {.}
+Lihat
+Soal 22.6.
+
+  \zwischenueberschrift{Partisi satuan}
+
+
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Abzählbare Basis/Kompakte Ausschöpfung/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold}{}{}}
+\faktvoraussetzung {dengan suatu
+\definitionsverweis {basis terhitung bagi topologinya}{}{.}}
+\faktfolgerung {Maka $M$ mempunyai suatu
+\definitionsverweis {penghabisan kompak}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat suatu lingkungan koordinat terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+\maabbdisp {\alpha} { U } { V
+} {}
+serta lingkungan-lingkungan bola
+
+\mavergleichskettedisp
+{\vergleichskette
+{ U \left(  \alpha(P), \epsilon  \right)
+}
+{ \subseteq} { B  \left( \alpha(P), \epsilon \right)
+}
+{ \subset} { V
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Karena pemetaan koordinat tersebut merupakan
+\definitionsverweis {homeomorfisme}{}{}
+dan bola tertutup bersifat kompak, maka
+
+\mavergleichskette
+{\vergleichskette
+{ B_P
+}
+{ = }{ \alpha^{-1} \left(  B  \left( \alpha(P), \epsilon \right)  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan suatu
+\definitionsverweis {himpunan bagian kompak}{}{}
+dari $M$ yang memuat
+\definitionsverweis {lingkungan terbuka}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ U_P
+}
+{ = }{ \alpha^{-1} \left(  U \left(  \alpha(P), \epsilon  \right)  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dari $P$. Himpunan-himpunan
+
+\mathbed {U_P} {}
+ {P \in M} {}
+ {} {} {} {,}
+membentuk suatu
+\definitionsverweis {tutupan terbuka}{}{}
+dari $M$, sehingga menurut
+Soal 2.8 (Teori Ukuran dan Integrasi (Osnabrück 2022--2023))
+terdapat suatu subtutupan terhitung. Nyatakan subtutupan ini dengan
+
+\mathbed {U_n} {}
+ {n \in \N} {}
+ {} {} {} {,}
+\zusatzklammer {dengan $U_n$ termuat di dalam himpunan kompak $B_n$} {} {.}
+Sekarang kita definisikan secara
+\definitionsverweis {rekursif}{}{}
+suatu pemetaan
+\definitionsverweis {naik secara monoton}{}{}
+\maabbeledisp {} {\N} {\N
+} { k } {n_k
+} {,}
+sedemikian sehingga
+
+\mathbeddisp {A_k = \bigcup_{n=0}^{n_k } B_n} {}
+ {k \in \N} {}
+ {} {} {} {,}
+merupakan suatu
+\definitionsverweis {penghabisan kompak}{}{}
+dari $M$. Sebagai gabungan berhingga dari himpunan-himpunan kompak, setiap $A_k$ bersifat kompak. Kita mulai dengan
+
+\mavergleichskette
+{\vergleichskette
+{ n_0
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{}
+{   }{}
+}
+{}{}{.}
+Misalkan $n_k$ sudah dikonstruksi. Himpunan
+
+\mathdisp {A_k \cup B_{n_k +1}} {  }
+
+bersifat
+\definitionsverweis {kompak}{}{}
+dan karena itu ditutupi oleh berhingga banyak himpunan terbuka
+\mathl{\bigcup_{n=0}^{n_{k+1} } U_n}{,} dengan memilih
+
+\mavergleichskette
+{\vergleichskette
+{ n_{k+1}
+}
+{ \geq }{ n_k +1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dengan pilihan ini,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ A_k
+}
+{ \subseteq} { \bigcup_{n = 0}^{n_{k+1} } U_n
+}
+{ \subseteq} { \bigcup_{n = 0}^{n_{k+1} } B_n
+}
+{ =} { A_{k+1}
+}
+{ } {
+}
+}
+{}{}{,}
+dan barisan ini membentuk suatu penghabisan karena himpunan-himpunan
+
+\mathbed {U_n} {}
+ {n \in \N} {}
+ {} {} {} {,}
+membentuk suatu tutupan terbuka dari $M$.
+
+}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Partition_of_unity_illustration} {svg} }
+\end{center}
+\bildtext {Ilustrasi beberapa fungsi taknegatif yang jumlahnya selalu 1.} }
+
+\bildlizenz { Partition of unity illustration.svg } {} {Oleg Alexandrov} {Commons} {PD} {}
+
+\inputdefinition
+{}
+{
+
+Misalkan $X$ suatu
+\definitionsverweis {ruang topologis}{}{.}
+Suatu keluarga fungsi
+\maabbdisp {h_j} { X } {\R
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ j
+}
+{ \in }{ J
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+disebut suatu \definitionswort {partisi satuan}{,} jika sifat-sifat berikut berlaku.
+\aufzaehlungdrei{Berlaku
+
+\mavergleichskette
+{\vergleichskette
+{ h_j(X)
+}
+{ \subseteq }{ [0,1]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ j
+}
+{ \in }{ J
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mempunyai suatu
+\definitionsverweis {lingkungan terbuka}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sedemikian sehingga
+\definitionsverweis {fungsi-fungsi hasil pembatasan}{}{}
+
+\mathl{h_j {{|}}_{ U }}{} semuanya, kecuali berhingga banyak, merupakan fungsi nol.
+}{Berlaku
+
+\mavergleichskette
+{\vergleichskette
+{  \sum_{j \in J} h_j
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+} Jika semua $h_j$ \definitionsverweis {kontinu}{}{,} partisi tersebut disebut suatu \definitionswort {partisi satuan kontinu}{.}
+
+}
+
+Sifat kedua memastikan bahwa jumlah dalam (3) terdefinisi, sebab untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan bagi semua indeks
+
+\mavergleichskette
+{\vergleichskette
+{ j
+}
+{ \in }{ J
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kecuali berhingga banyak, berlaku kesamaan
+
+\mavergleichskette
+{\vergleichskette
+{  h_j(P)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Pada suatu manifold, partisi seperti itu disebut \stichwort {diferensiabel} {,} jika semua $h_j$ merupakan
+\definitionsverweis {fungsi-fungsi diferensiabel}{}{.}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ X
+}
+{ = }{ \bigcup_{i \in I} W_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {tutupan terbuka}{}{}
+dari suatu
+\definitionsverweis {ruang topologis}{}{}
+$X$. Suatu
+\definitionsverweis {partisi satuan}{}{}
+\maabbdisp {h_j} { X } {\R
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ j
+}
+{ \in }{ J
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+disebut suatu \definitionswort {partisi satuan subordinat terhadap tutupan}{,} jika untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ j
+}
+{ \in }{ J
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat suatu himpunan terbuka
+\mathl{W_{i(j)}}{} dari tutupan tersebut sedemikian sehingga
+\definitionsverweis {tumpuan}{}{}
+dari $h_j$ termuat di dalam
+\mathl{W_{i(j)}}{}{.}
+
+}
+
+
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Abzählbare Basis/Lokal endlicher Atlas/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold}{}{}
+dengan suatu
+\definitionsverweis {basis terhitung}{}{}
+bagi topologinya. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ \bigcup_{i \in I} W _i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {tutupan terbuka}{}{}
+dari $M$.}
+\faktfolgerung {Maka terdapat suatu
+\definitionsverweis {atlas kompatibel}{}{}
+yang terhitung
+
+\mathbed {\left(  U_j, \alpha_j, V_j  \right)} {}
+ {j \in J} {}
+ {} {} {} {,}
+dengan lingkungan-lingkungan bola
+
+\mavergleichskettedisp
+{\vergleichskette
+{ U \left(   0 , \delta_j   \right)
+}
+{ \subset} { B  \left(  0 , \epsilon_j  \right)
+}
+{ \subset} { V_j
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\zusatzklammer {di sini,
+
+\mavergleichskettek
+{\vergleichskettek
+{ 0
+}
+{ \in }{ V_j
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettek
+{\vergleichskettek
+{ \delta_j
+}
+{ < }{ \epsilon_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+sedemikian sehingga untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ j
+}
+{ \in }{ J
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat suatu
+\mathl{W_{i(j)}}{} dengan
+
+\mavergleichskette
+{\vergleichskette
+{ U_j
+}
+{ \subseteq }{ W_{i(j)}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}; selain itu, $M$ ditutupi oleh
+
+\mathbed {\alpha_j^{-1} \left(  U \left(   0 , \delta_j   \right)  \right)} {}
+ {j \in J} {}
+ {} {} {} {,}
+dan setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terletak hanya di dalam berhingga banyak himpunan $U_j$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{Misalkan tutupan terbuka
+
+\mathbed {W_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+diberikan. Selanjutnya, misalkan
+
+\mathbed {A_n} {}
+ {n \in \N} {}
+ {} {} {} {,}
+suatu
+\definitionsverweis {penghabisan kompak}{}{}
+dari $M$, yang keberadaannya dijamin oleh
+Lema 22.6.
+Himpunan-himpunan terbuka
+\mathl{A_{n+2}^{o}  \setminus A_{n-1}}{} juga membentuk suatu tutupan terbuka, sebab untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat suatu nilai minimal
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ A_n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {tetapkan
+
+\mavergleichskettek
+{\vergleichskettek
+{ A_{-1}
+}
+{ = }{ \emptyset
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {.}
+Untuk $n$ ini berlaku
+\mathkor {} {P \not\in A_{n-1}} {dan} {P \in A_n \subseteq A_{n+1} ^{o}} {.}
+Dengan meninjau irisan-irisan
+\mathl{W_i \cap \left(  A_{n+2}^{o}  \setminus A_{n-1}  \right)}{}{,} kita dapat menganggap bahwa setiap himpunan dari tutupan termuat di dalam suatu
+\mathl{A_{n+2}^{o} \setminus A_{n-1}}{}{.}}
+{}
+\teilbeweis {}{}{}
+{Untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat suatu lingkungan koordinat terbuka
+\zusatzklammer {yang kompatibel} {} {}
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U_P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang termuat di dalam salah satu $W_i$ dan yang mempunyai lingkungan-lingkungan bola
+
+\mavergleichskettedisp
+{\vergleichskette
+{ U \left(   0 , \delta_P   \right)
+}
+{ \subset} { B  \left(  0 , \epsilon_P  \right)
+}
+{ \subset} { V_P
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ \alpha_P^{-1} \left(  U \left(   0 , \delta_P   \right)  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \delta_P
+}
+{ < }{ \epsilon_P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Himpunan-himpunan
+
+\mathbed {\alpha_P^{-1} \left(  U \left(   0 , \delta_P   \right)  \right)} {}
+ {P \in M} {}
+ {} {} {} {,}
+kemudian juga membentuk suatu tutupan terbuka dari $M$. Menurut
+Soal 2.8 (Teori Ukuran dan Integrasi (Osnabrück 2022--2023))
+kita dapat beralih ke suatu subtutupan terhitung. Jadi, kita dapat menganggap bahwa suatu sistem domain peta
+
+\mathbed {U_j} {}
+ {j \in \N} {}
+ {} {} {} {,}
+bersama dengan lingkungan-lingkungan bola
+
+\mavergleichskettedisp
+{\vergleichskette
+{ U \left(   0 , \delta_j   \right)
+}
+{ \subset} { B  \left(  0 , \epsilon_j  \right)
+}
+{ \subset} { V_j
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+diberikan sedemikian sehingga
+
+\mathbed {\alpha_j^{-1} \left(  U \left(   0 , \delta_j   \right)  \right)} {}
+ {j \in \N} {}
+ {} {} {} {,}
+juga merupakan suatu tutupan terbuka dari $M$, setiap $U_j$ termuat di dalam suatu
+\mathl{W_{i(j)}}{}{,} dan hubungan dengan penghabisan kompak yang diuraikan di atas berlaku.}
+{}
+\teilbeweis {}{Kita akan mendefinisikan suatu himpunan bagian
+
+\mavergleichskette
+{\vergleichskette
+{ J
+}
+{ \subseteq }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sedemikian sehingga keluarga
+
+\mathbed {U_j} {}
+ {j \in J} {}
+ {} {} {} {,}
+juga memenuhi sifat keberhinggaan tersebut.\leerzeichen{}}{}
+{Mula-mula, kekompakan $A_0$ memberikan suatu himpunan indeks berhingga
+\mathl{J_{-1}}{} sedemikian sehingga himpunan-himpunan
+
+\mathbed {\alpha_j^{-1} \left(  U \left(   0 , \delta_j   \right)  \right)} {}
+ {j \in J_{-1}} {}
+ {} {} {} {,}
+menutupi $A_0$. Untuk
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+tinjau himpunan kompak
+\mathl{A_{n+1} \setminus A_n ^{o}}{.} Himpunan ini ditutupi oleh berhingga banyak himpunan
+
+\mathbed {\alpha_j^{-1} \left(  U \left(   0 , \delta_j   \right)  \right)} {}
+ {j \in \N} {}
+ {} {} {} {,}
+dan untuk itu hanya diperlukan indeks-indeks $j$ sedemikian sehingga $U_j$ termuat di dalam
+\mathl{A_{n+2}^{o}  \setminus A_{n-1}}{}{.} Nyatakan himpunan indeks berhingga yang bersangkutan dengan $J_n$, dan tetapkan
+
+\mavergleichskette
+{\vergleichskette
+{ J
+}
+{ = }{ J_{-1} \cup \bigcup_{n \in \N} J_n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Maka setiap $A_n$ hanya memotong berhingga banyak himpunan
+
+\mathbed {U_j} {}
+ {j \in J} {}
+ {} {} {} {.}}
+{}
+
+}
+
+
+
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Abzählbare Basis/Überdeckung/Partition/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dengan suatu
+\definitionsverweis {basis terhitung}{}{}
+bagi topologinya.}
+\faktfolgerung {Maka untuk setiap tutupan terbuka terdapat suatu
+\definitionsverweis {partisi satuan}{}{}
+yang \definitionsverweis {terdiferensialkan secara kontinu}{}{}
+dan subordinat terhadap tutupan tersebut.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Menurut
+Lema 22.9
+kita dapat menganggap bahwa suatu tutupan terbuka terdiri atas domain-domain peta
+
+\mathbed {U_j} {}
+ {j \in J} {}
+ {} {} {} {,}
+\zusatzklammer {$J$ terhitung} {} {}
+dengan
+\maabbdisp {\alpha_j} {U_j } { V_j
+} {}
+dan dengan lingkungan-lingkungan bola
+
+\mavergleichskettedisp
+{\vergleichskette
+{ U \left(   0 , \delta_j   \right)
+}
+{ \subset} { B  \left(  0 , \epsilon_j  \right)
+}
+{ \subset} { V_j
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\zusatzklammer {dengan
+
+\mavergleichskettek
+{\vergleichskettek
+{ \delta_j
+}
+{ < }{ \epsilon_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+sedemikian sehingga himpunan-himpunan
+\mathl{\alpha_j^{-1} \left(  U \left(   0 , \delta_j   \right)  \right)}{} juga membentuk suatu tutupan dari $M$ dan setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+termuat hanya dalam berhingga banyak himpunan $U_j$ dan, khususnya, hanya dalam berhingga banyak himpunan
+\mathl{\alpha_j^{-1} \left(  U \left(   0 , \delta_j   \right)  \right)}{}{.}
+Pada $V_j$, tinjau fungsi $g_j$ yang didefinisikan oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g_j (v)
+}
+{ =} { \begin{cases}  e^{ - { \frac{   1  }{  \left(  \delta_j^2- \Vert { v } \Vert^2  \right)^2 } } }  \text{ untuk } \Vert { v } \Vert < \delta_j \, , \\ 0 \text{ selainnya} \, , \end{cases}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+Fungsi ini bernilai positif tepat pada
+\mathl{U \left(   0 , \delta_j   \right)}{} dan
+\definitionsverweis {tumpuan}{}{}
+fungsi ini adalah
+\mathl{B  \left(  0 , \delta_j  \right)}{.}
+Peninjauan pada kedua himpunan bagian terbuka
+\zusatzklammer {yang menutupi $V_j$} {} {}
+\mathkor {} {U \left(   0 , \epsilon_j   \right)} {dan} {V_j \setminus B  \left(  0 , \delta_j  \right)} {}
+menunjukkan bahwa $g_j$ terdiferensialkan tak hingga kali. Kita mendefinisikan suatu fungsi
+\maabbdisp {\tilde{g}_j} { M } {\R
+} {}
+melalui
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \tilde{g}_j(x)
+}
+{ =} { \begin{cases}  g_j( \alpha_j(x)) \text{ untuk }  x \in \alpha_j^{-1}( U \left(   0 , \delta_j   \right) ) \, , \\  0 \text{ selainnya} \, . \end{cases}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+Fungsi ini
+\definitionsverweis {terdiferensialkan secara kontinu}{}{}
+pada $M$, sebab \anfuehrung{pita}{}
+\mathl{B  \left(  0 , \epsilon_j  \right) \setminus U \left(   0 , \delta_j   \right)}{} memungkinkan suatu transisi mulus. Kita tetapkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \tilde{g}(x)
+}
+{ \defeq} { \sum_{j \in J} \tilde{g}_j(x)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+yang merupakan jumlah berhingga untuk setiap titik, sebab
+\definitionsverweis {tumpuan}{}{}
+dari $\tilde{g}_j$ termuat di dalam
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \alpha_j^{-1} \left(  B  \left(  0 , \delta_j  \right)  \right)
+}
+{ \subset} { U_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Fungsi ini
+\definitionsverweis {terdiferensialkan secara kontinu}{}{}
+pada $M$ dan positif di setiap titik, sebab
+\mathl{\tilde{g}_j(x)}{} masing-masing bernilai positif pada himpunan yang bersesuaian dari tutupan
+\mathl{\alpha_j^{-1} \left(  U \left(   0 , \delta_j   \right)  \right)}{}{.}
+Dengan demikian, fungsi-fungsi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h_j
+}
+{ =} { { \frac{   \tilde{g}_j  }{ \tilde{g}  } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+membentuk partisi satuan yang dicari.
+
+}
+
+  \zwischenueberschrift{Orientasi pada manifold dan bentuk volume}
+
+Dengan bantuan partisi satuan, sekarang kita dapat membuktikan kebalikan dari
+Lema 15.5.
+
+
+
+\inputfaktbeweis
+{Nullstellenfreie Volumenform/Orientierte (Karten) Mannigfaltigkeit/Äquivalenz/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel
+}{}{}
+dengan suatu
+\definitionsverweis {basis terhitung bagi topologinya}{}{.}}
+\faktfolgerung {Maka terdapat suatu
+\definitionsverweis {bentuk volume}{}{}
+\definitionsverweis {kontinu}{}{}
+tanpa titik nol pada $M$ jika dan hanya jika $M$
+\definitionsverweis {dapat diorientasikan}{}{.}}
+\faktzusatz {Bentuk volume ini juga dapat dipilih agar terdiferensialkan secara kontinu dan positif.}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{Salah satu arah sudah dibuktikan
+dalam Lema 15.5.}
+{}
+\teilbeweis {}{}{}
+{Sebaliknya, misalkan $M$
+\definitionsverweis {dapat diorientasikan}{}{}
+dan diberikan suatu
+\definitionsverweis {atlas berorientasi}{}{}
+yang
+\definitionsverweis {terhitung}{}{}
+
+\mathbed {\left(  U_i,\alpha_i,V_i  \right)} {}
+ {i \in I} {}
+ {} {} {} {,}
+dari $M$. Di sini,
+
+\mavergleichskette
+{\vergleichskette
+{ V_i
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan himpunan
+\definitionsverweis {terbuka}{}{,}
+dan
+\definitionsverweis {koordinat-koordinat}{}{}
+
+\mathl{x_1 , \ldots , x_n}{} mendefinisikan suatu
+\definitionsverweis {bentuk volume}{}{}
+kontinu tanpa titik nol
+\zusatzklammer {bahkan terdiferensialkan tak hingga kali} {} {}
+
+\mathl{dx_1 \wedge \ldots \wedge dx_n}{} pada $V_i$. Kita tetapkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega_i
+}
+{ =} { \alpha_i^* \left( dx_1 \wedge \ldots \wedge dx_n \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan dengan demikian memperoleh suatu bentuk volume tanpa titik nol pada $U_i$, yang kita perluas dengan $0$ di luar $U_i$\zusatzfussnote {Perluasan ini tentu saja tidak kontinu, tetapi hal itu tidak menjadi masalah untuk pembahasan berikut} {.} {.}
+
+Sekarang, misalkan
+
+\mathbed {h_j} {}
+ {j \in J} {}
+ {} {} {} {,}
+suatu keluarga fungsi yang subordinat terhadap tutupan
+
+\mathbed {U_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+dan terdiferensialkan secara kontinu, serta membentuk suatu
+\definitionsverweis {partisi satuan}{}{,}
+yang keberadaannya dijamin oleh
+Teorema 22.10.
+Jadi, khususnya, untuk setiap $j$ terdapat suatu
+\mathl{i(j)}{} sedemikian sehingga
+\definitionsverweis {tumpuan}{}{}
+dari $h_j$ termuat di dalam
+\mathl{U_{i(j)}}{}{.}
+Oleh karena itu,
+\mathl{h_j \omega_{i(j)}}{} merupakan suatu
+\definitionsverweis {bentuk diferensial}{}{}
+kontinu berderajat $n$ pada $M$. Kita tetapkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { \sum_{j \in J} h_j \omega_{i(j)}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Di setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+jumlah ini berhingga dan karena itu mendefinisikan suatu bentuk diferensial kontinu berderajat $n$ pada $M$. Untuk suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan suatu
+\definitionsverweis {basis}{}{}
+
+\mathl{v_1 , \ldots , v_n}{} dari
+\mathl{T_PM}{} yang merepresentasikan orientasi, berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega(P; v_1 , \ldots , v_n)
+}
+{ =} { \sum_{j \in J} h_j(P) \omega_{i(j)} \left(  P; v_1 , \ldots , v_n  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Terdapat suatu $j$ dengan
+
+\mavergleichskette
+{\vergleichskette
+{ h_j(P)
+}
+{ > }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dan untuk $j$ ini juga berlaku
+
+\mavergleichskette
+{\vergleichskette
+{ \omega_{i(j)}(P; v_1 , \ldots , v_n)
+}
+{ > }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+sebab
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U_{i(j)}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku; dengan demikian, bentuk ini positif di setiap titik.}
+{}
+
+}

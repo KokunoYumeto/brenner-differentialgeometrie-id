@@ -1,0 +1,101 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+{{
+Aufzählung3
+|Die Jacobi-Matrix ist
+{{
+Math/display|term=
+ {{op:Matrix33| 0 | 1 | 0 | -1| 0 | 0| 0 | 0| 0 | 0| 0 |}} 
+|SZ=.
+}}
+|Als Normalenfeld nehmen wir {{math|term= {{op:Spaltenvektor| x | y |z}} |SZ=,}} in
+{{
+Relationskette
+| P
+|| {{op:Spaltenvektor| 0 | 1 | 0}} 
+|| 
+|| 
+|| 
+|SZ=
+}} 
+bilden
+{{
+mathkor|term1=
+ {{op:Spaltenvektor| 1 | 0 | 0}} 
+|und|term2=
+ {{op:Spaltenvektor| 0 | 0| 1}}
+|SZ=
+}}
+eine Basis des Tangentialraumes. Es ist
+{{
+Relationskette/display
+| {{op:Matrix33| 0 | 1 | 0 | -1| 0 | 0| 0 | 0| 0 | 0| 0 |}} {{op:Spaltenvektor| 1 | 0 | 0}} 
+|| {{op:Spaltenvektor| 0 | -1| 0}} 
+|| 
+|| 
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette/display
+|  {{op:Matrix33| 0 | 1 | 0 | -1| 0 | 0| 0 | 0| 0 | 0| 0 |}} {{op:Spaltenvektor| 0 | 0| 1}} 
+|| {{op:Spaltenvektor| 0 | 0| 0}} 
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Dabei ist {{mathl|term= {{op:Spaltenvektor| 0 | -1| 0}} |SZ=}} ein Vielfaches zum Normalenvektor und daher ist seine orthogonale Projektion auf den Tangentialraum ebenfalls der Nullvektor. Die Abbildung {{mathl|term= v \mapsto \nabla_vF |SZ=}} ist also die Nullabbildung.
+|In
+{{
+Relationskette
+| Q
+|| {{op:Spaltenvektor| 0 | 0| 1}} 
+|| 
+|| 
+|| 
+|SZ=
+}} 
+bilden
+{{
+mathkor|term1=
+ {{op:Spaltenvektor| 1 | 0 | 0}} 
+|und|term2=
+ {{op:Spaltenvektor| 0 | 1 | 0}}
+|SZ=
+}}
+eine Basis des Tangentialraumes. Es ist
+{{
+Relationskette/display
+| {{op:Matrix33| 0 | 1 | 0 | -1| 0 | 0| 0 | 0| 0 | 0| 0 |}} {{op:Spaltenvektor| 1 | 0 | 0}} 
+|| {{op:Spaltenvektor| 0 | -1| 0}} 
+|| 
+|| 
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette/display
+| {{op:Matrix33| 0 | 1 | 0 | -1| 0 | 0| 0 | 0| 0 | 0| 0 |}} {{op:Spaltenvektor| 0 | 1 | 0}} 
+|| {{op:Spaltenvektor| 1 | 0 | 0}} 
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Beide Bildvektoren sind bereits tangential zu {{math|term= Y |SZ=}} in {{math|term= Q |SZ=.}} Eine beschreibende Matrix zu {{mathl|term= v \mapsto \nabla_vF |SZ=}} ist
+{{
+Math/display|term=
+ {{op:Matrix22| 0 | -1| 1 | 0}} 
+|SZ=.
+}}
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

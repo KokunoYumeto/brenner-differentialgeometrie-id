@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Sun, 23 Aug 2026 17:05:39 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Eindimensionale Mannigfaltigkeiten/R, 1-Sphäre, R punktiert/Nicht homöomorph/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 1158,
+  "response_path": "worksheet07_exercise04_solution_latex_expand.json",
+  "response_sha256": "2705a260c2f1c2f9c76cd28d4b6db5f7e7353c3073ba418d35c61fd1d8b76bdc",
+  "retrieved_utc": "2026-08-23T17:05:40Z",
+  "schema_version": 1
+}

@@ -1,0 +1,47 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesungsgestaltung|8|
+
+{{Zwischenüberschrift|Der Satz über implizite Abbildungen und Mannigfaltigkeiten}}
+
+Die Einheitssphäre, die wir in der letzten Vorlesung als ein motivierendes Beispiel einer Mannigfaltigkeit besprochen haben, ist die Faser zur differenzierbaren Abbildung
+{{
+Abbildung/display
+|name=
+| \R^3 | \R
+| (x,y,z) | x^2+y^2+z^2
+|SZ=,
+}}
+über {{math|term= 1 |SZ=.}} Diese Abbildung ist mit Ausnahme des Nullpunkts
+{{
+Definitionslink
+|regulär|
+|Kontext=Surjektiv|
+|Definitionsseitenname=
+/Definition
+|SZ=.
+}}
+Der Satz über implizite Abbildung macht in dieser Situation weitreichende Aussagen über die lokale Gestalt der Faser zu einer Abbildung
+{{
+Abbildung
+|name=\varphi
+|\R^n| \R^m
+||
+|SZ=,
+}}
+nämlich, dass es lokal Homöomorphismen zwischen der Faser in einem regulären Punkt und einer offenen Menge des {{math|term= \R^k |SZ=}} gibt, wobei {{math|term= k |SZ=}} die Differenz zwischen der Dimension des Ausgangsraumes und der Dimension des Zielraumes ist. Wir werden gleich sehen, dass solche Fasern nicht nur topologische Mannigfaltigkeiten, sondern auch differenzierbare Mannigfaltigkeiten sind. Wir formulieren den Satz über implizite Abbildungen in einer Version, aus der sich ablesen lässt, dass die regulären Fasern differenzierbare Mannigfaltigkeiten sind.
+
+{{:Implizite Abbildung/Untermannigfaltigkeit/Einführung/Textabschnitt}}
+
+{{Zwischenüberschrift|Differenzierbare Abbildungen}}
+
+{{:Differenzierbare Mannigfaltigkeit/R/Differenzierbare Abbildung/Einführung/Textabschnitt|}} 
+
+{{
+inputbemerkung
+|Differenzierbare Mannigfaltigkeit/Maximaler Atlas/Diffeomorph/Bemerkung||
+}}
+
+{{Zwischenüberschrift|Differenzierbare Funktionen}}
+
+{{:Differenzierbare Mannigfaltigkeit/R/Differenzierbare Funktionen/Spezialfall von Abbildung/Textabschnitt|}}
+
+}}

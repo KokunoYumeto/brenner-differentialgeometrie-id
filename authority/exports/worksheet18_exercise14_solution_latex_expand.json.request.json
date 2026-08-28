@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Wed, 26 Aug 2026 02:53:15 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Einheitskreis/Obere Halbebene/Rational isomorph/Reelle partielle Ableitungen/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 1771,
+  "response_path": "worksheet18_exercise14_solution_latex_expand.json",
+  "response_sha256": "e9c84d34ea095c9ea6e1247a3257842fd0c0f3329da526c6425165df294a9ce4",
+  "retrieved_utc": "2026-08-26T02:53:14Z",
+  "schema_version": 1
+}

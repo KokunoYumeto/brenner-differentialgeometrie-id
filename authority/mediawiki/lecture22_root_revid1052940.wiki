@@ -1,0 +1,123 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesungsgestaltung|22|
+
+Wir besprechen nun eine wichtige analytische Hilfstechnik namens {{Stichwort|Partition der Eins|SZ=.}} Wir werden sie im Beweis für die Aussage, dass orientierbare Mannigfaltigkeiten eine positive Volumenform besitzen, und für den Beweis des Satzes von Stokes einsetzen. In dieser Vorlesung werden wir Partitionen der Eins konstruieren, wozu wir zunächst einige topologische Begriffe benötigen.
+
+{{Zwischenüberschrift|Kompakte Ausschöpfung}}
+{{
+inputbild
+|Inner point|png|150px {{!}} right {{!}} 
+|Zusname=Inner_point
+|Text=Das offene Innere ist die Vereinigung aller inneren Punkte, also derjenigen Punkte von {{math|term=T|SZ=}}
+{{
+Zusatz/Klammer
+|text=im Bild {{math|term=E|SZ=}} |
+|ISZ=|ESZ=,
+}}
+die mit einer ganzen offenen Umgebung in {{math|term=T|SZ=}} enthalten sind.
+|Autor=
+|Benutzer=Zasdfgbnm
+|Domäne=
+|Lizenz=PD
+|Bemerkung=
+}}
+{{
+inputdefinition
+|Topologischer Raum/Teilmenge/Abschluss/Definition||
+}}
+Für metrische Räume haben wir den Abschluss als Menge aller 
+{{
+Definitionslink
+|Prämath=
+|Berührpunkte|
+|Kontext=mr|
+|SZ=
+}}
+schon früher eingeführt, siehe insbesondere
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Metrischer Raum/Abschluss/Berührungspunkte/Durchschnitt/Aufgabe
+|Nr=
+|SZ=.
+}}
+
+{{
+inputdefinition
+|Topologischer Raum/Teilmenge/Inneres/Definition||
+}}
+Diese beiden Begriffe stehen durch
+{{
+Relationskette/display
+| {{op:Topologischer Abschluss|T|}} 
+|| X \setminus {{op:Offene Innere|(X \setminus T)|}}
+||
+||
+||
+|SZ=
+}}
+miteinander in Beziehung. Auch der Begriff des Randes überträgt sich von der metrischen Situation auf beliebige topologische Räume.
+{{
+inputdefinition
+|Topologischer Raum/Teilmenge/Rand/Definition|M=X|
+}}
+Man beachte, dass dieser topologische Rand ein anderes Konzept ist als der Rand bei einer berandeten Mannigfaltigkeit, allerdings besteht eine Beziehung, die in
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Mannigfaltigkeit mit Rand/Rand ist topologischer Rand des Komplementes/Aufgabe
+|Nr=
+|SZ=
+}}
+besprochen wird.
+
+{{
+inputdefinition
+|Topologischer Raum/Funktion/Träger/Definition||
+}}
+
+{{
+inputdefinition
+|Topologischer Raum/Kompakte Ausschöpfung/Definition||
+}}
+
+Der {{math|term= \R^d |SZ=}} wird durch die abgeschlossenen Bälle
+{{
+mathbed|term=
+  {{op:Abgeschlossener Ball|0|n}} 
+||bedterm1=
+n \in \N
+||bedterm2=
+|SZ=.
+}}
+kompakt ausgeschöpft, siehe
+{{
+Aufgabelink
+|Aufgabeseitenname=
+R^n/Kompakte Ausschöpfung/Aufgabe
+|Nr=
+|SZ=.
+}}
+
+{{Zwischenüberschrift|Partitionen der Eins}}
+
+{{:Mannigfaltigkeit/Partition der Eins/Einführung/Textabschnitt}}
+
+{{Zwischenüberschrift|Orientierungen auf Mannigfaltigkeiten und Volumenformen}}
+
+Mit Hilfe von Partitionen der Eins können wir nun die Umkehrung von
+{{
+Faktlink
+|Faktseitenname=
+Nullstellenfreie Volumenform/Impliziert orientierte (Karten) Mannigfaltigkeit/Fakt
+|SZ=
+}}
+beweisen.
+
+{{
+inputfaktbeweis
+|Nullstellenfreie Volumenform/Orientierte (Karten) Mannigfaltigkeit/Äquivalenz/Fakt|Satz||zusatz1=Fußnote
+}}
+
+{{Fußnotenliste|}} 
+
+}}

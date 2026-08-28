@@ -1,0 +1,61 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Wir betrachten die 
+{{
+Definitionslink
+|Prämath=
+|abgeschlossenen Bälle|
+|Kontext=|
+|SZ=
+}}
+{{
+mathbed|term=
+ {{op:Abgeschlossener Ball| 0 | n }} 
+||bedterm1=
+n \in \N_+
+||bedterm2=
+|SZ=,
+}}
+die
+{{
+Definitionslink
+|Prämath=
+|kompakt|
+|Kontext=|
+|SZ=
+}}
+sind und die den {{math|term= \R^d |SZ=}} überdecken. Das offene Innere von {{mathl|term= {{op:Abgeschlossener Ball| 0 | n+1 }}  |SZ=}} 
+ist der 
+{{
+Definitionslink
+|Prämath=
+|offene Ball|
+|Kontext=|
+|SZ=
+}}
+{{mathl|term= {{op:Offener Ball| 0|n+1}}  |SZ=}} und wegen
+{{
+Relationskette/display
+| {{op:Abgeschlossener Ball| 0|n}} 
+| \subseteq | {{op:Offener Ball| 0|n+1}} 
+|| 
+|| 
+|| 
+|SZ=
+}}
+liegt eine
+{{
+Definitionslink
+|Prämath=
+|kompakte Ausschöpfung|
+|Kontext=|
+|SZ=
+}}
+vor.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

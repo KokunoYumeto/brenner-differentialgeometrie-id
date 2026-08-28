@@ -1,0 +1,92 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesungsgestaltung|7|
+
+{{Zwischenüberschrift|Das Konzept einer Mannigfaltigkeit}}
+
+In der Differentialgeometrie steht der Begriff einer Mannigfaltigkeit im Mittelpunk. Als Beispiel betrachten wir die Erde
+{{
+Zusatz/Klammer
+|text=ihre Oberfläche|
+|ISZ=|ESZ=,
+}}
+die in der Wissenschaftsgeschichte lange für eine Scheibe gehalten wurde, und zwar aus gutem Grund. Sie sieht nämlich lokal aus wie eine Ebene. Dies spiegelt sich auch in den Karten wider, die man sich von ihr macht. Eine Karte ist ein ebenes {{Anführung|Blatt|SZ=,}} dessen Punkte in Bijektion zu einem Ausschnitt der Erdoberfläche steht. Insbesondere bei kleinen Ausschnitten halten wir das für unproblematisch, bei Karten aber, die große Ausschnitte oder gar die gesamte Erde wiedergeben sollen, tauchen schnell Fragen auf, was die Karte richtig wiedergibt und was nicht, Fragen nach der Längentreue, Flächentreue, Winkeltreue, Fragen über fehlende Punkte oder mehrfach auftretende Punkte, Fortsetzungsfragen, Krümmungsfragen ...
+
+{{
+inputbild
+|Stereographic projection in 3D|png| 250px {{!}} right {{!}} 
+|Zusname=Stereographic_projection_in_3D
+|Text=Die stereographische Projektion, wenn man die Ebene nicht durch den Äquator, sondern durch den Südpol legt.
+|Autor=
+|Benutzer=Mark.Howison
+|Domäne=en.Wikipedia
+|Lizenz=PD
+|Bemerkung=
+}}
+Wir besprechen zunächst die {{stichwort|stereographische Projektion}} der Kugeloberfläche.
+{{
+inputbeispiel
+|Kugeloberfläche/Stereographische Projektion/Einführung zum Mannigfaltigkeitsbegriff/Beispiel|zusatz1=Fußnote|
+}}
+
+Eine {{Stichwort|Mannigfaltigkeit|SZ=}} ist ein geometrisches Gebilde, das {{Anführung|lokal}} so aussieht wie der euklidische Raum {{math|term= \R^n |SZ=.}} Dabei setzen wir dieses geometrische Gebilde als einen
+{{
+Definitionslink
+|topologischen Raum|
+|Kontext=|
+|Definitionsseitenname=
+/Definition
+|SZ=
+}}
+an, und lokal wird dadurch präzisiert, dass es eine Überdeckung aus offenen Mengen gibt, die homöomorph zu offenen Teilmengen des {{math|term= \R^n |SZ=}} sind. Obwohl wir im Folgenden mit topologischen Räumen arbeiten sei erwähnt, dass sich der Vorstellungsgehalt des Folgenden nicht verringert, wenn man bei einem topologischen Raum einfach an einen metrischen Raum denkt.
+
+{{Zwischenüberschrift|Differenzierbare Mannigfaltigkeiten}}
+
+{{:Topologische Mannigfaltigkeit/Karten/Einführung/Textabschnitt}}
+
+{{:Differenzierbare Mannigfaltigkeit/R/Einführung/Textabschnitt|}} 
+
+Wir haben schon früher im Kontext des Zwischenwertsatzes von 
+{{
+Definitionslink
+|zusammenhängenden metrischen Räumen|
+|Kontext=|
+|Definitionsseitenname=
+/Definition
+|SZ=
+}}
+gesprochen. Die gleiche Definition verwenden wir auch für topologische Räume.
+{{
+inputdefinition
+|Topologische Grundbegriffe/Zusammenhängender Raum/Definition||
+}}
+
+Häufig interessiert man sich nur für zusammenhängende Mannigfaltigkeiten, vor allem deshalb, da man im nicht zusammenhängenden Fall die einzelnen {{Anführung|Zusammenhangskomponenten|SZ=}} getrennt voneinander untersuchen kann. Wir besprechen kurz niedrigdimensionale Mannigfaltigkeiten.
+
+{{
+inputbeispiel
+|Differenzierbare Mannigfaltigkeit/Nulldimensional/Beispiel||
+}}
+
+{{
+inputbild
+|Circle - black simple|svg| 250px {{!}} right {{!}} 
+|Zusname=Circle_-_black_simple
+|Text=Eine Kreislinie ist eine kompakte eindimensionale Mannigfaltigkeit
+|Autor=
+|Benutzer=Dakdada
+|Domäne=
+|Lizenz=PD
+|Bemerkung=
+}}
+{{
+inputbeispiel
+|Differenzierbare Mannigfaltigkeit/Eindimensional/Beispiel||zusatz1={{
+Zusatz/Fußnote
+|text=Allerdings haben wir den Kompaktheitsbegriff bisher nur für Teilmengen im {{math|term= \R^n |SZ=}} definiert; wir werden bald sehen, dass es sich um einen absoluten Begriff handelt, der nicht von der Einbettung abhängt. Man  kann also {{math|term=\R|SZ=}} nicht irgendwie in den {{math|term= \R^n |SZ=}} homöomorph einbetten, so dass das Bild kompakt ist|
+|ISZ=.|ESZ=
+}}
+}}
+Ab der Dimension zwei ist es ohne starke zusätzliche Voraussetzungen nicht möglich, sich eine Übersicht über alle Mannigfaltigkeiten zu verschaffen.
+
+{{Fußnotenliste|}}
+
+}}

@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Sun, 23 Aug 2026 17:05:38 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 7/latex"
+  },
+  "response_bytes": 25017,
+  "response_path": "lecture07_latex_expand.json",
+  "response_sha256": "72fd7ecefed4b9f537ddaadc2573d7fcf16ead5d7b5115c4b37e0ce3f2722632",
+  "retrieved_utc": "2026-08-23T17:05:39Z",
+  "schema_version": 1
+}

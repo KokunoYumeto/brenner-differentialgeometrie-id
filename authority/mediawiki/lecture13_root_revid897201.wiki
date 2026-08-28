@@ -1,0 +1,33 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesungsgestaltung|13|
+
+{{Zwischenüberschrift|Konstruktion von Vektorbündeln}}
+
+Man kann sämtliche Konstruktionen, die man in der linearen Algebra für Vektorräume durchführt, auf Vektorbündel übertragen. In jeder Faser verwendet man die Konstruktionen für die Vektorräume. Da man aber auch die Trivialisierungen berücksichtigen muss, ist es am einfachsten, mit Verklebungsdaten zu arbeiten.
+
+{{:Reelle Vektorbündel/Topologischer Raum/Konstruktionen/Lineare Algebra/Textabschnitt}}
+
+{{Zwischenüberschrift|Differenzierbare Vektorbündel}}
+
+{{
+inputdefinition
+|Mannigfaltigkeit/Differenzierbares Vektorbündel/Definition||
+}}
+
+{{Zwischenüberschrift|Orientierungen auf Mannigfaltigkeiten}}
+
+{{:Orientierung auf Mannigfaltigkeit/Orientierbarkeit/Einführung/Textabschnitt|}}
+
+{{
+inputbemerkung
+|Differenzierbare Hyperfläche/Orientierung über Einheitsnormalenfeld/Bemerkung||
+}}
+
+{{Zwischenüberschrift|Kompaktheit}}
+
+{{:Kompaktheit/Zusammenstellung für Mannigfaltigkeiten/Textabschnitt||}}
+
+{{Zwischenüberschrift|Maße auf Mannigfaltigkeiten}}
+
+{{:Maße auf Mannigfaltigkeiten/Allgemeines/Ansatz mit Dichten/Bemerkung}}
+
+}}

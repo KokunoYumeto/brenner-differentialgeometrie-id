@@ -1,0 +1,86 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Wir betrachten Funktionen der Bauart
+{{
+Abbildung/display
+|name= \psi_c
+|[0,1]|[0,1]
+| x | x + \varphi_c (x)
+|SZ=,
+}}
+mit
+{{
+Relationskette/display
+|  \varphi_c(x)
+|| \begin{cases}  0 \text{ für } x \leq {{op:Bruch| 1 | 3}} \, , \\  c {{makl| x- {{op:Bruch| 1 | 3}}  |}}^2 {{makl| x- {{op:Bruch| 2| 3}}  |}}^2 \text{ für } {{op:Bruch| 1 | 3}} < x < {{op:Bruch| 2| 3}}  \, ,  \\  0 \text{ für } x \geq {{op:Bruch| 2| 3}}  \, .  \end{cases}
+|| 
+|| 
+|| 
+|SZ=
+}}
+mit einem Parameter
+{{
+Relationskette
+| c
+| \in |  \R_{\geq 0}
+||
+||
+||
+|SZ=.
+}}
+Dabei ist {{math|term= \varphi_c |SZ=}} stetig und auch stetig differenzierbar, da die Nullstellen des Polynoms doppelt sind. Somit ist auch {{math|term=  \psi_c |SZ=}} stetig differenzierbar. Für {{math|term= c |SZ=}} hinreichend klein ist {{math|term=  \psi_c |SZ=}} streng wachsend und definiert eine stetig differenzierbare bijektive Abbildung des Einheitsintervalls in sich, die im unteren und im oberen Drittel die Identität ist.
+
+Mit {{math|term= \psi_c |SZ=}} definieren wir Diffeomorphismen des offenen Einheitsballes in sich, durch
+{{
+Abbildung/display
+|name=
+| {{op:Offener Ball| 0 | 1}} | {{op:Offener Ball| 0 | 1}}
+| {{op:Spaltenvektor| x_1 |\vdots | x_n}} | \psi_c {{makl| \sqrt{  x_1^2 {{plusdots}} x_n^2 } |}} {{op:Spaltenvektor| x_1 |\vdots | x_n}} 
+|SZ=.
+}}
+Es wird also der Punkt abhängig vom Radius gestreckt, wobei auf {{mathl|term=   {{op:Offener Ball| 0 | {{op:Bruch| 1 | 3}} }} |SZ=}} und auf {{mathl|term=  {{op:Offener Ball| 0 | 1}} \setminus  {{op:Offener Ball| 0 |   {{op:Bruch| 2| 3}} }} |SZ=}} die Identität vorliegt.
+
+Wenn nun {{math|term= M |SZ=}} eine Mannigfaltigkeit der Dimension {{math|term= \geq 1 |SZ=}} ist, so wählen wir eine Karte
+{{
+Abbildung/display
+|name= \alpha
+| U |V
+||
+|SZ=
+}}
+mit 
+{{
+Relationskette
+| V
+| \subseteq |  \R^n
+|| 
+|| 
+|| 
+|SZ=,
+}}
+wobei wir
+{{
+Zusatz/Klammer
+|text=durch verkleinern|
+|ISZ=|ESZ=
+}}
+davon ausgehen können, dass {{math|term= V |SZ=}} 
+{{
+Zusatz/Klammer
+|text=ein offener Ball und dann auch|
+|ISZ=|ESZ=
+}}
+der offene Einheitsball ist. Die konstruierten Diffeomorphismen auf {{math|term= V |SZ=}} liefern Diffeomorphismen auf {{math|term= U |SZ=.}} Da diese für den äußeren Ball
+{{
+Zusatz/Klammer
+|text=ab Radius {{math|term= {{op:Bruch| 2| 3}} |SZ=}} |
+|ISZ=|ESZ=
+}}
+die Identität sind, kann man diese Diffeomorphismen auf {{math|term= M |SZ=}} durch die Identität auf {{math|term= M \setminus \alpha^{-1} {{makl| {{op:Offener Ball| 0 | {{op:Bruch| 2| 3}} }} |}} |SZ=}} diffeomorph ausdehnen.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

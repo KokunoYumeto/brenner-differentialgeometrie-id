@@ -1,0 +1,192 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesungsgestaltung|10|
+
+{{Zwischenüberschrift|Abgeschlossene Untermannigfaltigkeiten}}
+
+{{:Mannigfaltigkeiten/Abgeschlossene Untermannigfaltigkeiten/Einführung/Über regulär/Textabschnitt|zusatz1=Fußnote}}
+
+Durch die letzte Aussage ergibt sich auch, dass der in einem regulären Punkt {{math|term= P |SZ=}} der Faser {{math|term= M |SZ=}} einer differenzierbaren Abbildung
+{{
+Abbildung
+|name=\varphi
+|G|\R^k
+||
+|SZ=,
+}}
+{{
+Relationskette
+|G
+| \subseteq| \R^n
+||
+||
+||
+|SZ=
+}}
+offen, als Kern des totalen Differentials
+{{
+Zusatz/Klammer
+|text=als Untervektorraum von
+{{
+Relationskette/k
+| \R^n
+|| T_P \R^n
+||
+||
+||
+|SZ=
+}}|
+|ISZ=|ESZ=
+}}
+definierte
+{{
+Definitionslink
+|Tangentialraum|
+|Kontext=Faser|
+|Definitionsseitenname=
+/Definition
+|SZ=
+}}
+mit dem
+{{
+Definitionslink
+|Prämath=
+|Tangentialraum|
+|Kontext=Mfk|
+|Definitionsseitenname=
+/Definition
+|SZ=
+}}
+an die Faser als einer differenzierbaren Mannigfaltigkeit übereinstimmt. Der 
+{{
+Zusatz/Klammer
+|text=abstrakte|
+|ISZ=|ESZ=
+}}
+Tangentialraum {{mathl|term= T_PM |SZ=}} ist aufgrund von
+{{
+Faktlink
+|Faktseitenname=
+Abgeschlossene Untermannigfaltigkeit/Punktweise/Tangentialraum als Unterraum/Fakt
+|Nr=
+|SZ=
+}}
+ein Untervektorraum von
+{{
+Relationskette 
+| T_P\R^n
+|| \R^n
+||
+||
+||
+|SZ=
+}} 
+der Dimension {{mathl|term= n-k |SZ=.}} Auch der Kern des surjektiven totalen Differentials
+{{
+Abbildung
+|name= {{op:Totales Differential|\varphi|P|}}
+| \R^n | \R^k
+||
+|SZ=
+}}
+ist ein {{mathl|term= (n-k) |SZ=-}}dimensionaler Untervektorraum von {{math|term= \R^n |SZ=.}} Die Gleichheit der beiden Untervektorräume ergibt sich daraus, dass die den abstrakten Tangentialraum definierenden differenzierbaren Kurven
+{{
+Abbildung/display
+|name=\gamma
+|I|M
+||
+|SZ=
+}}
+verknüpft mit {{math|term= \varphi |SZ=}} konstant sind, siehe
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Differenzierbare Abbildung/Reguläre Faser/Tangentialraum als Kern und zu Mannigfaltigkeit/Aufgabe
+|Nr=
+|SZ=.
+}}
+
+{{Zwischenüberschrift|Das Tangentialbündel}}
+
+{{:Mannigfaltigkeit/Tangentialbündel/Einführung/Textabschnitt|}} 
+
+{{
+inputbild
+|Torus vectors oblique|jpg| 200px {{!}} right {{!}} 
+|Zusname=Torus_vectors_oblique
+|Text=Ein Vektorfeld auf einem Torus. Jedem Punkt des Torus wird eine tangentiale Richtung zugeordnet, dies wird durch die Pfeile angedeutet.
+|Autor=
+|Benutzer=RokerHRO
+|Domäne=
+|Lizenz=CC-by-sa 3.0
+|Bemerkung=
+}}
+{{
+inputdefinition
+|Differenzierbare Mannigfaltigkeit/Zeitunabhängig/Vektorfeld/Definition||
+}}
+Ein Vektorfeld weist also jedem Punkt einen Richtungsvektor in diesem Punkt zu. Man sagt auch kurz, das ein Vektorfeld ein {{Stichwort|Schnitt|SZ=}} im Tangentialbündel ist. Vektorfelder führen zu gewöhnlichen Differentialgleichungen auf Mannigfaltigkeiten. Auf einer offenen Menge
+{{
+Relationskette
+| U
+|\subseteq| \R^n
+|| 
+|| 
+|| 
+|SZ=
+}}
+gibt es die {{Stichwort|Standardvektorfelder|msw=Standardvektorfeld|SZ=}} 
+{{
+mathbed|term=
+\partial_i
+||bedterm1=
+1 \leq i \leq n
+||bedterm2=
+|SZ=,
+}}
+die jedem Punkt
+{{
+Relationskette
+| P
+|\in| U
+||
+||
+||
+|SZ=
+}}
+den
+{{
+Definitionslink
+|Prämath=
+|Standardvektor|
+|Kontext=|
+|SZ=
+}}
+{{
+Relationskette
+| e_i
+|\in| \R^n 
+||
+||
+||
+|SZ=,
+}}
+aufgefasst als Tangentialvektor an {{math|term= P |SZ=,}} zuordnen. Beliebige Vektorfelder {{math|term= F |SZ=}}  auf {{math|term= U |SZ=}} kann man dann als
+{{
+Relationskette
+| F
+|| \sum_{i {{=}} 1}^n  f_i \partial_i
+|| 
+|| 
+|| 
+|SZ=
+}}
+mit Funktionen {{math|term= f_i |SZ=}} ansetzen.
+
+{{
+inputdefinition
+|Differenzierbare Mannigfaltigkeit/Kotangentialbündel/Definition||
+}}
+Die Schnitte im Kotangentialbündel heißen {{math|term=1|SZ=-}}Differentialformen. Wir werden darauf ausführlich zurückkommen.
+ 
+{{Fußnotenliste|}}
+
+}}

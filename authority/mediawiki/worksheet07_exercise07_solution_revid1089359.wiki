@@ -1,0 +1,78 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+a) Der Großkreis ist
+{{
+Math/display|term=
+G= {{Mengebed|(x,y,z) \in S|ax+by+cz {{=|}} 0}} 
+|SZ=
+}}
+und die beiden offenen Halbsphären sind
+{{
+Math/display|term=
+U_+ = {{Mengebed|(x,y,z) \in S|ax+by+cz > 0}} 
+|SZ=
+}}
+bzw.
+{{
+Math/display|term=
+U_- = {{Mengebed|(x,y,z) \in S|ax+by+cz < 0}} 
+|SZ=.
+}}
+
+b) Für jede offene Halbkugel {{math|term= U |SZ=}} und den zugehörigen Großkreis {{math|term= G |SZ=}} ist {{mathl|term= U \cap G = \emptyset|SZ=.}} Der maximale Abstand von zwei Punkten {{mathl|term= P,Q \in S |SZ=}} ist {{mathl|term=  2 |SZ=,}} und dies ist genau dann der Fall, wenn die beiden Punkte gegenüber 
+{{
+Zusatz/Klammer
+|text=antipodal|
+|ISZ=|ESZ=
+}} liegen, wenn also ihre Verbindungsgerade durch den Kugelmittelpunkt geht
+{{
+Zusatz/Klammer
+|text=also bei {{mathl|term= Q=-P|SZ=}} |
+|ISZ=|ESZ=
+}}. Ein solches antipodale Paar liegt nicht auf einer offenen Halbsphäre, da bei {{mathl|term= P=(x,y,z) |SZ=}} und {{mathl|term= P \in U_+|SZ=}} ja {{mathl|term= ax+by+cz>0 |SZ=}} und daher {{mathl|term= a(-x) +b(-y)+c(-z) <0 |SZ=}} gilt, also {{mathl|term= -P \in U_-|SZ=.}} 
+
+Wir nehmen nun an, dass es eine offene Überdeckung
+{{
+Math/display|term=
+S \subseteq U_1 \cup U_2 \cup U_3
+|SZ=
+}}
+mit drei offenen Halbsphären {{mathl|term= U_1,U_2,U_3 |SZ=}} gibt
+{{
+Zusatz/Klammer
+|text=die entsprechenden Ebenen und Großkreise seien mit
+{{
+mathkor|term1=
+E_i
+|bzw.|term2=
+G_i
+|SZ=
+}} bezeichnet|
+|ISZ=|ESZ=.
+}}
+Wegen {{mathl|term= U_1 \cap G_1 = \emptyset|SZ=}} folgt
+{{
+Math/display|term=
+G_1 \subseteq U_2 \cup U_3
+|SZ=.
+}} 
+Der Durchschnitt {{mathl|term= G_1 \cap E_2 |SZ=}} enthält mindestens zwei antipodale Punkte
+{{
+mathkor|term1=
+P
+|und|term2=
+-P
+|SZ=
+}}
+Dabei ist {{mathl|term= P,-P \not\in U_2 |SZ=.}} Da {{math|term= U_3 |SZ=}} nach der Vorüberlegung kein antipodales Punktepaar enthält, gehört einer dieser Punkte auch nicht zu {{math|term= U_3 |SZ=}} und wir haben einen Widerspruch.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

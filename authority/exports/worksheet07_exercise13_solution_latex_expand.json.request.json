@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Sun, 23 Aug 2026 17:05:40 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Einheitssphäre/Nordpol und (1,0,0)/Abstand längs Ebenenschnitt/Animation/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 445,
+  "response_path": "worksheet07_exercise13_solution_latex_expand.json",
+  "response_sha256": "9a83c3be71e612f583a3a1440d56849369f27c97d1590992ea7969afb9f1cd2c",
+  "retrieved_utc": "2026-08-23T17:05:40Z",
+  "schema_version": 1
+}

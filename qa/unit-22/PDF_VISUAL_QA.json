@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-pdf-visual-qa-v22",
+  "generated_at": "2026-08-28T13:56:18+02:00",
+  "status": "pass",
+  "scope": "Complete visual inspection of every page in the cumulative Indonesian PDF through Unit 22 after the final Unit 22 TeX-context repair and deterministic two-cycle rebuild.",
+  "surface": {
+    "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-22-id.pdf",
+    "bytes": 9046717,
+    "sha256": "4e6c03dc8388a4c10c464d939d5a416ab035c52e3bd233212c78a40617e02cf7",
+    "pages": 345,
+    "page_size": "A4, 595.276 x 841.89 pt",
+    "build_receipt_path": "qa/unit-22/build.json",
+    "build_receipt_bytes": 233556,
+    "build_receipt_sha256": "68aacdf979f81c432a62dd9cebf2d4bab8e017cc03cde60d60532aaa99e6312d"
+  },
+  "structural_qa": {
+    "path": "qa/unit-22/pdf_structural_qa.json",
+    "bytes": 478620,
+    "sha256": "f5e9ae47e09bd6759b32b5ae14d623f25c0fbb5feb51f1d21d42559291915159",
+    "verdict": "PASS_WITH_WARNINGS_AND_DOCUMENTED_LIMITATION",
+    "minimum_body_left_points": 60.5,
+    "maximum_body_right_points": 538.641,
+    "exercise_count": 457,
+    "source_supplied_solution_count": 64,
+    "bookmark_count": 109,
+    "media_count": 31,
+    "font_object_count": 34
+  },
+  "render_evidence": {
+    "renderer": "Poppler pdftoppm",
+    "format": "JPEG",
+    "resolution_dpi": 72,
+    "page_image_count": 345,
+    "page_image_bytes": 13090890,
+    "page_inventory_sha256": "45185445cf405107e94f722eae644677b617c6192cfefd5d656b790a79256ebd",
+    "inventory_digest_method": "SHA-256 over UTF-8 filename|bytes|sha256 lines in sorted order, each terminated by LF",
+    "contact_sheet_count": 10,
+    "contact_sheet_bytes": 4427574,
+    "contact_sheet_inventory_sha256": "9a38de3d5ecf55d3d8004271c3cb7764fcad3558e0d5119ce74ec701772c3025",
+    "inspection": "All ten contact sheets covering physical pages 1-345 were inspected. Physical pages 303, 310, 320, 326, 328, 330, 333, 335, 339, 344, and 345 were additionally inspected at their full rendered resolution to check the new Unit 20-22 transitions, dense mathematics, both Unit 22 figures, worksheet layout, media attribution, and license ending."
+  },
+  "focused_new_boundary_evidence": {
+    "physical_page_303_sha256": "6eb2796f596376b680b91ef1152a1288be7fdcc98ff2c004c85d8686a6c3728d",
+    "physical_page_310_sha256": "5f42db17b82333f53e0212f619316f9c3e7e4eed88da3a192572b6e0b2d92c7e",
+    "physical_page_320_sha256": "798497861377d8c947e34765a22be4533f9803c76afe62f48b867746096266e7",
+    "physical_page_326_sha256": "7d4902e2266d9dace2c4a7b63d5df540e9f27b079ab5e969bdd54d5118ab9d2b",
+    "physical_page_328_sha256": "eb4dae3f1b001f7fa0c64ddbf8b573f166d6531dcebdb7687e996d7dc9f090f7",
+    "physical_page_330_sha256": "2ccedba4b529329d5e95b65814e8da849a0bb6a1fe9c74fbcc0c02a796e6cfda",
+    "physical_page_333_sha256": "64943fa72c7fb44aafbc3a18f7ddc87514c661746ec2c75922f7892a5e6a1653",
+    "physical_page_335_sha256": "7dbaf229dc5b8f3af40a5e0c092d2d4acbc3f89531bea7eaa24da3b45136c971",
+    "physical_page_339_sha256": "edcab800455238e22228a61a457f8ff1c5e23d0e13221fe01c9145f11ca81a68",
+    "physical_page_344_sha256": "2a82747460626f93998c2f46177049d4d8beb5e39f35701fcce46fbef716519e",
+    "physical_page_345_sha256": "82b74807cbca7981f60331ead94feeb5f6427102e9d247a1ba338a4d476d92eb",
+    "finding": "Units 20-22 are centered and legible throughout. The Unit 22 compact-exhaustion construction, partition-of-unity formulas, proof-ending squares, wide worksheet formulas, both figures and captions, source-supplied Solution 6, media-attribution rows, and license page are wholly inside the text block with no collision, clipping, or missing-glyph artifact."
+  },
+  "checks": {
+    "all_345_pages_rendered": true,
+    "all_345_pages_visually_inspected": true,
+    "front_matter_and_contents_legible": true,
+    "all_twenty_two_unit_boundaries_consistent": true,
+    "body_is_centered_inside_the_a4_page": true,
+    "units_20_21_22_reflow_inside_text_block": true,
+    "unit_22_figures_are_sharp_and_centered": true,
+    "no_clipped_or_out_of_page_content": true,
+    "no_overlapping_text_figures_or_equations": true,
+    "no_unintended_blank_pages": true,
+    "figures_are_sharp_and_positioned_with_their_content": true,
+    "equations_and_small_glyphs_are_legible": true,
+    "headers_footers_and_page_numbers_are_consistent": true,
+    "media_attribution_and_license_pages_are_readable": true,
+    "no_placeholder_or_tool_token_is_visible": true,
+    "two_clean_build_cycles_byte_identical": true
+  },
+  "limitations": [
+    "This is a visual-rendering receipt, not a claim that the PDF is structurally tagged; the structural receipt records the untagged-PDF limitation separately.",
+    "The bound TeX logs contain 42 non-blocking box diagnostics, while independent page-bound, body-extent, full-render, and visual checks pass.",
+    "Hollow square marks visible in the reader are intentional proof-ending marks, not missing-glyph placeholders."
+  ]
+}

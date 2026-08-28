@@ -1,0 +1,54 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Nach
+{{
+Faktlink
+|Faktseitenname=
+Differenzierbare Hyperfläche/Differenzierbare Kurve/Ableitung parallel/Geodätische/Fakt
+|Nr=
+|SZ=
+}}
+ist das Geschwindigkeitsfeld {{math|term= \gamma' |SZ=}} ein 
+{{
+Definitionslink
+|Prämath=
+|paralleles Vektorfeld|
+|Kontext=Kurve|
+|SZ=
+}}
+längs {{math|term= \gamma |SZ=.}} Daher überführt der 
+{{
+Definitionslink
+|Prämath=
+|Paralleltransport|
+|Kontext=Hyperfläche|
+|SZ=
+}}
+{{math|term= \Psi_\gamma |SZ=}}  zu {{math|term= \gamma |SZ=}} den Vektor
+{{
+Relationskette
+| \gamma'(a)
+| \in |  T_{\gamma(a)} Y
+||
+||
+||
+|SZ=
+}}
+in den Vektor
+{{
+Relationskette
+| \gamma'(b)
+| \in |  T_{\gamma(b)} Y
+||
+||
+||
+|SZ=
+}}
+über.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

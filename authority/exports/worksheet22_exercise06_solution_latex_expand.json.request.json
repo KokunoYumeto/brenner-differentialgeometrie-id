@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 10:46:37 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "R^n/Kompakte Ausschöpfung/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 878,
+  "response_path": "worksheet22_exercise06_solution_latex_expand.json",
+  "response_sha256": "3e88162b8b15a81f20d9883f17df87b714243957e35d09e70370d131bf0a2715",
+  "retrieved_utc": "2026-08-28T10:46:36Z",
+  "schema_version": 1
+}

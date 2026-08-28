@@ -1,0 +1,148 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblattgestaltung|7|
+
+{{Zwischenüberschrift|Übungsaufgaben}}
+
+{{
+inputaufgabe
+|Einheitssphäre/Abstände in Standardkarten/Differenz/Aufgabe||
+|zusatz=
+|tipp=
+}}
+Die vorstehende Aufgabe zeigt, dass man über Karten im Allgemeinen keinen sinnvollen Abstandsbegriff auf einer Mannigfaltigkeit erhalten kann. Eine natürliche Metrik auf der Einheitssphäre ergibt sich durch die induzierte Metrik des {{math|term=\R^3|SZ=}} oder durch den geodätischen Abstand, siehe
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Einheitssphäre/Metrik über Großkreis/Aufgabe
+|Nr=
+|SZ=.
+}}
+
+{{
+inputaufgabe
+|Halboffenes Intervall/Keine topologische Mannigfaltigkeit/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Halboffenes Intervall/Kreis/Stetige Bijektion/Kein Homöomorphismus/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Eindimensionale Mannigfaltigkeiten/R, 1-Sphäre, R punktiert/Nicht homöomorph/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Sinus 1 durch x/Keine Mannigfaltigkeit/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Offener euklidischer Ball/Diffeomorph zu R^n/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Einheitssphäre/Beschreibung von offenen Halbsphären/Nicht von 3 überdeckt/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Zylinder/Punktierte Ebene/Sphäre ohne Pole/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Rotationsmenge/Positive Funktion oder Nullstelle/Mannigfaltigkeit/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Zusammenhängend/Wegzusammenhängend/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Übergangsabbildungen/Kozykelbedingung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Einheitskugel/Kozykelbedingung für Standardkarten/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Einheitssphäre/Nordpol und (1,0,0)/Abstand längs Ebenenschnitt/Animation/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Geschenkpapier/Verkleben/Mannigfaltigkeit/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{Zwischenüberschrift|Aufgaben zum Abgeben}}
+
+{{
+inputaufgabe
+|Einheitssphäre/Großkreise durch Pole/Bild unter stereographischer Projektion/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Einheitssphäre/Metrik über Großkreis/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Einheitssphäre/Nordpol und (1,0,0)/Abstand längs Ebenenschnitt/Abhängigkeit vom Winkel/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Injektive stetige Abbildung/R nach S^2/Bild unendliche Länge/Pole als Limiten/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Achsenkreuz/Keine topologische Mannigfaltigkeit/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+}}

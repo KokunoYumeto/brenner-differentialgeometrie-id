@@ -1,0 +1,46 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es ist
+{{
+Relationskette/align
+| (N (\gamma(t)) \times F(t))'
+|| (N (\gamma(t)))' \times F(t) +  N (\gamma(t)) \times F'(t)
+|| {{op:Totales Differential| N | \gamma(t)| \gamma'(t) }}  \times F(t) +  N (\gamma(t)) \times F'(t)
+|| 
+|| 
+|SZ=.
+}}
+Es ist zu zeigen, dass dieser Vektor stets senkrecht auf dem Tangentialraum {{math|term= T_{\gamma(t)}Y |SZ=}} steht. Da {{math|term= F'(t) |SZ=}} senkrecht auf dem
+Tangentialraum steht, ist er linear abhängig zum Normalenvektor {{math|term=  N (\gamma(t)) |SZ=}} und daher ist der rechte Summand gleich {{math|term= 0 |SZ=}} nach
+{{
+Faktlink
+|Faktseitenname=
+K^3/Kreuzprodukt/Eigenschaften/Fakt
+|Nr=3
+|SZ=.
+}}
+Im linken Summanden ist {{math|term= F(t) |SZ=}} tangential nach Voraussetzung und {{math|term= {{op:Totales Differential| N | \gamma(t)| \gamma'(t) }} |SZ=}} ist tangential nach
+{{
+Faktlink
+|Faktseitenname=
+Hyperfläche/Weingartenabbildung/Tangentialraum/Fakt
+|Nr=
+|SZ=.
+}}
+Daher ist nach
+{{
+Faktlink
+|Faktseitenname=
+K^3/Kreuzprodukt/Eigenschaften/Fakt
+|Nr=6
+|SZ=
+}}
+der linke Summand senkrecht auf dem Tangentialraum und somit ist insgesamt das Vektorfeld parallel.
+
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

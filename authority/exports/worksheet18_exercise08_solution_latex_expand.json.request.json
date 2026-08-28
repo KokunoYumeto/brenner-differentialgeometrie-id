@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Wed, 26 Aug 2026 02:53:13 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Eingebetteter Torus/Drehung/Isometrie/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 1854,
+  "response_path": "worksheet18_exercise08_solution_latex_expand.json",
+  "response_sha256": "e66ae5eee654420ecfc6b19d8d7aaed35048a5bfbeba73215f12fb0213266639",
+  "retrieved_utc": "2026-08-26T02:53:12Z",
+  "schema_version": 1
+}

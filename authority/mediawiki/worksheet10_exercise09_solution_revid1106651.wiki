@@ -1,0 +1,57 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es sei {{math|term= P \in M |SZ=}} ein Punkt und {{mathl|term= P \in U |SZ=}} eine offene Kartenumgebung zusammen mit einer Karte
+{{
+Abbildung/display
+|name=\alpha
+| U |V \subseteq \R^n
+||
+|SZ=,
+}} 
+wobei {{math|term= V=B(0,3) |SZ=}} die offene Kugel mit Mittelpunkt {{math|term= 0 |SZ=}} und Radius {{math|term= 3 |SZ=}} sei und wobei {{mathl|term= \alpha(P)=0 |SZ=}} gelte. Für {{mathl|term= i=1 {{kommadots|}} n-1 |SZ=}}  betrachten wir
+{{
+Math/display|term=
+B_i = {{Mengebed| x \in V|(x_1-1)^2+x_2^2 {{plusdots|}} x_n^2 {{=|}} 1| x_{i+2}   {{=|}} 0,\, x_{i+3} {{=|}} 0 {{kommadots|}} x_n {{=|}} 0 }} 
+|SZ=.
+}}
+Es ist also {{math|term= B_{n-1} |SZ=}} die Kugeloberfläche mit Mittelpunkt {{mathl|term= (1,0 {{kommadots|}} 0) |SZ=}} und Radius {{math|term= 1 |SZ=,}} {{math|term= B_{n-2} |SZ=}} ist darin der durch {{mathl|term= x_n=0 |SZ=}} definierte {{Anführung|Äquator|}} usw. Man erhält {{math|term= B_i |SZ=}} aus {{mathl|term= B_{i+1} |SZ=,}} indem man zusätzlich noch {{mathl|term= x_{i+2}=0 |SZ=}} setzt. Daher liegt eine absteigende Kette von abgeschlossenen Teilmengen
+{{
+Math/display|term=
+B_{n-1} \supseteq B_{n-2} {{supseteqdots|}} B_1 \supseteq B_0
+|SZ=
+}} vor
+{{
+Zusatz/Klammer
+|text= {{math|term= B_0 |SZ=}} besteht aus den beiden Punkten {{mathl|term= (\pm1,0 {{kommadots|}} 0 ) |SZ=}}  |
+|ISZ=|ESZ=.
+}}
+Wir fassen {{math|term= B_i |SZ=}} als die Faser über dem Nullpunkt der Abbildung
+{{
+Abbildung/display
+|name= \varphi_i
+| V |\R^{n-i}
+|(x_1 {{kommadots|}} x_n) |  ((x_1-1)^2+x_2^2 {{plusdots|}} x_n^2 - 1 , x_{i+2} {{kommadots|}} x_n)
+|SZ=,
+}}
+auf. Die Jacobimatrix dieser Abbildung ist
+{{
+Math/display|term=
+ {{op:Matrix58| 2x_1-2| 2x_2 | \ldots | 2x_{i+1}| 2x_{i+2}| \ldots| 2x_{n-1}| 2x_n
+| 0| 0| \ldots| 0| 1| 0| \ldots| 0
+|\vdots |\vdots|\vdots| \ddots| \ddots| \ddots | \ddots |\vdots| 0| 0| \ldots| \ldots| \ldots| 0| 1| 0| 0| 0| \ldots| \ldots| \ldots | \ldots| 0| 1}} 
+|SZ=.
+}}
+Der Rang dieser Matrix ist nur bei {{mathl|term= x_1=1, \, x_2 = \cdots =x_{i+1}=0 |SZ=}} kleiner als {{math|term= n-i|SZ=,}} ein solcher Punkt liegt also nicht auf {{math|term= B_i |SZ=.}} Das bedeutet, dass die Abbildung {{math|term= \varphi_i |SZ=}} in der Faser {{math|term= B_i |SZ=}} regulär ist, sodass {{math|term= B_i |SZ=}} aufgrund des Satzes über implizite Abbildungen eine abgeschlossene Untermannigfaltigkeit von {{math|term= V |SZ=}} der Dimension {{mathl|term= i |SZ=}} ist.
+
+Wir setzen nun {{mathl|term= M_i= \alpha^{-1}(B_i) |SZ=}} für {{mathl|term= i=1 {{kommadots|}} n-1 |SZ=}} und {{mathl|term= M_n= M |SZ=.}} Da die {{math|term= B_i |SZ=}} kompakt sind, sind die {{math|term= M_i |SZ=}} auch abgeschlossene Teilmengen in {{math|term= M |SZ=.}} Da die Bedingung für eine abgeschlossene Mannigfaltigkeit eine lokale Eigenschaft ist, handelt es sich um abgeschlossene Untermannigfaltigkeiten von {{math|term= M |SZ=.}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

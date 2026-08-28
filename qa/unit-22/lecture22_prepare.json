@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-22/lecture22.id.tex",
+  "input_bytes": 24495,
+  "input_sha256": "9d00d0a1072c30f35c677b02ec68d7f9908c24f0ef0084da20193fc44102b1e1",
+  "output": "build/generated/lecture22.id.build.tex",
+  "output_bytes": 23637,
+  "output_sha256": "a44f5d8c7c6715579c22363cac7cd12577521994085ac75820cadd42de3e2fd9",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 4,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Metrischer Raum/Abschluss/Berührungspunkte/Durchschnitt/Aufgabe",
+      "label": "Soal 35.3 (Analisis (Osnabrück 2021--2023))"
+    },
+    {
+      "target": "Mannigfaltigkeit mit Rand/Rand ist topologischer Rand des Komplementes/Aufgabe",
+      "label": "Soal 22.1"
+    },
+    {
+      "target": "R^n/Kompakte Ausschöpfung/Aufgabe",
+      "label": "Soal 22.6"
+    },
+    {
+      "target": "Topologischer Raum/Abzählbare Basis/Überdeckung besitzt abzählbare Teilüberdeckung/Aufgabe",
+      "label": "Soal 2.8 (Teori Ukuran dan Integrasi (Osnabrück 2022--2023))"
+    },
+    {
+      "target": "Mannigfaltigkeit/Abzählbare Basis/Kompakte Ausschöpfung/Fakt",
+      "label": "Lema 22.6"
+    },
+    {
+      "target": "Topologischer Raum/Abzählbare Basis/Überdeckung besitzt abzählbare Teilüberdeckung/Aufgabe",
+      "label": "Soal 2.8 (Teori Ukuran dan Integrasi (Osnabrück 2022--2023))"
+    },
+    {
+      "target": "Mannigfaltigkeit/Abzählbare Basis/Lokal endlicher Atlas/Fakt",
+      "label": "Lema 22.9"
+    },
+    {
+      "target": "Nullstellenfreie Volumenform/Impliziert orientierte (Karten) Mannigfaltigkeit/Fakt",
+      "label": "Lema 15.5"
+    },
+    {
+      "target": "Nullstellenfreie Volumenform/Impliziert orientierte (Karten) Mannigfaltigkeit/Fakt",
+      "label": "Lema 15.5"
+    },
+    {
+      "target": "Mannigfaltigkeit/Abzählbare Basis/Überdeckung/Partition/Fakt",
+      "label": "Teorema 22.10"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

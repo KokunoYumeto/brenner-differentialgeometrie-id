@@ -1,0 +1,31 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Wir schreiben den Torus als {{math|term= X=S^1 \times S^1 |SZ=}} mit dem Einheitskreis {{mathl|term= S^1= {{Mengebed|(x,y) \in \R^2| {{op:Betrag|(x,y)|}} {{=|}} 1}} |SZ=.}}
+Die Abbildung
+{{
+Abbildung/display
+|name=\varphi
+|\R^2|S^1 \times S^1
+|(u,v)|( {{op:cos| u |}}, {{op:sin| u |}} , {{op:cos| v |}} , {{op:sin| v |}} )
+|SZ=,
+}}
+ist surjektiv, da es sich in den beiden Komponenten um die Standardparametrisierung des Einheitskreises handelt. Auch die Surjektivität der Tangentialabbildung lässt sich komponentenweise überprüfen, da der Tangentialraum einer Produktmannigfaltigkeit das Produkt der Tangentialräume ist. Die Ableitung von
+{{
+Abbildung/display
+|name=
+|\R| \R^2
+| t | ( {{op:cos| t |}}, {{op:sin| t |}})
+|SZ=,
+}}
+ist {{mathl|term= (- {{op:sin| t |}}, {{op:cos| t |}}) \neq (0,0) |SZ=,}} sodass dieser Bildvektor stets den eindimensionalen Tangentialraum des Einheitskreises im Bildpunkt aufspannt.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

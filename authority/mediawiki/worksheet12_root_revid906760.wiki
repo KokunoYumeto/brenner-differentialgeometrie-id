@@ -1,0 +1,229 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblattgestaltung|12|
+
+{{
+inputaufgabe
+|Reelles Vektorbündel/Ein Punkt/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Reelles Vektorbündel/Hausdorff/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Reelles Vektorbündel/Identität/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Reelle Ebene/Parameter/Kernbündel/Trivialisierung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Übergangsabbildungen/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Lineare Gleichung/Drei Variablen/Parameter/Trivialisierungen/Vektorzugehörigkeit/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Sphären/Tangentialbündel/Kernbündel/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Triviale Bündel/Homomorphismus/Matrixbeschreibung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Stetige differenzierbare Abbildung/Totales Differential/Vektorbündelhomomorphismus/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Affin-lineares Bündel/R^2/Fasern/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputbild
+|Inclusion-exclusion|svg|230px {{!}} right {{!}} 
+|Text=
+|Autor=
+|Benutzer=Burn~commonswiki
+|Domäne=
+|Lizenz=CC-by-sa 3.0
+|Bemerkung=
+}}
+Nicht nur Vektorbündel, sondern allgemeiner topologische Räume kann man durch Verklebungsdaten beschreiben.
+
+{{:Topologischer Raum/Verklebungsdatum/Definition}}
+
+{{
+inputaufgabe
+|Topologischer Raum/Verklebungsdatum/Existenz/Fakt/Beweis/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Topologisches reelles Vektorbündel/Verklebungsdatum/Existenz/Fakt/Beweis/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Reelles Vektorbündel/Schnitt/Abgeschlossene Teilmenge/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Vektorbündel/Offene Menge/Stetige Basisschnitte/Trivialisierung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Vektorbündel/Matrixbeschreibung/Stetiger Schnitt/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Vektorbündel/Matrixbeschreibung/Isomorphie/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Reelles Geradenbündel/Trivial/Nullschnitt/Komplement/Nicht zusammenhängend/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Band/Doppelverdrehung/Topologische Eigenschaften/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{:Topologischer Raum/Reelles Vektorbündel/Untervektorbündel/Definition}}
+
+{{
+inputaufgabe
+|Topologischer Raum/Reelles Vektorbündel/Homomorphismus/Kern/Untervektorbündel/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Topologischer Raum/Reelles Vektorbündel/Untervektorbündel/Quotientenbündel/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+Wir führen zwei weitere Sprechweisen ein.
+{{:Vektorräume/Kurze exakte Sequenz/Definition}}
+
+{{:Topologischer Raum/Reelle Vektorbündel/Kurze exakte Sequenz/Definition}}
+
+{{
+inputaufgabe
+|Topologischer Raum/Reelle Vektorbündel/Kurze exakte Sequenz/Zu Untervektorbündel/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Topologische Räume/Vektorbündel/Rückzug/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Topologische Räume/Vektorbündel/Rückzug/Verklebungsdaten/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Topologischer Raum/Vektorbündel/Summe/Produktrealisierung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Differenzierbare Mannigfaltigkeit/Abbildung/Tangentialbündel/Rückzug/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{Zwischenüberschrift|Aufgaben zum Abgeben}}
+
+{{
+inputaufgabe
+|Topologischer Raum/Triviale Vektorbündel/Homomorphismus/Kernbündel/Trivialisierungen/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Reelles Geradenbündel/Trivial/Nullstellenfreier Schnitt/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Geradenbündel/Verklebungsdatum/Konkret/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Möbiusband/Mannigfaltigkeit/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+}}

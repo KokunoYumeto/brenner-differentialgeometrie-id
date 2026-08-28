@@ -59,6 +59,17 @@ HTML_TAG_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Explicit source-side display/license spelling discrepancies.  These are not
+# normalized away globally: every admitted exception is unit- and
+# surface-specific and remains visible in the authority manifest.
+MEDIA_DISPLAY_LICENSE_ALIASES: dict[tuple[int, str, str], str] = {
+    (
+        23,
+        "lecture23",
+        "Theoreme-de-Brouwer-(cond-1).jpg",
+    ): "Théorème-de-Brouwer-(cond-1).jpg",
+}
+
 
 def sha(data: bytes, algorithm: str = "sha256") -> str:
     return hashlib.new(algorithm, data).hexdigest()
@@ -981,13 +992,27 @@ def freeze_media(
             raise RuntimeError(
                 f"unclosed image-input syntax in {surface}: includegraphics={include_count}, inputs={len(input_names)}"
             )
-        if [media_name_key(name) for name in input_names] != [media_name_key(name) for name in licensed]:
+        if len(input_names) != len(licensed):
             raise RuntimeError(
-                f"display/license image mismatch in {surface}: displayed={input_names}, licensed={licensed}"
+                f"display/license image count mismatch in {surface}: displayed={input_names}, licensed={licensed}"
             )
-        for order, filename in enumerate(licensed, 1):
+        pair_records: list[tuple[str, str, str | None]] = []
+        for displayed, filename in zip(input_names, licensed, strict=True):
+            alias = MEDIA_DISPLAY_LICENSE_ALIASES.get((unit, surface, displayed))
+            if media_name_key(displayed) != media_name_key(filename) and alias != filename:
+                raise RuntimeError(
+                    f"display/license image mismatch in {surface}: displayed={input_names}, licensed={licensed}"
+                )
+            pair_records.append((displayed, filename, alias))
+        for order, (displayed, filename, alias) in enumerate(pair_records, 1):
             occurrences.append(
-                {"surface": surface, "surface_order": order, "filename": filename}
+                {
+                    "surface": surface,
+                    "surface_order": order,
+                    "displayed_filename": displayed,
+                    "filename": filename,
+                    "display_license_alias": alias,
+                }
             )
 
     filenames = list(dict.fromkeys(item["filename"] for item in occurrences))

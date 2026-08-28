@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Mon, 24 Aug 2026 02:55:25 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Kroneckerprodukt/2x2/Berechnung/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 924,
+  "response_path": "worksheet13_exercise01_solution_latex_expand.json",
+  "response_sha256": "ec03204078bdbd25ee6ea786d7921d39f1f8d49b0c82a42e653023b2927184f6",
+  "retrieved_utc": "2026-08-24T02:55:25Z",
+  "schema_version": 1
+}

@@ -1,0 +1,66 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es sei
+{{
+Relationskette/display
+|M
+|| \R^2 \setminus \N_+ 
+|| \R^2 \setminus \{ (1,0) , (2,0), (3,0), \ldots  \}
+||
+||
+|SZ=,
+}}
+es werden also aus dem {{math|term= \R^2 |SZ=}} die auf der {{math|term= x |SZ=-}}Achse platzierten positiven natürlichen Zahlen herausgenommen. Dies ist eine offene Teilmenge im {{math|term= \R^2 |SZ=}} und damit eine differenzierbare Mannigfaltigkeit. Diese ist wegzusammenhängend, da man beispielsweise jeden Punkt aus {{math|term= M |SZ=}} mit {{mathl|term= y \geq 0 |SZ=}} durch einen geraden Weg mit {{mathl|term= (0,1) |SZ=}} und jeden Punkt aus {{math|term= M |SZ=}} mit {{mathl|term= y \leq 0 |SZ=}} durch einen geraden Weg mit {{mathl|term= (0,-1) |SZ=}} verbinden kann und diese beiden Punkte ebenfalls gerade verbindbar sind. Es sei nun
+{{
+Relationskette/display
+|P
+|| (0,0)
+||
+||
+||
+|SZ=
+}}
+und
+{{
+Relationskette/display
+|M'
+|| M \setminus \{P\}
+||
+||
+||
+|SZ=.
+}}
+Die Abbildung
+{{
+Abbildung/display
+|name=
+|\R^2|\R^2
+|(x,y)|(x-1,y)
+|SZ=,
+}}
+ist 
+{{
+Zusatz/Klammer
+|text=als Verschiebung|
+|ISZ=|ESZ=
+}}
+ein Diffeomorphismus und das Bild von {{math|term= M |SZ=}} ist genau {{math|term= M'|SZ=.}} Daher sind
+{{
+mathkor|term1=
+M
+|und|term2=
+M'=M \setminus \{P\}
+|SZ=
+}}
+zueinander diffeomorph.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

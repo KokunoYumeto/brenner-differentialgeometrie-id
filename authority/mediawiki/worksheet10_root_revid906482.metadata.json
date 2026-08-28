@@ -1,0 +1,23 @@
+{
+  "authority": "frozen recursive German Wikiversity Special:Export",
+  "exact_utf8_base64_sha256": "17f8136467ab50fd2ce65409cd17d05cfc3fc80f769931d08f7470bdb1398b2e",
+  "exact_utf8_base64_witness": "authority/mediawiki/worksheet10_root_revid906482.utf8.b64",
+  "format": "text/x-wiki",
+  "mediawiki_sha1_base36": "p7r1v7mm4sf9mrc5gnvcfmyr6uodoz8",
+  "model": "wikitext",
+  "namespace": 106,
+  "pageid": 142644,
+  "parentid": 906003,
+  "readable_normalized_bytes": 3852,
+  "readable_normalized_sha256": "6f6de8aa1e30e587a08230ca6488a8c2fba4c273be2dfd2d4f5002a01250a6b7",
+  "readable_normalized_witness": "authority/mediawiki/worksheet10_root_revid906482.wiki",
+  "revid": 906482,
+  "schema_version": 1,
+  "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+  "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+  "source_utf8_bytes": 3851,
+  "source_utf8_sha1": "d7dd2c19885e1bfb3da949e4e65fbbf400252fb4",
+  "source_utf8_sha256": "5b9ffffb45f582797906a2c685e5bc332fd47d0b252b8983e8438359fe05a2a1",
+  "timestamp": "2023-07-15T13:20:43Z",
+  "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 10"
+}

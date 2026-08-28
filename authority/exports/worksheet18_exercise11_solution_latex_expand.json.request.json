@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Wed, 26 Aug 2026 02:53:14 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Obere Halbebene/Einheitskreis/Rational isomorph/Fakt/Beweis/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 4539,
+  "response_path": "worksheet18_exercise11_solution_latex_expand.json",
+  "response_sha256": "d66a53697e3b8ff18154095e1fc7cc26aa875b8de33c939db56de29b7caeb143",
+  "retrieved_utc": "2026-08-26T02:53:13Z",
+  "schema_version": 1
+}

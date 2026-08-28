@@ -1,0 +1,125 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesungsgestaltung|12|
+
+{{Zwischenüberschrift|Vektorbündel}}
+
+{{:Mannigfaltigkeit/Tangentialbündel/Vektorbündel/Motivation/Bemerkung}}
+
+Das Tangentialbündel ist ein wichtiges Beispiel für ein Vektorbündel.
+
+{{:Topologischer Raum/Reelles Vektorbündel/Kernbündel/Einführung/Textabschnitt}}
+
+{{
+inputdefinition
+|Stetige Abbildung/Stetiger Schnitt/Definition||
+}}
+Man denke bei {{math|term= Y |SZ=}} beispielsweise an ein Vektorbündel über {{math|term= X |SZ=.}} Einen Schnitt kann es nur geben, wenn {{math|term= p |SZ=}} surjektiv ist, was bei einem Vektorbündel stets der Fall ist. Gelegentlich identifiziert man einen Schnitt mit seinem Bild, was problemlos ist, da ein Schnitt stets injektiv ist. Eine besondere Rolle spielt der {{Stichwort|Nullschnitt|SZ=,}} der jedem Basispunkt {{math|term= P|SZ=}} den Nullpunkt im Vektorraum {{math|term= V_P |SZ=}} zuordnet.
+Für das 
+{{
+Definitionslink
+|Prämath=
+|Tangentialbündel|
+|Kontext=|
+|SZ=
+}}
+sind die stetigen Schnitte einfach die stetigen 
+{{
+Definitionslink
+|Prämath=
+|Vektorfelder|
+|Kontext=|
+|SZ=.
+}}
+Für das triviale Vektorbündel
+{{
+Abbildung/display
+|name=
+|X \times \R^n | X
+||
+|SZ=
+}}
+gibt es die konstanten Schnitte
+{{
+mathbed|term=
+e_i
+||bedterm1=
+i {{=}} 1 {{kommadots|}} n
+||bedterm2=
+|SZ=,
+}}
+die jedem Punkt den Vektor
+{{
+Relationskette
+| e_i
+|\in| \R^n 
+||
+||
+||
+|SZ=
+}} 
+zuordnen. Die Familie dieser Schnitte bilden für jeden Punkt eine Basis in der darüber liegenden Faser. 
+{{:Vektorbündel/Offene Menge/Basisschnitte/Definition}}
+
+Die Existenz von 
+{{
+Zusatz/Klammer
+|text=stetigen|
+|ISZ=|ESZ=
+}}
+Basisschnitten auf einer offenen Menge {{math|term= U |SZ=}} ist äquivalent zur Existenz einer
+{{
+Zusatz/Klammer
+|text=stetigen|
+|ISZ=|ESZ=
+}}
+Trivialisierung des Vektorbündels über {{math|term= U |SZ=,}} siehe
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Vektorbündel/Offene Menge/Stetige Basisschnitte/Trivialisierung/Aufgabe
+|Nr=
+|SZ=.
+}}
+
+{{Zwischenüberschrift|Verklebungsdaten}}
+
+Die Idee, lokale Daten zu verkleben, um globale Objekte zu beschreiben, ist uns schon in
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Topologische Mannigfaltigkeit/Rekonstruktion aus Karten/Aufgabe
+|Nr=
+|SZ=
+}}
+begegnet.
+{{
+inputdefinition
+|Topologisches reelles Vektorbündel/Verklebungsdatum/Definition||
+}}
+
+{{
+inputbemerkung
+|Verklebungsdatum/Vektorbündel/Trivialisierungen/Bemerkung||
+}}
+
+{{
+inputfaktbeweisaufgabe
+|Topologisches reelles Vektorbündel/Verklebungsdatum/Existenz/Fakt|Lemma||
+||
+}}
+
+{{
+inputbild
+|Fiddler_crab_mobius_strip|gif|230px {{!}} right {{!}} 
+|Text=
+|Autor=
+|Benutzer=Hamishtodd1
+|Domäne=
+|Lizenz=CC-by-sa 4.0
+|Bemerkung=
+}}
+{{
+inputbeispiel
+|Möbiusband/Verklebungsdatum/Beispiel||
+}}
+
+}}

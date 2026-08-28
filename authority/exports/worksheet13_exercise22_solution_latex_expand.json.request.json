@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Mon, 24 Aug 2026 02:58:01 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Hausdorffraum/Kompakte Teilmenge/Abgeschlossen/Fakt/Beweis/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 1937,
+  "response_path": "worksheet13_exercise22_solution_latex_expand.json",
+  "response_sha256": "d398bb5f4e8e080bbe34745376829be5cab5ab2715487b8e29f2140d79d74779",
+  "retrieved_utc": "2026-08-24T02:58:01Z",
+  "schema_version": 1
+}

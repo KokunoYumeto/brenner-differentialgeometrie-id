@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Mon, 24 Aug 2026 02:55:27 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "S^2/Antipodenabbildung ist nicht orientierungstreu/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 611,
+  "response_path": "worksheet13_exercise21_solution_latex_expand.json",
+  "response_sha256": "e2e4e170d46fa89e79cdc8eded2b90c23c73759bf3168247be27b36ecc19302f",
+  "retrieved_utc": "2026-08-24T02:55:27Z",
+  "schema_version": 1
+}

@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 10:46:47 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "info|revisions",
+    "rvprop": "ids|timestamp|sha1",
+    "titles": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 22/latex|Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 22|Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 22/latex|Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 22"
+  },
+  "response_bytes": 1628,
+  "response_path": "unit22_root_surfaces_current.json",
+  "response_sha256": "977cd58b5b3d47affdedca7f9542ef4d726c469952dabd15e7f63104de7a3a4d",
+  "retrieved_utc": "2026-08-28T10:46:46Z",
+  "schema_version": 1
+}

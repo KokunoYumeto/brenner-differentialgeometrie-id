@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Sun, 23 Aug 2026 19:15:51 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Nilpotente Matrizen/2x2/Mannigfaltigkeit/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 6136,
+  "response_path": "worksheet10_exercise10_solution_latex_expand.json",
+  "response_sha256": "633fb3f520b773311bb6cbae805690db50060a7bc10a75ff6260002972b325a0",
+  "retrieved_utc": "2026-08-23T19:15:51Z",
+  "schema_version": 1
+}

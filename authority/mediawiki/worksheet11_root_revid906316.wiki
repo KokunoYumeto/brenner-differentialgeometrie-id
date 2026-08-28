@@ -1,0 +1,298 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblattgestaltung|11|
+
+{{Zwischenüberschrift|Übungsaufgaben}}
+
+{{
+inputaufgabe
+|Produkt von Mannigfaltigkeiten/Ist Mannigfaltigkeit/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Zwei abgeschlossene Untermannigfaltigkeiten/Produkt davon/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Torus/Karten/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Punktierte Ebene/Produktmannigfaltigkeit/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Produkt von Mannigfaltigkeiten/Wegzusammenhängend/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Differenzierbare Mannigfaltigkeit/Diagonale/Abgeschlossene Untermannigfaltigkeit/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Differenzierbare Mannigfaltigkeit/Vertauschung/Diffeomorphismus/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Torus/Rotationsmenge/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Torus/Faserrealisierung/Andere Fasern/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Torus/Faserrealisierung/Animation/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Torus/Sphäre/Abbildung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Torus/Sphäre/Nicht homöomorph/Heuristisch/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Torus/Ohne Diagonale/Diffeomorphietyp/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Torus/Surjektive Abbildung von Ebene/Surjektive Tangentialabbildung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+In den folgenden Aufgaben wird das relative Produkt von Mengen und topologischen Räumen eingeführt.
+{{
+inputaufgabe
+|Mengen/Relatives Produkt/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Topologische Räume/Relatives Produkt/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+In der Situation der beiden vorstehenen Aufgaben bezeichnet man {{math|term= L_1 \times_M L_2 |SZ=}}
+{{
+Zusatz/Klammer
+|text=mit der Projektion auf {{math|term= L_2 |SZ=}} |
+|ISZ=|ESZ=
+}}
+auch als {{math|term= p_2^*L_1 |SZ=}} bzw. als {{mathl|term= p_1^*L_2 |SZ=,}} die Vorstellung ist dabei, dass man das Objekt
+{{
+Abbildung
+|name=p_1
+|L_1|M
+||
+|SZ=
+}}
+längs {{math|term= p_2 |SZ=}} auf die neue Basis {{math|term= L_2 |SZ=}} zurückzieht.
+
+{{
+inputaufgabe
+|Topologische Räume/Relatives Produkt/Identischer Faktor/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Topologische Räume/Relatives Produkt/Punkt und Faser/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Topologische Räume/Produkträume/Relatives Produkt/Kürzung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Reelle Gerade/Relatives Produkt/Skizze/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Topologische Räume/Relatives Produkt/Schnitt/Charakterisierung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Topologische Räume/Relatives Produkt/Abbildung/Rückzug/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Topologische Räume/Relatives Produkt/Hintereinanderschaltung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Kreislinie/Definiere differenzierbare Gruppenstruktur/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Allgemeine lineare Gruppe/R/Definiere differenzierbare Gruppenstruktur/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|S^1xR/Spiegelung/Selbstinverser Diffeomorphismus/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Differentialoperator/Erste Ordnung/R^2/Explizit/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Vektorfeld/Offene Teilmenge/Rekonstruktion der Koeffizentenfunktionen/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Vektorfeld/Zugehöriger Differentialoperator/Ist/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Vektorfelder/Lie-Klammer/D und D/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Vektorfelder/Lie-Klammer/Jacobi-Identität/Fakt/Beweis/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{:Vektorraum/Lie-Algebra/Definition|}} 
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Vektorfelder/Lie-Algebra/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Vektorraum/Endomorphismen/Lie-Algebra/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{Zwischenüberschrift|Aufgaben zum Abgeben}}
+
+{{
+inputaufgabe
+|Torus/Produktdarstellung und Schlauch/Bijektion/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Torus/Zwei Punkte/Gemeinsame Kartenumgebung/Quadrat/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Reelle Gerade/Relatives Produkt/Keine topologische Mannigfaltigkeit/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Differentialoperator/Erste Ordnung/R^3/Explizit/2/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Differenzierbare Hyperfläche/Differentialoperator/Erste Ordnung/Verschwindet auf Gleichung/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Vektorfelder/Lie-Klammer/Berechnung/1/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+}}

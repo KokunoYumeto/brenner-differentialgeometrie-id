@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "source": "authority/expanded/worksheet22_source.de.tex",
+  "source_bytes": 7553,
+  "source_sha256": "c66138c90289ba525cb861835720a44f26369a7f59c00f76db7994abd20392ec",
+  "target": "source/units/unit-22/worksheet22.id.tex",
+  "target_bytes": 7650,
+  "target_sha256": "8f83748984c53a9ebecd44ba14d439fee9087d65f6466e71b61da2b4ced885b1",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 196,
+    "environments": 0,
+    "inline_math": 33,
+    "display_math": 0,
+    "protected_calls": 23
+  },
+  "status": "pass",
+  "failures": [],
+  "declared_corrections": [
+    "O011-CORR-0307",
+    "O011-CORR-0308",
+    "O011-CORR-0306"
+  ],
+  "evidence_only_results": [
+    {
+      "correction_id": "O011-CORR-0306",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 8,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0307",
+      "surface": "command:vergleichskette",
+      "occurrence_index": 8,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-CORR-0308",
+      "surface": "command:inputaufgabe",
+      "occurrence_index": 14,
+      "status": "pass",
+      "detail": "verified"
+    }
+  ]
+}
