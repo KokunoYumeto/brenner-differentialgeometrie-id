@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 00:12:47 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "(2x-siny)dx-xcosydy/Geschlossen und exakt/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 313,
+  "response_path": "worksheet20_exercise07_solution_latex_expand.json",
+  "response_sha256": "d89c66807ed1cc694848de6fa3b2b38e81b20fa797a2dcab94616aa5f6861fcf",
+  "retrieved_utc": "2026-08-28T00:12:47Z",
+  "schema_version": 1
+}

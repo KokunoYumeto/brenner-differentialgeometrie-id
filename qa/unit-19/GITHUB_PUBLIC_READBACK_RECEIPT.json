@@ -1,0 +1,106 @@
+{
+  "all_downloaded_bytes_sha256_md5_match": true,
+  "annotated_tag": "v0.19.0-unit-19",
+  "authentication_used": false,
+  "commit": "e470fa5897708f49596488083b442c494ca9ab0e",
+  "file_count": 7,
+  "github_asset_order_semantics": "filename_sorted_by_github_api; PDF remains the primary reader in release notes",
+  "predecessor_commit": "a492e9d7c23991edd8cec7978533e80b44f86e6f",
+  "predecessor_tag": "v0.16.0-unit-16",
+  "preparation_receipt_sha256": "be51943938acd78a4927aee344fd8d18dd39c3f9245f2cd0a7421d03b16a01bd",
+  "public_api_asset_order": [
+    "FILE_MANIFEST.json",
+    "geometri-diferensial-manifold-mulus-hingga-unit-19-id.pdf",
+    "geometri-diferensial-manifold-mulus-unit19-html-20260826.zip",
+    "geometri-diferensial-manifold-mulus-unit19-source-20260826.zip",
+    "LICENSE.md",
+    "RELEASE_NOTES_UNIT19_20260826.md",
+    "SHA256SUMS.txt"
+  ],
+  "public_files": [
+    {
+      "bytes": 7740452,
+      "download_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/download/v0.19.0-unit-19/geometri-diferensial-manifold-mulus-hingga-unit-19-id.pdf",
+      "md5": "5096439bad162e3476cbcfee958cbc3a",
+      "name": "geometri-diferensial-manifold-mulus-hingga-unit-19-id.pdf",
+      "sha256": "d96c7200271cd790b42bd4c584befd65c3aa669546e2b6935dbe44fc923b746e"
+    },
+    {
+      "bytes": 7243306,
+      "download_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/download/v0.19.0-unit-19/geometri-diferensial-manifold-mulus-unit19-html-20260826.zip",
+      "md5": "c88b60cc3c3047330b801338cca4b878",
+      "name": "geometri-diferensial-manifold-mulus-unit19-html-20260826.zip",
+      "sha256": "b26a01cb6f3523603a18fa175f31f59e3fcc4ef30ce1bf0a19510b122542d049"
+    },
+    {
+      "bytes": 39624186,
+      "download_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/download/v0.19.0-unit-19/geometri-diferensial-manifold-mulus-unit19-source-20260826.zip",
+      "md5": "93e535d277d1a80e0fd73f48a795ba4a",
+      "name": "geometri-diferensial-manifold-mulus-unit19-source-20260826.zip",
+      "sha256": "4451ab83b504fb4403664f132c057ebe26096f27a0ef6c8f9e5351bb71a4dfc2"
+    },
+    {
+      "bytes": 2034,
+      "download_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/download/v0.19.0-unit-19/LICENSE.md",
+      "md5": "07d8a80b2f85b2bebc85c3d3e3acb2fc",
+      "name": "LICENSE.md",
+      "sha256": "ee5602f78002b7d5eb5b3762f05531135c5913c0826f73a234bdb97666245a35"
+    },
+    {
+      "bytes": 2171,
+      "download_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/download/v0.19.0-unit-19/RELEASE_NOTES_UNIT19_20260826.md",
+      "md5": "505ebeb6eb391b90ba5f2b29def47c13",
+      "name": "RELEASE_NOTES_UNIT19_20260826.md",
+      "sha256": "1c54f2527aa03cf8e0241a73e2323da2f533cb1d895e051d589efbb652ebbd14"
+    },
+    {
+      "bytes": 1535,
+      "download_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/download/v0.19.0-unit-19/FILE_MANIFEST.json",
+      "md5": "e7818aaa5c51996dc70d56863162271a",
+      "name": "FILE_MANIFEST.json",
+      "sha256": "81e1b1168584a4e4cf33c42a16ec2754c221938bb71b1441f1753612ec0c61df"
+    },
+    {
+      "bytes": 641,
+      "download_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/download/v0.19.0-unit-19/SHA256SUMS.txt",
+      "md5": "d9440c3726bff7bcb2dd18987c705158",
+      "name": "SHA256SUMS.txt",
+      "sha256": "5049e644917f058585e30a15ba290876c2122eb9fae69b3b3e8f858c3df90daf"
+    }
+  ],
+  "public_readme": {
+    "bytes": 4704,
+    "md5": "f0b4301479f045f4d370e1d7499cd610",
+    "sha256": "4f33db3c8193305c5779f6403fa189bd3b3024c9463c13a12fbde9f28e73bf37"
+  },
+  "reader_first_expected_order": [
+    "geometri-diferensial-manifold-mulus-hingga-unit-19-id.pdf",
+    "geometri-diferensial-manifold-mulus-unit19-html-20260826.zip",
+    "geometri-diferensial-manifold-mulus-unit19-source-20260826.zip",
+    "LICENSE.md",
+    "RELEASE_NOTES_UNIT19_20260826.md",
+    "FILE_MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "release_draft": false,
+  "release_id": 378184063,
+  "release_latest": true,
+  "release_prerelease": false,
+  "release_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v0.19.0-unit-19",
+  "repository": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id",
+  "schema_version": 1,
+  "source_package_integrity_receipt_sha256": "4fceb43e329f3a50a14bc3f89c9830183afa736ecb2b14f2210dde1ad8e6ba79",
+  "status": "pass",
+  "total_bytes": 54614325,
+  "unit16_predecessor_readback_sha256": "b2c8e160c13115a50cdd2f57484e7ce6172387b9cc713cd70d10bef640b3bea6",
+  "unit16_to_unit19_ahead_by": 4,
+  "verified_at_utc": "2026-08-28T00:11:47.128433+00:00",
+  "version": "2026.08.26-unit19",
+  "workflow": "o011-independent-github-unit19-public-readback-v1",
+  "zenodo_doi": "10.5281/zenodo.22134954",
+  "zenodo_version": {
+    "concept_record_id": 22059977,
+    "doi": "10.5281/zenodo.22134954",
+    "record_id": 22134954
+  }
+}

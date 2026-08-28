@@ -171,12 +171,19 @@ def verify_zenodo_version(doi: str) -> dict[str, Any]:
         or (((record.get("pids") or {}).get("doi") or {}).get("identifier"))
         or ""
     )
+    access = record.get("access")
+    if isinstance(access, dict):
+        record_is_public = access.get("record") == "public"
+    else:
+        # Zenodo's public legacy API omits the newer ``access`` object and
+        # exposes the same state as ``metadata.access_right == open``.
+        record_is_public = metadata.get("access_right") == "open"
     if (
-        record.get("id") != record_id
+        str(record.get("id")) != str(record_id)
         or concept_id != str(ZENODO_CONCEPT_ID)
         or public_doi != doi
         or record.get("status") != "published"
-        or (record.get("access") or {}).get("record") != "public"
+        or not record_is_public
         or metadata.get("version") != VERSION
         or metadata.get("title") != ZENODO_TITLE
     ):
@@ -378,8 +385,12 @@ def main() -> int:
     asset_map = {str(asset.get("name")): asset for asset in assets if isinstance(asset, dict)}
     if set(asset_map) != set(expected) or len(asset_map) != len(expected):
         fail("public release asset inventory differs from the exact seven-file stage")
-    if [asset.get("name") for asset in assets] != EXPECTED_ORDER:
-        fail("public GitHub asset order is not the exact reader-first order")
+    public_asset_order = [asset.get("name") for asset in assets]
+    # GitHub's release API returns assets in filename order even when the CLI
+    # uploads them PDF-first. Require exactly that deterministic projection;
+    # the checksum-bound release notes still link the PDF as the primary reader.
+    if public_asset_order != sorted(EXPECTED_ORDER, key=str.casefold):
+        fail("public GitHub asset order is not GitHub's exact deterministic filename order")
 
     verified: list[dict[str, Any]] = []
     for name in preparation.get("public_file_order", []):
@@ -445,7 +456,8 @@ def main() -> int:
         "total_bytes": sum(int(row["bytes"]) for row in verified),
         "all_downloaded_bytes_sha256_md5_match": True,
         "reader_first_expected_order": preparation.get("public_file_order"),
-        "public_api_asset_order": [asset.get("name") for asset in assets],
+        "public_api_asset_order": public_asset_order,
+        "github_asset_order_semantics": "filename_sorted_by_github_api; PDF remains the primary reader in release notes",
         "public_readme": raw_readme,
         "preparation_receipt_sha256": hashlib.sha256(preparation_path.read_bytes()).hexdigest(),
         "source_package_integrity_receipt_sha256": hashlib.sha256(integrity_path.read_bytes()).hexdigest(),

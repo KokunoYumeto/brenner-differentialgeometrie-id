@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 00:12:48 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Offene Menge/R^n/n-Form/Exakt/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 1243,
+  "response_path": "worksheet20_exercise14_solution_latex_expand.json",
+  "response_sha256": "d30ea0a8e2e9fd7f5772126d019707225b2b352a6c8fa89985bce58bb55e85e2",
+  "retrieved_utc": "2026-08-28T00:12:48Z",
+  "schema_version": 1
+}

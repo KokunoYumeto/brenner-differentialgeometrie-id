@@ -1,8 +1,8 @@
 # Current state — O011 / D50
 
-Updated: 2026-08-27 (Europe/Berlin)
+Updated: 2026-08-28 (Europe/Berlin)
 
-## Current verified boundary — cumulative Unit 19 local gate
+## Current verified boundary — Unit 19 public; Unit 20 authority frozen
 
 Units 1–19 now pass the complete local reader and additive-backend gate. The
 current centered A4 PDF is 302 pages and 7,740,452 bytes, SHA-256
@@ -55,10 +55,36 @@ seven files, 54,614,325 bytes total, with the PDF as first file and default
 preview. The publication and independent-readback receipt SHA-256 values are
 `a778cb203fa7598dbacc3e396df497f86b1a5518af05b028a551c2f3d413a0ee`
 and `7ff16486bbaa6867c5f85ff7761f03244b9bc683d57719f2fa26c8e0f88ca216`.
-The next executable action is the matching existing-lineage GitHub commit,
-tag, seven-asset release, and anonymous public readback, followed immediately
-by the exact Unit 20 authority freeze and source-ordered translation. The full
-O011 goal remains unfinished.
+
+The matching GitHub boundary is also public: commit
+`e470fa5897708f49596488083b442c494ca9ab0e`, annotated tag
+`v0.19.0-unit-19`, and release
+`https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v0.19.0-unit-19`.
+The independent credential-free verifier resolved the exact ancestry and
+release metadata, then downloaded all seven assets and matched all 54,614,325
+bytes by SHA-256 and MD5. Its receipt is 5,047 bytes, SHA-256
+`991b1a037df12edf288085403054861e44816e9cc2a93f5c0d35af4c340f79fb`.
+GitHub's API exposes the assets in deterministic filename order even though
+they were uploaded PDF-first; the release notes explicitly identify the PDF as
+the primary reader.
+
+Unit 20 is now exactly frozen and independently offline-verified. Lecture 20 is
+pageid/revision `142564 / 991598`, with sanitized expanded-source SHA-256
+`6af7e41e240899c1866ff6c6904984c6eb5d3b436b47f07068cb4d29e40e1768`;
+Worksheet 20 is `142654 / 906457`, SHA-256
+`31d0d7d85a81923ca09f039e6ad938c9849b21998e7f800a4d35586c523238c1`.
+The worksheet has 24 exercises: 19 practice and five graded, totaling 22
+points; exactly Solutions 3, 4, 5, 7, and 14 are source-supplied; every hint
+field is blank; and the media closure is empty. MediaWiki's normalization of
+the Exercise 17 solution candidate from `R_+` to `R +` is explicitly recorded,
+not treated as a missing or extra page. The preflight, offline verifier, and
+live-current-revision receipt SHA-256 values are
+`9a4c9d9e871406ce0629fad3ef7193df99aadb790b445fce961aac6654147324`,
+`bbcde73c065cb6caf386a4053d26f90925443f3c44a9f3f3384bb35b553d32ee`,
+and `73d67138cd2e0a59f688b07b83624dff5b4d8bb45cedd1c532eacb9698e11d02`.
+The next executable action is the source-ordered Indonesian translation of the
+lecture, worksheet, and those five supplied solutions. The full O011 goal
+remains unfinished.
 
 ## Objective
 

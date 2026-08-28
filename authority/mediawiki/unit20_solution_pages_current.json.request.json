@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 00:11:59 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Äußere Ableitung/(x^2-y^3)dx+x^3y^2dy/Bestimme/Aufgabe/Lösung|Äußere Ableitung/xy^2dx+yzdy+x^3dz/Bestimme/Aufgabe/Lösung|Äußere Ableitung/x^2 durch y dx- x durch y^2 dy/Aufgabe/Lösung|Äußere Ableitung/e^(xz)dx wedge dy -xyz dx wedge dz + (sin (cos (xy))+y^(10)z^(100))/Aufgabe/Lösung|Äußere Ableitung/sin^3(t^4) durch 1+t^2/Und dt/Aufgabe/Lösung|Äußere Ableitung/xdxdy+xy^2zdydz+xe^ydxdz/Bestimme/Aufgabe/Lösung|(2x-siny)dx-xcosydy/Geschlossen und exakt/Aufgabe/Lösung|Offene Teilmenge/R^n/Differentialform ersten Grades/Geschlossen/Aufgabe/Lösung|1-Form/Vektorfeld/Geschlossen gdw Integrabilitätsbedingung/Aufgabe/Lösung|1-Form/Vektorfeld/Exakt gdw Gradientenfeld/Aufgabe/Lösung|Differentialform/Rückzug/Exakt und geschlossen/Aufgabe/Lösung|Vektorfeld/(x,y) nach (-y,x)/Nicht integrabel/Formversion/Aufgabe/Lösung|Vektorfeld/Punktierte Ebene/(x,y) nach (-y,x) durch x^2+y^2/Integrabel nicht exakt/Formversion/Aufgabe/Lösung|Offene Menge/R^n/n-Form/Exakt/Aufgabe/Lösung|1-Form/Mannigfaltigkeit/Exakt gdw Wegintegrale endpunktabhängig/Aufgabe/Lösung|Differenzierbare Mannigfaltigkeit/Differenzierbare Abbildung/Rückzug einer volldimensionalen Form/Geschlossen/Aufgabe/Lösung|R_+ definierte Funktionen/Differenzierbare Fortsetzung nach 0/Aufgabe/Lösung|Halbraum/In R^n offene Umgebung/Kein Randpunkt/Aufgabe/Lösung|Halbräume/Übertragung von Begriffen/Diffeomorphismus, Totales Differential, Höhere Ableitung/Aufgabe/Lösung|Äußere Ableitung/xy^2z^3dx+xyzdy+x^3yz^4dz/Bestimme/Aufgabe/Lösung|Äußere Ableitung/xy^2dxdy+(x^3-y^2z^4)dydz+sin(xy)dxdz/Bestimme/Aufgabe/Lösung|Differentialform/Äußere Ableitung/Mehrfaches Dachprodukt/Formel/Aufgabe/Lösung|(2xy+3x^2-ye^(xy))dx+(x^2-xe^(xy)+8y)dy/Geschlossen und exakt/Aufgabe/Lösung|Halbebene und Quadrant/Homöomorph/Aufgabe/Lösung"
+  },
+  "response_bytes": 7052,
+  "response_path": "unit20_solution_pages_current.json",
+  "response_sha256": "a230de70a34fe28b61238319687fa38ebbe0a9a385ad289b6c7eebad93beb0bb",
+  "retrieved_utc": "2026-08-28T00:11:59Z",
+  "schema_version": 1
+}

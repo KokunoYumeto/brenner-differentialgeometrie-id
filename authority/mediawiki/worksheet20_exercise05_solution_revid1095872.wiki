@@ -1,0 +1,25 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+a) Es ist {{mathl|term= df=f'dt|SZ=,}} und zwar ist nach der Quotientenregel
+{{
+Relationskette/align
+|f'
+|| {{op:Bruch| (1+t^2)  3{{op:sin|(t^4)|exp=2}} {{op:cos|(t^4)|}} 4 t^3  - 2t {{op:sin|(t^4)|exp=3}} |(1+t^2)^2}} 
+|| {{op:Bruch| 12 (t^3+t^5) {{op:sin|(t^4)|exp=2}} {{op:cos|(t^4)|}}   - 2t {{op:sin|(t^4)|exp=3}} | 1+2t^2+t^4}}
+||
+||
+|SZ=.
+}}
+
+b) Die äußere Ableitung von {{math|term= fdt|SZ=}} ist {{mathl|term= f'dt \wedge dt =0 |SZ=.}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

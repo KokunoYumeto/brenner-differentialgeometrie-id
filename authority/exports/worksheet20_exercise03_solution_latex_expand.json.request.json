@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 00:12:47 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Äußere Ableitung/x^2 durch y dx- x durch y^2 dy/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 566,
+  "response_path": "worksheet20_exercise03_solution_latex_expand.json",
+  "response_sha256": "fb9160558776592fabcd5666e5bfa0f1c74a378a4e78544bd19ebcec05fd78c9",
+  "retrieved_utc": "2026-08-28T00:12:46Z",
+  "schema_version": 1
+}

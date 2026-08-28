@@ -1,0 +1,81 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesungsgestaltung|20|
+
+{{Zwischenüberschrift|Die äußere Ableitung}}
+
+In dieser Vorlesung werden wir ein neuartiges mathematisches Objekt kennenlernen, die sogenannte äußere Ableitung. Es handelt sich dabei um einen Ableitungsbegriff, der aus Differentialformen vom Grad {{math|term= k |SZ=}} Differentialformen vom Grad {{mathl|term= k+1 |SZ=}} macht. Für eine Differentialform vom Grad {{math|term= 0 |SZ=,}} also eine Funktion {{math|term= f |SZ=,}} ist die zugehörige äußere Ableitung einfach die {{math|term= 1 |SZ=-}}Form {{math|term= df |SZ=,}} also die Differentialform, die jedem Punkt {{math|term= P |SZ=}}
+{{
+Zusatz/Klammer
+|text=bei einem euklidischen Raum|
+|ISZ=|ESZ=
+}}
+das totale Differential
+{{
+Abbildung/display
+|name= {{op:Totales Differential|f|P}} 
+| \R^n | \R
+||
+|SZ=
+}}
+bzw. 
+{{
+Zusatz/Klammer
+|text=bei einer Mannigfaltigkeit {{math|term= M |SZ=}}|
+|ISZ=|ESZ=
+}}
+die Tangentialabbildung
+{{
+Abbildung/display
+|name= T_P(f)
+|T_PM|\R
+||
+|SZ=
+}}
+zuordnet. 
+
+In der eindimensionalen Differentialrechnung sind Funktionen und ihre Ableitungen bzw. Stammfunktionen gleichartige Objekte
+{{
+Zusatz/Klammer
+|text=dies gilt auch noch für differenzierbare Kurven|
+|ISZ=|ESZ=,
+}}
+aber schon bei der Einführung des totalen Differentials zu einer Funktion in mehreren Variablen war die Ableitung ein fundamental anderes Objekt als die Funktion. Zwar können entlang vorgegebener Richtungen höhere Richtungsableitungen definiert werden, die selbst wieder Funktionen sind, doch erfassen diese jeweils nur einen Teilaspekt der Ableitung der Funktion, während das totale Differential die volle Information enthält.
+
+Mit diesem wesentlichen Unterschied von Funktion und Ableitung hängt auch zusammen, dass wir uns im Höherdimensionalen noch nicht mit der umgekehrten Frage beschäftigt haben, welche Ableitungen eine Stammfunktion besitzen. Eine Funktion in mehreren Variablen kann keine Stammfunktion besitzen, nur für eine {{math|term= 1 |SZ=-}}Differentialform
+{{
+Zusatz/Klammer
+|text=bzw. das zugehörige Vektorfeld|
+|ISZ=|ESZ=
+}}
+ist dies eine sinnvolle Fragestellung. Der Satz von Schwarz über die Vertauschbarkeit der Richtungsableitungen stellt dabei schon ein wichtiges notwendiges Kriterium für die Existenz einer Stammfunktion zu einer {{math|term= 1 |SZ=-}}Differentialform dar. 
+
+Mit der Theorie der äußeren Ableitungen findet die Frage nach Stammfunktionen bzw. Stammformen ihren natürlichen Rahmen. Darüber hinaus erlaubt sie, den Satz von Stokes prägnant zu formulieren. Ferner können mit der äußeren Ableitung wesentliche topologische Eigenschaften einer Mannigfaltigkeit charakterisiert werden, was allerdings weit über diese Vorlesung hinausgeht.
+
+{{:Differentialformen/Äußere Ableitung/Einführung/Textabschnitt|}} 
+
+{{
+inputdefinition
+|Differentialform auf Mannigfaltigkeit/Geschlossen/Definition||
+}}
+
+{{
+inputdefinition
+|Differentialform auf Mannigfaltigkeit/Exakt/Definition||
+}}
+
+Eine exakte Differentialform ist also eine Differentialform, für die es eine {{Stichwort|Stammform|SZ=}} {{math|term= \sigma |SZ=}} gibt. Mit diesen Begriffen kann man die obige Aussage
+{{
+Relationskette
+| dd
+|| 0
+||
+||
+||
+|SZ=
+}} 
+so formulieren, dass jede exakte Form geschlossen ist. Die Geschlossenheit ist also eine notwendige Bedingung dafür, dass es eine Stammform geben kann. Es sei hier ohne Beweis bemerkt, dass dieses notwendige Kriterium für den {{math|term= \R^n |SZ=}} auch hinreichend ist. Diese Äquivalenz gilt aber keineswegs auf jeder Mannigfaltigkeit.
+
+{{Zwischenüberschrift|Euklidische Halbräume}}
+
+{{:Euklidischer Halbraum/Einführung/Mannigfaltigkeiten mit Rand/Textabschnitt}}
+
+}}

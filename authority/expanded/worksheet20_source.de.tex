@@ -1,0 +1,638 @@
+\setcounter{section}{20}
+
+  \zwischenueberschrift{Übungsaufgaben}
+
+\inputaufgabe
+{}
+{
+
+Bestimme die
+\definitionsverweis {äußere Ableitung}{}{}
+der
+$1$-\definitionsverweis {Differentialform}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { \left(  x^2-y^3  \right) dx+x^3y^2dy
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf dem $\R^2$.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Bestimme die
+\definitionsverweis {äußere Ableitung}{}{}
+der
+$1$-\definitionsverweis {Differentialform}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { xy^2dx+yzdy+x^3dz
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf dem $\R^3$.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Berechne die
+\definitionsverweis {äußere Ableitung}{}{}
+$d \omega$ der
+$1$-\definitionsverweis {Differentialform}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { { \frac{   x^2 }{  y } } dx- { \frac{   x  }{  y^2 } } dy
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ = }{ \left\{ (x,y) \in \R^2  \mid   y \neq 0         \right\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Berechne die äußere Ableitung $d \omega$ der Differentialform
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} {  e^{xz} dx \wedge dy - xyz dx \wedge dz + \left(  \sin ( \cos (xy) )  +y^{10}z^{100}  \right) dy \wedge dz
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf dem
+\mathl{\R^3}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es sei
+\maabbeledisp {f} {\R} {\R
+} { t } {f(t)
+} {,}
+die durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ f(t)
+}
+{ =} { { \frac{   \sin^{ 3  } (t^4)  }{  1+t^2 } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gegeben ist.
+
+a) Berechne die äußere Ableitung von $f$.
+
+b) Berechne die äußere Ableitung von $fdt$.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Bestimme die
+\definitionsverweis {äußere Ableitung}{}{} der
+$2$-\definitionsverweis {Differentialform}{}{}
+
+\mathdisp {\omega = xdx \wedge dy+xy^2zdy \wedge dz+xe^ydx\wedge dz} {  }
+ auf dem $\R^3$.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Zeige, dass die
+$1$-\definitionsverweis {Differentialform}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ (2x- \sin  y )dx-x\cos  ydy
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+auf dem $\R^2$
+\definitionsverweis {geschlossen}{}{}
+und auch
+\definitionsverweis {exakt}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {offene Teilmenge}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ \sum_{i = 1}^n f_i dx_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+$1$-\definitionsverweis {Differentialform}{}{,}
+die mit
+\definitionsverweis {stetig differenzierbaren Funktionen}{}{}
+\maabb {f_i} { U } { \R
+} {}
+beschrieben werde. Zeige, dass $\omega$ genau dann
+\definitionsverweis {geschlossen}{}{}
+ist, wenn
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial_i f_j
+}
+{ =} { \partial_j f_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle $i,j$  gilt.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {offene Teilmenge}{}{}
+und $\omega$ eine
+\definitionsverweis {stetig differenzierbare}{}{}
+$1$-\definitionsverweis {Form}{}{}
+auf $U$ mit dem gemäß
+[[Riemannsche Mannigfaltigkeit/Vektorfelder und 1-Formen/Fakt|Lemma 16.3]]
+zugehörigen
+\definitionsverweis {Vektorfeld}{}{}
+$F$ auf $U$. Zeige, dass $\omega$ genau dann
+\definitionsverweis {geschlossen}{}{}
+ist, wenn $F$ die
+\definitionsverweis {Integrabilitätsbedingung}{}{}
+erfüllt.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+\mathl{U \subseteq \R^n}{} eine
+\definitionsverweis {offene Teilmenge}{}{}
+und $\omega$ eine
+\definitionsverweis {stetig differenzierbare}{}{}
+$1$-\definitionsverweis {Form}{}{}
+auf $U$ mit dem gemäß
+[[Riemannsche Mannigfaltigkeit/Vektorfelder und 1-Formen/Fakt|Lemma 16.3]]
+zugehörigen
+\definitionsverweis {Vektorfeld}{}{}
+$F$ auf $U$. Zeige, dass $\omega$ genau dann
+\definitionsverweis {exakt}{}{}
+ist, wenn $F$ ein
+\definitionsverweis {Gradientenfeld}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $\omega$ eine
+\definitionsverweis {differenzierbare}{}{} \definitionsverweis {Differentialform}{}{}
+auf einer Mannigfaltigkeit $M$ und
+\maabb {\varphi} { L } { M
+} {}
+eine auf der Mannigfaltigkeit $L$ definierte differenzierbare Abbildung.
+
+\aufzaehlungzwei {Es sei $\omega$
+\definitionsverweis {exakt}{}{.}
+Zeige, dass auch die zurückgezogene Differentialform $\varphi^*\omega$ exakt ist.
+} {Es sei $\omega$
+\definitionsverweis {geschlossen}{}{.}
+Zeige, dass auch die
+\definitionsverweis {zurückgezogene}{}{}
+Differentialform $\varphi^*\omega$ geschlossen ist.
+}
+
+}
+{} {}
+
+Für die folgenden Aufgaben vergleiche
+[[Vektorfeld/(x,y) nach (-y,x)/Nicht integrabel/Beispiel|Beispiel 58.7 (Analysis (Osnabrück 2021-2023))]]
+und
+[[Vektorfeld/Punktierte Ebene/(x,y) nach (-y,x) durch x^2+y^2/Integrabel nicht exakt/Beispiel|Beispiel 58.10 (Analysis (Osnabrück 2021-2023))]].
+
+\inputaufgabe
+{}
+{
+
+Zeige, dass die
+$1$-\definitionsverweis {Differentialform}{}{}
+
+\mathdisp {-ydx+xdy} {  }
+
+auf dem $\R^2$ nicht
+\definitionsverweis {geschlossen}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Zeige, dass die
+$1$-\definitionsverweis {Differentialform}{}{}
+
+\mathdisp {- { \frac{   y  }{  x^2+y^2 } }  dx+ { \frac{   x  }{  x^2+y^2 } } dy} {  }
+
+auf dem $\R^2 \setminus \{0\}$
+\definitionsverweis {geschlossen}{}{,}
+aber nicht
+\definitionsverweis {exakt}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Zeige, dass jede stetige
+$n$-\definitionsverweis {Differentialform}{}{}
+$\omega$ auf einer offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{U
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {exakt}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {zusammenhängende}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und $\omega$ eine
+\definitionsverweis {differenzierbare}{}{}
+$1$-\definitionsverweis {Form}{}{}
+auf $M$. Zeige, dass $\omega$ genau dann
+\definitionsverweis {exakt}{}{}
+ist, wenn für jeden
+\definitionsverweis {stetig differenzierbaren}{}{}
+Weg
+\maabbdisp {\gamma} { [a,b] } { M
+} {}
+das
+\definitionsverweis {Wegintegral}{}{}
+
+\mathl{\int_\gamma \omega}{} nur von
+\mathl{\gamma(a)}{} und
+\mathl{\gamma(b)}{} abhängt.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es seien $M$ und $N$
+\definitionsverweis {differenzierbare Mannigfaltigkeiten}{}{}
+und
+\maabbdisp {\varphi} { M } { N
+} {}
+eine
+\definitionsverweis {differenzierbare Abbildung}{}{.}
+Es sei $\omega$ eine
+\definitionsverweis {differenzierbare}{}{}
+$n$-\definitionsverweis {Form}{}{}
+auf $N$, wobei $n$ die Dimension von $N$ sei. Zeige, dass $\varphi^* \omega$ eine
+\definitionsverweis {geschlossene}{}{}
+\definitionsverweis {Differentialform}{}{}
+auf $M$ ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Welche der folgenden Funktionen
+\maabbdisp {} {\R_+} {\R
+} {}
+lassen sich
+\definitionsverweis {differenzierbar}{}{}
+in den
+\definitionsverweis {Randpunkt}{}{}
+$0$ fortsetzen?
+\aufzaehlungsechs{
+\mathl{x^3+ \sin^{ 3  }  x -e^{-x}}{,}
+}{
+\mathl{{ \frac{   1  }{  x  } }}{,}
+}{
+\mathl{\sin  { \frac{   1  }{  x  } }}{,}
+}{
+\mathl{x \sin  { \frac{   1  }{  x  } }}{,}
+}{
+\mathl{{ \frac{   e^{ { \frac{   1  }{  x  } } }  }{  x  } }}{,}
+}{
+\mathl{x^2 \sin  { \frac{   1  }{  x  } }}{.}
+}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+\mathl{H \subset \R^n}{} ein
+\definitionsverweis {Halbraum}{}{.}
+Es sei
+\mathl{Q\in H}{} ein Punkt und $Q \in U \subseteq H$, wobei $U$ eine
+\definitionsverweis {offene Teilmenge}{}{}
+des $\R^n$ sei. Zeige, dass $Q$ kein Randpunkt von $H$ ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Definiere die Begriffe \stichwort {Diffeomorphismus} {,} \stichwort {totales Differential} {} und \stichwort {höhere Ableitungen} {} für
+\definitionsverweis {Halbräume}{}{}
+\zusatzklammer {bzw. offene Teilmengen davon} {} {.}
+
+}
+{} {}
+
+  \zwischenueberschrift{Aufgaben zum Abgeben}
+
+\inputaufgabe
+{3}
+{
+
+Bestimme die
+\definitionsverweis {äußere Ableitung}{}{} der
+$1$-\definitionsverweis {Differentialform}{}{}
+
+\mathdisp {\omega = xy^2z^3dx+xyzdy+x^3yz^4dz} {  }
+ auf dem $\R^3$.
+
+}
+{} {}
+
+\inputaufgabe
+{3}
+{
+
+Bestimme die
+\definitionsverweis {äußere Ableitung}{}{} der
+$2$-\definitionsverweis {Differentialform}{}{}
+
+\mathdisp {\omega = xy^2dx \wedge dy+(x^3-y^2z^4)dy \wedge dz+ \sin (xy) dx \wedge dz} {  }
+
+auf dem $\R^3$.
+
+}
+{} {}
+
+\inputaufgabe
+{5}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+und es seien
+\mathl{\omega_1 , \ldots , \omega_r}{} Differentialformen auf $U$, wobei $\omega_i$ eine
+$k_i$-\definitionsverweis { Differentialform}{}{}
+sei. Finde und beweise eine Formel für
+
+\mathdisp {d( \omega_1 \wedge \ldots \wedge \omega_r)} { . }
+
+}
+{} {}
+
+\inputaufgabe
+{5}
+{
+
+Zeige, dass die
+\definitionsverweis {Differentialform}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { \left(  2xy+3x^2-y e^{xy}  \right) dx + \left(  x^2-xe^{xy} +8y  \right)  dy
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf dem $\R^2$
+\definitionsverweis {geschlossen}{}{}
+und auch
+\definitionsverweis {exakt}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabe
+{6}
+{
+
+Zeige, dass die
+\definitionsverweis {Halbebene}{}{}
+$\R_{\geq 0} \times \R$ und der
+\definitionsverweis {Quadrant}{}{}
+
+\mathl{\R_{\geq 0} \times \R_{\geq 0}}{}
+\definitionsverweis {homöomorph}{}{}
+sind.
+
+}
+{} {}
+
+ [[Kategorie:Latexseite]]

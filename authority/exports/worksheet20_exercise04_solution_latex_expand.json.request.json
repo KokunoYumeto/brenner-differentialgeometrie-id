@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 00:12:47 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Äußere Ableitung/e^(xz)dx wedge dy -xyz dx wedge dz + (sin (cos (xy))+y^(10)z^(100))/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 565,
+  "response_path": "worksheet20_exercise04_solution_latex_expand.json",
+  "response_sha256": "2d536763a21931e1243b76651a1a1dc91b70029af8c4790319f7aabb5d2222cf",
+  "retrieved_utc": "2026-08-28T00:12:47Z",
+  "schema_version": 1
+}

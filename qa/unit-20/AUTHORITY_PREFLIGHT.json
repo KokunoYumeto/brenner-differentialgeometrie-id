@@ -1,0 +1,940 @@
+{
+  "authority": {
+    "course_recursive_export": {
+      "bytes": 3538709,
+      "path": "authority/mediawiki/brenner_course_recursive_current.xml",
+      "sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14"
+    },
+    "latex_surface_recursive_export": {
+      "bytes": 3722387,
+      "path": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+      "sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c"
+    },
+    "pages": {
+      "lecture_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture20_latex_surface_revid807126.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1200,
+          "path": "authority/mediawiki/lecture20_latex_surface_revid807126.metadata.json",
+          "sha256": "1647906130ea6c1100f1065c2ee02214432ca476f5ccb2226f331e588e2afb08"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142594,
+        "parentid": 799035,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/lecture20_latex_surface_revid807126.wiki",
+        "revid": 807126,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T10:00:30Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 20/latex"
+      },
+      "lecture_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "43c9a26db10a49f7df09577df2f8f097d066e743dd62744d93b6e8483959b09f",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture20_root_revid991598.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "6ogstejiqfvotc6ie4c6tsnz1uwm2ed",
+        "metadata": {
+          "bytes": 1172,
+          "path": "authority/mediawiki/lecture20_root_revid991598.metadata.json",
+          "sha256": "89316cd9e4666fecc8fa5bb640fa14ba9a9eab551cb1b7e19c4391bcebf02fb1"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142564,
+        "parentid": 898893,
+        "readable_normalized_bytes": 3696,
+        "readable_normalized_sha256": "5cc0b2a328ff21553e577e47a58062ed2f28c6c1d7d33e7af17239cf76c33334",
+        "readable_normalized_witness": "authority/mediawiki/lecture20_root_revid991598.wiki",
+        "revid": 991598,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 3695,
+        "source_utf8_sha1": "392ee3071ad2e7c4d1e4e636d4212373089bdda5",
+        "source_utf8_sha256": "7eac8ccb5fbe7121bfbc201f20702de1ea0dac83e3a871ea113db8223ac0f17c",
+        "timestamp": "2025-01-23T13:23:29Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 20"
+      },
+      "worksheet_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet20_latex_surface_revid807095.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1207,
+          "path": "authority/mediawiki/worksheet20_latex_surface_revid807095.metadata.json",
+          "sha256": "f8da62c42c614a9af2460dec7c071bed3ed640823a972c806dabc4b5b135c28b"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142684,
+        "parentid": 799004,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/worksheet20_latex_surface_revid807095.wiki",
+        "revid": 807095,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T09:55:20Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 20/latex"
+      },
+      "worksheet_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "dca37dc990dda1d109fedad27eb74ecc79fb1f739c1bbfdc52f279d9d817a82c",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet20_root_revid906457.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "75wvq6lazl2xaebidh9t637nz7zsr40",
+        "metadata": {
+          "bytes": 1179,
+          "path": "authority/mediawiki/worksheet20_root_revid906457.metadata.json",
+          "sha256": "c345ddc19bcedd21f856b7c1dd8b148c73bedff0fc5d19e483773d9600bc4523"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142654,
+        "parentid": 905401,
+        "readable_normalized_bytes": 3030,
+        "readable_normalized_sha256": "60b689e58388fd4168615faf0217d4491275d6cba6eae98b7f0b365d18270e03",
+        "readable_normalized_witness": "authority/mediawiki/worksheet20_root_revid906457.wiki",
+        "revid": 906457,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 3029,
+        "source_utf8_sha1": "3d54fd1ef8c1f779fd2a3af08ebb7fcc5ab9e740",
+        "source_utf8_sha256": "df0572bedea7ad05eb474b259089454c8c95ed15f4463c11f9f745c148eb43a4",
+        "timestamp": "2023-07-15T11:14:19Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 20"
+      }
+    },
+    "root_revision_manifest": {
+      "bytes": 15237,
+      "path": "authority/brenner_selected_root_revisions.csv",
+      "sha256": "64cf91594907db45355e64fb512fb14092e15218c74847a8f60fe884a5284fc8"
+    },
+    "surface_revision_manifest": {
+      "bytes": 31799,
+      "path": "authority/brenner_selected_surface_revisions.csv",
+      "sha256": "9a3a6b7dc08cc022803dad24e959365d67810d4da87a8bc4385c601db9d4bd52"
+    }
+  },
+  "checks": {
+    "all_candidate_solution_titles_queried": true,
+    "all_displayed_images_have_license_macros": true,
+    "all_point_markers_resolved": true,
+    "all_supplied_solution_latex_snapshots_frozen": true,
+    "all_supplied_solution_revisions_frozen": true,
+    "exercise_root_expansion_count_agreement": true,
+    "lecture_expansion_sanitized": true,
+    "revision_export_hashes_match": true,
+    "root_revision_bindings_unique": true,
+    "root_witnesses_match_mediawiki_sha1": true,
+    "solution_macro_api_agreement": true,
+    "surface_revision_bindings_unique": true,
+    "translation_started_by_workflow": false,
+    "unit_media_binary_and_rights_closure": true,
+    "worksheet_expansion_sanitized": true
+  },
+  "expansions": {
+    "lecture": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 28504,
+      "http_date": "Fri, 28 Aug 2026 00:11:58 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 20/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 674,
+        "path": "authority/exports/lecture20_latex_expand.json.request.json",
+        "sha256": "0d74ac44be3d49f107e4b5f5d7f956f7182b20de5eae125732cedddf9e76dda3"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 30324,
+        "path": "authority/exports/lecture20_latex_expand.json",
+        "sha256": "2b55a9642d49806161b13a342f3966d8c8a419b1147330b45566662b99340ca0"
+      },
+      "retrieved_utc": "2026-08-28T00:11:58Z",
+      "sanitized_source": {
+        "bytes": 25013,
+        "path": "authority/expanded/lecture20_source.de.tex",
+        "sha256": "6af7e41e240899c1866ff6c6904984c6eb5d3b436b47f07068cb4d29e40e1768"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 672,
+        "path": "qa/unit-20/lecture20_sanitize.json",
+        "sha256": "ff8b33ad9b0e345ae6d302f8858c45780114edafc26a0fabd81e7fd62bed0756"
+      },
+      "valid_utf8": true
+    },
+    "worksheet": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 12060,
+      "http_date": "Fri, 28 Aug 2026 00:11:58 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 20/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 679,
+        "path": "authority/exports/worksheet20_latex_expand.json.request.json",
+        "sha256": "ca50145713cd14eedd8ea8a36aac4b842d35e1e49f473b766dbb541e8d91c2b5"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 12975,
+        "path": "authority/exports/worksheet20_latex_expand.json",
+        "sha256": "4d63c037a5548ca1fd9683b83dd449f3959edf65a3dbd0c1bc2e6c8a8b4c3410"
+      },
+      "retrieved_utc": "2026-08-28T00:11:59Z",
+      "sanitized_source": {
+        "bytes": 9463,
+        "path": "authority/expanded/worksheet20_source.de.tex",
+        "sha256": "31d0d7d85a81923ca09f039e6ad938c9849b21998e7f800a4d35586c523238c1"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 675,
+        "path": "qa/unit-20/worksheet20_sanitize.json",
+        "sha256": "8dfd0b9dac272cb552a9547471939a736ab2ace245f2a2558e0547c5da53fe0c"
+      },
+      "valid_utf8": true
+    }
+  },
+  "media": {
+    "all_displayed_images_have_license_macros": true,
+    "assets": [],
+    "current_commons_query": null,
+    "occurrence_count": 0,
+    "rights_manifest": {
+      "bytes": 25588,
+      "path": "authority/brenner_media_rights_manifest.csv",
+      "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+    },
+    "surface_occurrences": [],
+    "unique_asset_count": 0
+  },
+  "next_action": "Translate Lecture 20, Worksheet 20, and exactly the 5 supplied solutions in source order.",
+  "schema_version": 1,
+  "scope": "Brenner Differentialgeometrie Unit 20 authority preflight; no translation",
+  "solutions": {
+    "exercise_count": 24,
+    "exercises": [
+      {
+        "exercise_index": 1,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Äußere Ableitung/(x^2-y^3)dx+x^3y^2dy/Bestimme/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Äußere Ableitung/(x^2-y^3)dx+x^3y^2dy/Bestimme/Aufgabe/Lösung",
+        "task_title": "Äußere Ableitung/(x^2-y^3)dx+x^3y^2dy/Bestimme/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 2,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Äußere Ableitung/xy^2dx+yzdy+x^3dz/Bestimme/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Äußere Ableitung/xy^2dx+yzdy+x^3dz/Bestimme/Aufgabe/Lösung",
+        "task_title": "Äußere Ableitung/xy^2dx+yzdy+x^3dz/Bestimme/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 573,
+          "path": "authority/mediawiki/worksheet20_exercise03_solution_revid1096829.utf8.b64",
+          "sha256": "b220888d0748f4e1111c99cbb7839445ca4bfdf4a8b47b603db3aadf316eb6a4"
+        },
+        "exercise_index": 3,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 428,
+          "http_date": "Fri, 28 Aug 2026 00:12:47 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Äußere Ableitung/x^2 durch y dx- x durch y^2 dy/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 702,
+            "path": "authority/exports/worksheet20_exercise03_solution_latex_expand.json.request.json",
+            "sha256": "951614d5864aecb7bcf6167be5347829faf4a217d71b549c356328ac73c2be6b"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 566,
+            "path": "authority/exports/worksheet20_exercise03_solution_latex_expand.json",
+            "sha256": "fb9160558776592fabcd5666e5bfa0f1c74a378a4e78544bd19ebcec05fd78c9"
+          },
+          "retrieved_utc": "2026-08-28T00:12:46Z",
+          "sanitized_source": {
+            "bytes": 348,
+            "path": "authority/expanded/worksheet20_exercise03_solution_source.de.tex",
+            "sha256": "17d5db22f74f4e9343cf1ce9c20233ec710adf5db49d563c3a367da318f79c51"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 710,
+            "path": "qa/unit-20/worksheet20_exercise03_solution_sanitize.json",
+            "sha256": "db5affab4015d71b2128e47a6faad8ea74e0ef220eccc592e3217e38f9bf4d17"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "5fd245636984dccb06aac4ba73b7beff89f73427",
+        "metadata": {
+          "bytes": 1331,
+          "path": "authority/mediawiki/worksheet20_exercise03_solution_revid1096829.metadata.json",
+          "sha256": "8b17096a393ca599fbd8ad3decdb0809e4f975e771f387b58983e35b91213568"
+        },
+        "pageid": 42729,
+        "parentid": 1095873,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 430,
+          "path": "authority/mediawiki/worksheet20_exercise03_solution_revid1096829.wiki",
+          "sha256": "f85f82816357150f005f7ae2b4270873bddea91c8aeff02c5e0672e37901aba5"
+        },
+        "resolved_solution_title": "Äußere Ableitung/x^2 durch y dx- x durch y^2 dy/Aufgabe/Lösung",
+        "revid": 1096829,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Äußere Ableitung/x^2 durch y dx- x durch y^2 dy/Aufgabe/Lösung",
+        "source_utf8_bytes": 429,
+        "source_utf8_sha256": "727fbf606aa4c5adbe9dd5be5bcb5dda492250c7f362f3be155e2425af9352ac",
+        "task_title": "Äußere Ableitung/x^2 durch y dx- x durch y^2 dy/Aufgabe",
+        "timestamp": "2026-06-15T09:53:45Z",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 641,
+          "path": "authority/mediawiki/worksheet20_exercise04_solution_revid1113687.utf8.b64",
+          "sha256": "c6024407659fa91c9a10a313fea6ad660278b951b0910bd3dbcf564ea6357071"
+        },
+        "exercise_index": 4,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 422,
+          "http_date": "Fri, 28 Aug 2026 00:12:47 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Äußere Ableitung/e^(xz)dx wedge dy -xyz dx wedge dz + (sin (cos (xy))+y^(10)z^(100))/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 739,
+            "path": "authority/exports/worksheet20_exercise04_solution_latex_expand.json.request.json",
+            "sha256": "188105a63b8a0344403b9b967feeb9cda1b45f2045be555b2c38a7d034eace47"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 565,
+            "path": "authority/exports/worksheet20_exercise04_solution_latex_expand.json",
+            "sha256": "2d536763a21931e1243b76651a1a1dc91b70029af8c4790319f7aabb5d2222cf"
+          },
+          "retrieved_utc": "2026-08-28T00:12:47Z",
+          "sanitized_source": {
+            "bytes": 343,
+            "path": "authority/expanded/worksheet20_exercise04_solution_source.de.tex",
+            "sha256": "cdc9546b6527d19e69cd071bce361a0efdf324a39e7f3c67b54219794f01e5f1"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 710,
+            "path": "qa/unit-20/worksheet20_exercise04_solution_sanitize.json",
+            "sha256": "ae5c04d410f7bc7312a520c4b3448dd0b3c66bddcf3e8bf7ad17c8d7b9aef6db"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "d00e8f80f98ee693eb41b160fe6d6852523de15e",
+        "metadata": {
+          "bytes": 1405,
+          "path": "authority/mediawiki/worksheet20_exercise04_solution_revid1113687.metadata.json",
+          "sha256": "61b6bcc4ad4bff81d35f8f6804a03afcfba57a72d733b67a89fedb411df74a0b"
+        },
+        "pageid": 44417,
+        "parentid": 1095871,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 481,
+          "path": "authority/mediawiki/worksheet20_exercise04_solution_revid1113687.wiki",
+          "sha256": "bd5d23112348a111b585e3eace432026bcc129bd3eb4e2e0c12eea3dd743110a"
+        },
+        "resolved_solution_title": "Äußere Ableitung/e^(xz)dx wedge dy -xyz dx wedge dz + (sin (cos (xy))+y^(10)z^(100))/Aufgabe/Lösung",
+        "revid": 1113687,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Äußere Ableitung/e^(xz)dx wedge dy -xyz dx wedge dz + (sin (cos (xy))+y^(10)z^(100))/Aufgabe/Lösung",
+        "source_utf8_bytes": 480,
+        "source_utf8_sha256": "1c768b0c11caa4ffda2be4a0657150f28b6c6ae15246fe409bc5683509ca9472",
+        "task_title": "Äußere Ableitung/e^(xz)dx wedge dy -xyz dx wedge dz + (sin (cos (xy))+y^(10)z^(100))/Aufgabe",
+        "timestamp": "2026-08-27T06:55:43Z",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 837,
+          "path": "authority/mediawiki/worksheet20_exercise05_solution_revid1095872.utf8.b64",
+          "sha256": "6ba4f2ca0c17ee5e950f008e065793a52d421c370abbc9946f171d89ca4e42cc"
+        },
+        "exercise_index": 5,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 549,
+          "http_date": "Fri, 28 Aug 2026 00:12:47 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Äußere Ableitung/sin^3(t^4) durch 1+t^2/Und dt/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 701,
+            "path": "authority/exports/worksheet20_exercise05_solution_latex_expand.json.request.json",
+            "sha256": "96477adee25304be99777df1488b6f548ac54c8c806c4277b267077e5a8676cd"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 691,
+            "path": "authority/exports/worksheet20_exercise05_solution_latex_expand.json",
+            "sha256": "3dbc5841d4820acac2dac9b243de55bfaa9e8ff334df349389def04d090d8e42"
+          },
+          "retrieved_utc": "2026-08-28T00:12:47Z",
+          "sanitized_source": {
+            "bytes": 459,
+            "path": "authority/expanded/worksheet20_exercise05_solution_source.de.tex",
+            "sha256": "b6034644cbd8dfe26d634c751aba6fce3b7ff6c7d060b848774f220c5435d397"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 710,
+            "path": "qa/unit-20/worksheet20_exercise05_solution_sanitize.json",
+            "sha256": "b115b958de67ac452d369de0236638ba32895dcd7d1e6c3e5ebf79d04f962b50"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "0af3594a4e4185628ccb007f3973c85bb3abb3ca",
+        "metadata": {
+          "bytes": 1328,
+          "path": "authority/mediawiki/worksheet20_exercise05_solution_revid1095872.metadata.json",
+          "sha256": "177362339c710222f9ce7c4964ca5a6959773241f196680db38d5446c4af0f29"
+        },
+        "pageid": 46306,
+        "parentid": 987730,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 627,
+          "path": "authority/mediawiki/worksheet20_exercise05_solution_revid1095872.wiki",
+          "sha256": "fdec2a7344314a6e85b3f962515c990f12eb4ab97c507e0b705c1b8df6c12b1a"
+        },
+        "resolved_solution_title": "Äußere Ableitung/sin^3(t^4) durch 1+t^2/Und dt/Aufgabe/Lösung",
+        "revid": 1095872,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Äußere Ableitung/sin^3(t^4) durch 1+t^2/Und dt/Aufgabe/Lösung",
+        "source_utf8_bytes": 626,
+        "source_utf8_sha256": "750246edc90d1a7f4a9c8df52720d23ec25c05b8fb9c085bfd53a0de1a5b5bad",
+        "task_title": "Äußere Ableitung/sin^3(t^4) durch 1+t^2/Und dt/Aufgabe",
+        "timestamp": "2026-06-14T19:54:00Z",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 6,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Äußere Ableitung/xdxdy+xy^2zdydz+xe^ydxdz/Bestimme/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Äußere Ableitung/xdxdy+xy^2zdydz+xe^ydxdz/Bestimme/Aufgabe/Lösung",
+        "task_title": "Äußere Ableitung/xdxdy+xy^2zdydz+xe^ydxdz/Bestimme/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 237,
+          "path": "authority/mediawiki/worksheet20_exercise07_solution_revid614920.utf8.b64",
+          "sha256": "caad6b5a73d48542cccb97544b8cc88e433044d4a5b50d984bdf36a8ae0299aa"
+        },
+        "exercise_index": 7,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 198,
+          "http_date": "Fri, 28 Aug 2026 00:12:47 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "(2x-siny)dx-xcosydy/Geschlossen und exakt/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 694,
+            "path": "authority/exports/worksheet20_exercise07_solution_latex_expand.json.request.json",
+            "sha256": "91c8b6e255874441caaeadcb7d74614f8fc0f5f663f75ba0afcee133b83c0a70"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 313,
+            "path": "authority/exports/worksheet20_exercise07_solution_latex_expand.json",
+            "sha256": "d89c66807ed1cc694848de6fa3b2b38e81b20fa797a2dcab94616aa5f6861fcf"
+          },
+          "retrieved_utc": "2026-08-28T00:12:47Z",
+          "sanitized_source": {
+            "bytes": 202,
+            "path": "authority/expanded/worksheet20_exercise07_solution_source.de.tex",
+            "sha256": "457df1dcc627cd5e59300c81846fbf4f3e6f61cff6552da2d74cf4b528a171f0"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 710,
+            "path": "qa/unit-20/worksheet20_exercise07_solution_sanitize.json",
+            "sha256": "4ff7ef76034b59d993582f06a80414faaf8e59d9cc52ace773284838b97ed2cb"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "da3758cb5d449c202d1975212eef4d5bc25a997a",
+        "metadata": {
+          "bytes": 1307,
+          "path": "authority/mediawiki/worksheet20_exercise07_solution_revid614920.metadata.json",
+          "sha256": "ebc3664b35b6ee48c9db4e8a3e4e3f8ac24a7cbfb12365b00cfa9755ca17aba1"
+        },
+        "pageid": 115457,
+        "parentid": 0,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 177,
+          "path": "authority/mediawiki/worksheet20_exercise07_solution_revid614920.wiki",
+          "sha256": "0095c3f94540c205484d9fe3eaaf66fb452032654b793a471a9a4b32fd46c932"
+        },
+        "resolved_solution_title": "(2x-siny)dx-xcosydy/Geschlossen und exakt/Aufgabe/Lösung",
+        "revid": 614920,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "(2x-siny)dx-xcosydy/Geschlossen und exakt/Aufgabe/Lösung",
+        "source_utf8_bytes": 176,
+        "source_utf8_sha256": "112f9fe7d964c0bae9189e6173004c6cc8594330e46e9a3c7cf2c1ed745b0d38",
+        "task_title": "(2x-siny)dx-xcosydy/Geschlossen und exakt/Aufgabe",
+        "timestamp": "2020-02-02T11:37:04Z",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 8,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Offene Teilmenge/R^n/Differentialform ersten Grades/Geschlossen/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Offene Teilmenge/R^n/Differentialform ersten Grades/Geschlossen/Aufgabe/Lösung",
+        "task_title": "Offene Teilmenge/R^n/Differentialform ersten Grades/Geschlossen/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 9,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "1-Form/Vektorfeld/Geschlossen gdw Integrabilitätsbedingung/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "1-Form/Vektorfeld/Geschlossen gdw Integrabilitätsbedingung/Aufgabe/Lösung",
+        "task_title": "1-Form/Vektorfeld/Geschlossen gdw Integrabilitätsbedingung/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 10,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "1-Form/Vektorfeld/Exakt gdw Gradientenfeld/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "1-Form/Vektorfeld/Exakt gdw Gradientenfeld/Aufgabe/Lösung",
+        "task_title": "1-Form/Vektorfeld/Exakt gdw Gradientenfeld/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 11,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Differentialform/Rückzug/Exakt und geschlossen/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Differentialform/Rückzug/Exakt und geschlossen/Aufgabe/Lösung",
+        "task_title": "Differentialform/Rückzug/Exakt und geschlossen/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 12,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Vektorfeld/(x,y) nach (-y,x)/Nicht integrabel/Formversion/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Vektorfeld/(x,y) nach (-y,x)/Nicht integrabel/Formversion/Aufgabe/Lösung",
+        "task_title": "Vektorfeld/(x,y) nach (-y,x)/Nicht integrabel/Formversion/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 13,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Vektorfeld/Punktierte Ebene/(x,y) nach (-y,x) durch x^2+y^2/Integrabel nicht exakt/Formversion/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Vektorfeld/Punktierte Ebene/(x,y) nach (-y,x) durch x^2+y^2/Integrabel nicht exakt/Formversion/Aufgabe/Lösung",
+        "task_title": "Vektorfeld/Punktierte Ebene/(x,y) nach (-y,x) durch x^2+y^2/Integrabel nicht exakt/Formversion/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 1593,
+          "path": "authority/mediawiki/worksheet20_exercise14_solution_revid1096454.utf8.b64",
+          "sha256": "850619286f83ed592307c8fd7520373679d278083c7aec688607f649386f9074"
+        },
+        "exercise_index": 14,
+        "exists": true,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 1070,
+          "http_date": "Fri, 28 Aug 2026 00:12:48 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Offene Menge/R^n/n-Form/Exakt/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 683,
+            "path": "authority/exports/worksheet20_exercise14_solution_latex_expand.json.request.json",
+            "sha256": "4512e66a47087b9f8f74f7d17b848fa9d3d73087c84526fc8fcefd7bd40b4e51"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 1243,
+            "path": "authority/exports/worksheet20_exercise14_solution_latex_expand.json",
+            "sha256": "d30ea0a8e2e9fd7f5772126d019707225b2b352a6c8fa89985bce58bb55e85e2"
+          },
+          "retrieved_utc": "2026-08-28T00:12:48Z",
+          "sanitized_source": {
+            "bytes": 920,
+            "path": "authority/expanded/worksheet20_exercise14_solution_source.de.tex",
+            "sha256": "0f4632f701aecd2e0a421282cc3b6efdbba58a1a810097d7d44e57f7921ebee5"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 712,
+            "path": "qa/unit-20/worksheet20_exercise14_solution_sanitize.json",
+            "sha256": "762b4d23b226ddf9c372b3c3c0681cea2d6f034e36d80237f7fad2897a844e2b"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "a9a685edccfb120a5328e9d931b95b397e513ef9",
+        "metadata": {
+          "bytes": 1294,
+          "path": "authority/mediawiki/worksheet20_exercise14_solution_revid1096454.metadata.json",
+          "sha256": "8f60acbec3b8386eb200497e7c80b66999ebe81408c17abb02abfce4d64eb806"
+        },
+        "pageid": 78676,
+        "parentid": 1090139,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 1195,
+          "path": "authority/mediawiki/worksheet20_exercise14_solution_revid1096454.wiki",
+          "sha256": "0eb53e5d38488da3446b0bfc35a3b96f10ebd3ec769e1b3a834448598541f3fd"
+        },
+        "resolved_solution_title": "Offene Menge/R^n/n-Form/Exakt/Aufgabe/Lösung",
+        "revid": 1096454,
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Offene Menge/R^n/n-Form/Exakt/Aufgabe/Lösung",
+        "source_utf8_bytes": 1194,
+        "source_utf8_sha256": "24f67543177c5701124194d04effc41d525849b7c99d6da5c1c32d77dd95a67f",
+        "task_title": "Offene Menge/R^n/n-Form/Exakt/Aufgabe",
+        "timestamp": "2026-06-15T08:53:55Z",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 15,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "1-Form/Mannigfaltigkeit/Exakt gdw Wegintegrale endpunktabhängig/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "1-Form/Mannigfaltigkeit/Exakt gdw Wegintegrale endpunktabhängig/Aufgabe/Lösung",
+        "task_title": "1-Form/Mannigfaltigkeit/Exakt gdw Wegintegrale endpunktabhängig/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 16,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Differenzierbare Mannigfaltigkeit/Differenzierbare Abbildung/Rückzug einer volldimensionalen Form/Geschlossen/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Differenzierbare Mannigfaltigkeit/Differenzierbare Abbildung/Rückzug einer volldimensionalen Form/Geschlossen/Aufgabe/Lösung",
+        "task_title": "Differenzierbare Mannigfaltigkeit/Differenzierbare Abbildung/Rückzug einer volldimensionalen Form/Geschlossen/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 17,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "R + definierte Funktionen/Differenzierbare Fortsetzung nach 0/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "R_+ definierte Funktionen/Differenzierbare Fortsetzung nach 0/Aufgabe/Lösung",
+        "task_title": "R_+ definierte Funktionen/Differenzierbare Fortsetzung nach 0/Aufgabe",
+        "title_normalized_by_mediawiki": true
+      },
+      {
+        "exercise_index": 18,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Halbraum/In R^n offene Umgebung/Kein Randpunkt/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Halbraum/In R^n offene Umgebung/Kein Randpunkt/Aufgabe/Lösung",
+        "task_title": "Halbraum/In R^n offene Umgebung/Kein Randpunkt/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 19,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Halbräume/Übertragung von Begriffen/Diffeomorphismus, Totales Differential, Höhere Ableitung/Aufgabe/Lösung",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Halbräume/Übertragung von Begriffen/Diffeomorphismus, Totales Differential, Höhere Ableitung/Aufgabe/Lösung",
+        "task_title": "Halbräume/Übertragung von Begriffen/Diffeomorphismus, Totales Differential, Höhere Ableitung/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 20,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 3,
+        "resolved_solution_title": "Äußere Ableitung/xy^2z^3dx+xyzdy+x^3yz^4dz/Bestimme/Aufgabe/Lösung",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Äußere Ableitung/xy^2z^3dx+xyzdy+x^3yz^4dz/Bestimme/Aufgabe/Lösung",
+        "task_title": "Äußere Ableitung/xy^2z^3dx+xyzdy+x^3yz^4dz/Bestimme/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 21,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 3,
+        "resolved_solution_title": "Äußere Ableitung/xy^2dxdy+(x^3-y^2z^4)dydz+sin(xy)dxdz/Bestimme/Aufgabe/Lösung",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Äußere Ableitung/xy^2dxdy+(x^3-y^2z^4)dydz+sin(xy)dxdz/Bestimme/Aufgabe/Lösung",
+        "task_title": "Äußere Ableitung/xy^2dxdy+(x^3-y^2z^4)dydz+sin(xy)dxdz/Bestimme/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 22,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 5,
+        "resolved_solution_title": "Differentialform/Äußere Ableitung/Mehrfaches Dachprodukt/Formel/Aufgabe/Lösung",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Differentialform/Äußere Ableitung/Mehrfaches Dachprodukt/Formel/Aufgabe/Lösung",
+        "task_title": "Differentialform/Äußere Ableitung/Mehrfaches Dachprodukt/Formel/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 23,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 5,
+        "resolved_solution_title": "(2xy+3x^2-ye^(xy))dx+(x^2-xe^(xy)+8y)dy/Geschlossen und exakt/Aufgabe/Lösung",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "(2xy+3x^2-ye^(xy))dx+(x^2-xe^(xy)+8y)dy/Geschlossen und exakt/Aufgabe/Lösung",
+        "task_title": "(2xy+3x^2-ye^(xy))dx+(x^2-xe^(xy)+8y)dy/Geschlossen und exakt/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 24,
+        "exists": false,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 6,
+        "resolved_solution_title": "Halbebene und Quadrant/Homöomorph/Aufgabe/Lösung",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Halbebene und Quadrant/Homöomorph/Aufgabe/Lösung",
+        "task_title": "Halbebene und Quadrant/Homöomorph/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      }
+    ],
+    "graded_exercise_count": 5,
+    "macro_api_agreement": true,
+    "missing_solution_count": 19,
+    "point_value_total": 22,
+    "practice_exercise_count": 19,
+    "query": {
+      "bytes": 7052,
+      "path": "authority/mediawiki/unit20_solution_pages_current.json",
+      "sha256": "a230de70a34fe28b61238319687fa38ebbe0a9a385ad289b6c7eebad93beb0bb"
+    },
+    "query_request_receipt": {
+      "bytes": 2440,
+      "path": "authority/mediawiki/unit20_solution_pages_current.json.request.json",
+      "sha256": "7f4a3cc50105e6cfc417d13954d4b3941b2d2dd5cb7586cb36885740a0d599ff"
+    },
+    "query_retrieved_utc": "2026-08-28T00:11:59Z",
+    "schema_version": 1,
+    "supplied_solution_count": 5,
+    "supplied_solution_indices": [
+      3,
+      4,
+      5,
+      7,
+      14
+    ],
+    "workflow": "o011-unit20-solution-freeze-v1",
+    "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 20"
+  },
+  "status": "pass",
+  "structure": {
+    "all_hint_fields_blank": true,
+    "lecture_section_count": 2,
+    "worksheet_exercise_count": 24,
+    "worksheet_graded_count": 5,
+    "worksheet_point_total": 22,
+    "worksheet_practice_count": 19,
+    "worksheet_section_count": 2,
+    "worksheet_solution_bearing_indices": [
+      3,
+      4,
+      5,
+      7,
+      14
+    ]
+  },
+  "unit": 20,
+  "workflow": "o011-unit20-authority-preflight-v1"
+}

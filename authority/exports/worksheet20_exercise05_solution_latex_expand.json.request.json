@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 00:12:47 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Äußere Ableitung/sin^3(t^4) durch 1+t^2/Und dt/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 691,
+  "response_path": "worksheet20_exercise05_solution_latex_expand.json",
+  "response_sha256": "3dbc5841d4820acac2dac9b243de55bfaa9e8ff334df349389def04d090d8e42",
+  "retrieved_utc": "2026-08-28T00:12:47Z",
+  "schema_version": 1
+}

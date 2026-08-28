@@ -1708,3 +1708,48 @@ SHA-256 values are
 `a778cb203fa7598dbacc3e396df497f86b1a5518af05b028a551c2f3d413a0ee`,
 and `7ff16486bbaa6867c5f85ff7761f03244b9bc683d57719f2fa26c8e0f88ca216`.
 The matching GitHub release and remaining corpus are still open.
+
+## D073 — Close the Unit 19 GitHub publication and public-byte gate (2026-08-28)
+
+**Decision:** Publish the same checksum-bound seven-file Unit 19 checkpoint in
+the existing public repository, preserving ancestry from the exact Unit 16
+boundary. Use one content commit, one annotated version tag, and one public,
+non-prerelease release. Treat GitHub's API filename ordering as a platform
+projection rather than changing already-published cross-repository filenames;
+retain the PDF's primary-reader designation in the release notes. Require an
+unauthenticated verifier to resolve the tag and ancestry and download every
+asset before advancing the production cursor.
+
+**Evidence:** Commit `e470fa5897708f49596488083b442c494ca9ab0e`, tag
+`v0.19.0-unit-19`, and release ID `378184063` are public at
+`https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v0.19.0-unit-19`.
+The verifier downloaded all seven assets, totaling 54,614,325 bytes, without
+authentication and matched every SHA-256 and MD5 identity. Its 5,047-byte
+receipt has SHA-256
+`991b1a037df12edf288085403054861e44816e9cc2a93f5c0d35af4c340f79fb`.
+The public Unit 19 boundary is therefore closed in both the GitHub and Zenodo
+lineages; the remaining corpus is still open.
+
+## D074 — Admit the exact Unit 20 authority closure (2026-08-28)
+
+**Decision:** Admit Unit 20 for source-ordered translation after exact root and
+`/latex` revision binding, frozen official expansion, candidate-solution census,
+empty media closure, live-current-revision confirmation, and independent
+offline verification. Interpret MediaWiki's documented underscore-to-space
+normalization for the Exercise 17 solution candidate through the API's explicit
+`normalized` mapping; preserve both the requested and resolved titles instead
+of treating the normalized title as a closure mismatch.
+
+**Evidence:** Lecture 20 is pageid/revision `142564 / 991598`, expanded-source
+SHA-256
+`6af7e41e240899c1866ff6c6904984c6eb5d3b436b47f07068cb4d29e40e1768`;
+Worksheet 20 is `142654 / 906457`, SHA-256
+`31d0d7d85a81923ca09f039e6ad938c9849b21998e7f800a4d35586c523238c1`.
+Its 24 exercises comprise 19 practice and five graded items totaling 22 points;
+Solutions 3, 4, 5, 7, and 14 exist; all hint fields are blank; no media asset is
+used. The preflight, independent offline verification, and live-current receipt
+SHA-256 values are
+`9a4c9d9e871406ce0629fad3ef7193df99aadb790b445fce961aac6654147324`,
+`bbcde73c065cb6caf386a4053d26f90925443f3c44a9f3f3384bb35b553d32ee`,
+and `73d67138cd2e0a59f688b07b83624dff5b4d8bb45cedd1c532eacb9698e11d02`.
+Translation of the lecture, worksheet, and five supplied solutions is next.

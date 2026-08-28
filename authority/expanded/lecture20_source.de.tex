@@ -1,0 +1,1339 @@
+\setcounter{section}{20}
+
+  \zwischenueberschrift{Die äußere Ableitung}
+
+In dieser Vorlesung werden wir ein neuartiges mathematisches Objekt kennenlernen, die sogenannte äußere Ableitung. Es handelt sich dabei um einen Ableitungsbegriff, der aus Differentialformen vom Grad $k$ Differentialformen vom Grad
+\mathl{k+1}{} macht. Für eine Differentialform vom Grad $0$, also eine Funktion $f$, ist die zugehörige äußere Ableitung einfach die $1$-Form $df$, also die Differentialform, die jedem Punkt $P$
+\zusatzklammer {bei einem euklidischen Raum} {} {}
+das totale Differential
+\maabbdisp {\left(Df\right)_{P}} { \R^n } { \R
+} {}
+bzw.
+\zusatzklammer {bei einer Mannigfaltigkeit $M$} {} {}
+die Tangentialabbildung
+\maabbdisp {T_P(f)} {T_PM} {\R
+} {}
+zuordnet.
+
+In der eindimensionalen Differentialrechnung sind Funktionen und ihre Ableitungen bzw. Stammfunktionen gleichartige Objekte
+\zusatzklammer {dies gilt auch noch für differenzierbare Kurven} {} {,}
+aber schon bei der Einführung des totalen Differentials zu einer Funktion in mehreren Variablen war die Ableitung ein fundamental anderes Objekt als die Funktion. Zwar können entlang vorgegebener Richtungen höhere Richtungsableitungen definiert werden, die selbst wieder Funktionen sind, doch erfassen diese jeweils nur einen Teilaspekt der Ableitung der Funktion, während das totale Differential die volle Information enthält.
+
+Mit diesem wesentlichen Unterschied von Funktion und Ableitung hängt auch zusammen, dass wir uns im Höherdimensionalen noch nicht mit der umgekehrten Frage beschäftigt haben, welche Ableitungen eine Stammfunktion besitzen. Eine Funktion in mehreren Variablen kann keine Stammfunktion besitzen, nur für eine $1$-Differentialform
+\zusatzklammer {bzw. das zugehörige Vektorfeld} {} {}
+ist dies eine sinnvolle Fragestellung. Der Satz von Schwarz über die Vertauschbarkeit der Richtungsableitungen stellt dabei schon ein wichtiges notwendiges Kriterium für die Existenz einer Stammfunktion zu einer $1$-Differentialform dar.
+
+Mit der Theorie der äußeren Ableitungen findet die Frage nach Stammfunktionen bzw. Stammformen ihren natürlichen Rahmen. Darüber hinaus erlaubt sie, den Satz von Stokes prägnant zu formulieren. Ferner können mit der äußeren Ableitung wesentliche topologische Eigenschaften einer Mannigfaltigkeit charakterisiert werden, was allerdings weit über diese Vorlesung hinausgeht.
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+und es sei
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{ k } (  U   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {stetig differenzierbare}{}{}
+$k$-\definitionsverweis {Differentialform}{}{}
+mit der Darstellung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { \sum_{I \subseteq \{1 , \ldots , n \},\, { \# \left(   I  \right) } = k } f_I dx_I
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit
+\definitionsverweis {stetig differenzierbaren Funktionen}{}{}
+\maabbdisp {f_I} { U } {\R
+} {.}
+Dann nennt man die $(k+1)$-Form
+
+\mavergleichskettedisp
+{\vergleichskette
+{d \omega
+}
+{ =} { \sum_{I \subseteq \{1 , \ldots , n \},\,  { \# \left(   I  \right) } = k } df_I \wedge dx_I
+}
+{ =} { \sum_{I \subseteq \{1 , \ldots , n \},\,  { \# \left(   I  \right) } = k } \left(  \sum_{j = 1}^n { \frac{   \partial  f_I  }{  \partial   x_j   } } dx_j  \right)  \wedge dx_I
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+die \definitionswort {äußere Ableitung}{} von $\omega$.
+
+}
+
+Manchmal spricht man genauer von der $k$-ten äußeren Ableitung. Der Differenzierbarkeitsgrad der Differentialform senkt sich dabei um $1$, wie man an den Koeffizientenfunktionen direkt ablesen kann.
+
+Die äußere Ableitung ist für
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ = }{ 0 , \ldots , n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+interessant, ab
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ \geq }{ n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+handelt es sich um die Nullabbildung. Wenn man sich auf glatte Differentialformen beschränkt, so ergibt sich insgesamt eine Folge von äußeren Ableitungen, nämlich
+
+\mathdisp {C^\infty(U,\R) =
+{ \mathcal E }^{  0  }_{ \infty } (  U   ) \stackrel{d}{\longrightarrow}
+{ \mathcal E }^{  1  }_{ \infty } (  U   ) \stackrel{d}{\longrightarrow}
+{ \mathcal E }^{  2  }_{ \infty } (  U   ) \stackrel{d}{\longrightarrow} \ldots \stackrel{d}{\longrightarrow}
+{ \mathcal E }^{ n-1 }_{ \infty } (  U   ) \stackrel{d}{\longrightarrow}
+{ \mathcal E }^{  n  }_{ \infty } (  U   ) \stackrel{d}{\longrightarrow} 0} { . }
+
+An der ersten Stelle steht hier einfach die Ableitung einer Funktion
+\zusatzklammer {die einzige Indexmenge mit $0$ Elementen ist die leere Menge} {} {,}
+also die Zuordnung
+\mathl{f \mapsto df}{.}
+
+Die wichtigsten Eigenschaften der äußeren Ableitung fassen wir wie folgt zusammen.
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Differentialform/Offene Menge/Äußere Ableitung/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und es sei
+\maabbeledisp {d} {
+{ \mathcal E }^{  k  }_{ 1 } (  U   ) } {
+{ \mathcal E }^{ k+1 }_{ 0 } (  U   )
+} { \omega} { d \omega
+} {,}
+die
+\definitionsverweis {äußere Ableitung}{}{.}}
+\faktuebergang {Dann gelten folgende Eigenschaften.}
+\faktfolgerung {\aufzaehlungfuenf{Die äußere Ableitung
+\maabbdisp {d} {
+{ \mathcal E }^{  0  }_{ 1 } (  U   ) } {
+{ \mathcal E }^{  1  }_{ 0 } (  U   )
+} {,}
+ist das
+\definitionsverweis {totale Differential}{}{.}
+}{Die äußere Ableitung ist
+$\R$-\definitionsverweis {linear}{}{.}
+}{Für
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{  k  }_{ 1 } (  U   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \tau
+}
+{ \in }{
+{ \mathcal E }^{  \ell }_{ 1 } (  U   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt die Produktregel
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d( \omega \wedge \tau)
+}
+{ =} {( d \omega) \wedge \tau  + (-1)^k \omega  \wedge  (d \tau)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Für
+
+\mavergleichskette
+{\vergleichskette
+{k
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist dies als
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d( f \tau)
+}
+{ =} {( d f) \wedge \tau  +  f  d \tau
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+zu lesen.
+}{Für jede zweimal stetig differenzierbare Differentialform $\omega$ ist
+
+\mavergleichskette
+{\vergleichskette
+{ d(d \omega)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Für eine
+\definitionsverweis {stetig differenzierbare Abbildung}{}{}
+\zusatzklammer {mit
+
+\mavergleichskettek
+{\vergleichskettek
+{ W
+}
+{ \subseteq \R^m }{}
+{  }{}
+{    }{}
+{   }{}
+}
+{}{}{}
+offen} {} {}
+\maabbdisp {\psi} { W } { U
+} {}
+und jedes
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{  k  }_{ 1 } (  U   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt für die
+\definitionsverweis {zurückgezogenen Differentialformen}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{d (\psi^* \omega)
+}
+{ =} { \psi^* (d \omega)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{(1) folgt unmittelbar aus der Definition
+\zusatzklammer {die leere Menge ist die einzige relevante Indexmenge} {} {.}}
+{}
+\teilbeweis {}{}{}
+{(2). Die Linearität folgt direkt aus der Definition, der
+[[Differenzierbarkeit/K/Summe differenzierbarer Abbildungen ist differenzierbar/Fakt|Linearität]]
+des
+\definitionsverweis {totalen Differentials}{}{}
+und der
+\definitionsverweis {Multilinearität}{}{}
+des
+\definitionsverweis {äußeren Produktes}{}{.}}
+{}
+
+\teilbeweis {}{}{}
+{(3). Es seien
+\mathl{x_1 , \ldots , x_n}{} die Koordinaten auf $\R^n$. Wegen der Linearität von $d$ und der
+[[Dachprodukt/Algebrastruktur/Eigenschaften/Fakt|Multilinearität des Dachprodukts]]
+können wir die beiden Differentialformen als
+\mathkor {} {\omega=f dx_I} {und} {\tau=g dx_J} {}
+mit Indexmengen
+\mathkor {} {I=\{i_1 , \ldots , i_k\}} {und} {J=\{ j_1 , \ldots , j_\ell \}} {}
+schreiben. Es gilt dann
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ d( \omega \wedge \tau)
+}
+{ =} { d \left(  fdx_I \wedge gdx_J  \right)
+}
+{ =} { d \left(  (f g) dx_I \wedge dx_J  \right)
+}
+{ =} { \sum_{s = 1}^n { \frac{   \partial  (fg)  }{  \partial   x_s  } }  dx_s  \wedge  dx_I  \wedge dx_J
+}
+{ =} { \sum_{s = 1}^n \left(  g { \frac{   \partial   f   }{  \partial   x_s  } } + f { \frac{   \partial   g   }{  \partial   x_s  } }  \right)  dx_s \wedge  dx_I  \wedge dx_J
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \sum_{s = 1}^n  g { \frac{   \partial   f   }{  \partial   x_s  } } dx_s \wedge  dx_I \wedge dx_J + \sum_{s = 1}^n  f { \frac{   \partial   g   }{  \partial   x_s  } }  dx_s \wedge  dx_I  \wedge dx_J
+}
+{ =} { \sum_{s = 1}^n  { \frac{   \partial   f   }{  \partial   x_s  } } dx_s \wedge  dx_I \wedge gdx_J + \sum_{s = 1}^n  { \frac{   \partial   g   }{  \partial   x_s  } }  dx_s \wedge f dx_I \wedge dx_J
+}
+{ =} { d(fdx_I ) \wedge g dx_J  + \sum_{s = 1}^n (-1)^k  f dx_I \wedge { \frac{   \partial   g   }{  \partial   x_s  } }  dx_s \wedge dx_J
+}
+{ =} { d(fdx_I ) \wedge g dx_J + (-1)^k  f dx_I \wedge  d( g dx_J)
+}
+}
+{}{.}}
+{}
+
+\teilbeweis {}{}{}
+{(4). Für eine $1$-Form
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ \sum_{j = 1}^n g_jdx_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist unter Verwendung von
+
+\mavergleichskette
+{\vergleichskette
+{ dx_i \wedge dx_j
+}
+{ = }{ -dx_j \wedge dx_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\mavergleichskettealign
+{\vergleichskettealign
+{d \omega
+}
+{ =} { \sum_{j = 1 }^n  d(g_j dx_j)
+}
+{ =} { \sum_{j = 1 }^n   \left(  \sum_{i = 1}^n { \frac{   \partial  g_j   }{  \partial   x_i   } } dx_i \wedge dx_j  \right)
+}
+{ =} { \sum _{1 \leq i <j\leq n} \left(  { \frac{   \partial  g_j   }{  \partial   x_i   } } - { \frac{   \partial  g_i   }{  \partial   x_j   } }  \right) dx_i \wedge dx_j
+}
+{ } {
+}
+}
+{}
+{}{.}
+Für eine zweimal stetig differenzierbare Funktion $f$ ist
+
+\mavergleichskette
+{\vergleichskette
+{ df
+}
+{ = }{ \sum_{j = 1}^n g_j dx_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit den
+\definitionsverweis {partiellen Ableitungen}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ g_j
+}
+{ = }{ { \frac{   \partial   f   }{  \partial   x_j   } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+und daher ist
+
+\mavergleichskette
+{\vergleichskette
+{ d(df)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nach
+dem [[Differenzierbarkeit/Satz von Schwarz/Fakt|Satz von Schwarz]].
+
+Für eine Differentialform vom Grad $k$ setzen wir
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ f dx_{i_1 } \wedge \ldots \wedge dx_{i_k }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+an und erhalten
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d(d \omega)
+}
+{ =} { d (df \wedge  dx_{i_1 } \wedge \ldots \wedge dx_{i_k })
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Nach der Produktregel (3) ist dieser Ausdruck eine Summe von
+\mathl{k+1}{} Dachprodukten, bei denen jeweils ein \anfuehrung{Dachfaktor}{} die Form
+
+\mavergleichskette
+{\vergleichskette
+{ d(dg)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+besitzt.}
+{}
+
+\teilbeweis {}{}{}
+{(5). Wir schreiben
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \psi_i
+}
+{ =} { x_i \circ \psi
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Wegen der Linearität der äußeren Ableitung (2) und
+der [[Mannigfaltigkeit/Differenzierbare Abbildung/Zurückziehen von Differentialformen/Elementare Eigenschaften/Fakt|Linearität des Zurückziehens von Differentialformen]]
+kann man
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ f dx_I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ = }{ \{i_1 , \ldots , i_k\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ansetzen. Da das Zurückziehen nach
+[[Zurückziehen von Differentialformen/Verträglichkeit mit skalarer Funktion/Aufgabe|Aufgabe 14.13]]
+und
+[[Zurückziehen von Differentialformen/Dachprodukt/Aufgabe|Aufgabe 14.16]]
+mit der Multiplikation mit skalaren Funktionen und mit dem Dachprodukt verträglich ist, gilt unter Verwendung der Produktregel (3), der Regel (4) und
+der [[Totale Differenzierbarkeit/K/Kettenregel/Fakt|Kettenregel]]
+\zusatzklammer {im Sinne von
+[[Kettenregel/Verträglichkeit von Ableitung und Zurückziehen von Funktion und Differentialform/Aufgabe|Aufgabe 14.14]]} {} {}
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ d \left(  \psi^* \omega  \right)
+}
+{ =} { d \left(  \psi^* \left(  f dx_{i_1 } \wedge \ldots \wedge dx_{i_k }  \right)   \right)
+}
+{ =} { d \left(  \psi^*(f)  \psi^* \left(  dx_{i_1 } \wedge \ldots \wedge dx_{i_k }  \right)  \right)
+}
+{ =} { d \left(  \psi^*(f) \left(  \psi^* dx_{i_1 }  \right) \wedge \ldots \wedge \left(  \psi^* dx_{i_k }  \right)  \right)
+}
+{ =} { d \left(  \psi^*(f)  d \psi_{i_1 } \wedge \ldots \wedge d\psi_{i_k }  \right)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { d \left(  \psi^*(f)  \right) \wedge \left(  d \psi_{i_1 } \wedge \ldots \wedge d\psi_{i_k }   \right) + (\psi^*(f))  d \left(  d \psi_{i_1 } \wedge \ldots \wedge d\psi_{i_k }  \right)
+}
+{ =} { d \left(  \psi^*(f)  \right)  \wedge \left(  d \psi_{i_1 } \wedge \ldots \wedge d\psi_{i_k }  \right)
+}
+{ =} { \psi^* (df)  \wedge  d \psi_{i_1 } \wedge \ldots \wedge d\psi_{i_k }
+}
+{ =} { \psi^* ( df) \wedge \psi^*\left(  d x_{i_1 }  \right) \wedge \ldots \wedge \psi^*\left(  d x_{i_k }  \right)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \psi^* \left(  df \wedge  d x_{i_1 } \wedge \ldots \wedge d x_{i_k }  \right)
+}
+{ =} { \psi^* \left(  d \left(  f d x_{i_1 } \wedge \ldots \wedge d x_{i_k }  \right)   \right)
+}
+{ } {}
+{ } {}
+}{.}}
+{}
+
+}
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{.}
+Dann definiert man zu einer
+\definitionsverweis {differenzierbaren}{}{}
+\definitionsverweis {Differentialform}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{  k  }_{ 1 } (  M   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die \definitionswort {äußere Ableitung}{}
+
+\mavergleichskette
+{\vergleichskette
+{ d\omega
+}
+{ \in }{
+{ \mathcal E }^{ k+1 }_{ 0 } (  M   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+unter Bezugnahme auf den
+\definitionsverweis {lokalen Fall}{}{}
+und Karten
+\maabbdisp {\alpha} { U } { V
+} {}
+\zusatzklammer {
+\mavergleichskettek
+{\vergleichskettek
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskettek
+{\vergleichskettek
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen} {} {}
+durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (d \omega){{|}}_U
+}
+{ =} { d \left(  \omega{{|}}_U  \right)
+}
+{ =} { \alpha^* \left(  d \left(  \alpha^{-1 *} \left(  \omega {{|}}_U  \right)  \right)  \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+Man zieht also die auf $U$ eingeschränkte Differentialform nach $V$ zurück, nimmt dort die äußere Ableitung gemäß den lokalen Vorschriften und zieht das Ergebnis nach $U$ zurück. Man muss sich klar machen, dass dies eine wohldefinierte Differentialform auf $M$ ergibt, dass es also zu einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+egal ist, unter Bezug auf welche Kartenumgebung die äußere Ableitung gebildet wird. Seien also zwei Karten für $P$ gegeben, wobei wir gleich annehmen dürfen, dass ihr Definitionsbereich gleich $U$ ist. Die Karten seien
+\maabbdisp {\alpha} { U } { V
+} {}
+und
+\maabbdisp {\beta} { U } { W
+} {}
+und wir setzen
+
+\mavergleichskette
+{\vergleichskette
+{\tau
+}
+{ = }{ \omega  \vert_U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann ergibt sich, wobei wir
+[[Differentialform/Offene Menge/Äußere Ableitung/Eigenschaften/Fakt|Lemma 20.2  (5)]]
+auf
+\mathl{\alpha \circ \beta^{-1}}{} und
+\mathl{\alpha^{-1*} \tau}{} anwenden,
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \beta^* \left(  d \left(  \beta^{-1^*}(\tau)  \right)   \right)
+}
+{ =} { \left(  \beta \circ \alpha^{-1} \circ \alpha  \right)^* \left(  d \left(  \left(  \alpha^{-1} \circ \alpha  \circ \beta^{-1}  \right)^* (\tau )  \right)   \right)
+}
+{ =} {\alpha^* \left(  \beta \circ \alpha^{-1}  \right)^* \left(  d \left(  \left(  \alpha  \circ  \beta^{-1}  \right)^*  \alpha^{-1*} (\tau)  \right)   \right)
+}
+{ =} {\alpha^* \left(  d \left(  \alpha^{-1*}( \tau)  \right)   \right)
+}
+{ } {}
+}
+{}
+{}{.}
+
+Auch die grundlegenden Eigenschaften von oben übertragen sich auf Mannigfaltigkeiten.
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Differentialform/Mannigfaltigkeit/Äußere Ableitung/Eigenschaften/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und es sei
+\maabbeledisp {d} {
+{ \mathcal E }^{  k  }_{ 1 } (  M   ) } {
+{ \mathcal E }^{ k+1 }_{ 0 } (  M   )
+} { \omega} { d \omega
+} {,}
+die
+\definitionsverweis {äußere Ableitung}{}{.}}
+\faktuebergang {Dann gelten folgende Eigenschaften.}
+\faktfolgerung {\aufzaehlungfuenf{Die äußere Ableitung
+\maabbdisp {d} {
+{ \mathcal E }^{  0  }_{ 1 } (  M   ) } {
+{ \mathcal E }^{  1  }_{ 0 } (  M   )
+} {,}
+ist die
+\definitionsverweis {Tangentialabbildung}{}{.}
+}{Die äußere Ableitung ist
+$\R$-\definitionsverweis {linear}{}{.}
+}{Für
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{  k  }_{ 1 } (  M   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \tau
+}
+{ \in }{
+{ \mathcal E }^{  \ell }_{ 1 } (  M   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt die Produktregel
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d( \omega \wedge \tau)
+}
+{ =} { ( d \omega) \wedge \tau  + (-1)^k \omega \wedge d \tau
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+}{Für jede zweimal stetig differenzierbare Differentialform $\omega$ ist
+
+\mavergleichskette
+{\vergleichskette
+{ d(d \omega)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Es sei $L$ eine weitere differenzierbare Mannigfaltigkeit. Für eine
+\definitionsverweis {stetig differenzierbare Abbildung}{}{}
+\maabbdisp {\psi} { L } { M
+} {}
+und jedes
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ \in }{
+{ \mathcal E }^{  k  }_{ 1 } (  M   )
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt für die
+\definitionsverweis {zurückgezogenen Differentialformen}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d (\psi^* \omega)
+}
+{ =} { \psi^* (d \omega)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Dies sind alles lokale Aussagen, sodass sie sich aus
+[[Differentialform/Offene Menge/Äußere Ableitung/Eigenschaften/Fakt|Lemma 20.2]]
+ergeben.
+
+}
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{.}
+Eine
+\definitionsverweis {differenzierbare}{}{}
+\definitionsverweis {Differentialform}{}{}
+$\omega$ auf $M$ heißt \definitionswort {geschlossen}{,} wenn ihre
+\definitionsverweis {äußere Ableitung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ d \omega
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist.
+
+}
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{.}
+Eine
+$k$-\definitionsverweis {Differentialform}{}{}
+$\omega$ auf $M$ heißt \definitionswort {exakt}{,} wenn es eine
+\definitionsverweis {differenzierbare}{}{}
+
+\mathl{(k-1)}{-}Differentialform $\sigma$ auf $M$ mit
+
+\mavergleichskette
+{\vergleichskette
+{ d \sigma
+}
+{ = }{ \omega
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt.
+
+}
+
+Eine exakte Differentialform ist also eine Differentialform, für die es eine \stichwort {Stammform} {} $\sigma$ gibt. Mit diesen Begriffen kann man die obige Aussage
+
+\mavergleichskette
+{\vergleichskette
+{ dd
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+so formulieren, dass jede exakte Form geschlossen ist. Die Geschlossenheit ist also eine notwendige Bedingung dafür, dass es eine Stammform geben kann. Es sei hier ohne Beweis bemerkt, dass dieses notwendige Kriterium für den $\R^n$ auch hinreichend ist. Diese Äquivalenz gilt aber keineswegs auf jeder Mannigfaltigkeit.
+
+  \zwischenueberschrift{Euklidische Halbräume}
+
+\inputdefinition
+{}
+{
+
+Unter dem \definitionswort {euklidischen Halbraum}{} der \definitionswort {Dimension}{} $n$ versteht man die Menge
+
+\mavergleichskettedisp
+{\vergleichskette
+{H
+}
+{ =} { \left\{  x \in \R^n   \mid   x_1 \geq 0        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit der
+\definitionsverweis {induzierten Topologie}{}{.}
+
+}
+Bei
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist dies ein Punkt, bei
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist dies das Intervall
+\mathl{[0, \infty]}{,} bei
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ = }{ 2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+handelt es sich um eine \stichwort {Halbebene} {,} und bei
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ = }{ 3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+um einen Halbraum. Wenn man statt $1$ einen anderen Koordinatenindex oder \anfuehrung{$\leq$}{} statt \anfuehrung{$\geq$ }{} nimmt, so nennt man auch diese Objekte Halbräume. Da ein Halbraum $H$ abgeschlossen im $\R^n$ ist, ist eine Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+genau dann abgeschlossen in $H$, wenn sie abgeschlossen im $\R^n$ ist. Diese Äquivalenz gilt
+\betonung{nicht}{} für offene Mengen. Beispielsweise ist der Gesamtraum $H$ in $H$ offen, aber nicht im $\R^n$. Die Menge
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial H
+}
+{ =} { \left\{  x \in \R^n   \mid   x_1 = 0        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gehört zu $H$ und heißt der \stichwort {Rand} {} von $H$. Er ist homöomorph zu $\R^{n-1}$
+\zusatzklammer {was bei $n=0$ als leer zu interpretieren ist} {} {.}
+Mit $H_+$ bezeichnet man die positive Hälfte, also
+
+\mavergleichskette
+{\vergleichskette
+{ H_+
+}
+{ = }{ \left\{  x \in \R^n   \mid   x_1 >0        \right\}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+die eine offene Teilmenge im $\R^n$ ist.
+
+Die Halbräume bilden die Standardmodelle für die Mannigfaltigkeiten mit Rand, die wir jetzt einführen wollen. Es handelt sich dabei um eine Verallgemeinerung des Mannigfaltigkeitsbegriffes. Ein typisches Beispiel für eine Mannigfaltigkeit mit Rand ist die abgeschlossene Vollkugel; ihr Rand ist die Sphäre. Ein Punkt im Innern der Kugel besitzt eine kleinere offene Kugelumgebung, in einem solchen Punkt sieht es also \anfuehrung{lokal}{} so aus wie im $\R^3$. Ein Punkt auf dem Rand der Kugel besitzt nicht eine solche Umgebung, sondern in jeder offenen Umgebung davon ist der Rand gegenwärtig; ein solcher Randpunkt sieht lokal wie ein Randpunkt eines euklidischen Halbraumes aus.
+
+Die Karten einer Mannigfaltigkeit mit Rand werden offene Mengen in einem Halbraum sein. Für die Übergangsabbildungen müssen wir daher von differenzierbaren Abbildungen, die auf Halbräumen definiert sind, sprechen können. Dies ermöglicht die folgende Definition.
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {offene Teilmenge}{}{}
+in einem
+\definitionsverweis {euklidischen Halbraum}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ H
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sei ein Punkt und es sei
+\maabbdisp {\varphi} { U } {\R^m
+} {}
+eine
+\definitionsverweis {Abbildung}{}{.}
+Dann heißt $\varphi$ \definitionswort {stetig differenzierbar}{} in $P$, wenn es eine offene Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ V
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und eine
+\definitionsverweis {stetig differenzierbare}{}{}
+Funktion
+\maabbdisp {\tilde{\varphi}} { V } {\R^m
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ \tilde{\varphi} {{|}}_{U \cap V}
+}
+{ = }{\varphi {{|}}_{U \cap V}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt.
+
+}
+Der neue Differenzierbarkeitsbegriff wird also auf den alten zurückgeführt. Für eine offene Menge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+die den Rand von $H$ nicht trifft, ist dies gleichbedeutend mit der Definition für eine offene Menge im $\R^n$.
+
+Mit dieser Strategie, Begriffe für Randpunkte über die Existenz von offenen Umgebungen mit fortgesetzten Objekten zu definieren, übertragen sich viele wichtige Konzepte auf die neue allgemeinere Situation, was wir nicht immer im Einzelnen ausführen werden. Beispielsweise ist klar, was ein \stichwort {Diffeomorphismus} {} von offenen Mengen im Halbraum und was das totale Differential einer differenzierbaren Abbildung ist. Auch die Definition einer Mannigfaltigkeit mit Rand ist vor diesem Hintergrund nicht überraschend.
+
+ [[Kategorie:Latexseite]]

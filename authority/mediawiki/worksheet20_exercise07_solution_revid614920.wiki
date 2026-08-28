@@ -1,0 +1,10 @@
+Zeige zuerst dw ist geschlossen also dw=0
+
+dw=-cos(y)dy^dx-cos(y)dx^dy
+  =-cos(y)dy^dx+cos(y)dy^dx
+  =0
+
+=> w ist geschlossen
+
+w geschlossen + ℝ^2 Sternförmig
+=> w ist exakt

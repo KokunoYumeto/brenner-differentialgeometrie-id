@@ -1,0 +1,22 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es ist
+{{
+Relationskette/align
+| d \omega
+|| xe^{xz} dz \wedge d x \wedge dy - xzdy \wedge dx \wedge dz  -y {{op:sin|(xy)|}}  {{op:cos|( {{op:cos|(xy)|}} )|}}  dx \wedge dy \wedge dz
+||  {{makl| xe^{xz} +xz  -y {{op:sin|(xy)|}}  {{op:cos|( {{op:cos|(xy)|}} )|}} |}} dx \wedge dy \wedge dz
+||
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

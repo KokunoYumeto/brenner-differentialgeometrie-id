@@ -1,0 +1,192 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblattgestaltung|20|
+
+{{Zwischenüberschrift|Übungsaufgaben}}
+
+{{
+inputaufgabe
+|Äußere Ableitung/(x^2-y^3)dx+x^3y^2dy/Bestimme/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Äußere Ableitung/xy^2dx+yzdy+x^3dz/Bestimme/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Äußere Ableitung/x^2 durch y dx- x durch y^2 dy/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Äußere Ableitung/e^(xz)dx wedge dy -xyz dx wedge dz + (sin (cos (xy))+y^(10)z^(100))/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Äußere Ableitung/sin^3(t^4) durch 1+t^2/Und dt/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Äußere Ableitung/xdxdy+xy^2zdydz+xe^ydxdz/Bestimme/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|(2x-siny)dx-xcosydy/Geschlossen und exakt/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Offene Teilmenge/R^n/Differentialform ersten Grades/Geschlossen/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|1-Form/Vektorfeld/Geschlossen gdw Integrabilitätsbedingung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|1-Form/Vektorfeld/Exakt gdw Gradientenfeld/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Differentialform/Rückzug/Exakt und geschlossen/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+Für die folgenden Aufgaben vergleiche
+{{
+Beispiellink
+|Beispielseitenname=
+Vektorfeld/(x,y) nach (-y,x)/Nicht integrabel/Beispiel
+|Nr=
+|SZ=
+}}
+und
+{{
+Beispiellink
+|Beispielseitenname=
+Vektorfeld/Punktierte Ebene/(x,y) nach (-y,x) durch x^2+y^2/Integrabel nicht exakt/Beispiel
+|Nr=
+|SZ=.
+}}
+
+{{
+inputaufgabe
+|Vektorfeld/(x,y) nach (-y,x)/Nicht integrabel/Formversion/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Vektorfeld/Punktierte Ebene/(x,y) nach (-y,x) durch x^2+y^2/Integrabel nicht exakt/Formversion/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Offene Menge/R^n/n-Form/Exakt/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|1-Form/Mannigfaltigkeit/Exakt gdw Wegintegrale endpunktabhängig/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Differenzierbare Mannigfaltigkeit/Differenzierbare Abbildung/Rückzug einer volldimensionalen Form/Geschlossen/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|R_+ definierte Funktionen/Differenzierbare Fortsetzung nach 0/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Halbraum/In R^n offene Umgebung/Kein Randpunkt/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Halbräume/Übertragung von Begriffen/Diffeomorphismus, Totales Differential, Höhere Ableitung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{Zwischenüberschrift|Aufgaben zum Abgeben}}
+
+{{
+inputaufgabe
+|Äußere Ableitung/xy^2z^3dx+xyzdy+x^3yz^4dz/Bestimme/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Äußere Ableitung/xy^2dxdy+(x^3-y^2z^4)dydz+sin(xy)dxdz/Bestimme/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Differentialform/Äußere Ableitung/Mehrfaches Dachprodukt/Formel/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|(2xy+3x^2-ye^(xy))dx+(x^2-xe^(xy)+8y)dy/Geschlossen und exakt/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Halbebene und Quadrant/Homöomorph/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+}}

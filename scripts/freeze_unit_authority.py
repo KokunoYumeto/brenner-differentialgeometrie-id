@@ -493,14 +493,32 @@ def freeze_solution_closure(
     }
     query_bytes, query_receipt = fetch_frozen_api(query_path, WIKIVERSITY_API, parameters)
     payload = json.loads(query_bytes.decode("utf-8"))
-    pages = payload.get("query", {}).get("pages", [])
+    query = payload.get("query", {})
+    pages = query.get("pages", [])
     pages_by_title = {page["title"]: page for page in pages}
     expected = {str(item["solution_title"]) for item in exercises}
-    if set(pages_by_title) != expected:
+    title_aliases: dict[str, str] = {}
+    for key in ("normalized", "converted", "redirects"):
+        for item in query.get(key, []):
+            if isinstance(item, dict) and isinstance(item.get("from"), str) and isinstance(item.get("to"), str):
+                title_aliases[item["from"]] = item["to"]
+
+    def resolved_title(title: str) -> str:
+        seen: set[str] = set()
+        while title in title_aliases:
+            if title in seen:
+                raise RuntimeError(f"cyclic MediaWiki title normalization for {title!r}")
+            seen.add(title)
+            title = title_aliases[title]
+        return title
+
+    resolved_expected = {title: resolved_title(title) for title in expected}
+    canonical_expected = set(resolved_expected.values())
+    if set(pages_by_title) != canonical_expected:
         raise RuntimeError(
             "solution query title closure mismatch: "
-            f"missing={sorted(expected - set(pages_by_title))}; "
-            f"extra={sorted(set(pages_by_title) - expected)}"
+            f"missing={sorted(canonical_expected - set(pages_by_title))}; "
+            f"extra={sorted(set(pages_by_title) - canonical_expected)}"
         )
 
     supplied_expansions: list[dict[str, Any]] = []
@@ -509,9 +527,15 @@ def freeze_solution_closure(
     for exercise in exercises:
         index = int(exercise["exercise_index"])
         title = str(exercise["solution_title"])
-        page = pages_by_title[title]
+        canonical_title = resolved_expected[title]
+        page = pages_by_title[canonical_title]
         exists = "missing" not in page
-        row = {**exercise, "exists": exists}
+        row = {
+            **exercise,
+            "resolved_solution_title": canonical_title,
+            "title_normalized_by_mediawiki": canonical_title != title,
+            "exists": exists,
+        }
         if exists:
             api_existing_indices.add(index)
             revisions = page.get("revisions") or []
@@ -540,7 +564,8 @@ def freeze_solution_closure(
                 "query_response_sha256": sha(query_bytes),
                 "pageid": page["pageid"],
                 "namespace": page["ns"],
-                "title": title,
+                "requested_title": title,
+                "title": canonical_title,
                 "revid": revision["revid"],
                 "parentid": revision["parentid"],
                 "timestamp": revision["timestamp"],
@@ -565,12 +590,13 @@ def freeze_solution_closure(
             output_path = root / "authority/expanded" / f"worksheet{unit:02d}_exercise{index:02d}_solution_source.de.tex"
             sanitize_path = root / f"qa/unit-{unit:02d}" / f"worksheet{unit:02d}_exercise{index:02d}_solution_sanitize.json"
             expansion = freeze_expansion(
-                root, response_path, output_path, sanitize_path, title + "/latex"
+                root, response_path, output_path, sanitize_path, canonical_title + "/latex"
             )
             supplied_expansions.append(
                 {
                     "exercise_index": index,
                     "solution_title": title,
+                    "resolved_solution_title": canonical_title,
                     "expansion": expansion,
                 }
             )

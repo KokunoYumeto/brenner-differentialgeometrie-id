@@ -1,0 +1,49 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Wir können die Form als
+{{
+Relationskette/display
+| \omega
+|| h(x_1 {{kommadots|}} x_n) dx_1 {{wedgedots|}} dx_n
+||
+||
+||
+|SZ=
+}}
+mit einer stetigen Funktion
+{{
+Abbildung/display
+|name=h
+| U |\R
+||
+|SZ=
+}}
+schreiben, wobei die {{mathl|term= x_1 {{kommadots|}} x_n |SZ=}} die Koordinaten des {{math|term= \R^n |SZ=}} bezeichnet. Zu jedem fixierten Tupel {{math|term= (x_1 {{kommadots|}} x_{i-1},x_{i+1} {{kommadots|}} x_n) |SZ=}} hängt die eingeschränkte Abbildung {{mathl|term= h_i(x_1 {{kommadots|}} x_{i-1},-,x_{i+1} {{kommadots|}} x_n) |SZ=}} nur von {{math|term= x_i |SZ=}} ab. Da {{math|term= h_i |SZ=}} stetig ist, gibt es eine Stammfunktion {{mathl|term= H_i(x_1 {{kommadots|}} x_{i-1},-,x_{i+1} {{kommadots|}} x_n) |SZ=.}} Deren partielle Ableitung nach {{math|term= x_i |SZ=}} ist gerade {{math|term= h_i |SZ=}} 
+
+{{
+Math/display|term=
+\sum_{i {{=}} 1}^n (-1)^{i} H_i dx_1 {{wedgedots|}}  dx_{i-1} \wedge d x_{i+1} {{wedgedots|}}  dx_n
+|SZ=
+}}
+
+
+{{
+Relationskette/display
+| 
+||
+||
+||
+||
+|SZ=
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=unfertig
+}}
