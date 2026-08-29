@@ -888,3 +888,32 @@ The old GitHub `v1.0.0` and Zenodo record `22160677` remain untouched as
 historical witnesses. The exact next action is to commit and push this candidate,
 publish GitHub `v1.0.1` and a successor in Zenodo concept `22059977`, then
 anonymously download and hash all seven public files in each lineage.
+
+## Corrective r1 published and independently read back — 2026-08-29
+
+The correction is public in both existing lineages. GitHub commit
+`86d91eec7b95bc0fd814f649d93b587208f89f5d`, annotated tag `v1.0.1`, and
+release ID `378967378` are public at
+`https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v1.0.1`.
+Because the shared anonymous REST quota was exhausted, the independent verifier
+used no credential and instead resolved the public annotated Git ref and its
+peeled commit, inspected the public release and expanded-asset pages, verified
+the latest-release redirect, and directly downloaded all seven assets. All
+87,438,798 bytes matched. Publication and readback receipt SHA-256 values are
+`5f855786902aa5a5b32aac260c49fa36fc36c79704bbdc4d1732898912cc72fc`
+and
+`7a45c5c54b75c41153a4e8b73089b055a76043fe42a61a3026829ab4972dbe65`.
+
+The same seven files are public in Zenodo concept `22059977` at record
+`22161090`, DOI `10.5281/zenodo.22161090`, with the corrected PDF as default
+preview. The independent anonymous verifier confirmed the exact successor
+chain from record `22160677`, public access, metadata, file order, filenames,
+MD5/SHA-256 identities, and all 87,438,798 downloaded bytes. Publication and
+readback receipt SHA-256 values are
+`f4944bdf153e5a226a4b9a032f24503c011c84b457905ad9f506a0d7b93bc604`
+and
+`2251de901c45ccff6d1d5e93a7124e36992f723de6ed8d0649646d3fbcdb709e`.
+
+The terminal condition is now satisfied with the title/scope defect corrected.
+All selected translation, reader, backend, rights, reproducibility,
+publication, and anonymous-byte-verification work is complete.

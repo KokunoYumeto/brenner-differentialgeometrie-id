@@ -2342,3 +2342,27 @@ both clean cycles match. The structural receipt has zero blockers and SHA-256
 The 87,438,798-byte r1 payload passed two independent offline rebuild/restage
 cycles; its integrity receipt SHA-256 is
 `1a943744f3a96786f88c61396f9a6102fc66c07eb697fdd3b7fa90b3bf011221`.
+
+## D101 — Publish the corrective successors and close O011 (2026-08-29)
+
+**Decision:** Admit the corrected r1 package after both public lineages return
+all seven exact files. GitHub's exhausted shared anonymous REST quota is not a
+publication or readback blocker: use the credential-free public Git protocol
+to resolve the annotated tag and peeled commit, public web pages to establish
+the release/asset inventory and latest redirect, and direct unauthenticated
+downloads to prove every byte. Keep the original `v1.0.0` and Zenodo
+`22160677` releases public and immutable. Close the goal only after the GitHub
+and Zenodo successor receipts are persisted and pushed.
+
+**Evidence:** GitHub `v1.0.1` is release `378967378` at commit
+`86d91eec7b95bc0fd814f649d93b587208f89f5d`; publication/readback receipt
+SHA-256 values are
+`5f855786902aa5a5b32aac260c49fa36fc36c79704bbdc4d1732898912cc72fc`
+and
+`7a45c5c54b75c41153a4e8b73089b055a76043fe42a61a3026829ab4972dbe65`.
+Zenodo record `22161090`, DOI `10.5281/zenodo.22161090`, succeeds exact record
+`22160677`; publication/readback receipt SHA-256 values are
+`f4944bdf153e5a226a4b9a032f24503c011c84b457905ad9f506a0d7b93bc604`
+and
+`2251de901c45ccff6d1d5e93a7124e36992f723de6ed8d0649646d3fbcdb709e`.
+Each lineage exposed all seven files and 87,438,798 exact bytes.

@@ -6,8 +6,13 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import hashlib
+import html
 import json
+import os
+import ssl
+import subprocess
 import urllib.parse
+import urllib.request
 from pathlib import Path
 from typing import Any
 
@@ -39,6 +44,145 @@ from github_complete_common import (
     stream_identity,
     write_once,
 )
+
+
+def public_web_get(url: str, label: str) -> tuple[str, bytes]:
+    if not url.startswith(f"{REPOSITORY_URL}/") or "access_token=" in url.lower():
+        fail(f"unsafe public GitHub web URL for {label}")
+    opener = urllib.request.build_opener(
+        urllib.request.ProxyHandler({}),
+        urllib.request.HTTPSHandler(context=ssl.create_default_context()),
+    )
+    request = urllib.request.Request(
+        url,
+        headers={"Accept": "text/html", "User-Agent": "O011-complete-github-web-readback/1.0"},
+        method="GET",
+    )
+    try:
+        with opener.open(request, timeout=180) as response:
+            if response.status != 200:
+                fail(f"public GitHub web read returned HTTP {response.status} for {label}")
+            return response.geturl(), response.read()
+    except (urllib.error.URLError, TimeoutError, OSError):
+        fail(f"public GitHub web read failed for {label}")
+
+
+def anonymous_tag_refs(expected_commit: str, publication: dict[str, Any]) -> dict[str, str]:
+    environment = os.environ.copy()
+    environment["GIT_TERMINAL_PROMPT"] = "0"
+    command = [
+        "git",
+        "-c",
+        "credential.helper=",
+        "ls-remote",
+        "--tags",
+        f"{REPOSITORY_URL}.git",
+        f"refs/tags/{TAG}",
+        f"refs/tags/{TAG}^{{}}",
+    ]
+    try:
+        completed = subprocess.run(
+            command,
+            env=environment,
+            stdin=subprocess.DEVNULL,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            timeout=180,
+            check=False,
+            shell=False,
+        )
+    except (OSError, subprocess.TimeoutExpired):
+        fail("anonymous Git tag read failed")
+    if completed.returncode != 0:
+        fail("anonymous Git tag read returned a nonzero status")
+    refs: dict[str, str] = {}
+    for line in completed.stdout.splitlines():
+        fields = line.split("\t", 1)
+        if len(fields) == 2:
+            refs[fields[1]] = fields[0].lower()
+    expected_refs = {
+        f"refs/tags/{TAG}": str(publication.get("tag_object_sha", "")).lower(),
+        f"refs/tags/{TAG}^{{}}": expected_commit,
+    }
+    if refs != expected_refs:
+        fail("anonymous Git tag and dereferenced commit differ from the publication proof")
+    return refs
+
+
+def direct_web_release(
+    expected_commit: str,
+    plan: ReleasePlan,
+    publication: dict[str, Any],
+) -> tuple[dict[str, Any], list[dict[str, Any]]]:
+    refs = anonymous_tag_refs(expected_commit, publication)
+    release_url = f"{REPOSITORY_URL}/releases/tag/{TAG}"
+    resolved_release_url, release_bytes = public_web_get(release_url, "release page")
+    release_text = html.unescape(release_bytes.decode("utf-8", errors="replace"))
+    if resolved_release_url != release_url or RELEASE_TITLE not in release_text or TAG not in release_text:
+        fail("public GitHub release page title or tag differs")
+
+    expanded_url = f"{REPOSITORY_URL}/releases/expanded_assets/{TAG}"
+    resolved_expanded_url, expanded_bytes = public_web_get(expanded_url, "expanded asset inventory")
+    expanded_text = html.unescape(expanded_bytes.decode("utf-8", errors="replace"))
+    if resolved_expanded_url != expanded_url:
+        fail("public GitHub expanded-asset URL redirected unexpectedly")
+    for name in EXPECTED_ORDER:
+        download_path = (
+            f"/{OWNER}/{REPOSITORY}/releases/download/{urllib.parse.quote(TAG, safe='')}/"
+            f"{urllib.parse.quote(name, safe='')}"
+        )
+        if expanded_text.count(download_path) != 1 or expanded_text.count(name) < 1:
+            fail(f"public GitHub expanded inventory differs for {name}")
+
+    latest_url = f"{REPOSITORY_URL}/releases/latest"
+    resolved_latest_url, _ = public_web_get(latest_url, "latest release redirect")
+    if resolved_latest_url != release_url:
+        fail(f"{TAG} is not the latest public GitHub release")
+
+    publication_assets = publication.get("assets")
+    if not isinstance(publication_assets, list):
+        fail("publication receipt lacks the exact asset proof")
+    by_name = {
+        str(item.get("name")): item
+        for item in publication_assets
+        if isinstance(item, dict) and isinstance(item.get("name"), str)
+    }
+    if set(by_name) != set(EXPECTED_ORDER):
+        fail("publication receipt asset set differs before direct readback")
+    verified: list[dict[str, Any]] = []
+    for name in EXPECTED_ORDER:
+        wanted = plan.expected[name]
+        actual = stream_identity(
+            f"{REPOSITORY_URL}/releases/download/{urllib.parse.quote(TAG, safe='')}/{urllib.parse.quote(name, safe='')}",
+            name,
+            int(wanted["bytes"]),
+        )
+        if actual != {"bytes": wanted["bytes"], "sha256": wanted["sha256"]}:
+            fail(f"anonymous direct GitHub bytes differ for {name}")
+        item = by_name[name]
+        verified.append(
+            {
+                "name": name,
+                "asset_id": item.get("asset_id"),
+                "bytes": actual["bytes"],
+                "sha256": actual["sha256"],
+                "github_digest": item.get("github_digest"),
+                "download_url": f"{REPOSITORY_URL}/releases/download/{TAG}/{name}",
+                "matches_local_release_contract": True,
+            }
+        )
+    return {
+        "tag_object_sha": refs[f"refs/tags/{TAG}"],
+        "tag_commit": refs[f"refs/tags/{TAG}^{{}}"],
+        "release_url": release_url,
+        "release_id": publication.get("release_id"),
+        "release_page_bytes": len(release_bytes),
+        "expanded_asset_page_bytes": len(expanded_bytes),
+        "latest_release_redirect_verified": True,
+    }, verified
 
 
 def publication_receipt_ok(
@@ -301,16 +445,30 @@ def run(args: argparse.Namespace) -> int:
     )
     publication = publication_receipt_ok(publication_path, expected_commit, plan)
 
-    client = GitHubClient(token=None, user_agent="O011-complete-github-public-readback/1.0")
-    repository = public_repository_state(
-        client,
-        expected_commit,
-        str(publication["predecessor_commit"]),
-        str(publication["tag_object_sha"]),
-    )
-    if repository["default_branch"] != publication["remote_default_branch"]:
-        fail("public default branch differs from the publication proof")
-    release, files, observed_order = public_release(client, expected_commit, plan, publication)
+    if args.direct_web:
+        web, files = direct_web_release(expected_commit, plan, publication)
+        repository = {
+            "tag_object_sha": web["tag_object_sha"],
+            "predecessor_commit": publication["predecessor_commit"],
+            "default_branch": publication["remote_default_branch"],
+        }
+        release = {"id": web["release_id"], "html_url": web["release_url"]}
+        observed_order = EXPECTED_ORDER.copy()
+        verification_route = "credential_free_git_refs_public_web_pages_and_direct_asset_downloads"
+        route_proof: dict[str, Any] = web
+    else:
+        client = GitHubClient(token=None, user_agent="O011-complete-github-public-readback/1.0")
+        repository = public_repository_state(
+            client,
+            expected_commit,
+            str(publication["predecessor_commit"]),
+            str(publication["tag_object_sha"]),
+        )
+        if repository["default_branch"] != publication["remote_default_branch"]:
+            fail("public default branch differs from the publication proof")
+        release, files, observed_order = public_release(client, expected_commit, plan, publication)
+        verification_route = "credential_free_github_rest_api_and_direct_asset_downloads"
+        route_proof = {"anonymous_rest_api_used": True}
 
     receipt = {
         "schema_version": 1,
@@ -318,6 +476,9 @@ def run(args: argparse.Namespace) -> int:
         "status": "pass",
         "verified_at_utc": dt.datetime.now(dt.timezone.utc).isoformat(),
         "authentication_used": False,
+        "verification_route": verification_route,
+        "anonymous_rest_api_used": not args.direct_web,
+        "route_proof": route_proof,
         "repository": REPOSITORY_URL,
         "repository_public": True,
         "tag": TAG,
@@ -369,6 +530,11 @@ def main() -> int:
     parser.add_argument("--expected-commit", required=True)
     parser.add_argument("--metadata", type=Path, default=DEFAULT_METADATA)
     parser.add_argument("--receipt", type=Path, default=DEFAULT_READBACK_RECEIPT)
+    parser.add_argument(
+        "--direct-web",
+        action="store_true",
+        help="avoid the shared anonymous REST quota; verify public Git refs, web pages, and direct bytes",
+    )
     args = parser.parse_args()
     try:
         return run(args)

@@ -1,0 +1,95 @@
+{
+  "all_downloaded_bytes_sha256_md5_match": true,
+  "authentication_used": false,
+  "concept_doi": "10.5281/zenodo.22059977",
+  "concept_record_id": 22059977,
+  "doi": "10.5281/zenodo.22161090",
+  "expected_reader_first_order": [
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260829.zip",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-r1-20260829.zip",
+    "LICENSE.md",
+    "RELEASE_NOTES_COMPLETE_R1_20260829.md",
+    "FILE_MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "file_count": 7,
+  "files": [
+    {
+      "bytes": 10524618,
+      "download_url": "https://zenodo.org/api/records/22161090/files/geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf/content",
+      "md5": "38d140f7e605d7bffdea04103b4a2887",
+      "name": "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+      "sha256": "e0b416d91dfa8de4d5fbf7d84add34cfb3b57adde4645f60c4bc0a0609f5bd2f"
+    },
+    {
+      "bytes": 7753152,
+      "download_url": "https://zenodo.org/api/records/22161090/files/geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260829.zip/content",
+      "md5": "2a09941f55097a7623bc52095eef4745",
+      "name": "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260829.zip",
+      "sha256": "65ce76d031baea3e049df09218963c187615f25e324bcfd48216afd5fd8cb5e5"
+    },
+    {
+      "bytes": 69154138,
+      "download_url": "https://zenodo.org/api/records/22161090/files/geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-r1-20260829.zip/content",
+      "md5": "e8e363228e35fdd5e5f7ce7b6278d760",
+      "name": "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-r1-20260829.zip",
+      "sha256": "94bdc7c1f9ceec599daf59c0d303721be009a140d5a7bd5f794ac8887b935ae3"
+    },
+    {
+      "bytes": 2541,
+      "download_url": "https://zenodo.org/api/records/22161090/files/LICENSE.md/content",
+      "md5": "b1574dd54b73f8049b24b54db0b8e4be",
+      "name": "LICENSE.md",
+      "sha256": "a94ce827c5d341484525e056d4f6c69649cbc676cf454198b574cc6fe5922691"
+    },
+    {
+      "bytes": 2038,
+      "download_url": "https://zenodo.org/api/records/22161090/files/RELEASE_NOTES_COMPLETE_R1_20260829.md/content",
+      "md5": "c9a4ff277baa49ee27418745f20db700",
+      "name": "RELEASE_NOTES_COMPLETE_R1_20260829.md",
+      "sha256": "bdb8ca8c75c9c1d85cdd9b3c4f0dea2b887a7ef9495904d7edeb703f66feebfd"
+    },
+    {
+      "bytes": 1641,
+      "download_url": "https://zenodo.org/api/records/22161090/files/FILE_MANIFEST.json/content",
+      "md5": "7fa6347df50beae8dea417cfdc53e347",
+      "name": "FILE_MANIFEST.json",
+      "sha256": "29efcb5ef69ba5e0e7a1b09bff4a1f36ad89e3140395c1c6d19a482067d8bd3d"
+    },
+    {
+      "bytes": 670,
+      "download_url": "https://zenodo.org/api/records/22161090/files/SHA256SUMS.txt/content",
+      "md5": "7a9619d01bcc8211a1e8d2d963408af0",
+      "name": "SHA256SUMS.txt",
+      "sha256": "c39146003aa70cef92bc1abd4923fc996d710e17a942e52c5d3546f71d0cacf8"
+    }
+  ],
+  "files_access": "public",
+  "latest_in_concept": true,
+  "metadata_contract_verified": true,
+  "pdf_default_preview": "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+  "pdf_default_preview_verified": true,
+  "predecessor_record_id": 22160677,
+  "preparation_receipt_sha256": "31230e50c1fe2343d0306eb91ff9780e07fd0de130aff4cf0d849f10b535caab",
+  "publication_receipt_sha256": "f4944bdf153e5a226a4b9a032f24503c011c84b457905ad9f506a0d7b93bc604",
+  "rdm_file_order": [
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+    "SHA256SUMS.txt",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-r1-20260829.zip",
+    "LICENSE.md",
+    "RELEASE_NOTES_COMPLETE_R1_20260829.md",
+    "FILE_MANIFEST.json",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260829.zip"
+  ],
+  "record_access": "public",
+  "record_id": 22161090,
+  "record_status": "published",
+  "record_url": "https://zenodo.org/records/22161090",
+  "schema_version": 1,
+  "status": "pass",
+  "total_bytes": 87438798,
+  "verified_at_utc": "2026-08-29T11:48:47.836277+00:00",
+  "version": "2026.08.29-complete-r1",
+  "workflow": "o011-independent-zenodo-complete-public-readback-v1"
+}

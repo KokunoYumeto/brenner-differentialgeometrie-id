@@ -1,0 +1,123 @@
+{
+  "all_anonymous_downloaded_bytes_sha256_match": true,
+  "anonymous_rest_api_used": false,
+  "authentication_used": false,
+  "commit": "86d91eec7b95bc0fd814f649d93b587208f89f5d",
+  "expected_public_file_order": [
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260829.zip",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-r1-20260829.zip",
+    "LICENSE.md",
+    "RELEASE_NOTES_COMPLETE_R1_20260829.md",
+    "FILE_MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "file_count": 7,
+  "predecessor_commit": "d6f21e46c10a3562a42e1c7a3cc5c4ea1c0f855d",
+  "predecessor_tag": "v1.0.0",
+  "public_api_asset_order": [
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260829.zip",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-r1-20260829.zip",
+    "LICENSE.md",
+    "RELEASE_NOTES_COMPLETE_R1_20260829.md",
+    "FILE_MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "public_files": [
+    {
+      "asset_id": 535151070,
+      "bytes": 10524618,
+      "download_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/download/v1.0.1/geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+      "github_digest": "sha256:e0b416d91dfa8de4d5fbf7d84add34cfb3b57adde4645f60c4bc0a0609f5bd2f",
+      "matches_local_release_contract": true,
+      "name": "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+      "sha256": "e0b416d91dfa8de4d5fbf7d84add34cfb3b57adde4645f60c4bc0a0609f5bd2f"
+    },
+    {
+      "asset_id": 535151100,
+      "bytes": 7753152,
+      "download_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/download/v1.0.1/geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260829.zip",
+      "github_digest": "sha256:65ce76d031baea3e049df09218963c187615f25e324bcfd48216afd5fd8cb5e5",
+      "matches_local_release_contract": true,
+      "name": "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260829.zip",
+      "sha256": "65ce76d031baea3e049df09218963c187615f25e324bcfd48216afd5fd8cb5e5"
+    },
+    {
+      "asset_id": 535151111,
+      "bytes": 69154138,
+      "download_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/download/v1.0.1/geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-r1-20260829.zip",
+      "github_digest": "sha256:94bdc7c1f9ceec599daf59c0d303721be009a140d5a7bd5f794ac8887b935ae3",
+      "matches_local_release_contract": true,
+      "name": "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-r1-20260829.zip",
+      "sha256": "94bdc7c1f9ceec599daf59c0d303721be009a140d5a7bd5f794ac8887b935ae3"
+    },
+    {
+      "asset_id": 535151246,
+      "bytes": 2541,
+      "download_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/download/v1.0.1/LICENSE.md",
+      "github_digest": "sha256:a94ce827c5d341484525e056d4f6c69649cbc676cf454198b574cc6fe5922691",
+      "matches_local_release_contract": true,
+      "name": "LICENSE.md",
+      "sha256": "a94ce827c5d341484525e056d4f6c69649cbc676cf454198b574cc6fe5922691"
+    },
+    {
+      "asset_id": 535151262,
+      "bytes": 2038,
+      "download_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/download/v1.0.1/RELEASE_NOTES_COMPLETE_R1_20260829.md",
+      "github_digest": "sha256:bdb8ca8c75c9c1d85cdd9b3c4f0dea2b887a7ef9495904d7edeb703f66feebfd",
+      "matches_local_release_contract": true,
+      "name": "RELEASE_NOTES_COMPLETE_R1_20260829.md",
+      "sha256": "bdb8ca8c75c9c1d85cdd9b3c4f0dea2b887a7ef9495904d7edeb703f66feebfd"
+    },
+    {
+      "asset_id": 535151279,
+      "bytes": 1641,
+      "download_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/download/v1.0.1/FILE_MANIFEST.json",
+      "github_digest": "sha256:29efcb5ef69ba5e0e7a1b09bff4a1f36ad89e3140395c1c6d19a482067d8bd3d",
+      "matches_local_release_contract": true,
+      "name": "FILE_MANIFEST.json",
+      "sha256": "29efcb5ef69ba5e0e7a1b09bff4a1f36ad89e3140395c1c6d19a482067d8bd3d"
+    },
+    {
+      "asset_id": 535151294,
+      "bytes": 670,
+      "download_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/download/v1.0.1/SHA256SUMS.txt",
+      "github_digest": "sha256:c39146003aa70cef92bc1abd4923fc996d710e17a942e52c5d3546f71d0cacf8",
+      "matches_local_release_contract": true,
+      "name": "SHA256SUMS.txt",
+      "sha256": "c39146003aa70cef92bc1abd4923fc996d710e17a942e52c5d3546f71d0cacf8"
+    }
+  ],
+  "publication_receipt_sha256": "5f855786902aa5a5b32aac260c49fa36fc36c79704bbdc4d1732898912cc72fc",
+  "release_draft": false,
+  "release_id": 378967378,
+  "release_latest": true,
+  "release_metadata_sha256": "db1ce3041cee60c4d91b02c2304092eeedf4410b354de424652c7a01fe522ff2",
+  "release_prerelease": false,
+  "release_title": "Geometri Diferensial dan Manifold Mulus \u2014 Edisi Lengkap Bahasa Indonesia (v1.0.1)",
+  "release_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v1.0.1",
+  "remote_default_branch": "main",
+  "repository": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id",
+  "repository_public": true,
+  "route_proof": {
+    "expanded_asset_page_bytes": 33442,
+    "latest_release_redirect_verified": true,
+    "release_id": 378967378,
+    "release_page_bytes": 204362,
+    "release_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v1.0.1",
+    "tag_commit": "86d91eec7b95bc0fd814f649d93b587208f89f5d",
+    "tag_object_sha": "8aeddf08a3cd7fbb3d4df2ae9db1fb2db6205301"
+  },
+  "schema_version": 1,
+  "status": "pass",
+  "strict_descendant_of_predecessor": true,
+  "tag": "v1.0.1",
+  "tag_kind": "annotated",
+  "tag_object_sha": "8aeddf08a3cd7fbb3d4df2ae9db1fb2db6205301",
+  "total_bytes": 87438798,
+  "verification_route": "credential_free_git_refs_public_web_pages_and_direct_asset_downloads",
+  "verified_at_utc": "2026-08-29T11:47:10.114595+00:00",
+  "version": "2026.08.29-complete-r1",
+  "workflow": "o011-independent-github-complete-public-readback-v1"
+}
