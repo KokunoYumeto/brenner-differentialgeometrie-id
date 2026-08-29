@@ -270,9 +270,12 @@ def read_token(path: Path) -> str:
     except (OSError, UnicodeError):
         fail("unable to read the GitHub token file")
     candidates = list(dict.fromkeys(match.group(0) for match in TOKEN_RE.finditer(raw)))
-    if len(candidates) != 1:
-        fail("GitHub token file does not contain exactly one usable GitHub credential")
-    return candidates[0]
+    fine_grained = [token for token in candidates if token.startswith("github_pat_")]
+    if len(fine_grained) == 1:
+        return fine_grained[0]
+    if len(candidates) == 1:
+        return candidates[0]
+    fail("GitHub token file does not contain one unambiguous usable GitHub credential")
 
 
 def authenticated_preflight(client: GitHubClient, expected_commit: str) -> dict[str, Any]:
