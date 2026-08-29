@@ -1,0 +1,106 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+{{
+Aufzählung5
+|Es ist
+{{
+Relationskette/align
+| \Psi_Q(0)
+|| {{op:Zeilenvektor| {{op:cos| 0|}} | {{op:sin| 0|}} | M(0) {{op:Spaltenvektor| a |b}} }} 
+|| {{op:Zeilenvektor| 1 | 0 | {{op:Matrix22|  1 | 0 | 0  | 1 |}}    {{op:Spaltenvektor| a |b}} }}  
+|| {{op:Zeilenvektor| 1 | 0 |   {{op:Spaltenvektor| a |b}} }}
+|| 
+|SZ=.
+}}
+|Es ist
+{{
+Relationskette/align
+| \Psi_Q(2 \pi )
+|| {{op:Zeilenvektor| {{op:cos| 2 \pi|}} | {{op:sin| 2 \pi|}} | M(2 \pi) {{op:Spaltenvektor| a |b}} }} 
+|| {{op:Zeilenvektor| 1 | 0 | {{op:Matrix22| {{op:cos| c}} | - {{op:sin|c }}  | {{op:sin|c }}  |  {{op:cos| c |}}    }} {{op:Spaltenvektor| a |b}} }}
+|| {{op:Zeilenvektor| 1 | 0 |   {{op:Spaltenvektor|a {{op:cos| c}}   - b {{op:sin|c }}  | a {{op:sin| c}}   - b {{op:cos|c }} }} }}
+|| 
+|SZ=.
+}}
+|Es ist
+{{
+Relationskette/align
+|  \Psi_Q(t)
+|| {{op:Zeilenvektor| {{op:cos| t |}}  | {{op:sin| t |}}  | {{op:Matrix22|  {{op:cos| {{op:Bruch|ct | 2 \pi  }} }} | - {{op:sin| {{op:Bruch|ct | 2 \pi  }} }}  | {{op:sin| {{op:Bruch|ct | 2 \pi  }} }}  |  {{op:cos| {{op:Bruch|ct | 2 \pi  }} }} |}}  {{op:Spaltenvektor| a |b}} }}
+|| {{op:Zeilenvektor| {{op:cos| t |}} | {{op:sin| t |}} | {{op:Spaltenvektor| a {{op:cos| {{op:Bruch|ct | 2 \pi }} }}  - b {{op:sin| {{op:Bruch|ct | 2 \pi }} }}  | a {{op:sin| {{op:Bruch|ct | 2 \pi }} }}  +   b  {{op:cos| {{op:Bruch|ct | 2 \pi}} }} }} }}  
+|| {{op:Zeilenvektor| {{op:cos| t |}} | {{op:sin| t |}} |   {{makl| a {{op:cos| {{op:Bruch|ct | 2 \pi }} }}  - b {{op:sin| {{op:Bruch|ct | 2 \pi }} }} |}}   e_1 +  {{makl| a {{op:sin| {{op:Bruch|ct | 2 \pi }} }}  +   b  {{op:cos| {{op:Bruch|ct | 2 \pi}} }} |}}   e_2 }}  
+|| 
+|SZ=,
+}}
+insbesondere liegt eine Liftung vor. Die vertikale Ableitung dieses Schnittes in {{math|term= \R^2 |SZ=}} über {{math|term= \R |SZ=}} kann man mit den angegebenen Christoffelsymbolen bestimmen, es ist
+{{
+Relationskette/align/netzlinks
+| {{makl| \psi^* \nabla |}}_\partial  {{makl|   {{makl| a {{op:cos| {{op:Bruch|ct | 2 \pi }} }}  - b {{op:sin| {{op:Bruch|ct | 2 \pi }} }} |}}   e_1 +  {{makl| a {{op:sin| {{op:Bruch|ct | 2 \pi }} }}  +   b  {{op:cos| {{op:Bruch|ct | 2 \pi}} }} |}}   e_2 |}} 
+||   {{makl| a {{op:cos| {{op:Bruch|ct | 2 \pi }} }}  - b {{op:sin| {{op:Bruch|ct | 2 \pi }} }} |}}   {{makl| \psi^* \nabla |}}_\partial {{makl| e_1 |}}  + \partial    {{makl| a {{op:cos| {{op:Bruch|ct | 2 \pi }} }}  - b {{op:sin| {{op:Bruch|ct | 2 \pi }} }} |}}   e_1    +   {{makl| a {{op:sin| {{op:Bruch|ct | 2 \pi }} }}  +   b  {{op:cos| {{op:Bruch|ct | 2 \pi}} }} |}}      {{makl| \psi^* \nabla |}}_\partial {{makl| e_2 |}} + \partial  {{makl| a {{op:sin| {{op:Bruch|ct | 2 \pi }} }}  +   b  {{op:cos| {{op:Bruch|ct | 2 \pi}} }} |}}   e_2
+|| -  {{makl| a {{op:cos| {{op:Bruch|ct | 2 \pi }} }}  - b {{op:sin| {{op:Bruch|ct | 2 \pi }} }} |}}  {{op:Bruch| c | 2 \pi}}  e_2  +   {{op:Bruch| c | 2 \pi}} {{makl| -a {{op:sin| {{op:Bruch|ct | 2 \pi }} }}  - b {{op:cos| {{op:Bruch|ct | 2 \pi }} }} |}}   e_1    +   {{makl| a {{op:sin| {{op:Bruch|ct | 2 \pi }} }}  +   b  {{op:cos| {{op:Bruch|ct | 2 \pi}} }} |}} {{op:Bruch| c | 2 \pi}}   e_1    +  {{op:Bruch| c | 2 \pi}}   {{makl| a {{op:cos| {{op:Bruch|ct | 2 \pi }} }} -  b  {{op:sin| {{op:Bruch|ct | 2 \pi}} }} |}}   e_2
+|| 0
+|| 
+|SZ=,
+}}
+also liegt eine
+{{
+Definitionslink
+|Prämath=
+|horizontale Liftung|
+|Kontext=|
+|SZ=
+}}
+vor.
+|Es geht um die Abbildung
+{{
+Abbildung/display
+|name=
+|\R^2| \R^2
+| {{op:Spaltenvektor| a |b}} |    {{op:Matrix22| {{op:cos| c |}} | - {{op:sin| c |}} | {{op:sin| c |}} | {{op:cos| c |}} |}} {{op:Spaltenvektor| a |b}}
+|SZ=,
+}}
+die linear ist. Die beschreibende Matrix ist orthogonal
+{{
+Zusatz/Klammer
+|text=eine Drehmatrix|
+|ISZ=|ESZ=,
+}} 
+deshalb liegt eine Isometrie vor.
+|Es ist {{mathl|term=  \Psi (2k \pi) |SZ=}} die lineare Abbildung
+{{
+Abbildung/display
+|name=
+|\R^2| \R^2
+|{{op:Spaltenvektor| a |b}} | {{op:Matrix22| {{op:cos|kc|}} | - {{op:sin|kc|}} | {{op:sin|kc|}} | {{op:cos|kc|}} |}} {{op:Spaltenvektor| a |b}}
+|SZ=,
+}}
+also die Drehung um den Winkel {{math|term= kc |SZ=.}} Die Drehmatrix zur Summe von zwei Winkeln ist das Matrixprodukt der beiden Drehmatrizen
+{{
+Zusatz/Klammer
+|text=siehe 
+{{
+Faktlink
+|Präwort=||Faktseitenname=
+Sinus und Kosinus/Reell/Additionstheoreme/Drehung/Fakt
+|Nr=
+|SZ=
+}}
+|ISZ=|ESZ=,
+}}
+daher liegt ein
+{{
+Definitionslink
+|Prämath=
+|Gruppenhomomorphismus|
+|Kontext=|
+|SZ=
+}}
+vor.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

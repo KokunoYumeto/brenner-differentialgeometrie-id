@@ -1,0 +1,77 @@
+Zunächst ist für eine differenzierbare Funktion $g$
+
+\mavergleichskettealign
+{\vergleichskettealign
+{  \nabla_{ gV_i} V_j - \nabla_{V_j} \left(  g V_i  \right)
+}
+{ =} { g \nabla_{V_i} V_j -\left(  g \nabla_{V_j} \left(  V_i  \right)  + D_{V_j}(g)  V_i  \right)
+}
+{ =} { g [V_i,V_j] - D_{V_j}(g)  V_i
+}
+{ =} { [gV_i,V_j]
+}
+{ } {
+}
+}
+{}
+{}{}
+nach
+[[Mannigfaltigkeit/Vektorfelder/Lie-Klammer/Eigenschaften/Fakt|Fakt   (3)]].
+Beliebige differenzierbare Vektorfelder kann man als
+
+\mavergleichskettedisp
+{\vergleichskette
+{ V
+}
+{ =} { \sum_{i= 1}^n f_i V_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ W
+}
+{ =} { \sum_{i= 1}^n g_i V_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ansetzen. Dann ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{  \nabla_VW- \nabla_WV
+}
+{ =} { \nabla_{\sum_{i= 1}^n f_i V_i}  \left(  \sum_{j= 1}^n g_j V_j   \right) - \nabla_{\sum_{j= 1}^n g_j V_j}  \left(  \sum_{i= 1}^n f_i V_i   \right)
+}
+{ =} { \sum_{i,j}   f_i  \nabla_{V_i} \left(  g_jV_j  \right) - \sum_{i,j}   g_j  \nabla_{V_j} \left(  f_iV_i  \right)
+}
+{ =} { \sum_{i,j}   f_i  \left(  g_j \nabla_{V_i}  V_j - [V_i,g_jV_j]               \right)  - \sum_{i,j}   g_j  \left(  f_i \nabla_{V_j} V_i -    [ f_i V_i,V_j]  \right)
+}
+{ =} {  \sum_{i,j}   f_i   g_j \left(  \nabla_{V_i}  V_j -  \nabla_{V_j}  V_i              \right)  - \sum_{i} f_i   [ V_i, g_jV_j]  - \sum_{j} g_j   [ f_iV_i, V_j]
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} {  \sum_{i,j}   f_i   g_j [V_i,V_j]     - \sum_{i} f_i   [ V_i, g_jV_j]  - \sum_{j} g_j   [ f_iV_i, V_j]
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+
+ [[Kategorie:Latexseite]]

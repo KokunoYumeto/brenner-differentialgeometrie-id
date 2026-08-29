@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 15:25:02 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Mannigfaltigkeit/Tangentialbündel trivial/Triviale riemannsche Struktur/Krümmung/Aufgabe/Lösung|R^2/Offene Menge/Riemannsche Metrik/Levi-Civita-Zusammenhang/Krümmungsoperator/Berechnung/Aufgabe/Lösung|Torus/Riemannsche Struktur/Eingebettete Realisierung/Krümmung/Aufgabe/Lösung"
+  },
+  "response_bytes": 2864,
+  "response_path": "unit29_solution_pages_current.json",
+  "response_sha256": "5135dbe9551b0fe2a3ebbc3343c3fc9c9ea6159a1537126cc13b50685d7f441c",
+  "retrieved_utc": "2026-08-28T15:25:01Z",
+  "schema_version": 1
+}

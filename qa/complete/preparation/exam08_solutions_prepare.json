@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "input": "source/exams/exam-08/exam08_solutions.id.tex",
+  "input_bytes": 29445,
+  "input_sha256": "64ee153d746d737bca0af1b47a981e75e62b9000b44ea483bb1afc9f7c2c6a15",
+  "output": "build/generated/exams/exam08_solutions.id.build.tex",
+  "output_bytes": 28709,
+  "output_sha256": "c9a93e62012a7840dc219d35dd236c2670fd80167014e91865f9b1f5be036e2e",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 17,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Differenzierbare Hyperfläche/Differenzierbare Kurve/Ableitung parallel/Geodätische/Fakt",
+      "label": "Lemma 6.8 (Differentialgeometrie (Osnabrück 2023))"
+    },
+    {
+      "target": "Kompaktheit/Satz von Heine-Borel/Fakt",
+      "label": "Satz 13.14 (Differentialgeometrie (Osnabrück 2023))"
+    },
+    {
+      "target": "Hauptsatz der Infinitesimalrechnung/Riemann/Fakt",
+      "label": "Hauptsatz der Infinitesimalrechnung"
+    },
+    {
+      "target": "Mannigfaltigkeiten ohne Rand/Satz von Stokes/Fakt",
+      "label": "Korollar 23.3 (Differentialgeometrie (Osnabrück 2023))"
+    },
+    {
+      "target": "Differenzierbarkeit/Satz von Schwarz/Fakt",
+      "label": "Satz von Schwarz"
+    },
+    {
+      "target": "Brouwersche Fixpunktsatz/Explizite Retraktion/Aufgabe",
+      "label": "Aufgabe 23.23 (Differentialgeometrie (Osnabrück 2023))"
+    },
+    {
+      "target": "Mannigfaltigkeit mit Rand/Stokes/Nichtexistenz von Retraktionen/Fakt",
+      "label": "Satz 23.9 (Differentialgeometrie (Osnabrück 2023))"
+    }
+  ],
+  "wiki_link_resolution_passes": 1,
+  "rendered_interactive_gif_links": []
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-25/worksheet25.id.tex",
+  "input_bytes": 20360,
+  "input_sha256": "f9382254ef5dee139db6650b88262b250af5fd055eb3bddab3a5b4b569324f40",
+  "output": "build/generated/worksheet25.id.build.tex",
+  "output_bytes": 19884,
+  "output_sha256": "1cb4ea28e7a0d9481a59445f47a561c4b0cd9d9f98454161a611dec1ede1137f",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontale Liftung/Übereinstimmung/Aufgabe",
+      "label": "Soal 25.21"
+    },
+    {
+      "target": "Offene Menge/Triviales Vektorbündel/Linearer Zusammenhang/Spaltung/Christoffelsymbole/Bemerkung",
+      "label": "Catatan 25.8"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Leibnizregel/Fakt",
+      "label": "Teorema 25.5"
+    },
+    {
+      "target": "Mannigfaltigkeit/Abzählbare Basis/Vektorbündel/Riemannsche Struktur/Aufgabe",
+      "label": "Soal 22.15"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/Riemannsche Mannigfaltigkeit/Linearer Zusammenhang/Aufgabe",
+      "label": "Soal 25.18"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

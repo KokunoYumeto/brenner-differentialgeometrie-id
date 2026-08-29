@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "input": "source/exams/exam-10/exam10_solutions.id.tex",
+  "input_bytes": 36394,
+  "input_sha256": "32a61474c2bc1de6c9deab27b7887f30f1636b5b5b21fd3678560e9780fd7678",
+  "output": "build/generated/exams/exam10_solutions.id.build.tex",
+  "output_bytes": 35485,
+  "output_sha256": "316dce7e72d8c5219ebeca34a6dd5e3ecaad8ecc331cd48691d3bb78a3e46074",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 14,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Flächenstück im Raum/Einbettung/Flächenform/Fakt",
+      "label": "Korolar 17.2 (Geometri diferensial (Osnabrück 2023))"
+    },
+    {
+      "target": "Dachprodukt/Algebrastruktur/Eigenschaften/Fakt",
+      "label": "multilinearitas hasil kali baji"
+    },
+    {
+      "target": "Mannigfaltigkeit/Abzählbare Basis/Überdeckung/Partition/Fakt",
+      "label": "Teorema 22.10 (Geometri diferensial (Osnabrück 2023))"
+    },
+    {
+      "target": "Kompakter Raum/Abgeschlossene Teilmenge/Kompakt/Fakt/Beweis/Aufgabe",
+      "label": "Soal 13.10 (Geometri diferensial (Osnabrück 2023))"
+    },
+    {
+      "target": "Volumenform/Integration/Eigenschaften/Fakt",
+      "label": "aditivitas integral bentuk diferensial"
+    },
+    {
+      "target": "Differentialform/Mannigfaltigkeit/Äußere Ableitung/Eigenschaften/Fakt",
+      "label": "aditivitas turunan eksterior"
+    },
+    {
+      "target": "Differentialform/Offene Menge/Äußere Ableitung/Eigenschaften/Fakt",
+      "label": "Lema 20.2 (Geometri diferensial (Osnabrück 2023))  (5)"
+    },
+    {
+      "target": "Satz von Stokes/Quaderversion/Fakt",
+      "label": "versi balok teorema Stokes"
+    },
+    {
+      "target": "Sinus und Kosinus/Reell/Additionstheoreme/Drehung/Fakt",
+      "label": "Fakta"
+    },
+    {
+      "target": "Kurs:Differentialgeometrie/Sinus und Kosinus/Reell/Additionstheoreme/Drehung/Fakt/Faktreferenznummer",
+      "label": "*****"
+    }
+  ],
+  "wiki_link_resolution_passes": 1,
+  "rendered_interactive_gif_links": []
+}

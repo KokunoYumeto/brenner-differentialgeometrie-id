@@ -1,0 +1,1893 @@
+%Data institusi
+
+%\input{Dozentdaten}
+
+%\renewcommand{\fachbereich}{Fachbereich}
+
+%\renewcommand{\dozent}{Prof. Dr. . }
+
+%Data ujian
+
+\renewcommand{\klausurgebiet}{ }
+
+\renewcommand{\klausurtyp}{ }
+
+\renewcommand{\klausurdatum}{ . 20}
+
+\klausurvorspann {\fachbereich} {\klausurdatum} {\dozent} {\klausurgebiet} {\klausurtyp}
+
+%Data untuk tabel nilai berikut
+
+\renewcommand{\aeins}{  3  }
+
+\renewcommand{\azwei}{  3   }
+
+\renewcommand{\adrei}{  3  }
+
+\renewcommand{\avier}{  0  }
+
+\renewcommand{\afuenf}{  2  }
+
+\renewcommand{\asechs}{  0  }
+
+\renewcommand{\asieben}{  3  }
+
+\renewcommand{\aacht}{  7  }
+
+\renewcommand{\aneun}{  0  }
+
+\renewcommand{\azehn}{  7  }
+
+\renewcommand{\aelf}{  4  }
+
+\renewcommand{\azwoelf}{  3  }
+
+\renewcommand{\adreizehn}{  3   }
+
+\renewcommand{\avierzehn}{  7  }
+
+\renewcommand{\afuenfzehn}{  2  }
+
+\renewcommand{\asechzehn}{  9  }
+
+\renewcommand{\asiebzehn}{  7  }
+
+\renewcommand{\aachtzehn}{  63  }
+
+\renewcommand{\aneunzehn}{    }
+
+\renewcommand{\azwanzig}{    }
+
+\renewcommand{\aeinundzwanzig}{    }
+
+\renewcommand{\azweiundzwanzig}{    }
+
+\renewcommand{\adreiundzwanzig}{    }
+
+\renewcommand{\avierundzwanzig}{    }
+
+\renewcommand{\afuenfundzwanzig}{    }
+
+\renewcommand{\asechsundzwanzig}{    }
+
+\punktetabellesiebzehn
+
+\klausurnote
+
+\newpage
+
+\setcounter{section}{0}
+
+
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Definisikan istilah-istilah berikut
+\zusatzklammer {yang dicetak miring} {} {}.
+\aufzaehlungsechs{\stichwort {Pemetaan Gauss} {}
+dari suatu hiperpermukaan diferensiabel
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}{Suatu
+\stichwort {peta topologis} {}
+pada suatu
+\definitionsverweis {manifold topologis}{}{}
+$M$.
+
+}{Suatu $C^1$-\stichwort {manifold diferensiabel} {} $M$.
+
+}{\stichwort {Pangkat eksterior} {} ke-$n$ dari suatu
+$K$-\definitionsverweis {ruang vektor}{}{}
+$V$
+\zusatzklammer {cukup tuliskan simbolnya} {} {.}
+
+}{Suatu
+\stichwort {isometri lokal} {}
+\maabb {\varphi} {L} {M
+} {}
+antara manifold-manifold Riemann.
+
+}{Suatu koneksi
+\stichwort {terintegralkan secara lokal} {}
+pada suatu bundel vektor diferensiabel
+\maabb {p} {E} {X
+} {}
+di atas suatu manifold diferensiabel $X$.
+}
+
+}
+{
+
+\aufzaehlungsechs{Misalkan suatu
+\definitionsverweis {orientasi}{}{}
+pada $Y$ telah ditetapkan. Maka pemetaan
+\maabbdisp {} {Y} { S^{n-1}
+} {,}
+yang memetakan setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ke vektor normal satuan yang ditentukan oleh orientasi tersebut disebut
+pemetaan Gauss
+dari $Y$.
+}{Suatu peta topologis adalah setiap
+\definitionsverweis {homeomorfisme}{}{}
+\maabbdisp {\varphi} {U} {V
+} {,}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{.}
+}{Suatu
+\definitionsverweis {ruang Hausdorff}{}{}
+\definitionsverweis {topologis}{}{}
+$M$ bersama suatu
+\definitionsverweis {penutup terbuka}{}{}
+
+\mathl{M= \bigcup_{i \in I} U_i}{} dan
+\definitionsverweis {peta-peta}{}{}
+\maabbdisp {\alpha_i} {U_i } { V_i
+} {}
+dengan
+\mathl{V_i \subseteq \R^n}{} terbuka, sedemikian rupa sehingga
+\definitionsverweis {pemetaan-pemetaan transisi}{}{}
+\maabbdisp {\alpha_j \circ (\alpha_i)^{-1}} {V_i \cap \alpha_i(U_i \cap U_j)   } { V_j \cap \alpha_j(U_i \cap U_j)
+} {}
+$C^1$-\definitionsverweis {difeomorfisme}{}{}
+untuk semua
+\mathl{i,j \in  I}{}. Struktur ini disebut manifold diferensiabel.
+}{Ruang vektor-$K$
+\mathl{\bigwedge^n V}{} disebut pangkat eksterior ke-$n$ dari $V$.
+}{Suatu
+\definitionsverweis {pemetaan diferensiabel}{}{}
+\maabb {\varphi} {L} {M
+} {}
+disebut
+isometri lokal
+jika untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+pemetaan
+\definitionsverweis {tangen}{}{}
+\maabbdisp {T_P \varphi} {T_PL} { T_{\varphi(P) } M
+} {}
+merupakan suatu
+\definitionsverweis {isometri}{}{}
+terhadap hasil kali skalar yang diberikan.
+}{Koneksi tersebut disebut
+terintegralkan secara lokal
+jika untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \in }{ E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat suatu
+
+\mavergleichskette
+{\vergleichskette
+{ p(e)
+}
+{ \in }{ U
+}
+{ \subseteq }{ X
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {penampang horizontal}{}{}
+\maabbdisp {s} {U} {E \vert_U
+} {}
+yang didefinisikan pada lingkungan terbuka tersebut dan melalui $e$.
+}
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Rumuskan teorema-teorema berikut.
+\aufzaehlungdrei{\stichwort {Teorema isometri untuk transpor paralel pada suatu hiperpermukaan} {}
+
+\mavergleichskette
+{\vergleichskette
+{  Y
+}
+{ \subseteq }{  \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}{\stichwort {Theorema egregium} {.}}{Teorema tentang partisi kesatuan.}
+
+}
+{
+
+\aufzaehlungdrei{\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {terbuka}{}{,}
+dan merupakan suatu
+\definitionsverweis {hiperpermukaan diferensiabel}{}{.}
+Misalkan
+\maabb {\gamma} {[a,b]} {Y
+} {}
+suatu
+\definitionsverweis {kurva diferensiabel}{}{}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(a)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(b)
+}
+{ = }{ Q
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Maka
+\definitionsverweis {transpor paralel}{}{}
+sepanjang $\gamma$ merupakan suatu
+\definitionsverweis {isometri}{}{}
+\maabbdisp {} {T_PY} {T_QY
+} {.}}
+\faktzusatz {}
+\faktzusatz {}}{\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {permukaan berorientasi}{}{}
+dan misalkan
+\maabbdisp {\varphi} { V } { Y
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+suatu parametrisasi lokal $Y$ yang dua kali terdiferensialkan, dengan parameter $u,v$. Misalkan
+\mathl{\left(  g_{ij}  \right)}{}
+\definitionsverweis {matriks fundamental pertama}{}{}
+pada $V$.}
+\faktfolgerung {Maka, dengan menggunakan
+\definitionsverweis {simbol-simbol Christoffel}{}{,}
+\definitionsverweis {kelengkungan Gauss}{}{}
+memenuhi hubungan
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ K
+}
+{ =} { { \frac{   1  }{ g_{11}  } }  \left(  \partial_2 \Gamma_{11}^2 - \partial_1 \Gamma_{12}^2 + \Gamma^1_{11} \Gamma^2_{12}  + \Gamma_{11}^2 \Gamma_{22}^2 - \Gamma_{12}^1 \Gamma_{11}^2-  \left(  \Gamma_{12}^2  \right)^2  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}}{Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dengan
+\definitionsverweis {basis topologi yang terhitung}{}{.}
+Maka, untuk setiap penutup terbuka, terdapat suatu
+\definitionsverweis {partisi kesatuan}{}{}
+\definitionsverweis {yang terdiferensialkan secara kontinu}{}{}
+dan tersubordinasi pada penutup tersebut.}
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Misalkan
+\maabbdisp {f,g} {\R} { \R^n
+} {}
+\definitionsverweis {kurva-kurva diferensiabel}{}{.}
+Hitung
+\definitionsverweis {turunan}{}{}
+dari fungsi
+\maabbeledisp {} {\R} {\R
+} { t } { \left\langle f(t) , g(t)  \right\rangle
+} {.}
+Rumuskan hasilnya dengan menggunakan hasil kali dalam.
+
+}
+{
+
+Misalkan $f_i(t)$ dan $g_i(t)$ masing-masing fungsi komponen dari
+\mathkor {} {f} {dan} {g} {.}
+Fungsi yang dimaksud adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{  \left\langle f(t) , g(t)  \right\rangle
+}
+{ =} { \sum_{i = 1}^n  f_i(t) g_i(t)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan turunan
+\zusatzklammer {aturan hasil kali diterapkan pada setiap suku} {} {}
+
+\mathdisp {\sum_{i = 1}^n  f'_i(t) g_i(t)  + \sum_{i = 1}^n  f_i(t) g'_i(t)} { . }
+
+Dengan hasil kali skalar, bentuk ini dapat ditulis sebagai
+
+\mathdisp {\left\langle f'(t) ,  g(t)  \right\rangle + \left\langle f(t) ,  g'(t)  \right\rangle} {  }
+
+.
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+
+
+\inputaufgabeklausurloesung
+{2}
+
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {terbuka}{}{,}
+suatu
+\definitionsverweis {hiperpermukaan diferensiabel}{}{},
+dan
+\maabb {\gamma} {I =[a,b]} {Y
+} {}
+suatu
+\definitionsverweis {kurva geodesik}{}{.}
+Buktikan bahwa
+\definitionsverweis {transpor paralel}{}{}
+sepanjang $\gamma$ memetakan vektor tangensial
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'(a)
+}
+{ \in }{ T_{\gamma(a)}Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ke vektor tangensial
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'(b)
+}
+{ \in }{ T_{\gamma(b)}Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+{
+
+Menurut
+Lemma 6.8 (Differentialgeometrie (Osnabrück 2023))
+medan kecepatan $\gamma'$ merupakan suatu
+\definitionsverweis {medan vektor paralel}{}{}
+sepanjang $\gamma$. Oleh karena itu,
+\definitionsverweis {transpor paralel}{}{}
+$\Psi_\gamma$ sepanjang $\gamma$ memetakan vektor
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'(a)
+}
+{ \in }{  T_{\gamma(a)} Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ke vektor
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'(b)
+}
+{ \in }{  T_{\gamma(b)} Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+.
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Apakah pemetaan
+\maabbeledisp {\varphi} {S^1} {S^1
+} {(x,y)} {( \betrag {  x  } ,y)
+} {,}
+\definitionsverweis {terdiferensialkan}{}{?}
+
+}
+{
+
+Kita meninjau komposisi pemetaan-pemetaan
+
+\mathdisp {\R \stackrel{ \theta }{\longrightarrow} S^1 \stackrel{\varphi}{\longrightarrow} S^1 \subset \R^2 \stackrel{p_1}{\longrightarrow} \R} { , }
+
+dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \theta(t)
+}
+{ =} {(\cos  t , \sin  t )
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan $p_1$ merupakan proyeksi pertama. Parametrisasi trigonometrik, inklusi
+\zusatzklammer {suatu submanifold tertutup} {} {,}
+dan proyeksi tersebut semuanya diferensiabel. Jika $\varphi$ diferensiabel, maka komposisi keseluruhannya juga harus diferensiabel. Akan tetapi, komposisi itu adalah
+\maabbeledisp {} {\R} {\R
+} { t } {\betrag {  \cos  t  }
+} {.}
+Pemetaan ini tidak diferensiabel di
+\mathl{t= \pi/2}{} karena gradien dari kiri di titik tersebut adalah $-1$, sedangkan gradien dari kanan adalah $1$. Jadi, pemetaan $\varphi$ tidak diferensiabel.
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{7}
+
+{
+
+Misalkan $M$ suatu manifold diferensiabel kompak dengan bentuk volume positif kontinu $\omega$. Buktikan bahwa
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_M \omega
+}
+{ <} { \infty
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}.
+
+}
+{
+
+Untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat suatu lingkungan peta terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan suatu pemetaan peta
+\maabbdisp {\alpha} { U } { V
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka, sedemikian rupa sehingga
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha^{-1 *} \omega
+}
+{ = }{ fdx_1 \wedge \ldots \wedge dx_n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku dengan
+\mathl{f}{} kontinu dan positif. Kita juga memperoleh suatu lingkungan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U'
+}
+{ \subseteq }{ U
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang homeomorf dengan suatu bola terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U'
+}
+{ \cong }{ B'
+}
+{ \subseteq }{ V
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan kita dapat menganggap bahwa penutupan bola tersebut seluruhnya terletak di $V$. Bola tertutup itu tertutup dan terbatas; karena itu, fungsi kontinu $f$ terbatas pada bola tersebut dan dengan demikian juga pada $U'$. Maka
+\mathl{\int_{U'} \omega}{} berhingga, dengan $U'$ suatu lingkungan terbuka dari $P$.
+
+Himpunan-himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U'
+}
+{ = }{ U'(P)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ini menutupi $M$. Karena kekompakan, terdapat suatu penutup berhingga
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { \bigcup_{i = 1} ^n U_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_{U_i } \omega
+}
+{ <} { \infty
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Karena kepositifan, diperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_{M} \omega
+}
+{ \leq} { \sum_{i = 1}^n  \left(  \int_{U_i } \omega  \right)
+}
+{ <} { \infty
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+
+
+\inputaufgabeklausurloesung
+{7 (1+2+4)}
+
+{
+
+\aufzaehlungdreiabc{ Berikan suatu sifat topologis yang menunjukkan bahwa
+\definitionsverweis {interval satuan terbuka}{}{}
+dan
+\definitionsverweis {lingkaran}{}{}
+$S^1$ tidak
+\definitionsverweis {homeomorfik}{}{.}
+}{Buktikan bahwa setiap
+$1$-\definitionsverweis {bentuk diferensial}{}{}
+kontinu pada
+\mathl{]0,1[}{}
+bersifat
+\definitionsverweis {eksak}{}{.}
+}{ Berikan suatu
+$1$-bentuk konkret pada $S^1$ yang
+\definitionsverweis {tertutup}{}{}
+tetapi tidak eksak.
+}
+
+}
+{
+
+a) Menurut
+Satz 13.14 (Differentialgeometrie (Osnabrück 2023))
+$S^1$, sebagai himpunan bagian tertutup dan terbatas dari $\R^2$, bersifat
+\definitionsverweis {kompak}{}{,}
+sedangkan interval terbuka tersebut tidak kompak.
+
+b) Berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { hdt
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan suatu fungsi kontinu
+\maabbdisp {h} {]0,1[} {\R
+} {.}
+Menurut
+Hauptsatz der Infinitesimalrechnung,
+$h$ mempunyai suatu antiturunan $H$. Dalam bahasa bentuk diferensial, hal ini berarti
+
+\mavergleichskettedisp
+{\vergleichskette
+{H'
+}
+{ =} { hdt
+}
+{ =} { \omega
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+sehingga $\omega$ eksak.
+
+c) Misalkan
+\mathl{S^1 \subset \R^2}{} diberikan, dengan koordinat pada $\R^2$ dinotasikan oleh
+\mathkor {} {u} {dan} {v} {}
+. Kita meninjau bentuk diferensial
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { udv-vdu
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+pada $S^1$. Karena $S^1$ berdimensi satu, bentuk ini tertutup. Untuk lintasan
+\maabbeledisp {\gamma} {[0, 2 \pi]} {S^1
+} { t } { \begin{pmatrix}  \cos  t  \\ \sin  t     \end{pmatrix}
+} {,}
+berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_\gamma \omega
+}
+{ =} { \int_0^{2 \pi} \gamma^* \omega  dt
+}
+{ =} { \int_0^{2 \pi}  \cos  t  \cdot \cos  t  +  \sin  t   \sin  t   dt
+}
+{ =} { \int_0^{2 \pi} 1 dt
+}
+{ =} { 2 \pi
+}
+}
+{}{}{.}
+Menurut
+Korollar 23.3 (Differentialgeometrie (Osnabrück 2023))
+$\omega$ tidak mungkin eksak.
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{4}
+
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{}
+dan
+\maabb {f} { U } { \R
+} {}
+suatu
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{}
+dua kali. Buktikan bahwa
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d(df)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dengan $d$ menyatakan
+\definitionsverweis {turunan eksterior}{}{.}
+
+}
+{
+
+Untuk suatu bentuk-$1$
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ \sum_{j = 1}^n g_jdx_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan menggunakan
+
+\mavergleichskette
+{\vergleichskette
+{ dx_i \wedge dx_j
+}
+{ = }{ -dx_j \wedge dx_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\mavergleichskettealign
+{\vergleichskettealign
+{d \omega
+}
+{ =} { \sum_{j = 1 }^n  d(g_j dx_j)
+}
+{ =} { \sum_{j = 1 }^n   \left(  \sum_{i = 1}^n { \frac{   \partial  g_j   }{  \partial   x_i   } } dx_i \wedge dx_j  \right)
+}
+{ =} { \sum _{1 \leq i <j\leq n} \left(  { \frac{   \partial  g_j   }{  \partial   x_i   } } - { \frac{   \partial  g_i   }{  \partial   x_j   } }  \right) dx_i \wedge dx_j
+}
+{ } {
+}
+}
+{}
+{}{.}
+Untuk suatu fungsi $f$ yang dua kali terdiferensialkan secara kontinu, berlaku
+
+\mavergleichskette
+{\vergleichskette
+{ df
+}
+{ = }{ \sum_{j = 1}^n g_j dx_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan
+\definitionsverweis {turunan-turunan parsial}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ g_j
+}
+{ = }{ { \frac{   \partial   f   }{  \partial   x_j   } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dan karena itu
+
+\mavergleichskette
+{\vergleichskette
+{ d(df)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+menurut
+Satz von Schwarz.
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Deskripsikan
+\definitionsverweis {pemetaan}{}{}
+\maabbeledisp {\psi} { \Complex \setminus \{1\} } { \Complex
+} {w} { { \frac{   (w+1)  { \mathrm i}  }{ 1-w  } }
+} {}
+dalam koordinat riil.
+
+}
+{
+
+Kita menulis
+
+\mavergleichskette
+{\vergleichskette
+{ w
+}
+{ = }{ a+b { \mathrm i}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Maka
+
+\mavergleichskettealign
+{\vergleichskettealign
+{  \psi ( a+b { \mathrm i}   )
+}
+{ =} { { \frac{   \left(  a+b { \mathrm i} +1  \right) { \mathrm i}      }{  1-  a-b { \mathrm i}      } }
+}
+{ =} { { \frac{     a { \mathrm i} +{ \mathrm i}  -b  }{  1-  a-b { \mathrm i}      } }
+}
+{ =} { { \frac{     \left(  a { \mathrm i} +{ \mathrm i}  -b  \right) \left(  1-  a+b { \mathrm i}  \right)  }{  \left(  1-  a-b { \mathrm i}  \right) \left(  1-  a+b { \mathrm i}  \right)      } }
+}
+{ =} { { \frac{     \left(  a+1 \right) \left(  1-a  \right) { \mathrm i}  -b^2 { \mathrm i} -b \left(  1-  a \right) -b\left(  a+1  \right)  }{  \left(  1-  a \right)^2 +b^2  } }
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { { \frac{     \left(  1-a ^2-b^2  \right) { \mathrm i}   -2 b  }{  \left(  1-  a \right)^2 +b^2  } }
+}
+{ } {
+}
+{ } {}
+{ } {}
+}
+{}{.}
+Dalam koordinat riil, dengan demikian,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \psi \begin{pmatrix}  a  \\b   \end{pmatrix}
+}
+{ =} { { \frac{   1  }{  -2a+1+a^2+b^2 } } \begin{pmatrix}  -2b \\ 1-a^2-b^2   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ H
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {setengah ruang Euklides}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Andaikan terdapat suatu himpunan yang terbuka di $\R^n$, yaitu $V$, dengan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ V
+}
+{ \subseteq }{ H
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Buktikan bahwa
+\mathl{P}{} bukan titik batas dari $H$.
+
+}
+{
+
+Misalkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ P
+}
+{ =} { \begin{pmatrix}  x_1  \\ x_2 \\  \vdots\\ x_n   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Kita dapat mengganti, di $\R^n$, lingkungan terbuka $V$ dengan suatu bola terbuka
+\zusatzklammer {di $\R^n$} {} {}
+\mathl{U \left(   P , \epsilon  \right)}{} dengan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{   U \left(   P , \epsilon  \right)
+}
+{ \subseteq }{  V
+}
+{ \subseteq   }{ H
+}
+{   }{
+}
+}
+{}{}{}
+. Jika $P$ suatu titik batas, maka
+
+\mavergleichskette
+{\vergleichskette
+{ x_1
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Akan tetapi, dalam hal itu
+
+\mavergleichskette
+{\vergleichskette
+{ \begin{pmatrix}  - { \frac{   \epsilon }{  2 } }  \\ x_2 \\  \vdots\\ x_n   \end{pmatrix}
+}
+{ \in }{ U \left(   P , \epsilon  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+padahal titik ini tidak termasuk dalam $H$.
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{7}
+
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+berdimensi $n$ dan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu titik. Buktikan bahwa terdapat suatu
+\definitionsverweis {manifold dengan batas}{}{}
+$N$ yang batasnya $\partial N$ difeomorfik dengan permukaan bola berdimensi $(n-1)$, yaitu $S^{n-1}$, sedemikian sehingga
+\mathkor {} {M \setminus \{ P \}} {dan} {N \setminus \partial N} {}
+saling difeomorfik.
+
+}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{  U
+}
+{ \subseteq }{  M
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu daerah peta terbuka dengan peta
+\maabbdisp {\alpha} { U } {V \subseteq \R^n
+} {.}
+Kita dapat menganggap bahwa $\alpha(P)$ adalah titik nol dan $V$ adalah bola terbuka berjari-jari $3$. Misalkan
+\maabbdisp {\varphi} { U \left(   0 , 3  \right) \setminus \{0\}  } { U \left(   0 , 3  \right) \setminus B  \left(  0 , 1 \right)
+} {}
+suatu difeomorfisme yang merupakan identitas pada
+\mathl{U \left(   0 , 3  \right) \setminus U \left(   0 , 2  \right)}{} dan memetakan
+\mathl{U \left(   0 , 2  \right) \setminus \{0\}}{} ke
+\mathl{U \left(   0 , 2  \right) \setminus B  \left(  0 , 1 \right)}{}. Pemetaan seperti ini diperoleh dengan meregangkan titik-titik menggunakan fungsi
+\maabbdisp {h} {[0,3]} { [0,3]
+} {}
+dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h(r)
+}
+{ =} { \begin{cases} 1+ { \frac{   1  }{  4 } } r^2 \text{ jika } 0 \leq r \leq 2 \, , \\ r \text{ jika } r >  2  \, , \end{cases}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+. Selanjutnya, citra difeomorfisme $\varphi$, yaitu
+\mathl{U \left(   0 , 3  \right) \setminus B  \left(  0 , 1 \right)}{,} dapat dipandang sebagai
+
+\mavergleichskettedisp
+{\vergleichskette
+{  U \left(   0 , 3  \right) \setminus B  \left(  0 , 1 \right)
+}
+{ \subset} {  U \left(   0 , 3  \right) \setminus U \left(   0 , 1  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+. Himpunan yang lebih besar merupakan suatu manifold dengan batas $S \left(   0 ,  1  \right)$. Misalkan $N$ manifold yang diperoleh dengan mengganti $U$ oleh
+\mathl{U \left(   0 , 3  \right) \setminus U \left(   0 , 1  \right)}{}. Permukaan bola tersebut menjadi batas dari $N$. Difeomorfisme $\varphi$ dapat diperluas menjadi suatu difeomorfisme
+\maabbdisp {} {M \setminus \{P\} } { N \setminus \partial N
+} {}
+karena pada daerah transisi terbuka
+\mathl{U \left(   0 , 3  \right) \setminus U \left(   0 , 2  \right)}{} pemetaan tersebut merupakan identitas.
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{2}
+
+{
+
+Berikan suatu
+\definitionsverweis {penghabisan kompak}{}{}
+untuk $\R^d$.
+
+}
+{
+
+Kita meninjau
+\definitionsverweis {bola-bola tertutup}{}{}
+
+\mathbed {B  \left(  0 , n  \right)} {}
+ {n \in \N_+} {}
+ {} {} {} {,}
+yang
+\definitionsverweis {kompak}{}{}
+dan menutupi $\R^d$. Interior terbuka dari
+\mathl{B  \left(  0 , n+1  \right)}{}
+adalah
+\definitionsverweis {bola terbuka}{}{}
+
+\mathl{U \left(   0,n+1  \right)}{}, dan karena
+
+\mavergleichskettedisp
+{\vergleichskette
+{ B  \left(  0,n \right)
+}
+{ \subseteq} { U \left(   0,n+1  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+diperoleh suatu
+\definitionsverweis {penghabisan kompak}{}{.}
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{9}
+
+{
+
+Buktikan teorema titik tetap Brouwer.
+
+}
+{
+
+Untuk menyederhanakan notasi, misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ r
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}  Andaikan terdapat suatu pemetaan $\psi$ tanpa titik tetap yang terdiferensialkan secara kontinu. Maka selalu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ x
+}
+{ \neq} { \psi(x)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+sehingga kedua titik tersebut menentukan suatu garis. Gagasannya adalah menggunakan garis ini untuk mengambil salah satu
+\zusatzklammer {dari kedua} {} {}
+titik potong dengan permukaan bola sebagai titik citra suatu retraksi ke batas. Dengan fungsi bantu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h(x)
+}
+{ =} { { \frac{   \psi(x)-x }{  \Vert { \psi (x)-x} \Vert  } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+kita mendefinisikan suatu pemetaan
+\maabbdisp {\varphi} { B  \left(  0 , 1 \right) } { \R^n
+} {}
+melalui
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \varphi(x)
+}
+{ =} { x + \left(  - \left\langle  x  , h(x)  \right\rangle + \sqrt{1 + \left\langle  x  , h(x)  \right\rangle^2 - \Vert { x} \Vert^2  }  \right) \cdot h(x)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Ekspresi di bawah akar tersebut positif. Hal ini jelas untuk
+
+\mavergleichskette
+{\vergleichskette
+{ \Vert { x } \Vert
+}
+{ < }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan untuk
+
+\mavergleichskette
+{\vergleichskette
+{ \Vert { x } \Vert
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+diperoleh suatu titik pada permukaan bola yang garis penghubungnya dengan titik bola
+\mathl{\psi(x)}{} tidak tegak lurus terhadap $x$
+\zusatzklammer {ruang singgung afin pada suatu titik permukaan bola hanya berpotongan dengan bola di satu titik} {} {,}
+sehingga
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  x  , h(x)  \right\rangle
+}
+{ \neq} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+berlaku. Karena akar kuadrat dan nilai mutlak di luar titik nol
+\definitionsverweis {terdiferensialkan secara kontinu}{}{,}
+baik
+\mathkor {} {h(x)} {maupun} {\varphi(x)} {}
+merupakan pemetaan yang terdiferensialkan secara kontinu. Menurut
+Aufgabe 23.23 (Differentialgeometrie (Osnabrück 2023))
+pemetaan $\varphi$ memetakan bola ke permukaan bola dan pembatasannya pada permukaan bola adalah identitas. Dengan demikian, diperoleh suatu
+\definitionsverweis {retraksi}{}{}
+yang terdiferensialkan secara kontinu dari bola penuh tertutup ke batasnya, yang menurut
+Satz 23.9 (Differentialgeometrie (Osnabrück 2023))
+tidak mungkin ada.
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{7 (1+2+4)}
+
+{
+
+Pada
+\definitionsverweis {bundel vektor trivial}{}{}
+
+\mathl{\R \times \R^2}{} di atas $\R$, kita meninjau
+\definitionsverweis {koneksi trivial}{}{}
+$\nabla$.
+\aufzaehlungdrei{Buktikan bahwa
+
+\mavergleichskette
+{\vergleichskette
+{ f_1(t)
+}
+{ = }{ \left(  1+ t^2  , \,  t^3                   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ f_2(t)
+}
+{ = }{ \left(  t  , \,   1+t^2                   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan
+\definitionsverweis {penampang basis}{}{}
+dari bundel vektor tersebut.
+}{Nyatakan penampang basis standar $e_1,e_2$ sebagai kombinasi linear dari penampang basis $f_1,f_2$.
+}{Tentukan
+\definitionsverweis {simbol-simbol Christoffel}{}{}
+dari $\nabla$ terhadap penampang-penampang basis tersebut.
+}
+
+}
+{
+
+\aufzaehlungdrei{Berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \det  \begin{pmatrix}  1+t^2   &  t^3  \\  t  &  1+t^2  \end{pmatrix}
+}
+{ =} { 1+2t^2+t^4 -t^4
+}
+{ =} { 1 +2t^2
+}
+{ >} {  0
+}
+{ } {
+}
+}
+{}{}{}
+selalu positif. Oleh karena itu, kedua vektor
+\mathkor {} {f_1(t)} {dan} {f_2(t)} {}
+untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{  \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+membentuk suatu basis.
+}{Dari hubungan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix} f_1  \\f_2   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  1+t^2  &   t^3  \\  t  &  1+t^2 \end{pmatrix}  \begin{pmatrix} e_1  \\e_2   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+diperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix} e_1  \\e_2   \end{pmatrix}
+}
+{ =} { { \frac{   1  }{  1+2t^2 } } \begin{pmatrix}  1+t^2  &   -t^3  \\  -t &  1+t^2 \end{pmatrix}  \begin{pmatrix} f_1  \\f_2   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+jadi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ e_1
+}
+{ =} { { \frac{   1+t^2 }{  1+2t^2 } }   f_1 - { \frac{  t^3 }{  1+2t^2 } } f_2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ e_2
+}
+{ =} { -{ \frac{   t  }{  1+2t^2 } }   f_1 + { \frac{   1+t^2 }{  1+2t^2 } } f_2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Untuk koneksi trivial, berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_\partial (f)
+}
+{ =} { \partial f
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dengan demikian,
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \nabla_\partial (f_1)
+}
+{ =} { \nabla_\partial \left(  \left(  1+t^2  \right) e_1 + t^3e_2  \right)
+}
+{ =} { 2t e_1 + 3t^2 e_2
+}
+{ =} { 2t  \left(  { \frac{   1+t^2 }{  1+2t^2 } }   f_1 - { \frac{  t^3 }{  1+2t^2 } } f_2   \right)  + 3t^2  \left(  -{ \frac{   t  }{  1+2t^2 } }   f_1 + { \frac{   1+t^2 }{  1+2t^2 } } f_2   \right)
+}
+{ =} {  \left(   { \frac{   2t+2t^3 }{  1+2t^2 } } - { \frac{   3t^3 }{  1+2t^2 } }  \right) f_1  +  \left(  - { \frac{  t^3 }{  1+2t^2 } }   + { \frac{   3t^2+3t^4 }{  1+2t^2 } }     \right)   f_2
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { { \frac{   2t - t^3 }{  1+2t^2 } }  f_1  +  { \frac{   3t^2-t^3+3t^4 }{  1+2t^2 } }      f_2
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{}
+dan
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \nabla_\partial (f_2)
+}
+{ =} { \nabla_\partial \left(  t e_1 + \left(  1+t^2  \right) e_2  \right)
+}
+{ =} { e_1 + 2t  e_2
+}
+{ =} { { \frac{   1+t^2 }{  1+2t^2 } } f_1 - { \frac{  t^3 }{  1+2t^2 } } f_2 + 2t \left(  -{ \frac{   t  }{  1+2t^2 } } f_1 + { \frac{   1+t^2 }{  1+2t^2 } } f_2   \right)
+}
+{ =} { \left( { \frac{   1+t^2 }{  1+2t^2 } }  - { \frac{   2t^2 }{  1+2t^2 } }  \right) f_1  + \left(  - { \frac{   t^3  }{  1+2t^2  } } +  { \frac{   2t+2t^3  }{  1+2t^2 } }  \right) f_2
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { { \frac{   1 - t^2  }{  1+2t^2 } } f_1 + { \frac{   2t   +t^3 }{  1+2t^2 } }      f_2
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+Fungsi-fungsi koefisien tersebut adalah simbol-simbol Christoffel.
+}
+
+ }

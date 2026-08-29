@@ -1,0 +1,929 @@
+\setcounter{section}{27}
+
+  \zwischenueberschrift{Übungsaufgaben}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+\maabb {p} { E } { M
+} {}
+ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+über einer
+\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+$M$, das mit einem
+\definitionsverweis {linearen Zusammenhang}{}{}
+$\nabla$ versehen sei. Es sei $L$ eine weitere differenzierbare Mannigfaltigkeit und
+\maabb {\psi} { L } { M
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Abbildung}{}{}
+mit dem
+\definitionsverweis {zurückgezogenen Zusammenhang}{}{}
+$\psi^*\nabla$ auf dem
+\definitionsverweis {zurückgezogenen Vektorbündel}{}{}
+$\psi^*E$ über $L$. Zeige, dass ein stetig differenzierbarer Schnitt
+\maabb {s} { L } { E
+} {}
+genau dann
+\definitionsverweis {horizontal}{}{}
+bezüglich $\nabla$ ist, wenn der zugehörige Schnitt
+\maabbdisp {s} { L } { \psi^*E
+} {}
+horizontal bezüglich  $\psi^* \nabla$ ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+\maabb {p} {M \times \R^r } { M
+} {}
+das triviale
+\definitionsverweis {Vektorbündel}{}{}
+über einer
+\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+$M$ versehen mit dem
+\definitionsverweis {trivialen Zusammenhang}{}{}
+$\nabla$. Es sei $L$ eine weitere differenzierbare Mannigfaltigkeit und
+\maabb {\psi} { L } { M
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Abbildung}{}{.}
+Zeige, dass der
+\definitionsverweis {zurückgezogene Zusammenhang}{}{}
+$\psi^*\nabla$
+\zusatzklammer {auf $L \times \R^r$} {} {}
+ebenfalls trivial ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+\maabb {p} { E } { M
+} {}
+ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+über einer
+\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+$M$, das mit einem
+\definitionsverweis {linearen Zusammenhang}{}{}
+$\nabla$ versehen sei. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ \subseteq }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {offenes Intervall}{}{}
+und
+\maabb {\gamma} { I } { M
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Kurve}{}{}
+mit dem
+\definitionsverweis {zurückgezogenen Zusammenhang}{}{}
+$\gamma^*\nabla$ auf dem
+\definitionsverweis {zurückgezogenen Vektorbündel}{}{}
+$\gamma^*E$ über $I$. Bestimme die
+\definitionsverweis {Christoffelsymbole}{}{}
+von
+\mathl{\gamma^* \nabla}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Wir betrachten die trigonometrische Parametrisierung
+\maabbeledisp {\psi} {\R } { S^1
+} { t } { \left(  \cos  t   , \,   \sin  t                   \right)
+} {}
+des Einheitskreises. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ [0, 2 \pi[
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+fixiert. Auf dem trivialen Vektorbündel
+\maabbdisp {} {S^1 \times \R^2} { S^1
+} {}
+sei ein
+\definitionsverweis {linearer Zusammenhang}{}{}
+$\nabla$ gegeben derart, dass der längs $\psi$
+\definitionsverweis {zurückgezogene Zusammenhang}{}{}
+$\psi^* \nabla$ durch die
+\definitionsverweis {Christoffelsymbole}{}{}
+\zusatzklammer {der Index für die einzige Ableitungsrichtung wird weggelassen} {} {}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix} \tilde{\Gamma}_1^1 (t)   &  \tilde{\Gamma}_1^2 (t)   \\ \tilde{\Gamma}_2^1(t)  &  \tilde{\Gamma}_2^2(t)  \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  0  &   - { \frac{  c  }{  2 \pi   } }   \\  { \frac{  c  }{  2 \pi  } }  &  0  \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gegeben ist. Wir betrachten zu einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ = }{ \begin{pmatrix}  a  \\b   \end{pmatrix}
+}
+{ \in }{ \R^2
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Abbildung
+\maabbeledisp {\Psi_{Q}} {\R} { S^1 \times \R^2
+} { t } { \left(  \cos  t   , \,   \sin  t  , \,   M(t)  \begin{pmatrix}  a  \\b   \end{pmatrix}                 \right)
+} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M(t)
+}
+{ =} { \begin{pmatrix}  \cos  { \frac{  ct  }{  2 \pi   } }   &   -  \sin  { \frac{  ct  }{  2 \pi   } }    \\  \sin  { \frac{  ct  }{  2 \pi  } }   &  \cos  { \frac{  ct  }{  2 \pi   } }  \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+\aufzaehlungfuenf{Bestimme $\Psi_Q(0)$.
+}{Bestimme $\Psi_Q(2 \pi)$.
+}{Zeige, dass  $\Psi_Q$ eine
+\definitionsverweis {horizontale Liftung}{}{}
+längs $\psi$  ist.
+}{Zeige, dass
+\maabbeledisp {} {\R^2} { \R^2
+} { Q } { \Psi_Q(2 \pi)
+} {,}
+eine
+\definitionsverweis {lineare Isometrie}{}{}
+ist
+\zusatzklammer {der Basispunkt $(1,0)$ wird hier nicht aufgeführt} {} {.}
+}{Zeige, dass
+\maabbeledisp {} {\Z} { \operatorname{SL}_{  2  } \! \left(  \R  \right)
+} { k } { \left(  Q \mapsto \Psi_Q(2k \pi )  \right)
+} {,}
+ein
+\definitionsverweis {Gruppenhomomorphismus}{}{}
+ist.
+}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Bestimme für die Kurve
+\maabbeledisp {\psi} {\R} { {\mathbb H}
+} { t } { \left(  t   , \,  e^t                   \right)
+} {,}
+in die
+\definitionsverweis {Halbebene von Poincaré}{}{}
+${\mathbb H}$ die
+\definitionsverweis {Christoffelsymbole}{}{}
+für den
+\definitionsverweis {zurückgezogenen Zusammenhang}{}{}
+\zusatzklammer {zum
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{}
+auf ${\mathbb H}$} {} {}
+auf $\R$.
+
+}
+{} {}
+
+Beachte in der folgenden Aufgabe, dass es nach
+[[Topologische Räume/Relatives Produkt/Hintereinanderschaltung/Aufgabe|Aufgabe 11.23]]
+egal ist, ob man den Rückzug des Vektorbündels nach $Y$ direkt oder über $Z$ bestimmt.
+
+\inputaufgabe
+{}
+{
+
+Es sei
+\maabb {p} { E } { M
+} {}
+ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+über einer
+\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+$M$, das mit einem
+\definitionsverweis {linearen Zusammenhang}{}{}
+$\nabla$ versehen sei. Es seien $Y,Z$ weitere differenzierbare Mannigfaltigkeiten mit
+\definitionsverweis {stetig differenzierbare Abbildungen}{}{}
+
+\mathdisp {Y \stackrel{\varphi}{\longrightarrow} Z \stackrel{\psi}{\longrightarrow}  M} { . }
+
+Zeige, dass für die
+\definitionsverweis {zurückgezogenen Zusammenhänge}{}{}
+auf
+\mathl{\left(  \psi \circ \varphi  \right)^* E}{} die Beziehung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \psi \circ \varphi  \right)^*(\nabla)
+}
+{ =} { \varphi^*  \left(  \psi^*\nabla  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gilt.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{}
+versehen mit dem
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{}
+und sei
+\maabbdisp {\gamma} { I } { M
+} {}
+eine zweifach stetig
+\definitionsverweis {differenzierbare Kurve}{}{.}
+Zeige, dass $\gamma$ genau dann eine
+\definitionsverweis {geodätische Kurve}{}{}
+ist, wenn die Ableitungskurve
+\maabb {\gamma'} { I } { TM
+} {}
+ein
+\definitionsverweis {horizontaler Schnitt}{}{}
+im
+\definitionsverweis {Tangentialbündel}{}{}
+$TM$ ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ \subseteq }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {offenes Intervall}{}{}
+mit einer positiven stetig differenzierbaren Funktion
+\maabbdisp {g} { I } { \R_+
+} {,}
+die wir als eine
+\definitionsverweis {riemannsche Metrik}{}{}
+auf $I$ auffassen. Charakterisiere die
+\definitionsverweis {geodätischen Kurven}{}{}
+\maabbdisp {\gamma} { J } { I
+} {,}
+wobei $J$ ein weiteres Intervall bezeichnet.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Bestimme für die Kurve
+\maabbeledisp {\psi} {\R} { {\mathbb H}
+} { t } { \left(  t   , \,  e^t                   \right)
+} {,}
+in die
+\definitionsverweis {Halbebene von Poincaré}{}{}
+${\mathbb H}$ die
+\definitionsverweis {tangentiale Beschleunigung}{}{}
+für jedes $t$.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Man gebe ein Beispiel für eine
+\definitionsverweis {zusammenhängende}{}{}
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{}
+$M$ und zwei Punkte
+
+\mavergleichskette
+{\vergleichskette
+{ P,Q
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+die nicht durch eine
+\definitionsverweis {geodätische Kurve}{}{}
+verbunden werden können.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Man gebe ein Beispiel für eine
+\definitionsverweis {zusammenhängende}{}{}
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{}
+$M$ und zwei Punkte
+
+\mavergleichskette
+{\vergleichskette
+{ P,Q
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+die durch mehrere
+\definitionsverweis {geodätische Kurven}{}{}
+miteinander verbunden werden können, die alle die gleiche Länge haben.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Man gebe ein Beispiel für eine
+\definitionsverweis {zusammenhängende}{}{}
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{}
+$M$ und zwei Punkte
+
+\mavergleichskette
+{\vergleichskette
+{ P,Q
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+die durch mehrere
+\definitionsverweis {geodätische Kurven}{}{}
+miteinander verbunden werden können, die nicht die gleiche Länge haben.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Bestätige, dass das System von gewöhnlichen Differentialgleichungen zweiter Ordnung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma_1^{\prime \prime} (t)
+}
+{ =} { { \frac{   2  }{  \gamma_2(t) } } \gamma_1'(t) \gamma_2'(t)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma_2^{\prime \prime} (t)
+}
+{ =} { -  { \frac{   1  }{  \gamma_2(t) } }  \gamma_1'(t) \gamma_1'(t) + { \frac{   1  }{  \gamma_2(t) } }    \gamma_2'(t) \gamma_2'(t)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+durch die Kurven
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma(t)
+}
+{ =} { \begin{pmatrix}  s+r \tanh  t  \\ { \frac{   r  }{  \cosh  t  } }    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ s
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ r
+}
+{ \in }{ \R_+
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gelöst wird.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Wir betrachten Kreise mit Mittelpunkt
+\mathl{(s,0)}{} und Radius
+
+\mavergleichskette
+{\vergleichskette
+{ r
+}
+{ > }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Charakterisiere, wann sich zwei solche Kreise schneiden.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{(a,b)
+}
+{ \in }{ {\mathbb H}
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Punkt in der
+\definitionsverweis {Halbebene von Poincaré}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ = }{ (v_1,v_2)
+}
+{ \in }{ \R^2
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {Tangentenvektor}{}{}
+an $P$.
+\aufzaehlungzwei {Bestimme einen Halbkreis mit Mittelpunkt auf der $x$-Achse
+\zusatzklammer {mit vertikalen Geraden als Extremfall} {} {,}
+der durch $P$ verläuft und tangential zu $\R v$ ist.
+} {Bestimme eine
+\definitionsverweis {geodätische Kurve}{}{,}
+die diesen Tangentenvektor realisiert.
+}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+\maabb {\psi} { L } { M
+} {}
+eine
+\definitionsverweis {Isometrie}{}{}
+zwischen
+\definitionsverweis {riemannschen Mannigfaltigkeiten}{}{}
+\mathkor {} {L} {und} {M} {.}
+\aufzaehlungdrei{Zeige, dass der
+\definitionsverweis {zurückgezogene Zusammenhang}{}{}
+zum
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{}
+auf $M$ gleich dem Levi-Civita-Zusammenhang auf $L$ ist.
+}{Zeige, dass sich die
+\definitionsverweis {tangentialen Beschleunigungen}{}{}
+zu einer zweifach differenzierbaren Kurve
+\maabb {\gamma} { I } { L
+} {}
+bzw.
+\maabb {\psi \circ \gamma} { I } { M
+} {}
+entsprechen.
+}{Zeige, dass sich die
+\definitionsverweis {geodätischen Kurven}{}{}
+in $L$ und in $M$ entsprechen.
+}
+
+}
+{} {}
+
+Es sei $M$ eine
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{,}
+wobei das
+\definitionsverweis {Tangentialbündel}{}{}
+$TM$ mit dem
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{}
+versehen sei. Es sei
+\maabb {\gamma} { I } { M
+} {}
+eine
+\definitionsverweis {differenzierbare Kurve}{}{.}
+Man sagt, dass ein längs $\gamma$ definiertes differenzierbares
+\definitionsverweis {Vektorfeld}{}{}
+\maabb {F} { I } { TM
+} {}
+\definitionswort {parallel längs}{}
+$\gamma$ ist, wenn
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (\nabla_{\partial} F)(t)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt.
+
+Für die folgende Aufgabe vergleiche
+[[Differenzierbare Hyperfläche/Zusammenhang/Kurve/Parallel und horizontal/Aufgabe|Aufgabe 25.13]].
+
+\inputaufgabe
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {offen}{}{,}
+eine
+\definitionsverweis {differenzierbare Hyperfläche}{}{,}
+die wir auch also eine
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{}
+über den umgebenden Raum $\R^n$ mit dem
+\definitionsverweis {Standardskalarprodukt}{}{}
+auffassen.
+Es sei
+\maabb {\gamma} { I } { Y
+} {}
+eine
+\definitionsverweis {differenzierbare Kurve}{}{}
+und es sei
+\maabb {F} { I } { TY \subseteq Y \times \R^n
+} {}
+ein differenzierbares
+\definitionsverweis {Vektorfeld}{}{}
+längs $\gamma$.  Zeige, dass $F$ genau dann
+\definitionswort {parallel längs}{}
+$\gamma$ im Sinne von
+[[Hyperfläche/Kurve/Paralleles Vektorfeld/Definition|Definition 6.6]]
+ist, wenn $F$
+\definitionsverweis {parallel}{}{}
+längs $\gamma$ bezüglich des
+\definitionsverweis {Levi-Civita-Zusammenhangs}{}{}
+auf $TY$ ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{,}
+wobei das
+\definitionsverweis {Tangentialbündel}{}{}
+$TM$ mit dem
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{}
+versehen sei. Es sei
+\maabb {\gamma} { I } { M
+} {}
+eine zweifach
+\definitionsverweis {differenzierbare Kurve}{}{.}
+Zeige, dass $\gamma$ genau dann eine
+\definitionsverweis {geodätische Kurve}{}{}
+ist, wenn die Ableitung
+\maabbdisp {\gamma'} { I } { TM
+} {}
+ein
+\definitionsverweis {paralleles Vektorfeld}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Zeige, dass auf dem
+\definitionsverweis {euklidischen Raum}{}{}
+$\R^n$ die
+\definitionsverweis {riemannsche Metrik}{}{}
+gleich dem
+\definitionsverweis {euklidischen Abstand}{}{}
+ist.
+
+}
+{} {}
+
+  \zwischenueberschrift{Aufgaben zum Abgeben}
+
+\inputaufgabe
+{4}
+{
+
+Wir betrachten $\R_+$ mit der durch
+
+\mavergleichskette
+{\vergleichskette
+{ g(t)
+}
+{ = }{ t^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegebenen
+\definitionsverweis {riemannschen Metrik}{}{.}
+Bestimme die
+\definitionsverweis {geodätischen Kurven}{}{}
+in $\R_+$.
+
+}
+{} {}
+
+\inputaufgabe
+{6 (3+3)}
+{
+
+Wir betrachten die Kurve
+\maabbeledisp {\psi} {\R} { {\mathbb H}
+} { t } { \left(  t   , \,   1+t^2                   \right)
+} {,}
+in die
+\definitionsverweis {Halbebene von Poincaré}{}{}
+${\mathbb H}$.
+\aufzaehlungzwei {Bestimme die
+\definitionsverweis {Christoffelsymbole}{}{}
+für den
+\definitionsverweis {zurückgezogenen Zusammenhang}{}{}
+\zusatzklammer {zum
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{}
+auf ${\mathbb H}$} {} {}
+auf $\R$.
+} {Bestimme die
+\definitionsverweis {tangentiale Beschleunigung}{}{}
+von $\psi$ für jedes $t$.
+}
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Bestimme die
+\definitionsverweis {geodätischen Kurven}{}{}
+auf der
+\definitionsverweis {hyperbolischen Kreisscheibe}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ \geq }{ 2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { \R^n \setminus \{P_1  , \ldots , P_m \}
+}
+{ \subseteq} { \R^n
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+aufgefasst als
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{}
+mit dem induzierten
+\definitionsverweis {Standardskalarprodukt}{}{.}
+Zeige, dass auf $M$ die
+\definitionsverweis {riemannsche Metrik}{}{}
+gleich dem
+\definitionsverweis {euklidischen Abstand}{}{}
+ist.
+
+}
+{} {}
+
+ [[Kategorie:Latexseite]]

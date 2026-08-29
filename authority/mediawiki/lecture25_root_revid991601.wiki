@@ -1,0 +1,109 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesungsgestaltung|25|
+
+{{Zwischenüberschrift|Horizontale Schnitte}}
+
+{{:Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontaler Schnitt/Einführung/Textabschnitt}}
+
+{{Zwischenüberschrift|Lineare Zusammenhänge}}
+
+{{:Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Einführung/Textabschnitt}}
+
+{{
+inputfaktbeweis
+|Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Existenz/Fakt|Lemma||
+||
+}}
+
+{{Zwischenüberschrift|Christoffelsymbole für einen linearen Zusammenhang}}
+
+{{:Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Christoffelsymbole/Einführung/Textabschnitt}}
+
+{{Zwischenüberschrift|Horizontale Schnitte bei einem linearen Zusammenhang}}
+
+Zu einer offenen Menge
+{{
+Relationskette
+| U
+|\subseteq| X
+|| 
+|| 
+|| 
+|SZ=
+}} 
+bezeichnen wir zu einem Vektorbündel {{math|term= E|SZ=}} mit einem linearen Zusammenhang {{math|term= \nabla|SZ=}} den Raum der horizontalen Schnitte mit {{mathl|term= H(\nabla,U)|SZ=.}} Es ist also
+{{
+Relationskette/display
+| H(\nabla,U)  
+|| {{Mengebed|s \in C^1(U,E)|\nabla(s) {{=|}}0 }} 
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Es handelt sich dabei um eine {{Anführung|sehr kleine|}} Auswahl von Schnitten, wie schon von
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontale Liftung/Übereinstimmung/Aufgabe
+|Nr=
+|SZ=
+}}
+her klar ist und wie auch das folgende Lemma zeigt. Beim trivialen Vektorbündel
+vom Rang {{math|term= 1|SZ=}} mit dem trivialen Zusammenhang geht es einfach um die lokal konstanten Schnitte. Man spricht von lokal-konstanten Garben oder von lokalen Systemen.
+{{
+inputfaktbeweis
+|Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Horizontale Schnitte/Untervektorraum/Fakt|Lemma||
+||
+}}
+
+Wenn es global
+{{
+Zusatz/Klammer
+|text=also über {{math|term= X|SZ=}}|
+|ISZ=|ESZ=
+}}
+{{math|term= r|SZ=}} linear unabhängige horizontale Schnitte im Vektorbündel {{math|term= E |SZ=}}  gibt, so ist das Vektorbündel trivial.
+
+Lokal integrabel bedeutet für einen linearen Zusammenhang, dass zu jedem Punkt
+{{
+Relationskette
+| x
+|\in| X
+||
+||
+||
+|SZ=
+}} 
+und 
+{{
+Relationskette
+| e
+|\in| E_x
+||
+||
+||
+|SZ=
+}}
+lokal
+{{
+Zusatz/Klammer
+|text=in einer offenen Umgebung von {{math|term= x|SZ=}}|
+|ISZ=|ESZ=
+}}
+die nach
+{{
+Faktlink
+|Faktseitenname=
+Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Horizontale Schnitte/Untervektorraum/Fakt
+|Nr=
+|SZ=
+}}
+maximal mögliche Anzahl
+{{
+Zusatz/Klammer
+|text=die durch den Rang des Bündels festgelegt ist|
+|ISZ=|ESZ=
+}}
+von linear unabhängigen horizontalen Schnitten angenommen wird. Die lokale Integrabilität ist bei einer eindimensionalen Basismannigfaltigkeit stets erfüllt.
+
+}}

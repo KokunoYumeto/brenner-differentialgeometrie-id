@@ -1,0 +1,81 @@
+{
+  "schema": "o011.terminology-source-receipt.v1",
+  "qa_boundary": "unit-07",
+  "decision": "No qualifying Indonesian-language arXiv source with public TeX was found; use the bounded institutional-PDF fallback.",
+  "arxiv": {
+    "status": "no_qualifying_source",
+    "authority": "https://arxiv.org/",
+    "probes": [
+      {
+        "url": "https://export.arxiv.org/api/query?search_query=all%3A%2522geometri%2520diferensial%2522&start=0&max_results=20",
+        "response_path": "authority/terminology/arxiv-probe/01-geometri-diferensial.xml",
+        "bytes": 744,
+        "sha256": "80873d25491e698723b13472fc455105328dc35e2a02ae922996027b05ef485e",
+        "updated": "2026-08-23T18:55:20Z",
+        "total_results": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?search_query=cat%3Amath.DG%20AND%20all%3A%2522in%2520Indonesian%2522&start=0&max_results=20",
+        "response_path": "authority/terminology/arxiv-probe/02-math-dg-in-indonesian.xml",
+        "bytes": 762,
+        "sha256": "f1fe601e53d4f26aa93cd1d99b0743afe09a4cfa5aedf80eb9e7aacd0db1b26b",
+        "updated": "2026-08-23T18:55:58Z",
+        "total_results": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?search_query=cat%3Amath.DG%20AND%20%28all%3A%2522Bahasa%2520Indonesia%2522%20OR%20all%3A%2522Indonesian%2520language%2522%29&start=0&max_results=20",
+        "response_path": "authority/terminology/arxiv-probe/03-math-dg-language-markers.xml",
+        "bytes": 848,
+        "sha256": "4a365896a63e8586521485237dfb73e81096a6e2f67a866a7d64e810047b7524",
+        "updated": "2026-08-23T18:56:06Z",
+        "total_results": 0
+      },
+      {
+        "url": "https://export.arxiv.org/api/query?search_query=%28all%3A%2522ruang%2520tangen%2522%20OR%20all%3A%2522bundel%2520tangen%2522%20OR%20all%3A%2522bentuk%2520diferensial%2522%20OR%20all%3A%2522metrik%2520Riemann%2522%20OR%20all%3A%2522koneksi%2520Levi-Civita%2522%20OR%20all%3A%2522kurva%2520parametrik%2522%29&start=0&max_results=50",
+        "response_path": "authority/terminology/arxiv-probe/04-indonesian-field-terms.xml",
+        "bytes": 1088,
+        "sha256": "b612856530fbb55cf61249dc99b8a76a7e7e5d642215110042a8197f87855ac8",
+        "updated": "2026-08-23T18:57:02Z",
+        "total_results": 0
+      }
+    ]
+  },
+  "fallback": {
+    "type": "official_institutional_journal_pdf",
+    "title": "Sifat-Sifat Fungsi Jarak pada Manifold Riemannian",
+    "authors": [
+      "Riri Alfakhriati",
+      "Jenizon",
+      "Haripamyu"
+    ],
+    "publisher_surface": "Jurnal Matematika UNAND, Jurusan Matematika FMIPA Universitas Andalas",
+    "volume": "7",
+    "issue": "2",
+    "pages": "140-148",
+    "published": "2018-05-01",
+    "doi": "10.25077/jmu.7.2.140-148.2018",
+    "landing_url": "https://jmua.fmipa.unand.ac.id/index.php/jmua/article/view/320",
+    "pdf_url": "https://jmua.fmipa.unand.ac.id/index.php/jmua/article/download/320/311",
+    "retrieved_utc": "2026-08-23T18:58:16Z",
+    "pdf_path": "authority/terminology/alfakhriati-jenizon-haripamyu-2018-sifat-fungsi-jarak-manifold-riemannian.pdf",
+    "pdf_bytes": 432411,
+    "pdf_sha256": "be4039d4b589f37fe9ae4740269c98473d0d1dba96f3bd88fc8e3d6ce4e5998d",
+    "pdf_pages": 9,
+    "pdf_page_size": "A4",
+    "pdf_creator": "TeX",
+    "pdf_producer": "MiKTeX pdfTeX-1.40.14",
+    "text_path": "authority/terminology/alfakhriati-jenizon-haripamyu-2018-sifat-fungsi-jarak-manifold-riemannian.txt",
+    "text_bytes": 22668,
+    "text_sha256": "79501bb9604f3ad02c193a7d8957c53ff7ddb1b5515b831f95b6bc43208e730f",
+    "public_tex_status": "not_exposed_on_public_article_landing_page",
+    "language_evidence": "The complete PDF body is Indonesian despite the landing page's erroneous citation_language=en field."
+  },
+  "comparison_inputs": {
+    "terminology_path": "00_control/TERMINOLOGY.csv",
+    "terminology_bytes": 11474,
+    "terminology_sha256": "9f556b553ce9f10453ffa8033c413855acb39253baab00ded1973c9f1a9be1dd",
+    "translated_boundary": "Units 1-7 lecture/worksheet reader source",
+    "unit_07_lecture_sha256": "5faec64b0b20a6999e61fc3fa6a32db812e324d1e8a272d1978c67bc76c3c7b0",
+    "unit_07_worksheet_sha256": "af223f98696a9353e7967d3ac150a8f2f5de3c49bef506c69fe0d452e7717658"
+  }
+}

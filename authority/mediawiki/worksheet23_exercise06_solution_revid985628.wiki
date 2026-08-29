@@ -1,0 +1,49 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Da nach
+{{
+Faktlink
+|Faktseitenname=
+Differentialform/Mannigfaltigkeit/Äußere Ableitung/Eigenschaften/Fakt
+|Nr=5
+|SZ=
+}}
+das Zurückziehen von Formen mit der äußeren Ableitung verträglich ist, ist auch {{mathl|term= \varphi^*\omega|SZ=}} exakt. Es sei {{math|term= \tau|SZ=}} eine differenzierbare Form auf {{math|term= S |SZ=}} mit
+{{
+Relationskette/display
+|d \tau
+|| \varphi^* \omega
+||
+||
+||
+|SZ=.
+}}
+Nach
+{{
+Faktlink
+|Präwort=dem|Satz von Stokes|Faktseitenname=
+Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt
+|Nr=
+|SZ=
+}}
+ist
+{{
+Relationskette/display
+| \int_S \varphi^* \omega 
+|| \int_S d \tau
+|| \int_{ \partial S } \tau
+|| \int_\emptyset \tau
+|| 0
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

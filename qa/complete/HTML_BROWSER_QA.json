@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-html-browser-qa-complete-v1",
+  "status": "pass",
+  "generated_at_utc": "2026-08-28T21:20:47.7013304Z",
+  "scope": "Real-browser desktop/mobile, MathJax, responsive reflow, deep-link, media, and interaction QA for the exact complete Indonesian HTML reader.",
+  "browser": "Codex In-app Browser",
+  "test_protocol": "The exact final output tree was served from a task-local loopback origin after deterministic export and two independent restages. The same bytes were exercised at explicit desktop and mobile viewport overrides. A browser-discovered malformed Unit 29 Jacobi formula was traced to the inherited MediaWiki-link disambiguator, repaired in the complete exporter, deterministically rebuilt, and reloaded before the passing measurements below. The temporary viewport override was reset, the test tab was closed, and the loopback server was stopped.",
+  "surface": {
+    "entry": {
+      "path": "output/html/complete/index.html",
+      "bytes": 2581857,
+      "sha256": "ebee44b421d841f4be2ff22c2007f58c3c63b5042a63dfd96dcd079fc4d17c66"
+    },
+    "manifest": {
+      "path": "output/html/complete/manifest.json",
+      "bytes": 245625,
+      "sha256": "ce25122eb211b9feeec34eebbde8d547a08506bfdebbcb29dbd65341acb28d1d"
+    },
+    "stylesheet": {
+      "path": "output/html/complete/assets/reader.css",
+      "bytes": 7993,
+      "sha256": "3822d4ee81d2e390fd99d4503e33e1f252843f3f2997a3fdd03d5744dfc92129"
+    },
+    "structural_qa": {
+      "path": "qa/complete/HTML_READER_QA.json",
+      "bytes": 11715,
+      "sha256": "59f9fad53b76527e4638efa83544bb17e7b57efff217e0f4a597f1f38cddb83f"
+    },
+    "exporter": {
+      "path": "scripts/export_html_complete.py",
+      "bytes": 26424,
+      "sha256": "1373caacbc4b4c9ea76204f7f405caffc466704d93ab505e2f2115004e29ac98"
+    },
+    "complete_tree_inventory_sha256": "6e45a8f7a544f8c3462e83ced60224f3f5052185ef5939d7a44910c0f7344777"
+  },
+  "desktop": {
+    "requested_viewport": {"width": 1280, "height": 720},
+    "viewport": {
+      "inner_width": 1280,
+      "inner_height": 720,
+      "document_client_width": 1265,
+      "document_scroll_width": 1265,
+      "body_scroll_width": 1265,
+      "page_horizontal_overflow_px": 0
+    },
+    "main": {
+      "left_px": 16,
+      "right_px": 1248.888916015625,
+      "width_px": 1232.888916015625,
+      "center_delta_px": 0.0555419921875
+    },
+    "visual_sample": "The de Rham bridge filled the centered reader wrapper with readable line length; the unit navigation remained intentionally locally horizontally scrollable."
+  },
+  "mobile": {
+    "requested_viewport": {"width": 390, "height": 844},
+    "viewport": {
+      "inner_width": 390,
+      "inner_height": 844,
+      "document_client_width": 375,
+      "document_scroll_width": 375,
+      "body_scroll_width": 375,
+      "page_horizontal_overflow_px": 0
+    },
+    "main": {
+      "left_px": 0,
+      "right_px": 375.1111145019531,
+      "width_px": 375.1111145019531,
+      "center_delta_px": 0.0555572509765625
+    },
+    "wide_math_elements": 1891,
+    "wide_math_elements_without_local_scroll": 0,
+    "visual_sample": "Exam 10 reflowed to a single readable column with intact badges, lists, and mathematics and no page-level horizontal clipping."
+  },
+  "runtime": {
+    "math_source_elements": 12484,
+    "mathjax_containers": 12484,
+    "mathjax_errors": 0,
+    "console_errors_or_warnings": 0,
+    "units": 29,
+    "exam_actual_problem_occurrences": 123,
+    "exam_source_supplied_solution_occurrences": 117,
+    "figures": 36,
+    "internal_links": 321,
+    "broken_internal_links": 0,
+    "dom_ids": 1768,
+    "unique_dom_ids": 1768,
+    "duplicate_ids": 0
+  },
+  "deep_links": {
+    "jembatan_de_rham": {"fragment": "#jembatan-de-rham", "target_exists": true, "target_top_px": -0.1875, "visible_after_navigation": true},
+    "exam_10": {"fragment": "#ujian-10", "target_exists": true, "target_top_px": -0.1944444477558136, "visible_after_navigation": true},
+    "unit_29_figure": {"fragment": "#o011-brenner-u29-l29-fig-001", "target_exists": true, "loaded_width_px": 322, "loaded_height_px": 110, "natural_width": 322, "natural_height": 110, "alt_text_nonempty": true}
+  },
+  "media": {
+    "image_elements": 36,
+    "all_alt_text_nonempty": true,
+    "early_figure": {"id": "o011-brenner-u01-l01-fig-001", "loaded": true, "natural_width": 603, "natural_height": 468, "alt_text": "Ilustrasi sumber: 3d-function-6"},
+    "deep_figure": {"id": "o011-brenner-u29-l29-fig-001", "loaded": true, "natural_width": 322, "natural_height": 110, "alt_text": "Ilustrasi sumber: Parallel lines in Poincare's model of hyperbolic geometry"},
+    "lazy_unvisited_images_not_forced_to_load": true
+  },
+  "animations": {
+    "count": 2,
+    "all_static_first": true,
+    "all_have_play_stop_controls": true,
+    "representative": {
+      "id": "o011-brenner-u12-l12-fig-001",
+      "play_state": "playing",
+      "play_source": "assets/media/Fiddler%20crab%20mobius%20strip.gif",
+      "play_status": "Animasi sedang diputar.",
+      "stop_state": "stopped",
+      "stop_source": "assets/media/Fiddler_crab_mobius_strip.png",
+      "stop_status": "Animasi dihentikan; bingkai statis ditampilkan."
+    }
+  },
+  "repair": {
+    "finding": "One visible MathJax error in the Unit 29 Jacobi identity: Extra close brace or missing open brace.",
+    "cause": "The inherited math expander treated the mathematical nested Lie brackets [[...]] as MediaWiki link delimiters.",
+    "resolution": "The complete exporter now rewrites that exact nested Lie-bracket identity to equivalent explicit TeX delimiters before inherited expansion.",
+    "post_repair_mathjax_errors": 0,
+    "deterministic_restage_passed": true
+  },
+  "checks": {
+    "exact_final_entry_manifest_and_structural_receipt_bound": true,
+    "desktop_centered_and_fills_wrapper_without_page_overflow": true,
+    "mobile_reflows_without_page_overflow": true,
+    "wide_mathematics_is_locally_scrollable": true,
+    "mathjax_runtime_complete_without_errors": true,
+    "console_has_no_errors_or_warnings": true,
+    "internal_links_resolve": true,
+    "deep_links_align_after_mathjax_layout": true,
+    "representative_early_and_deep_media_load_with_alt_text": true,
+    "animations_are_static_first_with_controls": true,
+    "representative_play_stop_transition_passes": true,
+    "deterministic_post_repair_rebuild_passes": true,
+    "temporary_viewport_override_reset": true,
+    "test_tab_closed": true,
+    "loopback_server_stopped": true
+  }
+}

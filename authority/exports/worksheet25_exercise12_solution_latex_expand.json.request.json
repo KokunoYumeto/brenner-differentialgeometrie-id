@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 15:20:41 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Offenes Intervall/Trivialer Zusammenhang/Basisschnitte/Christoffelsymbole/1/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 3785,
+  "response_path": "worksheet25_exercise12_solution_latex_expand.json",
+  "response_sha256": "99b2e0466251bae25d0c343b0b6c51b9722ca996c731f01c7f512c1351d576f7",
+  "retrieved_utc": "2026-08-28T15:20:40Z",
+  "schema_version": 1
+}

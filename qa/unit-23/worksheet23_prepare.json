@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-23/worksheet23.id.tex",
+  "input_bytes": 14950,
+  "input_sha256": "9af134008d058544d00b7f4217a89f7a0683d70f347fa2d1bce6776fcb8c00c0",
+  "output": "build/generated/worksheet23.id.build.tex",
+  "output_bytes": 14174,
+  "output_sha256": "b38e3f126bf0720ac3f05e3129af1e2b33fc5ecd6ad5cf1b93b4e0ed9e93a687",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Riemann-Integral/Hauptsatz/Newton-Leibniz/Fakt",
+      "label": "rumus Newton--Leibniz"
+    },
+    {
+      "target": "Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt",
+      "label": "teorema Stokes"
+    },
+    {
+      "target": "Satz von Stokes/Quaderversion/Fakt",
+      "label": "versi balok dari teorema Stokes"
+    },
+    {
+      "target": "Integration auf ebener Mannigfaltigkeit mit Rand/Satz von Green/Flächenversion/Fakt",
+      "label": "teorema Green"
+    },
+    {
+      "target": "Integration auf ebener Mannigfaltigkeit mit Rand/Satz von Green/Fakt",
+      "label": "teorema Green"
+    },
+    {
+      "target": "Integration auf ebener Mannigfaltigkeit mit Rand/Satz von Green/Fakt",
+      "label": "teorema Green"
+    },
+    {
+      "target": "Allgemeines Kugelvolumen/Mit Cavalieri-Prinzip/Beispiel",
+      "label": "volume bola"
+    },
+    {
+      "target": "Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt",
+      "label": "teorema Stokes"
+    },
+    {
+      "target": "Allgemeines Kugelvolumen/Mit Cavalieri-Prinzip/Beispiel",
+      "label": "volume"
+    },
+    {
+      "target": "Vektorfeld/R^2/Gegenableitungdifferenz/Limesformel/Aufgabe",
+      "label": "Soal 58.23 (Analisis (Osnabrück 2021--2023))"
+    },
+    {
+      "target": "Obere Halbebene/Einheitskreis/Rational isomorph/Ausdehnung/Aufgabe",
+      "label": "Soal 21.8"
+    },
+    {
+      "target": "Brouwersche Fixpunktsatz/Stetig differenzierbar/Retraktion/Fakt",
+      "label": "teorema titik tetap Brouwer"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

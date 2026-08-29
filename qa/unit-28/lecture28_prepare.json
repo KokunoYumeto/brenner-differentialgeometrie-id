@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-28/lecture28.id.tex",
+  "input_bytes": 17682,
+  "input_sha256": "2ef59ce9e1230c34a50e8c098676f8286cbda627b2a888de08ab19f96802f37e",
+  "output": "build/generated/lecture28.id.build.tex",
+  "output_bytes": 15864,
+  "output_sha256": "ebe160ea479ca44a94ab1e63b3ee4cb84e14715b94d2400650908e90e9c55311",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 6,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt",
+      "label": "Lema 25.10"
+    },
+    {
+      "target": "Reelles Vektorbündel/Trivial/Linearer Zusammenhang/Krümmungsoperator/Beschreibung/Fakt",
+      "label": "Lema 28.2"
+    },
+    {
+      "target": "Offene Teilmenge/R^n/Differentialform ersten Grades/Geschlossen/Aufgabe",
+      "label": "Soal 20.8"
+    },
+    {
+      "target": "Reelles Vektorbündel/Trivial/Linearer Zusammenhang/Krümmungsoperator/Beschreibung/Fakt",
+      "label": "Lema 28.2"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Ableitung bezüglich Vektorfeld/Eigenschaften/Fakt",
+      "label": "Lema 24.10"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorfelder/Lie-Klammer/Eigenschaften/Fakt",
+      "label": "Lema 11.8"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorfelder/Lie-Klammer/Eigenschaften/Fakt",
+      "label": "Lema 11.8"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Leibnizregel/Fakt",
+      "label": "Teorema 25.5"
+    },
+    {
+      "target": "Reelles Vektorbündel/Linearer Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt",
+      "label": "Lema 28.4  (3)"
+    },
+    {
+      "target": "Reelles Vektorbündel/Linearer Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt",
+      "label": "Lema 28.4  (3)"
+    },
+    {
+      "target": "R^n/Offene Menge/Trivialer Zusammenhang/Ableitungseigenschaften/Fakt/Beweis/Aufgabe",
+      "label": "Soal 25.11"
+    },
+    {
+      "target": "Reelles Vektorbündel/Trivial/Linearer Zusammenhang/Krümmungsoperator/Beschreibung/Fakt",
+      "label": "Lema 28.2"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Global integrabel/Globale Trivialisierung/Aufgabe",
+      "label": "Soal 25.6"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Global integrabel/Globale Trivialisierung des Zusammenhangs/Aufgabe",
+      "label": "Soal 25.7"
+    },
+    {
+      "target": "R^n/Offene Menge/Trivialer Zusammenhang/Ableitungseigenschaften/Fakt/Beweis/Aufgabe",
+      "label": "Soal 25.11"
+    },
+    {
+      "target": "Offene Menge/Triviales Vektorbündel/Linearer Zusammenhang/Spaltung/Christoffelsymbole/Bemerkung",
+      "label": "Catatan 25.8"
+    },
+    {
+      "target": "Reelles Vektorbündel/Trivialer Zusammenhang/Trivialer Krümmungsoperator/Fakt",
+      "label": "Akibat 28.6"
+    },
+    {
+      "target": "Eindimensionale Mannigfaltigkeit/Vektorbündel/R/Lokal integrabel/Aufgabe",
+      "label": "Soal 28.4"
+    },
+    {
+      "target": "Differenzierbare Mannigfaltigkeit/Vektorbündel/R/Rang 1/Satz von Frobenius/Aufgabe",
+      "label": "Soal 28.5"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

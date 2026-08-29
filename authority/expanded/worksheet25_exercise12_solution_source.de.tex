@@ -1,0 +1,167 @@
+\aufzaehlungdrei{Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \det  \begin{pmatrix}  1+t^2   &  t^3  \\  t  &  1+t^2  \end{pmatrix}
+}
+{ =} { 1+2t^2+t^4 -t^4
+}
+{ =} { 1 +2t^2
+}
+{ >} {  0
+}
+{ } {
+}
+}
+{}{}{}
+stets positiv, daher sind die beiden Vektoren
+\mathkor {} {f_1(t)} {und} {f_2(t)} {}
+zu jedem
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{  \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine Basis.
+}{Aus der Beziehung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix} f_1  \\f_2   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  1+t^2  &   t^3  \\  t  &  1+t^2 \end{pmatrix}  \begin{pmatrix} e_1  \\e_2   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+folgt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix} e_1  \\e_2   \end{pmatrix}
+}
+{ =} { { \frac{   1  }{  1+2t^2 } } \begin{pmatrix}  1+t^2  &   -t^3  \\  -t &  1+t^2 \end{pmatrix}  \begin{pmatrix} f_1  \\f_2   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ e_1
+}
+{ =} { { \frac{   1+t^2 }{  1+2t^2 } }   f_1 - { \frac{  t^3 }{  1+2t^2 } } f_2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ e_2
+}
+{ =} { -{ \frac{   t  }{  1+2t^2 } }   f_1 + { \frac{   1+t^2 }{  1+2t^2 } } f_2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Für den trivialen Zusammenhang ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_\partial (f)
+}
+{ =} { \partial f
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Somit ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \nabla_\partial (f_1)
+}
+{ =} { \nabla_\partial \left(  \left(  1+t^2  \right) e_1 + t^3e_2  \right)
+}
+{ =} { 2t e_1 + 3t^2 e_2
+}
+{ =} { 2t  \left(  { \frac{   1+t^2 }{  1+2t^2 } }   f_1 - { \frac{  t^3 }{  1+2t^2 } } f_2   \right)  + 3t^2  \left(  -{ \frac{   t  }{  1+2t^2 } }   f_1 + { \frac{   1+t^2 }{  1+2t^2 } } f_2   \right)
+}
+{ =} {  \left(   { \frac{   2t+2t^3 }{  1+2t^2 } } - { \frac{   3t^3 }{  1+2t^2 } }  \right) f_1  +  \left(  - { \frac{  t^3 }{  1+2t^2 } }   + { \frac{   3t^2+3t^4 }{  1+2t^2 } }     \right)   f_2
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { { \frac{   2t - t^3 }{  1+2t^2 } }  f_1  +  { \frac{   3t^2-t^3+3t^4 }{  1+2t^2 } }      f_2
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{}
+und
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \nabla_\partial (f_2)
+}
+{ =} { \nabla_\partial \left(  t e_1 + \left(  1+t^2  \right) e_2  \right)
+}
+{ =} { e_1 + 2t  e_2
+}
+{ =} { { \frac{   1+t^2 }{  1+2t^2 } } f_1 - { \frac{  t^3 }{  1+2t^2 } } f_2 + 2t \left(  -{ \frac{   t  }{  1+2t^2 } } f_1 + { \frac{   1+t^2 }{  1+2t^2 } } f_2   \right)
+}
+{ =} { \left( { \frac{   1+t^2 }{  1+2t^2 } }  - { \frac{   2t^2 }{  1+2t^2 } }  \right) f_1  + \left(  - { \frac{   t^3  }{  1+2t^2  } } +  { \frac{   2t+2t^3  }{  1+2t^2 } }  \right) f_2
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { { \frac{   1 - t^2  }{  1+2t^2 } } f_1 + { \frac{   2t   +t^3 }{  1+2t^2 } }      f_2
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+Die Koeffizientenfunktionen sind die Christoffelsymbole.
+}
+
+ [[Kategorie:Latexseite]]

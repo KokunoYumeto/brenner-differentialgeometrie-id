@@ -1,0 +1,37 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=Wir wenden
+{{
+Faktlink
+|Präwort=den|Satz von Stokes|Faktseitenname=
+Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt
+|Nr=
+|SZ=
+}}
+auf die Kugeln {{mathl|term= B^n(P, \epsilon) |SZ=}} mit dem Rand {{mathl|term= S^{n-1}(P, \epsilon) |SZ=}} 
+{{
+Zusatz/Klammer
+|text=mit Mittelpunkt {{math|term= P |SZ=}} und Radius {{math|term= \epsilon|SZ=}} |
+|ISZ=|ESZ=
+}} an und erhalten
+{{
+Relationskette/align
+| {{op:Funktionslimes| \epsilon| 0}} {{op:Bruch| 1| \epsilon^n}}     \int_{S^{n-1}(P, \epsilon)} \omega
+|| {{op:Funktionslimes| \epsilon| 0}} {{op:Bruch| 1| \epsilon^n}}     \int_{ \partial B^{n}(P, \epsilon)}   \omega
+|| {{op:Funktionslimes| \epsilon| 0}} {{op:Bruch| 1| \epsilon^n}}     \int_{B^{n}(P, \epsilon)} d \omega
+|| {{op:Funktionslimes| \epsilon| 0}} {{op:Bruch| 1| \epsilon^n}}     \int_{B^{n}(P, \epsilon)} f d \lambda^n
+||\beta_n \cdot f(P)
+||
+|SZ=,
+}}
+wobei wir für das letzte Gleichheitszeichen die Stetigkeit von {{math|term= f |SZ=}} benutzt haben.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "authority/exams/expanded/exam04_solutions_source.de.tex",
+    "bytes": 29457,
+    "sha256": "f3aea770fda251bcdc138521854a7f5a6e3000e783ae86f0179811ffea5d86a2"
+  },
+  "learner": {
+    "path": "source/exams/exam-04/exam04_learner.id.tex",
+    "bytes": 7645,
+    "sha256": "16e2a99d9b62bd082cde86a45377c50f50a11b690a3781d925b29d2ee407d83d"
+  },
+  "target": {
+    "path": "source/exams/exam-04/exam04_solutions.id.tex",
+    "bytes": 29631,
+    "sha256": "df52cef44c3afec3887c9eebd8a1f7627f78a7e1f67eecd40038a3aa49b1ea90"
+  },
+  "occurrences": {
+    "source": 16,
+    "target": 16,
+    "learner": 16,
+    "actual_nonzero": 12,
+    "zero_point_placeholders": 4,
+    "actual_solution_nonblank": 12,
+    "zero_solution_arguments_exact_source": true
+  },
+  "points": {
+    "sequence": [
+      "3",
+      "3",
+      "0",
+      "0",
+      "4",
+      "5(1+2+2)",
+      "4(2+2)",
+      "0",
+      "4",
+      "6",
+      "2",
+      "6(3+3)",
+      "4",
+      "10",
+      "10(2+6+2)",
+      "0"
+    ],
+    "source_target_equal": true,
+    "learner_target_equal": true,
+    "total": 61
+  },
+  "prompts": {
+    "target_exact_learner": true
+  },
+  "links": {
+    "source_count": 12,
+    "target_count": 12,
+    "targets_sequence_equal": true,
+    "targets_sha256": "449f6d653889d47ae5363365c151847c86b0f891559e4b56e5a4199609622a21"
+  },
+  "residual_german": {
+    "scope": "outside single-line immutable link payloads",
+    "count": 0,
+    "hits": []
+  },
+  "status": "pass"
+}

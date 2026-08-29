@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "scope": "source/exams/exam-03/exam03_solutions.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-EXAM03-SOLUTIONS-TRANS-0001",
+      "anchor": "learner prompt defining the nilpotent-matrix locus N",
+      "change": "Reuse the admitted Indonesian predicate inside the protected set-builder formula without changing any mathematical token."
+    },
+    {
+      "correction_id": "O011-EXAM03-SOLUTIONS-TRANS-0002",
+      "anchor": "official solution characterizing the nilpotent-matrix locus",
+      "change": "Translate the reader-facing conjunction inside the protected set-builder formula into Indonesian without changing any mathematical token."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-EXAM03-SOLUTIONS-TRANS-0001",
+      "surface": "protected:vergleichskette",
+      "index": 32,
+      "source_sha256": "438b220090b32f7f2ad1e545fa0b8c38d2e779dc018e813f0d520c789018c8d6",
+      "target_sha256": "5f925fb7aece6111294235db3c8b010bc4a83ec7d9c4ee6e8ae4fe59c0053046"
+    },
+    {
+      "correction_id": "O011-EXAM03-SOLUTIONS-TRANS-0002",
+      "surface": "protected:mathdisp",
+      "index": 6,
+      "source_sha256": "9c6c2b3417db464482c987cdd09317560d851fdaf777ae0af43009d02b4edb83",
+      "target_sha256": "66d274cab8252f2ca244c770a877746a58231321bda4ff1dceab767f56677c14"
+    }
+  ],
+  "evidence_only_deltas": []
+}

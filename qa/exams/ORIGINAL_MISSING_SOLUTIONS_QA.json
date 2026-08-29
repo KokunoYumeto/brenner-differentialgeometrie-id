@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "component_id": "o011-exam-original-missing-solutions",
+  "status": "six_original_missing_solution_repairs_complete_and_smoke_build_passed",
+  "license": "CC BY-SA 4.0",
+  "provenance": "Original Bahasa Indonesia solutions authored by OpenAI Codex gpt-5.6-sol, Ultra, at the user's direction; explicitly not source-supplied.",
+  "artifacts": {
+    "license": {
+      "path": "source/exams/original-repairs/LICENSE.md",
+      "bytes": 722,
+      "sha256": "1429c1c27e848d383c1c7d52216b007fe0c2ca9384739dd88aeae04d1d5289d6"
+    },
+    "solutions": {
+      "path": "source/exams/original-repairs/missing-exam-solutions.id.tex",
+      "bytes": 7208,
+      "sha256": "4964e0600fc2f0d68c96856e48d4c240022d2cf13aecfe79fb4de2911c69fb3d"
+    },
+    "smoke_pdf": {
+      "path": "build/exam-original-repairs-smoke.pdf",
+      "bytes": 180251,
+      "sha256": "4acc780442a6af61b832a259db2ab2161abef013d1be3209e6c865a1fda0f8c0",
+      "pages": 3,
+      "page_size": "A4"
+    },
+    "smoke_log": {
+      "path": "build/exam-original-repairs-smoke.log",
+      "bytes": 28162,
+      "sha256": "98020dbf1767b4c7f41b25a30a9740ae417b3666142f12efdd3c03f488773cd8"
+    }
+  },
+  "occurrence_bindings": [
+    {
+      "stable_id": "O011-EXAM01-ORIG-SOL-01",
+      "form": 1,
+      "slot": 11,
+      "actual_occurrence": 11,
+      "points": "2",
+      "source_rendered_task_sha256": "f70de4bc7211b882f8a12bf49587139315d129982bd4626a2e7566c7a2cdeccb"
+    },
+    {
+      "stable_id": "O011-EXAM03-ORIG-SOL-01",
+      "form": 3,
+      "slot": 10,
+      "actual_occurrence": 7,
+      "points": "5",
+      "source_rendered_task_sha256": "c553a4ec5f92589f766d0c4e5bf13df570b7f58b4febbcdbf82389b4e4f84962"
+    },
+    {
+      "stable_id": "O011-EXAM05-ORIG-SOL-01",
+      "form": 5,
+      "slot": 5,
+      "actual_occurrence": 5,
+      "points": "4",
+      "source_rendered_task_sha256": "a79dd9086626a0c71164a71322f65616b35ba5c938ce33c02f345ce41a7d3023"
+    },
+    {
+      "stable_id": "O011-EXAM07-ORIG-SOL-01",
+      "form": 7,
+      "slot": 10,
+      "actual_occurrence": 8,
+      "points": "6",
+      "source_rendered_task_sha256": "2dfb77970f518885ca42314d268ce49a3159a9a6b630e9883eefc3b4c03667d4"
+    },
+    {
+      "stable_id": "O011-EXAM09-ORIG-SOL-01",
+      "form": 9,
+      "slot": 9,
+      "actual_occurrence": 9,
+      "points": "3",
+      "source_rendered_task_sha256": "a4028c1074f412fb89ec89c122aa5b6f8501112cff291f9911be35f7addbdc7c"
+    },
+    {
+      "stable_id": "O011-EXAM10-ORIG-SOL-01",
+      "form": 10,
+      "slot": 4,
+      "actual_occurrence": 4,
+      "points": "4",
+      "source_rendered_task_sha256": "9b7aeed30d062743efcebc6f3b0a0eed5104b155a62e94e7d586f7b79a23617a"
+    }
+  ],
+  "census": {
+    "frozen_missing_solution_occurrences": 6,
+    "original_solution_ids": 6,
+    "one_to_one_occurrence_binding": true,
+    "source_supplied_solutions_misattributed": 0
+  },
+  "checks": {
+    "all_six_frozen_missing_occurrences_bound": true,
+    "distinct_original_provenance_visible": true,
+    "balanced_braces": true,
+    "utf8_without_replacement_character": true,
+    "two_pass_pdflatex_smoke_build": true,
+    "latex_errors": 0,
+    "latex_warnings": 0,
+    "overfull_boxes": 0,
+    "underfull_boxes": 0
+  }
+}

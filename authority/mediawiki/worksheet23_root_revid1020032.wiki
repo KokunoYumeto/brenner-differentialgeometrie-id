@@ -1,0 +1,244 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblattgestaltung|23|
+
+{{Zwischenüberschrift|Übungsaufgaben}}
+
+{{
+inputaufgabe
+|Hauptsatz der Infinitesimalrechnung/Spezialfall zu Stokes/Diskussion/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Satz von Stokes/Quaderversion/Monom/Direkt/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Geschlossene Differentialform/Wert über Rand/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Kompakte orientierte Mannigfaltigkeit ohne Rand/n-1-Form/Integral ist 0/Aufgabe||
+|zusatz=Was bedeutet diese Aussage für {{math|term= S^1|SZ=?}} Wie kann man diese Aussage in diesem Fall über ein Wegintegral beweisen?
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Kompakte orientierte Mannigfaltigkeit ohne Rand/Positive Volumenform/Nicht exakt/Aufgabe||
+|zusatz=Wie sieht dies ohne die Kompaktheitsvoraussetzung aus?
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Exakte k-Form/Rückzug auf kompakte orientierte Mannigfaltigkeit ohne Rand/n-1-Form/Integral ist 0/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|R^n ohne 0/Geschlossene nicht exakte n-1-Form/Durch Rückzug von Sphäre/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Kreisscheibe ohne Punkt/Senkrechte Differentialform und mit Pol/Satz von Stokes/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Satz von Green/Keine Beziehung Flächeninhalt und Randlänge/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Integral/Dreieck (0,2), (1,-1), (-2,-1)/x^2ydxdy/Stammform/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Satz von Green/Form/Bestätige/Einheitsquadrat/x^ay^bdx+x^cy^ddy/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Satz von Green/Form/Bestätige/Einheitskreis und umgebendes Quadrat/(x-y)dy+xydy/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Satz von Green/Direkter Beweis für Dreieck/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Satz von Green/Subgraph einer Funktion/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Abgeschlossene Kugel/Volumen/Flächenintegral/Stereographisch/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Abgeschlossene Kugel/Volumen/Flächenintegral/Passende Form/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|R^n/n-1-Form/Ableitung/Infinitesimale Bälle/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+Für einen Spezialfall der vorstehenden Aussage siehe
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Vektorfeld/R^2/Gegenableitungdifferenz/Limesformel/Aufgabe
+|Nr=
+|SZ=.
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Nicht leerer Rand/Retraktion/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Halbraum/Stetig differenzierbare Retraktion auf Rand/Aufgabe||
+|zusatz=Wie sieht das bei
+{{
+Relationskette
+| n
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+aus?
+}}
+
+{{
+inputaufgabe
+|Raum ohne Ball/Retraktion auf Sphäre/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+Für die folgende Aufgabe kann man
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Obere Halbebene/Einheitskreis/Rational isomorph/Ausdehnung/Aufgabe
+|Nr=
+|SZ=
+}}
+heranziehen.
+{{
+inputaufgabe
+|Abgeschlossene punktierte Kreisscheibe/Retraktion auf Rand/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+
+{{
+inputaufgabe
+|Annulus/Fixpunktfreie Bijektion/Beispiel/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Brouwersche Fixpunktsatz/Explizite Retraktion/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{Zwischenüberschrift|Aufgaben zum Abgeben}}
+
+{{
+inputaufgabe
+|Integral/Dreieck (0,2), (1,-1), (-2,-1)/3x^2y^5-x sin y dxdy/Stammform/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Integration/dxdy+ydxdz+x^2y^2z^2dydz/Seiten von Würfel/d auf Würfel/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Kreisinhalt/Berechnung als Wegintegral/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Torus/Fixpunktfreie Bijektion/Beispiel/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Abgeschlossene Kreisscheibe/Stetig differenzierbare Retraktion auf Halbkreis/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|R^n/v in Einheitskugel und w normiert/v+aw auf Rand/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Abgeschlossene punktierte Kreisscheibe/Fixpunktfreie Abbildung/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+}}

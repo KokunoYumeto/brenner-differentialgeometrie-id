@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "input": "source/exams/exam-05/exam05_solutions.id.tex",
+  "input_bytes": 31738,
+  "input_sha256": "76f0980e9fc5f399ce993206caefb17b40e11588e63cb1ac2b31d5e39b0ba2f1",
+  "output": "build/generated/exams/exam05_solutions.id.build.tex",
+  "output_bytes": 31047,
+  "output_sha256": "29982babcb7d1edf22c2d6cf4acf10ed96a8298f74877ea675d77d6b07b08249",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 14,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 2,
+    "operatorname_bild_to_im": 1
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Satz über implizite Abbildungen/R/Fakt",
+      "label": "Satz über implizite Abbildungen"
+    },
+    {
+      "target": "Totale Differenzierbarkeit/R/Produktregel/Fakt",
+      "label": "Lemma 45.10 (Analysis (Osnabrück 2021-2023))"
+    },
+    {
+      "target": "Differenzierbarkeit/Satz von Schwarz/Fakt",
+      "label": "Satz 44.10 (Analysis (Osnabrück 2021-2023))"
+    },
+    {
+      "target": "Offene Menge/Triviales Vektorbündel/Linearer Zusammenhang/Spaltung/Christoffelsymbole/Bemerkung",
+      "label": "Bemerkung"
+    },
+    {
+      "target": "Kurs:Differentialgeometrie/Offene Menge/Triviales Vektorbündel/Linearer Zusammenhang/Spaltung/Christoffelsymbole/Bemerkung/Bemerkungreferenznummer",
+      "label": "*****"
+    }
+  ],
+  "wiki_link_resolution_passes": 1,
+  "rendered_interactive_gif_links": []
+}

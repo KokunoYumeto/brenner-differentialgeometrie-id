@@ -1,0 +1,1166 @@
+\setcounter{section}{27}
+
+  \zwischenueberschrift{Vertikale Ableitung längs einer Abbildung}
+
+Es sei
+\maabb {p} { E } { M
+} {}
+ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+über einer
+\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+$M$, das mit einem
+\definitionsverweis {linearen Zusammenhang}{}{}
+versehen sei. Dies gibt Anlass zu einer
+\definitionsverweis {vertikalen Ableitung}{}{,}
+zu jedem Vektorfeld
+\maabb {V} { M } { TM
+} {}
+und jedem stetig differenzierbaren Schnitt
+\maabbdisp {s} { M } { E
+} {}
+ist
+\mathl{\nabla_V s}{} der stetige Schnitt in $E$, der durch
+
+\mathdisp {M \stackrel{V}{ \longrightarrow  } TM  \stackrel{T(s) }{ \longrightarrow } TE \stackrel{  \pi_{\text{vert} }  }{ \longrightarrow} E} {  }
+
+gegeben ist. Auf einer offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \cong }{ V
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und den partiellen Ableitungen
+\mathl{\partial_1  , \ldots , \partial_n}{} und einer Trivialisierung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ E \vert_U
+}
+{ \cong} { U \times \R^r
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit Basisschnitten
+\mathl{s_1 , \ldots , s_r}{} wird eine solche vertikale Ableitung durch die Christoffelsymbole $\Gamma_{ij}^k$ mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i } (s_j)
+}
+{ =} { \sum_{k= 1}^r  \Gamma_{ij}^k s_k
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+wegen
+[[Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt|Lemma 25.10]]
+vollständig beschrieben. Dieses Konzept möchte man nicht nur für Schnitte über $M$, sondern auch für Schnitte
+\maabbdisp {s} { L } { E
+} {}
+längs einer fixierten
+\definitionsverweis {differenzierbaren Abbildung}{}{}
+\maabbdisp {\psi} { L } { M
+} {}
+zur Verfügung haben, wenn also ein kommutatives Diagramm
+
+\mathdisp {\begin{matrix}  &   &   &  E   \\ & & s \nearrow & \downarrow  \\  &  L  & \stackrel{ \psi }{\longrightarrow}  &  M \! \\ \end{matrix}} {  }
+
+vorliegt. Diese Situation ist uns schon bei den horizontalen Schnitten begegnet. Man beachte, dass ein Schnitt
+\maabbdisp {s} { L } { E
+} {}
+dasselbe ist wie ein Schnitt
+\maabbdisp {\tilde{s}} { L  } { \psi^*(E) = E \times_XY
+} {}
+im
+\definitionsverweis {zurückgezogenen Vektorbündel}{}{}
+$\psi^*(E)$. Zu einem Vektorfeld $F$ auf $L$ und einem solchen Schnitt kann man die entsprechende Hintreeinanderschaltung von Abbildungen
+
+\mathdisp {L \stackrel{F}{ \longrightarrow  } TL  \stackrel{T(s) }{ \longrightarrow } TE \stackrel{  \pi_{\text{vert} }  }{ \longrightarrow} E} {  }
+
+betrachten, die wir wieder mit $\nabla_F s$ bezeichnen. Den über diese vertikale Ableitung festgelegten Zusammenhang nennen wir den  \stichwort {zurückgezogenen Zusammenhang} {}  $\psi^*\nabla$. Er erfüllt die folgenden Eigenschaften.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Linearer Zusammenhang/Vertikale Ableitung/Längs Abbildung/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+\maabb {p} { E } { M
+} {}
+ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+über einer
+\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+$M$, das mit einem
+\definitionsverweis {linearen Zusammenhang}{}{}
+$\nabla$ versehen sei. Es sei
+\maabb {\psi} { L } { M
+} {}
+eine
+\definitionsverweis {differenzierbare Abbildung}{}{}
+mit dem
+\definitionsverweis {zurückgezogenen Zusammenhang}{}{}
+$\psi^*\nabla$ auf dem
+\definitionsverweis {zurückgezogenen Vektorbündel}{}{}
+$\psi^*E$ über $L$. Dann gelten folgende Eigenschaften.}
+\faktfolgerung {\aufzaehlungzwei {Die Abbildung
+\maabbeledisp {\psi^*\nabla} {C^1(\psi^* E)} { C^0(\psi^* E \otimes T^* L )
+} { s } { \left(  \psi^*\nabla  \right) (s)
+} {,}
+ist
+$\R$-\definitionsverweis {linear}{}{.}
+Insbesondere ist $\psi^*\nabla$ ein linearer Zusammenhang.
+} {Für eine Einschränkung
+\maabbdisp {\psi} {U'} {U
+} {}
+auf offene Kartengebiete mit Koordinaten
+\mathl{z_1 , \ldots , z_m}{} von $U'$ und  Koordinaten
+\mathl{x_1 , \ldots , x_n}{}
+von $U$ gilt für die
+\definitionsverweis {Christoffelsymbole}{}{}
+$\tilde{\Gamma}_{\ell j}^k$ von $\psi^*\nabla$ und
+\definitionsverweis {Basisschnitte}{}{}
+
+\mathl{s_1  , \ldots , s_r}{}  die Beziehung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \tilde{\Gamma}_{j \ell }^k
+}
+{ =} { \sum_{i = 1}^n  \left(  \partial_j \psi_i  \right)   \Gamma_{i\ell }^k
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\aufzaehlungzwei {Klar.
+} {Wir betrachten direkt die lokale Situation. Einen
+\definitionsverweis {Basisschnitt}{}{}
+$s_\ell$ längs $L$ kann man direkt als einen Basisschnitt über $M$ auffassen. Die relevanten Abbildungen sind
+
+\mathdisp {U' \stackrel{\partial_j }{\longrightarrow} TU'  \stackrel{T (\psi) }{\longrightarrow} T(U) \stackrel{ T(s_\ell ) }{\longrightarrow} T( U \times \R^r) \stackrel{  \pi_{\text{vert} } }{\longrightarrow} \R^r} { . }
+
+Dabei ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T(\psi) \circ \partial_j
+}
+{ =} { \partial_j \psi
+}
+{ =} { \sum_{i = 1}^n \left(  \partial_j \psi_i  \right)  \partial_i
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Für
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ U'
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist somit unter Verwendung von
+[[Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt|Lemma 25.10]]
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left(  \left(  \psi^*\nabla  \right) _{\partial_j } (s_\ell)  \right) (Q)
+}
+{ =} { \left(  \psi^*\nabla  \right) _{\partial_j (Q) } (s_\ell) (Q)
+}
+{ =} { \nabla_{  \left(  T(\psi) \circ \partial_j  \right)  (Q)  }  (s_\ell) ( \psi(Q) )
+}
+{ =} { \nabla_{  \sum_{i = 1}^n  \left(  \partial_j \psi_i  \right)  (Q) \partial_i  }  (s_\ell) ( \psi(Q) )
+}
+{ =} { \sum_{i = 1}^n  \left(  \partial_j \psi_i  \right)  (Q)\nabla_{  \partial_i }  (s_\ell) ( \psi(Q) )
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \sum_{i = 1}^n  \left(  \partial_j \psi_i  \right)  (Q)  \left(  \sum_{k = 1}^r \Gamma_{i \ell }^k(\psi(Q)) s_k (\psi(Q))  \right)
+}
+{ =} { \sum_{k = 1}^r  \left(  \sum_{i = 1}^n  \left(  \partial_j \psi_i  \right)  (Q)  \Gamma_{i \ell }^k(\psi(Q))   \right) s_k (\psi(Q))
+}
+{ } {}
+{ } {}
+}
+{}{.}
+Betrachten der $k$-ten Komponente liefert
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \tilde{\Gamma}_{j \ell }^k (Q)
+}
+{ =} { \sum_{i = 1}^n \Gamma_{i\ell }^k (\psi(Q))  \left(  \partial_j \psi_i  \right)  (Q)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Linearer Zusammenhang/Vertikale Ableitung/Längs Abbildung/Metrisch/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+\maabb {p} { E } { M
+} {}
+ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+über einer
+\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+$M$, das mit einem
+\definitionsverweis {metrischen}{}{}
+\definitionsverweis {linearen Zusammenhang}{}{}
+$\nabla$ versehen sei. Es sei
+\maabb {\psi} { L } { M
+} {}
+eine
+\definitionsverweis {differenzierbare Abbildung}{}{}
+mit dem
+\definitionsverweis {zurückgezogenen Zusammenhang}{}{}
+$\psi^*\nabla$ auf dem
+\definitionsverweis {zurückgezogenen Vektorbündel}{}{}
+$\psi^*E$ über $L$.}
+\faktfolgerung {Dann ist auch
+\mathl{\psi^*\nabla}{} metrisch.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Zunächst ist nach
+[[Mannigfaltigkeit/Riemannsches Vektorbündel/Rückzug/Aufgabe|Aufgabe 16.13]]
+$\psi^*E$ wieder ein riemannsches Bündel. Wir betrachten die lokale Situation
+\maabbdisp {\psi} {U'} {U
+} {}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ = }{ U \times \R^r
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und entsprechend
+
+\mavergleichskette
+{\vergleichskette
+{ \psi^*E
+}
+{ = }{ U' \times \R^r
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Die beschreibenden Funktionen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h_{ \ell m}
+}
+{ =} { \left\langle s_\ell , s_m   \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+der riemannschen Struktur auf $E$ hängen auf $U$ und auf $U'$ unmittelbar über $\psi$ zusammen. Es sei $\partial_j$ ein
+\definitionsverweis {Standardvektorfeld}{}{}
+auf $U'$ und
+\mathl{s_\ell, s_m}{} Basischnitte in $E$. Es ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \partial_j  \left\langle s_\ell , s_m   \right\rangle
+}
+{ =} { \partial_j  \left(  h_{\ell , m} \circ\psi   \right)
+}
+{ =} { \sum_{i = 1}^n  \left(  \partial_j \psi_i  \right) \left(  \partial_i  h_{\ell , m}  \right)
+}
+{ =} { \sum_{i = 1}^n  \left(  \partial_j \psi_i  \right) \partial_i  \left\langle s_\ell , s_m   \right\rangle
+}
+{ } {}
+}
+{}
+{}{.}
+Nach
+[[Linearer Zusammenhang/Vertikale Ableitung/Längs Abbildung/Eigenschaften/Fakt|Lemma 27.1]]
+ist
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left\langle  \left(  \psi^*\nabla  \right)_{\partial_j } s_\ell ,  s_m   \right\rangle
+}
+{ =} { \left\langle  \sum_{k = 1}^r \tilde{\Gamma}_{j \ell }^k s_ k ,  s_m   \right\rangle
+}
+{ =} { \sum_{k = 1}^r \left\langle  \tilde{\Gamma}_{j \ell }^k s_ k ,  s_m   \right\rangle
+}
+{ =} { \sum_{k = 1}^r \left\langle  \sum_{i = 1}^n \Gamma_{i\ell }^k  \left(  \partial_j \psi_i  \right)  s_k  ,  s_m   \right\rangle
+}
+{ =} { \sum_{i = 1}^n \left(  \partial_j \psi_i  \right) \left\langle  \sum_{k = 1}^r \Gamma_{i\ell }^k s_k  ,  s_m   \right\rangle
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \sum_{i = 1}^n \left(  \partial_j \psi_i  \right) \left\langle  \nabla_{\partial_i } s_\ell  ,  s_m   \right\rangle
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{}
+und entsprechend
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  s_\ell ,  \left(  \psi^*\nabla  \right)_{\partial_j } s_m   \right\rangle
+}
+{ =} { \sum_{i = 1}^n  \left(  \partial_j \psi_i  \right)   \left\langle  s_\ell  , \nabla_{\partial_i } s_m   \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Da $\nabla$ metrisch ist folgt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial_j  \left\langle s_\ell , s_m   \right\rangle
+}
+{ =} { \left\langle  \left(  \psi^*\nabla  \right)_{\partial_j } s_\ell ,  s_m   \right\rangle    + \left\langle  s_\ell ,  \left(  \psi^*\nabla  \right)_{\partial_j } s_m   \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und daraus folgt mit
+[[Mannigfaltigkeit/Riemannsches Vektorbündel/Linearer Zusammenhang/Metrisch auf Basisfeldern/Metrisch/Aufgabe|Aufgabe 26.10]],
+dass $\psi^*\nabla$ metrisch ist.
+
+}
+
+  \zwischenueberschrift{Tangentiale Beschleunigung}
+
+Es sei $M$ eine
+\definitionsverweis {Mannigfaltigkeit}{}{.}
+Zu einer
+\definitionsverweis {differenzierbaren Kurve}{}{}
+\maabbdisp {\gamma} { I } { M
+} {}
+ist
+\maabbdisp {\gamma'} { I} {TM
+} {}
+eine Kurve im Tangentialbündel, die eine Liftung zu $\gamma$ ist. Wenn diese wiederum differenzierbar ist, so erhält man eine Kurve
+\maabbdisp {\gamma^{\prime \prime}} { I} {TTM
+} {,}
+die man aber nicht mit $\gamma'$ in Bezug setzen kann, da sie in einem anderen Raum landet. Wenn hingegen auf $TM$ ein
+\definitionsverweis {Zusammenhang}{}{}
+gegeben ist, so kann man über die
+\zusatzklammer {zurückgezogene} {} {}
+vertikale Ableitung die zweite Ableitung über
+\mathl{\nabla_{ \partial } \gamma'}{} definieren.
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{}
+versehen mit dem
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{.}
+Zu einer zweifach stetig
+\definitionsverweis {differenzierbaren Kurve}{}{}
+\maabbdisp {\gamma} { I } { M
+} {}
+nennt man
+\mathl{\pi_{\text{vert} }  \circ TT(\gamma)}{} die
+\definitionswort {tangentiale Beschleunigung}{}
+von $\gamma$.
+
+}
+
+Man schreibt dafür auch
+\mathl{\pi_{\text{vert} } \circ \gamma^{\prime \prime}}{} bzw.
+\zusatzklammer {als vertikale Ableitung längs $\gamma$} {} {}
+
+\mathl{\nabla_\partial \gamma'}{,} wobei
+\maabbdisp {\gamma'} { I } { TM
+} {}
+als Schnitt im Tangentialbündel längs des Weges $\gamma$ aufgefasst und die Abbildungskette
+
+\mathdisp {I \stackrel{\partial}{\longrightarrow} I \times \R = TI \stackrel{T(\gamma')}{\longrightarrow} TTM \stackrel{ \pi_{\text{vert} } }{\longrightarrow}  TM} {  }
+
+betrachtet wird.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Zweite Ableitung einer Kurve/Direkt und über Zusammenhang/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei
+\maabbdisp {\gamma} { I } { Y
+} {}
+eine zweifach stetig differenzierbare Kurve.}
+\faktfolgerung {Dann stimmt die tangentiale Beschleunigung von $\gamma$ im Sinne von
+[[Hyperfläche/Differenzierbare Kurve/Zweite tangentiale Ableitung/Definition|Definition 1.7]]
+mit der tangentialen Beschleunigung im Sinne von
+[[Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Kurve/Tangentiale Beschleunigung/Definition|Definition 27.3]]
+überein.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Nach
+[[R^3/Riemannsche orientierte Fläche/Levi-Civita-Zusammenhang und induzierter Zusammenhang/Fakt|Lemma 26.15]]
+\zusatzklammer {was auch höherdimensional stimmt} {} {}
+stimmen die Zusammenhänge überein.
+
+}
+
+  \zwischenueberschrift{Geodätische Kurven}
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{}
+versehen mit dem
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{.}
+Man nennt eine zweifach
+\definitionsverweis {differenzierbare Kurve}{}{}
+\maabbdisp {\gamma} { I } { M
+} {}
+eine
+\definitionswort {geodätische Kurve}{}
+\zusatzklammer {oder
+\definitionswort {Geodätische}{}} {} {,}
+wenn
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{d/dt}  \gamma'
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf $I$ ist.
+
+}
+
+Manchmal sagt man auch \stichwort {Geodäte} {.} Wir betonen, dass eine geodätische Kurve eine Kurve ist, es also nicht nur um das
+\definitionsverweis {Bild}{}{}
+der Kurve geht, sondern um den Bewegungsvorgang.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Hyperfläche/Geodätische/Direkt und über Zusammenhang/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei.}
+\faktfolgerung {Dann stimmen die Geodätischen in $Y$ im Sinne von
+[[Hyperfläche/Differenzierbare Kurve/Geodätische/Direkt/Definition|Definition 1.8]]
+mit den Geodätischen im Sinne von
+[[Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Geodätische/Definition|Definition 27.5]]
+überein.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Dies folgt aus
+[[Hyperfläche/Zweite Ableitung einer Kurve/Direkt und über Zusammenhang/Fakt|Lemma 27.4]].
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Geodätische/Geschwindigkeitskonstanz/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+\maabb {\gamma} { I } { M
+} {}
+eine
+\definitionsverweis {geodätische Kurve}{}{}
+auf einer
+\definitionsverweis {riemannschen Mannigfaltigkeit}{}{}
+$M$ versehen mit dem
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{.}}
+\faktfolgerung {Dann ist
+\mathl{\Vert { \gamma'(t) } \Vert}{} konstant auf $I$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Auf einem offenen Kartengebiet ist unter Verwendung von
+[[Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Eigenschaften/Fakt|Satz 26.14  (2)]]
+und
+[[Linearer Zusammenhang/Vertikale Ableitung/Längs Abbildung/Metrisch/Fakt|Lemma 27.2]]
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ { \frac{   \partial }{  \partial t } }  \left\langle  \gamma'(t) ,  \gamma'(t)  \right\rangle
+}
+{ =} { \left\langle \nabla_{ { \frac{   \partial }{  \partial t } }  }\gamma'(t) ,  \gamma'(t)  \right\rangle + \left\langle  \gamma'(t) , \nabla_{  { \frac{   \partial }{  \partial t } }  }\gamma'(t)  \right\rangle
+}
+{ =} { 2 \left\langle \nabla_{ { \frac{   \partial }{  \partial t } }  }\gamma'(t) ,  \gamma'(t)  \right\rangle
+}
+{ =} { 2 \left\langle  0  ,  \gamma'(t)  \right\rangle
+}
+{ =} { 0
+}
+}
+{}
+{}{,}
+also ist
+\mathl{\left\langle  \gamma'(t) ,  \gamma'(t)  \right\rangle}{} konstant.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Geodätische/Differentialgleichung/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Eine zweifach
+\definitionsverweis {differenzierbare Kurve}{}{}
+\maabb {\gamma} { I } { M
+} {}
+auf einer
+\definitionsverweis {riemannschen Mannigfaltigkeit}{}{}
+$M$ ist}
+\faktfolgerung {genau dann eine
+\definitionsverweis {geodätische Kurve}{}{}
+\zusatzklammer {bezüglich des
+\definitionsverweis {Levi-Civita-Zusammenhangs}{}{}} {} {,}
+wenn sie auf jeder Karte das
+\definitionsverweis {gewöhnliche Differentialgleichungssystem zweiter Ordnung}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma_k^{\prime \prime} + \sum_{ij} \Gamma^k_{ij} \gamma_i' \gamma_j'
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\zusatzklammer {für alle $k$} {} {}
+erfüllt.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Es sei $n$ die Dimension von $M$. Wir betrachten die Situation direkt auf einem offenen Kartenbild
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Die vertikale Ableitung ist gemäß
+[[Offene Menge/Triviales Vektorbündel/Linearer Zusammenhang/Spaltung/Christoffelsymbole/Bemerkung|Bemerkung 25.8]]
+durch
+\maabbeledisp {} {T(U \times \R^n) = U \times \R^n \times \R^n \times \R^n } { U \times \R^n \times  \R^n
+} {(P,e_j, \partial_i, w)} {(P,e_j,\sum_{k = 1}^n \Gamma^k_{ij} (P) e_k +w) \cong V(U \times \R^n)
+} {}
+gegeben, wobei man die Abbildung nach $TU$ erhält, wenn man die mittlere Komponente weglässt. Die zweite Ableitung der Kurve ist zunächst die zweite Tangentialabbildung, es ist
+\zusatzklammer {wobei wir die Multiplikation mit der eindimensionalen Richtung des Tangentialraumes der Kurve ignorieren} {} {}
+\maabbeledisp {T(\gamma)} { I } { TU
+} { t } { (\gamma(t), \gamma'(t))
+} {,}
+und entsprechend
+\maabbeledisp {T(T(\gamma))} { I } { T(TU)
+} { t } { ((\gamma(t), \gamma'(t)), (\gamma'(t), \gamma^{\prime \prime} (t)))
+} {}
+\zusatzklammer {es werden beide Komponenten der Tangentialabbildung abgeleitet} {} {.}
+Mit
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'(t)
+}
+{ = }{ \sum_{j = 1}^n \gamma_j'(t) \partial_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+wird dies unter der vertikalen Projektion auf
+
+\mathdisp {\sum_{k = 1}^n  \left(  \sum_{i,j} \gamma_i'(t) \gamma_j'(t) \Gamma^k_{ij}(\gamma(t))  \right)  \partial_k  +\sum_{k = 1}^n \gamma_k^{\prime \prime}(t) \partial_k} {  }
+
+abgebildet. Die Bedingung an eine Geodätische, dass die zweite Ableitung
+\zusatzklammer {in $TTM$} {} {}
+stets horizontal ist, ist äquivalent dazu, dass die berechnete vertikale Projektion gleich $0$ ist. Dies bedeutet, dass die einzelnen Komponenten gleich $0$ sind und dies bedeutet
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \sum_{i,j} \gamma_i'(t) \gamma_j'(t) \Gamma^k_{ij}(\gamma(t))  + \gamma_k^{\prime \prime}(t)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ = }{ 1  , \ldots , n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+
+\inputbemerkung
+{}
+{
+
+In der Situation von
+[[Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Geodätische/Differentialgleichung/Fakt|Satz 27.8]]
+nennt man das Differentialgleichungssystem
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma_k^{\prime \prime}(t) + \sum_{ij} \Gamma^k_{ij}(\gamma(t)) \gamma_i'(t) \gamma_j'(t)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ k
+}
+{ = }{ 1  , \ldots , n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+das lokal die Geodätischen charakterisiert, die \stichwort {geodätische Differentialgleichung} {.} Es handelt sich um ein
+\definitionsverweis {gewöhnliches Differentialgleichungssystem}{}{}
+zweiter Ordnung mit $n$ Gleichungen. Das System ist nicht linear und ist im Allgemeinen schwierig zu lösen.
+
+}
+
+\inputbeispiel{}
+{
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Parallel lines in Poincare's model of hyperbolic geometry} {svg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Parallel lines in Poincare's model of hyperbolic geometry.svg } {} {Januszkaja} {Commons} {CC-by-sa 3.0} {}
+
+Wir knüpfen an
+[[Halbebene/Poincaré/Riemannsche Geometrie/Christoffelsymbole/Beispiel|Beispiel 26.7]]
+an. Nach
+[[Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Geodätische/Differentialgleichung/Fakt|Satz 27.8]]
+muss eine Geodätische die beiden Bedingungen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma_1^{\prime \prime} (t)
+}
+{ =} { { \frac{   2  }{  \gamma_2(t) } } \gamma_1'(t) \gamma_2'(t)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma_2^{\prime \prime} (t)
+}
+{ =} { -  { \frac{   1  }{  \gamma_2(t) } }  \gamma_1'(t) \gamma_1'(t) + { \frac{   1  }{  \gamma_2(t) } }    \gamma_2'(t) \gamma_2'(t)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+erfüllen. Für
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma_1
+}
+{ = }{ x_0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+konstant wird dieses System zu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma_2^{\prime \prime} (t)
+}
+{ =} { { \frac{   1  }{  \gamma_2(t) } }  \gamma_2'(t) \gamma_2'(t)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit der Komponentenlösung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ y_2(t)
+}
+{ =} { e^t
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und der Gesamtlösung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ y(t)
+}
+{ =} { \left(  x_0   , \,  e^t                   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+die auf einer vertikalen Geraden verläuft. Darüber hinaus sind nach
+[[Halbebene/Poincaré/Riemannsche Geometrie/Geodätische/Halbkreislösungen/Aufgabe|Aufgabe 27.13]]
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma(t)
+}
+{ =} { \left(  s   , \,   0                   \right) + r \left(  \tanh  t   , \,   { \frac{   1  }{  \cosh  t  } }                   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ s
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ r
+}
+{ \in }{ \R_+
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+Lösungen, die sich nach
+[[Hyperbelfunktion/R/Elementare Eigenschaften/Fakt|Aufgabe 20.50 (Analysis (Osnabrück 2021-2023))  (3)]]
+auf den Halbkreisen mit Mittelpunkt
+\mathl{\left(  s   , \,   0                   \right)}{} und Radius $r$ bewegen.
+
+}
+
+\inputbemerkung
+{}
+{
+
+Das sogenannte \stichwort {Parallelenaxiom} {}
+\zusatzklammer {oder Parallelenpostulat} {} {}
+der ebenen euklidischen Geometrie besagt, dass es zu einer jeden Geraden und jedem Punkt, der nicht auf dieser Geraden liegt, genau eine parallele Gerade durch diesen Punkt gibt. Eine parallele Gerade ist durch die Eigenschaft bestimmt, dass sie die vorgegebene Gerade nicht schneidet. Eine Frage von historischem Belang war, ob man das Parallelenpostulat aus den anderen Axiomen und Postulaten von Euklid ableiten kann und ob dieses daher unnötig ist. Diese Frage wurde in der ersten Hälfte des 19. Jahrhunderts negativ beantwortet, indem geometrische Modelle
+\zusatzklammer {die insbesondere ein Konzept von Punkt und Gerade beinhalten} {} {}
+angegeben wurden, die die übrigen Axiome der euklidischen Geometrie erfüllen, aber nicht das Parallelenaxiom. Im Rahmen der riemannschen Geometrie und insbesondere mit dem Konzept einer
+\definitionsverweis {Geodätischen}{}{}
+ergeben sich zwanglos solche Modelle, wenn man die Geodätischen
+\zusatzklammer {hier ist das Bild einer geodätischen Kurve gemeint} {} {}
+als Geraden ansieht. Man beachte, dass im axiomatischen Aufbau einer Geometrie eine Gerade nicht durch die Anschauung, sondern durch die ihr in Verbindung mit weiteren Objekten zukommenden Eigenschaften festgelegt ist. Beispielsweise liefert
+[[Halbebene/Poincaré/Riemannsche Geometrie/Christoffelsymbole/Geodätische/Beispiel|Beispiel 27.10]]
+mit den dort beschriebenen Geodätischen ein Modell für eine nichteuklidische Geometrie, es gibt zu einer vorgegebenen Geodätischen und einem weiteren Punkt stets unendlich viele Geodätische durch diesen Punkt, die schnittpunktfrei zur vorgegebenen sind.
+
+}
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {zusammenhängende}{}{}
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{.}
+Zu Punkten
+
+\mavergleichskette
+{\vergleichskette
+{ P,Q
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definiert man
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d(P,Q)
+}
+{ \defeq} { \operatorname{inf} ( L(\gamma), \gamma \text{ ist ein stetiger stückweise stetig differenzierbarer Verbindungsweg von } P \text{ nach } Q  )
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und nennt dies die
+\definitionswort {riemannsche Metrik}{}
+auf $M$.
+
+}
+
+Durch diese Metrik wird $M$ in der Tat zu einem metrischen Raum, dessen Topologie mit der vorgegebenen Topologie übereinstimmt. Ferner kann gezeigt werden, dass eine bogenparametrisierte Realisierung des Abstandes zwischen zwei Punkten eine Geodätische ist.
+
+ [[Kategorie:Latexseite]]

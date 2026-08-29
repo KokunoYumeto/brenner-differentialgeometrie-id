@@ -1,0 +1,1728 @@
+%Daten zur Institution
+
+%\input{Dozentdaten}
+
+%\renewcommand{\fachbereich}{Fachbereich}
+
+%\renewcommand{\dozent}{Prof. Dr. . }
+
+%Klausurdaten
+
+\renewcommand{\klausurgebiet}{ }
+
+\renewcommand{\klausurtyp}{ }
+
+\renewcommand{\klausurdatum}{ . 20}
+
+\klausurvorspann {\fachbereich} {\klausurdatum} {\dozent} {\klausurgebiet} {\klausurtyp}
+
+%Daten für folgende Punktetabelle
+
+\renewcommand{\aeins}{  3  }
+
+\renewcommand{\azwei}{  3   }
+
+\renewcommand{\adrei}{  6  }
+
+\renewcommand{\avier}{  3  }
+
+\renewcommand{\afuenf}{  3  }
+
+\renewcommand{\asechs}{  5  }
+
+\renewcommand{\asieben}{  13  }
+
+\renewcommand{\aacht}{  4  }
+
+\renewcommand{\aneun}{  3  }
+
+\renewcommand{\azehn}{  7  }
+
+\renewcommand{\aelf}{  6  }
+
+\renewcommand{\azwoelf}{  3  }
+
+\renewcommand{\adreizehn}{  6   }
+
+\renewcommand{\avierzehn}{  65  }
+
+\renewcommand{\afuenfzehn}{    }
+
+\renewcommand{\asechzehn}{    }
+
+\renewcommand{\asiebzehn}{    }
+
+\renewcommand{\aachtzehn}{    }
+
+\renewcommand{\aneunzehn}{    }
+
+\renewcommand{\azwanzig}{    }
+
+\renewcommand{\aeinundzwanzig}{    }
+
+\renewcommand{\azweiundzwanzig}{    }
+
+\renewcommand{\adreiundzwanzig}{    }
+
+\renewcommand{\avierundzwanzig}{    }
+
+\renewcommand{\afuenfundzwanzig}{    }
+
+\renewcommand{\asechsundzwanzig}{    }
+
+\punktetabelledreizehn
+
+\klausurnote
+
+\newpage
+
+\setcounter{section}{0}
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Definiere die folgenden
+\zusatzklammer {kursiv gedruckten} {} {} Begriffe.
+\aufzaehlungsechs{Ein
+\stichwort {Hausdorff-Raum} {}
+$X$.
+
+}{Eine
+\stichwort {differenzierbare Abbildung} {}
+\maabbdisp {\varphi} { L } { M
+} {}
+zwischen zwei differenzierbaren Mannigfaltigkeiten
+\mathkor {} {L} {und} {M} {.}
+
+}{Das
+\stichwort {Tangentialbündel} {}
+zu einer differenzierbaren Mannigfaltigkeit $M$.
+
+}{Die
+\stichwort {zweite Fundamentalmatrix} {}
+zu einer lokalen Parametrisierung
+\maabbdisp {} {V} {U \subseteq Y
+} {}
+\zusatzklammer {mit
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen} {} {}
+einer differenzierbaren Hyperfläche
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}{Die \stichwort {äußere Ableitung} {} zu einer stetig differenzierbaren Differentialform
+\mathl{\omega \in
+{ \mathcal E }^{ k } (  M   )}{} auf einer differenzierbaren Mannigfaltigkeit $M$.
+
+}{Eine \stichwort {der Überdeckung untergeordnete Partition der Eins} {,} wobei
+
+\mavergleichskette
+{\vergleichskette
+{  X
+}
+{ = }{ \bigcup_{i \in I} W_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {offene Überdeckung}{}{}
+eines
+\definitionsverweis {topologischen Raumes}{}{}
+$X$ ist.
+}
+
+}
+{
+
+\aufzaehlungsechs{Der
+\definitionsverweis {topologische Raum}{}{}
+$X$ heißt hausdorffsch, wenn es zu je zwei verschiedenen Punkten
+\mathl{x, y \in X}{} zwei
+\definitionsverweis {offene Mengen}{}{}
+\mathkor {} {U} {und} {V} {}
+gibt mit
+\mathl{x \in U, \, y \in V}{} und
+\mathl{U \cap V = \emptyset}{.}
+}{Es seien
+\mathkor {} {(U_i,U_i', \alpha_i, i \in I)} {und} {(V_j,V_j', \beta_j, j \in J)} {}
+die
+\definitionsverweis {Atlanten}{}{}
+von
+\mathkor {} {M} {und} {N} {.}
+Die Abbildung
+\maabbdisp {\varphi} { L } { M
+} {}
+heißt differenzierbar, wenn sie stetig ist und wenn für alle
+\mathkor {} {i \in I} {und alle} {j \in J} {}
+die Abbildungen
+\maabbdisp {\beta_j \circ  \varphi \circ (\alpha_i)^{-1}} {\alpha_i( \varphi^{-1}(V_j) \cap U_i) } { V_j'
+} {}
+\definitionsverweis {stetig differenzierbar}{}{}
+sind.
+}{Man nennt die Menge
+
+\mavergleichskettedisp
+{\vergleichskette
+{TM
+}
+{ =} {\biguplus_{P \in M} T_PM
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+versehen mit der Projektionsabbildung
+\maabbeledisp {\pi} {TM} {M
+} {(P,v)} {P
+} {,}
+das Tangentialbündel von $M$.
+}{Es sei $Y$ durch ein
+\definitionsverweis {Einheitsnormalenfeld}{}{}
+$N$
+\definitionsverweis {orientiert}{}{,}
+wobei wir $N$ als Feld auf $V$ auffassen. Dann setzt man
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h_{i j}
+}
+{ =} {  \left\langle  \partial_i \partial_j \varphi , N  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Die
+zweite Fundamentalmatrix
+zu $\varphi$ ist die
+\zusatzklammer {von
+
+\mavergleichskettek
+{\vergleichskettek
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+abhängige Matrix
+
+\mavergleichskettedisp
+{\vergleichskette
+{ H
+}
+{ =} {  \left(  h_{ij}   \right)_{1 \leq i,j \leq n-1}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Die äußere Ableitung von $\omega$ wird lokal auf einer Karte, auf der $\omega$ die Gestalt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} {\sum_{ { \# \left(   I  \right) } = k , \, I \subseteq \{1 , \ldots ,  \operatorname{dim}\, M \}  }f_I dx_I
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+besitzt, durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{  d \omega
+}
+{ =} {\sum_{ { \# \left(   I  \right) } = k   } d(f_I ) \wedge dx_I
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+definiert.
+}{Eine Familie von Funktionen
+\maabbdisp {h_j} {X} {\R
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ j
+}
+{ \in }{ J
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+heißt eine der Überdeckung untergeordnete Partition der Eins, wenn folgende Eigenschaften gelten.
+\aufzaehlungvier{Es ist
+
+\mavergleichskette
+{\vergleichskette
+{ h_j(X)
+}
+{ \subseteq }{ [0,1]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ j
+}
+{ \in }{ J
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Jeder Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+besitzt eine
+\definitionsverweis {offene Umgebung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{  U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+derart, dass die
+\definitionsverweis {eingeschränkten Funktionen}{}{}
+
+\mathl{h_j  \vert_{ U }}{} bis auf endlich viele Ausnahmen die Nullfunktion sind.
+}{Es ist
+
+\mavergleichskette
+{\vergleichskette
+{  \sum_{j \in J} h_j
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Für jedes
+
+\mavergleichskette
+{\vergleichskette
+{ j
+}
+{ \in }{ J
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt es eine offene Menge
+\mathl{W_{i(j)}}{} aus der Überdeckung derart, dass der
+\definitionsverweis {Träger}{}{}
+von $h_j$ in
+\mathl{W_{i(j)}}{} liegt.
+}
+}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Formuliere die folgenden Sätze.
+\aufzaehlungdrei{Der
+\stichwort {Satz über die algebraische Eigenschaft der Weingartenabbildung} {.}}{Der Satz über Orientierbarkeit und positive Volumenform.}{Der
+\stichwort {Brouwersche Fixpunktsatz} {.}}
+
+}
+{
+
+\aufzaehlungdrei{\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Faser zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei.}
+\faktfolgerung {Dann ist die
+\definitionsverweis {Weingartenabbildung}{}{}
+$L_P$ in jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {selbstadjungiert}{}{.}}
+\faktzusatz {}
+\faktzusatz {}}{\faktsituation {Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit
+}{}{}
+mit einer
+\definitionsverweis {abzählbaren Basis der Topologie}{}{.}}
+\faktfolgerung {Dann existiert genau dann eine
+\definitionsverweis {stetige}{}{}
+nullstellenfreie
+\definitionsverweis {Volumenform}{}{}
+auf $M$, wenn $M$
+\definitionsverweis {orientierbar}{}{}
+ist.}
+\faktzusatz {Diese Volumenform kann dann auch stetig differenzierbar und positiv gewählt werden.}
+\faktzusatz {}}{Es sei
+\maabbdisp {\psi} { B  \left( 0,r \right) } { B  \left( 0,r \right)
+} {}
+eine stetig differenzierbare Abbildung der abgeschlossenen Kugel im $\R^n$ in sich. Dann besitzt $\psi$ einen Fixpunkt.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{6}
+
+{
+
+Bestimme die
+\definitionsverweis {Krümmung}{}{}
+in jedem Punkt des durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h(x,y)
+}
+{ =} { x^2+y^2
+}
+{ =} { 1
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+implizit gegebenen Einheitskreises mit
+[[Ebene differenzierbare Kurve/Faser/Krümmung/Fakt|Lemma 3.11 (Differentialgeometrie (Osnabrück 2023))]]
+und dem Gradientenfeld zu $h$.
+
+}
+{
+
+Das
+\definitionsverweis {Gradientenfeld}{}{}
+zu $h$ ist $\begin{pmatrix}  2x \\ 2y   \end{pmatrix}$, ein Einheitsnormalenfeld ist somit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ N \begin{pmatrix}  x  \\ y   \end{pmatrix}
+}
+{ =} { { \frac{   1 }{  \sqrt{x^2+y^2}  } } \begin{pmatrix}  x  \\ y   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Das
+\definitionsverweis {totale Differential}{}{}
+von $N$ in einem Punkt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ P
+}
+{ =} { \begin{pmatrix}  x  \\ y   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{  \left(D N \right)_{P}
+}
+{ =} { \begin{pmatrix}  { \frac{   y^2 }{   \left(  x^2+y^2  \right)^{3/2}  } }   &   - { \frac{   xy }{   \left(  x^2+y^2  \right)^{3/2}  } }   \\    - { \frac{   xy }{   \left(  x^2+y^2  \right)^{3/2}  } }    &  { \frac{   x^2 }{   \left(  x^2+y^2  \right)^{3/2}  } }  \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Angewendet auf den tangentialen Vektor
+\mathl{\begin{pmatrix}  y  \\ -x   \end{pmatrix}}{} ergibt sich
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \left(D N \right)_{P} \begin{pmatrix}  y  \\ -x   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  y^2    &   - xy    \\  - xy   &  x^2  \end{pmatrix} \begin{pmatrix}  y  \\ -x   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  y \left(  y^2 +x^2  \right)  \\ -x \left(  y^2 +x^2  \right)    \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  y   \\ -x    \end{pmatrix}
+}
+{ } {
+}
+}
+{}
+{}{.}
+Daher ist die Krümmung der Kurve in $P$ nach
+[[Ebene differenzierbare Kurve/Faser/Krümmung/Fakt|Lemma 3.11 (Differentialgeometrie (Osnabrück 2023))]]
+gleich $-1$.
+\zusatzklammer {Dies passt, da
+\mathl{\begin{pmatrix}  y  \\ -x   \end{pmatrix}}{} und das Gradientenfeld die Standardorientierung repräsentieren und
+\mathl{\begin{pmatrix}  y  \\ -x   \end{pmatrix}}{} die Tangentialrichtung für die Bewegung mit dem Uhrzeigersinn ist.} {} {}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Es sei $X$ ein
+\definitionsverweis {Hausdorffraum}{}{.}
+Zeige, dass die
+\definitionsverweis {Diagonale}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \triangle
+}
+{ =} { \left\{ (x,y) \in X \times X  \mid   x = y        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+eine
+\definitionsverweis {abgeschlossene Teilmenge}{}{}
+im
+\definitionsverweis {Produktraum}{}{}
+
+\mathl{X \times X}{} ist.
+
+}
+{
+
+Wir müssen zeigen, dass das Komplement
+
+\mavergleichskettedisp
+{\vergleichskette
+{W
+}
+{ =} { X \times X \setminus \triangle
+}
+{ =} { \left\{  (x,y)   \mid   x,y \in X , \,  x \neq y       \right\}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+offen ist. Es sei also
+\mathl{(x,y)}{} ein Paar mit
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \neq }{ y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Aufgrund der vorausgesetzten Hausdorff-Eigenschaft gibt es disjunkte offene Mengen
+\mathl{U,V \subseteq X}{} mit
+\mathl{x \in U}{} und
+\mathl{y \in V}{.} Es ist
+\mathl{(x,y) \in U \times V}{} und nach Definition der Produkttopologie ist
+\mathl{U \times V}{} eine offene Menge in
+\mathl{X \times X}{.} Wegen der Disjunktheit folgt aus
+\mathl{(z,w) \in U\times V}{} sofort
+
+\mavergleichskette
+{\vergleichskette
+{z
+}
+{ \neq }{w
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Also ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{(x,y)
+}
+{ \in} { U \times V
+}
+{ \subseteq} {  W
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und $W$ ist die Vereinigung von solchen offenen Produktmengen, also selbst offen.
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Zeige, dass die drei eindimensionalen Mannigfaltigkeiten
+\mathlistdisp {S^1 = \left\{ (x,y) \in \R^2  \mid   \betrag { (x,y) } = 1         \right\}} {} {\R} {und} {\R \setminus \{0\}} {}
+paarweise nicht homöomorph sind.
+
+}
+{
+
+Als abgeschlossene beschränkte Teilmenge des $\R^2$ ist der Einheitskreis kompakt
+\zusatzklammer {[[Kompaktheit/Satz von Heine-Borel/Fakt|Satz von Heine-Borel]]} {} {.} Die reelle Gerade $\R$ und $\R \setminus \{0\}$ sind hingegen nicht kompakt, da sie unbeschränkte Teilmengen von $\R$ sind. Also ist
+\mathl{S^1 \not \cong \R,\, \R \setminus \{0\}}{.}
+
+Die reelle Gerade ist zusammenhängend, wie aus dem
+[[Reelle Analysis/Zwischenwertsatz/Fakt|Zwischenwertsatz]]
+folgt. Dagegen ist $\R \setminus \{0\}$ nicht zusammenhängend, da man
+
+\mavergleichskettedisp
+{\vergleichskette
+{\R_+
+}
+{ =} {(\R \setminus \{0\}) \cap [0, \infty]
+}
+{ =} {(\R \setminus \{0\}) \cap \, ]0, \infty]
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+schreiben kann, sodass man eine sowohl offene als auch abgeschlossene nichtleere Teilmenge erhält. Also ist
+\mathl{\R \,\not \cong \R \setminus \{0\}}{.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{5}
+
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ G
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+$n$-\definitionsverweis {dimensionale}{}{}
+\definitionsverweis {abgeschlossene Untermannigfaltigkeit}{}{,}
+die
+\definitionsverweis {orientiert}{}{}
+und mit der induzierten riemannschen Struktur und der
+\definitionsverweis {kanonischen Volumenform}{}{}
+$\omega$ versehen sei. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen und es sei
+\maabbdisp {\varphi} { W } { U
+} {}
+ein
+\definitionsverweis {Diffeomorphismus}{}{}
+mit der offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Zeige, dass auf $W$ die Formel
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{\varphi^* \left(  \omega \vert_U  \right)
+}
+{ =} { \left( \det  \left( \left\langle  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial   x_i   } }  \\ \vdots \\  { \frac{   \partial  \varphi_m   }{  \partial   x_i   } }   \end{pmatrix}  ,  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial   x_j   } }  \\ \vdots \\  { \frac{   \partial  \varphi_m   }{  \partial   x_j   } }   \end{pmatrix}   \right\rangle \right)_{1 \leq i,j \leq n} \right)^{1/2}  dx_1 \wedge \ldots \wedge dx_n
+}
+{ =} { \left( \det  \left(  { \frac{   \partial  \varphi_1   }{  \partial   x_i   } } { \frac{   \partial  \varphi_1   }{  \partial   x_j   } }  + \cdots +  { \frac{   \partial  \varphi_m   }{  \partial   x_i   } } { \frac{   \partial  \varphi_m   }{  \partial   x_j   } }  \right)_{1 \leq i,j \leq n} \right)^{1/2}  dx_1 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{}
+gilt.
+
+}
+{
+
+Die zweite Gleichung ergibt sich einfach durch Auswertung des Standardskalarproduktes auf dem $\R^m$. Nach Definition der
+\definitionsverweis {metrischen Fundamentalmatrix}{}{}
+ist für
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ g_{ij} (Q)
+}
+{ =} { \left\langle  T_Q(\varphi)(e_i)  ,  T_Q(\varphi)(e_j)   \right\rangle_{\varphi(Q)}
+}
+{ =} { \left\langle  T_Q(\varphi)(e_i)  ,  T_Q(\varphi)(e_j)   \right\rangle
+}
+{ =} { \left\langle  \left(  D \varphi  \right)_{ Q } \left(   e_i   \right)  ,  \left(  D\varphi  \right)_{ Q } \left(   e_j   \right)   \right\rangle
+}
+{ =} { \left\langle  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial   x_i   } } ( Q)  \\ \vdots \\  { \frac{   \partial  \varphi_m   }{  \partial   x_i   } } ( Q)   \end{pmatrix}  ,  \begin{pmatrix}  { \frac{   \partial   \varphi_1   }{  \partial   x_j   } } ( Q )  \\ \vdots \\  { \frac{   \partial  \varphi_m   }{  \partial   x_j   } } ( Q)   \end{pmatrix}   \right\rangle
+}
+}
+{}
+{}{,}
+da ja der Tangentialraum
+\mathl{T_{\varphi(Q)}M}{} das induzierte Skalarprodukt des $\R^m$ trägt, da die Tangentialabbildung im lokalen Fall das totale Differential ist und da man dessen Einträge mit den partiellen Ableitungen ausdrücken kann. Daher ergibt sich die Behauptung aus
+[[Riemannsche Mannigfaltigkeit/Orientiert/Kanonische Volumenform/Lokale Berechnung/Fakt|Lemma 16.7 (Differentialgeometrie (Osnabrück 2023))]].
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{weiter}
+
+{
+
+Wir betrachten den
+
+\mavergleichskette
+{\vergleichskette
+{ \R^6
+}
+{ = }{ \left(  \R^2  \right)^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+als Menge aller
+\zusatzklammer {auch entarteter} {} {}
+Dreiecke, indem wir ein Dreieck mit den
+\zusatzklammer {geordneten} {} {}
+Eckpunkten
+
+\mavergleichskette
+{\vergleichskette
+{ P_1
+}
+{ = }{ \begin{pmatrix}  x_1  \\ y_1    \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ P_2
+}
+{ = }{ \begin{pmatrix}  x_2  \\ y_2    \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ P_3
+}
+{ = }{ \begin{pmatrix}  x_3  \\ y_3    \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+mit dem Koordinatentupel
+
+\mathdisp {(x_1,y_1,x_2,y_2,x_3,y_3)} {  }
+
+identifizieren.
+\aufzaehlungsechs{Zeige, dass die Menge der Dreiecke, bei denen zwei Eckpunkte zusammenfallen, eine abgeschlossene Teilmenge des $\R^6$ ist
+\zusatzklammer {das Komplement davon ist somit eine offene Menge in $\R^6$, die wir $U$ nennen} {} {.}
+}{Zeige, dass die Menge der Dreiecke, bei denen alle drei Eckpunkte auf einer Geraden liegen, eine abgeschlossene Teilmenge des $\R^6$ ist
+\zusatzklammer {das Komplement davon, das aus allen nichtentarteten Dreiecken besteht, ist somit eine offene Menge in $\R^6$, die wir $V$ nennen} {} {.}
+}{Erstelle eine Funktionsvorschrift, die die Abbildung
+\maabbdisp {F} {\R^6} {\R
+} {}
+beschreibt, die einem Dreieck seinen Umfang zuordnet.
+}{Zeige, dass die Funktion $F$ aus Teil (3) auf der Menge $U$ stetig differenzierbar ist.
+}{Berechne die partielle Ableitung von $F$ nach $x_1$ auf $U$.
+}{Zeige, dass die Menge der nichtentarteten Dreiecke mit Umfang $1$ eine
+\definitionsverweis {abgeschlossene Untermannigfaltigkeit}{}{}
+von $V$ bildet. Was ist die Dimension?
+}
+
+}
+{
+
+\aufzaehlungsechs{Die Eckpunkte
+\mathkor {} {P_1} {und} {P_2} {}
+stimmen genau dann überein, wenn ihre beiden Koordinaten übereinstimmen, wenn also
+
+\mavergleichskette
+{\vergleichskette
+{ x_1
+}
+{ = }{ x_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ y_1
+}
+{ = }{ y_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist. Eine solche Bedingung definiert eine abgeschlossene Teilmenge, da es sich um die Faser einer
+\zusatzklammer {stetigen} {} {}
+linearen Abbildung handelt. Da eine endliche Vereinigung von abgeschlossenen Teilmengen wieder abgeschlossen ist, ist die in Frage stehende Menge abgeschlossen.
+}{Wir betrachten die Verbindungsvektoren
+
+\mathdisp {P_2-P_1 = \begin{pmatrix}  x_2-x_1  \\ y_2-y_1   \end{pmatrix} \text{   und } P_3-P_1 = \begin{pmatrix}  x_3-x_1  \\ y_3-y_1   \end{pmatrix}} {  }
+
+Die drei Punkte sind genau dann kollinear, wenn diese zwei Vektoren linear abhängig sind, und dies ist genau dann der Fall, wenn ihre Determinante $0$ ist. Die Kollinearitätssbedingung lautet somit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ H(x_1,x_2,x_3,y_1,y_2,y_3)
+}
+{ =} { (x_2-x_1) (y_3-y_1) - (x_3-x_1) (y_2-y_1)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Da $H$ eine polynomiale Abbildung und damit stetig ist, ist die Faser zu $0$ eine abgeschlossene Teilmenge.
+}{Da der Umfang einfach die Summe der drei beteiligten Dreiecksseiten ist, gilt
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ F(x_1,x_2,x_3,y_1,y_2,y_3)
+}
+{ =} { d(P_1,P_2) + d(P_1,P_3) +d(P_2,P_3)
+}
+{ =} { \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2} +  \sqrt{(x_3-x_1)^2 + (y_3-y_1)^2} +  \sqrt{(x_3-x_2)^2 + (y_3-y_2)^2}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Für einen Punkt aus
+\mathl{U}{} ist jeder Radikand als polynomiale Funktion stetig differenzierbar und echt positiv, somit sind auch die Quadratwurzeln daraus stetig differenzierbar.
+}{Die partielle Ableitung ist
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ { \frac{   \partial   F   }{  \partial   x_1  } }
+}
+{ =} { { \frac{   1 }{  2 } }   \left(  (  x_2-x_1  )^2 + (y_2-y_1)^2  \right)^{-1/2} (2x_1-2x_2)    + { \frac{   1 }{  2 } }   \left(  (  x_3-x_1  )^2 + (y_3-y_1)^2  \right)^{-1/2} (2x_1-2x_3)
+}
+{ =} {  \left(  (  x_2-x_1  )^2 + (y_2-y_1)^2  \right)^{-1/2} (x_1-x_2)    +   \left(  (  x_3-x_1  )^2 + (y_3-y_1)^2  \right)^{-1/2} (x_1-x_3)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Auf $U$ sind die Radikanden positiv, somit verschwindet die partielle Ableitung nach $x_1$ nur, falls
+\mathl{x_1=x_2=x_3}{} ist. Ein Dreieck mit dieser Bedingung ist aber kollinear. Das bedeutet, dass auf $V$ die partielle Ableitung nach $x_1$ nie $0$ wird und das bedeutet insbesondere, dass der Gradient auf $V$ nirgends verschwindet, also regulär ist. Nach
+[[Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt|Satz 8.2 (Differentialgeometrie (Osnabrück 2023))]]
+ist die Faser eine abgeschlossene Untermannigfaltigkeit, und zwar der Dimension
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 6-1
+}
+{ =} { 5
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{4}
+
+{
+
+Es seien
+\mathkor {} {r} {und} {R} {}
+positive reelle Zahlen mit
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ < }{ r
+}
+{ < }{ R
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wir betrachten den
+\zusatzklammer {eingebetteten} {} {}
+Torus
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T
+}
+{ =} { \left\{ (x,y,z) \in \R^3  \mid   \left(  \sqrt{x^2+y^2} -R  \right)^2 +z^2  = r^2         \right\}
+}
+{ \subseteq} { \R^3
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit der
+\definitionsverweis {induzierten riemannschen Struktur}{}{.}
+Zeige, dass zu jedem
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha
+}
+{ \in }{ [0,2 \pi [
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Abbildung
+\maabbeledisp {\Psi_\alpha} {\R^3} {\R^3
+} { \left(  x   , \,   y  , \,  z                 \right) } { \left(  x \cos \alpha - y \sin  \alpha   , \,   x \sin \alpha + y \cos  \alpha  , \,  z                 \right)
+} {,}
+eine
+\definitionsverweis {Isometrie}{}{}
+von $T$ in sich induziert.
+
+}
+{
+
+Die Abbildung ist auf
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \R^3
+}
+{ =} { \R^2 \times \R
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+das Produkt einer
+\definitionsverweis {ebenen Drehung}{}{}
+mit der Identität. Daher liegt eine euklidische
+\definitionsverweis {Isometrie}{}{}
+des $\R^3$ vor. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ (x,y,z)
+}
+{ \in }{  T
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Psi_\alpha(x,y,z)
+}
+{ =} { ( u,v,z)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dann ist
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \left(  \sqrt{u^2+v^2} -R  \right)^2 +z^2
+}
+{ =} { \left(  \sqrt{ \left(  x \cos \alpha - y \sin  \alpha   \right)^2+ \left(  x \sin \alpha + y \cos  \alpha  \right)^2} -R  \right)^2 +z^2
+}
+{ =} { \left(  \sqrt{  x^2 \cos^{ 2  } \alpha + y^2 \sin^{ 2  }  \alpha  -2xy \cos \alpha \sin  \alpha    + x^2 \sin^{ 2  } \alpha + y^2 \cos^{ 2  }  \alpha  +2xy \cos \alpha \sin  \alpha     } -R  \right)^2 +z^2
+}
+{ =} { \left(  \sqrt{  x^2   + y^2 } -R  \right)^2 +z^2
+}
+{ =} { r^2
+}
+}
+{}{}{,}
+also
+
+\mavergleichskette
+{\vergleichskette
+{ \Psi_\alpha(x,y,z)
+}
+{ \in }{  T
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es ist also
+\maabbdisp {\Psi_\alpha} { T} {T
+} {}
+ein Diffeomorphismus und eine Isometrie, da $T$ die induzierte riemannsche Struktur trägt.
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Beschreibe ein Modell für die hyperbolische Fläche.
+
+}
+{  }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{7}
+
+{
+
+Beweise das Theorema egregium.
+
+}
+{
+
+Wir differenzieren die erste Bestimmungsgleichung für die Christoffelsymbole, also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial_1 \partial_1 \varphi
+}
+{ =} { \Gamma^1_{11}  \partial_1 \varphi  + \Gamma^2_{11}  \partial_2 \varphi +h_{11} N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+in Richtung der zweiten Variablen und die zweite Bestimmungsgleichung, also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial_1 \partial_2 \varphi
+}
+{ =} { \Gamma^1_{12}  \partial_1 \varphi + \Gamma^2_{12}  \partial_2  \varphi + h_{12} N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+in Richtung der ersten Variablen und erhalten nach Schwarz
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \left(  \partial_2 \Gamma^1_{11}  \right) \partial_1 \varphi +  \left(  \partial_2 \Gamma^2_{11}  \right)  \partial_2 \varphi+ \left(  \partial_2 h_{11}  \right)  N + \Gamma^1_{11} \partial_2 \partial_1 \varphi + \Gamma^2_{11}  \partial_2 \partial_2 \varphi  +h_{11} \partial_2 N
+}
+{ =} { \left(  \partial_1 \Gamma^1_{12}  \right)  \partial_1  \varphi+ \left(  \partial_1 \Gamma^2_{12}  \right)\partial_2 \varphi + \left(  \partial_1 h_{12}  \right)  N+ \Gamma^1_{12}  \partial_1 \partial_1 \varphi + \Gamma^2_{12}  \partial_1 \partial_2 \varphi + h_{12} \partial_1 N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Die Differenz dieser Ausdrücke ist $0$, und wir bestimmen, was sich dabei auf den Basisvektor $\partial_2 \varphi$ bezieht. Dazu müssen wir die Bestimmungsgleichungen für die Christoffelsymbole und
+[[Hyperfläche/Raum/Parametrisierung/Weingartenabbildung/Fundamentalformen/Fakt|Lemma 19.3 (Differentialgeometrie (Osnabrück 2023))  (3)]]
+heranziehen und erhalten
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ 0
+}
+{ =} { \partial_2 \Gamma^2_{11} - \partial_1 \Gamma^2_{12} +\Gamma^1_{11} \Gamma^2_{12} - \Gamma^1_{12} \Gamma^2_{11} + \Gamma_{11}^2 \Gamma_{22}^2- \left(  \Gamma_{12}^2  \right)^2 + h_{11}  { \frac{   g_{12} h_{12} - g_{11} h_{22}   }{  g_{11}g_{22} -g_{12}^2 } } - h_{12}  { \frac{   g_{12} h_{11} - g_{11}h_{12}  }{  g_{11}g_{22} -g_{12}^2 } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Mit
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ - g_{11} \left(  h_{11}h_{22} -h_{12}^2  \right)
+}
+{ =} { h_{11} \left(  g_{12} h_{12}- g_{11} h_{22}  \right) - h_{12} \left(  g_{12} h_{11} - g_{11}h_{12}  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+können wir die beiden hinteren Summanden ersetzen und erhalten mit
+[[Hyperfläche/Raum/Parametrisierung/Weingartenabbildung/Fundamentalformen/Fakt|Lemma 19.3 (Differentialgeometrie (Osnabrück 2023))  (4)]]
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ g_{11} K
+}
+{ =} { g_{11} { \frac{   h_{11}h_{22} -h_{12}^2  }{ g_{11}g_{22} -g_{12}^2 } }
+}
+{ =} { \left(  \partial_2 \Gamma_{11}^2 - \partial_1 \Gamma_{12}^2 + \Gamma^1_{11} \Gamma^2_{12}  + \Gamma_{11}^2 \Gamma_{22}^2 - \Gamma_{12}^1 \Gamma_{11}^2-  \left(  \Gamma_{12}^2  \right)^2  \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{6 (1+2+2+1)}
+
+{
+
+Wir betrachten die
+\definitionsverweis {Differentialform}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { ydx+zdy +xdz
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf dem $\R^3$ und die Abbildung
+\maabbeledisp {\varphi} {\R^2} {\R^3
+} { \left(  u   , \,  v                   \right) } { \left( u^2  , \,  v^2  , \,  uv                 \right)
+} {.}
+\aufzaehlungvier{Berechne die äußere Ableitung von $\omega$.
+}{Berechne den Rückzug $\varphi^* \omega$  von $\omega$ unter $\varphi$.
+}{Berechne die äußere Ableitung von $\varphi^* \omega$ auf $\R^2$.
+}{Berechne den Rückzug $\varphi^* d \omega$  von $d\omega$ unter $\varphi$ unabhängig von (3).
+}
+
+}
+{
+
+\aufzaehlungvier{Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d \omega
+}
+{ =} { d \left(  ydx+zdy +xdz  \right)
+}
+{ =} { dy \wedge dx +dz \wedge dy +dx \wedge dz
+}
+{ =} { - dx \wedge dy -dy \wedge dz +dx \wedge dz
+}
+{ } {
+}
+}
+{}{}{.}
+}{Es ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{  \varphi^* \omega
+}
+{ =} { v^2 d u^2 + uvdv^2+ u^2duv
+}
+{ =} { 2v^2udu +2uv^2 dv + u^2(udv +vdu)
+}
+{ =} { \left(  2uv^2 +u^2v  \right) du + \left(  2uv^2 +u^3  \right) dv
+}
+{ } {
+}
+}
+{}
+{}{.}
+}{Es ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{  d \left(   \left(  2uv^2 +u^2v  \right) du + \left(  2uv^2 +u^3  \right) dv     \right)
+}
+{ =} {  d \left(  2uv^2 +u^2v  \right) du  +  d\left(  2uv^2 +u^3  \right) dv
+}
+{ =} { \left(  4uv  + u^2      \right)  dv \wedge du  +   \left(  2v^2   +3u^2  \right)   du \wedge dv
+}
+{ =} { \left(  -4uv +  2v^2   +2u^2  \right)   du \wedge dv
+}
+{ } {
+}
+}
+{}
+{}{.}
+}{Der Rückzug $\varphi^* d \omega$ ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \varphi^* \left(  - dx \wedge dy -dy \wedge dz +dx \wedge dz   \right)
+}
+{ =} { - d u^2 \wedge dv^2 -d v^2 \wedge duv +d u^2 \wedge duv
+}
+{ =} { -4uv  du \wedge dv -2v^2 dv \wedge du + 2   u^2 du \wedge dv
+}
+{ =} { \left(  -4uv+2v^2 + 2 u^2  \right)  du \wedge dv
+}
+{ } {
+}
+}
+{}
+{}{.}
+}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und $\omega$ eine
+\definitionsverweis {exakte}{}{} \definitionsverweis {Differentialform}{}{}
+auf $M$. Es sei $S$ eine
+\definitionsverweis {kompakte}{}{}
+\definitionsverweis {orientierte}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+\zusatzklammer {ohne Rand} {} {}
+mit
+\definitionsverweis {abzählbarer Basis der Topologie}{}{}
+und es sei
+\maabbdisp {\varphi} { S } { M
+} {}
+eine
+\definitionsverweis {stetig differenzierbare}{}{}
+Abbildung. Zeige
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{  S  }   \varphi^*\omega
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{
+
+Da nach
+[[Differentialform/Mannigfaltigkeit/Äußere Ableitung/Eigenschaften/Fakt|Satz 20.4 (Differentialgeometrie (Osnabrück 2023))  (5)]]
+das Zurückziehen von Formen mit der äußeren Ableitung verträglich ist, ist auch
+\mathl{\varphi^*\omega}{} exakt. Es sei $\tau$ eine differenzierbare Form auf $S$ mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{d \tau
+}
+{ =} { \varphi^* \omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Nach
+dem [[Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt|Satz von Stokes]]
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_S \varphi^* \omega
+}
+{ =} { \int_S d \tau
+}
+{ =} { \int_{ \partial S } \tau
+}
+{ =} { \int_\emptyset \tau
+}
+{ =} { 0
+}
+}
+{}{}{.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{6}
+
+{
+
+Beweise den Satz über die Retraktionen auf den Rand auf Mannigfaltigkeiten.
+
+}
+{
+
+Der Rand
+\mathl{\partial M}{} ist nach
+[[Mannigfaltigkeit mit Rand/Orientierung/Randorientierung/Fakt|Satz 21.8 (Differentialgeometrie (Osnabrück 2023))]]
+eine
+\definitionsverweis {orientierte}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+\zusatzklammer {ohne Rand} {} {.}
+Daher gibt es nach
+[[Nullstellenfreie Volumenform/Orientierte (Karten) Mannigfaltigkeit/Äquivalenz/Fakt|Satz 22.11 (Differentialgeometrie (Osnabrück 2023))]]
+eine
+\definitionsverweis {stetig differenzierbare}{}{}
+\definitionsverweis {positive Volumenform}{}{}
+$\tau$ auf
+\mathl{\partial M}{.} Es ist
+\mathl{\int_{  \partial M  }  \tau >0}{.} Die
+\definitionsverweis {äußere Ableitung}{}{}
+der Volumenform $\tau$ ist $0$. Nehmen wir an, dass es eine
+\definitionsverweis {stetig differenzierbare Abbildung}{}{}
+\maabbdisp {\varphi} { M } { \partial M
+} {}
+mit
+\mathl{\varphi \vert_{\partial M} = \operatorname{Id}_{\partial M}}{} gebe. Dann ist die
+\definitionsverweis {zurückgezogene Form}{}{}
+
+\mathl{\varphi^* \tau}{} eine
+$(n-1)$-\definitionsverweis {Differentialform}{}{}
+auf $M$, deren Einschränkung auf den Rand mit $\tau$ übereinstimmt. Daher gilt unter Verwendung von
+[[Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt|Satz 23.2 (Differentialgeometrie (Osnabrück 2023))]]
+und
+[[Differentialform/Mannigfaltigkeit/Äußere Ableitung/Eigenschaften/Fakt|Satz 20.4 (Differentialgeometrie (Osnabrück 2023))  (5)]]
+
+\mavergleichskettealign
+{\vergleichskettealign
+{
+\int_{  \partial M  }  \tau
+}
+{ =} {
+\int_{  \partial  M  }  \varphi^* \tau
+}
+{ =} {
+\int_{   M  }  d(\varphi^* \tau)
+}
+{ =} {
+\int_{   M  }  \varphi^* (d\tau)
+}
+{ =} {
+\int_{   M  }  \varphi^* (0)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { 0
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+Dies ist ein Widerspruch.
+
+ }
+
+ [[Kategorie:Latexseite]]

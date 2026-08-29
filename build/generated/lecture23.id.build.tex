@@ -1,0 +1,1310 @@
+\setcounter{section}{23}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg {SS-stokes} {jpg} }
+\end{center}
+\bildtext {George Stokes (1819 -1903)} }
+
+\bildlizenz { SS-stokes.jpg } {} {Kelson} {Commons} {PD} {}
+
+Teorema Stokes termasuk salah satu teorema terpenting dalam matematika. Teorema ini membentuk hubungan langsung antara integral suatu bentuk diferensial di atas batas manifold berbatas dan integral turunan eksterior bentuk tersebut di atas seluruh manifold. Dengan demikian, teorema ini merupakan perumuman yang sangat luas dari teorema dasar kalkulus, yang menyatakan bahwa integral tentu suatu fungsi yang didefinisikan pada sebuah interval dapat dinyatakan melalui antiturunannya hanya dengan menggunakan nilai-nilai pada ujung interval.
+
+  \zwischenueberschrift{Teorema Stokes versi balok}
+
+Sebelum kita merumuskan dan membuktikan teorema Stokes secara umum, kita berikan dahulu versi baloknya. Dalam versi ini, domain definisi bentuk diferensial adalah sebuah balok yang batasnya terdiri atas muka-mukanya. Agar objek geometris ini menjadi manifold berbatas, kita harus membuang \anfuehrung{rusuk-rusuknya}{} dari balok tersebut. Namun, rusuk-rusuk itu merupakan himpunan nol di dalam setiap muka
+\zusatzklammer {dan demikian pula muka-muka merupakan himpunan nol di dalam keseluruhan balok} {} {,}
+sehingga himpunan-himpunan bagian tersebut dapat diabaikan dalam pengintegralan.
+
+
+
+\inputfaktbeweis
+{Satz von Stokes/Quaderversion/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sebuah balok berdimensi $n$ yang sejajar sumbu
+\zusatzklammer {beserta muka-mukanya, tetapi tanpa rusuk-rusuknya} {} {}\zusatzfussnote {Syarat-syarat ini menjamin bahwa yang diperoleh adalah manifold berbatas, dengan batas berupa gabungan saling lepas dari muka-muka terbuka. Namun, dalam pembuktian kita juga akan menggunakan balok tertutup} {.} {}
+dengan
+\definitionsverweis {batas}{}{}
+
+\mathl{\partial Q}{,} dan misalkan $\omega$ didefinisikan pada $Q$ sebagai suatu
+\definitionsverweis {bentuk diferensial}{}{}
+yang
+\definitionsverweis {terdiferensialkan secara kontinu}{}{}
+dan berderajat $(n-1)$.}
+\faktfolgerung {Maka
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{  Q  }  d \omega
+}
+{ =} {
+\int_{  \partial Q  }   \omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Karena kedua ruas persamaan ini linear terhadap $\omega$, kita dapat menganggap bahwa $\omega$ berbentuk
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { f dx_2 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan suatu fungsi yang terdiferensialkan secara kontinu dan didefinisikan pada suatu lingkungan terbuka dari $Q$, yaitu $f$. Integral pada ruas kiri dan ruas kanan adalah
+\definitionsverweis {integral Lebesgue}{}{}
+dari fungsi-fungsi kontinu pada himpunan bagian
+\mathkor {} {\R^n} {dan} {\R^{n-1}} {.}
+Karena itu, pada kedua ruas kita dapat beralih ke
+\definitionsverweis {penutupan topologis}{}{}
+sebab hal tersebut hanya mengubah daerah integrasi yang bersangkutan sebesar suatu himpunan nol, sehingga tidak mengubah integralnya.
+
+Kita tuliskan balok tertutup itu sebagai
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \overline{Q}
+}
+{ =} { [a,b] \times \tilde{Q}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Kita menerapkan
+Korolari 14.10
+pada setiap muka $S$, kecuali
+\mathkor {} {a \times \tilde{Q}} {dan} {b \times \tilde{Q}} {,}
+dan memperoleh pada muka tersebut
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ S  }   \omega
+}
+{ =} {
+\int_{  S  }  f dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{ S  }   0
+}
+{ =} { 0
+}
+{ } {
+}
+}
+{}{}{,}
+karena pada setiap muka ini salah satu variabel
+\mathl{x_2 , \ldots , x_n}{} konstan. Berdasarkan
+teorema Fubini
+dan
+teorema dasar kalkulus
+\zusatzklammer {yang diterapkan untuk setiap \mathlk{(x_2 , \ldots , x_n)}{} yang tetap} {} {,}
+berlaku
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{
+\int_{ Q  }   d\omega
+}
+{ =} {
+\int_{  Q  }   df \wedge  dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{  Q  }   \left(  \sum_{j = 1}^n { \frac{   \partial   f   }{  \partial   x_j   } } dx_j  \right) \wedge  dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{  Q  }   { \frac{   \partial   f   }{  \partial   x_1   } } dx_1 \wedge  dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{ \tilde{Q}   }   \left(  \int_{[a,b] } { \frac{   \partial   f   }{  \partial   x_1   } } dx_1  \right)  dx_2 \wedge \ldots \wedge dx_n
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} {
+\int_{  \tilde{Q}   }   \left(  f(b,x_2 , \ldots , x_n ) - f(a,x_2 , \ldots , x_n )   \right) dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{ b \times \tilde{Q}   }   f dx_2 \wedge \ldots \wedge dx_n  -
+\int_{  a \times \tilde{Q}   }  f dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} { \sum_{S \text{ muka berorientasi dari } Q}
+\int_{  S  }  f dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{  \partial Q  }   f dx_2 \wedge \ldots \wedge dx_n
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} {
+\int_{  \partial Q  }   \omega
+}
+{ } {}
+{ } {}
+{ } {}
+}{.}
+
+}
+
+  \zwischenueberschrift{Teorema Stokes}
+
+
+
+\inputfaktbeweis
+{Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel berbatas}{}{}
+yang
+\definitionsverweis {berdimensi}{}{} $n$,
+\definitionsverweis {berorientasi}{}{},
+memiliki batas $\partial M$, serta memiliki
+\definitionsverweis {basis terhitung bagi topologinya}{}{.}
+Misalkan pula $\omega$ suatu
+\definitionsverweis {bentuk diferensial}{}{}
+berderajat $(n-1)$ yang
+\definitionsverweis {terdiferensialkan secara kontinu}{}{}
+dan memiliki
+\definitionsverweis {tumpuan}{}{}
+\definitionsverweis {kompak}{}{}\zusatzfussnote {Tumpuan suatu bentuk diferensial adalah penutupan topologis dari himpunan titik tempat bentuk tersebut \mathlk{\neq 0}{}} {.} {} pada $M$.}
+\faktfolgerung {Maka
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ M  }  d\omega
+}
+{ =} {
+\int_{  \partial M  }   \omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{Misalkan
+
+\mathbed {U_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+suatu
+\definitionsverweis {tutupan terbuka}{}{}
+dari $M$ oleh
+\definitionsverweis {peta-peta berorientasi}{}{,}
+dan misalkan
+
+\mathbed {h_j} {}
+ {j \in J} {}
+ {} {} {} {,}
+suatu
+\definitionsverweis {partisi satuan yang terdiferensialkan secara kontinu dan subordinat terhadap tutupan ini}{}{,}
+yang ada menurut
+Teorema 22.10.
+Untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat suatu lingkungan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ V_P
+}
+{ \subseteq }{ M
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sedemikian rupa sehingga
+
+\mavergleichskette
+{\vergleichskette
+{ h_j \vert_{V_P }
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+selain untuk sejumlah berhingga pengecualian. Misalkan $Y$ adalah tumpuan $\omega$. Tutupan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \bigcup_{P \in M} V_P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+memiliki suatu subtutupan berhingga karena
+\definitionsverweis {kekompakan}{}{}
+yang diasumsikan; sebutlah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ \subseteq} { V_{1} \cup \ldots \cup V_{r}
+}
+{ =} { V
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Karena itu, hanya sejumlah berhingga dari $h_j$ pada $V$ yang berbeda dari $0$. Kita definisikan
+
+\mavergleichskette
+{\vergleichskette
+{ \omega_j
+}
+{ = }{ h_j \omega
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{;}
+bentuk-bentuk diferensial ini juga terdiferensialkan secara kontinu. Tumpuan $h_j$ adalah suatu
+\definitionsverweis {himpunan bagian tertutup}{}{}
+dari $M$ yang termuat dalam
+\mathl{U_{i(j)}}{.} Oleh karena itu, tumpuan $\omega_j$ termuat dalam
+\mathl{Y \cap U_{i(j)}}{} dan dengan sendirinya kompak menurut
+Soal 13.10.
+Berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { \sum_{j \in J} \omega_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dan hanya sejumlah berhingga dari bentuk-bentuk diferensial
+\mathl{\omega_j}{} tersebut yang berbeda dari $0$, sebab
+
+\mavergleichskette
+{\vergleichskette
+{ \omega_j \vert_{M \setminus Y}
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+untuk semua $j$, sedangkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega_j \vert_V
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk semua $j$ selain sejumlah berhingga pengecualian. Berdasarkan
+aditivitas integral bentuk diferensial
+dan
+aditivitas turunan eksterior,
+pernyataan tersebut dapat dibuktikan secara terpisah untuk setiap $\omega_j$. Jadi, kita dapat menganggap bahwa diberikan suatu bentuk diferensial berderajat $(n-1)$ yang terdiferensialkan secara kontinu, mempunyai tumpuan kompak, dan tumpuan itu seluruhnya termuat dalam suatu lingkungan peta $U$.}
+{}
+\teilbeweis {}{}{}
+{Terdapat suatu
+\definitionsverweis {difeomorfisme}{}{}
+\maabb {\alpha} { U } { V
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka, yang sekaligus menginduksi suatu difeomorfisme antara batas-batas
+
+\mavergleichskette
+{\vergleichskette
+{ \partial U
+}
+{ = }{ \partial M \cap U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \partial V
+}
+{ = }{ \partial H \cap V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dalam hal ini berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{  \partial U  }   \omega
+}
+{ =} {
+\int_{  \partial V  }  \alpha^{-1 *}\omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ U  }  d \omega
+}
+{ =} {
+\int_{ V  }  \alpha^{-1 *} (  d \omega)
+}
+{ =} {
+\int_{  V  }  d \left(  \alpha^{-1 *}\omega  \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+menurut
+Lema 20.2 (5).}
+{\leerzeichen{}Dengan demikian, kita dapat bertolak dari suatu bentuk diferensial yang terdiferensialkan secara kontinu, didefinisikan pada
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+serta mempunyai tumpuan kompak. Di luar tumpuannya, bentuk ini dapat kita perluas ke seluruh $H$ sebagai bentuk nol.}
+\teilbeweis {}{}{}
+{Karena tumpuannya kompak, terdapat suatu balok yang cukup besar
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \subseteq }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang salah satu mukanya, $S$, terletak pada $\partial H$ dan yang hanya berpotongan dengan tumpuan $\omega$ di $S$. Pada semua muka lain dari $Q$, $\omega$
+\zusatzklammer {dan karena itu juga $d\omega$} {} {}
+adalah bentuk nol. Oleh sebab itu, pada satu pihak berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ H  }  d\omega
+}
+{ =} {
+\int_{ Q  }  d\omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan pada pihak lain
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{  \partial H  }   \omega
+}
+{ =} {
+\int_{  S  }   \omega
+}
+{ =} {
+\int_{  \partial Q  }   \omega
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dengan demikian, pernyataan tersebut mengikuti dari
+teorema Stokes versi balok.}
+{}
+
+}
+
+
+
+\inputfaktbeweis
+{Mannigfaltigkeiten ohne Rand/Satz von Stokes/Fakt}
+{Korolari}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu manifold
+\definitionsverweis {berdimensi}{}{} $n$ yang
+\definitionsverweis {berorientasi}{}{} dan
+\definitionsverweis {diferensiabel}{}{}
+\zusatzklammer {tanpa batas} {} {}
+serta memiliki
+\definitionsverweis {basis terhitung bagi topologinya}{}{.}
+Misalkan pula $\omega$ suatu
+\definitionsverweis {bentuk diferensial}{}{}
+berderajat $(n-1)$ yang
+\definitionsverweis {terdiferensialkan secara kontinu}{}{}
+dan memiliki
+\definitionsverweis {tumpuan}{}{}
+\definitionsverweis {kompak}{}{} pada $M$.}
+\faktfolgerung {Maka
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ M  }  d\omega
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Hal ini segera mengikuti dari
+Teorema 23.2
+karena
+
+\mavergleichskette
+{\vergleichskette
+{ \partial M
+}
+{ = }{ \emptyset
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+
+
+
+\inputfaktbeweis
+{Mannigfaltigkeiten mit Rand/Satz von Stokes/Differentialform ist null auf Rand/Fakt}
+{Korolari}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel berbatas}{}{}
+yang
+\definitionsverweis {berdimensi}{}{} $n$,
+\definitionsverweis {berorientasi}{}{},
+dan memiliki
+\definitionsverweis {basis terhitung bagi topologinya}{}{.}
+Misalkan pula $\omega$ suatu
+\definitionsverweis {bentuk diferensial}{}{}
+berderajat $(n-1)$ yang
+\definitionsverweis {terdiferensialkan secara kontinu}{}{}
+dan memiliki
+\definitionsverweis {tumpuan}{}{}
+\definitionsverweis {kompak}{}{}
+pada $M$,}
+\faktvoraussetzung {serta pada batas $\partial M$ bernilai tetap $0$.}
+\faktfolgerung {Maka
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ M  }  d\omega
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Hal ini segera mengikuti dari
+Teorema 23.2.
+
+}
+
+Hal penting dalam pernyataan di atas adalah bahwa $\omega$ bernilai $0$ pada batas; tidak cukup bahwa turunan eksterior $d\omega$ bernilai $0$ pada batas, sebagaimana sudah ditunjukkan oleh situasi berdimensi satu.
+
+Ada banyak cara untuk merealisasikan bentuk volume
+
+\mavergleichskette
+{\vergleichskette
+{ \tau
+}
+{ = }{ dx_1 \wedge \ldots \wedge dx_n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dari $\R^n$ sebagai turunan eksterior suatu bentuk berderajat
+\mathl{(n-1)}{,} misalnya dengan
+
+\mavergleichskette
+{\vergleichskette
+{  \omega
+}
+{ = }{ x_1dx_2 \wedge \ldots \wedge dx_n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dengan demikian, perhitungan volume suatu benda berbatas dapat dikembalikan pada perhitungan integral di atas batasnya. Dalam kasus bidang, pernyataan ini juga disebut \stichwort {teorema Green} {.}
+
+
+
+\inputfaktbeweis
+{Integration auf ebener Mannigfaltigkeit mit Rand/Satz von Green/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu manifold
+\definitionsverweis {kompak}{}{}
+\definitionsverweis {dengan batas}{}{}\zusatzfussnote {Bidang real sekitar hanya berperan dalam menetapkan koordinat dan bentuk diferensial pada $M$} {.} {}
+$\partial M$, dan misalkan
+\maabbdisp {f,g} { M } {\R
+} {}
+\definitionsverweis {fungsi-fungsi yang terdiferensialkan secara kontinu}{}{.}}
+\faktfolgerung {Maka
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{
+\int_{  M  }   \left(  - { \frac{   \partial   f   }{  \partial   y   } } ( x,y) + { \frac{   \partial   g   }{  \partial   x   } } ( x,y)  \right) dx \wedge dy
+}
+{ =} {
+\int_{  \partial M  }  f(x,y)dx +g(x,y)dy
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Hal ini mengikuti dari
+Teorema 23.2,
+yang diterapkan pada suatu bentuk-$1$ yang
+\definitionsverweis {terdiferensialkan secara kontinu}{}{},
+yakni suatu
+\definitionsverweis {bentuk diferensial}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ f(x,y)dx + g(x,y)dy
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+
+
+
+\inputfaktbeweis
+{Integration auf ebener Mannigfaltigkeit mit Rand/Satz von Green/Flächenversion/Fakt}
+{Korolari}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu manifold
+\definitionsverweis {kompak}{}{}
+\definitionsverweis {dengan batas}{}{}
+
+\mathl{\partial M}{.}}
+\faktfolgerung {Maka luas $M$ sama dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \lambda^2(M)
+}
+{ =} {
+\int_{  \partial M  }   x dy
+}
+{ =} { -
+\int_{  \partial M  }   y dx
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Hal ini mengikuti karena
+
+\mavergleichskette
+{\vergleichskette
+{ \lambda^2(M)
+}
+{ = }{
+\int_{ M  }  dx \wedge dy
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dari
+Teorema 23.5,
+yang diterapkan pada
+\mathkor {} {f=0,\, g=x} {atau} {f=-y,\, g=0} {.}
+
+}
+
+\inputbemerkung
+{}
+{
+
+Teorema Green juga dapat diterapkan pada daerah kompak
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+yang batas
+\zusatzklammer {topologisnya} {} {}
+terhubung dan tersusun atas sejumlah berhingga kurva mulus yang tidak harus mulus pada titik-titik sambungannya
+\zusatzklammer {misalnya sebuah segitiga} {} {.}
+Integral batas kemudian merupakan jumlah integral lintasan di atas potongan-potongan kurva mulus tersebut. Situasi yang sedikit lebih umum ini dapat dikembalikan pada
+Teorema 23.5
+dengan salah satu dari dua cara: melicinkan titik-titik sambungan untuk memperoleh batas mulus, sambil membuat penyimpangan integral sekecil yang diinginkan; atau melicinkan bentuk diferensial hingga bernilai $0$ dalam lingkungan-lingkungan kecil dari titik-titik sambungan.
+
+}
+
+\inputbeispiel{}
+{
+
+Salah satu kasus khusus
+teorema Stokes
+adalah apa yang disebut \stichwort {teorema divergensi} {} atau \stichwort {teorema Gauss} {.} Untuk suatu manifold kompak berdimensi tiga dengan batas
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subset }{ U
+}
+{ \subseteq }{ \R^3
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {$U$ suatu himpunan bagian terbuka} {} {}
+dan suatu bentuk diferensial-$2$ $\omega$ pada $U$, teorema ini menyatakan persamaan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_{\partial M} \omega
+}
+{ =} { \int_M d \omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Teorema ini berkaitan dengan situasi fisis suatu aliran. Bentuk $\omega$, untuk suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan sebuah jajaran genjang infinitesimal pada titik itu, menyatakan berapa banyak fluida yang mengalir menembus potongan tersebut per satuan waktu. Dalam deskripsi ekuivalen situasi ini dengan suatu medan vektor,
+\mathl{F(P)}{} menyatakan arah aliran beserta kekuatannya. Turunan $d \omega$ adalah suatu bentuk volume yang disebut \stichwort {divergensi} {.} Pada suatu titik, bentuk ini menyatakan pertambahan infinitesimal bahan aliran
+\zusatzklammer {\stichwort {sumber} {} atau \stichwort {serapan} {}} {} {}
+di titik tersebut. Syarat
+
+\mavergleichskette
+{\vergleichskette
+{d \omega
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sering dipenuhi dan berarti bahwa fluida tidak mengalami penambahan bahan di $U$. Teorema Gauss kemudian menyatakan bahwa aliran total yang menembus batas
+\zusatzklammer {dengan orientasi menentukan aliran mana yang dianggap mengarah ke luar atau ke dalam} {} {}
+sama dengan $0$. Jadi, apa pun yang mengalir masuk ke $M$ pada suatu tempat akan mengalir keluar lagi di tempat lain.
+
+}
+
+  \zwischenueberschrift{Teorema titik tetap Brouwer}
+
+
+
+\inputfaktbeweis
+{Mannigfaltigkeit mit Rand/Stokes/Nichtexistenz von Retraktionen/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel berbatas}{}{}
+yang
+\definitionsverweis {kompak}{}{},
+\definitionsverweis {berorientasi}{}{},
+memiliki batas
+\mathl{\partial M}{,} dan memiliki
+\definitionsverweis {basis terhitung bagi topologinya}{}{.}}
+\faktfolgerung {Maka tidak ada
+\definitionsverweis {pemetaan yang terdiferensialkan secara kontinu}{}{}
+\maabbdisp {\varphi} { M } { \partial M
+} {,}
+yang
+\definitionsverweis {pembatasannya}{}{}
+pada $\partial M$ adalah identitas.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Menurut
+Teorema 21.8,
+batas
+\mathl{\partial M}{} adalah suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+\definitionsverweis {berorientasi}{}{}
+\zusatzklammer {tanpa batas} {} {.}
+Oleh karena itu, menurut
+Teorema 22.11,
+terdapat suatu
+\definitionsverweis {bentuk volume positif}{}{}
+yang
+\definitionsverweis {terdiferensialkan secara kontinu}{}{},
+yaitu $\tau$, pada
+\mathl{\partial M}{.} Berlaku
+
+\mavergleichskette
+{\vergleichskette
+{
+\int_{  \partial M  }  \tau
+}
+{ > }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+\definitionsverweis {Turunan eksterior}{}{}
+dari bentuk volume $\tau$ adalah $0$.
+Andaikan terdapat suatu
+\definitionsverweis {pemetaan yang terdiferensialkan secara kontinu}{}{}
+\maabbdisp {\varphi} { M } { \partial M
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi \vert_{\partial M}
+}
+{ = }{ \operatorname{Id}_{\partial M}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Maka
+\definitionsverweis {bentuk tarik balik}{}{}
+
+\mathl{\varphi^* \tau}{} adalah suatu
+\definitionsverweis {bentuk diferensial}{}{}
+berderajat $(n-1)$ pada $M$, yang pembatasannya pada batas sama dengan $\tau$. Dengan menggunakan
+Teorema 23.2
+dan
+Teorema 20.4 (5),
+kita memperoleh
+
+\mavergleichskettealign
+{\vergleichskettealign
+{
+\int_{  \partial M  }   \tau
+}
+{ =} {
+\int_{  \partial  M  }   \varphi^* \tau
+}
+{ =} {
+\int_{  M  }   d(\varphi^* \tau)
+}
+{ =} {
+\int_{  M  }   \varphi^* (d\tau)
+}
+{ =} {
+\int_{  M  }   \varphi^* (0)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { 0
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+Ini sebuah kontradiksi.
+
+}
+
+Pernyataan ini juga dirumuskan dengan mengatakan bahwa tidak ada
+\zusatzklammer {yang terdiferensialkan secara kontinu} {} {} \stichwort {retraksi} {} ke batas.
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Théorème-de-Brouwer-(cond-2)} {jpg} }
+\end{center}
+\bildtext {Ilustrasi cakram dengan lintasan-lintasan berarah yang berpilin menuju titik pusat.} }
+
+\bildlizenz { Théorème-de-Brouwer-(cond-2).jpg } {} {Jean-Luc W} {Commons} {CC-by-sa 3.0} {}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Théorème-de-Brouwer-(cond-1)} {jpg} }
+\end{center}
+\bildtext {Ilustrasi lintasan-lintasan melingkar berarah pada anulus dan pada pita persegi panjang padanannya.} }
+
+\bildlizenz { Théorème-de-Brouwer-(cond-1).jpg } {} {Jean-Luc W} {Commons} {CC-by-sa 3.0} {}
+
+Teorema berikut disebut \stichwort {teorema titik tetap Brouwer} {.}
+
+
+\inputfaktbeweis
+{Brouwersche Fixpunktsatz/Stetig differenzierbar/Retraktion/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan
+\maabbdisp {\psi} { B  \left(  0 ,r \right) } { B  \left(  0 ,r \right)
+} {}
+suatu
+\definitionsverweis {pemetaan yang terdiferensialkan secara kontinu}{}{}
+dari
+\definitionsverweis {bola tertutup}{}{}
+di $\R^n$ ke dirinya sendiri.}
+\faktfolgerung {Maka $\psi$ memiliki suatu
+\definitionsverweis {titik tetap}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Untuk menyederhanakan notasi, misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ r
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Andaikan ada suatu pemetaan $\psi$ yang terdiferensialkan secara kontinu dan tidak memiliki titik tetap. Maka selalu berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ x
+}
+{ \neq} { \psi(x)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+sehingga kedua titik itu menentukan sebuah garis. Gagasannya adalah menggunakan garis ini untuk mengambil salah satu
+\zusatzklammer {dari kedua} {} {}
+titik potong dengan sfer sebagai titik citra suatu retraksi ke batas. Dengan fungsi bantu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h(x)
+}
+{ =} { { \frac{   \psi(x)-x }{  \Vert { \psi (x)-x} \Vert  } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+kita mendefinisikan suatu pemetaan
+\maabbdisp {\varphi} { B  \left(  0 , 1 \right) } { \R^n
+} {}
+melalui
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \varphi(x)
+}
+{ =} { x + \left(  - \left\langle  x  , h(x)  \right\rangle + \sqrt{1 + \left\langle  x  , h(x)  \right\rangle^2 - \Vert { x} \Vert^2  }  \right) \cdot h(x)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Ekspresi di bawah akar kuadrat bernilai positif. Hal ini jelas jika
+
+\mavergleichskette
+{\vergleichskette
+{ \Vert { x } \Vert
+}
+{ < }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+sedangkan jika
+
+\mavergleichskette
+{\vergleichskette
+{ \Vert { x } \Vert
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+terdapat suatu titik pada sfer yang garis penghubungnya dengan titik bola
+\mathl{\psi(x)}{} tidak tegak lurus terhadap $x$
+\zusatzklammer {ruang singgung afin pada suatu titik sfer hanya berpotongan dengan bola di satu titik} {} {,}
+sehingga
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  x  , h(x)  \right\rangle
+}
+{ \neq} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Karena akar kuadrat dan nilai mutlak
+\definitionsverweis {terdiferensialkan secara kontinu}{}{}
+di luar titik nol, baik
+\mathkor {} {h(x)} {maupun} {\varphi(x)} {}
+merupakan pemetaan yang terdiferensialkan secara kontinu. Menurut
+Soal 23.23,
+pemetaan $\varphi$ memetakan bola ke sfer, dan pembatasannya pada sfer adalah identitas. Dengan demikian, terdapat suatu
+\definitionsverweis {retraksi}{}{}
+yang terdiferensialkan secara kontinu dari bola pejal tertutup ke batasnya, yang mustahil menurut
+Teorema 23.9.
+
+}

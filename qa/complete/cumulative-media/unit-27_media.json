@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "scope": "O011 Brenner Unit 27 exact media closure and TeX print derivatives",
+  "unit_number": 27,
+  "heading_level": "section",
+  "media_config": "source/unit_media.json",
+  "media_config_sha256": "c8d63a3113f148134d3305b07fd998e27a981b2006c90ca679545f739a599c22",
+  "manifest": "authority/brenner_media_rights_manifest.csv",
+  "manifest_sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57",
+  "image_engine": "Version: ImageMagick 7.1.2-22 Q16 x64 ccf56fb:20260512 https://imagemagick.org",
+  "source_count": 1,
+  "derivative_count": 1,
+  "attribution_tex": {
+    "path": "build/generated/unit27-media-attribution-complete.tex",
+    "bytes": 816,
+    "sha256": "21c2928614ce24a75b6be6ca1d14ed49c23793ecc2fa59f8e2221e6a9ffb797c"
+  },
+  "media": [
+    {
+      "filename": "Parallel lines in Poincare's model of hyperbolic geometry.svg",
+      "canonical_path": "authority/media/Parallel lines in Poincare's model of hyperbolic geometry.svg",
+      "canonical_bytes": 32238,
+      "canonical_sha1": "ee99cc2a5eedddffa02a0d8ff313fd478ad35b5c",
+      "canonical_sha256": "0be24daaf98af7e8f2758031765f16ece41e1e987cc5165871e3f2eb4f0675d8",
+      "commons_description_url": "https://commons.wikimedia.org/wiki/File:Parallel_lines_in_Poincare%27s_model_of_hyperbolic_geometry.svg",
+      "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Parallel_lines_in_Poincare%27s_model_of_hyperbolic_geometry.svg",
+      "license": "CC BY-SA 3.0",
+      "rights_label_id": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Januszkaja&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Januszkaja (page does not exist)\">Januszkaja</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+      "attribution_required": "true",
+      "attribution_id": "Januszkaja (karya sendiri).",
+      "derivative": {
+        "path": "build/generated/media/Parallel lines in Poincare's model of hyperbolic geometry.png",
+        "bytes": 45428,
+        "sha256": "88f4e4987444af0bcb5c7a079dc0cf7a6bc68ba3a1c84f44d923818a390bfeac",
+        "identify": "PNG 1006 343 sRGB",
+        "source_kind": "svg",
+        "frame_index": null,
+        "command": [
+          "magick",
+          "-background",
+          "white",
+          "-density",
+          "300",
+          "authority/media/Parallel lines in Poincare's model of hyperbolic geometry.svg",
+          "-alpha",
+          "remove",
+          "-alpha",
+          "off",
+          "-resize",
+          "1800x1800>",
+          "-strip",
+          "-define",
+          "png:exclude-chunk=date,time",
+          "build/generated/media/Parallel lines in Poincare's model of hyperbolic geometry.png"
+        ]
+      },
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  ]
+}

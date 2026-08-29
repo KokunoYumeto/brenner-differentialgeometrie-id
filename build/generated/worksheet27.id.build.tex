@@ -1,0 +1,921 @@
+\setcounter{section}{27}
+
+  \zwischenueberschrift{Soal latihan}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+\maabb {p} { E } { M
+} {}
+suatu
+\definitionsverweis {bundel vektor diferensiabel}{}{}
+di atas
+\definitionsverweis {manifold diferensiabel}{}{}
+$M$, yang dilengkapi dengan
+\definitionsverweis {koneksi linear}{}{}
+$\nabla$. Misalkan $L$ manifold diferensiabel lain dan
+\maabb {\psi} { L } { M
+} {}
+suatu
+\definitionsverweis {pemetaan terdiferensialkan secara kontinu}{}{}
+dengan
+\definitionsverweis {koneksi tarikan balik}{}{}
+$\psi^*\nabla$ pada
+\definitionsverweis {bundel vektor tarikan balik}{}{}
+$\psi^*E$ di atas $L$. Tunjukkan bahwa suatu penampang yang terdiferensialkan secara kontinu
+\maabb {s} { L } { E
+} {}
+bersifat
+\definitionsverweis {horizontal}{}{}
+terhadap $\nabla$ jika dan hanya jika penampang terkait
+\maabbdisp {s} { L } { \psi^*E
+} {}
+bersifat horizontal terhadap $\psi^* \nabla$.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+\maabb {p} {M \times \R^r } { M
+} {}
+adalah
+\definitionsverweis {bundel vektor}{}{}
+trivial di atas suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+$M$, dilengkapi dengan
+\definitionsverweis {koneksi trivial}{}{}
+$\nabla$. Misalkan $L$ manifold diferensiabel lain dan
+\maabb {\psi} { L } { M
+} {}
+suatu
+\definitionsverweis {pemetaan terdiferensialkan secara kontinu}{}{.}
+Tunjukkan bahwa
+\definitionsverweis {koneksi tarikan balik}{}{}
+$\psi^*\nabla$
+\zusatzklammer {pada $L \times \R^r$} {} {}
+juga trivial.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+\maabb {p} { E } { M
+} {}
+suatu
+\definitionsverweis {bundel vektor diferensiabel}{}{}
+di atas
+\definitionsverweis {manifold diferensiabel}{}{}
+$M$, yang dilengkapi dengan
+\definitionsverweis {koneksi linear}{}{}
+$\nabla$. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ \subseteq }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {interval terbuka}{}{}
+dan
+\maabb {\gamma} { I } { M
+} {}
+suatu
+\definitionsverweis {kurva terdiferensialkan secara kontinu}{}{}
+dengan
+\definitionsverweis {koneksi tarikan balik}{}{}
+$\gamma^*\nabla$ pada
+\definitionsverweis {bundel vektor tarikan balik}{}{}
+$\gamma^*E$ di atas $I$. Tentukan
+\definitionsverweis {simbol-simbol Christoffel}{}{}
+dari
+\mathl{\gamma^* \nabla}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Kita tinjau parametrisasi trigonometris
+\maabbeledisp {\psi} {\R } { S^1
+} { t } { \left(  \cos  t   , \,   \sin  t                   \right)
+} {}
+dari lingkaran satuan. Tetapkan
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ [0, 2 \pi[
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+. Pada bundel vektor trivial
+\maabbdisp {} {S^1 \times \R^2} { S^1
+} {}
+diberikan suatu
+\definitionsverweis {koneksi linear}{}{}
+$\nabla$ sedemikian sehingga sepanjang $\psi$
+\definitionsverweis {koneksi tarikan balik}{}{}
+$\psi^* \nabla$ diberikan oleh
+\definitionsverweis {simbol-simbol Christoffel}{}{}
+\zusatzklammer {indeks untuk satu-satunya arah penurunan tidak dituliskan} {} {}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix} \tilde{\Gamma}_1^1 (t)   &  \tilde{\Gamma}_1^2 (t)   \\ \tilde{\Gamma}_2^1(t)  &  \tilde{\Gamma}_2^2(t)  \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  0  &   - { \frac{  c  }{  2 \pi   } }   \\  { \frac{  c  }{  2 \pi  } }  &  0  \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+. Untuk suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ = }{ \begin{pmatrix}  a  \\b   \end{pmatrix}
+}
+{ \in }{ \R^2
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kita tinjau pemetaan
+\maabbeledisp {\Psi_{Q}} {\R} { S^1 \times \R^2
+} { t } { \left(  \cos  t   , \,   \sin  t  , \,   M(t)  \begin{pmatrix}  a  \\b   \end{pmatrix}                 \right)
+} {}
+dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M(t)
+}
+{ =} { \begin{pmatrix}  \cos  { \frac{  ct  }{  2 \pi   } }   &   -  \sin  { \frac{  ct  }{  2 \pi   } }    \\  \sin  { \frac{  ct  }{  2 \pi  } }   &  \cos  { \frac{  ct  }{  2 \pi   } }  \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+\aufzaehlungfuenf{Tentukan $\Psi_Q(0)$.
+}{Tentukan $\Psi_Q(2 \pi)$.
+}{Tunjukkan bahwa $\Psi_Q$ adalah suatu
+\definitionsverweis {pengangkatan horizontal}{}{}
+sepanjang $\psi$.
+}{Tunjukkan bahwa
+\maabbeledisp {} {\R^2} { \R^2
+} { Q } { \Psi_Q(2 \pi)
+} {,}
+merupakan
+\definitionsverweis {isometri linear}{}{}
+\zusatzklammer {titik dasar $(1,0)$ tidak dituliskan di sini} {} {.}
+}{Tunjukkan bahwa
+\maabbeledisp {} {\Z} { \operatorname{SL}_{  2  } \! \left(  \R  \right)
+} { k } { \left(  Q \mapsto \Psi_Q(2k \pi )  \right)
+} {,}
+merupakan
+\definitionsverweis {homomorfisme grup}{}{.}
+}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Untuk kurva
+\maabbeledisp {\psi} {\R} { {\mathbb H}
+} { t } { \left(  t   , \,  e^t                   \right)
+} {,}
+yang bernilai dalam
+\definitionsverweis {setengah bidang Poincaré}{}{}
+${\mathbb H}$, tentukan
+\definitionsverweis {simbol-simbol Christoffel}{}{}
+untuk
+\definitionsverweis {koneksi tarikan balik}{}{}
+\zusatzklammer {dari
+\definitionsverweis {koneksi Levi-Civita}{}{}
+pada ${\mathbb H}$} {} {}
+di atas $\R$.
+
+}
+{} {}
+
+Dalam soal berikut, perhatikan bahwa menurut
+Soal 11.23,
+tidak ada bedanya apakah tarikan balik bundel vektor ke $Y$ ditentukan langsung atau melalui $Z$.
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+\maabb {p} { E } { M
+} {}
+suatu
+\definitionsverweis {bundel vektor diferensiabel}{}{}
+di atas
+\definitionsverweis {manifold diferensiabel}{}{}
+$M$, yang dilengkapi dengan
+\definitionsverweis {koneksi linear}{}{}
+$\nabla$. Misalkan $Y,Z$ manifold-manifold diferensiabel lain dengan
+\definitionsverweis {pemetaan-pemetaan terdiferensialkan secara kontinu}{}{}
+
+\mathdisp {Y \stackrel{\varphi}{\longrightarrow} Z \stackrel{\psi}{\longrightarrow}  M} { . }
+
+Tunjukkan bahwa untuk
+\definitionsverweis {koneksi-koneksi tarikan balik}{}{}
+pada
+\mathl{\left(  \psi \circ \varphi  \right)^* E}{} berlaku hubungan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \psi \circ \varphi  \right)^*(\nabla)
+}
+{ =} { \varphi^*  \left(  \psi^*\nabla  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold Riemann}{}{}
+yang dilengkapi dengan
+\definitionsverweis {koneksi Levi-Civita}{}{}
+dan misalkan
+\maabbdisp {\gamma} { I } { M
+} {}
+suatu
+\definitionsverweis {kurva}{}{}
+yang dua kali terdiferensialkan secara kontinu. Tunjukkan bahwa $\gamma$ adalah
+\definitionsverweis {kurva geodesik}{}{}
+jika dan hanya jika kurva turunannya
+\maabb {\gamma'} { I } { TM
+} {}
+merupakan
+\definitionsverweis {penampang horizontal}{}{}
+dalam
+\definitionsverweis {bundel tangen}{}{}
+$TM$.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ \subseteq }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {interval terbuka}{}{}
+dengan fungsi positif yang terdiferensialkan secara kontinu
+\maabbdisp {g} { I } { \R_+
+} {,}
+yang kita pandang sebagai
+\definitionsverweis {metrik Riemann}{}{}
+pada $I$. Karakterisasikan
+\definitionsverweis {kurva-kurva geodesik}{}{}
+\maabbdisp {\gamma} { J } { I
+} {,}
+dengan $J$ suatu interval lain.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Untuk kurva
+\maabbeledisp {\psi} {\R} { {\mathbb H}
+} { t } { \left(  t   , \,  e^t                   \right)
+} {,}
+yang bernilai dalam
+\definitionsverweis {setengah bidang Poincaré}{}{}
+${\mathbb H}$, tentukan
+\definitionsverweis {percepatan tangensial}{}{}
+untuk setiap $t$.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Berikan contoh sebuah
+\definitionsverweis {manifold Riemann}{}{}
+yang
+\definitionsverweis {terhubung}{}{}
+$M$ dan dua titik
+
+\mavergleichskette
+{\vergleichskette
+{ P,Q
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang tidak dapat dihubungkan oleh suatu
+\definitionsverweis {kurva geodesik}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Berikan contoh sebuah
+\definitionsverweis {manifold Riemann}{}{}
+yang
+\definitionsverweis {terhubung}{}{}
+$M$ dan dua titik
+
+\mavergleichskette
+{\vergleichskette
+{ P,Q
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang dapat dihubungkan oleh beberapa
+\definitionsverweis {kurva geodesik}{}{}
+yang semuanya mempunyai panjang sama.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Berikan contoh sebuah
+\definitionsverweis {manifold Riemann}{}{}
+yang
+\definitionsverweis {terhubung}{}{}
+$M$ dan dua titik
+
+\mavergleichskette
+{\vergleichskette
+{ P,Q
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang dapat dihubungkan oleh beberapa
+\definitionsverweis {kurva geodesik}{}{}
+yang panjangnya tidak semuanya sama.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Verifikasikan bahwa sistem persamaan diferensial biasa orde dua
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma_1^{\prime \prime} (t)
+}
+{ =} { { \frac{   2  }{  \gamma_2(t) } } \gamma_1'(t) \gamma_2'(t)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma_2^{\prime \prime} (t)
+}
+{ =} { -  { \frac{   1  }{  \gamma_2(t) } }  \gamma_1'(t) \gamma_1'(t) + { \frac{   1  }{  \gamma_2(t) } }    \gamma_2'(t) \gamma_2'(t)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+diselesaikan oleh kurva-kurva
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \gamma(t)
+}
+{ =} { \begin{pmatrix}  s+r \tanh  t  \\ { \frac{   r  }{  \cosh  t  } }    \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk
+
+\mavergleichskette
+{\vergleichskette
+{ s
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ r
+}
+{ \in }{ \R_+
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Kita tinjau lingkaran-lingkaran yang berpusat di
+\mathl{(s,0)}{} dan berjari-jari
+
+\mavergleichskette
+{\vergleichskette
+{ r
+}
+{ > }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Karakterisasikan kapan dua lingkaran semacam ini berpotongan.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{(a,b)
+}
+{ \in }{ {\mathbb H}
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu titik dalam
+\definitionsverweis {setengah bidang Poincaré}{}{}
+dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ = }{ (v_1,v_2)
+}
+{ \in }{ \R^2
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {vektor tangen}{}{}
+di $P$.
+\aufzaehlungzwei {Tentukan sebuah setengah lingkaran berpusat pada sumbu $x$
+\zusatzklammer {dengan garis-garis vertikal sebagai kasus ekstrem} {} {,}
+yang melalui $P$ dan menyinggung $\R v$.
+} {Tentukan suatu
+\definitionsverweis {kurva geodesik}{}{,}
+yang merealisasikan vektor tangen ini.
+}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+\maabb {\psi} { L } { M
+} {}
+suatu
+\definitionsverweis {isometri}{}{}
+antara
+\definitionsverweis {manifold-manifold Riemann}{}{}
+\mathkor {} {L} {dan} {M} {.}
+\aufzaehlungdrei{Tunjukkan bahwa
+\definitionsverweis {koneksi tarikan balik}{}{}
+dari
+\definitionsverweis {koneksi Levi-Civita}{}{}
+pada $M$ sama dengan koneksi Levi-Civita pada $L$.
+}{Tunjukkan bahwa
+\definitionsverweis {percepatan-percepatan tangensial}{}{}
+dari kurva yang dua kali terdiferensialkan
+\maabb {\gamma} { I } { L
+} {}
+dan, berturut-turut,
+\maabb {\psi \circ \gamma} { I } { M
+} {}
+saling bersesuaian.
+}{Tunjukkan bahwa
+\definitionsverweis {kurva-kurva geodesik}{}{}
+di $L$ dan di $M$ saling bersesuaian.
+}
+
+}
+{} {}
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold Riemann}{}{,}
+dengan
+\definitionsverweis {bundel tangen}{}{}
+$TM$ yang dilengkapi
+\definitionsverweis {koneksi Levi-Civita}{}{.}
+Misalkan
+\maabb {\gamma} { I } { M
+} {}
+suatu
+\definitionsverweis {kurva diferensiabel}{}{.}
+Suatu objek diferensiabel yang didefinisikan sepanjang $\gamma$ dan merupakan
+\definitionsverweis {medan vektor}{}{},
+\maabb {F} { I } { TM
+} {}
+disebut
+\definitionswort {paralel sepanjang}{}
+$\gamma$ jika
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (\nabla_{\partial} F)(t)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk semua
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+Untuk soal berikut, bandingkan dengan
+Soal 25.13.
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $W$
+\definitionsverweis {terbuka}{}{,}
+dan suatu
+\definitionsverweis {hiperpermukaan diferensiabel}{}{}
+yang juga kita pandang sebagai
+\definitionsverweis {manifold Riemann}{}{}
+melalui ruang sekitar $\R^n$ dengan
+\definitionsverweis {hasil kali skalar standar}{}{.}
+Misalkan
+\maabb {\gamma} { I } { Y
+} {}
+suatu
+\definitionsverweis {kurva diferensiabel}{}{}
+dan
+\maabb {F} { I } { TY \subseteq Y \times \R^n
+} {}
+suatu
+\definitionsverweis {medan vektor}{}{}
+diferensiabel sepanjang $\gamma$. Tunjukkan bahwa $F$
+\definitionswort {paralel sepanjang}{}
+$\gamma$ dalam arti
+Definisi 6.6
+jika dan hanya jika $F$
+\definitionsverweis {paralel}{}{}
+sepanjang $\gamma$ terhadap
+\definitionsverweis {koneksi Levi-Civita}{}{}
+pada $TY$.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold Riemann}{}{,}
+dengan
+\definitionsverweis {bundel tangen}{}{}
+$TM$ yang dilengkapi
+\definitionsverweis {koneksi Levi-Civita}{}{.}
+Misalkan
+\maabb {\gamma} { I } { M
+} {}
+suatu kurva yang dua kali
+\definitionsverweis {terdiferensialkan}{}{.}
+Tunjukkan bahwa $\gamma$ adalah
+\definitionsverweis {kurva geodesik}{}{}
+jika dan hanya jika turunannya
+\maabbdisp {\gamma'} { I } { TM
+} {}
+merupakan
+\definitionsverweis {medan vektor paralel}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Tunjukkan bahwa pada
+\definitionsverweis {ruang Euklides}{}{}
+$\R^n$,
+\definitionsverweis {metrik Riemann}{}{}
+sama dengan
+\definitionsverweis {jarak Euklides}{}{.}
+
+}
+{} {}
+
+  \zwischenueberschrift{Tugas yang dikumpulkan}
+
+\inputaufgabe
+{4}
+{
+
+Kita tinjau $\R_+$ dengan struktur yang diberikan oleh
+
+\mavergleichskette
+{\vergleichskette
+{ g(t)
+}
+{ = }{ t^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yaitu suatu
+\definitionsverweis {metrik Riemann}{}{.}
+Tentukan
+\definitionsverweis {kurva-kurva geodesik}{}{}
+di $\R_+$.
+
+}
+{} {}
+
+\inputaufgabe
+{6 (3+3)}
+{
+
+Kita tinjau kurva
+\maabbeledisp {\psi} {\R} { {\mathbb H}
+} { t } { \left(  t   , \,   1+t^2                   \right)
+} {,}
+yang bernilai dalam
+\definitionsverweis {setengah bidang Poincaré}{}{}
+${\mathbb H}$.
+\aufzaehlungzwei {Tentukan
+\definitionsverweis {simbol-simbol Christoffel}{}{}
+untuk
+\definitionsverweis {koneksi tarikan balik}{}{}
+\zusatzklammer {dari
+\definitionsverweis {koneksi Levi-Civita}{}{}
+pada ${\mathbb H}$} {} {}
+di atas $\R$.
+} {Tentukan
+\definitionsverweis {percepatan tangensial}{}{}
+dari $\psi$ untuk setiap $t$.
+}
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Tentukan
+\definitionsverweis {kurva-kurva geodesik}{}{}
+pada
+\definitionsverweis {cakram hiperbolik}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ \geq }{ 2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { \R^n \setminus \{P_1  , \ldots , P_m \}
+}
+{ \subseteq} { \R^n
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+yang dipandang sebagai
+\definitionsverweis {manifold Riemann}{}{}
+dengan
+\definitionsverweis {hasil kali skalar standar}{}{}
+terinduksi. Tunjukkan bahwa pada $M$,
+\definitionsverweis {metrik Riemann}{}{}
+sama dengan
+\definitionsverweis {jarak Euklides}{}{.}
+
+}
+{} {}

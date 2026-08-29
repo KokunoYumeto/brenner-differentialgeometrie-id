@@ -1,0 +1,39 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesungsgestaltung|28|
+
+{{Zwischenüberschrift|Krümmung}}
+
+{{:Reelles Vektorbündel/Zusammenhang/Krümmung/Einführung/Textabschnitt|}} 
+
+{{Zwischenüberschrift|Der Satz von Frobenius}}
+
+Den folgenden Satz können wir nicht vollständig beweisen. Man beachte, dass man es bei 
+{{
+Zusatz/Klammer
+|text=lokal|
+|ISZ=|ESZ=
+}}
+gegebenen Basisschnitten den Christoffelsymbolen nicht ansieht, ob bezüglich anderen Basisschnitten die Christoffelsymbole verschwinden. Dies wird eben durch das verschwinden der Krümmung charakterisiert.
+{{
+inputfaktbeweis
+|Differenzierbare Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Lokal integrabel/Krümmung/Fakt|Satz||
+||
+}}
+
+Für Spezialfälle der Richtung von (4) nach (1) siehe
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Eindimensionale Mannigfaltigkeit/Vektorbündel/R/Lokal integrabel/Aufgabe
+|Nr=
+|SZ=
+}}
+und
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Differenzierbare Mannigfaltigkeit/Vektorbündel/R/Rang 1/Satz von Frobenius/Aufgabe
+|Nr=
+|SZ=.
+}}
+
+}}

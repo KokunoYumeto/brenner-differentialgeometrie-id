@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "scope": "source/exams/exam-08/exam08_solutions.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-EXAM08-SOL-0001",
+      "anchor": "radial stretching function in the punctured-manifold construction",
+      "change": "Translate only the two German reader-facing branch labels inside the protected piecewise formula from fuer to jika; all mathematical tokens remain unchanged."
+    },
+    {
+      "correction_id": "O011-EXAM08-SOL-0002",
+      "anchor": "component functions of f and g",
+      "change": "Translate the reader-facing connector inside mathkor from beziehungsweise to dan; the surrounding Indonesian prose preserves the respective ordering."
+    },
+    {
+      "correction_id": "O011-EXAM08-SOL-0003",
+      "anchor": "real coordinates u and v on the circle",
+      "change": "Translate the reader-facing conjunction inside mathkor from und to dan without changing either coordinate."
+    },
+    {
+      "correction_id": "O011-EXAM08-SOL-0004",
+      "anchor": "exact admitted learner prompt comparing punctured manifolds",
+      "change": "Preserve the admitted Indonesian learner prompt, including the reader-facing conjunction dan inside mathkor, without changing either manifold expression."
+    },
+    {
+      "correction_id": "O011-EXAM08-SOL-0005",
+      "anchor": "auxiliary maps h and phi in the Brouwer proof",
+      "change": "Translate the reader-facing connector inside mathkor from und bei to maupun; the surrounding Indonesian prose supplies baik."
+    },
+    {
+      "correction_id": "O011-EXAM08-SOL-0006",
+      "anchor": "basis vectors f_1(t) and f_2(t)",
+      "change": "Translate the reader-facing conjunction inside mathkor from und to dan without changing either vector expression."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-EXAM08-SOL-0001",
+      "surface": "protected:vergleichskette",
+      "index": 53,
+      "source_sha256": "335244507bad15e536786a1532380ebe5a778e621d4affb99c7bb59e71465d1c",
+      "target_sha256": "826b643d6ab88a2da78f76ddabd5176594324e0deaa87adeecb788d7b71e886c"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-EXAM08-SOL-0002",
+      "surface": "command:mathkor",
+      "occurrence_index": 0,
+      "source_latex": "\\mathkor{}{f}{bzw.}{g}{.}",
+      "target_latex": "\\mathkor{}{f}{dan}{g}{.}",
+      "source_sha256": "e24d92db99e4bf8a6a47986623bac319ca0c080e0b3f98029ede40fcec536d8e",
+      "target_sha256": "84258c524d760d62561ee3c5636225a1870284d6aa5ef1254cc9f79ad193a11e"
+    },
+    {
+      "correction_id": "O011-EXAM08-SOL-0003",
+      "surface": "command:mathkor",
+      "occurrence_index": 1,
+      "source_latex": "\\mathkor{}{u}{und}{v}{}",
+      "target_latex": "\\mathkor{}{u}{dan}{v}{}",
+      "source_sha256": "7fbd4af1b142c566584f2ad2e12cfb2acc7e3f353a8c181f2adef3067e476daa",
+      "target_sha256": "f21f6e45b1c0e66d7086785002396ebdc4f2c31c0bc387d696c1cdb239b9a737"
+    },
+    {
+      "correction_id": "O011-EXAM08-SOL-0004",
+      "surface": "command:mathkor",
+      "occurrence_index": 2,
+      "source_latex": "\\mathkor{}{M\\setminus\\{P\\}}{und}{N\\setminus\\partialN}{}",
+      "target_latex": "\\mathkor{}{M\\setminus\\{P\\}}{dan}{N\\setminus\\partialN}{}",
+      "source_sha256": "fbce8b30aa9a193415e558acb35a46ffe2b7c2d7c3372540828f7703e9a58c31",
+      "target_sha256": "c834d49961d40a736284e135b16a09d5ccd63210b51c1cd322cb1be51fb0d6c7"
+    },
+    {
+      "correction_id": "O011-EXAM08-SOL-0005",
+      "surface": "command:mathkor",
+      "occurrence_index": 3,
+      "source_latex": "\\mathkor{}{h(x)}{undbei}{\\varphi(x)}{}",
+      "target_latex": "\\mathkor{}{h(x)}{maupun}{\\varphi(x)}{}",
+      "source_sha256": "072aa027996e0666e98dabc9e2ecd436f6252a7c857783fc4eb0994d5e04ec9a",
+      "target_sha256": "5b6516e07f8c155a7b2c787ac6467e8e433ee076e6d93430511619664b472a62"
+    },
+    {
+      "correction_id": "O011-EXAM08-SOL-0006",
+      "surface": "command:mathkor",
+      "occurrence_index": 4,
+      "source_latex": "\\mathkor{}{f_1(t)}{und}{f_2(t)}{}",
+      "target_latex": "\\mathkor{}{f_1(t)}{dan}{f_2(t)}{}",
+      "source_sha256": "70e041c10ff2dcd26edbc8417707c2fd4c8db506284e127387d1e2727dfd9472",
+      "target_sha256": "b432d41d81427dd26f36c9507d9061b3ff51dca1a2291451cb6f1586f883a44b"
+    }
+  ]
+}

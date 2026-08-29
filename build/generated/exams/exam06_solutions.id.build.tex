@@ -1,0 +1,1916 @@
+%Data institusi
+
+%\input{Dozentdaten}
+
+%\renewcommand{\fachbereich}{Bidang studi}
+
+%\renewcommand{\dozent}{Prof. Dr. . }
+
+%Data ujian
+
+\renewcommand{\klausurgebiet}{ }
+
+\renewcommand{\klausurtyp}{ }
+
+\renewcommand{\klausurdatum}{ . 20}
+
+\klausurvorspann {\fachbereich} {\klausurdatum} {\dozent} {\klausurgebiet} {\klausurtyp}
+
+%Data untuk tabel poin berikut
+
+\renewcommand{\aeins}{  3  }
+
+\renewcommand{\azwei}{  3   }
+
+\renewcommand{\adrei}{  7  }
+
+\renewcommand{\avier}{  4  }
+
+\renewcommand{\afuenf}{  0  }
+
+\renewcommand{\asechs}{  0  }
+
+\renewcommand{\asieben}{  0  }
+
+\renewcommand{\aacht}{  5  }
+
+\renewcommand{\aneun}{  15  }
+
+\renewcommand{\azehn}{  5  }
+
+\renewcommand{\aelf}{  0  }
+
+\renewcommand{\azwoelf}{  3  }
+
+\renewcommand{\adreizehn}{  3   }
+
+\renewcommand{\avierzehn}{  0  }
+
+\renewcommand{\afuenfzehn}{  10  }
+
+\renewcommand{\asechzehn}{  4  }
+
+\renewcommand{\asiebzehn}{  62  }
+
+\renewcommand{\aachtzehn}{    }
+
+\renewcommand{\aneunzehn}{    }
+
+\renewcommand{\azwanzig}{    }
+
+\renewcommand{\aeinundzwanzig}{    }
+
+\renewcommand{\azweiundzwanzig}{    }
+
+\renewcommand{\adreiundzwanzig}{    }
+
+\renewcommand{\avierundzwanzig}{    }
+
+\renewcommand{\afuenfundzwanzig}{    }
+
+\renewcommand{\asechsundzwanzig}{    }
+
+\punktetabellesechzehn
+
+\klausurnote
+
+\newpage
+
+\setcounter{section}{K}
+
+
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Definisikan istilah-istilah berikut
+\zusatzklammer {yang dicetak miring} {} {}.
+\aufzaehlungsechs{Suatu kurva
+\stichwort {berparametrisasi panjang busur} {}
+\maabbdisp {\gamma} {[a,b]} { \R^n
+} {.}
+
+}{Untuk suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{  P
+}
+{ \in }{ M
+}
+{  }{}
+{    }{}
+{   }{}
+}
+{}{}{}
+pada suatu manifold diferensiabel $M$, yang dimaksud dengan dua kurva diferensiabel yang
+\stichwort {ekuivalen secara tangensial} {} ialah
+\maabbdisp {\gamma_1, \gamma_2} { I } { M
+} {}
+\zusatzklammer {di sini
+
+\mavergleichskettek
+{\vergleichskettek
+{  0
+}
+{ \in }{  I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan interval riil terbuka dan
+
+\mavergleichskettek
+{\vergleichskettek
+{   \gamma_1(0)
+}
+{ = }{ \gamma_2(0)
+}
+{ = }{ P
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {.}
+
+}{Suatu
+\stichwort {penampang kontinu} {}
+dari suatu pemetaan kontinu
+\maabbdisp {p} {Y} {X
+} {}
+antara ruang-ruang topologis
+\mathkor {} {X} {dan} {Y} {.}
+
+}{\stichwort {Bentuk volume kanonik} {} pada suatu manifold Riemann berorientasi $M$.
+
+}{\stichwort {Turunan eksterior} {}
+dari suatu
+\definitionsverweis {bentuk diferensial}{}{}
+berderajat $k$ yang
+\definitionsverweis {terdiferensialkan secara kontinu}{}{}
+
+\mathl{\omega \in
+{ \mathcal E }^{ k } (  U   )}{} pada suatu
+\definitionsverweis {himpunan terbuka}{}{}
+
+\mathl{U \subseteq \R^n}{.}
+
+}{\stichwort {Kelengkungan seksional} {} yang berkaitan dengan vektor-vektor bebas linear
+
+\mavergleichskette
+{\vergleichskette
+{  v,w
+}
+{ \in }{T_PM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+pada suatu
+\definitionsverweis {manifold Riemann}{}{}
+$M$ di suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}
+
+}
+{
+
+\aufzaehlungsechs{Suatu
+\definitionsverweis {kurva diferensiabel}{}{}
+\maabbdisp {\gamma} {[a,b]} {\R^n
+} {,}
+disebut
+berparametrisasi panjang busur
+jika
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma_1'(t)^2 + \cdots + \gamma_n'(t)^2
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku untuk setiap $t$.
+}{Kedua kurva
+\mathkor {} {\gamma_1} {dan} {\gamma_2} {}
+disebut ekuivalen secara tangensial di $P$ jika terdapat suatu lingkungan terbuka
+\mathl{P \in U}{} dan suatu
+\definitionsverweis {peta}{}{}
+\maabbdisp {\alpha} { U } { V
+} {}
+dengan
+\mathl{V \subseteq \R^n}{} sedemikian sehingga
+
+\mavergleichskettedisp
+{\vergleichskette
+{  \left(  \alpha \circ \left(  \gamma_1 \vert_{\gamma_1^{-1} (U)}  \right)   \right)'(0)
+}
+{ =} { \left(  \alpha \circ \left(  \gamma_2 \vert_{\gamma_2^{-1} (U)}  \right)  \right)'(0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{} berlaku.
+}{Yang dimaksud dengan
+penampang kontinu
+dari $p$ adalah suatu pemetaan kontinu
+\maabb {s} {X} {Y
+} {}
+yang memenuhi
+
+\mavergleichskettedisp
+{\vergleichskette
+{  p \circ s
+}
+{ =} {
+\operatorname{Id}_{ X }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Untuk
+\mathl{P \in M}{,} misalkan
+\mathl{\omega_P}{} adalah
+\definitionsverweis {bentuk alternan}{}{}
+pada
+\mathl{T_PM}{}
+\zusatzklammer {atau elemen yang bersesuaian dari \mathlk{\bigwedge^n T^*_PM}{}} {} {,}
+yang memberikan nilai $1$ kepada setiap
+\definitionsverweis {basis ortonormal}{}{}
+yang merepresentasikan
+\definitionsverweis {orientasi}{}{.}
+Maka
+$n$-\definitionsverweis {bentuk diferensial
+}{}{}
+\maabbeledisp {} { M } { \bigwedge^n T^*M
+} {P } { \omega_P
+} {,}
+disebut bentuk volume kanonik pada $M$.
+}{Bentuk $\omega$ memiliki representasi pada $U$
+
+\mathdisp {\omega = \sum_{I \subseteq \{1 , \ldots , n \},\,  { \# \left(   I  \right) } =k } f_I dx_I} {  }
+
+dengan
+\definitionsverweis {fungsi-fungsi yang terdiferensialkan secara kontinu}{}{}
+\maabbdisp {f_I} { U } {\R
+} {.}
+Maka turunan eksteriornya adalah bentuk diferensial berderajat $(k+1)$
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d \omega
+}
+{ =} { \sum_{I \subseteq \{1 , \ldots , n \},\,  { \# \left(   I  \right) } = k } df_I \wedge dx_I
+}
+{ =} { \sum_{I \subseteq \{1 , \ldots , n \},\,  { \# \left(   I  \right) } = k } \left(  \sum_{j = 1}^n { \frac{   \partial  f_I  }{  \partial  x_j  } } dx_j  \right)  \wedge dx_I
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Bilangan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ K(v,w)
+}
+{ =} {  { \frac{    \left\langle R(v,w)w , v  \right\rangle  }{   \left\langle v , v  \right\rangle  \left\langle w , w  \right\rangle  -\left\langle v , w  \right\rangle^2   } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dengan $R$ menyatakan
+\definitionsverweis {operator kelengkungan}{}{}
+pada bundel tangen, disebut
+\definitionswort {kelengkungan seksional}{}
+yang berkaitan dengan $v,w$ di $P$.
+}
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Rumuskan teorema-teorema berikut.
+\aufzaehlungdrei{\stichwort {Teorema tentang orientasi pada suatu hipermuka diferensiabel} {}
+
+\mavergleichskette
+{\vergleichskette
+{  Y
+}
+{ \subseteq }{  \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}{Rumus braket Lie medan-medan vektor pada suatu himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{  U
+}
+{ \subseteq }{  \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}{Teorema tentang
+\stichwort {retraksi ke batas} {}
+pada manifold.}
+
+}
+{
+
+\aufzaehlungdrei{\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+adalah suatu
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {serat}{}{}
+di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik $Y$. Misalkan $Y$
+\definitionsverweis {terhubung}{}{.}}
+\faktfolgerung {Maka terdapat tepat dua
+\definitionsverweis {orientasi}{}{}
+pada $Y$.}
+\faktzusatz {}
+\faktzusatz {}}{\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{}
+dan misalkan $f_1 , \ldots , f_n, g_1 , \ldots , g_n$ adalah
+\definitionsverweis {fungsi-fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+pada $U$ dengan operator-operator diferensial terkait
+
+\mavergleichskette
+{\vergleichskette
+{ D
+}
+{ = }{ \sum_{i = 1}^n f_i \partial_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ = }{ \sum_{j = 1}^n g_j \partial_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}}
+\faktfolgerung {Maka berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D \circ E -E \circ D
+}
+{ =} { \sum_{j = 1}^n \left(  \sum_{i = 1}^n \left(  f_i  \partial_i g_j - g_i \partial_i f_j  \right)  \right)  \partial_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Secara khusus, ekspresi ini sendiri bersesuaian dengan suatu operator diferensial berorde $1$, sehingga bersesuaian dengan suatu medan vektor.}
+\faktzusatz {}
+\faktzusatz {}}{Misalkan $M$ adalah suatu
+\definitionsverweis {manifold diferensiabel berbatas}{}{}
+\definitionsverweis {kompak}{}{}
+\definitionsverweis {berorientasi}{}{}
+
+\mathl{\partial M}{} dengan
+\definitionsverweis {basis topologi terhitung}{}{.}
+Maka tidak terdapat
+\definitionsverweis {pemetaan yang terdiferensialkan secara kontinu}{}{}
+\maabbdisp {\varphi} { M } { \partial M
+} {,}
+yang
+\definitionsverweis {pembatasannya}{}{}
+pada $\partial M$ adalah identitas.}
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{7}
+
+{
+
+Buktikan
+\stichwort {teorema tentang penyelesaian persamaan diferensial biasa pada suatu hipermuka diferensiabel} {}
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+{
+
+Kita bekerja dengan struktur Euklides pada $\R^n$ dan dengan
+\definitionsverweis {gradien}{}{}
+$\operatorname{Grad} \,  h$ dari $h$. Menurut asumsi, pada $Y$ gradien ini tidak pernah sama dengan $0$; karena kekontinuan, sifat ini berlaku pula pada suatu lingkungan terbuka dari $Y$. Dengan memperkecil $U$ jika perlu, kita dapat mengasumsikan bahwa gradien tidak memiliki titik nol di seluruh $U$. Pada $U$, tinjau medan vektor baru $G$ yang didefinisikan oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ G(P)
+}
+{ =} { F(P)-  { \frac{   \left\langle  F(P) ,
+\operatorname{Grad} \,  h  (  P )    \right\rangle   }{  \Vert {
+\operatorname{Grad} \,  h  (  P ) } \Vert^2   } }
+\operatorname{Grad} \,  h  (  P )
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan rumus tersebut. Untuk
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku
+
+\mavergleichskette
+{\vergleichskette
+{ G(P)
+}
+{ = }{ F(P)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+karena pada $Y$ gradien dari $h$ tegak lurus terhadap medan vektor. Selain itu, $G$
+\zusatzklammer {berbeda dengan $F$} {} {}
+memiliki sifat bahwa untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+vektor $G(P)$ tegak lurus terhadap gradien; memang,
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left\langle  G(P) ,
+\operatorname{Grad} \,  h  (  P )   \right\rangle
+}
+{ =} { \left\langle  F(P)- { \frac{   \left\langle  F(P) ,
+\operatorname{Grad} \,  h  (  P )    \right\rangle  }{  \Vert {
+\operatorname{Grad} \,  h  (  P ) } \Vert^2  } }
+\operatorname{Grad} \,  h  (  P )  ,
+\operatorname{Grad} \,  h  (  P )   \right\rangle
+}
+{ =} { \left\langle  F(P) ,
+\operatorname{Grad} \,  h  (  P )   \right\rangle - \left\langle  F(P) ,
+\operatorname{Grad} \,  h  (  P )   \right\rangle
+}
+{ =} { 0
+}
+{ } {
+}
+}
+{}
+{}{.}
+Sekarang misalkan
+\maabbdisp {v} { I} { \R^n
+} {}
+adalah, menurut
+Satz 56.2 (Analysis (Osnabrück 2021-2023))
+, solusi tunggal dari masalah nilai awal untuk $G$ dengan syarat awal
+
+\mavergleichskette
+{\vergleichskette
+{ v(t_0)
+}
+{ = }{ P
+}
+{ \in }{ Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Maka
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \left(Dh \circ v \right)_{t}
+}
+{ =} { \left(Dh  \right)_{v(t)} \circ  \left(D v \right)_{t}
+}
+{ =} { \left(Dh  \right)_{v(t)}  \left(  v'(t)  \right)
+}
+{ =} { \left(Dh  \right)_{v(t)}  \left(  G(v(t))  \right)
+}
+{ =} { \left\langle
+\operatorname{Grad} \,  h  ( v(t) )  ,  G(v(t))    \right\rangle
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { 0
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+Oleh karena itu, $h$ konstan pada citra $v( I)$ dan, karena
+
+\mavergleichskette
+{\vergleichskette
+{ h(v(t_0))
+}
+{ = }{ c
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku
+
+\mavergleichskette
+{\vergleichskette
+{ h(v(t))
+}
+{ = }{ c
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+sehingga
+
+\mavergleichskette
+{\vergleichskette
+{ v(t)
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{4}
+
+{
+
+Misalkan
+\maabb {h} { I } { V
+} {}
+sebuah kurva yang terdiferensialkan dua kali dalam
+\definitionsverweis {ruang vektor Euklides}{}{}
+$V$. Buktikan bahwa jika
+
+\mavergleichskette
+{\vergleichskette
+{h'(t)
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+maka berlaku persamaan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Vert { h'(t)} \Vert'
+}
+{ =} { { \frac{   \left\langle h'(t) , h^{\prime \prime} (t)  \right\rangle  }{  \left\langle h'(t) , h'(t)  \right\rangle  } } \Vert { h'(t)} \Vert
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{u_1
+}
+{ = }{ h'(t)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+yang kita lengkapi menjadi suatu basis ortogonal
+\mathl{u_1,u_2 , \ldots , u_n}{} dari $V$. Misalkan
+\mathl{h_1 , \ldots , h_n}{} adalah fungsi-fungsi koordinat dari $h$ terhadap basis ini. Maka
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \Vert { h'(t)} \Vert'
+}
+{ =} { \Vert { \begin{pmatrix} h_1'(t) \\\vdots\\ h_n'(t)   \end{pmatrix} } \Vert'
+}
+{ =} { \sqrt{  h_1'(t)^2 + \cdots + h_n'(t)^2 }'
+}
+{ =} { { \frac{   h_1(t) h_1'(t) + \cdots +  h_n(t) h_n'(t) }{  \sqrt{  h_1'(t)^2 + \cdots + h_n'(t)^2 }  } }
+}
+{ =} { { \frac{   h_1(t) h_1'(t) + \cdots +  h_n(t) h_n'(t) }{   h_1'(t)^2 + \cdots + h_n'(t)^2  } }  \sqrt{  h_1'(t)^2 + \cdots + h_n'(t)^2 }
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { { \frac{   \left\langle h'(t) , h^{\prime \prime} (t)  \right\rangle   }{ \left\langle h'(t) , h'(t)  \right\rangle  } } \Vert { h'(t)} \Vert
+}
+{ } {
+}
+{ } {}
+{ } {}
+}
+{}{.}
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+
+
+\inputaufgabeklausurloesung
+{5}
+
+{
+
+Buktikan pernyataan bahwa ekuivalensi tangensial lintasan-lintasan pada suatu manifold di suatu titik $P$ dapat diperiksa menggunakan sebarang peta.
+
+}
+{
+
+Untuk suatu
+\definitionsverweis {kurva diferensiabel}{}{}
+\maabbdisp {\gamma} { I } { M
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(0)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+serta suatu
+\definitionsverweis {peta}{}{}
+\maabbdisp {\alpha} { U } { V
+} {}
+\zusatzklammer {dengan
+
+\mavergleichskettek
+{\vergleichskettek
+{P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+ekspresi
+
+\mathdisp {\left(  \alpha \circ \left(  \gamma \vert_{\gamma^{-1} (U)}  \right)  \right)'(0)} {  }
+
+tidak berubah jika kita beralih ke suatu interval terbuka yang lebih kecil
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I'
+}
+{ \subseteq }{ I
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan suatu himpunan terbuka yang lebih kecil
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ U'
+}
+{ \subseteq }{ U
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {dengan peta terinduksi} {} {.}
+Jadi, kita dapat mengasumsikan bahwa
+\mathkor {} {\gamma_1} {dan} {\gamma_2} {}
+didefinisikan pada interval yang sama dan citranya termuat dalam $U$, serta bahwa pada $U$ terdapat dua peta
+\maabbdisp {\alpha_1} { U } { V_1
+} {}
+dan
+\maabbdisp {\alpha_2} { U } { V_2
+} {}
+tersebut. Dari
+
+\mavergleichskettedisp
+{\vergleichskette
+{ ( \alpha_1  \circ \gamma_1 )'(0)
+}
+{ =} { ( \alpha_1  \circ \gamma_2 )'(0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+Kettenregel,
+dengan menggunakan sifat diferensiabel dari
+\definitionsverweis {pemetaan transisi}{}{}
+
+\mathl{\alpha_2 \circ \alpha_1^{-1}}{}, langsung diperoleh
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \left(  \alpha_2 \circ \gamma_1  \right)'(0)
+}
+{ =} { \left(  \left(  \alpha_2 \circ \alpha_1^{-1}  \right) \circ \left(  \alpha_1 \circ \gamma_1  \right)  \right)'(0)
+}
+{ =} { \left(  D   \left(   \alpha_2 \circ \alpha_1^{-1}   \right)      \right)_{\alpha_1(P)} \left(   \left(  \alpha_1 \circ \gamma_1  \right)'(0)   \right)
+}
+{ =} { \left(  D   \left(   \alpha_2 \circ \alpha_1^{-1}   \right)      \right)_{\alpha_1(P)} \left(   \left(  \alpha_1 \circ \gamma_2  \right)'(0)   \right)
+}
+{ =} { \left(  \alpha_2 \circ \gamma_2  \right)'(0)
+}
+}
+{}
+{}{.}
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{15 (3+3+4+5)}
+
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{T
+}
+{ = }{S^1 \times S^1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan torus dan
+
+\mavergleichskette
+{\vergleichskette
+{S^2
+}
+{ \subset }{\R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan
+\definitionsverweis {permukaan bola satuan}{}{.}
+
+a) Tunjukkan bahwa
+\maabbeledisp {\varphi} {S^1 \times S^1} { S^2
+} { \begin{pmatrix}  \alpha \\ \beta   \end{pmatrix} } { { \frac{   1 }{  2 } } \begin{pmatrix}  \sqrt{ 2-2 \sin \alpha   } \cos \beta  \\ \cos \alpha + \sin \beta \cos \alpha \\  1  + \sin \alpha -  \sin \beta + \sin \alpha \sin \beta   \end{pmatrix}
+} {}
+mendefinisikan suatu pemetaan kontinu.
+
+b) Tunjukkan bahwa $\varphi$ surjektif.
+
+c) Deskripsikan serat-serat $\varphi$.
+
+d) Jelaskan pemetaan $\varphi$ dengan bantuan sebuah sketsa.
+
+}
+{
+
+a) Pertama-tama, kita tunjukkan bahwa pemetaan tersebut benar-benar bernilai pada permukaan bola; yakni, kita harus menunjukkan bahwa jumlah kuadrat ketiga entrinya sama dengan $1$. Tanpa memperhitungkan faktor di depan, diperoleh
+
+\mavergleichskettealign
+{\vergleichskettealign
+{
+}
+{ =} { 2  \cos^{ 2  }  \beta  -2 \sin \alpha  \cos^{ 2  }  \beta + \cos^{ 2  }  \alpha+ \cos^{ 2  }  \alpha \sin^{ 2  }  \beta +2 \cos^{ 2  }  \alpha\sin  \beta +1 + \sin^{ 2  } \alpha + \sin^{ 2  } \beta   + \sin^{ 2  } \alpha \sin^{ 2  } \beta +2 \sin \alpha  -2 \sin \beta   +2 \sin \alpha \sin \beta   -2 \sin \alpha \sin \beta +  2 \sin^{ 2  } \alpha \sin \beta  -2 \sin \alpha \sin^{ 2  } \beta
+}
+{ =} { 3 +   \cos^{ 2  }  \beta  -2 \sin \alpha  \cos^{ 2  }  \beta + \cos^{ 2  }  \alpha \sin^{ 2  }  \beta +2 \cos^{ 2  }  \alpha\sin  \beta  + \sin^{ 2  } \alpha \sin^{ 2  } \beta +2 \sin \alpha  -2 \sin \beta   +2 \sin^{ 2  } \alpha \sin \beta   - 2 \sin \alpha \sin^{ 2  } \beta
+}
+{ =} { 3 +   \cos^{ 2  }  \beta  +2 \sin \alpha   \left(  1 - \cos^{ 2  }  \beta   - \sin^{ 2  } \beta   \right)     + 2 \sin \beta \left(  - 1 + \cos^{ 2  }  \alpha    + \sin^{ 2  } \alpha  \right) + \cos^{ 2  }  \alpha\sin^{ 2  }  \beta  + \sin^{ 2  }  \alpha\sin^{ 2  }  \beta
+}
+{ =} { 3 +   \cos^{ 2  }  \beta  + \sin^{ 2  }  \beta
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { 4
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+
+c) Perhitungan serat di atas kutub utara
+\mathl{\begin{pmatrix}  0 \\ 0\\  1   \end{pmatrix}}{} menghasilkan syarat-syarat
+
+\mavergleichskettedisp
+{\vergleichskette
+{(1 - \sin \alpha ) \cos \beta
+}
+{ =} { 0
+}
+{ =} { \cos \alpha  (1 + \sin \beta )
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Oleh karena itu, salah satu faktor pada setiap persamaan harus sama dengan $0$. Untuk
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \alpha
+}
+{ =} { { \frac{   1 }{  2 } } \pi
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+kedua syarat dipenuhi untuk sebarang $\beta$. Demikian pula, untuk
+
+\mavergleichskettedisp
+{\vergleichskette
+{\beta
+}
+{ =} { { \frac{   3 }{  2 } } \pi
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+kedua syarat dipenuhi untuk sebarang $\alpha$. Dalam kasus-kasus tersebut, berdasarkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \sin  { \frac{   1 }{  2 } } \pi
+}
+{ =} { 1
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+atau berdasarkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \sin  { \frac{   3 }{  2 } } \pi
+}
+{ =} { -1
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+komponen ketiga sama dengan $1$. Jika
+
+\mavergleichskette
+{\vergleichskette
+{\alpha
+}
+{ \neq }{ { \frac{   1 }{  2 } }  \pi
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{\beta
+}
+{ \neq }{ { \frac{   3 }{  2 } } \pi
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+syarat
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \cos \alpha
+}
+{ =} { 0
+}
+{ =} { \cos \beta
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+harus dipenuhi. Kemungkinan yang tersisa adalah
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha
+}
+{ = }{ { \frac{   3 }{  2 } } \pi
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \beta
+}
+{ = }{ { \frac{   1 }{  2 } } \pi
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+tetapi dalam kasus ini komponen ketiga sama dengan $-1$.
+
+d) Sudut $\alpha$ menentukan titik
+
+\mavergleichskettedisp
+{\vergleichskette
+{P(\alpha)
+}
+{ =} { \begin{pmatrix}  0 \\ \cos \alpha \\  \sin \alpha   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+pada lingkaran besar yang diberikan oleh
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+. Kutub utara dan
+\mathl{P(\alpha)}{} menentukan titik tengah
+
+\mavergleichskettealign
+{\vergleichskettealign
+{Z(\alpha)
+}
+{ \defeq} { \begin{pmatrix}  0 \\ 0\\  1   \end{pmatrix} + { \frac{   1 }{  2 } }  \left(  P(\alpha)   - \begin{pmatrix}  0 \\ 0\\  1   \end{pmatrix}   \right)
+}
+{ =} { \begin{pmatrix}  0 \\ 0\\  1   \end{pmatrix} + { \frac{   1 }{  2 } }  \begin{pmatrix}  0 \\\cos \alpha \\ \sin \alpha - 1   \end{pmatrix}
+}
+{ =} { { \frac{   1 }{  2 } }  \begin{pmatrix}  0 \\\cos \alpha \\  1 + \sin \alpha   \end{pmatrix}
+}
+{ } {
+}
+}
+{}
+{}{.}
+Titik citra
+\mathl{P(\alpha, \beta)}{} ditempatkan pada lingkaran $C$ dengan pusat
+\mathl{Z(\alpha)}{} yang melalui kutub utara dan $P(\alpha)$ serta seluruhnya terletak pada permukaan bola. Oleh karena itu, $C$ harus terletak pada bidang yang direntang oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{P(\alpha) - \begin{pmatrix}  0 \\ 0\\  1   \end{pmatrix}
+}
+{ =} { { \frac{   1 }{  2 } } \begin{pmatrix}  0 \\\cos \alpha \\ \sin \alpha - 1   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+\mathl{\begin{pmatrix}  1 \\ 0\\  0   \end{pmatrix}}{.} Untuk menggunakan parametrisasi trigonometrik dari $C$, diperlukan suatu basis ortonormal. Oleh karena itu, kita gunakan
+
+\mathdisp {O(\alpha) =  { \frac{   1 }{  \sqrt{ 2-2  \sin \alpha   }  } } \begin{pmatrix}  0 \\\cos \alpha \\ \sin \alpha - 1   \end{pmatrix}} { . }
+
+Secara keseluruhan, diperoleh
+
+\mavergleichskettealign
+{\vergleichskettealign
+{\varphi(\alpha)
+}
+{ =} { Z (\alpha) + \cos  \beta \begin{pmatrix}  1 \\ 0\\  0   \end{pmatrix}  + \sin  \beta O(\alpha)
+}
+{ =} {  { \frac{   1 }{  2 } }  \begin{pmatrix}  0 \\\cos \alpha \\  1 + \sin \alpha   \end{pmatrix} + \cos  \beta { \frac{   \sqrt{ 2-2  \sin \alpha     }  }{  2  } } \begin{pmatrix}  1 \\ 0\\  0   \end{pmatrix}  + \sin  \beta { \frac{   \sqrt{ 2-2  \sin \alpha     }  }{  2  } } { \frac{   1 }{  \sqrt{ 2-2  \sin \alpha   }  } } \begin{pmatrix}  0 \\\cos \alpha \\ \sin \alpha - 1   \end{pmatrix}
+}
+{ =} { { \frac{   1 }{  2 } }       \begin{pmatrix}        \sqrt{ 2-2  \sin \alpha     }  \cos \beta         \\\cos \alpha \sin \beta   \\    1 + \sin \alpha  - \sin \beta  + \sin \alpha \sin \beta   \end{pmatrix}
+}
+{ } {
+}
+}
+{}
+{}{.}
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{5}
+
+{
+
+Hitunglah integral lintasan
+\mathl{\int_\gamma \omega}{} untuk
+\maabbeledisp {\gamma} { [-1,0] } {\R^3
+} { t } {(-t^2,t^3-1,t+2)
+} {,}
+dengan bentuk diferensial berderajat $1$
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { x^3dx -yzdy +xz^2 dz
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+pada $\R^3$.
+
+}
+{
+
+Diperoleh
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \gamma^* \omega
+}
+{ =} { (-t^2)^3 d(-t^2) - (t^3-1) (t+2)d (t^3-1)  - t^2(t+2)^2d(t+2)
+}
+{ =} { 2 t^7 dt     - 3t^2 (t^4 +2t^3 -t -2) dt - t^2(  t^2  +4 t +4) dt
+}
+{ =} {  (2t^7 -3t^6 -6t^5   +3t^3 +6t^2 -t^4  -4t^3 -4t^2       )dt
+}
+{ =} { (2t^7 -3t^6 -6t^5   -t^4  -t^3 +2 t^2       )dt
+}
+}
+{}
+{}{.}
+Oleh karena itu,
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \int_\gamma \omega
+}
+{ =} { \int_{-1}^0    (2t^7 -3t^6 -6t^5   -t^4  -t^3 +2 t^2       )dt
+}
+{ =} { ({ \frac{   1 }{  4 } }  t^8 - { \frac{   3 }{  7 } }  t^7 - t^6- { \frac{   1 }{  5 } } t^5 - { \frac{   1 }{  4 } } t^4 + { \frac{   2 }{  3 } } t^3) \vert_{  -1 }^{  0 }
+}
+{ =} { -( { \frac{   1 }{  4 } }  + { \frac{   3 }{  7 } }  -1 + { \frac{   1 }{  5 } }  - { \frac{   1 }{  4 } }  - { \frac{   2 }{  3 } } )
+}
+{ =} { - { \frac{   3 }{  7 } }  +1 - { \frac{   1 }{  5 } } + { \frac{   2 }{  3 } }
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { { \frac{   -45 +105-21+70 }{  105 } }
+}
+{ =} { { \frac{   109 }{  105 } }
+}
+{ } {}
+{ } {}
+}
+{}{.}
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+
+
+\inputaufgabeklausurloesung
+{3 (2+1)}
+
+{
+
+Misalkan
+\maabbeledisp {f} {\R} {\R
+} { t } {f(t)
+} {,}
+diberikan oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ f(t)
+}
+{ =} { { \frac{   \sin^{ 3  } (t^4)  }{  1+t^2 } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+
+a) Hitung turunan eksterior dari $f$.
+
+b) Hitung turunan eksterior dari $fdt$.
+
+}
+{
+
+a) Berlaku
+\mathl{df=f'dt}{,} dan menurut aturan hasil bagi diperoleh
+
+\mavergleichskettealign
+{\vergleichskettealign
+{f'
+}
+{ =} { { \frac{   (1+t^2)  3\sin^{ 2  } (t^4) \cos (t^4) 4 t^3  - 2t \sin^{ 3  } (t^4)  }{ (1+t^2)^2 } }
+}
+{ =} { { \frac{   12 (t^3+t^5) \sin^{ 2  } (t^4) \cos (t^4)   - 2t \sin^{ 3  } (t^4)  }{  1+2t^2+t^4 } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+
+b) Turunan eksterior dari $fdt$ adalah
+\mathl{f'dt \wedge dt =0}{.}
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Berikan suatu contoh pemetaan yang terdiferensialkan secara kontinu
+\maabbdisp {\varphi} { H } { H
+} {}
+dari suatu setengah bidang Euklides ke dirinya sendiri, dengan sifat bahwa tepat satu titik batas $H$ dipetakan ke suatu titik batas dan semua titik lainnya dipetakan ke interior setengah bidang tersebut.
+
+}
+{
+
+Tinjau setengah bidang positif
+
+\mavergleichskettedisp
+{\vergleichskette
+{ H
+}
+{ =} { \left\{ (x,y)  \mid   x \geq 0        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan pemetaan
+\maabbeledisp {\varphi} { H } {H
+} {(x,y)} { \left(  x+y^2  , \,   y                   \right)
+} {.}
+Sebagai pemetaan polinomial, $\varphi$ terdiferensialkan secara kontinu. Titik batas
+\mathl{(0,0)}{} dipetakan ke titik batas
+\mathl{(0,0)}{.} Pada setiap titik lain dari $H$, berlaku
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ > }{  0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+atau
+
+\mavergleichskette
+{\vergleichskette
+{ y
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan oleh karena itu selalu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ x+y^2
+}
+{ >} {  0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+sehingga komponen pertamanya positif.
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+
+
+\inputaufgabeklausurloesung
+{10}
+
+{
+
+Buktikan versi balok dari teorema Stokes.
+
+}
+{
+
+Karena kedua ruas persamaan ini linear terhadap $\omega$, kita dapat mengasumsikan bahwa $\omega$ berbentuk
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { f dx_2 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan suatu lingkungan terbuka dari $Q$ tempat fungsi $f$ yang terdiferensialkan secara kontinu didefinisikan. Integral pada kedua ruas adalah
+\definitionsverweis {integral Lebesgue}{}{}
+dari fungsi kontinu pada himpunan bagian
+\mathkor {} {\R^n} {atau} {\R^{n-1}} {.}
+Oleh karena itu, pada kedua ruas kita dapat beralih ke
+\definitionsverweis {penutupan topologis}{}{,}
+karena hal ini hanya mengubah domain integrasi terkait sebesar suatu himpunan nol dan karenanya tidak mengubah nilai integral.
+
+Tuliskan balok tertutup sebagai
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \overline{Q}
+}
+{ =} { [a,b] \times \tilde{Q}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Terapkan
+Korollar 14.10 (Differentialgeometrie (Osnabrück 2023))
+pada setiap sisi $S$ kecuali
+\mathkor {} {a \times \tilde{Q}} {dan} {b \times \tilde{Q}} {,}
+sehingga pada sisi-sisi tersebut diperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ S  }   \omega
+}
+{ =} {
+\int_{  S  }  f dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{ S  }   0
+}
+{ =} { 0
+}
+{ } {
+}
+}
+{}{}{,}
+karena pada setiap sisi tersebut salah satu variabel
+\mathl{x_2 , \ldots , x_n}{} konstan. Berdasarkan
+Satzes von Fubini
+dan
+Hauptsatzes der Infinitesimalrechnung
+\zusatzklammer {diterapkan untuk setiap \mathlk{(x_2 , \ldots , x_n)}{} yang tetap} {} {,}
+berlaku
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{
+\int_{ Q  }   d\omega
+}
+{ =} {
+\int_{  Q  }   df \wedge  dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{  Q  }   \left(  \sum_{j = 1}^n { \frac{   \partial   f   }{  \partial   x_j   } } dx_j  \right) \wedge  dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{  Q  }   { \frac{   \partial   f   }{  \partial   x_1   } } dx_1 \wedge  dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{ \tilde{Q}   }   \left(  \int_{[a,b] } { \frac{   \partial   f   }{  \partial   x_1   } } dx_1  \right)  dx_2 \wedge \ldots \wedge dx_n
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} {
+\int_{  \tilde{Q}   }   \left(  f(b,x_2 , \ldots , x_n ) - f(a,x_2 , \ldots , x_n )   \right) dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{ b \times \tilde{Q}   }   f dx_2 \wedge \ldots \wedge dx_n  -
+\int_{  a \times \tilde{Q}   }  f dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} { \sum_{S \text{ orientierte Seite von } Q}
+\int_{  S  }  f dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{  \partial Q  }   f dx_2 \wedge \ldots \wedge dx_n
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} {
+\int_{  \partial Q  }   \omega
+}
+{ } {}
+{ } {}
+{ } {}
+}{.}
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{4}
+
+{
+
+Untuk kurva
+\maabbeledisp {\psi} {\R} { {\mathbb H}
+} { t } { \left(  t   , \,  e^t                   \right)
+} {,}
+yang bernilai dalam
+\definitionsverweis {setengah bidang Poincaré}{}{}
+${\mathbb H}$, tentukan
+\definitionsverweis {simbol-simbol Christoffel}{}{}
+untuk
+\definitionsverweis {koneksi tarikan balik}{}{}
+\zusatzklammer {dari
+\definitionsverweis {koneksi Levi-Civita}{}{}
+pada ${\mathbb H}$} {} {}
+di atas $\R$.
+
+}
+{
+
+Satu-satunya turunan standar pada $\R$ adalah $\partial$, sehingga indeks bawah pada simbol-simbol Christoffel kita abaikan. Menurut
+Fakt *****  (2)
+untuk
+
+\mavergleichskette
+{\vergleichskette
+{ \ell,k
+}
+{ = }{ 1,2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \tilde{\Gamma}_\ell^k (t)
+}
+{ =} { \psi_1'(t) \Gamma_{1 \ell}^k (\psi(t)) + \psi'_2(t) \Gamma_{2 \ell}^k (\psi(t))
+}
+{ =} { \Gamma_{1 \ell}^k (t,e^t)   + e^t \Gamma_{2 \ell}^k (t,e^t)
+}
+{ } {}
+{ } {}
+}
+{}{}{.}
+Dengan
+Beispiel *****
+diperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \tilde{\Gamma}_1^1 (t)
+}
+{ =} { \Gamma_{1 1}^1 (t,e^t) + e^t \Gamma_{2 1}^1 (t,e^t)
+}
+{ =} {  -e^t e^{-t}
+}
+{ =} { -1
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \tilde{\Gamma}_1^2 (t)
+}
+{ =} { \Gamma_{1 1}^2 (t,e^t) + e^t \Gamma_{2 1}^2 (t,e^t)
+}
+{ =} { e^{-t}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \tilde{\Gamma}_2^1 (t)
+}
+{ =} { \Gamma_{1 2}^1 (t,e^t) + e^t \Gamma_{2 2}^1 (t,e^t)
+}
+{ =} {  -e^{-t}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \tilde{\Gamma}_2^2 (t)
+}
+{ =} { \Gamma_{1 2}^2 (t,e^t) + e^t \Gamma_{2 2}^2 (t,e^t)
+}
+{ =} { - e^t e^{-t}
+}
+{ =} { -1
+}
+{ } {
+}
+}
+{}{}{.}
+
+ }

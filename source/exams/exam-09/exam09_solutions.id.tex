@@ -1,0 +1,1726 @@
+%Data institusi
+
+%\input{Dozentdaten}
+
+%\renewcommand{\fachbereich}{Bidang studi}
+
+%\renewcommand{\dozent}{Prof. Dr. . }
+
+%Data ujian
+
+\renewcommand{\klausurgebiet}{ }
+
+\renewcommand{\klausurtyp}{ }
+
+\renewcommand{\klausurdatum}{ . 20}
+
+\klausurvorspann {\fachbereich} {\klausurdatum} {\dozent} {\klausurgebiet} {\klausurtyp}
+
+%Data untuk tabel poin berikut
+
+\renewcommand{\aeins}{  3  }
+
+\renewcommand{\azwei}{  3   }
+
+\renewcommand{\adrei}{  6  }
+
+\renewcommand{\avier}{  3  }
+
+\renewcommand{\afuenf}{  3  }
+
+\renewcommand{\asechs}{  5  }
+
+\renewcommand{\asieben}{  13  }
+
+\renewcommand{\aacht}{  4  }
+
+\renewcommand{\aneun}{  3  }
+
+\renewcommand{\azehn}{  7  }
+
+\renewcommand{\aelf}{  6  }
+
+\renewcommand{\azwoelf}{  3  }
+
+\renewcommand{\adreizehn}{  6   }
+
+\renewcommand{\avierzehn}{  65  }
+
+\renewcommand{\afuenfzehn}{    }
+
+\renewcommand{\asechzehn}{    }
+
+\renewcommand{\asiebzehn}{    }
+
+\renewcommand{\aachtzehn}{    }
+
+\renewcommand{\aneunzehn}{    }
+
+\renewcommand{\azwanzig}{    }
+
+\renewcommand{\aeinundzwanzig}{    }
+
+\renewcommand{\azweiundzwanzig}{    }
+
+\renewcommand{\adreiundzwanzig}{    }
+
+\renewcommand{\avierundzwanzig}{    }
+
+\renewcommand{\afuenfundzwanzig}{    }
+
+\renewcommand{\asechsundzwanzig}{    }
+
+\punktetabelledreizehn
+
+\klausurnote
+
+\newpage
+
+\setcounter{section}{0}
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Definisikan istilah-istilah berikut
+\zusatzklammer {yang dicetak miring} {} {.}
+\aufzaehlungsechs{Suatu
+\stichwort {ruang Hausdorff} {}
+$X$.
+
+}{Suatu
+\stichwort {pemetaan diferensiabel} {}
+\maabbdisp {\varphi} { L } { M
+} {}
+antara dua manifold diferensiabel
+\mathkor {} {L} {dan} {M} {.}
+
+}{
+\stichwort {Bundel tangen} {}
+dari suatu manifold diferensiabel $M$.
+
+}{
+\stichwort {Matriks fundamental kedua} {}
+dari parametrisasi lokal
+\maabbdisp {} {V} {U \subseteq Y
+} {}
+\zusatzklammer {dengan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^{n-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka} {} {}
+suatu hiperpermukaan diferensiabel
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}{
+\stichwort {Turunan eksterior} {} dari suatu bentuk diferensial terdiferensialkan secara kontinu
+\mathl{\omega \in
+{ \mathcal E }^{ k } (  M   )}{} pada manifold diferensiabel $M$.
+
+}{Suatu \stichwort {partisi kesatuan yang tersubordinasi pada penutup} {,} dengan
+
+\mavergleichskette
+{\vergleichskette
+{  X
+}
+{ = }{ \bigcup_{i \in I} W_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {penutup terbuka}{}{}
+dari
+\definitionsverweis {ruang topologis}{}{}
+$X$.
+}
+
+}
+{
+
+\aufzaehlungsechs{Suatu
+\definitionsverweis {ruang topologis}{}{}
+$X$ disebut Hausdorff jika untuk setiap dua titik berbeda
+\mathl{x, y \in X}{} terdapat dua
+\definitionsverweis {himpunan terbuka}{}{}
+\mathkor {} {U} {dan} {V} {}
+yang memenuhi
+\mathl{x \in U, \, y \in V}{} dan
+\mathl{U \cap V = \emptyset}{.}
+}{Misalkan
+\mathkor {} {(U_i,U_i', \alpha_i, i \in I)} {dan} {(V_j,V_j', \beta_j, j \in J)} {}
+adalah
+\definitionsverweis {atlas}{}{}
+dari
+\mathkor {} {M} {dan} {N} {.}
+Pemetaan
+\maabbdisp {\varphi} { L } { M
+} {}
+disebut diferensiabel jika kontinu dan jika untuk setiap
+\mathkor {} {i \in I} {dan setiap} {j \in J} {}
+pemetaan-pemetaan
+\maabbdisp {\beta_j \circ  \varphi \circ (\alpha_i)^{-1}} {\alpha_i( \varphi^{-1}(V_j) \cap U_i) } { V_j'
+} {}
+\definitionsverweis {terdiferensialkan secara kontinu}{}{.}
+}{Himpunan
+
+\mavergleichskettedisp
+{\vergleichskette
+{TM
+}
+{ =} {\biguplus_{P \in M} T_PM
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+yang dilengkapi dengan pemetaan proyeksi
+\maabbeledisp {\pi} {TM} {M
+} {(P,v)} {P
+} {,}
+disebut bundel tangen dari $M$.
+}{Misalkan $Y$
+\definitionsverweis {diorientasikan}{}{}
+oleh suatu
+\definitionsverweis {medan normal satuan}{}{}
+$N$, dengan $N$ dipandang sebagai medan pada $V$. Definisikan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h_{i j}
+}
+{ =} {  \left\langle  \partial_i \partial_j \varphi , N  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Matriks fundamental kedua
+dari $\varphi$ adalah matriks
+\zusatzklammer {yang bergantung pada
+
+\mavergleichskettek
+{\vergleichskettek
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ H
+}
+{ =} {  \left(  h_{ij}   \right)_{1 \leq i,j \leq n-1}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Turunan eksterior dari $\omega$, secara lokal pada suatu peta tempat $\omega$ berbentuk
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} {\sum_{ { \# \left(   I  \right) } = k , \, I \subseteq \{1 , \ldots ,  \operatorname{dim}\, M \}  }f_I dx_I
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+didefinisikan oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{  d \omega
+}
+{ =} {\sum_{ { \# \left(   I  \right) } = k   } d(f_I ) \wedge dx_I
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+rumus di atas.
+}{Suatu keluarga fungsi
+\maabbdisp {h_j} {X} {\R
+} {}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ j
+}
+{ \in }{ J
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+disebut partisi kesatuan yang tersubordinasi pada penutup jika sifat-sifat berikut berlaku.
+\aufzaehlungvier{Berlaku
+
+\mavergleichskette
+{\vergleichskette
+{ h_j(X)
+}
+{ \subseteq }{ [0,1]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ j
+}
+{ \in }{ J
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+memiliki suatu
+\definitionsverweis {lingkungan terbuka}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{  U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sedemikian sehingga
+\definitionsverweis {fungsi-fungsi yang dibatasi}{}{}
+
+\mathl{h_j  \vert_{ U }}{} merupakan fungsi nol, kecuali untuk sejumlah berhingga indeks.
+}{Berlaku
+
+\mavergleichskette
+{\vergleichskette
+{  \sum_{j \in J} h_j
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ j
+}
+{ \in }{ J
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat suatu himpunan terbuka
+\mathl{W_{i(j)}}{} dari penutup sedemikian sehingga
+\definitionsverweis {tumpuan}{}{}
+dari $h_j$ termuat dalam
+\mathl{W_{i(j)}}{.}
+}
+}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Nyatakan teorema-teorema berikut.
+\aufzaehlungdrei{
+\stichwort {Teorema tentang sifat aljabar pemetaan Weingarten} {.}}{Teorema tentang keterorientasian dan bentuk volume positif.}{
+\stichwort {Teorema titik tetap Brouwer} {.}}
+
+}
+{
+
+\aufzaehlungdrei{\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+adalah suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah serat di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik $Y$.}
+\faktfolgerung {Maka
+\definitionsverweis {pemetaan Weingarten}{}{}
+$L_P$ di setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bersifat
+\definitionsverweis {adjoin-diri}{}{.}}
+\faktzusatz {}
+\faktzusatz {}}{\faktsituation {Misalkan $M$ adalah suatu
+\definitionsverweis {manifold diferensiabel
+}{}{}
+dengan suatu
+\definitionsverweis {basis topologi terhitung}{}{.}}
+\faktfolgerung {Terdapat suatu
+\definitionsverweis {bentuk volume}{}{}
+\definitionsverweis {kontinu}{}{}
+tanpa titik nol pada $M$ jika dan hanya jika $M$
+\definitionsverweis {dapat diorientasikan}{}{.}}
+\faktzusatz {Bentuk volume ini juga dapat dipilih terdiferensialkan secara kontinu dan positif.}
+\faktzusatz {}}{Misalkan
+\maabbdisp {\psi} { B  \left( 0,r \right) } { B  \left( 0,r \right)
+} {}
+adalah suatu pemetaan yang terdiferensialkan secara kontinu dari bola tertutup di $\R^n$ ke dirinya sendiri. Maka $\psi$ memiliki suatu titik tetap.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{6}
+
+{
+
+Tentukan
+\definitionsverweis {kelengkungan}{}{}
+di setiap titik lingkaran satuan yang diberikan secara implisit oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h(x,y)
+}
+{ =} { x^2+y^2
+}
+{ =} { 1
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan
+[[Ebene differenzierbare Kurve/Faser/Krümmung/Fakt|Lemma 3.11 (Geometri Diferensial (Osnabrück 2023))]]
+dan medan gradien $h$.
+
+}
+{
+
+\definitionsverweis {Medan gradien}{}{}
+dari $h$ adalah $\begin{pmatrix}  2x \\ 2y   \end{pmatrix}$, sehingga suatu medan normal satuan adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ N \begin{pmatrix}  x  \\ y   \end{pmatrix}
+}
+{ =} { { \frac{   1 }{  \sqrt{x^2+y^2}  } } \begin{pmatrix}  x  \\ y   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+\definitionsverweis {Diferensial total}{}{}
+dari $N$ di suatu titik
+
+\mavergleichskettedisp
+{\vergleichskette
+{ P
+}
+{ =} { \begin{pmatrix}  x  \\ y   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{  \left(D N \right)_{P}
+}
+{ =} { \begin{pmatrix}  { \frac{   y^2 }{   \left(  x^2+y^2  \right)^{3/2}  } }   &   - { \frac{   xy }{   \left(  x^2+y^2  \right)^{3/2}  } }   \\    - { \frac{   xy }{   \left(  x^2+y^2  \right)^{3/2}  } }    &  { \frac{   x^2 }{   \left(  x^2+y^2  \right)^{3/2}  } }  \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Jika diterapkan pada vektor singgung
+\mathl{\begin{pmatrix}  y  \\ -x   \end{pmatrix}}{}, diperoleh
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \left(D N \right)_{P} \begin{pmatrix}  y  \\ -x   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  y^2    &   - xy    \\  - xy   &  x^2  \end{pmatrix} \begin{pmatrix}  y  \\ -x   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  y \left(  y^2 +x^2  \right)  \\ -x \left(  y^2 +x^2  \right)    \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  y   \\ -x    \end{pmatrix}
+}
+{ } {
+}
+}
+{}
+{}{.}
+Oleh karena itu, menurut
+[[Ebene differenzierbare Kurve/Faser/Krümmung/Fakt|Lemma 3.11 (Differentialgeometrie (Osnabrück 2023))]]
+kelengkungan kurva di $P$ sama dengan $-1$.
+\zusatzklammer {Hasil ini sesuai karena
+\mathl{\begin{pmatrix}  y  \\ -x   \end{pmatrix}}{} dan medan gradien merepresentasikan orientasi standar, sedangkan
+\mathl{\begin{pmatrix}  y  \\ -x   \end{pmatrix}}{} adalah arah singgung untuk gerak searah jarum jam.} {} {}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Misalkan $X$ suatu
+\definitionsverweis {ruang Hausdorff}{}{.}
+Tunjukkan bahwa
+\definitionsverweis {diagonal}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \triangle
+}
+{ =} { \left\{ (x,y) \in X \times X  \mid   x = y        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+merupakan
+\definitionsverweis {subhimpunan tertutup}{}{}
+dalam
+\definitionsverweis {ruang produk}{}{}
+
+\mathl{X \times X}{}.
+
+}
+{
+
+Kita harus menunjukkan bahwa komplemen
+
+\mavergleichskettedisp
+{\vergleichskette
+{W
+}
+{ =} { X \times X \setminus \triangle
+}
+{ =} { \left\{  (x,y)   \mid   x,y \in X , \,  x \neq y       \right\}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+terbuka. Jadi, misalkan
+\mathl{(x,y)}{} adalah suatu pasangan dengan
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \neq }{ y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Berdasarkan sifat Hausdorff yang diasumsikan, terdapat himpunan-himpunan terbuka saling lepas
+\mathl{U,V \subseteq X}{} dengan
+\mathl{x \in U}{} dan
+\mathl{y \in V}{.} Berlaku
+\mathl{(x,y) \in U \times V}{,} dan menurut definisi topologi produk,
+\mathl{U \times V}{} adalah suatu himpunan terbuka dalam
+\mathl{X \times X}{.} Karena keduanya saling lepas, dari
+\mathl{(z,w) \in U\times V}{} langsung diperoleh
+
+\mavergleichskette
+{\vergleichskette
+{z
+}
+{ \neq }{w
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Jadi,
+
+\mavergleichskettedisp
+{\vergleichskette
+{(x,y)
+}
+{ \in} { U \times V
+}
+{ \subseteq} {  W
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan $W$ merupakan gabungan himpunan-himpunan produk terbuka seperti itu, sehingga himpunan tersebut sendiri terbuka.
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Tunjukkan bahwa ketiga manifold satu dimensi
+\mathlistdisp {S^1 = \left\{ (x,y) \in \R^2  \mid   \betrag { (x,y) } = 1         \right\}} {} {\R} {dan} {\R \setminus \{0\}} {}
+tidak ada dua di antaranya yang homeomorfik.
+
+}
+{
+
+Sebagai himpunan bagian tertutup dan terbatas dari $\R^2$, lingkaran satuan bersifat kompak
+\zusatzklammer {[[Kompaktheit/Satz von Heine-Borel/Fakt|Satz von Heine-Borel]]} {} {.} Sebaliknya, garis real $\R$ dan $\R \setminus \{0\}$ tidak kompak karena keduanya merupakan himpunan bagian tak terbatas dari $\R$. Jadi,
+\mathl{S^1 \not \cong \R,\, \R \setminus \{0\}}{.}
+
+Garis real terhubung, sebagaimana mengikuti dari
+[[Reelle Analysis/Zwischenwertsatz/Fakt|Zwischenwertsatz]]
+. Sebaliknya, $\R \setminus \{0\}$ tidak terhubung karena dapat ditulis
+
+\mavergleichskettedisp
+{\vergleichskette
+{\R_+
+}
+{ =} {(\R \setminus \{0\}) \cap [0, \infty]
+}
+{ =} {(\R \setminus \{0\}) \cap \, ]0, \infty]
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+sehingga diperoleh suatu himpunan bagian tak kosong yang sekaligus terbuka dan tertutup. Jadi,
+\mathl{\R \,\not \cong \R \setminus \{0\}}{.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{5}
+
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{}
+dan misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ G
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+$n$-\definitionsverweis {dimensional}{}{}
+\definitionsverweis {submanifold tertutup}{}{,}
+yang
+\definitionsverweis {berorientasi}{}{}
+dan dilengkapi dengan struktur Riemann terinduksi serta
+\definitionsverweis {bentuk volume kanonik}{}{}
+$\omega$. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka dan misalkan
+\maabbdisp {\varphi} { W } { U
+} {}
+suatu
+\definitionsverweis {difeomorfisme}{}{}
+dengan himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}.
+Tunjukkan bahwa pada $W$ berlaku rumus
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{\varphi^* \left(  \omega \vert_U  \right)
+}
+{ =} { \left( \det  \left( \left\langle  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial   x_i   } }  \\ \vdots \\  { \frac{   \partial  \varphi_m   }{  \partial   x_i   } }   \end{pmatrix}  ,  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial   x_j   } }  \\ \vdots \\  { \frac{   \partial  \varphi_m   }{  \partial   x_j   } }   \end{pmatrix}   \right\rangle \right)_{1 \leq i,j \leq n} \right)^{1/2}  dx_1 \wedge \ldots \wedge dx_n
+}
+{ =} { \left( \det  \left(  { \frac{   \partial  \varphi_1   }{  \partial   x_i   } } { \frac{   \partial  \varphi_1   }{  \partial   x_j   } }  + \cdots +  { \frac{   \partial  \varphi_m   }{  \partial   x_i   } } { \frac{   \partial  \varphi_m   }{  \partial   x_j   } }  \right)_{1 \leq i,j \leq n} \right)^{1/2}  dx_1 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{}{.}
+
+}
+{
+
+Persamaan kedua langsung diperoleh dengan mengevaluasi hasil kali dalam standar pada $\R^m$. Menurut definisi
+\definitionsverweis {matriks fundamental metrik}{}{,}
+untuk
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ g_{ij} (Q)
+}
+{ =} { \left\langle  T_Q(\varphi)(e_i)  ,  T_Q(\varphi)(e_j)   \right\rangle_{\varphi(Q)}
+}
+{ =} { \left\langle  T_Q(\varphi)(e_i)  ,  T_Q(\varphi)(e_j)   \right\rangle
+}
+{ =} { \left\langle  \left(  D \varphi  \right)_{ Q } \left(   e_i   \right)  ,  \left(  D\varphi  \right)_{ Q } \left(   e_j   \right)   \right\rangle
+}
+{ =} { \left\langle  \begin{pmatrix}  { \frac{   \partial  \varphi_1   }{  \partial   x_i   } } ( Q)  \\ \vdots \\  { \frac{   \partial  \varphi_m   }{  \partial   x_i   } } ( Q)   \end{pmatrix}  ,  \begin{pmatrix}  { \frac{   \partial   \varphi_1   }{  \partial   x_j   } } ( Q )  \\ \vdots \\  { \frac{   \partial  \varphi_m   }{  \partial   x_j   } } ( Q)   \end{pmatrix}   \right\rangle
+}
+}
+{}
+{}{,}
+karena ruang singgung
+\mathl{T_{\varphi(Q)}M}{} dilengkapi dengan hasil kali dalam yang diinduksi dari $\R^m$, pemetaan singgung dalam kasus lokal adalah diferensial total, dan entri-entrinya dapat dinyatakan dengan turunan parsial. Oleh karena itu, pernyataan tersebut mengikuti dari
+[[Riemannsche Mannigfaltigkeit/Orientiert/Kanonische Volumenform/Lokale Berechnung/Fakt|Lemma 16.7 (Differentialgeometrie (Osnabrück 2023))]].
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{weiter}
+
+{
+
+Kita tinjau
+
+\mavergleichskette
+{\vergleichskette
+{ \R^6
+}
+{ = }{ \left(  \R^2  \right)^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sebagai himpunan semua segitiga
+\zusatzklammer {termasuk yang degenerat} {} {}
+dengan mengidentifikasi segitiga yang mempunyai titik-titik sudut
+\zusatzklammer {terurut} {} {}
+
+\mavergleichskette
+{\vergleichskette
+{ P_1
+}
+{ = }{ \begin{pmatrix}  x_1  \\ y_1    \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ P_2
+}
+{ = }{ \begin{pmatrix}  x_2  \\ y_2    \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ P_3
+}
+{ = }{ \begin{pmatrix}  x_3  \\ y_3    \end{pmatrix}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan tupel koordinat
+
+\mathdisp {(x_1,y_1,x_2,y_2,x_3,y_3)} {  }
+
+.
+\aufzaehlungsechs{Tunjukkan bahwa himpunan segitiga dengan dua titik sudut berimpit merupakan subhimpunan tertutup $\R^6$
+\zusatzklammer {jadi komplemennya merupakan himpunan terbuka dalam $\R^6$ yang kita namai $U$} {} {.}
+}{Tunjukkan bahwa himpunan segitiga dengan ketiga titik sudut segaris merupakan subhimpunan tertutup $\R^6$
+\zusatzklammer {jadi komplemennya, yang terdiri atas semua segitiga tak degenerat, merupakan himpunan terbuka dalam $\R^6$ yang kita namai $V$} {} {.}
+}{Buat aturan fungsi yang mendeskripsikan pemetaan
+\maabbdisp {F} {\R^6} {\R
+} {}
+yang memetakan suatu segitiga ke kelilingnya.
+}{Tunjukkan bahwa fungsi $F$ dari bagian (3) terdiferensialkan secara kontinu pada himpunan $U$.
+}{Hitung turunan parsial $F$ terhadap $x_1$ pada $U$.
+}{Tunjukkan bahwa himpunan segitiga tak degenerat berkeliling $1$ membentuk
+\definitionsverweis {submanifold tertutup}{}{}
+dari $V$. Berapakah dimensinya?
+}
+
+}
+{
+
+\aufzaehlungsechs{Titik-titik sudut
+\mathkor {} {P_1} {dan} {P_2} {}
+berimpit jika dan hanya jika kedua koordinatnya sama, yakni jika
+
+\mavergleichskette
+{\vergleichskette
+{ x_1
+}
+{ = }{ x_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ y_1
+}
+{ = }{ y_2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku. Syarat seperti ini mendefinisikan suatu himpunan bagian tertutup karena merupakan serat dari suatu pemetaan linear
+\zusatzklammer {kontinu} {} {.}
+Karena gabungan berhingga dari himpunan-himpunan bagian tertutup kembali tertutup, himpunan yang dimaksud bersifat tertutup.
+}{Tinjau vektor-vektor penghubung
+
+\mathdisp {P_2-P_1 = \begin{pmatrix}  x_2-x_1  \\ y_2-y_1   \end{pmatrix} \text{   und } P_3-P_1 = \begin{pmatrix}  x_3-x_1  \\ y_3-y_1   \end{pmatrix}} {  }
+
+Ketiga titik kolinear jika dan hanya jika kedua vektor tersebut bergantung linear, dan hal ini berlaku jika dan hanya jika determinannya sama dengan $0$. Dengan demikian, syarat kolinearitasnya adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ H(x_1,x_2,x_3,y_1,y_2,y_3)
+}
+{ =} { (x_2-x_1) (y_3-y_1) - (x_3-x_1) (y_2-y_1)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Karena $H$ adalah pemetaan polinomial dan karenanya kontinu, serat di atas $0$ merupakan himpunan bagian tertutup.
+}{Karena keliling merupakan jumlah dari ketiga sisi segitiga, berlaku
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ F(x_1,x_2,x_3,y_1,y_2,y_3)
+}
+{ =} { d(P_1,P_2) + d(P_1,P_3) +d(P_2,P_3)
+}
+{ =} { \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2} +  \sqrt{(x_3-x_1)^2 + (y_3-y_1)^2} +  \sqrt{(x_3-x_2)^2 + (y_3-y_2)^2}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Untuk suatu titik di
+\mathl{U}{,} setiap radikan, sebagai fungsi polinomial, terdiferensialkan secara kontinu dan bernilai positif ketat. Oleh karena itu, akar kuadratnya juga terdiferensialkan secara kontinu.
+}{Turunan parsialnya adalah
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ { \frac{   \partial   F   }{  \partial   x_1  } }
+}
+{ =} { { \frac{   1 }{  2 } }   \left(  (  x_2-x_1  )^2 + (y_2-y_1)^2  \right)^{-1/2} (2x_1-2x_2)    + { \frac{   1 }{  2 } }   \left(  (  x_3-x_1  )^2 + (y_3-y_1)^2  \right)^{-1/2} (2x_1-2x_3)
+}
+{ =} {  \left(  (  x_2-x_1  )^2 + (y_2-y_1)^2  \right)^{-1/2} (x_1-x_2)    +   \left(  (  x_3-x_1  )^2 + (y_3-y_1)^2  \right)^{-1/2} (x_1-x_3)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Pada $U$, semua radikan bernilai positif, sehingga turunan parsial terhadap $x_1$ hanya dapat bernilai nol jika
+\mathl{x_1=x_2=x_3}{.} Namun, segitiga yang memenuhi syarat ini bersifat kolinear. Ini berarti bahwa pada $V$ turunan parsial terhadap $x_1$ tidak pernah bernilai $0$; khususnya, gradien pada $V$ tidak pernah lenyap, sehingga bersifat reguler. Menurut
+[[Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt|Satz 8.2 (Differentialgeometrie (Osnabrück 2023))]]
+serat tersebut merupakan submanifold tertutup, dengan dimensi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 6-1
+}
+{ =} { 5
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{4}
+
+{
+
+Misalkan
+\mathkor {} {r} {dan} {R} {}
+bilangan-bilangan real positif dengan
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ < }{ r
+}
+{ < }{ R
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dan tinjau torus
+\zusatzklammer {tertanam} {} {}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T
+}
+{ =} { \left\{ (x,y,z) \in \R^3  \mid   \left(  \sqrt{x^2+y^2} -R  \right)^2 +z^2  = r^2         \right\}
+}
+{ \subseteq} { \R^3
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan
+\definitionsverweis {struktur Riemann terinduksi}{}{.}
+Tunjukkan bahwa untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha
+}
+{ \in }{ [0,2 \pi [
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+pemetaan
+\maabbeledisp {\Psi_\alpha} {\R^3} {\R^3
+} { \left(  x   , \,   y  , \,  z                 \right) } { \left(  x \cos \alpha - y \sin  \alpha   , \,   x \sin \alpha + y \cos  \alpha  , \,  z                 \right)
+} {,}
+menginduksi suatu
+\definitionsverweis {isometri}{}{}
+dari $T$ ke dirinya sendiri.
+
+}
+{
+
+Pada
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \R^3
+}
+{ =} { \R^2 \times \R
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+pemetaan tersebut merupakan produk suatu
+\definitionsverweis {rotasi bidang}{}{}
+dengan identitas. Oleh karena itu, pemetaan tersebut adalah
+\definitionsverweis {isometri}{}{}
+Euklides pada $\R^3$. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ (x,y,z)
+}
+{ \in }{  T
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Psi_\alpha(x,y,z)
+}
+{ =} { ( u,v,z)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Maka
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \left(  \sqrt{u^2+v^2} -R  \right)^2 +z^2
+}
+{ =} { \left(  \sqrt{ \left(  x \cos \alpha - y \sin  \alpha   \right)^2+ \left(  x \sin \alpha + y \cos  \alpha  \right)^2} -R  \right)^2 +z^2
+}
+{ =} { \left(  \sqrt{  x^2 \cos^{ 2  } \alpha + y^2 \sin^{ 2  }  \alpha  -2xy \cos \alpha \sin  \alpha    + x^2 \sin^{ 2  } \alpha + y^2 \cos^{ 2  }  \alpha  +2xy \cos \alpha \sin  \alpha     } -R  \right)^2 +z^2
+}
+{ =} { \left(  \sqrt{  x^2   + y^2 } -R  \right)^2 +z^2
+}
+{ =} { r^2
+}
+}
+{}{}{,}
+sehingga
+
+\mavergleichskette
+{\vergleichskette
+{ \Psi_\alpha(x,y,z)
+}
+{ \in }{  T
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Jadi,
+\maabbdisp {\Psi_\alpha} { T} {T
+} {}
+adalah suatu difeomorfisme dan isometri karena $T$ dilengkapi dengan struktur Riemann terinduksi.
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Deskripsikan suatu model untuk bidang hiperbolik.
+
+}
+{  }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{7}
+
+{
+
+Buktikan Theorema egregium.
+
+}
+{
+
+Kita mendiferensialkan persamaan penentu pertama untuk simbol-simbol Christoffel, yaitu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial_1 \partial_1 \varphi
+}
+{ =} { \Gamma^1_{11}  \partial_1 \varphi  + \Gamma^2_{11}  \partial_2 \varphi +h_{11} N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+terhadap variabel kedua, serta persamaan penentu kedua, yaitu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial_1 \partial_2 \varphi
+}
+{ =} { \Gamma^1_{12}  \partial_1 \varphi + \Gamma^2_{12}  \partial_2  \varphi + h_{12} N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+terhadap variabel pertama. Berdasarkan teorema Schwarz, diperoleh
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \left(  \partial_2 \Gamma^1_{11}  \right) \partial_1 \varphi +  \left(  \partial_2 \Gamma^2_{11}  \right)  \partial_2 \varphi+ \left(  \partial_2 h_{11}  \right)  N + \Gamma^1_{11} \partial_2 \partial_1 \varphi + \Gamma^2_{11}  \partial_2 \partial_2 \varphi  +h_{11} \partial_2 N
+}
+{ =} { \left(  \partial_1 \Gamma^1_{12}  \right)  \partial_1  \varphi+ \left(  \partial_1 \Gamma^2_{12}  \right)\partial_2 \varphi + \left(  \partial_1 h_{12}  \right)  N+ \Gamma^1_{12}  \partial_1 \partial_1 \varphi + \Gamma^2_{12}  \partial_1 \partial_2 \varphi + h_{12} \partial_1 N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Selisih kedua ekspresi ini adalah $0$, dan kita menentukan bagian yang berkaitan dengan vektor basis $\partial_2 \varphi$. Untuk itu, kita menggunakan persamaan-persamaan penentu bagi simbol Christoffel dan
+[[Hyperfläche/Raum/Parametrisierung/Weingartenabbildung/Fundamentalformen/Fakt|Lemma 19.3 (Differentialgeometrie (Osnabrück 2023))  (3)]]
+, lalu memperoleh
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ 0
+}
+{ =} { \partial_2 \Gamma^2_{11} - \partial_1 \Gamma^2_{12} +\Gamma^1_{11} \Gamma^2_{12} - \Gamma^1_{12} \Gamma^2_{11} + \Gamma_{11}^2 \Gamma_{22}^2- \left(  \Gamma_{12}^2  \right)^2 + h_{11}  { \frac{   g_{12} h_{12} - g_{11} h_{22}   }{  g_{11}g_{22} -g_{12}^2 } } - h_{12}  { \frac{   g_{12} h_{11} - g_{11}h_{12}  }{  g_{11}g_{22} -g_{12}^2 } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dengan
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ - g_{11} \left(  h_{11}h_{22} -h_{12}^2  \right)
+}
+{ =} { h_{11} \left(  g_{12} h_{12}- g_{11} h_{22}  \right) - h_{12} \left(  g_{12} h_{11} - g_{11}h_{12}  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+kita dapat mengganti kedua suku terakhir. Selanjutnya, menurut
+[[Hyperfläche/Raum/Parametrisierung/Weingartenabbildung/Fundamentalformen/Fakt|Lemma 19.3 (Differentialgeometrie (Osnabrück 2023))  (4)]]
+, diperoleh
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ g_{11} K
+}
+{ =} { g_{11} { \frac{   h_{11}h_{22} -h_{12}^2  }{ g_{11}g_{22} -g_{12}^2 } }
+}
+{ =} { \left(  \partial_2 \Gamma_{11}^2 - \partial_1 \Gamma_{12}^2 + \Gamma^1_{11} \Gamma^2_{12}  + \Gamma_{11}^2 \Gamma_{22}^2 - \Gamma_{12}^1 \Gamma_{11}^2-  \left(  \Gamma_{12}^2  \right)^2  \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{6 (1+2+2+1)}
+
+{
+
+Kita tinjau
+\definitionsverweis {bentuk diferensial}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { ydx+zdy +xdz
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+pada $\R^3$ dan pemetaan
+\maabbeledisp {\varphi} {\R^2} {\R^3
+} { \left(  u   , \,  v                   \right) } { \left( u^2  , \,  v^2  , \,  uv                 \right)
+} {.}
+\aufzaehlungvier{Hitung turunan eksterior $\omega$.
+}{Hitung tarikan balik $\varphi^* \omega$ dari $\omega$ di bawah $\varphi$.
+}{Hitung turunan eksterior $\varphi^* \omega$ pada $\R^2$.
+}{Hitung tarikan balik $\varphi^* d \omega$ dari $d\omega$ di bawah $\varphi$ secara independen dari bagian (3).
+}
+
+}
+{
+
+\aufzaehlungvier{Berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d \omega
+}
+{ =} { d \left(  ydx+zdy +xdz  \right)
+}
+{ =} { dy \wedge dx +dz \wedge dy +dx \wedge dz
+}
+{ =} { - dx \wedge dy -dy \wedge dz +dx \wedge dz
+}
+{ } {
+}
+}
+{}{}{.}
+}{Berlaku
+
+\mavergleichskettealign
+{\vergleichskettealign
+{  \varphi^* \omega
+}
+{ =} { v^2 d u^2 + uvdv^2+ u^2duv
+}
+{ =} { 2v^2udu +2uv^2 dv + u^2(udv +vdu)
+}
+{ =} { \left(  2uv^2 +u^2v  \right) du + \left(  2uv^2 +u^3  \right) dv
+}
+{ } {
+}
+}
+{}
+{}{.}
+}{Berlaku
+
+\mavergleichskettealign
+{\vergleichskettealign
+{  d \left(   \left(  2uv^2 +u^2v  \right) du + \left(  2uv^2 +u^3  \right) dv     \right)
+}
+{ =} {  d \left(  2uv^2 +u^2v  \right) du  +  d\left(  2uv^2 +u^3  \right) dv
+}
+{ =} { \left(  4uv  + u^2      \right)  dv \wedge du  +   \left(  2v^2   +3u^2  \right)   du \wedge dv
+}
+{ =} { \left(  -4uv +  2v^2   +2u^2  \right)   du \wedge dv
+}
+{ } {
+}
+}
+{}
+{}{.}
+}{Tarikan balik $\varphi^* d \omega$ adalah
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \varphi^* \left(  - dx \wedge dy -dy \wedge dz +dx \wedge dz   \right)
+}
+{ =} { - d u^2 \wedge dv^2 -d v^2 \wedge duv +d u^2 \wedge duv
+}
+{ =} { -4uv  du \wedge dv -2v^2 dv \wedge du + 2   u^2 du \wedge dv
+}
+{ =} { \left(  -4uv+2v^2 + 2 u^2  \right)  du \wedge dv
+}
+{ } {
+}
+}
+{}
+{}{.}
+}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan $\omega$ suatu
+\definitionsverweis {bentuk diferensial}{}{}
+yang
+\definitionsverweis {eksak}{}{}
+pada $M$. Misalkan $S$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+yang
+\definitionsverweis {kompak}{}{}
+dan
+\definitionsverweis {berorientasi}{}{}
+\zusatzklammer {tanpa batas} {} {}
+dengan
+\definitionsverweis {basis terhitung bagi topologinya}{}{}
+dan misalkan
+\maabbdisp {\varphi} { S } { M
+} {}
+suatu
+\definitionsverweis {pemetaan terdiferensialkan secara kontinu}{}{.}
+Tunjukkan bahwa
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{  S  }   \varphi^*\omega
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{
+
+Karena menurut
+[[Differentialform/Mannigfaltigkeit/Äußere Ableitung/Eigenschaften/Fakt|Satz 20.4 (Differentialgeometrie (Osnabrück 2023))  (5)]]
+operasi tarikan balik bentuk kompatibel dengan turunan eksterior,
+\mathl{\varphi^*\omega}{} juga eksak. Misalkan $\tau$ adalah suatu bentuk diferensiabel pada $S$ dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{d \tau
+}
+{ =} { \varphi^* \omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Menurut
+[[Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt|Satz von Stokes]],
+berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_S \varphi^* \omega
+}
+{ =} { \int_S d \tau
+}
+{ =} { \int_{ \partial S } \tau
+}
+{ =} { \int_\emptyset \tau
+}
+{ =} { 0
+}
+}
+{}{}{.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{6}
+
+{
+
+Buktikan teorema tentang retraksi ke batas pada manifold.
+
+}
+{
+
+Batas
+\mathl{\partial M}{}, menurut
+[[Mannigfaltigkeit mit Rand/Orientierung/Randorientierung/Fakt|Satz 21.8 (Differentialgeometrie (Osnabrück 2023))]]
+, merupakan suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+\definitionsverweis {berorientasi}{}{}
+\zusatzklammer {tanpa batas} {} {.}
+Oleh karena itu, menurut
+[[Nullstellenfreie Volumenform/Orientierte (Karten) Mannigfaltigkeit/Äquivalenz/Fakt|Satz 22.11 (Differentialgeometrie (Osnabrück 2023))]]
+, terdapat suatu
+\definitionsverweis {bentuk volume positif}{}{}
+\definitionsverweis {yang terdiferensialkan secara kontinu}{}{}
+$\tau$ pada
+\mathl{\partial M}{.} Kita mempunyai
+\mathl{\int_{  \partial M  }  \tau >0}{.}
+\definitionsverweis {Turunan eksterior}{}{}
+dari bentuk volume $\tau$ adalah $0$. Andaikan terdapat suatu
+\definitionsverweis {pemetaan yang terdiferensialkan secara kontinu}{}{}
+\maabbdisp {\varphi} { M } { \partial M
+} {}
+dengan
+\mathl{\varphi \vert_{\partial M} = \operatorname{Id}_{\partial M}}{.} Maka
+\definitionsverweis {bentuk tarikan balik}{}{}
+
+\mathl{\varphi^* \tau}{} adalah
+$(n-1)$-\definitionsverweis {bentuk diferensial}{}{}
+pada $M$ yang pembatasannya pada batas berimpit dengan $\tau$. Dengan menggunakan
+[[Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt|Satz 23.2 (Differentialgeometrie (Osnabrück 2023))]]
+dan
+[[Differentialform/Mannigfaltigkeit/Äußere Ableitung/Eigenschaften/Fakt|Satz 20.4 (Differentialgeometrie (Osnabrück 2023))  (5)]]
+kita memperoleh
+
+\mavergleichskettealign
+{\vergleichskettealign
+{
+\int_{  \partial M  }  \tau
+}
+{ =} {
+\int_{  \partial  M  }  \varphi^* \tau
+}
+{ =} {
+\int_{   M  }  d(\varphi^* \tau)
+}
+{ =} {
+\int_{   M  }  \varphi^* (d\tau)
+}
+{ =} {
+\int_{   M  }  \varphi^* (0)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { 0
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+Ini merupakan suatu kontradiksi.
+
+ }
+
+ [[Kategorie:Latexseite]]

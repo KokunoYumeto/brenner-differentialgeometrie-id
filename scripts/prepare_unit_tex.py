@@ -12,6 +12,10 @@ from pathlib import Path
 
 CATEGORY_RE = re.compile(r"\s*\[\[Kategori(?:e|):[^\]]+\]\]\s*", re.IGNORECASE)
 WIKILINK_RE = re.compile(r"\[\[([^\[\]|]+)(?:\|([^\[\]]+))?\]\]")
+RESIDUAL_MEDIAWIKI_LINK_RE = re.compile(
+    r"\[\[[^\n\]]*(?:\||/|(?:Kategori|Kategorie|Kurs|Datei|File):)[^\n]*?\]\]",
+    re.IGNORECASE,
+)
 # MediaWiki animation links are a reader surface, not ordinary prose links.
 # Preserve them as clickable Commons links before the generic wiki-link pass
 # strips the source target.  The pattern is intentionally limited to the two
@@ -93,9 +97,23 @@ def main() -> None:
         links.append({"target": target, "label": label})
         return label
 
-    text = WIKILINK_RE.sub(replace_link, text)
-    if "[[" in text or "]]" in text:
-        raise RuntimeError("unresolved wiki-link delimiter")
+    # Some exported labels themselves contain links. Resolve innermost links
+    # first and repeat until the outer link becomes a simple link too.
+    wiki_link_passes = 0
+    while True:
+        rendered, replacements = WIKILINK_RE.subn(replace_link, text)
+        if replacements == 0:
+            break
+        text = rendered
+        wiki_link_passes += 1
+        if wiki_link_passes > 32:
+            raise RuntimeError("wiki-link nesting exceeds bounded resolver")
+
+    # Do not reject raw ``[[``/``]]`` unconditionally: nested Lie brackets can
+    # legitimately contain those byte pairs. Reject only remaining constructs
+    # that still have MediaWiki target syntax after the bounded resolver.
+    if RESIDUAL_MEDIAWIKI_LINK_RE.search(text):
+        raise RuntimeError("unresolved MediaWiki link after nested-link resolution")
 
     operator_localizations = {
         "operatorname_kern_to_ker": text.count(r"\operatorname{kern}"),
@@ -159,6 +177,7 @@ def main() -> None:
         "localized_math_operators": operator_localizations,
         "layout_reflows": layout_reflows,
         "rendered_internal_links": links,
+        "wiki_link_resolution_passes": wiki_link_passes,
         "rendered_interactive_gif_links": interactive_links,
     }
     args.receipt.parent.mkdir(parents=True, exist_ok=True)

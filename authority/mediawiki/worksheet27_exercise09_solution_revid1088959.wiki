@@ -1,0 +1,60 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Wir arbeiten auf dem zurückgezogenen Vektorbündel {{mathl|term= \R \times \R^2 |SZ=}} über {{math|term= \R |SZ=}}  mit dem 
+{{
+Definitionslink
+|Prämath=
+|zurückgezogenen Zusammenhang|
+|Kontext=|
+|SZ=,
+}}
+dessen
+{{
+Definitionslink
+|Prämath=
+|Christoffelsymbole|
+|Kontext=linearer Zusammenhang|
+|SZ=
+}}
+{{math|term= \tilde{\Gamma}_\ell^k |SZ=}} in
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Hyperbolische Halbebene/Exponentialfunktion/Christoffelsymbole/Aufgabe
+|Nr=
+|SZ=
+}}
+bestimmt wurden. Es seien {{math|term= e_1,e_2 |SZ=}} die Basisschnitte. Dann ist nach
+{{
+Faktlink
+|Faktseitenname=
+Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt
+|Nr=
+|SZ=
+}}
+{{
+Relationskette/align
+| \nabla_\partial {{makl|  \psi_1' e_1 + \psi_2' e_2 |}} 
+|| D_\partial (\psi_1') e_1 + \psi_1' \nabla_\partial e_1 +  D_\partial (\psi_2') e_2 + \psi_2' \nabla_\partial e_2
+|| \psi_1^{\prime \prime} e_1 + \psi_1' \nabla_\partial e_1 +  \gamma_2^{\prime \prime} e_2 + \psi_2' \nabla_\partial e_2
+|| \psi_1^{\prime \prime} e_1 + \psi_1' {{makl|  \tilde{\Gamma}_1^1 e_1 +  \tilde{\Gamma}_1^2  e_2 |}}  + \psi_2^{\prime \prime} e_2 + \psi_2' {{makl|  \tilde{\Gamma}_2^1 e_1 +  \tilde{\Gamma}_2^2  e_2 |}}   
+|| {{makl|  \psi_1^{\prime \prime} +  \psi_1'  \tilde{\Gamma}_1^1    +   \psi_2'  \tilde{\Gamma}_2^1    |}}  e_1 +  {{makl|   \psi_2^{\prime \prime} +  \psi_1'  \tilde{\Gamma}_1^2    +   \psi_2'  \tilde{\Gamma}_2^2  |}} e_2
+|SZ=.
+}}
+Dies ergibt
+{{
+Relationskette/align
+|  \nabla_\partial {{makl|  \psi_1' e_1 + \psi_2' e_2 |}}  (t)
+|| {{makl|   \tilde{\Gamma}_1^1 (t)    +   e^t  \tilde{\Gamma}_2^1(t) |}}  e_1 +  {{makl|  e^t +    \tilde{\Gamma}_1^2 (t) + e^t \tilde{\Gamma}_2^2(t)    |}} e_2
+|| {{makl|  -1  -   e^t  e^{-t} |}}  e_1 +  {{makl|  e^t +   e^{-t} - e^t  |}} e_2
+|| -2e_1 +e^{-t} e_2
+|| 
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

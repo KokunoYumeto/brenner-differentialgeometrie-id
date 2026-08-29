@@ -1,0 +1,1299 @@
+\setcounter{section}{23}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg {SS-stokes} {jpg} }
+\end{center}
+\bildtext {[[w:George Gabriel Stokes|George Stokes (1819 -1903)]]} }
+
+\bildlizenz { SS-stokes.jpg } {} {Kelson} {Commons} {PD} {}
+
+Der Satz von Stokes gehört zu den wichtigsten Sätzen der Mathematik. Er stiftet eine direkte Beziehung zwischen dem Integral einer Differentialform über dem Rand einer berandeten Mannigfaltigkeit und dem Integral der äußeren Ableitung dieser Form über der gesamten Mannigfaltigkeit. Damit handelt es sich um eine weitgehende Verallgemeinerung des Hauptsatzes der Infinitesimalrechnung, nach dem das bestimmte Integral einer auf einem Intervall definierten Funktion mittels der Stammfunktion allein durch die Werte am Intervallrand ausgedrückt werden kann.
+
+  \zwischenueberschrift{Der Satz von Stokes-Quaderversion}
+
+Bevor wir den Satz von Stokes allgemein formulieren und beweisen, geben wir die Quaderversion davon, bei der der Definitionsbereich der Differentialform ein Quader ist, dessen Rand aus seinen Seiten besteht. Damit dieses geometrische Objekt eine Mannigfaltigkeit mit Rand ist, müssen wir die \anfuehrung{Kanten}{} herausnehmen. Allerdings sind die Kanten auf den Seiten jeweils Nullmengen
+\zusatzklammer {und ebenso die Seiten auf dem Gesamtquader} {} {,}
+so dass beim Integrieren diese Teilmengen ignoriert werden können.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Satz von Stokes/Quaderversion/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein achsenparalleler $n$-dimensionaler Quader
+\zusatzklammer {mit Seiten aber ohne Kanten} {} {}\zusatzfussnote {Diese Voraussetzungen sichern, dass eine Mannigfaltigkeit mit Rand vorliegt, und zwar ist der Rand die disjunkte Vereinigung der offenen Seiten. Im Beweis werden wir aber auch den abgeschlossenen Quader verwenden} {.} {}
+mit dem
+\definitionsverweis {Rand}{}{}
+
+\mathl{\partial Q}{} und $\omega$ eine auf $Q$ definierte
+\definitionsverweis {stetig-differenzierbare}{}{}
+$(n-1)$-\definitionsverweis {Differentialform}{}{.}}
+\faktfolgerung {Dann ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{  Q  }  d \omega
+}
+{ =} {
+\int_{  \partial Q  }   \omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Da beide Seiten dieser Gleichung linear in $\omega$ sind, können wir annehmen, dass $\omega$ die Gestalt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { f dx_2 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit einer in einer offenen Umgebung von $Q$ definierten stetig differenzierbaren Funktion $f$ besitzt. Die Integrale sind links und rechts
+\definitionsverweis {Lebesgue-Integrale}{}{}
+zu stetigen Funktionen auf Teilmengen des
+\mathkor {} {\R^n} {bzw.} {\R^{n-1}} {.}
+Daher können wir auf beiden Seiten zum
+\definitionsverweis {topologischen Abschluss}{}{}
+übergehen, da dadurch die in Frage stehenden Integrationsbereiche nur um eine Nullmenge verändert werden, sodass dies die Integrale nicht ändert.
+
+Wir schreiben den abgeschlossenen Quader als
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \overline{Q}
+}
+{ =} { [a,b] \times \tilde{Q}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Wir wenden
+[[Differentialform/Lokal/Zurückziehen unter partiell konstanter Abbildung/Fakt|Korollar 14.10]]
+auf jede Seite $S$ ausgenommen
+\mathkor {} {a \times \tilde{Q}} {und} {b \times \tilde{Q}} {}
+an und erhalten darauf
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ S  }   \omega
+}
+{ =} {
+\int_{  S  }  f dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{ S  }   0
+}
+{ =} { 0
+}
+{ } {
+}
+}
+{}{}{,}
+da auf diesen Seiten jeweils eine der Variablen
+\mathl{x_2 , \ldots , x_n}{} konstant ist. Aufgrund
+des [[Sigmaendliche Räume/Satz von Fubini/Fakt|Satzes von Fubini]]
+und
+des [[Riemann-Integral/Hauptsatz/Newton-Leibniz/Fakt|Hauptsatzes der Infinitesimalrechnung]]
+\zusatzklammer {angewendet auf jedes fixierte \mathlk{(x_2 , \ldots , x_n)}{}} {} {}
+gilt
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{
+\int_{ Q  }   d\omega
+}
+{ =} {
+\int_{  Q  }   df \wedge  dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{  Q  }   \left(  \sum_{j = 1}^n { \frac{   \partial   f   }{  \partial   x_j   } } dx_j  \right) \wedge  dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{  Q  }   { \frac{   \partial   f   }{  \partial   x_1   } } dx_1 \wedge  dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{ \tilde{Q}   }   \left(  \int_{[a,b] } { \frac{   \partial   f   }{  \partial   x_1   } } dx_1  \right)  dx_2 \wedge \ldots \wedge dx_n
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} {
+\int_{  \tilde{Q}   }   \left(  f(b,x_2 , \ldots , x_n ) - f(a,x_2 , \ldots , x_n )   \right) dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{ b \times \tilde{Q}   }   f dx_2 \wedge \ldots \wedge dx_n  -
+\int_{  a \times \tilde{Q}   }  f dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} { \sum_{S \text{ orientierte Seite von } Q}
+\int_{  S  }  f dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{  \partial Q  }   f dx_2 \wedge \ldots \wedge dx_n
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} {
+\int_{  \partial Q  }   \omega
+}
+{ } {}
+{ } {}
+{ } {}
+}{.}
+
+}
+
+  \zwischenueberschrift{Der Satz von Stokes}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+$n$-\definitionsverweis {dimensionale}{}{}
+\definitionsverweis {orientierte}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit mit Rand}{}{}
+$\partial M$ und mit
+\definitionsverweis {abzählbarer Basis der Topologie}{}{,}
+und es sei $\omega$ eine
+\definitionsverweis {stetig differenzierbare}{}{}
+$(n-1)$-\definitionsverweis {Differentialform}{}{}
+mit
+\definitionsverweis {kompaktem}{}{}
+\definitionsverweis {Träger}{}{}\zusatzfussnote {Unter dem Träger einer Differentialform versteht man den topologischen Abschluss der Punkte, auf denen die Form \mathlk{\neq 0}{} ist} {.} {} auf $M$.}
+\faktfolgerung {Dann ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ M  }  d\omega
+}
+{ =} {
+\int_{  \partial M  }   \omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\teilbeweis {}{}{}
+{Es sei
+
+\mathbed {U_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+eine
+\definitionsverweis {offene Überdeckung}{}{}
+von $M$ mit
+\definitionsverweis {orientierten Karten}{}{}
+und es sei
+
+\mathbed {h_j} {}
+ {j \in J} {}
+ {} {} {} {,}
+eine dieser
+\definitionsverweis {Überdeckung untergeordnete stetig differenzierbare Partition der Eins}{}{,}
+die nach
+[[Mannigfaltigkeit/Abzählbare Basis/Überdeckung/Partition/Fakt|Satz 22.10]]
+existiert. Zu jedem
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt es eine offene Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ V_P
+}
+{ \subseteq }{ M
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+derart, dass
+
+\mavergleichskette
+{\vergleichskette
+{ h_j \vert_{V_P }
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bis auf endlich viele Ausnahmen ist. Es sei $Y$ der Träger von $\omega$. Die Überdeckung
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \bigcup_{P \in M} V_P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+besitzt wegen der vorausgesetzten
+\definitionsverweis {Kompaktheit}{}{}
+eine endliche Teilüberdeckung, sagen wir
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ \subseteq} { V_{1} \cup \ldots \cup V_{r}
+}
+{ =} { V
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Daher sind überhaupt nur endlich viele der $h_j$ auf $V$ von $0$ verschieden. Wir setzen
+
+\mavergleichskette
+{\vergleichskette
+{ \omega_j
+}
+{ = }{ h_j \omega
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{;}
+diese Differentialformen sind ebenfalls stetig differenzierbar. Der Träger von $h_j$ ist eine in $M$
+\definitionsverweis {abgeschlossene Teilmenge}{}{,}
+die in
+\mathl{U_{i(j)}}{} liegt, daher liegt der Träger von $\omega_j$ in
+\mathl{Y \cap U_{i(j)}}{} und ist selbst kompakt nach
+[[Kompakter Raum/Abgeschlossene Teilmenge/Kompakt/Fakt/Beweis/Aufgabe|Aufgabe 13.10]].
+Es gilt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { \sum_{j \in J} \omega_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei nur endlich viele dieser Differentialformen
+\mathl{\omega_j}{} von $0$ verschieden sind, da
+
+\mavergleichskette
+{\vergleichskette
+{ \omega_j \vert_{M \setminus Y}
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle $j$ ist und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega_j \vert_V
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle $j$ bis auf endlich viele Ausnahmen. Wegen der
+[[Volumenform/Integration/Eigenschaften/Fakt|Additivität des Integrals von Differentialformen]]
+und der
+[[Differentialform/Mannigfaltigkeit/Äußere Ableitung/Eigenschaften/Fakt|Additivität der äußeren Ableitung]]
+kann man die Aussage für die einzelnen $\omega_j$ getrennt beweisen. Wir können also annehmen, dass eine stetig differenzierbare $(n-1)$-Differentialform gegeben ist, die kompakten Träger besitzt, der ganz in einer Kartenumgebung $U$ liegt.}
+{}
+\teilbeweis {}{}{}
+{Es liegt ein
+\definitionsverweis {Diffeomorphismus}{}{}
+\maabb {\alpha} { U } { V
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen vor, der zugleich einen Diffeomorphismus zwischen den Rändern
+
+\mavergleichskette
+{\vergleichskette
+{ \partial U
+}
+{ = }{ \partial M \cap U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \partial V
+}
+{ = }{ \partial H \cap V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+induziert. Dabei gilt
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{  \partial U  }   \omega
+}
+{ =} {
+\int_{  \partial V  }  \alpha^{-1 *}\omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ U  }  d \omega
+}
+{ =} {
+\int_{ V  }  \alpha^{-1 *} (  d \omega)
+}
+{ =} {
+\int_{  V  }  d \left(  \alpha^{-1 *}\omega  \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+nach
+[[Differentialform/Offene Menge/Äußere Ableitung/Eigenschaften/Fakt|Lemma 20.2  (5)]].}
+{\leerzeichen{}Wir können also von einer auf
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definierten stetig differenzierbaren Differentialform mit kompaktem Träger ausgehen, die wir auf ganz $H$ außerhalb des Trägers als Nullform fortsetzen können.}
+\teilbeweis {}{}{}
+{Wegen der Kompaktheit des Trägers gibt es einen hinreichend großen Quader
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \subseteq }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dessen eine Seite $S$ auf $\partial H$ liegt und der den Träger von $\omega$ nur in $S$ trifft. Auf allen anderen Seiten von $Q$ ist $\omega$
+\zusatzklammer {und damit auch $d\omega$} {} {}
+die Nullform. Daher gilt einerseits
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ H  }  d\omega
+}
+{ =} {
+\int_{ Q  }  d\omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und andererseits
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{  \partial H  }   \omega
+}
+{ =} {
+\int_{  S  }   \omega
+}
+{ =} {
+\int_{  \partial Q  }   \omega
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Somit folgt die Aussage
+aus der [[Satz von Stokes/Quaderversion/Fakt|Quaderversion des Satzes von Stokes]].}
+{}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Mannigfaltigkeiten ohne Rand/Satz von Stokes/Fakt}
+{Korollar}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+$n$-\definitionsverweis {dimensionale}{}{}
+\definitionsverweis {orientierte}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+\zusatzklammer {ohne Rand} {} {} mit
+\definitionsverweis {abzählbarer Basis der Topologie}{}{} und es sei $\omega$ eine
+\definitionsverweis {stetig differenzierbare}{}{}
+$(n-1)$-\definitionsverweis {Differentialform
+}{}{} mit
+\definitionsverweis {kompaktem}{}{}
+\definitionsverweis {Träger}{}{} auf $M$.}
+\faktfolgerung {Dann ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ M  }  d\omega
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Dies folgt wegen
+
+\mavergleichskette
+{\vergleichskette
+{ \partial M
+}
+{ = }{ \emptyset
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+unmittelbar aus
+[[Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt|Satz 23.2]].
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Mannigfaltigkeiten mit Rand/Satz von Stokes/Differentialform ist null auf Rand/Fakt}
+{Korollar}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+$n$-\definitionsverweis {dimensionale}{}{}
+\definitionsverweis {orientierte}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit mit Rand}{}{}
+und mit
+\definitionsverweis {abzählbarer Basis der Topologie}{}{,} und es sei $\omega$ eine
+\definitionsverweis {stetig differenzierbare}{}{}
+$(n-1)$-\definitionsverweis {Differentialform}{}{}
+mit
+\definitionsverweis {kompaktem}{}{}
+\definitionsverweis {Träger}{}{}
+auf $M$,}
+\faktvoraussetzung {die auf dem Rand $\partial M$ konstant gleich $0$ ist.}
+\faktfolgerung {Dann ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ M  }  d\omega
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Dies folgt unmittelbar aus
+[[Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt|Satz 23.2]].
+
+}
+
+Wichtig bei der vorstehenden Aussage ist, dass $\omega$ auf dem Rand $0$ ist; es genügt nicht, dass die äußere Ableitung $d\omega$ auf dem Rand $0$ ist, wie schon die eindimensionale Situation zeigt.
+
+Es gibt viele Möglichkeiten, die Volumenform
+
+\mavergleichskette
+{\vergleichskette
+{ \tau
+}
+{ = }{ dx_1 \wedge \ldots \wedge dx_n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+des $\R^n$ als äußere Ableitung einer
+\mathl{(n-1)}{-}Form zu realisieren, beispielsweise mit
+
+\mavergleichskette
+{\vergleichskette
+{  \omega
+}
+{ = }{ x_1dx_2 \wedge \ldots \wedge dx_n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Damit kann man die Berechnung des Volumens eines berandeten Körpers auf die Berechnung eines Integrals über den Rand zurückführen. Im ebenen Fall nennt man diese Aussage auch den \stichwort {Satz von Green} {.}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Integration auf ebener Mannigfaltigkeit mit Rand/Satz von Green/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{M
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {kompakte}{}{}
+\definitionsverweis {Mannigfaltigkeit mit Rand}{}{}\zusatzfussnote {Die umgebende reelle Ebene spielt nur insofern eine Rolle, dass durch sie Koordinaten und Differentialformen auf $M$ festgelegt werden} {.} {}
+$\partial M$, und es seien
+\maabbdisp {f,g} { M } {\R
+} {}
+\definitionsverweis {stetig differenzierbare Funktionen}{}{.}}
+\faktfolgerung {Dann ist
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{
+\int_{  M  }   \left(  - { \frac{   \partial   f   }{  \partial   y   } } ( x,y) + { \frac{   \partial   g   }{  \partial   x   } } ( x,y)  \right) dx \wedge dy
+}
+{ =} {
+\int_{  \partial M  }  f(x,y)dx +g(x,y)dy
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Dies folgt aus
+[[Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt|Satz 23.2]],
+angewendet auf die
+\definitionsverweis {stetig differenzierbare}{}{}
+$1$-\definitionsverweis {Form}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ f(x,y)dx + g(x,y)dy
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Integration auf ebener Mannigfaltigkeit mit Rand/Satz von Green/Flächenversion/Fakt}
+{Korollar}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {kompakte}{}{}
+\definitionsverweis {Mannigfaltigkeit mit Rand}{}{}
+
+\mathl{\partial M}{.}}
+\faktfolgerung {Dann ist der Flächeninhalt von $M$ gleich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \lambda^2(M)
+}
+{ =} {
+\int_{  \partial M  }   x dy
+}
+{ =} { -
+\int_{  \partial M  }   y dx
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Dies folgt wegen
+
+\mavergleichskette
+{\vergleichskette
+{ \lambda^2(M)
+}
+{ = }{
+\int_{ M  }  dx \wedge dy
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+aus
+[[Integration auf ebener Mannigfaltigkeit mit Rand/Satz von Green/Fakt|Satz 23.5]]
+angewendet auf
+\mathkor {} {f=0,\, g=x} {bzw.} {f=-y,\, g=0} {.}
+
+}
+
+\inputbemerkung
+{}
+{
+
+Den Satz von Green kann man auch für kompakte Gebiete
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+anwenden, deren
+\zusatzklammer {topologischer} {} {}
+Rand zusammenhängend und aus endlich vielen glatten Kurven zusammengesetzt ist, die in den Übergängen nicht notwendigerweise glatt sind
+\zusatzklammer {beispielsweise ein Dreieck} {} {.}
+Das Randintegral ist dann die Summe der Wegintegrale über die glatten Kurvenstücke. Diese etwas allgemeinere Situation kann man auf
+[[Integration auf ebener Mannigfaltigkeit mit Rand/Satz von Green/Fakt|Satz 23.5]]
+zurückführen, indem man entweder die Übergangsstellen glättet, um einen glatten Rand zu erhalten, wobei man die Abweichungen in den Integralen beliebig klein machen kann, oder die Differentialform in kleinen Umgebungen der Übergangsstellen zu $0$ abglättet.
+
+}
+
+\inputbeispiel{}
+{
+
+Ein Spezielfall des
+[[Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt|Satzes von Stokes]]
+ist der sogenannte \stichwort {Divergenzsatz} {} oder \stichwort {Satz von Gauß} {.} Er besagt für eine kompakte dreidimensionale Mannigfaltigkeit mit Rand
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ \subset }{ U
+}
+{ \subseteq }{ \R^3
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {$U$ eine offene Teilmenge} {} {}
+und eine $2$-Differentialform $\omega$ auf $U$ die Gleichheit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_{\partial M} \omega
+}
+{ =} { \int_M d \omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dieser Satz bezieht sich auf die physikalische Situation einer Strömung. Die Form $\omega$ beschreibt für einen Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und ein infinitesimales Parallelogramm an diesem Punkt, wie viel Flüssigkeit pro Zeiteinheit durch dieses Stück durchfließt. Bei der äquivalenten Beschreibung dieser Situation mit einem Vektorfeld beschreibt
+\mathl{F(P)}{} die Flussrichtung zusammen mit ihrer Stärke. Die Ableitung $d \omega$ ist eine Volumenform, die sogenannte \stichwort {Divergenz} {.} Sie beschreibt für einen Punkt den infinitesimalen Zuwachs an Flussmaterial
+\zusatzklammer {\stichwort {Quelle} {} oder \stichwort {Senke} {}} {} {}
+an diesem Punkt. Dabei ist die Bedingung
+
+\mavergleichskette
+{\vergleichskette
+{d \omega
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+häufig erfüllt und bedeutet, dass es für die Flüssigkeit in $U$ keinen Materialgewinn gibt. Der Satz von Gauß besagt dann, dass die Gesamtdurchströmung durch den Rand
+\zusatzklammer {wobei die Orientierung festlegt, welche Strömung als nach draußen oder als nach innen zu betrachten ist} {} {}
+gleich $0$ ist. Was also irgendwo in $M$ hineinfließt, fließt irgendwo sonst wieder heraus.
+
+}
+
+  \zwischenueberschrift{Der Brouwersche Fixpunktsatz}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Mannigfaltigkeit mit Rand/Stokes/Nichtexistenz von Retraktionen/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+\definitionsverweis {kompakte}{}{}
+\definitionsverweis {orientierte}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit mit Rand}{}{}
+
+\mathl{\partial M}{} und mit
+\definitionsverweis {abzählbarer Basis der Topologie}{}{.}}
+\faktfolgerung {Dann gibt es keine
+\definitionsverweis {stetig differenzierbare Abbildung}{}{}
+\maabbdisp {\varphi} { M } { \partial M
+} {,}
+deren
+\definitionsverweis {Einschränkung}{}{}
+auf $\partial M$ die Identität ist.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Der Rand
+\mathl{\partial M}{} ist nach
+[[Mannigfaltigkeit mit Rand/Orientierung/Randorientierung/Fakt|Satz 21.8]]
+eine
+\definitionsverweis {orientierte}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+\zusatzklammer {ohne Rand} {} {.}
+Daher gibt es nach
+[[Nullstellenfreie Volumenform/Orientierte (Karten) Mannigfaltigkeit/Äquivalenz/Fakt|Satz 22.11]]
+eine
+\definitionsverweis {stetig differenzierbare}{}{}
+\definitionsverweis {positive Volumenform}{}{}
+$\tau$ auf
+\mathl{\partial M}{.} Es ist
+
+\mavergleichskette
+{\vergleichskette
+{
+\int_{  \partial M  }  \tau
+}
+{ > }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Die
+\definitionsverweis {äußere Ableitung}{}{}
+der Volumenform $\tau$ ist $0$.
+ Nehmen wir an, dass es eine
+\definitionsverweis {stetig differenzierbare Abbildung}{}{}
+\maabbdisp {\varphi} { M } { \partial M
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi \vert_{\partial M}
+}
+{ = }{ \operatorname{Id}_{\partial M}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gebe. Dann ist die
+\definitionsverweis {zurückgezogene Form}{}{}
+
+\mathl{\varphi^* \tau}{} eine
+$(n-1)$-\definitionsverweis {Differentialform}{}{}
+auf $M$, deren Einschränkung auf den Rand mit $\tau$ übereinstimmt. Daher gilt unter Verwendung von
+[[Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt|Satz 23.2]]
+und
+[[Differentialform/Mannigfaltigkeit/Äußere Ableitung/Eigenschaften/Fakt|Satz 20.4  (5)]]
+
+\mavergleichskettealign
+{\vergleichskettealign
+{
+\int_{  \partial M  }   \tau
+}
+{ =} {
+\int_{  \partial  M  }   \varphi^* \tau
+}
+{ =} {
+\int_{  M  }   d(\varphi^* \tau)
+}
+{ =} {
+\int_{  M  }   \varphi^* (d\tau)
+}
+{ =} {
+\int_{  M  }   \varphi^* (0)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { 0
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+Dies ist ein Widerspruch.
+
+}
+
+Man formuliert diese Aussage auch so, dass man sagt, dass es keine
+\zusatzklammer {stetig differenzierbare} {} {} \stichwort {Retraktion} {} auf den Rand gibt.
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Théorème-de-Brouwer-(cond-2)} {jpg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Théorème-de-Brouwer-(cond-2).jpg } {} {Jean-Luc W} {Commons} {CC-by-sa 3.0} {}
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungjpg {Theoreme-de-Brouwer-(cond-1)} {jpg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Théorème-de-Brouwer-(cond-1).jpg } {} {Jean-Luc W} {Commons} {CC-by-sa 3.0} {}
+
+Der folgende Satz heißt \stichwort {Brouwerscher Fixpunktsatz} {.}
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Brouwersche Fixpunktsatz/Stetig differenzierbar/Retraktion/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei
+\maabbdisp {\psi} { B  \left(  0 ,r \right) } { B  \left(  0 ,r \right)
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Abbildung}{}{}
+der
+\definitionsverweis {abgeschlossenen Kugel}{}{}
+im $\R^n$ in sich.}
+\faktfolgerung {Dann besitzt $\psi$ einen
+\definitionsverweis {Fixpunkt}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Zur Notationsvereinfachung sei
+
+\mavergleichskette
+{\vergleichskette
+{ r
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}  Nehmen wir an, dass es eine fixpunktfreie stetig differenzierbare Abbildung $\psi$ geben würde. Dann ist stets
+
+\mavergleichskettedisp
+{\vergleichskette
+{ x
+}
+{ \neq} { \psi(x)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+sodass die beiden Punkte eine Gerade definieren. Die Idee ist, mittels dieser Geraden einen
+\zusatzklammer {der beiden} {} {}
+Durchstoßungspunkt mit der Sphäre als Bildpunkt einer Retraktion auf den Rand zu nehmen. Mit der Hilfsfunktion
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h(x)
+}
+{ =} { { \frac{   \psi(x)-x }{  \Vert { \psi (x)-x} \Vert  } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+definieren wir eine Abbildung
+\maabbdisp {\varphi} { B  \left(  0 , 1 \right) } { \R^n
+} {}
+durch
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \varphi(x)
+}
+{ =} { x + \left(  - \left\langle  x  , h(x)  \right\rangle + \sqrt{1 + \left\langle  x  , h(x)  \right\rangle^2 - \Vert { x} \Vert^2  }  \right) \cdot h(x)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dabei ist der Ausdruck unter der Wurzel positiv. Dies ist bei
+
+\mavergleichskette
+{\vergleichskette
+{ \Vert { x } \Vert
+}
+{ < }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+klar und bei
+
+\mavergleichskette
+{\vergleichskette
+{ \Vert { x } \Vert
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+liegt ein Punkt auf der Sphäre vor, dessen Verbindungsgerade mit dem Kugelpunkt
+\mathl{\psi(x)}{} nicht senkrecht zu $x$ ist
+\zusatzklammer {der affine Tangentialraum zu einem Punkt der Sphäre trifft eine Kugel nur in einem Punkt} {} {,}
+sodass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  x  , h(x)  \right\rangle
+}
+{ \neq} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist. Da die Quadratwurzel und der Betrag außerhalb des Nullpunktes
+\definitionsverweis {stetig differenzierbar}{}{}
+sind, handelt es sich bei
+\mathkor {} {h(x)} {und bei} {\varphi(x)} {}
+um stetig differenzierbare Abbildungen. Die Abbildung $\varphi$ bildet nach
+[[Brouwersche Fixpunktsatz/Explizite Retraktion/Aufgabe|Aufgabe 23.23]]
+die Kugel auf die Sphäre ab und ihre Einschränkung auf die Sphäre ist die Identität. Damit liegt eine stetig differenzierbare
+\definitionsverweis {Retraktion}{}{}
+der abgeschlossenen Vollkugel auf ihren Rand vor, was nach
+[[Mannigfaltigkeit mit Rand/Stokes/Nichtexistenz von Retraktionen/Fakt|Satz 23.9]]
+nicht sein kann.
+
+}
+
+ [[Kategorie:Latexseite]]

@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 14:55:41 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Mannigfaltigkeit/Exakte k-Form/Rückzug auf kompakte orientierte Mannigfaltigkeit ohne Rand/n-1-Form/Integral ist 0/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 950,
+  "response_path": "worksheet23_exercise06_solution_latex_expand.json",
+  "response_sha256": "9f7feb77e576403d575d79d8488567f515c3ca6f087572da39c09b795d7d2208",
+  "retrieved_utc": "2026-08-28T14:55:41Z",
+  "schema_version": 1
+}

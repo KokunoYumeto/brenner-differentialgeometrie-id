@@ -1,0 +1,97 @@
+Wir können von der lokalen Situation ausgehen, dass auf dem trivialen Vektorbündel
+\maabbdisp {} {U \times \R} {U
+} {}
+ein Zusammenhang vorliegt, wobei wir
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{  \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+als
+\definitionsverweis {sternförmig}{}{}
+annehmen können. Der Zusammenhang wird durch die
+\definitionsverweis {Christoffelsymbole}{}{}
+$\Gamma_1 , \ldots , \Gamma_n$ beschrieben. Da der Zusammenhang als krümmungsfrei vorausgesetzt wird, gilt nach
+[[Reelles Vektorbündel/Rang 1/Offene Menge/Krümmungsoperator/Fakt|Fakt]],
+dass die
+$1$-\definitionsverweis {Differentialform}{}{}
+$\sum_{i = 1}^n\Gamma_i dx_i$
+\definitionsverweis {geschlossen}{}{}
+ist. Nach
+[[1-Form/Vektorfeld/Geschlossen gdw Integrabilitätsbedingung/Aufgabe|Aufgabe]]
+bedeutet dies, dass das zugehörige Vektorfeld
+\maabbdisp {\left( \Gamma_1   , \,   \ldots  , \,  \Gamma_n                 \right)} { U } {\R^n
+} {}
+die
+\definitionsverweis {Integrabilitätsbedingung}{}{}
+erfüllt. Dies bedeutet nach
+[[Teilmenge/R^n/Sternförmig/Gradientenfeld/Charakterisierung/Fakt|Fakt]],
+dass auf der sternförmigen offenen Menge $U$ ein
+\definitionsverweis {Gradientenfeld}{}{}
+vorliegt. Es gibt also eine stetig differenzierbare Funktion
+\maabbdisp {f} { U } { \R
+} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma_i
+}
+{ =} { \partial_i f
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle $i$. Wir setzen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g
+}
+{ =} { e^f
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und fassen $g$ als einen Schnitt im trivialen Bündel $U \times \R$ auf. Dabei ist nach
+[[Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt|Fakt]]
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i} g
+}
+{ =} { g \Gamma_i -  \partial_i g
+}
+{ =} { e^f \Gamma_i - \partial_i e^f
+}
+{ =} { e^f \Gamma_i - e^f \partial_i f
+}
+{ =} { 0
+}
+}
+{}{}{,}
+d.h. dass $g$ ein nullstellenfreier
+\definitionsverweis {horizontaler Schnitt}{}{}
+ist, der $\nabla$ als lokal integrabel erweist.
+
+ [[Kategorie:Latexseite]]

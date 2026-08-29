@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-23/worksheet23_exercise16_solution.id.tex",
+  "input_bytes": 1944,
+  "input_sha256": "d555d4f4ddee984f6c32845e7cea8c0b4a4c370cb36da36fa2beb2c3ae6e3ede",
+  "output": "build/generated/worksheet23_exercise16_solution.id.build.tex",
+  "output_bytes": 1855,
+  "output_sha256": "a72540feb7ec9b8c27572b0681581cabade4c4ae2eb4f7e51118dad066d415f5",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Dachprodukt/Natürliche Dualität/Endlichdimensional/Fakt",
+      "label": "fakta tentang hasil kali baji"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

@@ -1,0 +1,804 @@
+{
+  "authority": {
+    "course_recursive_export": {
+      "bytes": 3538709,
+      "path": "authority/mediawiki/brenner_course_recursive_current.xml",
+      "sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14"
+    },
+    "latex_surface_recursive_export": {
+      "bytes": 3722387,
+      "path": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+      "sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c"
+    },
+    "pages": {
+      "lecture_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture26_latex_surface_revid807132.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1200,
+          "path": "authority/mediawiki/lecture26_latex_surface_revid807132.metadata.json",
+          "sha256": "7ee79885da641118c33de56db4a6531f774a1df251acdb01d1c8313f400d1505"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142600,
+        "parentid": 799041,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/lecture26_latex_surface_revid807132.wiki",
+        "revid": 807132,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T10:01:30Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 26/latex"
+      },
+      "lecture_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "9927593fe7eaa820316bedad632d64e67dde5fe6545e8a72799ce30d7622d058",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture26_root_revid991602.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "0b9s4tzqdlz6rtnaidfyv7je52zxxup",
+        "metadata": {
+          "bytes": 1170,
+          "path": "authority/mediawiki/lecture26_root_revid991602.metadata.json",
+          "sha256": "6b20304f47bb0d9da260f1650bedede91f1dc66e730b0d684b767a9389537d76"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142570,
+        "parentid": 905616,
+        "readable_normalized_bytes": 719,
+        "readable_normalized_sha256": "0797cbf504635857eafa3d1e2e8476c9e42a6c94f19820468cf29ad0b7a022bb",
+        "readable_normalized_witness": "authority/mediawiki/lecture26_root_revid991602.wiki",
+        "revid": 991602,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 718,
+        "source_utf8_sha1": "02ae3009c0ed93115d9ea3e56fad441941f044a1",
+        "source_utf8_sha256": "eca0b5700e1547c43a38d3d049574395da878c2f57e3cbfdded6b6e40562d874",
+        "timestamp": "2025-01-23T13:23:59Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 26"
+      },
+      "worksheet_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet26_latex_surface_revid807101.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1207,
+          "path": "authority/mediawiki/worksheet26_latex_surface_revid807101.metadata.json",
+          "sha256": "f88622db07242430dd01ef784e3a0951e02fdf4a4d7c998fe1381ba6f947e8a9"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142690,
+        "parentid": 799010,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/worksheet26_latex_surface_revid807101.wiki",
+        "revid": 807101,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T09:56:20Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 26/latex"
+      },
+      "worksheet_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "0b008dd609bc3102322dad883d4826b6d10f134feb316f31774153335f70271a",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet26_root_revid907130.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "bktfs7eqian798rixrwfl1pl89t67df",
+        "metadata": {
+          "bytes": 1179,
+          "path": "authority/mediawiki/worksheet26_root_revid907130.metadata.json",
+          "sha256": "4aaa037f7cc4fa63092dee55d1beb1cc5260abaa4730e14aab11df8fbe1eb3ef"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142660,
+        "parentid": 906184,
+        "readable_normalized_bytes": 2699,
+        "readable_normalized_sha256": "16fadd9a555b360c50fa7089d4dc5cd7c35312a4c255847d827b06f1cf3ac711",
+        "readable_normalized_witness": "authority/mediawiki/worksheet26_root_revid907130.wiki",
+        "revid": 907130,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 2698,
+        "source_utf8_sha1": "631e9b8c43fda49b8e2e43b5bbc4dec02c1c2bd3",
+        "source_utf8_sha256": "41267c2aa40aa4e24584b3e927f1461c60a058042efad51d4da4a6836ffe3927",
+        "timestamp": "2023-07-18T15:37:48Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 26"
+      }
+    },
+    "root_revision_baselines": {},
+    "root_revision_manifest": {
+      "bytes": 15237,
+      "path": "authority/brenner_selected_root_revisions.csv",
+      "sha256": "64cf91594907db45355e64fb512fb14092e15218c74847a8f60fe884a5284fc8"
+    },
+    "root_revision_overrides": {},
+    "surface_revision_manifest": {
+      "bytes": 31799,
+      "path": "authority/brenner_selected_surface_revisions.csv",
+      "sha256": "9a3a6b7dc08cc022803dad24e959365d67810d4da87a8bc4385c601db9d4bd52"
+    }
+  },
+  "checks": {
+    "all_candidate_solution_titles_queried": true,
+    "all_displayed_images_have_license_macros": true,
+    "all_point_markers_resolved": true,
+    "all_supplied_solution_latex_snapshots_frozen": true,
+    "all_supplied_solution_revisions_frozen": true,
+    "exercise_root_expansion_count_agreement": true,
+    "lecture_expansion_sanitized": true,
+    "revision_export_hashes_match": true,
+    "root_revision_bindings_unique": true,
+    "root_witnesses_match_mediawiki_sha1": true,
+    "solution_macro_api_agreement": true,
+    "surface_revision_bindings_unique": true,
+    "translation_started_by_workflow": false,
+    "unit_media_binary_and_rights_closure": true,
+    "worksheet_expansion_sanitized": true
+  },
+  "expansions": {
+    "lecture": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 31575,
+      "http_date": "Fri, 28 Aug 2026 15:21:11 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 26/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 674,
+        "path": "authority/exports/lecture26_latex_expand.json.request.json",
+        "sha256": "6c15eea49c6171da839535ce87d6cf8da3648cf1b320d1c6ce7b00cef3b8920e"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 33601,
+        "path": "authority/exports/lecture26_latex_expand.json",
+        "sha256": "107e18110f41905aab505e33a7c500cf022ea4c80422a5af8cfd7e01a50808e1"
+      },
+      "retrieved_utc": "2026-08-28T15:21:11Z",
+      "sanitized_source": {
+        "bytes": 27170,
+        "path": "authority/expanded/lecture26_source.de.tex",
+        "sha256": "247f20e08172386241f09dc70fd4e4ea6b4421b733aa143ecead657b5a838f22"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 672,
+        "path": "qa/unit-26/lecture26_sanitize.json",
+        "sha256": "4948273f8ff0ffa9bc6a712c0b45985fafcf218e421aa64771d8e549c69e7f3b"
+      },
+      "valid_utf8": true
+    },
+    "worksheet": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 14180,
+      "http_date": "Fri, 28 Aug 2026 15:21:12 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 26/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 679,
+        "path": "authority/exports/worksheet26_latex_expand.json.request.json",
+        "sha256": "f9b829a6b27042a213e4e54f1924fdfb79d526310829068107edc35131fd427b"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 15207,
+        "path": "authority/exports/worksheet26_latex_expand.json",
+        "sha256": "05956b993a3d6c08263795d4b40eac50dd8281f68ed016a600683c9f9b945a5d"
+      },
+      "retrieved_utc": "2026-08-28T15:21:11Z",
+      "sanitized_source": {
+        "bytes": 11742,
+        "path": "authority/expanded/worksheet26_source.de.tex",
+        "sha256": "55b14472419fe28a5533f2eda9c46f1556793a6da556f17f1254d3aa8706311d"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 676,
+        "path": "qa/unit-26/worksheet26_sanitize.json",
+        "sha256": "9f44f93094f95771a55390c620b0a2daeadaeaaa25ba23c2633522566c5abad7"
+      },
+      "valid_utf8": true
+    }
+  },
+  "media": {
+    "all_displayed_images_have_license_macros": true,
+    "assets": [],
+    "current_commons_query": null,
+    "occurrence_count": 0,
+    "rights_manifest": {
+      "bytes": 25588,
+      "path": "authority/brenner_media_rights_manifest.csv",
+      "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+    },
+    "surface_occurrences": [],
+    "unique_asset_count": 0
+  },
+  "next_action": "Translate Lecture 26, Worksheet 26, and exactly the 3 supplied solutions in source order.",
+  "schema_version": 1,
+  "scope": "Brenner Differentialgeometrie Unit 26 authority preflight; no translation",
+  "solutions": {
+    "exercise_count": 16,
+    "exercises": [
+      {
+        "exercise_index": 1,
+        "exists": false,
+        "expanded_body_sha256": "02937338abd546c5ad9c48baec6876c6d66301b1dcaa9ecb1eb4aebcee70c6ab",
+        "expanded_body_utf8_bytes": 603,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Offene Menge/R^n/Induzierte riemannsche Struktur/Levi-Civita-Zusammenhang/Vertikale Ableitung/Berechnung/1/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Offene Menge/R^n/Induzierte riemannsche Struktur/Levi-Civita-Zusammenhang/Vertikale Ableitung/Berechnung/1/Aufgabe/Lösung",
+        "task_title": "Offene Menge/R^n/Induzierte riemannsche Struktur/Levi-Civita-Zusammenhang/Vertikale Ableitung/Berechnung/1/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 2,
+        "exists": false,
+        "expanded_body_sha256": "b352ed80735a4c0f3415e6a5e449d8befef598ac2b1da47afdf6c74e173a7232",
+        "expanded_body_utf8_bytes": 583,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Intervall/Riemannsche Struktur/Levi-Civita-Zusammenhang/Vertikale Ableitung/Berechnung/1/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Intervall/Riemannsche Struktur/Levi-Civita-Zusammenhang/Vertikale Ableitung/Berechnung/1/Aufgabe/Lösung",
+        "task_title": "Intervall/Riemannsche Struktur/Levi-Civita-Zusammenhang/Vertikale Ableitung/Berechnung/1/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 1849,
+          "path": "authority/mediawiki/worksheet26_exercise03_solution_revid1094217.utf8.b64",
+          "sha256": "9f3ac1159efe35aec6bd261313f56dc237ae35c15b76db87b5117f3587200c24"
+        },
+        "exercise_index": 3,
+        "exists": true,
+        "expanded_body_sha256": "1b4f3b5c77782f0a26d466a68c23696595afd41cdfcbdaac06f24977bfc89804",
+        "expanded_body_utf8_bytes": 588,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 1893,
+          "http_date": "Fri, 28 Aug 2026 15:21:13 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Intervall/Riemannsche Struktur/Levi-Civita-Zusammenhang/Horizontale Schnitte/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 730,
+            "path": "authority/exports/worksheet26_exercise03_solution_latex_expand.json.request.json",
+            "sha256": "370f4346ffaa91ab4866438a36ba5b7cd431b6981e54cf3b4732d2746bc4bcf1"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 2119,
+            "path": "authority/exports/worksheet26_exercise03_solution_latex_expand.json",
+            "sha256": "491ecb4e1089c904663a15fd46cbe7076c84605e04da6c3fae9bdb98d33400c7"
+          },
+          "retrieved_utc": "2026-08-28T15:21:12Z",
+          "sanitized_source": {
+            "bytes": 1519,
+            "path": "authority/expanded/worksheet26_exercise03_solution_source.de.tex",
+            "sha256": "67fd186f24deffbe92f463ded1a5274accdb183b55d64f3a6ffb26a428eea085"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-26/worksheet26_exercise03_solution_sanitize.json",
+            "sha256": "e9086230cd43efd56caecd5c3a01dd957b13b1f89ede41ae9a927ea43d46e107"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "253ad1e890e8da67d9b68e465276e1b3ed0c8d94",
+        "metadata": {
+          "bytes": 1389,
+          "path": "authority/mediawiki/worksheet26_exercise03_solution_revid1094217.metadata.json",
+          "sha256": "ba9d620ff0b6eedbdefa28664ddbd62d33544cdff2ec9cc1d3ab6ea41eeb0f30"
+        },
+        "pageid": 152394,
+        "parentid": 1094179,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 1387,
+          "path": "authority/mediawiki/worksheet26_exercise03_solution_revid1094217.wiki",
+          "sha256": "72ad591ebfae0392d4984969629e5ec5b9b3efadb160ac25c646cbe1fb10c424"
+        },
+        "resolved_solution_title": "Intervall/Riemannsche Struktur/Levi-Civita-Zusammenhang/Horizontale Schnitte/Aufgabe/Lösung",
+        "revid": 1094217,
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Intervall/Riemannsche Struktur/Levi-Civita-Zusammenhang/Horizontale Schnitte/Aufgabe/Lösung",
+        "source_utf8_bytes": 1386,
+        "source_utf8_sha256": "83f1e847cd93f01ba335dc4706d07e184fe1ff0a3559ceb99be1f6013b3fd343",
+        "task_title": "Intervall/Riemannsche Struktur/Levi-Civita-Zusammenhang/Horizontale Schnitte/Aufgabe",
+        "timestamp": "2026-06-14T15:18:29Z",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 4,
+        "exists": false,
+        "expanded_body_sha256": "e4ab43a5320f5adce02f39faf32c577cf7899b259b3b9006e9e3209bd6f64dd9",
+        "expanded_body_utf8_bytes": 738,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Mannigfaltigkeit/Tangentialbündel trivial/Triviale riemannsche Struktur/Levi-Civita-Zusammenhang/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Tangentialbündel trivial/Triviale riemannsche Struktur/Levi-Civita-Zusammenhang/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Tangentialbündel trivial/Triviale riemannsche Struktur/Levi-Civita-Zusammenhang/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 5,
+        "exists": false,
+        "expanded_body_sha256": "bb7de7a3e4f8a9ba79a2dc91168d8330cd656c20839a9b5e7deb0401cd38785e",
+        "expanded_body_utf8_bytes": 503,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Poincaresche Halbebene/Vertikale Ableitung/Berechnung/1/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Poincaresche Halbebene/Vertikale Ableitung/Berechnung/1/Aufgabe/Lösung",
+        "task_title": "Poincaresche Halbebene/Vertikale Ableitung/Berechnung/1/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 2017,
+          "path": "authority/mediawiki/worksheet26_exercise06_solution_revid1088947.utf8.b64",
+          "sha256": "ad78f62a58a59ea266ea7a8bb400e507ca84bb0fc96b6d702aa364d3d1b2d3af"
+        },
+        "exercise_index": 6,
+        "exists": true,
+        "expanded_body_sha256": "32794b9482387d50bf2799d255acc0a3e349e56716e055c5d2107452412cb06b",
+        "expanded_body_utf8_bytes": 509,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 1865,
+          "http_date": "Fri, 28 Aug 2026 15:21:13 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Tangentialbündel/Linearer Zusammenhang/Torsionsfrei/Basisschnitte/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 720,
+            "path": "authority/exports/worksheet26_exercise06_solution_latex_expand.json.request.json",
+            "sha256": "0aaeb1be4676bc2808afe5976bb230118d35906aced424ed188064863def5ef5"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 2079,
+            "path": "authority/exports/worksheet26_exercise06_solution_latex_expand.json",
+            "sha256": "1ed203dfac857d2125127e16c4b3c3bb9451ffc15c0e7cc2416905996551c7a8"
+          },
+          "retrieved_utc": "2026-08-28T15:21:12Z",
+          "sanitized_source": {
+            "bytes": 1620,
+            "path": "authority/expanded/worksheet26_exercise06_solution_source.de.tex",
+            "sha256": "48a156e3819a892696a847c44e631ca70f6252663beeb005121ec6e4c22090c6"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-26/worksheet26_exercise06_solution_sanitize.json",
+            "sha256": "61d814e51df6aa36cabd3145502993fdb0a92da22cf3026f0ff1d1be6fb424cb"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "f07e7d8c7ac2ddd1eef229a50482babecec907f1",
+        "metadata": {
+          "bytes": 1368,
+          "path": "authority/mediawiki/worksheet26_exercise06_solution_revid1088947.metadata.json",
+          "sha256": "e9e816018a31b3b77b0e9a27e5d31e96ca5b146425519de2a85d7ec520349582"
+        },
+        "pageid": 152187,
+        "parentid": 991206,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 1511,
+          "path": "authority/mediawiki/worksheet26_exercise06_solution_revid1088947.wiki",
+          "sha256": "6d2c16bf293f0156543703c77aceba23496c25a14dfc3ac0762babc49f6c587a"
+        },
+        "resolved_solution_title": "Tangentialbündel/Linearer Zusammenhang/Torsionsfrei/Basisschnitte/Aufgabe/Lösung",
+        "revid": 1088947,
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Tangentialbündel/Linearer Zusammenhang/Torsionsfrei/Basisschnitte/Aufgabe/Lösung",
+        "source_utf8_bytes": 1510,
+        "source_utf8_sha256": "58c81df8fa0b5e6531662db83e4d32428262e0b9bbb00ce3d3039ec843b3c405",
+        "task_title": "Tangentialbündel/Linearer Zusammenhang/Torsionsfrei/Basisschnitte/Aufgabe",
+        "timestamp": "2026-05-31T09:10:52Z",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 7,
+        "exists": false,
+        "expanded_body_sha256": "fd1820586b70d5f8c072ce120a9652b03b49a6d19558b3eb81f1566ca89644a7",
+        "expanded_body_utf8_bytes": 288,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Intervall/Tangentialbündel/Linearer Zusammenhang/Torsionsfrei/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Intervall/Tangentialbündel/Linearer Zusammenhang/Torsionsfrei/Aufgabe/Lösung",
+        "task_title": "Intervall/Tangentialbündel/Linearer Zusammenhang/Torsionsfrei/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 8,
+        "exists": false,
+        "expanded_body_sha256": "ba960e1fb55045ff41311d1bacd570bbb40408db67e7c6bee6b06fd9118f2dc9",
+        "expanded_body_utf8_bytes": 1190,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "R^n/Offene Menge/Riemannsche Struktur/Zusammenhang aus Christoffel-Symbole/Koszul-Eigenschaft/Allgemein/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "R^n/Offene Menge/Riemannsche Struktur/Zusammenhang aus Christoffel-Symbole/Koszul-Eigenschaft/Allgemein/Aufgabe/Lösung",
+        "task_title": "R^n/Offene Menge/Riemannsche Struktur/Zusammenhang aus Christoffel-Symbole/Koszul-Eigenschaft/Allgemein/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 6085,
+          "path": "authority/mediawiki/worksheet26_exercise09_solution_revid1095884.utf8.b64",
+          "sha256": "93305ed7f24799d09a0e486d432d6f5b97806f7201078484ad602e3c8953faa9"
+        },
+        "exercise_index": 9,
+        "exists": true,
+        "expanded_body_sha256": "d8e170af58a0ef53d06a4fa262c7dd5fbb1a6df527a42a5ddbe0a7d217d817bc",
+        "expanded_body_utf8_bytes": 666,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 5968,
+          "http_date": "Fri, 28 Aug 2026 15:21:13 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Riemannsche Mannigfaltigkeit/Linearer Zusammenhang/Metrisch auf Basisfeldern/Metrisch/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 739,
+            "path": "authority/exports/worksheet26_exercise09_solution_latex_expand.json.request.json",
+            "sha256": "f45fcda39e9b98eb391e09d189061c82300f0d0ada77c5be59c447e4be6af8e2"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 6532,
+            "path": "authority/exports/worksheet26_exercise09_solution_latex_expand.json",
+            "sha256": "97bd2356a56f1216b20aa3837d3e1d1b3e5e68a10af6a07b08ad26746a889d22"
+          },
+          "retrieved_utc": "2026-08-28T15:21:13Z",
+          "sanitized_source": {
+            "bytes": 5185,
+            "path": "authority/expanded/worksheet26_exercise09_solution_source.de.tex",
+            "sha256": "1121d727db618d14fe9f6746de2bb743a60b8ead451bb0c4405761906d2c2c95"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-26/worksheet26_exercise09_solution_sanitize.json",
+            "sha256": "f7cbc6582792f2ec33e904dd3984a3da5f229e2ae7c6b93227cdeb5fbcd802ae"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "3ceb0e9f73eb8e933059b1e375f7a2b2a9b67020",
+        "metadata": {
+          "bytes": 1407,
+          "path": "authority/mediawiki/worksheet26_exercise09_solution_revid1095884.metadata.json",
+          "sha256": "00283e86cbaf2f0cc455d3af0f9c7984c3c7ddd9e1f813f5a8f936e70eb6d218"
+        },
+        "pageid": 152485,
+        "parentid": 1088813,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 4562,
+          "path": "authority/mediawiki/worksheet26_exercise09_solution_revid1095884.wiki",
+          "sha256": "b561cba7605fb07bcb9d0558e69943912d463e19be39224cb7b6f9b0fd9d7a96"
+        },
+        "resolved_solution_title": "Riemannsche Mannigfaltigkeit/Linearer Zusammenhang/Metrisch auf Basisfeldern/Metrisch/Aufgabe/Lösung",
+        "revid": 1095884,
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Riemannsche Mannigfaltigkeit/Linearer Zusammenhang/Metrisch auf Basisfeldern/Metrisch/Aufgabe/Lösung",
+        "source_utf8_bytes": 4561,
+        "source_utf8_sha256": "820cd7aef762dff43fbe1c49234bb4968b8f1186c4ce49407988f975dcb27e90",
+        "task_title": "Riemannsche Mannigfaltigkeit/Linearer Zusammenhang/Metrisch auf Basisfeldern/Metrisch/Aufgabe",
+        "timestamp": "2026-06-15T07:16:34Z",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 10,
+        "exists": false,
+        "expanded_body_sha256": "d78367e98f850b8c950683f17af3267012d4c9cfbd3650054d1fcca8c52af8ac",
+        "expanded_body_utf8_bytes": 899,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Offenes Intervall/Triviales Bündel/Metrischer Zusammenhang/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Offenes Intervall/Triviales Bündel/Metrischer Zusammenhang/Aufgabe/Lösung",
+        "task_title": "Offenes Intervall/Triviales Bündel/Metrischer Zusammenhang/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 11,
+        "exists": false,
+        "expanded_body_sha256": "58dda65ca9686402c5458904ce7d4956a7ae08f0433efc7df85b98cd603d7b74",
+        "expanded_body_utf8_bytes": 837,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Mannigfaltigkeit/Riemannsches Vektorbündel/Linearer Zusammenhang/Metrisch auf Basisfeldern/Metrisch/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Riemannsches Vektorbündel/Linearer Zusammenhang/Metrisch auf Basisfeldern/Metrisch/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Riemannsches Vektorbündel/Linearer Zusammenhang/Metrisch auf Basisfeldern/Metrisch/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 12,
+        "exists": false,
+        "expanded_body_sha256": "924fdc8e6eb0e40e83d41aa051d2c4fbf6d9e35cbc35cd609b01301dbd81dd62",
+        "expanded_body_utf8_bytes": 1071,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Eingebettete Mannigfaltigkeit/Inverse Karte/Zweites Tangentialbündel/Partielle Ableitungen/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Eingebettete Mannigfaltigkeit/Inverse Karte/Zweites Tangentialbündel/Partielle Ableitungen/Aufgabe/Lösung",
+        "task_title": "Eingebettete Mannigfaltigkeit/Inverse Karte/Zweites Tangentialbündel/Partielle Ableitungen/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 13,
+        "exists": false,
+        "expanded_body_sha256": "94b144156764955f11e63ffd2f83c282e53407fd7059a1eb63447bb3c35fe746",
+        "expanded_body_utf8_bytes": 595,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 2,
+        "resolved_solution_title": "Intervall/Riemannsche Struktur/Levi-Civita-Zusammenhang/Vertikale Ableitung/Berechnung/2/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Intervall/Riemannsche Struktur/Levi-Civita-Zusammenhang/Vertikale Ableitung/Berechnung/2/Aufgabe/Lösung",
+        "task_title": "Intervall/Riemannsche Struktur/Levi-Civita-Zusammenhang/Vertikale Ableitung/Berechnung/2/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 14,
+        "exists": false,
+        "expanded_body_sha256": "99fca0db9b3916ceebdc83c73e7b9d59a7fd36592b452ea2f114b7d273451c3b",
+        "expanded_body_utf8_bytes": 149,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 2,
+        "resolved_solution_title": "Halbebene/Poincaré/Riemannsche Geometrie/Christoffelsymbole/Berechnung/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Halbebene/Poincaré/Riemannsche Geometrie/Christoffelsymbole/Berechnung/Aufgabe/Lösung",
+        "task_title": "Halbebene/Poincaré/Riemannsche Geometrie/Christoffelsymbole/Berechnung/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 15,
+        "exists": false,
+        "expanded_body_sha256": "66b0f47c0176f29be792ade8db0b1e5c93885f0800e50f3d5254559749da06d8",
+        "expanded_body_utf8_bytes": 533,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 3,
+        "resolved_solution_title": "Poincaresche Halbebene/Vertikale Ableitung/Berechnung/2/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Poincaresche Halbebene/Vertikale Ableitung/Berechnung/2/Aufgabe/Lösung",
+        "task_title": "Poincaresche Halbebene/Vertikale Ableitung/Berechnung/2/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 16,
+        "exists": false,
+        "expanded_body_sha256": "0d5539e1133abf886e69d792dfec361c07503f0662b92c6464cd5aa443c83df3",
+        "expanded_body_utf8_bytes": 379,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 2,
+        "resolved_solution_title": "Offene Menge/Linearer Zusammenhang/Torsionsfrei/Unabhängige Christoffelsymbole/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Offene Menge/Linearer Zusammenhang/Torsionsfrei/Unabhängige Christoffelsymbole/Aufgabe/Lösung",
+        "task_title": "Offene Menge/Linearer Zusammenhang/Torsionsfrei/Unabhängige Christoffelsymbole/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      }
+    ],
+    "graded_exercise_count": 4,
+    "macro_api_agreement": true,
+    "missing_solution_count": 13,
+    "point_value_total": 9,
+    "practice_exercise_count": 12,
+    "query": {
+      "bytes": 10809,
+      "path": "authority/mediawiki/unit26_solution_pages_current.json",
+      "sha256": "7af6c53573ed6fa9dd85b0e4367755cd8cca2b47d223704ae1183a5452cf4c06"
+    },
+    "query_request_receipt": {
+      "bytes": 2172,
+      "path": "authority/mediawiki/unit26_solution_pages_current.json.request.json",
+      "sha256": "1de08bdb0dcfc6a94b6a9cdd825657ddcd583dd665b6c236531b76988c59101d"
+    },
+    "query_retrieved_utc": "2026-08-28T15:21:12Z",
+    "schema_version": 1,
+    "supplied_solution_count": 3,
+    "supplied_solution_indices": [
+      3,
+      6,
+      9
+    ],
+    "workflow": "o011-unit26-solution-freeze-v1",
+    "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 26"
+  },
+  "status": "pass",
+  "structure": {
+    "all_hint_fields_blank": true,
+    "lecture_section_count": 2,
+    "worksheet_exercise_count": 16,
+    "worksheet_graded_count": 4,
+    "worksheet_hint_bearing_indices": [],
+    "worksheet_hint_count": 0,
+    "worksheet_point_total": 9,
+    "worksheet_practice_count": 12,
+    "worksheet_section_count": 2,
+    "worksheet_solution_bearing_indices": [
+      3,
+      6,
+      9
+    ]
+  },
+  "unit": 26,
+  "workflow": "o011-unit26-authority-preflight-v1"
+}

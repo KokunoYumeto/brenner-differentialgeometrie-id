@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "scope": "source/exams/exam-02/exam02_solutions.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-EXAM02-SOL-0001",
+      "anchor": "definition of an open cover of X",
+      "change": "Translate only the German reader-facing words inside the protected displayed formula from mit/offen und einer beliebigen Indexmenge to dengan/terbuka dan himpunan indeks sembarang; all mathematical tokens remain unchanged."
+    },
+    {
+      "correction_id": "O011-EXAM02-SOL-0002",
+      "anchor": "piecewise definition of varphi_c",
+      "change": "Translate only the three German reader-facing branch labels inside the protected piecewise formula from fuer to jika; all mathematical tokens remain unchanged."
+    },
+    {
+      "correction_id": "O011-EXAM02-SOL-0003",
+      "anchor": "manifolds L and M",
+      "change": "Translate the reader-facing conjunction inside mathkor from und to dan without changing either manifold."
+    },
+    {
+      "correction_id": "O011-EXAM02-SOL-0004",
+      "anchor": "manifolds M and N in the cotangent-space statement",
+      "change": "Translate the reader-facing conjunction inside mathkor from und to dan without changing either manifold."
+    },
+    {
+      "correction_id": "O011-EXAM02-SOL-0005",
+      "anchor": "the two atlases in the product-manifold statement",
+      "change": "Translate the reader-facing conjunction inside mathkor from und to dan without changing either atlas."
+    },
+    {
+      "correction_id": "O011-EXAM02-SOL-0006",
+      "anchor": "manifolds M and N in the connection statement",
+      "change": "Translate the reader-facing conjunction inside mathkor from und to dan without changing either manifold."
+    },
+    {
+      "correction_id": "O011-EXAM02-SOL-0007",
+      "anchor": "manifolds M and N in the regular-point statement",
+      "change": "Translate the reader-facing conjunction inside mathkor from und to dan without changing either manifold."
+    },
+    {
+      "correction_id": "O011-EXAM02-SOL-0008",
+      "anchor": "subspaces V and H",
+      "change": "Translate the reader-facing conjunction inside mathkor from und to dan without changing either subspace."
+    },
+    {
+      "correction_id": "O011-EXAM02-SOL-0009",
+      "anchor": "exact admitted learner prompt using coordinates u and v",
+      "change": "Preserve the admitted Indonesian learner prompt exactly, including the reader-facing conjunction dan and its punctuation inside mathkor, without changing either coordinate."
+    },
+    {
+      "correction_id": "O011-EXAM02-SOL-0010",
+      "anchor": "the two boundary-complement sets",
+      "change": "Translate the reader-facing conjunction inside mathkor from und to dan without changing either set expression."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-EXAM02-SOL-0001",
+      "surface": "protected:mathdisp",
+      "index": 0,
+      "source_sha256": "35f7f9d1be7061668794d0b5a97e51fc622a3e5cd938aa592c7502860b5b2d79",
+      "target_sha256": "fda6a79aace13c43ce7a226d1f82828d2bb206c1a0159244402d61c80cae82fc"
+    },
+    {
+      "correction_id": "O011-EXAM02-SOL-0002",
+      "surface": "protected:vergleichskette",
+      "index": 35,
+      "source_sha256": "abccae9af679c93d4a590db3c604d1b322fb8812c6564a0afab52dc3ab3e26d3",
+      "target_sha256": "0b85b9e418f2d51265f612e2c72162d9b929021f03472c7529a34db429042077"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-EXAM02-SOL-0003",
+      "surface": "command:mathkor",
+      "occurrence_index": 0,
+      "source_latex": "\\mathkor{}{L}{und}{M}{.}",
+      "target_latex": "\\mathkor{}{L}{dan}{M}{.}",
+      "source_sha256": "e47bee8faef7ab5268f912389806c74a4a6a1eba274ad87d1fa7b42a1deaea0e",
+      "target_sha256": "e723ad8a80d4ca188b36b7a2f2f18a5354afc5ba75fd4c7b7d8ff81bbb913597"
+    },
+    {
+      "correction_id": "O011-EXAM02-SOL-0004",
+      "surface": "command:mathkor",
+      "occurrence_index": 1,
+      "source_latex": "\\mathkor{}{M}{und}{N}{.}",
+      "target_latex": "\\mathkor{}{M}{dan}{N}{.}",
+      "source_sha256": "933a8ca3a38cff8694d9ab5b9ca8a5245f81cd8dd776df6666fc44c4ff7a6de0",
+      "target_sha256": "c143f910dd28eb34edbe33f38dd31e85740cb7843f4da64a6debb9064e205898"
+    },
+    {
+      "correction_id": "O011-EXAM02-SOL-0005",
+      "surface": "command:mathkor",
+      "occurrence_index": 2,
+      "source_latex": "\\mathkor{}{(U_i,U_i',\\alpha_i,i\\inI)}{und}{(V_j,V_j',\\beta_j,j\\inJ)}{}",
+      "target_latex": "\\mathkor{}{(U_i,U_i',\\alpha_i,i\\inI)}{dan}{(V_j,V_j',\\beta_j,j\\inJ)}{}",
+      "source_sha256": "e7a9ba311e193063dcfe1bfdaf580e943c845d785e93e063decc3a4420edca35",
+      "target_sha256": "e4845df54f73a1c8420e480f97fb5883d8617f3abaa6d42e9f81eec614b7afea"
+    },
+    {
+      "correction_id": "O011-EXAM02-SOL-0006",
+      "surface": "command:mathkor",
+      "occurrence_index": 3,
+      "source_latex": "\\mathkor{}{M}{und}{N}{.}",
+      "target_latex": "\\mathkor{}{M}{dan}{N}{.}",
+      "source_sha256": "933a8ca3a38cff8694d9ab5b9ca8a5245f81cd8dd776df6666fc44c4ff7a6de0",
+      "target_sha256": "c143f910dd28eb34edbe33f38dd31e85740cb7843f4da64a6debb9064e205898"
+    },
+    {
+      "correction_id": "O011-EXAM02-SOL-0007",
+      "surface": "command:mathkor",
+      "occurrence_index": 4,
+      "source_latex": "\\mathkor{}{M}{und}{N}{.}",
+      "target_latex": "\\mathkor{}{M}{dan}{N}{.}",
+      "source_sha256": "933a8ca3a38cff8694d9ab5b9ca8a5245f81cd8dd776df6666fc44c4ff7a6de0",
+      "target_sha256": "c143f910dd28eb34edbe33f38dd31e85740cb7843f4da64a6debb9064e205898"
+    },
+    {
+      "correction_id": "O011-EXAM02-SOL-0008",
+      "surface": "command:mathkor",
+      "occurrence_index": 5,
+      "source_latex": "\\mathkor{}{V}{und}{H}{,}",
+      "target_latex": "\\mathkor{}{V}{dan}{H}{,}",
+      "source_sha256": "5bdeb7201a2ad74f49e974a33fa2c7772103ee582c5102839be872348db5b80d",
+      "target_sha256": "9ba13b794040630318affbd4a4f59379e8413215335bfe46b81a461f048ee7d0"
+    },
+    {
+      "correction_id": "O011-EXAM02-SOL-0009",
+      "surface": "command:mathkor",
+      "occurrence_index": 6,
+      "source_latex": "\\mathkor{}{u}{und}{v}{}",
+      "target_latex": "\\mathkor{}{u}{dan}{v}{.}",
+      "source_sha256": "7fbd4af1b142c566584f2ad2e12cfb2acc7e3f353a8c181f2adef3067e476daa",
+      "target_sha256": "e4f02deab71205ce9a51c817575322c203c808efde60f9098e89ebd7459839f1"
+    },
+    {
+      "correction_id": "O011-EXAM02-SOL-0010",
+      "surface": "command:mathkor",
+      "occurrence_index": 7,
+      "source_latex": "\\mathkor{}{U\\setminusU\\cap\\R}{und}{V\\setminusV\\cap\\deltaH}{.}",
+      "target_latex": "\\mathkor{}{U\\setminusU\\cap\\R}{dan}{V\\setminusV\\cap\\deltaH}{.}",
+      "source_sha256": "33f166b5f3bb4ffd5dce0076a7a8601178736708ebd15d494937e69af3f1a6fc",
+      "target_sha256": "1acc91b0befec6ea325b9ff2ee71737b2ab50c9464de9232ae00884df5184a04"
+    }
+  ]
+}

@@ -1,0 +1,973 @@
+\setcounter{section}{23}
+
+  \zwischenueberschrift{Soal latihan}
+
+\inputaufgabe
+{}
+{
+
+Bahaslah
+rumus Newton--Leibniz
+sebagai kasus khusus dari
+teorema Stokes.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Buktikan secara langsung
+versi balok dari teorema Stokes
+untuk balok
+\mathl{[a_1,b_1] \times \cdots \times [a_n,b_n]}{} dan suatu
+$n-1$-\definitionsverweis {bentuk diferensial}{}{}
+$\omega$ berbentuk
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { x_1^{m_1 } \cdots x_n^{m_n }  dx_2 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan $M$ suatu
+$n$-\definitionsverweis {dimensional}{}{}
+\definitionsverweis {berorientasi}{}{}
+\definitionsverweis {manifold diferensiabel berbatas}{}{}
+dengan
+\definitionsverweis {basis topologi terhitung}{}{},
+dan misalkan $\omega$ suatu $(n-1)$-\definitionsverweis {bentuk diferensial}{}{}
+yang
+\definitionsverweis {terdiferensialkan secara kontinu}{}{},
+\definitionsverweis {tertutup}{}{}, dan mempunyai
+\definitionsverweis {tumpuan kompak}{}{}
+pada $M$. Tunjukkan bahwa
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_{\partial M} \omega
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+$n$-\definitionsverweis {dimensional}{}{},
+\definitionsverweis {kompak}{}{}, dan
+\definitionsverweis {berorientasi}{}{}
+\zusatzklammer {tanpa batas} {} {},
+dengan
+\definitionsverweis {basis topologi terhitung}{}{},
+dan misalkan $\omega$ suatu
+$(n-1)$-\definitionsverweis {bentuk diferensial}{}{}
+yang
+\definitionsverweis {terdiferensialkan secara kontinu}{}{}
+pada $M$. Tunjukkan bahwa
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ M  }  d\omega
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{Apa arti pernyataan ini untuk $S^1$? Bagaimana pernyataan tersebut dapat dibuktikan dalam kasus ini melalui suatu integral lintasan?} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+\definitionsverweis {kompak}{}{} dan
+\definitionsverweis {berorientasi}{}{}
+\zusatzklammer {tanpa batas} {} {},
+dengan
+\definitionsverweis {basis topologi terhitung}{}{},
+dan misalkan $\tau$ suatu
+\definitionsverweis {bentuk volume positif}{}{}
+pada $M$. Tunjukkan bahwa $\tau$ tidak
+\definitionsverweis {eksak}{}{.}
+
+}
+{Bagaimana keadaannya tanpa asumsi kekompakan?} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan $\omega$ suatu
+\definitionsverweis {eksak}{}{} \definitionsverweis {bentuk diferensial}{}{}
+pada $M$. Misalkan $S$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+\definitionsverweis {kompak}{}{} dan
+\definitionsverweis {berorientasi}{}{}
+\zusatzklammer {tanpa batas} {} {},
+dengan
+\definitionsverweis {basis topologi terhitung}{}{},
+serta misalkan
+\maabbdisp {\varphi} { S } { M
+} {}
+suatu pemetaan yang
+\definitionsverweis {terdiferensialkan secara kontinu}{}{.}
+Tunjukkan bahwa
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{  S  }   \varphi^*\omega
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Kita tinjau
+\definitionsverweis {pemetaan yang terdiferensialkan secara kontinu}{}{}
+\zusatzklammer {\mathlk{n \geq 2}{}} {} {}
+\maabbeledisp {\pi} {\R^n \setminus \{0\}} { S^{n-1}
+} {(x_1 , \ldots , x_n) } { { \frac{   1  }{  \sqrt{x_1^2 + \cdots + x_n^2}  } } (x_1 , \ldots , x_n)
+} {.}
+Misalkan $\omega$ adalah
+\definitionsverweis {bentuk volume kanonik}{}{}
+pada $S^{n-1}$. Tunjukkan bahwa
+\mathl{\pi^* \omega}{} pada $\R^n \setminus \{0\}$ merupakan
+\definitionsverweis {tertutup}{}{},
+tetapi tidak
+\definitionsverweis {eksak}{}{}
+$n-1$-\definitionsverweis {bentuk diferensial}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ B  \left(  0 , 1 \right) \setminus \{(0,0)\}
+}
+{ \subset }{ \R^2
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan batas
+
+\mavergleichskette
+{\vergleichskette
+{ \partial M
+}
+{ = }{ S^1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Kita tinjau kedua
+$1$-\definitionsverweis {bentuk diferensial}{}{}
+yang
+\definitionsverweis {terdiferensialkan secara kontinu}{}{}
+
+\mathdisp {\omega= ydx-xdy \text{ dan } \tau= { \frac{   1  }{  x^2+y^2 } } \left(  ydx-xdy  \right)} {  }
+
+pada $M$. Tunjukkan bahwa pembatasan kedua bentuk tersebut pada batas saling berimpit, dan khususnya
+
+\mavergleichskette
+{\vergleichskette
+{ \int_{\partial M} \omega
+}
+{ =} { \int_{\partial M} \tau
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku. Bandingkan
+\mathkor {} {\int_M d \omega} {dan} {\int_M d \tau} {.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Yakinkan diri bahwa
+teorema Green
+tidak menyatakan bahwa luas suatu daerah berbatas di $\R^2$ hanya bergantung pada panjang batasnya.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan $D$ segitiga dengan titik sudut
+$(0,2),\, (1,-1)$, dan $(-2,-1)$,
+serta
+
+\mavergleichskette
+{\vergleichskette
+{ \tau
+}
+{ = }{ x^2ydx \wedge dy
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+$2$-\definitionsverweis {bentuk diferensial}{}{} pada $D$. Temukan suatu
+\definitionsverweis {bentuk primitif}{}{}
+untuk $\tau$, lalu gunakan bentuk tersebut untuk menghitung
+\mathl{\int_{ D  }  \tau}{} melalui suatu integral pada batas segitiga.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Verifikasikan
+teorema Green
+melalui perhitungan eksplisit untuk persegi satuan
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ = }{ [0,1] \times [0,1]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+\definitionsverweis {bentuk-bentuk diferensial}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { x^ay^b dx + x^cy^d dy
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ a,b,c,d
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Verifikasikan
+teorema Green
+melalui perhitungan eksplisit untuk himpunan
+\mathl{T=[-2,2] \times [-2,2] \setminus U \left(   0 , 1  \right)}{}
+\zusatzklammer {yakni persegi berpusat di asal dengan panjang sisi $4$, tanpa lingkaran satuan terbuka} {} {}
+dan
+\definitionsverweis {bentuk diferensial}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{(x-y)dx + xy dy
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Buktikan teorema Green untuk segitiga $D$ dengan titik-titik sudut
+
+\mavergleichskette
+{\vergleichskette
+{ P_1,P_2,P_3
+}
+{ \in }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan untuk bentuk diferensial
+\mathl{xdy}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+\maabbdisp {f} { [a,b] } { \R_{+}
+} {}
+suatu
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{.}
+Kita pandang
+\definitionsverweis {subgraf}{}{}
+sebagai suatu
+\definitionsverweis {manifold berbatas}{}{},
+dengan batas yang terdiri atas grafik, interval dasar, dan kedua sisi tegak, tetapi tanpa keempat titik sudutnya. Hitung luas subgraf dengan menggunakan kedua
+\definitionsverweis {bentuk diferensial}{}{}
+
+\mathl{xdy}{} dan
+\mathl{ydx}{}
+pada batas.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Tentukan volume
+\definitionsverweis {bola satuan tertutup}{}{}
+tiga dimensi melalui suatu integral permukaan yang sesuai pada
+\definitionsverweis {permukaan bola satuan}{}{}
+$S^2$.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Kita tinjau
+$2$-\definitionsverweis {bentuk diferensial}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { x dy \wedge dz -y dx \wedge dz + z dx \wedge dy
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+pada bola satuan
+\mathl{B  \left(  0 , 1  \right)}{.}
+\aufzaehlungdreiabc{Tunjukkan bahwa $d \omega$ adalah tiga kali bentuk volume standar pada bola tersebut.
+}{Tunjukkan bahwa
+\mathl{\omega\vert_{S^2}}{} adalah bentuk luas standar pada permukaan bola satuan.
+}{Hitung luas permukaan bola dari
+volume bola
+dengan menggunakan
+teorema Stokes.
+}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Misalkan $\omega$ suatu
+$n-1$-\definitionsverweis {bentuk diferensial}{}{}
+yang terdiferensialkan secara kontinu pada suatu
+\definitionsverweis {himpunan terbuka}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{},
+dan misalkan
+\definitionsverweis {turunan eksterior}{}{}
+diberikan oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{d \omega
+}
+{ =} { fdx_1 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan suatu fungsi
+\maabb {f} { U } {\R
+} {.}
+Tunjukkan untuk
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+kesamaan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ f(P)
+}
+{ =} { { \frac{   1  }{  \beta_n  } } \cdot \operatorname{lim}_{   \epsilon \rightarrow  0  } \, { \frac{   1  }{  \epsilon^n } } \int_{S^{n-1}(P, \epsilon)} \omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dengan $\beta_n$ menyatakan
+volume
+bola satuan $n$-dimensional.
+
+}
+{} {}
+
+Untuk suatu kasus khusus dari pernyataan di atas, lihat
+Soal 58.23 (Analisis (Osnabrück 2021--2023)).
+
+\inputaufgabe
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dengan batas tak kosong. Tunjukkan bahwa terdapat suatu
+\definitionsverweis {pemetaan diferensiabel}{}{}
+\maabb {} { M } { \partial M
+} {}
+ada.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ H
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ \geq }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+suatu
+\definitionsverweis {setengah ruang}{}{.}
+Tunjukkan bahwa terdapat suatu
+\definitionsverweis {pemetaan diferensiabel}{}{}
+\maabbdisp {\varphi} { H } { \partial H
+} {}
+yang
+\definitionsverweis {pembatasannya}{}{}
+pada
+\mathl{\partial H}{} adalah
+\definitionsverweis {identitas}{}{.}
+
+}
+{Bagaimana keadaannya untuk
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}?} {}
+
+\inputaufgabe
+{}
+{
+
+Kita tinjau
+\definitionsverweis {manifold berbatas}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ \R^n \setminus  U \left(   0 , 1  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Tunjukkan bahwa terdapat suatu pemetaan yang terdiferensialkan secara kontinu dari $M$ ke batas
+\mathl{S \left(   0 ,  1  \right)}{}
+yang merupakan identitas pada batas tersebut.
+
+}
+{} {}
+
+Untuk soal berikut, Anda dapat menggunakan
+Soal 21.8.
+
+\inputaufgabe
+{}
+{
+
+Kita tinjau
+\definitionsverweis {manifold berbatas}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { B  \left(  0 , 1 \right) \setminus \{  \left(  1   , \,   0                   \right) \}
+}
+{ \subseteq} { \R^2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Tunjukkan bahwa terdapat suatu
+\definitionsverweis {pemetaan yang terdiferensialkan secara kontinu}{}{}
+\maabbdisp {\varphi} { M } { \partial M
+} {}
+yang merupakan identitas pada batas.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Tunjukkan bahwa pada suatu
+\definitionsverweis {anulus}{}{}
+terdapat pemetaan
+\definitionsverweis {bijektif}{}{} yang
+\definitionsverweis {terdiferensialkan secara kontinu}{}{}
+dan tidak mempunyai
+\definitionsverweis {titik tetap}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Tunjukkan bahwa pemetaan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi(x)
+}
+{ =} { x + \left( - \left\langle  x  , h(x)  \right\rangle + \sqrt{1 + \left\langle  x  , h(x)  \right\rangle^2 - \Vert { x} \Vert^2  }\right) \cdot h(x)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\zusatzklammer {dengan
+
+\mavergleichskette
+{\vergleichskette
+{ h(x)
+}
+{ = }{ { \frac{   \psi(x)-x }{  \Vert { \psi (x)-x} \Vert  } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+yang digunakan dalam pembuktian
+teorema titik tetap Brouwer
+memetakan bola satuan ke permukaan bola satuan.
+
+}
+{} {}
+
+  \zwischenueberschrift{Tugas untuk dikumpulkan}
+
+\inputaufgabe
+{4}
+{
+
+Misalkan $D$ segitiga dengan titik sudut
+$(0,2),\, (1,-1)$, dan $(-2,-1)$,
+serta
+\mathl{\tau =( 3x^2y^5-x \sin  y ) dx \wedge dy}{} suatu
+$2$-\definitionsverweis {bentuk diferensial}{}{} pada $D$. Temukan suatu
+\definitionsverweis {bentuk primitif}{}{} untuk $\tau$, lalu gunakan bentuk tersebut untuk menghitung
+\mathl{\int_{ D  }  \tau}{} melalui suatu integral pada batas segitiga.
+
+}
+{} {}
+
+\inputaufgabe
+{6}
+{
+
+Kita tinjau kubus
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Q
+}
+{ =} { [-1,1]^3
+}
+{ \subseteq} { \R^3
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+$2$-\definitionsverweis {bentuk diferensial}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { dx \wedge dy +y dx \wedge dz +x^2y^2z^2 dy \wedge dz
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Hitung
+\mathl{d \omega}{} dan kedua integral
+\mathkor {} {\int_{  \partial Q  }   \omega} {dan} {\int_{  Q  }  d \omega} {}
+\zusatzklammer {secara terpisah} {} {.}
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Hitung luas
+\definitionsverweis {cakram satuan tertutup}{}{}
+melalui suatu
+\definitionsverweis {integral lintasan}{}{}
+yang sesuai.
+
+}
+{} {}
+
+\inputaufgabe
+{2}
+{
+
+Tunjukkan bahwa pada suatu
+\definitionsverweis {torus}{}{}
+terdapat pemetaan
+\definitionsverweis {bijektif}{}{} yang
+\definitionsverweis {terdiferensialkan secara kontinu}{}{}
+dan tidak mempunyai
+\definitionsverweis {titik tetap}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{3}
+{
+
+Misalkan $B$ adalah
+\definitionsverweis {cakram satuan tertutup}{}{}
+dan $K$ busur setengah lingkaran atas. Tunjukkan bahwa terdapat suatu
+\definitionsverweis {pemetaan diferensiabel}{}{}
+\maabbdisp {\varphi} { B } { K
+} {}
+yang
+\definitionsverweis {pembatasannya}{}{}
+pada
+\mathl{K}{} adalah
+\definitionsverweis {identitas}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{3}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ v,w
+}
+{ \in }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan
+\mathkor {} {\Vert { v } \Vert \leq 1} {dan} {\Vert { w } \Vert = 1} {.}
+Tunjukkan bahwa terdapat
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sedemikian sehingga
+
+\mavergleichskette
+{\vergleichskette
+{ \Vert {v+aw} \Vert
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Kita tinjau
+\definitionsverweis {manifold berbatas}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { B  \left(  0 , 1 \right) \setminus \{  \left(  1   , \,   0                   \right) \}
+}
+{ \subseteq} { \R^2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Tunjukkan bahwa terdapat suatu pemetaan bebas titik tetap
+\definitionsverweis {yang terdiferensialkan secara kontinu}{}{}
+\maabbdisp {\varphi} { M } { M
+} {}
+ada.
+
+}
+{} {}

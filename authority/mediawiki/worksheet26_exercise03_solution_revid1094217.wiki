@@ -1,0 +1,101 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Die horizontalen Schnitte sind dadurch gekennzeichnet, dass ihre vertikale Abbildung verschwindet. In der gegebenen Situation ist die vertikale Ableitung  gemäß
+{{
+Beispiellink
+|Beispielseitenname=
+Intervall/Riemannsche Struktur/Levi-Civita-Zusammenhang/Beispiel
+|Nr=
+|SZ=
+}}
+gleich
+{{
+Relationskette/display
+| \nabla_\partial (f)
+|| f' + f {{op:Bruch|g'| 2g}} 
+|| 
+|| 
+|SZ=.
+}}
+Dafür ist zunächst
+{{
+Relationskette
+| f
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+eine Lösung. Es sei nun
+{{
+Relationskette
+| f(t_0)
+|\neq| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+und dies gilt dann auch in einer offenen Umgebung von {{math|term= t_0 |SZ=.}} Darauf ist
+{{
+Relationskette/display
+|  {{op:Bruch|f'|f}} 
+|| {{op:Bruch|g'| 2g }} 
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Das Lösungsverfahren für lineare Differentialgleichungen führt auf
+{{
+Relationskette/display
+|  {{op:ln| {{op:Betrag| f |}} |}} 
+|| c+ {{op:Bruch| 1 | 2}} {{op:ln|  g  |}} 
+|| 
+|| 
+|| 
+|SZ=
+}}
+und somit auf
+{{
+Relationskette/display
+| {{op:Betrag| f ||}} 
+|| e^c e^{ {{op:Bruch| 1 | 2}} {{op:ln| g |}} }
+|| e^c  \sqrt{g}
+|| 
+|| 
+|SZ=
+}}
+bzw.
+{{
+Relationskette/display
+| f
+|| d \sqrt{g}
+|| 
+|| 
+|| 
+|SZ=
+}}
+{{
+Zusatz/Klammer
+|text=mit
+{{
+Relationskette
+| d
+| \in |  \R
+||
+||
+||
+|SZ=
+}} |
+|ISZ=|ESZ=,
+}}
+was man auch direkt überprüfen kann.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

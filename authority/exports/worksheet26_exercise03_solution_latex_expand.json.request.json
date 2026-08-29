@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 15:21:13 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Intervall/Riemannsche Struktur/Levi-Civita-Zusammenhang/Horizontale Schnitte/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 2119,
+  "response_path": "worksheet26_exercise03_solution_latex_expand.json",
+  "response_sha256": "491ecb4e1089c904663a15fd46cbe7076c84605e04da6c3fae9bdb98d33400c7",
+  "retrieved_utc": "2026-08-28T15:21:12Z",
+  "schema_version": 1
+}

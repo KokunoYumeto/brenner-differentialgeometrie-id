@@ -1,0 +1,187 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblattgestaltung|27|
+
+{{Zwischenüberschrift|Übungsaufgaben}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Längs Abbildung/Horizontaler Schnitt/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Längs Abbildung/Trivial/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Rückzug längs Weg/Explizit/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Kreis/Trigonometrische Parametrisierung/Zusammenhang in R^2/Horizontale Liftung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Hyperbolische Halbebene/Exponentialfunktion/Christoffelsymbole/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+Beachte in der folgenden Aufgabe, dass es nach
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Topologische Räume/Relatives Produkt/Hintereinanderschaltung/Aufgabe
+|Nr=
+|SZ=
+}}
+egal ist, ob man den Rückzug des Vektorbündels nach {{math|term= Y |SZ=}} direkt oder über {{math|term= Z |SZ=}} bestimmt.
+{{
+inputaufgabe
+|Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Rückzug/Funktorielle Eigenschaften/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Riemannsche Mannigfaltigkeit/Geodätische Kurve/Ableitung/Horizontaler Schnitt/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Offenes Intervall/Riemannsche Mannigfaltigkeit/Geodätische Kurve/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Hyperbolische Halbebene/Kurve/Tangentiale Beschleunigung/2/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Zusammenhängende riemannsche Mannigfaltigkeit/Punkte/Keine geodätische Kurve/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Zusammenhängende riemannsche Mannigfaltigkeit/Mehrere geodätische Kurven/Gleiche_Länge/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Zusammenhängende riemannsche Mannigfaltigkeit/Mehrere geodätische Kurven/Unterschiedliche_Länge/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Halbebene/Poincaré/Riemannsche Geometrie/Geodätische/Halbkreislösungen/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Ebene/Kreise/Mittelpunkte auf x-Achse/Schnittpunkt/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Halbebene von Poincaré/Punkt und Tangente/Geodätische Realisierung/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Riemannsche Mannigfaltigkeit/Isometrie/Zusammenhang/Geodätische Kurve/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{:Riemannsche Mannigfaltigkeit/Kurve/Paralleles Vektorfeld/Definition}}
+
+Für die folgende Aufgabe vergleiche
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Differenzierbare Hyperfläche/Zusammenhang/Kurve/Parallel und horizontal/Aufgabe
+|Nr=
+|SZ=.
+}}
+{{
+inputaufgabe
+|Hyperfläche/Riemannsche Mannigfaltigkeit/Kurve/Paralleles Vektorfeld/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Riemannsche Mannigfaltigkeit/Kurve/Geodätische Kurve und paralleles Vektorfeld/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Euklidischer Raum/Riemannsche Metrik/Euklidisch/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{Zwischenüberschrift|Aufgaben zum Abgeben}}
+
+{{
+inputaufgabe
+|R+/t^2/Riemannsche Mannigfaltigkeit/Geodätische Kurven/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Hyperbolische Halbebene/Kurve/Christoffelsymbole und tangentiale Beschleunigung/1/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Hyperbolische Kreisscheibe/Geodätische Kurven/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Euklidischer Raum/Ohne Punkte/Riemannsche Metrik/Euklidisch/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+}}

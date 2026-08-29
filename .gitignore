@@ -17,3 +17,33 @@ __pycache__/
 *.toc
 tmp/
 build/unit-01.pdf
+
+# Deterministic complete-release staging and disposable build products.
+/build/complete-stage/
+/build/complete-work/
+/build/$resolved/
+/build/pdf/
+/build/*-smoke.pdf
+/build/*-smoke.tex
+
+# Release assets are published from this local staging directory, not committed.
+/output/release-complete/
+/output/release-unit*/
+/output/release-unit*-source*/
+/output/release-unit*-source-receipt.json
+/output/figshare/
+/output/zenodo/
+
+# Superseded checkpoint readers remain preserved by their public releases/tags.
+/output/html/unit-10/
+/output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-*-id.pdf
+
+# Re-creatable visual diagnostics; durable QA receipts remain tracked.
+/qa/unit-16/rendered-pages/
+/qa/unit-16/contact-sheets/
+/qa/unit-16/*diagnostic*.png
+/qa/unit-16/page-231-after-first-reflow.png
+
+# One-off translation drafting/repair helpers are not release sources.
+/scripts/draft_translate_*.py
+/scripts/repair_unit24_draft.py

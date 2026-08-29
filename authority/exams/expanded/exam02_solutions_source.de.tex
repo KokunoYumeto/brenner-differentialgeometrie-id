@@ -1,0 +1,1895 @@
+%Daten zur Institution
+
+%\input{Dozentdaten}
+
+%\renewcommand{\fachbereich}{Fachbereich}
+
+%\renewcommand{\dozent}{Prof. Dr. . }
+
+%Klausurdaten
+
+\renewcommand{\klausurgebiet}{ }
+
+\renewcommand{\klausurtyp}{ }
+
+\renewcommand{\klausurdatum}{ . 20}
+
+\klausurvorspann {\fachbereich} {\klausurdatum} {\dozent} {\klausurgebiet} {\klausurtyp}
+
+%Daten für folgende Punktetabelle
+
+\renewcommand{\aeins}{  3  }
+
+\renewcommand{\azwei}{  3   }
+
+\renewcommand{\adrei}{  8  }
+
+\renewcommand{\avier}{  7  }
+
+\renewcommand{\afuenf}{  8  }
+
+\renewcommand{\asechs}{  3  }
+
+\renewcommand{\asieben}{  5  }
+
+\renewcommand{\aacht}{  5  }
+
+\renewcommand{\aneun}{  6  }
+
+\renewcommand{\azehn}{  4  }
+
+\renewcommand{\aelf}{  12  }
+
+\renewcommand{\azwoelf}{  64  }
+
+\renewcommand{\adreizehn}{     }
+
+\renewcommand{\avierzehn}{    }
+
+\renewcommand{\afuenfzehn}{    }
+
+\renewcommand{\asechzehn}{    }
+
+\renewcommand{\asiebzehn}{    }
+
+\renewcommand{\aachtzehn}{    }
+
+\renewcommand{\aneunzehn}{    }
+
+\renewcommand{\azwanzig}{    }
+
+\renewcommand{\aeinundzwanzig}{    }
+
+\renewcommand{\azweiundzwanzig}{    }
+
+\renewcommand{\adreiundzwanzig}{    }
+
+\renewcommand{\avierundzwanzig}{    }
+
+\renewcommand{\afuenfundzwanzig}{    }
+
+\renewcommand{\asechsundzwanzig}{    }
+
+\punktetabelleelf
+
+\klausurnote
+
+\newpage
+
+\setcounter{section}{0}
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Definiere die folgenden
+\zusatzklammer {kursiv gedruckten} {} {} Begriffe.
+\aufzaehlungsechs{Ein
+\stichwort {Normalenfeld} {}
+$N$ auf einer differenzierbaren Hyperfläche
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}{Ein
+\stichwort {überdeckungskompakter} {}
+topologischer Raum.
+
+}{Der
+\stichwort {Kotangentialraum} {}
+in einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{  P
+}
+{ \in }{ M
+}
+{  }{}
+{    }{}
+{   }{}
+}
+{}{}{}
+einer
+\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+$M$.
+
+}{Ein
+\stichwort {regulärer Punkt} {}
+
+\mathl{Q \in L}{} zu einer
+\definitionsverweis {differenzierbaren Abbildung}{}{}
+\maabbdisp {\varphi} { L } { M
+} {}
+zwischen
+\definitionsverweis {differenzierbaren Mannigfaltigkeiten}{}{}
+\mathkor {} {L} {und} {M} {.}
+
+}{Das
+\stichwort {Produkt} {}
+von differenzierbaren Mannigfaltigkeiten
+\mathkor {} {M} {und} {N} {.}
+
+}{Ein
+\stichwort {Zusammenhang} {}
+auf einem differenzierbaren Vektorbündel
+\maabb {} {E} {M
+} {}
+über einer differenzierbaren Mannigfaltigkeit $M$.
+}
+
+}
+{
+
+\aufzaehlungsechs{Ein
+Normalenfeld
+auf $Y$ ist ein auf einer offenen Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ U
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definiertes
+\definitionsverweis {stetiges}{}{}
+\definitionsverweis {Vektorfeld}{}{}
+\maabb {F} {U} {\R^n
+} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F(P)
+}
+{ \in} { N_PY
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Ein
+\definitionsverweis {topologischer Raum}{}{}
+$X$ heißt überdeckungskompakt, wenn es zu jeder offenen Überdeckung
+
+\mathdisp {X= \bigcup_{i \in I} U_i \, \, \, \text{ mit } U_i \text{ offen und einer beliebigen Indexmenge }} {  }
+
+eine endliche Teilmenge
+\mathl{J \subseteq I}{} derart gibt, dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ X
+}
+{ =} {\bigcup_{i \in J} U_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist.
+}{Unter dem Kotangentialraum an $P$ versteht man den
+\definitionsverweis {Dualraum}{}{}
+des
+\definitionsverweis {Tangentialraumes}{}{}
+
+\mathl{T_PM}{} an $P$.
+}{Der Punkt
+
+\mavergleichskette
+{\vergleichskette
+{  Q
+}
+{ \in }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+heißt regulär für $\varphi$, wenn die
+\definitionsverweis {Tangentialabbildung}{}{}
+\maabbdisp {T_Q(\varphi)} {T_QL} {T_{\varphi(Q)}M
+} {}
+im Punkt $Q$
+\definitionsverweis {maximalen Rang}{}{}
+besitzt.
+}{Es seien
+\mathkor {} {(U_i,U_i',\alpha_i, i \in I)} {und} {(V_j,V_j',\beta_j, j \in J)} {}
+die
+\definitionsverweis {Atlanten}{}{}
+von
+\mathkor {} {M} {und} {N} {.}
+Dann nennt man den
+\definitionsverweis {Produktraum}{}{}
+
+\mathl{M \times N}{} versehen mit den
+\definitionsverweis {Karten}{}{}
+\maabbdisp {\alpha_i \times \beta_j} {U_i \times V_j } { U_i' \times V_j'
+} {}
+\zusatzklammer {mit \mathlk{(i,j) \in I \times J}{} und \mathlk{U_i' \times V_j' \subseteq \R^m \times \R^n}{}} {} {}
+das Produkt der Mannigfaltigkeiten
+\mathkor {} {M} {und} {N} {.}
+}{Unter einem
+Zusammenhang
+auf $E$ versteht man eine direkte Summenzerlegung des
+\definitionsverweis {Tangentialbündels}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ TE
+}
+{ = }{ V \oplus H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in zwei Untervektorbündel
+\mathkor {} {V} {und} {H} {,}
+wobei
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ TE
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das
+\definitionsverweis {Vertikalbündel}{}{}
+ist.
+}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Formuliere die folgenden Sätze.
+\aufzaehlungdrei{Der
+\stichwort {Satz über die Beziehung zwischen Krümmung und Einheitsnormalenvektor einer bogenparametrisierten ebenen Kurve} {.}}{Das
+\stichwort {Theorema egregium} {.}}{Der
+\stichwort {Satz von Green} {}
+für den Flächeninhalt.}
+
+}
+{
+
+\aufzaehlungdrei{\faktsituation {Es sei
+\maabb {\gamma} { I } {\R^2
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare}{}{}
+\definitionsverweis {bogenparametrisierte}{}{}
+\definitionsverweis {Kurve}{}{.}}
+\faktfolgerung {Dann ist die
+\definitionsverweis {Krümmung}{}{}
+von $\gamma$ in $t$ gleich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \kappa(t)
+}
+{ =} { \left\langle  \gamma^{\prime \prime}(t)  ,  N(t )    \right\rangle
+}
+{ =} { \pm \Vert { \gamma^{\prime \prime}(t) } \Vert
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ N( t)
+}
+{ =} { \begin{pmatrix}  -\gamma_2'(t) \\ \gamma_1'(t)   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ein Einheitsnormalenvektor in $\gamma(t)$ ist.}
+\faktzusatz {}
+\faktzusatz {}}{\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {orientierte Fläche}{}{}
+und sei
+\maabbdisp {\varphi} { V } { Y
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+eine zweifach differenzierbare lokale Parametrisierung von $Y$ mit den Parametern $u,v$. Es sei
+\mathl{\left(  g_{ij}  \right)}{} die
+\definitionsverweis {erste Fundamentalmatrix}{}{}
+auf $V$.}
+\faktfolgerung {Dann gilt für die
+\definitionsverweis {Gaußsche Krümmung}{}{}
+unter Verwendung der
+\definitionsverweis {Christoffelsymbole}{}{}
+die Beziehung
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ K
+}
+{ =} { { \frac{   1  }{ g_{11}  } }  \left(  \partial_2 \Gamma_{11}^2 - \partial_1 \Gamma_{12}^2 + \Gamma^1_{11} \Gamma^2_{12}  + \Gamma_{11}^2 \Gamma_{22}^2 - \Gamma_{12}^1 \Gamma_{11}^2-  \left(  \Gamma_{12}^2  \right)^2  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}}{Es sei
+\mathl{M \subseteq \R^2}{} eine
+\definitionsverweis {kompakte}{}{}
+\definitionsverweis {Mannigfaltigkeit mit Rand}{}{}
+
+\mathl{\delta M}{.} Dann ist der Flächeninhalt von $M$ gleich
+
+\mavergleichskettedisp
+{\vergleichskette
+{  \lambda^2(M)
+}
+{ =} {
+\int_{ \partial M  }  x dy
+}
+{ =} { -
+\int_{ \partial M  }  y dx
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{8}
+
+{
+
+Es sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ f(x,y)
+}
+{ =} { ax^2+by^2+cxy
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Bestimme die
+\definitionsverweis {Hauptkrümmungen}{}{}
+und die
+\definitionsverweis {Hauptkrümmungsrichtungen}{}{}
+des
+\definitionsverweis {Graphen}{}{}
+zu $f$ im Nullpunkt.
+
+}
+{
+
+Wir verwenden
+[[Differenzierbare Funktion/Graph/Hyperfläche/Weingartenabbildung/Fakt|Lemma 4.9 (Differentialgeometrie (Osnabrück 2023))]],
+wobei im Nullpunkt der Vorfaktor gleich $1$ ist und somit die
+\definitionsverweis {Weingartenabbildung}{}{}
+direkt durch die
+\definitionsverweis {Hesse-Matrix}{}{}
+beschrieben wird. Die Hesse-Matrix der Funktion ist
+
+\mathdisp {\begin{pmatrix}  2a  &   c   \\ c &  2b \end{pmatrix}} { , }
+
+das
+\definitionsverweis {charakteristische Polynom}{}{}
+davon ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ (t-2a)(t-2b)-c^2
+}
+{ =} { t^2 -2(a+b)t +4ab -c^2
+}
+{ =} { \left(  t-(a+b)  \right)^2 - (a+b)^2 +4ab -c^2
+}
+{ =} { \left(  t-(a+b)  \right)^2  - a^2 -b^2 +2ab -c^2
+}
+{ =} { \left(  t-(a+b)  \right)^2  - (a-b)^2 -c^2
+}
+}
+{}
+{}{.}
+Die Eigenwerte
+\zusatzklammer {und dies sind die Hauptkrümmungen} {} {}
+sind also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \lambda_{1,2}
+}
+{ =} { \pm \sqrt{ (a-b)^2+c^2 } +a+b
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Bei
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ = }{ b
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist die Weingartenabbildung Multiplikation mit $2a$ und jeder Vektor ist ein Eigenvektor, sei dies jetzt ausgeschlossen. Für
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \lambda_{1}
+}
+{ =} { \sqrt{ (a-b)^2+c^2 } +a+b
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist der Kern der Matrix
+
+\mathdisp {\begin{pmatrix}  \sqrt{(a-b)^2 +c^2} + b-a  &   -c  \\  -c &  \sqrt{(a-b)^2 +c^2} + a-b \end{pmatrix}} {  }
+
+zu bestimmen, dieser ist
+
+\mathdisp {\R \begin{pmatrix}  \sqrt{(a-b)^2 +c^2} + a-b  \\c   \end{pmatrix}} { . }
+
+Eine Hauptkrümmungsrichtung ist also
+\mathl{\begin{pmatrix}  \sqrt{(a-b)^2 +c^2} + a-b  \\c   \end{pmatrix}}{} mit der Hauptkrümmung
+\mathl{\sqrt{ (a-b)^2+c^2 } +a+b}{.}
+
+Entsprechend ergibt sich die Hauptkrümmungsrichtung
+\mathl{\begin{pmatrix}  -c \\ \sqrt{(a-b)^2 +c^2} + a-b    \end{pmatrix}}{} mit der Hauptkrümmung
+\mathl{-\sqrt{ (a-b)^2+c^2 } +a+b}{.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{7}
+
+{
+
+Beweise den Existenzsatz für den Paralleltransport auf einer Hyperfläche
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+{
+
+Wir suchen nach einer differenzierbaren Abbildung
+\maabbdisp {F} { I } { \R^n
+} {,}
+das die Bedingungnen
+\aufzaehlungdrei{
+\mavergleichskettedisp
+{\vergleichskette
+{ F(t)
+}
+{ \in} { T_{\gamma(t)} Y
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+}{
+\mavergleichskettedisp
+{\vergleichskette
+{ F'(t)
+}
+{ \in} { N_{\gamma(t)} Y
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+}{
+\mavergleichskettedisp
+{\vergleichskette
+{ F (t_0)
+}
+{ =} { v
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+}
+erfüllt. Die erste Bedingung bedeutet, dass $F(t)$ senkrecht auf dem Normaleneinheitsvektors $N (\gamma(t))$ steht, also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle F( t) ,  N( \gamma(t))   \right\rangle
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Daher ist auch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 0
+}
+{ =} { \left\langle F(t)  ,  N( \gamma(t))   \right\rangle'
+}
+{ =} { \left\langle F'(t)  ,  N( \gamma(t))   \right\rangle +  \left\langle F(t)  ,  (N( \gamma(t)))'   \right\rangle
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Die zweite Bedingung, dass $F'(t)$ im Normalenraum liegt, bedeutet
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F'(t) - \left\langle F'( t) ,  N( \gamma(t))   \right\rangle N(\gamma(t) )
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+was wir mithilfe der vorstehenden Gleichung zu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F'(t) + \left\langle F( t) ,  (N( \gamma(t)))'   \right\rangle N(\gamma(t) )
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bzw. zu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F'(t)
+}
+{ =} { - \left\langle F( t) ,  (N( \gamma(t)))'   \right\rangle N(\gamma(t) )
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+umformen können. Hier steht eine gewöhnliche lineare Differentialgleichung erster Ordnung für $F$, die zusammen mit der Anfangsbedingung
+
+\mavergleichskette
+{\vergleichskette
+{ F(t_0)
+}
+{ = }{ v
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nach
+[[Picard Lindelöf/Lokal Lipschitz/Lokale Existenz und Eindeutigkeit/Fakt|Satz 56.2 (Analysis (Osnabrück 2021-2023))]]
+eine eindeutige Lösung besitzt. Es kann also höchstens eine Lösung der Ausgangsgleichung geben. Wenn $F$ die eindeutige Lösung der Differentialgleichung ist, so liegt in der Tat eine Lösung der Ausgangsgleichung vor.
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{8}
+
+{
+
+Zeige, dass eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+$M$ der Dimension
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ \geq }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+unendlich viele
+\definitionsverweis {Diffeomorphismen}{}{}
+\maabbdisp {\varphi} { M } { M
+} {}
+besitzt.
+
+}
+{
+
+Wir betrachten Funktionen der Bauart
+\maabbeledisp {\psi_c} {[0,1]} {[0,1]
+} { x } { x + \varphi_c (x)
+} {,}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{  \varphi_c(x)
+}
+{ =} { \begin{cases}  0 \text{ für } x \leq { \frac{   1  }{  3 } } \, , \\  c \left(  x- { \frac{   1  }{  3 } }   \right)^2 \left(  x- { \frac{   2 }{  3 } }   \right)^2 \text{ für } { \frac{   1  }{  3 } } < x < { \frac{   2 }{  3 } }  \, ,  \\  0 \text{ für } x \geq { \frac{   2 }{  3 } }  \, .  \end{cases}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit einem Parameter
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{  \R_{\geq 0}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dabei ist $\varphi_c$ stetig und auch stetig differenzierbar, da die Nullstellen des Polynoms doppelt sind. Somit ist auch $\psi_c$ stetig differenzierbar. Für $c$ hinreichend klein ist $\psi_c$ streng wachsend und definiert eine stetig differenzierbare bijektive Abbildung des Einheitsintervalls in sich, die im unteren und im oberen Drittel die Identität ist.
+
+Mit $\psi_c$ definieren wir Diffeomorphismen des offenen Einheitsballes in sich, durch
+\maabbeledisp {} { U \left(   0 , 1  \right) } { U \left(   0 , 1  \right)
+} { \begin{pmatrix}  x_1  \\\vdots \\  x_n   \end{pmatrix} } { \psi_c \left(  \sqrt{  x_1^2 + \cdots + x_n^2 }  \right) \begin{pmatrix}  x_1  \\\vdots \\  x_n   \end{pmatrix}
+} {.}
+Es wird also der Punkt abhängig vom Radius gestreckt, wobei auf
+\mathl{U \left(   0 , { \frac{   1  }{  3 } }   \right)}{} und auf
+\mathl{U \left(   0 , 1  \right) \setminus  U \left(   0 ,   { \frac{   2 }{  3 } }   \right)}{} die Identität vorliegt.
+
+Wenn nun $M$ eine Mannigfaltigkeit der Dimension $\geq 1$ ist, so wählen wir eine Karte
+\maabbdisp {\alpha} { U } {V
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{  \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei wir
+\zusatzklammer {durch verkleinern} {} {}
+davon ausgehen können, dass $V$
+\zusatzklammer {ein offener Ball und dann auch} {} {}
+der offene Einheitsball ist. Die konstruierten Diffeomorphismen auf $V$ liefern Diffeomorphismen auf $U$. Da diese für den äußeren Ball
+\zusatzklammer {ab Radius ${ \frac{   2 }{  3 } }$} {} {}
+die Identität sind, kann man diese Diffeomorphismen auf $M$ durch die Identität auf $M \setminus \alpha^{-1} \left(  U \left(   0 , { \frac{   2 }{  3 } }   \right)  \right)$ diffeomorph ausdehnen.
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und
+\maabbdisp {f} { M } {\R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{.}
+Die Funktion habe im Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {lokales Extremum}{}{.}
+Zeige
+
+\mavergleichskettedisp
+{\vergleichskette
+{ (df)_P
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{  U
+}
+{ \subseteq }{ M
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {Kartengebiet}{}{}
+mit der Karte
+\maabb {\alpha} { U } {V \subseteq \R^n
+} {.}
+Dann besitzt auch
+\mathl{f \circ \alpha^{-1}}{} im Punkt $\alpha(P)$ ein lokales Extremum.
+Daher ist nach
+[[Lokales Extremum/Richtungsableitung/Totales Differential/Fakt|Fakt]] [[Kurs:Differentialgeometrie/Lokales Extremum/Richtungsableitung/Totales Differential/Fakt/Faktreferenznummer|*****]]  (2)
+das
+\definitionsverweis {totale Differential}{}{}
+\maabbdisp {\left(D f \circ \alpha^{-1} \right)_{\alpha(P) }} {\R^n } {\R
+} {}
+die Nullabbildung. Daher ist
+
+\mavergleichskette
+{\vergleichskette
+{ (df)_P
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{5}
+
+{
+
+Wir betrachten die
+$1$-\definitionsverweis {Differentialform}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { -vdu+udv
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf der
+$1$-\definitionsverweis {Sphäre}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ S^1
+}
+{ \subset }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei die Koordinaten des umgebenden $\R^2$ mit
+\mathkor {} {u} {und} {v} {}
+bezeichnet seien. Bestimme
+\mathl{\pi^* \omega}{} unter der
+\definitionsverweis {stetig differenzierbaren}{}{}
+Abbildung
+\maabbeledisp {\pi} {\R^2 \setminus \{0\}} { S^{1}
+} {(x , y) } { { \frac{   1  }{  \sqrt{x^2 + y^2}  } } (x , y)
+} {.}
+
+}
+{
+
+Es ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \pi^*du
+}
+{ =} { d (u \circ \pi)
+}
+{ =} { d   \left(  { \frac{   x  }{  \sqrt{x^2 + y^2}  } }  \right)
+}
+{ =} { { \frac{   \partial   \left(  { \frac{   x  }{  \sqrt{x^2 + y^2}  } }  \right)    }{  \partial   x  } }   dx + { \frac{   \partial   \left(  { \frac{   x  }{  \sqrt{x^2 + y^2}  } }  \right)    }{  \partial   y  } } dy
+}
+{ =} { { \frac{   \sqrt{x^2+y^2}     -x^2 (x^2 + y^2)^{-1/2}  }{  x^2+y^2  } }  dx   - { \frac{   xy }{  \sqrt{x^2+y^2}^3  } }  dy
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { { \frac{   x^2+y^2 -x^2    }{  \sqrt{ x^2+y^2}^3  } }  dx  - { \frac{   xy }{  \sqrt{x^2+y^2}^3  } }  dy
+}
+{ =} { { \frac{   y^2  }{  \sqrt{ x^2+y^2}^3  } }  dx  - { \frac{   xy }{  \sqrt{x^2+y^2}^3  } }  dy
+}
+{ } {}
+{ } {}
+}
+{}{}
+und
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \pi^*dv
+}
+{ =} { d (v \circ \pi)
+}
+{ =} { d \left(  { \frac{   y  }{  \sqrt{x^2 + y^2}  } }  \right)
+}
+{ =} { { \frac{   \partial   \left(  { \frac{   y  }{  \sqrt{x^2 + y^2}  } }  \right)   }{  \partial   x  } } dx + { \frac{   \partial   \left(  { \frac{   y  }{  \sqrt{x^2 + y^2}  } }  \right)    }{  \partial   y  } } dy
+}
+{ =} { { \frac{   -xy }{  \sqrt{x^2+y^2}^3  } } dx + { \frac{   \sqrt{x^2+y^2} -y^2 (x^2 + y^2)^{-1/2}  }{  x^2+y^2  } } dy
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { { \frac{   -xy }{  \sqrt{x^2+y^2}^3  } } dx + { \frac{   x^2  }{  \sqrt{x^2+y^2}^3  } }  dy
+}
+{ } {
+}
+{ } {}
+{ } {}
+}
+{}{.}
+Somit ist
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \pi^*(-vdu+udv)
+}
+{ =} { - (v \circ \pi)  \pi^*du + (u \circ \pi) \pi^*dv
+}
+{ =} { - { \frac{   y  }{  \sqrt{x^2+y^2}  } } \left(  { \frac{   y^2  }{  \sqrt{ x^2+y^2}^3  } }  dx  - { \frac{   xy }{  \sqrt{x^2+y^2}^3  } }  dy   \right) + { \frac{   x  }{  \sqrt{x^2+y^2}  } }  \left(  { \frac{   -xy }{  \sqrt{x^2+y^2}^3  } } dx + { \frac{   x^2  }{  \sqrt{x^2+y^2}^3  } } dy  \right)
+}
+{ =} { { \frac{   1 }{  \left(  x^2+y^2  \right)^2 } }  \left(  \left(  -y^3-x^2y  \right) dx + \left(  xy^2+x^3  \right) dy \right)
+}
+{ =} { { \frac{   1 }{  x^2+y^2  } }  \left(  -  y dx + x dy \right)
+}
+}
+{}{}{.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{5}
+
+{
+
+Beweise den Satz über die Berechnung des kanonischen Volumens auf einer riemannschen Mannigfaltigkeit $M$.
+
+}
+{
+
+Gemäß der
+[[Mannigfaltigkeit/Abzählbar/Positive Volumenform/Zugehöriges Maß/Definition|Definition  .]]
+müssen wir die Differentialform
+\mathl{\left(  \alpha^{-1}  \right)^*\omega}{} für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berechnen. Diese Form besitzt die Gestalt
+\mathl{c_Q dx_1 \wedge \ldots \wedge dx_n}{} und ist durch ihren Wert auf
+\mathl{e_1 \wedge \ldots \wedge e_n}{} festgelegt. Es ist
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \left(  \alpha^{-1}  \right)^*\omega \left(  Q,  e_1 \wedge \ldots \wedge e_n  \right)
+}
+{ =} { \omega \left(  \alpha^{-1} (Q) ,T_Q \left(  \alpha^{-1}  \right)(e_1) \wedge \ldots \wedge T_Q \left(  \alpha^{-1}  \right)( e_n)  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Nach Definition der metrischen Fundamentalmatrix ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g_{ij}(Q)
+}
+{ =} { \left\langle  T_Q \left(  \alpha^{-1}  \right) (e_i)   ,  T_Q \left(  \alpha^{-1}  \right) (e_j)   \right\rangle_{\alpha^{-1}(Q)}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Nach
+[[Euklidischer Vektorraum/Volumen eines Parallelotops/Über Skalarproduktmatrix/Fakt|Satz 7.8 (Maß- und Integrationstheorie (Osnabrück 2022-2023))]]
+ist
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \omega \left(  \alpha^{-1}(Q), T_Q \left(  \alpha^{-1}  \right) (e_1) \wedge \ldots \wedge T_Q \left(  \alpha^{-1}  \right) ( e_n)  \right)
+}
+{ =} { \left(  \det  \left(  \left\langle T_Q \left(  \alpha^{-1}  \right)  (e_i)  ,  T_Q \left(  \alpha^{-1}  \right) (e_j)   \right\rangle  \right)_{1 \leq i,j \leq n}  \right)^{1/2}
+}
+{ =} { \left(  \det  \left(  g_{ij}(Q)   \right)_{1 \leq i,j \leq n}  \right)^{1/2}
+}
+{ =} { \sqrt{g(Q)}
+}
+{ } {
+}
+}
+{}{}{.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{6 (1+1+3+1)}
+
+{
+
+Begründe, dass der $\R^2$ keine Struktur einer
+\definitionsverweis {Mannigfaltigkeit mit Rand}{}{}
+derart trägt, dass die angegebene Teilmenge $T$ der
+\definitionsverweis {Rand}{}{}
+ist.
+\aufzaehlungvierabc{
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ = }{ {]0,1[}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei das Intervall auf der $x$-Achse liegt.
+}{
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ = }{ [0,1]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei das Intervall auf der $x$-Achse liegt.
+}{
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ = }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $\R$ die $x$-Achse sei.
+}{
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ = }{ S^1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}
+
+}
+{
+
+a) Der Rand
+\mathl{\partial M}{} einer Mannigfaltigkeit mit Rand ist nach
+[[Mannigfaltigkeit mit Rand/Rand/Elementare Eigenschaften/Fakt|Lemma 21.3 (Differentialgeometrie (Osnabrück 2023))  (2)]]
+\definitionsverweis {abgeschlossen}{}{,}
+das offene Intervall als Teilmenge des $\R^2$ ist aber nicht abgeschlossen.
+
+b) Der Rand
+\mathl{\partial M}{} einer Mannigfaltigkeit mit Rand ist nach
+[[Mannigfaltigkeit mit Rand/Rand ist Mannigfaltigkeit/Fakt|Satz 21.4 (Differentialgeometrie (Osnabrück 2023))]]
+eine Mannigfaltigkeit ohne Rand, das abgeschlossene Intervall besitzt aber Randpunkte.
+
+c) Es sei angenommen, dass $\R^2$ eine Mannigfaltigkeit mit dem Rand
+\mathl{\R = \R \times \{0\}}{} ist. Zu
+\mathl{P \in \R}{} gibt es dann eine offene Umgebung
+\mathl{P\in U}{} und eine Homöomorphie
+\maabbdisp {\alpha} { U } {V
+} {}
+mit einer offenen Menge $V \subseteq H$, wobei $H$ eine Halbebene bezeichnet. Dabei können wir $V$ durch eine kleinere offene Halbballumgebung um $P$ ersetzen. Bei einer solchen Karte werden nach
+[[Mannigfaltigkeit mit Rand/Rand/Elementare Eigenschaften/Fakt|Lemma 21.3 (Differentialgeometrie (Osnabrück 2023))  (2)]]
+Randpunkte auf Randpunkte abgebildet, d.h. es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{\alpha ( U \cap \R  )
+}
+{ =} { V \cap \delta H
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Damit erhält man auch eine Homöomorphie zwischen den Komplementen, also zwischen
+\mathkor {} {U \setminus U \cap \R} {und} {V \setminus V \cap \delta H} {.}
+Die Halbballumgebung rechts ist aber
+\definitionsverweis {wegzusammenhängend}{}{,}
+wohingegen die Menge links die disjunkte Vereinigung der Schnitte mit der positiven bzw. der negativen Hälfte ist, die beide offen und auch nicht leer sind, da $U$ eine Ballumgebung von $P$ enthält. Daher ist die Menge links nicht zusammenhängend und es kann keine Homöomorphie geben.
+
+d) wie c).
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{4}
+
+{
+
+Es sei $\omega$ eine stetig differenzierbare
+$n-1$-\definitionsverweis {Differentialform}{}{}
+auf einer
+\definitionsverweis {offenen Menge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und sei die
+\definitionsverweis {äußere Ableitung}{}{}
+gleich
+
+\mavergleichskettedisp
+{\vergleichskette
+{d \omega
+}
+{ =} { fdx_1 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit einer Funktion
+\maabb {f} { U } {\R
+} {.}
+Zeige für
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Gleichheit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ f(P)
+}
+{ =} { { \frac{   1  }{  \beta_n  } } \cdot \operatorname{lim}_{   \epsilon \rightarrow  0  } \, { \frac{   1  }{  \epsilon^n } } \int_{S^{n-1}(P, \epsilon)} \omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei $\beta_n$ das
+[[Allgemeines Kugelvolumen/Mit Cavalieri-Prinzip/Beispiel|Volumen]]
+der $n$-dimensionalen Einheitskugel bezeichnet.
+
+}
+{
+
+Wir wenden
+den [[Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt|Satz von Stokes]]
+auf die Kugeln
+\mathl{B^n(P, \epsilon)}{} mit dem Rand
+\mathl{S^{n-1}(P, \epsilon)}{}
+\zusatzklammer {mit Mittelpunkt $P$ und Radius $\epsilon$} {} {} an und erhalten
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \operatorname{lim}_{   \epsilon \rightarrow  0  } \, { \frac{   1 }{  \epsilon^n } }     \int_{S^{n-1}(P, \epsilon)} \omega
+}
+{ =} { \operatorname{lim}_{   \epsilon \rightarrow  0  } \, { \frac{   1 }{  \epsilon^n } }     \int_{ \partial B^{n}(P, \epsilon)}   \omega
+}
+{ =} { \operatorname{lim}_{   \epsilon \rightarrow  0  } \, { \frac{   1 }{  \epsilon^n } }     \int_{B^{n}(P, \epsilon)} d \omega
+}
+{ =} { \operatorname{lim}_{   \epsilon \rightarrow  0  } \, { \frac{   1 }{  \epsilon^n } }     \int_{B^{n}(P, \epsilon)} f d \lambda^n
+}
+{ =} {\beta_n \cdot f(P)
+}
+}
+{}
+{}{,}
+wobei wir für das letzte Gleichheitszeichen die Stetigkeit von $f$ benutzt haben.
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{12}
+
+{
+
+Beweise den Satz von Stokes für Mannigfaltigkeiten mit Rand.
+
+}
+{
+
+\teilbeweis {}{}{}
+{Es sei
+
+\mathbed {U_i} {}
+ {i \in I} {}
+ {} {} {} {,}
+eine
+\definitionsverweis {offene Überdeckung}{}{}
+von $M$ mit
+\definitionsverweis {orientierten Karten}{}{}
+und es sei
+
+\mathbed {h_j} {}
+ {j \in J} {}
+ {} {} {} {,}
+eine dieser
+\definitionsverweis {Überdeckung untergeordnete stetig differenzierbare Partition der Eins}{}{,}
+die nach
+[[Mannigfaltigkeit/Abzählbare Basis/Überdeckung/Partition/Fakt|Satz 22.10 (Differentialgeometrie (Osnabrück 2023))]]
+existiert. Zu jedem
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt es eine offene Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ V_P
+}
+{ \subseteq }{ M
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+derart, dass
+
+\mavergleichskette
+{\vergleichskette
+{ h_j \vert_{V_P }
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bis auf endlich viele Ausnahmen ist. Es sei $Y$ der Träger von $\omega$. Die Überdeckung
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \bigcup_{P \in M} V_P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+besitzt wegen der vorausgesetzten
+\definitionsverweis {Kompaktheit}{}{}
+eine endliche Teilüberdeckung, sagen wir
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ \subseteq} { V_{1} \cup \ldots \cup V_{r}
+}
+{ =} { V
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Daher sind überhaupt nur endlich viele der $h_j$ auf $V$ von $0$ verschieden. Wir setzen
+
+\mavergleichskette
+{\vergleichskette
+{ \omega_j
+}
+{ = }{ h_j \omega
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{;}
+diese Differentialformen sind ebenfalls stetig differenzierbar. Der Träger von $h_j$ ist eine in $M$
+\definitionsverweis {abgeschlossene Teilmenge}{}{,}
+die in
+\mathl{U_{i(j)}}{} liegt, daher liegt der Träger von $\omega_j$ in
+\mathl{Y \cap U_{i(j)}}{} und ist selbst kompakt nach
+[[Kompakter Raum/Abgeschlossene Teilmenge/Kompakt/Fakt/Beweis/Aufgabe|Aufgabe 13.10 (Differentialgeometrie (Osnabrück 2023))]].
+Es gilt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { \sum_{j \in J} \omega_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei nur endlich viele dieser Differentialformen
+\mathl{\omega_j}{} von $0$ verschieden sind, da
+
+\mavergleichskette
+{\vergleichskette
+{ \omega_j \vert_{M \setminus Y}
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle $j$ ist und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega_j \vert_V
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle $j$ bis auf endlich viele Ausnahmen. Wegen der
+[[Volumenform/Integration/Eigenschaften/Fakt|Additivität des Integrals von Differentialformen]]
+und der
+[[Differentialform/Mannigfaltigkeit/Äußere Ableitung/Eigenschaften/Fakt|Additivität der äußeren Ableitung]]
+kann man die Aussage für die einzelnen $\omega_j$ getrennt beweisen. Wir können also annehmen, dass eine stetig differenzierbare $(n-1)$-Differentialform gegeben ist, die kompakten Träger besitzt, der ganz in einer Kartenumgebung $U$ liegt.}
+{}
+\teilbeweis {}{}{}
+{Es liegt ein
+\definitionsverweis {Diffeomorphismus}{}{}
+\maabb {\alpha} { U } { V
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen vor, der zugleich einen Diffeomorphismus zwischen den Rändern
+
+\mavergleichskette
+{\vergleichskette
+{ \partial U
+}
+{ = }{ \partial M \cap U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \partial V
+}
+{ = }{ \partial H \cap V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+induziert. Dabei gilt
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{  \partial U  }   \omega
+}
+{ =} {
+\int_{  \partial V  }  \alpha^{-1 *}\omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ U  }  d \omega
+}
+{ =} {
+\int_{ V  }  \alpha^{-1 *} (  d \omega)
+}
+{ =} {
+\int_{  V  }  d \left(  \alpha^{-1 *}\omega  \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+nach
+[[Differentialform/Offene Menge/Äußere Ableitung/Eigenschaften/Fakt|Lemma 20.2 (Differentialgeometrie (Osnabrück 2023))  (5)]].}
+{\leerzeichen{}Wir können also von einer auf
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definierten stetig differenzierbaren Differentialform mit kompaktem Träger ausgehen, die wir auf ganz $H$ außerhalb des Trägers als Nullform fortsetzen können.}
+\teilbeweis {}{}{}
+{Wegen der Kompaktheit des Trägers gibt es einen hinreichend großen Quader
+
+\mavergleichskette
+{\vergleichskette
+{ Q
+}
+{ \subseteq }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dessen eine Seite $S$ auf $\partial H$ liegt und der den Träger von $\omega$ nur in $S$ trifft. Auf allen anderen Seiten von $Q$ ist $\omega$
+\zusatzklammer {und damit auch $d\omega$} {} {}
+die Nullform. Daher gilt einerseits
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ H  }  d\omega
+}
+{ =} {
+\int_{ Q  }  d\omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und andererseits
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{  \partial H  }   \omega
+}
+{ =} {
+\int_{  S  }   \omega
+}
+{ =} {
+\int_{  \partial Q  }   \omega
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Somit folgt die Aussage
+aus der [[Satz von Stokes/Quaderversion/Fakt|Quaderversion des Satzes von Stokes]].}
+{}
+
+ }
+ [[Kategorie:Latexseite]]

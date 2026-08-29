@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "input": "source/units/unit-02/lecture02.id.tex",
-  "input_bytes": 22694,
-  "input_sha256": "3dec5f7c1ec47b2ea965481f78db8334ab4046b001c53dd58bde0b9d0bb4cc49",
+  "input_bytes": 22714,
+  "input_sha256": "d0226246f26aa13dd94f5e42e62827e64109fda1d80dfd3741a1be6bcb8b439a",
   "output": "build/generated/lecture02.id.build.tex",
-  "output_bytes": 22207,
-  "output_sha256": "f74d67449a3bd06081fed332a8f1864c0005b1befefde6d6930b04d05233c5d5",
+  "output_bytes": 22227,
+  "output_sha256": "64f97a6aad239ead128a742393e1dda49ee850018013cfc7d783ef9ffed5418b",
   "removed_category_links": 1,
   "removed_noedit_markers": 6,
   "trimmed_media_arguments": 0,
@@ -13,6 +13,7 @@
     "operatorname_kern_to_ker": 0,
     "operatorname_bild_to_im": 0
   },
+  "layout_reflows": [],
   "rendered_internal_links": [
     {
       "target": "Differenzierbare Kurve/Bogenparametrisiert/Zweite Ableitung/Senkrecht/Aufgabe",
@@ -38,5 +39,6 @@
       "target": "Hyperfläche/Glatt und kompakt/Jede Hyperebene als Tangentialraum/Fakt",
       "label": "Teorema 2.10"
     }
-  ]
+  ],
+  "rendered_interactive_gif_links": []
 }

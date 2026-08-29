@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 15:20:40 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Global integrabel/Globale Trivialisierung des Zusammenhangs/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 1232,
+  "response_path": "worksheet25_exercise07_solution_latex_expand.json",
+  "response_sha256": "55a2c05a67d3ee39b443746394c5e162c9035e48ada7cb807108d403f0664ed1",
+  "retrieved_utc": "2026-08-28T15:20:39Z",
+  "schema_version": 1
+}

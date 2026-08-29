@@ -1,0 +1,131 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblattgestaltung|26|
+
+{{Zwischenüberschrift|Übungsaufgaben}}
+
+{{
+inputaufgabe
+|Offene Menge/R^n/Induzierte riemannsche Struktur/Levi-Civita-Zusammenhang/Vertikale Ableitung/Berechnung/1/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Intervall/Riemannsche Struktur/Levi-Civita-Zusammenhang/Vertikale Ableitung/Berechnung/1/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Intervall/Riemannsche Struktur/Levi-Civita-Zusammenhang/Horizontale Schnitte/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Tangentialbündel trivial/Triviale riemannsche Struktur/Levi-Civita-Zusammenhang/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Poincaresche Halbebene/Vertikale Ableitung/Berechnung/1/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Tangentialbündel/Linearer Zusammenhang/Torsionsfrei/Basisschnitte/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Intervall/Tangentialbündel/Linearer Zusammenhang/Torsionsfrei/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|R^n/Offene Menge/Riemannsche Struktur/Zusammenhang aus Christoffel-Symbole/Koszul-Eigenschaft/Allgemein/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Riemannsche Mannigfaltigkeit/Linearer Zusammenhang/Metrisch auf Basisfeldern/Metrisch/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+Das Konzept eines metrischen Zusammenhangs gibt es nicht nur auf dem Tangentialbündel einer riemannschen Mannigfaltigkeit, sondern allgemeiner auf einem riemannschen Vektorbündel.
+
+{{:Differenzierbare Mannigfaltigkeit/Riemannsches Vektorbündel/Linearer Zusammenhang/Metrisch/Definition|opt=Text}} 
+ 
+{{
+inputaufgabe
+|Offenes Intervall/Triviales Bündel/Metrischer Zusammenhang/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Mannigfaltigkeit/Riemannsches Vektorbündel/Linearer Zusammenhang/Metrisch auf Basisfeldern/Metrisch/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+Für die folgende Aufgabe vergleiche 
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Eingebettete Mannigfaltigkeit/Inverse Karte/Tangentialbündel/Partielle Ableitung/Aufgabe
+|Nr=
+|SZ=
+}}
+{{
+inputaufgabe
+|Eingebettete Mannigfaltigkeit/Inverse Karte/Zweites Tangentialbündel/Partielle Ableitungen/Aufgabe||
+|zusatz=
+|tipp=
+}}
+
+{{Zwischenüberschrift|Aufgaben zum Abgeben}}
+
+{{
+inputaufgabe
+|Intervall/Riemannsche Struktur/Levi-Civita-Zusammenhang/Vertikale Ableitung/Berechnung/2/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Halbebene/Poincaré/Riemannsche Geometrie/Christoffelsymbole/Berechnung/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Poincaresche Halbebene/Vertikale Ableitung/Berechnung/2/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+{{
+inputaufgabe
+|Offene Menge/Linearer Zusammenhang/Torsionsfrei/Unabhängige Christoffelsymbole/Aufgabe|p|
+|zusatz=
+|tipp=
+}}
+
+}}

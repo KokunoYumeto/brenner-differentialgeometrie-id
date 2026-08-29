@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scope": "O011 Brenner Unit 25 exact media closure and TeX print derivatives",
+  "unit_number": 25,
+  "heading_level": "section",
+  "media_config": "source/unit_media.json",
+  "media_config_sha256": "c8d63a3113f148134d3305b07fd998e27a981b2006c90ca679545f739a599c22",
+  "manifest": "authority/brenner_media_rights_manifest.csv",
+  "manifest_sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57",
+  "image_engine": "not required (verified zero-asset unit)",
+  "source_count": 0,
+  "derivative_count": 0,
+  "attribution_tex": {
+    "path": "build/generated/unit25-media-attribution-complete.tex",
+    "bytes": 212,
+    "sha256": "b1d56967d8fa489e09e27efe1d8f987122cce4a2aeb4b684307f07961e76cfd1"
+  },
+  "media": []
+}

@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://commons.wikimedia.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 14:57:02 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "iiprop": "timestamp|user|url|size|sha1|mime|extmetadata",
+    "prop": "info|imageinfo",
+    "titles": "File:SS-stokes.jpg|File:Théorème-de-Brouwer-(cond-2).jpg|File:Théorème-de-Brouwer-(cond-1).jpg"
+  },
+  "response_bytes": 6636,
+  "response_path": "unit23_media_imageinfo_current.json",
+  "response_sha256": "8d61fe7637d7ebd925f503b54bc24884b69681c6f6eaacd288190ff36a5a4c20",
+  "retrieved_utc": "2026-08-28T14:57:03Z",
+  "schema_version": 1
+}

@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 17:25:02 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Kurs:Differentialgeometrie/9/Klausur/latex"
+  },
+  "response_bytes": 13225,
+  "response_path": "exam09_learner_expandtemplates.json",
+  "response_sha256": "970a30e9daf1caf9ed7ce3a8e48538b2c2fcd7b6f9134703bb14073f2d129840",
+  "retrieved_utc": "2026-08-28T17:25:02Z",
+  "schema_version": 1
+}

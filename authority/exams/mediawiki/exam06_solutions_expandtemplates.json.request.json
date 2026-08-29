@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 17:24:35 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Kurs:Differentialgeometrie/6/Klausur mit Lösungen/latex"
+  },
+  "response_bytes": 39430,
+  "response_path": "exam06_solutions_expandtemplates.json",
+  "response_sha256": "69be9f18a13bd30d18cf006bcc0f85aec2aac28d58bf66eb5a705eac0826f45a",
+  "retrieved_utc": "2026-08-28T17:24:35Z",
+  "schema_version": 1
+}

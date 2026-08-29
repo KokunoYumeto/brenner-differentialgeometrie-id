@@ -1,0 +1,93 @@
+Die Abbildung
+\maabbdisp {u} { I } {\R^n
+} {}
+wird bezüglich der Basischnitte
+\mathl{e_1 , \ldots , e_n}{} durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ u
+}
+{ =} { u_1e_1 + \cdots + u_ne_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+beschrieben. Die
+\definitionsverweis {vertikale Ableitung}{}{}
+des Zusammenhangs dieses Schnittes in Richtung der einzigen Ableitungsrichtung $\partial$ ist nach
+[[Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt|Fakt]]
+gleich
+
+\mavergleichskettedisp
+{\vergleichskette
+{  \sum_{k = 1}^n \left(    \partial u_k  +  \sum_{j = 1}^n u_j \Gamma_{j}^k  \right) e_k
+}
+{ =} { \sum_{k = 1}^n \left(   u_k'  +  \sum_{j = 1}^n u_j \Gamma_{j}^k  \right) e_k
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dabei ist $u$ nach
+[[Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontaler Schnitt/Vertikale Ableitung/Fakt|Fakt]]
+genau dann ein horizontaler Schnitt, wenn die vertikale Ableitung gleich $0$ ist, und dies bedeutet für die einzelnen Komponenten, dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ u_k' + \sum_{j = 1}^n \Gamma_j^k u_j
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle $k$ gelten muss. Dies ist äquivalent zu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ u_k'
+}
+{ =} { \sum_{j = 1}^n a_{kj} u_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle $k$, was gerade bedeutet, dass $u$ das Matrixsystem
+
+\mavergleichskettedisp
+{\vergleichskette
+{ u'
+}
+{ =} { \left(  a_{kj}    \right) u
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+erfüllt, also eine Lösung des linearen Differentialgleichungssystems ist.
+
+ [[Kategorie:Latexseite]]

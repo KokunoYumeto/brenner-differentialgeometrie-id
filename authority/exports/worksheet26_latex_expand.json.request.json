@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 15:21:12 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 26/latex"
+  },
+  "response_bytes": 15207,
+  "response_path": "worksheet26_latex_expand.json",
+  "response_sha256": "05956b993a3d6c08263795d4b40eac50dd8281f68ed016a600683c9f9b945a5d",
+  "retrieved_utc": "2026-08-28T15:21:11Z",
+  "schema_version": 1
+}

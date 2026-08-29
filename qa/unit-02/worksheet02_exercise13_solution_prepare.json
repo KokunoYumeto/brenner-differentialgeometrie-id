@@ -13,10 +13,12 @@
     "operatorname_kern_to_ker": 0,
     "operatorname_bild_to_im": 0
   },
+  "layout_reflows": [],
   "rendered_internal_links": [
     {
       "target": "Hyperfläche/Glatt und kompakt/Gauß-Abbildung surjektiv/Fakt",
       "label": "Teorema 2.11"
     }
-  ]
+  ],
+  "rendered_interactive_gif_links": []
 }

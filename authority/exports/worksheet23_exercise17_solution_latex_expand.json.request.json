@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 14:55:44 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "R^n/n-1-Form/Ableitung/Infinitesimale Bälle/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 1255,
+  "response_path": "worksheet23_exercise17_solution_latex_expand.json",
+  "response_sha256": "8b306492ae2eaf50a9e4a3b9d5ba17b89758d16e3ee473f092e5d0a080d7ad30",
+  "retrieved_utc": "2026-08-28T14:55:44Z",
+  "schema_version": 1
+}

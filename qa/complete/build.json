@@ -1,0 +1,4142 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-complete-reader-pdf-build-v1",
+  "engine": "MiKTeX-pdfTeX 4.27 (MiKTeX 26.5)",
+  "command": "pdflatex -interaction=nonstopmode -halt-on-error -file-line-error -recorder -output-directory=<task-local build/complete-work> -jobname=complete-reader generated/complete-reader-driver.tex from build/complete-stage/build (three passes per clean cycle; two clean cycles)",
+  "deterministic_clean_cycles": true,
+  "exact_unit22_public_prefix": {
+    "driver": {
+      "path": "build/generated/through-unit-22-driver.tex",
+      "bytes": 17431,
+      "sha256": "7d04f2c5906c1ddf5e82a0e80dcaafa7a7d62f99f915f3b8643e5be1d8181716"
+    },
+    "pdf": {
+      "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-22-id.pdf",
+      "bytes": 9046717,
+      "sha256": "4e6c03dc8388a4c10c464d939d5a416ab035c52e3bd233212c78a40617e02cf7"
+    },
+    "build_receipt": {
+      "path": "qa/unit-22/build.json",
+      "bytes": 233556,
+      "sha256": "68aacdf979f81c432a62dd9cebf2d4bab8e017cc03cde60d60532aaa99e6312d"
+    },
+    "structural_qa": {
+      "path": "qa/unit-22/pdf_structural_qa.json",
+      "bytes": 478620,
+      "sha256": "f5e9ae47e09bd6759b32b5ae14d623f25c0fbb5feb51f1d21d42559291915159"
+    }
+  },
+  "driver_derivation": {
+    "schema_version": 1,
+    "workflow": "o011-complete-reader-driver-derivation-v1",
+    "frozen_input": {
+      "path": "build/generated/through-unit-22-driver.tex",
+      "bytes": 17431,
+      "sha256": "7d04f2c5906c1ddf5e82a0e80dcaafa7a7d62f99f915f3b8643e5be1d8181716"
+    },
+    "preserved_prefix": {
+      "boundary": "all frozen driver bytes before the unique backmatter command",
+      "bytes": 15993,
+      "sha256": "97ce1a21fd0d4b152083fd3b0c63bf92a493adf88a1a60d51763440ca7e09fd7",
+      "byte_identical": true
+    },
+    "output": {
+      "path": "build/generated/complete-reader-driver.tex",
+      "identity": {
+        "bytes": 29827,
+        "sha256": "1013e95c5ef34de8b47710c7175f323770a7225a3de1cf4fb11a1be1a394f019"
+      }
+    },
+    "geometry": {
+      "paper": "A4",
+      "margin": "22mm",
+      "centered": true,
+      "class_option": "oneside"
+    },
+    "unit_extension": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "source_supplied_core_solutions": {
+      "23": [
+        6,
+        13,
+        16,
+        17
+      ],
+      "24": [],
+      "25": [
+        1,
+        7,
+        8,
+        11,
+        12,
+        14
+      ],
+      "26": [
+        3,
+        6,
+        9
+      ],
+      "27": [
+        4,
+        5,
+        9,
+        13
+      ],
+      "28": [
+        2,
+        5
+      ],
+      "29": [
+        2
+      ]
+    },
+    "ordered_surfaces": [
+      "units-23-through-29",
+      "original-lie-bridge",
+      "original-de-rham-bridge",
+      "ten-learner-exam-forms",
+      "ten-official-solution-forms",
+      "six-separately-labelled-original-repairs"
+    ]
+  },
+  "official_exam_solution_gates": [
+    {
+      "exam": 1,
+      "source": {
+        "path": "source/exams/exam-01/exam01_solutions.id.tex",
+        "identity": {
+          "bytes": 32215,
+          "sha256": "57249c1c3f744dcfa2b6c717f967e08df4a72eed5513c5051a22a428d58c61d6"
+        }
+      },
+      "exact_translation_qa": {
+        "path": "qa/exams/EXAM01_SOLUTIONS_TRANSLATION_QA.json",
+        "status": "pass"
+      },
+      "bounded_qa": {
+        "path": "qa/exams/EXAM01_SOLUTIONS_BOUNDED_QA.json",
+        "status": "pass"
+      }
+    },
+    {
+      "exam": 2,
+      "source": {
+        "path": "source/exams/exam-02/exam02_solutions.id.tex",
+        "identity": {
+          "bytes": 31680,
+          "sha256": "b0a1db42aff2c940a7532064a7b1fecf185279df0807171b86bfcc6176eaf060"
+        }
+      },
+      "exact_translation_qa": {
+        "path": "qa/exams/EXAM02_SOLUTIONS_TRANSLATION_QA.json",
+        "status": "pass"
+      },
+      "bounded_qa": {
+        "path": "qa/exams/EXAM02_SOLUTIONS_BOUNDED_QA.json",
+        "status": "pass"
+      }
+    },
+    {
+      "exam": 3,
+      "source": {
+        "path": "source/exams/exam-03/exam03_solutions.id.tex",
+        "identity": {
+          "bytes": 33416,
+          "sha256": "b669281a35aa1db2065866b1fde31ef41c5d298adae295d02dee775e496747bb"
+        }
+      },
+      "exact_translation_qa": {
+        "path": "qa/exams/EXAM03_SOLUTIONS_TRANSLATION_QA.json",
+        "status": "pass"
+      },
+      "bounded_qa": {
+        "path": "qa/exams/EXAM03_SOLUTIONS_BOUNDED_QA.json",
+        "status": "pass"
+      }
+    },
+    {
+      "exam": 4,
+      "source": {
+        "path": "source/exams/exam-04/exam04_solutions.id.tex",
+        "identity": {
+          "bytes": 29631,
+          "sha256": "df52cef44c3afec3887c9eebd8a1f7627f78a7e1f67eecd40038a3aa49b1ea90"
+        }
+      },
+      "exact_translation_qa": {
+        "path": "qa/exams/EXAM04_SOLUTIONS_TRANSLATION_QA.json",
+        "status": "pass"
+      },
+      "bounded_qa": {
+        "path": "qa/exams/EXAM04_SOLUTIONS_BOUNDED_QA.json",
+        "status": "pass"
+      }
+    },
+    {
+      "exam": 5,
+      "source": {
+        "path": "source/exams/exam-05/exam05_solutions.id.tex",
+        "identity": {
+          "bytes": 31738,
+          "sha256": "76f0980e9fc5f399ce993206caefb17b40e11588e63cb1ac2b31d5e39b0ba2f1"
+        }
+      },
+      "exact_translation_qa": {
+        "path": "qa/exams/EXAM05_SOLUTIONS_TRANSLATION_QA.json",
+        "status": "pass"
+      },
+      "bounded_qa": {
+        "path": "qa/exams/EXAM05_SOLUTIONS_BOUNDED_QA.json",
+        "status": "pass"
+      }
+    },
+    {
+      "exam": 6,
+      "source": {
+        "path": "source/exams/exam-06/exam06_solutions.id.tex",
+        "identity": {
+          "bytes": 31832,
+          "sha256": "295dae1737ee8e7a2a3d42c8c143314ca46541328e7eeb30cbc483c906bac7db"
+        }
+      },
+      "exact_translation_qa": {
+        "path": "qa/exams/EXAM06_SOLUTIONS_TRANSLATION_QA.json",
+        "status": "pass"
+      },
+      "bounded_qa": {
+        "path": "qa/exams/EXAM06_SOLUTIONS_BOUNDED_QA.json",
+        "status": "pass"
+      }
+    },
+    {
+      "exam": 7,
+      "source": {
+        "path": "source/exams/exam-07/exam07_solutions.id.tex",
+        "identity": {
+          "bytes": 26018,
+          "sha256": "ddf8bcebcf19c9fc21757d763e75c52fbbb044ec64450d5d2c8c247ab630cc82"
+        }
+      },
+      "exact_translation_qa": {
+        "path": "qa/exams/EXAM07_SOLUTIONS_TRANSLATION_QA.json",
+        "status": "pass"
+      },
+      "bounded_qa": {
+        "path": "qa/exams/EXAM07_SOLUTIONS_BOUNDED_QA.json",
+        "status": "pass"
+      }
+    },
+    {
+      "exam": 8,
+      "source": {
+        "path": "source/exams/exam-08/exam08_solutions.id.tex",
+        "identity": {
+          "bytes": 29445,
+          "sha256": "64ee153d746d737bca0af1b47a981e75e62b9000b44ea483bb1afc9f7c2c6a15"
+        }
+      },
+      "exact_translation_qa": {
+        "path": "qa/exams/EXAM08_SOLUTIONS_TRANSLATION_QA.json",
+        "status": "pass"
+      },
+      "bounded_qa": {
+        "path": "qa/exams/EXAM08_SOLUTIONS_BOUNDED_QA.json",
+        "status": "pass"
+      }
+    },
+    {
+      "exam": 9,
+      "source": {
+        "path": "source/exams/exam-09/exam09_solutions.id.tex",
+        "identity": {
+          "bytes": 32219,
+          "sha256": "b1ad5b0ca45852e6e85e1b1aaf7b0fe0acab07ed952b14005ba8b5c87af0b290"
+        }
+      },
+      "exact_translation_qa": {
+        "path": "qa/exams/EXAM09_SOLUTIONS_TRANSLATION_QA.json",
+        "status": "pass"
+      },
+      "bounded_qa": {
+        "path": "qa/exams/EXAM09_SOLUTIONS_BOUNDED_QA.json",
+        "status": "pass"
+      }
+    },
+    {
+      "exam": 10,
+      "source": {
+        "path": "source/exams/exam-10/exam10_solutions.id.tex",
+        "identity": {
+          "bytes": 36394,
+          "sha256": "32a61474c2bc1de6c9deab27b7887f30f1636b5b5b21fd3678560e9780fd7678"
+        }
+      },
+      "exact_translation_qa": {
+        "path": "qa/exams/EXAM10_SOLUTIONS_TRANSLATION_QA.json",
+        "status": "pass"
+      },
+      "bounded_qa": {
+        "path": "qa/exams/EXAM10_SOLUTIONS_BOUNDED_QA.json",
+        "status": "pass"
+      }
+    }
+  ],
+  "preparation": [
+    {
+      "input": {
+        "path": "source/bridges/lie-groups/bridge-lie-theory.id.tex",
+        "identity": {
+          "bytes": 16068,
+          "sha256": "42ef0c9dedda792d0c04614d58159d5f798765d1bfcbc3e3054a6065d70b6b3f"
+        }
+      },
+      "output": {
+        "path": "build/generated/bridges/bridge-lie-theory.build.tex",
+        "identity": {
+          "bytes": 16068,
+          "sha256": "42ef0c9dedda792d0c04614d58159d5f798765d1bfcbc3e3054a6065d70b6b3f"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/bridge-lie-theory_prepare.json",
+        "identity": {
+          "bytes": 712,
+          "sha256": "586bb210200cc5552c3f4c5f80d21fa1774378253621e654fcfaa24e28d389fb"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/bridges/lie-groups/bridge-lie-assessment.id.tex",
+        "identity": {
+          "bytes": 17123,
+          "sha256": "6d3d5555ee2845756f01415798e64d06893552e62a52d398e5c647298f96c6f5"
+        }
+      },
+      "output": {
+        "path": "build/generated/bridges/bridge-lie-assessment.build.tex",
+        "identity": {
+          "bytes": 17123,
+          "sha256": "6d3d5555ee2845756f01415798e64d06893552e62a52d398e5c647298f96c6f5"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/bridge-lie-assessment_prepare.json",
+        "identity": {
+          "bytes": 720,
+          "sha256": "3d483aac1c7d72061b20cfca46095cc79d16fadf1b155c73d7c94ee3c7d3b188"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/bridges/de-rham/bridge-de-rham-theory.id.tex",
+        "identity": {
+          "bytes": 13792,
+          "sha256": "50feb003989fe674e41e3dd16fec85ad5b6dcc20f9cf6f7f2b09bdbf620ccd0e"
+        }
+      },
+      "output": {
+        "path": "build/generated/bridges/bridge-de-rham-theory.build.tex",
+        "identity": {
+          "bytes": 13792,
+          "sha256": "50feb003989fe674e41e3dd16fec85ad5b6dcc20f9cf6f7f2b09bdbf620ccd0e"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/bridge-de-rham-theory_prepare.json",
+        "identity": {
+          "bytes": 717,
+          "sha256": "3d333093f7d1952d48f6baf1215a08333f36894ca6a0d862a3e4a37ee79ffeb8"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/bridges/de-rham/bridge-de-rham-assessment.id.tex",
+        "identity": {
+          "bytes": 14977,
+          "sha256": "270a158c20c9733a394a3163fd0ee4229addfe09a866a5a04be64effe4b474fe"
+        }
+      },
+      "output": {
+        "path": "build/generated/bridges/bridge-de-rham-assessment.build.tex",
+        "identity": {
+          "bytes": 14976,
+          "sha256": "2afd9e4e43686dccb69604b8b426c582034b7fa5403c1f7fc6140011edde4cfc"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/bridge-de-rham-assessment_prepare.json",
+        "identity": {
+          "bytes": 725,
+          "sha256": "6f2fd6b0b0e14822f283d00000da8e9d420c3740412b14f753c68eee18ab0acd"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/exams/exam-01/exam01_learner.id.tex",
+        "identity": {
+          "bytes": 8456,
+          "sha256": "a150e6cd95ea93422051f6a51e76b38acbce7beb48591ab12b34d0cac3ebd95a"
+        }
+      },
+      "output": {
+        "path": "build/generated/exams/exam01_learner.id.build.tex",
+        "identity": {
+          "bytes": 8429,
+          "sha256": "989652e49463a1685f5e613df9216c5e8df2278797d88142f99938f9c5f583e0"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/exam01_learner_prepare.json",
+        "identity": {
+          "bytes": 700,
+          "sha256": "dabb27434e9371d5dc0dd700faec7c3e27588e8db4701f1ad3b07401618453ad"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/exams/exam-01/exam01_solutions.id.tex",
+        "identity": {
+          "bytes": 32215,
+          "sha256": "57249c1c3f744dcfa2b6c717f967e08df4a72eed5513c5051a22a428d58c61d6"
+        }
+      },
+      "output": {
+        "path": "build/generated/exams/exam01_solutions.id.build.tex",
+        "identity": {
+          "bytes": 31664,
+          "sha256": "393e77bf4541adf3c7f1ce4e8a357deeae590b66aca093747451e057cecd0e86"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/exam01_solutions_prepare.json",
+        "identity": {
+          "bytes": 1408,
+          "sha256": "f7316a1da4edf9b8c5a33e0ec22e2d08b002b2597ce86d86e62f391fa4e46bb3"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/exams/exam-02/exam02_learner.id.tex",
+        "identity": {
+          "bytes": 6766,
+          "sha256": "aabea31036649f07272167bc1b353f0afa769e22937969d44f4bc19893675aa3"
+        }
+      },
+      "output": {
+        "path": "build/generated/exams/exam02_learner.id.build.tex",
+        "identity": {
+          "bytes": 6680,
+          "sha256": "08ce057ae45e29a6111698605bddbc7efeb1673b432118d54200ccf11ed830f9"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/exam02_learner_prepare.json",
+        "identity": {
+          "bytes": 814,
+          "sha256": "c5e436b8f52806e2a8694731565583d6cd8b88873bc47fd33c55ad69bdcf291e"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/exams/exam-02/exam02_solutions.id.tex",
+        "identity": {
+          "bytes": 31680,
+          "sha256": "b0a1db42aff2c940a7532064a7b1fecf185279df0807171b86bfcc6176eaf060"
+        }
+      },
+      "output": {
+        "path": "build/generated/exams/exam02_solutions.id.build.tex",
+        "identity": {
+          "bytes": 30295,
+          "sha256": "1955a58268a05d765f93321ba006608c44db9d56beec7838817b06b6d3e68f6b"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/exam02_solutions_prepare.json",
+        "identity": {
+          "bytes": 3315,
+          "sha256": "7527753570a1a6d88f5ab8cff3131b1e0077144bf9be233087ab6a5323c26a31"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/exams/exam-03/exam03_learner.id.tex",
+        "identity": {
+          "bytes": 7997,
+          "sha256": "b8b90e5cb0517ea101fcedd6658ffa9916b03b8bc7618aa74b18e9c1f9e86084"
+        }
+      },
+      "output": {
+        "path": "build/generated/exams/exam03_learner.id.build.tex",
+        "identity": {
+          "bytes": 7920,
+          "sha256": "81d704dbf44fd646f708bcf93572003f81b771781d921bf67fb4844ba3e94701"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/exam03_learner_prepare.json",
+        "identity": {
+          "bytes": 811,
+          "sha256": "8cc4456923cbb75f0b9fb142cd0e657ab8df1d7dcaf2e1347ff8b1c213f3220d"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/exams/exam-03/exam03_solutions.id.tex",
+        "identity": {
+          "bytes": 33416,
+          "sha256": "b669281a35aa1db2065866b1fde31ef41c5d298adae295d02dee775e496747bb"
+        }
+      },
+      "output": {
+        "path": "build/generated/exams/exam03_solutions.id.build.tex",
+        "identity": {
+          "bytes": 31628,
+          "sha256": "8ca04ae88b07ac5eab23266d3976550d7bd7089553cfce8fc580fea6e36c3305"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/exam03_solutions_prepare.json",
+        "identity": {
+          "bytes": 3767,
+          "sha256": "12fe0d8fbc9456e84238d413b34b01f98cf00280a23d08abb7524253989c47a6"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/exams/exam-04/exam04_learner.id.tex",
+        "identity": {
+          "bytes": 7645,
+          "sha256": "16e2a99d9b62bd082cde86a45377c50f50a11b690a3781d925b29d2ee407d83d"
+        }
+      },
+      "output": {
+        "path": "build/generated/exams/exam04_learner.id.build.tex",
+        "identity": {
+          "bytes": 7507,
+          "sha256": "3d772992c8ba2c0115e2914cbb4510e16b9e3a4d26e29ca560e826206506c5ca"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/exam04_learner_prepare.json",
+        "identity": {
+          "bytes": 930,
+          "sha256": "ce4f42c8721623a0dec09864d90ed97b89b0a4142d6241af417ab1d04f5cee56"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/exams/exam-04/exam04_solutions.id.tex",
+        "identity": {
+          "bytes": 29631,
+          "sha256": "df52cef44c3afec3887c9eebd8a1f7627f78a7e1f67eecd40038a3aa49b1ea90"
+        }
+      },
+      "output": {
+        "path": "build/generated/exams/exam04_solutions.id.build.tex",
+        "identity": {
+          "bytes": 28510,
+          "sha256": "f14e14d4bb4cce88aec7971541797e9b21ec89d75a1e2f0d82a5f34eb2efcfda"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/exam04_solutions_prepare.json",
+        "identity": {
+          "bytes": 2400,
+          "sha256": "df001e4719c99a5fd1e5dbfeaeb79eaa7c381412f2b36fa91f7e3b777960c170"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/exams/exam-05/exam05_learner.id.tex",
+        "identity": {
+          "bytes": 8900,
+          "sha256": "973cbcc3d40bbfd1870b2a50ec9423c1a9b85eedfe1e4c76e377868d7438cede"
+        }
+      },
+      "output": {
+        "path": "build/generated/exams/exam05_learner.id.build.tex",
+        "identity": {
+          "bytes": 8873,
+          "sha256": "3b08ca9a0c79ef212aaa71ee8141631b4802eb6dadd00cd55c1869e01695eb66"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/exam05_learner_prepare.json",
+        "identity": {
+          "bytes": 700,
+          "sha256": "7b4212265d5e6c44a7c10b53e35569040ad7915ee39d483c1c7818c20b0aad0c"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/exams/exam-05/exam05_solutions.id.tex",
+        "identity": {
+          "bytes": 31738,
+          "sha256": "76f0980e9fc5f399ce993206caefb17b40e11588e63cb1ac2b31d5e39b0ba2f1"
+        }
+      },
+      "output": {
+        "path": "build/generated/exams/exam05_solutions.id.build.tex",
+        "identity": {
+          "bytes": 31047,
+          "sha256": "29982babcb7d1edf22c2d6cf4acf10ed96a8298f74877ea675d77d6b07b08249"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/exam05_solutions_prepare.json",
+        "identity": {
+          "bytes": 1468,
+          "sha256": "b8c3535fc277697716c909e9f636124d1a723caefb69e0c9885a7033ee014620"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/exams/exam-06/exam06_learner.id.tex",
+        "identity": {
+          "bytes": 7187,
+          "sha256": "7d65cd6c3eb1b2095e0343cebaa53185ed5dc9eb6e344e1bb968d745bcf02d49"
+        }
+      },
+      "output": {
+        "path": "build/generated/exams/exam06_learner.id.build.tex",
+        "identity": {
+          "bytes": 7160,
+          "sha256": "ef12a1b93def70c12091906153b9cc8cacc57ceb31574e48a6cdbd2be8bfe2ec"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/exam06_learner_prepare.json",
+        "identity": {
+          "bytes": 700,
+          "sha256": "eaf79aafd39a9f5ac515b859ed90fdbacb933e829c0b7ce3149cd95a888bcab2"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/exams/exam-06/exam06_solutions.id.tex",
+        "identity": {
+          "bytes": 31832,
+          "sha256": "295dae1737ee8e7a2a3d42c8c143314ca46541328e7eeb30cbc483c906bac7db"
+        }
+      },
+      "output": {
+        "path": "build/generated/exams/exam06_solutions.id.build.tex",
+        "identity": {
+          "bytes": 30820,
+          "sha256": "2e22c86f8dff7dd7ade8d3d6f82ded2cf560fe440e29c091cfa0b704d09abb40"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/exam06_solutions_prepare.json",
+        "identity": {
+          "bytes": 2022,
+          "sha256": "1c777bab234a895d4a3251e93ff57f3509e6d2f23b1229f58812f79a640ad31a"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/exams/exam-07/exam07_learner.id.tex",
+        "identity": {
+          "bytes": 7525,
+          "sha256": "59ed3a24b089bb1788574ad5e5de21fc4363d3d753575b2226737d54ae34b9da"
+        }
+      },
+      "output": {
+        "path": "build/generated/exams/exam07_learner.id.build.tex",
+        "identity": {
+          "bytes": 7498,
+          "sha256": "6dd4b16f6fb25f40c39bd40e6469d4b27e8bd6b5e0ba9c36df88d93229c41f4a"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/exam07_learner_prepare.json",
+        "identity": {
+          "bytes": 700,
+          "sha256": "2891c62e0cba474161305cc90e4831b2c4e09b829d2e743f2d84571c7d77d107"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/exams/exam-07/exam07_solutions.id.tex",
+        "identity": {
+          "bytes": 26018,
+          "sha256": "ddf8bcebcf19c9fc21757d763e75c52fbbb044ec64450d5d2c8c247ab630cc82"
+        }
+      },
+      "output": {
+        "path": "build/generated/exams/exam07_solutions.id.build.tex",
+        "identity": {
+          "bytes": 25384,
+          "sha256": "9fae9de52c3d21cd4c6c636e3fbef4162df37e687679c421f90d9d60631ad968"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/exam07_solutions_prepare.json",
+        "identity": {
+          "bytes": 1630,
+          "sha256": "ce95230b09a27016de3e092c560646e7a6dcaef8af7bfbe1e5a981d2d53c7fa7"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/exams/exam-08/exam08_learner.id.tex",
+        "identity": {
+          "bytes": 7480,
+          "sha256": "20a6e0195458a3e6254d8955b0c14147399df2924312f45ae71f0aa5689ab97c"
+        }
+      },
+      "output": {
+        "path": "build/generated/exams/exam08_learner.id.build.tex",
+        "identity": {
+          "bytes": 7453,
+          "sha256": "617c44ca290e9c8d1de016e9d3e822843ea41506c4d4d3f303ded8c4c32d9c77"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/exam08_learner_prepare.json",
+        "identity": {
+          "bytes": 700,
+          "sha256": "142e361fa714d01c3752d0e205dc2143e8916d5fd1bc4639011cd0933662f076"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/exams/exam-08/exam08_solutions.id.tex",
+        "identity": {
+          "bytes": 29445,
+          "sha256": "64ee153d746d737bca0af1b47a981e75e62b9000b44ea483bb1afc9f7c2c6a15"
+        }
+      },
+      "output": {
+        "path": "build/generated/exams/exam08_solutions.id.build.tex",
+        "identity": {
+          "bytes": 28709,
+          "sha256": "c9a93e62012a7840dc219d35dd236c2670fd80167014e91865f9b1f5be036e2e"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/exam08_solutions_prepare.json",
+        "identity": {
+          "bytes": 1766,
+          "sha256": "42a77fc0322b7bc5882ee4c0a53de9523d8ee4b4ff6e10c84019fde0ddc5a2dc"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/exams/exam-09/exam09_learner.id.tex",
+        "identity": {
+          "bytes": 10281,
+          "sha256": "5586288e11541188186bd087a939383fb56b7643910899ac33146166a38f6951"
+        }
+      },
+      "output": {
+        "path": "build/generated/exams/exam09_learner.id.build.tex",
+        "identity": {
+          "bytes": 10200,
+          "sha256": "0093f6a8bec2f230fe0cee69f84fca3feea062c0f4ca67827d8a8dda263e61ce"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/exam09_learner_prepare.json",
+        "identity": {
+          "bytes": 855,
+          "sha256": "21fd708a713410942d7893754eac1b4e0ac92a120534680d2b610f6ef0c98a47"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/exams/exam-09/exam09_solutions.id.tex",
+        "identity": {
+          "bytes": 32219,
+          "sha256": "b1ad5b0ca45852e6e85e1b1aaf7b0fe0acab07ed952b14005ba8b5c87af0b290"
+        }
+      },
+      "output": {
+        "path": "build/generated/exams/exam09_solutions.id.build.tex",
+        "identity": {
+          "bytes": 31049,
+          "sha256": "3bacc7434f6b5e14e6c04b46424439eb57c0ceadc39c8e23ae82efb30da64c64"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/exam09_solutions_prepare.json",
+        "identity": {
+          "bytes": 2915,
+          "sha256": "0663c84c1e9b15914b3796e887640f3e208cfaf13387912fbb639cb91675d472"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/exams/exam-10/exam10_learner.id.tex",
+        "identity": {
+          "bytes": 9540,
+          "sha256": "989b0d2f8f6cc963b5e91537e811dc28a9cdea709a636a7843d69d0b9f257791"
+        }
+      },
+      "output": {
+        "path": "build/generated/exams/exam10_learner.id.build.tex",
+        "identity": {
+          "bytes": 9513,
+          "sha256": "6bcc9bd18879311e10680ed82850f0eb015aad0baf7b291fede68ebbcd9a542f"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/exam10_learner_prepare.json",
+        "identity": {
+          "bytes": 700,
+          "sha256": "a44739490c2c071a0ef6c5be55459e11a8344b92b25a72218f3ca82afeceffb0"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/exams/exam-10/exam10_solutions.id.tex",
+        "identity": {
+          "bytes": 36394,
+          "sha256": "32a61474c2bc1de6c9deab27b7887f30f1636b5b5b21fd3678560e9780fd7678"
+        }
+      },
+      "output": {
+        "path": "build/generated/exams/exam10_solutions.id.build.tex",
+        "identity": {
+          "bytes": 35485,
+          "sha256": "316dce7e72d8c5219ebeca34a6dd5e3ecaad8ecc331cd48691d3bb78a3e46074"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/exam10_solutions_prepare.json",
+        "identity": {
+          "bytes": 2160,
+          "sha256": "5429a684c88e0119c27f7b1cc7a5af4bef177585cc862705eb3f7b14b4fb8593"
+        }
+      },
+      "reused_without_rewrite": true
+    },
+    {
+      "input": {
+        "path": "source/exams/original-repairs/missing-exam-solutions.id.tex",
+        "identity": {
+          "bytes": 7208,
+          "sha256": "4964e0600fc2f0d68c96856e48d4c240022d2cf13aecfe79fb4de2911c69fb3d"
+        }
+      },
+      "output": {
+        "path": "build/generated/bridges/missing-exam-solutions.build.tex",
+        "identity": {
+          "bytes": 7207,
+          "sha256": "ff171f5e682982f491dcb09c53cfa352685666b7896dbd7ff9a233fb31e8106a"
+        }
+      },
+      "receipt": {
+        "path": "qa/complete/preparation/missing-exam-solutions_prepare.json",
+        "identity": {
+          "bytes": 724,
+          "sha256": "5c9d7f62203e5d0a1c1acf3ef59fa9ae8a79b6d8511059b7bef19b93fca7addb"
+        }
+      },
+      "reused_without_rewrite": true
+    }
+  ],
+  "core_units": [
+    {
+      "unit": 23,
+      "source_supplied_solution_numbers": [
+        6,
+        13,
+        16,
+        17
+      ]
+    },
+    {
+      "unit": 24,
+      "source_supplied_solution_numbers": []
+    },
+    {
+      "unit": 25,
+      "source_supplied_solution_numbers": [
+        1,
+        7,
+        8,
+        11,
+        12,
+        14
+      ]
+    },
+    {
+      "unit": 26,
+      "source_supplied_solution_numbers": [
+        3,
+        6,
+        9
+      ]
+    },
+    {
+      "unit": 27,
+      "source_supplied_solution_numbers": [
+        4,
+        5,
+        9,
+        13
+      ]
+    },
+    {
+      "unit": 28,
+      "source_supplied_solution_numbers": [
+        2,
+        5
+      ]
+    },
+    {
+      "unit": 29,
+      "source_supplied_solution_numbers": [
+        2
+      ]
+    }
+  ],
+  "original_bridges": [
+    "Lie groups and Lie algebras",
+    "de Rham cohomology and differential topology"
+  ],
+  "exam_surfaces": {
+    "learner_forms": 10,
+    "official_solution_forms": 10,
+    "original_repairs": 6
+  },
+  "geometry": {
+    "paper": "A4",
+    "margin": "22mm",
+    "centered": true,
+    "class_option": "oneside"
+  },
+  "cycles": [
+    {
+      "cycle": 1,
+      "pdf": "build/complete-work/cycle-1.pdf",
+      "identity": {
+        "bytes": 10525469,
+        "sha256": "26f19153db2ca08851e182202900a8371f1816b428f8fe7321b35de60b9c84ef"
+      },
+      "logs": [
+        {
+          "pass": 1,
+          "path": "build/complete-work/cycle-1-pass-1.console.txt",
+          "exit_code": 0
+        },
+        {
+          "pass": 2,
+          "path": "build/complete-work/cycle-1-pass-2.console.txt",
+          "exit_code": 0
+        },
+        {
+          "pass": 3,
+          "path": "build/complete-work/cycle-1-pass-3.console.txt",
+          "exit_code": 0
+        }
+      ]
+    },
+    {
+      "cycle": 2,
+      "pdf": "build/complete-work/cycle-2.pdf",
+      "identity": {
+        "bytes": 10525469,
+        "sha256": "26f19153db2ca08851e182202900a8371f1816b428f8fe7321b35de60b9c84ef"
+      },
+      "logs": [
+        {
+          "pass": 1,
+          "path": "build/complete-work/cycle-2-pass-1.console.txt",
+          "exit_code": 0
+        },
+        {
+          "pass": 2,
+          "path": "build/complete-work/cycle-2-pass-2.console.txt",
+          "exit_code": 0
+        },
+        {
+          "pass": 3,
+          "path": "build/complete-work/cycle-2-pass-3.console.txt",
+          "exit_code": 0
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "path": "build/brenner-compat.tex",
+      "bytes": 85780,
+      "sha256": "c4d5afb66ba066b45cb466cd863840dc4bdc8d19f73f62f57fc2a96c764fc113"
+    },
+    {
+      "path": "build/complete-exam-macros.id.tex",
+      "bytes": 5314,
+      "sha256": "104967262ba4b1c1b258d29159429d9ee89e45731aaa2ad4ef954d623ae2bc04"
+    },
+    {
+      "path": "build/complete-stage/authority/media/2019-07-Helix.jpg",
+      "bytes": 377311,
+      "sha256": "34d8c05038bdcbd34992bba1b1ab8d852a8c1d51975469d14f7640a829430f9e"
+    },
+    {
+      "path": "build/complete-stage/authority/media/3d-function-6.svg",
+      "bytes": 1215777,
+      "sha256": "16abe6c062235dc6cbdc9358aa4694da94e8f4a993d76f7137e26e4c95a7131b"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Aufgabe75.22.1.gif",
+      "bytes": 200686,
+      "sha256": "dae99541dcac8721909366df89d67ee7ddc46ff49c24750c71f7d1e00245acca"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Aufgabe75.22.2.gif",
+      "bytes": 1640205,
+      "sha256": "091b7d19856eb36aaf704bd23e26e46d0119ed97fcd736fb68cababa7ab7e942"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Aufgabe79.27.gif",
+      "bytes": 466679,
+      "sha256": "337b29d868481d65b5ad460697ad18ef0d7bcce2695125453e3d88f34a2e9e5b"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Cilinderprojectie-constructie.jpg",
+      "bytes": 172697,
+      "sha256": "7a3898760a53e679871e89e1a4382a4b5d8954c31f71d572bca6a3b3a160ef29"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Circle - black simple.svg",
+      "bytes": 207,
+      "sha256": "6a28c8b677e37aaa88984cd72336ca752156ebf95fddf9bae4b2dd17903e8bde"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Circle on sphere wireframe 10deg 6r.svg",
+      "bytes": 15703,
+      "sha256": "55665e60f4c39d6bd0b9474af45f652454cfd031fe9ad81f90abab6c9b3f7a31"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Euler spiral.svg",
+      "bytes": 31848,
+      "sha256": "886d55edfa0fa21ac992ede928cfec4f816742a16b29709ea093113b29e410b9"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Evolute-parab.svg",
+      "bytes": 44890,
+      "sha256": "851a909594c64be31477e391ea9b45e890305ea62e32e29a1d04bc66cf497db1"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Fiddler crab mobius strip.gif",
+      "bytes": 1557242,
+      "sha256": "059c8643c42a0561e5ee5efe52cd5fc59de0879ddd3870fa200f4ae66a2fc69a"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Georg Friedrich Bernhard Riemann.jpeg",
+      "bytes": 255626,
+      "sha256": "945240277e351b4deacc64e0a8e0cbb5c8398a5d13ae322eafb55bfae91cabc6"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Georg_Friedrich_Bernhard_Riemann.jpg",
+      "bytes": 255626,
+      "sha256": "945240277e351b4deacc64e0a8e0cbb5c8398a5d13ae322eafb55bfae91cabc6"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Great circle passing through two points.svg",
+      "bytes": 7568,
+      "sha256": "11cc0326e2bf51f226b1033af7a37f024216707a4c3b69854fadb9905c3409c7"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Hyperboloid1.png",
+      "bytes": 278393,
+      "sha256": "4c813998156ef1961fa557d3a7c356d737c47291d36159baa955f170e500979b"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Hyperboloid2.png",
+      "bytes": 194637,
+      "sha256": "d6e7b45784e7208f652106f0df65839d635a3058b1fa834455e490e904c61ef0"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Inclusion-exclusion.svg",
+      "bytes": 6804,
+      "sha256": "d37d8453528fa90456c473f705741e6c50bc04ad2cd76e9d0f4199a9aa702df3"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Inner point.png",
+      "bytes": 9165,
+      "sha256": "8a8574b52fd937cd9f10c73bac3ab32b0b79300763a30ee4ecb2e260b39c2695"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Integral apl rot obsah1.svg",
+      "bytes": 8098,
+      "sha256": "3dc950fd001c3a2e3ef095dcceac915f4701e990ecf513cf314eaef8a8f86dd1"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Manifold zahyou3.png",
+      "bytes": 9977,
+      "sha256": "fd3afef0df5b0ec3dc9eceea337fda5d15371ea143aa3cfbb24e134e455342f8"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Minimal surface curvature planes-de.svg",
+      "bytes": 50805,
+      "sha256": "c3048459dcf36445b38c5b734eee1febd21215bb08aeba9675cd1e5745cde873"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Möbius strip.jpg",
+      "bytes": 82042,
+      "sha256": "9c4323cfa3ce4f3ce043e4e2479dbf68658d165c46bd41394991361859ea9fad"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Not-star-shaped.svg",
+      "bytes": 253,
+      "sha256": "e0bcc5c9e7573e8acf87300e9b1c7be72959fea9306bfc815214c47780e02fb1"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Parabola circle.svg",
+      "bytes": 19469,
+      "sha256": "186a981781924575a5e517d83d8ab5bfb829125d0a86edc664a41a589bcfca83"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Parallel lines in Poincare's model of hyperbolic geometry.svg",
+      "bytes": 32238,
+      "sha256": "0be24daaf98af7e8f2758031765f16ece41e1e987cc5165871e3f2eb4f0675d8"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Parallel transport sphere2.svg",
+      "bytes": 11448,
+      "sha256": "4a6215c455dc248c97d1831e9af8b5d551a7cdb5da46976df2c1a77c959b88f8"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Partition of unity illustration.svg",
+      "bytes": 12559,
+      "sha256": "e36381a58269f1e1e18203e72a5a7ad5dde936a534fcee4a9f578dab4a9e5128"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Planned flight map of the Oiseau Blanc.svg",
+      "bytes": 135949,
+      "sha256": "45d3109037287e3111bc60543f43163e2264e8e4d52806b83cfd96279522b1b9"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Poincarehalfplaneconform.gif",
+      "bytes": 956681,
+      "sha256": "2a1da25b6afb54e7c4e9e48b36447f66a9ae2a71b0bd23118d83ad5b4a260a4d"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Runge theorem.svg",
+      "bytes": 3611,
+      "sha256": "4b75001b55c08784871990f6ee70522cb809ef78997b1f0b9822d66617db44d0"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Sphere with three handles.png",
+      "bytes": 398740,
+      "sha256": "49398059697841332186226bccf87e46032289c1a8a02063fc2600070c51a311"
+    },
+    {
+      "path": "build/complete-stage/authority/media/SS-stokes.jpg",
+      "bytes": 228915,
+      "sha256": "5d357a2d401d3d41b6d95f30392aed06eef4ad10cded56f444214ea60cb5f30f"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Stereographic projection in 3D.png",
+      "bytes": 69330,
+      "sha256": "ab78ed4225923f771ae69d44930c244c53ef7c3a44d8e7264b16467dc4a78316"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Tangent bundle.svg",
+      "bytes": 23116,
+      "sha256": "96e46d20e64c40985d7ddc517824a36ef6546261762c3cd8e277c9a4eab55623"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Tangentialvektor.svg",
+      "bytes": 4790,
+      "sha256": "ed39381859fa3f6e4240ad7112388600a59126e71bc5aac5943a87f11d9e5301"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Théorème-de-Brouwer-(cond-1).jpg",
+      "bytes": 33149,
+      "sha256": "bc428893e0422da636766390820177c3179e68848fac71fbc6c6f0147f2c447b"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Théorème-de-Brouwer-(cond-2).jpg",
+      "bytes": 20602,
+      "sha256": "f46ef9add7d40b71876555ba7e09d4d176012dc275b756802411ef1ab6f9fc7b"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Toroidal coord.png",
+      "bytes": 151522,
+      "sha256": "f09c9189157aedc9c9d516d24ffdf80c6e3d413101e2eb38e3c0cda996c5d618"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Torus vectors oblique.jpg",
+      "bytes": 251142,
+      "sha256": "cfcd0c5c16262a6beab6dd47dc27291b7ff3651228b2b9defc0717957ce5d3f6"
+    },
+    {
+      "path": "build/complete-stage/authority/media/Torus_vectors_oblique.jpg",
+      "bytes": 251142,
+      "sha256": "cfcd0c5c16262a6beab6dd47dc27291b7ff3651228b2b9defc0717957ce5d3f6"
+    },
+    {
+      "path": "build/complete-stage/build/brenner-compat.tex",
+      "bytes": 85780,
+      "sha256": "c4d5afb66ba066b45cb466cd863840dc4bdc8d19f73f62f57fc2a96c764fc113"
+    },
+    {
+      "path": "build/complete-stage/build/complete-exam-macros.id.tex",
+      "bytes": 5314,
+      "sha256": "104967262ba4b1c1b258d29159429d9ee89e45731aaa2ad4ef954d623ae2bc04"
+    },
+    {
+      "path": "build/complete-stage/build/generated/bridges/bridge-de-rham-assessment.build.tex",
+      "bytes": 14976,
+      "sha256": "2afd9e4e43686dccb69604b8b426c582034b7fa5403c1f7fc6140011edde4cfc"
+    },
+    {
+      "path": "build/complete-stage/build/generated/bridges/bridge-de-rham-theory.build.tex",
+      "bytes": 13792,
+      "sha256": "50feb003989fe674e41e3dd16fec85ad5b6dcc20f9cf6f7f2b09bdbf620ccd0e"
+    },
+    {
+      "path": "build/complete-stage/build/generated/bridges/bridge-lie-assessment.build.tex",
+      "bytes": 17123,
+      "sha256": "6d3d5555ee2845756f01415798e64d06893552e62a52d398e5c647298f96c6f5"
+    },
+    {
+      "path": "build/complete-stage/build/generated/bridges/bridge-lie-theory.build.tex",
+      "bytes": 16068,
+      "sha256": "42ef0c9dedda792d0c04614d58159d5f798765d1bfcbc3e3054a6065d70b6b3f"
+    },
+    {
+      "path": "build/complete-stage/build/generated/bridges/missing-exam-solutions.build.tex",
+      "bytes": 7207,
+      "sha256": "ff171f5e682982f491dcb09c53cfa352685666b7896dbd7ff9a233fb31e8106a"
+    },
+    {
+      "path": "build/complete-stage/build/generated/complete-reader-driver.tex",
+      "bytes": 29827,
+      "sha256": "1013e95c5ef34de8b47710c7175f323770a7225a3de1cf4fb11a1be1a394f019"
+    },
+    {
+      "path": "build/complete-stage/build/generated/exams/exam01_learner.id.build.tex",
+      "bytes": 8429,
+      "sha256": "989652e49463a1685f5e613df9216c5e8df2278797d88142f99938f9c5f583e0"
+    },
+    {
+      "path": "build/complete-stage/build/generated/exams/exam01_solutions.id.build.tex",
+      "bytes": 31664,
+      "sha256": "393e77bf4541adf3c7f1ce4e8a357deeae590b66aca093747451e057cecd0e86"
+    },
+    {
+      "path": "build/complete-stage/build/generated/exams/exam02_learner.id.build.tex",
+      "bytes": 6680,
+      "sha256": "08ce057ae45e29a6111698605bddbc7efeb1673b432118d54200ccf11ed830f9"
+    },
+    {
+      "path": "build/complete-stage/build/generated/exams/exam02_solutions.id.build.tex",
+      "bytes": 30295,
+      "sha256": "1955a58268a05d765f93321ba006608c44db9d56beec7838817b06b6d3e68f6b"
+    },
+    {
+      "path": "build/complete-stage/build/generated/exams/exam03_learner.id.build.tex",
+      "bytes": 7920,
+      "sha256": "81d704dbf44fd646f708bcf93572003f81b771781d921bf67fb4844ba3e94701"
+    },
+    {
+      "path": "build/complete-stage/build/generated/exams/exam03_solutions.id.build.tex",
+      "bytes": 31628,
+      "sha256": "8ca04ae88b07ac5eab23266d3976550d7bd7089553cfce8fc580fea6e36c3305"
+    },
+    {
+      "path": "build/complete-stage/build/generated/exams/exam04_learner.id.build.tex",
+      "bytes": 7507,
+      "sha256": "3d772992c8ba2c0115e2914cbb4510e16b9e3a4d26e29ca560e826206506c5ca"
+    },
+    {
+      "path": "build/complete-stage/build/generated/exams/exam04_solutions.id.build.tex",
+      "bytes": 28510,
+      "sha256": "f14e14d4bb4cce88aec7971541797e9b21ec89d75a1e2f0d82a5f34eb2efcfda"
+    },
+    {
+      "path": "build/complete-stage/build/generated/exams/exam05_learner.id.build.tex",
+      "bytes": 8873,
+      "sha256": "3b08ca9a0c79ef212aaa71ee8141631b4802eb6dadd00cd55c1869e01695eb66"
+    },
+    {
+      "path": "build/complete-stage/build/generated/exams/exam05_solutions.id.build.tex",
+      "bytes": 31047,
+      "sha256": "29982babcb7d1edf22c2d6cf4acf10ed96a8298f74877ea675d77d6b07b08249"
+    },
+    {
+      "path": "build/complete-stage/build/generated/exams/exam06_learner.id.build.tex",
+      "bytes": 7160,
+      "sha256": "ef12a1b93def70c12091906153b9cc8cacc57ceb31574e48a6cdbd2be8bfe2ec"
+    },
+    {
+      "path": "build/complete-stage/build/generated/exams/exam06_solutions.id.build.tex",
+      "bytes": 30820,
+      "sha256": "2e22c86f8dff7dd7ade8d3d6f82ded2cf560fe440e29c091cfa0b704d09abb40"
+    },
+    {
+      "path": "build/complete-stage/build/generated/exams/exam07_learner.id.build.tex",
+      "bytes": 7498,
+      "sha256": "6dd4b16f6fb25f40c39bd40e6469d4b27e8bd6b5e0ba9c36df88d93229c41f4a"
+    },
+    {
+      "path": "build/complete-stage/build/generated/exams/exam07_solutions.id.build.tex",
+      "bytes": 25384,
+      "sha256": "9fae9de52c3d21cd4c6c636e3fbef4162df37e687679c421f90d9d60631ad968"
+    },
+    {
+      "path": "build/complete-stage/build/generated/exams/exam08_learner.id.build.tex",
+      "bytes": 7453,
+      "sha256": "617c44ca290e9c8d1de016e9d3e822843ea41506c4d4d3f303ded8c4c32d9c77"
+    },
+    {
+      "path": "build/complete-stage/build/generated/exams/exam08_solutions.id.build.tex",
+      "bytes": 28709,
+      "sha256": "c9a93e62012a7840dc219d35dd236c2670fd80167014e91865f9b1f5be036e2e"
+    },
+    {
+      "path": "build/complete-stage/build/generated/exams/exam09_learner.id.build.tex",
+      "bytes": 10200,
+      "sha256": "0093f6a8bec2f230fe0cee69f84fca3feea062c0f4ca67827d8a8dda263e61ce"
+    },
+    {
+      "path": "build/complete-stage/build/generated/exams/exam09_solutions.id.build.tex",
+      "bytes": 31049,
+      "sha256": "3bacc7434f6b5e14e6c04b46424439eb57c0ceadc39c8e23ae82efb30da64c64"
+    },
+    {
+      "path": "build/complete-stage/build/generated/exams/exam10_learner.id.build.tex",
+      "bytes": 9513,
+      "sha256": "6bcc9bd18879311e10680ed82850f0eb015aad0baf7b291fede68ebbcd9a542f"
+    },
+    {
+      "path": "build/complete-stage/build/generated/exams/exam10_solutions.id.build.tex",
+      "bytes": 35485,
+      "sha256": "316dce7e72d8c5219ebeca34a6dd5e3ecaad8ecc331cd48691d3bb78a3e46074"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture01.id.build.tex",
+      "bytes": 28616,
+      "sha256": "b12e332e05d52e8e5a46b892a84afe57bde4b5bda2c96f5e503e8cda507ab38e"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture02.id.build.tex",
+      "bytes": 22227,
+      "sha256": "64f97a6aad239ead128a742393e1dda49ee850018013cfc7d783ef9ffed5418b"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture03.id.build.tex",
+      "bytes": 29131,
+      "sha256": "92957f264a00d3f1264bb8a0e710b4a47364b220595236708d11c16fed73d37a"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture04.id.build.tex",
+      "bytes": 27205,
+      "sha256": "ed1b9a5725ef188308e320d19b82ebac09dc51f018de67dd2b8ce02fe15679c7"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture05.id.build.tex",
+      "bytes": 24726,
+      "sha256": "a1fdf4db6aaf123521ed894463fffed57b4dd92fd1a2651595b7cbd81e788fbe"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture06.id.build.tex",
+      "bytes": 30755,
+      "sha256": "c623f4046049dd640b6c813d357c35b532098ee383ef856ad7296881f3f7ea4e"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture07.id.build.tex",
+      "bytes": 20460,
+      "sha256": "69e14480aa0a9f9b6a565ad8952ef3592f156d1687d2011edbf75e3155054ea2"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture08.id.build.tex",
+      "bytes": 17413,
+      "sha256": "1de5fe501ba8953cf5f51dc42a8efb45bf795e4a6e4f98d11383ba013a40de1d"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture09.id.build.tex",
+      "bytes": 25359,
+      "sha256": "0513417668f7cc4e261b1e25c8555ed6c2d6772bc9202c6e60e2d1ccdfcf109c"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture10.id.build.tex",
+      "bytes": 22313,
+      "sha256": "9a8b63c77d00f344180cc91dc985810cd45ae4d6f2292242f2d213a78484fe12"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture11.id.build.tex",
+      "bytes": 16101,
+      "sha256": "a3f689e02a8c0aede0f924f2bfd1205957a14e0994268ebe641f346a1367148d"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture12.id.build.tex",
+      "bytes": 20287,
+      "sha256": "3dd57fbe38399ceff2118b7bffcf69b845b72e397ba212d7c56e0f417951554c"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture13.id.build.tex",
+      "bytes": 23008,
+      "sha256": "b659b836d9971bbe06554402003db1a18a05ab27c14310bc8a20674d204ab2b0"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture14.id.build.tex",
+      "bytes": 26070,
+      "sha256": "57c17209900125f97f6eabf8e4b7b825652b60937851c7a65d82f0bb86cf405d"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture15.id.build.tex",
+      "bytes": 31975,
+      "sha256": "05f625788630ec0c5557b8314a51800ae6dec74d37748fb834b82cfffe79cf5f"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture16.id.build.tex",
+      "bytes": 23909,
+      "sha256": "fa023655b61d09d0133c20192e94ecdaa4c8cbf8960f71a434efa91e94209839"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture17.id.build.tex",
+      "bytes": 23439,
+      "sha256": "bc59a1659cfd0155c1333cb58d03ac37477e68db119cbf0655fa3ca09e514843"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture18.id.build.tex",
+      "bytes": 23167,
+      "sha256": "873589aa4c749156ef1db51f84533c54d8540a3f4d5986cacf707f3ca8fcdc9b"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture19.id.build.tex",
+      "bytes": 28594,
+      "sha256": "91b703089648fbc5a61266c2c636ca1e8bfa89bcda73c4edaaaa037befeddd9a"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture20.id.build.tex",
+      "bytes": 24401,
+      "sha256": "e3bd644b8e654c3056960748cecabdecc9a07fe67a67a0d5d3237664556c7895"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture21.id.build.tex",
+      "bytes": 23761,
+      "sha256": "aadbc8480bb5afabf8acd84a2e5ab41d0a264140f9a371c996ecfbc43068ec38"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture22.id.build.tex",
+      "bytes": 23637,
+      "sha256": "a44f5d8c7c6715579c22363cac7cd12577521994085ac75820cadd42de3e2fd9"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture23.id.build.tex",
+      "bytes": 24327,
+      "sha256": "4eac06768db582d998a84c1331b2df491cc30778bde8f4a32c0d9986239fb3ca"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture24.id.build.tex",
+      "bytes": 23652,
+      "sha256": "c10a433bb174de125ca30d7241f11df2807b2527d071e22255482cb5f37289ec"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture25.id.build.tex",
+      "bytes": 19678,
+      "sha256": "cfd86a6c9586a7c7d69fee45723cd5ee2d1315fa689e6a92f7d9fb367703d5fb"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture26.id.build.tex",
+      "bytes": 25229,
+      "sha256": "4e61131f8cc43d385babdfc82b71a28a56d4e5e66776cccb402732e460880c67"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture27.id.build.tex",
+      "bytes": 23511,
+      "sha256": "d588da1bbbb99340fc43e9f2cb02fbb6fa297b7b7c170de32162667bbd085967"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture28.id.build.tex",
+      "bytes": 15864,
+      "sha256": "ebe160ea479ca44a94ab1e63b3ee4cb84e14715b94d2400650908e90e9c55311"
+    },
+    {
+      "path": "build/complete-stage/build/generated/lecture29.id.build.tex",
+      "bytes": 21335,
+      "sha256": "7fb1dd51e2368886016cf698ded3e630581ba911b07f3ef7e7f23945a7ce6d2d"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/3d-function-6.png",
+      "bytes": 1396364,
+      "sha256": "aa7fc7b229dd0427d03a9d85f341232291d221d7624951e6640dc5a69b5c5484"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Circle - black simple.png",
+      "bytes": 66230,
+      "sha256": "ef7b03e3aa47d3be8cfa205993d27d4a2eff15bb6bcd3f381401ce88224c9b29"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Circle on sphere wireframe 10deg 6r.png",
+      "bytes": 831787,
+      "sha256": "112d1b5f964a7a34125eeab32897ce896eed642ebc640b7bb3b8e0a84f7d44d2"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Circle_-_black_simple.png",
+      "bytes": 66230,
+      "sha256": "ef7b03e3aa47d3be8cfa205993d27d4a2eff15bb6bcd3f381401ce88224c9b29"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Circle_on_sphere_wireframe_10deg_6r.png",
+      "bytes": 831787,
+      "sha256": "112d1b5f964a7a34125eeab32897ce896eed642ebc640b7bb3b8e0a84f7d44d2"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Euler spiral.png",
+      "bytes": 246540,
+      "sha256": "caf9b6bb9c2ffa5dcb72fee7e9e4bd2890a34724abbc0ffc4ea296deb22261ea"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Evolute-parab.png",
+      "bytes": 84021,
+      "sha256": "fcaacfd7dd60400f7682a5bbc87986e9a8fd99088d291fd03eb51f35723f92b0"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Fiddler_crab_mobius_strip.png",
+      "bytes": 145058,
+      "sha256": "15f45aee985375fe99b19f30dc62268d286db4caf103cf4fc066a8951cc43790"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Great circle passing through two points.png",
+      "bytes": 246036,
+      "sha256": "e261725487313ded908063b98da36667fb2b4bc91f6a9bb81accd488536b9110"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Hyperboloid1.png",
+      "bytes": 278393,
+      "sha256": "4c813998156ef1961fa557d3a7c356d737c47291d36159baa955f170e500979b"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Hyperboloid2.png",
+      "bytes": 194637,
+      "sha256": "d6e7b45784e7208f652106f0df65839d635a3058b1fa834455e490e904c61ef0"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Inclusion-exclusion.png",
+      "bytes": 136273,
+      "sha256": "68825ea402cfdb1cd9831891815788b481ae16189f3f9d470aa07ab787256e19"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Inner_point.png",
+      "bytes": 9165,
+      "sha256": "8a8574b52fd937cd9f10c73bac3ab32b0b79300763a30ee4ecb2e260b39c2695"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Integral apl rot obsah1.png",
+      "bytes": 73268,
+      "sha256": "fe9343b5b2448fd1618edaede2e1a9d22d9388731298ee1cee8597dd854a7055"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Manifold_zahyou3.png",
+      "bytes": 9977,
+      "sha256": "fd3afef0df5b0ec3dc9eceea337fda5d15371ea143aa3cfbb24e134e455342f8"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Minimal surface curvature planes-de.png",
+      "bytes": 666377,
+      "sha256": "fbf3bcf3d6cd43563e765fddf8657b8174034447e70033a06f2dd0df128f0533"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Not-star-shaped.png",
+      "bytes": 21044,
+      "sha256": "857e1d1ef30e6edba644357e0c2fb8a308895f009c29766866ca8190106a19de"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Parabola circle.png",
+      "bytes": 59606,
+      "sha256": "26ae5258f872f7b3aab41ddacc4fdc48a4760492ce7a98b203134e16e68f642a"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Parallel lines in Poincare's model of hyperbolic geometry.png",
+      "bytes": 45428,
+      "sha256": "88f4e4987444af0bcb5c7a079dc0cf7a6bc68ba3a1c84f44d923818a390bfeac"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Parallel transport sphere2.png",
+      "bytes": 274294,
+      "sha256": "9eeb16a1046b087010ffc9fb345214f251b552b977be48d2a018264ffcaef965"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Partition of unity illustration.png",
+      "bytes": 88626,
+      "sha256": "a29ea8ca84cffd71518c29eca73f64796a4ecc0d86ed23bc73ae04d7bc2141b1"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Partition_of_unity_illustration.png",
+      "bytes": 88626,
+      "sha256": "a29ea8ca84cffd71518c29eca73f64796a4ecc0d86ed23bc73ae04d7bc2141b1"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Planned flight map of the Oiseau Blanc.png",
+      "bytes": 216870,
+      "sha256": "bd0af937518067273911519fd6fc7568202ddc706246ba35e337a52fb3f6de96"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Poincarehalfplaneconform.png",
+      "bytes": 3137,
+      "sha256": "3fc44ea03f030f75ad3d7de2590d8ea6ef6061bdb1fe45f241129eff4af5d11c"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Runge theorem.png",
+      "bytes": 203109,
+      "sha256": "66dffb62de06584cdc689b5dab5ee4a57aaca613e4e4d44e0d01fea7cda4b133"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Runge_theorem.png",
+      "bytes": 203109,
+      "sha256": "66dffb62de06584cdc689b5dab5ee4a57aaca613e4e4d44e0d01fea7cda4b133"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Sphere_with_three_handles.png",
+      "bytes": 398740,
+      "sha256": "49398059697841332186226bccf87e46032289c1a8a02063fc2600070c51a311"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Stereographic_projection_in_3D.png",
+      "bytes": 69330,
+      "sha256": "ab78ed4225923f771ae69d44930c244c53ef7c3a44d8e7264b16467dc4a78316"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Tangent bundle.png",
+      "bytes": 58682,
+      "sha256": "ec76e2061dcaf6b2e1bf577eb0c75e525bf89d5139ccf77b8aee25370b37bd7e"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Tangent_bundle.png",
+      "bytes": 58682,
+      "sha256": "ec76e2061dcaf6b2e1bf577eb0c75e525bf89d5139ccf77b8aee25370b37bd7e"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Tangentialvektor.png",
+      "bytes": 301930,
+      "sha256": "c17f99b3204c7fbdf64301545e234f99cd0378f2cdd3613a409e888fcda907b5"
+    },
+    {
+      "path": "build/complete-stage/build/generated/media/Toroidal_coord.png",
+      "bytes": 151522,
+      "sha256": "f09c9189157aedc9c9d516d24ffdf80c6e3d413101e2eb38e3c0cda996c5d618"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit01-media-attribution-cumulative.tex",
+      "bytes": 1610,
+      "sha256": "de290514856a211dbd2ba69d2a7c2f2ac0204bbe90c9c5159346e0ab87a38d4a"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit02-media-attribution-cumulative.tex",
+      "bytes": 896,
+      "sha256": "81533a4051923b1c7d36a3f5abe5b4a42a7d17cc68361e68368b70beb91a5d9d"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit03-media-attribution-cumulative.tex",
+      "bytes": 1160,
+      "sha256": "355c512d6402bfb5196e3f1f31efff7cfd88a598b935d7125660951a71ffd06d"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit04-media-attribution-cumulative.tex",
+      "bytes": 209,
+      "sha256": "5da5c59309fedf0f4419399e079c29750ba2de7939c507d7df90069c952606c2"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit05-media-attribution-cumulative.tex",
+      "bytes": 760,
+      "sha256": "a018e6579af2ebbe391f3d12ff82da7890d39ba217286caebccbcb7f9febb9d1"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit06-media-attribution-cumulative.tex",
+      "bytes": 734,
+      "sha256": "b9b34e9cc73caba3cf57df4bef73682dfad9766df0c9cad8c4ebcd1929d8af4c"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit07-media-attribution-cumulative.tex",
+      "bytes": 1260,
+      "sha256": "ddd2ea07293279745fc521e37621e9faa7dcacc00ae2cee137aafcba238e400d"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit08-media-attribution-cumulative.tex",
+      "bytes": 209,
+      "sha256": "5b6a0ee933926a5c286f6985fbb0017d4c300d4027253b7ba8fa56aa887c8100"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit09-media-attribution-cumulative.tex",
+      "bytes": 660,
+      "sha256": "598f4d8c9e63ed3f2a9547750e5b517faaa715f984e799a2cbd5e902ce42c6fb"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit10-media-attribution-cumulative.tex",
+      "bytes": 944,
+      "sha256": "47bf3337fe0867006c619bd55ba74e0ea4fbe1346c74994c4f7d419ec619859e"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit11-media-attribution-cumulative.tex",
+      "bytes": 667,
+      "sha256": "3bff99adee62291a608f656d03990abdebb8170e5bfb08f18550263884ab23a2"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit12-media-attribution-cumulative.tex",
+      "bytes": 930,
+      "sha256": "74bc73b81c0d5b4b8e633a497f26f0dbef55d7ece5b933569f3e55492cb7e78f"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit13-media-attribution-cumulative.tex",
+      "bytes": 682,
+      "sha256": "a4d331110538009c2217e347117d2ba8cb235a3e4e2d78800d5e50b8459123f4"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit14-media-attribution-cumulative.tex",
+      "bytes": 212,
+      "sha256": "f20eaf6200b40f4f38c4dcf69056830e51d46db6a71cfadfc7873f89c3669fc3"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit15-media-attribution-cumulative.tex",
+      "bytes": 212,
+      "sha256": "ae0018ec8acb5fba5cd0fd3dee267383ec5a0662837e6f9eb12449cba1ce9dc9"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit16-media-attribution-cumulative.tex",
+      "bytes": 1004,
+      "sha256": "46006e419dab9518ea25f0bd113f928a7b83995e48d684de88db3f673a9438e4"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit17-media-attribution-cumulative.tex",
+      "bytes": 654,
+      "sha256": "47659d9035a822317dd715ecfbbde58ff9f8f10498d921c7d8bb3b84364baa7d"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit18-media-attribution-cumulative.tex",
+      "bytes": 880,
+      "sha256": "7f91047a19c5b41e77c99dac88bc8ce4c3f0809f5aa57e6cf80576280e4f5ca0"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit19-media-attribution-cumulative.tex",
+      "bytes": 212,
+      "sha256": "d2a97bac10b2dd4e028282294cc4f28343fe9a283cbe08d00b2b4f89afc045da"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit20-media-attribution-cumulative.tex",
+      "bytes": 212,
+      "sha256": "463d4dcfea1f4b84aea7f301923927f18fef8cd89a8924568ca82f74f5677462"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit21-media-attribution-cumulative.tex",
+      "bytes": 1182,
+      "sha256": "9c37a6686e8acd4aee20edb53941601f29c420e947a108fad5bf7a96d6a09692"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit22-media-attribution-cumulative.tex",
+      "bytes": 950,
+      "sha256": "64633fa4aa0f777dc38beec16642a078997bc4ca37b71251963099d25fbbd641"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit23-media-attribution-complete.tex",
+      "bytes": 1203,
+      "sha256": "0fdba3e5e5a7acd25a966cedd843d845e10b0aa80eb931d049a6d3ea754e5df3"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit24-media-attribution-complete.tex",
+      "bytes": 212,
+      "sha256": "3cb29330e14d5aaf68f46d0a84d966ab81bec0724b12bc670deebdbf4dffa217"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit25-media-attribution-complete.tex",
+      "bytes": 212,
+      "sha256": "b1d56967d8fa489e09e27efe1d8f987122cce4a2aeb4b684307f07961e76cfd1"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit26-media-attribution-complete.tex",
+      "bytes": 212,
+      "sha256": "bb73fa47b6f7d56b289d609204544e8e9ccc8a332ee0af1897ea2d220123fbfc"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit27-media-attribution-complete.tex",
+      "bytes": 816,
+      "sha256": "21c2928614ce24a75b6be6ca1d14ed49c23793ecc2fa59f8e2221e6a9ffb797c"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit28-media-attribution-complete.tex",
+      "bytes": 212,
+      "sha256": "a34c1f0a6a727d0ef9ec2a0e169012007a2cd53d75502eb88e3824e28628b347"
+    },
+    {
+      "path": "build/complete-stage/build/generated/unit29-media-attribution-complete.tex",
+      "bytes": 816,
+      "sha256": "16e3ae9a99ab823eba3b170c20cec45713324a13f382052c905f59550ebceb98"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet01_exercise01_solution.id.build.tex",
+      "bytes": 2551,
+      "sha256": "6dcde3cb7e101013465d2b8f30fb37031099239dad1f91edf21e91825adba0f8"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet01.id.build.tex",
+      "bytes": 13451,
+      "sha256": "4f3b5c9b14bdc7262d560fb00d9caf701801db121a16f6fb261557752069f4b5"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet02_exercise01_solution.id.build.tex",
+      "bytes": 924,
+      "sha256": "55f4f2933945ccdd3df4cc4ff98bd706f97d2ac12c5cd23b09bf4e01ee3cd305"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet02_exercise02_solution.id.build.tex",
+      "bytes": 938,
+      "sha256": "2a1b044c20a07228fe7e7af89559e0363cff10e55504ba5d23459282af061e68"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet02_exercise07_solution.id.build.tex",
+      "bytes": 1472,
+      "sha256": "3c9c49d74f5e2d55be003538713bb790420ee92968d0648b8b302d7151763ab4"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet02_exercise12_solution.id.build.tex",
+      "bytes": 4982,
+      "sha256": "d126c9cfe31361594c06e84784ad4381cf269b8cffde7ced6b4861df3aae36e1"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet02_exercise13_solution.id.build.tex",
+      "bytes": 2439,
+      "sha256": "96cc12031d75d2deb955c6ad9a7b22c7b97532a8475902c6566d8df407df137d"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet02.id.build.tex",
+      "bytes": 10286,
+      "sha256": "b3698fa2a4067774ac392f8a445ac418f3ea9be09aa47611291dc9374e6f69b4"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet03_exercise07_solution.id.build.tex",
+      "bytes": 2870,
+      "sha256": "a0040a815111e297136f8b6034aea3ab2791757e6364ee926ed00d0aeb7f4346"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet03_exercise16_solution.id.build.tex",
+      "bytes": 2089,
+      "sha256": "7dcd12227a5a10d360dc4370a53cb2db5933af12cfa4513cd1767b3d56bf0a8c"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet03.id.build.tex",
+      "bytes": 9865,
+      "sha256": "356c490f1f94d38886301474da26c280b4eabbb7eaa5657a2a44d5f5bdfe3255"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet04_exercise07_solution.id.build.tex",
+      "bytes": 1956,
+      "sha256": "8211768921bdc2ae8b17d8800da4101748def3aa795c58098be0057735f71e31"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet04_exercise10_solution.id.build.tex",
+      "bytes": 2636,
+      "sha256": "0a932a2275395ec013560bfcc9c9f3e542a6ed189aa74dcfe8694583a250fa98"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet04.id.build.tex",
+      "bytes": 11720,
+      "sha256": "170e2ec3332e5a484c1328820be349829138db9cbe0e1cf92a800c50912f0bb6"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet05_exercise01_solution.id.build.tex",
+      "bytes": 2794,
+      "sha256": "fd205601cee5e3301f9c6ac6267706e6b6b53392f56df7baba7564f6a229efc3"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet05.id.build.tex",
+      "bytes": 11279,
+      "sha256": "ecaeca5a69525823e0c741d2ef79e2953a3aaba1ad9c173c40f2bf19bf29514c"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet06_exercise02_solution.id.build.tex",
+      "bytes": 2561,
+      "sha256": "a05d08dec69157aa38e1c867299748d39d4cdffc558939ec6b971239df878d1b"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet06_exercise06_solution.id.build.tex",
+      "bytes": 939,
+      "sha256": "0466633d87c732eb4b6e468dcf33f2e2755f3961e536dc732f14acf8907fc317"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet06_exercise09_solution.id.build.tex",
+      "bytes": 474,
+      "sha256": "4ade5a70dbb8a98d862bb72e76218f02233894cf57bcc7352fb266fd620e9a99"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet06.id.build.tex",
+      "bytes": 16263,
+      "sha256": "c9159aa808f638f02dd850ac6f131289fbf45390f236e23f4d6edc7ab85be900"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet07_exercise04_solution.id.build.tex",
+      "bytes": 787,
+      "sha256": "0a1357ad74d3f75ca72821ac159871acc8ff93b87bd87f5a56fd872f58b08882"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet07_exercise07_solution.id.build.tex",
+      "bytes": 1668,
+      "sha256": "b21c056701c3c5959acc6adbd5159e6e011f3e7b2b49dc36be629535020f254f"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet07_exercise13_solution.id.build.tex",
+      "bytes": 372,
+      "sha256": "24adcb97573668d0cd6e0a698f6bf2b5f322b2fbe2e39722a0ca74fbe0a81807"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet07.id.build.tex",
+      "bytes": 7780,
+      "sha256": "87d9ed393f508b149fab935cde93fd0911b2022009ff6c5b4ab412b412dd9590"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet08_exercise11_solution.id.build.tex",
+      "bytes": 1177,
+      "sha256": "08434f0543a131fcf09a150dcd4651066b7df97a9aae6596e035a0f42ec50756"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet08_exercise13_solution.id.build.tex",
+      "bytes": 3061,
+      "sha256": "843d0e294a26c771fee3ad7b220f9fdf44d44b3f6eaeced34d7ddbe39ca2b1cf"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet08.id.build.tex",
+      "bytes": 12863,
+      "sha256": "c7f284a7cc84ef71a3f1df8b7fa25be8e4d3cf2a79bf84e0a7b9e9d83999afca"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet09.id.build.tex",
+      "bytes": 10304,
+      "sha256": "62f6edc9044117566c7a763a296654e83eb201b3ae59589276052d42ada0896b"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet10_exercise09_solution.id.build.tex",
+      "bytes": 2795,
+      "sha256": "c475470f29cbdaca52e71094101123730bbce1573f0b8fa58448e1a518cfc4e1"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet10_exercise10_solution.id.build.tex",
+      "bytes": 5110,
+      "sha256": "1e6eeeb6fde3b2b40b048f74c3f73ac008cf0ee0ad8d3eb412e2b75cd4a5dc7f"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet10_exercise15_solution.id.build.tex",
+      "bytes": 2517,
+      "sha256": "790fdaf36052a2b750f40babe6ec9df4060911fdab00a8ee3ca297010d045541"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet10_exercise25_solution.id.build.tex",
+      "bytes": 1541,
+      "sha256": "bfd8ab76dcbbe624ef4e9afad36dce66b38397874e49348cdf6c2a4aa3332e9f"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet10.id.build.tex",
+      "bytes": 16041,
+      "sha256": "126b40afa738c6c2afd466d754e3243acb705575320023a3abc8a5eb6664c728"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet11_exercise10_solution.id.build.tex",
+      "bytes": 1308,
+      "sha256": "b256cc638b0a72033c0b3a63659e38ea053803044712252f1fd863f73dbd5ed3"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet11_exercise14_solution.id.build.tex",
+      "bytes": 767,
+      "sha256": "1dcb59a601f85acebe8da790e41d62143ac4115c36b1e20d2b15b8abced3f237"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet11.id.build.tex",
+      "bytes": 20369,
+      "sha256": "0f286913dd79414679789a2b9ff27b8b877716365d2d523de9586bdcd9f33282"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet12_exercise11_solution.id.build.tex",
+      "bytes": 2048,
+      "sha256": "be75ff34b04de199f5c6a7d1c65d949f2623fcfb56746813c85ec3b8c4a3aa4f"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet12_exercise12_solution.id.build.tex",
+      "bytes": 1162,
+      "sha256": "0b57624a796e6e528b7e1e0129b094ab1a50423bd223c34c150dd91c39492540"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet12.id.build.tex",
+      "bytes": 19290,
+      "sha256": "251d7ad2328904eab479795b7c3762ceec7a7a6b6709873e77f09d26ce071055"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet13_exercise01_solution.id.build.tex",
+      "bytes": 660,
+      "sha256": "e34941e0dbab6f50f233971e3fe3d716f6722f4430d0b180775673fcf938f8d2"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet13_exercise10_solution.id.build.tex",
+      "bytes": 1311,
+      "sha256": "bc6b663193a48174637eb4384682ee4b0357d13cc990cde063a47d56177b7098"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet13_exercise11_solution.id.build.tex",
+      "bytes": 953,
+      "sha256": "14da9cc8ea72afae45c78a9283115785efa5bc9eea90eae21289dd5950602ca1"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet13_exercise16_solution.id.build.tex",
+      "bytes": 937,
+      "sha256": "0931addc2f1a421dd6281b56c2a7df6d5fb451364a84a1fd4452d6f28ff031e2"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet13_exercise18_solution.id.build.tex",
+      "bytes": 817,
+      "sha256": "4a24ebc139941d4f389230f391549efdfa472b41a632184231bf6df08de7fc47"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet13_exercise19_solution.id.build.tex",
+      "bytes": 1501,
+      "sha256": "eba51e227e51a27d449f561490a90517e6d06c47abcf3161562967cdb4e45781"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet13_exercise21_solution.id.build.tex",
+      "bytes": 534,
+      "sha256": "102812d932b362452d7704594937978f44ec90764b80737ecb3d40f1d4ee5c10"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet13_exercise22_solution.id.build.tex",
+      "bytes": 1383,
+      "sha256": "ad94277318aa5181941b380ef51ae41645903fea13d295b6163b1348e46434b6"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet13.id.build.tex",
+      "bytes": 9752,
+      "sha256": "f4b88730a3296320c22f56a142511ca1ed2d8c4ce01f6c75860c27abc504f18e"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet14_exercise05_solution.id.build.tex",
+      "bytes": 637,
+      "sha256": "e166f1c0f4f15524dcda1e20553b4606353f9349695f0ed31c3cd88898627453"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet14_exercise06_solution.id.build.tex",
+      "bytes": 461,
+      "sha256": "204ca222971166ae407a998dfcf7f552390fe99736aee72b0d4283b6eb905e9b"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet14_exercise09_solution.id.build.tex",
+      "bytes": 2013,
+      "sha256": "99c3729944fd77c3a35a9f8908855c3af4231794da33445aeed30784a7e55385"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet14_exercise11_solution.id.build.tex",
+      "bytes": 2167,
+      "sha256": "b3b80e19f9a0042d8be7e6edf8d6dabd2ff5bc9cd0698ac0b176dbb046ebdc5b"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet14_exercise12_solution.id.build.tex",
+      "bytes": 1186,
+      "sha256": "b529f45b445b1687bd72d380943232ae63e4b4ba4d84fdb6c30e81ccc66befca"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet14_exercise13_solution.id.build.tex",
+      "bytes": 785,
+      "sha256": "6a9455207f83c791da4dc2d1e87785b1910c5c43841e15266eee00d9bae776d6"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet14_exercise14_solution.id.build.tex",
+      "bytes": 736,
+      "sha256": "2bb0587755e1f2d6d3391ddd0f72b4d408f50c3fad9a85d6ccce34f21cbbcccb"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet14.id.build.tex",
+      "bytes": 10606,
+      "sha256": "580bc969ff3e6a4b51bcd625f83fb608028a6aad1790fee455edc42ac47e9c8d"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet15_exercise01_solution.id.build.tex",
+      "bytes": 1931,
+      "sha256": "150423c98dbfb51bd725ed314684e023307067fcebe4ab85998bcd2fca4d7e4c"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet15_exercise11_solution.id.build.tex",
+      "bytes": 1081,
+      "sha256": "bde4746bfda25fde7e71a1fea8b827fb5a300c5377dc1aa4c8d2acfcf0d6e9e0"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet15_exercise12_solution.id.build.tex",
+      "bytes": 1263,
+      "sha256": "e4302745aae8fe21d36b5fc95ba492740b77ee9f767b955859790e777ac9278f"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet15_exercise13_solution.id.build.tex",
+      "bytes": 1596,
+      "sha256": "4b1e08fce08aaa418365bd9cdbc8845951d1e596d72ce3a0f5272808cb4eec72"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet15.id.build.tex",
+      "bytes": 8086,
+      "sha256": "01603b0e1ea234c648c559a25f4defe04a9e06424789c462e74167333f31a7fe"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet16_exercise01_solution.id.build.tex",
+      "bytes": 383,
+      "sha256": "f4845efcd3d1d4d62047736e45d0a5ca16bd6bfd2479cd696cfdff1b76d9daaa"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet16_exercise12_solution.id.build.tex",
+      "bytes": 2069,
+      "sha256": "88e168474d63de017a267c47f4b2b36b162b020a6fecd75ff17987371b7749b7"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet16.id.build.tex",
+      "bytes": 10626,
+      "sha256": "f91da5ff46a0dc7cd82b59638cbdba761a23520a78cfdcba32768891798ff7e4"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet17_exercise02_solution.id.build.tex",
+      "bytes": 1338,
+      "sha256": "fd70091b75a09f04a25b1590e8353333a7000965f24128736c39530f3bd93feb"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet17_exercise04_solution.id.build.tex",
+      "bytes": 743,
+      "sha256": "b650961fd22a89ab183d0041ebf416548850589231c4f71711735b1e18aa3f9b"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet17.id.build.tex",
+      "bytes": 5369,
+      "sha256": "3f796d07d14b0f5f2032fb43df7c7a30bb2eb207ca9c8f6fe7aa3099edf7631e"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet18_exercise08_solution.id.build.tex",
+      "bytes": 1369,
+      "sha256": "a75a906a92fda5ff229e4307a8d500275f499f646881c13ed7d38907485a3f47"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet18_exercise11_solution.id.build.tex",
+      "bytes": 3522,
+      "sha256": "94852e131be3d97abcb8c802f1b2fb328bb4f4d880cecd359eeb8a7495bef7b4"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet18_exercise13_solution.id.build.tex",
+      "bytes": 1209,
+      "sha256": "b2013eaa2dfea4a9ce6f16b257d821ebf9dff7cf3baa566321a8dba153315d51"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet18_exercise14_solution.id.build.tex",
+      "bytes": 1344,
+      "sha256": "77559a4631174fb35da06aae0de50155e9031fd85905c1d5b3acfd32aa2fc2c5"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet18.id.build.tex",
+      "bytes": 9371,
+      "sha256": "1323b8103689f948e6997564c9d17ea7d1e78e1fefec1f301503dfa8f0105c74"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet19.id.build.tex",
+      "bytes": 6280,
+      "sha256": "7671f9aee7946b487d8a2b8a370981b99159c20542f3199141026fa46ece5ee1"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet20_exercise03_solution.id.build.tex",
+      "bytes": 327,
+      "sha256": "daa22c0e4e8e043b24a22b6a2cb97b6245db15bd93f161c10e6a1785fa7559c0"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet20_exercise04_solution.id.build.tex",
+      "bytes": 322,
+      "sha256": "b57da1456f3da1c920ff46295755502933194a955f8148cd0c882f75a8dfc7d7"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet20_exercise05_solution.id.build.tex",
+      "bytes": 426,
+      "sha256": "16e13f7c76d61767d8667ca15244827d8b53fc7ca3866f1e9636610ca9226f26"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet20_exercise07_solution.id.build.tex",
+      "bytes": 645,
+      "sha256": "732efd6c9df9813377d82f70bb721a7a1305ad100208f0135997f23ad68f1f4e"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet20_exercise14_solution.id.build.tex",
+      "bytes": 1673,
+      "sha256": "56843ad32bcab8208fab30c554664a948d005f802a5778065e703b84b62b4aba"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet20.id.build.tex",
+      "bytes": 9385,
+      "sha256": "af2d9e99ac0b2948337630fd7a817e3d0fb4bccd1eb2ac5416f3426c777776ee"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet21_exercise07_solution.id.build.tex",
+      "bytes": 1635,
+      "sha256": "8c9cd01735a7ac19ad4f2eac1cc8290a892ad2a3c0dee39f571ed5fbba788129"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet21_exercise10_solution.id.build.tex",
+      "bytes": 1896,
+      "sha256": "dce62249466ba5b01bf5a14e4b567b9a0452424ab27162e9eeb581844a3c65c2"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet21_exercise12_solution.id.build.tex",
+      "bytes": 973,
+      "sha256": "083f79a2a699445e96db8b4cf7c0bc38c6bc18ce25c52cf2c6e216790152c9c9"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet21_exercise13_solution.id.build.tex",
+      "bytes": 917,
+      "sha256": "2386d14946f9697aa77ba8efc8d6bfd92d2c97274a55952a3ac1fc6e6dc22c9b"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet21.id.build.tex",
+      "bytes": 10002,
+      "sha256": "3cc7ac104a3c0de75310610ae8696e7c1e106c8381ded00fab3566115cff6db8"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet22_exercise06_solution.id.build.tex",
+      "bytes": 555,
+      "sha256": "d610ff1c23c1323416201fb32b1e1d7b4c8049b75c030bee4f298936969495e6"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet22.id.build.tex",
+      "bytes": 7491,
+      "sha256": "e04e99ff8210a47cd1a2150eae6b62fa74360d32e899a295415b6ee084859b84"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet23_exercise06_solution.id.build.tex",
+      "bytes": 500,
+      "sha256": "d8b6450742194e386a558850cc3833aa5fa9d8616eb4659b5fc8a4a25a4c5cde"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet23_exercise13_solution.id.build.tex",
+      "bytes": 2938,
+      "sha256": "ed6296b26d0d63746c9d3dac96c18570db48f057f29207ea7e24f9dbde919f3f"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet23_exercise16_solution.id.build.tex",
+      "bytes": 1855,
+      "sha256": "a72540feb7ec9b8c27572b0681581cabade4c4ae2eb4f7e51118dad066d415f5"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet23_exercise17_solution.id.build.tex",
+      "bytes": 895,
+      "sha256": "b161881b8115540a635ed6c76539b49b96accb29bc922f214743655aa4c8165b"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet23.id.build.tex",
+      "bytes": 14174,
+      "sha256": "b38e3f126bf0720ac3f05e3129af1e2b33fc5ecd6ad5cf1b93b4e0ed9e93a687"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet24.id.build.tex",
+      "bytes": 11038,
+      "sha256": "e5ec31628075b680bf1295521e8098b21c176c40f0250089c161eafd96ca02bb"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet25_exercise01_solution.id.build.tex",
+      "bytes": 1647,
+      "sha256": "6cab31e25e385e939de426bbb16cfdd1ba69a3c7b0b16aca2965cd4900a04808"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet25_exercise07_solution.id.build.tex",
+      "bytes": 675,
+      "sha256": "aeff3f5e7e34f5de031df90eb254b8696a3875588c9178bcb69845f7f5f511d0"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet25_exercise08_solution.id.build.tex",
+      "bytes": 1634,
+      "sha256": "1c1d6f80d223670f9deffd083adae7ddfb15e13d8108812c5ed81506f0baf09a"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet25_exercise11_solution.id.build.tex",
+      "bytes": 1439,
+      "sha256": "20fea9ae378d80de7798283076d5b821ade7efaa702ac4052a9638f0725b005d"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet25_exercise12_solution.id.build.tex",
+      "bytes": 2963,
+      "sha256": "87b7634dec4fe1509d45ba60047eac0701483ef45172bc23ed3445aec465225c"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet25_exercise14_solution.id.build.tex",
+      "bytes": 1370,
+      "sha256": "98cd5db0d48ff9934bfc54c25f2e671e77fec88f023cc843e6d694d544b2be19"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet25.id.build.tex",
+      "bytes": 19884,
+      "sha256": "1cb4ea28e7a0d9481a59445f47a561c4b0cd9d9f98454161a611dec1ede1137f"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet26_exercise03_solution.id.build.tex",
+      "bytes": 1434,
+      "sha256": "3589f785754f30ce7ba75b74c7b1b6bf0dc5160f6d91318bf15e8970c042feff"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet26_exercise06_solution.id.build.tex",
+      "bytes": 1553,
+      "sha256": "49079be3180d017cc2736baca95620240f124d19c81c9b496b9d2ee44f86514e"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet26_exercise09_solution.id.build.tex",
+      "bytes": 5152,
+      "sha256": "1869172513a14c1f5fe28aa125ef85bb09023098a2a0fc974a6aed2005f17ca0"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet26.id.build.tex",
+      "bytes": 11267,
+      "sha256": "2a2ee6e3aa6a6e0d7d2937b417bee50efe9c501a19ea115676006759e7ee180f"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet27_exercise04_solution.id.build.tex",
+      "bytes": 4645,
+      "sha256": "ad377ccfeda527accff3f07d1783bed2952decffa55cf6b171f31abf6ae01adb"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet27_exercise05_solution.id.build.tex",
+      "bytes": 1261,
+      "sha256": "d391223ba83d482fabf6563a554e50c0cb17e0fb60e53a4cf64c09987c79283a"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet27_exercise09_solution.id.build.tex",
+      "bytes": 1621,
+      "sha256": "85f2f432219790926f28b02802f61d47af11081691176ff66361abe9563878af"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet27_exercise13_solution.id.build.tex",
+      "bytes": 2025,
+      "sha256": "7f2fb0b3c5eea7cc3506b0e324a8b2148729a2219779b8a5cd1003ea5d26ef3d"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet27.id.build.tex",
+      "bytes": 14944,
+      "sha256": "326a0f9e33e7ccbf3a7a62721735f0f67c44eee898b8625affb205ec34689607"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet28_exercise02_solution.id.build.tex",
+      "bytes": 316,
+      "sha256": "08ad974e9a1237adfd27255668e8999ae7e00ab72a3b37de00db7213bbeb50ca"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet28_exercise05_solution.id.build.tex",
+      "bytes": 1737,
+      "sha256": "f7fb12daf4f6f0036540dd85b98b92ec431def7b0367ed9064ea4970838a7882"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet28.id.build.tex",
+      "bytes": 4800,
+      "sha256": "778cfeb6dea243ab916a67c7d9fc8ef4863ed595238c6d17c06e9c1620f9e81c"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet29_exercise02_solution.id.build.tex",
+      "bytes": 1849,
+      "sha256": "8f4961646f86da41cddaff5bff40c9f8075f7042e3fff3c9b102aaa6f1af1ee9"
+    },
+    {
+      "path": "build/complete-stage/build/generated/worksheet29.id.build.tex",
+      "bytes": 1728,
+      "sha256": "8511fdb340018b3fb42fa66b835a39832ca0ff36b871326bea9f05c84f18b6ea"
+    },
+    {
+      "path": "build/generated/bridges/bridge-de-rham-assessment.build.tex",
+      "bytes": 14976,
+      "sha256": "2afd9e4e43686dccb69604b8b426c582034b7fa5403c1f7fc6140011edde4cfc"
+    },
+    {
+      "path": "build/generated/bridges/bridge-de-rham-theory.build.tex",
+      "bytes": 13792,
+      "sha256": "50feb003989fe674e41e3dd16fec85ad5b6dcc20f9cf6f7f2b09bdbf620ccd0e"
+    },
+    {
+      "path": "build/generated/bridges/bridge-lie-assessment.build.tex",
+      "bytes": 17123,
+      "sha256": "6d3d5555ee2845756f01415798e64d06893552e62a52d398e5c647298f96c6f5"
+    },
+    {
+      "path": "build/generated/bridges/bridge-lie-theory.build.tex",
+      "bytes": 16068,
+      "sha256": "42ef0c9dedda792d0c04614d58159d5f798765d1bfcbc3e3054a6065d70b6b3f"
+    },
+    {
+      "path": "build/generated/bridges/missing-exam-solutions.build.tex",
+      "bytes": 7207,
+      "sha256": "ff171f5e682982f491dcb09c53cfa352685666b7896dbd7ff9a233fb31e8106a"
+    },
+    {
+      "path": "build/generated/complete-reader-driver.tex",
+      "bytes": 29827,
+      "sha256": "1013e95c5ef34de8b47710c7175f323770a7225a3de1cf4fb11a1be1a394f019"
+    },
+    {
+      "path": "build/generated/exams/exam01_learner.id.build.tex",
+      "bytes": 8429,
+      "sha256": "989652e49463a1685f5e613df9216c5e8df2278797d88142f99938f9c5f583e0"
+    },
+    {
+      "path": "build/generated/exams/exam01_solutions.id.build.tex",
+      "bytes": 31664,
+      "sha256": "393e77bf4541adf3c7f1ce4e8a357deeae590b66aca093747451e057cecd0e86"
+    },
+    {
+      "path": "build/generated/exams/exam02_learner.id.build.tex",
+      "bytes": 6680,
+      "sha256": "08ce057ae45e29a6111698605bddbc7efeb1673b432118d54200ccf11ed830f9"
+    },
+    {
+      "path": "build/generated/exams/exam02_solutions.id.build.tex",
+      "bytes": 30295,
+      "sha256": "1955a58268a05d765f93321ba006608c44db9d56beec7838817b06b6d3e68f6b"
+    },
+    {
+      "path": "build/generated/exams/exam03_learner.id.build.tex",
+      "bytes": 7920,
+      "sha256": "81d704dbf44fd646f708bcf93572003f81b771781d921bf67fb4844ba3e94701"
+    },
+    {
+      "path": "build/generated/exams/exam03_solutions.id.build.tex",
+      "bytes": 31628,
+      "sha256": "8ca04ae88b07ac5eab23266d3976550d7bd7089553cfce8fc580fea6e36c3305"
+    },
+    {
+      "path": "build/generated/exams/exam04_learner.id.build.tex",
+      "bytes": 7507,
+      "sha256": "3d772992c8ba2c0115e2914cbb4510e16b9e3a4d26e29ca560e826206506c5ca"
+    },
+    {
+      "path": "build/generated/exams/exam04_solutions.id.build.tex",
+      "bytes": 28510,
+      "sha256": "f14e14d4bb4cce88aec7971541797e9b21ec89d75a1e2f0d82a5f34eb2efcfda"
+    },
+    {
+      "path": "build/generated/exams/exam05_learner.id.build.tex",
+      "bytes": 8873,
+      "sha256": "3b08ca9a0c79ef212aaa71ee8141631b4802eb6dadd00cd55c1869e01695eb66"
+    },
+    {
+      "path": "build/generated/exams/exam05_solutions.id.build.tex",
+      "bytes": 31047,
+      "sha256": "29982babcb7d1edf22c2d6cf4acf10ed96a8298f74877ea675d77d6b07b08249"
+    },
+    {
+      "path": "build/generated/exams/exam06_learner.id.build.tex",
+      "bytes": 7160,
+      "sha256": "ef12a1b93def70c12091906153b9cc8cacc57ceb31574e48a6cdbd2be8bfe2ec"
+    },
+    {
+      "path": "build/generated/exams/exam06_solutions.id.build.tex",
+      "bytes": 30820,
+      "sha256": "2e22c86f8dff7dd7ade8d3d6f82ded2cf560fe440e29c091cfa0b704d09abb40"
+    },
+    {
+      "path": "build/generated/exams/exam07_learner.id.build.tex",
+      "bytes": 7498,
+      "sha256": "6dd4b16f6fb25f40c39bd40e6469d4b27e8bd6b5e0ba9c36df88d93229c41f4a"
+    },
+    {
+      "path": "build/generated/exams/exam07_solutions.id.build.tex",
+      "bytes": 25384,
+      "sha256": "9fae9de52c3d21cd4c6c636e3fbef4162df37e687679c421f90d9d60631ad968"
+    },
+    {
+      "path": "build/generated/exams/exam08_learner.id.build.tex",
+      "bytes": 7453,
+      "sha256": "617c44ca290e9c8d1de016e9d3e822843ea41506c4d4d3f303ded8c4c32d9c77"
+    },
+    {
+      "path": "build/generated/exams/exam08_solutions.id.build.tex",
+      "bytes": 28709,
+      "sha256": "c9a93e62012a7840dc219d35dd236c2670fd80167014e91865f9b1f5be036e2e"
+    },
+    {
+      "path": "build/generated/exams/exam09_learner.id.build.tex",
+      "bytes": 10200,
+      "sha256": "0093f6a8bec2f230fe0cee69f84fca3feea062c0f4ca67827d8a8dda263e61ce"
+    },
+    {
+      "path": "build/generated/exams/exam09_solutions.id.build.tex",
+      "bytes": 31049,
+      "sha256": "3bacc7434f6b5e14e6c04b46424439eb57c0ceadc39c8e23ae82efb30da64c64"
+    },
+    {
+      "path": "build/generated/exams/exam10_learner.id.build.tex",
+      "bytes": 9513,
+      "sha256": "6bcc9bd18879311e10680ed82850f0eb015aad0baf7b291fede68ebbcd9a542f"
+    },
+    {
+      "path": "build/generated/exams/exam10_solutions.id.build.tex",
+      "bytes": 35485,
+      "sha256": "316dce7e72d8c5219ebeca34a6dd5e3ecaad8ecc331cd48691d3bb78a3e46074"
+    },
+    {
+      "path": "build/generated/lecture01.id.build.tex",
+      "bytes": 28616,
+      "sha256": "b12e332e05d52e8e5a46b892a84afe57bde4b5bda2c96f5e503e8cda507ab38e"
+    },
+    {
+      "path": "build/generated/lecture02.id.build.tex",
+      "bytes": 22227,
+      "sha256": "64f97a6aad239ead128a742393e1dda49ee850018013cfc7d783ef9ffed5418b"
+    },
+    {
+      "path": "build/generated/lecture03.id.build.tex",
+      "bytes": 29131,
+      "sha256": "92957f264a00d3f1264bb8a0e710b4a47364b220595236708d11c16fed73d37a"
+    },
+    {
+      "path": "build/generated/lecture04.id.build.tex",
+      "bytes": 27205,
+      "sha256": "ed1b9a5725ef188308e320d19b82ebac09dc51f018de67dd2b8ce02fe15679c7"
+    },
+    {
+      "path": "build/generated/lecture05.id.build.tex",
+      "bytes": 24726,
+      "sha256": "a1fdf4db6aaf123521ed894463fffed57b4dd92fd1a2651595b7cbd81e788fbe"
+    },
+    {
+      "path": "build/generated/lecture06.id.build.tex",
+      "bytes": 30755,
+      "sha256": "c623f4046049dd640b6c813d357c35b532098ee383ef856ad7296881f3f7ea4e"
+    },
+    {
+      "path": "build/generated/lecture07.id.build.tex",
+      "bytes": 20460,
+      "sha256": "69e14480aa0a9f9b6a565ad8952ef3592f156d1687d2011edbf75e3155054ea2"
+    },
+    {
+      "path": "build/generated/lecture08.id.build.tex",
+      "bytes": 17413,
+      "sha256": "1de5fe501ba8953cf5f51dc42a8efb45bf795e4a6e4f98d11383ba013a40de1d"
+    },
+    {
+      "path": "build/generated/lecture09.id.build.tex",
+      "bytes": 25359,
+      "sha256": "0513417668f7cc4e261b1e25c8555ed6c2d6772bc9202c6e60e2d1ccdfcf109c"
+    },
+    {
+      "path": "build/generated/lecture10.id.build.tex",
+      "bytes": 22313,
+      "sha256": "9a8b63c77d00f344180cc91dc985810cd45ae4d6f2292242f2d213a78484fe12"
+    },
+    {
+      "path": "build/generated/lecture11.id.build.tex",
+      "bytes": 16101,
+      "sha256": "a3f689e02a8c0aede0f924f2bfd1205957a14e0994268ebe641f346a1367148d"
+    },
+    {
+      "path": "build/generated/lecture12.id.build.tex",
+      "bytes": 20287,
+      "sha256": "3dd57fbe38399ceff2118b7bffcf69b845b72e397ba212d7c56e0f417951554c"
+    },
+    {
+      "path": "build/generated/lecture13.id.build.tex",
+      "bytes": 23008,
+      "sha256": "b659b836d9971bbe06554402003db1a18a05ab27c14310bc8a20674d204ab2b0"
+    },
+    {
+      "path": "build/generated/lecture14.id.build.tex",
+      "bytes": 26070,
+      "sha256": "57c17209900125f97f6eabf8e4b7b825652b60937851c7a65d82f0bb86cf405d"
+    },
+    {
+      "path": "build/generated/lecture15.id.build.tex",
+      "bytes": 31975,
+      "sha256": "05f625788630ec0c5557b8314a51800ae6dec74d37748fb834b82cfffe79cf5f"
+    },
+    {
+      "path": "build/generated/lecture16.id.build.tex",
+      "bytes": 23909,
+      "sha256": "fa023655b61d09d0133c20192e94ecdaa4c8cbf8960f71a434efa91e94209839"
+    },
+    {
+      "path": "build/generated/lecture17.id.build.tex",
+      "bytes": 23439,
+      "sha256": "bc59a1659cfd0155c1333cb58d03ac37477e68db119cbf0655fa3ca09e514843"
+    },
+    {
+      "path": "build/generated/lecture18.id.build.tex",
+      "bytes": 23167,
+      "sha256": "873589aa4c749156ef1db51f84533c54d8540a3f4d5986cacf707f3ca8fcdc9b"
+    },
+    {
+      "path": "build/generated/lecture19.id.build.tex",
+      "bytes": 28594,
+      "sha256": "91b703089648fbc5a61266c2c636ca1e8bfa89bcda73c4edaaaa037befeddd9a"
+    },
+    {
+      "path": "build/generated/lecture20.id.build.tex",
+      "bytes": 24401,
+      "sha256": "e3bd644b8e654c3056960748cecabdecc9a07fe67a67a0d5d3237664556c7895"
+    },
+    {
+      "path": "build/generated/lecture21.id.build.tex",
+      "bytes": 23761,
+      "sha256": "aadbc8480bb5afabf8acd84a2e5ab41d0a264140f9a371c996ecfbc43068ec38"
+    },
+    {
+      "path": "build/generated/lecture22.id.build.tex",
+      "bytes": 23637,
+      "sha256": "a44f5d8c7c6715579c22363cac7cd12577521994085ac75820cadd42de3e2fd9"
+    },
+    {
+      "path": "build/generated/lecture23.id.build.tex",
+      "bytes": 24327,
+      "sha256": "4eac06768db582d998a84c1331b2df491cc30778bde8f4a32c0d9986239fb3ca"
+    },
+    {
+      "path": "build/generated/lecture24.id.build.tex",
+      "bytes": 23652,
+      "sha256": "c10a433bb174de125ca30d7241f11df2807b2527d071e22255482cb5f37289ec"
+    },
+    {
+      "path": "build/generated/lecture25.id.build.tex",
+      "bytes": 19678,
+      "sha256": "cfd86a6c9586a7c7d69fee45723cd5ee2d1315fa689e6a92f7d9fb367703d5fb"
+    },
+    {
+      "path": "build/generated/lecture26.id.build.tex",
+      "bytes": 25229,
+      "sha256": "4e61131f8cc43d385babdfc82b71a28a56d4e5e66776cccb402732e460880c67"
+    },
+    {
+      "path": "build/generated/lecture27.id.build.tex",
+      "bytes": 23511,
+      "sha256": "d588da1bbbb99340fc43e9f2cb02fbb6fa297b7b7c170de32162667bbd085967"
+    },
+    {
+      "path": "build/generated/lecture28.id.build.tex",
+      "bytes": 15864,
+      "sha256": "ebe160ea479ca44a94ab1e63b3ee4cb84e14715b94d2400650908e90e9c55311"
+    },
+    {
+      "path": "build/generated/lecture29.id.build.tex",
+      "bytes": 21335,
+      "sha256": "7fb1dd51e2368886016cf698ded3e630581ba911b07f3ef7e7f23945a7ce6d2d"
+    },
+    {
+      "path": "build/generated/media/3d-function-6.png",
+      "bytes": 1396364,
+      "sha256": "aa7fc7b229dd0427d03a9d85f341232291d221d7624951e6640dc5a69b5c5484"
+    },
+    {
+      "path": "build/generated/media/Circle - black simple.png",
+      "bytes": 66230,
+      "sha256": "ef7b03e3aa47d3be8cfa205993d27d4a2eff15bb6bcd3f381401ce88224c9b29"
+    },
+    {
+      "path": "build/generated/media/Circle on sphere wireframe 10deg 6r.png",
+      "bytes": 831787,
+      "sha256": "112d1b5f964a7a34125eeab32897ce896eed642ebc640b7bb3b8e0a84f7d44d2"
+    },
+    {
+      "path": "build/generated/media/Circle_-_black_simple.png",
+      "bytes": 66230,
+      "sha256": "ef7b03e3aa47d3be8cfa205993d27d4a2eff15bb6bcd3f381401ce88224c9b29"
+    },
+    {
+      "path": "build/generated/media/Circle_on_sphere_wireframe_10deg_6r.png",
+      "bytes": 831787,
+      "sha256": "112d1b5f964a7a34125eeab32897ce896eed642ebc640b7bb3b8e0a84f7d44d2"
+    },
+    {
+      "path": "build/generated/media/Euler spiral.png",
+      "bytes": 246540,
+      "sha256": "caf9b6bb9c2ffa5dcb72fee7e9e4bd2890a34724abbc0ffc4ea296deb22261ea"
+    },
+    {
+      "path": "build/generated/media/Evolute-parab.png",
+      "bytes": 84021,
+      "sha256": "fcaacfd7dd60400f7682a5bbc87986e9a8fd99088d291fd03eb51f35723f92b0"
+    },
+    {
+      "path": "build/generated/media/Fiddler_crab_mobius_strip.png",
+      "bytes": 145058,
+      "sha256": "15f45aee985375fe99b19f30dc62268d286db4caf103cf4fc066a8951cc43790"
+    },
+    {
+      "path": "build/generated/media/Great circle passing through two points.png",
+      "bytes": 246036,
+      "sha256": "e261725487313ded908063b98da36667fb2b4bc91f6a9bb81accd488536b9110"
+    },
+    {
+      "path": "build/generated/media/Hyperboloid1.png",
+      "bytes": 278393,
+      "sha256": "4c813998156ef1961fa557d3a7c356d737c47291d36159baa955f170e500979b"
+    },
+    {
+      "path": "build/generated/media/Hyperboloid2.png",
+      "bytes": 194637,
+      "sha256": "d6e7b45784e7208f652106f0df65839d635a3058b1fa834455e490e904c61ef0"
+    },
+    {
+      "path": "build/generated/media/Inclusion-exclusion.png",
+      "bytes": 136273,
+      "sha256": "68825ea402cfdb1cd9831891815788b481ae16189f3f9d470aa07ab787256e19"
+    },
+    {
+      "path": "build/generated/media/Inner_point.png",
+      "bytes": 9165,
+      "sha256": "8a8574b52fd937cd9f10c73bac3ab32b0b79300763a30ee4ecb2e260b39c2695"
+    },
+    {
+      "path": "build/generated/media/Integral apl rot obsah1.png",
+      "bytes": 73268,
+      "sha256": "fe9343b5b2448fd1618edaede2e1a9d22d9388731298ee1cee8597dd854a7055"
+    },
+    {
+      "path": "build/generated/media/Manifold_zahyou3.png",
+      "bytes": 9977,
+      "sha256": "fd3afef0df5b0ec3dc9eceea337fda5d15371ea143aa3cfbb24e134e455342f8"
+    },
+    {
+      "path": "build/generated/media/Minimal surface curvature planes-de.png",
+      "bytes": 666377,
+      "sha256": "fbf3bcf3d6cd43563e765fddf8657b8174034447e70033a06f2dd0df128f0533"
+    },
+    {
+      "path": "build/generated/media/Not-star-shaped.png",
+      "bytes": 21044,
+      "sha256": "857e1d1ef30e6edba644357e0c2fb8a308895f009c29766866ca8190106a19de"
+    },
+    {
+      "path": "build/generated/media/Parabola circle.png",
+      "bytes": 59606,
+      "sha256": "26ae5258f872f7b3aab41ddacc4fdc48a4760492ce7a98b203134e16e68f642a"
+    },
+    {
+      "path": "build/generated/media/Parallel lines in Poincare's model of hyperbolic geometry.png",
+      "bytes": 45428,
+      "sha256": "88f4e4987444af0bcb5c7a079dc0cf7a6bc68ba3a1c84f44d923818a390bfeac"
+    },
+    {
+      "path": "build/generated/media/Parallel transport sphere2.png",
+      "bytes": 274294,
+      "sha256": "9eeb16a1046b087010ffc9fb345214f251b552b977be48d2a018264ffcaef965"
+    },
+    {
+      "path": "build/generated/media/Partition of unity illustration.png",
+      "bytes": 88626,
+      "sha256": "a29ea8ca84cffd71518c29eca73f64796a4ecc0d86ed23bc73ae04d7bc2141b1"
+    },
+    {
+      "path": "build/generated/media/Partition_of_unity_illustration.png",
+      "bytes": 88626,
+      "sha256": "a29ea8ca84cffd71518c29eca73f64796a4ecc0d86ed23bc73ae04d7bc2141b1"
+    },
+    {
+      "path": "build/generated/media/Planned flight map of the Oiseau Blanc.png",
+      "bytes": 216870,
+      "sha256": "bd0af937518067273911519fd6fc7568202ddc706246ba35e337a52fb3f6de96"
+    },
+    {
+      "path": "build/generated/media/Poincarehalfplaneconform.png",
+      "bytes": 3137,
+      "sha256": "3fc44ea03f030f75ad3d7de2590d8ea6ef6061bdb1fe45f241129eff4af5d11c"
+    },
+    {
+      "path": "build/generated/media/Runge theorem.png",
+      "bytes": 203109,
+      "sha256": "66dffb62de06584cdc689b5dab5ee4a57aaca613e4e4d44e0d01fea7cda4b133"
+    },
+    {
+      "path": "build/generated/media/Runge_theorem.png",
+      "bytes": 203109,
+      "sha256": "66dffb62de06584cdc689b5dab5ee4a57aaca613e4e4d44e0d01fea7cda4b133"
+    },
+    {
+      "path": "build/generated/media/Sphere_with_three_handles.png",
+      "bytes": 398740,
+      "sha256": "49398059697841332186226bccf87e46032289c1a8a02063fc2600070c51a311"
+    },
+    {
+      "path": "build/generated/media/Stereographic_projection_in_3D.png",
+      "bytes": 69330,
+      "sha256": "ab78ed4225923f771ae69d44930c244c53ef7c3a44d8e7264b16467dc4a78316"
+    },
+    {
+      "path": "build/generated/media/Tangent bundle.png",
+      "bytes": 58682,
+      "sha256": "ec76e2061dcaf6b2e1bf577eb0c75e525bf89d5139ccf77b8aee25370b37bd7e"
+    },
+    {
+      "path": "build/generated/media/Tangent_bundle.png",
+      "bytes": 58682,
+      "sha256": "ec76e2061dcaf6b2e1bf577eb0c75e525bf89d5139ccf77b8aee25370b37bd7e"
+    },
+    {
+      "path": "build/generated/media/Tangentialvektor.png",
+      "bytes": 301930,
+      "sha256": "c17f99b3204c7fbdf64301545e234f99cd0378f2cdd3613a409e888fcda907b5"
+    },
+    {
+      "path": "build/generated/media/Toroidal_coord.png",
+      "bytes": 151522,
+      "sha256": "f09c9189157aedc9c9d516d24ffdf80c6e3d413101e2eb38e3c0cda996c5d618"
+    },
+    {
+      "path": "build/generated/through-unit-22-driver.tex",
+      "bytes": 17431,
+      "sha256": "7d04f2c5906c1ddf5e82a0e80dcaafa7a7d62f99f915f3b8643e5be1d8181716"
+    },
+    {
+      "path": "build/generated/unit01-media-attribution-cumulative.tex",
+      "bytes": 1610,
+      "sha256": "de290514856a211dbd2ba69d2a7c2f2ac0204bbe90c9c5159346e0ab87a38d4a"
+    },
+    {
+      "path": "build/generated/unit02-media-attribution-cumulative.tex",
+      "bytes": 896,
+      "sha256": "81533a4051923b1c7d36a3f5abe5b4a42a7d17cc68361e68368b70beb91a5d9d"
+    },
+    {
+      "path": "build/generated/unit03-media-attribution-cumulative.tex",
+      "bytes": 1160,
+      "sha256": "355c512d6402bfb5196e3f1f31efff7cfd88a598b935d7125660951a71ffd06d"
+    },
+    {
+      "path": "build/generated/unit04-media-attribution-cumulative.tex",
+      "bytes": 209,
+      "sha256": "5da5c59309fedf0f4419399e079c29750ba2de7939c507d7df90069c952606c2"
+    },
+    {
+      "path": "build/generated/unit05-media-attribution-cumulative.tex",
+      "bytes": 760,
+      "sha256": "a018e6579af2ebbe391f3d12ff82da7890d39ba217286caebccbcb7f9febb9d1"
+    },
+    {
+      "path": "build/generated/unit06-media-attribution-cumulative.tex",
+      "bytes": 734,
+      "sha256": "b9b34e9cc73caba3cf57df4bef73682dfad9766df0c9cad8c4ebcd1929d8af4c"
+    },
+    {
+      "path": "build/generated/unit07-media-attribution-cumulative.tex",
+      "bytes": 1260,
+      "sha256": "ddd2ea07293279745fc521e37621e9faa7dcacc00ae2cee137aafcba238e400d"
+    },
+    {
+      "path": "build/generated/unit08-media-attribution-cumulative.tex",
+      "bytes": 209,
+      "sha256": "5b6a0ee933926a5c286f6985fbb0017d4c300d4027253b7ba8fa56aa887c8100"
+    },
+    {
+      "path": "build/generated/unit09-media-attribution-cumulative.tex",
+      "bytes": 660,
+      "sha256": "598f4d8c9e63ed3f2a9547750e5b517faaa715f984e799a2cbd5e902ce42c6fb"
+    },
+    {
+      "path": "build/generated/unit10-media-attribution-cumulative.tex",
+      "bytes": 944,
+      "sha256": "47bf3337fe0867006c619bd55ba74e0ea4fbe1346c74994c4f7d419ec619859e"
+    },
+    {
+      "path": "build/generated/unit11-media-attribution-cumulative.tex",
+      "bytes": 667,
+      "sha256": "3bff99adee62291a608f656d03990abdebb8170e5bfb08f18550263884ab23a2"
+    },
+    {
+      "path": "build/generated/unit12-media-attribution-cumulative.tex",
+      "bytes": 930,
+      "sha256": "74bc73b81c0d5b4b8e633a497f26f0dbef55d7ece5b933569f3e55492cb7e78f"
+    },
+    {
+      "path": "build/generated/unit13-media-attribution-cumulative.tex",
+      "bytes": 682,
+      "sha256": "a4d331110538009c2217e347117d2ba8cb235a3e4e2d78800d5e50b8459123f4"
+    },
+    {
+      "path": "build/generated/unit14-media-attribution-cumulative.tex",
+      "bytes": 212,
+      "sha256": "f20eaf6200b40f4f38c4dcf69056830e51d46db6a71cfadfc7873f89c3669fc3"
+    },
+    {
+      "path": "build/generated/unit15-media-attribution-cumulative.tex",
+      "bytes": 212,
+      "sha256": "ae0018ec8acb5fba5cd0fd3dee267383ec5a0662837e6f9eb12449cba1ce9dc9"
+    },
+    {
+      "path": "build/generated/unit16-media-attribution-cumulative.tex",
+      "bytes": 1004,
+      "sha256": "46006e419dab9518ea25f0bd113f928a7b83995e48d684de88db3f673a9438e4"
+    },
+    {
+      "path": "build/generated/unit17-media-attribution-cumulative.tex",
+      "bytes": 654,
+      "sha256": "47659d9035a822317dd715ecfbbde58ff9f8f10498d921c7d8bb3b84364baa7d"
+    },
+    {
+      "path": "build/generated/unit18-media-attribution-cumulative.tex",
+      "bytes": 880,
+      "sha256": "7f91047a19c5b41e77c99dac88bc8ce4c3f0809f5aa57e6cf80576280e4f5ca0"
+    },
+    {
+      "path": "build/generated/unit19-media-attribution-cumulative.tex",
+      "bytes": 212,
+      "sha256": "d2a97bac10b2dd4e028282294cc4f28343fe9a283cbe08d00b2b4f89afc045da"
+    },
+    {
+      "path": "build/generated/unit20-media-attribution-cumulative.tex",
+      "bytes": 212,
+      "sha256": "463d4dcfea1f4b84aea7f301923927f18fef8cd89a8924568ca82f74f5677462"
+    },
+    {
+      "path": "build/generated/unit21-media-attribution-cumulative.tex",
+      "bytes": 1182,
+      "sha256": "9c37a6686e8acd4aee20edb53941601f29c420e947a108fad5bf7a96d6a09692"
+    },
+    {
+      "path": "build/generated/unit22-media-attribution-cumulative.tex",
+      "bytes": 950,
+      "sha256": "64633fa4aa0f777dc38beec16642a078997bc4ca37b71251963099d25fbbd641"
+    },
+    {
+      "path": "build/generated/unit23-media-attribution-complete.tex",
+      "bytes": 1203,
+      "sha256": "0fdba3e5e5a7acd25a966cedd843d845e10b0aa80eb931d049a6d3ea754e5df3"
+    },
+    {
+      "path": "build/generated/unit24-media-attribution-complete.tex",
+      "bytes": 212,
+      "sha256": "3cb29330e14d5aaf68f46d0a84d966ab81bec0724b12bc670deebdbf4dffa217"
+    },
+    {
+      "path": "build/generated/unit25-media-attribution-complete.tex",
+      "bytes": 212,
+      "sha256": "b1d56967d8fa489e09e27efe1d8f987122cce4a2aeb4b684307f07961e76cfd1"
+    },
+    {
+      "path": "build/generated/unit26-media-attribution-complete.tex",
+      "bytes": 212,
+      "sha256": "bb73fa47b6f7d56b289d609204544e8e9ccc8a332ee0af1897ea2d220123fbfc"
+    },
+    {
+      "path": "build/generated/unit27-media-attribution-complete.tex",
+      "bytes": 816,
+      "sha256": "21c2928614ce24a75b6be6ca1d14ed49c23793ecc2fa59f8e2221e6a9ffb797c"
+    },
+    {
+      "path": "build/generated/unit28-media-attribution-complete.tex",
+      "bytes": 212,
+      "sha256": "a34c1f0a6a727d0ef9ec2a0e169012007a2cd53d75502eb88e3824e28628b347"
+    },
+    {
+      "path": "build/generated/unit29-media-attribution-complete.tex",
+      "bytes": 816,
+      "sha256": "16e3ae9a99ab823eba3b170c20cec45713324a13f382052c905f59550ebceb98"
+    },
+    {
+      "path": "build/generated/worksheet01_exercise01_solution.id.build.tex",
+      "bytes": 2551,
+      "sha256": "6dcde3cb7e101013465d2b8f30fb37031099239dad1f91edf21e91825adba0f8"
+    },
+    {
+      "path": "build/generated/worksheet01.id.build.tex",
+      "bytes": 13451,
+      "sha256": "4f3b5c9b14bdc7262d560fb00d9caf701801db121a16f6fb261557752069f4b5"
+    },
+    {
+      "path": "build/generated/worksheet02_exercise01_solution.id.build.tex",
+      "bytes": 924,
+      "sha256": "55f4f2933945ccdd3df4cc4ff98bd706f97d2ac12c5cd23b09bf4e01ee3cd305"
+    },
+    {
+      "path": "build/generated/worksheet02_exercise02_solution.id.build.tex",
+      "bytes": 938,
+      "sha256": "2a1b044c20a07228fe7e7af89559e0363cff10e55504ba5d23459282af061e68"
+    },
+    {
+      "path": "build/generated/worksheet02_exercise07_solution.id.build.tex",
+      "bytes": 1472,
+      "sha256": "3c9c49d74f5e2d55be003538713bb790420ee92968d0648b8b302d7151763ab4"
+    },
+    {
+      "path": "build/generated/worksheet02_exercise12_solution.id.build.tex",
+      "bytes": 4982,
+      "sha256": "d126c9cfe31361594c06e84784ad4381cf269b8cffde7ced6b4861df3aae36e1"
+    },
+    {
+      "path": "build/generated/worksheet02_exercise13_solution.id.build.tex",
+      "bytes": 2439,
+      "sha256": "96cc12031d75d2deb955c6ad9a7b22c7b97532a8475902c6566d8df407df137d"
+    },
+    {
+      "path": "build/generated/worksheet02.id.build.tex",
+      "bytes": 10286,
+      "sha256": "b3698fa2a4067774ac392f8a445ac418f3ea9be09aa47611291dc9374e6f69b4"
+    },
+    {
+      "path": "build/generated/worksheet03_exercise07_solution.id.build.tex",
+      "bytes": 2870,
+      "sha256": "a0040a815111e297136f8b6034aea3ab2791757e6364ee926ed00d0aeb7f4346"
+    },
+    {
+      "path": "build/generated/worksheet03_exercise16_solution.id.build.tex",
+      "bytes": 2089,
+      "sha256": "7dcd12227a5a10d360dc4370a53cb2db5933af12cfa4513cd1767b3d56bf0a8c"
+    },
+    {
+      "path": "build/generated/worksheet03.id.build.tex",
+      "bytes": 9865,
+      "sha256": "356c490f1f94d38886301474da26c280b4eabbb7eaa5657a2a44d5f5bdfe3255"
+    },
+    {
+      "path": "build/generated/worksheet04_exercise07_solution.id.build.tex",
+      "bytes": 1956,
+      "sha256": "8211768921bdc2ae8b17d8800da4101748def3aa795c58098be0057735f71e31"
+    },
+    {
+      "path": "build/generated/worksheet04_exercise10_solution.id.build.tex",
+      "bytes": 2636,
+      "sha256": "0a932a2275395ec013560bfcc9c9f3e542a6ed189aa74dcfe8694583a250fa98"
+    },
+    {
+      "path": "build/generated/worksheet04.id.build.tex",
+      "bytes": 11720,
+      "sha256": "170e2ec3332e5a484c1328820be349829138db9cbe0e1cf92a800c50912f0bb6"
+    },
+    {
+      "path": "build/generated/worksheet05_exercise01_solution.id.build.tex",
+      "bytes": 2794,
+      "sha256": "fd205601cee5e3301f9c6ac6267706e6b6b53392f56df7baba7564f6a229efc3"
+    },
+    {
+      "path": "build/generated/worksheet05.id.build.tex",
+      "bytes": 11279,
+      "sha256": "ecaeca5a69525823e0c741d2ef79e2953a3aaba1ad9c173c40f2bf19bf29514c"
+    },
+    {
+      "path": "build/generated/worksheet06_exercise02_solution.id.build.tex",
+      "bytes": 2561,
+      "sha256": "a05d08dec69157aa38e1c867299748d39d4cdffc558939ec6b971239df878d1b"
+    },
+    {
+      "path": "build/generated/worksheet06_exercise06_solution.id.build.tex",
+      "bytes": 939,
+      "sha256": "0466633d87c732eb4b6e468dcf33f2e2755f3961e536dc732f14acf8907fc317"
+    },
+    {
+      "path": "build/generated/worksheet06_exercise09_solution.id.build.tex",
+      "bytes": 474,
+      "sha256": "4ade5a70dbb8a98d862bb72e76218f02233894cf57bcc7352fb266fd620e9a99"
+    },
+    {
+      "path": "build/generated/worksheet06.id.build.tex",
+      "bytes": 16263,
+      "sha256": "c9159aa808f638f02dd850ac6f131289fbf45390f236e23f4d6edc7ab85be900"
+    },
+    {
+      "path": "build/generated/worksheet07_exercise04_solution.id.build.tex",
+      "bytes": 787,
+      "sha256": "0a1357ad74d3f75ca72821ac159871acc8ff93b87bd87f5a56fd872f58b08882"
+    },
+    {
+      "path": "build/generated/worksheet07_exercise07_solution.id.build.tex",
+      "bytes": 1668,
+      "sha256": "b21c056701c3c5959acc6adbd5159e6e011f3e7b2b49dc36be629535020f254f"
+    },
+    {
+      "path": "build/generated/worksheet07_exercise13_solution.id.build.tex",
+      "bytes": 372,
+      "sha256": "24adcb97573668d0cd6e0a698f6bf2b5f322b2fbe2e39722a0ca74fbe0a81807"
+    },
+    {
+      "path": "build/generated/worksheet07.id.build.tex",
+      "bytes": 7780,
+      "sha256": "87d9ed393f508b149fab935cde93fd0911b2022009ff6c5b4ab412b412dd9590"
+    },
+    {
+      "path": "build/generated/worksheet08_exercise11_solution.id.build.tex",
+      "bytes": 1177,
+      "sha256": "08434f0543a131fcf09a150dcd4651066b7df97a9aae6596e035a0f42ec50756"
+    },
+    {
+      "path": "build/generated/worksheet08_exercise13_solution.id.build.tex",
+      "bytes": 3061,
+      "sha256": "843d0e294a26c771fee3ad7b220f9fdf44d44b3f6eaeced34d7ddbe39ca2b1cf"
+    },
+    {
+      "path": "build/generated/worksheet08.id.build.tex",
+      "bytes": 12863,
+      "sha256": "c7f284a7cc84ef71a3f1df8b7fa25be8e4d3cf2a79bf84e0a7b9e9d83999afca"
+    },
+    {
+      "path": "build/generated/worksheet09.id.build.tex",
+      "bytes": 10304,
+      "sha256": "62f6edc9044117566c7a763a296654e83eb201b3ae59589276052d42ada0896b"
+    },
+    {
+      "path": "build/generated/worksheet10_exercise09_solution.id.build.tex",
+      "bytes": 2795,
+      "sha256": "c475470f29cbdaca52e71094101123730bbce1573f0b8fa58448e1a518cfc4e1"
+    },
+    {
+      "path": "build/generated/worksheet10_exercise10_solution.id.build.tex",
+      "bytes": 5110,
+      "sha256": "1e6eeeb6fde3b2b40b048f74c3f73ac008cf0ee0ad8d3eb412e2b75cd4a5dc7f"
+    },
+    {
+      "path": "build/generated/worksheet10_exercise15_solution.id.build.tex",
+      "bytes": 2517,
+      "sha256": "790fdaf36052a2b750f40babe6ec9df4060911fdab00a8ee3ca297010d045541"
+    },
+    {
+      "path": "build/generated/worksheet10_exercise25_solution.id.build.tex",
+      "bytes": 1541,
+      "sha256": "bfd8ab76dcbbe624ef4e9afad36dce66b38397874e49348cdf6c2a4aa3332e9f"
+    },
+    {
+      "path": "build/generated/worksheet10.id.build.tex",
+      "bytes": 16041,
+      "sha256": "126b40afa738c6c2afd466d754e3243acb705575320023a3abc8a5eb6664c728"
+    },
+    {
+      "path": "build/generated/worksheet11_exercise10_solution.id.build.tex",
+      "bytes": 1308,
+      "sha256": "b256cc638b0a72033c0b3a63659e38ea053803044712252f1fd863f73dbd5ed3"
+    },
+    {
+      "path": "build/generated/worksheet11_exercise14_solution.id.build.tex",
+      "bytes": 767,
+      "sha256": "1dcb59a601f85acebe8da790e41d62143ac4115c36b1e20d2b15b8abced3f237"
+    },
+    {
+      "path": "build/generated/worksheet11.id.build.tex",
+      "bytes": 20369,
+      "sha256": "0f286913dd79414679789a2b9ff27b8b877716365d2d523de9586bdcd9f33282"
+    },
+    {
+      "path": "build/generated/worksheet12_exercise11_solution.id.build.tex",
+      "bytes": 2048,
+      "sha256": "be75ff34b04de199f5c6a7d1c65d949f2623fcfb56746813c85ec3b8c4a3aa4f"
+    },
+    {
+      "path": "build/generated/worksheet12_exercise12_solution.id.build.tex",
+      "bytes": 1162,
+      "sha256": "0b57624a796e6e528b7e1e0129b094ab1a50423bd223c34c150dd91c39492540"
+    },
+    {
+      "path": "build/generated/worksheet12.id.build.tex",
+      "bytes": 19290,
+      "sha256": "251d7ad2328904eab479795b7c3762ceec7a7a6b6709873e77f09d26ce071055"
+    },
+    {
+      "path": "build/generated/worksheet13_exercise01_solution.id.build.tex",
+      "bytes": 660,
+      "sha256": "e34941e0dbab6f50f233971e3fe3d716f6722f4430d0b180775673fcf938f8d2"
+    },
+    {
+      "path": "build/generated/worksheet13_exercise10_solution.id.build.tex",
+      "bytes": 1311,
+      "sha256": "bc6b663193a48174637eb4384682ee4b0357d13cc990cde063a47d56177b7098"
+    },
+    {
+      "path": "build/generated/worksheet13_exercise11_solution.id.build.tex",
+      "bytes": 953,
+      "sha256": "14da9cc8ea72afae45c78a9283115785efa5bc9eea90eae21289dd5950602ca1"
+    },
+    {
+      "path": "build/generated/worksheet13_exercise16_solution.id.build.tex",
+      "bytes": 937,
+      "sha256": "0931addc2f1a421dd6281b56c2a7df6d5fb451364a84a1fd4452d6f28ff031e2"
+    },
+    {
+      "path": "build/generated/worksheet13_exercise18_solution.id.build.tex",
+      "bytes": 817,
+      "sha256": "4a24ebc139941d4f389230f391549efdfa472b41a632184231bf6df08de7fc47"
+    },
+    {
+      "path": "build/generated/worksheet13_exercise19_solution.id.build.tex",
+      "bytes": 1501,
+      "sha256": "eba51e227e51a27d449f561490a90517e6d06c47abcf3161562967cdb4e45781"
+    },
+    {
+      "path": "build/generated/worksheet13_exercise21_solution.id.build.tex",
+      "bytes": 534,
+      "sha256": "102812d932b362452d7704594937978f44ec90764b80737ecb3d40f1d4ee5c10"
+    },
+    {
+      "path": "build/generated/worksheet13_exercise22_solution.id.build.tex",
+      "bytes": 1383,
+      "sha256": "ad94277318aa5181941b380ef51ae41645903fea13d295b6163b1348e46434b6"
+    },
+    {
+      "path": "build/generated/worksheet13.id.build.tex",
+      "bytes": 9752,
+      "sha256": "f4b88730a3296320c22f56a142511ca1ed2d8c4ce01f6c75860c27abc504f18e"
+    },
+    {
+      "path": "build/generated/worksheet14_exercise05_solution.id.build.tex",
+      "bytes": 637,
+      "sha256": "e166f1c0f4f15524dcda1e20553b4606353f9349695f0ed31c3cd88898627453"
+    },
+    {
+      "path": "build/generated/worksheet14_exercise06_solution.id.build.tex",
+      "bytes": 461,
+      "sha256": "204ca222971166ae407a998dfcf7f552390fe99736aee72b0d4283b6eb905e9b"
+    },
+    {
+      "path": "build/generated/worksheet14_exercise09_solution.id.build.tex",
+      "bytes": 2013,
+      "sha256": "99c3729944fd77c3a35a9f8908855c3af4231794da33445aeed30784a7e55385"
+    },
+    {
+      "path": "build/generated/worksheet14_exercise11_solution.id.build.tex",
+      "bytes": 2167,
+      "sha256": "b3b80e19f9a0042d8be7e6edf8d6dabd2ff5bc9cd0698ac0b176dbb046ebdc5b"
+    },
+    {
+      "path": "build/generated/worksheet14_exercise12_solution.id.build.tex",
+      "bytes": 1186,
+      "sha256": "b529f45b445b1687bd72d380943232ae63e4b4ba4d84fdb6c30e81ccc66befca"
+    },
+    {
+      "path": "build/generated/worksheet14_exercise13_solution.id.build.tex",
+      "bytes": 785,
+      "sha256": "6a9455207f83c791da4dc2d1e87785b1910c5c43841e15266eee00d9bae776d6"
+    },
+    {
+      "path": "build/generated/worksheet14_exercise14_solution.id.build.tex",
+      "bytes": 736,
+      "sha256": "2bb0587755e1f2d6d3391ddd0f72b4d408f50c3fad9a85d6ccce34f21cbbcccb"
+    },
+    {
+      "path": "build/generated/worksheet14.id.build.tex",
+      "bytes": 10606,
+      "sha256": "580bc969ff3e6a4b51bcd625f83fb608028a6aad1790fee455edc42ac47e9c8d"
+    },
+    {
+      "path": "build/generated/worksheet15_exercise01_solution.id.build.tex",
+      "bytes": 1931,
+      "sha256": "150423c98dbfb51bd725ed314684e023307067fcebe4ab85998bcd2fca4d7e4c"
+    },
+    {
+      "path": "build/generated/worksheet15_exercise11_solution.id.build.tex",
+      "bytes": 1081,
+      "sha256": "bde4746bfda25fde7e71a1fea8b827fb5a300c5377dc1aa4c8d2acfcf0d6e9e0"
+    },
+    {
+      "path": "build/generated/worksheet15_exercise12_solution.id.build.tex",
+      "bytes": 1263,
+      "sha256": "e4302745aae8fe21d36b5fc95ba492740b77ee9f767b955859790e777ac9278f"
+    },
+    {
+      "path": "build/generated/worksheet15_exercise13_solution.id.build.tex",
+      "bytes": 1596,
+      "sha256": "4b1e08fce08aaa418365bd9cdbc8845951d1e596d72ce3a0f5272808cb4eec72"
+    },
+    {
+      "path": "build/generated/worksheet15.id.build.tex",
+      "bytes": 8086,
+      "sha256": "01603b0e1ea234c648c559a25f4defe04a9e06424789c462e74167333f31a7fe"
+    },
+    {
+      "path": "build/generated/worksheet16_exercise01_solution.id.build.tex",
+      "bytes": 383,
+      "sha256": "f4845efcd3d1d4d62047736e45d0a5ca16bd6bfd2479cd696cfdff1b76d9daaa"
+    },
+    {
+      "path": "build/generated/worksheet16_exercise12_solution.id.build.tex",
+      "bytes": 2069,
+      "sha256": "88e168474d63de017a267c47f4b2b36b162b020a6fecd75ff17987371b7749b7"
+    },
+    {
+      "path": "build/generated/worksheet16.id.build.tex",
+      "bytes": 10626,
+      "sha256": "f91da5ff46a0dc7cd82b59638cbdba761a23520a78cfdcba32768891798ff7e4"
+    },
+    {
+      "path": "build/generated/worksheet17_exercise02_solution.id.build.tex",
+      "bytes": 1338,
+      "sha256": "fd70091b75a09f04a25b1590e8353333a7000965f24128736c39530f3bd93feb"
+    },
+    {
+      "path": "build/generated/worksheet17_exercise04_solution.id.build.tex",
+      "bytes": 743,
+      "sha256": "b650961fd22a89ab183d0041ebf416548850589231c4f71711735b1e18aa3f9b"
+    },
+    {
+      "path": "build/generated/worksheet17.id.build.tex",
+      "bytes": 5369,
+      "sha256": "3f796d07d14b0f5f2032fb43df7c7a30bb2eb207ca9c8f6fe7aa3099edf7631e"
+    },
+    {
+      "path": "build/generated/worksheet18_exercise08_solution.id.build.tex",
+      "bytes": 1369,
+      "sha256": "a75a906a92fda5ff229e4307a8d500275f499f646881c13ed7d38907485a3f47"
+    },
+    {
+      "path": "build/generated/worksheet18_exercise11_solution.id.build.tex",
+      "bytes": 3522,
+      "sha256": "94852e131be3d97abcb8c802f1b2fb328bb4f4d880cecd359eeb8a7495bef7b4"
+    },
+    {
+      "path": "build/generated/worksheet18_exercise13_solution.id.build.tex",
+      "bytes": 1209,
+      "sha256": "b2013eaa2dfea4a9ce6f16b257d821ebf9dff7cf3baa566321a8dba153315d51"
+    },
+    {
+      "path": "build/generated/worksheet18_exercise14_solution.id.build.tex",
+      "bytes": 1344,
+      "sha256": "77559a4631174fb35da06aae0de50155e9031fd85905c1d5b3acfd32aa2fc2c5"
+    },
+    {
+      "path": "build/generated/worksheet18.id.build.tex",
+      "bytes": 9371,
+      "sha256": "1323b8103689f948e6997564c9d17ea7d1e78e1fefec1f301503dfa8f0105c74"
+    },
+    {
+      "path": "build/generated/worksheet19.id.build.tex",
+      "bytes": 6280,
+      "sha256": "7671f9aee7946b487d8a2b8a370981b99159c20542f3199141026fa46ece5ee1"
+    },
+    {
+      "path": "build/generated/worksheet20_exercise03_solution.id.build.tex",
+      "bytes": 327,
+      "sha256": "daa22c0e4e8e043b24a22b6a2cb97b6245db15bd93f161c10e6a1785fa7559c0"
+    },
+    {
+      "path": "build/generated/worksheet20_exercise04_solution.id.build.tex",
+      "bytes": 322,
+      "sha256": "b57da1456f3da1c920ff46295755502933194a955f8148cd0c882f75a8dfc7d7"
+    },
+    {
+      "path": "build/generated/worksheet20_exercise05_solution.id.build.tex",
+      "bytes": 426,
+      "sha256": "16e13f7c76d61767d8667ca15244827d8b53fc7ca3866f1e9636610ca9226f26"
+    },
+    {
+      "path": "build/generated/worksheet20_exercise07_solution.id.build.tex",
+      "bytes": 645,
+      "sha256": "732efd6c9df9813377d82f70bb721a7a1305ad100208f0135997f23ad68f1f4e"
+    },
+    {
+      "path": "build/generated/worksheet20_exercise14_solution.id.build.tex",
+      "bytes": 1673,
+      "sha256": "56843ad32bcab8208fab30c554664a948d005f802a5778065e703b84b62b4aba"
+    },
+    {
+      "path": "build/generated/worksheet20.id.build.tex",
+      "bytes": 9385,
+      "sha256": "af2d9e99ac0b2948337630fd7a817e3d0fb4bccd1eb2ac5416f3426c777776ee"
+    },
+    {
+      "path": "build/generated/worksheet21_exercise07_solution.id.build.tex",
+      "bytes": 1635,
+      "sha256": "8c9cd01735a7ac19ad4f2eac1cc8290a892ad2a3c0dee39f571ed5fbba788129"
+    },
+    {
+      "path": "build/generated/worksheet21_exercise10_solution.id.build.tex",
+      "bytes": 1896,
+      "sha256": "dce62249466ba5b01bf5a14e4b567b9a0452424ab27162e9eeb581844a3c65c2"
+    },
+    {
+      "path": "build/generated/worksheet21_exercise12_solution.id.build.tex",
+      "bytes": 973,
+      "sha256": "083f79a2a699445e96db8b4cf7c0bc38c6bc18ce25c52cf2c6e216790152c9c9"
+    },
+    {
+      "path": "build/generated/worksheet21_exercise13_solution.id.build.tex",
+      "bytes": 917,
+      "sha256": "2386d14946f9697aa77ba8efc8d6bfd92d2c97274a55952a3ac1fc6e6dc22c9b"
+    },
+    {
+      "path": "build/generated/worksheet21.id.build.tex",
+      "bytes": 10002,
+      "sha256": "3cc7ac104a3c0de75310610ae8696e7c1e106c8381ded00fab3566115cff6db8"
+    },
+    {
+      "path": "build/generated/worksheet22_exercise06_solution.id.build.tex",
+      "bytes": 555,
+      "sha256": "d610ff1c23c1323416201fb32b1e1d7b4c8049b75c030bee4f298936969495e6"
+    },
+    {
+      "path": "build/generated/worksheet22.id.build.tex",
+      "bytes": 7491,
+      "sha256": "e04e99ff8210a47cd1a2150eae6b62fa74360d32e899a295415b6ee084859b84"
+    },
+    {
+      "path": "build/generated/worksheet23_exercise06_solution.id.build.tex",
+      "bytes": 500,
+      "sha256": "d8b6450742194e386a558850cc3833aa5fa9d8616eb4659b5fc8a4a25a4c5cde"
+    },
+    {
+      "path": "build/generated/worksheet23_exercise13_solution.id.build.tex",
+      "bytes": 2938,
+      "sha256": "ed6296b26d0d63746c9d3dac96c18570db48f057f29207ea7e24f9dbde919f3f"
+    },
+    {
+      "path": "build/generated/worksheet23_exercise16_solution.id.build.tex",
+      "bytes": 1855,
+      "sha256": "a72540feb7ec9b8c27572b0681581cabade4c4ae2eb4f7e51118dad066d415f5"
+    },
+    {
+      "path": "build/generated/worksheet23_exercise17_solution.id.build.tex",
+      "bytes": 895,
+      "sha256": "b161881b8115540a635ed6c76539b49b96accb29bc922f214743655aa4c8165b"
+    },
+    {
+      "path": "build/generated/worksheet23.id.build.tex",
+      "bytes": 14174,
+      "sha256": "b38e3f126bf0720ac3f05e3129af1e2b33fc5ecd6ad5cf1b93b4e0ed9e93a687"
+    },
+    {
+      "path": "build/generated/worksheet24.id.build.tex",
+      "bytes": 11038,
+      "sha256": "e5ec31628075b680bf1295521e8098b21c176c40f0250089c161eafd96ca02bb"
+    },
+    {
+      "path": "build/generated/worksheet25_exercise01_solution.id.build.tex",
+      "bytes": 1647,
+      "sha256": "6cab31e25e385e939de426bbb16cfdd1ba69a3c7b0b16aca2965cd4900a04808"
+    },
+    {
+      "path": "build/generated/worksheet25_exercise07_solution.id.build.tex",
+      "bytes": 675,
+      "sha256": "aeff3f5e7e34f5de031df90eb254b8696a3875588c9178bcb69845f7f5f511d0"
+    },
+    {
+      "path": "build/generated/worksheet25_exercise08_solution.id.build.tex",
+      "bytes": 1634,
+      "sha256": "1c1d6f80d223670f9deffd083adae7ddfb15e13d8108812c5ed81506f0baf09a"
+    },
+    {
+      "path": "build/generated/worksheet25_exercise11_solution.id.build.tex",
+      "bytes": 1439,
+      "sha256": "20fea9ae378d80de7798283076d5b821ade7efaa702ac4052a9638f0725b005d"
+    },
+    {
+      "path": "build/generated/worksheet25_exercise12_solution.id.build.tex",
+      "bytes": 2963,
+      "sha256": "87b7634dec4fe1509d45ba60047eac0701483ef45172bc23ed3445aec465225c"
+    },
+    {
+      "path": "build/generated/worksheet25_exercise14_solution.id.build.tex",
+      "bytes": 1370,
+      "sha256": "98cd5db0d48ff9934bfc54c25f2e671e77fec88f023cc843e6d694d544b2be19"
+    },
+    {
+      "path": "build/generated/worksheet25.id.build.tex",
+      "bytes": 19884,
+      "sha256": "1cb4ea28e7a0d9481a59445f47a561c4b0cd9d9f98454161a611dec1ede1137f"
+    },
+    {
+      "path": "build/generated/worksheet26_exercise03_solution.id.build.tex",
+      "bytes": 1434,
+      "sha256": "3589f785754f30ce7ba75b74c7b1b6bf0dc5160f6d91318bf15e8970c042feff"
+    },
+    {
+      "path": "build/generated/worksheet26_exercise06_solution.id.build.tex",
+      "bytes": 1553,
+      "sha256": "49079be3180d017cc2736baca95620240f124d19c81c9b496b9d2ee44f86514e"
+    },
+    {
+      "path": "build/generated/worksheet26_exercise09_solution.id.build.tex",
+      "bytes": 5152,
+      "sha256": "1869172513a14c1f5fe28aa125ef85bb09023098a2a0fc974a6aed2005f17ca0"
+    },
+    {
+      "path": "build/generated/worksheet26.id.build.tex",
+      "bytes": 11267,
+      "sha256": "2a2ee6e3aa6a6e0d7d2937b417bee50efe9c501a19ea115676006759e7ee180f"
+    },
+    {
+      "path": "build/generated/worksheet27_exercise04_solution.id.build.tex",
+      "bytes": 4645,
+      "sha256": "ad377ccfeda527accff3f07d1783bed2952decffa55cf6b171f31abf6ae01adb"
+    },
+    {
+      "path": "build/generated/worksheet27_exercise05_solution.id.build.tex",
+      "bytes": 1261,
+      "sha256": "d391223ba83d482fabf6563a554e50c0cb17e0fb60e53a4cf64c09987c79283a"
+    },
+    {
+      "path": "build/generated/worksheet27_exercise09_solution.id.build.tex",
+      "bytes": 1621,
+      "sha256": "85f2f432219790926f28b02802f61d47af11081691176ff66361abe9563878af"
+    },
+    {
+      "path": "build/generated/worksheet27_exercise13_solution.id.build.tex",
+      "bytes": 2025,
+      "sha256": "7f2fb0b3c5eea7cc3506b0e324a8b2148729a2219779b8a5cd1003ea5d26ef3d"
+    },
+    {
+      "path": "build/generated/worksheet27.id.build.tex",
+      "bytes": 14944,
+      "sha256": "326a0f9e33e7ccbf3a7a62721735f0f67c44eee898b8625affb205ec34689607"
+    },
+    {
+      "path": "build/generated/worksheet28_exercise02_solution.id.build.tex",
+      "bytes": 316,
+      "sha256": "08ad974e9a1237adfd27255668e8999ae7e00ab72a3b37de00db7213bbeb50ca"
+    },
+    {
+      "path": "build/generated/worksheet28_exercise05_solution.id.build.tex",
+      "bytes": 1737,
+      "sha256": "f7fb12daf4f6f0036540dd85b98b92ec431def7b0367ed9064ea4970838a7882"
+    },
+    {
+      "path": "build/generated/worksheet28.id.build.tex",
+      "bytes": 4800,
+      "sha256": "778cfeb6dea243ab916a67c7d9fc8ef4863ed595238c6d17c06e9c1620f9e81c"
+    },
+    {
+      "path": "build/generated/worksheet29_exercise02_solution.id.build.tex",
+      "bytes": 1849,
+      "sha256": "8f4961646f86da41cddaff5bff40c9f8075f7042e3fff3c9b102aaa6f1af1ee9"
+    },
+    {
+      "path": "build/generated/worksheet29.id.build.tex",
+      "bytes": 1728,
+      "sha256": "8511fdb340018b3fb42fa66b835a39832ca0ff36b871326bea9f05c84f18b6ea"
+    },
+    {
+      "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-22-id.pdf",
+      "bytes": 9046717,
+      "sha256": "4e6c03dc8388a4c10c464d939d5a416ab035c52e3bd233212c78a40617e02cf7"
+    },
+    {
+      "path": "qa/complete/cumulative-media/unit-23_media.json",
+      "bytes": 3875,
+      "sha256": "4e70dc43e08ca4353c0f1256d5ceee7722f3264141623ae15e66dff4451f641f"
+    },
+    {
+      "path": "qa/complete/cumulative-media/unit-24_media.json",
+      "bytes": 763,
+      "sha256": "000043bce105304d4d28a8a282b1bab9d95b2c06b29e1d7491d668e001a44890"
+    },
+    {
+      "path": "qa/complete/cumulative-media/unit-25_media.json",
+      "bytes": 763,
+      "sha256": "4e5c9d624225400b7d4e4bdf0aa89e79f9e093f97fd759fdb9e004d0e546dce5"
+    },
+    {
+      "path": "qa/complete/cumulative-media/unit-26_media.json",
+      "bytes": 763,
+      "sha256": "6cbf211da86d03724e6c3e10f16af0b6a7286310c61ce03e2e32dffff5fd27ac"
+    },
+    {
+      "path": "qa/complete/cumulative-media/unit-27_media.json",
+      "bytes": 2959,
+      "sha256": "7ff6b32d1e62665e3cb814d748bb4882aafbdf038abf2b9f25251f602dab18cb"
+    },
+    {
+      "path": "qa/complete/cumulative-media/unit-28_media.json",
+      "bytes": 763,
+      "sha256": "44715fc71bfdd8f50f5629ac9fb1b3a016cf9473e86976950aecc7c249899ce4"
+    },
+    {
+      "path": "qa/complete/cumulative-media/unit-29_media.json",
+      "bytes": 2959,
+      "sha256": "c5a33917bbff85a3719bb7e5986a7a06511321746cd44e85819fdc17c8140377"
+    },
+    {
+      "path": "qa/complete/driver_derivation.json",
+      "bytes": 1565,
+      "sha256": "c4c566317452a8dd0166c2fa5454d4167d22b44742cca72debb64fd90e700246"
+    },
+    {
+      "path": "qa/complete/preflight.json",
+      "bytes": 6297,
+      "sha256": "4bec39a2e117e8830c584581b5f8db140ff574174cc853f72e1f72f5de7037d9"
+    },
+    {
+      "path": "qa/complete/preparation/bridge-de-rham-assessment_prepare.json",
+      "bytes": 725,
+      "sha256": "6f2fd6b0b0e14822f283d00000da8e9d420c3740412b14f753c68eee18ab0acd"
+    },
+    {
+      "path": "qa/complete/preparation/bridge-de-rham-theory_prepare.json",
+      "bytes": 717,
+      "sha256": "3d333093f7d1952d48f6baf1215a08333f36894ca6a0d862a3e4a37ee79ffeb8"
+    },
+    {
+      "path": "qa/complete/preparation/bridge-lie-assessment_prepare.json",
+      "bytes": 720,
+      "sha256": "3d483aac1c7d72061b20cfca46095cc79d16fadf1b155c73d7c94ee3c7d3b188"
+    },
+    {
+      "path": "qa/complete/preparation/bridge-lie-theory_prepare.json",
+      "bytes": 712,
+      "sha256": "586bb210200cc5552c3f4c5f80d21fa1774378253621e654fcfaa24e28d389fb"
+    },
+    {
+      "path": "qa/complete/preparation/exam01_learner_prepare.json",
+      "bytes": 700,
+      "sha256": "dabb27434e9371d5dc0dd700faec7c3e27588e8db4701f1ad3b07401618453ad"
+    },
+    {
+      "path": "qa/complete/preparation/exam01_solutions_prepare.json",
+      "bytes": 1408,
+      "sha256": "f7316a1da4edf9b8c5a33e0ec22e2d08b002b2597ce86d86e62f391fa4e46bb3"
+    },
+    {
+      "path": "qa/complete/preparation/exam02_learner_prepare.json",
+      "bytes": 814,
+      "sha256": "c5e436b8f52806e2a8694731565583d6cd8b88873bc47fd33c55ad69bdcf291e"
+    },
+    {
+      "path": "qa/complete/preparation/exam02_solutions_prepare.json",
+      "bytes": 3315,
+      "sha256": "7527753570a1a6d88f5ab8cff3131b1e0077144bf9be233087ab6a5323c26a31"
+    },
+    {
+      "path": "qa/complete/preparation/exam03_learner_prepare.json",
+      "bytes": 811,
+      "sha256": "8cc4456923cbb75f0b9fb142cd0e657ab8df1d7dcaf2e1347ff8b1c213f3220d"
+    },
+    {
+      "path": "qa/complete/preparation/exam03_solutions_prepare.json",
+      "bytes": 3767,
+      "sha256": "12fe0d8fbc9456e84238d413b34b01f98cf00280a23d08abb7524253989c47a6"
+    },
+    {
+      "path": "qa/complete/preparation/exam04_learner_prepare.json",
+      "bytes": 930,
+      "sha256": "ce4f42c8721623a0dec09864d90ed97b89b0a4142d6241af417ab1d04f5cee56"
+    },
+    {
+      "path": "qa/complete/preparation/exam04_solutions_prepare.json",
+      "bytes": 2400,
+      "sha256": "df001e4719c99a5fd1e5dbfeaeb79eaa7c381412f2b36fa91f7e3b777960c170"
+    },
+    {
+      "path": "qa/complete/preparation/exam05_learner_prepare.json",
+      "bytes": 700,
+      "sha256": "7b4212265d5e6c44a7c10b53e35569040ad7915ee39d483c1c7818c20b0aad0c"
+    },
+    {
+      "path": "qa/complete/preparation/exam05_solutions_prepare.json",
+      "bytes": 1468,
+      "sha256": "b8c3535fc277697716c909e9f636124d1a723caefb69e0c9885a7033ee014620"
+    },
+    {
+      "path": "qa/complete/preparation/exam06_learner_prepare.json",
+      "bytes": 700,
+      "sha256": "eaf79aafd39a9f5ac515b859ed90fdbacb933e829c0b7ce3149cd95a888bcab2"
+    },
+    {
+      "path": "qa/complete/preparation/exam06_solutions_prepare.json",
+      "bytes": 2022,
+      "sha256": "1c777bab234a895d4a3251e93ff57f3509e6d2f23b1229f58812f79a640ad31a"
+    },
+    {
+      "path": "qa/complete/preparation/exam07_learner_prepare.json",
+      "bytes": 700,
+      "sha256": "2891c62e0cba474161305cc90e4831b2c4e09b829d2e743f2d84571c7d77d107"
+    },
+    {
+      "path": "qa/complete/preparation/exam07_solutions_prepare.json",
+      "bytes": 1630,
+      "sha256": "ce95230b09a27016de3e092c560646e7a6dcaef8af7bfbe1e5a981d2d53c7fa7"
+    },
+    {
+      "path": "qa/complete/preparation/exam08_learner_prepare.json",
+      "bytes": 700,
+      "sha256": "142e361fa714d01c3752d0e205dc2143e8916d5fd1bc4639011cd0933662f076"
+    },
+    {
+      "path": "qa/complete/preparation/exam08_solutions_prepare.json",
+      "bytes": 1766,
+      "sha256": "42a77fc0322b7bc5882ee4c0a53de9523d8ee4b4ff6e10c84019fde0ddc5a2dc"
+    },
+    {
+      "path": "qa/complete/preparation/exam09_learner_prepare.json",
+      "bytes": 855,
+      "sha256": "21fd708a713410942d7893754eac1b4e0ac92a120534680d2b610f6ef0c98a47"
+    },
+    {
+      "path": "qa/complete/preparation/exam09_solutions_prepare.json",
+      "bytes": 2915,
+      "sha256": "0663c84c1e9b15914b3796e887640f3e208cfaf13387912fbb639cb91675d472"
+    },
+    {
+      "path": "qa/complete/preparation/exam10_learner_prepare.json",
+      "bytes": 700,
+      "sha256": "a44739490c2c071a0ef6c5be55459e11a8344b92b25a72218f3ca82afeceffb0"
+    },
+    {
+      "path": "qa/complete/preparation/exam10_solutions_prepare.json",
+      "bytes": 2160,
+      "sha256": "5429a684c88e0119c27f7b1cc7a5af4bef177585cc862705eb3f7b14b4fb8593"
+    },
+    {
+      "path": "qa/complete/preparation/missing-exam-solutions_prepare.json",
+      "bytes": 724,
+      "sha256": "5c9d7f62203e5d0a1c1acf3ef59fa9ae8a79b6d8511059b7bef19b93fca7addb"
+    },
+    {
+      "path": "qa/complete/staging.json",
+      "bytes": 1944,
+      "sha256": "6fb955dbb84dc54ef5bc37d3dc96e40393d8a60929e2b499f9d6b821dffb23a1"
+    },
+    {
+      "path": "qa/exams/EXAM01_SOLUTIONS_BOUNDED_QA.json",
+      "bytes": 2052,
+      "sha256": "903e520114936379ac80a5ad282b529df22a688a5a72e5dd40138336fa844e34"
+    },
+    {
+      "path": "qa/exams/EXAM01_SOLUTIONS_TRANSLATION_QA.json",
+      "bytes": 1846,
+      "sha256": "4b13ded008aafc9cb642e568cc6a7c4b7f9c36145319341e382b27227106edc5"
+    },
+    {
+      "path": "qa/exams/EXAM02_SOLUTIONS_BOUNDED_QA.json",
+      "bytes": 1569,
+      "sha256": "38cf0d4133e252457eda07a9e162bc134a24cc07f39a26e3d4540cfba0a89c50"
+    },
+    {
+      "path": "qa/exams/EXAM02_SOLUTIONS_TRANSLATION_QA.json",
+      "bytes": 2745,
+      "sha256": "ac60ea7d28b4fc4b859a939e6bd1bf527144e42d357eb71464fb7bcab88fcf85"
+    },
+    {
+      "path": "qa/exams/EXAM03_SOLUTIONS_BOUNDED_QA.json",
+      "bytes": 2142,
+      "sha256": "0dc2b8161b2d3d7184bb204f91cd6af0389eb1f88c60e7f54d134f7d4e44c20d"
+    },
+    {
+      "path": "qa/exams/EXAM03_SOLUTIONS_TRANSLATION_QA.json",
+      "bytes": 1136,
+      "sha256": "fa9011452b72b4452111652e1f2d18a35b69a487b9fa907b94fde49bf48bc4ac"
+    },
+    {
+      "path": "qa/exams/EXAM04_SOLUTIONS_BOUNDED_QA.json",
+      "bytes": 1510,
+      "sha256": "928b5305a4b7bece8b6dc7ea5e1916cad10994079ba63cf98b69b9b0d7ed6da8"
+    },
+    {
+      "path": "qa/exams/EXAM04_SOLUTIONS_TRANSLATION_QA.json",
+      "bytes": 2133,
+      "sha256": "c0278b89bda12520408e8e9d9ccc15cb993ec43d9cb1e00b646e445730d7e441"
+    },
+    {
+      "path": "qa/exams/EXAM05_SOLUTIONS_BOUNDED_QA.json",
+      "bytes": 2788,
+      "sha256": "7217620db698a0b6b081e9ebb404d2493c8f3ee8131960a32344e3cc4a8d491e"
+    },
+    {
+      "path": "qa/exams/EXAM05_SOLUTIONS_TRANSLATION_QA.json",
+      "bytes": 1054,
+      "sha256": "71b8e2a233c233d599c6458d9a980135cc98c8937cc4bbfcb0136f6d55666895"
+    },
+    {
+      "path": "qa/exams/EXAM06_SOLUTIONS_BOUNDED_QA.json",
+      "bytes": 3386,
+      "sha256": "7a1d9dd474c99a08c7ddbf7ff124500507b9916996f6ad7bd1b7d28ee170ab9f"
+    },
+    {
+      "path": "qa/exams/EXAM06_SOLUTIONS_TRANSLATION_QA.json",
+      "bytes": 1053,
+      "sha256": "e5d73c514738d04894f2bb065e9b9d634d3fa39bf5524a2ee5a1c22485356e13"
+    },
+    {
+      "path": "qa/exams/EXAM07_SOLUTIONS_BOUNDED_QA.json",
+      "bytes": 2486,
+      "sha256": "371aae1c8dbe595200572692b64f31a1b7489e2dbea98bb617798d106f642bd0"
+    },
+    {
+      "path": "qa/exams/EXAM07_SOLUTIONS_TRANSLATION_QA.json",
+      "bytes": 1053,
+      "sha256": "fa4a3038cc113854e8366eda310b1a178c920101c29c6ea99a20e6b960b9eb41"
+    },
+    {
+      "path": "qa/exams/EXAM08_SOLUTIONS_BOUNDED_QA.json",
+      "bytes": 1560,
+      "sha256": "37a1696dba902dfe4532921c7790bff82eca2abd2d5ef453a1d4e0ea32a7d0ce"
+    },
+    {
+      "path": "qa/exams/EXAM08_SOLUTIONS_TRANSLATION_QA.json",
+      "bytes": 2105,
+      "sha256": "5ca9c588b36731bf9dee88d59d62785f4fb9f33a41c1e05ed6dec609257a17c3"
+    },
+    {
+      "path": "qa/exams/EXAM09_SOLUTIONS_BOUNDED_QA.json",
+      "bytes": 3581,
+      "sha256": "caa8a86c2dc64b2a57f91bc487613ad48c8bb853e9580b8ac5d56b5d61c6965a"
+    },
+    {
+      "path": "qa/exams/EXAM09_SOLUTIONS_TRANSLATION_QA.json",
+      "bytes": 1053,
+      "sha256": "48f5bce65d40d8e5753810babd29db08c7524b01193f22562468e818567706e8"
+    },
+    {
+      "path": "qa/exams/EXAM10_SOLUTIONS_BOUNDED_QA.json",
+      "bytes": 2465,
+      "sha256": "43d5178ecfa6be6b64549724f8e220bce5638e5e913435e616f46efdf831c111"
+    },
+    {
+      "path": "qa/exams/EXAM10_SOLUTIONS_TRANSLATION_QA.json",
+      "bytes": 1176,
+      "sha256": "bc4b9ec05d8b6925a0294c6a651aa95baa93cd7e1a3c9b419b84c9128428d19f"
+    },
+    {
+      "path": "qa/unit-22/build.json",
+      "bytes": 233556,
+      "sha256": "68aacdf979f81c432a62dd9cebf2d4bab8e017cc03cde60d60532aaa99e6312d"
+    },
+    {
+      "path": "qa/unit-22/pdf_structural_qa.json",
+      "bytes": 478620,
+      "sha256": "f5e9ae47e09bd6759b32b5ae14d623f25c0fbb5feb51f1d21d42559291915159"
+    },
+    {
+      "path": "scripts/build_complete_reader.ps1",
+      "bytes": 36425,
+      "sha256": "511ce8c300f5a0b108b3593e5aa5cb1c1441508edbe3e952b5d9a6c10c84fdd5"
+    },
+    {
+      "path": "scripts/prepare_unit_tex.py",
+      "bytes": 7584,
+      "sha256": "1779ec6f24a9a40ee523e7903786e6a15005a02561cdbc7b358d81d86065ebe6"
+    },
+    {
+      "path": "scripts/verify_complete_reader.py",
+      "bytes": 29725,
+      "sha256": "4180fe77f9eecab02a423b08d12df295ac56a9a033175dc59fb6f238f63ffa47"
+    },
+    {
+      "path": "source/bridges/de-rham/bridge-de-rham-assessment.id.tex",
+      "bytes": 14977,
+      "sha256": "270a158c20c9733a394a3163fd0ee4229addfe09a866a5a04be64effe4b474fe"
+    },
+    {
+      "path": "source/bridges/de-rham/bridge-de-rham-theory.id.tex",
+      "bytes": 13792,
+      "sha256": "50feb003989fe674e41e3dd16fec85ad5b6dcc20f9cf6f7f2b09bdbf620ccd0e"
+    },
+    {
+      "path": "source/bridges/lie-groups/bridge-lie-assessment.id.tex",
+      "bytes": 17123,
+      "sha256": "6d3d5555ee2845756f01415798e64d06893552e62a52d398e5c647298f96c6f5"
+    },
+    {
+      "path": "source/bridges/lie-groups/bridge-lie-theory.id.tex",
+      "bytes": 16068,
+      "sha256": "42ef0c9dedda792d0c04614d58159d5f798765d1bfcbc3e3054a6065d70b6b3f"
+    },
+    {
+      "path": "source/exams/exam-01/exam01_learner.id.tex",
+      "bytes": 8456,
+      "sha256": "a150e6cd95ea93422051f6a51e76b38acbce7beb48591ab12b34d0cac3ebd95a"
+    },
+    {
+      "path": "source/exams/exam-01/exam01_solutions.id.tex",
+      "bytes": 32215,
+      "sha256": "57249c1c3f744dcfa2b6c717f967e08df4a72eed5513c5051a22a428d58c61d6"
+    },
+    {
+      "path": "source/exams/exam-02/exam02_learner.id.tex",
+      "bytes": 6766,
+      "sha256": "aabea31036649f07272167bc1b353f0afa769e22937969d44f4bc19893675aa3"
+    },
+    {
+      "path": "source/exams/exam-02/exam02_solutions.id.tex",
+      "bytes": 31680,
+      "sha256": "b0a1db42aff2c940a7532064a7b1fecf185279df0807171b86bfcc6176eaf060"
+    },
+    {
+      "path": "source/exams/exam-03/exam03_learner.id.tex",
+      "bytes": 7997,
+      "sha256": "b8b90e5cb0517ea101fcedd6658ffa9916b03b8bc7618aa74b18e9c1f9e86084"
+    },
+    {
+      "path": "source/exams/exam-03/exam03_solutions.id.tex",
+      "bytes": 33416,
+      "sha256": "b669281a35aa1db2065866b1fde31ef41c5d298adae295d02dee775e496747bb"
+    },
+    {
+      "path": "source/exams/exam-04/exam04_learner.id.tex",
+      "bytes": 7645,
+      "sha256": "16e2a99d9b62bd082cde86a45377c50f50a11b690a3781d925b29d2ee407d83d"
+    },
+    {
+      "path": "source/exams/exam-04/exam04_solutions.id.tex",
+      "bytes": 29631,
+      "sha256": "df52cef44c3afec3887c9eebd8a1f7627f78a7e1f67eecd40038a3aa49b1ea90"
+    },
+    {
+      "path": "source/exams/exam-05/exam05_learner.id.tex",
+      "bytes": 8900,
+      "sha256": "973cbcc3d40bbfd1870b2a50ec9423c1a9b85eedfe1e4c76e377868d7438cede"
+    },
+    {
+      "path": "source/exams/exam-05/exam05_solutions.id.tex",
+      "bytes": 31738,
+      "sha256": "76f0980e9fc5f399ce993206caefb17b40e11588e63cb1ac2b31d5e39b0ba2f1"
+    },
+    {
+      "path": "source/exams/exam-06/exam06_learner.id.tex",
+      "bytes": 7187,
+      "sha256": "7d65cd6c3eb1b2095e0343cebaa53185ed5dc9eb6e344e1bb968d745bcf02d49"
+    },
+    {
+      "path": "source/exams/exam-06/exam06_solutions.id.tex",
+      "bytes": 31832,
+      "sha256": "295dae1737ee8e7a2a3d42c8c143314ca46541328e7eeb30cbc483c906bac7db"
+    },
+    {
+      "path": "source/exams/exam-07/exam07_learner.id.tex",
+      "bytes": 7525,
+      "sha256": "59ed3a24b089bb1788574ad5e5de21fc4363d3d753575b2226737d54ae34b9da"
+    },
+    {
+      "path": "source/exams/exam-07/exam07_solutions.id.tex",
+      "bytes": 26018,
+      "sha256": "ddf8bcebcf19c9fc21757d763e75c52fbbb044ec64450d5d2c8c247ab630cc82"
+    },
+    {
+      "path": "source/exams/exam-08/exam08_learner.id.tex",
+      "bytes": 7480,
+      "sha256": "20a6e0195458a3e6254d8955b0c14147399df2924312f45ae71f0aa5689ab97c"
+    },
+    {
+      "path": "source/exams/exam-08/exam08_solutions.id.tex",
+      "bytes": 29445,
+      "sha256": "64ee153d746d737bca0af1b47a981e75e62b9000b44ea483bb1afc9f7c2c6a15"
+    },
+    {
+      "path": "source/exams/exam-09/exam09_learner.id.tex",
+      "bytes": 10281,
+      "sha256": "5586288e11541188186bd087a939383fb56b7643910899ac33146166a38f6951"
+    },
+    {
+      "path": "source/exams/exam-09/exam09_solutions.id.tex",
+      "bytes": 32219,
+      "sha256": "b1ad5b0ca45852e6e85e1b1aaf7b0fe0acab07ed952b14005ba8b5c87af0b290"
+    },
+    {
+      "path": "source/exams/exam-10/exam10_learner.id.tex",
+      "bytes": 9540,
+      "sha256": "989b0d2f8f6cc963b5e91537e811dc28a9cdea709a636a7843d69d0b9f257791"
+    },
+    {
+      "path": "source/exams/exam-10/exam10_solutions.id.tex",
+      "bytes": 36394,
+      "sha256": "32a61474c2bc1de6c9deab27b7887f30f1636b5b5b21fd3678560e9780fd7678"
+    },
+    {
+      "path": "source/exams/original-repairs/missing-exam-solutions.id.tex",
+      "bytes": 7208,
+      "sha256": "4964e0600fc2f0d68c96856e48d4c240022d2cf13aecfe79fb4de2911c69fb3d"
+    },
+    {
+      "path": "source/units/unit-23/lecture23.id.tex",
+      "bytes": 25831,
+      "sha256": "72d6bd0aa4d0c3a77b46746d6641fd9d9e038812f1abeb0904d14e872cd42dde"
+    },
+    {
+      "path": "source/units/unit-23/worksheet23_exercise06_solution.id.tex",
+      "bytes": 654,
+      "sha256": "a813404507484c37155d9ae5529f96a6871b56020e897ee6140061126c6d097a"
+    },
+    {
+      "path": "source/units/unit-23/worksheet23_exercise13_solution.id.tex",
+      "bytes": 2965,
+      "sha256": "5203fd9c03ef1ca910f92d27b8a16fc4dfd238069875f1995e8d42119e0f56ad"
+    },
+    {
+      "path": "source/units/unit-23/worksheet23_exercise16_solution.id.tex",
+      "bytes": 1944,
+      "sha256": "d555d4f4ddee984f6c32845e7cea8c0b4a4c370cb36da36fa2beb2c3ae6e3ede"
+    },
+    {
+      "path": "source/units/unit-23/worksheet23_exercise17_solution.id.tex",
+      "bytes": 973,
+      "sha256": "7470059295ed784e20e65ec68a233960b59688f100615e5a71935560a81252f8"
+    },
+    {
+      "path": "source/units/unit-23/worksheet23.id.tex",
+      "bytes": 14950,
+      "sha256": "9af134008d058544d00b7f4217a89f7a0683d70f347fa2d1bce6776fcb8c00c0"
+    },
+    {
+      "path": "source/units/unit-24/lecture24.id.tex",
+      "bytes": 24647,
+      "sha256": "1a30fa076a0535c188cb5aba9c71d557e094bcc6f322340f7d35998ec6697166"
+    },
+    {
+      "path": "source/units/unit-24/worksheet24.id.tex",
+      "bytes": 11818,
+      "sha256": "2454f1169e7e12b4124cb2942e20f3bb1b70ad68943e77ede58127dfc62e10ac"
+    },
+    {
+      "path": "source/units/unit-25/lecture25.id.tex",
+      "bytes": 21074,
+      "sha256": "076e00279e59e6d9c7c59e3f27f21eb3b47dc4016699c407420bad3ced179639"
+    },
+    {
+      "path": "source/units/unit-25/worksheet25_exercise01_solution.id.tex",
+      "bytes": 1674,
+      "sha256": "b305dedf112b044bf2da51cda53c003f2031f0ca1f92ca8f167fdd14bd975456"
+    },
+    {
+      "path": "source/units/unit-25/worksheet25_exercise07_solution.id.tex",
+      "bytes": 898,
+      "sha256": "bfea93e80cfdabd3ae9adb33bc421ec13c5855911961dca480fbcfcf6b6d09d5"
+    },
+    {
+      "path": "source/units/unit-25/worksheet25_exercise08_solution.id.tex",
+      "bytes": 1661,
+      "sha256": "be99c57c94a64803252cfcfe82d4452c3e3a11638fe3a9bdab45442e343fdcff"
+    },
+    {
+      "path": "source/units/unit-25/worksheet25_exercise11_solution.id.tex",
+      "bytes": 1769,
+      "sha256": "527cb279bb9942210f2588f2ab8ff6ef2476aadf35828f2201e3351828978ce9"
+    },
+    {
+      "path": "source/units/unit-25/worksheet25_exercise12_solution.id.tex",
+      "bytes": 2990,
+      "sha256": "dfc6b08dcb66b41bee29c759a142f23b0071c7a09bfb1ae3fc7b6dc936a298bb"
+    },
+    {
+      "path": "source/units/unit-25/worksheet25_exercise14_solution.id.tex",
+      "bytes": 1594,
+      "sha256": "2aeecc2e8afa88768cf8b89963cde3561204486c76223f133608bde62349c612"
+    },
+    {
+      "path": "source/units/unit-25/worksheet25.id.tex",
+      "bytes": 20360,
+      "sha256": "f9382254ef5dee139db6650b88262b250af5fd055eb3bddab3a5b4b569324f40"
+    },
+    {
+      "path": "source/units/unit-26/lecture26.id.tex",
+      "bytes": 27185,
+      "sha256": "b9915fa7e2bcda998f396829548a6a272d4ea516d5155bbb5695db69fbd0fdda"
+    },
+    {
+      "path": "source/units/unit-26/worksheet26_exercise03_solution.id.tex",
+      "bytes": 1530,
+      "sha256": "6d1e3218dc4add645605ec77e5a6abcf2561790b741a8d1bb9d3a0006ddec3eb"
+    },
+    {
+      "path": "source/units/unit-26/worksheet26_exercise06_solution.id.tex",
+      "bytes": 1645,
+      "sha256": "5665146bc9b1c3ced56ab618caec2531dd301497d3734752646f86de76600367"
+    },
+    {
+      "path": "source/units/unit-26/worksheet26_exercise09_solution.id.tex",
+      "bytes": 5280,
+      "sha256": "b013b58e0ffd2c0ab9e40075b205933a3dd446ca01b10eff4a55abf15d5a8bc3"
+    },
+    {
+      "path": "source/units/unit-26/worksheet26.id.tex",
+      "bytes": 11725,
+      "sha256": "9ae7f9c964286053cd0b58bde0c11c90a44b1bcc757fa2dedaaaca185b63916e"
+    },
+    {
+      "path": "source/units/unit-27/lecture27.id.tex",
+      "bytes": 25369,
+      "sha256": "37623a58c537cf9e13e00b189eda77d880adb43bc09e60662691bb2d58bd60d2"
+    },
+    {
+      "path": "source/units/unit-27/worksheet27_exercise04_solution.id.tex",
+      "bytes": 4731,
+      "sha256": "3961beca50c57223e144592d1ca2e97e48bdba4eee8eb5703756249fef3d145c"
+    },
+    {
+      "path": "source/units/unit-27/worksheet27_exercise05_solution.id.tex",
+      "bytes": 1444,
+      "sha256": "4c1db25df8021f1db13580b505edf6e5201814b46b793a98431dc8e1593b378f"
+    },
+    {
+      "path": "source/units/unit-27/worksheet27_exercise09_solution.id.tex",
+      "bytes": 1824,
+      "sha256": "5b6c999a3f8b6c55d08b2fb6c8eceaab127116782a7b851b7af6f37a0bec9f8c"
+    },
+    {
+      "path": "source/units/unit-27/worksheet27_exercise13_solution.id.tex",
+      "bytes": 2052,
+      "sha256": "b440e32bb0acc0d3744c78cfd1c0c99fcdf9837d17bb13fe5b2ffcddc6639cae"
+    },
+    {
+      "path": "source/units/unit-27/worksheet27.id.tex",
+      "bytes": 15187,
+      "sha256": "a5d6c58bb96b80e7b381935465a6d9a55e2a18f890684d263032d442eda4ce1c"
+    },
+    {
+      "path": "source/units/unit-28/lecture28.id.tex",
+      "bytes": 17682,
+      "sha256": "2ef59ce9e1230c34a50e8c098676f8286cbda627b2a888de08ab19f96802f37e"
+    },
+    {
+      "path": "source/units/unit-28/worksheet28_exercise02_solution.id.tex",
+      "bytes": 413,
+      "sha256": "069d757ea1da7ee81ea7326588273b16da5582ebc587322639d22581987cad4a"
+    },
+    {
+      "path": "source/units/unit-28/worksheet28_exercise05_solution.id.tex",
+      "bytes": 2076,
+      "sha256": "b9997de6fe7bf24fa0ecf2a55711c13d711b92b11f752193c85f22c89858cf67"
+    },
+    {
+      "path": "source/units/unit-28/worksheet28.id.tex",
+      "bytes": 4827,
+      "sha256": "15c77fc77b9e93694627d4371ada815c958204942ef8554fdb48f8eb651fb4f5"
+    },
+    {
+      "path": "source/units/unit-29/lecture29.id.tex",
+      "bytes": 23828,
+      "sha256": "74e8a2befbded780466fc6d2ff0c913c2d3d387e019bb16daf0fa961c51c43b2"
+    },
+    {
+      "path": "source/units/unit-29/worksheet29_exercise02_solution.id.tex",
+      "bytes": 2072,
+      "sha256": "f8e058dc363f032f4de39ab8eeade26658568cb5e45acb909ae7e95aefe2f884"
+    },
+    {
+      "path": "source/units/unit-29/worksheet29.id.tex",
+      "bytes": 2090,
+      "sha256": "00aa6620956475bde67bb608b711f12edf1e8fcbf91900d2bd026be0235f0b31"
+    }
+  ],
+  "output": {
+    "path": "output/pdf/geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+    "bytes": 10525469,
+    "sha256": "26f19153db2ca08851e182202900a8371f1816b428f8fe7321b35de60b9c84ef"
+  },
+  "structural_verifier": {
+    "path": "scripts/verify_complete_reader.py",
+    "output": "qa/complete/pdf_structural_qa.json"
+  }
+}

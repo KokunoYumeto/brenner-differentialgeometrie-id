@@ -3,12 +3,12 @@
 This backend is additive to the Indonesian reader. It follows the coordinator's interoperability envelope without making the reader depend on a database or proprietary service.
 
 - `schema/o011-record-v1.schema.json` defines the common record envelope.
-- `records.jsonl` is the canonical deterministic UTF-8/LF stream through Unit 22.
+- `records.jsonl` is the canonical deterministic UTF-8/LF stream for the complete O011 edition.
 - `records.csv` is a deliberately lossy exchange projection of common fields.
 - `MANIFEST.json` binds the generated views, source/target inputs, and generator.
-- `unit01_records_frozen.jsonl` is the immutable 174-record Unit 1 baseline. Each cumulative exporter preserves its published predecessor prefix byte-for-byte; the current Unit 22 export preserves the exact 3,747-record public Unit 19 backend.
+- `unit01_records_frozen.jsonl` is the immutable 174-record Unit 1 baseline. Each cumulative exporter preserves its published predecessor prefix byte-for-byte; the complete export preserves the exact 4,324-record published Unit 22 backend.
 
-Stable IDs use source order and source-local identity, never translated titles or rendered page numbers. Display identifiers retain Brenner's source numbering (`1.x` through `22.x`) rather than the standalone book wrapper's chapter prefixes. Corrections and component rights remain separate records. Regenerate the current combined backend only through `scripts/export_backend_v22.py`; generated files must not be hand-edited.
+Stable IDs use source order and source-local identity, never translated titles or rendered page numbers. Display identifiers retain Brenner's source numbering (`1.x` through `29.x`) rather than the standalone book wrapper's chapter prefixes. Exam occurrences retain form/slot identity and point to semantic problem IDs derived from the frozen rendered-task hashes. Official solutions, source-missing occurrences, original repairs, bridge items, corrections, reader anchors, provenance, and component rights remain explicitly distinct. Regenerate the current combined backend only through `scripts/export_backend_complete.py`; generated files must not be hand-edited.
 
 Unit 1 exposes one PDF `artifact` and receipt-backed `qa_event` records for structural translation checks, exact media closure, two-cycle reproducible PDF build, structural/accessibility inspection, and all-page visual inspection. Evidence paths are repository-relative; receipt hashes bind the records without copying machine-local or temporary-render paths into the public views.
 
@@ -45,3 +45,14 @@ python scripts/export_backend_v22.py --root . --checkpoint 2026-08-28T13:30:00Z 
 ```
 
 The generator rejects a changed Unit 19 prefix; drift from the Units 20–22 semantic census; stale authority, translation, mathematical-QA, correction, media-alias, or rights evidence; exercise/point/hint/solution mismatches; schema violations; duplicate IDs; and unresolved stable-ID references. Use `--check-only` for a non-mutating full reconstruction. Run `python scripts/verify_backend_v22.py --root .` after export to verify canonical JSONL, the exact CSV projection, JSON Schema validity, reference closure, every source/target segment hash, exact solution-absence truth, live artifact hashes, component rights, every correction target/evidence binding, complete adverse-ledger closure, and a byte-identical two-cycle repeat export.
+
+The complete suffix adds Units 23–29 and closes the Brenner core at 576 exercises with exactly 84 source-supplied worksheet solutions. It also adds all 147 nominal exam slots (123 actual occurrences, 24 placeholders), 119 semantic exam problems, 117 official source-supplied exam solutions, the six separately licensed and separately provenanced original repairs, and both original bridges with exactly 24 solved exercises plus eight solved mastery problems. Twelve declared-delta manifests bind 37 corrections/deltas, including exactly two source corrections. The complete backend contains 6,912 records, of which the final 2,588 are appended after the byte-identical Unit 22 prefix.
+
+Use the fixed checkpoint so reconstruction is byte-identical:
+
+```text
+python scripts/export_backend_complete.py --root . --checkpoint 2026-08-28T18:30:00Z --translation-state mathematically_reviewed
+python scripts/verify_backend_complete.py --root .
+```
+
+The complete verifier recomputes the exam occurrence map from the frozen learner sources, proves exact learner-prompt splicing and solution-presence topology across all official forms, validates the six one-to-one original repairs and all 32 bridge items, checks hash-bound translation/math/source identities, validates media and licenses, enforces schema/reference/duplicate closure, preserves both Unit 22 prefixes byte-for-byte, and repeats the deterministic in-memory reconstruction.

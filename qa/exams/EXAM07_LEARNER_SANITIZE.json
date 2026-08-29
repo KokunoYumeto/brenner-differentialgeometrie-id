@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "input": "authority/exams/mediawiki/exam07_learner_expandtemplates.json",
+  "input_bytes": 10380,
+  "input_sha256": "4b12d18c1b72092eba093ae370c87b8fde544f040c71b10de78dcde24caf9860",
+  "expanded_chars": 9562,
+  "output": "authority/exams/expanded/exam07_learner_source.de.tex",
+  "output_bytes": 7707,
+  "output_sha256": "0b65c4f5b565ad7f5e4e8888d4300bdddda66378822ab3239de221716e1b0e9d",
+  "transform": [
+    "normalize CRLF/CR to LF",
+    "replace br tags with LF",
+    "remove div/pre/nowiki wrapper tags",
+    "decode HTML entities",
+    "strip trailing horizontal whitespace",
+    "collapse runs of blank lines",
+    "require no residual HTML tag or U+FFFD"
+  ]
+}

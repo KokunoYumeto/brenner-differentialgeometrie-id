@@ -1,0 +1,23 @@
+{
+  "authority": "frozen recursive German Wikiversity Special:Export",
+  "exact_utf8_base64_sha256": "1b4a11ddf904b421d897a1c69c4ab981d3173ad77b4f6f9bde716eb6931c215a",
+  "exact_utf8_base64_witness": "authority/mediawiki/worksheet28_root_revid906525.utf8.b64",
+  "format": "text/x-wiki",
+  "mediawiki_sha1_base36": "jfn4okl7l3sp3ep6jytmgg7wc2gwdut",
+  "model": "wikitext",
+  "namespace": 106,
+  "pageid": 142662,
+  "parentid": 906505,
+  "readable_normalized_bytes": 986,
+  "readable_normalized_sha256": "a98ba273e590c10928372e37ba660c55bfa13ac45a1a00e7464bd19a7921b4e9",
+  "readable_normalized_witness": "authority/mediawiki/worksheet28_root_revid906525.wiki",
+  "revid": 906525,
+  "schema_version": 1,
+  "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+  "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+  "source_utf8_bytes": 985,
+  "source_utf8_sha1": "a66020904cac2d8a002e4b34ddd8a69e3e2a2625",
+  "source_utf8_sha256": "1af8cb020156a3197cdd8526287be31443acc9093783729b0963205b317f223c",
+  "timestamp": "2023-07-15T17:00:10Z",
+  "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 28"
+}

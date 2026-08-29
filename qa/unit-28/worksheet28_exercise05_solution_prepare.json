@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-28/worksheet28_exercise05_solution.id.tex",
+  "input_bytes": 2076,
+  "input_sha256": "b9997de6fe7bf24fa0ecf2a55711c13d711b92b11f752193c85f22c89858cf67",
+  "output": "build/generated/worksheet28_exercise05_solution.id.build.tex",
+  "output_bytes": 1737,
+  "output_sha256": "f7fb12daf4f6f0036540dd85b98b92ec431def7b0367ed9064ea4970838a7882",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Reelles Vektorbündel/Rang 1/Offene Menge/Krümmungsoperator/Fakt",
+      "label": "Fakta"
+    },
+    {
+      "target": "1-Form/Vektorfeld/Geschlossen gdw Integrabilitätsbedingung/Aufgabe",
+      "label": "Soal"
+    },
+    {
+      "target": "Teilmenge/R^n/Sternförmig/Gradientenfeld/Charakterisierung/Fakt",
+      "label": "Fakta"
+    },
+    {
+      "target": "Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt",
+      "label": "Fakta"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

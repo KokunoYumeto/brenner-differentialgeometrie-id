@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "input": "source/units/unit-04/worksheet04.id.tex",
-  "input_bytes": 11797,
-  "input_sha256": "f3721ced8fc5db02dd600ff81f02455ec724f34c7a085f4280d8f5c2d14873f8",
+  "input_bytes": 11805,
+  "input_sha256": "fb6438475d2ebc6917f7928faa6b338e67944c1228406d2178f58119307e1ebf",
   "output": "build/generated/worksheet04.id.build.tex",
-  "output_bytes": 11712,
-  "output_sha256": "5dbed57209c4d5742b71d001a0bb75a75b98646f1af24a60c6bfa8982c2515ed",
+  "output_bytes": 11720,
+  "output_sha256": "170e2ec3332e5a484c1328820be349829138db9cbe0e1cf92a800c50912f0bb6",
   "removed_category_links": 1,
   "removed_noedit_markers": 0,
   "trimmed_media_arguments": 0,
@@ -19,5 +19,6 @@
       "target": "Einschaliges Hyperboloid/Weingartenabbildung/Beispiel",
       "label": "Contoh 4.5"
     }
-  ]
+  ],
+  "rendered_interactive_gif_links": []
 }

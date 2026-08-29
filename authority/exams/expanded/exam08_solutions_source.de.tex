@@ -1,0 +1,1904 @@
+%Daten zur Institution
+
+%\input{Dozentdaten}
+
+%\renewcommand{\fachbereich}{Fachbereich}
+
+%\renewcommand{\dozent}{Prof. Dr. . }
+
+%Klausurdaten
+
+\renewcommand{\klausurgebiet}{ }
+
+\renewcommand{\klausurtyp}{ }
+
+\renewcommand{\klausurdatum}{ . 20}
+
+\klausurvorspann {\fachbereich} {\klausurdatum} {\dozent} {\klausurgebiet} {\klausurtyp}
+
+%Daten für folgende Punktetabelle
+
+\renewcommand{\aeins}{  3  }
+
+\renewcommand{\azwei}{  3   }
+
+\renewcommand{\adrei}{  3  }
+
+\renewcommand{\avier}{  0  }
+
+\renewcommand{\afuenf}{  2  }
+
+\renewcommand{\asechs}{  0  }
+
+\renewcommand{\asieben}{  3  }
+
+\renewcommand{\aacht}{  7  }
+
+\renewcommand{\aneun}{  0  }
+
+\renewcommand{\azehn}{  7  }
+
+\renewcommand{\aelf}{  4  }
+
+\renewcommand{\azwoelf}{  3  }
+
+\renewcommand{\adreizehn}{  3   }
+
+\renewcommand{\avierzehn}{  7  }
+
+\renewcommand{\afuenfzehn}{  2  }
+
+\renewcommand{\asechzehn}{  9  }
+
+\renewcommand{\asiebzehn}{  7  }
+
+\renewcommand{\aachtzehn}{  63  }
+
+\renewcommand{\aneunzehn}{    }
+
+\renewcommand{\azwanzig}{    }
+
+\renewcommand{\aeinundzwanzig}{    }
+
+\renewcommand{\azweiundzwanzig}{    }
+
+\renewcommand{\adreiundzwanzig}{    }
+
+\renewcommand{\avierundzwanzig}{    }
+
+\renewcommand{\afuenfundzwanzig}{    }
+
+\renewcommand{\asechsundzwanzig}{    }
+
+\punktetabellesiebzehn
+
+\klausurnote
+
+\newpage
+
+\setcounter{section}{0}
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Definiere die folgenden
+\zusatzklammer {kursiv gedruckten} {} {} Begriffe.
+\aufzaehlungsechs{Die
+\stichwort {Gauß-Abbildung} {}
+zu einer differenzierbaren Hyperfläche
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}{Eine
+\stichwort {topologische Karte} {}
+auf einer
+\definitionsverweis {topologischen Mannigfaltigkeit}{}{}
+$M$.
+
+}{Eine  $C^1$-\stichwort {differenzierbare Mannigfaltigkeit} {} $M$.
+
+}{Die $n$-te \stichwort {äußere Potenz} {} zu einem
+$K$-\definitionsverweis {Vektorraum}{}{}
+$V$
+\zusatzklammer {es genügt, das Symbol dafür anzugeben} {} {.}
+
+}{Eine
+\stichwort {lokale Isometrie} {}
+\maabb {\varphi} {L} {M
+} {}
+zwischen riemannschen Mannigfaltigkeiten.
+
+}{Ein
+\stichwort {lokal integrabler} {}
+Zusammenhang auf einem differenzierbaren Vektorbündel
+\maabb {p} {E} {X
+} {}
+über einer differenzierbaren Mannigfaltigkeit $X$.
+}
+
+}
+{
+
+\aufzaehlungsechs{Es sei eine
+\definitionsverweis {Orientierung}{}{}
+auf $Y$ fixiert. Dann heißt die Abbildung
+\maabbdisp {} {Y} { S^{n-1}
+} {,}
+die jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+auf seinen durch die Orientierung fixierten Einheitsnormalenvektor abbildet, die
+Gauß-Abbildung
+zu $Y$.
+}{Eine topologische Karte ist jede
+\definitionsverweis {Homöomorphie}{}{}
+\maabbdisp {\varphi} {U} {V
+} {,}
+wobei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+sind.
+}{Ein
+\definitionsverweis {topologischer}{}{}
+\definitionsverweis {Hausdorffraum}{}{}
+$M$ zusammen mit einer
+\definitionsverweis {offenen Überdeckung}{}{}
+
+\mathl{M= \bigcup_{i \in I} U_i}{} und
+\definitionsverweis {Karten}{}{}
+\maabbdisp {\alpha_i} {U_i } { V_i
+} {}
+mit
+\mathl{V_i \subseteq \R^n}{} offen derart, dass die
+\definitionsverweis {Übergangsabbildungen}{}{}
+\maabbdisp {\alpha_j \circ (\alpha_i)^{-1}} {V_i \cap \alpha_i(U_i \cap U_j)   } { V_j \cap \alpha_j(U_i \cap U_j)
+} {}
+$C^1$-\definitionsverweis {Diffeomorphismen}{}{}
+für alle
+\mathl{i,j \in  I}{} sind, heißt differenzierbare Mannigfaltigkeit.
+}{Man nennt den $K$-Vektorraum
+\mathl{\bigwedge^n V}{} das $n$-te Dachprodukt von $V$.
+}{Eine
+\definitionsverweis {differenzierbare Abbildung}{}{}
+\maabb {\varphi} {L} {M
+} {}
+heißt
+lokale Isometrie,
+wenn für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Tangentialabbildung}{}{}
+\maabbdisp {T_P \varphi} {T_PL} { T_{\varphi(P) } M
+} {}
+eine
+\definitionsverweis {Isometrie}{}{}
+bezüglich der gegebenen Skalarprodukte ist.
+}{Der Zusammenhang heißt
+lokal integrabel,
+wenn es zu jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \in }{ E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+einen auf einer offenen Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ p(e)
+}
+{ \in }{ U
+}
+{ \subseteq }{ X
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definierten
+\definitionsverweis {horizontalen Schnitt}{}{}
+\maabbdisp {s} {U} {E \vert_U
+} {}
+durch $e$ gibt.
+}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Formuliere die folgenden Sätze.
+\aufzaehlungdrei{Der
+\stichwort {Isometriesatz für den Paralleltransport auf einer Hyperfläche} {}
+
+\mavergleichskette
+{\vergleichskette
+{  Y
+}
+{ \subseteq }{  \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}{Das
+\stichwort {Theorema egregium} {.}}{Der Satz über die Partition der Eins.}
+
+}
+{
+
+\aufzaehlungdrei{\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {offen}{}{,}
+eine
+\definitionsverweis {differenzierbare Hyperfläche}{}{}
+und sei
+\maabb {\gamma} {[a,b]} {Y
+} {}
+eine
+\definitionsverweis {differenzierbare Kurve}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(a)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(b)
+}
+{ = }{ Q
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Dann ist der
+\definitionsverweis {Paralleltransport}{}{}
+längs $\gamma$ eine
+\definitionsverweis {Isometrie}{}{}
+\maabbdisp {} {T_PY} {T_QY
+} {.}}
+\faktzusatz {}
+\faktzusatz {}}{\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {orientierte Fläche}{}{}
+und sei
+\maabbdisp {\varphi} { V } { Y
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+eine zweifach differenzierbare lokale Parametrisierung von $Y$ mit den Parametern $u,v$. Es sei
+\mathl{\left(  g_{ij}  \right)}{} die
+\definitionsverweis {erste Fundamentalmatrix}{}{}
+auf $V$.}
+\faktfolgerung {Dann gilt für die
+\definitionsverweis {Gaußsche Krümmung}{}{}
+unter Verwendung der
+\definitionsverweis {Christoffelsymbole}{}{}
+die Beziehung
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ K
+}
+{ =} { { \frac{   1  }{ g_{11}  } }  \left(  \partial_2 \Gamma_{11}^2 - \partial_1 \Gamma_{12}^2 + \Gamma^1_{11} \Gamma^2_{12}  + \Gamma_{11}^2 \Gamma_{22}^2 - \Gamma_{12}^1 \Gamma_{11}^2-  \left(  \Gamma_{12}^2  \right)^2  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}}{Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+mit einer
+\definitionsverweis {abzählbaren Basis}{}{}
+der Topologie. Dann gibt es zu jeder offenen Überdeckung eine der Überdeckung untergeordnete
+\definitionsverweis {stetig differenzierbare}{}{}
+\definitionsverweis {Partition der Eins}{}{.}}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Es seien
+\maabbdisp {f,g} {\R} { \R^n
+} {}
+\definitionsverweis {differenzierbare Kurven}{}{.}
+Berechne die
+\definitionsverweis {Ableitung}{}{}
+der Funktion
+\maabbeledisp {} {\R} {\R
+} { t } { \left\langle f(t) , g(t)  \right\rangle
+} {.}
+Formuliere das Ergebnis mit dem Skalarprodukt.
+
+}
+{
+
+Es seien $f_i(t)$ bzw. $g_i(t)$ die Komponentenfunktionen von
+\mathkor {} {f} {bzw.} {g} {.}
+Die in Frage stehende Funktion ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{  \left\langle f(t) , g(t)  \right\rangle
+}
+{ =} { \sum_{i = 1}^n  f_i(t) g_i(t)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit der Ableitung
+\zusatzklammer {auf jeden Summanden wendet man die Produktregel an} {} {}
+
+\mathdisp {\sum_{i = 1}^n  f'_i(t) g_i(t)  + \sum_{i = 1}^n  f_i(t) g'_i(t)} { . }
+
+Mit dem Skalarprodukt kann man dies als
+
+\mathdisp {\left\langle f'(t) ,  g(t)  \right\rangle + \left\langle f(t) ,  g'(t)  \right\rangle} {  }
+
+schreiben.
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{2}
+
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {offen}{}{,}
+eine
+\definitionsverweis {differenzierbare Hyperfläche}{}{}
+und sei
+\maabb {\gamma} {I =[a,b]} {Y
+} {}
+eine
+\definitionsverweis {geodätische Kurve}{}{.}
+Zeige, dass der
+\definitionsverweis {Paralleltransport}{}{}
+längs $\gamma$ den tangentialen Vektor
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'(a)
+}
+{ \in }{ T_{\gamma(a)}Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in den tangentialen Vektor
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'(b)
+}
+{ \in }{ T_{\gamma(b)}Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+überführt.
+
+}
+{
+
+Nach
+[[Differenzierbare Hyperfläche/Differenzierbare Kurve/Ableitung parallel/Geodätische/Fakt|Lemma 6.8 (Differentialgeometrie (Osnabrück 2023))]]
+ist das Geschwindigkeitsfeld $\gamma'$ ein
+\definitionsverweis {paralleles Vektorfeld}{}{}
+längs $\gamma$. Daher überführt der
+\definitionsverweis {Paralleltransport}{}{}
+$\Psi_\gamma$  zu $\gamma$ den Vektor
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'(a)
+}
+{ \in }{  T_{\gamma(a)} Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in den Vektor
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma'(b)
+}
+{ \in }{  T_{\gamma(b)} Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+über.
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Ist die Abbildung
+\maabbeledisp {\varphi} {S^1} {S^1
+} {(x,y)} {( \betrag {  x  } ,y)
+} {,}
+\definitionsverweis {differenzierbar}{}{?}
+
+}
+{
+
+Wir betrachten die Verknüpfung von Abbildungen
+
+\mathdisp {\R \stackrel{ \theta }{\longrightarrow} S^1 \stackrel{\varphi}{\longrightarrow} S^1 \subset \R^2 \stackrel{p_1}{\longrightarrow} \R} { , }
+
+wobei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \theta(t)
+}
+{ =} {(\cos  t , \sin  t )
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und $p_1$ die erste Projektion ist. Die trigonometrische Parametrisierung, die Inklusion
+\zusatzklammer {einer abgeschlossenen Untermannigfaltigkeit} {} {}
+und die Projektion sind differenzierbar. Wäre $\varphi$ differenzierbar, so müsste auch die Gesamtabbildung differenzierbar sein. Diese ist aber
+\maabbeledisp {} {\R} {\R
+} { t } {\betrag {  \cos  t  }
+} {.}
+Diese ist an der Stelle
+\mathl{t= \pi/2}{} nicht differenzierbar, da dort die linksseitige Steigung $-1$ und die rechtsseitige Steigung $1$ ist. Die Abbildung $\varphi$ ist also nicht differenzierbar.
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{7}
+
+{
+
+Es sei $M$ eine kompakte differenzierbare Mannigfaltigkeit mit einer stetigen positiven Volumenform $\omega$. Zeige, dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_M \omega
+}
+{ <} { \infty
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist.
+
+}
+{
+
+Zu jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt es eine offene Kartenumgebung
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und eine Kartenabbildung
+\maabbdisp {\alpha} { U } { V
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen und so, dass
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha^{-1 *} \omega
+}
+{ = }{ fdx_1 \wedge \ldots \wedge dx_n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist mit
+\mathl{f}{} stetig und positiv. Wir finden auch eine offene Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U'
+}
+{ \subseteq }{ U
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+die homöomorph zu einem offenen Ball
+
+\mavergleichskette
+{\vergleichskette
+{ U'
+}
+{ \cong }{ B'
+}
+{ \subseteq }{ V
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist, wobei man auch annehmen kann, dass der Abschluss des Balles ganz in $V$ liegt. Der abgeschlossene Ball ist abgeschlossen und beschränkt, daher ist die stetige Funktion $f$ darauf und somit auch auf $U'$ beschränkt. Es folgt, dass
+\mathl{\int_{U'} \omega}{} endlich ist, wobei $U'$ eine offene Umgebung von $P$ ist.
+
+Diese offenen Mengen
+
+\mavergleichskette
+{\vergleichskette
+{ U'
+}
+{ = }{ U'(P)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+überdecken $M$. Wegen der Kompaktheit gibt es eine endliche Überdeckung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { \bigcup_{i = 1} ^n U_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_{U_i } \omega
+}
+{ <} { \infty
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Wegen der Positivität gilt somit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_{M} \omega
+}
+{ \leq} { \sum_{i = 1}^n  \left(  \int_{U_i } \omega  \right)
+}
+{ <} { \infty
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{7 (1+2+4)}
+
+{
+
+\aufzaehlungdreiabc{ Man gebe eine topologische Eigenschaft an, die zeigt, dass das
+\definitionsverweis {offene Einheitsintervall}{}{}
+und die
+\definitionsverweis {Kreissphäre}{}{}
+$S^1$ nicht
+\definitionsverweis {homöomorph}{}{}
+sind.
+}{Zeige, dass jede stetige
+$1$-\definitionsverweis {Differentialform}{}{}
+auf
+\mathl{]0,1[}{}
+\definitionsverweis {exakt}{}{}
+ist.
+}{ Man gebe eine konkrete
+\definitionsverweis {geschlossene}{}{}
+$1$-Form auf $S^1$ an, die nicht exakt ist.
+}
+
+}
+{
+
+a) Nach
+[[Kompaktheit/Satz von Heine-Borel/Fakt|Satz 13.14 (Differentialgeometrie (Osnabrück 2023))]]
+ist die $S^1$ als abgeschlossene und beschränkte Teilmenge des $\R^2$
+\definitionsverweis {kompakt}{}{,}
+das offene Intervall ist dagegen nicht kompakt.
+
+b) Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { hdt
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit einer stetigen Funktion
+\maabbdisp {h} {]0,1[} {\R
+} {.}
+Nach
+dem [[Hauptsatz der Infinitesimalrechnung/Riemann/Fakt|Hauptsatz der Infinitesimalrechnung]]
+besitzt $h$ eine Stammfunktion $H$. In der Sprache der Differentialformen bedeutet dies
+
+\mavergleichskettedisp
+{\vergleichskette
+{H'
+}
+{ =} { hdt
+}
+{ =} { \omega
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+also ist $\omega$ exakt.
+
+c) Es sei
+\mathl{S^1 \subset \R^2}{} gegeben, wobei die Koordinaten des $\R^2$ mit
+\mathkor {} {u} {und} {v} {}
+bezeichnet seien. Wir betrachten die Differentialform
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { udv-vdu
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf $S^1$. Da $S^1$ eindimensional ist, ist sie geschlossen. Für den Weg
+\maabbeledisp {\gamma} {[0, 2 \pi]} {S^1
+} { t } { \begin{pmatrix}  \cos  t  \\ \sin  t     \end{pmatrix}
+} {,}
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_\gamma \omega
+}
+{ =} { \int_0^{2 \pi} \gamma^* \omega  dt
+}
+{ =} { \int_0^{2 \pi}  \cos  t  \cdot \cos  t  +  \sin  t   \sin  t   dt
+}
+{ =} { \int_0^{2 \pi} 1 dt
+}
+{ =} { 2 \pi
+}
+}
+{}{}{.}
+Nach
+[[Mannigfaltigkeiten ohne Rand/Satz von Stokes/Fakt|Korollar 23.3 (Differentialgeometrie (Osnabrück 2023))]]
+kann $\omega$ nicht exakt sein.
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{4}
+
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+und
+\maabb {f} { U } { \R
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare Funktion}{}{.}
+Zeige
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d(df)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei $d$ die
+\definitionsverweis {äußere Ableitung}{}{}
+bezeichnet.
+
+}
+{
+
+Für eine $1$-Form
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{ \sum_{j = 1}^n g_jdx_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist unter Verwendung von
+
+\mavergleichskette
+{\vergleichskette
+{ dx_i \wedge dx_j
+}
+{ = }{ -dx_j \wedge dx_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\mavergleichskettealign
+{\vergleichskettealign
+{d \omega
+}
+{ =} { \sum_{j = 1 }^n  d(g_j dx_j)
+}
+{ =} { \sum_{j = 1 }^n   \left(  \sum_{i = 1}^n { \frac{   \partial  g_j   }{  \partial   x_i   } } dx_i \wedge dx_j  \right)
+}
+{ =} { \sum _{1 \leq i <j\leq n} \left(  { \frac{   \partial  g_j   }{  \partial   x_i   } } - { \frac{   \partial  g_i   }{  \partial   x_j   } }  \right) dx_i \wedge dx_j
+}
+{ } {
+}
+}
+{}
+{}{.}
+Für eine zweimal stetig differenzierbare Funktion $f$ ist
+
+\mavergleichskette
+{\vergleichskette
+{ df
+}
+{ = }{ \sum_{j = 1}^n g_j dx_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit den
+\definitionsverweis {partiellen Ableitungen}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ g_j
+}
+{ = }{ { \frac{   \partial   f   }{  \partial   x_j   } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+und daher ist
+
+\mavergleichskette
+{\vergleichskette
+{ d(df)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nach
+dem [[Differenzierbarkeit/Satz von Schwarz/Fakt|Satz von Schwarz]].
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Beschreibe die
+\definitionsverweis {Abbildung}{}{}
+\maabbeledisp {\psi} { \Complex \setminus \{1\} } { \Complex
+} {w} { { \frac{   (w+1)  { \mathrm i}  }{ 1-w  } }
+} {}
+in reellen Koordinaten.
+
+}
+{
+
+Wir schreiben
+
+\mavergleichskette
+{\vergleichskette
+{ w
+}
+{ = }{ a+b { \mathrm i}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{  \psi ( a+b { \mathrm i}   )
+}
+{ =} { { \frac{   \left(  a+b { \mathrm i} +1  \right) { \mathrm i}      }{  1-  a-b { \mathrm i}      } }
+}
+{ =} { { \frac{     a { \mathrm i} +{ \mathrm i}  -b  }{  1-  a-b { \mathrm i}      } }
+}
+{ =} { { \frac{     \left(  a { \mathrm i} +{ \mathrm i}  -b  \right) \left(  1-  a+b { \mathrm i}  \right)  }{  \left(  1-  a-b { \mathrm i}  \right) \left(  1-  a+b { \mathrm i}  \right)      } }
+}
+{ =} { { \frac{     \left(  a+1 \right) \left(  1-a  \right) { \mathrm i}  -b^2 { \mathrm i} -b \left(  1-  a \right) -b\left(  a+1  \right)  }{  \left(  1-  a \right)^2 +b^2  } }
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { { \frac{     \left(  1-a ^2-b^2  \right) { \mathrm i}   -2 b  }{  \left(  1-  a \right)^2 +b^2  } }
+}
+{ } {
+}
+{ } {}
+{ } {}
+}
+{}{.}
+In reellen Koordinaten ist daher
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \psi \begin{pmatrix}  a  \\b   \end{pmatrix}
+}
+{ =} { { \frac{   1  }{  -2a+1+a^2+b^2 } } \begin{pmatrix}  -2b \\ 1-a^2-b^2   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ H
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {euklidischer Halbraum}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es gebe eine in $\R^n$ offene Menge $V$ mit
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ V
+}
+{ \subseteq }{ H
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Zeige, dass
+\mathl{P}{} kein Randpunkt von $H$ ist.
+
+}
+{
+
+Es sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ P
+}
+{ =} { \begin{pmatrix}  x_1  \\ x_2 \\  \vdots\\ x_n   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Wir können die im $\R^n$ offene Umgebung $V$ durch einen
+\zusatzklammer {im $\R^n$} {} {}
+offenen Ball
+\mathl{U \left(   P , \epsilon  \right)}{} mit
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{   U \left(   P , \epsilon  \right)
+}
+{ \subseteq }{  V
+}
+{ \subseteq   }{ H
+}
+{   }{
+}
+}
+{}{}{}
+ersetzen. Wenn $P$ ein Randpunkt wäre, so wäre
+
+\mavergleichskette
+{\vergleichskette
+{ x_1
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Doch dann wäre
+
+\mavergleichskette
+{\vergleichskette
+{ \begin{pmatrix}  - { \frac{   \epsilon }{  2 } }  \\ x_2 \\  \vdots\\ x_n   \end{pmatrix}
+}
+{ \in }{ U \left(   P , \epsilon  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+aber dieser Punkt gehört nicht zu $H$.
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{7}
+
+{
+
+Es sei $M$ eine $n$-dimensionale
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Punkt. Zeige, dass es eine
+\definitionsverweis {Mannigfaltigkeit mit Rand}{}{}
+$N$ gibt, deren Rand $\partial N$  diffeomorph zur $(n-1)$-dimensionalen Sphäre $S^{n-1}$ ist und derart, dass
+\mathkor {} {M \setminus \{ P \}} {und} {N \setminus \partial N} {}
+zueinander diffeomorph sind.
+
+}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{  U
+}
+{ \subseteq }{  M
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein offenes Kartengebiet mit der Karte
+\maabbdisp {\alpha} { U } {V \subseteq \R^n
+} {.}
+Wir können davon ausgehen, dass $\alpha(P)$ der Nullpunkt ist und das $V$ der offene Ball mit Radius $3$ ist. Es sei
+\maabbdisp {\varphi} { U \left(   0 , 3  \right) \setminus \{0\}  } { U \left(   0 , 3  \right) \setminus B  \left(  0 , 1 \right)
+} {}
+ein Diffemorphismus, der auf
+\mathl{U \left(   0 , 3  \right) \setminus U \left(   0 , 2  \right)}{} die Identität ist und der
+\mathl{U \left(   0 , 2  \right) \setminus \{0\}}{} auf
+\mathl{U \left(   0 , 2  \right) \setminus B  \left(  0 , 1 \right)}{} abbildet. Eine solche Abbildung erhält man, wenn man mit der Funktion
+\maabbdisp {h} {[0,3]} { [0,3]
+} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h(r)
+}
+{ =} { \begin{cases} 1+ { \frac{   1  }{  4 } } r^2 \text{ für } 0 \leq r \leq 2 \, , \\ r \text{ für } r >  2  \, , \end{cases}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+die Punkte streckt. Dabei kann man das Bild des Diffeomorphismus $\varphi$, also
+\mathl{U \left(   0 , 3  \right) \setminus B  \left(  0 , 1 \right)}{,} als
+
+\mavergleichskettedisp
+{\vergleichskette
+{  U \left(   0 , 3  \right) \setminus B  \left(  0 , 1 \right)
+}
+{ \subset} {  U \left(   0 , 3  \right) \setminus U \left(   0 , 1  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auffassen, wobei die größere Menge eine Mannigfaltigkeit mit dem Rand $S \left(   0 ,  1  \right)$ ist. Es sei $N$ die Mannigfaltigkeit, die entsteht, wenn man $U$ durch
+\mathl{U \left(   0 , 3  \right) \setminus U \left(   0 , 1  \right)}{} ersetzt. Die Sphäre wird dabei zum Rand von $N$. Den Diffeomorphismus $\varphi$ man man zu einem Diffeomorphismus
+\maabbdisp {} {M \setminus \{P\} } { N \setminus \partial N
+} {}
+fortsetzen, da auf dem offenen Übergang
+\mathl{U \left(   0 , 3  \right) \setminus U \left(   0 , 2  \right)}{} die Identität vorliegt.
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{2}
+
+{
+
+Man gebe eine
+\definitionsverweis {kompakte Ausschöpfung}{}{}
+für den $\R^d$ an.
+
+}
+{
+
+Wir betrachten die
+\definitionsverweis {abgeschlossenen Bälle}{}{}
+
+\mathbed {B  \left(  0 , n  \right)} {}
+ {n \in \N_+} {}
+ {} {} {} {,}
+die
+\definitionsverweis {kompakt}{}{}
+sind und die den $\R^d$ überdecken. Das offene Innere von
+\mathl{B  \left(  0 , n+1  \right)}{}
+ist der
+\definitionsverweis {offene Ball}{}{}
+
+\mathl{U \left(   0,n+1  \right)}{} und wegen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ B  \left(  0,n \right)
+}
+{ \subseteq} { U \left(   0,n+1  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+liegt eine
+\definitionsverweis {kompakte Ausschöpfung}{}{}
+vor.
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{9}
+
+{
+
+Beweise den Brouwerschen Fixpunktsatz.
+
+}
+{
+
+Zur Notationsvereinfachung sei
+
+\mavergleichskette
+{\vergleichskette
+{ r
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}  Nehmen wir an, dass es eine fixpunktfreie stetig differenzierbare Abbildung $\psi$ geben würde. Dann ist stets
+
+\mavergleichskettedisp
+{\vergleichskette
+{ x
+}
+{ \neq} { \psi(x)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+sodass die beiden Punkte eine Gerade definieren. Die Idee ist, mittels dieser Geraden einen
+\zusatzklammer {der beiden} {} {}
+Durchstoßungspunkt mit der Sphäre als Bildpunkt einer Retraktion auf den Rand zu nehmen. Mit der Hilfsfunktion
+
+\mavergleichskettedisp
+{\vergleichskette
+{ h(x)
+}
+{ =} { { \frac{   \psi(x)-x }{  \Vert { \psi (x)-x} \Vert  } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+definieren wir eine Abbildung
+\maabbdisp {\varphi} { B  \left(  0 , 1 \right) } { \R^n
+} {}
+durch
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \varphi(x)
+}
+{ =} { x + \left(  - \left\langle  x  , h(x)  \right\rangle + \sqrt{1 + \left\langle  x  , h(x)  \right\rangle^2 - \Vert { x} \Vert^2  }  \right) \cdot h(x)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dabei ist der Ausdruck unter der Wurzel positiv. Dies ist bei
+
+\mavergleichskette
+{\vergleichskette
+{ \Vert { x } \Vert
+}
+{ < }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+klar und bei
+
+\mavergleichskette
+{\vergleichskette
+{ \Vert { x } \Vert
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+liegt ein Punkt auf der Sphäre vor, dessen Verbindungsgerade mit dem Kugelpunkt
+\mathl{\psi(x)}{} nicht senkrecht zu $x$ ist
+\zusatzklammer {der affine Tangentialraum zu einem Punkt der Sphäre trifft eine Kugel nur in einem Punkt} {} {,}
+sodass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  x  , h(x)  \right\rangle
+}
+{ \neq} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ist. Da die Quadratwurzel und der Betrag außerhalb des Nullpunktes
+\definitionsverweis {stetig differenzierbar}{}{}
+sind, handelt es sich bei
+\mathkor {} {h(x)} {und bei} {\varphi(x)} {}
+um stetig differenzierbare Abbildungen. Die Abbildung $\varphi$ bildet nach
+[[Brouwersche Fixpunktsatz/Explizite Retraktion/Aufgabe|Aufgabe 23.23 (Differentialgeometrie (Osnabrück 2023))]]
+die Kugel auf die Sphäre ab und ihre Einschränkung auf die Sphäre ist die Identität. Damit liegt eine stetig differenzierbare
+\definitionsverweis {Retraktion}{}{}
+der abgeschlossenen Vollkugel auf ihren Rand vor, was nach
+[[Mannigfaltigkeit mit Rand/Stokes/Nichtexistenz von Retraktionen/Fakt|Satz 23.9 (Differentialgeometrie (Osnabrück 2023))]]
+nicht sein kann.
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{7 (1+2+4)}
+
+{
+
+Wir betrachten auf dem
+\definitionsverweis {trivialen Vektorbündel}{}{}
+
+\mathl{\R \times \R^2}{} über $\R$ den
+\definitionsverweis {trivialen Zusammenhang}{}{}
+$\nabla$.
+\aufzaehlungdrei{Zeige, dass
+
+\mavergleichskette
+{\vergleichskette
+{ f_1(t)
+}
+{ = }{ \left(  1+ t^2  , \,  t^3                   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ f_2(t)
+}
+{ = }{ \left(  t  , \,   1+t^2                   \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {Basisschnitte}{}{}
+des Vektorbündels sind.
+}{Drücke die Standardbasisschnitte $e_1,e_2$ als Linearkombination der Basisschnitte $f_1,f_2$ aus.
+}{Bestimme die
+\definitionsverweis {Christoffelsymbole}{}{}
+von $\nabla$ bezüglich dieser Basisschnitte.
+}
+
+}
+{
+
+\aufzaehlungdrei{Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \det  \begin{pmatrix}  1+t^2   &  t^3  \\  t  &  1+t^2  \end{pmatrix}
+}
+{ =} { 1+2t^2+t^4 -t^4
+}
+{ =} { 1 +2t^2
+}
+{ >} {  0
+}
+{ } {
+}
+}
+{}{}{}
+stets positiv, daher sind die beiden Vektoren
+\mathkor {} {f_1(t)} {und} {f_2(t)} {}
+zu jedem
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{  \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine Basis.
+}{Aus der Beziehung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix} f_1  \\f_2   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  1+t^2  &   t^3  \\  t  &  1+t^2 \end{pmatrix}  \begin{pmatrix} e_1  \\e_2   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+folgt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix} e_1  \\e_2   \end{pmatrix}
+}
+{ =} { { \frac{   1  }{  1+2t^2 } } \begin{pmatrix}  1+t^2  &   -t^3  \\  -t &  1+t^2 \end{pmatrix}  \begin{pmatrix} f_1  \\f_2   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ e_1
+}
+{ =} { { \frac{   1+t^2 }{  1+2t^2 } }   f_1 - { \frac{  t^3 }{  1+2t^2 } } f_2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ e_2
+}
+{ =} { -{ \frac{   t  }{  1+2t^2 } }   f_1 + { \frac{   1+t^2 }{  1+2t^2 } } f_2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Für den trivialen Zusammenhang ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_\partial (f)
+}
+{ =} { \partial f
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Somit ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \nabla_\partial (f_1)
+}
+{ =} { \nabla_\partial \left(  \left(  1+t^2  \right) e_1 + t^3e_2  \right)
+}
+{ =} { 2t e_1 + 3t^2 e_2
+}
+{ =} { 2t  \left(  { \frac{   1+t^2 }{  1+2t^2 } }   f_1 - { \frac{  t^3 }{  1+2t^2 } } f_2   \right)  + 3t^2  \left(  -{ \frac{   t  }{  1+2t^2 } }   f_1 + { \frac{   1+t^2 }{  1+2t^2 } } f_2   \right)
+}
+{ =} {  \left(   { \frac{   2t+2t^3 }{  1+2t^2 } } - { \frac{   3t^3 }{  1+2t^2 } }  \right) f_1  +  \left(  - { \frac{  t^3 }{  1+2t^2 } }   + { \frac{   3t^2+3t^4 }{  1+2t^2 } }     \right)   f_2
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { { \frac{   2t - t^3 }{  1+2t^2 } }  f_1  +  { \frac{   3t^2-t^3+3t^4 }{  1+2t^2 } }      f_2
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{}
+und
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \nabla_\partial (f_2)
+}
+{ =} { \nabla_\partial \left(  t e_1 + \left(  1+t^2  \right) e_2  \right)
+}
+{ =} { e_1 + 2t  e_2
+}
+{ =} { { \frac{   1+t^2 }{  1+2t^2 } } f_1 - { \frac{  t^3 }{  1+2t^2 } } f_2 + 2t \left(  -{ \frac{   t  }{  1+2t^2 } } f_1 + { \frac{   1+t^2 }{  1+2t^2 } } f_2   \right)
+}
+{ =} { \left( { \frac{   1+t^2 }{  1+2t^2 } }  - { \frac{   2t^2 }{  1+2t^2 } }  \right) f_1  + \left(  - { \frac{   t^3  }{  1+2t^2  } } +  { \frac{   2t+2t^3  }{  1+2t^2 } }  \right) f_2
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { { \frac{   1 - t^2  }{  1+2t^2 } } f_1 + { \frac{   2t   +t^3 }{  1+2t^2 } }      f_2
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+Die Koeffizientenfunktionen sind die Christoffelsymbole.
+}
+
+ }
+
+ [[Kategorie:Latexseite]]

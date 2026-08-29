@@ -1,0 +1,92 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+{{
+Aufzählung3
+|Zu jedem festen {{mathl|term= (t,u) |SZ=}} liegt eine lineare Abbildung vor, da {{math|term= v |SZ=}} und {{math|term= w |SZ=}} linear in den dritten Term eingehen. Wenn man links mit {{mathl|term= (t,u,w) |SZ=}} startet, so wird dies auf {{mathl|term= (t,u,0,w) |SZ=}} abgebildet und damit zurück auf {{mathl|term= (t,u,w) |SZ=,}} es liegt also in der Tat eine Spaltung vor.
+|Die Tangentialabbildung zu
+{{
+Abbildung/display
+|name=u
+| I | I \times \R^n
+| t | (t,u(t))
+|SZ=,
+}}
+ist
+{{
+Abbildung/display
+|name=
+|TI {{=|}} I \times \R | T {{makl|I \times \R^n |}} {{=}} I \times \R^n \times \R \times \R^n
+| (t,a) | (t,u(t), a, a u'(t) )
+|SZ=.
+}}
+Daher ist
+{{
+Zusatz/Klammer
+|text=die vertikale Ableitung in Richtung {{math|term= \partial |SZ=}} entspricht
+{{
+Relationskette/k
+| a
+|| 1
+|| 
+|| 
+|| 
+|SZ=
+}} |
+|ISZ=|ESZ=
+}}
+{{
+Relationskette/display
+|  \nabla_\partial (u)
+|| {{Vertikalprojektion|}}  (t,u(t), 1,  u'(t) )
+|| (t,u(t), -  F {{makl| t, u_1 (t) {{kommadots|}} u_n(t) |}}  +  u'(t)
+|| 
+|| 
+|SZ=.
+}}
+|Der Schnitt {{math|term= u |SZ=}} ist genau dann ein 
+{{
+Definitionslink
+|Prämath=
+|horizontaler Schnitt|
+|Kontext=|
+|SZ=,
+}}
+wenn die vertikale Ableitung verschwindet, wenn also
+{{
+Relationskette/display
+|  -  F {{makl| t, u_1 (t) {{kommadots|}} u_n(t) |}}  +  u'(t)
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+bzw.
+{{
+Relationskette/display
+| u'(t)
+||  F {{makl| t, u_1 (t) {{kommadots|}} u_n(t) |}} 
+|| 
+|| 
+|| 
+|SZ=
+}}
+für alle
+{{
+Relationskette
+| t
+| \in |  I
+||
+||
+||
+|SZ=
+}}
+ist. Dies bedeutet genau, dass eine Lösung des Differentialgleichungssystems vorliegt.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

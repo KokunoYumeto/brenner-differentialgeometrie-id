@@ -1,0 +1,1420 @@
+\setcounter{section}{26}
+
+  \zwischenueberschrift{Koneksi Levi--Civita pada himpunan terbuka}
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka dan padanya diberikan suatu struktur Riemann melalui fungsi-fungsi $g_{ij}$. Kita mempunyai fungsi koordinat $x_i$ dan medan vektor konstan terkait $\partial_i$. Suatu koneksi linear pada bundel tangen
+\mathl{U \times \R^n}{} dijelaskan oleh turunan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i } \partial_j
+}
+{ =} { \sum_{k = 1}^n\Gamma_{ij}^k\,\partial_k
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+Berikut ini akan terlihat bahwa pilihan berikut menghasilkan suatu koneksi yang berkaitan erat dengan struktur Riemann.
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka dan padanya diberikan suatu struktur Riemann melalui fungsi-fungsi $\left(  g_{ij}  \right)$ dengan matriks invers
+\mathl{\left(  g^{k l}  \right)}{.} Fungsi-fungsi bernilai riil yang didefinisikan pada $U$,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma_{ij}^k
+}
+{ =} { { \frac{   1  }{  2 } } \sum_{l = 1}^n g^{kl}(\partial_ig_{jl}+\partial_jg_{il}-\partial_lg_{ij})
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+disebut
+\definitionswort {simbol Christoffel}{}
+untuk koneksi Levi--Civita.
+
+}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka dan padanya diberikan suatu struktur Riemann melalui fungsi-fungsi $\left(  g_{ij}  \right)$ dengan matriks invers
+\mathl{\left(  g^{k l}  \right)}{.} Pada $U$,
+\definitionsverweis {simbol Christoffel}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma_{ij}^k
+}
+{ =} { { \frac{   1  }{  2 } } \sum_{l = 1}^n g^{kl}(\partial_ig_{jl}+\partial_jg_{il}-\partial_lg_{ij})
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+menentukan suatu
+\definitionsverweis {koneksi linear}{}{}
+pada
+
+\mavergleichskette
+{\vergleichskette
+{ TU
+}
+{ = }{ U \times \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+yang disebut
+\definitionswort {koneksi Levi--Civita}{}
+pada $U$.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{R^n/Offene Menge/Levi-Civita-Zusammenhang/Trivial/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {himpunan bagian terbuka}{}{,}
+yang dilengkapi dengan
+\definitionsverweis {struktur Riemann}{}{}
+terinduksi dari $\R^n$.}
+\faktfolgerung {Maka
+\definitionsverweis {koneksi Levi--Civita}{}{}
+pada $U$
+\definitionsverweis {trivial}{}{.}
+Secara khusus, berlaku pernyataan-pernyataan berikut.
+\aufzaehlungvier{Semua
+\definitionsverweis {simbol Christoffel}{}{}
+memenuhi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma_{ij}^k
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk setiap $i,j,k$.
+}{Berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i }  \partial_j
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk
+\definitionsverweis {medan vektor standar}{}{}
+$\partial_i$.
+}{Untuk fungsi-fungsi terdiferensialkan $f_j$ berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i }  \left(  \sum_{j = 1}^n f_j \partial_j  \right)
+}
+{ =} { \sum_{j = 1}^n \partial_i(f_j) \partial_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Untuk suatu medan vektor $V$ dan suatu medan vektor terdiferensialkan $W$ pada $U$, berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ ( \nabla_V W)(P)
+}
+{ =} { \left(  D W   \right)_{ P } \left(   V(P)  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Fungsi-fungsi fundamental Riemann $g_{ij}$ semuanya konstan, sehingga turunan parsialnya yang muncul dalam definisi simbol Christoffel lenyap. Karena itu, menurut
+[[Offene Menge/Triviales Vektorbündel/Linearer Zusammenhang/Spaltung/Christoffelsymbole/Bemerkung|Catatan 25.8]],
+koneksi tersebut adalah koneksi trivial. Sifat-sifat lainnya mengikuti dari
+[[R^n/Offene Menge/Trivialer Zusammenhang/Ableitungseigenschaften/Fakt/Beweis/Aufgabe|Latihan 25.11]].
+
+}
+
+\inputbeispiel{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ \subseteq }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {interval riil}{}{}
+dan misalkan
+\maabbdisp {g} { I } {\R_+
+} {}
+suatu fungsi positif terdiferensialkan, yang kita tafsirkan sebagai
+\definitionsverweis {metrik Riemann}{}{}
+pada $I$; lihat
+[[Intervall/Riemannsche Struktur/Einbettung/Beispiel|Contoh 16.10]].
+Satu-satunya
+\definitionsverweis {simbol Christoffel}{}{}
+untuk koneksi Levi--Civita ialah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma
+}
+{ =} { { \frac{   1  }{  2 } }  g^{-1} g'
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+yakni, selain faktor di depannya, merupakan
+\definitionsverweis {turunan logaritmik}{}{}
+dari $g$. Turunan vertikalnya adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_\partial \partial
+}
+{ =} { { \frac{  g' }{  2g } } \partial
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dengan $\partial$ menyatakan turunan pada $I$. Jika diterapkan pada suatu fungsi yang terdiferensialkan secara kontinu
+\maabb {f} { I } {\R
+} {}
+\zusatzklammer {atau, setara dengan itu, pada medan arah $f \partial$} {} {,}
+maka menurut
+[[Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Leibnizregel/Fakt|Teorema 25.5]]
+berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_\partial (f)
+}
+{ =} { \partial f + f  { \frac{  g' }{  2g } }
+}
+{ =} { f' + f { \frac{  g' }{  2g } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Zweidimensional/Levi-Civita-Zusammenhang/Christoffelsymbole/Beziehung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{}
+dan dilengkapi dengan suatu struktur Riemann yang diberikan oleh
+\definitionsverweis {fungsi-fungsi terdiferensialkan}{}{}
+\maabbdisp {g_{11},g_{12},g_{22}} { U } {\R
+} {}
+serta
+\definitionsverweis {struktur Riemann}{}{}
+tersebut mempunyai matriks invers $\left(  g^{kl}  \right)$.}
+\faktfolgerung {Maka
+\definitionsverweis {simbol Christoffel}{}{}
+untuk koneksi Levi--Civita pada $U$ adalah
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \Gamma_{ij}^k
+}
+{ =} { { \frac{   1  }{  2 } } \left(  g^{k1}(\partial_ig_{j1}+\partial_jg_{i1}-\partial_1 g_{ij})   +  g^{k2}(\partial_ig_{j2}+\partial_jg_{i2}-\partial_2 g_{ij})  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Jika
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu permukaan berorientasi yang dua kali terdiferensialkan secara kontinu dan dilengkapi dengan struktur yang diinduksi oleh ruang sekitar $\R^3$ sebagai
+\definitionsverweis {struktur Riemann}{}{,}
+serta
+\maabbdisp {\varphi} { V } { Y
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka, merupakan suatu parametrisasi lokal $Y$ yang dua kali terdiferensialkan, maka simbol-simbol Christoffel ini berimpit dengan
+\definitionsverweis {simbol Christoffel}{}{}
+yang didefinisikan dengan bantuan ruang sekitar.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Pernyataan pertama langsung mengikuti dari
+[[Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Christoffelsymbole/Definition|Definisi 26.1]].
+Pernyataan kedua mengikuti dari pernyataan pertama dan
+[[Hyperfläche/Raum/Parametrisierung/Christoffelsymbole/Bezug zu riemannscher Metrik/Fakt|Lemma 19.5]].
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Offene Menge/Riemannsche Struktur/Christoffelsymbole/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terbuka dan padanya diberikan suatu
+\definitionsverweis {struktur Riemann}{}{}
+melalui fungsi-fungsi $\left(  g_{ij}  \right)$. Maka
+\definitionsverweis {simbol Christoffel}{}{}
+untuk koneksi Levi--Civita pada $U$ memenuhi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma^k_{ij}
+}
+{ =} { \Gamma^k_{ji}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktfolgerung {}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Hal ini langsung mengikuti dari definisi dan kesimetrian
+\mathl{\left(  g_{ij}  \right)}{.}
+
+}
+
+\inputbeispiel{}
+{
+
+Kita melanjutkan
+[[Halbebene/Poincaré/Riemannsche Geometrie/Beispiel|Contoh 18.8]],
+yakni kita meninjau setengah bidang Poincaré $\mathbb H$ dengan fungsi-fungsi fundamental Riemann
+
+\mavergleichskette
+{\vergleichskette
+{ g_{11}
+}
+{ = }{ g_{22}
+}
+{ = }{ { \frac{   1  }{  y^2 } }
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ g_{12}
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Menurut
+[[Riemannsche Mannigfaltigkeit/Zweidimensional/Levi-Civita-Zusammenhang/Christoffelsymbole/Beziehung/Fakt|Lemma 26.5]],
+dari
+
+\mathdisp {{ \frac{   1  }{  2 } } \left(  g^{k1}(\partial_ig_{j1}+\partial_jg_{i1}-\partial_1 g_{ij})   +  g^{k2}(\partial_ig_{j2}+\partial_jg_{i2}-\partial_2 g_{ij})  \right)} {  }
+
+diperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma^1_{11}
+}
+{ =} { { \frac{   1  }{  2 } }  \left(  y^2  \partial_1  \left( \frac{   1  }{  y^2 } \right)     \right)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma^2_{11}
+}
+{ =} { { \frac{   1  }{  2 } }  \left(  y^2 \left(  - \partial_2  \left( \frac{   1  }{  y^2 } \right)  \right)      \right)
+}
+{ =} { { \frac{   1  }{  2 } }  \left(  y^2 \left(  -  \left( \frac{   -2 }{  y^3 } \right)  \right)      \right)
+}
+{ =} { { \frac{   1  }{  y } }
+}
+{ } {
+}
+}
+{}{}{}
+dan dengan cara serupa
+
+\mavergleichskette
+{\vergleichskette
+{ \Gamma^1_{12}
+}
+{ = }{ - { \frac{   1  }{  y } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ \Gamma^2_{12}
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ \Gamma^1_{22}
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ \Gamma^2_{22}
+}
+{ = }{ - { \frac{   1  }{  y } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+
+  \zwischenueberschrift{Koneksi Levi--Civita}
+
+Kita hendak memperluas konsep koneksi Levi--Civita dari suatu himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan struktur Riemann ke suatu manifold Riemann sembarang. Kesulitan utamanya adalah menunjukkan bahwa konstruksi langsung pada daerah-daerah peta terbuka saling konsisten pada irisan yang tumpang tindih. Untuk itu, kita memperkenalkan konsep-konsep berikut.
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold terdiferensialkan}{}{}
+dan diberikan suatu
+\definitionsverweis {koneksi linear}{}{}
+pada
+\definitionsverweis {bundel tangen}{}{}
+$TM$. Koneksi tersebut disebut
+\definitionswort {bebas torsi}{,}
+jika
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_V W- \nabla_W V
+}
+{ =} { [V,W]
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk setiap
+\definitionsverweis {medan vektor}{}{}
+$V,W$ yang
+\definitionsverweis {terdiferensialkan secara kontinu}{}{}
+pada setiap himpunan terbuka.
+
+}
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold Riemann}{}{}
+dan diberikan suatu
+\definitionsverweis {koneksi linear}{}{}
+pada
+\definitionsverweis {bundel tangen}{}{}
+$TM$. Koneksi tersebut disebut
+\definitionswort {metrik}{,}
+jika
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D_V \left\langle  W  ,  Z  \right\rangle
+}
+{ =} { \left\langle \nabla_V W , Z  \right\rangle  + \left\langle  W  ,  \nabla_VZ  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+untuk setiap
+\definitionsverweis {medan vektor}{}{}
+$V,W,Z$ yang
+\definitionsverweis {terdiferensialkan secara kontinu}{}{}
+pada setiap himpunan terbuka.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Tangentialbündel/Linearer Zusammenhang/Metrisch und torsionsfrei/Koszul-Eigenschaft/Eindeutigkeit/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold Riemann}{}{}
+dan diberikan suatu
+\definitionsverweis {koneksi linear}{}{}
+$\nabla$ pada
+\definitionsverweis {bundel tangen}{}{}
+$TM$ yang
+\definitionsverweis {metrik}{}{}
+dan
+\definitionsverweis {bebas torsi}{}{.}}
+\faktfolgerung {Maka untuk setiap
+\definitionsverweis {medan vektor}{}{}
+$V,W,Z$ yang
+\definitionsverweis {terdiferensialkan secara kontinu}{}{}
+pada setiap himpunan terbuka berlaku apa yang disebut \stichwort {rumus Koszul} {}
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \left\langle \nabla_V W , Z  \right\rangle
+}
+{ =} { { \frac{   1  }{  2 } }  \left(  D_V \left\langle  W  ,  Z  \right\rangle +  D_W \left\langle  Z  ,  V  \right\rangle -  D_Z \left\langle  V  ,  W  \right\rangle  - \left\langle  W  , [V,Z]   \right\rangle - \left\langle  Z  , [W,V]   \right\rangle + \left\langle  V  , [Z,W]   \right\rangle   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {Secara khusus, paling banyak ada satu koneksi dengan sifat-sifat ini.}
+\faktzusatz {}
+
+}
+{
+
+Karena koneksi bebas torsi, berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_VW- \nabla_WV
+}
+{ =} { [V,W]
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_VZ- \nabla_ZV
+}
+{ =} { [V,Z]
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_WZ- \nabla_ZW
+}
+{ =} { [W,Z]
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dan identitas pertama juga dapat ditulis sebagai
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_VW + \nabla_WV
+}
+{ =} { 2 \nabla_VW -[V,W]
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Karena koneksi metrik, berlaku identitas-identitas
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D_V \left\langle  W  ,  Z  \right\rangle
+}
+{ =} { \left\langle \nabla_V W , Z  \right\rangle  + \left\langle  W  ,  \nabla_V Z  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D_W \left\langle  Z  ,  V  \right\rangle
+}
+{ =} { \left\langle \nabla_WZ , V  \right\rangle  + \left\langle  Z  ,  \nabla_WV  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D_Z \left\langle  V  ,  W  \right\rangle
+}
+{ =} { \left\langle \nabla_Z V , W  \right\rangle  + \left\langle  V  ,  \nabla_Z W   \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dengan menjumlahkan persamaan-persamaan ini, kita memperoleh
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ D_V \left\langle  W  ,  Z  \right\rangle+ D_W \left\langle  Z  ,  V  \right\rangle  - D_Z \left\langle  V  ,  W  \right\rangle
+}
+{ =} { \left\langle \nabla_V W+\nabla_W V  ,  Z  \right\rangle + \left\langle \nabla_W Z-\nabla_Z W   ,  V  \right\rangle+\left\langle  \nabla_V Z-\nabla_Z V   ,  W  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Kita substitusikan ungkapan-ungkapan di atas ke ruas kanan dan memperoleh
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ D_V \left\langle  W  ,  Z  \right\rangle+ D_W \left\langle  Z  ,  V  \right\rangle  - D_Z \left\langle  V  ,  W  \right\rangle
+}
+{ =} { \left\langle  2 \nabla_VW -[V,W]  ,  Z  \right\rangle + \left\langle  [W,Z]  ,  V  \right\rangle + \left\langle  [V,Z]   ,  W  \right\rangle
+}
+{ =} { 2\left\langle  \nabla_VW   ,  Z  \right\rangle - \left\langle  [V,W]  ,  Z  \right\rangle + \left\langle  [W,Z]  ,  V  \right\rangle + \left\langle  [V,Z]   ,  W  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+Dengan menata ulang persamaan tersebut, diperoleh rumus yang dinyatakan.
+
+Berdasarkan persamaan itu,
+\mathl{\left\langle  \nabla_V W , Z  \right\rangle}{} untuk medan-medan vektor sembarang telah ditentukan oleh ruas kanan, yang sama sekali tidak memuat koneksi. Karena hal ini berlaku untuk setiap medan vektor $Z$, turunan vertikal $\nabla_V W$, dan dengan demikian koneksi linearnya, juga ditentukan secara unik.
+
+}
+
+\inputfaktbeweis
+{R^n/Offene Menge/Riemannsche Struktur/Zusammenhang aus Christoffel-Symbole/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{}
+dan padanya diberikan suatu
+\definitionsverweis {struktur Riemann}{}{}
+melalui fungsi-fungsi $\left(  g_{ij}  \right)$ dengan
+\definitionsverweis {matriks invers}{}{}
+
+\mathl{\left(  g^{k l}  \right)}{.} Misalkan $\nabla$ adalah koneksi yang diberikan oleh
+\definitionsverweis {simbol-simbol Christoffel}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma_{ij}^k
+}
+{ =} { { \frac{   1  }{  2 } } \sum_{l = 1}^n g^{kl}(\partial_ig_{jl}+\partial_jg_{il}-\partial_lg_{ij})
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+sebagai
+\definitionsverweis {koneksi Levi--Civita}{}{,}
+yang dicirikan oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i } \partial_j
+}
+{ =} { \sum_{k = 1}^n\Gamma_{ij}^k\,\partial_k
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktuebergang {Maka $\nabla$ memenuhi sifat-sifat berikut.}
+\faktfolgerung {\aufzaehlungvier{Berlaku
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \left\langle  \nabla_{\partial_i }  \partial_j  ,  \partial_k   \right\rangle
+}
+{ =} { { \frac{   1  }{  2 } }  \left(  D_{\partial_i }  \left\langle  \partial_j  ,  \partial_k   \right\rangle   +D_{\partial_j }  \left\langle  \partial_i  ,  \partial_k   \right\rangle -D_{\partial_k }  \left\langle  \partial_i  ,  \partial_j   \right\rangle   \right)
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{}{.}
+}{Koneksi ini memenuhi rumus Koszul dari
+[[Riemannsche Mannigfaltigkeit/Tangentialbündel/Linearer Zusammenhang/Metrisch und torsionsfrei/Koszul-Eigenschaft/Eindeutigkeit/Fakt|Lemma 26.10]].
+}{Koneksi ini
+\definitionsverweis {bebas torsi}{}{.}
+}{Koneksi ini
+\definitionsverweis {metrik}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\aufzaehlungvier{Berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D_{\partial_k }  \left\langle  \partial_i  ,  \partial_j   \right\rangle
+}
+{ =} { \partial_k  \left(  g_{ij}  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Selanjutnya,
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left\langle  \nabla_{\partial_i }  \partial_j  ,  \partial_k   \right\rangle
+}
+{ =} { \left\langle  \sum_{\ell = 1}^n\Gamma_{ij}^\ell \,\partial_\ell  ,  \partial_k   \right\rangle
+}
+{ =} { \sum_{\ell = 1}^n\Gamma_{ij}^\ell \left\langle  \,\partial_\ell  ,  \partial_k   \right\rangle
+}
+{ =} { \sum_{\ell = 1}^n\Gamma_{ij}^\ell g_{\ell k}
+}
+{ =} { { \frac{   1  }{  2 } } \sum_{\ell = 1}^n  \left(  \sum_{r = 1}^n g^{\ell r}  \left(  \partial_ig_{j r}+\partial_jg_{ir}-\partial_r g_{ij}  \right)   \right)  g_{\ell k}
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { { \frac{   1  }{  2 } } \sum_{r = 1}^n  \left(  \partial_ig_{j r}+\partial_jg_{ir}-\partial_r g_{ij}  \right)  \left(  \sum_{\ell = 1}^n  g^{\ell r} g_{\ell k}   \right)
+}
+{ =} { { \frac{   1  }{  2 } }  \left(  \partial_ig_{j k}+\partial_jg_{i k}-\partial_k g_{ij}  \right)
+}
+{ =} { { \frac{   1  }{  2 } }  \left(  D_{\partial_i }  \left\langle  \partial_j  ,  \partial_k   \right\rangle   +D_{\partial_j }  \left\langle  \partial_i  ,  \partial_k   \right\rangle   -D_{\partial_k }  \left\langle  \partial_i  ,  \partial_j   \right\rangle   \right)
+}
+{ } {}
+}
+{}{.}
+}{Karena kurung Lie
+\mathl{[ \partial_i, \partial_j]}{} trivial pada $U$, menurut bagian (1) rumus Koszul berlaku untuk medan-medan basis $\partial_i$. Untuk kasus umum, lihat
+[[R^n/Offene_Menge/Riemannsche_Struktur/Zusammenhang_aus_Christoffel-Symbole/Koszul-Eigenschaft/Allgemein/Aufgabe|Latihan 26.7]].
+}{Menurut
+[[Offene Menge/Riemannsche Struktur/Christoffelsymbole/Eigenschaften/Fakt|Lemma 26.6]]
+dan karena
+
+\mavergleichskette
+{\vergleichskette
+{ [\partial_i, \partial_j]
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i }  \partial_j
+}
+{ =} { \nabla_{\partial_j }  \partial_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Pernyataan itu sekarang mengikuti dari
+[[Tangentialbündel/Linearer Zusammenhang/Torsionsfrei/Basisschnitte/Aufgabe|Latihan 26.5]].
+}{Menurut bagian (1),
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left\langle  \nabla_{\partial_i }  \partial_j  ,  \partial_k   \right\rangle + \left\langle  \nabla_{\partial_i }  \partial_k  ,  \partial_j   \right\rangle
+}
+{ =} { { \frac{   1  }{  2 } }  \left(  D_{\partial_i }  \left\langle  \partial_j  ,  \partial_k   \right\rangle   +D_{\partial_j }  \left\langle  \partial_i  ,  \partial_k   \right\rangle   -D_{\partial_k }  \left\langle  \partial_i  ,  \partial_j   \right\rangle    +D_{\partial_i }  \left\langle  \partial_k  ,  \partial_j   \right\rangle +D_{\partial_k }  \left\langle  \partial_i  ,  \partial_j   \right\rangle  - D_{\partial_j }  \left\langle  \partial_i  ,  \partial_k   \right\rangle   \right)
+}
+{ =} { D_{\partial_i }  \left\langle  \partial_j  ,  \partial_k   \right\rangle
+}
+{ } {}
+{ } {}
+}
+{}
+{}{.}
+Pernyataan itu sekarang mengikuti dari
+[[Riemannsche Mannigfaltigkeit/Linearer Zusammenhang/Metrisch auf Basisfeldern/Metrisch/Aufgabe|Latihan 26.8]].
+}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Eindeutige Existenz/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan $X$ suatu
+\definitionsverweis {manifold Riemann}{}{.}
+Maka pada
+\definitionsverweis {bundel tangen}{}{}
+$TX$ terdapat suatu
+\definitionsverweis {koneksi linear}{}{}
+yang
+\definitionsverweis {bebas torsi}{}{,}
+\definitionsverweis {metrik}{}{,}
+dan ditentukan secara unik.}
+\faktfolgerung {}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Menurut
+[[Riemannsche Mannigfaltigkeit/Tangentialbündel/Linearer Zusammenhang/Metrisch und torsionsfrei/Koszul-Eigenschaft/Eindeutigkeit/Fakt|Lemma 26.10]],
+paling banyak ada satu koneksi semacam itu. Menurut
+[[R^n/Offene Menge/Riemannsche Struktur/Zusammenhang aus Christoffel-Symbole/Eigenschaften/Fakt|Lemma 26.11]],
+pada setiap daerah peta kita dapat memberikan secara eksplisit suatu koneksi yang mempunyai sifat-sifat yang disyaratkan. Karena keunikan yang baru saja disebutkan, koneksi-koneksi yang dikonstruksi dengan cara ini berimpit pada irisan daerah-daerah peta.
+
+}
+
+\inputdefinition
+{}
+{
+
+Misalkan $X$ suatu
+\definitionsverweis {manifold Riemann}{}{.}
+\definitionsverweis {Koneksi}{}{}
+pada
+\definitionsverweis {bundel tangen}{}{}
+$TX$ yang didefinisikan secara lokal oleh
+\definitionsverweis {simbol-simbol Christoffel}{}{}
+disebut
+\definitionswort {koneksi Levi--Civita}{.}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Eigenschaften/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan $X$ suatu
+\definitionsverweis {manifold Riemann}{}{.}
+Maka
+\definitionsverweis {koneksi Levi--Civita}{}{}
+$\nabla$ memenuhi sifat-sifat berikut.}
+\faktfolgerung {\aufzaehlungdrei{ $\nabla$
+\definitionsverweis {linear}{}{.}
+}{ $\nabla$ metrik, yakni
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D_V \left\langle  W  ,  Z  \right\rangle
+}
+{ =} { \left\langle \nabla_V W , Z  \right\rangle  + \left\langle  W  ,  \nabla_VZ  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{ $\nabla$ bebas torsi, yakni
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_V W- \nabla_W V
+}
+{ =} { [V,W]
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Hal ini mengikuti dari
+[[R^n/Offene Menge/Riemannsche Struktur/Zusammenhang aus Christoffel-Symbole/Eigenschaften/Fakt|Lemma 26.11]].
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{R^3/Riemannsche orientierte Fläche/Levi-Civita-Zusammenhang und induzierter Zusammenhang/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu permukaan yang dua kali terdiferensialkan dan dilengkapi oleh ruang sekitar $\R^3$ dengan
+\definitionsverweis {struktur Riemann}{}{}
+terinduksi.}
+\faktfolgerung {Maka
+\definitionsverweis {koneksi Levi--Civita}{}{}
+pada $Y$ berimpit dengan apa yang
+\zusatzklammer {melalui
+\definitionsverweis {proyeksi ortogonal}{}{}
+diberikan pada ruang-ruang tangen} {} {}
+didefinisikan sebagai
+\definitionsverweis {koneksi}{}{}
+dari
+[[Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierter Zusammenhang/Bemerkung|Catatan 24.8]].}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Kedua koneksi itu linear. Karena itu, cukup ditunjukkan secara lokal bahwa
+\definitionsverweis {turunan vertikal}{}{}
+terkait sama pada medan-medan basis. Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{}
+dan
+\maabbdisp {\varphi} { V } { U
+} {}
+suatu parametrisasi lokal yang dua kali terdiferensialkan secara kontinu dari sebuah himpunan bagian terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Misalkan $\partial_1,\partial_2$ adalah kedua medan arah konstan pada $V$. Untuk koneksi Levi--Civita berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i } \partial_j
+}
+{ =} { \sum_{k = 1}^2  \Gamma^k_{ij} \partial_k
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dengan simbol-simbol Christoffel yang didefinisikan berdasarkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g_{ij}
+}
+{ =} { \left\langle  \partial_i \varphi ,  \partial_j \varphi  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Menurut
+[[Riemannsche Mannigfaltigkeit/Zweidimensional/Levi-Civita-Zusammenhang/Christoffelsymbole/Beziehung/Fakt|Lemma 26.5]],
+simbol-simbol Christoffel ini juga memenuhi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial_i \partial_j \varphi
+}
+{ =} { \Gamma^1_{ij} \partial_1  \varphi +  \Gamma^2_{ij}  \partial_2  \varphi+   h_{ij} N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dengan $N$ menyatakan
+\definitionsverweis {medan normal satuan}{}{}
+dan $h_{ij}$ merupakan entri-entri
+\definitionsverweis {matriks fundamental kedua}{}{}
+\zusatzklammer {semuanya dipandang pada $V$} {} {.}
+
+Medan-medan vektor $\partial_i$ pada $V$ bersesuaian, pada
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ Y
+}
+{ \subseteq }{ \R^3
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan medan-medan vektor $\left(  \partial_i \varphi  \right)  \circ \varphi^{-1}$. Menurut definisi
+\definitionsverweis {turunan vertikal}{}{}
+untuk koneksi terbatas tersebut, kita harus meninjau
+
+\mathdisp {U \stackrel{ \left(  \partial_i\varphi  \right) \circ \varphi^{-1} }{\longrightarrow} TU \stackrel{ T \left(  \left(  \partial_j \varphi  \right) \circ \varphi^{-1}    \right) }{\longrightarrow} TTU \stackrel{ \pi_{\text{vert} } } \longrightarrow TU} {  }
+
+Ini menghasilkan proyeksi ortogonal
+\mathl{\left(  \partial_i \partial_j \varphi  \right) \circ \varphi^{-1}}{}
+ke bundel tangen pada $Y$, yang berimpit dengan
+\mathl{\Gamma^1_{ij} \partial_1  \varphi +  \Gamma^2_{ij}  \partial_2  \varphi}{,}
+dipandang di atas $U$
+\zusatzklammer {lihat juga
+[[Eingebettete Mannigfaltigkeit/Inverse Karte/Zweites Tangentialbündel/Partielle Ableitungen/Aufgabe|Latihan 26.11]]} {} {.}
+
+}
+
+Pernyataan ini juga berlaku dengan cara yang sama untuk setiap submanifold tertutup
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+yang dilengkapi dengan struktur Riemann terinduksi.
+
+ [[Kategorie:Latexseite]]

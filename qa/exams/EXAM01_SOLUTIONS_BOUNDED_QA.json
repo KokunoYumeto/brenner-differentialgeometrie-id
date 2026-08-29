@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "scope": "official Exam 1 solution form, Bahasa Indonesia",
+  "status": "pass",
+  "authority": {
+    "path": "authority/exams/expanded/exam01_solutions_source.de.tex",
+    "bytes": 32644,
+    "sha256": "04c0b13b28f3964a0110a5810a38a7152c8dfd955c377f8ab8ebd288d45c0846"
+  },
+  "learner_form": {
+    "path": "source/exams/exam-01/exam01_learner.id.tex",
+    "bytes": 8456,
+    "sha256": "a150e6cd95ea93422051f6a51e76b38acbce7beb48591ab12b34d0cac3ebd95a"
+  },
+  "target": {
+    "path": "source/exams/exam-01/exam01_solutions.id.tex",
+    "bytes": 32215,
+    "sha256": "57249c1c3f744dcfa2b6c717f967e08df4a72eed5513c5051a22a428d58c61d6"
+  },
+  "checks": {
+    "actual_occurrences": 14,
+    "point_sequence": [3, 3, 6, 5, 5, 2, 5, 5, 7, 3, 2, 5, 9, 5],
+    "point_total": 65,
+    "point_sequence_preserved": true,
+    "learner_prompts_exact_in_occurrence_order": true,
+    "official_solutions_preserved": 13,
+    "source_missing_solution_occurrences": [11],
+    "solution_presence_topology_preserved": true,
+    "wiki_link_targets_preserved_exactly": true,
+    "wiki_link_target_occurrences": 6,
+    "residual_german_prose_outside_comments_and_immutable_link_targets": 0,
+    "perlu_rewrite_markers": 0,
+    "utf8_replacement_characters": 0,
+    "translation_verifier": "pass"
+  },
+  "declared_reader_and_source_deltas": [
+    "Translate the German set-builder quantifier in the boundary definition.",
+    "Correct -4a+6b+10c=0 to -4a-6b+10c=0; the latter agrees with the displayed gradient (-4,-6,10), the defining equation, and P=(-1,-1,1).",
+    "Translate four reader-facing conjunctions inside mathkor calls without changing operands."
+  ],
+  "receipts": [
+    {
+      "path": "qa/exams/EXAM01_SOLUTIONS_TRANSLATION_QA.json",
+      "bytes": 1846,
+      "sha256": "4b13ded008aafc9cb642e568cc6a7c4b7f9c36145319341e382b27227106edc5"
+    },
+    {
+      "path": "qa/exams/EXAM01_SOLUTIONS_TRANSLATION_DELTAS.json",
+      "bytes": 2854,
+      "sha256": "77beca21b4ca4dc246d41fe0b527aa0b676e7eea69d6768fec79f1c68288a239"
+    }
+  ]
+}

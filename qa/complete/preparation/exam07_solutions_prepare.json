@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "input": "source/exams/exam-07/exam07_solutions.id.tex",
+  "input_bytes": 26018,
+  "input_sha256": "ddf8bcebcf19c9fc21757d763e75c52fbbb044ec64450d5d2c8c247ab630cc82",
+  "output": "build/generated/exams/exam07_solutions.id.build.tex",
+  "output_bytes": 25384,
+  "output_sha256": "9fae9de52c3d21cd4c6c636e3fbef4162df37e687679c421f90d9d60631ad968",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 16,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Hyperfläche/Geodätische Kurve/Tangentiale Richtung/Paralleltransport/Aufgabe",
+      "label": "Soal 6.9 (Geometri diferensial (Osnabrück 2023))"
+    },
+    {
+      "target": "Hyperfläche/Glatt/Normalenfeld/Fakt",
+      "label": "Lema 2.4 (Geometri diferensial (Osnabrück 2023))"
+    },
+    {
+      "target": "K^3/Kreuzprodukt/Eigenschaften/Fakt",
+      "label": "Lema 33.3 (Aljabar linear (Osnabrück 2024-2025))  (3)"
+    },
+    {
+      "target": "Hyperfläche/Weingartenabbildung/Tangentialraum/Fakt",
+      "label": "Lema 4.2 (Geometri diferensial (Osnabrück 2023))"
+    },
+    {
+      "target": "K^3/Kreuzprodukt/Eigenschaften/Fakt",
+      "label": "Lema 33.3 (Aljabar linear (Osnabrück 2024-2025))  (6)"
+    },
+    {
+      "target": "Riemannsche Untermannigfaltigkeit des R^n/Einbettung/Volumenform/Fakt",
+      "label": "Teorema 16.8 (Geometri diferensial (Osnabrück 2023))"
+    }
+  ],
+  "wiki_link_resolution_passes": 1,
+  "rendered_interactive_gif_links": []
+}

@@ -1,0 +1,190 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Die Aussage ist lokal, ohne Einschränkung sei daher
+{{
+Relationskette
+| U
+| \subseteq |  \R^n
+|| 
+|| 
+|| 
+|SZ=
+}}
+versehen mit einer riemannschen Struktur durch Funktionen {{mathl|term= g_{ij} |SZ=.}} Die Voraussetzung besagt
+{{
+Relationskette/display
+| {{op:Skalarprodukt|\nabla_{\partial_i} \partial_j | \partial_k }}  + {{op:Skalarprodukt| \partial_j | \nabla_{\partial_i} \partial_k }} 
+|| \partial_i g_{jk}
+|| 
+|| 
+|SZ=.
+}}
+Mit den Christoffelsymbolen formuliert ist
+{{
+Relationskette/display
+|  {{op:Skalarprodukt|\nabla_{\partial_i} \partial_j  | \partial_k }}
+|| {{op:Skalarprodukt| \sum_{\ell {{=}} 1}^n \Gamma^\ell_{ij}  \partial_\ell  | \partial_k }}
+||   \sum_{\ell {{=}} 1}^n \Gamma^\ell_{ij}   g_{ \ell k}
+|| 
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette/display
+|  {{op:Skalarprodukt| \partial_j  | \nabla_{\partial_i} \partial_k }}
+|| {{op:Skalarprodukt| \partial_j  | \sum_{\ell {{=}} 1}^n \Gamma^\ell_{ik}  \partial_\ell   }}
+||  \sum_{\ell {{=}} 1}^n \Gamma^\ell_{ik}   g_{ \ell j}
+|| 
+|| 
+|SZ=,
+}}
+die Bedingung besagt also
+{{
+Relationskette/display
+|   \sum_{\ell {{=}} 1}^n \Gamma^\ell_{ij}   g_{ \ell k} +\sum_{\ell {{=}} 1}^n \Gamma^\ell_{ik}   g_{ \ell j}
+||   \partial_i g_{jk}
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Wir müssen
+{{
+Relationskette/display
+| D_V {{op:Skalarprodukt| W |Z}} 
+|| {{op:Skalarprodukt|\nabla_V W|Z}}  + {{op:Skalarprodukt| W | \nabla_VZ}} 
+|| 
+|| 
+|| 
+|SZ=
+}}
+für beliebige stetig differenzierbare Vektorfelder {{math|term= V,W,Z |SZ=}} zeigen, die wir jeweils als {{mathl|term= \sum_{i {{=}} 1}^nf_i \partial_i |SZ=}} mit stetig differenzierbaren Funktionen ansetzen können. Es sei zunächst
+{{
+Relationskette
+| V
+|| \partial_i
+|| 
+|| 
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette/display
+| W
+|| \sum_{j {{=}} 1}^nf_j \partial_j 
+|| 
+|| 
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette/display
+| Z
+|| \sum_{k {{=}} 1}^n h_k \partial_k 
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Das Skalarprodukt ist additiv in den Komponenten und {{math|term= \nabla_{\partial_i} |SZ=}} ist auch additiv,
+da ein linearer Zusammenhang vorliegt. Ebenso ist
+{{
+Relationskette
+| D_{\partial_i}
+|| \partial_i
+|| 
+|| 
+|| 
+|SZ=
+}}
+additiv. Deshalb können wir uns auf Felder der Form
+{{
+Relationskette
+| W
+|| f  \partial_j 
+|| 
+|| 
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette
+| Z
+|| h  \partial_k 
+|| 
+|| 
+|| 
+|SZ=
+}}
+mit fixierten {{math|term= j,k |SZ=}} beschränken. Für die linke Seite ergibt sich
+{{
+Relationskette/display
+|  \partial_i {{op:Skalarprodukt|f \partial_j | h \partial_k }} 
+|| \partial_i {{makl| fh g_{jk} |}} 
+||  fg_{jk} \partial_i(h) + hg_{jk} \partial_i(f)   +  fh \partial_i {{makl| g_{jk}  |}} 
+|| 
+|| 
+|SZ=.
+}}
+Nach
+{{
+Faktlink
+|Faktseitenname=
+Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt
+|Nr=
+|SZ=
+}}
+ist
+{{
+Relationskette/display
+| \nabla_{\partial_i} {{makl| f \partial_j |}} 
+||  {{makl| \partial_i f |}} \partial_j + f \nabla_{\partial_i }\partial_j
+|| {{makl| \partial_i f |}} \partial_j + f {{makl| \sum_{ \ell {{=}} 1}^n \Gamma^\ell_{ij} \partial_\ell  |}} 
+|| 
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette/display
+| \nabla_{\partial_i} {{makl| h \partial_k |}} 
+|| {{makl| \partial_i h |}} \partial_k + h \nabla_{\partial_i }\partial_k
+|| {{makl| \partial_i h |}} \partial_k  + h {{makl| \sum_{ \ell {{=}} 1}^n \Gamma^\ell_{ik} \partial_\ell  |}} 
+|| 
+|| 
+|SZ=.
+}}
+Daher ist
+{{
+Relationskette/align
+|  {{op:Skalarprodukt| \nabla_{\partial_i} {{makl| f \partial_j |}}  | h \partial_k}} 
+||  {{op:Skalarprodukt| {{makl| \partial_i f |}} \partial_j  + f {{makl| \sum_{ \ell {{=}} 1}^n \Gamma^\ell_{ij} \partial_\ell  |}}  | h \partial_k}} 
+|| h {{makl|  \partial_i f |}} {{op:Skalarprodukt|  \partial_j | \partial_k }} +fh \sum_{ \ell {{=}} 1}^n   \Gamma_{ij}^\ell {{op:Skalarprodukt|         \partial_\ell  | \partial_k }} 
+|| h {{makl|  \partial_i f |}}  g_{j k} +fh \sum_{ \ell {{=}} 1}^n   \Gamma_{ij}^\ell  g_{\ell k } 
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette/align
+|  {{op:Skalarprodukt|f \partial_j | \nabla_{\partial_i} {{makl| h \partial_k |}} }} 
+|| {{op:Skalarprodukt| f\partial_j | {{makl| \partial_i h|}} \partial_k  + h {{makl| \sum_{ \ell {{=}} 1}^n \Gamma^\ell_{ik} \partial_\ell  |}}  }} 
+||   f {{makl|  \partial_i h |}}  g_{j k} +fh \sum_{ \ell {{=}} 1}^n   \Gamma_{ik}^\ell  g_{\ell j } 
+|| 
+|| 
+|SZ=.
+}}
+Die Summe der beiden Terme stimmt mit der linken Seite überein.
+
+Im Richtungsfeld {{math|term= V |SZ=}} sind beide Seiten linear und auch mit der Multiplikation mit Funktionen verträglich.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

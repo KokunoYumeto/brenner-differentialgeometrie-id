@@ -1,0 +1,711 @@
+\setcounter{section}{24}
+
+  \zwischenueberschrift{Übungsaufgaben}
+
+\inputaufgabe
+{}
+{
+
+Es sei $X$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+mit
+\definitionsverweis {abzählbarer Basis der Topologie}{}{}
+und sei
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \,  U   \, \stackrel{  }{ \longrightarrow}   \,  V   \, \stackrel{  }{\longrightarrow} \,  W \,\stackrel{  } {\longrightarrow}  \, 0} {  }
+
+eine
+\definitionsverweis {kurze exakte Sequenz}{}{}
+von
+\definitionsverweis {differenzierbaren Vektorbündeln}{}{}
+über $X$. Zeige mithilfe von
+[[Mannigfaltigkeit/Abzählbare Basis/Überdeckung/Partition/Fakt|Satz 22.10]],
+dass es eine Spaltung der Sequenz gibt, also einen Vektorbündelisomorphismus
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \cong }{ U \oplus W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+der mit den Bündelhomomorphismen verträglich ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Das erste und das zweite
+\definitionsverweis {Tangentialbündel}{}{}
+von $Y$ seien als
+\definitionsverweis {abgeschlossene Untermannigfaltigkeit}{}{}
+in $W \times \R^n$ bzw. in
+\mathl{W \times \R^n \times \R^n \times \R^n}{} im Sinne von
+[[Differenzierbare Hyperfläche/Zweites Tangentialbündel/Implizite Beschreibung/Bemerkung|Bemerkung 24.4]]
+zusammen mit den Bündelprojektionen
+\maabbeledisp {\pi} {TY} {Y
+} {(P,u)} {P
+} {,}
+und
+\maabbeledisp {q} {TTY} {TY
+} {(P,u,v,w)} {(P,u)
+} {,}
+realisiert. Zeige die folgenden Aussagen.
+\aufzaehlungdrei{Eine
+\definitionsverweis {differenzierbare Kurve}{}{}
+\maabbeledisp {\epsilon} { I } { TY
+} { t } { (P(t), u(t))
+} {,}
+auf einem offenen Intervall
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ \subseteq }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definiert den
+\definitionsverweis {Tangentialvektor}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ [\epsilon]
+}
+{ = }{ (P(0), u(0), P'(0), u'(0))
+}
+{ \in }{ TTY
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Unter der
+\definitionsverweis {Tangentialabbildung}{}{}
+\maabbdisp {T_{(P,u)} (\pi)} {T_{ (P,u)} TY} { T_PY
+} {}
+zu $\pi$ wird die Klasse
+\mathl{[\epsilon]}{} aus (1) auf
+
+\mavergleichskettedisp
+{\vergleichskette
+{ [ \pi \circ \epsilon ]
+}
+{ =} { [P'(0)]
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+abgebildet.
+}{Unter der
+\definitionsverweis {Tangentialabbildung}{}{}
+\maabb {T(\pi)} {TTY} {TY
+} {}
+zu $\pi$ wird
+\mathl{(P,u,v,w)}{} auf
+\mathl{(P,v)}{} abgebildet.
+}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Bestimme für den Einheitskreis
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ =} { \left\{ (x_1,x_2)  \mid   x_1^2 + x_2^2 = 1         \right\}
+}
+{ \subset} { \R^2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+eine implizite Beschreibung des
+\definitionsverweis {Tangentialbündels}{}{}
+$TY$ und des zweiten Tangentialbündels $TTY$ im Sinne von
+[[Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierte Bündelhomomorphismen/Bemerkung|Bemerkung 24.5]].
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {\varphi} { W } { \R^k
+} {}
+eine
+$C^2$-\definitionsverweis {stetig differenzierbare}{}{}
+Abbildung,
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R^k
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ \varphi^{-1} (c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+über $c$, die in jedem Punkt
+\definitionsverweis {regulär}{}{}
+sei. Man entwickle eine implizite Beschreibung
+\zusatzklammer {also mit Gleichungen} {} {}
+des
+\definitionsverweis {Tangentialbündels}{}{}
+$TY$ und des zweiten Tangentialbündels $TTY$ ähnlich zu
+[[Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierte Bündelhomomorphismen/Bemerkung|Bemerkung 24.5]].
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $X$ eine
+$C^2$-\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{.}
+Es seien
+
+\mavergleichskette
+{\vergleichskette
+{ I,J
+}
+{ \subseteq }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offene Intervalle}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I,J
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und es sei
+\maabbeledisp {\varphi} {I \times J} {X
+} {(s,t)} { \varphi(s,t)
+} {,}
+eine zweifach
+\definitionsverweis {stetig differenzierbare}{}{}
+Abbildung mit
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi(0,0)
+}
+{ = }{ P
+}
+{ \in }{ X
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+\aufzaehlungvier{Zeige, dass für jedes
+
+\mavergleichskette
+{\vergleichskette
+{ s
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Abbildung
+
+\mathl{\varphi \vert_{ \{s\} \times J }}{} eine differenzierbare Kurve in $X$ definiert.
+}{Zeige, dass durch (1) eine differenzierbare Kurve
+\maabbeledisp {} { I } { TX
+} { s } { [ \varphi \vert_{ \{s\} \times J } ]
+} {,}
+definiert wird, wobei
+\mathl{[ \varphi \vert_{ \{s\} \times J } ]}{} den Tangentialvektor dieses Weges im Punkt $(s,0)$ bezeichnet.
+}{Zeige, dass durch (2) ein Element in
+\mathl{TTY}{} bestimmt ist.
+}{Zeige, dass man jedes Element aus
+\mathl{TTY}{} durch eine Abbildung $\varphi$ wie oben realisieren kann.
+}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $X$ eine
+$C^2$-\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{.}
+Wir betrachten zweifach
+\definitionsverweis {stetig differenzierbare}{}{}
+Abbildungen
+\maabbeledisp {\varphi} {I \times J} {X
+} {(s,t)} { \varphi(s,t)
+} {,}
+als Elemente in
+\mathl{TTX}{} im Sinne von
+[[Differenzierbare_Mannigfaltigkeit/Quader/Abbildung/Zweites_Tangentialbündel/Aufgabe|Aufgabe 24.5]].
+Wie verhalten sich diese Realisierungen unter der kurzen exakten Sequenz
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \, p^*TX  \, \stackrel{  }{ \longrightarrow}   \, TTX  \, \stackrel{  }{\longrightarrow} \, p^*TX \,\stackrel{  } {\longrightarrow}  \, 0} { . }
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+\maabb {} { E } { X
+} {}
+ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+über einer
+\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+$X$. Bestimme die
+\definitionsverweis {Ränge}{}{}
+für die Vektorbündel über $E$  in der kurzen exakten Sequenz
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \,  V   \, \stackrel{  }{ \longrightarrow}   \,  TE  \, \stackrel{  }{\longrightarrow} \, p^* TX \,\stackrel{  } {\longrightarrow}  \, 0} { . }
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Bestimme die
+\definitionsverweis {Zusammenhänge}{}{}
+auf dem Nullbündel auf einer
+\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+$X$.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Bestimme die
+\definitionsverweis {Zusammenhänge}{}{}
+auf einem
+\definitionsverweis {Vektorbündel}{}{}
+auf einer einpunktigen
+\definitionsverweis {Mannigfaltigkeit}{}{}
+$X$.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $X$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und $E$ ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+auf $X$, das mit einem
+\definitionsverweis {Zusammenhang}{}{}
+versehen sei. Zeige, dass man das Konzept vertikale Ableitung auch längs einer differenzierbaren Abbildung
+\maabbdisp {\psi} { Z } { X
+} {}
+einführen kann, vergleiche hierzu auch
+[[Hyperfläche/Tangentiales Vektorfeld/Längs einer Kurve/Kovariante Ableitung/Definition|Definition 6.5]].
+
+}
+{} {}
+
+  \zwischenueberschrift{Aufgaben zum Abgeben}
+
+\inputaufgabe
+{3}
+{
+
+Es sei $X$ ein
+\definitionsverweis {topologischer Raum}{}{}
+und sei
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \, U  \, \stackrel{  }{ \longrightarrow}   \, V  \, \stackrel{  }{\longrightarrow} \, W \,\stackrel{  } {\longrightarrow}  \, 0} {  }
+
+eine
+\definitionsverweis {kurze exakte Sequenz}{}{}
+von
+\definitionsverweis {Vektorbündeln}{}{}
+über $X$. Es sei
+\maabb {\varphi} {Y} {X
+} {}
+eine
+\definitionsverweis {stetige Abbildung}{}{}
+von einem weiteren topologischen Raum $Y$. Zeige, dass der Rückzug zu einer kurzen exakten Sequenz
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \, \varphi^*U  \, \stackrel{  }{ \longrightarrow}   \, \varphi^*V  \, \stackrel{  }{\longrightarrow} \, \varphi^*W \,\stackrel{  } {\longrightarrow}  \, 0} {  }
+
+von Vektorbündeln auf $Y$ führt.
+
+}
+{} {}
+
+\inputaufgabe
+{3 (1+2)}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ \subseteq }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {offenes Intervall}{}{,}
+wir betrachten die
+\definitionsverweis {kurze exakte Sequenz}{}{}
+\zusatzklammer {von Vektorbündeln über $I \times \R$} {} {}
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \, I \times \R \times \R   \, \stackrel{  }{ \longrightarrow}   \,  I \times \R \times \R \times \R   \, \stackrel{  }{\longrightarrow} \,  I \times \R \times \R  \,\stackrel{  } {\longrightarrow}  \, 0} { , }
+
+wobei die erste Abbildung durch
+\mathl{(P,u,w) \mapsto (P,u,0,w)}{} und die zweite Abbildung durch
+\mathl{(P,u,v,w) \mapsto (P,u,v)}{} gegeben sei. Es seien
+\maabbdisp {g,h} {I \times \R } {\R
+} {}
+stetig differenzierbare Funktionen.
+\aufzaehlungdrei{Zeige, dass durch
+\maabbeledisp {} {I \times \R \times \R \times \R  } { I \times \R \times \R
+} {(P,u,v,w)} { (P,u,   v g(P,u) +w h(P,u) )
+} {,}
+ein Vektorbündelhomomorphismus über $I \times \R$ gegeben ist.
+}{Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ h
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+konstant. Zeige, dass die Abbildung in (1) eine Spaltung des Bündels in der Mitte definiert.
+}{
+}
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Bestimme für die ebene Kurve
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ =} { \left\{ (x_1,x_2)  \mid   x_1^3 -5x_1x_2 + x_2^4 = 1         \right\}
+}
+{ \subset} { \R^2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+eine implizite Beschreibung des
+\definitionsverweis {Tangentialbündels}{}{}
+$TY$ und des zweiten Tangentialbündels $TTY$ im Sinne von
+[[Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierte Bündelhomomorphismen/Bemerkung|Bemerkung 24.5]].
+
+}
+{} {}
+
+\inputaufgabe
+{5 (3+2)}
+{
+
+Wir betrachten die differenzierbare Fläche
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Y
+}
+{ =} { \left\{ (x_1,x_2,x_3)  \mid   x_1^2+x_2^2 -x_3^2 = 0  , \, (x,y,z) \neq 0       \right\}
+}
+{ \subseteq} { W
+}
+{ =} { \R^3 \setminus \{(0,0,0) \}
+}
+{ \subset} { \R^3
+}
+}
+{}{}{.}
+\aufzaehlungzwei {Bestimme eine implizite Beschreibung des
+\definitionsverweis {Tangentialbündels}{}{}
+$TY$ und des zweiten Tangentialbündels $TTY$ im Sinne von
+[[Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierte Bündelhomomorphismen/Bemerkung|Bemerkung 24.5]].
+} {Berechne für die differenzierbare Kurve
+\maabbeledisp {} { I } { Y
+} { t } { \left(  \cos  t   , \,   \sin  t  , \,   1                 \right)
+} {}
+die zughörige Kurve in das Tangentialbündel und in das zweite Tangentialbündel.
+}
+
+}
+{} {}
+
+\inputaufgabe
+{3}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+und sei
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ = }{ U \times \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei wir Funktionen
+\maabb {f} { U } {\R
+} {}
+als
+\definitionsverweis {Schnitte}{}{}
+in $E$ auffassen. Es sei $E$ mit dem
+\definitionsverweis {trivialen Zusammenhang}{}{}
+versehen. Zeige
+
+\mavergleichskette
+{\vergleichskette
+{ \nabla (f)
+}
+{ = }{ df
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für stetig differenzierbare Funktionen.
+
+}
+{} {}
+
+ [[Kategorie:Latexseite]]

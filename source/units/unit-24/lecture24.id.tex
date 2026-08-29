@@ -1,0 +1,1269 @@
+\setcounter{section}{24}
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{ }
+adalah suatu hipermuka terdiferensialkan. Bagi setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+\definitionsverweis {ruang singgung}{}{}
+merupakan subruang vektor
+
+\mavergleichskette
+{\vergleichskette
+{ T_PY
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+di ruang ambien. Dengan menggunakan hasil kali dalam standar pada $\R^n$, kita memperoleh
+\definitionsverweis {proyeksi ortogonal}{}{}
+\maabbdisp {\pi_P} {\R^n } { T_PY
+} {,}
+yang memungkinkan data di ruang ambien ditafsirkan sebagai data tangensial pada hipermuka. Dari konstruksi ini muncul berbagai konsep penting pada $Y$, seperti
+\definitionsverweis {percepatan tangensial}{}{,}
+\definitionsverweis {kurva geodesik}{}{,}
+\definitionsverweis {kelengkungan}{}{,}
+\definitionsverweis {turunan kovarian suatu medan vektor}{}{,}
+\definitionsverweis {medan vektor paralel}{}{}
+serta
+\definitionsverweis {transpor paralel}{}{.}
+Di sisi lain, hasil kali dalam standar tersebut juga menginduksi
+\definitionsverweis {struktur Riemann}{}{}
+pada $Y$. Pertanyaannya kemudian ialah apakah konsep-konsep tadi dapat dibangun secara intrinsik hanya dari $Y$ dan struktur Riemann-nya
+\zusatzklammer {misalnya untuk
+\definitionsverweis {permukaan hiperbolik}{}{}} {} {.}
+Untuk menjawabnya, diperlukan perangkat baru, yaitu koneksi pada bundel vektor, terutama pada bundel tangen suatu
+\definitionsverweis {manifold diferensiabel}{}{.}
+Pada manifold Riemann, struktur ini menghasilkan secara kanonik \stichwort {koneksi Levi-Civita} {}
+\zusatzklammer {lihat
+[[Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Eindeutige Existenz/Fakt|Teorema 26.12]]} {} {,}
+yang memungkinkan seluruh konsep di atas dirumuskan secara intrinsik.
+
+  \zwischenueberschrift{Koneksi}
+
+Misalkan $X$ adalah
+\definitionsverweis {manifold diferensiabel}{}{}
+riil, dan
+\maabbdisp {p} { E } { X
+} {}
+adalah bundel vektor di atas $X$ yang ruang totalnya juga diperlakukan sebagai manifold diferensiabel. Adapun
+\definitionsverweis {pemetaan singgung}{}{}
+\maabb {T(p)} {TE} {TX
+} {,}
+berada dalam diagram komutatif
+
+\mathdisp {\begin{matrix} TE & \stackrel{ T(p) }{\longrightarrow} & TX &  \\ \downarrow & & \downarrow  & \\  E  & \stackrel{ p }{\longrightarrow} &  X  & \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }
+
+dan, bagi setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \in }{ E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan titik dasar
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ = }{ p(e)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+\definitionsverweis {pemetaan singgung}{}{}
+\definitionsverweis {linear}{}{}
+\maabbdisp {T_e(p)} {T_e E} { T_{x}X
+} {}
+bersifat surjektif. Salah satu alasannya ialah bahwa secara lokal, melalui setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \in }{ E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+terdapat suatu penampang bundel vektor $E$. Agar domain dan kodomain memiliki ruang dasar yang sama, kita memandang $T(p)$ sebagai
+\definitionsverweis {pemetaan bundel}{}{}
+\maabbdisp {Tp} {TE} { p^* TX
+} {}
+antara bundel vektor di atas $E$. Dalam notasi ini,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ p^*TX
+}
+{ =} { E \oplus TX
+}
+{ =} { E \times_X TX
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+merupakan
+\definitionsverweis {jumlah langsung}{}{}
+bundel vektor di atas $X$; lihat
+[[Topologischer Raum/Vektorbündel/Summe/Produktrealisierung/Aufgabe|Soal 12.24]].
+Di sini, $p^*TX$ dipandang sebagai bundel vektor di atas $E$. Serat $p^*TX$ di atas titik
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \in }{ E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan titik dasar
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ = }{ p(e)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+hanyalah $T_{x}X$, sedangkan pemetaan pada serat tersebut tetaplah
+\maabbdisp {T_e (p)} { T_e E } { T_{x} X
+} {,}
+sehingga di dalam $p^*TX$ terdapat satu salinan $T_{x} X$ untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \in }{ E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+\inputbemerkung
+{}
+{
+
+Misalkan
+\maabb {p} { E } { X
+} {}
+adalah
+\definitionsverweis {bundel vektor}{}{}
+diferensiabel di atas
+\definitionsverweis {manifold diferensiabel}{}{}
+$X$. Ambil himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+tempat $E$ dapat ditrivialkan, sehingga
+
+\mavergleichskette
+{\vergleichskette
+{ E  \vert_U
+}
+{ \cong }{ U \times W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan ruang vektor atas $\R$ yang kita namakan $W$. Dengan demikian,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T  \left(  E \vert_U  \right)
+}
+{ =} { T(U \times  W )
+}
+{ =} { T U \times T W
+}
+{ =} { TU \times W \times W
+}
+{ } {
+}
+}
+{}{}{,}
+Sementara itu,
+\definitionsverweis {pemetaan singgung}{}{}
+yang berkaitan dengan
+\maabb {p_U} {E \vert_U } { U
+} {}
+merupakan proyeksi ke $TU$. Untuk menuliskannya sebagai homomorfisme bundel di atas $U\times W$, kodomainnya diidentifikasi sebagai
+
+\mavergleichskettedisp
+{\vergleichskette
+{ p^*TU
+}
+{ =} { TU \times W
+}
+{ =} { TU \times_U (U \times W)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan pemetaannya ialah
+\maabbdisp {} {T  \left(  E \vert_U  \right)  = TU \times W \times W  } { TU \times W
+} {}
+yang mengambil proyeksi ke $TU$ sekaligus proyeksi kedua ke $W$.
+
+}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+\maabb {p} { E } { X
+} {}
+adalah
+\definitionsverweis {bundel vektor diferensiabel}{}{}
+di atas
+\definitionsverweis {manifold diferensiabel}{}{}
+$X$. 
+\definitionsverweis {Bundel kernel}{}{}
+dari
+\definitionsverweis {homomorfisme bundel}{}{}
+\definitionsverweis {surjektif}{}{}
+\maabbdisp {T(p)} {TE} {p^*TX
+} {}
+di atas $E$ disebut \definitionswort {bundel vertikal}{.} Notasinya adalah $V$.
+
+}
+
+Menurut [[Topologischer Raum/Reelles Vektorbündel/Homomorphismus/Kern/Untervektorbündel/Aufgabe|Soal 12.19]], bundel vertikal adalah bundel vektor di atas $E$; lebih khusus lagi, ia merupakan
+\definitionsverweis {subbundel vektor}{}{}
+dari $TE$.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Vektorbündel/R/Vertikalbündel/Eigenschaften/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan
+\maabb {p} { E } { X
+} {}
+adalah
+\definitionsverweis {bundel vektor diferensiabel}{}{}
+di atas
+$C^2$-\definitionsverweis {manifold diferensiabel}{}{}
+$X$.}
+\faktuebergang {Pernyataan berikut berlaku.}
+\faktfolgerung {\aufzaehlungdrei{Terdapat
+\definitionsverweis {barisan eksak pendek}{}{}
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \,  V   \, \stackrel{  }{ \longrightarrow}   \,  TE  \, \stackrel{  }{\longrightarrow} \, p^* TX \,\stackrel{  } {\longrightarrow}  \, 0} {  }
+
+yang terdiri dari
+\definitionsverweis {homomorfisme}{}{}
+bundel vektor di atas $E$.
+}{Untuk
+\definitionsverweis {bundel vertikal}{}{}
+terdapat
+\definitionsverweis {isomorfisme bundel}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ V \cong p^*E
+}
+{ = }{ E \oplus E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}{Bagi setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \in }{ E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+diperoleh barisan eksak pendek ruang vektor berikut:
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \, E_{p(e)}   \, \stackrel{  }{ \longrightarrow}   \,  T_eE  \, \stackrel{  }{\longrightarrow} \, T_{p(e)}X \,\stackrel{  } {\longrightarrow}  \, 0} {  }
+
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\aufzaehlungzwei {Pernyataan ini langsung mengikuti definisi.
+} {Terdapat homomorfisme injektif bundel vektor
+\maabbdisp {} {p^*E = E \oplus E} { TE
+} {}
+di atas $E$ yang memetakan
+\mathl{(P,u)}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ u
+}
+{ \in }{ E_P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+ke vektor singgung yang diwakili oleh kurva diferensiabel
+\zusatzklammer {vertikal} {} {}
+\maabbeledisp {} {\R} {E
+} { t } {(P,tu)
+} {,}
+ini. Selanjutnya, oleh pemetaan
+\maabbdisp {} {TE} { p^*TX
+} {}
+vektor singgung tersebut dikirim ke $0$, sebab kurva wakilnya dikirim ke $P$ oleh
+\maabb {p} { E } { X
+} {}
+.
+Oleh karena itu,
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ \subseteq }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dan perbandingan rank menunjukkan bahwa inklusi ini sebenarnya suatu isomorfisme.
+}
+
+}
+
+Kasus yang sering dijumpai adalah ketika $E$ merupakan bundel tangen dari $X$. Dalam kasus ini diperoleh barisan eksak pendek
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \, p^* TX  \, \stackrel{  }{ \longrightarrow}   \, TTX  \, \stackrel{  }{\longrightarrow} \, p^* TX \,\stackrel{  } {\longrightarrow}  \, 0} {  }
+
+Oleh sebab itu, kedua salinan bundel tangen di ruas kiri dan kanan harus selalu dibedakan dengan cermat.
+
+\inputbemerkung
+{}
+{
+
+Misalkan
+\maabbdisp {f} {\R^n } { \R
+} {}
+adalah fungsi yang dua kali
+\definitionsverweis {terdiferensialkan secara kontinu}{}{,}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ f^{-1} (0)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {hipermuka terdiferensialkan}{}{}
+terkait yang
+\definitionsverweis {reguler}{}{}
+pada setiap titik. 
+\definitionsverweis {Bundel tangen}{}{}
+$TY$ dapat pula dinyatakan sebagai serat bersama dari fungsi-fungsi, yakni
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ TY
+}
+{ =} { \left\{  (P,u)   \mid   f(P) = 0 , \,  \left(  D f   \right)_{ P } \left(  u  \right) = 0       \right\}
+}
+{ =} { \left\{  (P,u_1 , \ldots , u_n)   \mid   f(P) = 0 , \,  \sum_{i = 1}^n u_i { \frac{   \partial   f   }{  \partial   x_i   } } ( P) = 0       \right\}
+}
+{ \subseteq} { \R^n \times \R^n
+}
+{ } {
+}
+}
+{}
+{}{,}
+sebagaimana dalam
+[[Differenzierbare Hyperfläche/Tangentialbündel/Implizite Realsierung/Aufgabe|Soal 10.15]].
+Dalam rumusan ini, $f$ dipandang sebagai fungsi pada $\R^{2n}$ yang hanya bergantung pada $n$ variabel pertama, dan kita definisikan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g(P,u)
+}
+{ =} { \sum_{i = 1}^n u_i { \frac{   \partial   f   }{  \partial   x_i   } } ( P)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Bundel tangen kedua $TTY$, yaitu bundel tangen dari $TY$, selanjutnya dapat dideskripsikan dengan
+\definitionsverweis {diferensial total}{}{}
+dari pemetaan
+\maabbdisp {\varphi = (f,g)} {\R^{2n}} { \R^2
+} {}
+sebagai berikut:
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ TTY
+}
+{ =} { \left\{  (P,u, v,w)  \mid   (P,u) \in TY , \,  \left(  D\varphi  \right)_{(P,u)} \left(  (v,w)  \right) = 0       \right\}
+}
+{ \subseteq} { \R^{4n}
+}
+{ } {
+}
+{ } {}
+}
+{}
+{}{.}
+\definitionsverweis {Matriks Jacobi}{}{,}
+yang merepresentasikan diferensial total $D\varphi$, ialah
+
+\mathdisp {\begin{pmatrix}   { \frac{   \partial   f   }{  \partial   x_1   } } ( P)   &   \ldots &  { \frac{   \partial   f   }{  \partial   x_n   } } ( P)  &   0 &  \ldots &  0  \\   \sum_{i = 1}^n u_i   { \frac{   \partial    }{  \partial   x_1   } } { \frac{   \partial   f   }{  \partial   x_i   } } ( P)  &  \ldots  &   \sum_{i = 1}^n u_i   { \frac{   \partial    }{  \partial   x_n   } } { \frac{   \partial   f   }{  \partial   x_i   } } ( P)   &  { \frac{   \partial   f   }{  \partial   x_1   } } ( P)  &  \ldots &  { \frac{   \partial   f   }{  \partial   x_n   } } ( P)    \end{pmatrix}} { . }
+
+Di samping dua syarat yang mendefinisikan $TY$ dan hanya menyangkut
+\mathkor {} {P} {dan} {u} {,}
+diperoleh dua syarat tambahan yang melibatkan seluruh variabel, yaitu
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \sum_{j = 1}^n v_j { \frac{   \partial   f   }{  \partial   x_j   } } ( P)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \sum_{j = 1}^n v_j  \left(  \sum_{i = 1}^n u_i { \frac{   \partial    }{  \partial   x_i   } }  { \frac{   \partial   f   }{  \partial   x_j   } } ( P)  \right)      + \sum_{k = 1}^n w_k { \frac{   \partial   f   }{  \partial   x_k   } } ( P)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+\inputbemerkung
+{}
+{
+
+Misalkan
+\maabbdisp {f} {\R^n } { \R
+} {}
+adalah fungsi yang dua kali
+\definitionsverweis {terdiferensialkan secara kontinu}{}{,}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ f^{-1} (0)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {hipermuka terdiferensialkan}{}{}
+terkait yang
+\definitionsverweis {reguler}{}{}
+pada setiap titik. Kita gunakan deskripsi bundel tangen kedua $TTY$ dari
+[[Differenzierbare Hyperfläche/Zweites Tangentialbündel/Implizite Beschreibung/Bemerkung|Catatan 24.4]]
+beserta notasi di sana. Bundel tangen tarik balik $\pi^*TY$ terhadap
+\maabbdisp {\pi} {TY} {Y
+} {,}
+yang juga merupakan
+\definitionsverweis {bundel vertikal}{}{,}
+adalah
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ V
+}
+{ \cong} { \pi^*TY
+}
+{ =} { TY \times_Y TY
+}
+{ =} { \left\{ (P,u,z)  \mid  f(P) = 0 , \,  \sum_{i = 1}^n u_i { \frac{   \partial   f   }{  \partial   x_i   } } ( P) = 0   , \,  \sum_{k = 1}^n z_k { \frac{   \partial   f   }{  \partial   x_k   } } ( P) = 0    \right\}
+}
+{ } {
+}
+}
+{}
+{}{.}
+Sekarang kita tentukan bentuk pemetaan singgung
+\maabb {T(\pi)} {TTY } { \pi^* TY
+} {}
+serta pembenaman bundel vertikal ke dalam $TTY$. Berdasarkan
+[[Differenzierbare Hyperfläche/Tangentialbündel/Differenzierbarer Weg/Zweites Tangentialbündel/Aufgabe|Soal 24.2]],
+diperoleh
+\maabbeledisp {T(\pi)} {TTY} { \pi^* TY
+} {(P,u,v,w)} { (P,u,v)
+} {.}
+Kernel pemetaan ini adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ V
+}
+{ =} { \left\{  (P,u,0,w)   \mid   (P,u,0,w) \in TTY          \right\}
+}
+{ \subset} { TTY
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dan langsung terlihat bahwa
+\mathl{(P,u,w)}{} memenuhi syarat bagi
+\mathl{\pi^*TY}{}.
+Oleh sebab itu, kedua homomorfisme bundel dalam barisan eksak pendek
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \,  \pi^*TY  \, \stackrel{  }{ \longrightarrow}   \, TTY  \, \stackrel{  }{\longrightarrow} \,  \pi^*TY \,\stackrel{  } {\longrightarrow}  \, 0} {  }
+
+dapat ditulis dalam koordinat sebagai
+
+\mathl{(P,u,w) \mapsto  (P,u,0,w)}{} dan
+\mathl{(P,u,v,w) \mapsto (P,u,v)}{}.
+
+}
+
+Jika $E$ merupakan bundel trivial, yaitu
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ = }{ X \times \R^r
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+maka terdapat penguraian langsung
+\zusatzklammer {di atas $E$} {} {}
+
+\mavergleichskette
+{\vergleichskette
+{ TE
+}
+{ = }{ V \oplus p^* TX
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Di setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \in }{ E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+vektor singgung
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mewakili arah vertikal, sedangkan
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ p^* T_xX
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mewakili \anfuehrung{arah horizontal}{.}
+Pada bundel vektor sembarang, suatu trivialisasi lokal menguraikan ruang singgung
+\mathl{T_eE}{} sebagai jumlah langsung ruang vertikal dan ruang horizontal. Namun, subruang horizontal yang dihasilkan sangat bergantung pada trivialisasi yang dipilih. Tidak seperti subruang vertikal
+\zusatzklammer {yang bersama-sama membentuk bundel vertikal} {} {,}
+subruang horizontal ini belum tentu menyatu menjadi suatu subbundel. Keberadaan subbundel horizontal semacam inilah yang dirumuskan oleh konsep koneksi.
+
+\inputdefinition
+{}
+{
+
+Misalkan $X$ adalah
+\definitionsverweis {manifold diferensiabel}{}{}
+dan $E$ adalah
+\definitionsverweis {bundel vektor diferensiabel}{}{}
+di atas $X$. Suatu
+\definitionswort {koneksi}{}
+pada $E$ didefinisikan sebagai penguraian jumlah langsung
+\definitionsverweis {bundel tangen}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ TE
+}
+{ = }{ V \oplus H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+menjadi dua
+\definitionsverweis {subbundel vektor}{}{}
+\mathkor {} {V} {dan} {H} {,}
+dengan ketentuan bahwa
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ TE
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan
+\definitionsverweis {bundel vertikal}{}{.}
+Subbundel
+
+\mavergleichskette
+{\vergleichskette
+{ H
+}
+{ \subseteq }{ TE
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+disebut
+\definitionswort {bundel horizontal}{}
+koneksi tersebut.
+
+}
+
+Koneksi biasanya dilambangkan dengan $\nabla$, khususnya ketika proses diferensiasi yang ditentukannya hendak ditekankan. Jadi, menurut definisi, koneksi hanyalah subbundel dari $TE$ yang komplementer terhadap bundel vertikal. Ada beberapa rumusan lain yang ekuivalen. Memberikan suatu koneksi sama artinya dengan memberikan homomorfisme bundel
+\zusatzklammer {disebut \stichwort {proyeksi vertikal} {} koneksi} {} {}
+\maabbdisp {\pi_{\text{vert} }} {TE} {V
+} {}
+dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \pi_{\text{vert} }  \circ \iota
+}
+{ =} {
+\operatorname{Id}_{  V  }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+di mana $\iota$ adalah pembenaman $V$ ke dalam $TE$. Dalam rumusan ini, bundel horizontal ialah kernel $\pi_{\text{vert}}$. Sebaliknya, penguraian jumlah langsung menyediakan proyeksi ke masing-masing suku. Penguraian seperti itu juga disebut \stichwort {pemisahan} {} dari barisan eksak pendek. Setiap koneksi dapat dibatasi ke himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+\inputbeispiel{}
+{
+
+Pertimbangkan bundel trivial
+\maabbdisp {p} {X \times W = W_X } { X
+} {,}
+dengan $W$ ruang vektor riil
+\definitionsverweis {berdimensi}{}{}
+$r$ dan $X$ sebuah
+\definitionsverweis {manifold diferensiabel}{}{,}
+kita memperoleh barisan eksak pendek
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \, p^*(X \times W)  =  X \times W \times W   \, \stackrel{  }{ \longrightarrow}   \, p^* T(X \times W )  = TX \times W \times W   \, \stackrel{  }{\longrightarrow} \, p^* TX  =  TX \times W   \,\stackrel{  } {\longrightarrow}  \, 0} {  }
+
+bundel vektor di atas
+\mathl{X \times W}{.}
+Semua produk di sini dipahami sebagai produk Kartesius biasa, setelah dilakukan identifikasi
+
+\mavergleichskette
+{\vergleichskette
+{ (X \times W) \times_X (X \times W)
+}
+{ = }{ X \times W \times W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+di sebelah kiri serta identifikasi
+
+\mavergleichskette
+{\vergleichskette
+{ TX \times_X (X \times W)
+}
+{ = }{ TX \times W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+di sebelah kanan. Pada titik
+
+\mavergleichskette
+{\vergleichskette
+{ (x,w)
+}
+{ \in }{ X \times W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+barisan eksak pada serat berbentuk
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \,  W   \, \stackrel{  }{ \longrightarrow}   \,  T_xX \times W   \, \stackrel{  }{\longrightarrow} \,  T_xX \,\stackrel{  } {\longrightarrow}  \, 0} { . }
+
+Pemisahan baku dari barisan eksak pendek bundel vektor ini disebut \stichwort {koneksi trivial} {} pada bundel trivial tersebut.
+
+}
+
+\inputbemerkung
+{}
+{
+
+Misalkan
+\maabbdisp {f} {\R^n } { \R
+} {}
+adalah fungsi yang dua kali
+\definitionsverweis {terdiferensialkan secara kontinu}{}{,}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ f^{-1} (0)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {hipermuka terdiferensialkan}{}{}
+terkait yang
+\definitionsverweis {reguler}{}{}
+pada setiap titik. Kita kembali memakai deskripsi bundel tangen kedua $TTY$ dari
+[[Differenzierbare Hyperfläche/Zweites Tangentialbündel/Implizite Beschreibung/Bemerkung|Catatan 24.4]]
+dan homomorfisme bundel dari
+[[Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierte Bündelhomomorphismen/Bemerkung|Catatan 24.5]].
+Melalui proyeksi ortogonal
+\maabb {} {\R^n } { T_PY
+} {}
+diperoleh proyeksi vertikal
+\maabbeledisp {} {TTY} { V = p^*TY
+} {(P,u,v,w)} { (P,u, \pi_P (w) )
+} {,}
+pada
+\definitionsverweis {bundel vertikal}{}{.}
+Memang, $\pi_P(w)$ berada dalam ruang singgung $Y$. Apabila kita mulai dari vektor
+
+\mavergleichskette
+{\vergleichskette
+{ (P,u,w)
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+komponen terakhir $w$ pada
+\mathl{(P,u,0,w)}{} sudah otomatis berada dalam ruang singgung. Karena itu, proyeksi ortogonal mengirim unsur ini kembali ke $(P,u,w)$. Jadi, konstruksi tersebut mendefinisikan
+\definitionsverweis {koneksi}{}{}
+pada $TY$.
+
+}
+
+  \zwischenueberschrift{Turunan vertikal}
+
+\inputdefinition
+{}
+{
+
+Misalkan $X$ adalah
+\definitionsverweis {manifold diferensiabel}{}{}
+dan $E$ adalah
+\definitionsverweis {bundel vektor diferensiabel}{}{}
+di atas $X$ yang dilengkapi dengan suatu
+\definitionsverweis {koneksi}{}{.}
+\definitionswort {turunan vertikal}{}
+$\nabla$ yang berkaitan dengan koneksi tersebut adalah pemetaan
+\maabbeledisp {\nabla} {C^1(E)} { C^0(E \otimes T^* X )
+} { s } { \nabla(s) = \pi_{\text{vert} }  \circ T(s)
+} {.}
+
+}
+Dengan kata lain, setiap penampang diferensiabel $s$ dari $E$
+\zusatzklammer {di atas $X$ ataupun di atas himpunan terbuka sembarang
+
+\mavergleichskettek
+{\vergleichskettek
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+dipetakan ke komposisi
+
+\mathdisp {TX \stackrel{T(s)}{ \longrightarrow } TE \stackrel{ \pi_{\text{vert} } }{\longrightarrow} V \cong p^*E \longrightarrow E} {  }
+
+dengan identifikasi
+
+\mavergleichskette
+{\vergleichskette
+{ \operatorname{Hom}(TX,E)
+}
+{ \cong }{ E \otimes T^*X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+Jika diberikan pula
+\definitionsverweis {medan vektor}{}{}
+$F$ pada $X$, yaitu penampang
+\maabb {F} { X } { TX
+} {}
+pada
+\definitionsverweis {bundel tangen}{}{}
+$TX$, maka diperoleh pemetaan
+\maabbeledisp {\nabla_F} {C^1(E)} {C^0(E)
+} {s } {\nabla_F(s) = \nabla (s) \circ F
+} {,}
+yang disebut \stichwort {turunan vertikal} {} dalam arah $F$. Ketergantungan terhadap $F$ hanya bersifat titik demi titik. Sebaliknya, ketergantungan terhadap $s$ bersifat infinitesimal karena melibatkan pemetaan singgung
+\mathl{T(s)}{}.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Ableitung bezüglich Vektorfeld/Eigenschaften/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $X$ adalah
+\definitionsverweis {manifold diferensiabel}{}{}
+dan $E$ adalah
+\definitionsverweis {bundel vektor diferensiabel}{}{}
+di atas $X$ yang dilengkapi dengan suatu
+\definitionsverweis {koneksi}{}{.}
+Tuliskan
+\maabbdisp {\nabla_F} {C^1(E)} {C^0(E)
+} {}
+untuk operator turunan yang bersesuaian dengan
+\definitionsverweis {medan vektor}{}{}
+$F$.}
+\faktuebergang {Sifat-sifat berikut berlaku.}
+\faktfolgerung {\aufzaehlungzwei {
+\mathl{\left(  \nabla_F(s)  \right)  (P)}{} hanya bergantung pada $F(P)$
+\zusatzklammer {serta pada $s$} {} {.}
+} {Berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{g_1F_1+g_2F_2 }
+}
+{ =} { g_1 \nabla_{F_1 } +g_2 \nabla_{F_2 }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk medan vektor $F_1,F_2$ dan fungsi
+\maabb {g_1,g_2} { X} { \R
+} {.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\aufzaehlungzwei {Tetapkan titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan penampang
+
+\mavergleichskette
+{\vergleichskette
+{ s
+}
+{ \in }{ C^1(U,E)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+pada himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{ \subseteq }{ X
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+maka
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_F (s)(P)
+}
+{ =} { ( \pi_{\text{vert} } \circ  T_P(s) ) (F(P))
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+} {Pemetaan singgung dan proyeksi vertikal keduanya linear. Menurut (1), ketergantungan pada $F$ juga linear dan selaras dengan perkalian oleh fungsi.
+}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierter Zusammenhang/Vertikale Ableitung/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $W$
+\definitionsverweis {terbuka}{}{,}
+dan himpunan pertama adalah
+\definitionsverweis {hipermuka terdiferensialkan}{}{.}
+Misalkan pula
+\maabbdisp {F} { Y} { \R^n
+} {}
+adalah medan vektor tangensial.}
+\faktfolgerung {Maka
+\definitionsverweis {turunan vertikal}{}{}
+$\nabla_F$ yang ditentukan oleh
+\definitionsverweis {koneksi}{}{}
+pada
+[[Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierter Zusammenhang/Bemerkung|Catatan 24.8]]
+berimpit dengan
+\definitionsverweis {turunan kovarian}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Untuk penampang diferensiabel
+\maabb {s} { Y } { TY
+} {}
+turunan vertikal koneksi tersebut searah $F$ diberikan oleh komposisi
+
+\mathdisp {Y \stackrel{F}{\longrightarrow} TY \stackrel{T(s)}{\longrightarrow} TTY  \stackrel{  \pi_{\text{vert} } }{\longrightarrow} TY} { . }
+
+Pemetaan $T(s)$ mengirim titik
+\mathl{(P,u)}{} ke
+\mathl{(P,u, s(P), \left(  D s   \right)_{ P } \left(  u   \right))}{} dalam notasi
+[[Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierter Zusammenhang/Bemerkung|Catatan 24.8]],
+kemudian proyeksi vertikal mengirimnya ke
+\mathl{(P, \pi_P  \left(  \left(  D s   \right)_{ P } \left(  u   \right)  \right) )}{.}
+Inilah tepatnya rumus dalam definisi turunan kovarian.
+
+}
+
+ [[Kategorie:Latexseite]]

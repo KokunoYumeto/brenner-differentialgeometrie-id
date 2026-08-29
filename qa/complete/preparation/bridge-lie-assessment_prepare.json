@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "input": "source/bridges/lie-groups/bridge-lie-assessment.id.tex",
+  "input_bytes": 17123,
+  "input_sha256": "6d3d5555ee2845756f01415798e64d06893552e62a52d398e5c647298f96c6f5",
+  "output": "build/generated/bridges/bridge-lie-assessment.build.tex",
+  "output_bytes": 17123,
+  "output_sha256": "6d3d5555ee2845756f01415798e64d06893552e62a52d398e5c647298f96c6f5",
+  "removed_category_links": 0,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [],
+  "wiki_link_resolution_passes": 0,
+  "rendered_interactive_gif_links": []
+}

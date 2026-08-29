@@ -1,0 +1,89 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesungsgestaltung|23|
+
+{{
+inputbild
+|SS-stokes|jpg| 150px {{!}} right {{!}} 
+|Text=[[w:George Gabriel Stokes|George Stokes (1819 -1903)]]
+|Autor=
+|Benutzer=Kelson
+|Domäne=
+|Lizenz=PD
+|Bemerkung=
+}}
+Der Satz von Stokes gehört zu den wichtigsten Sätzen der Mathematik. Er stiftet eine direkte Beziehung zwischen dem Integral einer Differentialform über dem Rand einer berandeten Mannigfaltigkeit und dem Integral der äußeren Ableitung dieser Form über der gesamten Mannigfaltigkeit. Damit handelt es sich um eine weitgehende Verallgemeinerung des Hauptsatzes der Infinitesimalrechnung, nach dem das bestimmte Integral einer auf einem Intervall definierten Funktion mittels der Stammfunktion allein durch die Werte am Intervallrand ausgedrückt werden kann.
+
+{{Zwischenüberschrift|Der Satz von Stokes-Quaderversion}}
+
+Bevor wir den Satz von Stokes allgemein formulieren und beweisen, geben wir die Quaderversion davon, bei der der Definitionsbereich der Differentialform ein Quader ist, dessen Rand aus seinen Seiten besteht. Damit dieses geometrische Objekt eine Mannigfaltigkeit mit Rand ist, müssen wir die {{Anführung|Kanten|}} herausnehmen. Allerdings sind die Kanten auf den Seiten jeweils Nullmengen
+{{
+Zusatz/Klammer
+|text=und ebenso die Seiten auf dem Gesamtquader|
+|ISZ=|ESZ=,
+}}
+so dass beim Integrieren diese Teilmengen ignoriert werden können.
+
+{{
+inputfaktbeweis
+|Satz von Stokes/Quaderversion/Fakt|Satz||zusatz1=Fußnote
+||
+}}
+
+{{Zwischenüberschrift|Der Satz von Stokes}}
+
+{{:Satz von Stokes/Mannigfaltigkeiten mit Rand/Textabschnitt|zusatz1={{
+Zusatz/Fußnote
+|text=Unter dem Träger einer Differentialform versteht man den topologischen Abschluss der Punkte, auf denen die Form {{mathlk|term=\neq 0 |SZ=}} ist|
+|ISZ=.|ESZ=
+}}}}
+
+Es gibt viele Möglichkeiten, die Volumenform
+{{
+Relationskette
+| \tau
+|| dx_1 {{wedgedots|}} dx_n
+|| 
+|| 
+|| 
+|SZ=
+}}
+des {{math|term= \R^n |SZ=}} als äußere Ableitung einer {{mathl|term= (n-1) |SZ=-}}Form zu realisieren, beispielsweise mit
+{{
+Relationskette
+|  \omega
+|| x_1dx_2 {{wedgedots|}} dx_n
+|| 
+|| 
+|| 
+|SZ=.
+}} 
+Damit kann man die Berechnung des Volumens eines berandeten Körpers auf die Berechung eines Integrals über den Rand zurückführen. Im ebenen Fall nennt man diese Aussage auch den {{Stichwort|Satz von Green|SZ=.}} 
+
+{{
+inputfaktbeweis
+|Integration auf ebener Mannigfaltigkeit mit Rand/Satz von Green/Fakt|Satz||zusatz1=Fußnote|
+||
+}}
+
+{{
+inputfaktbeweis
+|Integration auf ebener Mannigfaltigkeit mit Rand/Satz von Green/Flächenversion/Fakt|Korollar||
+||
+}}
+
+{{
+inputbemerkung
+|Satz von Green/Nicht glatter Rand/Bemerkung||
+}}
+
+{{
+inputbeispiel
+|Satz von Stokes/Divergenzsatz/Beispiel||
+}}
+
+{{Zwischenüberschrift|Der Brouwersche Fixpunktsatz}}
+
+{{:Mannigfaltigkeiten mit Rand/Stokes/Retraktion/Brouwerscher Fixpunktsatz/Textabschnitt|zusatz1=Fußnote}}
+
+{{Fußnotenliste|}} 
+
+}}

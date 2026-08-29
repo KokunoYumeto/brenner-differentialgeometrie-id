@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-26/worksheet26_exercise06_solution.id.tex",
+  "input_bytes": 1645,
+  "input_sha256": "5665146bc9b1c3ced56ab618caec2531dd301497d3734752646f86de76600367",
+  "output": "build/generated/worksheet26_exercise06_solution.id.build.tex",
+  "output_bytes": 1553,
+  "output_sha256": "49079be3180d017cc2736baca95620240f124d19c81c9b496b9d2ee44f86514e",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Mannigfaltigkeit/Vektorfelder/Lie-Klammer/Eigenschaften/Fakt",
+      "label": "Fakta (3)"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

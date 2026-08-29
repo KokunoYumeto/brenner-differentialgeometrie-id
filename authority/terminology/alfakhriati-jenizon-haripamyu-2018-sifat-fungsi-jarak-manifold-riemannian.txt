@@ -1,0 +1,443 @@
+Jurnal Matematika UNAND
+Vol. VII No. 2 Hal. 140 – 148
+ISSN : 2303–291X
+ c Jurusan Matematika FMIPA UNAND
+
+
+
+
+     SIFAT-SIFAT FUNGSI JARAK PADA MANIFOLD
+                    RIEMANNIAN
+
+                      RIRI ALFAKHRIATI, JENIZON, HARIPAMYU
+                                  Jurusan Matematika,
+          Fakultas Matematika dan Ilmu Pengetahuan Alam, Universitas Andalas,
+                    Kampus UNAND Limau Manis Padang, Indonesia.
+                          email : ririalfakhriati123@gmail.com
+
+
+    Abstrak. Manifold Riemannian merupakan manifold smooth yang dilengkapi dengan
+    metrik Riemannian. Metrik Riemannian pada suatu manifold smooth M adalah hasilkali
+    dalam yang bersifat simetri, bilinier, dan definit positif pada setiap ruang singgung
+    Tp M . Salah satu hal yang menarik dari manifold Riemannian adalah bahwa sebarang
+    manifold Riemannian dapat ditinjau sebagai suatu ruang metrik dengan fungsi jarak
+    yang didefinisikan pada manifold Riemannian. Pada penelitian ini, akan dikaji metrik
+    Riemannian dan sifat-sifat fungsi jarak pada manifold Riemannian.
+
+    Kata Kunci: Manifold smooth, metrik Riemannian, manifold Riemannian, ruang metrik
+
+
+
+1. PENDAHULUAN
+Manifold Riemannian merupakan manifold smooth yang dilengkapi dengan suatu
+metrik Riemannian. Manifold adalah suatu ruang topologi yang secara lokal terlihat
+seperti ruang Euclidean. Persyaratan pertama untuk mentransfer ide dari kalkulus
+ke manifold adalah gagasan ”smoothness” [5]. Dalam beberapa buku, istilah fungsi
+smooth adalah fungsi yang dapat diturunkan berkali-kali dinotasikan sebagai C ∞
+[6]. Salah satu gagasan yang diperlukan untuk memperluas pemahaman tentang
+penerapan manifold pada ruang Rn yang melibatkan kalkulus yaitu ide tentang ma-
+nifold smooth. Metrik Riemannian pada dasarnya merupakan suatu hasilkali dalam
+pada setiap ruang singgung. Setiap manifold smooth memiliki metrik Riemannian.
+Pemilihan metrik Riemannian memungkinkan untuk mendefinisikan suatu konsep
+panjang dan jarak pada manifold smooth. Pada penelitian ini akan dikaji metrik
+Riemannian dan manifold Riemannian, serta dan sifat-sifat fungsi jarak pada ma-
+nifold Riemannian [2].
+
+
+2. LANDASAN TEORI
+2.1. Ruang Hasilkali Dalam
+
+Definisi 2.1. [1] Suatu hasilkali dalam pada sebuah ruang vektor riil V adalah
+sebuah fungsi yang mengaitkan sepasang vektor u dan v di V dengan bilangan riil
+hu, vi sedemikian sehingga untuk setiap u,v dan w di dalam V dan untuk semua
+skalar k memenuhi sifat :
+
+                                            140
+                                     Sifat-Sifat Fungsi Jarak pada Manifold Riemannian    141
+
+(1) hu, vi = hv, ui
+(2) hu + v, wi = hu, wi + hv, wi
+(3) hku, vi = khu, vi
+(4) hv, vi ≥ 0 dan hv, vi = 0 jika dan hanya jika v = 0.
+Ruang (V, h·, ·i) disebut ruang hasilkali dalam riil.
+
+Contoh 2.2. Ruang vektor Rn merupakan ruang hasilkali dalam dengan hasilkali
+dalam standar pada Rn didefinisikan oleh
+                      hx, yi = x1 y 1 + x2 y 2 + x3 y 3 + · · · + xn y n                 (2.1)
+untuk setiap x, y ∈ Rn .
+
+
+2.2. Ruang Norm
+
+Definisi 2.3. [5] Misalkan V suatu ruang vektor riil. Suatu norm pada V adalah
+suatu fungsi k·k: V −→ R yang memenuhi sifat :
+(1) kxk≥ 0 untuk semua x ∈ V dan kxk= 0 jika dan hanya jika x = 0
+(2) kαxk= |α|kxk untuk semua α ∈ R dan x ∈ V
+(3) kx + yk≤ kxk+kyk untuk semua x, y ∈ V .
+Pasangan (V, k·k) disebut ruang bernorm.
+
+Contoh 2.4. Ruang vektor Rn merupakan suatu ruang norm dengan norm dari
+                                             Pn            1
+suatu vektor x ∈ Rn didefinisikan oleh kxk= ( i=1 (xi )2 ) 2 dan disebut norm Eu-
+clidean.
+
+
+2.3. Ruang Metrik
+
+Definisi 2.5. [4] Misalkan X suatu himpunan tak kosong. Suatu metrik pada X
+adalah suatu fungsi d : X × X −→ R yang mempunyai sifat sebagai berikut :
+(1) d(x, y) ≥ 0, untuk setiap x, y ∈ X dan d(x, y) = 0 jika dan hanya jika x = y
+(2) d(x, y) = d(y, x), untuk setiap x, y ∈ X
+(3) d(x, z) ≤ d(x, y) + d(y, z), untuk setiap x, y, z ∈ X.
+Pasangan (X, d) disebut ruang metrik dimana X adalah himpunan tak kosong dan
+d adalah metrik pada X.
+
+Contoh 2.6. Fungsi d yang didefinisikan oleh
+                                        Pn       i
+                                                        1
+                                                     i 2 2
+                   d(x, y) = kx − yk=      i=1 (x − y )
+
+dimana x, y ∈ Rn merupakan suatu metrik pada Rn dan disebut metrik Euclidean.
+
+Definisi 2.7. [5] Misalkan (X, d) suatu ruang metrik, x ∈ X dan r suatu bilangan
+riil tak negatif. Suatu bola buka dengan pusat x dan jari-jari r adalah
+                           B(x, r) = {y ∈ X : d(x, y) < r}.                              (2.2)
+142   Riri Alfakhriati dkk.
+
+Suatu bola tutup dengan pusat x dan jari-jari r adalah
+                              B̄(x, r) = {y ∈ X : d(x, y) ≤ r}.                  (2.3)
+
+Definisi 2.8. [5] Suatu himpunan bagian U dari ruang metrik X dikatakan buka
+pada X jika untuk setiap p ∈ U terdapat bola buka B(p, r) dengan pusat p dan
+jari-jari r sedemikian sehingga berlaku B(p, r) ⊂ U .
+
+2.4. Ruang Topologi
+
+Definisi 2.9. [4] Suatu topologi pada himpunan X adalah suatu koleksi T dari
+himpunan-himpunan bagian dari X yang memenuhi:
+(1) Ø ∈ T dan X ∈ T
+(2) Jika U1 , U2 , ..., Un elemen dari T , maka irisan dari U1 ∩U2 ∩...∩Un juga elemen
+    dari T .
+(3) Jika (Uα )α∈A dengan A adalah himpunan indeks, sebarang koleksi dari elemen
+              S
+    T maka α∈A (Uα ) (berhingga atau tak hingga) adalah elemen dari T .
+Suatu pasangan (X, T ) yang terdiri dari suatu himpunan X dan suatu topologi T
+pada X disebut ruang topologi.
+
+Contoh 2.10. Koleksi dari himpunan-himpunan bagian buka dari Rn adalah suatu
+topologi pada Rn yang disebut topologi standar dari Rn .
+
+Definisi 2.11. [4] Misalkan M dan N suatu ruang topologi, maka f : M −→ N
+dikatakan homeomorfisma jika f pemetaan yang bijektif sedemikian sehingga f dan
+f −1 kontinu. Jika ada suatu homeomorfisma antara ruang topologi M dan N , maka
+dapat dikatakan bahwa M dan N adalah homeomorfik.
+
+Definisi 2.12. [4] Suatu ruang topologi M dikatakan Euclidean lokal berdimensi n
+apabila untuk setiap x ∈ M terdapat lingkungan U dari x dengan U ⊆ M yang
+homeomorfisma terhadap suatu himpunan bagian buka dari Rn .
+
+Definisi 2.13. [4] Suatu ruang topologi (X, T ) dikatakan ruang Hausdorff jika un-
+tuk setiap x, y ∈ X dengan x 6= y terdapat lingkungan U dari x dan V dari y yang
+memenuhi U ∩ V = ∅.
+
+Contoh 2.14. Ruang metrik (Rn , d) dengan d didefinisikan pada Contoh 2.6 adalah
+ruang Hausdorff.
+
+Definisi 2.15. [4] Misalkan (X, T ) ruang topologi. Suatu koleksi B dari himpunan-
+himpunan bagian buka dari X disebut basis untuk topologi T jika untuk setiap him-
+punan bagian buka U dari X dan titik p di U , maka terdapat suatu himpunan buka
+B ∈ B sedemikian sehingga p ∈ B ⊂ U . Hal ini juga dapat disebut B membangun
+topologi T atau B adalah suatu basis untuk ruang topologi X.
+
+Definisi 2.16. [5] Suatu ruang topologi X dikatakan second countable jika terdapat
+suatu countable basis pada topologi X.
+
+Contoh 2.17. Ruang Euclidean Rn adalah second countable.
+                                     Sifat-Sifat Fungsi Jarak pada Manifold Riemannian    143
+
+2.5. Manifold Smooth
+
+Definisi 2.18. [5] Misalkan M suatu ruang topologi. M dikatakan manifold topologi
+berdimensi n atau n-manifold topologi apabila memenuhi
+
+(1) M adalah ruang Hausdorff
+(2) M adalah second countable
+(3) M adalah Euclidean lokal berdimensi n, yaitu setiap titik di M memiliki lingkun-
+    gan yang homeomorfik ke suatu sub himpunan buka di Rn .
+
+Contoh 2.19. Ruang Euclidean Rn adalah suatu n-manifold topologi.
+
+Definisi 2.20. [5] Misalkan U dan V adalah himpunan-himpunan bagian buka dari
+ruang Euclidean Rn dan Rm secara berturut-turut. Suatu fungsi F : U −→ V
+dikatakan smooth (atau C∞ atau terdeferensial secara tak berhingga) jika un-
+tuk setiap komponen fungsinya memiliki turunan parsial kontinu dari semua orde
+(tingkat). Jika F bijektif serta F dan F −1 smooth, maka F disebut diffeomorfisma.
+Jika ada suatu diffeomorfisma antara U dan V, maka dapat dikatakan bahwa U dan
+V adalah difeomorfik.
+
+    Suatu chart pada manifold topologi M adalah suatu pasangan (U, ϕ) dimana
+U adalah himpunan bagian buka dari M dan ϕ : U −→ Û adalah suatu home-
+omorfisma dengan Û = ϕ(U ) ⊆ Rn . Untuk setiap titik p ∈ U , komponen fungsi
+(x1 , · · · , xn ) dari ϕ yang didefinisikan ϕ(p) = (x1 (p), · · · , xn (p)) dikatakan koordi-
+nat lokal atau koordinat lingkungan pada U . Jika (U, ϕ), (V, ϕ) adalah dua chart
+yang memenuhi U ∩ V 6= ∅, fungsi komposisi ψ ◦ ϕ−1 : ϕ(U ∩ V ) −→ ψ(U ∩ V )
+dikatakan pemetaan transisi dari ϕ ke ψ. ua chart (U, ϕ), (V, ϕ) dikatakan smoothly
+compatible jika U ∩ V = ∅ atau pemetaan transisi ψ ◦ ϕ−1 adalah suatu difeomor-
+fisma. [5]
+
+Definisi 2.21. [5] Misalkan M suatu manifold topologi. Suatu atlas pada M adalah
+suatu koleksi chart yang domain dari atlas menyelimuti M . Suatu atlas A dikatakan
+atlas smooth jika dua chart di A adalah smoothly compatible satu sama lain. Suatu
+struktur smooth pada M adalah maksimal dari atlas smooth .
+
+Definisi 2.22. [5] Suatu manifold smooth adalah pasangan (M, A), dimana M
+adalah suatu manifold topologi dan A adalah struktur smooth pada M .
+
+Contoh 2.23. Ruang Euclidean Rn adalah manifold smooth berdimensi n de-
+ngan struktur smooth yang ditentukan oleh atlas A yang terdiri dari chart tunggal
+(Rn , idRn ).
+
+Definisi 2.24. [5] Misalkan M adalah manifold smooth dan p ∈ M . Suatu
+pemetaan linier v : C ∞ (M ) −→ R disebut turunan pada p jika memenuhi
+
+                                v(f g) = f (p)vg + g(p)vg                                (2.4)
+
+untuk semua f, g ∈ C ∞ (M ).
+144   Riri Alfakhriati dkk.
+
+    Himpunan dari semua turunan dari dari pemetaan v pada p disebut ruang
+singgung pada M di titik p yang dinotasikan Tp M . Anggota dari Tp M disebut
+disebut vektor singgung pada p yang dapat ditulis sebagai
+                                             n
+                                             X           ∂
+                                        v=         vi         .                   (2.5)
+                                             i=1
+                                                        ∂xi p
+
+        ∂
+Vektor ∂x i       dikatakan vektor koordinat pada p yang berkaitan dengan sistem ko-
+              p
+                             ∂              ∂
+ordinat. Vektor koordinat ( ∂x 1 , · · · , ∂xn ) membentuk suatu basis untuk Tp M [5].
+
+
+
+Definisi 2.25. [6] Pemetaan γ : (a, b) −→ Rn disebut kurva di Rn yang dapat
+ditulis sebagai
+                                γ(t) = (γ 1 (t), · · · , γ n (t))                 (2.6)
+dengan masing-masing γ i fungsi bernilai riil dan t ∈ (a, b). Jika masing-masing γ i
+terdeferensial, maka kurva γ disebut kurva smooth.
+
+Definisi 2.26. [5] Misalkan M suatu manifold smooth. Suatu kurva di M adalah
+pemetaan kontinu γ : J −→ M dimana J adalah suatu interval dan J ⊂ R.
+   Misalkan M suatu manifold smooth. Jika γ : J −→ M adalah suatu kurva
+                                                                       0
+smooth, maka untuk setiap t ∈ J vektor laju dari γ pada t dinotasikan γ (t) adalah
+vektor di Tγ(t) M . Vektor laju dari γ pada t0 ∈ J dapat ditulis:
+                                         0          dγ
+                                        γ (t0 ) =      (t0 )                      (2.7)
+                                                    dt
+       d
+dimana dt adalah suatu basis koordinat standar di Tt0 R. [5]
+
+Definisi 2.27. [5] Misalkan diberikan suatu reparameterisasi γ̃ = γ ◦ ϕ dari bagian
+kurva smooth γ : [a, b] −→ M dimana ϕ : [c, d] −→ [a, b] suatu diffeomorfisma,
+maka
+                                    0          0             0
+                                  γ̃ (t) = γ (ϕ(t))ϕ (t)                          (2.8)
+
+
+3. PEMBAHASAN
+3.1. Metrik Euclidean pada Rn
+
+Definisi 3.1. [6] Suatu pemetaan ϕ : Rn −→ Rn dikatakan isometri jika untuk
+setiap x, y ∈ Rn , berlaku :
+                                kϕ(x) − ϕ(y)k = kx − yk                           (3.1)
+
+Definisi 3.2. [6] Suatu pemetaan linier ϕ : Rn −→ Rn dikatakan ortogonal jika
+untuk setiap x, y ∈ Rn berlaku :
+                                  hϕ(x), ϕ(y)i = hx, yi.                          (3.2)
+
+Proposisi 3.3. Sebarang pemetaan ortogonal adalah isometri.
+                                       Sifat-Sifat Fungsi Jarak pada Manifold Riemannian    145
+
+Bukti. Misalkan ϕ : Rn −→ Rn suatu pemetaan ortogonal. Ambil x, y ∈ Rn
+sebarang. Perhatikanpbahwa
+   kϕ(x) − ϕ(y)k = ph(ϕ(x) − ϕ(y)), (ϕ(x) − ϕ(y))i
+                  = phϕ(x), ϕ(x)i − 2(hϕ(x), ϕ(y)i) + hϕ(y), ϕ(y)i
+                  = hx, xi − 2(hx, yi) + hy, yi = kx − yk.
+   Terbukti bahwa sebarang pemetaan ortogonal adalah isometri.
+
+
+3.2. Metrik Riemannian
+
+Definisi 3.4. [2] Suatu metrik Riemannian pada manifold smooth M adalah kores-
+pondensi yang mengaitkan setiap titik p ∈ M dengan hasilkali dalam (yang simetri,
+bilinier, dan definit positif ) pada ruang singgung Tp M . Manifold smooth M yang
+dilengkapi dengan metrik Riemannian disebut manifold Riemannian.
+    Misalkan g adalah suatu metrik Riemannian pada M maka untuk setiap p ∈ M ,
+gp adalah suatu hasilkali dalam pada setiap ruang singgung Tp M dan (M, g) adalah
+suatu manifold Riemannian. Misalkan v, w ∈ Tp M dimana v = (v 1 , · · · , v n ) dan
+w = (w1 , · · · , wn ), maka metrik Riemannian dapat ditulis
+                                                n
+                                                X
+                             gp (v, w) =               gij (p)v i wj                       (3.3)
+                                               i,j=1
+
+                    ∂      ∂
+dimana gij (p) = h ∂x i , ∂xj i. Suatu norm pada suatu ruang singgung Tp M didefinisi-
+
+kan oleh
+                                            q
+                                      kvk = gp (v, v)                           (3.4)
+
+dimana v ∈ Tp M . [3]
+
+Contoh 3.5. [2] Suatu manifold smooth Rn adalah suatu manifold Riemannian
+dengan metrik Riemannian g yang didefinisikan
+                                  n
+                                  X                      n
+                                                         X
+                    gp (v, w) =           δij v i wj =           v i wj = hv, wi
+                                  i,j=1                  i,j=1
+                                   n
+untuk setiap vektor v, w ∈ Tp R , dengan gij = δij = hei , ej i, ei suatu basis di Rn
+dimana δij adalah delta Kronecker bernilai 1 jika i = j dan bernilai 0 jika i 6= j
+untuk setiap i, j = 1, · · · , n.
+
+Teorema 3.6. [2] Setiap smooth manifold M memiliki metrik Riemannian.
+
+Bukti. Misalkan M suatu manifold smooth. Misalkan {fα } menjadi suatu partisi
+smooth dari subordinate kesatuan pada M untuk menyelimuti {Vα } dengan koor-
+dinat lingkungan. Ini berarti bahwa Vα adalah suatu selimut yang terbatas secara
+lokal dan {fα } adalah keluarga dari fungsi smooth pada M yang memenuhi fα ≥ 0
+     P
+dan α fα (p) = 1 untuk semua p ∈ M , α ∈ A. Oleh karena itu, dapat didefinisikan
+suatu metrik Riemannian pada setiap Vα yaitu
+                                        X
+                           gp (u, v) :=   fα (p)gpα (u, v)                  (3.5)
+                                              α
+146   Riri Alfakhriati dkk.
+
+untuk setiap p ∈ M , u, v ∈ Tp M . Metrik Riemannian pada Vα adalah metrik yang
+diinduksi oleh sistem dari koordinat lingkungan. Jelas bahwa metrik Riemannian
+yang didefinisikan pada persamaan (3.5) definit positif, simetri dan bilinier. Oleh
+karena itu, terbukti bahwa sebarang manifold smooth memiliki metrik Riemannian.
+
+Definisi 3.7. [5] Misalkan (M, g) adalah suatu manifold Riemannian.
+Jika γ : [a, b] −→ M adalah suatu segmen kurva smooth maka panjang dari γ
+didefinisikan
+                                      Z b
+                                            0
+                            Lg (γ) :=     kγ (t)kdt                  (3.6)
+                                            a
+
+dan jarak antara dua titik p, q ∈ M didefinisikan sebagai
+
+              dg (p, q) := inf{Lg (γ), γ : [a, b] −→ M : γ(a) = p, γ(b) = q}      (3.7)
+
+Proposisi 3.8. [5] Misalkan (M, g) suatu manifold Riemannian dan diberikan
+γ : [a, b] −→ M sebagai suatu bagian kurva smooth. Jika γ̃ adalah reparameterisasi
+dari γ maka Lg (γ̃) = Lg (γ).
+
+Bukti. Misalkan γ suatu bagian kurva smooth. Asumsikan γ̃ suatu reparameterisasi
+                                       0
+
+                                                         Rd r ∈
+positif dengan ϕR: [c, d] −→ [a, Rb], ϕ (r) > 0 untuk semua     [c, d], diperoleh
+                  b    0            d    0      0             0           0
+        Lg (γ̃) = a kγ̃ (t)kdt = c kγ (ϕ(r))ϕ (r)kdr = c kγ (ϕ(r))kϕ (r)dr
+                 Rb 0
+                = a kγ (r)kdr = Lg (γ).
+   Jadi terbukti bahwa jika γ̃ adalah reparameterisasi dari γ maka Lg (γ̃) = Lg (γ).
+
+Proposisi 3.9. [3] Misalkan dg (p, q) untuk semua p, q ∈ M didefinisikan pada
+persamaan (3.8), dg disebut fungsi jarak apabila memenuhi:
+
+(1) dg (p, q) ≥ 0 dan dg (p, q) > 0 untuk semua p 6= q
+(2) dg (p, q) = dg (q, p), untuk semua p, q ∈ M
+(3) dg (p, q) + dg (q, r) ≥ dg (p, r), ∀p, q, r ∈ M .
+
+Selanjutnya dapat dikatakan sebarang manifold Riemannian (M,g) adalah ruang
+metrik dinotasikan dengan (M, dg ).
+
+Bukti. Misalkan (M, g) suatu manifold Riemannian.
+
+(1) Jelas bahwa dg (p, q) ≥ 0 untuk semua p, q ∈ M . Misalkan (U, ϕ) dengan
+    ϕ : U ⊂ M −→ Rn adalah suatu chart pada smooth manifold M dimana
+    (x1 , · · · , xn ) suatu koordinat lokal di Rn . Misalkan ϕ(p) = 0 ∈ Rn dan B̄a (0)
+    adalah suatu bola tutup di Rn dengan B̄a (0) ⊂ ϕ(U ). Asumsikan kxk ≤ r untuk
+                                               Pn                     Pn
+    suatu r ∈ R dan (α1 , · · · , αn ) dengan i,j=1 (αi )2 = 1, maka i,j=1 gij (x)αi αj
+    mengasumsikan suatu nilai maksimum Kr > 0 dan nilai minimum kr > 0. Jika
+    k,K suatu minimum dan maksimum pada r = a, maka
+                                       P                     21
+                                         n             i j
+                        0 < k ≤ kr ≤     i,j=1 gij (x)α α           ≤ Kr ≤ K      (3.8)
+                                     Sifat-Sifat Fungsi Jarak pada Manifold Riemannian    147
+
+                                                                           Pn              1
+    Jika (β 1 , · · · , β n ) sebarang bilangan riil sedemikian sehingga ( i,j=1 (β i )2 ) 2 =
+    b 6= 0, ganti αi = β i /b sehingga
+                                          P                   1
+                                             n              i j 2
+                        0 < kb ≤ kr b ≤      i,j=1 gij (x)β  β    ≤ Kr b ≤ Kb            (3.9)
+
+    Jika diasumsikan untuk p, q ∈ Rn dengan p 6= q, maka ketaksamaan (3.11)
+    menjadi
+                                          n
+                                      Z b X                      n
+                                                             Z b X
+                                              i    2 21                        1
+    0 < kkϕ(q)k < kr kϕ(q)k ≤ Lg ≤ Kr    ( (ẋ (t)) ) dt ≤ K    ( (ẋi (t))2 ) 2 dt
+                                               a   i=1                     a   i=1
+                                                                             (3.10)
+                                                       / ϕ−1 (B̄a (0)) ⊂ U .
+    Misalkan q 0 ∈ M sebarang, dengan p 6= q 0 dan q 0 ∈
+    Misalkan γ(t) dengan 0 ≤ t ≤ c adalah suatu kurva smooth dengan γ(0) =
+    p dan γ(c) = q 0 , dan misalkan panjang γ(t) = L0g . Pada kurva smooth γ :
+    [a, b] −→ M , untuk 0 ≤ t ≤ b, γ(t) termuat didalam lingkungan ϕ−1 (B̄a (0)).
+    Misalkan kϕ(q)k = r. Jika Lg adalah panjang dari γ(t) untuk 0 ≤ t ≤ b, maka
+    L0g ≥ Lg > kr > 0. Karena Lg > 0, maka infimum dari Lg > 0 atau dg (p, q) > 0
+    untuk semua p, q ∈ M dengan p 6= q.
+(2) Karna pada Proposisi 3.8 disebutkan bahwa panjang suatu reparameterisasi
+    dari γ(t) sama dengan panjang γ, akibatnya dg (p, q) = dg (q, p)
+(3) Misalkan γ1 adalah bagian kurva smooth dari p ke q dan γ2 adalah bagian kurva
+    smooth dari q ke r. Misalkan γ adalah bagian kurva smooth dari p ke r maka
+                            dg (p, r) ≤ Lg (γ) = Lg (γ1 ) + Lg (γ2 ).
+    Ambil infimum dari Lg (γ1 ) dan Lg (γ2 ) sehingga diperoleh
+                                 dg (p, r) ≤ dg (p, q) + dg (q, r)
+  Karena ketiga sifat-sifat terpenuhi maka terbukti bahwa sebarang manifold Rie-
+mannian adalah ruang metrik.
+
+
+4. KESIMPULAN
+Suatu manifold smooth M yang dilengkapi dengan metrik Riemannian disebut ma-
+nifold Riemannian (M, g). Setiap manifold smooth M memiliki metrik Riemannian.
+Sebarang manifold Riemannian (M, g) adalah ruang metrik (M, dg ) dengan dg suatu
+fungsi jarak pada manifold Riemannian.
+
+
+5. UCAPAN TERIMA KASIH
+Ucapan terima kasih disampaikan kepadaDr. Admi Nazra, Dr. Shelvi Ekariani dan
+Monika Rianti Helmi, M.Si yang telah memberi masukan dan saran sehingga peneli-
+tian ini dapat terselesaikan.
+
+
+Daftar Pustaka
+ [1] Anton, Howard dan Chris Rorres. 2004. Aljabar Linier Elementer Edisi Kede-
+     lapan. Penerbit Erlangga. Jakarta
+148   Riri Alfakhriati dkk.
+
+ [2] Carmo, Manfredo Perdiãgo do. 1992. Riemannian Geometry. Birkhäuser,
+     Boston.
+ [3] Jost, Jürgen. 1995 Riemannian Geometry and Geometric Analysis. Fifth Edi-
+     tion. Springer, Berlin.
+ [4] Lee, John M. 2010. Introduction to Topological Manifold. Second Edition.
+     Springer, New York.
+ [5] Lee, John M. 2013. Introduction to Smooth Manifold. Second Edition. Springer,
+     New York.
+ [6] Pranoto, Iwan. 2004. Pengenalan Geometri Diferensial. Penerbit ITB, Ban-
+     dung.
+

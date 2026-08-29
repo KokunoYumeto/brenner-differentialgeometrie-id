@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "source": "authority/exams/expanded/exam07_learner_source.de.tex",
+  "source_bytes": 7707,
+  "source_sha256": "0b65c4f5b565ad7f5e4e8888d4300bdddda66378822ab3239de221716e1b0e9d",
+  "target": "source/exams/exam-07/exam07_learner.id.tex",
+  "target_bytes": 7525,
+  "target_sha256": "59ed3a24b089bb1788574ad5e5de21fc4363d3d753575b2226737d54ae34b9da",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 270,
+    "environments": 6,
+    "inline_math": 32,
+    "display_math": 0,
+    "protected_calls": 17
+  },
+  "status": "pass",
+  "failures": [],
+  "declared_corrections": [],
+  "evidence_only_results": []
+}

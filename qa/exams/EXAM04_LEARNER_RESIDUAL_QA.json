@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "scope": "source/exams/exam-04/exam04_learner.id.tex",
+  "target_bytes": 7645,
+  "target_sha256": "16e2a99d9b62bd082cde86a45377c50f50a11b690a3781d925b29d2ee407d83d",
+  "checks": {
+    "actual_problem_occurrences_source": 12,
+    "actual_problem_occurrences_target": 12,
+    "placeholder_occurrences_source": 4,
+    "placeholder_occurrences_target": 4,
+    "wiki_link_destination_sequence_equal": true,
+    "wiki_link_destination_count_source": 3,
+    "wiki_link_destination_count_target": 3,
+    "utf8_replacement_characters": 0,
+    "placeholder_marker_hits": 0,
+    "reader_prose_german_common_word_hits_after_link_and_structural_token_exclusion": 0,
+    "reader_prose_german_diacritic_hits_after_link_and_structural_token_exclusion": 0
+  },
+  "allowed_non_reader_german": "Exact upstream wiki-link destinations, macro names, commented upstream control names, and the final Kategorie locator remain structural tokens.",
+  "status": "pass"
+}

@@ -678,6 +678,57 @@ def freeze_expansion(
     }
 
 
+def braced_argument(text: str, start: int) -> tuple[str, int]:
+    """Return one balanced TeX argument body and the position after it."""
+    if start >= len(text) or text[start] != "{":
+        raise RuntimeError("expected an opening brace while parsing worksheet tasks")
+    depth = 0
+    escaped = False
+    for index in range(start, len(text)):
+        char = text[index]
+        if escaped:
+            escaped = False
+            continue
+        if char == "\\":
+            escaped = True
+        elif char == "{":
+            depth += 1
+        elif char == "}":
+            depth -= 1
+            if depth == 0:
+                return text[start + 1 : index], index + 1
+    raise RuntimeError("unclosed worksheet task argument")
+
+
+def expanded_task_macros(worksheet_tex: str) -> list[dict[str, str]]:
+    """Parse each expanded task's four top-level arguments losslessly.
+
+    The earlier headline-only regex proved the task and point census but could
+    not see expanded hint bodies.  Parsing all four balanced arguments keeps
+    those source-supplied hints explicit without interpreting their TeX.
+    """
+    marker = re.compile(r"(?m)^\\(inputaufgabegibtloesung|inputaufgabe)\s*")
+    tasks: list[dict[str, str]] = []
+    for match in marker.finditer(worksheet_tex):
+        cursor = match.end()
+        arguments: list[str] = []
+        for _ in range(4):
+            while cursor < len(worksheet_tex) and worksheet_tex[cursor].isspace():
+                cursor += 1
+            argument, cursor = braced_argument(worksheet_tex, cursor)
+            arguments.append(argument)
+        tasks.append(
+            {
+                "macro_name": match.group(1),
+                "points": arguments[0].strip(),
+                "body_tex": arguments[1],
+                "hint_tex": arguments[2].strip(),
+                "fourth_argument_tex": arguments[3].strip(),
+            }
+        )
+    return tasks
+
+
 def parse_tasks(root_wikitext: str, worksheet_tex: str) -> list[dict[str, Any]]:
     roots: list[dict[str, Any]] = []
     for block_match in TASK_BLOCK_RE.finditer(root_wikitext):
@@ -690,18 +741,18 @@ def parse_tasks(root_wikitext: str, worksheet_tex: str) -> list[dict[str, Any]]:
             {
                 "task_title": head.group(1).strip(),
                 "root_point_marker": head.group(2).strip(),
-                "hint_field": (hint_match.group(1).strip() if hint_match else None),
+                "root_hint_field": (hint_match.group(1).strip() if hint_match else None),
             }
         )
-    macros = TASK_MACRO_RE.findall(worksheet_tex)
+    macros = expanded_task_macros(worksheet_tex)
     if len(roots) != len(macros):
         raise RuntimeError(
             f"worksheet root/expanded exercise mismatch: {len(roots)} roots, {len(macros)} macros"
         )
     exercises: list[dict[str, Any]] = []
     for index, (root_task, macro) in enumerate(zip(roots, macros), 1):
-        macro_name, points = macro
-        points = points.strip()
+        macro_name = macro["macro_name"]
+        points = macro["points"]
         marker = root_task["root_point_marker"]
         if bool(marker) != bool(points):
             raise RuntimeError(
@@ -711,6 +762,12 @@ def parse_tasks(root_wikitext: str, worksheet_tex: str) -> list[dict[str, Any]]:
             {
                 "exercise_index": index,
                 **root_task,
+                "hint_field": macro["hint_tex"],
+                "expanded_body_utf8_bytes": len(macro["body_tex"].encode("utf-8")),
+                "expanded_body_sha256": sha(macro["body_tex"].encode("utf-8")),
+                "expanded_hint_utf8_bytes": len(macro["hint_tex"].encode("utf-8")),
+                "expanded_hint_sha256": sha(macro["hint_tex"].encode("utf-8")),
+                "expanded_fourth_argument_tex": macro["fourth_argument_tex"],
                 "point_value": int(points) if points.isdigit() else (points or None),
                 "expanded_macro": macro_name,
                 "solution_marker": macro_name == "inputaufgabegibtloesung",
@@ -1265,7 +1322,10 @@ def render_markdown(manifest: dict[str, Any]) -> str:
             "",
             "All candidate solution titles were queried in one exact current-revision closure. "
             "Every existing solution has a lossless source witness, current revision metadata, official expanded LaTeX response, sanitized German TeX, and sanitation receipt. "
-            f"Macro/API agreement: **{str(solutions['macro_api_agreement']).lower()}**. All worksheet hint fields blank: **{str(manifest['structure']['all_hint_fields_blank']).lower()}**.",
+            f"Macro/API agreement: **{str(solutions['macro_api_agreement']).lower()}**. "
+            f"Source-supplied hints: **{manifest['structure']['worksheet_hint_count']}** "
+            f"(exercise indices {manifest['structure']['worksheet_hint_bearing_indices']}); "
+            f"all worksheet hint fields blank: **{str(manifest['structure']['all_hint_fields_blank']).lower()}**.",
             "",
             "## Unit media closure",
             "",
@@ -1493,7 +1553,10 @@ def main() -> None:
             *solution_surface_texts,
         ],
     )
-    all_hints_blank = all(item["hint_field"] == "" for item in exercises)
+    hint_bearing_indices = [
+        item["exercise_index"] for item in exercises if item["hint_field"] != ""
+    ]
+    all_hints_blank = not hint_bearing_indices
     checks = {
         "root_revision_bindings_unique": True,
         "surface_revision_bindings_unique": True,
@@ -1535,6 +1598,8 @@ def main() -> None:
             "worksheet_practice_count": solution_manifest["practice_exercise_count"],
             "worksheet_point_total": solution_manifest["point_value_total"],
             "worksheet_solution_bearing_indices": solution_manifest["supplied_solution_indices"],
+            "worksheet_hint_count": len(hint_bearing_indices),
+            "worksheet_hint_bearing_indices": hint_bearing_indices,
             "all_hint_fields_blank": all_hints_blank,
         },
         "solutions": solution_manifest,

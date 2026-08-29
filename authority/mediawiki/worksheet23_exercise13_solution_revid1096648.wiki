@@ -1,0 +1,107 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es seien
+{{
+Math/display|term=
+P_1 = {{op:Spaltenvektor|a_1 |b_1}} ,\, P_2 = {{op:Spaltenvektor|a_2 |b_2}} \text{ und } P_3 = {{op:Spaltenvektor|a_3 |b_3}}
+|SZ=
+}}
+die drei Eckpunkte. Wegen {{mathl|term= d (xdy )= dx \wedge dy|SZ=}} ist das Integral zu dieser Flächenform über {{math|term= D |SZ=}} gleich dem Flächeninhalt des Dreiecks. Dieses Dreieck wird von {{math|term= P_1 |SZ=}} aus von den beiden Vektoren
+{{
+mathkor|term1=
+ {{op:Spaltenvektor|a_2-a_1 |b_2-b_1}}
+|und|term2=
+ {{op:Spaltenvektor|a_3-a_1 |b_3-b_1}}
+|SZ=
+}} aufgespannt. Der Flächeninhalt ist nach der Determinantenformel für ein Parallelotop somit gleich
+{{
+Relationskette/display
+| {{op:Bruch| 1| 2}} {{op:Betrag|(a_2-a_1)(b_3-b_1) -(b_2-b_1)  (a_3-a_1)  |}}
+|| {{op:Bruch| 1| 2}} {{op:Betrag| a_2b_3-a_2b_1 -a_1b_3 -a_3b_2 +a_1b_2 +a_3b_1  |}}
+||
+||
+||
+|SZ=.
+}}
+Wenn die beiden Vektoren die Standardorientierung repräsentieren, was wir von nun an annehmen, so kann man den Betrag weglassen.
+
+Wir berechnen nun das Wegintegral zu {{mathl|term= xdy|SZ=}} entlang des gegen den Uhrzeigersinn durchlaufenen Dreiecksrandes. Dabei geht der Weg von {{math|term= P_1 |SZ=}} nach {{math|term= P_2 |SZ=,}} dann nach {{math|term= P_3 |SZ=}} und zurück zu {{math|term= P_1 |SZ=}} 
+{{
+Zusatz/Klammer
+|text=dies entspricht dem entgegengesetzten Uhrzeigersinn bei der fixierten Orientierung|
+|ISZ=|ESZ=.
+}}
+Diese linearen Wege sind
+{{
+Zusatz/Klammer
+|text=jeweils auf dem Einheitsintervall definiert|
+|ISZ=|ESZ=
+}}
+{{
+Math/display|term=
+\gamma_1(t)=P_1+t(P_2-P_1) = {{op:Spaltenvektor|a_1 |b_1}} + t {{op:Spaltenvektor|a_2-a_1 |b_2-b_1}}
+|SZ=,
+}}
+{{
+Math/display|term=
+\gamma_2(t) = P_2+t(P_3-P_2) = {{op:Spaltenvektor|a_2 |b_2}} + t {{op:Spaltenvektor|a_3-a_2 |b_3-b_2}}
+|SZ=
+}}
+und
+{{
+Math/display|term=
+\gamma_3(t) = P_3+t(P_1-P_3)= {{op:Spaltenvektor|a_3 |b_3}} + t {{op:Spaltenvektor|a_1-a_3 |b_1-b_3}}
+|SZ=.
+}}
+Es ist
+{{
+Relationskette/align
+| \int_{\gamma_1}  xdy 
+|| \int_0^1  (a_1 +t (a_2-a_1)) (b_2-b_1) dt
+|| {{op:Integralstamm| 0| 1|(  a_1 (b_2-b_1)t + {{op:Bruch| 1| 2}} (a_2-a_1)(b_2-b_1) t^2) }} 
+|| a_1 (b_2-b_1)  + {{op:Bruch| 1| 2}} (a_2-a_1)(b_2-b_1)
+|| {{op:Bruch| 1| 2}} (a_2+a_1)(b_2-b_1) 
+|SZ=.
+}}
+Entsprechend ist
+{{
+Relationskette/display
+| \int_{\gamma_2}  xdy 
+|| {{op:Bruch| 1| 2}} (a_3+a_2)(b_3-b_2)
+||
+||
+||
+|SZ=
+}}
+und
+{{
+Relationskette/display
+| \int_{\gamma_3}  xdy 
+|| {{op:Bruch| 1| 2}} (a_1+a_3)(b_1-b_3)
+||
+||
+||
+|SZ=.
+}}
+Die Summe dieser drei Wegintegrale ist die Hälfte von
+{{
+Relationskette/align/drucklinks
+|(a_2+a_1)(b_2-b_1) + (a_3+a_2)(b_3-b_2) + (a_1+a_3)(b_1-b_3)
+|| a_2b_2 -a_2b_1+a_1b_2-a_1b_1 +a_3b_3-a_3b_2 +a_2b_3 -a_2b_2+a_1b_1-a_1b_3+a_3b_1-a_3b_3
+|| -a_2b_1+a_1b_2 -a_3b_2 +a_2b_3 -a_1b_3+a_3b_1
+||
+||
+|SZ=,
+}}
+sodass die beiden Integrale übereinstimmen.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

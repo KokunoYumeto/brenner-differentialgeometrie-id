@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "unit": 29,
+  "scope": "Lecture 29 translation only; bounded topology, mathematics, link, media-rights, and residual-language checks",
+  "source": {
+    "path": "authority/expanded/lecture29_source.de.tex",
+    "bytes": 23633,
+    "sha256": "9340f97d02677f67a496875c3b972350b94b7340b0d694923bc124d07b038c92"
+  },
+  "target": {
+    "path": "source/units/unit-29/lecture29.id.tex",
+    "bytes": 23828,
+    "sha256": "74e8a2befbded780466fc6d2ff0c913c2d3d387e019bb16daf0fa961c51c43b2"
+  },
+  "translation_verifier": {
+    "path": "qa/unit-29/LECTURE_TRANSLATION_QA.json",
+    "bytes": 1031,
+    "sha256": "9931b72378875a18c30ad7a42c2d10e4e8dee1d16eedae1bd5c839d407589fbe",
+    "status": "pass",
+    "commands": 900,
+    "environments": 2,
+    "inline_math": 42,
+    "display_math": 0,
+    "protected_macro_calls": 42
+  },
+  "census": {
+    "section_headings": 2,
+    "fact_or_proof_blocks": 5,
+    "definitions": 1,
+    "remarks": 1,
+    "examples": 3,
+    "internal_link_destinations": 30,
+    "displayed_images": 1,
+    "media_license_macros": 1
+  },
+  "checks": {
+    "utf8": "pass",
+    "command_environment_brace_topology": "pass",
+    "inline_display_and_protected_mathematics": "pass",
+    "internal_link_destination_sequence": "exactly equal",
+    "image_locator_and_media_license_macro_calls": "exactly equal",
+    "residual_german_prose": "none found by bounded residual-token scan"
+  },
+  "status": "pass"
+}

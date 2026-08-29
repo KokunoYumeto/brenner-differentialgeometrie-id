@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "allowed_deltas": [],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "EX05-MATHKOR-0001",
+      "surface": "command:mathkor",
+      "occurrence_index": 0,
+      "source_latex": "\\mathkor{}{M}{und}{N}{}",
+      "source_sha256": "5ad29e6810773711483f4d1af2b774c7695741719a66290e7c8576fe0fbb850b",
+      "target_latex": "\\mathkor{}{M}{dan}{N}{}",
+      "target_sha256": "04c5023faf3b212196fca6ae8787367e8e12faad63fa25ce8bec1ac7967202ec"
+    },
+    {
+      "correction_id": "EX05-MATHKOR-0002",
+      "surface": "command:mathkor",
+      "occurrence_index": 1,
+      "source_latex": "\\mathkor{}{M}{und}{N}{.}",
+      "source_sha256": "933a8ca3a38cff8694d9ab5b9ca8a5245f81cd8dd776df6666fc44c4ff7a6de0",
+      "target_latex": "\\mathkor{}{M}{dan}{N}{.}",
+      "target_sha256": "c143f910dd28eb34edbe33f38dd31e85740cb7843f4da64a6debb9064e205898"
+    },
+    {
+      "correction_id": "EX05-MATHKOR-0003",
+      "surface": "command:mathkor",
+      "occurrence_index": 2,
+      "source_latex": "\\mathkor{}{r}{und}{R}{}",
+      "source_sha256": "a496eb09081c6553c13eb6ccf5b3d9b2b9804513aca382d64f4c5939bcc77a44",
+      "target_latex": "\\mathkor{}{r}{dan}{R}{}",
+      "target_sha256": "bc880efb020cc756b9415f1d818282ce4d07c914fe3870cb49898f588554984e"
+    },
+    {
+      "correction_id": "EX05-MATHKOR-0004",
+      "surface": "command:mathkor",
+      "occurrence_index": 3,
+      "source_latex": "\\mathkor{}{M}{und}{M\\setminus\\{P\\}}{}",
+      "source_sha256": "1034cc008d7b829fa9ed6eebbac35ad0bb53b6e4627482928eb8b81f67c796d4",
+      "target_latex": "\\mathkor{}{M}{dan}{M\\setminus\\{P\\}}{}",
+      "target_sha256": "2032709ad84a352e4652dc333dce3491f2c03393345bebeafe938ead795c7f69"
+    }
+  ]
+}

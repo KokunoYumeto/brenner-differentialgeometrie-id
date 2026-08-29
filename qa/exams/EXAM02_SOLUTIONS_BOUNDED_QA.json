@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "authority/exams/expanded/exam02_solutions_source.de.tex",
+    "bytes": 31503,
+    "sha256": "577d9d4801bdf598f30a1b286b51aab1c8d2f28b202978848c2a0768bd885c56"
+  },
+  "learner": {
+    "path": "source/exams/exam-02/exam02_learner.id.tex",
+    "bytes": 6766,
+    "sha256": "aabea31036649f07272167bc1b353f0afa769e22937969d44f4bc19893675aa3"
+  },
+  "target": {
+    "path": "source/exams/exam-02/exam02_solutions.id.tex",
+    "bytes": 31680,
+    "sha256": "b0a1db42aff2c940a7532064a7b1fecf185279df0807171b86bfcc6176eaf060"
+  },
+  "occurrences": {
+    "source": 11,
+    "target": 11,
+    "learner": 11,
+    "actual_nonzero": 11,
+    "zero_point_placeholders": 0,
+    "actual_solution_nonblank": 11,
+    "solution_presence_topology_equal_source": true,
+    "zero_solution_arguments_exact_source": true
+  },
+  "points": {
+    "sequence": [
+      "3",
+      "3",
+      "8",
+      "7",
+      "8",
+      "3",
+      "5",
+      "5",
+      "6(1+1+3+1)",
+      "4",
+      "12"
+    ],
+    "source_target_equal": true,
+    "learner_target_equal": true,
+    "total": 64
+  },
+  "prompts": {
+    "target_exact_learner": true
+  },
+  "links": {
+    "source_count": 18,
+    "target_count": 18,
+    "targets_sequence_equal": true,
+    "targets_sha256": "95f9d57f23284d10dbb710a0e18ffcb77dcc35f5b164150d1cc0ea2bd6a6dafe"
+  },
+  "rewrite_markers": {
+    "token": "PERLU_REWRITE",
+    "remaining": 0
+  },
+  "residual_german": {
+    "scope": "outside single-line immutable link payloads",
+    "count": 0,
+    "hits": []
+  },
+  "status": "pass"
+}

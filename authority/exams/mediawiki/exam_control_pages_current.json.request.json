@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 16:15:22 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Kurs:Differentialgeometrie/Klausuren|Kurs:Differentialgeometrie/1/Klausur|Kurs:Differentialgeometrie/1/Klausur/latex|Kurs:Differentialgeometrie/1/Klausur mit Lösungen|Kurs:Differentialgeometrie/1/Klausur mit Lösungen/latex|Kurs:Differentialgeometrie/2/Klausur|Kurs:Differentialgeometrie/2/Klausur/latex|Kurs:Differentialgeometrie/2/Klausur mit Lösungen|Kurs:Differentialgeometrie/2/Klausur mit Lösungen/latex|Kurs:Differentialgeometrie/3/Klausur|Kurs:Differentialgeometrie/3/Klausur/latex|Kurs:Differentialgeometrie/3/Klausur mit Lösungen|Kurs:Differentialgeometrie/3/Klausur mit Lösungen/latex|Kurs:Differentialgeometrie/4/Klausur|Kurs:Differentialgeometrie/4/Klausur/latex|Kurs:Differentialgeometrie/4/Klausur mit Lösungen|Kurs:Differentialgeometrie/4/Klausur mit Lösungen/latex|Kurs:Differentialgeometrie/5/Klausur|Kurs:Differentialgeometrie/5/Klausur/latex|Kurs:Differentialgeometrie/5/Klausur mit Lösungen|Kurs:Differentialgeometrie/5/Klausur mit Lösungen/latex|Kurs:Differentialgeometrie/6/Klausur|Kurs:Differentialgeometrie/6/Klausur/latex|Kurs:Differentialgeometrie/6/Klausur mit Lösungen|Kurs:Differentialgeometrie/6/Klausur mit Lösungen/latex|Kurs:Differentialgeometrie/7/Klausur|Kurs:Differentialgeometrie/7/Klausur/latex|Kurs:Differentialgeometrie/7/Klausur mit Lösungen|Kurs:Differentialgeometrie/7/Klausur mit Lösungen/latex|Kurs:Differentialgeometrie/8/Klausur|Kurs:Differentialgeometrie/8/Klausur/latex|Kurs:Differentialgeometrie/8/Klausur mit Lösungen|Kurs:Differentialgeometrie/8/Klausur mit Lösungen/latex|Kurs:Differentialgeometrie/9/Klausur|Kurs:Differentialgeometrie/9/Klausur/latex|Kurs:Differentialgeometrie/9/Klausur mit Lösungen|Kurs:Differentialgeometrie/9/Klausur mit Lösungen/latex|Kurs:Differentialgeometrie/10/Klausur|Kurs:Differentialgeometrie/10/Klausur/latex|Kurs:Differentialgeometrie/10/Klausur mit Lösungen|Kurs:Differentialgeometrie/10/Klausur mit Lösungen/latex"
+  },
+  "response_bytes": 27470,
+  "response_path": "exam_control_pages_current.json",
+  "response_sha256": "7d1ecc4905c9fc9117700e003247bc81b5f358301f7b432437f9e26c7348db3c",
+  "retrieved_utc": "2026-08-28T16:15:22Z",
+  "schema_version": 1
+}

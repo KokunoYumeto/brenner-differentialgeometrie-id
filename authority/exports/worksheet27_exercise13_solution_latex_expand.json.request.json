@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 15:24:37 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Halbebene/Poincaré/Riemannsche Geometrie/Geodätische/Halbkreislösungen/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 2540,
+  "response_path": "worksheet27_exercise13_solution_latex_expand.json",
+  "response_sha256": "6cfc40fac63903cd83f847ce5c8e9be85c2aef7790460a4537c4f2cadbaafa67",
+  "retrieved_utc": "2026-08-28T15:24:37Z",
+  "schema_version": 1
+}

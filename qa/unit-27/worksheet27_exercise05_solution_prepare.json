@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-27/worksheet27_exercise05_solution.id.tex",
+  "input_bytes": 1444,
+  "input_sha256": "4c1db25df8021f1db13580b505edf6e5201814b46b793a98431dc8e1593b378f",
+  "output": "build/generated/worksheet27_exercise05_solution.id.build.tex",
+  "output_bytes": 1261,
+  "output_sha256": "d391223ba83d482fabf6563a554e50c0cb17e0fb60e53a4cf64c09987c79283a",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Linearer Zusammenhang/Vertikale Ableitung/Längs Abbildung/Eigenschaften/Fakt",
+      "label": "Fakta (2)"
+    },
+    {
+      "target": "Halbebene/Poincaré/Riemannsche Geometrie/Christoffelsymbole/Beispiel",
+      "label": "contoh"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

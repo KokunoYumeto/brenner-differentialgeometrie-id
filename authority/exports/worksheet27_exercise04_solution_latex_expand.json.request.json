@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 15:24:37 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Kreis/Trigonometrische Parametrisierung/Zusammenhang in R^2/Horizontale Liftung/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 5370,
+  "response_path": "worksheet27_exercise04_solution_latex_expand.json",
+  "response_sha256": "331453042759db93e7a649eb1b5bd4162ecef02bae760e84dbfbbcf6a5534865",
+  "retrieved_utc": "2026-08-28T15:24:36Z",
+  "schema_version": 1
+}

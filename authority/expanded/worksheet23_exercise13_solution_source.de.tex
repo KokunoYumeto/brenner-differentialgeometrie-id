@@ -1,0 +1,106 @@
+Es seien
+
+\mathdisp {P_1 = \begin{pmatrix} a_1  \\b_1   \end{pmatrix} ,\, P_2 = \begin{pmatrix} a_2  \\b_2   \end{pmatrix} \text{ und } P_3 = \begin{pmatrix} a_3  \\b_3   \end{pmatrix}} {  }
+
+die drei Eckpunkte. Wegen
+\mathl{d (xdy )= dx \wedge dy}{} ist das Integral zu dieser Flächenform über $D$ gleich dem Flächeninhalt des Dreiecks. Dieses Dreieck wird von $P_1$ aus von den beiden Vektoren
+\mathkor {} {\begin{pmatrix} a_2-a_1  \\b_2-b_1   \end{pmatrix}} {und} {\begin{pmatrix} a_3-a_1  \\b_3-b_1   \end{pmatrix}} {} aufgespannt. Der Flächeninhalt ist nach der Determinantenformel für ein Parallelotop somit gleich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   1 }{  2 } } \betrag { (a_2-a_1)(b_3-b_1) -(b_2-b_1)  (a_3-a_1)   }
+}
+{ =} { { \frac{   1 }{  2 } } \betrag {  a_2b_3-a_2b_1 -a_1b_3 -a_3b_2 +a_1b_2 +a_3b_1   }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Wenn die beiden Vektoren die Standardorientierung repräsentieren, was wir von nun an annehmen, so kann man den Betrag weglassen.
+
+Wir berechnen nun das Wegintegral zu
+\mathl{xdy}{} entlang des gegen den Uhrzeigersinn durchlaufenen Dreiecksrandes. Dabei geht der Weg von $P_1$ nach $P_2$, dann nach $P_3$ und zurück zu $P_1$
+\zusatzklammer {dies entspricht dem entgegengesetzten Uhrzeigersinn bei der fixierten Orientierung} {} {.}
+Diese linearen Wege sind
+\zusatzklammer {jeweils auf dem Einheitsintervall definiert} {} {}
+
+\mathdisp {\gamma_1(t)=P_1+t(P_2-P_1) = \begin{pmatrix} a_1  \\b_1   \end{pmatrix} + t \begin{pmatrix} a_2-a_1  \\b_2-b_1   \end{pmatrix}} { , }
+
+\mathdisp {\gamma_2(t) = P_2+t(P_3-P_2) = \begin{pmatrix} a_2  \\b_2   \end{pmatrix} + t \begin{pmatrix} a_3-a_2  \\b_3-b_2   \end{pmatrix}} {  }
+
+und
+
+\mathdisp {\gamma_3(t) = P_3+t(P_1-P_3)= \begin{pmatrix} a_3  \\b_3   \end{pmatrix} + t \begin{pmatrix} a_1-a_3  \\b_1-b_3   \end{pmatrix}} { . }
+
+Es ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \int_{\gamma_1}  xdy
+}
+{ =} { \int_0^1  (a_1 +t (a_2-a_1)) (b_2-b_1) dt
+}
+{ =} { (  a_1 (b_2-b_1)t + { \frac{   1 }{  2 } } (a_2-a_1)(b_2-b_1) t^2) \vert_{  0 }^{  1 }
+}
+{ =} { a_1 (b_2-b_1)  + { \frac{   1 }{  2 } } (a_2-a_1)(b_2-b_1)
+}
+{ =} { { \frac{   1 }{  2 } } (a_2+a_1)(b_2-b_1)
+}
+}
+{}
+{}{.}
+Entsprechend ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_{\gamma_2}  xdy
+}
+{ =} { { \frac{   1 }{  2 } } (a_3+a_2)(b_3-b_2)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_{\gamma_3}  xdy
+}
+{ =} { { \frac{   1 }{  2 } } (a_1+a_3)(b_1-b_3)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Die Summe dieser drei Wegintegrale ist die Hälfte von
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{(a_2+a_1)(b_2-b_1) + (a_3+a_2)(b_3-b_2) + (a_1+a_3)(b_1-b_3)
+}
+{ =} { a_2b_2 -a_2b_1+a_1b_2-a_1b_1 +a_3b_3-a_3b_2 +a_2b_3 -a_2b_2+a_1b_1-a_1b_3+a_3b_1-a_3b_3
+}
+{ =} { -a_2b_1+a_1b_2 -a_3b_2 +a_2b_3 -a_1b_3+a_3b_1
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+sodass die beiden Integrale übereinstimmen.
+
+ [[Kategorie:Latexseite]]

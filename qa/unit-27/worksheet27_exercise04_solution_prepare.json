@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-27/worksheet27_exercise04_solution.id.tex",
+  "input_bytes": 4731,
+  "input_sha256": "3961beca50c57223e144592d1ca2e97e48bdba4eee8eb5703756249fef3d145c",
+  "output": "build/generated/worksheet27_exercise04_solution.id.build.tex",
+  "output_bytes": 4645,
+  "output_sha256": "ad377ccfeda527accff3f07d1783bed2952decffa55cf6b171f31abf6ae01adb",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Sinus und Kosinus/Reell/Additionstheoreme/Drehung/Fakt",
+      "label": "Fakta"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

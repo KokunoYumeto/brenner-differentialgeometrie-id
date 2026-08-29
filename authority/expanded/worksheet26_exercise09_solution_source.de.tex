@@ -1,0 +1,283 @@
+Die Aussage ist lokal, ohne Einschränkung sei daher
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{  \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+versehen mit einer riemannschen Struktur durch Funktionen
+\mathl{g_{ij}}{.} Die Voraussetzung besagt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle \nabla_{\partial_i} \partial_j  ,  \partial_k   \right\rangle  + \left\langle  \partial_j  ,  \nabla_{\partial_i} \partial_k   \right\rangle
+}
+{ =} { \partial_i g_{jk}
+}
+{ } {
+}
+{ } {
+}
+{ } {}
+}
+{}{}{.}
+Mit den Christoffelsymbolen formuliert ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{  \left\langle \nabla_{\partial_i} \partial_j   ,  \partial_k   \right\rangle
+}
+{ =} { \left\langle  \sum_{\ell = 1}^n \Gamma^\ell_{ij}  \partial_\ell   ,  \partial_k   \right\rangle
+}
+{ =} {   \sum_{\ell = 1}^n \Gamma^\ell_{ij}   g_{ \ell k}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{  \left\langle  \partial_j   ,  \nabla_{\partial_i} \partial_k   \right\rangle
+}
+{ =} { \left\langle  \partial_j   ,  \sum_{\ell = 1}^n \Gamma^\ell_{ik}  \partial_\ell     \right\rangle
+}
+{ =} {  \sum_{\ell = 1}^n \Gamma^\ell_{ik}   g_{ \ell j}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+die Bedingung besagt also
+
+\mavergleichskettedisp
+{\vergleichskette
+{   \sum_{\ell = 1}^n \Gamma^\ell_{ij}   g_{ \ell k} +\sum_{\ell = 1}^n \Gamma^\ell_{ik}   g_{ \ell j}
+}
+{ =} {   \partial_i g_{jk}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Wir müssen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D_V \left\langle  W  , Z  \right\rangle
+}
+{ =} { \left\langle \nabla_V W , Z  \right\rangle  + \left\langle  W  ,  \nabla_VZ  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für beliebige stetig differenzierbare Vektorfelder $V,W,Z$ zeigen, die wir jeweils als
+\mathl{\sum_{i = 1}^nf_i \partial_i}{} mit stetig differenzierbaren Funktionen ansetzen können. Es sei zunächst
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ = }{ \partial_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ W
+}
+{ =} { \sum_{j = 1}^nf_j \partial_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Z
+}
+{ =} { \sum_{k = 1}^n h_k \partial_k
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Das Skalarprodukt ist additiv in den Komponenten und $\nabla_{\partial_i}$ ist auch additiv,
+da ein linearer Zusammenhang vorliegt. Ebenso ist
+
+\mavergleichskette
+{\vergleichskette
+{ D_{\partial_i}
+}
+{ = }{ \partial_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+additiv. Deshalb können wir uns auf Felder der Form
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ = }{ f  \partial_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Z
+}
+{ = }{ h  \partial_k
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit fixierten $j,k$ beschränken. Für die linke Seite ergibt sich
+
+\mavergleichskettedisp
+{\vergleichskette
+{  \partial_i \left\langle f \partial_j  ,  h \partial_k   \right\rangle
+}
+{ =} { \partial_i \left(  fh g_{jk}  \right)
+}
+{ =} {  fg_{jk} \partial_i(h) + hg_{jk} \partial_i(f)   +  fh \partial_i \left(  g_{jk}   \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Nach
+[[Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt|Fakt]]
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i} \left(  f \partial_j  \right)
+}
+{ =} {  \left(  \partial_i f  \right) \partial_j + f \nabla_{\partial_i }\partial_j
+}
+{ =} { \left(  \partial_i f  \right) \partial_j + f \left(  \sum_{ \ell = 1}^n \Gamma^\ell_{ij} \partial_\ell   \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i} \left(  h \partial_k  \right)
+}
+{ =} { \left(  \partial_i h  \right) \partial_k + h \nabla_{\partial_i }\partial_k
+}
+{ =} { \left(  \partial_i h  \right) \partial_k  + h \left(  \sum_{ \ell = 1}^n \Gamma^\ell_{ik} \partial_\ell   \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Daher ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{  \left\langle  \nabla_{\partial_i} \left(  f \partial_j  \right)   ,  h \partial_k  \right\rangle
+}
+{ =} {  \left\langle  \left(  \partial_i f  \right) \partial_j  + f \left(  \sum_{ \ell = 1}^n \Gamma^\ell_{ij} \partial_\ell   \right)   ,  h \partial_k  \right\rangle
+}
+{ =} { h \left(   \partial_i f  \right) \left\langle   \partial_j  ,  \partial_k   \right\rangle +fh \sum_{ \ell = 1}^n   \Gamma_{ij}^\ell \left\langle          \partial_\ell   ,  \partial_k   \right\rangle
+}
+{ =} { h \left(   \partial_i f  \right)  g_{j k} +fh \sum_{ \ell = 1}^n   \Gamma_{ij}^\ell  g_{\ell k }
+}
+{ } {
+}
+}
+{}
+{}{}
+und
+
+\mavergleichskettealign
+{\vergleichskettealign
+{  \left\langle f \partial_j  ,  \nabla_{\partial_i} \left(  h \partial_k  \right)   \right\rangle
+}
+{ =} { \left\langle  f\partial_j  ,  \left(  \partial_i h \right) \partial_k  + h \left(  \sum_{ \ell = 1}^n \Gamma^\ell_{ik} \partial_\ell   \right)    \right\rangle
+}
+{ =} {   f \left(   \partial_i h  \right)  g_{j k} +fh \sum_{ \ell = 1}^n   \Gamma_{ik}^\ell  g_{\ell j }
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+Die Summe der beiden Terme stimmt mit der linken Seite überein.
+
+Im Richtungsfeld $V$ sind beide Seiten linear und auch mit der Multiplikation mit Funktionen verträglich.
+
+ [[Kategorie:Latexseite]]

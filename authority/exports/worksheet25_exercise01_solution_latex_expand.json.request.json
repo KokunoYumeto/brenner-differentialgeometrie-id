@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 15:20:40 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Mannigfaltigkeit/Triviales Vektorbündel/Rang 1/Zusammenhang und Differentialform/Fakt/Beweis/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 2012,
+  "response_path": "worksheet25_exercise01_solution_latex_expand.json",
+  "response_sha256": "f0094f0a65d3de2b0e2cca5f2baaa9a889efca111f1c1424c60cd8d0477decf4",
+  "retrieved_utc": "2026-08-28T15:20:39Z",
+  "schema_version": 1
+}

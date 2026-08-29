@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "input": "source/exams/exam-01/exam01_solutions.id.tex",
+  "input_bytes": 32215,
+  "input_sha256": "57249c1c3f744dcfa2b6c717f967e08df4a72eed5513c5051a22a428d58c61d6",
+  "output": "build/generated/exams/exam01_solutions.id.build.tex",
+  "output_bytes": 31664,
+  "output_sha256": "393e77bf4541adf3c7f1ce4e8a357deeae590b66aca093747451e057cecd0e86",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 14,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Totale Differenzierbarkeit/K/Kettenregel/Fakt",
+      "label": "aturan rantai"
+    },
+    {
+      "target": "Ebene reguläre Kurve/Krümmung/Skalarprodukt/Fakt",
+      "label": "Lemma 3.8 (Differentialgeometrie (Osnabrück 2023))"
+    },
+    {
+      "target": "Totale Differenzierbarkeit/K/Kettenregel/Fakt",
+      "label": "aturan rantai"
+    },
+    {
+      "target": "Brouwersche Fixpunktsatz/Explizite Retraktion/Aufgabe",
+      "label": "Soal 23.23 (Differentialgeometrie (Osnabrück 2023))"
+    },
+    {
+      "target": "Mannigfaltigkeit mit Rand/Stokes/Nichtexistenz von Retraktionen/Fakt",
+      "label": "Teorema 23.9 (Differentialgeometrie (Osnabrück 2023))"
+    }
+  ],
+  "wiki_link_resolution_passes": 1,
+  "rendered_interactive_gif_links": []
+}

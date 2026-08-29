@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "input": "source/exams/original-repairs/missing-exam-solutions.id.tex",
+  "input_bytes": 7208,
+  "input_sha256": "4964e0600fc2f0d68c96856e48d4c240022d2cf13aecfe79fb4de2911c69fb3d",
+  "output": "build/generated/bridges/missing-exam-solutions.build.tex",
+  "output_bytes": 7207,
+  "output_sha256": "ff171f5e682982f491dcb09c53cfa352685666b7896dbd7ff9a233fb31e8106a",
+  "removed_category_links": 0,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [],
+  "wiki_link_resolution_passes": 0,
+  "rendered_interactive_gif_links": []
+}

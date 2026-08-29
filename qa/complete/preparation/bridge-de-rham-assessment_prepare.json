@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "input": "source/bridges/de-rham/bridge-de-rham-assessment.id.tex",
+  "input_bytes": 14977,
+  "input_sha256": "270a158c20c9733a394a3163fd0ee4229addfe09a866a5a04be64effe4b474fe",
+  "output": "build/generated/bridges/bridge-de-rham-assessment.build.tex",
+  "output_bytes": 14976,
+  "output_sha256": "2afd9e4e43686dccb69604b8b426c582034b7fa5403c1f7fc6140011edde4cfc",
+  "removed_category_links": 0,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [],
+  "wiki_link_resolution_passes": 0,
+  "rendered_interactive_gif_links": []
+}

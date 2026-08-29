@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 14:55:42 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Satz von Green/Direkter Beweis für Dreieck/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 3521,
+  "response_path": "worksheet23_exercise13_solution_latex_expand.json",
+  "response_sha256": "8f8e4880a3dd8aa6f209c76846f5489f0d906511b503f0932a1a2c1da65f0faf",
+  "retrieved_utc": "2026-08-28T14:55:41Z",
+  "schema_version": 1
+}

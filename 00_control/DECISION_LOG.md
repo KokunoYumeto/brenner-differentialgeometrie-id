@@ -2026,3 +2026,272 @@ Independent anonymous readback receipt
 `0d3b14210fee7552cce8dd1aa442ea3c0f85b4dbb5686f4ee6e9cf9aa759c7c9`.
 Both paths downloaded all seven files and matched the same 73,215,901 public
 bytes. The next action is contiguous Unit 23 production, not more Unit 22 QA.
+
+## D085 — Close Unit 23 and keep translation ahead of cumulative QA (2026-08-28)
+
+**Decision:** Admit the complete Unit 23 lecture, worksheet, three actual hint
+fields, four source-supplied solutions, and three rights-closed media assets
+after bounded topology and mathematical verification. Do not start a new
+cumulative rebuild at this single-unit boundary. Proceed concurrently through
+Units 24–26 and pre-freeze Units 27–29 so no verifier or publication ceremony
+can idle source-ordered translation.
+
+**Evidence:** Lecture/worksheet target SHA-256 values are
+`72d6bd0aa4d0c3a77b46746d6641fd9d9e038812f1abeb0904d14e872cd42dde`
+and
+`9af134008d058544d00b7f4217a89f7a0683d70f347fa2d1bce6776fcb8c00c0`.
+The 30-exercise census contains 23 practice and seven graded/26-point items,
+hints only at 4/5/19, solutions only at 6/13/16/17, and three media assets.
+Preflight and offline-verifier SHA-256 values are
+`c0222de2ee99d210e4222ac84318380316dd5b953865c8c7162f9dd308185eb1`
+and
+`e83db7dad2f057866699fd93d36ac100bc45414a84744455c81fe19ca55fd491`.
+The four disclosed deltas are the canonical source filename repair, two
+missing image captions, and two reader-visible `und`-to-`dan` formula labels.
+
+## D086 — Reject the first Unit 24 prose draft and preserve production momentum (2026-08-28)
+
+**Decision:** Reject the structurally intact but linguistically unacceptable
+first generated Unit 24 prose draft. Retain its exact frozen authority and
+topology only. Manually rewrite the worksheet and independently rewrite the
+lecture from the German authority before admission. Continue Units 25 and 26
+in parallel and freeze Units 27–29; this correction is not a reason to stop
+translation or rerun cumulative Unit 22 gates.
+
+**Evidence:** Unit 24 has 15 exercises, five graded/18 points, no supplied
+solution, and no media. Unit 27 preflight SHA-256 is
+`d193b3b76468bebf735083e36938b34a3c4d8e1676aeebdb59ba1cee88cc68c9`;
+Unit 28 is
+`36b7da9664a1111bf66e7fd2432d728dcbb24acd71aaa11c908136d622f71ec5`;
+Unit 29 is
+`d80f9520a1477d0eb3c6ef51648abc1cf19b622b4a903779a6027219dbaa3370`.
+
+## D087 — Admit complete Units 24 and 26 and keep the remaining core on the translation path (2026-08-28)
+
+**Decision:** Admit Unit 24 only after the unacceptable generated prose was
+fully replaced, and admit complete Unit 26 after restoring the lecture tail
+missing from its draft and reverting silent mathematical rewrites to the exact
+source topology. Continue direct production on Units 25 and 27–29. Do not put
+a cumulative build, backend export, publication, or source-issue ceremony on
+the critical path while these source units remain untranslated.
+
+**Evidence:** Unit 24 lecture/worksheet hashes are
+`1a30fa076a0535c188cb5aba9c71d557e094bcc6f322340f7d35998ec6697166`
+and
+`2454f1169e7e12b4124cb2942e20f3bb1b70ad68943e77ede58127dfc62e10ac`;
+their bounded receipts have hashes
+`898ab635870f323cd359478dbfe99fc7de356750f7b46e4830a31bb6c92530fb`
+and
+`9ee747bc334ff777cf5be301a05494ae1382439753277bb4547db44318df6abb`.
+Unit 26 lecture/worksheet hashes are
+`b9915fa7e2bcda998f396829548a6a272d4ea516d5155bbb5695db69fbd0fdda`
+and
+`9ae7f9c964286053cd0b58bde0c11c90a44b1bcc757fa2dedaaaca185b63916e`;
+the complete five-file bounded receipt hash is
+`5d71e66f10d84f67853790559fd508fe7b99211314a38f286317c3780a2291e0`.
+
+## D088 — Admit complete Unit 25 and reduce the untranslated core to three lectures (2026-08-28)
+
+**Decision:** Admit the complete Unit 25 lecture, worksheet, and exactly six
+source-supplied solutions after exact topology, language, and immutable-link
+checks. Keep three independent translators on Lectures 27–29. The contiguous
+core prefix is Units 1–26; no cumulative rebuild begins before the three final
+lectures land.
+
+**Evidence:** Lecture/worksheet SHA-256 values are
+`076e00279e59e6d9c7c59e3f27f21eb3b47dc4016699c407420bad3ced179639`
+and
+`f9382254ef5dee139db6650b88262b250af5fd055eb3bddab3a5b4b569324f40`.
+Solutions 1/7/8/11/12/14 have hashes recorded in `00_control/CURSOR.json`; the
+strengthened 4,906-byte completion receipt has SHA-256
+`ea47645aa715c8d1ace85585aac8751ae0c8115645c8458078ca9127de4bbc9c`.
+
+## D089 — Admit Units 28 and 29; keep only Lecture 27 on the core critical path (2026-08-28)
+
+**Decision:** Admit complete Units 28 and 29 after their final lectures replace
+all draft residue and pass exact mathematics/link/language checks. Admit
+Worksheet 27 and its four supplied solutions, leaving Lecture 27 as the sole
+untranslated Brenner core surface. Start Exam 1 translation from its frozen
+official learner expansion while the full ten-form recursive authority closure
+finishes; do not wait for a cumulative core build.
+
+**Evidence:** Unit 28 lecture/worksheet hashes are
+`2ef59ce9e1230c34a50e8c098676f8286cbda627b2a888de08ab19f96802f37e`
+and
+`15c77fc77b9e93694627d4371ada815c958204942ef8554fdb48f8eb651fb4f5`.
+Unit 29 lecture/worksheet hashes are
+`74e8a2befbded780466fc6d2ff0c913c2d3d387e019bb16daf0fa961c51c43b2`
+and
+`00aa6620956475bde67bb608b711f12edf1e8fcbf91900d2bd026be0235f0b31`.
+Worksheet 27 has SHA-256
+`a5d6c58bb96b80e7b381935465a6d9a55e2a18f890684d263032d442eda4ce1c`;
+its four supplied-solution hashes are recorded in `00_control/CURSOR.json`.
+
+## D090 — Close the complete Brenner core and continue directly into official exams (2026-08-28)
+
+**Decision:** Admit Lecture 27 and declare the source-ordered 29-lecture,
+29-worksheet Brenner core translation complete. This is not completion of
+O011: continue immediately through the official exam bank and then the two
+original bridges. Keep the cumulative reader/backend build batched rather than
+placing it between the core and the still-untranslated assessment corpus.
+
+**Evidence:** Lecture 27 SHA-256 is
+`37623a58c537cf9e13e00b189eda77d880adb43bc09e60662691bb2d58bd60d2`;
+its main verifier and residual-language receipts have SHA-256 values
+`8338d27c86f7acb65240aed0d08d60454df6d314b6cd5fb836f65ba88efc2462`
+and
+`bf5cee385efe0158e6d318d5ecc762e7f5a84fe28f4fcccd1bde2b728a1fdf6b`.
+Exam learner forms 1/2/3 already have target hashes
+`a150e6cd95ea93422051f6a51e76b38acbce7beb48591ab12b34d0cac3ebd95a`,
+`aabea31036649f07272167bc1b353f0afa769e22937969d44f4bc19893675aa3`,
+and
+`b8b90e5cb0517ea101fcedd6658ffa9916b03b8bc7618aa74b18e9c1f9e86084`.
+
+## D091 — Admit the exact ten-form assessment authority and frozen 123/117/six census (2026-08-28)
+
+**Decision:** Admit the single recursive 1,024-page export, all 20 sanitized
+learner/solution surfaces, and occurrence-to-semantic-task map as the exact
+assessment authority. Preserve all 123 actual occurrences, translate all 117
+source-solution occurrences, and author only the six frozen missing solutions.
+Keep the 24 exact empty slots as placeholders rather than miscounting or
+inventing problems.
+
+**Evidence:** Recursive export SHA-256 is
+`726c50ee9e0f851e35ad8f8acd60dc2387e34e3fa1df7b71950b7f3bcf83312c`;
+revision-set digest is
+`ff552c754740bdd9c4436f4e31f7e5164341435f634a075866d72d027d1f1e00`;
+manifest SHA-256 is
+`42a3784adc1e7e6423ac503685ba05eb6cda43a7bd213e401614acd631c5b226`;
+occurrence-map SHA-256 is
+`ba85735a613267d28301ad0f62eafec5b0d3f18e36f107759ca3c0231345a8ec`.
+The exam-specific sanitizer removes only balanced attribute-free `em` tags and
+retains the generic sanitizer's zero-residual-HTML/U+FFFD gate.
+
+## D092 — Close learner Forms 1–9 and admit the complete original Lie bridge content (2026-08-28)
+
+**Decision:** Admit official learner Forms 4–9 after bounded exact-topology,
+occurrence, scoring, link, and language checks, leaving only Form 10 active.
+Begin official solution Forms 1 and 2 immediately. Also admit the independently
+authored CC BY-SA 4.0 Lie bridge at its complete content and smoke-build
+boundary: all six selected theory topics, exactly 12 hint-and-solution
+exercises, and four solution/rubric/alternate-parameter mastery problems are
+present. This original bridge does not incorporate comparator prose and does
+not delay continued exam translation.
+
+**Evidence:** Form 4–9 target hashes are recorded in `00_control/CURSOR.json`.
+The Lie theory and assessment hashes are
+`42ef0c9dedda792d0c04614d58159d5f798765d1bfcbc3e3054a6065d70b6b3f`
+and
+`6d3d5555ee2845756f01415798e64d06893552e62a52d398e5c647298f96c6f5`.
+The 13-page A4 smoke PDF has SHA-256
+`bfe9d8dc4fd6ef61a57ae2246a30aed0c5f239aefdb6fff9277773bb44c5e585`;
+the content/smoke receipt has SHA-256
+`e0d041cfacc626c3b91f57eae8849946a76632f3e8e223063c709e813901e3ad`.
+
+## D093 — Admit the complete original de Rham bridge content (2026-08-28)
+
+**Decision:** Admit the independently authored CC BY-SA 4.0 de Rham and
+differential-topology bridge at its complete content/smoke boundary. It proves
+the Poincaré and chain-homotopy results it uses, computes the selected examples
+through Mayer--Vietoris, labels the de Rham theorem as a statement rather than
+a fake proof, and confines degree, transversalitas, and Morse to accurate
+gateways. Exactly 12 exercises and four mastery problems have hints, complete
+solutions, and—for the mastery items—rubrics and alternate parameters. Continue
+official exam solution translation without placing cumulative build work on
+its critical path.
+
+**Evidence:** Theory and assessment SHA-256 values are
+`50feb003989fe674e41e3dd16fec85ad5b6dcc20f9cf6f7f2b09bdbf620ccd0e`
+and
+`270a158c20c9733a394a3163fd0ee4229addfe09a866a5a04be64effe4b474fe`.
+The 11-page A4 smoke PDF has SHA-256
+`bb430cf267a1483f71305d8684406fd36c652d2566be7d893d8f295d2feeb260`;
+the content/smoke receipt has SHA-256
+`692934c74f3f295523c230b677971dde203c9cb753923d5a844eec1b9ed5f4a4`.
+
+## D094 — Close all learner forms and reject the incomplete Exam 1 solution draft (2026-08-28)
+
+**Decision:** Admit Exam 10 learner form and thereby close all ten official
+learner surfaces. Explicitly reject the current Exam 1 solution-form draft: it
+contains residual German and rewrite markers and fails protected-call equality.
+Do not count its bytes or its failed receipt as translated solution coverage.
+Repair it completely while Forms 2–5 continue independently; keep translation
+ahead of the cumulative reader gate.
+
+**Evidence:** Exam 10 target and verifier SHA-256 values are
+`989b0d2f8f6cc963b5e91537e811dc28a9cdea709a636a7843d69d0b9f257791`
+and
+`735bad9cc5f4162b9e55d902f20057c4173eeef71baefcc215f8306006c10d32`.
+The rejected Exam 1 draft has SHA-256
+`6b217ecb50651570ee945969fed46b26821c630c49adc638eded0f125de6cbb6`;
+its failed receipt records `protected:vergleichskette` and `protected:maabb`,
+and a bounded reader scan finds explicit German residue and `PERLU_REWRITE`.
+
+## D095 — Complete and isolate the six original missing-exam solutions (2026-08-28)
+
+**Decision:** Admit exactly six independently authored CC BY-SA 4.0 solutions
+for the six frozen missing source occurrences in Forms 1/3/5/7/9/10. Bind each
+one to its official form, slot, actual occurrence, points, and rendered-task
+hash. Keep them visibly and structurally distinct from the 117 source-supplied
+solution occurrences. Together with the two 16-item bridges, the selected 38
+original solution-bearing items are now content-complete; official solution
+translation continues and remains required for edition completion.
+
+**Evidence:** Original solution source SHA-256 is
+`4964e0600fc2f0d68c96856e48d4c240022d2cf13aecfe79fb4de2911c69fb3d`.
+The three-page smoke PDF and exact occurrence/provenance receipt SHA-256 values
+are
+`4acc780442a6af61b832a259db2ab2161abef013d1be3209e6c865a1fda0f8c0`
+and
+`3b91f57b7fc3239474b4eaad86db93656cb0270ac570576080b3ddc7c4b8d819`.
+
+## D096 — Admit seven official solution forms and the explicit Exam 1 sign correction (2026-08-28)
+
+**Decision:** Admit official solution Forms 1, 3, 4, 5, 7, 8, and 9 after
+their bounded translation and structural gates. Replace—not merely patch or
+count—the previously rejected Exam 1 draft. Record and expose the Exam 1
+ellipsoid tangent-space sign correction: `-4a-6b+10c=0` is mathematically
+forced by the defining equation, `P=(-1,-1,1)`, and the source's own displayed
+gradient `(-4,-6,10)`. Continue Forms 2, 6, and 10 concurrently; do not start
+the cumulative build while those translations remain open.
+
+**Evidence:** The seven target hashes, exact status, and Exam 1 bounded receipt
+are recorded in `00_control/CURRENT_STATE.md`. Exam 1 target SHA-256 is
+`57249c1c3f744dcfa2b6c717f967e08df4a72eed5513c5051a22a428d58c61d6`;
+its bounded receipt SHA-256 is
+`903e520114936379ac80a5ad282b529df22a688a5a72e5dd40138336fa844e34`.
+
+## D097 — Close every selected translation surface (2026-08-28)
+
+**Decision:** Admit official solution Forms 2, 6, and 10 and declare the
+selected translation surface complete: all 29 core unit pairs, all ten learner
+forms, all ten solution forms with exactly 117 source-supplied solution
+occurrences, both original bridges, and all 38 selected original
+solution-bearing items. Move directly to a single complete reader/backend
+assembly and release boundary; no further translation hold exists.
+
+**Evidence:** The three newly admitted target hashes and bounded-QA hashes are
+recorded in `00_control/CURRENT_STATE.md`. The official solution census is
+`13+11+11+12+13+11+10+14+12+10 = 117`, matching the recursively frozen
+authority census. Every form's bounded receipt records status `pass` and
+preserves its occurrence, prompt, point, solution-presence, and link topology.
+
+## D098 — Admit the complete local reader/backend boundary (2026-08-28)
+
+**Decision:** Admit the 712-page complete PDF, the 6,912-record append-only
+backend, and the complete reflowable HTML after deterministic and real-browser
+gates. The final browser pass found one actual Unit 29 Jacobi-identity rendering
+failure caused by inherited `[[...]]` MediaWiki-link disambiguation. Repair it
+only in the complete HTML exporter by rewriting that exact mathematical nested
+Lie-bracket expression to equivalent explicit TeX delimiters; do not alter the
+translated mathematical source. The rebuilt surface has zero MathJax errors,
+zero page-level desktop/mobile overflow, zero broken internal fragments, and
+clean console output. Proceed directly to deterministic packaging, publication
+in the existing lineages, and anonymous readback.
+
+**Evidence:** PDF, HTML entry, backend JSONL, and browser-QA SHA-256 values are
+`26f19153db2ca08851e182202900a8371f1816b428f8fe7321b35de60b9c84ef`,
+`ebee44b421d841f4be2ff22c2007f58c3c63b5042a63dfd96dcd079fc4d17c66`,
+`cf875638bbb7ffb657d5932c1663c063f6832495b2f755830d26121d1a631e26`,
+and
+`5b9ee13df8d569b6c64c27c09cfcf1885fc78b29afff1baed106a9d6dd63fc94`.

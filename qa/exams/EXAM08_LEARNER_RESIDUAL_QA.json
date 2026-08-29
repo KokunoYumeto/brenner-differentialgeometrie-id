@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "scope": "source/exams/exam-08/exam08_learner.id.tex",
+  "target_bytes": 7480,
+  "target_sha256": "20a6e0195458a3e6254d8955b0c14147399df2924312f45ae71f0aa5689ab97c",
+  "checks": {
+    "actual_problem_occurrences_source": 14,
+    "actual_problem_occurrences_target": 14,
+    "placeholder_occurrences_source": 3,
+    "placeholder_occurrences_target": 3,
+    "actual_problem_point_argument_sequence_equal": true,
+    "actual_problem_point_total": 63,
+    "renewcommand_call_sequence_equal": true,
+    "renewcommand_call_count": 31,
+    "wiki_link_destination_sequence_equal": true,
+    "wiki_link_destination_count_source": 1,
+    "wiki_link_destination_count_target": 1,
+    "utf8_replacement_characters": 0,
+    "placeholder_marker_hits": 0,
+    "reader_prose_german_common_word_hits_after_link_and_structural_token_exclusion": 0,
+    "reader_prose_german_diacritic_hits_after_link_and_structural_token_exclusion": 0
+  },
+  "allowed_non_reader_german": "Macro names, commented upstream control names, and the final Kategorie locator remain exact structural tokens.",
+  "status": "pass"
+}

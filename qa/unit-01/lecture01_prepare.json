@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "input": "source/units/unit-01/lecture01.id.tex",
-  "input_bytes": 28969,
-  "input_sha256": "428546cce566f1a93e237699f584ff6687275f555d295d584bc394d12e96cffa",
+  "input_bytes": 29009,
+  "input_sha256": "0237473836f695af04b5ab972857f58904b416f8baffd9e5d2c8f5e504fdd0f3",
   "output": "build/generated/lecture01.id.build.tex",
-  "output_bytes": 28576,
-  "output_sha256": "b6431ed5df863f9a3180610d20989b097c8cf7f234d6d1c999ef0ab1b554e444",
+  "output_bytes": 28616,
+  "output_sha256": "b12e332e05d52e8e5a46b892a84afe57bde4b5bda2c96f5e503e8cda507ab38e",
   "removed_category_links": 1,
   "removed_noedit_markers": 1,
   "trimmed_media_arguments": 0,
@@ -13,6 +13,7 @@
     "operatorname_kern_to_ker": 1,
     "operatorname_bild_to_im": 0
   },
+  "layout_reflows": [],
   "rendered_internal_links": [
     {
       "target": "Mehrere Variablen/k fach stetig differenzierbar/Längs einer Geraden/Fakt",
@@ -34,5 +35,6 @@
       "target": "Reguläre Hyperfläche/Kurven/Tangentiale Realisierung/Motivation/Bemerkung",
       "label": "Catatan 1.1.3"
     }
-  ]
+  ],
+  "rendered_interactive_gif_links": []
 }

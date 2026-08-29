@@ -14,7 +14,8 @@
     "display_math_equal_or_declared": true,
     "protected_macro_calls_equal_or_declared": true,
     "brace_profile_equal_or_declared": true,
-    "all_declared_deltas_consumed": true
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
   },
   "counts": {
     "commands": 323,
@@ -28,7 +29,7 @@
   "declared_corrections": [
     "O011-CORR-0028+O011-CORR-0029",
     "O011-CORR-0029",
-    "O011-CORR-0028",
     "O011-CORR-0028"
-  ]
+  ],
+  "evidence_only_results": []
 }

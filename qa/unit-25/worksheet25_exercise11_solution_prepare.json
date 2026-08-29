@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-25/worksheet25_exercise11_solution.id.tex",
+  "input_bytes": 1769,
+  "input_sha256": "527cb279bb9942210f2588f2ab8ff6ef2476aadf35828f2201e3351828978ce9",
+  "output": "build/generated/worksheet25_exercise11_solution.id.build.tex",
+  "output_bytes": 1439,
+  "output_sha256": "20fea9ae378d80de7798283076d5b821ade7efaa702ac4052a9638f0725b005d",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Offene Menge/Triviales Vektorbündel/Linearer Zusammenhang/Spaltung/Christoffelsymbole/Bemerkung",
+      "label": "Catatan"
+    },
+    {
+      "target": "Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt",
+      "label": "Lema"
+    },
+    {
+      "target": "Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt",
+      "label": "Lema"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

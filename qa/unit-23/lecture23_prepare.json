@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-23/lecture23.id.tex",
+  "input_bytes": 25831,
+  "input_sha256": "72d6bd0aa4d0c3a77b46746d6641fd9d9e038812f1abeb0904d14e872cd42dde",
+  "output": "build/generated/lecture23.id.build.tex",
+  "output_bytes": 24327,
+  "output_sha256": "4eac06768db582d998a84c1331b2df491cc30778bde8f4a32c0d9986239fb3ca",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 8,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "w:George Gabriel Stokes",
+      "label": "George Stokes (1819 -1903)"
+    },
+    {
+      "target": "Differentialform/Lokal/Zurückziehen unter partiell konstanter Abbildung/Fakt",
+      "label": "Korolari 14.10"
+    },
+    {
+      "target": "Sigmaendliche Räume/Satz von Fubini/Fakt",
+      "label": "teorema Fubini"
+    },
+    {
+      "target": "Riemann-Integral/Hauptsatz/Newton-Leibniz/Fakt",
+      "label": "teorema dasar kalkulus"
+    },
+    {
+      "target": "Mannigfaltigkeit/Abzählbare Basis/Überdeckung/Partition/Fakt",
+      "label": "Teorema 22.10"
+    },
+    {
+      "target": "Kompakter Raum/Abgeschlossene Teilmenge/Kompakt/Fakt/Beweis/Aufgabe",
+      "label": "Soal 13.10"
+    },
+    {
+      "target": "Volumenform/Integration/Eigenschaften/Fakt",
+      "label": "aditivitas integral bentuk diferensial"
+    },
+    {
+      "target": "Differentialform/Mannigfaltigkeit/Äußere Ableitung/Eigenschaften/Fakt",
+      "label": "aditivitas turunan eksterior"
+    },
+    {
+      "target": "Differentialform/Offene Menge/Äußere Ableitung/Eigenschaften/Fakt",
+      "label": "Lema 20.2 (5)"
+    },
+    {
+      "target": "Satz von Stokes/Quaderversion/Fakt",
+      "label": "teorema Stokes versi balok"
+    },
+    {
+      "target": "Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt",
+      "label": "Teorema 23.2"
+    },
+    {
+      "target": "Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt",
+      "label": "Teorema 23.2"
+    },
+    {
+      "target": "Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt",
+      "label": "Teorema 23.2"
+    },
+    {
+      "target": "Integration auf ebener Mannigfaltigkeit mit Rand/Satz von Green/Fakt",
+      "label": "Teorema 23.5"
+    },
+    {
+      "target": "Integration auf ebener Mannigfaltigkeit mit Rand/Satz von Green/Fakt",
+      "label": "Teorema 23.5"
+    },
+    {
+      "target": "Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt",
+      "label": "teorema Stokes"
+    },
+    {
+      "target": "Mannigfaltigkeit mit Rand/Orientierung/Randorientierung/Fakt",
+      "label": "Teorema 21.8"
+    },
+    {
+      "target": "Nullstellenfreie Volumenform/Orientierte (Karten) Mannigfaltigkeit/Äquivalenz/Fakt",
+      "label": "Teorema 22.11"
+    },
+    {
+      "target": "Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt",
+      "label": "Teorema 23.2"
+    },
+    {
+      "target": "Differentialform/Mannigfaltigkeit/Äußere Ableitung/Eigenschaften/Fakt",
+      "label": "Teorema 20.4 (5)"
+    },
+    {
+      "target": "Brouwersche Fixpunktsatz/Explizite Retraktion/Aufgabe",
+      "label": "Soal 23.23"
+    },
+    {
+      "target": "Mannigfaltigkeit mit Rand/Stokes/Nichtexistenz von Retraktionen/Fakt",
+      "label": "Teorema 23.9"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

@@ -13,6 +13,7 @@
     "operatorname_kern_to_ker": 0,
     "operatorname_bild_to_im": 0
   },
+  "layout_reflows": [],
   "rendered_internal_links": [
     {
       "target": "Funktion/n-1 Variablen/Graph als Hyperfläche/Tangentialraum/Beispiel",
@@ -26,5 +27,6 @@
       "target": "Isometrische Isomorphie/Differenzierbare Hyperfläche/Geodätische, Normalenfeld, Gauß-Abbildung/Aufgabe",
       "label": "Soal 2.14"
     }
-  ]
+  ],
+  "rendered_interactive_gif_links": []
 }

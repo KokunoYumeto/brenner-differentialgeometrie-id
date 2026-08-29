@@ -1,0 +1,892 @@
+{
+  "exercise_count": 25,
+  "exercises": [
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 317,
+        "path": "authority/mediawiki/worksheet25_exercise01_solution_revid901365.utf8.b64",
+        "sha256": "9d28ca8918cd77779be36b55ae4ca86a6d6654bcccf24dbac64efdfec0a0ea04"
+      },
+      "exercise_index": 1,
+      "exists": true,
+      "expanded_body_sha256": "93c026a38c9fbba81dc469437c88f043b9ef86acfdac9843f2b5e8bde5850477",
+      "expanded_body_utf8_bytes": 1549,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 1797,
+        "http_date": "Fri, 28 Aug 2026 15:20:40 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Mannigfaltigkeit/Triviales Vektorbündel/Rang 1/Zusammenhang und Differentialform/Fakt/Beweis/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 747,
+          "path": "authority/exports/worksheet25_exercise01_solution_latex_expand.json.request.json",
+          "sha256": "ab8a15ac5a39bcd4629b044a75363b6bb411a77de1ba96b8d46eb83d35cd33c9"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 2012,
+          "path": "authority/exports/worksheet25_exercise01_solution_latex_expand.json",
+          "sha256": "f0094f0a65d3de2b0e2cca5f2baaa9a889efca111f1c1424c60cd8d0477decf4"
+        },
+        "retrieved_utc": "2026-08-28T15:20:39Z",
+        "sanitized_source": {
+          "bytes": 1603,
+          "path": "authority/expanded/worksheet25_exercise01_solution_source.de.tex",
+          "sha256": "b45b4fd16034b8ab85770597ab9a1155f483f82da770bac3f5af58524f81e861"
+        },
+        "sanitizer": {
+          "bytes": 3606,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+        },
+        "sanitizer_receipt": {
+          "bytes": 713,
+          "path": "qa/unit-25/worksheet25_exercise01_solution_sanitize.json",
+          "sha256": "df87ce836f4e4b3a1eac5952be4d804a79d1e9315ca8ed0e937cf2d6744c2834"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "3f2f9773a2f37ed3b2f4a25f9f9f9f42ae909ad5",
+      "metadata": {
+        "bytes": 1411,
+        "path": "authority/mediawiki/worksheet25_exercise01_solution_revid901365.metadata.json",
+        "sha256": "8b2a724658cb6d47a2218082af47457b0b629aed6830b1cc35e844aca928a4bd"
+      },
+      "pageid": 152313,
+      "parentid": 0,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 238,
+        "path": "authority/mediawiki/worksheet25_exercise01_solution_revid901365.wiki",
+        "sha256": "0b95edfcf495569957106783f0d64c899e483e79f40920978c48dbef6b745007"
+      },
+      "resolved_solution_title": "Mannigfaltigkeit/Triviales Vektorbündel/Rang 1/Zusammenhang und Differentialform/Fakt/Beweis/Aufgabe/Lösung",
+      "revid": 901365,
+      "root_hint_field": "",
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Mannigfaltigkeit/Triviales Vektorbündel/Rang 1/Zusammenhang und Differentialform/Fakt/Beweis/Aufgabe/Lösung",
+      "source_utf8_bytes": 237,
+      "source_utf8_sha256": "e0364b9e7bba8f03d047861ead10265f5606d2231381b44d5f454ba35e512da7",
+      "task_title": "Mannigfaltigkeit/Triviales Vektorbündel/Rang 1/Zusammenhang und Differentialform/Fakt/Beweis/Aufgabe",
+      "timestamp": "2023-07-05T06:09:47Z",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exercise_index": 2,
+      "exists": false,
+      "expanded_body_sha256": "0e7f1e345bfb2e444ec43645c4966cf9b950ec49f496cb9e762f31f521139754",
+      "expanded_body_utf8_bytes": 233,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "resolved_solution_title": "Ebene/Triviales Vektorbündel/Rang 1/Zusammenhang/Kein horizontaler Schnitt/Aufgabe/Lösung",
+      "root_hint_field": "",
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Ebene/Triviales Vektorbündel/Rang 1/Zusammenhang/Kein horizontaler Schnitt/Aufgabe/Lösung",
+      "task_title": "Ebene/Triviales Vektorbündel/Rang 1/Zusammenhang/Kein horizontaler Schnitt/Aufgabe",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exercise_index": 3,
+      "exists": false,
+      "expanded_body_sha256": "737f6b178f48d9344d9a663fc03e8e04ef67aa52798696002b6b70c8064c2311",
+      "expanded_body_utf8_bytes": 1306,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "resolved_solution_title": "Mannigfaltigkeit/Triviales Vektorbündel/Rang 1/Differentialform/Linearer Zusammenhang/Aufgabe/Lösung",
+      "root_hint_field": "",
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Mannigfaltigkeit/Triviales Vektorbündel/Rang 1/Differentialform/Linearer Zusammenhang/Aufgabe/Lösung",
+      "task_title": "Mannigfaltigkeit/Triviales Vektorbündel/Rang 1/Differentialform/Linearer Zusammenhang/Aufgabe",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exercise_index": 4,
+      "exists": false,
+      "expanded_body_sha256": "edb7b9224087a031f4ead0613340243c323fdc61816835112fe4db6e0ea9146f",
+      "expanded_body_utf8_bytes": 643,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "resolved_solution_title": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontaler Schnitt/Vertikale Ableitung/Fakt/Beweis/Aufgabe/Lösung",
+      "root_hint_field": "",
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontaler Schnitt/Vertikale Ableitung/Fakt/Beweis/Aufgabe/Lösung",
+      "task_title": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontaler Schnitt/Vertikale Ableitung/Fakt/Beweis/Aufgabe",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exercise_index": 5,
+      "exists": false,
+      "expanded_body_sha256": "74bac9014eb1acb7cdd9129459cc034929be54a2bb8ca6abab1cff625dc54d89",
+      "expanded_body_utf8_bytes": 652,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "resolved_solution_title": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Längs Abbildung/Horizontaler Schnitt/Vertikale Ableitung/Aufgabe/Lösung",
+      "root_hint_field": "",
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Längs Abbildung/Horizontaler Schnitt/Vertikale Ableitung/Aufgabe/Lösung",
+      "task_title": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Längs Abbildung/Horizontaler Schnitt/Vertikale Ableitung/Aufgabe",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exercise_index": 6,
+      "exists": false,
+      "expanded_body_sha256": "2825b040ac6fad4f73eb617d81af4b30a471d4f41e4ed379add4dc6ac797df75",
+      "expanded_body_utf8_bytes": 610,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "resolved_solution_title": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Global integrabel/Globale Trivialisierung/Aufgabe/Lösung",
+      "root_hint_field": "",
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Global integrabel/Globale Trivialisierung/Aufgabe/Lösung",
+      "task_title": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Global integrabel/Globale Trivialisierung/Aufgabe",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 1401,
+        "path": "authority/mediawiki/worksheet25_exercise07_solution_revid1095886.utf8.b64",
+        "sha256": "f929f88cc244dd40fe78ae265269c4f54fac31e90463558618a2292b378dc897"
+      },
+      "exercise_index": 7,
+      "exists": true,
+      "expanded_body_sha256": "1874031e3610099209c2466375279521dfc5d91ef63ff3afa39b8cbb04dc5e47",
+      "expanded_body_utf8_bytes": 762,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 1064,
+        "http_date": "Fri, 28 Aug 2026 15:20:40 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Global integrabel/Globale Trivialisierung des Zusammenhangs/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 768,
+          "path": "authority/exports/worksheet25_exercise07_solution_latex_expand.json.request.json",
+          "sha256": "356ecc53c127009c4597074ce0477afe5348fd6182ac58d26d7e992c2b0b6ab0"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 1232,
+          "path": "authority/exports/worksheet25_exercise07_solution_latex_expand.json",
+          "sha256": "55a2c05a67d3ee39b443746394c5e162c9035e48ada7cb807108d403f0664ed1"
+        },
+        "retrieved_utc": "2026-08-28T15:20:39Z",
+        "sanitized_source": {
+          "bytes": 901,
+          "path": "authority/expanded/worksheet25_exercise07_solution_source.de.tex",
+          "sha256": "3550fb33eae5497236391a87e0f62f6663f05edaeb3e52868dd18c82dfb3ceb6"
+        },
+        "sanitizer": {
+          "bytes": 3606,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+        },
+        "sanitizer_receipt": {
+          "bytes": 712,
+          "path": "qa/unit-25/worksheet25_exercise07_solution_sanitize.json",
+          "sha256": "4334eab7cf9bc520c346cb7cc89e80931537af6dc626ba5090b9924e6449a792"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "0ba4114f67d33c87dccf42eaea921457884736ce",
+      "metadata": {
+        "bytes": 1465,
+        "path": "authority/mediawiki/worksheet25_exercise07_solution_revid1095886.metadata.json",
+        "sha256": "50968165228ece3bffc9e0c84c5d8ddf27f7ce042d9d7a0839d7b87eab5bd2a9"
+      },
+      "pageid": 152598,
+      "parentid": 1021538,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 1050,
+        "path": "authority/mediawiki/worksheet25_exercise07_solution_revid1095886.wiki",
+        "sha256": "394a6a386aea76bfd3394d487ef444f51be0489acd920fa2763828612d62ff7e"
+      },
+      "resolved_solution_title": "Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Global integrabel/Globale Trivialisierung des Zusammenhangs/Aufgabe/Lösung",
+      "revid": 1095886,
+      "root_hint_field": "",
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Mannigfaltigkeit/Vektorbündel/R/Linearer_Zusammenhang/Global_integrabel/Globale_Trivialisierung_des_Zusammenhangs/Aufgabe/Lösung",
+      "source_utf8_bytes": 1049,
+      "source_utf8_sha256": "9096ecb688d854c34c0638ed1ff0cbb2d93bc8cb6b784f40ae9c8ebd3c71ffc5",
+      "task_title": "Mannigfaltigkeit/Vektorbündel/R/Linearer_Zusammenhang/Global_integrabel/Globale_Trivialisierung_des_Zusammenhangs/Aufgabe",
+      "timestamp": "2026-06-15T07:17:14Z",
+      "title_normalized_by_mediawiki": true
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 2281,
+        "path": "authority/mediawiki/worksheet25_exercise08_solution_revid1088873.utf8.b64",
+        "sha256": "7efe8b5964a165e2fa9b9c8147590491e2fe26df960e1acd9a19669d0feb9b7a"
+      },
+      "exercise_index": 8,
+      "exists": true,
+      "expanded_body_sha256": "b627ab717963e9c22629909f6fc8cf2008cd6ce6d6e96a5cc4f5222f03dc1309",
+      "expanded_body_utf8_bytes": 1593,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 1901,
+        "http_date": "Fri, 28 Aug 2026 15:20:40 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Offenes Intervall/Differentialgleichungssystem/Zusammenhang/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 713,
+          "path": "authority/exports/worksheet25_exercise08_solution_latex_expand.json.request.json",
+          "sha256": "6fb18e4f5af47f9b97f58cc14bf899061fab95903abfcf61f5cbce65f861e7e0"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 2121,
+          "path": "authority/exports/worksheet25_exercise08_solution_latex_expand.json",
+          "sha256": "8251e232478adf773c0f38374afc2566d195ce540009f887b0f6d6e7b50ce122"
+        },
+        "retrieved_utc": "2026-08-28T15:20:40Z",
+        "sanitized_source": {
+          "bytes": 1628,
+          "path": "authority/expanded/worksheet25_exercise08_solution_source.de.tex",
+          "sha256": "cc45d41c9fdc6bc94131cb891fdb0ea97ee7a7db3d9504207d11080a85f4e12e"
+        },
+        "sanitizer": {
+          "bytes": 3606,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+        },
+        "sanitizer_receipt": {
+          "bytes": 713,
+          "path": "qa/unit-25/worksheet25_exercise08_solution_sanitize.json",
+          "sha256": "484f5100c2a3adcb143d2fdf6920d4ee724e7975e7da74f7b35ea255028bb33e"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "f15645c60a4e8d24c842411f3bdecba8c294ee8d",
+      "metadata": {
+        "bytes": 1355,
+        "path": "authority/mediawiki/worksheet25_exercise08_solution_revid1088873.metadata.json",
+        "sha256": "3988c8e16bcc0796c5878222690b42065dd8c659b64e734a227fe05c1d0c9d3d"
+      },
+      "pageid": 152420,
+      "parentid": 1021833,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 1710,
+        "path": "authority/mediawiki/worksheet25_exercise08_solution_revid1088873.wiki",
+        "sha256": "f630583ca3733e88968bf7b02f559f9ba0b6bb0e09e857937229f6ddfe10ebed"
+      },
+      "resolved_solution_title": "Offenes Intervall/Differentialgleichungssystem/Zusammenhang/Aufgabe/Lösung",
+      "revid": 1088873,
+      "root_hint_field": "",
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Offenes Intervall/Differentialgleichungssystem/Zusammenhang/Aufgabe/Lösung",
+      "source_utf8_bytes": 1709,
+      "source_utf8_sha256": "8f6653c0f1d21a9b2d449379fc1a8a1fce31bba3a7134a654264247728628e95",
+      "task_title": "Offenes Intervall/Differentialgleichungssystem/Zusammenhang/Aufgabe",
+      "timestamp": "2026-05-31T08:58:32Z",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exercise_index": 9,
+      "exists": false,
+      "expanded_body_sha256": "79b1975b41819a3a1e326c97a01c0abfe2e08411b1ab75b4842c46bf94d8f3be",
+      "expanded_body_utf8_bytes": 292,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "resolved_solution_title": "Mannigfaltigkeit/Linearer Zusammenhang/Nullschnitt horizontal/Aufgabe/Lösung",
+      "root_hint_field": "",
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Mannigfaltigkeit/Linearer Zusammenhang/Nullschnitt horizontal/Aufgabe/Lösung",
+      "task_title": "Mannigfaltigkeit/Linearer Zusammenhang/Nullschnitt horizontal/Aufgabe",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exercise_index": 10,
+      "exists": false,
+      "expanded_body_sha256": "2525bf08e8d963df9c6fb3e60f0ba8edbdb9126914044f79e5009a23416072d1",
+      "expanded_body_utf8_bytes": 314,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "resolved_solution_title": "Mannigfaltigkeit/Trivialer Zusammenhang/Linear/Aufgabe/Lösung",
+      "root_hint_field": "",
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Mannigfaltigkeit/Trivialer Zusammenhang/Linear/Aufgabe/Lösung",
+      "task_title": "Mannigfaltigkeit/Trivialer Zusammenhang/Linear/Aufgabe",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 293,
+        "path": "authority/mediawiki/worksheet25_exercise11_solution_revid902248.utf8.b64",
+        "sha256": "c619e40f0d437dbedef1deedb873992af6b47ff9e81e86bf0090c29e5530e7aa"
+      },
+      "exercise_index": 11,
+      "exists": true,
+      "expanded_body_sha256": "775fcd0cb1763ddd53d079f2422ec07f9fe6d15cf3789610018cd95eff29d3e8",
+      "expanded_body_utf8_bytes": 1284,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 2029,
+        "http_date": "Fri, 28 Aug 2026 15:20:41 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "R^n/Offene Menge/Trivialer Zusammenhang/Ableitungseigenschaften/Fakt/Beweis/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 729,
+          "path": "authority/exports/worksheet25_exercise11_solution_latex_expand.json.request.json",
+          "sha256": "4c7d203bde74638ce7adbca276e7848cf361ddb16bdc04929ada0f841d03daf6"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 2267,
+          "path": "authority/exports/worksheet25_exercise11_solution_latex_expand.json",
+          "sha256": "aff6c39578439cbb51e18129f44af44f745d4d1fc4b4c5db295e0512877d3adc"
+        },
+        "retrieved_utc": "2026-08-28T15:20:40Z",
+        "sanitized_source": {
+          "bytes": 1767,
+          "path": "authority/expanded/worksheet25_exercise11_solution_source.de.tex",
+          "sha256": "e9f27f92b7b2af220348f9f8627f2a364432ad643f4ecb89b8e0948423296b23"
+        },
+        "sanitizer": {
+          "bytes": 3606,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+        },
+        "sanitizer_receipt": {
+          "bytes": 713,
+          "path": "qa/unit-25/worksheet25_exercise11_solution_sanitize.json",
+          "sha256": "010a37baaef6172f8b34c3f55287edd7bb6621147e460bb972b8883f362427ee"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "c91bbf28c679f7a64bb3dcbad6758800291929b2",
+      "metadata": {
+        "bytes": 1375,
+        "path": "authority/mediawiki/worksheet25_exercise11_solution_revid902248.metadata.json",
+        "sha256": "2bdbc39e9b134e9d429ffd7af4a25a74d4b648927e2de6f73b4edafa72986efa"
+      },
+      "pageid": 152402,
+      "parentid": 0,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 220,
+        "path": "authority/mediawiki/worksheet25_exercise11_solution_revid902248.wiki",
+        "sha256": "2a3fe02d20ece09f2e64a633ee14c79f0c73713467ff29456fb4474e18309795"
+      },
+      "resolved_solution_title": "R^n/Offene Menge/Trivialer Zusammenhang/Ableitungseigenschaften/Fakt/Beweis/Aufgabe/Lösung",
+      "revid": 902248,
+      "root_hint_field": "",
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "R^n/Offene Menge/Trivialer Zusammenhang/Ableitungseigenschaften/Fakt/Beweis/Aufgabe/Lösung",
+      "source_utf8_bytes": 219,
+      "source_utf8_sha256": "d1c689d849cebfa3c19a79786761784c39baeb7a5e17e402f7a1f19bf5180764",
+      "task_title": "R^n/Offene Menge/Trivialer Zusammenhang/Ableitungseigenschaften/Fakt/Beweis/Aufgabe",
+      "timestamp": "2023-07-07T12:57:10Z",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 3145,
+        "path": "authority/mediawiki/worksheet25_exercise12_solution_revid1094219.utf8.b64",
+        "sha256": "2428ac5fc18a9aaa95fb16f78c9b5000fa7ce510edabaa38858ac76c4defd3a1"
+      },
+      "exercise_index": 12,
+      "exists": true,
+      "expanded_body_sha256": "8d7163924bedaf2171ad24a34e34e2950a278d28329c172f14206728468b77f2",
+      "expanded_body_utf8_bytes": 773,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 3476,
+        "http_date": "Fri, 28 Aug 2026 15:20:41 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Offenes Intervall/Trivialer Zusammenhang/Basisschnitte/Christoffelsymbole/1/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 729,
+          "path": "authority/exports/worksheet25_exercise12_solution_latex_expand.json.request.json",
+          "sha256": "d72c165878fa2c03fe2cfd9064028ea8b6199bb43764d5e9c21158d7c74c4d6e"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 3785,
+          "path": "authority/exports/worksheet25_exercise12_solution_latex_expand.json",
+          "sha256": "99b2e0466251bae25d0c343b0b6c51b9722ca996c731f01c7f512c1351d576f7"
+        },
+        "retrieved_utc": "2026-08-28T15:20:40Z",
+        "sanitized_source": {
+          "bytes": 2996,
+          "path": "authority/expanded/worksheet25_exercise12_solution_source.de.tex",
+          "sha256": "0fbf24c3917bbaa2b48f06b3bb31ff3e2f314b2a17aa0076688a45d0da7c57b0"
+        },
+        "sanitizer": {
+          "bytes": 3606,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+        },
+        "sanitizer_receipt": {
+          "bytes": 713,
+          "path": "qa/unit-25/worksheet25_exercise12_solution_sanitize.json",
+          "sha256": "d3ff29584c266655c4ba60f859d62d8f73bf0bd31d368315ea00e1745663aae1"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "0db6b997e33a0135e20838a931fba4b2ebb91a3c",
+      "metadata": {
+        "bytes": 1387,
+        "path": "authority/mediawiki/worksheet25_exercise12_solution_revid1094219.metadata.json",
+        "sha256": "c58df7b9723541f515ea3a74a50774ba4b33d39ab560a865becf3419cd78c8ac"
+      },
+      "pageid": 152646,
+      "parentid": 1094181,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 2358,
+        "path": "authority/mediawiki/worksheet25_exercise12_solution_revid1094219.wiki",
+        "sha256": "69e8b5457f472c275f61bf1058fddd02e98edc44dff38695b49c35293b3e3223"
+      },
+      "resolved_solution_title": "Offenes Intervall/Trivialer Zusammenhang/Basisschnitte/Christoffelsymbole/1/Aufgabe/Lösung",
+      "revid": 1094219,
+      "root_hint_field": "",
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Offenes Intervall/Trivialer Zusammenhang/Basisschnitte/Christoffelsymbole/1/Aufgabe/Lösung",
+      "source_utf8_bytes": 2357,
+      "source_utf8_sha256": "6982c48d0661bd55371f67c38183e359a97ef2854818941c0501e62c5176f8c2",
+      "task_title": "Offenes Intervall/Trivialer Zusammenhang/Basisschnitte/Christoffelsymbole/1/Aufgabe",
+      "timestamp": "2026-06-14T15:19:09Z",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exercise_index": 13,
+      "exists": false,
+      "expanded_body_sha256": "87563827bb74e7f9734dabba1747aa8f4d202eb9979ef2c8de62fecf15d298ec",
+      "expanded_body_utf8_bytes": 802,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "resolved_solution_title": "Offene Teilmenge/R^2/Trivialer Zusammenhang/Basisschnitte/Christoffelsymbole/1/Aufgabe/Lösung",
+      "root_hint_field": "",
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Offene Teilmenge/R^2/Trivialer Zusammenhang/Basisschnitte/Christoffelsymbole/1/Aufgabe/Lösung",
+      "task_title": "Offene Teilmenge/R^2/Trivialer Zusammenhang/Basisschnitte/Christoffelsymbole/1/Aufgabe",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exact_utf8_base64_witness": {
+        "bytes": 2349,
+        "path": "authority/mediawiki/worksheet25_exercise14_solution_revid1088949.utf8.b64",
+        "sha256": "a84c54d7ef19cd35e808866fbac695d1860dcf7895b4138da243de4dd937a22b"
+      },
+      "exercise_index": 14,
+      "exists": true,
+      "expanded_body_sha256": "e70440bfb6a198a5d3ba6a4e939767805b0dbaa3e862b59fc050dd3794985b7d",
+      "expanded_body_utf8_bytes": 1458,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_latex": {
+        "api_endpoint": "https://de.wikiversity.org/w/api.php",
+        "expanded_characters": 1850,
+        "http_date": "Fri, 28 Aug 2026 15:20:41 GMT",
+        "parameters": {
+          "action": "expandtemplates",
+          "format": "json",
+          "formatversion": "2",
+          "prop": "wikitext|categories|modules|jsconfigvars",
+          "text": "{{Latex}}",
+          "title": "Offenes Intervall/Lineare Differentialgleichung/System/Linearer Zusammenhang/Aufgabe/Lösung/latex"
+        },
+        "replacement_characters": false,
+        "request_receipt": {
+          "bytes": 730,
+          "path": "authority/exports/worksheet25_exercise14_solution_latex_expand.json.request.json",
+          "sha256": "f8d74a5f139d24f597744ea4d97b334ec186381fb8598c6ac309781402a3dfa9"
+        },
+        "residual_html_tags": false,
+        "response": {
+          "bytes": 2058,
+          "path": "authority/exports/worksheet25_exercise14_solution_latex_expand.json",
+          "sha256": "8d1b58596576a28066ea74bbcd9fa1e508ab939ca9884cdb4a97a5f70c5c76d8"
+        },
+        "retrieved_utc": "2026-08-28T15:20:41Z",
+        "sanitized_source": {
+          "bytes": 1597,
+          "path": "authority/expanded/worksheet25_exercise14_solution_source.de.tex",
+          "sha256": "4a7e132d57278c024ba88bc87ddce6d9706a900b88e35f6b76dcbff0167a05cd"
+        },
+        "sanitizer": {
+          "bytes": 3606,
+          "path": "scripts/sanitize_brenner_expand.py",
+          "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+        },
+        "sanitizer_receipt": {
+          "bytes": 713,
+          "path": "qa/unit-25/worksheet25_exercise14_solution_sanitize.json",
+          "sha256": "b7bcd097047137be91cd7a7d02138cc10794e02dfbb8a65b508268a2e538c0e0"
+        },
+        "valid_utf8": true
+      },
+      "expanded_macro": "inputaufgabegibtloesung",
+      "hint_field": "",
+      "mediawiki_sha1": "0c23b64333bd4d99e34ddde5a63185186af85d3a",
+      "metadata": {
+        "bytes": 1389,
+        "path": "authority/mediawiki/worksheet25_exercise14_solution_revid1088949.metadata.json",
+        "sha256": "a5fa7c96b238c3d4a392f5cd2497ef7be44188b38954ce20e33047027e7364f8"
+      },
+      "pageid": 152390,
+      "parentid": 1022074,
+      "point_value": null,
+      "readable_normalized_witness": {
+        "bytes": 1762,
+        "path": "authority/mediawiki/worksheet25_exercise14_solution_revid1088949.wiki",
+        "sha256": "f713f03a003ac36f518e81c014e49bb22f31cfb03066ad102f20a7bd4bc2aaa8"
+      },
+      "resolved_solution_title": "Offenes Intervall/Lineare Differentialgleichung/System/Linearer Zusammenhang/Aufgabe/Lösung",
+      "revid": 1088949,
+      "root_hint_field": "",
+      "root_point_marker": "",
+      "solution_marker": true,
+      "solution_title": "Offenes Intervall/Lineare Differentialgleichung/System/Linearer Zusammenhang/Aufgabe/Lösung",
+      "source_utf8_bytes": 1761,
+      "source_utf8_sha256": "7abcf4d726e1b0614a28ed8a4dcaa1ea15facc6ce5b243bae2248c52a066e3e9",
+      "task_title": "Offenes Intervall/Lineare Differentialgleichung/System/Linearer Zusammenhang/Aufgabe",
+      "timestamp": "2026-05-31T09:11:12Z",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exercise_index": 15,
+      "exists": false,
+      "expanded_body_sha256": "5ccdb702fa82b59e17478bedb9cef05f55f9fa0cb3953b66e368a4012c55e4ac",
+      "expanded_body_utf8_bytes": 888,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "resolved_solution_title": "Differenzierbare Hyperfläche/Zusammenhang/Kurve/Parallel und horizontal/Aufgabe/Lösung",
+      "root_hint_field": "",
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Hyperfläche/Zusammenhang/Kurve/Parallel und horizontal/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Hyperfläche/Zusammenhang/Kurve/Parallel und horizontal/Aufgabe",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exercise_index": 16,
+      "exists": false,
+      "expanded_body_sha256": "7ca7e4164e4d0c23d978fb7a1877fb217c997e22bf9dfe03b3febf630acfffa5",
+      "expanded_body_utf8_bytes": 422,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "resolved_solution_title": "Differenzierbare Hyperfläche/Zusammenhang/Linear/Aufgabe/Lösung",
+      "root_hint_field": "",
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Differenzierbare Hyperfläche/Zusammenhang/Linear/Aufgabe/Lösung",
+      "task_title": "Differenzierbare Hyperfläche/Zusammenhang/Linear/Aufgabe",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exercise_index": 17,
+      "exists": false,
+      "expanded_body_sha256": "460d20e8accdaaf8f9d616b12234379fd3be9d655e94c5efe64384d0d3b78941",
+      "expanded_body_utf8_bytes": 603,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "resolved_solution_title": "Mannigfaltigkeit/Vektorbündel/R/Lineare Zusammenhänge/Affine Summe/Aufgabe/Lösung",
+      "root_hint_field": "",
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Mannigfaltigkeit/Vektorbündel/R/Lineare Zusammenhänge/Affine Summe/Aufgabe/Lösung",
+      "task_title": "Mannigfaltigkeit/Vektorbündel/R/Lineare Zusammenhänge/Affine Summe/Aufgabe",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exercise_index": 18,
+      "exists": false,
+      "expanded_body_sha256": "eda92c0cc295805ea908dc51780d9e0a55901ed79478c8d23b97ed85e1f4a992",
+      "expanded_body_utf8_bytes": 701,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "resolved_solution_title": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Partition der Eins/Aufgabe/Lösung",
+      "root_hint_field": "",
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Partition der Eins/Aufgabe/Lösung",
+      "task_title": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Partition der Eins/Aufgabe",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exercise_index": 19,
+      "exists": false,
+      "expanded_body_sha256": "e8a990fd756fe7114f138380e679a8ea2a5b00597b8506342c8508b73963be23",
+      "expanded_body_utf8_bytes": 408,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "resolved_solution_title": "Mannigfaltigkeit/Erste Differentialform/Ableitung/Leibniz-Regel/Aufgabe/Lösung",
+      "root_hint_field": "",
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Mannigfaltigkeit/Erste Differentialform/Ableitung/Leibniz-Regel/Aufgabe/Lösung",
+      "task_title": "Mannigfaltigkeit/Erste Differentialform/Ableitung/Leibniz-Regel/Aufgabe",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exercise_index": 20,
+      "exists": false,
+      "expanded_body_sha256": "a070c03b6edce6d78b24f7ce1007474cdfdcb74883c6bd3acab06b51e38cafdb",
+      "expanded_body_utf8_bytes": 615,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "resolved_solution_title": "Mannigfaltigkeit/Vektorbündel/Riemannsche Mannigfaltigkeit/Linearer Zusammenhang/Aufgabe/Lösung",
+      "root_hint_field": "",
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Mannigfaltigkeit/Vektorbündel/Riemannsche Mannigfaltigkeit/Linearer Zusammenhang/Aufgabe/Lösung",
+      "task_title": "Mannigfaltigkeit/Vektorbündel/Riemannsche Mannigfaltigkeit/Linearer Zusammenhang/Aufgabe",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exercise_index": 21,
+      "exists": false,
+      "expanded_body_sha256": "bb58b997c9e2fafb7d914eec07502b8d4dbf450f0fcc987be6088a672a5ce940",
+      "expanded_body_utf8_bytes": 518,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": null,
+      "resolved_solution_title": "Mannigfaltigkeit/Abzählbare Basis/Linearer Zusammenhang über riemannsche Struktur/Aufgabe/Lösung",
+      "root_hint_field": "",
+      "root_point_marker": "",
+      "solution_marker": false,
+      "solution_title": "Mannigfaltigkeit/Abzählbare Basis/Linearer Zusammenhang über riemannsche Struktur/Aufgabe/Lösung",
+      "task_title": "Mannigfaltigkeit/Abzählbare Basis/Linearer Zusammenhang über riemannsche Struktur/Aufgabe",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exercise_index": 22,
+      "exists": false,
+      "expanded_body_sha256": "653e1e2dabd62f90ddcf960d3e2ec6ca4dfe750ed252d0bee5886d58639a11ad",
+      "expanded_body_utf8_bytes": 611,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": "5 (3+2)",
+      "resolved_solution_title": "Kreis/Tangentialbündel/Zusammenhang/Nicht global integrabel/Liftung/Aufgabe/Lösung",
+      "root_hint_field": "",
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Kreis/Tangentialbündel/Zusammenhang/Nicht global integrabel/Liftung/Aufgabe/Lösung",
+      "task_title": "Kreis/Tangentialbündel/Zusammenhang/Nicht global integrabel/Liftung/Aufgabe",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exercise_index": 23,
+      "exists": false,
+      "expanded_body_sha256": "fa28ef5e41cf5b2f631a8123548134382bea90c7c322cb373136456a9f3681e6",
+      "expanded_body_utf8_bytes": 825,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 4,
+      "resolved_solution_title": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontale Liftung/Übereinstimmung/Aufgabe/Lösung",
+      "root_hint_field": "",
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontale Liftung/Übereinstimmung/Aufgabe/Lösung",
+      "task_title": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontale Liftung/Übereinstimmung/Aufgabe",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exercise_index": 24,
+      "exists": false,
+      "expanded_body_sha256": "25e4b58473ca73ed663f23146c917bf0a0337d350f7e207d74788c6bde5319d2",
+      "expanded_body_utf8_bytes": 778,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 3,
+      "resolved_solution_title": "Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Vertikale Richtungsableitung/Leibniz/Aufgabe/Lösung",
+      "root_hint_field": "",
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Vertikale Richtungsableitung/Leibniz/Aufgabe/Lösung",
+      "task_title": "Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Vertikale Richtungsableitung/Leibniz/Aufgabe",
+      "title_normalized_by_mediawiki": false
+    },
+    {
+      "exercise_index": 25,
+      "exists": false,
+      "expanded_body_sha256": "9597390fcff2f8593d91a98f94442a815b5b0f7ac8f2e530122c18b8c7ff382b",
+      "expanded_body_utf8_bytes": 465,
+      "expanded_fourth_argument_tex": "",
+      "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expanded_hint_utf8_bytes": 0,
+      "expanded_macro": "inputaufgabe",
+      "hint_field": "",
+      "point_value": 3,
+      "resolved_solution_title": "Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Horizontale Schnitte/Dimension groß/Aufgabe/Lösung",
+      "root_hint_field": "",
+      "root_point_marker": "p",
+      "solution_marker": false,
+      "solution_title": "Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Horizontale Schnitte/Dimension groß/Aufgabe/Lösung",
+      "task_title": "Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Horizontale Schnitte/Dimension groß/Aufgabe",
+      "title_normalized_by_mediawiki": false
+    }
+  ],
+  "graded_exercise_count": 4,
+  "macro_api_agreement": true,
+  "missing_solution_count": 19,
+  "point_value_total": 15,
+  "practice_exercise_count": 21,
+  "query": {
+    "bytes": 12662,
+    "path": "authority/mediawiki/unit25_solution_pages_current.json",
+    "sha256": "914fb9d753cc30cdfb756f61e75afeac3980b7638aa8624bbd72494ccbe4b502"
+  },
+  "query_request_receipt": {
+    "bytes": 2982,
+    "path": "authority/mediawiki/unit25_solution_pages_current.json.request.json",
+    "sha256": "6673c72fc7827ef7c34f9a66df8037bf32e9bb94d9b030e6cf0d4d3b4c960eb4"
+  },
+  "query_retrieved_utc": "2026-08-28T15:20:39Z",
+  "schema_version": 1,
+  "supplied_solution_count": 6,
+  "supplied_solution_indices": [
+    1,
+    7,
+    8,
+    11,
+    12,
+    14
+  ],
+  "workflow": "o011-unit25-solution-freeze-v1",
+  "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 25"
+}

@@ -1,0 +1,161 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Wir können von der lokalen Situation ausgehen, dass auf dem trivialen Vektorbündel
+{{
+Abbildung/display
+|name=
+|U \times \R|U
+||
+|SZ=
+}}
+ein Zusammenhang vorliegt, wobei wir 
+{{
+Relationskette
+| U
+| \subseteq |  \R^n
+|| 
+|| 
+|| 
+|SZ=
+}}
+als
+{{
+Definitionslink
+|Prämath=
+|sternförmig|
+|Kontext=|
+|SZ=
+}}
+annehmen können. Der Zusammenhang wird durch die
+{{
+Definitionslink
+|Prämath=
+|Christoffelsymbole|
+|Kontext=linearer Zusammenhang|
+|SZ=
+}}
+{{math|term= \Gamma_1 {{kommadots|}} \Gamma_n |SZ=}} beschrieben. Da der Zusammenhang als krümmungsfrei vorausgesetzt wird, gilt nach
+{{
+Faktlink
+|Faktseitenname=
+Reelles Vektorbündel/Rang 1/Offene Menge/Krümmungsoperator/Fakt
+|Nr=
+|SZ=,
+}}
+dass die
+{{
+Definitionslink
+|Prämath=1
+|Differentialform|
+|Kontext=|
+|SZ=
+}}
+{{math|term= \sum_{i {{=}} 1}^n\Gamma_i dx_i |SZ=}} 
+{{
+Definitionslink
+|Prämath=
+|geschlossen|
+|Kontext=Differentialform|
+|SZ=
+}}
+ist. Nach
+{{
+Aufgabelink
+|Aufgabeseitenname=
+1-Form/Vektorfeld/Geschlossen gdw Integrabilitätsbedingung/Aufgabe
+|Nr=
+|SZ=
+}}
+bedeutet dies, dass das zugehörige Vektorfeld 
+{{
+Abbildung/display
+|name= {{op:Zeilenvektor|\Gamma_1 | \ldots|\Gamma_n}} 
+| U |\R^n
+||
+|SZ=
+}}
+die
+{{
+Definitionslink
+|Prämath=
+|Integrabilitätsbedingung|
+|Kontext=|
+|SZ=
+}}
+erfüllt. Dies bedeutet nach
+{{
+Faktlink
+|Faktseitenname=
+Teilmenge/R^n/Sternförmig/Gradientenfeld/Charakterisierung/Fakt
+|Nr=
+|SZ=,
+}}
+dass auf der sternförmigen offenen Menge {{math|term= U |SZ=}} ein 
+{{
+Definitionslink
+|Prämath=
+|Gradientenfeld|
+|Kontext=|
+|SZ=
+}}
+vorliegt. Es gibt also eine stetig differenzierbare Funktion
+{{
+Abbildung/display
+|name=f
+| U | \R
+||
+|SZ=
+}}
+mit
+{{
+Relationskette/display
+| \Gamma_i
+|| \partial_i f
+|| 
+|| 
+|| 
+|SZ=
+}}
+für alle {{math|term= i |SZ=.}} Wir setzen
+{{
+Relationskette/display
+| g
+|| e^f
+|| 
+|| 
+|| 
+|SZ=
+}} 
+und fassen {{math|term= g |SZ=}} als einen Schnitt im trivialen Bündel {{math|term= U \times \R |SZ=}} auf. Dabei ist nach
+{{
+Faktlink
+|Faktseitenname=
+Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt
+|Nr=
+|SZ=
+}}
+{{
+Relationskette/display
+| \nabla_{\partial_i} g
+|| g \Gamma_i -  \partial_i g
+|| e^f \Gamma_i - \partial_i e^f
+|| e^f \Gamma_i - e^f \partial_i f
+|| 0
+|SZ=,
+}}
+d.h. dass {{math|term= g |SZ=}} ein nullstellenfreier 
+{{
+Definitionslink
+|Prämath=
+|horizontaler Schnitt|
+|Kontext=|
+|SZ=
+}}
+ist, der {{math|term= \nabla |SZ=}} als lokal integrabel erweist.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

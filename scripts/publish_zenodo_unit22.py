@@ -645,7 +645,7 @@ def exact_public(
         and len(entries) == len(order)
         and len(effective_order) == len(order)
         and set(effective_order) == set(order)
-        and has_pdf_preview(record, default_preview)
+        and default_preview == PDF_NAME
         and all(
             entries[name].get("size") == local[name]["bytes"]
             and checksum_md5(entries[name]) == local[name]["md5"]
@@ -727,17 +727,37 @@ def latest(client: httpx.Client, seed: dict[str, Any]) -> dict[str, Any]:
     return value
 
 
+def paginated_hits(client: httpx.Client, initial_url: str, label: str) -> list[dict[str, Any]]:
+    url = initial_url
+    seen: set[str] = set()
+    results: list[dict[str, Any]] = []
+    while True:
+        if not url.startswith("https://zenodo.org/api/") or "access_token=" in url.lower() or url in seen:
+            fail(f"{label} returned an unsafe or repeated pagination URL")
+        seen.add(url)
+        value = api_json(client, "GET", url, (200,), label)
+        container = value.get("hits") or {}
+        page = container.get("hits")
+        if not isinstance(page, list) or not all(isinstance(item, dict) for item in page):
+            fail(f"{label} is malformed")
+        results.extend(page)
+        next_url = (value.get("links") or {}).get("next")
+        if not next_url:
+            total = container.get("total")
+            if isinstance(total, int) and total != len(results):
+                fail(f"{label} pagination is incomplete")
+            return results
+        if not isinstance(next_url, str):
+            fail(f"{label} returned a malformed next-page URL")
+        url = next_url
+
+
 def version_hits(client: httpx.Client, seed_id: int) -> list[dict[str, Any]]:
-    value = api_json(
+    hits = paginated_hits(
         client,
-        "GET",
-        f"https://zenodo.org/api/records/{seed_id}/versions?size=25",
-        (200,),
+        f"https://zenodo.org/api/records/{seed_id}/versions?size=100&page=1",
         "anonymous concept-version listing",
     )
-    hits = ((value.get("hits") or {}).get("hits"))
-    if not isinstance(hits, list):
-        fail("Zenodo concept-version listing is malformed")
     return [item for item in hits if isinstance(item, dict) and concept_id(item) == str(CONCEPT_ID)]
 
 
@@ -1015,16 +1035,11 @@ def main() -> int:
         auth = httpx.Client(trust_env=False, follow_redirects=True, timeout=300, headers=headers)
         del token, headers
         try:
-            listing = api_json(
+            hits = paginated_hits(
                 auth,
-                "GET",
                 "https://zenodo.org/api/user/records?q=is_published:false&size=100&page=1",
-                (200,),
                 "authenticated draft listing",
             )
-            hits = ((listing.get("hits") or {}).get("hits"))
-            if not isinstance(hits, list):
-                fail("authenticated draft listing is malformed")
             drafts = [
                 item
                 for item in hits

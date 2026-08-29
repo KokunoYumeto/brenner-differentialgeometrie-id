@@ -1,0 +1,101 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Aufgrund der verschiedenen Identitäten aus
+{{
+Faktlink
+|Faktseitenname=
+Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt
+|Nr=
+|SZ=
+}}
+sind allenfalls die Christoffelsymbole
+{{
+Math/display|term=
+R^1_{112}, R^2_{112},R^1_{122},R^2_{122},
+|SZ=
+}}
+relevant. Es ist gemäß
+{{
+Faktlink
+|Faktseitenname=
+R^n/Offene Menge/Riemannsche Metrik/Levi-Civita-Zusammenhang/Krümmungsoperator/Berechnung/Fakt
+|Nr=
+|SZ=
+}}
+{{
+Relationskette/display
+| R^1_{112} 
+|| {\partial_1} \Gamma^1_{12} - {\partial_1} \Gamma^1_{12}  +  \Gamma^1_{12} \Gamma_{11}^1  +  \Gamma^2_{12} \Gamma_{12}^1        -     \Gamma^1_{12}  \Gamma_{11}^1        -     \Gamma^2_{12}  \Gamma_{12}^1
+||  0
+|| 
+|| 
+|SZ=,
+}}
+{{
+Relationskette/display
+| R^2_{112} 
+|| {\partial_1} \Gamma^2_{12} - {\partial_1} \Gamma^2_{12} +  \Gamma^1_{12} \Gamma_{11}^2 +\Gamma^2_{12} \Gamma_{12}^2 - \Gamma^1_{12}  \Gamma_{11}^2 - \Gamma^2_{12}  \Gamma_{12}^2
+||  0
+|| 
+|| 
+|SZ=,
+}}
+
+
+{{
+Relationskette/display
+| R^1_{121}
+|| - {\partial_1} \Gamma^1_{12} - {\partial_2} \Gamma^1_{11} -  \Gamma^1_{12} \Gamma_{1 1}^1 - \Gamma^2_{12} \Gamma_{1 2}^1 +  \Gamma^1_{11}  \Gamma_{12 }^1  - \Gamma^2_{11} \Gamma_{2 2}^1 
+|| 
+|| 
+|| 
+|SZ=,
+}}
+{{
+Relationskette/display
+| R^2_{121}
+||  {\partial_1} \Gamma^2_{12} - {\partial_2} \Gamma^2_{11} +  \Gamma^1_{12} \Gamma_{1 1}^2 + \Gamma^2_{12} \Gamma_{1 2}^2 - \Gamma^1_{11}  \Gamma_{12 }^2  - \Gamma^2_{11} \Gamma_{2 2}^2 
+|| 
+|| 
+|| 
+|SZ=.
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{
+Relationskette/display
+| R^1_{122}
+|| {\partial_1} \Gamma^1_{22} - {\partial_2} \Gamma^1_{22}  +   \Gamma^1_{22} \Gamma_{1 1}^1   +   \Gamma^2_{22} \Gamma_{1 2}^1 -  \Gamma^1_{12}  \Gamma_{12 }^1  - \Gamma^2_{12} \Gamma_{2 2}^1 
+|| 
+|| 
+|| 
+|SZ=,
+}}
+{{
+Relationskette/display
+| R^2_{122}
+|| {\partial_1} \Gamma^2_{22} - {\partial_2} \Gamma^2_{22}  +   \Gamma^1_{22} \Gamma_{1 1}^2  -  \Gamma^1_{12}  \Gamma_{12 }^2 
+|| 
+|| 
+|| 
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

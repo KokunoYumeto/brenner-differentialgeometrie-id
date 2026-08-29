@@ -13,6 +13,7 @@
     "operatorname_kern_to_ker": 0,
     "operatorname_bild_to_im": 0
   },
+  "layout_reflows": [],
   "rendered_internal_links": [
     {
       "target": "Bogenparametrisierte Kurve/Ebene/Krümmungskreis/Durchlauf/Fakt",
@@ -30,5 +31,6 @@
       "target": "Ebene differenzierbare Kurve/Faser/Krümmung/Fakt",
       "label": "Lema 3.11"
     }
-  ]
+  ],
+  "rendered_interactive_gif_links": []
 }

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "scope": "source/exams/exam-06/exam06_learner.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-EXAM06-TRANS-0001",
+      "anchor": "definition of a continuous section between the topological spaces X and Y",
+      "change": "Translate the reader-facing German conjunction inside the mathkor call from und to dan without changing any mathematical token, command, brace, or punctuation."
+    }
+  ],
+  "allowed_deltas": [],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-EXAM06-TRANS-0001",
+      "surface": "command:mathkor",
+      "occurrence_index": 0,
+      "source_latex": "\\mathkor{}{X}{und}{Y}{.}",
+      "target_latex": "\\mathkor{}{X}{dan}{Y}{.}",
+      "source_sha256": "4e10f3292b1be98487a769e3c1c9886551e72db1e8dd7e9ed2c82d34c4056b29",
+      "target_sha256": "c36b688577e6058ff667c1b77eb86b41fcc305beb494c0eb919136e725531e65"
+    }
+  ]
+}

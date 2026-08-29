@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 14:55:43 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Abgeschlossene Kugel/Volumen/Flächenintegral/Passende Form/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 2386,
+  "response_path": "worksheet23_exercise16_solution_latex_expand.json",
+  "response_sha256": "d9715f50ea5bbe3e69800e172cfde9e7ce39b7bbc61168c8a949136a2de04477",
+  "retrieved_utc": "2026-08-28T14:55:42Z",
+  "schema_version": 1
+}

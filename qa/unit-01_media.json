@@ -4,7 +4,7 @@
   "unit_number": 1,
   "heading_level": "section",
   "media_config": "source/unit_media.json",
-  "media_config_sha256": "10b822483a85dc7761c7b049d64ce5586e3686de104765062206fff6f0902611",
+  "media_config_sha256": "1f5404aad71947dcff064b853f1820b302f5a7e14cbb862631623eeddc2b8cad",
   "manifest": "authority/brenner_media_rights_manifest.csv",
   "manifest_sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57",
   "image_engine": "Version: ImageMagick 7.1.2-22 Q16 x64 ccf56fb:20260512 https://imagemagick.org",
@@ -12,8 +12,8 @@
   "derivative_count": 3,
   "attribution_tex": {
     "path": "build/generated/unit01-media-attribution-cumulative.tex",
-    "bytes": 1511,
-    "sha256": "a26349205b46fa16abe028256b91b3f6bdb719d51086fe28ae32823092565e45"
+    "bytes": 1610,
+    "sha256": "de290514856a211dbd2ba69d2a7c2f2ac0204bbe90c9c5159346e0ab87a38d4a"
   },
   "media": [
     {
@@ -36,6 +36,8 @@
         "bytes": 1396364,
         "sha256": "aa7fc7b229dd0427d03a9d85f341232291d221d7624951e6640dc5a69b5c5484",
         "identify": "PNG 1800 1396 sRGB",
+        "source_kind": "svg",
+        "frame_index": null,
         "command": [
           "magick",
           "-background",
@@ -52,7 +54,7 @@
           "-strip",
           "-define",
           "png:exclude-chunk=date,time",
-          "PNG24:build/generated/media/3d-function-6.png"
+          "build/generated/media/3d-function-6.png"
         ]
       }
     },
@@ -76,6 +78,8 @@
         "bytes": 246036,
         "sha256": "e261725487313ded908063b98da36667fb2b4bc91f6a9bb81accd488536b9110",
         "identify": "PNG 1793 1800 sRGB",
+        "source_kind": "svg",
+        "frame_index": null,
         "command": [
           "magick",
           "-background",
@@ -92,7 +96,7 @@
           "-strip",
           "-define",
           "png:exclude-chunk=date,time",
-          "PNG24:build/generated/media/Great circle passing through two points.png"
+          "build/generated/media/Great circle passing through two points.png"
         ]
       }
     },
@@ -133,6 +137,8 @@
         "bytes": 216870,
         "sha256": "bd0af937518067273911519fd6fc7568202ddc706246ba35e337a52fb3f6de96",
         "identify": "PNG 1800 747 sRGB",
+        "source_kind": "svg",
+        "frame_index": null,
         "command": [
           "magick",
           "-background",
@@ -149,7 +155,7 @@
           "-strip",
           "-define",
           "png:exclude-chunk=date,time",
-          "PNG24:build/generated/media/Planned flight map of the Oiseau Blanc.png"
+          "build/generated/media/Planned flight map of the Oiseau Blanc.png"
         ]
       }
     }

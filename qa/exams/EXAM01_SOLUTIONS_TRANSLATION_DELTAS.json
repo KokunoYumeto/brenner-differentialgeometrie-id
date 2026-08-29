@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "scope": "source/exams/exam-01/exam01_solutions.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-EXAM01-SOL-0001",
+      "anchor": "definition of the boundary of a manifold with boundary",
+      "change": "Translate only the reader-facing German quantifier inside the protected set-builder formula from fuer/ein to Indonesian; all mathematical tokens remain unchanged."
+    },
+    {
+      "correction_id": "O011-EXAM01-SOL-0002",
+      "anchor": "tangent space of the ellipsoid at P=(-1,-1,1)",
+      "change": "Correct the source's sign typo from -4a+6b+10c=0 to -4a-6b+10c=0, agreeing with the displayed gradient (-4,-6,10), the defining equation, and the point P."
+    },
+    {
+      "correction_id": "O011-EXAM01-SOL-0003",
+      "anchor": "four reader-facing connectors inside mathkor calls",
+      "change": "Translate German conjunctions into Indonesian without changing their mathematical operands."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-EXAM01-SOL-0001",
+      "surface": "protected:vergleichskette",
+      "index": 5,
+      "source_sha256": "4a7f280d8e955f9feae6d6dcc78f7a2da7a841022872988463b182391eeeab0f",
+      "target_sha256": "156447df90b3601ee280eb68c9b06dabb68024277772b8f5b1d6f467ca45ffad"
+    },
+    {
+      "correction_id": "O011-EXAM01-SOL-0002",
+      "surface": "protected:vergleichskette",
+      "index": 22,
+      "source_sha256": "9641b8bd5c8b61835f422fcc3e4c3727ac855d8a3f617751683a844a57b176e9",
+      "target_sha256": "e4a28b5684203ec1cc7f6971c2dfec97fe7b292afeffb890f72e1bc14a3e8149"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-EXAM01-SOL-0003",
+      "surface": "command:mathkor",
+      "occurrence_index": 0,
+      "source_sha256": "5ad29e6810773711483f4d1af2b774c7695741719a66290e7c8576fe0fbb850b",
+      "target_sha256": "04c5023faf3b212196fca6ae8787367e8e12faad63fa25ce8bec1ac7967202ec"
+    },
+    {
+      "correction_id": "O011-EXAM01-SOL-0003",
+      "surface": "command:mathkor",
+      "occurrence_index": 1,
+      "source_sha256": "622876f81d9b5b8b474d67d3a5cd2baeb01c20a9556bc7f15edb8a3fd044e21e",
+      "target_sha256": "4b06508cd0da297afc0c484d91e0e6b13674db18e638831c26407e1045486c40"
+    },
+    {
+      "correction_id": "O011-EXAM01-SOL-0003",
+      "surface": "command:mathkor",
+      "occurrence_index": 2,
+      "source_sha256": "a275cc39a06f78d4097c3ee6427c6af2bbad33f885a34ce41ffccb68d1467ee2",
+      "target_sha256": "573e7b5c0a961f4d22d9b0031d83ecf958b6a9374732888485d0f131d855b7c2"
+    },
+    {
+      "correction_id": "O011-EXAM01-SOL-0003",
+      "surface": "command:mathkor",
+      "occurrence_index": 3,
+      "source_sha256": "072aa027996e0666e98dabc9e2ecd436f6252a7c857783fc4eb0994d5e04ec9a",
+      "target_sha256": "6c9f7322d159d51ee5acc3afeef1de977955eea217407e94793159342630a371"
+    }
+  ]
+}

@@ -1,0 +1,481 @@
+% O011-BL — modul asli, bukan terjemahan atau adaptasi dari teks pembanding.
+% Judul: Jembatan Grup Lie dan Aljabar Lie
+% Lisensi modul: CC BY-SA 4.0.
+% Provenans: disusun oleh OpenAI Codex gpt-5.6-sol, Ultra, atas arahan pengguna.
+% Prasyarat internal: Unit 7, 9, 10, 11, dan 28 edisi ini.
+
+\setcounter{section}{30}
+\section{Jembatan Grup Lie dan Aljabar Lie}
+\label{o011-bridge-lie}
+
+\subsection{Tujuan dan hubungan dengan materi sebelumnya}
+
+Modul ini menghubungkan bahasa manifold dengan simetri kontinu. Unit 7
+menyediakan manifold mulus, Unit 9 ruang singgung, Unit 10 pemetaan mulus dan
+medan vektor, Unit 11 produk manifold, sedangkan Unit 28 menyediakan braket
+Lie medan vektor. Semua hasil di bawah dibangun dari perangkat itu. Tujuan
+utamanya ialah memahami bagaimana operasi grup yang mulus menghasilkan suatu
+aljabar linear pada ruang singgung di unsur identitas, bagaimana eksponensial
+menghubungkan kedua struktur tersebut, dan bagaimana aksi grup menghasilkan
+orbit serta stabilisator.
+
+Sepanjang modul, semua manifold dianggap berdimensi hingga, Hausdorff, dan
+memiliki basis terhitung. Kata ``mulus'' berarti terdiferensialkan tak hingga.
+Jika $f\colon M\to N$ mulus dan $p\in M$, diferensialnya ditulis
+$T_pf\colon T_pM\to T_{f(p)}N$.
+
+\subsection{Grup Lie dan contoh matriks}
+
+\begin{definition}\label{o011-bl-def-lie-group}
+Suatu \emph{grup Lie} ialah sebuah manifold mulus $G$ yang sekaligus merupakan
+grup, sedemikian sehingga pemetaan perkalian dan invers
+\[
+  m\colon G\times G\longrightarrow G,\qquad m(g,h)=gh,
+  \qquad
+  \iota\colon G\longrightarrow G,\qquad \iota(g)=g^{-1},
+\]
+bersifat mulus. Unsur identitasnya ditulis $e$. Homomorfisme grup Lie ialah
+homomorfisme grup yang juga merupakan pemetaan mulus.
+\end{definition}
+
+Syarat tersebut bukan sekadar hiasan topologis. Ia memungkinkan kita
+mendiferensialkan identitas grup. Sebagai contoh, dari $gg^{-1}=e$ kita akan
+memperoleh rumus diferensial untuk invers; dari keasosiatifan kita akan
+memperoleh medan vektor invarian dan braket pada $T_eG$.
+
+\begin{beispiel}\label{o011-bl-ex-vector-groups}
+Ruang vektor nyata $\mathbb R^n$ dengan penjumlahan merupakan grup Lie. Unsur
+identitasnya $0$, inversnya $x\mapsto -x$, dan kedua operasi itu polinomial.
+Torus
+\[
+  \mathbb T^n=(S^1)^n
+\]
+dengan perkalian komponen demi komponen juga merupakan grup Lie. Pemetaan
+\[
+  \mathbb R^n\longrightarrow\mathbb T^n,
+  \qquad (t_1,\ldots,t_n)\longmapsto
+  (e^{it_1},\ldots,e^{it_n})
+\]
+ialah homomorfisme grup Lie surjektif dengan kernel $(2\pi\mathbb Z)^n$.
+\end{beispiel}
+
+\begin{beispiel}\label{o011-bl-ex-general-linear}
+Di dalam ruang semua matriks nyata $M_n(\mathbb R)\cong\mathbb R^{n^2}$,
+himpunan
+\[
+  \mathrm{GL}_n(\mathbb R)=\{A\in M_n(\mathbb R):\det A\ne0\}
+\]
+terbuka karena determinan kontinu. Jadi ia merupakan manifold. Perkalian
+matriks bersifat polinomial, sedangkan
+\[
+  A^{-1}=\frac{1}{\det A}\operatorname{adj}(A)
+\]
+mulus pada himpunan tempat $\det A\ne0$. Dengan demikian
+$\mathrm{GL}_n(\mathbb R)$ ialah grup Lie.
+\end{beispiel}
+
+\begin{beispiel}\label{o011-bl-ex-matrix-subgroups}
+Contoh-contoh penting berikut merupakan subgrup tertutup
+$\mathrm{GL}_n(\mathbb R)$ dan, dengan struktur manifold terinduksi yang
+sesuai, merupakan grup Lie:
+\[
+\begin{aligned}
+ \mathrm{SL}_n(\mathbb R)&=\{A:\det A=1\},\\
+ \mathrm O(n)&=\{A:A^{\mathsf T}A=I\},\\
+ \mathrm{SO}(n)&=\{A:A^{\mathsf T}A=I,\ \det A=1\}.
+\end{aligned}
+\]
+Untuk $\mathrm{SL}_n$, nilai $1$ merupakan nilai regular determinan karena
+$D(\det)_A(H)=\det(A)\operatorname{tr}(A^{-1}H)$ tidak nol sebagai fungsional.
+Untuk $\mathrm O(n)$, persamaan $A^{\mathsf T}A=I$ dapat diperlakukan dengan
+teorema nilai regular ke ruang matriks simetris. Kita tidak memerlukan teorema
+umum bahwa setiap subgrup tertutup dari grup Lie adalah submanifold, meskipun
+teorema itu memang benar.
+\end{beispiel}
+
+\begin{bemerkung}\label{o011-bl-rem-components}
+$\mathrm{GL}_n(\mathbb R)$ mempunyai dua komponen terhubung, dibedakan oleh
+tanda determinan. $\mathrm O(n)$ juga mempunyai dua komponen, sedangkan
+$\mathrm{SO}(n)$ adalah komponen identitasnya. Aljabar Lie hanya merekam
+geometri infinitesimal di sekitar $e$; karena itu ia tidak dengan sendirinya
+merekam semua komponen terhubung suatu grup.
+\end{bemerkung}
+
+\subsection{Translasi kiri dan medan vektor invarian}
+
+Untuk $g\in G$, definisikan translasi kiri dan kanan
+\[
+  L_g(h)=gh,
+  \qquad
+  R_g(h)=hg.
+\]
+Keduanya difeomorfisme, dengan invers masing-masing $L_{g^{-1}}$ dan
+$R_{g^{-1}}$.
+
+\begin{definition}\label{o011-bl-def-left-invariant}
+Suatu medan vektor mulus $X$ pada $G$ disebut \emph{invarian-kiri} apabila
+\[
+  T_hL_g(X_h)=X_{gh}
+\]
+untuk semua $g,h\in G$.
+\end{definition}
+
+\begin{Proposition}\label{o011-bl-prop-left-invariant-correspondence}
+Untuk setiap $v\in T_eG$ terdapat tepat satu medan vektor invarian-kiri
+$X^v$, yaitu
+\[
+  X^v_g=T_eL_g(v).
+\]
+Pemetaan $v\mapsto X^v$ merupakan isomorfisme linear dari $T_eG$ ke ruang
+medan vektor invarian-kiri.
+\end{Proposition}
+
+\begin{proof}
+Keasosiatifan memberi $L_g\circ L_h=L_{gh}$. Maka
+\[
+ T_hL_g(X^v_h)
+ =T_hL_g\bigl(T_eL_h(v)\bigr)
+ =T_e(L_g\circ L_h)(v)
+ =T_eL_{gh}(v)=X^v_{gh}.
+\]
+Sebaliknya, jika $X$ invarian-kiri, ambil $h=e$ untuk memperoleh
+$X_g=T_eL_g(X_e)$. Jadi $X$ ditentukan secara unik oleh nilainya di $e$.
+Linearitas jelas dari linearitas diferensial.
+\end{proof}
+
+\begin{Proposition}\label{o011-bl-prop-invariant-bracket}
+Jika $X$ dan $Y$ invarian-kiri, maka braket medan vektor $[X,Y]$ juga
+invarian-kiri.
+\end{Proposition}
+
+\begin{proof}
+Untuk setiap difeomorfisme $F$, sifat natural braket menyatakan
+$F_*[X,Y]=[F_*X,F_*Y]$. Terapkan ini pada $F=L_g$. Karena
+$(L_g)_*X=X$ dan $(L_g)_*Y=Y$, diperoleh $(L_g)_*[X,Y]=[X,Y]$.
+\end{proof}
+
+\subsection{Aljabar Lie di unsur identitas}
+
+\begin{definition}\label{o011-bl-def-lie-algebra}
+\emph{Aljabar Lie} suatu grup Lie $G$ ialah ruang vektor
+\[
+  \mathfrak g=T_eG
+\]
+dengan operasi bilinear
+\[
+  [v,w]_{\mathfrak g}=[X^v,X^w]_e.
+\]
+Jika konteksnya jelas, subskrip $\mathfrak g$ dihilangkan.
+\end{definition}
+
+Proposisi sebelumnya menjamin bahwa $[X^v,X^w]$ kembali invarian-kiri,
+sehingga nilainya di $e$ menentukan seluruh medan. Sifat braket medan vektor
+langsung memberi
+\[
+ [v,w]=-[w,v],
+ \qquad
+ [u,[v,w]]+[v,[w,u]]+[w,[u,v]]=0.
+\]
+Identitas kedua disebut identitas Jacobi.
+
+\begin{Proposition}\label{o011-bl-prop-homomorphism-differential}
+Jika $F\colon G\to H$ homomorfisme grup Lie, maka
+\[
+  dF_e=T_eF\colon\mathfrak g\longrightarrow\mathfrak h
+\]
+mempertahankan braket Lie.
+\end{Proposition}
+
+\begin{proof}
+Identitas $F\circ L_g=L_{F(g)}\circ F$ menunjukkan bahwa medan
+invarian-kiri $X^v$ dan $X^{dF_e(v)}$ saling terkait oleh $F$. Naturalitas
+braket untuk medan yang saling terkait menghasilkan
+\[
+  dF_e([v,w])=[dF_e(v),dF_e(w)].
+\]
+\end{proof}
+
+\begin{beispiel}\label{o011-bl-ex-matrix-algebras}
+Untuk grup matriks, kita mengidentifikasi ruang singgung di $I$ dengan
+subruang matriks. Hasilnya ialah
+\[
+\begin{aligned}
+ \mathfrak{gl}_n(\mathbb R)&=M_n(\mathbb R),\\
+ \mathfrak{sl}_n(\mathbb R)&=\{X:\operatorname{tr}X=0\},\\
+ \mathfrak o(n)=\mathfrak{so}(n)&=\{X:X^{\mathsf T}+X=0\}.
+\end{aligned}
+\]
+Braketnya adalah komutator
+\[
+  [X,Y]=XY-YX.
+\]
+Sebagai contoh, diferensiasikan $A(t)^{\mathsf T}A(t)=I$ pada $t=0$ dengan
+$A(0)=I$ untuk memperoleh $A'(0)^{\mathsf T}+A'(0)=0$.
+\end{beispiel}
+
+\begin{bemerkung}\label{o011-bl-rem-sign}
+Konvensi braket di atas memakai medan invarian-kiri. Jika seseorang
+mengidentifikasi $T_eG$ dengan medan invarian-kanan tanpa mengubah definisi,
+tanda braket akan berbalik. Menyatakan konvensi ini mencegah kesalahan tanda
+pada rumus adjoint.
+\end{bemerkung}
+
+\subsection{Subgrup satu-parameter dan pemetaan eksponensial}
+
+\begin{definition}\label{o011-bl-def-one-parameter}
+Subgrup satu-parameter dalam $G$ ialah homomorfisme grup Lie
+\[
+  \gamma\colon(\mathbb R,+)\longrightarrow G.
+\]
+\end{definition}
+
+Jika $\gamma$ subgrup satu-parameter, maka
+\[
+  \gamma(t+s)=\gamma(t)\gamma(s)
+\]
+dan, setelah mendiferensialkan terhadap $s$ pada $0$,
+\[
+  \gamma'(t)=T_eL_{\gamma(t)}\bigl(\gamma'(0)\bigr).
+\]
+Jadi $\gamma$ adalah kurva integral medan invarian-kiri yang ditentukan oleh
+$v=\gamma'(0)$.
+
+\begin{Theorem}\label{o011-bl-thm-one-parameter-existence}
+Untuk setiap $v\in\mathfrak g$ terdapat tepat satu subgrup satu-parameter
+$\gamma_v$ dengan $\gamma_v'(0)=v$.
+\end{Theorem}
+
+\begin{proof}
+Ambil kurva integral maksimal $\gamma$ dari medan invarian-kiri $X^v$ dengan
+$\gamma(0)=e$. Untuk $s$ tetap, kurva $t\mapsto\gamma(s)\gamma(t)$ dan
+$t\mapsto\gamma(s+t)$ memenuhi persamaan diferensial yang sama serta memiliki
+nilai awal yang sama pada $t=0$. Ketunggalan solusi memberi
+$\gamma(s+t)=\gamma(s)\gamma(t)$ selama kedua ruas terdefinisi.
+
+Identitas ini memperpanjang kurva integral lokal langkah demi langkah ke
+seluruh $\mathbb R$: pilih $\varepsilon>0$ dengan solusi pada
+$(-\varepsilon,\varepsilon)$, lalu definisikan nilai pada selang yang lebih
+panjang dengan hasil kali potongan-potongan kecil. Identitas lokal dan
+ketunggalan menjamin bahwa definisi itu konsisten. Kurva global yang diperoleh
+adalah homomorfisme. Ketunggalan subgrup satu-parameter juga mengikuti dari
+ketunggalan kurva integral.
+\end{proof}
+
+\begin{definition}\label{o011-bl-def-exponential}
+Pemetaan eksponensial grup Lie adalah
+\[
+  \exp_G\colon\mathfrak g\longrightarrow G,
+  \qquad \exp_G(v)=\gamma_v(1).
+\]
+\end{definition}
+
+Dari definisi dan penskalaan parameter diperoleh
+\[
+  \gamma_v(t)=\exp_G(tv),
+  \qquad
+  \exp_G((s+t)v)=\exp_G(sv)\exp_G(tv).
+\]
+
+\begin{Proposition}\label{o011-bl-prop-exp-local}
+Pemetaan $\exp_G$ mulus, $\exp_G(0)=e$, dan diferensialnya di $0$ adalah
+identitas pada $\mathfrak g$. Karena itu $\exp_G$ merupakan difeomorfisme dari
+suatu lingkungan $0$ ke suatu lingkungan $e$.
+\end{Proposition}
+
+\begin{proof}
+Kebergantungan mulus solusi persamaan diferensial pada nilai awal dan parameter
+memberi kemulusan $\exp_G$. Kurva $t\mapsto\exp_G(tv)$ mempunyai kecepatan $v$
+pada $0$, sehingga
+\[
+  T_0\exp_G(v)=\left.\frac{d}{dt}\right|_{0}\exp_G(tv)=v.
+\]
+Teorema fungsi invers menyelesaikan pernyataan terakhir.
+\end{proof}
+
+\begin{beispiel}\label{o011-bl-ex-matrix-exp}
+Untuk $G=\mathrm{GL}_n(\mathbb R)$,
+\[
+  \exp_G(X)=e^X=\sum_{k=0}^{\infty}\frac{X^k}{k!}.
+\]
+Deret ini konvergen mutlak dalam setiap norma matriks. Turunan
+$t\mapsto e^{tX}$ ialah $Xe^{tX}=e^{tX}X$, sehingga kurva tersebut merupakan
+subgrup satu-parameter dengan kecepatan awal $X$. Jika $X$ dan $Y$ komutatif,
+$e^{X+Y}=e^Xe^Y$; tanpa hipotesis komutatif, identitas ini umumnya salah.
+\end{beispiel}
+
+\begin{Proposition}\label{o011-bl-prop-exp-natural}
+Untuk homomorfisme grup Lie $F\colon G\to H$ berlaku
+\[
+  F(\exp_G v)=\exp_H(dF_e v).
+\]
+\end{Proposition}
+
+\begin{proof}
+Kedua ruas, setelah $v$ diganti $tv$, merupakan subgrup satu-parameter di $H$
+dengan kecepatan awal $dF_e v$. Gunakan ketunggalan pada Teorema
+\ref{o011-bl-thm-one-parameter-existence} dan ambil $t=1$.
+\end{proof}
+
+\subsection{Konjugasi dan representasi adjoint}
+
+Untuk $g\in G$, konjugasi oleh $g$ adalah difeomorfisme
+\[
+  C_g\colon G\longrightarrow G,
+  \qquad C_g(h)=ghg^{-1}.
+\]
+Ia mempertahankan $e$.
+
+\begin{definition}\label{o011-bl-def-adjoint}
+Pemetaan adjoint pada tingkat grup adalah
+\[
+  \operatorname{Ad}\colon G\longrightarrow\mathrm{GL}(\mathfrak g),
+  \qquad \operatorname{Ad}_g=T_eC_g.
+\]
+Diferensialnya di identitas adalah
+\[
+  \operatorname{ad}=T_e\operatorname{Ad}\colon
+  \mathfrak g\longrightarrow\mathfrak{gl}(\mathfrak g).
+\]
+\end{definition}
+
+Karena $C_{gh}=C_g\circ C_h$, pemetaan $\operatorname{Ad}$ merupakan
+homomorfisme grup Lie. Untuk grup matriks,
+\[
+  \operatorname{Ad}_g(X)=gXg^{-1}.
+\]
+
+\begin{Theorem}\label{o011-bl-thm-ad-bracket}
+Untuk $v,w\in\mathfrak g$ berlaku
+\[
+  \operatorname{ad}_v(w)=[v,w].
+\]
+Selain itu,
+\[
+  \operatorname{Ad}_g[v,w]
+  =[\operatorname{Ad}_gv,\operatorname{Ad}_gw]
+\]
+dan
+\[
+  \operatorname{Ad}_{\exp(tv)}
+  =\exp\bigl(t\operatorname{ad}_v\bigr).
+\]
+\end{Theorem}
+
+\begin{proof}
+Konjugasi membawa medan invarian-kiri $X^w$ ke medan invarian-kiri yang
+bernilai $\operatorname{Ad}_g w$ di identitas. Naturalitas braket memberi
+identitas kedua. Untuk identitas pertama, diferensiasikan keluarga
+$C_{\exp(tv)}$ pada $t=0$; turunan aksi keluarga difeomorfisme ini pada medan
+invarian-kiri adalah braket dengan $X^v$. Evaluasi di $e$ memberi
+$\operatorname{ad}_v(w)=[v,w]$.
+
+Terakhir, $t\mapsto\operatorname{Ad}_{\exp(tv)}$ ialah subgrup satu-parameter
+di $\mathrm{GL}(\mathfrak g)$ dengan kecepatan awal
+$\operatorname{ad}_v$. Contoh \ref{o011-bl-ex-matrix-exp} pada ruang
+$\mathfrak g$ memberi identitas ketiga.
+\end{proof}
+
+\subsection{Aksi mulus, orbit, dan stabilisator}
+
+\begin{definition}\label{o011-bl-def-action}
+Aksi kiri mulus grup Lie $G$ pada manifold $M$ adalah pemetaan mulus
+\[
+  \Phi\colon G\times M\longrightarrow M,
+  \qquad (g,p)\longmapsto g\cdot p,
+\]
+dengan $e\cdot p=p$ dan $(gh)\cdot p=g\cdot(h\cdot p)$.
+Orbit dan stabilisator titik $p$ adalah
+\[
+  G\cdot p=\{g\cdot p:g\in G\},
+  \qquad
+  G_p=\{g\in G:g\cdot p=p\}.
+\]
+\end{definition}
+
+Stabilisator $G_p$ adalah subgrup tertutup, sebab ia adalah prapeta
+$\{p\}$ di bawah pemetaan kontinu $g\mapsto g\cdot p$. Pemetaan orbit
+\[
+  \Phi_p\colon G\longrightarrow M,
+  \qquad \Phi_p(g)=g\cdot p
+\]
+memenuhi $\Phi_p(gh)=g\cdot\Phi_p(h)$.
+
+\begin{definition}\label{o011-bl-def-fundamental-field}
+Untuk $v\in\mathfrak g$, medan vektor fundamental yang dihasilkan oleh $v$
+adalah
+\[
+  v_M(p)=\left.\frac{d}{dt}\right|_{0}\exp(tv)\cdot p
+  =T_e\Phi_p(v).
+\]
+\end{definition}
+
+Dengan konvensi aksi kiri dan medan invarian-kiri yang dipakai di sini,
+pemetaan $v\mapsto v_M$ merupakan antihomomorfisme aljabar Lie:
+\[
+  [v_M,w_M]=-[v,w]_M.
+\]
+Tanda minus berasal dari fakta bahwa $p\mapsto\exp(tv)\cdot p$ membentuk
+aksi kiri, sedangkan medan fundamentalnya terkait secara alami dengan medan
+invarian-kanan pada $G$. Mengubah salah satu konvensi akan mengubah tanda.
+
+\begin{Proposition}\label{o011-bl-prop-orbit-tangent}
+Untuk setiap $p\in M$,
+\[
+  \operatorname{im}(T_e\Phi_p)
+  =\{v_M(p):v\in\mathfrak g\}
+\]
+adalah ruang arah tangensial orbit di $p$. Kernel
+\[
+  \mathfrak g_p=\ker(T_e\Phi_p)
+\]
+adalah aljabar Lie stabilisator. Jika orbit mempunyai struktur manifold
+homogen yang lazim, maka
+\[
+  T_p(G\cdot p)\cong\mathfrak g/\mathfrak g_p,
+  \qquad
+  \dim(G\cdot p)=\dim G-\dim G_p.
+\]
+\end{Proposition}
+
+\begin{proof}
+Identitas pertama adalah definisi diferensial pemetaan orbit. Kurva
+$\exp(tv)$ terletak di $G_p$ tepat secara infinitesimal ketika
+$v_M(p)=0$, sehingga kernelnya adalah ruang singgung stabilisator di $e$.
+Teorema isomorfisme linear memberi
+$\mathfrak g/\ker(T_e\Phi_p)\cong\operatorname{im}(T_e\Phi_p)$.
+Apabila orbit direalisasikan sebagai manifold homogen $G/G_p$, diferensial
+pemetaan hasil bagi mengidentifikasi ruang terakhir dengan $T_p(G\cdot p)$.
+Rumus dimensi mengikuti.
+\end{proof}
+
+\begin{beispiel}\label{o011-bl-ex-sphere-action}
+$\mathrm{SO}(n)$ bertindak pada $S^{n-1}$ melalui perkalian matriks. Aksi ini
+transitif. Stabilisator $e_n$ terdiri atas matriks berbentuk
+\[
+  \begin{pmatrix} A&0\\0&1\end{pmatrix},
+  \qquad A\in\mathrm{SO}(n-1),
+\]
+sehingga $S^{n-1}\cong\mathrm{SO}(n)/\mathrm{SO}(n-1)$. Rumus dimensi memberi
+\[
+ \frac{n(n-1)}2-\frac{(n-1)(n-2)}2=n-1,
+\]
+sesuai dengan dimensi bola satuan.
+\end{beispiel}
+
+\subsection{Ringkasan struktural}
+
+Data global dan infinitesimal yang dibangun di atas tersusun sebagai berikut:
+\[
+\begin{array}{ccl}
+G&\longmapsto&\mathfrak g=T_eG,\\
+F\colon G\to H&\longmapsto&dF_e\colon\mathfrak g\to\mathfrak h,\\
+v\in\mathfrak g&\longmapsto&X^v\text{ dan }\exp(tv),\\
+g\in G&\longmapsto&\operatorname{Ad}_g,\\
+v\in\mathfrak g&\longmapsto&\operatorname{ad}_v=[v,\cdot],\\
+G\curvearrowright M&\longmapsto&v_M(p)=T_e\Phi_p(v).
+\end{array}
+\]
+Eksponensial memberi koordinat lokal di sekitar identitas, tetapi tidak harus
+surjektif secara global dan tidak mengubah persoalan global menjadi persoalan
+linear. Orbit mengubah simetri menjadi geometri submanifold, sedangkan
+stabilisator mengukur simetri yang tidak menggerakkan suatu titik.

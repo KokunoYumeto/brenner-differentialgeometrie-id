@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-complete-reader-task-local-staging-v1",
+  "root": "build/complete-stage",
+  "authority_tree_untouched": true,
+  "generated_tree_source": {
+    "path": "build/generated",
+    "selected_file_count": 229,
+    "selection": "complete driver, its generated inputs, and complete generated media only"
+  },
+  "staged_generated_tree": {
+    "path": "build/complete-stage/build/generated",
+    "file_count": 229
+  },
+  "staged_authority_media": {
+    "path": "build/complete-stage/authority/media",
+    "selected_source_file_count": 38,
+    "excluded_sidecars": "*.download.json",
+    "staged_file_count": 40
+  },
+  "aliases": [
+    {
+      "source": {
+        "path": "build/complete-stage/authority/media/Torus vectors oblique.jpg",
+        "identity": {
+          "bytes": 251142,
+          "sha256": "cfcd0c5c16262a6beab6dd47dc27291b7ff3651228b2b9defc0717957ce5d3f6"
+        }
+      },
+      "target": {
+        "path": "build/complete-stage/authority/media/Torus_vectors_oblique.jpg",
+        "identity": {
+          "bytes": 251142,
+          "sha256": "cfcd0c5c16262a6beab6dd47dc27291b7ff3651228b2b9defc0717957ce5d3f6"
+        }
+      },
+      "role": "task-local Unit 10 underscore-normalized JPEG loader alias"
+    },
+    {
+      "source": {
+        "path": "build/complete-stage/authority/media/Georg Friedrich Bernhard Riemann.jpeg",
+        "identity": {
+          "bytes": 255626,
+          "sha256": "945240277e351b4deacc64e0a8e0cbb5c8398a5d13ae322eafb55bfae91cabc6"
+        }
+      },
+      "target": {
+        "path": "build/complete-stage/authority/media/Georg_Friedrich_Bernhard_Riemann.jpg",
+        "identity": {
+          "bytes": 255626,
+          "sha256": "945240277e351b4deacc64e0a8e0cbb5c8398a5d13ae322eafb55bfae91cabc6"
+        }
+      },
+      "role": "task-local Unit 16 underscore-normalized JPEG loader alias"
+    }
+  ]
+}

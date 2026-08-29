@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "workflow": "exam05-solutions-bounded-translation-qa-v1",
+  "status": "pass",
+  "provenance": {
+    "authority_source": {
+      "path": "authority/exams/expanded/exam05_solutions_source.de.tex",
+      "bytes": 31674,
+      "sha256": "b1118ffef263de471dd4965d34a3e1b5ebef8416898d7411056795945a6c0b5e"
+    },
+    "admitted_learner_prompt_source": {
+      "path": "source/exams/exam-05/exam05_learner.id.tex",
+      "bytes": 8900,
+      "sha256": "973cbcc3d40bbfd1870b2a50ec9423c1a9b85eedfe1e4c76e377868d7438cede"
+    },
+    "sanitizer_receipt": {
+      "path": "qa/exams/EXAM05_SOLUTIONS_SANITIZE.json",
+      "bytes": 1458,
+      "sha256": "d1a1a063f666e45de1f97812b746836b27d18eb1ca4e0c78b77a86b1b069d684"
+    },
+    "translation_verifier_receipt": {
+      "path": "qa/exams/EXAM05_SOLUTIONS_TRANSLATION_QA.json",
+      "bytes": 1054,
+      "sha256": "71b8e2a233c233d599c6458d9a980135cc98c8937cc4bbfcb0136f6d55666895"
+    },
+    "method": "official solution form with occurrence-ordered exact prompt splice; only supplied solution prose translated"
+  },
+  "target": {
+    "path": "source/exams/exam-05/exam05_solutions.id.tex",
+    "bytes": 31738,
+    "sha256": "76f0980e9fc5f399ce993206caefb17b40e11588e63cb1ac2b31d5e39b0ba2f1"
+  },
+  "census": {
+    "actual_occurrences": 14,
+    "supplied_solution_count": 13,
+    "supplied_solution_occurrences": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "missing_source_solution_occurrences": [
+      5
+    ],
+    "points_by_occurrence": [
+      "3",
+      "3",
+      "5",
+      "2",
+      "4",
+      "8",
+      "4",
+      "5",
+      "3",
+      "2",
+      "6",
+      "7 (2+3+2)",
+      "4",
+      "8"
+    ],
+    "point_total": 64,
+    "exact_admitted_prompt_matches": 14,
+    "wiki_link_occurrences": 6,
+    "wiki_link_sequence_sha256": "42e7cb0b85fa2d3a6ea6b46944265bbddb16d1b2fe7bfccf77b828641ff82770",
+    "residual_german_token_occurrences": 0,
+    "residual_german_umlaut_occurrences": 0
+  },
+  "checks": {
+    "actual_occurrence_count_is_14": true,
+    "solution_presence_sequence_preserved": true,
+    "sole_missing_source_solution_is_occurrence_5": true,
+    "missing_solution_argument_exactly_preserved": true,
+    "point_sequence_exactly_preserved": true,
+    "point_total_is_64": true,
+    "all_14_prompts_exactly_match_admitted_learner_form": true,
+    "full_wiki_link_sequence_exactly_preserved": true,
+    "wiki_link_destination_sequence_exactly_preserved": true,
+    "utf8_without_replacement_character": true,
+    "no_residual_german_prose_tokens_outside_comments_and_immutable_links": true,
+    "sanitizer_receipt_binds_authority_source": true,
+    "translation_verifier_passes_and_binds_final_target": true
+  }
+}

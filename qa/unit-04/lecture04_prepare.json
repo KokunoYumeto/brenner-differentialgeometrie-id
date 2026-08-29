@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "input": "source/units/unit-04/lecture04.id.tex",
-  "input_bytes": 28602,
-  "input_sha256": "60a7a2cbfc96a9a510bfff935f40722458c85031214eeaf8ccf4e8df2af2bc81",
+  "input_bytes": 28636,
+  "input_sha256": "456d30821bdaaa71736ddcbb6707b7d7de46ddbdbb81e9614ab982763f2d8b03",
   "output": "build/generated/lecture04.id.build.tex",
-  "output_bytes": 27171,
-  "output_sha256": "c68e1dd0a0b5ac4b9fc8ba7da0b376c7e1a06484bba839142fea5f318172ab5e",
+  "output_bytes": 27205,
+  "output_sha256": "ed1b9a5725ef188308e320d19b82ebac09dc51f018de67dd2b8ce02fe15679c7",
   "removed_category_links": 1,
   "removed_noedit_markers": 6,
   "trimmed_media_arguments": 0,
@@ -110,5 +110,6 @@
       "target": "Bilinearform/Symmetrisch/Polarisationsformel/Fakt",
       "label": "Lemma 38.10 (Lineare Algebra (Osnabrück 2024-2025))"
     }
-  ]
+  ],
+  "rendered_interactive_gif_links": []
 }

@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 15:25:00 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Reelle Ebene/Trivialer Zusammenhang/Vertikale Ableitung/Verknüpfung/1/Aufgabe/Lösung|Offene Menge/R^2/Krümmungsoperator/Standardvektorfelder/Explizit/1/Aufgabe/Lösung|Offene Menge/R^2/Krümmungsoperator/Standardvektorfelder/Explizit/2/Aufgabe/Lösung|Eindimensionale Mannigfaltigkeit/Vektorbündel/R/Lokal integrabel/Aufgabe/Lösung|Differenzierbare Mannigfaltigkeit/Vektorbündel/R/Rang 1/Satz von Frobenius/Aufgabe/Lösung|Reelle Ebene/Trivialer Zusammenhang/Vertikale Ableitung/Verknüpfung/2/Aufgabe/Lösung|Offene Menge/R^2/Krümmungsoperator/Standardvektorfelder/Explizit/3/Aufgabe/Lösung"
+  },
+  "response_bytes": 4605,
+  "response_path": "unit28_solution_pages_current.json",
+  "response_sha256": "5cedcd0a10e2809ce3a045e2682cf4d74d93014579d3c9816c0c6ec1c1c7ef28",
+  "retrieved_utc": "2026-08-28T15:24:59Z",
+  "schema_version": 1
+}

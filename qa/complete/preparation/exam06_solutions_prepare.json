@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "input": "source/exams/exam-06/exam06_solutions.id.tex",
+  "input_bytes": 31832,
+  "input_sha256": "295dae1737ee8e7a2a3d42c8c143314ca46541328e7eeb30cbc483c906bac7db",
+  "output": "build/generated/exams/exam06_solutions.id.build.tex",
+  "output_bytes": 30820,
+  "output_sha256": "2e22c86f8dff7dd7ade8d3d6f82ded2cf560fe440e29c091cfa0b704d09abb40",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 16,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Picard Lindelöf/Lokal Lipschitz/Lokale Existenz und Eindeutigkeit/Fakt",
+      "label": "Satz 56.2 (Analysis (Osnabrück 2021-2023))"
+    },
+    {
+      "target": "Totale Differenzierbarkeit/K/Kettenregel/Fakt",
+      "label": "Kettenregel"
+    },
+    {
+      "target": "Differentialform/Lokal/Zurückziehen unter partiell konstanter Abbildung/Fakt",
+      "label": "Korollar 14.10 (Differentialgeometrie (Osnabrück 2023))"
+    },
+    {
+      "target": "Sigmaendliche Räume/Satz von Fubini/Fakt",
+      "label": "Satzes von Fubini"
+    },
+    {
+      "target": "Riemann-Integral/Hauptsatz/Newton-Leibniz/Fakt",
+      "label": "Hauptsatzes der Infinitesimalrechnung"
+    },
+    {
+      "target": "Linearer Zusammenhang/Vertikale Ableitung/Längs Abbildung/Eigenschaften/Fakt",
+      "label": "Fakt"
+    },
+    {
+      "target": "Kurs:Differentialgeometrie/Linearer Zusammenhang/Vertikale Ableitung/Längs Abbildung/Eigenschaften/Fakt/Faktreferenznummer",
+      "label": "*****"
+    },
+    {
+      "target": "Halbebene/Poincaré/Riemannsche Geometrie/Christoffelsymbole/Beispiel",
+      "label": "Beispiel"
+    },
+    {
+      "target": "Kurs:Differentialgeometrie/Halbebene/Poincaré/Riemannsche Geometrie/Christoffelsymbole/Beispiel/Beispielreferenznummer",
+      "label": "*****"
+    }
+  ],
+  "wiki_link_resolution_passes": 1,
+  "rendered_interactive_gif_links": []
+}

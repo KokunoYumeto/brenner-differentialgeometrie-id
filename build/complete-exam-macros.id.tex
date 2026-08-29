@@ -1,0 +1,161 @@
+% Lokalisasi khusus permukaan pembaca untuk formulir ujian dalam edisi lengkap.
+% Nama perintah sumber dipertahankan; hanya teks yang dicetak yang dilokalkan.
+
+\renewcommand{\fachbereich}{Bidang studi}
+\renewcommand{\dozent}{Pengajar}
+\renewcommand{\klausurdatum}{Tanggal}
+\renewcommand{\klausurgebiet}{Matematika}
+\renewcommand{\klausurtyp}{Ujian}
+
+\renewcommand{\klausurmodus}{%
+Durasi: sepuluh menit untuk membaca dan dua jam penuh untuk mengerjakan.
+Alat bantu tidak diperbolehkan. Semua jawaban harus diberi alasan.
+
+Jumlah poin seluruhnya $64$. Berlaku aturan ambang dasar, yakni penilaian
+untuk setiap soal atau bagian soal pada umumnya dimulai pada separuh jumlah
+poin. Untuk lulus diperlukan $16$ poin; mulai $32$ poin diperoleh nilai satu.
+
+Tuliskan nama dan nomor mahasiswa Anda dengan jelas pada lembar sampul dan
+setiap lembar berikutnya. Semoga berhasil!}
+
+\renewcommand{\testklausurmodus}{\klausurmodus}
+
+\renewcommand{\klausurname}{%
+\renewcommand{\arraystretch}{1.5}%
+\begin{tabular}{@{}p{3.2cm}p{10cm}}
+Nama lengkap: &
+..................................................................................\\
+Nomor mahasiswa: &
+..................................................................................\\
+\end{tabular}}
+
+\renewcommand{\klausurvorspann}[5]{%
+\begin{tabular}{@{}p{3.2cm}p{10cm}}
+Bidang studi: & #1\\
+Tanggal: & #2\\
+Pengajar: & #3
+\end{tabular}
+\vspace{3ex}
+
+\begin{center}
+{\bfseries\large Ujian\\#4\ #5}
+\end{center}
+
+\vspace{2ex}
+\klausurmodus
+\vspace{2ex}
+\klausurname\par}
+
+\renewcommand{\testklausurvorspann}[5]{\klausurvorspann{#1}{#2}{#3}{#4}{#5}}
+\renewcommand{\klausurmitloesungenvorspann}[5]{%
+\klausurvorspann{#1}{#2}{#3}{#4}{#5}
+\begin{center}\bfseries Formulir dengan solusi\end{center}}
+
+\renewcommand{\klausurnote}{%
+\begin{tabular}{@{}p{3.2cm}p{10cm}}Nilai: & \end{tabular}}
+
+\renewcommand{\klausurtaeuschungwarnung}{%
+\vspace{2ex}%
+Saya memahami bahwa pelanggaran berat terhadap aturan ujian dapat membatalkan
+seluruh komponen penilaian dalam mata kuliah ini. Penggunaan literatur atau
+alat bantu elektronik termasuk pelanggaran berat.
+\vspace{1ex}}
+
+\renewcommand{\klausureinverstaendnis}{%
+\vspace{2ex}
+Dengan tanda tangan saya, saya menyetujui bahwa hasil ujian dapat diumumkan
+bersama nomor mahasiswa saya.
+\vspace{1ex}
+
+\begin{tabular}{@{}p{3.2cm}p{10cm}}
+Tanda tangan: &
+.....................................................................................
+\end{tabular}}
+
+\renewcommand{\inputaufgabeklausurloesung}[3]{%
+\par\newpage
+\begin{aufgabe}
+{\ifthenelse{\equal{#1}{}}{}{\ifthenelse{\equal{#1}{1}}{(1 poin)}{(#1 poin)}}}%
+\par\bigskip #2
+\end{aufgabe}
+\underline{Solusi:}\par\bigskip #3}
+
+\renewcommand{\inputaufgabeloesung}[2]{%
+\begin{aufgabe}#1\end{aufgabe}\aufgabenachskip
+\bigskip
+Solusi
+\bigskip #2}
+
+\renewcommand{\inputaufgabeloesungvar}[2]{%
+\aufgabevorskip Soal: #1\aufgabenachskip Solusi: #2}
+
+\renewcommand{\inputaufgabepunkteloesung}[3]{%
+\aufgabevorskip
+\begin{aufgabe}
+{\ifthenelse{\equal{#1}{}}{}{\ifthenelse{\equal{#1}{1}}{(1 poin)}{(#1 poin)}}}%
+\aufgabepunktskip #2
+\end{aufgabe}
+\aufgabenachskip\loesung{#3}}
+
+\renewcommand{\inputaufgabepunktenummervonhand}[3]{%
+\aufgabevorskip{\bfseries Soal #1} (#2 poin)\aufgabepunktskip #3\aufgabenachskip}
+
+\renewcommand{\loesung}[1]{\underline{Solusi:} #1}
+
+% Delapan formulir sumber memakai huruf penampung K sebagai nilai penghitung
+% bagian. Pertahankan byte formulir dan tafsirkan penampung itu sebagai awal
+% penomoran hanya pada lapisan kompilasi pembaca.
+\let\OExamOriginalSetCounter\setcounter
+\renewcommand{\setcounter}[2]{%
+\ifthenelse{\equal{#1}{bagian}}%
+  {\OExamOriginalSetCounter{section}{#2}}%
+  {\ifthenelse{\equal{#1}{section}}%
+  {\ifthenelse{\equal{#2}{K}}{\OExamOriginalSetCounter{section}{0}}{\OExamOriginalSetCounter{#1}{#2}}}%
+  {\OExamOriginalSetCounter{#1}{#2}}}}
+
+\newcommand{\OExamPointTable}[4]{%
+\vspace{3ex}
+\begin{center}
+\begingroup
+\scriptsize
+\renewcommand{\arraystretch}{1.45}%
+\setlength{\tabcolsep}{0.35ex}%
+\begin{tabular}{@{}|l|*{#1}{c|}c|}
+\hline
+Soal & #2 & Jumlah\\ \hline
+Maks. & #3 & #4\\ \hline
+Diperoleh & \multicolumn{#1}{c|}{} & \\ \hline
+\end{tabular}
+\endgroup
+\end{center}
+\vspace{2ex}}
+
+\renewcommand{\punktetabelleelf}{%
+\OExamPointTable{11}%
+{1&2&3&4&5&6&7&8&9&10&11}%
+{\aeins&\azwei&\adrei&\avier&\afuenf&\asechs&\asieben&\aacht&\aneun&\azehn&\aelf}%
+{\azwoelf}}
+
+\renewcommand{\punktetabelledreizehn}{%
+\OExamPointTable{13}%
+{1&2&3&4&5&6&7&8&9&10&11&12&13}%
+{\aeins&\azwei&\adrei&\avier&\afuenf&\asechs&\asieben&\aacht&\aneun&\azehn&\aelf&\azwoelf&\adreizehn}%
+{\avierzehn}}
+
+\renewcommand{\punktetabellevierzehn}{%
+\OExamPointTable{14}%
+{1&2&3&4&5&6&7&8&9&10&11&12&13&14}%
+{\aeins&\azwei&\adrei&\avier&\afuenf&\asechs&\asieben&\aacht&\aneun&\azehn&\aelf&\azwoelf&\adreizehn&\avierzehn}%
+{\afuenfzehn}}
+
+\renewcommand{\punktetabellesechzehn}{%
+\OExamPointTable{16}%
+{1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16}%
+{\aeins&\azwei&\adrei&\avier&\afuenf&\asechs&\asieben&\aacht&\aneun&\azehn&\aelf&\azwoelf&\adreizehn&\avierzehn&\afuenfzehn&\asechzehn}%
+{\asiebzehn}}
+
+\renewcommand{\punktetabellesiebzehn}{%
+\OExamPointTable{17}%
+{1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17}%
+{\aeins&\azwei&\adrei&\avier&\afuenf&\asechs&\asieben&\aacht&\aneun&\azehn&\aelf&\azwoelf&\adreizehn&\avierzehn&\afuenfzehn&\asechzehn&\asiebzehn}%
+{\aachtzehn}}

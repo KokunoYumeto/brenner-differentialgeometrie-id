@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-29/worksheet29.id.tex",
+  "input_bytes": 2090,
+  "input_sha256": "00aa6620956475bde67bb608b711f12edf1e8fcbf91900d2bd026be0235f0b31",
+  "output": "build/generated/worksheet29.id.build.tex",
+  "output_bytes": 1728,
+  "output_sha256": "8511fdb340018b3fb42fa66b835a39832ca0ff36b871326bea9f05c84f18b6ea",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Mannigfaltigkeit/Tangentialbündel trivial/Riemannsche Struktur/Aufgabe",
+      "label": "Soal 16.2"
+    },
+    {
+      "target": "R^n/Offene Menge/Riemannsche Metrik/Levi-Civita-Zusammenhang/Krümmungsoperator/Berechnung/Fakt",
+      "label": "Lemma 29.1"
+    },
+    {
+      "target": "Kreis/Induzierte riemannsche Struktur/Triviale riemannsche Struktur/Aufgabe",
+      "label": "Soal 16.3"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Produktmannigfaltigkeit/Eigenschaften/Aufgabe",
+      "label": "Soal 16.4"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

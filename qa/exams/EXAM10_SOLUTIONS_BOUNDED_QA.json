@@ -1,0 +1,106 @@
+{
+  "schema_version": 1,
+  "source": "authority/exams/expanded/exam10_solutions_source.de.tex",
+  "source_bytes": 36515,
+  "source_sha256": "d00815419d80779ec715cb71e11f3433dd599c4e18964602c104a6c6681af870",
+  "learner_prompt_source": "source/exams/exam-10/exam10_learner.id.tex",
+  "learner_prompt_source_bytes": 9540,
+  "learner_prompt_source_sha256": "989b0d2f8f6cc963b5e91537e811dc28a9cdea709a636a7843d69d0b9f257791",
+  "target": "source/exams/exam-10/exam10_solutions.id.tex",
+  "target_bytes": 36394,
+  "target_sha256": "32a61474c2bc1de6c9deab27b7887f30f1636b5b5b21fd3678560e9780fd7678",
+  "checks": {
+    "solution_form_occurrence_count_equal": true,
+    "actual_occurrence_count_is_11": true,
+    "points_exact_in_occurrence_order": true,
+    "point_total_is_65": true,
+    "learner_prompt_arguments_byte_exact_in_occurrence_order": true,
+    "source_solution_presence_preserved": true,
+    "single_actual_source_missing_solution_preserved_at_occurrence_4": true,
+    "zero_point_placeholders_preserved": true,
+    "link_destination_sequence_exact": true,
+    "residual_german_reader_prose_lexicon_clear": true,
+    "utf8_without_replacement_character": true,
+    "exact_translation_verifier_receipt_bound_to_target": true
+  },
+  "occurrences": {
+    "all_count": 14,
+    "actual_count": 11,
+    "actual_indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      8,
+      9,
+      11,
+      12,
+      14
+    ],
+    "zero_point_placeholder_indices": [
+      6,
+      10,
+      13
+    ],
+    "source_solution_indices": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      8,
+      9,
+      11,
+      12,
+      14
+    ],
+    "target_solution_indices": [
+      1,
+      2,
+      3,
+      5,
+      7,
+      8,
+      9,
+      11,
+      12,
+      14
+    ],
+    "actual_missing_source_solution_indices": [
+      4
+    ]
+  },
+  "points": {
+    "ordered_arguments": [
+      "3",
+      "3",
+      "6 (2+4)",
+      "4",
+      "5",
+      "0",
+      "5",
+      "6 (2+2+2)",
+      "6",
+      "0",
+      "6",
+      "12",
+      "0",
+      "9 (1+1+3+2+2)"
+    ],
+    "actual_total": 65
+  },
+  "links": {
+    "source_destination_count": 11,
+    "target_destination_count": 11,
+    "comparison": "exact ordered string equality"
+  },
+  "residual_german_scan": {
+    "scope": "reader prose after excluding comments, TeX command names, and MediaWiki link bodies",
+    "case_insensitive_lexicon_size": 52,
+    "matches": {}
+  },
+  "status": "pass",
+  "failures": []
+}

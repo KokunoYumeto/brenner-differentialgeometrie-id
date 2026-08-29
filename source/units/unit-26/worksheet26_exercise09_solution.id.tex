@@ -1,0 +1,281 @@
+Pernyataan ini bersifat lokal; oleh karena itu, tanpa mengurangi keumuman, misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{  \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dilengkapi dengan suatu struktur Riemann melalui fungsi-fungsi
+\mathl{g_{ij}}{.} Hipotesis menyatakan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle \nabla_{\partial_i} \partial_j  ,  \partial_k   \right\rangle  + \left\langle  \partial_j  ,  \nabla_{\partial_i} \partial_k   \right\rangle
+}
+{ =} { \partial_i g_{jk}
+}
+{ } {
+}
+{ } {
+}
+{ } {}
+}
+{}{}{.}
+Dalam bahasa simbol Christoffel,
+
+\mavergleichskettedisp
+{\vergleichskette
+{  \left\langle \nabla_{\partial_i} \partial_j   ,  \partial_k   \right\rangle
+}
+{ =} { \left\langle  \sum_{\ell = 1}^n \Gamma^\ell_{ij}  \partial_\ell   ,  \partial_k   \right\rangle
+}
+{ =} {   \sum_{\ell = 1}^n \Gamma^\ell_{ij}   g_{ \ell k}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{  \left\langle  \partial_j   ,  \nabla_{\partial_i} \partial_k   \right\rangle
+}
+{ =} { \left\langle  \partial_j   ,  \sum_{\ell = 1}^n \Gamma^\ell_{ik}  \partial_\ell     \right\rangle
+}
+{ =} {  \sum_{\ell = 1}^n \Gamma^\ell_{ik}   g_{ \ell j}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+sehingga syarat tersebut menyatakan
+
+\mavergleichskettedisp
+{\vergleichskette
+{   \sum_{\ell = 1}^n \Gamma^\ell_{ij}   g_{ \ell k} +\sum_{\ell = 1}^n \Gamma^\ell_{ik}   g_{ \ell j}
+}
+{ =} {   \partial_i g_{jk}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Kita harus menunjukkan bahwa
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D_V \left\langle  W  , Z  \right\rangle
+}
+{ =} { \left\langle \nabla_V W , Z  \right\rangle  + \left\langle  W  ,  \nabla_VZ  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk medan-medan vektor $V,W,Z$ sembarang yang terdiferensialkan secara kontinu, yang masing-masing dapat ditulis sebagai
+\mathl{\sum_{i = 1}^nf_i \partial_i}{} dengan fungsi-fungsi yang terdiferensialkan secara kontinu. Pertama, misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ = }{ \partial_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ W
+}
+{ =} { \sum_{j = 1}^nf_j \partial_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Z
+}
+{ =} { \sum_{k = 1}^n h_k \partial_k
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Hasil kali skalar aditif dalam komponen-komponennya dan $\nabla_{\partial_i}$ juga aditif karena yang diberikan adalah koneksi linear. Demikian pula,
+
+\mavergleichskette
+{\vergleichskette
+{ D_{\partial_i}
+}
+{ = }{ \partial_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bersifat aditif. Karena itu, cukup kita batasi pada medan-medan berbentuk
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ = }{ f  \partial_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Z
+}
+{ = }{ h  \partial_k
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan $j,k$ tetap. Untuk ruas kiri diperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{  \partial_i \left\langle f \partial_j  ,  h \partial_k   \right\rangle
+}
+{ =} { \partial_i \left(  fh g_{jk}  \right)
+}
+{ =} {  fg_{jk} \partial_i(h) + hg_{jk} \partial_i(f)   +  fh \partial_i \left(  g_{jk}   \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Menurut
+[[Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt|fakta tentang deskripsi lokal koneksi linear]],
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i} \left(  f \partial_j  \right)
+}
+{ =} {  \left(  \partial_i f  \right) \partial_j + f \nabla_{\partial_i }\partial_j
+}
+{ =} { \left(  \partial_i f  \right) \partial_j + f \left(  \sum_{ \ell = 1}^n \Gamma^\ell_{ij} \partial_\ell   \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i} \left(  h \partial_k  \right)
+}
+{ =} { \left(  \partial_i h  \right) \partial_k + h \nabla_{\partial_i }\partial_k
+}
+{ =} { \left(  \partial_i h  \right) \partial_k  + h \left(  \sum_{ \ell = 1}^n \Gamma^\ell_{ik} \partial_\ell   \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Jadi,
+
+\mavergleichskettealign
+{\vergleichskettealign
+{  \left\langle  \nabla_{\partial_i} \left(  f \partial_j  \right)   ,  h \partial_k  \right\rangle
+}
+{ =} {  \left\langle  \left(  \partial_i f  \right) \partial_j  + f \left(  \sum_{ \ell = 1}^n \Gamma^\ell_{ij} \partial_\ell   \right)   ,  h \partial_k  \right\rangle
+}
+{ =} { h \left(   \partial_i f  \right) \left\langle   \partial_j  ,  \partial_k   \right\rangle +fh \sum_{ \ell = 1}^n   \Gamma_{ij}^\ell \left\langle          \partial_\ell   ,  \partial_k   \right\rangle
+}
+{ =} { h \left(   \partial_i f  \right)  g_{j k} +fh \sum_{ \ell = 1}^n   \Gamma_{ij}^\ell  g_{\ell k }
+}
+{ } {
+}
+}
+{}
+{}{}
+dan
+
+\mavergleichskettealign
+{\vergleichskettealign
+{  \left\langle f \partial_j  ,  \nabla_{\partial_i} \left(  h \partial_k  \right)   \right\rangle
+}
+{ =} { \left\langle  f\partial_j  ,  \left(  \partial_i h \right) \partial_k  + h \left(  \sum_{ \ell = 1}^n \Gamma^\ell_{ik} \partial_\ell   \right)    \right\rangle
+}
+{ =} {   f \left(   \partial_i h  \right)  g_{j k} +fh \sum_{ \ell = 1}^n   \Gamma_{ik}^\ell  g_{\ell j }
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+Jumlah kedua suku ini sama dengan ruas kiri.
+
+Kedua ruas linear terhadap medan arah $V$ dan juga kompatibel dengan perkalian oleh fungsi.
+
+ [[Kategorie:Latexseite]]

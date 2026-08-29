@@ -1,0 +1,69 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+a) Es ist
+{{
+Relationskette/align
+|d \omega
+|| d {{makl| x dy \wedge dz  -y dx \wedge dz +  z dx \wedge dy|}} 
+|| dx \wedge dy \wedge dz - dy \wedge dx \wedge dz + d z \wedge dx \wedge dy
+|| dx \wedge dy \wedge dz + dx \wedge dy \wedge dz + d x \wedge dy \wedge dz
+|| 3 d x \wedge dy \wedge dz
+|SZ=,
+}}
+wobei wir verwendet haben, dass sich das Vorzeichen bei der Vertauschung von Faktoren im Dachprodukt ändert.
+
+b) Für einen Punkt {{mathl|term= P = {{op:Spaltenvektor| x | y | z |}}  \in S^2 |SZ=}} und zwei orthonormale, 
+{{
+Zusatz/Klammer
+|text=zusammen mit {{math|term= P |SZ=}} |
+|ISZ=|ESZ=
+}}
+die Orientierung repräsentierende Tangentialvektoren {{mathl|term= u= {{op:Spaltenvektor|u_1 |u_2 |u_3 |}} |SZ=}} und {{mathl|term= v= {{op:Spaltenvektor|v_1 |v_2 |v_3 |}} |SZ=}} ist nach
+{{
+Faktlink
+|Faktseitenname=
+Dachprodukt/Natürliche Dualität/Endlichdimensional/Fakt
+|Nr=
+|SZ=
+}}
+
+{{
+Relationskette/align
+| \omega \vert_{S^2}  (u,v)
+|| \omega (u,v)
+|| z {{op:Determinante| {{op:Matrix22|u_1 |v_1 |u_2 |v_2 |}} }} - y {{op:Determinante| {{op:Matrix22|u_1 |v_1 |u_3 |v_3 |}} }} + x {{op:Determinante| {{op:Matrix22|u_2 |v_2 |u_3 |v_3 |}} }}
+|| {{op:Determinante| {{op:Matrix33| x |u_1 |v_1 | y |u_2 |v_2 | z |u_3 |v_3 |}} }}
+||
+|SZ=.
+}}
+Die Determinante eines die Orientierung repräsentierenden Orthonormalsystems ist aber {{math|term= 1 |SZ=.}} Also erfüllt die eingeschränkte Differentialform die Eigenschaft, die die 
+{{
+Definitionslink
+|Standardvolumenform|
+|Kontext=|
+|SZ=
+}}
+charakterisiert.
+
+c) Die Oberfläche der Kugel ist unter Verwendung von a), b), des Satzes von Stokes und des Kugelvolumens gleich
+{{
+Relationskette/display
+| \int_{S^2} \omega
+|| \int_{ {{op:Abgeschlossener Ball| 0| 1}}  }  d \omega
+|| \int_{ {{op:Abgeschlossener Ball| 0| 1}}  } 3 d x \wedge dy \wedge dz
+|| 3 \lambda^3 (   {{op:Abgeschlossener Ball| 0| 1}}     )
+|| 4 \pi
+||
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Kategorie3=
+|Objektkategorie=
+|Stichwort=
+|Aufgabe=
+|Autor=
+|Bearbeitungsstand=
+}}

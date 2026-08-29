@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "source": "authority/exams/expanded/exam10_solutions_source.de.tex",
+  "source_bytes": 36515,
+  "source_sha256": "d00815419d80779ec715cb71e11f3433dd599c4e18964602c104a6c6681af870",
+  "target": "source/exams/exam-10/exam10_solutions.id.tex",
+  "target_bytes": 36394,
+  "target_sha256": "32a61474c2bc1de6c9deab27b7887f30f1636b5b5b21fd3678560e9780fd7678",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 1449,
+    "environments": 112,
+    "inline_math": 87,
+    "display_math": 0,
+    "protected_calls": 99
+  },
+  "status": "pass",
+  "failures": [],
+  "declared_corrections": [
+    "O011-EXAM10-SOLUTIONS-TRANS-0001",
+    "O011-EXAM10-SOLUTIONS-TRANS-0002",
+    "O011-EXAM10-SOLUTIONS-TRANS-0003"
+  ],
+  "evidence_only_results": []
+}

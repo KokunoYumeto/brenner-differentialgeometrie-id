@@ -4,8 +4,8 @@
   "source_bytes": 2633,
   "source_sha256": "76a2f5db7eb835b19b924418ae2c1b0cfbcd8cd2d5acc387f695f71cbb069a35",
   "target": "source/units/unit-04/worksheet04_exercise10_solution.id.tex",
-  "target_bytes": 2661,
-  "target_sha256": "a5d22c14d32b03265e532b34636da4d656d838cefe268c92d1ac3ec1ebd27de4",
+  "target_bytes": 2663,
+  "target_sha256": "87c65a52f982f32483c8747b0825b5b628c28127bc8b7892509d68f916f383d5",
   "checks": {
     "utf8_without_replacement_character": true,
     "command_sequence_equal_or_declared": true,
@@ -27,11 +27,6 @@
   "status": "pass",
   "failures": [],
   "declared_corrections": [
-    "O011-CORR-0040",
-    "O011-CORR-0040",
-    "O011-CORR-0040",
-    "O011-CORR-0040",
-    "O011-CORR-0040",
     "O011-CORR-0040"
   ],
   "evidence_only_results": []

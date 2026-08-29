@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-25/lecture25.id.tex",
+  "input_bytes": 21074,
+  "input_sha256": "076e00279e59e6d9c7c59e3f27f21eb3b47dc4016699c407420bad3ced179639",
+  "output": "build/generated/lecture25.id.build.tex",
+  "output_bytes": 19678,
+  "output_sha256": "cfd86a6c9586a7c7d69fee45723cd5ee2d1315fa689e6a92f7d9fb367703d5fb",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 5,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontaler Schnitt/Vertikale Ableitung/Fakt/Beweis/Aufgabe",
+      "label": "Soal 25.4"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Längs Abbildung/Horizontaler Schnitt/Vertikale Ableitung/Aufgabe",
+      "label": "Soal 25.5"
+    },
+    {
+      "target": "Totale Differenzierbarkeit/R/Produktregel/Fakt",
+      "label": "aturan hasil kali"
+    },
+    {
+      "target": "Mannigfaltigkeit/Linearer Zusammenhang/Nullschnitt horizontal/Aufgabe",
+      "label": "Soal 25.9"
+    },
+    {
+      "target": "Mannigfaltigkeit/Trivialer Zusammenhang/Linear/Aufgabe",
+      "label": "Soal 25.10"
+    },
+    {
+      "target": "Mannigfaltigkeit/Abzählbare Basis/Überdeckung/Partition/Fakt",
+      "label": "Teorema 22.10"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Partition der Eins/Aufgabe",
+      "label": "Soal 25.16"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Leibnizregel/Fakt",
+      "label": "aturan Leibniz"
+    },
+    {
+      "target": "Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt",
+      "label": "Lema 25.10"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Ableitung bezüglich Vektorfeld/Eigenschaften/Fakt",
+      "label": "Lema 24.10"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Leibnizregel/Fakt",
+      "label": "Teorema 25.5"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontale Liftung/Übereinstimmung/Aufgabe",
+      "label": "Soal 25.21"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Global integrabel/Globale Trivialisierung/Aufgabe",
+      "label": "Soal 25.6"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Leibnizregel/Fakt",
+      "label": "Teorema 25.5"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Horizontale Schnitte/Untervektorraum/Fakt",
+      "label": "Lema 25.11"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

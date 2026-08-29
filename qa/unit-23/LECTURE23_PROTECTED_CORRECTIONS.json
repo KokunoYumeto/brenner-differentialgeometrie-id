@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-23/lecture23.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-CORR-0312",
+      "anchor": "second Brouwer illustration loader in Lecture 23",
+      "change": "Replace the source loader's unaccented Theoreme filename with the exact licensed Commons filename Théorème-de-Brouwer-(cond-1).jpg; the source license macro already names that canonical file."
+    },
+    {
+      "correction_id": "O011-ACC-0313",
+      "anchor": "two Brouwer illustrations whose source caption fields are empty",
+      "change": "Add concise Indonesian accessibility captions while preserving both admitted image binaries and their file-specific CC BY-SA 3.0 attribution."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-CORR-0312",
+      "surface": "profile:protected:includegraphics",
+      "source_sha256": "78cee2186d994ec82f438658750d2d7e94d1d59eb283cf7199f986a8448dee98",
+      "target_sha256": "96daa19f8addf814076b54d93810be2e0cd22d518d8ee05ebef0f4389f92d6f8"
+    },
+    {
+      "correction_id": "O011-CORR-0312",
+      "surface": "profile:protected:bildeinlesungjpg",
+      "source_sha256": "a47a05c569236ba7a1241456b22d307d0805ca505046335a533064df9e0dd5c6",
+      "target_sha256": "81a58b8bd50b072c28853cb01341b44a694ba17916937c1543c1aab630cecc02"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-CORR-0312",
+      "surface": "command:includegraphics",
+      "occurrence_index": 2,
+      "source_sha256": "7454de20c6d5c75da4e08be75ddc512a0b89f5d44e81397357a32ada3b242c07",
+      "target_sha256": "f532ae0646525d19b916236a8ab10bf6d932885e85860d6a38c7bc92176e515f"
+    },
+    {
+      "correction_id": "O011-CORR-0312",
+      "surface": "command:bildeinlesungjpg",
+      "occurrence_index": 2,
+      "source_sha256": "422f909d44c98de2ec06ff32a0a23859b537a9487c7fe7316ab2cb4fe1473cf3",
+      "target_sha256": "527707e7e8355a5b1228a6f0abbca4818c962cbddcab880cbf9a46a2f257e1e0"
+    },
+    {
+      "correction_id": "O011-ACC-0313",
+      "surface": "command:bildtext",
+      "occurrence_index": 1,
+      "source_sha256": "2267558a19f5e401b0c8de10183fcfe603304f8752f8928634295faf831d4733",
+      "target_sha256": "fd8962224194b83fac2a796fe452c5a2b314acbc6cbd2624e2a30b3a2f42cd9d"
+    },
+    {
+      "correction_id": "O011-ACC-0313",
+      "surface": "command:bildtext",
+      "occurrence_index": 2,
+      "source_sha256": "2267558a19f5e401b0c8de10183fcfe603304f8752f8928634295faf831d4733",
+      "target_sha256": "5abbe743385ca147597b70cac740745712e810eb967bd8ed0f167ac26b7c2d00"
+    }
+  ]
+}

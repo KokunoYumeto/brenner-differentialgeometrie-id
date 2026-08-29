@@ -1,0 +1,1342 @@
+{
+  "actual_problem_occurrences": 123,
+  "census_matches_selection_evidence": true,
+  "control_pages": {
+    "pages": {
+      "Kurs:Differentialgeometrie/1/Klausur": {
+        "missing": false,
+        "pageid": 151765,
+        "revid": 907011,
+        "sha1": "18400f9e2baac0f0209aabdbcb178e2dea9d4e1d",
+        "timestamp": "2023-07-17T14:26:35Z"
+      },
+      "Kurs:Differentialgeometrie/1/Klausur mit Lösungen": {
+        "missing": false,
+        "pageid": 151770,
+        "revid": 1015145,
+        "sha1": "65d8ed3761ed4c3407cde8c0dd4084f5e46a2ef7",
+        "timestamp": "2025-08-08T16:37:21Z"
+      },
+      "Kurs:Differentialgeometrie/1/Klausur mit Lösungen/latex": {
+        "missing": false,
+        "pageid": 153314,
+        "revid": 909720,
+        "sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "timestamp": "2023-08-15T10:10:23Z"
+      },
+      "Kurs:Differentialgeometrie/1/Klausur/latex": {
+        "missing": false,
+        "pageid": 153303,
+        "revid": 909596,
+        "sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "timestamp": "2023-08-14T10:58:59Z"
+      },
+      "Kurs:Differentialgeometrie/10/Klausur": {
+        "missing": false,
+        "pageid": 151800,
+        "revid": 907056,
+        "sha1": "ce5eb7d184fec1c074d6208606be8a312f940efb",
+        "timestamp": "2023-07-18T07:43:03Z"
+      },
+      "Kurs:Differentialgeometrie/10/Klausur mit Lösungen": {
+        "missing": false,
+        "pageid": 151805,
+        "revid": 1015150,
+        "sha1": "63fc14cdb9754ad4c5f4f4f11cd3ec25350f60b0",
+        "timestamp": "2025-08-08T16:38:21Z"
+      },
+      "Kurs:Differentialgeometrie/10/Klausur mit Lösungen/latex": {
+        "missing": false,
+        "pageid": 153323,
+        "revid": 909729,
+        "sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "timestamp": "2023-08-15T10:11:56Z"
+      },
+      "Kurs:Differentialgeometrie/10/Klausur/latex": {
+        "missing": false,
+        "pageid": 153312,
+        "revid": 909605,
+        "sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "timestamp": "2023-08-14T11:00:28Z"
+      },
+      "Kurs:Differentialgeometrie/2/Klausur": {
+        "missing": false,
+        "pageid": 151766,
+        "revid": 905519,
+        "sha1": "7fe57f2f9e071c8961963e706902f05c4d6abec1",
+        "timestamp": "2023-07-09T17:42:58Z"
+      },
+      "Kurs:Differentialgeometrie/2/Klausur mit Lösungen": {
+        "missing": false,
+        "pageid": 151771,
+        "revid": 1015156,
+        "sha1": "50b9c0fc29d0e38890e7e53bc0c720add3a1d52a",
+        "timestamp": "2025-08-08T16:39:21Z"
+      },
+      "Kurs:Differentialgeometrie/2/Klausur mit Lösungen/latex": {
+        "missing": false,
+        "pageid": 153315,
+        "revid": 909721,
+        "sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "timestamp": "2023-08-15T10:10:39Z"
+      },
+      "Kurs:Differentialgeometrie/2/Klausur/latex": {
+        "missing": false,
+        "pageid": 153304,
+        "revid": 909597,
+        "sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "timestamp": "2023-08-14T10:59:09Z"
+      },
+      "Kurs:Differentialgeometrie/3/Klausur": {
+        "missing": false,
+        "pageid": 151767,
+        "revid": 906773,
+        "sha1": "c81cc365b0b793b52a939ac99503ae76db5857ea",
+        "timestamp": "2023-07-17T12:29:39Z"
+      },
+      "Kurs:Differentialgeometrie/3/Klausur mit Lösungen": {
+        "missing": false,
+        "pageid": 151772,
+        "revid": 1015162,
+        "sha1": "2f8bba85f635ab7d5efa1d4a88a26c4327648e7a",
+        "timestamp": "2025-08-08T16:40:21Z"
+      },
+      "Kurs:Differentialgeometrie/3/Klausur mit Lösungen/latex": {
+        "missing": false,
+        "pageid": 153316,
+        "revid": 909722,
+        "sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "timestamp": "2023-08-15T10:10:49Z"
+      },
+      "Kurs:Differentialgeometrie/3/Klausur/latex": {
+        "missing": false,
+        "pageid": 153305,
+        "revid": 909598,
+        "sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "timestamp": "2023-08-14T10:59:19Z"
+      },
+      "Kurs:Differentialgeometrie/4/Klausur": {
+        "missing": false,
+        "pageid": 151768,
+        "revid": 905521,
+        "sha1": "1a6e42ac748c097be942e8dbeb64e6dcc44c849f",
+        "timestamp": "2023-07-09T17:45:20Z"
+      },
+      "Kurs:Differentialgeometrie/4/Klausur mit Lösungen": {
+        "missing": false,
+        "pageid": 151773,
+        "revid": 1015167,
+        "sha1": "f15440b92bef1916bbc94811b433b91aeafc577c",
+        "timestamp": "2025-08-08T16:41:21Z"
+      },
+      "Kurs:Differentialgeometrie/4/Klausur mit Lösungen/latex": {
+        "missing": false,
+        "pageid": 153317,
+        "revid": 909723,
+        "sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "timestamp": "2023-08-15T10:10:59Z"
+      },
+      "Kurs:Differentialgeometrie/4/Klausur/latex": {
+        "missing": false,
+        "pageid": 153307,
+        "revid": 909600,
+        "sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "timestamp": "2023-08-14T10:59:39Z"
+      },
+      "Kurs:Differentialgeometrie/5/Klausur": {
+        "missing": false,
+        "pageid": 151769,
+        "revid": 907121,
+        "sha1": "3feb6fb578d0a10fc406ba4266c8357ce89a9d7d",
+        "timestamp": "2023-07-18T12:49:27Z"
+      },
+      "Kurs:Differentialgeometrie/5/Klausur mit Lösungen": {
+        "missing": false,
+        "pageid": 151774,
+        "revid": 1015172,
+        "sha1": "ae22de6a7a75c2338691f5b25b6f3a5f6e87e3b3",
+        "timestamp": "2025-08-08T16:42:21Z"
+      },
+      "Kurs:Differentialgeometrie/5/Klausur mit Lösungen/latex": {
+        "missing": false,
+        "pageid": 153318,
+        "revid": 909724,
+        "sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "timestamp": "2023-08-15T10:11:08Z"
+      },
+      "Kurs:Differentialgeometrie/5/Klausur/latex": {
+        "missing": false,
+        "pageid": 153306,
+        "revid": 909599,
+        "sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "timestamp": "2023-08-14T10:59:29Z"
+      },
+      "Kurs:Differentialgeometrie/6/Klausur": {
+        "missing": false,
+        "pageid": 151796,
+        "revid": 906356,
+        "sha1": "65524d8bb8608133dd178f78c3bfd7ecfe816652",
+        "timestamp": "2023-07-14T09:47:37Z"
+      },
+      "Kurs:Differentialgeometrie/6/Klausur mit Lösungen": {
+        "missing": false,
+        "pageid": 151801,
+        "revid": 1015177,
+        "sha1": "8c24f7af1d2eee4e3fd4ed8ac44360a93cb37a8d",
+        "timestamp": "2025-08-08T16:43:21Z"
+      },
+      "Kurs:Differentialgeometrie/6/Klausur mit Lösungen/latex": {
+        "missing": false,
+        "pageid": 153319,
+        "revid": 909725,
+        "sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "timestamp": "2023-08-15T10:11:19Z"
+      },
+      "Kurs:Differentialgeometrie/6/Klausur/latex": {
+        "missing": false,
+        "pageid": 153308,
+        "revid": 909601,
+        "sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "timestamp": "2023-08-14T10:59:48Z"
+      },
+      "Kurs:Differentialgeometrie/7/Klausur": {
+        "missing": false,
+        "pageid": 151797,
+        "revid": 899640,
+        "sha1": "5aa5d66800a857b1d7452cf0edf404500db1dd81",
+        "timestamp": "2023-06-24T13:45:56Z"
+      },
+      "Kurs:Differentialgeometrie/7/Klausur mit Lösungen": {
+        "missing": false,
+        "pageid": 151802,
+        "revid": 1015183,
+        "sha1": "6fc1bc16efe01e4805207d7494988584d39e6ad9",
+        "timestamp": "2025-08-08T16:44:21Z"
+      },
+      "Kurs:Differentialgeometrie/7/Klausur mit Lösungen/latex": {
+        "missing": false,
+        "pageid": 153320,
+        "revid": 909726,
+        "sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "timestamp": "2023-08-15T10:11:29Z"
+      },
+      "Kurs:Differentialgeometrie/7/Klausur/latex": {
+        "missing": false,
+        "pageid": 153309,
+        "revid": 909602,
+        "sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "timestamp": "2023-08-14T10:59:57Z"
+      },
+      "Kurs:Differentialgeometrie/8/Klausur": {
+        "missing": false,
+        "pageid": 151798,
+        "revid": 906772,
+        "sha1": "0cd253f31b463ad6a4dfe3f7aeb44e6024840123",
+        "timestamp": "2023-07-17T12:29:19Z"
+      },
+      "Kurs:Differentialgeometrie/8/Klausur mit Lösungen": {
+        "missing": false,
+        "pageid": 151803,
+        "revid": 1015189,
+        "sha1": "ed1caf68c39e75848eeee78ec0b66fb6d2ab5bcd",
+        "timestamp": "2025-08-08T16:45:21Z"
+      },
+      "Kurs:Differentialgeometrie/8/Klausur mit Lösungen/latex": {
+        "missing": false,
+        "pageid": 153321,
+        "revid": 909727,
+        "sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "timestamp": "2023-08-15T10:11:38Z"
+      },
+      "Kurs:Differentialgeometrie/8/Klausur/latex": {
+        "missing": false,
+        "pageid": 153310,
+        "revid": 909603,
+        "sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "timestamp": "2023-08-14T11:00:10Z"
+      },
+      "Kurs:Differentialgeometrie/9/Klausur": {
+        "missing": false,
+        "pageid": 151799,
+        "revid": 1113610,
+        "sha1": "6a1d658fbb73632e0bd00babdf251476c1a56515",
+        "timestamp": "2026-08-26T07:39:59Z"
+      },
+      "Kurs:Differentialgeometrie/9/Klausur mit Lösungen": {
+        "missing": false,
+        "pageid": 151804,
+        "revid": 1015194,
+        "sha1": "763ef3385cbe0992f53df21a0fa1dd2a789669b5",
+        "timestamp": "2025-08-08T16:46:21Z"
+      },
+      "Kurs:Differentialgeometrie/9/Klausur mit Lösungen/latex": {
+        "missing": false,
+        "pageid": 153322,
+        "revid": 909728,
+        "sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "timestamp": "2023-08-15T10:11:47Z"
+      },
+      "Kurs:Differentialgeometrie/9/Klausur/latex": {
+        "missing": false,
+        "pageid": 153311,
+        "revid": 909604,
+        "sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "timestamp": "2023-08-14T11:00:18Z"
+      },
+      "Kurs:Differentialgeometrie/Klausuren": {
+        "missing": false,
+        "pageid": 151764,
+        "revid": 1068391,
+        "sha1": "4a4061e882de6286ff752144edf2c3822fa0e38b",
+        "timestamp": "2026-02-01T15:16:30Z"
+      }
+    },
+    "request_receipt": {
+      "bytes": 2537,
+      "path": "authority/exams/mediawiki/exam_control_pages_current.json.request.json",
+      "sha256": "da28d22a4e16af1fd314aed11ed867f99b8e2774ff13b4cdce2048abaf67ea0c"
+    },
+    "response": {
+      "bytes": 27470,
+      "path": "authority/exams/mediawiki/exam_control_pages_current.json",
+      "sha256": "7d1ecc4905c9fc9117700e003247bc81b5f358301f7b432437f9e26c7348db3c"
+    },
+    "retrieved_utc": "2026-08-28T16:15:22Z"
+  },
+  "expansions": [
+    {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "context_title": "Kurs:Differentialgeometrie/1/Klausur/latex",
+      "expanded_characters": 10369,
+      "form": 1,
+      "http_date": "Fri, 28 Aug 2026 16:15:22 GMT",
+      "kind": "learner",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie/1/Klausur/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 661,
+        "path": "authority/exams/mediawiki/exam01_learner_expandtemplates.json.request.json",
+        "sha256": "7bae723cff29fc57a46e3f1ee6cde23ec10f1bb38320af7414070e24fe73c85d"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 11228,
+        "path": "authority/exams/mediawiki/exam01_learner_expandtemplates.json",
+        "sha256": "71cc12ecba45ed8b5dafc9875ea033fa180a64929188f2bac20e75c0d2234083"
+      },
+      "retrieved_utc": "2026-08-28T16:15:22Z",
+      "sanitized_source": {
+        "bytes": 8573,
+        "path": "authority/exams/expanded/exam01_learner_source.de.tex",
+        "sha256": "52f4f702f07c1df6a0c5b34f4ce1e0bddb9f02a8313138ff64f6594fb115df6d"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 698,
+        "path": "qa/exams/EXAM01_LEARNER_SANITIZE.json",
+        "sha256": "ae222c203992f61a278d6ff434428b7f3eb917fd3c8c7e7066b8892102b04e55"
+      },
+      "task_macro_count": 14,
+      "valid_utf8": true
+    },
+    {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "context_title": "Kurs:Differentialgeometrie/1/Klausur mit Lösungen/latex",
+      "expanded_characters": 38457,
+      "form": 1,
+      "http_date": "Fri, 28 Aug 2026 16:15:23 GMT",
+      "kind": "solutions",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie/1/Klausur mit Lösungen/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 677,
+        "path": "authority/exams/mediawiki/exam01_solutions_expandtemplates.json.request.json",
+        "sha256": "c7653002398ea01e5e96c6b7ae91be13b3c09b59cab7bd766fa98abd33c22045"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 41256,
+        "path": "authority/exams/mediawiki/exam01_solutions_expandtemplates.json",
+        "sha256": "ae4fb62b577ec645ae922578a5d04ac9ccef70e91609764a12a2a269e424c3bc"
+      },
+      "retrieved_utc": "2026-08-28T16:15:23Z",
+      "sanitized_source": {
+        "bytes": 32644,
+        "path": "authority/exams/expanded/exam01_solutions_source.de.tex",
+        "sha256": "04c0b13b28f3964a0110a5810a38a7152c8dfd955c377f8ab8ebd288d45c0846"
+      },
+      "sanitizer": {
+        "bytes": 5476,
+        "path": "scripts/sanitize_brenner_exam_expand.py",
+        "sha256": "325610e64072c04380e2e85f0df151cef6c33516b71d08c76ecff09e2ebf39ac"
+      },
+      "sanitizer_receipt": {
+        "bytes": 1458,
+        "path": "qa/exams/EXAM01_SOLUTIONS_SANITIZE.json",
+        "sha256": "f3a30d79a591e3021bf406a397e923ef48cceb81e3483dca503e50fe170476a5"
+      },
+      "task_macro_count": 0,
+      "valid_utf8": true
+    },
+    {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "context_title": "Kurs:Differentialgeometrie/2/Klausur/latex",
+      "expanded_characters": 8458,
+      "form": 2,
+      "http_date": "Fri, 28 Aug 2026 17:21:31 GMT",
+      "kind": "learner",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie/2/Klausur/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 660,
+        "path": "authority/exams/mediawiki/exam02_learner_expandtemplates.json.request.json",
+        "sha256": "bf2cb4a6223d76f149d265e07039fd8e45ba0a0faa0a8109d88ff0db9ed270f9"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 9181,
+        "path": "authority/exams/mediawiki/exam02_learner_expandtemplates.json",
+        "sha256": "2fdf8bc3392fa9d258080fce2ece229a8db54e7b45924829f6cd186bc1960db4"
+      },
+      "retrieved_utc": "2026-08-28T17:21:31Z",
+      "sanitized_source": {
+        "bytes": 6890,
+        "path": "authority/exams/expanded/exam02_learner_source.de.tex",
+        "sha256": "ccb875e6cd38376b8815194ba18945fc4b47d35918b3efdc88dbd40e7af32479"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 696,
+        "path": "qa/exams/EXAM02_LEARNER_SANITIZE.json",
+        "sha256": "c2233084ae0df6885f3c9b0dfc73244d6e15522a7a1fd6ad5ac34036f4eeff59"
+      },
+      "task_macro_count": 11,
+      "valid_utf8": true
+    },
+    {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "context_title": "Kurs:Differentialgeometrie/2/Klausur mit Lösungen/latex",
+      "expanded_characters": 36348,
+      "form": 2,
+      "http_date": "Fri, 28 Aug 2026 17:24:28 GMT",
+      "kind": "solutions",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie/2/Klausur mit Lösungen/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 677,
+        "path": "authority/exams/mediawiki/exam02_solutions_expandtemplates.json.request.json",
+        "sha256": "18831023361d49266d6511431ebd29d45ed92bcaa97618e703070b8dc286b2fd"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 38852,
+        "path": "authority/exams/mediawiki/exam02_solutions_expandtemplates.json",
+        "sha256": "672c8bab9fd17af62febeca2bae5d5c5542c3f3956eda54eb151272365ffef01"
+      },
+      "retrieved_utc": "2026-08-28T17:24:28Z",
+      "sanitized_source": {
+        "bytes": 31503,
+        "path": "authority/exams/expanded/exam02_solutions_source.de.tex",
+        "sha256": "577d9d4801bdf598f30a1b286b51aab1c8d2f28b202978848c2a0768bd885c56"
+      },
+      "sanitizer": {
+        "bytes": 5476,
+        "path": "scripts/sanitize_brenner_exam_expand.py",
+        "sha256": "325610e64072c04380e2e85f0df151cef6c33516b71d08c76ecff09e2ebf39ac"
+      },
+      "sanitizer_receipt": {
+        "bytes": 1458,
+        "path": "qa/exams/EXAM02_SOLUTIONS_SANITIZE.json",
+        "sha256": "c2fb02dd7ff22aa99f1f459f0303c1498f35649fe5afa0fb523c699e411acd53"
+      },
+      "task_macro_count": 0,
+      "valid_utf8": true
+    },
+    {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "context_title": "Kurs:Differentialgeometrie/3/Klausur/latex",
+      "expanded_characters": 10226,
+      "form": 3,
+      "http_date": "Fri, 28 Aug 2026 17:24:29 GMT",
+      "kind": "learner",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie/3/Klausur/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 661,
+        "path": "authority/exams/mediawiki/exam03_learner_expandtemplates.json.request.json",
+        "sha256": "56e5f73970a7b33e3d039df43aa707cc8fcc5dd3940cc963aeb8243900e799d6"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 11087,
+        "path": "authority/exams/mediawiki/exam03_learner_expandtemplates.json",
+        "sha256": "0ed5368e74c02605f276522e5cb486386c90477c83dc90dce06af584b9eb34fd"
+      },
+      "retrieved_utc": "2026-08-28T17:24:29Z",
+      "sanitized_source": {
+        "bytes": 8188,
+        "path": "authority/exams/expanded/exam03_learner_source.de.tex",
+        "sha256": "7da7aa7af33c738394c83f492cf0e192566350daac59a1d3b596500527c2e3f5"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 698,
+        "path": "qa/exams/EXAM03_LEARNER_SANITIZE.json",
+        "sha256": "5cb461af3e224db634417dea5e2c23c9582fc2f3dabde62ad0715b5689674be0"
+      },
+      "task_macro_count": 16,
+      "valid_utf8": true
+    },
+    {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "context_title": "Kurs:Differentialgeometrie/3/Klausur mit Lösungen/latex",
+      "expanded_characters": 38172,
+      "form": 3,
+      "http_date": "Fri, 28 Aug 2026 17:24:30 GMT",
+      "kind": "solutions",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie/3/Klausur mit Lösungen/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 677,
+        "path": "authority/exams/mediawiki/exam03_solutions_expandtemplates.json.request.json",
+        "sha256": "a205335045209c216cb8b0956e9762310c87937390aeb0cd7b933bbb031c6e90"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 40900,
+        "path": "authority/exams/mediawiki/exam03_solutions_expandtemplates.json",
+        "sha256": "d8835b2bade74c7a05e2f62e2abd2bbc6f444d185f08d6cd822461041291e6b8"
+      },
+      "retrieved_utc": "2026-08-28T17:24:30Z",
+      "sanitized_source": {
+        "bytes": 33238,
+        "path": "authority/exams/expanded/exam03_solutions_source.de.tex",
+        "sha256": "21837906b9798c3fa082e8aed507807fbbe5211fe5c880ef3d7b6ac47e482de7"
+      },
+      "sanitizer": {
+        "bytes": 5476,
+        "path": "scripts/sanitize_brenner_exam_expand.py",
+        "sha256": "325610e64072c04380e2e85f0df151cef6c33516b71d08c76ecff09e2ebf39ac"
+      },
+      "sanitizer_receipt": {
+        "bytes": 1458,
+        "path": "qa/exams/EXAM03_SOLUTIONS_SANITIZE.json",
+        "sha256": "1f9e74bdcd6aa3eca7211369e22349c62bbb5739c549fa69235d9a5894993358"
+      },
+      "task_macro_count": 0,
+      "valid_utf8": true
+    },
+    {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "context_title": "Kurs:Differentialgeometrie/4/Klausur/latex",
+      "expanded_characters": 9375,
+      "form": 4,
+      "http_date": "Fri, 28 Aug 2026 17:24:31 GMT",
+      "kind": "learner",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie/4/Klausur/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 661,
+        "path": "authority/exams/mediawiki/exam04_learner_expandtemplates.json.request.json",
+        "sha256": "09e8a7d7d65add59131c7ac8b142c4363722a52c60edb5be247010937264d372"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 10146,
+        "path": "authority/exams/mediawiki/exam04_learner_expandtemplates.json",
+        "sha256": "cc2f5d1a1821bd96ae9b50e4dea8a95f35d31df3bcfc97df9cc88e94025c52a7"
+      },
+      "retrieved_utc": "2026-08-28T17:24:31Z",
+      "sanitized_source": {
+        "bytes": 7671,
+        "path": "authority/exams/expanded/exam04_learner_source.de.tex",
+        "sha256": "a04af572801234400982225c2d3869f08e3dd0f026dccb24e6e010df0b65fae6"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 697,
+        "path": "qa/exams/EXAM04_LEARNER_SANITIZE.json",
+        "sha256": "af5d883c44e9764c5ab319cda4694367e380c4595c21fea1bc3b5888d068dd16"
+      },
+      "task_macro_count": 16,
+      "valid_utf8": true
+    },
+    {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "context_title": "Kurs:Differentialgeometrie/4/Klausur mit Lösungen/latex",
+      "expanded_characters": 34048,
+      "form": 4,
+      "http_date": "Fri, 28 Aug 2026 17:24:32 GMT",
+      "kind": "solutions",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie/4/Klausur mit Lösungen/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 677,
+        "path": "authority/exams/mediawiki/exam04_solutions_expandtemplates.json.request.json",
+        "sha256": "93d2f3c2ab4b29825ebdcade168445e65b3cf90b5dc0368cc64cb05ee0958cd8"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 36485,
+        "path": "authority/exams/mediawiki/exam04_solutions_expandtemplates.json",
+        "sha256": "f90e8ea1d4f60a209f43d97fdfb93da774cdd261257822e177f389495394a08b"
+      },
+      "retrieved_utc": "2026-08-28T17:24:32Z",
+      "sanitized_source": {
+        "bytes": 29457,
+        "path": "authority/exams/expanded/exam04_solutions_source.de.tex",
+        "sha256": "f3aea770fda251bcdc138521854a7f5a6e3000e783ae86f0179811ffea5d86a2"
+      },
+      "sanitizer": {
+        "bytes": 5476,
+        "path": "scripts/sanitize_brenner_exam_expand.py",
+        "sha256": "325610e64072c04380e2e85f0df151cef6c33516b71d08c76ecff09e2ebf39ac"
+      },
+      "sanitizer_receipt": {
+        "bytes": 1458,
+        "path": "qa/exams/EXAM04_SOLUTIONS_SANITIZE.json",
+        "sha256": "ef98652c2d8c597253a0230fa92a4ae1c93b0f5898c3f0cd84f3f8497e649a4e"
+      },
+      "task_macro_count": 0,
+      "valid_utf8": true
+    },
+    {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "context_title": "Kurs:Differentialgeometrie/5/Klausur/latex",
+      "expanded_characters": 11107,
+      "form": 5,
+      "http_date": "Fri, 28 Aug 2026 17:24:33 GMT",
+      "kind": "learner",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie/5/Klausur/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 661,
+        "path": "authority/exams/mediawiki/exam05_learner_expandtemplates.json.request.json",
+        "sha256": "a86145bf88137294211ff0dcfa9abbdf56a50a4e4b44f0fe6acba89aab32d79b"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 12015,
+        "path": "authority/exams/mediawiki/exam05_learner_expandtemplates.json",
+        "sha256": "290b56fab1c85886ab203be8f1a76e3d15e05d7ffa549c745b7dd4f830c0a671"
+      },
+      "retrieved_utc": "2026-08-28T17:24:32Z",
+      "sanitized_source": {
+        "bytes": 9022,
+        "path": "authority/exams/expanded/exam05_learner_source.de.tex",
+        "sha256": "e149c3364d9b1db529b6aeb07c3af9b0a559746765081fa152fef16e8c553336"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 698,
+        "path": "qa/exams/EXAM05_LEARNER_SANITIZE.json",
+        "sha256": "b0101b89a5176b5ab2326c0ca5aa455b92359036fdf63b834b222d93f04d1506"
+      },
+      "task_macro_count": 14,
+      "valid_utf8": true
+    },
+    {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "context_title": "Kurs:Differentialgeometrie/5/Klausur mit Lösungen/latex",
+      "expanded_characters": 37249,
+      "form": 5,
+      "http_date": "Fri, 28 Aug 2026 17:24:33 GMT",
+      "kind": "solutions",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie/5/Klausur mit Lösungen/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 677,
+        "path": "authority/exams/mediawiki/exam05_solutions_expandtemplates.json.request.json",
+        "sha256": "0a0f622b384a1c721ae3e3802f5b8df3bf41b366f300c92e49d7fd6a10ef25db"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 40005,
+        "path": "authority/exams/mediawiki/exam05_solutions_expandtemplates.json",
+        "sha256": "b223e0e2ff331c61533c5520295cc666e6eb5efe1acf78f1e6b4c498f1c4874c"
+      },
+      "retrieved_utc": "2026-08-28T17:24:34Z",
+      "sanitized_source": {
+        "bytes": 31674,
+        "path": "authority/exams/expanded/exam05_solutions_source.de.tex",
+        "sha256": "b1118ffef263de471dd4965d34a3e1b5ebef8416898d7411056795945a6c0b5e"
+      },
+      "sanitizer": {
+        "bytes": 5476,
+        "path": "scripts/sanitize_brenner_exam_expand.py",
+        "sha256": "325610e64072c04380e2e85f0df151cef6c33516b71d08c76ecff09e2ebf39ac"
+      },
+      "sanitizer_receipt": {
+        "bytes": 1458,
+        "path": "qa/exams/EXAM05_SOLUTIONS_SANITIZE.json",
+        "sha256": "d1a1a063f666e45de1f97812b746836b27d18eb1ca4e0c78b77a86b1b069d684"
+      },
+      "task_macro_count": 0,
+      "valid_utf8": true
+    },
+    {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "context_title": "Kurs:Differentialgeometrie/6/Klausur/latex",
+      "expanded_characters": 8966,
+      "form": 6,
+      "http_date": "Fri, 28 Aug 2026 17:24:35 GMT",
+      "kind": "learner",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie/6/Klausur/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 660,
+        "path": "authority/exams/mediawiki/exam06_learner_expandtemplates.json.request.json",
+        "sha256": "b4056000a20b533c5909cf81066334657b080630fefc9cf0239c6bbc43e7ca15"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 9756,
+        "path": "authority/exams/mediawiki/exam06_learner_expandtemplates.json",
+        "sha256": "15e32c275bf13678d5465aa8d552a3825317d02f6dfdc63bb81e82b3ce89411a"
+      },
+      "retrieved_utc": "2026-08-28T17:24:34Z",
+      "sanitized_source": {
+        "bytes": 7153,
+        "path": "authority/exams/expanded/exam06_learner_source.de.tex",
+        "sha256": "956bc2cdda307ec79caa110e24fa43bebfd9b01534f20f20c00a3ca60ef92af8"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 696,
+        "path": "qa/exams/EXAM06_LEARNER_SANITIZE.json",
+        "sha256": "c09f9589eed3f9d3bded246299f883131d41a43acb79aa01fdf3fc82fddb7875"
+      },
+      "task_macro_count": 16,
+      "valid_utf8": true
+    },
+    {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "context_title": "Kurs:Differentialgeometrie/6/Klausur mit Lösungen/latex",
+      "expanded_characters": 36671,
+      "form": 6,
+      "http_date": "Fri, 28 Aug 2026 17:24:35 GMT",
+      "kind": "solutions",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie/6/Klausur mit Lösungen/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 677,
+        "path": "authority/exams/mediawiki/exam06_solutions_expandtemplates.json.request.json",
+        "sha256": "68f0cc7dc0bfd26556346d2d5b1eeef52a7068f558ece30ce52e9ed0517a058a"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 39430,
+        "path": "authority/exams/mediawiki/exam06_solutions_expandtemplates.json",
+        "sha256": "69be9f18a13bd30d18cf006bcc0f85aec2aac28d58bf66eb5a705eac0826f45a"
+      },
+      "retrieved_utc": "2026-08-28T17:24:35Z",
+      "sanitized_source": {
+        "bytes": 31489,
+        "path": "authority/exams/expanded/exam06_solutions_source.de.tex",
+        "sha256": "eabe285cc356377947e66fd476d6dfc9a0254f65d2b9dd4ac5a17d7eb726e46a"
+      },
+      "sanitizer": {
+        "bytes": 5476,
+        "path": "scripts/sanitize_brenner_exam_expand.py",
+        "sha256": "325610e64072c04380e2e85f0df151cef6c33516b71d08c76ecff09e2ebf39ac"
+      },
+      "sanitizer_receipt": {
+        "bytes": 1458,
+        "path": "qa/exams/EXAM06_SOLUTIONS_SANITIZE.json",
+        "sha256": "228053450fd63f9821d4b8c19e782ee07f006e7fa3849dda4a497d3f177f9f79"
+      },
+      "task_macro_count": 0,
+      "valid_utf8": true
+    },
+    {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "context_title": "Kurs:Differentialgeometrie/7/Klausur/latex",
+      "expanded_characters": 9562,
+      "form": 7,
+      "http_date": "Fri, 28 Aug 2026 17:24:36 GMT",
+      "kind": "learner",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie/7/Klausur/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 661,
+        "path": "authority/exams/mediawiki/exam07_learner_expandtemplates.json.request.json",
+        "sha256": "fb9be3be0e5fb97da0d2629beb6d3a3e5513b41823dbb85e5ad311fa4c0ecb73"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 10380,
+        "path": "authority/exams/mediawiki/exam07_learner_expandtemplates.json",
+        "sha256": "4b12d18c1b72092eba093ae370c87b8fde544f040c71b10de78dcde24caf9860"
+      },
+      "retrieved_utc": "2026-08-28T17:24:36Z",
+      "sanitized_source": {
+        "bytes": 7707,
+        "path": "authority/exams/expanded/exam07_learner_source.de.tex",
+        "sha256": "0b65c4f5b565ad7f5e4e8888d4300bdddda66378822ab3239de221716e1b0e9d"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 697,
+        "path": "qa/exams/EXAM07_LEARNER_SANITIZE.json",
+        "sha256": "62ba1800dad2148e1ee4bea72e026f361f3d004df46664c81b72f7a826cde4e3"
+      },
+      "task_macro_count": 16,
+      "valid_utf8": true
+    },
+    {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "context_title": "Kurs:Differentialgeometrie/7/Klausur mit Lösungen/latex",
+      "expanded_characters": 30223,
+      "form": 7,
+      "http_date": "Fri, 28 Aug 2026 17:25:00 GMT",
+      "kind": "solutions",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie/7/Klausur mit Lösungen/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 677,
+        "path": "authority/exams/mediawiki/exam07_solutions_expandtemplates.json.request.json",
+        "sha256": "5475fb83b12d08059859b45de8ede3a80dc7527ec59b331d85d21ae519915f3a"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 32394,
+        "path": "authority/exams/mediawiki/exam07_solutions_expandtemplates.json",
+        "sha256": "e00fb7a6c8431b5f275539d074fda2f13326d90b564f2b9d00ab5d2f66f386d1"
+      },
+      "retrieved_utc": "2026-08-28T17:25:00Z",
+      "sanitized_source": {
+        "bytes": 26087,
+        "path": "authority/exams/expanded/exam07_solutions_source.de.tex",
+        "sha256": "d43e62115befcbbac32d1b5a5dd1ed81d0926e9cc6bcc209c7879b280384a78b"
+      },
+      "sanitizer": {
+        "bytes": 5476,
+        "path": "scripts/sanitize_brenner_exam_expand.py",
+        "sha256": "325610e64072c04380e2e85f0df151cef6c33516b71d08c76ecff09e2ebf39ac"
+      },
+      "sanitizer_receipt": {
+        "bytes": 1459,
+        "path": "qa/exams/EXAM07_SOLUTIONS_SANITIZE.json",
+        "sha256": "e562c843d02dadf62403cbbcee434af9177443b2ad0954244f619337de409374"
+      },
+      "task_macro_count": 0,
+      "valid_utf8": true
+    },
+    {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "context_title": "Kurs:Differentialgeometrie/8/Klausur/latex",
+      "expanded_characters": 9428,
+      "form": 8,
+      "http_date": "Fri, 28 Aug 2026 17:25:01 GMT",
+      "kind": "learner",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie/8/Klausur/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 661,
+        "path": "authority/exams/mediawiki/exam08_learner_expandtemplates.json.request.json",
+        "sha256": "749953c2011850a5bc9724007ef1b590f1c252b8ee001bdd97898ce6531a2a2f"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 10237,
+        "path": "authority/exams/mediawiki/exam08_learner_expandtemplates.json",
+        "sha256": "363cc7db1496e6a76682fe5c8b9a1ab6ae68f7f2389cb0c568041d3069b05078"
+      },
+      "retrieved_utc": "2026-08-28T17:25:00Z",
+      "sanitized_source": {
+        "bytes": 7529,
+        "path": "authority/exams/expanded/exam08_learner_source.de.tex",
+        "sha256": "8d6f96c5b11eee1f1ae30b3c1ad370e142c2edf2fc353e4817121086eb1d39f5"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 697,
+        "path": "qa/exams/EXAM08_LEARNER_SANITIZE.json",
+        "sha256": "c181fae57f2f5f96872537cde848873596aa6d8782f65b676b475de60fc357c5"
+      },
+      "task_macro_count": 17,
+      "valid_utf8": true
+    },
+    {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "context_title": "Kurs:Differentialgeometrie/8/Klausur mit Lösungen/latex",
+      "expanded_characters": 34393,
+      "form": 8,
+      "http_date": "Fri, 28 Aug 2026 17:25:01 GMT",
+      "kind": "solutions",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie/8/Klausur mit Lösungen/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 677,
+        "path": "authority/exams/mediawiki/exam08_solutions_expandtemplates.json.request.json",
+        "sha256": "654e5ffb9246bacef01c3e6c2d61a7a416f97ca89aa88f9b59facf49a96e8faf"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 36864,
+        "path": "authority/exams/mediawiki/exam08_solutions_expandtemplates.json",
+        "sha256": "eec717a5bb178a372b1fb14f45706ad85a3581f120a6cdfc6e0b3e61876eb3ed"
+      },
+      "retrieved_utc": "2026-08-28T17:25:01Z",
+      "sanitized_source": {
+        "bytes": 29287,
+        "path": "authority/exams/expanded/exam08_solutions_source.de.tex",
+        "sha256": "a5cd5f6e26d78d68d05ada69d23424923c7f27d9278d497079a52d07abbdb575"
+      },
+      "sanitizer": {
+        "bytes": 5476,
+        "path": "scripts/sanitize_brenner_exam_expand.py",
+        "sha256": "325610e64072c04380e2e85f0df151cef6c33516b71d08c76ecff09e2ebf39ac"
+      },
+      "sanitizer_receipt": {
+        "bytes": 1459,
+        "path": "qa/exams/EXAM08_SOLUTIONS_SANITIZE.json",
+        "sha256": "ffb8b852d50a933eacc4d4718c7b94bbddfa079590d9aa4041eaed7d3e00c341"
+      },
+      "task_macro_count": 0,
+      "valid_utf8": true
+    },
+    {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "context_title": "Kurs:Differentialgeometrie/9/Klausur/latex",
+      "expanded_characters": 12254,
+      "form": 9,
+      "http_date": "Fri, 28 Aug 2026 17:25:02 GMT",
+      "kind": "learner",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie/9/Klausur/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 661,
+        "path": "authority/exams/mediawiki/exam09_learner_expandtemplates.json.request.json",
+        "sha256": "9170a2818077d40f11312e53806145f982d7f53840b9b8cc9a1308ee7a37fae0"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 13225,
+        "path": "authority/exams/mediawiki/exam09_learner_expandtemplates.json",
+        "sha256": "970a30e9daf1caf9ed7ce3a8e48538b2c2fcd7b6f9134703bb14073f2d129840"
+      },
+      "retrieved_utc": "2026-08-28T17:25:02Z",
+      "sanitized_source": {
+        "bytes": 10446,
+        "path": "authority/exams/expanded/exam09_learner_source.de.tex",
+        "sha256": "7d8cad04c46374478e6b7fbf4aa02ecccd93caba3aef1d8b435565556ab7c208"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 699,
+        "path": "qa/exams/EXAM09_LEARNER_SANITIZE.json",
+        "sha256": "9eb4d8632a67daf425ba51f0dc19eff10461f410892c2123ff71b7a7b9225e3d"
+      },
+      "task_macro_count": 13,
+      "valid_utf8": true
+    },
+    {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "context_title": "Kurs:Differentialgeometrie/9/Klausur mit Lösungen/latex",
+      "expanded_characters": 36648,
+      "form": 9,
+      "http_date": "Fri, 28 Aug 2026 17:25:03 GMT",
+      "kind": "solutions",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie/9/Klausur mit Lösungen/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 677,
+        "path": "authority/exams/mediawiki/exam09_solutions_expandtemplates.json.request.json",
+        "sha256": "3ec9b2d046c477f1144a2c1f03e9d676576740172ef343c5f654e0aaa9529014"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 39157,
+        "path": "authority/exams/mediawiki/exam09_solutions_expandtemplates.json",
+        "sha256": "197b24c819fd69cbadbcc364dfbc665f127c1ff36d4264e592a93baa1fab2cfb"
+      },
+      "retrieved_utc": "2026-08-28T17:25:03Z",
+      "sanitized_source": {
+        "bytes": 32160,
+        "path": "authority/exams/expanded/exam09_solutions_source.de.tex",
+        "sha256": "604309d0d01fd8f6805d678bd681264f5c525495f689a8175441b7876224a157"
+      },
+      "sanitizer": {
+        "bytes": 5476,
+        "path": "scripts/sanitize_brenner_exam_expand.py",
+        "sha256": "325610e64072c04380e2e85f0df151cef6c33516b71d08c76ecff09e2ebf39ac"
+      },
+      "sanitizer_receipt": {
+        "bytes": 1459,
+        "path": "qa/exams/EXAM09_SOLUTIONS_SANITIZE.json",
+        "sha256": "0eebaf84cc46277a15ead7c9067a95a5f5ac5f86671055392cfc62b2d3dd9a5b"
+      },
+      "task_macro_count": 0,
+      "valid_utf8": true
+    },
+    {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "context_title": "Kurs:Differentialgeometrie/10/Klausur/latex",
+      "expanded_characters": 11717,
+      "form": 10,
+      "http_date": "Fri, 28 Aug 2026 17:25:04 GMT",
+      "kind": "learner",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie/10/Klausur/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 662,
+        "path": "authority/exams/mediawiki/exam10_learner_expandtemplates.json.request.json",
+        "sha256": "610b4a0bebccda3741d260e7c2d718f3b67dcdcd9b4fc26515be8db13484f8cd"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 12682,
+        "path": "authority/exams/mediawiki/exam10_learner_expandtemplates.json",
+        "sha256": "3f2122283ef8919708d8834562806d831f4e8fddcd102f8d46e64253ddf23c89"
+      },
+      "retrieved_utc": "2026-08-28T17:25:04Z",
+      "sanitized_source": {
+        "bytes": 9743,
+        "path": "authority/exams/expanded/exam10_learner_source.de.tex",
+        "sha256": "d22213122dee6ca107e9ac1d098472e28614f0b8a51a4c75a2d5bd099af76dc5"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 698,
+        "path": "qa/exams/EXAM10_LEARNER_SANITIZE.json",
+        "sha256": "be61ce3516a14e51d3926e511e873c0a9ecdfeb2e9d71aa4a25d4b1dbabeaf40"
+      },
+      "task_macro_count": 14,
+      "valid_utf8": true
+    },
+    {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "context_title": "Kurs:Differentialgeometrie/10/Klausur mit Lösungen/latex",
+      "expanded_characters": 41010,
+      "form": 10,
+      "http_date": "Fri, 28 Aug 2026 17:25:05 GMT",
+      "kind": "solutions",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie/10/Klausur mit Lösungen/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 678,
+        "path": "authority/exams/mediawiki/exam10_solutions_expandtemplates.json.request.json",
+        "sha256": "cff062fdc5e0e0adc31539f7d1c6d3c654b2460f28731267e20341f4d454a346"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 44051,
+        "path": "authority/exams/mediawiki/exam10_solutions_expandtemplates.json",
+        "sha256": "1aa7a34604aecdf462ac1980e91cd23ba3ce4f826c7045a9dc7f19dc426a3811"
+      },
+      "retrieved_utc": "2026-08-28T17:25:04Z",
+      "sanitized_source": {
+        "bytes": 36515,
+        "path": "authority/exams/expanded/exam10_solutions_source.de.tex",
+        "sha256": "d00815419d80779ec715cb71e11f3433dd599c4e18964602c104a6c6681af870"
+      },
+      "sanitizer": {
+        "bytes": 5476,
+        "path": "scripts/sanitize_brenner_exam_expand.py",
+        "sha256": "325610e64072c04380e2e85f0df151cef6c33516b71d08c76ecff09e2ebf39ac"
+      },
+      "sanitizer_receipt": {
+        "bytes": 1458,
+        "path": "qa/exams/EXAM10_SOLUTIONS_SANITIZE.json",
+        "sha256": "6684d1461c6a6f0d2181b9ddb6cd46cda6ec2adfbf9e3e3d6c1487eb9f9be91d"
+      },
+      "task_macro_count": 0,
+      "valid_utf8": true
+    }
+  ],
+  "expected_live_census_cross_check": {
+    "actual": 123,
+    "missing": 6,
+    "solutions": 117
+  },
+  "export_request_retrieved_utc": "2026-08-28T16:15:21Z",
+  "forms": 10,
+  "missing_solution_occurrences": 6,
+  "nominal_template_slots": 147,
+  "occurrence_map": {
+    "bytes": 48728,
+    "path": "authority/exams/EXAM_OCCURRENCE_MAP.json",
+    "sha256": "ba85735a613267d28301ad0f62eafec5b0d3f18e36f107759ca3c0231345a8ec"
+  },
+  "official_index": "Kurs:Differentialgeometrie/Klausuren",
+  "per_form_census": [
+    {
+      "actual_problem_occurrences": 14,
+      "form": 1,
+      "missing_solution_link_occurrences": 1,
+      "nominal_slots": 14,
+      "placeholder_slots": 0,
+      "rendered_solution_link_occurrences": 13
+    },
+    {
+      "actual_problem_occurrences": 11,
+      "form": 2,
+      "missing_solution_link_occurrences": 0,
+      "nominal_slots": 11,
+      "placeholder_slots": 0,
+      "rendered_solution_link_occurrences": 11
+    },
+    {
+      "actual_problem_occurrences": 12,
+      "form": 3,
+      "missing_solution_link_occurrences": 1,
+      "nominal_slots": 16,
+      "placeholder_slots": 4,
+      "rendered_solution_link_occurrences": 11
+    },
+    {
+      "actual_problem_occurrences": 12,
+      "form": 4,
+      "missing_solution_link_occurrences": 0,
+      "nominal_slots": 16,
+      "placeholder_slots": 4,
+      "rendered_solution_link_occurrences": 12
+    },
+    {
+      "actual_problem_occurrences": 14,
+      "form": 5,
+      "missing_solution_link_occurrences": 1,
+      "nominal_slots": 14,
+      "placeholder_slots": 0,
+      "rendered_solution_link_occurrences": 13
+    },
+    {
+      "actual_problem_occurrences": 11,
+      "form": 6,
+      "missing_solution_link_occurrences": 0,
+      "nominal_slots": 16,
+      "placeholder_slots": 5,
+      "rendered_solution_link_occurrences": 11
+    },
+    {
+      "actual_problem_occurrences": 11,
+      "form": 7,
+      "missing_solution_link_occurrences": 1,
+      "nominal_slots": 16,
+      "placeholder_slots": 5,
+      "rendered_solution_link_occurrences": 10
+    },
+    {
+      "actual_problem_occurrences": 14,
+      "form": 8,
+      "missing_solution_link_occurrences": 0,
+      "nominal_slots": 17,
+      "placeholder_slots": 3,
+      "rendered_solution_link_occurrences": 14
+    },
+    {
+      "actual_problem_occurrences": 13,
+      "form": 9,
+      "missing_solution_link_occurrences": 1,
+      "nominal_slots": 13,
+      "placeholder_slots": 0,
+      "rendered_solution_link_occurrences": 12
+    },
+    {
+      "actual_problem_occurrences": 11,
+      "form": 10,
+      "missing_solution_link_occurrences": 1,
+      "nominal_slots": 14,
+      "placeholder_slots": 3,
+      "rendered_solution_link_occurrences": 10
+    }
+  ],
+  "placeholder_slots": 24,
+  "recursive_export": {
+    "bytes": 10335457,
+    "path": "authority/exams/mediawiki/exam_bank_recursive_export.xml",
+    "sha256": "726c50ee9e0f851e35ad8f8acd60dc2387e34e3fa1df7b71950b7f3bcf83312c"
+  },
+  "recursive_export_request": {
+    "bytes": 1010,
+    "path": "authority/exams/mediawiki/exam_bank_recursive_export.xml.request.json",
+    "sha256": "baa9d5e391a93dab61704b0e2fc69979f8c8436b505b9e80bf2f80fdff9084a8"
+  },
+  "recursive_page_count": 1024,
+  "revision_set_sha256": "ff552c754740bdd9c4436f4e31f7e5164341435f634a075866d72d027d1f1e00",
+  "schema_version": 1,
+  "scope": "official ten-form Differentialgeometrie examination bank",
+  "source_solution_occurrences": 117,
+  "unique_semantic_tasks": 119
+}

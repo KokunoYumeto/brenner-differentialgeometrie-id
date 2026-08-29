@@ -1,0 +1,15 @@
+{
+  "content_type": "application/xml; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/wiki/Spezial:Exportieren",
+  "http_date": "Fri, 28 Aug 2026 16:15:05 GMT",
+  "method": "POST",
+  "parameters": {
+    "pages": "Kurs:Differentialgeometrie/1/Klausur mit Lösungen\nKurs:Differentialgeometrie/2/Klausur mit Lösungen\nKurs:Differentialgeometrie/3/Klausur mit Lösungen\nKurs:Differentialgeometrie/4/Klausur mit Lösungen\nKurs:Differentialgeometrie/5/Klausur mit Lösungen\nKurs:Differentialgeometrie/6/Klausur mit Lösungen\nKurs:Differentialgeometrie/7/Klausur mit Lösungen\nKurs:Differentialgeometrie/8/Klausur mit Lösungen\nKurs:Differentialgeometrie/9/Klausur mit Lösungen\nKurs:Differentialgeometrie/10/Klausur mit Lösungen",
+    "templates": "1"
+  },
+  "response_bytes": 10335457,
+  "response_path": "exam_bank_recursive_export.xml",
+  "response_sha256": "726c50ee9e0f851e35ad8f8acd60dc2387e34e3fa1df7b71950b7f3bcf83312c",
+  "retrieved_utc": "2026-08-28T16:15:21Z",
+  "schema_version": 1
+}

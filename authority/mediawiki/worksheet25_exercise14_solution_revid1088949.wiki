@@ -1,0 +1,92 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Die Abbildung
+{{
+Abbildung/display
+|name=u
+| I |\R^n
+||
+|SZ=
+}}
+wird bezüglich der Basischnitte {{mathl|term= e_1 {{kommadots|}} e_n  |SZ=}} durch
+{{
+Relationskette/display
+| u
+|| u_1e_1 {{plusdots}} u_ne_n
+|| 
+|| 
+|| 
+|SZ=
+}}
+beschrieben. Die
+{{
+Definitionslink
+|Prämath=
+|vertikale Ableitung|
+|Kontext=|
+|SZ=
+}}
+des Zusammenhangs dieses Schnittes in Richtung der einzigen Ableitungsrichtung {{math|term= \partial |SZ=}} ist nach
+{{
+Faktlink
+|Faktseitenname=
+Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt
+|Nr=
+|SZ=
+}}
+gleich
+{{
+Relationskette/display
+|  \sum_{k {{=}} 1}^n {{makl|   \partial u_k  +  \sum_{j {{=|}} 1}^n u_j \Gamma_{j}^k |}} e_k
+|| \sum_{k {{=}} 1}^n {{makl|  u_k'  +  \sum_{j {{=|}} 1}^n u_j \Gamma_{j}^k |}} e_k
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Dabei ist {{math|term= u |SZ=}} nach
+{{
+Faktlink
+|Faktseitenname=
+Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontaler Schnitt/Vertikale Ableitung/Fakt
+|Nr=
+|SZ=
+}}
+genau dann ein horizontaler Schnitt, wenn die vertikale Ableitung gleich {{math|term= 0 |SZ=}} ist, und dies bedeutet für die einzelnen Komponenten, dass
+{{
+Relationskette/display
+| u_k' + \sum_{j {{=}} 1}^n \Gamma_j^k u_j
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+für alle {{math|term= k |SZ=}} gelten muss. Dies ist äquivalent zu 
+{{
+Relationskette/display
+| u_k' 
+|| \sum_{j {{=}} 1}^n a_{kj} u_j
+|| 
+|| 
+|| 
+|SZ=
+}}
+für alle {{math|term= k |SZ=,}} was gerade bedeutet, dass {{math|term= u |SZ=}} das Matrixsystem
+{{
+Relationskette/display
+| u'
+|| {{makl| a_{kj}   |}} u
+|| 
+|| 
+|| 
+|SZ=
+}}
+erfüllt, also eine Lösung des linearen Differentialgleichungssystems ist.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

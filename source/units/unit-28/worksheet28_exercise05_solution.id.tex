@@ -1,0 +1,96 @@
+Kita dapat bekerja secara lokal. Pada bundel vektor trivial
+\maabbdisp {} {U \times \R} {U
+} {}
+terdapat suatu koneksi, dan kita boleh menganggap
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{  \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {berbentuk bintang}{}{.}
+Koneksi tersebut dijelaskan oleh
+\definitionsverweis {simbol-simbol Christoffel}{}{}
+$\Gamma_1 , \ldots , \Gamma_n$. Karena koneksi diasumsikan bebas kelengkungan, menurut
+[[Reelles Vektorbündel/Rang 1/Offene Menge/Krümmungsoperator/Fakt|Fakta]],
+\definitionsverweis {bentuk diferensial}{}{}
+$1$ berikut,
+$\sum_{i = 1}^n\Gamma_i dx_i$,
+\definitionsverweis {tertutup}{}{.}
+Menurut
+[[1-Form/Vektorfeld/Geschlossen gdw Integrabilitätsbedingung/Aufgabe|Soal]],
+hal ini berarti bahwa medan vektor terkait
+\maabbdisp {\left( \Gamma_1   , \,   \ldots  , \,  \Gamma_n                 \right)} { U } {\R^n
+} {}
+memenuhi
+\definitionsverweis {syarat keterintegralan}{}{.}
+Menurut
+[[Teilmenge/R^n/Sternförmig/Gradientenfeld/Charakterisierung/Fakt|Fakta]],
+ini berarti bahwa pada himpunan terbuka berbentuk bintang $U$ terdapat suatu
+\definitionsverweis {medan gradien}{}{.}
+Jadi, terdapat fungsi yang terdiferensialkan secara kontinu
+\maabbdisp {f} { U } { \R
+} {}
+dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma_i
+}
+{ =} { \partial_i f
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk semua $i$. Tetapkan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g
+}
+{ =} { e^f
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan pandang $g$ sebagai suatu penampang pada bundel trivial $U \times \R$. Menurut
+[[Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt|Fakta]],
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i} g
+}
+{ =} { g \Gamma_i -  \partial_i g
+}
+{ =} { e^f \Gamma_i - \partial_i e^f
+}
+{ =} { e^f \Gamma_i - e^f \partial_i f
+}
+{ =} { 0
+}
+}
+{}{}{,}
+yakni $g$ merupakan
+\definitionsverweis {penampang horizontal}{}{}
+tanpa nol. Dengan demikian, penampang ini membuktikan bahwa $\nabla$ terintegralkan secara lokal.
+
+ [[Kategorie:Latexseite]]

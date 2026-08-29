@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-27/lecture27.id.tex",
+  "target_bytes": 25369,
+  "target_sha256": "37623a58c537cf9e13e00b189eda77d880adb43bc09e60662691bb2d58bd60d2",
+  "checks": {
+    "wiki_link_destination_sequence_equal": true,
+    "wiki_link_destination_count_source": 21,
+    "wiki_link_destination_count_target": 21,
+    "media_attribution_call_sequence_equal": true,
+    "media_attribution_call_count": 1,
+    "utf8_replacement_characters": 0,
+    "placeholder_hits": 0,
+    "reader_prose_german_common_word_hits_after_structural_path_exclusion": 0,
+    "reader_prose_german_diacritic_hits_after_structural_path_exclusion": 0
+  },
+  "allowed_non_reader_german": "Exact upstream wiki-link destinations and inputfaktbeweis authority paths remain unchanged; the final Kategorie locator remains an upstream structural token.",
+  "status": "pass"
+}

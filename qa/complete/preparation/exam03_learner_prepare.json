@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "input": "source/exams/exam-03/exam03_learner.id.tex",
+  "input_bytes": 7997,
+  "input_sha256": "b8b90e5cb0517ea101fcedd6658ffa9916b03b8bc7618aa74b18e9c1f9e86084",
+  "output": "build/generated/exams/exam03_learner.id.build.tex",
+  "output_bytes": 7920,
+  "output_sha256": "81d704dbf44fd646f708bcf93572003f81b771781d921bf67fb4844ba3e94701",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Totale Differenzierbarkeit/K/Kettenregel/Fakt",
+      "label": "aturan rantai"
+    }
+  ],
+  "wiki_link_resolution_passes": 1,
+  "rendered_interactive_gif_links": []
+}

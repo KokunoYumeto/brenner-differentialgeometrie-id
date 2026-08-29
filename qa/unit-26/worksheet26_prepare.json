@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-26/worksheet26.id.tex",
+  "input_bytes": 11725,
+  "input_sha256": "9ae7f9c964286053cd0b58bde0c11c90a44b1bcc757fa2dedaaaca185b63916e",
+  "output": "build/generated/worksheet26.id.build.tex",
+  "output_bytes": 11267,
+  "output_sha256": "2a2ee6e3aa6a6e0d7d2937b417bee50efe9c501a19ea115676006759e7ee180f",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Intervall/Riemannsche Struktur/Levi-Civita-Zusammenhang/Beispiel",
+      "label": "Contoh 26.4"
+    },
+    {
+      "target": "Mannigfaltigkeit/Tangentialbündel trivial/Riemannsche Struktur/Aufgabe",
+      "label": "Soal 16.2"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Tangentialbündel/Linearer Zusammenhang/Metrisch und torsionsfrei/Koszul-Eigenschaft/Eindeutigkeit/Fakt",
+      "label": "Lemma 26.10"
+    },
+    {
+      "target": "Eingebettete Mannigfaltigkeit/Inverse Karte/Tangentialbündel/Partielle Ableitung/Aufgabe",
+      "label": "Soal 10.16"
+    },
+    {
+      "target": "Halbebene/Poincaré/Riemannsche Geometrie/Beispiel",
+      "label": "Contoh 18.8"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

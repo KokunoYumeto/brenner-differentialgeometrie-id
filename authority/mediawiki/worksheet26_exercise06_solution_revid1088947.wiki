@@ -1,0 +1,58 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Zunächst ist für eine differenzierbare Funktion {{math|term= g |SZ=}} 
+{{
+Relationskette/align
+|  \nabla_{ gV_i} V_j - \nabla_{V_j} {{makl| g V_i |}}  
+|| g \nabla_{V_i} V_j -{{makl| g \nabla_{V_j} {{makl| V_i |}}  + D_{V_j}(g)  V_i |}} 
+|| g [V_i,V_j] - D_{V_j}(g)  V_i
+|| [gV_i,V_j]
+|| 
+|SZ=
+}}
+nach
+{{
+Faktlink
+|Faktseitenname=
+Mannigfaltigkeit/Vektorfelder/Lie-Klammer/Eigenschaften/Fakt
+|Nr=3
+|SZ=.
+}}
+Beliebige differenzierbare Vektorfelder kann man als
+{{
+Relationskette/display
+| V
+|| \sum_{i{{=}} 1}^n f_i V_i
+|| 
+|| 
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette/display
+| W
+|| \sum_{i{{=}} 1}^n g_i V_i
+|| 
+|| 
+|| 
+|SZ=
+}}
+ansetzen. Dann ist
+{{
+Relationskette/align
+|  \nabla_VW- \nabla_WV
+|| \nabla_{\sum_{i{{=}} 1}^n f_i V_i}  {{makl| \sum_{j{{=}} 1}^n g_j V_j  |}} - \nabla_{\sum_{j{{=}} 1}^n g_j V_j}  {{makl| \sum_{i{{=}} 1}^n f_i V_i  |}} 
+|| \sum_{i,j}   f_i  \nabla_{V_i} {{makl| g_jV_j |}} - \sum_{i,j}   g_j  \nabla_{V_j} {{makl| f_iV_i |}} 
+|| \sum_{i,j}   f_i  {{makl| g_j \nabla_{V_i}  V_j - [V_i,g_jV_j]              |}}  - \sum_{i,j}   g_j  {{makl| f_i \nabla_{V_j} V_i -    [ f_i V_i,V_j] |}} 
+||  \sum_{i,j}   f_i   g_j {{makl| \nabla_{V_i}  V_j -  \nabla_{V_j}  V_i             |}}  - \sum_{i} f_i   [ V_i, g_jV_j]  - \sum_{j} g_j   [ f_iV_i, V_j]
+||  \sum_{i,j}   f_i   g_j [V_i,V_j]     - \sum_{i} f_i   [ V_i, g_jV_j]  - \sum_{j} g_j   [ f_iV_i, V_j]
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

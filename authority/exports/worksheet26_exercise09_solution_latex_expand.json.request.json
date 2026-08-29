@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 15:21:13 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Riemannsche Mannigfaltigkeit/Linearer Zusammenhang/Metrisch auf Basisfeldern/Metrisch/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 6532,
+  "response_path": "worksheet26_exercise09_solution_latex_expand.json",
+  "response_sha256": "97bd2356a56f1216b20aa3837d3e1d1b3e5e68a10af6a07b08ad26746a889d22",
+  "retrieved_utc": "2026-08-28T15:21:13Z",
+  "schema_version": 1
+}

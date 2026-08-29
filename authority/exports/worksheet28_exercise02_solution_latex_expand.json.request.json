@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 15:25:00 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Offene Menge/R^2/Krümmungsoperator/Standardvektorfelder/Explizit/1/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 637,
+  "response_path": "worksheet28_exercise02_solution_latex_expand.json",
+  "response_sha256": "629a464b5ea917af7e5182343cb782a75bef5628447eaf7463a9eb5ffa19ecd0",
+  "retrieved_utc": "2026-08-28T15:24:59Z",
+  "schema_version": 1
+}

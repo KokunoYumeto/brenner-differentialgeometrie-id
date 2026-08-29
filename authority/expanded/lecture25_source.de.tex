@@ -1,0 +1,1061 @@
+\setcounter{section}{25}
+
+  \zwischenueberschrift{Horizontale Schnitte}
+
+\inputdefinition
+{}
+{
+
+Es sei $X$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und $E$ ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+auf $X$, das mit einem
+\definitionsverweis {Zusammenhang}{}{}
+versehen sei. Es sei $Z$ eine weitere
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und
+\maabbdisp {\psi} { Z } { X
+} {}
+eine
+\definitionsverweis {differenzierbare Abbildung}{}{.}
+Ein
+\definitionsverweis {differenzierbarer Schnitt}{}{}
+\maabbdisp {s} { Z } { E
+} {}
+\zusatzklammer {über $\psi$} {} {}
+heißt
+\definitionswort {horizontal}{,}
+wenn für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ z
+}
+{ \in }{ Z
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das Bild
+\mathl{T(s)(T_zZ)}{} ganz im Horizontalbündel
+
+\mavergleichskette
+{\vergleichskette
+{ H_{s(z)}
+}
+{ \subseteq }{ T_{s(z)}E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+enthalten ist.
+
+}
+
+Es liegt also das kommutative Diagramm
+
+\mathdisp {\begin{matrix}  &   &   &  E   \\ & & s \nearrow & \downarrow  \\  &  Z  & \stackrel{ \psi }{\longrightarrow}  &  X \! \\ \end{matrix}} {  }
+
+vor. Statt von einem horizontalen Schnitt spricht man auuch von einer  \stichwort {horizontalen Liftung} {.} Das Konzept kann man insbesondere für Schnitte
+\maabb {s} { U } { E\vert_U
+} {}
+auf einer
+\definitionsverweis {offenen Menge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+anwenden.
+
+__NOEDITSECTION__
+\inputfaktbeweis
+{Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontaler Schnitt/Vertikale Ableitung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $X$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und $E$ ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+auf $X$, das mit einem
+\definitionsverweis {Zusammenhang}{}{}
+versehen sei.}
+\faktfolgerung {Dann ist ein stetig differenzierbarer Schnitt
+\maabb {s} { U } { E \vert_U
+} {}
+auf einer offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+genau dann
+\definitionsverweis {horizontal}{}{,}
+wenn seine
+\definitionsverweis {vertikale Ableitung}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ \nabla s
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist.}
+\faktzusatz {}
+\faktzusatz {}
+
+ }
+{ Siehe [[Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontaler Schnitt/Vertikale Ableitung/Fakt/Beweis/Aufgabe|Aufgabe 25.4]]. }
+
+Zu dieser Aussage gibt es eine entsprechende Variante für horizontale Schnitte längs einer Abbildung, siehe
+[[Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Längs Abbildung/Horizontaler Schnitt/Vertikale Ableitung/Aufgabe|Aufgabe 25.5]].
+
+\inputdefinition
+{}
+{
+
+Es sei $X$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und $E$ ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+auf $X$, das mit einem
+\definitionsverweis {Zusammenhang}{}{}
+versehen sei. Der Zusammenhang heißt
+\definitionswort {lokal integrabel}{,}
+wenn es zu jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \in }{ E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+einen auf einer offenen Umgebung
+
+\mavergleichskette
+{\vergleichskette
+{ p(e)
+}
+{ \in }{ U
+}
+{ \subseteq }{ X
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definierten
+\definitionsverweis {horizontalen Schnitt}{}{}
+\maabbdisp {s} { U } { E  \vert_U
+} {}
+durch $e$ gibt.
+
+}
+Den Zusammenhang nennt man \stichwort {global integrabel} {,} wenn es zu jedem
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \in }{ E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+einen horizontalen Schnitt auf ganz $X$ gibt.
+
+  \zwischenueberschrift{Lineare Zusammenhänge}
+
+\inputdefinition
+{}
+{
+
+Es sei $X$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und $E$ ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+auf $X$, das mit einem
+\definitionsverweis {Zusammenhang}{}{}
+versehen sei. Der Zusammenhang heißt
+\definitionswort {linear}{,}
+wenn die zugehörige
+\definitionsverweis {vertikale Ableitung}{}{}
+\maabbeledisp {\nabla} {C^1(E)} { C^0(E \otimes T^* X )
+} { s } { \nabla(s)
+} {,}
+$\R$-\definitionsverweis {linear}{}{}
+ist
+\zusatzklammer {auf jeder offenen Menge} {} {.}
+
+}
+
+Man beachte, dass dies nicht bedeutet, dass dieser Abbildung ein Bündelhomomorphismus zugrunde liegt bzw. ein ${\mathcal O}_X$-Modul-Homomorphismus vorliegt. Die Abbildung ist nicht mit der Multiplikation der Schnitte mit Funktionen verträglich, sondern lediglich mit der Addition und mit der Skalarmultiplikation mit Konstanten. Stattdessen gilt die folgende \stichwort {Leibnizregel} {.}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Leibnizregel/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei $X$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und $E$ ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{}  auf $X$, das mit einem
+\definitionsverweis {linearen Zusammenhang}{}{}
+versehen sei.}
+\faktfolgerung {Dann erfüllt die zugehörige
+\definitionsverweis {vertikale Ableitung}{}{}
+\maabbeledisp {\nabla} {C^1(E)} { C^0(E \otimes T^* X )
+} { s } { \nabla(s)
+} {,}
+die Leibnizregel, d.h. für jeden
+\definitionsverweis {differenzierbaren Schnitt}{}{}
+$s$ in $E$ und jede
+\definitionsverweis {differenzierbare Funktion}{}{}
+$f$
+\zusatzklammer {die beide auf einer offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+definiert sind} {} {}
+gilt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla (fs)
+}
+{ =} { s \otimes df + f \nabla (s)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Beide Seiten sind lokal in $X$, wir können also annehmen, dass
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ = }{ X \times W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein triviales Bündel
+\zusatzklammer {mit einem $\R$-Vektorraum $W$} {} {}
+ist. Es seien
+\mathl{s_1 , \ldots , s_r}{} konstante Basisschnitte von $E$, d.h. $s_i$ ist konstant gleich einem Vektor
+
+\mavergleichskette
+{\vergleichskette
+{ w_i
+}
+{ \in }{ W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+und diese Vektoren bilden eine Basis von $W$. Wenn die Gleichheit für diese $s_i$
+\zusatzklammer {und beliebige $f$} {} {}
+gezeigt ist, so folgt sie allgemein. Man kann ja jeden Schnitt $s$ in $E$ eindeutig als
+
+\mavergleichskette
+{\vergleichskette
+{s
+}
+{ = }{ \sum_{i = 1}^r g_is_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit Koeffizientenfunktionen $g_i$ schreiben. Damit gilt unter Verwendung der $\R$-Linearität der beiden Seiten und der Leibnizregel für die konstanten Schnitte
+\zusatzklammer {s.u.} {} {}
+und
+der [[Totale Differenzierbarkeit/R/Produktregel/Fakt|Produktregel]]
+die Beziehung
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \nabla (fs)
+}
+{ =} { \nabla \left(  f \sum_{i = 1}^r g_is_i  \right)
+}
+{ =} { \nabla \left(  \sum_{i = 1}^r \left(  f g_i  \right) s_i  \right)
+}
+{ =} { \sum_{i = 1}^r \nabla \left(  \left(  f g_i  \right) s_i  \right)
+}
+{ =} { \sum_{i = 1}^r \left(  s_i \otimes d(fg_i) + f g_i \nabla s_i  \right)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \sum_{i = 1}^r s_i \otimes \left(  g_i df + fdg_i  \right) + \sum_{i = 1}^r f g_i \nabla s_i
+}
+{ =} { \sum_{i = 1}^r \left(  g_i s_i \otimes df  \right)  + \sum_{i = 1}^r \left(  s_i \otimes f dg_i + f g_i \nabla s_i  \right)
+}
+{ =} { \left(  \sum_{i = 1}^r g_i s_i  \right)  \otimes df + f  \sum_{i = 1}^r \left(  s_i \otimes dg_i + g_i \nabla s_i  \right)
+}
+{ =} { s\otimes df + f \sum_{i = 1}^r \nabla \left(  g_i s_i  \right)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { s\otimes df + f \nabla s
+}
+{ } {}
+{ } {}
+{ } {}
+}{.}
+Es sei also nun $s$ ein Schnitt, der konstant gleich $w$ ist. Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Wegen
+
+\mavergleichskette
+{\vergleichskette
+{ \nabla(fs)
+}
+{ = }{ \nabla ((f -f(x))  s ) + f(x) \nabla s
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+können wir weiter annehmen, dass
+
+\mavergleichskette
+{\vergleichskette
+{ f(x)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist. Dann ist
+
+\mavergleichskette
+{\vergleichskette
+{ (f \nabla s)(x)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und wir müssen nur noch den vorderen Summanden betrachten. Der Tangentialraum von
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ = }{ X \times W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in
+\mathl{(x,0)}{} ist gleich
+\mathl{(T_x X \times 0) \oplus (0 \times W)}{,} und da der Nullschnitt für einen linearen Zusammenhang nach
+[[Mannigfaltigkeit/Linearer Zusammenhang/Nullschnitt horizontal/Aufgabe|Aufgabe 25.9]]
+horizontal ist, ist diese Zerlegung auch die Zerlegung in Horizontal- und Vertikalraum. Die vertikale Ableitung
+\mathl{\nabla (fs)}{} im Punkt $x$ ist die Gesamtabbildung
+
+\mathdisp {T_x X \stackrel{T(fs)}{ \longrightarrow} T_{(x,0)} (X \times W) \stackrel{\pi }{ \longrightarrow} W} { , }
+ und da $s$ konstant ist, ist dies gleich
+\mathl{s \otimes df}{.}
+
+}
+
+Man kann umgekehrt durch eine Ableitungsvorschrift, die die Leibnizregel erfüllt, einen linearen Zusammenhang angeben. Ein solcher Ableitungsformalismus und eine lineare Summenzerlegung des Tangentialbündels des Vektorbündels sind also im Wesentlichen äquivalente Konzepte.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Existenz/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $X$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+mit
+\definitionsverweis {abzählbarer Basis der Topologie}{}{}
+und $E$ ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+auf $X$.}
+\faktfolgerung {Dann gibt es auf  $E$ einen
+\definitionsverweis {linearen Zusammenhang}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ X
+}
+{ = }{ \bigcup_{i \in I} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {offene Überdeckung}{}{,}
+auf der $E$ trivialisiert. Es gibt den
+\definitionsverweis {trivialen Zusammenhang}{}{}
+$\nabla_i$  auf $E\vert_{U_i }$, der nach
+[[Mannigfaltigkeit/Trivialer Zusammenhang/Linear/Aufgabe|Aufgabe 25.10]]
+linear ist. Nach
+[[Mannigfaltigkeit/Abzählbare Basis/Überdeckung/Partition/Fakt|Satz 22.10]]
+gibt es zur Überdeckung eine untergeordnete Partition der Eins,
+
+\mathbed {h_j} {}
+ {j \in J} {}
+ {} {} {} {.}
+Dann ist
+\mathl{\sum_{j \in J} h_j \nabla_{i(j)}}{} ein nach
+[[Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Partition der Eins/Aufgabe|Aufgabe 25.16]]
+wohldefinierter linearer Zusammenhang auf $X$.
+
+}
+
+  \zwischenueberschrift{Christoffelsymbole für einen linearen Zusammenhang}
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+und $\nabla$ ein
+\definitionsverweis {linearer Zusammenhang}{}{}
+auf dem trivialen
+\definitionsverweis {Vektorbündel}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ = }{ U \times \R^r
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es seien $x_i$ die Koordinaten auf $U$ und $e_j$ die Standardschnitte in $E$. Dann nennt man die durch die Gleichungen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i } e_j
+}
+{ =} { \sum_{k = 1}^r \Gamma^k_{i j}  e_k
+}
+{ } {
+}
+{ } {
+}
+{ } {}
+}
+{}{}{}
+definierten Funktionen
+\maabbdisp {\Gamma^k_{i j}} { U } {\R
+} {}
+die
+\definitionswort {Christoffelsymbole}{}
+des Zusammenhangs bezüglich $x_i$ und $e_j$.
+
+}
+
+Die Christoffelsymbole beschreiben also die Abbildungen
+
+\mathdisp {U \stackrel{ \partial_i }{\longrightarrow} TU \stackrel{ T(e_j) }{\longrightarrow} TE \stackrel{ \nabla}{\longrightarrow} E} {  }
+
+bezüglich der Basisschnitte $e_k$ von $E$. Die Linearität des Zusammenhangs ist für diese Definition nicht nötig, allerdings ergibt sich die Aussagekraft der Christoffelsymbole erst in Verbindung mit
+der [[Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Leibnizregel/Fakt|Leibniz-Regel]],
+die die Linearität voraussetzt, siehe
+[[Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt|Lemma 25.10]].
+
+\inputbemerkung
+{}
+{
+
+Mit $E$ trivial auf
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+vom Rang $r$ ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T (U \times \R^r)
+}
+{ =} { U \times \R^r \times \R^n \times \R^r
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und dem
+\definitionsverweis {Vertikalbündel}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ V E
+}
+{ \cong} { U \times \R^r \times \R^r
+}
+{ \subseteq} { T E
+}
+{ \cong} { U \times \R^r \times \R^n \times \R^r
+}
+{ } {
+}
+}
+{}{}{}
+und gegebenen Funktionen
+\maabb {\Gamma^k_{ij}} { U } {\R
+} {}
+wird eine vertikale Projektion
+\zusatzklammer {die zur Spaltung des Tangentialbündels $TE$ und damit zu einem
+\definitionsverweis {Zusammenhang}{}{}
+äquivalent ist} {} {}
+durch
+\maabbeledisp {} {U \times \R^r \times \R^n \times \R^r } { U \times \R^r \times  \R^r
+} {(P,u, v, w)} {(P,u,\sum_{k = 1}^r    \left(  \sum_{i,j} v_iu_j \Gamma^k_{ij} (P)  \right)  e_k +w)
+} {,}
+gegeben. Speziell ist
+\maabbeledisp {} {U \times \R^r \times \R^n \times \R^r } { U \times \R^r \times  \R^r
+} {(P,e_j, \partial_i, w)} {(P,e_j,\sum_{k = 1}^r \Gamma^k_{ij} (P) e_k +w)
+} {.}
+Die zugehörige
+\definitionsverweis {vertikale Ableitung}{}{}
+
+\mathdisp {U \stackrel{ \partial_i }{\longrightarrow}  TU  \stackrel{T(e_j)}{\longrightarrow} TE  \stackrel{\nabla}{\longrightarrow}  E} {  }
+
+schickt
+
+\mathdisp {P \longmapsto (P, \partial_i) \longmapsto (P , e_j, \partial_i, 0)  \longmapsto  \sum_{k = 1}^r \Gamma^k_{ij} (P) e_k} { . }
+
+Man erhält also die definierende Eigenschaft der
+\definitionsverweis {Christoffelsymbole}{}{}
+zurück.
+
+}
+
+\inputdefinition
+{}
+{
+
+Es sei $X$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und sei $E$ ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+auf $X$, das mit einem
+\definitionsverweis {linearen Zusammenhang}{}{}
+$\nabla$ versehen sei. Dann nennt man zu jedem offenen Kartengebiet
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit Koordinaten $x_i$
+\zusatzklammer {und den zugehörigen Ableitungsfeldern $\partial_i$} {} {}
+und auf dem $E$ trivialisiert mit
+\definitionsverweis {Basisschnitten}{}{}
+$s_j$, die durch die Gleichungen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i } s_j
+}
+{ =} { \sum_{k = 1}^r \Gamma^k_{i j} s_k
+}
+{ } {
+}
+{ } {
+}
+{ } {}
+}
+{}{}{}
+definierten Funktionen
+\maabbdisp {\Gamma^k_{i j}} { U } {\R
+} {}
+die
+\definitionswort {lokalen Christoffelsymbole}{}
+des Zusammenhangs bezüglich der Trivialisierungen.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $X$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und $E$ ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{}  auf $X$, das mit einem
+\definitionsverweis {linearen Zusammenhang}{}{}
+versehen sei.}
+\faktfolgerung {Dann gilt lokal auf einem Kartengebiet mit Koordinaten $x_i$ und Ableitungsfeldern $\partial_i$ und Basisschnitten $s_j$ in $E$ für die zugehörigen
+\definitionsverweis {Christoffelsymbole}{}{}
+für stetig differenzierbare Funktionen
+\maabb {h_i,f_j} { U } {\R
+} {}
+die Beziehung
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \nabla_{ \sum_{i = 1}^n h_i \partial_i }  \left(  \sum_{j =1}^r  f_js_j  \right)
+}
+{ =} { \sum_{k = 1}^r \left(  \sum_{i = 1}^n h_i  \partial_i f_k  +  \sum_{i ,j} h_i f_j \Gamma_{ij}^k  \right)  s_k
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Nach
+[[Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Ableitung bezüglich Vektorfeld/Eigenschaften/Fakt|Lemma 24.10]]
+und
+[[Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Leibnizregel/Fakt|Satz 25.5]]
+ist
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \nabla_{ \sum_{i = 1}^n h_i \partial_i }  \left(  \sum_{j =1}^r  f_js_j  \right)
+}
+{ =} { \sum_{i, j} h_i \nabla_{\partial_i } \left(  f_js_j  \right)
+}
+{ =} { \sum_{i, j} h_i  \left(  s_j \otimes \partial_i f_j  + f_j  \nabla_{\partial_i } (s_j)  \right)
+}
+{ =} { \sum_{i,j}  h_i s_j \partial_i f_j  +  \sum_{i ,j,k} h_i f_j \Gamma_{ij}^k s_k
+}
+{ =} { \sum_{k} \left(  \sum_{i = 1}^n h_i  \partial_i f_k  +  \sum_{i ,j} h_i f_j \Gamma_{ij}^k  \right)  s_k
+}
+}
+{}
+{}{.}
+
+}
+
+  \zwischenueberschrift{Horizontale Schnitte bei einem linearen Zusammenhang}
+
+Zu einer offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bezeichnen wir zu einem Vektorbündel $E$ mit einem linearen Zusammenhang $\nabla$ den Raum der horizontalen Schnitte mit
+\mathl{H(\nabla,U)}{.} Es ist also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ H(\nabla,U)
+}
+{ =} { \left\{ s \in C^1(U,E)  \mid  \nabla(s) =0         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Es handelt sich dabei um eine \anfuehrung{sehr kleine}{} Auswahl von Schnitten, wie schon von
+[[Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontale Liftung/Übereinstimmung/Aufgabe|Aufgabe 25.21]]
+her klar ist und wie auch das folgende Lemma zeigt. Beim trivialen Vektorbündel
+vom Rang $1$ mit dem trivialen Zusammenhang geht es einfach um die lokal konstanten Schnitte. Man spricht von lokal-konstanten Garben oder von lokalen Systemen.
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Horizontale Schnitte/Untervektorraum/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $X$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und $E$ ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{} vom Rang $r$ auf $X$, das mit einem
+\definitionsverweis {linearen Zusammenhang}{}{}
+versehen sei.}
+\faktfolgerung {Dann ist für jede zusammenhängende offene Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Menge der
+\definitionsverweis {horizontalen Schnitte}{}{}
+
+\mathl{H(\nabla,U)}{} ein
+$\R$-\definitionsverweis {Untervektorraum}{}{}
+von
+\mathl{C^1(U,E)}{} der Dimension
+\mathl{\leq r}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Es seien
+\mathl{s_1 , \ldots , s_r}{} linear unabhängige horizontale Schnitte auf $U$. Es sei $s$ ein weiterer differenzierbarer horizontaler Schnitt. Man kann $s$ wegen
+[[Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Global integrabel/Globale Trivialisierung/Aufgabe|Aufgabe 25.6]]
+\zusatzklammer {angewendet auf $U$} {} {}
+eindeutig als
+
+\mavergleichskette
+{\vergleichskette
+{ s
+}
+{ = }{ \sum_{i = 1}^r g_is_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit Funktionen
+\maabbdisp {g_i} { U} { \R
+} {}
+schreiben. Somit ist nach
+[[Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Leibnizregel/Fakt|Satz 25.5]]
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 0
+}
+{ =} { \nabla s
+}
+{ =} { \nabla \left(  \sum_{i = 1}^r g_is_i  \right)
+}
+{ =} { \sum_{i = 1}^r  \nabla \left(  g_is_i  \right)
+}
+{ =} { \sum_{i = 1}^r  s_i \otimes d g_i
+}
+}
+{}{}{.}
+Auf jeder kleineren offenen Menge, die zu
+
+\mavergleichskette
+{\vergleichskette
+{ U'
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+diffeomorph ist, kann man dies unter Verwendung von Koordinaten
+\mathl{x_1 , \ldots , x_n}{} als
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \sum_{i = 1}^r  s_i \otimes \left(  \sum_{ j = 1}^n { \frac{   \partial  g_i   }{  \partial   x_j   } }  dx_j   \right)
+}
+{ =} { \sum_{i = 1}^r \sum_{ j = 1}^n { \frac{   \partial  g_i   }{  \partial   x_j   } } \left(  s_i \otimes d x_j  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+schreiben. Die
+\mathl{s_i \otimes dx_j}{} bilden
+\zusatzklammer {über dieser offenen Menge} {} {}
+Basisschnitte von
+\mathl{E  \vert_{U'} \otimes T^* U'}{} und daher muss
+
+\mavergleichskette
+{\vergleichskette
+{ { \frac{   \partial  g_i   }{  \partial   x_j   } }
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sein. Also sind die $g_i$ konstant
+\zusatzklammer {dies gilt wegen zusammenhängend auch auf $U$} {} {}
+und somit ist $s$ eine $\R$-Linearkombination der $s_i$.
+
+}
+
+Wenn es global
+\zusatzklammer {also über $X$} {} {}
+$r$ linear unabhängige horizontale Schnitte im Vektorbündel $E$  gibt, so ist das Vektorbündel trivial.
+
+Lokal integrabel bedeutet für einen linearen Zusammenhang, dass zu jedem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \in }{ E_x
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+lokal
+\zusatzklammer {in einer offenen Umgebung von $x$} {} {}
+die nach
+[[Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Horizontale Schnitte/Untervektorraum/Fakt|Lemma 25.11]]
+maximal mögliche Anzahl
+\zusatzklammer {die durch den Rang des Bündels festgelegt ist} {} {}
+von linear unabhängigen horizontalen Schnitten angenommen wird. Die lokale Integrabilität ist bei einer eindimensionalen Basismannigfaltigkeit stets erfüllt.
+
+ [[Kategorie:Latexseite]]

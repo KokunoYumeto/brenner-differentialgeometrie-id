@@ -27,11 +27,6 @@
   "status": "pass",
   "failures": [],
   "declared_corrections": [
-    "O011-CORR-0039",
-    "O011-CORR-0039",
-    "O011-CORR-0039",
-    "O011-CORR-0039",
-    "O011-CORR-0039",
     "O011-CORR-0039"
   ],
   "evidence_only_results": []

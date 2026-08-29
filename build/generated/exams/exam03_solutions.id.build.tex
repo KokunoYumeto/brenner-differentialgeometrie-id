@@ -1,0 +1,1898 @@
+%Data institusi
+
+%\input{Dozentdaten}
+
+%\renewcommand{\fachbereich}{Fachbereich}
+
+%\renewcommand{\dozent}{Prof. Dr. . }
+
+%Data ujian
+
+\renewcommand{\klausurgebiet}{ }
+
+\renewcommand{\klausurtyp}{ }
+
+\renewcommand{\klausurdatum}{ . 20}
+
+\klausurvorspann {\fachbereich} {\klausurdatum} {\dozent} {\klausurgebiet} {\klausurtyp}
+
+%Data untuk tabel nilai berikut
+
+\renewcommand{\aeins}{  3  }
+
+\renewcommand{\azwei}{  3   }
+
+\renewcommand{\adrei}{  0  }
+
+\renewcommand{\avier}{  0  }
+
+\renewcommand{\afuenf}{  6  }
+
+\renewcommand{\asechs}{  6  }
+
+\renewcommand{\asieben}{  0  }
+
+\renewcommand{\aacht}{  6  }
+
+\renewcommand{\aneun}{  11  }
+
+\renewcommand{\azehn}{  5  }
+
+\renewcommand{\aelf}{  5  }
+
+\renewcommand{\azwoelf}{  3  }
+
+\renewcommand{\adreizehn}{  7   }
+
+\renewcommand{\avierzehn}{  2  }
+
+\renewcommand{\afuenfzehn}{  0  }
+
+\renewcommand{\asechzehn}{  6  }
+
+\renewcommand{\asiebzehn}{  63  }
+
+\renewcommand{\aachtzehn}{    }
+
+\renewcommand{\aneunzehn}{    }
+
+\renewcommand{\azwanzig}{    }
+
+\renewcommand{\aeinundzwanzig}{    }
+
+\renewcommand{\azweiundzwanzig}{    }
+
+\renewcommand{\adreiundzwanzig}{    }
+
+\renewcommand{\avierundzwanzig}{    }
+
+\renewcommand{\afuenfundzwanzig}{    }
+
+\renewcommand{\asechsundzwanzig}{    }
+
+\punktetabellesechzehn
+
+\klausurnote
+
+\newpage
+
+\setcounter{section}{K}
+
+
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Definisikan istilah-istilah berikut
+\zusatzklammer {yang dicetak miring} {} {.}
+\aufzaehlungsechs{Suatu
+\stichwort {kurva geodesik} {}
+pada hiperpermukaan diferensiabel
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}{
+\stichwort {Himpunan rotasi} {}
+\zusatzklammer {mengelilingi sumbu $x$} {} {}
+dari suatu subhimpunan
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{  \R \times \R_{\geq 0}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}{
+\stichwort {Pemetaan tangen} {}
+\maabbdisp {T (\varphi)} {TM} {TN
+} {}
+dari
+\definitionsverweis {pemetaan diferensiabel}{}{}
+\maabbdisp {\varphi} { M } { N
+} {}
+antara
+\definitionsverweis {manifold-manifold diferensiabel}{}{}
+\mathkor {} {M} {dan} {N} {.}
+
+}{Suatu perubahan peta yang
+\stichwort {mempertahankan orientasi} {}
+pada
+\definitionsverweis {manifold diferensiabel}{}{}
+$M$.
+
+}{
+\stichwort {Bentuk diferensial tarikan balik} {} $\varphi^* \omega$ dari suatu bentuk diferensial
+\mathl{\omega \in
+{ \mathcal E }^{ k } (  M   )}{} terhadap suatu pemetaan terdiferensialkan secara kontinu
+\maabb {\varphi} { L } { M
+} {}
+antara dua manifold diferensiabel
+\mathkor {} {L} {dan} {M} {.}
+
+}{Suatu koneksi linear yang
+\stichwort {metrik} {}
+pada bundel tangen suatu manifold Riemann $M$.
+}
+
+}
+{
+
+\aufzaehlungsechs{Suatu
+\zusatzklammer {sebagai pemetaan ke $\R^n$} {} {}
+\definitionsverweis {kurva yang terdiferensialkan secara kontinu dua kali}{}{}
+\maabbdisp {\gamma} {I} {Y
+} {}
+disebut
+kurva geodesik
+pada $Y$ jika
+\definitionsverweis {percepatan tangensial}{}{}
+kurva tersebut sama dengan $0$ di setiap titik.
+}{Himpunan rotasi dari $T$ adalah
+
+\mathdisp {\left\{ (x, y \cos \alpha, y \sin \alpha  ) \in \R^3  \mid   (x,y) \in T , \, \alpha \in [0, 2 \pi]       \right\}} { . }
+
+}{Yang dimaksud dengan pemetaan tangen
+\maabbdisp {T (\varphi)} {TM} {TN
+} {}
+adalah gabungan saling lepas dari
+\definitionsverweis {pemetaan-pemetaan tangen}{}{}
+di setiap titik, yakni
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T (\varphi)
+}
+{ =} { \biguplus_{P \in M} T_P(\varphi)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Misalkan
+\maabbdisp {\alpha_1} {U_1 } { V_1
+} {}
+dan
+\maabbdisp {\alpha_2} {U_2 } { V_2
+} {}
+adalah peta-peta berorientasi dari $M$. Perubahan peta terkait
+\definitionsverweis {perubahan peta}{}{}
+\maabbdisp {\psi=\alpha_2 \circ \alpha_1^{-1}} {V_1 \cap \alpha_1 (U_1 \cap U_2)} {V_2 \cap \alpha_2 (U_1 \cap U_2 )
+} {}
+disebut mempertahankan orientasi jika untuk setiap titik
+\mathl{Q \in V_1 \cap \alpha_1 (U_1 \cap U_2)}{},
+\definitionsverweis {diferensial total}{}{}
+\maabbdisp {\left(D\psi\right)_{Q}} {\R^n } {\R^n
+} {}
+\definitionsverweis {mempertahankan orientasi}{}{}.
+}{Bentuk diferensial tarikan balik
+\mathl{\varphi^* \omega}{} didefinisikan, untuk
+\mathl{P\in L}{} dan
+\mathl{v_1 , \ldots , v_k \in T_PL}{}, oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{  ( \varphi^* \omega )(P,v_1 , \ldots , v_k )
+}
+{ \defeq} { \omega(\varphi(P), T_P\varphi(v_1) , \ldots ,  T_P\varphi(v_k) )
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+.
+}{Koneksi tersebut disebut
+metrik
+jika
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D_V \left\langle W , Z  \right\rangle
+}
+{ =} { \left\langle \nabla_V W , Z  \right\rangle  + \left\langle W ,  \nabla_VZ  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+berlaku untuk sebarang medan vektor $V,W ,Z$.
+}
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Nyatakan teorema-teorema berikut.
+\aufzaehlungdrei{
+\stichwort {Teorema tentang solusi persamaan diferensial biasa pada hiperpermukaan diferensiabel} {}
+
+\mavergleichskette
+{\vergleichskette
+{  Y
+}
+{ \subseteq }{  \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}{Rumus untuk menghitung volume kanonik suatu manifold Riemann dalam sebuah peta.}{Teorema tentang partisi kesatuan.}
+
+}
+{
+
+\aufzaehlungdrei{\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{,}
+\maabb {h} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi yang terdiferensialkan secara kontinu}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {serat}{}{}
+atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan $h$ bersifat
+\definitionsverweis {reguler}{}{}
+di setiap titik $Y$.
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ U
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{}
+dan misalkan $F$ suatu
+\definitionsverweis {medan vektor}{}{}
+terdiferensialkan pada $U$}
+\faktvoraussetzung {dengan sifat bahwa untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+vektor $F(P)$ termasuk dalam
+\definitionsverweis {ruang tangen serat}{}{}
+di $P$ pada $Y$.}
+\faktfolgerung {Maka solusi $v(t)$ dari
+\definitionsverweis {masalah nilai awal}{}{}
+untuk $F$ dengan syarat awal
+
+\mavergleichskette
+{\vergleichskette
+{ v(t_0)
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+seluruhnya terletak di $Y$.}
+\faktzusatz {}
+\faktzusatz {}}{Misalkan $M$ suatu
+\definitionsverweis {manifold Riemann}{}{}
+\definitionsverweis {berorientasi}{}{}
+dan $\omega$ adalah
+\definitionsverweis {bentuk volume kanonik}{}{.}
+Misalkan
+\maabbdisp {\alpha} { U } { V
+} {}
+suatu
+\definitionsverweis {peta berorientasi}{}{}
+dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ V
+}
+{ \subseteq} { \R^n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+terbuka, berkoordinat
+\mathl{x_1 , \ldots , x_n}{}, dengan
+\definitionsverweis {matriks fundamental metrik}{}{}
+
+\mathl{G=(g_{ij})_{1 \leq i,j \leq n}}{} dan
+\mathl{g= \det  G}{.} Maka
+
+\mavergleichskettedisp
+{\vergleichskette
+{  \alpha_* \omega
+}
+{ =} { \sqrt{ g} dx_1 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Untuk suatu
+\definitionsverweis {subhimpunan terukur}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{  T   }  \omega
+}
+{ =} {
+\int_{ \alpha(T)  }   \sqrt{g} dx_1 \wedge \ldots \wedge dx_n
+}
+{ =} { \int_{ \alpha(T)  }   \sqrt{g}    \,  d \lambda^n
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}{Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dengan
+\definitionsverweis {basis terhitung}{}{}
+bagi topologinya. Maka untuk setiap penutup terbuka terdapat
+\definitionsverweis {partisi kesatuan}{}{}
+yang
+\definitionsverweis {terdiferensialkan secara kontinu}{}{}
+dan subordinat terhadap penutup tersebut.}
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+
+
+\inputaufgabeklausurloesung
+{6}
+
+{
+
+Untuk permukaan $Y$ yang diberikan oleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ x^2+y^2+2z^2
+}
+{ =} { 4
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan titik
+
+\mavergleichskettedisp
+{\vergleichskette
+{ P
+}
+{ =} { \left(  1  , \,   1  , \,   1                 \right)
+}
+{ \in} { Y
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+tentukan suatu matriks diagonal bagi
+\definitionsverweis {pemetaan Weingarten}{}{}
+$L_P$.
+
+}
+{
+
+Medan gradien ternormalisasi adalah
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ N(x,y,z)
+}
+{ =} { { \frac{   1  }{  \sqrt{ 4x^2+4y^2+16 z^2}  } } \begin{pmatrix}  2x \\ 2y\\  4z   \end{pmatrix}
+}
+{ =} { { \frac{   1  }{  \sqrt{ x^2+y^2+4 z^2}  } } \begin{pmatrix}  x  \\ y \\  2z   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+Kita bekerja dengan medan normal satuan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M(x,y,z)
+}
+{ =} { { \frac{   1  }{  \sqrt{ 4+2 z^2}  } } \begin{pmatrix}  x  \\ y \\  2z   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+yang pada $Y$ berimpit dengan $N$. Diferensial total dari $M$ adalah
+
+\mathdisp {\begin{pmatrix}  { \frac{   1  }{  \sqrt{4+2z^2}  } }   &   0 &  { \frac{   -2 xz }{  \left(  4+2z^2  \right)^{3/2}  } }  \\  0  &  { \frac{   1  }{  \sqrt{4+2z^2}  } }   &  { \frac{   -2 yz }{  \left(  4+2z^2  \right)^{3/2}  } }   \\ 0   &  0  &  { \frac{   8 }{  \left(  4+2z^2  \right)^{3/2}  } }  \end{pmatrix}} { . }
+
+Di titik $P$ yang diberikan, gradiennya adalah $\begin{pmatrix}  2  \\ 2\\  4   \end{pmatrix}$ dan kedua vektor
+\mathkor {} {\begin{pmatrix}  1  \\ -1\\  0   \end{pmatrix}} {dan} {\begin{pmatrix}  2  \\ 0 \\  -1   \end{pmatrix}} {}
+membentuk suatu basis ruang tangen $T_PY$. Diferensial total dari $M$ di titik ini sama dengan
+
+\mathdisp {\begin{pmatrix}  { \frac{   1  }{  \sqrt{6}  } }   &   0 &  { \frac{   -1 }{  3 \sqrt{6}  } }  \\  0  &  { \frac{   1  }{  \sqrt{6}  } }   &  { \frac{   -1  }{  3 \sqrt{6}  } }   \\ 0   &  0  &  { \frac{   4  }{  3 \sqrt{6}  } }   \end{pmatrix}} { . }
+
+Jika diterapkan pada vektor basis pertama $\begin{pmatrix}  1  \\ -1\\  0   \end{pmatrix}$, hasilnya adalah $\begin{pmatrix}  { \frac{   1  }{  \sqrt{6}  } }  \\ - { \frac{   1  }{  \sqrt{6}  } } \\  0   \end{pmatrix}$, jadi ini merupakan vektor eigen dengan nilai eigen ${ \frac{   1  }{  \sqrt{6}  } }$. Jika diterapkan pada vektor basis kedua $\begin{pmatrix}  2  \\ 0 \\  -1   \end{pmatrix}$, hasilnya adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}  { \frac{   7 }{  3 \sqrt{6}  } }  \\ { \frac{   1 }{  3 \sqrt{6 } }}  \\  - { \frac{   4  }{  3 \sqrt{6}  } }   \end{pmatrix}
+}
+{ =} { - { \frac{   1 }{  3 \sqrt{6 } }} \begin{pmatrix}  1  \\ -1\\  0   \end{pmatrix} +   { \frac{   4  }{  3 \sqrt{6}  } } \begin{pmatrix}  2  \\ 0 \\  -1   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Karena itu, nilai eigen yang lain sama dengan ${ \frac{   4  }{  3 \sqrt{6}  } }$, dan matriks diagonal yang merepresentasikannya adalah
+
+\mathdisp {\begin{pmatrix}  { \frac{   1  }{  \sqrt{6}  } }   &   0  \\  0  &  { \frac{   4  }{  3 \sqrt{6}  } }  \end{pmatrix}} { . }
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{6}
+
+{
+
+Buktikan teorema isometri untuk transpor paralel pada hiperpermukaan
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+{
+
+Untuk membuktikan linearitas, misalkan diberikan
+
+\mavergleichskette
+{\vergleichskette
+{ v,w
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ r,s
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}.
+Misalkan
+\mathkor {} {F} {dan} {G} {}
+adalah medan vektor paralel sepanjang $\gamma$ yang ditentukan secara unik menurut
+Teorema 6.9 (Geometri diferensial (Osnabrück 2023))
+dengan
+
+\mavergleichskette
+{\vergleichskette
+{ F(a)
+}
+{ = }{ v
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ G(a)
+}
+{ = }{ w
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Menurut
+Lema 6.7 (Geometri diferensial (Osnabrück 2023)),
+\mathl{rF+sG}{} adalah medan vektor paralel dengan
+
+\mavergleichskette
+{\vergleichskette
+{ (rF+sG)(a)
+}
+{ = }{ v+ w
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Karena keunikan dalam
+Teorema 6.9 (Geometri diferensial (Osnabrück 2023)),
+\mathl{rF+sG}{} dengan demikian adalah medan vektor paralel untuk vektor tangen
+\mathl{rv+sw}{.} Oleh karena itu,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Psi_{\gamma} (rv+sw)
+}
+{ =} { (rF+sG)(b)
+}
+{ =} { r F(b) +s G(b)
+}
+{ =} { r \Psi_{\gamma} (v) + s \Psi_{\gamma} (w)
+}
+{ } {
+}
+}
+{}{}{.}
+
+Untuk membuktikan kesesuaian dengan hasil kali skalar, misalkan kembali diberikan
+
+\mavergleichskette
+{\vergleichskette
+{ v,w
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan misalkan $F,G$ adalah medan-medan vektor paralel yang terkait. Kita peroleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  F(t) , G(t)  \right\rangle'
+}
+{ =} { \left\langle  F'(t) , G(t)  \right\rangle  +  \left\langle  F(t) , G'(t)  \right\rangle
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+karena $F,G$ tangensial dan $F',G'$ ortogonal terhadap ruang tangen. Jadi
+\mathl{\left\langle  F(t) , G(t)  \right\rangle}{} konstan sepanjang lintasan. Oleh karena itu,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle \Psi_\gamma(v)  , \Psi_\gamma(w)  \right\rangle
+}
+{ =} { \left\langle  F(b)  ,  G(b)   \right\rangle
+}
+{ =} { \left\langle  F(a)  ,  F(a)   \right\rangle
+}
+{ =} { \left\langle  v  , w  \right\rangle
+}
+{ } {
+}
+}
+{}{}{.}
+Bijektivitasnya juga jelas.
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+
+
+\inputaufgabeklausurloesung
+{6}
+
+{
+
+Misalkan $M$ suatu manifold topologis kompak berdimensi $d$,
+
+\mavergleichskette
+{\vergleichskette
+{ d
+}
+{ \geq }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Tunjukkan bahwa terdapat suatu subhimpunan terbuka terbatas
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^d
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan suatu pemetaan kontinu surjektif
+\maabbdisp {\varphi} { U } { M
+} {}
+.
+
+}
+{
+
+Untuk setiap titik
+\mathl{P \in M}{}, pilih suatu lingkungan peta terbuka
+\mathl{P \in U_P}{} dengan peta
+\maabbdisp {\alpha_P} {U_P } {V_P
+} {}
+dengan
+\mathl{V_P \subseteq \R^d}{.} Dengan beralih ke suatu lingkungan bola dari
+\mathl{\alpha_P(P) \in V_P}{} beserta prapetanya, kita dapat mengasumsikan bahwa $V_p$ adalah bola-bola terbuka yang jari-jarinya paling besar
+\mathl{{ \frac{   1 }{  3 } }}{}. Himpunan-himpunan
+
+\mathbed {U_P} {}
+ {P\in M} {}
+ {} {} {} {,}
+menutupi manifold tersebut. Karena kekompakan $M$, terdapat berhingga banyak titik
+\mathl{P_1 , \ldots , P_n}{} sedemikian sehingga
+
+\mathbed {U_i=U_{P_i}} {}
+ {i=1 , \ldots , n} {}
+ {} {} {} {,}
+juga menutupi manifold tersebut. Kita tempatkan bola-bola terbuka
+\mathl{V_i=V_{P_i}}{} dalam
+\zusatzklammer {\anfuehrung{$\R^d$ yang baru}{}} {} {},
+dengan titik-titik pusat
+
+\mathdisp {(1,0 , \ldots , 0), (2,0 , \ldots , 0) , \ldots , (n,0 , \ldots , 0)} { . }
+
+Karena syarat jari-jari, bola-bola ini saling lepas. Kita tinjau himpunan terbuka terbatas
+\mathl{U= \bigcup_{i=1}^n V_i}{.} Pemetaan-pemetaan peta $\alpha_i$ menghasilkan pemetaan kontinu
+
+\mathdisp {\varphi_i :V_i \stackrel{ \left(  \alpha_i  \right)^{-1} }{\longrightarrow} U_i \longrightarrow M} { . }
+
+Karena saling lepas, pemetaan-pemetaan ini mendefinisikan, melalui
+\mathl{\varphi(z)= \varphi_i(z)}{,} apabila
+\mathl{z \in V_i}{}, suatu pemetaan kontinu
+\maabbdisp {\varphi} { U } {M
+} {.}
+Karena sifat penutupnya, pemetaan ini surjektif.
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{11 (1+3+1+2+4)}
+
+{
+
+Kita tinjau himpunan
+
+\mavergleichskettedisp
+{\vergleichskette
+{N
+}
+{ =} { \left\{ A= \begin{pmatrix}  a   &   b   \\  c  & d \end{pmatrix}   \mid   A \text{ nilpoten}         \right\}
+}
+{ \subseteq} {\R^4
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dari
+$2\times 2$-\definitionsverweis {matriks}{}{}
+real nilpoten, serta himpunan
+
+\mavergleichskettedisp
+{\vergleichskette
+{M
+}
+{ =} { N \setminus \{ \begin{pmatrix}  0   &   0  \\  0  &  0 \end{pmatrix}  \}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+a) Apakah $N$ terhubung?
+
+b) Tunjukkan bahwa $M$ suatu
+\definitionsverweis {submanifold tertutup}{}{}
+dari suatu subhimpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ \subseteq }{ \R^4
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+c) Tentukan
+\definitionsverweis {dimensi}{}{}
+$M$.
+
+d) Apakah $M$ terhubung?
+
+e) Tutupi
+\mathl{M}{} dengan peta-peta topologis eksplisit.
+
+}
+{
+
+a) Setiap matriks nilpoten
+\mathl{\begin{pmatrix}  a   &   b   \\  c  & d \end{pmatrix}}{} dapat dihubungkan dengan matriks nol di dalam himpunan matriks nilpoten melalui lintasan linear
+\maabbeledisp {} {[0,1]} {N
+} { t } {t \begin{pmatrix}  a   &   b   \\  c  & d \end{pmatrix}
+} {,}.
+Karena itu, $N$ terhubung-lintasan dan dengan demikian juga terhubung.
+
+b) Suatu
+$2 \times 2$-\definitionsverweis {matriks}{}{}
+bersifat nilpoten tepat ketika jejak dan determinannya sama dengan $0$. Jadi, himpunan $N$ dari matriks-matriks nilpoten dapat dipandang sebagai
+
+\mathdisp {\left\{  (a,b,c,d)  \mid   a+d = 0 \text{ dan } ad-bc = 0         \right\}} {  }
+
+Kita tinjau pemetaan
+\maabbeledisp {} {\R^4} {\R^2
+} {(a,b,c,d)} { (a+d, ad-bc)
+} {.}
+Matriks Jacobi pemetaan ini adalah
+
+\mathdisp {\begin{pmatrix}  1 &  0 &  0 &  1 \\  d  &  -c &  -b &  a  \end{pmatrix}} { . }
+
+Pemetaan ini tidak
+\definitionsverweis {reguler}{}{,}
+di titik nol, tetapi reguler di setiap titik lain pada serat $N$. Memang, jika
+\mathl{P \in M}{}, maka dari
+
+\mavergleichskettedisp
+{\vergleichskette
+{a^2
+}
+{ =} {bc
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{b
+}
+{ =} { c
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+langsung diperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{a
+}
+{ =} {b
+}
+{ =} { c
+}
+{ =} { d
+}
+{ =} { 0
+}
+}
+{}{}{.}
+Jadi, matriks Jacobi memiliki rank maksimal di titik-titik dalam $M$. Dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{G
+}
+{ =} {\R^4 \setminus \{0\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+kita dapat memandang $M$ sebagai serat pemetaan terbatas yang reguler di seluruh serat tersebut. Oleh karena itu, menurut
+Teorema 8.2 (Geometri diferensial (Osnabrück 2023)),
+$M$ adalah submanifold tertutup dari $G$.
+
+c) Menurut
+Teorema 8.2 (Geometri diferensial (Osnabrück 2023)),
+dimensi $M$ sama dengan
+
+\mavergleichskette
+{\vergleichskette
+{ 4-2
+}
+{ = }{ 2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+d) Kita tulis
+
+\mavergleichskettedisp
+{\vergleichskette
+{M_+
+}
+{ =} { \left\{ (a,b,c,d) \in M  \mid   b>c        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{M_-
+}
+{ =} { \left\{ (a,b,c,d) \in M  \mid   b<c        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+Keduanya,
+\zusatzklammer {sebagai irisan $M$ dengan himpunan yang diberikan oleh
+\mathl{b>c}{} dan terbuka di $\R^4$} {} {},
+merupakan himpunan terbuka dalam $M$. Matriks-matriks
+\mathkor {} {\begin{pmatrix}  0  &   1  \\  0 &  0 \end{pmatrix}} {dan} {\begin{pmatrix}  0  &   0  \\  1 &  0 \end{pmatrix}} {}
+menunjukkan bahwa keduanya tidak kosong. Selain itu, keduanya menutupi seluruh $M$. Memang, jika
+
+\mavergleichskette
+{\vergleichskette
+{b
+}
+{ = }{ c
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+maka dari
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 0
+}
+{ =} { ad-bc
+}
+{ =} { -a^2 -b^2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+langsung diperoleh
+
+\mavergleichskette
+{\vergleichskette
+{a
+}
+{ = }{b
+}
+{ = }{ c
+}
+{ =   }{ d
+}
+{ =  }{ 0
+}
+}
+{}{}{,}
+dan titik tersebut tidak termasuk dalam $M$. Jadi terdapat penutup oleh dua himpunan terbuka tak kosong yang saling lepas; karena itu $M$ tidak terhubung.
+
+e) Kita bekerja dengan pemetaan
+\maabbeledisp {\psi} {\R^2 \setminus \{(0,0)\}} { M_+
+} {(a,u)} { (a, u + \sqrt{a^2+u^2}, u - \sqrt{a^2 +u^2},-a)
+} {.}
+Karena
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ad-bc
+}
+{ =} { -a^2 - \left(  u + \sqrt{a^2+u^2}  \right) \left( u - \sqrt{a^2+u^2}  \right)
+}
+{ =} { -a^2 - \left(  u^2 - \left(  a^2+u^2 \right)   \right)
+}
+{ =} { 0
+}
+{ } {
+}
+}
+{}
+{}{}
+syarat determinan dipenuhi, dan karena
+
+\mavergleichskettedisp
+{\vergleichskette
+{b-c
+}
+{ =} { u + \sqrt{a^2+u^2} - \left(  u- \sqrt{a^2 +u^2})  \right)
+}
+{ =} { 2 \sqrt{a^2+u^2}
+}
+{ >} { 0
+}
+{ } {
+}
+}
+{}{}{}
+citranya termasuk dalam $M_+$. Pemetaan
+\maabbeledisp {\varphi} {M_+} { \R^2 \setminus \{(0,0)\}
+} {(a,b,c,d)} { \left(  a  , \,   { \frac{  b+c }{  2 } }                   \right)
+} {,}
+merupakan invers dari pemetaan yang diberikan. Di sini,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi \circ \psi
+}
+{ =} {
+\operatorname{Id}_{ \R^2 \setminus \{(0,0)\}  }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+jelas. Identitas yang lain diperoleh dari
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ { \frac{  b+c }{  2 } } + \sqrt{a^2 + \left( { \frac{  b+c }{  2 } }  \right)^2 }
+}
+{ =} { { \frac{  b+c }{  2 } } + { \frac{   1 }{  2 } }  \sqrt{4 a^2 + b^2 +c^2 +2bc }
+}
+{ =} { { \frac{  b+c }{  2 } } + { \frac{   1 }{  2 } }  \sqrt{ b^2 +c^2 -2bc }
+}
+{ =} { { \frac{  b+c }{  2 } } + { \frac{  b-c }{  2 } }
+}
+{ =} {b
+}
+}
+{}
+{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{  b+c }{  2 } } - \sqrt{a^2 + \left(   { \frac{  b+c }{  2 } }   \right)^2 }
+}
+{ =} { { \frac{  b+c }{  2 } } - { \frac{  b-c }{  2 } }
+}
+{ =} { c
+}
+{ } {}
+{ } {}
+}
+{}{}{.}
+Kedua pemetaan kontinu, sehingga diperoleh suatu
+\definitionsverweis {homeomorfisme}{}{}.
+Untuk
+\mathl{M_-}{}, tukarkan peran
+\mathkor {} {b} {dan} {c} {.}
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{5}
+
+{
+
+Katakan sesuatu yang cerdas tentang pita Möbius.
+
+}
+{  }
+
+
+
+\inputaufgabeklausurloesung
+{5}
+
+{
+
+Kita tinjau pemetaan
+\maabbeledisp {\varphi} { \R^3 } { \R^2
+} { (x,y,z) } { \left(  xyz^2,xy-z^3  \right)
+} {.}
+Hitung matriks pemetaan
+\maabbdisp {\bigwedge^2 T_P (\varphi)} { \bigwedge^2 T_P \R^3 } { \bigwedge^2 T_{\varphi(P)}  \R^2
+} {}
+di titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ (1,3,5)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terhadap suatu basis yang sesuai.
+
+}
+{
+
+Secara umum, matriks Jacobi dari $\varphi$ adalah
+
+\mathdisp {\begin{pmatrix}  yz^2 &  xz^2 &  2xyz \\  y  &  x  &  -3z^2 \end{pmatrix}} { . }
+
+Untuk titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ (1,3,5)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+matriks Jacobinya adalah
+
+\mathdisp {\begin{pmatrix}  75 &  25 &  30 \\  3 &  1 &  -75  \end{pmatrix}} {  }
+
+Matriks ini merepresentasikan pemetaan linear
+\maabbdisp {L} {T_P\R^3 \cong \R^3} { T_{\varphi(P)} \R^2 \cong \R^2
+} {}
+terhadap basis-basis standar. Kita tentukan representasi matriks untuk pemetaan
+\maabbdisp {\bigwedge^2 L} {\bigwedge^2 \R^3 } { \bigwedge^2 \R^2
+} {}
+terhadap basis
+$e_1 \wedge e_2,\, e_1 \wedge e_3$ , $e_2 \wedge e_3$
+\zusatzklammer {di ruas kiri} {} {}
+dan
+\mathl{e_1 \wedge e_2}{}
+\zusatzklammer {di ruas kanan} {} {.}
+Untuk itu, kita harus menghitung citra hasil kali-hasil kali baji tersebut. Kita peroleh
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ (\bigwedge^2 L ) (e_1 \wedge e_2)
+}
+{ =} { L(e_1) \wedge L(e_2)
+}
+{ =} { (75e_1 + 3e_2) \wedge (  25 e_1 + 1 e_2 )
+}
+{ =} { 75 e_1 \wedge e_2 + 75 e_2 \wedge  e_1
+}
+{ =} { 75 e_1 \wedge e_2 - 75 e_1 \wedge  e_2
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { 0
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{,}
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ (\bigwedge^2 L ) (e_1 \wedge e_3)
+}
+{ =} { L(e_1) \wedge L(e_3)
+}
+{ =} { (75e_1 + 3e_2) \wedge (  30 e_1 - 75 e_2 )
+}
+{ =} { - 75^2 e_1 \wedge e_2 + 90 e_2 \wedge  e_1
+}
+{ =} { (-5625 - 90) e_1 \wedge e_2
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { -5715 e_1 \wedge e_2
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{,}
+dan
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ (\bigwedge^2 L ) (e_2 \wedge e_3)
+}
+{ =} { L(e_2) \wedge L(e_3)
+}
+{ =} { (  25 e_1 + 1 e_2 )   \wedge ( 30 e_1 - 75 e_2)
+}
+{ =} { - 1875 e_1 \wedge e_2 + 30 e_2 \wedge  e_1
+}
+{ =} { -  1905 e_1 \wedge  e_2
+}
+}
+{}
+{}{.}
+Jadi, matriks yang merepresentasikannya adalah
+
+\mathdisp {\left(  0,-5715,-1905                     \right)} { . }
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+merupakan
+\definitionsverweis {subhimpunan-subhimpunan terbuka}{}{}
+dan misalkan
+\maabbdisp {\psi} { W } { U
+} {}
+suatu
+\definitionsverweis {pemetaan}{}{}
+yang
+\definitionsverweis {terdiferensialkan secara kontinu}{}{.}
+Misalkan
+\maabbdisp {f} { U } {\R
+} {}
+suatu fungsi terdiferensialkan secara kontinu. Simpulkan dari
+aturan rantai
+bahwa
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d (\psi^*f)
+}
+{ =} { \psi^*(df)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+dengan $\psi^*$ menyatakan
+\definitionsverweis {penarikan balik bentuk diferensial}{}{.}
+
+}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{  W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{  \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Di satu pihak,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d( \psi^* f) (P,v)
+}
+{ =} { D_P( f \circ \psi) (v)
+}
+{ =} { \left(  \left(  D_{\psi(P)} f  \right)  \circ \left(  D_P  \psi  \right)  \right) (v)
+}
+{ =} { D_{\psi(P)} (f) \left(  D_P \psi(v)  \right)
+}
+{ } {
+}
+}
+{}{}{.}
+Di pihak lain, juga berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \psi^*(df)  \right) (P,v)
+}
+{ =} { (df) \left(  \psi(P), (D_P \psi )(v)  \right)
+}
+{ =} { D_{\psi(P)} (f) \left(  D_P \psi (v)  \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{7}
+
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dengan
+\definitionsverweis {basis terhitung bagi topologinya}{}{}
+dan misalkan $\omega$ suatu
+\definitionsverweis {bentuk volume positif}{}{}
+pada $M$. Misalkan
+\maabbdisp {\varphi} { L } { M
+} {}
+suatu
+\definitionsverweis {difeomorfisme}{}{}
+dengan manifold $L$ dan
+
+\mavergleichskette
+{\vergleichskette
+{ S
+}
+{ \subseteq }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {subhimpunan terukur}{}{.}
+Tunjukkan bahwa
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_S \varphi^* \omega
+}
+{ =} { \int_{ \varphi(S)} \omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{
+
+Menurut
+Lema 15.2 (Geometri diferensial (Osnabrück 2023)),
+kita dapat mengasumsikan bahwa
+\mathkor {} {S} {dan} {\varphi(S)} {}
+masing-masing seluruhnya terletak dalam satu peta dari
+\mathkor {} {L} {dan} {M} {},
+katakanlah
+
+\mavergleichskette
+{\vergleichskette
+{ S
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan peta
+\maabbdisp {\alpha} { U } { U' \subseteq \R^n
+} {}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi(S)
+}
+{ \subseteq }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan peta
+\maabbdisp {\beta} { V } { V' \subseteq \R^n
+} {.}
+Dengan memperkecil peta-peta itu lebih lanjut, kita dapat mengasumsikan bahwa
+\mathkor {} {U} {dan} {V} {}
+difeomorfik satu sama lain melalui $\varphi$. Dengan demikian terdapat diagram komutatif difeomorfisme
+
+\mathdisp {\begin{matrix}  U  & \stackrel{ \varphi }{\longrightarrow} &  V  &  \\ \!\!\!\!\! \alpha \downarrow & & \downarrow \beta \!\!\!\!\!  & \\  U'  & \stackrel{ \beta \circ \varphi \circ \alpha^{-1} }{\longrightarrow} &  V' & \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }
+
+yang menginduksi diagram komutatif
+
+\mathdisp {\begin{matrix}  S  & \stackrel{ \varphi }{\longrightarrow} &  \varphi (S)  &  \\ \!\!\!\!\! \alpha \downarrow & & \downarrow \beta \!\!\!\!\!  & \\  \alpha (S) & \stackrel{ \beta \circ \varphi \circ \alpha^{-1} }{\longrightarrow} &  \beta ( \varphi (S) ) & \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }
+
+atas himpunan-himpunan terukur. Untuk bentuk volume $\omega$ pada $V$ berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \alpha^{ {-1}*} ( \varphi^* \omega)
+}
+{ =} { \left(  \beta \circ \varphi \circ \alpha^{-1}  \right)^*  ( \beta^{ {-1}*} \omega)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+menurut
+Lema 14.7 (Geometri diferensial (Osnabrück 2023))  (4).
+Bentuk volume $\beta^{ {-1}*} \omega$ pada $V'$ memiliki representasi
+\mathl{g dy_1  \wedge \ldots \wedge dy_n}{} dengan suatu fungsi terukur
+\maabb {g} {V'} {\R
+} {},
+dan menurut definisi, $\int_{\varphi(S)} \omega$ sama dengan $\int_{\beta( \varphi(S))} g d \lambda^n$. Demikian pula,
+\mathl{\alpha^{ {-1}*} ( \varphi^* \omega)}{} pada $U'$ memiliki representasi berbentuk
+\mathl{f dx_1 \wedge \ldots \wedge dx_n}{.} Bentuk volume pada $U'$ ini sama dengan tarikan balik dari
+\mathl{g dy_1  \wedge \ldots \wedge dy_n}{}, dan menurut
+Korolari 14.9 (Geometri diferensial (Osnabrück 2023)),
+tarikan balik tersebut sama dengan
+
+\mathdisp {(g \circ \psi) \cdot \det  \left(  \left(  { \frac{   \partial   \psi_i   }{  \partial   x_j   } }  \right)_{1 \leq  i, j \leq n}  \right) dx_1 \wedge \ldots \wedge dx_n} {  }
+
+\zusatzklammer {dengan
+
+\mavergleichskettek
+{\vergleichskettek
+{ \psi
+}
+{ = }{ \beta \circ \varphi \circ \alpha^{-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {.}
+Dengan demikian, pernyataan tersebut mengikuti dari
+Ujian dengan solusi (Teori ukuran dan integrasi (Osnabrück 2022-2023)) (Teori ukuran dan integrasi (Osnabrück 2022-2023))
+(Geometri diferensial (Osnabrück 2023)).
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{2}
+
+{
+
+Pada
+\definitionsverweis {bundel vektor trivial}{}{}
+\maabbdisp {p} {\R^2 \times \R} { \R^2
+} {}
+ber-
+\definitionsverweis {rank}{}{}
+$1$ di atas $\R^2$, kita tinjau
+\definitionsverweis {koneksi linear}{}{,}
+yang diberikan oleh
+\definitionsverweis {simbol-simbol Christoffel}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ \Gamma_1 (x,y)
+}
+{ = }{ x^5-x^2y^2+3y^4
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ \Gamma_2 (x,y)
+}
+{ = }{ 7x^3 +xy^2-4y^5
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Hitung
+\definitionsverweis {operator kelengkungan}{}{}
+$R \left(  \partial_1, \partial_2  \right)$.
+
+}
+{
+
+Menurut
+Fakta *****,
+berlaku
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ R \left(  \partial_1, \partial_2  \right)
+}
+{ =} { \partial_1 \Gamma_2 - \partial_2 \Gamma_1
+}
+{ =} { \partial_1 \left(  7x^3 +xy^2-4y^5  \right) -  \partial_2 \left(   x^5-x^2y^2+3y^4   \right)
+}
+{ =} {  21x^2 +y^2 - 5x^4 -2xy^2
+}
+{ } {
+}
+}
+{}
+{}{.}
+
+ }
+
+
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+
+
+\inputaufgabeklausurloesung
+{6}
+
+{
+
+Buktikan teorema tentang retraksi ke batas pada manifold.
+
+}
+{
+
+Menurut
+Teorema 21.8 (Geometri diferensial (Osnabrück 2023)),
+batas
+\mathl{\partial M}{} merupakan
+\definitionsverweis {manifold diferensiabel}{}{}
+\definitionsverweis {berorientasi}{}{}
+\zusatzklammer {tanpa batas} {} {.}
+Oleh karena itu, menurut
+Teorema 22.11 (Geometri diferensial (Osnabrück 2023)),
+terdapat suatu
+\definitionsverweis {bentuk volume positif}{}{}
+\definitionsverweis {yang terdiferensialkan secara kontinu}{}{}
+$\tau$ pada
+\mathl{\partial M}{.} Kita mempunyai
+\mathl{\int_{  \partial M  }  \tau >0}{.}
+\definitionsverweis {Turunan eksterior}{}{}
+dari bentuk volume $\tau$ adalah $0$. Andaikan terdapat suatu
+\definitionsverweis {pemetaan yang terdiferensialkan secara kontinu}{}{}
+\maabbdisp {\varphi} { M } { \partial M
+} {}
+dengan
+\mathl{\varphi \vert_{\partial M} = \operatorname{Id}_{\partial M}}{}. Maka
+\definitionsverweis {bentuk tarikan balik}{}{}
+
+\mathl{\varphi^* \tau}{} adalah
+$(n-1)$-\definitionsverweis {bentuk diferensial}{}{}
+pada $M$ yang pembatasannya pada batas berimpit dengan $\tau$. Dengan menggunakan
+Teorema 23.2 (Geometri diferensial (Osnabrück 2023))
+dan
+Teorema 20.4 (Geometri diferensial (Osnabrück 2023))  (5),
+kita memperoleh
+
+\mavergleichskettealign
+{\vergleichskettealign
+{
+\int_{  \partial M  }  \tau
+}
+{ =} {
+\int_{  \partial  M  }  \varphi^* \tau
+}
+{ =} {
+\int_{   M  }  d(\varphi^* \tau)
+}
+{ =} {
+\int_{   M  }  \varphi^* (d\tau)
+}
+{ =} {
+\int_{   M  }  \varphi^* (0)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { 0
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+Ini merupakan suatu kontradiksi.
+
+ }

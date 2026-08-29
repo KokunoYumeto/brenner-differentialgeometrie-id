@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "input": "source/units/unit-01/worksheet01.id.tex",
-  "input_bytes": 13470,
-  "input_sha256": "a4ec57c7c380c8a8f607019b660279a7f5ffd1cf5ee0e432154608ca1628965c",
+  "input_bytes": 13478,
+  "input_sha256": "70b598bd9ef0db42f8461cd2e6289cfbaa7d96634bc4c186dcda59f1f8013677",
   "output": "build/generated/worksheet01.id.build.tex",
-  "output_bytes": 13443,
-  "output_sha256": "8a9d9b2335e6eb8a5118d10d28693eee6b29ddf91721408fbee076fa1bec7934",
+  "output_bytes": 13451,
+  "output_sha256": "4f3b5c9b14bdc7262d560fb00d9caf701801db121a16f6fb261557752069f4b5",
   "removed_category_links": 1,
   "removed_noedit_markers": 0,
   "trimmed_media_arguments": 0,
@@ -13,5 +13,7 @@
     "operatorname_kern_to_ker": 0,
     "operatorname_bild_to_im": 0
   },
-  "rendered_internal_links": []
+  "layout_reflows": [],
+  "rendered_internal_links": [],
+  "rendered_interactive_gif_links": []
 }

@@ -1,0 +1,50 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Es ist
+{{
+Relationskette/align
+| \gamma'(t)
+|| {{op:Spaltenvektor|s+r {{op:Bruch| {{op:sinh| t |}} | {{op:cosh| t |}} }}  | {{op:Bruch| r | {{op:cosh| t |}} }} }}'
+|| r {{op:Spaltenvektor| {{op:Bruch| {{op:cosh| t |pot=2}}   -{{op:sinh| t |pot=2}} | {{op:cosh| t |pot=2}} }}  | - {{op:Bruch|{{op:sinh| t |}}  | {{op:cosh| t |pot=2}} }} }}
+|| r {{op:Spaltenvektor| {{op:Bruch|  1 | {{op:cosh| t |pot=2}} }}  | - {{op:Bruch|{{op:sinh| t |}}  | {{op:cosh| t |pot=2}} }} }}
+|| {{op:Bruch| r | {{op:cosh| t |pot=2}} }}{{op:Spaltenvektor| 1  | - {{op:sinh| t |}}  }}
+|SZ=
+}}
+und
+{{
+Relationskette/align
+| \gamma^{\prime \prime}(t)
+|| r {{op:Spaltenvektor| {{op:Bruch|  1 | {{op:cosh| t |pot=2}} }}  | - {{op:Bruch|{{op:sinh| t |}}  | {{op:cosh| t |pot=2}} }} }}'
+|| r {{op:Spaltenvektor| {{op:Bruch| -2 {{op:sinh| t |}}  | {{op:cosh| t |pot=3}} }}  | {{op:Bruch| - {{op:cosh| t |pot=3}} + 2 {{op:sinh| t |pot=2}} {{op:cosh| t |}} | {{op:cosh| t |pot=4}} }} }}
+|| r {{op:Spaltenvektor| {{op:Bruch| -2 {{op:sinh| t |}}  | {{op:cosh| t |pot=3}} }}  | {{op:Bruch| - {{op:cosh| t |pot=2}} + 2 {{op:sinh| t |pot=2}} | {{op:cosh| t |pot=3}} }} }}
+|SZ=.
+}}
+Wegen
+{{
+Relationskette/display
+|  {{op:Bruch| 2| {{op:Bruch| r | {{op:cosh| t |}} }} }} \cdot    {{op:Bruch| r |{{op:cosh| t |pot=2}} }} \cdot (-1) {{op:Bruch|r {{op:sinh| t |}} |{{op:cosh| t |pot=2}} }} 
+|| - {{op:Bruch| 2 r {{op:sinh| t |}}  |{{op:cosh| t |pot=3}} }} 
+|| \gamma_1^{\prime \prime} (t)
+|| 
+|| 
+|SZ=
+}}
+stimmt die erste Gleichung. Wegen
+{{
+Relationskette/align
+| - {{op:Bruch| 1| \gamma_2(t)}}  \gamma_1'(t) \gamma_1'(t) + {{op:Bruch| 1| \gamma_2(t)}}  \gamma_2'(t) \gamma_2'(t)
+|| {{op:Bruch| {{op:cosh| t |}} |r}} {{makl| - {{makl| {{op:Bruch| r | {{op:cosh| t |pot=2}} }} |}}^2 + {{makl| {{op:Bruch|r {{op:sinh| t |}} | {{op:cosh| t |pot=2}} }} |}}^2 |}}  
+|| {{op:Bruch| r {{makl| -1 + {{op:sinh| t |pot=2}} |}} | {{op:cosh| t |pot=3}} }} 
+|| {{op:Bruch| r {{makl| - {{op:cosh| t |pot=2}} +2 {{op:sinh| t |pot=2}} |}} |{{op:cosh| t |pot=3}} }} 
+|| \gamma_2^{\prime \prime} (t)
+|| 
+|SZ=
+}}
+ist auch die zweite Gleichung erfüllt.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

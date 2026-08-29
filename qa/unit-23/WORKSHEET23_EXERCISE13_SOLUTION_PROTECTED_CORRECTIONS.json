@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-23/worksheet23_exercise13_solution.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-TRANS-0315",
+      "anchor": "opening coordinate display in the supplied solution to Exercise 23.13",
+      "change": "Translate the reader-visible German connective und inside the coordinate display to Indonesian dan without changing any point coordinates."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-TRANS-0315",
+      "surface": "profile:protected:mathdisp",
+      "source_sha256": "76f07320acdb9473ec887579356a5d00da2136aaabbb907f5b720db5c1c79ced",
+      "target_sha256": "cfacd4b3ecda02c66c39928c155c0d6bb5ddfc63cd4a4eacbd7224cd0560a8dd"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-TRANS-0315",
+      "surface": "command:mathdisp",
+      "occurrence_index": 0,
+      "source_sha256": "75f191427d95d97e9ca4b48ea1308a25994d3203e836beec491f0d24c67c9961",
+      "target_sha256": "a5e534a379f1eca0d3487679e6ac890a3df2bf87cb72f93b1a03425244c08dee"
+    }
+  ]
+}

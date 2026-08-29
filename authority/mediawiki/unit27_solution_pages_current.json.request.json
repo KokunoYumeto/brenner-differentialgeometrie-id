@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 15:24:36 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Längs Abbildung/Horizontaler Schnitt/Aufgabe/Lösung|Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Längs Abbildung/Trivial/Aufgabe/Lösung|Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Rückzug längs Weg/Explizit/Aufgabe/Lösung|Kreis/Trigonometrische Parametrisierung/Zusammenhang in R^2/Horizontale Liftung/Aufgabe/Lösung|Hyperbolische Halbebene/Exponentialfunktion/Christoffelsymbole/Aufgabe/Lösung|Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Rückzug/Funktorielle Eigenschaften/Aufgabe/Lösung|Riemannsche Mannigfaltigkeit/Geodätische Kurve/Ableitung/Horizontaler Schnitt/Aufgabe/Lösung|Offenes Intervall/Riemannsche Mannigfaltigkeit/Geodätische Kurve/Aufgabe/Lösung|Hyperbolische Halbebene/Kurve/Tangentiale Beschleunigung/2/Aufgabe/Lösung|Zusammenhängende riemannsche Mannigfaltigkeit/Punkte/Keine geodätische Kurve/Aufgabe/Lösung|Zusammenhängende riemannsche Mannigfaltigkeit/Mehrere geodätische Kurven/Gleiche_Länge/Aufgabe/Lösung|Zusammenhängende riemannsche Mannigfaltigkeit/Mehrere geodätische Kurven/Unterschiedliche_Länge/Aufgabe/Lösung|Halbebene/Poincaré/Riemannsche Geometrie/Geodätische/Halbkreislösungen/Aufgabe/Lösung|Ebene/Kreise/Mittelpunkte auf x-Achse/Schnittpunkt/Aufgabe/Lösung|Halbebene von Poincaré/Punkt und Tangente/Geodätische Realisierung/Aufgabe/Lösung|Riemannsche Mannigfaltigkeit/Isometrie/Zusammenhang/Geodätische Kurve/Aufgabe/Lösung|Hyperfläche/Riemannsche Mannigfaltigkeit/Kurve/Paralleles Vektorfeld/Aufgabe/Lösung|Riemannsche Mannigfaltigkeit/Kurve/Geodätische Kurve und paralleles Vektorfeld/Aufgabe/Lösung|Euklidischer Raum/Riemannsche Metrik/Euklidisch/Aufgabe/Lösung|R+/t^2/Riemannsche Mannigfaltigkeit/Geodätische Kurven/Aufgabe/Lösung|Hyperbolische Halbebene/Kurve/Christoffelsymbole und tangentiale Beschleunigung/1/Aufgabe/Lösung|Hyperbolische Kreisscheibe/Geodätische Kurven/Aufgabe/Lösung|Euklidischer Raum/Ohne Punkte/Riemannsche Metrik/Euklidisch/Aufgabe/Lösung"
+  },
+  "response_bytes": 14817,
+  "response_path": "unit27_solution_pages_current.json",
+  "response_sha256": "452cc0e102ca43df58439f1a8bf8f270dd21abd50290ec2842e19ec0e65ed5fb",
+  "retrieved_utc": "2026-08-28T15:24:36Z",
+  "schema_version": 1
+}

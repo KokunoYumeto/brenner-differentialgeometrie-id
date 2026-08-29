@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 17:25:05 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Kurs:Differentialgeometrie/10/Klausur mit Lösungen/latex"
+  },
+  "response_bytes": 44051,
+  "response_path": "exam10_solutions_expandtemplates.json",
+  "response_sha256": "1aa7a34604aecdf462ac1980e91cd23ba3ce4f826c7045a9dc7f19dc426a3811",
+  "retrieved_utc": "2026-08-28T17:25:04Z",
+  "schema_version": 1
+}

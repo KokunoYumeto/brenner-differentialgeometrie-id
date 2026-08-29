@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-25/worksheet25_exercise07_solution.id.tex",
+  "input_bytes": 898,
+  "input_sha256": "bfea93e80cfdabd3ae9adb33bc421ec13c5855911961dca480fbcfcf6b6d09d5",
+  "output": "build/generated/worksheet25_exercise07_solution.id.build.tex",
+  "output_bytes": 675,
+  "output_sha256": "aeff3f5e7e34f5de031df90eb254b8696a3875588c9178bcb69845f7f5f511d0",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Global integrabel/Globale Trivialisierung/Aufgabe",
+      "label": "Soal"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontaler Schnitt/Vertikale Ableitung/Fakt",
+      "label": "Lema"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

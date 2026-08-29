@@ -1,0 +1,1411 @@
+{
+  "authority": {
+    "course_recursive_export": {
+      "bytes": 3538709,
+      "path": "authority/mediawiki/brenner_course_recursive_current.xml",
+      "sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14"
+    },
+    "latex_surface_recursive_export": {
+      "bytes": 3722387,
+      "path": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+      "sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c"
+    },
+    "pages": {
+      "lecture_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture23_latex_surface_revid807129.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1200,
+          "path": "authority/mediawiki/lecture23_latex_surface_revid807129.metadata.json",
+          "sha256": "1aa3a70900256936d310722b36a63de606e92e3c02c3e90be770c3756cd96aeb"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142597,
+        "parentid": 799038,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/lecture23_latex_surface_revid807129.wiki",
+        "revid": 807129,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T10:01:00Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 23/latex"
+      },
+      "lecture_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "a77015881cc1a1022190e7a3290aa8be4413ff77c65e0ac94b276bf4a6f0b96f",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture23_root_revid991600.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "i4t2j6lri49unzit83e4xy1diyxfpho",
+        "metadata": {
+          "bytes": 1172,
+          "path": "authority/mediawiki/lecture23_root_revid991600.metadata.json",
+          "sha256": "2246d7c1c4b8cd8cd40c9cfbe78924100eb3e4a2f496c7f600303661307a6798"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142567,
+        "parentid": 897929,
+        "readable_normalized_bytes": 2912,
+        "readable_normalized_sha256": "42404deb6184d8dd13f83120ee9809360d3b5374207fbeb594f4800a3332e97b",
+        "readable_normalized_witness": "authority/mediawiki/lecture23_root_revid991600.wiki",
+        "revid": 991600,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 2911,
+        "source_utf8_sha1": "9b3cf43aaba21b3cb0b746fdb12ec65cc2b417cc",
+        "source_utf8_sha256": "f612667ad08ced1e019a688a67ee4a5b5f1d25da8e4b63553b1a770cbc2e588f",
+        "timestamp": "2025-01-23T13:23:39Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 23"
+      },
+      "worksheet_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet23_latex_surface_revid807098.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1207,
+          "path": "authority/mediawiki/worksheet23_latex_surface_revid807098.metadata.json",
+          "sha256": "feac8b7d7886aed59dd85c04a0c3a64aee47ae4d6c0b1f9fa1b471a0879df448"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142687,
+        "parentid": 799007,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/worksheet23_latex_surface_revid807098.wiki",
+        "revid": 807098,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T09:55:50Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 23/latex"
+      },
+      "worksheet_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "8703a96476f7706ff824b10c64dac07edb042f28b9250949e059e99a01090583",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet23_root_revid1020032.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "dzvodh4192ia60x4rn3njtgvfcd5cyo",
+        "metadata": {
+          "bytes": 1182,
+          "path": "authority/mediawiki/worksheet23_root_revid1020032.metadata.json",
+          "sha256": "8282194f79975587c8fc6a34b6d2a14be418a9a1b5f56091f58486e60abb082e"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142657,
+        "parentid": 991607,
+        "readable_normalized_bytes": 3945,
+        "readable_normalized_sha256": "c54b859b18a42c399060610c1f9f8db0a04cabd769e369b5e9261e571b6212ef",
+        "readable_normalized_witness": "authority/mediawiki/worksheet23_root_revid1020032.wiki",
+        "revid": 1020032,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 3944,
+        "source_utf8_sha1": "77d2b0e782c5e6f503defffb15db9f6b07c05de0",
+        "source_utf8_sha256": "a035cb0b2eafc86ee63ee1a80e0dae59240587e6ca5b69eeaa181f450a0ab5b3",
+        "timestamp": "2025-08-09T13:45:26Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 23"
+      }
+    },
+    "root_revision_baselines": {},
+    "root_revision_manifest": {
+      "bytes": 15237,
+      "path": "authority/brenner_selected_root_revisions.csv",
+      "sha256": "64cf91594907db45355e64fb512fb14092e15218c74847a8f60fe884a5284fc8"
+    },
+    "root_revision_overrides": {},
+    "surface_revision_manifest": {
+      "bytes": 31799,
+      "path": "authority/brenner_selected_surface_revisions.csv",
+      "sha256": "9a3a6b7dc08cc022803dad24e959365d67810d4da87a8bc4385c601db9d4bd52"
+    }
+  },
+  "checks": {
+    "all_candidate_solution_titles_queried": true,
+    "all_displayed_images_have_license_macros": true,
+    "all_point_markers_resolved": true,
+    "all_supplied_solution_latex_snapshots_frozen": true,
+    "all_supplied_solution_revisions_frozen": true,
+    "exercise_root_expansion_count_agreement": true,
+    "lecture_expansion_sanitized": true,
+    "revision_export_hashes_match": true,
+    "root_revision_bindings_unique": true,
+    "root_witnesses_match_mediawiki_sha1": true,
+    "solution_macro_api_agreement": true,
+    "surface_revision_bindings_unique": true,
+    "translation_started_by_workflow": false,
+    "unit_media_binary_and_rights_closure": true,
+    "worksheet_expansion_sanitized": true
+  },
+  "expansions": {
+    "lecture": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 28926,
+      "http_date": "Fri, 28 Aug 2026 14:55:39 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 23/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 674,
+        "path": "authority/exports/lecture23_latex_expand.json.request.json",
+        "sha256": "c974902b011b17f867e2723bfa37ea11a1b0ef2120a73129908dec8fc9e7c6a7"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 30610,
+        "path": "authority/exports/lecture23_latex_expand.json",
+        "sha256": "4ae33aedccb9e9622d664383481acda0ec20870837044c126e2b92eee1156fb8"
+      },
+      "retrieved_utc": "2026-08-28T14:55:39Z",
+      "sanitized_source": {
+        "bytes": 25008,
+        "path": "authority/expanded/lecture23_source.de.tex",
+        "sha256": "0912b72dcc4a17f56d8835d9550093ea8825a13afc6be61b6742c13e67f135a9"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 672,
+        "path": "qa/unit-23/lecture23_sanitize.json",
+        "sha256": "0244240fc387bb9902834b5d1f457a57ddf0ff914f3a8c0dd4a7ed33e70fa823"
+      },
+      "valid_utf8": true
+    },
+    "worksheet": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 18426,
+      "http_date": "Fri, 28 Aug 2026 14:55:40 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 23/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 679,
+        "path": "authority/exports/worksheet23_latex_expand.json.request.json",
+        "sha256": "59c24da3e259b3f89e028b2ea80f811d96e721102372c9c57ebbe0e279840494"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 19675,
+        "path": "authority/exports/worksheet23_latex_expand.json",
+        "sha256": "869843833e695ededf247313364ca86527597607a9c3ed76f2716a7bf81e151c"
+      },
+      "retrieved_utc": "2026-08-28T14:55:39Z",
+      "sanitized_source": {
+        "bytes": 14740,
+        "path": "authority/expanded/worksheet23_source.de.tex",
+        "sha256": "96938095ddde7b9ae9e39bf05871d2f82f142c871e41dc479515dbf8a805249e"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 676,
+        "path": "qa/unit-23/worksheet23_sanitize.json",
+        "sha256": "3ab941c92b9f471601e9e81a4687386cb7df37c2cddcec50d2fa17afcae6bd6c"
+      },
+      "valid_utf8": true
+    }
+  },
+  "media": {
+    "all_displayed_images_have_license_macros": true,
+    "assets": [
+      {
+        "artist_html": "",
+        "artist_identity": {
+          "plain_text": ""
+        },
+        "artist_text": "",
+        "attribution_required": false,
+        "binary": {
+          "bytes": 228915,
+          "path": "authority/media/SS-stokes.jpg",
+          "sha256": "5d357a2d401d3d41b6d95f30392aed06eef4ad10cded56f444214ea60cb5f30f"
+        },
+        "bytes": 228915,
+        "commons_lastrevid": 1229138183,
+        "commons_pageid": 2467,
+        "commons_sha1": "c68839173add3e8ebf613b837de43f11d5840f66",
+        "commons_touched": "2026-07-03T17:50:09Z",
+        "copyrighted_status": "False",
+        "credit_html": "",
+        "credit_text": "",
+        "current_matches_frozen_rights_manifest": {
+          "artist_html": true,
+          "artist_identity": true,
+          "attribution_required": true,
+          "bytes": true,
+          "copyrighted": true,
+          "credit_html": true,
+          "license": true,
+          "license_url": true,
+          "mime": true,
+          "sha1": true
+        },
+        "description_url": "https://commons.wikimedia.org/wiki/File:SS-stokes.jpg",
+        "download_receipt": {
+          "bytes": 228915,
+          "content_type": "image/jpeg",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SS-stokes.jpg",
+          "http_date": "Fri, 28 Aug 2026 14:57:10 GMT",
+          "retrieved_utc": "2026-08-28T14:57:10Z",
+          "schema_version": 1,
+          "sha1": "c68839173add3e8ebf613b837de43f11d5840f66",
+          "sha256": "5d357a2d401d3d41b6d95f30392aed06eef4ad10cded56f444214ea60cb5f30f",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SS-stokes.jpg"
+        },
+        "filename": "SS-stokes.jpg",
+        "frozen_artist_html": "",
+        "frozen_artist_identity": {
+          "plain_text": ""
+        },
+        "frozen_artist_text": "",
+        "frozen_credit_html": "",
+        "frozen_credit_text": "",
+        "height": 1065,
+        "image_timestamp": "2004-12-09T16:02:31Z",
+        "image_user": "Kelson",
+        "license": "Public domain",
+        "license_url": null,
+        "localized_artist_variance": false,
+        "localized_credit_variance": false,
+        "mime": "image/jpeg",
+        "occurrences": [
+          {
+            "display_license_alias": null,
+            "displayed_filename": "SS-stokes.jpg",
+            "filename": "SS-stokes.jpg",
+            "surface": "lecture23",
+            "surface_order": 1
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SS-stokes.jpg",
+        "rights_critical_fields_match": true,
+        "sha256": "5d357a2d401d3d41b6d95f30392aed06eef4ad10cded56f444214ea60cb5f30f",
+        "usage_terms": "Public domain",
+        "width": 711
+      },
+      {
+        "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jean-Luc_W\" title=\"User:Jean-Luc W\">Jean-Luc W</a>",
+        "artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/wiki/User:Jean-Luc_W"
+          ],
+          "creator_label": "Jean-Luc W"
+        },
+        "artist_text": "Jean-Luc W",
+        "attribution_required": true,
+        "binary": {
+          "bytes": 20602,
+          "path": "authority/media/Théorème-de-Brouwer-(cond-2).jpg",
+          "sha256": "f46ef9add7d40b71876555ba7e09d4d176012dc275b756802411ef1ab6f9fc7b"
+        },
+        "bytes": 20602,
+        "commons_lastrevid": 547327578,
+        "commons_pageid": 6317773,
+        "commons_sha1": "a2688688ffbb8d863021627ad4986f1151f802a3",
+        "commons_touched": "2026-08-02T06:17:19Z",
+        "copyrighted_status": "True",
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "credit_text": "Own work",
+        "current_matches_frozen_rights_manifest": {
+          "artist_html": true,
+          "artist_identity": true,
+          "attribution_required": true,
+          "bytes": true,
+          "copyrighted": true,
+          "credit_html": false,
+          "license": true,
+          "license_url": true,
+          "mime": true,
+          "sha1": true
+        },
+        "description_url": "https://commons.wikimedia.org/wiki/File:Th%C3%A9or%C3%A8me-de-Brouwer-(cond-2).jpg",
+        "download_receipt": {
+          "bytes": 20602,
+          "content_type": "image/jpeg",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Th%C3%A9or%C3%A8me-de-Brouwer-%28cond-2%29.jpg",
+          "http_date": "Thu, 27 Aug 2026 23:40:24 GMT",
+          "retrieved_utc": "2026-08-28T14:57:10Z",
+          "schema_version": 1,
+          "sha1": "a2688688ffbb8d863021627ad4986f1151f802a3",
+          "sha256": "f46ef9add7d40b71876555ba7e09d4d176012dc275b756802411ef1ab6f9fc7b",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Th%C3%A9or%C3%A8me-de-Brouwer-%28cond-2%29.jpg"
+        },
+        "filename": "Théorème-de-Brouwer-(cond-2).jpg",
+        "frozen_artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jean-Luc_W\" title=\"User:Jean-Luc W\">Jean-Luc W</a>",
+        "frozen_artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/wiki/User:Jean-Luc_W"
+          ],
+          "creator_label": "Jean-Luc W"
+        },
+        "frozen_artist_text": "Jean-Luc W",
+        "frozen_credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+        "frozen_credit_text": "Eigenes Werk",
+        "height": 177,
+        "image_timestamp": "2009-03-23T10:55:09Z",
+        "image_user": "Jean-Luc W",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "localized_artist_variance": false,
+        "localized_credit_variance": true,
+        "mime": "image/jpeg",
+        "occurrences": [
+          {
+            "display_license_alias": null,
+            "displayed_filename": "Théorème-de-Brouwer-(cond-2).jpg",
+            "filename": "Théorème-de-Brouwer-(cond-2).jpg",
+            "surface": "lecture23",
+            "surface_order": 2
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Th%C3%A9or%C3%A8me-de-Brouwer-%28cond-2%29.jpg",
+        "rights_critical_fields_match": true,
+        "sha256": "f46ef9add7d40b71876555ba7e09d4d176012dc275b756802411ef1ab6f9fc7b",
+        "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+        "width": 180
+      },
+      {
+        "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jean-Luc_W\" title=\"User:Jean-Luc W\">Jean-Luc W</a>",
+        "artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/wiki/User:Jean-Luc_W"
+          ],
+          "creator_label": "Jean-Luc W"
+        },
+        "artist_text": "Jean-Luc W",
+        "attribution_required": true,
+        "binary": {
+          "bytes": 33149,
+          "path": "authority/media/Théorème-de-Brouwer-(cond-1).jpg",
+          "sha256": "bc428893e0422da636766390820177c3179e68848fac71fbc6c6f0147f2c447b"
+        },
+        "bytes": 33149,
+        "commons_lastrevid": 547327567,
+        "commons_pageid": 6317587,
+        "commons_sha1": "4167e29f29a545ba4ea34928b578d1887be6279d",
+        "commons_touched": "2026-08-02T06:17:19Z",
+        "copyrighted_status": "True",
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "credit_text": "Own work",
+        "current_matches_frozen_rights_manifest": {
+          "artist_html": true,
+          "artist_identity": true,
+          "attribution_required": true,
+          "bytes": true,
+          "copyrighted": true,
+          "credit_html": false,
+          "license": true,
+          "license_url": true,
+          "mime": true,
+          "sha1": true
+        },
+        "description_url": "https://commons.wikimedia.org/wiki/File:Th%C3%A9or%C3%A8me-de-Brouwer-(cond-1).jpg",
+        "download_receipt": {
+          "bytes": 33149,
+          "content_type": "image/jpeg",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Th%C3%A9or%C3%A8me-de-Brouwer-%28cond-1%29.jpg",
+          "http_date": "Thu, 27 Aug 2026 23:40:24 GMT",
+          "retrieved_utc": "2026-08-28T14:57:58Z",
+          "schema_version": 1,
+          "sha1": "4167e29f29a545ba4ea34928b578d1887be6279d",
+          "sha256": "bc428893e0422da636766390820177c3179e68848fac71fbc6c6f0147f2c447b",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Th%C3%A9or%C3%A8me-de-Brouwer-%28cond-1%29.jpg"
+        },
+        "filename": "Théorème-de-Brouwer-(cond-1).jpg",
+        "frozen_artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jean-Luc_W\" title=\"User:Jean-Luc W\">Jean-Luc W</a>",
+        "frozen_artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/wiki/User:Jean-Luc_W"
+          ],
+          "creator_label": "Jean-Luc W"
+        },
+        "frozen_artist_text": "Jean-Luc W",
+        "frozen_credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+        "frozen_credit_text": "Eigenes Werk",
+        "height": 300,
+        "image_timestamp": "2009-03-23T10:19:42Z",
+        "image_user": "Jean-Luc W",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "localized_artist_variance": false,
+        "localized_credit_variance": true,
+        "mime": "image/jpeg",
+        "occurrences": [
+          {
+            "display_license_alias": "Théorème-de-Brouwer-(cond-1).jpg",
+            "displayed_filename": "Theoreme-de-Brouwer-(cond-1).jpg",
+            "filename": "Théorème-de-Brouwer-(cond-1).jpg",
+            "surface": "lecture23",
+            "surface_order": 3
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Th%C3%A9or%C3%A8me-de-Brouwer-%28cond-1%29.jpg",
+        "rights_critical_fields_match": true,
+        "sha256": "bc428893e0422da636766390820177c3179e68848fac71fbc6c6f0147f2c447b",
+        "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+        "width": 200
+      }
+    ],
+    "current_commons_api": "https://commons.wikimedia.org/w/api.php",
+    "current_commons_query": {
+      "bytes": 6636,
+      "path": "authority/mediawiki/unit23_media_imageinfo_current.json",
+      "sha256": "8d61fe7637d7ebd925f503b54bc24884b69681c6f6eaacd288190ff36a5a4c20"
+    },
+    "current_commons_query_request_receipt": {
+      "bytes": 722,
+      "path": "authority/mediawiki/unit23_media_imageinfo_current.json.request.json",
+      "sha256": "7327e66c556c80acdc11e1271aac85f9ee111d3325d45a2ef292dd616c10f2fa"
+    },
+    "occurrence_count": 3,
+    "query_retrieved_utc": "2026-08-28T14:57:03Z",
+    "rights_manifest": {
+      "bytes": 25588,
+      "path": "authority/brenner_media_rights_manifest.csv",
+      "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+    },
+    "surface_occurrences": [
+      {
+        "display_license_alias": null,
+        "displayed_filename": "SS-stokes.jpg",
+        "filename": "SS-stokes.jpg",
+        "surface": "lecture23",
+        "surface_order": 1
+      },
+      {
+        "display_license_alias": null,
+        "displayed_filename": "Théorème-de-Brouwer-(cond-2).jpg",
+        "filename": "Théorème-de-Brouwer-(cond-2).jpg",
+        "surface": "lecture23",
+        "surface_order": 2
+      },
+      {
+        "display_license_alias": "Théorème-de-Brouwer-(cond-1).jpg",
+        "displayed_filename": "Theoreme-de-Brouwer-(cond-1).jpg",
+        "filename": "Théorème-de-Brouwer-(cond-1).jpg",
+        "surface": "lecture23",
+        "surface_order": 3
+      }
+    ],
+    "unique_asset_count": 3
+  },
+  "next_action": "Translate Lecture 23, Worksheet 23, and exactly the 4 supplied solutions in source order.",
+  "schema_version": 1,
+  "scope": "Brenner Differentialgeometrie Unit 23 authority preflight; no translation",
+  "solutions": {
+    "exercise_count": 30,
+    "exercises": [
+      {
+        "exercise_index": 1,
+        "exists": false,
+        "expanded_body_sha256": "cdd834023d721403a2228228d62e32c52426946a5b3ea40bff46d2fe8641782f",
+        "expanded_body_utf8_bytes": 187,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Hauptsatz der Infinitesimalrechnung/Spezialfall zu Stokes/Diskussion/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Hauptsatz der Infinitesimalrechnung/Spezialfall zu Stokes/Diskussion/Aufgabe/Lösung",
+        "task_title": "Hauptsatz der Infinitesimalrechnung/Spezialfall zu Stokes/Diskussion/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 2,
+        "exists": false,
+        "expanded_body_sha256": "f1dab6297b8a9bc4501a0df14f24a12a092e4c516c5986e4c926d8ce0fb3fd0d",
+        "expanded_body_utf8_bytes": 402,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Satz von Stokes/Quaderversion/Monom/Direkt/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Satz von Stokes/Quaderversion/Monom/Direkt/Aufgabe/Lösung",
+        "task_title": "Satz von Stokes/Quaderversion/Monom/Direkt/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 3,
+        "exists": false,
+        "expanded_body_sha256": "7e16f11b478028986e404c88bdf71a3bb4df4620a2fdb9185608b943f1fc77b8",
+        "expanded_body_utf8_bytes": 581,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Geschlossene Differentialform/Wert über Rand/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Geschlossene Differentialform/Wert über Rand/Aufgabe/Lösung",
+        "task_title": "Geschlossene Differentialform/Wert über Rand/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 4,
+        "exists": false,
+        "expanded_body_sha256": "395deecd60d424cf7c4a4bcce2ff381493107f290ad1886f372ecf5cf97d6cfb",
+        "expanded_body_utf8_bytes": 545,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "06027f6eb09c582e8a67ec3f91b6e154411d31e65670b0b13d4265cb9369d66b",
+        "expanded_hint_utf8_bytes": 112,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "Was bedeutet diese Aussage für $S^1$? Wie kann man diese Aussage in diesem Fall über ein Wegintegral beweisen?",
+        "point_value": null,
+        "resolved_solution_title": "Kompakte orientierte Mannigfaltigkeit ohne Rand/n-1-Form/Integral ist 0/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Kompakte orientierte Mannigfaltigkeit ohne Rand/n-1-Form/Integral ist 0/Aufgabe/Lösung",
+        "task_title": "Kompakte orientierte Mannigfaltigkeit ohne Rand/n-1-Form/Integral ist 0/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 5,
+        "exists": false,
+        "expanded_body_sha256": "e7c530b3ec7b5e02199c5c3023978046557fa1441f450bc2b1fa45765a1fb70a",
+        "expanded_body_utf8_bytes": 389,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "1e3c3791fac4a2a62abd7f4865222a00dbfe6aff01fc0823324571709e3bcf17",
+        "expanded_hint_utf8_bytes": 54,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "Wie sieht dies ohne die Kompaktheitsvoraussetzung aus?",
+        "point_value": null,
+        "resolved_solution_title": "Kompakte orientierte Mannigfaltigkeit ohne Rand/Positive Volumenform/Nicht exakt/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Kompakte orientierte Mannigfaltigkeit ohne Rand/Positive Volumenform/Nicht exakt/Aufgabe/Lösung",
+        "task_title": "Kompakte orientierte Mannigfaltigkeit ohne Rand/Positive Volumenform/Nicht exakt/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 1137,
+          "path": "authority/mediawiki/worksheet23_exercise06_solution_revid985628.utf8.b64",
+          "sha256": "88cc1af9f1d9cbe97e262a1f45d1ce2f960f2441ec3b9c444ac2f05c373a476d"
+        },
+        "exercise_index": 6,
+        "exists": true,
+        "expanded_body_sha256": "e424fb792c746a4c5cd89ace3f73ec8644addaa36aa8ae4bff9ce972f3551ed3",
+        "expanded_body_utf8_bytes": 668,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 786,
+          "http_date": "Fri, 28 Aug 2026 14:55:41 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Mannigfaltigkeit/Exakte k-Form/Rückzug auf kompakte orientierte Mannigfaltigkeit ohne Rand/n-1-Form/Integral ist 0/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 768,
+            "path": "authority/exports/worksheet23_exercise06_solution_latex_expand.json.request.json",
+            "sha256": "b47f46c9d5a985002a73d3cb04db004ce9d51bf3fbfe9294a93c7180ed27086c"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 950,
+            "path": "authority/exports/worksheet23_exercise06_solution_latex_expand.json",
+            "sha256": "9f7feb77e576403d575d79d8488567f515c3ca6f087572da39c09b795d7d2208"
+          },
+          "retrieved_utc": "2026-08-28T14:55:41Z",
+          "sanitized_source": {
+            "bytes": 662,
+            "path": "authority/expanded/worksheet23_exercise06_solution_source.de.tex",
+            "sha256": "3925587136d1d0b36a78e74b112136167de3ef19c6963b2e30170050b7fbda8b"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 710,
+            "path": "qa/unit-23/worksheet23_exercise06_solution_sanitize.json",
+            "sha256": "31609311e039b3634b770e82a361eb7103728d8d123f4d4603c23be7228e5229"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "6cc99c1c57622016cd7eda29230bb744368464eb",
+        "metadata": {
+          "bytes": 1459,
+          "path": "authority/mediawiki/worksheet23_exercise06_solution_revid985628.metadata.json",
+          "sha256": "d5bb70eafda661b720b2ef8e757eec57792b29b35231ee02adb4504b1f3e5d6e"
+        },
+        "pageid": 78653,
+        "parentid": 959202,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 852,
+          "path": "authority/mediawiki/worksheet23_exercise06_solution_revid985628.wiki",
+          "sha256": "e57591a6dfb36b8c82fa3b5613f2fd913306507b180096b867214336ef4a670d"
+        },
+        "resolved_solution_title": "Mannigfaltigkeit/Exakte k-Form/Rückzug auf kompakte orientierte Mannigfaltigkeit ohne Rand/n-1-Form/Integral ist 0/Aufgabe/Lösung",
+        "revid": 985628,
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Mannigfaltigkeit/Exakte k-Form/Rückzug auf kompakte orientierte Mannigfaltigkeit ohne Rand/n-1-Form/Integral ist 0/Aufgabe/Lösung",
+        "source_utf8_bytes": 851,
+        "source_utf8_sha256": "73d72661c20a8af37fd1f43ccc4a249e4b2f6bb15cd04c15382808caa80442b9",
+        "task_title": "Mannigfaltigkeit/Exakte k-Form/Rückzug auf kompakte orientierte Mannigfaltigkeit ohne Rand/n-1-Form/Integral ist 0/Aufgabe",
+        "timestamp": "2025-01-22T04:46:54Z",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 7,
+        "exists": false,
+        "expanded_body_sha256": "c3c9f58b701f8b3f944bf27ab56ed5dffbb063d2ecffd04a13887c5d3345f17b",
+        "expanded_body_utf8_bytes": 575,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "R^n ohne 0/Geschlossene nicht exakte n-1-Form/Durch Rückzug von Sphäre/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "R^n ohne 0/Geschlossene nicht exakte n-1-Form/Durch Rückzug von Sphäre/Aufgabe/Lösung",
+        "task_title": "R^n ohne 0/Geschlossene nicht exakte n-1-Form/Durch Rückzug von Sphäre/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 8,
+        "exists": false,
+        "expanded_body_sha256": "e41354ba3bbbbcc74db923e78033b2d002546740cd941bd909ef6f6b93e4c243",
+        "expanded_body_utf8_bytes": 823,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Kreisscheibe ohne Punkt/Senkrechte Differentialform und mit Pol/Satz von Stokes/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Kreisscheibe ohne Punkt/Senkrechte Differentialform und mit Pol/Satz von Stokes/Aufgabe/Lösung",
+        "task_title": "Kreisscheibe ohne Punkt/Senkrechte Differentialform und mit Pol/Satz von Stokes/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 9,
+        "exists": false,
+        "expanded_body_sha256": "35184ba59d6b4b2fd6fa36a64ddf0910d822ef54686c76b183b536d021718b75",
+        "expanded_body_utf8_bytes": 253,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Satz von Green/Keine Beziehung Flächeninhalt und Randlänge/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Satz von Green/Keine Beziehung Flächeninhalt und Randlänge/Aufgabe/Lösung",
+        "task_title": "Satz von Green/Keine Beziehung Flächeninhalt und Randlänge/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 10,
+        "exists": false,
+        "expanded_body_sha256": "323b3bbc0a7b34add9b86e00003c1231536c226d958f1ac9c2d4b1f6fe8f9051",
+        "expanded_body_utf8_bytes": 396,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Integral/Dreieck (0,2), (1,-1), (-2,-1)/x^2ydxdy/Stammform/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Integral/Dreieck (0,2), (1,-1), (-2,-1)/x^2ydxdy/Stammform/Aufgabe/Lösung",
+        "task_title": "Integral/Dreieck (0,2), (1,-1), (-2,-1)/x^2ydxdy/Stammform/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 11,
+        "exists": false,
+        "expanded_body_sha256": "348fc451020cc23c9f6c3be279094aa5af7c60dd83a90c0d3a1ccb431dcc6ca4",
+        "expanded_body_utf8_bytes": 543,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Satz von Green/Form/Bestätige/Einheitsquadrat/x^ay^bdx+x^cy^ddy/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Satz von Green/Form/Bestätige/Einheitsquadrat/x^ay^bdx+x^cy^ddy/Aufgabe/Lösung",
+        "task_title": "Satz von Green/Form/Bestätige/Einheitsquadrat/x^ay^bdx+x^cy^ddy/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 12,
+        "exists": false,
+        "expanded_body_sha256": "d310c3c571ec498aef9e923c8c0889fd0b50a4f1c7ac6078929cc33c521adae1",
+        "expanded_body_utf8_bytes": 483,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Satz von Green/Form/Bestätige/Einheitskreis und umgebendes Quadrat/(x-y)dy+xydy/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Satz von Green/Form/Bestätige/Einheitskreis und umgebendes Quadrat/(x-y)dy+xydy/Aufgabe/Lösung",
+        "task_title": "Satz von Green/Form/Bestätige/Einheitskreis und umgebendes Quadrat/(x-y)dy+xydy/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 3945,
+          "path": "authority/mediawiki/worksheet23_exercise13_solution_revid1096648.utf8.b64",
+          "sha256": "1c7e060d964d7852766a1b5386c4a69d38940ebc38a36b535235dc04681ad468"
+        },
+        "exercise_index": 13,
+        "exists": true,
+        "expanded_body_sha256": "7494c2d0722014964f5a6a9fbbbeee61fe4dc2da5ede024902c7323927c0e0f1",
+        "expanded_body_utf8_bytes": 221,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 3255,
+          "http_date": "Fri, 28 Aug 2026 14:55:42 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Satz von Green/Direkter Beweis für Dreieck/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 697,
+            "path": "authority/exports/worksheet23_exercise13_solution_latex_expand.json.request.json",
+            "sha256": "a221c7bcd752c4e206fe9cc467550f7be43a7509068e501e7887a8eef945cbb8"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 3521,
+            "path": "authority/exports/worksheet23_exercise13_solution_latex_expand.json",
+            "sha256": "8f8e4880a3dd8aa6f209c76846f5489f0d906511b503f0932a1a2c1da65f0faf"
+          },
+          "retrieved_utc": "2026-08-28T14:55:41Z",
+          "sanitized_source": {
+            "bytes": 2966,
+            "path": "authority/expanded/worksheet23_exercise13_solution_source.de.tex",
+            "sha256": "f4f4f0e09b9ebb9c9d8a4d58e69ae7ec363cb51305eb98db38c7763d1adc494d"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-23/worksheet23_exercise13_solution_sanitize.json",
+            "sha256": "52fb5994cee4beac33ba815e9377e8c75bf8ef48479331eb8e8d3f3a62776d33"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "45bb33645fe307751f662425809c93f0304e2c41",
+        "metadata": {
+          "bytes": 1322,
+          "path": "authority/mediawiki/worksheet23_exercise13_solution_revid1096648.metadata.json",
+          "sha256": "97f3f91ac9dc9c7661f2646edd69740409c9db3272d416494cbb1808a4c2d957"
+        },
+        "pageid": 44413,
+        "parentid": 1095597,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 2958,
+          "path": "authority/mediawiki/worksheet23_exercise13_solution_revid1096648.wiki",
+          "sha256": "aa260ca9f861c8d30e36de454843252ae189e033e6a570bca9d67ce3ff676f02"
+        },
+        "resolved_solution_title": "Satz von Green/Direkter Beweis für Dreieck/Aufgabe/Lösung",
+        "revid": 1096648,
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Satz von Green/Direkter Beweis für Dreieck/Aufgabe/Lösung",
+        "source_utf8_bytes": 2957,
+        "source_utf8_sha256": "30b5e8d2b60503082400fa6567f77e381e8cfa9fb567c68008bb7a7056148551",
+        "task_title": "Satz von Green/Direkter Beweis für Dreieck/Aufgabe",
+        "timestamp": "2026-06-15T09:24:05Z",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 14,
+        "exists": false,
+        "expanded_body_sha256": "b24b89e8354d8cc68c0bd62ee0a1dd703b407d72b483e05f99bffc615aa780e4",
+        "expanded_body_utf8_bytes": 502,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Satz von Green/Subgraph einer Funktion/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Satz von Green/Subgraph einer Funktion/Aufgabe/Lösung",
+        "task_title": "Satz von Green/Subgraph einer Funktion/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 15,
+        "exists": false,
+        "expanded_body_sha256": "fc32cffd77fc59c94ad421d805ab4058a108b862bf1cda4bfa9519544a140746",
+        "expanded_body_utf8_bytes": 197,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Abgeschlossene Kugel/Volumen/Flächenintegral/Stereographisch/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Abgeschlossene Kugel/Volumen/Flächenintegral/Stereographisch/Aufgabe/Lösung",
+        "task_title": "Abgeschlossene Kugel/Volumen/Flächenintegral/Stereographisch/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 2745,
+          "path": "authority/mediawiki/worksheet23_exercise16_solution_revid1112682.utf8.b64",
+          "sha256": "d9dc3b99bdf6bb4eb9164295359598d61a244a6c942f4e5dd52b76c1d27112de"
+        },
+        "exercise_index": 16,
+        "exists": true,
+        "expanded_body_sha256": "3d934a6c81b31eb4934a729b826139e188d670d1b717c0702d96a10222420144",
+        "expanded_body_utf8_bytes": 658,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 2135,
+          "http_date": "Fri, 28 Aug 2026 14:55:43 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Abgeschlossene Kugel/Volumen/Flächenintegral/Passende Form/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 713,
+            "path": "authority/exports/worksheet23_exercise16_solution_latex_expand.json.request.json",
+            "sha256": "66e3cce2fb35ea83015f141f9dbee2a4d679134ec6447904440246eb399af8b7"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 2386,
+            "path": "authority/exports/worksheet23_exercise16_solution_latex_expand.json",
+            "sha256": "d9715f50ea5bbe3e69800e172cfde9e7ce39b7bbc61168c8a949136a2de04477"
+          },
+          "retrieved_utc": "2026-08-28T14:55:42Z",
+          "sanitized_source": {
+            "bytes": 1963,
+            "path": "authority/expanded/worksheet23_exercise16_solution_source.de.tex",
+            "sha256": "8f8c69b8680bb9d232fdb59c42521f93d3891da8f80f82d0b501f5f7704eab7e"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-23/worksheet23_exercise16_solution_sanitize.json",
+            "sha256": "62ae67b91b460941875b7d4bdce74160edb633055d67b377c4bc22f26db5ba6f"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "9a5db901455f1f0f66d1db7340a5715ef9c8b953",
+        "metadata": {
+          "bytes": 1354,
+          "path": "authority/mediawiki/worksheet23_exercise16_solution_revid1112682.metadata.json",
+          "sha256": "6434a73b72502d028df1910e64047c414219716ce7451ce03ddac0dc36f45565"
+        },
+        "pageid": 71559,
+        "parentid": 1095944,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 2059,
+          "path": "authority/mediawiki/worksheet23_exercise16_solution_revid1112682.wiki",
+          "sha256": "85e4b4f78c1f52761b88d9fa86ad12b5958a0d98c2766c06eb0f63371d702e85"
+        },
+        "resolved_solution_title": "Abgeschlossene Kugel/Volumen/Flächenintegral/Passende Form/Aufgabe/Lösung",
+        "revid": 1112682,
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Abgeschlossene Kugel/Volumen/Flächenintegral/Passende Form/Aufgabe/Lösung",
+        "source_utf8_bytes": 2058,
+        "source_utf8_sha256": "18ae0539e12f8e2e634390573935efb946ce4f2240f4147d2878c46a10b05185",
+        "task_title": "Abgeschlossene Kugel/Volumen/Flächenintegral/Passende Form/Aufgabe",
+        "timestamp": "2026-08-21T16:33:19Z",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 1525,
+          "path": "authority/mediawiki/worksheet23_exercise17_solution_revid1096646.utf8.b64",
+          "sha256": "618534d8b31d9b5be75340b6465beb26ce83bb6b5701effe83851475e889c2c2"
+        },
+        "exercise_index": 17,
+        "exists": true,
+        "expanded_body_sha256": "8f5cc8e078a118baa3eda8043e11ed04d7aa834db8439981a3373cf762a376c7",
+        "expanded_body_utf8_bytes": 994,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 1078,
+          "http_date": "Fri, 28 Aug 2026 14:55:44 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "R^n/n-1-Form/Ableitung/Infinitesimale Bälle/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 698,
+            "path": "authority/exports/worksheet23_exercise17_solution_latex_expand.json.request.json",
+            "sha256": "17d1f02fdb0c66470849143bef43d7d6923b5b6062a20b8857eca7d9217adff1"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 1255,
+            "path": "authority/exports/worksheet23_exercise17_solution_latex_expand.json",
+            "sha256": "8b306492ae2eaf50a9e4a3b9d5ba17b89758d16e3ee473f092e5d0a080d7ad30"
+          },
+          "retrieved_utc": "2026-08-28T14:55:44Z",
+          "sanitized_source": {
+            "bytes": 987,
+            "path": "authority/expanded/worksheet23_exercise17_solution_source.de.tex",
+            "sha256": "76bad7dde69a55682af8c853a19b8f5cbf1b670f90d9fa1a73673753f5558055"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 712,
+            "path": "qa/unit-23/worksheet23_exercise17_solution_sanitize.json",
+            "sha256": "4618b4430ec5aecaf376b0d473b1f92bb96c34dd3e4aabd7d52c2a99f7923f4e"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "7d8935be3d3637e8a25aa6f401a1effe9c37d229",
+        "metadata": {
+          "bytes": 1324,
+          "path": "authority/mediawiki/worksheet23_exercise17_solution_revid1096646.metadata.json",
+          "sha256": "1f18dccd3d25d9741c84dca502074c33ceeafd700f57a646e3df809d53d23419"
+        },
+        "pageid": 78672,
+        "parentid": 1095594,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 1142,
+          "path": "authority/mediawiki/worksheet23_exercise17_solution_revid1096646.wiki",
+          "sha256": "bdf1a0194c85624c1b68b52b3fc820214180fe895bf5c9870174f968f6b5f8d0"
+        },
+        "resolved_solution_title": "R^n/n-1-Form/Ableitung/Infinitesimale Bälle/Aufgabe/Lösung",
+        "revid": 1096646,
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "R^n/n-1-Form/Ableitung/Infinitesimale Bälle/Aufgabe/Lösung",
+        "source_utf8_bytes": 1141,
+        "source_utf8_sha256": "c28045d7c6c793cb01646d40999e1ab5c067e8e5f2c94e5140402c329fd86a22",
+        "task_title": "R^n/n-1-Form/Ableitung/Infinitesimale Bälle/Aufgabe",
+        "timestamp": "2026-06-15T09:23:45Z",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 18,
+        "exists": false,
+        "expanded_body_sha256": "75d764011cf24247a0744577f804e6d38429f8d2f81a5cb4d87fb4ce679d2e47",
+        "expanded_body_utf8_bytes": 220,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Mannigfaltigkeit/Nicht leerer Rand/Retraktion/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Nicht leerer Rand/Retraktion/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Nicht leerer Rand/Retraktion/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 19,
+        "exists": false,
+        "expanded_body_sha256": "fbff998578833b0a5b61531e0dcd64ea22af024d07c69e0f82969b5a925d79f6",
+        "expanded_body_utf8_bytes": 511,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "f8bf186afc55bc92873adeb56fafa352eb2f84207023f494b5f676163543e6e5",
+        "expanded_hint_utf8_bytes": 113,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "Wie sieht das bei\n\n\\mavergleichskette\n{\\vergleichskette\n{ n\n}\n{ = }{ 0\n}\n{  }{\n}\n{    }{\n}\n{   }{\n}\n}\n{}{}{}\naus?",
+        "point_value": null,
+        "resolved_solution_title": "Halbraum/Stetig differenzierbare Retraktion auf Rand/Aufgabe/Lösung",
+        "root_hint_field": null,
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Halbraum/Stetig differenzierbare Retraktion auf Rand/Aufgabe/Lösung",
+        "task_title": "Halbraum/Stetig differenzierbare Retraktion auf Rand/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 20,
+        "exists": false,
+        "expanded_body_sha256": "f385c30450f57b8d81338134bee106958718917f4f07905ba4e9ae455224128c",
+        "expanded_body_utf8_bytes": 361,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Raum ohne Ball/Retraktion auf Sphäre/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Raum ohne Ball/Retraktion auf Sphäre/Aufgabe/Lösung",
+        "task_title": "Raum ohne Ball/Retraktion auf Sphäre/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 21,
+        "exists": false,
+        "expanded_body_sha256": "85e7146a6f5c760206e59318a6f903814b4bb40ffceeae6a85187b6df5fc4fe5",
+        "expanded_body_utf8_bytes": 436,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Abgeschlossene punktierte Kreisscheibe/Retraktion auf Rand/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Abgeschlossene punktierte Kreisscheibe/Retraktion auf Rand/Aufgabe/Lösung",
+        "task_title": "Abgeschlossene punktierte Kreisscheibe/Retraktion auf Rand/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 22,
+        "exists": false,
+        "expanded_body_sha256": "a89c3d7b867a93b6ab806db78e526afcbc3936f27ab6c51b367cf22f95043615",
+        "expanded_body_utf8_bytes": 206,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Annulus/Fixpunktfreie Bijektion/Beispiel/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Annulus/Fixpunktfreie Bijektion/Beispiel/Aufgabe/Lösung",
+        "task_title": "Annulus/Fixpunktfreie Bijektion/Beispiel/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 23,
+        "exists": false,
+        "expanded_body_sha256": "0fb302c6f6baeabcc71cb627fbc43188db61fb3bd0aeff3df305764f50fda840",
+        "expanded_body_utf8_bytes": 621,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Brouwersche Fixpunktsatz/Explizite Retraktion/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Brouwersche Fixpunktsatz/Explizite Retraktion/Aufgabe/Lösung",
+        "task_title": "Brouwersche Fixpunktsatz/Explizite Retraktion/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 24,
+        "exists": false,
+        "expanded_body_sha256": "2a9e27150b5641d9aa9bc8d8153ab792b3afec204adaa3a1a5e3436cd854c857",
+        "expanded_body_utf8_bytes": 338,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "resolved_solution_title": "Integral/Dreieck (0,2), (1,-1), (-2,-1)/3x^2y^5-x sin y dxdy/Stammform/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Integral/Dreieck (0,2), (1,-1), (-2,-1)/3x^2y^5-x sin y dxdy/Stammform/Aufgabe/Lösung",
+        "task_title": "Integral/Dreieck (0,2), (1,-1), (-2,-1)/3x^2y^5-x sin y dxdy/Stammform/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 25,
+        "exists": false,
+        "expanded_body_sha256": "f7c25dbc6cb6c1890b498c00730327a94d2c7d7439a5ed1e80b4707ef989b198",
+        "expanded_body_utf8_bytes": 527,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 6,
+        "resolved_solution_title": "Integration/dxdy+ydxdz+x^2y^2z^2dydz/Seiten von Würfel/d auf Würfel/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Integration/dxdy+ydxdz+x^2y^2z^2dydz/Seiten von Würfel/d auf Würfel/Aufgabe/Lösung",
+        "task_title": "Integration/dxdy+ydxdz+x^2y^2z^2dydz/Seiten von Würfel/d auf Würfel/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 26,
+        "exists": false,
+        "expanded_body_sha256": "04f0f0a948ffeb4af8c8c76eb1a4cfca0d6d91f7098f4b8609dfe8a995701bdd",
+        "expanded_body_utf8_bytes": 158,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "resolved_solution_title": "Kreisinhalt/Berechnung als Wegintegral/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Kreisinhalt/Berechnung als Wegintegral/Aufgabe/Lösung",
+        "task_title": "Kreisinhalt/Berechnung als Wegintegral/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 27,
+        "exists": false,
+        "expanded_body_sha256": "82d2d8c28bb9b93403e1f23eafa3e6b905c41175f59f769a9c6d22bf41fc938c",
+        "expanded_body_utf8_bytes": 204,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 2,
+        "resolved_solution_title": "Torus/Fixpunktfreie Bijektion/Beispiel/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Torus/Fixpunktfreie Bijektion/Beispiel/Aufgabe/Lösung",
+        "task_title": "Torus/Fixpunktfreie Bijektion/Beispiel/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 28,
+        "exists": false,
+        "expanded_body_sha256": "dff9d333cd6a276c7e4850bb1a70889af2c11166b9f90ed7370e353abe9ea79d",
+        "expanded_body_utf8_bytes": 338,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 3,
+        "resolved_solution_title": "Abgeschlossene Kreisscheibe/Stetig differenzierbare Retraktion auf Halbkreis/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Abgeschlossene Kreisscheibe/Stetig differenzierbare Retraktion auf Halbkreis/Aufgabe/Lösung",
+        "task_title": "Abgeschlossene Kreisscheibe/Stetig differenzierbare Retraktion auf Halbkreis/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 29,
+        "exists": false,
+        "expanded_body_sha256": "ce42af7a572ca11735a1e4e574f7270962ae73cdeda59068d552cc83f5c21cb2",
+        "expanded_body_utf8_bytes": 418,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 3,
+        "resolved_solution_title": "R^n/v in Einheitskugel und w normiert/v+aw auf Rand/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "R^n/v in Einheitskugel und w normiert/v+aw auf Rand/Aufgabe/Lösung",
+        "task_title": "R^n/v in Einheitskugel und w normiert/v+aw auf Rand/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 30,
+        "exists": false,
+        "expanded_body_sha256": "c46a31301f4e582f591745895e3d7c4142fe50da9ae7484ecfe92451b532b406",
+        "expanded_body_utf8_bytes": 404,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "resolved_solution_title": "Abgeschlossene punktierte Kreisscheibe/Fixpunktfreie Abbildung/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Abgeschlossene punktierte Kreisscheibe/Fixpunktfreie Abbildung/Aufgabe/Lösung",
+        "task_title": "Abgeschlossene punktierte Kreisscheibe/Fixpunktfreie Abbildung/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      }
+    ],
+    "graded_exercise_count": 7,
+    "macro_api_agreement": true,
+    "missing_solution_count": 26,
+    "point_value_total": 26,
+    "practice_exercise_count": 23,
+    "query": {
+      "bytes": 11578,
+      "path": "authority/mediawiki/unit23_solution_pages_current.json",
+      "sha256": "e8d0f6946629f12186bc7448f25e8d88aac609e18b454ed0d0190ae25b926769"
+    },
+    "query_request_receipt": {
+      "bytes": 2889,
+      "path": "authority/mediawiki/unit23_solution_pages_current.json.request.json",
+      "sha256": "e120977a3290d69598371a7044e19bba3ae1d63ac8365b48107151a796f58f2e"
+    },
+    "query_retrieved_utc": "2026-08-28T14:55:40Z",
+    "schema_version": 1,
+    "supplied_solution_count": 4,
+    "supplied_solution_indices": [
+      6,
+      13,
+      16,
+      17
+    ],
+    "workflow": "o011-unit23-solution-freeze-v1",
+    "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 23"
+  },
+  "status": "pass",
+  "structure": {
+    "all_hint_fields_blank": false,
+    "lecture_section_count": 3,
+    "worksheet_exercise_count": 30,
+    "worksheet_graded_count": 7,
+    "worksheet_hint_bearing_indices": [
+      4,
+      5,
+      19
+    ],
+    "worksheet_hint_count": 3,
+    "worksheet_point_total": 26,
+    "worksheet_practice_count": 23,
+    "worksheet_section_count": 2,
+    "worksheet_solution_bearing_indices": [
+      6,
+      13,
+      16,
+      17
+    ]
+  },
+  "unit": 23,
+  "workflow": "o011-unit23-authority-preflight-v1"
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "unit": 26,
+  "scope": "bounded Unit 26 authority, translation topology, mathematics, counts, and residual-language QA; no cumulative build or publication",
+  "authority": {
+    "lecture_root": {"pageid": 142570, "revid": 991602, "timestamp": "2025-01-23T13:23:59Z", "source_utf8_sha256": "eca0b5700e1547c43a38d3d049574395da878c2f57e3cbfdded6b6e40562d874"},
+    "lecture_latex_surface": {"pageid": 142600, "revid": 807132, "timestamp": "2022-09-18T10:01:30Z", "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36"},
+    "worksheet_root": {"pageid": 142660, "revid": 907130, "timestamp": "2023-07-18T15:37:48Z", "source_utf8_sha256": "41267c2aa40aa4e24584b3e927f1461c60a058042efad51d4da4a6836ffe3927"},
+    "worksheet_latex_surface": {"pageid": 142690, "revid": 807101, "timestamp": "2022-09-18T09:56:20Z", "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36"},
+    "sanitized_lecture": {"bytes": 27170, "sha256": "247f20e08172386241f09dc70fd4e4ea6b4421b733aa143ecead657b5a838f22"},
+    "sanitized_worksheet": {"bytes": 11742, "sha256": "55b14472419fe28a5533f2eda9c46f1556793a6da556f17f1254d3aa8706311d"},
+    "preflight_receipt": {"bytes": 38732, "sha256": "a776c6fe8c406464a36ca48217260cf10bb6c471c06ab9a00f3195ba50ce44c8"},
+    "preflight_verify_receipt": {"bytes": 524, "sha256": "56138f9e1481c9a875bf84782a69c9d53d11b4f0d311928bdec757c6e61af957"}
+  },
+  "census": {
+    "lecture_sections": 2,
+    "worksheet_sections": 2,
+    "worksheet_exercises": 16,
+    "practice_exercises": 12,
+    "graded_exercises": 4,
+    "graded_points": 9,
+    "hint_count": 0,
+    "supplied_solutions": 3,
+    "supplied_solution_indices": [3, 6, 9],
+    "media_occurrences": 0,
+    "unique_media_assets": 0
+  },
+  "supplied_solution_authority": [
+    {"exercise": 3, "pageid": 152394, "revid": 1094217, "timestamp": "2026-06-14T15:18:29Z", "sanitized_source_bytes": 1519, "sanitized_source_sha256": "67fd186f24deffbe92f463ded1a5274accdb183b55d64f3a6ffb26a428eea085"},
+    {"exercise": 6, "pageid": 152187, "revid": 1088947, "timestamp": "2026-05-31T09:10:52Z", "sanitized_source_bytes": 1620, "sanitized_source_sha256": "48a156e3819a892696a847c44e631ca70f6252663beeb005121ec6e4c22090c6"},
+    {"exercise": 9, "pageid": 152485, "revid": 1095884, "timestamp": "2026-06-15T07:16:34Z", "sanitized_source_bytes": 5185, "sanitized_source_sha256": "1121d727db618d14fe9f6746de2bb743a60b8ead451bb0c4405761906d2c2c95"}
+  ],
+  "targets": [
+    {"path": "source/units/unit-26/lecture26.id.tex", "bytes": 27185, "sha256": "b9915fa7e2bcda998f396829548a6a272d4ea516d5155bbb5695db69fbd0fdda", "verifier": "pass"},
+    {"path": "source/units/unit-26/worksheet26.id.tex", "bytes": 11725, "sha256": "9ae7f9c964286053cd0b58bde0c11c90a44b1bcc757fa2dedaaaca185b63916e", "verifier": "pass"},
+    {"path": "source/units/unit-26/worksheet26_exercise03_solution.id.tex", "bytes": 1530, "sha256": "6d1e3218dc4add645605ec77e5a6abcf2561790b741a8d1bb9d3a0006ddec3eb", "verifier": "pass"},
+    {"path": "source/units/unit-26/worksheet26_exercise06_solution.id.tex", "bytes": 1645, "sha256": "5665146bc9b1c3ced56ab618caec2531dd301497d3734752646f86de76600367", "verifier": "pass"},
+    {"path": "source/units/unit-26/worksheet26_exercise09_solution.id.tex", "bytes": 5280, "sha256": "b013b58e0ffd2c0ab9e40075b205933a3dd446ca01b10eff4a55abf15d5a8bc3", "verifier": "pass"}
+  ],
+  "checks": {
+    "authority_preflight": "pass",
+    "command_environment_and_brace_topology": "pass for all five target files",
+    "inline_and_display_mathematics": "pass for all five target files",
+    "protected_formula_macro_calls": "pass for all five target files",
+    "internal_link_destination_sequence": "exactly equal for all five source-target pairs",
+    "exercise_solution_hint_and_media_counts": "match frozen authority",
+    "residual_german_prose": "none found; the sole German-token match is inside a preserved source link destination",
+    "source_issues_preserved_not_silently_corrected": "pass; see qa/unit-26/SOURCE_ISSUES.md"
+  },
+  "status": "pass"
+}

@@ -1,0 +1,977 @@
+\setcounter{section}{23}
+
+  \zwischenueberschrift{Übungsaufgaben}
+
+\inputaufgabe
+{}
+{
+
+Diskutiere die
+[[Riemann-Integral/Hauptsatz/Newton-Leibniz/Fakt|Newton-Leibniz-Formel]]
+als einen Spezialfall des
+[[Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt|Satzes von Stokes]].
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Beweise die
+[[Satz von Stokes/Quaderversion/Fakt|Quaderversion des Satzes von Stokes]]
+direkt für einen Quader
+\mathl{[a_1,b_1] \times \cdots \times [a_n,b_n]}{} und eine
+$n-1$-\definitionsverweis {Differentialform}{}{}
+$\omega$ der Gestalt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { x_1^{m_1 } \cdots x_n^{m_n }  dx_2 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $M$ eine
+$n$-\definitionsverweis {dimensionale}{}{}
+\definitionsverweis {orientierte}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit mit Rand}{}{}
+und mit
+\definitionsverweis {abzählbarer Basis der Topologie}{}{}
+und es sei $\omega$ eine
+\definitionsverweis {stetig differenzierbare}{}{} \definitionsverweis {geschlossene}{}{} $(n-1)$-\definitionsverweis {Differentialform
+}{}{}
+auf $M$ mit
+\definitionsverweis {kompaktem Träger}{}{.}
+Zeige
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_{\partial M} \omega
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {kompakte}{}{}
+$n$-\definitionsverweis {dimensionale}{}{}
+\definitionsverweis {orientierte}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+\zusatzklammer {ohne Rand} {} {}
+mit
+\definitionsverweis {abzählbarer Basis der Topologie}{}{}
+und es sei $\omega$ eine
+\definitionsverweis {stetig differenzierbare}{}{}
+$(n-1)$-\definitionsverweis {Differentialform
+}{}{}
+auf $M$. Zeige
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ M  }  d\omega
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{Was bedeutet diese Aussage für $S^1$? Wie kann man diese Aussage in diesem Fall über ein Wegintegral beweisen?} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {kompakte}{}{}
+\definitionsverweis {orientierte}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+\zusatzklammer {ohne Rand} {} {}
+mit
+\definitionsverweis {abzählbarer Basis der Topologie}{}{}
+und es sei $\tau$ eine
+\definitionsverweis {positive Volumenform}{}{}
+auf $M$. Zeige, dass $\tau$ nicht
+\definitionsverweis {exakt}{}{}
+ist.
+
+}
+{Wie sieht dies ohne die Kompaktheitsvoraussetzung aus?} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und $\omega$ eine
+\definitionsverweis {exakte}{}{} \definitionsverweis {Differentialform}{}{}
+auf $M$. Es sei $S$ eine
+\definitionsverweis {kompakte}{}{}
+\definitionsverweis {orientierte}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+\zusatzklammer {ohne Rand} {} {}
+mit
+\definitionsverweis {abzählbarer Basis der Topologie}{}{}
+und es sei
+\maabbdisp {\varphi} { S } { M
+} {}
+eine
+\definitionsverweis {stetig differenzierbare}{}{}
+Abbildung. Zeige
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{  S  }   \varphi^*\omega
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Wir betrachten die
+\definitionsverweis {stetig differenzierbare}{}{}
+Abbildung
+\zusatzklammer {\mathlk{n \geq 2}{}} {} {}
+\maabbeledisp {\pi} {\R^n \setminus \{0\}} { S^{n-1}
+} {(x_1 , \ldots , x_n) } { { \frac{   1  }{  \sqrt{x_1^2 + \cdots + x_n^2}  } } (x_1 , \ldots , x_n)
+} {.}
+Es sei $\omega$ die
+\definitionsverweis {kanonische Volumenform}{}{}
+auf $S^{n-1}$. Zeige, dass
+\mathl{\pi^* \omega}{} auf $\R^n \setminus \{0\}$ eine
+\definitionsverweis {geschlossene}{}{,}
+aber keine
+\definitionsverweis {exakte}{}{}
+$n-1$-\definitionsverweis {Differentialform}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ B  \left(  0 , 1 \right) \setminus \{(0,0)\}
+}
+{ \subset }{ \R^2
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit dem Rand
+
+\mavergleichskette
+{\vergleichskette
+{ \partial M
+}
+{ = }{ S^1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Wir betrachten die beiden
+\definitionsverweis {stetig differenzierbaren}{}{}
+$1$-\definitionsverweis {Differentialformen}{}{}
+
+\mathdisp {\omega= ydx-xdy \text{   und } \tau= { \frac{   1  }{  x^2+y^2 } } \left(  ydx-xdy  \right)} {  }
+
+auf $M$. Zeige, dass die Einschränkungen der beiden Formen auf den Rand übereinstimmen und insbesondere
+
+\mavergleichskette
+{\vergleichskette
+{ \int_{\partial M} \omega
+}
+{ = }{ \int_{\partial M} \tau
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gilt. Vergleiche
+\mathkor {} {\int_M d \omega} {und} {\int_M d \tau} {.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Man mache sich klar, dass der
+[[Integration auf ebener Mannigfaltigkeit mit Rand/Satz von Green/Flächenversion/Fakt|Satz von Green]]
+nicht behauptet, dass der Flächeninhalt eines umrandeten Gebiets im $\R^2$ nur von der Länge des Randes abhängt.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $D$ das durch
+$(0,2),\, (1,-1)$ und $(-2,-1)$
+gegebene Dreieck und
+
+\mavergleichskette
+{\vergleichskette
+{ \tau
+}
+{ = }{ x^2ydx \wedge dy
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+$2$-\definitionsverweis {Differentialform}{}{} auf $D$. Finde eine
+\definitionsverweis {Stammform}{}{}
+für $\tau$ und berechne damit
+\mathl{\int_{ D  }  \tau}{} durch ein Integral über dem Dreiecksrand.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Bestätige
+den [[Integration auf ebener Mannigfaltigkeit mit Rand/Satz von Green/Fakt|Satz von Green]]
+für das Einheitsquadrat
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ = }{ [0,1] \times [0,1]
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und die
+\definitionsverweis {Differentialformen}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { x^ay^b dx + x^cy^d dy
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ a,b,c,d
+}
+{ \in }{ \N
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+durch explizite Berechnungen.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Bestätige
+den [[Integration auf ebener Mannigfaltigkeit mit Rand/Satz von Green/Fakt|Satz von Green]]
+durch explizite Berechnungen für die Menge
+\mathl{T=[-2,2] \times [-2,2] \setminus U \left(   0 , 1  \right)}{}
+\zusatzklammer {also das zentrierte Quadrat der Seitenlänge $4$ ohne den offenen Einheitskreis} {} {}
+und die
+\definitionsverweis {Differentialform}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ \omega
+}
+{ = }{(x-y)dx + xy dy
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Beweise den Satz von Green für ein Dreieck $D$ mit den Eckpunkten
+
+\mavergleichskette
+{\vergleichskette
+{ P_1,P_2,P_3
+}
+{ \in }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und für die Differentialform
+\mathl{xdy}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+\maabbdisp {f} { [a,b] } { \R_{+}
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{.}
+Wir fassen den
+\definitionsverweis {Subgraphen}{}{}
+als eine
+\definitionsverweis {Mannigfaltigkeit mit Rand}{}{}
+auf, wobei der Rand aus dem Graphen, dem Grundintervall und den beiden Seitenkanten, aber ohne die vier Eckpunkte besteht. Berechne den Flächeninhalt des Subgraphen mit den beiden
+\definitionsverweis {Differentialformen}{}{}
+
+\mathl{xdy}{} und
+\mathl{ydx}{} über den Rand.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Bestimme das Volumen der dreidimsionalen
+\definitionsverweis {abgeschlossenen Einheitskugel}{}{}
+durch ein geeignetes Flächenintegral über die
+\definitionsverweis {Einheitssphäre}{}{}
+$S^2$.
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Wir betrachten die
+$2$-\definitionsverweis {Differentialform}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { x dy \wedge dz -y dx \wedge dz + z dx \wedge dy
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf der Einheitskugel
+\mathl{B  \left(  0 , 1  \right)}{.}
+\aufzaehlungdreiabc{Zeige, dass $d \omega$ das Dreifache der Standardvolumenform auf der Kugel ist.
+}{Zeige, dass
+\mathl{\omega\vert_{S^2}}{} die Standardflächenform auf der Einheitssphäre ist.
+}{Berechne die Kugeloberfläche aus dem
+[[Allgemeines Kugelvolumen/Mit Cavalieri-Prinzip/Beispiel|Kugelvolumen]]
+mit dem
+[[Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt|Satz von Stokes]].
+}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es sei $\omega$ eine stetig differenzierbare
+$n-1$-\definitionsverweis {Differentialform}{}{}
+auf einer
+\definitionsverweis {offenen Menge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und sei die
+\definitionsverweis {äußere Ableitung}{}{}
+gleich
+
+\mavergleichskettedisp
+{\vergleichskette
+{d \omega
+}
+{ =} { fdx_1 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit einer Funktion
+\maabb {f} { U } {\R
+} {.}
+Zeige für
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Gleichheit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ f(P)
+}
+{ =} { { \frac{   1  }{  \beta_n  } } \cdot \operatorname{lim}_{   \epsilon \rightarrow  0  } \, { \frac{   1  }{  \epsilon^n } } \int_{S^{n-1}(P, \epsilon)} \omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei $\beta_n$ das
+[[Allgemeines Kugelvolumen/Mit Cavalieri-Prinzip/Beispiel|Volumen]]
+der $n$-dimensionalen Einheitskugel bezeichnet.
+
+}
+{} {}
+
+Für einen Spezialfall der vorstehenden Aussage siehe
+[[Vektorfeld/R^2/Gegenableitungdifferenz/Limesformel/Aufgabe|Aufgabe 58.23 (Analysis (Osnabrück 2021-2023))]].
+
+\inputaufgabe
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+mit einem nichtleeren Rand. Zeige, dass es eine
+\definitionsverweis {differenzierbare Abbildung}{}{}
+\maabb {} { M } { \partial M
+} {}
+gibt.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ H
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ \geq }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+ein
+\definitionsverweis {Halbraum}{}{.}
+Zeige, dass es eine
+\definitionsverweis {differenzierbare Abbildung}{}{}
+\maabbdisp {\varphi} { H } { \partial H
+} {}
+gibt, deren
+\definitionsverweis {Einschränkung}{}{}
+auf
+\mathl{\partial H}{} die
+\definitionsverweis {Identität}{}{}
+ist.
+
+}
+{Wie sieht das bei
+
+\mavergleichskette
+{\vergleichskette
+{ n
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+aus?} {}
+
+\inputaufgabe
+{}
+{
+
+Wir betrachten die
+\definitionsverweis {Mannigfaltigkeit mit Rand}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ \R^n \setminus  U \left(   0 , 1  \right)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Zeige, dass es eine stetig differenzierbare Abbildung von $M$ auf den Rand
+\mathl{S \left(   0 ,  1  \right)}{} gibt, die auf dem Rand die Identität ist.
+
+}
+{} {}
+
+Für die folgende Aufgabe kann man
+[[Obere Halbebene/Einheitskreis/Rational isomorph/Ausdehnung/Aufgabe|Aufgabe 21.8]]
+heranziehen.
+
+\inputaufgabe
+{}
+{
+
+Wir betrachten die
+\definitionsverweis {Mannigfaltigkeit mit Rand}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { B  \left(  0 , 1 \right) \setminus \{  \left(  1   , \,   0                   \right) \}
+}
+{ \subseteq} { \R^2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Zeige, dass es eine
+\definitionsverweis {stetig differenzierbare Abbildung}{}{}
+\maabbdisp {\varphi} { M } { \partial M
+} {}
+gibt, die auf dem Rand die Identität ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Zeige, dass es auf einem
+\definitionsverweis {Annulus}{}{}
+\definitionsverweis {bijektive}{}{}
+\definitionsverweis {stetig differenzierbare}{}{} Abbildungen ohne
+\definitionsverweis {Fixpunkt}{}{}
+gibt.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Zeige, dass die im Beweis zum
+[[Brouwersche Fixpunktsatz/Stetig differenzierbar/Retraktion/Fakt|Brouwerschen Fixpunktsatz]]
+verwendete Abbildung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi(x)
+}
+{ =} { x + \left( - \left\langle  x  , h(x)  \right\rangle + \sqrt{1 + \left\langle  x  , h(x)  \right\rangle^2 - \Vert { x} \Vert^2  }\right) \cdot h(x)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+\zusatzklammer {mit
+
+\mavergleichskette
+{\vergleichskette
+{ h(x)
+}
+{ = }{ { \frac{   \psi(x)-x }{  \Vert { \psi (x)-x} \Vert  } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+die Einheitskugel auf die Einheitssphäre abbildet.
+
+}
+{} {}
+
+  \zwischenueberschrift{Aufgaben zum Abgeben}
+
+\inputaufgabe
+{4}
+{
+
+Es sei $D$ das durch
+$(0,2),\, (1,-1)$ und $(-2,-1)$ gegebene Dreieck und
+\mathl{\tau =( 3x^2y^5-x \sin  y ) dx \wedge dy}{} eine
+$2$-\definitionsverweis {Differentialform}{}{} auf $D$. Finde eine
+\definitionsverweis {Stammform}{}{} für $\tau$ und berechne damit
+\mathl{\int_{ D  }  \tau}{} durch ein Integral über dem Dreiecksrand.
+
+}
+{} {}
+
+\inputaufgabe
+{6}
+{
+
+Wir betrachten den Würfel
+
+\mavergleichskettedisp
+{\vergleichskette
+{ Q
+}
+{ =} { [-1,1]^3
+}
+{ \subseteq} { \R^3
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und die
+$2$-\definitionsverweis {Differentialform}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { dx \wedge dy +y dx \wedge dz +x^2y^2z^2 dy \wedge dz
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Berechne
+\mathl{d \omega}{} und die beiden Integrale
+\mathkor {} {\int_{  \partial Q  }   \omega} {und} {\int_{  Q  }  d \omega} {}
+\zusatzklammer {unabhängig voneinander} {} {.}
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Berechne den Flächeninhalt der
+\definitionsverweis {abgeschlossenen Einheitskreisscheibe}{}{}
+über ein geeignetes
+\definitionsverweis {Wegintegral}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{2}
+{
+
+Zeige, dass es auf einem
+\definitionsverweis {Torus}{}{}
+\definitionsverweis {bijektive}{}{}
+\definitionsverweis {stetig differenzierbare}{}{} Abbildungen ohne
+\definitionsverweis {Fixpunkt}{}{}
+gibt.
+
+}
+{} {}
+
+\inputaufgabe
+{3}
+{
+
+Es sei $B$ die
+\definitionsverweis {abgeschlossene Einheitskreisscheibe}{}{}
+und $K$ der obere Halbkreisbogen. Zeige, dass es eine
+\definitionsverweis {differenzierbare Abbildung}{}{}
+\maabbdisp {\varphi} { B } { K
+} {}
+gibt, deren
+\definitionsverweis {Einschränkung}{}{}
+auf
+\mathl{K}{} die
+\definitionsverweis {Identität}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabe
+{3}
+{
+
+Es seien
+
+\mavergleichskette
+{\vergleichskette
+{ v,w
+}
+{ \in }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+\mathkor {} {\Vert { v } \Vert \leq 1} {und} {\Vert { w } \Vert = 1} {.}
+Zeige, dass es ein
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ \Vert {v+aw} \Vert
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt.
+
+}
+{} {}
+
+\inputaufgabe
+{4}
+{
+
+Wir betrachten die
+\definitionsverweis {Mannigfaltigkeit mit Rand}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M
+}
+{ =} { B  \left(  0 , 1 \right) \setminus \{  \left(  1   , \,   0                   \right) \}
+}
+{ \subseteq} { \R^2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Zeige, dass es eine fixpunktfreie
+\definitionsverweis {stetig differenzierbare Abbildung}{}{}
+\maabbdisp {\varphi} { M } { M
+} {}
+gibt.
+
+}
+{} {}
+
+ [[Kategorie:Latexseite]]

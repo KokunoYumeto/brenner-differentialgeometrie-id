@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "input": "source/exams/exam-04/exam04_solutions.id.tex",
+  "input_bytes": 29631,
+  "input_sha256": "df52cef44c3afec3887c9eebd8a1f7627f78a7e1f67eecd40038a3aa49b1ea90",
+  "output": "build/generated/exams/exam04_solutions.id.build.tex",
+  "output_bytes": 28510,
+  "output_sha256": "f14e14d4bb4cce88aec7971541797e9b21ec89d75a1e2f0d82a5f34eb2efcfda",
+  "removed_category_links": 2,
+  "removed_noedit_markers": 16,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": ":Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/4/Klausur mit Lösungen/latex",
+      "label": ":Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/4/Klausur mit Lösungen/latex"
+    },
+    {
+      "target": "Kompaktheit/Stetige Funktion/Maximum wird angenommen/Fakt",
+      "label": "Fakt"
+    },
+    {
+      "target": "Kurs:Differentialgeometrie/Kompaktheit/Stetige Funktion/Maximum wird angenommen/Fakt/Faktreferenznummer",
+      "label": "*****"
+    },
+    {
+      "target": "Differenzierbare Mannigfaltigkeit/Funktion/Extrema/Differentialform/Nullstelle/Aufgabe",
+      "label": "Aufgabe"
+    },
+    {
+      "target": "Kurs:Differentialgeometrie/Differenzierbare Mannigfaltigkeit/Funktion/Extrema/Differentialform/Nullstelle/Aufgabe/Aufgabereferenznummer",
+      "label": "*****"
+    },
+    {
+      "target": "Mannigfaltigkeit/Abzählbare Basis/Lokal endlicher Atlas/Fakt",
+      "label": "Lemma 22.9 (Differentialgeometrie (Osnabrück 2023))"
+    },
+    {
+      "target": "Allgemeines Kugelvolumen/Mit Cavalieri-Prinzip/Beispiel",
+      "label": "volume bola"
+    },
+    {
+      "target": "Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt",
+      "label": "Teorema Stokes"
+    },
+    {
+      "target": "Dachprodukt/Natürliche Dualität/Endlichdimensional/Fakt",
+      "label": "Satz 58.4 (Lineare Algebra (Osnabrück 2024-2025))"
+    },
+    {
+      "target": "Topologischer Raum/Verklebungsdatum/Äquivalenzrelation/Aufgabe",
+      "label": ":Kurs:Bündel, Garben und Kohomologie (Osnabrück 2019-2020)/4/Klausur mit Lösungen/latex (Bündel, Garben und Kohomologie (Osnabrück 2019-2020))\n(Differentialgeometrie (Osnabrück 2023))"
+    }
+  ],
+  "wiki_link_resolution_passes": 2,
+  "rendered_interactive_gif_links": []
+}

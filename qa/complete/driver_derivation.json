@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-complete-reader-driver-derivation-v1",
+  "frozen_input": {
+    "path": "build/generated/through-unit-22-driver.tex",
+    "bytes": 17431,
+    "sha256": "7d04f2c5906c1ddf5e82a0e80dcaafa7a7d62f99f915f3b8643e5be1d8181716"
+  },
+  "preserved_prefix": {
+    "boundary": "all frozen driver bytes before the unique backmatter command",
+    "bytes": 15993,
+    "sha256": "97ce1a21fd0d4b152083fd3b0c63bf92a493adf88a1a60d51763440ca7e09fd7",
+    "byte_identical": true
+  },
+  "output": {
+    "path": "build/generated/complete-reader-driver.tex",
+    "identity": {
+      "bytes": 29827,
+      "sha256": "1013e95c5ef34de8b47710c7175f323770a7225a3de1cf4fb11a1be1a394f019"
+    }
+  },
+  "geometry": {
+    "paper": "A4",
+    "margin": "22mm",
+    "centered": true,
+    "class_option": "oneside"
+  },
+  "unit_extension": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+  ],
+  "source_supplied_core_solutions": {
+    "23": [
+      6,
+      13,
+      16,
+      17
+    ],
+    "24": [],
+    "25": [
+      1,
+      7,
+      8,
+      11,
+      12,
+      14
+    ],
+    "26": [
+      3,
+      6,
+      9
+    ],
+    "27": [
+      4,
+      5,
+      9,
+      13
+    ],
+    "28": [
+      2,
+      5
+    ],
+    "29": [
+      2
+    ]
+  },
+  "ordered_surfaces": [
+    "units-23-through-29",
+    "original-lie-bridge",
+    "original-de-rham-bridge",
+    "ten-learner-exam-forms",
+    "ten-official-solution-forms",
+    "six-separately-labelled-original-repairs"
+  ]
+}

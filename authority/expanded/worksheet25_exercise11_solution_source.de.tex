@@ -1,0 +1,96 @@
+\aufzaehlungvier{Dies ergibt sich aus der expliziten Beschreibung der vertikalen Ableitung zu einem linearen Zusammenhang, siehe
+[[Offene Menge/Triviales Vektorbündel/Linearer Zusammenhang/Spaltung/Christoffelsymbole/Bemerkung|Bemerkung]].
+}{Klar wegen (1).
+}{Folgt aus (2) und aus
+[[Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt|Fakt]].
+}{Wir schreiben
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ = }{ \sum_{i = 1}^n {h_i } \partial_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ = }{ \sum_{j = 1}^n {f_j } \partial_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Nach
+[[Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt|Fakt]]
+und den schon bewiesenen Teilen ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \nabla_V W
+}
+{ =} { \nabla_{\sum_{i = 1}^n {h_i } \partial_i }   \left(  \sum_{j = 1}^n {f_j } \partial_j   \right)
+}
+{ =} { \sum_{j = 1}^n \left(  \sum_{i = 1}^n h_i  \partial_i f_j   \right) \partial_j
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+Für einen Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist dies
+
+\mathdisp {\sum_{j  = 1}^n \left(  \sum_{i = 1}^n h_i (P) ( \partial_i f_j)(P)   \right) \partial_j} { . }
+
+Ebenso ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \left(  D W   \right)_{ P } \left(   V(P)  \right)
+}
+{ =} { \left(  (\partial_j f_i)(P)  \right)_{ji} \begin{pmatrix} h_1(P) \\ \vdots\\  h_n(P)   \end{pmatrix}
+}
+{ =} { \begin{pmatrix}  \sum_{i = 1}^n h_i (P) \left(  \partial_i f_1  \right)(P)  \\ \vdots\\  \sum_{i = 1}^n h_i (P)  \left(  \partial_i f_n  \right) (P)   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+}
+
+ [[Kategorie:Latexseite]]

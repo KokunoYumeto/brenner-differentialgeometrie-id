@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "scope": "O011 Brenner Unit 23 exact media closure and TeX print derivatives",
+  "unit_number": 23,
+  "heading_level": "section",
+  "media_config": "source/unit_media.json",
+  "media_config_sha256": "c8d63a3113f148134d3305b07fd998e27a981b2006c90ca679545f739a599c22",
+  "manifest": "authority/brenner_media_rights_manifest.csv",
+  "manifest_sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57",
+  "image_engine": "Version: ImageMagick 7.1.2-22 Q16 x64 ccf56fb:20260512 https://imagemagick.org",
+  "source_count": 3,
+  "derivative_count": 0,
+  "attribution_tex": {
+    "path": "build/generated/unit23-media-attribution-complete.tex",
+    "bytes": 1203,
+    "sha256": "0fdba3e5e5a7acd25a966cedd843d845e10b0aa80eb931d049a6d3ea754e5df3"
+  },
+  "media": [
+    {
+      "filename": "SS-stokes.jpg",
+      "canonical_path": "authority/media/SS-stokes.jpg",
+      "canonical_bytes": 228915,
+      "canonical_sha1": "c68839173add3e8ebf613b837de43f11d5840f66",
+      "canonical_sha256": "5d357a2d401d3d41b6d95f30392aed06eef4ad10cded56f444214ea60cb5f30f",
+      "commons_description_url": "https://commons.wikimedia.org/wiki/File:SS-stokes.jpg",
+      "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SS-stokes.jpg",
+      "license": "Public domain",
+      "rights_label_id": "domain publik",
+      "license_url": "",
+      "artist_html": "",
+      "credit_html": "",
+      "attribution_required": "false",
+      "attribution_id": "Kelson (pengunggah di Wikimedia Commons; domain publik).",
+      "derivative": null
+    },
+    {
+      "filename": "Théorème-de-Brouwer-(cond-2).jpg",
+      "canonical_path": "authority/media/Théorème-de-Brouwer-(cond-2).jpg",
+      "canonical_bytes": 20602,
+      "canonical_sha1": "a2688688ffbb8d863021627ad4986f1151f802a3",
+      "canonical_sha256": "f46ef9add7d40b71876555ba7e09d4d176012dc275b756802411ef1ab6f9fc7b",
+      "commons_description_url": "https://commons.wikimedia.org/wiki/File:Th%C3%A9or%C3%A8me-de-Brouwer-(cond-2).jpg",
+      "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Th%C3%A9or%C3%A8me-de-Brouwer-%28cond-2%29.jpg",
+      "license": "CC BY-SA 3.0",
+      "rights_label_id": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jean-Luc_W\" title=\"User:Jean-Luc W\">Jean-Luc W</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+      "attribution_required": "true",
+      "attribution_id": "Jean-Luc W (karya sendiri).",
+      "derivative": null,
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    },
+    {
+      "filename": "Théorème-de-Brouwer-(cond-1).jpg",
+      "canonical_path": "authority/media/Théorème-de-Brouwer-(cond-1).jpg",
+      "canonical_bytes": 33149,
+      "canonical_sha1": "4167e29f29a545ba4ea34928b578d1887be6279d",
+      "canonical_sha256": "bc428893e0422da636766390820177c3179e68848fac71fbc6c6f0147f2c447b",
+      "commons_description_url": "https://commons.wikimedia.org/wiki/File:Th%C3%A9or%C3%A8me-de-Brouwer-(cond-1).jpg",
+      "commons_original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Th%C3%A9or%C3%A8me-de-Brouwer-%28cond-1%29.jpg",
+      "license": "CC BY-SA 3.0",
+      "rights_label_id": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "artist_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jean-Luc_W\" title=\"User:Jean-Luc W\">Jean-Luc W</a>",
+      "credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+      "attribution_required": "true",
+      "attribution_id": "Jean-Luc W (karya sendiri).",
+      "derivative": null,
+      "source_license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+    }
+  ]
+}

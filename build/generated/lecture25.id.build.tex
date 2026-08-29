@@ -1,0 +1,1051 @@
+\setcounter{section}{25}
+
+  \zwischenueberschrift{Penampang horizontal}
+
+\inputdefinition
+{}
+{
+
+Misalkan $X$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan $E$ suatu
+\definitionsverweis {bundel vektor diferensiabel}{}{}
+di atas $X$ yang dilengkapi dengan suatu
+\definitionsverweis {koneksi}{}{}.
+Misalkan pula $Z$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan
+\maabbdisp {\psi} { Z } { X
+} {}
+suatu
+\definitionsverweis {pemetaan diferensiabel}{}{.}
+Suatu
+\definitionsverweis {penampang diferensiabel}{}{}
+\maabbdisp {s} { Z } { E
+} {}
+\zusatzklammer {di atas $\psi$} {} {}
+disebut
+\definitionswort {horizontal}{,}
+jika untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ z
+}
+{ \in }{ Z
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+citra
+\mathl{T(s)(T_zZ)}{} seluruhnya termuat dalam bundel horizontal
+
+\mavergleichskette
+{\vergleichskette
+{ H_{s(z)}
+}
+{ \subseteq }{ T_{s(z)}E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}.
+
+}
+
+Dengan demikian, terdapat diagram komutatif
+
+\mathdisp {\begin{matrix}  &   &   &  E   \\ & & s \nearrow & \downarrow  \\  &  Z  & \stackrel{ \psi }{\longrightarrow}  &  X \! \\ \end{matrix}} {  }.
+
+Selain penampang horizontal, istilah \stichwort {pengangkatan horizontal} {} juga digunakan. Konsep ini khususnya dapat diterapkan pada penampang
+\maabb {s} { U } { E\vert_U
+} {}
+di suatu
+\definitionsverweis {himpunan terbuka}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}.
+
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontaler Schnitt/Vertikale Ableitung/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $X$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan $E$ suatu
+\definitionsverweis {bundel vektor diferensiabel}{}{}
+di atas $X$ yang dilengkapi dengan suatu
+\definitionsverweis {koneksi}{}{}.}
+\faktfolgerung {Maka suatu penampang yang terdiferensialkan secara kontinu
+\maabb {s} { U } { E \vert_U
+} {}
+di suatu himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bersifat
+\definitionsverweis {horizontal}{}{}
+jika dan hanya jika
+\definitionsverweis {turunan vertikal}{}{}-nya memenuhi
+
+\mavergleichskette
+{\vergleichskette
+{ \nabla s
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+ }
+{ Lihat Soal 25.4. }
+
+Pernyataan ini memiliki versi yang bersesuaian untuk penampang horizontal sepanjang suatu peta; lihat
+Soal 25.5.
+
+\inputdefinition
+{}
+{
+
+Misalkan $X$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan $E$ suatu
+\definitionsverweis {bundel vektor diferensiabel}{}{}
+di atas $X$ yang dilengkapi dengan suatu
+\definitionsverweis {koneksi}{}{}.
+Koneksi tersebut disebut
+\definitionswort {terintegralkan secara lokal}{,}
+jika untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \in }{ E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat suatu lingkungan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ p(e)
+}
+{ \in }{ U
+}
+{ \subseteq }{ X
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+serta suatu
+\definitionsverweis {penampang horizontal}{}{}
+\maabbdisp {s} { U } { E  \vert_U
+} {}
+yang terdefinisi di sana dan melalui $e$.
+
+}
+Koneksi tersebut disebut \stichwort {terintegralkan secara global} {,} jika untuk setiap
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \in }{ E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat suatu penampang horizontal pada seluruh $X$.
+
+  \zwischenueberschrift{Koneksi linear}
+
+\inputdefinition
+{}
+{
+
+Misalkan $X$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan $E$ suatu
+\definitionsverweis {bundel vektor diferensiabel}{}{}
+di atas $X$ yang dilengkapi dengan suatu
+\definitionsverweis {koneksi}{}{}.
+Koneksi tersebut disebut
+\definitionswort {linear}{,}
+jika
+\definitionsverweis {turunan vertikal}{}{}
+\maabbeledisp {\nabla} {C^1(E)} { C^0(E \otimes T^* X )
+} { s } { \nabla(s)
+} {,}
+yang terkait dengannya bersifat
+$\R$-\definitionsverweis {linear}{}{}
+\zusatzklammer {pada setiap himpunan terbuka} {} {.}
+
+}
+
+Perhatikan bahwa hal ini tidak berarti peta tersebut berasal dari suatu homomorfisme bundel atau merupakan homomorfisme modul ${\mathcal O}_X$. Peta itu tidak kompatibel dengan perkalian penampang oleh fungsi, melainkan hanya dengan penjumlahan dan perkalian skalar oleh konstanta. Sebagai gantinya, berlaku \stichwort {aturan Leibniz} {} berikut.
+
+
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Leibnizregel/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan $X$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan $E$ suatu
+\definitionsverweis {bundel vektor diferensiabel}{}{} di atas $X$ yang dilengkapi dengan suatu
+\definitionsverweis {koneksi linear}{}{}.}
+\faktfolgerung {Maka
+\definitionsverweis {turunan vertikal}{}{}
+\maabbeledisp {\nabla} {C^1(E)} { C^0(E \otimes T^* X )
+} { s } { \nabla(s)
+} {,}
+yang terkait dengannya memenuhi aturan Leibniz; yaitu, untuk setiap
+\definitionsverweis {penampang diferensiabel}{}{}
+$s$ di $E$ dan setiap
+\definitionsverweis {fungsi diferensiabel}{}{}
+$f$
+\zusatzklammer {yang keduanya terdefinisi pada suatu himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla (fs)
+}
+{ =} { s \otimes df + f \nabla (s)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Kedua ruas bersifat lokal di $X$, sehingga kita dapat mengandaikan bahwa
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ = }{ X \times W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah bundel trivial
+\zusatzklammer {dengan suatu ruang vektor-$\R$ yang dinotasikan $W$} {} {}.
+Misalkan
+\mathl{s_1 , \ldots , s_r}{} penampang basis konstan dari $E$; artinya, $s_i$ secara konstan sama dengan suatu vektor
+
+\mavergleichskette
+{\vergleichskette
+{ w_i
+}
+{ \in }{ W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dan vektor-vektor ini membentuk suatu basis dari $W$. Jika kesamaan tersebut telah dibuktikan untuk $s_i$ ini
+\zusatzklammer {dan $f$ sembarang} {} {,}
+maka kasus umum mengikutinya. Memang, setiap penampang $s$ di $E$ dapat dituliskan secara tunggal sebagai
+
+\mavergleichskette
+{\vergleichskette
+{s
+}
+{ = }{ \sum_{i = 1}^r g_is_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan fungsi-fungsi koefisien $g_i$. Dengan menggunakan linearitas-$\R$ kedua ruas, aturan Leibniz untuk penampang konstan
+\zusatzklammer {lihat di bawah} {} {,}
+dan
+aturan hasil kali,
+kita memperoleh
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \nabla (fs)
+}
+{ =} { \nabla \left(  f \sum_{i = 1}^r g_is_i  \right)
+}
+{ =} { \nabla \left(  \sum_{i = 1}^r \left(  f g_i  \right) s_i  \right)
+}
+{ =} { \sum_{i = 1}^r \nabla \left(  \left(  f g_i  \right) s_i  \right)
+}
+{ =} { \sum_{i = 1}^r \left(  s_i \otimes d(fg_i) + f g_i \nabla s_i  \right)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \sum_{i = 1}^r s_i \otimes \left(  g_i df + fdg_i  \right) + \sum_{i = 1}^r f g_i \nabla s_i
+}
+{ =} { \sum_{i = 1}^r \left(  g_i s_i \otimes df  \right)  + \sum_{i = 1}^r \left(  s_i \otimes f dg_i + f g_i \nabla s_i  \right)
+}
+{ =} { \left(  \sum_{i = 1}^r g_i s_i  \right)  \otimes df + f  \sum_{i = 1}^r \left(  s_i \otimes dg_i + g_i \nabla s_i  \right)
+}
+{ =} { s\otimes df + f \sum_{i = 1}^r \nabla \left(  g_i s_i  \right)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { s\otimes df + f \nabla s
+}
+{ } {}
+{ } {}
+{ } {}
+}{.}
+Sekarang misalkan $s$ suatu penampang yang secara konstan sama dengan $w$. Ambil
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Karena
+
+\mavergleichskette
+{\vergleichskette
+{ \nabla(fs)
+}
+{ = }{ \nabla ((f -f(x))  s ) + f(x) \nabla s
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+kita selanjutnya dapat mengandaikan bahwa
+
+\mavergleichskette
+{\vergleichskette
+{ f(x)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}.
+Dengan demikian,
+
+\mavergleichskette
+{\vergleichskette
+{ (f \nabla s)(x)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dan kita hanya perlu meninjau suku pertama. Ruang singgung dari
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ = }{ X \times W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+di
+\mathl{(x,0)}{} adalah
+\mathl{(T_x X \times 0) \oplus (0 \times W)}{.}
+Karena penampang nol bersifat horizontal untuk suatu koneksi linear menurut
+Soal 25.9,
+penguraian ini juga merupakan penguraian menjadi ruang horizontal dan ruang vertikal. Turunan vertikal
+\mathl{\nabla (fs)}{} di titik $x$ adalah peta komposit
+
+\mathdisp {T_x X \stackrel{T(fs)}{ \longrightarrow} T_{(x,0)} (X \times W) \stackrel{\pi }{ \longrightarrow} W} { , }
+dan karena $s$ konstan, peta ini sama dengan
+\mathl{s \otimes df}{.}
+
+}
+
+Sebaliknya, suatu koneksi linear dapat ditentukan melalui aturan pendiferensialan yang memenuhi aturan Leibniz. Dengan demikian, formalisme turunan semacam itu dan penguraian jumlah langsung linear dari bundel tangen bundel vektor pada hakikatnya merupakan konsep-konsep yang ekuivalen.
+
+
+
+\inputfaktbeweis
+{Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Existenz/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $X$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dengan
+\definitionsverweis {basis topologi terhitung}{}{}
+dan $E$ suatu
+\definitionsverweis {bundel vektor diferensiabel}{}{}
+di atas $X$.}
+\faktfolgerung {Maka terdapat suatu
+\definitionsverweis {koneksi linear}{}{}
+pada $E$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ X
+}
+{ = }{ \bigcup_{i \in I} U_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+suatu
+\definitionsverweis {tutupan terbuka}{}{}
+yang mentrivialkan $E$. Terdapat
+\definitionsverweis {koneksi trivial}{}{}
+$\nabla_i$ pada $E\vert_{U_i }$, yang linear menurut
+Soal 25.10.
+Menurut
+Teorema 22.10,
+terdapat suatu partisi satuan yang tersubordinasi pada tutupan tersebut,
+
+\mathbed {h_j} {}
+ {j \in J} {}
+ {} {} {} {.}
+Maka
+\mathl{\sum_{j \in J} h_j \nabla_{i(j)}}{} merupakan suatu koneksi linear yang terdefinisi dengan baik pada $X$ menurut
+Soal 25.16.
+
+}
+
+  \zwischenueberschrift{Simbol Christoffel untuk suatu koneksi linear}
+
+\inputdefinition
+{}
+{
+
+Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{}
+dan $\nabla$ suatu
+\definitionsverweis {koneksi linear}{}{}
+pada
+\definitionsverweis {bundel vektor}{}{}
+trivial
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ = }{ U \times \R^r
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Misalkan $x_i$ koordinat-koordinat pada $U$ dan $e_j$ penampang-penampang standar di $E$. Fungsi-fungsi yang ditentukan oleh persamaan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i } e_j
+}
+{ =} { \sum_{k = 1}^r \Gamma^k_{i j}  e_k
+}
+{ } {
+}
+{ } {
+}
+{ } {}
+}
+{}{}{}
+dan dipetakan sebagai
+\maabbdisp {\Gamma^k_{i j}} { U } {\R
+} {}
+disebut
+\definitionswort {simbol Christoffel}{}
+dari koneksi tersebut terhadap $x_i$ dan $e_j$.
+
+}
+
+Dengan demikian, simbol Christoffel mendeskripsikan peta-peta
+
+\mathdisp {U \stackrel{ \partial_i }{\longrightarrow} TU \stackrel{ T(e_j) }{\longrightarrow} TE \stackrel{ \nabla}{\longrightarrow} E} {  }
+
+terhadap penampang basis $e_k$ dari $E$. Linearitas koneksi tidak diperlukan untuk definisi ini. Namun, daya guna simbol Christoffel baru muncul bersama
+aturan Leibniz,
+yang mengandaikan linearitas; lihat
+Lema 25.10.
+
+\inputbemerkung
+{}
+{
+
+Untuk $E$ trivial di
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan rank $r$, berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T (U \times \R^r)
+}
+{ =} { U \times \R^r \times \R^n \times \R^r
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Jika
+\definitionsverweis {bundel vertikal}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ V E
+}
+{ \cong} { U \times \R^r \times \R^r
+}
+{ \subseteq} { T E
+}
+{ \cong} { U \times \R^r \times \R^n \times \R^r
+}
+{ } {
+}
+}
+{}{}{}
+dan fungsi-fungsi
+\maabb {\Gamma^k_{ij}} { U } {\R
+} {}
+diberikan, maka suatu proyeksi vertikal
+\zusatzklammer {yang ekuivalen dengan suatu pemisahan bundel tangen $TE$, dan karenanya dengan suatu
+\definitionsverweis {koneksi}{}{}} {} {}
+diberikan oleh
+\maabbeledisp {} {U \times \R^r \times \R^n \times \R^r } { U \times \R^r \times  \R^r
+} {(P,u, v, w)} {(P,u,\sum_{k = 1}^r    \left(  \sum_{i,j} v_iu_j \Gamma^k_{ij} (P)  \right)  e_k +w)
+} {,}
+dan secara khusus oleh
+\maabbeledisp {} {U \times \R^r \times \R^n \times \R^r } { U \times \R^r \times  \R^r
+} {(P,e_j, \partial_i, w)} {(P,e_j,\sum_{k = 1}^r \Gamma^k_{ij} (P) e_k +w)
+} {.}
+\definitionsverweis {Turunan vertikal}{}{}
+yang terkait,
+
+\mathdisp {U \stackrel{ \partial_i }{\longrightarrow}  TU  \stackrel{T(e_j)}{\longrightarrow} TE  \stackrel{\nabla}{\longrightarrow}  E} {  },
+
+memetakan
+
+\mathdisp {P \longmapsto (P, \partial_i) \longmapsto (P , e_j, \partial_i, 0)  \longmapsto  \sum_{k = 1}^r \Gamma^k_{ij} (P) e_k} { . }
+
+Jadi kita memperoleh kembali sifat yang mendefinisikan
+\definitionsverweis {simbol Christoffel}{}{}.
+
+}
+
+\inputdefinition
+{}
+{
+
+Misalkan $X$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan $E$ suatu
+\definitionsverweis {bundel vektor diferensiabel}{}{}
+di atas $X$ yang dilengkapi dengan suatu
+\definitionsverweis {koneksi linear}{}{}
+$\nabla$. Untuk setiap domain peta terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan koordinat $x_i$
+\zusatzklammer {dan medan turunan $\partial_i$ yang terkait} {} {,}
+serta tempat $E$ ditrivialkan dengan
+\definitionsverweis {penampang basis}{}{}
+$s_j$, fungsi-fungsi yang ditentukan oleh persamaan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i } s_j
+}
+{ =} { \sum_{k = 1}^r \Gamma^k_{i j} s_k
+}
+{ } {
+}
+{ } {
+}
+{ } {}
+}
+{}{}{}
+dan dipetakan sebagai
+\maabbdisp {\Gamma^k_{i j}} { U } {\R
+} {}
+disebut
+\definitionswort {simbol Christoffel lokal}{}
+dari koneksi tersebut terhadap trivialisasi-trivialisasi itu.
+
+}
+
+
+
+\inputfaktbeweis
+{Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $X$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan $E$ suatu
+\definitionsverweis {bundel vektor diferensiabel}{}{} di atas $X$ yang dilengkapi dengan suatu
+\definitionsverweis {koneksi linear}{}{}.}
+\faktfolgerung {Maka, secara lokal pada suatu domain peta dengan koordinat $x_i$, medan turunan $\partial_i$, dan penampang basis $s_j$ di $E$, untuk
+\definitionsverweis {simbol Christoffel}{}{}
+yang terkait dan fungsi-fungsi yang terdiferensialkan secara kontinu
+\maabb {h_i,f_j} { U } {\R
+} {}
+berlaku hubungan
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \nabla_{ \sum_{i = 1}^n h_i \partial_i }  \left(  \sum_{j =1}^r  f_js_j  \right)
+}
+{ =} { \sum_{k = 1}^r \left(  \sum_{i = 1}^n h_i  \partial_i f_k  +  \sum_{i ,j} h_i f_j \Gamma_{ij}^k  \right)  s_k
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Menurut
+Lema 24.10
+dan
+Teorema 25.5,
+kita memperoleh
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \nabla_{ \sum_{i = 1}^n h_i \partial_i }  \left(  \sum_{j =1}^r  f_js_j  \right)
+}
+{ =} { \sum_{i, j} h_i \nabla_{\partial_i } \left(  f_js_j  \right)
+}
+{ =} { \sum_{i, j} h_i  \left(  s_j \otimes \partial_i f_j  + f_j  \nabla_{\partial_i } (s_j)  \right)
+}
+{ =} { \sum_{i,j}  h_i s_j \partial_i f_j  +  \sum_{i ,j,k} h_i f_j \Gamma_{ij}^k s_k
+}
+{ =} { \sum_{k} \left(  \sum_{i = 1}^n h_i  \partial_i f_k  +  \sum_{i ,j} h_i f_j \Gamma_{ij}^k  \right)  s_k
+}
+}
+{}
+{}{.}
+
+}
+
+  \zwischenueberschrift{Penampang horizontal pada suatu koneksi linear}
+
+Untuk suatu himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+ruang penampang horizontal dari suatu bundel vektor $E$ dengan koneksi linear $\nabla$ kita nyatakan dengan
+\mathl{H(\nabla,U)}{.}
+Jadi,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ H(\nabla,U)
+}
+{ =} { \left\{ s \in C^1(U,E)  \mid  \nabla(s) =0         \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Ini merupakan pilihan penampang yang \anfuehrung{sangat kecil}{,} sebagaimana sudah terlihat dari
+Soal 25.21
+dan juga diperlihatkan oleh lema berikut. Untuk bundel vektor trivial ber-rank $1$ dengan koneksi trivial, penampang horizontal hanyalah penampang yang konstan secara lokal. Dalam konteks ini orang berbicara tentang berkas lokal konstan atau sistem lokal.
+
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Horizontale Schnitte/Untervektorraum/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $X$ suatu
+\definitionsverweis {manifold diferensiabel}{}{}
+dan $E$ suatu
+\definitionsverweis {bundel vektor diferensiabel}{}{} ber-rank $r$ di atas $X$ yang dilengkapi dengan suatu
+\definitionsverweis {koneksi linear}{}{}.}
+\faktfolgerung {Maka, untuk setiap himpunan bagian terbuka terhubung
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+himpunan
+\definitionsverweis {penampang horizontal}{}{}
+
+\mathl{H(\nabla,U)}{} merupakan suatu
+$\R$-\definitionsverweis {subruang vektor}{}{}
+dari
+\mathl{C^1(U,E)}{} yang berdimensi
+\mathl{\leq r}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Misalkan
+\mathl{s_1 , \ldots , s_r}{} penampang-penampang horizontal yang bebas linear pada $U$. Misalkan $s$ suatu penampang horizontal terdiferensiasi lainnya. Penampang $s$, menurut
+Soal 25.6
+\zusatzklammer {yang diterapkan pada $U$} {} {,}
+dapat dituliskan secara tunggal sebagai
+
+\mavergleichskette
+{\vergleichskette
+{ s
+}
+{ = }{ \sum_{i = 1}^r g_is_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan fungsi-fungsi
+\maabbdisp {g_i} { U} { \R
+} {}.
+Maka, menurut
+Teorema 25.5,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 0
+}
+{ =} { \nabla s
+}
+{ =} { \nabla \left(  \sum_{i = 1}^r g_is_i  \right)
+}
+{ =} { \sum_{i = 1}^r  \nabla \left(  g_is_i  \right)
+}
+{ =} { \sum_{i = 1}^r  s_i \otimes d g_i
+}
+}
+{}{}{.}
+Pada setiap himpunan terbuka yang lebih kecil dan difeomorfik dengan
+
+\mavergleichskette
+{\vergleichskette
+{ U'
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dengan memakai koordinat
+\mathl{x_1 , \ldots , x_n}{} kita dapat menuliskannya sebagai
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \sum_{i = 1}^r  s_i \otimes \left(  \sum_{ j = 1}^n { \frac{   \partial  g_i   }{  \partial   x_j   } }  dx_j   \right)
+}
+{ =} { \sum_{i = 1}^r \sum_{ j = 1}^n { \frac{   \partial  g_i   }{  \partial   x_j   } } \left(  s_i \otimes d x_j  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Penampang-penampang
+\mathl{s_i \otimes dx_j}{}
+\zusatzklammer {di atas himpunan terbuka ini} {} {}
+membentuk penampang basis dari
+\mathl{E  \vert_{U'} \otimes T^* U'}{,}
+sehingga harus berlaku
+
+\mavergleichskette
+{\vergleichskette
+{ { \frac{   \partial  g_i   }{  \partial   x_j   } }
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Jadi $g_i$ konstan
+\zusatzklammer {karena keterhubungan, hal ini juga berlaku pada seluruh $U$} {} {,}
+sehingga $s$ merupakan kombinasi linear-$\R$ dari $s_i$.
+
+}
+
+Jika secara global
+\zusatzklammer {yaitu di seluruh $X$} {} {}
+terdapat $r$ penampang horizontal yang bebas linear di dalam bundel vektor $E$, maka bundel vektor tersebut trivial.
+
+Bagi suatu koneksi linear, keterintegralan lokal berarti bahwa untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \in }{ E_x
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+secara lokal
+\zusatzklammer {di suatu lingkungan terbuka dari $x$} {} {}
+tercapai banyaknya maksimum penampang horizontal yang bebas linear menurut
+Lema 25.11
+\zusatzklammer {banyaknya ini ditentukan oleh rank bundel} {} {.}
+Keterintegralan lokal selalu terpenuhi jika manifold basis berdimensi satu.

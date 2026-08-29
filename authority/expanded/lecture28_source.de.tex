@@ -1,0 +1,809 @@
+\setcounter{section}{28}
+
+  \zwischenueberschrift{Krümmung}
+
+Es seien
+\mathkor {} {V} {und} {W} {}
+zweifach stetig differenzierbare Vektorfelder auf einer differenzierbaren Mannigfaltigkeit $M$ und sei $\nabla$ ein
+\definitionsverweis {linearer Zusammenhang}{}{}
+auf einem
+\definitionsverweis {Vektorbündel}{}{}
+\maabb {p} { E } { M
+} {}
+über $M$. Es ist
+\maabbeledisp {\nabla_W} {C^2(E) } { C^1 (E)
+} { s } { \nabla_W (s)
+} {,}
+die
+\definitionsverweis {vertikale Ableitung}{}{.}
+Auf das Ergebnis $\nabla_W (s)$ kann man wiederum die vertikale Ableitung in Richtung $V$ anwenden und erhält den stetigen Schnitt
+\mathl{\nabla_V  \left(  \nabla_W (s)  \right)}{.} Wenn alle Objekte $C^\infty$ sind, muss man sich über die Differenzierbarkeitsgrade keine Gedanken machen. Hier betrachten wir den Ausdruck
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R(V,W)
+}
+{ =} { \nabla_V \nabla_W - \nabla_W \nabla_V- \nabla_{[V,W]}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+der aus
+\zusatzklammer {hinreichend differenzierbaren} {} {}
+Schnitten in $E$ wieder einen Schnitt in $E$ produziert. Dabei ist
+\mathl{[V,W]}{} die
+\definitionsverweis {Lie-Klammer}{}{}
+von Vektorfeldern.
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine zweifach stetige
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und sei
+\maabb {} { E } { M
+} {}
+ein zweifach stetig
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+über $M$ mit einem
+\definitionsverweis {linearen Zusammenhang}{}{}
+$\nabla$. Dann nennt man zu differenzierbaren
+\definitionsverweis {Vektorfeldern}{}{}
+\mathkor {} {V} {und} {W} {}
+auf $M$ die Abbildung
+\maabbeledisp {} {C^2(E)} {C^0(E)
+} { s } { \nabla_V \nabla_W (s) - \nabla_W \nabla_V (s) - \nabla_{[V,W]}(s)
+} {,}
+den
+\definitionswort {Krümmungsoperator}{}
+zu $V$ und $W$. Er wird mit $R(V,W)$ bezeichnet.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Reelles Vektorbündel/Trivial/Linearer Zusammenhang/Krümmungsoperator/Beschreibung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^d
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+und $\nabla$ ein
+\definitionsverweis {linearer Zusammenhang}{}{}
+auf dem trivialen
+\definitionsverweis {Vektorbündel}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ = }{ U \times \R^r
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es seien
+
+\mathbed {\partial_i} {}
+ {1 \leq i \leq d} {}
+ {} {} {} {}
+die
+\definitionsverweis {Standardvektorfelder}{}{}
+und
+
+\mathbed {s_j} {}
+ {1 \leq j \leq r} {}
+ {} {} {} {}
+die Standardschnitte in $E$.}
+\faktfolgerung {Dann gilt für den
+\definitionsverweis {Krümmungsoperator}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R( \partial_i , \partial_j)(s_k)
+}
+{ =} { \sum_{\ell = 1}^r  R^\ell_{ijk} s_\ell
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R^\ell_{ijk}
+}
+{ =} { {\partial_i } \Gamma^\ell_{jk} - {\partial_j } \Gamma^\ell_{ik}  +  \sum_{ a  = 1}^r  \Gamma^a_{jk} \Gamma_{i a}^\ell -\sum_{ a  = 1}^r   \Gamma^a_{ik}  \Gamma_{j a}^\ell
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei die $\Gamma^\ell_{ik}$ die lokalen
+\definitionsverweis {Christoffelsymbole}{}{}
+des Zusammenhangs bezeichnen.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Es ist
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ R( \partial_i ,\partial_j)
+}
+{ =} { \nabla_{\partial_i } \circ \nabla_{\partial_j } -  \nabla_{\partial_j } \circ \nabla_{\partial_i } - \nabla_{[\partial_i, \partial_j]}
+}
+{ =} { \nabla_{\partial_i } \circ \nabla_{\partial_j } -  \nabla_{\partial_j } \circ \nabla_{\partial_i }
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{,}
+da ja die partiellen Ableitungen kommutieren und daher ihre Lie-Klammer gleich $0$ ist. Für einen Standardschnitt $s_k$ ist daher unter Verwendung von
+[[Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt|Lemma 25.10]]
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ R( \partial_i ,\partial_j) (s_k)
+}
+{ =} { \nabla_{\partial_i } ( \nabla_{\partial_j } (s_k) ) -  \nabla_{\partial_j } ( \nabla_{\partial_i } (s_k))
+}
+{ =} { \nabla_{\partial_i }  \left(  \sum_{\ell = 1}^r \Gamma^\ell_{jk} s_\ell  \right)  -  \nabla_{\partial_j }  \left(  \sum_{\ell = 1}^r \Gamma^\ell_{ik} s_\ell  \right)
+}
+{ =} { \sum_{\ell = 1}^r  \left(  \nabla_{\partial_i }  \left(  \Gamma^\ell_{jk} s_\ell  \right) - \nabla_{\partial_j }  \left(  \Gamma^\ell_{ik} s_\ell  \right)   \right)
+}
+{ =} { \sum_{\ell = 1}^r  \left(  {\partial_i } \Gamma^\ell_{jk} s_\ell +  \Gamma^\ell_{jk} \sum_{ \rho  = 1}^r \Gamma_{i \ell}^\rho  s_\rho  - {\partial_j } \Gamma^\ell_{ik} s_\ell - \Gamma^\ell_{ik} \sum_{ \rho  = 1}^r \Gamma_{j \ell}^\rho  s_\rho   \right)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \sum_{\ell = 1}^r  \left(  {\partial_i } \Gamma^\ell_{jk} - {\partial_j } \Gamma^\ell_{ik}  \right) s_\ell  + \sum_{\ell = 1}^r \sum_{ \rho  = 1}^r  \left(  \Gamma^\ell_{jk} \Gamma_{i \ell}^\rho  s_\rho  - \Gamma^\ell_{ik}  \Gamma_{j \ell}^\rho  s_\rho  \right)
+}
+{ =} { \sum_{\ell = 1}^r  \left(  {\partial_i } \Gamma^\ell_{jk} - {\partial_j } \Gamma^\ell_{ik}  \right) s_\ell  + \sum_{\ell = 1}^r  \left(  \sum_{ a  = 1}^r  \Gamma^a_{jk} \Gamma_{i a}^\ell -\sum_{ a  = 1}^r   \Gamma^a_{ik}  \Gamma_{j a}^\ell  \right)  s_\ell
+}
+{ } {
+}
+{ } {}
+}
+{}{.}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Reelles Vektorbündel/Rang 1/Offene Menge/Krümmungsoperator/Fakt}
+{Korollar}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {offene Menge}{}{}
+und sei $\nabla$ ein
+\definitionsverweis {linearer Zusammenhang}{}{}
+auf dem trivialen Vektorbündel
+\mathl{U \times \R}{} vom
+\definitionsverweis {Rang}{}{}
+$1$ mit den
+\definitionsverweis {Christoffelsymbolen}{}{}
+
+\mathbed {\Gamma_i} {}
+ {i = 1 , \ldots , n} {}
+ {} {} {} {.}}
+\faktuebergang {Dann gelten folgende Aussagen für den
+\definitionsverweis {Krümmungsoperator}{}{}
+zu den
+\definitionsverweis {Standardvektorfeldern}{}{}
+$\partial_i$.}
+\faktfolgerung {\aufzaehlungzwei {Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R(\partial_i, \partial_j)
+}
+{ =} { \partial_i \Gamma_j - \partial_j \Gamma_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+} {Genau dann ist
+
+\mavergleichskette
+{\vergleichskette
+{ R(\partial_i, \partial_j)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle $i,j$, wenn die
+$1$-\definitionsverweis {Differentialform}{}{}
+$\sum_{i = 1}^n \Gamma_i dx_i$
+\definitionsverweis {geschlossen}{}{}
+ist.
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\aufzaehlungzwei {Da der Rang des Bündels gleich $1$ ist, schreiben wir
+
+\mavergleichskette
+{\vergleichskette
+{ \Gamma_i
+}
+{ = }{ \Gamma_{i1}^1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und entsprechend
+
+\mavergleichskette
+{\vergleichskette
+{ R_{ij}
+}
+{ = }{ R_{ij1}^1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+die Aussage ist als
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R(\partial_i, \partial_j) (e)
+}
+{ =} { \left(  \partial_i \Gamma_j - \partial_j \Gamma_i  \right) e
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit dem konstanten Einheitsschnitt $e$ zu verstehen. Nach der expliziten Beschreibung in
+[[Reelles Vektorbündel/Trivial/Linearer Zusammenhang/Krümmungsoperator/Beschreibung/Fakt|Lemma 28.2]]
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R( \partial_i , \partial_j)
+}
+{ =} { {\partial_i } \Gamma_{j} - {\partial_j } \Gamma_{i}  + \Gamma_{j} \Gamma_{i } - \Gamma_{i}  \Gamma_{j }
+}
+{ =} { {\partial_i } \Gamma_{j} - {\partial_j } \Gamma_{i}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+} {Dies folgt aus (1) und aus
+[[Offene Teilmenge/R^n/Differentialform ersten Grades/Geschlossen/Aufgabe|Aufgabe 20.8]].
+}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Reelles Vektorbündel/Linearer Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $M$ eine zweifach stetige
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und sei
+\maabb {} { E } { M
+} {}
+ein zweifach stetig
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+über $M$ mit einem
+\definitionsverweis {linearen Zusammenhang}{}{}
+$\nabla$.}
+\faktuebergang {Dann erfüllt der
+\definitionsverweis {Krümmungsoperator}{}{}
+die folgenden Eigenschaften.}
+\faktfolgerung {\aufzaehlungdrei{Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R(V,W)
+}
+{ =} { -R(W,V)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{ $R$ ist additiv in beiden Komponenten.
+}{Für eine differenzierbare Funktion
+\maabb {f} { M } { \R
+} {}
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R(fV,W)
+}
+{ =} { f R(V,W)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Die Eigenschaften sind lokal in der Mannigfaltigkeit, man kann sie also auf einer offenen Überdeckung nachweisen, wobei die offenen Teilmengen diffeomorph zu offenen Mengen im $\R^d$ sind und worauf das Vektorbündel trivial ist. Somit folgt (1) aus
+[[Reelles Vektorbündel/Trivial/Linearer Zusammenhang/Krümmungsoperator/Beschreibung/Fakt|Lemma 28.2]].
+(2) folgt aus
+[[Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Ableitung bezüglich Vektorfeld/Eigenschaften/Fakt|Lemma 24.10]]
+und aus
+[[Mannigfaltigkeit/Vektorfelder/Lie-Klammer/Eigenschaften/Fakt|Lemma 11.8]].
+(3) Wir betrachten die lokale Situation mit den Vektorfeldern $f \partial_i$ und $g \partial_j$. Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R(f \partial_i, g \partial_j)
+}
+{ =} { \nabla_{f \partial_i } \circ \nabla_{g \partial_j } - \nabla_{g\partial_j } \circ \nabla_{f \partial_i } - \nabla_{[ f \partial_i, g \partial_j]}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Nach
+[[Mannigfaltigkeit/Vektorfelder/Lie-Klammer/Eigenschaften/Fakt|Lemma 11.8]]
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ [f \partial_i, g\partial_j]
+}
+{ =} { f [\partial_i, g\partial_j] - g \partial_j(f) \partial_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Somit ist für einen Schnitt $s$ unter Verwendung von
+[[Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Leibnizregel/Fakt|Satz 25.5]]
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ R(f \partial_i, g\partial_j) (s)
+}
+{ =} { \nabla_{f \partial_i } \circ \nabla_{g \partial_j } (s)- \nabla_{g \partial_j } \circ \nabla_{f \partial_i } (s)- \nabla_{[ f \partial_i, g \partial_j]}(s)
+}
+{ =} { f  \nabla_{ \partial_i } ( \nabla_{g\partial_j } (s) ) - \nabla_{g\partial_j } ( \nabla_{f \partial_i } (s))  - \nabla_{ f [\partial_i, g\partial_j] - g \partial_j(f) \partial_i  } (s)
+}
+{ =} { f  \nabla_{ \partial_i } ( \nabla_{ g \partial_j } (s) )-\nabla_{ g \partial_j } (f \nabla_{ \partial_i } (s)) - \nabla_{f [\partial_i, g\partial_j] } (s)  + \nabla_{ g \partial_j (f) \partial_i }  (s)
+}
+{ =} { f  \nabla_{ \partial_i } ( \nabla_{ g \partial_j } (s) )- f \nabla_{ g \partial_j } ( \nabla_{ \partial_i } (s))- g \partial_j(f) \nabla_{\partial_i } (s)  - \nabla_{f [\partial_i, g\partial_j] } (s)          + g \partial_j( f)  \nabla_{\partial_i } (s)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { f \nabla_{ \partial_i } ( \nabla_{g \partial_j } (s) )- f \nabla_{ g \partial_j } ( \nabla_{ \partial_i } (s)) - f \nabla_{[\partial_i, g \partial_j]} (s)
+}
+{ =} { f R( \partial_i, \partial_j) (s)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{.}
+Wegen (1) und (2) folgt daraus die Aussage.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Eindimensionale Mannigfaltigkeit/Reelles Vektorbündel/Linearer Zusammenhang/Krümmungsoperator trivial/Fakt}
+{Korollar}
+{}
+{
+
+\faktsituation {Es sei $M$ eine eindimensionale
+$C^2$-\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und sei
+\maabb {} { E } { M
+} {}
+ein zweifach stetig
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+über $M$ mit einem
+\definitionsverweis {linearen Zusammenhang}{}{}
+$\nabla$.}
+\faktfolgerung {Dann ist der
+\definitionsverweis {Krümmungsoperator}{}{}
+für beliebige
+\definitionsverweis {Vektorfelder}{}{}
+$V,W$ trivial.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Die Aussage ist lokal, daher können wir direkt
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein offenes Intervall und
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ = }{ f \partial
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ = }{ g \partial
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit dem
+\definitionsverweis {Standardvektorfeld}{}{}
+$\partial$ ansetzen. Nach
+[[Reelles Vektorbündel/Linearer Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt|Lemma 28.4  (3)]]
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R(f \partial, g \partial)
+}
+{ =} { fg R( \partial, \partial)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+wegen
+
+\mavergleichskette
+{\vergleichskette
+{ [\partial, \partial ]
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Reelles Vektorbündel/Trivialer Zusammenhang/Trivialer Krümmungsoperator/Fakt}
+{Korollar}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+$C^2$-\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ = }{ M \times \R^r
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das
+\definitionsverweis {triviale Vektorbündel}{}{}
+mit dem
+\definitionsverweis {trivialen Zusammenhang}{}{.}}
+\faktfolgerung {Dann ist für beliebige
+\definitionsverweis {Vektorfelder}{}{}
+$V,W$ der
+\definitionsverweis {Krümmungsoperator}{}{}
+$R(V,W)$ trivial.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Die Aussage ist lokal, wir können also von
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ U
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen ausgehen. Nach
+[[Reelles Vektorbündel/Linearer Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt|Lemma 28.4  (3)]]
+können wir weiter auf den Fall reduzieren, dass die Vektorfelder
+\definitionsverweis {Standardvektorfelder}{}{}
+$\partial_i$ sind. Nach
+[[R^n/Offene Menge/Trivialer Zusammenhang/Ableitungseigenschaften/Fakt/Beweis/Aufgabe|Aufgabe 25.11]]
+sind die Christoffelsymbole zum trivialen Zusammenhang trivial, also folgt die Aussage aus
+[[Reelles Vektorbündel/Trivial/Linearer Zusammenhang/Krümmungsoperator/Beschreibung/Fakt|Lemma 28.2]].
+
+}
+
+  \zwischenueberschrift{Der Satz von Frobenius}
+
+Den folgenden Satz können wir nicht vollständig beweisen. Man beachte, dass man es bei
+\zusatzklammer {lokal} {} {}
+gegebenen Basisschnitten den Christoffelsymbolen nicht ansieht, ob bezüglich anderen Basisschnitten die Christoffelsymbole verschwinden. Dies wird eben durch das verschwinden der Krümmung charakterisiert.
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Differenzierbare Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Lokal integrabel/Krümmung/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und
+\maabbdisp {p} { E } { M
+} {}
+ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{,}
+das mit einem
+\definitionsverweis {linearen Zusammenhang}{}{}
+$\nabla$ versehen sei.}
+\faktuebergang {Dann sind folgende Aussagen äquivalent.}
+\faktfolgerung {\aufzaehlungvier{Der Zusammenhang ist
+\definitionsverweis {lokal integrabel}{}{.}
+}{Der Zusammenhang ist lokal bezüglich geeigneter
+\definitionsverweis {Basisschnitte}{}{}
+isomorph zum
+\definitionsverweis {trivialen Zusammenhang}{}{.}
+}{Für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gibt es eine offene Kartenumgebung
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+derart, dass $E \vert_U$ trivial ist und dass die zugehörigen
+\definitionsverweis {Christoffelsymbole}{}{}
+die Nullfunktionen sind.
+}{Der
+\definitionsverweis {Krümmungsoperator}{}{}
+ist für beliebige
+\definitionsverweis {Vektorfelder}{}{}
+trivial.
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Alle Aussagen sind lokal, man kann also direkt von einer offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und dem trivialen Vektorbündel $U \times \R^r$ ausgehen. Sei (1) erfüllt. Dann kann man weiter annehmen, dass auf $U$ eine Familie von $r$ linear unabhängigen
+\definitionsverweis {horizontalen Schnitten}{}{}
+
+\mathl{s_1 , \ldots , s_r}{} gegeben ist. Nach
+[[Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Global integrabel/Globale Trivialisierung/Aufgabe|Aufgabe 25.6]]
+und
+[[Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Global integrabel/Globale Trivialisierung des Zusammenhangs/Aufgabe|Aufgabe 25.7]]
+kann man dann den Zusammenhang lokal trivialisieren. Dies ergibt (2). Die Äquivalenz von (2) und (3) beruht auf
+[[R^n/Offene Menge/Trivialer Zusammenhang/Ableitungseigenschaften/Fakt/Beweis/Aufgabe|Aufgabe 25.11]]
+und auf
+[[Offene Menge/Triviales Vektorbündel/Linearer Zusammenhang/Spaltung/Christoffelsymbole/Bemerkung|Bemerkung 25.8]].
+Wenn die Christoffelsymbole trivial sind, so sind die Standardschnitte horizontal und ergeben lokal horizontale Basisschnitte. Insgesamt sind also die ersten drei Formulierungen äquivalent. Wenn (2) gilt, so kann man lokal
+[[Reelles Vektorbündel/Trivialer Zusammenhang/Trivialer Krümmungsoperator/Fakt|Korollar 28.6]]
+anwenden und erhält, dass der Krümmungsoperator trivial ist.
+
+Die Richtung von (4) nach (1) ist deutlich schwieriger.
+
+}
+
+Für Spezialfälle der Richtung von (4) nach (1) siehe
+[[Eindimensionale Mannigfaltigkeit/Vektorbündel/R/Lokal integrabel/Aufgabe|Aufgabe 28.4]]
+und
+[[Differenzierbare Mannigfaltigkeit/Vektorbündel/R/Rang 1/Satz von Frobenius/Aufgabe|Aufgabe 28.5]].
+
+ [[Kategorie:Latexseite]]

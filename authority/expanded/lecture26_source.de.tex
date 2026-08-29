@@ -1,0 +1,1418 @@
+\setcounter{section}{26}
+
+  \zwischenueberschrift{Der Levi-Civita-Zusammenhang auf einer offenen Menge}
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen und sei darauf eine riemannsche Struktur durch die Funktionen $g_{ij}$ gegeben. Wir haben die Koordinatenfunktionen $x_i$ und die zugehörigen konstanten Vektorfelder $\partial_i$. Ein linearer Zusammenhang auf dem Tangentalbündel
+\mathl{U \times \R^n}{} wird durch Ableitungen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i } \partial_j
+}
+{ =} { \sum_{k = 1}^n\Gamma_{ij}^k\,\partial_k
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+beschrieben. Es wird sich herausstellen, dass man durch die folgende Wahl einen Zusammenhang erhält, der eng mit der riemannschen Struktur verbunden ist.
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen und sei darauf eine riemannsche Struktur durch die Funktionen $\left(  g_{ij}  \right)$ gegeben mit der inversen Matrix
+\mathl{\left(  g^{k l}  \right)}{.} Man nennt die auf $U$ definierten reellwertigen Funktionen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma_{ij}^k
+}
+{ =} { { \frac{   1  }{  2 } } \sum_{l = 1}^n g^{kl}(\partial_ig_{jl}+\partial_jg_{il}-\partial_lg_{ij})
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+die
+\definitionswort {Christoffelsymbole}{}
+für den Levi-Civita-Zusammenhang.
+
+}
+
+\inputdefinition
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen und sei darauf eine riemannsche Struktur durch die Funktionen $\left(  g_{ij}  \right)$ gegeben mit der inversen Matrix
+\mathl{\left(  g^{k l}  \right)}{.} Man nennt den auf $U$ durch die
+\definitionsverweis {Christoffelsymbole}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma_{ij}^k
+}
+{ =} { { \frac{   1  }{  2 } } \sum_{l = 1}^n g^{kl}(\partial_ig_{jl}+\partial_jg_{il}-\partial_lg_{ij})
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+festgelegten
+\definitionsverweis {linearen Zusammenhang}{}{}
+auf
+
+\mavergleichskette
+{\vergleichskette
+{ TU
+}
+{ = }{ U \times \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+den
+\definitionswort {Levi-Civita-Zusammenhang}{}
+auf $U$.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{R^n/Offene Menge/Levi-Civita-Zusammenhang/Trivial/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {offene Teilmenge}{}{,}
+die mit der induzierten
+\definitionsverweis {riemannschen Struktur}{}{}
+des $\R^n$ versehen sei.}
+\faktfolgerung {Dann ist der
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{}
+auf $U$
+\definitionsverweis {trivial}{}{.}
+Insbesondere gelten die folgenden Aussagen.
+\aufzaehlungvier{Die
+\definitionsverweis {Christoffelsymbole}{}{}
+sind
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma_{ij}^k
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle $i,j,k$.
+}{Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i }  \partial_j
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für die
+\definitionsverweis {Standardvektorfelder}{}{}
+$\partial_i$.
+}{Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i }  \left(  \sum_{j = 1}^n f_j \partial_j  \right)
+}
+{ =} { \sum_{j = 1}^n \partial_i(f_j) \partial_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für differenzierbare Funktionen $f_j$.
+}{Zu einem Vektorfeld $V$ und einem differenzierbaren Vektorfeld $W$ auf $U$ ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ ( \nabla_V W)(P)
+}
+{ =} { \left(  D W   \right)_{ P } \left(   V(P)  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Die riemannschen Fundamentalfunktionen $g_{ij}$ sind jedenfalls konstant und daher verschwinden ihre partiellen Ableitungen, die in die Definition der Christoffelsymbole eingehen. Nach
+[[Offene Menge/Triviales Vektorbündel/Linearer Zusammenhang/Spaltung/Christoffelsymbole/Bemerkung|Bemerkung 25.8]]
+liegt daher der triviale Zusammenhang vor. Die anderen Eigenschaften ergeben sich aus
+[[R^n/Offene Menge/Trivialer Zusammenhang/Ableitungseigenschaften/Fakt/Beweis/Aufgabe|Aufgabe 25.11]].
+
+}
+
+\inputbeispiel{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ \subseteq }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {reelles Intervall}{}{}
+und sei
+\maabbdisp {g} { I } {\R_+
+} {}
+eine positive differenzierbare Funktion, die wir als eine
+\definitionsverweis {riemannsche Metrik}{}{}
+auf $I$ interpretieren, siehe
+[[Intervall/Riemannsche Struktur/Einbettung/Beispiel|Beispiel 16.10]].
+Das einzige
+\definitionsverweis {Christoffelsymbol}{}{}
+für den Levi-Civita-Zusammenhang ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma
+}
+{ =} { { \frac{   1  }{  2 } }  g^{-1} g'
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+das ist bis auf den Vorfaktor die
+\definitionsverweis {logarithmische Ableitung}{}{}
+von $g$. Die vertikale Ableitung ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_\partial \partial
+}
+{ =} { { \frac{  g' }{  2g } } \partial
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei $\partial$ die Ableitung auf $I$ bezeichnet. Angewendet auf eine stetig differenzierbare Funktion
+\maabb {f} { I } {\R
+} {}
+\zusatzklammer {bzw. das Richtungsfeld $f \partial$} {} {}
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_\partial (f)
+}
+{ =} { \partial f + f  { \frac{  g' }{  2g } }
+}
+{ =} { f' + f { \frac{  g' }{  2g } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+nach
+[[Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Leibnizregel/Fakt|Satz 25.5]].
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Zweidimensional/Levi-Civita-Zusammenhang/Christoffelsymbole/Beziehung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+versehen mit einer durch
+\definitionsverweis {differenzierbare Funktionen}{}{}
+\maabbdisp {g_{11},g_{12},g_{22}} { U } {\R
+} {}
+gegebenen
+\definitionsverweis {riemannschen Struktur}{}{}
+mit der inversen Matrix $\left(  g^{kl}  \right)$.}
+\faktfolgerung {Dann sind die
+\definitionsverweis {Christoffelsymbole}{}{}
+für den Levi-Civita-Zusammenhang auf $U$  gleich
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \Gamma_{ij}^k
+}
+{ =} { { \frac{   1  }{  2 } } \left(  g^{k1}(\partial_ig_{j1}+\partial_jg_{i1}-\partial_1 g_{ij})   +  g^{k2}(\partial_ig_{j2}+\partial_jg_{i2}-\partial_2 g_{ij})  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Wenn
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine orientierte zweifach stetig differenzierbare Fläche ist und mit der durch den umgebenden Raum $\R^3$ induzierten
+\definitionsverweis {riemannschen Struktur}{}{}
+versehen wird, und
+\maabbdisp {\varphi} { V } { Y
+} {,}
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen, eine lokale zweifach differenzierbare Parametrisierung von $Y$ ist, so stimmen diese Christoffelsymbole mit den mithilfe des umgebenden Raumes definierten
+\definitionsverweis {Christoffelsymbolen}{}{}
+überein.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Die erste Aussage folgt direkt aus
+[[Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Christoffelsymbole/Definition|Definition 26.1]].
+Die zweite Aussage folgt daraus und aus
+[[Hyperfläche/Raum/Parametrisierung/Christoffelsymbole/Bezug zu riemannscher Metrik/Fakt|Lemma 19.5]].
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Offene Menge/Riemannsche Struktur/Christoffelsymbole/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+offen und sei darauf eine
+\definitionsverweis {riemannsche Struktur}{}{}
+durch die Funktionen $\left(  g_{ij}  \right)$ gegeben. Dann erfüllen die
+\definitionsverweis {Christoffelsymbole}{}{}
+für den Levi-Civita-Zusammenhang auf $U$ die Bedingung
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma^k_{ij}
+}
+{ =} { \Gamma^k_{ji}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktfolgerung {}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Dies folgt unmittelbar aus der Definition und der Symmetrie von
+\mathl{\left(  g_{ij}  \right)}{.}
+
+}
+
+\inputbeispiel{}
+{
+
+Wir knüpfen an
+[[Halbebene/Poincaré/Riemannsche Geometrie/Beispiel|Beispiel 18.8]]
+an, d.h. wir betrachten die Halbebene von Poincaré $\mathbb H$  mit den riemannschen Fundamentalfunktionen
+
+\mavergleichskette
+{\vergleichskette
+{ g_{11}
+}
+{ = }{ g_{22}
+}
+{ = }{ { \frac{   1  }{  y^2 } }
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ g_{12}
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Nach
+[[Riemannsche Mannigfaltigkeit/Zweidimensional/Levi-Civita-Zusammenhang/Christoffelsymbole/Beziehung/Fakt|Lemma 26.5]]
+ist
+
+\mathdisp {{ \frac{   1  }{  2 } } \left(  g^{k1}(\partial_ig_{j1}+\partial_jg_{i1}-\partial_1 g_{ij})   +  g^{k2}(\partial_ig_{j2}+\partial_jg_{i2}-\partial_2 g_{ij})  \right)} {  }
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma^1_{11}
+}
+{ =} { { \frac{   1  }{  2 } }  \left(  y^2  \partial_1  \left( \frac{   1  }{  y^2 } \right)     \right)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma^2_{11}
+}
+{ =} { { \frac{   1  }{  2 } }  \left(  y^2 \left(  - \partial_2  \left( \frac{   1  }{  y^2 } \right)  \right)      \right)
+}
+{ =} { { \frac{   1  }{  2 } }  \left(  y^2 \left(  -  \left( \frac{   -2 }{  y^3 } \right)  \right)      \right)
+}
+{ =} { { \frac{   1  }{  y } }
+}
+{ } {
+}
+}
+{}{}{}
+und ähnlich
+
+\mavergleichskette
+{\vergleichskette
+{ \Gamma^1_{12}
+}
+{ = }{ - { \frac{   1  }{  y } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ \Gamma^2_{12}
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ \Gamma^1_{22}
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ \Gamma^2_{22}
+}
+{ = }{ - { \frac{   1  }{  y } }
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+
+  \zwischenueberschrift{Der Levi-Civita-Zusammenhang}
+
+Wir möchten das Konzept den Levi-Civita-Zusammenhangs von einer offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit einer riemannschen Struktur auf eine beliebige riemannsche Mannigfaltigkeit ausdehnen. Die Hauptschwierigkeit besteht darin, zu zeigen, dass der direkte Ansatz für offene Kartengebiete auf den Überlappungen verträglich ist. Dazu führt man die folgenden Begriffe ein.
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und sei ein
+\definitionsverweis {linearer Zusammenhang}{}{}
+auf dem
+\definitionsverweis {Tangentialbündel}{}{}
+$TM$ gegeben. Der Zusammenhang heißt
+\definitionswort {torsionsfrei}{,}
+wenn
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_V W- \nabla_W V
+}
+{ =} { [V,W]
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für
+\definitionsverweis {stetig differenzierbare}{}{}
+\definitionsverweis {Vektorfelder}{}{}
+$V,W$ auf jeder offenen Menge gilt.
+
+}
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{}
+und sei ein
+\definitionsverweis {linearer Zusammenhang}{}{}
+auf dem
+\definitionsverweis {Tangentialbündel}{}{}
+$TM$ gegeben. Der Zusammenhang heißt
+\definitionswort {metrisch}{,}
+wenn
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D_V \left\langle  W  ,  Z  \right\rangle
+}
+{ =} { \left\langle \nabla_V W , Z  \right\rangle  + \left\langle  W  ,  \nabla_VZ  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+für
+\definitionsverweis {stetig differenzierbare}{}{}
+\definitionsverweis {Vektorfelder}{}{}
+$V,W ,Z$ auf jeder offenen Menge gilt.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Tangentialbündel/Linearer Zusammenhang/Metrisch und torsionsfrei/Koszul-Eigenschaft/Eindeutigkeit/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{}
+und sei ein
+\definitionsverweis {linearer Zusammenhang}{}{}
+$\nabla$ auf dem
+\definitionsverweis {Tangentialbündel}{}{}
+$TM$ gegeben, der
+\definitionsverweis {metrisch}{}{}
+und
+\definitionsverweis {torsionsfrei}{}{}
+sei.}
+\faktfolgerung {Dann gilt für
+\definitionsverweis {stetig differenzierbare}{}{}
+\definitionsverweis {Vektorfelder}{}{}
+$V,W,Z$ auf jeder offenen Menge die sogenannte \stichwort {Koszul-Formel} {}
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \left\langle \nabla_V W , Z  \right\rangle
+}
+{ =} { { \frac{   1  }{  2 } }  \left(  D_V \left\langle  W  ,  Z  \right\rangle +  D_W \left\langle  Z  ,  V  \right\rangle -  D_Z \left\langle  V  ,  W  \right\rangle  - \left\langle  W  , [V,Z]   \right\rangle - \left\langle  Z  , [W,V]   \right\rangle + \left\langle  V  , [Z,W]   \right\rangle   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {Insbesondere kann es nur einen Zusammenhang mit diesen Eigenschaften geben.}
+\faktzusatz {}
+
+}
+{
+
+Wegen der Torsionsfreiheit gilt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_VW- \nabla_WV
+}
+{ =} { [V,W]
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_VZ- \nabla_ZV
+}
+{ =} { [V,Z]
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_WZ- \nabla_ZW
+}
+{ =} { [W,Z]
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei wir die erste Identität auch als
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_VW + \nabla_WV
+}
+{ =} { 2 \nabla_VW -[V,W]
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auffassen. Wegen metrisch gelten die Identitäten
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D_V \left\langle  W  ,  Z  \right\rangle
+}
+{ =} { \left\langle \nabla_V W , Z  \right\rangle  + \left\langle  W  ,  \nabla_V Z  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D_W \left\langle  Z  ,  V  \right\rangle
+}
+{ =} { \left\langle \nabla_WZ , V  \right\rangle  + \left\langle  Z  ,  \nabla_WV  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D_Z \left\langle  V  ,  W  \right\rangle
+}
+{ =} { \left\langle \nabla_Z V , W  \right\rangle  + \left\langle  V  ,  \nabla_Z W   \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Wir addieren die Gleichungen zusammen und erhalten
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ D_V \left\langle  W  ,  Z  \right\rangle+ D_W \left\langle  Z  ,  V  \right\rangle  - D_Z \left\langle  V  ,  W  \right\rangle
+}
+{ =} { \left\langle \nabla_V W+\nabla_W V  ,  Z  \right\rangle + \left\langle \nabla_W Z-\nabla_Z W   ,  V  \right\rangle+\left\langle  \nabla_V Z-\nabla_Z V   ,  W  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+In die rechte Seite setzen wir die oben erzielten Ausdrücke ein und erhalten
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ D_V \left\langle  W  ,  Z  \right\rangle+ D_W \left\langle  Z  ,  V  \right\rangle  - D_Z \left\langle  V  ,  W  \right\rangle
+}
+{ =} { \left\langle  2 \nabla_VW -[V,W]  ,  Z  \right\rangle + \left\langle  [W,Z]  ,  V  \right\rangle + \left\langle [V,Z]   ,  W  \right\rangle
+}
+{ =} { 2\left\langle  \nabla_VW   ,  Z  \right\rangle - \left\langle  [V,W]  ,  Z  \right\rangle + \left\langle  [W,Z]  ,  V  \right\rangle + \left\langle  [V,Z]   ,  W  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+Eine Umstellung ergibt die Formel.
+
+Aufgrund der Gleichung ist
+\mathl{\left\langle  \nabla_V W , Z  \right\rangle}{} für beliebige Vektorfelder durch die rechte Seite festgelegt, in der der Zusammenhang gar nicht vorkommt. Da dies für jedes Vektorfeld $Z$ gilt, ist dadurch auch die vertikale Ableitung $\nabla_V W$ und damit der lineare Zusammenhang eindeutig festgelegt.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{R^n/Offene Menge/Riemannsche Struktur/Zusammenhang aus Christoffel-Symbole/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+und sei darauf eine
+\definitionsverweis {riemannsche Struktur}{}{}
+durch die Funktionen $\left(  g_{ij}  \right)$ gegeben mit der
+\definitionsverweis {inversen Matrix}{}{}
+
+\mathl{\left(  g^{k l}  \right)}{.} Es sei $\nabla$ der durch die
+\definitionsverweis {Christoffelsymbole}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma_{ij}^k
+}
+{ =} { { \frac{   1  }{  2 } } \sum_{l = 1}^n g^{kl}(\partial_ig_{jl}+\partial_jg_{il}-\partial_lg_{ij})
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gegebene
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{,}
+der durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i } \partial_j
+}
+{ =} { \sum_{k = 1}^n\Gamma_{ij}^k\,\partial_k
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gekennzeichnet ist.}
+\faktuebergang {Dann erfüllt $\nabla$ die folgenden Eigenschaften.}
+\faktfolgerung {\aufzaehlungvier{Es ist
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ \left\langle  \nabla_{\partial_i }  \partial_j  ,  \partial_k   \right\rangle
+}
+{ =} { { \frac{   1  }{  2 } }  \left(  D_{\partial_i }  \left\langle  \partial_j  ,  \partial_k   \right\rangle   +D_{\partial_j }  \left\langle  \partial_i  ,  \partial_k   \right\rangle -D_{\partial_k }  \left\langle  \partial_i  ,  \partial_j   \right\rangle   \right)
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{}{.}
+}{Er erfüllt die Koszul-Formel aus
+[[Riemannsche Mannigfaltigkeit/Tangentialbündel/Linearer Zusammenhang/Metrisch und torsionsfrei/Koszul-Eigenschaft/Eindeutigkeit/Fakt|Lemma 26.10]].
+}{Er ist
+\definitionsverweis {torsionsfrei}{}{.}
+}{Er ist
+\definitionsverweis {metrisch}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\aufzaehlungvier{Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D_{\partial_k }  \left\langle  \partial_i  ,  \partial_j   \right\rangle
+}
+{ =} { \partial_k  \left(  g_{ij}  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Ferner ist
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left\langle  \nabla_{\partial_i }  \partial_j  ,  \partial_k   \right\rangle
+}
+{ =} { \left\langle  \sum_{\ell = 1}^n\Gamma_{ij}^\ell \,\partial_\ell  ,  \partial_k   \right\rangle
+}
+{ =} { \sum_{\ell = 1}^n\Gamma_{ij}^\ell \left\langle  \,\partial_\ell  ,  \partial_k   \right\rangle
+}
+{ =} { \sum_{\ell = 1}^n\Gamma_{ij}^\ell g_{\ell k}
+}
+{ =} { { \frac{   1  }{  2 } } \sum_{\ell = 1}^n  \left(  \sum_{r = 1}^n g^{\ell r}  \left(  \partial_ig_{j r}+\partial_jg_{ir}-\partial_r g_{ij}  \right)   \right)  g_{\ell k}
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { { \frac{   1  }{  2 } } \sum_{r = 1}^n  \left(  \partial_ig_{j r}+\partial_jg_{ir}-\partial_r g_{ij}  \right)  \left(  \sum_{\ell = 1}^n  g^{\ell r} g_{\ell k}   \right)
+}
+{ =} { { \frac{   1  }{  2 } }  \left(  \partial_ig_{j k}+\partial_jg_{i k}-\partial_k g_{ij}  \right)
+}
+{ =} { { \frac{   1  }{  2 } }  \left(  D_{\partial_i }  \left\langle  \partial_j  ,  \partial_k   \right\rangle   +D_{\partial_j }  \left\langle  \partial_i  ,  \partial_k   \right\rangle   -D_{\partial_k }  \left\langle  \partial_i  ,  \partial_j   \right\rangle   \right)
+}
+{ } {}
+}
+{}{.}
+}{Da die Lie-Klammern
+\mathl{[ \partial_i, \partial_j]}{} auf  $U$ trivial sind, gilt die Koszul-Formel für die Basisfelder $\partial_i$  nach Teil (1). Für den allgemeinen Fall siehe
+[[R^n/Offene_Menge/Riemannsche_Struktur/Zusammenhang_aus_Christoffel-Symbole/Koszul-Eigenschaft/Allgemein/Aufgabe|Aufgabe 26.7]].
+}{Nach
+[[Offene Menge/Riemannsche Struktur/Christoffelsymbole/Eigenschaften/Fakt|Lemma 26.6]]
+und wegen
+
+\mavergleichskette
+{\vergleichskette
+{ [\partial_i, \partial_j]
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i }  \partial_j
+}
+{ =} { \nabla_{\partial_j }  \partial_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Daraus folgt die Aussage mit
+[[Tangentialbündel/Linearer Zusammenhang/Torsionsfrei/Basisschnitte/Aufgabe|Aufgabe 26.5]].
+}{Nach Teil (1) ist
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left\langle  \nabla_{\partial_i }  \partial_j  ,  \partial_k   \right\rangle + \left\langle  \nabla_{\partial_i }  \partial_k  ,  \partial_j   \right\rangle
+}
+{ =} { { \frac{   1  }{  2 } }  \left(  D_{\partial_i }  \left\langle  \partial_j  ,  \partial_k   \right\rangle   +D_{\partial_j }  \left\langle  \partial_i  ,  \partial_k   \right\rangle   -D_{\partial_k }  \left\langle  \partial_i  ,  \partial_j   \right\rangle    +D_{\partial_i }  \left\langle  \partial_k  ,  \partial_j   \right\rangle +D_{\partial_k }  \left\langle  \partial_i  ,  \partial_j   \right\rangle  - D_{\partial_j }  \left\langle  \partial_i  ,  \partial_k   \right\rangle   \right)
+}
+{ =} { D_{\partial_i }  \left\langle  \partial_j  ,  \partial_k   \right\rangle
+}
+{ } {}
+{ } {}
+}
+{}
+{}{.}
+Daraus folgt die Aussage mit
+[[Riemannsche Mannigfaltigkeit/Linearer Zusammenhang/Metrisch auf Basisfeldern/Metrisch/Aufgabe|Aufgabe 26.8]].
+}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Eindeutige Existenz/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei $X$ eine
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{.}
+Dann gibt es auf dem
+\definitionsverweis {Tangentialbündel}{}{}
+$TX$ einen eindeutig bestimmten
+\definitionsverweis {torsionsfreien}{}{,}
+\definitionsverweis {metrischen}{}{,}
+\definitionsverweis {linearen Zusammenhang}{}{.}}
+\faktfolgerung {}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Nach
+[[Riemannsche Mannigfaltigkeit/Tangentialbündel/Linearer Zusammenhang/Metrisch und torsionsfrei/Koszul-Eigenschaft/Eindeutigkeit/Fakt|Lemma 26.10]]
+kann es höchstens einen solchen Zusammenhang geben. Nach
+[[R^n/Offene Menge/Riemannsche Struktur/Zusammenhang aus Christoffel-Symbole/Eigenschaften/Fakt|Lemma 26.11]]
+kann man lokal für ein Kartengebiet explizit einen Zusammenhang mit den geforderten Eigenschaften angeben. Wegen der eben zitierten Eindeutigkeit stimmen die so konstruierten Zusammenhänge auf den Durchschnitten der Karten überein.
+
+}
+
+\inputdefinition
+{}
+{
+
+Es sei $X$ eine
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{.}
+Der lokal durch die
+\definitionsverweis {Christoffelsymbole}{}{}
+definierte
+\definitionsverweis {Zusammenhang}{}{}
+auf dem
+\definitionsverweis {Tangentialbündel}{}{}
+$TX$ heißt
+\definitionswort {Levi-Civita-Zusammenhang}{.}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Eigenschaften/Fakt}
+{Satz}
+{}
+{
+
+\faktsituation {Es sei $X$ eine
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{.}
+Dann erfüllt der
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{}
+$\nabla$ die folgenden Eigenschaften.}
+\faktfolgerung {\aufzaehlungdrei{ $\nabla$ ist
+\definitionsverweis {linear}{}{.}
+}{ $\nabla$ ist metrisch, d.h.
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D_V \left\langle  W  ,  Z  \right\rangle
+}
+{ =} { \left\langle \nabla_V W , Z  \right\rangle  + \left\langle  W  ,  \nabla_VZ  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{ $\nabla$ ist torsionsfrei, d.h. es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_V W- \nabla_W V
+}
+{ =} { [V,W]
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Dies folgt aus
+[[R^n/Offene Menge/Riemannsche Struktur/Zusammenhang aus Christoffel-Symbole/Eigenschaften/Fakt|Lemma 26.11]].
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{R^3/Riemannsche orientierte Fläche/Levi-Civita-Zusammenhang und induzierter Zusammenhang/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine zweifach differenzierbare Fläche, versehen mit der durch den umgebenden Raum $\R^3$ induzierten
+\definitionsverweis {riemannschen Struktur}{}{.}}
+\faktfolgerung {Dann stimmt der
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{}
+auf $Y$ mit dem
+\zusatzklammer {über die
+\definitionsverweis {orthogonale Projektion}{}{}
+auf die Tangentialräume gegebenen} {} {}
+\definitionsverweis {Zusammenhang}{}{}
+aus
+[[Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierter Zusammenhang/Bemerkung|Bemerkung 24.8]]
+überein.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Beide Zusammenhänge sind linear, daher genügt es, die Gleichheit der zugehörigen
+\definitionsverweis {vertikalen Ableitungen}{}{}
+lokal für Basisfelder zu zeigen. Sei
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+und
+\maabbdisp {\varphi} { V } { U
+} {}
+eine lokale zweifach stetig differenzierbare Parametrisierung einer offenen Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es seien $\partial_1,\partial_2$ die beiden konstanten Richtungsfelder auf $V$. Für den
+Levi-Civita-Zusammenhang ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i } \partial_j
+}
+{ =} { \sum_{k = 1}^2  \Gamma^k_{ij} \partial_k
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei die Christoffelsymbole unter Bezug auf
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g_{ij}
+}
+{ =} { \left\langle  \partial_i \varphi ,  \partial_j \varphi  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+definiert sind. Nach
+[[Riemannsche Mannigfaltigkeit/Zweidimensional/Levi-Civita-Zusammenhang/Christoffelsymbole/Beziehung/Fakt|Lemma 26.5]]
+erfüllen diese Christoffelsymbole auch die Bedingungen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial_i \partial_j \varphi
+}
+{ =} { \Gamma^1_{ij} \partial_1  \varphi +  \Gamma^2_{ij}  \partial_2  \varphi+   h_{ij} N
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei $N$ das
+\definitionsverweis {Einheitsnormalenfeld}{}{}
+bezeichnet und $h_{ij}$ die Einträge aus der
+\definitionsverweis {zweiten Fundamentalmatrix}{}{}
+sind
+\zusatzklammer {alles aufgefasst auf $V$} {} {.}
+
+Die Vektorfelder $\partial_i$ auf $V$ entsprechen auf
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ Y
+}
+{ \subseteq }{ \R^3
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+den Vektorfeldern $\left(  \partial_i \varphi  \right)  \circ \varphi^{-1}$. Nach Definition der
+\definitionsverweis {vertikalen Ableitung}{}{}
+zu dem eingeschränkten Zusammenhang muss man
+
+\mathdisp {U \stackrel{ \left(  \partial_i\varphi  \right) \circ \varphi^{-1} }{\longrightarrow} TU \stackrel{ T \left(  \left(  \partial_j \varphi  \right) \circ \varphi^{-1}    \right) }{\longrightarrow} TTU \stackrel{ \pi_{\text{vert} } } \longrightarrow TU} {  }
+
+betrachten und dies ergibt die orthogonale Projektion von
+\mathl{\left(  \partial_i \partial_j \varphi  \right) \circ \varphi^{-1}}{} auf das Tangentialbündel an  $Y$, was mit
+\mathl{\Gamma^1_{ij} \partial_1  \varphi +  \Gamma^2_{ij}  \partial_2  \varphi}{,} aufgefasst über $U$,  übereinstimmt
+\zusatzklammer {siehe hierzu auch
+[[Eingebettete Mannigfaltigkeit/Inverse Karte/Zweites Tangentialbündel/Partielle Ableitungen/Aufgabe|Aufgabe 26.11]]} {} {.}
+
+}
+
+Diese Aussage gilt entsprechend auch für beliebige abgeschlossene Untermannigfaltigkeiten
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit der induzierten riemannschen Struktur.
+
+ [[Kategorie:Latexseite]]

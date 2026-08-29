@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "component_id": "o011-bridge-de-rham",
+  "status": "complete_original_reader_content_and_smoke_build_passed",
+  "license": "CC BY-SA 4.0",
+  "provenance": "Original Bahasa Indonesia module authored by OpenAI Codex gpt-5.6-sol, Ultra, at the user's direction; no comparator prose incorporated.",
+  "internal_prerequisites": [
+    "o011-brenner-u14",
+    "o011-brenner-u20",
+    "o011-brenner-u22",
+    "o011-brenner-u23"
+  ],
+  "required_topic_sequence": [
+    "closed and exact forms, the de Rham complex, and cohomology",
+    "pullback functoriality and the wedge-product structure",
+    "Poincare lemma with a proved star-shaped case",
+    "chain homotopy and homotopy invariance",
+    "Mayer-Vietoris and computations of H0, H*(S1), and H*(Sn)",
+    "de Rham theorem statement and bounded degree, transversality, and Morse signposts"
+  ],
+  "artifacts": {
+    "license": {
+      "path": "source/bridges/de-rham/LICENSE.md",
+      "bytes": 736,
+      "sha256": "96bd38570567fe8b86f6bd003d6b1b82c90ea101a47f69a6ab9c723a5e7e793e"
+    },
+    "theory": {
+      "path": "source/bridges/de-rham/bridge-de-rham-theory.id.tex",
+      "bytes": 13792,
+      "sha256": "50feb003989fe674e41e3dd16fec85ad5b6dcc20f9cf6f7f2b09bdbf620ccd0e"
+    },
+    "assessment": {
+      "path": "source/bridges/de-rham/bridge-de-rham-assessment.id.tex",
+      "bytes": 14977,
+      "sha256": "270a158c20c9733a394a3163fd0ee4229addfe09a866a5a04be64effe4b474fe"
+    },
+    "smoke_pdf": {
+      "path": "build/bridge-de-rham-smoke.pdf",
+      "bytes": 287915,
+      "sha256": "bb430cf267a1483f71305d8684406fd36c652d2566be7d893d8f295d2feeb260",
+      "pages": 11,
+      "page_size": "A4"
+    },
+    "smoke_log": {
+      "path": "build/bridge-de-rham-smoke.log",
+      "bytes": 28449,
+      "sha256": "0aa3afcc086a805ad787672bab8d12b33d62ae2339e1356a9350e8952dd0a3f9"
+    }
+  },
+  "census": {
+    "exercise_ids": 12,
+    "exercise_hints": 12,
+    "exercise_complete_solutions": 12,
+    "mastery_problem_ids": 4,
+    "mastery_complete_solutions": 4,
+    "mastery_rubrics": 4,
+    "mastery_alternate_parameter_sets": 4,
+    "solution_bearing_items": 16,
+    "latex_labels": 32,
+    "duplicate_latex_labels": 0
+  },
+  "checks": {
+    "balanced_braces": true,
+    "utf8_without_replacement_character": true,
+    "required_topic_sequence_present": true,
+    "exact_exercise_and_mastery_census": true,
+    "poincare_homotopy_operator_scaling_checked": true,
+    "two_pass_pdflatex_smoke_build": true,
+    "latex_errors": 0,
+    "latex_warnings": 0,
+    "overfull_boxes": 0,
+    "underfull_boxes": 0,
+    "undefined_references_after_second_pass": 0
+  }
+}

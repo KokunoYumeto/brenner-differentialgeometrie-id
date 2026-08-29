@@ -4,8 +4,8 @@
   "source_bytes": 26932,
   "source_sha256": "610c85e2cb9838a2ce1deb488ceca6cb7d2ee2ab47f1e657d5df7488796f8402",
   "target": "source/units/unit-04/lecture04.id.tex",
-  "target_bytes": 28602,
-  "target_sha256": "60a7a2cbfc96a9a510bfff935f40722458c85031214eeaf8ccf4e8df2af2bc81",
+  "target_bytes": 28636,
+  "target_sha256": "456d30821bdaaa71736ddcbb6707b7d7de46ddbdbb81e9614ab982763f2d8b03",
   "checks": {
     "utf8_without_replacement_character": true,
     "command_sequence_equal_or_declared": true,
@@ -29,8 +29,6 @@
   "declared_corrections": [
     "O011-CORR-0043",
     "O011-CORR-0041",
-    "O011-CORR-0043",
-    "O011-CORR-0043",
     "O011-CORR-0042"
   ],
   "evidence_only_results": [

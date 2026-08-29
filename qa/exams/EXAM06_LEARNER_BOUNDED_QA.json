@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "scope": "official Exam 6 learner form, Bahasa Indonesia",
+  "source": {
+    "path": "authority/exams/expanded/exam06_learner_source.de.tex",
+    "bytes": 7153,
+    "sha256": "956bc2cdda307ec79caa110e24fa43bebfd9b01534f20f20c00a3ca60ef92af8"
+  },
+  "target": {
+    "path": "source/exams/exam-06/exam06_learner.id.tex",
+    "bytes": 7187,
+    "sha256": "7d65cd6c3eb1b2095e0343cebaa53185ed5dc9eb6e344e1bb968d745bcf02d49"
+  },
+  "translation_topology_receipt": {
+    "path": "qa/exams/EXAM06_LEARNER_TRANSLATION_QA.json",
+    "bytes": 1257,
+    "sha256": "8e151c61f1b39d07eb1ead7e6e47ade1b0f75e2693207122fdef210d4a704f13",
+    "status": "pass"
+  },
+  "protected_math_delta_manifest": {
+    "path": "qa/exams/EXAM06_LEARNER_TRANSLATION_DELTAS.json",
+    "bytes": 905,
+    "sha256": "f76df1a345aba5f56404720425d5aaee313f4fac65a3e5ed86643656ecb46625",
+    "declared_delta": "O011-EXAM06-TRANS-0001",
+    "status": "pass"
+  },
+  "census": {
+    "nominal_slots": 16,
+    "placeholder_slots": 5,
+    "actual_problem_occurrences": 11,
+    "source_solution_link_macros": 11,
+    "point_markers": [
+      "3",
+      "3",
+      "7",
+      "4",
+      "5",
+      "15 (3+3+4+5)",
+      "5",
+      "3 (2+1)",
+      "3",
+      "10",
+      "4"
+    ],
+    "total_points": 62
+  },
+  "checks": {
+    "slot_macro_and_point_sequence_equal": true,
+    "point_table_definitions_byte_equal": true,
+    "command_sequence_equal": true,
+    "environment_sequence_equal": true,
+    "inline_math_sequence_equal": true,
+    "display_math_sequence_equal": true,
+    "protected_macro_calls_equal_or_hash_bound": true,
+    "brace_profile_equal": true,
+    "link_destinations_equal": true,
+    "immutable_link_destinations": [
+      "Kategorie:Latexseite"
+    ],
+    "utf8_without_replacement_character": true,
+    "bounded_common_german_reader_prose_scan_clean": true
+  },
+  "status": "pass"
+}

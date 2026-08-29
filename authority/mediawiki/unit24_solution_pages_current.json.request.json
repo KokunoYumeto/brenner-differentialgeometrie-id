@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 15:01:04 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Differenzierbare Mannigfaltigkeit/Vektorbündel/Kurze exakte Sequenz/Spaltung/Aufgabe/Lösung|Differenzierbare Hyperfläche/Tangentialbündel/Differenzierbarer Weg/Zweites Tangentialbündel/Aufgabe/Lösung|Kreis/Erstes und zweites Tangentialbündel/Implizit/Aufgabe/Lösung|Differenzierbare Faser/Erstes und zweites Tangentialbündel/Beschreibung/Aufgabe/Lösung|Differenzierbare Mannigfaltigkeit/Quader/Abbildung/Zweites Tangentialbündel/Aufgabe/Lösung|Differenzierbare Mannigfaltigkeit/Quader/Abbildung/Zweites Tangentialbündel/Kurze exakte Sequenz/Aufgabe/Lösung|Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Ränge/Aufgabe/Lösung|Mannigfaltigkeit/Nullbündel/Zusammenhang/Aufgabe/Lösung|Punkt/Vektorbündel/Zusammenhang/Aufgabe/Lösung|Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Vertikale Ableitung längs Abbildung/Aufgabe/Lösung|Topologischer Raum/Vektorbündel/Kurze exakte Sequenz/Rückzug/Aufgabe/Lösung|Offenes Intervall/Zusammenhang/Kurze exakte Sequenz/Aufgabe/Lösung|Ebene Gleichung/Erstes und zweites Tangentialbündel/Implizit/1/Aufgabe/Lösung|Flächengleichung/Quadrik/Erstes und zweites Tangentialbündel/Implizit/1/Aufgabe/Lösung|Offene Menge/Rang 1/Trivialer Zusammenhang/Funktion/Vertikale Ableitung/Aufgabe/Lösung"
+  },
+  "response_bytes": 1802,
+  "response_path": "unit24_solution_pages_current.json",
+  "response_sha256": "c858e14c2f8aa185f4d33884d137dbd3ef3b10b35193f1661dbc93d9f0f5a5b3",
+  "retrieved_utc": "2026-08-28T15:01:03Z",
+  "schema_version": 1
+}

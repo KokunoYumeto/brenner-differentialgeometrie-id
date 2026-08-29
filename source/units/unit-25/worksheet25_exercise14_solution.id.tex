@@ -1,0 +1,95 @@
+Pemetaan
+\maabbdisp {u} { I } {\R^n
+} {}
+dinyatakan terhadap penampang basis
+\mathl{e_1 , \ldots , e_n}{}
+oleh
+\mavergleichskettedisp
+{\vergleichskette
+{ u
+}
+{ =} { u_1e_1 + \cdots + u_ne_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+.
+Menurut
+\definitionsverweis {turunan vertikal}{}{}
+dari koneksi tersebut, turunan penampang ini dalam satu-satunya arah turunan $\partial$, berdasarkan
+[[Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt|Lema]],
+adalah
+
+\mavergleichskettedisp
+{\vergleichskette
+{  \sum_{k = 1}^n \left(    \partial u_k  +  \sum_{j = 1}^n u_j \Gamma_{j}^k  \right) e_k
+}
+{ =} { \sum_{k = 1}^n \left(   u_k'  +  \sum_{j = 1}^n u_j \Gamma_{j}^k  \right) e_k
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Menurut
+[[Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontaler Schnitt/Vertikale Ableitung/Fakt|Lema]],
+$u$ merupakan penampang horizontal jika dan hanya jika turunan vertikalnya sama dengan $0$. Untuk setiap komponen, ini berarti
+
+\mavergleichskettedisp
+{\vergleichskette
+{ u_k' + \sum_{j = 1}^n \Gamma_j^k u_j
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk semua $k$. Kondisi ini ekuivalen dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ u_k'
+}
+{ =} { \sum_{j = 1}^n a_{kj} u_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk semua $k$, yang tepat berarti bahwa $u$ memenuhi sistem matriks
+
+\mavergleichskettedisp
+{\vergleichskette
+{ u'
+}
+{ =} { \left(  a_{kj}    \right) u
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+;
+dengan demikian, pemetaan itu merupakan suatu solusi sistem persamaan diferensial linear tersebut.
+
+ [[Kategorie:Latexseite]]

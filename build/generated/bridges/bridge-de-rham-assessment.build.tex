@@ -1,0 +1,456 @@
+% O011-BR-A — latihan, petunjuk, solusi, dan uji penguasaan asli.
+% Lisensi: CC BY-SA 4.0.
+% Provenans: disusun oleh OpenAI Codex gpt-5.6-sol, Ultra, atas arahan pengguna.
+
+\subsection{Latihan, petunjuk bertahap, dan solusi}
+
+Latihan berikut memakai ID stabil yang tidak bergantung pada bahasa. Setiap
+solusi adalah materi asli modul ini. Tidak ada solusi yang dinisbahkan kepada
+sumber Brenner atau kepada teks pembanding.
+
+\subsubsection*{Latihan R1 — Bentuk tertutup dan primitif (O011-BR-E01)}
+\label{o011-br-e01}
+
+Pada $\mathbb R^2$, tinjau
+\[
+ \omega=(2xy+1)\,dx+(x^2+3y^2)\,dy.
+\]
+Tentukan apakah $\omega$ tertutup dan, jika eksak, temukan suatu primitif.
+
+\paragraph{Petunjuk 1.}
+Untuk $P\,dx+Q\,dy$, hitung $d\omega=(Q_x-P_y)\,dx\wedge dy$.
+
+\paragraph{Petunjuk 2.}
+Integralkan $P$ terhadap $x$, lalu cocokkan turunan terhadap $y$.
+
+\paragraph{Solusi.}
+$P_y=2x$ dan $Q_x=2x$, sehingga $d\omega=0$. Jika $df=\omega$, integrasi
+$f_x=2xy+1$ memberi
+$f=x^2y+x+c(y)$. Persamaan $f_y=x^2+c'(y)=x^2+3y^2$ memberi
+$c(y)=y^3+C$. Jadi
+\[
+ \omega=d(x^2y+x+y^3).
+\]
+
+\subsubsection*{Latihan R2 — Produk pada kelas kohomologi (O011-BR-E02)}
+\label{o011-br-e02}
+
+Misalkan $\alpha,\alpha'$ bentuk-$p$ tertutup dengan
+$\alpha'-\alpha=d\mu$, dan $\beta,\beta'$ bentuk-$q$ tertutup dengan
+$\beta'-\beta=d\nu$. Buktikan secara langsung bahwa
+$\alpha'\wedge\beta'-\alpha\wedge\beta$ eksak.
+
+\paragraph{Petunjuk 1.}
+Ganti kedua wakil satu per satu.
+
+\paragraph{Petunjuk 2.}
+Gunakan $d(\mu\wedge\beta)=d\mu\wedge\beta$ dan
+$d(\alpha'\wedge\nu)=(-1)^p\alpha'\wedge d\nu$.
+
+\paragraph{Solusi.}
+Kita tulis
+\[
+ \alpha'\wedge\beta'-\alpha\wedge\beta
+ =d\mu\wedge\beta+\alpha'\wedge d\nu.
+\]
+Karena $d\beta=0$ dan $d\alpha'=0$,
+\[
+ d\mu\wedge\beta=d(\mu\wedge\beta),
+ \qquad
+ \alpha'\wedge d\nu=(-1)^p d(\alpha'\wedge\nu).
+\]
+Jadi selisihnya adalah
+$d(\mu\wedge\beta+(-1)^p\alpha'\wedge\nu)$.
+
+\subsubsection*{Latihan R3 — Funktorialitas konkret (O011-BR-E03)}
+\label{o011-br-e03}
+
+Untuk $f\colon\mathbb R^2\to\mathbb R^2$,
+$f(u,v)=(u^2-v^2,2uv)$, dan bentuk $\omega=x\,dy-y\,dx$, hitung
+$f^*\omega$ dan verifikasi $d(f^*\omega)=f^*(d\omega)$.
+
+\paragraph{Petunjuk 1.}
+Substitusikan $x=u^2-v^2$, $y=2uv$ beserta diferensialnya.
+
+\paragraph{Petunjuk 2.}
+$d\omega=2\,dx\wedge dy$ dan determinan Jacobian $f$ adalah
+$4(u^2+v^2)$.
+
+\paragraph{Solusi.}
+Kita mempunyai
+$dx=2u\,du-2v\,dv$ dan $dy=2v\,du+2u\,dv$. Maka
+\[
+ f^*\omega
+ =(u^2-v^2)(2v\,du+2u\,dv)
+ -2uv(2u\,du-2v\,dv)
+ =-2v(u^2+v^2)\,du+2u(u^2+v^2)\,dv.
+\]
+Turunan eksteriornya adalah
+$8(u^2+v^2)\,du\wedge dv$. Di sisi lain,
+\[
+ f^*(d\omega)=2f^*(dx\wedge dy)
+ =2\det(Df)\,du\wedge dv
+ =8(u^2+v^2)\,du\wedge dv.
+\]
+
+\subsubsection*{Latihan R4 — Kohomologi derajat nol (O011-BR-E04)}
+\label{o011-br-e04}
+
+Jika manifold $M$ mempunyai tepat $r<\infty$ komponen terhubung, buktikan
+$H^0_{\mathrm{dR}}(M)\cong\mathbb R^r$. Apa yang berubah jika banyaknya
+komponen tak hingga?
+
+\paragraph{Petunjuk 1.}
+Suatu fungsi dengan $df=0$ ditentukan oleh satu konstanta pada setiap
+komponen.
+
+\paragraph{Petunjuk 2.}
+Untuk tak hingga banyak komponen, tidak ada syarat bahwa keluarga konstanta
+harus berhingga dukungannya.
+
+\paragraph{Solusi.}
+Pemetaan yang mengirim fungsi lokal-konstan ke daftar nilainya pada
+komponen-komponen adalah isomorfisme linear ke $\mathbb R^r$. Tidak ada bentuk
+derajat $-1$, jadi tidak ada hasil bagi oleh bentuk eksak. Jika himpunan
+komponen adalah $I$ tak hingga, ruangnya adalah produk semua keluarga
+$\mathbb R^I$, bukan jumlah langsung $\mathbb R^{(I)}$.
+
+\subsubsection*{Latihan R5 — Generator bidang berlubang (O011-BR-E05)}
+\label{o011-br-e05}
+
+Pada $\mathbb R^2\setminus\{0\}$, buktikan bahwa
+\[
+ \eta=\frac{1}{2\pi}\frac{x\,dy-y\,dx}{x^2+y^2}
+\]
+tertutup tetapi tidak eksak.
+
+\paragraph{Petunjuk 1.}
+Hitung langsung $d\eta$, atau gunakan koordinat polar lokal.
+
+\paragraph{Petunjuk 2.}
+Tarik balik sepanjang $c(t)=(\cos t,\sin t)$ dan integralkan dari $0$ sampai
+$2\pi$.
+
+\paragraph{Solusi.}
+Perhitungan aturan hasil bagi memberi $d\eta=0$ di luar asal. Sepanjang
+lingkaran satuan,
+\[
+ c^*\eta=\frac{1}{2\pi}\,dt,
+ \qquad \int_{S^1}\eta=1.
+\]
+Jika $\eta=df$, integralnya pada kurva tertutup akan nol berdasarkan teorema
+dasar kalkulus atau Stokes. Kontradiksi ini menunjukkan $\eta$ tidak eksak.
+
+\subsubsection*{Latihan R6 — Operator Poincar\'e eksplisit (O011-BR-E06)}
+\label{o011-br-e06}
+
+Gunakan operator homotopi radial untuk bentuk
+$\omega=dx\wedge dy$ pada $\mathbb R^2$. Hitung $K\omega$ dan verifikasi
+$dK\omega=\omega$.
+
+\paragraph{Petunjuk 1.}
+Untuk $x=(x,y)$ dan vektor $v$, integran ialah
+$t\,\omega_x((x,y),v)$.
+
+\paragraph{Petunjuk 2.}
+Kontraksi vektor radial dengan $dx\wedge dy$ adalah $x\,dy-y\,dx$.
+
+\paragraph{Solusi.}
+Karena bentuknya konstan dan berderajat dua,
+\[
+ K\omega=\int_0^1t(x\,dy-y\,dx)\,dt
+ =\frac12(x\,dy-y\,dx).
+\]
+Dengan demikian
+\[
+ dK\omega=\frac12(dx\wedge dy-dy\wedge dx)=dx\wedge dy=\omega.
+\]
+
+\subsubsection*{Latihan R7 — Pemetaan homotopik (O011-BR-E07)}
+\label{o011-br-e07}
+
+Misalkan $F\colon M\times[0,1]\to N$ homotopi dari $f_0$ ke $f_1$ dan
+$\omega$ bentuk tertutup pada $N$. Tunjukkan secara eksplisit bahwa
+$f_1^*\omega-f_0^*\omega$ eksak. Apa primitifnya?
+
+\paragraph{Petunjuk 1.}
+Gunakan rumus homotopi rantai.
+
+\paragraph{Petunjuk 2.}
+Suku $K_F(d\omega)$ lenyap.
+
+\paragraph{Solusi.}
+Rumus $dK_F+K_Fd=f_1^*-f_0^*$ memberi
+\[
+ f_1^*\omega-f_0^*\omega=d(K_F\omega)+K_F(d\omega)
+ =d(K_F\omega).
+\]
+Jadi primitif eksplisitnya adalah
+\[
+ K_F\omega=\int_0^1\iota_t^*(\iota_{\partial_t}F^*\omega)\,dt.
+\]
+
+\subsubsection*{Latihan R8 — Retraksi deformasi (O011-BR-E08)}
+\label{o011-br-e08}
+
+Buktikan bahwa penyertaan $S^{n-1}\hookrightarrow\mathbb R^n\setminus\{0\}$
+menginduksi isomorfisme kohomologi de Rham.
+
+\paragraph{Petunjuk 1.}
+Gunakan retraksi radial $r(x)=x/\|x\|$.
+
+\paragraph{Petunjuk 2.}
+Bangun homotopi dari identitas ke $i\circ r$ tanpa melewati asal.
+
+\paragraph{Solusi.}
+Penyertaan $i$ memenuhi $r\circ i=\operatorname{id}_{S^{n-1}}$. Homotopi
+\[
+ H(x,t)=\left((1-t)+\frac{t}{\|x\|}\right)x
+\]
+menghubungkan identitas pada $\mathbb R^n\setminus\{0\}$ dengan $i\circ r$;
+koefisiennya selalu positif. Jadi $i$ dan $r$ adalah ekuivalensi homotopi.
+Invariansi homotopi memberi isomorfisme yang diminta.
+
+\subsubsection*{Latihan R9 — Mayer--Vietoris untuk lingkaran (O011-BR-E09)}
+\label{o011-br-e09}
+
+Tutupi $S^1$ oleh dua busur terbuka kontraktibel yang irisannya mempunyai dua
+komponen. Tuliskan bagian barisan Mayer--Vietoris yang menghitung
+$H^1_{\mathrm{dR}}(S^1)$ dan tentukan pemetaan linearnya.
+
+\paragraph{Petunjuk 1.}
+$H^0(U)=H^0(V)=\mathbb R$ dan
+$H^0(U\cap V)=\mathbb R^2$.
+
+\paragraph{Petunjuk 2.}
+Pemetaan beda restriksi mengirim $(a,b)$ ke $(a-b,a-b)$.
+
+\paragraph{Solusi.}
+Bagian barisan yang relevan adalah
+\[
+0\to\mathbb R\to\mathbb R^2
+\xrightarrow{D}\mathbb R^2
+\to H^1(S^1)\to0,
+\qquad D(a,b)=(a-b,a-b).
+\]
+Citra $D$ adalah diagonal satu dimensi, sehingga cokernelnya satu dimensi.
+Karena itu $H^1_{\mathrm{dR}}(S^1)\cong\mathbb R$.
+
+\subsubsection*{Latihan R10 — Derajat peta pangkat (O011-BR-E10)}
+\label{o011-br-e10}
+
+Untuk $f_m\colon S^1\to S^1$, $f_m(e^{i\theta})=e^{im\theta}$ dengan
+$m\in\mathbb Z$, tentukan tindakan $f_m^*$ pada $H^1_{\mathrm{dR}}(S^1)$ dan
+derajat $f_m$.
+
+\paragraph{Petunjuk 1.}
+Gunakan generator $d\theta/(2\pi)$ pada koordinat sudut lokal dan integral
+globalnya.
+
+\paragraph{Petunjuk 2.}
+Tarikan baliknya adalah $m\,d\theta/(2\pi)$.
+
+\paragraph{Solusi.}
+Jika $[\eta]$ adalah generator ternormalisasi dengan integral $1$, maka
+\[
+ f_m^*[\eta]=m[\eta].
+\]
+Tindakan pada kohomologi teratas lingkaran adalah perkalian $m$, sehingga
+$\deg(f_m)=m$. Ini juga benar untuk $m<0$, ketika orientasi dibalik.
+
+\subsubsection*{Latihan R11 — Dua kelas pada torus (O011-BR-E11)}
+\label{o011-br-e11}
+
+Pada $\mathbb T^2=S^1\times S^1$, misalkan $\eta_1$ dan $\eta_2$ adalah
+tarikan balik generator $H^1(S^1)$ melalui dua proyeksi. Buktikan bahwa
+$[\eta_1]$ dan $[\eta_2]$ bebas linear.
+
+\paragraph{Petunjuk 1.}
+Integralkan pada dua lingkaran koordinat
+$c_1(z)=(z,1)$ dan $c_2(z)=(1,z)$.
+
+\paragraph{Petunjuk 2.}
+Matriks periodenya adalah matriks identitas.
+
+\paragraph{Solusi.}
+Dengan normalisasi integral generator sama dengan $1$,
+\[
+ \int_{c_1}\eta_1=1,\quad \int_{c_1}\eta_2=0,
+ \qquad
+ \int_{c_2}\eta_1=0,\quad \int_{c_2}\eta_2=1.
+\]
+Jika $a[\eta_1]+b[\eta_2]=0$, bentuk terkait eksak dan semua periodenya nol.
+Integrasi pada $c_1$ memberi $a=0$, dan pada $c_2$ memberi $b=0$.
+
+\subsubsection*{Latihan R12 — Bentuk eksak pada manifold tertutup (O011-BR-E12)}
+\label{o011-br-e12}
+
+Misalkan $M$ manifold kompak berorientasi tanpa batas berdimensi $n$. Buktikan
+bahwa untuk setiap $\eta\in\Omega^{n-1}(M)$,
+\[
+ \int_M d\eta=0.
+\]
+Jelaskan mengapa suatu bentuk-$n$ dengan integral tak nol tidak mungkin eksak.
+
+\paragraph{Petunjuk 1.}
+Gunakan teorema Stokes dan $\partial M=\varnothing$.
+
+\paragraph{Petunjuk 2.}
+Argumen kedua adalah kontraposisi langsung.
+
+\paragraph{Solusi.}
+Teorema Stokes memberi
+\[
+ \int_Md\eta=\int_{\partial M}\eta=0.
+\]
+Jika bentuk-$n$ $\omega$ eksak, $\omega=d\eta$ dan integralnya harus nol.
+Jadi integral tak nol mendeteksi kelas kohomologi de Rham tak nol.
+
+\subsection{Uji penguasaan kumulatif}
+
+\subsubsection*{Penguasaan N1 — Bidang berlubang (O011-BR-M01)}
+\label{o011-br-m01}
+
+(a) Bangun retraksi deformasi $\mathbb R^2\setminus\{0\}\to S^1$; (b) hitung
+semua grup kohomologi de Rham bidang berlubang; (c) buktikan bahwa bentuk
+$\eta$ dari Latihan R5 mewakili generator ternormalisasi; (d) tentukan apakah
+$2\eta+d(x/(x^2+y^2))$ eksak.
+
+\paragraph{Petunjuk.}
+Gabungkan Latihan R5 dan R8. Integral bentuk eksak pada lingkaran tertutup
+adalah nol.
+
+\paragraph{Solusi.}
+Retraksi dan homotopinya adalah
+\[
+ r(x)=\frac{x}{\|x\|},
+ \qquad H(x,t)=\left((1-t)+\frac t{\|x\|}\right)x.
+\]
+Maka kohomologi sama dengan kohomologi $S^1$:
+\[
+ H^0\cong\mathbb R,\qquad H^1\cong\mathbb R,
+ \qquad H^k=0\ (k\ge2).
+\]
+Karena $\eta$ tertutup dan periodenya pada lingkaran positif adalah $1$, ia
+mewakili generator ternormalisasi. Bentuk terakhir mempunyai periode $2$,
+sebab suku diferensial eksak berperiode nol; jadi bentuk itu tidak eksak.
+
+\paragraph{Rubrik (12 poin).}
+Tiga poin untuk retraksi dan homotopi yang menghindari asal; tiga poin untuk
+semua derajat kohomologi; tiga poin untuk ketertutupan/periode/generator;
+tiga poin untuk keputusan terakhir beserta alasan periodenya.
+
+\paragraph{Parameter alternatif.}
+Ganti lubang asal dengan titik $p\in\mathbb R^2$ dan gunakan koordinat
+$x-p$. Generator dan retraksi harus ditranslasikan, sementara struktur
+kohomologi tetap sama.
+
+\subsubsection*{Penguasaan N2 — Lema Poincar\'e terhitung (O011-BR-M02)}
+\label{o011-br-m02}
+
+Pada $\mathbb R^3$, misalkan
+\[
+ \omega=x\,dy\wedge dz+y\,dz\wedge dx+z\,dx\wedge dy.
+\]
+(a) Hitung $d\omega$; (b) tentukan apakah $\omega$ tertutup; (c) untuk bentuk
+$\alpha=dx\wedge dy$, hitung $K\alpha$ dengan operator radial; (d) verifikasi
+identitas homotopi pada $\alpha$.
+
+\paragraph{Petunjuk.}
+Tiga suku pada $d\omega$ semuanya merupakan $dx\wedge dy\wedge dz$. Untuk
+$\alpha$, gunakan perhitungan Latihan R6.
+
+\paragraph{Solusi.}
+Kita memperoleh
+\[
+ d\omega=3\,dx\wedge dy\wedge dz,
+\]
+sehingga $\omega$ tidak tertutup. Untuk $\alpha$,
+\[
+ K\alpha=\frac12(x\,dy-y\,dx),
+ \qquad dK\alpha=dx\wedge dy=\alpha.
+\]
+Karena $d\alpha=0$ dan tarikan balik bentuk derajat dua oleh pemetaan konstan
+nol, identitas $dK\alpha+Kd\alpha=\alpha-F_0^*\alpha$ tepat menjadi
+$dK\alpha=\alpha$.
+
+\paragraph{Rubrik (12 poin).}
+Tiga poin untuk tanda dan koefisien $d\omega$; dua poin untuk keputusan
+ketertutupan; empat poin untuk operator radial; tiga poin untuk verifikasi
+identitas lengkap termasuk suku pemetaan konstan.
+
+\paragraph{Parameter alternatif.}
+Ganti $\omega$ dengan
+$a x\,dy\wedge dz+b y\,dz\wedge dx+c z\,dx\wedge dy$.
+Ketertutupan terjadi tepat ketika $a+b+c=0$.
+
+\subsubsection*{Penguasaan N3 — Kohomologi bola melalui Mayer--Vietoris (O011-BR-M03)}
+\label{o011-br-m03}
+
+Dengan penutup dua lingkungan kutub, buktikan secara induktif rumus lengkap
+untuk $H^k_{\mathrm{dR}}(S^n)$, mulai dari $S^1$. Jelaskan secara terpisah apa
+yang terjadi pada derajat nol, satu, antara, dan teratas.
+
+\paragraph{Petunjuk.}
+Kedua bagian kontraktibel dan irisannya ekuivalen-homotopi dengan
+$S^{n-1}$. Jangan memakai isomorfisme penghubung pada derajat nol tanpa
+memeriksa keterhubungan.
+
+\paragraph{Solusi.}
+Kasus dasar $S^1$ diperoleh dari barisan
+$0\to\mathbb R\to\mathbb R^2\to\mathbb R^2\to H^1(S^1)\to0$,
+yang memberi $H^0=H^1=\mathbb R$. Untuk $n\ge2$, pada derajat $k>1$ bagian
+kontraktibel menyumbang nol dan Mayer--Vietoris memberi
+\[
+ H^k(S^n)\cong H^{k-1}(S^{n-1}).
+\]
+Pada derajat satu, keterhubungan kedua bagian dan irisan memberi $H^1(S^n)=0$.
+Derajat nol adalah $\mathbb R$ karena $S^n$ terhubung. Induksi lalu memberi
+\[
+ H^k(S^n)=\begin{cases}\mathbb R,&k=0,n,\\0,&\text{lainnya}.
+ \end{cases}
+\]
+
+\paragraph{Rubrik (12 poin).}
+Tiga poin untuk kasus dasar; tiga poin untuk penutup dan tipe homotopi irisan;
+empat poin untuk penggunaan barisan eksak pada rentang derajat yang benar;
+dua poin untuk kesimpulan induktif lengkap.
+
+\paragraph{Parameter alternatif.}
+Mulai induksi dari $S^0$ sebagai dua titik dan minta peserta menelusuri
+derajat nol secara eksplisit sebelum melanjutkan ke $S^1$.
+
+\subsubsection*{Penguasaan N4 — Derajat, nilai regular, dan batas cakupan (O011-BR-M04)}
+\label{o011-br-m04}
+
+Untuk $f_m(e^{i\theta})=e^{im\theta}$ dengan $m\ne0$: (a) hitung derajat dari
+tarikan balik bentuk generator; (b) pilih nilai regular $1\in S^1$ dan hitung
+jumlah bertanda prapetanya; (c) cocokkan kedua jawaban; (d) jelaskan dengan
+satu kalimat masing-masing peran transversalitas dan teori Morse dalam jalur
+lanjutan, tanpa mengklaim teorema yang belum dibuktikan.
+
+\paragraph{Petunjuk.}
+Prapeta $1$ adalah $e^{2\pi ik/m}$ dengan interpretasi yang sesuai untuk tanda
+$m$. Turunan dalam koordinat sudut adalah perkalian $m$.
+
+\paragraph{Solusi.}
+Untuk generator $\eta$ dengan integral $1$,
+$f_m^*\eta=m\eta$, sehingga $\deg f_m=m$. Nilai $1$ regular karena turunan
+lokalnya $m\ne0$. Ada $|m|$ titik prapeta; masing-masing bertanda
+$\operatorname{sgn}(m)$, sehingga jumlah bertandanya $m$, sama dengan hasil
+kohomologi.
+
+Transversalitas menjamin prapeta submanifold yang ditemui secara generik
+merupakan submanifold dengan dimensi yang diharapkan dan mendasari hitungan
+perpotongan. Teori Morse menguraikan perubahan topologi sublevel melalui titik
+kritis nondegenerat dan menghubungkannya dengan kohomologi; pembuktian kedua
+teori itu berada di luar modul ini.
+
+\paragraph{Rubrik (12 poin).}
+Tiga poin untuk tarikan balik dan derajat; empat poin untuk prapeta, regularitas,
+dan tanda lokal; dua poin untuk pencocokan; tiga poin untuk dua penanda jalur
+yang benar dan tidak melebih-lebihkan cakupan.
+
+\paragraph{Parameter alternatif.}
+Gunakan $g_m(e^{i\theta})=e^{i(m\theta+\theta_0)}$ dengan konstanta
+$\theta_0$. Derajat tetap $m$, tetapi himpunan prapeta nilai regular bergeser.

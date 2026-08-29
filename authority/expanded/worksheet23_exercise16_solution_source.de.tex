@@ -1,0 +1,64 @@
+a) Es ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{d \omega
+}
+{ =} { d \left(  x dy \wedge dz  -y dx \wedge dz +  z dx \wedge dy \right)
+}
+{ =} { dx \wedge dy \wedge dz - dy \wedge dx \wedge dz + d z \wedge dx \wedge dy
+}
+{ =} { dx \wedge dy \wedge dz + dx \wedge dy \wedge dz + d x \wedge dy \wedge dz
+}
+{ =} { 3 d x \wedge dy \wedge dz
+}
+}
+{}
+{}{,}
+wobei wir verwendet haben, dass sich das Vorzeichen bei der Vertauschung von Faktoren im Dachprodukt ändert.
+
+b) Für einen Punkt
+\mathl{P = \begin{pmatrix}  x  \\ y \\  z   \end{pmatrix}  \in S^2}{} und zwei orthonormale,
+\zusatzklammer {zusammen mit $P$} {} {}
+die Orientierung repräsentierende Tangentialvektoren
+\mathl{u= \begin{pmatrix} u_1  \\u_2 \\ u_3   \end{pmatrix}}{} und
+\mathl{v= \begin{pmatrix} v_1  \\v_2 \\ v_3   \end{pmatrix}}{} ist nach
+[[Dachprodukt/Natürliche Dualität/Endlichdimensional/Fakt|Fakt]]
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \omega \vert_{S^2}  (u,v)
+}
+{ =} { \omega (u,v)
+}
+{ =} { z \det  \begin{pmatrix} u_1   &  v_1   \\ u_2  & v_2  \end{pmatrix} - y \det  \begin{pmatrix} u_1   &  v_1   \\ u_3  & v_3  \end{pmatrix} + x \det  \begin{pmatrix} u_2   &  v_2   \\ u_3  & v_3  \end{pmatrix}
+}
+{ =} { \det  \begin{pmatrix}  x   &  u_1  & v_1  \\  y  & u_2  & v_2  \\ z  & u_3  & v_3  \end{pmatrix}
+}
+{ } {
+}
+}
+{}
+{}{.}
+Die Determinante eines die Orientierung repräsentierenden Orthonormalsystems ist aber $1$. Also erfüllt die eingeschränkte Differentialform die Eigenschaft, die die
+\definitionsverweis {Standardvolumenform}{}{}
+charakterisiert.
+
+c) Die Oberfläche der Kugel ist unter Verwendung von a), b), des Satzes von Stokes und des Kugelvolumens gleich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_{S^2} \omega
+}
+{ =} { \int_{ B  \left(  0, 1 \right)  }  d \omega
+}
+{ =} { \int_{ B  \left(  0, 1 \right)  } 3 d x \wedge dy \wedge dz
+}
+{ =} { 3 \lambda^3 (   B  \left(  0, 1 \right)     )
+}
+{ =} { 4 \pi
+}
+}
+{}{}{.}
+
+ [[Kategorie:Latexseite]]

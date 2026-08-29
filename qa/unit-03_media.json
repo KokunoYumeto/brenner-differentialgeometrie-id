@@ -4,7 +4,7 @@
   "unit_number": 3,
   "heading_level": "section",
   "media_config": "source/unit_media.json",
-  "media_config_sha256": "2af86dd714f13273f38bd9abdd9245e5a183c22fbac5e9684127c98f443217d9",
+  "media_config_sha256": "1f5404aad71947dcff064b853f1820b302f5a7e14cbb862631623eeddc2b8cad",
   "manifest": "authority/brenner_media_rights_manifest.csv",
   "manifest_sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57",
   "image_engine": "Version: ImageMagick 7.1.2-22 Q16 x64 ccf56fb:20260512 https://imagemagick.org",
@@ -36,6 +36,8 @@
         "bytes": 59606,
         "sha256": "26ae5258f872f7b3aab41ddacc4fdc48a4760492ce7a98b203134e16e68f642a",
         "identify": "PNG 1375 750 sRGB",
+        "source_kind": "svg",
+        "frame_index": null,
         "command": [
           "magick",
           "-background",
@@ -52,7 +54,7 @@
           "-strip",
           "-define",
           "png:exclude-chunk=date,time",
-          "PNG24:build/generated/media/Parabola circle.png"
+          "build/generated/media/Parabola circle.png"
         ]
       }
     },
@@ -76,6 +78,8 @@
         "bytes": 246540,
         "sha256": "caf9b6bb9c2ffa5dcb72fee7e9e4bd2890a34724abbc0ffc4ea296deb22261ea",
         "identify": "PNG 1800 1800 sRGB",
+        "source_kind": "svg",
+        "frame_index": null,
         "command": [
           "magick",
           "-background",
@@ -92,7 +96,7 @@
           "-strip",
           "-define",
           "png:exclude-chunk=date,time",
-          "PNG24:build/generated/media/Euler spiral.png"
+          "build/generated/media/Euler spiral.png"
         ]
       }
     },
@@ -116,6 +120,8 @@
         "bytes": 84021,
         "sha256": "fcaacfd7dd60400f7682a5bbc87986e9a8fd99088d291fd03eb51f35723f92b0",
         "identify": "PNG 1146 771 sRGB",
+        "source_kind": "svg",
+        "frame_index": null,
         "command": [
           "magick",
           "-background",
@@ -132,7 +138,7 @@
           "-strip",
           "-define",
           "png:exclude-chunk=date,time",
-          "PNG24:build/generated/media/Evolute-parab.png"
+          "build/generated/media/Evolute-parab.png"
         ]
       }
     }

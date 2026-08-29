@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "input": "source/exams/exam-04/exam04_learner.id.tex",
+  "input_bytes": 7645,
+  "input_sha256": "16e2a99d9b62bd082cde86a45377c50f50a11b690a3781d925b29d2ee407d83d",
+  "output": "build/generated/exams/exam04_learner.id.build.tex",
+  "output_bytes": 7507,
+  "output_sha256": "3d772992c8ba2c0115e2914cbb4510e16b9e3a4d26e29ca560e826206506c5ca",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Allgemeines Kugelvolumen/Mit Cavalieri-Prinzip/Beispiel",
+      "label": "volume bola"
+    },
+    {
+      "target": "Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt",
+      "label": "Teorema Stokes"
+    }
+  ],
+  "wiki_link_resolution_passes": 1,
+  "rendered_interactive_gif_links": []
+}

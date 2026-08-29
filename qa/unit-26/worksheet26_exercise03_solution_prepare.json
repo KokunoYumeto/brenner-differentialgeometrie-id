@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-26/worksheet26_exercise03_solution.id.tex",
+  "input_bytes": 1530,
+  "input_sha256": "6d1e3218dc4add645605ec77e5a6abcf2561790b741a8d1bb9d3a0006ddec3eb",
+  "output": "build/generated/worksheet26_exercise03_solution.id.build.tex",
+  "output_bytes": 1434,
+  "output_sha256": "3589f785754f30ce7ba75b74c7b1b6bf0dc5160f6d91318bf15e8970c042feff",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Intervall/Riemannsche Struktur/Levi-Civita-Zusammenhang/Beispiel",
+      "label": "contoh tersebut"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

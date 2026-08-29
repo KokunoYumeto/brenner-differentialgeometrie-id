@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-23/worksheet23_exercise17_solution.id.tex",
+  "input_bytes": 973,
+  "input_sha256": "7470059295ed784e20e65ec68a233960b59688f100615e5a71935560a81252f8",
+  "output": "build/generated/worksheet23_exercise17_solution.id.build.tex",
+  "output_bytes": 895,
+  "output_sha256": "b161881b8115540a635ed6c76539b49b96accb29bc922f214743655aa4c8165b",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt",
+      "label": "teorema Stokes"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

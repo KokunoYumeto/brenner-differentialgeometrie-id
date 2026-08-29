@@ -4,8 +4,8 @@
   "source_bytes": 28173,
   "source_sha256": "1ebed6aa9a38214811e7b96baab8ce6adf9215dc99e4844e9fb36be2cf7766fd",
   "target": "source/units/unit-01/lecture01.id.tex",
-  "target_bytes": 28969,
-  "target_sha256": "428546cce566f1a93e237699f584ff6687275f555d295d584bc394d12e96cffa",
+  "target_bytes": 29009,
+  "target_sha256": "0237473836f695af04b5ab972857f58904b416f8baffd9e5d2c8f5e504fdd0f3",
   "checks": {
     "utf8_without_replacement_character": true,
     "command_sequence_equal_or_declared": true,
@@ -14,7 +14,8 @@
     "display_math_equal_or_declared": true,
     "protected_macro_calls_equal_or_declared": true,
     "brace_profile_equal_or_declared": true,
-    "all_declared_deltas_consumed": true
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
   },
   "counts": {
     "commands": 699,
@@ -27,9 +28,7 @@
   "failures": [],
   "declared_corrections": [
     "O011-CORR-0002+O011-ADV-0009",
-    "O011-CORR-0002+O011-ADV-0009",
-    "O011-CORR-0002",
-    "O011-CORR-0002",
     "O011-CORR-0002"
-  ]
+  ],
+  "evidence_only_results": []
 }

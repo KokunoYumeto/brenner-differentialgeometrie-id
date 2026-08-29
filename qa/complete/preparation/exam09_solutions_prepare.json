@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "input": "source/exams/exam-09/exam09_solutions.id.tex",
+  "input_bytes": 32219,
+  "input_sha256": "b1ad5b0ca45852e6e85e1b1aaf7b0fe0acab07ed952b14005ba8b5c87af0b290",
+  "output": "build/generated/exams/exam09_solutions.id.build.tex",
+  "output_bytes": 31049,
+  "output_sha256": "3bacc7434f6b5e14e6c04b46424439eb57c0ceadc39c8e23ae82efb30da64c64",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 13,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Ebene differenzierbare Kurve/Faser/Krümmung/Fakt",
+      "label": "Lemma 3.11 (Geometri Diferensial (Osnabrück 2023))"
+    },
+    {
+      "target": "Ebene differenzierbare Kurve/Faser/Krümmung/Fakt",
+      "label": "Lemma 3.11 (Differentialgeometrie (Osnabrück 2023))"
+    },
+    {
+      "target": "Kompaktheit/Satz von Heine-Borel/Fakt",
+      "label": "Satz von Heine-Borel"
+    },
+    {
+      "target": "Reelle Analysis/Zwischenwertsatz/Fakt",
+      "label": "Zwischenwertsatz"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Orientiert/Kanonische Volumenform/Lokale Berechnung/Fakt",
+      "label": "Lemma 16.7 (Differentialgeometrie (Osnabrück 2023))"
+    },
+    {
+      "target": "Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt",
+      "label": "Satz 8.2 (Differentialgeometrie (Osnabrück 2023))"
+    },
+    {
+      "target": "Hyperfläche/Raum/Parametrisierung/Weingartenabbildung/Fundamentalformen/Fakt",
+      "label": "Lemma 19.3 (Differentialgeometrie (Osnabrück 2023))  (3)"
+    },
+    {
+      "target": "Hyperfläche/Raum/Parametrisierung/Weingartenabbildung/Fundamentalformen/Fakt",
+      "label": "Lemma 19.3 (Differentialgeometrie (Osnabrück 2023))  (4)"
+    },
+    {
+      "target": "Differentialform/Mannigfaltigkeit/Äußere Ableitung/Eigenschaften/Fakt",
+      "label": "Satz 20.4 (Differentialgeometrie (Osnabrück 2023))  (5)"
+    },
+    {
+      "target": "Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt",
+      "label": "Satz von Stokes"
+    },
+    {
+      "target": "Mannigfaltigkeit mit Rand/Orientierung/Randorientierung/Fakt",
+      "label": "Satz 21.8 (Differentialgeometrie (Osnabrück 2023))"
+    },
+    {
+      "target": "Nullstellenfreie Volumenform/Orientierte (Karten) Mannigfaltigkeit/Äquivalenz/Fakt",
+      "label": "Satz 22.11 (Differentialgeometrie (Osnabrück 2023))"
+    },
+    {
+      "target": "Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt",
+      "label": "Satz 23.2 (Differentialgeometrie (Osnabrück 2023))"
+    },
+    {
+      "target": "Differentialform/Mannigfaltigkeit/Äußere Ableitung/Eigenschaften/Fakt",
+      "label": "Satz 20.4 (Differentialgeometrie (Osnabrück 2023))  (5)"
+    }
+  ],
+  "wiki_link_resolution_passes": 1,
+  "rendered_interactive_gif_links": []
+}

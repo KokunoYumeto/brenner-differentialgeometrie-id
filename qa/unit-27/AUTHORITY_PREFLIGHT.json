@@ -1,0 +1,1104 @@
+{
+  "authority": {
+    "course_recursive_export": {
+      "bytes": 3538709,
+      "path": "authority/mediawiki/brenner_course_recursive_current.xml",
+      "sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14"
+    },
+    "latex_surface_recursive_export": {
+      "bytes": 3722387,
+      "path": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+      "sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c"
+    },
+    "pages": {
+      "lecture_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture27_latex_surface_revid807133.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1200,
+          "path": "authority/mediawiki/lecture27_latex_surface_revid807133.metadata.json",
+          "sha256": "54616518493b082f1f6a86b461a37ae69c31c710ac995d9606df4b6b2c57af9f"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142601,
+        "parentid": 799042,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/lecture27_latex_surface_revid807133.wiki",
+        "revid": 807133,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T10:01:40Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 27/latex"
+      },
+      "lecture_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "5f4890f3bfafdf8a47b0f02bd19ea3cbc98010b41e79e377aec26010f2467222",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture27_root_revid906209.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "fbl5w9pxjbyniii8fs3wbbid6pjwucc",
+        "metadata": {
+          "bytes": 1172,
+          "path": "authority/mediawiki/lecture27_root_revid906209.metadata.json",
+          "sha256": "689193b57c0426a96525ef86979e81c2020f9207984afef8b77fbd128d88bd35"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142571,
+        "parentid": 906089,
+        "readable_normalized_bytes": 1129,
+        "readable_normalized_sha256": "0900ea8d62221f477206635c02ca9ec0f02f8b0c7294b7807afde5c5e9c8d103",
+        "readable_normalized_witness": "authority/mediawiki/lecture27_root_revid906209.wiki",
+        "revid": 906209,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 1128,
+        "source_utf8_sha1": "832b02162e91b21221524c7262a80c0af1a9f89c",
+        "source_utf8_sha256": "4f81674e15031931e9b4ca046e79a53928e067a9d3f641458f39a2eb4add0b37",
+        "timestamp": "2023-07-13T13:25:20Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 27"
+      },
+      "worksheet_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet27_latex_surface_revid807102.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1207,
+          "path": "authority/mediawiki/worksheet27_latex_surface_revid807102.metadata.json",
+          "sha256": "6920b29962d6e759400de047856b2a179445303b24a3468a380f7ae4be225448"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142691,
+        "parentid": 799011,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/worksheet27_latex_surface_revid807102.wiki",
+        "revid": 807102,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T09:56:30Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 27/latex"
+      },
+      "worksheet_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "4ab2c06d7d929a5bdfb5afe79160b3641da14b3fcf8df91554f4606044dd8b98",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet27_root_revid906575.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "q7ia3yix95ihegi01y2cpgvlzwz5api",
+        "metadata": {
+          "bytes": 1179,
+          "path": "authority/mediawiki/worksheet27_root_revid906575.metadata.json",
+          "sha256": "754d68b30a55e9b1606999dfd1b5aaf6880650d282cd11f20e436c831073cfa7"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142661,
+        "parentid": 906485,
+        "readable_normalized_bytes": 3447,
+        "readable_normalized_sha256": "730aee846f6a1508b76725f2c859c9d8492204f4fcf97627deac73ec2d18ec05",
+        "readable_normalized_witness": "authority/mediawiki/worksheet27_root_revid906575.wiki",
+        "revid": 906575,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 3446,
+        "source_utf8_sha1": "e05de96743fbe1a6ab377b5e746e351db6e2b876",
+        "source_utf8_sha256": "ff640d00dc06fa62518ae919b24bf7918b23ae126276348ad8dd4d08cd99a855",
+        "timestamp": "2023-07-16T08:52:43Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 27"
+      }
+    },
+    "root_revision_baselines": {},
+    "root_revision_manifest": {
+      "bytes": 15237,
+      "path": "authority/brenner_selected_root_revisions.csv",
+      "sha256": "64cf91594907db45355e64fb512fb14092e15218c74847a8f60fe884a5284fc8"
+    },
+    "root_revision_overrides": {},
+    "surface_revision_manifest": {
+      "bytes": 31799,
+      "path": "authority/brenner_selected_surface_revisions.csv",
+      "sha256": "9a3a6b7dc08cc022803dad24e959365d67810d4da87a8bc4385c601db9d4bd52"
+    }
+  },
+  "checks": {
+    "all_candidate_solution_titles_queried": true,
+    "all_displayed_images_have_license_macros": true,
+    "all_point_markers_resolved": true,
+    "all_supplied_solution_latex_snapshots_frozen": true,
+    "all_supplied_solution_revisions_frozen": true,
+    "exercise_root_expansion_count_agreement": true,
+    "lecture_expansion_sanitized": true,
+    "revision_export_hashes_match": true,
+    "root_revision_bindings_unique": true,
+    "root_witnesses_match_mediawiki_sha1": true,
+    "solution_macro_api_agreement": true,
+    "surface_revision_bindings_unique": true,
+    "translation_started_by_workflow": false,
+    "unit_media_binary_and_rights_closure": true,
+    "worksheet_expansion_sanitized": true
+  },
+  "expansions": {
+    "lecture": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 28846,
+      "http_date": "Fri, 28 Aug 2026 15:24:35 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 27/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 674,
+        "path": "authority/exports/lecture27_latex_expand.json.request.json",
+        "sha256": "44897aa2dcc5e72d2dac821b15aba494523119da145ea5fb1c479321d62fcfb8"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 30735,
+        "path": "authority/exports/lecture27_latex_expand.json",
+        "sha256": "d8dba9bc31f84500e599d9c07b3e8b1da359f14d064e9693fdce3aaab75e4d1f"
+      },
+      "retrieved_utc": "2026-08-28T15:24:35Z",
+      "sanitized_source": {
+        "bytes": 25518,
+        "path": "authority/expanded/lecture27_source.de.tex",
+        "sha256": "f007b10b56f2018e3344f7cd32839eb0425235976624b595028d6dbf76983aa1"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 672,
+        "path": "qa/unit-27/lecture27_sanitize.json",
+        "sha256": "a202dae241e38726f2617aa572c6beecbc3e35b23e0c65959359843041e5cf48"
+      },
+      "valid_utf8": true
+    },
+    "worksheet": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 18340,
+      "http_date": "Fri, 28 Aug 2026 15:24:36 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 27/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 679,
+        "path": "authority/exports/worksheet27_latex_expand.json.request.json",
+        "sha256": "eed01fb04687dcdff6e6ae1961f7d59a8f29cd4b4d385c3914cac834094867f8"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 19709,
+        "path": "authority/exports/worksheet27_latex_expand.json",
+        "sha256": "cbd1e68a4b4a3b77c68b24f54289a1d408d1f1e008707794171215ff27728364"
+      },
+      "retrieved_utc": "2026-08-28T15:24:35Z",
+      "sanitized_source": {
+        "bytes": 15507,
+        "path": "authority/expanded/worksheet27_source.de.tex",
+        "sha256": "a4b19ee378472f66ce8c01677eedfcde7a848b97299ae11fd1cc85ff1db527fa"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 676,
+        "path": "qa/unit-27/worksheet27_sanitize.json",
+        "sha256": "97c2422a92683890d6c18f9edb174ffe025cf0b5bbebe2cb6456c6bd16a4524e"
+      },
+      "valid_utf8": true
+    }
+  },
+  "media": {
+    "all_displayed_images_have_license_macros": true,
+    "assets": [
+      {
+        "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Januszkaja&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Januszkaja (page does not exist)\">Januszkaja</a>",
+        "artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/w/index.php?title=User:Januszkaja&action=edit&redlink=1"
+          ],
+          "creator_label": "Januszkaja"
+        },
+        "artist_text": "Januszkaja",
+        "attribution_required": true,
+        "binary": {
+          "bytes": 32238,
+          "path": "authority/media/Parallel lines in Poincare's model of hyperbolic geometry.svg",
+          "sha256": "0be24daaf98af7e8f2758031765f16ece41e1e987cc5165871e3f2eb4f0675d8"
+        },
+        "bytes": 32238,
+        "commons_lastrevid": 449345728,
+        "commons_pageid": 17369718,
+        "commons_sha1": "ee99cc2a5eedddffa02a0d8ff313fd478ad35b5c",
+        "commons_touched": "2026-06-11T20:06:06Z",
+        "copyrighted_status": "True",
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "credit_text": "Own work",
+        "current_matches_frozen_rights_manifest": {
+          "artist_html": true,
+          "artist_identity": true,
+          "attribution_required": true,
+          "bytes": true,
+          "copyrighted": true,
+          "credit_html": false,
+          "license": true,
+          "license_url": true,
+          "mime": true,
+          "sha1": true
+        },
+        "description_url": "https://commons.wikimedia.org/wiki/File:Parallel_lines_in_Poincare%27s_model_of_hyperbolic_geometry.svg",
+        "download_receipt": {
+          "bytes": 32238,
+          "content_type": "image/svg+xml",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Parallel_lines_in_Poincare%27s_model_of_hyperbolic_geometry.svg",
+          "http_date": "Fri, 28 Aug 2026 15:24:38 GMT",
+          "retrieved_utc": "2026-08-28T15:24:37Z",
+          "schema_version": 1,
+          "sha1": "ee99cc2a5eedddffa02a0d8ff313fd478ad35b5c",
+          "sha256": "0be24daaf98af7e8f2758031765f16ece41e1e987cc5165871e3f2eb4f0675d8",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Parallel_lines_in_Poincare%27s_model_of_hyperbolic_geometry.svg"
+        },
+        "filename": "Parallel lines in Poincare's model of hyperbolic geometry.svg",
+        "frozen_artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Januszkaja&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Januszkaja (page does not exist)\">Januszkaja</a>",
+        "frozen_artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/w/index.php?title=User:Januszkaja&action=edit&redlink=1"
+          ],
+          "creator_label": "Januszkaja"
+        },
+        "frozen_artist_text": "Januszkaja",
+        "frozen_credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+        "frozen_credit_text": "Eigenes Werk",
+        "height": 110,
+        "image_timestamp": "2014-03-31T19:12:32Z",
+        "image_user": "Mik",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "localized_artist_variance": false,
+        "localized_credit_variance": true,
+        "mime": "image/svg+xml",
+        "occurrences": [
+          {
+            "display_license_alias": null,
+            "displayed_filename": "Parallel lines in Poincare's model of hyperbolic geometry.svg",
+            "filename": "Parallel lines in Poincare's model of hyperbolic geometry.svg",
+            "surface": "lecture27",
+            "surface_order": 1
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Parallel_lines_in_Poincare%27s_model_of_hyperbolic_geometry.svg",
+        "rights_critical_fields_match": true,
+        "sha256": "0be24daaf98af7e8f2758031765f16ece41e1e987cc5165871e3f2eb4f0675d8",
+        "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+        "width": 322
+      }
+    ],
+    "current_commons_api": "https://commons.wikimedia.org/w/api.php",
+    "current_commons_query": {
+      "bytes": 2540,
+      "path": "authority/mediawiki/unit27_media_imageinfo_current.json",
+      "sha256": "8fa49b38f14d5c66dcf71aa374c26826045d8be4dc958ae68e29f4dc334f3c3b"
+    },
+    "current_commons_query_request_receipt": {
+      "bytes": 690,
+      "path": "authority/mediawiki/unit27_media_imageinfo_current.json.request.json",
+      "sha256": "94c8a185e0a182e8b0eaccb8b499de54972dffb53f508c40776ddcc2f4991367"
+    },
+    "occurrence_count": 1,
+    "query_retrieved_utc": "2026-08-28T15:24:37Z",
+    "rights_manifest": {
+      "bytes": 25588,
+      "path": "authority/brenner_media_rights_manifest.csv",
+      "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+    },
+    "surface_occurrences": [
+      {
+        "display_license_alias": null,
+        "displayed_filename": "Parallel lines in Poincare's model of hyperbolic geometry.svg",
+        "filename": "Parallel lines in Poincare's model of hyperbolic geometry.svg",
+        "surface": "lecture27",
+        "surface_order": 1
+      }
+    ],
+    "unique_asset_count": 1
+  },
+  "next_action": "Translate Lecture 27, Worksheet 27, and exactly the 4 supplied solutions in source order.",
+  "schema_version": 1,
+  "scope": "Brenner Differentialgeometrie Unit 27 authority preflight; no translation",
+  "solutions": {
+    "exercise_count": 23,
+    "exercises": [
+      {
+        "exercise_index": 1,
+        "exists": false,
+        "expanded_body_sha256": "d689ec87cd62abeef98e76b9539e5dbd0260cdf5e642b29367a2f297981ad17c",
+        "expanded_body_utf8_bytes": 839,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Längs Abbildung/Horizontaler Schnitt/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Längs Abbildung/Horizontaler Schnitt/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Längs Abbildung/Horizontaler Schnitt/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 2,
+        "exists": false,
+        "expanded_body_sha256": "520928f0a85f4449d3ddf7947bddeb49f2c7a41ad3bd598f79e2cb6f1b022db2",
+        "expanded_body_utf8_bytes": 562,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Längs Abbildung/Trivial/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Längs Abbildung/Trivial/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Längs Abbildung/Trivial/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 3,
+        "exists": false,
+        "expanded_body_sha256": "b2f1cd12646e018eb2dcb0a51d5fe9638ae04e959d37b99261ade11663399d0f",
+        "expanded_body_utf8_bytes": 770,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Rückzug längs Weg/Explizit/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Rückzug längs Weg/Explizit/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Rückzug längs Weg/Explizit/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 5969,
+          "path": "authority/mediawiki/worksheet27_exercise04_solution_revid1094311.utf8.b64",
+          "sha256": "b194f2daa42fa1b36af8ba0a1b450b6418227cdc7e6e89f313da7ba9bc467d0f"
+        },
+        "exercise_index": 4,
+        "exists": true,
+        "expanded_body_sha256": "37b2c19b651881d52c385f478f8a62cc4ebd8b9a6e13b353926be46bc34a74ed",
+        "expanded_body_utf8_bytes": 2259,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 4885,
+          "http_date": "Fri, 28 Aug 2026 15:24:37 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Kreis/Trigonometrische Parametrisierung/Zusammenhang in R^2/Horizontale Liftung/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 733,
+            "path": "authority/exports/worksheet27_exercise04_solution_latex_expand.json.request.json",
+            "sha256": "cfc4726d5a02a33353f84b2a71503f5cde54bdff17ab01094fab93857d65a962"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 5370,
+            "path": "authority/exports/worksheet27_exercise04_solution_latex_expand.json",
+            "sha256": "331453042759db93e7a649eb1b5bd4162ecef02bae760e84dbfbbcf6a5534865"
+          },
+          "retrieved_utc": "2026-08-28T15:24:36Z",
+          "sanitized_source": {
+            "bytes": 4666,
+            "path": "authority/expanded/worksheet27_exercise04_solution_source.de.tex",
+            "sha256": "d5565efc0f1e834b769c8d1e8f6046c222d5d809e5b9501eef0c4b0fb49554bb"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-27/worksheet27_exercise04_solution_sanitize.json",
+            "sha256": "abadeaa9a5025379ce77e7f964c1bd5a672f8a69f9a9f9a9bc8fa293434620ce"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "d004a31811d92f051c0e15d666812deff847f3f8",
+        "metadata": {
+          "bytes": 1395,
+          "path": "authority/mediawiki/worksheet27_exercise04_solution_revid1094311.metadata.json",
+          "sha256": "a6a68ae222a0f08dc4c59a5e1e4790f38fa4c6d501b8977b62a85bfc0de27886"
+        },
+        "pageid": 152622,
+        "parentid": 1088961,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 4475,
+          "path": "authority/mediawiki/worksheet27_exercise04_solution_revid1094311.wiki",
+          "sha256": "0c0ca2278c5ffcf9f49eff59b40d17cdfe5799b1eb7fac46116d55bcb4822c19"
+        },
+        "resolved_solution_title": "Kreis/Trigonometrische Parametrisierung/Zusammenhang in R^2/Horizontale Liftung/Aufgabe/Lösung",
+        "revid": 1094311,
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Kreis/Trigonometrische Parametrisierung/Zusammenhang in R^2/Horizontale Liftung/Aufgabe/Lösung",
+        "source_utf8_bytes": 4474,
+        "source_utf8_sha256": "c9f0612b1aa1f825827ddf6d099332d4abe49d6e78d061ffd7f4d13b35cb8caf",
+        "task_title": "Kreis/Trigonometrische Parametrisierung/Zusammenhang in R^2/Horizontale Liftung/Aufgabe",
+        "timestamp": "2026-06-14T15:37:19Z",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 1853,
+          "path": "authority/mediawiki/worksheet27_exercise05_solution_revid990872.utf8.b64",
+          "sha256": "746cf8893db0ec55ef6390225aa0b6a487f1426e31dff2a65ac4b50b88e96ca6"
+        },
+        "exercise_index": 5,
+        "exists": true,
+        "expanded_body_sha256": "481db322a82e580e78b8f6118581d912966bc1bba034adf19ea4d9a78b0174ec",
+        "expanded_body_utf8_bytes": 422,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 1723,
+          "http_date": "Fri, 28 Aug 2026 15:24:37 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Hyperbolische Halbebene/Exponentialfunktion/Christoffelsymbole/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 716,
+            "path": "authority/exports/worksheet27_exercise05_solution_latex_expand.json.request.json",
+            "sha256": "0793a4fb64b6b0c060275f582f2ece8075c1648c5d888e7cade5fa3035a63a6d"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 1936,
+            "path": "authority/exports/worksheet27_exercise05_solution_latex_expand.json",
+            "sha256": "8806b27df32bcca7e8f5c1a8017760ae5f438ed97abc36786b79eb850517add7"
+          },
+          "retrieved_utc": "2026-08-28T15:24:36Z",
+          "sanitized_source": {
+            "bytes": 1431,
+            "path": "authority/expanded/worksheet27_exercise05_solution_source.de.tex",
+            "sha256": "f5b09be26a67470cd6b597a75c09df4d5526c46f6111f7cf24ad7954e3c4c7fb"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-27/worksheet27_exercise05_solution_sanitize.json",
+            "sha256": "c4cac0294b5ef64f9432af481b8b93dfedc394d6e075fd6323ec6d562499ed8d"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "9d01e6bc07435f373588c8f1469d08b865a1026d",
+        "metadata": {
+          "bytes": 1357,
+          "path": "authority/mediawiki/worksheet27_exercise05_solution_revid990872.metadata.json",
+          "sha256": "e305ca2ced31e85328fe309b367d56ff5113fced60950d8371f9d2018dff59cb"
+        },
+        "pageid": 152550,
+        "parentid": 906354,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 1388,
+          "path": "authority/mediawiki/worksheet27_exercise05_solution_revid990872.wiki",
+          "sha256": "2f4c00d2761ea0f7ff625b73b11c61183c2b606f3fbcaca18702ea502ab44700"
+        },
+        "resolved_solution_title": "Hyperbolische Halbebene/Exponentialfunktion/Christoffelsymbole/Aufgabe/Lösung",
+        "revid": 990872,
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Hyperbolische Halbebene/Exponentialfunktion/Christoffelsymbole/Aufgabe/Lösung",
+        "source_utf8_bytes": 1387,
+        "source_utf8_sha256": "d51632beb3aac4ea77a14495b501c93783663c14cf0d41eb23b56dc44ccb0bbc",
+        "task_title": "Hyperbolische Halbebene/Exponentialfunktion/Christoffelsymbole/Aufgabe",
+        "timestamp": "2025-01-22T20:35:46Z",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 6,
+        "exists": false,
+        "expanded_body_sha256": "50cbb0e991650abc68dc42513395ee2eb1c2f79eac356475373309c17723e9f1",
+        "expanded_body_utf8_bytes": 810,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Rückzug/Funktorielle Eigenschaften/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Rückzug/Funktorielle Eigenschaften/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Rückzug/Funktorielle Eigenschaften/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 7,
+        "exists": false,
+        "expanded_body_sha256": "41fdf32c97f90f85fe913e36b4770c6e53e184942a2caa95619f616836024e5d",
+        "expanded_body_utf8_bytes": 509,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Riemannsche Mannigfaltigkeit/Geodätische Kurve/Ableitung/Horizontaler Schnitt/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Riemannsche Mannigfaltigkeit/Geodätische Kurve/Ableitung/Horizontaler Schnitt/Aufgabe/Lösung",
+        "task_title": "Riemannsche Mannigfaltigkeit/Geodätische Kurve/Ableitung/Horizontaler Schnitt/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 8,
+        "exists": false,
+        "expanded_body_sha256": "460aa7c2d0b70bdc9b6f0d24625f23fef6d06ef1ca1714d36642e51547beb2c0",
+        "expanded_body_utf8_bytes": 475,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Offenes Intervall/Riemannsche Mannigfaltigkeit/Geodätische Kurve/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Offenes Intervall/Riemannsche Mannigfaltigkeit/Geodätische Kurve/Aufgabe/Lösung",
+        "task_title": "Offenes Intervall/Riemannsche Mannigfaltigkeit/Geodätische Kurve/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 2621,
+          "path": "authority/mediawiki/worksheet27_exercise09_solution_revid1088959.utf8.b64",
+          "sha256": "09a290b2c60dc5e36e09d9fb58c50a23d24598f2857532f0e61f58a5ffb88f91"
+        },
+        "exercise_index": 9,
+        "exists": true,
+        "expanded_body_sha256": "44e410193fe0361e8e7a87104f59f35b36fc6301250322164b49f499e9785c70",
+        "expanded_body_utf8_bytes": 275,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 1932,
+          "http_date": "Fri, 28 Aug 2026 15:24:37 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Hyperbolische Halbebene/Kurve/Tangentiale Beschleunigung/2/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 712,
+            "path": "authority/exports/worksheet27_exercise09_solution_latex_expand.json.request.json",
+            "sha256": "36f29c6d4ac4c253ff88a7714bbdf474b9d8ee2eda1771619b4bb9dd232df0d2"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 2184,
+            "path": "authority/exports/worksheet27_exercise09_solution_latex_expand.json",
+            "sha256": "cf795d4d624bf990d20cd92787efe748ee1152d32cbe4d8837f3f7df243c3b7c"
+          },
+          "retrieved_utc": "2026-08-28T15:24:37Z",
+          "sanitized_source": {
+            "bytes": 1806,
+            "path": "authority/expanded/worksheet27_exercise09_solution_source.de.tex",
+            "sha256": "07fc56bf8bdb0f1d9f47333501d8a34a3a815dd3045ae62160fe5a27238e738f"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-27/worksheet27_exercise09_solution_sanitize.json",
+            "sha256": "67bd7492d51ee085ec3c05dc789426c756c860b1a6a0b7866f837390ba0d4bd3"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "77893bceb3b11c56e930563f689c5e0af69335d5",
+        "metadata": {
+          "bytes": 1352,
+          "path": "authority/mediawiki/worksheet27_exercise09_solution_revid1088959.metadata.json",
+          "sha256": "ed9bae3809a0f6f470e0a12149f2bf91ecd8782d7428ba18f9925b3ea36c50a5"
+        },
+        "pageid": 152551,
+        "parentid": 992023,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 1966,
+          "path": "authority/mediawiki/worksheet27_exercise09_solution_revid1088959.wiki",
+          "sha256": "d77819d4534687d70ad770d5ea060a2c3a65f12f0e6d9a9415f8ece4bb94b6cd"
+        },
+        "resolved_solution_title": "Hyperbolische Halbebene/Kurve/Tangentiale Beschleunigung/2/Aufgabe/Lösung",
+        "revid": 1088959,
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Hyperbolische Halbebene/Kurve/Tangentiale Beschleunigung/2/Aufgabe/Lösung",
+        "source_utf8_bytes": 1965,
+        "source_utf8_sha256": "187dc22e26ee21d996920feedd584c798bd9cc71b27e746569c04d328fde0273",
+        "task_title": "Hyperbolische Halbebene/Kurve/Tangentiale Beschleunigung/2/Aufgabe",
+        "timestamp": "2026-05-31T09:12:52Z",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 10,
+        "exists": false,
+        "expanded_body_sha256": "c786e6e12203498067fd325b345254695326b75c85c6b28f70eb48419de9bbc9",
+        "expanded_body_utf8_bytes": 342,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Zusammenhängende riemannsche Mannigfaltigkeit/Punkte/Keine geodätische Kurve/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Zusammenhängende riemannsche Mannigfaltigkeit/Punkte/Keine geodätische Kurve/Aufgabe/Lösung",
+        "task_title": "Zusammenhängende riemannsche Mannigfaltigkeit/Punkte/Keine geodätische Kurve/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 11,
+        "exists": false,
+        "expanded_body_sha256": "c0b76adf3a4bce38fe92c7bf16829313c08d5b60709d89a1a933aa7c2f559100",
+        "expanded_body_utf8_bytes": 387,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Zusammenhängende riemannsche Mannigfaltigkeit/Mehrere geodätische Kurven/Gleiche Länge/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Zusammenhängende riemannsche Mannigfaltigkeit/Mehrere geodätische Kurven/Gleiche_Länge/Aufgabe/Lösung",
+        "task_title": "Zusammenhängende riemannsche Mannigfaltigkeit/Mehrere geodätische Kurven/Gleiche_Länge/Aufgabe",
+        "title_normalized_by_mediawiki": true
+      },
+      {
+        "exercise_index": 12,
+        "exists": false,
+        "expanded_body_sha256": "191f112e25e592797154e6faa02b3b17ec9bfba47b7acf5fcb37d22992cfaa56",
+        "expanded_body_utf8_bytes": 388,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Zusammenhängende riemannsche Mannigfaltigkeit/Mehrere geodätische Kurven/Unterschiedliche Länge/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Zusammenhängende riemannsche Mannigfaltigkeit/Mehrere geodätische Kurven/Unterschiedliche_Länge/Aufgabe/Lösung",
+        "task_title": "Zusammenhängende riemannsche Mannigfaltigkeit/Mehrere geodätische Kurven/Unterschiedliche_Länge/Aufgabe",
+        "title_normalized_by_mediawiki": true
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 2965,
+          "path": "authority/mediawiki/worksheet27_exercise13_solution_revid1095928.utf8.b64",
+          "sha256": "f2073f4962f5cb50dc77d1c05ec11719470d90a9dcb1c39c82707277d060bbe7"
+        },
+        "exercise_index": 13,
+        "exists": true,
+        "expanded_body_sha256": "3c34a67455e48092ff7010adb09a1de346de251db817465ae3bf1d08db912dc3",
+        "expanded_body_utf8_bytes": 922,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 2257,
+          "http_date": "Fri, 28 Aug 2026 15:24:37 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "Halbebene/Poincaré/Riemannsche Geometrie/Geodätische/Halbkreislösungen/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 727,
+            "path": "authority/exports/worksheet27_exercise13_solution_latex_expand.json.request.json",
+            "sha256": "d8d8d1aaf63085333c6dfee0dc66a13928aa97223cb0c22919583cfe4dba9ce1"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 2540,
+            "path": "authority/exports/worksheet27_exercise13_solution_latex_expand.json",
+            "sha256": "6cfc40fac63903cd83f847ce5c8e9be85c2aef7790460a4537c4f2cadbaafa67"
+          },
+          "retrieved_utc": "2026-08-28T15:24:37Z",
+          "sanitized_source": {
+            "bytes": 2051,
+            "path": "authority/expanded/worksheet27_exercise13_solution_source.de.tex",
+            "sha256": "38ded26c2cc71aa4115437237aac7671ba136eccc86607878fa28e58007d094c"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-27/worksheet27_exercise13_solution_sanitize.json",
+            "sha256": "a082804eb2919ce968af0c0dedd28722a80884db0b1cabf2c1e1cf90824bae07"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "f62e81a0f70effecc6e5fe6762215add769cca7b",
+        "metadata": {
+          "bytes": 1383,
+          "path": "authority/mediawiki/worksheet27_exercise13_solution_revid1095928.metadata.json",
+          "sha256": "ffc9e44217ebdccd03e8ea79da8d7675495e459ddef1fdcfcbb635941f44d73a"
+        },
+        "pageid": 150231,
+        "parentid": 1094308,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 2222,
+          "path": "authority/mediawiki/worksheet27_exercise13_solution_revid1095928.wiki",
+          "sha256": "f3745b39fb55873c57474730a6794fa6237a50a7c47f61e30f1d6c9ee76b1328"
+        },
+        "resolved_solution_title": "Halbebene/Poincaré/Riemannsche Geometrie/Geodätische/Halbkreislösungen/Aufgabe/Lösung",
+        "revid": 1095928,
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "Halbebene/Poincaré/Riemannsche Geometrie/Geodätische/Halbkreislösungen/Aufgabe/Lösung",
+        "source_utf8_bytes": 2221,
+        "source_utf8_sha256": "59a135dfabd4865b1f19762a5d274ebddbaf48dd1e7aefc41a411b66134423b3",
+        "task_title": "Halbebene/Poincaré/Riemannsche Geometrie/Geodätische/Halbkreislösungen/Aufgabe",
+        "timestamp": "2026-06-15T07:27:54Z",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 14,
+        "exists": false,
+        "expanded_body_sha256": "0a648740503c315ffdbd9c8b5eb43e3c3ed9d0d4cde61de46a1c18e6dc615000",
+        "expanded_body_utf8_bytes": 217,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Ebene/Kreise/Mittelpunkte auf x-Achse/Schnittpunkt/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Ebene/Kreise/Mittelpunkte auf x-Achse/Schnittpunkt/Aufgabe/Lösung",
+        "task_title": "Ebene/Kreise/Mittelpunkte auf x-Achse/Schnittpunkt/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 15,
+        "exists": false,
+        "expanded_body_sha256": "c5ce9ee7723684b1c8c70aa478ba199f8997e0e58fd3856796ab5cd4dbef336e",
+        "expanded_body_utf8_bytes": 652,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Halbebene von Poincaré/Punkt und Tangente/Geodätische Realisierung/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Halbebene von Poincaré/Punkt und Tangente/Geodätische Realisierung/Aufgabe/Lösung",
+        "task_title": "Halbebene von Poincaré/Punkt und Tangente/Geodätische Realisierung/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 16,
+        "exists": false,
+        "expanded_body_sha256": "46fbc8327e642214b4b29131365791c53544c1b387a0090101d4b229535e472c",
+        "expanded_body_utf8_bytes": 692,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Riemannsche Mannigfaltigkeit/Isometrie/Zusammenhang/Geodätische Kurve/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Riemannsche Mannigfaltigkeit/Isometrie/Zusammenhang/Geodätische Kurve/Aufgabe/Lösung",
+        "task_title": "Riemannsche Mannigfaltigkeit/Isometrie/Zusammenhang/Geodätische Kurve/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 17,
+        "exists": false,
+        "expanded_body_sha256": "8efebe705c6e097ad554cc1d6ca0d6561706832fbcafb6417bfda94e540c1293",
+        "expanded_body_utf8_bytes": 935,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Hyperfläche/Riemannsche Mannigfaltigkeit/Kurve/Paralleles Vektorfeld/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Hyperfläche/Riemannsche Mannigfaltigkeit/Kurve/Paralleles Vektorfeld/Aufgabe/Lösung",
+        "task_title": "Hyperfläche/Riemannsche Mannigfaltigkeit/Kurve/Paralleles Vektorfeld/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 18,
+        "exists": false,
+        "expanded_body_sha256": "9c6813b8e063ab11ec5ee07e2d6de2250d861ba65e32540874d75370f8dd2332",
+        "expanded_body_utf8_bytes": 509,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Riemannsche Mannigfaltigkeit/Kurve/Geodätische Kurve und paralleles Vektorfeld/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Riemannsche Mannigfaltigkeit/Kurve/Geodätische Kurve und paralleles Vektorfeld/Aufgabe/Lösung",
+        "task_title": "Riemannsche Mannigfaltigkeit/Kurve/Geodätische Kurve und paralleles Vektorfeld/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 19,
+        "exists": false,
+        "expanded_body_sha256": "d448437de7fd863b808bf363773ff39ce550ddac956c53e75fd09745296e0e0c",
+        "expanded_body_utf8_bytes": 186,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Euklidischer Raum/Riemannsche Metrik/Euklidisch/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Euklidischer Raum/Riemannsche Metrik/Euklidisch/Aufgabe/Lösung",
+        "task_title": "Euklidischer Raum/Riemannsche Metrik/Euklidisch/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 20,
+        "exists": false,
+        "expanded_body_sha256": "33c1eedb97ddae1f3a79bc30775bd9305bb439154d58187b00f77f6ea83e0b14",
+        "expanded_body_utf8_bytes": 263,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "resolved_solution_title": "R+/t^2/Riemannsche Mannigfaltigkeit/Geodätische Kurven/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "R+/t^2/Riemannsche Mannigfaltigkeit/Geodätische Kurven/Aufgabe/Lösung",
+        "task_title": "R+/t^2/Riemannsche Mannigfaltigkeit/Geodätische Kurven/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 21,
+        "exists": false,
+        "expanded_body_sha256": "806e7241a73311caa406f9c91c9a2870dba57d21148115524b70c6302a35edf4",
+        "expanded_body_utf8_bytes": 552,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": "6 (3+3)",
+        "resolved_solution_title": "Hyperbolische Halbebene/Kurve/Christoffelsymbole und tangentiale Beschleunigung/1/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Hyperbolische Halbebene/Kurve/Christoffelsymbole und tangentiale Beschleunigung/1/Aufgabe/Lösung",
+        "task_title": "Hyperbolische Halbebene/Kurve/Christoffelsymbole und tangentiale Beschleunigung/1/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 22,
+        "exists": false,
+        "expanded_body_sha256": "b1062fb759aa874e57f60b5d89eddb06e930939a5b428d5e27b3629a3dcaf3b4",
+        "expanded_body_utf8_bytes": 126,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "resolved_solution_title": "Hyperbolische Kreisscheibe/Geodätische Kurven/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Hyperbolische Kreisscheibe/Geodätische Kurven/Aufgabe/Lösung",
+        "task_title": "Hyperbolische Kreisscheibe/Geodätische Kurven/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 23,
+        "exists": false,
+        "expanded_body_sha256": "8758cb67c99f94b1b87cdbbf5f6f8b44cef8517ef97b5b378b53e73e007835f9",
+        "expanded_body_utf8_bytes": 528,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": 4,
+        "resolved_solution_title": "Euklidischer Raum/Ohne Punkte/Riemannsche Metrik/Euklidisch/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "p",
+        "solution_marker": false,
+        "solution_title": "Euklidischer Raum/Ohne Punkte/Riemannsche Metrik/Euklidisch/Aufgabe/Lösung",
+        "task_title": "Euklidischer Raum/Ohne Punkte/Riemannsche Metrik/Euklidisch/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      }
+    ],
+    "graded_exercise_count": 4,
+    "macro_api_agreement": true,
+    "missing_solution_count": 19,
+    "point_value_total": 18,
+    "practice_exercise_count": 19,
+    "query": {
+      "bytes": 14817,
+      "path": "authority/mediawiki/unit27_solution_pages_current.json",
+      "sha256": "452cc0e102ca43df58439f1a8bf8f270dd21abd50290ec2842e19ec0e65ed5fb"
+    },
+    "query_request_receipt": {
+      "bytes": 2650,
+      "path": "authority/mediawiki/unit27_solution_pages_current.json.request.json",
+      "sha256": "2259b764c6c2bf7e7f1b41623376af8a5b71fdee1115fda675f8c2643dbd7ab0"
+    },
+    "query_retrieved_utc": "2026-08-28T15:24:36Z",
+    "schema_version": 1,
+    "supplied_solution_count": 4,
+    "supplied_solution_indices": [
+      4,
+      5,
+      9,
+      13
+    ],
+    "workflow": "o011-unit27-solution-freeze-v1",
+    "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 27"
+  },
+  "status": "pass",
+  "structure": {
+    "all_hint_fields_blank": true,
+    "lecture_section_count": 3,
+    "worksheet_exercise_count": 23,
+    "worksheet_graded_count": 4,
+    "worksheet_hint_bearing_indices": [],
+    "worksheet_hint_count": 0,
+    "worksheet_point_total": 18,
+    "worksheet_practice_count": 19,
+    "worksheet_section_count": 2,
+    "worksheet_solution_bearing_indices": [
+      4,
+      5,
+      9,
+      13
+    ]
+  },
+  "unit": 27,
+  "workflow": "o011-unit27-authority-preflight-v1"
+}

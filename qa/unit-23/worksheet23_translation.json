@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "source": "authority/expanded/worksheet23_source.de.tex",
+  "source_bytes": 14740,
+  "source_sha256": "96938095ddde7b9ae9e39bf05871d2f82f142c871e41dc479515dbf8a805249e",
+  "target": "source/units/unit-23/worksheet23.id.tex",
+  "target_bytes": 14950,
+  "target_sha256": "9af134008d058544d00b7f4217a89f7a0683d70f347fa2d1bce6776fcb8c00c0",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 399,
+    "environments": 0,
+    "inline_math": 54,
+    "display_math": 0,
+    "protected_calls": 41
+  },
+  "status": "pass",
+  "failures": [],
+  "declared_corrections": [
+    "O011-TRANS-0314"
+  ],
+  "evidence_only_results": [
+    {
+      "correction_id": "O011-TRANS-0314",
+      "surface": "command:mathdisp",
+      "occurrence_index": 0,
+      "status": "pass",
+      "detail": "verified"
+    }
+  ]
+}

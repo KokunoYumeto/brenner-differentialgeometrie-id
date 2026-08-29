@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "source": "authority/exams/expanded/exam10_learner_source.de.tex",
+  "source_bytes": 9743,
+  "source_sha256": "d22213122dee6ca107e9ac1d098472e28614f0b8a51a4c75a2d5bd099af76dc5",
+  "target": "source/exams/exam-10/exam10_learner.id.tex",
+  "target_bytes": 9540,
+  "target_sha256": "989b0d2f8f6cc963b5e91537e811dc28a9cdea709a636a7843d69d0b9f257791",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 336,
+    "environments": 10,
+    "inline_math": 25,
+    "display_math": 0,
+    "protected_calls": 33
+  },
+  "status": "pass",
+  "failures": [],
+  "declared_corrections": [
+    "EX10-MATHKOR-0001",
+    "EX10-MATHKOR-0002"
+  ],
+  "evidence_only_results": [
+    {
+      "correction_id": "EX10-MATHKOR-0001",
+      "surface": "command:mathkor",
+      "occurrence_index": 0,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "EX10-MATHKOR-0002",
+      "surface": "command:mathkor",
+      "occurrence_index": 1,
+      "status": "pass",
+      "detail": "verified"
+    }
+  ]
+}

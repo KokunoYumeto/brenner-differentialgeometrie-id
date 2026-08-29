@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-26/worksheet26_exercise09_solution.id.tex",
+  "input_bytes": 5280,
+  "input_sha256": "b013b58e0ffd2c0ab9e40075b205933a3dd446ca01b10eff4a55abf15d5a8bc3",
+  "output": "build/generated/worksheet26_exercise09_solution.id.build.tex",
+  "output_bytes": 5152,
+  "output_sha256": "1869172513a14c1f5fe28aa125ef85bb09023098a2a0fc974a6aed2005f17ca0",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt",
+      "label": "fakta tentang deskripsi lokal koneksi linear"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

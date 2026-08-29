@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-complete-reader-preflight-v1",
+  "status": "ready",
+  "exact_unit22_public_prefix": {
+    "driver": {
+      "path": "build/generated/through-unit-22-driver.tex",
+      "bytes": 17431,
+      "sha256": "7d04f2c5906c1ddf5e82a0e80dcaafa7a7d62f99f915f3b8643e5be1d8181716"
+    },
+    "pdf": {
+      "path": "output/pdf/geometri-diferensial-manifold-mulus-hingga-unit-22-id.pdf",
+      "bytes": 9046717,
+      "sha256": "4e6c03dc8388a4c10c464d939d5a416ab035c52e3bd233212c78a40617e02cf7"
+    },
+    "build_receipt": {
+      "path": "qa/unit-22/build.json",
+      "bytes": 233556,
+      "sha256": "68aacdf979f81c432a62dd9cebf2d4bab8e017cc03cde60d60532aaa99e6312d"
+    },
+    "structural_qa": {
+      "path": "qa/unit-22/pdf_structural_qa.json",
+      "bytes": 478620,
+      "sha256": "f5e9ae47e09bd6759b32b5ae14d623f25c0fbb5feb51f1d21d42559291915159"
+    }
+  },
+  "official_exam_solution_gates": [
+    {
+      "exam": 1,
+      "source": {
+        "path": "source/exams/exam-01/exam01_solutions.id.tex",
+        "identity": {
+          "bytes": 32215,
+          "sha256": "57249c1c3f744dcfa2b6c717f967e08df4a72eed5513c5051a22a428d58c61d6"
+        }
+      },
+      "exact_translation_qa": {
+        "path": "qa/exams/EXAM01_SOLUTIONS_TRANSLATION_QA.json",
+        "status": "pass"
+      },
+      "bounded_qa": {
+        "path": "qa/exams/EXAM01_SOLUTIONS_BOUNDED_QA.json",
+        "status": "pass"
+      }
+    },
+    {
+      "exam": 2,
+      "source": {
+        "path": "source/exams/exam-02/exam02_solutions.id.tex",
+        "identity": {
+          "bytes": 31680,
+          "sha256": "b0a1db42aff2c940a7532064a7b1fecf185279df0807171b86bfcc6176eaf060"
+        }
+      },
+      "exact_translation_qa": {
+        "path": "qa/exams/EXAM02_SOLUTIONS_TRANSLATION_QA.json",
+        "status": "pass"
+      },
+      "bounded_qa": {
+        "path": "qa/exams/EXAM02_SOLUTIONS_BOUNDED_QA.json",
+        "status": "pass"
+      }
+    },
+    {
+      "exam": 3,
+      "source": {
+        "path": "source/exams/exam-03/exam03_solutions.id.tex",
+        "identity": {
+          "bytes": 33416,
+          "sha256": "b669281a35aa1db2065866b1fde31ef41c5d298adae295d02dee775e496747bb"
+        }
+      },
+      "exact_translation_qa": {
+        "path": "qa/exams/EXAM03_SOLUTIONS_TRANSLATION_QA.json",
+        "status": "pass"
+      },
+      "bounded_qa": {
+        "path": "qa/exams/EXAM03_SOLUTIONS_BOUNDED_QA.json",
+        "status": "pass"
+      }
+    },
+    {
+      "exam": 4,
+      "source": {
+        "path": "source/exams/exam-04/exam04_solutions.id.tex",
+        "identity": {
+          "bytes": 29631,
+          "sha256": "df52cef44c3afec3887c9eebd8a1f7627f78a7e1f67eecd40038a3aa49b1ea90"
+        }
+      },
+      "exact_translation_qa": {
+        "path": "qa/exams/EXAM04_SOLUTIONS_TRANSLATION_QA.json",
+        "status": "pass"
+      },
+      "bounded_qa": {
+        "path": "qa/exams/EXAM04_SOLUTIONS_BOUNDED_QA.json",
+        "status": "pass"
+      }
+    },
+    {
+      "exam": 5,
+      "source": {
+        "path": "source/exams/exam-05/exam05_solutions.id.tex",
+        "identity": {
+          "bytes": 31738,
+          "sha256": "76f0980e9fc5f399ce993206caefb17b40e11588e63cb1ac2b31d5e39b0ba2f1"
+        }
+      },
+      "exact_translation_qa": {
+        "path": "qa/exams/EXAM05_SOLUTIONS_TRANSLATION_QA.json",
+        "status": "pass"
+      },
+      "bounded_qa": {
+        "path": "qa/exams/EXAM05_SOLUTIONS_BOUNDED_QA.json",
+        "status": "pass"
+      }
+    },
+    {
+      "exam": 6,
+      "source": {
+        "path": "source/exams/exam-06/exam06_solutions.id.tex",
+        "identity": {
+          "bytes": 31832,
+          "sha256": "295dae1737ee8e7a2a3d42c8c143314ca46541328e7eeb30cbc483c906bac7db"
+        }
+      },
+      "exact_translation_qa": {
+        "path": "qa/exams/EXAM06_SOLUTIONS_TRANSLATION_QA.json",
+        "status": "pass"
+      },
+      "bounded_qa": {
+        "path": "qa/exams/EXAM06_SOLUTIONS_BOUNDED_QA.json",
+        "status": "pass"
+      }
+    },
+    {
+      "exam": 7,
+      "source": {
+        "path": "source/exams/exam-07/exam07_solutions.id.tex",
+        "identity": {
+          "bytes": 26018,
+          "sha256": "ddf8bcebcf19c9fc21757d763e75c52fbbb044ec64450d5d2c8c247ab630cc82"
+        }
+      },
+      "exact_translation_qa": {
+        "path": "qa/exams/EXAM07_SOLUTIONS_TRANSLATION_QA.json",
+        "status": "pass"
+      },
+      "bounded_qa": {
+        "path": "qa/exams/EXAM07_SOLUTIONS_BOUNDED_QA.json",
+        "status": "pass"
+      }
+    },
+    {
+      "exam": 8,
+      "source": {
+        "path": "source/exams/exam-08/exam08_solutions.id.tex",
+        "identity": {
+          "bytes": 29445,
+          "sha256": "64ee153d746d737bca0af1b47a981e75e62b9000b44ea483bb1afc9f7c2c6a15"
+        }
+      },
+      "exact_translation_qa": {
+        "path": "qa/exams/EXAM08_SOLUTIONS_TRANSLATION_QA.json",
+        "status": "pass"
+      },
+      "bounded_qa": {
+        "path": "qa/exams/EXAM08_SOLUTIONS_BOUNDED_QA.json",
+        "status": "pass"
+      }
+    },
+    {
+      "exam": 9,
+      "source": {
+        "path": "source/exams/exam-09/exam09_solutions.id.tex",
+        "identity": {
+          "bytes": 32219,
+          "sha256": "b1ad5b0ca45852e6e85e1b1aaf7b0fe0acab07ed952b14005ba8b5c87af0b290"
+        }
+      },
+      "exact_translation_qa": {
+        "path": "qa/exams/EXAM09_SOLUTIONS_TRANSLATION_QA.json",
+        "status": "pass"
+      },
+      "bounded_qa": {
+        "path": "qa/exams/EXAM09_SOLUTIONS_BOUNDED_QA.json",
+        "status": "pass"
+      }
+    },
+    {
+      "exam": 10,
+      "source": {
+        "path": "source/exams/exam-10/exam10_solutions.id.tex",
+        "identity": {
+          "bytes": 36394,
+          "sha256": "32a61474c2bc1de6c9deab27b7887f30f1636b5b5b21fd3678560e9780fd7678"
+        }
+      },
+      "exact_translation_qa": {
+        "path": "qa/exams/EXAM10_SOLUTIONS_TRANSLATION_QA.json",
+        "status": "pass"
+      },
+      "bounded_qa": {
+        "path": "qa/exams/EXAM10_SOLUTIONS_BOUNDED_QA.json",
+        "status": "pass"
+      }
+    }
+  ],
+  "blockers": []
+}

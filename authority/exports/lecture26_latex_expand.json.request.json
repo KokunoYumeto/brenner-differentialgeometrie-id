@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 15:21:11 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 26/latex"
+  },
+  "response_bytes": 33601,
+  "response_path": "lecture26_latex_expand.json",
+  "response_sha256": "107e18110f41905aab505e33a7c500cf022ea4c80422a5af8cfd7e01a50808e1",
+  "retrieved_utc": "2026-08-28T15:21:11Z",
+  "schema_version": 1
+}

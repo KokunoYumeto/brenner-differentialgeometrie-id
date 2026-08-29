@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-27/worksheet27.id.tex",
+  "input_bytes": 15187,
+  "input_sha256": "a5d6c58bb96b80e7b381935465a6d9a55e2a18f890684d263032d442eda4ce1c",
+  "output": "build/generated/worksheet27.id.build.tex",
+  "output_bytes": 14944,
+  "output_sha256": "326a0f9e33e7ccbf3a7a62721735f0f67c44eee898b8625affb205ec34689607",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Topologische Räume/Relatives Produkt/Hintereinanderschaltung/Aufgabe",
+      "label": "Soal 11.23"
+    },
+    {
+      "target": "Differenzierbare Hyperfläche/Zusammenhang/Kurve/Parallel und horizontal/Aufgabe",
+      "label": "Soal 25.13"
+    },
+    {
+      "target": "Hyperfläche/Kurve/Paralleles Vektorfeld/Definition",
+      "label": "Definisi 6.6"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

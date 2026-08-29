@@ -1,0 +1,33 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesungsgestaltung|24|
+
+{{:Differenzierbare Hyperfläche/Lineare Zusammenhänge/Motivation/Textabschnitt|}} 
+
+{{Zwischenüberschrift|Zusammenhänge}}
+
+{{:Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Einführung/Textabschnitt|zusatz1=
+{{
+inputbemerkung
+|Differenzierbare Hyperfläche/Zweites Tangentialbündel/Implizite Beschreibung/Bemerkung||
+}}
+
+{{
+inputbemerkung
+|Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierte Bündelhomomorphismen/Bemerkung||
+}}
+|zusatz2=
+{{
+inputbemerkung
+|Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierter Zusammenhang/Bemerkung||
+}}}}
+
+{{Zwischenüberschrift|Vertikale Ableitung}}
+
+{{:Mannigfaltigkeit/Vektorbündel/R/Vertikale Ableitung/Einführung/Textabschnitt}}
+
+{{
+inputfaktbeweis
+|Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierter Zusammenhang/Vertikale Ableitung/Fakt|Lemma||
+||
+}}
+
+}}

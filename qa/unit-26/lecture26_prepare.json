@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-26/lecture26.id.tex",
+  "input_bytes": 27185,
+  "input_sha256": "b9915fa7e2bcda998f396829548a6a272d4ea516d5155bbb5695db69fbd0fdda",
+  "output": "build/generated/lecture26.id.build.tex",
+  "output_bytes": 25229,
+  "output_sha256": "4e61131f8cc43d385babdfc82b71a28a56d4e5e66776cccb402732e460880c67",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 7,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Offene Menge/Triviales Vektorbündel/Linearer Zusammenhang/Spaltung/Christoffelsymbole/Bemerkung",
+      "label": "Catatan 25.8"
+    },
+    {
+      "target": "R^n/Offene Menge/Trivialer Zusammenhang/Ableitungseigenschaften/Fakt/Beweis/Aufgabe",
+      "label": "Latihan 25.11"
+    },
+    {
+      "target": "Intervall/Riemannsche Struktur/Einbettung/Beispiel",
+      "label": "Contoh 16.10"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Leibnizregel/Fakt",
+      "label": "Teorema 25.5"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Christoffelsymbole/Definition",
+      "label": "Definisi 26.1"
+    },
+    {
+      "target": "Hyperfläche/Raum/Parametrisierung/Christoffelsymbole/Bezug zu riemannscher Metrik/Fakt",
+      "label": "Lemma 19.5"
+    },
+    {
+      "target": "Halbebene/Poincaré/Riemannsche Geometrie/Beispiel",
+      "label": "Contoh 18.8"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Zweidimensional/Levi-Civita-Zusammenhang/Christoffelsymbole/Beziehung/Fakt",
+      "label": "Lemma 26.5"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Tangentialbündel/Linearer Zusammenhang/Metrisch und torsionsfrei/Koszul-Eigenschaft/Eindeutigkeit/Fakt",
+      "label": "Lemma 26.10"
+    },
+    {
+      "target": "R^n/Offene_Menge/Riemannsche_Struktur/Zusammenhang_aus_Christoffel-Symbole/Koszul-Eigenschaft/Allgemein/Aufgabe",
+      "label": "Latihan 26.7"
+    },
+    {
+      "target": "Offene Menge/Riemannsche Struktur/Christoffelsymbole/Eigenschaften/Fakt",
+      "label": "Lemma 26.6"
+    },
+    {
+      "target": "Tangentialbündel/Linearer Zusammenhang/Torsionsfrei/Basisschnitte/Aufgabe",
+      "label": "Latihan 26.5"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Linearer Zusammenhang/Metrisch auf Basisfeldern/Metrisch/Aufgabe",
+      "label": "Latihan 26.8"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Tangentialbündel/Linearer Zusammenhang/Metrisch und torsionsfrei/Koszul-Eigenschaft/Eindeutigkeit/Fakt",
+      "label": "Lemma 26.10"
+    },
+    {
+      "target": "R^n/Offene Menge/Riemannsche Struktur/Zusammenhang aus Christoffel-Symbole/Eigenschaften/Fakt",
+      "label": "Lemma 26.11"
+    },
+    {
+      "target": "R^n/Offene Menge/Riemannsche Struktur/Zusammenhang aus Christoffel-Symbole/Eigenschaften/Fakt",
+      "label": "Lemma 26.11"
+    },
+    {
+      "target": "Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierter Zusammenhang/Bemerkung",
+      "label": "Catatan 24.8"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Zweidimensional/Levi-Civita-Zusammenhang/Christoffelsymbole/Beziehung/Fakt",
+      "label": "Lemma 26.5"
+    },
+    {
+      "target": "Eingebettete Mannigfaltigkeit/Inverse Karte/Zweites Tangentialbündel/Partielle Ableitungen/Aufgabe",
+      "label": "Latihan 26.11"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

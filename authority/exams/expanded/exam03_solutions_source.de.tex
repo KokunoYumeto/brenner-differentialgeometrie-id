@@ -1,0 +1,1900 @@
+%Daten zur Institution
+
+%\input{Dozentdaten}
+
+%\renewcommand{\fachbereich}{Fachbereich}
+
+%\renewcommand{\dozent}{Prof. Dr. . }
+
+%Klausurdaten
+
+\renewcommand{\klausurgebiet}{ }
+
+\renewcommand{\klausurtyp}{ }
+
+\renewcommand{\klausurdatum}{ . 20}
+
+\klausurvorspann {\fachbereich} {\klausurdatum} {\dozent} {\klausurgebiet} {\klausurtyp}
+
+%Daten für folgende Punktetabelle
+
+\renewcommand{\aeins}{  3  }
+
+\renewcommand{\azwei}{  3   }
+
+\renewcommand{\adrei}{  0  }
+
+\renewcommand{\avier}{  0  }
+
+\renewcommand{\afuenf}{  6  }
+
+\renewcommand{\asechs}{  6  }
+
+\renewcommand{\asieben}{  0  }
+
+\renewcommand{\aacht}{  6  }
+
+\renewcommand{\aneun}{  11  }
+
+\renewcommand{\azehn}{  5  }
+
+\renewcommand{\aelf}{  5  }
+
+\renewcommand{\azwoelf}{  3  }
+
+\renewcommand{\adreizehn}{  7   }
+
+\renewcommand{\avierzehn}{  2  }
+
+\renewcommand{\afuenfzehn}{  0  }
+
+\renewcommand{\asechzehn}{  6  }
+
+\renewcommand{\asiebzehn}{  63  }
+
+\renewcommand{\aachtzehn}{    }
+
+\renewcommand{\aneunzehn}{    }
+
+\renewcommand{\azwanzig}{    }
+
+\renewcommand{\aeinundzwanzig}{    }
+
+\renewcommand{\azweiundzwanzig}{    }
+
+\renewcommand{\adreiundzwanzig}{    }
+
+\renewcommand{\avierundzwanzig}{    }
+
+\renewcommand{\afuenfundzwanzig}{    }
+
+\renewcommand{\asechsundzwanzig}{    }
+
+\punktetabellesechzehn
+
+\klausurnote
+
+\newpage
+
+\setcounter{section}{K}
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Definiere die folgenden
+\zusatzklammer {kursiv gedruckten} {} {} Begriffe.
+\aufzaehlungsechs{Eine
+\stichwort {geodätische Kurve} {}
+auf einer differenzierbaren Hyperfläche
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}{Die \stichwort {Rotationsmenge} {}
+\zusatzklammer {um die $x$-Achse} {} {}
+zu einer Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{  \R \times \R_{\geq 0}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}{Die
+\stichwort {Tangentialabbildung} {}
+\maabbdisp {T (\varphi)} {TM} {TN
+} {}
+zu einer
+\definitionsverweis {differenzierbaren Abbildung}{}{}
+\maabbdisp {\varphi} { M } { N
+} {}
+zwischen
+\definitionsverweis {differenzierbaren Mannigfaltigkeiten}{}{}
+\mathkor {} {M} {und} {N} {.}
+
+}{Ein
+\stichwort {orientierungstreuer} {}
+Kartenwechsel auf einer
+\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+$M$.
+
+}{Die \stichwort {zurückgezogene Differentialform} {} $\varphi^* \omega$ zu einer Differentialform
+\mathl{\omega \in
+{ \mathcal E }^{ k } (  M   )}{} bezüglich einer stetig differenzierbaren Abbildung
+\maabb {\varphi} { L } { M
+} {}
+zwischen zwei differenzierbaren Mannigfaltigkeiten
+\mathkor {} {L} {und} {M} {.}
+
+}{Ein
+\stichwort {metrischer} {}
+linearer Zusammenhang auf dem Tangentialbündel einer riemannschen Mannigfaltigkeit $M$.
+}
+
+}
+{
+
+\aufzaehlungsechs{Eine
+\zusatzklammer {als Abbildung nach $\R^n$} {} {}
+zweimal
+\definitionsverweis {stetig differenzierbare Kurve}{}{}
+\maabbdisp {\gamma} {I} {Y
+} {}
+heißt
+geodätische Kurve
+auf $Y$, wenn ihre
+\definitionsverweis {tangentiale Beschleunigung}{}{}
+überall gleich $0$ ist.
+}{Die Rotationsmenge zu $T$ ist
+
+\mathdisp {\left\{ (x, y \cos \alpha, y \sin \alpha  ) \in \R^3  \mid   (x,y) \in T , \, \alpha \in [0, 2 \pi]       \right\}} { . }
+
+}{Unter der Tangentialabbildung
+\maabbdisp {T (\varphi)} {TM} {TN
+} {}
+versteht man die disjunkte Vereinigung der
+\definitionsverweis {Tangentialabbildungen}{}{}
+in den einzelnen Punkten, also
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T (\varphi)
+}
+{ =} { \biguplus_{P \in M} T_P(\varphi)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Es seien
+\maabbdisp {\alpha_1} {U_1 } { V_1
+} {}
+und
+\maabbdisp {\alpha_2} {U_2 } { V_2
+} {}
+orientierte Karten von $M$. Der zugehörige
+\definitionsverweis {Kartenwechsel}{}{}
+\maabbdisp {\psi=\alpha_2 \circ \alpha_1^{-1}} {V_1 \cap \alpha_1 (U_1 \cap U_2)} {V_2 \cap \alpha_2 (U_1 \cap U_2 )
+} {}
+heißt orientierungstreu, wenn für jeden Punkt
+\mathl{Q \in V_1 \cap \alpha_1 (U_1 \cap U_2)}{} das
+\definitionsverweis {totale Differential}{}{}
+\maabbdisp {\left(D\psi\right)_{Q}} {\R^n } {\R^n
+} {}
+\definitionsverweis {orientierungstreu}{}{}
+ist.
+}{Die zurückgezogene Differentialform
+\mathl{\varphi^* \omega}{} ist für
+\mathl{P\in L}{} und
+\mathl{v_1 , \ldots , v_k \in T_PL}{} durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{  ( \varphi^* \omega )(P,v_1 , \ldots , v_k )
+}
+{ \defeq} { \omega(\varphi(P), T_P\varphi(v_1) , \ldots ,  T_P\varphi(v_k) )
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+definiert.
+}{Der Zusammenhang heißt
+metrisch,
+wenn
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D_V \left\langle W , Z  \right\rangle
+}
+{ =} { \left\langle \nabla_V W , Z  \right\rangle  + \left\langle W ,  \nabla_VZ  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+für beliebige Vektorfelder $V,W ,Z$ gilt.
+}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Formuliere die folgenden Sätze.
+\aufzaehlungdrei{Der
+\stichwort {Satz über die Lösung von gewöhnlichen Differentialgleichungen auf einer differenzierbaren Hyperfläche} {}
+
+\mavergleichskette
+{\vergleichskette
+{  Y
+}
+{ \subseteq }{  \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}{Die Formel für die Berechnung des kanonischen Volumens auf einer riemannschen Mannigfaltigkeit in einer Karte.}{Der Satz über die Partition der Eins.}
+
+}
+{
+
+\aufzaehlungdrei{\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei.
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ U
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+und sei $F$ ein differenzierbares
+\definitionsverweis {Vektorfeld}{}{}
+auf $U$}
+\faktvoraussetzung {mit der Eigenschaft, dass für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+der Vektor $F(P)$ zum
+\definitionsverweis {Tangentialraum an die Faser}{}{}
+in $P$ an $Y$ gehört.}
+\faktfolgerung {Dann verläuft die Lösung $v(t)$ zum
+\definitionsverweis {Anfangswertproblem}{}{}
+zu $F$ mit der Anfangsbedingung
+
+\mavergleichskette
+{\vergleichskette
+{ v(t_0)
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ganz in $Y$.}
+\faktzusatz {}
+\faktzusatz {}}{Es sei $M$ eine
+\definitionsverweis {orientierte}{}{}
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{}
+und $\omega$ die
+\definitionsverweis {kanonische Volumenform}{}{.}
+Es sei
+\maabbdisp {\alpha} { U } { V
+} {}
+eine
+\definitionsverweis {orientierte Karte}{}{}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ V
+}
+{ \subseteq} { \R^n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+offen mit Koordinaten
+\mathl{x_1 , \ldots , x_n}{} mit der
+\definitionsverweis {metrischen Fundamentalmatrix}{}{}
+
+\mathl{G=(g_{ij})_{1 \leq i,j \leq n}}{} und
+\mathl{g= \det  G}{.} Dann ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{  \alpha_* \omega
+}
+{ =} { \sqrt{ g} dx_1 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Für eine
+\definitionsverweis {messbare Teilmenge}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ T
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{  T   }  \omega
+}
+{ =} {
+\int_{ \alpha(T)  }   \sqrt{g} dx_1 \wedge \ldots \wedge dx_n
+}
+{ =} { \int_{ \alpha(T)  }   \sqrt{g}    \,  d \lambda^n
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}{Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+mit einer
+\definitionsverweis {abzählbaren Basis}{}{}
+der Topologie. Dann gibt es zu jeder offenen Überdeckung eine der Überdeckung untergeordnete
+\definitionsverweis {stetig differenzierbare}{}{}
+\definitionsverweis {Partition der Eins}{}{.}}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{6}
+
+{
+
+Bestimme für die durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ x^2+y^2+2z^2
+}
+{ =} { 4
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gegebene Fläche $Y$ und den Punkt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ P
+}
+{ =} { \left(  1  , \,   1  , \,   1                 \right)
+}
+{ \in} { Y
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+eine Diagonalmatrix für die
+\definitionsverweis {Weingartenabbildung}{}{}
+$L_P$.
+
+}
+{
+
+Das normierte Gradientenfeld ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ N(x,y,z)
+}
+{ =} { { \frac{   1  }{  \sqrt{ 4x^2+4y^2+16 z^2}  } } \begin{pmatrix}  2x \\ 2y\\  4z   \end{pmatrix}
+}
+{ =} { { \frac{   1  }{  \sqrt{ x^2+y^2+4 z^2}  } } \begin{pmatrix}  x  \\ y \\  2z   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+Wir arbeiten mit dem Einheitsnormalenfeld
+
+\mavergleichskettedisp
+{\vergleichskette
+{ M(x,y,z)
+}
+{ =} { { \frac{   1  }{  \sqrt{ 4+2 z^2}  } } \begin{pmatrix}  x  \\ y \\  2z   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+was auf $Y$ mit $N$ übereinstimmt. Das totale Differential von $M$ ist
+
+\mathdisp {\begin{pmatrix}  { \frac{   1  }{  \sqrt{4+2z^2}  } }   &   0 &  { \frac{   -2 xz }{  \left(  4+2z^2  \right)^{3/2}  } }  \\  0  &  { \frac{   1  }{  \sqrt{4+2z^2}  } }   &  { \frac{   -2 yz }{  \left(  4+2z^2  \right)^{3/2}  } }   \\ 0   &  0  &  { \frac{   8 }{  \left(  4+2z^2  \right)^{3/2}  } }  \end{pmatrix}} { . }
+
+Im angegebenen Punkt $P$ ist der Gradient $\begin{pmatrix}  2  \\ 2\\  4   \end{pmatrix}$ und die beiden Vektoren
+\mathkor {} {\begin{pmatrix}  1  \\ -1\\  0   \end{pmatrix}} {und} {\begin{pmatrix}  2  \\ 0 \\  -1   \end{pmatrix}} {}
+ist eine Basis des Tangetialraumes $T_PY$. Das totale Differential zu $M$ ist in diesem Punkt gleich
+
+\mathdisp {\begin{pmatrix}  { \frac{   1  }{  \sqrt{6}  } }   &   0 &  { \frac{   -1 }{  3 \sqrt{6}  } }  \\  0  &  { \frac{   1  }{  \sqrt{6}  } }   &  { \frac{   -1  }{  3 \sqrt{6}  } }   \\ 0   &  0  &  { \frac{   4  }{  3 \sqrt{6}  } }   \end{pmatrix}} { . }
+
+Angewendet auf den ersten Basisvektor $\begin{pmatrix}  1  \\ -1\\  0   \end{pmatrix}$  ergibt sich $\begin{pmatrix}  { \frac{   1  }{  \sqrt{6}  } }  \\ - { \frac{   1  }{  \sqrt{6}  } } \\  0   \end{pmatrix}$, dies ist also ein Eigenvektor zum Eigenwert ${ \frac{   1  }{  \sqrt{6}  } }$. Angewendet auf den zweiten Basisvektor $\begin{pmatrix}  2  \\ 0 \\  -1   \end{pmatrix}$  ergibt sich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \begin{pmatrix}  { \frac{   7 }{  3 \sqrt{6}  } }  \\ { \frac{   1 }{  3 \sqrt{6 } }}  \\  - { \frac{   4  }{  3 \sqrt{6}  } }   \end{pmatrix}
+}
+{ =} { - { \frac{   1 }{  3 \sqrt{6 } }} \begin{pmatrix}  1  \\ -1\\  0   \end{pmatrix} +   { \frac{   4  }{  3 \sqrt{6}  } } \begin{pmatrix}  2  \\ 0 \\  -1   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Daher ist der andere Eigenwert gleich ${ \frac{   4  }{  3 \sqrt{6}  } }$ und eine beschreibende Diagonalmatrix ist
+
+\mathdisp {\begin{pmatrix}  { \frac{   1  }{  \sqrt{6}  } }   &   0  \\  0  &  { \frac{   4  }{  3 \sqrt{6}  } }  \end{pmatrix}} { . }
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{6}
+
+{
+
+Beweise den Isometriesatz für den Paralleltransport auf einer Hyperfläche
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+{
+
+Zum Nachweis der Linearität seien
+
+\mavergleichskette
+{\vergleichskette
+{ v,w
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+and
+
+\mavergleichskette
+{\vergleichskette
+{ r,s
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegeben. Es seien
+\mathkor {} {F} {bzw.} {G} {}
+die gemäß
+[[Hyperfläche/Kurve/Anfangstangentenvektor/Paralleles Vektorfeld/Existenz/Fakt|Satz 6.9 (Differentialgeometrie (Osnabrück 2023))]]
+eindeutig bestimmten parallelen Vektorfelder längs $\gamma$ mit
+
+\mavergleichskette
+{\vergleichskette
+{ F(a)
+}
+{ = }{ v
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ G(a)
+}
+{ = }{ w
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Nach
+[[Hyperfläche/Kurve/Paralleles Vektorfeld/Eigenschaften/Fakt|Lemma 6.7 (Differentialgeometrie (Osnabrück 2023))]]
+ist
+\mathl{rF+sG}{} ein paralleles Vektorfeld mit
+
+\mavergleichskette
+{\vergleichskette
+{ (rF+sG)(a)
+}
+{ = }{ v+ w
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Wegen der Eindeutigkeit aus
+[[Hyperfläche/Kurve/Anfangstangentenvektor/Paralleles Vektorfeld/Existenz/Fakt|Satz 6.9 (Differentialgeometrie (Osnabrück 2023))]]
+ist somit
+\mathl{rF+sG}{} das parallele Vektorfeld zum Tangentialvektor
+\mathl{rv+sw}{.} Daher ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Psi_{\gamma} (rv+sw)
+}
+{ =} { (rF+sG)(b)
+}
+{ =} { r F(b) +s G(b)
+}
+{ =} { r \Psi_{\gamma} (v) + s \Psi_{\gamma} (w)
+}
+{ } {
+}
+}
+{}{}{.}
+
+Zum Nachweis der Verträglichkeit mit dem Skalarprodukt seien wieder
+
+\mavergleichskette
+{\vergleichskette
+{ v,w
+}
+{ \in }{ T_PY
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegeben und es seien $F,G$ die zugehörigen parallelen Vektorfelder. Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  F(t) , G(t)  \right\rangle'
+}
+{ =} { \left\langle  F'(t) , G(t)  \right\rangle  +  \left\langle  F(t) , G'(t)  \right\rangle
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+da $F,G$ tangential sind und $F',G'$ orthogonal zum Tangentialraum sind. Daher ist
+\mathl{\left\langle  F(t) , G(t)  \right\rangle}{} konstant längs des Weges. Daher ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle \Psi_\gamma(v)  , \Psi_\gamma(w)  \right\rangle
+}
+{ =} { \left\langle  F(b)  ,  G(b)   \right\rangle
+}
+{ =} { \left\langle  F(a)  ,  F(a)   \right\rangle
+}
+{ =} { \left\langle  v  , w  \right\rangle
+}
+{ } {
+}
+}
+{}{}{.}
+Die Bijektivität ist damit auch klar.
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{6}
+
+{
+
+Es sei $M$ eine kompakte topologische $d$-dimensionale Mannigfaltigkeit,
+
+\mavergleichskette
+{\vergleichskette
+{ d
+}
+{ \geq }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Zeige, dass es eine beschränkte offene Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^d
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und eine stetige surjektive Abbildung
+\maabbdisp {\varphi} { U } { M
+} {}
+gibt.
+
+}
+{
+
+Zu jedem Punkt
+\mathl{P \in M}{} wählen wir eine offene Kartenumgebung
+\mathl{P \in U_P}{} mit einer Karte
+\maabbdisp {\alpha_P} {U_P } {V_P
+} {}
+mit
+\mathl{V_P \subseteq \R^d}{.} Dabei können wir annehmen, indem wir zu einer Ballumgebung von
+\mathl{\alpha_P(P) \in V_P}{} und dessen Urbild übergehen, dass die $V_p$ offene Bälle sind, deren Radius maximal
+\mathl{{ \frac{   1 }{  3 } }}{} ist. Die
+
+\mathbed {U_P} {}
+ {P\in M} {}
+ {} {} {} {,}
+überdecken die Mannigfaltigkeit. Wegen der Kompaktheit von $M$ gibt es endlich viele Punkte
+\mathl{P_1 , \ldots , P_n}{} derart, dass auch
+
+\mathbed {U_i=U_{P_i}} {}
+ {i=1 , \ldots , n} {}
+ {} {} {} {,}
+die Mannigfaltigkeit überdecken. Wir platzieren die offenen Bälle
+\mathl{V_i=V_{P_i}}{} in
+\zusatzklammer {\anfuehrung{einem neuen}{}} {} {}
+$\R^d$, und zwar mit den Mittelpunkten
+
+\mathdisp {(1,0 , \ldots , 0), (2,0 , \ldots , 0) , \ldots , (n,0 , \ldots , 0)} { . }
+
+Wegen der Radiusbedingung sind diese Bälle zueinander disjunkt. Wir betrachten die beschränkte offene Menge
+\mathl{U= \bigcup_{i=1}^n V_i}{.} Die Kartenabbildungen $\alpha_i$ liefern stetige Abbildungen
+
+\mathdisp {\varphi_i :V_i \stackrel{ \left(  \alpha_i  \right)^{-1} }{\longrightarrow} U_i \longrightarrow M} { . }
+
+Wegen der Disjunktheit ergibt sich daraus durch
+\mathl{\varphi(z)= \varphi_i(z)}{,} falls
+\mathl{z \in V_i}{} ist, eine stetige Abbildung
+\maabbdisp {\varphi} { U } {M
+} {.}
+Wegen der Überdeckungseigenschaft ist diese surjektiv.
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{11 (1+3+1+2+4)}
+
+{
+
+Wir betrachten die Menge
+
+\mavergleichskettedisp
+{\vergleichskette
+{N
+}
+{ =} { \left\{ A= \begin{pmatrix}  a   &   b   \\  c  & d \end{pmatrix}   \mid   A \text{ ist nilpotent}         \right\}
+}
+{ \subseteq} {\R^4
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+der reellen nilpotenten
+$2\times 2$-\definitionsverweis {Matrizen}{}{}
+sowie die Menge
+
+\mavergleichskettedisp
+{\vergleichskette
+{M
+}
+{ =} { N \setminus \{ \begin{pmatrix}  0   &   0  \\  0  &  0 \end{pmatrix}  \}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+a) Ist $N$ zusammenhängend?
+
+b) Zeige, dass $M$ eine
+\definitionsverweis {abgeschlossene Untermannigfaltigkeit}{}{}
+einer offenen Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ G
+}
+{ \subseteq }{ \R^4
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist.
+
+c) Bestimme die
+\definitionsverweis {Dimension}{}{}
+von $M$.
+
+d) Ist $M$ zusammenhängend?
+
+e) Überdecke
+\mathl{M}{} mit expliziten topologischen Karten.
+
+}
+{
+
+a) Jede nilpotente Matrix
+\mathl{\begin{pmatrix}  a   &   b   \\  c  & d \end{pmatrix}}{} lässt sich durch den linearen Weg
+\maabbeledisp {} {[0,1]} {N
+} { t } {t \begin{pmatrix}  a   &   b   \\  c  & d \end{pmatrix}
+} {,}
+innerhalb der nilpotenten Matrizen mit der Nullmatrix verbinden. Daher ist $N$ wegzusammenhängend und damit auch zusammenhängend.
+
+b) Eine
+$2 \times 2$-\definitionsverweis {Matrix}{}{}
+ist genau dann nilpotent, wenn sowohl die Spur als auch die Determinante $0$ sind. Die Menge $N$ der nilpotenten Matrizen kann also als
+
+\mathdisp {\left\{  (a,b,c,d)  \mid   a+d = 0 \text{ und } ad-bc = 0         \right\}} {  }
+
+aufgefasst werden. Wir betrachten die Abbildung
+\maabbeledisp {} {\R^4} {\R^2
+} {(a,b,c,d)} { (a+d, ad-bc)
+} {.}
+Deren Jacobi-Matrix ist
+
+\mathdisp {\begin{pmatrix}  1 &  0 &  0 &  1 \\  d  &  -c &  -b &  a  \end{pmatrix}} { . }
+
+Diese Abbildung ist im Nullpunkt nicht
+\definitionsverweis {regulär}{}{,}
+aber in jedem anderen Punkt der Faser $N$. Wenn nämlich
+\mathl{P \in M}{} ist, so folgt wegen
+
+\mavergleichskettedisp
+{\vergleichskette
+{a^2
+}
+{ =} {bc
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+aus
+
+\mavergleichskettedisp
+{\vergleichskette
+{b
+}
+{ =} { c
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+sofort
+
+\mavergleichskettedisp
+{\vergleichskette
+{a
+}
+{ =} {b
+}
+{ =} { c
+}
+{ =} { d
+}
+{ =} { 0
+}
+}
+{}{}{.}
+Die Jacobi-Matrix hat also in den Punkten aus $M$ den maximalen Rang. Mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{G
+}
+{ =} {\R^4 \setminus \{0\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+kann man $M$ als die Faser der eingeschränkten Abbildung auffassen, die überall auf der Faser regulär ist. Daher ist $M$ nach
+[[Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt|Satz 8.2 (Differentialgeometrie (Osnabrück 2023))]]
+eine abgeschlossene Untermannigfaltigkeit von $G$.
+
+c) Nach
+[[Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt|Satz 8.2 (Differentialgeometrie (Osnabrück 2023))]]
+ist die Dimension von $M$ gleich
+
+\mavergleichskette
+{\vergleichskette
+{ 4-2
+}
+{ = }{ 2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+d) Wir schreiben
+
+\mavergleichskettedisp
+{\vergleichskette
+{M_+
+}
+{ =} { \left\{ (a,b,c,d) \in M  \mid   b>c        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{M_-
+}
+{ =} { \left\{ (a,b,c,d) \in M  \mid   b<c        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+beides sind
+\zusatzklammer {als Durchschnitt von $M$ mit der durch
+\mathl{b>c}{} gegebenen offenen Menge des $\R^4$} {} {}
+offene Mengen in $M$. Die Matrizen
+\mathkor {} {\begin{pmatrix}  0  &   1  \\  0 &  0 \end{pmatrix}} {und} {\begin{pmatrix}  0  &   0  \\  1 &  0 \end{pmatrix}} {}
+zeigen, dass sie nicht leer sind. Ferner überdecken sie ganz $M$. Bei
+
+\mavergleichskette
+{\vergleichskette
+{b
+}
+{ = }{ c
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+folgt nämlich wegen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ 0
+}
+{ =} { ad-bc
+}
+{ =} { -a^2 -b^2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+direkt
+
+\mavergleichskette
+{\vergleichskette
+{a
+}
+{ = }{b
+}
+{ = }{ c
+}
+{ =   }{ d
+}
+{ =  }{ 0
+}
+}
+{}{}{,}
+und der Punkt gehört nicht zu $M$. Es liegt also eine Überdeckung mit zwei nichtleeren disjunkten offenen Mengen vor, daher ist $M$ nicht zusammenhängend.
+
+e) Wir arbeiten mit der Abbildung
+\maabbeledisp {\psi} {\R^2 \setminus \{(0,0)\}} { M_+
+} {(a,u)} { (a, u + \sqrt{a^2+u^2}, u - \sqrt{a^2 +u^2},-a)
+} {.}
+Wegen
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ad-bc
+}
+{ =} { -a^2 - \left(  u + \sqrt{a^2+u^2}  \right) \left( u - \sqrt{a^2+u^2}  \right)
+}
+{ =} { -a^2 - \left(  u^2 - \left(  a^2+u^2 \right)   \right)
+}
+{ =} { 0
+}
+{ } {
+}
+}
+{}
+{}{}
+ist die Determinantenbedingung erfüllt, und wegen
+
+\mavergleichskettedisp
+{\vergleichskette
+{b-c
+}
+{ =} { u + \sqrt{a^2+u^2} - \left(  u- \sqrt{a^2 +u^2})  \right)
+}
+{ =} { 2 \sqrt{a^2+u^2}
+}
+{ >} { 0
+}
+{ } {
+}
+}
+{}{}{}
+gehört das Bild zu $M_+$. Die Abbildung
+\maabbeledisp {\varphi} {M_+} { \R^2 \setminus \{(0,0)\}
+} {(a,b,c,d)} { \left(  a  , \,   { \frac{  b+c }{  2 } }                   \right)
+} {,}
+ist invers zu der gegebenen Abbildung. Dabei ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \varphi \circ \psi
+}
+{ =} {
+\operatorname{Id}_{ \R^2 \setminus \{(0,0)\}  }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+klar. Die andere Identität ergibt sich aus
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ { \frac{  b+c }{  2 } } + \sqrt{a^2 + \left( { \frac{  b+c }{  2 } }  \right)^2 }
+}
+{ =} { { \frac{  b+c }{  2 } } + { \frac{   1 }{  2 } }  \sqrt{4 a^2 + b^2 +c^2 +2bc }
+}
+{ =} { { \frac{  b+c }{  2 } } + { \frac{   1 }{  2 } }  \sqrt{ b^2 +c^2 -2bc }
+}
+{ =} { { \frac{  b+c }{  2 } } + { \frac{  b-c }{  2 } }
+}
+{ =} {b
+}
+}
+{}
+{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{  b+c }{  2 } } - \sqrt{a^2 + \left(   { \frac{  b+c }{  2 } }   \right)^2 }
+}
+{ =} { { \frac{  b+c }{  2 } } - { \frac{  b-c }{  2 } }
+}
+{ =} { c
+}
+{ } {}
+{ } {}
+}
+{}{}{.}
+Beide Abbildungen sind stetig, daher liegt eine
+\definitionsverweis {Homöomorphie}{}{}
+vor.
+Für
+\mathl{M_-}{} vertauscht man die Rollen von
+\mathkor {} {b} {und} {c} {.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{5}
+
+{
+
+Sagen Sie etwas Schlaues zum Thema Möbiusband.
+
+}
+{  }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{5}
+
+{
+
+Wir betrachten die Abbildung
+\maabbeledisp {\varphi} { \R^3 } { \R^2
+} { (x,y,z) } { \left(  xyz^2,xy-z^3  \right)
+} {.}
+Berechne die Matrix der Abbildung
+\maabbdisp {\bigwedge^2 T_P (\varphi)} { \bigwedge^2 T_P \R^3 } { \bigwedge^2 T_{\varphi(P)}  \R^2
+} {}
+im Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ (1,3,5)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bezüglich einer geeigneten Basis.
+
+}
+{
+
+Die Jacobimatrix von $\varphi$ ist allgemein
+
+\mathdisp {\begin{pmatrix}  yz^2 &  xz^2 &  2xyz \\  y  &  x  &  -3z^2 \end{pmatrix}} { . }
+
+Für den Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ = }{ (1,3,5)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+liegt daher die Jacobimatrix
+
+\mathdisp {\begin{pmatrix}  75 &  25 &  30 \\  3 &  1 &  -75  \end{pmatrix}} {  }
+
+vor. Diese Matrix beschreibt die lineare Abbildung
+\maabbdisp {L} {T_P\R^3 \cong \R^3} { T_{\varphi(P)} \R^2 \cong \R^2
+} {}
+bezüglich der Standardbasen. Wir bestimmen die Matrixdarstellung für die Abbildung
+\maabbdisp {\bigwedge^2 L} {\bigwedge^2 \R^3 } { \bigwedge^2 \R^2
+} {}
+bezüglich der Basen
+$e_1 \wedge e_2,\, e_1 \wedge e_3$ , $e_2 \wedge e_3$
+\zusatzklammer {links} {} {}
+und
+\mathl{e_1 \wedge e_2}{}
+\zusatzklammer {rechts} {} {.}
+Dazu müssen wir die Bilder dieser Dachprodukte ausrechnen. Es ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ (\bigwedge^2 L ) (e_1 \wedge e_2)
+}
+{ =} { L(e_1) \wedge L(e_2)
+}
+{ =} { (75e_1 + 3e_2) \wedge (  25 e_1 + 1 e_2 )
+}
+{ =} { 75 e_1 \wedge e_2 + 75 e_2 \wedge  e_1
+}
+{ =} { 75 e_1 \wedge e_2 - 75 e_1 \wedge  e_2
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { 0
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{,}
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ (\bigwedge^2 L ) (e_1 \wedge e_3)
+}
+{ =} { L(e_1) \wedge L(e_3)
+}
+{ =} { (75e_1 + 3e_2) \wedge (  30 e_1 - 75 e_2 )
+}
+{ =} { - 75^2 e_1 \wedge e_2 + 90 e_2 \wedge  e_1
+}
+{ =} { (-5625 - 90) e_1 \wedge e_2
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { -5715 e_1 \wedge e_2
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{,}
+und
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ (\bigwedge^2 L ) (e_2 \wedge e_3)
+}
+{ =} { L(e_2) \wedge L(e_3)
+}
+{ =} { (  25 e_1 + 1 e_2 )   \wedge ( 30 e_1 - 75 e_2)
+}
+{ =} { - 1875 e_1 \wedge e_2 + 30 e_2 \wedge  e_1
+}
+{ =} { -  1905 e_1 \wedge  e_2
+}
+}
+{}
+{}{.}
+Die beschreibende Matrix ist also
+
+\mathdisp {\left(  0,-5715,-1905                     \right)} { . }
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Es seien
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offene Teilmengen}{}{}
+und sei
+\maabbdisp {\psi} { W } { U
+} {}
+eine
+\definitionsverweis {stetig differenzierbare}{}{}
+\definitionsverweis {Abbildung}{}{.}
+Es sei
+\maabbdisp {f} { U } {\R
+} {}
+eine stetig differenzierbare Funktion. Folgere aus der
+[[Totale Differenzierbarkeit/K/Kettenregel/Fakt|Kettenregel]],
+dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d (\psi^*f)
+}
+{ =} { \psi^*(df)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gilt, wobei $\psi^*$ das
+\definitionsverweis {Zurückziehen von Differentialformen}{}{}
+bezeichnet.
+
+}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{  W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ v
+}
+{ \in }{  \R^m
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Es ist einerseits
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d( \psi^* f) (P,v)
+}
+{ =} { D_P( f \circ \psi) (v)
+}
+{ =} { \left(  \left(  D_{\psi(P)} f  \right)  \circ \left(  D_P  \psi  \right)  \right) (v)
+}
+{ =} { D_{\psi(P)} (f) \left(  D_P \psi(v)  \right)
+}
+{ } {
+}
+}
+{}{}{.}
+Andererseits ist auch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left(  \psi^*(df)  \right) (P,v)
+}
+{ =} { (df) \left(  \psi(P), (D_P \psi )(v)  \right)
+}
+{ =} { D_{\psi(P)} (f) \left(  D_P \psi (v)  \right)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{7}
+
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+mit
+\definitionsverweis {abzählbarer Basis der Topologie}{}{}
+und sei $\omega$ eine
+\definitionsverweis {positive Volumenform}{}{}
+auf $M$. Es sei
+\maabbdisp {\varphi} { L } { M
+} {}
+ein
+\definitionsverweis {Diffeomorphismus}{}{}
+mit der Mannigfaltigkeit $L$ und
+
+\mavergleichskette
+{\vergleichskette
+{ S
+}
+{ \subseteq }{ L
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {messbare Teilmenge}{}{.}
+Zeige
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_S \varphi^* \omega
+}
+{ =} { \int_{ \varphi(S)} \omega
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{
+
+Nach
+[[Mannigfaltigkeit/Abzählbar/Positive Volumenform/Zugehöriges Maß/Vorbereitende Eigenschaften/Fakt|Lemma 15.2 (Differentialgeometrie (Osnabrück 2023))]]
+können wir davon ausgehen, dass
+\mathkor {} {S} {und} {\varphi(S)} {}
+jeweils ganz in einer Karte von
+\mathkor {} {L} {bzw. von} {M} {}
+liegen, sagen wir
+
+\mavergleichskette
+{\vergleichskette
+{ S
+}
+{ \subseteq }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit der Karte
+\maabbdisp {\alpha} { U } { U' \subseteq \R^n
+} {}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \varphi(S)
+}
+{ \subseteq }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit der Karte
+\maabbdisp {\beta} { V } { V' \subseteq \R^n
+} {.}
+Wir können weiter durch verkleinern der Karten davon ausgehen, dass
+\mathkor {} {U} {und} {V} {}
+über $\varphi$ diffeomorph zueinander sind. Es liegt dann ein kommutatives Diagramm von Diffeomorphismen
+
+\mathdisp {\begin{matrix}  U  & \stackrel{ \varphi }{\longrightarrow} &  V  &  \\ \!\!\!\!\! \alpha \downarrow & & \downarrow \beta \!\!\!\!\!  & \\  U'  & \stackrel{ \beta \circ \varphi \circ \alpha^{-1} }{\longrightarrow} &  V' & \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }
+
+vor, das ein kommutatives Diagramm
+
+\mathdisp {\begin{matrix}  S  & \stackrel{ \varphi }{\longrightarrow} &  \varphi (S)  &  \\ \!\!\!\!\! \alpha \downarrow & & \downarrow \beta \!\!\!\!\!  & \\  \alpha (S) & \stackrel{ \beta \circ \varphi \circ \alpha^{-1} }{\longrightarrow} &  \beta ( \varphi (S) ) & \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }
+
+von messbaren Mengen induziert. Für die Volumenform $\omega$ auf $V$ gilt dabei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \alpha^{ {-1}*} ( \varphi^* \omega)
+}
+{ =} { \left(  \beta \circ \varphi \circ \alpha^{-1}  \right)^*  ( \beta^{ {-1}*} \omega)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+nach
+[[Mannigfaltigkeit/Differenzierbare Abbildung/Zurückziehen von Differentialformen/Elementare Eigenschaften/Fakt|Lemma 14.7 (Differentialgeometrie (Osnabrück 2023))  (4)]].
+Die Volumenform $\beta^{ {-1}*} \omega$ besitzt auf $V'$ die Beschreibung
+\mathl{g dy_1  \wedge \ldots \wedge dy_n}{} mit einer messbaren Funktion
+\maabb {g} {V'} {\R
+} {}
+und $\int_{\varphi(S)} \omega$ ist nach Definition gleich $\int_{\beta( \varphi(S))} g d \lambda^n$. Ebenso besitzt
+\mathl{\alpha^{ {-1}*} ( \varphi^* \omega)}{} auf $U'$ eine Beschreibung der Form
+\mathl{f dx_1 \wedge \ldots \wedge dx_n}{.} Diese Volumenform auf $U'$ stimmt mit dem Rückzug von
+\mathl{g dy_1  \wedge \ldots \wedge dy_n}{} überein und dieser ist nach
+[[Offene Mengen/Differenzierbare Abbildung/Zurückziehen von Volumenform auf gleichdimensionalem Raum/In Koordinaten/Fakt|Korollar 14.9 (Differentialgeometrie (Osnabrück 2023))]]
+gleich
+
+\mathdisp {(g \circ \psi) \cdot \det  \left(  \left(  { \frac{   \partial   \psi_i   }{  \partial   x_j   } }  \right)_{1 \leq  i, j \leq n}  \right) dx_1 \wedge \ldots \wedge dx_n} {  }
+
+\zusatzklammer {mit
+
+\mavergleichskettek
+{\vergleichskettek
+{ \psi
+}
+{ = }{ \beta \circ \varphi \circ \alpha^{-1}
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {.}
+Somit folgt die Aussage aus
+[[Diffeomorphismus/Transformationsformel für Integrale/Fakt|[[:Kurs:Maß- und Integrationstheorie (Osnabrück 2022-2023)/3/Klausur mit Lösungen/latex]] (Maß- und Integrationstheorie (Osnabrück 2022-2023))[[Kategorie:Kurs:Differentialgeometrie/Referenznummer|Maß- und Integrationstheorie (Osnabrück 2022-2023)]] (Differentialgeometrie (Osnabrück 2023))]].
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{2}
+
+{
+
+Wir betrachten auf dem
+\definitionsverweis {trivialen Vektorbündel}{}{}
+\maabbdisp {p} {\R^2 \times \R} { \R^2
+} {}
+vom
+\definitionsverweis {Rang}{}{}
+$1$ über $\R^2$ den
+\definitionsverweis {linearen Zusammenhang}{}{,}
+der durch die
+\definitionsverweis {Christoffelsymbole}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ \Gamma_1 (x,y)
+}
+{ = }{ x^5-x^2y^2+3y^4
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \Gamma_2 (x,y)
+}
+{ = }{ 7x^3 +xy^2-4y^5
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegeben sei. Berechne den
+\definitionsverweis {Krümmungsoperator}{}{}
+$R \left(  \partial_1, \partial_2  \right)$.
+
+}
+{
+
+Nach
+[[Reelles Vektorbündel/Rang 1/Offene Menge/Krümmungsoperator/Fakt|Fakt]] [[Kurs:Differentialgeometrie/Reelles Vektorbündel/Rang 1/Offene Menge/Krümmungsoperator/Fakt/Faktreferenznummer|*****]]
+ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ R \left(  \partial_1, \partial_2  \right)
+}
+{ =} { \partial_1 \Gamma_2 - \partial_2 \Gamma_1
+}
+{ =} { \partial_1 \left(  7x^3 +xy^2-4y^5  \right) -  \partial_2 \left(   x^5-x^2y^2+3y^4   \right)
+}
+{ =} {  21x^2 +y^2 - 5x^4 -2xy^2
+}
+{ } {
+}
+}
+{}
+{}{.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{6}
+
+{
+
+Beweise den Satz über die Retraktionen auf den Rand auf Mannigfaltigkeiten.
+
+}
+{
+
+Der Rand
+\mathl{\partial M}{} ist nach
+[[Mannigfaltigkeit mit Rand/Orientierung/Randorientierung/Fakt|Satz 21.8 (Differentialgeometrie (Osnabrück 2023))]]
+eine
+\definitionsverweis {orientierte}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+\zusatzklammer {ohne Rand} {} {.}
+Daher gibt es nach
+[[Nullstellenfreie Volumenform/Orientierte (Karten) Mannigfaltigkeit/Äquivalenz/Fakt|Satz 22.11 (Differentialgeometrie (Osnabrück 2023))]]
+eine
+\definitionsverweis {stetig differenzierbare}{}{}
+\definitionsverweis {positive Volumenform}{}{}
+$\tau$ auf
+\mathl{\partial M}{.} Es ist
+\mathl{\int_{  \partial M  }  \tau >0}{.} Die
+\definitionsverweis {äußere Ableitung}{}{}
+der Volumenform $\tau$ ist $0$. Nehmen wir an, dass es eine
+\definitionsverweis {stetig differenzierbare Abbildung}{}{}
+\maabbdisp {\varphi} { M } { \partial M
+} {}
+mit
+\mathl{\varphi \vert_{\partial M} = \operatorname{Id}_{\partial M}}{} gebe. Dann ist die
+\definitionsverweis {zurückgezogene Form}{}{}
+
+\mathl{\varphi^* \tau}{} eine
+$(n-1)$-\definitionsverweis {Differentialform}{}{}
+auf $M$, deren Einschränkung auf den Rand mit $\tau$ übereinstimmt. Daher gilt unter Verwendung von
+[[Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt|Satz 23.2 (Differentialgeometrie (Osnabrück 2023))]]
+und
+[[Differentialform/Mannigfaltigkeit/Äußere Ableitung/Eigenschaften/Fakt|Satz 20.4 (Differentialgeometrie (Osnabrück 2023))  (5)]]
+
+\mavergleichskettealign
+{\vergleichskettealign
+{
+\int_{  \partial M  }  \tau
+}
+{ =} {
+\int_{  \partial  M  }  \varphi^* \tau
+}
+{ =} {
+\int_{   M  }  d(\varphi^* \tau)
+}
+{ =} {
+\int_{   M  }  \varphi^* (d\tau)
+}
+{ =} {
+\int_{   M  }  \varphi^* (0)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { 0
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+Dies ist ein Widerspruch.
+
+ }
+
+ [[Kategorie:Latexseite]]

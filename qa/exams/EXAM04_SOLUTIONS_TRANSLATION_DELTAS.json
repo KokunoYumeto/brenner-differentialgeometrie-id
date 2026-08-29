@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "scope": "source/exams/exam-04/exam04_solutions.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-EXAM04-SOL-0001",
+      "anchor": "partition-of-unity definition of g_j",
+      "change": "Translate only the German reader-facing branch labels inside the protected piecewise formula from fuer/sonst to jika/selain itu; all mathematical tokens remain unchanged."
+    },
+    {
+      "correction_id": "O011-EXAM04-SOL-0002",
+      "anchor": "partition-of-unity definition of tilde g_j",
+      "change": "Translate only the German reader-facing branch labels inside the protected piecewise formula from fuer/sonst to jika/selain itu; all mathematical tokens remain unchanged."
+    },
+    {
+      "correction_id": "O011-EXAM04-SOL-0003",
+      "anchor": "first tangent-space basis at P",
+      "change": "Translate the reader-facing conjunction inside mathkor from und to dan without changing either vector."
+    },
+    {
+      "correction_id": "O011-EXAM04-SOL-0004",
+      "anchor": "second tangent-space basis at Q",
+      "change": "Translate the reader-facing conjunction inside mathkor from und to dan without changing either vector."
+    },
+    {
+      "correction_id": "O011-EXAM04-SOL-0005",
+      "anchor": "maximum and minimum points P and Q",
+      "change": "Translate the reader-facing connector inside mathkor from beziehungsweise to dan; the surrounding Indonesian prose retains the respective ordering."
+    },
+    {
+      "correction_id": "O011-EXAM04-SOL-0006",
+      "anchor": "circle coordinates x and y",
+      "change": "Translate the reader-facing conjunction inside mathkor from und to dan without changing either coordinate."
+    },
+    {
+      "correction_id": "O011-EXAM04-SOL-0007",
+      "anchor": "two open subsets in the partition-of-unity proof",
+      "change": "Translate the reader-facing conjunction inside mathkor from und to dan without changing either set expression."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-EXAM04-SOL-0001",
+      "surface": "protected:vergleichskette",
+      "index": 60,
+      "source_sha256": "64d4986ad0b4e5f687a2bf2c7af26fc93252cfdba7b189cdfa7f7076eea1c1af",
+      "target_sha256": "4ec7757c7e8418930f2661234c932e0bc264622bd7a3475e472334843b793ce8"
+    },
+    {
+      "correction_id": "O011-EXAM04-SOL-0002",
+      "surface": "protected:vergleichskette",
+      "index": 61,
+      "source_sha256": "0663ff1ea71f1d6adcd11c704439b7d732a4422fb623bc3e4697d697c5f6e90a",
+      "target_sha256": "7bd1d3b1c7654a5c409ecd67d2c33e410857199f06d0c4ec9567d34ae66801ee"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-EXAM04-SOL-0003",
+      "surface": "command:mathkor",
+      "occurrence_index": 0,
+      "source_latex": "\\mathkor{}{\\begin{pmatrix}1\\\\0\\\\0\\end{pmatrix}}{und}{\\begin{pmatrix}0\\\\0\\\\1\\end{pmatrix}}{}",
+      "target_latex": "\\mathkor{}{\\begin{pmatrix}1\\\\0\\\\0\\end{pmatrix}}{dan}{\\begin{pmatrix}0\\\\0\\\\1\\end{pmatrix}}{}",
+      "source_sha256": "95ad0f674d8925f959fdc617d654dced99e26a740331a5788650ab91c1efe4b7",
+      "target_sha256": "fe5d48a3c0b1d72502c0772fadb88a221e8d562fe21fc977e6a4327ab0287aae"
+    },
+    {
+      "correction_id": "O011-EXAM04-SOL-0004",
+      "surface": "command:mathkor",
+      "occurrence_index": 1,
+      "source_latex": "\\mathkor{}{\\begin{pmatrix}1\\\\0\\\\0\\end{pmatrix}}{und}{\\begin{pmatrix}0\\\\1\\\\0\\end{pmatrix}}{}",
+      "target_latex": "\\mathkor{}{\\begin{pmatrix}1\\\\0\\\\0\\end{pmatrix}}{dan}{\\begin{pmatrix}0\\\\1\\\\0\\end{pmatrix}}{}",
+      "source_sha256": "9b3c8c194ddd505c17e4a746dd8b3d92375ed94b15b31ca8d04206e07a586620",
+      "target_sha256": "312129e97e368afac5b4cc42796a3a4267717212f4fbe2b219265370e97496f8"
+    },
+    {
+      "correction_id": "O011-EXAM04-SOL-0005",
+      "surface": "command:mathkor",
+      "occurrence_index": 2,
+      "source_latex": "\\mathkor{}{P}{bzw.}{Q}{.}",
+      "target_latex": "\\mathkor{}{P}{dan}{Q}{.}",
+      "source_sha256": "dfc81a9b93bee9bc69a633fa4017e17c16186f4730d82a22249388fdaef1e4b4",
+      "target_sha256": "40dd36a895fa3460f0852efb0c601a4ba474f99eef202d4f935f584347bdd8d9"
+    },
+    {
+      "correction_id": "O011-EXAM04-SOL-0006",
+      "surface": "command:mathkor",
+      "occurrence_index": 3,
+      "source_latex": "\\mathkor{}{x}{und}{y}{}",
+      "target_latex": "\\mathkor{}{x}{dan}{y}{}",
+      "source_sha256": "766a4ceb223d3c588f110003057ae4ccdba6b587c1e0196d8a92d6a6549121fb",
+      "target_sha256": "d6c51f6c956b09911c0bde885627079c06181e05a85946fe59cb65747912f4e4"
+    },
+    {
+      "correction_id": "O011-EXAM04-SOL-0007",
+      "surface": "command:mathkor",
+      "occurrence_index": 4,
+      "source_latex": "\\mathkor{}{U\\left(0,\\epsilon_j\\right)}{und}{V_j\\setminusB\\left(0,\\delta_j\\right)}{}",
+      "target_latex": "\\mathkor{}{U\\left(0,\\epsilon_j\\right)}{dan}{V_j\\setminusB\\left(0,\\delta_j\\right)}{}",
+      "source_sha256": "efd7b65845a8b020cb01f732f97a756082896293fce9959408f076f9ff044b21",
+      "target_sha256": "37349a05a822d3fe0766873d714242b5abc9c2be95406327e1f2525df8d860f2"
+    }
+  ]
+}

@@ -281,8 +281,27 @@ def main() -> None:
         raise RuntimeError("graded-exercise count mismatch")
     if sum(graded_point_value(item["point_value"]) for item in graded) != solutions["point_value_total"]:
         raise RuntimeError("graded-point total mismatch")
+    hint_bearing_indices: list[int] = []
     for exercise in exercises:
+        hint = exercise.get("hint_field")
+        if not isinstance(hint, str):
+            raise RuntimeError(f"exercise hint is not an exact string: {exercise['exercise_index']}")
+        hint_bytes = hint.encode("utf-8")
+        if (
+            len(hint_bytes) != exercise.get("expanded_hint_utf8_bytes")
+            or digest(hint_bytes) != exercise.get("expanded_hint_sha256")
+        ):
+            raise RuntimeError(f"exercise hint binding mismatch: {exercise['exercise_index']}")
+        if hint:
+            hint_bearing_indices.append(exercise["exercise_index"])
         verify_solution(root, exercise)
+    structure = manifest["structure"]
+    if hint_bearing_indices != structure.get("worksheet_hint_bearing_indices"):
+        raise RuntimeError("worksheet hint-index census mismatch")
+    if len(hint_bearing_indices) != structure.get("worksheet_hint_count"):
+        raise RuntimeError("worksheet hint-count census mismatch")
+    if bool(hint_bearing_indices) == structure.get("all_hint_fields_blank"):
+        raise RuntimeError("worksheet all-hints-blank flag mismatch")
 
     media = manifest["media"]
     file_check(root, media["rights_manifest"])

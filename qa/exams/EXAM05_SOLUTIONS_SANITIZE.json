@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "sanitizer_profile": "brenner-exam-presentational-em-v1",
+  "input": "authority/exams/mediawiki/exam05_solutions_expandtemplates.json",
+  "input_bytes": 40005,
+  "input_sha256": "b223e0e2ff331c61533c5520295cc666e6eb5efe1acf78f1e6b4c498f1c4874c",
+  "expanded_chars": 37249,
+  "output": "authority/exams/expanded/exam05_solutions_source.de.tex",
+  "output_bytes": 31674,
+  "output_sha256": "b1118ffef263de471dd4965d34a3e1b5ebef8416898d7411056795945a6c0b5e",
+  "presentational_html_evidence": {
+    "profile": "brenner-exam-presentational-em-v1",
+    "allowed_presentational_syntax": [
+      "<em>",
+      "</em>"
+    ],
+    "residual_html_tags_before_unwrap": 8,
+    "em_open_tags_removed": 4,
+    "em_close_tags_removed": 4,
+    "pre_unwrap_utf8_sha256": "c80bcbf9e490283be86224ecc91fbc3bf7e20fafbf38e7940d6220609b792841",
+    "post_unwrap_utf8_sha256": "414bd99df521dad47a47de4a71b7a972e3d3f49c6fc51431f247a7866096cef4",
+    "removed_utf8_bytes": 36,
+    "balanced_non_nested_pairs": true
+  },
+  "transform": [
+    "normalize CRLF/CR to LF",
+    "replace br tags with LF",
+    "remove div/pre/nowiki wrapper tags",
+    "decode HTML entities",
+    "inventory and require only balanced non-nested attribute-free em pairs",
+    "remove only the em opening and closing tags while preserving inner text",
+    "strip trailing horizontal whitespace",
+    "collapse runs of blank lines",
+    "require no residual HTML tag or U+FFFD"
+  ]
+}

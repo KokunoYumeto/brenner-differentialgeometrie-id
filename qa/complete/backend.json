@@ -1,0 +1,114 @@
+{
+  "baseline": {
+    "csv_bytes": 987360,
+    "csv_lines_including_header": 4325,
+    "csv_sha256": "8bc81cbe634cb94f71640d1f5fd5e4c7a7697647f3a21b4ea161cb18c031d34b",
+    "jsonl_bytes": 2672207,
+    "jsonl_sha256": "448982cccc2f7c21e275faae1314f3ef6731f6ba36c939035b295dcc7b3d195a",
+    "preserved_byte_identically": true,
+    "records": 4324
+  },
+  "checkpoint": "2026-08-28T18:30:00Z",
+  "checks": {
+    "all_32_original_bridge_items_complete": true,
+    "all_ids_unique": true,
+    "all_references_resolve": true,
+    "canonical_jsonl": true,
+    "combined_json_schema_valid": true,
+    "component_media_rights_and_license_closure": true,
+    "csv_projection_exact": true,
+    "declared_source_corrections_bound": true,
+    "exam_learner_prompts_exact_in_solution_forms": true,
+    "exam_occurrence_map_recomputed_exactly": true,
+    "exam_source_solution_presence_topology_exact": true,
+    "hash_bound_translation_and_math_receipts_pass": true,
+    "immutable_published_unit22_csv_prefix": true,
+    "immutable_published_unit22_jsonl_prefix": true,
+    "live_source_identity_bindings_current": true,
+    "official_and_original_solution_provenance_distinct": true,
+    "repeat_reconstruction_deterministic": true,
+    "six_original_exam_repairs_one_to_one": true,
+    "stable_reader_anchors_present": true,
+    "unit_exercise_hint_point_solution_topology_exact": true
+  },
+  "combined_records": 6912,
+  "complete_core_census": {
+    "exercises": 576,
+    "source_supplied_solutions": 84
+  },
+  "correction_census": {
+    "declared_corrections": 37,
+    "manifests": 12,
+    "source_corrections": 2
+  },
+  "determinism": {
+    "first_csv_sha256": "e97f94a5e221f7c5abdfb24a7795761f75a1c999f4da06500bb24e41c3c632db",
+    "first_jsonl_sha256": "cf875638bbb7ffb657d5932c1663c063f6832495b2f755830d26121d1a631e26",
+    "second_csv_sha256": "e97f94a5e221f7c5abdfb24a7795761f75a1c999f4da06500bb24e41c3c632db",
+    "second_jsonl_sha256": "cf875638bbb7ffb657d5932c1663c063f6832495b2f755830d26121d1a631e26",
+    "second_reconstruction_matches_first": true
+  },
+  "extension_entity_counts": {
+    "artifact": 240,
+    "asset": 5,
+    "concept": 0,
+    "correction": 37,
+    "course": 0,
+    "edition": 0,
+    "program": 0,
+    "qa_event": 111,
+    "relation": 1497,
+    "resource": 0,
+    "rights": 8,
+    "segment": 71,
+    "term": 0,
+    "unit": 619
+  },
+  "extension_records": 2588,
+  "outputs": {
+    "generator": {
+      "bytes": 87636,
+      "path": "scripts/export_backend_complete.py",
+      "sha256": "befc21612a17813f94553f118dc99efa7a29e8cd394a028fcfec1ac86f89c146"
+    },
+    "manifest": {
+      "bytes": 55195,
+      "path": "backend/MANIFEST.json",
+      "sha256": "4bc497f5f26781ac0bb55b0db2ffa206774477a32790ec1890fd425b2861fb53"
+    },
+    "records_csv": {
+      "bytes": 1663434,
+      "path": "backend/records.csv",
+      "sha256": "e97f94a5e221f7c5abdfb24a7795761f75a1c999f4da06500bb24e41c3c632db"
+    },
+    "records_jsonl": {
+      "bytes": 4244774,
+      "path": "backend/records.jsonl",
+      "sha256": "cf875638bbb7ffb657d5932c1663c063f6832495b2f755830d26121d1a631e26"
+    },
+    "verifier": {
+      "bytes": 6876,
+      "path": "scripts/verify_backend_complete.py",
+      "sha256": "433cecd2de099121b3026c7de480ba6728a1dba251441be7843cc5a009d643ec"
+    }
+  },
+  "schema_version": 1,
+  "semantic_census": {
+    "bridge_exercises": 24,
+    "bridge_items": 32,
+    "bridge_mastery": 8,
+    "bridges": 2,
+    "core_exercises_added": 119,
+    "core_source_solutions_added": 20,
+    "core_units_added": 7,
+    "exam_actual_occurrences": 123,
+    "exam_forms": 10,
+    "exam_nominal_slots": 147,
+    "exam_placeholder_slots": 24,
+    "exam_semantic_tasks": 119,
+    "exam_source_supplied_solutions": 117,
+    "original_exam_repairs": 6
+  },
+  "status": "pass",
+  "workflow": "o011-verify-backend-complete"
+}

@@ -1,0 +1,737 @@
+\setcounter{section}{26}
+
+  \zwischenueberschrift{Übungsaufgaben}
+
+\inputaufgabe
+{}
+{
+
+Die reelle Ebene sei mit der
+\definitionsverweis {euklidischen Struktur}{}{}
+und dem zugehörigen
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{}
+versehen. Berechne
+
+\mavergleichskette
+{\vergleichskette
+{ \nabla_FG
+}
+{ = }{
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+zu den Vektorfeldern
+
+\mavergleichskettedisp
+{\vergleichskette
+{ F(x,y)
+}
+{ =} { \left(  x^2-y^3  , \,   xy+y^2                   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ G(x,y)
+}
+{ =} { \left( e^{xy^2}   , \,   x^3-x^2y^5                   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ \subseteq }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {reelles Intervall}{}{}
+und sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g(t)
+}
+{ =} { 3+t^2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+die wir als eine
+\definitionsverweis {riemannsche Metrik}{}{}
+auf $I$ interpretieren. Bestimme die
+\definitionsverweis {vertikale Ableitung}{}{}
+\zusatzklammer {zu dem zugehörigen
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{}} {} {}
+
+\mathl{\nabla_\partial  \left(  t^3-  \sin  \left( t^2 \right)   \right)}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ \subseteq }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {reelles Intervall}{}{}
+und sei
+\maabbdisp {g} { I } {\R_+
+} {}
+eine positive differenzierbare Funktion, die wir als eine
+\definitionsverweis {riemannsche Metrik}{}{}
+auf $I$ interpretieren. Bestimme die
+\definitionsverweis {horizontalen Schnitte}{}{}
+zu dem zugehörigen
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{}
+auf $I \times \R$
+\zusatzklammer {siehe
+[[Intervall/Riemannsche Struktur/Levi-Civita-Zusammenhang/Beispiel|Beispiel 26.4]]} {} {.}
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+derart, dass das
+\definitionsverweis {Tangentialbündel}{}{}
+$TM$ trivial ist, und sei auf $M$ über eine differenzierbare Trivialisierung
+
+\mavergleichskette
+{\vergleichskette
+{ TM
+}
+{ \cong }{ M \times \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {mithilfe des
+\definitionsverweis {Standardskalarproduktes}{}{}
+auf dem $\R^n$} {} {}
+eine
+\definitionsverweis {riemannsche Struktur}{}{}
+gegeben
+\zusatzklammer {siehe
+[[Mannigfaltigkeit/Tangentialbündel trivial/Riemannsche Struktur/Aufgabe|Aufgabe 16.2]]} {} {.}
+Zeige, dass der
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{}
+auf $M$ der
+\definitionsverweis {triviale Zusammenhang}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei ${\mathbb H}$ die
+\definitionsverweis {Halbebene von Poincaré}{}{}
+mit der zugehörigen
+\definitionsverweis {riemannschen Struktur}{}{}
+und dem zugehörigen
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{.}
+Bestimme die
+\definitionsverweis {vertikale Ableitung}{}{}
+\mathl{\nabla_{\partial_1 + \partial_2 } (G)}{} zum Vektorfeld
+
+\mavergleichskettedisp
+{\vergleichskette
+{ G(x,y)
+}
+{ =} { \left(  x^5-y^3+2xy  , \,   4 x^2+ y^3                   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es sei ein
+\definitionsverweis {linearer Zusammenhang}{}{}
+$\nabla$ auf dem
+\definitionsverweis {Tangentialbündel}{}{}
+$TX$ einer
+\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+$X$ gegeben. Es gebe
+\definitionsverweis {Basisschnitte}{}{}
+
+\mathl{V_1 , \ldots , V_n}{} mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{V_i } V_j -  \nabla_{V_j } V_i
+}
+{ =} { [V_i,V_j]
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle $i,j$. Zeige, dass $\nabla$
+\definitionsverweis {torsionsfrei}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Zeige, dass ein
+\definitionsverweis {linearer Zusammenhang}{}{}
+auf dem
+\definitionsverweis {Tangentialbündel}{}{}
+eines offenen Intervalls
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ \subseteq }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {torsionsfrei}{}{}
+ist.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+und sei darauf eine
+\definitionsverweis {riemannsche Struktur}{}{}
+durch die Funktionen $\left(  g_{ij}  \right)$ gegeben mit der
+\definitionsverweis {inversen Matrix}{}{}
+
+\mathl{\left(  g^{k l}  \right)}{.} Es sei $\nabla$ der durch die
+\definitionsverweis {Christoffelsymbole}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma_{ij}^k
+}
+{ =} { { \frac{   1  }{  2 } } \sum_{l = 1}^n g^{kl}(\partial_ig_{jl}+\partial_jg_{il}-\partial_lg_{ij})
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gegebene
+\definitionsverweis {lineare Zusammenhang}{}{,}
+der durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{\partial_i } \partial_j
+}
+{ =} { \sum_{k = 1}^n\Gamma_{ij}^k\,\partial_k
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gekennzeichnet ist. Zeige in zwei Schritten, dass $\nabla$ die Koszul-Formel aus
+[[Riemannsche Mannigfaltigkeit/Tangentialbündel/Linearer Zusammenhang/Metrisch und torsionsfrei/Koszul-Eigenschaft/Eindeutigkeit/Fakt|Lemma 26.10]]
+erfüllt.
+\aufzaehlungzwei {Für die Basisfelder $\partial_i$.
+} {Für beliebige Vektorfelder $V,W,Z$.
+}
+
+}
+{} {}
+
+\inputaufgabegibtloesung
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{}
+und sei $\nabla$ ein
+\definitionsverweis {linearer Zusammenhang}{}{}
+auf $TM$. Es sei vorausgesetzt, dass $\nabla$ lokal für Basisfelder $\partial_1  , \ldots , \partial_n$ die Eigenschaft
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial_i \left\langle  \partial_j  ,  \partial_k   \right\rangle
+}
+{ =} { \left\langle \nabla_{\partial_i } \partial_j   ,  \partial_k   \right\rangle  + \left\langle  \partial_j  ,  \nabla_{\partial_i } \partial_k    \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle $i,j,k$ erfüllt. Zeige, dass $\nabla$
+\definitionsverweis {metrisch}{}{}
+ist.
+
+}
+{} {}
+
+Das Konzept eines metrischen Zusammenhangs gibt es nicht nur auf dem Tangentialbündel einer riemannschen Mannigfaltigkeit, sondern allgemeiner auf einem riemannschen Vektorbündel.
+
+Es sei
+\maabb {p} { E } { M
+} {}
+ein
+\definitionsverweis {riemannsches Vektorbündel}{}{}
+über einer
+\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+$M$. Ein
+\definitionsverweis {linearer Zusammenhang}{}{}
+auf $E$ heißt
+\definitionswort {metrisch}{,}
+wenn auf jeder offenen Menge
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D_V \left\langle  s  , t  \right\rangle
+}
+{ =} { \left\langle \nabla_V s , t  \right\rangle  + \left\langle  s  ,  \nabla_Vt  \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für ein
+\definitionsverweis {stetig differenzierbares}{}{}
+\definitionsverweis {Vektorfeld}{}{}
+$V$ und stetig differenzierbare Schnitte $s,t$ in $E$ gilt.
+
+\inputaufgabe
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ \subseteq }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {offenes Intervall}{}{}
+und sei
+\maabbdisp {p} {E = I \times \R^n } { I
+} {}
+das triviale Vektorbündel über $I$, das wir mit dem
+\definitionsverweis {Standardskalarprodukt}{}{}
+als
+\definitionsverweis {riemannsches Vektorbündel}{}{}
+auffassen. Zeige, dass ein
+\definitionsverweis {linearer Zusammenhang}{}{}
+$\nabla$ auf $E$ genau dann
+\definitionsverweis {metrisch}{}{}
+ist, wenn die
+\definitionsverweis {Christoffelsymbole}{}{}
+die Bedingung
+\zusatzklammer {alles bezieht sich auf die einzige Ableitungsrichtung $\partial$} {} {}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma_j^k
+}
+{ =} { - \Gamma_k^j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für
+
+\mavergleichskette
+{\vergleichskette
+{ 1
+}
+{ \leq }{ j,k
+}
+{ \leq }{ n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+erfüllen.
+
+}
+{} {}
+
+\inputaufgabe
+{}
+{
+
+Es sei
+\maabb {p} { E } { M
+} {}
+ein
+\definitionsverweis {riemannsches Vektorbündel}{}{}
+auf einer
+\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+$M$ und sei $\nabla$ ein
+\definitionsverweis {linearer Zusammenhang}{}{}
+auf $E$. Es sei vorausgesetzt, dass $\nabla$ lokal für die
+\definitionsverweis {Standardvektorfelder}{}{}
+$\partial_1  , \ldots , \partial_n$ und
+\definitionsverweis {Basisschnitte}{}{}
+
+\mathl{s_1  , \ldots , s_r}{} von $E$ die Eigenschaft
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \partial_i \left\langle  s_j  , s_k   \right\rangle
+}
+{ =} { \left\langle \nabla_{\partial_i } s_j   ,  s_k   \right\rangle  + \left\langle s_j  ,  \nabla_{\partial_i } s_k    \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für alle $i,j,k$ erfüllt. Zeige, dass $\nabla$
+\definitionsverweis {metrisch}{}{}
+ist.
+
+}
+{} {}
+
+Für die folgende Aufgabe vergleiche
+[[Eingebettete Mannigfaltigkeit/Inverse Karte/Tangentialbündel/Partielle Ableitung/Aufgabe|Aufgabe 10.16]]
+
+\inputaufgabe
+{}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine
+\definitionsverweis {abgeschlossene Untermannigfaltigkeit}{}{}
+und
+\maabb {\varphi} { V } { U \subseteq Y
+} {}
+eine $C^2$-diffeomorphe Parametrisierung einer offenen Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+durch eine offene Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ \R^d
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei wir $\varphi$ auch als Abbildung nach $\R^n$ auffassen. Zeige, dass ein kommutatives Diagramm
+
+\mathdisp {\begin{matrix}  V  & \stackrel{ \partial_i }{\longrightarrow} &  TV & \stackrel{ T( \partial_j) }{\longrightarrow} & TTV & \\ \!\!\!\!\! \,\, \, \varphi \downarrow & & \!\!\!\!\! T(\varphi) \downarrow & &  \downarrow TT(\varphi) \!\!\!\!\! & & \\  U  & \stackrel{  }{\longrightarrow} &  TU & \stackrel{  }{\longrightarrow} & TTU & \!\!\!\!\!  \\ \end{matrix}} {  }
+
+vorliegt. Wie kann man die Abbildungen in den Diagonalen beschreiben?
+
+}
+{} {}
+
+  \zwischenueberschrift{Aufgaben zum Abgeben}
+
+\inputaufgabe
+{2}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ I
+}
+{ \subseteq }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein
+\definitionsverweis {reelles Intervall}{}{}
+und sei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g(t)
+}
+{ =} { 1+t^4
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+die wir als eine
+\definitionsverweis {riemannsche Metrik}{}{}
+auf $I$ interpretieren. Bestimme die
+\definitionsverweis {vertikale Ableitung}{}{}
+\zusatzklammer {zu dem zugehörigen
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{}} {} {}
+
+\mathl{\nabla_\partial \left(  3e^{-t^2} + t  \cos \left(  t  \right) - t^5  \right)}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{2}
+{
+
+Berechne $\Gamma^1_{12},  \Gamma^2_{12},  \Gamma^1_{22},  \Gamma^2_{22}$ in
+[[Halbebene/Poincaré/Riemannsche Geometrie/Beispiel|Beispiel 18.8]].
+
+}
+{} {}
+
+\inputaufgabe
+{3}
+{
+
+Es sei ${\mathbb H}$ die
+\definitionsverweis {Halbebene von Poincaré}{}{}
+mit der zugehörigen
+\definitionsverweis {riemannschen Struktur}{}{}
+und dem zugehörigen
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{.}
+Bestimme die
+\definitionsverweis {vertikale Ableitung}{}{}
+\mathl{\nabla_{xy\partial_1 -2y^3 \partial_2 } (G)}{} zum Vektorfeld
+
+\mavergleichskettedisp
+{\vergleichskette
+{ G(x,y)
+}
+{ =} { \left(  x^4-2y^2  , \,   3 x^3-  \ln  \left(  1+x^2y^2 \right)                   \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+{} {}
+
+\inputaufgabe
+{2}
+{
+
+Es sei $\nabla$ ein
+\definitionsverweis {torsionsfreier}{}{}
+\definitionsverweis {linearer Zusammenhang}{}{}
+auf einer offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Durch wie viele unabhängige
+\definitionsverweis {Christoffelsymbole}{}{}
+wird er
+\zusatzklammer {in Abhängigkeit von $n$} {} {}
+bestimmt?
+
+}
+{} {}
+
+ [[Kategorie:Latexseite]]

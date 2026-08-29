@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-29/lecture29.id.tex",
+  "input_bytes": 23828,
+  "input_sha256": "74e8a2befbded780466fc6d2ff0c913c2d3d387e019bb16daf0fa961c51c43b2",
+  "output": "build/generated/lecture29.id.build.tex",
+  "output_bytes": 21335,
+  "output_sha256": "7fb1dd51e2368886016cf698ded3e630581ba911b07f3ef7e7f23945a7ce6d2d",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 5,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Reelles Vektorbündel/Trivial/Linearer Zusammenhang/Krümmungsoperator/Beschreibung/Fakt",
+      "label": "Lemma 28.2"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Ableitung bezüglich Vektorfeld/Eigenschaften/Fakt",
+      "label": "Lemma 24.10"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorfelder/Lie-Klammer/Eigenschaften/Fakt",
+      "label": "Lemma 11.8"
+    },
+    {
+      "target": "Reelles Vektorbündel/Linearer Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt",
+      "label": "Lemma 28.4"
+    },
+    {
+      "target": "Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt",
+      "label": "Lemma 25.10"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Leibnizregel/Fakt",
+      "label": "Teorema 25.5"
+    },
+    {
+      "target": "Differenzierbarkeit/Satz von Schwarz/Fakt",
+      "label": "Teorema Schwarz"
+    },
+    {
+      "target": "Mannigfaltigkeit/Vektorfelder/Lie-Klammer/Eigenschaften/Fakt",
+      "label": "Lemma 11.8"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Eigenschaften/Fakt",
+      "label": "Teorema 26.14"
+    },
+    {
+      "target": "Vektorfelder/Lie-Klammer/Jacobi-Identität/Fakt",
+      "label": "identitas Jacobi"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Eigenschaften/Fakt",
+      "label": "Teorema 26.14 (2)"
+    },
+    {
+      "target": "Differenzierbarkeit/Satz von Schwarz/Fakt",
+      "label": "Teorema Schwarz"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt",
+      "label": "Lemma 29.2 (2)"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt",
+      "label": "Lemma 29.2"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt",
+      "label": "Lemma 29.2 (4)"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt",
+      "label": "Lemma 29.2 (5,6)"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Schnittkrümmung/Tangentiale Ebene/Fakt",
+      "label": "Lemma 29.4"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Schnittkrümmung/Tangentiale Ebene/Fakt",
+      "label": "Lemma 29.4"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt",
+      "label": "Lemma 29.2 (5)"
+    },
+    {
+      "target": "R^n/Offene Menge/Riemannsche Metrik/Levi-Civita-Zusammenhang/Krümmungsoperator/Berechnung/Fakt",
+      "label": "Lemma 29.1"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt",
+      "label": "Lemma 29.2 (4)"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Zweidimensional/Levi-Civita-Zusammenhang/Schnittkrümmung/Berechnung/Fakt",
+      "label": "Lemma 29.6"
+    },
+    {
+      "target": "Hyperfläche/Raum/Parametrisierung/Gaußkrümmung/Christoffelsymbole/Fakt",
+      "label": "Teorema 19.7"
+    },
+    {
+      "target": "Kugeloberfläche/Gaußkrümmung/Beispiel",
+      "label": "Contoh 5.6"
+    },
+    {
+      "target": "Fläche im Raum/Schnittkrümmung/Gaußkrümmung/Fakt",
+      "label": "Lemma 29.7"
+    },
+    {
+      "target": "Halbebene/Poincaré/Riemannsche Geometrie/Beispiel",
+      "label": "Contoh 18.8"
+    },
+    {
+      "target": "Halbebene/Poincaré/Riemannsche Geometrie/Christoffelsymbole/Beispiel",
+      "label": "Contoh 26.7"
+    },
+    {
+      "target": "R^n/Offene Menge/Riemannsche Metrik/Levi-Civita-Zusammenhang/Krümmungsoperator/Berechnung/Fakt",
+      "label": "Lemma 29.1"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Zweidimensional/Levi-Civita-Zusammenhang/Schnittkrümmung/Berechnung/Fakt",
+      "label": "Lemma 29.6"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

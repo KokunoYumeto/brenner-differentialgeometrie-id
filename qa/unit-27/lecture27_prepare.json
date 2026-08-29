@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-27/lecture27.id.tex",
+  "input_bytes": 25369,
+  "input_sha256": "37623a58c537cf9e13e00b189eda77d880adb43bc09e60662691bb2d58bd60d2",
+  "output": "build/generated/lecture27.id.build.tex",
+  "output_bytes": 23511,
+  "output_sha256": "d588da1bbbb99340fc43e9f2cb02fbb6fa297b7b7c170de32162667bbd085967",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 6,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt",
+      "label": "Lema 25.10"
+    },
+    {
+      "target": "Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt",
+      "label": "Lema 25.10"
+    },
+    {
+      "target": "Mannigfaltigkeit/Riemannsches Vektorbündel/Rückzug/Aufgabe",
+      "label": "Soal 16.13"
+    },
+    {
+      "target": "Linearer Zusammenhang/Vertikale Ableitung/Längs Abbildung/Eigenschaften/Fakt",
+      "label": "Lema 27.1"
+    },
+    {
+      "target": "Mannigfaltigkeit/Riemannsches Vektorbündel/Linearer Zusammenhang/Metrisch auf Basisfeldern/Metrisch/Aufgabe",
+      "label": "Soal 26.10"
+    },
+    {
+      "target": "Hyperfläche/Differenzierbare Kurve/Zweite tangentiale Ableitung/Definition",
+      "label": "Definisi 1.7"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Kurve/Tangentiale Beschleunigung/Definition",
+      "label": "Definisi 27.3"
+    },
+    {
+      "target": "R^3/Riemannsche orientierte Fläche/Levi-Civita-Zusammenhang und induzierter Zusammenhang/Fakt",
+      "label": "Lema 26.15"
+    },
+    {
+      "target": "Hyperfläche/Differenzierbare Kurve/Geodätische/Direkt/Definition",
+      "label": "Definisi 1.8"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Geodätische/Definition",
+      "label": "Definisi 27.5"
+    },
+    {
+      "target": "Hyperfläche/Zweite Ableitung einer Kurve/Direkt und über Zusammenhang/Fakt",
+      "label": "Lema 27.4"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Eigenschaften/Fakt",
+      "label": "Teorema 26.14  (2)"
+    },
+    {
+      "target": "Linearer Zusammenhang/Vertikale Ableitung/Längs Abbildung/Metrisch/Fakt",
+      "label": "Lema 27.2"
+    },
+    {
+      "target": "Offene Menge/Triviales Vektorbündel/Linearer Zusammenhang/Spaltung/Christoffelsymbole/Bemerkung",
+      "label": "Catatan 25.8"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Geodätische/Differentialgleichung/Fakt",
+      "label": "Teorema 27.8"
+    },
+    {
+      "target": "Halbebene/Poincaré/Riemannsche Geometrie/Christoffelsymbole/Beispiel",
+      "label": "Contoh 26.7"
+    },
+    {
+      "target": "Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Geodätische/Differentialgleichung/Fakt",
+      "label": "Teorema 27.8"
+    },
+    {
+      "target": "Halbebene/Poincaré/Riemannsche Geometrie/Geodätische/Halbkreislösungen/Aufgabe",
+      "label": "Soal 27.13"
+    },
+    {
+      "target": "Hyperbelfunktion/R/Elementare Eigenschaften/Fakt",
+      "label": "Soal 20.50 (Analysis (Osnabrück 2021-2023))  (3)"
+    },
+    {
+      "target": "Halbebene/Poincaré/Riemannsche Geometrie/Christoffelsymbole/Geodätische/Beispiel",
+      "label": "Contoh 27.10"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

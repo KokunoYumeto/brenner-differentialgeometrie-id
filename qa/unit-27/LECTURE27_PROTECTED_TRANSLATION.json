@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-27/lecture27.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-U27-TRANS-0001",
+      "anchor": "Definition of the Riemannian distance",
+      "change": "Translate the reader-facing German prose inside the protected comparison-chain formula into Indonesian without changing the distance formula or its mathematical tokens."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-U27-TRANS-0001",
+      "surface": "protected:vergleichskette",
+      "index": 37,
+      "source_sha256": "4e3a61b1843b18fdbb06adc1652075f1b3e6f963149d03f0ccdb62eac5d84681",
+      "target_sha256": "baedcca91a6144cc92f1da601e78e41a1ad664199e95a037c113c88f30086e1b"
+    }
+  ],
+  "evidence_only_deltas": []
+}

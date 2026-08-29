@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "allowed_deltas": [],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "EX10-MATHKOR-0001",
+      "surface": "command:mathkor",
+      "occurrence_index": 0,
+      "source_latex": "\\mathkor{}{L}{und}{M}{.}",
+      "source_sha256": "e47bee8faef7ab5268f912389806c74a4a6a1eba274ad87d1fa7b42a1deaea0e",
+      "target_latex": "\\mathkor{}{L}{dan}{M}{.}",
+      "target_sha256": "e723ad8a80d4ca188b36b7a2f2f18a5354afc5ba75fd4c7b7d8ff81bbb913597"
+    },
+    {
+      "correction_id": "EX10-MATHKOR-0002",
+      "surface": "command:mathkor",
+      "occurrence_index": 1,
+      "source_latex": "\\mathkor{}{U\\subseteq\\R^n}{und}{V\\subseteq\\R^m}{,}",
+      "source_sha256": "751d735253e66382f3ac5f13a166941a6676cf21dc141cc1b6101b2eff70b035",
+      "target_latex": "\\mathkor{}{U\\subseteq\\R^n}{dan}{V\\subseteq\\R^m}{,}",
+      "target_sha256": "241af9269bd29bc731f092ae1b73929a43972c690b4ebb5813298a7d6d82928a"
+    }
+  ]
+}

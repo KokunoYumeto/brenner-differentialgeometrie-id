@@ -1,0 +1,1106 @@
+\setcounter{section}{29}
+
+  \zwischenueberschrift{Kelengkungan pada manifold Riemann}
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold Riemann}{}{}
+dan
+\definitionsverweis {bundel tangen}{}{}
+$TM$ dilengkapi dengan
+\definitionsverweis {koneksi Levi--Civita}{}{.}
+Kita hendak memahami
+\definitionsverweis {operator kelengkungan}{}{}
+$R$ dalam situasi ini secara lebih mendalam. Untuk medan-medan vektor $V,W$ yang diberikan, operator ini merupakan suatu pemetaan
+\maabbdisp {R(V,W)} { C^2(M,TM) } { C^0(M,TM)
+} {,}
+yakni, ketika diterapkan pada suatu medan vektor $Z$
+\zusatzklammer {yang dua kali terdiferensialkan} {} {,}
+operator ini menghasilkan medan vektor
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R(V,W)(Z)
+}
+{ =} { \nabla_V \nabla_W Z
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dengan sudut pandang ini, pada suatu manifold yang terdiferensialkan tak hingga, keseluruhan konstruksi merupakan pemetaan
+\maabbdisp {} {C^\infty(TM) \times C^\infty(TM) \times C^\infty(TM)  } { C^\infty(TM)
+} {,}
+tetapi ketiga argumennya tidak mempunyai kedudukan yang setara.
+
+
+
+\inputfaktbeweis
+{R^n/Offene Menge/Riemannsche Metrik/Levi-Civita-Zusammenhang/Krümmungsoperator/Berechnung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{}
+dan dilengkapi dengan suatu
+\definitionsverweis {metrik Riemann}{}{}
+$g_{ij}$. Misalkan $\nabla$ adalah
+\definitionsverweis {koneksi Levi--Civita}{}{}
+pada
+\definitionsverweis {bundel tangen}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ = }{ U \times \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Maka untuk
+\definitionsverweis {operator kelengkungan}{}{}
+berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R( \partial_i , \partial_j)( \partial_k)
+}
+{ =} { \sum_{\ell = 1}^n  R^\ell_{ijk} \partial_\ell
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R^\ell_{ijk}
+}
+{ =} { {\partial_i } \Gamma^\ell_{jk} - {\partial_j } \Gamma^\ell_{ik}  +  \sum_{ a  = 1}^n  \Gamma^a_{jk} \Gamma_{i a}^\ell -\sum_{ a  = 1}^n   \Gamma^a_{ik}  \Gamma_{j a}^\ell
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+di mana
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma_{ij}^\ell
+}
+{ =} { { \frac{   1  }{  2 } } \sum_{\mu = 1}^n g^{\ell  \mu }(\partial_ig_{j\mu }+\partial_jg_{i\mu }-\partial_\mu g_{ij})
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+menyatakan
+\definitionsverweis {simbol-simbol Christoffel}{}{}
+dari koneksi tersebut.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Ini merupakan kasus khusus dari
+Lemma 28.2.
+
+}
+
+
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold Riemann}{}{}
+dan
+\definitionsverweis {bundel tangen}{}{}
+dilengkapi dengan
+\definitionsverweis {koneksi Levi--Civita}{}{.}}
+\faktuebergang {Maka
+\definitionsverweis {operator kelengkungan}{}{}
+mempunyai sifat-sifat berikut.}
+\faktfolgerung {\aufzaehlungsechs{Ekspresi
+\mathl{R(V,W)Z}{} linear dalam ketiga komponennya.
+}{Untuk
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nilai
+\mathl{(R(V,W)Z) (P)}{} hanya bergantung pada
+\mathl{V(P),W(P),Z(P)}{}.
+}{Berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R(V,W)
+}
+{ =} { -R(W,V)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+}{Berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R(V,W)Z+ R(W,Z)V+R(Z,V)W
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle R(V,W) T  ,  Z   \right\rangle
+}
+{ =} { - \left\langle R(V,W) Z  ,  T   \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle R(V,W) T  ,  Z   \right\rangle
+}
+{ =} { \left\langle R(T,Z) V  ,  W   \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\aufzaehlungsechs{Linearitas dalam $Z$ berasal dari linearitas koneksi. Linearitas dalam $V$ dan $W$ mengikuti dari
+Lemma 24.10
+dan
+Lemma 11.8.
+}{Untuk ketergantungan terhadap $V$ dan $W$, pernyataan tersebut mengikuti dari
+Lemma 28.4.
+Untuk menunjukkan bahwa ketergantungan terhadap $Z$ juga hanya bergantung pada $Z(P)$, kita dapat bekerja dalam situasi lokal pada
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan mengambil
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ = }{ \partial_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ = }{ \partial_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ Z
+}
+{ = }{ h \partial_k
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan suatu fungsi
+\maabb {h} { U } {\R
+} {}
+yang dua kali terdiferensialkan secara kontinu. Menurut
+Lemma 25.10,
+Teorema 25.5,
+dan
+Teorema Schwarz,
+kita memperoleh
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ R \left(  \partial_i, \partial_j  \right) \left(  h \partial_k  \right)
+}
+{ =} { \nabla_{\partial_i }  \left(  \nabla_{\partial_j }  \left(  h \partial_k  \right)  \right) - \nabla_{\partial_j } \left(  \nabla_{\partial_i }  \left(  h \partial_k  \right)  \right)
+}
+{ =} { \nabla_{\partial_i }  \left(  h \nabla_{\partial_j } \partial_k+ \left(  \partial_j h  \right)  \partial_k  \right) - \nabla_{\partial_j } \left( h \nabla_{\partial_i }  \partial_k  + \left(  \partial_i h  \right) \partial_k  \right)
+}
+{ =} { h \nabla_{\partial_i } \left(  \nabla_{\partial_j }  \partial_k   \right) +  \left(  \partial_i h  \right) \nabla_{\partial_j } \partial_k + \left(  \partial_j h  \right) \nabla_{\partial_i } \partial_k  +  \left(  \partial_i \partial_j h  \right) \partial_k
+-h \nabla_{\partial_j } \left(  \nabla_{\partial_i } \partial_k   \right) -  \left(  \partial_j h  \right) \nabla_{\partial_i } \partial_k - \left(  \partial_i h  \right) \nabla_{\partial_j } \partial_k  -\left(  \partial_j  \partial_i h  \right) \partial_k
+}
+{ =} { h \nabla_{\partial_i } \left(  \nabla_{\partial_j }  \partial_k   \right)-h \nabla_{\partial_j } \left(  \nabla_{\partial_i } \partial_k   \right)
+}
+}
+{}{}{,}
+yang menunjukkan bahwa ekspresi ini hanya bergantung pada $h(P)$.
+}{Hal ini langsung terlihat dari definisi dan
+Lemma 11.8.
+}{Karena
+\definitionsverweis {koneksi bebas torsi}{}{}
+\zusatzklammer {lihat
+Teorema 26.14} {} {}
+dan
+identitas Jacobi,
+berlaku
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ R(V,W)Z+ R(W,Z)V+R(Z,V)W
+}
+{ =} { \nabla_V  \left(  \nabla_W Z  \right) -\nabla_W  \left(  \nabla_V Z  \right) - \nabla_{[V,W]} Z +\nabla_W  \left(  \nabla_Z V  \right) -\nabla_Z  \left(  \nabla_W V  \right) - \nabla_{[W,Z]} V+\nabla_Z  \left(  \nabla_V W  \right) -\nabla_V  \left(  \nabla_Z W  \right) - \nabla_{[Z,V]} W
+}
+{ =} { \nabla_V  \left(  [W,Z ]  \right) + \nabla_W  \left(  [Z, V]  \right) + \nabla_Z  \left(  [V, W]  \right) - \nabla_{[V,W]} Z - \nabla_{[W,Z]} V  - \nabla_{[Z,V]} W
+}
+{ =} {\nabla_V  \left(  [W,Z ]  \right)  - \nabla_{[W,Z]} V + \nabla_W  \left(  [Z, V]  \right) - \nabla_{[Z,V]} W + \nabla_Z  \left(  [V, W]  \right) - \nabla_{[V,W]} Z
+}
+{ =} { [V, [W,Z]] + [W, [Z,V]] + [Z, [V,W]]
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { 0
+}
+{ } {}
+{ } {}
+{ } {}
+}{}{.}
+}{Kita dapat membatasi diri pada medan-medan vektor $V,W$ dengan
+
+\mavergleichskette
+{\vergleichskette
+{ [V,W]
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Menurut
+Teorema 26.14 (2)
+dan
+Teorema Schwarz,
+kita kemudian memperoleh
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \left\langle R(V,W)T , Z  \right\rangle
+}
+{ =} { \left\langle  \nabla_V \nabla_WT -\nabla_W \nabla_VT   ,  Z  \right\rangle
+}
+{ =} { \left\langle  \nabla_V \nabla_WT , Z  \right\rangle - \left\langle  \nabla_W \nabla_VT  ,  Z  \right\rangle
+}
+{ =} { - \left\langle  \nabla_WT , \nabla_V Z  \right\rangle + D_V\left\langle  \nabla_W T  ,  Z  \right\rangle + \left\langle  \nabla_VT  , \nabla_W  Z  \right\rangle -  D_W \left\langle  \nabla_V T  ,  Z  \right\rangle
+}
+{ =} { \left\langle  T ,  \nabla_W  \nabla_V Z  \right\rangle - D_W \left\langle  T ,  \nabla_VZ   \right\rangle  + D_V \left(  - \left\langle  T  ,  \nabla_WZ  \right\rangle +  D_W \left\langle T  ,  Z   \right\rangle  \right)  - \left\langle  T  ,  \nabla_V \nabla_W  Z  \right\rangle +  D_V \left\langle  T  ,  \nabla_W Z  \right\rangle - D_W  \left(  - \left\langle T  ,  \nabla_V Z   \right\rangle + D_V \left\langle T  ,  Z   \right\rangle  \right)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \left\langle  T ,  \nabla_W  \nabla_V  Z  \right\rangle - \left\langle  T  ,  \nabla_V \nabla_W  Z  \right\rangle
+}
+{ =} { - \left\langle R(V,W)Z , T  \right\rangle
+}
+{ } {}
+{ } {}
+}{}{.}
+}{Dengan menggunakan (3), (4), dan (5), diperoleh
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \left\langle R(V,W)T , Z  \right\rangle
+}
+{ =} { - \left\langle R(T,V)W , Z  \right\rangle - \left\langle R(W,T)V , Z  \right\rangle
+}
+{ =} { \left\langle R(T,V) Z , W  \right\rangle + \left\langle R(W,T) Z ,  V  \right\rangle
+}
+{ =} { - \left\langle R(V,Z) T , W  \right\rangle - \left\langle R(Z,T) V  ,  W  \right\rangle - \left\langle R(T,Z) W ,  V  \right\rangle - \left\langle R(Z,W) T ,  V  \right\rangle
+}
+{ =} { 2 \left\langle R(T,Z) V  ,  W  \right\rangle - \left\langle R(V,Z) T , W  \right\rangle - \left\langle R(Z,W) T ,  V  \right\rangle
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { 2 \left\langle R(T,Z) V  ,  W  \right\rangle + \left\langle R(V,Z) W , T  \right\rangle + \left\langle R(Z,W) V  ,  T  \right\rangle
+}
+{ =} { 2 \left\langle R(T,Z) V  ,  W  \right\rangle - \left\langle R(W,V) Z , T  \right\rangle
+}
+{ =} { 2 \left\langle R(T,Z) V  ,  W  \right\rangle - \left\langle R(V,W) T , Z  \right\rangle
+}
+{ } {}
+}{}{.}
+Ini membuktikan pernyataan tersebut.
+}
+
+}
+
+Berdasarkan
+Lemma 29.2 (2),
+untuk vektor-vektor
+
+\mavergleichskette
+{\vergleichskette
+{ v,w,z
+}
+{ \in }{ T_PM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+di suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdefinisi dengan baik suatu vektor
+
+\mavergleichskette
+{\vergleichskette
+{ R(v,w)(z)
+}
+{ \in }{ T_PM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+sebab vektor-vektor tersebut dapat direalisasikan oleh medan-medan vektor terdiferensialkan
+\mathl{V,W,Z}{} dengan
+
+\mavergleichskette
+{\vergleichskette
+{ V(P)
+}
+{ = }{ v
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan seterusnya
+\zusatzklammer {secara lokal} {} {}
+dan kemudian $R(V,W)(Z)$ dapat dievaluasi di titik tersebut.
+
+  \zwischenueberschrift{Kelengkungan seksional}
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ suatu
+\definitionsverweis {manifold Riemann}{}{,}
+yang dilengkapi dengan
+\definitionsverweis {koneksi Levi--Civita}{}{}
+pada
+\definitionsverweis {bundel tangen}{}{}
+$TM$ dan
+\definitionsverweis {operator kelengkungan}{}{}
+terkait $R$. Untuk vektor-vektor
+\definitionsverweis {bebas linear}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ v,w
+}
+{ \in }{ T_PM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+di atas suatu titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+bilangan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ K(v,w)
+}
+{ =} { { \frac{   \left\langle R(v,w)w , v  \right\rangle  }{  \left\langle  v  , v  \right\rangle  \left\langle  w  , w  \right\rangle  -\left\langle  v  , w  \right\rangle^2   } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+disebut
+\definitionswort {kelengkungan seksional}{}
+untuk $v,w$ di $P$.
+
+}
+
+Kelengkungan seksional ini terdefinisi dengan baik karena, dalam kasus kebebasan linear, penyebutnya tidak sama dengan $0$.
+
+
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Schnittkrümmung/Tangentiale Ebene/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan $M$ suatu
+\definitionsverweis {manifold Riemann}{}{,}
+yang dilengkapi dengan
+\definitionsverweis {koneksi Levi--Civita}{}{}
+pada
+\definitionsverweis {bundel tangen}{}{}
+$TM$ dan
+\definitionsverweis {operator kelengkungan}{}{}
+terkait $R$.}
+\faktfolgerung {Maka
+\definitionsverweis {kelengkungan seksional}{}{}
+untuk dua vektor bebas linear
+
+\mavergleichskette
+{\vergleichskette
+{ v,w
+}
+{ \in }{ T_PM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+hanya bergantung pada bidang yang direntang oleh vektor-vektor tersebut,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \R v + \R w
+}
+{ \subseteq} { T_PM
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Kita meninjau ekspresi pendefinisi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ K(v,w)
+}
+{ =} { { \frac{   \left\langle R(v,w)w , v  \right\rangle  }{  \left\langle  v  , v  \right\rangle \left\langle  w  , w  \right\rangle  - \left\langle  v  , w  \right\rangle^2   } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+untuk kelengkungan seksional. Menurut
+Lemma 29.2,
+ekspresi
+\mathl{R(v,w)z}{} linear dalam semua komponennya. Jika $v$ atau $w$ dikalikan dengan suatu skalar
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+faktor $a^2$ dapat dikeluarkan baik dari pembilang maupun penyebut. Selanjutnya,
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left\langle  R(v+w,w) w  , v +w   \right\rangle
+}
+{ =} { \left\langle  R(v,w)w +R(w,w)w  , v+w   \right\rangle
+}
+{ =} { \left\langle  R(v,w)w   , v   \right\rangle  +  \left\langle  R(w,w)w  ,  v   \right\rangle + \left\langle  R(v,w)w  ,  w   \right\rangle  +  \left\langle  R(w,w)w   , w   \right\rangle
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+Menurut
+Lemma 29.2 (4),
+\mathkor {} {\left\langle  R(w,w)w  ,  v   \right\rangle} {dan} {\left\langle  R(w,w)w   , w   \right\rangle} {}
+sama dengan $0$, dan menurut
+Lemma 29.2 (5,6),
+juga berlaku
+
+\mavergleichskette
+{\vergleichskette
+{ \left\langle  R(v,w)w  ,  w   \right\rangle
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Jadi pembilang kelengkungan seksional tidak berubah ketika $v$ diganti dengan $v+w$. Karena
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \left\langle v+w , v+w  \right\rangle \left\langle  w  , w  \right\rangle -\left\langle v+w , w  \right\rangle^2
+}
+{ =} { \left\langle  v  , v  \right\rangle  \left\langle  w  , w  \right\rangle+\left\langle  w  , w  \right\rangle \left\langle  w  , w  \right\rangle +2\left\langle  v  , w  \right\rangle \left\langle  w  , w  \right\rangle -\left\langle v  , w  \right\rangle^2-\left\langle w  , w  \right\rangle^2 -2 \left\langle v  , w  \right\rangle \left\langle w  , w  \right\rangle
+}
+{ =} { \left\langle  v  , v  \right\rangle \left\langle  w  , w  \right\rangle -\left\langle v  , w  \right\rangle^2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+penyebutnya juga tidak berubah.
+
+}
+
+\inputbemerkung
+{}
+{
+
+Pada suatu manifold Riemann berdimensi dua, satu-satunya subruang vektor berdimensi dua dalam setiap ruang tangen adalah ruang tangen itu sendiri. Ini berarti bahwa, dalam kasus berdimensi dua, menurut
+Lemma 29.4,
+argumen-argumen dalam
+\definitionsverweis {kelengkungan seksional}{}{}
+tidak diperlukan. Karena itu, dalam situasi ini kita memandang kelengkungan seksional sebagai suatu fungsi bernilai riil pada manifold tersebut.
+
+}
+
+
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Zweidimensional/Levi-Civita-Zusammenhang/Schnittkrümmung/Berechnung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Untuk suatu
+\definitionsverweis {manifold Riemann}{}{}
+berdimensi dua}
+\faktfolgerung {
+\definitionsverweis {kelengkungan seksional}{}{}
+pada setiap peta sama dengan
+\mathl{-  { \frac{   R^2_{121} }{ g_{11}  } }}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Kita dapat langsung meninjau situasi pada suatu peta. Menurut
+Lemma 29.4,
+dalam kasus berdimensi dua kelengkungan seksional dapat dihitung menggunakan basis sembarang; kita memilih
+\mathkor {} {\partial_1} {dan} {\partial_2} {.}
+Dengan menggunakan
+Lemma 29.2 (5),
+untuk kelengkungan seksional diperoleh
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ K( \partial_1, \partial_2)
+}
+{ =} { { \frac{   \left\langle R(\partial_1 ,\partial_2)\partial_2  ,  \partial_1   \right\rangle  }{  \left\langle  \partial_1  ,  \partial_1   \right\rangle  \left\langle  \partial_2  ,  \partial_2   \right\rangle  -\left\langle  \partial_1  ,  \partial_2   \right\rangle^2   } }
+}
+{ =} { { \frac{   \left\langle R(\partial_1 ,\partial_2)\partial_2  ,  \partial_1   \right\rangle  }{  g_{11} g_{22}  -g_{12}^2   } }
+}
+{ =} { -  { \frac{   \left\langle R(\partial_1 ,\partial_2)\partial_1  ,  \partial_2   \right\rangle  }{  g_{11} g_{22}  -g_{12}^2   } }
+}
+{ } {
+}
+}
+{}
+{}{}
+Menurut
+Lemma 29.1,
+berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R( \partial_1 , \partial_2)( \partial_1)
+}
+{ =} { R^1_{121} \partial_1+ R^2_{121} \partial_2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Hal ini memberikan
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ K( \partial_1, \partial_2)
+}
+{ =} { - { \frac{   \left\langle R(\partial_1 ,\partial_2)\partial_1  ,  \partial_2   \right\rangle  }{  g_{11} g_{22}  -g_{12}^2   } }
+}
+{ =} { - { \frac{   R^1_{121} g_{12}+ R^2_{121} g_{22}  }{  g_{11} g_{22}  -g_{12}^2   } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+Menurut
+Lemma 29.2 (4),
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  R(\partial_1, \partial_1) \partial_1  ,  \partial_2   \right\rangle
+}
+{ =} { R^1_{121}  g_{11}  + R_{121}^2 g_{12}
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Kita mengalikan pembilang kelengkungan seksional dengan $g_{11}$ dan memperoleh
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ g_{11}  \left(  R^1_{121} g_{12}+ R^2_{121} g_{22}  \right)
+}
+{ =} { g_{11}  \left(  R^1_{121} g_{12}+ R^2_{121} g_{22}  \right) - g_{12}  \left(  R^1_{121}  g_{11}  + R_{121}^2 g_{12}   \right)
+}
+{ =} { g_{11} g_{22} R^2_{121} - g_{12}^2 R^2_{121}
+}
+{ =} { \left(  g_{11} g_{22}  - g_{12}^2  \right) R^2_{121}
+}
+{ } {
+}
+}
+{}
+{}{.}
+Jadi,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ K( \partial_1, \partial_2)
+}
+{ =} { -  { \frac{   R^2_{121} }{ g_{11}  } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+
+
+\inputfaktbeweis
+{Fläche im Raum/Schnittkrümmung/Gaußkrümmung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {terbuka}{}{}
+dan misalkan
+\maabb {h} { W } { \R
+} {}
+suatu
+\definitionsverweis {fungsi yang dua kali terdiferensialkan secara kontinu}{}{}
+serta
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+serat di atas
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+dan andaikan $h$
+\definitionsverweis {reguler}{}{}
+di setiap titik $Y$.}
+\faktfolgerung {Maka
+\definitionsverweis {kelengkungan Gauss}{}{}
+dari $Y$ sama dengan
+\definitionsverweis {kelengkungan seksional}{}{}
+dari $Y$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Menurut
+Lemma 29.6,
+kelengkungan seksional pada suatu peta sama dengan
+\mathl{- { \frac{  R^2_{121}  }{ g_{11}  } }}{.} Karena
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ R^2_{121}
+}
+{ =} { {\partial_1 } \Gamma^2_{12} - {\partial_2 } \Gamma^2_{11} +  \Gamma^1_{12} \Gamma_{1 1}^2 + \Gamma^2_{12} \Gamma_{1 2}^2 - \Gamma^1_{11}  \Gamma_{12 }^2  - \Gamma^2_{11} \Gamma_{2 2}^2
+}
+{ =} { -g_{11} K
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+maka
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ K
+}
+{ =} { { \frac{   1  }{ g_{11}  } }  \left(  \partial_2 \Gamma_{11}^2 - \partial_1 \Gamma_{12}^2 + \Gamma^1_{11} \Gamma^2_{12}  + \Gamma_{11}^2 \Gamma_{22}^2 - \Gamma_{12}^1 \Gamma_{11}^2-  \left(  \Gamma_{12}^2  \right)^2  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+yang berimpit dengan kelengkungan Gauss menurut
+Teorema 19.7.
+
+}
+
+\inputbeispiel{}
+{
+
+Untuk
+\definitionsverweis {bidang Euklides}{}{}
+$\R^2$ dengan
+\definitionsverweis {hasil kali skalar standar}{}{,}
+\definitionsverweis {kelengkungan seksional}{}{}
+konstan sama dengan $0$.
+
+}
+
+\inputbeispiel{}
+{
+
+Untuk
+\definitionsverweis {bola satuan}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ S^2
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan
+\definitionsverweis {struktur Riemann}{}{}
+terinduksi,
+\definitionsverweis {kelengkungan seksional}{}{}
+konstan sama dengan $1$. Hal ini mengikuti dari
+Contoh 5.6
+bersama dengan
+Lemma 29.7.
+
+}
+
+\inputbeispiel{}
+{
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Parallel lines in Poincare's model of hyperbolic geometry} {svg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Parallel lines in Poincare's model of hyperbolic geometry.svg } {} {Januszkaja} {Commons} {CC-by-sa 3.0} {}
+
+Kita melanjutkan
+Contoh 18.8
+dan
+Contoh 26.7.
+Menurut
+Lemma 29.1,
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ R^2_{121}
+}
+{ =} { {\partial_1 } \Gamma^2_{12} - {\partial_2 } \Gamma^2_{11} + \Gamma^1_{12} \Gamma_{1 1}^2 + \Gamma^2_{12} \Gamma_{1 2}^2 - \Gamma^1_{11} \Gamma_{12 }^2 - \Gamma^2_{11} \Gamma_{2 2}^2
+}
+{ =} { { \frac{   1  }{  y^2 } } - { \frac{   1  }{  y^2 } }+  { \frac{   1  }{  y^2 } }
+}
+{ =} { { \frac{   1  }{  y^2 } }
+}
+{ } {
+}
+}
+{}{}{.}
+Menurut
+Lemma 29.6,
+untuk
+\definitionsverweis {kelengkungan seksional}{}{}
+berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ K
+}
+{ =} { - { \frac{   R^2_{121} }{ g_{11 } }}
+}
+{ =} { - { \frac{   { \frac{   1  }{  y^2 } }  }{  { \frac{   1  }{  y^2 } }  } }
+}
+{ =} { -1
+}
+{ } {
+}
+}
+{}{}{,}
+jadi kita memperoleh kelengkungan seksional konstan $-1$.
+
+}

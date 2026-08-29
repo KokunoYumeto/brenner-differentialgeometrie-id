@@ -1,0 +1,1110 @@
+\setcounter{section}{29}
+
+  \zwischenueberschrift{Die Krümmung auf einer riemannschen Mannigfaltigkeit}
+
+Es sei $M$ eine
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{}
+und das
+\definitionsverweis {Tangentialbündel}{}{}
+$TM$ sei mit dem
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{}
+versehen. Wir wollen den
+\definitionsverweis {Krümmungsoperator}{}{}
+$R$ in dieser Situation genauer verstehen. Er ist bei gegebenen Vektorfeldern $V,W$ eine Abbildung
+\maabbdisp {R(V,W)} { C^2(M,TM) } { C^0(M,TM)
+} {,}
+d.h. er ergibt angewendet auf ein
+\zusatzklammer {zweifach differenzierbares} {} {}
+Vektorfeld $Z$ das Vektorfeld
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R(V,W)(Z)
+}
+{ =} { \nabla_V \nabla_W Z
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+So gesehen handelt es sich insgesamt bei einer unendlich oft differenzierbaren Mannigfaltigkeit um  eine Abbildung
+\maabbdisp {} {C^\infty(TM) \times C^\infty(TM) \times C^\infty(TM)  } { C^\infty(TM)
+} {,}
+wobei aber die Argumente nicht gleichberechtigt sind.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{R^n/Offene Menge/Riemannsche Metrik/Levi-Civita-Zusammenhang/Krümmungsoperator/Berechnung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+versehen mit einer
+\definitionsverweis {riemannschen Metrik}{}{}
+$g_{ij}$. Es sei $\nabla$ der
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{}
+auf dem
+\definitionsverweis {Tangentialbündel}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ = }{ U \times \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}
+\faktfolgerung {Dann gilt für den
+\definitionsverweis {Krümmungsoperator}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R( \partial_i , \partial_j)( \partial_k)
+}
+{ =} { \sum_{\ell = 1}^n  R^\ell_{ijk} \partial_\ell
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R^\ell_{ijk}
+}
+{ =} { {\partial_i } \Gamma^\ell_{jk} - {\partial_j } \Gamma^\ell_{ik}  +  \sum_{ a  = 1}^n  \Gamma^a_{jk} \Gamma_{i a}^\ell -\sum_{ a  = 1}^n   \Gamma^a_{ik}  \Gamma_{j a}^\ell
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei die
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Gamma_{ij}^\ell
+}
+{ =} { { \frac{   1  }{  2 } } \sum_{\mu = 1}^n g^{\ell  \mu }(\partial_ig_{j\mu }+\partial_jg_{i\mu }-\partial_\mu g_{ij})
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+die
+\definitionsverweis {Christoffelsymbole}{}{}
+des Zusammenhangs bezeichnen.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Dies ist ein Spezialfall von
+[[Reelles Vektorbündel/Trivial/Linearer Zusammenhang/Krümmungsoperator/Beschreibung/Fakt|Lemma 28.2]].
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{}
+und das
+\definitionsverweis {Tangentialbündel}{}{}
+sei mit dem
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{}
+versehen.}
+\faktuebergang {Dann besitzt der
+\definitionsverweis {Krümmungsoperator}{}{}
+folgende Eigenschaften.}
+\faktfolgerung {\aufzaehlungsechs{Es ist
+\mathl{R(V,W)Z}{} linear in allen drei Komponenten.
+}{Für
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+hängt
+\mathl{(R(V,W)Z) (P)}{} nur von
+\mathl{V(P),W(P),Z(P)}{} ab.
+}{Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R(V,W)
+}
+{ =} { -R(W,V)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+}{Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R(V,W)Z+ R(W,Z)V+R(Z,V)W
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle R(V,W) T  ,  Z   \right\rangle
+}
+{ =} { - \left\langle R(V,W) Z  ,  T   \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle R(V,W) T  ,  Z   \right\rangle
+}
+{ =} { \left\langle R(T,Z) V  ,  W   \right\rangle
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\aufzaehlungsechs{Die Linearität in $Z$ beruht darauf, dass der Zusammenhang linear ist. Die Linearität in $V$ und in $W$ beruht auf
+[[Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Ableitung bezüglich Vektorfeld/Eigenschaften/Fakt|Lemma 24.10]]
+und auf
+[[Mannigfaltigkeit/Vektorfelder/Lie-Klammer/Eigenschaften/Fakt|Lemma 11.8]].
+}{Für die Abhängigkeit in $V$ und $W$ folgt die Aussage aus
+[[Reelles Vektorbündel/Linearer Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt|Lemma 28.4]].
+Um zu zeigen, dass auch die Abhängigkeit in $Z$ nur von $Z(P)$ abhängt, können wir von der lokalen Situation auf
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ausgehen und
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ = }{ \partial_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ = }{ \partial_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Z
+}
+{ = }{ h \partial_k
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit einer zweifach stetig differnezierbaren Funktion
+\maabb {h} { U } {\R
+} {}
+ansetzen. Es ist dann nach
+[[Differenzierbare Mannigfaltigkeit/R/Vektorbündel/Linearer Zusammenhang/Lokale Beschreibung/Fakt|Lemma 25.10]],
+[[Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Leibnizregel/Fakt|Satz 25.5]]
+und
+dem [[Differenzierbarkeit/Satz von Schwarz/Fakt|Satz von Schwarz]]
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ R \left(  \partial_i, \partial_j  \right) \left(  h \partial_k  \right)
+}
+{ =} { \nabla_{\partial_i }  \left(  \nabla_{\partial_j }  \left(  h \partial_k  \right)  \right) - \nabla_{\partial_j } \left(  \nabla_{\partial_i }  \left(  h \partial_k  \right)  \right)
+}
+{ =} { \nabla_{\partial_i }  \left(  h \nabla_{\partial_j } \partial_k+ \left(  \partial_j h  \right)  \partial_k  \right) - \nabla_{\partial_j } \left( h \nabla_{\partial_i }  \partial_k  + \left(  \partial_i h  \right) \partial_k  \right)
+}
+{ =} { h \nabla_{\partial_i } \left(  \nabla_{\partial_j }  \partial_k   \right) +  \left(  \partial_i h  \right) \nabla_{\partial_j } \partial_k + \left(  \partial_j h  \right) \nabla_{\partial_i } \partial_k  +  \left(  \partial_i \partial_j h  \right) \partial_k
+-h \nabla_{\partial_j } \left(  \nabla_{\partial_i } \partial_k   \right) -  \left(  \partial_j h  \right) \nabla_{\partial_i } \partial_k - \left(  \partial_i h  \right) \nabla_{\partial_j } \partial_k  -\left(  \partial_j  \partial_i h  \right) \partial_k
+}
+{ =} { h \nabla_{\partial_i } \left(  \nabla_{\partial_j }  \partial_k   \right)-h \nabla_{\partial_j } \left(  \nabla_{\partial_i } \partial_k   \right)
+}
+}
+{}{}{,}
+woraus hervorgeht, dass dies nur von $h(P)$ abhängt.
+}{Ist klar aufgrund der Definition und wegen
+[[Mannigfaltigkeit/Vektorfelder/Lie-Klammer/Eigenschaften/Fakt|Lemma 11.8]].
+}{Aufgrund der
+\definitionsverweis {Torsionsfreiheit}{}{}
+\zusatzklammer {siehe
+[[Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Eigenschaften/Fakt|Satz 26.14]]} {} {}
+und
+der [[Vektorfelder/Lie-Klammer/Jacobi-Identität/Fakt|Jacobi-Identität]]
+ist
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ R(V,W)Z+ R(W,Z)V+R(Z,V)W
+}
+{ =} { \nabla_V  \left(  \nabla_W Z  \right) -\nabla_W  \left(  \nabla_V Z  \right) - \nabla_{[V,W]} Z +\nabla_W  \left(  \nabla_Z V  \right) -\nabla_Z  \left(  \nabla_W V  \right) - \nabla_{[W,Z]} V+\nabla_Z  \left(  \nabla_V W  \right) -\nabla_V  \left(  \nabla_Z W  \right) - \nabla_{[Z,V]} W
+}
+{ =} { \nabla_V  \left(  [W,Z ]  \right) + \nabla_W  \left(  [Z, V]  \right) + \nabla_Z  \left(  [V, W]  \right) - \nabla_{[V,W]} Z - \nabla_{[W,Z]} V  - \nabla_{[Z,V]} W
+}
+{ =} {\nabla_V  \left(  [W,Z ]  \right)  - \nabla_{[W,Z]} V + \nabla_W  \left(  [Z, V]  \right) - \nabla_{[Z,V]} W + \nabla_Z  \left(  [V, W]  \right) - \nabla_{[V,W]} Z
+}
+{ =} { [V, [W,Z]] + [W, [Z,V]] + [Z, [V,W]]
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { 0
+}
+{ } {}
+{ } {}
+{ } {}
+}{}{.}
+}{Wir können und aus Vektorfelder $V,W$ mit
+
+\mavergleichskette
+{\vergleichskette
+{ [V,W]
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+beschränken. Es ist dann nach
+[[Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Eigenschaften/Fakt|Satz 26.14  (2)]]
+und
+dem [[Differenzierbarkeit/Satz von Schwarz/Fakt|Satz von Schwarz]]
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \left\langle R(V,W)T , Z  \right\rangle
+}
+{ =} { \left\langle  \nabla_V \nabla_WT -\nabla_W \nabla_VT   ,  Z  \right\rangle
+}
+{ =} { \left\langle  \nabla_V \nabla_WT , Z  \right\rangle - \left\langle  \nabla_W \nabla_VT  ,  Z  \right\rangle
+}
+{ =} { - \left\langle  \nabla_WT , \nabla_V Z  \right\rangle + D_V\left\langle  \nabla_W T  ,  Z  \right\rangle + \left\langle  \nabla_VT  , \nabla_W  Z  \right\rangle -  D_W \left\langle  \nabla_V T  ,  Z  \right\rangle
+}
+{ =} { \left\langle  T ,  \nabla_W  \nabla_V Z  \right\rangle - D_W \left\langle  T ,  \nabla_VZ   \right\rangle  + D_V \left(  - \left\langle  T  ,  \nabla_WZ  \right\rangle +  D_W \left\langle T  ,  Z   \right\rangle  \right)  - \left\langle  T  ,  \nabla_V \nabla_W  Z  \right\rangle +  D_V \left\langle  T  ,  \nabla_W Z  \right\rangle - D_W  \left(  - \left\langle T  ,  \nabla_V Z   \right\rangle + D_V \left\langle T  ,  Z   \right\rangle  \right)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \left\langle  T ,  \nabla_W  \nabla_V  Z  \right\rangle - \left\langle  T  ,  \nabla_V \nabla_W  Z  \right\rangle
+}
+{ =} { - \left\langle R(V,W)Z , T  \right\rangle
+}
+{ } {}
+{ } {}
+}{}{.}
+}{Unter Verwendung von (3), (4) und (5) ist
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \left\langle R(V,W)T , Z  \right\rangle
+}
+{ =} { - \left\langle R(T,V)W , Z  \right\rangle - \left\langle R(W,T)V , Z  \right\rangle
+}
+{ =} { \left\langle R(T,V) Z , W  \right\rangle + \left\langle R(W,T) Z ,  V  \right\rangle
+}
+{ =} { - \left\langle R(V,Z) T , W  \right\rangle - \left\langle R(Z,T) V  ,  W  \right\rangle - \left\langle R(T,Z) W ,  V  \right\rangle - \left\langle R(Z,W) T ,  V  \right\rangle
+}
+{ =} { 2 \left\langle R(T,Z) V  ,  W  \right\rangle - \left\langle R(V,Z) T , W  \right\rangle - \left\langle R(Z,W) T ,  V  \right\rangle
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { 2 \left\langle R(T,Z) V  ,  W  \right\rangle + \left\langle R(V,Z) W , T  \right\rangle + \left\langle R(Z,W) V  ,  T  \right\rangle
+}
+{ =} { 2 \left\langle R(T,Z) V  ,  W  \right\rangle - \left\langle R(W,V) Z , T  \right\rangle
+}
+{ =} { 2 \left\langle R(T,Z) V  ,  W  \right\rangle - \left\langle R(V,W) T , Z  \right\rangle
+}
+{ } {}
+}{}{.}
+Dies ergibt die Behauptung.
+}
+
+}
+
+Aufgrund von
+[[Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt|Lemma 29.2  (2)]]
+ist für Vektoren
+
+\mavergleichskette
+{\vergleichskette
+{ v,w,z
+}
+{ \in }{ T_PM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein Vektor
+
+\mavergleichskette
+{\vergleichskette
+{ R(v,w)(z)
+}
+{ \in }{ T_PM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+wohldefiniert, da man ja die Vektoren durch differenzierbare Vektorfelder
+\mathl{V,W,Z}{} mit
+
+\mavergleichskette
+{\vergleichskette
+{ V(P)
+}
+{ = }{ v
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+etc.
+\zusatzklammer {lokal} {} {}
+realisieren kann und dann $R(V,W)(Z)$ im Punkt auswerten kann.
+
+  \zwischenueberschrift{Die Schnittkrümmung}
+
+\inputdefinition
+{}
+{
+
+Es sei $M$ eine
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{,}
+die mit dem
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{}
+auf dem
+\definitionsverweis {Tangentialbündel}{}{}
+$TM$ und dem zugehörigen
+\definitionsverweis {Krümmungsoperator}{}{}
+$R$ versehen sei. Dann nennt man zu
+\definitionsverweis {linear unabhängigen}{}{}
+Vektoren
+
+\mavergleichskette
+{\vergleichskette
+{ v,w
+}
+{ \in }{ T_PM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+über einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Zahl
+
+\mavergleichskettedisp
+{\vergleichskette
+{ K(v,w)
+}
+{ =} { { \frac{   \left\langle R(v,w)w , v  \right\rangle  }{  \left\langle  v  , v  \right\rangle  \left\langle  w  , w  \right\rangle  -\left\langle  v  , w  \right\rangle^2   } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+die
+\definitionswort {Schnittkrümmung}{}
+zu $v,w$ in $P$.
+
+}
+
+Diese Schnittkrümmung ist wohldefiniert, da im Fall der linearen Unabhängigkeit der Nenner nicht $0$ ist.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Schnittkrümmung/Tangentiale Ebene/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $M$ eine
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{,}
+die mit dem
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{}
+auf dem
+\definitionsverweis {Tangentialbündel}{}{}
+$TM$ und dem zugehörigen
+\definitionsverweis {Krümmungsoperator}{}{}
+$R$ versehen sei.}
+\faktfolgerung {Dann hängt die
+\definitionsverweis {Schnittkrümmung}{}{}
+zu zwei linear unabhängigen Vektoren
+
+\mavergleichskette
+{\vergleichskette
+{ v,w
+}
+{ \in }{ T_PM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nur von der durch die Vektoren erzeugten Ebene
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \R v + \R w
+}
+{ \subseteq} { T_PM
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ab.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Wir betrachten den definierenden Ausdruck
+
+\mavergleichskettedisp
+{\vergleichskette
+{ K(v,w)
+}
+{ =} { { \frac{   \left\langle R(v,w)w , v  \right\rangle  }{  \left\langle  v  , v  \right\rangle \left\langle  w  , w  \right\rangle  - \left\langle  v  , w  \right\rangle^2   } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für die Schnittkrümmung. Der Ausdruck
+\mathl{R(v,w)z}{} ist nach
+[[Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt|Lemma 29.2]]
+linear in allen Komponenten. Wenn man $v$ oder $w$ mit einem Skalar
+
+\mavergleichskette
+{\vergleichskette
+{ a
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+multipliziert, so kann man sowohl im Zähler als auch im Nenner den Faktor $a^2$ rausziehen. Ferner gilt
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left\langle  R(v+w,w) w  , v +w   \right\rangle
+}
+{ =} { \left\langle  R(v,w)w +R(w,w)w  , v+w   \right\rangle
+}
+{ =} { \left\langle  R(v,w)w   , v   \right\rangle  +  \left\langle  R(w,w)w  ,  v   \right\rangle + \left\langle  R(v,w)w  ,  w   \right\rangle  +  \left\langle  R(w,w)w   , w   \right\rangle
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+Nach
+[[Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt|Lemma 29.2  (4)]]
+sind
+\mathkor {} {\left\langle  R(w,w)w  ,  v   \right\rangle} {und} {\left\langle  R(w,w)w   , w   \right\rangle} {}
+gleich $0$ und wegen
+[[Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt|Lemma 29.2  (5,6)]]
+ist auch
+
+\mavergleichskette
+{\vergleichskette
+{ \left\langle  R(v,w)w  ,  w   \right\rangle
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Der Zähler der Schnittkrümmung ändert sich also nicht, wenn man $v$ durch $v+w$ ersetzt. Wegen
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \left\langle v+w , v+w  \right\rangle \left\langle  w  , w  \right\rangle -\left\langle v+w , w  \right\rangle^2
+}
+{ =} { \left\langle  v  , v  \right\rangle  \left\langle  w  , w  \right\rangle+\left\langle  w  , w  \right\rangle \left\langle  w  , w  \right\rangle +2\left\langle  v  , w  \right\rangle \left\langle  w  , w  \right\rangle -\left\langle v  , w  \right\rangle^2-\left\langle w  , w  \right\rangle^2 -2 \left\langle v  , w  \right\rangle \left\langle w  , w  \right\rangle
+}
+{ =} { \left\langle  v  , v  \right\rangle \left\langle  w  , w  \right\rangle -\left\langle v  , w  \right\rangle^2
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+ändert sich dabei auch nicht der Nenner.
+
+}
+
+\inputbemerkung
+{}
+{
+
+Auf einer zweidimensionalen riemannschen Mannigfaltigkeit gibt es in jedem Tangentialraum nur den Raum selbst als zweidimensionalen Untervektorraum. Das bedeutet, dass im zweidimensionalen Fall
+nach
+[[Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Schnittkrümmung/Tangentiale Ebene/Fakt|Lemma 29.4]]
+die Argumente in der
+\definitionsverweis {Schnittkrümmung}{}{}
+überflüssig sind. Deshalb fassen wir in dieser Situation die Schnittkrümmung als eine reellwertige Funktion auf der Mannigfaltigkeit auf.
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Riemannsche Mannigfaltigkeit/Zweidimensional/Levi-Civita-Zusammenhang/Schnittkrümmung/Berechnung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Für eine zweidimensionale
+\definitionsverweis {riemannsche Mannigfaltigkeit}{}{}}
+\faktfolgerung {ist die
+\definitionsverweis {Schnittkrümmung}{}{}
+auf jeder Karte gleich
+\mathl{-  { \frac{   R^2_{121} }{ g_{11}  } }}{.}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Wir können direkt die Situation auf einer Karte betrachten. Nach
+[[Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Schnittkrümmung/Tangentiale Ebene/Fakt|Lemma 29.4]]
+kann man im zweidimensionalen Fall die Schnittkrümmung mit einer beliebigen Basis ausrechnen, wir nehmen
+\mathkor {} {\partial_1} {und} {\partial_2} {.}
+Für die Schnittkrümmung ist unter Verwendung von
+[[Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt|Lemma 29.2  (5)]]
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ K( \partial_1, \partial_2)
+}
+{ =} { { \frac{   \left\langle R(\partial_1 ,\partial_2)\partial_2  ,  \partial_1   \right\rangle  }{  \left\langle  \partial_1  ,  \partial_1   \right\rangle  \left\langle  \partial_2  ,  \partial_2   \right\rangle  -\left\langle  \partial_1  ,  \partial_2   \right\rangle^2   } }
+}
+{ =} { { \frac{   \left\langle R(\partial_1 ,\partial_2)\partial_2  ,  \partial_1   \right\rangle  }{  g_{11} g_{22}  -g_{12}^2   } }
+}
+{ =} { -  { \frac{   \left\langle R(\partial_1 ,\partial_2)\partial_1  ,  \partial_2   \right\rangle  }{  g_{11} g_{22}  -g_{12}^2   } }
+}
+{ } {
+}
+}
+{}
+{}{}
+Dabei ist gemäß
+[[R^n/Offene Menge/Riemannsche Metrik/Levi-Civita-Zusammenhang/Krümmungsoperator/Berechnung/Fakt|Lemma 29.1]]
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R( \partial_1 , \partial_2)( \partial_1)
+}
+{ =} { R^1_{121} \partial_1+ R^2_{121} \partial_2
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Dies ergibt
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ K( \partial_1, \partial_2)
+}
+{ =} { - { \frac{   \left\langle R(\partial_1 ,\partial_2)\partial_1  ,  \partial_2   \right\rangle  }{  g_{11} g_{22}  -g_{12}^2   } }
+}
+{ =} { - { \frac{   R^1_{121} g_{12}+ R^2_{121} g_{22}  }{  g_{11} g_{22}  -g_{12}^2   } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+Nach
+[[Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt|Lemma 29.2  (4)]]
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \left\langle  R(\partial_1, \partial_1) \partial_1  ,  \partial_2   \right\rangle
+}
+{ =} { R^1_{121}  g_{11}  + R_{121}^2 g_{12}
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Wir multiplizieren den Zähler der Schnittkrümmung mit $g_{11}$ und erhalten
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ g_{11}  \left(  R^1_{121} g_{12}+ R^2_{121} g_{22}  \right)
+}
+{ =} { g_{11}  \left(  R^1_{121} g_{12}+ R^2_{121} g_{22}  \right) - g_{12}  \left(  R^1_{121}  g_{11}  + R_{121}^2 g_{12}   \right)
+}
+{ =} { g_{11} g_{22} R^2_{121} - g_{12}^2 R^2_{121}
+}
+{ =} { \left(  g_{11} g_{22}  - g_{12}^2  \right) R^2_{121}
+}
+{ } {
+}
+}
+{}
+{}{.}
+Also ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ K( \partial_1, \partial_2)
+}
+{ =} { -  { \frac{   R^2_{121} }{ g_{11}  } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Fläche im Raum/Schnittkrümmung/Gaußkrümmung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+und sei
+\maabb {h} { W } { \R
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Faser zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei.}
+\faktfolgerung {Dann ist die
+\definitionsverweis {Gaußkrümmung}{}{}
+von $Y$ gleich der
+\definitionsverweis {Schnittkrümmung}{}{}
+von $Y$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Nach
+[[Riemannsche Mannigfaltigkeit/Zweidimensional/Levi-Civita-Zusammenhang/Schnittkrümmung/Berechnung/Fakt|Lemma 29.6]]
+ist die Schnittkrümmung auf einer Karte gleich
+\mathl{- { \frac{  R^2_{121}  }{ g_{11}  } }}{.} Wegen
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ R^2_{121}
+}
+{ =} { {\partial_1 } \Gamma^2_{12} - {\partial_2 } \Gamma^2_{11} +  \Gamma^1_{12} \Gamma_{1 1}^2 + \Gamma^2_{12} \Gamma_{1 2}^2 - \Gamma^1_{11}  \Gamma_{12 }^2  - \Gamma^2_{11} \Gamma_{2 2}^2
+}
+{ =} { -g_{11} K
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+ist
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ K
+}
+{ =} { { \frac{   1  }{ g_{11}  } }  \left(  \partial_2 \Gamma_{11}^2 - \partial_1 \Gamma_{12}^2 + \Gamma^1_{11} \Gamma^2_{12}  + \Gamma_{11}^2 \Gamma_{22}^2 - \Gamma_{12}^1 \Gamma_{11}^2-  \left(  \Gamma_{12}^2  \right)^2  \right)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+was mit der Gaußkrümmung gemäß
+[[Hyperfläche/Raum/Parametrisierung/Gaußkrümmung/Christoffelsymbole/Fakt|Satz 19.7]]
+übereinstimmt.
+
+}
+
+\inputbeispiel{}
+{
+
+Für die
+\definitionsverweis {euklidische Ebene}{}{}
+$\R^2$ mit dem
+\definitionsverweis {Standardskalarprodukt}{}{}
+ist die
+\definitionsverweis {Schnittkrümmung}{}{}
+konstant gleich $0$.
+
+}
+
+\inputbeispiel{}
+{
+
+Für die
+\definitionsverweis {Einheitskugel}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ S^2
+}
+{ \subseteq }{ \R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit der induzierten
+\definitionsverweis {riemannschen Struktur}{}{}
+ist die
+\definitionsverweis {Schnittkrümmung}{}{}
+konstant gleich $1$. Dies folgt aus
+[[Kugeloberfläche/Gaußkrümmung/Beispiel|Beispiel 5.6]]
+in Verbindung mit
+[[Fläche im Raum/Schnittkrümmung/Gaußkrümmung/Fakt|Lemma 29.7]].
+
+}
+
+\inputbeispiel{}
+{
+
+\bild{ \begin{center}
+\includegraphics[width=5.5cm]{ \bildeinlesungsvg {Parallel lines in Poincare's model of hyperbolic geometry} {svg} }
+\end{center}
+\bildtext {} }
+
+\bildlizenz { Parallel lines in Poincare's model of hyperbolic geometry.svg } {} {Januszkaja} {Commons} {CC-by-sa 3.0} {}
+
+Wir knüpfen an
+[[Halbebene/Poincaré/Riemannsche Geometrie/Beispiel|Beispiel 18.8]]
+und
+[[Halbebene/Poincaré/Riemannsche Geometrie/Christoffelsymbole/Beispiel|Beispiel 26.7]]
+an. Mit
+[[R^n/Offene Menge/Riemannsche Metrik/Levi-Civita-Zusammenhang/Krümmungsoperator/Berechnung/Fakt|Lemma 29.1]]
+ist
+
+\mavergleichskettedisphandlinks
+{\vergleichskettedisphandlinks
+{ R^2_{121}
+}
+{ =} { {\partial_1 } \Gamma^2_{12} - {\partial_2 } \Gamma^2_{11} + \Gamma^1_{12} \Gamma_{1 1}^2 + \Gamma^2_{12} \Gamma_{1 2}^2 - \Gamma^1_{11} \Gamma_{12 }^2 - \Gamma^2_{11} \Gamma_{2 2}^2
+}
+{ =} { { \frac{   1  }{  y^2 } } - { \frac{   1  }{  y^2 } }+  { \frac{   1  }{  y^2 } }
+}
+{ =} { { \frac{   1  }{  y^2 } }
+}
+{ } {
+}
+}
+{}{}{.}
+Nach
+[[Riemannsche Mannigfaltigkeit/Zweidimensional/Levi-Civita-Zusammenhang/Schnittkrümmung/Berechnung/Fakt|Lemma 29.6]]
+gilt für die
+\definitionsverweis {Schnittkrümmung}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ K
+}
+{ =} { - { \frac{   R^2_{121} }{ g_{11 } }}
+}
+{ =} { - { \frac{   { \frac{   1  }{  y^2 } }  }{  { \frac{   1  }{  y^2 } }  } }
+}
+{ =} { -1
+}
+{ } {
+}
+}
+{}{}{,}
+es liegt also konstante Schnittkrümmung $-1$ vor.
+
+}
+
+ [[Kategorie:Latexseite]]

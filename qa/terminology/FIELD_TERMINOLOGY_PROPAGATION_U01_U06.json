@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "workflow": "o011-indonesian-field-terminology-u01-u06-v1",
+  "decision_record": "qa/terminology/FIELD_TERMINOLOGY_AUDIT_20260822.md",
+  "status": "pass",
+  "files_checked": 26,
+  "files_changed": 0,
+  "totals": {},
+  "post_checks": {
+    "disallowed_standalone_tangen": 0,
+    "indonesian_transport_paralel": 0,
+    "manifold_terdiferensialkan": 0,
+    "unnatural_bersifat_singgung": 0,
+    "unnatural_tetap_singgung": 0,
+    "unnatural_nilai_singgung": 0
+  },
+  "allowed_bundel_tangen": 1,
+  "preserved_asset_identity": "Parallel transport sphere2.svg",
+  "files": [
+    {
+      "path": "source/units/unit-01/lecture01.id.tex",
+      "before_bytes": 29009,
+      "before_sha256": "0237473836f695af04b5ab972857f58904b416f8baffd9e5d2c8f5e504fdd0f3",
+      "after_bytes": 29009,
+      "after_sha256": "0237473836f695af04b5ab972857f58904b416f8baffd9e5d2c8f5e504fdd0f3",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-01/worksheet01.id.tex",
+      "before_bytes": 13478,
+      "before_sha256": "70b598bd9ef0db42f8461cd2e6289cfbaa7d96634bc4c186dcda59f1f8013677",
+      "after_bytes": 13478,
+      "after_sha256": "70b598bd9ef0db42f8461cd2e6289cfbaa7d96634bc4c186dcda59f1f8013677",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-01/worksheet01_exercise01_solution.id.tex",
+      "before_bytes": 2583,
+      "before_sha256": "36f9b17c995afa4967c05fb119b15c18348dde5669a72140487c4d9ff33e12d5",
+      "after_bytes": 2583,
+      "after_sha256": "36f9b17c995afa4967c05fb119b15c18348dde5669a72140487c4d9ff33e12d5",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-02/lecture02.id.tex",
+      "before_bytes": 22714,
+      "before_sha256": "d0226246f26aa13dd94f5e42e62827e64109fda1d80dfd3741a1be6bcb8b439a",
+      "after_bytes": 22714,
+      "after_sha256": "d0226246f26aa13dd94f5e42e62827e64109fda1d80dfd3741a1be6bcb8b439a",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-02/worksheet02.id.tex",
+      "before_bytes": 10576,
+      "before_sha256": "677d9b244a2c30561f497e602e29081ca12f668d5a5ec3d116900c49a5bd5954",
+      "after_bytes": 10576,
+      "after_sha256": "677d9b244a2c30561f497e602e29081ca12f668d5a5ec3d116900c49a5bd5954",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-02/worksheet02_exercise01_solution.id.tex",
+      "before_bytes": 951,
+      "before_sha256": "bf0788c3f5cc77324bca5dfc1a899b5410fa5a8312da7594b85993c9245a45fe",
+      "after_bytes": 951,
+      "after_sha256": "bf0788c3f5cc77324bca5dfc1a899b5410fa5a8312da7594b85993c9245a45fe",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-02/worksheet02_exercise02_solution.id.tex",
+      "before_bytes": 965,
+      "before_sha256": "66ac0a6b86de21eee86a898fe7122644c932c4dff44bbc51845967a86b73e2fc",
+      "after_bytes": 965,
+      "after_sha256": "66ac0a6b86de21eee86a898fe7122644c932c4dff44bbc51845967a86b73e2fc",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-02/worksheet02_exercise07_solution.id.tex",
+      "before_bytes": 1499,
+      "before_sha256": "405e59e8569d9ba8d8dd35ebe6b2ce693cb931d8ed42824d790baeba31fdd8d3",
+      "after_bytes": 1499,
+      "after_sha256": "405e59e8569d9ba8d8dd35ebe6b2ce693cb931d8ed42824d790baeba31fdd8d3",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-02/worksheet02_exercise12_solution.id.tex",
+      "before_bytes": 5009,
+      "before_sha256": "1c04a8fd29888aa47633cffceb25104c6533e6c2b9e512ad663fd3742c581832",
+      "after_bytes": 5009,
+      "after_sha256": "1c04a8fd29888aa47633cffceb25104c6533e6c2b9e512ad663fd3742c581832",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-02/worksheet02_exercise13_solution.id.tex",
+      "before_bytes": 2532,
+      "before_sha256": "a4a230b45de82885027722450d3a7f12fc63fe06187abab481788f7b37352ac0",
+      "after_bytes": 2532,
+      "after_sha256": "a4a230b45de82885027722450d3a7f12fc63fe06187abab481788f7b37352ac0",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-03/lecture03.id.tex",
+      "before_bytes": 29665,
+      "before_sha256": "1b856b6f42a4c5e17991ace18d0c378f8df6025bd8dffbaae7f07f16f87a7885",
+      "after_bytes": 29665,
+      "after_sha256": "1b856b6f42a4c5e17991ace18d0c378f8df6025bd8dffbaae7f07f16f87a7885",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-03/worksheet03.id.tex",
+      "before_bytes": 10129,
+      "before_sha256": "89b05cf8280045703c64e8a0d3540883196f6569f2c9e24f630a6b00ee703474",
+      "after_bytes": 10129,
+      "after_sha256": "89b05cf8280045703c64e8a0d3540883196f6569f2c9e24f630a6b00ee703474",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-03/worksheet03_exercise07_solution.id.tex",
+      "before_bytes": 2897,
+      "before_sha256": "6acaaf786d11721f70b970b2c9e001ee5ae13b922c3fccd594b0bc8b790095c2",
+      "after_bytes": 2897,
+      "after_sha256": "6acaaf786d11721f70b970b2c9e001ee5ae13b922c3fccd594b0bc8b790095c2",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-03/worksheet03_exercise16_solution.id.tex",
+      "before_bytes": 2170,
+      "before_sha256": "c71c2178c6380432a56f267718fadd4fbcc9415a0a8a2fbe994f6e3d9b89c84f",
+      "after_bytes": 2170,
+      "after_sha256": "c71c2178c6380432a56f267718fadd4fbcc9415a0a8a2fbe994f6e3d9b89c84f",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-04/lecture04.id.tex",
+      "before_bytes": 28636,
+      "before_sha256": "456d30821bdaaa71736ddcbb6707b7d7de46ddbdbb81e9614ab982763f2d8b03",
+      "after_bytes": 28636,
+      "after_sha256": "456d30821bdaaa71736ddcbb6707b7d7de46ddbdbb81e9614ab982763f2d8b03",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-04/worksheet04.id.tex",
+      "before_bytes": 11805,
+      "before_sha256": "fb6438475d2ebc6917f7928faa6b338e67944c1228406d2178f58119307e1ebf",
+      "after_bytes": 11805,
+      "after_sha256": "fb6438475d2ebc6917f7928faa6b338e67944c1228406d2178f58119307e1ebf",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-04/worksheet04_exercise07_solution.id.tex",
+      "before_bytes": 1983,
+      "before_sha256": "6003193ccef4456ffcbe42e67068202567ceafe4897363aa4833b266aaf855d5",
+      "after_bytes": 1983,
+      "after_sha256": "6003193ccef4456ffcbe42e67068202567ceafe4897363aa4833b266aaf855d5",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-04/worksheet04_exercise10_solution.id.tex",
+      "before_bytes": 2663,
+      "before_sha256": "87c65a52f982f32483c8747b0825b5b628c28127bc8b7892509d68f916f383d5",
+      "after_bytes": 2663,
+      "after_sha256": "87c65a52f982f32483c8747b0825b5b628c28127bc8b7892509d68f916f383d5",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-05/lecture05.id.tex",
+      "before_bytes": 25573,
+      "before_sha256": "bd6c5ba67f3bf029e4227e4ba3f94f56fd3e2cf1fd2d5ab3cdac27810eca53d3",
+      "after_bytes": 25573,
+      "after_sha256": "bd6c5ba67f3bf029e4227e4ba3f94f56fd3e2cf1fd2d5ab3cdac27810eca53d3",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-05/worksheet05.id.tex",
+      "before_bytes": 11371,
+      "before_sha256": "e4107899e13705e0d0fcc40a5ff4a7815e44f3eab2beaf297f3af0a49c8b29a4",
+      "after_bytes": 11371,
+      "after_sha256": "e4107899e13705e0d0fcc40a5ff4a7815e44f3eab2beaf297f3af0a49c8b29a4",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-05/worksheet05_exercise01_solution.id.tex",
+      "before_bytes": 2895,
+      "before_sha256": "aad6ab0d0729988c26b41cc6d6a82c95338b388f79212005a86b0f5c90b3bc4f",
+      "after_bytes": 2895,
+      "after_sha256": "aad6ab0d0729988c26b41cc6d6a82c95338b388f79212005a86b0f5c90b3bc4f",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-06/lecture06.id.tex",
+      "before_bytes": 32034,
+      "before_sha256": "180c553eb556d91ba733e00f012bd0ece36c32e66704c992f0c64244ab6e05e8",
+      "after_bytes": 32034,
+      "after_sha256": "180c553eb556d91ba733e00f012bd0ece36c32e66704c992f0c64244ab6e05e8",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-06/worksheet06.id.tex",
+      "before_bytes": 16526,
+      "before_sha256": "b0cf54f892e2357bd6edaf1ed87df711cffcdf164c1454e7b7d2c987faa8bca5",
+      "after_bytes": 16526,
+      "after_sha256": "b0cf54f892e2357bd6edaf1ed87df711cffcdf164c1454e7b7d2c987faa8bca5",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-06/worksheet06_exercise02_solution.id.tex",
+      "before_bytes": 2588,
+      "before_sha256": "772755e8e7d46abd63b2acf146fec3be01a23f57476cbea153ff14668a316ad5",
+      "after_bytes": 2588,
+      "after_sha256": "772755e8e7d46abd63b2acf146fec3be01a23f57476cbea153ff14668a316ad5",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-06/worksheet06_exercise06_solution.id.tex",
+      "before_bytes": 1103,
+      "before_sha256": "e10704fec468e5ee582e72415ef85d92ad6182a3a4207359ad10ac41b9a581ac",
+      "after_bytes": 1103,
+      "after_sha256": "e10704fec468e5ee582e72415ef85d92ad6182a3a4207359ad10ac41b9a581ac",
+      "changes": {}
+    },
+    {
+      "path": "source/units/unit-06/worksheet06_exercise09_solution.id.tex",
+      "before_bytes": 595,
+      "before_sha256": "fd027471aa6655aaf6b2d07c60e7a96cb5d13df961adca1c38d2021cc19cf39b",
+      "after_bytes": 595,
+      "after_sha256": "fd027471aa6655aaf6b2d07c60e7a96cb5d13df961adca1c38d2021cc19cf39b",
+      "changes": {}
+    }
+  ]
+}

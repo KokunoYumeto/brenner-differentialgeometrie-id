@@ -235,6 +235,60 @@
           "rights_label_id": "domain publik"
         }
       ]
+    },
+    "23": {
+      "media": [
+        {
+          "filename": "SS-stokes.jpg",
+          "attribution_id": "Kelson (pengunggah di Wikimedia Commons; domain publik).",
+          "rights_label_id": "domain publik"
+        },
+        {
+          "filename": "Théorème-de-Brouwer-(cond-2).jpg",
+          "attribution_id": "Jean-Luc W (karya sendiri).",
+          "rights_label_id": "CC BY-SA 3.0",
+          "license_url_id": "https://creativecommons.org/licenses/by-sa/3.0/"
+        },
+        {
+          "filename": "Théorème-de-Brouwer-(cond-1).jpg",
+          "print_basename": "Theoreme-de-Brouwer-(cond-1)",
+          "attribution_id": "Jean-Luc W (karya sendiri).",
+          "rights_label_id": "CC BY-SA 3.0",
+          "license_url_id": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ]
+    },
+    "24": {
+      "media": []
+    },
+    "25": {
+      "media": []
+    },
+    "26": {
+      "media": []
+    },
+    "27": {
+      "media": [
+        {
+          "filename": "Parallel lines in Poincare's model of hyperbolic geometry.svg",
+          "attribution_id": "Januszkaja (karya sendiri).",
+          "rights_label_id": "CC BY-SA 3.0",
+          "license_url_id": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ]
+    },
+    "28": {
+      "media": []
+    },
+    "29": {
+      "media": [
+        {
+          "filename": "Parallel lines in Poincare's model of hyperbolic geometry.svg",
+          "attribution_id": "Januszkaja (karya sendiri).",
+          "rights_label_id": "CC BY-SA 3.0",
+          "license_url_id": "https://creativecommons.org/licenses/by-sa/3.0/"
+        }
+      ]
     }
   }
 }

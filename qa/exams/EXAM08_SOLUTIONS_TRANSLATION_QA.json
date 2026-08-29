@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "source": "authority/exams/expanded/exam08_solutions_source.de.tex",
+  "source_bytes": 29287,
+  "source_sha256": "a5cd5f6e26d78d68d05ada69d23424923c7f27d9278d497079a52d07abbdb575",
+  "target": "source/exams/exam-08/exam08_solutions.id.tex",
+  "target_bytes": 29445,
+  "target_sha256": "64ee153d746d737bca0af1b47a981e75e62b9000b44ea483bb1afc9f7c2c6a15",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 934,
+    "environments": 26,
+    "inline_math": 91,
+    "display_math": 0,
+    "protected_calls": 102
+  },
+  "status": "pass",
+  "failures": [],
+  "declared_corrections": [
+    "O011-EXAM08-SOL-0001",
+    "O011-EXAM08-SOL-0002",
+    "O011-EXAM08-SOL-0003",
+    "O011-EXAM08-SOL-0004",
+    "O011-EXAM08-SOL-0005",
+    "O011-EXAM08-SOL-0006"
+  ],
+  "evidence_only_results": [
+    {
+      "correction_id": "O011-EXAM08-SOL-0002",
+      "surface": "command:mathkor",
+      "occurrence_index": 0,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-EXAM08-SOL-0003",
+      "surface": "command:mathkor",
+      "occurrence_index": 1,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-EXAM08-SOL-0004",
+      "surface": "command:mathkor",
+      "occurrence_index": 2,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-EXAM08-SOL-0005",
+      "surface": "command:mathkor",
+      "occurrence_index": 3,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-EXAM08-SOL-0006",
+      "surface": "command:mathkor",
+      "occurrence_index": 4,
+      "status": "pass",
+      "detail": "verified"
+    }
+  ]
+}

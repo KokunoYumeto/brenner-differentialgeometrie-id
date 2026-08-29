@@ -1,0 +1,114 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+{{
+Aufzählung3
+|Es ist
+{{
+Relationskette/display
+| {{op:Determinante| {{op:Matrix22| 1+t^2 |t^3| t | 1+t^2 }} }}
+|| 1+2t^2+t^4 -t^4
+|| 1 +2t^2
+| > |  0
+|| 
+|SZ=
+}}
+stets positiv, daher sind die beiden Vektoren
+{{
+mathkor|term1=
+f_1(t)
+|und|term2=
+f_2(t)
+|SZ=
+}}
+zu jedem
+{{
+Relationskette
+| t
+| \in |  \R
+||
+||
+||
+|SZ=
+}}
+eine Basis.
+|Aus der Beziehung
+{{
+Relationskette/display
+| {{op:Spaltenvektor|f_1 |f_2}} 
+|| {{op:Matrix22| 1+t^2| t^3| t | 1+t^2}}  {{op:Spaltenvektor|e_1 |e_2}}
+|| 
+|| 
+|| 
+|SZ=
+}}
+folgt
+{{
+Relationskette/display
+| {{op:Spaltenvektor|e_1 |e_2}} 
+|| {{op:Bruch| 1 | 1+2t^2}} {{op:Matrix22| 1+t^2| -t^3| -t| 1+t^2}}  {{op:Spaltenvektor|f_1 |f_2}}
+|| 
+|| 
+|| 
+|SZ=,
+}}
+also
+{{
+Relationskette/display
+| e_1
+|| {{op:Bruch| 1+t^2| 1+2t^2}}   f_1 - {{op:Bruch|t^3| 1+2t^2}} f_2
+|| 
+|| 
+|| 
+|SZ=
+}}
+und
+{{
+Relationskette/display
+| e_2
+|| -{{op:Bruch| t | 1+2t^2}}   f_1 + {{op:Bruch| 1+t^2| 1+2t^2}} f_2
+|| 
+|| 
+|| 
+|SZ=.
+}}
+|Für den trivialen Zusammenhang ist
+{{
+Relationskette/display
+| \nabla_\partial (f)
+|| \partial f
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Somit ist
+{{
+Relationskette/align
+| \nabla_\partial (f_1)
+|| \nabla_\partial {{makl| {{makl| 1+t^2 |}} e_1 + t^3e_2 |}} 
+|| 2t e_1 + 3t^2 e_2
+|| 2t  {{makl| {{op:Bruch| 1+t^2| 1+2t^2}}   f_1 - {{op:Bruch|t^3| 1+2t^2}} f_2  |}}  + 3t^2  {{makl| -{{op:Bruch| t | 1+2t^2}}   f_1 + {{op:Bruch| 1+t^2| 1+2t^2}} f_2  |}} 
+||  {{makl|  {{op:Bruch| 2t+2t^3| 1+2t^2}} - {{op:Bruch| 3t^3| 1+2t^2}} }} f_1  +  {{makl| - {{op:Bruch|t^3| 1+2t^2}}   + {{op:Bruch| 3t^2+3t^4| 1+2t^2}}    |}}   f_2
+|| {{op:Bruch| 2t - t^3| 1+2t^2}}  f_1  +  {{op:Bruch| 3t^2-t^3+3t^4| 1+2t^2}}      f_2
+|SZ=
+}}
+und
+{{
+Relationskette/align
+| \nabla_\partial (f_2)
+|| \nabla_\partial {{makl| t e_1 + {{makl| 1+t^2 |}} e_2 |}} 
+|| e_1 + 2t  e_2
+|| {{op:Bruch| 1+t^2| 1+2t^2}} f_1 - {{op:Bruch|t^3| 1+2t^2}} f_2 + 2t {{makl| -{{op:Bruch| t | 1+2t^2}} f_1 + {{op:Bruch| 1+t^2| 1+2t^2}} f_2  |}} 
+|| {{makl|{{op:Bruch| 1+t^2| 1+2t^2}}  - {{op:Bruch| 2t^2| 1+2t^2}} }} f_1  + {{makl| - {{op:Bruch| t^3 | 1+2t^2 }} +  {{op:Bruch| 2t+2t^3 | 1+2t^2}} |}} f_2
+|| {{op:Bruch| 1 - t^2 | 1+2t^2}} f_1 + {{op:Bruch| 2t   +t^3| 1+2t^2}}      f_2
+|SZ=.
+}}
+Die Koeffizientenfunktionen sind die Christoffelsymbole.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

@@ -4,7 +4,7 @@
   "unit_number": 4,
   "heading_level": "section",
   "media_config": "source/unit_media.json",
-  "media_config_sha256": "b0b7b0bc05ba9e38e3b4e4f91f10af23fcd45a08bb3455ee08c26d99a59f1a2b",
+  "media_config_sha256": "1f5404aad71947dcff064b853f1820b302f5a7e14cbb862631623eeddc2b8cad",
   "manifest": "authority/brenner_media_rights_manifest.csv",
   "manifest_sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57",
   "image_engine": "not required (verified zero-asset unit)",

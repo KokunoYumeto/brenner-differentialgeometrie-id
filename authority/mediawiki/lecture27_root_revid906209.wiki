@@ -1,0 +1,27 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesungsgestaltung|27|
+
+{{Zwischenüberschrift|Vertikale Ableitung längs einer Abbildung}}
+
+{{:Linearer Zusammenhang/Vertikale Ableitung/Längs Abbildung/Einführung/Textabschnitt|zusatz1=&nbsp;Diese Situation ist uns schon bei den horizontalen Schnitten begegnet.}} 
+
+{{Zwischenüberschrift|Tangentiale Beschleunigung}}
+
+{{:Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Zweite Ableitung/Hyperfläche/Einführung/Textabschnitt}}
+
+{{Zwischenüberschrift|Geodätische Kurven}}
+
+{{:Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Geodätische/Hyperfläche/Einführung/Textabschnitt|zusatz1=
+{{
+inputbemerkung
+|Euklidische Geometrie/Parallelenaxiom/Sphäre und Poincaré-Ebene/Bemerkung||
+}}
+}}
+
+{{
+inputdefinition
+|Riemannsche Mannigfaltigkeit/Zusammenhängend/Metrik/Definition||
+}}
+
+Durch diese Metrik wird {{math|term= M |SZ=}} in der Tat zu einem metrischen Raum, dessen Topologie mit der vorgegebenen Topologie übereinstimmt. Ferner kann gezeigt werden, dass eine bogenparametrisierte Realisierung des Abstandes zwischen zwei Punkten eine Geodätische ist. 
+
+}}

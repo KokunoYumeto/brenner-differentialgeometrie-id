@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "source": "authority/expanded/worksheet25_exercise14_solution_source.de.tex",
+  "source_bytes": 1597,
+  "source_sha256": "4a7e132d57278c024ba88bc87ddce6d9706a900b88e35f6b76dcbff0167a05cd",
+  "target": "source/units/unit-25/worksheet25_exercise14_solution.id.tex",
+  "target_bytes": 1542,
+  "target_sha256": "0e6a11938d564f4b26022ef2c4b0d943ace21011e7e4b5bff13116970380c174",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": false,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 33,
+    "environments": 0,
+    "inline_math": 6,
+    "display_math": 0,
+    "protected_calls": 6
+  },
+  "status": "fail",
+  "failures": [
+    "protected:vergleichskette"
+  ],
+  "declared_corrections": [],
+  "evidence_only_results": []
+}

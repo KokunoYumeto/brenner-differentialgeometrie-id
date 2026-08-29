@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "source": {
+    "path": "authority/exams/expanded/exam08_solutions_source.de.tex",
+    "bytes": 29287,
+    "sha256": "a5cd5f6e26d78d68d05ada69d23424923c7f27d9278d497079a52d07abbdb575"
+  },
+  "learner": {
+    "path": "source/exams/exam-08/exam08_learner.id.tex",
+    "bytes": 7480,
+    "sha256": "20a6e0195458a3e6254d8955b0c14147399df2924312f45ae71f0aa5689ab97c"
+  },
+  "target": {
+    "path": "source/exams/exam-08/exam08_solutions.id.tex",
+    "bytes": 29445,
+    "sha256": "64ee153d746d737bca0af1b47a981e75e62b9000b44ea483bb1afc9f7c2c6a15"
+  },
+  "occurrences": {
+    "source": 17,
+    "target": 17,
+    "learner": 17,
+    "actual_nonzero": 14,
+    "zero_point_placeholders": 3,
+    "actual_solution_nonblank": 14,
+    "solution_presence_topology_equal_source": true,
+    "zero_solution_arguments_exact_source": true
+  },
+  "points": {
+    "sequence": [
+      "3",
+      "3",
+      "3",
+      "0",
+      "2",
+      "0",
+      "3",
+      "7",
+      "0",
+      "7(1+2+4)",
+      "4",
+      "3",
+      "3",
+      "7",
+      "2",
+      "9",
+      "7(1+2+4)"
+    ],
+    "source_target_equal": true,
+    "learner_target_equal": true,
+    "total": 63
+  },
+  "prompts": {
+    "target_exact_learner": true
+  },
+  "links": {
+    "source_count": 8,
+    "target_count": 8,
+    "targets_sequence_equal": true,
+    "targets_sha256": "3b366ec0e0aaf83b1e658913e823a7afe9c70d37678d1a520bc7637fbf3c87bc"
+  },
+  "residual_german": {
+    "scope": "outside single-line immutable link payloads",
+    "count": 0,
+    "hits": []
+  },
+  "status": "pass"
+}

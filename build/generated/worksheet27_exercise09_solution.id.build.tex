@@ -1,0 +1,42 @@
+Kita bekerja pada bundel vektor tarikan balik
+\mathl{\R \times \R^2}{} di atas $\R$ dengan
+\definitionsverweis {koneksi tarikan balik}{}{,}
+yang
+\definitionsverweis {simbol-simbol Christoffel}{}{}
+$\tilde{\Gamma}_\ell^k$-nya telah ditentukan dalam
+soal.
+Misalkan $e_1,e_2$ adalah penampang-penampang basis. Maka, menurut
+fakta,
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \nabla_\partial \left(   \psi_1' e_1 + \psi_2' e_2  \right)
+}
+{ =} { D_\partial (\psi_1') e_1 + \psi_1' \nabla_\partial e_1 +  D_\partial (\psi_2') e_2 + \psi_2' \nabla_\partial e_2
+}
+{ =} { \psi_1^{\prime \prime} e_1 + \psi_1' \nabla_\partial e_1 +  \gamma_2^{\prime \prime} e_2 + \psi_2' \nabla_\partial e_2
+}
+{ =} { \psi_1^{\prime \prime} e_1 + \psi_1' \left(   \tilde{\Gamma}_1^1 e_1 +  \tilde{\Gamma}_1^2  e_2  \right)  + \psi_2^{\prime \prime} e_2 + \psi_2' \left(   \tilde{\Gamma}_2^1 e_1 +  \tilde{\Gamma}_2^2  e_2  \right)
+}
+{ =} { \left(   \psi_1^{\prime \prime} +  \psi_1'  \tilde{\Gamma}_1^1    +   \psi_2'  \tilde{\Gamma}_2^1     \right)  e_1 +  \left(    \psi_2^{\prime \prime} +  \psi_1'  \tilde{\Gamma}_1^2    +   \psi_2'  \tilde{\Gamma}_2^2   \right) e_2
+}
+}
+{}
+{}{.}
+Dengan demikian,
+
+\mavergleichskettealign
+{\vergleichskettealign
+{  \nabla_\partial \left(   \psi_1' e_1 + \psi_2' e_2  \right)  (t)
+}
+{ =} { \left(    \tilde{\Gamma}_1^1 (t)    +   e^t  \tilde{\Gamma}_2^1(t)  \right)  e_1 +  \left(   e^t +    \tilde{\Gamma}_1^2 (t) + e^t \tilde{\Gamma}_2^2(t)     \right) e_2
+}
+{ =} { \left(   -1  -   e^t  e^{-t}  \right)  e_1 +  \left(   e^t +   e^{-t} - e^t   \right) e_2
+}
+{ =} { -2e_1 +e^{-t} e_2
+}
+{ } {
+}
+}
+{}
+{}{.}

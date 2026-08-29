@@ -1,0 +1,526 @@
+{
+  "authority": {
+    "course_recursive_export": {
+      "bytes": 3538709,
+      "path": "authority/mediawiki/brenner_course_recursive_current.xml",
+      "sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14"
+    },
+    "latex_surface_recursive_export": {
+      "bytes": 3722387,
+      "path": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+      "sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c"
+    },
+    "pages": {
+      "lecture_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture29_latex_surface_revid807135.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1200,
+          "path": "authority/mediawiki/lecture29_latex_surface_revid807135.metadata.json",
+          "sha256": "912fd039b4242e83cb8fb12305ae48052dc731666f7d66e5d867cf3b7ed89e60"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142603,
+        "parentid": 799044,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/lecture29_latex_surface_revid807135.wiki",
+        "revid": 807135,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T10:02:00Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 29/latex"
+      },
+      "lecture_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "4d321006a73b8dcf956d7f40231b2042ad3e09b32bd51f879ae37522804e1249",
+        "exact_utf8_base64_witness": "authority/mediawiki/lecture29_root_revid906540.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "r8qudj7a5berxllr6r08ecygthzrxhk",
+        "metadata": {
+          "bytes": 1170,
+          "path": "authority/mediawiki/lecture29_root_revid906540.metadata.json",
+          "sha256": "2805b9120510d1fe1cd8dec037272b3b6ea93087e1a6a6bfe2cbae2fb811f0d1"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142573,
+        "parentid": 906534,
+        "readable_normalized_bytes": 605,
+        "readable_normalized_sha256": "14a6a3665d3b66580281e4cce99f1d1dfc36bdaab0530a8132881c70f15e84af",
+        "readable_normalized_witness": "authority/mediawiki/lecture29_root_revid906540.wiki",
+        "revid": 906540,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 604,
+        "source_utf8_sha1": "e938d724e850ba29991b8c5bc839244572949948",
+        "source_utf8_sha256": "7dc91298aaeb96c7a3af0125303efa26af8861fc30bb73fe761c4a64ed87f8ef",
+        "timestamp": "2023-07-15T18:45:21Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 29"
+      },
+      "worksheet_latex": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "779ad36be278c4b0199abc632648f3abf8331bf43031b493e99bb243ca0a2401",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet29_latex_surface_revid807104.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "3e3nqvm6nsvokcc33v86ivll7ce6lru",
+        "metadata": {
+          "bytes": 1207,
+          "path": "authority/mediawiki/worksheet29_latex_surface_revid807104.metadata.json",
+          "sha256": "3a947f5ac87a0b1696cce78e10d35ad4bdd3105402352ca35149c3209d2afa15"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142693,
+        "parentid": 799013,
+        "readable_normalized_bytes": 10,
+        "readable_normalized_sha256": "4ed2bf577a7f53ae3d57df54ac7b20ac7c8611e8a27eca771ffa2c90407234e2",
+        "readable_normalized_witness": "authority/mediawiki/worksheet29_latex_surface_revid807104.wiki",
+        "revid": 807104,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_latex_kontrolle_recursive_current.xml",
+        "source_export_sha256": "4c489c44a3d856304a8724e04c1007aa8b18d0e7099257aaf711a084eab0de7c",
+        "source_utf8_bytes": 9,
+        "source_utf8_sha1": "1d092e4f15139d9908d36c4d64a1f4fde570e1ba",
+        "source_utf8_sha256": "43325387b77733c28a6f53615b73ab776185799fd5d0fe5bf2f27b2d21aa3c36",
+        "timestamp": "2022-09-18T09:56:50Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 29/latex"
+      },
+      "worksheet_root": {
+        "authority": "frozen recursive German Wikiversity Special:Export",
+        "exact_utf8_base64_sha256": "b61ea6a4c69e0560500c8c20f5d2c4ad163aed8b6c9a567a7fc19fdd44796482",
+        "exact_utf8_base64_witness": "authority/mediawiki/worksheet29_root_revid907143.utf8.b64",
+        "format": "text/x-wiki",
+        "mediawiki_sha1_base36": "skvxnklukpdn23aatk4pvymi8n1ejm1",
+        "metadata": {
+          "bytes": 1177,
+          "path": "authority/mediawiki/worksheet29_root_revid907143.metadata.json",
+          "sha256": "5cbaf3be0fccf504780b48708a51575dbdcdf70446ca158fd83835be8fb8359b"
+        },
+        "model": "wikitext",
+        "namespace": 106,
+        "pageid": 142663,
+        "parentid": 907141,
+        "readable_normalized_bytes": 545,
+        "readable_normalized_sha256": "c3a33d1087c5f1ab165c6486cf124e8c1122aa41c3e60774e575e6c28cada63a",
+        "readable_normalized_witness": "authority/mediawiki/worksheet29_root_revid907143.wiki",
+        "revid": 907143,
+        "schema_version": 1,
+        "source_export": "authority/mediawiki/brenner_course_recursive_current.xml",
+        "source_export_sha256": "6b96c90a8b1e52fac57c735f28d0babc56a95050ca015075b755179270d75d14",
+        "source_utf8_bytes": 544,
+        "source_utf8_sha1": "f4ab8b7fb82ed750136341b9ebfb8dd2242fb7c9",
+        "source_utf8_sha256": "b4385f35e123c0f94b6e32ae19187b777d882228d9489de701c5438b2e56aa40",
+        "timestamp": "2023-07-18T17:21:55Z",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 29"
+      }
+    },
+    "root_revision_baselines": {},
+    "root_revision_manifest": {
+      "bytes": 15237,
+      "path": "authority/brenner_selected_root_revisions.csv",
+      "sha256": "64cf91594907db45355e64fb512fb14092e15218c74847a8f60fe884a5284fc8"
+    },
+    "root_revision_overrides": {},
+    "surface_revision_manifest": {
+      "bytes": 31799,
+      "path": "authority/brenner_selected_surface_revisions.csv",
+      "sha256": "9a3a6b7dc08cc022803dad24e959365d67810d4da87a8bc4385c601db9d4bd52"
+    }
+  },
+  "checks": {
+    "all_candidate_solution_titles_queried": true,
+    "all_displayed_images_have_license_macros": true,
+    "all_point_markers_resolved": true,
+    "all_supplied_solution_latex_snapshots_frozen": true,
+    "all_supplied_solution_revisions_frozen": true,
+    "exercise_root_expansion_count_agreement": true,
+    "lecture_expansion_sanitized": true,
+    "revision_export_hashes_match": true,
+    "root_revision_bindings_unique": true,
+    "root_witnesses_match_mediawiki_sha1": true,
+    "solution_macro_api_agreement": true,
+    "surface_revision_bindings_unique": true,
+    "translation_started_by_workflow": false,
+    "unit_media_binary_and_rights_closure": true,
+    "worksheet_expansion_sanitized": true
+  },
+  "expansions": {
+    "lecture": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 26919,
+      "http_date": "Fri, 28 Aug 2026 15:25:01 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesung 29/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 674,
+        "path": "authority/exports/lecture29_latex_expand.json.request.json",
+        "sha256": "cff79204b6b07375bd93e7e63e164f1e7a12b1d77608c6cfa7fde2681145be79"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 28741,
+        "path": "authority/exports/lecture29_latex_expand.json",
+        "sha256": "9b38da14fbcc681e3ed245fe43e8955ff23c3930285f3f850c7827dbe170eb35"
+      },
+      "retrieved_utc": "2026-08-28T15:25:01Z",
+      "sanitized_source": {
+        "bytes": 23633,
+        "path": "authority/expanded/lecture29_source.de.tex",
+        "sha256": "9340f97d02677f67a496875c3b972350b94b7340b0d694923bc124d07b038c92"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 672,
+        "path": "qa/unit-29/lecture29_sanitize.json",
+        "sha256": "b1035980c444615ec36f6ae87253ad4743d164de084b8eae504757115d0833e8"
+      },
+      "valid_utf8": true
+    },
+    "worksheet": {
+      "api_endpoint": "https://de.wikiversity.org/w/api.php",
+      "expanded_characters": 2505,
+      "http_date": "Fri, 28 Aug 2026 15:25:01 GMT",
+      "parameters": {
+        "action": "expandtemplates",
+        "format": "json",
+        "formatversion": "2",
+        "prop": "wikitext|categories|modules|jsconfigvars",
+        "text": "{{Latex}}",
+        "title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 29/latex"
+      },
+      "replacement_characters": false,
+      "request_receipt": {
+        "bytes": 678,
+        "path": "authority/exports/worksheet29_latex_expand.json.request.json",
+        "sha256": "5d0a68173a9ab7aec1d5f91a52e1fa0a81582734f120f0313b2965da470cd203"
+      },
+      "residual_html_tags": false,
+      "response": {
+        "bytes": 2743,
+        "path": "authority/exports/worksheet29_latex_expand.json",
+        "sha256": "6bea9e78f37b58bd0e34f4abe1814747dfc2b7f665f9dd6a6a2121aace2e36f3"
+      },
+      "retrieved_utc": "2026-08-28T15:25:01Z",
+      "sanitized_source": {
+        "bytes": 2078,
+        "path": "authority/expanded/worksheet29_source.de.tex",
+        "sha256": "422070f786b7d7ac19f6358e55c5c492a598cfa0f31d492cd9822ce9a8892e2e"
+      },
+      "sanitizer": {
+        "bytes": 3606,
+        "path": "scripts/sanitize_brenner_expand.py",
+        "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+      },
+      "sanitizer_receipt": {
+        "bytes": 673,
+        "path": "qa/unit-29/worksheet29_sanitize.json",
+        "sha256": "65700c460015528fa1da83c0e231d8fbedf6cbdd97c769d63090e06e9ad77271"
+      },
+      "valid_utf8": true
+    }
+  },
+  "media": {
+    "all_displayed_images_have_license_macros": true,
+    "assets": [
+      {
+        "artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Januszkaja&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Januszkaja (page does not exist)\">Januszkaja</a>",
+        "artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/w/index.php?title=User:Januszkaja&action=edit&redlink=1"
+          ],
+          "creator_label": "Januszkaja"
+        },
+        "artist_text": "Januszkaja",
+        "attribution_required": true,
+        "binary": {
+          "bytes": 32238,
+          "path": "authority/media/Parallel lines in Poincare's model of hyperbolic geometry.svg",
+          "sha256": "0be24daaf98af7e8f2758031765f16ece41e1e987cc5165871e3f2eb4f0675d8"
+        },
+        "bytes": 32238,
+        "commons_lastrevid": 449345728,
+        "commons_pageid": 17369718,
+        "commons_sha1": "ee99cc2a5eedddffa02a0d8ff313fd478ad35b5c",
+        "commons_touched": "2026-06-11T20:06:06Z",
+        "copyrighted_status": "True",
+        "credit_html": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+        "credit_text": "Own work",
+        "current_matches_frozen_rights_manifest": {
+          "artist_html": true,
+          "artist_identity": true,
+          "attribution_required": true,
+          "bytes": true,
+          "copyrighted": true,
+          "credit_html": false,
+          "license": true,
+          "license_url": true,
+          "mime": true,
+          "sha1": true
+        },
+        "description_url": "https://commons.wikimedia.org/wiki/File:Parallel_lines_in_Poincare%27s_model_of_hyperbolic_geometry.svg",
+        "download_receipt": {
+          "bytes": 32238,
+          "content_type": "image/svg+xml",
+          "final_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Parallel_lines_in_Poincare%27s_model_of_hyperbolic_geometry.svg",
+          "http_date": "Fri, 28 Aug 2026 15:24:38 GMT",
+          "retrieved_utc": "2026-08-28T15:24:37Z",
+          "schema_version": 1,
+          "sha1": "ee99cc2a5eedddffa02a0d8ff313fd478ad35b5c",
+          "sha256": "0be24daaf98af7e8f2758031765f16ece41e1e987cc5165871e3f2eb4f0675d8",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Parallel_lines_in_Poincare%27s_model_of_hyperbolic_geometry.svg"
+        },
+        "filename": "Parallel lines in Poincare's model of hyperbolic geometry.svg",
+        "frozen_artist_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Januszkaja&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Januszkaja (page does not exist)\">Januszkaja</a>",
+        "frozen_artist_identity": {
+          "anchor_hrefs": [
+            "//commons.wikimedia.org/w/index.php?title=User:Januszkaja&action=edit&redlink=1"
+          ],
+          "creator_label": "Januszkaja"
+        },
+        "frozen_artist_text": "Januszkaja",
+        "frozen_credit_html": "<span class=\"int-own-work\" lang=\"de\">Eigenes Werk</span>",
+        "frozen_credit_text": "Eigenes Werk",
+        "height": 110,
+        "image_timestamp": "2014-03-31T19:12:32Z",
+        "image_user": "Mik",
+        "license": "CC BY-SA 3.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+        "localized_artist_variance": false,
+        "localized_credit_variance": true,
+        "mime": "image/svg+xml",
+        "occurrences": [
+          {
+            "display_license_alias": null,
+            "displayed_filename": "Parallel lines in Poincare's model of hyperbolic geometry.svg",
+            "filename": "Parallel lines in Poincare's model of hyperbolic geometry.svg",
+            "surface": "lecture29",
+            "surface_order": 1
+          }
+        ],
+        "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Parallel_lines_in_Poincare%27s_model_of_hyperbolic_geometry.svg",
+        "rights_critical_fields_match": true,
+        "sha256": "0be24daaf98af7e8f2758031765f16ece41e1e987cc5165871e3f2eb4f0675d8",
+        "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+        "width": 322
+      }
+    ],
+    "current_commons_api": "https://commons.wikimedia.org/w/api.php",
+    "current_commons_query": {
+      "bytes": 2540,
+      "path": "authority/mediawiki/unit29_media_imageinfo_current.json",
+      "sha256": "8fa49b38f14d5c66dcf71aa374c26826045d8be4dc958ae68e29f4dc334f3c3b"
+    },
+    "current_commons_query_request_receipt": {
+      "bytes": 690,
+      "path": "authority/mediawiki/unit29_media_imageinfo_current.json.request.json",
+      "sha256": "4e5ab6076d6c53607f8822574ace9f1a8bfce2d12b5ea9fe5ef619ade4b39f76"
+    },
+    "occurrence_count": 1,
+    "query_retrieved_utc": "2026-08-28T15:25:02Z",
+    "rights_manifest": {
+      "bytes": 25588,
+      "path": "authority/brenner_media_rights_manifest.csv",
+      "sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57"
+    },
+    "surface_occurrences": [
+      {
+        "display_license_alias": null,
+        "displayed_filename": "Parallel lines in Poincare's model of hyperbolic geometry.svg",
+        "filename": "Parallel lines in Poincare's model of hyperbolic geometry.svg",
+        "surface": "lecture29",
+        "surface_order": 1
+      }
+    ],
+    "unique_asset_count": 1
+  },
+  "next_action": "Translate Lecture 29, Worksheet 29, and exactly the 1 supplied solutions in source order.",
+  "schema_version": 1,
+  "scope": "Brenner Differentialgeometrie Unit 29 authority preflight; no translation",
+  "solutions": {
+    "exercise_count": 3,
+    "exercises": [
+      {
+        "exercise_index": 1,
+        "exists": false,
+        "expanded_body_sha256": "8f282fd51f93e88d33833d5a38da140b7717ca48d774d8599cf492dfb233dd3a",
+        "expanded_body_utf8_bytes": 688,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Mannigfaltigkeit/Tangentialbündel trivial/Triviale riemannsche Struktur/Krümmung/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Mannigfaltigkeit/Tangentialbündel trivial/Triviale riemannsche Struktur/Krümmung/Aufgabe/Lösung",
+        "task_title": "Mannigfaltigkeit/Tangentialbündel trivial/Triviale riemannsche Struktur/Krümmung/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exact_utf8_base64_witness": {
+          "bytes": 2729,
+          "path": "authority/mediawiki/worksheet29_exercise02_solution_revid991186.utf8.b64",
+          "sha256": "0bc0377ac2f45dce887dbeed4cda69ac7d43c08108afa703e41853accf9f2fd9"
+        },
+        "exercise_index": 2,
+        "exists": true,
+        "expanded_body_sha256": "903d64ff712c3bfa6511a9d15bf6499576da3d40a2178804539bb0a534da803a",
+        "expanded_body_utf8_bytes": 251,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_latex": {
+          "api_endpoint": "https://de.wikiversity.org/w/api.php",
+          "expanded_characters": 2392,
+          "http_date": "Fri, 28 Aug 2026 15:25:02 GMT",
+          "parameters": {
+            "action": "expandtemplates",
+            "format": "json",
+            "formatversion": "2",
+            "prop": "wikitext|categories|modules|jsconfigvars",
+            "text": "{{Latex}}",
+            "title": "R^2/Offene Menge/Riemannsche Metrik/Levi-Civita-Zusammenhang/Krümmungsoperator/Berechnung/Aufgabe/Lösung/latex"
+          },
+          "replacement_characters": false,
+          "request_receipt": {
+            "bytes": 744,
+            "path": "authority/exports/worksheet29_exercise02_solution_latex_expand.json.request.json",
+            "sha256": "4d7b8428f546ca6540abf289ca520881a1ffe89d88785dbfe79bc6d24099151d"
+          },
+          "residual_html_tags": false,
+          "response": {
+            "bytes": 2658,
+            "path": "authority/exports/worksheet29_exercise02_solution_latex_expand.json",
+            "sha256": "49e6b01ec48b20e74bd03d9cbd04d0e7b83079ec1f0df6ce0aef01a8901f69b0"
+          },
+          "retrieved_utc": "2026-08-28T15:25:01Z",
+          "sanitized_source": {
+            "bytes": 2070,
+            "path": "authority/expanded/worksheet29_exercise02_solution_source.de.tex",
+            "sha256": "4ec3b14aa635f9fd74a991516bd4acd87003a3bcfae56e0c9e37d0dc30842142"
+          },
+          "sanitizer": {
+            "bytes": 3606,
+            "path": "scripts/sanitize_brenner_expand.py",
+            "sha256": "849643e6af5445530ae01e4fccfd067aceba0a48e7bf598c649e6d2b638ed307"
+          },
+          "sanitizer_receipt": {
+            "bytes": 713,
+            "path": "qa/unit-29/worksheet29_exercise02_solution_sanitize.json",
+            "sha256": "8a7ac9f3dd8069c443bc7f8813609448f606318c3c229f49ffcf3bb70edd1edb"
+          },
+          "valid_utf8": true
+        },
+        "expanded_macro": "inputaufgabegibtloesung",
+        "hint_field": "",
+        "mediawiki_sha1": "57a9e24fa09338aca720a68173127cfa3995a7ba",
+        "metadata": {
+          "bytes": 1413,
+          "path": "authority/mediawiki/worksheet29_exercise02_solution_revid991186.metadata.json",
+          "sha256": "e213947053ee4916295b09789f53d1fe216452ace44a846b581abb1e317d7128"
+        },
+        "pageid": 150141,
+        "parentid": 905259,
+        "point_value": null,
+        "readable_normalized_witness": {
+          "bytes": 2045,
+          "path": "authority/mediawiki/worksheet29_exercise02_solution_revid991186.wiki",
+          "sha256": "3e43c519271ac7e51542d8a6eb40f2ebdcfb8cab46c357f3a2bc67f9d50e05df"
+        },
+        "resolved_solution_title": "R^2/Offene Menge/Riemannsche Metrik/Levi-Civita-Zusammenhang/Krümmungsoperator/Berechnung/Aufgabe/Lösung",
+        "revid": 991186,
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": true,
+        "solution_title": "R^2/Offene Menge/Riemannsche Metrik/Levi-Civita-Zusammenhang/Krümmungsoperator/Berechnung/Aufgabe/Lösung",
+        "source_utf8_bytes": 2044,
+        "source_utf8_sha256": "6d24e921884ec7e07f385119c6cae9498b207ad16dbd3302a3a6a65c3778d0df",
+        "task_title": "R^2/Offene Menge/Riemannsche Metrik/Levi-Civita-Zusammenhang/Krümmungsoperator/Berechnung/Aufgabe",
+        "timestamp": "2025-01-23T11:17:36Z",
+        "title_normalized_by_mediawiki": false
+      },
+      {
+        "exercise_index": 3,
+        "exists": false,
+        "expanded_body_sha256": "15036a1a10e637fd9ff368b60aba31433fdf83572b0d552e98a229be231d63c8",
+        "expanded_body_utf8_bytes": 906,
+        "expanded_fourth_argument_tex": "",
+        "expanded_hint_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "expanded_hint_utf8_bytes": 0,
+        "expanded_macro": "inputaufgabe",
+        "hint_field": "",
+        "point_value": null,
+        "resolved_solution_title": "Torus/Riemannsche Struktur/Eingebettete Realisierung/Krümmung/Aufgabe/Lösung",
+        "root_hint_field": "",
+        "root_point_marker": "",
+        "solution_marker": false,
+        "solution_title": "Torus/Riemannsche Struktur/Eingebettete Realisierung/Krümmung/Aufgabe/Lösung",
+        "task_title": "Torus/Riemannsche Struktur/Eingebettete Realisierung/Krümmung/Aufgabe",
+        "title_normalized_by_mediawiki": false
+      }
+    ],
+    "graded_exercise_count": 0,
+    "macro_api_agreement": true,
+    "missing_solution_count": 2,
+    "point_value_total": 0,
+    "practice_exercise_count": 3,
+    "query": {
+      "bytes": 2864,
+      "path": "authority/mediawiki/unit29_solution_pages_current.json",
+      "sha256": "5135dbe9551b0fe2a3ebbc3343c3fc9c9ea6159a1537126cc13b50685d7f441c"
+    },
+    "query_request_receipt": {
+      "bytes": 903,
+      "path": "authority/mediawiki/unit29_solution_pages_current.json.request.json",
+      "sha256": "609e89334259f2af8bb4a8046473a3a59dfe0ab3d84ee981a3f72ee25d4fb44f"
+    },
+    "query_retrieved_utc": "2026-08-28T15:25:01Z",
+    "schema_version": 1,
+    "supplied_solution_count": 1,
+    "supplied_solution_indices": [
+      2
+    ],
+    "workflow": "o011-unit29-solution-freeze-v1",
+    "worksheet_root_title": "Kurs:Differentialgeometrie (Osnabrück 2023)/Arbeitsblatt 29"
+  },
+  "status": "pass",
+  "structure": {
+    "all_hint_fields_blank": true,
+    "lecture_section_count": 2,
+    "worksheet_exercise_count": 3,
+    "worksheet_graded_count": 0,
+    "worksheet_hint_bearing_indices": [],
+    "worksheet_hint_count": 0,
+    "worksheet_point_total": 0,
+    "worksheet_practice_count": 3,
+    "worksheet_section_count": 2,
+    "worksheet_solution_bearing_indices": [
+      2
+    ]
+  },
+  "unit": 29,
+  "workflow": "o011-unit29-authority-preflight-v1"
+}

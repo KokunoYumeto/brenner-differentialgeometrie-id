@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "scope": "official exam 09 learner form, Bahasa Indonesia",
+  "source": {
+    "path": "authority/exams/expanded/exam09_learner_source.de.tex",
+    "bytes": 10446,
+    "sha256": "7d8cad04c46374478e6b7fbf4aa02ecccd93caba3aef1d8b435565556ab7c208"
+  },
+  "target": {
+    "path": "source/exams/exam-09/exam09_learner.id.tex",
+    "bytes": 10281,
+    "sha256": "5586288e11541188186bd087a939383fb56b7643910899ac33146166a38f6951"
+  },
+  "census": {
+    "actual_problem_occurrences": 13,
+    "source_solution_link_occurrences": 12,
+    "missing_source_solution_occurrences": 1,
+    "zero_point_placeholders": 0,
+    "problem_macro_sequence_equal": true,
+    "point_argument_sequence": [
+      "3",
+      "3",
+      "6",
+      "3",
+      "3",
+      "5",
+      "13 (2+3+2+2+2+2)",
+      "4",
+      "3",
+      "7",
+      "6 (1+2+2+1)",
+      "3",
+      "6"
+    ],
+    "point_total": 65
+  },
+  "checks": {
+    "exact_translation_verifier": "pass",
+    "command_environment_math_protected_call_and_brace_topology": "pass",
+    "problem_occurrence_and_solution_presence": "pass",
+    "point_sequence": "pass",
+    "immutable_link_destinations": "pass",
+    "reader_facing_german_prose_outside_immutable_links": 0,
+    "german_diacritic_hits_outside_immutable_links": 0,
+    "replacement_character_hits": 0
+  },
+  "translation_qa_receipt": {
+    "path": "qa/exams/EXAM09_LEARNER_TRANSLATION_QA.json",
+    "bytes": 1048,
+    "sha256": "1e81458f23aaa955075f6bfbdbb21d29349b86840dddf294a160b83bc120bfb3"
+  },
+  "status": "pass"
+}

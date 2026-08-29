@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "source": "authority/exams/expanded/exam04_solutions_source.de.tex",
+  "source_bytes": 29457,
+  "source_sha256": "f3aea770fda251bcdc138521854a7f5a6e3000e783ae86f0179811ffea5d86a2",
+  "target": "source/exams/exam-04/exam04_solutions.id.tex",
+  "target_bytes": 29631,
+  "target_sha256": "df52cef44c3afec3887c9eebd8a1f7627f78a7e1f67eecd40038a3aa49b1ea90",
+  "checks": {
+    "utf8_without_replacement_character": true,
+    "command_sequence_equal_or_declared": true,
+    "environment_sequence_equal_or_declared": true,
+    "inline_math_equal_or_declared": true,
+    "display_math_equal_or_declared": true,
+    "protected_macro_calls_equal_or_declared": true,
+    "brace_profile_equal_or_declared": true,
+    "all_declared_deltas_consumed": true,
+    "evidence_only_deltas_verified": true
+  },
+  "counts": {
+    "commands": 864,
+    "environments": 72,
+    "inline_math": 114,
+    "display_math": 0,
+    "protected_calls": 96
+  },
+  "status": "pass",
+  "failures": [],
+  "declared_corrections": [
+    "O011-EXAM04-SOL-0001",
+    "O011-EXAM04-SOL-0002",
+    "O011-EXAM04-SOL-0003",
+    "O011-EXAM04-SOL-0004",
+    "O011-EXAM04-SOL-0005",
+    "O011-EXAM04-SOL-0006",
+    "O011-EXAM04-SOL-0007"
+  ],
+  "evidence_only_results": [
+    {
+      "correction_id": "O011-EXAM04-SOL-0003",
+      "surface": "command:mathkor",
+      "occurrence_index": 0,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-EXAM04-SOL-0004",
+      "surface": "command:mathkor",
+      "occurrence_index": 1,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-EXAM04-SOL-0005",
+      "surface": "command:mathkor",
+      "occurrence_index": 2,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-EXAM04-SOL-0006",
+      "surface": "command:mathkor",
+      "occurrence_index": 3,
+      "status": "pass",
+      "detail": "verified"
+    },
+    {
+      "correction_id": "O011-EXAM04-SOL-0007",
+      "surface": "command:mathkor",
+      "occurrence_index": 4,
+      "status": "pass",
+      "detail": "verified"
+    }
+  ]
+}

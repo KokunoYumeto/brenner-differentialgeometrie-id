@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "input": "source/exams/exam-10/exam10_learner.id.tex",
+  "input_bytes": 9540,
+  "input_sha256": "989b0d2f8f6cc963b5e91537e811dc28a9cdea709a636a7843d69d0b9f257791",
+  "output": "build/generated/exams/exam10_learner.id.build.tex",
+  "output_bytes": 9513,
+  "output_sha256": "6bcc9bd18879311e10680ed82850f0eb015aad0baf7b291fede68ebbcd9a542f",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [],
+  "wiki_link_resolution_passes": 0,
+  "rendered_interactive_gif_links": []
+}

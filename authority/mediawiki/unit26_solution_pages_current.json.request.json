@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 15:21:12 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Offene Menge/R^n/Induzierte riemannsche Struktur/Levi-Civita-Zusammenhang/Vertikale Ableitung/Berechnung/1/Aufgabe/Lösung|Intervall/Riemannsche Struktur/Levi-Civita-Zusammenhang/Vertikale Ableitung/Berechnung/1/Aufgabe/Lösung|Intervall/Riemannsche Struktur/Levi-Civita-Zusammenhang/Horizontale Schnitte/Aufgabe/Lösung|Mannigfaltigkeit/Tangentialbündel trivial/Triviale riemannsche Struktur/Levi-Civita-Zusammenhang/Aufgabe/Lösung|Poincaresche Halbebene/Vertikale Ableitung/Berechnung/1/Aufgabe/Lösung|Tangentialbündel/Linearer Zusammenhang/Torsionsfrei/Basisschnitte/Aufgabe/Lösung|Intervall/Tangentialbündel/Linearer Zusammenhang/Torsionsfrei/Aufgabe/Lösung|R^n/Offene Menge/Riemannsche Struktur/Zusammenhang aus Christoffel-Symbole/Koszul-Eigenschaft/Allgemein/Aufgabe/Lösung|Riemannsche Mannigfaltigkeit/Linearer Zusammenhang/Metrisch auf Basisfeldern/Metrisch/Aufgabe/Lösung|Offenes Intervall/Triviales Bündel/Metrischer Zusammenhang/Aufgabe/Lösung|Mannigfaltigkeit/Riemannsches Vektorbündel/Linearer Zusammenhang/Metrisch auf Basisfeldern/Metrisch/Aufgabe/Lösung|Eingebettete Mannigfaltigkeit/Inverse Karte/Zweites Tangentialbündel/Partielle Ableitungen/Aufgabe/Lösung|Intervall/Riemannsche Struktur/Levi-Civita-Zusammenhang/Vertikale Ableitung/Berechnung/2/Aufgabe/Lösung|Halbebene/Poincaré/Riemannsche Geometrie/Christoffelsymbole/Berechnung/Aufgabe/Lösung|Poincaresche Halbebene/Vertikale Ableitung/Berechnung/2/Aufgabe/Lösung|Offene Menge/Linearer Zusammenhang/Torsionsfrei/Unabhängige Christoffelsymbole/Aufgabe/Lösung"
+  },
+  "response_bytes": 10809,
+  "response_path": "unit26_solution_pages_current.json",
+  "response_sha256": "7af6c53573ed6fa9dd85b0e4367755cd8cca2b47d223704ae1183a5452cf4c06",
+  "retrieved_utc": "2026-08-28T15:21:12Z",
+  "schema_version": 1
+}

@@ -1,0 +1,1281 @@
+\setcounter{section}{24}
+
+Zu einer differenzierbaren Hyperfläche
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+der
+\definitionsverweis {Tangentialraum}{}{}
+ein Untervektorraum
+
+\mavergleichskette
+{\vergleichskette
+{ T_PY
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und das Standardskalarprodukt des $\R^n$ erlaubt über die
+\definitionsverweis {orthogonale Projektion}{}{}
+\maabbdisp {\pi_P} {\R^n } { T_PY
+} {,}
+Daten im umgebenden Raum auf der Hyperfläche zu interpretieren und dadurch wichtige Konzepte für $Y$ einzuführen, wie beispielsweise die
+\definitionsverweis {tangentiale Beschleunigung}{}{,}
+\definitionsverweis {geodätische Kurven}{}{,}
+die
+\definitionsverweis {Krümmung}{}{,}
+die
+\definitionsverweis {kovariante Ableitung eines Vektorfeldes}{}{,}
+ein
+\definitionsverweis {paralleles Vektorfeld}{}{}
+und den
+\definitionsverweis {Paralleltransport}{}{.}
+Das Standardskalarprodukt definiert aber auch eine
+\definitionsverweis {riemannsche Struktur}{}{}
+auf $Y$, und es erhebt sich die Frage, ob man die eben erwähnten Konzepte auch intrinsisch, nur durch Kenntnis von $Y$ und ihrer riemannschen Struktur, definieren kann
+\zusatzklammer {beispielsweise für die
+\definitionsverweis {hyperbolische Fläche}{}{}} {} {.}
+Um diese Frage beantworten zu können, muss man eine neue Technik einführen, die sogenannten Zusammenhänge auf einem Vektorbündel und insbesondere auf dem Tangentialbündel einer
+\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{.}
+Im Fall einer riemannschen Mannigfaltigkeit ergibt sich in kanonischer Weise der sogenannte \stichwort {Levi-Civita-Zusammenhang} {}
+\zusatzklammer {siehe
+[[Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Eindeutige Existenz/Fakt|Satz 26.12]]} {} {,}
+mit dem man die oben erwähnten Konzepte intrinsisch erfassen kann.
+
+  \zwischenueberschrift{Zusammenhänge}
+
+Es sei $X$ eine reelle
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und
+\maabbdisp {p} { E } { X
+} {}
+ein Vektorbündel über $X$, das wir ebenfalls als eine differenzierbare Mannigfaltigkeit ansetzen. Die
+\definitionsverweis {Tangentialabbildung}{}{}
+ist eine Abbildung
+\maabb {T(p)} {TE} {TX
+} {,}
+die in dem kommutativen Diagramm
+
+\mathdisp {\begin{matrix} TE & \stackrel{ T(p) }{\longrightarrow} & TX &  \\ \downarrow & & \downarrow  & \\  E  & \stackrel{ p }{\longrightarrow} &  X  & \! \! \! \!\!\!\!\!   \\ \end{matrix}} {  }
+
+liegt, und wobei für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \in }{ E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit Basispunkt
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ = }{ p(e)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {lineare}{}{}
+\definitionsverweis {Tangentialabbildung}{}{}
+\maabbdisp {T_e(p)} {T_e E} { T_{x}X
+} {}
+vorliegt. Diese ist surjektiv, was beispielsweise daraus folgt, dass es bei einem Vektorbündel $E$ lokal durch jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \in }{ E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+einen Schnitt gibt. Um eine gemeinsame Basis zu haben, fassen wir $T(p)$ als
+\definitionsverweis {Bündelabbildung}{}{}
+\maabbdisp {Tp} {TE} { p^* TX
+} {}
+von Vektorbündeln über $E$ auf. Dabei ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ p^*TX
+}
+{ =} { E \oplus TX
+}
+{ =} { E \times_X TX
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+die
+\definitionsverweis {direkte Summe}{}{}
+von Vektorbündeln über $X$, siehe
+[[Topologischer Raum/Vektorbündel/Summe/Produktrealisierung/Aufgabe|Aufgabe 12.24]],
+wobei wir hier $p^*TX$ als Vektorbündel über $E$ auffassen. Die Faser von $p^*TX$ über einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \in }{ E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit Basispunkt
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ = }{ p(e)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist einfach $T_{x}X$ und die Abbildung in der Faser ist nach wie vor
+\maabbdisp {T_e (p)} { T_e E } { T_{x} X
+} {,}
+wobei es in $p^*TX$ für jedes
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \in }{ E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+eine Kopie von $T_{x} X$ gibt.
+
+\inputbemerkung
+{}
+{
+
+Es sei
+\maabb {p} { E } { X
+} {}
+ein differenzierbares
+\definitionsverweis {Vektorbündel}{}{}
+über einer
+\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+$X$. Für eine offene Menge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+über der $E$ trivialisiert, also die Gestalt
+
+\mavergleichskette
+{\vergleichskette
+{ E  \vert_U
+}
+{ \cong }{ U \times W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+mit einem $\R$-Vektorraum $W$ hat, ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ T  \left(  E \vert_U  \right)
+}
+{ =} { T(U \times  W )
+}
+{ =} { T U \times T W
+}
+{ =} { TU \times W \times W
+}
+{ } {
+}
+}
+{}{}{,}
+und die
+\definitionsverweis {Tangentialabbildung}{}{}
+zu
+\maabb {p_U} {E \vert_U } { U
+} {}
+ist dabei die Projektion auf $TU$. Als Bündelhomomorphismus über $U \times W$ muss man
+
+\mavergleichskettedisp
+{\vergleichskette
+{ p^*TU
+}
+{ =} { TU \times W
+}
+{ =} { TU \times_U (U \times W)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+\maabbdisp {} {T  \left(  E \vert_U  \right)  = TU \times W \times W  } { TU \times W
+} {}
+mit der Projektion auf $TU$ und der zweiten Projektion auf $W$ nehmen.
+
+}
+
+\inputdefinition
+{}
+{
+
+Es sei
+\maabb {p} { E } { X
+} {}
+ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+auf einer
+\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+$X$. Das
+\definitionsverweis {Kernbündel}{}{}
+des
+\definitionsverweis {surjektiven}{}{}
+\definitionsverweis {Bündelhomomorphismus}{}{}
+\maabbdisp {T(p)} {TE} {p^*TX
+} {}
+über $E$ heißt \definitionswort {Vertikalbündel}{.}  Es wird mit $V$ bezeichnet.
+
+}
+
+Das Vertikalbündel ist ein Vektorbündel über $E$ nach
+[[Topologischer Raum/Reelles Vektorbündel/Homomorphismus/Kern/Untervektorbündel/Aufgabe|Aufgabe 12.19]]
+und zwar ein
+\definitionsverweis {Untervektorbündel}{}{}
+von $TE$.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Vektorbündel/R/Vertikalbündel/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+\maabb {p} { E } { X
+} {}
+ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+auf einer
+$C^2$-\definitionsverweis {differenzierbaren Mannigfaltigkeit}{}{}
+$X$.}
+\faktuebergang {Dann gelten folgende Aussagen.}
+\faktfolgerung {\aufzaehlungdrei{Es liegt eine
+\definitionsverweis {kurze exakte Sequenz}{}{}
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \,  V   \, \stackrel{  }{ \longrightarrow}   \,  TE  \, \stackrel{  }{\longrightarrow} \, p^* TX \,\stackrel{  } {\longrightarrow}  \, 0} {  }
+
+von
+\definitionsverweis {Homomorphismen}{}{}
+von Vektorbündeln über $E$ vor.
+}{Für das
+\definitionsverweis {Vertikalbündel}{}{}
+liegt eine
+\definitionsverweis {Bündelisomorphie}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ V \cong p^*E
+}
+{ = }{ E \oplus E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+vor.
+}{Für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \in }{ E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+liegt eine kurze exakte Sequenz von Vektorräumen
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \, E_{p(e)}   \, \stackrel{  }{ \longrightarrow}   \,  T_eE  \, \stackrel{  }{\longrightarrow} \, T_{p(e)}X \,\stackrel{  } {\longrightarrow}  \, 0} {  }
+
+vor.
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\aufzaehlungzwei {Dies ist klar.
+} {Es gibt einen injektiven Homomorphismus von Vektorbündeln
+\maabbdisp {} {p^*E = E \oplus E} { TE
+} {}
+über $E$, der
+\mathl{(P,u)}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ u
+}
+{ \in }{ E_P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+auf den Tangentialvektor abbildet, der durch die
+\zusatzklammer {vertikale} {} {}
+differenzierbare Kurve
+\maabbeledisp {} {\R} {E
+} { t } {(P,tu)
+} {,}
+gegeben ist. Unter
+\maabbdisp {} {TE} { p^*TX
+} {}
+werden diese Tangentialvektoren auf $0$ abgebildet, da ja die repräsentierende Kurve unter
+\maabb {p} { E } { X
+} {}
+auf $P$ abgebildet wird. Daher ist
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ \subseteq }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und aus Ranggründen liegt eine Isomorphie vor.
+}
+
+}
+
+Häufig ist das Vektorbündel $E$ gleich dem Tangentialbündel von $X$, dann liegt eine kurze exakte Sequenz
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \, p^* TX  \, \stackrel{  }{ \longrightarrow}   \, TTX  \, \stackrel{  }{\longrightarrow} \, p^* TX \,\stackrel{  } {\longrightarrow}  \, 0} {  }
+
+vor, und man muss stets sorgfältig unterscheiden, ob man das Tangentialbündel links oder rechts meint.
+
+\inputbemerkung
+{}
+{
+
+Es sei
+\maabbdisp {f} {\R^n } { \R
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ f^{-1} (0)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die zugehörige
+\definitionsverweis {differenzierbare Hyperfläche}{}{,}
+die in jedem Punkt
+\definitionsverweis {regulär}{}{}
+sei. Das
+\definitionsverweis {Tangentialbündel}{}{}
+$TY$ lässt sich ebenfalls als eine Faser von Funktionen beschreiben, nämlich als
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ TY
+}
+{ =} { \left\{  (P,u)   \mid   f(P) = 0 , \,  \left(  D f   \right)_{ P } \left(  u  \right) = 0       \right\}
+}
+{ =} { \left\{  (P,u_1 , \ldots , u_n)   \mid   f(P) = 0 , \,  \sum_{i = 1}^n u_i { \frac{   \partial   f   }{  \partial   x_i   } } ( P) = 0       \right\}
+}
+{ \subseteq} { \R^n \times \R^n
+}
+{ } {
+}
+}
+{}
+{}{,}
+siehe
+[[Differenzierbare Hyperfläche/Tangentialbündel/Implizite Realsierung/Aufgabe|Aufgabe 10.15]].
+Wir fassen dabei $f$ als Funktion auf dem $\R^{2n}$ auf, die nur von den ersten $n$ Variablen abhängt, und wir setzen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ g(P,u)
+}
+{ =} { \sum_{i = 1}^n u_i { \frac{   \partial   f   }{  \partial   x_i   } } ( P)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Das zweite Tangentialbündel $TTY$, also das Tangentialbündel zu $TY$, können wir entsprechend mit dem
+\definitionsverweis {totalen Differential}{}{}
+zu
+\maabbdisp {\varphi = (f,g)} {\R^{2n}} { \R^2
+} {}
+beschreiben, es ist
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ TTY
+}
+{ =} { \left\{  (P,u, v,w)  \mid   (P,u) \in TY , \,  \left(  D\varphi  \right)_{(P,u)} \left(  (v,w)  \right) = 0       \right\}
+}
+{ \subseteq} { \R^{4n}
+}
+{ } {
+}
+{ } {}
+}
+{}
+{}{.}
+Die
+\definitionsverweis {Jacobi-Matrix}{}{,}
+die das totale Differential $D \varphi$  beschreibt, ist
+
+\mathdisp {\begin{pmatrix}   { \frac{   \partial   f   }{  \partial   x_1   } } ( P)   &   \ldots &  { \frac{   \partial   f   }{  \partial   x_n   } } ( P)  &   0 &  \ldots &  0  \\   \sum_{i = 1}^n u_i   { \frac{   \partial    }{  \partial   x_1   } } { \frac{   \partial   f   }{  \partial   x_i   } } ( P)  &  \ldots  &   \sum_{i = 1}^n u_i   { \frac{   \partial    }{  \partial   x_n   } } { \frac{   \partial   f   }{  \partial   x_i   } } ( P)   &  { \frac{   \partial   f   }{  \partial   x_1   } } ( P)  &  \ldots &  { \frac{   \partial   f   }{  \partial   x_n   } } ( P)    \end{pmatrix}} { . }
+
+Dies ergibt neben den beiden Bedingungen für den $TY$, die sich nur auf
+\mathkor {} {P} {und} {u} {}
+beziehen, die beiden zusätzlichen Bedingungen an alle Variablen, nämlich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \sum_{j = 1}^n v_j { \frac{   \partial   f   }{  \partial   x_j   } } ( P)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \sum_{j = 1}^n v_j  \left(  \sum_{i = 1}^n u_i { \frac{   \partial    }{  \partial   x_i   } }  { \frac{   \partial   f   }{  \partial   x_j   } } ( P)  \right)      + \sum_{k = 1}^n w_k { \frac{   \partial   f   }{  \partial   x_k   } } ( P)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+
+}
+
+\inputbemerkung
+{}
+{
+
+Es sei
+\maabbdisp {f} {\R^n } { \R
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ f^{-1} (0)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die zugehörige
+\definitionsverweis {differenzierbare Hyperfläche}{}{,}
+die in jedem Punkt
+\definitionsverweis {regulär}{}{}
+sei. Wir knüpfen an die Beschreibung des zweiten Tangentialbündels $TTY$ aus
+[[Differenzierbare Hyperfläche/Zweites Tangentialbündel/Implizite Beschreibung/Bemerkung|Bemerkung 24.4]]
+mit den dortigen Bezeichnungen an. Das zurückgezogene Tangentialbündel $\pi^* TY$ zu
+\maabbdisp {\pi} {TY} {Y
+} {,}
+das zugleich das
+\definitionsverweis {Vertikalbündel}{}{}
+ist, ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ V
+}
+{ \cong} { \pi^*TY
+}
+{ =} { TY \times_Y TY
+}
+{ =} { \left\{ (P,u,z)  \mid  f(P) = 0 , \,  \sum_{i = 1}^n u_i { \frac{   \partial   f   }{  \partial   x_i   } } ( P) = 0   , \,  \sum_{k = 1}^n z_k { \frac{   \partial   f   }{  \partial   x_k   } } ( P) = 0    \right\}
+}
+{ } {
+}
+}
+{}
+{}{.}
+Wir müssen bestimmen, wie die tangentiale Abbildung
+\maabb {T(\pi)} {TTY } { \pi^* TY
+} {}
+und wie die Einbettung des Vertikalbündels in $TTY$ aussieht. Nach
+[[Differenzierbare Hyperfläche/Tangentialbündel/Differenzierbarer Weg/Zweites Tangentialbündel/Aufgabe|Aufgabe 24.2]]
+ist
+\maabbeledisp {T(\pi)} {TTY} { \pi^* TY
+} {(P,u,v,w)} { (P,u,v)
+} {.}
+Der Kern davon ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ V
+}
+{ =} { \left\{  (P,u,0,w)   \mid   (P,u,0,w) \in TTY          \right\}
+}
+{ \subset} { TTY
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei man direkt sieht, dass dann
+\mathl{(P,u,w)}{} die Bedingung für
+\mathl{\pi^*TY}{} erfüllt. Die Bündelhomomorphismen in der kurzen exakten Sequenz
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \,  \pi^*TY  \, \stackrel{  }{ \longrightarrow}   \, TTY  \, \stackrel{  }{\longrightarrow} \,  \pi^*TY \,\stackrel{  } {\longrightarrow}  \, 0} {  }
+
+kann man also in Koordinaten als
+
+\mathl{(P,u,w) \mapsto  (P,u,0,w)}{} und
+\mathl{(P,u,v,w) \mapsto (P,u,v)}{} schreiben.
+
+}
+
+Wenn $E$ das triviale Bündel ist, also
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ = }{ X \times \R^r
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+so gibt es eine direkte Zerlegung
+\zusatzklammer {über $E$} {} {}
+
+\mavergleichskette
+{\vergleichskette
+{ TE
+}
+{ = }{ V \oplus p^* TX
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Für jeden Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ e
+}
+{ \in }{ E
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+repräsentieren dann die Tangentialvektoren
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die vertikalen Richtungen und
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ p^* T_xX
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die \anfuehrung{horizontalen Richtungen}{.} Für jedes Vektorbündel kann man lokal mithilfe von Trivialisierungen den Tangentialraum
+\mathl{T_eE}{} in die direkte Summe aus vertikalem Raum und horizontalem Raum zerlegen. Allerdings hängen die horizontalen Unterräume wesentlich von der gewählten Trivialisierung ab und lassen sich nicht ohne Weiteres
+\zusatzklammer {im Gegensatz zu den vertikalen Unterräumen, die zusammen das Vertikalbündel bilden} {} {}
+zu einem Unterbündel zusammenfassen. Die Existenz eines solchen Bündels wird durch den Begriff des Zusammenhangs beschrieben.
+
+\inputdefinition
+{}
+{
+
+Es sei $X$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und $E$ ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+auf $X$. Unter einem
+\definitionswort {Zusammenhang}{}
+auf $E$ versteht man eine direkte Summenzerlegung des
+\definitionsverweis {Tangentialbündels}{}{}
+
+\mavergleichskette
+{\vergleichskette
+{ TE
+}
+{ = }{ V \oplus H
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+in zwei
+\definitionsverweis {Untervektorbündel}{}{}
+\mathkor {} {V} {und} {H} {,}
+wobei
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ \subseteq }{ TE
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+das
+\definitionsverweis {Vertikalbündel}{}{}
+ist. Das Unterbündel
+
+\mavergleichskette
+{\vergleichskette
+{ H
+}
+{ \subseteq }{ TE
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+nennt man das
+\definitionswort {Horizontalbündel}{}
+des Zusammenhangs.
+
+}
+
+Ein Zusammenhang wird zumeist kurz als $\nabla$ bezeichnet, insbesondere, wenn man die durch einen Zusammenhang bestimmten Ableitungsprozesse betonen möchte. Gemäß dieser Definition ist also ein Zusammenhang nichts anderes als ein zum Vertikalbündel komplementäres Unterbündel des Tangentialbündels $TE$. Es gibt einige inhaltlich äquivalente Beschreibungen eines Zusammenhangs. Ein Zusammenhang ist äquivalent zu einem Bündelhomomorphismus
+\zusatzklammer {der \stichwort {Vertikalprojektion} {} des Zusammenhangs} {} {}
+\maabbdisp {\pi_{\text{vert} }} {TE} {V
+} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \pi_{\text{vert} }  \circ \iota
+}
+{ =} {
+\operatorname{Id}_{  V  }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei $\iota$ die Einbettung von $V$ in $TE$ bezeichne. Das horizontale Bündel ist dann der Kern von $\pi_{\text{vert} }$, und umgekehrt liefert die Summenzerlegung eine Projektion auf die beiden Summanden. Eine solche Summenzerlegung nennt man auch eine \stichwort {Spaltung} {} der kurzen exakten Sequenz. Einen Zusammenhang kann man auf jede offene Teilmenge
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+einschränken.
+
+\inputbeispiel{}
+{
+
+Auf dem trivialen Bündel
+\maabbdisp {p} {X \times W = W_X } { X
+} {,}
+wobei $W$ einen reellen Vektorraum der
+\definitionsverweis {Dimension}{}{}
+$r$ und $X$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+bezeichnet, liegt  die kurze exakte Sequenz
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \, p^*(X \times W)  =  X \times W \times W   \, \stackrel{  }{ \longrightarrow}   \, p^* T(X \times W )  = TX \times W \times W   \, \stackrel{  }{\longrightarrow} \, p^* TX  =  TX \times W   \,\stackrel{  } {\longrightarrow}  \, 0} {  }
+
+von Vektorbündeln über
+\mathl{X \times W}{} vor. Die Produkte werden dabei absolut genommen, wobei links die Identifizierung
+
+\mavergleichskette
+{\vergleichskette
+{ (X \times W) \times_X (X \times W)
+}
+{ = }{ X \times W \times W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und rechts die Identifizierung
+
+\mavergleichskette
+{\vergleichskette
+{ TX \times_X (X \times W)
+}
+{ = }{ TX \times W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+vorgenommen wurde. Zu einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ (x,w)
+}
+{ \in }{ X \times W
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gehört die exakte Sequenz der Fasern, also
+
+\mathdisp {0 \, \stackrel{  }{\longrightarrow} \,  W   \, \stackrel{  }{ \longrightarrow}   \,  T_xX \times W   \, \stackrel{  }{\longrightarrow} \,  T_xX \,\stackrel{  } {\longrightarrow}  \, 0} { . }
+
+Die triviale Spaltung dieser kurzen exakten Sequenz von Vektorbündeln nennt man den \stichwort {trivialen Zusammenhang} {} auf dem trivialen Bündel.
+
+}
+
+\inputbemerkung
+{}
+{
+
+Es sei
+\maabbdisp {f} {\R^n } { \R
+} {}
+eine zweifach
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ f^{-1} (0)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die zugehörige
+\definitionsverweis {differenzierbare Hyperfläche}{}{,}
+die in jedem Punkt
+\definitionsverweis {regulär}{}{}
+sei. Wir knüpfen an die Beschreibung des zweiten Tangentialbündels $TTY$ aus
+[[Differenzierbare Hyperfläche/Zweites Tangentialbündel/Implizite Beschreibung/Bemerkung|Bemerkung 24.4]]
+und an die Bündelhomomorphismen aus
+[[Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierte Bündelhomomorphismen/Bemerkung|Bemerkung 24.5]]
+an. Durch die orthogonale Projektion
+\maabb {} {\R^n } { T_PY
+} {}
+erhält man die vertikale Projektion
+\maabbeledisp {} {TTY} { V = p^*TY
+} {(P,u,v,w)} { (P,u, \pi_P (w) )
+} {,}
+auf das
+\definitionsverweis {Vertikalbündel}{}{.}
+Durch die orthogonale Projektion gehört $\pi_P(w)$ zum Tangentialraum an $Y$, wenn man mit einem Vektor
+
+\mavergleichskette
+{\vergleichskette
+{ (P,u,w)
+}
+{ \in }{ V
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+startet, so ist in
+\mathl{(P,u,0,w)}{} das hintere $w$ automatisch im Tangentialraum, die orthogonale Projektion bildet solche Elemente also auf $(P,u,w)$ zurück ab. Es ergibt sich also ein
+\definitionsverweis {Zusammenhang}{}{}
+auf $TY$.
+
+}
+
+  \zwischenueberschrift{Vertikale Ableitung}
+
+\inputdefinition
+{}
+{
+
+Es sei $X$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und $E$ ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+auf $X$, das mit einem
+\definitionsverweis {Zusammenhang}{}{}
+versehen sei. Unter der
+\definitionswort {vertikalen Ableitung}{}
+$\nabla$ versteht man die Abbildung
+\maabbeledisp {\nabla} {C^1(E)} { C^0(E \otimes T^* X )
+} { s } { \nabla(s) = \pi_{\text{vert} }  \circ T(s)
+} {.}
+
+}
+Zu einem differenzierbaren Schnitt $s$ in $E$
+\zusatzklammer {über $X$ oder einer beliebigen offenen Teilmenge
+
+\mavergleichskettek
+{\vergleichskettek
+{ U
+}
+{ \subseteq }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+wird also die Abbildung
+
+\mathdisp {TX \stackrel{T(s)}{ \longrightarrow } TE \stackrel{ \pi_{\text{vert} } }{\longrightarrow} V \cong p^*E \longrightarrow E} {  }
+
+zugeordnet, wobei wir
+
+\mavergleichskette
+{\vergleichskette
+{ \operatorname{Hom}(TX,E)
+}
+{ \cong }{ E \otimes T^*X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+auffassen.
+
+Wenn zusätzlich ein
+\definitionsverweis {Vektorfeld}{}{}
+$F$ auf $X$, also ein Schnitt
+\maabb {F} { X } { TX
+} {}
+im
+\definitionsverweis {Tangentialbündel}{}{}
+$TX$ gegeben ist, so erhält man die Abbildung
+\maabbeledisp {\nabla_F} {C^1(E)} {C^0(E)
+} {s } {\nabla_F(s) = \nabla (s) \circ F
+} {,}
+die man die \stichwort {vertikale Ableitung} {} in Richtung $F$ nennt. Man beachte, dass dabei die Abhängigkeit vom Vektorfeld $F$ nur punktweise ist, die Abhängigkeit von $s$ aber infinitesimal ist, da die Tangentialabbildung
+\mathl{T(s)}{} eingeht.
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Ableitung bezüglich Vektorfeld/Eigenschaften/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei $X$ eine
+\definitionsverweis {differenzierbare Mannigfaltigkeit}{}{}
+und $E$ ein
+\definitionsverweis {differenzierbares Vektorbündel}{}{}
+auf $X$, das mit einem
+\definitionsverweis {Zusammenhang}{}{}
+versehen sei. Es bezeichne
+\maabbdisp {\nabla_F} {C^1(E)} {C^0(E)
+} {}
+den zugehörigen Ableitungsoperator zu einem
+\definitionsverweis {Vektorfeld}{}{}
+$F$.}
+\faktuebergang {Dann gelten die folgenden Eigenschaften.}
+\faktfolgerung {\aufzaehlungzwei {
+\mathl{\left(  \nabla_F(s)  \right)  (P)}{} hängt nur von $F(P)$
+\zusatzklammer {und $s$ ab} {} {.}
+} {Es ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_{g_1F_1+g_2F_2 }
+}
+{ =} { g_1 \nabla_{F_1 } +g_2 \nabla_{F_2 }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+für Vektorfelder $F_1,F_2$ und Funktionen
+\maabb {g_1,g_2} { X} { \R
+} {.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\aufzaehlungzwei {Zu einem fixierten Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ X
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und einem fixierten Schnitt
+
+\mavergleichskette
+{\vergleichskette
+{ s
+}
+{ \in }{ C^1(U,E)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+zu einer offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{ \subseteq }{ X
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \nabla_F (s)(P)
+}
+{ =} { ( \pi_{\text{vert} } \circ  T_P(s) ) (F(P))
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+} {Die Tangentialabbildung und die vertikale Projektion sind linear. Wegen (1) ist die Abhängigkeit von $F$ linear und auch mit der Multiplikation von Funktionen verträglich.
+}
+
+}
+
+__NOEDITSECTION__
+
+\inputfaktbeweis
+{Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierter Zusammenhang/Vertikale Ableitung/Fakt}
+{Lemma}
+{}
+{
+
+\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ W
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+$W$
+\definitionsverweis {offen}{}{,}
+eine
+\definitionsverweis {differenzierbare Hyperfläche}{}{}
+und sei
+\maabbdisp {F} { Y} { \R^n
+} {}
+ein tangentiales Vektorfeld.}
+\faktfolgerung {Dann stimmt die
+\definitionsverweis {vertikale Ableitung}{}{}
+$\nabla_F$ zum
+\definitionsverweis {Zusammenhang}{}{}
+aus
+[[Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierter Zusammenhang/Bemerkung|Bemerkung 24.8]]
+mit der
+\definitionsverweis {kovarianten Ableitung}{}{}
+überein.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Die vertikale Ableitung längs $F$  des Zusammenhangs eines differenzierbaren Schnittes
+\maabb {s} { Y } { TY
+} {}
+ist
+
+\mathdisp {Y \stackrel{F}{\longrightarrow} TY \stackrel{T(s)}{\longrightarrow} TTY  \stackrel{  \pi_{\text{vert} } }{\longrightarrow} TY} { . }
+
+Dabei bildet $T(s)$ einen Punkt
+\mathl{(P,u)}{} auf
+\mathl{(P,u, s(P), \left(  D s   \right)_{ P } \left(  u   \right))}{}  in der Notation von
+[[Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierter Zusammenhang/Bemerkung|Bemerkung 24.8]]
+ab und dieses wird auf
+\mathl{(P, \pi_P  \left(  \left(  D s   \right)_{ P } \left(  u   \right)  \right) )}{} abgebildet. Dies stimmt mit der Definition der kovarianten Ableitung überein.
+
+}
+
+ [[Kategorie:Latexseite]]

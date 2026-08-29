@@ -1,0 +1,91 @@
+\aufzaehlungfuenf{Es ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \Psi_Q(0)
+}
+{ =} { \left(  \cos  0   , \,   \sin  0  , \,   M(0) \begin{pmatrix}  a  \\b   \end{pmatrix}                 \right)
+}
+{ =} { \left(  1   , \,   0  , \,   \begin{pmatrix}   1   &   0   \\  0   &  1  \end{pmatrix}    \begin{pmatrix}  a  \\b   \end{pmatrix}                 \right)
+}
+{ =} { \left(  1   , \,   0  , \,     \begin{pmatrix}  a  \\b   \end{pmatrix}                 \right)
+}
+{ } {
+}
+}
+{}
+{}{.}
+}{Es ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \Psi_Q(2 \pi )
+}
+{ =} { \left(  \cos  2 \pi   , \,   \sin  2 \pi  , \,   M(2 \pi) \begin{pmatrix}  a  \\b   \end{pmatrix}                 \right)
+}
+{ =} { \left(  1   , \,   0  , \,   \begin{pmatrix}  \cos  c   &   - \sin c    \\  \sin c   &   \cos  c     \end{pmatrix} \begin{pmatrix}  a  \\b   \end{pmatrix}                 \right)
+}
+{ =} { \left(  1   , \,   0  , \,     \begin{pmatrix} a \cos  c   - b \sin c   \\ a \sin  c   - b \cos c    \end{pmatrix}                 \right)
+}
+{ } {
+}
+}
+{}
+{}{.}
+}{Es ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{  \Psi_Q(t)
+}
+{ =} { \left(  \cos  t    , \,   \sin  t  , \,   \begin{pmatrix}   \cos  { \frac{  ct  }{  2 \pi   } }   &   - \sin  { \frac{  ct  }{  2 \pi   } }    \\  \sin  { \frac{  ct  }{  2 \pi   } }   &   \cos  { \frac{  ct  }{  2 \pi   } }  \end{pmatrix}  \begin{pmatrix}  a  \\b   \end{pmatrix}                 \right)
+}
+{ =} { \left(  \cos  t   , \,   \sin  t  , \,   \begin{pmatrix}  a \cos  { \frac{  ct  }{  2 \pi  } }  - b \sin  { \frac{  ct  }{  2 \pi  } }   \\ a \sin  { \frac{  ct  }{  2 \pi  } }  +   b  \cos  { \frac{  ct  }{  2 \pi } }    \end{pmatrix}                 \right)
+}
+{ =} { \left(  \cos  t   , \,   \sin  t  , \,     \left(  a \cos  { \frac{  ct  }{  2 \pi  } }  - b \sin  { \frac{  ct  }{  2 \pi  } }  \right)   e_1 +  \left(  a \sin  { \frac{  ct  }{  2 \pi  } }  +   b  \cos  { \frac{  ct  }{  2 \pi } }  \right)   e_2                 \right)
+}
+{ } {
+}
+}
+{}
+{}{,}
+insbesondere liegt eine Liftung vor. Die vertikale Ableitung dieses Schnittes in $\R^2$ über $\R$ kann man mit den angegebenen Christoffelsymbolen bestimmen, es ist
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{ \left(  \psi^* \nabla  \right)_\partial  \left(    \left(  a \cos  { \frac{  ct  }{  2 \pi  } }  - b \sin  { \frac{  ct  }{  2 \pi  } }  \right)   e_1 +  \left(  a \sin  { \frac{  ct  }{  2 \pi  } }  +   b  \cos  { \frac{  ct  }{  2 \pi } }  \right)   e_2  \right)
+}
+{ =} {   \left(  a \cos  { \frac{  ct  }{  2 \pi  } }  - b \sin  { \frac{  ct  }{  2 \pi  } }  \right)   \left(  \psi^* \nabla  \right)_\partial \left(  e_1  \right)  + \partial    \left(  a \cos  { \frac{  ct  }{  2 \pi  } }  - b \sin  { \frac{  ct  }{  2 \pi  } }  \right)   e_1    +   \left(  a \sin  { \frac{  ct  }{  2 \pi  } }  +   b  \cos  { \frac{  ct  }{  2 \pi } }  \right)      \left(  \psi^* \nabla  \right)_\partial \left(  e_2  \right) + \partial  \left(  a \sin  { \frac{  ct  }{  2 \pi  } }  +   b  \cos  { \frac{  ct  }{  2 \pi } }  \right)   e_2
+}
+{ =} { -  \left(  a \cos  { \frac{  ct  }{  2 \pi  } }  - b \sin  { \frac{  ct  }{  2 \pi  } }  \right)  { \frac{   c  }{  2 \pi } }  e_2  +   { \frac{   c  }{  2 \pi } } \left(  -a \sin  { \frac{  ct  }{  2 \pi  } }  - b \cos  { \frac{  ct  }{  2 \pi  } }  \right)   e_1    +   \left(  a \sin  { \frac{  ct  }{  2 \pi  } }  +   b  \cos  { \frac{  ct  }{  2 \pi } }  \right) { \frac{   c  }{  2 \pi } }   e_1    +  { \frac{   c  }{  2 \pi } }   \left(  a \cos  { \frac{  ct  }{  2 \pi  } } -  b  \sin  { \frac{  ct  }{  2 \pi } }  \right)   e_2
+}
+{ =} { 0
+}
+{ } {
+}
+}
+{}{}{,}
+also liegt eine
+\definitionsverweis {horizontale Liftung}{}{}
+vor.
+}{Es geht um die Abbildung
+\maabbeledisp {} {\R^2} { \R^2
+} { \begin{pmatrix}  a  \\b   \end{pmatrix} } {    \begin{pmatrix}  \cos  c   &   - \sin  c   \\  \sin  c  &  \cos  c  \end{pmatrix} \begin{pmatrix}  a  \\b   \end{pmatrix}
+} {,}
+die linear ist. Die beschreibende Matrix ist orthogonal
+\zusatzklammer {eine Drehmatrix} {} {,}
+deshalb liegt eine Isometrie vor.
+}{Es ist
+\mathl{\Psi (2k \pi)}{} die lineare Abbildung
+\maabbeledisp {} {\R^2} { \R^2
+} {\begin{pmatrix}  a  \\b   \end{pmatrix} } { \begin{pmatrix}  \cos kc   &   - \sin kc   \\  \sin kc  &  \cos kc  \end{pmatrix} \begin{pmatrix}  a  \\b   \end{pmatrix}
+} {,}
+also die Drehung um den Winkel $kc$. Die Drehmatrix zur Summe von zwei Winkeln ist das Matrixprodukt der beiden Drehmatrizen
+\zusatzklammer {siehe
+[[Sinus und Kosinus/Reell/Additionstheoreme/Drehung/Fakt|Fakt]]} {} {,}
+daher liegt ein
+\definitionsverweis {Gruppenhomomorphismus}{}{}
+vor.
+}
+
+ [[Kategorie:Latexseite]]

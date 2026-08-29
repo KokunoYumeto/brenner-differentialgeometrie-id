@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 14:55:41 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Hauptsatz der Infinitesimalrechnung/Spezialfall zu Stokes/Diskussion/Aufgabe/Lösung|Satz von Stokes/Quaderversion/Monom/Direkt/Aufgabe/Lösung|Geschlossene Differentialform/Wert über Rand/Aufgabe/Lösung|Kompakte orientierte Mannigfaltigkeit ohne Rand/n-1-Form/Integral ist 0/Aufgabe/Lösung|Kompakte orientierte Mannigfaltigkeit ohne Rand/Positive Volumenform/Nicht exakt/Aufgabe/Lösung|Mannigfaltigkeit/Exakte k-Form/Rückzug auf kompakte orientierte Mannigfaltigkeit ohne Rand/n-1-Form/Integral ist 0/Aufgabe/Lösung|R^n ohne 0/Geschlossene nicht exakte n-1-Form/Durch Rückzug von Sphäre/Aufgabe/Lösung|Kreisscheibe ohne Punkt/Senkrechte Differentialform und mit Pol/Satz von Stokes/Aufgabe/Lösung|Satz von Green/Keine Beziehung Flächeninhalt und Randlänge/Aufgabe/Lösung|Integral/Dreieck (0,2), (1,-1), (-2,-1)/x^2ydxdy/Stammform/Aufgabe/Lösung|Satz von Green/Form/Bestätige/Einheitsquadrat/x^ay^bdx+x^cy^ddy/Aufgabe/Lösung|Satz von Green/Form/Bestätige/Einheitskreis und umgebendes Quadrat/(x-y)dy+xydy/Aufgabe/Lösung|Satz von Green/Direkter Beweis für Dreieck/Aufgabe/Lösung|Satz von Green/Subgraph einer Funktion/Aufgabe/Lösung|Abgeschlossene Kugel/Volumen/Flächenintegral/Stereographisch/Aufgabe/Lösung|Abgeschlossene Kugel/Volumen/Flächenintegral/Passende Form/Aufgabe/Lösung|R^n/n-1-Form/Ableitung/Infinitesimale Bälle/Aufgabe/Lösung|Mannigfaltigkeit/Nicht leerer Rand/Retraktion/Aufgabe/Lösung|Halbraum/Stetig differenzierbare Retraktion auf Rand/Aufgabe/Lösung|Raum ohne Ball/Retraktion auf Sphäre/Aufgabe/Lösung|Abgeschlossene punktierte Kreisscheibe/Retraktion auf Rand/Aufgabe/Lösung|Annulus/Fixpunktfreie Bijektion/Beispiel/Aufgabe/Lösung|Brouwersche Fixpunktsatz/Explizite Retraktion/Aufgabe/Lösung|Integral/Dreieck (0,2), (1,-1), (-2,-1)/3x^2y^5-x sin y dxdy/Stammform/Aufgabe/Lösung|Integration/dxdy+ydxdz+x^2y^2z^2dydz/Seiten von Würfel/d auf Würfel/Aufgabe/Lösung|Kreisinhalt/Berechnung als Wegintegral/Aufgabe/Lösung|Torus/Fixpunktfreie Bijektion/Beispiel/Aufgabe/Lösung|Abgeschlossene Kreisscheibe/Stetig differenzierbare Retraktion auf Halbkreis/Aufgabe/Lösung|R^n/v in Einheitskugel und w normiert/v+aw auf Rand/Aufgabe/Lösung|Abgeschlossene punktierte Kreisscheibe/Fixpunktfreie Abbildung/Aufgabe/Lösung"
+  },
+  "response_bytes": 11578,
+  "response_path": "unit23_solution_pages_current.json",
+  "response_sha256": "e8d0f6946629f12186bc7448f25e8d88aac609e18b454ed0d0190ae25b926769",
+  "retrieved_utc": "2026-08-28T14:55:40Z",
+  "schema_version": 1
+}

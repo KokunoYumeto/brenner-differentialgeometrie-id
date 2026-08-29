@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "input": "source/units/unit-24/worksheet24.id.tex",
+  "input_bytes": 11818,
+  "input_sha256": "2454f1169e7e12b4124cb2942e20f3bb1b70ad68943e77ede58127dfc62e10ac",
+  "output": "build/generated/worksheet24.id.build.tex",
+  "output_bytes": 11038,
+  "output_sha256": "e5ec31628075b680bf1295521e8098b21c176c40f0250089c161eafd96ca02bb",
+  "removed_category_links": 1,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Mannigfaltigkeit/Abzählbare Basis/Überdeckung/Partition/Fakt",
+      "label": "Teorema 22.10"
+    },
+    {
+      "target": "Differenzierbare Hyperfläche/Zweites Tangentialbündel/Implizite Beschreibung/Bemerkung",
+      "label": "Catatan 24.4"
+    },
+    {
+      "target": "Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierte Bündelhomomorphismen/Bemerkung",
+      "label": "Catatan 24.5"
+    },
+    {
+      "target": "Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierte Bündelhomomorphismen/Bemerkung",
+      "label": "Catatan 24.5"
+    },
+    {
+      "target": "Differenzierbare_Mannigfaltigkeit/Quader/Abbildung/Zweites_Tangentialbündel/Aufgabe",
+      "label": "Soal 24.5"
+    },
+    {
+      "target": "Hyperfläche/Tangentiales Vektorfeld/Längs einer Kurve/Kovariante Ableitung/Definition",
+      "label": "Definisi 6.5"
+    },
+    {
+      "target": "Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierte Bündelhomomorphismen/Bemerkung",
+      "label": "Catatan 24.5"
+    },
+    {
+      "target": "Differenzierbare Hyperfläche/Zweites Tangentialbündel/Induzierte Bündelhomomorphismen/Bemerkung",
+      "label": "Catatan 24.5"
+    }
+  ],
+  "rendered_interactive_gif_links": []
+}

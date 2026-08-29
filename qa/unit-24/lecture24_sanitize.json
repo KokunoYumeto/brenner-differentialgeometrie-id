@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "input": "authority/exports/lecture24_latex_expand.json",
+  "input_bytes": 30070,
+  "input_sha256": "6230db0ba8d73d539c72b703ddc244be86fc745cb9b978fc817ed0888396a0b3",
+  "expanded_chars": 28245,
+  "output": "authority/expanded/lecture24_source.de.tex",
+  "output_bytes": 25046,
+  "output_sha256": "1eb16ffb8bbc5571341e32f7181f33c191ac3fbf770936c4d38b2b5b77ee7d0b",
+  "transform": [
+    "normalize CRLF/CR to LF",
+    "replace br tags with LF",
+    "remove div/pre/nowiki wrapper tags",
+    "decode HTML entities",
+    "strip trailing horizontal whitespace",
+    "collapse runs of blank lines",
+    "require no residual HTML tag or U+FFFD"
+  ]
+}

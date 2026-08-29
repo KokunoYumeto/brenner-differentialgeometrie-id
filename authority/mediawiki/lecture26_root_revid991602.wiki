@@ -1,0 +1,29 @@
+{{Kurs:Differentialgeometrie (Osnabrück 2023)/Vorlesungsgestaltung|26|
+
+{{Zwischenüberschrift|Der Levi-Civita-Zusammenhang auf einer offenen Menge}}
+
+{{:Riemannsche Mannigfaltigkeit/Offene Menge/Levi-Civita-Zusammenhang/Einführung/Textabschnitt}}
+
+{{Zwischenüberschrift|Der Levi-Civita-Zusammenhang}}
+
+{{:Riemannsche Mannigfaltigkeit/Levi-Civita-Zusammenhang/Einführung/Textabschnitt}}
+
+{{
+inputfaktbeweis
+|R^3/Riemannsche orientierte Fläche/Levi-Civita-Zusammenhang und induzierter Zusammenhang/Fakt|Lemma||
+||
+}}
+
+Diese Aussage gilt entsprechend auch für beliebige abgeschlossene Untermannigfaltigkeiten
+{{
+Relationskette
+| Y
+|\subseteq| \R^n
+|| 
+|| 
+|| 
+|SZ=
+}}
+mit der induzierten riemannschen Struktur.
+
+}}

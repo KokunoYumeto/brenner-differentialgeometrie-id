@@ -1,0 +1,64 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Nach
+{{
+Aufgabelink
+|Aufgabeseitenname=
+Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Global integrabel/Globale Trivialisierung/Aufgabe
+|Nr=
+|SZ=
+}}
+liegt ein Isomorphismus von Vektorbündel vor. Nach
+{{
+Faktlink
+|Faktseitenname=
+Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontaler Schnitt/Vertikale Ableitung/Fakt
+|Nr=
+|SZ=
+}}
+gilt für einen horzontalen Schnitt {{math|term= s |SZ=}} die Beziehung
+{{
+Relationskette
+| \nabla s
+|| 0
+|| 
+|| 
+|| 
+|SZ=.
+}}
+Auf einer offenen Menge
+{{
+Relationskette
+| U
+| \cong| V
+| \subseteq |  \R^n
+|| 
+|| 
+|SZ=
+}}
+gilt daher insbesondere  
+{{
+Relationskette/display
+| \nabla_{\partial_i} (s)
+|| 0
+|| 
+|| 
+|| 
+|SZ=
+}}
+für alle {{math|term= i |SZ=}}  und das bedeutet, dass sämtliche Christoffelsymbole der 
+{{
+Definitionslink
+|Prämath=
+|Basisschnitte|
+|Kontext=|
+|SZ=
+}}
+{{math|term= s_j |SZ=}}  bezüglich der Standardvektorfelder {{math|term= \partial_i |SZ=}}  verschwinden.
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

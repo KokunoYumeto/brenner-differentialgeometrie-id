@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "scope": "source/exams/exam-10/exam10_solutions.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-EXAM10-SOLUTIONS-TRANS-0001",
+      "anchor": "compact-exhaustion defining formula",
+      "change": "Translate the reader-facing conjunction inside the protected formula without changing mathematical tokens."
+    },
+    {
+      "correction_id": "O011-EXAM10-SOLUTIONS-TRANS-0002",
+      "anchor": "surface-of-revolution partial-derivative formula",
+      "change": "Translate the reader-facing conjunction inside the protected formula without changing mathematical tokens."
+    },
+    {
+      "correction_id": "O011-EXAM10-SOLUTIONS-TRANS-0003",
+      "anchor": "graph tangent-vector formula",
+      "change": "Translate the reader-facing conjunction inside the protected formula without changing mathematical tokens."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-EXAM10-SOLUTIONS-TRANS-0001",
+      "surface": "protected:mathdisp",
+      "index": 0,
+      "source_sha256": "1a34735d1e44bc5588279f79b1a586168cba26f93ad5a2032f36914226dc5d61",
+      "target_sha256": "88f268c352aef51433cc52165026feada599b8d753fa3cfde7d4081b95bedad1"
+    },
+    {
+      "correction_id": "O011-EXAM10-SOLUTIONS-TRANS-0002",
+      "surface": "protected:mathdisp",
+      "index": 1,
+      "source_sha256": "e05b13af53972a0fcb0d035d0d177b7cad6c25c2d63c382acd7e1acd0ac9e9da",
+      "target_sha256": "68a6d6ef3047959f48f5320e0a7d26b955f4b497ffa307fadbafe4adcb810f11"
+    },
+    {
+      "correction_id": "O011-EXAM10-SOLUTIONS-TRANS-0003",
+      "surface": "protected:mathdisp",
+      "index": 4,
+      "source_sha256": "2be8316a2e23482ec34c8e01a51d3a93d8206e2ac096f511825a4dfd8f9ce8e4",
+      "target_sha256": "0160ee4f5abed822dc66da64f7f87c37f0c3a2fd63fc74ab37aa3aac8ce50166"
+    }
+  ],
+  "evidence_only_deltas": []
+}

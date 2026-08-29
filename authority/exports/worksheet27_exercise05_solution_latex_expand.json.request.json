@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 15:24:37 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "expandtemplates",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "wikitext|categories|modules|jsconfigvars",
+    "text": "{{Latex}}",
+    "title": "Hyperbolische Halbebene/Exponentialfunktion/Christoffelsymbole/Aufgabe/Lösung/latex"
+  },
+  "response_bytes": 1936,
+  "response_path": "worksheet27_exercise05_solution_latex_expand.json",
+  "response_sha256": "8806b27df32bcca7e8f5c1a8017760ae5f438ed97abc36786b79eb850517add7",
+  "retrieved_utc": "2026-08-28T15:24:36Z",
+  "schema_version": 1
+}

@@ -4,8 +4,8 @@
   "source_bytes": 11052,
   "source_sha256": "81f8d9667581e0e6507dd1684b136c23f3352d1cabf2e8c4013daeb0a312cd00",
   "target": "source/units/unit-04/worksheet04.id.tex",
-  "target_bytes": 11797,
-  "target_sha256": "f3721ced8fc5db02dd600ff81f02455ec724f34c7a085f4280d8f5c2d14873f8",
+  "target_bytes": 11805,
+  "target_sha256": "fb6438475d2ebc6917f7928faa6b338e67944c1228406d2178f58119307e1ebf",
   "checks": {
     "utf8_without_replacement_character": true,
     "command_sequence_equal_or_declared": true,
@@ -27,8 +27,6 @@
   "status": "pass",
   "failures": [],
   "declared_corrections": [
-    "O011-CORR-0038",
-    "O011-CORR-0038",
     "O011-CORR-0038"
   ],
   "evidence_only_results": []

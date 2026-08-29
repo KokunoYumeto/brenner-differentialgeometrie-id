@@ -1,0 +1,105 @@
+Misalkan
+
+\mathdisp {P_1 = \begin{pmatrix} a_1  \\b_1   \end{pmatrix} ,\, P_2 = \begin{pmatrix} a_2  \\b_2   \end{pmatrix} \text{ dan } P_3 = \begin{pmatrix} a_3  \\b_3   \end{pmatrix}} {  }
+
+adalah ketiga titik sudut. Karena
+\mathl{d (xdy )= dx \wedge dy}{}, integral bentuk luas ini pada $D$ sama dengan luas segitiga tersebut. Dari $P_1$, segitiga itu direntang oleh kedua vektor
+\mathkor {} {\begin{pmatrix} a_2-a_1  \\b_2-b_1   \end{pmatrix}} {dan} {\begin{pmatrix} a_3-a_1  \\b_3-b_1   \end{pmatrix}} {.}
+Jadi, menurut rumus determinan untuk sebuah paralelotop, luasnya sama dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ { \frac{   1 }{  2 } } \betrag { (a_2-a_1)(b_3-b_1) -(b_2-b_1)  (a_3-a_1)   }
+}
+{ =} { { \frac{   1 }{  2 } } \betrag {  a_2b_3-a_2b_1 -a_1b_3 -a_3b_2 +a_1b_2 +a_3b_1   }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Jika kedua vektor tersebut merepresentasikan orientasi standar, sebagaimana akan kita asumsikan mulai sekarang, tanda nilai mutlak dapat dihilangkan.
+
+Sekarang kita hitung integral lintasan dari
+\mathl{xdy}{} di sepanjang batas segitiga yang ditelusuri berlawanan arah jarum jam. Lintasan bergerak dari $P_1$ ke $P_2$, lalu ke $P_3$, dan kembali ke $P_1$
+\zusatzklammer {ini sesuai dengan arah berlawanan jarum jam untuk orientasi yang telah ditetapkan} {} {.}
+Lintasan-lintasan linear ini adalah
+\zusatzklammer {masing-masing didefinisikan pada interval satuan} {} {}
+
+\mathdisp {\gamma_1(t)=P_1+t(P_2-P_1) = \begin{pmatrix} a_1  \\b_1   \end{pmatrix} + t \begin{pmatrix} a_2-a_1  \\b_2-b_1   \end{pmatrix}} { , }
+
+\mathdisp {\gamma_2(t) = P_2+t(P_3-P_2) = \begin{pmatrix} a_2  \\b_2   \end{pmatrix} + t \begin{pmatrix} a_3-a_2  \\b_3-b_2   \end{pmatrix}} {  }
+
+dan
+
+\mathdisp {\gamma_3(t) = P_3+t(P_1-P_3)= \begin{pmatrix} a_3  \\b_3   \end{pmatrix} + t \begin{pmatrix} a_1-a_3  \\b_1-b_3   \end{pmatrix}} { . }
+
+Berlaku
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \int_{\gamma_1}  xdy
+}
+{ =} { \int_0^1  (a_1 +t (a_2-a_1)) (b_2-b_1) dt
+}
+{ =} { (  a_1 (b_2-b_1)t + { \frac{   1 }{  2 } } (a_2-a_1)(b_2-b_1) t^2) \vert_{  0 }^{  1 }
+}
+{ =} { a_1 (b_2-b_1)  + { \frac{   1 }{  2 } } (a_2-a_1)(b_2-b_1)
+}
+{ =} { { \frac{   1 }{  2 } } (a_2+a_1)(b_2-b_1)
+}
+}
+{}
+{}{.}
+Demikian pula,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_{\gamma_2}  xdy
+}
+{ =} { { \frac{   1 }{  2 } } (a_3+a_2)(b_3-b_2)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \int_{\gamma_3}  xdy
+}
+{ =} { { \frac{   1 }{  2 } } (a_1+a_3)(b_1-b_3)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Jumlah ketiga integral lintasan ini adalah separuh dari
+
+\mavergleichskettealigndrucklinks
+{\vergleichskettealigndrucklinks
+{(a_2+a_1)(b_2-b_1) + (a_3+a_2)(b_3-b_2) + (a_1+a_3)(b_1-b_3)
+}
+{ =} { a_2b_2 -a_2b_1+a_1b_2-a_1b_1 +a_3b_3-a_3b_2 +a_2b_3 -a_2b_2+a_1b_1-a_1b_3+a_3b_1-a_3b_3
+}
+{ =} { -a_2b_1+a_1b_2 -a_3b_2 +a_2b_3 -a_1b_3+a_3b_1
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+sehingga kedua integral itu berimpit.

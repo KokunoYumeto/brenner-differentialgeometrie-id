@@ -1,0 +1,20 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://de.wikiversity.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 15:20:39 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "prop": "revisions",
+    "rvprop": "ids|timestamp|sha1|content",
+    "rvslots": "main",
+    "titles": "Mannigfaltigkeit/Triviales Vektorbündel/Rang 1/Zusammenhang und Differentialform/Fakt/Beweis/Aufgabe/Lösung|Ebene/Triviales Vektorbündel/Rang 1/Zusammenhang/Kein horizontaler Schnitt/Aufgabe/Lösung|Mannigfaltigkeit/Triviales Vektorbündel/Rang 1/Differentialform/Linearer Zusammenhang/Aufgabe/Lösung|Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontaler Schnitt/Vertikale Ableitung/Fakt/Beweis/Aufgabe/Lösung|Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Längs Abbildung/Horizontaler Schnitt/Vertikale Ableitung/Aufgabe/Lösung|Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Global integrabel/Globale Trivialisierung/Aufgabe/Lösung|Mannigfaltigkeit/Vektorbündel/R/Linearer_Zusammenhang/Global_integrabel/Globale_Trivialisierung_des_Zusammenhangs/Aufgabe/Lösung|Offenes Intervall/Differentialgleichungssystem/Zusammenhang/Aufgabe/Lösung|Mannigfaltigkeit/Linearer Zusammenhang/Nullschnitt horizontal/Aufgabe/Lösung|Mannigfaltigkeit/Trivialer Zusammenhang/Linear/Aufgabe/Lösung|R^n/Offene Menge/Trivialer Zusammenhang/Ableitungseigenschaften/Fakt/Beweis/Aufgabe/Lösung|Offenes Intervall/Trivialer Zusammenhang/Basisschnitte/Christoffelsymbole/1/Aufgabe/Lösung|Offene Teilmenge/R^2/Trivialer Zusammenhang/Basisschnitte/Christoffelsymbole/1/Aufgabe/Lösung|Offenes Intervall/Lineare Differentialgleichung/System/Linearer Zusammenhang/Aufgabe/Lösung|Differenzierbare Hyperfläche/Zusammenhang/Kurve/Parallel und horizontal/Aufgabe/Lösung|Differenzierbare Hyperfläche/Zusammenhang/Linear/Aufgabe/Lösung|Mannigfaltigkeit/Vektorbündel/R/Lineare Zusammenhänge/Affine Summe/Aufgabe/Lösung|Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Partition der Eins/Aufgabe/Lösung|Mannigfaltigkeit/Erste Differentialform/Ableitung/Leibniz-Regel/Aufgabe/Lösung|Mannigfaltigkeit/Vektorbündel/Riemannsche Mannigfaltigkeit/Linearer Zusammenhang/Aufgabe/Lösung|Mannigfaltigkeit/Abzählbare Basis/Linearer Zusammenhang über riemannsche Struktur/Aufgabe/Lösung|Kreis/Tangentialbündel/Zusammenhang/Nicht global integrabel/Liftung/Aufgabe/Lösung|Mannigfaltigkeit/Vektorbündel/R/Zusammenhang/Horizontale Liftung/Übereinstimmung/Aufgabe/Lösung|Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Vertikale Richtungsableitung/Leibniz/Aufgabe/Lösung|Mannigfaltigkeit/Vektorbündel/R/Linearer Zusammenhang/Horizontale Schnitte/Dimension groß/Aufgabe/Lösung"
+  },
+  "response_bytes": 12662,
+  "response_path": "unit25_solution_pages_current.json",
+  "response_sha256": "914fb9d753cc30cdfb756f61e75afeac3980b7638aa8624bbd72494ccbe4b502",
+  "retrieved_utc": "2026-08-28T15:20:39Z",
+  "schema_version": 1
+}

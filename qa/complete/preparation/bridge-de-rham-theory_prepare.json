@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "input": "source/bridges/de-rham/bridge-de-rham-theory.id.tex",
+  "input_bytes": 13792,
+  "input_sha256": "50feb003989fe674e41e3dd16fec85ad5b6dcc20f9cf6f7f2b09bdbf620ccd0e",
+  "output": "build/generated/bridges/bridge-de-rham-theory.build.tex",
+  "output_bytes": 13792,
+  "output_sha256": "50feb003989fe674e41e3dd16fec85ad5b6dcc20f9cf6f7f2b09bdbf620ccd0e",
+  "removed_category_links": 0,
+  "removed_noedit_markers": 0,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [],
+  "wiki_link_resolution_passes": 0,
+  "rendered_interactive_gif_links": []
+}

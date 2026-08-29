@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "component_id": "o011-bridge-lie",
+  "status": "complete_original_reader_content_and_smoke_build_passed",
+  "license": "CC BY-SA 4.0",
+  "provenance": "Original Bahasa Indonesia module authored by OpenAI Codex gpt-5.6-sol, Ultra, at the user's direction; no comparator prose incorporated.",
+  "internal_prerequisites": [
+    "o011-brenner-u07",
+    "o011-brenner-u09",
+    "o011-brenner-u10",
+    "o011-brenner-u11",
+    "o011-brenner-u28"
+  ],
+  "required_topic_sequence": [
+    "matrix Lie groups and smooth group operations",
+    "left translations and left-invariant vector fields",
+    "Lie algebra at the identity and its bracket",
+    "one-parameter subgroups and the exponential map",
+    "adjoint map and its differential relation",
+    "smooth actions and orbit/stabilizer tangent language"
+  ],
+  "artifacts": {
+    "license": {
+      "path": "source/bridges/lie-groups/LICENSE.md",
+      "bytes": 698,
+      "sha256": "4cbaaeefca588e18f1c5050d19a726d040c2c80f2a700404c83734a6bed7445a"
+    },
+    "theory": {
+      "path": "source/bridges/lie-groups/bridge-lie-theory.id.tex",
+      "bytes": 16068,
+      "sha256": "42ef0c9dedda792d0c04614d58159d5f798765d1bfcbc3e3054a6065d70b6b3f"
+    },
+    "assessment": {
+      "path": "source/bridges/lie-groups/bridge-lie-assessment.id.tex",
+      "bytes": 17123,
+      "sha256": "6d3d5555ee2845756f01415798e64d06893552e62a52d398e5c647298f96c6f5"
+    },
+    "smoke_pdf": {
+      "path": "build/bridge-lie-smoke.pdf",
+      "bytes": 310302,
+      "sha256": "bfe9d8dc4fd6ef61a57ae2246a30aed0c5f239aefdb6fff9277773bb44c5e585",
+      "pages": 13,
+      "page_size": "A4"
+    },
+    "smoke_log": {
+      "path": "build/bridge-lie-smoke.log",
+      "bytes": 29455,
+      "sha256": "af70091137f3302df4b740d62fe1695520e14cda0f10002dbaf0229fbabf2fc6"
+    }
+  },
+  "census": {
+    "exercise_ids": 12,
+    "exercise_hints": 12,
+    "exercise_complete_solutions": 12,
+    "mastery_problem_ids": 4,
+    "mastery_complete_solutions": 4,
+    "mastery_rubrics": 4,
+    "mastery_alternate_parameter_sets": 4,
+    "solution_bearing_items": 16,
+    "latex_labels": 41,
+    "duplicate_latex_labels": 0
+  },
+  "checks": {
+    "balanced_braces": true,
+    "utf8_without_replacement_character": true,
+    "required_topic_sequence_present": true,
+    "exact_exercise_and_mastery_census": true,
+    "two_pass_pdflatex_smoke_build": true,
+    "latex_errors": 0,
+    "latex_warnings": 0,
+    "overfull_boxes": 0,
+    "underfull_boxes": 0,
+    "undefined_references_after_second_pass": 0
+  }
+}

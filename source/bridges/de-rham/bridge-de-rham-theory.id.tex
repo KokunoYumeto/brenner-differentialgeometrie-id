@@ -1,0 +1,364 @@
+% O011-BR — modul asli, bukan terjemahan atau adaptasi dari teks pembanding.
+% Judul: Jembatan Kohomologi de Rham dan Topologi Diferensial
+% Lisensi modul: CC BY-SA 4.0.
+% Provenans: disusun oleh OpenAI Codex gpt-5.6-sol, Ultra, atas arahan pengguna.
+% Prasyarat internal: Unit 14, 20, 22, dan 23 edisi ini.
+
+\setcounter{section}{31}
+\section{Jembatan Kohomologi de Rham dan Topologi Diferensial}
+\label{o011-bridge-de-rham}
+
+\subsection{Tujuan dan prasyarat}
+
+Unit 14 memperkenalkan bentuk diferensial, Unit 20 turunan eksterior, Unit 22
+partisi kesatuan, dan Unit 23 teorema Stokes. Modul ini menyatukan keempatnya
+menjadi sebuah invariant topologis. Gagasan pokoknya sederhana: bentuk tertutup
+yang bukan turunan eksterior bentuk lain mendeteksi ``lubang'' pada manifold.
+Kita membuktikan hasil lokal, membangun invariansi homotopi, memakai barisan
+Mayer--Vietoris untuk perhitungan global, lalu menandai jalan menuju derajat,
+transversalitas, dan teori Morse tanpa berpura-pura membahas teori-teori itu
+secara lengkap.
+
+Semua manifold di bagian ini dianggap mulus, berdimensi hingga, Hausdorff, dan
+memiliki basis terhitung. Ruang bentuk-$k$ mulus pada $M$ ditulis
+$\Omega^k(M)$; untuk $k<0$ atau $k>\dim M$, ruang itu adalah nol.
+
+\subsection{Kompleks de Rham}
+
+\begin{definition}\label{o011-br-def-closed-exact}
+Suatu bentuk $\omega\in\Omega^k(M)$ disebut \emph{tertutup} jika
+$d\omega=0$, dan disebut \emph{eksak} jika terdapat
+$\eta\in\Omega^{k-1}(M)$ dengan $\omega=d\eta$.
+\end{definition}
+
+Karena $d\circ d=0$, setiap bentuk eksak tertutup. Jadi turunan eksterior
+membentuk kompleks rantai-kobalik
+\[
+  0\longrightarrow\Omega^0(M)\xrightarrow{d}\Omega^1(M)
+  \xrightarrow{d}\cdots\xrightarrow{d}\Omega^n(M)
+  \longrightarrow0.
+\]
+
+\begin{definition}\label{o011-br-def-cohomology}
+Kohomologi de Rham derajat $k$ adalah ruang vektor
+\[
+  H^k_{\mathrm{dR}}(M)
+  =\frac{\ker(d\colon\Omega^k(M)\to\Omega^{k+1}(M))}
+  {\operatorname{im}(d\colon\Omega^{k-1}(M)\to\Omega^k(M))}.
+\]
+Kelas bentuk tertutup $\omega$ ditulis $[\omega]$.
+\end{definition}
+
+\begin{Proposition}\label{o011-br-prop-wedge-ring}
+Produk wedge menurunkan produk bergradasi
+\[
+ H^p_{\mathrm{dR}}(M)\times H^q_{\mathrm{dR}}(M)
+ \longrightarrow H^{p+q}_{\mathrm{dR}}(M),
+ \qquad ([\alpha],[\beta])\longmapsto[\alpha\wedge\beta].
+\]
+Produk ini memenuhi
+$[\alpha]\wedge[\beta]=(-1)^{pq}[\beta]\wedge[\alpha]$.
+\end{Proposition}
+
+\begin{proof}
+Aturan Leibniz bergradasi memberi
+\[
+ d(\alpha\wedge\beta)=d\alpha\wedge\beta
+ +(-1)^p\alpha\wedge d\beta.
+\]
+Jika $\alpha$ dan $\beta$ tertutup, wedge-nya tertutup. Jika
+$\alpha$ diganti $\alpha+d\mu$, maka
+\[
+ (\alpha+d\mu)\wedge\beta-\alpha\wedge\beta
+ =d(\mu\wedge\beta)
+\]
+karena $d\beta=0$. Argumen yang sama berlaku pada faktor kedua. Jadi produk
+tidak bergantung pada wakil. Komutativitas bergradasi diwarisi dari bentuk.
+\end{proof}
+
+\begin{Proposition}\label{o011-br-prop-h0-components}
+$H^0_{\mathrm{dR}}(M)$ adalah ruang fungsi yang konstan pada setiap komponen
+terhubung. Khususnya, jika $M$ terhubung, $H^0_{\mathrm{dR}}(M)\cong\mathbb R$.
+\end{Proposition}
+
+\begin{proof}
+Untuk fungsi mulus $f$, persamaan $df=0$ berarti semua turunan arah lokalnya
+nol. Maka $f$ konstan pada setiap komponen terhubung. Tidak ada bentuk
+berderajat $-1$, sehingga pada derajat nol tidak ada hasil bagi tambahan.
+\end{proof}
+
+\subsection{Tarikan balik dan funktorialitas}
+
+Jika $f\colon M\to N$ mulus, tarikan balik memenuhi
+\[
+ f^*(\alpha\wedge\beta)=f^*\alpha\wedge f^*\beta,
+ \qquad d(f^*\alpha)=f^*(d\alpha).
+\]
+
+\begin{Proposition}\label{o011-br-prop-pullback-cohomology}
+Pemetaan $f$ menginduksi homomorfisme aljabar bergradasi
+\[
+ f^*\colon H^*_{\mathrm{dR}}(N)\longrightarrow H^*_{\mathrm{dR}}(M).
+\]
+Jika $g\colon N\to P$ mulus, maka $(g\circ f)^*=f^*\circ g^*$, dan
+$\operatorname{id}_M^*$ adalah identitas.
+\end{Proposition}
+
+\begin{proof}
+Komutasi dengan $d$ menunjukkan bahwa tarikan balik membawa bentuk tertutup
+ke bentuk tertutup dan bentuk eksak ke bentuk eksak. Karena itu ia terdefinisi
+pada kelas kohomologi. Semua identitas lain sudah berlaku pada tingkat bentuk.
+\end{proof}
+
+Perhatikan pembalikan arah: pemetaan $M\to N$ menghasilkan pemetaan
+kohomologi dari $N$ ke $M$. Kohomologi de Rham adalah funktor kontravarian.
+
+\subsection{Lema Poincar\'e pada himpunan berbentuk bintang}
+
+Suatu himpunan terbuka $U\subseteq\mathbb R^n$ disebut berbentuk bintang
+terhadap $0$ jika $tx\in U$ untuk semua $x\in U$ dan $t\in[0,1]$. Misalkan
+$E=\sum_i x_i\partial_{x_i}$ adalah medan Euler dan $\iota_E$ kontraksi oleh
+$E$.
+
+Untuk $\omega\in\Omega^k(U)$ dengan $k\ge1$, definisikan operator homotopi oleh
+\[
+ (K\omega)_x(v_1,\ldots,v_{k-1})
+ =\int_0^1 t^{k-1}\omega_{tx}(x,v_1,\ldots,v_{k-1})\,dt.
+\]
+Dengan medan Euler $E_y=y$, integran yang sama dapat ditulis
+$t^{k-2}(\iota_E\omega)_{tx}$ untuk $t>0$; rumus pertama tetap teratur di
+$t=0$ dan karena itu kita pakai sebagai definisi. Rumus yang lebih intrinsik
+akan muncul pada homotopi umum di bawah.
+
+\begin{Theorem}[Lema Poincar\'e]\label{o011-br-thm-poincare}
+Jika $U\subseteq\mathbb R^n$ terbuka dan berbentuk bintang, setiap bentuk
+tertutup $\omega\in\Omega^k(U)$ dengan $k\ge1$ adalah eksak. Dengan kata lain,
+$H^k_{\mathrm{dR}}(U)=0$ untuk $k\ge1$.
+\end{Theorem}
+
+\begin{proof}
+Ambil homotopi $F\colon U\times[0,1]\to U$, $F(x,t)=tx$. Perhitungan di
+koordinat, atau rumus homotopi yang dibuktikan pada Teorema
+\ref{o011-br-thm-chain-homotopy}, memberi
+\[
+ dK\omega+K(d\omega)=F_1^*\omega-F_0^*\omega.
+\]
+Untuk $k\ge1$, tarikan balik bentuk-$k$ oleh pemetaan konstan $F_0$ adalah nol,
+sedangkan $F_1$ adalah identitas. Jika $d\omega=0$, maka
+$\omega=d(K\omega)$.
+\end{proof}
+
+\begin{bemerkung}\label{o011-br-rem-local-global}
+Lema Poincar\'e bersifat lokal: setiap titik manifold mempunyai lingkungan
+koordinat yang dapat diperkecil menjadi bola, sehingga setiap bentuk tertutup
+berderajat positif lokalnya eksak. Hambatan untuk memperoleh primitif global
+adalah tepat informasi yang diukur kohomologi de Rham.
+\end{bemerkung}
+
+\subsection{Homotopi rantai dan invariansi homotopi}
+
+Misalkan $F\colon M\times[0,1]\to N$ suatu homotopi mulus dan
+$F_t(p)=F(p,t)$. Untuk $\omega\in\Omega^k(N)$, definisikan
+\[
+ K_F\omega
+ =\int_0^1 \iota_t^*\bigl(\iota_{\partial_t}F^*\omega\bigr)\,dt
+ \in\Omega^{k-1}(M),
+\]
+di mana $\iota_t(p)=(p,t)$.
+
+\begin{Theorem}[Rumus homotopi rantai]\label{o011-br-thm-chain-homotopy}
+Operator $K_F$ memenuhi
+\[
+ dK_F+K_Fd=F_1^*-F_0^*.
+\]
+\end{Theorem}
+
+\begin{proof}
+Pada $M\times[0,1]$, turunan terhadap $t$ dari tarikan balik sepanjang
+$\iota_t$ memenuhi rumus Cartan
+\[
+ \frac d{dt}\iota_t^*(F^*\omega)
+ =\iota_t^*\mathcal L_{\partial_t}(F^*\omega)
+ =\iota_t^*\bigl(d\iota_{\partial_t}F^*\omega
+ +\iota_{\partial_t}dF^*\omega\bigr).
+\]
+Integrasikan dari $0$ sampai $1$, gunakan bahwa tarikan balik komutatif dengan
+$d$, dan kenali kedua suku sebagai $dK_F\omega$ serta $K_Fd\omega$.
+\end{proof}
+
+\begin{Korollar}\label{o011-br-cor-homotopy-invariance}
+Pemetaan mulus yang homotopik menginduksi pemetaan kohomologi yang sama. Jika
+$M$ dan $N$ ekuivalen-homotopi, maka
+$H^*_{\mathrm{dR}}(M)\cong H^*_{\mathrm{dR}}(N)$ sebagai aljabar bergradasi.
+\end{Korollar}
+
+\begin{proof}
+Jika $d\omega=0$, rumus homotopi memberi
+$F_1^*\omega-F_0^*\omega=d(K_F\omega)$, sehingga kedua tarikan balik menentukan
+kelas yang sama. Untuk ekuivalensi homotopi, terapkan funktorialitas pada
+komposisi yang homotopik dengan identitas.
+\end{proof}
+
+\begin{Korollar}\label{o011-br-cor-contractible}
+Jika $M$ kontraktibel, maka $H^0_{\mathrm{dR}}(M)\cong\mathbb R$ dan
+$H^k_{\mathrm{dR}}(M)=0$ untuk $k>0$.
+\end{Korollar}
+
+\subsection{Barisan Mayer--Vietoris}
+
+Misalkan $M=U\cup V$ dengan $U,V$ terbuka. Untuk setiap $k$ terdapat barisan
+pendek kompleks
+\[
+0\longrightarrow\Omega^k(M)
+\xrightarrow{r}(\Omega^k(U)\oplus\Omega^k(V))
+\xrightarrow{\delta}\Omega^k(U\cap V)
+\longrightarrow0,
+\]
+dengan
+\[
+ r(\omega)=(\omega|_U,\omega|_V),
+ \qquad \delta(\alpha,\beta)=\alpha|_{U\cap V}-\beta|_{U\cap V}.
+\]
+Injektivitas dan ketepatan di tengah mengikuti sifat pengeleman bentuk. Untuk
+surjektivitas $\delta$, pilih partisi kesatuan $\rho_U+\rho_V=1$ yang
+tersubordinasi pada $U,V$; suatu bentuk $\gamma$ di $U\cap V$ diangkat oleh
+perpanjangan nol yang dibangun dari $\rho_V\gamma$ pada $U$ dan
+$-\rho_U\gamma$ pada $V$.
+
+\begin{Theorem}[Mayer--Vietoris]\label{o011-br-thm-mv}
+Penutup $M=U\cup V$ menghasilkan barisan eksak panjang
+\[
+\cdots\longrightarrow H^{k-1}_{\mathrm{dR}}(U\cap V)
+\xrightarrow{\partial}H^k_{\mathrm{dR}}(M)
+\xrightarrow{r^*}H^k_{\mathrm{dR}}(U)\oplus H^k_{\mathrm{dR}}(V)
+\xrightarrow{\delta^*}H^k_{\mathrm{dR}}(U\cap V)
+\xrightarrow{\partial}H^{k+1}_{\mathrm{dR}}(M)
+\longrightarrow\cdots.
+\]
+\end{Theorem}
+
+\begin{proof}
+Barisan pendek kompleks di atas menghasilkan barisan eksak panjang kohomologi
+melalui konstruksi standar pemetaan penghubung. Secara konkret, jika
+$\gamma$ tertutup pada $U\cap V$, pilih $(\alpha,\beta)$ dengan
+$\delta(\alpha,\beta)=\gamma$. Karena $d\gamma=0$, pasangan
+$(d\alpha,d\beta)$ saling cocok pada irisan, sehingga menempel menjadi bentuk
+tertutup $\omega$ pada $M$. Tetapkan $\partial[\gamma]=[\omega]$. Perubahan
+pilihan hanya mengubah $\omega$ dengan bentuk eksak, dan pemeriksaan langsung
+memberi ketepatan pada setiap suku.
+\end{proof}
+
+\subsection{Perhitungan dasar}
+
+\begin{Proposition}\label{o011-br-prop-circle}
+Kohomologi de Rham lingkaran adalah
+\[
+ H^0_{\mathrm{dR}}(S^1)\cong\mathbb R,
+ \qquad H^1_{\mathrm{dR}}(S^1)\cong\mathbb R,
+ \qquad H^k_{\mathrm{dR}}(S^1)=0\quad(k\ge2).
+\]
+Isomorfisme pada derajat satu dapat diberikan oleh periode
+\[
+ [\omega]\longmapsto\int_{S^1}\omega.
+\]
+\end{Proposition}
+
+\begin{proof}
+Derajat nol mengikuti keterhubungan, dan derajat di atas satu nol karena
+dimensi. Tutupi $S^1$ oleh dua busur terbuka kontraktibel $U,V$ yang irisannya
+mempunyai dua komponen. Bagian relevan Mayer--Vietoris adalah
+\[
+ 0\to H^0(S^1)\to\mathbb R\oplus\mathbb R
+ \to\mathbb R^2\to H^1(S^1)\to0.
+\]
+Pemetaan tengah mengirim $(a,b)$ ke $(a-b,a-b)$, sehingga cokernelnya satu
+dimensi. Integral lenyap pada bentuk eksak dan tidak nol pada bentuk sudut
+ternormalisasi; karena itu periode memberi isomorfisme yang dinyatakan.
+\end{proof}
+
+Pada $\mathbb R^2\setminus\{0\}$, bentuk
+\[
+ \eta=\frac{1}{2\pi}\frac{x\,dy-y\,dx}{x^2+y^2}
+\]
+tertutup dan integralnya pada lingkaran satuan adalah $1$. Jadi ia tidak eksak
+dan mewakili generator kelas derajat satu.
+
+\begin{Theorem}\label{o011-br-thm-sphere}
+Untuk $n\ge1$,
+\[
+ H^k_{\mathrm{dR}}(S^n)\cong
+ \begin{cases}
+ \mathbb R,&k=0\text{ atau }k=n,\\
+ 0,&\text{selain itu}.
+ \end{cases}
+\]
+\end{Theorem}
+
+\begin{proof}
+Kasus $n=1$ sudah dibuktikan. Untuk $n\ge2$, tutupi $S^n$ oleh lingkungan
+terbuka kutub utara dan selatan yang masing-masing kontraktibel dan yang
+irisannya ekuivalen-homotopi dengan $S^{n-1}$. Mayer--Vietoris, di luar
+derajat nol, memberi isomorfisme penghubung
+\[
+ H^{k-1}_{\mathrm{dR}}(S^{n-1})\cong H^k_{\mathrm{dR}}(S^n)
+ \qquad(1<k\le n).
+\]
+Pada derajat satu, keterhubungan penutup dan irisan memberi nol. Induksi pada
+$n$ menghasilkan satu kelas di derajat teratas dan nol pada derajat antara.
+Derajat nol kembali mengikuti keterhubungan.
+\end{proof}
+
+Jika $S^n$ diberi orientasi, kelas teratas dapat dinormalisasi oleh
+$\int_{S^n}\omega=1$. Teorema Stokes memastikan bahwa integral hanya
+bergantung pada kelas kohomologi.
+
+\subsection{Teorema de Rham dan gerbang topologi diferensial}
+
+\begin{Theorem}[Teorema de Rham — pernyataan]\label{o011-br-thm-de-rham}
+Integrasi bentuk pada rantai singular mulus menginduksi isomorfisme alami
+\[
+ H^k_{\mathrm{dR}}(M)\xrightarrow{\ \cong\ }
+ H^k_{\mathrm{sing}}(M;\mathbb R)
+\]
+untuk setiap manifold mulus $M$ dan setiap $k$.
+\end{Theorem}
+
+Teorema ini dinyatakan, bukan dibuktikan, karena pembuktian lengkap memerlukan
+kompleks singular, subdivisi, dan argumen berkas atau resolusi halus yang berada
+di luar jembatan ini. Isi konseptualnya ialah bahwa perhitungan dengan bentuk
+diferensial menghasilkan invariant topologis yang sama dengan kohomologi
+singular berkoefisien nyata.
+
+\paragraph{Derajat.}
+Jika $f\colon M\to N$ mulus antara manifold tertutup, terhubung, berorientasi,
+dan berdimensi sama $n$, tindakan $f^*$ pada kohomologi teratas adalah
+perkalian oleh suatu bilangan bulat $\deg f$. Secara ekuivalen,
+\[
+ \int_M f^*\omega=(\deg f)\int_N\omega
+\]
+untuk setiap bentuk volume tertutup $\omega$. Dengan memilih nilai regular,
+derajat dapat dihitung sebagai jumlah bertanda titik-titik prapeta.
+
+\paragraph{Transversalitas.}
+Jika $f\colon M\to N$ transversal terhadap submanifold $Z\subseteq N$, maka
+$f^{-1}(Z)$ adalah submanifold berdimensi
+$\dim M-\operatorname{codim}Z$. Transversalitas memungkinkan kelas kohomologi,
+bilangan perpotongan, dan derajat direpresentasikan oleh geometri prapeta yang
+stabil di bawah perturbasi kecil. Modul ini hanya memakai pernyataan gerbang
+tersebut; teorema aproksimasi transversal memerlukan pembahasan tersendiri.
+
+\paragraph{Teori Morse.}
+Fungsi Morse mempunyai titik kritis nondegenerat. Ketika nilai melewati titik
+kritis berindeks $\lambda$, sublevel berubah melalui pemasangan pegangan
+$\lambda$. Dari sini lahir kompleks Morse, ketaksamaan Morse, dan hubungan
+antara jumlah titik kritis dengan kohomologi. Pembuktian memerlukan lema Morse,
+aliran gradien, dan analisis kekompakan; tidak satu pun disamarkan sebagai
+telah dibuktikan di sini.
+
+\begin{bemerkung}\label{o011-br-rem-roadmap}
+Jembatan ini menutup rantai logis yang diperlukan untuk kurikulum dasar:
+bentuk dan $d$ $\to$ kohomologi $\to$ invariansi homotopi $\to$
+Mayer--Vietoris dan contoh $\to$ teorema de Rham sebagai identifikasi global
+$\to$ gerbang derajat, transversalitas, serta Morse. Teori lanjutan dapat
+memulai tepat dari tiga gerbang terakhir tanpa mengulang bagian sebelumnya.
+\end{bemerkung}

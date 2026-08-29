@@ -4,7 +4,7 @@
   "unit_number": 2,
   "heading_level": "section",
   "media_config": "source/unit_media.json",
-  "media_config_sha256": "10b822483a85dc7761c7b049d64ce5586e3686de104765062206fff6f0902611",
+  "media_config_sha256": "1f5404aad71947dcff064b853f1820b302f5a7e14cbb862631623eeddc2b8cad",
   "manifest": "authority/brenner_media_rights_manifest.csv",
   "manifest_sha256": "fc3cc283b23c9027b181c0e3822cf0f26eb58037fe3cbd23e4c7eaae1d05ec57",
   "image_engine": "Version: ImageMagick 7.1.2-22 Q16 x64 ccf56fb:20260512 https://imagemagick.org",
@@ -12,8 +12,8 @@
   "derivative_count": 1,
   "attribution_tex": {
     "path": "build/generated/unit02-media-attribution-cumulative.tex",
-    "bytes": 869,
-    "sha256": "0dd53642ca7da940ff863b0a707cb98cbd3f2f03a7b8c9b533985b762fe32c31"
+    "bytes": 896,
+    "sha256": "81533a4051923b1c7d36a3f5abe5b4a42a7d17cc68361e68368b70beb91a5d9d"
   },
   "media": [
     {
@@ -36,6 +36,8 @@
         "bytes": 73268,
         "sha256": "fe9343b5b2448fd1618edaede2e1a9d22d9388731298ee1cee8597dd854a7055",
         "identify": "PNG 1365 1346 sRGB",
+        "source_kind": "svg",
+        "frame_index": null,
         "command": [
           "magick",
           "-background",
@@ -52,7 +54,7 @@
           "-strip",
           "-define",
           "png:exclude-chunk=date,time",
-          "PNG24:build/generated/media/Integral apl rot obsah1.png"
+          "build/generated/media/Integral apl rot obsah1.png"
         ]
       }
     },

@@ -1,0 +1,71 @@
+{
+  "annotated_tag": true,
+  "asset_directory": "output/release-complete",
+  "assets": [
+    {
+      "bytes": 10525469,
+      "name": "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+      "sha256": "26f19153db2ca08851e182202900a8371f1816b428f8fe7321b35de60b9c84ef"
+    },
+    {
+      "bytes": 7753152,
+      "name": "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260828.zip",
+      "sha256": "95ceda19a190685b30deebe6dedc25c2efc99e95e243c9ba36b154b732a2264e"
+    },
+    {
+      "bytes": 69147984,
+      "name": "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-20260828.zip",
+      "sha256": "051324674c298cfb261dac7b8b98b0d316ea4bca948eb3f1224fc2162fb163c7"
+    },
+    {
+      "bytes": 2541,
+      "name": "LICENSE.md",
+      "sha256": "a94ce827c5d341484525e056d4f6c69649cbc676cf454198b574cc6fe5922691"
+    },
+    {
+      "bytes": 2793,
+      "name": "RELEASE_NOTES_COMPLETE_20260828.md",
+      "sha256": "af93251854d80ba7e5d6f00fb751857907067529c8a5b7449fedb4da25b586e0"
+    },
+    {
+      "bytes": 1626,
+      "name": "FILE_MANIFEST.json",
+      "sha256": "8896c2a508e8a86ab8239a91b933fa2e1dec425ef3ef68078fd9a902ab281494"
+    },
+    {
+      "bytes": 664,
+      "name": "SHA256SUMS.txt",
+      "sha256": "9a24919351632b93e51cccb54c3af64b52b0174eec9932e04323a4127254c947"
+    }
+  ],
+  "checksums": "output/release-complete/SHA256SUMS.txt",
+  "draft": false,
+  "make_latest": true,
+  "manifest": "output/release-complete/FILE_MANIFEST.json",
+  "predecessor_tag": "v0.22.0-unit-22",
+  "prerelease": false,
+  "public_file_order": [
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260828.zip",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-20260828.zip",
+    "LICENSE.md",
+    "RELEASE_NOTES_COMPLETE_20260828.md",
+    "FILE_MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "public_readback_receipt": "qa/complete/GITHUB_PUBLIC_READBACK_RECEIPT.json",
+  "publication_receipt": "qa/complete/GITHUB_PUBLICATION_RECEIPT.json",
+  "release_notes": "output/release-complete/RELEASE_NOTES_COMPLETE_20260828.md",
+  "release_title": "Geometri Diferensial dan Manifold Mulus — Edisi Lengkap Bahasa Indonesia",
+  "release_version": "2026.08.28-complete",
+  "repository": {
+    "name": "brenner-differentialgeometrie-id",
+    "owner": "KokunoYumeto",
+    "url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id"
+  },
+  "schema_version": 1,
+  "status": "ready",
+  "tag": "v1.0.0",
+  "target_commit": "required_runtime_argument",
+  "workflow": "o011-github-complete-release-v1"
+}

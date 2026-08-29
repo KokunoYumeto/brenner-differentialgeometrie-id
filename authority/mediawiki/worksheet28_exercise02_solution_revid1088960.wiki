@@ -1,0 +1,27 @@
+{{
+Mathematischer Text/Lösung{{{opt|}}}
+|Text=
+Nach
+{{
+Faktlink
+|Präwort=||Faktseitenname=
+Reelles Vektorbündel/Rang 1/Offene Menge/Krümmungsoperator/Fakt
+|Nr=
+|SZ=
+}}
+ist
+{{
+Relationskette/align
+| R {{makl| \partial_1, \partial_2 |}} 
+|| \partial_1 \Gamma_2 - \partial_2 \Gamma_1
+|| \partial_1 {{makl| 7x^3 +xy^2-4y^5 |}} -  \partial_2 {{makl|  x^5-x^2y^2+3y^4  |}} 
+||  21x^2 +y^2 - 5x^4 -2xy^2
+|| 
+|SZ=.
+}}
+|Textart=Lösung 
+|Kategorie=Siehe
+|Kategorie2=
+|Autor=
+|Bearbeitungsstand=wd
+}}

@@ -1,0 +1,523 @@
+% O011-BL-A — latihan, petunjuk, solusi, dan uji penguasaan asli.
+% Lisensi: CC BY-SA 4.0.
+% Provenans: disusun oleh OpenAI Codex gpt-5.6-sol, Ultra, atas arahan pengguna.
+
+\subsection{Latihan, petunjuk bertahap, dan solusi}
+
+Setiap latihan di bagian ini mempunyai identitas stabil yang tidak bergantung
+pada bahasa. Petunjuk disusun bertahap: baca petunjuk kedua hanya jika petunjuk
+pertama belum cukup. Solusi yang diberikan merupakan bagian asli modul ini,
+bukan solusi yang dinisbahkan kepada sumber Brenner.
+
+\subsubsection*{Latihan L1 — Grup perkalian positif (O011-BL-E01)}
+\label{o011-bl-e01}
+
+Tunjukkan bahwa $\mathbb R_{>0}$ dengan perkalian merupakan grup Lie
+satu dimensi. Tentukan aljabar Lie dan pemetaan eksponensialnya. Tunjukkan pula
+bahwa logaritma memberikan isomorfisme grup Lie
+$\mathbb R_{>0}\cong(\mathbb R,+)$.
+
+\paragraph{Petunjuk 1.}
+Gunakan koordinat biasa pada himpunan terbuka $\mathbb R_{>0}\subset\mathbb R$.
+
+\paragraph{Petunjuk 2.}
+Subgrup satu-parameter berkecepatan awal $v$ harus memenuhi
+$\gamma'(t)=v\gamma(t)$ dan $\gamma(0)=1$.
+
+\paragraph{Solusi.}
+Perkalian $(x,y)\mapsto xy$ dan invers $x\mapsto x^{-1}$ mulus pada
+$\mathbb R_{>0}$. Ruang singgung di identitas $1$ dapat diidentifikasi dengan
+$\mathbb R$. Karena grupnya abelian, braket Lie identik nol. Persamaan untuk
+medan invarian-kiri yang bernilai $v$ di $1$ ialah
+$\gamma'(t)=v\gamma(t)$, sehingga $\gamma_v(t)=e^{tv}$ dan
+$\exp(v)=e^v$. Akhirnya $\log(xy)=\log x+\log y$; logaritma dan eksponensial
+saling invers serta mulus.
+
+\subsubsection*{Latihan L2 — Ruang singgung grup matriks (O011-BL-E02)}
+\label{o011-bl-e02}
+
+Buktikan langsung bahwa
+\[
+ T_I\mathrm{SL}_n(\mathbb R)=\{X:\operatorname{tr}X=0\}
+ \quad\text{dan}\quad
+ T_I\mathrm O(n)=\{X:X^{\mathsf T}+X=0\}.
+\]
+Hitung dimensinya.
+
+\paragraph{Petunjuk 1.}
+Diferensiasikan persamaan $\det A(t)=1$ dan
+$A(t)^{\mathsf T}A(t)=I$ pada $t=0$.
+
+\paragraph{Petunjuk 2.}
+Untuk arah sebaliknya, gunakan $e^{tX}$ dan identitas
+$\det(e^{tX})=e^{t\operatorname{tr}X}$; untuk matriks antisimetri gunakan
+$(e^{tX})^{\mathsf T}e^{tX}=I$.
+
+\paragraph{Solusi.}
+Jika $A(0)=I$ dan $A'(0)=X$, rumus turunan determinan memberi
+\[
+ 0=\left.\frac d{dt}\right|_0\det A(t)=\operatorname{tr}X.
+\]
+Sebaliknya, jika $\operatorname{tr}X=0$, kurva $e^{tX}$ berada di
+$\mathrm{SL}_n$ dan berkecepatan $X$ pada nol. Jadi ruang singgung pertama
+tepat seperti dinyatakan dan berdimensi $n^2-1$.
+
+Untuk $A(t)\in\mathrm O(n)$,
+\[
+ 0=\left.\frac d{dt}\right|_0 A(t)^{\mathsf T}A(t)=X^{\mathsf T}+X.
+\]
+Jika $X^{\mathsf T}=-X$, maka
+$(e^{tX})^{\mathsf T}=e^{-tX}$, sehingga $e^{tX}\in\mathrm O(n)$. Matriks
+antisimetri ditentukan oleh entri di atas diagonal; dimensinya
+$n(n-1)/2$.
+
+\subsubsection*{Latihan L3 — Medan invarian pada grup umum linear (O011-BL-E03)}
+\label{o011-bl-e03}
+
+Untuk $A\in M_n(\mathbb R)$, tentukan medan invarian-kiri $X^A$ dan medan
+invarian-kanan $Y^A$ pada $\mathrm{GL}_n(\mathbb R)$. Hitung alirannya.
+
+\paragraph{Petunjuk 1.}
+Diferensial perkalian kiri $L_g(h)=gh$ pada $I$ adalah $A\mapsto gA$.
+
+\paragraph{Petunjuk 2.}
+Periksa kurva $g e^{tA}$ dan $e^{tA}g$.
+
+\paragraph{Solusi.}
+Kita memperoleh
+\[
+  X^A_g=gA,
+  \qquad Y^A_g=Ag.
+\]
+Kurva integral $X^A$ yang berawal di $g$ ialah $t\mapsto ge^{tA}$, sebab
+turunannya $ge^{tA}A$. Kurva integral $Y^A$ ialah
+$t\mapsto e^{tA}g$. Keduanya lengkap untuk semua $t\in\mathbb R$.
+
+\subsubsection*{Latihan L4 — Braket pada grup afin garis (O011-BL-E04)}
+\label{o011-bl-e04}
+
+Pertimbangkan
+\[
+ G=\left\{\begin{pmatrix}a&b\\0&1\end{pmatrix}:a>0,
+ b\in\mathbb R\right\}.
+\]
+Tentukan aljabar Lie dan braketnya. Apakah aljabar Lie ini abelian?
+
+\paragraph{Petunjuk 1.}
+Tuliskan arah singgung di identitas sebagai
+$X(x,y)=\left(\begin{smallmatrix}x&y\\0&0\end{smallmatrix}\right)$.
+
+\paragraph{Petunjuk 2.}
+Hitung $X(x,y)X(u,v)-X(u,v)X(x,y)$.
+
+\paragraph{Solusi.}
+Aljabar Lie terdiri atas semua
+\[
+ X(x,y)=\begin{pmatrix}x&y\\0&0\end{pmatrix}.
+\]
+Perkalian langsung memberi
+\[
+ [X(x,y),X(u,v)]
+ =\begin{pmatrix}0&xv-uy\\0&0\end{pmatrix}
+ =X(0,xv-uy).
+\]
+Aljabar ini tidak abelian; misalnya
+$[X(1,0),X(0,1)]=X(0,1)$.
+
+\subsubsection*{Latihan L5 — Eksponensial rotasi dan geseran (O011-BL-E05)}
+\label{o011-bl-e05}
+
+Hitung eksponensial dari
+\[
+ J=\begin{pmatrix}0&-1\\1&0\end{pmatrix},
+ \qquad
+ N=\begin{pmatrix}0&1\\0&0\end{pmatrix}.
+\]
+Jelaskan subgrup satu-parameter yang dihasilkan.
+
+\paragraph{Petunjuk 1.}
+Gunakan $J^2=-I$ dan $N^2=0$.
+
+\paragraph{Petunjuk 2.}
+Pisahkan deret pangkat $e^{tJ}$ menjadi suku genap dan ganjil.
+
+\paragraph{Solusi.}
+Karena $J^{2k}=(-1)^kI$ dan $J^{2k+1}=(-1)^kJ$,
+\[
+ e^{tJ}=\cos(t)I+\sin(t)J
+ =\begin{pmatrix}\cos t&-\sin t\\\sin t&\cos t\end{pmatrix}.
+\]
+Ini adalah subgrup rotasi di $\mathrm{SO}(2)$. Karena $N^2=0$,
+\[
+ e^{tN}=I+tN=\begin{pmatrix}1&t\\0&1\end{pmatrix},
+\]
+yakni subgrup geseran unipoten.
+
+\subsubsection*{Latihan L6 — Determinan eksponensial (O011-BL-E06)}
+\label{o011-bl-e06}
+
+Buktikan bahwa untuk setiap matriks nyata $X$,
+\[
+  \det(e^X)=e^{\operatorname{tr}X}.
+\]
+Gunakan hasil ini untuk menunjukkan bahwa eksponensial
+$\mathfrak{sl}_n\to\mathrm{SL}_n$ terdefinisi dengan baik.
+
+\paragraph{Petunjuk 1.}
+Tinjau $f(t)=\det(e^{tX})$ dan gunakan rumus Jacobi untuk turunan determinan.
+
+\paragraph{Petunjuk 2.}
+Tunjukkan $f'(t)=\operatorname{tr}(X)f(t)$ dengan $f(0)=1$.
+
+\paragraph{Solusi.}
+Karena $(e^{tX})'=Xe^{tX}$ dan $e^{tX}$ invertibel,
+\[
+ f'(t)=f(t)\operatorname{tr}\bigl(e^{-tX}Xe^{tX}\bigr)
+ =f(t)\operatorname{tr}X.
+\]
+Solusi persamaan skalar ini dengan $f(0)=1$ ialah
+$f(t)=e^{t\operatorname{tr}X}$. Ambil $t=1$. Jika
+$\operatorname{tr}X=0$, determinan $e^X$ sama dengan $1$.
+
+\subsubsection*{Latihan L7 — Adjoint grup matriks (O011-BL-E07)}
+\label{o011-bl-e07}
+
+Untuk subgrup matriks $G\subseteq\mathrm{GL}_n(\mathbb R)$, buktikan
+\[
+ \operatorname{Ad}_gX=gXg^{-1},
+ \qquad
+ \operatorname{ad}_XY=XY-YX.
+\]
+
+\paragraph{Petunjuk 1.}
+Diferensiasikan $g(I+tX+o(t))g^{-1}$.
+
+\paragraph{Petunjuk 2.}
+Kemudian diferensiasikan $e^{tX}Ye^{-tX}$ pada $t=0$.
+
+\paragraph{Solusi.}
+Kurva $A(t)$ melalui $I$ dengan $A'(0)=X$ memberi
+\[
+ \left.\frac d{dt}\right|_0gA(t)g^{-1}=gXg^{-1},
+\]
+yang membuktikan rumus $\operatorname{Ad}$. Selanjutnya
+\[
+ \left.\frac d{dt}\right|_0 e^{tX}Ye^{-tX}
+ =XY-YX,
+\]
+sehingga $\operatorname{ad}_X(Y)=[X,Y]$.
+
+\subsubsection*{Latihan L8 — Komutator infinitesimal (O011-BL-E08)}
+\label{o011-bl-e08}
+
+Untuk $X,Y\in M_n(\mathbb R)$, tetapkan
+\[
+ c(t)=e^{tX}e^{tY}e^{-tX}e^{-tY}.
+\]
+Tunjukkan bahwa
+\[
+ c(t)=I+t^2[X,Y]+O(t^3).
+\]
+
+\paragraph{Petunjuk 1.}
+Gunakan $e^{tX}=I+tX+\tfrac12t^2X^2+O(t^3)$ untuk keempat faktor.
+
+\paragraph{Petunjuk 2.}
+Semua suku orde satu harus saling menghapus; kelompokkan suku orde dua.
+
+\paragraph{Solusi.}
+Kalikan dua faktor pertama dan dua faktor terakhir hingga orde dua:
+\[
+ e^{tX}e^{tY}
+ =I+t(X+Y)+t^2\left(\tfrac12X^2+XY+\tfrac12Y^2\right)+O(t^3),
+\]
+\[
+ e^{-tX}e^{-tY}
+ =I-t(X+Y)+t^2\left(\tfrac12X^2+XY+\tfrac12Y^2\right)+O(t^3).
+\]
+Ketika kedua ekspansi dikalikan, koefisien orde satu hilang dan koefisien
+orde dua menyederhana menjadi $XY-YX$. Jadi rumus yang diminta berlaku.
+Rumus ini memperlihatkan bahwa braket mengukur kegagalan gerak kecil dalam
+dua arah untuk saling komutatif.
+
+\subsubsection*{Latihan L9 — Aksi lingkaran (O011-BL-E09)}
+\label{o011-bl-e09}
+
+Biarkan $\mathbb R$ bertindak pada $S^1\subset\mathbb C$ melalui
+$t\cdot z=e^{it}z$. Tentukan orbit, stabilisator, medan fundamental untuk
+$v\in\mathbb R$, dan kernel diferensial pemetaan orbit di $0$.
+
+\paragraph{Petunjuk 1.}
+Untuk $z$ tetap, selesaikan $e^{it}z=z$.
+
+\paragraph{Petunjuk 2.}
+Diferensiasikan $e^{itv}z$ pada $t=0$.
+
+\paragraph{Solusi.}
+Orbit setiap $z$ adalah seluruh $S^1$. Stabilisatornya
+$2\pi\mathbb Z$, suatu subgrup diskret. Medan fundamental ialah
+\[
+ v_{S^1}(z)=ivz.
+\]
+Pemetaan $v\mapsto ivz$ dari $\mathbb R$ ke $T_zS^1$ adalah isomorfisme,
+sehingga kernelnya nol. Ini sesuai dengan aljabar Lie stabilisator diskret,
+yang juga nol, meskipun stabilisator grupnya sendiri tidak trivial.
+
+\subsubsection*{Latihan L10 — Orbit rotasi di ruang Euklides (O011-BL-E10)}
+\label{o011-bl-e10}
+
+Tentukan orbit dan stabilisator aksi standar $\mathrm{SO}(3)$ pada
+$\mathbb R^3$. Untuk $p\ne0$, buktikan
+\[
+  T_p(\mathrm{SO}(3)\cdot p)=p^\perp.
+\]
+
+\paragraph{Petunjuk 1.}
+Rotasi mempertahankan norma dan bertindak transitif pada setiap bola berjari-jari
+positif.
+
+\paragraph{Petunjuk 2.}
+Medan fundamental yang ditentukan $X\in\mathfrak{so}(3)$ bernilai $Xp$.
+Gunakan antisimetri untuk menunjukkan $Xp\perp p$ dan hitung dimensi.
+
+\paragraph{Solusi.}
+Orbit $0$ adalah $\{0\}$ dan stabilisatornya seluruh $\mathrm{SO}(3)$. Jika
+$p\ne0$, orbitnya bola $S^2_{\|p\|}$ dan stabilisatornya isomorfik dengan
+$\mathrm{SO}(2)$, yaitu rotasi di bidang $p^\perp$. Karena
+$\langle Xp,p\rangle=-\langle p,Xp\rangle$, setiap $Xp$ tegak lurus pada
+$p$. Pemetaan $X\mapsto Xp$ berperingkat dua: kernelnya berdimensi satu,
+yakni aljabar stabilisator. Jadi citranya adalah seluruh ruang dua dimensi
+$p^\perp$.
+
+\subsubsection*{Latihan L11 — Orbit konjugasi (O011-BL-E11)}
+\label{o011-bl-e11}
+
+$\mathrm{GL}_n(\mathbb R)$ bertindak pada $M_n(\mathbb R)$ melalui
+$g\cdot A=gAg^{-1}$. Tentukan stabilisator $A$ dan ruang tangensial orbitnya
+di $A$.
+
+\paragraph{Petunjuk 1.}
+Stabilisator adalah semua matriks invertibel yang komutatif dengan $A$.
+
+\paragraph{Petunjuk 2.}
+Diferensiasikan $e^{tX}Ae^{-tX}$.
+
+\paragraph{Solusi.}
+Stabilisatornya adalah sentralisator invertibel
+\[
+ (\mathrm{GL}_n)_A=\{g\in\mathrm{GL}_n:gA=Ag\}.
+\]
+Medan fundamental arah $X$ bernilai
+\[
+ \left.\frac d{dt}\right|_0e^{tX}Ae^{-tX}=XA-AX=[X,A].
+\]
+Oleh karena itu
+\[
+ T_A(\mathrm{GL}_n\cdot A)=\{[X,A]:X\in M_n(\mathbb R)\}.
+\]
+Kernelnya adalah aljabar semua matriks yang komutatif dengan $A$.
+
+\subsubsection*{Latihan L12 — Kernel homomorfisme (O011-BL-E12)}
+\label{o011-bl-e12}
+
+Misalkan $F\colon G\to H$ homomorfisme grup Lie. Buktikan bahwa
+$\ker(dF_e)$ adalah ideal dalam $\mathfrak g$ dan
+$\operatorname{im}(dF_e)$ adalah subaljabar Lie dalam $\mathfrak h$.
+
+\paragraph{Petunjuk 1.}
+Gunakan $dF_e[v,w]=[dF_ev,dF_ew]$.
+
+\paragraph{Petunjuk 2.}
+Untuk sifat ideal, ambil $v$ di kernel dan $w$ sebarang.
+
+\paragraph{Solusi.}
+Jika $v\in\ker(dF_e)$ dan $w\in\mathfrak g$, maka
+\[
+ dF_e[v,w]=[dF_ev,dF_ew]=[0,dF_ew]=0.
+\]
+Jadi $[v,w]$ kembali berada dalam kernel; kernel adalah ideal. Jika
+$a=dF_ev$ dan $b=dF_ew$ berada dalam citra, maka
+\[
+ [a,b]=[dF_ev,dF_ew]=dF_e[v,w]
+\]
+juga berada dalam citra. Jadi citra adalah subaljabar Lie.
+
+\subsection{Uji penguasaan kumulatif}
+
+Keempat soal berikut dimaksudkan sebagai penilaian setelah seluruh modul.
+Setiap soal mempunyai rubrik, solusi lengkap, dan parameter alternatif untuk
+menghasilkan bentuk ekuivalen tanpa mengubah kompetensi yang diuji.
+
+\subsubsection*{Penguasaan M1 — Grup Heisenberg (O011-BL-M01)}
+\label{o011-bl-m01}
+
+Untuk
+\[
+ H=\left\{h(x,y,z)=
+ \begin{pmatrix}1&x&z\\0&1&y\\0&0&1\end{pmatrix}:x,y,z\in\mathbb R\right\},
+\]
+(a) buktikan bahwa $H$ adalah grup Lie; (b) tentukan hukum grup dalam
+koordinat $(x,y,z)$; (c) tentukan aljabar Lie dan semua braket basis
+$X=E_{12}$, $Y=E_{23}$, $Z=E_{13}$; (d) hitung
+$\exp(aX+bY+cZ)$.
+
+\paragraph{Petunjuk.}
+Semua matriks $N=aX+bY+cZ$ memenuhi $N^3=0$. Perhatikan $XY=Z$ tetapi
+$YX=0$.
+
+\paragraph{Solusi.}
+Himpunan ini adalah submanifold afin tiga dimensi dari $M_3(\mathbb R)$.
+Perkalian dan invers matriks membatas menjadi pemetaan mulus, dan
+\[
+ h(x,y,z)h(x',y',z')
+ =h(x+x',y+y',z+z'+xy').
+\]
+Inversnya $h(x,y,z)^{-1}=h(-x,-y,-z+xy)$. Aljabar Lie ialah
+$\operatorname{span}\{X,Y,Z\}$ dengan
+\[
+ [X,Y]=Z,
+ \qquad [X,Z]=[Y,Z]=0.
+\]
+Untuk $N=aX+bY+cZ$, berlaku $N^2=abZ$ dan $N^3=0$, sehingga
+\[
+ \exp N=I+N+\tfrac12N^2
+ =h\left(a,b,c+\tfrac12ab\right).
+\]
+
+\paragraph{Rubrik (12 poin).}
+Dua poin untuk manifold dan kemulusan operasi; tiga poin untuk hukum grup dan
+invers; tiga poin untuk ruang aljabar serta semua braket; empat poin untuk
+perhitungan eksponensial beserta alasan deret berhenti.
+
+\paragraph{Parameter alternatif.}
+Ganti koordinat entri kanan atas dengan $\lambda z$ untuk suatu
+$\lambda\ne0$. Peserta harus menyesuaikan hukum grup, basis pusat, dan
+koefisien eksponensial; kompetensi yang diuji tetap sama.
+
+\subsubsection*{Penguasaan M2 — Grup afin dan eksponensial (O011-BL-M02)}
+\label{o011-bl-m02}
+
+Untuk grup $G$ pada Latihan L4, (a) hitung
+$\exp X(x,y)$; (b) tentukan $\operatorname{Ad}_{g(a,b)}X(x,y)$; (c) verifikasi
+langsung $\operatorname{ad}_{X(x,y)}X(u,v)=[X(x,y),X(u,v)]$.
+
+\paragraph{Petunjuk.}
+Jika $x\ne0$, jumlahkan deret entri kanan atas; perlakukan $x=0$ sebagai
+limit. Gunakan
+$g(a,b)^{-1}=\left(\begin{smallmatrix}a^{-1}&-a^{-1}b\\0&1\end{smallmatrix}\right)$.
+
+\paragraph{Solusi.}
+Pangkat-pangkat $X=X(x,y)$ memenuhi, untuk $k\ge1$,
+\[
+ X^k=\begin{pmatrix}x^k&x^{k-1}y\\0&0\end{pmatrix}.
+\]
+Maka
+\[
+ \exp X(x,y)=
+ \begin{cases}
+ \left(\begin{smallmatrix}e^x&y(e^x-1)/x\\0&1\end{smallmatrix}\right),&x\ne0,\\[2mm]
+ \left(\begin{smallmatrix}1&y\\0&1\end{smallmatrix}\right),&x=0.
+ \end{cases}
+\]
+Perkalian matriks memberi
+\[
+ \operatorname{Ad}_{g(a,b)}X(x,y)=X(x,ay-bx).
+\]
+Diferensiasikan rumus ini pada $g=\exp(tX(x,y))$ dan $t=0$, atau hitung
+komutator langsung, untuk memperoleh
+\[
+ \operatorname{ad}_{X(x,y)}X(u,v)=X(0,xv-uy).
+\]
+
+\paragraph{Rubrik (12 poin).}
+Lima poin untuk eksponensial termasuk kasus $x=0$; empat poin untuk adjoint;
+tiga poin untuk diferensiasi atau komutator yang memverifikasi rumus
+$\operatorname{ad}$.
+
+\paragraph{Parameter alternatif.}
+Gunakan representasi afin dengan matriks
+$\left(\begin{smallmatrix}a&0&b\\0&1&0\\0&0&1\end{smallmatrix}\right)$.
+Peserta harus mengenali bahwa perhitungan esensial tetap dua dimensi.
+
+\subsubsection*{Penguasaan M3 — Bola sebagai ruang homogen (O011-BL-M03)}
+\label{o011-bl-m03}
+
+Untuk aksi $\mathrm{SO}(n)$ pada $S^{n-1}$ dengan $n\ge3$, (a) buktikan
+transitivitas; (b) tentukan stabilisator $e_n$; (c) hitung diferensial pemetaan
+orbit di identitas; (d) deduksi
+$S^{n-1}\cong\mathrm{SO}(n)/\mathrm{SO}(n-1)$ dan periksa dimensinya.
+
+\paragraph{Petunjuk.}
+Lengkapi setiap vektor satuan menjadi basis ortonormal berorientasi. Untuk
+$X\in\mathfrak{so}(n)$, diferensial pemetaan orbit adalah $X\mapsto Xe_n$.
+
+\paragraph{Solusi.}
+Jika $p,q\in S^{n-1}$, lengkapi masing-masing menjadi basis ortonormal
+berorientasi. Pemetaan yang membawa basis pertama ke basis kedua berada dalam
+$\mathrm{SO}(n)$ dan membawa $p$ ke $q$, sehingga aksi transitif. Matriks yang
+menetapkan $e_n$ mempunyai bentuk blok
+$\operatorname{diag}(A,1)$ dengan $A\in\mathrm{SO}(n-1)$.
+
+Pemetaan orbit $\Phi_{e_n}(g)=ge_n$ mempunyai diferensial
+$T_I\Phi_{e_n}(X)=Xe_n$. Citranya adalah $e_n^\perp$, sedangkan kernelnya
+terdiri atas matriks antisimetri dengan baris dan kolom terakhir nol, yaitu
+$\mathfrak{so}(n-1)$. Karena itu ruang homogen adalah $S^{n-1}$ dan
+\[
+ \dim\mathrm{SO}(n)-\dim\mathrm{SO}(n-1)
+ =\frac{n(n-1)-(n-1)(n-2)}2=n-1.
+\]
+
+\paragraph{Rubrik (12 poin).}
+Tiga poin untuk transitivitas; dua poin untuk stabilisator; empat poin untuk
+diferensial, kernel, dan citra; tiga poin untuk identifikasi hasil bagi dan
+perhitungan dimensi.
+
+\paragraph{Parameter alternatif.}
+Ganti bola satuan dengan bola berjari-jari $r>0$ dan titik dasar $re_1$.
+Stabilisator dan hasil bagi sama hingga pilihan titik dasar; diferensial
+pemetaan orbit memperoleh faktor $r$.
+
+\subsubsection*{Penguasaan M4 — Naturalisasi eksponensial dan kegagalan komutatif (O011-BL-M04)}
+\label{o011-bl-m04}
+
+Misalkan $F\colon G\to H$ homomorfisme grup Lie. (a) buktikan
+$F(\exp_Gv)=\exp_H(dF_ev)$; (b) deduksi
+$F(\exp_G(tv))=\exp_H(t,dF_ev)$ untuk semua $t$; (c) berikan matriks
+$X,Y\in\mathfrak{gl}_2$ yang menunjukkan bahwa umumnya
+$e^{X+Y}\ne e^Xe^Y$; (d) nyatakan hipotesis sederhana yang menjamin kesamaan.
+
+\paragraph{Petunjuk.}
+Untuk (a), bandingkan dua subgrup satu-parameter dengan kecepatan awal yang
+sama. Untuk (c), gunakan kelipatan kecil matriks $E_{12}$ dan $E_{21}$ atau
+bandingkan suku orde dua.
+
+\paragraph{Solusi.}
+Kurva $t\mapsto F(\exp_G(tv))$ adalah homomorfisme
+$\mathbb R\to H$ dan turunannya pada nol ialah $dF_ev$. Berdasarkan ketunggalan
+subgrup satu-parameter, kurva itu sama dengan
+$t\mapsto\exp_H(t,dF_ev)$. Pernyataan (a) adalah kasus $t=1$, sedangkan (b)
+adalah identitas kurva penuh.
+
+Ambil $X=sE_{12}$ dan $Y=sE_{21}$ dengan $s\ne0$ cukup kecil. Ekspansi hingga
+orde dua memberi
+\[
+ e^Xe^Y=I+X+Y+XY+O(s^3),
+\]
+sedangkan
+\[
+ e^{X+Y}=I+X+Y+\tfrac12(XY+YX)+O(s^3).
+\]
+Karena $XY\ne YX$, kedua matriks berbeda untuk $s$ cukup kecil. Jika
+$[X,Y]=0$, deret pangkat dapat dikelompokkan seperti bilangan komutatif dan
+$e^{X+Y}=e^Xe^Y$.
+
+\paragraph{Rubrik (12 poin).}
+Empat poin untuk argumen subgrup satu-parameter; dua poin untuk identitas
+berparameter; empat poin untuk contoh tandingan yang benar beserta verifikasi;
+dua poin untuk hipotesis komutatif dan alasannya.
+
+\paragraph{Parameter alternatif.}
+Ganti pasangan $E_{12},E_{21}$ dengan
+$X=\left(\begin{smallmatrix}0&s\\0&0\end{smallmatrix}\right)$ dan
+$Y=\left(\begin{smallmatrix}r&0\\0&0\end{smallmatrix}\right)$ untuk $rs\ne0$.
+Peserta harus mendeteksi komutator tak nol dan membandingkan eksponensial.

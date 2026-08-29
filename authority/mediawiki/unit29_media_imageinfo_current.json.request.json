@@ -1,0 +1,19 @@
+{
+  "content_type": "application/json; charset=utf-8",
+  "endpoint": "https://commons.wikimedia.org/w/api.php",
+  "http_date": "Fri, 28 Aug 2026 15:25:02 GMT",
+  "method": "POST",
+  "parameters": {
+    "action": "query",
+    "format": "json",
+    "formatversion": "2",
+    "iiprop": "timestamp|user|url|size|sha1|mime|extmetadata",
+    "prop": "info|imageinfo",
+    "titles": "File:Parallel lines in Poincare's model of hyperbolic geometry.svg"
+  },
+  "response_bytes": 2540,
+  "response_path": "unit29_media_imageinfo_current.json",
+  "response_sha256": "8fa49b38f14d5c66dcf71aa374c26826045d8be4dc958ae68e29f4dc334f3c3b",
+  "retrieved_utc": "2026-08-28T15:25:02Z",
+  "schema_version": 1
+}

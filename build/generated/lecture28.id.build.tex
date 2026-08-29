@@ -1,0 +1,807 @@
+\setcounter{section}{28}
+
+  \zwischenueberschrift{Kelengkungan}
+
+Misalkan
+\mathkor {} {V} {dan} {W} {}
+adalah medan vektor yang dua kali terdiferensialkan secara kontinu pada suatu manifold diferensiabel $M$, dan misalkan $\nabla$ adalah
+\definitionsverweis {koneksi linear}{}{}
+pada
+\definitionsverweis {bundel vektor}{}{}
+\maabb {p} { E } { M
+} {}
+di atas $M$. Pemetaan
+\maabbeledisp {\nabla_W} {C^2(E) } { C^1 (E)
+} { s } { \nabla_W (s)
+} {,}
+adalah
+\definitionsverweis {turunan vertikal}{}{.}
+Pada hasil $\nabla_W (s)$ kita dapat sekali lagi menerapkan turunan vertikal dalam arah $V$, sehingga diperoleh penampang kontinu
+\mathl{\nabla_V  \left(  \nabla_W (s)  \right)}{.} Jika semua objek berkelas $C^\infty$, derajat keterdiferensialannya tidak lagi perlu diperhatikan. Di sini kita meninjau ekspresi
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R(V,W)
+}
+{ =} { \nabla_V \nabla_W - \nabla_W \nabla_V- \nabla_{[V,W]}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+yang mengirim penampang
+\zusatzklammer {yang cukup terdiferensialkan} {} {}
+dari $E$ kembali ke penampang dari $E$. Di sini
+\mathl{[V,W]}{} adalah
+\definitionsverweis {braket Lie}{}{}
+dari kedua medan vektor tersebut.
+
+\inputdefinition
+{}
+{
+
+Misalkan $M$ adalah
+\definitionsverweis {manifold diferensiabel}{}{}
+yang dua kali terdiferensialkan secara kontinu, dan
+\maabb {} { E } { M
+} {}
+adalah
+\definitionsverweis {bundel vektor diferensiabel}{}{}
+yang dua kali terdiferensialkan secara kontinu di atas $M$, dilengkapi dengan
+\definitionsverweis {koneksi linear}{}{}
+$\nabla$. Untuk
+\definitionsverweis {medan vektor}{}{}
+diferensiabel
+\mathkor {} {V} {dan} {W} {}
+pada $M$, pemetaan
+\maabbeledisp {} {C^2(E)} {C^0(E)
+} { s } { \nabla_V \nabla_W (s) - \nabla_W \nabla_V (s) - \nabla_{[V,W]}(s)
+} {,}
+disebut
+\definitionswort {operator kelengkungan}{}
+untuk $V$ dan $W$. Operator ini dinotasikan dengan $R(V,W)$.
+
+}
+
+
+
+\inputfaktbeweis
+{Reelles Vektorbündel/Trivial/Linearer Zusammenhang/Krümmungsoperator/Beschreibung/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^d
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah himpunan
+\definitionsverweis {terbuka}{}{}
+dan $\nabla$ adalah
+\definitionsverweis {koneksi linear}{}{}
+pada
+\definitionsverweis {bundel vektor}{}{}
+trivial
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ = }{ U \times \R^r
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Misalkan
+
+\mathbed {\partial_i} {}
+ {1 \leq i \leq d} {}
+ {} {} {} {}
+adalah
+\definitionsverweis {medan vektor standar}{}{}
+dan
+
+\mathbed {s_j} {}
+ {1 \leq j \leq r} {}
+ {} {} {} {}
+adalah penampang standar di $E$.}
+\faktfolgerung {Untuk
+\definitionsverweis {operator kelengkungan}{}{}
+berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R( \partial_i , \partial_j)(s_k)
+}
+{ =} { \sum_{\ell = 1}^r  R^\ell_{ijk} s_\ell
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R^\ell_{ijk}
+}
+{ =} { {\partial_i } \Gamma^\ell_{jk} - {\partial_j } \Gamma^\ell_{ik}  +  \sum_{ a  = 1}^r  \Gamma^a_{jk} \Gamma_{i a}^\ell -\sum_{ a  = 1}^r   \Gamma^a_{ik}  \Gamma_{j a}^\ell
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+di mana $\Gamma^\ell_{ik}$ menyatakan
+\definitionsverweis {simbol Christoffel}{}{}
+lokal dari koneksi tersebut.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Kita mempunyai
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ R( \partial_i ,\partial_j)
+}
+{ =} { \nabla_{\partial_i } \circ \nabla_{\partial_j } -  \nabla_{\partial_j } \circ \nabla_{\partial_i } - \nabla_{[\partial_i, \partial_j]}
+}
+{ =} { \nabla_{\partial_i } \circ \nabla_{\partial_j } -  \nabla_{\partial_j } \circ \nabla_{\partial_i }
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{,}
+sebab turunan parsial saling komutatif dan karena itu braket Lie-nya sama dengan $0$. Maka, untuk penampang standar $s_k$, dengan menggunakan
+Lema 25.10,
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ R( \partial_i ,\partial_j) (s_k)
+}
+{ =} { \nabla_{\partial_i } ( \nabla_{\partial_j } (s_k) ) -  \nabla_{\partial_j } ( \nabla_{\partial_i } (s_k))
+}
+{ =} { \nabla_{\partial_i }  \left(  \sum_{\ell = 1}^r \Gamma^\ell_{jk} s_\ell  \right)  -  \nabla_{\partial_j }  \left(  \sum_{\ell = 1}^r \Gamma^\ell_{ik} s_\ell  \right)
+}
+{ =} { \sum_{\ell = 1}^r  \left(  \nabla_{\partial_i }  \left(  \Gamma^\ell_{jk} s_\ell  \right) - \nabla_{\partial_j }  \left(  \Gamma^\ell_{ik} s_\ell  \right)   \right)
+}
+{ =} { \sum_{\ell = 1}^r  \left(  {\partial_i } \Gamma^\ell_{jk} s_\ell +  \Gamma^\ell_{jk} \sum_{ \rho  = 1}^r \Gamma_{i \ell}^\rho  s_\rho  - {\partial_j } \Gamma^\ell_{ik} s_\ell - \Gamma^\ell_{ik} \sum_{ \rho  = 1}^r \Gamma_{j \ell}^\rho  s_\rho   \right)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { \sum_{\ell = 1}^r  \left(  {\partial_i } \Gamma^\ell_{jk} - {\partial_j } \Gamma^\ell_{ik}  \right) s_\ell  + \sum_{\ell = 1}^r \sum_{ \rho  = 1}^r  \left(  \Gamma^\ell_{jk} \Gamma_{i \ell}^\rho  s_\rho  - \Gamma^\ell_{ik}  \Gamma_{j \ell}^\rho  s_\rho  \right)
+}
+{ =} { \sum_{\ell = 1}^r  \left(  {\partial_i } \Gamma^\ell_{jk} - {\partial_j } \Gamma^\ell_{ik}  \right) s_\ell  + \sum_{\ell = 1}^r  \left(  \sum_{ a  = 1}^r  \Gamma^a_{jk} \Gamma_{i a}^\ell -\sum_{ a  = 1}^r   \Gamma^a_{ik}  \Gamma_{j a}^\ell  \right)  s_\ell
+}
+{ } {
+}
+{ } {}
+}
+{}{.}
+
+}
+
+
+
+\inputfaktbeweis
+{Reelles Vektorbündel/Rang 1/Offene Menge/Krümmungsoperator/Fakt}
+{Akibat}
+{}
+{
+
+\faktsituation {Misalkan
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {himpunan terbuka}{}{}
+dan $\nabla$ adalah
+\definitionsverweis {koneksi linear}{}{}
+pada bundel vektor trivial
+\mathl{U \times \R}{} yang memiliki
+\definitionsverweis {rank}{}{}
+$1$, dengan
+\definitionsverweis {simbol Christoffel}{}{}
+
+\mathbed {\Gamma_i} {}
+ {i = 1 , \ldots , n} {}
+ {} {} {} {.}}
+\faktuebergang {Pernyataan berikut berlaku bagi
+\definitionsverweis {operator kelengkungan}{}{}
+terhadap
+\definitionsverweis {medan vektor standar}{}{}
+$\partial_i$.}
+\faktfolgerung {\aufzaehlungzwei {Berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R(\partial_i, \partial_j)
+}
+{ =} { \partial_i \Gamma_j - \partial_j \Gamma_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+} {Persamaan
+
+\mavergleichskette
+{\vergleichskette
+{ R(\partial_i, \partial_j)
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+berlaku untuk semua $i,j$ jika dan hanya jika
+$1$-\definitionsverweis {bentuk diferensial}{}{}
+$\sum_{i = 1}^n \Gamma_i dx_i$
+\definitionsverweis {tertutup}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+\aufzaehlungzwei {Karena rank bundel sama dengan $1$, kita tuliskan
+
+\mavergleichskette
+{\vergleichskette
+{ \Gamma_i
+}
+{ = }{ \Gamma_{i1}^1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan, secara serupa,
+
+\mavergleichskette
+{\vergleichskette
+{ R_{ij}
+}
+{ = }{ R_{ij1}^1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+sehingga pernyataan tersebut harus dipahami sebagai
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R(\partial_i, \partial_j) (e)
+}
+{ =} { \left(  \partial_i \Gamma_j - \partial_j \Gamma_i  \right) e
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+dengan $e$ penampang satuan konstan. Berdasarkan deskripsi eksplisit dalam
+Lema 28.2,
+kita memperoleh
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R( \partial_i , \partial_j)
+}
+{ =} { {\partial_i } \Gamma_{j} - {\partial_j } \Gamma_{i}  + \Gamma_{j} \Gamma_{i } - \Gamma_{i}  \Gamma_{j }
+}
+{ =} { {\partial_i } \Gamma_{j} - {\partial_j } \Gamma_{i}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+} {Pernyataan ini mengikuti dari (1) dan
+Soal 20.8.
+}
+
+}
+
+
+
+\inputfaktbeweis
+{Reelles Vektorbündel/Linearer Zusammenhang/Krümmungsoperator/Eigenschaften/Fakt}
+{Lema}
+{}
+{
+
+\faktsituation {Misalkan $M$ adalah
+\definitionsverweis {manifold diferensiabel}{}{}
+yang dua kali terdiferensialkan secara kontinu, dan
+\maabb {} { E } { M
+} {}
+adalah
+\definitionsverweis {bundel vektor diferensiabel}{}{}
+yang dua kali terdiferensialkan secara kontinu di atas $M$, dilengkapi dengan
+\definitionsverweis {koneksi linear}{}{}
+$\nabla$.}
+\faktuebergang {Maka
+\definitionsverweis {operator kelengkungan}{}{}
+memiliki sifat-sifat berikut.}
+\faktfolgerung {\aufzaehlungdrei{Berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R(V,W)
+}
+{ =} { -R(W,V)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{ $R$ aditif dalam kedua komponennya.
+}{Untuk setiap fungsi diferensiabel
+\maabb {f} { M } { \R
+} {}
+berlaku
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R(fV,W)
+}
+{ =} { f R(V,W)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Sifat-sifat tersebut lokal pada manifold. Karena itu, cukup membuktikannya pada suatu tutupan terbuka yang setiap anggotanya difeomorfik dengan himpunan terbuka di $\R^d$ dan di atasnya bundel vektor tersebut trivial. Dengan demikian, (1) mengikuti dari
+Lema 28.2.
+Pernyataan (2) mengikuti dari
+Lema 24.10
+dan
+Lema 11.8.
+Untuk (3), tinjau situasi lokal dengan medan vektor $f \partial_i$ dan $g \partial_j$. Kita mempunyai
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R(f \partial_i, g \partial_j)
+}
+{ =} { \nabla_{f \partial_i } \circ \nabla_{g \partial_j } - \nabla_{g\partial_j } \circ \nabla_{f \partial_i } - \nabla_{[ f \partial_i, g \partial_j]}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Menurut
+Lema 11.8,
+
+\mavergleichskettedisp
+{\vergleichskette
+{ [f \partial_i, g\partial_j]
+}
+{ =} { f [\partial_i, g\partial_j] - g \partial_j(f) \partial_i
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Oleh karena itu, untuk suatu penampang $s$, dengan menggunakan
+Teorema 25.5,
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ R(f \partial_i, g\partial_j) (s)
+}
+{ =} { \nabla_{f \partial_i } \circ \nabla_{g \partial_j } (s)- \nabla_{g \partial_j } \circ \nabla_{f \partial_i } (s)- \nabla_{[ f \partial_i, g \partial_j]}(s)
+}
+{ =} { f  \nabla_{ \partial_i } ( \nabla_{g\partial_j } (s) ) - \nabla_{g\partial_j } ( \nabla_{f \partial_i } (s))  - \nabla_{ f [\partial_i, g\partial_j] - g \partial_j(f) \partial_i  } (s)
+}
+{ =} { f  \nabla_{ \partial_i } ( \nabla_{ g \partial_j } (s) )-\nabla_{ g \partial_j } (f \nabla_{ \partial_i } (s)) - \nabla_{f [\partial_i, g\partial_j] } (s)  + \nabla_{ g \partial_j (f) \partial_i }  (s)
+}
+{ =} { f  \nabla_{ \partial_i } ( \nabla_{ g \partial_j } (s) )- f \nabla_{ g \partial_j } ( \nabla_{ \partial_i } (s))- g \partial_j(f) \nabla_{\partial_i } (s)  - \nabla_{f [\partial_i, g\partial_j] } (s)          + g \partial_j( f)  \nabla_{\partial_i } (s)
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { f \nabla_{ \partial_i } ( \nabla_{g \partial_j } (s) )- f \nabla_{ g \partial_j } ( \nabla_{ \partial_i } (s)) - f \nabla_{[\partial_i, g \partial_j]} (s)
+}
+{ =} { f R( \partial_i, \partial_j) (s)
+}
+{ } {
+}
+{ } {
+}
+}
+{}{.}
+Bersama (1) dan (2), perhitungan ini membuktikan pernyataan tersebut.
+
+}
+
+
+
+\inputfaktbeweis
+{Eindimensionale Mannigfaltigkeit/Reelles Vektorbündel/Linearer Zusammenhang/Krümmungsoperator trivial/Fakt}
+{Akibat}
+{}
+{
+
+\faktsituation {Misalkan $M$ adalah
+\definitionsverweis {manifold diferensiabel}{}{}
+berdimensi satu dan berkelas $C^2$, serta
+\maabb {} { E } { M
+} {}
+adalah
+\definitionsverweis {bundel vektor diferensiabel}{}{}
+yang dua kali terdiferensialkan secara kontinu di atas $M$, dilengkapi dengan
+\definitionsverweis {koneksi linear}{}{}
+$\nabla$.}
+\faktfolgerung {Maka
+\definitionsverweis {operator kelengkungan}{}{}
+bersifat trivial untuk sebarang
+\definitionsverweis {medan vektor}{}{}
+$V,W$.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Karena pernyataan bersifat lokal, kita dapat langsung mengambil
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan suatu interval terbuka, serta
+
+\mavergleichskette
+{\vergleichskette
+{ V
+}
+{ = }{ f \partial
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ = }{ g \partial
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dengan
+\definitionsverweis {medan vektor standar}{}{}
+$\partial$. Berdasarkan
+Lema 28.4  (3),
+
+\mavergleichskettedisp
+{\vergleichskette
+{ R(f \partial, g \partial)
+}
+{ =} { fg R( \partial, \partial)
+}
+{ =} { 0
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+karena
+
+\mavergleichskette
+{\vergleichskette
+{ [\partial, \partial ]
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+
+
+
+\inputfaktbeweis
+{Reelles Vektorbündel/Trivialer Zusammenhang/Trivialer Krümmungsoperator/Fakt}
+{Akibat}
+{}
+{
+
+\faktsituation {Misalkan $M$ adalah
+$C^2$-\definitionsverweis {manifold diferensiabel}{}{}
+dan
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ = }{ M \times \R^r
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+adalah
+\definitionsverweis {bundel vektor trivial}{}{}
+dengan
+\definitionsverweis {koneksi trivial}{}{.}}
+\faktfolgerung {Maka, untuk sebarang
+\definitionsverweis {medan vektor}{}{}
+$V,W$,
+\definitionsverweis {operator kelengkungan}{}{}
+$R(V,W)$ adalah trivial.}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Pernyataan ini bersifat lokal, sehingga kita dapat mengambil
+
+\mavergleichskette
+{\vergleichskette
+{ M
+}
+{ = }{ U
+}
+{ \subseteq }{ \R^n
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan himpunan tersebut terbuka. Menurut
+Lema 28.4  (3),
+kita dapat mereduksi lebih lanjut ke kasus ketika medan-medannya adalah
+\definitionsverweis {medan vektor standar}{}{}
+$\partial_i$. Menurut
+Soal 25.11,
+semua simbol Christoffel koneksi trivial sama dengan nol. Karena itu, pernyataan mengikuti dari
+Lema 28.2.
+
+}
+
+  \zwischenueberschrift{Teorema Frobenius}
+
+Kita tidak dapat membuktikan teorema berikut secara lengkap. Perhatikan bahwa dari simbol Christoffel terhadap penampang basis yang diberikan
+\zusatzklammer {secara lokal} {} {}
+saja, tidak terlihat apakah simbol-simbol itu akan lenyap terhadap pilihan penampang basis lain. Keadaan ini tepat dicirikan oleh lenyapnya kelengkungan.
+
+
+\inputfaktbeweis
+{Differenzierbare Mannigfaltigkeit/Vektorbündel/Linearer Zusammenhang/Lokal integrabel/Krümmung/Fakt}
+{Teorema}
+{}
+{
+
+\faktsituation {Misalkan $M$ adalah
+\definitionsverweis {manifold diferensiabel}{}{}
+dan
+\maabbdisp {p} { E } { M
+} {}
+adalah
+\definitionsverweis {bundel vektor diferensiabel}{}{,}
+yang dilengkapi dengan
+\definitionsverweis {koneksi linear}{}{}
+$\nabla$.}
+\faktuebergang {Pernyataan-pernyataan berikut ekuivalen.}
+\faktfolgerung {\aufzaehlungvier{Koneksi tersebut
+\definitionsverweis {terintegralkan secara lokal}{}{.}
+}{Secara lokal, terhadap
+\definitionsverweis {penampang basis}{}{}
+yang sesuai, koneksi tersebut isomorfik dengan
+\definitionsverweis {koneksi trivial}{}{.}
+}{Untuk setiap titik
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+terdapat lingkungan peta terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+sedemikian sehingga $E \vert_U$ trivial dan
+\definitionsverweis {simbol Christoffel}{}{}
+yang bersesuaian semuanya merupakan fungsi nol.
+}{Untuk sebarang
+\definitionsverweis {medan vektor}{}{},
+\definitionsverweis {operator kelengkungan}{}{}
+adalah trivial.
+}}
+\faktzusatz {}
+\faktzusatz {}
+
+}
+{
+
+Semua pernyataan bersifat lokal. Karena itu, kita dapat langsung mulai dengan himpunan terbuka
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+dan bundel vektor trivial $U \times \R^r$. Andaikan (1) berlaku. Kita dapat pula mengandaikan bahwa pada $U$ diberikan keluarga yang terdiri dari $r$
+\definitionsverweis {penampang horizontal}{}{}
+
+\mathl{s_1 , \ldots , s_r}{} yang bebas linear. Menurut
+Soal 25.6
+dan
+Soal 25.7,
+koneksi itu kemudian dapat ditrivialkan secara lokal. Ini membuktikan (2). Ekuivalensi (2) dan (3) mengikuti dari
+Soal 25.11
+serta
+Catatan 25.8.
+Jika simbol Christoffel sama dengan nol, maka penampang standar bersifat horizontal dan secara lokal membentuk penampang basis horizontal. Jadi, ketiga rumusan pertama ekuivalen. Jika (2) berlaku, kita dapat menerapkan
+Akibat 28.6
+secara lokal dan memperoleh bahwa operator kelengkungan trivial.
+
+Arah dari (4) ke (1) jauh lebih sulit.
+
+}
+
+Untuk kasus-kasus khusus dari arah (4) ke (1), lihat
+Soal 28.4
+dan
+Soal 28.5.

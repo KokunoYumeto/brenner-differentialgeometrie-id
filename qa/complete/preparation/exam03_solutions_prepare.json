@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "input": "source/exams/exam-03/exam03_solutions.id.tex",
+  "input_bytes": 33416,
+  "input_sha256": "b669281a35aa1db2065866b1fde31ef41c5d298adae295d02dee775e496747bb",
+  "output": "build/generated/exams/exam03_solutions.id.build.tex",
+  "output_bytes": 31628,
+  "output_sha256": "8ca04ae88b07ac5eab23266d3976550d7bd7089553cfce8fc580fea6e36c3305",
+  "removed_category_links": 2,
+  "removed_noedit_markers": 16,
+  "trimmed_media_arguments": 0,
+  "localized_math_operators": {
+    "operatorname_kern_to_ker": 0,
+    "operatorname_bild_to_im": 0
+  },
+  "layout_reflows": [],
+  "rendered_internal_links": [
+    {
+      "target": "Hyperfläche/Kurve/Anfangstangentenvektor/Paralleles Vektorfeld/Existenz/Fakt",
+      "label": "Teorema 6.9 (Geometri diferensial (Osnabrück 2023))"
+    },
+    {
+      "target": "Hyperfläche/Kurve/Paralleles Vektorfeld/Eigenschaften/Fakt",
+      "label": "Lema 6.7 (Geometri diferensial (Osnabrück 2023))"
+    },
+    {
+      "target": "Hyperfläche/Kurve/Anfangstangentenvektor/Paralleles Vektorfeld/Existenz/Fakt",
+      "label": "Teorema 6.9 (Geometri diferensial (Osnabrück 2023))"
+    },
+    {
+      "target": "Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt",
+      "label": "Teorema 8.2 (Geometri diferensial (Osnabrück 2023))"
+    },
+    {
+      "target": "Satz über implizite Abbildungen/Faser ist Mannigfaltigkeit/Fakt",
+      "label": "Teorema 8.2 (Geometri diferensial (Osnabrück 2023))"
+    },
+    {
+      "target": "Totale Differenzierbarkeit/K/Kettenregel/Fakt",
+      "label": "aturan rantai"
+    },
+    {
+      "target": "Mannigfaltigkeit/Abzählbar/Positive Volumenform/Zugehöriges Maß/Vorbereitende Eigenschaften/Fakt",
+      "label": "Lema 15.2 (Geometri diferensial (Osnabrück 2023))"
+    },
+    {
+      "target": "Mannigfaltigkeit/Differenzierbare Abbildung/Zurückziehen von Differentialformen/Elementare Eigenschaften/Fakt",
+      "label": "Lema 14.7 (Geometri diferensial (Osnabrück 2023))  (4)"
+    },
+    {
+      "target": "Offene Mengen/Differenzierbare Abbildung/Zurückziehen von Volumenform auf gleichdimensionalem Raum/In Koordinaten/Fakt",
+      "label": "Korolari 14.9 (Geometri diferensial (Osnabrück 2023))"
+    },
+    {
+      "target": ":Kurs:Maß- und Integrationstheorie (Osnabrück 2022-2023)/3/Klausur mit Lösungen/latex",
+      "label": "Ujian dengan solusi (Teori ukuran dan integrasi (Osnabrück 2022-2023))"
+    },
+    {
+      "target": "Reelles Vektorbündel/Rang 1/Offene Menge/Krümmungsoperator/Fakt",
+      "label": "Fakta"
+    },
+    {
+      "target": "Kurs:Differentialgeometrie/Reelles Vektorbündel/Rang 1/Offene Menge/Krümmungsoperator/Fakt/Faktreferenznummer",
+      "label": "*****"
+    },
+    {
+      "target": "Mannigfaltigkeit mit Rand/Orientierung/Randorientierung/Fakt",
+      "label": "Teorema 21.8 (Geometri diferensial (Osnabrück 2023))"
+    },
+    {
+      "target": "Nullstellenfreie Volumenform/Orientierte (Karten) Mannigfaltigkeit/Äquivalenz/Fakt",
+      "label": "Teorema 22.11 (Geometri diferensial (Osnabrück 2023))"
+    },
+    {
+      "target": "Mannigfaltigkeit mit Rand/Satz von Stokes/Fakt",
+      "label": "Teorema 23.2 (Geometri diferensial (Osnabrück 2023))"
+    },
+    {
+      "target": "Differentialform/Mannigfaltigkeit/Äußere Ableitung/Eigenschaften/Fakt",
+      "label": "Teorema 20.4 (Geometri diferensial (Osnabrück 2023))  (5)"
+    },
+    {
+      "target": "Diffeomorphismus/Transformationsformel für Integrale/Fakt",
+      "label": "Ujian dengan solusi (Teori ukuran dan integrasi (Osnabrück 2022-2023)) (Teori ukuran dan integrasi (Osnabrück 2022-2023))\n(Geometri diferensial (Osnabrück 2023))"
+    }
+  ],
+  "wiki_link_resolution_passes": 2,
+  "rendered_interactive_gif_links": []
+}

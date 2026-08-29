@@ -1,0 +1,1921 @@
+%Daten zur Institution
+
+%\input{Dozentdaten}
+
+%\renewcommand{\fachbereich}{Fachbereich}
+
+%\renewcommand{\dozent}{Prof. Dr. . }
+
+%Klausurdaten
+
+\renewcommand{\klausurgebiet}{ }
+
+\renewcommand{\klausurtyp}{ }
+
+\renewcommand{\klausurdatum}{ . 20}
+
+\klausurvorspann {\fachbereich} {\klausurdatum} {\dozent} {\klausurgebiet} {\klausurtyp}
+
+%Daten für folgende Punktetabelle
+
+\renewcommand{\aeins}{  3  }
+
+\renewcommand{\azwei}{  3   }
+
+\renewcommand{\adrei}{  7  }
+
+\renewcommand{\avier}{  4  }
+
+\renewcommand{\afuenf}{  0  }
+
+\renewcommand{\asechs}{  0  }
+
+\renewcommand{\asieben}{  0  }
+
+\renewcommand{\aacht}{  5  }
+
+\renewcommand{\aneun}{  15  }
+
+\renewcommand{\azehn}{  5  }
+
+\renewcommand{\aelf}{  0  }
+
+\renewcommand{\azwoelf}{  3  }
+
+\renewcommand{\adreizehn}{  3   }
+
+\renewcommand{\avierzehn}{  0  }
+
+\renewcommand{\afuenfzehn}{  10  }
+
+\renewcommand{\asechzehn}{  4  }
+
+\renewcommand{\asiebzehn}{  62  }
+
+\renewcommand{\aachtzehn}{    }
+
+\renewcommand{\aneunzehn}{    }
+
+\renewcommand{\azwanzig}{    }
+
+\renewcommand{\aeinundzwanzig}{    }
+
+\renewcommand{\azweiundzwanzig}{    }
+
+\renewcommand{\adreiundzwanzig}{    }
+
+\renewcommand{\avierundzwanzig}{    }
+
+\renewcommand{\afuenfundzwanzig}{    }
+
+\renewcommand{\asechsundzwanzig}{    }
+
+\punktetabellesechzehn
+
+\klausurnote
+
+\newpage
+
+\setcounter{section}{K}
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Definiere die folgenden
+\zusatzklammer {kursiv gedruckten} {} {} Begriffe.
+\aufzaehlungsechs{Eine
+\stichwort {bogenparametrisierte} {}
+Kurve
+\maabbdisp {\gamma} {[a,b]} { \R^n
+} {.}
+
+}{Zwei in einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{  P
+}
+{ \in }{ M
+}
+{  }{}
+{    }{}
+{   }{}
+}
+{}{}{}
+einer differenzierbaren Mannigfaltigkeit $M$ \stichwort {tangential äquivalente} {} differenzierbare Kurven
+\maabbdisp {\gamma_1, \gamma_2} { I } { M
+} {}
+\zusatzklammer {dabei sei
+
+\mavergleichskettek
+{\vergleichskettek
+{  0
+}
+{ \in }{  I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ein offenes reelles Intervall und
+
+\mavergleichskettek
+{\vergleichskettek
+{   \gamma_1(0)
+}
+{ = }{ \gamma_2(0)
+}
+{ = }{ P
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {.}
+
+}{Ein
+\stichwort {stetiger Schnitt} {}
+zu einer stetigen Abbildung
+\maabbdisp {p} {Y} {X
+} {}
+zwischen topologischen Räumen
+\mathkor {} {X} {und} {Y} {.}
+
+}{Die \stichwort {kanonische Volumenform} {} auf einer orientierten riemannschen Mannigfaltigkeit $M$.
+
+}{Die
+\stichwort {äußere Ableitung} {}
+einer
+\definitionsverweis {stetig differenzierbaren}{}{}
+$k$-\definitionsverweis {Differentialform}{}{}
+
+\mathl{\omega \in
+{ \mathcal E }^{ k } (  U   )}{} auf einer
+\definitionsverweis {offenen Menge}{}{}
+
+\mathl{U \subseteq \R^n}{.}
+
+}{Die \stichwort {Schnittkrümmung} {} zu linear unabhängigen Vektoren
+
+\mavergleichskette
+{\vergleichskette
+{  v,w
+}
+{ \in }{T_PM
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+auf einer
+\definitionsverweis {riemannschen Mannigfaltigkeit}{}{}
+$M$ in einem Punkt
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ M
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+}
+
+}
+{
+
+\aufzaehlungsechs{Eine
+\definitionsverweis {differenzierbare Kurve}{}{}
+\maabbdisp {\gamma} {[a,b]} {\R^n
+} {,}
+heißt
+bogenparametrisiert,
+wenn
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma_1'(t)^2 + \cdots + \gamma_n'(t)^2
+}
+{ = }{ 1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle $t$ gilt.
+}{Die beiden Kurven
+\mathkor {} {\gamma_1} {und} {\gamma_2} {}
+heißen tangential äquivalent in $P$, wenn es eine offene Umgebung
+\mathl{P \in U}{} und eine
+\definitionsverweis {Karte}{}{}
+\maabbdisp {\alpha} { U } { V
+} {}
+mit
+\mathl{V \subseteq \R^n}{} derart gibt, dass
+
+\mavergleichskettedisp
+{\vergleichskette
+{  \left(  \alpha \circ \left(  \gamma_1 \vert_{\gamma_1^{-1} (U)}  \right)   \right)'(0)
+}
+{ =} { \left(  \alpha \circ \left(  \gamma_2 \vert_{\gamma_2^{-1} (U)}  \right)  \right)'(0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{} gilt.
+}{Unter einem
+stetigen Schnitt
+zu $p$ versteht man eine stetige Abbildung
+\maabb {s} {X} {Y
+} {}
+mit
+
+\mavergleichskettedisp
+{\vergleichskette
+{  p \circ s
+}
+{ =} {
+\operatorname{Id}_{ X }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Zu
+\mathl{P \in M}{} sei
+\mathl{\omega_P}{} diejenige
+\definitionsverweis {alternierende Form}{}{}
+auf
+\mathl{T_PM}{}
+\zusatzklammer {bzw. das entsprechende Element aus \mathlk{\bigwedge^n T^*_PM}{}} {} {,}
+die jeder die
+\definitionsverweis {Orientierung}{}{}
+repräsentierenden
+\definitionsverweis {Orthonormalbasis}{}{}
+den Wert $1$ zuordnet. Dann heißt die
+$n$-\definitionsverweis {Differentialform
+}{}{}
+\maabbeledisp {} { M } { \bigwedge^n T^*M
+} {P } { \omega_P
+} {,}
+die kanonische Volumenform auf $M$.
+}{Die Form $\omega$ besitzt auf $U$ eine Darstellung
+
+\mathdisp {\omega = \sum_{I \subseteq \{1 , \ldots , n \},\,  { \# \left(   I  \right) } =k } f_I dx_I} {  }
+
+mit
+\definitionsverweis {stetig differenzierbaren Funktionen}{}{}
+\maabbdisp {f_I} { U } {\R
+} {.}
+Dann ist die äußere Ableitung die $(k+1)$-Form
+
+\mavergleichskettedisp
+{\vergleichskette
+{ d \omega
+}
+{ =} { \sum_{I \subseteq \{1 , \ldots , n \},\,  { \# \left(   I  \right) } = k } df_I \wedge dx_I
+}
+{ =} { \sum_{I \subseteq \{1 , \ldots , n \},\,  { \# \left(   I  \right) } = k } \left(  \sum_{j = 1}^n { \frac{   \partial  f_I  }{  \partial  x_j  } } dx_j  \right)  \wedge dx_I
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+}{Man nennt die Zahl
+
+\mavergleichskettedisp
+{\vergleichskette
+{ K(v,w)
+}
+{ =} {  { \frac{    \left\langle R(v,w)w , v  \right\rangle  }{   \left\langle v , v  \right\rangle  \left\langle w , w  \right\rangle  -\left\langle v , w  \right\rangle^2   } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+wobei $R$ den
+\definitionsverweis {Krümmungsoperator}{}{}
+auf dem Tangentialbündel bezeichnet, die
+\definitionswort {Schnittkrümmung}{}
+zu $v,w$ in $P$.
+}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Formuliere die folgenden Sätze.
+\aufzaehlungdrei{Der
+\stichwort {Satz über die Orientierungen auf einer differenzierbaren Hyperfläche} {}
+
+\mavergleichskette
+{\vergleichskette
+{  Y
+}
+{ \subseteq }{  \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}{Die Formel für die Lie-Klammer von Vektorfeldern auf einer offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{  U
+}
+{ \subseteq }{  \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}}{Der Satz über
+\stichwort {Retraktionen zum Rand} {}
+auf Mannigfaltigkeiten.}
+
+}
+{
+
+\aufzaehlungdrei{\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ W
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{,}
+\maabb {h} { W } { \R
+} {}
+eine
+\definitionsverweis {stetig differenzierbare Funktion}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ = }{ h^{-1}(c)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Faser}{}{}
+zu
+
+\mavergleichskette
+{\vergleichskette
+{ c
+}
+{ \in }{ \R
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+wobei $h$ in jedem Punkt von $Y$
+\definitionsverweis {regulär}{}{}
+sei. Es sei $Y$
+\definitionsverweis {zusammenhängend}{}{.}}
+\faktfolgerung {Dann gibt es genau zwei
+\definitionsverweis {Orientierungen}{}{}
+auf $Y$.}
+\faktzusatz {}
+\faktzusatz {}}{\faktsituation {Es sei
+
+\mavergleichskette
+{\vergleichskette
+{ U
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\definitionsverweis {offen}{}{}
+und seien $f_1 , \ldots , f_n, g_1 , \ldots , g_n$ zweifach
+\definitionsverweis {stetig differenzierbare Funktionen}{}{}
+auf $U$ mit den zugehörigen Differentialoperatoren
+
+\mavergleichskette
+{\vergleichskette
+{ D
+}
+{ = }{ \sum_{i = 1}^n f_i \partial_i
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ E
+}
+{ = }{ \sum_{j = 1}^n g_j \partial_j
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}}
+\faktfolgerung {Dann gilt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ D \circ E -E \circ D
+}
+{ =} { \sum_{j = 1}^n \left(  \sum_{i = 1}^n \left(  f_i  \partial_i g_j - g_i \partial_i f_j  \right)  \right)  \partial_j
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Insbesondere entspricht dieser Ausdruck selbst einem Differentialoperator der Ordnung $1$ und somit einem Vektorfeld.}
+\faktzusatz {}
+\faktzusatz {}}{Es sei $M$ eine
+\definitionsverweis {kompakte}{}{}
+\definitionsverweis {orientierte}{}{}
+\definitionsverweis {differenzierbare Mannigfaltigkeit mit Rand}{}{}
+
+\mathl{\partial M}{} und mit
+\definitionsverweis {abzählbarer Basis der Topologie}{}{.}
+Dann gibt es keine
+\definitionsverweis {stetig differenzierbare Abbildung}{}{}
+\maabbdisp {\varphi} { M } { \partial M
+} {,}
+deren
+\definitionsverweis {Einschränkung}{}{}
+auf $\partial M$ die Identität ist.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{7}
+
+{
+
+Beweise den
+\stichwort {Satz über die Lösung von gewöhnlichen Differentialgleichungen auf einer differenzierbaren Hyperfläche} {}
+
+\mavergleichskette
+{\vergleichskette
+{ Y
+}
+{ \subseteq }{ \R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+}
+{
+
+Wir arbeiten mit der euklidischen Struktur auf dem $\R^n$ und mit dem
+\definitionsverweis {Gradienten}{}{}
+$\operatorname{Grad} \,  h$ zu $h$. Dieser ist nach Voraussetzung auf $Y$ nirgendwo gleich $0$ und dies überträgt sich wegen der Stetigkeit auf eine offene Umgebung von $Y$. Indem wir $U$ eventuell verkleinern, können wir annehmen, dass der Gradient auf ganz $U$ nullstellenfrei ist. Wir betrachten auf $U$  das neue Vektorfeld $G$, das durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ G(P)
+}
+{ =} { F(P)-  { \frac{   \left\langle  F(P) ,
+\operatorname{Grad} \,  h  (  P )    \right\rangle   }{  \Vert {
+\operatorname{Grad} \,  h  (  P ) } \Vert^2   } }
+\operatorname{Grad} \,  h  (  P )
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gegeben ist. Für
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskette
+{\vergleichskette
+{ G(P)
+}
+{ = }{ F(P)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+da ja auf $Y$ der Gradient zu $h$ senkrecht auf dem Vektorfeld steht. Ferner besitzt $G$
+\zusatzklammer {im Unterschied zu $F$} {} {}
+die Eigenschaft, dass für alle Punkte
+
+\mavergleichskette
+{\vergleichskette
+{ P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+der Vektor $G(P)$ senkrecht zum Gradienten steht, es ist ja
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{ \left\langle  G(P) ,
+\operatorname{Grad} \,  h  (  P )   \right\rangle
+}
+{ =} { \left\langle  F(P)- { \frac{   \left\langle  F(P) ,
+\operatorname{Grad} \,  h  (  P )    \right\rangle  }{  \Vert {
+\operatorname{Grad} \,  h  (  P ) } \Vert^2  } }
+\operatorname{Grad} \,  h  (  P )  ,
+\operatorname{Grad} \,  h  (  P )   \right\rangle
+}
+{ =} { \left\langle  F(P) ,
+\operatorname{Grad} \,  h  (  P )   \right\rangle - \left\langle  F(P) ,
+\operatorname{Grad} \,  h  (  P )   \right\rangle
+}
+{ =} { 0
+}
+{ } {
+}
+}
+{}
+{}{.}
+Es sei nun
+\maabbdisp {v} { I} { \R^n
+} {}
+die nach
+[[Picard Lindelöf/Lokal Lipschitz/Lokale Existenz und Eindeutigkeit/Fakt|Satz 56.2 (Analysis (Osnabrück 2021-2023))]]
+eindeutige Lösung zum Anfangswertproblem zu $G$ mit der Anfangsbedingung
+
+\mavergleichskette
+{\vergleichskette
+{ v(t_0)
+}
+{ = }{ P
+}
+{ \in }{ Y
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+Dann ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \left(Dh \circ v \right)_{t}
+}
+{ =} { \left(Dh  \right)_{v(t)} \circ  \left(D v \right)_{t}
+}
+{ =} { \left(Dh  \right)_{v(t)}  \left(  v'(t)  \right)
+}
+{ =} { \left(Dh  \right)_{v(t)}  \left(  G(v(t))  \right)
+}
+{ =} { \left\langle
+\operatorname{Grad} \,  h  ( v(t) )  ,  G(v(t))    \right\rangle
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { 0
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+Daher ist $h$ auf dem Bild $v( I)$ konstant und wegen
+
+\mavergleichskette
+{\vergleichskette
+{ h(v(t_0))
+}
+{ = }{ c
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+ist
+
+\mavergleichskette
+{\vergleichskette
+{ h(v(t))
+}
+{ = }{ c
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+also
+
+\mavergleichskette
+{\vergleichskette
+{ v(t)
+}
+{ \in }{ Y
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+für alle
+
+\mavergleichskette
+{\vergleichskette
+{ t
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{4}
+
+{
+
+Es sei
+\maabb {h} { I } { V
+} {}
+eine zweimal differenzierbare Kurve in einem
+\definitionsverweis {euklidischen Vektorraum}{}{}
+$V$. Zeige, dass bei
+
+\mavergleichskette
+{\vergleichskette
+{h'(t)
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die Gleichheit
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \Vert { h'(t)} \Vert'
+}
+{ =} { { \frac{   \left\langle h'(t) , h^{\prime \prime} (t)  \right\rangle  }{  \left\langle h'(t) , h'(t)  \right\rangle  } } \Vert { h'(t)} \Vert
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gilt.
+
+}
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{u_1
+}
+{ = }{ h'(t)
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+das wir zu einer Orthogonalbasis
+\mathl{u_1,u_2 , \ldots , u_n}{} von $V$ ergänzen. Es seien
+\mathl{h_1 , \ldots , h_n}{} die Koordinatenfunktionen von $h$ zu dieser Basis. Dann ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \Vert { h'(t)} \Vert'
+}
+{ =} { \Vert { \begin{pmatrix} h_1'(t) \\\vdots\\ h_n'(t)   \end{pmatrix} } \Vert'
+}
+{ =} { \sqrt{  h_1'(t)^2 + \cdots + h_n'(t)^2 }'
+}
+{ =} { { \frac{   h_1(t) h_1'(t) + \cdots +  h_n(t) h_n'(t) }{  \sqrt{  h_1'(t)^2 + \cdots + h_n'(t)^2 }  } }
+}
+{ =} { { \frac{   h_1(t) h_1'(t) + \cdots +  h_n(t) h_n'(t) }{   h_1'(t)^2 + \cdots + h_n'(t)^2  } }  \sqrt{  h_1'(t)^2 + \cdots + h_n'(t)^2 }
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { { \frac{   \left\langle h'(t) , h^{\prime \prime} (t)  \right\rangle   }{ \left\langle h'(t) , h'(t)  \right\rangle  } } \Vert { h'(t)} \Vert
+}
+{ } {
+}
+{ } {}
+{ } {}
+}
+{}{.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{5}
+
+{
+
+Beweise die Aussage, dass die tangentiale Äquivalenz von Wegen auf einer Mannigfaltigkeit in einem Punkt $P$ mit einer beliebigen Karte überprüft werden kann.
+
+}
+{
+
+Für eine
+\definitionsverweis {differenzierbare Kurve}{}{}
+\maabbdisp {\gamma} { I } { M
+} {}
+mit
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \gamma(0)
+}
+{ = }{ P
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und eine
+\definitionsverweis {Karte}{}{}
+\maabbdisp {\alpha} { U } { V
+} {}
+\zusatzklammer {mit
+
+\mavergleichskettek
+{\vergleichskettek
+{P
+}
+{ \in }{ U
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{V
+}
+{ \subseteq }{\R^n
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}} {} {}
+ändert sich der Ausdruck
+
+\mathdisp {\left(  \alpha \circ \left(  \gamma \vert_{\gamma^{-1} (U)}  \right)  \right)'(0)} {  }
+
+nicht, wenn man zu einem kleineren offenen Intervall
+
+\mavergleichskette
+{\vergleichskette
+{ 0
+}
+{ \in }{ I'
+}
+{ \subseteq }{ I
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und einer kleineren offenen Menge
+
+\mavergleichskette
+{\vergleichskette
+{P
+}
+{ \in }{ U'
+}
+{ \subseteq }{ U
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+\zusatzklammer {mit der induzierten Karte} {} {}
+übergeht. Wir können also davon ausgehen, dass
+\mathkor {} {\gamma_1} {und} {\gamma_2} {}
+auf dem gleichen Intervall definiert sind und ihre Bilder in $U$ liegen, und dass es für dieses $U$ zwei Karten
+\maabbdisp {\alpha_1} { U } { V_1
+} {}
+und
+\maabbdisp {\alpha_2} { U } { V_2
+} {}
+gibt. Dann folgt aus
+
+\mavergleichskettedisp
+{\vergleichskette
+{ ( \alpha_1  \circ \gamma_1 )'(0)
+}
+{ =} { ( \alpha_1  \circ \gamma_2 )'(0)
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+nach
+der [[Totale Differenzierbarkeit/K/Kettenregel/Fakt|Kettenregel]]
+unter Verwendung der Differenzierbarkeit der
+\definitionsverweis {Übergangsabbildung}{}{}
+
+\mathl{\alpha_2 \circ \alpha_1^{-1}}{} sofort
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \left(  \alpha_2 \circ \gamma_1  \right)'(0)
+}
+{ =} { \left(  \left(  \alpha_2 \circ \alpha_1^{-1}  \right) \circ \left(  \alpha_1 \circ \gamma_1  \right)  \right)'(0)
+}
+{ =} { \left(  D   \left(   \alpha_2 \circ \alpha_1^{-1}   \right)      \right)_{\alpha_1(P)} \left(   \left(  \alpha_1 \circ \gamma_1  \right)'(0)   \right)
+}
+{ =} { \left(  D   \left(   \alpha_2 \circ \alpha_1^{-1}   \right)      \right)_{\alpha_1(P)} \left(   \left(  \alpha_1 \circ \gamma_2  \right)'(0)   \right)
+}
+{ =} { \left(  \alpha_2 \circ \gamma_2  \right)'(0)
+}
+}
+{}
+{}{.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{15 (3+3+4+5)}
+
+{
+
+Es sei
+
+\mavergleichskette
+{\vergleichskette
+{T
+}
+{ = }{S^1 \times S^1
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+der Torus und
+
+\mavergleichskette
+{\vergleichskette
+{S^2
+}
+{ \subset }{\R^3
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+die
+\definitionsverweis {Einheitssphäre}{}{.}
+
+a) Zeige, dass durch
+\maabbeledisp {\varphi} {S^1 \times S^1} { S^2
+} { \begin{pmatrix}  \alpha \\ \beta   \end{pmatrix} } { { \frac{   1 }{  2 } } \begin{pmatrix}  \sqrt{ 2-2 \sin \alpha   } \cos \beta  \\ \cos \alpha + \sin \beta \cos \alpha \\  1  + \sin \alpha -  \sin \beta + \sin \alpha \sin \beta   \end{pmatrix}
+} {}
+eine stetige Abbildung gegeben ist.
+
+b) Zeige, dass $\varphi$ surjektiv ist.
+
+c) Beschreibe die Fasern von $\varphi$.
+
+d) Erläutere die Abbildung $\varphi$ unter Verwendung einer Skizze.
+
+}
+{
+
+a) Wir zeigen zunächst, dass die Abbildung in der Tat auf der Sphäre landet, d.h. wir müssen zeigen, dass die Summe der Quadrate der drei Einträge gleich $1$ ist. Ohne Berücksichtigung des Vorfaktors ist dies
+
+\mavergleichskettealign
+{\vergleichskettealign
+{
+}
+{ =} { 2  \cos^{ 2  }  \beta  -2 \sin \alpha  \cos^{ 2  }  \beta + \cos^{ 2  }  \alpha+ \cos^{ 2  }  \alpha \sin^{ 2  }  \beta +2 \cos^{ 2  }  \alpha\sin  \beta +1 + \sin^{ 2  } \alpha + \sin^{ 2  } \beta   + \sin^{ 2  } \alpha \sin^{ 2  } \beta +2 \sin \alpha  -2 \sin \beta   +2 \sin \alpha \sin \beta   -2 \sin \alpha \sin \beta +  2 \sin^{ 2  } \alpha \sin \beta  -2 \sin \alpha \sin^{ 2  } \beta
+}
+{ =} { 3 +   \cos^{ 2  }  \beta  -2 \sin \alpha  \cos^{ 2  }  \beta + \cos^{ 2  }  \alpha \sin^{ 2  }  \beta +2 \cos^{ 2  }  \alpha\sin  \beta  + \sin^{ 2  } \alpha \sin^{ 2  } \beta +2 \sin \alpha  -2 \sin \beta   +2 \sin^{ 2  } \alpha \sin \beta   - 2 \sin \alpha \sin^{ 2  } \beta
+}
+{ =} { 3 +   \cos^{ 2  }  \beta  +2 \sin \alpha   \left(  1 - \cos^{ 2  }  \beta   - \sin^{ 2  } \beta   \right)     + 2 \sin \beta \left(  - 1 + \cos^{ 2  }  \alpha    + \sin^{ 2  } \alpha  \right) + \cos^{ 2  }  \alpha\sin^{ 2  }  \beta  + \sin^{ 2  }  \alpha\sin^{ 2  }  \beta
+}
+{ =} { 3 +   \cos^{ 2  }  \beta  + \sin^{ 2  }  \beta
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { 4
+}
+{ } {}
+{ } {}
+{ } {}
+}
+{}{.}
+
+c) Die Berechnung der Faser über dem Nordpol
+\mathl{\begin{pmatrix}  0 \\ 0\\  1   \end{pmatrix}}{} führt zu den Bedingungen
+
+\mavergleichskettedisp
+{\vergleichskette
+{(1 - \sin \alpha ) \cos \beta
+}
+{ =} { 0
+}
+{ =} { \cos \alpha  (1 + \sin \beta )
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Daher muss jeweils ein Faktor gleich $0$ sein. Bei
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \alpha
+}
+{ =} { { \frac{   1 }{  2 } } \pi
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+sind bei beliebigem $\beta$ beide Bedingungen erfüllt, ebenso sind bei
+
+\mavergleichskettedisp
+{\vergleichskette
+{\beta
+}
+{ =} { { \frac{   3 }{  2 } } \pi
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und beliebigem $\alpha$ beide Bedingungen erfüllt. Dabei ist wegen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \sin  { \frac{   1 }{  2 } } \pi
+}
+{ =} { 1
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+bzw. wegen
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \sin  { \frac{   3 }{  2 } } \pi
+}
+{ =} { -1
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+die dritte Komponente gleich $1$. Bei
+
+\mavergleichskette
+{\vergleichskette
+{\alpha
+}
+{ \neq }{ { \frac{   1 }{  2 } }  \pi
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{\beta
+}
+{ \neq }{ { \frac{   3 }{  2 } } \pi
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+muss
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \cos \alpha
+}
+{ =} { 0
+}
+{ =} { \cos \beta
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+sein. Die verbleibende Möglichkeit ist
+
+\mavergleichskette
+{\vergleichskette
+{ \alpha
+}
+{ = }{ { \frac{   3 }{  2 } } \pi
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und
+
+\mavergleichskette
+{\vergleichskette
+{ \beta
+}
+{ = }{ { \frac{   1 }{  2 } } \pi
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{,}
+doch dabei ist die dritte Komponente gleich $-1$.
+
+d) Der Winkel $\alpha$ definiert den Punkt
+
+\mavergleichskettedisp
+{\vergleichskette
+{P(\alpha)
+}
+{ =} { \begin{pmatrix}  0 \\ \cos \alpha \\  \sin \alpha   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf dem durch
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ = }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+gegebenen Großreis. Der Nordpol und
+\mathl{P(\alpha)}{} definieren den Halbierungspunkt
+
+\mavergleichskettealign
+{\vergleichskettealign
+{Z(\alpha)
+}
+{ \defeq} { \begin{pmatrix}  0 \\ 0\\  1   \end{pmatrix} + { \frac{   1 }{  2 } }  \left(  P(\alpha)   - \begin{pmatrix}  0 \\ 0\\  1   \end{pmatrix}   \right)
+}
+{ =} { \begin{pmatrix}  0 \\ 0\\  1   \end{pmatrix} + { \frac{   1 }{  2 } }  \begin{pmatrix}  0 \\\cos \alpha \\ \sin \alpha - 1   \end{pmatrix}
+}
+{ =} { { \frac{   1 }{  2 } }  \begin{pmatrix}  0 \\\cos \alpha \\  1 + \sin \alpha   \end{pmatrix}
+}
+{ } {
+}
+}
+{}
+{}{.}
+Der Bildpunkt
+\mathl{P(\alpha, \beta)}{} wird auf dem Kreis $C$ mit Mittelpunkt
+\mathl{Z(\alpha)}{} platziert, der durch den Nordpol und $P(\alpha)$ verläuft und der ganz auf der Sphäre liegt. Daher muss $C$ auf der Ebene liegen, die durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{P(\alpha) - \begin{pmatrix}  0 \\ 0\\  1   \end{pmatrix}
+}
+{ =} { { \frac{   1 }{  2 } } \begin{pmatrix}  0 \\\cos \alpha \\ \sin \alpha - 1   \end{pmatrix}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+\mathl{\begin{pmatrix}  1 \\ 0\\  0   \end{pmatrix}}{} gegeben sind. Um mit der trigonometrischen Parametrisierung von $C$ arbeiten zu können, braucht man eine Orthonormalbasis, daher arbeiten wir mit
+
+\mathdisp {O(\alpha) =  { \frac{   1 }{  \sqrt{ 2-2  \sin \alpha   }  } } \begin{pmatrix}  0 \\\cos \alpha \\ \sin \alpha - 1   \end{pmatrix}} { . }
+
+Dies führt insgesamt auf
+
+\mavergleichskettealign
+{\vergleichskettealign
+{\varphi(\alpha)
+}
+{ =} { Z (\alpha) + \cos  \beta \begin{pmatrix}  1 \\ 0\\  0   \end{pmatrix}  + \sin  \beta O(\alpha)
+}
+{ =} {  { \frac{   1 }{  2 } }  \begin{pmatrix}  0 \\\cos \alpha \\  1 + \sin \alpha   \end{pmatrix} + \cos  \beta { \frac{   \sqrt{ 2-2  \sin \alpha     }  }{  2  } } \begin{pmatrix}  1 \\ 0\\  0   \end{pmatrix}  + \sin  \beta { \frac{   \sqrt{ 2-2  \sin \alpha     }  }{  2  } } { \frac{   1 }{  \sqrt{ 2-2  \sin \alpha   }  } } \begin{pmatrix}  0 \\\cos \alpha \\ \sin \alpha - 1   \end{pmatrix}
+}
+{ =} { { \frac{   1 }{  2 } }       \begin{pmatrix}        \sqrt{ 2-2  \sin \alpha     }  \cos \beta         \\\cos \alpha \sin \beta   \\    1 + \sin \alpha  - \sin \beta  + \sin \alpha \sin \beta   \end{pmatrix}
+}
+{ } {
+}
+}
+{}
+{}{.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{5}
+
+{
+
+Berechne das Wegintegral
+\mathl{\int_\gamma \omega}{} zu
+\maabbeledisp {\gamma} { [-1,0] } {\R^3
+} { t } {(-t^2,t^3-1,t+2)
+} {,}
+für die $1$-Differentialform
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { x^3dx -yzdy +xz^2 dz
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+auf dem $\R^3$.
+
+}
+{
+
+Es ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \gamma^* \omega
+}
+{ =} { (-t^2)^3 d(-t^2) - (t^3-1) (t+2)d (t^3-1)  - t^2(t+2)^2d(t+2)
+}
+{ =} { 2 t^7 dt     - 3t^2 (t^4 +2t^3 -t -2) dt - t^2(  t^2  +4 t +4) dt
+}
+{ =} {  (2t^7 -3t^6 -6t^5   +3t^3 +6t^2 -t^4  -4t^3 -4t^2       )dt
+}
+{ =} { (2t^7 -3t^6 -6t^5   -t^4  -t^3 +2 t^2       )dt
+}
+}
+{}
+{}{.}
+Daher ist
+
+\mavergleichskettealign
+{\vergleichskettealign
+{ \int_\gamma \omega
+}
+{ =} { \int_{-1}^0    (2t^7 -3t^6 -6t^5   -t^4  -t^3 +2 t^2       )dt
+}
+{ =} { ({ \frac{   1 }{  4 } }  t^8 - { \frac{   3 }{  7 } }  t^7 - t^6- { \frac{   1 }{  5 } } t^5 - { \frac{   1 }{  4 } } t^4 + { \frac{   2 }{  3 } } t^3) \vert_{  -1 }^{  0 }
+}
+{ =} { -( { \frac{   1 }{  4 } }  + { \frac{   3 }{  7 } }  -1 + { \frac{   1 }{  5 } }  - { \frac{   1 }{  4 } }  - { \frac{   2 }{  3 } } )
+}
+{ =} { - { \frac{   3 }{  7 } }  +1 - { \frac{   1 }{  5 } } + { \frac{   2 }{  3 } }
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} { { \frac{   -45 +105-21+70 }{  105 } }
+}
+{ =} { { \frac{   109 }{  105 } }
+}
+{ } {}
+{ } {}
+}
+{}{.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3 (2+1)}
+
+{
+
+Es sei
+\maabbeledisp {f} {\R} {\R
+} { t } {f(t)
+} {,}
+die durch
+
+\mavergleichskettedisp
+{\vergleichskette
+{ f(t)
+}
+{ =} { { \frac{   \sin^{ 3  } (t^4)  }{  1+t^2 } }
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+gegeben ist.
+
+a) Berechne die äußere Ableitung von $f$.
+
+b) Berechne die äußere Ableitung von $fdt$.
+
+}
+{
+
+a) Es ist
+\mathl{df=f'dt}{,} und zwar ist nach der Quotientenregel
+
+\mavergleichskettealign
+{\vergleichskettealign
+{f'
+}
+{ =} { { \frac{   (1+t^2)  3\sin^{ 2  } (t^4) \cos (t^4) 4 t^3  - 2t \sin^{ 3  } (t^4)  }{ (1+t^2)^2 } }
+}
+{ =} { { \frac{   12 (t^3+t^5) \sin^{ 2  } (t^4) \cos (t^4)   - 2t \sin^{ 3  } (t^4)  }{  1+2t^2+t^4 } }
+}
+{ } {
+}
+{ } {
+}
+}
+{}
+{}{.}
+
+b) Die äußere Ableitung von $fdt$ ist
+\mathl{f'dt \wedge dt =0}{.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{3}
+
+{
+
+Man gebe ein Beispiel für eine stetig differenzierbare Abbildung
+\maabbdisp {\varphi} { H } { H
+} {}
+einer euklidischen Halbebene in sich mit der Eigenschaft, dass genau ein Randpunkt von $H$ in einen Randpunkt und alle anderen Punkte in das Innere der Halbebene abgebildet werden.
+
+}
+{
+
+Wir betrachten die positive Halbebene
+
+\mavergleichskettedisp
+{\vergleichskette
+{ H
+}
+{ =} { \left\{ (x,y)  \mid   x \geq 0        \right\}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und die Abbildung
+\maabbeledisp {\varphi} { H } {H
+} {(x,y)} { \left(  x+y^2  , \,   y                   \right)
+} {.}
+Als polynomiale Abbildung ist $\varphi$ stetig differenzierbar. Der Randpunkt
+\mathl{(0,0)}{} wird auf den Randpunkt
+\mathl{(0,0)}{} abgebildet. Bei allen anderen Punkten von $H$ ist
+
+\mavergleichskette
+{\vergleichskette
+{ x
+}
+{ > }{  0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+oder
+
+\mavergleichskette
+{\vergleichskette
+{ y
+}
+{ \neq }{ 0
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+und daher stets
+
+\mavergleichskettedisp
+{\vergleichskette
+{ x+y^2
+}
+{ >} {  0
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+die erste Komponente ist also positiv.
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{0}
+
+{
+
+}
+{  }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{10}
+
+{
+
+Beweise die Quaderversion des Satzes von Stokes.
+
+}
+{
+
+Da beide Seiten dieser Gleichung linear in $\omega$ sind, können wir annehmen, dass $\omega$ die Gestalt
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \omega
+}
+{ =} { f dx_2 \wedge \ldots \wedge dx_n
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+mit einer in einer offenen Umgebung von $Q$ definierten stetig differenzierbaren Funktion $f$ besitzt. Die Integrale sind links und rechts
+\definitionsverweis {Lebesgue-Integrale}{}{}
+zu stetigen Funktionen auf Teilmengen des
+\mathkor {} {\R^n} {bzw.} {\R^{n-1}} {.}
+Daher können wir auf beiden Seiten zum
+\definitionsverweis {topologischen Abschluss}{}{}
+übergehen, da dadurch die in Frage stehenden Integrationsbereiche nur um eine Nullmenge verändert werden, sodass dies die Integrale nicht ändert.
+
+Wir schreiben den abgeschlossenen Quader als
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \overline{Q}
+}
+{ =} { [a,b] \times \tilde{Q}
+}
+{ } {
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{.}
+Wir wenden
+[[Differentialform/Lokal/Zurückziehen unter partiell konstanter Abbildung/Fakt|Korollar 14.10 (Differentialgeometrie (Osnabrück 2023))]]
+auf jede Seite $S$ ausgenommen
+\mathkor {} {a \times \tilde{Q}} {und} {b \times \tilde{Q}} {}
+an und erhalten darauf
+
+\mavergleichskettedisp
+{\vergleichskette
+{
+\int_{ S  }   \omega
+}
+{ =} {
+\int_{  S  }  f dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{ S  }   0
+}
+{ =} { 0
+}
+{ } {
+}
+}
+{}{}{,}
+da auf diesen Seiten jeweils eine der Variablen
+\mathl{x_2 , \ldots , x_n}{} konstant ist. Aufgrund
+des [[Sigmaendliche Räume/Satz von Fubini/Fakt|Satzes von Fubini]]
+und
+des [[Riemann-Integral/Hauptsatz/Newton-Leibniz/Fakt|Hauptsatzes der Infinitesimalrechnung]]
+\zusatzklammer {angewendet auf jedes fixierte \mathlk{(x_2 , \ldots , x_n)}{}} {} {}
+gilt
+
+\mavergleichskettealignhandlinks
+{\vergleichskettealignhandlinks
+{
+\int_{ Q  }   d\omega
+}
+{ =} {
+\int_{  Q  }   df \wedge  dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{  Q  }   \left(  \sum_{j = 1}^n { \frac{   \partial   f   }{  \partial   x_j   } } dx_j  \right) \wedge  dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{  Q  }   { \frac{   \partial   f   }{  \partial   x_1   } } dx_1 \wedge  dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{ \tilde{Q}   }   \left(  \int_{[a,b] } { \frac{   \partial   f   }{  \partial   x_1   } } dx_1  \right)  dx_2 \wedge \ldots \wedge dx_n
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} {
+\int_{  \tilde{Q}   }   \left(  f(b,x_2 , \ldots , x_n ) - f(a,x_2 , \ldots , x_n )   \right) dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{ b \times \tilde{Q}   }   f dx_2 \wedge \ldots \wedge dx_n  -
+\int_{  a \times \tilde{Q}   }  f dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} { \sum_{S \text{ orientierte Seite von } Q}
+\int_{  S  }  f dx_2 \wedge \ldots \wedge dx_n
+}
+{ =} {
+\int_{  \partial Q  }   f dx_2 \wedge \ldots \wedge dx_n
+}
+}
+{
+\vergleichskettefortsetzungalign
+{ =} {
+\int_{  \partial Q  }   \omega
+}
+{ } {}
+{ } {}
+{ } {}
+}{.}
+
+ }
+
+__NOEDITSECTION__
+
+\inputaufgabeklausurloesung
+{4}
+
+{
+
+Bestimme für die Kurve
+\maabbeledisp {\psi} {\R} { {\mathbb H}
+} { t } { \left(  t   , \,  e^t                   \right)
+} {,}
+in die
+\definitionsverweis {Halbebene von Poincaré}{}{}
+${\mathbb H}$ die
+\definitionsverweis {Christoffelsymbole}{}{}
+für den
+\definitionsverweis {zurückgezogenen Zusammenhang}{}{}
+\zusatzklammer {zum
+\definitionsverweis {Levi-Civita-Zusammenhang}{}{}
+auf ${\mathbb H}$} {} {}
+auf $\R$.
+
+}
+{
+
+Die einzige Standardableitung auf $\R$  ist $\partial$, deshalb verzichten wir auf einen unteren Index für die Christoffelsymbole. Nach
+[[Linearer Zusammenhang/Vertikale Ableitung/Längs Abbildung/Eigenschaften/Fakt|Fakt]] [[Kurs:Differentialgeometrie/Linearer Zusammenhang/Vertikale Ableitung/Längs Abbildung/Eigenschaften/Fakt/Faktreferenznummer|*****]]  (2)
+ist für
+
+\mavergleichskette
+{\vergleichskette
+{ \ell,k
+}
+{ = }{ 1,2
+}
+{  }{
+}
+{    }{
+}
+{   }{
+}
+}
+{}{}{}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \tilde{\Gamma}_\ell^k (t)
+}
+{ =} { \psi_1'(t) \Gamma_{1 \ell}^k (\psi(t)) + \psi'_2(t) \Gamma_{2 \ell}^k (\psi(t))
+}
+{ =} { \Gamma_{1 \ell}^k (t,e^t)   + e^t \Gamma_{2 \ell}^k (t,e^t)
+}
+{ } {}
+{ } {}
+}
+{}{}{.}
+Mit
+[[Halbebene/Poincaré/Riemannsche Geometrie/Christoffelsymbole/Beispiel|Beispiel]] [[Kurs:Differentialgeometrie/Halbebene/Poincaré/Riemannsche Geometrie/Christoffelsymbole/Beispiel/Beispielreferenznummer|*****]]
+ergibt sich
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \tilde{\Gamma}_1^1 (t)
+}
+{ =} { \Gamma_{1 1}^1 (t,e^t) + e^t \Gamma_{2 1}^1 (t,e^t)
+}
+{ =} {  -e^t e^{-t}
+}
+{ =} { -1
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \tilde{\Gamma}_1^2 (t)
+}
+{ =} { \Gamma_{1 1}^2 (t,e^t) + e^t \Gamma_{2 1}^2 (t,e^t)
+}
+{ =} { e^{-t}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{,}
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \tilde{\Gamma}_2^1 (t)
+}
+{ =} { \Gamma_{1 2}^1 (t,e^t) + e^t \Gamma_{2 2}^1 (t,e^t)
+}
+{ =} {  -e^{-t}
+}
+{ } {
+}
+{ } {
+}
+}
+{}{}{}
+und
+
+\mavergleichskettedisp
+{\vergleichskette
+{ \tilde{\Gamma}_2^2 (t)
+}
+{ =} { \Gamma_{1 2}^2 (t,e^t) + e^t \Gamma_{2 2}^2 (t,e^t)
+}
+{ =} { - e^t e^{-t}
+}
+{ =} { -1
+}
+{ } {
+}
+}
+{}{}{.}
+
+ }
+
+ [[Kategorie:Latexseite]]

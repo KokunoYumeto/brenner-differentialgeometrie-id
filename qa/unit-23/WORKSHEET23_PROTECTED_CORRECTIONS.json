@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "scope": "source/units/unit-23/worksheet23.id.tex",
+  "corrections": [
+    {
+      "correction_id": "O011-TRANS-0314",
+      "anchor": "Exercise 23.8 displayed formula joining omega and tau",
+      "change": "Translate the reader-visible German connective und inside the displayed formula to Indonesian dan without changing either differential form."
+    }
+  ],
+  "allowed_deltas": [
+    {
+      "correction_id": "O011-TRANS-0314",
+      "surface": "profile:protected:mathdisp",
+      "source_sha256": "e394e145a1f4396b495b35e4e05912d56ee6e63f9c5dd5fdff2836a4d5307ac4",
+      "target_sha256": "bec97d25d530e6430cd04f99ebfe6eec12740df70e597a9585174014958b10c9"
+    }
+  ],
+  "evidence_only_deltas": [
+    {
+      "correction_id": "O011-TRANS-0314",
+      "surface": "command:mathdisp",
+      "occurrence_index": 0,
+      "source_sha256": "dd54f134e1769160bf915494c8df0667d3a688bd3e6d58b647a000c07ba81d69",
+      "target_sha256": "35be09df8c7b78163e9742eec19de1b0962c35d4890e0c4de0b21d217611796a"
+    }
+  ]
+}

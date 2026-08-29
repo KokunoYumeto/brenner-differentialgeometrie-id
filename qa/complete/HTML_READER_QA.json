@@ -1,0 +1,353 @@
+{
+  "checks": {
+    "117_source_solutions_and_six_original_repairs": true,
+    "exact_29_unit_core_topology": true,
+    "manifest_input_output_hash_closure": true,
+    "mathjax_provenance_license_non_endorsement": true,
+    "media_alt_caption_rights_and_byte_closure": true,
+    "responsive_centered_reflow_layout": true,
+    "strict_balanced_html_and_unique_resolved_fragments": true,
+    "ten_exam_forms_147_nominal_123_actual": true,
+    "two_independent_staging_cycles_match_committed_tree": true,
+    "two_original_bridges_and_32_solution_bearing_items": true,
+    "unit22_public_reader_baseline_bound": true
+  },
+  "counts": {
+    "bridge_solution_bearing_items": 32,
+    "core_exercises": 576,
+    "core_source_supplied_solutions": 84,
+    "embedded_media_files": 35,
+    "exam_actual_occurrences": 123,
+    "exam_forms": 10,
+    "exam_nominal_slots": 147,
+    "exam_original_missing_solution_repairs": 6,
+    "exam_source_supplied_solutions": 117,
+    "exam_zero_point_placeholders": 24,
+    "figures": 36,
+    "input_files": 237,
+    "math_elements": 12484,
+    "original_bridges": 2,
+    "output_files": 44,
+    "semantic_blocks": 309,
+    "source_linked_media_files": 3,
+    "source_sections": 133,
+    "stable_ids": 1766,
+    "units": 29
+  },
+  "entry": {
+    "bytes": 2581857,
+    "path": "output/html/complete/index.html",
+    "sha256": "ebee44b421d841f4be2ff22c2007f58c3c63b5042a63dfd96dcd079fc4d17c66"
+  },
+  "exam_census": {
+    "actual_occurrences": 123,
+    "nominal_slots": 147,
+    "original_repairs": 6,
+    "source_supplied_solutions": 117,
+    "zero_point_placeholders": 24
+  },
+  "manifest": {
+    "bytes": 245625,
+    "path": "output/html/complete/manifest.json",
+    "sha256": "ce25122eb211b9feeec34eebbde8d547a08506bfdebbcb29dbd65341acb28d1d"
+  },
+  "output_inventory": [
+    {
+      "bytes": 377311,
+      "path": "output/html/complete/assets/media/2019-07-Helix.jpg",
+      "sha256": "34d8c05038bdcbd34992bba1b1ab8d852a8c1d51975469d14f7640a829430f9e"
+    },
+    {
+      "bytes": 1215777,
+      "path": "output/html/complete/assets/media/3d-function-6.svg",
+      "sha256": "16abe6c062235dc6cbdc9358aa4694da94e8f4a993d76f7137e26e4c95a7131b"
+    },
+    {
+      "bytes": 200686,
+      "path": "output/html/complete/assets/media/Aufgabe75.22.1.gif",
+      "sha256": "dae99541dcac8721909366df89d67ee7ddc46ff49c24750c71f7d1e00245acca"
+    },
+    {
+      "bytes": 1640205,
+      "path": "output/html/complete/assets/media/Aufgabe75.22.2.gif",
+      "sha256": "091b7d19856eb36aaf704bd23e26e46d0119ed97fcd736fb68cababa7ab7e942"
+    },
+    {
+      "bytes": 466679,
+      "path": "output/html/complete/assets/media/Aufgabe79.27.gif",
+      "sha256": "337b29d868481d65b5ad460697ad18ef0d7bcce2695125453e3d88f34a2e9e5b"
+    },
+    {
+      "bytes": 172697,
+      "path": "output/html/complete/assets/media/Cilinderprojectie-constructie.jpg",
+      "sha256": "7a3898760a53e679871e89e1a4382a4b5d8954c31f71d572bca6a3b3a160ef29"
+    },
+    {
+      "bytes": 207,
+      "path": "output/html/complete/assets/media/Circle - black simple.svg",
+      "sha256": "6a28c8b677e37aaa88984cd72336ca752156ebf95fddf9bae4b2dd17903e8bde"
+    },
+    {
+      "bytes": 15703,
+      "path": "output/html/complete/assets/media/Circle on sphere wireframe 10deg 6r.svg",
+      "sha256": "55665e60f4c39d6bd0b9474af45f652454cfd031fe9ad81f90abab6c9b3f7a31"
+    },
+    {
+      "bytes": 31848,
+      "path": "output/html/complete/assets/media/Euler spiral.svg",
+      "sha256": "886d55edfa0fa21ac992ede928cfec4f816742a16b29709ea093113b29e410b9"
+    },
+    {
+      "bytes": 44890,
+      "path": "output/html/complete/assets/media/Evolute-parab.svg",
+      "sha256": "851a909594c64be31477e391ea9b45e890305ea62e32e29a1d04bc66cf497db1"
+    },
+    {
+      "bytes": 1557242,
+      "path": "output/html/complete/assets/media/Fiddler crab mobius strip.gif",
+      "sha256": "059c8643c42a0561e5ee5efe52cd5fc59de0879ddd3870fa200f4ae66a2fc69a"
+    },
+    {
+      "bytes": 145058,
+      "path": "output/html/complete/assets/media/Fiddler_crab_mobius_strip.png",
+      "sha256": "15f45aee985375fe99b19f30dc62268d286db4caf103cf4fc066a8951cc43790"
+    },
+    {
+      "bytes": 255626,
+      "path": "output/html/complete/assets/media/Georg Friedrich Bernhard Riemann.jpeg",
+      "sha256": "945240277e351b4deacc64e0a8e0cbb5c8398a5d13ae322eafb55bfae91cabc6"
+    },
+    {
+      "bytes": 7568,
+      "path": "output/html/complete/assets/media/Great circle passing through two points.svg",
+      "sha256": "11cc0326e2bf51f226b1033af7a37f024216707a4c3b69854fadb9905c3409c7"
+    },
+    {
+      "bytes": 278393,
+      "path": "output/html/complete/assets/media/Hyperboloid1.png",
+      "sha256": "4c813998156ef1961fa557d3a7c356d737c47291d36159baa955f170e500979b"
+    },
+    {
+      "bytes": 194637,
+      "path": "output/html/complete/assets/media/Hyperboloid2.png",
+      "sha256": "d6e7b45784e7208f652106f0df65839d635a3058b1fa834455e490e904c61ef0"
+    },
+    {
+      "bytes": 6804,
+      "path": "output/html/complete/assets/media/Inclusion-exclusion.svg",
+      "sha256": "d37d8453528fa90456c473f705741e6c50bc04ad2cd76e9d0f4199a9aa702df3"
+    },
+    {
+      "bytes": 9165,
+      "path": "output/html/complete/assets/media/Inner point.png",
+      "sha256": "8a8574b52fd937cd9f10c73bac3ab32b0b79300763a30ee4ecb2e260b39c2695"
+    },
+    {
+      "bytes": 8098,
+      "path": "output/html/complete/assets/media/Integral apl rot obsah1.svg",
+      "sha256": "3dc950fd001c3a2e3ef095dcceac915f4701e990ecf513cf314eaef8a8f86dd1"
+    },
+    {
+      "bytes": 9977,
+      "path": "output/html/complete/assets/media/Manifold zahyou3.png",
+      "sha256": "fd3afef0df5b0ec3dc9eceea337fda5d15371ea143aa3cfbb24e134e455342f8"
+    },
+    {
+      "bytes": 50805,
+      "path": "output/html/complete/assets/media/Minimal surface curvature planes-de.svg",
+      "sha256": "c3048459dcf36445b38c5b734eee1febd21215bb08aeba9675cd1e5745cde873"
+    },
+    {
+      "bytes": 82042,
+      "path": "output/html/complete/assets/media/Möbius strip.jpg",
+      "sha256": "9c4323cfa3ce4f3ce043e4e2479dbf68658d165c46bd41394991361859ea9fad"
+    },
+    {
+      "bytes": 253,
+      "path": "output/html/complete/assets/media/Not-star-shaped.svg",
+      "sha256": "e0bcc5c9e7573e8acf87300e9b1c7be72959fea9306bfc815214c47780e02fb1"
+    },
+    {
+      "bytes": 19469,
+      "path": "output/html/complete/assets/media/Parabola circle.svg",
+      "sha256": "186a981781924575a5e517d83d8ab5bfb829125d0a86edc664a41a589bcfca83"
+    },
+    {
+      "bytes": 32238,
+      "path": "output/html/complete/assets/media/Parallel lines in Poincare's model of hyperbolic geometry.svg",
+      "sha256": "0be24daaf98af7e8f2758031765f16ece41e1e987cc5165871e3f2eb4f0675d8"
+    },
+    {
+      "bytes": 11448,
+      "path": "output/html/complete/assets/media/Parallel transport sphere2.svg",
+      "sha256": "4a6215c455dc248c97d1831e9af8b5d551a7cdb5da46976df2c1a77c959b88f8"
+    },
+    {
+      "bytes": 12559,
+      "path": "output/html/complete/assets/media/Partition of unity illustration.svg",
+      "sha256": "e36381a58269f1e1e18203e72a5a7ad5dde936a534fcee4a9f578dab4a9e5128"
+    },
+    {
+      "bytes": 135949,
+      "path": "output/html/complete/assets/media/Planned flight map of the Oiseau Blanc.svg",
+      "sha256": "45d3109037287e3111bc60543f43163e2264e8e4d52806b83cfd96279522b1b9"
+    },
+    {
+      "bytes": 956681,
+      "path": "output/html/complete/assets/media/Poincarehalfplaneconform.gif",
+      "sha256": "2a1da25b6afb54e7c4e9e48b36447f66a9ae2a71b0bd23118d83ad5b4a260a4d"
+    },
+    {
+      "bytes": 3137,
+      "path": "output/html/complete/assets/media/Poincarehalfplaneconform.png",
+      "sha256": "3fc44ea03f030f75ad3d7de2590d8ea6ef6061bdb1fe45f241129eff4af5d11c"
+    },
+    {
+      "bytes": 3611,
+      "path": "output/html/complete/assets/media/Runge theorem.svg",
+      "sha256": "4b75001b55c08784871990f6ee70522cb809ef78997b1f0b9822d66617db44d0"
+    },
+    {
+      "bytes": 398740,
+      "path": "output/html/complete/assets/media/Sphere with three handles.png",
+      "sha256": "49398059697841332186226bccf87e46032289c1a8a02063fc2600070c51a311"
+    },
+    {
+      "bytes": 228915,
+      "path": "output/html/complete/assets/media/SS-stokes.jpg",
+      "sha256": "5d357a2d401d3d41b6d95f30392aed06eef4ad10cded56f444214ea60cb5f30f"
+    },
+    {
+      "bytes": 69330,
+      "path": "output/html/complete/assets/media/Stereographic projection in 3D.png",
+      "sha256": "ab78ed4225923f771ae69d44930c244c53ef7c3a44d8e7264b16467dc4a78316"
+    },
+    {
+      "bytes": 23116,
+      "path": "output/html/complete/assets/media/Tangent bundle.svg",
+      "sha256": "96e46d20e64c40985d7ddc517824a36ef6546261762c3cd8e277c9a4eab55623"
+    },
+    {
+      "bytes": 4790,
+      "path": "output/html/complete/assets/media/Tangentialvektor.svg",
+      "sha256": "ed39381859fa3f6e4240ad7112388600a59126e71bc5aac5943a87f11d9e5301"
+    },
+    {
+      "bytes": 33149,
+      "path": "output/html/complete/assets/media/Théorème-de-Brouwer-(cond-1).jpg",
+      "sha256": "bc428893e0422da636766390820177c3179e68848fac71fbc6c6f0147f2c447b"
+    },
+    {
+      "bytes": 20602,
+      "path": "output/html/complete/assets/media/Théorème-de-Brouwer-(cond-2).jpg",
+      "sha256": "f46ef9add7d40b71876555ba7e09d4d176012dc275b756802411ef1ab6f9fc7b"
+    },
+    {
+      "bytes": 151522,
+      "path": "output/html/complete/assets/media/Toroidal coord.png",
+      "sha256": "f09c9189157aedc9c9d516d24ffdf80c6e3d413101e2eb38e3c0cda996c5d618"
+    },
+    {
+      "bytes": 251142,
+      "path": "output/html/complete/assets/media/Torus vectors oblique.jpg",
+      "sha256": "cfcd0c5c16262a6beab6dd47dc27291b7ff3651228b2b9defc0717957ce5d3f6"
+    },
+    {
+      "bytes": 7993,
+      "path": "output/html/complete/assets/reader.css",
+      "sha256": "3822d4ee81d2e390fd99d4503e33e1f252843f3f2997a3fdd03d5744dfc92129"
+    },
+    {
+      "bytes": 2581857,
+      "path": "output/html/complete/index.html",
+      "sha256": "ebee44b421d841f4be2ff22c2007f58c3c63b5042a63dfd96dcd079fc4d17c66"
+    },
+    {
+      "bytes": 245625,
+      "path": "output/html/complete/manifest.json",
+      "sha256": "ce25122eb211b9feeec34eebbde8d547a08506bfdebbcb29dbd65341acb28d1d"
+    },
+    {
+      "bytes": 139,
+      "path": "output/html/complete/README.txt",
+      "sha256": "8a7c0e6956f4342ffc9a688bf2716e4dabcd671328c0c8faab0b3613578da432"
+    }
+  ],
+  "reproducibility": {
+    "byte_identical_to_committed_output": true,
+    "complete_tree_inventory_sha256": "6e45a8f7a544f8c3462e83ced60224f3f5052185ef5939d7a44910c0f7344777",
+    "cycles": 2
+  },
+  "schema_version": 1,
+  "scope": "Complete O011 Indonesian semantic HTML reader",
+  "status": "pass",
+  "unit23_29_census": {
+    "23": {
+      "exercises": 30,
+      "figures": 3,
+      "solutions": [
+        6,
+        13,
+        16,
+        17
+      ]
+    },
+    "24": {
+      "exercises": 15,
+      "figures": 0,
+      "solutions": []
+    },
+    "25": {
+      "exercises": 25,
+      "figures": 0,
+      "solutions": [
+        1,
+        7,
+        8,
+        11,
+        12,
+        14
+      ]
+    },
+    "26": {
+      "exercises": 16,
+      "figures": 0,
+      "solutions": [
+        3,
+        6,
+        9
+      ]
+    },
+    "27": {
+      "exercises": 23,
+      "figures": 1,
+      "solutions": [
+        4,
+        5,
+        9,
+        13
+      ]
+    },
+    "28": {
+      "exercises": 7,
+      "figures": 0,
+      "solutions": [
+        2,
+        5
+      ]
+    },
+    "29": {
+      "exercises": 3,
+      "figures": 1,
+      "solutions": [
+        2
+      ]
+    }
+  },
+  "verifier": {
+    "bytes": 30996,
+    "path": "scripts/verify_html_complete.py",
+    "sha256": "0bbb2afebe9d31778dd6ebc7d1518c81d84b029ea3afc573825fbd5ed9965d20"
+  },
+  "workflow": "o011-verify-html-complete-v1"
+}
