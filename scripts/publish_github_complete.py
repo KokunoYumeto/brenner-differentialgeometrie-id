@@ -407,14 +407,19 @@ def release_asset_inventory(release: dict[str, Any], plan: ReleasePlan) -> list[
     raw_assets = release.get("assets")
     if not isinstance(raw_assets, list) or len(raw_assets) != 7:
         fail("authenticated draft does not have exactly seven assets")
-    if [item.get("name") for item in raw_assets if isinstance(item, dict)] != EXPECTED_ORDER:
-        fail("authenticated draft asset order differs from the public manifest")
+    by_name = {
+        str(item.get("name")): item
+        for item in raw_assets
+        if isinstance(item, dict) and isinstance(item.get("name"), str)
+    }
+    if len(by_name) != 7 or set(by_name) != set(EXPECTED_ORDER):
+        fail("authenticated draft asset names differ from the public manifest")
     result: list[dict[str, Any]] = []
-    for item in raw_assets:
-        if not isinstance(item, dict):
-            fail("authenticated draft asset inventory contains a non-object")
-        name = item.get("name")
-        wanted = plan.expected.get(str(name))
+    # GitHub returns release assets in its own stable name order, not upload
+    # order.  Normalize to the manifest order before comparing identities.
+    for name in EXPECTED_ORDER:
+        item = by_name[name]
+        wanted = plan.expected.get(name)
         api_digest = item.get("digest")
         if (
             wanted is None

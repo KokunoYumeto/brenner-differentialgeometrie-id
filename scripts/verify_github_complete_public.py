@@ -209,7 +209,7 @@ def public_release(
     expected_commit: str,
     plan: ReleasePlan,
     publication: dict[str, Any],
-) -> tuple[dict[str, Any], list[dict[str, Any]]]:
+) -> tuple[dict[str, Any], list[dict[str, Any]], list[str]]:
     encoded_tag = urllib.parse.quote(TAG, safe="")
     _, raw_release = client.request_json(
         "GET", api_path(f"/releases/tags/{encoded_tag}"), (200,), "anonymous release lookup"
@@ -230,15 +230,19 @@ def public_release(
         or len(assets) != 7
     ):
         fail("anonymous GitHub release metadata differs")
-    if [item.get("name") for item in assets if isinstance(item, dict)] != EXPECTED_ORDER:
-        fail("anonymous GitHub release asset order differs from the public manifest")
+    observed_order = [str(item.get("name")) for item in assets if isinstance(item, dict)]
+    by_name = {
+        str(item.get("name")): item
+        for item in assets
+        if isinstance(item, dict) and isinstance(item.get("name"), str)
+    }
+    if len(by_name) != 7 or set(by_name) != set(EXPECTED_ORDER):
+        fail("anonymous GitHub release asset names differ from the public manifest")
 
     verified: list[dict[str, Any]] = []
-    for item in assets:
-        if not isinstance(item, dict):
-            fail("anonymous GitHub release inventory contains a non-object")
-        name = item.get("name")
-        wanted = plan.expected.get(str(name))
+    for name in EXPECTED_ORDER:
+        item = by_name[name]
+        wanted = plan.expected.get(name)
         url = item.get("browser_download_url")
         api_digest = item.get("digest")
         if (
@@ -250,7 +254,7 @@ def public_release(
             or (api_digest is not None and api_digest != f"sha256:{wanted['sha256']}")
         ):
             fail(f"anonymous GitHub inventory differs for {name}")
-        actual = stream_identity(url, str(name), int(wanted["bytes"]))
+        actual = stream_identity(url, name, int(wanted["bytes"]))
         if actual != {"bytes": wanted["bytes"], "sha256": wanted["sha256"]}:
             fail(f"anonymous public bytes differ for {name}")
         verified.append(
@@ -271,7 +275,7 @@ def public_release(
     latest = require_object(raw_latest, "latest-release check")
     if latest.get("id") != release.get("id") or latest.get("tag_name") != TAG:
         fail("v1.0.0 is not the latest GitHub release")
-    return release, verified
+    return release, verified, observed_order
 
 
 def run(args: argparse.Namespace) -> int:
@@ -306,7 +310,7 @@ def run(args: argparse.Namespace) -> int:
     )
     if repository["default_branch"] != publication["remote_default_branch"]:
         fail("public default branch differs from the publication proof")
-    release, files = public_release(client, expected_commit, plan, publication)
+    release, files, observed_order = public_release(client, expected_commit, plan, publication)
 
     receipt = {
         "schema_version": 1,
@@ -332,7 +336,7 @@ def run(args: argparse.Namespace) -> int:
         "release_draft": False,
         "release_prerelease": False,
         "expected_public_file_order": EXPECTED_ORDER,
-        "public_api_asset_order": [item["name"] for item in files],
+        "public_api_asset_order": observed_order,
         "public_files": files,
         "file_count": 7,
         "total_bytes": sum(item["bytes"] for item in files),
