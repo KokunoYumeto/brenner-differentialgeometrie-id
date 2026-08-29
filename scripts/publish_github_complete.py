@@ -593,13 +593,17 @@ def run(args: argparse.Namespace) -> int:
     plan = load_release_plan(root, metadata_path)
     local = local_git_preflight(root, expected_commit)
 
-    public_client = GitHubClient(token=None, user_agent="O011-complete-github-public-preflight/1.0")
-    remote = remote_commit_preflight(public_client, expected_commit)
+    # GitHub's anonymous REST quota is shared by the public egress address and
+    # can be exhausted by unrelated work.  Complete every local fail-closed
+    # check before reading the credential, then use the authenticated quota for
+    # the read-only remote preflight.  The companion verifier still performs
+    # the required credential-free public-byte readback after publication.
+    token = read_token(args.token_file.resolve())
+    authenticated = GitHubClient(token=token, user_agent="O011-complete-github-publisher/1.0")
+    remote = remote_commit_preflight(authenticated, expected_commit)
     if remote["predecessor_commit"] != local["predecessor_commit"]:
         fail("local and public predecessor-tag commits differ")
 
-    token = read_token(args.token_file.resolve())
-    authenticated = GitHubClient(token=token, user_agent="O011-complete-github-publisher/1.0")
     authenticated_remote = authenticated_preflight(authenticated, expected_commit)
     if authenticated_remote != remote:
         fail("authenticated and anonymous remote preflight proofs differ")
