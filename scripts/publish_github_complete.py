@@ -231,8 +231,9 @@ def remote_commit_preflight(client: GitHubClient, expected_commit: str) -> dict[
     )
     comparison = require_object(raw_comparison, "remote predecessor ancestry check")
     base_commit = comparison.get("base_commit")
-    head_commit = comparison.get("head_commit")
     merge_base_commit = comparison.get("merge_base_commit")
+    commits = comparison.get("commits")
+    last_compared_commit = commits[-1] if isinstance(commits, list) and commits else None
     if (
         comparison.get("status") != "ahead"
         or comparison.get("behind_by") != 0
@@ -240,8 +241,10 @@ def remote_commit_preflight(client: GitHubClient, expected_commit: str) -> dict[
         or comparison.get("ahead_by") < 1
         or not isinstance(base_commit, dict)
         or str(base_commit.get("sha", "")).lower() != predecessor_commit
-        or not isinstance(head_commit, dict)
-        or str(head_commit.get("sha", "")).lower() != expected_commit
+        or not isinstance(commits, list)
+        or len(commits) != comparison.get("ahead_by")
+        or not isinstance(last_compared_commit, dict)
+        or str(last_compared_commit.get("sha", "")).lower() != expected_commit
         or not isinstance(merge_base_commit, dict)
         or str(merge_base_commit.get("sha", "")).lower() != predecessor_commit
     ):
