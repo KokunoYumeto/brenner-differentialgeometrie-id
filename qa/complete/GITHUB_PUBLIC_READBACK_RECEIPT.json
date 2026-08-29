@@ -1,0 +1,112 @@
+{
+  "all_anonymous_downloaded_bytes_sha256_match": true,
+  "authentication_used": false,
+  "commit": "d6f21e46c10a3562a42e1c7a3cc5c4ea1c0f855d",
+  "expected_public_file_order": [
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260828.zip",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-20260828.zip",
+    "LICENSE.md",
+    "RELEASE_NOTES_COMPLETE_20260828.md",
+    "FILE_MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "file_count": 7,
+  "predecessor_commit": "c7f4928327b3be9bc28a42543acbc43d7009410e",
+  "predecessor_tag": "v0.22.0-unit-22",
+  "public_api_asset_order": [
+    "FILE_MANIFEST.json",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260828.zip",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-20260828.zip",
+    "LICENSE.md",
+    "RELEASE_NOTES_COMPLETE_20260828.md",
+    "SHA256SUMS.txt"
+  ],
+  "public_files": [
+    {
+      "asset_id": 534548249,
+      "bytes": 10525469,
+      "download_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/download/v1.0.0/geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+      "github_digest": "sha256:26f19153db2ca08851e182202900a8371f1816b428f8fe7321b35de60b9c84ef",
+      "matches_local_release_contract": true,
+      "name": "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+      "sha256": "26f19153db2ca08851e182202900a8371f1816b428f8fe7321b35de60b9c84ef"
+    },
+    {
+      "asset_id": 534548266,
+      "bytes": 7753152,
+      "download_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/download/v1.0.0/geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260828.zip",
+      "github_digest": "sha256:95ceda19a190685b30deebe6dedc25c2efc99e95e243c9ba36b154b732a2264e",
+      "matches_local_release_contract": true,
+      "name": "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260828.zip",
+      "sha256": "95ceda19a190685b30deebe6dedc25c2efc99e95e243c9ba36b154b732a2264e"
+    },
+    {
+      "asset_id": 534548297,
+      "bytes": 69147984,
+      "download_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/download/v1.0.0/geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-20260828.zip",
+      "github_digest": "sha256:051324674c298cfb261dac7b8b98b0d316ea4bca948eb3f1224fc2162fb163c7",
+      "matches_local_release_contract": true,
+      "name": "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-20260828.zip",
+      "sha256": "051324674c298cfb261dac7b8b98b0d316ea4bca948eb3f1224fc2162fb163c7"
+    },
+    {
+      "asset_id": 534548402,
+      "bytes": 2541,
+      "download_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/download/v1.0.0/LICENSE.md",
+      "github_digest": "sha256:a94ce827c5d341484525e056d4f6c69649cbc676cf454198b574cc6fe5922691",
+      "matches_local_release_contract": true,
+      "name": "LICENSE.md",
+      "sha256": "a94ce827c5d341484525e056d4f6c69649cbc676cf454198b574cc6fe5922691"
+    },
+    {
+      "asset_id": 534548407,
+      "bytes": 2793,
+      "download_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/download/v1.0.0/RELEASE_NOTES_COMPLETE_20260828.md",
+      "github_digest": "sha256:af93251854d80ba7e5d6f00fb751857907067529c8a5b7449fedb4da25b586e0",
+      "matches_local_release_contract": true,
+      "name": "RELEASE_NOTES_COMPLETE_20260828.md",
+      "sha256": "af93251854d80ba7e5d6f00fb751857907067529c8a5b7449fedb4da25b586e0"
+    },
+    {
+      "asset_id": 534548412,
+      "bytes": 1626,
+      "download_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/download/v1.0.0/FILE_MANIFEST.json",
+      "github_digest": "sha256:8896c2a508e8a86ab8239a91b933fa2e1dec425ef3ef68078fd9a902ab281494",
+      "matches_local_release_contract": true,
+      "name": "FILE_MANIFEST.json",
+      "sha256": "8896c2a508e8a86ab8239a91b933fa2e1dec425ef3ef68078fd9a902ab281494"
+    },
+    {
+      "asset_id": 534548420,
+      "bytes": 664,
+      "download_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/download/v1.0.0/SHA256SUMS.txt",
+      "github_digest": "sha256:9a24919351632b93e51cccb54c3af64b52b0174eec9932e04323a4127254c947",
+      "matches_local_release_contract": true,
+      "name": "SHA256SUMS.txt",
+      "sha256": "9a24919351632b93e51cccb54c3af64b52b0174eec9932e04323a4127254c947"
+    }
+  ],
+  "publication_receipt_sha256": "c90be7067e772f67f69687f4cc41ca63dfea0ec59b2261ae9d142591f6000849",
+  "release_draft": false,
+  "release_id": 378834384,
+  "release_latest": true,
+  "release_metadata_sha256": "990dd3aa59bcce9f4888aeb355678247a658a8f15676aa70e69609e171bc3048",
+  "release_prerelease": false,
+  "release_title": "Geometri Diferensial dan Manifold Mulus \u2014 Edisi Lengkap Bahasa Indonesia",
+  "release_url": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v1.0.0",
+  "remote_default_branch": "main",
+  "repository": "https://github.com/KokunoYumeto/brenner-differentialgeometrie-id",
+  "repository_public": true,
+  "schema_version": 1,
+  "status": "pass",
+  "strict_descendant_of_predecessor": true,
+  "tag": "v1.0.0",
+  "tag_kind": "annotated",
+  "tag_object_sha": "db9ca8eb0c07e1cf24294ae7ebe9dfd278f61808",
+  "total_bytes": 87434229,
+  "verified_at_utc": "2026-08-29T01:08:43.391921+00:00",
+  "version": "2026.08.28-complete",
+  "workflow": "o011-independent-github-complete-public-readback-v1"
+}

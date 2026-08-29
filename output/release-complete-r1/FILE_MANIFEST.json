@@ -1,0 +1,45 @@
+{
+  "bytes_bound": 87436487,
+  "files": [
+    {
+      "bytes": 10524618,
+      "path": "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+      "sha256": "e0b416d91dfa8de4d5fbf7d84add34cfb3b57adde4645f60c4bc0a0609f5bd2f"
+    },
+    {
+      "bytes": 7753152,
+      "path": "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260829.zip",
+      "sha256": "65ce76d031baea3e049df09218963c187615f25e324bcfd48216afd5fd8cb5e5"
+    },
+    {
+      "bytes": 69154138,
+      "path": "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-r1-20260829.zip",
+      "sha256": "94bdc7c1f9ceec599daf59c0d303721be009a140d5a7bd5f794ac8887b935ae3"
+    },
+    {
+      "bytes": 2541,
+      "path": "LICENSE.md",
+      "sha256": "a94ce827c5d341484525e056d4f6c69649cbc676cf454198b574cc6fe5922691"
+    },
+    {
+      "bytes": 2038,
+      "path": "RELEASE_NOTES_COMPLETE_R1_20260829.md",
+      "sha256": "bdb8ca8c75c9c1d85cdd9b3c4f0dea2b887a7ef9495904d7edeb703f66feebfd"
+    }
+  ],
+  "model_identification": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "public_file_order": [
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260829.zip",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-r1-20260829.zip",
+    "LICENSE.md",
+    "RELEASE_NOTES_COMPLETE_R1_20260829.md",
+    "FILE_MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "schema_version": 1,
+  "status": "complete_edition",
+  "title": "Geometri Diferensial dan Manifold Mulus — Edisi Bahasa Indonesia",
+  "version": "2026.08.29-complete-r1",
+  "workflow": "o011-complete-public-file-manifest-v1"
+}

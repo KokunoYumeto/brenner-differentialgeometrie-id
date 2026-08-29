@@ -165,7 +165,7 @@ def public_repository_state(
         or not annotated
         or tag_object_sha != expected_tag_object
     ):
-        fail("public v1.0.0 tag is not the exact annotated expected-commit tag")
+        fail("public v1.0.1 tag is not the exact annotated expected-commit tag")
 
     encoded_base = urllib.parse.quote(predecessor_commit, safe="")
     _, raw_comparison = client.request_json(
@@ -193,7 +193,7 @@ def public_repository_state(
         or not isinstance(merge_base_commit, dict)
         or str(merge_base_commit.get("sha", "")).lower() != predecessor_commit
     ):
-        fail("public v1.0.0 commit is not strictly ahead of the Unit 22 tag")
+        fail("public v1.0.1 commit is not strictly ahead of the predecessor tag")
     return {
         "default_branch": default_branch,
         "predecessor_commit": predecessor_commit,
@@ -274,7 +274,7 @@ def public_release(
     )
     latest = require_object(raw_latest, "latest-release check")
     if latest.get("id") != release.get("id") or latest.get("tag_name") != TAG:
-        fail("v1.0.0 is not the latest GitHub release")
+        fail("v1.0.1 is not the latest GitHub release")
     return release, verified, observed_order
 
 

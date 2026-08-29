@@ -7,16 +7,41 @@
     "sha256": "7d04f2c5906c1ddf5e82a0e80dcaafa7a7d62f99f915f3b8643e5be1d8181716"
   },
   "preserved_prefix": {
-    "boundary": "all frozen driver bytes before the unique backmatter command",
-    "bytes": 15993,
-    "sha256": "97ce1a21fd0d4b152083fd3b0c63bf92a493adf88a1a60d51763440ca7e09fd7",
-    "byte_identical": true
+    "boundary": "all frozen driver bytes before the unique backmatter command except three exact, reversible complete-edition scaffolding substitutions",
+    "frozen": {
+      "bytes": 15993,
+      "sha256": "97ce1a21fd0d4b152083fd3b0c63bf92a493adf88a1a60d51763440ca7e09fd7"
+    },
+    "derived": {
+      "bytes": 16226,
+      "sha256": "aeaa319fc6d826b2294b30d117b1c3b0579c88d75107f964f4217206ea14bd39"
+    },
+    "byte_identical": false,
+    "controlled_replacement_count": 3,
+    "replacements": [
+      {
+        "label": "visible title and pdfusetitle source",
+        "old": "\\title{Geometri Diferensial dan Manifold Mulus\\\\\\large Pembaca kumulatif hingga Unit 22}",
+        "new": "\\title{Geometri Diferensial dan Manifold Mulus\\\\\\large Edisi Lengkap Bahasa Indonesia}"
+      },
+      {
+        "label": "edition-scope opening paragraph",
+        "old": "Pembaca kumulatif ini menerjemahkan Kuliah 1--22 dan Lembar Kerja 1--22 dari kursus Holger Brenner di Wikiversity berbahasa Jerman. Teks sumber digunakan berdasarkan CC BY-SA 4.0. Terjemahan ini merupakan karya independen dan bukan edisi resmi atau dukungan dari penulis maupun Wikiversity. Setiap gambar mengikuti status hak atau lisensi berkasnya sendiri, yang dicatat pada daftar gambar dan manifest media.",
+        "new": "Pembaca lengkap ini menerjemahkan seluruh 29 Kuliah dan 29 Lembar Kerja dari kursus Holger Brenner di Wikiversity berbahasa Jerman. Selain inti terjemahan, edisi ini memuat sepuluh formulir ujian resmi beserta solusi sumber yang tersedia, serta dua jembatan dan enam perbaikan solusi yang ditulis khusus untuk edisi ini dan diberi label terpisah. Teks sumber digunakan berdasarkan CC BY-SA 4.0. Terjemahan ini merupakan karya independen dan bukan edisi resmi atau dukungan dari penulis maupun Wikiversity. Setiap gambar mengikuti status hak atau lisensi berkasnya sendiri, yang dicatat pada daftar gambar dan manifest media."
+      },
+      {
+        "label": "solution-provenance scope paragraph",
+        "old": "Sumber permanen dan hash revisi dicatat dalam berkas kontrol edisi ini. Rumus, urutan, latihan, penanda solusi, dan atribusi media dipertahankan; ID mesin hanya merupakan lapisan tambahan. Bagian solusi hanya memuat solusi yang benar-benar disediakan oleh sumber.",
+        "new": "Sumber permanen dan hash revisi dicatat dalam berkas kontrol edisi ini. Rumus, urutan, latihan, penanda solusi, dan atribusi media dipertahankan; ID mesin hanya merupakan lapisan tambahan. Solusi yang disediakan sumber dipisahkan secara eksplisit dari 38 butir solusi asli edisi ini."
+      }
+    ],
+    "exactly_reversible": true
   },
   "output": {
     "path": "build/generated/complete-reader-driver.tex",
     "identity": {
-      "bytes": 29827,
-      "sha256": "1013e95c5ef34de8b47710c7175f323770a7225a3de1cf4fb11a1be1a394f019"
+      "bytes": 30060,
+      "sha256": "e00cd2d4288b1ad39c12a73ccd88adb5c95bbccb6bab27e492de795f2c3c2f7f"
     }
   },
   "geometry": {

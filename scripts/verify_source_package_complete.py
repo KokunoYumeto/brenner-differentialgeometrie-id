@@ -27,7 +27,7 @@ WORKFLOW = "o011-verify-source-package-complete-v1"
 MODEL = "OpenAI Codex gpt-5.6-sol, Ultra"
 DEFAULT_RELEASE = Path(S.DEFAULT_OUTPUT_REL)
 DEFAULT_SOURCE = DEFAULT_RELEASE / S.SOURCE_ZIP_NAME
-DEFAULT_RECEIPT = Path("qa/complete/SOURCE_PACKAGE_INTEGRITY.json")
+DEFAULT_RECEIPT = Path("qa/complete/SOURCE_PACKAGE_INTEGRITY_R1.json")
 EMBEDDED_MANIFEST = "PACKAGE_MANIFEST.json"
 EMBEDDED_CHECKSUMS = "PACKAGE_CHECKSUMS.sha256"
 REQUIRED_MEMBERS = (
@@ -69,8 +69,9 @@ REQUIRED_MEMBERS = (
     "qa/complete/backend.json",
     "qa/complete/LICENSE_RELEASE_COMPLETE.md",
     "qa/complete/PACKAGE_README.md",
-    "qa/complete/RELEASE_NOTES_COMPLETE_20260828.md",
-    "qa/complete/ZENODO_METADATA_COMPLETE.json",
+    "qa/complete/RELEASE_NOTES_COMPLETE_R1_20260829.md",
+    "qa/complete/ZENODO_METADATA_COMPLETE_R1.json",
+    "qa/complete/ZENODO_PUBLIC_READBACK_RECEIPT.json",
     "qa/unit-10/HTML_READER_QA.json",
     "qa/unit-10/ZENODO_PUBLIC_READBACK_RECEIPT.json",
     "output/release-unit10/geometri-diferensial-manifold-mulus-brenner-id-unit10-html-20260823.zip",

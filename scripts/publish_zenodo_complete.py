@@ -31,38 +31,38 @@ B = load_base()
 
 CONCEPT_ID = 22059977
 CONCEPT_DOI = "10.5281/zenodo.22059977"
-PREDECESSOR_ID = 22146873
-PREDECESSOR_DOI = "10.5281/zenodo.22146873"
-PREDECESSOR_VERSION = "2026.08.28-unit22"
-PREDECESSOR_TITLE = "Geometri Diferensial dan Manifold Mulus — Edisi Bahasa Indonesia (Batas Unit 22)"
-PREDECESSOR_READBACK_REL = "qa/unit-22/ZENODO_PUBLIC_READBACK_RECEIPT.json"
-PREDECESSOR_READBACK_SHA256 = "0d3b14210fee7552cce8dd1aa442ea3c0f85b4dbb5686f4ee6e9cf9aa759c7c9"
+PREDECESSOR_ID = 22160677
+PREDECESSOR_DOI = "10.5281/zenodo.22160677"
+PREDECESSOR_VERSION = "2026.08.28-complete"
+PREDECESSOR_TITLE = "Geometri Diferensial dan Manifold Mulus — Edisi Bahasa Indonesia"
+PREDECESSOR_READBACK_REL = "qa/complete/ZENODO_PUBLIC_READBACK_RECEIPT.json"
+PREDECESSOR_READBACK_SHA256 = "421afcdcb2ce217cc8f53b672c0396d51b2c52ba424bb618a84538fa8777f909"
 PREDECESSOR_ORDER = [
-    "geometri-diferensial-manifold-mulus-hingga-unit-22-id.pdf",
-    "geometri-diferensial-manifold-mulus-unit22-html-20260828.zip",
-    "geometri-diferensial-manifold-mulus-unit22-source-20260828.zip",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260828.zip",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-20260828.zip",
     "LICENSE.md",
-    "RELEASE_NOTES_UNIT22_20260828.md",
+    "RELEASE_NOTES_COMPLETE_20260828.md",
     "FILE_MANIFEST.json",
     "SHA256SUMS.txt",
 ]
-VERSION = "2026.08.28-complete"
-PUBLICATION_DATE = "2026-08-28"
+VERSION = "2026.08.29-complete-r1"
+PUBLICATION_DATE = "2026-08-29"
 TITLE = "Geometri Diferensial dan Manifold Mulus — Edisi Bahasa Indonesia"
 MODEL = "OpenAI Codex gpt-5.6-sol, Ultra"
 SOURCE_URL = "https://de.wikiversity.org/wiki/Kurs:Differentialgeometrie_(Osnabr%C3%BCck_2023)"
-RELEASE_DIR = Path("output/release-complete")
+RELEASE_DIR = Path("output/release-complete-r1")
 PREPARATION_WORKFLOW = "o011-prepare-release-complete-v1"
 INTEGRITY_WORKFLOW = "o011-verify-source-package-complete-v1"
 PDF_NAME = "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf"
-HTML_ZIP_NAME = "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260828.zip"
-SOURCE_ZIP_NAME = "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-20260828.zip"
+HTML_ZIP_NAME = "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260829.zip"
+SOURCE_ZIP_NAME = "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-r1-20260829.zip"
 EXPECTED_ORDER = [
     PDF_NAME,
     HTML_ZIP_NAME,
     SOURCE_ZIP_NAME,
     "LICENSE.md",
-    "RELEASE_NOTES_COMPLETE_20260828.md",
+    "RELEASE_NOTES_COMPLETE_R1_20260829.md",
     "FILE_MANIFEST.json",
     "SHA256SUMS.txt",
 ]
@@ -127,7 +127,7 @@ def verify_source_archive(root: Path, local: dict[str, dict[str, Any]]) -> None:
         "qa/complete/HTML_READER_QA.json",
         "qa/complete/HTML_BROWSER_QA.json",
         "qa/complete/backend.json",
-        "qa/complete/ZENODO_METADATA_COMPLETE.json",
+        "qa/complete/ZENODO_METADATA_COMPLETE_R1.json",
         "PACKAGE_MANIFEST.json",
         "PACKAGE_CHECKSUMS.sha256",
     )
@@ -387,18 +387,18 @@ def predecessor_ok(record: dict[str, Any]) -> None:
         or (record.get("access") or {}).get("record") != "public"
         or (record.get("access") or {}).get("files") != "public"
     ):
-        B.fail("Zenodo predecessor is not the exact public Unit 22 boundary")
+        B.fail("Zenodo predecessor is not the exact public complete-edition boundary")
 
 
 def verify_predecessor_boundary(root: Path, predecessor: dict[str, Any]) -> dict[str, Any]:
     receipt_path = root / PREDECESSOR_READBACK_REL
     if not receipt_path.is_file() or B.digest(receipt_path) != PREDECESSOR_READBACK_SHA256:
-        B.fail("exact Unit 22 public-readback receipt is absent or changed")
-    receipt = B.load_object(receipt_path, "Unit 22 public-readback receipt")
+        B.fail("exact complete-edition predecessor public-readback receipt is absent or changed")
+    receipt = B.load_object(receipt_path, "complete-edition predecessor public-readback receipt")
     receipt_files = receipt.get("files")
     if (
         receipt.get("schema_version") != 1
-        or receipt.get("workflow") != "o011-independent-zenodo-unit22-public-readback-v1"
+        or receipt.get("workflow") != "o011-independent-zenodo-complete-public-readback-v1"
         or receipt.get("status") != "pass"
         or receipt.get("record_id") != PREDECESSOR_ID
         or receipt.get("concept_record_id") != CONCEPT_ID
@@ -412,14 +412,14 @@ def verify_predecessor_boundary(root: Path, predecessor: dict[str, Any]) -> dict
         or not isinstance(receipt_files, list)
         or [item.get("name") for item in receipt_files if isinstance(item, dict)] != PREDECESSOR_ORDER
     ):
-        B.fail("Unit 22 readback receipt is not the exact passing predecessor proof")
+        B.fail("complete-edition readback receipt is not the exact passing predecessor proof")
     order, entries, default_preview = B.public_inventory(predecessor)
     if set(order) != set(PREDECESSOR_ORDER) or set(entries) != set(PREDECESSOR_ORDER) or default_preview != receipt.get("pdf_default_preview"):
-        B.fail("public Unit 22 inventory or preview differs from its exact proof")
+        B.fail("public complete-edition inventory or preview differs from its exact proof")
     expected = {str(item["name"]): item for item in receipt_files if isinstance(item, dict)}
     for name in PREDECESSOR_ORDER:
         if entries[name].get("size") != expected[name].get("bytes") or B.checksum_md5(entries[name]) != expected[name].get("md5"):
-            B.fail(f"public Unit 22 file identity differs from its proof: {name}")
+            B.fail(f"public complete-edition file identity differs from its proof: {name}")
     return {
         "record_id": B.record_id(predecessor),
         "doi": B.record_doi(predecessor),
@@ -462,7 +462,7 @@ def publication_receipt(
         "version": VERSION,
         "coverage": "complete_edition",
         "predecessor_boundary": predecessor_proof,
-        "reader_content_extended_from_predecessor": True,
+        "reader_content_extended_from_predecessor": False,
         "reader_first_order": order,
         "public_file_order": public_order,
         "pdf_default_preview": default_preview,
@@ -475,8 +475,8 @@ def publication_receipt(
     }
     if draft is not None:
         normalized = dict(draft)
-        if normalized.get("origin") == "created_from_exact_unit19_predecessor":
-            normalized["origin"] = "created_from_exact_unit22_predecessor"
+        if normalized.get("origin") in {"created_from_exact_unit19_predecessor", "created_from_exact_unit22_predecessor"}:
+            normalized["origin"] = "created_from_exact_complete_predecessor"
         result["draft"] = normalized
     return result
 

@@ -2295,3 +2295,50 @@ in the existing lineages, and anonymous readback.
 `cf875638bbb7ffb657d5932c1663c063f6832495b2f755830d26121d1a631e26`,
 and
 `5b9ee13df8d569b6c64c27c09cfcf1885fc78b29afff1baed106a9d6dd63fc94`.
+
+## D099 — Publish and close the complete O011 edition (2026-08-29)
+
+**Decision:** Admit the exact seven-file complete-edition package after two
+independent clean extraction/rebuild/restage cycles. Publish it under the
+existing GitHub and Zenodo lineages, never a duplicate concept. Treat GitHub's
+alphabetical asset response as an unordered inventory while retaining the
+manifest's reader-first semantic order; require exact seven-name set, bytes,
+and SHA-256 identities. Use Zenodo's current anonymous maximum page size of 25
+and follow all server-provided pagination links. These are API compatibility
+repairs, not content changes. Close O011 only after separate credential-free
+download verification succeeds for both lineages.
+
+**Evidence:** The GitHub release is annotated tag `v1.0.0`, release ID
+`378834384`, commit
+`d6f21e46c10a3562a42e1c7a3cc5c4ea1c0f855d`; publication/readback receipt
+SHA-256 values are
+`c90be7067e772f67f69687f4cc41ca63dfea0ec59b2261ae9d142591f6000849`
+and `a3ccd29212a0f858d8643d0820fe0c612c6985aff9debeea4ddd1b502409c650`.
+The Zenodo record is `22160677`, DOI `10.5281/zenodo.22160677`; its
+publication/readback receipt SHA-256 values are
+`b3c9fac14da08010379ecc1f52edf05dd5a6994062b6c8a0f0d37ed1d23b5f54`
+and `421afcdcb2ce217cc8f53b672c0396d51b2c52ba424bb618a84538fa8777f909`.
+Each public lineage independently returned all seven files and all 87,434,229
+bytes with exact cryptographic identities. The source-package integrity
+receipt SHA-256 is
+`5f6eecdae0542b42ee06745db0fbc8733f9e2e305017d976bd1b1622a9b35096`.
+
+## D100 — Correct inherited complete-edition scaffolding and preserve the original releases (2026-08-29)
+
+**Decision:** Reopen only the release-correction boundary after the terminal
+audit proved that the complete PDF visibly and internally retained the Unit 22
+checkpoint title and scope note. Keep the frozen Unit 22 driver, GitHub
+`v1.0.0`, and Zenodo record `22160677` immutable. Derive the complete driver
+with exactly three count-asserted, reversible substitutions: visible/PDF title,
+full 29-unit scope, and solution-provenance scope. Require the structural
+verifier to reject the stale phrases and assert the exact embedded title. Issue
+the correction as GitHub `v1.0.1` and the next version in the same Zenodo
+concept, never by deleting or silently mutating the historical releases.
+
+**Evidence:** The corrected 712-page PDF is 10,524,618 bytes, SHA-256
+`e0b416d91dfa8de4d5fbf7d84add34cfb3b57adde4645f60c4bc0a0609f5bd2f`;
+both clean cycles match. The structural receipt has zero blockers and SHA-256
+`23f806804dd2591480764eb5a9415ef32fb233a4f4f151eace6eb534b8bdeb97`.
+The 87,438,798-byte r1 payload passed two independent offline rebuild/restage
+cycles; its integrity receipt SHA-256 is
+`1a943744f3a96786f88c61396f9a6102fc66c07eb697fdd3b7fa90b3bf011221`.

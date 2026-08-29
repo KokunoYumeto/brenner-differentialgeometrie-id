@@ -1,6 +1,6 @@
 # Current state — O011 / D50
 
-Updated: 2026-08-28 (Europe/Berlin)
+Updated: 2026-08-29 (Europe/Berlin)
 
 ## Current verified boundary — Unit 22 cumulative release public and anonymously byte-verified; Unit 23 production active
 
@@ -808,3 +808,83 @@ The exact next action is release packaging, two clean offline source-package
 reconstructions, publication in the existing Zenodo and GitHub lineages, and
 anonymous byte-for-byte public readback. No translation, bridge, assessment,
 or reader-build work remains open.
+
+## Terminal complete edition published and independently read back — 2026-08-29
+
+The complete selected O011 edition is finished. It contains all 29 Brenner
+lecture/worksheet pairs, all 576 core exercises and 84 source-supplied core
+solutions, all ten official learner and solution exam forms with 123 actual
+problem occurrences and 117 source-supplied solution occurrences, the six
+separately identified original missing-exam repairs, and both original bridges
+with 32 further solution-bearing items. Thus all 38 selected original
+solution-bearing items are present and no translation surface remains open.
+
+The final centered A4 PDF remains 712 pages, 10,525,469 bytes, SHA-256
+`26f19153db2ca08851e182202900a8371f1816b428f8fe7321b35de60b9c84ef`.
+The semantic HTML entry remains 2,581,857 bytes, SHA-256
+`ebee44b421d841f4be2ff22c2007f58c3c63b5042a63dfd96dcd079fc4d17c66`.
+The append-only backend remains 6,912 records; JSONL SHA-256 is
+`cf875638bbb7ffb657d5932c1663c063f6832495b2f755830d26121d1a631e26`.
+The seven-file public payload is 87,434,229 bytes. Its source/backend ZIP is
+69,147,984 bytes, SHA-256
+`051324674c298cfb261dac7b8b98b0d316ea4bca948eb3f1224fc2162fb163c7`.
+Two independent clean extraction/rebuild/restage cycles passed; integrity
+receipt SHA-256 is
+`5f6eecdae0542b42ee06745db0fbc8733f9e2e305017d976bd1b1622a9b35096`.
+
+GitHub commit `d6f21e46c10a3562a42e1c7a3cc5c4ea1c0f855d`, annotated tag
+`v1.0.0`, and release ID `378834384` are public at
+`https://github.com/KokunoYumeto/brenner-differentialgeometrie-id/releases/tag/v1.0.0`.
+The independent unauthenticated verifier downloaded all seven assets and
+matched all 87,434,229 bytes. Publication and readback receipt SHA-256 values
+are `c90be7067e772f67f69687f4cc41ca63dfea0ec59b2261ae9d142591f6000849`
+and `a3ccd29212a0f858d8643d0820fe0c612c6985aff9debeea4ddd1b502409c650`.
+
+The same exact seven files are public in the existing Zenodo concept at record
+`22160677`, DOI `10.5281/zenodo.22160677`, with the PDF as the default preview.
+The independent credential-free verifier matched all seven names, metadata,
+licenses, relationships, 87,434,229 bytes, MD5 values, and SHA-256 values.
+Publication and readback receipt SHA-256 values are
+`b3c9fac14da08010379ecc1f52edf05dd5a6994062b6c8a0f0d37ed1d23b5f54`
+and `421afcdcb2ce217cc8f53b672c0396d51b2c52ba424bb618a84538fa8777f909`.
+The concept DOI remains `10.5281/zenodo.22059977`; no duplicate concept or
+competing record was created.
+
+The terminal condition is satisfied. No translation, build, backend, rights,
+publication, or public-byte-verification action remains.
+
+## Corrective r1 release staged; public successor pending — 2026-08-29
+
+The terminal audit found one real release defect in the otherwise complete
+edition: the derived complete PDF had inherited the Unit 22 checkpoint title
+and scope prose. This affected the visible title page, the embedded `/Title`,
+and the edition note; it did not affect the translated mathematics. The frozen
+Unit 22 driver remains untouched. The complete-driver builder now applies
+exactly three enumerated substitutions and proves that reversing them restores
+every frozen prefix byte.
+
+The corrected PDF remains 712 centered A4 pages. It is 10,524,618 bytes,
+SHA-256
+`e0b416d91dfa8de4d5fbf7d84add34cfb3b57adde4645f60c4bc0a0609f5bd2f`.
+Its visible title is `Edisi Lengkap Bahasa Indonesia`, its embedded title is
+`Geometri Diferensial dan Manifold Mulus Edisi Lengkap Bahasa Indonesia`, and
+the frontmatter now states the complete 29-lecture/29-worksheet scope and the
+separation of all 38 original solution-bearing items. Two clean PDF cycles are
+byte-identical. Driver-derivation, build, and structural-QA receipt SHA-256
+values are
+`c63cae90487dde58115c2f41fa9d94bc65d01fcf6b2702364c829c4b1eebe501`,
+`3ed6ecab0416a94213dbeb32ddea6e5eb0b9b0b9f427ef1e377403cabed7908e`,
+and
+`23f806804dd2591480764eb5a9415ef32fb233a4f4f151eace6eb534b8bdeb97`.
+
+The corrective seven-file payload is staged at
+`output/release-complete-r1`, totaling 87,438,798 bytes. Two independent
+offline extraction/rebuild/restage cycles reproduced every byte. Release
+preparation and source-package-integrity receipt SHA-256 values are
+`31230e50c1fe2343d0306eb91ff9780e07fd0de130aff4cf0d849f10b535caab`
+and
+`1a943744f3a96786f88c61396f9a6102fc66c07eb697fdd3b7fa90b3bf011221`.
+The old GitHub `v1.0.0` and Zenodo record `22160677` remain untouched as
+historical witnesses. The exact next action is to commit and push this candidate,
+publish GitHub `v1.0.1` and a successor in Zenodo concept `22059977`, then
+anonymously download and hash all seven public files in each lineage.

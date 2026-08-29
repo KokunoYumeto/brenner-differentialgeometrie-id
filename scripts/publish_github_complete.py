@@ -59,7 +59,7 @@ TRACKED_RELEASE_CONTROLS = [
     "scripts/github_complete_common.py",
     "scripts/publish_github_complete.py",
     "scripts/verify_github_complete_public.py",
-    "qa/complete/GITHUB_RELEASE_METADATA.json",
+    "qa/complete/GITHUB_RELEASE_METADATA_R1.json",
 ]
 
 
@@ -150,7 +150,7 @@ def local_git_preflight(root: Path, expected_commit: str) -> dict[str, Any]:
         (0, 1),
     )
     if code != 0:
-        fail("expected commit is not a descendant of the local Unit 22 tag")
+        fail("expected commit is not a descendant of the local predecessor tag")
 
     _, origin = git_command(root, ["remote", "get-url", "origin"], "origin identity check")
     if not valid_origin(origin):

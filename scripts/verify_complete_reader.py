@@ -61,6 +61,21 @@ EXAM_OCCURRENCES = {1: 14, 2: 11, 3: 16, 4: 16, 5: 14, 6: 16, 7: 16, 8: 17, 9: 1
 REPAIR_EXAMS = [1, 3, 5, 7, 9, 10]
 EXPECTED_A4 = (595.276, 841.89)
 PREFIX_PAGE_COUNT = 345
+EXPECTED_PDF_TITLE = "Geometri Diferensial dan Manifold Mulus Edisi Lengkap Bahasa Indonesia"
+SCAFFOLDING_REPLACEMENTS = [
+    (
+        r"\title{Geometri Diferensial dan Manifold Mulus\\\large Pembaca kumulatif hingga Unit 22}",
+        r"\title{Geometri Diferensial dan Manifold Mulus\\\large Edisi Lengkap Bahasa Indonesia}",
+    ),
+    (
+        "Pembaca kumulatif ini menerjemahkan Kuliah 1--22 dan Lembar Kerja 1--22 dari kursus Holger Brenner di Wikiversity berbahasa Jerman. Teks sumber digunakan berdasarkan CC BY-SA 4.0. Terjemahan ini merupakan karya independen dan bukan edisi resmi atau dukungan dari penulis maupun Wikiversity. Setiap gambar mengikuti status hak atau lisensi berkasnya sendiri, yang dicatat pada daftar gambar dan manifest media.",
+        "Pembaca lengkap ini menerjemahkan seluruh 29 Kuliah dan 29 Lembar Kerja dari kursus Holger Brenner di Wikiversity berbahasa Jerman. Selain inti terjemahan, edisi ini memuat sepuluh formulir ujian resmi beserta solusi sumber yang tersedia, serta dua jembatan dan enam perbaikan solusi yang ditulis khusus untuk edisi ini dan diberi label terpisah. Teks sumber digunakan berdasarkan CC BY-SA 4.0. Terjemahan ini merupakan karya independen dan bukan edisi resmi atau dukungan dari penulis maupun Wikiversity. Setiap gambar mengikuti status hak atau lisensi berkasnya sendiri, yang dicatat pada daftar gambar dan manifest media.",
+    ),
+    (
+        "Sumber permanen dan hash revisi dicatat dalam berkas kontrol edisi ini. Rumus, urutan, latihan, penanda solusi, dan atribusi media dipertahankan; ID mesin hanya merupakan lapisan tambahan. Bagian solusi hanya memuat solusi yang benar-benar disediakan oleh sumber.",
+        "Sumber permanen dan hash revisi dicatat dalam berkas kontrol edisi ini. Rumus, urutan, latihan, penanda solusi, dan atribusi media dipertahankan; ID mesin hanya merupakan lapisan tambahan. Solusi yang disediakan sumber dipisahkan secara eksplisit dari 38 butir solusi asli edisi ini.",
+    ),
+]
 
 
 def identity(path: Path) -> dict[str, Any] | None:
@@ -129,8 +144,26 @@ def verify_prefix_and_driver(blockers: list[str]) -> dict[str, Any]:
     add(blockers, prefix_bytes.count(marker) == 1, "frozen Unit 22 driver lacks a unique backmatter marker")
     marker_index = prefix_bytes.find(marker)
     prefix_head = prefix_bytes[:marker_index] if marker_index >= 0 else b""
-    prefix_equal = bool(prefix_head and driver_bytes.startswith(prefix_head))
-    add(blockers, prefix_equal, "complete driver does not preserve every Unit 22 prefix byte before backmatter")
+    prefix_head_text = prefix_head.decode("utf-8", errors="strict") if prefix_head else ""
+    expected_prefix_text = prefix_head_text
+    replacement_rows: list[dict[str, Any]] = []
+    for old, new in SCAFFOLDING_REPLACEMENTS:
+        count = expected_prefix_text.count(old)
+        add(blockers, count == 1, f"frozen prefix scaffolding occurrence mismatch ({count}): {old[:48]}")
+        expected_prefix_text = expected_prefix_text.replace(old, new, 1)
+        replacement_rows.append({"source_occurrences": count, "source": old, "target": new})
+    expected_prefix = expected_prefix_text.encode("utf-8")
+    controlled_prefix_equal = bool(expected_prefix and driver_bytes.startswith(expected_prefix))
+    add(
+        blockers,
+        controlled_prefix_equal,
+        "complete driver differs outside the three exact complete-edition scaffolding substitutions",
+    )
+    restored_prefix_text = expected_prefix_text
+    for old, new in SCAFFOLDING_REPLACEMENTS:
+        restored_prefix_text = restored_prefix_text.replace(new, old, 1)
+    exactly_reversible = restored_prefix_text == prefix_head_text
+    add(blockers, exactly_reversible, "complete-edition prefix substitutions are not exactly reversible")
 
     driver = driver_bytes.decode("utf-8", errors="replace")
     add(blockers, "\ufffd" not in driver, "complete driver is not valid UTF-8")
@@ -216,10 +249,20 @@ def verify_prefix_and_driver(blockers: list[str]) -> dict[str, Any]:
     return {
         "frozen_artifacts": frozen_checks,
         "preserved_prefix": {
-            "bytes": len(prefix_head),
-            "sha256": hashlib.sha256(prefix_head).hexdigest() if prefix_head else None,
-            "byte_identical": prefix_equal,
-            "boundary": "before unique backmatter command",
+            "frozen": {
+                "bytes": len(prefix_head),
+                "sha256": hashlib.sha256(prefix_head).hexdigest() if prefix_head else None,
+            },
+            "derived": {
+                "bytes": len(expected_prefix),
+                "sha256": hashlib.sha256(expected_prefix).hexdigest() if expected_prefix else None,
+            },
+            "byte_identical": False,
+            "controlled_replacement_count": len(SCAFFOLDING_REPLACEMENTS),
+            "replacements": replacement_rows,
+            "exactly_reversible": exactly_reversible,
+            "controlled_prefix_equal": controlled_prefix_equal,
+            "boundary": "before unique backmatter command, except exact complete-edition scaffolding substitutions",
         },
         "driver": identity(driver_path),
         "required_extension_input_count": len(expected_inputs),
@@ -475,6 +518,20 @@ def verify_pdf(blockers: list[str]) -> dict[str, Any]:
     text = "\n".join(page_texts)
     normalized_text = normalized(text)
 
+    visible_complete_scope = {
+        "complete title": normalized("Edisi Lengkap Bahasa Indonesia") in normalized(page_texts[0]),
+        "29-lecture and 29-worksheet scope": normalized("seluruh 29 Kuliah dan 29 Lembar Kerja") in normalized("\n".join(page_texts[:2])),
+        "38 original solution items distinguished": normalized("38 butir solusi asli edisi ini") in normalized("\n".join(page_texts[:2])),
+    }
+    for label, present in visible_complete_scope.items():
+        add(blockers, present, f"complete-edition frontmatter is missing: {label}")
+    stale_complete_scaffolding = [
+        phrase
+        for phrase in ("Pembaca kumulatif hingga Unit 22", "Pembaca kumulatif ini menerjemahkan Kuliah 1")
+        if normalized(phrase) in normalized("\n".join(page_texts[:2]))
+    ]
+    add(blockers, not stale_complete_scaffolding, f"stale Unit 22 scaffolding remains: {stale_complete_scaffolding}")
+
     sentinels = ["Solusi Soal 22.6", "Kelanjutan Edisi Lengkap"]
     sentinels.extend(f"Unit {unit}" for unit in range(23, 30))
     sentinels.extend(
@@ -583,6 +640,13 @@ def verify_pdf(blockers: list[str]) -> dict[str, Any]:
     add(blockers, not acroform, "PDF contains an AcroForm")
 
     metadata = {str(key): str(value) for key, value in (reader.metadata or {}).items()}
+    metadata_title = normalized(metadata.get("/Title", ""))
+    expected_metadata_title = normalized(EXPECTED_PDF_TITLE)
+    add(
+        blockers,
+        metadata_title == expected_metadata_title,
+        f"PDF /Title mismatch: {metadata.get('/Title')!r}",
+    )
     sensitive = re.compile(r"(?:New zenodo token|Github Tokens|Zenodo token|Figshare Token)", re.IGNORECASE)
     sensitive_hits = [value for value in [text, *metadata.values()] if sensitive.search(value)]
     add(blockers, not sensitive_hits, "sensitive credential filename leaked into PDF")
@@ -618,6 +682,10 @@ def verify_pdf(blockers: list[str]) -> dict[str, Any]:
         "javascript_name_tree": javascript_tree,
         "acroform": acroform,
         "metadata": metadata,
+        "metadata_title_expected": EXPECTED_PDF_TITLE,
+        "metadata_title_passed": metadata_title == expected_metadata_title,
+        "visible_complete_scope": visible_complete_scope,
+        "stale_complete_scaffolding": stale_complete_scaffolding,
         "fatal_log_hits": fatal_log_hits,
         "overfull_hbox_count": len(overfull),
         "maximum_overfull_hbox_points": max(overfull, default=0.0),

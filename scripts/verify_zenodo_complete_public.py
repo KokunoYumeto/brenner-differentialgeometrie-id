@@ -15,26 +15,26 @@ from typing import Any
 
 CONCEPT_ID = 22059977
 CONCEPT_DOI = "10.5281/zenodo.22059977"
-PREDECESSOR_ID = 22146873
-VERSION = "2026.08.28-complete"
-PUBLICATION_DATE = "2026-08-28"
+PREDECESSOR_ID = 22160677
+VERSION = "2026.08.29-complete-r1"
+PUBLICATION_DATE = "2026-08-29"
 TITLE = "Geometri Diferensial dan Manifold Mulus — Edisi Bahasa Indonesia"
 MODEL = "OpenAI Codex gpt-5.6-sol, Ultra"
 SOURCE_URL = "https://de.wikiversity.org/wiki/Kurs:Differentialgeometrie_(Osnabr%C3%BCck_2023)"
 PDF_NAME = "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf"
 EXPECTED_ORDER = [
     PDF_NAME,
-    "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260828.zip",
-    "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-20260828.zip",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260829.zip",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-r1-20260829.zip",
     "LICENSE.md",
-    "RELEASE_NOTES_COMPLETE_20260828.md",
+    "RELEASE_NOTES_COMPLETE_R1_20260829.md",
     "FILE_MANIFEST.json",
     "SHA256SUMS.txt",
 ]
-PREPARATION = Path("qa/complete/RELEASE_PREPARATION_RECEIPT.json")
-PUBLICATION = Path("qa/complete/ZENODO_PUBLICATION_RECEIPT.json")
-METADATA_CONTRACT = Path("qa/complete/ZENODO_METADATA_COMPLETE.json")
-DEFAULT_RECEIPT = Path("qa/complete/ZENODO_PUBLIC_READBACK_RECEIPT.json")
+PREPARATION = Path("qa/complete/RELEASE_PREPARATION_RECEIPT_R1.json")
+PUBLICATION = Path("qa/complete/ZENODO_PUBLICATION_RECEIPT_R1.json")
+METADATA_CONTRACT = Path("qa/complete/ZENODO_METADATA_COMPLETE_R1.json")
+DEFAULT_RECEIPT = Path("qa/complete/ZENODO_PUBLIC_READBACK_RECEIPT_R1.json")
 
 
 def fail(message: str) -> None:
@@ -294,7 +294,7 @@ def main() -> int:
     if isinstance(configured_order, list) and configured_order and configured_order != EXPECTED_ORDER:
         fail("public configured file order is not reader-first")
 
-    versions = api_json(f"https://zenodo.org/api/records/{args.record_id}/versions?size=100&page=1")
+    versions = api_json(f"https://zenodo.org/api/records/{args.record_id}/versions?size=25&page=1")
     hit_container = versions.get("hits") or {}
     hits = hit_container.get("hits")
     total = hit_container.get("total")

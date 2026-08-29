@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "contributors": [
+      {
+        "name": "TTP",
+        "type": "Other"
+      }
+    ],
+    "creators": [
+      {
+        "name": "Brenner, Holger"
+      }
+    ],
+    "description": "Complete reader-first Indonesian adaptation of all 29 lecture and worksheet pairs from Differentialgeometrie (Osnabrück 2023), together with ten official exam forms and their source-supplied solutions, two independently authored curricular bridge modules, and six separately identified original repairs for source-missing exam solutions. This corrective r1 version fixes the complete PDF title page, embedded title metadata, and frontmatter scope statement; mathematical content, 712-page pagination, semantic HTML, and the 6,912 stable-ID records are unchanged. The core preserves 576 source exercises and 84 source-supplied worksheet solutions. The exam bank preserves 147 nominal slots, 123 actual problem occurrences, 24 explicit placeholders, and 117 source-supplied solution occurrences. The two bridges contain 32 original solution-bearing exercise and mastery items; the complete edition therefore distinguishes all 38 original solution-bearing items from source-supplied solutions. The release is reader-first: a centered A4 PDF is followed by reflowable semantic HTML and a compact reproducible source/backend package with 6,912 stable-ID records. Course text, the Indonesian adaptation, and the identified original modules are CC BY-SA 4.0. Component media retain their file-specific rights; no blanket media license is inferred. This is an independent adaptation and is not endorsed by the source author, Wikiversity, Wikimedia Commons, the Wikimedia Foundation, or media creators. Computational provenance: OpenAI Codex gpt-5.6-sol, Ultra.",
+    "keywords": [
+      "differential geometry",
+      "smooth manifolds",
+      "Indonesian translation",
+      "open educational resources",
+      "semantic HTML",
+      "stable identifiers",
+      "de Rham cohomology",
+      "Lie groups"
+    ],
+    "language": "ind",
+    "license": "other-open",
+    "publication_date": "2026-08-29",
+    "related_identifiers": [
+      {
+        "identifier": "https://de.wikiversity.org/wiki/Kurs:Differentialgeometrie_(Osnabr%C3%BCck_2023)",
+        "relation": "isDerivedFrom",
+        "resource_type": "publication-book",
+        "scheme": "url"
+      }
+    ],
+    "title": "Geometri Diferensial dan Manifold Mulus — Edisi Bahasa Indonesia",
+    "version": "2026.08.29-complete-r1"
+  }
+}

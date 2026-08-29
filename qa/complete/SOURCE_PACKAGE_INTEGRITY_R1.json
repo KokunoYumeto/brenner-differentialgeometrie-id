@@ -1,0 +1,417 @@
+{
+  "checks": {
+    "all_rebuilt_artifacts_match_canonical_bytes": true,
+    "all_seven_public_files_restaged_byte_identically_twice": true,
+    "backend_rebuilt_and_independently_verified_twice": true,
+    "both_clean_cycles_match_each_other": true,
+    "html_rebuilt_and_independently_verified_twice": true,
+    "network_disabled_for_all_rebuild_and_restage_commands": true,
+    "pdf_rebuilt_and_independently_verified_twice": true,
+    "required_complete_resumable_source_closure_present": true,
+    "seven_file_outer_manifest_and_checksums_pass": true,
+    "source_zip_crc_paths_manifest_and_checksums_pass": true,
+    "two_independent_clean_extractions": true
+  },
+  "clean_rebuilds": [
+    {
+      "commands": [
+        {
+          "command": [
+            "python.exe",
+            "scripts/export_html_complete.py",
+            "--root",
+            ".",
+            "--output",
+            "output/html/complete",
+            "--replace"
+          ],
+          "exit_code": 0,
+          "output_bytes": 217,
+          "output_sha256": "e913c5df41a3251e49128709c70958d129a02648e5ac6d3c2bc2b067602e939e"
+        },
+        {
+          "command": [
+            "python.exe",
+            "scripts/verify_html_complete.py",
+            "--root",
+            ".",
+            "--output",
+            "output/html/complete"
+          ],
+          "exit_code": 0,
+          "output_bytes": 1426,
+          "output_sha256": "14d06e5eda2116695c09025bffdfb0a4fb8e3e13565f739d2822964b48494754"
+        },
+        {
+          "command": [
+            "python.exe",
+            "scripts/export_backend_complete.py",
+            "--root",
+            ".",
+            "--checkpoint",
+            "2026-08-28T18:30:00Z",
+            "--translation-state",
+            "mathematically_reviewed"
+          ],
+          "exit_code": 0,
+          "output_bytes": 1216,
+          "output_sha256": "9ea4b6755f863d2fae5ae699169cbcc5c23ff9273b2462041f1754c936145051"
+        },
+        {
+          "command": [
+            "python.exe",
+            "scripts/verify_backend_complete.py",
+            "--root",
+            ".",
+            "--check-only"
+          ],
+          "exit_code": 0,
+          "output_bytes": 3358,
+          "output_sha256": "db30fbad0ce76f3e6afbae63dab002e30be676fba02cef31edbfc69c3bc471e6"
+        },
+        {
+          "command": [
+            "pwsh.EXE",
+            "-NoProfile",
+            "-File",
+            "scripts/build_complete_reader.ps1"
+          ],
+          "exit_code": 0,
+          "output_bytes": 446580,
+          "output_sha256": "5e2462a1ea6f7d82090ea90e057a889d1752c392dbb7c9e30ad5fa60b41162b3"
+        },
+        {
+          "command": [
+            "python.exe",
+            "scripts/verify_complete_reader.py"
+          ],
+          "exit_code": 0,
+          "output_bytes": 292876,
+          "output_sha256": "8630e7f608102d59a0809d5674c8b3fe7e09293110aeb3a63fae1842ba076290"
+        },
+        {
+          "command": [
+            "python.exe",
+            "scripts/stage_zenodo_complete.py",
+            "--root",
+            ".",
+            "--output-dir",
+            "output/release-complete-rebuilt",
+            "--receipt",
+            "qa/complete/RELEASE_PREPARATION_REBUILT.json"
+          ],
+          "exit_code": 0,
+          "output_bytes": 269,
+          "output_sha256": "15377cba4ff947e4de55182e2edb2e2e533f930f63ff42f8b3ec361024e72b47"
+        }
+      ],
+      "cycle": 1,
+      "extraction": {
+        "checksums": {
+          "bytes": 153793,
+          "path": "PACKAGE_CHECKSUMS.sha256",
+          "sha256": "c17b2d2f399945caed0a2a70376780d6e05c42fe211a599b9049ad0561d86299"
+        },
+        "manifest": {
+          "bytes": 245498,
+          "path": "PACKAGE_MANIFEST.json",
+          "sha256": "d9adf429dcf8e04d744d4f75708ce52e67e3e1b979408d0cdbded30f7fd9b1f1"
+        },
+        "members": 1282,
+        "uncompressed_bytes": 97182250,
+        "zip": {
+          "bytes": 69154138,
+          "sha256": "94bdc7c1f9ceec599daf59c0d303721be009a140d5a7bd5f794ac8887b935ae3"
+        }
+      },
+      "offline_proxy_blocking": true,
+      "outputs": {
+        "backend_csv": {
+          "bytes": 1663434,
+          "sha256": "e97f94a5e221f7c5abdfb24a7795761f75a1c999f4da06500bb24e41c3c632db"
+        },
+        "backend_jsonl": {
+          "bytes": 4244774,
+          "sha256": "cf875638bbb7ffb657d5932c1663c063f6832495b2f755830d26121d1a631e26"
+        },
+        "backend_manifest": {
+          "bytes": 55195,
+          "sha256": "4bc497f5f26781ac0bb55b0db2ffa206774477a32790ec1890fd425b2861fb53"
+        },
+        "html_entry": {
+          "bytes": 2581857,
+          "sha256": "ebee44b421d841f4be2ff22c2007f58c3c63b5042a63dfd96dcd079fc4d17c66"
+        },
+        "html_manifest": {
+          "bytes": 245625,
+          "sha256": "ce25122eb211b9feeec34eebbde8d547a08506bfdebbcb29dbd65341acb28d1d"
+        },
+        "html_tree_sha256": "d8edf28b6900cca5fd383c75b5929194eeace1d7a179a61253d5a38461cae406",
+        "pdf": {
+          "bytes": 10524618,
+          "sha256": "e0b416d91dfa8de4d5fbf7d84add34cfb3b57adde4645f60c4bc0a0609f5bd2f"
+        }
+      },
+      "restaged_files": {
+        "FILE_MANIFEST.json": {
+          "bytes": 1641,
+          "sha256": "29efcb5ef69ba5e0e7a1b09bff4a1f36ad89e3140395c1c6d19a482067d8bd3d"
+        },
+        "LICENSE.md": {
+          "bytes": 2541,
+          "sha256": "a94ce827c5d341484525e056d4f6c69649cbc676cf454198b574cc6fe5922691"
+        },
+        "RELEASE_NOTES_COMPLETE_R1_20260829.md": {
+          "bytes": 2038,
+          "sha256": "bdb8ca8c75c9c1d85cdd9b3c4f0dea2b887a7ef9495904d7edeb703f66feebfd"
+        },
+        "SHA256SUMS.txt": {
+          "bytes": 670,
+          "sha256": "c39146003aa70cef92bc1abd4923fc996d710e17a942e52c5d3546f71d0cacf8"
+        },
+        "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260829.zip": {
+          "bytes": 7753152,
+          "sha256": "65ce76d031baea3e049df09218963c187615f25e324bcfd48216afd5fd8cb5e5"
+        },
+        "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf": {
+          "bytes": 10524618,
+          "sha256": "e0b416d91dfa8de4d5fbf7d84add34cfb3b57adde4645f60c4bc0a0609f5bd2f"
+        },
+        "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-r1-20260829.zip": {
+          "bytes": 69154138,
+          "sha256": "94bdc7c1f9ceec599daf59c0d303721be009a140d5a7bd5f794ac8887b935ae3"
+        }
+      }
+    },
+    {
+      "commands": [
+        {
+          "command": [
+            "python.exe",
+            "scripts/export_html_complete.py",
+            "--root",
+            ".",
+            "--output",
+            "output/html/complete",
+            "--replace"
+          ],
+          "exit_code": 0,
+          "output_bytes": 217,
+          "output_sha256": "e913c5df41a3251e49128709c70958d129a02648e5ac6d3c2bc2b067602e939e"
+        },
+        {
+          "command": [
+            "python.exe",
+            "scripts/verify_html_complete.py",
+            "--root",
+            ".",
+            "--output",
+            "output/html/complete"
+          ],
+          "exit_code": 0,
+          "output_bytes": 1426,
+          "output_sha256": "14d06e5eda2116695c09025bffdfb0a4fb8e3e13565f739d2822964b48494754"
+        },
+        {
+          "command": [
+            "python.exe",
+            "scripts/export_backend_complete.py",
+            "--root",
+            ".",
+            "--checkpoint",
+            "2026-08-28T18:30:00Z",
+            "--translation-state",
+            "mathematically_reviewed"
+          ],
+          "exit_code": 0,
+          "output_bytes": 1216,
+          "output_sha256": "9ea4b6755f863d2fae5ae699169cbcc5c23ff9273b2462041f1754c936145051"
+        },
+        {
+          "command": [
+            "python.exe",
+            "scripts/verify_backend_complete.py",
+            "--root",
+            ".",
+            "--check-only"
+          ],
+          "exit_code": 0,
+          "output_bytes": 3358,
+          "output_sha256": "db30fbad0ce76f3e6afbae63dab002e30be676fba02cef31edbfc69c3bc471e6"
+        },
+        {
+          "command": [
+            "pwsh.EXE",
+            "-NoProfile",
+            "-File",
+            "scripts/build_complete_reader.ps1"
+          ],
+          "exit_code": 0,
+          "output_bytes": 446580,
+          "output_sha256": "5e2462a1ea6f7d82090ea90e057a889d1752c392dbb7c9e30ad5fa60b41162b3"
+        },
+        {
+          "command": [
+            "python.exe",
+            "scripts/verify_complete_reader.py"
+          ],
+          "exit_code": 0,
+          "output_bytes": 292876,
+          "output_sha256": "8630e7f608102d59a0809d5674c8b3fe7e09293110aeb3a63fae1842ba076290"
+        },
+        {
+          "command": [
+            "python.exe",
+            "scripts/stage_zenodo_complete.py",
+            "--root",
+            ".",
+            "--output-dir",
+            "output/release-complete-rebuilt",
+            "--receipt",
+            "qa/complete/RELEASE_PREPARATION_REBUILT.json"
+          ],
+          "exit_code": 0,
+          "output_bytes": 269,
+          "output_sha256": "15377cba4ff947e4de55182e2edb2e2e533f930f63ff42f8b3ec361024e72b47"
+        }
+      ],
+      "cycle": 2,
+      "extraction": {
+        "checksums": {
+          "bytes": 153793,
+          "path": "PACKAGE_CHECKSUMS.sha256",
+          "sha256": "c17b2d2f399945caed0a2a70376780d6e05c42fe211a599b9049ad0561d86299"
+        },
+        "manifest": {
+          "bytes": 245498,
+          "path": "PACKAGE_MANIFEST.json",
+          "sha256": "d9adf429dcf8e04d744d4f75708ce52e67e3e1b979408d0cdbded30f7fd9b1f1"
+        },
+        "members": 1282,
+        "uncompressed_bytes": 97182250,
+        "zip": {
+          "bytes": 69154138,
+          "sha256": "94bdc7c1f9ceec599daf59c0d303721be009a140d5a7bd5f794ac8887b935ae3"
+        }
+      },
+      "offline_proxy_blocking": true,
+      "outputs": {
+        "backend_csv": {
+          "bytes": 1663434,
+          "sha256": "e97f94a5e221f7c5abdfb24a7795761f75a1c999f4da06500bb24e41c3c632db"
+        },
+        "backend_jsonl": {
+          "bytes": 4244774,
+          "sha256": "cf875638bbb7ffb657d5932c1663c063f6832495b2f755830d26121d1a631e26"
+        },
+        "backend_manifest": {
+          "bytes": 55195,
+          "sha256": "4bc497f5f26781ac0bb55b0db2ffa206774477a32790ec1890fd425b2861fb53"
+        },
+        "html_entry": {
+          "bytes": 2581857,
+          "sha256": "ebee44b421d841f4be2ff22c2007f58c3c63b5042a63dfd96dcd079fc4d17c66"
+        },
+        "html_manifest": {
+          "bytes": 245625,
+          "sha256": "ce25122eb211b9feeec34eebbde8d547a08506bfdebbcb29dbd65341acb28d1d"
+        },
+        "html_tree_sha256": "d8edf28b6900cca5fd383c75b5929194eeace1d7a179a61253d5a38461cae406",
+        "pdf": {
+          "bytes": 10524618,
+          "sha256": "e0b416d91dfa8de4d5fbf7d84add34cfb3b57adde4645f60c4bc0a0609f5bd2f"
+        }
+      },
+      "restaged_files": {
+        "FILE_MANIFEST.json": {
+          "bytes": 1641,
+          "sha256": "29efcb5ef69ba5e0e7a1b09bff4a1f36ad89e3140395c1c6d19a482067d8bd3d"
+        },
+        "LICENSE.md": {
+          "bytes": 2541,
+          "sha256": "a94ce827c5d341484525e056d4f6c69649cbc676cf454198b574cc6fe5922691"
+        },
+        "RELEASE_NOTES_COMPLETE_R1_20260829.md": {
+          "bytes": 2038,
+          "sha256": "bdb8ca8c75c9c1d85cdd9b3c4f0dea2b887a7ef9495904d7edeb703f66feebfd"
+        },
+        "SHA256SUMS.txt": {
+          "bytes": 670,
+          "sha256": "c39146003aa70cef92bc1abd4923fc996d710e17a942e52c5d3546f71d0cacf8"
+        },
+        "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260829.zip": {
+          "bytes": 7753152,
+          "sha256": "65ce76d031baea3e049df09218963c187615f25e324bcfd48216afd5fd8cb5e5"
+        },
+        "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf": {
+          "bytes": 10524618,
+          "sha256": "e0b416d91dfa8de4d5fbf7d84add34cfb3b57adde4645f60c4bc0a0609f5bd2f"
+        },
+        "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-r1-20260829.zip": {
+          "bytes": 69154138,
+          "sha256": "94bdc7c1f9ceec599daf59c0d303721be009a140d5a7bd5f794ac8887b935ae3"
+        }
+      }
+    }
+  ],
+  "coverage": "complete_edition",
+  "model_identification": "OpenAI Codex gpt-5.6-sol, Ultra",
+  "outer_release": {
+    "files": [
+      {
+        "bytes": 10524618,
+        "filename": "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+        "sha256": "e0b416d91dfa8de4d5fbf7d84add34cfb3b57adde4645f60c4bc0a0609f5bd2f"
+      },
+      {
+        "bytes": 7753152,
+        "filename": "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260829.zip",
+        "sha256": "65ce76d031baea3e049df09218963c187615f25e324bcfd48216afd5fd8cb5e5"
+      },
+      {
+        "bytes": 69154138,
+        "filename": "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-r1-20260829.zip",
+        "sha256": "94bdc7c1f9ceec599daf59c0d303721be009a140d5a7bd5f794ac8887b935ae3"
+      },
+      {
+        "bytes": 2541,
+        "filename": "LICENSE.md",
+        "sha256": "a94ce827c5d341484525e056d4f6c69649cbc676cf454198b574cc6fe5922691"
+      },
+      {
+        "bytes": 2038,
+        "filename": "RELEASE_NOTES_COMPLETE_R1_20260829.md",
+        "sha256": "bdb8ca8c75c9c1d85cdd9b3c4f0dea2b887a7ef9495904d7edeb703f66feebfd"
+      },
+      {
+        "bytes": 1641,
+        "filename": "FILE_MANIFEST.json",
+        "sha256": "29efcb5ef69ba5e0e7a1b09bff4a1f36ad89e3140395c1c6d19a482067d8bd3d"
+      },
+      {
+        "bytes": 670,
+        "filename": "SHA256SUMS.txt",
+        "sha256": "c39146003aa70cef92bc1abd4923fc996d710e17a942e52c5d3546f71d0cacf8"
+      }
+    ],
+    "html": {
+      "files": 44,
+      "tree_sha256": "d8edf28b6900cca5fd383c75b5929194eeace1d7a179a61253d5a38461cae406",
+      "zip": {
+        "bytes": 7753152,
+        "sha256": "65ce76d031baea3e049df09218963c187615f25e324bcfd48216afd5fd8cb5e5"
+      }
+    },
+    "total_bytes": 87438798
+  },
+  "remote_state_mutated": false,
+  "schema_version": 1,
+  "source_zip": {
+    "bytes": 69154138,
+    "path": "output/release-complete-r1/geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-r1-20260829.zip",
+    "sha256": "94bdc7c1f9ceec599daf59c0d303721be009a140d5a7bd5f794ac8887b935ae3"
+  },
+  "status": "pass",
+  "version": "2026.08.29-complete-r1",
+  "workflow": "o011-verify-source-package-complete-v1"
+}

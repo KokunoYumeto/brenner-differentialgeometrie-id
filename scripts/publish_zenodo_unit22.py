@@ -755,7 +755,9 @@ def paginated_hits(client: httpx.Client, initial_url: str, label: str) -> list[d
 def version_hits(client: httpx.Client, seed_id: int) -> list[dict[str, Any]]:
     hits = paginated_hits(
         client,
-        f"https://zenodo.org/api/records/{seed_id}/versions?size=100&page=1",
+        # Zenodo limits anonymous record searches to 25 results per page;
+        # paginated_hits follows every server-provided next link.
+        f"https://zenodo.org/api/records/{seed_id}/versions?size=25&page=1",
         "anonymous concept-version listing",
     )
     return [item for item in hits if isinstance(item, dict) and concept_id(item) == str(CONCEPT_ID)]
@@ -1037,7 +1039,7 @@ def main() -> int:
         try:
             hits = paginated_hits(
                 auth,
-                "https://zenodo.org/api/user/records?q=is_published:false&size=100&page=1",
+                "https://zenodo.org/api/user/records?q=is_published:false&size=25&page=1",
                 "authenticated draft listing",
             )
             drafts = [

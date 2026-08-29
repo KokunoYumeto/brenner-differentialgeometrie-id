@@ -1,0 +1,151 @@
+{
+  "authentication_used_for_public_readback": false,
+  "authentication_used_for_publication_path": true,
+  "concept_doi": "10.5281/zenodo.22059977",
+  "concept_record_id": 22059977,
+  "coverage": "complete_edition",
+  "doi": "10.5281/zenodo.22160677",
+  "draft": {
+    "id": 22160677,
+    "origin": "created_from_exact_unit22_predecessor",
+    "uploads": [
+      {
+        "name": "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+        "status": "uploaded_exact"
+      },
+      {
+        "name": "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260828.zip",
+        "status": "uploaded_exact"
+      },
+      {
+        "name": "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-20260828.zip",
+        "status": "uploaded_exact"
+      },
+      {
+        "name": "LICENSE.md",
+        "status": "uploaded_exact"
+      },
+      {
+        "name": "RELEASE_NOTES_COMPLETE_20260828.md",
+        "status": "uploaded_exact"
+      },
+      {
+        "name": "FILE_MANIFEST.json",
+        "status": "uploaded_exact"
+      },
+      {
+        "name": "SHA256SUMS.txt",
+        "status": "uploaded_exact"
+      }
+    ]
+  },
+  "files": [
+    {
+      "bytes": 10525469,
+      "download_url": "https://zenodo.org/api/records/22160677/files/geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf/content",
+      "matches_local": true,
+      "md5": "4cba2c66152b736e1b1aafe880156dac",
+      "name": "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+      "sha256": "26f19153db2ca08851e182202900a8371f1816b428f8fe7321b35de60b9c84ef"
+    },
+    {
+      "bytes": 7753152,
+      "download_url": "https://zenodo.org/api/records/22160677/files/geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260828.zip/content",
+      "matches_local": true,
+      "md5": "2835d92e19f29935980b3e7da0d4fe80",
+      "name": "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260828.zip",
+      "sha256": "95ceda19a190685b30deebe6dedc25c2efc99e95e243c9ba36b154b732a2264e"
+    },
+    {
+      "bytes": 69147984,
+      "download_url": "https://zenodo.org/api/records/22160677/files/geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-20260828.zip/content",
+      "matches_local": true,
+      "md5": "7a95c9f50a4920de40125c644fdf1772",
+      "name": "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-20260828.zip",
+      "sha256": "051324674c298cfb261dac7b8b98b0d316ea4bca948eb3f1224fc2162fb163c7"
+    },
+    {
+      "bytes": 2541,
+      "download_url": "https://zenodo.org/api/records/22160677/files/LICENSE.md/content",
+      "matches_local": true,
+      "md5": "b1574dd54b73f8049b24b54db0b8e4be",
+      "name": "LICENSE.md",
+      "sha256": "a94ce827c5d341484525e056d4f6c69649cbc676cf454198b574cc6fe5922691"
+    },
+    {
+      "bytes": 2793,
+      "download_url": "https://zenodo.org/api/records/22160677/files/RELEASE_NOTES_COMPLETE_20260828.md/content",
+      "matches_local": true,
+      "md5": "b191198e55860780b7ed9074776a23f1",
+      "name": "RELEASE_NOTES_COMPLETE_20260828.md",
+      "sha256": "af93251854d80ba7e5d6f00fb751857907067529c8a5b7449fedb4da25b586e0"
+    },
+    {
+      "bytes": 1626,
+      "download_url": "https://zenodo.org/api/records/22160677/files/FILE_MANIFEST.json/content",
+      "matches_local": true,
+      "md5": "307538e179b17902b3a174955d65576d",
+      "name": "FILE_MANIFEST.json",
+      "sha256": "8896c2a508e8a86ab8239a91b933fa2e1dec425ef3ef68078fd9a902ab281494"
+    },
+    {
+      "bytes": 664,
+      "download_url": "https://zenodo.org/api/records/22160677/files/SHA256SUMS.txt/content",
+      "matches_local": true,
+      "md5": "40d1c40c82adf01d41ff2b83bd5841f4",
+      "name": "SHA256SUMS.txt",
+      "sha256": "9a24919351632b93e51cccb54c3af64b52b0174eec9932e04323a4127254c947"
+    }
+  ],
+  "metadata_title": "Geometri Diferensial dan Manifold Mulus \u2014 Edisi Bahasa Indonesia",
+  "pdf_default_preview": "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+  "pdf_default_preview_verified": true,
+  "predecessor_boundary": {
+    "default_preview": "geometri-diferensial-manifold-mulus-hingga-unit-22-id.pdf",
+    "doi": "10.5281/zenodo.22146873",
+    "file_count": 7,
+    "file_order": [
+      "FILE_MANIFEST.json",
+      "geometri-diferensial-manifold-mulus-hingga-unit-22-id.pdf",
+      "geometri-diferensial-manifold-mulus-unit22-html-20260828.zip",
+      "geometri-diferensial-manifold-mulus-unit22-source-20260828.zip",
+      "LICENSE.md",
+      "RELEASE_NOTES_UNIT22_20260828.md",
+      "SHA256SUMS.txt"
+    ],
+    "record_id": 22146873,
+    "status": "pass",
+    "version": "2026.08.28-unit22"
+  },
+  "predecessor_record_id": 22146873,
+  "public_file_order": [
+    "LICENSE.md",
+    "RELEASE_NOTES_COMPLETE_20260828.md",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260828.zip",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-20260828.zip",
+    "FILE_MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "publication_action": "published_new_version",
+  "reader_content_extended_from_predecessor": true,
+  "reader_first_order": [
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260828.zip",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-20260828.zip",
+    "LICENSE.md",
+    "RELEASE_NOTES_COMPLETE_20260828.md",
+    "FILE_MANIFEST.json",
+    "SHA256SUMS.txt"
+  ],
+  "record_id": 22160677,
+  "record_url": "https://zenodo.org/records/22160677",
+  "release_preparation_receipt_sha256": "161f4d57fb6432ab0428c9cc4164925090cddd714fef0b9e245d2d2667a52cae",
+  "remote_state_mutated": true,
+  "schema_version": 1,
+  "source_package_integrity_receipt_sha256": "5f6eecdae0542b42ee06745db0fbc8733f9e2e305017d976bd1b1622a9b35096",
+  "status": "pass",
+  "verified_at_utc": "2026-08-29T11:07:35.834203+00:00",
+  "version": "2026.08.28-complete",
+  "workflow": "o011-publish-zenodo-complete-v1"
+}

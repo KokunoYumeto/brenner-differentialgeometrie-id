@@ -27,13 +27,13 @@ def load_unit22() -> Any:
 U = load_unit22()
 B = U.B
 
-RELEASE_DATE = "2026-08-28"
-VERSION = "2026.08.28-complete"
+RELEASE_DATE = "2026-08-29"
+VERSION = "2026.08.29-complete-r1"
 TITLE = "Geometri Diferensial dan Manifold Mulus — Edisi Bahasa Indonesia"
 MODEL = "OpenAI Codex gpt-5.6-sol, Ultra"
-ZIP_TIMESTAMP = (2026, 8, 28, 0, 0, 0)
+ZIP_TIMESTAMP = (2026, 8, 29, 0, 0, 0)
 MAX_PUBLIC_BYTES = 500_000_000
-PREDECESSOR_RECORD_ID = 22146873
+PREDECESSOR_RECORD_ID = 22160677
 CONCEPT_RECORD_ID = 22059977
 
 PDF_REL = "output/pdf/geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf"
@@ -49,14 +49,14 @@ BACKEND_MANIFEST_REL = "backend/MANIFEST.json"
 BACKEND_QA_REL = "qa/complete/backend.json"
 LICENSE_SOURCE_REL = "qa/complete/LICENSE_RELEASE_COMPLETE.md"
 README_SOURCE_REL = "qa/complete/PACKAGE_README.md"
-NOTES_SOURCE_REL = "qa/complete/RELEASE_NOTES_COMPLETE_20260828.md"
-METADATA_REL = "qa/complete/ZENODO_METADATA_COMPLETE.json"
+NOTES_SOURCE_REL = "qa/complete/RELEASE_NOTES_COMPLETE_R1_20260829.md"
+METADATA_REL = "qa/complete/ZENODO_METADATA_COMPLETE_R1.json"
 
 PDF_NAME = "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf"
-HTML_ZIP_NAME = "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260828.zip"
-SOURCE_ZIP_NAME = "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-20260828.zip"
+HTML_ZIP_NAME = "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260829.zip"
+SOURCE_ZIP_NAME = "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-r1-20260829.zip"
 LICENSE_NAME = "LICENSE.md"
-NOTES_NAME = "RELEASE_NOTES_COMPLETE_20260828.md"
+NOTES_NAME = "RELEASE_NOTES_COMPLETE_R1_20260829.md"
 MANIFEST_NAME = "FILE_MANIFEST.json"
 CHECKSUMS_NAME = "SHA256SUMS.txt"
 PUBLIC_FILE_ORDER = (
@@ -68,8 +68,8 @@ PUBLIC_FILE_ORDER = (
     MANIFEST_NAME,
     CHECKSUMS_NAME,
 )
-DEFAULT_OUTPUT_REL = "output/release-complete"
-DEFAULT_RECEIPT_REL = "qa/complete/RELEASE_PREPARATION_RECEIPT.json"
+DEFAULT_OUTPUT_REL = "output/release-complete-r1"
+DEFAULT_RECEIPT_REL = "qa/complete/RELEASE_PREPARATION_RECEIPT_R1.json"
 
 SCRIPT_PATHS = (
     "scripts/build_complete_reader.ps1",
@@ -135,6 +135,7 @@ FIXED_SUPPORT_PATHS = (
     "output/release-unit13-r1/geometri-diferensial-manifold-mulus-brenner-id-unit13-html-20260825.zip",
     "qa/unit-19/HTML_READER_QA.json",
     "qa/unit-22/ZENODO_PUBLIC_READBACK_RECEIPT.json",
+    "qa/complete/ZENODO_PUBLIC_READBACK_RECEIPT.json",
 )
 
 

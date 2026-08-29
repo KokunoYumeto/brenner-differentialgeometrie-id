@@ -19,20 +19,20 @@ from typing import Any
 OWNER = "KokunoYumeto"
 REPOSITORY = "brenner-differentialgeometrie-id"
 REPOSITORY_URL = f"https://github.com/{OWNER}/{REPOSITORY}"
-TAG = "v1.0.0"
-PREDECESSOR_TAG = "v0.22.0-unit-22"
-RELEASE_TITLE = "Geometri Diferensial dan Manifold Mulus — Edisi Lengkap Bahasa Indonesia"
-RELEASE_VERSION = "2026.08.28-complete"
+TAG = "v1.0.1"
+PREDECESSOR_TAG = "v1.0.0"
+RELEASE_TITLE = "Geometri Diferensial dan Manifold Mulus — Edisi Lengkap Bahasa Indonesia (v1.0.1)"
+RELEASE_VERSION = "2026.08.29-complete-r1"
 WORKFLOW = "o011-github-complete-release-v1"
-DEFAULT_METADATA = Path("qa/complete/GITHUB_RELEASE_METADATA.json")
-DEFAULT_PUBLICATION_RECEIPT = Path("qa/complete/GITHUB_PUBLICATION_RECEIPT.json")
-DEFAULT_READBACK_RECEIPT = Path("qa/complete/GITHUB_PUBLIC_READBACK_RECEIPT.json")
+DEFAULT_METADATA = Path("qa/complete/GITHUB_RELEASE_METADATA_R1.json")
+DEFAULT_PUBLICATION_RECEIPT = Path("qa/complete/GITHUB_PUBLICATION_RECEIPT_R1.json")
+DEFAULT_READBACK_RECEIPT = Path("qa/complete/GITHUB_PUBLIC_READBACK_RECEIPT_R1.json")
 EXPECTED_ORDER = [
     "geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
-    "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260828.zip",
-    "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-20260828.zip",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-html-20260829.zip",
+    "geometri-diferensial-manifold-mulus-edisi-lengkap-source-backend-r1-20260829.zip",
     "LICENSE.md",
-    "RELEASE_NOTES_COMPLETE_20260828.md",
+    "RELEASE_NOTES_COMPLETE_R1_20260829.md",
     "FILE_MANIFEST.json",
     "SHA256SUMS.txt",
 ]
@@ -222,7 +222,7 @@ def load_release_plan(root: Path, metadata_path: Path) -> ReleasePlan:
         or notes_path.parent != release_dir
         or manifest_path.name != "FILE_MANIFEST.json"
         or sums_path.name != "SHA256SUMS.txt"
-        or notes_path.name != "RELEASE_NOTES_COMPLETE_20260828.md"
+        or notes_path.name != EXPECTED_ORDER[4]
     ):
         fail("GitHub release metadata points outside the exact release directory")
     if not release_dir.is_dir():

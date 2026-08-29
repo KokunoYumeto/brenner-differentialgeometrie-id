@@ -125,6 +125,23 @@ function Test-PassStatus {
     return ($Receipt.status -eq 'pass' -or $Receipt.passed -eq $true)
 }
 
+function Replace-ExactlyOnce {
+    param(
+        [Parameter(Mandatory)][string]$Text,
+        [Parameter(Mandatory)][string]$Old,
+        [Parameter(Mandatory)][string]$New,
+        [Parameter(Mandatory)][string]$Label
+    )
+    $first = $Text.IndexOf($Old, [StringComparison]::Ordinal)
+    if ($first -lt 0) {
+        throw "Complete-reader scaffolding source is missing: $Label"
+    }
+    if ($Text.IndexOf($Old, $first + $Old.Length, [StringComparison]::Ordinal) -ge 0) {
+        throw "Complete-reader scaffolding source is duplicated: $Label"
+    }
+    return $Text.Substring(0, $first) + $New + $Text.Substring($first + $Old.Length)
+}
+
 function Get-BoundedTargetHash {
     param([Parameter(Mandatory)][object]$Receipt)
     if ($null -ne $Receipt.target_sha256 -and [string]$Receipt.target_sha256 -ne '') {
@@ -385,6 +402,34 @@ if ($markerIndex -lt 0 -or $prefixText.IndexOf($backmatterMarker, $markerIndex +
 }
 $prefixHeadText = $prefixText.Substring(0, $markerIndex)
 $suffixText = $prefixText.Substring($markerIndex)
+$scaffoldingReplacements = @(
+    [ordered]@{
+        label = 'visible title and pdfusetitle source'
+        old = '\title{Geometri Diferensial dan Manifold Mulus\\\large Pembaca kumulatif hingga Unit 22}'
+        new = '\title{Geometri Diferensial dan Manifold Mulus\\\large Edisi Lengkap Bahasa Indonesia}'
+    },
+    [ordered]@{
+        label = 'edition-scope opening paragraph'
+        old = 'Pembaca kumulatif ini menerjemahkan Kuliah 1--22 dan Lembar Kerja 1--22 dari kursus Holger Brenner di Wikiversity berbahasa Jerman. Teks sumber digunakan berdasarkan CC BY-SA 4.0. Terjemahan ini merupakan karya independen dan bukan edisi resmi atau dukungan dari penulis maupun Wikiversity. Setiap gambar mengikuti status hak atau lisensi berkasnya sendiri, yang dicatat pada daftar gambar dan manifest media.'
+        new = 'Pembaca lengkap ini menerjemahkan seluruh 29 Kuliah dan 29 Lembar Kerja dari kursus Holger Brenner di Wikiversity berbahasa Jerman. Selain inti terjemahan, edisi ini memuat sepuluh formulir ujian resmi beserta solusi sumber yang tersedia, serta dua jembatan dan enam perbaikan solusi yang ditulis khusus untuk edisi ini dan diberi label terpisah. Teks sumber digunakan berdasarkan CC BY-SA 4.0. Terjemahan ini merupakan karya independen dan bukan edisi resmi atau dukungan dari penulis maupun Wikiversity. Setiap gambar mengikuti status hak atau lisensi berkasnya sendiri, yang dicatat pada daftar gambar dan manifest media.'
+    },
+    [ordered]@{
+        label = 'solution-provenance scope paragraph'
+        old = 'Sumber permanen dan hash revisi dicatat dalam berkas kontrol edisi ini. Rumus, urutan, latihan, penanda solusi, dan atribusi media dipertahankan; ID mesin hanya merupakan lapisan tambahan. Bagian solusi hanya memuat solusi yang benar-benar disediakan oleh sumber.'
+        new = 'Sumber permanen dan hash revisi dicatat dalam berkas kontrol edisi ini. Rumus, urutan, latihan, penanda solusi, dan atribusi media dipertahankan; ID mesin hanya merupakan lapisan tambahan. Solusi yang disediakan sumber dipisahkan secara eksplisit dari 38 butir solusi asli edisi ini.'
+    }
+)
+$derivedPrefixHeadText = $prefixHeadText
+foreach ($replacement in $scaffoldingReplacements) {
+    $derivedPrefixHeadText = Replace-ExactlyOnce -Text $derivedPrefixHeadText -Old $replacement.old -New $replacement.new -Label $replacement.label
+}
+$restoredPrefixHeadText = $derivedPrefixHeadText
+foreach ($replacement in $scaffoldingReplacements) {
+    $restoredPrefixHeadText = Replace-ExactlyOnce -Text $restoredPrefixHeadText -Old $replacement.new -New $replacement.old -Label ('reverse ' + $replacement.label)
+}
+if ($restoredPrefixHeadText -cne $prefixHeadText) {
+    throw 'Complete-reader scaffolding replacements are not exactly reversible to the frozen Unit 22 prefix'
+}
 $attributionMarker = '\input{generated/unit22-media-attribution-cumulative.tex}'
 if (($suffixText.Split($attributionMarker).Count - 1) -ne 1) {
     throw 'Frozen Unit 22 suffix must contain exactly one Unit 22 attribution marker'
@@ -394,17 +439,18 @@ foreach ($unit in 23..29) {
     $additionalAttribution.Add('\input{generated/unit' + $unit + '-media-attribution-complete.tex}')
 }
 $suffixText = $suffixText.Replace($attributionMarker, $attributionMarker + "`n" + ($additionalAttribution -join "`n"))
-$driverText = $prefixHeadText + $extensionText + $suffixText
+$driverText = $derivedPrefixHeadText + $extensionText + $suffixText
 [IO.File]::WriteAllBytes($driverPath, $utf8NoBom.GetBytes($driverText))
 
 $prefixHeadBytes = $utf8NoBom.GetBytes($prefixHeadText)
+$derivedPrefixHeadBytes = $utf8NoBom.GetBytes($derivedPrefixHeadText)
 $driverBytes = [IO.File]::ReadAllBytes($driverPath)
-if ($driverBytes.Length -lt $prefixHeadBytes.Length) {
-    throw 'Derived complete driver is shorter than the frozen Unit 22 prefix head'
+if ($driverBytes.Length -lt $derivedPrefixHeadBytes.Length) {
+    throw 'Derived complete driver is shorter than the controlled complete-edition prefix head'
 }
-for ($index = 0; $index -lt $prefixHeadBytes.Length; $index++) {
-    if ($driverBytes[$index] -ne $prefixHeadBytes[$index]) {
-        throw "Derived complete driver changed the frozen Unit 22 prefix at byte $index"
+for ($index = 0; $index -lt $derivedPrefixHeadBytes.Length; $index++) {
+    if ($driverBytes[$index] -ne $derivedPrefixHeadBytes[$index]) {
+        throw "Derived complete driver changed the controlled complete-edition prefix at byte $index"
     }
 }
 if ($driverText.IndexOf('\usepackage[a4paper,margin=22mm,headheight=15pt]{geometry}', [StringComparison]::Ordinal) -lt 0) {
@@ -413,15 +459,26 @@ if ($driverText.IndexOf('\usepackage[a4paper,margin=22mm,headheight=15pt]{geomet
 
 $prefixHeadTemp = Join-Path $workDir 'unit22-prefix-head.bin'
 [IO.File]::WriteAllBytes($prefixHeadTemp, $prefixHeadBytes)
+$derivedPrefixHeadTemp = Join-Path $workDir 'complete-prefix-head.bin'
+[IO.File]::WriteAllBytes($derivedPrefixHeadTemp, $derivedPrefixHeadBytes)
 $driverReceipt = [ordered]@{
     schema_version = 1
     workflow = 'o011-complete-reader-driver-derivation-v1'
     frozen_input = $prefixFrozen.driver
     preserved_prefix = [ordered]@{
-        boundary = 'all frozen driver bytes before the unique backmatter command'
-        bytes = $prefixHeadBytes.Length
-        sha256 = (Get-FileHash -LiteralPath $prefixHeadTemp -Algorithm SHA256).Hash.ToLowerInvariant()
-        byte_identical = $true
+        boundary = 'all frozen driver bytes before the unique backmatter command except three exact, reversible complete-edition scaffolding substitutions'
+        frozen = [ordered]@{
+            bytes = $prefixHeadBytes.Length
+            sha256 = (Get-FileHash -LiteralPath $prefixHeadTemp -Algorithm SHA256).Hash.ToLowerInvariant()
+        }
+        derived = [ordered]@{
+            bytes = $derivedPrefixHeadBytes.Length
+            sha256 = (Get-FileHash -LiteralPath $derivedPrefixHeadTemp -Algorithm SHA256).Hash.ToLowerInvariant()
+        }
+        byte_identical = $false
+        controlled_replacement_count = $scaffoldingReplacements.Count
+        replacements = $scaffoldingReplacements
+        exactly_reversible = $true
     }
     output = [ordered]@{ path = 'build/generated/complete-reader-driver.tex'; identity = (Get-Identity -Path $driverPath) }
     geometry = [ordered]@{ paper = 'A4'; margin = '22mm'; centered = $true; class_option = 'oneside' }

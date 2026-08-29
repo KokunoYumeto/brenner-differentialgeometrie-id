@@ -4,26 +4,26 @@
     "cycles": [
       {
         "actual": {
-          "bytes": 10525469,
-          "sha256": "26f19153db2ca08851e182202900a8371f1816b428f8fe7321b35de60b9c84ef"
+          "bytes": 10524618,
+          "sha256": "e0b416d91dfa8de4d5fbf7d84add34cfb3b57adde4645f60c4bc0a0609f5bd2f"
         },
         "cycle": 1,
         "declared": {
-          "bytes": 10525469,
-          "sha256": "26f19153db2ca08851e182202900a8371f1816b428f8fe7321b35de60b9c84ef"
+          "bytes": 10524618,
+          "sha256": "e0b416d91dfa8de4d5fbf7d84add34cfb3b57adde4645f60c4bc0a0609f5bd2f"
         },
         "passed": true,
         "path": "build/complete-work/cycle-1.pdf"
       },
       {
         "actual": {
-          "bytes": 10525469,
-          "sha256": "26f19153db2ca08851e182202900a8371f1816b428f8fe7321b35de60b9c84ef"
+          "bytes": 10524618,
+          "sha256": "e0b416d91dfa8de4d5fbf7d84add34cfb3b57adde4645f60c4bc0a0609f5bd2f"
         },
         "cycle": 2,
         "declared": {
-          "bytes": 10525469,
-          "sha256": "26f19153db2ca08851e182202900a8371f1816b428f8fe7321b35de60b9c84ef"
+          "bytes": 10524618,
+          "sha256": "e0b416d91dfa8de4d5fbf7d84add34cfb3b57adde4645f60c4bc0a0609f5bd2f"
         },
         "passed": true,
         "path": "build/complete-work/cycle-2.pdf"
@@ -670,12 +670,12 @@
       },
       {
         "actual": {
-          "bytes": 29827,
-          "sha256": "1013e95c5ef34de8b47710c7175f323770a7225a3de1cf4fb11a1be1a394f019"
+          "bytes": 30060,
+          "sha256": "e00cd2d4288b1ad39c12a73ccd88adb5c95bbccb6bab27e492de795f2c3c2f7f"
         },
         "declared": {
-          "bytes": 29827,
-          "sha256": "1013e95c5ef34de8b47710c7175f323770a7225a3de1cf4fb11a1be1a394f019"
+          "bytes": 30060,
+          "sha256": "e00cd2d4288b1ad39c12a73ccd88adb5c95bbccb6bab27e492de795f2c3c2f7f"
         },
         "passed": true,
         "path": "build/complete-stage/build/generated/complete-reader-driver.tex",
@@ -3647,12 +3647,12 @@
       },
       {
         "actual": {
-          "bytes": 29827,
-          "sha256": "1013e95c5ef34de8b47710c7175f323770a7225a3de1cf4fb11a1be1a394f019"
+          "bytes": 30060,
+          "sha256": "e00cd2d4288b1ad39c12a73ccd88adb5c95bbccb6bab27e492de795f2c3c2f7f"
         },
         "declared": {
-          "bytes": 29827,
-          "sha256": "1013e95c5ef34de8b47710c7175f323770a7225a3de1cf4fb11a1be1a394f019"
+          "bytes": 30060,
+          "sha256": "e00cd2d4288b1ad39c12a73ccd88adb5c95bbccb6bab27e492de795f2c3c2f7f"
         },
         "passed": true,
         "path": "build/generated/complete-reader-driver.tex",
@@ -6676,12 +6676,12 @@
       },
       {
         "actual": {
-          "bytes": 1565,
-          "sha256": "c4c566317452a8dd0166c2fa5454d4167d22b44742cca72debb64fd90e700246"
+          "bytes": 4007,
+          "sha256": "c63cae90487dde58115c2f41fa9d94bc65d01fcf6b2702364c829c4b1eebe501"
         },
         "declared": {
-          "bytes": 1565,
-          "sha256": "c4c566317452a8dd0166c2fa5454d4167d22b44742cca72debb64fd90e700246"
+          "bytes": 4007,
+          "sha256": "c63cae90487dde58115c2f41fa9d94bc65d01fcf6b2702364c829c4b1eebe501"
         },
         "passed": true,
         "path": "qa/complete/driver_derivation.json",
@@ -7326,12 +7326,12 @@
       },
       {
         "actual": {
-          "bytes": 36425,
-          "sha256": "511ce8c300f5a0b108b3593e5aa5cb1c1441508edbe3e952b5d9a6c10c84fdd5"
+          "bytes": 40607,
+          "sha256": "400b3384e5ffa8614a69f6e8eac86bdf90ead416467013950586faa78c195dde"
         },
         "declared": {
-          "bytes": 36425,
-          "sha256": "511ce8c300f5a0b108b3593e5aa5cb1c1441508edbe3e952b5d9a6c10c84fdd5"
+          "bytes": 40607,
+          "sha256": "400b3384e5ffa8614a69f6e8eac86bdf90ead416467013950586faa78c195dde"
         },
         "passed": true,
         "path": "scripts/build_complete_reader.ps1",
@@ -7352,12 +7352,12 @@
       },
       {
         "actual": {
-          "bytes": 29725,
-          "sha256": "4180fe77f9eecab02a423b08d12df295ac56a9a033175dc59fb6f238f63ffa47"
+          "bytes": 34691,
+          "sha256": "9d76754a995b81ea5222189e58f72cfb0992aa17f0e72612e04acfed49e0b18d"
         },
         "declared": {
-          "bytes": 29725,
-          "sha256": "4180fe77f9eecab02a423b08d12df295ac56a9a033175dc59fb6f238f63ffa47"
+          "bytes": 34691,
+          "sha256": "9d76754a995b81ea5222189e58f72cfb0992aa17f0e72612e04acfed49e0b18d"
         },
         "passed": true,
         "path": "scripts/verify_complete_reader.py",
@@ -8133,19 +8133,19 @@
     ],
     "output": {
       "actual": {
-        "bytes": 10525469,
-        "sha256": "26f19153db2ca08851e182202900a8371f1816b428f8fe7321b35de60b9c84ef"
+        "bytes": 10524618,
+        "sha256": "e0b416d91dfa8de4d5fbf7d84add34cfb3b57adde4645f60c4bc0a0609f5bd2f"
       },
       "declared": {
-        "bytes": 10525469,
+        "bytes": 10524618,
         "path": "output/pdf/geometri-diferensial-manifold-mulus-edisi-lengkap-id.pdf",
-        "sha256": "26f19153db2ca08851e182202900a8371f1816b428f8fe7321b35de60b9c84ef"
+        "sha256": "e0b416d91dfa8de4d5fbf7d84add34cfb3b57adde4645f60c4bc0a0609f5bd2f"
       },
       "passed": true
     },
     "receipt": {
-      "bytes": 155378,
-      "sha256": "ebb824cdcc98d593c090cdea7699618abcfd8a357041bea1827a26aaf5e7172f"
+      "bytes": 157870,
+      "sha256": "3ed6ecab0416a94213dbeb32ddea6e5eb0b9b0b9f427ef1e377403cabed7908e"
     },
     "required_inputs_missing": []
   },
@@ -8209,8 +8209,8 @@
     "geometry_failures": [],
     "german_exam_surface_hits": {},
     "identity": {
-      "bytes": 10525469,
-      "sha256": "26f19153db2ca08851e182202900a8371f1816b428f8fe7321b35de60b9c84ef"
+      "bytes": 10524618,
+      "sha256": "e0b416d91dfa8de4d5fbf7d84add34cfb3b57adde4645f60c4bc0a0609f5bd2f"
     },
     "javascript_name_tree": false,
     "maximum_overfull_hbox_points": 381.67569,
@@ -8220,198 +8220,200 @@
       "/Keywords": "",
       "/Producer": "MiKTeX pdfTeX-1.40.29",
       "/Subject": "",
-      "/Title": "Geometri Diferensial dan Manifold Mulus Pembaca kumulatif hingga Unit 22",
+      "/Title": "Geometri Diferensial dan Manifold Mulus Edisi Lengkap Bahasa Indonesia",
       "/Trapped": "/False"
     },
+    "metadata_title_expected": "Geometri Diferensial dan Manifold Mulus Edisi Lengkap Bahasa Indonesia",
+    "metadata_title_passed": true,
     "ordered_sentinels": [
       {
         "passed": true,
-        "position": 426317,
+        "position": 426552,
         "text": "Solusi Soal 22.6"
       },
       {
         "passed": true,
-        "position": 426549,
+        "position": 426784,
         "text": "Kelanjutan Edisi Lengkap"
       },
       {
         "passed": true,
-        "position": 426612,
+        "position": 426847,
         "text": "Unit 23"
       },
       {
         "passed": true,
-        "position": 449474,
+        "position": 449709,
         "text": "Unit 24"
       },
       {
         "passed": true,
-        "position": 466077,
+        "position": 466312,
         "text": "Unit 25"
       },
       {
         "passed": true,
-        "position": 490350,
+        "position": 490585,
         "text": "Unit 26"
       },
       {
         "passed": true,
-        "position": 508142,
+        "position": 508377,
         "text": "Unit 27"
       },
       {
         "passed": true,
-        "position": 529572,
+        "position": 529807,
         "text": "Unit 28"
       },
       {
         "passed": true,
-        "position": 539784,
+        "position": 540019,
         "text": "Unit 29"
       },
       {
         "passed": true,
-        "position": 549410,
+        "position": 549645,
         "text": "Jembatan Asli"
       },
       {
         "passed": true,
-        "position": 549435,
+        "position": 549670,
         "text": "Jembatan Grup Lie dan Aljabar Lie"
       },
       {
         "passed": true,
-        "position": 573512,
+        "position": 573747,
         "text": "Jembatan Kohomologi de Rham dan Topologi Diferensial"
       },
       {
         "passed": true,
-        "position": 594901,
+        "position": 595136,
         "text": "Formulir Ujian"
       },
       {
         "passed": true,
-        "position": 595206,
+        "position": 595441,
         "text": "Formulir Peserta Ujian 1"
       },
       {
         "passed": true,
-        "position": 599876,
+        "position": 600111,
         "text": "Formulir Peserta Ujian 2"
       },
       {
         "passed": true,
-        "position": 603298,
+        "position": 603533,
         "text": "Formulir Peserta Ujian 3"
       },
       {
         "passed": true,
-        "position": 607391,
+        "position": 607626,
         "text": "Formulir Peserta Ujian 4"
       },
       {
         "passed": true,
-        "position": 611784,
+        "position": 612019,
         "text": "Formulir Peserta Ujian 5"
       },
       {
         "passed": true,
-        "position": 616230,
+        "position": 616465,
         "text": "Formulir Peserta Ujian 6"
       },
       {
         "passed": true,
-        "position": 620233,
+        "position": 620468,
         "text": "Formulir Peserta Ujian 7"
       },
       {
         "passed": true,
-        "position": 623982,
+        "position": 624217,
         "text": "Formulir Peserta Ujian 8"
       },
       {
         "passed": true,
-        "position": 627993,
+        "position": 628228,
         "text": "Formulir Peserta Ujian 9"
       },
       {
         "passed": true,
-        "position": 633236,
+        "position": 633471,
         "text": "Formulir Peserta Ujian 10"
       },
       {
         "passed": true,
-        "position": 638221,
+        "position": 638456,
         "text": "Formulir Solusi Resmi"
       },
       {
         "passed": true,
-        "position": 638493,
+        "position": 638728,
         "text": "Formulir Solusi Resmi Ujian 1"
       },
       {
         "passed": true,
-        "position": 653100,
+        "position": 653335,
         "text": "Formulir Solusi Resmi Ujian 2"
       },
       {
         "passed": true,
-        "position": 667863,
+        "position": 668098,
         "text": "Formulir Solusi Resmi Ujian 3"
       },
       {
         "passed": true,
-        "position": 683577,
+        "position": 683812,
         "text": "Formulir Solusi Resmi Ujian 4"
       },
       {
         "passed": true,
-        "position": 698107,
+        "position": 698342,
         "text": "Formulir Solusi Resmi Ujian 5"
       },
       {
         "passed": true,
-        "position": 711594,
+        "position": 711829,
         "text": "Formulir Solusi Resmi Ujian 6"
       },
       {
         "passed": true,
-        "position": 725695,
+        "position": 725930,
         "text": "Formulir Solusi Resmi Ujian 7"
       },
       {
         "passed": true,
-        "position": 738372,
+        "position": 738607,
         "text": "Formulir Solusi Resmi Ujian 8"
       },
       {
         "passed": true,
-        "position": 752052,
+        "position": 752287,
         "text": "Formulir Solusi Resmi Ujian 9"
       },
       {
         "passed": true,
-        "position": 767438,
+        "position": 767673,
         "text": "Formulir Solusi Resmi Ujian 10"
       },
       {
         "passed": true,
-        "position": 783673,
+        "position": 783908,
         "text": "Perbaikan Asli yang Terpisah"
       },
       {
         "passed": true,
-        "position": 783713,
+        "position": 783948,
         "text": "Enam solusi asli untuk kekosongan sumber"
       },
       {
         "passed": true,
-        "position": 795749,
+        "position": 795984,
         "text": "Atribusi dan Hak Media"
       },
       {
         "passed": true,
-        "position": 808563,
+        "position": 808798,
         "text": "Lisensi"
       }
     ],
@@ -8441,13 +8443,19 @@
     "rotations": {
       "0": 712
     },
+    "stale_complete_scaffolding": [],
     "text_extraction_errors": [],
-    "unsafe_actions": []
+    "unsafe_actions": [],
+    "visible_complete_scope": {
+      "29-lecture and 29-worksheet scope": true,
+      "38 original solution items distinguished": true,
+      "complete title": true
+    }
   },
   "prefix_and_driver": {
     "driver": {
-      "bytes": 29827,
-      "sha256": "1013e95c5ef34de8b47710c7175f323770a7225a3de1cf4fb11a1be1a394f019"
+      "bytes": 30060,
+      "sha256": "e00cd2d4288b1ad39c12a73ccd88adb5c95bbccb6bab27e492de795f2c3c2f7f"
     },
     "exam_macro_german_literal_hits": [],
     "exam_macro_localization": {
@@ -8519,10 +8527,36 @@
     "media_attribution_ordered": true,
     "prepare_unit_tex_lie_delimiter_fix_present": true,
     "preserved_prefix": {
-      "boundary": "before unique backmatter command",
-      "byte_identical": true,
-      "bytes": 15993,
-      "sha256": "97ce1a21fd0d4b152083fd3b0c63bf92a493adf88a1a60d51763440ca7e09fd7"
+      "boundary": "before unique backmatter command, except exact complete-edition scaffolding substitutions",
+      "byte_identical": false,
+      "controlled_prefix_equal": true,
+      "controlled_replacement_count": 3,
+      "derived": {
+        "bytes": 16226,
+        "sha256": "aeaa319fc6d826b2294b30d117b1c3b0579c88d75107f964f4217206ea14bd39"
+      },
+      "exactly_reversible": true,
+      "frozen": {
+        "bytes": 15993,
+        "sha256": "97ce1a21fd0d4b152083fd3b0c63bf92a493adf88a1a60d51763440ca7e09fd7"
+      },
+      "replacements": [
+        {
+          "source": "\\title{Geometri Diferensial dan Manifold Mulus\\\\\\large Pembaca kumulatif hingga Unit 22}",
+          "source_occurrences": 1,
+          "target": "\\title{Geometri Diferensial dan Manifold Mulus\\\\\\large Edisi Lengkap Bahasa Indonesia}"
+        },
+        {
+          "source": "Pembaca kumulatif ini menerjemahkan Kuliah 1--22 dan Lembar Kerja 1--22 dari kursus Holger Brenner di Wikiversity berbahasa Jerman. Teks sumber digunakan berdasarkan CC BY-SA 4.0. Terjemahan ini merupakan karya independen dan bukan edisi resmi atau dukungan dari penulis maupun Wikiversity. Setiap gambar mengikuti status hak atau lisensi berkasnya sendiri, yang dicatat pada daftar gambar dan manifest media.",
+          "source_occurrences": 1,
+          "target": "Pembaca lengkap ini menerjemahkan seluruh 29 Kuliah dan 29 Lembar Kerja dari kursus Holger Brenner di Wikiversity berbahasa Jerman. Selain inti terjemahan, edisi ini memuat sepuluh formulir ujian resmi beserta solusi sumber yang tersedia, serta dua jembatan dan enam perbaikan solusi yang ditulis khusus untuk edisi ini dan diberi label terpisah. Teks sumber digunakan berdasarkan CC BY-SA 4.0. Terjemahan ini merupakan karya independen dan bukan edisi resmi atau dukungan dari penulis maupun Wikiversity. Setiap gambar mengikuti status hak atau lisensi berkasnya sendiri, yang dicatat pada daftar gambar dan manifest media."
+        },
+        {
+          "source": "Sumber permanen dan hash revisi dicatat dalam berkas kontrol edisi ini. Rumus, urutan, latihan, penanda solusi, dan atribusi media dipertahankan; ID mesin hanya merupakan lapisan tambahan. Bagian solusi hanya memuat solusi yang benar-benar disediakan oleh sumber.",
+          "source_occurrences": 1,
+          "target": "Sumber permanen dan hash revisi dicatat dalam berkas kontrol edisi ini. Rumus, urutan, latihan, penanda solusi, dan atribusi media dipertahankan; ID mesin hanya merupakan lapisan tambahan. Solusi yang disediakan sumber dipisahkan secara eksplisit dari 38 butir solusi asli edisi ini."
+        }
+      ]
     },
     "provenance_phrase_counts": {
       "Catatan provenans bagian tambahan": 2,
